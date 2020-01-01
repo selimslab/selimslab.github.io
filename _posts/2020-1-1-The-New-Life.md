@@ -1,6 +1,15 @@
 ---
 layout: post
-title: You're up and running!
+title: the plan for 2020s
 ---
 
-The new life
+Starting a new decade is hopeful.
+
+```python3
+
+try:
+  win()
+if fail:
+  try_again()
+
+```
