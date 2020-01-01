@@ -5,7 +5,7 @@ title: the plan for 2020s
 
 Starting a new decade is hopeful.
 
-```python3
+```python
 
 def ask(collection, query):
     cursor = collection.find(query)
