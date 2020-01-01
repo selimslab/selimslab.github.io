@@ -5,6 +5,9 @@ title: the plan for 2020s
 
 Starting a new decade is hopeful.
 
+<script src="https://gist.github.com/nisrulz/11c0d63428b108f10c83.js"></script>
+
+
 ```python
 
 def ask(collection, query):
