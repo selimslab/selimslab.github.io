@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Summary of 0 to 1  
+title: Summary of Hackers & Painters by Paul Graham 
 ---
 
 the secret of success is looking from other's perpectives
