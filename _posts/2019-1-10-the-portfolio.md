@@ -32,7 +32,7 @@ Project summaries
 	
  <p> trained a model to classify tweets by emotions, using 6000 tweets vectorized with word2vec </p>
 
-<img src=https://selimslab.github.io/portfolio/assets/tweet.svg height=200/>
+<img src="https://selimslab.github.io/portfolio/assets/tweet.svg" height="200" />
 
 
 ## Resource allocation strategy for cognitive radio networks
@@ -40,15 +40,8 @@ Project summaries
 
 <p>Network simulation of base stations and satellites for an improved internet allocation</p>
 
-<img src=https://selimslab.github.io/portfolio/assets/sat.jpg/>
+<img src="https://selimslab.github.io/portfolio/assets/sat.jpg" >
 
-
-## Mobile Computer Vision App 
-<a href="https://github.com/selimslab/satellite"><img src="https://selimslab.github.io/portfolio/assets/git.svg"></a>
-
-<p>Network simulation of base stations and satellites for an improved internet allocation</p>
-
-<img src=https://selimslab.github.io/portfolio/assets/sat.jpg />
 
 ## Mobile Computer Vision App 
 <a href="https://github.com/selimslab/PokerFace"><img src="https://selimslab.github.io/portfolio/assets/git.svg"></a>
@@ -56,6 +49,7 @@ Project summaries
 scan barcodes, recognize text, and caption images
 
 <img src="https://selimslab.github.io/portfolio/assets/obama.jpg">
+
 
 ## Automatic Summarization
 <a href="https://github.com/selimslab/brief"><img src="https://selimslab.github.io/portfolio/assets/git.svg"></a>
