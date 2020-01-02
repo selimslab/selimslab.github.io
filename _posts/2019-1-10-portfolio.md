@@ -84,21 +84,3 @@ Automatically assigns tags to news
 Automatically assigns tags to news 
 
 <img src="https://selimslab.github.io/portfolio/assets/heavn.jpg">
-
-
-						
-		
-
-						<div class="card big crypto">
-							<div class="card-body">
-								<h2 class="card-title">Blockchain</h2>
-								<p>the source code from <a href=https://github.com/dvf/blockchain>dvf/blockchain</a> is studied and re-implemented</p>
-								<p>It is possible to code a fully functional and secure blockchain under 300 lines of code </p>
-								<a href="https://github.com/selimslab/blockchain" class="card-link">details <img class=git-svg src=assets/git.svg></a>
-								<img class="card-img-top" src=assets/block.svg>
-							</div>
-						</div>
-
-				
-
-
