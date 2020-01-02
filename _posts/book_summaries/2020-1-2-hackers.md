@@ -3,7 +3,7 @@ layout: post
 title: Summary of Hackers & Painters
 ---
 
-<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348562702l/41793.jpg" />
+<img height="250"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348562702l/41793.jpg" />
 
 the secret of success is looking from other's perpectives
 

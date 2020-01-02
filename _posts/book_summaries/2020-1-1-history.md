@@ -3,7 +3,7 @@ layout: post
 title: Summary of Skill with People by Les Giblin
 ---
 
-<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387722025l/174713.jpg" />
+<img height="250"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387722025l/174713.jpg" />
 
 life is competition
 
