@@ -3,7 +3,7 @@ layout: post
 title: Summary of The Art War by Sun Tzu 
 ---
 
-<img src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1453417993l/10534._SY475_.jpg" /> 
+<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1453417993l/10534._SY475_.jpg" /> 
 
 
 forecast victory:
