@@ -1,7 +1,10 @@
 ---
 layout: post
-title: Simple rules for building a new business
+title: Great Ideas Seem Initially Bad
+ 
 ---
+
+Simple heuristics for building a new business
 
 1. Find <b>simple solutions</b> to  <b>overlooked problems</b> that actually need to be solved.
 2. Deliver them as informally as possible.

@@ -22,6 +22,7 @@ body {
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 	border-top: 6px solid #5c6bc0;
+
 }
 
 .container {
@@ -50,10 +51,12 @@ h1 {
   a {
     color: inherit;
   }
+  color: #2c3e50;
 }
 
 h2 {
   font-size: 24px;
+  color: #2c3e50;
 }
 
 h3 {
