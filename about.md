@@ -4,5 +4,8 @@ title: About
 permalink: /about/
 ---
 
-engineer, explorer, maker
+Engineer, explorer, maker
 
+Passionate about creating high-quality software. 
+
+Running a small consultancy, delivering backend systems and data infrastructure
