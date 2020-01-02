@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Summary of The Art War by Sun Tzu 
+title: Countries are not poor because their people are lazy; their people are ‘lazy’ because they are poor
 ---
 
 <img height="250"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1312041078l/1032019.jpg" /> 
@@ -21,4 +21,3 @@ Low inflation and government prudence may be harmful for economic development
 
 Free market and democracy are not natural partners
 
-Countries are not poor because their people are lazy; their people are ‘lazy’ because they are poor
