@@ -3,7 +3,7 @@ layout: post
 title: Summary of SAPIENS by Yuval Noah Harari 
 ---
 
-<img src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1420585954l/23692271.jpg /> 
+<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1420585954l/23692271.jpg" /> 
 
 gods, nations, money, human rights, laws, justice.. are all human imagination. 
 
