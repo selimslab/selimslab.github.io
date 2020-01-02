@@ -3,7 +3,7 @@ layout: post
 title: Summary of Skill with People by Les Giblin
 ---
 
-<img src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1439993731l/1249080._SY475_.jpg />
+<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1439993731l/1249080._SY475_.jpg" />
 
 people are primarily interested in themselves
 
