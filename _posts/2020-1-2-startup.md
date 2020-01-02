@@ -22,9 +22,9 @@ The idea of having ‘‘one idea’’ is false. Team must get dozens of ideas 
 
 Great ideas are about <b>reordering existing + connecting together + right timing.</b>
 
-    Creativity is just connecting things. Creative people feel a little guilty because they just saw something obvious.
-
-    Steve Jobs
+> Creativity is just connecting things. Creative people feel a little guilty because they just saw something obvious. 
+> 
+> Steve Jobs
     
 Secret = you believe in it + most others don’t + you got the right answer
 
