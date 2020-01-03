@@ -20,8 +20,10 @@ html {
 body {
 	background: $white;
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: $gray;
 	border-top: 6px solid #5c6bc0;
+  line-height: 1.6;
+  padding: 4em 1em;
 
 }
 
