@@ -24,13 +24,9 @@ estimate -> "I will get back to you"
 
 don't rely heavily on anything 
 
-maybe keep a log of your estimates
-
-geçmişi bilmeyen tekrar eder 
+keep a log of your estimates
 
 choose good tools and know them well
-
-kendini kandırma
 
 debug -> rubber duck + visualize+ eliminate + trace + ask why 
 
@@ -41,10 +37,3 @@ At the beginning -> define requirements well
 under promise, over deliver 
 
 do not make promises 
-
-
-
-
-
-
-
