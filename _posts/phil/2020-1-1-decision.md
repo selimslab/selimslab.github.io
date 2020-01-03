@@ -50,5 +50,7 @@ It’s easy to mistake excitement for passion, motivation and ability.
 
 Face Your Problems: Don't delay.
 
+There's no such thing as a purely rational decision. 
+
 There are no silver bullets; there are no shortcuts.
 
