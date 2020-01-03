@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Summary of SAPIENS by Yuval Noah Harari 
+title: A summary of SAPIENS by Yuval Noah Harari 
 ---
 
 <img height="250"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1420585954l/23692271.jpg" /> 

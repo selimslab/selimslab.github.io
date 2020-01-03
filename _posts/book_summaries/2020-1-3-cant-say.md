@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Summary of What You Can't Say 
+title: A summary of What You Can't Say 
 tags: books
 ---
 
