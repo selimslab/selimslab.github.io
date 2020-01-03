@@ -17,6 +17,8 @@ people like to be agreed
 
 dislike to be disagreed
 
+people will never forget how you made them feel.
+
 poorest way is arguing
 
 way to handle fighters = refuse to fight 
