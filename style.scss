@@ -21,7 +21,7 @@ body {
 	background: $white;
   font: 18px/1.4 $helvetica;
   color: $gray;
-	border-top: 6px solid #5c6bc0;
+	border-top: 6px solid #52A0EE;
   line-height: 1.6;
   padding: 4em 1em;
 
@@ -248,7 +248,7 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
+  padding-bottom: 1em;
   border-bottom: 1px solid $lightGray;
 }
 
@@ -259,11 +259,11 @@ nav {
 
 .post {
   blockquote {
-    margin: 1.8em .8em;
+    margin: 1.6em .8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
-    font-size: 22px;
+    font-size: 20px;
     font-style: italic;
   }
 
@@ -278,13 +278,10 @@ nav {
 }
 
 .wrapper-footer {
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  margin-top: 10px;
 }
 
 footer {
-  padding: 20px 0;
   text-align: center;
 }
 
