@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A collection of timeless ideas on software development
+title: Timeless ideas on software development
 --- 
 
 Unix, Agile, simplicity, modularity, iteration, feedback
