@@ -13,16 +13,26 @@ focus on the things that do not change
 
 ## Not-so-shocking facts 
 
+
 • Almost everyone fears rejection
+
 • People are not as satisfied as they could be
+
 • Most people have a low/moderate self esteem.
+
 • People want decisions that make them look good
+
 • 2/3 of women and 1/3 of men dislike the way they look
+
 • Almost everyone works to avoid pain
+
 • People don’t have time to comparison shop
+
 • When their mind is set on something, they want it now
+
 • Almost everyone is afraid to grow old, fears death
 
+## Desire
 
 People have archaic, subconscious, instinctive desires.
 
