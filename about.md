@@ -8,4 +8,4 @@ Engineer, explorer, maker
 
 Passionate about creating high-quality software. 
 
-Running a small consultancy, delivering backend systems and data infrastructure
+Running Brief Analytics, delivering backend systems and data infrastructure
