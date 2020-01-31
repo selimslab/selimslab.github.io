@@ -6,7 +6,7 @@ a summary of ideas from philosophy, psychology, architecture, literature
 
 # Phil
 
-### Plato
+## Plato
 
 love is education 
 
@@ -31,8 +31,7 @@ We need senatorship, art could lead to better but worse
 we need better childhoods and better role models
 
 How could a society be better at producing eudaimonia
-
-### Epicurus
+## Epicurus
 
 two cloaks, lived on bread, olive, and cheese
 
@@ -44,7 +43,7 @@ behind the dream of luxury, what we really want is calm.
 
 we forget how rewarding friendships are
 
-### Aristotle
+## Aristotle
 
 golden mean 
 
@@ -74,7 +73,7 @@ make it short and funny
 use drawings,pictures, video 
 
 
-### Stoics
+## Stoics
 
 anxiety is the gap between fear and hope 
 
@@ -107,8 +106,7 @@ much of what we get, we don't deserve
 astronomy is humbling and corrects the perspective
 
 
-
-### Montaigne 
+## Montaigne 
 
 We all shit, so do ladies
 
@@ -116,7 +114,7 @@ Beauty in a simple life
 
 A virtuous ordinary life is enough 
 
-### Spinoza
+## Spinoza
 
 Tries to replace bible with Ethics 
 
@@ -124,7 +122,7 @@ is emotion, belief, fear, tradition
 
 People like religion for community, music, rituals, architecture, tradition, a sense of belonging, hope, fear 
 
-### Schopenhauer 
+## Schopenhauer 
  
 Will to life 
 
@@ -134,7 +132,7 @@ Even a blind mole does anything to live
 
 To spend as much time with art and philosophy 
 
-### Hegel
+## Hegel
 
 Progress is not linear 
 
@@ -146,13 +144,13 @@ Art helps important ideas stick
 
 We need institutions to make ideas powerful 
 
-### Nietzsche
+## Nietzsche
 
 Bitterness is hidden envy 
 
 Pleasure and pain comes together 
 
-### Heidegger
+## Heidegger
 
 Modern world is distracting us from nature 
 
@@ -164,33 +162,33 @@ Thrown into the world
 
 Spend more time in graveyards
 
-### Sartre
+## Sartre
 
 Things are weirder than we think 
 
 We are freer than we think 
 
-### Camus
+## Camus
 
 There are causes worth dying for, but none worth killing for 
 
 Enjoy the moment
 
-### Adam Smith
+## Adam Smith
 
 The rich accumulate money because they need to be liked and approved
 
-### Marx
+## Marx
 
 Alienation
 
 Commodity fetishism 
 
-### Buddha
+## Buddha
 
 Attachment is the root of suffering 
 
-### Lao Tzu
+## Lao Tzu
 
 Nature does not hurry, yet everything is accomplished
 
@@ -204,7 +202,7 @@ Inspired by nature, resilience of trees, strength of mountains, cheerfulness of 
 
 Of course there are times for action and ambition
 
-### Sen no Rikyu 
+## Sen no Rikyu 
 
 Wabi, simplicity
 
@@ -231,9 +229,9 @@ Simplest things life offers
 Communal life may be great 
 
 
-# PSY 
+#PSY 
 
-### Freud
+## Freud
 
 Pleasure & reality balance 
 
@@ -243,7 +241,7 @@ Adulthood
 
 Analysis of dreams, jokes, parapraxes
 
-### Anna Freud
+## Anna Freud
 
 Daughter 
 
@@ -264,7 +262,7 @@ Ambivalence
 
 People are people not vending machines 
 
-### Parental
+## Parental
 
 Remember a child is very vulnerable 
 
@@ -274,7 +272,7 @@ Be patient
 
 Make sure they are not too compliant 
 
-### Attachment
+## Attachment
 
 1. Secure
 2. anxious
@@ -285,7 +283,7 @@ Be slow to anger, quick to forgive and forget
 
 # Sociology 
 
-### Tocqueville
+## Tocqueville
 
 Democracy breeds materialism, envy, shame 
 
@@ -293,7 +291,7 @@ The tyranny of majority
 
 False hope is dangerous 
 
-### Weber 
+## Weber 
 
 Protestant ethics 
 
@@ -307,7 +305,7 @@ Systematic organization
 
 Change is very undramatic 
 
-### Durkheim
+## Durkheim
 
 Why are people unhappy?
 
@@ -321,7 +319,7 @@ Why are people unhappy?
 
 - Weaker nations and family 
 
-### Margaret Mead
+## Margaret Mead
 
 Culture determines people far more than suspected
 
@@ -335,7 +333,7 @@ We crave community and connection
 
 In truth we have the resources for a basic standard for all people 
 
-### Rachel Carson
+## Rachel Carson
 
 Silent Spring 
 
@@ -345,7 +343,7 @@ Love > guilt for a better human-nature relationship
 
 # Lit 
 
-### Jane austen 
+## Jane austen 
 
 Let your lover educate you 
 
@@ -371,7 +369,7 @@ Mix of old & new buildings
 
 True modesty comes from confidence 
 
-### Andy Warhol
+## Andy Warhol
 
 We need to mass produce beauty and distribute far and wide 
 
