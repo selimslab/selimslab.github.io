@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About
+title: Selim 
 permalink: /about/
 ---
 
-Engineer, explorer, maker
+Engineer, maker, lifelong learner
 
 Passionate about creating high-quality software. 
 
