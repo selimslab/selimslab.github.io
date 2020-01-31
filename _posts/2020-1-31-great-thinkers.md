@@ -2,6 +2,7 @@
 layout: post
 title: Ideas  
 --- 
+a summary of ideas from philosophy, psychology, architecture, literature 
 
 # Phil
 
@@ -280,6 +281,107 @@ Make sure they are not too compliant
 3. Avoidant 
 
 Be slow to anger, quick to forgive and forget 
+
+
+# Sociology 
+
+## Tocqueville
+
+Democracy breeds materialism, envy, shame 
+
+The tyranny of majority 
+
+False hope is dangerous 
+
+## Weber 
+
+Protestant ethics 
+
+Feeling guilty, glorifying work, emphasizing community 
+
+People imagine leaders as super-parents
+
+Bureaucracy 
+
+Systematic organization 
+
+Change is very undramatic 
+
+## Durkheim
+
+Why are people unhappy?
+
+- Loneliness
+
+- False hope 
+
+- Too much freedom 
+
+- Atheism 
+
+- Weaker nations and family 
+
+## Margaret Mead
+
+Culture determines people far more than suspected
+
+Most traits are not “human nature” but just culture
+
+A small group of committed people can change the world
+
+What we really need, understanding, calm, insight is in painfully short supply 
+
+We crave community and connection 
+
+In truth we have the resources for a basic standard for all people 
+
+## Rachel Carson
+
+Silent Spring 
+
+DDT 
+
+Love > guilt for a better human-nature relationship 
+
+# Lit 
+
+## Jane austen 
+
+Let your lover educate you 
+
+We should judge people more carefully 
+
+Replace material lens with moral lens 
+
+Dont be snobbish 
+
+What do I actually see?
+
+Lit is a tool for reform for Tolstoy
+
+Taking pleasure in simple things
+
+# Arch
+
+Cities should be like ecosystems
+
+City blocks should be small 
+
+Mix of old & new buildings
+
+True modesty comes from confidence 
+
+## Andy Warhol
+
+We need to mass produce beauty and distribute far and wide 
+
+High quality childcare, food, clothing, architecture, therapy, career advice 
+
+
+
+
+
+
 
 
 
