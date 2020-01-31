@@ -3,7 +3,8 @@ layout: post
 title: The portfolio
 --- 
 
-Project summaries 
+<img height="250" src="https://selimslab.github.io/portfolio/assets/obama.jpg">
+
 
 ## Lung disease recognition in X-Rays using deep learning  <a href="https://github.com/selimslab/Medical-AI"><img src="https://selimslab.github.io/portfolio/assets/git.svg"></a>
 
@@ -49,7 +50,7 @@ scan barcodes, recognize text, and caption images
 
 a LexRank document summarizer 
 
-<img src="https://selimslab.github.io/portfolio/assets/lex.jpg">
+<img height="120" src="https://selimslab.github.io/portfolio/assets/lex.jpg">
 
 		
 
