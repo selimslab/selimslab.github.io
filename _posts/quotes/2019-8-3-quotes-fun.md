@@ -1,3 +1,8 @@
+---
+layout: post
+title: Have some fun
+--- 
+
 <br><br>
 The story so far:<br/>In the beginning the Universe was created.<br/>This has made a lot of people very angry and been widely regarded as a bad move.
 
@@ -12,7 +17,6 @@ I refuse to answer that question on the grounds that I don't know the answer
 
 <br><br>
 Nothing travels faster than the speed of light, with the possible exception of bad news, which obeys its own special laws.
-
 
 <br><br>
 I am free of all prejudice. I hate everyone equally. 
@@ -112,14 +116,7 @@ I have never voted in my life... I have always known and understood that the idi
 Any fool can make a rule<br/>And any fool will mind it.
 
 <br><br>
-> Indifference and neglect often do much more damage than outright dislike.
-
-<br><br>
-> You cannot find peace by avoiding life.
-
-<br><br>
-Friendship is unnecessary, like philosophy, like art.... It has no survival value; rather it is one of those things which give value to survival.
-
-
-<br><br>
 For instance, on the planet Earth, man had always assumed that he was more intelligent than dolphins because he had achieved so much&mdash;the wheel, New York, wars and so on&mdash;whilst all the dolphins had ever done was muck about in the water having a good time. But conversely, the dolphins had always believed that they were far more intelligent than man&mdash;for precisely the same reasons.
+
+<br><br>
+It is better to remain silent at the risk of being thought a fool, than to talk and remove all doubt of it.
