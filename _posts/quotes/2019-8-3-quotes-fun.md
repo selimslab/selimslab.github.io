@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Have some fun
+title: The trouble with being in the rat race is that even if you win, you're still a rat.
 --- 
 
 The story so far:<br/>In the beginning the Universe was created.<br/>This has made a lot of people very angry and been widely regarded as a bad move.
@@ -43,9 +43,6 @@ Ask not what you can do for your country. Ask what’s for lunch.
 
 <br><br>
 I think I've discovered the secret of life -- you just hang around until you get used to it.
-
-<br><br>
-The trouble with being in the rat race is that even if you win, you're still a rat.
 
 
 <br><br>
