@@ -5,6 +5,8 @@ title: The trouble with being in the rat race is that even if you win, you're st
 
 The story so far:<br/>In the beginning the Universe was created.<br/>This has made a lot of people very angry and been widely regarded as a bad move.
 
+quotes belong to their respective owners
+
 <br><br>
 Believe nothing until it has been officially denied.
 
@@ -116,3 +118,4 @@ For instance, on the planet Earth, man had always assumed that he was more intel
 
 <br><br>
 It is better to remain silent at the risk of being thought a fool, than to talk and remove all doubt of it.
+
