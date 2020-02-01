@@ -3,7 +3,6 @@ layout: post
 title: Have some fun
 --- 
 
-<br><br>
 The story so far:<br/>In the beginning the Universe was created.<br/>This has made a lot of people very angry and been widely regarded as a bad move.
 
 <br><br>
