@@ -1,11 +1,10 @@
 ---
 layout: post
-title: A summary of What You Can't Say 
+title: What You Can't Say 
 tags: books
 ---
 
 key points from a great article by Paul Graham 
-
 
 Full article at <a href="http://www.paulgraham.com/say.html">paulgraham.com/say.html</a>
 

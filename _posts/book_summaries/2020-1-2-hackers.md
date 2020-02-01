@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A summary of Hackers & Painters
+title: Hackers & Painters
 ---
 
 <img height="250"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348562702l/41793.jpg" />

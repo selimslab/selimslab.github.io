@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A summary of Skill with People by Les Giblin
+title: The Lessons of History, one page summary 
 ---
 
 <img height="250"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387722025l/174713.jpg" />

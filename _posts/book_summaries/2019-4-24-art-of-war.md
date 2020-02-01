@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A summary of The Art War by Sun Tzu 
+title: The Art War, one page summary 
 ---
 
 <img height="250"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1453417993l/10534._SY475_.jpg" /> 

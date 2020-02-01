@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A summary of Skill with People by Les Giblin
+title: Skill with People, one page summary 
 ---
 
 <img height="250" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1439993731l/1249080._SY475_.jpg" />

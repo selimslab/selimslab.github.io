@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A summary of The Pragmatic Programmer
+title: The Pragmatic Programmer, one page summary 
 ---
 
 <img height="250"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1401432508l/4099.jpg" /> 
