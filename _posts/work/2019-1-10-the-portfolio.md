@@ -1,11 +1,8 @@
 ---
 layout: post
-title: Links and source code to my software projects
+title: Software projects
 tags: portfolio
 --- 
-
-<a href="/the-portfolio"><img height="250" src="https://selimslab.github.io/portfolio/assets/obama.jpg"></a>
-
 
 ## Lung disease recognition in X-Rays using deep learning  <a href="https://github.com/selimslab/Medical-AI"><img src="https://selimslab.github.io/portfolio/assets/git.svg"></a>
 
