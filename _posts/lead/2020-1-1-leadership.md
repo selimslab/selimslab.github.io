@@ -4,7 +4,6 @@ title: Methods of Influence
 tags: leadership
 ---
 
-## Methods of Influence 
 
 Rational persuasion, show how it is relevant 
 
