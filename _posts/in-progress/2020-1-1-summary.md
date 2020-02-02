@@ -4,6 +4,50 @@ title: Post in progress
 tags: in-progress
 ---
 
+mark of strength is not to take yourself too seriously
+
+same actions -> same results 
+Act different -> get different results
+
+goals for planning, systems for progress 
+
+
+
+
+Modelin yerine daha iyi bir model koymak, zayıf bir parçayı güçlendirmek, 
+
+To make it one bit better 
+
+To prevent the worst 
+
+Getting rid of the worst 
+
+
+
+
+elite players train deliberately
+
+Don't mix work and leisure 
+
+but make work playful 
+
+
+
+
+
+important over urgent
+
+in the end, you are left with the adventures and good memories 
+
+
+either fight or not, there is no middle
+
+ignore sunk costs 
+
+in the long run, optimism is the best prevention for regret
+
+Doing is everything. Use your knowledge 
+
 ## Pain
 What determines your success isn’t “What do you want to enjoy?”
  The question is, “What pain do you want to sustain?” 
@@ -50,16 +94,48 @@ Start small and iterate
 “It's a good idea to save some easy tasks for moments when you would otherwise stall.”
 
 
+enthusiasm is contagious, show it 
+
 If you can solve your problem, then what is the need of worrying?
 
 If you cannot solve it, then what is the use of worrying?
 
+Refinement of everyday thinking 
 
+ isolation of work from leisure
+ 
+The average players, they discovered, spread their work throughout the day.
+
+
+Raising The Minimum Wage By $1 May Prevent Thousands Of Suicides, Study Shows
+
+“The curious paradox is that when I accept myself just as I am, then I can change.”
+
+
+ When you give the best you have to someone in need, it translates into something much deeper to the receiver. It means they are worthy.
+
+Systematic criticism and correction
+
+Only daring speculation can lead us further 
 
 Simple ideas under complex systems
 
 Simple principles governing complex systems
 ​
 
+alcohol is one of the most powerful suppressors of REM [rapid-eye-movement] sleep
+
+"recipients of praise do work harder, but only initially. Once they sense the manipulation behind the appreciation, their productivity drops  the beauty of appreciation is spoiled by the lurking intent to get something out of them."
+
+
+When in doubt, rely on an algorithm, because it's more accurate than your best guess or some expert's opinion. 
+
+ We are irrationally. We are prone to jump to conclusions.
+
 ## Disagree
-It's perfectly OK to disagree with someone; but please consider doing so in a respectful and thoughtful tone. Remember that others often shut-down when they read criticism, even when well warranted. The way you phrase and present yourself defines whether you're giving criticism or critique.
+It's perfectly OK to disagree with someone;
+ but please consider doing so in a respectful
+  and thoughtful tone. 
+  Remember that others often shut-down when they read criticism,
+   even when well warranted. 
+   The way you phrase and present yourself defines whether you're giving criticism or critique.
