@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Dijkstra's Shortest Path Algorithm
+tags: programming
 ---
 
 The Algorithm has 3 main steps:

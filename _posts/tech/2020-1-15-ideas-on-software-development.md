@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Timeless ideas on software development
+tags: tech
 --- 
 
 Unix, Agile, simplicity, modularity, iteration, feedback

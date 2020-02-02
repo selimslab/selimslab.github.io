@@ -2,6 +2,7 @@
 
 layout: post
 title: Python utility functions
+tags: programming
 
 ---
 

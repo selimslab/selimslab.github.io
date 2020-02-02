@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Countries are not poor because their people are lazy; their people are ‘lazy’ because they are poor
+tags: economics
 ---
 
 <img height="250"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1312041078l/1032019.jpg" /> 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Psychology drives business  
+tags: psychology, business
 ---
 
 people wanted to share photos, save ideas, write reviews, send messages, to be aware of the world

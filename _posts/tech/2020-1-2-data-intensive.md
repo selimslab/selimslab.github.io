@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Summary of Designing Data-Intensive Applications 
+tags: tech
 ---
  
 

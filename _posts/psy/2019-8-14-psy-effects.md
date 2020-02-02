@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Summary of Common Psychological Biases
-tags: psych
+tags: psychology
 ---
 
 Confirmation bias: We are more likely to accept information that aligns with our beliefs than contradictory evidence -- no matter how compelling.

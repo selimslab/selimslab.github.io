@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Communication Insights Summary 
+tags: psychology
 ---
 
 "Each person you are talking to or walking by is as important to themselves as you are to yourself. Everyone is the hero of their own story."

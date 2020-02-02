@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Meeting Techniques Summary
+tags: business
 ---
 
 Time-tested ways to get more out of a meeting and make better decisions.
