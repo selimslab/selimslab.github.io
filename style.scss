@@ -21,7 +21,7 @@ body {
 	background: $white;
   font: 18px/1.4 $helvetica;
   color: $gray;
-	border-top: 6px solid #52A0EE;
+    border-top: 6px solid $blue;
   line-height: 1.6;
   padding: 4em 1em;
 
@@ -54,7 +54,7 @@ h1 {
 }
 
 h1.tag{
-  color: #2aa198;
+  color: $blue;
 }
 
 .entry {
