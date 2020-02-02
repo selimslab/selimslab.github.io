@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ideas  
+title: The Great Thinkers  
 tags: philosophy 
 --- 
 a summary of ideas from philosophy, psychology, architecture, literature 
