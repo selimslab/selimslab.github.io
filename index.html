@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="posts">
-    {% for tag in sorted(site.tags) %}
+    {% for tag in site.tags %}
     {% assign t = tag | first %}
     {% assign posts = tag | last %}
 
