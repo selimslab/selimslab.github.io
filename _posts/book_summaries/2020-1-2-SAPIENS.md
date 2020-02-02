@@ -1,6 +1,8 @@
 ---
 layout: post
 title: SAPIENS, one page summary  
+tags: philosophy 
+
 ---
 
 <img height="250"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1420585954l/23692271.jpg" /> 

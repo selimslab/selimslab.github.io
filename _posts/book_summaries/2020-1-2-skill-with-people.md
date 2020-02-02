@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Skill with People, one page summary 
+tags: psychology 
 ---
 
 <img height="250" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1439993731l/1249080._SY475_.jpg" />

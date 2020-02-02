@@ -1,6 +1,8 @@
 ---
 layout: post
 title: The Art War, one page summary 
+tags: philosophy 
+
 ---
 
 <img height="250"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1453417993l/10534._SY475_.jpg" /> 

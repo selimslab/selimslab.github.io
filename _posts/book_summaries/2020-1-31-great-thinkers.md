@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ideas  
+tags: philosophy 
 --- 
 a summary of ideas from philosophy, psychology, architecture, literature 
 

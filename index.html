@@ -3,20 +3,18 @@ layout: default
 ---
 
 <div class="posts">
-{% for tag in site.tags %}
-  {% assign t = tag | first %}
-  {% assign posts = tag | last %}
+  {% for tag in site.tags %}
+    {% assign t = tag | first %}
+    {% assign posts = tag | last %}
 
-    {{ t | downcase }}
-    {% for post in posts %}
+      {{ t | downcase }}
+      {% for post in posts %}
 
-      {% if post.tags contains t %}
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      {% endif %}
+        {% if post.tags contains t %}
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        {% endif %}
 
-    {% endfor %}
+      {% endfor %}
 
-
-{% endfor %}
-
+  {% endfor %}
 </div>
