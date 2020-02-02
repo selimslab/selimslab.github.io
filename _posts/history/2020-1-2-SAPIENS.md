@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SAPIENS, one page summary  
-tags: philosophy 
+tags: history 
 
 ---
 

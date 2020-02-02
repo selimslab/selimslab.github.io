@@ -1,4 +1,3 @@
----
 layout: post
 title: Skill with People, one page summary 
 tags: psychology 
