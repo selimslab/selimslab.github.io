@@ -1,6 +1,7 @@
 ---
 layout: post
-title: The portfolio
+title: Links and source code to my software projects
+tags: portfolio
 --- 
 
 <a href="/the-portfolio"><img height="250" src="https://selimslab.github.io/portfolio/assets/obama.jpg"></a>

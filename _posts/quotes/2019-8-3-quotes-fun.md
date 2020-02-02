@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The trouble with being in the rat race is that even if you win, you're still a rat.
+tags: quotes
 --- 
 
 The story so far:<br/>In the beginning the Universe was created.<br/>This has made a lot of people very angry and been widely regarded as a bad move.

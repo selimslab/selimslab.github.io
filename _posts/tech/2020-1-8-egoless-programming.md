@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Egoless Programming
+tags: project-management
 --- 
 
 summary from https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/

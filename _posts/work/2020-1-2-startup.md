@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Great Ideas Seem Initially Bad
- 
+tags: business
 ---
 
 Simple heuristics for building a new business
