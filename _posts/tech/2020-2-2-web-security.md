@@ -2,8 +2,7 @@
 layout: post
 title: Web security best practices, one page summary 
 --- 
-
-# Security
+Simple steps for secure web apps 
 
 ## HTTPS
 Use and redirect to HTTPS
