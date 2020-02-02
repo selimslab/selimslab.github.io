@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Egoless Programming
-tags: programming
 --- 
 
 summary from https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/
