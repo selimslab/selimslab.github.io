@@ -5,8 +5,6 @@ tags: philosophy
 --- 
 a summary of ideas from philosophy, psychology, architecture, literature 
 
-# Phil
-
 ## Plato
 
 love is education 
@@ -230,8 +228,6 @@ Simplest things life offers
 Communal life may be great 
 
 
-#PSY 
-
 ## Freud
 
 Pleasure & reality balance 
@@ -281,8 +277,6 @@ Make sure they are not too compliant
 
 Be slow to anger, quick to forgive and forget 
 
-
-# Sociology 
 
 ## Tocqueville
 
@@ -342,7 +336,6 @@ DDT
 
 Love > guilt for a better human-nature relationship 
 
-# Lit 
 
 ## Jane austen 
 
@@ -353,6 +346,8 @@ We should judge people more carefully
 Replace material lens with moral lens 
 
 Dont be snobbish 
+
+## Literature
 
 What do I actually see?
 
