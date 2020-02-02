@@ -77,6 +77,10 @@ Listens actively
 
 engaging communication 
 
+watch your own thoughts from a distance
+
+draw a sharp line between your thoughts and your speech.
+
 
 
 

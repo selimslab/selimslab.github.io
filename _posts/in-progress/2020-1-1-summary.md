@@ -49,5 +49,17 @@ Start small and iterate
 ## Human brain is single threaded
 “It's a good idea to save some easy tasks for moments when you would otherwise stall.”
 
+
+If you can solve your problem, then what is the need of worrying?
+
+If you cannot solve it, then what is the use of worrying?
+
+
+
+Simple ideas under complex systems
+
+Simple principles governing complex systems
+​
+
 ## Disagree
 It's perfectly OK to disagree with someone; but please consider doing so in a respectful and thoughtful tone. Remember that others often shut-down when they read criticism, even when well warranted. The way you phrase and present yourself defines whether you're giving criticism or critique.

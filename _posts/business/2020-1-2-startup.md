@@ -38,3 +38,20 @@ Cultivate a secret about customer and technology.
 Work on existing problems. Existing problem means some user wants the solution immediately
 
 ![](https://miro.medium.com/max/738/1*TvyPaepHDMMhOUh5lbzBQw.png)
+
+## the lean startup
+
+start small
+
+Start simple 
+
+Iterate quickly 
+
+Test 
+
+Measure 
+
+test in the beginning
+
+Hallway testing 
+

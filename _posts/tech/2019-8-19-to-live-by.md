@@ -21,17 +21,20 @@ all human knowledge is uncertain, inexact, partial
 it's very hard to predict the future
 
 what would you do if you could not fail?
+
 if there is no money?
+
 if you had infinite time? 
+
 if you weren't afrtaid?
+
 if all jobs paid the same?
 
 you don't have to do anything, if you face the consequences
 
 lagrangian relaxation -> an optimization problem has two parts, rules and scorekeeping -> bake some rules into scorekeeping -> take the impossible and make it costly 
 
-hard problems demand imagining easier versions 
-not spinning wheels 
+hard problems demand imagining easier versions, not spinning wheels 
 
 randomness as the heart of creativity 
 

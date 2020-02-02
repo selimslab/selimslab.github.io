@@ -33,6 +33,10 @@ focus on the things that do not change
 
 • Almost everyone is afraid to grow old, fears death
 
+People are both curious and afraid of new things. Thus a familiar thing in an original setting is interesting.
+
+what people say and do are very different 
+
 ## Desire
 
 People have archaic, subconscious, instinctive desires.
@@ -41,6 +45,7 @@ These desires are continually re-shaped by social, economical and technological 
 
 Live in the future and look back
 
+Sensation and perception are different things 
 
 ## Market = mass demand
 
