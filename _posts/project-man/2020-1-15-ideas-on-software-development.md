@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Timeless ideas on software development
-tags: tech
+tags: project-management
 --- 
 
-Unix, Agile, simplicity, modularity, iteration, feedback
 
 ## UNIX philosophy
 
@@ -145,8 +144,7 @@ Question your assumptions. Bad assumptions cause bugs.
 
 If you've chosen the right data structures and organized things well, the algorithms will almost always be self-evident. 
 
-
-<br>
+## Guides
 
 Ask For Feedback Early
 
@@ -156,8 +154,9 @@ Step Away From the Keyboard
 
 You Can DRY Off Later
 
+no deploy fridays
+
 Take Meticulous Notes
 
-no deploy fridays
 
 
