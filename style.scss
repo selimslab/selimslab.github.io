@@ -49,9 +49,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   a {
-    color: inherit;
+    color: #52A0EE;
   }
   color: #2c3e50;
 }
@@ -61,6 +61,13 @@ h1 {
     color: inherit;
   }
 }
+
+a:hover, a:visited, a:focus {
+  color: $lightGray;
+  text-decoration: none;
+}
+
+
 
 
 h2 {
