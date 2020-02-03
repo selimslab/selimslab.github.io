@@ -10,15 +10,17 @@ tags: philosophy
 
 forecast victory:
 
-	discipline 
+discipline 
 
-	highly trained
+highly trained
 
-	talented generals 
+talented generals 
 
-	ceza ve ödülde kesinlik ve tutarlılık 
+ceza ve ödülde kesinlik ve tutarlılık 
 
-	who is in harmony with his team 
+who is in harmony with his team 
+
+<br>
 
 warfare is deception 
 
