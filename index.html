@@ -17,6 +17,9 @@ layout: default
             </article>
 
         </li>
+        {% assign wordCount = post.content | number_of_words %}
+        {{ wordCount | plus: 250 | divided_by: 180 | append: " minutes to read" }}
+
         {% endif %}
         {% endfor %}
     </ul>
