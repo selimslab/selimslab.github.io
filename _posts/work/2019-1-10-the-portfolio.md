@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Software projects
-tags: portfolio
+tags: work
 --- 
 
 ## Lung disease recognition in X-Rays using deep learning  <a href="https://github.com/selimslab/Medical-AI"><img src="https://selimslab.github.io/portfolio/assets/git.svg"></a>

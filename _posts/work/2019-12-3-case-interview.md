@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Case Interviews 
-tags: workplace
+tags: work
 ---
 
 analytically solve the problem and communicate the results as clear actionable insights 

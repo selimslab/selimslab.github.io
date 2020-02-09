@@ -2,7 +2,7 @@
 
 layout: post
 title:  Better Interview Questions 
-tags: workplace
+tags: work
 ---
 
 Specific questions are better than generic ones.
