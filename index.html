@@ -15,11 +15,14 @@ layout: default
             <article class="post">
                 {% assign wordCount = post.content | number_of_words %}
 
-                <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
+                <h2>
+                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
+                    </a>
+                </h2>
+                <p>
                     {{ wordCount | divided_by:
-                    300 | append: " min read" }}</a></h2>
-
-
+                    300 | append: " min read" }}
+                </p>
             </article>
 
         </li>
