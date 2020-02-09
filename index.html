@@ -2,6 +2,7 @@
 layout: default
 ---
 
+
 <div class="posts">
     {% for tag in site.tags %}
     {% assign t = tag | first %}
@@ -20,7 +21,7 @@ layout: default
                     </a>
                     <span style="font-size:1rem; font-weight:300">
                         {{ wordCount | plus: 250 | divided_by:
-                    250 | append: " min read" }}
+                    300 | append: " min read" }}
                     </span>
                 </h2>
 
