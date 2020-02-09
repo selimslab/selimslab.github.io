@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Mental Models 
-
+tags: philosophy
 ---
-
 
 
 ## people 
