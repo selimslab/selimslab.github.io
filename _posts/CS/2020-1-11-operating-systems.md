@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Operating Systems  
-tags: computer science 
+tags: computers 
 ---
 
 OS is the main program running on a computer, and enables other program to use the hardware 
