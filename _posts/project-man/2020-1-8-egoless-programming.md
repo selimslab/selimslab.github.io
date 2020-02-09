@@ -4,7 +4,11 @@ title: Egoless Programming
 tags: project-management
 --- 
 
-summary from https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/
+summary from 
+<a href="https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/">
+https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/
+</a>
+
 
 Understand and accept that you will make mistakes. 
 
