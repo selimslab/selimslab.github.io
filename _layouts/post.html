@@ -4,7 +4,8 @@ layout: default
 
 <article class="post">
   <h1>{{ page.title }}</h1>
-
+  {% assign wordCount = content | number_of_words %}
+  {{ wordCount | plus: 250 | divided_by: 250 | append: " min read" }}
   <div class="entry">
     {{ content }}
   </div>

@@ -19,11 +19,8 @@ layout: default
                     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
                     </a>
                 </h2>
-                <p>
-                    {{ wordCount | plus: 250 | divided_by:
-                    250 | append: " min read" }}
-
-                </p>
+                {{ wordCount | plus: 250 | divided_by:
+                250 | append: " min read" }}
             </article>
 
         </li>
