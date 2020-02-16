@@ -216,3 +216,5 @@ Start by smiling
 Relaxed comfortable body language 
 
 Good eye contact 
+
+

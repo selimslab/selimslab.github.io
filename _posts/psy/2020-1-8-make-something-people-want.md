@@ -1,8 +1,11 @@
 ---
 layout: post
 title: Psychology drives business  
-tags: psychology business
+tags: psychology
 ---
+
+People don’t buy products because of what those products do, 
+they buy products because of what they imagine they can do with them.
 
 people wanted to share photos, save ideas, write reviews, send messages, to be aware of the world
 

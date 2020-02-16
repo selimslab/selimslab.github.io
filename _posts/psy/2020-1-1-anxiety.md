@@ -27,3 +27,14 @@ To form habits, have a consistent "When" and simple "Then". Track your progress 
 Physical health affects mental health & vice versa. Hardware affects software, software affects hardware.
 
 9 Mental Health Habits for your software & hardware: Meditation, Journaling, Sleep, Exercise, Eat, Talk with friends, Make new friends, Learning, Practicing virtues.
+
+## How to Help to an anxious person 
+—Don’t deliver an ultimatum. This can lead to a power struggle and increase his resistance to treatment. Instead, highlight ways his quality of life could improve with treatment.
+
+—Convey your own distress about his suffering—how you are worrying about him.
+
+—anger could be masked anxiety
+
+—Be compassionate. Don’t view him as being stubborn, see him as a human being who is struggling with a heavy burden of expectations.
+
+—Avoid diagnostic labels. Using the word “anxiety” could make him uncomfortable.
