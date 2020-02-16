@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mental Models 
+title: People 
 tags: mental-models
 ---
 

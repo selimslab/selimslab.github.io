@@ -1,16 +1,9 @@
 ---
 layout: post
-title: Mental Models 
+title: Problem Solving 
 tags: mental-models
 ---
 
-
-
-## attention traps is like bacteria 
-marketing lines
-slot machines
-headlines
-farmville
 
 ## problem solving 
 start small and keep it simple
@@ -90,6 +83,13 @@ take frequent short breaks
 don't be deceived by complexity 
 
 complex is the sum of many simple steps
+
+
+## attention traps is like bacteria 
+marketing lines
+slot machines
+headlines
+farmville
 
 
 ## don't ignore the emotional price
