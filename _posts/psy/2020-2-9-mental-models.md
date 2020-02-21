@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Problem Solving 
-tags: mental-models
+tags: psychology
 ---
 
 

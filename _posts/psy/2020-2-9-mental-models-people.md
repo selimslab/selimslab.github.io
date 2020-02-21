@@ -1,7 +1,7 @@
 ---
 layout: post
 title: People 
-tags: mental-models
+tags: psychology
 ---
 
 > People will often think they understand, 

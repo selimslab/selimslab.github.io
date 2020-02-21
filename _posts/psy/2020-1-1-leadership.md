@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Methods of Influence 
-tags: leadership
+tags: psychology
 ---
 
 

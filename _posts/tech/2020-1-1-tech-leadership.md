@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Run great engineering teams  
-tags: leadership
+tags: tech
 ---
 You don't need to be the best engineer in the world, 
 just get good at advertising your people 

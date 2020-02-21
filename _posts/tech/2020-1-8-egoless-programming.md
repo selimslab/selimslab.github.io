@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Egoless Programming
-tags: project-management
+tags: tech
 --- 
 
 summary from 
