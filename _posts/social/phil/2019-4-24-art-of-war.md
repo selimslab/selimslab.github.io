@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Art War, one page summary 
+title: The Art of War 
 tags: philosophy 
 
 ---
