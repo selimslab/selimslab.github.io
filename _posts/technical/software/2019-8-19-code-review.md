@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Code Review Summary
-tags: tech 
+tags: software 
 ---
 
 Summary of https://google.github.io/eng-practices/review/reviewer/looking-for.html

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Timeless ideas on software development
-tags: tech
+tags: software
 --- 
 
 
