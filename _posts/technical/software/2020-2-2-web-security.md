@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Web security best practices, one page summary 
-tags: web software
+tags: software
 --- 
 Simple steps for secure web apps 
 

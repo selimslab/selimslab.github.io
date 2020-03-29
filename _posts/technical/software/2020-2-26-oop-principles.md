@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OOP Principles
+title: OOP
 tags: software 
 ---
 OOP makes life simpler, let's see how 
