@@ -21,8 +21,8 @@ body {
   background: $white;
   font: 18px/1.4 $helvetica;
   color: $gray;
-  border-top: 6px solid $darkblue;
-  border-bottom: 6px solid $darkblue;
+  border-top: 6px solid $turkuvaz;
+  border-bottom: 6px solid $turkuvaz;
   line-height: 1.6;
   padding: 2em 1em 1em;
 
@@ -55,7 +55,7 @@ h1 {
 }
 
 h1.tag{
-  color: $darkblue;
+  color: $turkuvaz;
 }
 
 .entry {
@@ -90,11 +90,11 @@ p {
 }
 
 a {
-  color: $darkblue;
+  color: $turkuvaz;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $darkblue;
+    color: $turkuvaz;
   }
 }
 
@@ -252,7 +252,7 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $darkblue;
+      color: $turkuvaz;
     }
   }
 }
