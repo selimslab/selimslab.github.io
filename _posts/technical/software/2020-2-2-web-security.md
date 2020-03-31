@@ -1,37 +1,58 @@
 ---
 layout: post
-title: Web security best practices, one page summary 
+title: Software Security 
 tags: software
 --- 
-to secure a web app 
+## general 
+
+* Plan for security from the start
+* Keep the attack surface minimum. Keep it simple. Attack vectors include user input fields, protocols, interfaces, and services.
+* Fail securely, consider all 3 cases, allow, disallow, exception 
+* use strong passwords
+* never keep plain-text passwords
+* use whitelists, not blacklists 
+* never trust any input, always validate, always sanitize
+* don't try to roll your own security solutions, it's a community effort 
+* don't write your own crypto
+* do not encrypt passwords, hash them with a salt 
+* use authorization levels
+* Least privilege, never grant more access than required
+* Separation of Privileges, so your system is not all or nothing
+* use well-known tried and tested libraries only
+* keep your libraries up to date 
+* log suspicious activity, like failed login attempts, invalid input, statistically rare or unexpected events 
+* Hiding secrets is hard - and secrets hidden in code won't stay secret for long
+* Be careful to not check in secrets to public repos
+* avoid security through obscurity 
+* model possible threats
+* ask what can go wrong? 
+* write exploit code to test your patches 
+* Security is a process, not a product
+* no system is 100% secure, security is an example of "unknown unknowns"
+
+
+
+a great list at https://stackoverflow.com/questions/2794016/what-should-every-programmer-know-about-security
+
+
+## web specific  
 
 1. use HTTPS 
-2. do not trust user data
-3. always validate
-4. always sanitize on the server 
-5. parametrize SQL quries to prevent SQL injection
-6. never execute user provided data 
-7. use strong admin passwords
-8. do not roll your own encryption solutions
-9. never keep plain-text passwords
-10. do not encrypt passwords, hash them with a salt 
-11. use authorization levels
-12. use well-known tried and tested libraries only
-13. keep your libraries up to date 
-14. avoid security through obscurity 
-15. use 2-factor auth if necessary 
-16. enforce strong passwords
-17. add exponential delay to repeated login attempts
-18. keep a log of failed login attempts, invalid input, and other suspicious activity  
-19. use CSRF tokens with forms 
-20. set `Content Security Policy` to prevent XSS 
-21. use `SameSite` header to forbid sending the cookie via cross-origin requests, as an additional CSRF mesaure
-22. prepend cookies with __Secure to prevent them from being overwritten 
-23. set cookies with `Secure` flag to ensure they can only be sent over HTTPS 
-24. use `Access-Control-Allow-Origin` to manage CORS 
-25. use `integrity` to verify a resource is not modified on the way
-26. use `X-Frame-Options: DENY`to disallow allow attempts to iframe site (recommended)
-
+2. don't Allow HTTP Access to Secure Pages
+3. parametrize SQL quries to prevent SQL injection
+4.  use 2-factor auth 
+5.  enforce strong passwords
+6.  add exponential delay to repeated login attempts
+7.  lock account after repeated failed login attempts 
+8.  use CSRF tokens with forms
+9.  set `Content Security Policy` to prevent XSS 
+10. use `SameSite` header to forbid sending the cookie via cross-origin requests, as an additional CSRF mesaure
+11. prepend cookies with __Secure to prevent them from being overwritten 
+12. set cookies with `Secure` flag to ensure they can only be sent over HTTPS 
+13. set HTTPOnly for cookies that don’t require access from JavaScript
+14. use `Access-Control-Allow-Origin` to manage CORS 
+15. use `integrity` to verify a resource is not modified on the way
+16. use `X-Frame-Options: DENY`to disallow allow attempts to iframe site (recommended)
  
 
 ## Cross-site request forgery CSRF 
@@ -47,12 +68,17 @@ JWT is included in the Authorization header, browser can’t automatically gener
 
 So either use a session token or a CSRF token 
 
+CSRF tokens are large random values, unique per user & per user session
+
+
 
 ## Cross-site scripting XSS 
 
 an attacker to injects malicious code into a website and user's browser executes it 
 
 validate, encode, set `Content Security Policy`
+
+For example <script> would be returned as &lt;script&gt;
 
 ## Content Security Policy
 
