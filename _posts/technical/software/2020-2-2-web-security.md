@@ -3,14 +3,40 @@ layout: post
 title: Web security best practices, one page summary 
 tags: software
 --- 
-Simple steps for secure web apps 
+to secure a web app 
 
-## HTTPS
-Use and redirect to HTTPS
+1. use HTTPS 
+2. do not trust user data
+3. always validate
+4. always sanitize on the server 
+5. parametrize SQL quries to prevent SQL injection
+6. never execute user provided data 
+7. use strong admin passwords
+8. do not roll your own encryption solutions
+9. never keep plain-text passwords
+10. do not encrypt passwords, hash them with a salt 
+11. use authorization levels
+12. use well-known tried and tested libraries only
+13. keep your libraries up to date 
+14. avoid security through obscurity 
+15. use 2-factor auth if necessary 
+16. enforce strong passwords
+17. add exponential delay to repeated login attempts
+18. keep a log of failed login attempts, invalid input, and other suspicious activity  
+19. use CSRF tokens with forms 
+20. set `Content Security Policy` to prevent XSS 
+21. use `SameSite` header to forbid sending the cookie via cross-origin requests, as an additional CSRF mesaure
+22. prepend cookies with __Secure to prevent them from being overwritten 
+23. set cookies with `Secure` flag to ensure they can only be sent over HTTPS 
+24. use `Access-Control-Allow-Origin` to manage CORS 
+25. use `integrity` to verify a resource is not modified on the way
+26. use `X-Frame-Options: DENY`to disallow allow attempts to iframe site (recommended)
 
-Why HTTPS? Privacy, integrity, identity 
+ 
 
-## CSRF 
+## Cross-site request forgery CSRF 
+
+https://portswigger.net/web-security/csrf
 
 3 key conditions
     1. A relevant action
@@ -22,21 +48,11 @@ JWT is included in the Authorization header, browser can’t automatically gener
 So either use a session token or a CSRF token 
 
 
-## Cross-site scripting
+## Cross-site scripting XSS 
 
- an attacker to injects malicious code into a website 
+an attacker to injects malicious code into a website and user's browser executes it 
 
-common cause is the lack of validation or encoding. 
-
-The user's browser cannot detect the malicious script is evil, and so gives it access to any cookies, session tokens, or other sensitive site-specific information, or lets the malicious script rewrite the HTML content.
-
-#### Stored XSS Attacks
-
-The injected script is stored permanently on the target servers.
-
-#### Reflected XSS Attacks
-
-When a user is tricked into clicking a malicious link, submitting a specially crafted form, or browsing to a malicious site, the injected code travels to the vulnerable website. The Web server reflects the injected script back to the user's browser, such as in an error message, search result, or any other response that includes data sent to the server as part of the request. The browser executes the code because it assumes the response is from a "trusted" server which the user has already interacted with.
+validate, encode, set `Content Security Policy`
 
 ## Content Security Policy
 
@@ -53,39 +69,30 @@ Content-Security-Policy: default-src 'none'; font-src 'https://fonts.googleapis.
 			 img-src 'self' https://i.imgur.com; object-src 'none'; script-src 'self'; style-src 'self'
 ```
 
+## Cross-origin Resource Sharing (CORS)
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+
+an origin is a tuple of protocol:host:port
+
+`Access-Control-Allow-Origin: https://x.com:8081`  only the specified origin can access  
+`Access-Control-Allow-Origin: *` every origin can access
+
+by default, browser XMLHttpRequest or fetch APIs allows same-origin only 
+
+if the request has implications for user data, it is first preflighted with HTTP OPTIONS header, only after the real request is sent 
 
 ## Cookies
+
 All cookies must be set with the Secure flag, and set as restrictively as possible
 
 Cookie names may be either be prepended with either __Secure- or __Host- to prevent cookies from being overwritten by insecure sources
 
 * Use __Host- for all cookies needed only on a specific domain (no subdomains) where Path is set to /
-* Secure: All cookies must be set with the Secure flag, indicating that they should only be sent over HTTPS
+* Secure: they should only be sent over HTTPS
 * HttpOnly: Cookies that don’t require access from JavaScript should be set with the HttpOnly flag
 * SameSite: Forbid sending the cookie via cross-origin requests (such as from <img> tags, etc.), as a strong anti-CSRF measure
-
 
 ```bash
 Set-Cookie: __Host-BMOSESSIONID=YnVnemlsbGE=; Max-Age=2592000; Path=/; Secure; HttpOnly; SameSite=Strict
 ```
-
-## Cross-origin Resource Sharing (CORS)
-
-an origin is a tuple of protocol:host:port
-
- `Access-Control-Allow-Origin: https://x.com:8081`  only the specified origin can access  
-`Access-Control-Allow-Origin: *` every origin can access
-
-
-## Subresource Integrity
- a security feature that enables browsers to verify a resource is not modified 
-```bash
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"
-  integrity="sha384-R4/ztc4ZlRqWjqIuvf6RX5yb/v90qNGx6fS48N0tRxiGkqveZETq72KgDVJCp2TC"
-  crossorigin="anonymous"></script>
-```
-
-
-## X-Frame-Options: DENY
-* DENY: disallow allow attempts to iframe site (recommended)
-
