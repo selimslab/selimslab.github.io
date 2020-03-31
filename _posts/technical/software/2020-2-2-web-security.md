@@ -40,22 +40,22 @@ https://stackoverflow.com/questions/1469899/worst-security-hole-youve-seen?page=
 
 ## web specific  
 
-1. use HTTPS 
-2. don't Allow HTTP Access to Secure Pages
-3. parametrize SQL quries to prevent SQL injection
-4.  use 2-factor auth 
-5.  enforce strong passwords
-6.  add exponential delay to repeated login attempts
-7.  lock account after repeated failed login attempts 
-8.  use CSRF tokens with forms
-9.  set `Content Security Policy` to prevent XSS 
-10. use `SameSite` header to forbid sending the cookie via cross-origin requests, as an additional CSRF mesaure
-11. prepend cookies with __Secure to prevent them from being overwritten 
-12. set cookies with `Secure` flag to ensure they can only be sent over HTTPS 
-13. set HTTPOnly for cookies that don’t require access from JavaScript
-14. use `Access-Control-Allow-Origin` to manage CORS 
-15. use `integrity` to verify a resource is not modified on the way
-16. use `X-Frame-Options: DENY`to disallow allow attempts to iframe site (recommended)
+* use HTTPS 
+* don't allow HTTP access to secure pages
+* parametrize SQL queries to prevent SQL injection
+* use 2-factor auth 
+* enforce strong passwords
+* add exponential delay to repeated login attempts
+* lock account after repeated failed login attempts 
+* use CSRF tokens with forms
+* set `Content Security Policy` to prevent XSS 
+* use `SameSite` header to forbid sending the cookie via cross-origin requests, as an additional CSRF mesaure
+* prepend cookies with __Secure to prevent them from being overwritten 
+* set cookies with `Secure` flag to ensure they can only be sent over HTTPS 
+* set HTTPOnly for cookies that don’t require access from JavaScript
+* use `Access-Control-Allow-Origin` to manage CORS 
+* use `integrity` to verify a resource is not modified on the way
+* use `X-Frame-Options: DENY`to disallow allow attempts to iframe site (recommended)
  
 
 ## Cross-site request forgery CSRF 
