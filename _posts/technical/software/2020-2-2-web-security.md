@@ -21,6 +21,7 @@ tags: software
 * use well-known tried and tested libraries only
 * keep your libraries up to date 
 * log suspicious activity, like failed login attempts, invalid input, statistically rare or unexpected events 
+* be aware of buffer overflow attacks 
 * Hiding secrets is hard - and secrets hidden in code won't stay secret for long
 * Be careful to not check in secrets to public repos
 * avoid security through obscurity 
@@ -30,10 +31,12 @@ tags: software
 * Security is a process, not a product
 * no system is 100% secure, security is an example of "unknown unknowns"
 
-
+https://stackoverflow.com/questions/tagged/security
 
 a great list at https://stackoverflow.com/questions/2794016/what-should-every-programmer-know-about-security
 
+
+https://stackoverflow.com/questions/1469899/worst-security-hole-youve-seen?page=1&tab=votes#tab-top
 
 ## web specific  
 
@@ -64,12 +67,9 @@ https://portswigger.net/web-security/csrf
     2. Only mechanism to track session is a cookie
     3. All request parameters predictable 
 
-JWT is included in the Authorization header, browser can’t automatically generate this
+su use a CSRF token, they are large random values, unique per user & per user session
 
-So either use a session token or a CSRF token 
-
-CSRF tokens are large random values, unique per user & per user session
-
+CSRF tokens should not be transmitted within cookies.
 
 
 ## Cross-site scripting XSS 
