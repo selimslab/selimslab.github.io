@@ -55,7 +55,7 @@ https://stackoverflow.com/questions/1469899/worst-security-hole-youve-seen?page=
 * set HTTPOnly for cookies that don’t require access from JavaScript
 * use `Access-Control-Allow-Origin` to manage CORS 
 * use `integrity` to verify a resource is not modified on the way
-* use `X-Frame-Options: DENY`to disallow allow attempts to iframe site (recommended)
+* use `X-Frame-Options: DENY` to disallow allow attempts to iframe site (recommended)
  
 
 ## Cross-site request forgery CSRF 
