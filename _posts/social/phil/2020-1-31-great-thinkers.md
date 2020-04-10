@@ -1,9 +1,8 @@
 ---
 layout: post
-title: The Great Thinkers  
+title: Ideas from great thinkers  
 tags: philosophy 
 --- 
-a summary of ideas from philosophy, psychology, architecture, literature 
 
 ## Plato
 
