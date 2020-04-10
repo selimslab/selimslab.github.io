@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Golang basics
+title: Go snippets
 tags: snippets
 ---
 

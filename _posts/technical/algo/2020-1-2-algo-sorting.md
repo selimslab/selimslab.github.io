@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sorting Algorithms
+title: Sorting
 tags: algorithms
 ---
 

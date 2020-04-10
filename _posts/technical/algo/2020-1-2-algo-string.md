@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Array & String Algorithms
+title: Array & String
 tags: algorithms
 ---
 

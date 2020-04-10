@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Linked List Algorithms
+title: Linked List 
 tags: algorithms
 ---
 

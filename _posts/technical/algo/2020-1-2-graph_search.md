@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BFS, DFS, Toposort  
+title: BFS, DFS  
 tags: algorithms
 ---
 

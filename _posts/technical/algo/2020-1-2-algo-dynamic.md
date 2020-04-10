@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dynamic Programming Algorithms
+title: Dynamic Programming 
 tags: algorithms
 ---
 

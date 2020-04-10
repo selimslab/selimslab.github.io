@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HTML tricks
+title: HTML 
 tags: snippets
 ---
 

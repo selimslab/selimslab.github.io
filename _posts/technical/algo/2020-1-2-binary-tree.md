@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Binary tree algorithms 
+title: Binary trees 
 tags: algorithms
 ---
 

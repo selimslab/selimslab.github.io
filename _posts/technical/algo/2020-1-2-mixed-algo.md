@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Algorithms Mix
+title: Algorithms, General
 tags: algorithms
 ---
 

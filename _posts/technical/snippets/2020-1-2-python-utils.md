@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python file utils 
+title: Python file utils
 tags: snippets
 ---
 

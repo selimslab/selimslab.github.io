@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Search Algorithms
+title: Search
 tags: algorithms
 ---
 

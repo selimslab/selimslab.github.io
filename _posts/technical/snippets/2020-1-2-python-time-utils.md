@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python datetime utils 
+title: Python datetime 
 tags: snippets
 ---
 

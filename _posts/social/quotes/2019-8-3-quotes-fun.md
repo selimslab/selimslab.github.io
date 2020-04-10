@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  
+title:  Believe nothing until it has been officially denied.
+
 tags: quotes
 --- 
 
@@ -10,9 +11,6 @@ The story so far:<br/>In the beginning the Universe was created.<br/>This has ma
 
 The trouble with being in the rat race is that
  even if you win, you're still a rat.
-
-<br><br>
-Believe nothing until it has been officially denied.
 
 <br><br>
 This planet has - or rather had - a problem, which was this: most of the people living on it were unhappy for pretty much of the time. Many solutions were suggested for this problem, but most of these were largely concerned with the movement of small green pieces of paper, which was odd because on the whole it wasn't the small green pieces of paper that were unhappy.
