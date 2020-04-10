@@ -9,29 +9,21 @@ layout: default
     {% assign posts = tag | last %}
 
     <h1 class="tag">{{ t | downcase }}</h1>
-    <ul>
         {% for post in posts %}
         {% if post.tags contains t %}
-        <li style="list-style:none">
             <article class="post">
                 {% assign wordCount = post.content | number_of_words %}
 
                 <h2>
                     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
                     </a>
-                    <span style="font-size:1rem; font-weight:300">
-                        {{ wordCount | plus: 265 | divided_by:
-                    265 | append: " min read" }}
-                    </span>
                 </h2>
 
             </article>
 
-        </li>
 
         {% endif %}
         {% endfor %}
-    </ul>
     {% endfor %}
 
 </div>
