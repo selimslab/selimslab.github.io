@@ -38,7 +38,7 @@ a great list at https://stackoverflow.com/questions/2794016/what-should-every-pr
 
 https://stackoverflow.com/questions/1469899/worst-security-hole-youve-seen?page=1&tab=votes#tab-top
 
-## web specific  
+## web specific  
 
 * use HTTPS 
 * don't allow HTTP access to secure pages
@@ -58,7 +58,14 @@ https://stackoverflow.com/questions/1469899/worst-security-hole-youve-seen?page=
 * use `X-Frame-Options: DENY` to disallow allow attempts to iframe site (recommended)
  
 
-## Cross-site request forgery CSRF 
+## Attacks
+
+### SQL injection
+
+parametrize SQL queries, do not trust user input, validate, sanitize
+
+
+### Cross-site request forgery CSRF 
 
 https://portswigger.net/web-security/csrf
 
@@ -76,11 +83,17 @@ CSRF tokens should not be transmitted within cookies.
 
 an attacker to injects malicious code into a website and user's browser executes it 
 
-validate, encode, set `Content Security Policy`
+validate and encode
 
-For example <script> would be returned as &lt;script&gt;
+For example `<script>` would be encoded as `&lt;script&gt;`
 
-## Content Security Policy
+set `Content Security Policy`
+
+
+
+## Concepts
+
+### Content Security Policy
 
 when a webserver adds a CSP response header, the browser will run only allow the white-listed scripts and assets 
 
