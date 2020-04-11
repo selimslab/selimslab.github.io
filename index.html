@@ -3,12 +3,16 @@ layout: default
 ---
 
 
+{% for tag in site.tags %}
+    <a href="#"+{{ t | downcase }}>{{ t | downcase }}</a>
+{% endfor %}
+
 <div class="posts">
     {% for tag in site.tags %}
     {% assign t = tag | first %}
     {% assign posts = tag | last %}
 
-    <h1 class="tag">{{ t | downcase }}</h1>
+    <h1 class="tag" id={{ t | downcase }}>{{ t | downcase }}</h1>
         {% for post in posts %}
         {% if post.tags contains t %}
             <article class="post">
