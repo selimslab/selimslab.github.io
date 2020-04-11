@@ -15,7 +15,7 @@ try to understand needs, interests, capabilities, fears, wishes, ... of people
 
 is it a good time to talk about?
 
-always respond to emails
+respond to emails
 
 keep people informed
 
@@ -41,11 +41,8 @@ do not make promises
 
 Don't deceive yourself. And you are the easiest one to deceive 
 
-<hr>
 
-Problem? 
-
-Don't panic 
+Problem? Don't panic 
 
 Why is this a problem?
 
@@ -67,13 +64,9 @@ Graphs
 
 How to explain to a 6 year old 
 
-<hr>
 
-Take notes 
+Take notes. Summarize and update your notes 
 
-Summarize and update your notes 
-
-<hr>
 
 Do not set big expectations
 
@@ -81,7 +74,6 @@ Gently exceed people's expectations
 
 Pride of ownership 
 
-<hr>
 
 At the beginning, determine requirements
 
@@ -89,7 +81,6 @@ Know when to start wait and finish
 
 Take frequent short breaks 
 
-<hr>
 
 
 ### Debugging
@@ -108,4 +99,4 @@ Symptoms Vs root cause
 
 Sanity check 
 
-<hr>
+
