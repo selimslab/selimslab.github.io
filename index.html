@@ -14,19 +14,17 @@ layout: default
 
     <h1 class="tag" id={{ t | downcase }}>{{ t | downcase }}</h1>
         {% for post in posts %}
-        {% if post.tags contains t %}
-            <article class="post">
-                {% assign wordCount = post.content | number_of_words %}
+            {% if post.tags contains t %}
+                <article class="post">
+                    {% assign wordCount = post.content | number_of_words %}
 
-                <h2>
-                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
-                    </a>
-                </h2>
+                    <h2>
+                        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
+                        </a>
+                    </h2>
 
-            </article>
-
-
-        {% endif %}
+                </article>
+            {% endif %}
         {% endfor %}
     {% endfor %}
 

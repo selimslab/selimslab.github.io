@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Methods of Influence 
+title: Influence 
 tags: psychology
 ---
 

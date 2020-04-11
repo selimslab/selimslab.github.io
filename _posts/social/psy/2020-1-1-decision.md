@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Decision Making 
+title: Decisions 
 tags: psychology
 ---
  

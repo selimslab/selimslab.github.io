@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Communication Insights Summary 
+title: Communication 
 tags: psychology
 ---
 

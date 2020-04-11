@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Thinking, Fast and Slow, one page summary 
+title: Thinking, Fast and Slow 
 tags: psychology
 ---
 

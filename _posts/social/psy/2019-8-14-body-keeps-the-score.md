@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Body Keeps the Score, Trauma Healing
+title: Body Keeps the Score
 tags: psychology
 ---
 

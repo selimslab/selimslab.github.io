@@ -1,5 +1,5 @@
 layout: post
-title: Skill with People, one page summary 
+title: People
 tags: psychology 
 ---
 
