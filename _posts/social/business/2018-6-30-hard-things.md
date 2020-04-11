@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Hard Thing About Hard Things, one page summary 
+title: The Hard Thing About Hard Things
 tags: business
 ---
 

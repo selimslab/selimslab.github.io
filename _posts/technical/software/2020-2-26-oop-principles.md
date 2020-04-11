@@ -3,7 +3,9 @@ layout: post
 title: OOP
 tags: software 
 ---
-OOP makes life simpler, let's see how 
+
+# Abstraction
+boxes inside boxes 
 
 # Encapsulation
 Hide data and selectively reveal

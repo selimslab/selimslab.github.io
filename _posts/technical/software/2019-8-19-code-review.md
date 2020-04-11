@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Code Review Summary
+title: Code Review 
 tags: software 
 ---
 
-Summary of https://google.github.io/eng-practices/review/reviewer/looking-for.html
+Summary of <a href="https://google.github.io/eng-practices/review/reviewer/looking-for.html">
+https://google.github.io/eng-practices/review/reviewer/looking-for.html</a>
 
 In doing a code review, you should make sure that:
 

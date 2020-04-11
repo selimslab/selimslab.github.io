@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Timeless ideas on software development
+title: From UNIX to Agile 
 tags: software
 --- 
 

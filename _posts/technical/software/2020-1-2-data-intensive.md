@@ -1,44 +1,17 @@
 ---
 layout: post
-title: The Summary of Designing Data-Intensive Applications 
+title: Designing Data-Intensive Applications 
 tags: software 
 ---
  
 
 <img height="250"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415816873l/23463279.jpg" /> 
 
-The goal is to design Reliable, Scalable, Maintainable systems
-
-Reliable works correctly even when faults occur 
-
-Scalable is keeping performance good when load increases 
-
-Maintainable is to make life simpler for engineering and operations 
+ideas to design reliable, scalable, maintainable systems
 
 
 
-## Replication
 
-Keeping a copy of data on multiple places 
-
-Can serve several ends 
-
-High availability 
-
-Offline operation 
-
-reduce latency
-
-Scalability
-
-Concurrency
-
-Network faults 
-
-### 3 main approaches
-+ Single leader
-+ Multi leader
-+ Leaderless
 
 # Storage and retrieval
 
@@ -76,6 +49,26 @@ indexes are less relevant
 Minimize read amount 
 
 Encode compactly 
+
+
+## Replication
+
+Keeping a copy of data on multiple places 
+
+Can serve several ends 
+
+High availability 
+
+Offline operation 
+
+reduce latency
+
+Scalability
+
+Concurrency
+
+Network faults 
+
 
 
 ## Consistency and Consensus

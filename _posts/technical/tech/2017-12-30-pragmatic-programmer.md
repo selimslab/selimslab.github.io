@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Pragmatic Programmer, one page summary 
+title: The Pragmatic Programmer
 tags: tech
 ---
 
