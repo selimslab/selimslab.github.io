@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SAPIENS
-tags: history 
+tags: philosophy 
 
 ---
 
