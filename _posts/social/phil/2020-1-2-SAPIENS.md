@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SAPIENS, one page summary  
+title: SAPIENS
 tags: history 
 
 ---

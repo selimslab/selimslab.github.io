@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scala basics
+title: Scala 
 tags: snippets
 ---
 
