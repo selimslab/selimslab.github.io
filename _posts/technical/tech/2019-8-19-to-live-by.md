@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Algorithms to Live By, one page summary 
+title: Algorithms to Live By
 tags: tech 
 
 ---

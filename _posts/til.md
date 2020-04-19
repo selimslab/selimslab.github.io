@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Post in progress
+title: today i learned 
 tags: in-progress
 ---
+
 
 mark of strength is not to take yourself too seriously
 
@@ -50,14 +51,14 @@ Doing is everything. Use your knowledge
 
 ## Pain
 What determines your success isn’t “What do you want to enjoy?”
- The question is, “What pain do you want to sustain?” 
+The question is, “What pain do you want to sustain?” 
 
 ## Productivity
 Finally, to repeat one more time: productivity in the wrong direction isn’t worth anything at all.  Think more about what to work on.
 
 
 ## Be Kind
- Being kind isn’t the same as being nice. It isn’t about superficial praise. 
+Being kind isn’t the same as being nice. It isn’t about superficial praise. 
 It doesn’t mean dulling your opinions. And it shouldn’t diminish the passion 
 with which you present them.
 
@@ -86,7 +87,7 @@ Care
 Grow 
 
 Aim higher
- 
+
 Start small and iterate
 
 
@@ -102,8 +103,8 @@ If you cannot solve it, then what is the use of worrying?
 
 Refinement of everyday thinking 
 
- isolation of work from leisure
- 
+isolation of work from leisure
+
 The average players, they discovered, spread their work throughout the day.
 
 
@@ -112,7 +113,7 @@ Raising The Minimum Wage By $1 May Prevent Thousands Of Suicides, Study Shows
 “The curious paradox is that when I accept myself just as I am, then I can change.”
 
 
- When you give the best you have to someone in need, it translates into something much deeper to the receiver. It means they are worthy.
+When you give the best you have to someone in need, it translates into something much deeper to the receiver. It means they are worthy.
 
 Systematic criticism and correction
 
@@ -130,12 +131,12 @@ alcohol is one of the most powerful suppressors of REM [rapid-eye-movement] slee
 
 When in doubt, rely on an algorithm, because it's more accurate than your best guess or some expert's opinion. 
 
- We are irrationally. We are prone to jump to conclusions.
+We are irrationally. We are prone to jump to conclusions.
 
 ## Disagree
 It's perfectly OK to disagree with someone;
- but please consider doing so in a respectful
-  and thoughtful tone. 
-  Remember that others often shut-down when they read criticism,
-   even when well warranted. 
-   The way you phrase and present yourself defines whether you're giving criticism or critique.
+but please consider doing so in a respectful
+and thoughtful tone. 
+Remember that others often shut-down when they read criticism,
+even when well warranted. 
+The way you phrase and present yourself defines whether you're giving criticism or critique.
