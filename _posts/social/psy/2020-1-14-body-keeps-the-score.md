@@ -5,7 +5,7 @@ tags: psychology
 author: Ece Can
 ---
 
-<i>written by Ece Can from Bogazici University</>
+written by Ece Can 
 
 Traumatic stress is a kind of being absent from the present time.
 
