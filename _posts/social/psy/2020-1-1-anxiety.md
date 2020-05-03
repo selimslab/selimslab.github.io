@@ -4,7 +4,7 @@ title: Anxiety
 tags: psychology
 ---
  
-summary of https://ncase.me/mental-health/
+summary from [https://ncase.me/mental-health/](https://ncase.me/mental-health/)
 
 Do not fear fear itself.
 

@@ -7,7 +7,7 @@ tags: psychology
 <img height="250"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1317793965l/11468377.jpg" /> 
 
 From the <a href="https://www.goodreads.com/review/show/264543341?book_show_action=true&from_review_page=1">
-	great review </a> 
+	goodreads review </a> 
 
  We are irrationally prone to jump to conclusions based on rule-of-thumb shortcuts to actual reasoning, and in reliance on bad evidence, even though we have the capacity to think our way to better conclusions. But we're lazy, so we don't. 
 
