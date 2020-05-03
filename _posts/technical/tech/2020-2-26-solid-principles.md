@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SOLID Principles
-tags: software 
+tags: tech 
 ---
 
 + S - Single Responsibility Principle

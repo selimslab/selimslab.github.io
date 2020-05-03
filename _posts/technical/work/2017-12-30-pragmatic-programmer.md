@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Pragmatic Programmer
-tags: tech
+tags: work
 ---
 
 <img height="250"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1401432508l/4099.jpg" /> 

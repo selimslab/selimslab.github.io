@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Algorithms to Live By
-tags: tech 
+tags: psychology 
 
 ---
 

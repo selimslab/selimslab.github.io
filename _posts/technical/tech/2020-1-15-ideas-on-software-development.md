@@ -1,7 +1,7 @@
 ---
 layout: post
 title: From UNIX to Agile 
-tags: software
+tags: tech
 --- 
 
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Egoless Programming
-tags: tech
+tags: psychology
 --- 
 
 summary from 
@@ -31,10 +31,21 @@ Don’t be “the coder in the corner.”
 Critique code instead of people – be kind to the coder, not to the code. 
 
 
-## Praise & Credit
+### Praise & Credit
 
 It is amazing what you can accomplish if you do not care who gets credit.
 
 a mature engineer holds the success of the project much higher than the potential praise they may get personally for working on it. 
 
 The attribution of praise or credit can be the source of such dysfunction in an engineering-driven organization, and I believe it’s because it’s largely invisible.
+
+
+### Leadership
+
+You don't need to be the best engineer in the world, 
+just get good at advertising your people 
+and their stories up the chain of command. 
+
+Improve their observability so that
+you can keep bureaucracy at bay and have a high level of trust.
+ 

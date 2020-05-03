@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Operating Systems,  3 pillars
-tags: software 
+tags: tech 
 ---
 
 OS is the main program running on a computer.

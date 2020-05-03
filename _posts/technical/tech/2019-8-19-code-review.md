@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Code Review 
-tags: software 
+tags: tech 
 ---
 
 Summary of <a href="https://google.github.io/eng-practices/review/reviewer/looking-for.html">
