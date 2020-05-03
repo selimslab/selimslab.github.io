@@ -29,6 +29,7 @@ We need senatorship, art could lead to better but worse
 we need better childhoods and better role models
 
 How could a society be better at producing eudaimonia
+
 ## Epicurus
 
 two cloaks, lived on bread, olive, and cheese

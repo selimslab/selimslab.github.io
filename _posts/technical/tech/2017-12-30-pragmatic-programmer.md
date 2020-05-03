@@ -6,12 +6,9 @@ tags: tech
 
 <img height="250"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1401432508l/4099.jpg" /> 
 
+#### People
 
-ask questions, make a dialoge not monolog 
-
-plan what you want to say and refine it 
-
-try to understand needs, interests, capabilities, fears, wishes, ... of people
+try to understand needs, interests, capabilities, fears, wishes of people
 
 is it a good time to talk about?
 
@@ -19,30 +16,53 @@ respond to emails
 
 keep people informed
 
+ask questions, make a dialoge not monolog 
+
+plan what you want to say and refine it 
+
 know your audience, choose the time, listen 
-
-estimate -> "I will get back to you"
-
-don't rely heavily on anything 
-
-keep a log of your estimates
-
-choose good tools and know them well
-
-debug -> rubber duck + visualize+ eliminate + trace + ask why 
 
 common sense and plain dealing 
 
-At the beginning -> define requirements well 
 
-under promise, over deliver 
+#### estimates
 
-do not make promises 
+estimate -> "I will get back to you"
+
+keep a log of your estimates
 
 Don't deceive yourself. And you are the easiest one to deceive 
 
 
-Problem? Don't panic 
+
+#### Process
+
+do not make promises 
+
+define requirements well from the start
+
+under promise, over deliver 
+
+Do not set big expectations
+
+Gently exceed people's expectations
+
+Pride of ownership 
+
+Know when to start, wait, and finish 
+
+Take frequent short breaks 
+
+Take notes. Summarize and update your notes 
+
+don't rely heavily on anything 
+
+choose good tools and know them well
+
+
+#### Problems
+
+Don't panic 
 
 Why is this a problem?
 
@@ -65,27 +85,15 @@ Graphs
 How to explain to a 6 year old 
 
 
-Take notes. Summarize and update your notes 
 
 
-Do not set big expectations
-
-Gently exceed people's expectations
-
-Pride of ownership 
-
-
-At the beginning, determine requirements
-
-Know when to start wait and finish 
-
-Take frequent short breaks 
-
-
-
-### Debugging
+#### Debugging
 
 Don't panic
+
+Sanity check 
+
+Ask why 
 
 Visualize data
 
@@ -97,6 +105,5 @@ Elimination
 
 Symptoms Vs root cause
 
-Sanity check 
 
 

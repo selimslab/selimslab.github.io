@@ -10,6 +10,8 @@ Specific questions are better than generic ones.
 
 “What do you see as the strengths and weaknesses of the current team?”
 
+which qualities do you admire in your current team?
+
 “How do product or business decisions get made here?”
 
 Who do you admire and why

@@ -4,19 +4,23 @@ title:  Case Interviews
 tags: work
 ---
 
-analytically solve the problem and communicate the results as clear actionable insights 
+analytically solve the problem 
+
+communicate the results as clear actionable insights 
 
 
-Hypothesis
-Tree
-Drilldown
-Synthesis
+- Hypothesis
+- Tree
+- Drilldown
+- Synthesis
 
-Conclusion&Action
-  Reason 1
-  Reason 2
-  Reason 3
-Conclusion&Action
+  Conclusion&Action
+
+    - Reason 1
+    - Reason 2
+    - Reason 3
+
+  Conclusion&Action
 ​
 ## Tips 
 + remind your structure

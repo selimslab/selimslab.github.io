@@ -55,7 +55,6 @@ class Bad:
 
     def read(self):
         self.reader.read()
-        
 ```
 bad because reader is concrete
 
@@ -68,8 +67,6 @@ class Good:
         
     def read(self):
         self.reader.read()
-        
-    
 ```
 Dependency is injected to the constructor and problem solved!
 

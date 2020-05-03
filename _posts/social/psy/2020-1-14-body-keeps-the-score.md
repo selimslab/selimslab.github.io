@@ -2,7 +2,10 @@
 layout: post
 title: Body Keeps the Score
 tags: psychology
+author: Ece Can
 ---
+
+<i>written by Ece Can from Bogazici University</>
 
 Traumatic stress is a kind of being absent from the present time.
 
@@ -24,3 +27,4 @@ Watching out bodies’ senses brings us to gain control over them.
 Realizing anger, tension and anxiety help to change your perspective and offer new options instead of reacting impulsively.
 
 Breaking the silence by disclosing your secrets instead of suppressing emotions gives you freedom.
+

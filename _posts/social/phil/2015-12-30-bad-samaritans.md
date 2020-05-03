@@ -17,8 +17,7 @@ Investing in a company that is going to make a loss for 17 years (Nokia) may be 
 
 Some of the world’s best firms are owned and run by the state
 
-‘Borrowing’ ideas from more productive foreigners is essential for economic 
-development
+‘Borrowing’ ideas from more productive foreigners is essential for economic development
 
 Low inflation and government prudence may be harmful for economic development
 
