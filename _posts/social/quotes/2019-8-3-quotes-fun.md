@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  Believe nothing until it has been officially denied.
-
+title: Never miss a good chance to shut up
 tags: quotes
 --- 
 
@@ -121,3 +120,18 @@ For instance, on the planet Earth, man had always assumed that he was more intel
 <br><br>
 It is better to remain silent at the risk of being thought a fool, than to talk and remove all doubt of it.
 
+You know, one of the tragedies of real life is that there is no background music.
+
+I just did some calculations and I've been able to determine that you're full of shit.
+
+The problem with doing nothing is not knowing when you are finished.
+
+Talk sense to a fool and he calls you foolish.
+
+
+Tact is the ability to tell someone to go to hell in such a way that they look forward to the trip.
+
+Believe nothing until it has been officially denied.
+
+
+Never trust people who smile constantly. They're either selling something or not very bright.

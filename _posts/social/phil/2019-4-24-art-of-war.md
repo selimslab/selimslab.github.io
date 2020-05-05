@@ -91,3 +91,7 @@ don't make your enemy desparate, leave an outlet
 
 recklessness, cowardice, haste, fazla gurur, fazla merhamet -> defeat 
 
+Appear weak when you are strong, and strong when you are weak.
+
+Never interrupt your enemy when he is making a mistake.
+

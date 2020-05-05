@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Case Interviews 
-tags: work
+tags: business
 ---
 
 analytically solve the problem 

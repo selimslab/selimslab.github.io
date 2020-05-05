@@ -140,3 +140,16 @@ and thoughtful tone.
 Remember that others often shut-down when they read criticism,
 even when well warranted. 
 The way you phrase and present yourself defines whether you're giving criticism or critique.
+
+
+# learning 
+Learning should take place when it is needed, when the learner is interested, not according to some arbitrary, fixed schedule
+
+
+Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover.
+
+
+Do what you can, with what you have, where you are.
+
+The difference between genius and stupidity is: genius has its limits.
+
