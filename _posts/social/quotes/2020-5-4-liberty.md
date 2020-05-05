@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Life
+title: Count your age by friends
 tags: quotes 
 
 ---
