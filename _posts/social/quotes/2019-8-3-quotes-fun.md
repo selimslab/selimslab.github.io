@@ -133,5 +133,7 @@ Tact is the ability to tell someone to go to hell in such a way that they look f
 
 Believe nothing until it has been officially denied.
 
+Clothes make the man. Naked people have little or no influence on society.
+
 
 Never trust people who smile constantly. They're either selling something or not very bright.

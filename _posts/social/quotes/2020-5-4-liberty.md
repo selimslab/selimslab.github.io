@@ -5,6 +5,11 @@ tags: quotes
 
 ---
 
+
+Freedom is not worth having if it does not include the freedom to make mistakes.
+
+
+
 ### happiness 
 
 
