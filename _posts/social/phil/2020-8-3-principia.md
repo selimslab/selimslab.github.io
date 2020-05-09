@@ -22,7 +22,9 @@ humble, confident, moderate
 
 simplicity, gratitude 
 
-healthy -> clean, water, sleep, lots of fruits, veggies, sports, feed body and mind 
+healthy -> clean, water, sleep, lots of fruits, veggies, sports, 
+
+care -> care for body, mind, friends, family, people, animals, earth, and the future 
 
 ### Positive
 
@@ -94,15 +96,15 @@ be a starter
 
 greet people first
 
-start conversations
-
 compliment
 
 text, call, mail
 
 notice changes
 
+start conversations
 
+people are worthy and valuable 
 
 ### communicate well
 
@@ -124,12 +126,9 @@ body language
 
 disagree respectfully 
 
+>  If a human disagrees with you, let him live. In a hundred billion galaxies, you will not find another.
+
 constructive feedback 
-
-people are worthy and valuable 
-
-
-
 
 ### say 
 
@@ -161,8 +160,6 @@ do not take yourself too seriously
 
 do not brag, be humble
 
-
-
 ### Moderate
 
 golden mean 
@@ -173,13 +170,6 @@ Balance fun and seriousness
 
 Balance thinking and doing 
 
-### Care
-
-Care body and mind 
-
-Care for friends and family 
-
-Care for the world and the future 
 
 ### move on 
 
