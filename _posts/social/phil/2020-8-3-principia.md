@@ -9,7 +9,11 @@ What makes you the person you are? Thoughts, principles, and character are the e
 
 How is a good person, what is a good life? This is my attempt to define an ideal self.
 
-> Think of yourself as dead. You have lived your life. Now take what's left and live it properly. - Marcus Aurelius 
+> Think of yourself as dead. You have lived your life
+> 
+> Now take what's left and live it properly.
+> 
+> – Marcus Aurelius 
 
 
 ### Basics 
@@ -28,7 +32,9 @@ care -> care for body, mind, friends, family, people, animals, earth, and the fu
 
 ### Positive
 
-> We suffer more in imagination than in reality  – Seneca
+> We suffer more in imagination than in reality 
+> 
+> – Seneca
 
 
 optimist 
@@ -66,7 +72,9 @@ slow to anger, quick to calm
 
 > anger and grief damage more than the things that cause them 
 
-> When angry, count ten before you speak; if very angry, a hundred. — Thomas Jefferson
+> When angry, count ten before you speak; if very angry, a hundred. 
+> 
+> — Thomas Jefferson
 
 ### social
 
@@ -108,7 +116,9 @@ notice changes
 
 start conversations
 
-> people will never forget how you made them feel. – Maya Angelou
+> people will never forget how you made them feel.
+> 
+>  – Maya Angelou
 
 ### communicate well
 
@@ -130,7 +140,7 @@ body language
 
 disagree respectfully 
 
->  If a human disagrees with you, let him live. In a hundred billion galaxies, you will not find another.
+> If a human disagrees with you, let him live. In a hundred billion galaxies, you will not find another.
 
 constructive feedback 
 
@@ -186,7 +196,9 @@ Balance thinking and doing
 
 ### hope 
 
-> “In the depth of winter, I finally learned that within me there lay an invincible summer.” ― Albert Camus
+> In the depth of winter, I finally learned that within me there lay an invincible summer.
+> 
+> ― Albert Camus
 
 hope itself is often better than what you’re hoping for…
 
@@ -207,7 +219,9 @@ learn and move on
 
 ### Think critically
 
-> An unexamined life is not worth living. - Socrates
+> An unexamined life is not worth living. 
+> 
+> – Socrates
 
 rise above the situation
 
@@ -227,11 +241,11 @@ reflect on the past, plan for the future, enjoy the moment
 ### Work and play 
 
 > Do nothing against thy will, 
-nor contrary to the community, 
-nor without due examination, 
-nor with reluctancy. 
-
-- Marcus Aurelius 
+> nor contrary to the community, 
+> nor without due examination, 
+> nor with reluctancy. 
+> 
+> – Marcus Aurelius 
 
 curious 
 
