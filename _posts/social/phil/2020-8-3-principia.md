@@ -55,6 +55,8 @@ have fun
 
 enjoy life
 
+our capacity for fretting is endless -> don't worry, be happy 
+
 
 ### calm
 
@@ -149,11 +151,9 @@ poorest way is arguing
 Building consensus, understanding emotions, having support are more important than winning an argument
 
 
-### say 
+### Simple words with big effects 
 
 no 
-
-I don’t know 
 
 I love you 
 
@@ -161,13 +161,25 @@ I think
 
 I feel
 
-I like it 
+I don’t know 
+
+I like you
 
 I don’t like it 
 
-I agree with you 
+I agree
 
--- 
+I don’t agree
+
+no, thank you
+
+I don’t understand
+
+I’m sorry, that was my fault
+
+Can you help me?
+
+--- 
 
 do not interrupt
 
@@ -182,6 +194,17 @@ do not brag, be humble
 Pick your battles: Some things are worth fighting over. But most things aren’t.
 
 don't carry baggage, deal with it at the moment
+
+
+## Be contentful 
+
+> The greatest wealth is to live content with little" Plato 
+
+> "He is rich who is content with the least, for contentment is the wealth of nature" Socrates 
+
+> "The greatest wealth is poverty of desires" Seneca 
+
+> "Wealth consists not in having great possessions but in having few wants" Epictetus
 
 ### Moderate
 
@@ -311,5 +334,7 @@ Stop waiting, start doing
 ---
 
 Go ahead, just do it, impress yourself
+
+
 
 > “Never doubt that a small group of thoughtful, committed, citizens can change the world. Indeed, it is the only thing that ever has.” ― Margaret Mead
