@@ -6,7 +6,6 @@ tags: philosophy
 ---
 
 
-
 ## People
 
 Good fences make good neighbors.

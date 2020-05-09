@@ -61,4 +61,12 @@ Trying to solve everyone's problems?
 
 Do you want to be happy or right?
 
+what would you do if you could not fail?
 
+if there is no money?
+
+if you had infinite time? 
+
+if you weren't afrtaid?
+
+if all jobs paid the same?
