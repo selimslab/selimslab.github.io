@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Never miss a good chance to shut up
+title: Fun
 tags: quotes
 --- 
 
@@ -51,7 +51,7 @@ I think I've discovered the secret of life -- you just hang around until you get
 
 Those are my principles, and if you don't like them...well I have others.
 
-
+If A is a success in life, then A equals x plus y plus z. Work is x; y is play; and z is keeping your mouth shut
 
 If you ever know a man who tries to drown his sorrows, kindly inform him his sorrows know how to swim.
 
@@ -137,3 +137,5 @@ Clothes make the man. Naked people have little or no influence on society.
 
 
 Never trust people who smile constantly. They're either selling something or not very bright.
+
+Never miss a good chance to shut up

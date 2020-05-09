@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Psychology drives business  
+title: Make something people want
 tags: psychology
 ---
 

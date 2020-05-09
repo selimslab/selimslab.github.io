@@ -6,23 +6,7 @@ tags: tech
 
 <img height="250"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1401432508l/4099.jpg" /> 
 
-#### People
 
-try to understand needs, interests, capabilities, fears, wishes of people
-
-is it a good time to talk about?
-
-respond to emails
-
-keep people informed
-
-ask questions, make a dialoge not monolog 
-
-plan what you want to say and refine it 
-
-know your audience, choose the time, listen 
-
-common sense and plain dealing 
 
 
 #### estimates
@@ -60,6 +44,24 @@ don't rely heavily on anything
 choose good tools and know them well
 
 
+#### People
+
+try to understand needs, interests, capabilities, fears, wishes of people
+
+is it a good time to talk about?
+
+respond to emails
+
+keep people informed
+
+ask questions, make a dialoge not monolog 
+
+plan what you want to say and refine it 
+
+know your audience, choose the time, listen 
+
+common sense and plain dealing 
+
 #### Problems
 
 Don't panic 
@@ -83,7 +85,6 @@ Photos
 Graphs 
 
 How to explain to a 6 year old 
-
 
 
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Biases    
+title:  Bias   
 tags: psychology
 ---
 

@@ -5,6 +5,8 @@ tags: psychology
 ---
 
 
+## Methods 
+
 Rational persuasion, show how it is relevant 
 
 Collaboration, step in and resolve problems 
@@ -21,8 +23,7 @@ Inspirational, create strong emotions
 
 Legitimating, a higher order says so
 
-Pressure 
-
+Pressure, the last resort 
 
 > Followers should feel them as authentic and sincere. 
 
