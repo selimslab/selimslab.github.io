@@ -70,3 +70,11 @@ if you had infinite time?
 if you weren't afrtaid?
 
 if all jobs paid the same?
+
+is this opinion really mine?
+
+is this passion original or just a mimicry?
+
+How well did you love?
+
+How fully did you live?

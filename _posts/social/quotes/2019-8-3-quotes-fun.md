@@ -55,6 +55,7 @@ If A is a success in life, then A equals x plus y plus z. Work is x; y is play; 
 
 If you ever know a man who tries to drown his sorrows, kindly inform him his sorrows know how to swim.
 
+Nobody panics when things go “according to plan”. Even if the plan is horrifying!
 
 
 If a black cat crosses your path, it signifies that the animal is going somewhere.
