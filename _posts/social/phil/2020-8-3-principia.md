@@ -28,19 +28,17 @@ healthy -> clean, water, sleep, lots of fruits, veggies, sports, feed body and m
 
 > We suffer more in imagination than in reality  – Seneca
 
-Optimist 
+optimist 
 
 enthusiastic
 
 passionate
 
-optimist
-
 relax
 
-Chill
+chill
 
-Fresh 
+fresh 
 
 enjoy life
 
@@ -49,44 +47,46 @@ have fun
 
 ### calm
 
-Peace of mind
+peace of mind
 
 tranquility 
 
 Love
 
-Comfortable
+comfortable
 
-Forgiving
+forgiving
 
-Slow to anger, quick to calm  
+slow to anger, quick to calm  
 
 >  anger and grief damage more than the things that cause them 
 
 
 ### social
 
-People first 
+people first 
 
-Emotional intelligence 
+emotional intelligence 
 
 friendship 
 
-Care
+care
 
-Friendly, sincere, warm
+friendly, sincere, warm
 
-Agreeable
+agreeable
 
-Smile
+smile
 
-Hug
+hug
 
-Show your love 
+show your love 
 
-Honesty, Integrity 
+honesty
 
-Sober, honorable, dignified
+integrity 
+
+sober, honorable, dignified
 
 authentic
 
@@ -104,36 +104,31 @@ notice changes
 
 
 
-### communication
+### communicate well
 
-Listen well 
+listen well 
 
-Kind and assertive
+kind and assertive
 
-Empathy
+empathy
 
 breath, posture, voice, tone
 
-Speak clearly, with enthusiasm
+speak clearly, with enthusiasm
 
-Dress well
+dress well
 
 eye contact
 
 body language
 
+disagree respectfully 
 
-### watch out
+constructive feedback 
 
-Do not interrupt
+people are worthy and valuable 
 
-do not judge
 
-do not jump to conclusions
-
-Do not take yourself too seriously
-
-Do not brag, be humble
 
 
 ### say 
@@ -153,6 +148,18 @@ I like it
 I don’t like it 
 
 I agree with you 
+
+-- 
+
+do not interrupt
+
+do not judge
+
+do not jump to conclusions
+
+do not take yourself too seriously
+
+do not brag, be humble
 
 
 
@@ -174,18 +181,15 @@ Care for friends and family
 
 Care for the world and the future 
 
-
-
-
 ### move on 
 
-Get up 
+get up 
 
-Don’t give up 
+don’t give up 
 
 go ahead 
 
-No regrets, hindsight is 20/20
+no regrets, hindsight is 20/20
 
 learn and move on
 
@@ -196,19 +200,19 @@ learn and move on
 
 rise above the situation
 
-Disregard the box
+disregard the box
 
-Watch for biases
+watch for biases
 
 question assumptions 
 
-Question everything
+question everything
 
-Pause and reflect 
+pause and reflect 
 
-Think long term 
+think long term 
 
-Reflect on the past, plan for the future, enjoy the moment 
+reflect on the past, plan for the future, enjoy the moment 
 
 
 ### Work and play 
@@ -220,29 +224,23 @@ nor with reluctancy.
 
 - Marcus Aurelius 
 
-Curious 
+curious 
 
-Creative 
+creative 
 
 responsible
 
-Subtlety
+subtlety
 
-Quality
+quality
 
 reliable
 
-Punctual
+punctual
 
-Value your time, value yourself and others  
+value your time, value yourself and others  
 
-Show your value
-
-skilled
-
-Qualified 
-
-Expert
+show your value
 
 professional
 
@@ -267,15 +265,15 @@ Eliminate, simplify, prioritize, delegate, iterate
 
 ### Act 
 
-Think before speak
+think before speak
 
-Think before promise 
+think before promise 
 
-Don't overthink 
+don't overthink 
 
-Plan before doing something
+plan before doing something
 
-Bias for action, most decisions are reversible
+bias for action, most decisions are reversible
 
 good enough is good 
 
