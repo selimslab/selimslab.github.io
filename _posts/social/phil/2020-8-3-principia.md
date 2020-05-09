@@ -30,6 +30,7 @@ care -> care for body, mind, friends, family, people, animals, earth, and the fu
 
 > We suffer more in imagination than in reality  – Seneca
 
+
 optimist 
 
 enthusiastic
@@ -42,9 +43,11 @@ chill
 
 fresh 
 
-enjoy life
+> How much pain the evils have cost us that have never happened!
 
 have fun
+
+enjoy life
 
 
 ### calm
@@ -61,8 +64,9 @@ forgiving
 
 slow to anger, quick to calm  
 
->  anger and grief damage more than the things that cause them 
+> anger and grief damage more than the things that cause them 
 
+> When angry, count ten before you speak; if very angry, a hundred. — Thomas Jefferson
 
 ### social
 
@@ -104,7 +108,7 @@ notice changes
 
 start conversations
 
-people are worthy and valuable 
+> people will never forget how you made them feel. – Maya Angelou
 
 ### communicate well
 
@@ -129,6 +133,11 @@ disagree respectfully
 >  If a human disagrees with you, let him live. In a hundred billion galaxies, you will not find another.
 
 constructive feedback 
+
+poorest way is arguing 
+
+Building consensus, understanding emotions, having support are more important than winning an argument
+
 
 ### say 
 
@@ -160,6 +169,10 @@ do not take yourself too seriously
 
 do not brag, be humble
 
+Pick your battles: Some things are worth fighting over. But most things aren’t.
+
+don't carry baggage, deal with it at the moment
+
 ### Moderate
 
 golden mean 
@@ -171,7 +184,15 @@ Balance fun and seriousness
 Balance thinking and doing 
 
 
+### hope 
+
+> “In the depth of winter, I finally learned that within me there lay an invincible summer.” ― Albert Camus
+
+hope itself is often better than what you’re hoping for…
+
+
 ### move on 
+
 
 get up 
 
@@ -195,8 +216,6 @@ disregard the box
 watch for biases
 
 question assumptions 
-
-question everything
 
 pause and reflect 
 
@@ -234,6 +253,9 @@ show your value
 
 professional
 
+do something just because you enjoy it
+
+
 
 ### grow
 
@@ -252,6 +274,9 @@ feedback
 Work smart 
 
 Eliminate, simplify, prioritize, delegate, iterate 
+
+don't be sorry, improve yourself 
+
 
 ### Act 
 
@@ -272,3 +297,5 @@ Stop waiting, start doing
 ---
 
 Go ahead, just do it, impress yourself
+
+> “Never doubt that a small group of thoughtful, committed, citizens can change the world. Indeed, it is the only thing that ever has.” ― Margaret Mead

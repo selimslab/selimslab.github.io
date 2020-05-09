@@ -4,6 +4,7 @@ title: People
 tags: psychology
 ---
 
+
 > People will often think they understand, 
 and they’ll say they understand, 
 but then their actions show that it just ain’t so.

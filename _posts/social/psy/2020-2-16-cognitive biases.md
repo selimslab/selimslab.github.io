@@ -4,7 +4,7 @@ title:  Biases
 tags: psychology
 ---
 
-one page summary of key ideas from 
+key ideas from 
 <a href="https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18">medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18</a>
 
 we simplify and generalize 

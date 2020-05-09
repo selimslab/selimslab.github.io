@@ -17,7 +17,6 @@ We don't understand statistics, and if we did, we'd be more cautious in our judg
 
 Life not only is uncertain, we cannot understand it systemically, and luck has just as much to do with what happens to us -- maybe even more -- than we care to admit. 
 
-
 When in doubt, rely on an algorithm, because it's more accurate than your best guess or some expert's opinion. 
 
 Above all, determine the baseline before you come to any decisions.
