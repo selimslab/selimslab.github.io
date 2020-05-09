@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Begin at the beginning," the King said, very gravely, "and go on till you come to the end: then stop.
+title: "Begin at the beginning," the King said, very gravely, "and go on till you come to the end: then stop.
 tags: quotes 
+
 ---
 
 It's a dangerous business, Frodo, going out your door. You step onto the road, and if you don't keep your feet, there's no knowing where you might be swept off to.
