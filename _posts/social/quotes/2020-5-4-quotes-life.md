@@ -1,16 +1,18 @@
 ---
 layout: post
-title: "Begin at the beginning," the King said, very gravely, "and go on till you come to the end: then stop.
+title: life
 tags: quotes 
 
 ---
+
+"Begin at the beginning," the King said, very gravely, "and go on till you come to the end: then stop.
 
 It's a dangerous business, Frodo, going out your door. You step onto the road, and if you don't keep your feet, there's no knowing where you might be swept off to.
 
 Whoever fights monsters should see to it that in the process he does not become a monster. And if you gaze long enough into an abyss, the abyss will gaze back into you.
 
+The fault, dear Brutus, is not in our stars, but in ourselves.
 
----
 
 We're all going to die, all of us, what a circus! That alone should make us love each other but it doesn't. We are terrorized and flattened by trivialities, we are eaten up by nothing.
 
@@ -18,7 +20,6 @@ Never be bullied into silence. Never allow yourself to be made a victim. Accept 
 
 You have enemies? Good. That means you've stood up for something, sometime in your life.
 
-The secret of life, though, is to fall seven times and to get up eight times.
 
 You're alive only once, as far as we know, and what could be worse than getting to the end of your life and realizing you hadn't lived it?
 
@@ -31,9 +32,6 @@ Atticus told me to delete the adjectives and I'd have the facts.
 
 If you’re good at something, never do it for free.
 
-
-
-
 Despise The Free Lunch
 
 You know what charm is: a way of getting the answer yes without having asked any clear question.
@@ -41,7 +39,6 @@ You know what charm is: a way of getting the answer yes without having asked any
 Invisible things are the only realities.
 
 Never underestimate the power of stupid people in large groups.
-
 
 Whatever you are, be a good one.
 
@@ -53,7 +50,6 @@ Was Du erlebst, kann keine Macht der Welt Dir rauben.
 
 
 
-The fault, dear Brutus, is not in our stars, but in ourselves.
 
 Reality is merely an illusion, albeit a very persistent one.
 
@@ -87,7 +83,6 @@ The creative adult is the child who has survived.
 The creatures outside looked from pig to man, and from man to pig, and from pig to man again; but already it was impossible to say which was which.
 
 
-In individuals, insanity is rare; but in groups, parties, nations and epochs, it is the rule.
 
 It is good to have an end to journey toward; but it is the journey that matters, in the end.
 
