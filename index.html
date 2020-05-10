@@ -5,11 +5,11 @@ layout: default
 
 
 {% for tag in site.tags %}
-    <a href="#"+{{ t | downcase }}>{{ t | downcase }}</a>
+    <a href={{ "#" | append: t | downcase }}>{{ t | downcase }}</a>
 {% endfor %}
 
 <div class="posts">
-    {% for tag in site.tags %}
+    {% for tag in site.tags | sort %}
     {% assign t = tag | first %}
     {% assign posts = tag | last %}
 
