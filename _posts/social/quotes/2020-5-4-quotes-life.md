@@ -1,6 +1,6 @@
 ---
 layout: post
-title: life
+title: Life
 tags: quotes 
 
 ---
