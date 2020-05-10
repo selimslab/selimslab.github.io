@@ -4,6 +4,7 @@ title: Influence
 tags: psychology
 ---
 
+Leadership of humans is like gardening. You plant the seeds and you provide the water. The plant itself is the only part of the whole system that can do the actual growing. Giant trees grow from seeds, but nobody makes that happen.
 
 ## Methods 
 
@@ -82,6 +83,6 @@ watch your own thoughts from a distance
 
 draw a sharp line between your thoughts and your speech.
 
-
+mark of strength is not to take yourself too seriously
 
 

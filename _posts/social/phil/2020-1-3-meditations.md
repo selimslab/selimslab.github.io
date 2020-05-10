@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Meditations
+title: Meditations, Marcus Aurelius 
 tags: philosophy
 ---
+
 
 do nothing against your will
 

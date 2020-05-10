@@ -295,13 +295,20 @@ professional
 
 do something just because you enjoy it
 
+do what you love and love what you do 
 
+Don’t think about how proud you would be to run a marathon. 
+Question whether you like running.
 
 ### grow
 
 iterate
 
-planned
+plan
+
+> A goal without a plan is just a wish.
+>
+> Antoine de Saint-Exupéry
 
 systematic 
 

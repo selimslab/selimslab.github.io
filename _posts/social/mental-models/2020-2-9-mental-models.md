@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mental Models 
-
+tags: mental-models
 ---
 
 ## story arcs 

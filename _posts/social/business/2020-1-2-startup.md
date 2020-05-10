@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Essential Startup Advice  
+title: Startup Essentials
 tags: business
 ---
 
@@ -31,6 +31,7 @@ want a solution a lot
 
 
 ## persona
+
 1. Draw the portrait
 2. Identify facts
 3. List behaviors

@@ -2,7 +2,7 @@
 
 layout: post
 title:  Ideas on life, universe, and everything 
-tags: philosophy
+tags: mental-models
 ---
 
 

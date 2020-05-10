@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Art of War 
-tags: philosophy 
+tags: books 
 
 ---
 

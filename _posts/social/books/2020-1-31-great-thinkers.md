@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Ideas from great thinkers  
-tags: philosophy 
+title: The great thinkers  
+tags: books 
 --- 
 
 ## Plato
