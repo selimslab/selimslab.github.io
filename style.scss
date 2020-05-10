@@ -90,12 +90,12 @@ p {
 }
 
 a {
+  margin:1rem;
   color: $turkuvaz;
   text-decoration: none;
 	cursor: pointer;
-  &:hover, &:active {
+  &:hover {
     color: $turkuvaz;
-    margin:1rem;
   }
 }
 
