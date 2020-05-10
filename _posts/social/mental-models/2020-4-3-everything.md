@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title:  Ideas on life, universe, and everything 
 tags: mental-models
@@ -371,18 +370,13 @@ We notice when something has changed.
 
 We are drawn to details that confirm our own existing beliefs. 
 
-
-
- your word is worth more than your weight in gold.
+your word is worth more than your weight in gold.
 
 Expect nothing and you’ll never be dissapointed!
 
-
 Go down the detail by feedback 
 
-​
 My relationships have improved dramatically now that I only share my time with people who really, really want to share their time with me.
-
 
 tag questions
 Isn’t it?
@@ -445,52 +439,4 @@ today is 100% of your life
 has consequence, has influence
 
 fortune favors the bold -> be bold 
-
-
-
-## public speaking 
-Talk smiling 
-
-take good breaths
-
-talk slower
-
-open your mouth 
-
-talk louder
-
-change your voice 
-
-convey emotion 
-
-don't talk monotone and boring 
-
-## writing better
-Refuse to use the word “thing.”
-
-No brackets.
-
-Fewer prepositions.
-
-Eliminate redundancy
-
-
-## presentations
-Don’t include any text in your slides
-
-Talk about the slide before you put it up, not after it appears
-
-Never look at the screen
-
-5 rules of presentations
-
-1. no text in slides
-
-2. don't look at the screen
-
-3. speak clearly
-
-4. speak with confidence and enthusiasm
-
-5. be brief, be to the point
 
