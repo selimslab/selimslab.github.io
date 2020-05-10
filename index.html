@@ -4,11 +4,16 @@ layout: default
 
 {% assign sorted_tags = site.tags | sort %}
 
-
-{% for tag in sorted_tags %}
+<ul>
+    {% for tag in sorted_tags %}
     {% assign t = tag | first %}
-    <a href={{ '#' | append:  t | downcase }}>{{ t | downcase }}</a>
+    <li>
+        <a href={{ '#' | append:  t | downcase }}>{{ t | downcase }}</a>
+    </li>
 {% endfor %}
+
+</ul>
+
 
 <div class="posts">
     {% for tag in sorted_tags %}
