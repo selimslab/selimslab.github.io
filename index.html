@@ -8,9 +8,9 @@ layout: default
     {% for tag in sorted_tags %}
         {% assign t = tag | first %}
         <li>
-            <a href={{ '#' | append:  t | downcase }}>{{ t | downcase }}</a>
+            <a href="{{ '#' | append:  t   }}">{{ t }}</a>
         </li>
-{   % endfor %}
+    {% endfor %}
 
 </ul>
 
@@ -20,7 +20,7 @@ layout: default
         {% assign t = tag | first %}
         {% assign posts = tag | last %}
 
-        <h1 class="tag" id={{ t | downcase }}>{{ t | downcase }}</h1>
+        <h1 class="tag" id="{{ t }}">{{ t }}</h1>
             {% for post in posts %}
                 {% if post.tags contains t %}
                     <article class="post">
