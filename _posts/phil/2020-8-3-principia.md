@@ -7,9 +7,7 @@ tags: philosophy
 
 What makes you the person you are? Thoughts, principles, and character are the essence, I believe.
 
-How is a good person, what is a good life? 
-
-This is my attempt to define an ideal self because we are products of our thoughts, what we think, we become.
+This is my attempt to define an ideal self because we are products of our thoughts, what we think, we become. 
 
 
 > Think of yourself as dead. You have lived your life
@@ -19,8 +17,10 @@ This is my attempt to define an ideal self because we are products of our though
 > – Marcus Aurelius 
 
 
-### Basics 
 
+
+### a good person, a good life  
+ 
 kind, positive, warm
 
 true, calm, brave

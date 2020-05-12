@@ -78,3 +78,5 @@ is this passion original or just a mimicry?
 How well did you love?
 
 How fully did you live?
+
+Is this the most important thing I should be working on?
