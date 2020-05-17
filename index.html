@@ -16,6 +16,20 @@ layout: default
 
 
 <div class="posts">
+
+    <h1 class="tag" id="best">recommended</h1>
+    {% for post in posts %}
+        {% if post.tags contains t %}
+            <article class="post">
+                <h2>
+                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
+                    </a>
+                </h2>
+            </article>
+        {% endif %}
+    {% endfor %}
+
+
     {% for tag in sorted_tags %}
         {% assign t = tag | first %}
         {% assign posts = tag | last %}
