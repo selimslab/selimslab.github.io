@@ -28,8 +28,7 @@ Qualitatively, it's the exact same neurons. All that differs is quantity, the di
 
 Throw enough neurons in there, and out begins emerging all these distinctive human things.
 
-
-Basic blocks + simple rules + iteration + randomness
+Basic blocks + simple rules + iteration + randomness 
 
 
 
