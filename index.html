@@ -30,6 +30,10 @@ layout: default
     {% for tag in sorted_tags %}
         {% assign t = tag | first %}
         {% assign posts = tag | last %}
+        
+        {% if t ==  "best" %}
+            {% continue %}
+        {% endif %}
 
         <h1 class="tag" id="{{ t | downcase }}">{{ t | downcase }}</h1>
             {% for post in posts %}
