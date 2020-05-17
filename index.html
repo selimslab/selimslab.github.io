@@ -19,7 +19,7 @@ layout: default
 
     <h1 class="tag" id="best">recommended</h1>
     {% for post in posts %}
-        {% if post.tags contains t %}
+        {% if post.tags contains "best" %}
             <article class="post">
                 <h2>
                     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
