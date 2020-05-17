@@ -1,25 +1,15 @@
 ---
 layout: post
 title: Questions
-tags: philosophy 
+tags: philosophy best 
 
 ---
 
-what is the most important thing to do? 
+Questions to ask myself 
 
-is this the real problem?
+How well did you love?
 
-is it a priority?
-
-is it important?
-
-is it urgent?
-
-can I simplify it ?
-
-can I eliminate it ?
-
-can I delegate it?
+How fully did you live?
 
 is this what I really want?
 
@@ -67,7 +57,7 @@ if there is no money?
 
 if you had infinite time? 
 
-if you weren't afrtaid?
+if you weren't afraid?
 
 if all jobs paid the same?
 
@@ -75,8 +65,23 @@ is this opinion really mine?
 
 is this passion original or just a mimicry?
 
-How well did you love?
 
-How fully did you live?
+## work 
+
+what is the most important thing to do? 
 
 Is this the most important thing I should be working on?
+
+is this the real problem?
+
+is it a priority?
+
+is it important?
+
+is it urgent?
+
+can I simplify it ?
+
+can I eliminate it ?
+
+can I delegate it?
