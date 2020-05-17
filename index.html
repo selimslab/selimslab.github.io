@@ -16,18 +16,14 @@ layout: default
 
 
 <div class="posts">
-    {% assign t = "best" %}
-
     <h1 class="tag" id="best">recommended</h1>
-    {% for post in posts %}
-        {% if post.tags contains t %}
-            <article class="post">
-                <h2>
-                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
-                    </a>
-                </h2>
-            </article>
-        {% endif %}
+    {% for post in site.tags.best %}
+        <article class="post">
+            <h2>
+                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
+                </a>
+            </h2>
+        </article>
     {% endfor %}
 
 
