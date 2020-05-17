@@ -13,7 +13,6 @@ Whoever fights monsters should see to it that in the process he does not become 
 
 The fault, dear Brutus, is not in our stars, but in ourselves.
 
-
 We're all going to die, all of us, what a circus! That alone should make us love each other but it doesn't. We are terrorized and flattened by trivialities, we are eaten up by nothing.
 
 Never be bullied into silence. Never allow yourself to be made a victim. Accept no one’s definition of your life; define yourself.
