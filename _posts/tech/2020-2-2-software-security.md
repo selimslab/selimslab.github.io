@@ -18,19 +18,19 @@ tags: tech
 * write exploit code to test your patches 
 
 
-## passwords
+## passwords
 * use strong passwords
 * never keep plain-text passwords
 
-## validate and sanitize 
+## validate and sanitize 
 * never trust any input, always validate, always sanitize
 
-## do not roll your own 
+## do not roll your own 
 * don't try to roll your own security solutions, it's a community effort 
 * don't write your own crypto
 * do not encrypt passwords, hash them with a salt 
 
-## levels
+## levels
 * use whitelists, not blacklists 
 * use authorization levels
 * Least privilege, never grant more access than required
@@ -40,10 +40,10 @@ tags: tech
 * use well-known tried and tested libraries only
 * keep your libraries up to date 
 
-## log 
+## log 
 * log suspicious activity, like failed login attempts, invalid input, statistically rare or unexpected events 
 
-## secrets
+## secrets
 * Hiding secrets is hard - and secrets hidden in code won't stay secret for long
 * Be careful to not check in secrets to public repos
 * be aware of buffer overflow attacks 
@@ -64,7 +64,7 @@ a great list at [https://stackoverflow.com/questions/2794016/what-should-every-p
 * use HTTPS 
 * don't allow HTTP access to secure pages
   
-## SQL
+## SQL
 
 * parametrize SQL queries to prevent SQL injection
 * do not trust user input, validate, sanitize
@@ -94,10 +94,10 @@ su use a CSRF token, they are large random values, unique per user & per user se
 CSRF tokens should not be transmitted within cookies.
 
 
-## XSS 
+## XSS 
 * set `Content Security Policy` so the browser will run only allow the white-listed scripts
 
-## Cookies
+## Cookies
 * prepend cookies with __Secure to prevent them from being overwritten 
 * set cookies with `Secure` flag so they can only be sent over HTTPS 
 * set HTTPOnly for cookies that don’t require access from JavaScript
