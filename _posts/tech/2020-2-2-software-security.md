@@ -5,7 +5,7 @@ tags: tech
 --- 
 # fundamentals
 
-## process
+## process
 
 * Plan for security from the start
 * Keep the attack surface minimum. Keep it simple. Attack vectors include user input fields, protocols, interfaces, and services.
@@ -160,11 +160,16 @@ Disabling inline JavaScript means that all JavaScript must be loaded from scr
 
 By using CSP to disable inline JavaScript, you can effectively eliminate almost all XSS attacks against your site.
 
+example CSP
+
 ```bash
-# Disable unsafe inline/eval and plugins, only load scripts and stylesheets from same origin, fonts from google,
-# and images from same origin and imgur. Sites should aim for policies like this.
-Content-Security-Policy: default-src 'none'; font-src 'https://fonts.googleapis.com';
-			 img-src 'self' https://i.imgur.com; object-src 'none'; script-src 'self'; style-src 'self'
+Content-Security-Policy: 
+default-src 'none'; 
+font-src 'https://fonts.googleapis.com';
+img-src 'self' https://i.imgur.com; 
+object-src 'none'; 
+script-src 'self'; 
+style-src 'self';
 ```
 
 
