@@ -1,16 +1,13 @@
 ---
 layout: post
 title: Designing Data-Intensive Applications 
-tags: tech 
+tags: data 
 ---
  
 
 <img height="250"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415816873l/23463279.jpg" /> 
 
 ideas to design reliable, scalable, maintainable systems
-
-
-
 
 
 # Storage and retrieval

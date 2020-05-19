@@ -32,6 +32,29 @@ don't argue, ask specific questions
 Be assertive and kind 
 
 
+## story arcs 
+
+Good stories include a change in fortune
+
+There are 3 most common patterns
+
+1. Rise and Fall
+/\ 
+
+2. Fall and Rise
+\/ 
+
+3. Rise, Fall, Recover
+/\/
+
+
+--- 
+
+isolation of work from leisure
+
+--- 
+
+
 ## Ask Specific Questions
 
 Simply ask them to thoroughly explain their bad idea until they crash it into to the ground themselves — leaving them open to your idea.
