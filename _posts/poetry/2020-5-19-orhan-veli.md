@@ -4,6 +4,8 @@ title: Orhan Veli
 tags: poetry
 ---
 
+## içinde 
+
 Denizlerimiz var, güneş içinde;
 
 Ağaçlarımız var, yaprak içinde;
@@ -14,8 +16,7 @@ Denizlerimizle ağaçlarımız arasında,
 
 Yokluk içinde.
 
-<br>
-<br>
+## bir iş var 
 
 Her gün bu kadar güzel mi bu deniz?
 
@@ -31,8 +32,7 @@ Vallahi değil;
 
 Bir iş var bu işin içinde.
 
-<br>
-<br>
+## güzel havalar 
 
 Beni bu güzel havalar mahvetti, 
 
@@ -54,8 +54,7 @@ Hep böyle havalarda nüksetti;
 
 Beni bu guzel havalar mahvetti.
 
-<br>
-<br>
+## anlatamıyorum 
 
 Bilmezdim şarkıların bu kadar güzel, 
 
@@ -63,8 +62,15 @@ Kelimelerinse kifayetsiz olduğunu
 
 Bu derde düşmeden önce. 
 
-<br>
-<br>
+
+## Ayrılış
+
+Bakakalırım giden geminin ardından;
+
+Atamam kendimi denize, dünya güzel;
+
+Serde erkeklik var, ağlayamam.
+
 
 ## Sevdaya Mı Tutuldum?
 
@@ -80,8 +86,7 @@ Aramaz mı olacaktım?
 
 Ben böyle mi olacaktım?
 
-<br>
-<br>
+
 
 ## Baharın İlk Sabahları
 
@@ -109,8 +114,7 @@ Sairliğimle yetinir,
 
 Avunurum.
 
-<br>
-<br>
+## ? 
 
 Neden liman deyince
 

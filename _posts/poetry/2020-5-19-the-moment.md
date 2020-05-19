@@ -15,7 +15,9 @@ Whatever this life brings
 
 But finds time to just be. 
 
----
+*Yoonoos Peerbocus*
+
+## Lightly
 
 It’s dark because you are trying too hard.
 
@@ -25,8 +27,7 @@ Yes, feel lightly even though you’re feeling deeply.
 
 Just lightly let things happen and lightly cope with them.
 
-Aldous Huxley, Island
-
+*Aldous Huxley, Island*
 
 ---
 
@@ -38,7 +39,7 @@ The old that is strong does not wither,
 
 Deep roots are not reached by the frost. 
 
----
+*J.R.R. Tolkien*
 
 ## I choose the mountain 
 
@@ -99,7 +100,6 @@ By Howard Simon
 
 ---
 
-
 ## First Day at School 
 
 A millionbillionwillion miles from home
@@ -120,7 +120,7 @@ That don't let me in. Games
 
 That are rough, that swallow you up. 
 
-
+<br>
 
 And the railings. 
 
@@ -144,6 +144,7 @@ They keep them in the glassrooms.
 
 Whole rooms made out of glass. Imagine. 
 
+<br>
 
 
 I wish I could remember my name

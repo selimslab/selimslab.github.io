@@ -10,9 +10,6 @@ Shall I compare thee to a summer's day?
 Thou art more lovely and more temperate. 
 
 
----
-
-
 
 ## A Silly Poem 
 

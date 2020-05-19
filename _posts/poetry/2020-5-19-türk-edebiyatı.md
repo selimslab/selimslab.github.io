@@ -5,36 +5,27 @@ tags: poetry
 --- 
 
 
-Memleket isterim 
+## Memleket isterim 
 
 Yaşamak, sevmek gibi gönülden olsun; 
 
 Olursa bir şikayet ölümden olsun. 
 
-<br>
-
----
-
-<br> 
+## yunus emre
 
 bugün yalan söyleyen yarın utanasıdır.
 
-<br>
-
 ---
 
-<br> 
+Sözünü bilen kişinin yüzünü ak ede bir söz
 
-Sen sabahlar ve şafaklar kadar güzelsin
-
-sen ülkemin yaz geceleri gibisin
+Sözü pişirip diyenin işini sağ ede bir söz
 
 <br>
 
----
+Söz ola kese savaşı söz ola bitire başı
 
-<br> 
-
+Söz ola ağılı aşı bal ile yağ ede bir söz
 
 ## Anayasası İnsanın
 
@@ -72,13 +63,7 @@ Uzayda koşana dek
 
 Yürürlükte her zaman
 
-<br>
-
----
-
-<br> 
-
-
+## Bereket Versin 
 
 Yaşama bir gitardır
 
@@ -102,12 +87,8 @@ Beni bir bostana gömün
 
 Gübre olmak istiyorum
 
+*Can Yücel*
 
-<br>
-
----
-
-<br> 
 
 ## Göğe Bakma Durağı
 
@@ -173,11 +154,6 @@ Durma kendini hatırlat
 
 Durma göğe bakalım
 
-<br>
-
----
-
-<br> 
 
 
 ## Lavinia
@@ -211,26 +187,6 @@ Adını gizleyeceğim
 
 Sen de bilme, Lavinia.
 
-<br>
-
----
-
-<br> 
-
-
-## Ayrılış
-
-Bakakalırım giden geminin ardından;
-
-Atamam kendimi denize, dünya güzel;
-
-Serde erkeklik var, ağlayamam.
-
-<br>
-
----
-
-<br> 
 
 
 ## Anahtar
@@ -241,28 +197,9 @@ Yalan korkaklığın tortusudur.
 
 Dürüst kaba ol, eğreti saygılı olma.
 
-<br>
-
----
-
-<br> 
-
-Ne nimetleri var şu dünyanın
-
-Ekmek peynir zeytin yemiş....
-
-Bir nimeti daha var dünyanın: 
-
-İnandıkları uğruna açlıktan ölmek.
-
-<br>
-
----
-
-<br> 
 
 
-Seviyorum seni
+## Seviyorum seni
 
 ekmeği tuza banıp yer gibi
 
@@ -288,12 +225,7 @@ Seviyorum seni
 
 Yaşıyoruz çok şükür der gibi.
 
-<br>
-
----
-
-<br> 
-
+## Anadolu 
 
 Öyle yıkma kendini, 
 
@@ -319,12 +251,9 @@ Umut ile, sevda ile, düş ile
 
 Dayan rüsva etme beni.
 
-<br>
+*Ahmed Arif*
 
----
-
-<br> 
-
+## Kalbim, dinamit kuyusu
 
 Nicedir, 
 
@@ -352,19 +281,7 @@ Hey canım,
 
 Kalbim, dinamit kuyusu...
 
-<br>
-
----
-
-<br> 
+*Ahmed Arif*
 
 
-Sözünü bilen kişinin yüzünü ak ede bir söz
 
-Sözü pişirip diyenin işini sağ ede bir söz
-
-<br>
-
-Söz ola kese savaşı söz ola bitire başı
-
-Söz ola ağılı aşı bal ile yağ ede bir söz

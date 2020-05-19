@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ideas of the great thinkers 
+title: Great thinkers 
 tags: books best 
 --- 
 
@@ -26,6 +26,8 @@ Of course there are times for action and ambition
 
 ## Sen no Rikyu 
 
+wabi sabi 
+
 Wabi, simplicity
 
 Sabi, appreciation of the imperfect 
@@ -50,7 +52,7 @@ Simplest things life offers
 
 Communal life may be great 
 
-# Ancient Greeks and Rome 
+# Ancient Greek and Rome 
 
 ## Plato
 
@@ -385,19 +387,4 @@ Silent Spring
 DDT 
 
 Love > guilt for a better human-nature relationship 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
