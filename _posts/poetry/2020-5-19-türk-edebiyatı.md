@@ -11,17 +11,30 @@ Yaşamak, sevmek gibi gönülden olsun;
 
 Olursa bir şikayet ölümden olsun. 
 
+<br>
+
 ---
+
+<br> 
 
 bugün yalan söyleyen yarın utanasıdır.
 
+<br>
+
 ---
+
+<br> 
 
 Sen sabahlar ve şafaklar kadar güzelsin
 
 sen ülkemin yaz geceleri gibisin
 
+<br>
+
 ---
+
+<br> 
+
 
 ## Anayasası İnsanın
 
@@ -59,7 +72,13 @@ Uzayda koşana dek
 
 Yürürlükte her zaman
 
+<br>
+
 ---
+
+<br> 
+
+
 
 Yaşama bir gitardır
 
@@ -84,9 +103,13 @@ Beni bir bostana gömün
 Gübre olmak istiyorum
 
 
+<br>
+
 ---
 
-# Göğe Bakma Durağı
+<br> 
+
+## Göğe Bakma Durağı
 
 İkimiz birden sevinebiliriz göğe bakalım
 
@@ -150,9 +173,14 @@ Durma kendini hatırlat
 
 Durma göğe bakalım
 
+<br>
+
 ---
 
-# Lavinia
+<br> 
+
+
+## Lavinia
 
 Sana gitme demeyeceğim.
 
@@ -183,9 +211,14 @@ Adını gizleyeceğim
 
 Sen de bilme, Lavinia.
 
+<br>
+
 ---
 
-Ayrılış
+<br> 
+
+
+## Ayrılış
 
 Bakakalırım giden geminin ardından;
 
@@ -193,10 +226,14 @@ Atamam kendimi denize, dünya güzel;
 
 Serde erkeklik var, ağlayamam.
 
+<br>
 
 ---
 
-Anahtar
+<br> 
+
+
+## Anahtar
 
 Ya sus-git, ya konuş-gel, ortalarda kalma.
 
@@ -204,7 +241,11 @@ Yalan korkaklığın tortusudur.
 
 Dürüst kaba ol, eğreti saygılı olma.
 
+<br>
+
 ---
+
+<br> 
 
 Ne nimetleri var şu dünyanın
 
@@ -214,9 +255,12 @@ Bir nimeti daha var dünyanın:
 
 İnandıkları uğruna açlıktan ölmek.
 
+<br>
+
 ---
 
-# Seviyorum Seni
+<br> 
+
 
 Seviyorum seni
 
@@ -244,7 +288,12 @@ Seviyorum seni
 
 Yaşıyoruz çok şükür der gibi.
 
+<br>
+
 ---
+
+<br> 
+
 
 Öyle yıkma kendini, 
 
@@ -270,7 +319,12 @@ Umut ile, sevda ile, düş ile
 
 Dayan rüsva etme beni.
 
+<br>
+
 ---
+
+<br> 
+
 
 Nicedir, 
 
@@ -298,7 +352,12 @@ Hey canım,
 
 Kalbim, dinamit kuyusu...
 
+<br>
+
 ---
+
+<br> 
+
 
 Sözünü bilen kişinin yüzünü ak ede bir söz
 

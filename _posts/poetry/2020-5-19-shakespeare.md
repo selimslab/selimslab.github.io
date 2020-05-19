@@ -14,8 +14,6 @@ Thou art more lovely and more temperate.
 
 
 
----
-
 ## A Silly Poem 
 
 

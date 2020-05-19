@@ -25,7 +25,11 @@ hürriyet gibi aydınlık oldu odam...
 
 Hoş geldin kadınım benim hoş geldin.
 
+<br>
+
 ---
+
+<br>
 
 Memleket mi, daha uzak, 
 
@@ -35,7 +39,11 @@ Bayramoğlu, Bayramoğlu,
 
 ölümden öte köy var mı?
 
+<br>
+
 ---
+
+<br>
 
 Bugün pazar. 
 
@@ -62,7 +70,11 @@ Toprak, güneş ve ben...
 Bahtiyarım...
 
 
+<br>
+
 ---
+
+<br>
 
 Harbiye telgrafhanesini de işgal etti İngiliz bahriye askeri 
 
@@ -72,12 +84,20 @@ bir taraftan da zırhlılardan asker ihraç olunuyor.
 
 Vaziyet vehamet kesbediyor efendim. 
 
+<br>
+
 ---
+
+<br>
 
 Yaşamak bir ağaç gibi tek ve hür
 
 ve bir orman gibi kardeşçesine
 
+<br>
+
 ---
+
+<br>
 
 
