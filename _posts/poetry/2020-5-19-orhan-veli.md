@@ -153,6 +153,63 @@ Yaşamak kolay değil ya kardeşler,
 Kolay değil bu dünyadan ayrılmak. 
 
 
+## Bir Şehri Bırakmak
+
+Bu şehirde yağmur altında dolaşılır
+
+Limandaki mavnalara bakıp
+
+Şarkılar mırıldanılır geceleri.
+
+Bu şehrin sokakları çoktur,
+
+Binlerce insan gelir gider sokaklarında..
+
+Her akşam çayımı getiren
+
+Ve bir Beyaz Rus olmasına rağmen
+
+Hoşuma giden garson kadın bu şehirdedir.
+
+<br>
+
+Bu şehirdedir
+
+Valsler, foksrotlar altında
+
+Suman'dan, Bramsdan
+
+Parçalar çaldığı zaman dönüp
+
+Bana bakan ihtiyar piyanist.
+
+<br>
+
+Doğduğum köye müşteri taşıyan
+
+Şirket vapurları bu şehirdedir.
+
+Hatıralarım bu şehirdedir.
+
+Sevdiklerim,
+
+Ölmüşlerimin mezarları.
+
+<br>
+
+Bu şehirdedir işim gücüm,
+
+Ekmek param.
+
+Fakat bütün bunlara mukabil
+
+Yine budur başka bir şehirdeki
+
+Bir kadın yüzünden
+
+Bıraktığım şehir.
+
+
 ## ? 
 
 Neden liman deyince
