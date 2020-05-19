@@ -1,8 +1,56 @@
 ---
 layout: post
-title: The great thinkers  
-tags: books 
+title: Ideas of the great thinkers 
+tags: books best 
 --- 
+
+# Eastern Philosophy 
+
+## Buddha
+
+Attachment is the root of suffering 
+
+## Lao Tzu
+
+Nature does not hurry, yet everything is accomplished
+
+3 vinegar tasters
+
+Confucius sour, buddha bitter, lao sweet 
+
+Be content with what you have 
+
+Inspired by nature, resilience of trees, strength of mountains, cheerfulness of flowers
+
+Of course there are times for action and ambition
+
+## Sen no Rikyu 
+
+Wabi, simplicity
+
+Sabi, appreciation of the imperfect 
+
+Tea ceremony 
+
+Harmony 
+
+Sympathy 
+
+Tranquility 
+
+Humility 
+
+Haiku 
+
+Old pond, a frog leaps in, water’s sound 
+
+Lightness
+
+Simplest things life offers
+
+Communal life may be great 
+
+# Ancient Greeks and Rome 
 
 ## Plato
 
@@ -105,6 +153,9 @@ much of what we get, we don't deserve
 astronomy is humbling and corrects the perspective
 
 
+# Western Philosophy 
+
+
 ## Montaigne 
 
 We all shit, so do ladies
@@ -173,6 +224,8 @@ There are causes worth dying for, but none worth killing for
 
 Enjoy the moment
 
+# Economics
+
 ## Adam Smith
 
 The rich accumulate money because they need to be liked and approved
@@ -183,50 +236,26 @@ Alienation
 
 Commodity fetishism 
 
-## Buddha
 
-Attachment is the root of suffering 
+# Literature
 
-## Lao Tzu
+What do I actually see?
 
-Nature does not hurry, yet everything is accomplished
+Lit is a tool for reform for Tolstoy
 
-3 vinegar tasters
+Taking pleasure in simple things
 
-Confucius sour, buddha bitter, lao sweet 
+## Jane austen 
 
-Be content with what you have 
+Let your lover educate you 
 
-Inspired by nature, resilience of trees, strength of mountains, cheerfulness of flowers
+We should judge people more carefully 
 
-Of course there are times for action and ambition
+Replace material lens with moral lens 
 
-## Sen no Rikyu 
+Dont be snobbish 
 
-Wabi, simplicity
-
-Sabi, appreciation of the imperfect 
-
-Tea ceremony 
-
-Harmony 
-
-Sympathy 
-
-Tranquility 
-
-Humility 
-
-Haiku 
-
-Old pond, a frog leaps in, water’s sound 
-
-Lightness
-
-Simplest things life offers
-
-Communal life may be great 
-
+# Psychology 
 
 ## Freud
 
@@ -240,7 +269,7 @@ Analysis of dreams, jokes, parapraxes
 
 ## Anna Freud
 
-Daughter 
+Daughter of Freud 
 
 Defense mechanisms
 
@@ -277,6 +306,27 @@ Make sure they are not too compliant
 
 Be slow to anger, quick to forgive and forget 
 
+
+# Architecture
+
+Cities should be like ecosystems
+
+City blocks should be small 
+
+Mix of old & new buildings
+
+True modesty comes from confidence 
+
+# Art 
+
+## Andy Warhol
+
+We need to mass produce beauty and distribute far and wide 
+
+High quality childcare, food, clothing, architecture, therapy, career advice 
+
+
+# Sociology 
 
 ## Tocqueville
 
@@ -337,39 +387,10 @@ DDT
 Love > guilt for a better human-nature relationship 
 
 
-## Jane austen 
 
-Let your lover educate you 
 
-We should judge people more carefully 
 
-Replace material lens with moral lens 
 
-Dont be snobbish 
-
-## Literature
-
-What do I actually see?
-
-Lit is a tool for reform for Tolstoy
-
-Taking pleasure in simple things
-
-# Arch
-
-Cities should be like ecosystems
-
-City blocks should be small 
-
-Mix of old & new buildings
-
-True modesty comes from confidence 
-
-## Andy Warhol
-
-We need to mass produce beauty and distribute far and wide 
-
-High quality childcare, food, clothing, architecture, therapy, career advice 
 
 
 
