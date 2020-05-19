@@ -104,3 +104,25 @@ Derim ki: 'Sıkıntılar durdursun!'
 Sairliğimle yetinir,
 
 Avunurum.
+
+---
+
+Neden liman deyince
+
+Hatırıma direkler gelir
+
+Ve acık deniz deyince yelken? 
+
+Mart deyince kedi,
+
+Hak deyince işçi
+
+Ve neden ihtiyar değirmenci
+
+Allaha inanır düşünmeden?
+
+<br>
+
+Ve rüzgarlı havalarda
+
+Yağmur eğri yağar?

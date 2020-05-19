@@ -5,7 +5,25 @@ tags: poetry
 --- 
 
 
-# Anayasası İnsanın
+Memleket isterim 
+
+Yaşamak, sevmek gibi gönülden olsun; 
+
+Olursa bir şikayet ölümden olsun. 
+
+---
+
+bugün yalan söyleyen yarın utanasıdır.
+
+---
+
+Sen sabahlar ve şafaklar kadar güzelsin
+
+sen ülkemin yaz geceleri gibisin
+
+---
+
+## Anayasası İnsanın
 
 Ustamız Eluard’ın izinden
 
@@ -167,6 +185,37 @@ Sen de bilme, Lavinia.
 
 ---
 
+Ayrılış
+
+Bakakalırım giden geminin ardından;
+
+Atamam kendimi denize, dünya güzel;
+
+Serde erkeklik var, ağlayamam.
+
+
+---
+
+Anahtar
+
+Ya sus-git, ya konuş-gel, ortalarda kalma.
+
+Yalan korkaklığın tortusudur.
+
+Dürüst kaba ol, eğreti saygılı olma.
+
+---
+
+Ne nimetleri var şu dünyanın
+
+Ekmek peynir zeytin yemiş....
+
+Bir nimeti daha var dünyanın: 
+
+İnandıkları uğruna açlıktan ölmek.
+
+---
+
 # Seviyorum Seni
 
 Seviyorum seni
@@ -197,6 +246,32 @@ Yaşıyoruz çok şükür der gibi.
 
 ---
 
+Öyle yıkma kendini, 
+
+Öyle mahzun, öyle garip...
+
+Nerede olursan ol, 
+
+İçerde, dışarda, derste, sırada, 
+
+Yürü üstüne - üstüne, 
+
+Tükür yüzüne celladın, 
+
+Fırsatçının, fesatçının, hayının...
+
+Dayan kitap ile
+
+Dayan iş ile.
+
+Tırnak ile, diş ile, 
+
+Umut ile, sevda ile, düş ile
+
+Dayan rüsva etme beni.
+
+---
+
 Nicedir, 
 
 Kahpe ağzında 
@@ -222,3 +297,15 @@ Taaa şafakları
 Hey canım, 
 
 Kalbim, dinamit kuyusu...
+
+---
+
+Sözünü bilen kişinin yüzünü ak ede bir söz
+
+Sözü pişirip diyenin işini sağ ede bir söz
+
+<br>
+
+Söz ola kese savaşı söz ola bitire başı
+
+Söz ola ağılı aşı bal ile yağ ede bir söz

@@ -1,9 +1,21 @@
 ---
 layout: post
-title: Choice 
+title: The Moment 
 tags: poetry
 --- 
 
+
+Beautiful is the moment, 
+
+When the heart indifferent
+
+To joy or sorrow, just trusts
+
+Whatever this life brings
+
+But finds time to just be. 
+
+---
 
 It’s dark because you are trying too hard.
 
@@ -15,6 +27,16 @@ Just lightly let things happen and lightly cope with them.
 
 Aldous Huxley, Island
 
+
+---
+
+All that is gold does not glitter, 
+
+Not all those who wander are lost; 
+
+The old that is strong does not wither, 
+
+Deep roots are not reached by the frost. 
 
 ---
 
@@ -67,7 +89,6 @@ And I will never stop climbing
 I choose the mountain
 
 And I shall forever be ascending
-
 
 
 I choose the mountain 
