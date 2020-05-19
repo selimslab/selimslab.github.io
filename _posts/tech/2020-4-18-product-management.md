@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Product management
-tags: business
+tags: tech
 ---
 
 

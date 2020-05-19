@@ -1,9 +1,10 @@
 ---
 layout: post
-title: From UNIX to Agile 
-tags: tech
+title: From UNIX to today 
+tags: software
 --- 
 
+a collection of good ideas from the industry 
 
 ## UNIX philosophy
 

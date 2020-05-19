@@ -1,7 +1,7 @@
 ---
 layout: post
 title: OOP
-tags: tech 
+tags: software 
 ---
 
 # Abstraction

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Software Security 
-tags: tech best 
+tags: software best 
 --- 
 # fundamentals
 
