@@ -173,4 +173,24 @@ style-src 'self';
 ```
 
 
-Applying the basics here will keep you safe from brute force login attacks, CSRF, XSS, clickjacking, SQL injection, priority escalation, integrity attacks, cookie theft, man-in-the-middle and more. Also applying the fundamental advice here ensures your systems will stay secure in the future. 
+Applying the basics here will keep you safe from 
+
+brute force login attacks, 
+
+CSRF, 
+
+XSS, 
+
+clickjacking, 
+
+SQL injection, 
+
+privilige escalation, 
+
+integrity attacks, 
+
+cookie theft, 
+
+man-in-the-middle 
+
+...
