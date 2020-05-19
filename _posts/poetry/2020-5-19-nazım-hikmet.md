@@ -22,6 +22,21 @@ Bayramoğlu, Bayramoğlu,
 
 ...
 
+## 23 sentlik askere dair
+
+...
+
+hani şaşmayın,
+
+yarın çok pahalıya mal olursa size
+
+bu 23 sentlik asker,
+
+yani benim fakir, cesur, çalışkan milletim,
+
+her millet gibi büyük türk milleti.
+
+...
 
 ## Hoş geldin
 

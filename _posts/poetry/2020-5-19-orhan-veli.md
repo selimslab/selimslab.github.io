@@ -114,6 +114,45 @@ Sairliğimle yetinir,
 
 Avunurum.
 
+
+
+## yaşamak
+
+Biliyorum, kolay değil yaşamak, 
+
+Gönül verip türkü söylemek yar üstüne; 
+
+Yıldız ışığında dolaşıp geceleri, 
+
+Gündüzleri gün ışığında ısınmak; 
+
+Şöyle bir fırsat bulup yarım gün, 
+
+Yan gelebilmek Çamlıca tepesine... 
+
+-Bin türlü mavi akar Boğaz'dan- 
+
+Her şeyi unutabilmek maviler içinde. 
+
+<br>
+
+Biliyorum, kolay değil yaşamak; 
+
+Ama işte 
+
+Bir ölünün hala yatağı sıcak, 
+
+Birinin saati işliyor kolunda. 
+
+Yaşamak kolay değil ya kardeşler, 
+
+Ölmek de değil; 
+
+<br>
+
+Kolay değil bu dünyadan ayrılmak. 
+
+
 ## ? 
 
 Neden liman deyince

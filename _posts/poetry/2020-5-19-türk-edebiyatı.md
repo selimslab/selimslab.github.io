@@ -225,6 +225,37 @@ Seviyorum seni
 
 Yaşıyoruz çok şükür der gibi.
 
+
+## Ne içindeyim zamanın
+
+Ne içindeyim zamanın, 
+
+Ne de büsbütün dışında; 
+
+Yekpare, geniş bir anın
+
+Parçalanmaz akışında.
+
+<br>
+
+Bir garip rüya rengiyle
+
+Uyuşmuş gibi her şekil, 
+
+Rüzgarda uçan tüy bile
+
+Benim kadar hafif değil.
+
+<br>
+
+Başım sükutu öğüten
+
+Uçsuz bucaksız değirmen; 
+
+İçim muradına ermiş
+
+Abasız, postsuz bir derviş.
+
 ## Anadolu 
 
 Öyle yıkma kendini, 
