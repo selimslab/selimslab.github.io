@@ -25,35 +25,28 @@ notes from [https://fs.blog/mental-models/](https://fs.blog/mental-models/)
    
 7. Inversion 
    
-8. Occam’s Razor
-Simpler explanations are more likely to be true than complicated ones. 
+8. **Occam’s Razor**, Simpler explanations are more likely to be true than complicated ones. 
 
-9. Hanlon’s Razor
-we should not attribute to malice that which is more easily explained by stupidity. 
+9.  **Hanlon’s Razor**, we should not attribute to malice that which is more easily explained by stupidity. 
 
 ## Physics and Chemistry
 
 
-1. Reciprocity 
-
-    humans beings act with intense reciprocity demonstrated as well.
+1. **Reciprocity**, humans beings act with intense reciprocity demonstrated as well.
 
 2. Thermodynamics
    
 3. Inertia
    
 4. Friction and Viscosity
-   
-6. Velocity 
 
-7. Leverage 
-8. Activation Energy
-9.  Catalysts 
-10.  Alloying
+5. Velocity 
+6.  Leverage 
+7.  Activation Energy
+8. Catalysts 
 
-11. Relativity
-
-an observer cannot truly understand a system of which he himself is a part. 
+9.   Alloying
+10.  **Relativity**, an observer cannot truly understand a system of which he himself is a part. 
    
 
 ## Biology
@@ -81,6 +74,7 @@ an observer cannot truly understand a system of which he himself is a part.
 ## Systems
 
 1. Feedback Loops 
+
 2. Bottlenecks and Constraints
 
 3. Homeostasis and Equilibrium
@@ -91,8 +85,7 @@ an observer cannot truly understand a system of which he himself is a part.
 7. Preferential Attachment (Cumulative Advantage)
 
 8. Irreducibility 
-
-9. Margin of Safety and Backup Systems
+9.  Margin of Safety and Backup Systems
 
 
 10. Algorithms
