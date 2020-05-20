@@ -73,8 +73,7 @@ notes from [https://fs.blog/mental-models/](https://fs.blog/mental-models/)
 
 ## Systems
 
-1. Feedback Loops 
-
+1. Feedback Loops
 2. Bottlenecks and Constraints
 
 3. Homeostasis and Equilibrium
