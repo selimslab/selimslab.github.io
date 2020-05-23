@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Recognize a person in photos 
+title: recognize a person in photos 
 tags: projects 
 
 ---
