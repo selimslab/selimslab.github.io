@@ -2,9 +2,13 @@
 layout: default
 ---
 
+<p>distilled posts from thousands of pages of readings and notes</p>
+
 {% assign sorted_tags = site.tags | sort %}
 
-<ul>
+<h1 class="tag" id="explore">explore</h1>
+
+<ol>
     {% for tag in sorted_tags %}
         {% assign t = tag | first %}
         <li>
@@ -12,7 +16,7 @@ layout: default
         </li>
     {% endfor %}
 
-</ul>
+</ol>
 
 
 <div class="posts">
