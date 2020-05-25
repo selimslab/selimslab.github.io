@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Django REST custom user model with social login and permissions 
-tags: projects 
+tags: snippets 
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: a basic node.js REST API 
-tags: projects 
+tags: snippets 
 
 ---
 

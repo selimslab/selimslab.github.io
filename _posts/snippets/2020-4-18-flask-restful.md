@@ -1,7 +1,7 @@
 ---
 layout: post
 title: a REST API with Flask Restful and SQLAlchemy
-tags: projects 
+tags: snippets 
 
 ---
 

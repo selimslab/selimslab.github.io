@@ -1,6 +1,6 @@
 ---
 layout: post
-title: predict the genres of a movie from its summary  
+title: predict genres of a movie from its summary  
 tags: projects 
 
 ---
