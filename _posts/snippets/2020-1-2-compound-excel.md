@@ -4,7 +4,9 @@ title: Excel -> Compound Interest with annual additions to principal
 tags: snippets
 ---
 
-What happens if you save 10k a year for the next 20 years ?  With 3% yearly return ? 5% ? 7% ? 
+What happens if you save 10k a year for the next 20 years ? 
+
+With 3% yearly return? 5% ? 7% ? 
 
 an interactive tool to explore 
 
