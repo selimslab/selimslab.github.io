@@ -15,35 +15,43 @@ tags: software best
 * no system is 100% secure, security is an example of "unknown unknowns"
 
 ## test 
+
 * write exploit code to test your patches 
 
 
 ## passwords
+
 * use strong passwords
 * never keep plain-text passwords
 
 ## validate and sanitize 
+
 * never trust any input, always validate, always sanitize
 
 ## do not roll your own 
+
 * don't try to roll your own security solutions, it's a community effort 
 * don't write your own crypto
 * do not encrypt passwords, hash them with a salt 
 
 ## levels
+
 * use whitelists, not blacklists 
 * use authorization levels
 * Least privilege, never grant more access than required
 * Separation of Privileges, so your system is not all or nothing
   
 ## be up to date 
+
 * use well-known tried and tested libraries only
 * keep your libraries up to date 
 
 ## log 
+
 * log suspicious activity, like failed login attempts, invalid input, statistically rare or unexpected events 
 
 ## secrets
+
 * Hiding secrets is hard - and secrets hidden in code won't stay secret for long
 * Be careful to not check in secrets to public repos
 * be aware of buffer overflow attacks 
@@ -95,6 +103,7 @@ CSRF tokens should not be transmitted within cookies.
 
 
 ## XSS 
+
 * set `Content Security Policy` so the browser will run only allow the white-listed scripts
 
 ## Cookies
@@ -122,6 +131,7 @@ SameSite=Strict
 ```
 
 ## Cross-origin Resource Sharing (CORS)
+
 * use `Access-Control-Allow-Origin` to manage CORS 
 * use `integrity` to verify a resource is not modified on the way
 * use `X-Frame-Options: DENY` to disallow allow attempts to iframe site (recommended)
@@ -172,25 +182,3 @@ script-src 'self';
 style-src 'self';
 ```
 
-
-Applying the basics here will keep you safe from 
-
-brute force login attacks, 
-
-CSRF, 
-
-XSS, 
-
-clickjacking, 
-
-SQL injection, 
-
-privilige escalation, 
-
-integrity attacks, 
-
-cookie theft, 
-
-man-in-the-middle 
-
-...
