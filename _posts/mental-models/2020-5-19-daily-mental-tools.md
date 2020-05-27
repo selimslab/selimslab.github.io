@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Daily mental tools 
-tags: mental-models
+tags: mental-models best
 ---
 
 
