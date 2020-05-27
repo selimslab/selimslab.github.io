@@ -5,7 +5,6 @@ tags: business
 ---
 
 
-
 ## Value your work
 
 1. Solve a well defined problem
@@ -27,7 +26,7 @@ tags: business
 > Steve Jobs
 
 
-## quality
+## quality
 
 The quality of the product is more important than the time it takes to achieve it.
 
@@ -44,7 +43,7 @@ ask when you don't understand
 
 think before you speak
 
-## do 
+## do 
 
 under promise over deliver
 
@@ -57,7 +56,7 @@ you wont't be here forever
 Your Professional Decline Is Coming (Much) Sooner Than You Think
 
 
-## simpler meetings
+## simpler meetings
 
 Let everyone fill their own row 
 
@@ -74,7 +73,7 @@ Daily brief summary -> context, plan for today, comments
 --- 
 
 
-## essentials
+## essentials
 
 Most of the time you spend is wasted time on things that just don’t matter. 
 
