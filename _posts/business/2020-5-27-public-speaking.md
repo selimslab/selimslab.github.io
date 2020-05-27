@@ -6,7 +6,7 @@ tags: business
  [from Matt Abraham's talk at Stanford Graduate School of Business
  ](https://www.youtube.com/watch?v=Fsr4yrSAIAQ)
 
-## Relax, this is normal 
+## Relax, this is normal 
 
 Flip it to excitement 
 

@@ -51,7 +51,7 @@ if it’s not in writing, it didn’t happen.
 
 Invest in a creating a better structure 
 
-you wont't be here forever
+you won't be here forever
 
 Your Professional Decline Is Coming (Much) Sooner Than You Think
 
