@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Make something people want
-tags: psychology
+tags: business
 ---
 
 People don’t buy products because of what those products do, 

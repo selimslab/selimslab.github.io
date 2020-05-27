@@ -1,12 +1,10 @@
 ---
 layout: post
-title:  Case Interviews 
+title:  a simple way to solve a business case
 tags: business
 ---
 
-analytically solve the problem 
-
-communicate the results as clear actionable insights 
+divide and conquer, communicate the results as clear actionable insights 
 
 
 - Hypothesis
@@ -21,8 +19,7 @@ communicate the results as clear actionable insights
     - Reason 3
 
   Conclusion&Action
-​
-## Tips 
+​ 
 + remind your structure
 + take clean notes on separate papers
 + keep calm on math, plan first, doublecheck, structure
