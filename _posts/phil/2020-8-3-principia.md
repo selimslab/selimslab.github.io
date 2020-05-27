@@ -5,11 +5,6 @@ tags: philosophy best
 
 ---
 
-What makes you the person you are? Thoughts, principles, and character are the essence, I believe.
-
-This is my attempt to define an ideal self because we are products of our thoughts, what we think, we become. 
-
-
 > Think of yourself as dead. You have lived your life
 > 
 > Now take what's left and live it properly.
@@ -17,28 +12,71 @@ This is my attempt to define an ideal self because we are products of our though
 > – Marcus Aurelius 
 
 
+What makes you the person you are ? 
 
+We are our principles and they shape our decisions and life. What we think, we become. 
 
-### a good person, a good life  
+This is my attempt to define a good person and a good life 
+
+### a good person
  
-kind, positive, warm
+in 3 steps 
 
-true, calm, brave
+1. honest, friendly, lovely
 
-humble, confident, moderate
+2. humble, confident, brave
 
-simplicity, gratitude 
+3. calm, grateful, active 
 
-healthy -> clean, water, sleep, lots of fruits, veggies, sports, 
+Go ahead, just do it, impress yourself
 
-care -> care for body, mind, friends, family, people, animals, earth, and the future 
+
+### in other words 
+
+1. kind, positive, warm
+
+2. true, calm, brave
+
+3. healthy, social, caring
+
+4. humble, confident, assertive
+
+5. simple, moderate, grateful 
+
+6. think, feel, love
+
+
+
+### a good life
+
+health 
+
+peace of mind
+
+meaningful work
+
+love and friendship
+
+hope and integrity 
+
+
+### care 
+
+care for body and mind
+
+care for friends and family
+
+care for people, animals, and earth 
+
+care for the future 
+
+### healthy 
+
+water, sleep, healthy food, and sports
+
+clean body, clean mind 
 
 ### Positive
-
-> We suffer more in imagination than in reality 
-> 
-> – Seneca
-
 
 optimist 
 
@@ -52,13 +90,18 @@ chill
 
 fresh 
 
-> How much pain the evils have cost us that have never happened!
-
 have fun
 
 enjoy life
 
 our capacity for fretting is endless -> don't worry, be happy 
+
+
+> We suffer more in imagination than in reality 
+> 
+> – Seneca
+
+> How much pain the evils have cost us that have never happened!
 
 
 ### calm
