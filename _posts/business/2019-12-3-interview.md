@@ -12,6 +12,13 @@ Open ended and specific questions create a balance together
 clarify 
 
 
+## what to expect from a workplace?
+
+Growth, responsibility, diversity, motion, autonomy, trust, excitement 
+
+A smart and kind team
+
+no major negatives 
 
 ## past 
 
@@ -94,7 +101,5 @@ How do you integrate and deploy changes ?
 What have I not asked that I should have ?
 
 Do you have any concerns ?
-
-
 
 
