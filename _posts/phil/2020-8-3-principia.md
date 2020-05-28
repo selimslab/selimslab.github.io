@@ -18,33 +18,24 @@ We are our principles and they shape our decisions and life. What we think, we b
 
 This is my attempt to define a good person and a good life 
 
-### a good person
+### a good person is
  
-in 3 steps 
+* honest and kind
 
-1. honest, friendly, lovely
+* positive, friendly, warm
 
-2. humble, confident, brave
+* wise and just
+  
+* moderate and brave
 
-3. calm, grateful, active 
+* humble and confident
+
+* thinking, feeling, loving
+
+* calm, grateful, active
+  
 
 Go ahead, just do it, impress yourself
-
-
-### in other words 
-
-1. kind, positive, warm
-
-2. true, calm, brave
-
-3. healthy, social, caring
-
-4. humble, confident, assertive
-
-5. simple, moderate, grateful 
-
-6. think, feel, love
-
 
 
 ### a good life
