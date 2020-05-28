@@ -24,19 +24,13 @@ This is my attempt to define a good person and a good life
 
 * positive, friendly, warm
 
-* wise and just
-  
-* moderate and brave
-
-* humble and confident
+* humble, confident, brave
 
 * thinking, feeling, loving
 
 * calm, grateful, active
-  
 
 Go ahead, just do it, impress yourself
-
 
 ### a good life
 
