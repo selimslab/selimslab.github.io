@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Selim 
+title: Hello, friend
 permalink: /about/
 ---
 
