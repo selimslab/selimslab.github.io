@@ -4,8 +4,9 @@ title: Selim
 permalink: /about/
 ---
 
-human, 25, likes to watch the sea, to walk in  forests, to camp in mountains, to swim, run, cycle, play piano, code, read, write, learn and share
+Selim, human, 25, likes to learn and share
 
+Enjoys to watch the sea, walk in the forest, camp in the mountain. To run, swim, and cycle. To play a song, read, write, and code
 
 [Resume](/resume)
 
