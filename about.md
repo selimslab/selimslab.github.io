@@ -4,6 +4,9 @@ title: Selim
 permalink: /about/
 ---
 
-Software engineer, lifelong learner
+human, 25, likes to watch the sea, to walk in  forests, to camp in mountains, to swim, run, cycle, play piano, code, read, write, learn and share
 
-Interested in mountaineering, running, playing piano
+
+[Resume](/resume)
+
+[​Bookshelf​](https://www.goodreads.com/review/list/24616331-selim?order=d&shelf=read&sort=avg_rating) 
