@@ -30,7 +30,7 @@ layout: default
 
         {% capture category_name %}{{ category | first | downcase }}{% endcapture %}
 
-        <h1 class="tag" id="{{ category_name | downcase }}">{{ category_name }}</h1>
+        <h1 class="tag" id="{{ category_name | downcase }}"> ++ {{ category_name }}</h1>
 
         {% assign items_grouped = site.categories[category_name] | group_by: 'tags' %}
 
