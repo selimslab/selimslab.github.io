@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Algorithms to Live By
-tags: psychology 
-
+tags: books-psychology 
 ---
 
 <img height="250"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1454296875l/25666050.jpg" />

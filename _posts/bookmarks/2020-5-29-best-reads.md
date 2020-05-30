@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Best reads 
-tags: bookmarks
+tags: bookmarks best
 --- 
 
 ## philosophy

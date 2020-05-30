@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Body Keeps the Score
-tags: psychology
+tags: books-psychology
 author: Ece Can
 ---
 
-***written by Ece Can***
+*written by Ece Can**
 
 Traumatic stress is a kind of being absent from the present time.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SAPIENS
-tags: books-business 
+tags: books-social-sciences 
 
 ---
 
