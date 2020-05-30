@@ -5,25 +5,9 @@ layout: default
 <p>actionable ideas, a constant work in progress</p>
 
 {% assign sortedCategories = site.categories | sort %}
-{% assign sorted_tags = site.tags | sort %}
-
-<h1 class="tag" id="explore">explore</h1>
-
-<ul>
-    {% for tag in sorted_tags %}
-        {% assign t = tag | first %}
-        <li style="padding-bottom: 0.4rem;">
-            <a href="{{ '#' | append:  t | downcase   }}">{{ t | downcase }}</a>
-        </li>
-    {% endfor %}
-</ul>
 
 
 <div class="posts">
-
-
-
-
 
     {% for cat in sortedCategories %}
 
@@ -38,9 +22,6 @@ layout: default
         {% endfor %}
         
     {% endfor %}
-
-
-
 
 </div>
 
