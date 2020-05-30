@@ -4,7 +4,7 @@ layout: default
 
 <p>actionable ideas, a constant work in progress</p>
 
-{% assign sortedCategories = page.categories | sort %}
+{% assign sortedCategories = site.categories | sort %}
 {% assign sorted_tags = site.tags | sort %}
 
 <h1 class="tag" id="explore">explore</h1>
@@ -20,46 +20,6 @@ layout: default
 </ul>
 
 
-
-<div class="posts test">
-    {% for category in sortedCategories %}
-        <h1 class="tag" id="{{ category | downcase }}">{{ category }}</h1>
-
-        {% for tag in sorted_tags %}
-            {% assign t = tag | first %}
-            {% assign posts = tag | last %}
-            
-            {% if t ==  "best" %}
-                {% continue %}
-            {% endif %}
-            
-            <h1 class="tag" id="{{ t | downcase }}">{{ t | downcase }}</h1>
-                
-                {% for post in posts %}
-                    {% if post.categories contains category %}
-
-                        {% if post.tags contains t %}
-                            <article class="post">
-                                <h2>
-                                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
-                                    </a>
-                                </h2>
-                            </article>
-                        {% endif %}
-
-                    {% endif %}
-
-                {% endfor %}
-
-        {% endfor %}
-
-    {% endfor %}
-
-</div>
-
-
-
-
 <div class="posts">
     <h1 class="tag" id="best">recommended</h1>
     {% for post in site.tags.best %}
@@ -71,27 +31,54 @@ layout: default
         </article>
     {% endfor %}
 
+    
+    {% for post in site.categories.Tech %}
+        <h1 class="tag" id="tech">Tech</h1>
+
+        {% for tag in sorted_tags %}
+            {% assign t = tag | first %}
+            {% assign posts = tag | last %}
+            
+            {% if t ==  "best" %}
+                {% continue %}
+            {% endif %}
+
+            <h1 class="tag" id="{{ t | downcase }}">{{ t | downcase }}</h1>
+                {% for post in posts %}
+                    {% if post.tags contains t %}
+                        <article class="post">
+                            <h2>
+                                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
+                                </a>
+                            </h2>
+                        </article>
+                    {% endif %}
+                {% endfor %}
+        {% endfor %}
+
+    {% endfor %}
+
 
     {% for tag in sorted_tags %}
-        {% assign t = tag | first %}
-        {% assign posts = tag | last %}
-        
-        {% if t ==  "best" %}
-            {% continue %}
-        {% endif %}
+    {% assign t = tag | first %}
+    {% assign posts = tag | last %}
+    
+    {% if t ==  "best" %}
+        {% continue %}
+    {% endif %}
 
-        <h1 class="tag" id="{{ t | downcase }}">{{ t | downcase }}</h1>
-            {% for post in posts %}
-                {% if post.tags contains t %}
-                    <article class="post">
-                        <h2>
-                            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
-                            </a>
-                        </h2>
-                    </article>
-                {% endif %}
-            {% endfor %}
-    {% endfor %}
+    <h1 class="tag" id="{{ t | downcase }}">{{ t | downcase }}</h1>
+        {% for post in posts %}
+            {% if post.tags contains t %}
+                <article class="post">
+                    <h2>
+                        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
+                        </a>
+                    </h2>
+                </article>
+            {% endif %}
+        {% endfor %}
+{% endfor %}
 
 </div>
 
