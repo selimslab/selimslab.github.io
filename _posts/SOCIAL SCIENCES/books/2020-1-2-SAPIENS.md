@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SAPIENS
-tags: books 
+tags: books-business 
 
 ---
 

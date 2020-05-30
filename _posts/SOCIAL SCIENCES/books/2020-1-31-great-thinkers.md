@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Great thinkers 
-tags: books best 
+tags: books-philosophy best 
 --- 
 
 # Eastern Philosophy 
