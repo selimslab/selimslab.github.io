@@ -2,7 +2,7 @@
 layout: post
 title: Principia
 tags: philosophy best 
-
+category: thought
 ---
 
 > Think of yourself as dead. You have lived your life

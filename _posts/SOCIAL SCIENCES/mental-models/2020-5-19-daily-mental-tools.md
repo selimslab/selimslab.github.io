@@ -2,6 +2,7 @@
 layout: post
 title:  Daily mental tools 
 tags: mental-models best
+category: thought
 ---
 
 

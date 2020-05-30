@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Algorithms to Live By
-tags: psychology 
+tags: psychology
+category: Psychology 
 category: Books
 ---
 

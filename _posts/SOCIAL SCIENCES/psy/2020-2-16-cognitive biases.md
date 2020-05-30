@@ -2,6 +2,7 @@
 layout: post
 title:  Bias   
 tags: psychology
+category: Psychology
 ---
 
 

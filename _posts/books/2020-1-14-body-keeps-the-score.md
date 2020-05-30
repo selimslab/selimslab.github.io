@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Body Keeps the Score
-tags: psychology 
+tags: psychology
+category: Psychology 
 category: Books
 ---
 

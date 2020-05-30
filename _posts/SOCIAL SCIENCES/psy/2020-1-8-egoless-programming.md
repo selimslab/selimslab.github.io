@@ -2,6 +2,7 @@
 layout: post
 title: Egoless Programming
 tags: psychology
+category: Psychology
 --- 
 
 summary from 

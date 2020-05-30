@@ -2,6 +2,7 @@
 layout: post
 title: Shakespeare 
 tags: poetry
+category: Poetry
 --- 
 
 

@@ -2,6 +2,7 @@
 layout: post
 title:  Ideas on life, universe, and everything 
 tags: mental-models
+category: thought
 ---
 
 

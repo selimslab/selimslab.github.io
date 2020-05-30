@@ -2,6 +2,7 @@
 layout: post
 title: Türk Edebiyatı 
 tags: poetry
+category: Poetry
 --- 
 
 

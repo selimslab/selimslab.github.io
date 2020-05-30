@@ -2,6 +2,7 @@
 layout: post
 title:  Speaking, writing, presentations
 tags: mental-models
+category: thought
 ---
 
 

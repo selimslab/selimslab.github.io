@@ -2,6 +2,7 @@
 layout: post
 title: Nazım 
 tags: poetry
+category: Poetry
 --- 
 
 

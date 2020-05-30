@@ -2,6 +2,7 @@
 layout: post
 title: Orhan Veli 
 tags: poetry
+category: Poetry
 ---
 
 ![](https://muhtesemsozler.com/wp-content/uploads/2019/04/kan%C4%B1k2.jpg)

@@ -2,7 +2,7 @@
 layout: post
 title: Questions
 tags: philosophy best 
-
+category: thought
 ---
 
 Questions to ask myself 

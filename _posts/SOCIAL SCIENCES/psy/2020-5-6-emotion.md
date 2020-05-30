@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Emotions
-tags: psychology  
+tags: psychology
+category: Psychology  
 ---
 
 a collection of wkipedia explanations 

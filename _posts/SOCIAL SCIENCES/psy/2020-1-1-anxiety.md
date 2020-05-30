@@ -2,6 +2,7 @@
 layout: post
 title: Anxiety  
 tags: psychology
+category: Psychology
 ---
  
 summary from [https://ncase.me/mental-health/](https://ncase.me/mental-health/)
