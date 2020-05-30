@@ -20,7 +20,7 @@ layout: default
         <h1 class="tag" id="{{ category_name | downcase }}">{{ category_name }}</h1>
 
         {% for tag in sorted_tags %}
-            {% assign tags_in_this_category = tag[1] | where: "category", "{{category_name}}" | sort %}
+            {% assign tags_in_this_category = tag[1] | where: "category", category_name | sort %}
         {% endfor %}
 
         {% for tag in tags_in_this_category %}
