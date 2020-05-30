@@ -116,10 +116,20 @@ Thread vs process
 
 Memory safety, virtual memory 
 
+Mutex vs Semaphore
+
+Both Mutex and Semaphore are locks
+
+only the acquiring thread can release the mutex
+
+semaphore is like a counter, only the thread count is important. 
+
 
 ## Networking 
 
 TCP/IP, UDP, OSI network layers 
+
+NAT (Network Address Translation) ? -> enables many devices in the same network to use the same IP 
  
 
 ## Unix commands
@@ -212,7 +222,7 @@ WebSocket
 
 * From a backend perspective, are there any disadvantages or drawbacks on the adoption of Single Page Applications?
 
-## Auth
+### Auth
 
 Token auth, JWT
 
@@ -274,7 +284,19 @@ how would you implement dark mode?
 * When would you use request/reply and when publish/subscribe?
 
 * Why does Event-Driven Architecture improve scalability?
-  
+
+* Client-server, pub-sub, event-driven, microservice, hexagonal, serverless architectures
+
+Consistency patterns, Weak, strong, eventual
+
+Availability patterns, Failover, Replication
+
+DNS
+
+CDN
+
+Load Balancer
+
 
 ## languages
 
