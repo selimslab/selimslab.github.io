@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Hello, friend
+title: Hello, friend!
 permalink: /about/
 ---
 
-Selim, human, 25, likes to learn and share
+I am Selim, a human, 25. I like to learn and share
 
-Enjoys to watch the sea, walk in the forest, camp in the mountain. To run, swim, and cycle. To play a song, read, write, and code
+I enjoy to watch the sea, walk in the forest, camp in the mountain. To run, swim, and cycle. To play a song, read, write, and code
 
 [Resume](/resume)
 
