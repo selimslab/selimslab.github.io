@@ -4,33 +4,22 @@ title: Tech Interview
 tags: tech 
 ---
 
-A list to select questions  for a technical interview
 
-+ Ask questions out of curiosity.
-+ Don't cross-examine. 
-+ Be respectful. 
+A list to select questions for a technical interview
+
+
++ Remember to be respectful, ignorance is not stupidity
+  
++ Ask questions out of curiosity. Don't cross-examine. 
+  
 
 ## Basics 
 
-Big O
+fizzbuzz
 
-Time complexity of binary search 
+remove duplicates from array 
 
-## Databases 
-
-When would you use a document database like MongoDB instead of a relational database like MySQL or PostgreSQL?
-
-Indexes 
-
-B-tree
-
-Log structured merge tree
-
-Sharding 
-
-Federation 
-
-Sql vs nodal 
+Time complexity 
 
 ## Data Structures
 
@@ -78,7 +67,7 @@ Debug
 
 Optimize 
 
-Algorithm  ( sort, search, graph, dynamic, scheduling, recursive, concurrent)
+Algorithm  (sort, search, graph, dynamic, scheduling, recursive, concurrent)
 
 ## Graph algorithms 
 
@@ -88,6 +77,25 @@ dfs, bfs, topological, binary tree, graph traversal, pre, post, ignorer, level o
 ## Strings
 
 Ascii vs utf8, utf16, unicode 
+
+
+
+## Databases 
+
+When would you use a document database like MongoDB instead of a relational database like MySQL or PostgreSQL?
+
+Indexes 
+
+B-tree
+
+Log structured merge tree
+
+Sharding 
+
+Federation 
+
+Sql vs nodal 
+
 
 
 ## Operating Systems
@@ -100,6 +108,19 @@ Kernel
 
 Linux 
 
+Kernel
+
+User space, kernel space 
+
+Thread vs process 
+
+Memory safety, virtual memory 
+
+
+## Networking 
+
+TCP/IP, UDP, OSI network layers 
+ 
 
 ## Unix commands
 
@@ -116,17 +137,23 @@ move
 
 ## Testing
 
-Unit 
+What is TDD ?
+
+Unit
 
 integration 
 
 end-to-end 
+
+<br>
 
 Sanity check 
 
 Smoke test 
 
 regression 
+
+<br>
 
 load test
 
@@ -136,92 +163,18 @@ Stress
 
 capacity
 
+<br>
+
 Usability 
 
 Recovery
 
-End to end tests
+<br>
 
 User story tests
 
 Acceptance test
 
-
-## Security
-
-
-
-## OOP
-
-Abstraction
-
-Encapsulation
-
-Inheritance
-
-Polymorphism
-
-
-Interfaces
-ABCs
-Classmethod
-Staticmethod
-
-## SOLID 
-
-single responsibility
-
-open closed
-
-lyskov substitution
-
-interface segregation
-
-dependency injection
-
-
-
-## Web 
-
-REST 
-
-HTTP methods
-
-HTTP status codes 302, 400, 404, 500 
-
-TCP vs UDP 
-
-WebRTC 
-
-WebSocket
-
-## Auth
-
-Token auth, JWT
-
-Session auth, session cookie in request header for every request
-
-Permissions
-
-Rate limiting 
-
-
-## OS
-
-Kernel
-
-User space, kernel space 
-
-Thread vs process 
-
-Memory safety, virtual memory 
-
-
-
-## Networking 
-
-TCP/IP, UDP, OSI network layers 
- 
 
 ## Code Quality
 
@@ -240,8 +193,67 @@ documentation
 CI/CD 
 
 
+
+## Web 
+
+REST 
+
+HTTP verbs
+
+HTTP status codes 302, 400, 404, 500 
+
+TCP vs UDP 
+
+WebRTC 
+
+WebSocket
+
+* How would you manage Web Services API versioning?
+
+* From a backend perspective, are there any disadvantages or drawbacks on the adoption of Single Page Applications?
+
+## Auth
+
+Token auth, JWT
+
+Session auth, session cookie in request header for every request
+
+Permissions
+
+Rate limiting 
+
+## clean code 
+
+* What makes code readable?
+
+* What would you do to understand if your code has a bad design?
+
+* Code smells 
+
+* Design Patterns
+
+*  Why High Cohesion and Loose Coupling are important?
+
+* OOP
+
+    Abstraction, Encapsulation, Inheritance, Polymorphism
+
+* SOLID
+
+* DRY
+
+
+
+
 ## Concurrency
 
+
+* Why do we need concurrency, anyway? Explain.
+
+* What is a race condition? Code an example
+
+* What is a deadlock?
+ 
 Hardware interrupts
 
 Thread
@@ -251,14 +263,6 @@ Process
 Goroutines and channels in Go
 
 Actors in Scala and Erlang 
-
-
-* Why do we need concurrency, anyway? Explain.
-
-* What is a race condition? Code an example
-
-* What is a deadlock?
-
 
 
 ## System Design  
@@ -282,45 +286,11 @@ how would you implement dark mode?
 
 * What are higher-order functions? What are they useful for? Write one, in your preferred language.
 
-* procedural, declarative, OOP, FP, 
-
-
-## clean code 
-
-* What makes code readable?
-
-* What would you do to understand if your code has a bad design?
-
-* Code smells 
-
-* Let’s refactor 
-
-* Are comments in code useful? 
-
-* TDD 
-
-* DRY 
-
-* SOLID 
-
-* Design Patterns
-
-*  Why High Cohesion and Loose Coupling are important?
+* procedural, declarative, OOP, FP
 
 * Why do array indexes start with '0' in most languages?
 
 
-
-
-## web 
-
-* REST 
-
-* HTTP verbs
-
-* How would you manage Web Services API versioning?
-
-* From a backend perspective, are there any disadvantages or drawbacks on the adoption of Single Page Applications?
 
 ## general
 
@@ -337,7 +307,6 @@ how would you implement dark mode?
 * How can immutability help write safer code?
 
 * What's the difference between TCP and HTTP?
-
 
 
 
