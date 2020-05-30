@@ -4,48 +4,42 @@ layout: default
 
 <p>actionable ideas, a constant work in progress</p>
 
-{% assign sortedCategories = site.categories | sort %}
-
 {% assign sorted_tags = site.tags | sort %}
+
+{% assign sorted_cats = site.categories | sort %}
+
 
 
 <div class="posts">
 
-    {% for category in sortedCategories %}
+    <h1 class="tag" id="explore">explore</h1>
+    
+    <ul>
+        {% for category in sorted_cats %}
+
         {% capture category_name %}{{ category | first | downcase }}{% endcapture %}
 
-        <a href="{{ site.baseurl }}{{ category_name }}">{{ category_name }}</a>
-        &nbsp;&nbsp;
+            <li style="padding-bottom: 0.4rem;">
+                <a href="{{ '#' | append:  category_name | downcase   }}">{{ category_name }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+    
+    
+    {% for category in sorted_cats %}
 
+        {% capture category_name %}{{ category | first | downcase }}{% endcapture %}
+        
         <h1 class="tag" id="{{ category_name | downcase }}">{{ category_name }}</h1>
-
-        {% for tag in sorted_tags %}
-            {% assign tags_in_this_category = tag[1] | where: "category", {{category_name}} | sort %}
+        {% for post in site.categories[category_name] %}
+            <article class="post">
+                <h2>
+                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
+                    </a>
+                </h2>
+            </article>
         {% endfor %}
-
-        {% for tag in tags_in_this_category %}
-
-            {% assign t = tag | first %}
-
-            {% for post in site.categories[category_name] %}
-
-                {% if post.tags contains t %}
-                    <article class="post">
-                        <h2>
-                            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
-                            </a>
-                        </h2>
-                    </article>
-                {% endif %}
-
-            {% endfor %}
-
-        {% endfor %}
-
-        <br>
-        <hr>
-        <br>
-
+    
     {% endfor %}
 
 </div>
