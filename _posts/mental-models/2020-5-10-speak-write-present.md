@@ -6,33 +6,35 @@ tags: mental-models
 
 
 ## public speaking 
-Talk smiling 
 
-take good breaths
+1. take good breaths
 
-talk slower
+2. talk at a good pace, neither slow nor too fast
 
-open your mouth 
+3. talk clearly, emphasize every word 
 
-talk louder
+4. don't be monotone, it's boring 
 
-change your voice 
+5. convey emotion 
 
-convey emotion 
+6. be brief, be to the point
 
-don't talk monotone and boring 
+7. speak with confidence and enthusiasm
+
 
 ## writing better
-Refuse to use the word “thing.”
 
-No brackets.
+Refuse to use the word “thing”
 
-Fewer prepositions.
+No brackets
+
+Fewer prepositions
 
 Eliminate redundancy
 
 
 ## presentations
+
 Don’t include any text in your slides
 
 Talk about the slide before you put it up, not after it appears
