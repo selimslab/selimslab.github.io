@@ -1,0 +1,34 @@
+
+
+{% for tag in sorted_tags %}
+    {% assign t = tag | first %}
+    {% assign posts = tag | last %}
+    
+    {% if t ==  "best" %}
+        {% continue %}
+    {% endif %}
+
+    <h1 class="tag" id="{{ t | downcase }}">{{ t | downcase }}</h1>
+    {% for post in posts %}
+        {% if post.tags contains t %}
+            <article class="post">
+                <h2>
+                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
+                    </a>
+                </h2>
+            </article>
+        {% endif %}
+    {% endfor %}
+
+{% endfor %}
+
+
+<h1 class="tag" id="best">recommended</h1>
+{% for post in site.tags.best %}
+    <article class="post">
+        <h2>
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
+            </a>
+        </h2>
+    </article>
+{% endfor %}
