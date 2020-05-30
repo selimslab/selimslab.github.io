@@ -4,13 +4,13 @@ title:  Read and Liked
 tags: bookmarks
 --- 
 
-[Ask HN: What mistakes did you make when starting as a consultant/freelancer? | Hacker News](https://news.ycombinator.com/item?id=21728436)
+[Ask HN: What mistakes did you make when starting as a consultant/freelancer? - Hacker News](https://news.ycombinator.com/item?id=21728436)
 
 [Building a search engine from scratch](https://0x65.dev/blog/2019-12-06/building-a-search-engine-from-scratch.html)
 
 [Tao Te Ching - Chapter 17 - Translation by Stephen Mitchell](http://taoteching.org.uk/chapter17.html)
 
-[Two malicious Python libraries caught stealing SSH and GPG keys | ZDNet](https://www.zdnet.com/article/two-malicious-python-libraries-removed-from-pypi/)
+[Two malicious Python libraries caught stealing SSH and GPG keys - ZDNet](https://www.zdnet.com/article/two-malicious-python-libraries-removed-from-pypi/)
 
 [Amazon CodeGuru - Amazon Web Services](https://aws.amazon.com/tr/codeguru/)
 
@@ -18,7 +18,7 @@ tags: bookmarks
 
 [Indexing Billions of Text Vectors](https://0x65.dev/blog/2019-12-07/indexing-billions-of-text-vectors.html)
 
-[Things end users care about but programmers don't | Instadeq Blog](https://instadeq.com/blog/posts/things-end-users-care-about-but-programmers-dont/)
+[Things end users care about but programmers don't - Instadeq Blog](https://instadeq.com/blog/posts/things-end-users-care-about-but-programmers-dont/)
 
 [The Joel Test: 12 Steps to Better Code – Joel on Software](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
 
@@ -38,11 +38,11 @@ tags: bookmarks
 
 [Calm Technology](https://calmtech.com/)
 
-[Ask HN: How do you create a successful community from zero? | Hacker News](https://news.ycombinator.com/item?id=21812442)
+[Ask HN: How do you create a successful community from zero? - Hacker News](https://news.ycombinator.com/item?id=21812442)
 
 [Google's Dangerous Monopoly-Based Foreign Policy](https://mattstoller.substack.com/p/googles-dangerous-monopoly-based)
 
-[What Medieval People Got Right About Learning | Scott H Young](https://www.scotthyoung.com/blog/2019/06/07/apprenticeships/)
+[What Medieval People Got Right About Learning - Scott H Young](https://www.scotthyoung.com/blog/2019/06/07/apprenticeships/)
 
 [fast](https://patrickcollison.com/fast)
 
@@ -58,7 +58,7 @@ tags: bookmarks
 
 [Million WebSockets and Go](https://gbws.io/articles/million-websocket-and-go/)
 
-[Why drink is the secret to humanity’s success | Financial Times](https://www.ft.com/content/c5ce0834-9a64-11e8-9702-5946bae86e6d)
+[Why drink is the secret to humanity’s success - Financial Times](https://www.ft.com/content/c5ce0834-9a64-11e8-9702-5946bae86e6d)
 
 [Layout 101 - Google Drive](https://docs.google.com/file/d/0B0gPtgNVonXPT1NsWGpKZWZKV1U/edit)
 
@@ -72,11 +72,11 @@ tags: bookmarks
 
 [oop - What does 'super' do in Python? - Stack Overflow](https://stackoverflow.com/questions/222877/what-does-super-do-in-python)
 
-[Ask HN: What are your news sources other than HN? | Hacker News](https://news.ycombinator.com/item?id=21920173)
+[Ask HN: What are your news sources other than HN? - Hacker News](https://news.ycombinator.com/item?id=21920173)
 
 [Software development 450 words per minute – Vincit](https://www.vincit.fi/fi/software-development-450-words-per-minute/)
 
-[Ask HN: Which is the most successful one-person business you heard of in 2019? | Hacker News](https://news.ycombinator.com/item?id=21908577)
+[Ask HN: Which is the most successful one-person business you heard of in 2019? - Hacker News](https://news.ycombinator.com/item?id=21908577)
 
 [Finding Pleasant Routes Using GIS ~ GIS Lounge](https://www.gislounge.com/finding-pleasant-routes-using-gis/)
 
@@ -86,7 +86,7 @@ tags: bookmarks
 
 [Design Driven Development — Using Design as a Tool for Teamwork](https://blog.prototypr.io/design-driven-development-36a30dd8088c)
 
-[When better isn't good enough: Why I tell my Google co-workers and industry peers to avoid Pittsburgh - PublicSource | News for a better Pittsburgh](https://www.publicsource.org/when-better-isnt-good-enough-why-i-tell-my-google-co-workers-and-industry-peers-to-avoid-pittsburgh/)
+[When better isn't good enough: Why I tell my Google co-workers and industry peers to avoid Pittsburgh - PublicSource - News for a better Pittsburgh](https://www.publicsource.org/when-better-isnt-good-enough-why-i-tell-my-google-co-workers-and-industry-peers-to-avoid-pittsburgh/)
 
 [(6) Mark Zuckerberg - Every new year of the last decade I set a...](https://www.facebook.com/4/posts/10111311886191191/)
 
@@ -98,7 +98,7 @@ tags: bookmarks
 
 [benchmarking - How much faster is Redis than mongoDB? - Stack Overflow](https://stackoverflow.com/questions/5252577/how-much-faster-is-redis-than-mongodb)
 
-[Ask HN: Are there any openly available software architecture documents? | Hacker News](https://news.ycombinator.com/item?id=22011743)
+[Ask HN: Are there any openly available software architecture documents? - Hacker News](https://news.ycombinator.com/item?id=22011743)
 
 [Nobody Cares - Andreessen Horowitz](https://a16z.com/2011/10/08/nobody-cares/)
 
@@ -108,11 +108,11 @@ tags: bookmarks
 
 [Google Maps’s Moat](https://www.justinobeirne.com/google-maps-moat)
 
-[Master Plan, Part Deux | Tesla](https://www.tesla.com/blog/master-plan-part-deux)
+[Master Plan, Part Deux - Tesla](https://www.tesla.com/blog/master-plan-part-deux)
 
-[Breaking down Amazon's mega dropdown | Hacker News](https://news.ycombinator.com/item?id=5330998)
+[Breaking down Amazon's mega dropdown - Hacker News](https://news.ycombinator.com/item?id=5330998)
 
-[Start with a Website, Not a Mobile App | Hacker News](https://news.ycombinator.com/item?id=18824993)
+[Start with a Website, Not a Mobile App - Hacker News](https://news.ycombinator.com/item?id=18824993)
 
 [Is it really just sexism? An alternative argument for why women leave STEM](https://medium.com/@kjmorenz/is-it-really-just-sexism-an-alternative-argument-for-why-women-leave-stem-cccdf066d8b1)
 
@@ -120,7 +120,7 @@ tags: bookmarks
 
 [Rotten STEM: How Technology Corrupts Education - American Affairs Journal](https://americanaffairsjournal.org/2019/08/rotten-stem-how-technology-corrupts-education/)
 
-[Ask HN: Do you ever contact people who have had a positive impact on you? | Hacker News](https://news.ycombinator.com/item?id=22097373)
+[Ask HN: Do you ever contact people who have had a positive impact on you? - Hacker News](https://news.ycombinator.com/item?id=22097373)
 
 [satwikkansal/wtfpython: A collection of surprising Python snippets and lesser-known features.](https://github.com/satwikkansal/wtfpython#-strings-can-be-tricky-sometimes-)
 
@@ -134,9 +134,9 @@ tags: bookmarks
 
 [A new kind of map: it’s about time - Points of interest](https://blog.mapbox.com/a-new-kind-of-map-its-about-time-7bd9f7916f7f)
 
-[Ask HN: How did you decide what problems to solve in your lifetime? | Hacker News](https://news.ycombinator.com/item?id=18837334)
+[Ask HN: How did you decide what problems to solve in your lifetime? - Hacker News](https://news.ycombinator.com/item?id=18837334)
 
-[What Does a Coder Do If They Can't Type? | Objective Funk](http://nsaphra.github.io/post/hands/)
+[What Does a Coder Do If They Can't Type? - Objective Funk](http://nsaphra.github.io/post/hands/)
 
 [Hi or Hey: Which Words Matter When You Talk \[Fascinating!\]](https://buffer.com/resources/which-words-matter-the-most-when-we-talk-the-psychology-of-language)
 
@@ -144,7 +144,7 @@ tags: bookmarks
 
 [A Perfect Fifth of Notes on Scalability - High Scalability -](http://highscalability.com/blog/2012/1/10/a-perfect-fifth-of-notes-on-scalability.html)
 
-[Why HN was down | Hacker News](https://news.ycombinator.com/item?id=5239673)
+[Why HN was down - Hacker News](https://news.ycombinator.com/item?id=5239673)
 
 [I quit the tech industry / fuzzy notepad](https://eev.ee/blog/2015/06/09/i-quit-the-tech-industry/)
 
@@ -152,9 +152,9 @@ tags: bookmarks
 
 [How to pass a programming interview - Triplebyte Blog](https://triplebyte.com/blog/how-to-pass-a-programming-interview)
 
-[Ask HN: Are you put off building something because it already exists? | Hacker News](https://news.ycombinator.com/item?id=19774997)
+[Ask HN: Are you put off building something because it already exists? - Hacker News](https://news.ycombinator.com/item?id=19774997)
 
-[Quick tip for developers who use OS X | Hacker News](https://news.ycombinator.com/item?id=7051091)
+[Quick tip for developers who use OS X - Hacker News](https://news.ycombinator.com/item?id=7051091)
 
 [Markov Chains](http://setosa.io/blog/2014/07/26/markov-chains/index.html)
 
@@ -170,37 +170,37 @@ tags: bookmarks
 
 [Count to ten when a plane goes down... - John C. Beck, author of Good vs Good](https://johncbeck.tumblr.com/post/92074597917/count-to-ten-when-a-plane-goes-down)
 
-[9th Circuit holds that scraping a public website does not violate the CFAA \[pdf\] | Hacker News](https://news.ycombinator.com/item?id=20920753)
+[9th Circuit holds that scraping a public website does not violate the CFAA \[pdf\] - Hacker News](https://news.ycombinator.com/item?id=20920753)
 
 [Quit Social Media. Your Career May Depend on It. - The New York Times](https://www.nytimes.com/2016/11/20/jobs/quit-social-media-your-career-may-depend-on-it.html)
 
-[Ask HN: What is your money-making side project outside programming? | Hacker News](https://news.ycombinator.com/item?id=19712057)
+[Ask HN: What is your money-making side project outside programming? - Hacker News](https://news.ycombinator.com/item?id=19712057)
 
-[Ask HN: Pros and cons of working at a startup in 2018? | Hacker News](https://news.ycombinator.com/item?id=17286939)
+[Ask HN: Pros and cons of working at a startup in 2018? - Hacker News](https://news.ycombinator.com/item?id=17286939)
 
-[94-year-old Lithium-Ion Battery Inventor Introduces Solid State Battery | Hacker News](https://news.ycombinator.com/item?id=13778543)
+[94-year-old Lithium-Ion Battery Inventor Introduces Solid State Battery - Hacker News](https://news.ycombinator.com/item?id=13778543)
 
 [RECONSIDER – Signal v. Noise](https://signalvnoise.com/posts/3972-reconsider)
 
-[How to do hard things | Hacker News](https://news.ycombinator.com/item?id=19955830)
+[How to do hard things - Hacker News](https://news.ycombinator.com/item?id=19955830)
 
 [Good Samaritan Backfire - Thoughts And Ideas - Medium](https://medium.com/indian-thoughts/good-samaritan-backfire-9f53ef6a1c10)
 
 [The Complete List of Unicorn Companies](https://www.cbinsights.com/research-unicorn-companies)
 
-[Startup Playbook | Hacker News](https://news.ycombinator.com/item?id=10514729)
+[Startup Playbook - Hacker News](https://news.ycombinator.com/item?id=10514729)
 
 [All the best engineering advice I stole from non-technical people](https://medium.com/@bellmar/all-the-best-engineering-advice-i-stole-from-non-technical-people-eb7f90ca2f5f)
 
-[Ask HN: How much do you make at Amazon? Here is how much I make at Amazon | Hacker News](https://news.ycombinator.com/item?id=11312984)
+[Ask HN: How much do you make at Amazon? Here is how much I make at Amazon - Hacker News](https://news.ycombinator.com/item?id=11312984)
 
 [The One Method I've Used to Eliminate Bad Tech Hires - Mattermark](https://mattermark.com/the-one-method-ive-used-to-eliminate-bad-tech-hires/)
 
-[I Quit: What really goes on at Apple | Hacker News](https://news.ycombinator.com/item?id=9342994)
+[I Quit: What really goes on at Apple - Hacker News](https://news.ycombinator.com/item?id=9342994)
 
-['For me, this is paradise': life in the Spanish city that banned cars | Cities | The Guardian](https://www.theguardian.com/cities/2018/sep/18/paradise-life-spanish-city-banned-cars-pontevedra)
+['For me, this is paradise': life in the Spanish city that banned cars - Cities - The Guardian](https://www.theguardian.com/cities/2018/sep/18/paradise-life-spanish-city-banned-cars-pontevedra)
 
-[Billie Eilish proved anyone can access Grammy-winning gear | Engadget](https://www.engadget.com/2020/01/27/billie-eilish-grammy-2020-bedroom-studio-logic-pro-x/)
+[Billie Eilish proved anyone can access Grammy-winning gear - Engadget](https://www.engadget.com/2020/01/27/billie-eilish-grammy-2020-bedroom-studio-logic-pro-x/)
 
 [https://static1.squarespace.com/static/5d6fd1b92a7aeb00017966dd/t/5e291fc7d2e9fa1df81e2a8c/1579753464656/sois](https://static1.squarespace.com/static/5d6fd1b92a7aeb00017966dd/t/5e291fc7d2e9fa1df81e2a8c/1579753464656/sois)
 
@@ -208,7 +208,7 @@ tags: bookmarks
 
 [Anthony Bourdain once said "There's a guy in my head, and all he wants to do is lay in bed all day long, smoke pot, and watch old movies and cartoons. My life is a series of strategems, to avoid, and outwit that guy". Who is "that guy" for you, and what d](https://www.reddit.com/r/AskReddit/comments/dcxylq/anthony_bourdain_once_said_theres_a_guy_in_my/)
 
-[Hooked: how pokies are designed to be addictive | Australia news | The Guardian](https://www.theguardian.com/australia-news/datablog/ng-interactive/2017/sep/28/hooked-how-pokies-are-designed-to-be-addictive)
+[Hooked: how pokies are designed to be addictive - Australia news - The Guardian](https://www.theguardian.com/australia-news/datablog/ng-interactive/2017/sep/28/hooked-how-pokies-are-designed-to-be-addictive)
 
 [Parable of the Polygons - a playable post on the shape of society](https://ncase.me/polygons/)
 
@@ -276,35 +276,35 @@ tags: bookmarks
 
 [What is SAP?](https://retool.com/blog/erp-for-engineers/)
 
-[Ask HN: What Skills to Acquire in 2020? | Hacker News](https://news.ycombinator.com/item?id=22235279)
+[Ask HN: What Skills to Acquire in 2020? - Hacker News](https://news.ycombinator.com/item?id=22235279)
 
 [1,000 True Fans? Try 100](https://a16z.com/2020/02/06/100-true-fans/)
 
 [How to fix Windows Error Code 0x80070570 – Step-by-step guide](https://www.diskgenius.com/how-to/fix-error-code-0x80070570.php)
 
-[Why are we so bad at software engineering? | www.bitlog.com](https://www.bitlog.com/2020/02/12/why-are-we-so-bad-at-software-engineering/)
+[Why are we so bad at software engineering? - www.bitlog.com](https://www.bitlog.com/2020/02/12/why-are-we-so-bad-at-software-engineering/)
 
-[Ask HN: How do you learn complex, dense technical information? | Hacker News](https://news.ycombinator.com/item?id=22325975)
+[Ask HN: How do you learn complex, dense technical information? - Hacker News](https://news.ycombinator.com/item?id=22325975)
 
-[Ask HN: What are some examples of good database schema designs? | Hacker News](https://news.ycombinator.com/item?id=22324691)
+[Ask HN: What are some examples of good database schema designs? - Hacker News](https://news.ycombinator.com/item?id=22324691)
 
 [Why so many of the world’s oldest companies are in Japan - BBC Worklife](https://www.bbc.com/worklife/article/20200211-why-are-so-many-old-companies-in-japan)
 
 [Life is Made of Unfair Coin Flips – alexdanco.com](https://alexdanco.com/2020/04/09/life-is-made-of-unfair-coin-flips/)
 
-[The software industry's greatest sin: hiring | Neil Sainsbury](https://www.neilwithdata.com/developer-hiring)
+[The software industry's greatest sin: hiring - Neil Sainsbury](https://www.neilwithdata.com/developer-hiring)
 
 [functional programming - Monad in plain English? (For the OOP programmer with no FP background) - Stack Overflow](https://stackoverflow.com/questions/2704652/monad-in-plain-english-for-the-oop-programmer-with-no-fp-background)
 
 [Anger Management](https://genevievefiles.blogspot.com/2020/04/anger-management.html)
 
-[Rules of thumb for a 1x developer | The Other Mickey Wiki](https://muldoon.cloud/programming/2020/04/17/programming-rules-thumb.html)
+[Rules of thumb for a 1x developer - The Other Mickey Wiki](https://muldoon.cloud/programming/2020/04/17/programming-rules-thumb.html)
 
 [utf8 jupyter](https://nbviewer.jupyter.org/gist/guocheng/1ae6c2d76461a66cfc5ec6009b5791d1)
 
 [24-GooglePageRankAlgorithm.pdf](https://web.stanford.edu/class/cs54n/handouts/24-GooglePageRankAlgorithm.pdf)
 
-[We are complicit in our employer’s deeds | Drew DeVault’s Blog](https://drewdevault.com/2020/05/05/We-are-complicit-in-our-employers-deeds.html)
+[We are complicit in our employer’s deeds - Drew DeVault’s Blog](https://drewdevault.com/2020/05/05/We-are-complicit-in-our-employers-deeds.html)
 
 [Alan Kay's answer to How do I learn to think better? - Quora](https://www.quora.com/How-do-I-learn-to-think-better/answer/Alan-Kay-11?share=1)
 

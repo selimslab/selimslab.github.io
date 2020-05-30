@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Best reads, 100+ great links 
+title:  Best reads 
 tags: bookmarks
 --- 
 
@@ -8,7 +8,7 @@ tags: bookmarks
 
 [A Protocol for Dying](http://hintjens.com/blog:115) 
 
-[Ask HN: I'm a software engineer going blind, how should I prepare? | Hacker News](https://news.ycombinator.com/item?id=22918980)
+[Ask HN: I'm a software engineer going blind, how should I prepare? - Hacker News](https://news.ycombinator.com/item?id=22918980)
 
 
 
@@ -53,14 +53,14 @@ tags: bookmarks
 [I coached 101 CEOs, founders, VCs and other executives in 2019: These are the biggest takeaways - Leo Widrich](https://leowid.com/2019-2)
 
 
-[Founder to CEO: How to build a great company from the ground up | Hacker News](https://news.ycombinator.com/item?id=17446839)
+[Founder to CEO: How to build a great company from the ground up - Hacker News](https://news.ycombinator.com/item?id=17446839)
 
 [Productivity - Sam Altman](https://blog.samaltman.com/productivity)
 
 [Growing One's Consulting Business](https://training.kalzumeus.com/newsletters/archive/consulting_1)
 
 
-[JetBrains: $270M revenue, 405K paying users, $0 raised | Hacker News](https://news.ycombinator.com/item?id=21796793)
+[JetBrains: $270M revenue, 405K paying users, $0 raised - Hacker News](https://news.ycombinator.com/item?id=21796793)
 
 ## psy
 
@@ -116,21 +116,21 @@ tags: bookmarks
 
 [The mythical 10x programmer - <antirez>](http://antirez.com/news/112)
 
-[Julio Biason .Net 4.1 | Things I Learnt The Hard Way (in 30 Years of Software Development)](https://blog.juliobiason.me/thoughts/things-i-learnt-the-hard-way/)
+[Julio Biason .Net 4.1 - Things I Learnt The Hard Way (in 30 Years of Software Development)](https://blog.juliobiason.me/thoughts/things-i-learnt-the-hard-way/)
 
 
-[Summary of Technical Writing One  |  Google Developers](https://developers.google.com/tech-writing/one/summary)
+[Summary of Technical Writing One  -  Google Developers](https://developers.google.com/tech-writing/one/summary)
 
-[Summary of Technical Writing Two  |  Google Developers](https://developers.google.com/tech-writing/two/summary)
+[Summary of Technical Writing Two  -  Google Developers](https://developers.google.com/tech-writing/two/summary)
 
 [The Hacker Classics](http://jsomers.net/hn/)
 
-[Ask HN: What do top engineers you know do that others don't? | Hacker News](https://news.ycombinator.com/item?id=21870889)
+[Ask HN: What do top engineers you know do that others don't? - Hacker News](https://news.ycombinator.com/item?id=21870889)
 
 [How Technology is Hijacking Your Mind — from a Magician and Google Design Ethicist](https://medium.com/thrive-global/how-technology-hijacks-peoples-minds-from-a-magician-and-google-s-design-ethicist-56d62ef5edf3)
 
 
-[Ask HN: What's the fastest tool for basic CRUD? | Hacker News](https://news.ycombinator.com/item?id=22091012)
+[Ask HN: What's the fastest tool for basic CRUD? - Hacker News](https://news.ycombinator.com/item?id=22091012)
 
 [Web Design - The First 100 Years](https://idlewords.com/talks/web_design_first_100_years.htm)
 
@@ -139,7 +139,7 @@ tags: bookmarks
 
 
 
-[Prosecutor as bully | Hacker News](https://news.ycombinator.com/item?id=5048301)
+[Prosecutor as bully - Hacker News](https://news.ycombinator.com/item?id=5048301)
 
 
 
@@ -147,9 +147,9 @@ tags: bookmarks
 
 [Be Kind](https://boz.com/articles/be-kind)
 
-[Ask HN: Advice for a new and inexperienced tech lead? | Hacker News](https://news.ycombinator.com/item?id=22255301)
+[Ask HN: Advice for a new and inexperienced tech lead? - Hacker News](https://news.ycombinator.com/item?id=22255301)
 
-[Ask HN: What’s the most important modern simple invention? | Hacker News](https://news.ycombinator.com/item?id=22290362)
+[Ask HN: What’s the most important modern simple invention? - Hacker News](https://news.ycombinator.com/item?id=22290362)
 
 [Global IT Burnout Index](https://burnoutindex.org/)
 
@@ -171,7 +171,7 @@ tags: bookmarks
 
 [The Bus Ticket Theory of Genius](http://paulgraham.com/genius.html)
 
-[Ask HN: Best books you read in the past decade? | Hacker News](https://news.ycombinator.com/item?id=21900498)
+[Ask HN: Best books you read in the past decade? - Hacker News](https://news.ycombinator.com/item?id=21900498)
 
 
 [How SEO Ruined the Internet — Superhighway 98](https://www.superhighway98.com/seo)
@@ -183,7 +183,7 @@ tags: bookmarks
 [I could do that in a weekend!](https://danluu.com/sounds-easy/)
 
 
-[The Day I Found Out My Life Was Hanging by a Thread | WIRED](https://www.wired.com/story/the-day-i-found-out-my-life-was-hanging-by-a-thread/)
+[The Day I Found Out My Life Was Hanging by a Thread - WIRED](https://www.wired.com/story/the-day-i-found-out-my-life-was-hanging-by-a-thread/)
 
 [Your non-linear problem of 90% utilization](https://blog.asmartbear.com/utilization.html)
 
