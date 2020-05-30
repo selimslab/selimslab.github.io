@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+{% assign sorted_tags = site.tags | sort %}
+
+{% assign sorted_cats = site.categories | sort %}
+
+
+
+<div class="posts">
+
+    <h1 class="tag" id="explore">explore</h1>
+    
+    <ul>
+        {% for category in sorted_cats %}
+
+        {% capture category_name %}{{ category | first | downcase }}{% endcapture %}
+
+            <li style="padding-bottom: 0.4rem;">
+                <a href="{{ '#' | append:  category_name | downcase   }}">{{ category_name }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+    
+    
+    {% for category in sorted_cats %}
+
+        {% capture category_name %}{{ category | first | downcase }}{% endcapture %}
+
+        <h1 class="tag" id="{{ category_name | downcase }}">{{ category_name }}</h1>
+
+        {% for tag in sorted_tags %}
+            {% assign t = tag | first %}
+            
+            <h1 class="tag" id="{{ t | downcase }}">{{ t | downcase }}</h1>
+            {% for post in site.categories[category_name] %}
+                {% if post.tags contains t %}
+                    <article class="post">
+                        <h2>
+                            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
+                            </a>
+                        </h2>
+                    </article>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+
+    {% endfor %}
+
+</div>
