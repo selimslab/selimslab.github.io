@@ -2,20 +2,30 @@
 layout: default
 ---
 
-<div class="posts">
+{% assign sorted_tags = site.tags | sort %}
 
+
+<div class="posts">
 
     <h1 class="tag" id="tech">Tech</h1>
 
-    {% for post in site.categories.Tech %}
-        <article class="post">
-            <h2>
-                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
-                </a>
-            </h2>
-        </article>
-    {% endfor %}
+    {% for tag in sorted_tags %}
+        {% assign t = tag | first %}
         
+        <h2 class="tag" id="{{ t | downcase }}">{{ t | downcase }}</h1>
+        {% for post in site.categories.Tech %}
+            {% if post.tags contains t %}
+                <article class="post">
+                    <h2>
+                        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
+                        </a>
+                    </h2>
+                </article>
+            {% endif %}
+    {% endfor %}
+
+{% endfor %}
+
 
 </div>
 
