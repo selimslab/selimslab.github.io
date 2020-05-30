@@ -4,7 +4,7 @@ layout: default
 
 <p>actionable ideas, a constant work in progress</p>
 
-{% assign sortedCategories = site.categories | sort %}
+{% assign sortedCategories = page.categories | sort %}
 {% assign sorted_tags = site.tags | sort %}
 
 <h1 class="tag" id="explore">explore</h1>
@@ -19,13 +19,6 @@ layout: default
 
 </ul>
 
-
-
-{% for category in sortedCategories %}
-    <span class="tag">
-        <a href="/category/{{ category }}">#{{ category }}</a>
-    </span>
-{% endfor %}
 
 
 <div class="posts test">
