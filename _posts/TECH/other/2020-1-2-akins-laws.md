@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Akin's Laws of Spacecraft Design 
-tags: tech
+tags: tech-readings
 category: Tech  
 ---
 

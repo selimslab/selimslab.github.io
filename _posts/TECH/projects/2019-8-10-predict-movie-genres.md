@@ -1,7 +1,7 @@
 ---
 layout: post
 title: predict genres of a movie from its summary  
-tags: projects 
+tags: tech-projects 
 category: Tech
  
 

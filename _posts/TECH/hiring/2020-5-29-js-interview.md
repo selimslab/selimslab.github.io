@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JS Interview
-tags: hiring
+tags: tech-hiring
 category: Tech 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: a concurrent crawler in 100 lines
-tags: projects 
+tags: tech-projects 
 category: Tech
 ---
 

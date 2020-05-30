@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Site Reliability Engineering 
-tags: tech
+tags: tech-concepts
 category: Tech
 --- 
 

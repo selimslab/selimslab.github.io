@@ -1,7 +1,7 @@
 ---
 layout: post
 title: a Django REST API for analytics of mobile user events 
-tags: projects 
+tags: tech-projects 
 category: Tech
  
 

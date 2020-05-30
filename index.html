@@ -16,11 +16,12 @@ layout: default
             <a href="{{ '#' | append:  t | downcase   }}">{{ t | downcase }}</a>
         </li>
     {% endfor %}
-
 </ul>
 
 
 <div class="posts">
+
+
     <h1 class="tag" id="best">recommended</h1>
     {% for post in site.tags.best %}
         <article class="post">
@@ -31,54 +32,29 @@ layout: default
         </article>
     {% endfor %}
 
-    
-    {% for post in site.categories.Tech %}
-        <h1 class="tag" id="tech">Tech</h1>
-
-        {% for tag in sorted_tags %}
-            {% assign t = tag | first %}
-            {% assign posts = tag | last %}
-            
-            {% if t ==  "best" %}
-                {% continue %}
-            {% endif %}
-
-            <h1 class="tag" id="{{ t | downcase }}">{{ t | downcase }}</h1>
-                {% for post in posts %}
-                    {% if post.tags contains t %}
-                        <article class="post">
-                            <h2>
-                                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
-                                </a>
-                            </h2>
-                        </article>
-                    {% endif %}
-                {% endfor %}
-        {% endfor %}
-
-    {% endfor %}
-
 
     {% for tag in sorted_tags %}
-    {% assign t = tag | first %}
-    {% assign posts = tag | last %}
-    
-    {% if t ==  "best" %}
-        {% continue %}
-    {% endif %}
+        {% assign t = tag | first %}
+        {% assign posts = tag | last %}
+        
+        {% if t ==  "best" %}
+            {% continue %}
+        {% endif %}
 
-    <h1 class="tag" id="{{ t | downcase }}">{{ t | downcase }}</h1>
-        {% for post in posts %}
-            {% if post.tags contains t %}
-                <article class="post">
-                    <h2>
-                        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
-                        </a>
-                    </h2>
-                </article>
-            {% endif %}
-        {% endfor %}
-{% endfor %}
+        <h1 class="tag" id="{{ t | downcase }}">{{ t | downcase }}</h1>
+            {% for post in posts %}
+                {% if post.tags contains t %}
+                    <article class="post">
+                        <h2>
+                            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
+                            </a>
+                        </h2>
+                    </article>
+                {% endif %}
+            {% endfor %}
+            
+    {% endfor %}
+
 
 </div>
 

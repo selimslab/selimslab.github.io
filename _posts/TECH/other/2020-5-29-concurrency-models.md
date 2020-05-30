@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 7 concurrency models 
-tags: tech
+tags: tech-concepts
 category: Tech 
 --- 
 

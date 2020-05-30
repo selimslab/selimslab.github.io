@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Pragmatic Programmer
-tags: tech
+tags: tech-books
 category: Tech
 ---
 

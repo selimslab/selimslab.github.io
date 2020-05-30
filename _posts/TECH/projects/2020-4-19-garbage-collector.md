@@ -1,7 +1,7 @@
 ---
 layout: post
 title: a simple garbage collector in C
-tags: projects 
+tags: tech-projects 
 category: Tech
  
 category: Tech 
