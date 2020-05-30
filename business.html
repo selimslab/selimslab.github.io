@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="posts">
+
+
+    <h1 class="tag" id="business">Business</h1>
+    
+    {% for post in site.categories.Business %}
+        <article class="post">
+            <h2>
+                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
+                </a>
+            </h2>
+        </article>
+    {% endfor %}
+        
+
+</div>
+

@@ -12,14 +12,9 @@ layout: default
     {% for category in sortedCategories %}
         {% capture category_name %}{{ category | first }}{% endcapture %}
 
-        <h1 id="{{ category_name | downcase }}">{{ category_name }}</h1>
         {% for post in site.categories[category_name] %}
-            <article class="post">
-                <h2>
-                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
-                    </a>
-                </h2>
-            </article>
+            <a href="{{ site.baseurl }}{{ category_name }}">{{ category_name }}</a>
+            &nbsp;&nbsp;
         {% endfor %}
         
     {% endfor %}
