@@ -4,15 +4,21 @@ title: Tech Interview
 tags: tech 
 ---
 
+A list to select questions  for a technical interview
+
++ Ask questions out of curiosity.
++ Don't cross-examine. 
++ Be respectful. 
+
 ## Basics 
 
 Big O
 
 Time complexity of binary search 
 
-
-
 ## Databases 
+
+When would you use a document database like MongoDB instead of a relational database like MySQL or PostgreSQL?
 
 Indexes 
 
@@ -83,14 +89,6 @@ dfs, bfs, topological, binary tree, graph traversal, pre, post, ignorer, level o
 
 Ascii vs utf8, utf16, unicode 
 
-
-
-Arch 
-Operational excellence
-Secure
-Reliable
-High Performance
-Cost effective
 
 ## Operating Systems
 
@@ -182,9 +180,6 @@ interface segregation
 dependency injection
 
 
-## Design Patterns
-
----
 
 ## Web 
 
@@ -211,22 +206,22 @@ Permissions
 Rate limiting 
 
 
-## OSI network layers 
+## OS
 
-App, http
+Kernel
 
-Presentation, jpeg
+User space, kernel space 
 
-Session 
+Thread vs process 
 
-Transport, tcp
+Memory safety, virtual memory 
 
-Network, ip
 
-Data link, ethernet
 
-Physical, usb
+## Networking 
 
+TCP/IP, UDP, OSI network layers 
+ 
 
 ## Code Quality
 
@@ -245,64 +240,6 @@ documentation
 CI/CD 
 
 
-## JS
-
-Js strength and weaknesses 
-
-callback
-
-promise
-
-async await 
-
--> arrow, ... spread
-
-filter, map, reduce 
-
-V8 
-
-let, const 
-
-Functional programming  -> immutable values, pure functions, higher order functions, closures
-
-```js
-for (var i = 0; i < 5; i++) {
-	setTimeout(function() { console.log(i); }, i * 1000 );
-} 
-// 5 5 5 5 5
-
-
-// when you replace var with let 
-for (let i = 0; i < 5; i++) {
-	setTimeout(function() { console.log(i); }, i * 1000 );
-} 
-// 0 1 2 3 4 
-```
-
-The following recursive code will cause a stack overflow if the array list is too large. How can you fix this and still retain the recursive pattern?
-
-```js
-
-var list = readHugeList();
-
-let nextListItem = function() {
-    var item = list.pop();
-    if (item) {
-        // may cause a stack overflow
-        nextListItem();
-    }
-};
-
-let nextListItem = function() {
-    var item = list.pop();
-    if (item) {
-        // fixed
-        setTimeout( nextListItem, 0);
-    }
-};
-
-```
-
 ## Concurrency
 
 Hardware interrupts
@@ -316,6 +253,13 @@ Goroutines and channels in Go
 Actors in Scala and Erlang 
 
 
+* Why do we need concurrency, anyway? Explain.
+
+* What is a race condition? Code an example
+
+* What is a deadlock?
+
+
 
 ## System Design  
 
@@ -323,123 +267,139 @@ Actors in Scala and Erlang
 
 how would you implement dark mode?
 
-## Python
+* When would you use request/reply and when publish/subscribe?
+
+* Why does Event-Driven Architecture improve scalability?
+  
+
+## languages
+
+* Tell me the 3 worst defects of your preferred language
+
+* What does it mean when a language treats functions as first-class citizens?
+
+* What is a stack and what is a heap? What's a stack overflow?
+
+* What are higher-order functions? What are they useful for? Write one, in your preferred language.
+
+* procedural, declarative, OOP, FP, 
+
+
+## clean code 
+
+* What makes code readable?
+
+* What would you do to understand if your code has a bad design?
+
+* Code smells 
+
+* Let’s refactor 
+
+* Are comments in code useful? 
+
+* TDD 
+
+* DRY 
+
+* SOLID 
+
+* Design Patterns
+
+*  Why High Cohesion and Loose Coupling are important?
+
+* Why do array indexes start with '0' in most languages?
 
 
 
-```python
-def foo(d, l):
-    d[3] = 7
-    l.append(5)
 
-def bar():
-    d = {3: 4}
-    l = []
-    foo(d, l)
-    print(d, l) 
-    # what will this print?
-```
+## web 
 
+* REST 
 
+* HTTP verbs
 
-### Concepts 
+* How would you manage Web Services API versioning?
 
-immutables -> str, int, float, bool,tuple
-Tuple with mutable element is mutable 
+* From a backend perspective, are there any disadvantages or drawbacks on the adoption of Single Page Applications?
 
-mutables -> list, dict, set 
+## general
 
-zip, enumerate, dict.items(), dict.keys(), dict.values() 
+* Why does functional programming matter? When should a functional programming language be used?
 
-Variables as boxes 
+* What is encapsulation important for?
 
-Mutable function arguments
+* What is inheritance important for?
 
-static vs classmethod
+* What is palym important for?
 
-super()
+* How do companies like Microsoft, Google, Opera and Mozilla profit from their browsers?
 
-Yield and generators
+* How can immutability help write safer code?
 
-Listcomp, dictcomp, genexp
-
-First class functions
-
-*args **kwargs
-
-Decorator
-
-Context manager
-
-coroutines, yield from 
-
-async await, event-driven programming
-
-asyncio, event loop 
-
-logging
-
-pytest
-
-black
-
-mypy
-
-Dataclass, tuple, dict, named tuple 
-
-Collections, Counter, defaultdict, deque, OrderedDict
-
-multiprocessing, Pool, ThreadPool
-
-Itertools, combinations, chain, islice, count, cycle, repeat, groupby, starmap 
+* What's the difference between TCP and HTTP?
 
 
-### Drawbacks
-
-Lack of static typing 
-
-Slow
-
-GIL 
-
-Not good at concurrency as node or go 
-
-### The Zen of Python
-
-Beautiful is better than ugly.
-
-Explicit is better than implicit.
-
-Simple is better than complex.
-
-Complex is better than complicated.
-
-Flat is better than nested.
-
-Sparse is better than dense.
-
-Easy to explain 
-
-One obvious way to do it
-
-Errors should never pass silently.
-
-practicality
-
-Readability counts.
-
-Now is better than never.
-Although never is often better than *right* now.
 
 
-## Behavioral 
+## security 
 
-Think of people you admire during your career, how are they like ?  
+* How do you write secure code? 
 
-What motivates you ?
+* XSS
 
-What is your work style ? discrete, well defined tasks, or just having goal and freedom to choose the way ? 
+* CSRF
+  
+* Why is it said that cryptography is not something you should try to invent or design yourself?
 
-How do you manage your time?
+* Write down a snippet of code affected by SQL injection and fix it.
 
-Example of a time when you had something bothers you at work, and your approach? 
+* How does HTTPS work?
+
+* What's a man-in-the-middle attack, and why does HTTPS help protect against it?
+
+
+## hands on  
+
+* Using your preferred language, write a REPL that echoes your inputs. Evolve it to make it a calculator.
+
+* Generate a sequence of unique random numbers.
+
+* Write a basic message broker, using whatever language you like.
+
+
+
+## open ended
+
+* What does it mean to be a "professional"?
+
+* Is developing software an art, a craftsmanship or an engineering? Your opinion.
+
+* "People who like this also like... ". How would you implement this feature in an e-commerce shop?
+
+* You are my boss and I'm performing low. Inform me.
+
+* If you could travel back in time, which advice would you give to your younger self?
+
+* Interview me.
+
+* Explain threads to your grandparents
+
+* Explain unicode 
+
+* Say your company gives you one week you can use to improve your and your colleagues' lifes: how would you use that week?
+  
+* List the last 3 books you read.
+
+* Explain database transactions to a 5 year old child.
+
+* How would you deal with legacy code?
+
+* How would you design a software system for scalability?
+
+* What are the pros and cons of microservice architecture?
+
+* convince me to invest in code quality 
+
+
+
+
