@@ -11,7 +11,7 @@ layout: default
 <ol>
     {% for tag in sorted_tags %}
         {% assign t = tag | first %}
-        <li>
+        <li style="padding-bottom: 0.2rem;">
             <a href="{{ '#' | append:  t | downcase   }}">{{ t | downcase }}</a>
         </li>
     {% endfor %}
