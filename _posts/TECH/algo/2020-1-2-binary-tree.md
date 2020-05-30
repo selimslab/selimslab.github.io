@@ -2,7 +2,7 @@
 layout: post
 title: Binary trees 
 tags: algorithms
-category: Tech 
+category: algorithms 
 
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Linked List 
 tags: algorithms
-category: Tech 
+category: algorithms 
 
 ---
 

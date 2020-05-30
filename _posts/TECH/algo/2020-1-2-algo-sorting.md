@@ -2,7 +2,7 @@
 layout: post
 title: Sorting
 tags: algorithms
-category: Tech 
+category: algorithms 
 
 ---
 

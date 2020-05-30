@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Questions to measure company culture 
-tags: tech-hiring
+tags: hiring
 category: Tech 
 ---
 

@@ -29,17 +29,23 @@ layout: default
     {% for category in sorted_cats %}
 
         {% capture category_name %}{{ category | first | downcase }}{% endcapture %}
-        
+
         <h1 class="tag" id="{{ category_name | downcase }}">{{ category_name }}</h1>
-        {% for post in site.categories[category_name] %}
-            <article class="post">
-                <h2>
-                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
-                    </a>
-                </h2>
-            </article>
+
+        {% assign items_grouped = site.categories[category_name] | group_by: 'tags' %}
+
+        {% for group in items_grouped %}
+            <h1 class="tag">{{group.name}}</h1>
+            {% for post in group.items %}
+                <article class="post">
+                    <h2>
+                        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
+                        </a>
+                    </h2>
+                </article>
+            {% endfor %}
         {% endfor %}
-    
+
     {% endfor %}
 
 </div>
