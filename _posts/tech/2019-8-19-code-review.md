@@ -4,8 +4,7 @@ title: Code Review
 tags: tech 
 ---
 
-Summary of <a href="https://google.github.io/eng-practices/review/reviewer/looking-for.html">
-https://google.github.io/eng-practices/review/reviewer/looking-for.html</a>
+
 
 In doing a code review, you should make sure that:
 
@@ -35,3 +34,13 @@ Code is appropriately documented (generally in g3doc).
 The code conforms to our style guides.
 
 Make sure to review every line of code you’ve been asked to review, look at the context, make sure you’re improving code health, and compliment developers on good things that they do.
+
+
+more at  
+
+[Code Health: Respectful Reviews == Useful Reviews
+](https://testing.googleblog.com/2019/11/code-health-respectful-reviews-useful.html
+)
+
+[What to look for in a code review
+](https://google.github.io/eng-practices/review/reviewer/looking-for.html)

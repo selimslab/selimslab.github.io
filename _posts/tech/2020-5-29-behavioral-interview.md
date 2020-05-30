@@ -27,3 +27,37 @@ What kind of feedback can I get during my first few months, and who will I be ge
 Did any of your senior engineers start out as junior engineers here?
 
 How does this team plan projects and create deadline estimates?
+
+---
+
+What is your definition of success for this role?
+
+Do you have any concerns about my application?
+
+How do you test code?
+
+How do you track bugs?
+
+How do you integrate and deploy changes? 
+
+What's the workflow from the planning to the finished task?
+
+How is the work organized?
+
+Who sets the priorities/schedule?
+
+What does a code review look like here?
+
+How do you track progress?
+
+What kind of meetings happen every week?
+
+How are differences of opinions resolved?
+
+What would you change if you could?
+
+What's the promotion process? How are the requirements/expectations communicated?
+
+What is the performance review process like?
+
+Are there any Hackathons conducted internally?

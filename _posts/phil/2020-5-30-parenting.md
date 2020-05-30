@@ -30,3 +30,5 @@ let a child  be angry, do not yell, remember that they are children and you are 
 a great read 
 
 [How Inuit Parents Teach Kids To Control Their Anger](https://www.npr.org/sections/goatsandsoda/2019/03/13/685533353/a-playful-way-to-teach-kids-to-control-their-anger)
+
+<http://fallibleideas.com/taking-children-seriously>

@@ -94,8 +94,42 @@ Sharding
 
 Federation 
 
-Sql vs nodal 
+Sql vs NoSQL
 
+CAP theorem 
+
+### ACID
+
+* Atomicity -  all or nothing
+* Consistency - from one valid state to another
+* Isolation - as if they are serial, even if it is concurrent 
+* Durability - Once committed, stay there 
+
+### Db scaling tactics 
+1. replication 
+    * leader-leader
+    * leader-follower
+ 
+2. federation
+
+3. sharding
+
+4. denormalization 
+
+5. SQL tuning
+   
+
+## Big Data
+
+data parallelism 
+
+OLAP vs OLTP
+
+map reduce 
+
+wide column stores 
+
+The lambda architecture ? Update batch views with real time stream results 
 
 
 ## Operating Systems
@@ -144,6 +178,9 @@ cd
 
 move 
 
+unix pipelines 
+
+everything is a file ? 
 
 ## Testing
 
@@ -253,10 +290,11 @@ Rate limiting
 * DRY
 
 
+## Parallelism
 
+Parallel Speed Up is limited bec. of overhead and must-be sequential operations
 
 ## Concurrency
-
 
 * Why do we need concurrency, anyway? Explain.
 

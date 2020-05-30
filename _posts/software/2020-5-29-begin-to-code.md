@@ -32,6 +32,8 @@ read this great fundamental algorithm book
 
 [interactive SQL lessons](https://sqlbolt.com/)
 
+[sql - How to implement one-to-one, one-to-many and many-to-many relationships while designing tables? - Stack Overflow](https://stackoverflow.com/questions/7296846/how-to-implement-one-to-one-one-to-many-and-many-to-many-relationships-while-de)
+
 
 ## step 4, terminal 
 
