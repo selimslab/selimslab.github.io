@@ -35,7 +35,7 @@ layout: default
         {% assign items_grouped = site.categories[category_name] | group_by: 'tags' | sort %}
 
         {% for group in items_grouped %}
-            <h3 class="tag">{{group[0].name}}</h3>
+            <h3>{{group[0].name}}</h3>
             {% for post in group.items %}
                 <article class="post">
                     <h2>
