@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Map Reduce in JS
-tags: snippets 
+tags: code-snippets 
 category: Tech
 ---
 

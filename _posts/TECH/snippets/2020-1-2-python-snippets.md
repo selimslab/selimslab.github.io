@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python snippets  
-tags: snippets 
+tags: code-snippets 
 category: Tech
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Go snippets
-tags: snippets 
+tags: code-snippets 
 category: Tech
 ---
 

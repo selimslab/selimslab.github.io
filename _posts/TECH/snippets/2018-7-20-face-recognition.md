@@ -1,7 +1,7 @@
 ---
 layout: post
 title: recognize a person in photos 
-tags: snippets 
+tags: code-snippets 
 category: Tech 
 ---
 

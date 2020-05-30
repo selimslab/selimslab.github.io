@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Excel -> Compound Interest with annual additions to principal
-tags: snippets 
+tags: code-snippets 
 category: Tech
 ---
 

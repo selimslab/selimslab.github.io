@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Scala 
-tags: snippets 
+tags: code-snippets 
 category: Tech
 ---
 
