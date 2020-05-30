@@ -9,7 +9,7 @@ layout: default
 
 <div class="posts">
 
-    {% for cat in sortedCategories %}
+    {% for category in sortedCategories %}
         {% capture category_name %}{{ category | first }}{% endcapture %}
 
         <h1 id="{{ category_name | downcase }}">{{ category_name }}</h1>
