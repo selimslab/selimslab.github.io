@@ -9,16 +9,6 @@ layout: default
 {% assign sorted_tags = site.tags | sort %}
 
 
-
-<div class="posts">
-
-
-
-
-
-</div>
-
-
 <div class="posts">
 
     {% for category in sortedCategories %}
@@ -30,10 +20,15 @@ layout: default
         <h1 class="tag" id="{{ category_name | downcase }}">{{ category_name }}</h1>
 
         {% for tag in sorted_tags %}
+            {% assign tags_in_this_category = tag[1] | where: "category", "{{category_name}}" | sort %}
+        {% endfor %}
+
+        {% for tag in tags_in_this_category %}
+
             {% assign t = tag | first %}
 
-            <h1 class="tag" id="{{ t | downcase }}">{{ t | downcase }}</h1>
             {% for post in site.categories[category_name] %}
+
                 {% if post.tags contains t %}
                     <article class="post">
                         <h2>
@@ -42,14 +37,15 @@ layout: default
                         </h2>
                     </article>
                 {% endif %}
+
             {% endfor %}
-    
+
         {% endfor %}
 
         <br>
         <hr>
         <br>
-        
+
     {% endfor %}
 
 </div>
