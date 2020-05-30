@@ -4,6 +4,9 @@ title: Orhan Veli
 tags: poetry
 ---
 
+![](https://www.evrensel.net/images/840/upload/dosya/64460.jpg)
+
+
 ## içinde 
 
 Denizlerimiz var, güneş içinde;

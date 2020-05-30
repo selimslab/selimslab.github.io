@@ -4,8 +4,8 @@ title:  Bias
 tags: psychology
 ---
 
-key ideas from 
-<a href="https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18">medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18</a>
+
+summary of [cognitive-bias-cheat-sheet](https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18)
 
 we simplify and generalize 
 
@@ -50,6 +50,8 @@ We reduce events and lists to their key elements.
 
 We notice flaws in others more easily than flaws in ourselves.
 
+
+
 <hr>
 
 Confirmation bias: We are more likely to accept information that aligns with our beliefs than contradictory evidence -- no matter how compelling.
@@ -65,4 +67,5 @@ Loss aversion: We react more strongly to the possibility of losing something we 
 Peak-end rule: People remember the end and a high point within a presentation more vividly than any other section.
 
 Curse of knowledge: When someone who knows a lot about a given subject is unable to relate to someone who is not as familiar.
+
 

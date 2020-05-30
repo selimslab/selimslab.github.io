@@ -4,6 +4,8 @@ title: Meditations, Marcus Aurelius
 tags: philosophy
 ---
 
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/L%27Image_et_le_Pouvoir_-_Buste_cuirass%C3%A9_de_Marc_Aur%C3%A8le_ag%C3%A9_-_3.jpg/450px-L%27Image_et_le_Pouvoir_-_Buste_cuirass%C3%A9_de_Marc_Aur%C3%A8le_ag%C3%A9_-_3.jpg)
+
 
 do nothing against your will
 
@@ -30,3 +32,6 @@ who is slow yet quick, merry yet grave -> who follows the reason as a guide
 - An arrow has one motion and the mind another. Even when pausing, even when weighing conclusions, the mind is moving forward, towards its goal.
 
 > "To be satisfied on all occasions, and be cheerful." 
+
+
+[Marcus Aurelius wiki](https://en.wikipedia.org/wiki/Marcus_Aurelius)

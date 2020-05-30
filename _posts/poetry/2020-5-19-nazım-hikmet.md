@@ -10,6 +10,14 @@ Yaşamak bir ağaç gibi tek ve hür
 
 ve bir orman gibi kardeşçesine
 
+![](https://i2.milimaj.com/i/milliyet/75/1200x675/5e1e9d6955427e12500ba598.jpg)
+
+
+Sen sabahlar ve şafaklar kadar güzelsin
+
+sen ülkemin yaz geceleri gibisin
+
+
 ## Karlı Kayın Ormanı
 
 Memleket mi, daha uzak, 
@@ -61,6 +69,17 @@ hürriyet gibi aydınlık oldu odam...
 Hoş geldin kadınım benim hoş geldin.
 
 
+## Kuvayi Milliye Destanı
+
+Harbiye telgrafhanesini de işgal etti İngiliz bahriye askeri 
+
+Tophane'yi de işgal ediyorlar bir taraftan, 
+
+bir taraftan da zırhlılardan asker ihraç olunuyor. 
+
+Vaziyet vehamet kesbediyor efendim. 
+
+
 ## Bugün pazar. 
 
 
@@ -89,24 +108,3 @@ Toprak, güneş ve ben...
 Bahtiyarım...
 
 
-## Kuvayi Milliye Destanı
-
-Harbiye telgrafhanesini de işgal etti İngiliz bahriye askeri 
-
-Tophane'yi de işgal ediyorlar bir taraftan, 
-
-bir taraftan da zırhlılardan asker ihraç olunuyor. 
-
-Vaziyet vehamet kesbediyor efendim. 
-
-...
-
-<br>
-
----
-
-<br>
-
-Sen sabahlar ve şafaklar kadar güzelsin
-
-sen ülkemin yaz geceleri gibisin

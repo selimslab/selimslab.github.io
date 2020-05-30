@@ -4,6 +4,9 @@ title: Influence
 tags: business best 
 ---
 
+![](https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80)
+
+
 Leadership of humans is like gardening. You plant the seeds and you provide the water. The plant itself is the only part of the whole system that can do the actual growing. Giant trees grow from seeds, but nobody makes that happen.
 
 ## Methods 

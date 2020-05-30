@@ -4,6 +4,21 @@ title: Decision
 tags: business best 
 ---
  
+ ![](https://images.unsplash.com/photo-1429743305873-d4065c15f93e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1494&q=80)
+
+I shall be telling this with a sigh
+
+Somewhere ages and ages hence:
+
+Two roads diverged in a wood, and I—
+
+I took the one less traveled by,
+
+And that has made all the difference.
+
+― Robert Frost 
+  
+  
 > “The fool doth think he is wise, but the wise man knows himself to be a fool.”
 ― William Shakespeare
 

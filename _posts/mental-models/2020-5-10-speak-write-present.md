@@ -5,6 +5,8 @@ tags: mental-models
 ---
 
 
+![](https://images.unsplash.com/photo-1475721027785-f74eccf877e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80)
+
 ## public speaking 
 
 1. take good breaths
