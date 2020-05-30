@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Body Keeps the Score
-tags: books-psychology
-author: Ece Can
+tags: psychology 
+category: Books
 ---
 
 *written by Ece Can**

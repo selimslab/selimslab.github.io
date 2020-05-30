@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Designing Data-Intensive Applications 
-tags: books-tech
-category: Tech 
+tags: data tech  
+category: Books
 ---
  
 

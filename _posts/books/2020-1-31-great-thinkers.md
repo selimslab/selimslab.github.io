@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Great thinkers 
-tags: books-social-sciences best 
+tags: business 
+category: Books
 --- 
 
 # Eastern Philosophy 
