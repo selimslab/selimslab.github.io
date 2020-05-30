@@ -11,7 +11,7 @@ layout: default
 <ul>
     {% for tag in sorted_tags %}
         {% assign t = tag | first %}
-        <li style="padding-bottom: 0.2rem;">
+        <li style="padding-bottom: 0.4rem;">
             <a href="{{ '#' | append:  t | downcase   }}">{{ t | downcase }}</a>
         </li>
     {% endfor %}
