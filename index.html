@@ -8,7 +8,7 @@ layout: default
 
 <h1 class="tag" id="explore">explore</h1>
 
-<ol>
+<ul>
     {% for tag in sorted_tags %}
         {% assign t = tag | first %}
         <li style="padding-bottom: 0.2rem;">
@@ -16,7 +16,7 @@ layout: default
         </li>
     {% endfor %}
 
-</ol>
+</ul>
 
 
 <div class="posts">
