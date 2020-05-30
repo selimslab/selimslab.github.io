@@ -2,6 +2,7 @@
 layout: post
 title: Startup Essentials
 tags: business
+category: Business
 ---
 
 ## Startup = Growth

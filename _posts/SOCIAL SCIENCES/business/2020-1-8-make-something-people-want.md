@@ -2,6 +2,7 @@
 layout: post
 title: Make something people want
 tags: business
+category: Business
 ---
 
 People don’t buy products because of what those products do, 

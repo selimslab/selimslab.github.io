@@ -2,6 +2,7 @@
 layout: post
 title: Public Speaking   
 tags: business
+category: Business
 ---
  [from Matt Abraham's talk at Stanford Graduate School of Business
  ](https://www.youtube.com/watch?v=Fsr4yrSAIAQ)

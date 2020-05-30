@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Decision
-tags: business best 
+tags: business best
+category: Business  
 ---
  
  ![](https://images.unsplash.com/photo-1429743305873-d4065c15f93e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1494&q=80)

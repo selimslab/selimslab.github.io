@@ -2,6 +2,7 @@
 layout: post
 title: Great Ideas Seem Initially Bad
 tags: business
+category: Business
 ---
 
 ## What to do?

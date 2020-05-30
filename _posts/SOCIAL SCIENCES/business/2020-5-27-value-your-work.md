@@ -2,6 +2,7 @@
 layout: post
 title: Value your work
 tags: business
+category: Business
 ---
 
 
