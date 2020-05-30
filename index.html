@@ -6,6 +6,18 @@ layout: default
 
 {% assign sortedCategories = site.categories | sort %}
 
+{% assign sorted_tags = site.tags | sort %}
+
+
+
+<div class="posts">
+
+
+
+{% endfor %}
+
+</div>
+
 
 <div class="posts">
 
@@ -14,6 +26,27 @@ layout: default
 
         <a href="{{ site.baseurl }}{{ category_name }}">{{ category_name }}</a>
         &nbsp;&nbsp;
+
+        <h1 class="tag" id="{{ category_name | downcase }}">{{ category_name }}</h1>
+
+        {% for tag in sorted_tags %}
+            {% assign t = tag | first %}
+
+            <h1 class="tag" id="{{ t | downcase }}">{{ t | downcase }}</h1>
+            {% for post in site.categories[category_name] %}
+                {% if post.tags contains t %}
+                    <article class="post">
+                        <h2>
+                            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
+                            </a>
+                        </h2>
+                    </article>
+                {% endif %}
+        {% endfor %}
+
+        <br>
+        <hr>
+        <br>
         
     {% endfor %}
 

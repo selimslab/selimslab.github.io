@@ -12,7 +12,7 @@ layout: default
     {% for tag in sorted_tags %}
         {% assign t = tag | first %}
         
-        <h2 class="tag" id="{{ t | downcase }}">{{ t | downcase }}</h1>
+        <h1 class="tag" id="{{ t | downcase }}">{{ t | downcase }}</h1>
         {% for post in site.categories.Tech %}
             {% if post.tags contains t %}
                 <article class="post">
@@ -25,7 +25,6 @@ layout: default
     {% endfor %}
 
 {% endfor %}
-
 
 </div>
 
