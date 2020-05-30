@@ -4,7 +4,7 @@ title: Orhan Veli
 tags: poetry
 ---
 
-![](https://www.evrensel.net/images/840/upload/dosya/64460.jpg)
+![](https://muhtesemsozler.com/wp-content/uploads/2019/04/kan%C4%B1k2.jpg)
 
 
 ## içinde 
