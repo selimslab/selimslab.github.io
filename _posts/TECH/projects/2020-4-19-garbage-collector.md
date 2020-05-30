@@ -2,9 +2,9 @@
 layout: post
 title: a simple garbage collector in C
 tags: projects 
-categories: Tech
+category: Tech
  
-categories: Tech 
+category: Tech 
  
 
 ---

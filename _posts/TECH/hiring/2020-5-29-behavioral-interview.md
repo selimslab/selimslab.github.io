@@ -2,7 +2,7 @@
 layout: post
 title: Questions to measure company culture 
 tags: hiring
-categories: Tech 
+category: Tech 
 ---
 
 What are the some common characteristics of people you like to work with?

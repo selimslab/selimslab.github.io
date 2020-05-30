@@ -2,7 +2,7 @@
 layout: post
 title: Code Review 
 tags: tech
-categories: Tech 
+category: Tech 
 ---
 
 

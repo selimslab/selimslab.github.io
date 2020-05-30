@@ -2,7 +2,7 @@
 layout: post
 title: a REST API with Flask Restful and SQLAlchemy
 tags: snippets 
-categories: Tech 
+category: Tech 
 
 ---
 

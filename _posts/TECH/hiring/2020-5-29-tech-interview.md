@@ -2,7 +2,7 @@
 layout: post
 title: Tech Interview
 tags: hiring
-categories: Tech 
+category: Tech 
 ---
 
 

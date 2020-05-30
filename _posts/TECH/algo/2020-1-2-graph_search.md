@@ -2,7 +2,7 @@
 layout: post
 title: BFS, DFS  
 tags: algorithms
-categories: Tech 
+category: Tech 
 
 ---
 

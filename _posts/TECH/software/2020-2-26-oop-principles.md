@@ -2,8 +2,8 @@
 layout: post
 title: OOP
 tags: software     
-categories: Tech 
-categories: Tech
+category: Tech 
+category: Tech
 ---
 
 # Abstraction

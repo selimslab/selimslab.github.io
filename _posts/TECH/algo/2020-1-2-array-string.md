@@ -2,7 +2,7 @@
 layout: post
 title: Array & String
 tags: algorithms
-categories: Tech 
+category: Tech 
 
 ---
 

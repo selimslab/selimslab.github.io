@@ -2,7 +2,7 @@
 layout: post
 title: From 0 to 1, sources to start coding
 tags: software     
-categories: Tech 
+category: Tech 
 ---
 
 ![](https://images.unsplash.com/photo-1584907797015-7554cd315667?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1655&q=80)

@@ -2,7 +2,7 @@
 layout: post
 title: Python snippets  
 tags: snippets 
-categories: Tech
+category: Tech
 ---
 
 ## time 

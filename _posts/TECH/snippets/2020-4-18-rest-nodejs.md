@@ -2,7 +2,7 @@
 layout: post
 title: a basic node.js REST API 
 tags: snippets 
-categories: Tech 
+category: Tech 
 
 ---
 

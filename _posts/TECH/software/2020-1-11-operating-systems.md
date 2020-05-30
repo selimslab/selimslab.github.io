@@ -2,7 +2,7 @@
 layout: post
 title: Operating Systems,  3 pillars
 tags: software     
-categories: Tech 
+category: Tech 
 ---
 
 OS is the main program running on a computer. It enables other programs to use the hardware, share memory, interact with devices. It exports system calls, thus OS provides a standard library 

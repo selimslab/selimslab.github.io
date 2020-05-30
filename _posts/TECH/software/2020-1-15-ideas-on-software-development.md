@@ -2,7 +2,7 @@
 layout: post
 title: From UNIX to today 
 tags: software     
-categories: Tech
+category: Tech
 --- 
 
 a collection of good ideas from the industry 

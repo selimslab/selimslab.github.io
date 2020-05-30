@@ -2,7 +2,7 @@
 layout: post
 title: Design Patterns
 tags: software     
-categories: Tech 
+category: Tech 
 ---
 
 Design Patterns are general reusable solutions to commonly occurring problems

@@ -2,7 +2,7 @@
 layout: post
 title: Software Security 
 tags: software best  
-categories: Tech  
+category: Tech  
 --- 
 
 # fundamentals

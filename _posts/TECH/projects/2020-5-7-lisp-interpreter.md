@@ -2,7 +2,7 @@
 layout: post
 title: let's write a simple interpreter
 tags: projects 
-categories: Tech
+category: Tech
  
 
 ---

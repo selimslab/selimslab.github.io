@@ -2,7 +2,7 @@
 layout: post
 title: let's write a hash map from scratch using C
 tags: projects 
-categories: Tech
+category: Tech
  
 
 ---

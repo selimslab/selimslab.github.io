@@ -2,7 +2,7 @@
 layout: post
 title: Product management
 tags: tech
-categories: Tech 
+category: Tech 
 ---
 
 

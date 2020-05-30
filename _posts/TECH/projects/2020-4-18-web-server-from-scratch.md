@@ -2,7 +2,7 @@
 layout: post
 title: a concurrent web server in 100 lines
 tags: projects 
-categories: Tech
+category: Tech
  
 
 ---

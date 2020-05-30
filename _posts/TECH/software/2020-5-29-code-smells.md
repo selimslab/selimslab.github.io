@@ -2,7 +2,7 @@
 layout: post
 title: Code Smells
 tags: software     
-categories: Tech
+category: Tech
 --- 
 
 

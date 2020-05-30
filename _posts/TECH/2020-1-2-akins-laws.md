@@ -2,7 +2,7 @@
 layout: post
 title: Akin's Laws of Spacecraft Design 
 tags: tech
-categories: Tech  
+category: Tech  
 ---
 
 1. Engineering is done with numbers. Analysis without numbers is only an opinion.

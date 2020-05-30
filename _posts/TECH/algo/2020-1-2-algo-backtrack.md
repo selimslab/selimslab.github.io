@@ -2,7 +2,7 @@
 layout: post
 title: Backtracking
 tags: algorithms
-categories: Tech 
+category: Tech 
 
 ---
 

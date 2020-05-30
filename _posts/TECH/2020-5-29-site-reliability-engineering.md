@@ -2,7 +2,7 @@
 layout: post
 title: Site Reliability Engineering 
 tags: tech
-categories: Tech
+category: Tech
 --- 
 
 ideas from [Google SRE book](https://landing.google.com/sre/sre-book/toc/index.html)

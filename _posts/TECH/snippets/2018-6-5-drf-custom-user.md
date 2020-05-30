@@ -2,7 +2,7 @@
 layout: post
 title: Django REST custom user model with social login and permissions 
 tags: snippets 
-categories: Tech 
+category: Tech 
 
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: recognize a person in photos 
 tags: snippets 
-categories: Tech 
+category: Tech 
 ---
 
 this server recognize a person in photos after just seeing a single photo of the person

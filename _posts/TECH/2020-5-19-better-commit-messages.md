@@ -2,7 +2,7 @@
 layout: post
 title: Better commit messages 
 tags: tech
-categories: Tech 
+category: Tech 
 --- 
 
 1. clear commit messages 

@@ -2,7 +2,7 @@
 layout: post
 title: Network Layers
 tags: software     
-categories: Tech 
+category: Tech 
 ---
 
 1. application

@@ -2,7 +2,7 @@
 layout: post
 title: Python Interview
 tags: hiring
-categories: Tech 
+category: Tech 
 ---
 
 Some concepts to evaluate a candidate's depth in python  

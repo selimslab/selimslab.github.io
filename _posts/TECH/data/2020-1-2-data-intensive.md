@@ -2,7 +2,7 @@
 layout: post
 title: Designing Data-Intensive Applications 
 tags: data 
-categories: Tech 
+category: Tech 
 ---
  
 

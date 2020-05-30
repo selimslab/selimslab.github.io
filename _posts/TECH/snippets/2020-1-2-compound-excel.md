@@ -2,7 +2,7 @@
 layout: post
 title: Excel -> Compound Interest with annual additions to principal
 tags: snippets 
-categories: Tech
+category: Tech
 ---
 
 What happens if you save 10k a year for the next 20 years ? 
