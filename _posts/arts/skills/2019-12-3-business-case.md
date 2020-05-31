@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  a simple way to solve a business case
-tags: business
+tags: skills
 category: arts
 
 

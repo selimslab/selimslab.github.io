@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Startup Essentials
-tags: business
-category: arts
+tags: startup
+category: business
 
 
 ---

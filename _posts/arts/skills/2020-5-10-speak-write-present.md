@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Speaking, writing, presentations
-tags: business
+tags: skills
 category: arts
 ---
 

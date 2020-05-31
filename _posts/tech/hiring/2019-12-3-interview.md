@@ -2,8 +2,8 @@
 
 layout: post
 title:  Better Interview Questions 
-tags: business
-category: arts
+tags: hiring
+category: tech
 
 
 ---

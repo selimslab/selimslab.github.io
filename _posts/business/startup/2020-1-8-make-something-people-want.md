@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Make something people want
-tags: business
-category: arts
+tags: startup
+category: business
 
 
 ---

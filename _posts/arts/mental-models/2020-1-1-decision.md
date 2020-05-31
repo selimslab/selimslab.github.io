@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Decision
-tags: business best
+tags: mental-models best
 category: arts
 
   

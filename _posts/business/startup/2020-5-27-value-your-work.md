@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Value your work
-tags: business
-category: arts
+tags: startup
+category: business
 
 
 ---

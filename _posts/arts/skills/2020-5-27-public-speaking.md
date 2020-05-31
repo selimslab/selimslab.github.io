@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Public Speaking   
-tags: business
+tags: skills
 category: arts
 
 
