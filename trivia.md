@@ -10,10 +10,12 @@ permalink: /trivia/
 
 **colors**: blue and white 
 
-**literature**: 100 Years of Solitude, The Little Prince, The Stranger
+**literature**: 100 Years of Solitude, The Little Prince, The Stranger 
 
-**technical book**: Designing Data-Intensive Applications by Martin Kleppmann
+**technical books**: Designing Data-Intensive Applications, Clean Code, Refactoring 
 
-**movies**: Léon, The Godfather, Back to the Future, Lord of the Rings
+**movies**: Léon, The Godfather, Back to the Future, Lord of the Rings, Modern Times 
 
-**poems**: If by Kipling, The Road Not Taken by Robert Frost
+**series**: Cosmos, Simpsons, Rick and Morty, Sherlock, Planet Earth 
+
+**poems**: If by Rudyard Kipling, The Road Not Taken by Robert Frost
