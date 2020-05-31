@@ -12,4 +12,4 @@ I enjoy to watch the sea, walk in the forest, camp in the mountain. To run, swim
 
 [​Bookshelf​](https://www.goodreads.com/review/list/24616331-selim?order=d&shelf=read&sort=avg_rating) 
 
-[Favorites](/trivia)
+[Trivia](/trivia)
