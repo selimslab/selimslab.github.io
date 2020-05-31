@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Bias   
-tags: bias
+tags: people
 category: psychology
 ---
 

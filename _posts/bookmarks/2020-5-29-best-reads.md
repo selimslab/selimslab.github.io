@@ -1,15 +1,8 @@
 ---
 layout: post
-title:  Best reads 
+title:  links to best reads 
 tags: bookmarks recommended
-category: links
 --- 
-
-## philosophy
-
-[A Protocol for Dying](http://hintjens.com/blog:115) 
-
-[Ask HN: I'm a software engineer going blind, how should I prepare? - Hacker News](https://news.ycombinator.com/item?id=22918980)
 
 
 
@@ -22,6 +15,14 @@ category: links
 [An Astronaut's Guide to Mental Models](https://fs.blog/2020/02/mental-models-in-space/)
 
 [Coronavirus and Credibility](http://paulgraham.com/cred.html)
+
+
+## philosophy
+
+[A Protocol for Dying](http://hintjens.com/blog:115) 
+
+[Ask HN: I'm a software engineer going blind, how should I prepare? - Hacker News](https://news.ycombinator.com/item?id=22918980)
+
 
 
 ## advice 

@@ -1,8 +1,7 @@
 ---
 layout: post
-title:  Read and Liked
-tags: bookmarks
-category: links
+title:  links to read-and-liked articles
+tags: bookmarks recommended
 --- 
 
 [Ask HN: What mistakes did you make when starting as a consultant/freelancer? - Hacker News](https://news.ycombinator.com/item?id=21728436)
