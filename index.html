@@ -44,7 +44,7 @@ layout: default
         {% for tag in sorted_tags %}
 
             {% if tag[0] ==  "recommended" %}
-            {   % continue %}
+                {% continue %}
             {% endif %}
 
             {% assign zz = tag[1] | where: "category", category_name | sort  %}
