@@ -1,7 +1,7 @@
 ---
 layout: post
 title: BFS, DFS  
-tags: algorithms
+tags: algorithms-graph
 category: tech/code-snippets
  
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sorting
-tags: algorithms
+tags: algorithms-sorting
 category: tech/code-snippets
  
 

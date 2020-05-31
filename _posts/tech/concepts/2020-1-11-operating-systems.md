@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Operating Systems, 3 pillars
-tags: operating-systems books   
+tags: operating-systems   
 category: tech
  
 ---

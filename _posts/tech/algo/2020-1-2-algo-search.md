@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Search
-tags: algorithms
+tags: algorithms-search
 category: tech/code-snippets
  
 
