@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  links to bookmarked pages
-tags: bookmarks recommended
+tags: links 
+category: bookmarks
 --- 
 
 

@@ -8,6 +8,10 @@ category: tech
 
 ![](https://images.unsplash.com/photo-1584907797015-7554cd315667?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1655&q=80)
 
+[Crash Course Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
+
+[CS50, Harvard University's introduction to computer science and the art of programming](https://www.youtube.com/playlist?list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW)
+
 ## step 0, web 
 
 *  [HTML, CSS, JS basics](https://www.w3schools.com/html/default.asp)
@@ -24,11 +28,9 @@ Learn 1 language by following an online interactive tutorial. Python is a good f
 
 [Python summary](https://learnxinyminutes.com/docs/python/)
 
-## step 2, algorithms
+## step 2, fundamentals
 
-read this great fundamental algorithm book 
-
-[grokking algorithms](http://93.174.95.29/main/9F2B390517083CF4485BA524B80815F5)
+read this great fundamental algorithms book, [grokking algorithms](http://93.174.95.29/main/9F2B390517083CF4485BA524B80815F5)
 
 ## step 3, SQL 
 

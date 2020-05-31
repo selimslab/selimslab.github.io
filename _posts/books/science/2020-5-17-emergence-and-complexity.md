@@ -32,4 +32,3 @@ Throw enough neurons in there, and out begins emerging all these distinctive hum
 Basic blocks + simple rules + iteration + randomness 
 
 
-
