@@ -32,8 +32,6 @@ This is my attempt to define a good person and a good life
 
 * calm, grateful, active
 
-Go ahead, just do it, impress yourself
-
 ### a good life
 
 health 
@@ -371,10 +369,4 @@ good enough is good
 
 Stop waiting, start doing 
 
----
-
 Go ahead, just do it, impress yourself
-
-
-
-> “Never doubt that a small group of thoughtful, committed, citizens can change the world. Indeed, it is the only thing that ever has.” ― Margaret Mead
