@@ -1,6 +1,6 @@
 ---
 layout: post
-title: recognize a person in photos 
+title: Recognize a person in photos 
 tags: machine-learning 
 category: tech
 
