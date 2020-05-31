@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  links to best reads 
-tags: links recommended
-category: bookmarks
+tags: best-reads recommended
+category: links
 --- 
 
 
