@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Emergence and Complexity 
-tags: people best
+tags: people
 category: social-sciences
 ---
 
