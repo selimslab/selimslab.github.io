@@ -71,3 +71,4 @@ There's no such thing as a purely rational decision.
 
 There are no silver bullets; there are no shortcuts.
 
+A man who procrastinates in his choosing will inevitably have his choice made for him by circumstance.

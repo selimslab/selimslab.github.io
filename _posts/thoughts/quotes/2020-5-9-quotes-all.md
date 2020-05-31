@@ -7,22 +7,6 @@ category: thoughts
 
 Pain is inevitable. Suffering is optional.
 
-## The more I see, the less I know
-
-The fool doth think he is wise, but the wise man knows himself to be a fool.
-
-The only true wisdom is in knowing you know nothing.
-
-Those who know do not speak. Those who speak do not know.
-
-You have to know what you stand for, not just what you stand against.
-
-Wisdom comes from experience. Experience is often a result of lack of wisdom.
-
-A clever person solves a problem. A wise person avoids it.
-
-The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge.
-
 
 ## critic
 
@@ -31,25 +15,6 @@ It is not the critic who counts; not the man who points out how the strong man s
 Do what you feel in your heart to be right – for you’ll be criticized anyway.
 
 "Whenever you feel like criticizing any one," he told me, "just remember that all the people in this world haven't had the advantages that you've had.
-
-
-
-## friends
-
-If we listened to our intellect we'd never have a love affair. We'd never have a friendship. We'd never go in business because we'd be cynical: "It's gonna go wrong." Or "She's going to hurt me." Or,"I've had a couple of bad love affairs, so therefore . . ." Well, that's nonsense. You're going to miss life. You've got to jump off the cliff all the time and build your wings on the way down.
-
-Friendship- my definition- is built on two things. Respect and trust. Both elements have to be there. And it has to be mutual. You can have respect for someone, but if you don't have trust, the friendship will crumble.
-
-Rare as is true love, true friendship is rarer.
-
-Friendship marks a life even more deeply than love. Love risks degenerating into obsession, friendship is never anything but sharing.
-
-I wonder if the snow loves the trees and fields, that it kisses them so gently? And then it covers them up snug, you know, with a white quilt; and perhaps it says, "Go to sleep, darlings, till the summer comes again.
-
-Count your age by friends, not years. Count your life by smiles, not tears.
-
-Walk beside me… just be my friend
-
 
 
 ## mistakes 
@@ -75,54 +40,6 @@ Education: the path from cocky ignorance to miserable uncertainty.
 
 
 
-## I know nothing 
-
-I am not young enough to know everything.
-
-Everyone you will ever meet knows something you don't.
-
-Education is the ability to listen to almost anything without losing your temper or your self-confidence.
-
-Educating the mind without educating the heart is no education at all.
-
-Never waste valuable time, or mental peace of mind, on the affairs of others—that is too high a price to pay.
-
-I have no special talents. I am only passionately curious.
-
-Never memorize something that you can look up.
-
-If you can't explain it to a six year old, you don't understand it yourself.
-
-I have never met a man so ignorant that I couldn't learn something from him.
-
-Sell your cleverness and buy bewilderment.
-
-
-
-
-## truth 
-
-In a time of deceit telling the truth is a revolutionary act.
-
-The truth." Dumbledore sighed. "It is a beautiful and terrible thing, and should therefore be treated with great caution.
-
-Tell the truth, or someone will tell it for you.
-
-Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth.
-
-Whoever is careless with the truth in small matters cannot be trusted with important matters
-
-Better a cruel truth than a comfortable delusion.
-
-Above all, don't lie to yourself. The man who lies to himself and listens to his own lie comes to a point that he cannot distinguish the truth within him, or around him, and so loses all respect for himself and for others. And having no respect he ceases to love.
-
-If you want to tell people the truth, make them laugh, otherwise they'll kill you.
-
-All the world is made of faith, and trust, and pixie dust.
-
-Believe nothing you hear, and only one half that you see.
-
-
 ## time 
 
 It’s no use going back to yesterday, because I was a different person then.
@@ -146,6 +63,29 @@ Tell me, what is it you plan to do with your one wild and precious life?
 Spring is the time of plans and projects.
 
 It is not the length of life, but the depth.
+
+
+## move on 
+
+That is why it is so important to let certain things go. To release them. To cut loose. People need to understand that no one is playing with marked cards; sometimes we win and sometimes we lose. Don't expect to get anything back, don't expect recognition for your efforts, don't expect your genius to be discovered or your love to be understood. Complete the circle. Not out of pride, inability or arrogance, but simply because whatever it is no longer fits in your life. Close the door, change the record, clean the house, get rid of the dust. Stop being who you were and become who you are.
+
+You must make a decision that you are going to move on. It wont happen automatically. You will have to rise up and say, ‘I don’t care how hard this is, I don’t care how disappointed I am, I’m not going to let this get the best of me. I’m moving on with my life.
+
+It is so hard to leave—until you leave. And then it is the easiest goddamned thing in the world
+
+
+## daily 
+
+May you live every day of your life.
+
+The trouble is if you don’t spend your life yourself, other people spend it for you.
+
+One ought, every day at least, to hear a little song, read a good poem, see a fine picture, and, if it were possible, to speak a few reasonable words.
+
+Get busy living or get busy dying.
+
+
+
 
 
 
@@ -219,45 +159,15 @@ If you look for perfection, you'll never be content.
 
 And now that you don't have to be perfect, you can be good.
 
-## move on 
-
-That is why it is so important to let certain things go. To release them. To cut loose. People need to understand that no one is playing with marked cards; sometimes we win and sometimes we lose. Don't expect to get anything back, don't expect recognition for your efforts, don't expect your genius to be discovered or your love to be understood. Complete the circle. Not out of pride, inability or arrogance, but simply because whatever it is no longer fits in your life. Close the door, change the record, clean the house, get rid of the dust. Stop being who you were and become who you are.
-
-You must make a decision that you are going to move on. It wont happen automatically. You will have to rise up and say, ‘I don’t care how hard this is, I don’t care how disappointed I am, I’m not going to let this get the best of me. I’m moving on with my life.
-
-It is so hard to leave—until you leave. And then it is the easiest goddamned thing in the world
 
 
-## listen
-
-Don't think or judge, just listen.
-
-People generally see what they look for, and hear what they listen for.
-
-## decision
-
-A man who procrastinates in his choosing will inevitably have his choice made for him by circumstance.
-
-
-## be humble 
 
 Look again at that dot. That's here. That's home. That's us.
-
-## daily 
-
-May you live every day of your life.
-
-The trouble is if you don’t spend your life yourself, other people spend it for you.
-
-One ought, every day at least, to hear a little song, read a good poem, see a fine picture, and, if it were possible, to speak a few reasonable words.
-
-Get busy living or get busy dying.
-
-## simple
 
 Like all magnificent things, it's very simple.
 
 Everything must be made as simple as possible. But not simpler.
+
 
 ## passion 
 
