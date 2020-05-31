@@ -3,7 +3,8 @@
 layout: post
 title:  Better Interview Questions 
 tags: business
-category: Business
+category: business
+
 ---
 
 Specific questions are better than generic ones.

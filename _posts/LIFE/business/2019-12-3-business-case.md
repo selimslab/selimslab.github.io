@@ -2,7 +2,8 @@
 layout: post
 title:  a simple way to solve a business case
 tags: business
-category: Business
+category: business
+
 ---
 
 divide and conquer, communicate the results as clear actionable insights 
