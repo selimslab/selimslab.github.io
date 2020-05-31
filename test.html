@@ -30,22 +30,18 @@ layout: default
 
         <h1 class="tag" id="{{ category_name | downcase }}">{{ category_name }}</h1>
 
-        {% for tag in sorted_tags %}
-            {% assign t = tag | first %}
-            
-            <h1 class="tag" style="color:blueviolet" id="{{ t | downcase }}">{{ t | downcase }}</h1>
-            {% for post in site.categories[category_name] %}
-                {% if post.tags contains t %}
-                    <article class="post">
-                        <h2>
-                            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
-                            </a>
-                        </h2>
-                    </article>
-                {% endif %}
+        {% assign items_grouped = site.categories[category_name] | group_by: 'tags' %}
+
+        {% for group in items_grouped %}
+            <h2 class="tag" style="color:blueviolet">{{group[0].name}}</h2>
+            {% for post in group.items %}
+                <article class="post">
+                    <h2>
+                        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
+                        </a>
+                    </h2>
+                </article>
             {% endfor %}
-
-
         {% endfor %}
 
     {% endfor %}
