@@ -25,13 +25,16 @@ layout: default
 
 
 
-<hr>
+    <br>
+    <hr>
+    <br>
+
 
     {% for category in sorted_cats %}
 
         {% capture category_name %}{{ category | first | downcase }}{% endcapture %}
 
-        <h2 class="tag" id="{{ category_name | downcase }}">{{ category_name }}</h2>
+        <h1 class="tag" id="{{ category_name | downcase }}">{{ category_name }}</h1>
 
         {% for tag in sorted_tags %}
             {% assign zz = tag[1] | where: "category", category_name | sort  %}
@@ -50,6 +53,10 @@ layout: default
             {% endif %}
         
         {% endfor %}
+
+        <br>
+        <hr>
+        <br>
 
 
     {% endfor %}
