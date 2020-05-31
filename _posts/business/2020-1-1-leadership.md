@@ -13,23 +13,23 @@ Leadership of humans is like gardening. You plant the seeds and you provide the 
 
 ## Methods 
 
-Rational persuasion, show how it is relevant 
+**Rational persuasion**, show how it is relevant 
 
-Collaboration, step in and resolve problems 
+**Collaboration**, step in and resolve problems 
 
-Participation, ask them to take part in process
+**Participation**, ask them to take part in process
 
-Exchange, offer a desired resource
+**Exchange**, offer a desired resource
 
-Personal appeals , friendship or loyalty 
+**Personal appeals**, friendship or loyalty 
 
-Apprising, explain why this benefits her 
+**Apprising**, explain why this benefits her 
 
-Inspirational, create strong emotions
+**Inspirational**, create strong emotions
 
-Legitimating, a higher order says so
+**Legitimating**, a higher order says so
 
-Pressure, the last resort 
+**Pressure**, the last resort 
 
 > Followers should feel them as authentic and sincere. 
 
