@@ -2,7 +2,7 @@
 layout: post
 title:  Daily mental tools 
 tags: mental-models recommended
-category: philosophy
+category: thoughts
 ---
 
 

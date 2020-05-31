@@ -2,7 +2,7 @@
 layout: post
 title: on society
 tags: quotes
-category: arts 
+category: thoughts 
 ---
 
 

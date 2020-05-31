@@ -1,8 +1,8 @@
 ---
 layout: post
 title: The Pragmatic Programmer
-tags: tech
-category: books
+tags: teamwork
+category: tech
 ---
 
 <img height="250"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1401432508l/4099.jpg" /> 

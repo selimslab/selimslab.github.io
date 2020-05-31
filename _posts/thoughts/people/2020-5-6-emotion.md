@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Emotions
-tags: emotion
-category: psychology
+tags: psychology
+category: thoughts
 ---
 
 a collection of wkipedia explanations 

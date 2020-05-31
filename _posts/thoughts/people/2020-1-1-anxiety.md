@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Anxiety  
-tags: emotion
-category: psychology
+tags: psychology
+category: thoughts
 ---
  
 summary from [https://ncase.me/mental-health/](https://ncase.me/mental-health/)

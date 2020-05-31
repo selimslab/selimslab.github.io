@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Questions to measure company culture 
+title: Reverse interview 
 tags: hiring
 category: tech
  

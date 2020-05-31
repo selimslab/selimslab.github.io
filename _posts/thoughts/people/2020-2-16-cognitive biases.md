@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Bias   
-tags: people
-category: psychology
+tags: psychology
+category: thoughts
 ---
 
 

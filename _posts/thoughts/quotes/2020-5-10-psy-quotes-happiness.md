@@ -2,7 +2,7 @@
 layout: post
 title: on happiness
 tags: quotes
-category: arts 
+category: thoughts 
 ---
 
 

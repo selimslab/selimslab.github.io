@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Ideas on life, universe, and everything 
-tags: thoughts 
-category: philosophy
+tags: philosophy
+category: thoughts
 ---
 
 

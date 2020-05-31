@@ -25,7 +25,7 @@ layout: default
 
     <br>
 
-    <h1 class="tag" id="best">recommended</h1>
+    <h1 class="tag" id="best">recommended posts</h1>
     <ul>
         {% for p in site.tags.recommended %}
             <li><a href="{{ p.url }}">{{ p.title }}</a></li>
@@ -42,6 +42,11 @@ layout: default
         <h1 class="tag" id="{{ category_name | downcase }}">{{ category_name }}</h1>
 
         {% for tag in sorted_tags %}
+
+            {% if tag[0] ==  "recommended" %}
+            {   % continue %}
+            {% endif %}
+
             {% assign zz = tag[1] | where: "category", category_name | sort  %}
             
             {% if zz != empty %}

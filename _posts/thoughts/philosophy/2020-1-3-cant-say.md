@@ -1,8 +1,8 @@
 ---
 layout: post
 title: What You Can't Say 
-tags: thoughts
-category: philosophy
+tags: philosophy
+category: thoughts
 ---
 
 key points from a great article by Paul Graham 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Principia
-tags: thoughts recommended
-category: philosophy
+tags: philosophy recommended
+category: thoughts
 ---
 
 > Think of yourself as dead. You have lived your life

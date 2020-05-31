@@ -2,7 +2,7 @@
 layout: post
 title: all
 tags: quotes
-category: arts 
+category: thoughts 
 ---
 
 Pain is inevitable. Suffering is optional.

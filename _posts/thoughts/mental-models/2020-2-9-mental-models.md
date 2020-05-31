@@ -2,7 +2,7 @@
 layout: post
 title: Mental Models 
 tags: mental-models
-category: philosophy
+category: thoughts
 ---
 
 

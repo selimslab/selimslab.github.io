@@ -2,7 +2,7 @@
 layout: post
 title: on people
 tags: quotes
-category: arts 
+category: thoughts 
 ---
 
 

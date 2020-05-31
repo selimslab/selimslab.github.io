@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Designing Data-Intensive Applications 
-tags: tech distributed-systems
-category: books tech
+tags: distributed-systems 
+category: tech 
 ---
  
 

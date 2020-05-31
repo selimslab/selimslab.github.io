@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Site Reliability Engineering 
-tags: reliability books
-categories: tech
+tags: distributed-systems
+category: tech
+
 --- 
 
 ideas from [Google SRE book](https://landing.google.com/sre/sre-book/toc/index.html)
