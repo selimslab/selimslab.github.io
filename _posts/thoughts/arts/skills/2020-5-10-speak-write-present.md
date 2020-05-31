@@ -2,7 +2,7 @@
 layout: post
 title:  Speaking, writing, presentations
 tags: skills
-category: arts
+category: thoughts
 ---
 
 

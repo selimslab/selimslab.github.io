@@ -2,7 +2,7 @@
 layout: post
 title: The Moment 
 tags: poetry
-category: arts
+category: thoughts
 
 --- 
 

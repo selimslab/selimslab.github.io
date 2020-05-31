@@ -2,7 +2,7 @@
 layout: post
 title: Public Speaking   
 tags: skills
-category: arts
+category: thoughts
 
 
 ---

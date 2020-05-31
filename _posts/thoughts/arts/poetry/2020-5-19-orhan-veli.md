@@ -2,7 +2,7 @@
 layout: post
 title: Orhan Veli 
 tags: poetry
-category: arts
+category: thoughts
 
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Türk Edebiyatı 
 tags: poetry
-category: arts
+category: thoughts
 
 --- 
 

@@ -2,7 +2,7 @@
 layout: post
 title: Problem Solving 
 tags: design
-category: arts
+category: thoughts
 ---
 
 

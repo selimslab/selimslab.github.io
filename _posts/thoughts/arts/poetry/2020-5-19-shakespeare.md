@@ -2,7 +2,7 @@
 layout: post
 title: Shakespeare 
 tags: poetry
-category: arts
+category: thoughts
 
 --- 
 
