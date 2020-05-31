@@ -1,6 +1,6 @@
 ---
 layout: post
-title: let's write a simple interpreter
+title: a Lisp interpreter in Python
 tags: projects
 category: tech/projects
 
