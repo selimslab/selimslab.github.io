@@ -12,6 +12,7 @@ To run, swim, and cycle.
 
 To speak, read, write, and code
 
+I aim to be a good person and a world-class engineer
 
 
 [Resume](/resume)
