@@ -20,30 +20,43 @@ We are our principles and they shape our decisions and life. What we think, we b
 
 This is my attempt to define a good person and a good life 
 
-### a good person is
- 
-* honest and kind
+### a good person  
+
+* honest 
+  
+* kind
+
+* humble 
+
+* confident
+  
+* brave
 
 * positive, friendly, warm
-
-* humble, confident, brave
 
 * thinking, feeling, loving
 
 * calm, grateful, active
 
+### in stoic virtues
+
+wise and brave, moderate and just
+
 ### a good life
 
 health 
 
-peace of mind
+freedom
 
-meaningful work
+integrity 
 
 love and friendship
 
-hope and integrity 
+meaningful work
 
+hope 
+
+peace of mind
 
 ### care 
 
