@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Influence 
-tags: skills
+tags: leadership
 category: business
 
 ---
