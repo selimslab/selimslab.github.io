@@ -1,8 +1,8 @@
 ---
 layout: post
 title: The Art of War 
-tags: books
-category: philosophy
+tags: philosophy
+category: books 
 ---
 
 <img height="250"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1453417993l/10534._SY475_.jpg" /> 

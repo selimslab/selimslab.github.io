@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Thinking, Fast and Slow 
-tags: books
-category: psychology
+tags: psychology
+category: books
 ---
 
 <img height="250"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1317793965l/11468377.jpg" /> 

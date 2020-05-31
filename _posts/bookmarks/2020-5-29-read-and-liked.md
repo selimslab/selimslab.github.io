@@ -1,12 +1,9 @@
 ---
 layout: post
-title:  links to read-and-liked articles
+title:  links to bookmarked pages
 tags: bookmarks recommended
 --- 
 
-[Ask HN: What mistakes did you make when starting as a consultant/freelancer? - Hacker News](https://news.ycombinator.com/item?id=21728436)
-
-[Building a search engine from scratch](https://0x65.dev/blog/2019-12-06/building-a-search-engine-from-scratch.html)
 
 [Tao Te Ching - Chapter 17 - Translation by Stephen Mitchell](http://taoteching.org.uk/chapter17.html)
 
@@ -15,6 +12,10 @@ tags: bookmarks recommended
 [Amazon CodeGuru - Amazon Web Services](https://aws.amazon.com/tr/codeguru/)
 
 [How My Startup Got Acquired After 6 Months - Marker](https://marker.medium.com/how-my-show-hn-project-got-acquired-after-6-months-954f81ca6a18?)
+
+[Ask HN: What mistakes did you make when starting as a consultant/freelancer? - Hacker News](https://news.ycombinator.com/item?id=21728436)
+
+[Building a search engine from scratch](https://0x65.dev/blog/2019-12-06/building-a-search-engine-from-scratch.html)
 
 [Indexing Billions of Text Vectors](https://0x65.dev/blog/2019-12-07/indexing-billions-of-text-vectors.html)
 

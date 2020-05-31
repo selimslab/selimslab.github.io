@@ -2,7 +2,7 @@
 layout: post
 title: The Lessons of History
 tags: history
-category: philosophy
+category: books 
 
 ---
 

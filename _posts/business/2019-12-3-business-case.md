@@ -2,8 +2,7 @@
 layout: post
 title:  a simple way to solve a business case
 tags: skills
-category: arts
-
+category: business
 
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Great thinkers 
-tags: books
-category: philosophy
+tags: philosophy
+category: books 
 --- 
 
 # Eastern Philosophy 

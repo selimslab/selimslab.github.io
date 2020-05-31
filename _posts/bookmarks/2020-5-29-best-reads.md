@@ -116,7 +116,7 @@ tags: bookmarks recommended
 [Minimalism — An undervalued development skill](https://volument.com/blog/minimalism-the-most-undervalued-development-skill)
 
 
-[The mythical 10x programmer - <antirez>](http://antirez.com/news/112)
+[The mythical 10x programmer by antirez](http://antirez.com/news/112)
 
 [Julio Biason .Net 4.1 - Things I Learnt The Hard Way (in 30 Years of Software Development)](https://blog.juliobiason.me/thoughts/things-i-learnt-the-hard-way/)
 

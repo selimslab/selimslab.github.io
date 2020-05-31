@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Hackers & Painters
-tags: books
-category: philosophy
+tags: philosophy
+category: books 
 ---
 
 <img height="250"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348562702l/41793.jpg" />
