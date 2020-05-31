@@ -23,7 +23,14 @@ layout: default
         {% endfor %}
     </ul>
 
+    <br>
 
+    <h1 class="tag" id="best">recommended</h1>
+    <ul>
+        {% for p in site.tags.recommended %}
+            <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+        {% endfor %}
+    </ul>
 
     <br>
 

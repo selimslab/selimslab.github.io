@@ -2,6 +2,7 @@
 layout: post
 title:  Read and Liked
 tags: bookmarks
+category: links
 --- 
 
 [Ask HN: What mistakes did you make when starting as a consultant/freelancer? - Hacker News](https://news.ycombinator.com/item?id=21728436)
