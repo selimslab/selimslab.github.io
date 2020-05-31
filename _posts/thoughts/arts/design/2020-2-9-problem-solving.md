@@ -5,8 +5,7 @@ tags: design
 category: thoughts
 ---
 
-
-## problem solving 
+Don't panic 
 
 start small and keep it simple
 
@@ -132,6 +131,29 @@ goal
 Plan
 System
 Result 
+
+
+## questions
+
+Why is this a problem?
+
+Is there an easier way?
+
+What makes it hard to solve? 
+
+Does it have to be solved?
+
+İf so, does it have to be done this way?
+
+Can you cut the knot ?
+
+Diagrams
+
+Photos
+
+Graphs 
+
+How to explain to a 6 year old 
 
 ## help yourself 
 
