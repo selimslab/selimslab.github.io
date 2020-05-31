@@ -12,7 +12,11 @@ To run, swim, and cycle.
 
 To speak, read, write, and code
 
+
+
 [Resume](/resume)
+
+[Favorite paintings](https://artsandculture.google.com/favorite/group/lwICDYo8WqCBLQ)
 
 [​Bookshelf​](https://www.goodreads.com/review/list/24616331-selim?order=d&shelf=read&sort=avg_rating) 
 
