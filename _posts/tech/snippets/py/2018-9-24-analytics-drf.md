@@ -1,12 +1,8 @@
 ---
 layout: post
-title: a Django REST API for analytics of mobile user events 
-tags: projects
- 
-category: tech/projects
-
- 
-
+title: a REST API for analytics of mobile user events 
+tags: python
+category: tech/code-snippets
 ---
 
 an API to explore mobile user events 

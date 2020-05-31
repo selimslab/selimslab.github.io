@@ -1,9 +1,9 @@
 ---
 layout: post
 title: recognize a person in photos 
-tags: python
-category: tech/code-snippets
- 
+tags: machine-learning 
+category: tech
+
 ---
 
 this server recognize a person in photos after just seeing a single photo of the person
