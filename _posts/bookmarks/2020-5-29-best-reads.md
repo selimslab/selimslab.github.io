@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  links to best reads 
-tags: best-reads recommended
+tags: articles recommended
 category: links
 --- 
 
