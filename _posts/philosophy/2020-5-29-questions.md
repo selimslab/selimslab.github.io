@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Questions
-tags: philosophy
-category: thoughts
+tags: thoughts
+category: philosophy
 ---
 
 Questions to ask myself 

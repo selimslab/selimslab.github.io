@@ -1,8 +1,8 @@
 ---
 layout: post
 title: What You Can't Say 
-tags: philosophy
-category: thoughts
+tags: readings
+category: philosophy
 ---
 
 ![](https://lh6.ggpht.com/SWGjLSdKmQ-e3iVuYMLuN1883SFSMekLs0mCxECzhUPrJT3Lve6Ou1YyGPw=s1200)

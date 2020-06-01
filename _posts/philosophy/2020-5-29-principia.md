@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Principia
-tags: philosophy recommended
-category: thoughts
+tags: thoughts recommended
+category: philosophy
 ---
 
 ![](https://www.ephesus.us/upload/1553941051_IMG_9720.jpg)

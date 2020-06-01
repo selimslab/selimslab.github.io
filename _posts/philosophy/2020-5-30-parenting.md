@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Parenting
-tags: philosophy
-category: thoughts
+tags: thoughts
+category: philosophy
 ---
 
 ![](https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80)
