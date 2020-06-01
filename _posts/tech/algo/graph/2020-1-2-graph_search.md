@@ -2,7 +2,7 @@
 layout: post
 title: BFS, DFS  
 tags: algorithms/graph
-category: tech/code/snippets
+category: tech/code-snippets
  
 
 ---

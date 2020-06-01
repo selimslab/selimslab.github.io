@@ -2,8 +2,7 @@
 layout: post
 title: Sorting
 tags: algorithms/sort
-category: tech/code/snippets
- 
+category: tech/code-snippets
 
 ---
 

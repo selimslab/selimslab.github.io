@@ -2,7 +2,7 @@
 layout: post
 title: Easy
 tags: algorithms/by-level
-category: tech/code/snippets
+category: tech/code-snippets
  
 
 ---

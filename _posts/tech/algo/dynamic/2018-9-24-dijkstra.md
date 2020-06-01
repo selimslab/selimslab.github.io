@@ -2,7 +2,7 @@
 layout: post
 title: Dijkstra's Shortest Path Algorithm
 tags: algorithms/dynamic
-category: tech/code/snippets
+category: tech/code-snippets
 
 ---
 

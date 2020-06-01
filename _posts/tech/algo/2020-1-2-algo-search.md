@@ -2,7 +2,7 @@
 layout: post
 title: Search
 tags: algorithms/search
-category: tech/code/snippets
+category: tech/code-snippets
  
 
 ---
