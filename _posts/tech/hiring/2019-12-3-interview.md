@@ -8,6 +8,8 @@ category: tech
 
 ---
 
+a great read [How NOT to hire a software engineer](https://tonsky.me/blog/hiring/)
+
 Specific questions are better than generic ones.
 
 Open ended and specific questions create a balance together

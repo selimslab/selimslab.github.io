@@ -1,22 +1,25 @@
 ---
 layout: page
-title: favorites
+title: more about the author 
 permalink: /trivia/
 ---
 
 ![](https://lh6.ggpht.com/LjmoRnUy7V8-2d4v6Jf-DP8oetaPzgzf-DwYIWlRUK8ArqLB0s2gGSxA72pt=s1200)
 
-Olive Trees, Vincent van Gogh
+<sub>Olive Trees, Vincent van Gogh</sub>
 
-What makes you feel alive ?
+What makes you feel alive?
 
-My beloved activities are to watch the sea, walk in the forest, camp in the mountain. To run, swim, and cycle. To speak, read, write, and code.  
+For me, it is to watch the sea, walk in the forest, camp in the mountain. To speak, read, write, and code. To run, swim, and cycle.  
 
-**literature**: 100 Years of Solitude, The Little Prince, The Lord of the Rings, The Stranger
+here are my favorites. what are yours?
+
+
+**series**: Cosmos, Simpsons, Sherlock, Planet Earth 
 
 **movies**: Léon, The Godfather, Modern Times, Back to the Future
 
-**series**: Cosmos, Simpsons, Sherlock, Planet Earth 
+**literature**: 100 Years of Solitude, The Little Prince, The Lord of the Rings, The Stranger
 
 **colors**: blue and white 
 
