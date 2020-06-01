@@ -4,16 +4,7 @@ title: Hello, friend!
 permalink: /about/
 ---
 
-I am Selim, a human, 25, writing here to learn and share
-
-I enjoy to watch the sea, walk in the forest, camp in the mountain. 
-
-To run, swim, and cycle. 
-
-To speak, read, write, and code
-
-I aim to be a good person and a world-class engineer
-
+I am Selim, writing here to learn and share. I aim to be a good person and a world-class engineer 
 
 [Resume](/resume)
 
@@ -21,4 +12,4 @@ I aim to be a good person and a world-class engineer
 
 [​Bookshelf​](https://www.goodreads.com/review/list/24616331-selim?order=d&shelf=read&sort=avg_rating) 
 
-[Trivia](/trivia)
+[More about the author](/trivia)

@@ -6,8 +6,11 @@ permalink: /trivia/
 
 ![](https://lh6.ggpht.com/LjmoRnUy7V8-2d4v6Jf-DP8oetaPzgzf-DwYIWlRUK8ArqLB0s2gGSxA72pt=s1200)
 
- Olive Trees, Vincent van Gogh
+Olive Trees, Vincent van Gogh
 
+What makes you feel alive ?
+
+My beloved activities are to watch the sea, walk in the forest, camp in the mountain. To run, swim, and cycle. To speak, read, write, and code.  
 
 **literature**: 100 Years of Solitude, The Little Prince, The Lord of the Rings, The Stranger
 
@@ -15,9 +18,9 @@ permalink: /trivia/
 
 **series**: Cosmos, Simpsons, Sherlock, Planet Earth 
 
-**poems**: If by Rudyard Kipling, The Road Not Taken by Robert Frost
-
 **colors**: blue and white 
+
+**links** 
 
 [favorite paintings](https://artsandculture.google.com/favorite/group/lwICDYo8WqCBLQ)
 
@@ -27,3 +30,5 @@ permalink: /trivia/
 
 [an electronic music playlist](https://open.spotify.com/playlist/0fg1mN68qfYnPphfmfHAez?si=e7vxNG4iQImGmOYz48rzBw)
 
+
+If you can fill the unforgiving minute.. 
