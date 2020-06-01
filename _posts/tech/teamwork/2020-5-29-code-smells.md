@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Code Smells
-tags: quality    
+title: Commit Checklist 
+tags: teamwork    
 category: tech
 --- 
 

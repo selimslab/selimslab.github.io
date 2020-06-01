@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Better commit messages 
-tags: quality    
+tags: teamwork    
 category: tech
 --- 
 
