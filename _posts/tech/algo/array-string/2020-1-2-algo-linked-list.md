@@ -2,7 +2,7 @@
 layout: post
 title: Linked List 
 tags: algorithms
-category: tech/code-snippets
+category: tech/code/snippets
  
 
 ---

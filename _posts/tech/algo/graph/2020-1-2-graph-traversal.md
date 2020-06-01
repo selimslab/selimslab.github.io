@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Graph traversal 
-tags: algorithms-graph
-category: tech/code-snippets
+tags: algorithms/graph
+category: tech/code/snippets
  
 
 ---

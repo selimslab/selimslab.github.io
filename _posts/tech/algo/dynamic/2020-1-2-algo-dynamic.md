@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Dynamic Programming 
-tags: algorithms-dynamic
-category: tech/code-snippets
+tags: algorithms/dynamic
+category: tech/code/snippets
  
 
 
