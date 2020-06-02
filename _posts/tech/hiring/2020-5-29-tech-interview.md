@@ -134,6 +134,8 @@ wide column stores
 The lambda architecture ? Update batch views with real time stream results 
 
 
+[The Best Medium-Hard Data Analyst SQL Interview Questions](https://quip.com/2gwZArKuWk7W)
+
 ## Operating Systems
 
 process vs thread 

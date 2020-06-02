@@ -53,3 +53,6 @@ Network, ip
 Data link, ethernet
 
 Physical, usb
+
+[What every developer should know about TCP | Roberto Vitillo's Blog](https://robertovitillo.com/what-every-developer-should-know-about-tcp/)
+

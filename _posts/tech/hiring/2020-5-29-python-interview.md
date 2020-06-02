@@ -90,3 +90,4 @@ GIL
 Not good at concurrency as node or go 
 
 
+[Python interview questions. Part III. Senior](https://luminousmen.com/post/python-interview-questions-senior)

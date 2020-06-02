@@ -185,3 +185,7 @@ a great list at [https://stackoverflow.com/questions/2794016/what-should-every-p
 
 [https://stackoverflow.com/questions/1469899/worst-security-hole-youve-seen?page=1&tab=votes#tab-top](https://stackoverflow.com/questions/1469899/worst-security-hole-youve-seen?page=1&tab=votes#tab-top)
 
+
+[Pick a Vulnerability to Learn About](https://www.hacksplaining.com/lessons)
+
+[security - The definitive guide to form-based website authentication - Stack Overflow](https://stackoverflow.com/questions/549/the-definitive-guide-to-form-based-website-authentication)
