@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  
-tags: 
-category: 
+title:  Readings  
+tags: business
+category: links
 --- 
 
 
@@ -11,10 +11,6 @@ category:
 [Stripe: Atlas Guides to Starting a Real Business](https://stripe.com/ie/atlas/guides)
 
 [Habits of High-Functioning Teams | deniseyu.io](https://deniseyu.io/2020/05/23/habits-of-high-performing-teams.html)
-
-[Remote Software Engineering Jobs](https://triplebyte.com/jobs/l/remote/m/back-end-engineer)
-
-[A quest to change the future. – Starship](https://www.starship.xyz/careers/)
 
 [Sequoia - Pricing Your Product](https://www.sequoiacap.com/article/pricing-your-product/)
 
