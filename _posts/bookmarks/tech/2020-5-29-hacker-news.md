@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  liked posts from hacker-news
+title:  Liked posts from hacker-news
 tags: tech
 category: links
 --- 
