@@ -51,7 +51,9 @@ layout: default
         <img src="img/mo.jpg" />
         {% endif %}
 
-
+        {% if category_name ==  "thoughts" %}
+        <img src="img/nature.jpg" />
+        {% endif %}
 
         <h1 class="tag" id="{{ category_name | downcase }}">{{ category_name }}</h1>
 
