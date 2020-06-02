@@ -92,7 +92,7 @@ learn basics of
 8. system design
 
 
-## other sources
+## other sources
 
 [mtdvio/every-programmer-should-know: A collection of (mostly) technical things every software developer should know](https://github.com/mtdvio/every-programmer-should-know)
 
@@ -103,15 +103,15 @@ learn basics of
 
 ### data structures
 
-[Data Structures for Coding Interviews: Computer Science in Plain English | Interview Cake](https://www.interviewcake.com/article/python/data-structures-coding-interview?collection=dsa)
+[Data Structures for Coding Interviews: Computer Science in Plain English - Interview Cake](https://www.interviewcake.com/article/python/data-structures-coding-interview?collection=dsa)
 
-[InterviewMap | DataStruct](https://yuchengkai.cn/docs/cs/dataStruct.html)
+[InterviewMap - DataStruct](https://yuchengkai.cn/docs/cs/dataStruct.html)
 
 ### code
 
 [Foundations - Google Tech Dev Guide](https://techdevguide.withgoogle.com/paths/foundational/)
 
-[Google Developers Training  |  Google Developers](https://developers.google.com/training/)
+[Google Developers Training  -  Google Developers](https://developers.google.com/training/)
 
 
 ### system-design

@@ -19,7 +19,7 @@ some great reads
 
 [Analysis of compensation, level, and experience details of 19k tech workers](https://huyenchip.com/2020/01/18/tech-workers-19k-compensation-details.html)
 
-[Find engineering teams that share your values | Key Values](https://www.keyvalues.com/)
+[Find engineering teams that share your values - Key Values](https://www.keyvalues.com/)
 
-[All Skill Assessments | Pluralsight](https://app.pluralsight.com/score)
+[All Skill Assessments - Pluralsight](https://app.pluralsight.com/score)
 

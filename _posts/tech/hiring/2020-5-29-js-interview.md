@@ -30,7 +30,7 @@ promise
 
 async await 
 
-## functional programming 
+## functional programming 
 
 filter, map, reduce 
 

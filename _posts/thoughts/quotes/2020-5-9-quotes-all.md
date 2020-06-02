@@ -89,7 +89,7 @@ Get busy living or get busy dying.
 
 
 
-## create 
+## create 
 
 Lack of direction, not lack of time, is the problem.
 

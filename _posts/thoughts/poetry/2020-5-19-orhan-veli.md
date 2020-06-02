@@ -121,7 +121,7 @@ Avunurum.
 
 
 
-## yaşamak
+## yaşamak
 
 Biliyorum, kolay değil yaşamak, 
 

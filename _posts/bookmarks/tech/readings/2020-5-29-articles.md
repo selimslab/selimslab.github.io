@@ -157,7 +157,7 @@ category: links
 ---
 
 
-[A Perfect Fifth of Notes on Scalability - High Scalability -](http://highscalability.com/blog/2012/1/10/a-perfect-fifth-of-notes-on-scalability.html)
+[A Perfect Fifth of Notes on Scalability - High Scalability -](http://highscalability.com/blog/2012/1/10/a-perfect-fifth-of-notes-on-scalability.html)
 
 [Rules of thumb for a 1x developer - The Other Mickey Wiki](https://muldoon.cloud/programming/2020/04/17/programming-rules-thumb.html)
 

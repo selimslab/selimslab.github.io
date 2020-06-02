@@ -66,7 +66,7 @@ is this opinion really mine?
 is this passion original or just a mimicry?
 
 
-## work 
+## work 
 
 what is the most important thing to do? 
 

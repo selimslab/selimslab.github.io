@@ -25,9 +25,9 @@ notes from [https://fs.blog/mental-models/](https://fs.blog/mental-models/)
    
 7. Inversion 
    
-8. **Occam’s Razor**, Simpler explanations are more likely to be true than complicated ones. 
+8. **Occam’s Razor**, Simpler explanations are more likely to be true than complicated ones. 
 
-9.  **Hanlon’s Razor**, we should not attribute to malice that which is more easily explained by stupidity. 
+9.  **Hanlon’s Razor**, we should not attribute to malice that which is more easily explained by stupidity. 
 
 ## Physics and Chemistry
 
@@ -41,9 +41,9 @@ notes from [https://fs.blog/mental-models/](https://fs.blog/mental-models/)
 
 5. Velocity 
 
-6.  Leverage 
+6.  Leverage 
 
-7.  Activation Energy
+7.  Activation Energy
 
 8. Catalysts 
 
@@ -61,15 +61,15 @@ notes from [https://fs.blog/mental-models/](https://fs.blog/mental-models/)
 
 3. Niches
 
-4. Self-Preservation 
+4. Self-Preservation 
 
 5. Replication 
 
 6. Cooperation
 
-7. Hierarchical  Organization
+7. Hierarchical  Organization
 
-8.  Incentives
+8.  Incentives
 
 9.  Tendency to Minimize Energy Output (Mental & Physical)
 
@@ -90,9 +90,9 @@ notes from [https://fs.blog/mental-models/](https://fs.blog/mental-models/)
 
 7. Preferential Attachment (Cumulative Advantage)
 
-8. Irreducibility 
+8. Irreducibility 
 
-9.  Margin of Safety and Backup Systems
+9.  Margin of Safety and Backup Systems
 
 
 10. Algorithms
@@ -127,7 +127,7 @@ notes from [https://fs.blog/mental-models/](https://fs.blog/mental-models/)
 
 2. Creative Destruction
 
-3. Comparative Advantage
+3. Comparative Advantage
 
 4. Specialization (Pin Factory)
 
@@ -169,9 +169,9 @@ notes from [https://fs.blog/mental-models/](https://fs.blog/mental-models/)
 
 4. Tendency to Feel Envy & Jealousy
 
-5. Tendency to Distort Due to Liking Loving or Disliking/Hating
+5. Tendency to Distort Due to Liking Loving or Disliking/Hating
 
-6. Denial 
+6. Denial 
 
 7. Sunk Cost
 
@@ -179,11 +179,11 @@ notes from [https://fs.blog/mental-models/](https://fs.blog/mental-models/)
 
 9. Availability Heuristic
 
-10. Tendency to Stereotype 
+10. Tendency to Stereotype 
 
 11. Failure to learn from the past
 
-12. Social Proof (Safety in Numbers)
+12. Social Proof (Safety in Numbers)
 
 13. Narrative Instinct -> Stories run the world 
 
@@ -205,11 +205,11 @@ notes from [https://fs.blog/mental-models/](https://fs.blog/mental-models/)
 
 22. Survivorship Bias
 
-23. Influence of Stress (Including Breaking Points)
+23. Influence of Stress (Including Breaking Points)
 
-24. Tendency to Want to Do Something (Fight/Flight, 
+24. Tendency to Want to Do Something (Fight/Flight, 
 
 25. Intervention, Demonstration of Value, etc.)
 
-26. Falsification / Confirmation Bias
+26. Falsification / Confirmation Bias
 

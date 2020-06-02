@@ -281,7 +281,7 @@ What determines your success isn’t “What do you want to enjoy?”
 The question is, “What pain do you want to sustain?” 
 
 ## Productivity
-Finally, to repeat one more time: productivity in the wrong direction isn’t worth anything at all.  Think more about what to work on.
+Finally, to repeat one more time: productivity in the wrong direction isn’t worth anything at all.  Think more about what to work on.
 
 
 ## Be Kind

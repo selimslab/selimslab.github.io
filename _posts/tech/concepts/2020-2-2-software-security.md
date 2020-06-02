@@ -107,13 +107,13 @@ invalid input, statistically rare or unexpected events
 
 * All cookies must be set with the Secure flag, and set as restrictively as possible
 
-* Cookie names may be either be prepended with either __Secure- or __Host- 
+* Cookie names may be either be prepended with either __Secure- or __Host- 
 to prevent cookies from being overwritten by insecure sources
 
-* Use __Host- for all cookies needed only on a specific domain (no subdomains) where Path is set to /
+* Use __Host- for all cookies needed only on a specific domain (no subdomains) where Path is set to /
 * Secure: they should only be sent over HTTPS
-* HttpOnly: Cookies that don’t require access from JavaScript should be set with the HttpOnly flag
-* SameSite: Forbid sending the cookie via cross-origin requests (such as from <img> tags, etc.), as a strong anti-CSRF measure
+* HttpOnly: Cookies that don’t require access from JavaScript should be set with the HttpOnly flag
+* SameSite: Forbid sending the cookie via cross-origin requests (such as from <img> tags, etc.), as a strong anti-CSRF measure
 
 ```bash
 Set-Cookie: 
@@ -159,7 +159,7 @@ used to whitelist scripts and assets
 when a webserver adds a CSP response header, 
 the browser will run only allow the white-listed scripts and assets 
 
-Disabling inline JavaScript means that all JavaScript must be loaded from script src tags 
+Disabling inline JavaScript means that all JavaScript must be loaded from script src tags 
 
 By using CSP to disable inline JavaScript, you can effectively eliminate almost all XSS attacks against your site.
 

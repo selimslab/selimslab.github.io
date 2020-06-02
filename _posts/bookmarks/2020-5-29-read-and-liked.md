@@ -130,13 +130,13 @@ category: links
 
 [Graphic Design Tutorials By Canva](https://www.canva.com/learn/design/tutorials/)
 
-[A Fighter Pilot’s Guide to surviving on the roads | Portsmouth CTC](https://www.portsmouthctc.org.uk/a-fighter-pilots-guide-to-surviving-on-the-roads/)
+[A Fighter Pilot’s Guide to surviving on the roads - Portsmouth CTC](https://www.portsmouthctc.org.uk/a-fighter-pilots-guide-to-surviving-on-the-roads/)
 
 [Patterns — Gordon Brander](http://gordonbrander.com/pattern/)
 
-[Ask HN: What is the dark side of working at a successful startup? | Hacker News](https://news.ycombinator.com/item?id=18002194)
+[Ask HN: What is the dark side of working at a successful startup? - Hacker News](https://news.ycombinator.com/item?id=18002194)
 
-[Ask HN: Why did your startup fail and what did you learn? | Hacker News](https://news.ycombinator.com/item?id=18011332)
+[Ask HN: Why did your startup fail and what did you learn? - Hacker News](https://news.ycombinator.com/item?id=18011332)
 
 [People Like You More Than You Know - Scientific American Blog Network](https://blogs.scientificamerican.com/illusion-chasers/people-like-you-more-than-you-know/)
 

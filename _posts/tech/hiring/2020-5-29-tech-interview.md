@@ -121,7 +121,7 @@ CAP theorem
 5. SQL tuning
    
 
-## Big Data
+## Big Data
 
 data parallelism 
 
@@ -294,7 +294,7 @@ Rate limiting
 * DRY
 
 
-## Parallelism
+## Parallelism
 
 Parallel Speed Up is limited bec. of overhead and must-be sequential operations
 
