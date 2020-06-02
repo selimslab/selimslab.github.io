@@ -2,7 +2,7 @@
 layout: post
 title: Make something people want
 tags: startup
-category: business
+category: work
 
 
 ---

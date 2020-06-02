@@ -72,3 +72,6 @@ class Good:
 ```
 Dependency is injected to the constructor and problem solved!
 
+also visit 
+
+[SOLID Principles: Explanation and examples - ITNEXT](https://itnext.io/solid-principles-explanation-and-examples-715b975dcad4)

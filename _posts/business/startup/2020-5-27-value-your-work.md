@@ -2,7 +2,7 @@
 layout: post
 title: Value your work
 tags: startup
-category: business
+category: work
 
 
 ---

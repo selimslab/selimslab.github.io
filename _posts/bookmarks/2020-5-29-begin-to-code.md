@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Resources to start coding, from 0 to 1
-tags: for-beginners 
-category: tech
+title: Resources to start coding, from 0 to 1 for beginners
+tags: tech 
+category: links
  
 ---
 

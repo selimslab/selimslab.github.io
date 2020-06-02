@@ -2,7 +2,7 @@
 layout: post
 title: Influence 
 tags: leadership
-category: business
+category: work
 
 ---
 

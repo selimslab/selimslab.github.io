@@ -25,8 +25,9 @@ a way to teach responsibility is to take them seriously and treat them with resp
 
 let a child  be angry, do not yell, remember that they are children and you are and adult  
 
-a great read 
+some great reads 
 
-[How Inuit Parents Teach Kids To Control Their Anger](https://www.npr.org/sections/goatsandsoda/2019/03/13/685533353/a-playful-way-to-teach-kids-to-control-their-anger)
+[How Inuit Parents Raise Kids Without Yelling — And Teach Them To Control Anger : Goats and Soda : NPR](https://www.npr.org/sections/goatsandsoda/2019/03/13/685533353/a-playful-way-to-teach-kids-to-control-their-anger)
+
 
 <http://fallibleideas.com/taking-children-seriously>

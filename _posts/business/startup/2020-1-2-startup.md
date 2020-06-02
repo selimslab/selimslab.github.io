@@ -2,7 +2,7 @@
 layout: post
 title: Startup Essentials
 tags: startup
-category: business
+category: work
 
 
 ---

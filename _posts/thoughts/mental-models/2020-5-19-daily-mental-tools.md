@@ -46,3 +46,12 @@ Strategic laziness
 Breakdown tasks 
 
 Grain of salt 
+
+
+more tools at 
+
+[The Munger Operating System: A Life That Really Works](https://fs.blog/2016/04/munger-operating-system/)
+
+[Mental Models: The Best Way to Make Intelligent Decisions (109 Models Explained)](https://fs.blog/mental-models/)
+
+[An Astronaut's Guide to Mental Models](https://fs.blog/2020/02/mental-models-in-space/)
