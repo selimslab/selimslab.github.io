@@ -22,19 +22,8 @@ Huge volume of simple requests
 
 Disk seek time 
 
-### Update in place school 
-B trees, major RDMS
+[Collection of real world database schemas from open-source packages and real-world apps that you can use as inspiration when architecting your app.](https://drawsql.app/templates/popular)
 
-### Log structured school
-Only permits appending to files
-
-Never updates 
-
-Cassandra, hbase, lucene 
-
-Key idea is turning random access writes to sequential writes on disk 
-
-Enables higher throughput
 
 ## OLAP analytics 
 
@@ -47,6 +36,24 @@ indexes are less relevant
 Minimize read amount 
 
 Encode compactly 
+
+---
+
+## Update in place school 
+B trees, major RDMS
+
+## Log structured school
+Only permits appending to files
+
+Never updates 
+
+Cassandra, hbase, lucene 
+
+Key idea is turning random access writes to sequential writes on disk 
+
+Enables higher throughput
+
+---
 
 
 ## Replication

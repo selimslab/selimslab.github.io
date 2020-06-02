@@ -45,3 +45,5 @@ more at
 
 [What to look for in a code review
 ](https://google.github.io/eng-practices/review/reviewer/looking-for.html)
+
+[use comment tags](https://conventionalcomments.org/)
