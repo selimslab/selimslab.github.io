@@ -42,6 +42,17 @@ layout: default
         {% if category_name ==  "books" %}
             <img src="img/lib.jpg" />
         {% endif %}
+
+        {% if category_name ==  "tech" %}
+        <img src="img/nasa.jpg" />
+        {% endif %}
+
+        {% if category_name ==  "philosophy" %}
+        <img src="img/mo.jpg" />
+        {% endif %}
+
+
+
         <h1 class="tag" id="{{ category_name | downcase }}">{{ category_name }}</h1>
 
         {% for tag in sorted_tags %}
