@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  Readings 
-tags: tech
+tags: tech/read
 category: links
 --- 
 
-### tech
 
 
 [Google - Site Reliability Engineering](https://landing.google.com/sre/books/)

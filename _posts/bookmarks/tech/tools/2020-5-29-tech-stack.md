@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tech Stack 
-tags: tools
+tags: tech/tools
 category: tech
 ---
 
