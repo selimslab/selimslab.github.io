@@ -39,6 +39,9 @@ layout: default
 
         {% capture category_name %}{{ category | first | downcase }}{% endcapture %}
 
+        {% if category_name ==  "books" %}
+            <img src="img/lib.jpg" />
+        {% endif %}
         <h1 class="tag" id="{{ category_name | downcase }}">{{ category_name }}</h1>
 
         {% for tag in sorted_tags %}
