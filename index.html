@@ -43,6 +43,10 @@ layout: default
             <img src="img/lib.jpg" />
         {% endif %}
 
+        {% if category_name ==  "links" %}
+            <img src="img/stars.jpg" />
+        {% endif %}
+
         {% if category_name ==  "tech" %}
         <img src="img/nasa.jpg" />
         {% endif %}
@@ -53,6 +57,10 @@ layout: default
 
         {% if category_name ==  "thoughts" %}
         <img src="img/nature.jpg" />
+        {% endif %}
+
+        {% if category_name ==  "work" %}
+        <img src="img/people.jpg" />
         {% endif %}
 
         <h1 class="tag" id="{{ category_name | downcase }}">{{ category_name }}</h1>

@@ -127,6 +127,13 @@ img {
   max-width: 100%;
 }
 
+img.full{
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  margin-left: -50vw;
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
