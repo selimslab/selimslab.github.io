@@ -92,3 +92,39 @@ learn basics of
 8. system design
 
 
+## other sources
+
+[mtdvio/every-programmer-should-know: A collection of (mostly) technical things every software developer should know](https://github.com/mtdvio/every-programmer-should-know)
+
+[jwasham/coding-interview-university: A complete computer science study plan to become a software engineer.](https://github.com/jwasham/coding-interview-university#how-to-use-it)
+
+[braydie/HowToBeAProgrammer: A guide on how to be a Programmer - originally published by Robert L Read](https://github.com/braydie/HowToBeAProgrammer)
+
+
+### data structures
+
+[Data Structures for Coding Interviews: Computer Science in Plain English | Interview Cake](https://www.interviewcake.com/article/python/data-structures-coding-interview?collection=dsa)
+
+[InterviewMap | DataStruct](https://yuchengkai.cn/docs/cs/dataStruct.html)
+
+### code
+
+[Foundations - Google Tech Dev Guide](https://techdevguide.withgoogle.com/paths/foundational/)
+
+[Google Developers Training  |  Google Developers](https://developers.google.com/training/)
+
+
+### system-design
+
+[how to design large-scale systems](https://github.com/donnemartin/system-design-primer#index-of-system-design-topics)
+
+[What's in a Production Web Application? · Stephen Mann](https://stephenmann.io/post/whats-in-a-production-web-application/)
+
+### crypto
+
+[An intensive introduction to Cryptography](https://intensecrypto.org/public/)
+
+### ml
+
+[Foundations of Machine Learning](https://bloomberg.github.io/foml/#lectures)
+
