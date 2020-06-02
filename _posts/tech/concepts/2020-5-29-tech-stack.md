@@ -7,4 +7,6 @@ category: tech
 
 all the tools I have used in my projects 
 
-<a frameborder="0" data-theme="light" data-layers="1,2,3,4" data-stack-embed="true" href="https://embed.stackshare.io/stacks/embed/57032e5ec2dc65c201a50cc2443407"/></a><script async src="https://cdn1.stackshare.io/javascripts/client-code.js" charset="utf-8"></script>
+<a frameborder="0" data-theme="light" data-layers="1,2,3,4" data-stack-embed="true" href="https://embed.stackshare.io/stacks/embed/57032e5ec2dc65c201a50cc2443407"/>
+
+<script async src="https://cdn1.stackshare.io/javascripts/client-code.js" charset="utf-8"></script>
