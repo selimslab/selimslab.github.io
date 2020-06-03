@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Hard
-tags: algorithms/by-level
-category: tech/code-snippets
+tags: by-level
+category: tech/algorithms
  
 ---
 

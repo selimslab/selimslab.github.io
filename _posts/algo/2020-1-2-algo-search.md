@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Search
-tags: algorithms/search
-category: tech/code-snippets
+tags: search
+category: tech/algorithms
  
 
 ---

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Backtracking
-tags: algorithms/dynamic
-category: tech/code-snippets
+tags: dynamic
+category: tech/algorithms
  
 ---
 

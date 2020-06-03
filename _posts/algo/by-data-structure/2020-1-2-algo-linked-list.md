@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Linked List 
-tags: algorithms
-category: tech/code-snippets
+tags: by-data-structure
+category: tech/algorithms
  
 
 ---

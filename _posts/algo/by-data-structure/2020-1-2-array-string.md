@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Array & String
-tags: algorithms
-category: tech/code-snippets
+tags: by-data-structure
+category: tech/algorithms
  
 
 ---
