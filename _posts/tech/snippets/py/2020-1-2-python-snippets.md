@@ -2,7 +2,7 @@
 layout: post
 title: Python snippets  
 tags: python
-category: tech/algorithms
+category: tech/code-snippets
 
 ---
 

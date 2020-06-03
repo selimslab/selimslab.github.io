@@ -2,7 +2,7 @@
 layout: post
 title: Scala 
 tags: scala
-category: tech/algorithms
+category: tech/code-snippets
 
 ---
 

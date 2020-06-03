@@ -2,7 +2,7 @@
 layout: post
 title: a REST API for analytics of mobile user events 
 tags: python
-category: tech/algorithms
+category: tech/code-snippets
 ---
 
 an API to explore mobile user events 

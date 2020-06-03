@@ -2,7 +2,7 @@
 layout: post
 title: Go snippets
 tags: go
-category: tech/algorithms
+category: tech/code-snippets
 
 ---
 
