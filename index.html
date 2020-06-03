@@ -17,6 +17,10 @@ layout: default
 
         {% capture category_name %}{{ category | first  }}{% endcapture %}
 
+        {% if category_name contains "/" %}
+            {% continue %}
+        {% endif %}
+
             <li style="padding-bottom: 0.4rem;">
                 <a href="{{ '#' | append:  category_name | downcase   }}">{{ category_name }}</a>
             </li>
