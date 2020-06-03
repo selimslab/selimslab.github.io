@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Speaking, writing, presentations
-tags: skills
+tags: speak
 category: thoughts
 ---
 

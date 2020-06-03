@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Public speaking, how to be relax     
-tags: skills
+tags: speak
 category: thoughts
 
 

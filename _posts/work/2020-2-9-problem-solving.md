@@ -1,16 +1,15 @@
 ---
 layout: post
-title: Problem Solving 
-tags: design
-category: thoughts
+title: Helpful approaches to problem solving 
+tags: problem-solving
+category: work
 ---
 
 Don't panic 
 
 start small and keep it simple
 
-a complex problem? 
-the solution is to keep it super simple.
+a complex problem? the solution is to keep it super simple.
 
 The Magic of Doing One Thing at a Time 
 
