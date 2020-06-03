@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Curated links
+title:  Curated articles 2
 tags: social 
 category: links
 --- 

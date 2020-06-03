@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Tech Stack 
-tags: tech/tools
-category: links
+tags: tools
+category: links/tech
 ---
 
 tools for your next project 

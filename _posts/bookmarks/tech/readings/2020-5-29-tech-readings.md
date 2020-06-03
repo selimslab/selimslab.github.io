@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Readings 
-tags: tech/read
-category: links
+tags: read
+category: links/tech
 --- 
 
 

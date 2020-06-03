@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Liked posts from hacker-news
-tags: tech/read
-category: links
+tags: read
+category: links/tech
 --- 
 
 [Ask HN: I'm a software engineer going blind, how should I prepare? - Hacker News](https://news.ycombinator.com/item?id=22918980)
