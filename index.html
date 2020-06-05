@@ -44,7 +44,6 @@ layout: default
         {% capture category_name %}{{ category | first | downcase }}{% endcapture %}
 
         {% if category_name ==  "books" %}
-            <p>takeaways from my readings</p>
             <img src="img/lib.jpg" />
         {% endif %}
 
@@ -53,7 +52,6 @@ layout: default
         {% endif %}
 
         {% if category_name ==  "tech" %}
-        <p>thoughts, resources, and code</p>
             <img src="img/rocket.jpg" />
         {% endif %}
 
@@ -63,13 +61,11 @@ layout: default
         {% endif %}
 
         {% if category_name ==  "thoughts" %}
-            <p>thougts on life, people, and everything</p>
             <img src="img/nature.jpg" />
         {% endif %}
 
         {% if category_name ==  "work" %}
             <img src="img/people.jpg" />
-            <p>thougts on work, business, and people</p>
         {% endif %}
 
         <h1 class="tag" id="{{ category_name | downcase }}">{{ category_name }}</h1>
@@ -77,6 +73,22 @@ layout: default
         {% if category_name ==  "tech/projects" %}
             <p>a great way to really understand how something works is to build a simple form of it.</p>
             <p>these projects have clarified many technical concepts for me and still inspiring me to build more.</p>
+        {% endif %}
+
+        {% if category_name ==  "work" %}
+        <p>thougts on work, business, and people</p>
+        {% endif %}
+
+        {% if category_name ==  "thoughts" %}
+        <p>thougts on life, people, and everything</p>
+        {% endif %}
+
+        {% if category_name ==  "tech" %}
+        <p>thoughts, resources, and code</p>
+        {% endif %}
+
+        {% if category_name ==  "tech" %}
+        <p>takeaways from my readings</p>
         {% endif %}
 
 
