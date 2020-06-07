@@ -387,7 +387,7 @@ alcohol is one of the most powerful suppressors of REM [rapid-eye-movement] slee
 
 When in doubt, rely on an algorithm, because it's more accurate than your best guess or some expert's opinion. 
 
-We are irrationally. We are prone to jump to conclusions.
+We are irrational. We are prone to jump to conclusions.
 
 ## Disagree
 It's perfectly OK to disagree with someone;
@@ -490,7 +490,7 @@ politely assert yourself,
  I feel, I think, I believe, I don't think, I don't know, I know 
  
 ## Awareness.
-watch yourself from a disrance, 
+watch yourself from a distance, 
 
 be aware of thoughts and emotions 
 
