@@ -7,9 +7,7 @@ category: books
 
 # Eastern Philosophy 
 
-## Buddha
 
-Attachment is the root of suffering 
 
 ## Lao Tzu
 
@@ -24,6 +22,18 @@ Be content with what you have
 Inspired by nature, resilience of trees, strength of mountains, cheerfulness of flowers
 
 Of course there are times for action and ambition
+
+## Buddha
+
+Attachment is the root of suffering 
+
+don't crave 
+
+no craving = no suffering 
+
+train the mind to experience reality as it is 
+
+pain is inevitable, suffering is optional 
 
 ## Sen no Rikyu 
 
@@ -102,7 +112,9 @@ moral goodness is a habit
 Takes time and practice
 
 Art
+
 a Change in fortune 
+
 a moment of dramatic revelation
 
 catharsis
@@ -115,15 +127,23 @@ a true friend is someone who you care as much as yourself
 
 their joy is yours and their sorrow too 
 
-persuasion 
+### persuasion 
 
-soothe fears
-See the emotional side 
-make it short and funny 
-use drawings,pictures, video 
+* soothe fears
+
+* See the emotional side 
+
+* make it short and funny 
+
+* use drawings, pictures, examples  
 
 
 ## Stoics
+
+very little is needed to make a happy life 
+
+
+### anxiety
 
 anxiety is the gap between fear and hope 
 
@@ -131,24 +151,24 @@ when you face your fear, it vanishes
 
 to reduce worry, assume the worst 
 
-very little is needed to make a happy life 
-
 expect everything 
 
 Dress rehersal for catastrophe
 
+### Anger
 
 Anger is the collision of hope and reality 
-sad AND unexpected
+
+sad AND unexpected -> anger 
 
 if you expect anything, nothing makes you much angry
 
+### Fortuna 
 
 we blame ourselves but most things are so random 
 
-Fortuna 
-
 suspicious of success
+
 gentle on ourselves in failure 
 
 much of what we get, we don't deserve 
@@ -161,17 +181,11 @@ astronomy is humbling and corrects the perspective
 
 ## Montaigne 
 
-We all shit, so do ladies
-
 Beauty in a simple life 
 
 A virtuous ordinary life is enough 
 
 ## Spinoza
-
-Tries to replace bible with Ethics 
-
-is emotion, belief, fear, tradition 
 
 People like religion for community, music, rituals, architecture, tradition, a sense of belonging, hope, fear 
 
@@ -239,16 +253,17 @@ Alienation
 
 Commodity fetishism 
 
-
 # Literature
+
+## Tolstoy
 
 What do I actually see?
 
-Lit is a tool for reform for Tolstoy
+Literature is a tool of reform 
 
 Taking pleasure in simple things
 
-## Jane austen 
+## Jane Austen 
 
 Let your lover educate you 
 
@@ -264,9 +279,7 @@ Dont be snobbish
 
 Pleasure & reality balance 
 
-Childhood
-
-Adulthood 
+Childhood, Adulthood 
 
 Analysis of dreams, jokes, parapraxes
 
@@ -279,7 +292,7 @@ Defense mechanisms
 1. Denial
 2. Projection
 3. Turning against the self
-4. Sublimation, redirecting to sports, art, career, family etc. 
+4. Sublimation, redirecting to sports, art, career, family.. 
 5. Regression, çocuklaşma 
 6. Rationalisation 
 7. Intellectualisation
@@ -287,7 +300,7 @@ Defense mechanisms
 9. Displacement, redirection to someone weaker 
 10. Fantasy 
 
-Ambivalence 
+**Ambivalence** 
 
 People are people not vending machines 
 
@@ -304,7 +317,7 @@ Make sure they are not too compliant
 ## Attachment
 
 1. Secure
-2. anxious
+2. Anxious
 3. Avoidant 
 
 Be slow to anger, quick to forgive and forget 
@@ -314,7 +327,7 @@ Be slow to anger, quick to forgive and forget
 
 Cities should be like ecosystems
 
-City blocks should be small 
+City blocks should be small and dense
 
 Mix of old & new buildings
 
@@ -347,11 +360,8 @@ Feeling guilty, glorifying work, emphasizing community
 
 People imagine leaders as super-parents
 
-Bureaucracy 
+Change is very undramatic, it comes mostly through slow changes in bureaucracy and systematic organization 
 
-Systematic organization 
-
-Change is very undramatic 
 
 ## Durkheim
 
@@ -367,19 +377,6 @@ Why are people unhappy?
 
 - Weaker nations and family 
 
-## Margaret Mead
-
-Culture determines people far more than suspected
-
-Most traits are not “human nature” but just culture
-
-A small group of committed people can change the world
-
-What we really need, understanding, calm, insight is in painfully short supply 
-
-We crave community and connection 
-
-In truth we have the resources for a basic standard for all people 
 
 ## Rachel Carson
 
@@ -387,5 +384,21 @@ Silent Spring
 
 DDT 
 
-Love > guilt for a better human-nature relationship 
+for a better human-nature relationship, love of nature works better than guilt 
+
+
+## Margaret Mead
+
+Culture determines people far more than suspected
+
+Most traits are not “human nature” but just culture
+
+What we really need is understanding, calm, and insight. They are in painfully short supply 
+
+We crave community and connection 
+
+In truth we have the resources for a basic standard for all people 
+
+A small group of committed people can change the world
+
 
