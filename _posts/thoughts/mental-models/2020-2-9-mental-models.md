@@ -207,9 +207,7 @@ notes from [https://fs.blog/mental-models/](https://fs.blog/mental-models/)
 
 23. Influence of Stress (Including Breaking Points)
 
-24. Tendency to Want to Do Something (Fight/Flight, 
+24. Tendency to Want to Do Something (Fight/Flight, Intervention, Demonstration of Value, etc.)
 
-25. Intervention, Demonstration of Value, etc.)
-
-26. Falsification / Confirmation Bias
+25. Falsification / Confirmation Bias
 
