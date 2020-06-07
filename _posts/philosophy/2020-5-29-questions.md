@@ -11,6 +11,8 @@ How well did you love?
 
 How fully did you live?
 
+Do I actually like this? Do I actually believe this? What do I actually think?
+
 is this what I really want?
 
 what do I feel?
