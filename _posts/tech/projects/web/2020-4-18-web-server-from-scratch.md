@@ -1,7 +1,7 @@
 ---
 layout: post
 title: a concurrent web server in 100 lines
-tags: servers
+tags: web
 category: tech/projects
 
  
