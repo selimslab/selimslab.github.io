@@ -22,43 +22,73 @@ This is my attempt to define a good person and a good life
 
 ### a good person  
 
-* honest 
-  
-* kind
+* true 
 
-* humble 
-
-* confident
-  
 * brave
 
-* positive, friendly, warm
+* moderate
+
+* fair and kind 
+
+* humble and confident
 
 * thinking, feeling, loving
 
 * calm, grateful, active
 
-### in stoic virtues
-
-wise and brave, moderate and just
+* wise and brave, temperate and just
 
 ### a good life
 
-health 
+1. health 
 
-freedom
+2. freedom
 
-integrity 
+3. integrity 
 
-love and friendship
+4. love and friendship
 
-meaningful work
+5. meaningful work
 
-hope 
+6. hope 
 
-peace of mind
+7. peace of mind
 
-### care 
+to achieve this, a few helpful ways are 
+
+* stay healthy
+
+* stay positive and calm
+
+* value yourself, value your time, value your work 
+
+* show your love
+
+* care  
+
+* be social
+
+* communicate well
+
+* pick your battles
+
+* be contentful
+
+* kindly assert yourself
+
+* think for yourself, think critically
+
+* do not regret, learn and move on 
+
+* relax, enjoy life
+
+* grow 
+
+* act
+
+
+
+## care 
 
 care for body and mind
 
@@ -68,47 +98,29 @@ care for people, animals, and earth
 
 care for the future 
 
-### healthy 
+## health
 
 water, sleep, healthy food, and sports
 
 clean body, clean mind 
 
-### Positive
+## be positive
 
-optimist 
+optimist, enthusiastic, passionate
 
-enthusiastic
+relax, chill, fresh 
 
-passionate
-
-relax
-
-chill
-
-fresh 
-
-have fun
-
-enjoy life
+have fun, enjoy life
 
 our capacity for fretting is endless -> don't worry, be happy 
 
+> We suffer more in imagination than in reality – Seneca
 
-> We suffer more in imagination than in reality 
-> 
-> – Seneca
-
-> How much pain the evils have cost us that have never happened!
-
-
-### calm
+## calm
 
 peace of mind
 
 tranquility 
-
-Love
 
 comfortable
 
@@ -118,13 +130,26 @@ slow to anger, quick to calm
 
 > anger and grief damage more than the things that cause them 
 
-> When angry, count ten before you speak; if very angry, a hundred. 
-> 
-> — Thomas Jefferson
+> When angry, count ten before you speak; if very angry, a hundred. — Thomas Jefferson
 
-### social
+## social
 
-people first 
+do not interrupt
+
+do not judge
+
+do not jump to conclusions
+
+do not take yourself too seriously
+
+do not brag, be humble
+
+Pick your battles: Some things are worth fighting over. But most things aren’t.
+
+don't carry baggage, deal with it at the moment
+
+
+## people first 
 
 emotional intelligence 
 
@@ -136,12 +161,6 @@ friendly, sincere, warm
 
 agreeable
 
-smile
-
-hug
-
-show your love 
-
 honesty
 
 integrity 
@@ -149,6 +168,8 @@ integrity
 sober, honorable, dignified
 
 authentic
+
+## show your love 
 
 be a starter
 
@@ -160,13 +181,17 @@ text, call, mail
 
 notice changes
 
+smile
+
+hug
+
 start conversations
 
-> people will never forget how you made them feel.
+> People will never forget how you made them feel.
 > 
 >  – Maya Angelou
 
-### communicate well
+## communicate well
 
 listen well 
 
@@ -184,9 +209,9 @@ eye contact
 
 body language
 
-disagree respectfully 
+## pick your battles 
 
-> If a human disagrees with you, let him live. In a hundred billion galaxies, you will not find another.
+disagree respectfully 
 
 constructive feedback 
 
@@ -194,10 +219,13 @@ poorest way is arguing
 
 Building consensus, understanding emotions, having support are more important than winning an argument
 
+> If a human disagrees with you, let him live. In a hundred billion galaxies, you will not find another.
 
-### Simple words with big effects 
+## Simple words with big effects 
 
 no 
+
+no, thank you
 
 I love you 
 
@@ -207,15 +235,13 @@ I feel
 
 I don’t know 
 
-I like you
+I like
 
-I don’t like it 
+I don’t like 
 
 I agree
 
 I don’t agree
-
-no, thank you
 
 I don’t understand
 
@@ -223,34 +249,23 @@ I’m sorry, that was my fault
 
 Can you help me?
 
---- 
 
-do not interrupt
 
-do not judge
-
-do not jump to conclusions
-
-do not take yourself too seriously
-
-do not brag, be humble
-
-Pick your battles: Some things are worth fighting over. But most things aren’t.
-
-don't carry baggage, deal with it at the moment
 
 
 ## Be contentful 
 
-> The greatest wealth is to live content with little" Plato 
+> Very little is needed to make a happy life; it is all within yourself, in your way of thinking. - Marcus Aurelius 
 
-> "He is rich who is content with the least, for contentment is the wealth of nature" Socrates 
+> The greatest wealth is to live content with little" - Plato 
 
-> "The greatest wealth is poverty of desires" Seneca 
+> "He is rich who is content with the least, for contentment is the wealth of nature" - Socrates 
 
-> "Wealth consists not in having great possessions but in having few wants" Epictetus
+> "The greatest wealth is poverty of desires" - Seneca 
 
-### Moderate
+> "Wealth consists not in having great possessions but in having few wants" - -Epictetus
+
+## Moderate
 
 golden mean 
 
@@ -261,7 +276,7 @@ Balance fun and seriousness
 Balance thinking and doing 
 
 
-### hope 
+## hope 
 
 > In the depth of winter, I finally learned that within me there lay an invincible summer.
 > 
@@ -270,7 +285,7 @@ Balance thinking and doing
 hope itself is often better than what you’re hoping for…
 
 
-### move on 
+## move on 
 
 
 get up 
@@ -284,7 +299,7 @@ no regrets, hindsight is 20/20
 learn and move on
 
 
-### Think critically
+## Think critically
 
 > An unexamined life is not worth living. 
 > 
@@ -305,7 +320,7 @@ think long term
 reflect on the past, plan for the future, enjoy the moment 
 
 
-### Work and play 
+## Work and play 
 
 > Do nothing against thy will, 
 > nor contrary to the community, 
@@ -341,7 +356,7 @@ do what you love and love what you do
 Don’t think about how proud you would be to run a marathon. 
 Question whether you like running.
 
-### grow
+## grow
 
 iterate
 
@@ -366,7 +381,7 @@ Eliminate, simplify, prioritize, delegate, iterate
 don't be sorry, improve yourself 
 
 
-### Act 
+## Act 
 
 think before speak
 
