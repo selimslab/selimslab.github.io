@@ -1,6 +1,6 @@
 ---
 layout: post
-title: a REST API with Flask Restful and SQLAlchemy
+title: an API service with Flask Restful and SQLAlchemy
 tags: web
 category: tech/projects
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Django REST custom user model with social login and permissions 
+title: custom user model with social login and permissions in Django REST framework 
 tags: web
 category: tech/projects
 ---

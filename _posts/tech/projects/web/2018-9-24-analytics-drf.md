@@ -1,6 +1,6 @@
 ---
 layout: post
-title: a REST API for analytics of mobile user events 
+title: an analytics service for mobile user events 
 tags: web
 category: tech/projects
 ---
