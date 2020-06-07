@@ -7,15 +7,15 @@ category: tech/algorithms
 
 ---
 
+## Convert
 
-## Invert 
+<script src="https://gist.github.com/selimslab/d356a9b2111087c68d2dbf8f712cb71b.js"></script>
+
+
+## Diameter, Invert, Max Depth, Symmetry 
 
 <script src="https://gist.github.com/selimslab/7e5db0cbd495c661ceb1c11cbcb0f137.js"></script>
 
-
-## Binary Search Tree
-
-<script src="https://gist.github.com/selimslab/82efc4fa3c8e76e56a55f220ca7cd31d.js"></script>
 
 ## Codec
 
