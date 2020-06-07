@@ -72,7 +72,7 @@ sperm and egg
 hammer-nail
 
 why why why why why
-​
+
 Modern Media Is a DoS Attack on Your Free Will
 
 ## Coding
@@ -91,18 +91,27 @@ complex is the sum of many simple steps
 ## attention traps is like bacteria 
 
 marketing lines
+
 slot machines
+
 headlines
+
 farmville
 
 
 ## don't ignore the emotional price
 
- A failure to identify the true costs of a situation, with too much emphasis on financial costs while ignoring the emotional price that must be paid to win a reward.
+not all costs are financial
+
+time, money, attention are all limited resources
 
 ## Have that difficult conversation. 
 
-Listen without defensiveness when they criticize you. Name the elephant in the room. Get rejected.
+Listen without defensiveness when they criticize you. 
+
+Name the elephant in the room. 
+
+Get rejected.
 
 And feel it all. Feel the anticipation of the risk. Feel the pre-risk cringe. Then, during the risk, and after, take a deep breath and feel that too.
 
@@ -126,10 +135,14 @@ Earned success and deserved failure fallacy
 set a date and have a plan 
 
 idea 
+
 goal
-Plan
-System
-Result 
+
+plan
+
+system
+
+result 
 
 
 ## questions
@@ -142,7 +155,7 @@ What makes it hard to solve?
 
 Does it have to be solved?
 
-İf so, does it have to be done this way?
+Does it have to be done this way?
 
 Can you cut the knot ?
 
@@ -159,9 +172,5 @@ How to explain to a 6 year old
 Put your own oxygen mask on first.
 
 “If you find yourself in a hole, stop digging.” – Will Rogers
- 
- --- 
 
-
-hard problems demand imagining easier versions 
-not spinning wheels
+hard problems demand imagining easier versions, not spinning wheels
