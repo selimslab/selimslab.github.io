@@ -7,11 +7,6 @@ category: tech/algorithms
 
 ---
 
-## Convert
-
-<script src="https://gist.github.com/selimslab/d356a9b2111087c68d2dbf8f712cb71b.js"></script>
-
-
 ## Diameter, Invert, Max Depth, Symmetry 
 
 <script src="https://gist.github.com/selimslab/7e5db0cbd495c661ceb1c11cbcb0f137.js"></script>
