@@ -46,7 +46,7 @@ category: links/tech
 
 ## design 
 
-[design patterns - Naming Classes - How to avoid calling everything a "<WhatEver>Manager"? - Stack Overflow](https://stackoverflow.com/questions/1866794/naming-classes-how-to-avoid-calling-everything-a-whatevermanager)
+[design patterns - Naming Classes - How to avoid calling everything a "WhatEverManager"? - Stack Overflow](https://stackoverflow.com/questions/1866794/naming-classes-how-to-avoid-calling-everything-a-whatevermanager)
 
 [design patterns - What are MVP and MVC and what is the difference? - Stack Overflow](https://stackoverflow.com/questions/2056/what-are-mvp-and-mvc-and-what-is-the-difference)
 

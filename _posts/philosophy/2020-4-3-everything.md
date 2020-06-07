@@ -34,6 +34,43 @@ don't argue, ask specific questions
 
 Be assertive and kind 
 
+---
+
+
+* People are both curious and afraid of new things. Thus a familiar thing in an original setting is interesting.
+
+* The more available something is, the less we want it
+
+* people want responsibility, respect, and freedom.
+
+* The world we have created is a product of our thinking; it cannot be changed without changing our thinking.
+
+* humility, adaptability, long time horizons, skepticism of popularity and money 
+
+* Your time is limited, so don’t waste it living someone else’s life.
+
+* Relentlessly prune bullshit, don't wait to do things that matter, and savor the time you have. That's what you do when life is short.
+
+> “If you want to know what a given society believes in, look at what its largest buildings are devoted to.” — Joseph Campbell
+
+## being vulnerable vs insecurity
+
+* Vulnerable: exposed, wide open, susceptible to getting hurt.
+
+* Insecure: afraid, filled with doubt, not confident.
+
+* It takes courage and confidence to allow yourself to be vulnerable.
+  
+* Being able to admit when you're wrong is a wonderfully attractive quality and gets you a lot of legitimacy. It's endearing.
+
+## Confidence, arrogance, humility 
+
+* Arrogance is a weakness.
+
+* Confident people are humble because they don't have to prove anything
+
+
+
 
 ## story arcs 
 

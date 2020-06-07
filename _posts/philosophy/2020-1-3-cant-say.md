@@ -9,15 +9,19 @@ category: philosophy
 
 key points from an [article by Paul Graham](http://www.paulgraham.com/say.html) 
 
-Have you ever seen an old photo of yourself and been embarrassed at the way you looked? Did we actually dress like that? We did. And we had no idea how silly we looked. It's the nature of fashion to be invisible, in the same way the movement of the earth is invisible to all of us riding on it.
+Have you ever seen an old photo of yourself and been embarrassed at the way you looked? Did we actually dress like that? We did. And we had no idea how silly we looked.
 
-What scares me is that there are moral fashions too. They're just as arbitrary, and just as invisible to most people. But they're much more dangerous. Fashion is mistaken for good design; moral fashion is mistaken for good. Dressing oddly gets you laughed at. Violating moral fashions can get you fired, ostracized, imprisoned, or even killed.
+It's the nature of fashion to be invisible, in the same way the movement of the earth is invisible to all of us riding on it.
+
+What scares me is that there are moral fashions too. They're just as arbitrary, and just as invisible to most people. But they're much more dangerous. 
+
+Fashion is mistaken for good design; moral fashion is mistaken for good. Dressing oddly gets you laughed at. Violating moral fashions can get you fired, ostracized, imprisoned, or even killed.
 
 It seems to be a constant throughout history: In every period, people believed things that were just ridiculous, and believed them so strongly that you would have gotten in terrible trouble for saying otherwise.
 
 Is our time any different? the answer is almost certainly no. 
 
-The Conformist Test
+### The Conformist Test
 
 Let's start with a test: Do you have any opinions that you would be reluctant to express in front of a group of your peers?
 
@@ -25,13 +29,15 @@ If the answer is no, you might want to stop and think about that. If everything 
 
 The other alternative would be that you independently considered every question and came up with the exact same answers that are now considered acceptable. That seems unlikely, because you'd also have to make the same mistakes. Mapmakers deliberately put slight mistakes in their maps so they can tell when someone copies them. If another map has the same mistake, that's very convincing evidence.
 
-Like every other era in history, our moral map almost certainly contains a few mistakes. And anyone who makes the same mistakes probably didn't do it by accident. It would be like someone claiming they had independently decided in 1972 that bell-bottom jeans were a good idea.
+Like every other era in history, our moral map almost certainly contains a few mistakes. And anyone who makes the same mistakes probably didn't do it by accident. 
 
 If you believe everything you're supposed to now, how can you be sure you wouldn't also have believed everything you were supposed to if you had grown up among the plantation owners of the pre-Civil War South, or in Germany in the 1930s—or among the Mongols in 1200, for that matter? Odds are you would have.
 
 Back in the era of terms like "well-adjusted," the idea seemed to be that there was something wrong with you if you thought things you didn't dare say out loud. This seems backward. Almost certainly, there is something wrong with you if you don't think things you don't dare say out loud.
 
-What can't we say? One way to find these ideas is simply to look at things people do say, and get in trouble for. 
+### What can't we say? 
+
+One way to find these ideas is simply to look at things people do say, and get in trouble for. 
 
 The statements that make people mad are the ones they worry might be believed. I suspect the statements that make people maddest are those they worry might be true.
 
