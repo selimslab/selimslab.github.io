@@ -14,10 +14,9 @@ hire for strength rather than lack of weaknesses
 
 make the effort to know someone or something or don't assume you know them 
 
-be aware of your weaknesses -> lack of structure, planning, listening, social skills
+over-confidence is enemy of competence. be aware of your weaknesses 
 
-define what you want -> a weak definition = bad outcome 
+define what you want because a weak definition means a bad outcome 
 
-focus on what you need to get right and stop worrying for other things. 
+focus on what you need to get right and stop worrying for other things
 
-over-confidence is enemy of competence 

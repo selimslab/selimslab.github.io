@@ -14,14 +14,21 @@ For me, it is to watch the sea, walk in the forest, camp in the mountain. To spe
 
 here are my favorites. what are yours?
 
-
 **series**: Cosmos, Simpsons, Sherlock, Planet Earth 
 
 **movies**: Léon, The Godfather, Modern Times, Back to the Future
 
-**literature**: 100 Years of Solitude, The Little Prince, The Lord of the Rings, The Stranger
+**literature**: 100 Years of Solitude, The Little Prince, The Lord of the Rings
 
 **colors**: blue and white 
+
+
+**why the astronaut image ?** 
+
+this is a symbol for 2 things
+
+1. seeing the world from a distance, watching your thoughts from outside
+2. a symbol of greatness in technology and teamwork 
 
 **links** 
 

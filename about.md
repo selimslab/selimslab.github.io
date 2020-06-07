@@ -4,7 +4,7 @@ title: Hello, friend!
 permalink: /about/
 ---
 
-I am Selim, writing here to learn and share. I aim to be a good person and a world-class engineer 
+I am Selim, writing here to learn and share. This is both a blog and a personal knowledge base, full of notes and references to great resources
 
 [Resume](/resume)
 
