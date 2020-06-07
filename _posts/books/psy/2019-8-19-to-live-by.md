@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Algorithms to Live By
-tags: psychology
+tags: psychology 
 category: books
 ---
 
@@ -26,15 +26,15 @@ if there is no money?
 
 if you had infinite time? 
 
-if you weren't afrtaid?
+if you weren't afraid?
 
 if all jobs paid the same?
 
 you don't have to do anything, if you face the consequences
 
-lagrangian relaxation -> an optimization problem has two parts, rules and scorekeeping -> bake some rules into scorekeeping -> take the impossible and make it costly 
-
 hard problems demand imagining easier versions, not spinning wheels 
+
+take the impossible and make it costly 
 
 randomness as the heart of creativity 
 

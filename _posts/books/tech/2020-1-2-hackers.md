@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hackers & Painters
-tags: philosophy
+tags: tech
 category: books 
 ---
 

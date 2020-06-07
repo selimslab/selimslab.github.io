@@ -5,7 +5,6 @@ tags: psychology
 category: books
 ---
 
-*written by Ece Can**
 
 Traumatic stress is a kind of being absent from the present time.
 
@@ -28,3 +27,4 @@ Realizing anger, tension and anxiety help to change your perspective and offer n
 
 Breaking the silence by disclosing your secrets instead of suppressing emotions gives you freedom.
 
+*written by Ece Can**

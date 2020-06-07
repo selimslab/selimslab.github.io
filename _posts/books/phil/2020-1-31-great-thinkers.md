@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Great thinkers 
-tags: philosophy
+tags: philosophy recommended
 category: books 
 --- 
 
