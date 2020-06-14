@@ -80,11 +80,18 @@ to achieve this, a few helpful ways are
 
 * do not regret, learn and move on 
 
+* Be kind to yourself. If you won’t, who will? 
+
+* Forgive yourself
+  
 * relax, enjoy life
 
 * grow 
 
 * act
+
+* be free from anxiety of results 
+
 
 
 
@@ -252,18 +259,6 @@ Can you help me?
 
 
 
-
-## Be contentful 
-
-> Very little is needed to make a happy life; it is all within yourself, in your way of thinking. - Marcus Aurelius 
-
-> The greatest wealth is to live content with little" - Plato 
-
-> "He is rich who is content with the least, for contentment is the wealth of nature" - Socrates 
-
-> "The greatest wealth is poverty of desires" - Seneca 
-
-> "Wealth consists not in having great possessions but in having few wants" - -Epictetus
 
 ## Moderate
 
