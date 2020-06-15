@@ -1,8 +1,9 @@
+
 ---
-layout: post
-title:  The Big History, from start to end 
-tags: thoughts
-category: philosophy
+Layout: Post
+Title:  The Big History, From Start To End 
+Tags: Thoughts
+Category: Philosophy
 --- 
 
 in the grand scheme of things, our lives are a brief glimpse of light 
@@ -10,101 +11,112 @@ in the grand scheme of things, our lives are a brief glimpse of light
 so petty are ideologies, nations, religions, money,  power, pleasure.. 
 
 
-## cosmic calendar
+## Cosmic Calendar
 
-if you think of all time as a year, Jan 1st is Big Bang, and every second would be 431 years
+if you think of all time as a year, jan 1st is big bang, and every second would be 431 years
 
 humans appeared in the last minutes of the year, and our lives are just miliseconds
 
 
+**Big Bang**, 13.8 Billion Years, Or 13 800 Million Years ago
 
-**Big Bang**, 13.8 billion years, or 13 800 million years 
+**Milkyway** 13.5B  
 
-**Milkyway** 13.5b years  
+**Sun And Earth** 4.5B, or 4500 million years ago 
 
-**Sun and Earth** 4.5b years, or 4500 million years 
+**Single Cell Organisms** 4.1B 
 
-**single cell organisms** 4.1b years 
+**First Multi Cellular Life** 600 million years ago 
 
-**first multi cellular life** 600 million years  
+**First Fish** 530M  
 
-**first fish** 530 million years 
+**First Insects** 412M  
 
-**first insects** 412m years 
+**First Reptiles** 315M 
 
-**first reptiles** 315m years
+**First Dinosaurs** 230M 
 
-**first dinosaurs** 230m years
+**First Mammals** 210M 
 
-**first mammals** 210m years
+**End Of Dinosaurs** 65M  
 
-**end of dinosaurs** 65m years 
+**Last Common Ancestor Of Humans And Chimps** 6M    
 
-**last common ancestor of humans and chimps** 6m years   
+**First Humans** 3M  
 
-**First humans** 3 million years 
+**First Stone Tools, Fire** 2M 
 
-**first stone tools, fire** 2m years
+They Were Survival Experts 
 
-they were survival experts 
+Cooperation Is What Makes Us Different 
 
-cooperation is what makes us different 
+Language And Writing Enabled Us To Expand, Preserve, Build On Knowledge
 
-language and writing enabled us to expand, preserve, build on knowledge
+**Sapiens** 200 000 Years
 
-**Sapiens** 200 000 years
+**Cave Paintings** 30 000 Years 
 
-**cave paintings** 30 000 years 
+**End Of The Last Ice Age, Agriculture, First Temple** 12 000 Years
 
-**End of the last ice age, agriculture, first temple** 12 000 years
+Agriculture Creates Surplus Food -> Enables Specialization -> Creates Social Classes 
 
-agriculture creates surplus food -> enables specialization -> creates social classes 
+Food Stock Needs Protection -> Villages -> Cities -> Kingdoms -> Empires -> Wars 
 
-food stock needs protection -> villages -> cities -> kingdoms -> empires -> wars 
+**First Cities** 7500 BC 
 
-**first cities** 7500 bc 
+**Copper** 5000 BC 
 
-**copper** 5000 bc 
+**Wheel, Ancient Egypt, Sumerians** 3500 BC 
 
-**Wheel, Ancient Egypt, Sumerians** 3500 bc 
+**First Writing** 3200 BC 
 
-**first writing** 3200 bc 
+**Pyramids, Paper** 3000 BC
 
-**Pyramids, paper, bronze age** 3000 bc
+**Bronze Age** 3000 BC - 1200 BC 
 
-**Rome founded** 750 bc 
+**First Chinese dynasty Xia** 2070–1600 BC
 
-**iron age** 500 bc 
+**Babylonian Hammurabi Code** 1754 BC
 
-**middle ages** 476 fall of Western Rome - 1453 fall of Eastern Rome
+**Rome Founded** 750 BC 
+
+**Iron Age** 1050 BC - 500 BC 
+
+**Classical antiquity** centered on the Mediterranean Sea, 480 BC - 476 
+
+**Middle Ages** 476 Fall Of Western Rome - 1453 Fall Of Eastern Rome
+
+**The Renaissance** 1300 – 1600
 
 **Gunpowder** 904, China
 
-**crusades** 1096-1291
+**Crusades** 1096-1291
 
-**black plague** 1300s 
+**Black Plague** 1300s 
 
-**America discovered** 1492
+**America Discovered** 1492
 
-**First newspapers** 1500s
+**First Newspapers** 1500S
 
-**Toilet invented** 1596
+**Toilet Invented** 1596
 
 **Telescope** 1608
 
-**Steam engine** 1698
+**Steam Engine** 1698
 
-**US founded** 1796
+**French Revolution** 1789
+
+**Us Founded** 1796
 
 **Vaccine** 1796
 
-**napoleon** 1815
+**Napoleon** 1815
 
-**DC motor** 1832
+**Dc Motor** 1832
 
-**Darwin published On the Origin of Species** 1859
+**Darwin Published On The Origin Of Species** 1859
 
-**Combustion engine** 1872
+**Combustion Engine** 1872
 
 **Telephone** 1879
 
@@ -112,121 +124,136 @@ food stock needs protection -> villages -> cities -> kingdoms -> empires -> wars
 
 **Car** 1886
 
-**AC motor** 1887 
+**Ac Motor** 1887 
 
 **Radio** 1894
 
-**First flight** 1903 
+**First Flight** 1903 
 
-**The theory of special relativity** 1905
+**The Theory Of Special Relativity** 1905
 
-**IBM** 1911
+**Ibm** 1911
 
 **Boeing** 1911
 
-**WWI** 1914
+**Wwi** 1914
 
-**The theory of general relativity** 1915
+**The Theory Of General Relativity** 1915
 
 **Bell Labs** 1925
 
-**Edwin Hubble found expansion of universe** 1915
+**Edwin Hubble Found Expansion Of Universe** 1915
 
 
 **Television** 1927
 
-**WWII** 1939
+**Wwii** 1939
 
-**Nuclear bomb** 1945
+**Nuclear Bomb** 1945
 
-**Digital computer** 1946 ENIAC
+**Digital Computer** 1946 Eniac
 
 **Transistor** 1947
 
 **Cold War** 1947-1991
 
+**Korean War** 1950–1953
 
+**Vietnam War** 1955–1975
 
-**NASA found** 1958 
+**Nasa Found** 1958 
 
-**Berlin wall** 1961-1989
+**Berlin Wall** 1961-1989
 
-**Cuban missile crisis** 1962 
+**Cuban Missile Crisis** 1962 
 
-**APOLLO 1** 1967
+**The Birth of the Internet** 1965-1995
 
-**APOLLO 11, humans on the Moon** July 20, 1969, at 20:17 UTC
-
-**First internet ideas** 1963 ARPANET 
+**Apollo 1** 1967
 
 **Intel** 1968
 
-**first cell phone** 1973 
+**Apollo 11, Humans On The Moon** July 20, 1969, At 20:17 Utc
 
-**microsoft** 1975 
+**First Cell Phone** 1973 
+
+**Microsoft** 1975 
 
 **Apple** 1976
 
-**First mac** 1984 
+**First Mac** 1984 
 
-**AOL** 1985
+**Aol** 1985
 
 **Windows 1.0** 1987 
 
-**IMDB** 1990
+**Tiananmen Square Protests** 1989
 
-**The dissolution of the Soviet Union** 1991
+**Imdb** 1990
 
-**Mosaic browser** 1993
+**The Dissolution Of The Soviet Union** 1991
 
-**yahoo** 1994
+**Bosnian War** 1992-1995
 
-**amazon** 1994
+**Mosaic Browser** 1993
 
-**google** 1998
+**EU founded** 1993
 
-**salesforce** 1998
+**Rwandan Genocide** 1994
 
-**International Space Station launched** 1998
+**Yahoo** 1994
 
-**wikipedia** 2001
+**Amazon** 1994
 
-**linkedin** 2001
+**Google** 1998
 
-**SpaceX** 2002
+**Salesforce** 1998
+
+**International Space Station Launched** 1998
+
+**9/11** 2001 
+
+**Wikipedia** 2001
+
+**Linkedin** 2001
+
+**Spacex** 2002
 
 **Tesla** 2003
 
 **Iraq War** 2011
 
-**safari** 2003
+**Safari** 2003
 
-**gmail** 2004
+**Gmail** 2004
 
-**fb** 2004
+**Fb** 2004
 
-**reddit** 2005 
+**Reddit** 2005 
 
-**youtube** 2005 
+**Youtube** 2005 
 
-**twitter** 2006 
+**Twitter** 2006 
 
-**first iphone** 2007
+**First Iphone** 2007
 
-**github** 2009
+**Github** 2009
 
-**whatsapp** 2009
+**Whatsapp** 2009
 
-**instagram** 2010
+**Instagram** 2010
 
+**Arab Spring** 2010
 
-**Syrian Civil War** 2011
+**Syrian Civil War Started** 2011
 
-**chrome** 2012
+**Chrome** 2012
 
-**COVID-19** 2019-
+**The first-ever image of a supermassive black hole** 10 April 2019
 
-## the future 
+**Covid-19** 2019-
+
+## The Future 
 
 in at most 1b years, life on earth will end
 
@@ -239,16 +266,3 @@ at some point, all stars and even black holes will die
 heat death, end of universe 
 
 life is brief, enjoy it
-
-
-
-
-
-
-
-
-
-
-
-
-
