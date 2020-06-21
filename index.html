@@ -58,16 +58,17 @@ it is all within yourself, in your way of thinking. - Marcus Aurelius </p>
 
 
         {% if category_name ==  "philosophy" %}
-            <img src="img/mo.jpg" />
+        <img src="img/nature.jpg" />
+        {% endif %}
+
+        {% if category_name ==  "psychology" %}
+            <img src="img/people.jpg" />
         {% endif %}
 
         {% if category_name ==  "thoughts" %}
-            <img src="img/nature.jpg" />
+            <img src="img/mo.jpg" />
         {% endif %}
 
-        {% if category_name ==  "work" %}
-            <img src="img/people.jpg" />
-        {% endif %}
 
         <h1 class="tag" id="{{ category_name | downcase }}">{{ category_name }}</h1>
 
