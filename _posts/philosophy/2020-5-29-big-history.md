@@ -266,3 +266,10 @@ at some point, all stars and even black holes will die
 heat death, end of universe 
 
 life is brief, enjoy it
+
+
+---
+
+DNA
+
+CRISPR 
