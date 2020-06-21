@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Helpful approaches to problem solving 
-tags: problem-solving
-category: skills
+title: Problem Solving
+tags: skills
+category: thoughts
 ---
 
 Don't panic 

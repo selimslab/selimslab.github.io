@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Shift your perspective to relax  
-tags: public-speaking
-category: skills
+title: Public Speaking? Relax 
+tags: skills
+category: thoughts
 ---
 
  [from Matt Abraham's talk at Stanford Graduate School of Business
