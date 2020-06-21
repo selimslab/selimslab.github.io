@@ -9,46 +9,76 @@ category: psychology
 <sub>The Sea at Les Saintes-Maries-de-la-Mer by van Gogh</sub>
 
 
-Just one more 
+## Work
 
-Beginner’s Mind
-
-Joy of missing out 
+Start small, simple to complex 
 
 Focus, work on one thing 
 
-Start small 
+Breakdown tasks 
 
-Think ! 
+Just one more 
+
+Park downhill 
+
+Pre-mortems, prevent bad things before they happen 
+
+## Learning 
+
+Beginner’s Mind
+
+Spaced repetition 
+
+Deliberate practive 
+
+Separate work from leisure 
+
+## Systems
+
+Write down 
+
+have a goal ? get a plan and system 
+
+Goal -> Plan -> System 
+
+Prioritize 
+
+Iterate
+
+Delegate 
 
 Artificial deadlines
 
-10/10/10 
+inbox zero 
+
+## Mindfulness
+
+view yourself from outside 
+
+Strategic laziness
+
+talk less, do less, think less -> recharge 
+
+Joy of missing out 
+
+## Reframe
 
 This will all be over by tomorrow 
+
+10/10/10, will it matter in 10 days, 10 months, 10 years ?
+
+
+## Life is grey 
 
 I know -> it seems, it appears 
 
 Good, bad -> I feel this way because .. 
 
-Out camera 
-
-Shutting up 
-
-Iterate 
-
-Write down 
-
-Systems 
-
-inbox zero 
-
-Strategic laziness
-
-Breakdown tasks 
-
 Grain of salt 
 
+Think for yourself! 
+
+---
 
 more tools at 
 
