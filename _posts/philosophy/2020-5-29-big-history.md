@@ -1,9 +1,8 @@
-
 ---
 Layout: Post
 Title:  The Big History, From Start To End 
 Tags: Thoughts
-Category: Philosophy
+Category: philosophy
 --- 
 
 in the grand scheme of things, our lives are a brief glimpse of light 
@@ -159,6 +158,8 @@ Food Stock Needs Protection -> Villages -> Cities -> Kingdoms -> Empires -> Wars
 
 **Korean War** 1950–1953
 
+**DNA double helix** 1953 
+
 **Vietnam War** 1955–1975
 
 **Nasa Found** 1958 
@@ -186,6 +187,8 @@ Food Stock Needs Protection -> Villages -> Cities -> Kingdoms -> Empires -> Wars
 **Aol** 1985
 
 **Windows 1.0** 1987 
+
+**CRISPR** 1987
 
 **Tiananmen Square Protests** 1989
 
@@ -268,8 +271,4 @@ heat death, end of universe
 life is brief, enjoy it
 
 
----
 
-DNA
-
-CRISPR 
