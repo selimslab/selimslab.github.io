@@ -1,5 +1,5 @@
 ---
-layout: Post
+layout: post
 title:  The Big History, From Start To End 
 tags: thoughts recommended
 category: philosophy
