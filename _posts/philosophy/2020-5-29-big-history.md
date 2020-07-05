@@ -1,13 +1,13 @@
 ---
-Layout: Post
-Title:  The Big History, From Start To End 
-Tags: thoughts recommended
-Category: philosophy
+layout: Post
+title:  The Big History, From Start To End 
+tags: thoughts recommended
+category: philosophy
 --- 
 
 in the grand scheme of things, our lives are a brief glimpse of light 
 
-so petty are ideologies, nations, religions, money,  power, pleasure.. 
+so petty are ideologies, nations, religions, money,  power, pleasure, pain.. 
 
 
 ## Cosmic Calendar
