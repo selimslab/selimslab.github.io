@@ -156,6 +156,9 @@ Food Stock Needs Protection -> Villages -> Cities -> Kingdoms -> Empires -> Wars
 
 **Cold War** 1947-1991
 
+**Israel found** 1948
+
+
 **Korean War** 1950–1953
 
 **DNA double helix** 1953 
@@ -174,17 +177,35 @@ Food Stock Needs Protection -> Villages -> Cities -> Kingdoms -> Empires -> Wars
 
 **Intel** 1968
 
+**Multics** 1969
+
 **Apollo 11, Humans On The Moon** July 20, 1969, At 20:17 Utc
 
+**UNIX** 1971
+
+**C programming language** 1972
+
 **First Cell Phone** 1973 
+
+**ALTAIR 8800** 1975
 
 **Microsoft** 1975 
 
 **Apple** 1976
 
-**First Mac** 1984 
+**Apple I** 1976
+
+**Apple II** 1977
+
+**Iran Revolution** 1979
+
+**IBM PC** 1981
+
+**Macintosh** 1984 
 
 **Aol** 1985
+
+**C++** 1985
 
 **Windows 1.0** 1987 
 
@@ -194,11 +215,19 @@ Food Stock Needs Protection -> Villages -> Cities -> Kingdoms -> Empires -> Wars
 
 **Imdb** 1990
 
+**Python** 1990
+
+**Haskell (programming language)** 1990
+
 **The Dissolution Of The Soviet Union** 1991
 
 **Bosnian War** 1992-1995
 
 **Mosaic Browser** 1993
+
+**Netscape Navigator** 1994
+
+**Internet Explorer** 1994
 
 **EU founded** 1993
 
@@ -207,6 +236,14 @@ Food Stock Needs Protection -> Villages -> Cities -> Kingdoms -> Empires -> Wars
 **Yahoo** 1994
 
 **Amazon** 1994
+
+**PHP** 1994
+
+**Java** 1996
+
+**JavaScript** 1996
+
+**PostgreSQL** 1996
 
 **Google** 1998
 
@@ -218,11 +255,15 @@ Food Stock Needs Protection -> Villages -> Cities -> Kingdoms -> Empires -> Wars
 
 **Wikipedia** 2001
 
+**C#** 2001
+
 **Linkedin** 2001
 
 **Spacex** 2002
 
 **Tesla** 2003
+
+**Scala** 1996
 
 **Iraq War** 2011
 
@@ -238,19 +279,29 @@ Food Stock Needs Protection -> Villages -> Cities -> Kingdoms -> Empires -> Wars
 
 **Twitter** 2006 
 
-**First Iphone** 2007
+**Goodreads** 2006 
+
+**iPhone** 2007
+
+**Kindle** 2007
 
 **Github** 2009
+
+**Go** 2010
 
 **Whatsapp** 2009
 
 **Instagram** 2010
+
+**Rust** 2010
 
 **Arab Spring** 2010
 
 **Syrian Civil War Started** 2011
 
 **Chrome** 2012
+
+**iPad** 2012
 
 **The first-ever image of a supermassive black hole** 10 April 2019
 
