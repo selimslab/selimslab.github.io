@@ -1,7 +1,7 @@
 ---
 Layout: Post
 Title:  The Big History, From Start To End 
-Tags: Thoughts
+Tags: thoughts recommended
 Category: philosophy
 --- 
 
@@ -185,6 +185,8 @@ Food Stock Needs Protection -> Villages -> Cities -> Kingdoms -> Empires -> Wars
 
 **C programming language** 1972
 
+**Apollo 17** 1972
+
 **First Cell Phone** 1973 
 
 **ALTAIR 8800** 1975
@@ -219,7 +221,7 @@ Food Stock Needs Protection -> Villages -> Cities -> Kingdoms -> Empires -> Wars
 
 **Haskell (programming language)** 1990
 
-**The Dissolution Of The Soviet Union** 1991
+**The Dissolution Of The Soviet Union, USSR** 1991
 
 **Bosnian War** 1992-1995
 
