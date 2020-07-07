@@ -5,45 +5,38 @@ tags: thoughts recommended
 category: philosophy
 --- 
 
-in the grand scheme of things, our lives are a brief glimpse of light 
-
-so petty are ideologies, nations, religions, money,  power, pleasure, pain.. 
 
 
 ## Cosmic Calendar
 
-if you think of all time as a year, jan 1st is big bang, and every second would be 431 years
 
-humans appeared in the last minutes of the year, and our lives are just miliseconds
+Big Bang, 13.8 Billion Years, Or 13 800 Million Years ago
 
+Milkyway 13.5B  
 
-**Big Bang**, 13.8 Billion Years, Or 13 800 Million Years ago
+Sun And Earth 4.5B, or 4500 million years ago 
 
-**Milkyway** 13.5B  
+Single Cell Organisms 4.1B 
 
-**Sun And Earth** 4.5B, or 4500 million years ago 
+First Multi Cellular Life 600 million years ago 
 
-**Single Cell Organisms** 4.1B 
+First Fish 530M  
 
-**First Multi Cellular Life** 600 million years ago 
+First Insects 412M  
 
-**First Fish** 530M  
+First Reptiles 315M 
 
-**First Insects** 412M  
+First Dinosaurs 230M 
 
-**First Reptiles** 315M 
+First Mammals 210M 
 
-**First Dinosaurs** 230M 
+End Of Dinosaurs 65M  
 
-**First Mammals** 210M 
+Last Common Ancestor Of Humans And Chimps 6M    
 
-**End Of Dinosaurs** 65M  
+First Humans 3M  
 
-**Last Common Ancestor Of Humans And Chimps** 6M    
-
-**First Humans** 3M  
-
-**First Stone Tools, Fire** 2M 
+First Stone Tools, Fire 2M 
 
 They Were Survival Experts 
 
@@ -51,263 +44,474 @@ Cooperation Is What Makes Us Different
 
 Language And Writing Enabled Us To Expand, Preserve, Build On Knowledge
 
-**Sapiens** 200 000 Years
+Sapiens 200 000 Years
 
-**Cave Paintings** 30 000 Years 
+Cave Paintings 30 000 Years 
 
-**End Of The Last Ice Age, Agriculture, First Temple** 12 000 Years
+End Of The Last Ice Age, Agriculture, First Temple 12 000 Years
 
 Agriculture Creates Surplus Food -> Enables Specialization -> Creates Social Classes 
 
 Food Stock Needs Protection -> Villages -> Cities -> Kingdoms -> Empires -> Wars 
 
-**First Cities** 7500 BC 
+First Cities 7500 BC 
 
-**Copper** 5000 BC 
+Copper 5000 BC 
 
-**Wheel, Ancient Egypt, Sumerians** 3500 BC 
+## Ancient History
 
-**First Writing** 3200 BC 
+Wheel, Ancient Egypt, Sumerians 3500 BC 
 
-**Pyramids, Paper** 3000 BC
+First Writing 3200 BC 
 
-**Bronze Age** 3000 BC - 1200 BC 
+### Bronze Age 3000 BC - 1200 BC 
 
-**First Chinese dynasty Xia** 2070–1600 BC
+Pyramids, Paper 3000 BC
 
-**Babylonian Hammurabi Code** 1754 BC
 
-**Rome Founded** 750 BC 
+### Iron Age 1050 BC - 500 BC 
 
-**Iron Age** 1050 BC - 500 BC 
+First Chinese dynasty Xia 2070–1600 BC
 
-**Classical antiquity** centered on the Mediterranean Sea, 480 BC - 476 
+Babylonian Hammurabi Code 1754 BC
 
-**Middle Ages** 476 Fall Of Western Rome - 1453 Fall Of Eastern Rome
+Rome Founded 750 BC 
 
-**The Renaissance** 1300 – 1600
+## Classical antiquity 
 
-**Gunpowder** 904, China
+centered on the Mediterranean Sea, 480 BC - 476 
 
-**Crusades** 1096-1291
+## Middle Ages
 
-**Black Plague** 1300s 
+476 Fall Of Western Rome - 1453 Fall Of Eastern Rome
 
-**America Discovered** 1492
+Gunpowder 904, China
 
-**First Newspapers** 1500S
+Crusades 1096-1291
 
-**Toilet Invented** 1596
+Black Plague 1300s 
 
-**Telescope** 1608
+America Discovered 1492
 
-**Steam Engine** 1698
+The Renaissance 1300 – 1600
 
-**French Revolution** 1789
+## 1500s
 
-**Us Founded** 1796
+First Newspapers 
 
-**Vaccine** 1796
+## 1600s
 
-**Napoleon** 1815
+Telescope 1608
 
-**Dc Motor** 1832
+Steam Engine 1698
 
-**Darwin Published On The Origin Of Species** 1859
+Tulip mania (1637) 
 
-**Combustion Engine** 1872
+## 1700s
 
-**Telephone** 1879
+Mississippi Company (1720) (France)
 
-**Ligtbulb** 1879
+French Revolution 1789
 
-**Car** 1886
+Us Founded 1796
 
-**Ac Motor** 1887 
+Vaccine 1796
 
-**Radio** 1894
+## 1800s
 
-**First Flight** 1903 
+electricity
 
-**The Theory Of Special Relativity** 1905
+Napoleon 
 
-**Ibm** 1911
+Dc Motor 1832
 
-**Boeing** 1911
+Darwin Published On The Origin Of Species 1859
 
-**Wwi** 1914
+Combustion Engine 1872
 
-**The Theory Of General Relativity** 1915
+Telephone 1879
 
-**Bell Labs** 1925
+Ligtbulb 1879
 
-**Edwin Hubble Found Expansion Of Universe** 1915
+Car 1886
 
+Ac Motor 1887 
 
-**Television** 1927
+Radio 1894
 
-**Wwii** 1939
+Blues
 
-**Nuclear Bomb** 1945
+# 1900s
 
-**Digital Computer** 1946 Eniac
+First Flight 03 
 
-**Transistor** 1947
+The Theory Of Special Relativity 05
 
-**Cold War** 1947-1991
+## 10s
 
-**Israel found** 1948
+Ibm 11
 
+Boeing 11
 
-**Korean War** 1950–1953
+**WW I** 14-18
 
-**DNA double helix** 1953 
+The Theory Of General Relativity 15
 
-**Vietnam War** 1955–1975
+## 20s
 
-**Nasa Found** 1958 
+Jazz
 
-**Berlin Wall** 1961-1989
+Country
 
-**Cuban Missile Crisis** 1962 
+Bell Labs 25
 
-**The Birth of the Internet** 1965-1995
+Edwin Hubble Found Expansion Of Universe 15
 
-**Apollo 1** 1967
+Television 27
 
-**Intel** 1968
+Great Depression 29-33
 
-**Multics** 1969
+## 30s
 
-**Apollo 11, Humans On The Moon** July 20, 1969, At 20:17 Utc
+**WW II** 39-45 
 
-**UNIX** 1971
+1939 Hewlett-Packard
 
-**C programming language** 1972
 
-**Apollo 17** 1972
+## 40s
 
-**First Cell Phone** 1973 
+45, atomic bomb, start of Nuclear Era
 
-**ALTAIR 8800** 1975
 
-**Microsoft** 1975 
+Digital Computer ENIAC 43-44
 
-**Apple** 1976
+46 UNIVAC, the first commercial computer for business and government applications.
 
-**Apple I** 1976
+Transistor 47
 
-**Apple II** 1977
+Jonas Salk and his team found Polio Vaccine 48-55
 
-**Iran Revolution** 1979
+Cold War 47-91
 
-**IBM PC** 1981
+Israel founded 48
 
-**Macintosh** 1984 
+## 50s
 
-**Aol** 1985
+Rock and Roll
 
-**C++** 1985
+Elvis 
 
-**Windows 1.0** 1987 
+Korean War 50–53
 
-**CRISPR** 1987
+COBOL 53 
 
-**Tiananmen Square Protests** 1989
+Fortran 54
 
-**Imdb** 1990
+DNA double helix 53 
 
-**Python** 1990
+Cuban Revolution 53-59
 
-**Haskell (programming language)** 1990
+Vietnam War 55–75
 
-**The Dissolution Of The Soviet Union, USSR** 1991
+Nasa 58 
 
-**Bosnian War** 1992-1995
+Integrated Circuit 1958
 
-**Mosaic Browser** 1993
+## 60s
 
-**Netscape Navigator** 1994
+Beatles 
 
-**Internet Explorer** 1994
+Scorpions
 
-**EU founded** 1993
+Pink Floyd
 
-**Rwandan Genocide** 1994
+The Rolling Stones
 
-**Yahoo** 1994
+1964: Douglas Engelbart shows a prototype of the modern computer, with a mouse and a graphical user interface (GUI)
 
-**Amazon** 1994
+Six-Day War 67
 
-**PHP** 1994
+Berlin Wall 61-89
 
-**Java** 1996
+Cuban Missile Crisis 62 
 
-**JavaScript** 1996
+Martin Luther King Jr. makes "I Have a Dream" speech 63 
 
-**PostgreSQL** 1996
+Kennedy assassinated 63
 
-**Google** 1998
+The Birth of the Internet 65-95
 
-**Salesforce** 1998
+Apollo 1 67
 
-**International Space Station Launched** 1998
+Intel 68
 
-**9/11** 2001 
+Multics 69
 
-**Wikipedia** 2001
+UNIX 69
 
-**C#** 2001
+1970 DRAM, Dynamic Access Memory
 
-**Linkedin** 2001
+Apollo 11, Humans On The Moon July 20, 69, At 20:17 Utc
 
-**Spacex** 2002
+## 70s
 
-**Tesla** 2003
+1971 Floppy Disk
 
-**Scala** 1996
+1973 Ethernet
 
-**Iraq War** 2011
+1974-1977: A number of personal computers hit the market
 
-**Safari** 2003
+Led Zeppelin 
 
-**Gmail** 2004
+AC/DC
 
-**Fb** 2004
+Aerosmith
 
-**Reddit** 2005 
+Queen
 
-**Youtube** 2005 
+Hip Hop
 
-**Twitter** 2006 
+Heavy Metal
 
-**Goodreads** 2006 
+Alternative Rock
 
-**iPhone** 2007
+C programming language 72
 
-**Kindle** 2007
+Apollo 17 72
 
-**Github** 2009
+First Cell Phone 73 
 
-**Go** 2010
+73 Arab–Israeli War, Yom Kippur War
 
-**Whatsapp** 2009
+73 oil crisis
 
-**Instagram** 2010
+ALTAIR 8800 75
 
-**Rust** 2010
+Microsoft 75 
 
-**Arab Spring** 2010
+Apple 76
 
-**Syrian Civil War Started** 2011
+Apple I 76
 
-**Chrome** 2012
+Apple II 77
 
-**iPad** 2012
+1978 VisiCalc, the first spreadsheet program
 
-**The first-ever image of a supermassive black hole** 10 April 2019
+79 WordStar, word processing
 
-**Covid-19** 2019-
+Camp David Accords 78
+
+Iran Revolution 79
+
+Latin American debt crisis (late 1970s, early 1980s) known as "lost decade"
+
+## 80s
+
+Guns N' Roses
+
+Metallica
+
+Nirvana
+
+R.E.M.
+
+Red Hot Chili Peppers
+
+Pixies
+
+Iran-Iraq War 80-88
+
+IBM PC 81
+
+Commodore 64 1982, 64 KB of RAM, $595, sold more than 22 million units
+
+1983: Apple's Lisa is the first personal computer with a GUI
+
+Macintosh 84, $2,500
+
+1985, The first dot-com domain name is registered, symbolics.com
+
+Aol 85
+
+C++ 85
+
+Windows 1.0 87 
+
+CRISPR 87
+
+Tiananmen Square Protests 89
+
+## 90s
+
+Gulf War 90-91
+
+Imdb 90
+
+Hubble 90
+
+Python 90
+
+Haskell (programming language) 90
+
+The Dissolution Of The Soviet Union, USSR 91
+
+Bosnian War 92-95
+
+Mosaic Browser 93
+
+Pentium processor 93
+
+Dolly cloned 93
+
+Oslo Peace Process 93
+
+Netscape Navigator 94
+
+Internet Explorer 94
+
+EU founded 93
+
+Rwandan Genocide 94
+
+Yahoo 94
+
+Amazon 94
+
+PHP 94
+
+Java 96
+
+Ruby 96
+
+JavaScript 96
+
+PostgreSQL 96
+
+Scala 96
+
+1997: Microsoft invests $150 million in Apple
+
+Google 98
+
+Salesforce 98
+
+1999 Wifi
+
+1997 Asian financial crisis
+
+1998 Russian financial crisis
+
+International Space Station Launched 98
+
+## 2000s
+
+9/11 2001 
+
+War in Afghanistan (2001–present)
+
+Iraq War 2003-2011
+
+Wikipedia 2001
+
+C# 2001
+
+Linkedin 2001
+
+Spacex 2002
+
+Euro 2002
+
+Tesla 2003
+
+2003: The first 64-bit processor, AMD's Athlon 64
+
+Safari 2003
+
+Gmail 2004
+
+Fb 2004
+
+Arduino 2005
+
+a tsunami from the Indian Ocean earthquake kills over 230,000 in 2004
+
+Reddit 2005 
+
+Youtube 2005 
+
+Twitter 2006 
+
+MacBook Pro 2006
+
+Nintendo's Wii 2006
+
+Goodreads 2006 
+
+iPhone 2007
+
+Kindle 2007
+
+2008 Financial Crisis
+
+Macbook Air 2008 
+
+Windows 7 2009
+
+Github 2009
+
+Go 2010
+
+Whatsapp 2009
+
+## 2010s
+
+Instagram 2010
+
+Rust 2010
+
+2012: Facebook gains 1 billion users
+
+Arab Spring 2010-12
+
+Syrian Civil War 2011-
+
+Chrome 2012
+
+iPad 2012
+
+Raspberry Pi 2012
+
+Somali Civil War (2009–present)
+
+Libyan Civil War (2014–present)
+
+Yemeni Civil War 2015-
+
+ISIS
+
+Rohingya persecution
+
+Windows 10 2015
+
+Apple Watch 2015 
+
+2016: The first reprogrammable quantum computer was created
+
+climate change awareness and the Paris Agreement 2016
+
+The first-ever image of a supermassive black hole 10 April 20
+
+same-sex marriage becomes legal in many countries
+
+increasing use of digital and mobile technologies
+
+rises in populism including the UK voting to leave the EU
+
+## 2020s
+
+Covid- 20-
+
+May 25 2020 killing of George Floyd
 
 ## The Future 
 
@@ -320,6 +524,14 @@ in 100b years most stars will die
 at some point, all stars and even black holes will die
 
 heat death, end of universe 
+
+in the grand scheme of things, our lives are a brief glimpse of light 
+
+so petty are ideologies, nations, religions, money,  power, pleasure, pain.. 
+
+if you think of all time as a year, jan 1st is big bang, and every second would be 431 years
+
+humans appeared in the last minutes of the year, and our lives are just miliseconds
 
 life is brief, enjoy it
 
