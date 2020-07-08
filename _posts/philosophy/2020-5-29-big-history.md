@@ -7,10 +7,14 @@ category: philosophy
 
 
 
-## Cosmic Calendar
+## The Beginning
 
 
 Big Bang, 13.8 Billion Years, Or 13 800 Million Years ago
+
+if you think of this 13.6B years as a single year, then every second would be 431 years
+
+humans appeared in the last minutes of the year, and our lives are just miliseconds
 
 Milkyway 13.5B  
 
@@ -195,11 +199,9 @@ Cold War 47-91
 
 Israel founded 48
 
+Chinese Communist Revolution 49
+
 ## 50s
-
-Rock and Roll
-
-Elvis 
 
 Korean War 50–53
 
@@ -216,6 +218,8 @@ Vietnam War 55–75
 Nasa 58 
 
 Integrated Circuit 1958
+
+Rock and Roll
 
 ## 60s
 
@@ -343,33 +347,24 @@ Tiananmen Square Protests 89
 
 ## 90s
 
-Gulf War 90-91
-
-Imdb 90
-
-Hubble 90
-
-Python 90
-
-Haskell (programming language) 90
+90: Hubble, Imdb, Python, Haskell, Gulf War
 
 The Dissolution Of The Soviet Union, USSR 91
 
 Bosnian War 92-95
 
-Mosaic Browser 93
+ 93
 
-Pentium processor 93
+ 93
 
-Dolly cloned 93
+ 93
 
-Oslo Peace Process 93
+93: Dolly cloned, Pentium processor, Mosaic Browser, EU founded
 
-Netscape Navigator 94
+94: Netscape Navigator, Internet Explorer
 
-Internet Explorer 94
-
-EU founded 93
+ 94
+ 93
 
 Rwandan Genocide 94
 
@@ -387,7 +382,6 @@ JavaScript 96
 
 PostgreSQL 96
 
-Scala 96
 
 1997: Microsoft invests $150 million in Apple
 
@@ -405,101 +399,50 @@ International Space Station Launched 98
 
 ## 2000s
 
-9/11 2001 
+2001: Linkedin, C#, Wikipedia, 9/11, War in Afghanistan (2001–present)
 
-War in Afghanistan (2001–present)
+2002: Euro, Spacex
 
-Iraq War 2003-2011
+2003: The first 64-bit processor, AMD's Athlon 64, Safari, Tesla, Iraq War (2003-2011)
 
-Wikipedia 2001
+2004: Gmail,Fb, Scala, a tsunami from the Indian Ocean earthquake kills over 230,000 
 
-C# 2001
+2005: Arduino, Reddit, Youtube
 
-Linkedin 2001
+2006: Twitter, MacBook Pro, Wii, Goodreads
 
-Spacex 2002
+2007: iPhone, Kindle
 
-Euro 2002
+2008: Financial Crisis, Macbook Air
 
-Tesla 2003
-
-2003: The first 64-bit processor, AMD's Athlon 64
-
-Safari 2003
-
-Gmail 2004
-
-Fb 2004
-
-Arduino 2005
-
-a tsunami from the Indian Ocean earthquake kills over 230,000 in 2004
-
-Reddit 2005 
-
-Youtube 2005 
-
-Twitter 2006 
-
-MacBook Pro 2006
-
-Nintendo's Wii 2006
-
-Goodreads 2006 
-
-iPhone 2007
-
-Kindle 2007
-
-2008 Financial Crisis
-
-Macbook Air 2008 
-
-Windows 7 2009
-
-Github 2009
-
-Go 2010
-
-Whatsapp 2009
+2009: Windows 7, Github, Whatsapp, Somali Civil War (2009–present)
 
 ## 2010s
 
-Instagram 2010
+2010: Instagram, Go, Arab Spring (2010-12)
 
-Rust 2010
+2011: Syrian Civil War (2011-)
 
-2012: Facebook gains 1 billion users
+2012: iPad, Facebook gains 1 billion users, Chrome, Raspberry Pi
 
-Arab Spring 2010-12
+2013: 
 
-Syrian Civil War 2011-
+2014: Libyan Civil War (2014–present)
 
-Chrome 2012
+2015: Rust, Yemeni Civil War (2015-), Windows 10, Apple Watch
 
-iPad 2012
+2016: The first reprogrammable quantum computer was created, 
+climate change awareness and the Paris Agreement
 
-Raspberry Pi 2012
+2017: Istanbul Nightclub Shooting, Trump, Rohingya refugee crisis
 
-Somali Civil War (2009–present)
+2018: 
 
-Libyan Civil War (2014–present)
-
-Yemeni Civil War 2015-
+2019: The first-ever image of a supermassive black hole 
 
 ISIS
 
 Rohingya persecution
-
-Windows 10 2015
-
-Apple Watch 2015 
-
-2016: The first reprogrammable quantum computer was created
-
-climate change awareness and the Paris Agreement 2016
-
-The first-ever image of a supermassive black hole 10 April 20
 
 same-sex marriage becomes legal in many countries
 
@@ -509,29 +452,21 @@ rises in populism including the UK voting to leave the EU
 
 ## 2020s
 
-Covid- 20-
-
-May 25 2020 killing of George Floyd
+2020: Covid-19, George Floyd
 
 ## The Future 
 
-in at most 1b years, life on earth will end
-
-in 4b years sun will die  
-
-in 100b years most stars will die 
+life on earth will end, sun will die, then most stars will die 
 
 at some point, all stars and even black holes will die
 
-heat death, end of universe 
+heat death, end of universe. 
+
+---
 
 in the grand scheme of things, our lives are a brief glimpse of light 
 
 so petty are ideologies, nations, religions, money,  power, pleasure, pain.. 
-
-if you think of all time as a year, jan 1st is big bang, and every second would be 431 years
-
-humans appeared in the last minutes of the year, and our lives are just miliseconds
 
 life is brief, enjoy it
 
