@@ -5,7 +5,7 @@ tags: social
 category: links
 --- 
 
-
+The Unexpected Antidote to Procrastination | Peter Bregman
 
 [Tao Te Ching - Chapter 17 - Translation by Stephen Mitchell](http://taoteching.org.uk/chapter17.html)
 

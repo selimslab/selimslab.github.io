@@ -14,3 +14,4 @@ Testesterone, alcohol, frustration, pain, stress, boredom, violent movies and ga
 Emotions are connected to senses. Physical disgust and moral disgust activates the same areas in the brain. 
 
 Forntal cortex damage leads to a lot of violence. Why not to more empathy? Not clear. 
+

@@ -51,6 +51,8 @@ Artificial deadlines
 
 inbox zero 
 
+everything looks like a failure in the middle, keep going 
+
 ## Mindfulness
 
 view yourself from outside 

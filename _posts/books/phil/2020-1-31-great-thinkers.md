@@ -85,7 +85,7 @@ Courage, self-control, reasonableness, independence and calm
 
 Art is propaganda 
 
-We need senatorship, art could lead to better but worse 
+We need cencorship, art could lead to better but worse 
 
 we need better childhoods and better role models
 

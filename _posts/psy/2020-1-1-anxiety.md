@@ -40,3 +40,13 @@ Physical health affects mental health & vice versa. Hardware affects software, s
 —Be compassionate. Don’t view him as being stubborn, see him as a human being who is struggling with a heavy burden of expectations.
 
 —Avoid diagnostic labels. Using the word “anxiety” could make him uncomfortable.
+
+---
+
+a great TED talk 
+
+[This could be why you're depressed or anxious | Johann Hari](https://www.youtube.com/watch?v=MB5IX-np5fE)
+
+If you feel anxious or depressed, you are not crazy, not a broken machine, you are just a human being with unmet needs 
+
+Depression is a signal 
