@@ -24,3 +24,4 @@ OS provides the illusion of doing many things at once by quickly switching betwe
 
 Since OS manages resources for concurrent operation, it's called a resource manager 
 
+ 

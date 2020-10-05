@@ -10,11 +10,11 @@ category: philosophy
 ## The Beginning
 
 
-Big Bang, 13.8 Billion Years, Or 13 800 Million Years ago
+Big Bang, 13.8 Billion Years ago 
 
-if you think of this 13.6B years as a single year, then every second would be 431 years
+if you think of 13.6B years as a single year, then every second would be 431 years
 
-humans appeared in the last minutes of the year, and our lives are just miliseconds
+humans appeared in the last minutes of the year, and a human life is just miliseconds
 
 Milkyway 13.5B  
 
@@ -42,11 +42,9 @@ First Humans 3M
 
 First Stone Tools, Fire 2M 
 
-They Were Survival Experts 
-
-Cooperation Is What Makes Us Different 
-
-Language And Writing Enabled Us To Expand, Preserve, Build On Knowledge
+> Early humans were survival experts 
+> Cooperation Is What Makes Us Different 
+> Language And Writing Enabled Us To Expand, Preserve, Build On Knowledge
 
 Sapiens 200 000 Years
 
@@ -68,12 +66,7 @@ Wheel, Ancient Egypt, Sumerians 3500 BC
 
 First Writing 3200 BC 
 
-### Bronze Age 3000 BC - 1200 BC 
-
 Pyramids, Paper 3000 BC
-
-
-### Iron Age 1050 BC - 500 BC 
 
 First Chinese dynasty Xia 2070–1600 BC
 
@@ -81,13 +74,9 @@ Babylonian Hammurabi Code 1754 BC
 
 Rome Founded 750 BC 
 
-## Classical antiquity 
+Fall Of Western Rome 476 
 
-centered on the Mediterranean Sea, 480 BC - 476 
-
-## Middle Ages
-
-476 Fall Of Western Rome - 1453 Fall Of Eastern Rome
+Fall Of Eastern Rome 1453 
 
 Gunpowder 904, China
 
@@ -99,27 +88,23 @@ America Discovered 1492
 
 The Renaissance 1300 – 1600
 
-## 1500s
-
-First Newspapers 
-
 ## 1600s
 
 Telescope 1608
 
-Steam Engine 1698
+Tulip mania 1637
 
-Tulip mania (1637) 
+Steam Engine 1698
 
 ## 1700s
 
-Mississippi Company (1720) (France)
+Mississippi Company 1720 France
+
+US Founded 1796
 
 French Revolution 1789
 
-Us Founded 1796
-
-Vaccine 1796
+First vaccine, smallpox 1796
 
 ## 1800s
 
@@ -151,8 +136,6 @@ First Flight 03
 
 The Theory Of Special Relativity 05
 
-## 10s
-
 Ibm 11
 
 Boeing 11
@@ -161,35 +144,27 @@ Boeing 11
 
 The Theory Of General Relativity 15
 
-## 20s
-
 Jazz
 
 Country
 
 Bell Labs 25
 
-Edwin Hubble Found Expansion Of Universe 15
-
 Television 27
+
+Edwin Hubble found Expansion Of Universe 
 
 Great Depression 29-33
 
-## 30s
+Hewlett-Packard 1939 
 
 **WW II** 39-45 
 
-1939 Hewlett-Packard
-
-
-## 40s
-
-45, atomic bomb, start of Nuclear Era
-
+atomic bomb, start of Nuclear Era 45
 
 Digital Computer ENIAC 43-44
 
-46 UNIVAC, the first commercial computer for business and government applications.
+the first commercial computer UNIVAC 46
 
 Transistor 47
 
@@ -205,9 +180,7 @@ Chinese Communist Revolution 49
 
 Korean War 50–53
 
-COBOL 53 
-
-Fortran 54
+COBOL, Fortran
 
 DNA double helix 53 
 
@@ -231,7 +204,7 @@ Pink Floyd
 
 The Rolling Stones
 
-1964: Douglas Engelbart shows a prototype of the modern computer, with a mouse and a graphical user interface (GUI)
+a prototype of the modern computer, with a mouse and a graphical user interface 1964
 
 Six-Day War 67
 
@@ -253,7 +226,7 @@ Multics 69
 
 UNIX 69
 
-1970 DRAM, Dynamic Access Memory
+Dynamic Access Memory 70
 
 Apollo 11, Humans On The Moon July 20, 69, At 20:17 Utc
 
@@ -279,23 +252,14 @@ Heavy Metal
 
 Alternative Rock
 
-C programming language 72
+**72** C programming language, Apollo 17 
 
-Apollo 17 72
 
-First Cell Phone 73 
+**73** First Cell Phone, Arab–Israeli War, Yom Kippur War, oil crisis
 
-73 Arab–Israeli War, Yom Kippur War
+**75** ALTAIR 8800, Microsoft
 
-73 oil crisis
-
-ALTAIR 8800 75
-
-Microsoft 75 
-
-Apple 76
-
-Apple I 76
+**76** Apple, Apple I
 
 Apple II 77
 
@@ -327,19 +291,13 @@ Iran-Iraq War 80-88
 
 IBM PC 81
 
-Commodore 64 1982, 64 KB of RAM, $595, sold more than 22 million units
+82: Commodore 64, 64 KB of RAM, $595, sold more than 22 million units
 
-1983: Apple's Lisa is the first personal computer with a GUI
+83: Apple's Lisa is the first personal computer with a GUI
 
-Macintosh 84, $2,500
+84: Macintosh, $2,500
 
-1985, The first dot-com domain name is registered, symbolics.com
-
-Aol 85
-
-C++ 85
-
-Windows 1.0 87 
+1985, The first domain symbolics.com, AOL, C++
 
 CRISPR 87
 
@@ -353,49 +311,21 @@ The Dissolution Of The Soviet Union, USSR 91
 
 Bosnian War 92-95
 
- 93
-
- 93
-
- 93
-
 93: Dolly cloned, Pentium processor, Mosaic Browser, EU founded
 
 94: Netscape Navigator, Internet Explorer
 
- 94
- 93
-
 Rwandan Genocide 94
 
-Yahoo 94
+94 Yahoo, Amazon, PHP
 
-Amazon 94
+96 Java, Ruby, JavaScript, PostgreSQL
 
-PHP 94
+97 Microsoft invests $150 million in Apple, Asian financial crisis
 
-Java 96
+98 Google, Salesforce, Russian financial crisis, International Space Station Launched
 
-Ruby 96
-
-JavaScript 96
-
-PostgreSQL 96
-
-
-1997: Microsoft invests $150 million in Apple
-
-Google 98
-
-Salesforce 98
-
-1999 Wifi
-
-1997 Asian financial crisis
-
-1998 Russian financial crisis
-
-International Space Station Launched 98
+99 Wifi
 
 ## 2000s
 
@@ -456,17 +386,13 @@ rises in populism including the UK voting to leave the EU
 
 ## The Future 
 
-life on earth will end, sun will die, then most stars will die 
-
-at some point, all stars and even black holes will die
+life on earth will end, sun will die, all stars and even black holes will die
 
 heat death, end of universe. 
 
 ---
 
 in the grand scheme of things, our lives are a brief glimpse of light 
-
-so petty are ideologies, nations, religions, money,  power, pleasure, pain.. 
 
 life is brief, enjoy it
 
