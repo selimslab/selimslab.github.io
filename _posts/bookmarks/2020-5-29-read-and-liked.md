@@ -140,4 +140,17 @@ The Unexpected Antidote to Procrastination | Peter Bregman
 
 [People Like You More Than You Know - Scientific American Blog Network](https://blogs.scientificamerican.com/illusion-chasers/people-like-you-more-than-you-know/)
 
+--- 
+
+[what-to-write-down-when-youre-reading-to-learn](https://acesounderglass.com/2020/06/10/what-to-write-down-when-youre-reading-to-learn/)
+
+Paraphrase
+
+Dont copy paste 
+
+Think for yourself 
+
+Instead of having arbitrary goals, have some questions and set out to answer them 
+
+--- 
 
