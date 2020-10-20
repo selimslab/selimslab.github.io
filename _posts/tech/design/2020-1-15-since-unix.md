@@ -6,7 +6,6 @@ category: tech
 
 --- 
 
-a collection of good ideas from the industry 
 
 ## UNIX philosophy
 

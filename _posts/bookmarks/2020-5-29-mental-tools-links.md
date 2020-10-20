@@ -7,6 +7,10 @@ category: links
 
 https://untools.co/
 
+
+https://spacecraft.ssl.umd.edu/akins_laws.html
+
+
 ---
 
 
