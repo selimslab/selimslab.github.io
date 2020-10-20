@@ -9,8 +9,7 @@ permalink: /thoughts/
 {% assign sorted_cats = site.categories | sort %}
 
 
-<img src="img/people.jpg" />
-
+<img src="/img/people.jpg" />
 
 <div class="posts">
     
