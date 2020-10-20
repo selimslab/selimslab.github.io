@@ -41,11 +41,11 @@ it is all within yourself, in your way of thinking. <br>
 
         {% capture category_name %}{{ category | first | downcase }}{% endcapture %}
 
-        {% if category_name ==  "books" %}
+        {% if category_name ==  "summaries" %}
             <img src="img/lib.jpg" />
         {% endif %}
 
-        {% if category_name ==  "links" %}
+        {% if category_name ==  "bookmarks" %}
             <img src="img/nasa.jpg" />
         {% endif %}
 
@@ -53,48 +53,16 @@ it is all within yourself, in your way of thinking. <br>
             <img src="img/rocket.jpg" />
         {% endif %}
 
-        {% if category_name ==  "philosophy" %}
-        <img src="img/nature.jpg" />
-        {% endif %}
-
-        {% if category_name ==  "psychology" %}
-            <img src="img/people.jpg" />
-        {% endif %}
-
         {% if category_name ==  "thoughts" %}
-            <img src="img/mo.jpg" />
+            <img src="img/people.jpg" />
         {% endif %}
 
 
         <h1 class="tag" id="{{ category_name | downcase }}">{{ category_name }}</h1>
 
-        {% if category_name ==  "tech/projects" %}
-            <p>a great way to really understand how something works is to build a simple form of it.</p>
-            <p>these projects have clarified many technical concepts for me and still inspiring me to build more.</p>
-        {% endif %}
-
-        {% if category_name ==  "work" %}
-        <p>thougts on work, business, and people</p>
-        {% endif %}
-
-        {% if category_name ==  "thoughts" %}
-        <p>thougts on life, people, and everything</p>
-        {% endif %}
-
-        {% if category_name ==  "tech" %}
-        <p>thoughts, resources, and code</p>
-        {% endif %}
-
-        {% if category_name ==  "books" %}
-        <p>takeaways from my readings</p>
-        {% endif %}
 
 
         {% for tag in sorted_tags %}
-
-            {% if tag[0] ==  "recommended" %}
-                {% continue %}
-            {% endif %}
 
             {% assign zz = tag[1] | where: "category", category_name | sort  %}
             
