@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Links on hiring in tech 
-tags: tech
-category: bookmarks
+tags: bookmarks
+category: tech
 --- 
 
 some great reads

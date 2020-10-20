@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Liked posts from hacker-news
-tags: tech
-category: bookmarks
+tags: bookmarks
+category: tech
 --- 
 
 

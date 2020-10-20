@@ -1,11 +1,26 @@
 ---
 layout: post
-title: 
+title: Highlights from read-and-liked 
 tags: articles
 category: summaries
 --- 
 
 
+http://paulgraham.com/early.html
+
+Early work is often dismissed and misjudged as lame 
+
+inexperience is not the only reason people are too harsh on early versions of ambitious projects. They also do it to seem clever. 
+
+there is another more sinister reason people dismiss new ideas. If you try something ambitious, many of those around you will hope, consciously or unconsciously, that you'll fail. They worry that if you try something ambitious and succeed, it will put you above them.
+
+I wouldn't claim that people in Silicon Valley overcome these impulses because they're morally better. [1] The reason many hope you'll succeed is that they hope to rise with you. With investors this incentive is particularly explicit. They want you to succeed because they hope you'll make them rich in the process. But many other people you meet can hope to benefit in some way from your success. At the very least they'll be able to say, when you're famous, that they've known you since way back.
+
+But even if Silicon Valley's encouraging attitude is rooted in self-interest, it has over time actually grown into a sort of benevolence.
+
+Your own skepticism is a force more powerful than other people's skepticism. Some ways to overcome it are supportive friends, teachers, mentors, quick improvements, ignorance, discipline, slight overconfidence, considering it a sketch, view as a learning project 
+
+---
 
 
 [Don’t Pay for 95%](https://5kids1condo.com/dont-pay-for-95/)
@@ -249,3 +264,72 @@ https://spacecraft.ssl.umd.edu/akins_laws.html
 https://jjbeshara.com/2020/06/04/mental-wealth/
 
 https://acesounderglass.com/2020/06/10/what-to-write-down-when-youre-reading-to-learn/
+
+---
+
+## work
+
+[be kind](https://boz.com/articles/be-kind)
+
+[What do executives do, anyway?](https://apenwarr.ca/log/20190926) 
+
+
+[Your Professional Decline Is Coming (Much) Sooner Than You Think](https://www.theatlantic.com/magazine/archive/2019/07/work-peak-professional-decline/590650/) 
+
+[Maker Schedule vs Manager Schedule](https://blog.nuclino.com/makers-don-t-let-yourself-be-forced-into-the-manager-schedule)
+
+
+[I coached 101 CEOs, founders, VCs and other executives in 2019: These are the biggest takeaways - Leo Widrich](https://leowid.com/2019-2)
+
+
+[Growing One's Consulting Business](https://training.kalzumeus.com/newsletters/archive/consulting_1)
+
+[Productivity - Sam Altman](https://blog.samaltman.com/productivity)
+
+
+[What Happens When Your Career Becomes Your Whole Identity](https://hbr.org/2019/12/what-happens-when-your-career-becomes-your-whole-identity)
+
+
+[How My Startup Got Acquired After 6 Months - Marker](https://marker.medium.com/how-my-show-hn-project-got-acquired-after-6-months-954f81ca6a18?)
+
+[I stood up to my boss, then he got promoted](https://idiallo.com/blog/become-an-executive-one-promotion-at-a-time)
+
+[Why Do Incompetent Managers Get Promoted? - Lance Ng - Medium](https://medium.com/@lancengym/why-do-incompetent-managers-get-promoted-815165a03bee)
+
+[It just doesn't matter - Signal vs. Noise (by 37signals)](https://signalvnoise.com/archives2/it_just_doesnt_matter.php)
+
+[RECONSIDER – Signal v. Noise](https://signalvnoise.com/posts/3972-reconsider)
+
+[Reflecting on My Failure to Build a Billion-Dollar Company](https://marker.medium.com/reflecting-on-my-failure-to-build-a-billion-dollar-company-b0c31d7db0e7)
+
+
+[I quit the tech industry / fuzzy notepad](https://eev.ee/blog/2015/06/09/i-quit-the-tech-industry/)
+
+
+
+### more
+
+[Stripe: Atlas Guides to Starting a Real Business](https://stripe.com/ie/atlas/guides)
+
+[Habits of High-Functioning Teams - deniseyu.io](https://deniseyu.io/2020/05/23/habits-of-high-performing-teams.html)
+
+[Sequoia - Pricing Your Product](https://www.sequoiacap.com/article/pricing-your-product/)
+
+[How to sell a B2B product by Calvin French-Owen](https://calv.info/how-to-sell-b2b)
+
+
+
+[Startup Playbook](https://playbook.samaltman.com/)
+
+[A Cold Outreach Strategy That Actually Works](https://www.patrickrivera.co/posts/cold-outreach)
+
+
+[Founder to CEO (Matt's Book for Startups) - Google Dokümanlar](https://docs.google.com/document/d/1ZJZbv4J6FZ8Dnb0JuMhJxTnwl-dwqx5xl0s65DE3wO8/preview#)
+
+[Essays](http://www.paulgraham.com/articles.html)
+
+[Startup School](https://www.startupschool.org/library)
+
+---
+
+https://seths.blog/2011/05/hard-work-vs-long-work/

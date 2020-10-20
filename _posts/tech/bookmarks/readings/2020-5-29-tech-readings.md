@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Readings 
-tags: tech
-category: bookmarks
+tags: bookmarks
+category: tech
 --- 
 
 [Google - Site Reliability Engineering](https://landing.google.com/sre/books/)

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Liked questions from Ask HN
-tags: tech
-category: bookmarks
+tags: bookmarks
+category: tech
 --- 
 
 

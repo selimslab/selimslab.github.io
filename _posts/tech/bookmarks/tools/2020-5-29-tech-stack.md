@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Tech Stack 
-tags: tech
-category: bookmarks
+tags: bookmarks
+category: tech
 ---
 
 tools for your next project 

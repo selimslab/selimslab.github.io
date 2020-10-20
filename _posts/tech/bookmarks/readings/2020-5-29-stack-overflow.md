@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Liked stack overflow answers 
-tags: tech
-category: bookmarks
+tags: bookmarks
+category: tech
 --- 
 
 
