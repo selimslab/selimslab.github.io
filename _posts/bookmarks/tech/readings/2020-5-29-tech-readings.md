@@ -15,14 +15,12 @@ category: bookmarks
 
 [Introduction to Information Retrieval](https://nlp.stanford.edu/IR-book/)
 
-[Ask HN: What are your favorite developer-efficiency tips? - Hacker News](https://news.ycombinator.com/item?id=23118940)
 
 
 [Regular Expressions for Regular Folk - Regular Expressions for Regular Folk (REFRF)](https://refrf.shreyasminocha.me/)
 
 [alex/what-happens-when: An attempt to answer the age old interview question "What happens when you type google.com into your browser and press enter?"](https://github.com/alex/what-happens-when)
 
-[Ask HN: How can I pick a side project and stick with it? - Hacker News](https://news.ycombinator.com/item?id=22792829)
 
 [How Browsers Work: Behind the scenes of modern web browsers - HTML5 Rocks](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
 
@@ -30,7 +28,6 @@ category: bookmarks
 
 [backend questions](https://github.com/arialdomartini/Back-End-Developer-Interview-Questions)
 
-[Ask HN: What are must-know concepts for back end development? - Hacker News](https://news.ycombinator.com/item?id=18961793)
 
 
 ### devops

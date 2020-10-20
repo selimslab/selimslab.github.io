@@ -1,8 +1,34 @@
 ---
 layout: post
-title:  Curated articles 2
-tags: social 
-category: bookmarks
+title: 
+tags: articles
+category: summaries
+--- 
+
+
+
+
+[Don’t Pay for 95%](https://5kids1condo.com/dont-pay-for-95/)
+
+we are not using everything we buy all the time. We spend a lot of time an effort to save enough to buy something, and continuous effort to maintain it. 
+
+Renting looks expensive because we only see the short term price. We see the rental cost of 2 weeks, not the money, time, and energy not spent in other 50 weeks.
+
+In short, don’t pay for the 95% you won’t use. 
+
+---
+
+
+[what-to-write-down-when-youre-reading-to-learn](https://acesounderglass.com/2020/06/10/what-to-write-down-when-youre-reading-to-learn/)
+
+Paraphrase
+
+Dont copy paste 
+
+Think for yourself 
+
+Instead of having arbitrary goals, have some questions and set out to answer them 
+
 --- 
 
 The Unexpected Antidote to Procrastination | Peter Bregman
@@ -47,8 +73,6 @@ The Unexpected Antidote to Procrastination | Peter Bregman
 [(6) Mark Zuckerberg - Every new year of the last decade I set a...](https://www.facebook.com/4/posts/10111311886191191/)
 
 [For Suicide Prevention, Try Raising The Minimum Wage, Research Suggests : Shots - Health News : NPR](https://www.npr.org/sections/health-shots/2020/01/08/794568118/raising-the-minimum-wage-by-1-may-prevent-thousands-of-suicides-study-shows)
-
-
 
 
 [Google Maps’s Moat](https://www.justinobeirne.com/google-maps-moat)
@@ -134,23 +158,94 @@ The Unexpected Antidote to Procrastination | Peter Bregman
 
 [Patterns — Gordon Brander](http://gordonbrander.com/pattern/)
 
-[Ask HN: What is the dark side of working at a successful startup? - Hacker News](https://news.ycombinator.com/item?id=18002194)
-
-[Ask HN: Why did your startup fail and what did you learn? - Hacker News](https://news.ycombinator.com/item?id=18011332)
 
 [People Like You More Than You Know - Scientific American Blog Network](https://blogs.scientificamerican.com/illusion-chasers/people-like-you-more-than-you-know/)
 
---- 
 
-[what-to-write-down-when-youre-reading-to-learn](https://acesounderglass.com/2020/06/10/what-to-write-down-when-youre-reading-to-learn/)
+https://untools.co/
 
-Paraphrase
 
-Dont copy paste 
+https://spacecraft.ssl.umd.edu/akins_laws.html
 
-Think for yourself 
+---
 
-Instead of having arbitrary goals, have some questions and set out to answer them 
+## philosophy 
 
---- 
+[A Protocol for Dying](http://hintjens.com/blog:115) 
 
+
+[Coronavirus and Credibility](http://paulgraham.com/cred.html)
+
+[The Day I Found Out My Life Was Hanging by a Thread - WIRED](https://www.wired.com/story/the-day-i-found-out-my-life-was-hanging-by-a-thread/)
+
+
+[Take Your Time](https://blog.ncase.me/take-your-time/)
+
+[Life is Made of Unfair Coin Flips – alexdanco.com](https://alexdanco.com/2020/04/09/life-is-made-of-unfair-coin-flips/)
+
+[Anger Management](https://genevievefiles.blogspot.com/2020/04/anger-management.html)
+
+
+## advice 
+
+[The days are long but the decades are short - Sam Altman](https://blog.samaltman.com/the-days-are-long-but-the-decades-are-short)
+
+
+[The Technium: 68 Bits of Unsolicited Advice](https://kk.org/thetechnium/68-bits-of-unsolicited-advice/)
+
+
+## design 
+
+[Bret Victor, beast of burden](http://worrydream.com/#!/ABriefRantOnTheFutureOfInteractionDesign)
+
+
+[It just doesn’t matter](https://signalvnoise.com/archives2/it_just_doesnt_matter.php) 
+
+[Hooked: how pokies are designed to be addictive - Australia news - The Guardian](https://www.theguardian.com/australia-news/datablog/ng-interactive/2017/sep/28/hooked-how-pokies-are-designed-to-be-addictive)
+
+
+## learning
+
+[What Medieval People Got Right About Learning - Scott H Young](https://www.scotthyoung.com/blog/2019/06/07/apprenticeships/)
+
+[Rotten STEM: How Technology Corrupts Education - American Affairs Journal](https://americanaffairsjournal.org/2019/08/rotten-stem-how-technology-corrupts-education/)
+
+
+[Working for Microsoft cost me $200 million - garry's posthaven](https://blog.garrytan.com/working-for-microsoft-cost-me-200-dollars-million)
+
+
+## psy
+
+[Cognitive bias cheat sheet](https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18)
+
+[Mental Health Tips feat. Anxiety Wolf](https://ncase.me/mental-health/)
+
+[Explorable Explanations](https://explorabl.es/)
+
+[Digital Psychology](https://digitalpsychology.io/)
+
+[Letters of Note: People simply empty out](http://www.lettersofnote.com/2012/10/people-simply-empty-out.html)
+
+[From FOMO to JOMO: the joy of missing out - Ness Labs](https://nesslabs.com/jomo)
+
+[The Bus Ticket Theory of Genius](http://paulgraham.com/genius.html)
+
+
+[Your non-linear problem of 90% utilization](https://blog.asmartbear.com/utilization.html)
+
+
+
+## thought 
+
+[Nobody Cares - Andreessen Horowitz](https://a16z.com/2011/10/08/nobody-cares/)
+
+[1,000 True Fans? Try 100](https://a16z.com/2020/02/06/100-true-fans/)
+
+[IT'S TIME TO BUILD - Andreessen Horowitz](https://a16z.com/2020/04/18/its-time-to-build/)
+
+[Questions · Patrick Collison](https://patrickcollison.com/questions)
+
+
+https://jjbeshara.com/2020/06/04/mental-wealth/
+
+https://acesounderglass.com/2020/06/10/what-to-write-down-when-youre-reading-to-learn/
