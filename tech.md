@@ -9,12 +9,12 @@ permalink: /tech/
 {% assign sorted_cats = site.categories | sort %}
 
 
-<img src="img/rocket.jpg" />
 
 
 <div class="posts">
     
 
+<img src="img/rocket.jpg" />
 
         {% assign category_name = "tech" %}
 
