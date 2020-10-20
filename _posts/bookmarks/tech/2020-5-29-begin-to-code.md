@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Resources to start coding, from 0 to 1 for beginners
-tags: begin
+tags: read
 category: links/tech
  
 ---
@@ -128,3 +128,9 @@ learn basics of
 
 [Foundations of Machine Learning](https://bloomberg.github.io/foml/#lectures)
 
+## data engineering 
+
+https://awesomedataengineering.com/
+
+
+http://blog.rlmflores.me/2020/10/14/what_is_expected_of_an_engineering_manager/

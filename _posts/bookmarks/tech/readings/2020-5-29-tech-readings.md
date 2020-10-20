@@ -5,8 +5,6 @@ tags: read
 category: links/tech
 --- 
 
-
-
 [Google - Site Reliability Engineering](https://landing.google.com/sre/books/)
 
 [Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html)
@@ -50,3 +48,17 @@ category: links/tech
 
 [egonSchiele/grokking\_algorithms: Code for the book Grokking Algorithms (https://amzn.to/29rVyHf)](https://github.com/egonSchiele/grokking_algorithms)
 
+
+### management
+
+[What is expected of a Engineering Manager?](http://blog.rlmflores.me/2020/10/14/what_is_expected_of_an_engineering_manager/)
+
+### startups
+
+https://canny.io/blog/how-we-built-a-1m-arr-saas-startup/
+
+https://www.collaborativefund.com/blog/a-few-rules/
+
+---
+
+https://tyrrrz.me/blog/unit-testing-is-overrated
