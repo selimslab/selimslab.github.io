@@ -11,15 +11,14 @@ permalink: /projects/
 
 <div class="posts">
     
-    {% for category in sorted_cats %}
 
-        {% capture category_name %}{{ category | first | downcase }}{% endcapture %}
+        {% assign category_name = "projects" %}
 
-        <h1 class="tag" id="{{ category_name | downcase }}">{{ category_name }}</h1>
+        <h1 class="tag" id="projects">{{ category_name }}</h1>
 
         {% for tag in sorted_tags %}
 
-            {% assign zz = tag[1] | where: "category", category_name | sort  %}
+            {% assign zz = tag[1] | where: "category", "projects" | sort  %}
             
             {% if zz != empty %}
                 
@@ -35,10 +34,8 @@ permalink: /projects/
         
         {% endfor %}
 
-        <br>
 
 
-    {% endfor %}
 
 
 </div>
