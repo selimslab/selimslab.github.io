@@ -14,8 +14,6 @@ permalink: /thoughts/
 
 <div class="posts">
     
-
-
         {% assign category_name = "thoughts" %}
 
         <h1 class="tag" id="{{ category_name | downcase }}">{{ category_name }}</h1>
