@@ -2,7 +2,7 @@
 layout: post
 title:  
 tags: social
-category: links
+category: bookmarks
 --- 
 
 https://untools.co/

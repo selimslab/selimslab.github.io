@@ -2,7 +2,7 @@
 layout: post
 title:  Data Sources
 tags: tech
-category: links
+category: bookmarks
 --- 
 
 [Google Trends](https://trends.google.com/trends/?geo=TR)

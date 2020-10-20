@@ -1,8 +1,8 @@
 ---
 layout: post
-title: an analytics service for mobile user events 
+title: An analytics service for mobile user events 
 tags: web
-category: tech/projects
+category: projects
 ---
 
 an API to explore mobile user events 

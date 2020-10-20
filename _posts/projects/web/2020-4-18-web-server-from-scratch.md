@@ -1,8 +1,8 @@
 ---
 layout: post
-title: a concurrent web server in 100 lines
+title: A concurrent web server in 100 lines
 tags: web
-category: tech/projects
+category: projects
 
  
 

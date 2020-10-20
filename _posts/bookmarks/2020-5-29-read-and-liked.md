@@ -2,7 +2,7 @@
 layout: post
 title:  Curated articles 2
 tags: social 
-category: links
+category: bookmarks
 --- 
 
 The Unexpected Antidote to Procrastination | Peter Bregman

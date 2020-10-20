@@ -2,7 +2,7 @@
 layout: post
 title: Tech Stack 
 tags: tech
-category: links
+category: bookmarks
 ---
 
 tools for your next project 
