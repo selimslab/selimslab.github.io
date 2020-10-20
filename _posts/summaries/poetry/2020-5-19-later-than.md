@@ -2,7 +2,7 @@
 layout: post
 title: Enjoy yourself 
 tags: poetry
-category: summaries 
+category: notes 
 
 --- 
 

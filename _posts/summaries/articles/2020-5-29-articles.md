@@ -2,7 +2,7 @@
 layout: post
 title: Highlights from read-and-liked 
 tags: articles
-category: summaries
+category: notes
 --- 
 
 

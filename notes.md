@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Projects
-permalink: /projects/
+title: Notes
+permalink: /notes/
 ---
 
 {% assign sorted_tags = site.tags | sort %}
@@ -9,10 +9,12 @@ permalink: /projects/
 {% assign sorted_cats = site.categories | sort %}
 
 
+<img src="img/nasa.jpg" />
+
 <div class="posts">
     
 
-        {% assign category_name = "projects" %}
+        {% assign category_name = "notes" %}
 
         <h1 class="tag" id="{{ category_name | downcase }}">{{ category_name }}</h1>
 

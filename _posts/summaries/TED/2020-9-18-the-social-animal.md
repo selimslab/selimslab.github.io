@@ -2,7 +2,7 @@
 layout: post
 title: The social animal | David Brooks
 tags: TED
-category: summaries 
+category: notes 
 --- 
 
 [youtube link](https://www.youtube.com/watch?v=rGfhahVBIQw)

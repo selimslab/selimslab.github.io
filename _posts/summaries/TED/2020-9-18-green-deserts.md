@@ -2,7 +2,7 @@
 layout: post
 title: How to green the world's deserts and reverse climate change | Allan Savory
 tags: TED
-category: summaries 
+category: notes 
 --- 
 
 Livestock

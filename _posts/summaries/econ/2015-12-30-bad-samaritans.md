@@ -2,7 +2,7 @@
 layout: post
 title: The myth of free trade
 tags: economics
-category: summaries  
+category: notes  
 ---
 
 <img height="250"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1312041078l/1032019.jpg" /> 

@@ -2,7 +2,7 @@
 layout: post
 title:  Cognitive Biases   
 tags: psychology
-category: summaries 
+category: notes 
 ---
 
 summary of [cognitive-bias-cheat-sheet](https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18)

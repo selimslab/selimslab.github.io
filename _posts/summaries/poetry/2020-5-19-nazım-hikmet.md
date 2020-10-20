@@ -2,7 +2,7 @@
 layout: post
 title: Nazım 
 tags: poetry
-category: summaries 
+category: notes 
 
 --- 
 

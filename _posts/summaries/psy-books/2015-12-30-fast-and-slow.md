@@ -2,7 +2,7 @@
 layout: post
 title: Thinking, Fast and Slow 
 tags: psychology
-category: summaries 
+category: notes 
 ---
 
 <img height="250"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1317793965l/11468377.jpg" /> 

@@ -2,7 +2,7 @@
 layout: post
 title: Emotions
 tags: psychology
-category: summaries 
+category: notes 
 ---
 
 a collection of wkipedia explanations 

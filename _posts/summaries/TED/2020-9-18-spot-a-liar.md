@@ -2,7 +2,7 @@
 layout: post
 title: How to spot a liar | Pamela Meyer
 tags: TED
-category: summaries 
+category: notes 
 --- 
 
 [full video](https://www.youtube.com/watch?v=P_6vDLq64gE)

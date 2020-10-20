@@ -2,7 +2,7 @@
 layout: post
 title: Great thinkers 
 tags: philosophy recommended
-category: summaries  
+category: notes  
 --- 
 
 # Eastern Philosophy 

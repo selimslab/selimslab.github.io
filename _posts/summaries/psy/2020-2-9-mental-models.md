@@ -2,7 +2,7 @@
 layout: post
 title: Mental Models 
 tags: psychology
-category: summaries 
+category: notes 
 ---
 
 
