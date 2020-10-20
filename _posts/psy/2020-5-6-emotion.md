@@ -13,8 +13,6 @@ a collection of wkipedia explanations
 
 instinctive or intuitive feeling as distinguished from reasoning or knowledge.
 
-
-
 **Courage** (also called bravery or valour) is the choice and willingness to confront agony, pain, danger, uncertainty, or intimidation. 
 
 Physical courage is bravery in the face of physical pain, hardship, even death or threat of death, while moral courage is the ability to act rightly in the face of popular opposition, shame, scandal, discouragement, or personal loss.
@@ -25,11 +23,9 @@ The classical virtue of fortitude (andreia, fortitudo) is also translated "coura
 
 **Resentment** (also called ranklement or bitterness) is a complex, multilayered emotion that has been described as a mixture of disappointment, disgust, anger, and fear.
 
- Other psychologists consider it a mood or as a secondary emotion (including cognitive elements) that can be elicited in the face of insult and/or injury.
+Other psychologists consider it a mood or as a secondary emotion (including cognitive elements) that can be elicited in the face of insult and/or injury.
 
-
-Inherent in resentment is a perception of unfairness (i.e. from trivial to very serious), and is a generalized defense against unfair situations (e.g. relationships or unfavourable circumstances).
-
+Inherent in resentment is a perception of unfairness (i.e. from trivial to very serious), and is a generalized defense against unfair situations (e.g. relationships or unfavourable circumstances)
 
 **Anger**, also known as wrath or rage, is an intense emotional state involving a strong uncomfortable and hostile response to a perceived provocation, hurt or threat.
 
@@ -127,5 +123,5 @@ Population-based research indicates that one in five middle-aged and elderly men
 
  An example of this range of meanings is that the love of a mother differs from the love of a spouse, which differs from the love of food. Most commonly, love refers to a feeling of strong attraction and emotional attachment.
 
-"the unselfish loyal and benevolent concern for the good of another"
+“the unselfish, loyal, and benevolent concern for the good of another”
 

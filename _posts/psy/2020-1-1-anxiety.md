@@ -15,6 +15,8 @@ Fear is a guard dog for your needs.
 
 All feelings are imperfect signals about met/unmet needs.
 
+Depression is a signal. 
+
 Our fundamental human needs are: physical needs, social needs, "becoming a better person" needs.
 
 Healthy people don't "cope" with emotions, they collaborate with them. They use "negative" emotions as clues, constructive criticism to improve their lives.
@@ -45,8 +47,6 @@ Physical health affects mental health & vice versa. Hardware affects software, s
 
 a great TED talk 
 
-[This could be why you're depressed or anxious | Johann Hari](https://www.youtube.com/watch?v=MB5IX-np5fE)
+[This could be why you're depressed or anxious - Johann Hari](https://www.youtube.com/watch?v=MB5IX-np5fE)
 
-If you feel anxious or depressed, you are not crazy, not a broken machine, you are just a human being with unmet needs 
-
-Depression is a signal 
+If you feel anxious or depressed, you are not crazy, not a broken machine, you are just a human being with unmet needs.

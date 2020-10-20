@@ -13,17 +13,17 @@ notes from [https://fs.blog/mental-models/](https://fs.blog/mental-models/)
 
 1. The Map is not the Territory
 
-2. Circle of Competence 
+2. Circle of Competence, undertand what you know and what you don't know 
 
-3. First Principles Thinking
+3. First Principles Thinking, understand the fundemantals 
    
 4. Thought Experiment
    
-5. Second-Order Thinking
+5. Second-Order Thinking, long term thinking, unintended consequences
    
-6. Probabilistic Thinking
+6. Probabilistic Thinking, probability runs the world 
    
-7. Inversion 
+7. **Inversion**, turn it upside down 
    
 8. **Occam’s Razor**, Simpler explanations are more likely to be true than complicated ones. 
 
@@ -33,21 +33,21 @@ notes from [https://fs.blog/mental-models/](https://fs.blog/mental-models/)
 
 1. **Reciprocity**, humans beings act with intense reciprocity demonstrated as well.
 
-2. Thermodynamics
+2. Thermodynamics, energy is constant and entropy is ever increasing 
    
-3. Inertia
+3. Inertia, objects and people display the same effect. The first move is harder 
    
 4. Friction and Viscosity
 
 5. Velocity 
 
-6.  Leverage 
+6.  Leverage, almost every great work includes leverage 
 
-7.  Activation Energy
+7.  Activation Energy, the minimum to start 
 
 8. Catalysts 
 
-9.   Alloying
+9.   Alloying, alloy can be better than its parts 
 
 10.  **Relativity**, an observer cannot truly understand a system of which he himself is a part. 
    
@@ -55,11 +55,16 @@ notes from [https://fs.blog/mental-models/](https://fs.blog/mental-models/)
 ## Biology
 
 
-1. Evolution
+1. Evolution, adaptation
+
+
+   arms race among competing species is called the Red Queen Effect for the character in Alice in Wonderland who said, “Now, here, you see, it takes all the running you can do, to keep in the same place. 
 
 2. Ecosystems
 
 3. Niches
+
+    Usually, a species will select a niche for which it is best adapted
 
 4. Self-Preservation 
 

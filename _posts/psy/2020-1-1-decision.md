@@ -72,3 +72,8 @@ There's no such thing as a purely rational decision.
 There are no silver bullets; there are no shortcuts.
 
 A man who procrastinates in his choosing will inevitably have his choice made for him by circumstance.
+
+
+Emotions are the driving factor of decision making. So much so that people who are unable to feel emotions due to neurological damage are not able to make decisions. [source](https://bigthink.com/experts-corner/decisions-are-emotional-not-logical-the-neuroscience-behind-decision-making)
+
+[-> emotions article](/emotion)
