@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  a curated list of tech articles 
-tags: read
-category: links/tech
+tags: tech
+category: links
 --- 
 
 

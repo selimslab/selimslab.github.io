@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Data Sources
-tags: data
+tags: tech
 category: links
 --- 
 
