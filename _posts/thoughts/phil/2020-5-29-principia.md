@@ -11,16 +11,15 @@ category: thoughts
 > 
 >  Socrates
 
-
 What makes you, you? 
 
-our principles shape our life and decisions. What we think, we become. 
+Our principles shape our life and decisions. What we think, we become. 
 
-a good life is a happy and meaningful life, there is no single recipe for all, yet it almost always includes health, freedom, good social relationships, and peace of mind
+A good life is a happy and meaningful life, there is no single recipe for all, yet it almost always includes health, freedom, good social relationships, and peace of mind
 
-**essentials** wise, brave, temperate, just, mindful, grateful
+**Essentials** wise, brave, temperate, just, mindful, grateful
 
-## the core concepts
+## The core concepts
 
 **health** sleep, water, healthy food, and sports, air quality, eliminate sources of stress
 
@@ -56,18 +55,17 @@ pick your battles, the poorest way is arguing, kindly assert yourself, defuse fi
 
 **think long term** pause and reflect 
 
-## work 
+## Work 
 
-being professional is being responsible  and reliable 
+**do what you love**, love what you do  
+
+**being professional** means being responsible and reliable 
 
 **Work smart**, goal, plan, system, eliminate, simplify, prioritize, delegate, focus, feedback, iterate 
  
 **value your time**, value yourself and others, and show your value
 
-**do what you love**, love what you do  
-
-
-## communication
+## Communication
 
 listen well 
 
@@ -81,17 +79,16 @@ constructive feedback
 
 breath, posture, voice, tone, body language, suit up  
 
-**Simple words with big effects**
+**simple words with big effects**
 
-no, thank you
-
-can you help me?
+No, thank you
 
 I’m sorry, that was my fault
 
 I don’t understand
 
-I don’t agree
+Can you help me?
+
 
 ## Act 
 
