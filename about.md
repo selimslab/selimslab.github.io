@@ -4,7 +4,7 @@ title: Welcome, friend!
 permalink: /about/
 ---
 
-I am Selim, writing here to learn and share. This is both a blog and a  mind map, a constant work in progress 
+I am Selim, this is a blog and a mind map, a constant work in progress 
 
 <a href="https://artsandculture.google.com/favorite/group/lwICDYo8WqCBLQ" target="_blank">favorite art</a>
 
