@@ -16,9 +16,23 @@ layout: default
 
         <h1 class="tag" id="{{ category_name | downcase }}">{{ category_name }}</h1>
 
-        <ul>
-            {% assign title_set = false  %}
+        {% assign any_subcat = false  %}
 
+        {% for cat in sorted_cats %}
+            {% capture subcat %}{{ cat | first  }}{% endcapture %}
+            {% assign parts = subcat | split: "/" %}
+            {% assign parent = parts | first %}
+            {% assign child = parts | last %}
+            
+            {% if parent == category_name and child != category_name %}
+                {% assign any_subcat = true  %}
+            {% endif %}
+        {% endfor %}
+
+        <ul>
+            {% if any_subcat %}
+            <h2 class="tag" id="explore">related categories</h2>
+            {% endif %}
             {% for cat in sorted_cats %}
                 {% capture subcat %}{{ cat | first  }}{% endcapture %}
                 {% assign parts = subcat | split: "/" %}
@@ -26,11 +40,6 @@ layout: default
                 {% assign child = parts | last %}
                 
                 {% if parent == category_name and child != category_name %}
-                    {% if title_set != true %}
-                        <h2 class="tag" id="explore">related categories</h2>
-                        {% assign title_set = true  %}
-                    {% endif %}
-
                     <li style="padding-bottom: 0.4rem;">
                         <a href="{{ '/' | append:  subcat | downcase   }}">{{ subcat }}</a>
                     </li>

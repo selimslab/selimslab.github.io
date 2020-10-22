@@ -2,7 +2,7 @@
 layout: post
 title: Emergence and Complexity 
 tags: science
-category: notes  
+category: notes/talks  
 ---
 
 inspired by [Professor Robert Sapolsky's Stanford lecture on emergence and complexity.](https://youtu.be/o_ZuWbX-CyE)
