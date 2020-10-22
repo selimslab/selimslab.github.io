@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Human Flourishing
-tags: human-condition
+tags: philosophy
 category: notes
 --- 
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Wordly Concerns
-tags: human-condition
+tags: philosophy
 category: notes
 --- 
 
