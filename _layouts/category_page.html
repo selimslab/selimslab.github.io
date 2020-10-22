@@ -11,7 +11,7 @@ layout: default
 <div class="posts">
     
 
-        {% assign category_name = {{ page.category_name }} %}
+        {% assign category_name = page.category_name  %}
 
         <h1 class="tag" id="{{ category_name | downcase }}">{{ category_name }}</h1>
 
