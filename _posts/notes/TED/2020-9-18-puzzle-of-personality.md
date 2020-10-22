@@ -2,7 +2,7 @@
 layout: post
 title: Who are you, really? The puzzle of personality | Brian Little
 tags: TED
-category: notes 
+category: notes/talks
 --- 
 
 [youtube link](https://www.youtube.com/watch?v=qYvXk_bqlBk)

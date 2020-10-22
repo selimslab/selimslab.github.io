@@ -2,7 +2,7 @@
 layout: post
 title: 10 ways to have a better conversation | Celeste Headlee
 tags: TED
-category: notes 
+category: notes/talks
 --- 
 
 Dont multitask, be in the moment, go with the flow 

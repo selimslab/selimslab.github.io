@@ -2,7 +2,7 @@
 layout: post
 title: What I learned from going blind in space | Chris Hadfield
 tags: TED
-category: notes 
+category: notes/talks
 --- 
 
 Only a few spiders out of hundreds have venom

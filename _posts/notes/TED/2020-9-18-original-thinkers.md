@@ -2,7 +2,7 @@
 layout: post
 title: The surprising habits of original thinkers | Adam Grant
 tags: TED
-category: notes 
+category: notes/talks
 --- 
 
 

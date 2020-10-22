@@ -2,7 +2,7 @@
 layout: post
 title: The biology of our best and worst selves | Robert Sapolsky
 tags: TED
-category: notes 
+category: notes/talks
 --- 
 
 We don’t hate violence, we love it in the right context 

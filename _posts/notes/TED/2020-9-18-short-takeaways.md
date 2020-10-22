@@ -2,7 +2,7 @@
 layout: post
 title: Short take-aways 
 tags: TED
-category: notes 
+category: notes/talks
 --- 
 
 The puzzle of motivation, Dan Pink
