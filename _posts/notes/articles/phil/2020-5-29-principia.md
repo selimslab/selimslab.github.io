@@ -15,7 +15,13 @@ What makes you, you?
 
 Our principles shape our life and decisions. What we think, we become. 
 
-A good life is a happy and meaningful life, there is no single recipe for all, yet it almost always includes health, freedom, good social relationships, and peace of mind
+A good life doesn't necessarily mean a happy life. Pain is inevitable, happiness is just another emotion, and chasing emotions doesn't end well. 
+
+Big things are sum of little things. Life is no exception. 
+
+Everytime we do or say something, we make a decision, mostly unconsciously. These decisions become our actions. The sum of these actions become a lifetime. 
+
+Thus the way is to start small. To pay attention to our actions, words, and how we spend our time. To make every decision with wisdom, courage, temperance, justice, and love. Leading to freedom and peace of mind. 
 
 **Essentials** wise, brave, temperate, just, mindful, grateful
 

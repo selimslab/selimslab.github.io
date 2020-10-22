@@ -42,7 +42,7 @@ layout: default
                 
                 {% if parent == category_name and child != category_name %}
                     <li style="padding-bottom: 0.4rem;">
-                        <a href="{{ '/' | append:  subcat | downcase   }}">{{ subcat }}</a>
+                        <a href="{{ '/' | append:  subcat | downcase   }}" target="_blank">{{ subcat }}</a>
                     </li>
                 {% endif %}
 
