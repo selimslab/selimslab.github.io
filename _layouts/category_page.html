@@ -13,7 +13,23 @@ layout: default
 
         {% assign category_name = page.category_name  %}
 
+
         <h1 class="tag" id="{{ category_name | downcase }}">{{ category_name }}</h1>
+
+
+        <h1 class="tag" id="explore">subcategories</h1>
+
+        <ul>
+            {% for category in sorted_cats %}
+                {% capture category_name %}{{ category | first  }}{% endcapture %}
+                {% assign parts = category_name | split: "/" % }
+                {% if  parts | first == category_name and parts | first != category_name %}
+                    <li style="padding-bottom: 0.4rem;">
+                        <a href="{{ '/' | append:  category_name | downcase   }}">{{ category_name }}</a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
 
         {% for tag in sorted_tags %}
 

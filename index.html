@@ -16,9 +16,10 @@ it is all within yourself, in your way of thinking. <br>
     
     <ul>
         {% for category in sorted_cats %}
-
-        {% capture category_name %}{{ category | first  }}{% endcapture %}
-
+            {% capture category_name %}{{ category | first  }}{% endcapture %}
+            {% if category_name | split: "/" | last != category_name %}
+                {% continue %}
+            {% endif %}
             <li style="padding-bottom: 0.4rem;">
                 <a href="{{ '/' | append:  category_name | downcase   }}">{{ category_name }}</a>
             </li>
