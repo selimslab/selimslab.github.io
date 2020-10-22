@@ -20,7 +20,7 @@ it is all within yourself, in your way of thinking. <br>
         {% capture category_name %}{{ category | first  }}{% endcapture %}
 
             <li style="padding-bottom: 0.4rem;">
-                <a href="{{ '/' | append:  category_name | downcase   }}">{{ category_name }}</a>
+                <a href="{{ '/pages/' | append:  category_name | downcase   }}">{{ category_name }}</a>
             </li>
         {% endfor %}
     </ul>

@@ -28,7 +28,7 @@ permalink: /notes/
 
                 <ul>
                     {% for p in zz %}
-                        <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+                        <li><a href="{{ p.url }}" target="_blank">{{ p.title }}</a></li>
                     {% endfor %}
                 </ul>
 
