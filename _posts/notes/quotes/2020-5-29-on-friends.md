@@ -2,7 +2,7 @@
 layout: post
 title: on friends
 tags: quotes
-category: notes 
+category: notes/quotes
 --- 
 
 

@@ -2,7 +2,7 @@
 layout: post
 title: on society
 tags: quotes
-category: notes 
+category: notes/quotes
 ---
 
 

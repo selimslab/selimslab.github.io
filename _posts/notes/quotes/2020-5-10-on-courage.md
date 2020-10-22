@@ -2,7 +2,7 @@
 layout: post
 title: on courage
 tags: quotes
-category: notes 
+category: notes/quotes
 ---
 
 

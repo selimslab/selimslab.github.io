@@ -2,7 +2,7 @@
 layout: post
 title: fun
 tags: quotes
-category: notes 
+category: notes/quotes
 --- 
 
 The story so far:<br/>I the beginning the Universe was created.<br/>This has made a lot of people very angry and been widely regarded as a bad move.
