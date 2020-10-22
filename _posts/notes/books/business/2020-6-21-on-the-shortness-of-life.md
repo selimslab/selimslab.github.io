@@ -2,7 +2,7 @@
 layout: post
 title:  On the Shortness of Life
 tags: philosophy
-category: notes   
+category: notes/books  
 --- 
 
 

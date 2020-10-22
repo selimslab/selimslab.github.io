@@ -2,7 +2,7 @@
 layout: post
 title: The Polymath Playbook
 tags: psychology 
-category: notes 
+category: notes/books  
 ---
 
 Generalist vs Specialist

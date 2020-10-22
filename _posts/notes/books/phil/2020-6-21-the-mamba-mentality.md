@@ -2,7 +2,7 @@
 layout: post
 title:  The Mamba Mentality
 tags: philosophy
-category: notes  
+category: notes/books  
 --- 
 
 Kobe Bryant's brilliant book on his life and work 

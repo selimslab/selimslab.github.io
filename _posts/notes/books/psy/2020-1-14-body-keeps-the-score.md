@@ -2,7 +2,7 @@
 layout: post
 title: Body Keeps the Score
 tags: psychology
-category: notes 
+category: notes/books  
 ---
 
 

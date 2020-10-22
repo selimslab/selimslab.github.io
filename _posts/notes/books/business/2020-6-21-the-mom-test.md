@@ -2,7 +2,7 @@
 layout: post
 title: The Mom Test
 tags: business
-category: notes  
+category: notes/books  
 ---
 
 1. Talk about their life instead of your idea
