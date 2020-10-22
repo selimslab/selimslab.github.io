@@ -29,10 +29,11 @@ layout: default
             {% endif %}
         {% endfor %}
 
+        {% if any_subcat %}
+        <h2 class="tag" id="explore">related categories</h2>
+        {% endif %}
+
         <ul>
-            {% if any_subcat %}
-            <h2 class="tag" id="explore">related categories</h2>
-            {% endif %}
             {% for cat in sorted_cats %}
                 {% capture subcat %}{{ cat | first  }}{% endcapture %}
                 {% assign parts = subcat | split: "/" %}
