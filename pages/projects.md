@@ -1,43 +1,8 @@
 ---
-layout: default
+layout: category_page
 title: Projects
 permalink: /projects/
+category_name: projects
+category_image: "/img/launch.jpg"
 ---
-
-{% assign sorted_tags = site.tags | sort %}
-
-{% assign sorted_cats = site.categories | sort %}
-
-<img src="/img/launch.jpg" />
-
-<div class="posts">
-    
-
-        {% assign category_name = "projects" %}
-
-        <h1 class="tag" id="{{ category_name | downcase }}">{{ category_name }}</h1>
-
-        {% for tag in sorted_tags %}
-
-            {% assign zz = tag[1] | where: "category", category_name | sort  %}
-            
-            {% if zz != empty %}
-                
-                <h3>{{ tag[0] }}</h3>
-
-                <ul>
-                    {% for p in zz %}
-                        <li><a href="{{ p.url }}" target="_blank">{{ p.title }}</a></li>
-                    {% endfor %}
-                </ul>
-
-            {% endif %}
-        
-        {% endfor %}
-
-
-
-
-
-</div>
 
