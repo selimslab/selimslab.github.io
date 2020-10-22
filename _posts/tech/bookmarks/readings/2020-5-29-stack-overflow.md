@@ -2,7 +2,7 @@
 layout: post
 title: Liked stack overflow answers 
 tags: bookmarks
-category: tech
+category: tech/bookmarks
 --- 
 
 

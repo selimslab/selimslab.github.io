@@ -2,7 +2,7 @@
 layout: post
 title:  Liked posts from hacker-news
 tags: bookmarks
-category: tech
+category: tech/bookmarks
 --- 
 
 

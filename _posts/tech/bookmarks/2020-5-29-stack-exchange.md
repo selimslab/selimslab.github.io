@@ -2,7 +2,7 @@
 layout: post
 title: Highest voted questions from stack exchange 
 tags: bookmarks
-category: tech
+category: tech/bookmarks
 --- 
 
 

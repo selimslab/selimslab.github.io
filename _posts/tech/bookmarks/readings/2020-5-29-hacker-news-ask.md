@@ -2,7 +2,7 @@
 layout: post
 title:  Liked questions from Ask HN
 tags: bookmarks
-category: tech
+category: tech/bookmarks
 --- 
 
 

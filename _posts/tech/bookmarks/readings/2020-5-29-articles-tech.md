@@ -2,7 +2,7 @@
 layout: post
 title:  a curated list of tech articles 
 tags: bookmarks
-category: tech
+category: tech/bookmarks
 --- 
 
 
