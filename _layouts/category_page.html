@@ -39,7 +39,7 @@ layout: default
                 {% assign child = parts | last %}
                 
                 {% if parent == category_name and child != category_name %}
-                    <li class="catlink" style="padding-bottom: 0.4rem;">
+                    <li class="catlink">
                         <a href="{{ '/' | append:  subcat | downcase   }}" target="_blank">{{ child }}</a>
                     </li>
                 {% endif %}
@@ -57,7 +57,7 @@ layout: default
 
                 <ul>
                     {% for p in zz %}
-                        <li><a href="{{ p.url }}" target="_blank">{{ p.title }}</a></li>
+                        <li class="catlink"><a href="{{ p.url }}" target="_blank">{{ p.title }}</a></li>
                     {% endfor %}
                 </ul>
 
