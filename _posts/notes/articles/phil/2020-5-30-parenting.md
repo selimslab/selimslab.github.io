@@ -23,7 +23,7 @@ wait a bit before buying something, because they don't really want most things. 
 
 a way to teach responsibility is to take them seriously and treat them with respect. it makes them feel like grown-ups and they love it 
 
-let a child  be angry, do not yell, remember that they are children and you are and adult  
+let a child  be angry, do not yell, remember that they are children and you are the adult  
 
 some great reads 
 

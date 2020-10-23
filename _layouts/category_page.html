@@ -10,9 +10,7 @@ layout: default
 
 <div class="posts">
     
-
         {% assign category_name = page.category_name  %}
-
 
         <h1 class="tag" id="{{ category_name | downcase }}">{{ category_name }}</h1>
 
@@ -41,7 +39,7 @@ layout: default
                 {% assign child = parts | last %}
                 
                 {% if parent == category_name and child != category_name %}
-                    <li style="padding-bottom: 0.4rem;">
+                    <li class="catlink" style="padding-bottom: 0.4rem;">
                         <a href="{{ '/' | append:  subcat | downcase   }}" target="_blank">{{ child }}</a>
                     </li>
                 {% endif %}
