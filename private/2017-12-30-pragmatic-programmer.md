@@ -8,8 +8,6 @@ category: tech
 <img height="250"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1401432508l/4099.jpg" /> 
 
 
-
-
 #### estimates
 
 estimate -> "I will get back to you"

@@ -4,7 +4,6 @@ title: OOP and SOLID
 tags: software-design
 category: tech
 ---
-OOP has been a very useful paradigm 
 
 # 4 pillars of OOP 
 

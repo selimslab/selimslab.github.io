@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Emergence and Complexity 
-tags: science
+tags: TED
 category: notes/talks  
 ---
 
