@@ -49,14 +49,14 @@ layout: default
 
         {% for tag in sorted_tags %}
 
-            {% assign zz = tag[1] | where: "category", category_name | sort  %}
+            {% assign posts_with_tag = tag[1] | where: "category", category_name | sort  %}
             
-            {% if zz != empty %}
+            {% if posts_with_tag != empty %}
                 
                 <h3>{{ tag[0] }}</h3>
 
                 <ul>
-                    {% for p in zz %}
+                    {% for p in posts_with_tag %}
                         <li class="catlink"><a href="{{ p.url }}" target="_blank">{{ p.title }}</a></li>
                     {% endfor %}
                 </ul>
