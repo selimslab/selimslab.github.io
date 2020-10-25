@@ -66,6 +66,7 @@ Look inside. What you understand from your own feelings mostly applies to others
 
 
  ## 14. Love 
+
 We all need to feel heard, loved, understood, respected. No one is completely foolish, and we are all foolish in some regards. Before dismissing a person or judging too harshly, remember we are all human, and to err is human. 
 
 ## 15. Sceptical thinking 
