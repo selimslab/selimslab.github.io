@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  The Big History, From Start To End 
-tags: history recommended
+tags: history 
 category: notes
 --- 
 
