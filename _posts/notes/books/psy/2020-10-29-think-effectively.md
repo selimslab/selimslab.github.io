@@ -61,12 +61,15 @@ Great tools, use them, yet an analogy is only partly true, so they are not to be
 ## 12. Empathy 
 
 Look inside. What you understand from your own feelings mostly applies to others. Almost all people fears death and rejection, we all have regrets, mistakes, insecurities, silly moments. The ancient advice has some truth, treat others as you want to be treated. 
+
 ## 13. Death
 
  Remember death, it makes life much easier. In a dead end job? In a stuck relationship? Putting off things? Not showing kindness to loved ones? Life is short and you may not be here tomorrow morning. Do whatever you wish today.
+
 ## 14. Love 
 
 We all need to feel heard, loved, understood, respected. No one is completely foolish, and we are all foolish in some regards. Before dismissing a person or judging too harshly, remember we are all human, and to err is human. 
+
 
 ## 15. Sceptical thinking 
 
