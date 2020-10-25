@@ -58,6 +58,7 @@ Society shames envy, yet we all feel it and don't talk about it. Whenever you fe
 Great tools, use them, yet an analogy is only partly true, so they are not to be taken too literally 
 
 ## 12. Empathy 
+
 Look inside. What you understand from your own feelings mostly applies to others. Almost all people fears death and rejection, we all have regrets, mistakes, insecurities, silly moments. The ancient advice has some truth, treat others as you want to be treated. 
 
  ## 13. Death
