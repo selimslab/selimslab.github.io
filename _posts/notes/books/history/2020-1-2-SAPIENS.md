@@ -43,7 +43,6 @@ credit rating is far more important than natural resources -> switzerland vs afg
 
 the most important economic resource is trust in the future 
 
-
 money brings happiness up to a point -> maybe 100k a year 
 
 wanna be rich -> invest 

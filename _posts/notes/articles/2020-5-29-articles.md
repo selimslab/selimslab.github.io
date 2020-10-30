@@ -23,6 +23,8 @@ Pain, fear, depression, frustration, anger, disappointment, grief.. they are all
 
 The way is to collaborate with emotions and use them as clues, constructive criticism to improve our lives. It is a habit and we need consistent practice to gain this habit. 
 
+---
+
 
 ---
 
