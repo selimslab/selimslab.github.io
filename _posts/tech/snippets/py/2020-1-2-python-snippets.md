@@ -10,6 +10,11 @@ category: tech/code-snippets
 
 <script src="https://gist.github.com/selimslab/bb761aa8726264d4058b953ec36ee925.js"></script>
 
+## data structures 
+
+<script src="https://gist.github.com/selimslab/4e42c968555a5d37cd06707f313950d5.js"></script>
+
+
 ## files
 
 <script src="https://gist.github.com/selimslab/af7db5184aeff4c9ee23a85720183f81.js"></script>

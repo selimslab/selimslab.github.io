@@ -1,41 +1,45 @@
 ---
 layout: post
-title: Code Review 
+title: Code Review Questions
 tags: teamwork
 category: tech
 ---
 
 
+is the code well-designed? 
 
-In doing a code review, you should make sure that:
+is it user friendly? 
 
-The code is well-designed.
+sensible?
 
-The functionality is good for the users of the code.
+functional?
 
-Any UI changes are sensible and look good.
+secure?
 
-Any parallel programming is done safely.
+performant?
 
-The code isn’t more complex than it needs to be.
+has tests?
 
-The developer isn’t implementing things they might need in the future but don’t 
-know they need now.
+easy to read?
 
-Code has appropriate unit tests.
+easy to maintain?
 
-Tests are well-designed.
+documented?
 
-The developer used clear names for everything.
+clear naming?
 
-Comments are clear and useful, and mostly explain why instead of what.
+does UI look good?
 
-Code is appropriately documented (generally in g3doc).
+no over-engineering? no unnecessary complexity?
 
-The code conforms to our style guides.
+are commits clear, small, with good summaries and tags?
+
+conforms to style guides? 
+
 
 Make sure to review every line of code you’ve been asked to review, look at the context, make sure you’re improving code health, and compliment developers on good things that they do.
 
+---
 
 more at  
 
@@ -47,42 +51,3 @@ more at
 ](https://google.github.io/eng-practices/review/reviewer/looking-for.html)
 
 [use comment tags](https://conventionalcomments.org/)
-
----
-
-
-a commit should pass this list before becoming a pull request
-
-<br>
-
-- long classes
-- long functions
-- hardcoded variables
-- too many args
-- flags 
-
-<br>
-
-- errors handled properly 
-
-<br>
-
-- copy-paste
-- mixed styles
-- dead code
-- commented out lines 
-
-<br>
-
-- no tests
-- functions are hard to test 
-
-<br>
-
-- bad names 
-
-<br>
-
-- unnecessary complexity
-- functions should do one thing 
-

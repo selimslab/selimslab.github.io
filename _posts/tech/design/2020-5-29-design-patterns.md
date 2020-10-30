@@ -6,10 +6,7 @@ category: tech
  
 ---
 
-Design Patterns are general reusable solutions to commonly occurring problems
-
-They are not silver bullets 
-
+Design Patterns are general solutions to common problems. They are not silver bullets 
 
 
 ## Creational
@@ -49,7 +46,6 @@ How components use each other
 ## Behavioral
 
 How components talk to each other 
-
 
 1. **Chain of Responsibility**, bank, PayPal, bitcoin 
 

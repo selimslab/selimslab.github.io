@@ -5,99 +5,33 @@ tags: software-design
 category: tech
 ---
 
-# 4 pillars of OOP 
+## OOP 
 
-# Abstraction
-boxes inside boxes 
+**Abstraction**, you don't have to know all the internals to use something. 
 
-# Encapsulation
-Hide data and selectively reveal
+**Encapsulation**, selectively reveal data so only relevant parts has that data 
 
-# Inheritance 
-Create parent child relationships 
+**Inheritance**, is-a relationships, for example Mars <b>is a</b> planet so Mars can inherit from Planet 
 
-Creates an "is-a" relationship. 
-
-For example if Mars inherits from a Planet, Mars <b>is a</b> planet 
-
-# Polymorphism 
-Means many shapes, makes it easy to adapt
+**Polymorphism**, many forms, enables to use the same method name for many purposes, having multiple implementations for a single interface, or making behavior dynamic 
 
 Many different classes could have a method with the same name but with a different implementation. 
 With polymorphism, every class will execute its correct method. 
  
-Polymorphism could be static or dynamic 
-Method overloading is used for static polymorphism.
-Inheritance + method overriding is used for dynamic polymorphism.
+Could be done using method overloading or inheritance+overriding
 
 
-# SOLID 
+## SOLID 
 
-+ S - Single Responsibility Principle
-+ O - Open/Closed Principle
-+ L - Liskov’s Substitution Principle
-+ I - Interface Segregation Principle
-+ D - Dependency Inversion Principle
+**Single responsibility principle**, Do one thing, and do it well 
 
-# S — Single responsibility principle
-Do one thing, and do it well 
+**Open/closed principle,** Classes should be open for extension but closed for modification
 
-# O — Open/closed principle
-Classes should be open for extension but closed for modification
+**Liskov’s Substitution Principle**, If you change a class with one of its children, the program should still work correctly. So child classes should not violate the contracts of parents. Inheritances should pass the ‘Is-A’ test. 
 
-# L - Liskov’s Substitution Principle 
-Derived or child classes must be substitutable for their base or parent classes
+**Interface Segregation Principle**, Many specific interfaces are better than one general interface
 
-Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.
-
-Typical cause is using a wrong abstraction and failing the ‘Is-A’ test of inheritance 
-
-# I - Interface Segregation Principle
-Many specific interfaces are better than one general interface
-```
-interface BadInterface {
-    create()   
-    read()
-}
-```     
-
-For example this interface breaks the principle, 
-because you would have to implement both create and read
-
-```
-interface Create {
-    create()  
-} 
-
-interface Read {
-    read()  
-} 
-```
-This is much better
-
-# D - Dependency Inversion Principle
-
-Depend on abstractions not concretions
-```python
-class Bad:
-    reader = Reader()
-
-    def read(self):
-        self.reader.read()
-```
-bad because reader is concrete
-
-Could be solved by simply providing the dependency as a parameter to the constructor
-
-```python
-class Good:
-    def __init__(reader):
-        self.reader = reader
-        
-    def read(self):
-        self.reader.read()
-```
-Dependency is injected to the constructor and problem solved!
+**Dependency Inversion Principle**, provide dependencies from outside because it makes testing easier 
 
 also visit 
 
