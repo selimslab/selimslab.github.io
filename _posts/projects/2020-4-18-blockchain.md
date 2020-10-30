@@ -1,6 +1,6 @@
 ---
 layout: post
-title: a simple blockchain in 100 lines
+title: a blockchain in 100 lines
 tags: data-structures 
 category: projects
 

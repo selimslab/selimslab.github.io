@@ -1,10 +1,8 @@
 ---
 layout: post
-title: let's write a hash map from scratch using C
+title: a C hash map from scratch
 tags: data-structures
 category: projects
-
- 
 
 ---
 
