@@ -57,7 +57,7 @@ Our capacity for fretting is endless, don't worry, be happy
 
 **calm**, slow to anger, quick to calm
 
-pick your battles, the poorest way is arguing, kindly assert yourself, defuse figthters by refusing to fight 
+**the poorest way is arguing**, pick your battles, kindly assert yourself, defuse figthters by refusing to fight 
 
 **think long term** pause and reflect 
 

@@ -1,23 +1,25 @@
 ---
 layout: post
-title: Questions
+title: Questions to ask yourself 
 tags: philosophy
 category: notes
 ---
 
-Questions to ask myself 
+How well did I love?
 
-How well did you love?
+How fully did I live?
 
-How fully did you live?
+Do I actually like this? 
 
-Do I actually like this? Do I actually believe this? What do I actually think?
+Do I really believe this? 
 
-is this what I really want?
+What do I think?
+
+Is this what I really want?
 
 what do I feel?
 
-Do I really need this ? 
+Do I really need this? 
 
 How well do I know this?
 
@@ -31,7 +33,7 @@ what is the simplest thing that can possibly work ?
 
 What’s the practical use of this thought?
 
-Would I treat a friend as I treat myself ?
+Would I treat a friend as I treat myself?
 
 Want to learn a new skill? Take some short breaks, early and often
 
@@ -67,23 +69,14 @@ is this opinion really mine?
 
 is this passion original or just a mimicry?
 
-
-## work 
-
 what is the most important thing to do? 
 
 Is this the most important thing I should be working on?
 
 is this the real problem?
 
-is it a priority?
+is it a priority? important? urgent?
 
-is it important?
+Can I simplify it ? eliminate it ? delegate it?
 
-is it urgent?
 
-can I simplify it ?
-
-can I eliminate it ?
-
-can I delegate it?

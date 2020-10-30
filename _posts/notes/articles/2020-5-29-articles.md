@@ -26,6 +26,13 @@ The way is to collaborate with emotions and use them as clues, constructive crit
 
 ---
 
+Agriculture Creates Surplus Food -> Enables Specialization -> Creates Social Classes 
+
+Food Stock Needs Protection -> Villages -> Cities -> Kingdoms -> Empires -> Wars 
+
+
+---
+
 ## Design and Society
 
 In the current age of global wars, international terrorism, financial turmoil, outsourced labor, awakening behemoths (China), increasing corruption, people fear the future.

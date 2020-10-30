@@ -8,13 +8,15 @@ category: notes
 ![](https://scx2.b-cdn.net/gfx/news/hires/2018/universe.jpg)
 
 
+want everything, lose everything 
 
 If you want something, ask for it.
+
+someone to love, something to do, and something to hope for
 
 action -> mistake -> experience -> confidence
 
 It is never too late, get up and walk 
-
 
 what pain do you want in your life? What are you willing to struggle for?
 
@@ -23,7 +25,6 @@ Follow your inner drive yet  do not hastily give all till nothing left
 Ignore the rat race. 
 
 hope yet remember hope is not a strategy
-
 
 Unless you ask, you ain’t getting anything.
 
@@ -57,6 +58,8 @@ Admit responsibility. Fix your mistake Do not make it again
 
 either fight or not, there is no middle
 
+You deserve your love and affection
+
 in the end, you are left with the adventures and good memories 
 
 in the long run, optimism is the best prevention for regret
@@ -70,7 +73,6 @@ Simple ideas govern complex systems
 alcohol reduces sleep quality 
 
 genius has limits, stupidity has no limits. 
-
 
 unconscious feelings and thoughts direct decisions 
 

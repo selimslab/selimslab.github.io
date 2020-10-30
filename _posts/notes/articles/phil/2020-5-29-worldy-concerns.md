@@ -6,32 +6,18 @@ category: notes
 --- 
 
 
-nuclear arms
+1. nuclear arms
 
-climate change 
+2. climate change 
 
-a lot of people dying from preventable diseases 
+3. a lot of people dying from preventable causes, disease, hunger, lack of vaccines, lack of access to clean water, food, basic hygiene, shelter, basic medical care 
 
-access to clean water, food, basic hygiene, shelter, basic medical care 
+4. girl literacy, schooling, forced early marriages
 
-hunger 
+5. crime 
 
-girl literacy, schooling 
+6. fake news, misinformation spreads faster
 
-forced early marriages
+7. privacy, censorship, manipulation
 
-crime 
-
-fake news 
-
-censorship 
-
-misinformation spreads faster
-
-manipulation
-
-privacy
-
-security 
-
-opaque decisions made by machines, like china travel bans 
+8. AI, opaque decisions made by machines, like china social scoring its people 

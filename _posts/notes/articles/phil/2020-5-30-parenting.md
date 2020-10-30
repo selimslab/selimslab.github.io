@@ -7,7 +7,7 @@ category: notes
 
 ![](https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80)
 
-what you do > what you say. Actions speak louder than words 
+what you do, what you say. Actions speak louder than words 
 
 Whatever you say or advice, children will disregard your words and pay attention to your actions. 
 
