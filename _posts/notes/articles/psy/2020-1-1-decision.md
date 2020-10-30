@@ -19,61 +19,19 @@ And that has made all the difference.
 
 ― Robert Frost 
   
-  
-> “The fool doth think he is wise, but the wise man knows himself to be a fool.”
-― William Shakespeare
 
-A little forethought can prevent a lot of pain later.
+Take your time, analyze, sanity check, cross check, and make a move. Give it a shot. Take a chance. Most decisions are reversible and we regret the chances we didn't take. 
 
-Make a move. Don’t overanalyze everything.
+Decisions are based on emotions, be mindful of howwhat you feel and why. 
 
-Sometimes the road less traveled is less traveled for a reason
+No by default, if you can't decide, the answer is no 
 
-second and third order consequences
+Prevention is the best fix. It is easier to stay out than get out.
 
-you miss 100% of the shots you don't take
+Consider second and third order consequences. 
 
-It is easier to stay out than get out.
+Do not sell your future. Never lie to yourself.
 
-Do what you can, with what you have, where you are.
+Go through a process with people you respect
 
-The perfect moment is NOW
-
-hope is not a strategy
-
-In the end, we only regret the chances we didn't take.
-
-do not sell your future
-
-Don’t spend a dollar’s worth of time on a ten cent decision.
-
-go through a process with people you respect
-
-NEVER lie to yourself.
-
-Fail. But do it quickly and learn a lesson.
-
-cross check
-
-sanity check
-
-NO: Learn to say No.
-
-you get what you measure
-
-don't make hasty decisions.
-
-It’s easy to mistake excitement for passion, motivation and ability.
-
-Face Your Problems: Don't delay.
-
-There's no such thing as a purely rational decision. 
-
-There are no silver bullets; there are no shortcuts.
-
-A man who procrastinates in his choosing will inevitably have his choice made for him by circumstance.
-
-
-Emotions are the driving factor of decision making. So much so that people who are unable to feel emotions due to neurological damage are not able to make decisions. [source](https://bigthink.com/experts-corner/decisions-are-emotional-not-logical-the-neuroscience-behind-decision-making)
-
-[-> emotions article](/emotion)
+People who are unable to feel emotions due to neurological damage are not able to make decisions. [source](https://bigthink.com/experts-corner/decisions-are-emotional-not-logical-the-neuroscience-behind-decision-making)

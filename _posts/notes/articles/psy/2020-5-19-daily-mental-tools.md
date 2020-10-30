@@ -21,6 +21,8 @@ Just one more
 
 Park downhill 
 
+save some easy tasks for low motivation periods 
+
 Pre-mortems, prevent bad things before they happen 
 
 ## Learning 

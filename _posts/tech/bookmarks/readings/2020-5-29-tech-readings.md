@@ -59,3 +59,9 @@ https://www.collaborativefund.com/blog/a-few-rules/
 ---
 
 https://tyrrrz.me/blog/unit-testing-is-overrated
+
+---
+
+[On Games](https://gafferongames.com/)
+
+[The end of the Redis adventure](http://antirez.com/news/133)

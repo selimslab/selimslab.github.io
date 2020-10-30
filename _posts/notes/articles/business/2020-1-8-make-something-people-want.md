@@ -18,7 +18,6 @@ focus on the things that do not change
 
 ## Not-so-shocking facts 
 
-
 • Almost everyone fears rejection
 
 • People are not as satisfied as they could be
@@ -40,6 +39,8 @@ focus on the things that do not change
 People are both curious and afraid of new things. Thus a familiar thing in an original setting is interesting.
 
 what people say and do are very different 
+
+The more available something is, the less we want it
 
 ## Desire
 

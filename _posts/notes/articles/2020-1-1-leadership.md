@@ -8,85 +8,22 @@ category: notes
 ![](https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80)
 
 
-Leadership of humans is like gardening. You plant the seeds and you provide the water. The plant itself is the only part of the whole system that can do the actual growing. Giant trees grow from seeds, but nobody makes that happen.
+Leadership is like gardening. You plant the seeds and water them. The growing part is on the plant. Seeds can become giant trees, yet you can't force it. All you can do is to encourage, protect, provide the environment, and remove obstacles. 
 
-## Methods 
+Main methods of persuasion are inspiration, logic, collaboration, participation, personal appeals, exchange, order, pressure 
 
-**Rational persuasion**, show how it is relevant 
+Acknowledge, diagnose, listen, and understand the real reason to handle resistance. Clarify false beliefs. Show you consider pros and cons. Show how the approach is fair.
 
-**Collaboration**, step in and resolve problems 
+Set achievable goals. Broke large goals into small ones. Explain why, how, what. Would you readily do what you ask them to do? 
 
-**Participation**, ask them to take part in process
+Create a blame-free environment to encourage initiative and creative acts 
 
-**Exchange**, offer a desired resource
+Punishment should be used sparingly and only in extreme cases because it can lead to resentment. 
 
-**Personal appeals**, friendship or loyalty 
+Put people above self-interest, career, and comfort. 
 
-**Apprising**, explain why this benefits her 
-
-**Inspirational**, create strong emotions
-
-**Legitimating**, a higher order says so
-
-**Pressure**, the last resort 
-
-> Followers should feel them as authentic and sincere. 
-
-## Resistance
-
-Acknowledge 
-
-Diagnose, listen, understand the real reason 
-
-Show you consider pros and cons and approach even-handedly and fairly 
-
-Clarify false beliefs
+People are quick to sense a lack of genuine confidence. Confidence comes from experience and experience comes from making a lot of mistakes and learning from them. 
 
 
-## Motivation
-
-Set achievable goals
-
-Broke large goals into small ones 
-
-Explain why, how, what 
-
-Empower them to act and be creative 
-
-One caution is that punishment should be used sparingly and only in extreme cases because it can lead to resentment. 
-
-high morale-> effective leadership, shared effort, trust, and mutual respect. 
-
-## Lead by example
-
-It means putting the organization and subordinates above personal self-interest, career, and comfort. 
-
-A leader who projects confidence is an inspiration to followers. Subordinates will follow leaders who are comfortable with their own abilities and will question the leader who shows doubt. 
-
-A leader who shows hesitation in the face of setbacks can trigger a chain reaction among others. 
-
-Overconfidence is bad too 
-
-Decisive
-
-Self awareness
-
-It does not take long for followers to become suspicious of a leader who acts confident but does not have the competence to back it up. 
-
-Effective leaders connect with their followers by sharing hardships and communicating openly to clearly see and feel what goes on from a subordinate’s perspective. 
-
-Military and civilian leaders must ask: would I readily do what I am asking them to do? 
-
-Creates shared understanding 
-
-Listens actively 
-
-engaging communication 
-
-watch your own thoughts from a distance
-
-draw a sharp line between your thoughts and your speech.
-
-mark of strength is not to take yourself too seriously
 
 

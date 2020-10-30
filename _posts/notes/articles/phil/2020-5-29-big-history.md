@@ -392,9 +392,8 @@ heat death, end of universe.
 
 ---
 
-in the grand scheme of things, our lives are a brief glimpse of light 
+your life is a brief glimpse of light, enjoy it
 
-life is brief, enjoy it
 
 
 

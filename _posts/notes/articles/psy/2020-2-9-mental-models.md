@@ -6,14 +6,11 @@ category: notes
 ---
 
 
-
-notes from [https://fs.blog/mental-models/](https://fs.blog/mental-models/)
-
 ## General Thinking Concepts
 
 1. The Map is not the Territory
 
-2. Circle of Competence, undertand what you know and what you don't know 
+2. Circle of Competence, understand what you know and what you don't know 
 
 3. First Principles Thinking, understand the fundemantals 
    
@@ -57,7 +54,6 @@ notes from [https://fs.blog/mental-models/](https://fs.blog/mental-models/)
 
 1. Evolution, adaptation
 
-
    arms race among competing species is called the Red Queen Effect for the character in Alice in Wonderland who said, “Now, here, you see, it takes all the running you can do, to keep in the same place. 
 
 2. Ecosystems
@@ -98,7 +94,6 @@ notes from [https://fs.blog/mental-models/](https://fs.blog/mental-models/)
 8. Irreducibility 
 
 9.  Margin of Safety and Backup Systems
-
 
 10. Algorithms
 
@@ -215,4 +210,9 @@ notes from [https://fs.blog/mental-models/](https://fs.blog/mental-models/)
 24. Tendency to Want to Do Something (Fight/Flight, Intervention, Demonstration of Value, etc.)
 
 25. Falsification / Confirmation Bias
+
+
+more at [https://fs.blog/mental-models/](https://fs.blog/mental-models/)
+
+[[https://www.perell.com/blog/50-ideas-that-changed-my-life]]
 

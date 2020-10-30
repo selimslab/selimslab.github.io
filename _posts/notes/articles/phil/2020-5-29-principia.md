@@ -21,7 +21,7 @@ Big things are sum of little things. Life is no exception.
 
 Everytime we do or say something, we make a decision, mostly unconsciously. These decisions become our actions. The sum of these actions become a lifetime. 
 
-Thus the way is to start small. To pay attention to our actions, words, and how we spend our time. To make every decision with wisdom, courage, temperance, justice, and love. Leading to freedom and peace of mind. 
+Thus the way is to start small. To pay attention to our actions, words, and how we spend our time.
 
 **Essentials** wise, brave, temperate, just, mindful, grateful
 
@@ -61,44 +61,42 @@ pick your battles, the poorest way is arguing, kindly assert yourself, defuse fi
 
 **think long term** pause and reflect 
 
-## Work 
-
 **do what you love**, love what you do  
 
 **being professional** means being responsible and reliable 
 
-**Work smart**, goal, plan, system, eliminate, simplify, prioritize, delegate, focus, feedback, iterate 
+**Work smart**, goal, plan, system, habit, eliminate, simplify, chunk, prioritize, delegate, focus, feedback, iterate
+
+**important** over urgent, ignore sunk costs 
  
 **value your time**, value yourself and others, and show your value
+
+**learning** Genuine interest leads to the best learning, not arbitrary rules and fixed schedules 
+
+**habits** You are your habits. Make habits obvious and easy. Time, location, habit stacking 
+
+work to flourish
+
+make it one bit better, prevent the worst 
+
+make work playful and isolate work from leisure . Focused intervals. 
+
+What pain do you want to sustain? 
+
 
 ## Communication
 
 listen well 
 
-speak clearly
-
-speak with enthusiasm
-
-integrity
+speak clearly, with enthusiasm and integrity
 
 constructive feedback 
 
-breath, posture, voice, tone, body language, suit up  
-
-**simple words with big effects**
-
-No, thank you
-
-I’m sorry, that was my fault
-
-I don’t understand
-
-Can you help me?
-
+breath, posture, voice, tone, eye contact, body language
 
 ## Act 
 
-think before speak 
+Words are irreversible. Think twice before you speak 
 
 be careful with promises
 
@@ -114,3 +112,15 @@ Stop waiting, start doing
 > Now take what's left and live it properly.
 > 
 > – Marcus Aurelius 
+
+
+---
+
+Appreciate your body and mind, your family and friends. Appreciate the moment. 
+
+Has consequence, has influence. Respect yourself first 
+
+Less is more. Remove all nonessentials 
+
+
+Be patient. Take your time. 

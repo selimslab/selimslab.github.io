@@ -1,3 +1,4 @@
+
 ---
 layout: post
 title: Highlights from read-and-liked 
@@ -5,7 +6,89 @@ tags: articles
 category: notes
 --- 
 
+https://lettersofnote.com/
+---
 
+---
+
+ [https://ncase.me/mental-health/](https://ncase.me/mental-health/)
+
+[This could be why you're depressed or anxious - Johann Hari](https://www.youtube.com/watch?v=MB5IX-np5fE)
+
+All feelings are imperfect signals about met/unmet needs. 
+
+If you feel anxious or depressed, you are not crazy, not a broken machine, you are just a human being with unmet needs.
+
+Pain, fear, depression, frustration, anger, disappointment, grief.. they are all helpful and necessary signals
+
+The way is to collaborate with emotions and use them as clues, constructive criticism to improve our lives. It is a habit and we need consistent practice to gain this habit. 
+
+
+---
+
+## Design and Society
+
+In the current age of global wars, international terrorism, financial turmoil, outsourced labor, awakening behemoths (China), increasing corruption, people fear the future.
+Look at Apple, classic 1960's space age retro.
+Look at Instagram. Cozy and nostalgic polaroid filters.
+If I designed for the future, I'd take hints from the past.
+A key difference is that in the past, different social groups had something to look forward to (emancipation and liberation), despite the looming threat of thermonuclear warfare. Nowadays? In the western hemisphere? It's all gloom and doom.
+In western markets - Your brand should function as an opiate, it should reassure and placate people.
+In emerging markets - Sell the American dream of old.
+Of course there's a third way, show us a way out of here. But for that advertisement alone is not enough. You'd have to change how your business runs and make a lasting impact on society. Forget shareholder value and start thinking about society.
+
+
+
+---
+
+Being kind is not being nice. It is taking responsibility for your impact on 
+the people, to be mindful of their feelings
+
+---
+
+
+elite players train deliberately
+
+Don't mix work and leisure 
+
+but make work playful 
+
+
+--- 
+
+isolation of work from leisure
+
+--- 
+
+
+**story arcs **
+
+Good stories include a change in fortune
+
+1. Rise and Fall /\ 
+
+2. Fall and Rise \/ 
+
+3. Rise, Fall, Recover /\/
+---
+
+
+* Relentlessly prune bullshit, don't wait to do things that matter, and savor the time you have. That's what you do when life is short.
+
+
+---
+
+[How To Understand Things](https://nabeelqu.co/understanding)
+She was strangely unaware that she could look and see freshly for herself
+
+---
+
+[Just Too Efficient
+](https://www.tbray.org/ongoing/When/202x/2020/07/05/Too-Efficient)
+
+ I saw two street sweepers at a sunny corner. They were beat-up looking and grizzled but probably younger than me. They’d paused work to smoke and talk. One told a story; the other’s eyes widened and then he laughed so hard he had to bend over, leaning on his broom. I suspect their jobs and pay were lousy and their lives constrained in ways I can’t imagine. But they had time to smoke a cigarette and crack a joke. You know what that’s called? Waste, inefficiency, a suboptimal outcome. Some of the brightest minds in our economy are earnestly engaged in stamping it out. They’re winning, but everyone’s losing.
+ 
+---
 http://paulgraham.com/early.html
 
 Early work is often dismissed and misjudged as lame 
