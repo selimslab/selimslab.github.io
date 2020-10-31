@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Great Ideas Seem Initially Bad
-tags: business
-category: notes
+tags: - 
+category: notes/startups
 
 
 ---

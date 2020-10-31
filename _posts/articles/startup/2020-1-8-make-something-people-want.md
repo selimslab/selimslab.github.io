@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Make something people want
-tags: business
-category: notes
+tags: - 
+category: notes/startups
 ---
 
 People don’t buy products because of what those products do, 

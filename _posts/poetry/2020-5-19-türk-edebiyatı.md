@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Türk Edebiyatı 
-tags: poetry
-category: notes 
+tags: - 
+category: notes/poetry
 
 --- 
 
