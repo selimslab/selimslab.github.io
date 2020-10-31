@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Nazım 
-tags: - 
-category: notes/poetry
+tags: poetry
+category: notes/books
 
 --- 
 

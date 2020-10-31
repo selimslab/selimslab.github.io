@@ -1,8 +1,8 @@
 ---
 layout: post
 title: The Moment 
-tags: - 
-category: notes/poetry
+tags: poetry
+category: notes/books
 
 --- 
 

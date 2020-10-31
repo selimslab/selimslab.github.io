@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Orhan Veli 
-tags: - 
-category: notes/poetry
+tags: poetry
+category: notes/books
 
 ---
 

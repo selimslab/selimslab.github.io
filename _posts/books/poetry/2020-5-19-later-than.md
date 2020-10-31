@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Enjoy yourself 
-tags: - 
-category: notes/poetry
+tags: poetry
+category: notes/books
 
 --- 
 
