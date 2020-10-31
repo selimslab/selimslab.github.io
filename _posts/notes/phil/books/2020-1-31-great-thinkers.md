@@ -9,18 +9,17 @@ category: notes/philosophy
 
 Attachment and craving cause suffering. To discard craving, train the mind to experience reality as it is. Pain is inevitable, suffering is optional 
 
-
 ## Plato
 
 Love is education, it is to grow together. Complementary qualities, strength in different aspects. 
 
 Art is propaganda. Beautiful objects encourage us to be like them. Ugliness is dangerous, it pushes us to be ugly too. So we need cencorship, art could lead to better but also to worse. 
 
-How can a society have eudaimonia? better childhoods, better role models, courage, self-control, reasonableness, independence, and calm
+How can a society have eudaimonia? Better childhoods, better role models, courage, self-control, reasonableness, independence, and calm
 
 ## Epicurus
 
-He lived on bread, olive, and cheese and he had two cloaks.  
+Lived on bread, olive, and cheese and he had two cloaks.  
 
 We don't need money, romance, or luxury.  What we really want is calm, understanding, respect, appreciation.  
 
@@ -44,7 +43,7 @@ Simplest things life offers, like a haiku. Old pond, a frog leaps in, water’s 
 
 **art**, the task of art is to make truth stick. Tragedy reminds terrible things can happen to us all so we shouldn't judge people. a change in fortune, a moment of dramatic revelation, catharsis
 
-**persuasion** emotions, short, and sweet 
+**persuasion** 
 
 * Leverage emotions, soothe fears, feed hopes
 * Use visuals, examples, facts, stats, without getting boring 
@@ -81,9 +80,7 @@ Be content with what you have, yet remember that there are times for action and 
 
 **Schopenhauer**  Will to life, Even a blind mole does anything to live. Love is a mechanism to produce balanced children. A good life is to spend as much time with art and philosophy 
 
-**Hegel**
-
-Progress is not linear. There is wisdom in every stage. Learn from ideas you dislike 
+**Hegel** Progress is not linear. There is wisdom in every stage. Learn from ideas you dislike 
 
 Art helps important ideas stick 
 
@@ -107,26 +104,6 @@ We need institutions to make ideas powerful
 
 **Freud** Pleasure & reality balance. Childhood deeply affects adulthood. Analysis of dreams, jokes, parapraxes
 
-## Anna Freud 
-
-People are people not vending machines.  
-
-Ambivalence is the key to be an adult. Life is grey. Nothing is completely good or bad. 
-
-**Defense mechanisms
-**
-1. Denial
-2. Projection
-3. Turning against the self
-4. Sublimation, redirecting to sports, art, career, .. 
-5. Regression, getting childish  
-6. Rationalisation 
-7. Intellectualisation
-8. Reaction formation
-9. Displacement, redirection to someone weaker 
-10. Fantasy 
-
-
 **Architecture** Cities should be like ecosystems. City blocks should be small and dense. Mix of old & new buildings
 
 
@@ -147,7 +124,30 @@ People imagine change as dramatic and revolutionary yet most changes are very un
 
 **Rachel Carson** Silent Spring, DDT, love of nature works better than guilt 
 
-**Margaret Mead** Culture determines people far more than suspected. Most traits are not “human nature” but just culture
+
+## Anna Freud 
+
+People are people not vending machines.  
+
+Ambivalence is the key to be an adult. Life is grey. Nothing is completely good or bad. 
+
+**Defense mechanisms**
+
+1. Denial
+2. Projection
+3. Turning against the self
+4. Sublimation, redirecting to sports, art, career, .. 
+5. Regression, getting childish  
+6. Rationalisation 
+7. Intellectualisation
+8. Reaction formation
+9. Displacement, redirection to someone weaker 
+10. Fantasy 
+
+
+## Margaret Mead
+
+Culture determines people far more than suspected. Most traits are not “human nature” but just culture
 
 What we really need is understanding, calm, and insight.
 
