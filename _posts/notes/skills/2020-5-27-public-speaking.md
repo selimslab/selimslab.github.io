@@ -5,6 +5,9 @@ tags: skills
 category: notes
 ---
 
+![](https://images.unsplash.com/photo-1475721027785-f74eccf877e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80)
+
+
  [from Matt Abraham's talk at Stanford Graduate School of Business
  ](https://www.youtube.com/watch?v=Fsr4yrSAIAQ)
 

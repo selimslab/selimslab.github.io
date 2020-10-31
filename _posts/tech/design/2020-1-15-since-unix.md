@@ -130,3 +130,8 @@ Always back everything up! And never make changes in production!
 Question your assumptions. 
 
 If you've chosen the right data structures and organized things well, the algorithms will almost always be self-evident. 
+
+Functional over fancy 
+
+Plan before trying to build something
+
