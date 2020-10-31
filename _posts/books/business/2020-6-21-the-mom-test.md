@@ -1,8 +1,8 @@
 ---
 layout: post
 title: The Mom Test
-tags: - 
-category: notes/startups/books  
+tags: startups
+category: notes/books  
 ---
 
 1. Talk about their life instead of your idea
