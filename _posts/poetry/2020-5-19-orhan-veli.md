@@ -231,6 +231,7 @@ Ve neden ihtiyar değirmenci
 
 Allaha inanır düşünmeden?
 
+
 <br>
 
 Ve rüzgarlı havalarda
