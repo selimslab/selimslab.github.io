@@ -22,9 +22,10 @@ And that has made all the difference.
 
 Take your time, analyze, sanity check, cross check, and make a move. Give it a shot. Take a chance. Most decisions are reversible and we regret the chances we didn't take. 
 
-Decisions are based on emotions, be mindful of howwhat you feel and why. 
+Be mindful of how you feel and why. 
 
-No by default, if you can't decide, the answer is no 
+Decisions are based on emotions. People who are unable to feel emotions due to neurological damage are not able to make decisions. [source](https://bigthink.com/experts-corner/decisions-are-emotional-not-logical-the-neuroscience-behind-decision-making)
+
 
 Prevention is the best fix. It is easier to stay out than get out.
 
@@ -34,4 +35,4 @@ Do not sell your future. Never lie to yourself.
 
 Go through a process with people you respect
 
-People who are unable to feel emotions due to neurological damage are not able to make decisions. [source](https://bigthink.com/experts-corner/decisions-are-emotional-not-logical-the-neuroscience-behind-decision-making)
+No by default, if you can't decide, the answer is no 
