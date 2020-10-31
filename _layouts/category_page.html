@@ -28,7 +28,7 @@ layout: default
         {% endfor %}
 
         {% if any_subcat %}
-        <h2 class="tag is-info is-large">sub categories</h2>
+        <h2>Sub-categories</h2>
         {% endif %}
 
         <ul>
@@ -46,6 +46,11 @@ layout: default
 
             {% endfor %}
         </ul>
+
+        {% if any_subcat %}
+        <h2>Posts grouped by tags</h2>
+        {% endif %}
+
 
         {% for tag in sorted_tags %}
 
