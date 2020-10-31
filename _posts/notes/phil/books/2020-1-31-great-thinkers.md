@@ -34,9 +34,7 @@ Tea ceremony
 
 Harmony, Sympathy, Tranquility, Humility, Lightness, Community 
 
-Simplest things life offers
-
-**Haiku** Old pond, a frog leaps in, water’s sound 
+Simplest things life offers, like a haiku. Old pond, a frog leaps in, water’s sound 
 
 ## Aristotle
 
@@ -44,18 +42,12 @@ Simplest things life offers
 
 **friendship**, A true friend is someone who you care as much as yourself. Their joy is yours and their sorrow too 
 
+**art**, the task of art is to make truth stick. Tragedy reminds terrible things can happen to us all so we shouldn't judge people. a change in fortune, a moment of dramatic revelation, catharsis
 
-**art**, the task of art is to make truth stick 
-
-a change in fortune, a moment of dramatic revelation, catharsis
-
-Tragedy reminds terrible things can happen to us all so we shouldn't judge people 
-
-**persuasion** 
+**persuasion** emotions, short, and sweet 
 
 * Leverage emotions, soothe fears, feed hopes
-* Get visual, use drawings, pictures, video 
-* Use examples, facts, stats, without getting boring 
+* Use visuals, examples, facts, stats, without getting boring 
 * Make it short and funny
 
 
@@ -63,35 +55,15 @@ Tragedy reminds terrible things can happen to us all so we shouldn't judge peopl
 
 very little is needed to make a happy life 
 
+Anxiety is the gap between fear and hope. When you face your fear, it vanishes 
 
-**Anxiety**
+To reduce worry, assume the worst. expect everything, dress rehersal for catastrophe
 
-anxiety is the gap between fear and hope 
+Anger is the collision of hope and reality. Something has to be both sad and unexpected to cause anger. If you expect anything, nothing makes you much angry
 
-when you face your fear, it vanishes 
+We blame ourselves but most things are so random. Be suspicious of success and gentle on ourselves in failure. Much of what we get, we don't deserve 
 
-to reduce worry, assume the worst
-
-expect everything, dress rehersal for catastrophe
-
-**Anger**
-
-Anger is the collision of hope and reality 
-
-sad AND unexpected -> anger 
-
-if you expect anything, nothing makes you much angry
-
-**Fortuna** 
-
-we blame ourselves but most things are so random 
-
-be suspicious of success and gentle on ourselves in failure 
-
-much of what we get, we don't deserve 
-
-astronomy is humbling and corrects the perspective
-
+Astronomy is humbling and corrects the perspective
 
 ## Lao Tzu
 
@@ -99,10 +71,9 @@ Nature does not hurry, yet everything is accomplished
 
 Let nature inspire you, trees, mountains, rivers, flowers
 
-3 vinegar tasters, Confucius sour, Buddha bitter, Lao sweet 
-
 Be content with what you have, yet remember that there are times for action and ambition
 
+**3 vinegar tasters**, Confucius sour, Buddha bitter, Lao sweet, like their philosophies of life 
 
 **Montaigne** Beauty in a simple life. A virtuous ordinary life is enough 
 
@@ -120,9 +91,7 @@ We need institutions to make ideas powerful
 
 **Nietzsche** Bitterness is hidden envy. Pleasure and pain comes together 
 
-**Heidegger**
-
-Modern world is distracting us from nature. We are thrown into the world. We forget to be free and live for ourselves. All being is connected. Spend more time in graveyards
+**Heidegger** Modern world is distracting us from nature. We are thrown into the world. We forget to be free and live for ourselves. All being is connected. Spend more time in graveyards
 
 **Sartre** Things are weirder than we think. We are freer than we think 
 
@@ -138,14 +107,14 @@ Modern world is distracting us from nature. We are thrown into the world. We for
 
 **Freud** Pleasure & reality balance. Childhood deeply affects adulthood. Analysis of dreams, jokes, parapraxes
 
-**Anna Freud**
+## Anna Freud 
 
 People are people not vending machines.  
 
 Ambivalence is the key to be an adult. Life is grey. Nothing is completely good or bad. 
 
-Defense mechanisms
-
+**Defense mechanisms
+**
 1. Denial
 2. Projection
 3. Turning against the self
@@ -178,9 +147,7 @@ People imagine change as dramatic and revolutionary yet most changes are very un
 
 **Rachel Carson** Silent Spring, DDT, love of nature works better than guilt 
 
-**Margaret Mead**
-
-Culture determines people far more than suspected. Most traits are not “human nature” but just culture
+**Margaret Mead** Culture determines people far more than suspected. Most traits are not “human nature” but just culture
 
 What we really need is understanding, calm, and insight.
 
@@ -189,21 +156,3 @@ We crave community and connection
 In truth we have the resources for a basic standard for all people 
 
 A small group of committed people can change the world
-
-**Parenting**
-
-Remember a child is very vulnerable 
-
-Let a child be angry. Be patient 
-
-Make sure they are not too compliant 
-
-**Attachment**
-
-1. Secure
-2. Anxious
-3. Avoidant 
-
-Be slow to anger, quick to forgive and forget 
-
-True modesty comes from confidence 

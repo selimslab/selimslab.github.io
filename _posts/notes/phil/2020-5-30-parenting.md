@@ -21,6 +21,12 @@ if you have a rule, explain the reason, life is much easier when they are convin
 
 wait a bit before buying something, because they don't really want most things. having a 1 month rule is useful.
 
+Remember a child is very vulnerable 
+
+Let a child be angry. Be patient 
+
+Make sure they are not too compliant 
+
 a way to teach responsibility is to take them seriously and treat them with respect. it makes them feel like grown-ups and they love it 
 
 let a child  be angry, do not yell, remember that they are children and you are the adult  
