@@ -28,7 +28,7 @@ layout: default
         {% endfor %}
 
         {% if any_subcat %}
-        <h2 class="tag" id="explore">sub categories</h2>
+        <h2 class="tag is-info is-large" id="explore">sub categories</h2>
         {% endif %}
 
         <ul>
@@ -53,7 +53,7 @@ layout: default
             
             {% if posts_with_tag != empty %}
                 
-                <h3>{{ tag[0] }}</h3>
+                <h3 class="tag is-warning is-medium">{{ tag[0] }}</h3>
 
                 <ul>
                     {% for p in posts_with_tag %}
