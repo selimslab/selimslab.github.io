@@ -12,7 +12,7 @@ layout: default
     
         {% assign category_name = page.category_name  %}
 
-        <h1 class="tag" id="{{ category_name | downcase }}">{{ category_name }}</h1>
+        <h1 id="{{ category_name | downcase }}">{{ category_name }}</h1>
 
         {% assign any_subcat = false  %}
 
@@ -28,7 +28,7 @@ layout: default
         {% endfor %}
 
         {% if any_subcat %}
-        <h2 class="tag is-info is-large" id="explore">sub categories</h2>
+        <h2 class="tag is-info is-large">sub categories</h2>
         {% endif %}
 
         <ul>
