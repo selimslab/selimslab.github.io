@@ -40,7 +40,7 @@ layout: default
                 
                 {% if parent == category_name and child != category_name %}
                     <li class="catlink">
-                        <a href="{{ '/' | append:  subcat | downcase   }}" target="_blank">{{ child }}</a>
+                        <a href="{{ '/' | append:  subcat | downcase   }}">{{ child }}</a>
                     </li>
                 {% endif %}
 
@@ -57,7 +57,7 @@ layout: default
 
                 <ul>
                     {% for p in posts_with_tag %}
-                        <li class="catlink"><a href="{{ p.url }}" target="_blank">{{ p.title }}</a></li>
+                        <li class="catlink"><a href="{{ p.url }}">{{ p.title }}</a></li>
                     {% endfor %}
                 </ul>
 
