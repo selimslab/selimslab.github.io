@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Resources to start coding, from 0 to 1 for beginners
-tags: bookmarks
+tags: beginners
 category: tech/bookmarks
  
 ---

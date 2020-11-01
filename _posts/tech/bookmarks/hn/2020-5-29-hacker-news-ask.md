@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Liked questions from Ask HN
-tags: bookmarks
+tags: hacker-news
 category: tech/bookmarks
 --- 
 

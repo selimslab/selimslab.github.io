@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Liked stack overflow answers 
-tags: bookmarks
+tags: stack-exchange
 category: tech/bookmarks
 --- 
 

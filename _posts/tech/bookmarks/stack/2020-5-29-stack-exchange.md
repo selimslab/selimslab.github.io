@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Highest voted questions from stack exchange 
-tags: bookmarks
+tags: stack-exchange
 category: tech/bookmarks
 --- 
 

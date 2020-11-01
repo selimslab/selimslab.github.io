@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Tech Stack 
-tags: bookmarks
+title: Tech Stack Inspiration
+tags: tools
 category: tech/bookmarks
 ---
 

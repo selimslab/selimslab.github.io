@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Data Sources
-tags: bookmarks
+tags: data
 category: tech/bookmarks
 --- 
 
