@@ -47,7 +47,19 @@ layout: default
             {% endfor %}
         </ul>
 
-        {% if any_subcat %}
+        
+        {% assign any_tagged_post = false  %}
+        {% for tag in sorted_tags %}
+
+            {% assign posts_with_tag = tag[1] | where: "category", category_name | sort  %}
+            
+            {% if posts_with_tag != empty %}
+                {% assign any_tagged_post = true  %}
+            {% endif %}
+    
+        {% endfor %}
+
+        {% if any_tagged_post %}
         <h2>Posts grouped by tags</h2>
         {% endif %}
 
