@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Highlights from read-and-liked 
@@ -6,135 +5,9 @@ tags: articles
 category: notes
 --- 
 
-https://lettersofnote.com/
----
 
----
+[what-to-write-down-when-youre-reading-to-learn]()
 
- [https://ncase.me/mental-health/](https://ncase.me/mental-health/)
-
-[This could be why you're depressed or anxious - Johann Hari](https://www.youtube.com/watch?v=MB5IX-np5fE)
-
-All feelings are imperfect signals about met/unmet needs. 
-
-If you feel anxious or depressed, you are not crazy, not a broken machine, you are just a human being with unmet needs.
-
-Pain, fear, depression, frustration, anger, disappointment, grief.. they are all helpful and necessary signals
-
-The way is to collaborate with emotions and use them as clues, constructive criticism to improve our lives. It is a habit and we need consistent practice to gain this habit. 
-
----
-
-
----
-
-Agriculture Creates Surplus Food -> Enables Specialization -> Creates Social Classes 
-
-Food Stock Needs Protection -> Villages -> Cities -> Kingdoms -> Empires -> Wars 
-
-
----
-
-## Design and Society
-
-In the current age of global wars, international terrorism, financial turmoil, outsourced labor, awakening behemoths (China), increasing corruption, people fear the future.
-Look at Apple, classic 1960's space age retro.
-Look at Instagram. Cozy and nostalgic polaroid filters.
-If I designed for the future, I'd take hints from the past.
-A key difference is that in the past, different social groups had something to look forward to (emancipation and liberation), despite the looming threat of thermonuclear warfare. Nowadays? In the western hemisphere? It's all gloom and doom.
-In western markets - Your brand should function as an opiate, it should reassure and placate people.
-In emerging markets - Sell the American dream of old.
-Of course there's a third way, show us a way out of here. But for that advertisement alone is not enough. You'd have to change how your business runs and make a lasting impact on society. Forget shareholder value and start thinking about society.
-
-
-
----
-
-Being kind is not being nice. It is taking responsibility for your impact on 
-the people, to be mindful of their feelings
-
----
-
-
-elite players train deliberately
-
-Don't mix work and leisure 
-
-but make work playful 
-
-
---- 
-
-isolation of work from leisure
-
---- 
-
-
-**story arcs **
-
-Good stories include a change in fortune
-
-1. Rise and Fall /\ 
-
-2. Fall and Rise \/ 
-
-3. Rise, Fall, Recover /\/
----
-
-
-* Relentlessly prune bullshit, don't wait to do things that matter, and savor the time you have. That's what you do when life is short.
-
-
----
-
-[How To Understand Things](https://nabeelqu.co/understanding)
-She was strangely unaware that she could look and see freshly for herself
-
----
-
-[Just Too Efficient
-](https://www.tbray.org/ongoing/When/202x/2020/07/05/Too-Efficient)
-
- I saw two street sweepers at a sunny corner. They were beat-up looking and grizzled but probably younger than me. They’d paused work to smoke and talk. One told a story; the other’s eyes widened and then he laughed so hard he had to bend over, leaning on his broom. I suspect their jobs and pay were lousy and their lives constrained in ways I can’t imagine. But they had time to smoke a cigarette and crack a joke. You know what that’s called? Waste, inefficiency, a suboptimal outcome. Some of the brightest minds in our economy are earnestly engaged in stamping it out. They’re winning, but everyone’s losing.
- 
----
-http://paulgraham.com/early.html
-
-Early work is often dismissed and misjudged as lame 
-
-inexperience is not the only reason people are too harsh on early versions of ambitious projects. They also do it to seem clever. 
-
-there is another more sinister reason people dismiss new ideas. If you try something ambitious, many of those around you will hope, consciously or unconsciously, that you'll fail. They worry that if you try something ambitious and succeed, it will put you above them.
-
-I wouldn't claim that people in Silicon Valley overcome these impulses because they're morally better. [1] The reason many hope you'll succeed is that they hope to rise with you. With investors this incentive is particularly explicit. They want you to succeed because they hope you'll make them rich in the process. But many other people you meet can hope to benefit in some way from your success. At the very least they'll be able to say, when you're famous, that they've known you since way back.
-
-But even if Silicon Valley's encouraging attitude is rooted in self-interest, it has over time actually grown into a sort of benevolence.
-
-Your own skepticism is a force more powerful than other people's skepticism. Some ways to overcome it are supportive friends, teachers, mentors, quick improvements, ignorance, discipline, slight overconfidence, considering it a sketch, view as a learning project 
-
----
-
-
-[Don’t Pay for 95%](https://5kids1condo.com/dont-pay-for-95/)
-
-we are not using everything we buy all the time. We spend a lot of time an effort to save enough to buy something, and continuous effort to maintain it. 
-
-Renting looks expensive because we only see the short term price. We see the rental cost of 2 weeks, not the money, time, and energy not spent in other 50 weeks.
-
-In short, don’t pay for the 95% you won’t use. 
-
----
-
-
-[what-to-write-down-when-youre-reading-to-learn](https://acesounderglass.com/2020/06/10/what-to-write-down-when-youre-reading-to-learn/)
-
-Paraphrase
-
-Dont copy paste 
-
-Think for yourself 
-
-Instead of having arbitrary goals, have some questions and set out to answer them 
 
 --- 
 
@@ -394,12 +267,7 @@ https://acesounderglass.com/2020/06/10/what-to-write-down-when-youre-reading-to-
 
 [Reflecting on My Failure to Build a Billion-Dollar Company](https://marker.medium.com/reflecting-on-my-failure-to-build-a-billion-dollar-company-b0c31d7db0e7)
 
-
 [I quit the tech industry / fuzzy notepad](https://eev.ee/blog/2015/06/09/i-quit-the-tech-industry/)
-
-
-
-### more
 
 [Stripe: Atlas Guides to Starting a Real Business](https://stripe.com/ie/atlas/guides)
 
@@ -408,8 +276,6 @@ https://acesounderglass.com/2020/06/10/what-to-write-down-when-youre-reading-to-
 [Sequoia - Pricing Your Product](https://www.sequoiacap.com/article/pricing-your-product/)
 
 [How to sell a B2B product by Calvin French-Owen](https://calv.info/how-to-sell-b2b)
-
-
 
 [Startup Playbook](https://playbook.samaltman.com/)
 

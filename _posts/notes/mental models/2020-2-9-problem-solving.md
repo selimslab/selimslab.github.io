@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Problem Solving
-tags: skills
-category: notes
+title: On Problem Solving
+tags: ideas
+category: notes/mental-models 
 ---
 
 Don't panic 

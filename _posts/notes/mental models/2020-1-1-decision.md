@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Decision Making
-tags: ideas recommended
-category: notes/psychology 
+title: On Decision Making
+tags: decision recommended
+category: notes/mental-models 
 ---
  
  ![](https://images.unsplash.com/photo-1429743305873-d4065c15f93e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1494&q=80)
@@ -25,7 +25,6 @@ Take your time, analyze, sanity check, cross check, and make a move. Give it a s
 Be mindful of how you feel and why. 
 
 Decisions are based on emotions. People who are unable to feel emotions due to neurological damage are not able to make decisions. [source](https://bigthink.com/experts-corner/decisions-are-emotional-not-logical-the-neuroscience-behind-decision-making)
-
 
 Prevention is the best fix. It is easier to stay out than get out.
 

@@ -30,4 +30,4 @@ The past, present, and future. Of these, future is doubtful, present is short, p
 
 Material gains come through great toil, and kept by great anxiety. Wisdom, virtue, courage, and beauty you experienced, nothing can take it from you. They are even outside the control of fortune. 
 
-Thus is life. 
+Relentlessly prune bullshit, don't wait to do things that matter, and savor the time you have. That's what you do when life is short.

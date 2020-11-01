@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Public Speaking? Relax 
+title: On Public Speaking 
 tags: skills
-category: notes
+category: notes/mental-models 
 ---
 
 ![](https://images.unsplash.com/photo-1475721027785-f74eccf877e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80)

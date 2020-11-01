@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Great ideas from 50+ best minds  
+title: Ideas from 50+ great minds  
 tags: books recommended
 category: notes/philosophy  
 --- 

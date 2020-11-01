@@ -1,21 +1,17 @@
 ---
 layout: post
-title:  The Mamba Mentality
+title:  The Mamba Mentality of Kobe 
 tags: books
 category: notes/philosophy  
 --- 
 
 Kobe Bryant's brilliant book on his life and work 
 
-The mentality includes
+It is a mentality of growth, courage, respect, discipline, and hard work 
 
-* to respect yourself
-* to respect your craft 
-* aiming to be the best 
-* doing the hard work to be the as best as you can
-* learning from your mistakes 
-* learning from others mistakes
-* picking up the best ideas and techniques of others and to include them in your game 
-* meeting a challenge head on, not backing off
-* not to despair, to be hopeful and fight back 
-* to be a good human being beyond being successful at your craft 
+* Respecting yourself, and your craft. 
+* Aiming to be the best and doing the hard work to be the as best as you can. 
+* Learning from mistakes and successes of others, picking up the best ideas and techniques and including them in your game. 
+* Meeting a challenge head on, not backing off
+* Not to despair, to be hopeful and fight back 
+* To be a good human being beyond being successful at your craft 

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Influence 
+title: On Influence 
 tags: leadership
-category: notes
+category: notes/mental-models 
 ---
 
 ![](https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80)
