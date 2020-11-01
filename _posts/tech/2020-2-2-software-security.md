@@ -6,7 +6,7 @@ category: tech
   
 --- 
 
-## Fundamentals 
+## Fundamentals 
 
 Plan for security from the start. Model possible threats. Ask what can go wrong.  
 
