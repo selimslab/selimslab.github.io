@@ -30,48 +30,28 @@ evade stronger enemy
 
 irritate the enemy, make them angry, if you can't control your anger, you lose 
 
-pretend to be weak so they grow arrogant 
+Pretend to be weak so they grow arrogant 
 
-if the enemy is united, separate them 
+If the enemy is united, separate them 
 
-attack unexpectedly  
+Attack unexpectedly. Be prepared and wait to take them unprepared
 
----
+Harmony in team, discipline, highly trained and talented generals. Consistency and certainty in reward and punishment 
 
-discipline 
+Everyone in team should share the goal 
 
-highly trained, talented generals 
+General should be autonom in military decisions
 
-consistency and certainty in reward and punishment 
+Recklessness, cowardice, haste, pride, mercy leads to defeat 
 
-harmony in team 
+Give obeyable orders
 
-give obeyable orders
-
-use right man in right place 
-
----
-
-recklessness, cowardice, haste, pride, mercy leads to defeat 
-
-
-1. know when to fight and when not to fight 
-
-2. know to handle both superior and inferior enemies
-
-3. everyone in team should share the goal 
-
-4. be prepared and wait to take them unprepared
-
-5. general should be autonom in military decisions
-
+Use right man in right place 
 
 To secure ourselves is in our hands. Enemy provides the opportunity to be defeated. Never interrupt your enemy when he is making a mistake.
 
+Know when to fight and when not to fight. Plan before the battle, count the cost if you wish to fight 
+
+Haste is stupid but long delays are not clever either
+
 Don't make your enemy desparate, leave an outlet 
-
-plan before the battle, count the cost if you wish to fight 
-
-haste is stupid but long delays are not clever either
-
-cut the battle short 
