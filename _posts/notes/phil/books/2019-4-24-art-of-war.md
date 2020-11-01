@@ -8,57 +8,52 @@ category: notes/philosophy
 <img height="250"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1453417993l/10534._SY475_.jpg" /> 
 
 
-forecast victory:
+Great object is victory, not lengthy campaigns. The best is winning without fighting. Not only winning, but winning with ease 
+
+If you only see the obvious, you win by diffuculty. If you look below the surface, you win with ease 
+
+Know yourself and know the enemy 
+
+First eliminate the risk of defeat, than look for victory 
+
+Warfare is deception 
+
+Appear weak when you are strong, and strong when you are weak.
+
+if you are able to attack, seem unable 
+
+seem inactive if you are active 
+
+seem far when near, near when far 
+
+evade stronger enemy
+
+irritate the enemy, make them angry, if you can't control your anger, you lose 
+
+pretend to be weak so they grow arrogant 
+
+if the enemy is united, separate them 
+
+attack unexpectedly  
+
+---
 
 discipline 
 
-highly trained
+highly trained, talented generals 
 
-talented generals 
+consistency and certainty in reward and punishment 
 
-ceza ve ödülde kesinlik ve tutarlılık 
-
-who is in harmony with his team 
-
-<br>
-
-warfare is deception 
-
-able to attack -> seem unable 
-
-using force -> seem inactive 
-
-are you near -> seem far 
-
-far -> seem near 
-
-stronger enemy? -> evade him 
-
-kızıyor mu -> irritate him 
-
-pretend to be weak -> they grow arrogant 
-
-is enemy united -> separate them 
-
-attack when enemy is not expecting 
-
-plan before the battle
-
-wishing to fight -> count the cost 
-
-haste is stupid but long delays are not clever either
-
-savaşı kısa kes 
-
-great object is victory -> not lengthy campaigns
-
-the best is winning without fighting 
-
-if you can't control your anger -> you lose 
+harmony in team 
 
 give obeyable orders
 
 use right man in right place 
+
+---
+
+recklessness, cowardice, haste, pride, mercy leads to defeat 
+
 
 1. know when to fight and when not to fight 
 
@@ -71,27 +66,12 @@ use right man in right place
 5. general should be autonom in military decisions
 
 
-know the enemy 
+To secure ourselves is in our hands. Enemy provides the opportunity to be defeated. Never interrupt your enemy when he is making a mistake.
 
-know yourself 
+Don't make your enemy desparate, leave an outlet 
 
-first eliminate the risk of defeat, than look for victory 
+plan before the battle, count the cost if you wish to fight 
 
-to secure ourselves is in our hands -> but enemy provides the opportunity to be defeated
+haste is stupid but long delays are not clever either
 
-not only win, but win with ease 
-
-if you only see the obvious -> you win by diffuculty 
-
-if you look below the surface -> you win with ease 
-
-look under, ask why 
-
-don't make your enemy desparate, leave an outlet 
-
-recklessness, cowardice, haste, fazla gurur, fazla merhamet -> defeat 
-
-Appear weak when you are strong, and strong when you are weak.
-
-Never interrupt your enemy when he is making a mistake.
-
+cut the battle short 
