@@ -2,7 +2,7 @@
 layout: post
 title: Economics and System Thinking
 tags: economics
-category: notes  
+category: notes/mental-models 
 ---
 
 

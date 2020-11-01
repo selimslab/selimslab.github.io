@@ -2,7 +2,7 @@
 layout: post
 title:  The Big History, From Start To End 
 tags: history 
-category: notes
+category: notes/mental-models 
 --- 
 
 
