@@ -13,7 +13,7 @@ layout: default
     <ul>
         {% assign main_cats = "notes|tech|projects" | split: "|" %}
 
-        {% for cat in page.main_cats %}
+        {% for cat in main_cats %}
             {% capture category_name %}{{ cat | first  }}{% endcapture %} 
             <li class="catlink">
                 <a href="{{ '/' | append:  category_name | downcase   }}">{{ category_name }}</a>
