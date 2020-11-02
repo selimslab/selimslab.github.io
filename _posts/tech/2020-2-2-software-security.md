@@ -54,9 +54,16 @@ Lock account after repeated failed login attempts
 
 ## Cookies
 
-Prepend cookies with `__Secure` to prevent them from being overwritten 
+They are mainly used for managing sessions, tracking, and personalization
+
 
 Prepend with `__Host-` to restrict cookie on a specific domain (no subdomains)
+
+Prepend cookies with `__Secure-` to prevent them from being overwritten.  
+
+`__Host-` prefix is stricter than `__Secure`
+
+Use `Expires` header to set an expiration 
 
 Add `Secure` header make cookies HTTPS 
 
@@ -64,14 +71,8 @@ Add `HTTPOnly` header to prevent JavaScript access
 
 Add `SameSite` to prevent sending the cookie via cross-origin requests
 
-```bash
-Set-Cookie: 
-_Secure-
-Max-Age; 
-Path=/; 
-Secure; 
-HttpOnly; 
-SameSite=Strict
+```js
+document.cookie = "_Host-username=Jane; Secure; HttpOnly; Path=/; SameSite=Strict";
 ```
 
 ## Cross-site request forgery CSRF 
@@ -96,7 +97,9 @@ an origin is a tuple of protocol:host:port
 By default, browser XMLHttpRequest or fetch APIs allows same-origin only 
 
 Use `Access-Control-Allow-Origin` to manage CORS 
+
 Use `integrity` to verify a resource is not modified on the way
+
 Use `X-Frame-Options: DENY` to disallow allow attempts to iframe site 
 
 [more on CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
@@ -114,20 +117,21 @@ By using CSP to disable inline JavaScript, you can effectively eliminate almost 
 
 Disabling inline JavaScript means that all JavaScript must be loaded from script src tags 
 
-example CSP
+an example CSP response header 
 
 ```bash
 Content-Security-Policy: 
 default-src 'none'; 
-font-src 'https://fonts.googleapis.com';
-img-src 'self' https://i.imgur.com; 
 object-src 'none'; 
 script-src 'self'; 
 style-src 'self';
+img-src 'self' 'https://i.imgur.com';
+font-src 'https://fonts.googleapis.com';
 ```
 
 
 ## More resources
+
 [https://stackoverflow.com/questions/tagged/security](https://stackoverflow.com/questions/tagged/security
 )
 
