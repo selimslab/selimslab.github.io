@@ -8,6 +8,15 @@ layout: default
 
 <img src="{{ page.category_image }}" />
 
+<div class="columns is-mobile is-centered">
+    <div class="column is-half">
+
+      <input type="text" class="input is-warning is-rounded is-medium" id="search-input" placeholder="Search..">
+      <ul style="list-style: none;" id="results-container"></ul>
+    
+    </div>
+</div>
+
 <div class="posts">
     
         {% assign category_name = page.category_name  %}
