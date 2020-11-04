@@ -16,6 +16,7 @@
   <body>
     <div class="wrapper-masthead">
       <div class="container">
+
         <header class="masthead clearfix">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
@@ -27,17 +28,15 @@
           <nav>
             <a href="{{ site.baseurl }}/about">About</a>
 
-            <input type="text" class="input is-warning is-rounded is-medium" id="search-input" placeholder="Search..">
-            <ul style="list-style: none;" id="results-container"></ul>
-          
           </nav>
 
         </header>
       </div>
     </div>
 
-
-
+    <input type="text" class="input is-warning is-rounded is-medium" id="search-input" placeholder="Search..">
+    <ul style="list-style: none;" id="results-container"></ul>
+  
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
@@ -61,7 +60,15 @@
     </div>
 
 
-    {% include search.html %}
+    <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+<script>
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json'
+  })
+</script>
+
     {% include analytics.html %}
   </body>
 </html>
