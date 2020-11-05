@@ -4,7 +4,7 @@ title: Welcome, friend!
 permalink: /about/
 ---
 
-I am Selim, writing here to remember. This is a constant work in progress 
+I am Selim, writing here to remember. This site aims to be a mind palace, a second brain. It is a constant work in progress. 
 
 <a href="https://artsandculture.google.com/favorite/group/lwICDYo8WqCBLQ" target="_blank">favorite art</a>
 
