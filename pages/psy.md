@@ -3,6 +3,6 @@ layout: category_page
 title: Psychology
 permalink: /notes/psychology/
 category_name: notes/psychology
-category_image: "/img/talk.jpg"
+category_image: "/img/people.jpg"
 ---
 
