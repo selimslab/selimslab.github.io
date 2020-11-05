@@ -26,7 +26,7 @@ layout: default
     <h2>recommended posts</h2>
     <ul>
         {% for p in site.tags.recommended %}
-            <li class="catlink"><a href="{{ p.url }}">{{ p.title }}</a><span style="margin-left:0.5rem" class="tag is-light">{{p.categories | first }}</span></li>
+            <li class="catlink"><a href="{{ p.url }}">{{ p.title }}</a><span style="margin-left:0.5rem" class="tag is-success is-light">{{p.categories | first }}</span></li>
         {% endfor %}
     </ul>
 
