@@ -33,6 +33,11 @@
       </div>
     </div>
 
+
+    <input type="text" id="search-input" placeholder="Search blog posts..">
+    <ul id="results-container"></ul>
+
+
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
@@ -56,8 +61,15 @@
     </div>
 
 
-    {% include search.html %}
-
+    <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+    <script>
+      var sjs = SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/search.json'
+      })
+    </script>
+    
     {% include analytics.html %}
 
 
