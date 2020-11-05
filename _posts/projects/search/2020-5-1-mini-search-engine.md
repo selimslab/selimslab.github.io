@@ -2,7 +2,7 @@
 layout: post
 title: a simple search engine in 200 lines
 tags: search-engines
-category: projects
+category: tech/projects
 
  
 

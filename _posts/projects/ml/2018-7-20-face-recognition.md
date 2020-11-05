@@ -2,7 +2,7 @@
 layout: post
 title: Recognize a person in photos 
 tags: machine-learning 
-category: projects
+category: tech/projects
 
 ---
 

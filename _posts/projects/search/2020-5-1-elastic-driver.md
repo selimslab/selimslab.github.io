@@ -2,7 +2,7 @@
 layout: post
 title: a python client for ElasticSearch  
 tags: search-engines
-category: projects
+category: tech/projects
 
 ---
 

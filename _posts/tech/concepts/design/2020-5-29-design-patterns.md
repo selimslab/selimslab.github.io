@@ -2,8 +2,7 @@
 layout: post
 title: Design Patterns
 tags: software-design
-category: tech
- 
+category: tech/concepts 
 ---
 
 Design Patterns are general solutions to common problems. They are not silver bullets 

@@ -2,10 +2,8 @@
 layout: post
 title: a simple garbage collector in C
 tags: programming-languages
-category: projects
+category: tech/projects
  
- 
-
 ---
 
 

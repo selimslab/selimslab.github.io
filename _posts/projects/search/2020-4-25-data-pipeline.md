@@ -2,7 +2,7 @@
 layout: post
 title: Process and sync streaming data
 tags: search-engines
-category: projects
+category: tech/projects
 
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: a blockchain in 100 lines
 tags: data-structures 
-category: projects
+category: tech/projects
 
 ---
 

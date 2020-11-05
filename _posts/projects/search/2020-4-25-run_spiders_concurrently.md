@@ -2,7 +2,7 @@
 layout: post
 title:  Running crawlers concurrently 
 tags: search-engines
-category: projects
+category: tech/projects
 
 ---
 

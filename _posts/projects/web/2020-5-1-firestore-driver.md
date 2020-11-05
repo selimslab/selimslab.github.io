@@ -2,7 +2,7 @@
 layout: post
 title: a python client for Firebase 
 tags: web
-category: projects
+category: tech/projects
 
 ---
 

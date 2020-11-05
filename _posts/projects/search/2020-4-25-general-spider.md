@@ -2,7 +2,7 @@
 layout: post
 title:  Building a general purpose spider 
 tags: search-engines
-category: projects
+category: tech/projects
 
 ---
 

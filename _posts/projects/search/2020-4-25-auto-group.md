@@ -2,7 +2,7 @@
 layout: post
 title:  Auto group people, products, books, music, ...
 tags: search-engines
-category: projects
+category: tech/projects
 
 ---
 

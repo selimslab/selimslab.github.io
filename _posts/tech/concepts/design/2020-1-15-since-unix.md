@@ -2,7 +2,7 @@
 layout: post
 title: From UNIX to today 
 tags: software-design
-category: tech
+category: tech/concepts
 
 --- 
 

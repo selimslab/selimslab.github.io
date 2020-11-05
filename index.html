@@ -14,12 +14,26 @@ layout: default
       
     <h1>main categories</h1>
     <ul>
-        {% assign main_cats = "notes|tech|projects" | split: "|" %}
+        {% assign main_cats = "notes|tech" | split: "|" %}
 
-        {% for cat in main_cats %}
-            <li class="catlink">
-                <a href="{{ '/' | append:  cat   }}">{{ cat }}</a>
-            </li>
+        {% for maincat in main_cats %}
+            <h2>{{ maincat }}</h2>
+
+            <ul>
+                {% for cat in sorted_cats %}
+                    {% capture subcat %}{{ cat | first  }}{% endcapture %}
+                    {% assign parts = subcat | split: "/" %}
+                    {% assign parent = parts | first %}
+                    {% assign child = parts | last %}
+                    
+                    {% if parent == maincat and child != maincat %}
+                        <li class="catlink">
+                            <a href="{{ '/' | append:  subcat | downcase   }}">{{ child }}</a>
+                        </li>
+                    {% endif %}
+    
+                {% endfor %}
+            </ul>
         {% endfor %}
     </ul>
 

@@ -2,7 +2,7 @@
 layout: post
 title: a C hash map from scratch
 tags: data-structures
-category: projects
+category: tech/projects
 
 ---
 

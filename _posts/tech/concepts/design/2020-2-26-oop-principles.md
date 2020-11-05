@@ -2,7 +2,7 @@
 layout: post
 title: OOP and SOLID 
 tags: software-design
-category: tech
+category: tech/concepts
 ---
 
 ## OOP 

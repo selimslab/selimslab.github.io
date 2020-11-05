@@ -2,7 +2,7 @@
 layout: post
 title: Code Review Questions
 tags: teamwork
-category: tech
+category: tech/concepts
 ---
 
 
