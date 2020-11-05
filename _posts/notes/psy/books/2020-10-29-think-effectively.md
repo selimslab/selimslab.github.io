@@ -32,6 +32,7 @@ The mind seems to like to generalise. We describe things vaguely. When we say a 
 Meditation is about feeling the moment and clearing the mind. Thinking and writing are great ways to meditate and clear mind. Asking yourself questions, thinking on them, and writing down the answers clarifies worries, dissolves hard feelings, and brings calm 
 
 For example, ask yourself 
+
 * what am I anxious about ? 
 * what am I upset about ? 
 * what am I excited about ? 

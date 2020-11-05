@@ -25,9 +25,18 @@ body {
   border-top: 6px solid $turkuvaz;
   border-bottom: 6px solid $turkuvaz;
   line-height: 1.6;
-  padding: 2em 1em 1em;
   min-height: 768px;
 }
+
+.navbar{
+  background-color: #fffcfc;
+  margin-top: 2rem;
+}
+
+.section{
+  padding: 1rem 1.5rem;
+}
+
 
 .container {
   margin: 0 auto;
@@ -113,42 +122,6 @@ ol {
   list-style-type: decimal;
 }
 
-ol ul, ul ol, ul ul, ol ol {
-  margin: 0;
-}
-
-ul ul, ol ul {
-  list-style-type: circle;
-}
-
-em, i {
-  font-style: italic;
-}
-
-strong, b {
-  font-weight: bold;
-}
-
-img {
-  max-width: 100%;
-}
-
-img.full{
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  margin-left: -50vw;
-}
-
-// Fixes images in popup boxes from Google Translate
-.gmnoprint img {
-  max-width: none;
-}
-
-.date {
-  font-style: italic;
-  color: $gray;
-}
 
 // Specify the color of the selection
 ::-moz-selection {
@@ -176,17 +149,9 @@ img.full{
 /* LAYOUT / SECTIONS */
 /*********************/
 
-//
-// .masthead
-//
-
-.wrapper-masthead {
-  margin-bottom: 50px;
-}
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
 
   @include mobile {
     text-align: center;
@@ -195,15 +160,10 @@ img.full{
 
 .site-avatar {
   float: left;
-  width: 80px;
-  height: 80px;
+  width: 72px;
+  height: 72px;
   margin-right: 15px;
 
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
 
   img {
     border-radius: 5px;
@@ -213,11 +173,6 @@ img.full{
 .site-info {
   float: left;
 
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
 }
 
 .site-name {
@@ -239,6 +194,7 @@ img.full{
   }
 }
 
+/*
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
@@ -263,7 +219,7 @@ nav {
     }
   }
 }
-
+*/
 //
 // .main
 //
