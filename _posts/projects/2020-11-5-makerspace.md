@@ -6,11 +6,11 @@ category: projects
 --- 
 
 
-## Lists  
+## Lists  
 
 [Challenging projects every programmer should try - Austin Z. Henley](http://web.eecs.utk.edu/~azh/blog/challengingprojects.html)
 
-[500 Lines or Less | A Simple Web Server](http://aosabook.org/en/500L/a-simple-web-server.html)
+[500 Lines or Less - A Simple Web Server](http://aosabook.org/en/500L/a-simple-web-server.html)
 
 [tuvtran/project-based-learning: Curated list of project-based tutorials](https://github.com/tuvtran/project-based-learning)
 
@@ -22,7 +22,7 @@ category: projects
 [How do you create a video chat application?](https://blog.phuaxueyong.com/post/2020-06-15-how-to-make-a-video-chat-app/)
 
 
-[Let’s Build A Web Server. Part 1. - Ruslan's Blog](https://ruslanspivak.com/lsbaws-part1/)
+[Let’s Build A Web Server. Part 1. - Ruslan's Blog](https://ruslanspivak.com/lsbaws-part1/)
 
 [Let’s Build A Web Server. Part 3. - Ruslan's Blog](https://ruslanspivak.com/lsbaws-part3/)
 
@@ -38,7 +38,7 @@ category: projects
 
 [Get into http package · Build web application with Golang](https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/03.4.html)
 
-[Building a BitTorrent client from the ground up in Go | Jesse Li](https://blog.jse.li/posts/torrent/)
+[Building a BitTorrent client from the ground up in Go - Jesse Li](https://blog.jse.li/posts/torrent/)
 
 [Thinking in React Hooks](https://wattenberger.com/blog/react-hooks)
 
@@ -85,7 +85,7 @@ category: projects
 
 [(How to Write a (Lisp) Interpreter (in Python))](http://norvig.com/lispy.html)
 
-[Let’s Build A Simple Interpreter. Part 11. - Ruslan's Blog](https://ruslanspivak.com/lsbasi-part11/)
+[Let’s Build A Simple Interpreter. Part 11. - Ruslan's Blog](https://ruslanspivak.com/lsbasi-part11/)
 
 [(An ((Even Better) Lisp) Interpreter (in Python))](http://norvig.com/lispy2.html)
 
@@ -121,34 +121,34 @@ category: projects
 [Memory Allocators 101 - Write a simple memory allocator - Arjun Sreedharan](https://arjunsreedharan.org/post/148675821737/memory-allocators-101-write-a-simple-memory)
 
 
-## browser
+## browser
 
 
 [Let's build a browser engine! Part 1: Getting started](https://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html)
 
 
-## git 
+## git 
 
 [Write yourself a Git!](https://wyag.thb.lt/)
 
 
-## databases
+## databases
 
-[Database basics: writing a SQL database from scratch in Go | notes.eatonphil.com](https://notes.eatonphil.com/database-basics.html)
+[Database basics: writing a SQL database from scratch in Go - notes.eatonphil.com](https://notes.eatonphil.com/database-basics.html)
 
 
 [How to Implement Search By Color When All You Have is A Good Coffee - Mike Alche](https://www.mikealche.com/software-development/how-to-implement-search-by-color-when-all-you-have-is-a-good-coffee)
 
 
-## NLP 
+## NLP 
 
 [Advanced NLP with spaCy · A free online course](https://course.spacy.io/en/)
 
-## algorithms
+## algorithms
 
 [hackerrank](https://www.hackerrank.com/dashboard)
 
-## devops
+## devops
 
 [snori74/linuxupskillchallenge: Learn the skills required to sysadmin a remote Linux server from the commandline.](https://github.com/snori74/linuxupskillchallenge)
 
@@ -171,7 +171,7 @@ category: projects
 [Recommendation System Series Part 2: The 10 Categories of Deep Recommendation Systems That Academic Researchers Should Pay Attention To — James Le](https://jameskle.com/writes/rec-sys-part-2)
 
 
-## learning
+## learning
 
 [Introduction to Information Retrieval](https://nlp.stanford.edu/IR-book/)
 
