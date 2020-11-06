@@ -5,11 +5,9 @@ tags: finance
 category: ideas
 ---
 
-What happens when you save long term?
+$2k a month on 7% annual return becomes a million dollars in 20 years 
 
-$2k a month for 20 years compounding with 7% annual return becomes a million dollars 
-
-This is compound interest + periodic additions to principal
+This is cthe power of compound interest and periodic additions to principal
 
 an interactive tool to explore 
 
