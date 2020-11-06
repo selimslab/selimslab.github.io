@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Permutations
-tags: sort
+tags: permute
 category: tech/algorithms
 ---
 
