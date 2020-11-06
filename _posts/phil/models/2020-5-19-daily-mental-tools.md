@@ -2,7 +2,7 @@
 layout: post
 title:  Daily mind tools 
 tags: mental-models
-category: ideas 
+category: philosophy 
 ---
 
 ![](https://www.vangoghmuseum.nl/download/6e320ca7-a502-4e56-abde-4222c3332ef4.jpg)

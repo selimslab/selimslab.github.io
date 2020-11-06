@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Python snippets  
-tags: python
-category: code-snippets
-
+title: Python   
+tags: code-snippets
+category: tech
 ---
 
 ## time 

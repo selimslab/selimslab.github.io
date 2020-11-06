@@ -2,7 +2,7 @@
 layout: post
 title: General Thinking Concepts
 tags: mental-models
-category: ideas 
+category: philosophy 
 ---
 
 

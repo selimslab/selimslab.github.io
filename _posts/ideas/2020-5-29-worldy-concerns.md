@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Wordly Concerns
-tags: ideas
-category: philosophy
+tags: climate
+category: ideas
 --- 
 
 

@@ -2,7 +2,7 @@
 layout: post
 title: Take-aways from TED talks
 tags: mental-models
-category: ideas 
+category: philosophy 
 --- 
 
 The puzzle of motivation, Dan Pink

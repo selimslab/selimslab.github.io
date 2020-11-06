@@ -2,7 +2,7 @@
 layout: post
 title: Early Work 
 tags: mental-models
-category: ideas 
+category: philosophy 
 ---
 
 [take aways from paulgraham.com/early.html](http://paulgraham.com/early.html)

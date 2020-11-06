@@ -2,7 +2,7 @@
 layout: post
 title: On Problem Solving
 tags: mental-models
-category: ideas 
+category: philosophy 
 ---
 
 Don't panic 

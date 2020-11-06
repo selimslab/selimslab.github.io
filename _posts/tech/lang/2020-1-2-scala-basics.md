@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Scala 
-tags: scala
-category: code-snippets
+title: Scala basics
+tags: languages
+category: tech
 
 ---
 

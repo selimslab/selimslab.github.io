@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Emotions as Signals
-tags: emotions
+tags: psychology
 category: ideas
 --- 
 
