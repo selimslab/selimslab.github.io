@@ -1,8 +1,8 @@
 ---
 layout: category_page
 title: Philosophy
-permalink: /notes/philosophy/
-category_name: notes/philosophy
+permalink: /philosophy/
+category_name: philosophy
 category_image: "/img/nature.jpg"
 ---
 

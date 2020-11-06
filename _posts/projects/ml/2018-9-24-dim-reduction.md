@@ -2,7 +2,7 @@
 layout: post
 title: Classification of high dimensional data 
 tags: machine-learning 
-category: tech/projects
+category: projects
  
 ---
 

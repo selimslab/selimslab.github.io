@@ -2,7 +2,7 @@
 layout: post
 title: Search
 tags: search
-category: tech/algorithms
+category: algorithms
  
 
 ---

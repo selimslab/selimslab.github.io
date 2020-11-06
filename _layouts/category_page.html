@@ -20,55 +20,6 @@ layout: default
 
         <h1 id="{{ category_name | downcase }}">{{ category_name }}</h1>
 
-        {% assign any_subcat = false  %}
-
-        {% for cat in sorted_cats %}
-            {% capture subcat %}{{ cat | first  }}{% endcapture %}
-            {% assign parts = subcat | split: "/" %}
-            {% assign parent = parts | first %}
-            {% assign child = parts | last %}
-            
-            {% if parent == category_name and child != category_name %}
-                {% assign any_subcat = true  %}
-            {% endif %}
-        {% endfor %}
-
-        {% if any_subcat %}
-        <h2>Sub-categories</h2>
-        {% endif %}
-
-        <ul>
-            {% for cat in sorted_cats %}
-                {% capture subcat %}{{ cat | first  }}{% endcapture %}
-                {% assign parts = subcat | split: "/" %}
-                {% assign parent = parts | first %}
-                {% assign child = parts | last %}
-                
-                {% if parent == category_name and child != category_name %}
-                    <li class="catlink">
-                        <a href="{{ '/' | append:  subcat | downcase   }}">{{ child }}</a>
-                    </li>
-                {% endif %}
-
-            {% endfor %}
-        </ul>
-
-        
-        {% assign any_tagged_post = false  %}
-        {% for tag in sorted_tags %}
-
-            {% assign posts_with_tag = tag[1] | where: "category", category_name | sort  %}
-            
-            {% if posts_with_tag != empty %}
-                {% assign any_tagged_post = true  %}
-            {% endif %}
-    
-        {% endfor %}
-
-        {% if any_subcat and any_tagged_post %}
-        <h2>Posts grouped by tags</h2>
-        {% endif %}
-
 
         {% for tag in sorted_tags %}
 

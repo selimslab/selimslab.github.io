@@ -2,7 +2,7 @@
 layout: post
 title: a python client for MongoDB 
 tags: web
-category: tech/projects
+category: projects
 
 ---
 

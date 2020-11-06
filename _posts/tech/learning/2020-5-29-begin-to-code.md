@@ -2,7 +2,7 @@
 layout: post
 title:  A fun way to learn programming 
 tags: learning
-category: tech/concepts
+category: tech
  
 ---
 

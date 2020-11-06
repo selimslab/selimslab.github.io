@@ -1,8 +1,8 @@
 ---
 layout: category_page
 title: Curated Quotes
-permalink: /notes/quotes/
-category_name: notes/quotes
+permalink: /quotes/
+category_name: quotes
 category_image: "/img/athens.jpg"
 ---
 

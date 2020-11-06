@@ -2,7 +2,7 @@
 layout: post
 title:  Online Tech Courses
 tags: learning
-category: tech/concepts
+category: tech
 --- 
 
 

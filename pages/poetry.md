@@ -1,8 +1,8 @@
 ---
 layout: category_page
 title: Poetry
-permalink: /notes/poetry/
-category_name: notes/poetry
+permalink: /poetry/
+category_name: poetry
 category_image: "/img/talk.jpg"
 ---
 

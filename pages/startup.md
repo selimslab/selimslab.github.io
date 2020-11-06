@@ -1,8 +1,8 @@
 ---
 layout: category_page
 title: Startups
-permalink: /notes/startups/
-category_name: notes/startups
+permalink: /startups/
+category_name: startups
 category_image: "/img/algo.jpg"
 ---
 

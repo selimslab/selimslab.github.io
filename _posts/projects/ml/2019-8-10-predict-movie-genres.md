@@ -2,7 +2,7 @@
 layout: post
 title: Predict genres of a movie from its summary  
 tags: machine-learning 
-category: tech/projects
+category: projects
 
 ---
 

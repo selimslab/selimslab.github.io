@@ -2,7 +2,7 @@
 layout: post
 title: Liked stack overflow answers 
 tags: stack-exchange
-category: tech/concepts
+category: tech
 --- 
 
 

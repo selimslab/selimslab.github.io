@@ -2,7 +2,7 @@
 layout: post
 title: a concurrent crawler in 100 lines
 tags: search-engines
-category: tech/projects
+category: projects
 
 ---
 

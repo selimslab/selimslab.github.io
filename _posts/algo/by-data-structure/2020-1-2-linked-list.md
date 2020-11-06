@@ -2,7 +2,7 @@
 layout: post
 title: Linked List 
 tags: by-data-structure
-category: tech/algorithms
+category: algorithms
  
 
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  A curated list of tech articles 
 tags: readings
-category: tech/concepts
+category: tech
 --- 
 
 [Calm Technology](https://calmtech.com/)

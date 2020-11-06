@@ -2,7 +2,7 @@
 layout: post
 title:  Links 
 tags: distributed-systems
-category: tech/concepts
+category: tech
 --- 
 
 

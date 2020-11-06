@@ -2,7 +2,7 @@
 layout: post
 title: Easy
 tags: by-level
-category: tech/algorithms
+category: algorithms
  
 
 ---

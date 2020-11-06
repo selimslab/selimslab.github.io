@@ -2,7 +2,7 @@
 layout: post
 title: a Lisp interpreter in Python
 tags: programming-languages
-category: tech/projects
+category: projects
 
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: category_page
 title: Books
-permalink: /notes/talks/
-category_name: notes/talks
+permalink: /talks/
+category_name: talks
 category_image: "/img/talk.jpg"
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Hard
 tags: by-level
-category: tech/algorithms
+category: algorithms
  
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Software Security 
 tags: security recommended
-category: tech/concepts
+category: tech
   
 --- 
 

@@ -2,7 +2,7 @@
 layout: post
 title: Dynamic Programming 
 tags: dynamic
-category: tech/algorithms
+category: algorithms
  
 
 

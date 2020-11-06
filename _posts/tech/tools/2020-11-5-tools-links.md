@@ -2,7 +2,7 @@
 layout: post
 title:  Useful online tools
 tags: tools
-category: tech/concepts
+category: tech
 --- 
 
 [github/super-linter: Combination of multiple linters to install as a GitHub Action](https://github.com/github/super-linter)

@@ -2,7 +2,7 @@
 layout: post
 title:  Links 
 tags: devops
-category: tech/concepts
+category: tech
 --- 
 
 

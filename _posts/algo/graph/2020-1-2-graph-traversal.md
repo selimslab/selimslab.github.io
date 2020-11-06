@@ -2,7 +2,7 @@
 layout: post
 title: Graph traversal 
 tags: graph
-category: tech/algorithms
+category: algorithms
  
 
 ---
