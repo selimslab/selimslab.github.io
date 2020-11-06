@@ -5,8 +5,9 @@ tags: tools
 category: tech/links
 --- 
 
-[excalidraw - online whiteboard](https://excalidraw.com/)
+[github/super-linter: Combination of multiple linters to install as a GitHub Action](https://github.com/github/super-linter)
 
+[excalidraw - online whiteboard](https://excalidraw.com/)
 
 [miro- online whiteboard](https://miro.com/app/dashboard/)
 
@@ -14,15 +15,7 @@ category: tech/links
 
 [The admin panel framework](https://www.forestadmin.com/)
 
-[open source firebase](https://app.supabase.io/project/GlJltUUgohrJQaNijPjW/editor/sql)
-
-
 [DataTables - Table plug-in for jQuery](https://datatables.net/)
-
-[Open Source Search & Analytics · Elasticsearch - Elastic](https://www.elastic.co/)
-
-[In depth guide to running Elasticsearch in production – TechNotes](https://facinating.tech/2020/02/22/in-depth-guide-to-running-elasticsearch-in-production/)
-
 
 [hasura on heroku](https://safe-garden-81275.herokuapp.com/console/api-explorer)
 

@@ -1,3 +1,11 @@
+---
+layout: post
+title:  Links 
+tags: devops
+category: tech/concepts
+--- 
+
+
 [Kendime Notlar](https://gokhansengun.com/)
 
 [jlevy/the-art-of-command-line: Master the command line, in one page](https://github.com/jlevy/the-art-of-command-line)

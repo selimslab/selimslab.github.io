@@ -13,9 +13,7 @@ category: tech/links
 
 [hacker laws](https://github.com/dwmkerr/hacker-laws)
 
-[Is High Quality Software Worth the Cost?
-](https://martinfowler.com/articles/is-quality-worth-cost.html)
-
+[Is High Quality Software Worth the Cost?](https://martinfowler.com/articles/is-quality-worth-cost.html)
 
 [The Ten Commandments of Egoless Programming](https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/)
 
@@ -42,12 +40,8 @@ category: tech/links
 
 [Web Design - The First 100 Years](https://idlewords.com/talks/web_design_first_100_years.htm)
 
-
-
 [Global IT Burnout Index](https://burnoutindex.org/)
 
-
-[The Horrifically Dystopian World of Software Engineering Interviews - Blog by Jared Nelsen](https://www.jarednelsen.dev/posts/The-horrifically-dystopian-world-of-software-engineering-interviews)
 
 [How to write the perfect pull request - The GitHub Blog](https://github.blog/2015-01-21-how-to-write-the-perfect-pull-request/)
 
@@ -157,8 +151,6 @@ Playlists are like backlinks and editorial playlists are the most authoritative
 [20 lines of code that will beat A/B testing every time](http://stevehanov.ca/blog/index.php?id=132)
 
 
-
-
 [Systems that defy detailed understanding - Made of Bugs](https://blog.nelhage.com/post/systems-that-defy-understanding/)
 
 [Browser Extensions - Mozilla - MDN](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions)
@@ -171,4 +163,55 @@ Playlists are like backlinks and editorial playlists are the most authoritative
 [On Games](https://gafferongames.com/)
 
 [The end of the Redis adventure](http://antirez.com/news/133)
+
+[Software Engineering Within SpaceX - Yasoob Khalid](https://yasoob.me/posts/software_engineering_within_spacex_launch/)
+
+[Is a trillion-dollar worth of programming lying on the ground](https://blog.cerebralab.com/Is_a_trillion-dollar_worth_of_programming_lying_on_the_ground)
+
+[Dan McKinley :: Choose Boring Technology](https://mcfunley.com/choose-boring-technology)
+
+[One second code: Do YOU know how much your computer can do in a second?](http://computers-are-fast.github.io/)
+
+[Systems that defy detailed understanding - Made of Bugs](https://blog.nelhage.com/post/systems-that-defy-understanding/)
+
+
+[data-science-interviews/technical.md at master · alexeygrigorev/data-science-interviews](https://github.com/alexeygrigorev/data-science-interviews/blob/master/technical.md)
+
+
+[Video Games are the Future of Education](https://nabeelqu.co/education) 
+
+[Building a Second Brain: The Illustrated Notes](https://maggieappleton.com/basb)
+
+[The world's largest privately owned giant sequoia forest is now protected - MNN - Mother Nature Network](https://www.mnn.com/earth-matters/wilderness-resources/blogs/alder-creek-giant-sequoia-grove-save-redwoods-league)
+
+
+[metaESC – Aceso Under Glass](https://acesounderglass.com/tag/metaESC/)
+
+[Researchers and Founders - Sam Altman](https://blog.samaltman.com/researchers-and-founders)
+
+[unim.press](https://unim.press/#dataisbeautiful)
+
+[How does SQLite work? Part 1: pages!](https://jvns.ca/blog/2014/09/27/how-does-sqlite-work-part-1-pages/)
+
+[https://pdos.csail.mit.edu/6.824/quizzes/q20-2-sol.txt](https://pdos.csail.mit.edu/6.824/quizzes/q20-2-sol.txt)
+
+[6.824 Exams](https://pdos.csail.mit.edu/6.824/quizzes.html)
+
+[CNN Explainer](https://poloclub.github.io/cnn-explainer/)
+
+[Computers - Timeline of Computer History - Computer History Museum](https://www.computerhistory.org/timeline/computers/)
+
+[A Terrible, Horrible, No-Good, Very Bad Day at Slack](https://slack.engineering/a-terrible-horrible-no-good-very-bad-day-at-slack-dfe05b485f82)
+
+[Web Monetization · A JavaScript browser API which allows the creation of a payment stream from the user agent to the website](https://webmonetization.org/)
+
+[stu2b50](https://stu2b50.dev/posts/rust-is-surpris76171)
+
+[Dude, you broke the future! - Charlie's Diary](http://www.antipope.org/charlie/blog-static/2018/01/dude-you-broke-the-future.html)
+
+
+[iiSM.org](https://iism.org/article/why-are-ceos-failing-software-engineers-56)
+
+[Articles — Brandur Leach](https://brandur.org/articles)
+
 

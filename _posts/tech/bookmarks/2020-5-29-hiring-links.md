@@ -5,6 +5,8 @@ tags: hiring
 category: tech/links
 --- 
 
+[The Horrifically Dystopian World of Software Engineering Interviews - Blog by Jared Nelsen](https://www.jarednelsen.dev/posts/The-horrifically-dystopian-world-of-software-engineering-interviews)
+
 [Tech Sector Job Interviews Assess Anxiety, Not Software Skills - NC State News](https://news.ncsu.edu/2020/07/tech-job-interviews-anxiety/)
 
 [backend questions](https://github.com/arialdomartini/Back-End-Developer-Interview-Questions)

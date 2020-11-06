@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Online Tech Courses
-tags: courses
+tags: learning
 category: tech/links
 --- 
 

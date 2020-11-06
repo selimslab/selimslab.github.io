@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Resources to learn programming 
-tags: beginners
+tags: learning
 category: tech/links
  
 ---

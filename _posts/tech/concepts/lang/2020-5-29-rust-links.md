@@ -2,7 +2,7 @@
 layout: post
 title:  Rust links
 tags: languages
-category: tech/links
+category: tech/concepts
 --- 
 
 

@@ -27,6 +27,9 @@ handle text streams, because that is a universal interface
 + easily maintainable
 
 
+[The beauty of Unix pipelines](https://prithu.xyz/posts/unix-pipeline/)
+
+
 ## Agile manifesto 
 
 

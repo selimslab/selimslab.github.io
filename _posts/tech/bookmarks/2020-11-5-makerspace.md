@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Makerspace
-tags: makers
+title: Makerspace, inspiration for your next project
+tags: makers recommended
 category: tech/links
 --- 
 
 
-## Lists of projects 
+## Lists  
 
 [Challenging projects every programmer should try - Austin Z. Henley](http://web.eecs.utk.edu/~azh/blog/challengingprojects.html)
-
 
 [500 Lines or Less | A Simple Web Server](http://aosabook.org/en/500L/a-simple-web-server.html)
 
@@ -187,3 +186,6 @@ category: tech/links
 [backend questions](https://github.com/arialdomartini/Back-End-Developer-Interview-Questions)
 
 [Getting Started with WebRTC - HTML5 Rocks](https://www.html5rocks.com/en/tutorials/webrtc/basics/)
+
+
+[In depth guide to running Elasticsearch in production – TechNotes](https://facinating.tech/2020/02/22/in-depth-guide-to-running-elasticsearch-in-production/)
