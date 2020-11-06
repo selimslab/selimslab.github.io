@@ -1,8 +1,8 @@
 ---
 layout: post
 title: The surprising habits of original thinkers | Adam Grant
-tags: talks
-category: psychology 
+tags: work
+category: ideas 
 --- 
 
 

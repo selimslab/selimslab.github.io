@@ -1,8 +1,8 @@
 ---
 layout: post
 title: A simple way to break a bad habit | Judson Brewer
-tags: talks
-category: psychology 
+tags: psychology
+category: ideas 
 --- 
 
 Being curious is not just learning, be curious of how you feel, watch yourself from outside 

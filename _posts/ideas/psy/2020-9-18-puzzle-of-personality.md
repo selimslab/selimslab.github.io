@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Who are you, really? The puzzle of personality | Brian Little
-tags: talks
-category: psychology 
+tags: psychology
+category: ideas
 --- 
 
 [youtube link](https://www.youtube.com/watch?v=qYvXk_bqlBk)

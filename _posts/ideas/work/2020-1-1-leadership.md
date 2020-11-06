@@ -1,7 +1,7 @@
 ---
 layout: post
 title: On Influence 
-tags: leadership
+tags: work
 category: ideas 
 ---
 

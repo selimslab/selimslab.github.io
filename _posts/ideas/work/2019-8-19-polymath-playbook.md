@@ -1,8 +1,8 @@
 ---
 layout: post
 title: The Polymath Playbook
-tags: books
-category: psychology 
+tags: work
+category: ideas 
 ---
 
 Generalist vs Specialist

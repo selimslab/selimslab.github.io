@@ -1,12 +1,11 @@
 ---
 layout: post
-title: Psychology links 
-tags: links
-category: psychology 
+title: Psychology articles 
+tags: psychology
+category: ideas
 --- 
 
 [Notes from the best of 100+ TED talks – Kevin Habits](http://www.kevinhabits.com/ted/)
-
 
 [Wuju](https://beta.wuju.app/#!/feelings/pride)
 

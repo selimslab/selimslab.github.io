@@ -1,6 +1,6 @@
 ---
 layout: post
-title: fun
+title: humor
 tags: quotes
 category: ideas
 --- 

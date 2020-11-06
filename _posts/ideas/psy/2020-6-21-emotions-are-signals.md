@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Emotions as Signals
-tags: articles
-category: psychology 
+tags: emotions
+category: ideas
 --- 
 
  [https://ncase.me/mental-health/](https://ncase.me/mental-health/)

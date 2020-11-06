@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Short take-aways from TED talks
+title: Take-aways from TED talks
 tags: mental-models
 category: ideas 
 --- 

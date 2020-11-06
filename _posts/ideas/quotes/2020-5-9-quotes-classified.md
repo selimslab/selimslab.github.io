@@ -1,11 +1,10 @@
 ---
 layout: post
-title: all
+title: classified
 tags: quotes
 category: ideas
 ---
 
-Pain is inevitable. Suffering is optional.
 
 
 ## critic
@@ -28,6 +27,8 @@ Learn from the mistakes of others. You can never live long enough to make them a
 Make your mistakes, take your chances, look silly, but keep on going. Don’t freeze up.
 
 walk slow but walk 
+
+Pain is inevitable. Suffering is optional.
 
 
 ## ignorance

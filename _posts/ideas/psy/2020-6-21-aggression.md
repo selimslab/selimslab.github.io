@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Agression
-tags: ideas
-category: psychology 
+tags: psychology
+category: ideas
 --- 
 
 Take-aways from  Robert Sapolsky's Stanford lecture on Agression 

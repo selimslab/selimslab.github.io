@@ -1,8 +1,8 @@
 ---
 layout: post
 title: The Great Porn Experiment | Gary Wilson
-tags: talks
-category: psychology 
+tags: psychology
+category: ideas 
 --- 
 
 * frequent porn consumption literally changes brain structure, neurochemical balance, numbs pleasure response, decreases willpower, increases porn sensitivity (just like drugs)

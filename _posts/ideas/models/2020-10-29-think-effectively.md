@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 15 modes to think more effectively 
-tags: books
-category: psychology
+tags: mental-models
+category: ideas 
 --- 
 
 ## 1. Strategic thinking

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: On Decision Making
-tags: decision recommended
+tags: work recommended
 category: ideas 
 ---
  

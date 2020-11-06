@@ -5,9 +5,6 @@ tags: quotes
 category: ideas
 ---
 
-
-### happiness 
-
 Happiness is only real when shared
 
 The happiness of your life depends upon the quality of your thoughts.
