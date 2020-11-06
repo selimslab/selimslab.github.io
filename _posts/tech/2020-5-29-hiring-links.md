@@ -2,7 +2,7 @@
 layout: post
 title: Links on hiring in tech 
 tags: hiring
-category: tech/links
+category: tech/concepts
 --- 
 
 [The Horrifically Dystopian World of Software Engineering Interviews - Blog by Jared Nelsen](https://www.jarednelsen.dev/posts/The-horrifically-dystopian-world-of-software-engineering-interviews)

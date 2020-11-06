@@ -2,7 +2,7 @@
 layout: post
 title:  Useful online tools
 tags: tools
-category: tech/links
+category: tech/concepts
 --- 
 
 [github/super-linter: Combination of multiple linters to install as a GitHub Action](https://github.com/github/super-linter)
@@ -35,8 +35,20 @@ category: tech/links
 
 [https://www.growthunt.com](https://www.growthunt.com/)
 
+## Data sources
 
-## aws
+[Google Trends](https://trends.google.com/trends/?geo=TR)
+
+[Data.gov](https://www.data.gov/)
+
+[World Bank Open Data](https://data.worldbank.org/)
+
+[Microsoft Research Open Data](https://msropendata.com/)
+
+[Registry of Open Data on AWS](https://registry.opendata.aws/)
+
+
+## AWS
 
 [The Good Parts of AWS](https://gumroad.com/l/aws-good-parts/released)
 
@@ -45,3 +57,10 @@ category: tech/links
 [Amazon Web Services In Plain English](https://expeditedsecurity.com/aws-in-plain-english/)
 
 [Vetted Technology - AWS Solutions Library](https://aws.amazon.com/solutions/)
+
+---
+## Tools Inspiration 
+
+<a frameborder="0" data-theme="light" data-layers="1,2,3,4" data-stack-embed="true" href="https://embed.stackshare.io/stacks/embed/57032e5ec2dc65c201a50cc2443407"/>
+
+<script async src="https://cdn1.stackshare.io/javascripts/client-code.js" charset="utf-8"></script>

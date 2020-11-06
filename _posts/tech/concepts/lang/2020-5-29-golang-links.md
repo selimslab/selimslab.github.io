@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Golang links 
-tags: programming-languages
+tags: languages
 category: tech/concepts
 --- 
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Code Review Questions
+title: Code Review
 tags: teamwork
 category: tech/concepts
 ---

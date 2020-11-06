@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Makerspace, inspiration for your next project
-tags: makers recommended
-category: tech/links
+tags: ideas recommended
+category: tech/projects
 --- 
 
 
