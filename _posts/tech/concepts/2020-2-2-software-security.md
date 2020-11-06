@@ -140,7 +140,11 @@ a great list at [https://stackoverflow.com/questions/2794016/what-should-every-p
 
 [https://stackoverflow.com/questions/1469899/worst-security-hole-youve-seen?page=1&tab=votes#tab-top](https://stackoverflow.com/questions/1469899/worst-security-hole-youve-seen?page=1&tab=votes#tab-top)
 
+[Security books](https://utkusen.com/blog/guvenlik-kitaplari-hakkindaki-degerlendirmelerim.html)
 
 [Pick a Vulnerability to Learn About](https://www.hacksplaining.com/lessons)
 
 [security - The definitive guide to form-based website authentication - Stack Overflow](https://stackoverflow.com/questions/549/the-definitive-guide-to-form-based-website-authentication)
+
+
+[Best practices for managing & storing secrets like API keys and other credentials \[2020\]](https://blog.gitguardian.com/secrets-api-management/#secrets-as-service)

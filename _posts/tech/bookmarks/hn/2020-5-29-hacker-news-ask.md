@@ -2,10 +2,42 @@
 layout: post
 title:  Liked questions from Ask HN
 tags: hacker-news
-category: tech/bookmarks
+category: tech/links
 --- 
 
+[Ask HN: What is your favorite motto? | Hacker News](https://news.ycombinator.com/item?id=24436135)
 
+[Ask HN: What is the best enterprise software you use every day? | Hacker News](https://news.ycombinator.com/item?id=23862903)
+
+[Ask HN: Should I quit the field of software development? | Hacker News](https://news.ycombinator.com/item?id=24460286)
+
+[Ask HN: Moving from a startup to a big co, what should I be aware of? | Hacker News](https://news.ycombinator.com/item?id=23455415)
+
+[Ask HN: Which tools have made you a much better programmer? | Hacker News](https://news.ycombinator.com/item?id=23468193)
+
+[Ask HN: My wife might lose the ability to speak in 3 weeks – how to prepare? | Hacker News](https://news.ycombinator.com/item?id=23490115)
+
+[Ask HN: A way to adblock “we're using cookies” popups? | Hacker News](https://news.ycombinator.com/item?id=23521399)
+
+[Ask HN: What are your go to SaaS products for startups/MVPs? | Hacker News](https://news.ycombinator.com/item?id=23525456)
+
+[Ask HN: What's the worst piece of software you use everyday? | Hacker News](https://news.ycombinator.com/item?id=23803539)
+
+[Ask HN: How can I quickly trim my AWS bill? | Hacker News](https://news.ycombinator.com/item?id=23798347)
+
+[Ask HN: What makes a good technical leader – any recommended books? | Hacker News](https://news.ycombinator.com/item?id=23759547)
+
+[Ask HN: What weird or hard problems are you trying to solve? | Hacker News](https://news.ycombinator.com/item?id=23735676)
+
+[Ask HN: Did you take any fresh MOOCs as of 2020? | Hacker News](https://news.ycombinator.com/item?id=23722680)
+
+[Ask HN: What are your favorite developer-efficiency tips? | Hacker News](https://news.ycombinator.com/item?id=23118940)
+
+[Ask HN: What are must-know concepts for back end development? | Hacker News](https://news.ycombinator.com/item?id=18961793)
+
+[Ask HN: How can I pick a side project and stick with it? | Hacker News](https://news.ycombinator.com/item?id=22792829)
+
+---
 
 [Ask HN: What do top engineers you know do that others don't? - Hacker News](https://news.ycombinator.com/item?id=21870889)
 

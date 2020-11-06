@@ -2,9 +2,14 @@
 layout: post
 title: Liked stack overflow answers 
 tags: stack-exchange
-category: tech/bookmarks
+category: tech/links
 --- 
 
+
+
+[Highest Voted 'design-patterns' Questions - Stack Overflow](https://stackoverflow.com/questions/tagged/design-patterns)
+
+[Highest Voted 'oop' Questions - Page 3 - Stack Overflow](https://stackoverflow.com/questions/tagged/oop?tab=votes&page=3&pagesize=15)
 
 ## testing 
 

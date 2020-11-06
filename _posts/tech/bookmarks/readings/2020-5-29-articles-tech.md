@@ -1,24 +1,9 @@
 ---
 layout: post
-title:  a curated list of tech articles 
+title:  A curated list of tech articles 
 tags: readings
-category: tech/bookmarks
+category: tech/links
 --- 
-
-
-### architecture
-
-[donnemartin/system-design-primer: Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.](https://github.com/donnemartin/system-design-primer)
-
-[System Design Cheatsheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
-
-[AWS Well-Architected Framework](http://d0.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf)
-
-[event-sourcing](https://arkwright.github.io/event-sourcing.html)
-
----
-
-[Continuous integration vs. continuous delivery vs. continuous deployment](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
 
 [Calm Technology](https://calmtech.com/)
 
@@ -33,7 +18,6 @@ category: tech/bookmarks
 
 
 [The Ten Commandments of Egoless Programming](https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/)
-
 
 [Lessons Learned in Software Development](https://henrikwarne.com/2015/04/16/lessons-learned-in-software-development/)
 
@@ -57,7 +41,6 @@ category: tech/bookmarks
 
 
 [Web Design - The First 100 Years](https://idlewords.com/talks/web_design_first_100_years.htm)
-
 
 
 
@@ -99,64 +82,48 @@ category: tech/bookmarks
 
 
 
+[The Polymath Playbook](https://salman.io/posts/polymath-playbook/)
+
+Generalist vs specialist, hedhehog vs fox 
+
+[DRMacIver's Notebook: The social obligation to be bad at things](https://notebook.drmaciver.com/posts/2020-02-29-10:30.html)
+
+As if the social norms are designed to prevent from trying 
+
+Telling you are good is arrogance, telling you are bad is weakness, trying something new embarrassing 
+
+[Repetitive Strain Injury (RSI): Causes, Prevention, and More](https://www.healthline.com/health/repetitive-strain-injury)
+
+Be mindful of it, take care, and exercise
+
+[History of the Internet - Wikipedia](https://en.wikipedia.org/wiki/History_of_the_Internet)
+
+1965 to 1995, 30 years, full of good ideas, collaboration, competition 
+
+[Web by Google (TM)](https://landshark.io/2020/08/16/web-by-google.html)
+
+Google has monopolized the web 
+
+
+[healthOS - Divinations](https://divinations.substack.com/p/healthos)
+
+Apple Health is going to be a single source of health data
+
+[Earning $800 / Month With Spotify — Steve Benjamins](https://www.stevebenjamins.com/blog/music-in-the-age-of-algorithms-47syg)
+
+Playlists are like backlinks and editorial playlists are the most authoritative 
+
+[The Observer Effect – Marc Andreessen](https://www.theobservereffect.org/marc.html)
+
+[The Essence of Information - Matthias Endler](https://endler.dev/2017/the-essence-of-information/)
+
+
 ## writing 
 
 [Summary of Technical Writing One  -  Google Developers](https://developers.google.com/tech-writing/one/summary)
 
 [Summary of Technical Writing Two  -  Google Developers](https://developers.google.com/tech-writing/two/summary)
 
-## tutorial
-
-[Indexing Billions of Text Vectors](https://0x65.dev/blog/2019-12-07/indexing-billions-of-text-vectors.html)
-
-[Recommendation System Series Part 2: The 10 Categories of Deep Recommendation Systems That Academic Researchers Should Pay Attention To — James Le](https://jameskle.com/writes/rec-sys-part-2)
-
-## hands on 
-
-[Challenging projects every programmer should try - Austin Z. Henley](http://web.eecs.utk.edu/~azh/blog/challengingprojects.html)
-
-[A crash course in compilers – Increment: Programming Languages](https://increment.com/programming-languages/crash-course-in-compilers/)
-
-
-[Let’s Build A Web Server. Part 3. - Ruslan's Blog](https://ruslanspivak.com/lsbaws-part3/)
-
-
-[Thinking in React Hooks](https://wattenberger.com/blog/react-hooks)
-
-[Building a search engine from scratch](https://0x65.dev/blog/2019-12-06/building-a-search-engine-from-scratch.html)
-
-
-## resources 
-
-[satwikkansal/wtfpython: A collection of surprising Python snippets and lesser-known features.](https://github.com/satwikkansal/wtfpython#-strings-can-be-tricky-sometimes-)
-
-
-## golang 
-
-[Go Proverbs](https://go-proverbs.github.io/)
-
-[Learning Go’s Concurrency Through Illustrations - Trevor Forrey - Medium](https://medium.com/@trevor4e/learning-gos-concurrency-through-illustrations-8c4aff603b3)
-
-[Go: the Good, the Bad and the Ugly](https://bluxte.net/musings/2018/04/10/go-good-bad-ugly/)
-
-[The million dollar engineering problem · Segment Blog](https://segment.com/blog/the-million-dollar-eng-problem/)
-
-
-## database
-
-[Mason Zhang: 7 Reasons You Should Use MongoDB over DynamoDB](http://www.masonzhang.com/2013/08/7-reasons-you-should-use-mongodb-over.html)
-
-[Database Performance Simplified // John Nunemaker](https://johnnunemaker.com/database-performance-simplified/)
-
-[A humble guide to database schema design - Mike Alche](https://www.mikealche.com/software-development/a-humble-guide-to-database-schema-design)
-
-[Don't Do This - PostgreSQL wiki](https://wiki.postgresql.org/wiki/Don%27t_Do_This#Don.27t_use_char.28n.29)
-
-
----
-
-
-[A Perfect Fifth of Notes on Scalability - High Scalability -](http://highscalability.com/blog/2012/1/10/a-perfect-fifth-of-notes-on-scalability.html)
 
 [Rules of thumb for a 1x developer - The Other Mickey Wiki](https://muldoon.cloud/programming/2020/04/17/programming-rules-thumb.html)
 
@@ -187,72 +154,21 @@ category: tech/bookmarks
 [How Discord Scaled Elixir to 5,000,000 Concurrent Users](https://blog.discord.com/scaling-elixir-f9b8e1e7c29b)
 
 
-## snippets
-
 [20 lines of code that will beat A/B testing every time](http://stevehanov.ca/blog/index.php?id=132)
 
 
-[6 Useful Snippets](https://blog.bruce-hill.com/6-useful-snippets)
 
-
-
-[Google - Site Reliability Engineering](https://landing.google.com/sre/books/)
-
-[Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html)
 
 [Systems that defy detailed understanding - Made of Bugs](https://blog.nelhage.com/post/systems-that-defy-understanding/)
 
 [Browser Extensions - Mozilla - MDN](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions)
 
-[Introduction to Information Retrieval](https://nlp.stanford.edu/IR-book/)
-
-
-
-[Regular Expressions for Regular Folk - Regular Expressions for Regular Folk (REFRF)](https://refrf.shreyasminocha.me/)
-
-[alex/what-happens-when: An attempt to answer the age old interview question "What happens when you type google.com into your browser and press enter?"](https://github.com/alex/what-happens-when)
-
-
-[How Browsers Work: Behind the scenes of modern web browsers - HTML5 Rocks](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
-
-## backend 
-
-[backend questions](https://github.com/arialdomartini/Back-End-Developer-Interview-Questions)
-
-
-
-### devops
-
-[Kendime Notlar](https://gokhansengun.com/)
-
-[jlevy/the-art-of-command-line: Master the command line, in one page](https://github.com/jlevy/the-art-of-command-line)
-
-[What Is Nix – Shopify Engineering](https://engineering.shopify.com/blogs/engineering/what-is-nix)
-
-
-### algorithms
-
-[Queue](https://www.programiz.com/dsa/queue)
-
-[egonSchiele/grokking\_algorithms: Code for the book Grokking Algorithms (https://amzn.to/29rVyHf)](https://github.com/egonSchiele/grokking_algorithms)
-
-
-### management
 
 [What is expected of a Engineering Manager?](http://blog.rlmflores.me/2020/10/14/what_is_expected_of_an_engineering_manager/)
 
-### startups
-
-https://canny.io/blog/how-we-built-a-1m-arr-saas-startup/
-
-https://www.collaborativefund.com/blog/a-few-rules/
-
----
-
-https://tyrrrz.me/blog/unit-testing-is-overrated
-
----
+[A Few Rules](https://www.collaborativefund.com/blog/a-few-rules/)
 
 [On Games](https://gafferongames.com/)
 
 [The end of the Redis adventure](http://antirez.com/news/133)
+

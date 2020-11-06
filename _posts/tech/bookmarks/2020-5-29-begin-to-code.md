@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Resources to start coding, from 0 to 1 for beginners
+title: Resources to learn programming 
 tags: beginners
-category: tech/bookmarks
+category: tech/links
  
 ---
 
@@ -11,6 +11,10 @@ category: tech/bookmarks
 [Crash Course Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
 
 [CS50, Harvard University's introduction to computer science and the art of programming](https://www.youtube.com/playlist?list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW)
+
+
+[Teach Yourself Computer Science](https://teachyourselfcs.com/)
+
 
 ## step 0, web 
 
@@ -92,13 +96,6 @@ learn basics of
 8. system design
 
 
-## other sources
-
-[mtdvio/every-programmer-should-know: A collection of (mostly) technical things every software developer should know](https://github.com/mtdvio/every-programmer-should-know)
-
-[jwasham/coding-interview-university: A complete computer science study plan to become a software engineer.](https://github.com/jwasham/coding-interview-university#how-to-use-it)
-
-[braydie/HowToBeAProgrammer: A guide on how to be a Programmer - originally published by Robert L Read](https://github.com/braydie/HowToBeAProgrammer)
 
 
 ### data structures
@@ -124,9 +121,6 @@ learn basics of
 
 [An intensive introduction to Cryptography](https://intensecrypto.org/public/)
 
-### ml
-
-[Foundations of Machine Learning](https://bloomberg.github.io/foml/#lectures)
 
 ## data engineering 
 
@@ -134,3 +128,12 @@ https://awesomedataengineering.com/
 
 
 http://blog.rlmflores.me/2020/10/14/what_is_expected_of_an_engineering_manager/
+
+
+[mtdvio/every-programmer-should-know: A collection of (mostly) technical things every software developer should know](https://github.com/mtdvio/every-programmer-should-know)
+
+[jwasham/coding-interview-university: A complete computer science study plan to become a software engineer.](https://github.com/jwasham/coding-interview-university#how-to-use-it)
+
+[braydie/HowToBeAProgrammer: A guide on how to be a Programmer - originally published by Robert L Read](https://github.com/braydie/HowToBeAProgrammer)
+
+[Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html)

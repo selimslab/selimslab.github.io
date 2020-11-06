@@ -67,3 +67,4 @@ ideas from [Google SRE book](https://landing.google.com/sre/sre-book/toc/index.h
 * The basis is agreed upon in advance 
 * Any assumption are explicitly stated 
 * Data driven over feelings and opinions
+

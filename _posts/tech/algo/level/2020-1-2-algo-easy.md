@@ -24,3 +24,20 @@ category: tech/algorithms
 [(1) Merge Two Sorted Lists - LeetCode](https://leetcode.com/problems/merge-two-sorted-lists/)
 
 
+---
+
+
+
+[(7) Check If N and Its Double Exist - LeetCode](https://leetcode.com/problems/check-if-n-and-its-double-exist/submissions/)
+
+[(7) Maximum Average Subarray I - LeetCode](https://leetcode.com/problems/maximum-average-subarray-i/submissions/)
+
+[(7) Repeated String Match - LeetCode](https://leetcode.com/problems/repeated-string-match/solution/)
+
+[(7) Is Subsequence - LeetCode](https://leetcode.com/problems/is-subsequence/)
+
+[(8) Remove All Adjacent Duplicates In String - LeetCode](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/submissions/)
+
+[(8) Shuffle the Array - LeetCode](https://leetcode.com/problems/shuffle-the-array/)
+
+[(7) X of a Kind in a Deck of Cards - LeetCode](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/)

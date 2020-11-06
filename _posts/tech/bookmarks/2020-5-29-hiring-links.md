@@ -2,10 +2,16 @@
 layout: post
 title: Links on hiring in tech 
 tags: hiring
-category: tech/bookmarks
+category: tech/links
 --- 
 
-some great reads
+[Tech Sector Job Interviews Assess Anxiety, Not Software Skills - NC State News](https://news.ncsu.edu/2020/07/tech-job-interviews-anxiety/)
+
+[backend questions](https://github.com/arialdomartini/Back-End-Developer-Interview-Questions)
+
+[Find engineering teams that share your values | Key Values](https://www.keyvalues.com/)
+
+[Frameworks for Hiring - Erik Torenberg's Thoughts](https://eriktorenberg.substack.com/p/frameworks-for-hiring)
 
 [How NOT to hire a software engineer](https://tonsky.me/blog/hiring/)
 

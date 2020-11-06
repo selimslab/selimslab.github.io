@@ -2,7 +2,7 @@
 layout: post
 title: Highest voted questions from stack exchange 
 tags: stack-exchange
-category: tech/bookmarks
+category: tech/links
 --- 
 
 

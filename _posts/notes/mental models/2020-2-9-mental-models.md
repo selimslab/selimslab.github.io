@@ -216,3 +216,4 @@ more at [https://fs.blog/mental-models/](https://fs.blog/mental-models/)
 
 [[https://www.perell.com/blog/50-ideas-that-changed-my-life]]
 
+[How to choose the right thinking tool - Untools](https://untools.co/thinking-tools-guide?utm_source=untools.co&utm_medium=email)
