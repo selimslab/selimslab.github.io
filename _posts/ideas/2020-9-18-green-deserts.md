@@ -5,19 +5,21 @@ tags: climate
 category: ideas
 --- 
 
-Livestock
+[video](https://youtu.be/vpTHi7O66pI)
 
-Bare soil cannot hold carbon and water 
+2/3s of the world turning to deserts. Bare soil cannot hold carbon and water 
 
-4 months rain, 8 months dry, if the grass is not gone before the next rain, its very bad 
+4 months rain, 8 months dry, if the grass is not gone before the next rain, its very bad. Burning grass leaves the soil bare, not a solution. 
 
-Burning grass leaves the soil bare, not good 
+The solution is livestock. Grazing animals prevents desertification. 
 
-Livestock is the key 
+If we reverse the desertification for half the worlds grasslands, we will be back to preindustrial CO2 levels 
 
-Grazing animals prevents desertification 
 
-2/3s of the world turning to deserts 
 
-If we reverse the desertification for half the worlds grasslands, we will be back to preindustrial levels 
+
+
+
+
+
 

@@ -10,14 +10,18 @@ category: ideas
 
 2. climate change 
 
-3. a lot of people dying from preventable causes, disease, hunger, lack of vaccines, lack of access to clean water, food, basic hygiene, shelter, basic medical care 
+3. a lot of people dying from preventable causes
 
-4. girl literacy, schooling, forced early marriages
+4. hunger, lack of access to clean water, basic hygiene, shelter
 
-5. crime 
+5. disease, lack of vaccines, lack of basic medical care 
+   
+6. girl illiteracy, schooling, forced early marriages
 
-6. fake news, misinformation spreads faster
+7. crime, security
 
-7. privacy, censorship, manipulation
+8. misinformation spreads faster
 
-8. AI, opaque decisions made by machines, like china social scoring its people 
+9. privacy, censorship, manipulation
+
+10. AI, opaque decisions made by machines, like chinese social scoring 

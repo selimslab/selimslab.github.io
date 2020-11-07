@@ -7,7 +7,7 @@ category: ideas
 
 $2k a month on 7% annual return becomes a million dollars in 20 years 
 
-This is cthe power of compound interest and periodic additions to principal
+This is the power of compound interest and periodic additions to principal
 
 an interactive tool to explore 
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Just Too Efficient
-tags: design
+tags: economics
 category: ideas 
 ---
 
