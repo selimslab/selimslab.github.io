@@ -189,3 +189,13 @@ category: projects
 
 
 [In depth guide to running Elasticsearch in production – TechNotes](https://facinating.tech/2020/02/22/in-depth-guide-to-running-elasticsearch-in-production/)
+
+
+[How does SQLite work? Part 1: pages!](https://jvns.ca/blog/2014/09/27/how-does-sqlite-work-part-1-pages/)
+
+[data-science-interviews/technical.md at master · alexeygrigorev/data-science-interviews](https://github.com/alexeygrigorev/data-science-interviews/blob/master/technical.md)
+
+
+[One second code: Do YOU know how much your computer can do in a second?](http://computers-are-fast.github.io/)
+
+[20 lines of code that will beat A/B testing every time](http://stevehanov.ca/blog/index.php?id=132)

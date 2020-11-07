@@ -37,22 +37,7 @@ also visit
 
 [SOLID Principles: Explanation and examples - ITNEXT](https://itnext.io/solid-principles-explanation-and-examples-715b975dcad4)
 
-
-# some links from stackoverflow
-
-[Highest Voted 'design-patterns' Questions - Stack Overflow](https://stackoverflow.com/questions/tagged/design-patterns)
-
 [Highest Voted 'oop' Questions - Page 3 - Stack Overflow](https://stackoverflow.com/questions/tagged/oop?tab=votes&page=3&pagesize=15)
-
-
-## design 
-
-[design patterns - Naming Classes - How to avoid calling everything a "WhatEverManager"? - Stack Overflow](https://stackoverflow.com/questions/1866794/naming-classes-how-to-avoid-calling-everything-a-whatevermanager)
-
-[design patterns - What are MVP and MVC and what is the difference? - Stack Overflow](https://stackoverflow.com/questions/2056/what-are-mvp-and-mvc-and-what-is-the-difference)
-
-
-## oop
 
 [oop - What is the difference between an interface and abstract class? - Stack Overflow](https://stackoverflow.com/questions/1913098/what-is-the-difference-between-an-interface-and-abstract-class)
 

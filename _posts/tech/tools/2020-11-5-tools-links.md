@@ -35,6 +35,9 @@ category: tech
 
 [https://www.growthunt.com](https://www.growthunt.com/)
 
+[Nomad by HashiCorp](https://www.nomadproject.io/)
+
+
 ## Data sources
 
 [Google Trends](https://trends.google.com/trends/?geo=TR)

@@ -13,96 +13,99 @@ category: philosophy
 
 What makes you, you? 
 
-Our principles shape our life and decisions. What we think, we become. 
+For me, it is thoughts, memories, and perspective  
 
-A good life doesn't necessarily mean a happy life. Pain is inevitable, happiness is just another emotion, and chasing emotions doesn't end well. 
-
+Principles shape decisions. What we think, we become. 
 Big things are sum of little things. Life is no exception. 
 
 Everytime we do or say something, we make a decision, mostly unconsciously. These decisions become our actions. The sum of these actions become a lifetime. 
 
 Thus the way is to start small. To pay attention to our actions, words, and how we spend our time.
 
-**Essentials** wise, brave, temperate, just, mindful, grateful
+A good life doesn't necessarily mean a happy life. Pain is inevitable, happiness is just another emotion, and chasing emotions doesn't end well. 
 
-## The core concepts
+We can not control events but we can control our reaction. 
 
-**health** sleep, water, healthy food, and sports, air quality, eliminate sources of stress
+It is possible to be content, to flourish, to experience eudaimonia even in sickness, in prison, in pain. 
 
-**critical thinking**, rise above the situation, disregard the box, watch for biases, question assumptions, do not jump to conclusions, get curious and creative 
+It is possible to be wise, brave, temperate, and just.
 
-**balance**, golden mean 
+## Good, but how?
 
-humble, confident
+**Be mindful,** be aware, to be open, leads to kindness and empathy 
 
-thinking, feeling
+**Be grateful**, appreciate, be happy for all you have and you had. Appreciate your body and mind, your family and friends. Appreciate the moment. 
 
-calm, active
+**Practice empathy**, do not judge, just listen, feel, and understand 
 
-**practice empathy** 
+**Simplicity** Less is more. Remove all nonessentials 
 
-**kindness**, be kind to yourself and others
+**Critical thinking**, rise above the situation, disregard the box, watch for biases, question assumptions, do not jump to conclusions, get curious and creative 
 
-**grow**, flourish, quality, subtlety
+**Balance**, golden mean, humble and confident, thinking and feeling, calmand active
+
+**Health** sleep, water, healthy food, exercise 
+
+**Kindness**, be kind to yourself and others
+
+**Grow**, flourish, quality, subtlety, don't be sorry, improve yourself 
  
-**do not regret**, forgive yourself, hindsight is 20/20, learn and move on 
+**Do not regret.**, forgive yourself, hindsight is 20/20, learn and move on 
 
-We suffer more in imagination than in reality. 
+**Do not magnify pain.**  We suffer more in imagination than in reality. Our capacity for fretting is endless, don't worry, be happy 
 
-Our capacity for fretting is endless, don't worry, be happy 
+**Warm**, put sunshine, get sunshine, emotions are contagious 
 
-**grow**, don't be sorry, improve yourself 
+**Calm**, slow to anger, quick to calm
 
-**warm**, put sunshine, get sunshine, emotions are contagious 
+**The poorest way is arguing**, pick your battles, kindly assert yourself, defuse figthters by refusing to fight 
 
-**calm**, slow to anger, quick to calm
+**Think long term** pause and reflect 
 
-**the poorest way is arguing**, pick your battles, kindly assert yourself, defuse figthters by refusing to fight 
+**Value your time**, value yourself and others, and show your value. Be patient. Take your time. 
 
-**think long term** pause and reflect 
+**Learn** Genuine interest leads to the best learning, not arbitrary rules and fixed schedules 
 
-**do what you love**, love what you do  
+**Gain good habits** You are your habits. Make habits obvious and easy. Time, location, habit stacking 
 
-**being professional** means being responsible and reliable 
+
+## Work
+
+Work to flourish
+
+Make it one bit better, prevent the worst 
+
+Make work playful and isolate work from leisure . Focused intervals. 
+
+**Be professional**, responsible and reliable. Has consequence, has influence. Respect yourself first 
 
 **Work smart**, goal, plan, system, habit, eliminate, simplify, chunk, prioritize, delegate, focus, feedback, iterate
 
-**important** over urgent, ignore sunk costs 
+**Prioritize** important over urgent, ignore sunk costs 
  
-**value your time**, value yourself and others, and show your value
-
-**learning** Genuine interest leads to the best learning, not arbitrary rules and fixed schedules 
-
-**habits** You are your habits. Make habits obvious and easy. Time, location, habit stacking 
-
-work to flourish
-
-make it one bit better, prevent the worst 
-
-make work playful and isolate work from leisure . Focused intervals. 
-
 What pain do you want to sustain? 
 
+**Do what you love**, love what you do  
 
 ## Communication
 
-listen well 
+Listen well 
 
-speak clearly, with enthusiasm and integrity
+Speak clearly, with enthusiasm and integrity
 
-constructive feedback 
+Constructive feedback 
 
-breath, posture, voice, tone, eye contact, body language
+Breath, posture, voice, tone, eye contact, body language
 
 ## Act 
 
 Words are irreversible. Think twice before you speak 
 
-be careful with promises
+Be careful with promises
 
-bias for action, most decisions are reversible
+Act, most decisions are reversible
 
-good enough is good 
+Good enough is good 
 
 Stop waiting, start doing 
 
@@ -112,15 +115,3 @@ Stop waiting, start doing
 > Now take what's left and live it properly.
 > 
 > – Marcus Aurelius 
-
-
----
-
-Appreciate your body and mind, your family and friends. Appreciate the moment. 
-
-Has consequence, has influence. Respect yourself first 
-
-Less is more. Remove all nonessentials 
-
-
-Be patient. Take your time. 

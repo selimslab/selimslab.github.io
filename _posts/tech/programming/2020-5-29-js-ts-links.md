@@ -18,4 +18,8 @@ category: tech
 [deno gist](https://deno.land/std@0.67.0/examples/gist.ts)
 
 
+[Design Doc: Use JavaScript instead of TypeScript for internal Deno Code - Google Docs](https://docs.google.com/document/d/1_WvwHl7BXUPmoiSeD8G83JmS8ypsTPqed4Btkqkn_-4/preview?pru=AAABcrx2ZPM*PADGgSjt1DtrjMuZnd3E4A#heading=h.cx5nx247bag)
+
+
 [goldbergyoni/nodebestpractices: The Node.js best practices list (June 2020)](https://github.com/goldbergyoni/nodebestpractices)
+

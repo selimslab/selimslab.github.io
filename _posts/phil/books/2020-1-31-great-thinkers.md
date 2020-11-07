@@ -1,13 +1,10 @@
 ---
 layout: post
-title: Ideas from 50+ great minds  
-tags: books recommended
+title: Ideas from Plato, Aristotle, Epicurus, and Stoics 
+tags: ideas recommended
 category: philosophy  
 --- 
 
-## Buddha
-
-Attachment and craving cause suffering. To discard craving, train the mind to experience reality as it is. Pain is inevitable, suffering is optional 
 
 ## Plato
 
@@ -25,15 +22,6 @@ We don't need money, romance, or luxury.  What we really want is calm, understan
 
 Friendships are so rewarding. 
 
-## Sen no Rikyu 
-
-wabi sabi. simplicity and appreciation of imperfect 
-
-Tea ceremony 
-
-Harmony, Sympathy, Tranquility, Humility, Lightness, Community 
-
-Simplest things life offers, like a haiku. Old pond, a frog leaps in, water’s sound 
 
 ## Aristotle
 
@@ -64,95 +52,4 @@ We blame ourselves but most things are so random. Be suspicious of success and g
 
 Astronomy is humbling and corrects the perspective
 
-## Lao Tzu
 
-Nature does not hurry, yet everything is accomplished
-
-Let nature inspire you, trees, mountains, rivers, flowers
-
-Be content with what you have, yet remember that there are times for action and ambition
-
-**3 vinegar tasters**, Confucius sour, Buddha bitter, Lao sweet, like their philosophies of life 
-
-**Montaigne** Beauty in a simple life. A virtuous ordinary life is enough 
-
-**Spinoza** People like religion for community, music, rituals, architecture, tradition, a sense of belonging, hope, fear 
-
-**Schopenhauer**  Will to life, Even a blind mole does anything to live. Love is a mechanism to produce balanced children. A good life is to spend as much time with art and philosophy 
-
-**Hegel** Progress is not linear. There is wisdom in every stage. Learn from ideas you dislike 
-
-Art helps important ideas stick 
-
-We need institutions to make ideas powerful 
-
-**Nietzsche** Bitterness is hidden envy. Pleasure and pain comes together 
-
-**Heidegger** Modern world is distracting us from nature. We are thrown into the world. We forget to be free and live for ourselves. All being is connected. Spend more time in graveyards
-
-**Sartre** Things are weirder than we think. We are freer than we think 
-
-**Camus** There are causes worth dying for, but none worth killing for. Enjoy the moment
-
-**Adam Smith** The rich accumulate money because they need to be liked and approved
-
-**Marx** Alienation, Commodity fetishism 
-
-**Tolstoy** Ask that do I actually see? Literature is a tool of reform. Take pleasure in simple things
-
-**Jane Austen** We should judge people more carefully. Replace material lens with moral lens. Dont be snobbish. Let your lover educate you. 
-
-**Freud** Pleasure & reality balance. Childhood deeply affects adulthood. Analysis of dreams, jokes, parapraxes
-
-**Architecture** Cities should be like ecosystems. City blocks should be small and dense. Mix of old & new buildings
-
-
-**Andy Warhol** We need to mass produce beauty and distribute far and wide. High quality childcare, food, clothing, architecture, therapy, career advice 
-
-
-**Tocqueville** Democracy breeds materialism, envy, shame. The tyranny of majority. False hope is dangerous 
-
-**Weber** Protestant ethics, feeling guilty, glorifying work, emphasizing community 
-
-People imagine leaders as super-parents
-
-People imagine change as dramatic and revolutionary yet most changes are very undramatic, it comes mostly through slow changes in bureaucracy and systematic organization 
-
-
-**Durkheim** Why are people unhappy? Loneliness, false hope, responsibility of freedom, less time with friends and family 
-
-
-**Rachel Carson** Silent Spring, DDT, love of nature works better than guilt 
-
-
-## Anna Freud 
-
-People are people not vending machines.  
-
-Ambivalence is the key to be an adult. Life is grey. Nothing is completely good or bad. 
-
-**Defense mechanisms**
-
-1. Denial
-2. Projection
-3. Turning against the self
-4. Sublimation, redirecting to sports, art, career, .. 
-5. Regression, getting childish  
-6. Rationalisation 
-7. Intellectualisation
-8. Reaction formation
-9. Displacement, redirection to someone weaker 
-10. Fantasy 
-
-
-## Margaret Mead
-
-Culture determines people far more than suspected. Most traits are not “human nature” but just culture
-
-What we really need is understanding, calm, and insight.
-
-We crave community and connection 
-
-In truth we have the resources for a basic standard for all people 
-
-A small group of committed people can change the world

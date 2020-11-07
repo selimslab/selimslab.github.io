@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  A fun way to learn programming 
+title:  A short action-plan to learn programming in a few months 
 tags: learning
 category: tech
  
@@ -10,7 +10,7 @@ category: tech
 
 
 
-## short resources to take a quick look 
+## short resources to take a quick look 
 
 [HTML, CSS, JS basics](https://www.w3schools.com/html/default.asp)
    
@@ -51,7 +51,7 @@ read on programming paradigms. procedural, imperative, declerative, object orien
 
 [sql - How to implement one-to-one, one-to-many and many-to-many relationships while designing tables? - Stack Overflow](https://stackoverflow.com/questions/7296846/how-to-implement-one-to-one-one-to-many-and-many-to-many-relationships-while-de)
 
-## practice
+## practice
 
 Get some algorithms practice with [Leetcode's top-100 liked easy collection](https://leetcode.com/problemset/top-100-liked-questions/?difficulty=Easy)
 

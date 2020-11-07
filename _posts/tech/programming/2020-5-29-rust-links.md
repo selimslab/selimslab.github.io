@@ -5,6 +5,7 @@ tags: languages
 category: tech
 --- 
 
+[Go vs Rust? Choose Go. - Matthias Endler](https://endler.dev/2017/go-vs-rust/)
 
 [Rust Language Cheat Sheet](https://cheats.rs/)
 
@@ -20,4 +21,6 @@ category: tech
 
 [The Rust Programming Language - The Rust Programming Language](https://doc.rust-lang.org/book/)
 
-[From Rust to TypeScript | valand.dev](https://valand.dev/blog/post/from-rust-to-typescript)
+[From Rust to TypeScript - valand.dev](https://valand.dev/blog/post/from-rust-to-typescript)
+
+[stu2b50](https://stu2b50.dev/posts/rust-is-surpris76171)

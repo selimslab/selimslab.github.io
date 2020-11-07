@@ -66,4 +66,13 @@ How components talk to each other
 
 10. **Template** Method, ABC 
 
-for more -> [An ultra-simplified explanation to design patterns](https://github.com/kamranahmedse/design-patterns-for-humans)
+## links
+
+[An ultra-simplified explanation to design patterns](https://github.com/kamranahmedse/design-patterns-for-humans)
+
+[design patterns - Naming Classes - How to avoid calling everything a "WhatEverManager"? - Stack Overflow](https://stackoverflow.com/questions/1866794/naming-classes-how-to-avoid-calling-everything-a-whatevermanager)
+
+[design patterns - What are MVP and MVC and what is the difference? - Stack Overflow](https://stackoverflow.com/questions/2056/what-are-mvp-and-mvc-and-what-is-the-difference)
+
+
+[Highest Voted 'design-patterns' Questions - Stack Overflow](https://stackoverflow.com/questions/tagged/design-patterns)

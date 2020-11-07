@@ -14,11 +14,13 @@ category: tech
 
 [Highest Voted 'go' Questions - Stack Overflow](https://stackoverflow.com/questions/tagged/go?sort=MostVotes&edited=true)
 
-[Unit Testing | Building Web Apps with Go](https://codegangsta.gitbooks.io/building-web-apps-with-go/content/testing/unit_testing/index.html)
+[Unit Testing - Building Web Apps with Go](https://codegangsta.gitbooks.io/building-web-apps-with-go/content/testing/unit_testing/index.html)
 
 [dariubs/GoBooks: List of Golang books](https://github.com/dariubs/GoBooks)
 
 [Highest Voted 'go' Questions - Stack Overflow](https://stackoverflow.com/questions/tagged/go?sort=MostVotes&edited=true)
+
+[Go is Boring...And That’s Fantastic! - Capital One](https://www.capitalone.com/tech/software-engineering/go-is-boring/)
 
 [Unit Testing - Building Web Apps with Go](https://codegangsta.gitbooks.io/building-web-apps-with-go/content/testing/unit_testing/index.html)
 

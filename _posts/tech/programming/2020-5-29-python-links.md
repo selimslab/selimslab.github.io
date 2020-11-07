@@ -11,7 +11,7 @@ category: tech
 
 [Async Python is not faster](http://calpaterson.com/async-python-is-not-faster.html)
 
-[Python Malware On The Rise | Cyborg Security](https://www.cyborgsecurity.com/python-malware-on-the-rise/)
+[Python Malware On The Rise - Cyborg Security](https://www.cyborgsecurity.com/python-malware-on-the-rise/)
 
 [Python IAQ: Infrequently Answered Questions](http://norvig.com/python-iaq.html)
 
@@ -23,9 +23,14 @@ category: tech
 
 [The Python Standard Library — Python 3.8.2 documentation](https://docs.python.org/3/library/index.html)
 
+[How to write good quality Python code with GitHub Actions](https://medium.com/@wkrzywiec/how-to-write-good-quality-python-code-with-github-actions-2f635a2ab09a)
+
+
+[The right and wrong way to set up Python 3 on MacOS - Opensource.com](https://opensource.com/article/19/5/python-3-default-mac)
+
 [Task queues with Flask - Learning Flask Ep. 21](https://pythonise.com/series/learning-flask/flask-rq-task-queue#example-2)
 
-[Best Practices for Working with Configuration in Python Applications | Preferred Networks Research & Development](https://tech.preferred.jp/en/blog/working-with-configuration-in-python/)
+[Best Practices for Working with Configuration in Python Applications - Preferred Networks Research & Development](https://tech.preferred.jp/en/blog/working-with-configuration-in-python/)
 
 
 [satwikkansal/wtfpython: A collection of surprising Python snippets and lesser-known features.](https://github.com/satwikkansal/wtfpython#-strings-can-be-tricky-sometimes-)

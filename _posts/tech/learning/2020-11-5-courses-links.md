@@ -78,3 +78,5 @@ http://blog.rlmflores.me/2020/10/14/what_is_expected_of_an_engineering_manager/
 
 [What's in a Production Web Application? · Stephen Mann](https://stephenmann.io/post/whats-in-a-production-web-application/)
 
+
+[6.824 Exams](https://pdos.csail.mit.edu/6.824/quizzes.html)
