@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Search
-tags: search
+tags: by-method
 category: algorithms
  
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Permutations
-tags: permute
+tags: by-method
 category: algorithms
 ---
 

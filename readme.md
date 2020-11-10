@@ -1,7 +1,5 @@
 ## a clean blogging and mindmap system 
-
-feats are 
-
+ 
 categories and subcats
 
 search 
