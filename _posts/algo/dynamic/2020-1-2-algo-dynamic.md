@@ -48,3 +48,7 @@ category: algorithms
 ## longest inc subseq 
 
 <script src="https://gist.github.com/selimslab/7d7969cf8b052b2fe2dc667380dbdf19.js"></script>
+
+## word break
+
+<script src="https://gist.github.com/selimslab/5e147197ac5aff89d06dc51bc0ea78a5.js"></script>
