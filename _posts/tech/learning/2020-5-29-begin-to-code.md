@@ -56,7 +56,8 @@ read on programming paradigms. procedural, imperative, declerative, object orien
 Get some algorithms practice with [Leetcode's top-100 liked easy collection](https://leetcode.com/problemset/top-100-liked-questions/?difficulty=Easy)
 
 
-for more, check [Teach Yourself Computer Science](https://teachyourselfcs.com/)
+more
 
+[Teach Yourself Computer Science](https://teachyourselfcs.com/)
 
-
+[Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html)
