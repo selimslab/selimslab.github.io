@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ideas from  Hegel, Schopenhauer, Nietzsche, Sartre, Camus, .. 
+title: Ideas from  Hegel, Schopenhauer, Nietzsche, Sartre, Camus
 tags: ideas recommended
 category: philosophy  
 --- 

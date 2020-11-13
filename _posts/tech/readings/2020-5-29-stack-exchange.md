@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Highest voted questions from stack exchange 
-tags: readings recommended
+tags: readings
 category: tech
 --- 
 

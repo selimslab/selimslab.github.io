@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  A curated list of tech articles 
-tags: readings recommended
+tags: readings
 category: tech
 --- 
 

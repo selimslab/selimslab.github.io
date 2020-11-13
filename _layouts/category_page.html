@@ -6,39 +6,41 @@ layout: default
 
 {% assign sorted_cats = site.categories | sort %}
 
+<div class="section">
 <img src="{{ page.category_image }}" />
+</div>
 
-
-<div class="posts">
-
+<div class="section">
     <div class="search column is-half">
         <input type="text" class="input is-rounded is-medium" id="search-input" placeholder="Search..">
         <ul style="list-style: none;" id="results-container"></ul>
-      </div>
+        </div>
+</div>
+
+<div class="section">
+
+    {% assign category_name = page.category_name  %}
+
+    <h1 id="{{ category_name | downcase }}">{{ category_name }}</h1>
+
     
-        {% assign category_name = page.category_name  %}
+    {% for tag in sorted_tags %}
 
-        <h1 id="{{ category_name | downcase }}">{{ category_name }}</h1>
-
-
-        {% for tag in sorted_tags %}
-
-            {% assign posts_with_tag = tag[1] | where: "category", category_name | sort  %}
-            
-            {% if posts_with_tag != empty %}
-                
-                <h3 class="tag is-warning is-medium">{{ tag[0] }}</h3>
-
-                <ul>
-                    {% for p in posts_with_tag %}
-                        <li class="catlink"><a href="{{ p.url }}">{{ p.title }}</a></li>
-                    {% endfor %}
-                </ul>
-
-            {% endif %}
+        {% assign posts_with_tag = tag[1] | where: "category", category_name | sort  %}
         
-        {% endfor %}
+        {% if posts_with_tag != empty %}
+            
+            <h3 class="tag is-warning is-medium">{{ tag[0] }}</h3>
 
+            <ul>
+                {% for p in posts_with_tag %}
+                    <li class="catlink"><a href="{{ p.url }}">{{ p.title }}</a></li>
+                {% endfor %}
+            </ul>
+
+        {% endif %}
+    
+    {% endfor %}
 
 </div>
 
