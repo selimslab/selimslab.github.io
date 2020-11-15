@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Ideas from  Hegel, Schopenhauer, Nietzsche, Sartre, Camus
-tags: ideas recommended
+tags: ideas
 category: philosophy  
 --- 
-
 
 **Montaigne** Beauty in a simple life. A virtuous ordinary life is enough 
 

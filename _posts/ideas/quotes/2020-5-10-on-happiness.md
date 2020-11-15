@@ -13,8 +13,6 @@ Happiness is when what you think, what you say, and what you do are in harmony.
 
 Happiness is not the absence of problems, it's the ability to deal with them.
 
-Attitude is a choice. Happiness is a choice. Optimism is a choice. Kindness is a choice. Giving is a choice. Respect is a choice. Whatever choice you make makes you. Choose wisely.
-
 In the depth of winter, I finally learned that within me there lay an invincible summer.
 
 Man only likes to count his troubles; he doesn't calculate his happiness.

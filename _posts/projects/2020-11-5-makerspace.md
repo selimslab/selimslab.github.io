@@ -8,13 +8,13 @@ category: projects
 
 ## Lists  
 
-[Challenging projects every programmer should try - Austin Z. Henley](http://web.eecs.utk.edu/~azh/blog/challengingprojects.html)
-
-[500 Lines or Less - A Simple Web Server](http://aosabook.org/en/500L/a-simple-web-server.html)
+[500 Lines or Less](http://aosabook.org/en/500L/)
 
 [tuvtran/project-based-learning: Curated list of project-based tutorials](https://github.com/tuvtran/project-based-learning)
 
 [danistefanovic/build-your-own-x: 🤓 Build your own (insert technology here)](https://github.com/danistefanovic/build-your-own-x#build-your-own-web-server)
+
+[Challenging projects every programmer should try](http://web.eecs.utk.edu/~azh/blog/challengingprojects.html)
 
 
 ## web

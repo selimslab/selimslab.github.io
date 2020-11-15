@@ -18,3 +18,5 @@ I wouldn't claim that people in Silicon Valley overcome these impulses because t
 But even if Silicon Valley's encouraging attitude is rooted in self-interest, it has over time actually grown into a sort of benevolence.
 
 Your own skepticism is a force more powerful than other people's skepticism. Some ways to overcome it are supportive friends, teachers, mentors, quick improvements, ignorance, discipline, slight overconfidence, considering it a sketch, view as a learning project 
+
+The first draft of anything is shit. Iterate 

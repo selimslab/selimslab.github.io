@@ -18,7 +18,9 @@ Tea ceremony
 
 Harmony, Sympathy, Tranquility, Humility, Lightness, Community 
 
-Simplest things life offers, like a haiku. Old pond, a frog leaps in, water’s sound 
+Simplest things life offers, like a haiku. 
+
+Old pond, a frog leaps in, water’s sound 
 
 
 ## Lao Tzu
