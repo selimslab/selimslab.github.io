@@ -6,6 +6,9 @@ layout: default
 
 {% assign sorted_cats = site.categories | sort %}
 
+<div id="main" class="container">
+    <div class="column is-11 is-offset-1">
+
     <div class="section">
         <div class="search column is-6">
             <input type="text" class="input is-rounded is-medium" id="search-input" placeholder="Search..">
@@ -37,4 +40,7 @@ layout: default
     -->
 
     </div>
-{% include search.html %}
+
+    </div>
+</div>
+    {% include search.html %}

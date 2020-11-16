@@ -2,7 +2,15 @@
 layout: default
 ---
 
+
+<img style="display: block; 
+max-width: 100%;
+height: auto;" src="{{ page.img }}" />
+
 <article class="section">
+  <div id="main" class="container">
+    <div class="column is-11 is-offset-1">
+      
   <h1>{{ page.title }}</h1>
   {% assign wordCount = content | number_of_words %}
   <p style="font-weight:300">{{ wordCount | plus: 300 | divided_by: 300 | append: " min read" }}</p>
@@ -10,5 +18,8 @@ layout: default
     {{ content }}
   </div>
   {% include comment.html %}
+
+    </div>
+  </div>
 </article>
 

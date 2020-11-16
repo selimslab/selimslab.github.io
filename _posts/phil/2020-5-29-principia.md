@@ -3,9 +3,9 @@ layout: post
 title: Principia
 tags: ideas recommended
 category: philosophy
+img: https://www.ephesus.us/upload/1553941051_IMG_9720.jpg
 ---
 
-![](https://www.ephesus.us/upload/1553941051_IMG_9720.jpg)
 
 > An unexamined life is not worth living. 
 > 

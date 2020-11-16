@@ -6,18 +6,19 @@ layout: default
 
 {% assign sorted_cats = site.categories | sort %}
 
-<div class="section">
-<img src="{{ page.category_image }}" />
-</div>
+<img style="display: block; 
+max-width: 100%;
+height: auto;" src="{{ page.category_image }}" />
 
-<div class="section">
-    <div class="search column is-half">
-        <input type="text" class="input is-rounded is-medium" id="search-input" placeholder="Search..">
-        <ul style="list-style: none;" id="results-container"></ul>
-        </div>
-</div>
-
-<div class="section">
+    <div id="main" class="container">
+        <div class="column is-11 is-offset-1">
+            <div class="section">
+                <div class="search column is-half">
+                    <input type="text" class="input is-rounded is-medium" id="search-input" placeholder="Search..">
+                    <ul style="list-style: none;" id="results-container"></ul>
+                    </div>
+            </div>
+            <div class="section">
 
     {% assign category_name = page.category_name  %}
 
@@ -42,6 +43,8 @@ layout: default
     
     {% endfor %}
 
+</div>
+    </div>
 </div>
 
 {% include search.html %}
