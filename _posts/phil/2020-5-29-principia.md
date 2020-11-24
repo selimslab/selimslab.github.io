@@ -3,89 +3,95 @@ layout: post
 title: Principia
 tags: ideas recommended
 category: philosophy
-img: https://www.ephesus.us/upload/1553941051_IMG_9720.jpg
+img: https://dam-13749.kxcdn.com/wp-content/uploads/2020/04/1-4.jpg
+img-alt: The Sea at Les Saintes-Maries-de-la-Mer by van Gogh
 ---
-
 
 > An unexamined life is not worth living. 
 > 
 >  Socrates
 
-What makes you, you? 
+Life is sum of your decisions and actions. A good life is guiding your actions with principles. A deliberate life of consequence.
 
-For me, it is thoughts, memories, and perspective  
+We don't control most things, not even our own emotions. All we can decide is our words and actions. 
 
-Principles shape decisions. What we think, we become. 
-Big things are sum of little things. Life is no exception. 
+A good life isn't necessarily a happy life. Happiness is just another emotion, and chasing emotions is like chasing the wind. 
 
-Everytime we do or say something, we make a decision, mostly unconsciously. These decisions become our actions. The sum of these actions become a lifetime. 
+The way is to start small. To pay attention to our words, and how we spend our time. 
 
-Thus the way is to start small. To pay attention to our actions, words, and how we spend our time.
+## Concepts  
 
-A good life doesn't necessarily mean a happy life. Pain is inevitable, happiness is just another emotion, and chasing emotions doesn't end well. 
+**Mindful,** be aware, be open, view yourself from outside, leads to kindness and empathy, deliberation and consequence
 
-We can not control events but we can control our reaction. 
+**Grateful**, Appreciate all you have and you had, your body and mind, your family and friends. Appreciate the moment. 
 
-It is possible to be content, to flourish, to experience eudaimonia even in sickness, in prison, in pain. 
+**Kindness**, be kind to yourself and others, being kind means taking responsibility of your actions, being mindful of emotional effects   
 
-It is possible to be wise, brave, temperate, and just.
+**Balance**, golden mean, humble and confident, thinking and feeling, calm and active
 
-## Good, but how?
-
-**Be mindful,** be aware, to be open, leads to kindness and empathy 
-
-**Be grateful**, appreciate, be happy for all you have and you had. Appreciate your body and mind, your family and friends. Appreciate the moment. 
-
-**Practice empathy**, do not judge, just listen, feel, and understand 
-
-**Simplicity** Less is more. Remove all nonessentials 
-
-**Critical thinking**, rise above the situation, disregard the box, watch for biases, question assumptions, do not jump to conclusions, get curious and creative 
-
-**Balance**, golden mean, humble and confident, thinking and feeling, calmand active
-
-**Health** sleep, water, healthy food, exercise 
-
-**Kindness**, be kind to yourself and others
+**Health** sleep, water, healthy food, fruits, veggies, no poison(smoking, alcohol, drugs, sugar, processed food), work out 
 
 **Grow**, flourish, quality, subtlety, don't be sorry, improve yourself 
  
-**Do not regret.**, forgive yourself, hindsight is 20/20, learn and move on 
 
-**Do not magnify pain.**  We suffer more in imagination than in reality. Our capacity for fretting is endless, don't worry, be happy 
+## Time
 
-**Warm**, put sunshine, get sunshine, emotions are contagious 
-
-**Calm**, slow to anger, quick to calm
-
-**The poorest way is arguing**, pick your battles, kindly assert yourself, defuse figthters by refusing to fight 
+Life is not short but we waste most of it. 
 
 **Think long term** pause and reflect 
 
 **Value your time**, value yourself and others, and show your value. Be patient. Take your time. 
 
-**Learn** Genuine interest leads to the best learning, not arbitrary rules and fixed schedules 
-
 **Gain good habits** You are your habits. Make habits obvious and easy. Time, location, habit stacking 
 
 
-## Work
+## Emotions and People 
 
-Work to flourish
+**Practice empathy**, do not judge, just listen, feel, understand 
 
-Make it one bit better, prevent the worst 
+**Warm**, put sunshine, get sunshine, emotions are contagious 
 
-Make work playful and isolate work from leisure . Focused intervals. 
+**Calm**, slow to anger, quick to calm
 
-**Be professional**, responsible and reliable. Has consequence, has influence. Respect yourself first 
+**Forgive yourself** Hindsight is 20/20. Regret has no utility after you understand your mistake. learn and move on 
 
-**Work smart**, goal, plan, system, habit, eliminate, simplify, chunk, prioritize, delegate, focus, feedback, iterate
+**Do not magnify pain**  We suffer more in imagination than in reality. Our capacity for fretting is endless, don't worry, be happy 
 
-**Prioritize** important over urgent, ignore sunk costs 
+
+**The poorest way is arguing**, pick your battles, kindly assert yourself, defuse figthters by refusing to fight 
+
+
+**Critical thinking**, rise above the situation, think for yourself, disregard the box, watch for biases, question assumptions, do not jump to conclusions
+
+
+## Life is grey 
  
-What pain do you want to sustain? 
+A grain of salt is helpful. There are no hard truths, there are only perspectives. 
 
-**Do what you love**, love what you do  
+Judge less, accept more
+
+It seems, it appears, probably, I feel this way because.. 
+
+
+## Less
+
+**Simplicity** Less is more. Remove all nonessentials 
+
+**Strategic laziness**, talk less, do less, think less, recharge 
+
+Joy of missing out 
+
+
+## Learning 
+
+Beginner’s mind
+
+Spaced repetition 
+
+Deliberate practice
+
+Genuine interest leads to the best learning, not arbitrary rules and fixed schedules 
+
 
 ## Communication
 
@@ -97,13 +103,46 @@ Constructive feedback
 
 Breath, posture, voice, tone, eye contact, body language
 
+
+
+## How to get things done?
+
+**Be strategic** Think before you do, plan before you start. Why do you want to do it? Is this the right thing to do? Productivity in the wrong direction is just wasted energy. 
+
+**Do what you love**, love what you do. 
+
+**Work smart**, goal, plan, system, habit, eliminate, simplify, chunk, breakdown, prioritize, delegate, focus, feedback, iterate
+
+**Focus**, work on one thing 
+
+**Pre-mortems**, prevent bad things before they happen 
+
+**Prioritize** important over urgent, ignore sunk costs 
+
+**Deadline** if you don't have a deadline, make up one  
+
+**Write down** so you don't have to remember everything 
+
+**One bit better** Make it one bit better, prevent the worst 
+
+**Make work playful**  but do not mix work and leisure. Focused intervals. 
+
+**Start small**, simple to complex 
+
+**Professional**, responsible and reliable. Has consequence, has influence. Respect yourself first 
+
+**Park downhill**, stop work with a cliffhanger, so it's easier to start again. Save some easy tasks for low motivation periods 
+
+Everything looks like a failure in the middle, keep going 
+
+
 ## Act 
 
-Words are irreversible. Think twice before you speak 
+Words are irreversible. Think twice before you speak. 
 
 Be careful with promises
 
-Act, most decisions are reversible
+If a decision is reversible, act quickly 
 
 Good enough is good 
 
@@ -115,3 +154,12 @@ Stop waiting, start doing
 > Now take what's left and live it properly.
 > 
 > – Marcus Aurelius 
+
+
+more mental tools at 
+
+[The Munger Operating System: A Life That Really Works](https://fs.blog/2016/04/munger-operating-system/)
+
+[Mental Models: The Best Way to Make Intelligent Decisions (109 Models Explained)](https://fs.blog/mental-models/)
+
+[An Astronaut's Guide to Mental Models](https://fs.blog/2020/02/mental-models-in-space/)
