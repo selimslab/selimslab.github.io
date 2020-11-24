@@ -135,14 +135,32 @@ Breath, posture, voice, tone, eye contact, body language
 
 Everything looks like a failure in the middle, keep going 
 
+## On decision making
+
+Take your time, analyze, sanity check, cross check, and make a move. 
+
+Give it a shot. Take a chance. Most decisions are reversible and we regret the chances we didn't take. If a decision is reversible, act quickly 
+
+Be mindful of how you feel and why 
+
+Decisions are based on emotions. People who are unable to feel emotions due to neurological damage are not able to make decisions. [source](https://bigthink.com/experts-corner/decisions-are-emotional-not-logical-the-neuroscience-behind-decision-making)
+
+
+Prevention is the best fix. It is easier to stay out than get out.
+
+Consider second and third order consequences. 
+
+Do not sell your future. Never lie to yourself.
+
+Go through a process with people you respect
+
+No by default, if you can't decide, the answer is no 
 
 ## Act 
 
 Words are irreversible. Think twice before you speak. 
 
 Be careful with promises
-
-If a decision is reversible, act quickly 
 
 Good enough is good 
 
