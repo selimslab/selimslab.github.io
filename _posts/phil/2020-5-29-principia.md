@@ -11,28 +11,32 @@ img-alt: The Sea at Les Saintes-Maries-de-la-Mer by van Gogh
 > 
 >  Socrates
 
-Life is sum of your decisions and actions. A good life is guiding your actions with principles. A deliberate life of consequence.
+## Why principia? 
 
 We don't control most things, not even our own emotions. All we can decide is our words and actions. 
 
-A good life isn't necessarily a happy life. Happiness is just another emotion, and chasing emotions is like chasing the wind. 
+Life is a sum of what we say, do, decide, and feel. To choose well, we need guidance.rinciples provide this guidance. Leading to a good life, a deliberate life of consequence.
 
-The way is to start small. To pay attention to our words, and how we spend our time. 
+The way is to start small, paying attention to our words, and how we spend our time. 
 
-## Concepts  
+## Foundations  
 
 **Mindful**, be aware, be open, view yourself from outside, leads to kindness and empathy, deliberation and consequence
 
 **Grateful**, Appreciate all you have and you had, your body and mind, your family and friends. Appreciate the moment. 
 
-**Kindness**, be kind to yourself and others, being kind means being mindful of the effects of your actions
+**Kind**, be kind to yourself and others, being kind means being mindful of the effects of your actions
 
-**Balance**, golden mean, humble and confident, thinking and feeling, calm and active
-
-**Health**, sleep, water, work out, healthy food, fruits, veggies, no poison(smoking, alcohol, drugs, sugar, processed food) 
-
-**Grow**, flourish, quality, subtlety, don't be sorry, improve yourself, compound 
+**Balanced**, golden mean, humble and confident, thinking and feeling, calm and active
  
+## Health
+
+sleep, water, work out
+
+healthy food, fruits, veggies
+
+no poison(smoking, alcohol, drugs, sugar, processed food) 
+
 ## Time
 
 Life is not short but we waste most of it. 
@@ -43,8 +47,17 @@ Life is not short but we waste most of it.
 
 **Gain good habits**, You are your habits. Make habits obvious and easy. Time, location, habit stacking 
 
+**Grow**, flourish, quality, subtlety, don't be sorry, improve yourself, compound 
 
-## Emotions and People 
+## Emotions  
+
+**Forgive yourself**, Hindsight is 20/20. Regret has no utility after you understand your mistake. learn and move on 
+
+**Do not magnify pain**,  We suffer more in imagination than in reality. Our capacity for fretting is endless, don't worry, be happy 
+
+**Let it go** A good life isn't necessarily a happy life. Happiness is just another emotion, and chasing emotions is like chasing the wind. 
+
+## People 
 
 **Practice empathy**, do not judge, just listen, feel, understand 
 
@@ -52,17 +65,7 @@ Life is not short but we waste most of it.
 
 **Calm**, slow to anger, quick to calm
 
-**Forgive yourself**, Hindsight is 20/20. Regret has no utility after you understand your mistake. learn and move on 
-
-**Do not magnify pain**,  We suffer more in imagination than in reality. Our capacity for fretting is endless, don't worry, be happy 
-
-
 **The poorest way is arguing**, pick your battles, kindly assert yourself, defuse figthters by refusing to fight 
-
-
-**Critical thinking**, rise above the situation, think for yourself, disregard the box, watch for biases, question assumptions, do not jump to conclusions
-
-
 ## Life is grey 
  
 A grain of salt is helpful. There are no hard truths, there are only perspectives. 
@@ -103,7 +106,6 @@ Constructive feedback
 Breath, posture, voice, tone, eye contact, body language
 
 
-
 ## How to get things done?
 
 **Be strategic**, Think before you do, plan before you start. Why do you want to do it? Is this the right thing to do? Productivity in the wrong direction is just wasted energy. 
@@ -120,7 +122,6 @@ Breath, posture, voice, tone, eye contact, body language
 
 **Prioritize**, important over urgent, ignore sunk costs 
 
-
 **Write down**, so you don't have to remember everything 
 
 **One bit better**, Make it one bit better, prevent the worst 
@@ -136,6 +137,9 @@ Breath, posture, voice, tone, eye contact, body language
 Everything looks like a failure in the middle, keep going 
 
 ## On decision making
+
+**Critical thinking**, rise above the situation, think for yourself, disregard the box, watch for biases, question assumptions, do not jump to conclusions
+
 
 Take your time, analyze, sanity check, cross check, and make a move. 
 
@@ -174,6 +178,8 @@ Stop waiting, start doing
 > 
 > – Marcus Aurelius 
 
+
+## next 
 
 more mental tools at 
 
