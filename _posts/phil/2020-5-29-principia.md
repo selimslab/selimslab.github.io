@@ -29,6 +29,7 @@ The way is to start small, paying attention to our words, and how we spend our t
 
 **Balanced**, golden mean, humble and confident, thinking and feeling, calm and active
  
+
 ## Health
 
 sleep, water, work out

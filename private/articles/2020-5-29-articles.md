@@ -4,12 +4,7 @@ title: Highlights from read-and-liked
 tags: articles
 category: notes
 --- 
-
-
-[what-to-write-down-when-youre-reading-to-learn]()
-
-
---- 
+ 
 
 The Unexpected Antidote to Procrastination | Peter Bregman
 

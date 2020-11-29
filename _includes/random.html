@@ -1,0 +1,24 @@
+
+
+<script>
+
+    random = async () =>{
+        fetch("/urls.json", {headers:{     
+             'Content-Type': 'application/json',
+             'cache': "force-cache"
+        }})
+        .then(response => {
+        return response.json();
+        })
+        .then(data => {
+            urls = data; 
+            console.log(urls); 
+            let randomLink = urls[Math.floor(Math.random() * urls.length)];
+            console.log(randomLink); 
+            location.href = randomLink;
+        }
+        );
+    }
+
+
+</script>

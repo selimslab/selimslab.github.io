@@ -1,0 +1,9 @@
+---
+layout: none
+---
+
+[
+  {% for post in site.posts %}
+      "{{ site.baseurl }}{{ post.url }}"{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
