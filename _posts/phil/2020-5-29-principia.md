@@ -15,17 +15,19 @@ img-alt: The Sea at Les Saintes-Maries-de-la-Mer by van Gogh
 
 We don't control most things, not even our own emotions. All we can decide is our words and actions. 
 
-Life is a sum of what we say, do, decide, and feel. For a good life, we need guidance and principles to live by. Leading to a deliberate life of consequence.
+Life is a sum of our feelings, thoughts, words, decisions, and actions. 
 
-The way is to start small, paying attention to our words, and how we spend our time. 
+To choose the right thing to do, we need guidance and principles to live by. Leading to a deliberate life of consequence.
 
-## Foundations: mindful, grateful, kind, balanced 
+The way is to start small, paying attention to what we say and do, what we think and feel, and how we spend our time. 
+
+So a good life starts with being mindful and paying attention.  
+
+## Foundations: mindful, grateful, balanced 
 
 **Mindful**, be aware, be open, view yourself from outside. Leads to kindness and empathy. 
 
 **Grateful**, Appreciate all you have and you had, your body and mind, the people you loved. Appreciate the moment. Being grateful is a source of satisfaction, available anytime. 
-
-**Kind**, be kind to yourself and others. Be mindful of the effects of your actions
 
 **Balanced**, golden mean, humble and confident, thinking and feeling, calm and active
  
@@ -59,6 +61,8 @@ Life is not short but we waste most of it.
 
 **Do not magnify pain**, We suffer more in imagination than in reality. Our capacity for fretting is endless, don't worry, be happy 
 
+**Kindness**, be kind to yourself and others. Be mindful of the effects of your actions
+
 **Let it go** A good life isn't necessarily a happy life. Happiness is just another emotion, and chasing emotions is like chasing the wind. 
 
 ## People 
@@ -79,7 +83,6 @@ Judge less, accept more
 A grain of salt is helpful. 
 
 It seems, it appears, probably, I feel this way because.. 
-
 
 ## Less
 
@@ -102,7 +105,6 @@ Watch for biases.
 Question assumptions.
 
 Do not jump to conclusions
-
 
 ## Learning 
 
