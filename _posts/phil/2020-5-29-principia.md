@@ -15,17 +15,16 @@ img-alt: The Sea at Les Saintes-Maries-de-la-Mer by van Gogh
 
 We don't control most things, not even our own emotions. All we can decide is our words and actions. 
 
-Life is a sum of our feelings, thoughts, words, decisions, and actions. 
+Life is a sum of moments. A sum of our feelings and thoughts, our words, decisions, and actions. 
 
 To choose the right thing to do, we need guidance and principles to live by. Leading to a deliberate life of consequence.
 
 The way is to start small, paying attention to what we say and do, what we think and feel, and how we spend our time. 
 
-So a good life starts with being mindful and paying attention.  
 
 ## Foundations: mindful, grateful, balanced 
 
-**Mindful**, be aware, be open, view yourself from outside. Leads to kindness and empathy. 
+**Mindful**, be aware, be open, view yourself from outside. A good life starts with being mindful and paying attention. Being mindful naturally leads to kindness and empathy. 
 
 **Grateful**, Appreciate all you have and you had, your body and mind, the people you loved. Appreciate the moment. Being grateful is a source of satisfaction, available anytime. 
 
