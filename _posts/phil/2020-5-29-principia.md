@@ -28,7 +28,7 @@ The way is to start small, paying attention to what we say and do, what we think
 
 **Grateful**, Appreciate all you have and you had, your body and mind, the people you loved. Appreciate the moment. Being grateful is a source of satisfaction, available anytime. 
 
-**Balanced**, golden mean, humble and confident, thinking and feeling, calm and active
+**Balanced**, golden mean, humble and confident, thinking and feeling, calm and active. Moderation is key for health and long-term happiness.
  
 ## Health
 
@@ -40,7 +40,7 @@ healthy food, fruits, veggies
 
 no poisons (smoking, alcohol, drugs, sugar, junk food, processed food) 
 
-Mental health is often neglected. Do not suppress your emotions, do not carry emotional baggage. Kindly assert yourself. Talk, listen, write. Get help when you don't feel well. Having a mental problem is no different than having a physical problem. 
+Mental health is often neglected. Get help when you don't feel well. Having a mental problem is no different than having a physical problem. 
 
 ## Time
 
@@ -61,6 +61,8 @@ Life is not short but we waste most of it.
 **Do not magnify pain**, We suffer more in imagination than in reality. Our capacity for fretting is endless, don't worry, be happy 
 
 **Kindness**, be kind to yourself and others. Be mindful of the effects of your actions
+
+**Express yourself** Do not suppress your emotions, do not carry emotional baggage. Kindly assert yourself. Speak, write, create. 
 
 **Let it go** A good life isn't necessarily a happy life. Happiness is just another emotion, and chasing emotions is like chasing the wind. 
 
