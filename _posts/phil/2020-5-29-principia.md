@@ -19,7 +19,7 @@ Life is a sum of moments. A sum of our feelings and thoughts, our words, decisio
 
 To choose the right thing to do, we need guidance and principles to live by. Leading to a deliberate life of consequence.
 
-The way is to start small, paying attention to what we say and do, what we think and feel, and how we spend our time. 
+The way is to start small, paying attention to our words, actions, and how we spend our time. 
 
 
 ## Foundations: mindful, grateful, balanced 
