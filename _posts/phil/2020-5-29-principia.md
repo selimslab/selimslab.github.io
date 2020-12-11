@@ -60,11 +60,11 @@ Life is not short but we waste most of it.
 
 **Do not magnify pain**, We suffer more in imagination than in reality. Our capacity for fretting is endless, don't worry, be happy 
 
-**Kindness**, be kind to yourself and others. Be mindful of the effects of your actions
+**Be kind** to yourself and others. Be mindful of the effects of your actions
 
-**Express yourself** Do not suppress your emotions, do not carry emotional baggage. Kindly assert yourself. Speak, write, create. 
+**Express yourself**, Do not suppress your emotions, do not carry emotional baggage. Kindly assert yourself. Speak, write, create. 
 
-**Let it go** A good life isn't necessarily a happy life. Happiness is just another emotion, and chasing emotions is like chasing the wind. 
+**Let it go.** A good life isn't necessarily a happy life. Happiness is just another emotion, and chasing emotions is like chasing the wind. 
 
 ## People 
 
@@ -156,23 +156,19 @@ Prioritize, delegate, focus, feedback, iterate
 
 **Start small**, simple to complex 
 
-**Professional**, responsible and reliable. Has consequence, has influence. Respect yourself first 
-
 **Park downhill**, stop work with a cliffhanger, so it's easier to start again. Save some easy tasks for low motivation periods 
+
+**Professional** means responsible and reliable. 
 
 **Keep walking**, Everything looks like a failure in the middle, keep going 
 
 ## On decision making
 
-Take your time, analyze, sanity check, cross check, and make a move. 
+Take your time, analyze, sanity check, cross check, and make a move, don't stuck.
 
-Give it a shot. Take a chance. 
+If a decision is reversible, act quickly. Most decisions are reversible and we regret the chances we didn't take. 
 
-If a decision is reversible, act quickly 
-
-Most decisions are reversible and we regret the chances we didn't take. 
-
-Be mindful of how you feel and why 
+Be mindful of how you feel and why.
 
 Prevention is the best fix. It is easier to stay out than get out.
 
@@ -205,8 +201,6 @@ Stop waiting, start doing
 
 
 ## you may also like  
-
-more mental tools at 
 
 [The Munger Operating System: A Life That Really Works](https://fs.blog/2016/04/munger-operating-system/)
 
