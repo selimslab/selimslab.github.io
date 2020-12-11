@@ -15,28 +15,31 @@ img-alt: The Sea at Les Saintes-Maries-de-la-Mer by van Gogh
 
 We don't control most things, not even our own emotions. All we can decide is our words and actions. 
 
-Life is a sum of what we say, do, decide, and feel. To choose well, we need guidance.rinciples provide this guidance. Leading to a good life, a deliberate life of consequence.
+Life is a sum of what we say, do, decide, and feel. For a good life, we need guidance and principles to live by. Leading to a deliberate life of consequence.
 
 The way is to start small, paying attention to our words, and how we spend our time. 
 
-## Foundations  
+## Foundations: mindful, grateful, kind, balanced 
 
-**Mindful**, be aware, be open, view yourself from outside, leads to kindness and empathy, deliberation and consequence
+**Mindful**, be aware, be open, view yourself from outside. Leads to kindness and empathy. 
 
-**Grateful**, Appreciate all you have and you had, your body and mind, your family and friends. Appreciate the moment. 
+**Grateful**, Appreciate all you have and you had, your body and mind, the people you loved. Appreciate the moment. Being grateful is a source of satisfaction, available anytime. 
 
-**Kind**, be kind to yourself and others, being kind means being mindful of the effects of your actions
+**Kind**, be kind to yourself and others. Be mindful of the effects of your actions
 
 **Balanced**, golden mean, humble and confident, thinking and feeling, calm and active
  
-
 ## Health
+
+keep your body and mind healthy 
 
 sleep, water, work out
 
 healthy food, fruits, veggies
 
-no poison(smoking, alcohol, drugs, sugar, processed food) 
+no poisons (smoking, alcohol, drugs, sugar, junk food, processed food) 
+
+Mental health is often neglected. Do not suppress your emotions, do not carry emotional baggage. Kindly assert yourself. Talk, listen, write. Get help when you don't feel well. Having a mental problem is no different than having a physical problem. 
 
 ## Time
 
@@ -46,15 +49,15 @@ Life is not short but we waste most of it.
 
 **Value your time**, value yourself and others, and show your value. Be patient. Take your time. 
 
-**Gain good habits**, You are your habits. Make habits obvious and easy. Time, location, habit stacking 
+**Gain good habits**, You are your habits. Make habits obvious and easy. A clear time, location, and habit stacking helps 
 
-**Grow**, flourish, quality, subtlety, don't be sorry, improve yourself, compound 
+**Grow**, flourish, quality, subtlety. Don't be sorry, improve yourself. Compound 
 
 ## Emotions  
 
-**Forgive yourself**, Hindsight is 20/20. Regret has no utility after you understand your mistake. learn and move on 
+**Forgive yourself**, Hindsight is 20/20. Regret has no utility after you understand your mistake. Learn and move on 
 
-**Do not magnify pain**,  We suffer more in imagination than in reality. Our capacity for fretting is endless, don't worry, be happy 
+**Do not magnify pain**, We suffer more in imagination than in reality. Our capacity for fretting is endless, don't worry, be happy 
 
 **Let it go** A good life isn't necessarily a happy life. Happiness is just another emotion, and chasing emotions is like chasing the wind. 
 
@@ -69,9 +72,11 @@ Life is not short but we waste most of it.
 **The poorest way is arguing**, pick your battles, kindly assert yourself, defuse figthters by refusing to fight 
 ## Life is grey 
  
-A grain of salt is helpful. There are no hard truths, there are only perspectives. 
+There are no hard truths, there are only perspectives. 
 
 Judge less, accept more
+
+A grain of salt is helpful. 
 
 It seems, it appears, probably, I feel this way because.. 
 
@@ -84,6 +89,20 @@ It seems, it appears, probably, I feel this way because..
 
 Joy of missing out 
 
+## Critical thinking 
+
+Rise above the situation. 
+
+Think for yourself. 
+
+Disregard the box. 
+
+Watch for biases.
+
+Question assumptions.
+
+Do not jump to conclusions
+
 
 ## Learning 
 
@@ -93,8 +112,7 @@ Spaced repetition
 
 Deliberate practice
 
-Genuine interest leads to the best learning, not arbitrary rules and fixed schedules 
-
+Genuine interest leads to the best learning
 
 ## Communication
 
@@ -113,7 +131,11 @@ Breath, posture, voice, tone, eye contact, body language
 
 **Do what you love**, love what you do. 
 
-**Work smart**, goal, plan, system, habit, eliminate, simplify, chunk, breakdown, prioritize, delegate, focus, feedback, iterate
+**Work smart**, goal, plan, system, habit. 
+
+Eliminate, simplify, chunk, breakdown
+
+Prioritize, delegate, focus, feedback, iterate
 
 **Set a time bound**, If you don't have a deadline, make up one  
 
@@ -127,7 +149,7 @@ Breath, posture, voice, tone, eye contact, body language
 
 **One bit better**, Make it one bit better, prevent the worst 
 
-**Make work playful**,  but do not mix work and leisure. Focused intervals. 
+**Make work playful**, but do not mix work and leisure. Focused intervals. 
 
 **Start small**, simple to complex 
 
@@ -135,18 +157,17 @@ Breath, posture, voice, tone, eye contact, body language
 
 **Park downhill**, stop work with a cliffhanger, so it's easier to start again. Save some easy tasks for low motivation periods 
 
-Everything looks like a failure in the middle, keep going 
+**Keep walking**, Everything looks like a failure in the middle, keep going 
 
 ## On decision making
 
-**Critical thinking**, rise above the situation, think for yourself, disregard the box, watch for biases, question assumptions, do not jump to conclusions
-
-
 Take your time, analyze, sanity check, cross check, and make a move. 
 
-Give it a shot. Take a chance. Most decisions are reversible and we regret the chances we didn't take. 
+Give it a shot. Take a chance. 
 
 If a decision is reversible, act quickly 
+
+Most decisions are reversible and we regret the chances we didn't take. 
 
 Be mindful of how you feel and why 
 
@@ -180,7 +201,7 @@ Stop waiting, start doing
 > – Marcus Aurelius 
 
 
-## next 
+## you may also like  
 
 more mental tools at 
 
