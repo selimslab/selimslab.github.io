@@ -13,14 +13,32 @@ img-alt: The Sea at Les Saintes-Maries-de-la-Mer by van Gogh
 
 ## Why principia? 
 
-We don't control most things, not even our own emotions. All we can decide is our words and actions. 
-
 Life is a sum of moments. A sum of our feelings and thoughts. A sum of our words, decisions, and actions. 
 
-To choose the right thing to do, we need guidance and principles to live by. 
+For a good life, we need guidance and principles to live by. And to internalize them, to apply them. 
 
-The way is to start small, paying attention to our words, actions, and how we spend our time. 
+The first step is paying attention to our words and how we spend our time. 
 
+We don't control most things, not even our own emotions. Yet we can control our thoughts, words, and actions. 
+
+
+## What is a good life?
+
+It is not necessarily a happy life, or a life of pleasure. 
+
+It is a conscious life, a mindful life, choosing deliberately, not sleep-walking through life. 
+
+Do what you believe to be the right thing. Do it to the best of your ability, with patience, resolve, and fortitude. 
+
+Not to harm others, nor yourself. Not compromise your character and integrity. 
+
+Not to chase fame, wealth, admiration, power. Not to be enslaved by desire and ambition. 
+
+Discard your anxiety, greed, and anger. Face your fears. 
+
+Appreciate your loved ones, your friends. Be grateful for even the smallest things. Love. Keep your body and mind healthy. 
+
+Forgive yourself, forgive others. 
 
 ## Foundations: mindful, grateful, balanced 
 
@@ -30,7 +48,7 @@ The way is to start small, paying attention to our words, actions, and how we sp
 
 **Balanced**, golden mean, humble and confident, thinking and feeling, calm and active. Moderation is key for health and long-term happiness.
  
-## Health
+## Healthy
 
 keep your body and mind healthy 
 
@@ -64,8 +82,11 @@ Life is not short but we waste most of it.
 
 **Express yourself**, Do not suppress your emotions, do not carry emotional baggage. Kindly assert yourself. Speak, write, create. 
 
-**Let it go.** A good life isn't necessarily a happy life. Happiness is just another emotion, and chasing emotions is like chasing the wind. 
+**Nature and reason** As beings on a planet, we are part of nature. Life flows smoothly when you conform to nature and reason. 
 
+**Accept** the world as it is. This doesn't mean passivity but being able to recognize what is in your control and what is not 
+
+**Let it go.** A good life isn't necessarily a happy life. Happiness is just another emotion, and chasing emotions is like chasing the wind. 
 ## People 
 
 **Practice empathy**, do not judge, just listen, feel, understand 
@@ -73,6 +94,8 @@ Life is not short but we waste most of it.
 **Warm**, put sunshine, get sunshine, emotions are contagious 
 
 **Calm**, slow to anger, quick to calm
+
+**Discard comparison**, do what is in your control, do what you can do to make your current life one bit better, instead comparing yourself to others and your possible ideal self 
 
 **The poorest way is arguing**, pick your battles, kindly assert yourself, defuse figthters by refusing to fight 
 ## Life is grey 
@@ -124,6 +147,8 @@ Listen well
 Speak clearly, with enthusiasm and integrity
 
 Constructive feedback 
+
+Harmony in thoughts, words, and actions 
 
 Breath, posture, voice, tone, eye contact, body language
 
