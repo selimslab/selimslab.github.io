@@ -161,9 +161,9 @@ Contact, timing, follow up, appendix
 
 • Don’t scale your team/product until you have built something people want
 
-• Valuation is not equal to success or even probability of success
+• Valuation is not equal to success or even the probability of success
 
-• Avoid long negotiated deals with big customers if you can
+• Avoid long, negotiated deals with big customers if you can
 
 • Avoid big company corporate development queries – they will only waste time
 

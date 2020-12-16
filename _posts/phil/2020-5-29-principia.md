@@ -11,7 +11,7 @@ img-alt: The Sea at Les Saintes-Maries-de-la-Mer by van Gogh
 > 
 >  Socrates
 
-## Why principia? 
+## Why Principia? 
 
 Life is a sum of moments. A sum of our feelings and thoughts. A sum of our words, decisions, and actions. 
 
@@ -97,7 +97,7 @@ Life is not short but we waste most of it.
 
 **Discard comparison**, do what is in your control, do what you can do to make your current life one bit better, instead comparing yourself to others and your possible ideal self 
 
-**The poorest way is arguing**, pick your battles, kindly assert yourself, defuse figthters by refusing to fight 
+**The poorest way is arguing**, pick your battles, kindly assert yourself, defuse fighters by refusing to fight 
 ## Life is grey 
  
 There are no hard truths, there are only perspectives. 
@@ -106,7 +106,7 @@ Judge less, accept more
 
 A grain of salt is helpful. 
 
-It seems, it appears, probably, I feel this way because.. 
+It seems, it appears, probably, I feel this way because...
 
 ## Less
 
@@ -165,7 +165,7 @@ Eliminate, simplify, chunk, breakdown
 
 Prioritize, delegate, focus, feedback, iterate
 
-**Set a time bound**, If you don't have a deadline, make up one  
+**Set a time bound**, If you don't have a deadline, makeup one  
 
 **Focus**, work on one thing 
 
@@ -189,7 +189,7 @@ Prioritize, delegate, focus, feedback, iterate
 
 ## On decision making
 
-Take your time, analyze, sanity check, cross check, and make a move, don't stuck.
+Take your time, analyze, sanity check, cross-check, and make a move, don't stuck.
 
 If a decision is reversible, act quickly. Most decisions are reversible and we regret the chances we didn't take. 
 
@@ -197,7 +197,7 @@ Be mindful of how you feel and why.
 
 Prevention is the best fix. It is easier to stay out than get out.
 
-Consider second and third order consequences. 
+Consider second-order and third-order consequences. 
 
 Do not sell your future. 
 
