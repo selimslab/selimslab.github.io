@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  JS/TS links
-tags: languages
+tags: links
 category: tech
 --- 
 

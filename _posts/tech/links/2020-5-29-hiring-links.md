@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Links on hiring in tech 
-tags: hiring 
+title: Hiring links 
+tags: links
 category: tech
 --- 
 

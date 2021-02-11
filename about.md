@@ -4,8 +4,7 @@ title: Welcome, friend!
 permalink: /about/
 ---
 
-I am Selim, writing here to remember. This site aims to be a mind palace, a second brain. It is a constant work in progress. 
-
+I am Selim, writing here to remember. 
 
 
 <a href="https://www.goodreads.com/review/list/24616331-selim?order=d&shelf=read&sort=avg_rating" target="_blank">Bookshelf​</a>

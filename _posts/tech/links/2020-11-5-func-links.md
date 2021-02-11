@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Functional programming links 
-tags: languages
+tags: links
 category: tech
 --- 
 

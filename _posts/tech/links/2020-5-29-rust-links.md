@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Rust links
-tags: languages
+tags: links
 category: tech
 --- 
 

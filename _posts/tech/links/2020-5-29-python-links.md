@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Python links 
-tags: languages
+tags: links
 category: tech
 --- 
 

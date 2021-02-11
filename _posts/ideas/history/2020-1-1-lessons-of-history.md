@@ -9,21 +9,31 @@ category: ideas
 
 life is competition
 
-people born unfree, unequal, subject to physical and psyc. heredity, customs, traditions
+people born unfree, unequal, 
+
+subject to physical and psyc. heredity,
+
+customs, traditions
+
+<br>
 
 life is selection
 
 probably every vice was once a virtue
 
-managing man, money, things
+managing man > money > things
 
 action <-> reaction 
 
-nations die, civilizations not -> greeks, homer, socrates
+nations die, civilizations not 
+
+greeks, homer, socrates
 
 death is natural
 
-civilization migrates with him, builds somewhere another home 
+civilization migrates with him, 
+
+builds somewhere another home 
 
 in much wisdom, is much grief
 
