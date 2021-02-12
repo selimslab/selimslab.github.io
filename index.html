@@ -18,30 +18,16 @@ layout: default
 
     <div class="section">
 
-    <h1>featured</h1>
     <ul>
-        {% for p in site.tags.recommended %}
-            <li class="catlink"><a href="{{ p.url }}">{{ p.title }}</a></li>
-        {% endfor %}
-    </ul>
-
-    <h1>categories</h1>
-    <ul>
-        {% for cat in sorted_cats %}
-            {% assign catname = cat | first %}
+        {% for p in site.posts %}
             <li class="catlink">
-                <a href="{{ '/' | append:  catname  }}">{{ catname }}</a>
+                <a href="{{ p.url }}">{{ p.title }}</a>
+                {% for tag in p.tags %}
+                    <p style="margin-left:1rem" class="tag is-warning is-small">{{ tag }}</p>
+                {% endfor %}
             </li>
         {% endfor %}
     </ul>
-
- 
-    
-    <!-- 
-        <span style="margin-left:0.5rem" class="tag is-success is-light">{{p.category | split: "/" | last }}</span>
-    -->
-
-    <a href="#" onclick="random();" class="button is-medium is-rounded is-warning">Random</a>
 
 
     </div>

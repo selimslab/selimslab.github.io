@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Cognitive Biases   
-tags: psychology recommended
+tags: psychology 
 category: ideas
 ---
 
