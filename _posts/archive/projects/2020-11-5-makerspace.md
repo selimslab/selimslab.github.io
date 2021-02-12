@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Makerspace, inspiration for your next project
-tags: ideas recommended
+tags: ideas 
 category: projects
 --- 
 

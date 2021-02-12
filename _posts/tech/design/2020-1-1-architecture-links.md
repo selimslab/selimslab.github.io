@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Links on architecture
-tags: software-design
+tags: software
 category: tech
 --- 
 

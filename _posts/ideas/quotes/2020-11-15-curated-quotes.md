@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Curated Quotes
-tags: quotes recommended
+tags: quotes
 category: ideas
 --- 
 

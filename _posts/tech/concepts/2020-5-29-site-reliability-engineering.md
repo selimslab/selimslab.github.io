@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Site Reliability Engineering 
-tags: distributed-systems
+tags: software
 category: tech
 --- 
 

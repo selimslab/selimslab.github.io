@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Software Security 
-tags: security recommended
+tags: software recommended
 category: tech
   
 --- 

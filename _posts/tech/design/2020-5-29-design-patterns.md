@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Design Patterns
-tags: software-design
+tags: software
 category: tech 
 ---
 

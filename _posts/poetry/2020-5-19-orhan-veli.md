@@ -6,8 +6,6 @@ category: poetry
 
 ---
 
-![](https://muhtesemsozler.com/wp-content/uploads/2019/04/kan%C4%B1k2.jpg)
-
 
 ## içinde 
 
@@ -77,7 +75,7 @@ Atamam kendimi denize, dünya güzel;
 Serde erkeklik var, ağlayamam.
 
 
-## Sevdaya Mı Tutuldum?
+## Sevdaya mı Tutuldum?
 
 Benim de mi düşüncelerim olacaktı,
 
@@ -237,3 +235,6 @@ Allaha inanır düşünmeden?
 Ve rüzgarlı havalarda
 
 Yağmur eğri yağar?
+
+
+[[2020-1-11-hayyam]]

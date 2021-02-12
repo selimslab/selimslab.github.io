@@ -5,9 +5,53 @@ tags: startups
 category: ideas 
 ---
 
-## Startup = Growth
+## User 
 
-growth factors
+Solve a problem,
+
+for few users,
+
+who want a solution a lot
+
+<br>
+
+a 10x better solution 
+
+number 1 in a performance dimension
+
+## Persona
+
+Define a persona,
+
+draw a picture,
+
+list the facts,
+
+assumptions,
+
+behaviours,
+
+wants,
+
+goals
+
+<br>
+
+Startup Outcome = Skill x Determination x Luck
+
+<br>
+
+When you fail,
+
+Very often the real reason is 
+
+the product just isn’t good enough.
+
+## Growth
+
+Startup is growth
+
+you can grow by 
 
 1. Large market
 2. Economies of scale
@@ -15,49 +59,36 @@ growth factors
 4. Network Effects
 5. Brand
 
-Startup Outcome = Skill x Determination x Luck
 
-very often the real reason is that the product just isn’t good enough.
-
-
-## User
-
-solution must be 10x better
-
-number 1 in a performance dimension
-
-Solve a problem
-for few users who
-want a solution a lot
-
-
-## persona
-
-1. Draw the portrait
-2. Identify facts
-3. List behaviors
-4. Optional: List Wants and Goals
-5. Check and consolidate
 
 ## Most passionate buyers
 
 Who are they?
 
+What is the single most important thing for them?
+
+<br>
+
 Why do they need this?
+
+Magic wand
+
+<br>
 
 What else have they tried?
 
 How difficult was to find the product?
 
-What is the single most important thing?
-
-Magic wand
 
 
 ## Unique Value Propositon
 Delivers a concrete benefit,
-to an underlying need, using a
-specific feature
+
+to an underlying need, 
+
+using a specific feature
+
+<br>
 
 others can NOT claim
 
@@ -67,33 +98,24 @@ uncovers a strong truth and names it
 
 creates tension, urgency, desire in persona’s mind
 
-## UVP vs USP
-Every brand has something
-unique about it that makes it
-distinctive (UVP). 
+## 	Unique
+Your unique value proposition is what makes you different 
 
-This unique
-element could be turned into a
-benefit and used as a propositon
-to sell the brand (USP).
+Package it in a unique sales proposition   
 
 ## user interview
-1. Create a find list
 
-2. Create topic map
+1. a topic map
 
-3. Find opener questions
+3.  opener questions
 
-4. Rehearse the interview
+4. rehearse 
 
-Main interview challenge =
-Get past surface-level to a
-discussion with substance
+Get past surface-level to a discussion with substance
 
-Best interview
-contains a Story
-about recent and specific
-experience
+Best interviews contain a story,
+
+about a recent and specific experience
 
 
 ## Market
@@ -105,23 +127,25 @@ SOM = 1-5% of SAM in 5 years
 
 ## the lean startup
 
-start small
+Start small
 
 Start simple 
 
+Test
+
 Iterate quickly 
 
-Test 
+ <br>
 
-Measure 
+ Measure
 
-test in the beginning
+Test in the beginning
 
 Hallway testing 
 
 
-## Pitch Deck -> Show. Do not tell.
-problem 
+##  Do not pitch. Show. 
+Problem 
 
 Solution 
 
@@ -139,7 +163,6 @@ Contact, timing, follow up, appendix
 
 
 ## The Pocket Guide of Essential YC Advice
-
 
 • Launch now
 

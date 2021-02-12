@@ -1,7 +1,7 @@
 ---
 layout: post
 title: From UNIX to today 
-tags: software-design
+tags: software
 category: tech
 
 --- 
