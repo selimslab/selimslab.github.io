@@ -9,35 +9,76 @@ Humans.
 
 We jump to conclusions.
 
-We fear what we don’t understand so we simplify, generalize, and make up a story.
+<br>
 
-noise -> signal -> story -> decision -> reality
+We fear what we don’t understand 
+
+so we simplify, generalize, and make up a story.
+
+noise -> signal -> story -> decision 
+
+<br>
+
+Environment matters.
+
+<br>
+
+We tend to do what is quick, easy, comfortable. 
+
+Rather than doing what is important.
+
+<br>
 
 Emotions make decisions. Reason comes later and justifies.
 
-Mistakes of others are easier to notice. Also, they did it because they are bad but you did it because of the circumstances. Isn’t it?
+<br>
+
+Mistakes of others are easier to notice. 
+
+Also, they did it since they are bad,
+
+but you did it because of the circumstances. 
+
+Isn’t it?
+
+<br>
 
 We exaggerate the future.
 
-A possible bad event seems way darker, and a good one seems way brighter than it will be.
+A possible bad event seems way darker, 
+
+and a good one seems way brighter than it will be.
 
 In reality, we will neither be as happy or as miserable as we think.
+
+<br>
 
 Do you think you know what others feel or think? You don’t.
 
 Familiar is better? Not always.
 
-We believe we are better than we actually are. This feeling gets stronger as a person gets more incompetent and ignorant.
+<br>
 
-Environment matters.
+We believe we are better than we actually are. 
 
-Attention is selective. People see what they want to see. We find evidence for what we want to believe.
+This feeling gets stronger as a person gets more incompetent and ignorant.
+
+<br>
+
+Attention is selective. People see what they want to see. 
+
+We find evidence for what we want to believe.
+
+<br>
 
 Fear of losing is stronger than the hope of winning.
 
-We tend to do what is quick, easy, comfortable. Rather than doing what is important.
+The human brain loves to save energy. 
 
-The human brain loves to save energy. First information gets anchored into the mind.
+First information gets anchored into the mind.
+
+
+<br>
 
 It is easier to remember the end of something
 
