@@ -5,49 +5,31 @@ tags: teamwork
 category: tech
 ---
 
-<img height="250"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1401432508l/4099.jpg" /> 
+define requirements well from the start
 
+estimate with due diligence 
 
-#### estimates
-
-estimate -> "I will get back to you"
-
-keep a log of your estimates
-
-Don't deceive yourself. And you are the easiest one to deceive 
-
-
-
-#### Process
+keep a log 
 
 do not make promises 
 
-define requirements well from the start
-
 under promise, over deliver 
 
-Do not set big expectations
-
-Gently exceed people's expectations
-
-Pride of ownership 
+Gently exceed expectations
 
 Know when to start, wait, and finish 
 
 Take frequent short breaks 
 
-Take notes. Summarize and update your notes 
+Take notes 
 
 don't rely heavily on anything 
 
 choose good tools and know them well
 
+## comm
 
-#### People
-
-try to understand needs, interests, capabilities, fears, wishes of people
-
-is it a good time to talk about?
+Is it a good time to talk about?
 
 respond to emails
 

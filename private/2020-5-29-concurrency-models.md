@@ -6,7 +6,6 @@ category: tech
 ---
 
 
-![](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1379392779l/18467564.jpg)
 
 1. Threads and locks
 2. Functional programming

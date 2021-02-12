@@ -3,48 +3,74 @@ layout: post
 title: Software Security 
 tags: software recommended
 category: tech
-  
 --- 
 
 ## Fundamentals 
 
-Plan for security from the start. Model possible threats. Ask what can go wrong.  
+Plan for security from the start. 
 
-Keep it simple to keep the attack surface minimum. Attack vectors include user input fields, protocols, interfaces, and services.
+<br>
 
-No system is 100% secure, security is an example of "unknown unknowns"
- 
-Fail securely. Consider all cases, allow, disallow, exception
+Keep it simple to keep the attack surface minimum. 
 
-Enforce strong passwords, never keep plain-text passwords, do not encrypt passwords, hash them with a salt 
+<br>
 
-Write exploit code to test your patches 
-  
+Model possible threats. 
+
+Ask what can go wrong.  
+
+<br>
+
+Any user input is an attack vector. 
+
 Never trust any input, always **validate**, always **sanitize**
 
-**Don't try to roll your own** security solutions, it's a community effort 
+<br>
+
+Libraries and network calls are attack vectors.
 
 Use well-known tried and tested libraries only and keep your libraries up to date 
 
+<br>
+
+No system is 100% secure, security is an example of "unknown unknowns"
+ 
+Consider all cases, allow, disallow, exception
+
+<br>
+
+Enforce strong passwords, 
+
+never keep plain-text passwords, 
+
+do not encrypt passwords, 
+
+hash them with a salt 
+
+<br>
+
+Write exploit code to test your patches 
+
+<br>
+  
+**Don't try to roll your own** security solutions, it's a community effort 
+
 **Log** suspicious activity like failed login attempts,invalid input, statistically rare or unexpected events 
 
-Do not hide secrets in code, make sure they won't end up in public repos 
-
-Use **authorization levels**. 
-
-**Least privilege**, never grant more access than required. 
-
-**Separation of privileges**, so your system is not all or nothing
-
-Use **whitelists**, not blacklists 
+<br>
 
 Avoid security through obscurity 
 
+Do not hide secrets in code, make sure they won't end up in public repos 
+
+<br>
+
 Be aware of buffer overflow attacks 
-  
+
 use **HTTPS**, don't allow HTTP access to secure pages
-  
-Parametrize **SQL** queries to prevent SQL injection
+
+
+## authentication
 
 Use **2-factor auth** 
 
@@ -52,10 +78,26 @@ Add exponential delay to repeated login attempts
 
 Lock account after repeated failed login attempts 
 
+## authorization
+
+Use **authorization levels**. 
+
+**Least privilege**, never grant more access than required. 
+
+**Separation of privileges**, so your system is not all or nothing
+
+Use allow-lists, not block-lists 
+
+  
+## SQL 
+
+Parametrize **SQL** queries to prevent SQL injection
+
+
+
 ## Cookies
 
 They are mainly used for managing sessions, tracking, and personalization
-
 
 Prepend with `__Host-` to restrict cookie on a specific domain (no subdomains)
 
@@ -63,13 +105,13 @@ Prepend cookies with `__Secure-` to prevent them from being overwritten.
 
 `__Host-` prefix is stricter than `__Secure`
 
-Use `Expires` header to set an expiration 
+`Expires` set an expiration 
 
-Add `Secure` header make cookies HTTPS 
+`Secure` header make cookies HTTPS 
 
-Add `HTTPOnly` header to prevent JavaScript access
+`HTTPOnly` header to prevent JavaScript access
 
-Add `SameSite` to prevent sending the cookie via cross-origin requests
+`SameSite` to prevent sending the cookie via cross-origin requests
 
 ```js
 document.cookie = "_Host-username=Jane; Secure; HttpOnly; Path=/; SameSite=Strict";
@@ -135,7 +177,7 @@ font-src 'https://fonts.googleapis.com';
 [https://stackoverflow.com/questions/tagged/security](https://stackoverflow.com/questions/tagged/security
 )
 
-a great list at [https://stackoverflow.com/questions/2794016/what-should-every-programmer-know-about-security](https://stackoverflow.com/questions/2794016/what-should-every-programmer-know-about-security
+[https://stackoverflow.com/questions/2794016/what-should-every-programmer-know-about-security](https://stackoverflow.com/questions/2794016/what-should-every-programmer-know-about-security
 )
 
 [https://stackoverflow.com/questions/1469899/worst-security-hole-youve-seen?page=1&tab=votes#tab-top](https://stackoverflow.com/questions/1469899/worst-security-hole-youve-seen?page=1&tab=votes#tab-top)
