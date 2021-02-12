@@ -18,6 +18,13 @@ layout: default
 
     <div class="section">
 
+    <h1>featured</h1>
+    <ul>
+        {% for p in site.tags.recommended %}
+            <li class="catlink"><a href="{{ p.url }}">{{ p.title }}</a></li>
+        {% endfor %}
+    </ul>
+
     <h1>categories</h1>
     <ul>
         {% for cat in sorted_cats %}
@@ -28,12 +35,7 @@ layout: default
         {% endfor %}
     </ul>
 
-    <h1>featured</h1>
-    <ul>
-        {% for p in site.tags.recommended %}
-            <li class="catlink"><a href="{{ p.url }}">{{ p.title }}</a></li>
-        {% endfor %}
-    </ul>
+ 
     
     <!-- 
         <span style="margin-left:0.5rem" class="tag is-success is-light">{{p.category | split: "/" | last }}</span>

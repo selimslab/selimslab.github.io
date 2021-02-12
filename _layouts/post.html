@@ -13,7 +13,7 @@ layout: default
   {% assign wordCount = content | number_of_words %}
   <p style="font-weight:300">{{ wordCount | plus: 300 | divided_by: 300 | append: " min read" }}</p>
   <div class="entry">
-    {{ content | newline_to_br }}
+    {{ content  }}
   </div>
 
   <a href="#" onclick="random();" class="button is-medium is-rounded is-warning">Random</a>
