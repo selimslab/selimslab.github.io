@@ -1,7 +1,7 @@
 ---
 layout: post
 title: On Problem Solving
-tags: mental-models
+tags: mind 
 category: ideas 
 ---
 
@@ -18,6 +18,8 @@ Don't panic
 start with a sanity check 
 
 ask a lot of questions
+
+<br>
 
 state the problem clearly
 

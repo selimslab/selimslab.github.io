@@ -5,7 +5,7 @@ tags: biology
 category: ideas  
 ---
 
-inspired by [Professor Robert Sapolsky's Stanford lecture on emergence and complexity.](https://youtu.be/o_ZuWbX-CyE)
+ideas from [Professor Robert Sapolsky's Stanford lecture on emergence and complexity.](https://youtu.be/o_ZuWbX-CyE)
 
 What governs the life, universe and everything? 
 

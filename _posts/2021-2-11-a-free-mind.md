@@ -3,8 +3,6 @@ layout: post
 title: A free mind, a loving heart 
 tags: philosophy 
 category: ideas 
-img: https://dam-13749.kxcdn.com/wp-content/uploads/2020/04/1-4.jpg
-img-alt: The Sea at Les Saintes-Maries-de-la-Mer by van Gogh
 ---
 
 
@@ -29,6 +27,9 @@ Feels and accepts all emotions,
 
 Balanced like a mountain, 
 
+Vast like a sea, 
+
+<img class="image" src="https://dam-13749.kxcdn.com/wp-content/uploads/2020/04/1-4.jpg">
 
 <br>
 
