@@ -5,54 +5,40 @@ tags: psychology
 category: ideas
 ---
 
-**noise -> signal -> story -> decision -> reality**
+Humans.
 
-you simplify, generalize, reduce, stereotype. 
+We jump to conclusions.
 
-you are irrational and you jump to conclusions.
+We fear what we don’t understand so we simplify, generalize, and make up a story.
 
-you find stories and patterns even in sparse data. 
+noise -> signal -> story -> decision -> reality
 
-you imagine familiar things as better
+Emotions make decisions. Reason comes later and justifies.
 
-you think you know what others are thinking but you don't
+Mistakes of others are easier to notice. Also, they did it because they are bad but you did it because of the circumstances. Isn’t it?
 
-you project your current mindset onto the past and future
+We exaggerate the future.
 
-you favor the immediate over delayed, close over distant, quick and simple over complicated and important 
+A possible bad event seems way darker, and a good one seems way brighter than it will be.
 
-you tend to keep up status quo to avoid mistakes and preserve status 
+In reality, we will neither be as happy or as miserable as we think.
 
-you notice the details that confirm your existing beliefs. 
+Do you think you know what others feel or think? You don’t.
 
-you notice what is new, different, unexpected, repeated often, or primed in memory 
+Familiar is better? Not always.
 
-you edit and reinforce some memories after the fact. 
+We believe we are better than we actually are. This feeling gets stronger as a person gets more incompetent and ignorant.
 
-environment has a large impact on your actions.
+Environment matters.
 
-you notice flaws in others more easily than flaws in yourself.
+Attention is selective. People see what they want to see. We find evidence for what we want to believe.
 
-We are bad at judging probabilities.
+Fear of losing is stronger than the hope of winning.
 
-Life is uncertain and luck plays a big role  
+We tend to do what is quick, easy, comfortable. Rather than doing what is important.
 
-First information acts as an anchor 
+The human brain loves to save energy. First information gets anchored into the mind.
 
-A third decoy option can help choosing 
-
-Rhyming sentences seem truer 
-
-People hear and accept ideas aligning with their existing beliefs 
-  
-Fear of losing is stronger than hope of winning 
-
-We remember the ends better 
-
-Curse of knowledge: when we know something, it is hard to relate to the people who don't know it  
-
-more at [cognitive-bias-cheat-sheet](https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18)
-
-also the book Thinking, Fast and Slow is great 
+It is easier to remember the end of something
 
 
