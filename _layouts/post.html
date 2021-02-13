@@ -4,20 +4,33 @@ layout: default
 
 <img class="image" src="{{ page.img }}" alt="{{page.img-alt}}" />
 
+
 <article class="section">
   <div id="main" class="container">
     <div class="column is-11 is-offset-1">
       
       <h1>{{ page.title }}</h1>
 
-  {% assign wordCount = content | number_of_words %}
-  <p style="font-weight:300">{{ wordCount | plus: 300 | divided_by: 300 | append: " min read" }}</p>
-  <div class="entry">
+      {% assign wordCount = content | number_of_words %}
+      <p style="font-weight:300">{{ wordCount | plus: 300 | divided_by: 300 | append: " min read" }}</p>
+
+      {% for tag in page.tags %}
+      <p class="tag is-warning">{{ tag }}</p>
+      {% endfor %}
+
+  <div style="margin-top:1rem" class="entry">
     {{ content }}
   </div>
 
-  <a href="#" onclick="random();" class="button is-medium is-rounded is-warning">Random</a>
+  <br>
 
+  <p style="font-weight:300">{{ page.date | date: "%B %e, %Y" }}</p>
+
+  <br>
+
+  <a href="#" onclick="random();" class="button is-medium is-danger is-rounded is-light">Roulette</a>
+
+  
   {% include comment.html %}
 
     </div>

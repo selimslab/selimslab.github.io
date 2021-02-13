@@ -10,7 +10,8 @@ A free mind is its own master,
 
 It has conquered its dark side,
 
-<br>
+<img class="image" src="https://dam-13749.kxcdn.com/wp-content/uploads/2020/04/1-4.jpg">
+
 
 a loving heart is warm like sunshine,
 
@@ -27,9 +28,6 @@ Feels and accepts all emotions,
 
 Balanced like a mountain, 
 
-Vast like a sea, 
-
-<img class="image" src="https://dam-13749.kxcdn.com/wp-content/uploads/2020/04/1-4.jpg">
 
 <br>
 

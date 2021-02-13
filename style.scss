@@ -25,7 +25,7 @@ body {
   color: $gray;
   border-top: 6px solid $turkuvaz;
   border-bottom: 6px solid $turkuvaz;
-  line-height: 1.6;
+  line-height: 1.4;
   min-height: 768px;
 }
 
@@ -36,13 +36,12 @@ body {
 
 .search{
   margin-bottom: -2rem;
-  margin-left: -1rem;
 }
+
 .section{
   padding:
    1rem 1.5rem;
 }
-
 
 .img-full{
   display: block; 
@@ -72,7 +71,7 @@ h2 {
 }
 
 p {
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.5rem;
 }
 
 strong{

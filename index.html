@@ -13,21 +13,22 @@ layout: default
         <div class="search column is-6">
             <input type="text" class="input is-rounded is-medium" id="search-input" placeholder="Search..">
             <ul style="list-style: none;" id="results-container"></ul>
-          </div>
+        </div>
     </div>
 
     <div class="section">
-
-    <ul>
-        {% for p in site.posts %}
-            <li class="catlink">
-                <a href="{{ p.url }}">{{ p.title }}</a>
-                {% for tag in p.tags %}
-                    <p style="margin-left:1rem" class="tag is-warning">{{ tag }}</p>
+        <div class="column is-8">
+            <ul>
+                {% for p in site.posts %}
+                    <li class="catlink">
+                        <a href="{{ p.url }}">{{ p.title }}</a>
+                    </li>
                 {% endfor %}
-            </li>
-        {% endfor %}
-    </ul>
+            </ul>
+
+            <a href="#" onclick="random();" class="button is-danger is-rounded is-light">Roulette</a>
+
+        </div>
 
 
     </div>
