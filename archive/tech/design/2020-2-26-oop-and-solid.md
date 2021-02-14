@@ -13,9 +13,15 @@ category: tech
 
 **Inheritance**, is-a relationships, for example Mars <b>is a</b> planet so Mars can inherit from Planet 
 
-**Polymorphism**, many forms, enables to use the same method name for many purposes, having multiple implementations for a single interface, or making behavior dynamic 
+**Polymorphism**, many forms, 
 
-Many different classes could have a method with the same name but with a different implementation. 
+enables to use the same method name for many purposes, 
+
+having multiple implementations for a single interface, or making behavior dynamic 
+
+Many different classes could have a method with the same name 
+but with a different implementation. 
+
 With polymorphism, every class will execute its correct method. 
  
 Could be done using method overloading or inheritance+overriding
@@ -27,7 +33,13 @@ Could be done using method overloading or inheritance+overriding
 
 **Open/closed principle,** Classes should be open for extension but closed for modification
 
-**Liskov’s Substitution Principle**, If you change a class with one of its children, the program should still work correctly. So child classes should not violate the contracts of parents. Inheritances should pass the ‘Is-A’ test. 
+**Liskov’s Substitution Principle**, If you change a class with one of its children, 
+
+the program should still work correctly. 
+
+So child classes should not violate the contracts of parents. 
+
+Inheritances should pass the ‘Is-A’ test. 
 
 **Interface Segregation Principle**, Many specific interfaces are better than one general interface
 

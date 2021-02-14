@@ -5,7 +5,9 @@ tags: software
 category: tech 
 ---
 
-Design Patterns are general solutions to common problems. They are not silver bullets 
+General solutions to common problems. 
+
+They are not silver bullets 
 
 
 ## Creational
