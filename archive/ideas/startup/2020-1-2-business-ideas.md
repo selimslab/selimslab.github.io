@@ -21,8 +21,7 @@ Make something people want
 
 If you can’t convince
 yourself first,
-then change what you’re
-doing
+then change what you’re doing
 
 Dont look for ideas, just work on things that you find genuinely interesting 
 

@@ -21,11 +21,11 @@ html {
 body {
   height:100%;
   background: #fffcfc;
-  font: 18px/1.4 $helveticaNeue;
+  font: 18px/1.6 $helveticaNeue;
   color: $gray;
   border-top: 6px solid $turkuvaz;
   border-bottom: 6px solid $turkuvaz;
-  line-height: 1.4;
+  line-height: 1.6;
   min-height: 768px;
 }
 
@@ -34,13 +34,10 @@ body {
   margin-top: 1rem;
 }
 
-.search{
-  margin-bottom: -2rem;
-}
 
 .section{
   padding:
-   1rem 1.5rem;
+   1rem 1.5rem 1rem;
 }
 
 .img-full{
@@ -48,6 +45,7 @@ body {
   max-width: 100%;
   height: auto;
 }
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
