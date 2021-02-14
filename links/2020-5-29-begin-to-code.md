@@ -6,8 +6,6 @@ category: tech
  
 ---
 
-![](https://images.unsplash.com/photo-1584907797015-7554cd315667?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1655&q=80)
-
 
 
 ## short resources to take a quick look 

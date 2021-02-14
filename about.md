@@ -12,7 +12,7 @@ I am Selim, writing here to remember and to share.
 
 <a href="https://www.youtube.com/channel/UCGn05il3FxxvSrGeF2B0OrA/playlists" target="_blank">Youtube </a>
 
-<a href="https://open.spotify.com/playlist/0fg1mN68qfYnPphfmfHAez?si=e7vxNG4iQImGmOYz48rzBw" target="_blank">Spotify</a>
+<a href="https://open.spotify.com/user/hselimozturk" target="_blank">Spotify</a>
 
 <a href="/resume">Resume</a>
 

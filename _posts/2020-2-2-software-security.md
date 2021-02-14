@@ -29,7 +29,9 @@ Never trust any input, always **validate**, always **sanitize**
 
 Libraries and network calls are attack vectors.
 
-Use well-known tried and tested libraries only and keep your libraries up to date 
+Use well-known tried and tested libraries only 
+
+and keep your libraries up to date 
 
 <br>
 
@@ -55,13 +57,21 @@ Write exploit code to test your patches
   
 **Don't try to roll your own** security solutions, it's a community effort 
 
-**Log** suspicious activity like failed login attempts,invalid input, statistically rare or unexpected events 
+**Log** suspicious activity,
+ 
+ like failed login attempts, 
+
+ invalid input, 
+ 
+ statistically rare or unexpected events 
 
 <br>
 
 Avoid security through obscurity 
 
-Do not hide secrets in code, make sure they won't end up in public repos 
+Do not hide secrets in code, 
+
+make sure they won't end up in public repos 
 
 <br>
 
@@ -134,6 +144,7 @@ Use `SameSite` header to forbid sending the cookie via cross-origin requests
 an origin is a tuple of protocol:host:port
 
 `Access-Control-Allow-Origin: https://x.com:8081`  only the specified origin can access  
+
 `Access-Control-Allow-Origin: *` every origin can access
 
 By default, browser XMLHttpRequest or fetch APIs allows same-origin only 
@@ -153,9 +164,13 @@ It is injecting malicious code into a website so user's browser executes it
 
 To prevent, validate and encode. For example `<script>` would be encoded as `&lt;script&gt;`
 
-Set `Content Security Policy` header so the browser will run only allow the white-listed scripts and assets 
+Set `Content Security Policy` header 
 
-By using CSP to disable inline JavaScript, you can effectively eliminate almost all XSS attacks against your site.
+so the browser will run only allow the white-listed scripts and assets 
+
+By using CSP to disable inline JavaScript, 
+
+you can effectively eliminate almost all XSS attacks against your site.
 
 Disabling inline JavaScript means that all JavaScript must be loaded from script src tags 
 
