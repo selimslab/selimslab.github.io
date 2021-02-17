@@ -29,15 +29,13 @@ Never trust any input, always **validate**, always **sanitize**
 
 Libraries and network calls are attack vectors.
 
-Use well-known tried and tested libraries only 
+Use well-known tried and tested libraries only, 
 
-and keep your libraries up to date 
+and keep them updated 
 
 <br>
 
-No system is 100% secure, security is an example of "unknown unknowns"
- 
-Consider all cases, allow, disallow, exception
+use **HTTPS**, don't allow HTTP access to secure pages
 
 <br>
 
@@ -56,6 +54,8 @@ Write exploit code to test your patches
 <br>
   
 **Don't try to roll your own** security solutions, it's a community effort 
+
+<br>
 
 **Log** suspicious activity,
  
@@ -77,8 +77,15 @@ make sure they won't end up in public repos
 
 Be aware of buffer overflow attacks 
 
-use **HTTPS**, don't allow HTTP access to secure pages
+<br>
 
+Consider all cases, allow, disallow, exception
+
+<br>
+
+No system is 100% secure, security is an example of "unknown unknowns"
+ 
+ 
 
 ## authentication
 
@@ -102,7 +109,6 @@ Use allow-lists, not block-lists
 ## SQL 
 
 Parametrize **SQL** queries to prevent SQL injection
-
 
 
 ## Cookies
@@ -129,9 +135,19 @@ document.cookie = "_Host-username=Jane; Secure; HttpOnly; Path=/; SameSite=Stric
 
 ## Cross-site request forgery CSRF 
 
-CSRF is forgery of a valid request. It is possible to forge a fake request if the only mechanism to track user session is a cookie and all request parameters predictable
+CSRF is forgery of a valid request.
 
-To prevent it, we need at least one unpredictable parameter, a CSRF token. This token is a large random value, unique per user & per user session. Make sure your forms have CSRF tokens. 
+It is possible to forge a fake request if 
+1. the only mechanism to track user session is a cookie,
+2. all request parameters predictable
+
+To prevent it, we need at least one unpredictable parameter, a CSRF token. 
+
+This token is a large random value, unique per user & per user session. 
+
+Make sure your forms have CSRF tokens. 
+
+<br>
 
 CSRF tokens should not be sent within cookies. 
 
@@ -168,11 +184,9 @@ Set `Content Security Policy` header
 
 so the browser will run only allow the white-listed scripts and assets 
 
-By using CSP to disable inline JavaScript, 
+By using CSP to disable inline JavaScript, you can effectively eliminate almost all XSS attacks against your site.
 
-you can effectively eliminate almost all XSS attacks against your site.
-
-Disabling inline JavaScript means that all JavaScript must be loaded from script src tags 
+Disabling inline JavaScript means that all JavaScript must be loaded from script src tags.
 
 an example CSP response header 
 
