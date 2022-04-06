@@ -1,9 +1,6 @@
 ---
 layout: post
-title:  Start coding
-tags: links
-category: tech
- 
+title: Start coding today 
 ---
 
 
@@ -39,10 +36,7 @@ Python is beginner friendly and simple. C is also good
 learn basic terminal commands. ls, cd, mv, top, mkdir, touch, cat, sort, grep, rm 
 
 learn basics of git. add, commit, push, pull request
-
-read on programming paradigms. procedural, imperative, declerative, object oriented,functional  
    
-
 ## speak in data
 
 [interactive SQL lessons](https://sqlbolt.com/)
@@ -54,7 +48,7 @@ read on programming paradigms. procedural, imperative, declerative, object orien
 Get some algorithms practice with [Leetcode's top-100 liked easy collection](https://leetcode.com/problemset/top-100-liked-questions/?difficulty=Easy)
 
 
-more
+## more
 
 [Teach Yourself Computer Science](https://teachyourselfcs.com/)
 
