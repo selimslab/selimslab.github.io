@@ -1,24 +1,12 @@
-## a clean blogging and mindmap system 
+## a minimal blogging and mindmap system 
  
-minimal code
+## how to run
 
-categories and subcats
-
-search 
-
-backlinks 
-
-analytics 
-
-comments 
-
-## run 
-
-download or clone the repo
+Clone the repo
 
 `gem install bundler jekyll`
 
-bundle exec jekyll serve
+`bundle exec jekyll serve`
 
 ## how to make your own site
 
