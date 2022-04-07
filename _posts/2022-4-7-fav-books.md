@@ -1,32 +1,20 @@
 ---
 layout: post
-title:  Some favorite books and authors
+title:  Some favorite authors
 ---
 
 
-Enchiridion, Epictetus 
+Lao Tzu
 
-Tao te ching, Lao Tzu 
+Epictetus
 
-Meditations, Aurelius 
-
-Don Quixote, Cervantes 
-
-The overcoat, gogol 
-
-Prince, Machiavelli
-
-Anne Frank’s diary 
-
-Men’s search for meaning, frankl 
-
-Sapiens
-
-The little prince 
-
-—- 
+Marcus Aurelius
 
 Seneca 
+
+Cervantes
+
+Gogol
 
 Homer  
 
@@ -56,6 +44,10 @@ Schopenhauer
 
 Chomsky 
 
+Anne Frank
+
+Viktor Frankl
+
 Kafka
 
 Sartre
@@ -66,21 +58,11 @@ Sagan
 
 Orwell 
 
+Machiavelli
+
 Camus 
 
-The lessons of history, Durant 
-
-
-—-- 
-
-Tech 
-
-Intro to statistical learning 
-
-Designing data intensive 
-
-OS remzi & andrea 
-
+Antoine de Saint-Exupéry
 
 
 
