@@ -33,6 +33,8 @@ We can't read minds
 
 We see what we want to see, believe what we want to believe 
 
+Tell people what they want to hear and you can be wrong indefinitely without penalty
+
 Emotions make decisions. Reason comes later and justifies.
 
 ---
@@ -46,5 +48,13 @@ It won't be as good as you hope, neither as bad as you fear
 Familiar seems better, often it's not 
 
 ---
+
+People like you more than you know 
+
+People think about you waaay less than you believe 
+
+---
+
+ 
 
 Because we are human 

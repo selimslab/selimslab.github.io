@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Emotions   
+title:  On emotions   
 ---
 
 Emotions are signals, nuanced and valuable 

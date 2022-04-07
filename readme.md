@@ -6,7 +6,7 @@ Clone the repo
 
 `gem install bundler jekyll`
 
-`bundle exec jekyll serve`
+bundle exec jekyll serve
 
 ## how to make your own site
 
