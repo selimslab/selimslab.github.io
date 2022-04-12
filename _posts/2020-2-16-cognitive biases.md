@@ -3,11 +3,7 @@ layout: post
 title:  Cognitive Biases   
 ---
 
-You and me
 
-We are human 
-
----
 
 Environment affects us more than we suspect
 
@@ -61,8 +57,3 @@ People like you more than you know
 
 People think about you way less than you believe 
 
----
-
- 
-
-Because we are human 
