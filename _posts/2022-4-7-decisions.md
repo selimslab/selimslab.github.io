@@ -3,6 +3,16 @@ layout: post
 title:  On decisions   
 ---
 
+
+We rarely think on why we do what we do. 
+
+We make even major decisions with little forethought. 
+
+Yet a little forethought can prevent a lot of pain later. 
+
+
+---
+
 TLDR 
 
 1. Go through a process with people you respect
@@ -40,4 +50,10 @@ Go through a process with people you respect
 No by default, if you can't decide, the answer is no 
 
 “When there is doubt, there is no doubt.”
+
+Sleep on decisons 
+
+Don't be indecisive but not too certain either
+
+Build a broad margin of error into your moves
 

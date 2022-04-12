@@ -57,3 +57,31 @@ People like you more than you know
 
 People think about you way less than you believe 
 
+---
+
+Human Nature and Judgment
+1. Trust
+2. Bias from Incentives
+3. Pavlovian Association
+4. Tendency to Feel Envy & Jealousy
+5. Tendency to Distort Due to Liking Loving or Disliking/Hating
+6. Denial
+7. Sunk Cost
+8. Anchoring
+9. Availability Heuristic
+10. Tendency to Stereotype
+11. Failure to learn from the past
+12. Social Proof (Safety in Numbers)
+13. Narrative Instinct -> Stories run the world
+14. Curiosity
+15. First-Conclusion Bias
+16. Tendency to Overgeneralize from Small Samples
+17. Relative Satisfaction/Misery Tendencies
+18. Commitment & Consistency Bias
+19. Hindsight Bias
+20. Sensitivity to Fairness
+21. Tendency to Overestimate Consistency of Behavior (Fundamental Attribution Error)
+22. Survivorship Bias
+23. Influence of Stress (Including Breaking Points)
+24. Tendency to Want to Do Something (Fight/Flight, Intervention, Demonstration of Value, etc.)
+25. Falsification / Confirmation Bias

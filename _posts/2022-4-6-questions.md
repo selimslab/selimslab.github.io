@@ -49,4 +49,30 @@ What can I do today, that would make tomorrow better?
 
 What seems like work to other people that doesn't seem like work to you?
 
+---
 
+Disregard the constraints. 
+
+What would I do if couldn't fail? 
+
+If money were not a concern?
+
+What if I knew I would die this year? 
+
+---
+
+* what am I anxious about ? 
+* what am I upset about ? 
+* what am I excited about ? 
+
+---
+
+what would you do if you could not fail?
+
+if there is no money?
+
+if you had infinite time? 
+
+if you weren't afraid?
+
+if all jobs paid the same?
