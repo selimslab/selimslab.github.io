@@ -3,6 +3,7 @@ layout: post
 title:  Entrepreneurship    
 ---
 
+- [](#)
 - [What people want?](#what-people-want)
 - [Focus](#focus)
 - [The user](#the-user)
@@ -13,10 +14,32 @@ title:  Entrepreneurship
 - [Sales](#sales)
 - [Growth ingredients](#growth-ingredients)
 - [Test](#test)
+- [Product](#product)
+- [Delegation](#delegation)
+- [Product press release](#product-press-release)
+- [Scrum](#scrum)
 
 
+
+> What are the most important problems in your field, 
+> 
+> and why aren’t you working on them?
+> 
+> Richard Hamming 
+
+
+## What to work on?
 
 What seems like work to other people that doesn't seem like work to you?
+
+Play a game where the odds are in your favour 
+
+What is like fun to me but work to others?
+
+What makes me lose track of time?
+
+What comes naturally to me?
+
 
 
 ## What people want?
@@ -70,6 +93,10 @@ People want what others want at surface levels but they want same things at the 
 - Interesting
 
 
+"People don’t buy products because of what those products do, they buy products because of what they imagine they can do   with them.”
+
+
+
 ## Focus 
 
 Focus on what you need to get right and stop worrying for other things
@@ -78,8 +105,15 @@ Focus on what you need to get right and stop worrying for other things
 
 ## The user 
 
+You are not your user 
+
+Don't confuse yourself with your customer
+
+---
 
 Who are the most passionate buyers -> Go meet them 
+
+> 20% of customers 80% of revenue
 
 What do they need -> user interview -> what to ask? -> a story about a recent and specific experience
 
@@ -125,10 +159,15 @@ Do not tell, show
 1. Talk about their life instead of your idea
 2. Ask about specifics in the past, not about generics in the future
 3. Talk less and listen more
-Its not personal, not about you, its about their lives and problems 
+4. Its not personal, not about you, its about their lives and problems 
 
-Keep it casual, thank for compliments, and move on Ask questions, take notes, finish with clear action items 
+Keep it casual
 
+Thank for compliments, and move on 
+
+Ask questions, take notes
+
+Finish with clear action items 
 
 
 
@@ -160,8 +199,10 @@ Dont look for ideas, just work on things that you find genuinely interesting
 
 You’ll be most successful where you’re most intensely interested.
 
-Creativity is just connecting things. Creative people feel a little guilty because they just saw something obvious. - Steve Jobs
+> “Start with a sketch, but make it quick. There’s real work to be done.” – Stefan Hartwig
 
+
+[The surprising habits of original thinkers](https://www.youtube.com/watch?v=fxbCHn6gE3U)
 
 ## Choose the mountain 
 
@@ -187,13 +228,26 @@ You package it in a unique sales proposition
 
 ## Sales
 
+Build trust, identify pain, sell results
+
+---
+
+
 First of all, sell something you’re passionate about. 
 
 Break the ice, make a genuine connection, build trust
 
 Understand your audience and their needs, identify pain
 
-Don’t sell. Help. Show that you are here to understand and serve their needs, to help them achieve their goals. Be honest about your product. Know where you stand. Be aware of how your product compares to others on the market, and be able to make a case for yours.
+Don’t sell. Help. 
+
+Show that you are here to understand and serve their needs, to help them achieve their goals. 
+
+Be honest about your product. 
+
+Know where you stand. 
+
+Be aware of how your product compares to others on the market, and be able to make a case for yours.
 
 Sell results. Show how your product's characteristics relevant to customer's motivations
 
@@ -227,3 +281,171 @@ Take the best and spread it around, spread subtlety and quality
 ## Breaking bad news
 
 It’s best to take a straightforward approach. Direct, factual, and empathetic
+
+## Product 
+
+What is the goal of the product?
+
+Who is the customer?
+
+What is the business model for the product?
+
+How should we price the product?
+
+What are the primary features and use cases?
+
+How do we define success and what metrics can we use to track the product?
+
+What are the competitive dynamics and how should we position the product against competitors?
+
+How will the product differentiate?
+
+What are some key distribution channels?
+
+## Delegation 
+  
+
+- Is it a discrete chunk of work?
+- Does the person have the skills, authority, and tools to be successful?
+- Are the timeline, budget, and other constraints are clear?
+- Is this work too risky to delegate?
+
+
+## Product press release
+
+Amazon approach, thinking of a press release before working on a product
+
+Here's an example outline 
+
+* Heading - Name the product in a way the reader (i.e. your target customers) will understand.
+* Sub-Heading - Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+* Summary - Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+* Problem - Describe the problem your product solves.
+* Solution - Describe how your product elegantly solves the problem.
+* Quote from You - A quote from a spokesperson in your company.
+* How to Get Started - Describe how easy it is to get started.
+* Customer Quote - Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+* Closing and Call to Action - Wrap it up and give pointers where the reader should go next.
+
+
+## Scrum
+
+Sprints: Build software incrementally and iteratively. Deliver working features so you can get customer feedback early and often.
+
+User Stories: Write down ideas to work on and prioritize them. Defer figuring out the details (when this is responsible) because you’ll know more later.
+
+Meetings: Regularly talk as a team about what is going on.
+
+Reviews: Regularly show people what you are building to get feedback.
+
+Retros: Regularly discuss how you can work better as a team.
+
+Product Owner: Have someone who has the knowledge, authority, and availability to prioritize features.
+
+Scrum Master: Have someone focused on process improvement and coordination. This person should ask questions and employ 
+coaching. They should not give orders.
+
+
+
+## Perception 
+
+What matters is how people perceive your work. How good do they think your work is?
+
+
+
+## In writing or didn't happen 
+
+not in an email  ->  "never happened" when it's convenient.
+
+verbally agreed -> send a confirmation email
+
+The written record assures there is a clear and agreed understanding of when the project is a success and how it aims to get there.
+
+
+## lack of momentum -> burnout
+
+Founders and employees that are burn out nearly always work at startups without momentum. It’s hard to overstate how demoralizing it is.
+
+
+
+
+## How to pitch
+
+1. enemy
+2. why now 
+3. promised land
+4. obstacles/ how to get over
+5. present evidence
+
+
+## Can I work until 40 and then quit to enjoy?
+
+You might start on US$100k, but at 40 you could be on $2m. You’re going to walk away from that?
+
+It won't happen.
+
+Money is an addiction that grabs your soul tight, and it doesn’t let go.
+
+You never have enough.
+
+> Eliminate + Automate + Delegate + Procrastinate + Concentrate
+
+> “If all you have to sell is your time, you’ll never get ahead. Figure out a way to make money even when you’re sleeping if you want to be successful.”
+
+
+
+---
+
+under promise over deliver
+
+## Risk 
+
+Managers are often risk averse. This is because in most companies, creating a large gain for the company will lead to modest rewards...while creating an equal-sized loss will get you fired.
+
+
+## Transparency
+
+The more information you share internally—good and bad—the better you’ll be.
+
+
+## Don't take yourself too seriously 
+
+No one cares about you. So you should quit focusing on impressing other people.
+
+
+## Hiring 
+
+Hire smart and kind people with potential
+
+Agree with crystal clarity on the deliverables
+
+Empower your employees and get out of their way 
+
+## Have soft deadlines
+
+The quality of the product is more important than the time it takes to achieve it.
+
+## Careers take care of themselves
+
+If you have skills, commitment and passion, careers tend to take care of themselves.
+
+
+## How to solve a business case?
+
+
+- Define a hypothesis
+- Divide different aspects of the problem to mutually exclusive parts, an analysis tree
+- Analyze the tree, refining and revisiting the hypothesis as necessary 
+- Synthesize your results 
+- Communicate the results as clear actionable insights 
+
+  Conclusion & Action
+
+    - Reason 1
+    - Reason 2
+    - Reason 3
+
+  Conclusion & Action
+​ 
+
+
