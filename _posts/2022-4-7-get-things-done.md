@@ -4,6 +4,8 @@ title:  How to get things done?
 ---
 
 
+Define what you want because a weak definition means a bad outcome
+
 You need a lot of mistakes for a few good moves, a lot bad ideas for a few good ideas. Do not fear making mistakes, do not regret mistakes, you are growing a mistake at a time 
 
 The more you do it, the better you get. Sheer volume of music produced is a good predictor for composer success. 
