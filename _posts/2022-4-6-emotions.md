@@ -19,6 +19,10 @@ We can choose not to be swayed by our emotions
 
 Just feel and let go 
 
+---
 
+The root of fear is a perceived threat, real or imaginary 
 
+It is often fear under anxiety, anger, and hate 
 
+Anger and hate inflame each other, and lead to suffering

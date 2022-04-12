@@ -27,6 +27,8 @@ We believe we are better than we actually are
 
 We jump to conclusions, judge, and oversimplify 
 
+We choose what is familiar over unfamiliar 
+
 ---
 
 We can't read minds
@@ -49,9 +51,15 @@ Familiar seems better, often it's not
 
 ---
 
+Rich man in the car paradox. 
+
+Earned success and deserved failure fallacy
+
+---
+
 People like you more than you know 
 
-People think about you waaay less than you believe 
+People think about you way less than you believe 
 
 ---
 
