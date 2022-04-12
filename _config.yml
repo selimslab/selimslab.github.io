@@ -6,7 +6,7 @@
 name: waves
 
 # Short bio or description (displayed in the header)
-description: all flows 
+description: a flow of ideas   
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/The_Great_Wave_off_Kanagawa.jpg/320px-The_Great_Wave_off_Kanagawa.jpg
@@ -46,7 +46,7 @@ kramdown:
 
 # Set the Sass partials directory, as we're using @imports
 sass:
-  style: :expanded # You might prefer to minify using :compressed
+  style: :compressed # You might prefer to minify using :compressed
 
 # Use the following plug-ins
 gems:
