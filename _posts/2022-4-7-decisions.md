@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  On decisions   
+title: Decisions 
 ---
 
 

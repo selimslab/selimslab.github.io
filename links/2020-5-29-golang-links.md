@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Golang links 
+title: Golang links 
 tags: links
 category: tech
 --- 

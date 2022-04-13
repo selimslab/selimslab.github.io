@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Distributed Systems Links 
+title: Distributed Systems Links 
 tags: links
 category: tech
 --- 

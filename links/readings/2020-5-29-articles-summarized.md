@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Articles distilled 
+title: Articles distilled 
 tags: links
 category: tech
 --- 

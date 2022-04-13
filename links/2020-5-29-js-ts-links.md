@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  JS/TS links
+title: JS/TS links
 tags: links
 category: tech
 --- 

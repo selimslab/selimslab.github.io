@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  How to get things done?   
+title: How to get things done?   
 ---
 
 

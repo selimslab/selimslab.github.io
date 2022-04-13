@@ -1,6 +1,6 @@
 ---
 layout: post
-title: On mental models 
+title: Mental models 
 ---
 
 Invert

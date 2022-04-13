@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tools
+title: Tools
 tags: links
 category: tech
 --- 

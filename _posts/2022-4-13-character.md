@@ -1,6 +1,6 @@
 ---
 layout: post
-title: On character 
+title: Character 
 ---
 
 Real growth is building character, striving to improve in generosity, integrity, humility, fairness, or courage.

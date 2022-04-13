@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Some questions  
+title: Some questions  
 ---
 
 How do I feel?

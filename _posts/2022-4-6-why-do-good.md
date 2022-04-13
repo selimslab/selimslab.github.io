@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Why do good?   
+title: Why do good?   
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Online Courses
+title: Online Courses
 tags: links
 category: tech
 --- 

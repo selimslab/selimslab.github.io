@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  How to be unhappy?
+title: How to be unhappy?
 ---
 
 

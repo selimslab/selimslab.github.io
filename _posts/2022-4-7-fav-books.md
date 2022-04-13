@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Some favorite authors
+title: Some favorite authors
 ---
 
 

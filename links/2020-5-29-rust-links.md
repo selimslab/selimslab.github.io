@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Rust links
+title: Rust links
 tags: links
 category: tech
 --- 

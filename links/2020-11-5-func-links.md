@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Functional programming links 
+title: Functional programming links 
 tags: links
 category: tech
 --- 

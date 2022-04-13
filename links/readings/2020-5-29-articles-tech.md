@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  A curated list of tech articles 
+title: A curated list of tech articles 
 tags: links
 category: tech
 --- 

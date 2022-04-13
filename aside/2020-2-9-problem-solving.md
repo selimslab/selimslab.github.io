@@ -1,6 +1,6 @@
 ---
 layout: post
-title: On Problem Solving
+title: Problem Solving
 tags: mind 
 category: ideas 
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: On happiness  
+title: Happiness  
 ---
 
  "To be satisfied on all occasions, and be cheerful." 

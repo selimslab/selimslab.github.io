@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Cognitive Biases   
+title: Cognitive Biases   
 ---
 
 

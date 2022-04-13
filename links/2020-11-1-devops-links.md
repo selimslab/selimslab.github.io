@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  DevOps links 
+title: DevOps links 
 tags: links
 category: tech
 --- 

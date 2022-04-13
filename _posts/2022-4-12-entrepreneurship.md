@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Entrepreneurship    
+title: Entrepreneurship    
 ---
 
 - [](#)
