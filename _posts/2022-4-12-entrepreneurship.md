@@ -214,7 +214,7 @@ Dont look for ideas, just work on things that you find genuinely interesting
 
 You’ll be most successful where you’re most intensely interested.
 
-> “Start with a sketch, but make it quick. There’s real work to be done.” – Stefan Hartwig
+> “Start with a sketch, but make it quick. There’s real work to be done.” 
 
 
 [The surprising habits of original thinkers](https://www.youtube.com/watch?v=fxbCHn6gE3U)

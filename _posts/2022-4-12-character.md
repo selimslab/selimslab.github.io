@@ -17,19 +17,10 @@ Never be afraid to raise your voice for honesty and truth and compassion against
 
 ― William Faulkner
 
----
+Never be bullied into silence. Never allow yourself to be made a victim. Accept no one’s definition of your life; define yourself.
 
-Overthinking is a waste of time. Regrets and worry doesn't make it one bit better 
 
-Nothing is done without daring 
-
-Trust yourself. You know more than you think you do.
-
-Trust yourself, you are more capable than you think
-
-Live to the point of tears.
-
----
+## Dare to think for yourself 
 
 We are searching for wisdom in books and talks. 
 
@@ -39,17 +30,28 @@ Your own reflection on your latest anger will provide you more insight than some
 
 Similar with the other emotions and human condition. 
 
-You have already a lot of experience, 
-your own life is full of insight. 
+You have already a lot of experience, your own life is full of insight. 
 
-Dare to think for yourself. 
+Trust yourself, you are more capable than you think
+
 
 Whoever fights monsters should see to it that in the process he does not become a monster. And if you gaze long enough into an abyss, the abyss will gaze back into you.
 
-Never be bullied into silence. Never allow yourself to be made a victim. Accept no one’s definition of your life; define yourself.
 
 
 
+## Dare to live 
+
+Trust yourself. You know more than you think you do.
+
+
+Was Du erlebst, kann keine Macht der Welt Dir rauben. 
+(What you have experienced, no power on earth can take from you.) 
+
+
+Nothing is done without daring 
+
+Live to the point of tears
 
 ## Humility 
 
@@ -156,18 +158,29 @@ You don’t have to be perfect, good enough is good
 Get one bit better, keep walking
 
 
----
+## Be a friend to yourself
 
 You deserve your love and affection
 
-Some good heuristics for life:
-- treat everyone a little better than you want to be treated
-- listen more than you speak
-- give more praise than criticism
-- create and contribute more than you consume
-- try to leave things a little better than you found them
 
-When someone shows you who they are believe them; the first time.
+## Some good heuristics for life:
 
-Was Du erlebst, kann keine Macht der Welt Dir rauben. 
-(What you have experienced, no power on earth can take from you.) 
+treat everyone a little better than you want to be treated
+
+listen more than you speak
+
+give more praise than criticism
+
+create and contribute more than you consume
+
+try to leave things a little better than you found them
+
+## Thoughtful 
+
+Words are irreversible
+
+Think twice before you speak
+
+Be careful with promises
+
+

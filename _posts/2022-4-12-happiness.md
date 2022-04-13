@@ -33,6 +33,7 @@ May it be a light to you in dark places, when all other lights go out.
 You never know what worse luck your bad luck has saved you from.
 
 
+
 ## It will pass 
 
 Even the darkest night will end and the sun will rise.
@@ -124,6 +125,8 @@ In the long run, optimism is the best prevention for regret
 
 Be a friend to yourself
 
+You deserve your love and affection
+
 ## Pleasant surprises
 
 The finest of pleasures are the unexpected ones.
@@ -139,5 +142,8 @@ The unhappiest people in this world, are those who care the most about what othe
 Never waste valuable time, or mental peace of mind, on the affairs of others—that is too high a price to pay.
 
 
+## Wealth
+
+Wealth brings happiness by giving it away
 
 
