@@ -5,6 +5,18 @@ title: Emotions
 
 Emotions are signals, nuanced and valuable 
 
+Pleasure and pain comes together 
+
+## Blame 
+
+We blame ourselves but most things are so random. Be suspicious of success and gentle on ourselves in failure. Much of what we get, we don't deserve 
+
+## Masking 
+
+Anger might mask fear
+
+Bitterness might mask envy 
+
 ## Emotions are contagious
 
 Put sunshine, get sunshine 
@@ -17,10 +29,17 @@ We can choose not to be swayed by our emotions
 
 ## Anger 
 
+Anger is the collision of hope and reality. 
+
+Something has to be both sad and unexpected to cause anger. If you expect anything, nothing makes you much angry
+
 Often hides something else, like shame or fear 
 
 Slow to anger, quick to calm
 
+The longer I live, the more I observe that carrying around anger is the most debilitating to the person who bears it.
+
+Why should we feel anger at the world? As if the world would notice.
 
 ## Fear 
 
@@ -52,9 +71,18 @@ Getting specific enables you to replace envy with understanding.
 
 You’ll get it when you no longer want it.
 
+
+Attachment and craving cause suffering. 
+
+To discard craving, train the mind to experience reality as it is. 
+
+Pain is inevitable, suffering is optional 
+
 ## Hope 
 
 I'd rather be an optimist and wrong than a pessimist and right.
 
 Hope yet remember that hope is not a strategy 
+
+
 

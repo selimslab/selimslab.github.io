@@ -3,6 +3,8 @@ layout: post
 title: Friendship
 ---
 
+ A true friend is someone who you care as much as yourself. Their joy is yours and their sorrow too 
+ 
 Respect and trust. 
 
 Both elements have to be there. And it has to be mutual.
@@ -18,3 +20,8 @@ Walk beside me… just be my friend
 
 Count your age by friends, not years. 
 
+---
+
+We don't need money, romance, or luxury.  What we really want is calm, understanding, respect, appreciation.  
+
+Friendships are so rewarding. 

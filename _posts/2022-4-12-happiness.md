@@ -147,3 +147,18 @@ Never waste valuable time, or mental peace of mind, on the affairs of others—t
 Wealth brings happiness by giving it away
 
 
+## How can a society have eudaimonia? 
+
+better childhoods
+
+better role models
+
+courage
+
+self-control
+
+reasonableness
+
+independence
+
+calm

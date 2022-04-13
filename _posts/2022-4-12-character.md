@@ -5,7 +5,7 @@ title: Character
 
 Real growth is building character, striving to improve in generosity, integrity, humility, fairness, or courage.
 
-
+Aristotle believed moral goodness is a habit, and it takes time and practice. 
 
 ## Courage 
 
@@ -91,6 +91,7 @@ Imagine sincerely, what you believe might be wrong.
 
 in 100 years, there will be no one to remember you 
 
+Astronomy is humbling and corrects the perspective
 
 ## Integrity 
 
