@@ -15,7 +15,7 @@ category: tech
 [edX Courses - View all online courses on edX.org](https://www.edx.org/search?tab=program)
 
 
-[Introduction to Machine Learning  -  Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/ml-intro)
+[Introduction to Machine Learning  -  Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/ml-intro)
 
 [fast.ai · Making neural nets uncool again](https://www.fast.ai/)
 
@@ -42,7 +42,7 @@ category: tech
 [An intensive introduction to Cryptography](https://intensecrypto.org/public/)
 
 
-## data engineering 
+## data engineering 
 
 https://awesomedataengineering.com/
 

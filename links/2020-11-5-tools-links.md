@@ -38,7 +38,7 @@ category: tech
 [Nomad by HashiCorp](https://www.nomadproject.io/)
 
 
-## Data sources
+## Data sources
 
 [Google Trends](https://trends.google.com/trends/?geo=TR)
 

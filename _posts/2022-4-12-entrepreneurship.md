@@ -3,7 +3,7 @@ layout: post
 title: Entrepreneurship    
 ---
 
-- [](#)
+- [What to work on?](#what-to-work-on)
 - [What people want?](#what-people-want)
 - [Focus](#focus)
 - [The user](#the-user)
@@ -13,11 +13,26 @@ title: Entrepreneurship
 - [Unique value](#unique-value)
 - [Sales](#sales)
 - [Growth ingredients](#growth-ingredients)
+- [Start from the closest](#start-from-the-closest)
 - [Test](#test)
+- [Direction](#direction)
+- [Breaking bad news](#breaking-bad-news)
 - [Product](#product)
 - [Delegation](#delegation)
 - [Product press release](#product-press-release)
 - [Scrum](#scrum)
+- [Perception](#perception)
+- [In writing or didn't happen](#in-writing-or-didnt-happen)
+- [lack of momentum -> burnout](#lack-of-momentum---burnout)
+- [How to pitch](#how-to-pitch)
+- [Can I work until 40 and then quit to enjoy?](#can-i-work-until-40-and-then-quit-to-enjoy)
+- [Risk](#risk)
+- [Transparency](#transparency)
+- [Don't take yourself too seriously](#dont-take-yourself-too-seriously)
+- [Hiring](#hiring)
+- [Have soft deadlines](#have-soft-deadlines)
+- [Careers take care of themselves](#careers-take-care-of-themselves)
+- [How to solve a business case?](#how-to-solve-a-business-case)
 
 
 
@@ -264,7 +279,7 @@ Don't push it. Speak a minute and see if they are interested
 4. Network Effects
 5. Brand
 
-## Start from the closest 
+## Start from the closest 
 
 Your family is broken but you’re going to fix the world?
 
@@ -272,13 +287,13 @@ Your family is broken but you’re going to fix the world?
 
 One test is worth a thousand expert opinions.
 
-## Direction
+## Direction
 
 Going fast in the wrong direction is not productivity. Think more about what to work on.
 
 Take the best and spread it around, spread subtlety and quality
 
-## Breaking bad news
+## Breaking bad news
 
 Nothing is faster than light, except bad news
 
@@ -332,19 +347,19 @@ Here's an example outline
 
 ## Scrum
 
-Sprints: Build software incrementally and iteratively. Deliver working features so you can get customer feedback early and often.
+Sprints: Build software incrementally and iteratively. Deliver working features so you can get customer feedback early and often.
 
-User Stories: Write down ideas to work on and prioritize them. Defer figuring out the details (when this is responsible) because you’ll know more later.
+User Stories: Write down ideas to work on and prioritize them. Defer figuring out the details (when this is responsible) because you’ll know more later.
 
-Meetings: Regularly talk as a team about what is going on.
+Meetings: Regularly talk as a team about what is going on.
 
-Reviews: Regularly show people what you are building to get feedback.
+Reviews: Regularly show people what you are building to get feedback.
 
-Retros: Regularly discuss how you can work better as a team.
+Retros: Regularly discuss how you can work better as a team.
 
-Product Owner: Have someone who has the knowledge, authority, and availability to prioritize features.
+Product Owner: Have someone who has the knowledge, authority, and availability to prioritize features.
 
-Scrum Master: Have someone focused on process improvement and coordination. This person should ask questions and employ 
+Scrum Master: Have someone focused on process improvement and coordination. This person should ask questions and employ 
 coaching. They should not give orders.
 
 
@@ -427,27 +442,29 @@ Empower your employees and get out of their way
 
 The quality of the product is more important than the time it takes to achieve it.
 
-## Careers take care of themselves
+## Careers take care of themselves
 
 If you have skills, commitment and passion, careers tend to take care of themselves.
 
 
 ## How to solve a business case?
 
+* Define a hypothesis
+* Divide different aspects of the problem to mutually exclusive parts, an analysis tree
+* Analyze the tree, refining and revisiting the hypothesis as necessary 
+* Synthesize your results 
+* Communicate the results as clear actionable insights 
+  
+  
+Conclusion & Action
 
-- Define a hypothesis
-- Divide different aspects of the problem to mutually exclusive parts, an analysis tree
-- Analyze the tree, refining and revisiting the hypothesis as necessary 
-- Synthesize your results 
-- Communicate the results as clear actionable insights 
+Reason 1
 
-  Conclusion & Action
+Reason 2
 
-    - Reason 1
-    - Reason 2
-    - Reason 3
+Reason 3
 
-  Conclusion & Action
+Conclusion & Action
 ​ 
 
 

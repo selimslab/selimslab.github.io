@@ -47,7 +47,7 @@ It is only real when shared
 
 Someone to love, something to do, and something to hope for
 
-## Enjoy 
+## Enjoy 
 
 Life is to be enjoyed, not endured
 
@@ -55,7 +55,7 @@ Enjoy everything, you may not experience it twice.
 
 Enjoy yourself, it's later than you think
 
-## Savor the moment 
+## Savor the moment 
 
 Beautiful is the moment,
 
@@ -72,7 +72,7 @@ But finds time to just be.
 > “Nothing in life matters quite as much as you think it does while you are thinking about it.” 
 
 
-## Gratitude 
+## Gratitude 
 
 People only likes to count their troubles; they don't calculate happiness.
 
@@ -90,7 +90,7 @@ You will lose what you value most, so treasure it while you can.
 
 Don't take it for granted
 
-## Harmony 
+## Harmony 
 
 Happiness is when what you think, what you say, and what you do are in harmony.
 
@@ -115,7 +115,7 @@ Learn and move on
 In the long run, optimism is the best prevention for regret
 
 
-## Self-compassion 
+## Self-compassion 
 
 Be a friend to yourself
 
@@ -123,11 +123,11 @@ Be a friend to yourself
 
 The finest of pleasures are the unexpected ones.
 
-## Simplicity 
+## Simplicity 
 
 meddle not with many things if you wish to live happily 
 
-## Let go of others 
+## Let go of others 
 
 The unhappiest people in this world, are those who care the most about what other people think. Don't let anyone steal your joy
 
