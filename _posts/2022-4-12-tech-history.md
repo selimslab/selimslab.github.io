@@ -1,9 +1,9 @@
 ---
 layout: post
-title: History of Tech  
+title: History of tech  
 --- 
 
-Last Common Ancestor Of Humans And Chimps 6M    
+Last Common Ancestor Of Humans And Chimps 6M years ago 
 
 First Humans 3M  
 
@@ -13,7 +13,9 @@ Sapiens 200 000 Years
 
 Cave Paintings 30 000 Years 
 
-End Of The Last Ice Age, Agriculture, First Temple 12 000 Years
+End Of The Last Ice Age, Agriculture, First Temple 12 000 Years ago 
+
+---
 
 First Cities 7500 BC 
 
@@ -24,6 +26,8 @@ Wheel, Ancient Egypt, Sumerians 3500 BC
 First Writing 3200 BC 
 
 Pyramids, Paper 3000 BC
+
+---
 
 Telescope 1608
 
@@ -64,7 +68,7 @@ COBOL, Fortran
 
 DNA double helix 53 
 
-Integrated Circuit 1958
+Integrated Circuit 58
 
 a prototype of the modern computer, with a mouse and a graphical user interface 1964
 
@@ -80,11 +84,11 @@ UNIX 69
 
 Apollo 11, 69 
 
-Floppy Disk 1971 
+Floppy Disk 71 
 
-Ethernet 1973 
+Ethernet 73 
 
-first personal computers 1974-1977 
+first personal computers 74-77 
 
 C programming language, 72
 
@@ -98,19 +102,21 @@ Apple, Apple I, 76
 
 Apple II 77
 
-VisiCalc, the first spreadsheet program, 1978
+VisiCalc, the first spreadsheet program, 78
 
 WordStar, word processing, 79 
 
 IBM PC 81
 
-Commodore 64, 82  (64 KB of RAM, $595, sold more than 22 million units)
+Commodore 64, 82 (64 KB of RAM, $595, sold more than 22 million units)
 
 Macintosh, 84, $2,500
 
-The first domain symbolics.com, AOL, C++ 1985 
+The first domain symbolics.com, AOL, C++ 85 
 
 CRISPR 87
+
+## 90s
 
 90: Hubble, Imdb, Python, Haskell
 
@@ -124,35 +130,37 @@ CRISPR 87
 
 99: Wifi
 
-2001: Linkedin, C#, Wikipedia
+## 2000s
 
-2002:, SpaceX
+01: Linkedin, C#, Wikipedia
 
-2003: The first 64-bit processor AMD's Athlon 64, Safari, Tesla 
+02: SpaceX
 
-2004: Gmail, FB, Scala 
+03: The first 64-bit processor, Safari, Tesla 
 
-2005: Arduino, Reddit, Youtube
+04: Gmail, FB, Scala 
 
-2006: Twitter, MacBook Pro, Wii, Goodreads
+05: Arduino, Reddit, Youtube
 
-2007: iPhone, Kindle
+06: Twitter, MacBook Pro, Wii, Goodreads
 
-2008: Financial Crisis, Macbook Air
+07: iPhone, Kindle
 
-2009: Windows 7, Github, Whatsapp 
+08: Financial Crisis, Macbook Air
 
-2010: Instagram, Go, iPad
+09: Windows 7, Github, Whatsapp 
 
-2011: Steve Jobs dies
+10: Instagram, Go, iPad
 
-2012: FB gains 1 billion users, Chrome, Raspberry Pi
+11: Steve Jobs dies
 
-2015: Rust, Windows 10, Apple Watch
+12: FB gains 1 billion users, Chrome, Raspberry Pi
 
-2016: The first reprogrammable quantum computer was created, 
+15: Rust, Windows 10, Apple Watch
 
-2019: The first-ever image of a supermassive black hole 
+16: The first reprogrammable quantum computer 
+
+19: The first-ever image of a supermassive black hole 
 
 
 

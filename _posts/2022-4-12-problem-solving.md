@@ -8,7 +8,6 @@ Prevention is the best
 
 A clever person solves a problem. A wise person avoids it.
 
-
 Solve problems before they become problems 
 
 Don't panic

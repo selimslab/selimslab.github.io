@@ -41,3 +41,7 @@ What is a better reward than to be a person of character? And we can be.
 
 We can change our worst sides. We are able to change for the better.
 
+You don’t have to be the person you were yesterday 
+
+
+

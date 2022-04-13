@@ -9,7 +9,7 @@ How much of our lives have we spent fighting shadows rather than simply enjoying
 
 
 
-## Thoughts 
+## Thoughts create feelings
 
 > "Folks are usually about as happy as they make their minds up to be."
 

@@ -51,5 +51,9 @@ Popper
 
  Be strategic with the feedback you listen to
 
+---
 
+a great essay
+
+What you can't say http://www.paulgraham.com/say.html
 
