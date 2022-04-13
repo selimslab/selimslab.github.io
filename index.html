@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% assign sorted_posts = site.posts | sort: "title" %}
+
 {% assign sorted_tags = site.tags | sort %}
 
 {% assign sorted_cats = site.categories | sort %}
@@ -19,7 +21,7 @@ layout: default
     <div class="section">
         <div class="column is-8">
             <ul>
-                {% for p in site.posts %}
+                {% for p in sorted_posts %}
                     <li class="catlink">
                         <a href="{{ p.url }}">{{ p.title }}</a>
                     </li>
