@@ -145,6 +145,17 @@ Man is the only creature who refuses to be what he is.
 Wanting to be someone else is a waste of the person you are.
 
 
+## Know your limits
+
+"Begin at the beginning," the King said, very gravely, "and go on till you come to the end: then stop.
+
+Accept what is in your control and don’t worry for the rest 
+
+You don’t have to be perfect, good enough is good 
+
+Get one bit better, keep walking
+
+
 ---
 
 You deserve your love and affection

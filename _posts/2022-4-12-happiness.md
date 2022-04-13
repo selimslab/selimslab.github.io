@@ -30,6 +30,8 @@ It's not the load that breaks you down, it's the way you carry it.
 
 May it be a light to you in dark places, when all other lights go out.
 
+You never know what worse luck your bad luck has saved you from.
+
 
 ## It will pass 
 
@@ -89,6 +91,9 @@ Want everything, lose everything
 You will lose what you value most, so treasure it while you can.
 
 Don't take it for granted
+
+Be thankful for what you have; you'll end up having more. If you concentrate on what you don't have, you will never, ever have enough
+
 
 ## Harmony 
 
