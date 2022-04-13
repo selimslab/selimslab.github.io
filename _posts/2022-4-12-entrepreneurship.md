@@ -280,6 +280,8 @@ Take the best and spread it around, spread subtlety and quality
 
 ## Breaking bad news
 
+Nothing is faster than light, except bad news
+
 It’s best to take a straightforward approach. Direct, factual, and empathetic
 
 ## Product 
