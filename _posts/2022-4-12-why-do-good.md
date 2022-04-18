@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Why do good?   
+tags: best
 ---
 
 

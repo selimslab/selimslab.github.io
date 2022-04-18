@@ -20,6 +20,18 @@ layout: default
 
     <div class="section">
         <div class="column is-8">
+
+            <h2>Featured</h2>
+            <ul>
+                {% for p in site.tags.best %}
+                    <li class="catlink"><a href="{{ p.url }}">{{ p.title }}</a></li>
+                {% endfor %}
+            </ul>
+    </div>
+    </div>
+
+    <div class="section">
+        <div class="column is-8">
             <ul>
                 {% for p in sorted_posts %}
                     <li class="catlink">

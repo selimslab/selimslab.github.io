@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Cognitive Biases   
+tags: best
 ---
 
 

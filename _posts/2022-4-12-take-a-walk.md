@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Take a walk 
+tags: best
 ---
 
 Talk to a friend 

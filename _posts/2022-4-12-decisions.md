@@ -13,7 +13,6 @@ Yet a little forethought can prevent a lot of pain later.
 
 ---
 
-TLDR 
 
 1. Go through a process with people you respect
 2. Be mindful of emotions
