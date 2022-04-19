@@ -23,8 +23,8 @@ body {
   background: #fffcfc;
   font: 18px/1.6 $helveticaNeue;
   color: $gray;
-  border-top: 6px solid $turkuvaz;
-  border-bottom: 6px solid $turkuvaz;
+  border-top: 6px solid $primary;
+  border-bottom: 6px solid $primary;
   line-height: 1.6;
   min-height: 1200px;
 }
@@ -105,7 +105,7 @@ li.catlink{
 
 blockquote {
   margin: 1.6em .8em;
-  border-left: 4px solid $turkuvaz;
+  border-left: 4px solid $primary;
   padding: 0.1em 1em;
   color: $gray;
   font-size: 1.2rem;

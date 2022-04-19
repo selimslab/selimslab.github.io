@@ -38,6 +38,10 @@ Would you be willing to compromise your integrity, your heart, and peace of mind
 
 Nasty people are neither healthy nor happy. And that’s probably a fair price
 
+<br>
+
+
+
 What is a better reward than to be a person of character? And we can be. 
 
 We can change our worst sides. We are able to change for the better.
