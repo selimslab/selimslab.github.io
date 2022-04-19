@@ -341,6 +341,12 @@ How will the product differentiate?
 
 What are some key distribution channels?
 
+
+[A Steve Jobs masterclass](https://blog.thinkst.com/2020/07/a-steve-jobs-masterclass-from-decade-ago.html)
+
+[You can't tell people anything](http://habitatchronicles.com/2004/04/you-cant-tell-people-anything/)
+
+
 ## Delegation 
   
 
@@ -500,6 +506,7 @@ Err on the side of starting too small
 
 
  
+
 
 
 

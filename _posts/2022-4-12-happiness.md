@@ -32,7 +32,7 @@ May it be a light to you in dark places, when all other lights go out.
 
 You never know what worse luck your bad luck has saved you from.
 
-
+[The Day I Found Out My Life Was Hanging by a Thread](https://www.wired.com/story/the-day-i-found-out-my-life-was-hanging-by-a-thread/)
 
 ## It will pass 
 
