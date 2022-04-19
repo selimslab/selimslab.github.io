@@ -159,6 +159,12 @@ You don’t have to be perfect, good enough is good
 
 Get one bit better, keep walking
 
+“A knower of the Truth does what is called for
+
+then stops
+
+He uses his strength but does not force things”
+
 
 ## Be a friend to yourself
 
@@ -186,3 +192,28 @@ Think twice before you speak
 Be careful with promises
 
 
+## Golden mean
+
+Moderation is key for health and long-term happiness.
+
+Be balanced, humble and confident, thinking and feeling, calm and active. 
+
+Be mindful. View yourself from outside. Pay attention to your mind and heart 
+
+Be grateful. Appreciate all you have and you had, your body and mind, the people you love. Appreciate the moment
+
+## Accept 
+
+I can’t know it all
+
+My experience is subjective 
+
+There are other ways to look at things
+
+I am free to act as long as I don’t unjustly harm others 
+
+I trust my mind and heart to approximate the just course in a given context 
+
+I will make mistakes and it is ok 
+
+I build myself, I choose my way 

@@ -33,6 +33,7 @@ title: Entrepreneurship
 - [Have soft deadlines](#have-soft-deadlines)
 - [Careers take care of themselves](#careers-take-care-of-themselves)
 - [How to solve a business case?](#how-to-solve-a-business-case)
+- [ON THE BUS OR OFF THE BUS](#on-the-bus-or-off-the-bus)
 
 
 
@@ -188,6 +189,17 @@ Finish with clear action items
 
 ## Ideas
 
+
+ideal target = small group of concentrated people, served by few or no competitor 
+
+what important truth do very few people agree with you on?
+
+what valuable company is nobody building?
+
+no secrets would mean a perfect society, no hidden injustice, perfect nutrition, transportation, shelter, perfect access to information, smooth government, happy children, perfect security, healthcare, food, water, shelter, internet for everyone etc..
+
+--
+
 Great Ideas Seem Initially Bad
 
 They challenge norms and touch taboos. They are contrarian and right.
@@ -223,6 +235,8 @@ You’ll be most successful where you’re most intensely interested.
 
 Harder the problem, the better. When you meet a decision point, pick the harder problem
 
+if you believe something hard is impossible, you won't even try
+
 
 ## Unique value
 
@@ -239,6 +253,8 @@ Others can NOT claim
 Clarifies options
 
 You package it in a unique sales proposition
+
+Value of a business is the sum of all the money it will make 
 
 
 ## Sales
@@ -268,7 +284,13 @@ Sell results. Show how your product's characteristics relevant to customer's mot
 
 Don't push it. Speak a minute and see if they are interested
 
+---
 
+Look around, if there are no salesmen, you are the salesman 
+
+
+
+incrementalism, risk aversion, complacency, flatness
 
 
 ## Growth ingredients
@@ -466,5 +488,18 @@ Reason 3
 
 Conclusion & Action
 ​ 
+
+
+## ON THE BUS OR OFF THE BUS 
+
+Either fight or not, there is no middle
+
+It takes time to build valuable things
+
+Err on the side of starting too small
+
+
+ 
+
 
 

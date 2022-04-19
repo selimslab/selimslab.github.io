@@ -4,6 +4,8 @@ title: Problem Solving
 
 ---
 
+Don't panic
+
 Prevention is the best
 
 A clever person solves a problem. A wise person avoids it.
@@ -40,6 +42,7 @@ take a walk
 
 ---
 
+
 Why is this a problem?
 
 Is there an easier way?
@@ -60,7 +63,22 @@ Graphs
 
 How to explain it to a 6 years old? 
 
+---
+
+Sanity check 
+
+Ask why 
+
+Visualize data
+
+Trace
+
+Rubber ducking 
+
+Elimination
+
+Symptoms vs root cause
+
+---
 
 Hard problems demand imagining easier versions, not spinning wheels 
-
-

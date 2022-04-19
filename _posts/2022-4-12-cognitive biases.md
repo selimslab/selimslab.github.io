@@ -87,3 +87,33 @@ Human Nature and Judgment
 24. Influence of Stress (Including Breaking Points)
 25. Tendency to Want to Do Something (Fight/Flight, Intervention, Demonstration of Value, etc.)
 26. Falsification / Confirmation Bias
+
+
+---
+
+
+All or nothing 
+
+Expectation 
+
+Negativity 
+
+Black filter 
+
+Ignoring positives
+
+Jumping to conclusions 
+
+Mind reading 
+
+Exaggeration 
+
+Should would sentences
+
+Labelling
+
+Taking it personal 
+
+Hedonic adaptation 
+
+Unfit mental models 

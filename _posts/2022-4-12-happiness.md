@@ -146,6 +146,17 @@ Never waste valuable time, or mental peace of mind, on the affairs of others—t
 
 Wealth brings happiness by giving it away
 
+Money brings happiness up to a point -> maybe 100k a year 
+
+wanna be rich -> invest 
+
+wanna be poor -> consume 
+
+profits must be reinvested 
+
+Luxuries tend to become necessities and create obligations.
+
+People accumulated more things, which tied them down 
 
 ## How can a society have eudaimonia? 
 
@@ -162,3 +173,94 @@ reasonableness
 independence
 
 calm
+
+
+---
+
+
+happiness = reality vs expectations
+
+Happiness levels are set biochemically 
+
+Stop craving, stop pursuing, live in the present 
+
+pursit -> misery
+
+pain is inevitable, suffering is optional 
+
+feel things as they are 
+
+don't crave 
+
+no craving = no suffering 
+
+train the mind to experience reality as it is 
+
+expectations are self fulfilling 
+
+---
+
+## Accept 
+
+love you, accept you, believe in you 
+
+not personal, not all your fault 
+
+doesn’t matter, will be better 
+
+walk no more in shadows 
+
+---
+
+It’s present 
+
+It’s absent
+
+Notice presence, 
+
+Notice absence
+
+All is well
+
+---
+
+
+It’s been a long time 
+
+Lot of water under the bridge, lot of other stuff 
+
+Feeling different 
+
+After all this time 
+
+Caused pain to myself 
+
+Carried away by perceptions, illusions, thoughts and feelings 
+
+No one harmed me, no one did me any bad 
+
+it was me, interpreting events and getting sad over them 
+
+it’s a good day 
+
+Feeling more  
+
+---
+
+People can’t read my mind 
+
+---
+
+I have many weaknesses, many shortcomings, thinking over, I need to feel, need to be sincere, with myself first 
+
+Am I dead now? Is it too late?
+
+To make the right decisions, not to lie myself, to flow, to be natural
+
+I don’t know everything. Truly I know nothing
+
+So why not accept this and be comfortable with reality 
+
+walk slowly but walk 
+
+Less 
