@@ -1,37 +1,47 @@
 ---
 layout: post
-title:  Some questions  
+title:  Questions  
+tags: best 
 ---
-
-How do I feel?
-
-Does it worth my time?
-
-What am I willing to struggle for?
-
-Do I really need this? 
-
-What do I NOT want in life?
-
-Is this opinion really mine?
-
-Does it worth my anger?
-
-Do I want to be happy or right?
-
-Would I treat a friend as I treat myself?
 
 How would my best version live? 
 
+What do I NOT want in life?
+
 What’s in my control? What’s not?
 
-Are you trying to solve everyone's problems?
+## Feelings
+
+How do I feel?
+
+What am I anxious about? upset about? excited about?
+
+Do I want to be happy or right?
+
+Does it worth my anger?
+
+Would I treat a friend as I treat myself?
+
+
+Am I trying to solve everyone's problems?
 
 Who is going to let me? Who is going to stop me?
 
+
+Do I really need this? 
+
+Is this opinion really mine?
+
 What’s the practical use of this thought?
 
----
+
+
+
+## Work 
+
+What can I do today, that would make tomorrow better?
+
+What seems like work to other people that doesn't seem like work to me?
 
 What is the simplest thing that can possibly work?
 
@@ -43,36 +53,19 @@ Is it a priority? important? urgent?
 
 Can I simplify it? eliminate it? delegate it?
 
----
+Does it worth my time?
 
-What can I do today, that would make tomorrow better?
+What am I willing to struggle for?
 
-What seems like work to other people that doesn't seem like work to you?
 
----
+## What if? 
 
-Disregard the constraints. 
-
-What would I do if couldn't fail? 
+What would I do if I couldn't fail? 
 
 If money were not a concern?
 
+If I weren't afraid?
+
 What if I knew I would die this year? 
 
----
 
-* what am I anxious about ? 
-* what am I upset about ? 
-* what am I excited about ? 
-
----
-
-what would you do if you could not fail?
-
-if there is no money?
-
-if you had infinite time? 
-
-if you weren't afraid?
-
-if all jobs paid the same?
