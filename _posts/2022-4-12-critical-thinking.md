@@ -11,14 +11,17 @@ Examine
 
 If everyone is thinking the same, then no one is thinking
 
-Delete the adjectives and you have the facts.
-― Harper Lee, To Kill a Mockingbird
+Be strategic with the feedback you listen to
+
+"Delete the adjectives and you will have the facts."
 
 Systematic criticism and correction
 
 “We shouldn't be looking for heroes, we should be looking for good ideas.”
 
 Truth is ridiculed -> violently opposed -> becomes self-evident
+
+“Believe nothing you hear, and only one half that you see.” 
 
 ---
 
@@ -42,18 +45,7 @@ all models are wrong, some are useful
 
 less wrong 
 
-Popper 
+Karl Popper 
 
----
 
-“Believe nothing you hear, and only one half that you see.” 
-― Edgar Allan Poe
-
- Be strategic with the feedback you listen to
-
----
-
-a great essay
-
-What you can't say http://www.paulgraham.com/say.html
 
