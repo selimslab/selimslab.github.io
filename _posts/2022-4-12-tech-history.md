@@ -144,7 +144,7 @@ CRISPR 87
 
 02: SpaceX
 
-03: The first 64-bit processor, Safari, Tesla 
+03: Safari, Tesla 
 
 04: Gmail, FB, Scala 
 
@@ -154,13 +154,11 @@ CRISPR 87
 
 07: iPhone, Kindle
 
-08: Financial Crisis, Macbook Air
+08: Macbook Air
 
 09: Windows 7, Github, Whatsapp 
 
 10: Instagram, Go, iPad
-
-11: Steve Jobs dies
 
 12: FB gains 1 billion users, Chrome, Raspberry Pi
 
@@ -168,7 +166,7 @@ CRISPR 87
 
 16: The first reprogrammable quantum computer 
 
-19: The first-ever image of a supermassive black hole 
+19: The first image of a supermassive black hole 
 
 
 
