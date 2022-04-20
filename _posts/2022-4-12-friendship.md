@@ -3,6 +3,9 @@ layout: post
 title: Friendship
 ---
 
+<img src="/img/friends.jpg" >
+
+
  A true friend is someone who you care as much as yourself. Their joy is yours and their sorrow too 
  
 Respect and trust. 

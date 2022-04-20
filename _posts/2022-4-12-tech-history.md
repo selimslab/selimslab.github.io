@@ -36,13 +36,21 @@ Steam Engine 1698
 ## 1800s
 
 electricity
+
 DC Motor
+
 Combustion Engine 
+
 Darwin Published On The Origin Of Species
+
 Ligtbulb
+
 Telephone
+
 Car
+
 AC Motor 
+
 Radio
 
 
@@ -132,7 +140,7 @@ CRISPR 87
 
 ## 2000s
 
-01: Linkedin, C#, Wikipedia
+01: Wikipedia, Linkedin, C# 
 
 02: SpaceX
 

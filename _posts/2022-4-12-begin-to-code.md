@@ -4,6 +4,7 @@ title: Start coding today
 ---
 
 
+<img src="/img/lego.jpg" >
 
 ## fundamentals 
 

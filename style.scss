@@ -149,3 +149,10 @@ footer {
 
 @import "highlights";
 
+
+img-full {
+  display: block !important; 
+  max-width: 100% !important;
+  height: auto !important;
+  margin-bottom: 2rem !important;
+}
