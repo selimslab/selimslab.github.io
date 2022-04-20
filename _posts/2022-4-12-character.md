@@ -196,13 +196,13 @@ Be careful with promises
 
 Moderation is key for health and long-term happiness.
 
-Be balanced, humble and confident, thinking and feeling, calm and active. 
+Be balanced, humble and confident, thinking and feeling, calm and active. 
 
-Be mindful. View yourself from outside. Pay attention to your mind and heart 
+Be mindful. View yourself from outside. Pay attention to your mind and heart 
 
-Be grateful. Appreciate all you have and you had, your body and mind, the people you love. Appreciate the moment
+Be grateful. Appreciate all you have and you had, your body and mind, the people you love. Appreciate the moment
 
-## Accept 
+## Accept  
 
 I can’t know it all
 

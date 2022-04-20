@@ -10,8 +10,16 @@ Seeds can become giant trees, yet you can’t force it.
 
 All you can do is to encourage, to protect, to provide the environment, and to remove obstacles.
 
+---
 
-“If you want to build a ship, don't drum up people to collect wood and don't assign them tasks and work, but rather teach them to long for the endless immensity of the sea.” — Antoine de Saint-Exupery
+
+> If you want to build a ship, 
+> 
+> don't drum up people to collect wood and don't assign them tasks and work, 
+> 
+> but rather teach them to long for the endless immensity of the sea. 
+> 
+> — Antoine de Saint-Exupery
 
 
 Build projects around motivated people. Give them the environment and support they need, and trust them to get the job done.
@@ -19,7 +27,7 @@ Build projects around motivated people. Give them the environment and support th
 
  ---
 
- “The great ruler speaks little
+ The great ruler speaks little
 
 and his words are priceless
 
@@ -29,8 +37,8 @@ and leaves no trace
 
 When all is finished, the people say,
 
-“It happened by itself”
+“It happened by itself"
 
-from Tao Te Ching 
+*Tao Te Ching*
 
 

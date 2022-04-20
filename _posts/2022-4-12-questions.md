@@ -37,7 +37,7 @@ What’s the practical use of this thought?
 
 
 
-## Work 
+## Work 
 
 What can I do today, that would make tomorrow better?
 

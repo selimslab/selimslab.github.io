@@ -7,7 +7,7 @@ Emotions are signals, nuanced and valuable
 
 Pleasure and pain comes together 
 
-## Blame 
+## Blame 
 
 We blame ourselves but most things are so random. Be suspicious of success and gentle on ourselves in failure. Much of what we get, we don't deserve 
 
@@ -49,7 +49,7 @@ It is often fear under anxiety, anger, and hate
 
 Fear is often more powerful than hope 
 
-## Hate 
+## Hate 
 
 Anger and hate inflame each other, and lead to suffering
 
