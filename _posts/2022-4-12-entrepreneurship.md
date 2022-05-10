@@ -34,6 +34,7 @@ title: Entrepreneurship
 - [Careers take care of themselves](#careers-take-care-of-themselves)
 - [How to solve a business case?](#how-to-solve-a-business-case)
 - [ON THE BUS OR OFF THE BUS](#on-the-bus-or-off-the-bus)
+- [Pricing](#pricing)
 
 
 
@@ -466,6 +467,8 @@ Agree with crystal clarity on the deliverables
 
 Empower your employees and get out of their way 
 
+Hire people you’d work for 
+
 ## Have soft deadlines
 
 The quality of the product is more important than the time it takes to achieve it.
@@ -474,7 +477,7 @@ The quality of the product is more important than the time it takes to achieve i
 
 If you have skills, commitment and passion, careers tend to take care of themselves.
 
-
+The world is run by people who have trouble opening a google doc and y'all are worried about imposter syndrome?
 ## How to solve a business case?
 
 * Define a hypothesis
@@ -509,4 +512,6 @@ Err on the side of starting too small
 
 
 
+## Pricing 
 
+[The Sequoia Guide to Pricing](https://articles.sequoiacap.com/pricing-your-product)

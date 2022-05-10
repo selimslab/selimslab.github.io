@@ -31,20 +31,13 @@ You pay for what you do by becoming the person you are
 
 <br>
 
-
-What is a worse punishment than degrading and corrupting your heart, one act at a time? 
-
-Would you be willing to compromise your integrity, your heart, and peace of mind for some mortal gain?
+Degrading and corrupting your heart, losing your integrity and peace of mind, one act at a time? Is it worth it?
 
 Nasty people are neither healthy nor happy. And that’s probably a fair price
 
 <br>
 
-
-
-What is a better reward than to be a person of character? And we can be. 
-
-We can change our worst sides. We are able to change for the better.
+Or we can choose to be a person of character. We can change our worst sides. We are able to change for the better.
 
 You don’t have to be the person you were yesterday 
 

@@ -4,7 +4,7 @@ title: Leadership
 ---
 
 
-Leadership is like gardening. You plant the seeds and water them. The growing part is on the plant.
+Like gardening, you plant the seeds and water them. The growing part is on the plant.
 
 Seeds can become giant trees, yet you can’t force it. 
 
@@ -27,7 +27,7 @@ Build projects around motivated people. Give them the environment and support th
 
  ---
 
- The great ruler speaks little
+The great ruler speaks little
 
 and his words are priceless
 

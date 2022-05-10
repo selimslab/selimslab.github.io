@@ -117,3 +117,8 @@ Taking it personal
 Hedonic adaptation 
 
 Unfit mental models 
+
+
+---
+
+[clearerthinking](https://www.clearerthinking.org/tools-and-mini-courses)

@@ -1,40 +1,35 @@
 ---
 layout: post
 title: Stupidity
+tags: best
+---
+
+Bad judgement 
+
+Choosing an inappropriate model to interpret reality 
+
+Either lacking the correct model, or not considering it even if you are aware
+
+Being dumb is different from stupidity, its more like lacking the mental capacity 
+
+Ignorance isn’t stupidity. Smart or educated people can also be very stupid 
+
 ---
 
 
-The two most common elements in the universe are hydrogen and stupidity.
-
-This life’s hard, but it’s harder if you’re stupid.
-
-Talk sense to a fool and he calls you foolish.
-
-It is better to remain silent at the risk of being thought a fool, than to talk and remove all doubt of it.
-
-
-## Folly 
-
 In translation from Aristotle's Ethics 
 
-    To folly it belongs to judge things badly, 
-    to deliberate badly, 
-    to be bad in social intercourse, 
-    to use badly present goods, 
-    to think erroneously about what is good and noble as regards life. 
+To folly it belongs to judge things badly, 
 
-    Folly is accompanied by ignorance, inexperience, incontinence, tactlessness, shortness of memory. 
+to deliberate badly, 
 
-## Ignorance
+to be bad in social intercourse, 
 
-Ignorance isn’t stupidity
+to use badly present goods, 
 
-Confidence is ignorance. If you're feeling cocky, it's because there's something you don't know.
+to think erroneously about what is good and noble as regards life. 
 
-All you need in this life is ignorance and confidence; then success is sure.
-
-Education: the path from cocky ignorance to miserable uncertainty.
-
+Folly is accompanied by ignorance, inexperience, incontinence, tactlessness, shortness of memory. 
 
 
 

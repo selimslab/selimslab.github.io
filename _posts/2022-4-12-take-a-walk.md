@@ -8,9 +8,11 @@ Talk to a friend
 
 Take a shower 
 
-Sleep on it 
+Get some sleep 
 
-Grinding your wheels won't solve your problem, give your mind some space 
+Grinding your wheels won't solve your problem, 
+
+Give your mind some space 
 
 
 
