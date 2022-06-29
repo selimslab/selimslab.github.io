@@ -13,5 +13,5 @@ Handle yourself with pride and respect
 
 Don't apologize for your situation in life 
 
-if you want respect you should signal that you deserve it 
+If you want respect you should signal that you deserve it 
 

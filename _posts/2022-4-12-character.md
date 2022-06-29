@@ -1,12 +1,18 @@
 ---
 layout: post
 title: Character 
-tags: best
 ---
 
-Real growth is building character, striving to improve in generosity, integrity, humility, fairness, or courage.
+
 
 Aristotle believed moral goodness is a habit, and it takes time and practice. 
+
+To do the right thing
+
+1. To know it 
+2. To have the courage to do it 
+
+generosity, integrity, humility, fairness, courage 
 
 ## Courage 
 
@@ -14,45 +20,17 @@ There comes a time when one must take a position that is neither safe, nor polit
 
 ― Martin Luther King Jr.
 
-Never be afraid to raise your voice for honesty and truth and compassion against injustice and lying and greed. If people all over the world...would do this, it would change the earth.
+Never be afraid to raise your voice against injustice and lying and greed
 
-― William Faulkner
+Never be bullied into silence. 
 
-Never be bullied into silence. Never allow yourself to be made a victim. Accept no one’s definition of your life; define yourself.
-
-
-## Dare to think for yourself 
-
-We are searching for wisdom in books and talks. 
-
-We seem to believe that other older, wiser, cooler people already sorted things out. It is not. 
-
-Your own reflection on your latest anger will provide you more insight than some brilliant writing on anger.  
-
-Similar with the other emotions and human condition. 
-
-You have already a lot of experience, your own life is full of insight. 
-
-Trust yourself, you are more capable than you think
+Use your judgement, for example your own reflection on your latest anger will provide you more insight than some brilliant writing on anger.  
 
 
 Whoever fights monsters should see to it that in the process he does not become a monster. And if you gaze long enough into an abyss, the abyss will gaze back into you.
 
 
 
-
-## Dare to live 
-
-Trust yourself. You know more than you think you do.
-
-
-Was Du erlebst, kann keine Macht der Welt Dir rauben. 
-(What you have experienced, no power on earth can take from you.) 
-
-
-Nothing is done without daring 
-
-Live to the point of tears
 
 ## Humility 
 

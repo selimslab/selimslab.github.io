@@ -1,6 +1,6 @@
 ---
 layout: post
-title: History of tech  
+title: A rough history of tech  
 --- 
 
 Last Common Ancestor Of Humans And Chimps 6M years ago 
@@ -35,13 +35,13 @@ Steam Engine 1698
 
 ## 1800s
 
-electricity
+Electricity
 
 DC Motor
 
 Combustion Engine 
 
-Darwin Published On The Origin Of Species
+The Origin Of Species
 
 Ligtbulb
 
@@ -85,8 +85,6 @@ The Birth of the Internet 65-95
 Apollo 1, 67
 
 Intel 68
-
-Multics 69
 
 UNIX 69
 

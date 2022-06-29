@@ -5,11 +5,13 @@ tags: best
 ---
 
 
-Do good for your own good, out of self-respect 
+Do good for your own good, 
 
-You are what you do.
+Out of self-respect, principle, character, and integrity 
 
-Your actions turns you into this or that kind of a person, how do feel about it?
+You are what you do
+
+How do feel about it?
 
 
 

@@ -4,8 +4,6 @@ title: Start coding today
 ---
 
 
-<img src="/img/lego.jpg" >
-
 ## fundamentals 
 
 a short, sweet, and visual fundamental algorithms book, [grokking algorithms](http://93.174.95.29/main/9F2B390517083CF4485BA524B80815F5)

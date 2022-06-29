@@ -4,13 +4,19 @@ title: Software Security
 --- 
 
 
-Solve problems before they happen     
+Prevent problems before they happen     
 
-What can go wrong? Model possible threats 
+What can go wrong? 
 
-A simple system has smaller attack surface  
+Model possible threats 
 
-Validate, sanitize, isolate 
+Simpler the system, smaller the attack surface  
+
+Validate
+
+Sanitize
+
+Isolate 
 
 Don't try to roll your own security solutions, it's a community effort 
 
