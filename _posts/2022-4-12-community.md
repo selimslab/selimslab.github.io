@@ -13,7 +13,6 @@ Indeed no one deserves anything but anyway showing understanding and respect is 
 
 Each of us has the ability to heal 
 
-
 [good social relationships -> good life ](https://youtu.be/8KkKuTCFvzI?list=FLwnL1ngkxfNFBPIXpHm2A2A…
 )
 

@@ -4,13 +4,9 @@ title: Leadership
 ---
 
 
-Like gardening, you plant the seeds and water them. The growing part is on the plant.
+You plant the seeds and water them, you can’t force the growing  
 
-Seeds can become giant trees, yet you can’t force it. 
-
-All you can do is to encourage, to protect, to provide the environment, and to remove obstacles.
-
----
+All you can do is to provide the environment and remove obstacles.
 
 
 > If you want to build a ship, 

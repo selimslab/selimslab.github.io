@@ -18,14 +18,8 @@ Let a child be angry, be patient, do not yell, remember that they are children a
 
 If you have a rule, explain the reason, life is much easier when they are convinced
 
-Make sure they are not too compliant 
-
 Wait a bit before buying something, because they don't really want most things. having a 1 month rule is useful.
 
-Remember a child is very vulnerable 
-
----
-more at 
 
 [How Inuit Parents Raise Kids Without Yelling — And Teach Them To Control Anger : Goats and Soda : NPR](https://www.npr.org/sections/goatsandsoda/2019/03/13/685533353/a-playful-way-to-teach-kids-to-control-their-anger)
 

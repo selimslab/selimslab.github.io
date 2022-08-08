@@ -3,39 +3,11 @@ layout: post
 title: Entrepreneurship    
 ---
 
-- [What to work on?](#what-to-work-on)
-- [What people want?](#what-people-want)
-- [Focus](#focus)
-- [The user](#the-user)
-- [User Interview](#user-interview)
-- [Ideas](#ideas)
-- [Choose the mountain](#choose-the-mountain)
-- [Unique value](#unique-value)
-- [Sales](#sales)
-- [Growth ingredients](#growth-ingredients)
-- [Start from the closest](#start-from-the-closest)
-- [Test](#test)
-- [Direction](#direction)
-- [Breaking bad news](#breaking-bad-news)
-- [Product](#product)
-- [Delegation](#delegation)
-- [Product press release](#product-press-release)
-- [Scrum](#scrum)
-- [Perception](#perception)
-- [In writing or didn't happen](#in-writing-or-didnt-happen)
-- [lack of momentum -> burnout](#lack-of-momentum---burnout)
-- [How to pitch](#how-to-pitch)
-- [Can I work until 40 and then quit to enjoy?](#can-i-work-until-40-and-then-quit-to-enjoy)
-- [Risk](#risk)
-- [Transparency](#transparency)
-- [Don't take yourself too seriously](#dont-take-yourself-too-seriously)
-- [Hiring](#hiring)
-- [Have soft deadlines](#have-soft-deadlines)
-- [Careers take care of themselves](#careers-take-care-of-themselves)
-- [How to solve a business case?](#how-to-solve-a-business-case)
-- [ON THE BUS OR OFF THE BUS](#on-the-bus-or-off-the-bus)
-- [Pricing](#pricing)
 
+
+
+
+## What to work on?
 
 
 > What are the most important problems in your field, 
@@ -43,9 +15,6 @@ title: Entrepreneurship
 > and why aren’t you working on them?
 > 
 > Richard Hamming 
-
-
-## What to work on?
 
 What seems like work to other people that doesn't seem like work to you?
 

@@ -4,9 +4,58 @@ title: Mental models
 tags: best
 ---
 
-All human knowledge is uncertain, inexact, partial 
 
 All models are wrong, some are useful 
+
+
+---
+
+Uncertainty
+
+Probability
+
+Relativity
+
+---
+
+Golden means
+
+Opportunity - Risk 
+
+Optimism - Prudence 
+
+
+---
+
+Zoom in and out 
+
+Atoms to Universe
+
+Math - Physics - Chemistry - Biology - Psychology - Sociology - Astronomy 
+
+Know thyself, know others 
+
+---
+
+Systems thinking 
+ 
+Feedback loops 
+
+Chaos 
+
+Emergence
+
+---
+
+Nature 
+
+Evolution
+
+Ecosystems
+
+Energy
+
+---
 
 Invert
 

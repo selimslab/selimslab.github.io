@@ -4,6 +4,28 @@ title: How to get things done?
 ---
 
 
+1. just start 
+2. define what you want
+3. plan 
+4. prioritize
+5. do it with all your heart 
+6. start small 
+7. make a lot of mistakes
+8. do less
+9. sleep 
+10. drink water
+11. take a walk 
+12. talk to a friend
+13. say no more often
+14. rely on habits and systems 
+15. write more 
+16. work short, focused intervals and rest 
+17. prevent the worst 
+18. keep going 
+19. ignore sunk costs 
+
+---
+
 Define what you want because a weak definition means a bad outcome
 
 You need a lot of mistakes for a few good moves, a lot bad ideas for a few good ideas. Do not fear making mistakes, do not regret mistakes, you are growing a mistake at a time 
