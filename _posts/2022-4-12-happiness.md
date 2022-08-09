@@ -41,6 +41,8 @@ Its not worth your peace of mind
 
 Neither blame yourself nor others
 
+---
+
 Forgive yourself, forgive others 
 
 Learn and move on 
@@ -57,19 +59,25 @@ People can’t read minds
 
 ---
 
-its what you see  
+its how you look  
 
 take a different view 
+
+---
 
 its not that good 
 
 not that bad 
 
-not all or nothing 
+its not all or nothing 
 
-not personal 
+---
 
-not all your fault 
+its not personal 
+
+its not all your fault 
+
+---
 
 it doesn't matter 
 
