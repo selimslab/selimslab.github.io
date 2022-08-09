@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why do good?   
-tags: best
+ 
 ---
 
 
@@ -11,7 +11,7 @@ Out of self-respect, principle, character, and integrity
 
 You are what you do
 
-How do feel about it?
+How do you feel about it?
 
 
 

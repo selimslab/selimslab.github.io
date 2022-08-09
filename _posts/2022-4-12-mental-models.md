@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mental models 
-tags: best
+ 
 ---
 
 

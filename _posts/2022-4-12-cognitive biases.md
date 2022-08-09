@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cognitive Biases   
-tags: best
+ 
 ---
 
 Environment affects us more than we suspect

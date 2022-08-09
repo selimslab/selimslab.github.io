@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Happiness  
+tags: best
 ---
 
 
-Even the darkest night will end and the sun will rise.
 
 Expect less 
 
@@ -18,11 +18,18 @@ Share
 
 Hope 
 
+
 ---
 
-walk no more in shadows 
+Even the darkest night will end 
 
-enjoy the sun 
+and the sun will rise.
+
+Walk no more in shadows 
+
+Enjoy the sun 
+
+---
 
 Speak less, do less, have less 
 
@@ -64,9 +71,9 @@ not personal
 
 not all your fault 
 
-doesn't matter that much
+it doesn't matter 
 
-will be better 
+it will be better 
 
 ---
 

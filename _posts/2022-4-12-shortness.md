@@ -1,6 +1,7 @@
 ---
 layout: post
 title: On the Shortness of Life
+tags: best
 ---
 
 

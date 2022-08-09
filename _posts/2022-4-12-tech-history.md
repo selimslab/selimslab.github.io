@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A rough history of tech  
+title: Big history 
 --- 
 
 Last Common Ancestor Of Humans And Chimps 6M years ago 

@@ -4,9 +4,13 @@ title: Negotiations
 ---
 
 
+Prepare 
+
+Define your goals and limits 
+
 You are in charge when you listen
 
-It’s not a battle, build rapport
+It’s not a battle, build rapport, positivity is contagious 
 
 Notice emotions, settle, let go 
 
@@ -24,18 +28,4 @@ Assumptions out, hypothesis in
 
 To quiet your head, focus on the partner 
 
-Positivity is contagious 
 
----
-
-Understand the market.
-
-Understand your options.
-
-Understand their options.
-
-Decide on your absolute walk-away outcome.
-
-Decide on your ideal outcome.
-
-Negotiate with absolute integrity.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Start coding today 
+title: 7 steps to begin software development 
 ---
 
 ## 1. Get an idea 
