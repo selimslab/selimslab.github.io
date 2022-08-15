@@ -150,6 +150,33 @@ Uzayda koşana dek
 
 Yürürlükte her zaman
 
+---
+
+Bereket Versin
+
+Yaşama bir gitardır
+
+Tellerine vurdukça yediveren
+
+Güneş nasıl doğarsa
+
+Ve yeşil ne kadar solaksa
+
+Saksofon ne kadar benziyorsa asma kabaklarına
+
+Bir sebzevat kokusu sarıyor ortalığı
+
+Sanki sırık tomatları biz kızardık diyorlar
+
+Santana çaldıkça
+
+Kurbağalar ötüyor tosbağalar yürüyor
+
+Beni bir bostana gömün
+
+Gübre olmak istiyorum
+
+Can Yücel
 
 ---
 
@@ -296,50 +323,3 @@ Kolay değil bu dünyadan ayrılmak.
 
 ---
 
-
-Neden liman deyince
-
-Hatırıma direkler gelir
-
-Ve acık deniz deyince yelken?
-
-Mart deyince kedi,
-
-Hak deyince işçi
-
-Ve neden ihtiyar değirmenci
-
-Allaha inanır düşünmeden?
-
-Ve rüzgarlı havalarda
-
-Yağmur eğri yağar?
-
-
----
-
-Bereket Versin
-
-Yaşama bir gitardır
-
-Tellerine vurdukça yediveren
-
-Güneş nasıl doğarsa
-
-Ve yeşil ne kadar solaksa
-
-Saksofon ne kadar benziyorsa asma kabaklarına
-
-Bir sebzevat kokusu sarıyor ortalığı
-
-Sanki sırık tomatları biz kızardık diyorlar
-
-Santana çaldıkça
-
-Kurbağalar ötüyor tosbağalar yürüyor
-
-Beni bir bostana gömün
-
-Gübre olmak istiyorum
-
-Can Yücel

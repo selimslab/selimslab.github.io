@@ -4,17 +4,17 @@ title: Take a walk
 tags: best
 ---
 
-Talk to a friend 
+Get some sleep 
 
 Take a shower 
 
-Get some sleep 
+Speak with a friend
 
 Grinding your wheels won't solve your problem, 
 
 Give your mind some space 
 
-
+Take a break 
 
 
 

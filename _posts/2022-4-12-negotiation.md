@@ -12,6 +12,8 @@ You are in charge when you listen
 
 It’s not a battle, build rapport, positivity is contagious 
 
+The point is to win without fighting 
+
 Notice emotions, settle, let go 
 
 Ask open-ended questions 

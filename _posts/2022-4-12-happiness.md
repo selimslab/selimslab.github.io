@@ -18,6 +18,13 @@ Share
 
 Hope 
 
+Judge less
+
+Accept more
+
+Less “I know”, 
+
+more “It seems, maybe, probably” 
 
 ---
 
@@ -34,6 +41,8 @@ Enjoy the sun
 Speak less, do less, have less 
 
 Want everything, lose everything 
+
+What you want isn't always best for you 
 
 ---
 
@@ -88,6 +97,43 @@ it will be better
 walk slowly but walk 
 
 Find time to just be 
+
+---
+
+It's too easy to take good health for granted.
+
+---
+
+Let not future troubles you, for you will have the same reason 
+
+---
+
+The pain is neither unbearable nor unending, as long as you keep in mind its limits and don't magnify them in your imagination.
+
+---
+
+The reason you don't have energy to workout is because you don't workout.
+
+---
+
+"Youth is happy because it has the capacity to see beauty. Anyone who keeps the ability to see beauty never grows old."
+
+---
+
+And now that you don't have to be perfect, you can be good.
+
+---
+
+Do not expect to “get” anything 
+
+Do not expect to be better 
+
+Live as if you listen to music, or you play music 
+
+Play the game 
+
+The aim is the play itself 
+
 
 
 
