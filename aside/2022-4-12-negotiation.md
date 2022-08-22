@@ -31,3 +31,4 @@ Assumptions out, hypothesis in
 To quiet your head, focus on the partner 
 
 
+define goals, listener in charge, empathy, rapport, label, paraphrase, open-ended, silence, out-camera, let go of emotions, look before leap 

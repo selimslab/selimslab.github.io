@@ -4,7 +4,11 @@ title: Learning
 ---
 
 
-Genuine interest 
+It's an art as almost every human activity 
+
+Only genuine interest and passion creates beautiful art
+
+---
 
 Beginner’s Mind
 

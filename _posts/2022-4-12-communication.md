@@ -6,91 +6,54 @@ title: Communication
 
 ## When you listen
 
-Be present, be interested, and if you are not interested, walk away.
+Be present, be interested
 
-Set aside your opinion, listen with a beginner’s mind.
+If you are not interested, walk away.
+
+Set aside your opinion
+
+Listen with a beginner’s mind.
 
 Do not offer solutions, just listen.
 
-Listen to understand, not to answer.
-
 Suspend judgement, it’s not personal, not about you 
 
+Listen to understand, not to answer.
+
+Listen to what isn't being said, too 
 
 ## When you speak
 
-Think before you speak. What is the message?
+Think before you speak
 
-Have a positive, constructive attitude. Say something good or say nothing.
+Clarify the message 
 
-What’s the best way to say it? Style matters.
+Style matters
 
-Be aware of your voice and tone. Breath well.
+Have a positive, constructive attitude. 
 
-Emotions matter, pay attention.
+Emotions drive a conversation 
 
-What is the bottom line? Repeat important parts.
+Breath well
 
-Unnecessary details are distracting. Keep it short and sweet.
+Say something good or say nothing.
 
----
+Voice and tone  
 
+People can't read your mind, something being obvious to you doesn't mean it's obvious to them 
 
-Express yourself, people can't read your mind 
+Repeat the bottom line
 
-People are busy and something being obvious to you doesn't mean it's obvious to them 
-
-Do not suppress your emotions
-
-Do not carry emotional baggage
-
-Speak, write, create
+Keep it short and sweet 
 
 Don't try to prove anything, people believe what they want to believe 
 
-Praise and criticism are just opinions. Let them go
-
 The best story wins, not the best idea
 
-Unless you ask, you ain’t getting anything.
+Ask questions, make a dialog not a monolog 
 
-Say I don't know more often 
-
-Don't be afraid to ask 
-
-If you want something, ask for it.
-
-Don’t say all you think 
-
-It's a lot easier to keep your house clean when you have frequent guests. Similarly, it's a lot easier to keep your thoughts in order when you share them frequently.
-
-The most important thing in communication is to hear what isn’t being said.
+it's a easier to keep your thoughts in order when you share them frequently.
 
 ---
 
-
-Say only what you mean 
-
-Believe things that you say 
-
-If you don't mean or don't believe, don't say it 
-
-Say something good or say nothing 
-
-
----
-
-
-Is it a good time to talk about?
-
-respond to emails
-
-keep people informed
-
-ask questions, make a dialoge not monolog 
-
-plan what you want to say and refine it 
-
-know your audience, choose the time, listen 
-
-common sense and plain dealing 
+[good social relationships -> good life ](https://youtu.be/8KkKuTCFvzI?list=FLwnL1ngkxfNFBPIXpHm2A2A…)

@@ -4,8 +4,9 @@ title: Public speaking
 ---
 
 
+Focus on the audience  
 
-Focus on the audience and what they need to get from this talk 
+What is the bottom line?
 
 Speak slow, deep, warm, passionate
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Happiness  
-tags: best
+ tags: f
 ---
 
 
@@ -38,13 +38,14 @@ Enjoy the sun
 
 ---
 
-Speak less, do less, have less 
 
 Want everything, lose everything 
 
 What you want isn't always best for you 
 
 ---
+
+Speak less, do less, have less 
 
 Its not worth your peace of mind 
 
@@ -60,7 +61,6 @@ Learn and move on
 
 Be a friend to yourself
 
-Love you, accept you, believe in you 
 
 ---
 

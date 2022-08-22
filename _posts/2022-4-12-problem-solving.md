@@ -20,12 +20,25 @@ Ask a lot of questions
 
 Question assumptions
 
+Take a break 
+
 Symptoms vs root cause
 
 State the problem clearly
 
-Create hypotheses, validate, refute, refine 
+Test hypotheses
 
 Take a walk
+
+Get some sleep 
+
+Take a shower 
+
+Speak with a friend
+
+Grinding your wheels won't solve your problem, 
+
+Give your mind some space 
+
 
 
