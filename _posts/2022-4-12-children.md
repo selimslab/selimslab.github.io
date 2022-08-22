@@ -4,26 +4,44 @@ title: Children
 ---
 
 
-Children will disregard your words and pay attention to your actions 
+They will forget your words but not your actions 
 
-Thus the way to raise honest, brave, kind, hardworking, loving children is to be like this yourself because they will look at what you do more than what you say 
+The way to raise honest, brave, kind, hardworking, and loving children is to lead by example 
 
-Children aren’t fragile, they should learn how to solve problems, how to manage things on their own 
+---
 
-A way to teach responsibility is to take them seriously and treat them with respect. it makes them feel like grown-ups and they love it 
+They should learn responsibility, how to solve problems, how to manage things on their own 
+
+Take them seriously and treat them with respect, it makes them feel like grown-ups and they love it 
+
+<http://fallibleideas.com/taking-children-seriously>
+
+
+---
 
 Ignorance isn’t stupidity
 
-Let a child be angry, be patient, do not yell, remember that they are children and you are the adult  
+Let a child be angry, 
 
-If you have a rule, explain the reason, life is much easier when they are convinced
+Be patient, do not yell, 
 
-Wait a bit before buying something, because they don't really want most things. having a 1 month rule is useful.
-
+Remember that they are children and you are the adult  
 
 [How Inuit Parents Raise Kids Without Yelling — And Teach Them To Control Anger : Goats and Soda : NPR](https://www.npr.org/sections/goatsandsoda/2019/03/13/685533353/a-playful-way-to-teach-kids-to-control-their-anger)
 
-<http://fallibleideas.com/taking-children-seriously>
+---
+
+If you have a rule, explain the reason, 
+
+life is much easier when they are convinced
+
+---
+
+Wait a bit before buying something, 
+
+because they don't really want most things. having a 1 month rule is useful.
+
+
 
 
 

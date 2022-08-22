@@ -19,29 +19,9 @@ layout: default
         </div>
     </div>
 
-    <div class="section">
-
-        <a href="#" onclick="random();" class="button is-info is-rounded is-light">Random</a>
-
-
-        <div class="column is-8">
-
-
-
-            <h2>Featured</h2>
-            <ul>
-                {% for p in site.tags.best %}
-                    <li class="catlink"><a href="{{ p.url }}">{{ p.title }}</a></li>
-                {% endfor %}
-            </ul>
-    </div>
-    </div>
 
     <div class="section">
         <div class="column is-8">
-            <h2>All writings</h2>
-
-
             <ul>
                 {% for p in sorted_posts %}
                     <li class="catlink">
@@ -49,8 +29,6 @@ layout: default
                     </li>
                 {% endfor %}
             </ul>
-
-
         </div>
 
         <a href="#" onclick="random();" class="button is-info is-rounded is-light">Random</a>
