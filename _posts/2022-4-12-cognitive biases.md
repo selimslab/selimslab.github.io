@@ -5,7 +5,7 @@ title: Cognitive Biases
 ---
 
 
-We tend to do what is quick, easy, comfortable. Rather than doing what is important.
+We tend to do what is quick, easy, comfortable over doing the important 
 
 Environment affects us more than we suspect
 

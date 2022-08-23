@@ -8,6 +8,6 @@ Focus on the audience
 
 What is the bottom line?
 
-Speak slow, deep, warm, passionate
+Speak clearly, with enthusiasm 
 
-Short and sweet 
+Keep it short and sweet 

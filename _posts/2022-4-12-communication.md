@@ -26,33 +26,27 @@ Listen to what isn't being said, too
 
 Think before you speak
 
-Clarify the message 
-
 Style matters
 
-Have a positive, constructive attitude. 
+Emotions drive the conversation 
 
-Emotions drive a conversation 
+Have a positive, constructive attitude. Say something good or say nothing.
 
-Breath well
-
-Say something good or say nothing.
-
-Voice and tone  
-
-People can't read your mind, something being obvious to you doesn't mean it's obvious to them 
+Breath, voice, tone 
 
 Repeat the bottom line
 
 Keep it short and sweet 
 
-Don't try to prove anything, people believe what they want to believe 
+People can't read your mind, something being obvious to you doesn't mean it's obvious to them 
 
 The best story wins, not the best idea
 
-Ask questions, make a dialog not a monolog 
+Don't try to prove anything, people believe what they want to believe 
 
-it's a easier to keep your thoughts in order when you share them frequently.
+monolog vs dialog
+
+It's a easier to keep your thoughts in order when you share them frequently.
 
 ---
 

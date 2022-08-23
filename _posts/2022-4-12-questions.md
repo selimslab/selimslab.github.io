@@ -7,6 +7,8 @@ title:  Questions
 
 What is in my control? What is not?
 
+---
+
 What do I not want in life?
 
 What would my best version do? 

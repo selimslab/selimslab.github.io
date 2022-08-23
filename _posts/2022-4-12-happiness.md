@@ -10,17 +10,23 @@ Expect less
 
 Appreciate more 
 
-Work 
-
-Love 
-
-Share 
-
-Hope 
+---
 
 Judge less
 
 Accept more
+
+---
+
+Work 
+
+Share 
+
+Love 
+
+Hope 
+
+--
 
 Less “I know”, 
 
@@ -31,6 +37,8 @@ more “It seems, maybe, probably”
 Even the darkest night will end 
 
 and the sun will rise.
+
+---
 
 Walk no more in shadows 
 
@@ -45,11 +53,9 @@ What you want isn't always best for you
 
 ---
 
-Speak less, do less, have less 
+Neither blame yourself nor others
 
 Its not worth your peace of mind 
-
-Neither blame yourself nor others
 
 ---
 
@@ -133,6 +139,10 @@ Live as if you listen to music, or you play music
 Play the game 
 
 The aim is the play itself 
+
+---
+
+Speak less, do less, have less 
 
 
 

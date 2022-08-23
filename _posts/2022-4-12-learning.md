@@ -4,9 +4,7 @@ title: Learning
 ---
 
 
-It's an art as almost every human activity 
-
-Only genuine interest and passion creates beautiful art
+It's an art and only genuine interest and passion creates beautiful art
 
 ---
 
