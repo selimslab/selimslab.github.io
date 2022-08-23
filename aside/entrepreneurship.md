@@ -79,7 +79,7 @@ People want what others want at surface levels but they want same things at the 
 - Interesting
 
 
-"People don’t buy products because of what those products do, they buy products because of what they imagine they can do   with them.”
+"People don’t buy products because of what those products do, they buy products because of what they imagine they can do with them.”
 
 
 
