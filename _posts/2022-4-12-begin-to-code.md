@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Curated sources to start programming
+title: Start programming
 ---
 
 [Crash Course Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
@@ -13,7 +13,7 @@ a short and visual book for a tour of algorithms [grokking algorithms](http://93
 
 Python is beginner friendly and simple. C is also good  [codecademy python](https://www.codecademy.com/learn/learn-python)
 
-Learn basics of git, clone, add, commit, push, pull request
+Learn the basics of git, clone, add, commit, push, pull request
    
 Meet the terminal, ls, cd, mv, top, mkdir, touch, cat, sort, grep, rm 
 

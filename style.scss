@@ -20,8 +20,8 @@ html {
 
 body {
   height:100vh;
-  background: #fffcfc;
-  font: 18px/1.6 $helveticaNeue;
+  background: #fffefc;
+  font: 1.2rem $helveticaNeue;
   color: $gray;
   border-top: 6px solid $primary;
   line-height: 1.6;
@@ -120,15 +120,11 @@ blockquote {
   }
 }
 
-.site-info {
-  float: left;
-}
 
 .site-name {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
   font-weight: 400;
   font-size: 2rem;
 }
@@ -136,7 +132,7 @@ blockquote {
 .site-description {
   margin: -5px 0 0 0;
   color: $gray;
-  font-size: 16px;
+  font-size: 1rem;
 
 }
 
@@ -150,9 +146,3 @@ footer {
 @import "highlights";
 
 
-img-full {
-  display: block !important; 
-  max-width: 100% !important;
-  height: auto !important;
-  margin-bottom: 2rem !important;
-}

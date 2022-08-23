@@ -61,4 +61,4 @@ exclude:
   - README.md
   - CNAME
 
-theme: minima
+theme: 

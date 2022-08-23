@@ -4,24 +4,22 @@ layout: default
 
 {% assign sorted_posts = site.posts | sort: "title" %}
 
-<!-- {% assign sorted_tags = site.tags | sort %}
-
-{% assign sorted_cats = site.categories | sort %} -->
-
-<div id="main" class="container">
-    <div class="column is-11 is-offset-1">
-
-
-    <div class="section" style="padding: 1rem 1rem">
-        <div class="search column is-3">
-            <input type="text" class="input is-rounded is-info is-medium" id="search-input" placeholder="Search..">
-            <ul style="list-style: none; margin-top:1rem" id="results-container"></ul>
-        </div>
-    </div>
 
 
     <div class="section">
-        <div class="column is-8">
+
+    </div>
+
+
+
+    <div class="section">
+
+        <div class="search column is-4 is-offset-1">
+            <input type="text" class="input is-rounded is-medium" id="search-input" placeholder="Search..">            
+            <ul style="list-style: none; margin-top:1rem" id="results-container"></ul>
+        </div>
+
+        <div class="column is-11 is-offset-1">
             <ul>
                 {% for p in sorted_posts %}
                     <li class="catlink">
@@ -29,26 +27,19 @@ layout: default
                     </li>
                 {% endfor %}
             </ul>
+
+            <a href="#" onclick="random();" style="font-size:3.6rem">🎲</a>
+
         </div>
 
-        <a href="#" onclick="random();" class="button is-info is-rounded is-light">Random</a>
-
-
 
     </div>
 
-     
 
-    </div>
-</div>
     {% include search.html %}
 
 
     <footer class="footer">
 
-        <p class="is-size-7">
-            All ideas on this site belong to their respective owners 
-          </p>
-
-      </footer>
+    </footer>
       
