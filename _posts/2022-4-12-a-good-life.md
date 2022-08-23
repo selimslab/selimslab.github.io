@@ -4,20 +4,15 @@ title: A good life
 ---
 
 
+What is a good life? 
 
-Character is worth the whole world  
+How to live? 
 
-Doing the right thing 
+---
 
-1. being aware of it 
-2. having the courage and ability to do it 
+We all have a philosophy and show it by the life we lead, even if we aren't aware of it 
 
-
-This takes time and practice 
-
-You need a lot of mistakes for a few good moves, 
-
-a lot bad ideas for a few good ideas. 
+Here's my collection of thoughts on these central questions 
 
 ---
 
@@ -26,6 +21,21 @@ Some things are in our control and others not
 Do what you can now and here 
 
 Don't worry for the rest 
+
+---
+
+You need a lot of mistakes for a few good moves, 
+
+a lot bad ideas for a few good ideas. 
+
+---
+
+
+Character is worth the whole world  
+
+Our actions and thoughts shape us slowly,
+
+Building a good character takes time and practice 
 
 ---
 
