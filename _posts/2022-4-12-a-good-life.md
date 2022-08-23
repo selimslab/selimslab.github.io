@@ -1,17 +1,19 @@
 ---
 layout: post
-title: On a good life  
+title: A good life  
 ---
 
 
 
-A good character is the highest honor one can have, nothing can harm it, its worth the whole world  
+Character is worth the whole world  
 
-Doing the right thing takes knowing it and having the courage and ability to do it 
+Doing the right thing 
 
----
+1. being aware of it 
+2. having the courage and ability to do it 
 
-Takes time and practice 
+
+This takes time and practice 
 
 You need a lot of mistakes for a few good moves, 
 
@@ -91,7 +93,7 @@ Beauty and ugliness are contagious
 
 ---
 
-Treat people with kindness and respect, even if they don't deserve it, out of self-respect and principle
+Treat people with kindness and respect, even when they don't deserve it, out of self-respect and principle
 
 ---
 
@@ -100,7 +102,7 @@ There are many ways to interpret reality
 ---
 
 
-What we give others is judgment, while what we ourselves seek from others is understanding.
+We deal out judgment to others and seek understanding for ourselves
 
 No one is completely foolish, and we are all foolish in some regards. 
 
@@ -158,9 +160,13 @@ Above all, don't lie to yourself.
 
 ---
 
-Happiness from an experience lasts longer. Material things have the worst kind of hedonic adaptation. 
+Happiness from an experience lasts longer. 
 
-Material gains come through great toil, and kept by great anxiety. 
+Material things have the worst kind of hedonic adaptation. 
+
+They come through great toil, and kept by great anxiety. 
+
+---
 
 Was Du erlebst, kann keine Macht der Welt Dir rauben. 
 
@@ -174,15 +180,19 @@ Life is not short but we waste it.
 
 ---
 
-The whole wisdom and beauty of the world is here to be explored and to expand your life beyond your time. 
+The whole wisdom and beauty of the world is here to be explored,
+
+and to expand your life beyond your time. 
+
+---
+
+The price of anything is the amount of life you exchange for it - Henry David Thoreau
 
 ---
 
 Remove all nonessentials. 
 
 Talk less, do less, think less. Recharge
-
-The price of anything is the amount of life you exchange for it - Henry David Thoreau
 
 ---
 

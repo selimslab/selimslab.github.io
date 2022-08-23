@@ -13,9 +13,12 @@ layout: default
             <ul style="list-style: none; margin-top:1rem;" id="results-container"></ul>
         </div>
 
-        <p class="column is-offset-1">---</p>
+        
 
         <div class="column is-11 is-offset-1">
+            <a href="#" onclick="random();" style="font-size:3.6rem">🎲</a>
+            <br>
+            <br>
             <ul>
                 {% for p in sorted_posts %}
                     <li class="catlink">
@@ -24,9 +27,7 @@ layout: default
                 {% endfor %}
             </ul>
 
-            <p>---</p>
 
-            <a href="#" onclick="random();" style="font-size:3.6rem">🎲</a>
 
         </div>
 
