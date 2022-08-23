@@ -113,4 +113,4 @@ Unfit mental models
 
 ---
 
-[clearerthinking](https://www.clearerthinking.org/tools-and-mini-courses)
+<https://www.clearerthinking.org/tools-and-mini-courses>
