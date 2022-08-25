@@ -1,4 +1,4 @@
-##  minimal blogging and mindmap system 
+##  a minimal writing and mindmap system 
  
 ## how to run
 
