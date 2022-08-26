@@ -1,17 +1,10 @@
 ---
+
 ---
 
-//
-// IMPORTS
-//
 
 @import "reset";
 @import "variables";
-// Syntax highlighting @import is at the bottom of this file
-
-/**************/
-/* BASE RULES */
-/**************/
 
 html {
   font-size: large;
@@ -20,15 +13,14 @@ html {
 
 body {
   height:100vh;
-  background: #fffefc;
+  background: $bg;
   font: 1.1rem $helveticaNeue;
   color: $gray;
-  border-top: 5px solid #1b78cf;
+  border-top: 5px solid $top;
   line-height: 1.6;
 }
 
 .navbar{
-  background-color: #fffcfc;
   margin-top: 1rem;
 }
 
@@ -51,6 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+  font-family: $georgia;
   font-size: 1.5rem;
   margin-bottom: 1rem;
   font-weight: bold;
@@ -136,10 +129,9 @@ blockquote {
 
 }
 
-
 footer {
   text-align: center;
-  background-color: #fffcfc !important; 
+  background-color: $bg !important; 
   padding: 3rem 1.5rem 3rem !important; 
 }
 
