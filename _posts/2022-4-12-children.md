@@ -12,7 +12,11 @@ The way to raise honest, brave, kind, hardworking, and loving children is to lea
 
 They should learn responsibility, how to solve problems, how to manage things on their own 
 
-Take them seriously and treat them with respect, it makes them feel like grown-ups and they love it 
+---
+
+Take them seriously and treat them with respect, 
+
+it makes them feel like grown-ups and they love it 
 
 <http://fallibleideas.com/taking-children-seriously>
 
@@ -20,6 +24,8 @@ Take them seriously and treat them with respect, it makes them feel like grown-u
 ---
 
 Ignorance isn’t stupidity
+
+---
 
 Let a child be angry, 
 
@@ -31,17 +37,13 @@ Remember that they are children and you are the adult
 
 ---
 
-If you have a rule, explain the reason, 
-
-life is much easier when they are convinced
-
----
-
 Wait a bit before buying something, 
 
 because they don't really want most things. having a 1 month rule is useful.
 
 
+---
 
+If you have a rule, explain the reason, 
 
-
+life is much easier when they are convinced

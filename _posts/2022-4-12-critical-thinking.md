@@ -12,6 +12,8 @@ Have you considered all your ideas and others to the bottom?
 
 Dare to see with your own eyes
 
+---
+
 "Delete the adjectives and you will have the facts."
 
 ---

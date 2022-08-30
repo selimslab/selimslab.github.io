@@ -122,7 +122,7 @@ The reason you don't have energy to workout is because you don't workout.
 
 ---
 
-"Youth is happy because it has the capacity to see beauty. Anyone who keeps the ability to see beauty never grows old."
+See the beauty in all 
 
 ---
 

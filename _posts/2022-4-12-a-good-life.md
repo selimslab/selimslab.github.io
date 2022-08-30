@@ -4,15 +4,13 @@ title: A good life
 ---
 
 
-What is a good life? 
-
-How to live? 
+How to live a good life? 
 
 ---
 
-We all have a philosophy and show it by the life we lead, even if we aren't aware of it 
+We show it by the life we lead
 
-Here's my collection of thoughts on these central questions 
+You become what you do 
 
 ---
 
