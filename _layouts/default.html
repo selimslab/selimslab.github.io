@@ -28,26 +28,19 @@
                 <h1 class="site-name title">{{ site.name }}</h1></a>
                 <p class="site-description subtitle">{{ site.description }}</p> 
               </div>
-      
-            </div>
+
+              <div class="navbar-item">
+                <a id="theme-toggle" onclick="modeSwitcher()" style="font-size:2rem">🌙</a>
+              </div>
+            
+
         </nav>
+
+        
 
         </div>
       </div>
     </div>
-
-    <!-- 
-<button class="button" onclick="document.body.classList.toggle('dark')">
-  <span class="icon">
-    <i class="fab fa-moon-o"></i>
-  </span>
-  <span>Dark/Light</span>
-</button> 
-
-    <button id="theme-toggle" onclick="modeSwitcher()"></button>
-
--->
-
 
 <article>
   {{ content }}
