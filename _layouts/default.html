@@ -16,33 +16,50 @@
 
     <div class="container" >
 
-    <div class="section" >
-
-      <div class="column is-11 is-offset-1">
-
-
-          <nav class="navbar is-transparent">
-              <div class="navbar-brand">
-                <a href="{{ site.baseurl }}/" class="site-avatar image"><img src="{{ site.avatar }}" /></a>
-                <div class="site-info">
-                  <h1 class="site-name title">{{ site.name }}</h1></a>
-                  <p class="site-description subtitle">{{ site.description }}</p> 
-                </div>
-        
+      <div class="section" >
+  
+        <div class="column is-11 is-offset-1">
+  
+  
+          <nav class="navbar">
+            <div class="navbar-brand">
+              <a href="{{ site.baseurl }}/" class="site-avatar image"><img src="{{ site.avatar }}" /></a>
+              <div class="site-info">
+                <h1 class="site-name title">{{ site.name }}</h1></a>
+                <p class="site-description subtitle">{{ site.description }}</p> 
               </div>
-          </nav>
+      
+            </div>
+        </nav>
 
+        </div>
       </div>
     </div>
 
+    <!-- 
+<button class="button" onclick="document.body.classList.toggle('dark')">
+  <span class="icon">
+    <i class="fab fa-moon-o"></i>
+  </span>
+  <span>Dark/Light</span>
+</button> 
 
+    <button id="theme-toggle" onclick="modeSwitcher()"></button>
+
+-->
+
+
+<article>
   {{ content }}
+</article>
 
 
 
-    </div>
+
+
 
     {% include random.html %}
+    {% include theme.html %}
 
   </body>
 

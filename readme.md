@@ -1,16 +1,14 @@
-##  a minimal writing and mindmap system 
+##  a minimal writing system 
  
-## how to run
-
-Clone the repo
+## install
 
 gem install bundler jekyll
 
+## serve
+
 bundle exec jekyll serve
 
-## how to make your own site
+## edit 
 
-Fork the repo 
-
-Create a new post in _posts folder 
+Create or edit files in _posts folder 
 

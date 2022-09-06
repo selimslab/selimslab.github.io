@@ -8,26 +8,36 @@
 
 html {
   font-size: large;
+  background: $bg;
+  font: 1.1rem $helveticaNeue;
+  color: $color;
 }
 
 
 body {
-  height:100vh;
-  background: $bg;
-  font: 1.1rem $helveticaNeue;
-  color: $gray;
   border-top: 5px solid $top;
   line-height: 1.6;
+  transition: background 0.5s ease-in, color 0.5s ease-in;
+}
+
+
+.dark {
+  color: #f0f1f2;
+  background: #202224;
 }
 
 .navbar{
   margin-top: 1rem;
 }
 
-
 .section{
   padding:
    1rem 1.5rem 1rem;
+}
+
+article{
+  margin: 0 auto;
+  max-width: 40rem;
 }
 
 .img-full{
@@ -131,7 +141,6 @@ blockquote {
 
 footer {
   text-align: center;
-  background-color: $bg !important; 
   padding: 3rem 1.5rem 3rem !important; 
 }
 

@@ -5,20 +5,19 @@ layout: default
 {% assign sorted_posts = site.posts | sort: "title" %}
 
 
+<article>
+      
+            <div class="search column is-6">
+                <input type="text" class="input is-rounded is-medium" id="search-input" placeholder="Search..">            
+                <ul style="list-style: none; margin-top:1rem;" id="results-container"></ul>
+            </div>
 
-    <div class="section">
+            
 
-        <div class="search column is-4 is-offset-1">
-            <input type="text" class="input is-rounded is-medium" id="search-input" placeholder="Search..">            
-            <ul style="list-style: none; margin-top:1rem;" id="results-container"></ul>
-        </div>
-
-        
-
-        <div class="column is-11 is-offset-1">
             <a href="#" onclick="random();" style="font-size:3.6rem">🎲</a>
             <br>
             <br>
+            
             <ul>
                 {% for p in sorted_posts %}
                     <li class="catlink">
@@ -31,16 +30,13 @@ layout: default
             <a href="#" onclick="random();" style="font-size:3.6rem">🎲</a>
 
 
-        </div>
-
-
-    </div>
+</article>
 
 
     {% include search.html %}
 
 
-    <footer class="footer">
+    <!-- <footer class="footer">
 
     </footer>
-      
+       -->

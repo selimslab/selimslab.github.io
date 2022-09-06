@@ -17,6 +17,15 @@ $white: #fbfbfb;
 
 $bg: #fffefc;
 $top: #1b78cf;
+$color: $gray;
+
+@media (prefers-color-scheme: dark) {
+    body{
+        $color: #f0f1f2;
+        $bg: #202224;
+    }
+
+ }
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;
