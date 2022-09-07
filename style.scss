@@ -48,7 +48,7 @@ html {
     margin-top: 1rem;
   }
   
-  
+
   
   .section{
     padding:
@@ -144,8 +144,11 @@ html {
   }
   
   
+
+
   .site-name {
-    margin: 0;
+    font-family: $georgia;
+    color: $darkGray;
     color: $darkGray;
     cursor: pointer;
     font-weight: 400;
@@ -153,7 +156,7 @@ html {
   }
   
   .site-description {
-    margin: -5px 0 0 0;
+    margin: 0.5rem 0 0 0;
     color: $gray;
     font-size: 1rem;
   }

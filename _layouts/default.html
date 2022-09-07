@@ -14,37 +14,45 @@
 
   <body>
 
-    <div class="container" >
-
-      <div class="section" >
-  
-        <div class="column is-11 is-offset-1">
-  
-  
+    <div class="container section" >
+    
           <nav class="navbar">
             <div class="navbar-brand">
               <a href="{{ site.baseurl }}/" class="site-avatar image"><img src="{{ site.avatar }}" /></a>
               <div class="site-info">
-                <h1 class="site-name title">{{ site.name }}</h1></a>
+                <a href="{{ site.baseurl }}/" class="site-name">{{ site.name }}</a>
                 <p class="site-description subtitle">{{ site.description }}</p> 
               </div>
+            </div>
 
-              <div class="navbar-item">
-                <a id="theme-toggle" onclick="modeSwitcher()" style="font-size:2rem">🌙</a>
-              </div>
-            
 
-        </nav>
+      
+          </nav>
 
-        
 
-        </div>
+          <article style="margin-bottom: 4rem;">
+
+
+          <a onclick="random();" style="font-size:2.5rem; float:right">🎲</a>
+          <a id="theme-toggle" onclick="modeSwitcher()" style="font-size:2.5rem; float:right; margin-right:1.8rem;">🌙</a> 
+
+          </article>
+ 
+
+        <article>
+
+
+
+          {{ content }}
+
+
+          <a onclick="random();" style="font-size:2.5rem; float:right">🎲</a>
+
+        </article>
+
+
       </div>
-    </div>
-
-<article>
-  {{ content }}
-</article>
+      
 
 
 
