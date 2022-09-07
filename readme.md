@@ -1,10 +1,12 @@
-##  a minimal writing system 
+##  miniblog 
  
+ a minimal Jekyll blog with dark mode, random post dice, and search
+
 ## install
 
 gem install bundler jekyll
 
-## serve
+## serve
 
 bundle exec jekyll serve
 
