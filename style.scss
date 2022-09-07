@@ -28,18 +28,21 @@ html[data-theme='dark'] {
   .site-description {
     color: $light-text;
   }
-}
 
+  footer{
+    background-color: $dark-bg !important;
+  }
+}
 
 
 html {
   font-size: large;
-  font: 1.1rem $helveticaNeue;
+  font: 1rem $helveticaNeue;
   background: $bg;
-  color: $gray
+  color: $gray;
 
-  body {
-    border-top: 5px solid $top;
+  body{
+    border-top: 8px solid $top;
     line-height: 1.6;
     transition: background 0.5s ease-in, color 0.5s ease-in;
   }
@@ -47,8 +50,6 @@ html {
   .navbar{
     margin-top: 1rem;
   }
-  
-
   
   .section{
     padding:
@@ -128,8 +129,6 @@ html {
     margin: 1em 1em;
     border-left: 2px solid $primary;
     padding: 0.1em 1em;
-    color: $gray;
-    font-size: 1rem;
   }
   
   
@@ -137,18 +136,15 @@ html {
     float: left;
     width: 96px;
     height: 96px;
-    margin-right: 15px;
+    margin-right: 1rem;
     img {
       border-radius: 5px;
     }
   }
   
   
-
-
   .site-name {
     font-family: $georgia;
-    color: $darkGray;
     color: $darkGray;
     cursor: pointer;
     font-weight: 400;
@@ -156,7 +152,6 @@ html {
   }
   
   .site-description {
-    margin: 0.5rem 0 0 0;
     color: $gray;
     font-size: 1rem;
   }
@@ -164,6 +159,7 @@ html {
   footer {
     text-align: center;
     padding: 3rem 1.5rem 3rem !important; 
+    background-color: $bg !important;
   }
 }
 

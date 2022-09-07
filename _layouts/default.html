@@ -19,45 +19,38 @@
           <nav class="navbar">
             <div class="navbar-brand">
               <a href="{{ site.baseurl }}/" class="site-avatar image"><img src="{{ site.avatar }}" /></a>
-              <div class="site-info">
+              <div class="site-info" style="margin-top:-5px">
                 <a href="{{ site.baseurl }}/" class="site-name">{{ site.name }}</a>
-                <p class="site-description subtitle">{{ site.description }}</p> 
+                <p class="site-description">{{ site.description }}</p> 
               </div>
+
+
+
             </div>
 
+
+            <div class="navbar-end">
+              <a onclick="random();" style="font-size:2.5rem; float:right;  margin:1rem;">🎲</a>
+              <a id="theme-toggle" onclick="modeSwitcher()" style="font-size:2.5rem; float:right; margin:1rem">🌙</a> 
+    
+            </div>
 
       
           </nav>
 
+          
 
-          <article style="margin-bottom: 4rem;">
-
-
-          <a onclick="random();" style="font-size:2.5rem; float:right">🎲</a>
-          <a id="theme-toggle" onclick="modeSwitcher()" style="font-size:2.5rem; float:right; margin-right:1.8rem;">🌙</a> 
-
-          </article>
- 
-
-        <article>
-
-
+        <article style="margin-top: 6rem;">
 
           {{ content }}
 
-
-          <a onclick="random();" style="font-size:2.5rem; float:right">🎲</a>
+          <a onclick="random();" style="font-size:3.6rem; float:right">🎲</a>
 
         </article>
 
 
       </div>
       
-
-
-
-
-
 
     {% include random.html %}
     {% include theme.html %}

@@ -4,23 +4,16 @@ title: A good life
 ---
 
 
-How to live a good life? 
-
----
-
-We show it by the life we lead
-
-You become what you do 
-
----
 
 Some things are in our control and others not
 
-Do what you can now and here 
+Do what you can, now and here 
 
 Don't worry for the rest 
 
 ---
+
+Do not regret mistakes, 
 
 You need a lot of mistakes for a few good moves, 
 
