@@ -7,4 +7,5 @@ gem install bundler jekyll
 
 ## serve
 
-new_name = 
+bundle exec jekyll serve
+

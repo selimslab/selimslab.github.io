@@ -24,11 +24,8 @@ html[data-theme='dark'] {
     color: $light-text;
   }
   hr{
-    height: 0.4px;
-  }
-
-  .site-name {
-    color: $light-text;
+    height: 0.2px;
+    font-weight: 100;
   }
   
   .site-description {
@@ -39,12 +36,15 @@ html[data-theme='dark'] {
     background-color: $dark-bg !important;
   }
 
-  ul {
-    li.catlink {
-      a {
-        color: $accent !important;
-      }
+
+  article{
+    a{
+      color: $lightBlue; 
     }
+  }
+
+  .site-name {
+    color: $light-text;
   }
 
 
@@ -59,7 +59,7 @@ html {
 
   body{
     line-height: 1.6;
-    transition: background 0.5s ease-in, color 0.5s ease-in;
+    transition: background 0.3s ease-in, color 0.3s ease-in;
   }
   .top{
     height: 12px;
@@ -118,12 +118,7 @@ html {
   strong{
     font-weight: bold;
   }
-  
-  a {
-    &:hover {
-      color: $blue;
-    }
-  }
+
   
   ul {
     li {
@@ -132,12 +127,12 @@ html {
   }
   
   li.catlink{
-      color: $blue;
-      margin-bottom: 1rem;
+      margin: 1rem;
+      margin-bottom: 2rem;
       list-style: none;
       padding-bottom: 0.4rem;
       :hover{
-        color:#48c774
+        color: $accent;
       }
   }
   

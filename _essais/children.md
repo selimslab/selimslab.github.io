@@ -14,12 +14,11 @@ They should learn responsibility, how to solve problems, how to manage things on
 
 ---
 
+<http://fallibleideas.com/taking-children-seriously>
+
 Take them seriously and treat them with respect, 
 
 it makes them feel like grown-ups and they love it 
-
-<http://fallibleideas.com/taking-children-seriously>
-
 
 ---
 

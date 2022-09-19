@@ -17,34 +17,21 @@
     <div class="top"></div>
 
     <div class="container section" >
-    
-          <nav class="navbar">
-            <div class="navbar-brand">
-              <a href="{{ site.baseurl }}/" class="site-avatar image"><img src="{{ site.avatar }}" /></a>
-              <div class="site-info" style="margin-top:-5px">
-                <a href="{{ site.baseurl }}/" class="site-name">{{ site.name }}</a>
-                <p class="site-description">{{ site.description }}</p> 
-              </div>
-
-
-
-            </div>
-
-
-            <div class="navbar-end">
-              <a onclick="random();" style="font-size:3rem; float:right;  margin:1rem;">🎲</a>
-              <a id="theme-toggle" onclick="modeSwitcher()" style="font-size:3rem; float:right; margin:1rem">🌙</a> 
-    
-            </div>
-
       
-          </nav>
+      <nav class="navbar">
+        <div class="navbar-brand">
+          <!-- <a href="{{ site.baseurl }}/" class="site-avatar image"><img src="{{ site.avatar }}" /></a> -->
+            <a href="{{ site.baseurl }}/" class="site-name" style="margin:1rem;">{{ site.name }}</a>
+
+            <a class="navbar-item" onclick="random();" style="font-size:2rem; float:right; margin-left:5rem;">🎲</a>
+            <a class="navbar-item" id="theme-toggle" onclick="modeSwitcher()" style="font-size:2rem; float:right;">🌙</a> 
+        </div>
+      </nav>
+    
+
 
           
-
-          
-
-        <article style="margin-top: 6rem;">
+        <article style="margin-top: 3rem;">
 
           {{ content }}
 
