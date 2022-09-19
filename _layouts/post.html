@@ -2,13 +2,15 @@
 layout: default
 ---
 
-<img class="img-full" style="width:100%; z-index: 0;" src="{{ page.img }}" alt="{{page.imgalt}}" />
+<img id="random-img" />
 
 <br>
 
 <h1>{{ page.title }}</h1>
 
 {{ content }}
+
+{% include random-img.html %}
 
 <!-- <p style="font-weight:300">{{ page.date | date: "%B %e, %Y" }}</p> -->
 

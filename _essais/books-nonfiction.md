@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Books, nonfiction  
+title: Books, non-fiction  
 ---
 
 
