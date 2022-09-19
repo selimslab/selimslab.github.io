@@ -193,7 +193,9 @@ The price of anything is the amount of life you exchange for it - Henry David Th
 
 Remove all nonessentials. 
 
-Talk less, do less, think less. Recharge
+Talk less, do less, think less. 
+
+Recharge
 
 ---
 

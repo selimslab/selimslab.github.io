@@ -5,7 +5,6 @@ title: Happiness
 ---
 
 
-
 Expect less 
 
 Appreciate more 
@@ -18,13 +17,7 @@ Accept more
 
 ---
 
-Work 
-
-Share 
-
-Love 
-
-Hope 
+Love, Work, Hope 
 
 ---
 
@@ -37,12 +30,6 @@ more “It seems, maybe, probably”
 Even the darkest night will end 
 
 and the sun will rise.
-
----
-
-Walk no more in shadows 
-
-Enjoy the sun 
 
 ---
 
@@ -126,7 +113,9 @@ See the beauty in all
 
 ---
 
-And now that you don't have to be perfect, you can be good.
+Walk no more in shadows 
+
+Enjoy the sun 
 
 ---
 
@@ -144,7 +133,9 @@ The aim is the play itself
 
 Speak less, do less, have less 
 
+---
 
+And now that you don't have to be perfect, you can be good.
 
 
  

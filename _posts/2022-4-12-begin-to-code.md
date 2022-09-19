@@ -26,3 +26,6 @@ Meet the terminal, ls, cd, mv, top, mkdir, touch, cat, sort, grep, rm
 [Teach Yourself Computer Science](https://teachyourselfcs.com/)
 
 [Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html)
+
+
+<a href="/teapot""><img style="max-width: 100px;" src="static/teapot.png"></a>
