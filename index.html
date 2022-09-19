@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% assign sortedsais = site.essais | sort: "title" %}
+
 
 <article>
       
@@ -11,7 +13,7 @@ layout: default
             </div>
     
             <ul>
-                {% for p in site.essais %}
+                {% for p in sortedsais %}
                     <li class="catlink">
                         <a href="{{ p.url }}">{{ p.title }}</a>
                     </li>
