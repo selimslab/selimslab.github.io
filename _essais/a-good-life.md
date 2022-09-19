@@ -133,6 +133,14 @@ Freedom is to conquer your dark side, your anger, greed, pride, ..
 
 ---
 
+You are a big as what makes you angry 
+
+A stone can disturb a pond but can't disturb the sea 
+
+Feel vast and deep like the ocean, nothing can harm you 
+
+---
+
 A good life is to have time for yourself and your loved ones, to be your master
 
 ---
