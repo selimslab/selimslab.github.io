@@ -5,23 +5,21 @@ layout: default
 {% assign sortedsais = site.essais | sort: "title" %}
 
 
-<article>
       
-            <div class="search column is-6">
-                <input type="text" class="input is-rounded is-medium" id="search-input" placeholder="Search..">            
-                <ul style="list-style: none; margin:1rem;" id="results-container"></ul>
-            </div>
-    
-            <ul>
-                {% for p in sortedsais %}
-                    <li class="catlink">
-                        <a href="{{ p.url }}">{{ p.title }}</a>
-                    </li>
-                {% endfor %}
-            </ul>
+    <div class="search column is-6">
+        <input type="text" class="input is-rounded is-medium" id="search-input" placeholder="Search..">            
+        <ul style="list-style: none; margin:1rem;" id="results-container"></ul>
+    </div>
+
+    <ul>
+        {% for p in sortedsais %}
+            <li class="catlink">
+                <a href="{{ p.url }}">{{ p.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
 
 
-</article>
 
 
     {% include search.html %}

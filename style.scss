@@ -39,7 +39,7 @@ html[data-theme='dark'] {
 
   article{
     a{
-      color: $lightBlue; 
+      color: $turquoise; 
     }
     a:visited{
       color: $accent;
@@ -79,10 +79,16 @@ html {
     padding:
      1rem 1.5rem 1rem;
   }
-  
+
   article{
     margin: 0 auto;
     max-width: 42rem;
+    a{
+      color: $darkBlue; 
+    }
+    a:visited{
+      color: $lightBlue;
+    }
   }
   
   .img-full{
