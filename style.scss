@@ -41,6 +41,9 @@ html[data-theme='dark'] {
     a{
       color: $lightBlue; 
     }
+    a:visited{
+      color: $accent;
+    }
   }
 
   .site-name {
@@ -79,7 +82,7 @@ html {
   
   article{
     margin: 0 auto;
-    max-width: 40rem;
+    max-width: 42rem;
   }
   
   .img-full{
@@ -127,8 +130,8 @@ html {
   }
   
   li.catlink{
-      margin: 1rem;
-      margin-bottom: 2rem;
+      margin: 2rem;
+      margin-bottom: 2.4rem;
       list-style: none;
       padding-bottom: 0.4rem;
       :hover{
@@ -160,7 +163,7 @@ html {
     font-family: $georgia;
     color: $darkGray;
     cursor: pointer;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 2rem;
   }
   
