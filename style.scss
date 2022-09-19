@@ -26,6 +26,10 @@ html[data-theme='dark'] {
     height: 0.2px;
     font-weight: 100;
   }
+
+  hr{
+    background-color: $dark-bg !important;
+  }
   
   .site-description {
     color: $light-text;
@@ -194,7 +198,9 @@ html {
     }
   }
 
-
+  hr{
+    background-color: $bg !important;
+  }
   
 
 }
