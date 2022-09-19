@@ -3,7 +3,6 @@
 ---
 
 
-@import "reset";
 @import "variables";
 
 
@@ -42,7 +41,7 @@ html[data-theme='dark'] {
       color: $turquoise; 
     }
     a:visited{
-      color: $accent;
+      color: $lightBlue;
     }
   }
 
@@ -184,11 +183,20 @@ html {
     background: $bg !important;
   }
 
+
+  #results-container{
+    margin-top: 1rem;
+    padding: 1rem;
+    li{
+      margin-bottom: 2rem;
+      a{
+        color: $accent;
+      }
+    }
+  }
+
+  
+
 }
-
-
-
-
-@import "highlights";
 
 
