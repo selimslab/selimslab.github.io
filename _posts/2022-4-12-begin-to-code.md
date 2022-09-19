@@ -28,4 +28,6 @@ Meet the terminal, ls, cd, mv, top, mkdir, touch, cat, sort, grep, rm
 [Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html)
 
 
-<a href="/teapot""><img style="max-width: 100px;" src="static/teapot.png"></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418">
+<img src="../static/teapot.png">
+</a>
