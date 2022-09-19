@@ -29,5 +29,5 @@ Meet the terminal, ls, cd, mv, top, mkdir, touch, cat, sort, grep, rm
 
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418">
-<img src="../static/teapot.png">
+<img src="/static/teapot.png">
 </a>
