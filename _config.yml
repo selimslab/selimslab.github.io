@@ -62,3 +62,9 @@ exclude:
   - CNAME
 
 theme: 
+
+
+collections:
+  essais:
+    sort_by: title
+    output: true

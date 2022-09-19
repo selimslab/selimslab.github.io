@@ -2,8 +2,6 @@
 layout: default
 ---
 
-{% assign sorted_posts = site.posts | sort: "title" %}
-
 
 <article>
       
@@ -15,7 +13,7 @@ layout: default
             <hr>
     
             <ul>
-                {% for p in sorted_posts %}
+                {% for p in site.essais %}
                     <li class="catlink">
                         <a href="{{ p.url }}">{{ p.title }}</a>
                     </li>
