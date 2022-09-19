@@ -1,42 +1,50 @@
 [
+
     {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Claude_Monet_-_La_Corniche_near_Monaco_-_Google_Art_Project.jpg/2560px-Claude_Monet_-_La_Corniche_near_Monaco_-_Google_Art_Project.jpg", 
-        "alt":  "La Corniche near Monaco"
-    },
-    {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Paul_C%C3%A9zanne%2C_Mont_Sainte-Victoire.jpg/2560px-Paul_C%C3%A9zanne%2C_Mont_Sainte-Victoire.jpg",
+        "src": "/static/2560px-Paul_Cézanne,_Mont_Sainte-Victoire.jpeg",
         "alt": "Mont Sainte-Victoire"
+
     },
     {
-        "src": "/static/2560px-Paul_Cézanne,_Mont_Sainte-Victoire.jpeg"
-    },
-    {
-        "src": "/static/mill.jpeg"
+        "src": "/static/mill.jpeg",
+        "alt":  "Coming from the mill"
     },   
     {
-        "src": "/static/La_Corniche_near_Monaco.jpeg"
+        "src": "/static/La_Corniche_near_Monaco.jpeg",
+        "alt":  "La Corniche near Monaco"
+
     },  
     {
-        "src": "/static/Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpeg"
+        "src": "/static/Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpeg",
+        "alt": "Luncheon of the Boating Party"
     },   
     {
-        "src": "/static/report%20me%20all%20well.jpeg"
+        "src": "/static/report%20me%20all%20well.jpeg",
+        "alt": "Report me all well"
     },
     {
-        "src": "/static//Eug%C3%A8ne_Louis_Lami_-_Opening_of_the_Great_Exhibition%2C_1_May_1851_-_Google_Art_Project.jpeg        "
+        "src": "/static//Eug%C3%A8ne_Louis_Lami_-_Opening_of_the_Great_Exhibition%2C_1_May_1851_-_Google_Art_Project.jpeg",
+        "alt": "Opening of the Great Exhibition"
     },
     {
-        "src": "/static/Jakob_Alt_-_View_from_the_Artist's_Studio_in_Alservorstadt_toward_Dornbach,_1836_-_Google_Art_Project.jpeg"
+        "src": "/static/Jakob_Alt_-_View_from_the_Artist's_Studio_in_Alservorstadt_toward_Dornbach,_1836_-_Google_Art_Project.jpeg", 
+        "alt": "View from the Artist's Studio in Alservorstadt toward Dornbach"
     },
     {
-        "src": "/static/olive.jpg"
+        "src": "/static/olive.jpg",
+        "alt": "Olive Trees, Van Gogh"
     },
     {
-        "src": "/static/starry.jpeg"
+        "src": "/static/starry.jpeg",
+        "alt": "Starry Night"
     },
     {
-        "src": "/static/almond.jpeg"
+        "src": "/static/almond.jpeg",
+        "alt": "Almond Blossom, Van Gogh"
+    },
+    {
+        "src": "/static/baroque.jpeg",
+        "alt": "View through a Baroque Colonnade into a Garden"
     }
-
    
 ]
