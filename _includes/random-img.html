@@ -1,7 +1,7 @@
 <script>
 
  (async() => {
-        let images = await fetch("/img.json")
+        let images = await fetch("/art.json")
         .then(response => response.json())
 
         await get_random_avatar(images)

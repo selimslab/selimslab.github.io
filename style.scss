@@ -43,12 +43,15 @@ body{
 
 .navbar {
   margin: 1rem;
+  background: inherit;
+  color: inherit;
 }
 
 article{
   max-width: 50%;
   margin: 0 auto;
   margin-top: 2rem;
+  padding: 1rem;
 
   a{
     color: $darkBlue; 
@@ -59,7 +62,8 @@ article{
 }
 
 p,li{
-  margin: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 h1 {
@@ -82,24 +86,29 @@ strong{
 ul {
   li {
     margin: 1rem;
-    margin-bottom: 1.618rem;
+    margin-bottom: 2rem;
+    :hover{
+      color: $accent;
+    }
   }
 }
 
 
-.site-name {
+a.site-name {
   font-family: $serif;
-  color: $darkGray;
-  cursor: pointer;
+  color: inherit;
   font-weight: 500;
   font-size: 2rem;
 }
+
+
+
 
 footer {
   margin-top: 5rem;
   text-align: center;
   padding: 3rem 1.5rem 3rem !important; 
-  background: $light-bg !important;
+  background: inherit !important;
   font-family: $serif;
 }
 
@@ -116,7 +125,7 @@ footer {
 }
 
 hr{
-  background-color: $light-bg !important;
+  background-color: inherit !important;
 }
 
 
@@ -134,14 +143,13 @@ blockquote {
 }
 
 #random-img-alt{
-  margin-top: 1rem;
   font-family: $serif;
   text-align: center !important;
 }
 
 @media only screen and (max-width: 600px) {
   article{
-    max-width: 90%;
+    max-width: 100%;
   }
   .img-full {
     max-width: 100%;
@@ -151,42 +159,18 @@ blockquote {
 }
 
 
-
-
-
 html[data-theme='dark'] {
 
   body{
     background: $dark-bg;
     color: $light-text;
   }
+
   .top{
     background: #373B44;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
-  
-  .navbar {
-    background: $dark-bg;
-    color: $light-text;
-  }
-  hr{
-    height: 0.2px;
-    font-weight: 100;
-  }
-
-  hr{
-    background-color: $dark-bg !important;
-  }
-  
-  .site-description {
-    color: $light-text;
-  }
-
-  footer{
-    background-color: $dark-bg !important;
-  }
-
 
   article{
     a{
@@ -197,9 +181,6 @@ html[data-theme='dark'] {
     }
   }
 
-  .site-name {
-    color: $light-text;
-  }
 
 
 }
