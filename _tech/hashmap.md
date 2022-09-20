@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A hash table in C from scratch
+title: Writing a hash table in C from scratch
 ---
 
 a hash map implementation in C, inspired by <https://github.com/jamesroutley/write-a-hash-table>

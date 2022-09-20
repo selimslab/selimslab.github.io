@@ -72,7 +72,9 @@ Are you still young and dumb enough to know everything?
 
 ---
 
-"Begin at the beginning," the King said, very gravely, "and go on till you come to the end: then stop.
+"Begin at the beginning," the King said, very gravely, 
+
+"and go on till you come to the end: then stop.
 
 ---
 
@@ -94,7 +96,11 @@ Beauty and ugliness are contagious
 
 ---
 
-Treat people with kindness and respect, even when they don't deserve it, out of self-respect and principle
+Treat people with kindness and respect, 
+
+even when they don't deserve it, 
+
+out of self-respect and principle
 
 ---
 
@@ -115,7 +121,11 @@ Each of us has the ability to heal
 
 ---
 
-A man is a success if he gets up in the morning and gets to bed at night, and in between he does what he wants to do. - Bob Dylan
+A man is a success if he gets up in the morning and gets to bed at night, 
+
+and in between he does what he wants to do. 
+
+Bob Dylan
 
 ---
 

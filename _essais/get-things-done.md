@@ -4,26 +4,45 @@ title: How to get things done?
 ---
 
 
-1. just start 
-2. define what you want
-3. do one thing and do it well 
-4. plan 
-5. prioritize
-6. do it with all your heart 
-7. start small 
-8. make a lot of mistakes
-9. do less
-10. sleep 
-11. drink water
-12. take a walk 
-13. talk to a friend
-14. say no more often
-15. rely on habits and systems 
-16. write more 
-17. work short, focused intervals and rest 
-18. prevent the worst 
-19. keep going 
-20. ignore sunk costs 
+define what you want
+
+do one thing and do it well 
+
+plan 
+
+prioritize
+
+do it with all your heart 
+
+start small 
+
+make a lot of mistakes
+
+do less
+
+sleep 
+
+drink water
+
+take a walk 
+
+talk to a friend
+
+say no more often
+
+rely on habits and systems 
+
+write more 
+
+work short, focused intervals and rest 
+
+prevent the worst 
+
+keep going 
+
+ignore sunk costs 
+
+just start 
 
 ---
 

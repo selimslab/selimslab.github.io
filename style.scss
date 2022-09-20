@@ -79,8 +79,9 @@ html {
 
   article{
     margin: 0 auto;
-    max-width: 60%;
-    margin-left: 30%;
+    max-width: 64%;
+    margin-left: 32%;
+    margin-top: 2rem;
     a{
       color: $darkBlue; 
     }
@@ -130,7 +131,7 @@ html {
   
   h2 {
     font-size: 1.2rem;
-    margin-bottom: 1rem;
+    margin: 1rem;
     font-weight: bold;
     color: $accent;
   }
@@ -194,15 +195,17 @@ html {
   }
   
   footer {
+    margin-top: 5rem;
     text-align: center;
     padding: 3rem 1.5rem 3rem !important; 
     background: $bg !important;
+    font-family: $georgia;
   }
 
 
   #results-container{
     margin-top: 1rem;
-    padding: 1rem;
+    padding-left: 1rem;
     li{
       margin-bottom: 2rem;
       a{
@@ -214,6 +217,11 @@ html {
   hr{
     background-color: $bg !important;
   }
+
+  // .gh{
+  //   position:absolute;
+  //   right: 5%;
+  // }
   
 
 }
