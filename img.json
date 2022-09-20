@@ -73,6 +73,32 @@
     {
         "src": "/static/Claude_Monet_-_Boulevard_des_Capucines_-_Google_Art_Project.jpeg",
         "alt": "Boulevard des Capucines"
-    }
+    },
+    {
+        "src": "/static/804px-The_Scream.jpeg",
+        "alt": "The Scream"
+    },
+    {
+        "src": "/static/Auguste_Renoir_-_La_Grenouillère.jpeg",
+        "alt": "La_Grenouillère"
+    },
+    {
+        "src": "/static/The_Boulevard_Montmartre_on_a_Winter_Morning.jpeg",
+        "alt": "The Boulevard Montmartre on a Winter Morning"
+    },
+    {
+        "src": "/static/The_Great_Wave_off_Kanagawa.jpeg",
+        "alt": "The Great Wave off Kanagawa"
+    },
+    {
+        "src": "/static/1247px-Vincent_van_Gogh_-_Green_Field_-_Google_Art_Project.jpeg",
+        "alt": "Green Field"
+    },
+    {
+        "src": "/static/Sisley-Bridge_at_Villeneuve-la-Garenne.jpeg",
+        "alt": "Bridge at Villeneuve"
+    },
+    
+
    
 ]
