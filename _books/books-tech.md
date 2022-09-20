@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Books, software and tech  
+title: Software and tech  
 ---
 
 Some of the books I enjoyed 
@@ -41,7 +41,7 @@ Writing A Compiler In Go
 
 Fluent Python: Clear, Concise, and Effective Programming
 
-## Systems
+## Systems
 
 Thinking in Systems: A Primer
 

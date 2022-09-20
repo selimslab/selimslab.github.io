@@ -4,6 +4,9 @@ layout: default
 
 {% assign sortedsais = site.essais | sort: "title" %}
 
+{% assign sortedtech = site.tech | sort: "title" %}
+
+{% assign sortedbooks = site.books | sort: "title" %}
 
       
     <div class="search column is-6">
@@ -11,8 +14,30 @@ layout: default
         <ul style="list-style: none" id="results-container"></ul>
     </div>
 
+    <h2>Essais</h2>
+
     <ul>
         {% for p in sortedsais %}
+            <li class="catlink">
+                <a href="{{ p.url }}">{{ p.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <h2>Readings</h2>
+
+    <ul>
+        {% for p in sortedbooks %}
+            <li class="catlink">
+                <a href="{{ p.url }}">{{ p.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <h2>Tech</h2>
+
+    <ul>
+        {% for p in sortedtech %}
             <li class="catlink">
                 <a href="{{ p.url }}">{{ p.title }}</a>
             </li>

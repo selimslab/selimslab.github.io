@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Books, fiction  
+title: Fiction  
 ---
 	
 Some of the books I enjoyed 

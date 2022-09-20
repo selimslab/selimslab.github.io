@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Writing a garbage collector in C
+title: A garbage collector in C
 ---
 
 

@@ -3,6 +3,9 @@ layout: post
 title: Emergence and Chaos
 ---
 
+Based on Behave: The Biology of Humans at Our Best and Worst by Sapolsky 
+
+---
 
 Basic building blocks follow a few simple rules,
 

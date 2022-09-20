@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: Essais
+name: selimsnotes
 
 # Short bio or description (displayed in the header)
 description: distilled writings   
@@ -66,5 +66,11 @@ theme:
 
 collections:
   essais:
+    sort_by: title
+    output: true
+  tech:
+    sort_by: title
+    output: true
+  books:
     sort_by: title
     output: true

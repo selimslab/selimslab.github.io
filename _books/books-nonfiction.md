@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Books, non-fiction  
+title: Non-fiction  
 ---
 
 
@@ -74,13 +74,13 @@ The Emperor of All Maladies: A Biography of Cancer
 Why We Sleep: Unlocking the Power of Sleep and Dreams
 
 
-## history 
+## history 
 
 Sapiens: A Brief History of Humankind
 
 The Lessons of History, Durant, Will
 
-## econonomics 
+## econonomics 
 
 Freakonomics
 
@@ -90,7 +90,7 @@ Understanding Power: The Indispensable Chomsky
 
 The Prince
 
-## sports
+## sports
 
 Mountaineering: The Freedom of the Hills
 
