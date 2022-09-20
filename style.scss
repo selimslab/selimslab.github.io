@@ -77,6 +77,8 @@ h1 {
 h2 {
   font-size: 1.2rem;
   font-weight: bold;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 strong{
@@ -130,9 +132,13 @@ hr{
 
 
 blockquote {
-  margin: 1em 1em;
+  margin: 1rem;
   border-left: 2px solid $lightBlue;
-  padding: 0.1em 1em;
+  padding: 1rem;
+}
+
+pre{
+  padding: 1rem !important;
 }
 
 
