@@ -3,8 +3,14 @@ layout: post
 title: Fiction  
 ---
 	
-    
+
+Cien años de soledad 
+
 Don Quixote
+
+Ensaio Sobre a Cegueira
+
+Hamlet
 
 Les Miserables
 
@@ -13,8 +19,6 @@ Nausea
 Oblomov
 
 Of Mice and Men
-
-One Hundred Years of Solitude
 
 Strange Planet
 
@@ -26,7 +30,11 @@ The Gambler
 
 The Hitchhiker's Guide to the Galaxy
 
+The Hobbit 
+
 The Iliad
+
+The Little Prince
 
 The Lorax
 

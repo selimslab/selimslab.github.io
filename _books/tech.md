@@ -4,9 +4,13 @@ title: Software and tech
 ---
 
 
-## Fundamentals 
+## General 
 
 Code: The Hidden Language of Computer Hardware and Software
+
+Hackers & Painters: Big Ideas from the Computer Age
+
+Algorithms to Live By: What Computers Can Teach Us About Solving Human Problems
 
 ## OS 
 
@@ -14,7 +18,7 @@ Operating Systems: Three Easy Pieces
 
 Writing a Simple Operating System from Scratch
 
-OS 0 to 1 
+Operating Systems, From 0 to 1 
 
 ## Algorithms
 
@@ -28,19 +32,7 @@ Algorithms by Sedgewick
 
 ## Languages
 
-The C Programming Language
-
-Go Programming Language
-
-Rust Programming Language
-
-Writing A Compiler In Go
-
 Fluent Python: Clear, Concise, and Effective Programming
-
-## Systems
-
-Thinking in Systems: A Primer
 
 ## ML 
 
@@ -64,12 +56,6 @@ Shape Up: Stop Running in Circles and Ship Work that Matters
 
 Zero to One: Notes on Startups, or How to Build the Future
 
-## Tech and life 
-
-Hackers & Painters: Big Ideas from the Computer Age
-
-Algorithms to Live By: What Computers Can Teach Us About Solving Human Problems
-
 ## Engineering Discipline  
 
 Clean Code: A Handbook of Agile Software Craftsmanship
@@ -83,6 +69,8 @@ Code Complete
 Software Engineering at Google: Lessons Learned from Programming Over Time
 
 The Mythical Man-Month: Essays on Software Engineering
+
+Thinking in Systems: A Primer
 
 
 
