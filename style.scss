@@ -6,60 +6,10 @@
 @import "variables";
 
 
-html[data-theme='dark'] {
-  background: $dark-bg;
-  color: $light-text;
-  body{
-    color: $light-text;
-  }
-  .top{
-    background: #373B44;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  }
-  
-  .navbar {
-    background: $dark-bg;
-    color: $light-text;
-  }
-  hr{
-    height: 0.2px;
-    font-weight: 100;
-  }
-
-  hr{
-    background-color: $dark-bg !important;
-  }
-  
-  .site-description {
-    color: $light-text;
-  }
-
-  footer{
-    background-color: $dark-bg !important;
-  }
-
-
-  article{
-    a{
-      color: $turquoise; 
-    }
-    a:visited{
-      color: $lightBlue;
-    }
-  }
-
-  .site-name {
-    color: $light-text;
-  }
-
-
-}
-
 
 html {
-  font-size: large;
-  font: 1rem $helveticaNeue;
+  font-size: x-large;
+  font: $helveticaNeue;
   background: $bg;
   color: $gray;
 
@@ -223,7 +173,58 @@ html {
   //   right: 5%;
   // }
   
-
 }
 
 
+
+
+
+html[data-theme='dark'] {
+  background: $dark-bg;
+  color: $light-text;
+  body{
+    color: $light-text;
+  }
+  .top{
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  .navbar {
+    background: $dark-bg;
+    color: $light-text;
+  }
+  hr{
+    height: 0.2px;
+    font-weight: 100;
+  }
+
+  hr{
+    background-color: $dark-bg !important;
+  }
+  
+  .site-description {
+    color: $light-text;
+  }
+
+  footer{
+    background-color: $dark-bg !important;
+  }
+
+
+  article{
+    a{
+      color: $turquoise; 
+    }
+    a:visited{
+      color: $lightBlue;
+    }
+  }
+
+  .site-name {
+    color: $light-text;
+  }
+
+
+}
