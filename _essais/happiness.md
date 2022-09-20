@@ -101,7 +101,11 @@ Let not future troubles you, for you will have the same reason
 
 ---
 
-The pain is neither unbearable nor unending, as long as you keep in mind its limits and don't magnify them in your imagination.
+The pain is neither unbearable nor unending, 
+
+as long as you keep in mind its limits 
+
+and don't magnify them in your imagination.
 
 ---
 

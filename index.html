@@ -21,7 +21,7 @@ layout: default
 
     <ul>
         {% for p in sortedsais %}
-            <li class="catlink">
+            <li>
                 <a href="{{ p.url }}">{{ p.title }}</a>
             </li>
         {% endfor %}
@@ -31,7 +31,7 @@ layout: default
 
     <ul>
         {% for p in sortedbooks %}
-            <li class="catlink">
+            <li>
                 <a href="{{ p.url }}">{{ p.title }}</a>
             </li>
         {% endfor %}
@@ -41,7 +41,7 @@ layout: default
 
     <ul>
         {% for p in sortedtech %}
-            <li class="catlink">
+            <li>
                 <a href="{{ p.url }}">{{ p.title }}</a>
             </li>
         {% endfor %}
