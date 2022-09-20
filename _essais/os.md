@@ -13,7 +13,7 @@ Questions follow each other.
 
 This is a project to understand and replicate the great [os-tutorial](https://github.com/cfenollosa/os-tutorial) 
 
-Logos bootloads a kernel, connects it to the keyboard and screen, and starts a basic shell 
+Logos bootloads a kernel, connects to the keyboard and screen, and starts a basic shell 
 
 <https://github.com/selimslab/logos>
 
