@@ -1,3 +1,11 @@
+---
+layout: post
+title: Snippets, JS 
+---
+
+## MapReduce 
+
+```
 function map(func, array) {
     var result = [];
     forEach(array, function (element) {
@@ -34,3 +42,4 @@ function map(func, array) {
   
   var sumOfArrayElements = array.reduce(sum, 0)
   var productOfArrayElements = array.reduce(product, 1)
+```
