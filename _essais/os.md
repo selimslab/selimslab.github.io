@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logos: a very simple operating system kernel from scratch
+title: Logos, a very simple operating system kernel from scratch
 ---
 
 Modern life runs on computers, and they run on operating systems 
