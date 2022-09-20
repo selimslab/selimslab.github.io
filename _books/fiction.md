@@ -3,51 +3,46 @@ layout: post
 title: Fiction  
 ---
 	
-Some of the books I enjoyed 
-
----
-
-One Hundred Years of Solitude 
-
-The Iliad 
-	
-The Odyssey
-
+    
 Don Quixote
-
-Of Mice and Men
-
-The Count of Monte Cristo
-
-Strange Planet 
-
-The Gambler by Dostoyevski
 
 Les Miserables
 
+Nausea
+
 Oblomov
 
-The Hitchhiker's Guide to the Galaxy #1
+Of Mice and Men
+
+One Hundred Years of Solitude
+
+Strange Planet
+
+The Count of Monte Cristo
+
+The Death of Ivan Ilych
+
+The Gambler
+
+The Hitchhiker's Guide to the Galaxy
+
+The Iliad
+
+The Lorax
 
 The Lord of the Rings
 
-Overcoat, Gogol
-
-The Death of Ivan Ilych
-	
-The Lorax
-
-Aganta Burina Burinata
-
-The Plague, Camus 
-
-The Stranger, Camus
-
-Trial, Kafka 
-	
 The Metamorphosis
-	
-Nausea, Sartre 
+
+The Odyssey
+
+The Overcoat
+
+The Plague
+
+The Stranger
+
+The Trial
 
 
 

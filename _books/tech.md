@@ -3,9 +3,6 @@ layout: post
 title: Software and tech  
 ---
 
-Some of the books I enjoyed 
-
----
 
 ## Fundamentals 
 

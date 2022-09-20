@@ -3,11 +3,6 @@ layout: post
 title: Non-fiction  
 ---
 
-
-Some of the books I enjoyed 
-
----
-
 ## phil 
 
 Enchiridion 
@@ -98,10 +93,6 @@ Mountaineering: The Freedom of the Hills
 ## earth 
 
 A Life on Our Planet: My Witness Statement and a Vision for the Future
-
-
-
-## other nonfiction
 
 
 
