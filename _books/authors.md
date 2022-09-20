@@ -5,61 +5,53 @@ title: Some favorite authors
 ---
 
 
-Lao Tzu
+Antoine de Saint-Exupéry
 
-Homer
-
-Aristotle 
-
-Epictetus
-
-Marcus Aurelius
-
-Seneca 
-
-Plato 
+Aristotle
 
 Cervantes
 
-Montaigne 
+Dostoyevski
 
-Sheakspeare 
-
-Dosto
+Epictetus
 
 Gogol
 
-Tolstoy  
+Hawking
 
-Kant 
+Homer
+
+Kafka
+
+Kant
 
 Kierkegaard
 
-Schopenhauer 
- 
-Tolkien
+Lao Tzu
 
-Kafka
- 
-Marquez 
+Marcus Aurelius
 
-Anne Frank
+Marquez
 
-Viktor Frankl
+Montaigne
 
-Chomsky
+Orwell
+
+Plato
+
+Sagan
 
 Sartre
 
-Hawking 
+Schopenhauer
 
-Sagan 
+Seneca
 
-Orwell 
+Sheakspeare
 
-Camus 
+Tolkien
 
-Antoine de Saint-Exupéry
+Tolstoy
 
 
 

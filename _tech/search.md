@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A search engine with page rank, in 200 lines 
+title: Writing a search engine with page rank, in 200 lines 
 ---
 
 

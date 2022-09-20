@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pseudo algorithms
+title: Algorithms
 ---
 
 ## Graph Search 
