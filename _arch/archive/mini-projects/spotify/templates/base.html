@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Merlin Search Engine</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item is-family-monospace is-size-4 is-bold has-text-primary">
+            Merlin
+        </a>
+    </div>
+</nav>
+
+<div class="container">
+
+    <form method="POST">
+        <div class="columns">
+            <div class="field column">
+
+                <p class="control has-icons-left">
+                    <input name="search" class="input is-large is-rounded" type="text"
+                           placeholder="">
+
+                    <span class="icon is-small is-left">
+                        <i class="fas fa-search"></i>
+                    </span>
+                </p>
+
+            </div>
+            <div class="field column">
+                <p class="control is-right">
+                    <button class="button is-primary is-rounded is-large">Search</button>
+                </p>
+            </div>
+        </div>
+
+
+    </form>
+
+    {% if query %}
+    <p class="is-family-monospace">results for {{query}} </p>
+    {% endif %}
+
+    {% if message %}
+    <p class="is-family-monospace">{{message}}</p>
+    {% endif %}
+
+
+    {% if top_tracks %}
+    <table class="table">
+        <tr>
+            <th>album image</th>
+            <th>track</th>
+            <th>artist</th>
+            <th>release date</th>
+        </tr>
+
+        {% for track in top_tracks %}
+        <tr>
+            <td>
+                <figure class="image is-128x128">
+                    <img src={{track.album_image_url}}>
+                </figure>
+            </td>
+            <td>{{ track.track }}</td>
+            <td>{{ track.artist }}</td>
+            <td>{{ track.release_date }}</td>
+
+        </tr>
+        {% endfor %}
+
+    </table>
+
+    {% endif %}
+
+</div>
+
+</body>
+</html>
