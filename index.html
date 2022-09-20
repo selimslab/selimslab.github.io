@@ -8,11 +8,15 @@ layout: default
 
 {% assign sortedbooks = site.books | sort: "title" %}
 
+<article>
+
       
-    <div class="search column is-6" style="padding-left:0">
-        <input type="text" class="input is-rounded is-medium" id="search-input" placeholder="Search..">            
-        <ul style="list-style: none" id="results-container"></ul>
-    </div>
+        <div class="search column is-6" style="padding-left:0">
+            <input type="text" class="input is-rounded is-medium" id="search-input" placeholder="Search..">            
+            <ul style="list-style: none" id="results-container"></ul>
+        </div>
+    
+
 
     <h2>Essais</h2>
 
@@ -45,6 +49,7 @@ layout: default
     </ul>
 
 
+</article>
 
 
     {% include search.html %}

@@ -1,57 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
-    {% include meta.html %}
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-
-  </head>
-
-  <body>
-
-    <div class="top"></div>
-
-    <div class="container section" >
-      
-      <nav class="navbar">
-        <div class="navbar-brand">
-          <!-- <a href="{{ site.baseurl }}/" class="site-avatar image"><img src="{{ site.avatar }}" /></a> -->
-            <a style="margin-left:1rem" href="{{ site.baseurl }}/" class="site-name">{{ site.name }}</a>
-
-            <a onclick="random();" style="font-size:2rem; float:right; margin-left:3.236rem;">🎲</a>
-            <a id="theme-toggle" onclick="modeSwitcher()" style="font-size:2rem; float:right; margin-left: 2rem;">🌙</a> 
-        </div>
-      </nav>
-    
+  {% include head.html %}
 
 
-          
-        <article style="margin-top: 3rem; padding:1rem">
+<body>
 
-          {{ content }}
-
-        </article>
+  <div class="top"></div>
 
 
-      </div>
-      
-      <hr>
+  {% include nav.html %}
 
-      <footer class="footer">
-        <p>All rights reserved © 2022</p>
-        <p>Made with ❤️ by <a href="https://github.com/selimslab">Selim</a></p>
-      </footer>
-      
+  {{ content }}
 
-    {% include random.html %}
-    {% include theme.html %}
+  {% include footer.html %}
 
-  </body>
+  {% include random.html %}
+  {% include theme.html %}
+
+</body>
 
 
 </html>
