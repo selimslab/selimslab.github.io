@@ -2,16 +2,34 @@
 
 ---
 
+$accent : #48c774;
 
-@import "variables";
+$darkBlue: #155da0;
+$lightBlue: #4098eb;
+$turquoise: #56CCF2;
 
+// Grays
+$gray: #555;
+$darkGray: #333;
+$darkerGray: #222;
+$black: #000;
+
+// Font stacks
+$sansSerif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif: Georgia, serif;
+
+$dark-bg: #2a2e32;
+$light-text: #f0f1f2;
+
+$light-bg: #fffefc;
+$dark-text: $gray;
 
 
 html {
   font-size: larger;
-  font: $helveticaNeue;
-  background: $bg;
-  color: $gray;
+  font: $sansSerif;
+  background: $light-bg;
+  color: $dark-text;
 
   body{
     line-height: 1.6;
@@ -61,14 +79,14 @@ html {
   
   #random-img-alt{
     margin-top: 1rem;
-    font-family: $georgia;
+    font-family: $serif;
     text-align: center !important;
   }
   
 
   
   h1 {
-    font-family: $georgia;
+    font-family: $serif;
     font-size: 1.5rem;
     margin-bottom: 1rem;
     font-weight: bold;
@@ -93,7 +111,7 @@ html {
 
   
   .site-name {
-    font-family: $georgia;
+    font-family: $serif;
     color: $darkGray;
     cursor: pointer;
     font-weight: 500;
@@ -104,8 +122,8 @@ html {
     margin-top: 5rem;
     text-align: center;
     padding: 3rem 1.5rem 3rem !important; 
-    background: $bg !important;
-    font-family: $georgia;
+    background: $light-bg !important;
+    font-family: $serif;
   }
 
 
@@ -121,13 +139,11 @@ html {
   }
 
   hr{
-    background-color: $bg !important;
+    background-color: $light-bg !important;
   }
 
   
 }
-
-
 
 
 
