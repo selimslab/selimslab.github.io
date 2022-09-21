@@ -61,7 +61,7 @@ article{
   }
 }
 
-p,li{
+p{
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
@@ -88,13 +88,22 @@ strong{
 ul {
   li {
     margin: 1rem;
-    margin-bottom: 2rem;
     :hover{
       color: $accent;
     }
   }
 }
 
+
+ol {
+  li {
+    margin: 1rem;
+    margin-left: 2rem;
+    :hover{
+      color: $accent;
+    }
+  }
+}
 
 a.site-name {
   font-family: $serif;
@@ -132,9 +141,9 @@ hr{
 
 
 blockquote {
-  margin: 1rem;
   border-left: 2px solid $lightBlue;
-  padding: 1rem;
+  padding-left: 1rem;
+  margin:1rem;
 }
 
 pre{
