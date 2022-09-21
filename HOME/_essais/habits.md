@@ -4,6 +4,15 @@ title: Habits
 ---
 
 
-To break a bad habit, focus and feel the habit 
+Focus and feel it to break a bad habit 
 
-To gain a good habit, make it easy, visible, and rewarding 
+Make good habits easy, visible, and rewarding 
+
+---
+
+A clear time and place helps 
+
+Here and now 
+
+
+

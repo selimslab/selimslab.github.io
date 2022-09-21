@@ -5,6 +5,25 @@ title: Bitworks
 
 
 ```
+Get 
+num & 1<<i 
+
+Set 
+num | 1<<i
+
+Clear 
+num & ~(1<<i)
+
+masks
+
+(1<<i)-1 = 0100 
+0100 - 1 = 0011
+
+-1 << (i+1) = 1111 
+1111 << 2 =  1100 
+```
+
+```
 func reverseBits(num uint32) uint32 {
     /*
     Input: 00000010100101000001111010011100
