@@ -1,12 +1,21 @@
 ---
 layout: post
-title: Algorithms, Data Structures
+title: Data Structures
 ---
 
 
 
 ## String 
 
+```
+def reverseOnlyLetters(self, S: str) -> str:
+    stack = [c for c in S if c.isalpha()]
+    ans = [
+        stack.pop() if c.isalpha() else c
+        for c in S
+    ]
+    return "".join(ans)
+```
 
 ## Array 
 
@@ -21,8 +30,6 @@ title: Algorithms, Data Structures
 
 
 ## Linked List
-
-### Sort 
 
 <https://leetcode.com/problems/sort-list/>
 

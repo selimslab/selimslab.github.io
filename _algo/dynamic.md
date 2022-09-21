@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Algorithms, Dynamic
+title: Dynamic
 ---
 
 
@@ -25,6 +25,48 @@ def fib(n):
     if n not in memo.keys():
         memo[n] = fib(n - 1) + fib(n - 2)
     return memo.get(n)
+```
+
+## Stairs
+
+```
+
+On a staircase, the i-th step has some non-negative cost cost[i] assigned (0 indexed).
+
+Once you pay the cost, you can either climb one or two steps. 
+You need to find minimum cost to reach the top of the floor, 
+and you can either start from the step with index 0, or the step with index 1.
+
+Example 1:
+Input: cost = [10, 15, 20]
+Output: 15
+Explanation: Cheapest is start on cost[1], pay that cost and go to the top.
+
+Example 2:
+Input: cost = [1, 100, 1, 1, 1, 100, 1, 1, 100, 1]
+Output: 6
+Explanation: Cheapest is start on cost[0], and only step on 1s, skipping cost[3].
+
+Note:
+cost will have a length in the range [2, 1000].
+Every cost[i] will be an integer in the range [0, 999].
+
+func minCostClimbingStairs(cost []int) int {
+    c1,c2 := cost[0], cost[1]
+    var min = func(a int,b int) int {
+        if a<b{
+            return a
+        }
+        return b 
+    }
+    
+    for i:=2; i<len(cost); i++{
+        c1, c2 = c2, cost[i] + min(c1,c2)
+    }
+            
+    return min(c1,c2)
+            
+}
 ```
 
 ## Unique BST 
@@ -94,7 +136,6 @@ def rob_tree(nums: List[int]) -> int:
     node.rob = node.val + left.skip + right.skip
     node.skip = max(left.rob, left.skip) + max(right.rob, right.skip)
 ```
-
 
 
 ## Stocks with 1 day cooldown
@@ -229,5 +270,169 @@ func minDistance(word1 string, word2 string) int {
     table := map[key]int{}
     return dist(word1,word2,table, i, j )
     
+}
+```
+
+## Word Break 
+
+<https://leetcode.com/problems/word-break/>
+
+```
+
+Given a non-empty string s and a dictionary wordDict containing a list of non-empty words, determine if s can be segmented into a space-separated sequence of one or more dictionary words.
+
+Note:
+
+The same word in the dictionary may be reused multiple times in the segmentation.
+You may assume the dictionary does not contain duplicate words.
+Example 1:
+
+Input: s = "leetcode", wordDict = ["leet", "code"]
+Output: true
+Explanation: Return true because "leetcode" can be segmented as "leet code".
+Example 2:
+
+Input: s = "applepenapple", wordDict = ["apple", "pen"]
+Output: true
+Explanation: Return true because "applepenapple" can be segmented as "apple pen apple".
+             Note that you are allowed to reuse a dictionary word.
+Example 3:
+
+Input: s = "catsandog", wordDict = ["cats", "dog", "sand", "and", "cat"]
+Output: false
+
+def wordBreak(self, s: str, wordDict: List[str]) -> bool:
+    """
+    this can be broken down to subproblems
+    if we know a string is ok up to the 42nd index, it's enough to check from there 
+    a list can keep track of this, ok = []
+    if up to ith index of s is ok, ok[i] will be True 
+    eg. 
+    s="cars" 
+    wordDict = [car, ca, rs]
+    start walking from the start
+    ok = [t,f,f,f,f,f]
+    c, ca -> yes ca in dict, so ok becomes [t,f,t,f,f]
+    a, ar, ars nope
+    r, rs -> yes rs in dict, ok becomes [t,f,t,f,t]
+    """
+
+    ok = [True] + [False] * (len(s))
+
+    for i in range(1,len(s)+1): 
+        for j in range(i): # j is the start index
+            # start point has to be ok, 
+            # otherwise starting from here does not make sense
+            if ok[j] and s[j:i] in wordDict: 
+                    # we are ok up to index j 
+                    ok[i] = True
+                    break 
+    return ok[-1]
+```
+
+
+<https://leetcode.com/problems/longest-increasing-subsequence/>
+
+```
+/*
+Given an unsorted array of integers, find the length of longest increasing subsequence.
+
+Example:
+
+Input: [10,9,2,5,3,7,101,18]
+Output: 4 
+Explanation: The longest increasing subsequence is [2,3,7,101], therefore the length is 4. 
+Note:
+
+There may be more than one LIS combination, it is only necessary for you to return the length.
+Your algorithm should run in O(n2) complexity.
+Follow up: Could you improve it to O(n log n) time complexity?
+*/
+
+func max(a,b int) int {
+    if a>b{
+        return a
+    }
+    return b 
+}
+
+func lengthOfLIS(nums []int) int {
+    if len(nums) == 0 {
+        return 0
+    }
+    
+    lis := make([]int, len(nums)) // lis[i] holds the length of max LIS up to the index i 
+
+    lis[0]=1 // there is number itself, so it starts from 1 
+    ans := 1 
+    
+    for i:=1; i<len(nums); i++{
+        gt := 0 
+        for j:=0; j<i; j++{
+            if nums[i]>nums[j]{
+                // when you are greater than a previous number
+                // your sequence is at least as long as theirs or longer 
+                gt = max(gt, lis[j]) 
+            } 
+        }
+        lis[i] = gt + 1 // the current number is bigger than gt numbers before, including 
+        ans = max(ans,lis[i])
+    }
+    return ans 
+}
+```
+
+## Target Sum 
+
+<https://leetcode.com/problems/target-sum/>
+
+```
+/*
+You are given a list of non-negative integers, a1, a2, ..., an, and a target, S. Now you have 2 symbols + and -. For each integer, you should choose one from + and - as its new symbol.
+
+Find out how many ways to assign symbols to make sum of integers equal to target S.
+
+Example 1:
+
+Input: nums is [1, 1, 1, 1, 1], S is 3. 
+Output: 5
+Explanation: 
+
+-1+1+1+1+1 = 3
++1-1+1+1+1 = 3
++1+1-1+1+1 = 3
++1+1+1-1+1 = 3
++1+1+1+1-1 = 3
+
+There are 5 ways to assign symbols to make the sum of nums be target 3.
+*/
+
+type pair struct {
+    x,y int 
+}
+
+func calc(nums[]int, i int, current_sum int, S int, memo map[pair]int) int {
+    if count, ok := memo[pair{i,current_sum}]; ok{
+        return count
+    }
+    
+    if i == len(nums) {
+        if current_sum == S {
+            return 1
+        } else {
+            return 0 
+        }
+    }
+    
+    pos := calc(nums, i+1, current_sum+nums[i],S, memo)
+    neg := calc(nums, i+1, current_sum-nums[i],S, memo)
+    memo[pair{i,current_sum}] = pos + neg 
+    return memo[pair{i,current_sum}]
+    }
+
+
+func findTargetSumWays(nums []int, S int) int {
+    memo := map[pair]int{}
+    return calc(nums, 0,0,S, memo)
 }
 ```

@@ -182,3 +182,38 @@ def get_majority_if_exists(itr):
 
 
 ```
+
+
+## Timeout 
+
+```
+import contextlib
+import signal
+from typing import Any, Optional
+
+
+class timeout(contextlib.ContextDecorator):
+    def __init__(
+        self,
+        seconds: int,
+        timeout_message: str = "function call timed out",
+        suppress_timeout_errors: bool = False,
+    ) -> None:
+        self.seconds = seconds
+        self.timeout_message = timeout_message
+        self.suppress = suppress_timeout_errors
+
+    def _timeout_handler(self, signum: Any, frame: Any) -> None:
+        raise TimeoutError(self.timeout_message)
+
+    def __enter__(self) -> None:
+        signal.signal(signal.SIGALRM, self._timeout_handler)  # Set handler for SIGALRM
+        signal.alarm(self.seconds)  # set the alarm, start countdown
+
+    def __exit__(self, exc_type: Any, exc_val: Any, exc_tb: Any) -> Optional[bool]:
+        signal.alarm(0)  # Cancel SIGALRM if it's scheduled
+        if self.suppress and exc_type is TimeoutError:
+            return True
+        else:
+            return None
+```

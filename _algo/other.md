@@ -1,7 +1,10 @@
 ---
 layout: post
-title: Algorithms
+title: Other
 ---
+
+## Sort
+
 
 ## Search 
 
@@ -18,16 +21,6 @@ def binary_search(nums, target)->int:
     return -1
 ```
 
-## Sort
-
-## Pointers
-
-```
-max water among sticks:
-    move the shorter line
-```
-
-<script src="https://gist.github.com/selimslab/9f8c72be1867c2cce60dbb7f6bc41b37.js"></script>
 
 
 
@@ -98,8 +91,46 @@ func maxSlidingWindow(nums []int, k int) []int {
 
 ## Greedy 
 
-<script src="https://gist.github.com/selimslab/af1606d6b36b8a6e7cfca5d04f1ac5cb.js"></script>
+```
+"""
+Input: tasks = ["A","A","A","B","B","B"], n = 2
+Output: 8
+Explanation: 
+A -> B -> idle -> A -> B -> idle -> A -> B
+There is at least 2 units of time between any two same tasks.
 
+
+Input: tasks = ["A","A","A","A","A","A","B","C","D","E","F","G"], n = 2
+Output: 16
+Explanation: 
+One possible solution is
+A -> B -> C -> A -> D -> E -> A -> F -> G -> A -> idle -> idle -> A -> idle -> idle -> A
+"""
+import collections 
+
+def leastInterval(self, tasks: List[str], n: int) -> int:        
+
+    # tasks = ["A","A","A","B","B","B"]
+    # n = 2 
+
+    counts = list(collections.Counter(tasks).values()) # [3,3]
+    max_count = max(counts) # 3
+    num_of_chars_with_max_count = counts.count(max_count) # 2, A and B
+
+    num_of_chunks_with_idles = max_count-1 # 2  -> A  A  A
+
+    # either a task will fill an empty place or the place stays idle, 
+    # either way the chunk size stays the same  
+    length_of_a_chunk_with_idle = n+1  # 3 -> A _ _ A _ _ A 
+
+    # on the final chunk, there will only be most frequent letters 
+    length_of_the_final_chunk = num_of_chars_with_max_count  # 2  
+
+    length_of_all_chunks = (num_of_chunks_with_idles*length_of_a_chunk_with_idle) + length_of_the_final_chunk # 2*3 + 2 = 8 
+    # -> A B _ A B _ A B 
+
+    return max(len(tasks), length_of_all_chunks)
+```
 ## Subsets
 
 ```
@@ -128,3 +159,116 @@ backtrack(current, args):
 ```
 
 
+## Morse
+
+```
+func uniqueMorseRepresentations(words []string) int {
+    morse := []string{".-","-...","-.-.","-..",".","..-.",
+              "--.","....","..",".---","-.-",".-..","--","-.","---",
+              ".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--",
+              "--.."}
+    tf := make(map[string]bool)
+    
+    for _, word := range words {
+        rep := ""
+        for _, r := range word {
+            c := rune(r)
+            i := int(c)-97 // 97 is ascii for a
+            rep +=  morse[i]
+        }
+        tf[rep] = true
+    }
+    return len(tf)
+}
+```
+
+## Num Squares
+
+```
+/*
+Given a positive integer n, 
+find the least number of perfect square numbers which sum to n.
+(for example, 1, 4, 9, 16, ...)
+
+Example 1:
+
+Input: n = 12
+Output: 3 
+Explanation: 12 = 4 + 4 + 4.
+
+
+Example 2:
+
+Input: n = 13
+Output: 2
+Explanation: 13 = 4 + 9.
+*/
+
+func numSquares(n int) int {
+    var perfect_squares []int
+    for i:= 1; i*i<=n; i++{
+        if i*i == n{
+            return 1
+        }
+        perfect_squares = append(perfect_squares, i*i)
+    }
+    
+    ans := 0 
+    queue := []int{n}
+    
+    for len(queue) != 0  {
+        /*
+        ans 1, queue is [12] 
+        ans 2, the paths are 1,4,9 -> queue becomes [11 8 3], 
+        following the paths 1,4,9, the new level becomes [10 7 2 7 4 2]
+        ans = 3, it returns at 4, the shortest path to 0 turns out to be 12 -> 8 -> 4 -> 0 
+        */
+        ans += 1
+        var next_level []int
+        for _, num := range(queue){
+            for _, perf := range(perfect_squares){
+                if num == perf{
+                    return ans
+                }
+                if num<perf{
+                    break
+                }
+                next_level = append(next_level, num-perf)
+            } 
+            
+        }
+        queue = next_level 
+    }
+    return ans 
+}
+```
+
+```
+func plusOne(digits []int) []int {
+  /*
+  Given a non-empty array of digits representing a non-negative integer, plus one to the integer.
+  The digits are stored such that the most significant digit is at the head of the list, and each element in the array contain a single digit.
+  You may assume the integer does not contain any leading zero, except the number 0 itself.
+  Example 1:
+  Input: [1,2,3]
+  Output: [1,2,4]
+  Explanation: The array represents the integer 123.
+  Example 2:
+  Input: [4,3,2,1]
+  Output: [4,3,2,2]
+  Explanation: The array represents the integer 4321.
+  */
+    for i:= len(digits)-1; i>=0; i-- {
+        if digits[i]<9{
+            digits[i]++
+            return digits
+        }
+        digits[i] = 0
+    }
+    
+    //  cases like 100..   
+    newDigits := make([]int, len(digits)+1)
+    newDigits[0] = 1
+    return newDigits   
+}
+```
