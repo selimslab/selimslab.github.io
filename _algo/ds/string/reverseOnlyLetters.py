@@ -20,7 +20,7 @@ def reverseOnlyLetters(S: str) -> str:
     return "".join(res)
 
 
-#  a simpler way
+#  a simpler way
 def reverseOnlyLetters(S: str) -> str:
     stack = [c for c in S if c.isalpha()]
     ans = [stack.pop() if c.isalpha() else c for c in S]

@@ -77,7 +77,7 @@ public int longestValidParentheses(String s) {
 ## Heap  
 
 
-## Linked List
+## Linked List
 
 <https://leetcode.com/problems/sort-list/>
 

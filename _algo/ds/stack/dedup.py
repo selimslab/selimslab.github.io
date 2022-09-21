@@ -16,7 +16,7 @@ assert dedup("abbaca") == "ca"
 def dedup_k(s: str, k: int) -> str:
     # Repeatedly dedup adjacent K letters until no longer can.
 
-    stack = []  #  keep (char, count) tuples
+    stack = []  #  keep (char, count) tuples
     for c in s:
         if stack and stack[-1][0] == c:
             stack[-1][1] += 1

@@ -25,7 +25,7 @@ def minWindow(self, s, t):
                 start, end = left, right
 
             # we will move the left pointer,
-            #  and the first char is a target, so we will need to find another one
+            #  and the first char is a target, so we will need to find another one
             need[s[left]] += 1
             missing += 1
             # move left

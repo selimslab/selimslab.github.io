@@ -256,7 +256,7 @@ def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
 ```
 
 
-## Morse
+## Morse
 
 ```
 func uniqueMorseRepresentations(words []string) int {

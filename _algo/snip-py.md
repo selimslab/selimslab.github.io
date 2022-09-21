@@ -184,7 +184,7 @@ def get_majority_if_exists(itr):
 ```
 
 
-## Timeout 
+## Timeout 
 
 ```
 import contextlib

@@ -5,7 +5,7 @@ def longestDiverseString(a: int, b: int, c: int) -> str:
     
     ans = 0
     
-    # get 2 from max, 1 from min 
+    # get 2 from max, 1 from min 
     
     minh = [a,b,c]
     maxh = [a,b,c]

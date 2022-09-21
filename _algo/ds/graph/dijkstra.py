@@ -50,7 +50,7 @@ def dijkstra(graph, start_node, finish_node):
 
     # 3.Repeat for every node
     while nodes:
-        #  1.Find the nearest neighbor.
+        #  1.Find the nearest neighbor.
         costs_of_remaining_nodes = {k: v for k, v in costs.items() if k in nodes}
         nearest_neighbor = min(
             costs_of_remaining_nodes, key=costs_of_remaining_nodes.get

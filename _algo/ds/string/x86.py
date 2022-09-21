@@ -88,7 +88,7 @@ def infix_to_postfix(tokens: list) -> str:
                 # is there a higher priority element in stack
                 while stack and priority.get(stack[-1], -1) >= priority.get(c, 0):
                     postfix += stack.pop()
-                # push the token 
+                # push the token 
                 stack.append(c)
 
     # pop remaining 

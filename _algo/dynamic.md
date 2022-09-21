@@ -123,7 +123,7 @@ def rob(nums: List[int]) -> int:
 
     return decide(n - 1)
 
-# since we use only last 2, it could be optimized to 
+# since we use only last 2, it could be optimized to 
 def rob():
     for num in nums:
         prev1, prev2 = max(prev2+num, prev1), prev1

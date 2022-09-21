@@ -13,7 +13,7 @@ def characterReplacement(s:str, k:int):
         count_of_different_chars_in_window = current_window_size() - count_of_most_freq_char_in_window
         has_enough_replacements = count_of_different_chars_in_window <= k
         if not has_enough_replacements: 
-            # shrink_the_window
+            # shrink_the_window
             counter[s[start]] -= 1
             start += 1
             
