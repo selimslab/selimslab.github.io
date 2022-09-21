@@ -1,91 +1,8 @@
 ---
 layout: post
-title: Software Security 
-tags: software 
-category: tech
+title: Web Security 
 --- 
 
-## Fundamentals 
-
-Plan for security from the start. 
-
-<br>
-
-Keep it simple to keep the attack surface minimum. 
-
-<br>
-
-Model possible threats. 
-
-Ask what can go wrong.  
-
-<br>
-
-Any user input is an attack vector. 
-
-Never trust any input, always **validate**, always **sanitize**
-
-<br>
-
-Libraries and network calls are attack vectors.
-
-Use well-known tried and tested libraries only, 
-
-and keep them updated 
-
-<br>
-
-use **HTTPS**, don't allow HTTP access to secure pages
-
-<br>
-
-Enforce strong passwords, 
-
-never keep plain-text passwords, 
-
-do not encrypt passwords, 
-
-hash them with a salt 
-
-<br>
-
-Write exploit code to test your patches 
-
-<br>
-  
-**Don't try to roll your own** security solutions, it's a community effort 
-
-<br>
-
-**Log** suspicious activity,
- 
- like failed login attempts, 
-
- invalid input, 
- 
- statistically rare or unexpected events 
-
-<br>
-
-Avoid security through obscurity 
-
-Do not hide secrets in code, 
-
-make sure they won't end up in public repos 
-
-<br>
-
-Be aware of buffer overflow attacks 
-
-<br>
-
-Consider all cases, allow, disallow, exception
-
-<br>
-
-No system is 100% secure, security is an example of "unknown unknowns"
- 
- 
 
 ## authentication
 
@@ -108,8 +25,7 @@ Use allow-lists, not block-lists
   
 ## SQL 
 
-Parametrize **SQL** queries to prevent SQL injection
-
+Parametrize queries to prevent SQL injection
 
 ## Cookies
 
@@ -201,7 +117,7 @@ font-src 'https://fonts.googleapis.com';
 ```
 
 
-## More resources
+## More 
 
 [https://stackoverflow.com/questions/tagged/security](https://stackoverflow.com/questions/tagged/security
 )
@@ -209,13 +125,6 @@ font-src 'https://fonts.googleapis.com';
 [https://stackoverflow.com/questions/2794016/what-should-every-programmer-know-about-security](https://stackoverflow.com/questions/2794016/what-should-every-programmer-know-about-security
 )
 
-[https://stackoverflow.com/questions/1469899/worst-security-hole-youve-seen?page=1&tab=votes#tab-top](https://stackoverflow.com/questions/1469899/worst-security-hole-youve-seen?page=1&tab=votes#tab-top)
-
-[Security books](https://utkusen.com/blog/guvenlik-kitaplari-hakkindaki-degerlendirmelerim.html)
-
 [Pick a Vulnerability to Learn About](https://www.hacksplaining.com/lessons)
-
-[security - The definitive guide to form-based website authentication - Stack Overflow](https://stackoverflow.com/questions/549/the-definitive-guide-to-form-based-website-authentication)
-
 
 [Best practices for managing & storing secrets like API keys and other credentials \[2020\]](https://blog.gitguardian.com/secrets-api-management/#secrets-as-service)

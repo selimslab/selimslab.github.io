@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Big history 
+title:  Some events in the last million years 
 --- 
 
 Last Common Ancestor Of Humans And Chimps 6M years ago 
@@ -8,6 +8,8 @@ Last Common Ancestor Of Humans And Chimps 6M years ago
 First Humans 3M  
 
 First Stone Tools, Fire 2M 
+
+---
 
 Sapiens 200 000 Years
 
@@ -23,9 +25,7 @@ Copper 5000 BC
 
 Wheel, Ancient Egypt, Sumerians 3500 BC 
 
-First Writing 3200 BC 
-
-Pyramids, Paper 3000 BC
+First Writings, Pyramids, Paper 3000 BC
 
 ---
 
@@ -132,23 +132,23 @@ CRISPR 87
 
 96: Java, Ruby, JavaScript, PostgreSQL
 
-98: Google, Salesforce, International Space Station Launched
+98: Google, International Space Station Launched
 
 99: Wifi
 
 ## 2000s
 
-01: Wikipedia, Linkedin, C# 
+01: Wikipedia
 
 02: SpaceX
 
 03: Safari, Tesla 
 
-04: Gmail, FB, Scala 
+04: Gmail, FB 
 
 05: Arduino, Reddit, Youtube
 
-06: Twitter, MacBook Pro, Wii, Goodreads
+06: Twitter, MacBook Pro
 
 07: iPhone, Kindle
 
@@ -156,15 +156,10 @@ CRISPR 87
 
 09: Windows 7, Github, Whatsapp 
 
-10: Instagram, Go, iPad
+10: Instagram, iPad
 
-12: FB gains 1 billion users, Chrome, Raspberry Pi
-
-15: Rust, Windows 10, Apple Watch
-
-16: The first reprogrammable quantum computer 
-
-19: The first image of a supermassive black hole 
+12: Chrome, Raspberry Pi
 
 
 
+also see <https://drewdevault.com/time>

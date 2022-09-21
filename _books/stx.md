@@ -1,8 +1,6 @@
 ---
 layout: post
-title: Highest voted questions from stack exchange 
-tags: links
-category: tech
+title: Stack exchange links
 --- 
 
 

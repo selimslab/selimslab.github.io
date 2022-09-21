@@ -1,17 +1,15 @@
 ---
 layout: post
-title: Best of Ask HN
-tags: links
-category: tech
+title: Ask HN
 --- 
+
+
+[Ask HN: Should I quit the field of software development? - Hacker News](https://news.ycombinator.com/item?id=24460286)
 
 [Ask HN: What is your favorite motto? - Hacker News](https://news.ycombinator.com/item?id=24436135)
 
 [Ask HN: What is the best enterprise software you use every day? - Hacker News](https://news.ycombinator.com/item?id=23862903)
 
-[Ask HN: Should I quit the field of software development? - Hacker News](https://news.ycombinator.com/item?id=24460286)
-
-[Ask HN: Moving from a startup to a big co, what should I be aware of? - Hacker News](https://news.ycombinator.com/item?id=23455415)
 
 [Ask HN: Which tools have made you a much better programmer? - Hacker News](https://news.ycombinator.com/item?id=23468193)
 
@@ -79,6 +77,8 @@ category: tech
 [Ask HN: What are some examples of good database schema designs? - Hacker News](https://news.ycombinator.com/item?id=22324691)
 
 
+[Ask HN: Moving from a startup to a big co, what should I be aware of? - Hacker News](https://news.ycombinator.com/item?id=23455415)
+
 [Ask HN: What are your news sources other than HN? - Hacker News](https://news.ycombinator.com/item?id=21920173)
 
 [Ask HN: What are your favorite low-coding apps / tools as a developer?](https://news.ycombinator.com/item?id=22786853)
@@ -109,4 +109,5 @@ category: tech
 
 
 [Ask HN: Do you ever contact people who have had a positive impact on you? - Hacker News](https://news.ycombinator.com/item?id=22097373)
+
 
