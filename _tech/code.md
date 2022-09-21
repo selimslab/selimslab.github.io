@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Start programming
+title: A plan to start programming
 ---
 
 [Crash Course Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
