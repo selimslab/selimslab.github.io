@@ -11,9 +11,10 @@ layout: default
         </div>
     
 
+    {% assign sorted = site.essais | sort: 'title' %}
 
     <ul>
-        {% for p in site.essais %}
+        {% for p in sorted %}
             <li>
                 <a href="{{ p.url }}">{{ p.title }}</a>
             </li>
@@ -21,29 +22,32 @@ layout: default
     </ul>
 
 
+    {% assign sorted = site.books | sort: 'title' %}
     <h2>Readings</h2>
     <ul>
-        {% for p in site.books %}
+        {% for p in sorted %}
             <li>
                 <a href="{{ p.url }}">{{ p.title }}</a>
             </li>
         {% endfor %}
     </ul>
 
+
+    {% assign sorted = site.links | sort: 'title' %}
 
     <h2>Links</h2>
     <ul>
-        {% for p in site.links %}
+        {% for p in sorted %}
             <li>
                 <a href="{{ p.url }}">{{ p.title }}</a>
             </li>
         {% endfor %}
     </ul>
 
-
+    {% assign sorted = site.tech | sort: 'title' %}
     <h2>Tech</h2>
     <ul>
-        {% for p in site.tech %}
+        {% for p in sorted %}
             <li>
                 <a href="{{ p.url }}">{{ p.title }}</a>
             </li>
@@ -51,9 +55,10 @@ layout: default
     </ul>
 
 
+    {% assign sorted = site.projects | sort: 'title' %}
     <h2>Mini Projects</h2>
     <ul>
-        {% for p in site.projects  %}
+        {% for p in sorted  %}
             <li>
                 <a href="{{ p.url }}">{{ p.title }}</a>
             </li>
@@ -61,9 +66,10 @@ layout: default
     </ul>
 
 
+    {% assign sorted = site.algo | sort: 'title' %}
     <h2>Algorithms</h2>
     <ul>
-        {% for p in site.algo  %}
+        {% for p in sorted  %}
             <li>
                 <a href="{{ p.url }}">{{ p.title }}</a>
             </li>
