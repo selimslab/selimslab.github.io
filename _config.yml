@@ -63,7 +63,7 @@ exclude:
 
 theme: 
 
-collections_dir: pages
+collections_dir: HOME
 
 collections:
   essais:
