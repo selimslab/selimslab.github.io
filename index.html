@@ -2,13 +2,6 @@
 layout: default
 ---
 
-{% assign sortedsais = site.essais | sort: "title" %}
-
-{% assign sortedtech = site.tech | sort: "title" %}
-
-{% assign sortedbooks = site.books | sort: "title" %}
-
-<br>
 
 <article>
 
@@ -19,8 +12,10 @@ layout: default
     
 
 
+    <h2>Essays</h2>
+
     <ul>
-        {% for p in sortedsais %}
+        {% for p in site.essais %}
             <li>
                 <a href="{{ p.url }}">{{ p.title }}</a>
             </li>
@@ -30,7 +25,7 @@ layout: default
     <h2>Readings</h2>
 
     <ul>
-        {% for p in sortedbooks %}
+        {% for p in site.books %}
             <li>
                 <a href="{{ p.url }}">{{ p.title }}</a>
             </li>
@@ -40,12 +35,36 @@ layout: default
     <h2>Tech</h2>
 
     <ul>
-        {% for p in sortedtech %}
+        {% for p in site.tech %}
             <li>
                 <a href="{{ p.url }}">{{ p.title }}</a>
             </li>
         {% endfor %}
     </ul>
+
+
+
+    <h2>Mini Projects</h2>
+
+    <ul>
+        {% for p in site.projects  %}
+            <li>
+                <a href="{{ p.url }}">{{ p.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+
+
+    <h2>Algorithms</h2>
+
+    <ul>
+        {% for p in site.algo  %}
+            <li>
+                <a href="{{ p.url }}">{{ p.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+
 
 
 </article>

@@ -67,10 +67,11 @@ theme:
 collections:
   essais:
     sort_by: title
-    output: true
   tech:
     sort_by: title
-    output: true
+  projects:
+    sort_by: title
+  algo:
+    sort_by: title
   books:
     sort_by: title
-    output: true
