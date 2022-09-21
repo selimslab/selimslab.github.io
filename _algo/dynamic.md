@@ -28,12 +28,29 @@ def fib(n):
 ```
 
 
-
-
 ## Stairs
 
+
+```go
+func climbStairs(n int) int {
+    memo := map[int]int{
+        1:1,
+        2:2,
+    }
+    var climb func(n int) int
+
+    climb = func (n int) int {
+        _, ok := memo[n];
+        if !ok {
+            memo[n] = climb(n-1) + climb(n-2)
+        }
+        return memo[n] 
+    }
+    return climb(n)
+}
 ```
 
+```go
 On a staircase, the i-th step has some non-negative cost cost[i] assigned (0 indexed).
 
 Once you pay the cost, you can either climb one or two steps. 
@@ -72,24 +89,8 @@ func minCostClimbingStairs(cost []int) int {
 }
 ```
 
-```
-func climbStairs(n int) int {
-    memo := map[int]int{
-        1:1,
-        2:2,
-    }
-    var climb func(n int) int
 
-    climb = func (n int) int {
-        _, ok := memo[n];
-        if !ok {
-            memo[n] = climb(n-1) + climb(n-2)
-        }
-        return memo[n] 
-    }
-    return climb(n)
-}
-```
+## coinChange
 
 ```
 def coinChange(coins: List[int], amount: int) -> int:
@@ -109,8 +110,8 @@ def coinChange(coins: List[int], amount: int) -> int:
 ## Unique BST 
 
 <https://leetcode.com/problems/unique-binary-search-trees>
-```
 
+```py
 """
 Input: 3
 Output: 5
@@ -137,7 +138,7 @@ def numTrees(self, n: int) -> int:
 ```
 ## House Robber 
 
-```
+```py
 def rob(nums: List[int]) -> int:
     # max robbery, no adjacent homes
     if not nums:
@@ -211,7 +212,7 @@ func maxProfit(prices []int) int {
 
 ## Min steps notepad 
 
-```
+```go
 /*
 Initially on a notepad only one character 'A' is present. 
 
@@ -257,25 +258,12 @@ func minSteps(n int) int {
 
 ## Edit Distance
 
-```
+```go
 import "fmt"
-
-func min(vars ...int) int {
-    min := vars[0]
-
-    for _, i := range vars {
-        if i < min {
-            min = i
-        }
-    }
-
-    return min
-}
 
 type key struct {
     x,y int 
 }
-
 
 func dist(word1 string, word2 string, table map[key]int, i int, j int ) int {
     if j == 0 {
@@ -306,12 +294,12 @@ func minDistance(word1 string, word2 string) int {
     i, j := len(word1), len(word2)
     table := map[key]int{}
     return dist(word1,word2,table, i, j )
-    
 }
 ```
 
+## Min steps to make words same 
 
-```
+```py
 def minDistance(word1: str, word2: str) -> int:
     """
         Given two strings word1 and word2, 
@@ -355,8 +343,7 @@ def minDistance(word1: str, word2: str) -> int:
 
 <https://leetcode.com/problems/word-break/>
 
-```
-
+```py
 Given a non-empty string s and a dictionary wordDict containing a list of non-empty words, determine if s can be segmented into a space-separated sequence of one or more dictionary words.
 
 Note:
@@ -408,10 +395,11 @@ def wordBreak(self, s: str, wordDict: List[str]) -> bool:
     return ok[-1]
 ```
 
+## The longest increasing subsequence
 
 <https://leetcode.com/problems/longest-increasing-subsequence/>
 
-```
+```go
 /*
 Given an unsorted array of integers, find the length of longest increasing subsequence.
 
@@ -427,12 +415,6 @@ Your algorithm should run in O(n2) complexity.
 Follow up: Could you improve it to O(n log n) time complexity?
 */
 
-func max(a,b int) int {
-    if a>b{
-        return a
-    }
-    return b 
-}
 
 func lengthOfLIS(nums []int) int {
     if len(nums) == 0 {
@@ -464,7 +446,7 @@ func lengthOfLIS(nums []int) int {
 
 <https://leetcode.com/problems/target-sum/>
 
-```
+```go
 /*
 You are given a list of non-negative integers, a1, a2, ..., an, and a target, S. Now you have 2 symbols + and -. For each integer, you should choose one from + and - as its new symbol.
 
@@ -516,7 +498,9 @@ func findTargetSumWays(nums []int, S int) int {
 ```
 
 
-```
+## maximalSquare
+
+```py
 """
 Given a 2D binary matrix filled with 0's and 1's, 
 find the largest square containing only 1's and return its area.
@@ -557,7 +541,7 @@ def maximalSquare(self, matrix: List[List[str]]) -> int:
 
 ## Min path sum 
 
-```
+```go
 func minPathSum(grid [][]int) int {
 	/*
 	Input: grid = [[1,3,1],[1,5,1],[4,2,1]]
@@ -584,12 +568,5 @@ func minPathSum(grid [][]int) int {
     }
     
     return grid[rows-1][cols-1]
-}
-
-func min (a int,b int) int {
-    if a<b{
-        return a
-    }
-    return b 
 }
 ```

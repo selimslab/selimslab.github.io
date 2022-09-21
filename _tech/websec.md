@@ -4,21 +4,19 @@ title: Web Security
 --- 
 
 
-## authentication
+## Auth
 
-Use **2-factor auth** 
+Use 2-factor  
 
 Add exponential delay to repeated login attempts
 
 Lock account after repeated failed login attempts 
 
-## authorization
+Use authorization levels. 
 
-Use **authorization levels**. 
+Least privilege, never grant more access than required. 
 
-**Least privilege**, never grant more access than required. 
-
-**Separation of privileges**, so your system is not all or nothing
+Separation of privileges, so your system is not all or nothing
 
 Use allow-lists, not block-lists 
 
@@ -119,12 +117,10 @@ font-src 'https://fonts.googleapis.com';
 
 ## More 
 
-[https://stackoverflow.com/questions/tagged/security](https://stackoverflow.com/questions/tagged/security
-)
-
-[https://stackoverflow.com/questions/2794016/what-should-every-programmer-know-about-security](https://stackoverflow.com/questions/2794016/what-should-every-programmer-know-about-security
-)
-
 [Pick a Vulnerability to Learn About](https://www.hacksplaining.com/lessons)
 
 [Best practices for managing & storing secrets like API keys and other credentials \[2020\]](https://blog.gitguardian.com/secrets-api-management/#secrets-as-service)
+
+<https://stackoverflow.com/questions/2794016/what-should-every-programmer-know-about-security>
+
+<https://stackoverflow.com/questions/tagged/security>
