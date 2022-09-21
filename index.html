@@ -12,7 +12,6 @@ layout: default
     
 
     {% assign sorted = site.essais | sort: 'title' %}
-
     <ul>
         {% for p in sorted %}
             <li>
@@ -22,27 +21,8 @@ layout: default
     </ul>
 
 
-    {% assign sorted = site.books | sort: 'title' %}
-    <h2>Readings</h2>
-    <ul>
-        {% for p in sorted %}
-            <li>
-                <a href="{{ p.url }}">{{ p.title }}</a>
-            </li>
-        {% endfor %}
-    </ul>
 
 
-    {% assign sorted = site.links | sort: 'title' %}
-
-    <h2>Links</h2>
-    <ul>
-        {% for p in sorted %}
-            <li>
-                <a href="{{ p.url }}">{{ p.title }}</a>
-            </li>
-        {% endfor %}
-    </ul>
 
     {% assign sorted = site.tech | sort: 'title' %}
     <h2>Tech</h2>
@@ -54,27 +34,6 @@ layout: default
         {% endfor %}
     </ul>
 
-
-    {% assign sorted = site.projects | sort: 'title' %}
-    <h2>Mini Projects</h2>
-    <ul>
-        {% for p in sorted  %}
-            <li>
-                <a href="{{ p.url }}">{{ p.title }}</a>
-            </li>
-        {% endfor %}
-    </ul>
-
-
-    {% assign sorted = site.algo | sort: 'title' %}
-    <h2>Algorithms</h2>
-    <ul>
-        {% for p in sorted  %}
-            <li>
-                <a href="{{ p.url }}">{{ p.title }}</a>
-            </li>
-        {% endfor %}
-    </ul>
 
 
 

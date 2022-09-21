@@ -5,17 +5,13 @@ title: Teamwork in Art of War
 
 Everyone in team should share the goal 
 
-Highly trained and talented generals
+Highly trained and talented generals, autonomus in military decisions
 
-General should be autonomus in military decisions
-
-Consistency and certainty in reward and punishment 
-
-Discipline
+Discipline, consistency, and certainty in reward and punishment 
 
 Obeyable orders
 
-Right man in right place 
+Right person in right place 
 
 Harmony in team
 
