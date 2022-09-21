@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Stack exchange links
+title: Stack exchange 
 --- 
 
 

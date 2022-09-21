@@ -84,3 +84,7 @@ collections:
   books:
     sort_by: title
     output: true 
+
+  links:
+    sort_by: title
+    output: true 

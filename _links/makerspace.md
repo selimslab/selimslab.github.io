@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Links for makers  
+title: For makers  
 ---
 
 

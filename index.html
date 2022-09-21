@@ -20,8 +20,8 @@ layout: default
         {% endfor %}
     </ul>
 
-    <h2>Readings</h2>
 
+    <h2>Readings</h2>
     <ul>
         {% for p in site.books %}
             <li>
@@ -30,8 +30,18 @@ layout: default
         {% endfor %}
     </ul>
 
-    <h2>Tech</h2>
 
+    <h2>Links</h2>
+    <ul>
+        {% for p in site.links %}
+            <li>
+                <a href="{{ p.url }}">{{ p.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+
+
+    <h2>Tech</h2>
     <ul>
         {% for p in site.tech %}
             <li>
@@ -41,9 +51,7 @@ layout: default
     </ul>
 
 
-
     <h2>Mini Projects</h2>
-
     <ul>
         {% for p in site.projects  %}
             <li>
@@ -54,7 +62,6 @@ layout: default
 
 
     <h2>Algorithms</h2>
-
     <ul>
         {% for p in site.algo  %}
             <li>
@@ -62,6 +69,8 @@ layout: default
             </li>
         {% endfor %}
     </ul>
+
+
 
 
 

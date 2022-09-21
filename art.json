@@ -97,5 +97,60 @@
     {
         "src": "/static/1280px-Paul_Cézanne_-_Château_Noir_-_Google_Art_Project.jpeg",
         "alt": "Château Noir"
+    },
+    {
+        "src": "/static/807px-Martinus_Rørbye_-_View_from_the_Artist's_Window_-_Google_Art_Project",
+        "alt": "View from the Artist's Window, Rørbye"
+    },
+    {
+        "src": "/static/1024px-Jozef_Israëls_-_Peasant_family_at_the_table_-_Google_Art_Project.jpeg",
+        "alt": "Peasant family at the table, Israëls"
+    },
+    {
+        "src": "/static/1024px-Paul_Cézanne_-_Landscape_in_Provence_-_Google_Art_Project.jpeg",
+        "alt": "Landscape in Provence, Cézanne"
+    },
+    {
+        "src": "/static/Piet_Mondrian_-_Composition_with_Grid_^1_-_63.16_-_Museum_of_Fine_Arts,_Houston.jpg",
+        "alt": "Composition with Grid 1, Mondrian"
+    },
+    {
+        "src": "/static/Cole_Thomas_The_Consummation_The_Course_of_the_Empire_1836.jpeg",
+        "alt": "The_Course_of_the_Empire: Consummation"
+    },
+    {
+        "src": "/static/Cole_Thomas_The_Course_of_Empire_Destruction_1836.jpeg",
+        "alt": "The_Course_of_the_Empire: Destruction"
+    },
+    {
+        "src": "/static/earthrise.jpeg",
+        "alt": "Earthrise"
+    },
+    {
+        "src": "/static/marble.jpg",
+        "alt": "The Blue Marble"
+    },
+    {
+        "src": "/static/saturn.jpeg",
+        "alt": "Saturn"
+    },
+    {
+        "src": "/static/Vincent_van_Gogh_-_The_white_orchard_-_Google_Art_Project.jpeg",
+        "alt": "The_white_orchard"
+    },
+    {
+        "src": "/static/1280px-Monet_-_Bathers_at_La_Grenouillère.jpeg",
+        "alt": "Bathers at La Grenouillère"
+    },
+    {
+        "src": "/static/1024px-Peter_Hansen_-_Playing_Children,_Enghave_Square_-_Google_Art_Project.jpeg",
+        "alt": "Playing Children, Enghave Square"
+    },
+    {
+        "src": "/static/827px-Johannes_Vermeer_-_Gezicht_op_huizen_in_Delft,_bekend_als_'Het_straatje'_-_Google_Art_Project.jpeg",
+        "alt": "The Little Street"
     }
 ]
+
+
+
