@@ -1,6 +1,7 @@
-##  a minimal Jekyll blog with dark mode, random post dice, and search
+##  a minimal Jekyll blog 
 
-[click here to visit](https://selimslab.github.io)
+<https://selimslab.github.io>
+
 ## install
 
 gem install bundler jekyll
