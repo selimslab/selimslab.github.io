@@ -35,4 +35,4 @@ Kind and respectful
 
 Give credit where its due
 
-Compliment on the good parts 
+Compliment people for the good parts 

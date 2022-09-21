@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mini Projects
+title: Personal Projects
 ---
 
 

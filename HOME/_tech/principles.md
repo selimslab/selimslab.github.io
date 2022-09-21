@@ -3,13 +3,11 @@ layout: post
 title:  Principles 
 --- 
 
-Get end to end first 
-
 Keep it simple 
 
 Test early and often 
 
-Small complete slices 
+Get end to end first 
 
 Get feedback early and often 
 
