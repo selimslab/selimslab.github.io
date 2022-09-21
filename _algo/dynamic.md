@@ -27,6 +27,9 @@ def fib(n):
     return memo.get(n)
 ```
 
+
+
+
 ## Stairs
 
 ```
@@ -67,6 +70,40 @@ func minCostClimbingStairs(cost []int) int {
     return min(c1,c2)
             
 }
+```
+
+```
+func climbStairs(n int) int {
+    memo := map[int]int{
+        1:1,
+        2:2,
+    }
+    var climb func(n int) int
+
+    climb = func (n int) int {
+        _, ok := memo[n];
+        if !ok {
+            memo[n] = climb(n-1) + climb(n-2)
+        }
+        return memo[n] 
+    }
+    return climb(n)
+}
+```
+
+```
+def coinChange(coins: List[int], amount: int) -> int:
+    # coinChange([1,2,5],11) == 3
+    min_coins = [0] + [float('inf')]*amount
+    for sub_amount in range(amount+1):
+        for coin in coins:
+            if coin <= sub_amount:
+                min_coins[sub_amount] = min(min_coins[sub_amount], min_coins[sub_amount-coin]+1)
+    
+    if min_coins[-1] == float('inf'):
+        return -1
+    else: 
+        return min_coins[-1]
 ```
 
 ## Unique BST 
@@ -273,6 +310,47 @@ func minDistance(word1 string, word2 string) int {
 }
 ```
 
+
+```
+def minDistance(word1: str, word2: str) -> int:
+    """
+        Given two strings word1 and word2, 
+        return the minimum number of steps 
+        required to make word1 and word2 the same.
+
+
+        Input: word1 = "sea", word2 = "eat"
+        Output: 2
+        Explanation: You need one step to make "sea" to "ea" 
+        and another step to make "eat" to "ea".
+
+        Input: word1 = "leetcode", word2 = "etco"
+        Output: 4
+
+    """
+    m,n = len(word1), len(word2)
+
+    if n<m:
+        return minDistance(word2, word1)
+    
+    pre = [0]*(len(word1)+1)
+    dp = [0]*(len(word1)+1)
+
+    for i in range(1,n+1):
+        for j in range(1,m+1):
+            if word1[j-1] == word2[i-1]: 
+                dp[j] = pre[j-1] + 1
+            else:
+                dp[j] = max(dp[j-1], pre[j])         
+        pre = dp[::]
+
+    lcs = dp[-1]
+    
+    del_ops = m+n-(2*lcs)
+    
+    return del_ops
+```
+
 ## Word Break 
 
 <https://leetcode.com/problems/word-break/>
@@ -438,4 +516,80 @@ func findTargetSumWays(nums []int, S int) int {
 ```
 
 
-<https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/>
+```
+"""
+Given a 2D binary matrix filled with 0's and 1's, 
+find the largest square containing only 1's and return its area.
+1 0 1 0 0
+1 0 1 1 1
+1 1 1 1 1
+1 0 0 1 0
+Output: 4
+"""
+
+
+def maximalSquare(self, matrix: List[List[str]]) -> int:
+    rows = len(matrix)
+    if rows:
+        cols = len(matrix[0])
+    else:
+        cols = 0
+
+    dp = [0] * (cols + 1)
+    maxsq = 0
+    prev = 0
+
+    for i in range(1, rows + 1):
+        for j in range(1, cols + 1):
+            temp = dp[j]
+            if matrix[i - 1][j - 1] == "1":
+                min_prev = min(dp[j - 1], prev)
+                min_cur = min(min_prev, dp[j])
+                dp[j] = min_cur + 1
+                maxsq = max(maxsq, dp[j])
+            else:
+                dp[j] = 0
+
+            prev = temp
+
+    return maxsq * maxsq
+```
+
+## Min path sum 
+
+```
+func minPathSum(grid [][]int) int {
+	/*
+	Input: grid = [[1,3,1],[1,5,1],[4,2,1]]
+	Output: 7
+	Explanation: Because the path 1 → 3 → 1 → 1 → 1 minimizes the sum.
+	*/
+    rows := len(grid)
+    cols := len(grid[0])
+    
+    // sum top row
+    for j := 1; j < cols; j++ {
+        grid[0][j] += grid[0][j-1]
+    }
+    
+    // sum left column
+    for j := 1; j < rows; j++ {
+        grid[j][0] += grid[j-1][0]
+    }
+    
+    for i := 1; i < rows; i++ {
+        for j := 1; j < cols; j++ {
+            grid[i][j] += min(grid[i-1][j],grid[i][j-1])
+        }
+    }
+    
+    return grid[rows-1][cols-1]
+}
+
+func min (a int,b int) int {
+    if a<b{
+        return a
+    }
+    return b 
+}
+```

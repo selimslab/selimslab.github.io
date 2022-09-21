@@ -13,10 +13,6 @@ backtrack(current, args):
         backtrack(current + x, updated args)
     elif go that way:
         backtrack(current + y, updated args)
-
-
-
-
 ```
 
 
@@ -47,7 +43,10 @@ def generateParenthesis(self, N):
     backtrack()
     return ans
 
+assert generateParenthesis(3) == ["((()))", "(()())", "(())()", "()(())", "()()()"]
+```
 
+```
 """
 find all unique combinations in candidates where the candidate numbers sums to target.
 Input: candidates = [2,3,6,7], target = 7,

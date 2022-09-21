@@ -3,7 +3,31 @@ layout: post
 title: Greedy
 ---
 
-## Greedy 
+
+
+```
+"""
+Input: [[1,4],[4,5]]
+Output: [[1,5]]
+Explanation: Intervals [1,4] and [4,5] are considered overlapping.
+"""
+
+def mergeIntervals(self, intervals):
+    intervals.sort(key=lambda x: x.start)
+
+    merged = []
+    for interval in intervals:
+        # if the list of merged intervals is empty or if the current
+        # interval does not overlap with the previous, simply append it.
+        if not merged or merged[-1].end < interval.start:
+            merged.append(interval)
+        else:
+            # otherwise, there is overlap, so we merge the current and previous
+            # intervals.
+            merged[-1].end = max(merged[-1].end, interval.end)
+
+    return merged
+```
 
 ```
 """
@@ -44,4 +68,16 @@ def leastInterval(self, tasks: List[str], n: int) -> int:
     # -> A B _ A B _ A B 
 
     return max(len(tasks), length_of_all_chunks)
+
+assert leastInterval(["A", "A", "A", "B", "B", "B"], 2) == 8
+# A -> B -> idle -> A -> B -> idle -> A -> B
+# There is at least 2 units of time between any two same tasks.
+
+assert (
+    leastInterval(["A", "A", "A", "A", "A", "A", "B", "C", "D", "E", "F", "G"], n=2)
+    == 16
+)
+# One possible solution is
+# A -> B -> C -> A -> D -> E -> A -> F -> G -> A -> idle -> idle -> A -> idle -> idle -> A
+
 ```

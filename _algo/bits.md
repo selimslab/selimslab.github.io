@@ -19,8 +19,9 @@ func reverseBits(num uint32) uint32 {
     }
     return res
 }
+```
 
-
+```
 def readBinaryWatch(self, num: int) -> List[str]:    
     """
     Given a non-negative integer n which represents the number of LEDs that are currently on, 

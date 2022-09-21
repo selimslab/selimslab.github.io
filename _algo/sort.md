@@ -41,3 +41,53 @@ def selection_sort(data):
 if __name__ == "__main__":
     print(selection_sort([9, 7, 5, 4, 6, 8, 12, 1, 26, 1, 1]))
 ```
+
+```
+function findUnsortedSubarray(nums){
+  return nums.slice()
+    .sort((a, b) => a - b)
+    .reduce((acc, curr, idx) => acc + (curr === nums[idx] ? ' ' : 'x'), '')
+    .trim().length;
+}
+
+let ans = findUnsortedSubarray([2, 6, 4, 8, 10, 9, 15])
+console.log(ans)
+// answer is 5 
+// it's enough to sort [6, 4, 8, 10, 9] to make all sorted 
+```
+
+```
+def findUnsortedSubarray(nums) -> int:
+    is_same = [a == b for a, b in zip(nums, sorted(nums))]
+    if all(is_same):
+        return 0
+    else:
+        first_index = is_same.index(False)
+        last_index = len(nums) - is_same[::-1].index(False)
+        return last_index - first_index
+
+
+"""
+[2, 6, 4, 8, 10, 9, 15]
+[t,f,... f,t]
+0,1, .. 5,6
+false starts at index 1, ends at 5 
+"""
+
+assert findUnsortedSubarray([2, 6, 4, 8, 10, 9, 15]) == 5
+```
+
+```
+from heapq import heappush, heappop
+
+
+def heapsort(iterable):
+    h = []
+    for val in iterable:
+        heappush(h, val)
+    # or just h = heapify(iterable)
+    return [heappop(h) for i in range(len(h))]
+
+
+assert heapsort([1, 3, 5, 7, 9, 2, 4, 6, 8, 0]) == [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
