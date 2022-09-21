@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Writing an interpreter in Python for a subset of PASCAL
+title: An interpreter in Python for a subset of PASCAL
 ---
 
 View step by step at <https://github.com/selimslab/mini/pascal>

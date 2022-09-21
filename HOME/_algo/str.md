@@ -181,3 +181,7 @@ a = "abcd"
 b = "cdabcdab"
 assert repeatedStringMatch(a,b) == 3 
 ```
+
+## Norvig's spell corrector 
+
+<https://norvig.com/spell-correct.html>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Stacks, Queues, Heaps
+title: Stack, Queue, Heap
 ---
 
 
