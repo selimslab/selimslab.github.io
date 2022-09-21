@@ -3,6 +3,10 @@ layout: post
 title: Tree 
 ---
 
+```
+def tree():
+    return collections.defaultdict(tree)
+```
 
 
 ```
