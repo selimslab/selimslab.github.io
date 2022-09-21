@@ -124,4 +124,6 @@ def minWindow(self,s, t):
             # update i to start+1 for next window
             left += 1                         
     return s[start:end]
+
+assert minWindow("ADOBECODEBANC", "ABC") == "BANC"
 ```
