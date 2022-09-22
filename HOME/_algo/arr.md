@@ -4,7 +4,7 @@ title: Array
 ---
 
 
-## MapReduce 
+
 
 
 ```
@@ -357,6 +357,9 @@ Explanation: The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 
         return res 
 ```
+
+
+## MapReduce 
 
 ```
 function map(func, array) {
