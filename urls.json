@@ -4,6 +4,9 @@ layout: none
 
 [
   {% for post in site.essais %}
+      "{{ site.baseurl }}{{ post.url }}",
+  {% endfor %}
+  {% for post in site.books %}
       "{{ site.baseurl }}{{ post.url }}"{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]

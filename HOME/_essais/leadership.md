@@ -29,7 +29,6 @@ and trust them to get it done.
 > — Antoine de Saint-Exupery
 
  
----
 
 The great ruler speaks little
 
@@ -43,4 +42,4 @@ When all is finished, the people say,
 
 “It happened by itself"
 
-**Tao Te Ching**
+*Tao Te Ching*
