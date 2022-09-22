@@ -11,6 +11,7 @@ layout: default
         </div>
     
 
+    <h2>Essais</h2>    
     {% assign sorted = site.essais | sort: 'title' %}
     <ul>
         {% for p in sorted %}
@@ -19,9 +20,6 @@ layout: default
             </li>
         {% endfor %}
     </ul>
-
-
-
 
 
     {% assign sorted = site.tech | sort: 'title' %}
