@@ -3,16 +3,6 @@ layout: post
 title: Books  
 ---
 
-## Currently Reading 
-
-Martin Eden 
-
-## Next 
-
-Go Language 
-
----
-# Read 
 
 ## Lit 
 

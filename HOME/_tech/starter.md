@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A plan for beginner programmers
+title:  Resources for new programmers
 ---
 
 [Crash Course Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
