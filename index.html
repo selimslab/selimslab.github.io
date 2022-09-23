@@ -5,11 +5,15 @@ layout: default
 
 <article>
 
-        <div class="search column is-4">
-            <input type="text" class="input is-rounded is-medium" id="search-input" placeholder="Search..">            
-            <ul style="list-style: none" id="results-container"></ul>
-        </div>
-    
+
+
+    <div class="search column is-6">
+        <input type="text" class="input is-rounded is-medium" id="search-input" placeholder="Search..">            
+        <ul style="list-style: none" id="results-container"></ul>
+    </div>
+
+
+    <div style="margin:1rem">
 
     <h2>Essais</h2>    
     {% assign sorted = site.essais | sort: 'title' %}
@@ -33,13 +37,11 @@ layout: default
     </ul>
 
 
-
-
-
+    </div>
 
 </article>
 
 
-    {% include search.html %}
+{% include search.html %}
 
 

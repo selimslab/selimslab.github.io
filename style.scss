@@ -50,7 +50,7 @@ body{
 article{
   max-width: 50%;
   margin: 0 auto;
-  margin-top: 2rem;
+  margin-top: 1rem;
   padding: 1rem;
 
   a{
@@ -110,13 +110,14 @@ a.site-name {
   color: inherit;
   font-weight: 500;
   font-size: 2rem;
+  padding-left: 1rem;
 }
 
 
 
 
 footer {
-  margin-top: 4rem;
+  margin-top: 3rem;
   text-align: center;
   padding: 3rem 1.5rem 3rem !important; 
   background: inherit !important;
@@ -128,7 +129,7 @@ footer {
   margin-top: 1rem;
   padding-left: 1rem;
   li{
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     a{
       color: $accent;
     }

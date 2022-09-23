@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Principles 
+title:  Dev Principles 
 --- 
 
 Keep it simple 

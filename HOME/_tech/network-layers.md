@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Network Layers, TCP/IP vs OSI 
+title: TCP/IP Model vs OSI Model
 --- 
 
 

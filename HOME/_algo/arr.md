@@ -343,7 +343,7 @@ Explanation: The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
                 if total == target:
                     return target 
                 
-                # update diff 
+                # update diff 
                 diff = abs(total-target)
                 if diff < resdif:
                     res = total

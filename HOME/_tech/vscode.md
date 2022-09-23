@@ -48,12 +48,12 @@ cmd + shift + L
 
 ---
 
-fold all  
+fold all  
 
 Ctrl + K + 0
 
 ---
 
-unfold all 
+unfold all 
 
 Ctrl + K + J

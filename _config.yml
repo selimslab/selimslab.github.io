@@ -66,26 +66,17 @@ theme:
 collections_dir: HOME
 
 collections:
-  essais:
-    
+  essais:    
     output: true 
 
-  tech:
-    
+  tech:    
     output: true 
 
-  projects:
-    
+  projects:    
     output: true 
 
-  algo:
-    
-    output: true 
-
-  books:
-    
+  algo:    
     output: true 
 
   links:
-    
     output: true 
