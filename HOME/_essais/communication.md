@@ -8,11 +8,15 @@ Be present, be interested
 
 If you are not interested, walk away.
 
+---
+
 Set aside your opinion
 
 Listen with a beginner’s mind.
 
 Suspend judgement, it’s not personal, not about you 
+
+---
 
 Listen to understand, not to answer.
 
@@ -23,7 +27,6 @@ Listen to what isn't being said, too
 ---
 
 Think before you speak
-
 
 ---
 

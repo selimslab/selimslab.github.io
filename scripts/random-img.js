@@ -1,30 +1,16 @@
-<script>
 
  (async() => {
         let images = await fetch("/art.json")
         .then(response => response.json())
-
         await get_random_avatar(images)
-
     })();
 
-    let avatars = [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Arnold_Boecklin-fiedelnder_Tod.jpg/194px-Arnold_Boecklin-fiedelnder_Tod.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/The_Great_Wave_off_Kanagawa.jpg/120px-The_Great_Wave_off_Kanagawa.jpg"
-        ]
-        
     async function get_random_avatar(images){
         random_index = Math.floor(Math.random() * images.length)
         random_image = images[random_index]
         let doc = document.getElementById("random-img")
         doc.src = random_image["src"]
         doc.alt = random_image["alt"]
-
         document.getElementById("random-img-alt").innerHTML = random_image["alt"]
-
     }
 
-
-
-
-</script>
