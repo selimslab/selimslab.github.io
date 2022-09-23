@@ -50,11 +50,14 @@ Learning Spark: Lightning-Fast Big Data Analysis
 
 ## Software business
 
-The Mom Test: How to talk to customers & learn if your business is a good idea when everyone is lying to you
+Zero to One: Notes on Startups, or How to Build the Future
+
+The Hard Things About Hard Things 
 
 Shape Up: Stop Running in Circles and Ship Work that Matters
 
-Zero to One: Notes on Startups, or How to Build the Future
+The Mom Test: How to talk to customers & learn if your business is a good idea when everyone is lying to you
+
 
 ## Engineering Discipline  
 
