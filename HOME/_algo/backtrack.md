@@ -4,16 +4,16 @@ title: Backtrack
 ---
 
 
-```
-backtrack(current, args):
-    if done:
-        add to results
-        return 
-    if go this way:
-        backtrack(current + x, updated args)
-    elif go that way:
-        backtrack(current + y, updated args)
-```
+
+    backtrack(current, args):
+        if done:
+            add to results
+            return 
+        if go this way:
+            backtrack(current + x, updated args)
+        elif go that way:
+            backtrack(current + y, updated args)
+
 
 
 ```
