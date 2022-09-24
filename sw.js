@@ -18,11 +18,6 @@ registerRoute(
 );
 
 
-registerRoute(
-  new RegExp('/\\d{4}/\\d{2}/\\d{2}/.+'),
-  new StaleWhileRevalidate()
-)
-
 workbox.precaching.precacheAndRoute([
   {% for post in site.essais -%}
     { url: '{{ post.url }}', revision: '{{ post.date | date: "%Y-%m-%d"}}' },
@@ -34,7 +29,7 @@ workbox.precaching.precacheAndRoute([
     { url: '{{ post.url }}', revision: '{{ post.date | date: "%Y-%m-%d"}}' },
   {% endfor -%}
   { url: '/', revision: '{{ site.time | date: "%Y%m%d%H%M" }}' }
-])
+]);
 
 registerRoute(
   ({request}) => request.destination === 'image' ,
@@ -46,15 +41,16 @@ registerRoute(
 );
 
 
+registerRoute(
+  new RegExp('/\\d{4}/\\d{2}/\\d{2}/.+'),
+  new StaleWhileRevalidate()
+)
+
 // registerRoute(
 //   /assets\/(images|icons|css)/,
 //   new CacheFirst()
 // );
 
-registerRoute(
-  /assets\//,
-  new CacheFirst()
-);
 
 
 registerRoute(
@@ -70,4 +66,9 @@ registerRoute(
 registerRoute(
   /algo\//,
   new NetworkFirst()
+);
+
+registerRoute(
+  /assets\//,
+  new CacheFirst()
 );
