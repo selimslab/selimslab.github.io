@@ -66,6 +66,9 @@ exclude:
 theme: 
 
 
+plugins:
+  - jekyll-pwa-plugin
+
 pwa:
   enabled: true # Optional
   sw_src_filepath: service-worker.js # Optional
