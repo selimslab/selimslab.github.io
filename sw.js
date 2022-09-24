@@ -55,6 +55,11 @@ registerRoute(
   new CacheFirst()
 );
 
+registerRoute(
+  /js\//,
+  new CacheFirst()
+);
+
 
 registerRoute(
   /essais\//,
