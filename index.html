@@ -6,6 +6,11 @@ layout: default
 <article>
 
 
+    {% for page in site.posts %}
+    {{ page.url }}
+{% endfor %}
+
+
     <div class="search column is-4">
         <input type="text" class="input is-rounded is-medium" id="search-input" placeholder="Search..">            
         <ul style="list-style: none" id="results-container"></ul>

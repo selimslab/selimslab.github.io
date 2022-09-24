@@ -1,0 +1,5 @@
+{
+    "name": "selimslab",
+    "start_url": "/index.html?utm_source=homescreen",
+    "display": "standalone"
+}
