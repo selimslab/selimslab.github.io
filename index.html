@@ -6,18 +6,12 @@ layout: default
 <article>
 
 
-    {% for page in site.posts %}
-    {{ page.url }}
-{% endfor %}
 
-
-    <div class="search column is-4">
+    <div class="search column is-4 is-8-mobile">
         <input type="text" class="input is-rounded is-medium" id="search-input" placeholder="Search..">            
         <ul style="list-style: none" id="results-container"></ul>
     </div>
 
-
-    <div style="margin:1rem">
 
     <h2>Essais</h2>    
     {% assign sorted = site.essais | sort: 'title' %}
@@ -40,8 +34,6 @@ layout: default
         {% endfor %}
     </ul>
 
-
-    </div>
 
 </article>
 

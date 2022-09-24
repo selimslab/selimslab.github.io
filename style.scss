@@ -52,12 +52,24 @@ article{
   margin: 0 auto;
   margin-top: 1rem;
   padding: 1rem;
-
   a{
     color: $darkBlue; 
   }
   a:visited{
     color: $lightBlue;
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+  article{
+    max-width: 100%;
+    margin-left: 1rem;
+  }
+  .img-full {
+    max-width: 100%;
+    display: block; 
+    height: auto;
   }
 }
 
@@ -166,16 +178,6 @@ pre{
   text-align: center !important;
 }
 
-@media only screen and (max-width: 900px) {
-  article{
-    max-width: 100%;
-  }
-  .img-full {
-    max-width: 100%;
-    display: block; 
-    height: auto;
-  }
-}
 
 
 html[data-theme='dark'] {

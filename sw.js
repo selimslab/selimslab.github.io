@@ -17,10 +17,10 @@ registerRoute(
   new NetworkFirst()
 );
 
-registerRoute(
-  /page[0-99]/,
-  new NetworkFirst()
-)
+// registerRoute(
+//   /page[0-99]/,
+//   new NetworkFirst()
+// )
 
 registerRoute(
   new RegExp('/\\d{4}/\\d{2}/\\d{2}/.+'),
@@ -29,11 +29,16 @@ registerRoute(
 
 workbox.precaching.precacheAndRoute([
   {% for post in site.essais -%}
-  { url: '{{ post.url }}', revision: '{{ post.date | date: "%Y-%m-%d"}}' },
+    { url: '{{ post.url }}', revision: '{{ post.date | date: "%Y-%m-%d"}}' },
+  {% endfor -%}
+  {% for post in site.tech -%}
+    { url: '{{ post.url }}', revision: '{{ post.date | date: "%Y-%m-%d"}}' },
+  {% endfor -%}
+  {% for post in site.algo -%}
+    { url: '{{ post.url }}', revision: '{{ post.date | date: "%Y-%m-%d"}}' },
   {% endfor -%}
   { url: '/', revision: '{{ site.time | date: "%Y%m%d%H%M" }}' },
   { url: '/404', revision: '{{ site.time | date: "%Y%m%d%H%M" }}' },
-  { url: '/style.css', revision: '{{ site.time | date: "%Y%m%d%H%M" }}' }
 ])
 
 registerRoute(
@@ -45,7 +50,7 @@ registerRoute(
   })
 );
 
-registerRoute(
-  /static\/(images|icons|css)/,
-  new CacheFirst()
-);
+// registerRoute(
+//   /static\/(images|icons|css)/,
+//   new CacheFirst()
+// );
