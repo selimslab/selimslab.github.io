@@ -17,10 +17,6 @@ registerRoute(
   new NetworkFirst()
 );
 
-// registerRoute(
-//   /page[0-99]/,
-//   new NetworkFirst()
-// )
 
 registerRoute(
   new RegExp('/\\d{4}/\\d{2}/\\d{2}/.+'),
@@ -50,13 +46,13 @@ registerRoute(
 );
 
 
-registerRoute(
-  /static\/(images|icons|css)/,
-  new CacheFirst()
-);
+// registerRoute(
+//   /assets\/(images|icons|css)/,
+//   new CacheFirst()
+// );
 
 registerRoute(
-  /js\//,
+  /assets\//,
   new CacheFirst()
 );
 

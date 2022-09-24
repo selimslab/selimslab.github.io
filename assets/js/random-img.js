@@ -1,6 +1,6 @@
 
  (async() => {
-        let images = await fetch("/art.json")
+        let images = await fetch("/assets/art.json")
         .then(response => response.json())
         await get_random_avatar(images)
     })();
