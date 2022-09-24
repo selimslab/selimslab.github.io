@@ -56,6 +56,11 @@ registerRoute(
 );
 
 registerRoute(
+  /\/(images|icons|css)/,
+  new NetworkFirst()
+);
+
+registerRoute(
   /essais\//,
   new NetworkFirst()
 );

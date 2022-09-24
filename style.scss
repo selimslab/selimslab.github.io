@@ -30,15 +30,16 @@ body{
   line-height: 1.6;
   font-size: larger;
   font: $sansSerif;
-  background: $light-bg;
-  color: $dark-text;
+  background: $dark-bg;
+  color: $light-text;
   min-height: 100vh;
 }
+
 .top{
   height: 12px;
-  background: #56CCF2;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #373B44;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .navbar {
@@ -53,12 +54,13 @@ article{
   margin-top: 1rem;
   padding: 1rem;
   a{
-    color: $darkBlue; 
+    color: $turquoise; 
   }
   a:visited{
     color: $lightBlue;
   }
 }
+
 
 
 @media only screen and (max-width: 900px) {
@@ -180,28 +182,27 @@ pre{
 
 
 
-html[data-theme='dark'] {
+html[data-theme='light'] {
 
   body{
-    background: $dark-bg;
-    color: $light-text;
+    background: $light-bg;
+    color: $dark-text;
   }
 
   .top{
-    background: #373B44;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 12px;
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
-
+  
   article{
     a{
-      color: $turquoise; 
+      color: $darkBlue; 
     }
     a:visited{
       color: $lightBlue;
     }
   }
-
-
 
 }
