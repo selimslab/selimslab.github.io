@@ -55,10 +55,6 @@ registerRoute(
   new CacheFirst()
 );
 
-registerRoute(
-  /\/(images|icons|css)/,
-  new NetworkFirst()
-);
 
 registerRoute(
   /essais\//,
