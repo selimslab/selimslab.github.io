@@ -3,8 +3,6 @@ layout: post
 title: A good life  
 ---
 
-
-
 Some things are in our control and others not
 
 Do what you can, now and here 

@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Stack, Queue, Heap
+title: Stack, Heap, Queue
 ---
-
 
 ## Stack 
 

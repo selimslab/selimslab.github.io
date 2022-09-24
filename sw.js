@@ -37,8 +37,7 @@ workbox.precaching.precacheAndRoute([
   {% for post in site.algo -%}
     { url: '{{ post.url }}', revision: '{{ post.date | date: "%Y-%m-%d"}}' },
   {% endfor -%}
-  { url: '/', revision: '{{ site.time | date: "%Y%m%d%H%M" }}' },
-  { url: '/404', revision: '{{ site.time | date: "%Y%m%d%H%M" }}' },
+  { url: '/', revision: '{{ site.time | date: "%Y%m%d%H%M" }}' }
 ])
 
 registerRoute(
@@ -50,7 +49,23 @@ registerRoute(
   })
 );
 
-// registerRoute(
-//   /static\/(images|icons|css)/,
-//   new CacheFirst()
-// );
+
+registerRoute(
+  /static\/(images|icons|css)/,
+  new CacheFirst()
+);
+
+registerRoute(
+  /essais\//,
+  new NetworkFirst()
+);
+
+registerRoute(
+  /tech\//,
+  new NetworkFirst()
+);
+
+registerRoute(
+  /algo\//,
+  new NetworkFirst()
+);
