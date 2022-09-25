@@ -17,35 +17,6 @@ registerRoute(
   new NetworkFirst()
 );
 
-registerRoute(
-  /assets\//,
-  new CacheFirst()
-);
-
-registerRoute(
-  /essais\//,
-  new NetworkFirst()
-);
-
-registerRoute(
-  /tech\//,
-  new NetworkFirst()
-);
-
-registerRoute(
-  /algo\//,
-  new NetworkFirst()
-);
-
-registerRoute(
-  /links\//,
-  new NetworkFirst()
-);
-
-registerRoute(
-  /projects\//,
-  new NetworkFirst()
-);
 
 
 workbox.precaching.precacheAndRoute([
@@ -79,6 +50,33 @@ registerRoute(
   /static\//,
   new CacheFirst()
 );
+
+
+// registerRoute(
+//   /essais\//,
+//   new NetworkFirst()
+// );
+
+// registerRoute(
+//   /tech\//,
+//   new NetworkFirst()
+// );
+
+// registerRoute(
+//   /algo\//,
+//   new NetworkFirst()
+// );
+
+// registerRoute(
+//   /links\//,
+//   new NetworkFirst()
+// );
+
+// registerRoute(
+//   /projects\//,
+//   new NetworkFirst()
+// );
+
 
 // registerRoute(
 //   /assets\//,

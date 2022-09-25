@@ -14,35 +14,6 @@ registerRoute(
   new NetworkFirst()
 );
 
-registerRoute(
-  /assets\//,
-  new CacheFirst()
-);
-
-registerRoute(
-  /essais\//,
-  new NetworkFirst()
-);
-
-registerRoute(
-  /tech\//,
-  new NetworkFirst()
-);
-
-registerRoute(
-  /algo\//,
-  new NetworkFirst()
-);
-
-registerRoute(
-  /links\//,
-  new NetworkFirst()
-);
-
-registerRoute(
-  /projects\//,
-  new NetworkFirst()
-);
 
 
 workbox.precaching.precacheAndRoute([
@@ -102,7 +73,7 @@ workbox.precaching.precacheAndRoute([
   { url: '/algo/str/', revision: '2022-09-22 00:28:18 +0300' },
   { url: '/algo/tree-traveerse/', revision: '2022-09-21 19:13:22 +0300' },
   { url: '/algo/tree/', revision: '2022-09-21 19:13:22 +0300' },
-  { url: '/', revision: '20220925182606' }
+  { url: '/', revision: '20220925183457' }
 ]);
 
 registerRoute(
@@ -123,6 +94,33 @@ registerRoute(
   /static\//,
   new CacheFirst()
 );
+
+
+// registerRoute(
+//   /essais\//,
+//   new NetworkFirst()
+// );
+
+// registerRoute(
+//   /tech\//,
+//   new NetworkFirst()
+// );
+
+// registerRoute(
+//   /algo\//,
+//   new NetworkFirst()
+// );
+
+// registerRoute(
+//   /links\//,
+//   new NetworkFirst()
+// );
+
+// registerRoute(
+//   /projects\//,
+//   new NetworkFirst()
+// );
+
 
 // registerRoute(
 //   /assets\//,
