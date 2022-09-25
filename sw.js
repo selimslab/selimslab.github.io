@@ -18,6 +18,11 @@ registerRoute(
 );
 
 registerRoute(
+  /assets\//,
+  new CacheFirst()
+);
+
+registerRoute(
   /essais\//,
   new NetworkFirst()
 );

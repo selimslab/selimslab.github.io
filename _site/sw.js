@@ -15,6 +15,11 @@ registerRoute(
 );
 
 registerRoute(
+  /assets\//,
+  new CacheFirst()
+);
+
+registerRoute(
   /essais\//,
   new NetworkFirst()
 );
@@ -79,7 +84,7 @@ workbox.precaching.precacheAndRoute([
   { url: '/tech/projects/', revision: '2022-09-23 13:23:05 +0300' },
   { url: '/tech/software-security/', revision: '2022-09-21 19:13:22 +0300' },
   { url: '/tech/solid/', revision: '2022-09-21 22:50:29 +0300' },
-  { url: '/tech/starter/', revision: '2022-09-25 02:23:26 +0300' },
+  { url: '/tech/starter/', revision: '2022-09-25 18:11:12 +0300' },
   { url: '/tech/websec/', revision: '2022-09-21 19:13:22 +0300' },
   { url: '/algo/arr/', revision: '2022-09-23 13:23:05 +0300' },
   { url: '/algo/backtrack/', revision: '2022-09-23 15:31:06 +0300' },
@@ -97,7 +102,7 @@ workbox.precaching.precacheAndRoute([
   { url: '/algo/str/', revision: '2022-09-22 00:28:18 +0300' },
   { url: '/algo/tree-traveerse/', revision: '2022-09-21 19:13:22 +0300' },
   { url: '/algo/tree/', revision: '2022-09-21 19:13:22 +0300' },
-  { url: '/', revision: '20220925181106' }
+  { url: '/', revision: '20220925182606' }
 ]);
 
 registerRoute(
