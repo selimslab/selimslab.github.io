@@ -3,12 +3,12 @@
     "name": "notes",
     "icons": [
       {
-        "src": "/fav/android-chrome-192x192.png",
+        "src": "/assets/fav/android-chrome-192x192.png",
         "type": "image/png",
         "sizes": "192x192"
       },
       {
-        "src": "/fav/android-chrome-512x512.png",
+        "src": "/assets/fav/android-chrome-512x512.png",
         "type": "image/png",
         "sizes": "512x512"
       }
