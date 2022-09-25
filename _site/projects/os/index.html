@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Logos, a very basic operating system kernel from scratch – notes 🎸 – bicycle for mind</title>
+  
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Modern life runs on computers, and they run on operating systems
+" />
+    <meta property="og:description" content="Modern life runs on computers, and they run on operating systems
+" />
+    
+    
+    <meta name="author" content="selimslab" />
+
+    
+    <meta property="og:title" content="Logos, a very basic operating system kernel from scratch" />
+    <meta property="twitter:title" content="Logos, a very basic operating system kernel from scratch" />
+    
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/x-icon" href="/assets/fav/favicon.ico">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="/assets/bulma.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="notes 🎸 - bicycle for mind"
+      href="/feed.xml" />
+  
+  </head>
+
+  
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WT9QGKVX1Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WT9QGKVX1Q');
+</script>
+
+
+
+
+
+
+<body>
+  <script src="/assets/js/theme.js"></script>
+
+  
+<div class="top"></div>
+
+
+<nav class="navbar">
+    <div class="navbar-brand">
+      <!-- <a href="/" class="site-avatar image"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/The_Great_Wave_off_Kanagawa.jpg/120px-The_Great_Wave_off_Kanagawa.jpg" /></a> -->
+      <a href="/" class="site-name">notes 🎸</a>
+
+      <a accesskey="r" onclick="get_random_post();" style="font-size:2rem; float:right; margin-left:3.236rem;">🎲</a>
+      <a id="theme-toggle" onclick="switchTheme()" style="font-size:2rem; float:right; margin-left: 2rem;">🌙</a>
+    </div>
+</nav>
+
+
+
+  <img id="random-img" class="img-full" />
+<p id="random-img-alt"></p>
+
+<article>
+        
+
+<h1>Logos, a very basic operating system kernel from scratch</h1>
+
+
+
+<p>Modern life runs on computers, and they run on operating systems</p>
+
+<p>So how do they really work? What happens under the hood?</p>
+
+<p>Questions follow each other.</p>
+
+<hr />
+
+<p>This is a project to understand and replicate the great <a href="https://github.com/cfenollosa/os-tutorial">os-tutorial</a></p>
+
+<p>Logos bootloads a kernel, connects to the keyboard and screen, and starts a basic shell</p>
+
+<p><a href="https://github.com/selimslab/logos">https://github.com/selimslab/logos</a></p>
+
+<hr />
+
+<p>These two books helped me a lot, as well as spending a few hours on <a href="https://wiki.osdev.org/Main_Page">os-dev wiki</a></p>
+
+<ol>
+  <li>Operating Systems: From 0 to 1</li>
+  <li>Writing a Simple Operating System — from Scratch</li>
+</ol>
+
+<hr />
+
+<p>Reading Operating Systems: Three Easy Pieces helped me cover more OS concepts, like scheduling, virtualization, file systems, concurrency, ..</p>
+
+<h2 id="containers">Containers</h2>
+
+<p>Although OS provides process isolation, containers provide more isolation and ease on top of that</p>
+
+<p><a href="https://www.youtube.com/watch?v=8fi7uSYlOdc">Containers From Scratch • Liz Rice • GOTO 2018</a> is a great look under the hood for what really is a container</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+</pre></td><td class="rouge-code"><pre>package main
+
+import (
+	"fmt"
+	"io/ioutil"
+	"os"
+	"os/exec"
+	"path/filepath"
+	"strconv"
+	"syscall"
+)
+
+// go run main.go run &lt;cmd&gt; &lt;args&gt;
+func main() {
+	switch os.Args[1] {
+	case "run":
+		run()
+	case "child":
+		child()
+	default:
+		panic("help")
+	}
+}
+
+func run() {
+	fmt.Printf("Running %v \n", os.Args[2:])
+
+	cmd := exec.Command("/proc/self/exe", append([]string{"child"}, os.Args[2:]...)...)
+	cmd.Stdin = os.Stdin
+	cmd.Stdout = os.Stdout
+	cmd.Stderr = os.Stderr
+	cmd.SysProcAttr = &amp;syscall.SysProcAttr{
+		Cloneflags:   syscall.CLONE_NEWUTS | syscall.CLONE_NEWPID | syscall.CLONE_NEWNS,
+		Unshareflags: syscall.CLONE_NEWNS,
+	}
+
+	must(cmd.Run())
+}
+
+func child() {
+	fmt.Printf("Running %v \n", os.Args[2:])
+
+	cg()
+
+	cmd := exec.Command(os.Args[2], os.Args[3:]...)
+	cmd.Stdin = os.Stdin
+	cmd.Stdout = os.Stdout
+	cmd.Stderr = os.Stderr
+
+	must(syscall.Sethostname([]byte("container")))
+	must(syscall.Chroot("/home/liz/ubuntufs"))
+	must(os.Chdir("/"))
+	must(syscall.Mount("proc", "proc", "proc", 0, ""))
+	must(syscall.Mount("thing", "mytemp", "tmpfs", 0, ""))
+
+	must(cmd.Run())
+
+	must(syscall.Unmount("proc", 0))
+	must(syscall.Unmount("thing", 0))
+}
+
+func cg() {
+	cgroups := "/sys/fs/cgroup/"
+	pids := filepath.Join(cgroups, "pids")
+	os.Mkdir(filepath.Join(pids, "liz"), 0755)
+	must(ioutil.WriteFile(filepath.Join(pids, "liz/pids.max"), []byte("20"), 0700))
+	// Removes the new cgroup in place after the container exits
+	must(ioutil.WriteFile(filepath.Join(pids, "liz/notify_on_release"), []byte("1"), 0700))
+	must(ioutil.WriteFile(filepath.Join(pids, "liz/cgroup.procs"), []byte(strconv.Itoa(os.Getpid())), 0700))
+}
+
+func must(err error) {
+	if err != nil {
+		panic(err)
+	}
+}
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+
+<br>
+
+<p style="font-weight:300; font-size:1rem">last edit at 2022-09-21 19:13:22</p>
+
+
+
+</article>
+
+
+<script src="/assets/js/random-img.js"></script>
+
+
+
+
+  <footer class="footer">
+    <a onclick="get_random_post();" style="font-size:3rem;">🎲</a>
+    <p>All rights reserved © 2022</p>
+    <p>Made with ❤️ by <a href="https://github.com/selimslab">Selim</a></p>
+</footer>
+
+
+  <script src="/assets/js/random-post.js"></script>
+
+  <script>
+    if('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+      })
+    }
+  </script>
+  
+</body>
+
+
+</html>

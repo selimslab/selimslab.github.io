@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Bitworks – notes 🎸 – bicycle for mind</title>
+  
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="```
+Get 
+num &amp; 1«i
+" />
+    <meta property="og:description" content="```
+Get 
+num &amp; 1«i
+" />
+    
+    
+    <meta name="author" content="selimslab" />
+
+    
+    <meta property="og:title" content="Bitworks" />
+    <meta property="twitter:title" content="Bitworks" />
+    
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/x-icon" href="/assets/fav/favicon.ico">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="/assets/bulma.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="notes 🎸 - bicycle for mind"
+      href="/feed.xml" />
+  
+  </head>
+
+  
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WT9QGKVX1Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WT9QGKVX1Q');
+</script>
+
+
+
+
+
+
+<body>
+  <script src="/assets/js/theme.js"></script>
+
+  
+<div class="top"></div>
+
+
+<nav class="navbar">
+    <div class="navbar-brand">
+      <!-- <a href="/" class="site-avatar image"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/The_Great_Wave_off_Kanagawa.jpg/120px-The_Great_Wave_off_Kanagawa.jpg" /></a> -->
+      <a href="/" class="site-name">notes 🎸</a>
+
+      <a accesskey="r" onclick="get_random_post();" style="font-size:2rem; float:right; margin-left:3.236rem;">🎲</a>
+      <a id="theme-toggle" onclick="switchTheme()" style="font-size:2rem; float:right; margin-left: 2rem;">🌙</a>
+    </div>
+</nav>
+
+
+
+  <img id="random-img" class="img-full" />
+<p id="random-img-alt"></p>
+
+<article>
+        
+
+<h1>Bitworks</h1>
+
+
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+</pre></td><td class="rouge-code"><pre>Get 
+num &amp; 1&lt;&lt;i 
+
+Set 
+num | 1&lt;&lt;i
+
+Clear 
+num &amp; ~(1&lt;&lt;i)
+
+masks
+
+(1&lt;&lt;i)-1 = 0100 
+0100 - 1 = 0011
+
+-1 &lt;&lt; (i+1) = 1111 
+1111 &lt;&lt; 2 =  1100 
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+</pre></td><td class="rouge-code"><pre>func reverseBits(num uint32) uint32 {
+    /*
+    Input: 00000010100101000001111010011100
+    Output: 00111001011110000010100101000000
+    */
+    res := uint32(0)
+    power := uint32(31)
+    for num != 0 {
+        res += (num &amp; 1) &lt;&lt; power
+        num = num &gt;&gt; 1
+        power -= 1
+    }
+    return res
+}
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>def readBinaryWatch(self, num: int) -&gt; List[str]:    
+    """
+    Given a non-negative integer n which represents the number of LEDs that are currently on, 
+    return all possible times a binary watch could represent.
+    Example:
+    Input: n = 1
+    Return: ["1:00", "2:00", "4:00", "8:00", "0:01", "0:02", "0:04", "0:08", "0:16", "0:32"]
+    """
+    return ['%d:%02d' % (h, m)
+            for h in range(12) for m in range(60)
+            if (bin(h) + bin(m)).count('1') == num]
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+
+<br>
+
+<p style="font-weight:300; font-size:1rem">last edit at 2022-09-21 22:50:29</p>
+
+
+
+</article>
+
+
+<script src="/assets/js/random-img.js"></script>
+
+
+
+
+  <footer class="footer">
+    <a onclick="get_random_post();" style="font-size:3rem;">🎲</a>
+    <p>All rights reserved © 2022</p>
+    <p>Made with ❤️ by <a href="https://github.com/selimslab">Selim</a></p>
+</footer>
+
+
+  <script src="/assets/js/random-post.js"></script>
+
+  <script>
+    if('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+      })
+    }
+  </script>
+  
+</body>
+
+
+</html>

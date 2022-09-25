@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Web Security – notes 🎸 – bicycle for mind</title>
+  
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Auth
+" />
+    <meta property="og:description" content="Auth
+" />
+    
+    
+    <meta name="author" content="selimslab" />
+
+    
+    <meta property="og:title" content="Web Security" />
+    <meta property="twitter:title" content="Web Security" />
+    
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/x-icon" href="/assets/fav/favicon.ico">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="/assets/bulma.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="notes 🎸 - bicycle for mind"
+      href="/feed.xml" />
+  
+  </head>
+
+  
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WT9QGKVX1Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WT9QGKVX1Q');
+</script>
+
+
+
+
+
+
+<body>
+  <script src="/assets/js/theme.js"></script>
+
+  
+<div class="top"></div>
+
+
+<nav class="navbar">
+    <div class="navbar-brand">
+      <!-- <a href="/" class="site-avatar image"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/The_Great_Wave_off_Kanagawa.jpg/120px-The_Great_Wave_off_Kanagawa.jpg" /></a> -->
+      <a href="/" class="site-name">notes 🎸</a>
+
+      <a accesskey="r" onclick="get_random_post();" style="font-size:2rem; float:right; margin-left:3.236rem;">🎲</a>
+      <a id="theme-toggle" onclick="switchTheme()" style="font-size:2rem; float:right; margin-left: 2rem;">🌙</a>
+    </div>
+</nav>
+
+
+
+  <img id="random-img" class="img-full" />
+<p id="random-img-alt"></p>
+
+<article>
+        
+
+<h1>Web Security</h1>
+
+
+
+<h2 id="auth">Auth</h2>
+
+<p>Use 2-factor</p>
+
+<p>Add exponential delay to repeated login attempts</p>
+
+<p>Lock account after repeated failed login attempts</p>
+
+<p>Use authorization levels.</p>
+
+<p>Least privilege, never grant more access than required.</p>
+
+<p>Separation of privileges, so your system is not all or nothing</p>
+
+<p>Use allow-lists, not block-lists</p>
+
+<h2 id="sql">SQL</h2>
+
+<p>Parametrize queries to prevent SQL injection</p>
+
+<h2 id="cookies">Cookies</h2>
+
+<p>They are mainly used for managing sessions, tracking, and personalization</p>
+
+<p>Prepend with <code class="language-plaintext highlighter-rouge">__Host-</code> to restrict cookie on a specific domain (no subdomains)</p>
+
+<p>Prepend cookies with <code class="language-plaintext highlighter-rouge">__Secure-</code> to prevent them from being overwritten.</p>
+
+<p><code class="language-plaintext highlighter-rouge">__Host-</code> prefix is stricter than <code class="language-plaintext highlighter-rouge">__Secure</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">Expires</code> set an expiration</p>
+
+<p><code class="language-plaintext highlighter-rouge">Secure</code> header make cookies HTTPS</p>
+
+<p><code class="language-plaintext highlighter-rouge">HTTPOnly</code> header to prevent JavaScript access</p>
+
+<p><code class="language-plaintext highlighter-rouge">SameSite</code> to prevent sending the cookie via cross-origin requests</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="nb">document</span><span class="p">.</span><span class="nx">cookie</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">_Host-username=Jane; Secure; HttpOnly; Path=/; SameSite=Strict</span><span class="dl">"</span><span class="p">;</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h2 id="cross-site-request-forgery-csrf">Cross-site request forgery CSRF</h2>
+
+<p>CSRF is forgery of a valid request.</p>
+
+<p>It is possible to forge a fake request if</p>
+<ol>
+  <li>the only mechanism to track user session is a cookie,</li>
+  <li>all request parameters predictable</li>
+</ol>
+
+<p>To prevent it, we need at least one unpredictable parameter, a CSRF token.</p>
+
+<p>This token is a large random value, unique per user &amp; per user session.</p>
+
+<p>Make sure your forms have CSRF tokens.</p>
+
+<p><br /></p>
+
+<p>CSRF tokens should not be sent within cookies.</p>
+
+<p>Use <code class="language-plaintext highlighter-rouge">SameSite</code> header to forbid sending the cookie via cross-origin requests</p>
+
+<p><a href="https://portswigger.net/web-security/csrf">more on CSRF</a></p>
+
+<h2 id="cross-origin-resource-sharing-cors">Cross-origin Resource Sharing (CORS)</h2>
+
+<p>an origin is a tuple of protocol:host:port</p>
+
+<p><code class="language-plaintext highlighter-rouge">Access-Control-Allow-Origin: https://x.com:8081</code>  only the specified origin can access</p>
+
+<p><code class="language-plaintext highlighter-rouge">Access-Control-Allow-Origin: *</code> every origin can access</p>
+
+<p>By default, browser XMLHttpRequest or fetch APIs allows same-origin only</p>
+
+<p>Use <code class="language-plaintext highlighter-rouge">Access-Control-Allow-Origin</code> to manage CORS</p>
+
+<p>Use <code class="language-plaintext highlighter-rouge">integrity</code> to verify a resource is not modified on the way</p>
+
+<p>Use <code class="language-plaintext highlighter-rouge">X-Frame-Options: DENY</code> to disallow allow attempts to iframe site</p>
+
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">more on CORS</a></p>
+
+<h2 id="cross-site-scripting-xss">Cross-site scripting XSS</h2>
+
+<p>It is injecting malicious code into a website so user’s browser executes it</p>
+
+<p>To prevent, validate and encode. For example <code class="language-plaintext highlighter-rouge">&lt;script&gt;</code> would be encoded as <code class="language-plaintext highlighter-rouge">&amp;lt;script&amp;gt;</code></p>
+
+<p>Set <code class="language-plaintext highlighter-rouge">Content Security Policy</code> header</p>
+
+<p>so the browser will run only allow the white-listed scripts and assets</p>
+
+<p>By using CSP to disable inline JavaScript, you can effectively eliminate almost all XSS attacks against your site.</p>
+
+<p>Disabling inline JavaScript means that all JavaScript must be loaded from script src tags.</p>
+
+<p>an example CSP response header</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre>Content-Security-Policy: 
+default-src <span class="s1">'none'</span><span class="p">;</span> 
+object-src <span class="s1">'none'</span><span class="p">;</span> 
+script-src <span class="s1">'self'</span><span class="p">;</span> 
+style-src <span class="s1">'self'</span><span class="p">;</span>
+img-src <span class="s1">'self'</span> <span class="s1">'https://i.imgur.com'</span><span class="p">;</span>
+font-src <span class="s1">'https://fonts.googleapis.com'</span><span class="p">;</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h2 id="more">More</h2>
+
+<p><a href="https://www.hacksplaining.com/lessons">Pick a Vulnerability to Learn About</a></p>
+
+<p><a href="https://blog.gitguardian.com/secrets-api-management/#secrets-as-service">Best practices for managing &amp; storing secrets like API keys and other credentials [2020]</a></p>
+
+<p><a href="https://stackoverflow.com/questions/2794016/what-should-every-programmer-know-about-security">https://stackoverflow.com/questions/2794016/what-should-every-programmer-know-about-security</a></p>
+
+<p><a href="https://stackoverflow.com/questions/tagged/security">https://stackoverflow.com/questions/tagged/security</a></p>
+
+
+<br>
+
+<p style="font-weight:300; font-size:1rem">last edit at 2022-09-21 19:13:22</p>
+
+
+
+</article>
+
+
+<script src="/assets/js/random-img.js"></script>
+
+
+
+
+  <footer class="footer">
+    <a onclick="get_random_post();" style="font-size:3rem;">🎲</a>
+    <p>All rights reserved © 2022</p>
+    <p>Made with ❤️ by <a href="https://github.com/selimslab">Selim</a></p>
+</footer>
+
+
+  <script src="/assets/js/random-post.js"></script>
+
+  <script>
+    if('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+      })
+    }
+  </script>
+  
+</body>
+
+
+</html>

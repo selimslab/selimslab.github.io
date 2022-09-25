@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Tree – notes 🎸 – bicycle for mind</title>
+  
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="1
+2
+def tree():
+    return collections.defaultdict(tree)
+
+" />
+    <meta property="og:description" content="1
+2
+def tree():
+    return collections.defaultdict(tree)
+
+" />
+    
+    
+    <meta name="author" content="selimslab" />
+
+    
+    <meta property="og:title" content="Tree" />
+    <meta property="twitter:title" content="Tree" />
+    
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/x-icon" href="/assets/fav/favicon.ico">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="/assets/bulma.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="notes 🎸 - bicycle for mind"
+      href="/feed.xml" />
+  
+  </head>
+
+  
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WT9QGKVX1Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WT9QGKVX1Q');
+</script>
+
+
+
+
+
+
+<body>
+  <script src="/assets/js/theme.js"></script>
+
+  
+<div class="top"></div>
+
+
+<nav class="navbar">
+    <div class="navbar-brand">
+      <!-- <a href="/" class="site-avatar image"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/The_Great_Wave_off_Kanagawa.jpg/120px-The_Great_Wave_off_Kanagawa.jpg" /></a> -->
+      <a href="/" class="site-name">notes 🎸</a>
+
+      <a accesskey="r" onclick="get_random_post();" style="font-size:2rem; float:right; margin-left:3.236rem;">🎲</a>
+      <a id="theme-toggle" onclick="switchTheme()" style="font-size:2rem; float:right; margin-left: 2rem;">🌙</a>
+    </div>
+</nav>
+
+
+
+  <img id="random-img" class="img-full" />
+<p id="random-img-alt"></p>
+
+<article>
+        
+
+<h1>Tree</h1>
+
+
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>def tree():
+    return collections.defaultdict(tree)
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+</pre></td><td class="rouge-code"><pre>/**
+ * Definition for TreeNode.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *ListNode
+ *     Right *ListNode
+ * }
+ */
+ func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
+     if root == nil || root == p || root == q {
+         return root 
+     }
+     left := lowestCommonAncestor(root.Left,p,q)
+     right := lowestCommonAncestor(root.Right,p,q)
+     if left != nil &amp;&amp; right != nil {
+         return root 
+     }
+     if left != nil{
+         return left 
+     } else{
+         return right 
+     }
+     
+}
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+</pre></td><td class="rouge-code"><pre>class Codec:
+
+    def serialize(self, root):
+        """Encodes a tree to a single string.
+        
+        :type root: TreeNode
+        :rtype: str
+        """
+        def preorder(root):
+            vals = list()
+            def go(node):
+                if node:
+                    vals.append(str(node.val))
+                    go(node.left)
+                    go(node.right)
+                else:
+                    vals.append("#")
+            
+            go(root)
+            return vals
+        
+        vals = preorder(root)
+        return " ".join(vals)      
+                
+    def deserialize(self, data):
+        """Decodes your encoded data to tree.
+        
+        :type data: str
+        :rtype: TreeNode
+        """
+                
+        def construct():
+            val = next(vals)
+            if val == "#":
+                return None
+            node = TreeNode(int(val))
+            node.left= construct()
+            node.right= construct()
+            
+            return node
+
+        vals = iter(data.split())
+        root = construct()
+        
+        return root
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+</pre></td><td class="rouge-code"><pre>class Trie:
+    """ or prefix tree """
+    def __init__(self):
+        """
+        a child of a Trie is a Trie        
+        """
+        self.trie = {}
+        
+    def insert(self, word: str) -&gt; None:
+        """
+        Inserts a word into the trie.
+        """
+        t = self.trie
+        for letter in word:
+            if letter not in t:
+                t[letter] = {}
+            t = t[letter]
+        t["#"] = "#"  
+
+    def search(self, word: str) -&gt; bool:
+        """
+        Returns if the word is in the trie.
+        """
+        return self.startsWith(word + '#')
+        
+
+    def startsWith(self, prefix: str) -&gt; bool:
+        """
+        Returns if there is any word in the trie that starts with the given prefix.
+        """
+        t = self.trie 
+        for letter in prefix:
+            if letter not in t:
+                return False
+            t = t[letter]
+        return True
+
+def test_trie():
+  trie = Trie()
+  trie.insert("apple")
+  assert trie.search("apple") is True
+  assert trie.search("app") is False
+  assert trie.startsWith("app") is True
+  trie.insert("app")
+  assert trie.search("app") is True
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+</pre></td><td class="rouge-code"><pre>"""
+root = [5,3,6,2,4,null,7]
+key = 3
+    5
+   / \
+  3   6
+ / \   \
+2   4   7
+Given key to delete is 3. So we find the node with value 3 and delete it.
+One valid answer is [5,4,6,2,null,null,7], shown in the following BST.
+    5
+   / \
+  4   6
+ /     \
+2       7
+Another valid answer is [5,2,6,null,4,null,7].
+    5
+   / \
+  2   6
+   \   \
+    4   7
+"""
+    
+def deleteNode(self, root, key):
+
+    if not root:
+        return
+
+    if key &gt; root.val:
+        root.right = self.deleteNode(root.right, key)
+
+    elif key &lt; root.val:
+        root.left = self.deleteNode(root.left, key)
+
+    # now the key is the root of a subtree
+    else:
+        # if the subtree does not have a left child, we just return its right child
+        # to its father, and they will be connected on the higher level recursion.
+        if not root.left:
+            return root.right
+
+        # if it has a left child, we want to find the max val on the left subtree to 
+        # replace the node we want to delete.
+        else:
+            # try to find the max value on the left subtree
+            tmp = root.left
+            while tmp.right:
+                tmp = tmp.right
+
+            root.val = tmp.val
+   
+                root.left = self.deleteNode(root.left, tmp.val)
+        
+        return root
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+</pre></td><td class="rouge-code"><pre>/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+func max(a, b int) int {
+    if a &lt; b {
+        return b
+    }
+    return a
+}
+
+func diameterOfBinaryTree(root *TreeNode) int {
+    dia := 0
+    
+    var walk func(root *TreeNode) int
+
+    walk = func(root *TreeNode) int {
+        if root == nil{
+            return 0 
+        }
+        
+        var left = walk(root.Left)
+        
+        var right = walk(root.Right)
+                
+        dia = max(dia, left+right)
+
+        return max(left,right) + 1
+  
+    }
+    
+    walk(root)
+    
+    return dia 
+    
+}
+
+</pre></td></tr></tbody></table></code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+</pre></td><td class="rouge-code"><pre>
+
+'''
+Invert a binary tree.
+Example:
+Input:
+     4
+   /   \
+  2     7
+ / \   / \
+1   3 6   9
+Output:
+     4
+   /   \
+  7     2
+ / \   / \
+9   6 3   1
+'''
+
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+  def invertTree(self, root):
+      """
+      :type root: TreeNode
+      :rtype: TreeNode
+      """
+      if not root:
+          return None
+
+      right = self.invertTree(root.right)
+      left = self.invertTree(root.left)
+
+      root.right = left
+      root.left = right
+
+      return root
+
+</pre></td></tr></tbody></table></code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+</pre></td><td class="rouge-code"><pre>
+/*
+    1
+   / \
+  2   2
+ / \ / \
+3  4 4  3
+*/
+public boolean isSymmetric(TreeNode root) {
+    return isMirror(root, root);
+}
+
+public boolean isMirror(TreeNode t1, TreeNode t2) {
+    if (t1 == null &amp;&amp; t2 == null) return true;
+    if (t1 == null || t2 == null) return false;
+    return (t1.val == t2.val)
+        &amp;&amp; isMirror(t1.right, t2.left)
+        &amp;&amp; isMirror(t1.left, t2.right);
+}
+
+</pre></td></tr></tbody></table></code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+</pre></td><td class="rouge-code"><pre>
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ * };
+ */
+class Solution {
+public:
+    int maxDepth(TreeNode* root) {
+        if(!root){
+            return 0;
+        }
+        int left = maxDepth(root-&gt;left);
+        int right = maxDepth(root-&gt;right);
+        
+        return max(left,right)+1;
+
+    }
+};
+
+</pre></td></tr></tbody></table></code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+</pre></td><td class="rouge-code"><pre>
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+"""
+   3
+   / \
+  9  20
+    /  \
+   15   7
+ 
+return : 3
+"""
+
+def maxDepth(self, root: 'TreeNode') -&gt; 'int':
+    if not root:
+        return 0
+    left = self.maxDepth(root.left)
+    right =  self.maxDepth(root.right)
+
+    return max(left,right)+1
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+</pre></td><td class="rouge-code"><pre>def maxPathSum(self, root: TreeNode) -&gt; int:
+    """
+       1
+      / \
+     2   3
+
+    Output: 6
+
+    -10
+    / \
+    9  20
+        /  \
+    15   7
+
+    Output: 42
+
+
+    """
+    max_sum = float("-inf")
+
+    def walk(node):
+        if not node:
+            return 0
+
+        left = max(0, walk(node.left))
+        right = max(0, walk(node.right))
+
+        max_sum = max(max_sum, node.val + left + right)
+
+        return max(left, right) + node.val
+
+    walk(root)
+
+    return max_sum
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+
+<br>
+
+<p style="font-weight:300; font-size:1rem">last edit at 2022-09-21 19:13:22</p>
+
+
+
+</article>
+
+
+<script src="/assets/js/random-img.js"></script>
+
+
+
+
+  <footer class="footer">
+    <a onclick="get_random_post();" style="font-size:3rem;">🎲</a>
+    <p>All rights reserved © 2022</p>
+    <p>Made with ❤️ by <a href="https://github.com/selimslab">Selim</a></p>
+</footer>
+
+
+  <script src="/assets/js/random-post.js"></script>
+
+  <script>
+    if('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+      })
+    }
+  </script>
+  
+</body>
+
+
+</html>

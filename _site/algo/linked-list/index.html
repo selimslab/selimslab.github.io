@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Linked Lists – notes 🎸 – bicycle for mind</title>
+  
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="```
+import “sort”
+" />
+    <meta property="og:description" content="```
+import “sort”
+" />
+    
+    
+    <meta name="author" content="selimslab" />
+
+    
+    <meta property="og:title" content="Linked Lists" />
+    <meta property="twitter:title" content="Linked Lists" />
+    
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/x-icon" href="/assets/fav/favicon.ico">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="/assets/bulma.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="notes 🎸 - bicycle for mind"
+      href="/feed.xml" />
+  
+  </head>
+
+  
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WT9QGKVX1Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WT9QGKVX1Q');
+</script>
+
+
+
+
+
+
+<body>
+  <script src="/assets/js/theme.js"></script>
+
+  
+<div class="top"></div>
+
+
+<nav class="navbar">
+    <div class="navbar-brand">
+      <!-- <a href="/" class="site-avatar image"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/The_Great_Wave_off_Kanagawa.jpg/120px-The_Great_Wave_off_Kanagawa.jpg" /></a> -->
+      <a href="/" class="site-name">notes 🎸</a>
+
+      <a accesskey="r" onclick="get_random_post();" style="font-size:2rem; float:right; margin-left:3.236rem;">🎲</a>
+      <a id="theme-toggle" onclick="switchTheme()" style="font-size:2rem; float:right; margin-left: 2rem;">🌙</a>
+    </div>
+</nav>
+
+
+
+  <img id="random-img" class="img-full" />
+<p id="random-img-alt"></p>
+
+<article>
+        
+
+<h1>Linked Lists</h1>
+
+
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+</pre></td><td class="rouge-code"><pre>import "sort"
+
+func sortList(head *ListNode) *ListNode {
+	vals := []int{}
+	temp := head
+	for temp != nil {
+		vals = append(vals, temp.Val)
+		temp = temp.Next
+	}
+	sort.Ints(vals)
+
+	p := &amp;ListNode{0, nil}
+	t := p
+	for _, val := range vals {
+		p.Next = &amp;ListNode{val, nil}
+		p = p.Next
+	}
+	return t.Next
+}
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p><a href="https://leetcode.com/problems/sort-list/">https://leetcode.com/problems/sort-list/</a></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+</pre></td><td class="rouge-code"><pre>type ListNode struct {
+    Val int
+    Next *ListNode
+}
+
+import "sort"
+
+func sortList(head *ListNode) *ListNode {
+    vals := []int{}
+    temp := head
+    for temp != nil {
+        vals = append(vals,temp.Val)
+        temp = temp.Next
+    }
+    sort.Ints(vals)
+    
+    t := head
+    for _, val := range(vals) {
+        t.Val = val
+        t = t.Next 
+    }
+    return head
+}
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+</pre></td><td class="rouge-code"><pre>"""
+Detect a cycle in a linked list. Note that the head pointer may be 'None' if the list is empty.
+A Node is defined as: 
+ 
+class Node(object):
+  def __init__(self, data = None, next_node = None):
+      self.data = data
+      self.next = next_node
+"""
+
+
+def has_cycle(head):
+    if not head:
+        return False
+    slow, fast = head, head.next
+    
+    while slow != fast:
+        if fast is None or fast.next is None:
+            return False
+        slow = slow.next
+        fast = fast.next.next
+    
+    return True
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td><td class="rouge-code"><pre>def getIntersectionNode(self, headA: ListNode, headB: ListNode) -&gt; ListNode:
+    p1, p2 = headA, headB
+
+    while p1 or p2:
+        if p1 is p2:
+            return p1 
+        p1 = headB if not p1 else p1.next
+        p2 = headA if not p2 else p2.next
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+</pre></td><td class="rouge-code"><pre>"""
+Input:  1-&gt;2-&gt;6-&gt;3-&gt;4-&gt;5-&gt;6, val = 6
+Output: 1-&gt;2-&gt;3-&gt;4-&gt;5
+"""
+
+def removeElements(self, head: ListNode, val: int) -&gt; ListNode:
+    
+    head, head.next = ListNode(0), head
+    p = head
+    
+    while p.next:
+        if p.next.val == val:
+            p.next = p.next.next
+        else:
+            p = p.next
+            
+    return head.next
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+</pre></td><td class="rouge-code"><pre>/*
+Given linked list: 1-&gt;2-&gt;3-&gt;4-&gt;5, and n = 2.
+After removing the second node from the end, the linked list becomes 1-&gt;2-&gt;3-&gt;5.
+*/
+
+public ListNode removeNthFromEnd(ListNode head, int n) {
+    ListNode dummy = new ListNode(0);
+    dummy.next = head;
+    ListNode first = dummy;
+    ListNode second = dummy;
+    // Advances first pointer so that the gap between first and second is n nodes apart
+    for (int i = 1; i &lt;= n + 1; i++) {
+        first = first.next;
+    }
+    // Move first to the end, maintaining the gap
+    while (first != null) {
+        first = first.next;
+        second = second.next;
+    }
+    second.next = second.next.next;
+    return dummy.next;
+}
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+</pre></td><td class="rouge-code"><pre>/*
+Input:
+[
+  1-&gt;4-&gt;5,
+  1-&gt;3-&gt;4,
+  2-&gt;6
+]
+Output: 1-&gt;1-&gt;2-&gt;3-&gt;4-&gt;4-&gt;5-&gt;6
+*/
+
+public ListNode mergeKLists(ListNode[] lists) {
+    List&lt;Integer&gt; l = new ArrayList&lt;Integer&gt;();
+   
+    for (ListNode ln : lists) {
+        while (ln != null) {
+            l.add(ln.val);
+            ln = ln.next;
+        }
+    }
+   
+    Collections.sort(l);
+ 
+    ListNode head = new ListNode(0);
+    ListNode h = head;
+    for (int i : l) {
+        ListNode t = new ListNode(i);
+        h.next = t;
+        h = h.next;
+    }
+    h.next = null;
+    return head.next;
+}
+
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+
+<br>
+
+<p style="font-weight:300; font-size:1rem">last edit at 2022-09-22 00:28:18</p>
+
+
+
+</article>
+
+
+<script src="/assets/js/random-img.js"></script>
+
+
+
+
+  <footer class="footer">
+    <a onclick="get_random_post();" style="font-size:3rem;">🎲</a>
+    <p>All rights reserved © 2022</p>
+    <p>Made with ❤️ by <a href="https://github.com/selimslab">Selim</a></p>
+</footer>
+
+
+  <script src="/assets/js/random-post.js"></script>
+
+  <script>
+    if('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+      })
+    }
+  </script>
+  
+</body>
+
+
+</html>
