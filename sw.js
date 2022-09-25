@@ -78,8 +78,8 @@ registerRoute(
 );
 
 
-// registerRoute(
-//   /assets\//,
-//   new StaleWhileRevalidate()
-// );
+registerRoute(
+  /assets\//,
+  new StaleWhileRevalidate()
+);
 
