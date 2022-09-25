@@ -1,5 +1,5 @@
 get_random_post = async () =>{
-    fetch("/assets/urls.json", {headers:{     
+    fetch("/assets/data/urls.json", {headers:{     
             'Content-Type': 'application/json',
             'cache': "force-cache"
     }})

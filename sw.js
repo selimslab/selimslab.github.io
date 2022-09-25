@@ -47,11 +47,16 @@ registerRoute(
 );
 
 
+
+registerRoute(
+  /static\//,
+  new CacheFirst()
+);
+
 registerRoute(
   /assets\//,
   new StaleWhileRevalidate()
 );
-
 
 registerRoute(
   /essais\//,
