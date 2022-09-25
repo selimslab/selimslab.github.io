@@ -50,7 +50,7 @@ jobs:
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./_site/*
+          path: _site/*
 
   # Deployment job
   deploy:
