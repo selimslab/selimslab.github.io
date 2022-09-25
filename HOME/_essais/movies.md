@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Movies & Series  
+title: Movies   
 ---
 
 
@@ -82,6 +82,10 @@ Soul (2020)
 
 ## Series 
 
+Friends (1994)
+
+The Office (2005)
+
 Rick and Morty (2013)
 
 The Sandman (2022)
@@ -89,4 +93,6 @@ The Sandman (2022)
 ## Watchlist 
 
 The Wizard of Oz
+
+Hamilton 
 
