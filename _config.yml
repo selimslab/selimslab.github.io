@@ -88,3 +88,9 @@ collections:
 
   links:
     output: true 
+
+
+feed:
+  collections:
+    - essais
+    - tech 
