@@ -17,6 +17,11 @@ registerRoute(
   new NetworkFirst()
 );
 
+registerRoute(
+  new RegExp('/\\d{4}/\\d{2}/\\d{2}/.+'),
+  new StaleWhileRevalidate()
+)
+
 
 workbox.precaching.precacheAndRoute([
   {% for post in site.essais -%}
@@ -28,7 +33,7 @@ workbox.precaching.precacheAndRoute([
   {% for post in site.algo -%}
     { url: '{{ post.url }}', revision: '{{ post.last_modified_at }}' },
   {% endfor -%}
-  { url: '/', revision: '{{ site.time | date: "%Y%m%d%H%M%S" }}' },
+  { url: '/', revision: '{{ site.time | date: "%Y%m%d%H%M%S" }}' }
 ]);
 
 registerRoute(
@@ -39,18 +44,6 @@ registerRoute(
     ],
   })
 );
-
-
-registerRoute(
-  new RegExp('/\\d{4}/\\d{2}/\\d{2}/.+'),
-  new StaleWhileRevalidate()
-)
-
-// registerRoute(
-//   /assets\/(images|icons|css)/,
-//   new CacheFirst()
-// );
-
 
 
 registerRoute(
@@ -68,7 +61,3 @@ registerRoute(
   new NetworkFirst()
 );
 
-registerRoute(
-  /assets\//,
-  new CacheFirst()
-);

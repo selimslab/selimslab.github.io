@@ -14,6 +14,11 @@ registerRoute(
   new NetworkFirst()
 );
 
+registerRoute(
+  new RegExp('/\\d{4}/\\d{2}/\\d{2}/.+'),
+  new StaleWhileRevalidate()
+)
+
 
 workbox.precaching.precacheAndRoute([
   { url: '/essais/a-good-life/', revision: '2022-09-25 01:13:38 +0300' },
@@ -72,7 +77,7 @@ workbox.precaching.precacheAndRoute([
   { url: '/algo/str/', revision: '2022-09-22 00:28:18 +0300' },
   { url: '/algo/tree-traveerse/', revision: '2022-09-21 19:13:22 +0300' },
   { url: '/algo/tree/', revision: '2022-09-21 19:13:22 +0300' },
-  { url: '/', revision: '20220925151649' },
+  { url: '/', revision: '20220925154654' }
 ]);
 
 registerRoute(
@@ -83,18 +88,6 @@ registerRoute(
     ],
   })
 );
-
-
-registerRoute(
-  new RegExp('/\\d{4}/\\d{2}/\\d{2}/.+'),
-  new StaleWhileRevalidate()
-)
-
-// registerRoute(
-//   /assets\/(images|icons|css)/,
-//   new CacheFirst()
-// );
-
 
 
 registerRoute(
@@ -112,7 +105,3 @@ registerRoute(
   new NetworkFirst()
 );
 
-registerRoute(
-  /assets\//,
-  new CacheFirst()
-);
