@@ -33,11 +33,6 @@ workbox.precaching.precacheAndRoute([
 ]);
 
 registerRoute(
-  new RegExp('/\\d{4}/\\d{2}/\\d{2}/.+'),
-  new StaleWhileRevalidate()
-)
-
-registerRoute(
   ({request}) => request.destination === 'image' ,
   new CacheFirst({
     plugins: [
@@ -49,6 +44,11 @@ registerRoute(
 registerRoute(
   /static\//,
   new CacheFirst()
+);
+
+registerRoute(
+  new RegExp('\/assets\/.+\/.+'),
+  new StaleWhileRevalidate()
 );
 
 
@@ -74,16 +74,6 @@ registerRoute(
 
 registerRoute(
   /projects\//,
-  new StaleWhileRevalidate()
-);
-
-// registerRoute(
-//   /assets\/js/,
-//   new StaleWhileRevalidate()
-// );
-
-registerRoute(
-  new RegExp('\/assets\/.+\/.+'),
   new StaleWhileRevalidate()
 );
 

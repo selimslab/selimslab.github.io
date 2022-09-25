@@ -73,13 +73,8 @@ workbox.precaching.precacheAndRoute([
   { url: '/algo/str/', revision: '2022-09-22 00:28:18 +0300' },
   { url: '/algo/tree-traveerse/', revision: '2022-09-21 19:13:22 +0300' },
   { url: '/algo/tree/', revision: '2022-09-21 19:13:22 +0300' },
-  { url: '/', revision: '20220925190338' }
+  { url: '/', revision: '20220925190422' }
 ]);
-
-registerRoute(
-  new RegExp('/\\d{4}/\\d{2}/\\d{2}/.+'),
-  new StaleWhileRevalidate()
-)
 
 registerRoute(
   ({request}) => request.destination === 'image' ,
@@ -94,6 +89,12 @@ registerRoute(
   /static\//,
   new CacheFirst()
 );
+
+registerRoute(
+  new RegExp('\/assets\/.+\/.+'),
+  new StaleWhileRevalidate()
+);
+
 
 
 registerRoute(
@@ -118,16 +119,6 @@ registerRoute(
 
 registerRoute(
   /projects\//,
-  new StaleWhileRevalidate()
-);
-
-// registerRoute(
-//   /assets\/js/,
-//   new StaleWhileRevalidate()
-// );
-
-registerRoute(
-  new RegExp('\/assets\/.+\/.+'),
   new StaleWhileRevalidate()
 );
 
