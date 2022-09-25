@@ -9,11 +9,6 @@ workbox.core.setCacheNameDetails({
   suffix: '2022-09'
 });
 
-registerRoute(
-  '/',
-  new NetworkFirst()
-);
-
 
 
 workbox.precaching.precacheAndRoute([
@@ -73,7 +68,7 @@ workbox.precaching.precacheAndRoute([
   { url: '/algo/str/', revision: '2022-09-22 00:28:18 +0300' },
   { url: '/algo/tree-traveerse/', revision: '2022-09-21 19:13:22 +0300' },
   { url: '/algo/tree/', revision: '2022-09-21 19:13:22 +0300' },
-  { url: '/', revision: '20220925190422' }
+  { url: '/', revision: '20220925190452' }
 ]);
 
 registerRoute(
@@ -85,6 +80,13 @@ registerRoute(
   })
 );
 
+
+registerRoute(
+  '/',
+  new NetworkFirst()
+);
+
+
 registerRoute(
   /static\//,
   new CacheFirst()
@@ -94,7 +96,6 @@ registerRoute(
   new RegExp('\/assets\/.+\/.+'),
   new StaleWhileRevalidate()
 );
-
 
 
 registerRoute(

@@ -12,11 +12,6 @@ workbox.core.setCacheNameDetails({
   suffix: '{{ site.time | date: "%Y-%m" }}'
 });
 
-registerRoute(
-  '/',
-  new NetworkFirst()
-);
-
 
 
 workbox.precaching.precacheAndRoute([
@@ -40,6 +35,13 @@ registerRoute(
     ],
   })
 );
+
+
+registerRoute(
+  '/',
+  new NetworkFirst()
+);
+
 
 registerRoute(
   /static\//,
