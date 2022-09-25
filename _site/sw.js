@@ -18,7 +18,7 @@ registerRoute(
 
 workbox.precaching.precacheAndRoute([
   { url: '/essais/a-good-life/', revision: '2022-09-25 01:13:38 +0300' },
-  { url: '/essais/art/', revision: '2022-09-25 15:53:22 +0300' },
+  { url: '/essais/art/', revision: '2022-09-25 15:55:50 +0300' },
   { url: '/essais/books/', revision: '2022-09-23 13:41:53 +0300' },
   { url: '/essais/chaos/', revision: '2022-09-22 01:36:16 +0300' },
   { url: '/essais/children/', revision: '2022-09-21 19:13:22 +0300' },
@@ -73,7 +73,7 @@ workbox.precaching.precacheAndRoute([
   { url: '/algo/str/', revision: '2022-09-22 00:28:18 +0300' },
   { url: '/algo/tree-traveerse/', revision: '2022-09-21 19:13:22 +0300' },
   { url: '/algo/tree/', revision: '2022-09-21 19:13:22 +0300' },
-  { url: '/', revision: '20220925155548' }
+  { url: '/', revision: '20220925162104' }
 ]);
 
 registerRoute(
@@ -91,18 +91,33 @@ registerRoute(
 );
 
 
-// registerRoute(
-//   /essais\//,
-//   new NetworkFirst()
-// );
+registerRoute(
+  /assets\//,
+  new StaleWhileRevalidate()
+);
 
-// registerRoute(
-//   /tech\//,
-//   new NetworkFirst()
-// );
 
-// registerRoute(
-//   /algo\//,
-//   new NetworkFirst()
-// );
+registerRoute(
+  /essais\//,
+  new NetworkFirst()
+);
 
+registerRoute(
+  /tech\//,
+  new NetworkFirst()
+);
+
+registerRoute(
+  /algo\//,
+  new NetworkFirst()
+);
+
+registerRoute(
+  /links\//,
+  new NetworkFirst()
+);
+
+registerRoute(
+  /projects\//,
+  new NetworkFirst()
+);

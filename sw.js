@@ -47,18 +47,33 @@ registerRoute(
 );
 
 
-// registerRoute(
-//   /essais\//,
-//   new NetworkFirst()
-// );
+registerRoute(
+  /assets\//,
+  new StaleWhileRevalidate()
+);
 
-// registerRoute(
-//   /tech\//,
-//   new NetworkFirst()
-// );
 
-// registerRoute(
-//   /algo\//,
-//   new NetworkFirst()
-// );
+registerRoute(
+  /essais\//,
+  new NetworkFirst()
+);
 
+registerRoute(
+  /tech\//,
+  new NetworkFirst()
+);
+
+registerRoute(
+  /algo\//,
+  new NetworkFirst()
+);
+
+registerRoute(
+  /links\//,
+  new NetworkFirst()
+);
+
+registerRoute(
+  /projects\//,
+  new NetworkFirst()
+);
