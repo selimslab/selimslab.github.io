@@ -59,7 +59,7 @@ plugins:
   - jekyll-last-modified-at
 
 last-modified-at:
-    date-format: '%d-%b-%y-%s-%r'
+    date-format: "%Y-%m-%d %H:%M"
 
 # Exclude these files from your production _site
 exclude:

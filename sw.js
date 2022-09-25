@@ -29,7 +29,6 @@ workbox.precaching.precacheAndRoute([
     { url: '{{ post.url }}', revision: '{{ post.last_modified_at }}' },
   {% endfor -%}
   { url: '/', revision: '{{ site.time | date: "%Y%m%d%H%M" }}' },
-  { url: '/assets', revision: null }
 ]);
 
 registerRoute(
