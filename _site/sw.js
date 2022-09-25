@@ -10,6 +10,45 @@ workbox.core.setCacheNameDetails({
 });
 
 
+registerRoute(
+  ({request}) => request.destination === 'image' ,
+  new CacheFirst({
+    plugins: [
+      new CacheableResponse({statuses: [0, 200]})
+    ],
+  })
+);
+
+
+registerRoute(
+  '/',
+  new NetworkFirst()
+);
+
+
+
+
+registerRoute(
+  new RegExp('\/assets\/.+\/.+'),
+  new StaleWhileRevalidate()
+);
+
+registerRoute(
+  new RegExp('\/.+\/.+'),
+  new StaleWhileRevalidate()
+);
+
+registerRoute(
+  /static\//,
+  new CacheFirst()
+);
+
+workbox.routing.registerRoute(
+  /.*\.html/,
+  workbox.strategies.staleWhileRevalidate({  
+      cacheName: 'HTML-CACHE',
+  })
+);
 
 workbox.precaching.precacheAndRoute([
   { url: '/essais/a-good-life/', revision: '2022-09-25 01:13:38 +0300' },
@@ -68,58 +107,66 @@ workbox.precaching.precacheAndRoute([
   { url: '/algo/str/', revision: '2022-09-22 00:28:18 +0300' },
   { url: '/algo/tree-traveerse/', revision: '2022-09-21 19:13:22 +0300' },
   { url: '/algo/tree/', revision: '2022-09-21 19:13:22 +0300' },
-  { url: '/', revision: '20220925190452' }
+  { url: '/', revision: '20220925191909' }
 ]);
 
-registerRoute(
-  ({request}) => request.destination === 'image' ,
-  new CacheFirst({
-    plugins: [
-      new CacheableResponse({statuses: [0, 200]})
-    ],
-  })
-);
-
-
-registerRoute(
-  '/',
-  new NetworkFirst()
-);
-
-
-registerRoute(
-  /static\//,
-  new CacheFirst()
-);
-
-registerRoute(
-  new RegExp('\/assets\/.+\/.+'),
-  new StaleWhileRevalidate()
-);
-
-
-registerRoute(
-  /essais\//,
-  new StaleWhileRevalidate()
-);
-
-registerRoute(
-  /tech\//,
-  new StaleWhileRevalidate()
-);
-
-registerRoute(
-  /algo\//,
-  new StaleWhileRevalidate()
-);
-
-registerRoute(
-  /links\//,
-  new StaleWhileRevalidate()
-);
-
-registerRoute(
-  /projects\//,
-  new StaleWhileRevalidate()
-);
-
+self.addEventListener('install', (event) => {
+  let urls = []
+  urls.push('/essais/a-good-life/')
+  urls.push('/essais/art/')
+  urls.push('/essais/books/')
+  urls.push('/essais/chaos/')
+  urls.push('/essais/children/')
+  urls.push('/essais/cognitive%20biases/')
+  urls.push('/essais/communication/')
+  urls.push('/essais/critical-thinking/')
+  urls.push('/essais/decisions/')
+  urls.push('/essais/design/')
+  urls.push('/essais/entrepreneurship/')
+  urls.push('/essais/get-things-done/')
+  urls.push('/essais/habits/')
+  urls.push('/essais/happiness/')
+  urls.push('/essais/last-million/')
+  urls.push('/essais/leadership/')
+  urls.push('/essais/learning/')
+  urls.push('/essais/links/')
+  urls.push('/essais/mental-models/')
+  urls.push('/essais/movies/')
+  urls.push('/essais/poems/')
+  urls.push('/essais/poemtr/')
+  urls.push('/essais/problem-solving/')
+  urls.push('/essais/public-speaking/')
+  urls.push('/essais/questions/')
+  urls.push('/essais/stupidity/')
+  urls.push('/essais/teamwork-in-art-of-war/')
+  urls.push('/essais/write-better/')
+  urls.push('/tech/algo/')
+  urls.push('/tech/books/')
+  urls.push('/tech/code-review/')
+  urls.push('/tech/keyboard-shortcuts/')
+  urls.push('/tech/natural-tech/')
+  urls.push('/tech/network-layers/')
+  urls.push('/tech/principles/')
+  urls.push('/tech/projects/')
+  urls.push('/tech/software-security/')
+  urls.push('/tech/solid/')
+  urls.push('/tech/starter/')
+  urls.push('/tech/websec/')
+  urls.push('/algo/arr/')
+  urls.push('/algo/backtrack/')
+  urls.push('/algo/bits/')
+  urls.push('/algo/bst/')
+  urls.push('/algo/dijkstra/')
+  urls.push('/algo/dynamic/')
+  urls.push('/algo/graph/')
+  urls.push('/algo/greedy/')
+  urls.push('/algo/linked-list/')
+  urls.push('/algo/q/')
+  urls.push('/algo/search/')
+  urls.push('/algo/sliding/')
+  urls.push('/algo/sort/')
+  urls.push('/algo/str/')
+  urls.push('/algo/tree-traveerse/')
+  urls.push('/algo/tree/')
+  event.waitUntil(caches.open('HTML-CACHE').then((cache) => cache.addAll(urls)));
+});

@@ -13,20 +13,6 @@ workbox.core.setCacheNameDetails({
 });
 
 
-
-workbox.precaching.precacheAndRoute([
-  {% for post in site.essais -%}
-    { url: '{{ post.url }}', revision: '{{ post.last_modified_at }}' },
-  {% endfor -%}
-  {% for post in site.tech -%}
-    { url: '{{ post.url }}', revision: '{{ post.last_modified_at }}' },
-  {% endfor -%}
-  {% for post in site.algo -%}
-    { url: '{{ post.url }}', revision: '{{ post.last_modified_at }}' },
-  {% endfor -%}
-  { url: '/', revision: '{{ site.time | date: "%Y%m%d%H%M%S" }}' }
-]);
-
 registerRoute(
   ({request}) => request.destination === 'image' ,
   new CacheFirst({
@@ -43,39 +29,53 @@ registerRoute(
 );
 
 
-registerRoute(
-  /static\//,
-  new CacheFirst()
-);
+
 
 registerRoute(
   new RegExp('\/assets\/.+\/.+'),
   new StaleWhileRevalidate()
 );
 
-
 registerRoute(
-  /essais\//,
+  new RegExp('\/.+\/.+'),
   new StaleWhileRevalidate()
 );
 
 registerRoute(
-  /tech\//,
-  new StaleWhileRevalidate()
+  /static\//,
+  new CacheFirst()
 );
 
-registerRoute(
-  /algo\//,
-  new StaleWhileRevalidate()
+workbox.routing.registerRoute(
+  /.*\.html/,
+  workbox.strategies.staleWhileRevalidate({  
+      cacheName: 'HTML-CACHE',
+  })
 );
 
-registerRoute(
-  /links\//,
-  new StaleWhileRevalidate()
-);
+workbox.precaching.precacheAndRoute([
+  {% for post in site.essais -%}
+    { url: '{{ post.url }}', revision: '{{ post.last_modified_at }}' },
+  {% endfor -%}
+  {% for post in site.tech -%}
+    { url: '{{ post.url }}', revision: '{{ post.last_modified_at }}' },
+  {% endfor -%}
+  {% for post in site.algo -%}
+    { url: '{{ post.url }}', revision: '{{ post.last_modified_at }}' },
+  {% endfor -%}
+  { url: '/', revision: '{{ site.time | date: "%Y%m%d%H%M%S" }}' }
+]);
 
-registerRoute(
-  /projects\//,
-  new StaleWhileRevalidate()
-);
-
+self.addEventListener('install', (event) => {
+  let urls = []
+  {% for post in site.essais -%}
+    urls.push('{{ post.url }}')
+  {% endfor -%}
+  {% for post in site.tech -%}
+    urls.push('{{ post.url }}')
+  {% endfor -%}
+  {% for post in site.algo -%}
+  urls.push('{{ post.url }}')
+  {% endfor -%}
+  event.waitUntil(caches.open('HTML-CACHE').then((cache) => cache.addAll(urls)));
+});
