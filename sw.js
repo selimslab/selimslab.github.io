@@ -28,7 +28,7 @@ workbox.precaching.precacheAndRoute([
   {% for post in site.algo -%}
     { url: '{{ post.url }}', revision: '{{ post.last_modified_at }}' },
   {% endfor -%}
-  { url: '/', revision: '{{ site.time | date: "%Y%m%d%H%M" }}' },
+  { url: '/', revision: '{{ site.time | date: "%Y%m%d%H%M%S" }}' },
 ]);
 
 registerRoute(
