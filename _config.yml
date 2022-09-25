@@ -55,6 +55,12 @@ gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
+plugins:
+  - jekyll-last-modified-at
+
+last-modified-at:
+    date-format: '%d-%b-%y-%s-%r'
+
 # Exclude these files from your production _site
 exclude:
   - Gemfile

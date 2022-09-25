@@ -20,15 +20,16 @@ registerRoute(
 
 workbox.precaching.precacheAndRoute([
   {% for post in site.essais -%}
-    { url: '{{ post.url }}', revision: '{{ post.date | date: "%Y-%m-%d"}}' },
+    { url: '{{ post.url }}', revision: '{{ post.last_modified_at }}' },
   {% endfor -%}
   {% for post in site.tech -%}
-    { url: '{{ post.url }}', revision: '{{ post.date | date: "%Y-%m-%d"}}' },
+    { url: '{{ post.url }}', revision: '{{ post.last_modified_at }}' },
   {% endfor -%}
   {% for post in site.algo -%}
-    { url: '{{ post.url }}', revision: '{{ post.date | date: "%Y-%m-%d"}}' },
+    { url: '{{ post.url }}', revision: '{{ post.last_modified_at }}' },
   {% endfor -%}
-  { url: '/', revision: '{{ site.time | date: "%Y%m%d%H%M" }}' }
+  { url: '/', revision: '{{ site.time | date: "%Y%m%d%H%M" }}' },
+  { url: '/assets', revision: null }
 ]);
 
 registerRoute(
