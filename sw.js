@@ -17,10 +17,6 @@ registerRoute(
   new NetworkFirst()
 );
 
-registerRoute(
-  new RegExp('/\\d{4}/\\d{2}/\\d{2}/.+'),
-  new StaleWhileRevalidate()
-)
 
 
 workbox.precaching.precacheAndRoute([
@@ -35,6 +31,11 @@ workbox.precaching.precacheAndRoute([
   {% endfor -%}
   { url: '/', revision: '{{ site.time | date: "%Y%m%d%H%M%S" }}' }
 ]);
+
+registerRoute(
+  new RegExp('/\\d{4}/\\d{2}/\\d{2}/.+'),
+  new StaleWhileRevalidate()
+)
 
 registerRoute(
   ({request}) => request.destination === 'image' ,
