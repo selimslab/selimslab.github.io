@@ -83,7 +83,7 @@ registerRoute(
 // );
 
 registerRoute(
-  new RegExp('/assets/.+/.+'),
+  new RegExp('\/assets\/.+\/.+'),
   new StaleWhileRevalidate()
 );
 
