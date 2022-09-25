@@ -19,7 +19,7 @@ date: {{ last_modified_at }}
 
 <br>
 
-<p style="font-weight:300; font-size:1rem">last edit at {{ page.last_modified_at | date: "%Y-%m-%d %H:%M:%S" }}</p>
+<p style="font-weight:300; font-size:1rem">last edit: {{ page.last_modified_at | date: "%Y-%m-%d %H:%M:%S" }}</p>
 
 {% if JEKYLL_ENV != "production" %}
 {% endif %}
