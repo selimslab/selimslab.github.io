@@ -67,7 +67,7 @@ workbox.precaching.precache([
   { url: '/algo/str/', revision: '2022-09-22 00:28:18 +0300' },
   { url: '/algo/tree-traveerse/', revision: '2022-09-21 19:13:22 +0300' },
   { url: '/algo/tree/', revision: '2022-09-21 19:13:22 +0300' },
-  { url: '/', revision: '20220925201115' }
+  { url: '/', revision: '2022-09-25 20:13:11 +0300' }
 ]);
 
 
