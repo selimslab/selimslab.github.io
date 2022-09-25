@@ -77,9 +77,13 @@ registerRoute(
   new StaleWhileRevalidate()
 );
 
+// registerRoute(
+//   /assets\/js/,
+//   new StaleWhileRevalidate()
+// );
 
 registerRoute(
-  /assets\//,
+  new RegExp('/assets/.+/.+'),
   new StaleWhileRevalidate()
 );
 
