@@ -52,30 +52,30 @@ registerRoute(
 );
 
 
-// registerRoute(
-//   /essais\//,
-//   new NetworkFirst()
-// );
+registerRoute(
+  /essais\//,
+  new StaleWhileRevalidate()
+);
 
-// registerRoute(
-//   /tech\//,
-//   new NetworkFirst()
-// );
+registerRoute(
+  /tech\//,
+  new StaleWhileRevalidate()
+);
 
-// registerRoute(
-//   /algo\//,
-//   new NetworkFirst()
-// );
+registerRoute(
+  /algo\//,
+  new StaleWhileRevalidate()
+);
 
-// registerRoute(
-//   /links\//,
-//   new NetworkFirst()
-// );
+registerRoute(
+  /links\//,
+  new StaleWhileRevalidate()
+);
 
-// registerRoute(
-//   /projects\//,
-//   new NetworkFirst()
-// );
+registerRoute(
+  /projects\//,
+  new StaleWhileRevalidate()
+);
 
 
 // registerRoute(
