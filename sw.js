@@ -44,18 +44,31 @@ registerRoute(
 
 
 registerRoute(
-  new RegExp('\/assets\/.+\/.+'),
+  new RegExp('\/essais\/.+'),
+  new StaleWhileRevalidate()
+);
+registerRoute(
+  new RegExp('\/tech\/.+'),
+  new StaleWhileRevalidate()
+);
+registerRoute(
+  new RegExp('\/algo\/.+'),
+  new StaleWhileRevalidate()
+);
+registerRoute(
+  new RegExp('\/links\/.+'),
+  new StaleWhileRevalidate()
+);
+registerRoute(
+  new RegExp('\/projects\/.+'),
+  new StaleWhileRevalidate()
+);
+registerRoute(
+  new RegExp('\/assets\/.+'),
   new StaleWhileRevalidate()
 );
 
 registerRoute(
-  new RegExp('\/.+\/.+'),
-  new StaleWhileRevalidate()
-);
-
-registerRoute(
-  /static\//,
+  new RegExp('/static/.+'),
   new CacheFirst()
 );
-
-
