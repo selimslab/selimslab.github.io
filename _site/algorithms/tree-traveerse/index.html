@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Tree Traversals – notes – bicycle for the mind</title>
+  
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="```
+inorder(root):
+" />
+    <meta property="og:description" content="```
+inorder(root):
+" />
+    
+    
+    <meta name="author" content="selimslab" />
+
+    
+    <meta property="og:title" content="Tree Traversals" />
+    <meta property="twitter:title" content="Tree Traversals" />
+    
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/x-icon" href="/assets/fav/favicon.ico">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="/static/bulma.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/style.css" />
+    <link href="/assets/bw.css" rel="stylesheet" >
+
+    <link rel="alternate" type="application/rss+xml" title="notes - bicycle for the mind"
+      href="/feed/essais.xml" />
+    <link rel="alternate" type="application/rss+xml" title="notes - bicycle for the mind"
+      href="/feed/tech.xml" />
+  </head>
+
+  
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WT9QGKVX1Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WT9QGKVX1Q');
+</script>
+
+
+
+
+
+
+<body>
+  <script src="/assets/js/theme.js"></script>
+
+  <div class="top"></div>
+
+  
+
+
+<nav class="navbar">
+    <div class="navbar-brand">
+      <!-- <a href="/" class="site-avatar image"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/The_Great_Wave_off_Kanagawa.jpg/120px-The_Great_Wave_off_Kanagawa.jpg" /></a> -->
+      <a href="/" class="site-name">notes</a>
+
+      <a accesskey="r" onclick="get_random_post();" style="font-size:2rem; float:right; margin-left:3.236rem;">🎲</a>
+      <a id="theme-toggle" onclick="switchTheme()" style="font-size:2rem; float:right; margin-left: 2rem;">🌙</a>
+    </div>
+</nav>
+
+
+
+  <div style="margin-left:1rem">
+
+  <img id="random-img" class="img-full" />
+<p id="random-img-alt"></p>
+
+<article>
+        
+<div id="breadcrumbs">
+    
+    <a href="/">Home</a>
+    
+      
+        / <a href="/algorithms/">Algorithms</a>
+      
+    
+      
+        <!-- / Tree Traversals -->
+      
+    
+</div>
+<br>
+
+<h1>Tree Traversals</h1>
+
+
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+</pre></td><td class="rouge-code"><pre>inorder(root):
+
+    walk(node):
+        if node:
+            walk(left)
+            visit node 
+            walk(right)
+
+    walk(root)
+
+
+inorder(root):
+    # return left, root, right
+
+    stack = []
+
+    while stack or root:
+        if root:
+             add root to stack 
+             go left
+
+        else:
+            get node from stack 
+            visit node 
+            go right 
+
+
+preorder(root):
+    # return root, left, right
+
+    stack = []
+
+    while stack or root:
+        if root:
+            add root to stack 
+            visit node 
+            go left 
+
+        else:
+            get node from stack 
+            go right
+
+postorder(root):
+    # return left, right, root 
+    # visit in reverse 
+
+    stack = []
+
+    while stack or root:
+        if root:
+            add root to stack 
+             visit node 
+             go right 
+
+        else:
+            get node from stack 
+            go left
+
+    return reverse visited
+
+
+
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+</pre></td><td class="rouge-code"><pre><span class="k">import</span> <span class="s">"fmt"</span>
+
+
+<span class="k">type</span> <span class="n">Node</span> <span class="k">struct</span> <span class="p">{</span>
+    <span class="n">Val</span> <span class="kt">int</span>
+    <span class="n">Children</span> <span class="p">[]</span><span class="o">*</span><span class="n">Node</span>
+<span class="p">}</span>
+
+<span class="k">func</span> <span class="n">reverse</span><span class="p">(</span><span class="n">numbers</span> <span class="p">[]</span><span class="kt">int</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">j</span> <span class="o">:=</span> <span class="m">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">numbers</span><span class="p">)</span><span class="o">-</span><span class="m">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">j</span><span class="p">;</span> <span class="n">i</span><span class="p">,</span> <span class="n">j</span> <span class="o">=</span> <span class="n">i</span><span class="o">+</span><span class="m">1</span><span class="p">,</span> <span class="n">j</span><span class="o">-</span><span class="m">1</span> <span class="p">{</span>
+		<span class="n">numbers</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">numbers</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">numbers</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="n">numbers</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">func</span> <span class="n">postorder</span><span class="p">(</span><span class="n">root</span> <span class="o">*</span><span class="n">Node</span><span class="p">)</span> <span class="p">[]</span><span class="kt">int</span> <span class="p">{</span>
+    <span class="n">ans</span> <span class="o">:=</span> <span class="p">[]</span><span class="kt">int</span><span class="p">{}</span>
+    <span class="n">stack</span> <span class="o">:=</span> <span class="p">[]</span><span class="o">*</span><span class="n">Node</span><span class="p">{}</span> 
+    <span class="k">for</span> <span class="n">root</span> <span class="o">!=</span> <span class="no">nil</span> <span class="o">||</span> <span class="nb">len</span><span class="p">(</span><span class="n">stack</span><span class="p">)</span> <span class="o">!=</span> <span class="m">0</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="n">root</span> <span class="o">!=</span> <span class="no">nil</span> <span class="p">{</span>
+            <span class="n">ans</span> <span class="o">=</span> <span class="nb">append</span><span class="p">(</span><span class="n">ans</span><span class="p">,</span> <span class="n">root</span><span class="o">.</span><span class="n">Val</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">node</span> <span class="o">:=</span> <span class="k">range</span><span class="p">(</span><span class="n">root</span><span class="o">.</span><span class="n">Children</span><span class="p">){</span>
+                <span class="n">stack</span> <span class="o">=</span> <span class="nb">append</span><span class="p">(</span><span class="n">stack</span><span class="p">,</span> <span class="n">node</span><span class="p">)</span>
+            <span class="p">}</span>
+            <span class="n">root</span> <span class="o">=</span> <span class="no">nil</span> 
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+            <span class="n">n</span> <span class="o">:=</span> <span class="nb">len</span><span class="p">(</span><span class="n">stack</span><span class="p">)</span>
+            <span class="n">root</span> <span class="o">=</span> <span class="n">stack</span><span class="p">[</span><span class="n">n</span><span class="o">-</span><span class="m">1</span><span class="p">]</span>
+            <span class="n">stack</span> <span class="o">=</span> <span class="n">stack</span><span class="p">[</span><span class="o">:</span><span class="n">n</span><span class="o">-</span><span class="m">1</span><span class="p">]</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    
+    <span class="n">reverse</span><span class="p">(</span><span class="n">ans</span><span class="p">)</span>
+    
+    <span class="k">return</span> <span class="n">ans</span> 
+<span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+
+<br>
+
+<p style="font-weight:300; font-size:1rem">last edit: Mon, Sep 26, 22</p>
+
+
+
+</article>
+
+
+<script src="/assets/js/random-img.js"></script>
+
+
+
+
+  </div>
+  <footer class="footer">
+    <a onclick="get_random_post();" style="font-size:2rem;">🎲</a>    
+    <p>Made with ❤️ by <a href="https://github.com/selimslab">Selim</a></p>
+</footer>
+
+
+  <script src="/assets/js/random-post.js"></script>
+
+  <script>
+    if('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+      })
+    }
+  </script>
+  
+
+</body>
+
+
+</html>

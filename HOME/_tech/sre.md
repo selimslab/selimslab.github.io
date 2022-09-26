@@ -3,7 +3,7 @@ layout: post
 title: SRE 
 ---
 
-ideas from Google SRE book
+ideas from Google SRE book
 
 ---
 

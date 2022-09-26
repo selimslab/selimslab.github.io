@@ -52,7 +52,7 @@ Meet the terminal, ls, cd, mv, top, mkdir, touch, cat, sort, grep, rm
 </a>
 
 
-## misc. 
+## misc. 
 
 [Web design in 4 minutes](https://jgthms.com/web-design-in-4-minutes/)
 

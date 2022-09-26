@@ -86,7 +86,7 @@ collections:
   projects:    
     output: true 
 
-  algo:    
+  algorithms:    
     output: true 
 
 feed:
