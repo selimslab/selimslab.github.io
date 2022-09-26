@@ -183,7 +183,11 @@
     {
         "src": "/static/Lady Chiyo and the Broken Water Bucket.jpeg",
         "alt": "Lady Chiyo and the Broken Water Bucket"
-    }    
+    },
+    {
+        "src": "/static/bluejazz-bill-dallas.jpg",
+        "alt": "Blue Jazz, Bill Dallas"
+    },  
 ]
 
 
