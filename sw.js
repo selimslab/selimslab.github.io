@@ -15,6 +15,10 @@ workbox.core.setCacheNameDetails({
 
 
 const urls = [
+  '/essais',
+  '/tech',
+  '/algorithms',
+  '/projects',
   {% for post in site.essais -%}
   '{{ post.url }}',
   {% endfor -%}

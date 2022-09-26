@@ -12,6 +12,10 @@ workbox.core.setCacheNameDetails({
 
 
 const urls = [
+  '/essais',
+  '/tech',
+  '/algorithms',
+  '/projects',
   '/essais/a-good-life/',
   '/essais/art/',
   '/essais/books/',
