@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Dev Principles 
+title:  Dev Heuristics
 --- 
 
 Keep it simple 

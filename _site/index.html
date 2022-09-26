@@ -25,6 +25,8 @@
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"> -->
     <link rel="stylesheet" type="text/css" href="/static/bulma.css" />
     <link rel="stylesheet" type="text/css" href="/assets/style.css" />
+    <link href="/assets/bw.css" rel="stylesheet" >
+
     <link rel="alternate" type="application/rss+xml" title="notes - bicycle for the mind"
       href="/feed/essais.xml" />
     <link rel="alternate" type="application/rss+xml" title="notes - bicycle for the mind"
@@ -67,16 +69,27 @@
 
 
 
+  <div style="margin-left:1rem">
+
   <article>
 
 
-    <div class="search column is-4 is-8-mobile">
-        <input type="text" class="input is-rounded is-medium" id="search-input" placeholder="Search..">            
-        <ul style="list-style: none" id="results-container"></ul>
-    </div>
-
-    <div style="margin-left:1rem">
     
+<div class="search column is-4 is-8-mobile" style="padding-left:0">
+    <input type="text" class="input is-rounded is-medium" id="search-input" placeholder="Search..">            
+    <ul style="list-style: none" id="results-container"></ul>
+</div>
+<script src="/assets/js/search.js"></script>
+<script>
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/assets/data/search.json',
+    noResultsText: "no results",
+    limit:5
+  })
+</script>
+
 
     <h2>Essais</h2>    
     
@@ -214,7 +227,11 @@
             </li>
         
             <li>
-                <a href="/tech/principles/">Dev Principles</a>
+                <a href="/tech/heuristics/">Dev Heuristics</a>
+            </li>
+        
+            <li>
+                <a href="/tech/go/">Go</a>
             </li>
         
             <li>
@@ -251,28 +268,17 @@
         
     </ul>
 
-    </div>
 </article>
 
 
-<script src="/assets/js/search.js"></script>
-<script>
-  var sjs = SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('results-container'),
-    json: '/assets/data/search.json',
-    noResultsText: "no results",
-    limit:7
-  })
-</script>
 
 
 
 
+  </div>
   <footer class="footer">
     <a onclick="get_random_post();" style="font-size:2rem;">🎲</a>    
     <p>Made with ❤️ by <a href="https://github.com/selimslab">Selim</a></p>
-    <p><a href="/rss">Atom feed</a></p>
 </footer>
 
 

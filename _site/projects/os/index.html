@@ -30,6 +30,8 @@
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"> -->
     <link rel="stylesheet" type="text/css" href="/static/bulma.css" />
     <link rel="stylesheet" type="text/css" href="/assets/style.css" />
+    <link href="/assets/bw.css" rel="stylesheet" >
+
     <link rel="alternate" type="application/rss+xml" title="notes - bicycle for the mind"
       href="/feed/essais.xml" />
     <link rel="alternate" type="application/rss+xml" title="notes - bicycle for the mind"
@@ -71,6 +73,8 @@
 </nav>
 
 
+
+  <div style="margin-left:1rem">
 
   <img id="random-img" class="img-full" />
 <p id="random-img-alt"></p>
@@ -115,7 +119,7 @@
 
 <p><a href="https://www.youtube.com/watch?v=8fi7uSYlOdc">Containers From Scratch • Liz Rice • GOTO 2018</a> is a great look under the hood for what really is a container</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -191,82 +195,82 @@
 74
 75
 76
-</pre></td><td class="rouge-code"><pre>package main
+</pre></td><td class="rouge-code"><pre><span class="k">package</span> <span class="n">main</span>
 
-import (
-	"fmt"
-	"io/ioutil"
-	"os"
-	"os/exec"
-	"path/filepath"
-	"strconv"
-	"syscall"
-)
+<span class="k">import</span> <span class="p">(</span>
+	<span class="s">"fmt"</span>
+	<span class="s">"io/ioutil"</span>
+	<span class="s">"os"</span>
+	<span class="s">"os/exec"</span>
+	<span class="s">"path/filepath"</span>
+	<span class="s">"strconv"</span>
+	<span class="s">"syscall"</span>
+<span class="p">)</span>
 
-// go run main.go run &lt;cmd&gt; &lt;args&gt;
-func main() {
-	switch os.Args[1] {
-	case "run":
-		run()
-	case "child":
-		child()
-	default:
-		panic("help")
-	}
-}
+<span class="c">// go run main.go run &lt;cmd&gt; &lt;args&gt;</span>
+<span class="k">func</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+	<span class="k">switch</span> <span class="n">os</span><span class="o">.</span><span class="n">Args</span><span class="p">[</span><span class="m">1</span><span class="p">]</span> <span class="p">{</span>
+	<span class="k">case</span> <span class="s">"run"</span><span class="o">:</span>
+		<span class="n">run</span><span class="p">()</span>
+	<span class="k">case</span> <span class="s">"child"</span><span class="o">:</span>
+		<span class="n">child</span><span class="p">()</span>
+	<span class="k">default</span><span class="o">:</span>
+		<span class="nb">panic</span><span class="p">(</span><span class="s">"help"</span><span class="p">)</span>
+	<span class="p">}</span>
+<span class="p">}</span>
 
-func run() {
-	fmt.Printf("Running %v \n", os.Args[2:])
+<span class="k">func</span> <span class="n">run</span><span class="p">()</span> <span class="p">{</span>
+	<span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span><span class="p">(</span><span class="s">"Running %v </span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">os</span><span class="o">.</span><span class="n">Args</span><span class="p">[</span><span class="m">2</span><span class="o">:</span><span class="p">])</span>
 
-	cmd := exec.Command("/proc/self/exe", append([]string{"child"}, os.Args[2:]...)...)
-	cmd.Stdin = os.Stdin
-	cmd.Stdout = os.Stdout
-	cmd.Stderr = os.Stderr
-	cmd.SysProcAttr = &amp;syscall.SysProcAttr{
-		Cloneflags:   syscall.CLONE_NEWUTS | syscall.CLONE_NEWPID | syscall.CLONE_NEWNS,
-		Unshareflags: syscall.CLONE_NEWNS,
-	}
+	<span class="n">cmd</span> <span class="o">:=</span> <span class="n">exec</span><span class="o">.</span><span class="n">Command</span><span class="p">(</span><span class="s">"/proc/self/exe"</span><span class="p">,</span> <span class="nb">append</span><span class="p">([]</span><span class="kt">string</span><span class="p">{</span><span class="s">"child"</span><span class="p">},</span> <span class="n">os</span><span class="o">.</span><span class="n">Args</span><span class="p">[</span><span class="m">2</span><span class="o">:</span><span class="p">]</span><span class="o">...</span><span class="p">)</span><span class="o">...</span><span class="p">)</span>
+	<span class="n">cmd</span><span class="o">.</span><span class="n">Stdin</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">Stdin</span>
+	<span class="n">cmd</span><span class="o">.</span><span class="n">Stdout</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">Stdout</span>
+	<span class="n">cmd</span><span class="o">.</span><span class="n">Stderr</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">Stderr</span>
+	<span class="n">cmd</span><span class="o">.</span><span class="n">SysProcAttr</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">syscall</span><span class="o">.</span><span class="n">SysProcAttr</span><span class="p">{</span>
+		<span class="n">Cloneflags</span><span class="o">:</span>   <span class="n">syscall</span><span class="o">.</span><span class="n">CLONE_NEWUTS</span> <span class="o">|</span> <span class="n">syscall</span><span class="o">.</span><span class="n">CLONE_NEWPID</span> <span class="o">|</span> <span class="n">syscall</span><span class="o">.</span><span class="n">CLONE_NEWNS</span><span class="p">,</span>
+		<span class="n">Unshareflags</span><span class="o">:</span> <span class="n">syscall</span><span class="o">.</span><span class="n">CLONE_NEWNS</span><span class="p">,</span>
+	<span class="p">}</span>
 
-	must(cmd.Run())
-}
+	<span class="n">must</span><span class="p">(</span><span class="n">cmd</span><span class="o">.</span><span class="n">Run</span><span class="p">())</span>
+<span class="p">}</span>
 
-func child() {
-	fmt.Printf("Running %v \n", os.Args[2:])
+<span class="k">func</span> <span class="n">child</span><span class="p">()</span> <span class="p">{</span>
+	<span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span><span class="p">(</span><span class="s">"Running %v </span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">os</span><span class="o">.</span><span class="n">Args</span><span class="p">[</span><span class="m">2</span><span class="o">:</span><span class="p">])</span>
 
-	cg()
+	<span class="n">cg</span><span class="p">()</span>
 
-	cmd := exec.Command(os.Args[2], os.Args[3:]...)
-	cmd.Stdin = os.Stdin
-	cmd.Stdout = os.Stdout
-	cmd.Stderr = os.Stderr
+	<span class="n">cmd</span> <span class="o">:=</span> <span class="n">exec</span><span class="o">.</span><span class="n">Command</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">Args</span><span class="p">[</span><span class="m">2</span><span class="p">],</span> <span class="n">os</span><span class="o">.</span><span class="n">Args</span><span class="p">[</span><span class="m">3</span><span class="o">:</span><span class="p">]</span><span class="o">...</span><span class="p">)</span>
+	<span class="n">cmd</span><span class="o">.</span><span class="n">Stdin</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">Stdin</span>
+	<span class="n">cmd</span><span class="o">.</span><span class="n">Stdout</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">Stdout</span>
+	<span class="n">cmd</span><span class="o">.</span><span class="n">Stderr</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">Stderr</span>
 
-	must(syscall.Sethostname([]byte("container")))
-	must(syscall.Chroot("/home/liz/ubuntufs"))
-	must(os.Chdir("/"))
-	must(syscall.Mount("proc", "proc", "proc", 0, ""))
-	must(syscall.Mount("thing", "mytemp", "tmpfs", 0, ""))
+	<span class="n">must</span><span class="p">(</span><span class="n">syscall</span><span class="o">.</span><span class="n">Sethostname</span><span class="p">([]</span><span class="kt">byte</span><span class="p">(</span><span class="s">"container"</span><span class="p">)))</span>
+	<span class="n">must</span><span class="p">(</span><span class="n">syscall</span><span class="o">.</span><span class="n">Chroot</span><span class="p">(</span><span class="s">"/home/liz/ubuntufs"</span><span class="p">))</span>
+	<span class="n">must</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">Chdir</span><span class="p">(</span><span class="s">"/"</span><span class="p">))</span>
+	<span class="n">must</span><span class="p">(</span><span class="n">syscall</span><span class="o">.</span><span class="n">Mount</span><span class="p">(</span><span class="s">"proc"</span><span class="p">,</span> <span class="s">"proc"</span><span class="p">,</span> <span class="s">"proc"</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="s">""</span><span class="p">))</span>
+	<span class="n">must</span><span class="p">(</span><span class="n">syscall</span><span class="o">.</span><span class="n">Mount</span><span class="p">(</span><span class="s">"thing"</span><span class="p">,</span> <span class="s">"mytemp"</span><span class="p">,</span> <span class="s">"tmpfs"</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="s">""</span><span class="p">))</span>
 
-	must(cmd.Run())
+	<span class="n">must</span><span class="p">(</span><span class="n">cmd</span><span class="o">.</span><span class="n">Run</span><span class="p">())</span>
 
-	must(syscall.Unmount("proc", 0))
-	must(syscall.Unmount("thing", 0))
-}
+	<span class="n">must</span><span class="p">(</span><span class="n">syscall</span><span class="o">.</span><span class="n">Unmount</span><span class="p">(</span><span class="s">"proc"</span><span class="p">,</span> <span class="m">0</span><span class="p">))</span>
+	<span class="n">must</span><span class="p">(</span><span class="n">syscall</span><span class="o">.</span><span class="n">Unmount</span><span class="p">(</span><span class="s">"thing"</span><span class="p">,</span> <span class="m">0</span><span class="p">))</span>
+<span class="p">}</span>
 
-func cg() {
-	cgroups := "/sys/fs/cgroup/"
-	pids := filepath.Join(cgroups, "pids")
-	os.Mkdir(filepath.Join(pids, "liz"), 0755)
-	must(ioutil.WriteFile(filepath.Join(pids, "liz/pids.max"), []byte("20"), 0700))
-	// Removes the new cgroup in place after the container exits
-	must(ioutil.WriteFile(filepath.Join(pids, "liz/notify_on_release"), []byte("1"), 0700))
-	must(ioutil.WriteFile(filepath.Join(pids, "liz/cgroup.procs"), []byte(strconv.Itoa(os.Getpid())), 0700))
-}
+<span class="k">func</span> <span class="n">cg</span><span class="p">()</span> <span class="p">{</span>
+	<span class="n">cgroups</span> <span class="o">:=</span> <span class="s">"/sys/fs/cgroup/"</span>
+	<span class="n">pids</span> <span class="o">:=</span> <span class="n">filepath</span><span class="o">.</span><span class="n">Join</span><span class="p">(</span><span class="n">cgroups</span><span class="p">,</span> <span class="s">"pids"</span><span class="p">)</span>
+	<span class="n">os</span><span class="o">.</span><span class="n">Mkdir</span><span class="p">(</span><span class="n">filepath</span><span class="o">.</span><span class="n">Join</span><span class="p">(</span><span class="n">pids</span><span class="p">,</span> <span class="s">"liz"</span><span class="p">),</span> <span class="m">0755</span><span class="p">)</span>
+	<span class="n">must</span><span class="p">(</span><span class="n">ioutil</span><span class="o">.</span><span class="n">WriteFile</span><span class="p">(</span><span class="n">filepath</span><span class="o">.</span><span class="n">Join</span><span class="p">(</span><span class="n">pids</span><span class="p">,</span> <span class="s">"liz/pids.max"</span><span class="p">),</span> <span class="p">[]</span><span class="kt">byte</span><span class="p">(</span><span class="s">"20"</span><span class="p">),</span> <span class="m">0700</span><span class="p">))</span>
+	<span class="c">// Removes the new cgroup in place after the container exits</span>
+	<span class="n">must</span><span class="p">(</span><span class="n">ioutil</span><span class="o">.</span><span class="n">WriteFile</span><span class="p">(</span><span class="n">filepath</span><span class="o">.</span><span class="n">Join</span><span class="p">(</span><span class="n">pids</span><span class="p">,</span> <span class="s">"liz/notify_on_release"</span><span class="p">),</span> <span class="p">[]</span><span class="kt">byte</span><span class="p">(</span><span class="s">"1"</span><span class="p">),</span> <span class="m">0700</span><span class="p">))</span>
+	<span class="n">must</span><span class="p">(</span><span class="n">ioutil</span><span class="o">.</span><span class="n">WriteFile</span><span class="p">(</span><span class="n">filepath</span><span class="o">.</span><span class="n">Join</span><span class="p">(</span><span class="n">pids</span><span class="p">,</span> <span class="s">"liz/cgroup.procs"</span><span class="p">),</span> <span class="p">[]</span><span class="kt">byte</span><span class="p">(</span><span class="n">strconv</span><span class="o">.</span><span class="n">Itoa</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">Getpid</span><span class="p">())),</span> <span class="m">0700</span><span class="p">))</span>
+<span class="p">}</span>
 
-func must(err error) {
-	if err != nil {
-		panic(err)
-	}
-}
+<span class="k">func</span> <span class="n">must</span><span class="p">(</span><span class="n">err</span> <span class="kt">error</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">if</span> <span class="n">err</span> <span class="o">!=</span> <span class="no">nil</span> <span class="p">{</span>
+		<span class="nb">panic</span><span class="p">(</span><span class="n">err</span><span class="p">)</span>
+	<span class="p">}</span>
+<span class="p">}</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 
@@ -284,10 +288,10 @@ func must(err error) {
 
 
 
+  </div>
   <footer class="footer">
     <a onclick="get_random_post();" style="font-size:2rem;">🎲</a>    
     <p>Made with ❤️ by <a href="https://github.com/selimslab">Selim</a></p>
-    <p><a href="/rss">Atom feed</a></p>
 </footer>
 
 

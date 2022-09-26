@@ -37,7 +37,7 @@ Although OS provides process isolation, containers provide more isolation and ea
 [Containers From Scratch • Liz Rice • GOTO 2018](https://www.youtube.com/watch?v=8fi7uSYlOdc) is a great look under the hood for what really is a container 
 
 
-```
+```go
 package main
 
 import (

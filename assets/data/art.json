@@ -125,10 +125,6 @@
         "alt": "Earthrise"
     },
     {
-        "src": "/static/marble.jpg",
-        "alt": "The Blue Marble"
-    },
-    {
         "src": "/static/saturn.jpeg",
         "alt": "Saturn"
     },
@@ -171,7 +167,23 @@
     {
         "src": "/static/Portrait of Fedor Dostoyevsky.jpeg",
         "alt": "Portrait of Fyodor Dostoyevsky, 1872"
-    }
+    },
+    {
+        "src": "/static/Rain_at_Kofukuji_Temple.jpeg",
+        "alt": "Rain at Kofukuji Temple"
+    },
+    {
+        "src": "/static/Fireflies_at_Ochanomizu_LACMA_M.71.100.82.jpeg",
+        "alt": "Fireflies at Ochanomizu"
+    },
+    {
+        "src": "/static/Flowing Water Yokoyama Taikan1950.jpeg",
+        "alt": "Flowing Water, Taikan"
+    },
+    {
+        "src": "/static/Lady Chiyo and the Broken Water Bucket.jpeg",
+        "alt": "Lady Chiyo and the Broken Water Bucket"
+    }    
 ]
 
 

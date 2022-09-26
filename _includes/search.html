@@ -1,3 +1,8 @@
+
+<div class="search column is-4 is-8-mobile" style="padding-left:0">
+    <input type="text" class="input is-rounded is-medium" id="search-input" placeholder="Search..">            
+    <ul style="list-style: none" id="results-container"></ul>
+</div>
 <script src="/assets/js/search.js"></script>
 <script>
   var sjs = SimpleJekyllSearch({
@@ -5,6 +10,6 @@
     resultsContainer: document.getElementById('results-container'),
     json: '/assets/data/search.json',
     noResultsText: "no results",
-    limit:7
+    limit:5
   })
 </script>
