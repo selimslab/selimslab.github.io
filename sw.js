@@ -21,7 +21,10 @@ const urls = [
   {% for post in site.tech -%}
   '{{ post.url }}',
     {% endfor -%}
-  {% for post in site.algo -%}
+  {% for post in site.algorithms -%}
+  '{{ post.url }}',
+    {% endfor -%}
+  {% for post in site.projects -%}
   '{{ post.url }}',
     {% endfor -%}
   "/"
@@ -55,12 +58,7 @@ registerRoute(
 );
 
 registerRoute(
-  new RegExp('\/algo\/.+'),
-  strategy
-);
-
-registerRoute(
-  new RegExp('\/links\/.+'),
+  new RegExp('\/algorithms\/.+'),
   strategy
 );
 
@@ -68,6 +66,7 @@ registerRoute(
   new RegExp('\/projects\/.+'),
   strategy
 );
+
 
 registerRoute(
   new RegExp('\/assets\/.+'),

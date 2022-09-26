@@ -62,6 +62,30 @@ const urls = [
     '/tech/stx/',
     '/tech/tools/',
     '/tech/websec/',
+    '/algorithms/arr/',
+    '/algorithms/backtrack/',
+    '/algorithms/bits/',
+    '/algorithms/bst/',
+    '/algorithms/dijkstra/',
+    '/algorithms/dynamic/',
+    '/algorithms/graph/',
+    '/algorithms/greedy/',
+    '/algorithms/linked-list/',
+    '/algorithms/q/',
+    '/algorithms/search/',
+    '/algorithms/sliding/',
+    '/algorithms/sort/',
+    '/algorithms/str/',
+    '/algorithms/tree-traveerse/',
+    '/algorithms/tree/',
+    '/projects/block/',
+    '/projects/gc/',
+    '/projects/genres/',
+    '/projects/hashmap/',
+    '/projects/os/',
+    '/projects/pascal/',
+    '/projects/pca/',
+    '/projects/search/',
     "/"
 ];
 
@@ -93,12 +117,7 @@ registerRoute(
 );
 
 registerRoute(
-  new RegExp('\/algo\/.+'),
-  strategy
-);
-
-registerRoute(
-  new RegExp('\/links\/.+'),
+  new RegExp('\/algorithms\/.+'),
   strategy
 );
 
@@ -106,6 +125,7 @@ registerRoute(
   new RegExp('\/projects\/.+'),
   strategy
 );
+
 
 registerRoute(
   new RegExp('\/assets\/.+'),
