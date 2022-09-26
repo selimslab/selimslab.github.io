@@ -28,7 +28,7 @@ $dark-text: $gray;
 html{
 
   font: $sansSerif;
-  font-size: larger;
+  font-size: 1.25em;
   line-height: 1.75;
 
 }
@@ -148,11 +148,9 @@ blockquote {
 }
 
 pre{
-  padding: 1rem !important;
   background: inherit;
   color: inherit;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+  font-size: 1em !important;
 }
 
 
