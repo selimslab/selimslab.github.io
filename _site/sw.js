@@ -88,11 +88,11 @@ const urls = [
     '/projects/pascal/',
     '/projects/pca/',
     '/projects/search/',
-    "/"
+    '/'
 ];
 
-const stg = new StaleWhileRevalidate();
-warmStrategyCache({urls, stg});
+const strategy = new StaleWhileRevalidate();
+warmStrategyCache({urls, strategy});
 
 registerRoute(
   ({request}) => request.destination === 'image' ,
@@ -126,10 +126,6 @@ registerRoute(
 // );
 
 
-// registerRoute(
-//   new RegExp('/static/.+'),
-//   new CacheFirst()
-// );
 
 registerRoute(
   '/',
@@ -137,13 +133,20 @@ registerRoute(
 );
 
 
+// registerRoute(
+//   new RegExp('\/^(static)\/.+'),
+//   strategy
+// );
+
 registerRoute(
-  new RegExp('\/^(static)\/.+'),
-  stg
+  new RegExp('\/static\/.+'),
+  new CacheFirst()
 );
 
 
+
 registerRoute(
-  new RegExp('\/.+\/'),
-  stg
+  new RegExp('\/.+\/.+'),
+  strategy
 );
+
