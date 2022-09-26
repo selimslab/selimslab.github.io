@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A good life 🏛️ 
+tags: top
 ---
 
 Some things are in our control and others not
