@@ -25,13 +25,19 @@ $light-bg: #fffefc;
 $dark-text: $gray;
 
 
+html{
+
+  font: $sansSerif;
+  font-size: larger;
+  line-height: 1.75;
+
+}
+
 
 body{
-  line-height: 1.6;
-  font-size: larger;
-  font: $sansSerif;
   background: $dark-bg;
   color: $light-text;
+
   min-height: 100vh;
 }
 
@@ -49,24 +55,24 @@ body{
 }
 
 article{
-  max-width: 50%;
+  max-width: 70ch;
   margin: 0 auto;
   margin-top: 1rem;
   padding: 1rem;
-  a{
-    color: $turquoise; 
-  }
-  a:visited{
-    color: $lightBlue;
-  }
 }
 
 
+a{
+  color: $turquoise; 
+}
+a:visited{
+  color: $lightBlue;
+}
+a:hover{
+  color: $accent;
+}
 
 @media only screen and (max-width: 900px) {
-  article{
-    max-width: 100%;
-  }
   .img-full {
     max-width: 100%;
     display: block; 
@@ -98,25 +104,11 @@ strong{
   font-weight: bold;
 }
 
-ul {
-  li {
-    margin: 1rem;
-    :hover{
-      color: $accent;
-    }
-  }
+li {
+  margin: 1rem;
 }
 
 
-ol {
-  li {
-    margin: 1rem;
-    margin-left: 2rem;
-    :hover{
-      color: $accent;
-    }
-  }
-}
 
 a.site-name {
   font-family: $serif;
@@ -125,8 +117,6 @@ a.site-name {
   font-size: 2rem;
   padding-left: 1rem;
 }
-
-
 
 
 footer {
@@ -195,13 +185,11 @@ html[data-theme='light'] {
     background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
   
-  article{
-    a{
-      color: $darkBlue; 
-    }
-    a:visited{
-      color: $lightBlue;
-    }
+  a{
+    color: $darkBlue; 
+  }
+  a:visited{
+    color: $lightBlue;
   }
 
 }
