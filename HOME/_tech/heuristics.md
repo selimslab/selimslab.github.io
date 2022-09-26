@@ -16,3 +16,4 @@ Do one thing and do it well
 Do not overthink 
 
 Ship it, real artists ship 
+

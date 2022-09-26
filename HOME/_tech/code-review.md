@@ -36,3 +36,6 @@ Kind and respectful
 Give credit where its due
 
 Compliment people for the good parts 
+
+
+---

@@ -26,11 +26,9 @@ $dark-text: $gray;
 
 
 html{
-
   font: $sansSerif;
   font-size: 1.25em;
   line-height: 1.75;
-
 }
 
 
@@ -187,6 +185,10 @@ html[data-theme='light'] {
   }
   a:visited{
     color: $lightBlue;
+  }
+
+  a.site-name {
+    color: inherit;
   }
 
 }

@@ -161,5 +161,10 @@ CRISPR 87
 12: Chrome, Raspberry Pi
 
 
+---
 
-also see <https://drewdevault.com/time>
+## misc. 
+
+<https://drewdevault.com/time>
+
+<https://www.computerhistory.org/timeline/computers/>
