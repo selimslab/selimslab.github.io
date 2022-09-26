@@ -3,7 +3,7 @@ layout: post
 title: Search
 ---
 
-```
+```python
 def binary_search(nums, target)->int:
     while low <= high:
         if target at mid:

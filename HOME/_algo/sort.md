@@ -4,7 +4,7 @@ title: Sort
 ---
 
 
-```
+```python
 def quick_sort(data):
     # base case
     if len(data) < 2:
@@ -30,7 +30,7 @@ if __name__ == "__main__":
     print(quick_sort([9, 7, 5, 4, 6, 8, 12, 1, 26, 1, 1]))
 ```
 
-```
+```python
 def selection_sort(data):
     sorted_list = list()
     for i in range(len(data)):
@@ -42,7 +42,7 @@ if __name__ == "__main__":
     print(selection_sort([9, 7, 5, 4, 6, 8, 12, 1, 26, 1, 1]))
 ```
 
-```
+```go
 function findUnsortedSubarray(nums){
   return nums.slice()
     .sort((a, b) => a - b)
@@ -56,7 +56,7 @@ console.log(ans)
 // it's enough to sort [6, 4, 8, 10, 9] to make all sorted 
 ```
 
-```
+```python
 def findUnsortedSubarray(nums) -> int:
     is_same = [a == b for a, b in zip(nums, sorted(nums))]
     if all(is_same):
@@ -77,7 +77,7 @@ false starts at index 1, ends at 5
 assert findUnsortedSubarray([2, 6, 4, 8, 10, 9, 15]) == 5
 ```
 
-```
+```python
 from heapq import heappush, heappop
 
 

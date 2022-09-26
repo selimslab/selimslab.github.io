@@ -103,17 +103,17 @@ def reverse_string(s):
 
 
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
-</pre></td><td class="rouge-code"><pre>def reverse_string(s):
-    if len(s) == 1:
-        return s
-    return s[-1] + rev(s[:-1])
+</pre></td><td class="rouge-code"><pre><span class="k">def</span> <span class="nf">reverse_string</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">s</span>
+    <span class="k">return</span> <span class="n">s</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">rev</span><span class="p">(</span><span class="n">s</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -130,26 +130,26 @@ def reverse_string(s):
 15
 16
 17
-</pre></td><td class="rouge-code"><pre>def generate_ngrams(s, n):
-    # Convert to lowercases
-    s = s.lower()
+</pre></td><td class="rouge-code"><pre><span class="k">def</span> <span class="nf">generate_ngrams</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
+    <span class="c1"># Convert to lowercases
+</span>    <span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="p">.</span><span class="n">lower</span><span class="p">()</span>
 
-    # Replace all none alphanumeric characters with spaces
-    s = re.sub(r"[^a-zA-Z0-9\s]", " ", s)
+    <span class="c1"># Replace all none alphanumeric characters with spaces
+</span>    <span class="n">s</span> <span class="o">=</span> <span class="n">re</span><span class="p">.</span><span class="n">sub</span><span class="p">(</span><span class="sa">r</span><span class="s">"[^a-zA-Z0-9\s]"</span><span class="p">,</span> <span class="s">" "</span><span class="p">,</span> <span class="n">s</span><span class="p">)</span>
 
-    # Break sentence in the token, remove empty tokens
-    tokens = [token for token in s.split(" ") if token != ""]
+    <span class="c1"># Break sentence in the token, remove empty tokens
+</span>    <span class="n">tokens</span> <span class="o">=</span> <span class="p">[</span><span class="n">token</span> <span class="k">for</span> <span class="n">token</span> <span class="ow">in</span> <span class="n">s</span><span class="p">.</span><span class="n">split</span><span class="p">(</span><span class="s">" "</span><span class="p">)</span> <span class="k">if</span> <span class="n">token</span> <span class="o">!=</span> <span class="s">""</span><span class="p">]</span>
 
-    n_grams = []
+    <span class="n">n_grams</span> <span class="o">=</span> <span class="p">[]</span>
 
-    for i in range(len(tokens)):
-        n_gram = " ".join(tokens[i : i + n])
-        n_grams.append(n_gram)
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">tokens</span><span class="p">)):</span>
+        <span class="n">n_gram</span> <span class="o">=</span> <span class="s">" "</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">tokens</span><span class="p">[</span><span class="n">i</span> <span class="p">:</span> <span class="n">i</span> <span class="o">+</span> <span class="n">n</span><span class="p">])</span>
+        <span class="n">n_grams</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">n_gram</span><span class="p">)</span>
 
-    return n_grams
+    <span class="k">return</span> <span class="n">n_grams</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -182,42 +182,42 @@ def reverse_string(s):
 31
 32
 33
-</pre></td><td class="rouge-code"><pre># with 2 pointers
-def reverseOnlyLetters(S: str) -&gt; str:
-    n = len(S)
-    left = 0
-    right = n - 1
-    res = list(S)
+</pre></td><td class="rouge-code"><pre><span class="c1"># with 2 pointers
+</span><span class="k">def</span> <span class="nf">reverseOnlyLetters</span><span class="p">(</span><span class="n">S</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">S</span><span class="p">)</span>
+    <span class="n">left</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">right</span> <span class="o">=</span> <span class="n">n</span> <span class="o">-</span> <span class="mi">1</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">S</span><span class="p">)</span>
 
-    while right &gt; 0 and not res[right].isalpha():
-        right -= 1
+    <span class="k">while</span> <span class="n">right</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">res</span><span class="p">[</span><span class="n">right</span><span class="p">].</span><span class="n">isalpha</span><span class="p">():</span>
+        <span class="n">right</span> <span class="o">-=</span> <span class="mi">1</span>
 
-    while left &lt; right:
-        if res[left].isalpha():
-            res[left], res[right] = res[right], res[left]
-            right -= 1
-            while right &gt; 0 and not res[right].isalpha():
-                right -= 1
+    <span class="k">while</span> <span class="n">left</span> <span class="o">&lt;</span> <span class="n">right</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">res</span><span class="p">[</span><span class="n">left</span><span class="p">].</span><span class="n">isalpha</span><span class="p">():</span>
+            <span class="n">res</span><span class="p">[</span><span class="n">left</span><span class="p">],</span> <span class="n">res</span><span class="p">[</span><span class="n">right</span><span class="p">]</span> <span class="o">=</span> <span class="n">res</span><span class="p">[</span><span class="n">right</span><span class="p">],</span> <span class="n">res</span><span class="p">[</span><span class="n">left</span><span class="p">]</span>
+            <span class="n">right</span> <span class="o">-=</span> <span class="mi">1</span>
+            <span class="k">while</span> <span class="n">right</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">res</span><span class="p">[</span><span class="n">right</span><span class="p">].</span><span class="n">isalpha</span><span class="p">():</span>
+                <span class="n">right</span> <span class="o">-=</span> <span class="mi">1</span>
 
-        left += 1
+        <span class="n">left</span> <span class="o">+=</span> <span class="mi">1</span>
 
-    return "".join(res)
-
-
-#  a simpler way
-def reverseOnlyLetters(S: str) -&gt; str:
-    stack = [c for c in S if c.isalpha()]
-    ans = [stack.pop() if c.isalpha() else c for c in S]
-
-    return "".join(ans)
+    <span class="k">return</span> <span class="s">""</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">res</span><span class="p">)</span>
 
 
-assert reverseOnlyLetters("ab-cd") == "dc-ba"
-assert reverseOnlyLetters("a-bC-dEf-ghIj") == "j-Ih-gfE-dCba"
-assert reverseOnlyLetters("Test1ng-Leet=code-Q!") == "Qedo1ct-eeLg=ntse-T!"
+<span class="c1">#  a simpler way
+</span><span class="k">def</span> <span class="nf">reverseOnlyLetters</span><span class="p">(</span><span class="n">S</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="n">stack</span> <span class="o">=</span> <span class="p">[</span><span class="n">c</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">S</span> <span class="k">if</span> <span class="n">c</span><span class="p">.</span><span class="n">isalpha</span><span class="p">()]</span>
+    <span class="n">ans</span> <span class="o">=</span> <span class="p">[</span><span class="n">stack</span><span class="p">.</span><span class="n">pop</span><span class="p">()</span> <span class="k">if</span> <span class="n">c</span><span class="p">.</span><span class="n">isalpha</span><span class="p">()</span> <span class="k">else</span> <span class="n">c</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">S</span><span class="p">]</span>
+
+    <span class="k">return</span> <span class="s">""</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">ans</span><span class="p">)</span>
+
+
+<span class="k">assert</span> <span class="n">reverseOnlyLetters</span><span class="p">(</span><span class="s">"ab-cd"</span><span class="p">)</span> <span class="o">==</span> <span class="s">"dc-ba"</span>
+<span class="k">assert</span> <span class="n">reverseOnlyLetters</span><span class="p">(</span><span class="s">"a-bC-dEf-ghIj"</span><span class="p">)</span> <span class="o">==</span> <span class="s">"j-Ih-gfE-dCba"</span>
+<span class="k">assert</span> <span class="n">reverseOnlyLetters</span><span class="p">(</span><span class="s">"Test1ng-Leet=code-Q!"</span><span class="p">)</span> <span class="o">==</span> <span class="s">"Qedo1ct-eeLg=ntse-T!"</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -265,57 +265,57 @@ assert reverseOnlyLetters("Test1ng-Leet=code-Q!") == "Qedo1ct-eeLg=ntse-T!"
 46
 47
 48
-</pre></td><td class="rouge-code"><pre>import heapq
-from heapq import heappush, heappop, heapify
+</pre></td><td class="rouge-code"><pre><span class="kn">import</span> <span class="nn">heapq</span>
+<span class="kn">from</span> <span class="nn">heapq</span> <span class="kn">import</span> <span class="n">heappush</span><span class="p">,</span> <span class="n">heappop</span><span class="p">,</span> <span class="n">heapify</span>
 
-def longestDiverseString(a: int, b: int, c: int) -&gt; str:
+<span class="k">def</span> <span class="nf">longestDiverseString</span><span class="p">(</span><span class="n">a</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">c</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
     
-    ans = 0
+    <span class="n">ans</span> <span class="o">=</span> <span class="mi">0</span>
     
-    # get 2 from max, 1 from min 
-    
-    minh = [a,b,c]
-    maxh = [a,b,c]
+    <span class="c1"># get 2 from max, 1 from min 
+</span>    
+    <span class="n">minh</span> <span class="o">=</span> <span class="p">[</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">]</span>
+    <span class="n">maxh</span> <span class="o">=</span> <span class="p">[</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">]</span>
 
-    heapify(minh)
-    heapq._heapify_max(maxh)
+    <span class="n">heapify</span><span class="p">(</span><span class="n">minh</span><span class="p">)</span>
+    <span class="n">heapq</span><span class="p">.</span><span class="n">_heapify_max</span><span class="p">(</span><span class="n">maxh</span><span class="p">)</span>
     
     
-    maxnum = heappop(maxh)
-    minnum = heappop(minh)
+    <span class="n">maxnum</span> <span class="o">=</span> <span class="n">heappop</span><span class="p">(</span><span class="n">maxh</span><span class="p">)</span>
+    <span class="n">minnum</span> <span class="o">=</span> <span class="n">heappop</span><span class="p">(</span><span class="n">minh</span><span class="p">)</span>
 
 
-    while maxnum or minnum:
-        if maxnum:
-            print("maxh",maxh)
+    <span class="k">while</span> <span class="n">maxnum</span> <span class="ow">or</span> <span class="n">minnum</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">maxnum</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">"maxh"</span><span class="p">,</span><span class="n">maxh</span><span class="p">)</span>
 
-            if maxnum &gt; 1:
-                heappush(maxh, maxnum-2)
-                ans += 2
+            <span class="k">if</span> <span class="n">maxnum</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+                <span class="n">heappush</span><span class="p">(</span><span class="n">maxh</span><span class="p">,</span> <span class="n">maxnum</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span>
+                <span class="n">ans</span> <span class="o">+=</span> <span class="mi">2</span>
             
 
-            else:
-                ans += 1
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">ans</span> <span class="o">+=</span> <span class="mi">1</span>
             
-            if maxh:
-                maxnum = heappop(maxh)
+            <span class="k">if</span> <span class="n">maxh</span><span class="p">:</span>
+                <span class="n">maxnum</span> <span class="o">=</span> <span class="n">heappop</span><span class="p">(</span><span class="n">maxh</span><span class="p">)</span>
                 
-        if minnum:
-            print("minh",minh)
-            if minnum &gt; 0:
-                ans += 1
-                heappush(minh, minnum-1)
+        <span class="k">if</span> <span class="n">minnum</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">"minh"</span><span class="p">,</span><span class="n">minh</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">minnum</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="n">ans</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="n">heappush</span><span class="p">(</span><span class="n">minh</span><span class="p">,</span> <span class="n">minnum</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
 
-                minnum = heappop(minh)
+                <span class="n">minnum</span> <span class="o">=</span> <span class="n">heappop</span><span class="p">(</span><span class="n">minh</span><span class="p">)</span>
 
-    print(ans)
-    return ans 
+    <span class="k">print</span><span class="p">(</span><span class="n">ans</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">ans</span> 
 
 
-longestDiverseString(7,1,1)
+<span class="n">longestDiverseString</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -333,27 +333,27 @@ longestDiverseString(7,1,1)
 16
 17
 18
-</pre></td><td class="rouge-code"><pre>def string_compression(string):
-    counter = 0
-    compressed = ""
-    previous_letter = string[0]
+</pre></td><td class="rouge-code"><pre><span class="k">def</span> <span class="nf">string_compression</span><span class="p">(</span><span class="n">string</span><span class="p">):</span>
+    <span class="n">counter</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">compressed</span> <span class="o">=</span> <span class="s">""</span>
+    <span class="n">previous_letter</span> <span class="o">=</span> <span class="n">string</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
 
-    for letter in string:
-        if letter != previous_letter:
-            compressed = compressed + previous_letter + str(counter)
-            counter = 0
-        counter += 1
-        previous_letter = letter
+    <span class="k">for</span> <span class="n">letter</span> <span class="ow">in</span> <span class="n">string</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">letter</span> <span class="o">!=</span> <span class="n">previous_letter</span><span class="p">:</span>
+            <span class="n">compressed</span> <span class="o">=</span> <span class="n">compressed</span> <span class="o">+</span> <span class="n">previous_letter</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">counter</span><span class="p">)</span>
+            <span class="n">counter</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="n">counter</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="n">previous_letter</span> <span class="o">=</span> <span class="n">letter</span>
 
-    compressed = compressed + previous_letter + str(counter)
+    <span class="n">compressed</span> <span class="o">=</span> <span class="n">compressed</span> <span class="o">+</span> <span class="n">previous_letter</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">counter</span><span class="p">)</span>
 
-    return compressed
+    <span class="k">return</span> <span class="n">compressed</span>
 
 
-assert string_compression("aaaabbcccccaaabb") == "a4b2c5a3b2"
+<span class="k">assert</span> <span class="n">string_compression</span><span class="p">(</span><span class="s">"aaaabbcccccaaabb"</span><span class="p">)</span> <span class="o">==</span> <span class="s">"a4b2c5a3b2"</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -368,24 +368,24 @@ assert string_compression("aaaabbcccccaaabb") == "a4b2c5a3b2"
 13
 14
 15
-</pre></td><td class="rouge-code"><pre>def longest_common_prefix(words) -&gt; "str":
-    if not words:
-        return ""
+</pre></td><td class="rouge-code"><pre><span class="k">def</span> <span class="nf">longest_common_prefix</span><span class="p">(</span><span class="n">words</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s">"str"</span><span class="p">:</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">words</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s">""</span>
 
-    shortest_word = min(words, key=len)
+    <span class="n">shortest_word</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span><span class="n">words</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="nb">len</span><span class="p">)</span>
 
-    for i, letter in enumerate(shortest_word):
-        for s in words:
-            if s[i] != letter:
-                return shortest_word[:i]
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">letter</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">shortest_word</span><span class="p">):</span>
+        <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">words</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">s</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">!=</span> <span class="n">letter</span><span class="p">:</span>
+                <span class="k">return</span> <span class="n">shortest_word</span><span class="p">[:</span><span class="n">i</span><span class="p">]</span>
 
-    return shortest_word
+    <span class="k">return</span> <span class="n">shortest_word</span>
 
 
-assert longest_common_prefix(["flower", "flow", "flight"]) == "fl"
+<span class="k">assert</span> <span class="n">longest_common_prefix</span><span class="p">([</span><span class="s">"flower"</span><span class="p">,</span> <span class="s">"flow"</span><span class="p">,</span> <span class="s">"flight"</span><span class="p">])</span> <span class="o">==</span> <span class="s">"fl"</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -406,27 +406,27 @@ assert longest_common_prefix(["flower", "flow", "flight"]) == "fl"
 19
 20
 21
-</pre></td><td class="rouge-code"><pre>def repeatedStringMatch(A: str, B: str) -&gt; int:
-    """
+</pre></td><td class="rouge-code"><pre><span class="k">def</span> <span class="nf">repeatedStringMatch</span><span class="p">(</span><span class="n">A</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">B</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+    <span class="s">"""
     minimum number of times you should repeat string a,
     so that string b is a substring of it.
-    """
-    if set(B).difference(set(A)):
-        return -1 
+    """</span>
+    <span class="k">if</span> <span class="nb">set</span><span class="p">(</span><span class="n">B</span><span class="p">).</span><span class="n">difference</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">A</span><span class="p">)):</span>
+        <span class="k">return</span> <span class="o">-</span><span class="mi">1</span> 
     
-    rep = ""
-    count = 0
-    while len(rep) &lt; 10000:
-        rep += A      
-        count += 1
-        if B in rep:
-            return count 
+    <span class="n">rep</span> <span class="o">=</span> <span class="s">""</span>
+    <span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">while</span> <span class="nb">len</span><span class="p">(</span><span class="n">rep</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">10000</span><span class="p">:</span>
+        <span class="n">rep</span> <span class="o">+=</span> <span class="n">A</span>      
+        <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">if</span> <span class="n">B</span> <span class="ow">in</span> <span class="n">rep</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">count</span> 
     
-    return -1 
+    <span class="k">return</span> <span class="o">-</span><span class="mi">1</span> 
     
-a = "abcd"
-b = "cdabcdab"
-assert repeatedStringMatch(a,b) == 3 
+<span class="n">a</span> <span class="o">=</span> <span class="s">"abcd"</span>
+<span class="n">b</span> <span class="o">=</span> <span class="s">"cdabcdab"</span>
+<span class="k">assert</span> <span class="n">repeatedStringMatch</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="o">==</span> <span class="mi">3</span> 
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <h2 id="norvigs-spell-corrector">Norvig’s spell corrector</h2>

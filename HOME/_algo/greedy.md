@@ -5,7 +5,7 @@ title: Greedy
 
 
 
-```
+```python
 """
 Input: [[1,4],[4,5]]
 Output: [[1,5]]
@@ -29,7 +29,7 @@ def mergeIntervals(self, intervals):
     return merged
 ```
 
-```
+```python
 """
 Input: tasks = ["A","A","A","B","B","B"], n = 2
 Output: 8

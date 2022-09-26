@@ -10,7 +10,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
     
-    <meta name="description" content="```
+    <meta name="description" content="```python
 def quick_sort(data):
     # base case
     if len(data) &lt; 2:
@@ -29,7 +29,7 @@ def quick_sort(data):
             else:
                 greater.append(i)
 " />
-    <meta property="og:description" content="```
+    <meta property="og:description" content="```python
 def quick_sort(data):
     # base case
     if len(data) &lt; 2:
@@ -121,7 +121,7 @@ def quick_sort(data):
 
 
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -144,32 +144,32 @@ def quick_sort(data):
 21
 22
 23
-</pre></td><td class="rouge-code"><pre>def quick_sort(data):
-    # base case
-    if len(data) &lt; 2:
-        return data
-    # recursion
-    else:
-        less = list()
-        greater = list()
-        equal = list()
-        pivot = data[int(len(data)/2)]
-        for i in data:
-            if i &lt; pivot:
-                less.append(i)
-            elif i == pivot:
-                equal.append(i)
-            else:
-                greater.append(i)
+</pre></td><td class="rouge-code"><pre><span class="k">def</span> <span class="nf">quick_sort</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
+    <span class="c1"># base case
+</span>    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">data</span>
+    <span class="c1"># recursion
+</span>    <span class="k">else</span><span class="p">:</span>
+        <span class="n">less</span> <span class="o">=</span> <span class="nb">list</span><span class="p">()</span>
+        <span class="n">greater</span> <span class="o">=</span> <span class="nb">list</span><span class="p">()</span>
+        <span class="n">equal</span> <span class="o">=</span> <span class="nb">list</span><span class="p">()</span>
+        <span class="n">pivot</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">)]</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">pivot</span><span class="p">:</span>
+                <span class="n">less</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+            <span class="k">elif</span> <span class="n">i</span> <span class="o">==</span> <span class="n">pivot</span><span class="p">:</span>
+                <span class="n">equal</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">greater</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
 
-        return quick_sort(less) + equal + quick_sort(greater)
+        <span class="k">return</span> <span class="n">quick_sort</span><span class="p">(</span><span class="n">less</span><span class="p">)</span> <span class="o">+</span> <span class="n">equal</span> <span class="o">+</span> <span class="n">quick_sort</span><span class="p">(</span><span class="n">greater</span><span class="p">)</span>
 
 
-if __name__ == "__main__":
-    print(quick_sort([9, 7, 5, 4, 6, 8, 12, 1, 26, 1, 1]))
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">"__main__"</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">quick_sort</span><span class="p">([</span><span class="mi">9</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">26</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">]))</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -178,18 +178,18 @@ if __name__ == "__main__":
 7
 8
 9
-</pre></td><td class="rouge-code"><pre>def selection_sort(data):
-    sorted_list = list()
-    for i in range(len(data)):
-        smallest_index = data.index(min(data))
-        sorted_list.append(data.pop(smallest_index))
-    return sorted_list
+</pre></td><td class="rouge-code"><pre><span class="k">def</span> <span class="nf">selection_sort</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
+    <span class="n">sorted_list</span> <span class="o">=</span> <span class="nb">list</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="p">)):</span>
+        <span class="n">smallest_index</span> <span class="o">=</span> <span class="n">data</span><span class="p">.</span><span class="n">index</span><span class="p">(</span><span class="nb">min</span><span class="p">(</span><span class="n">data</span><span class="p">))</span>
+        <span class="n">sorted_list</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">data</span><span class="p">.</span><span class="n">pop</span><span class="p">(</span><span class="n">smallest_index</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">sorted_list</span>
 
-if __name__ == "__main__":
-    print(selection_sort([9, 7, 5, 4, 6, 8, 12, 1, 26, 1, 1]))
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">"__main__"</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">selection_sort</span><span class="p">([</span><span class="mi">9</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">26</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">]))</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -200,20 +200,20 @@ if __name__ == "__main__":
 9
 10
 11
-</pre></td><td class="rouge-code"><pre>function findUnsortedSubarray(nums){
-  return nums.slice()
-    .sort((a, b) =&gt; a - b)
-    .reduce((acc, curr, idx) =&gt; acc + (curr === nums[idx] ? ' ' : 'x'), '')
-    .trim().length;
-}
+</pre></td><td class="rouge-code"><pre><span class="n">function</span> <span class="n">findUnsortedSubarray</span><span class="p">(</span><span class="n">nums</span><span class="p">){</span>
+  <span class="k">return</span> <span class="n">nums</span><span class="o">.</span><span class="n">slice</span><span class="p">()</span>
+    <span class="o">.</span><span class="n">sort</span><span class="p">((</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="p">)</span>
+    <span class="o">.</span><span class="n">reduce</span><span class="p">((</span><span class="n">acc</span><span class="p">,</span> <span class="n">curr</span><span class="p">,</span> <span class="n">idx</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">acc</span> <span class="o">+</span> <span class="p">(</span><span class="n">curr</span> <span class="o">===</span> <span class="n">nums</span><span class="p">[</span><span class="n">idx</span><span class="p">]</span> <span class="err">?</span> <span class="sc">' '</span> <span class="o">:</span> <span class="sc">'x'</span><span class="p">),</span> <span class="err">''</span><span class="p">)</span>
+    <span class="o">.</span><span class="n">trim</span><span class="p">()</span><span class="o">.</span><span class="n">length</span><span class="p">;</span>
+<span class="p">}</span>
 
-let ans = findUnsortedSubarray([2, 6, 4, 8, 10, 9, 15])
-console.log(ans)
-// answer is 5 
-// it's enough to sort [6, 4, 8, 10, 9] to make all sorted 
+<span class="n">let</span> <span class="n">ans</span> <span class="o">=</span> <span class="n">findUnsortedSubarray</span><span class="p">([</span><span class="m">2</span><span class="p">,</span> <span class="m">6</span><span class="p">,</span> <span class="m">4</span><span class="p">,</span> <span class="m">8</span><span class="p">,</span> <span class="m">10</span><span class="p">,</span> <span class="m">9</span><span class="p">,</span> <span class="m">15</span><span class="p">])</span>
+<span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">ans</span><span class="p">)</span>
+<span class="c">// answer is 5 </span>
+<span class="c">// it's enough to sort [6, 4, 8, 10, 9] to make all sorted </span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -231,27 +231,27 @@ console.log(ans)
 16
 17
 18
-</pre></td><td class="rouge-code"><pre>def findUnsortedSubarray(nums) -&gt; int:
-    is_same = [a == b for a, b in zip(nums, sorted(nums))]
-    if all(is_same):
-        return 0
-    else:
-        first_index = is_same.index(False)
-        last_index = len(nums) - is_same[::-1].index(False)
-        return last_index - first_index
+</pre></td><td class="rouge-code"><pre><span class="k">def</span> <span class="nf">findUnsortedSubarray</span><span class="p">(</span><span class="n">nums</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+    <span class="n">is_same</span> <span class="o">=</span> <span class="p">[</span><span class="n">a</span> <span class="o">==</span> <span class="n">b</span> <span class="k">for</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">nums</span><span class="p">,</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">nums</span><span class="p">))]</span>
+    <span class="k">if</span> <span class="nb">all</span><span class="p">(</span><span class="n">is_same</span><span class="p">):</span>
+        <span class="k">return</span> <span class="mi">0</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">first_index</span> <span class="o">=</span> <span class="n">is_same</span><span class="p">.</span><span class="n">index</span><span class="p">(</span><span class="bp">False</span><span class="p">)</span>
+        <span class="n">last_index</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">nums</span><span class="p">)</span> <span class="o">-</span> <span class="n">is_same</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">].</span><span class="n">index</span><span class="p">(</span><span class="bp">False</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">last_index</span> <span class="o">-</span> <span class="n">first_index</span>
 
 
-"""
+<span class="s">"""
 [2, 6, 4, 8, 10, 9, 15]
 [t,f,... f,t]
 0,1, .. 5,6
 false starts at index 1, ends at 5 
-"""
+"""</span>
 
-assert findUnsortedSubarray([2, 6, 4, 8, 10, 9, 15]) == 5
+<span class="k">assert</span> <span class="n">findUnsortedSubarray</span><span class="p">([</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">15</span><span class="p">])</span> <span class="o">==</span> <span class="mi">5</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -263,18 +263,18 @@ assert findUnsortedSubarray([2, 6, 4, 8, 10, 9, 15]) == 5
 10
 11
 12
-</pre></td><td class="rouge-code"><pre>from heapq import heappush, heappop
+</pre></td><td class="rouge-code"><pre><span class="kn">from</span> <span class="nn">heapq</span> <span class="kn">import</span> <span class="n">heappush</span><span class="p">,</span> <span class="n">heappop</span>
 
 
-def heapsort(iterable):
-    h = []
-    for val in iterable:
-        heappush(h, val)
-    # or just h = heapify(iterable)
-    return [heappop(h) for i in range(len(h))]
+<span class="k">def</span> <span class="nf">heapsort</span><span class="p">(</span><span class="n">iterable</span><span class="p">):</span>
+    <span class="n">h</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">val</span> <span class="ow">in</span> <span class="n">iterable</span><span class="p">:</span>
+        <span class="n">heappush</span><span class="p">(</span><span class="n">h</span><span class="p">,</span> <span class="n">val</span><span class="p">)</span>
+    <span class="c1"># or just h = heapify(iterable)
+</span>    <span class="k">return</span> <span class="p">[</span><span class="n">heappop</span><span class="p">(</span><span class="n">h</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">h</span><span class="p">))]</span>
 
 
-assert heapsort([1, 3, 5, 7, 9, 2, 4, 6, 8, 0]) == [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+<span class="k">assert</span> <span class="n">heapsort</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">0</span><span class="p">])</span> <span class="o">==</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">]</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 

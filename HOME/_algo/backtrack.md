@@ -16,7 +16,7 @@ title: Backtrack
 
 
 
-```
+```py
 """
 n=3
 [
@@ -46,7 +46,7 @@ def generateParenthesis(self, N):
 assert generateParenthesis(3) == ["((()))", "(()())", "(())()", "()(())", "()()()"]
 ```
 
-```
+```py
 """
 find all unique combinations in candidates where the candidate numbers sums to target.
 Input: candidates = [2,3,6,7], target = 7,

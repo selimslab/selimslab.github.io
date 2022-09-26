@@ -7,7 +7,7 @@ title: Pointers
 
 ## Partition Labels
 
-```
+```python
 A string S of lowercase English letters is given. We want to partition this string into as many parts as possible so that each letter appears in at most one part, and return a list of integers representing the size of these parts.
 
 Input: S = "ababcbacadefegdehijhklij"
@@ -49,7 +49,7 @@ max water among sticks:
 ```
 
 
-```
+```python
 """
 Input: height = [1,8,6,2,5,4,8,3,7]
 Output: 49
@@ -78,7 +78,7 @@ def maxArea(self, height: List[int]) -> int:
 ```
 
 
-```
+```python
 def minWindow(self,s, t):
     """
     Given a string S and a string T, 

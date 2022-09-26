@@ -43,7 +43,7 @@ topo(graph):
 
 
 
-```
+```python
 from collections import deque
 
 
@@ -122,7 +122,7 @@ if __name__ == "__main__":
 ```
 
 
-```
+```go
 package main
 
 import "fmt"
@@ -188,7 +188,7 @@ func main() {
 }
 ```
 
-```
+```python
 def levelOrder(self, root: "TreeNode") -> "List[List[int]]":
     levelorder = list()
 

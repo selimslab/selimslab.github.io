@@ -10,12 +10,12 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
     
-    <meta name="description" content="```
-Get 
+    <meta name="description" content="```c
+// Get 
 num &amp; 1«i
 " />
-    <meta property="og:description" content="```
-Get 
+    <meta property="og:description" content="```c
+// Get 
 num &amp; 1«i
 " />
     
@@ -91,7 +91,7 @@ num &amp; 1«i
 
 
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -106,26 +106,24 @@ num &amp; 1«i
 13
 14
 15
-16
-</pre></td><td class="rouge-code"><pre>Get 
-num &amp; 1&lt;&lt;i 
+</pre></td><td class="rouge-code"><pre><span class="c1">// Get </span>
+<span class="n">num</span> <span class="o">&amp;</span> <span class="mi">1</span><span class="o">&lt;&lt;</span><span class="n">i</span> 
 
-Set 
-num | 1&lt;&lt;i
+<span class="c1">// Set </span>
+<span class="n">num</span> <span class="o">|</span> <span class="mi">1</span><span class="o">&lt;&lt;</span><span class="n">i</span>
 
-Clear 
-num &amp; ~(1&lt;&lt;i)
+<span class="c1">// Clear </span>
+<span class="n">num</span> <span class="o">&amp;</span> <span class="o">~</span><span class="p">(</span><span class="mi">1</span><span class="o">&lt;&lt;</span><span class="n">i</span><span class="p">)</span>
 
-masks
+<span class="c1">// masks</span>
+<span class="p">(</span><span class="mi">1</span><span class="o">&lt;&lt;</span><span class="n">i</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span> <span class="c1">// 0100 </span>
+<span class="mo">0100</span> <span class="o">-</span> <span class="mi">1</span>  <span class="c1">//0011</span>
 
-(1&lt;&lt;i)-1 = 0100 
-0100 - 1 = 0011
-
--1 &lt;&lt; (i+1) = 1111 
-1111 &lt;&lt; 2 =  1100 
+<span class="o">-</span><span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="c1">// 1111 </span>
+<span class="mi">1111</span> <span class="o">&lt;&lt;</span> <span class="mi">2</span> <span class="c1">// 1100 </span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -139,23 +137,23 @@ masks
 12
 13
 14
-</pre></td><td class="rouge-code"><pre>func reverseBits(num uint32) uint32 {
-    /*
+</pre></td><td class="rouge-code"><pre><span class="k">func</span> <span class="n">reverseBits</span><span class="p">(</span><span class="n">num</span> <span class="kt">uint32</span><span class="p">)</span> <span class="kt">uint32</span> <span class="p">{</span>
+    <span class="c">/*
     Input: 00000010100101000001111010011100
     Output: 00111001011110000010100101000000
-    */
-    res := uint32(0)
-    power := uint32(31)
-    for num != 0 {
-        res += (num &amp; 1) &lt;&lt; power
-        num = num &gt;&gt; 1
-        power -= 1
-    }
-    return res
-}
+    */</span>
+    <span class="n">res</span> <span class="o">:=</span> <span class="kt">uint32</span><span class="p">(</span><span class="m">0</span><span class="p">)</span>
+    <span class="n">power</span> <span class="o">:=</span> <span class="kt">uint32</span><span class="p">(</span><span class="m">31</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">num</span> <span class="o">!=</span> <span class="m">0</span> <span class="p">{</span>
+        <span class="n">res</span> <span class="o">+=</span> <span class="p">(</span><span class="n">num</span> <span class="o">&amp;</span> <span class="m">1</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="n">power</span>
+        <span class="n">num</span> <span class="o">=</span> <span class="n">num</span> <span class="o">&gt;&gt;</span> <span class="m">1</span>
+        <span class="n">power</span> <span class="o">-=</span> <span class="m">1</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">res</span>
+<span class="p">}</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -166,17 +164,17 @@ masks
 9
 10
 11
-</pre></td><td class="rouge-code"><pre>def readBinaryWatch(self, num: int) -&gt; List[str]:    
-    """
+</pre></td><td class="rouge-code"><pre><span class="k">def</span> <span class="nf">readBinaryWatch</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">num</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>    
+    <span class="s">"""
     Given a non-negative integer n which represents the number of LEDs that are currently on, 
     return all possible times a binary watch could represent.
     Example:
     Input: n = 1
     Return: ["1:00", "2:00", "4:00", "8:00", "0:01", "0:02", "0:04", "0:08", "0:16", "0:32"]
-    """
-    return ['%d:%02d' % (h, m)
-            for h in range(12) for m in range(60)
-            if (bin(h) + bin(m)).count('1') == num]
+    """</span>
+    <span class="k">return</span> <span class="p">[</span><span class="s">'%d:%02d'</span> <span class="o">%</span> <span class="p">(</span><span class="n">h</span><span class="p">,</span> <span class="n">m</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">h</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">12</span><span class="p">)</span> <span class="k">for</span> <span class="n">m</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">60</span><span class="p">)</span>
+            <span class="k">if</span> <span class="p">(</span><span class="nb">bin</span><span class="p">(</span><span class="n">h</span><span class="p">)</span> <span class="o">+</span> <span class="nb">bin</span><span class="p">(</span><span class="n">m</span><span class="p">)).</span><span class="n">count</span><span class="p">(</span><span class="s">'1'</span><span class="p">)</span> <span class="o">==</span> <span class="n">num</span><span class="p">]</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 

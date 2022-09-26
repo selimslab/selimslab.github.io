@@ -4,7 +4,7 @@ title: Tree, Binary Search Tree
 ---
 
 
-```
+```py
 def sortedArrayToBST(self, nums: List[int]) -> TreeNode:
     """
     Given an array where elements are sorted in ascending order, convert it to a height balanced BST.
@@ -30,7 +30,7 @@ def sortedArrayToBST(self, nums: List[int]) -> TreeNode:
     return go(0, len(nums)-1)
 ```
 
-```
+```py
 def sortedListToBST(self, head: ListNode) -> TreeNode:
     """
   

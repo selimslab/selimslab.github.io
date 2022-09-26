@@ -69,7 +69,7 @@ postorder(root):
 
 ```
 
-```
+```go
 import "fmt"
 
 

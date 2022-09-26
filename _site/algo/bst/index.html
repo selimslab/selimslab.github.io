@@ -10,7 +10,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
     
-    <meta name="description" content="```
+    <meta name="description" content="```py
 def sortedArrayToBST(self, nums: List[int]) -&gt; TreeNode:
     “””
     Given an array where elements are sorted in ascending order, convert it to a height balanced BST.
@@ -33,7 +33,7 @@ def sortedArrayToBST(self, nums: List[int]) -&gt; TreeNode:
         root.right = go(mid+1, right)
         return root
 " />
-    <meta property="og:description" content="```
+    <meta property="og:description" content="```py
 def sortedArrayToBST(self, nums: List[int]) -&gt; TreeNode:
     “””
     Given an array where elements are sorted in ascending order, convert it to a height balanced BST.
@@ -129,7 +129,7 @@ def sortedArrayToBST(self, nums: List[int]) -&gt; TreeNode:
 
 
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -152,32 +152,32 @@ def sortedArrayToBST(self, nums: List[int]) -&gt; TreeNode:
 21
 22
 23
-</pre></td><td class="rouge-code"><pre>def sortedArrayToBST(self, nums: List[int]) -&gt; TreeNode:
-    """
+</pre></td><td class="rouge-code"><pre><span class="k">def</span> <span class="nf">sortedArrayToBST</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nums</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="n">TreeNode</span><span class="p">:</span>
+    <span class="s">"""
     Given an array where elements are sorted in ascending order, convert it to a height balanced BST.
     For this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of every node never differ by more than 1.
     Example:
     Given the sorted array: [-10,-3,0,5,9],
     One possible answer is: [0,-3,9,-10,null,5], which represents the following height balanced BST:
           0
-         / \
-       -3   9
+         / </span><span class="se">\
+</span><span class="s">       -3   9
        /   /
      -10  5
-    """
-    def go(left,right):
-        if left&gt;right:
-            return None
-        mid = (left+right) // 2
-        root = TreeNode(nums[mid])
-        root.left = go(left, mid-1)
-        root.right = go(mid+1, right)
-        return root
+    """</span>
+    <span class="k">def</span> <span class="nf">go</span><span class="p">(</span><span class="n">left</span><span class="p">,</span><span class="n">right</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">left</span><span class="o">&gt;</span><span class="n">right</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">None</span>
+        <span class="n">mid</span> <span class="o">=</span> <span class="p">(</span><span class="n">left</span><span class="o">+</span><span class="n">right</span><span class="p">)</span> <span class="o">//</span> <span class="mi">2</span>
+        <span class="n">root</span> <span class="o">=</span> <span class="n">TreeNode</span><span class="p">(</span><span class="n">nums</span><span class="p">[</span><span class="n">mid</span><span class="p">])</span>
+        <span class="n">root</span><span class="p">.</span><span class="n">left</span> <span class="o">=</span> <span class="n">go</span><span class="p">(</span><span class="n">left</span><span class="p">,</span> <span class="n">mid</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+        <span class="n">root</span><span class="p">.</span><span class="n">right</span> <span class="o">=</span> <span class="n">go</span><span class="p">(</span><span class="n">mid</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">right</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">root</span>
 
-    return go(0, len(nums)-1)
+    <span class="k">return</span> <span class="n">go</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">nums</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -211,8 +211,8 @@ def sortedArrayToBST(self, nums: List[int]) -&gt; TreeNode:
 32
 33
 34
-</pre></td><td class="rouge-code"><pre>def sortedListToBST(self, head: ListNode) -&gt; TreeNode:
-    """
+</pre></td><td class="rouge-code"><pre><span class="k">def</span> <span class="nf">sortedListToBST</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">head</span><span class="p">:</span> <span class="n">ListNode</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">TreeNode</span><span class="p">:</span>
+    <span class="s">"""
   
     Given a singly linked list where elements are sorted in ascending order, convert it to a height balanced BST.
     For this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of every node never differ by more than 1.
@@ -220,31 +220,31 @@ def sortedArrayToBST(self, nums: List[int]) -&gt; TreeNode:
     Given the sorted linked list: [-10,-3,0,5,9],
     One possible answer is: [0,-3,9,-10,null,5], which represents the following height balanced BST:
           0
-         / \
-       -3   9
+         / </span><span class="se">\
+</span><span class="s">       -3   9
        /   /
      -10  5
-    """
-    if not head:
-        return None 
-    if not head.next:
-        return TreeNode(head.val)
+    """</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">head</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">None</span> 
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">head</span><span class="p">.</span><span class="nb">next</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">TreeNode</span><span class="p">(</span><span class="n">head</span><span class="p">.</span><span class="n">val</span><span class="p">)</span>
 
-    pre, slow, fast = None, head, head
+    <span class="n">pre</span><span class="p">,</span> <span class="n">slow</span><span class="p">,</span> <span class="n">fast</span> <span class="o">=</span> <span class="bp">None</span><span class="p">,</span> <span class="n">head</span><span class="p">,</span> <span class="n">head</span>
 
-    # when fast is at the end, slow will be at mid 
-    while fast and fast.next:
-        pre, slow, fast = slow, slow.next, fast.next.next
-    if pre:
-        # cut the parts from mid 
-        pre.next = None
+    <span class="c1"># when fast is at the end, slow will be at mid 
+</span>    <span class="k">while</span> <span class="n">fast</span> <span class="ow">and</span> <span class="n">fast</span><span class="p">.</span><span class="nb">next</span><span class="p">:</span>
+        <span class="n">pre</span><span class="p">,</span> <span class="n">slow</span><span class="p">,</span> <span class="n">fast</span> <span class="o">=</span> <span class="n">slow</span><span class="p">,</span> <span class="n">slow</span><span class="p">.</span><span class="nb">next</span><span class="p">,</span> <span class="n">fast</span><span class="p">.</span><span class="nb">next</span><span class="p">.</span><span class="nb">next</span>
+    <span class="k">if</span> <span class="n">pre</span><span class="p">:</span>
+        <span class="c1"># cut the parts from mid 
+</span>        <span class="n">pre</span><span class="p">.</span><span class="nb">next</span> <span class="o">=</span> <span class="bp">None</span>
 
 
-    root = TreeNode(slow.val)
-    root.left = self.sortedListToBST(head)
-    root.right = self.sortedListToBST(slow.next)
+    <span class="n">root</span> <span class="o">=</span> <span class="n">TreeNode</span><span class="p">(</span><span class="n">slow</span><span class="p">.</span><span class="n">val</span><span class="p">)</span>
+    <span class="n">root</span><span class="p">.</span><span class="n">left</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">sortedListToBST</span><span class="p">(</span><span class="n">head</span><span class="p">)</span>
+    <span class="n">root</span><span class="p">.</span><span class="n">right</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">sortedListToBST</span><span class="p">(</span><span class="n">slow</span><span class="p">.</span><span class="nb">next</span><span class="p">)</span>
 
-    return root 
+    <span class="k">return</span> <span class="n">root</span> 
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 

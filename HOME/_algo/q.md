@@ -5,7 +5,7 @@ title: Stack, Heap, Queue
 
 ## Stack 
 
-```
+```python
 def dedup(S: str) -> str:
     # Repeatedly dedup adjacent letter until no longer can.
     stack = [""]
@@ -41,7 +41,7 @@ assert dedup_k("deeedbbcccbdaa", 3) == "aa"
 
 
 
-```
+```python
 def decodeString(self, s):
     """
     s = "3[a]2[bc]", return "aaabcbc".
@@ -71,7 +71,7 @@ def decodeString(self, s):
     return ans
 ```
 
-```
+```python
 def check_brackets(test_iterable):
     if len(test_iterable) % 2 != 0:
         return False
@@ -90,7 +90,7 @@ def check_brackets(test_iterable):
     return not s
 ```
 
-```
+```python
 def longestValidParentheses(self, s: str) -> int:
     maxlen = 0
 
@@ -127,7 +127,7 @@ assert longestValidParentheses("()()())") == 4
 assert longestValidParentheses("(()") == 2
 ```
 
-```
+```java
 /*
 Input: ")()())"
 Output: 4
@@ -155,7 +155,7 @@ public int longestValidParentheses(String s) {
 }
 ```
 
-```
+```python
 def dailyTemperatures(T):
     """
     how many days you would have to wait until a warmer temperature ? 
@@ -178,7 +178,7 @@ assert dailyTemperatures(t) ==  [1, 1, 4, 2, 1, 1, 0, 0]
 
 ## Queue 
 
-```
+```go
 /*
 Given a positive integer n, 
 find the least number of perfect square numbers which sum to n.
@@ -240,7 +240,7 @@ func numSquares(n int) int {
 
 ## Heap  
 
-```
+```python
 import heapq
 
 

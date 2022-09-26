@@ -89,7 +89,7 @@ inorder(root):
 
 
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -151,71 +151,71 @@ inorder(root):
 60
 61
 62
-</pre></td><td class="rouge-code"><pre>inorder(root):
+</pre></td><td class="rouge-code"><pre><span class="n">inorder</span><span class="p">(</span><span class="n">root</span><span class="p">):</span>
 
-    walk(node):
-        if node:
-            walk(left)
-            visit node 
-            walk(right)
+    <span class="n">walk</span><span class="p">(</span><span class="n">node</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">node</span><span class="p">:</span>
+            <span class="n">walk</span><span class="p">(</span><span class="n">left</span><span class="p">)</span>
+            <span class="n">visit</span> <span class="n">node</span> 
+            <span class="n">walk</span><span class="p">(</span><span class="n">right</span><span class="p">)</span>
 
-    walk(root)
-
-
-inorder(root):
-    # return left, root, right
-
-    stack = []
-
-    while stack or root:
-        if root:
-             add root to stack 
-             go left
-
-        else:
-            get node from stack 
-            visit node 
-            go right 
+    <span class="n">walk</span><span class="p">(</span><span class="n">root</span><span class="p">)</span>
 
 
-preorder(root):
-    # return root, left, right
+<span class="n">inorder</span><span class="p">(</span><span class="n">root</span><span class="p">):</span>
+    <span class="c1"># return left, root, right
+</span>
+    <span class="n">stack</span> <span class="o">=</span> <span class="p">[]</span>
 
-    stack = []
+    <span class="k">while</span> <span class="n">stack</span> <span class="ow">or</span> <span class="n">root</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">root</span><span class="p">:</span>
+             <span class="n">add</span> <span class="n">root</span> <span class="n">to</span> <span class="n">stack</span> 
+             <span class="n">go</span> <span class="n">left</span>
 
-    while stack or root:
-        if root:
-            add root to stack 
-            visit node 
-            go left 
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">get</span> <span class="n">node</span> <span class="k">from</span> <span class="n">stack</span> 
+            <span class="n">visit</span> <span class="n">node</span> 
+            <span class="n">go</span> <span class="n">right</span> 
 
-        else:
-            get node from stack 
-            go right
 
-postorder(root):
-    # return left, right, root 
-    # visit in reverse 
+<span class="n">preorder</span><span class="p">(</span><span class="n">root</span><span class="p">):</span>
+    <span class="c1"># return root, left, right
+</span>
+    <span class="n">stack</span> <span class="o">=</span> <span class="p">[]</span>
 
-    stack = []
+    <span class="k">while</span> <span class="n">stack</span> <span class="ow">or</span> <span class="n">root</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">root</span><span class="p">:</span>
+            <span class="n">add</span> <span class="n">root</span> <span class="n">to</span> <span class="n">stack</span> 
+            <span class="n">visit</span> <span class="n">node</span> 
+            <span class="n">go</span> <span class="n">left</span> 
 
-    while stack or root:
-        if root:
-            add root to stack 
-             visit node 
-             go right 
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">get</span> <span class="n">node</span> <span class="k">from</span> <span class="n">stack</span> 
+            <span class="n">go</span> <span class="n">right</span>
 
-        else:
-            get node from stack 
-            go left
+<span class="n">postorder</span><span class="p">(</span><span class="n">root</span><span class="p">):</span>
+    <span class="c1"># return left, right, root 
+</span>    <span class="c1"># visit in reverse 
+</span>
+    <span class="n">stack</span> <span class="o">=</span> <span class="p">[]</span>
 
-    return reverse visited
+    <span class="k">while</span> <span class="n">stack</span> <span class="ow">or</span> <span class="n">root</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">root</span><span class="p">:</span>
+            <span class="n">add</span> <span class="n">root</span> <span class="n">to</span> <span class="n">stack</span> 
+             <span class="n">visit</span> <span class="n">node</span> 
+             <span class="n">go</span> <span class="n">right</span> 
+
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">get</span> <span class="n">node</span> <span class="k">from</span> <span class="n">stack</span> 
+            <span class="n">go</span> <span class="n">left</span>
+
+    <span class="k">return</span> <span class="n">reverse</span> <span class="n">visited</span>
 
 
 
 </pre></td></tr></tbody></table></code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -250,41 +250,41 @@ postorder(root):
 33
 34
 35
-</pre></td><td class="rouge-code"><pre>import "fmt"
+</pre></td><td class="rouge-code"><pre><span class="k">import</span> <span class="s">"fmt"</span>
 
 
-type Node struct {
-    Val int
-    Children []*Node
-}
+<span class="k">type</span> <span class="n">Node</span> <span class="k">struct</span> <span class="p">{</span>
+    <span class="n">Val</span> <span class="kt">int</span>
+    <span class="n">Children</span> <span class="p">[]</span><span class="o">*</span><span class="n">Node</span>
+<span class="p">}</span>
 
-func reverse(numbers []int) {
-	for i, j := 0, len(numbers)-1; i &lt; j; i, j = i+1, j-1 {
-		numbers[i], numbers[j] = numbers[j], numbers[i]
-	}
-}
+<span class="k">func</span> <span class="n">reverse</span><span class="p">(</span><span class="n">numbers</span> <span class="p">[]</span><span class="kt">int</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">j</span> <span class="o">:=</span> <span class="m">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">numbers</span><span class="p">)</span><span class="o">-</span><span class="m">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">j</span><span class="p">;</span> <span class="n">i</span><span class="p">,</span> <span class="n">j</span> <span class="o">=</span> <span class="n">i</span><span class="o">+</span><span class="m">1</span><span class="p">,</span> <span class="n">j</span><span class="o">-</span><span class="m">1</span> <span class="p">{</span>
+		<span class="n">numbers</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">numbers</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">numbers</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="n">numbers</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+	<span class="p">}</span>
+<span class="p">}</span>
 
-func postorder(root *Node) []int {
-    ans := []int{}
-    stack := []*Node{} 
-    for root != nil || len(stack) != 0 {
-        if root != nil {
-            ans = append(ans, root.Val)
-            for _, node := range(root.Children){
-                stack = append(stack, node)
-            }
-            root = nil 
-        } else {
-            n := len(stack)
-            root = stack[n-1]
-            stack = stack[:n-1]
-        }
-    }
+<span class="k">func</span> <span class="n">postorder</span><span class="p">(</span><span class="n">root</span> <span class="o">*</span><span class="n">Node</span><span class="p">)</span> <span class="p">[]</span><span class="kt">int</span> <span class="p">{</span>
+    <span class="n">ans</span> <span class="o">:=</span> <span class="p">[]</span><span class="kt">int</span><span class="p">{}</span>
+    <span class="n">stack</span> <span class="o">:=</span> <span class="p">[]</span><span class="o">*</span><span class="n">Node</span><span class="p">{}</span> 
+    <span class="k">for</span> <span class="n">root</span> <span class="o">!=</span> <span class="no">nil</span> <span class="o">||</span> <span class="nb">len</span><span class="p">(</span><span class="n">stack</span><span class="p">)</span> <span class="o">!=</span> <span class="m">0</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="n">root</span> <span class="o">!=</span> <span class="no">nil</span> <span class="p">{</span>
+            <span class="n">ans</span> <span class="o">=</span> <span class="nb">append</span><span class="p">(</span><span class="n">ans</span><span class="p">,</span> <span class="n">root</span><span class="o">.</span><span class="n">Val</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">node</span> <span class="o">:=</span> <span class="k">range</span><span class="p">(</span><span class="n">root</span><span class="o">.</span><span class="n">Children</span><span class="p">){</span>
+                <span class="n">stack</span> <span class="o">=</span> <span class="nb">append</span><span class="p">(</span><span class="n">stack</span><span class="p">,</span> <span class="n">node</span><span class="p">)</span>
+            <span class="p">}</span>
+            <span class="n">root</span> <span class="o">=</span> <span class="no">nil</span> 
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+            <span class="n">n</span> <span class="o">:=</span> <span class="nb">len</span><span class="p">(</span><span class="n">stack</span><span class="p">)</span>
+            <span class="n">root</span> <span class="o">=</span> <span class="n">stack</span><span class="p">[</span><span class="n">n</span><span class="o">-</span><span class="m">1</span><span class="p">]</span>
+            <span class="n">stack</span> <span class="o">=</span> <span class="n">stack</span><span class="p">[</span><span class="o">:</span><span class="n">n</span><span class="o">-</span><span class="m">1</span><span class="p">]</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
     
-    reverse(ans)
+    <span class="n">reverse</span><span class="p">(</span><span class="n">ans</span><span class="p">)</span>
     
-    return ans 
-}
+    <span class="k">return</span> <span class="n">ans</span> 
+<span class="p">}</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 

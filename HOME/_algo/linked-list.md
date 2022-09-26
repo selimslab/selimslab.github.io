@@ -3,7 +3,7 @@ layout: post
 title: Linked Lists 
 ---
 
-```
+```go
 import "sort"
 
 func sortList(head *ListNode) *ListNode {
@@ -27,7 +27,7 @@ func sortList(head *ListNode) *ListNode {
 
 <https://leetcode.com/problems/sort-list/>
 
-```
+```go
 type ListNode struct {
     Val int
     Next *ListNode
@@ -53,7 +53,7 @@ func sortList(head *ListNode) *ListNode {
 }
 ```
 
-```
+```python
 """
 Detect a cycle in a linked list. Note that the head pointer may be 'None' if the list is empty.
 A Node is defined as: 
@@ -79,7 +79,7 @@ def has_cycle(head):
     return True
 ```
 
-```
+```python
 def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
     p1, p2 = headA, headB
 
@@ -90,7 +90,7 @@ def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
         p2 = headA if not p2 else p2.next
 ```
 
-```
+```python
 """
 Input:  1->2->6->3->4->5->6, val = 6
 Output: 1->2->3->4->5
@@ -110,7 +110,7 @@ def removeElements(self, head: ListNode, val: int) -> ListNode:
     return head.next
 ```
 
-```
+```python
 /*
 Given linked list: 1->2->3->4->5, and n = 2.
 After removing the second node from the end, the linked list becomes 1->2->3->5.
@@ -135,7 +135,7 @@ public ListNode removeNthFromEnd(ListNode head, int n) {
 }
 ```
 
-```
+```python
 /*
 Input:
 [

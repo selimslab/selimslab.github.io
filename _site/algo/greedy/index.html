@@ -10,14 +10,14 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
     
-    <meta name="description" content="```
+    <meta name="description" content="```python
 “””
 Input: [[1,4],[4,5]]
 Output: [[1,5]]
 Explanation: Intervals [1,4] and [4,5] are considered overlapping.
 “””
 " />
-    <meta property="og:description" content="```
+    <meta property="og:description" content="```python
 “””
 Input: [[1,4],[4,5]]
 Output: [[1,5]]
@@ -97,7 +97,7 @@ Explanation: Intervals [1,4] and [4,5] are considered overlapping.
 
 
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -118,30 +118,30 @@ Explanation: Intervals [1,4] and [4,5] are considered overlapping.
 19
 20
 21
-</pre></td><td class="rouge-code"><pre>"""
+</pre></td><td class="rouge-code"><pre><span class="s">"""
 Input: [[1,4],[4,5]]
 Output: [[1,5]]
 Explanation: Intervals [1,4] and [4,5] are considered overlapping.
-"""
+"""</span>
 
-def mergeIntervals(self, intervals):
-    intervals.sort(key=lambda x: x.start)
+<span class="k">def</span> <span class="nf">mergeIntervals</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">intervals</span><span class="p">):</span>
+    <span class="n">intervals</span><span class="p">.</span><span class="n">sort</span><span class="p">(</span><span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">.</span><span class="n">start</span><span class="p">)</span>
 
-    merged = []
-    for interval in intervals:
-        # if the list of merged intervals is empty or if the current
-        # interval does not overlap with the previous, simply append it.
-        if not merged or merged[-1].end &lt; interval.start:
-            merged.append(interval)
-        else:
-            # otherwise, there is overlap, so we merge the current and previous
-            # intervals.
-            merged[-1].end = max(merged[-1].end, interval.end)
+    <span class="n">merged</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">interval</span> <span class="ow">in</span> <span class="n">intervals</span><span class="p">:</span>
+        <span class="c1"># if the list of merged intervals is empty or if the current
+</span>        <span class="c1"># interval does not overlap with the previous, simply append it.
+</span>        <span class="k">if</span> <span class="ow">not</span> <span class="n">merged</span> <span class="ow">or</span> <span class="n">merged</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">].</span><span class="n">end</span> <span class="o">&lt;</span> <span class="n">interval</span><span class="p">.</span><span class="n">start</span><span class="p">:</span>
+            <span class="n">merged</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">interval</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="c1"># otherwise, there is overlap, so we merge the current and previous
+</span>            <span class="c1"># intervals.
+</span>            <span class="n">merged</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">].</span><span class="n">end</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">merged</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">].</span><span class="n">end</span><span class="p">,</span> <span class="n">interval</span><span class="p">.</span><span class="n">end</span><span class="p">)</span>
 
-    return merged
+    <span class="k">return</span> <span class="n">merged</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -191,7 +191,7 @@ def mergeIntervals(self, intervals):
 48
 49
 50
-</pre></td><td class="rouge-code"><pre>"""
+</pre></td><td class="rouge-code"><pre><span class="s">"""
 Input: tasks = ["A","A","A","B","B","B"], n = 2
 Output: 8
 Explanation: 
@@ -204,43 +204,43 @@ Output: 16
 Explanation: 
 One possible solution is
 A -&gt; B -&gt; C -&gt; A -&gt; D -&gt; E -&gt; A -&gt; F -&gt; G -&gt; A -&gt; idle -&gt; idle -&gt; A -&gt; idle -&gt; idle -&gt; A
-"""
-import collections 
+"""</span>
+<span class="kn">import</span> <span class="nn">collections</span> 
 
-def leastInterval(self, tasks: List[str], n: int) -&gt; int:        
+<span class="k">def</span> <span class="nf">leastInterval</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">tasks</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span> <span class="n">n</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>        
 
-    # tasks = ["A","A","A","B","B","B"]
-    # n = 2 
+    <span class="c1"># tasks = ["A","A","A","B","B","B"]
+</span>    <span class="c1"># n = 2 
+</span>
+    <span class="n">counts</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">collections</span><span class="p">.</span><span class="n">Counter</span><span class="p">(</span><span class="n">tasks</span><span class="p">).</span><span class="n">values</span><span class="p">())</span> <span class="c1"># [3,3]
+</span>    <span class="n">max_count</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">counts</span><span class="p">)</span> <span class="c1"># 3
+</span>    <span class="n">num_of_chars_with_max_count</span> <span class="o">=</span> <span class="n">counts</span><span class="p">.</span><span class="n">count</span><span class="p">(</span><span class="n">max_count</span><span class="p">)</span> <span class="c1"># 2, A and B
+</span>
+    <span class="n">num_of_chunks_with_idles</span> <span class="o">=</span> <span class="n">max_count</span><span class="o">-</span><span class="mi">1</span> <span class="c1"># 2  -&gt; A  A  A
+</span>
+    <span class="c1"># either a task will fill an empty place or the place stays idle, 
+</span>    <span class="c1"># either way the chunk size stays the same  
+</span>    <span class="n">length_of_a_chunk_with_idle</span> <span class="o">=</span> <span class="n">n</span><span class="o">+</span><span class="mi">1</span>  <span class="c1"># 3 -&gt; A _ _ A _ _ A 
+</span>
+    <span class="c1"># on the final chunk, there will only be most frequent letters 
+</span>    <span class="n">length_of_the_final_chunk</span> <span class="o">=</span> <span class="n">num_of_chars_with_max_count</span>  <span class="c1"># 2  
+</span>
+    <span class="n">length_of_all_chunks</span> <span class="o">=</span> <span class="p">(</span><span class="n">num_of_chunks_with_idles</span><span class="o">*</span><span class="n">length_of_a_chunk_with_idle</span><span class="p">)</span> <span class="o">+</span> <span class="n">length_of_the_final_chunk</span> <span class="c1"># 2*3 + 2 = 8 
+</span>    <span class="c1"># -&gt; A B _ A B _ A B 
+</span>
+    <span class="k">return</span> <span class="nb">max</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">tasks</span><span class="p">),</span> <span class="n">length_of_all_chunks</span><span class="p">)</span>
 
-    counts = list(collections.Counter(tasks).values()) # [3,3]
-    max_count = max(counts) # 3
-    num_of_chars_with_max_count = counts.count(max_count) # 2, A and B
-
-    num_of_chunks_with_idles = max_count-1 # 2  -&gt; A  A  A
-
-    # either a task will fill an empty place or the place stays idle, 
-    # either way the chunk size stays the same  
-    length_of_a_chunk_with_idle = n+1  # 3 -&gt; A _ _ A _ _ A 
-
-    # on the final chunk, there will only be most frequent letters 
-    length_of_the_final_chunk = num_of_chars_with_max_count  # 2  
-
-    length_of_all_chunks = (num_of_chunks_with_idles*length_of_a_chunk_with_idle) + length_of_the_final_chunk # 2*3 + 2 = 8 
-    # -&gt; A B _ A B _ A B 
-
-    return max(len(tasks), length_of_all_chunks)
-
-assert leastInterval(["A", "A", "A", "B", "B", "B"], 2) == 8
-# A -&gt; B -&gt; idle -&gt; A -&gt; B -&gt; idle -&gt; A -&gt; B
+<span class="k">assert</span> <span class="n">leastInterval</span><span class="p">([</span><span class="s">"A"</span><span class="p">,</span> <span class="s">"A"</span><span class="p">,</span> <span class="s">"A"</span><span class="p">,</span> <span class="s">"B"</span><span class="p">,</span> <span class="s">"B"</span><span class="p">,</span> <span class="s">"B"</span><span class="p">],</span> <span class="mi">2</span><span class="p">)</span> <span class="o">==</span> <span class="mi">8</span>
+<span class="c1"># A -&gt; B -&gt; idle -&gt; A -&gt; B -&gt; idle -&gt; A -&gt; B
 # There is at least 2 units of time between any two same tasks.
-
-assert (
-    leastInterval(["A", "A", "A", "A", "A", "A", "B", "C", "D", "E", "F", "G"], n=2)
-    == 16
-)
-# One possible solution is
+</span>
+<span class="k">assert</span> <span class="p">(</span>
+    <span class="n">leastInterval</span><span class="p">([</span><span class="s">"A"</span><span class="p">,</span> <span class="s">"A"</span><span class="p">,</span> <span class="s">"A"</span><span class="p">,</span> <span class="s">"A"</span><span class="p">,</span> <span class="s">"A"</span><span class="p">,</span> <span class="s">"A"</span><span class="p">,</span> <span class="s">"B"</span><span class="p">,</span> <span class="s">"C"</span><span class="p">,</span> <span class="s">"D"</span><span class="p">,</span> <span class="s">"E"</span><span class="p">,</span> <span class="s">"F"</span><span class="p">,</span> <span class="s">"G"</span><span class="p">],</span> <span class="n">n</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+    <span class="o">==</span> <span class="mi">16</span>
+<span class="p">)</span>
+<span class="c1"># One possible solution is
 # A -&gt; B -&gt; C -&gt; A -&gt; D -&gt; E -&gt; A -&gt; F -&gt; G -&gt; A -&gt; idle -&gt; idle -&gt; A -&gt; idle -&gt; idle -&gt; A
-
+</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 

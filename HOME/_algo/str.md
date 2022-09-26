@@ -3,14 +3,14 @@ layout: post
 title: String
 ---
 
-```
+```python
 def reverse_string(s):
     if len(s) == 1:
         return s
     return s[-1] + rev(s[:-1])
 ```
 
-```
+```python
 def generate_ngrams(s, n):
     # Convert to lowercases
     s = s.lower()
@@ -30,7 +30,7 @@ def generate_ngrams(s, n):
     return n_grams
 ```
 
-```
+```python
 # with 2 pointers
 def reverseOnlyLetters(S: str) -> str:
     n = len(S)
@@ -67,7 +67,7 @@ assert reverseOnlyLetters("Test1ng-Leet=code-Q!") == "Qedo1ct-eeLg=ntse-T!"
 ```
 
 
-```
+```python
 import heapq
 from heapq import heappush, heappop, heapify
 
@@ -118,7 +118,7 @@ def longestDiverseString(a: int, b: int, c: int) -> str:
 longestDiverseString(7,1,1)
 ```
 
-```
+```python
 def string_compression(string):
     counter = 0
     compressed = ""
@@ -139,7 +139,7 @@ def string_compression(string):
 assert string_compression("aaaabbcccccaaabb") == "a4b2c5a3b2"
 ```
 
-```
+```python
 def longest_common_prefix(words) -> "str":
     if not words:
         return ""
@@ -158,7 +158,7 @@ assert longest_common_prefix(["flower", "flow", "flight"]) == "fl"
 ```
 
 
-```
+```python
 def repeatedStringMatch(A: str, B: str) -> int:
     """
     minimum number of times you should repeat string a,

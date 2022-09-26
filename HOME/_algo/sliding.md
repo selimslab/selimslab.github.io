@@ -3,7 +3,7 @@ layout: post
 title: Sliding Window 
 ---
 
-```
+```python
 import collections
 
 def characterReplacement(s:str, k:int):
@@ -37,7 +37,7 @@ assert characterReplacement(s,k) == 4
 
 <https://leetcode.com/problems/sliding-window-maximum/>
 
-```
+```go
 /*
 Input: nums = [1,3,-1,-3,5,3,6,7], k = 3
 Output: [3,3,5,5,6,7]

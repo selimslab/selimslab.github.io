@@ -5,9 +5,13 @@ title: Array
 
 
 
-
-
+```py
+# dedup 
+l = [1, 2, 2, 3, 3, 3, 4, 4, 5]
+assert list(dict.fromkeys(l)) == [1, 2, 3, 4, 5]
 ```
+
+```python
 def countPrimes(self, n: int) -> int:
     """
     Mark non-primes, 
@@ -24,7 +28,7 @@ def countPrimes(self, n: int) -> int:
     return sum(1 if primes[i] else 0 for i in range(2,n))
 ```
 
-```
+```go
 func plusOne(digits []int) []int {
   /*
   Given a non-empty array of digits representing a non-negative integer, plus one to the integer.
@@ -55,7 +59,7 @@ func plusOne(digits []int) []int {
 ```
 
 
-```
+```py
 """
 Input: ["eat", "tea", "tan", "ate", "nat", "bat"],
 Output:
@@ -77,7 +81,7 @@ def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
     return ans.values()
 ```
 
-```
+```py
 """
 Input: nums = [3, 6, 1, 0]
 Output: 1
@@ -103,7 +107,7 @@ def dominant_index(nums) -> int:
 assert dominant_index([3, 6, 1, 0]) == 1
 ```
 
-```
+```py
 """
 Input: 5
 Output:
@@ -136,7 +140,7 @@ assert generate_pascals_triangle(5) == [
 ]
 ```
 
-```
+```py
 """
 Input: 
 nums = [1, 7, 3, 6, 5, 6]
@@ -163,7 +167,7 @@ def pivot_index(self, nums) -> int:
     return -1
 ```
 
-```
+```js
 /*
 
 Input: nums = [6,5,4,8]
@@ -179,7 +183,7 @@ var smallerNumbersThanCurrent = function(nums) {
 };
 ```
 
-```
+```java
 /*
 Given nums = [2, 7, 11, 15], target = 9,
 
@@ -202,7 +206,7 @@ public int[] twoSum(int[] nums, int target) {
 assert new Solution().twoSum([2, 7, 11, 15], 9) == [0, 1]
 ```
 
-```
+```go
 // UniqueMorseRepresentations returns number of possible morse codes
 func UniqueMorseRepresentations(words []string) int {
     morse := []string{".-","-...","-.-.","-..",".","..-.",
@@ -224,13 +228,9 @@ func UniqueMorseRepresentations(words []string) int {
 }
 ```
 
-```
-# dedup 
-l = [1, 2, 2, 3, 3, 3, 4, 4, 5]
-assert list(dict.fromkeys(l)) == [1, 2, 3, 4, 5]
-```
 
-```
+
+```java
 /*
 left rotate a size n array by d  
 
@@ -262,7 +262,7 @@ public class LeftRotation {
 }
 ```
 
-```
+```py
 def longestConsecutive(nums: List[int]) -> int:
     numset = set(nums)
     ans = 0
@@ -287,7 +287,7 @@ def longestConsecutive(nums: List[int]) -> int:
 assert longestConsecutive([100, 4, 200, 1, 3, 2]) == 4  # 1,2,3,4
 ```
 
-```
+```cpp
 class Solution {
 public:
     void rotate(vector<vector<int>>& matrix) {
@@ -303,7 +303,7 @@ public:
 ```
 
 
-```
+```py
 Given an integer array nums of length n and an integer target, find three integers in nums such that the sum is closest to target.
 
 Return the sum of the three integers.
@@ -361,7 +361,7 @@ Explanation: The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 
 ## MapReduce 
 
-```
+```js
 function map(func, array) {
     var result = [];
     forEach(array, function (element) {

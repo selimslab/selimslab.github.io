@@ -89,7 +89,7 @@
 
 <h2 id="stack">Stack</h2>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -120,40 +120,40 @@
 29
 30
 31
-</pre></td><td class="rouge-code"><pre>def dedup(S: str) -&gt; str:
-    # Repeatedly dedup adjacent letter until no longer can.
-    stack = [""]
-    for s in S:
-        if s == stack[-1]:
-            stack.pop()
-        else:
-            stack.append(s)
+</pre></td><td class="rouge-code"><pre><span class="k">def</span> <span class="nf">dedup</span><span class="p">(</span><span class="n">S</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="c1"># Repeatedly dedup adjacent letter until no longer can.
+</span>    <span class="n">stack</span> <span class="o">=</span> <span class="p">[</span><span class="s">""</span><span class="p">]</span>
+    <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">S</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">s</span> <span class="o">==</span> <span class="n">stack</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]:</span>
+            <span class="n">stack</span><span class="p">.</span><span class="n">pop</span><span class="p">()</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">stack</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
 
-    return "".join(stack)
-
-
-assert dedup("abbaca") == "ca"
+    <span class="k">return</span> <span class="s">""</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">stack</span><span class="p">)</span>
 
 
-def dedup_k(s: str, k: int) -&gt; str:
-    # Repeatedly dedup adjacent K letters until no longer can.
-
-    stack = []  #  keep (char, count) tuples
-    for c in s:
-        if stack and stack[-1][0] == c:
-            stack[-1][1] += 1
-            if stack[-1][1] == k:
-                stack.pop()
-        else:
-            stack.append([c, 1])
-
-    return "".join(c * count for c, count in stack)
+<span class="k">assert</span> <span class="n">dedup</span><span class="p">(</span><span class="s">"abbaca"</span><span class="p">)</span> <span class="o">==</span> <span class="s">"ca"</span>
 
 
-assert dedup_k("deeedbbcccbdaa", 3) == "aa"
+<span class="k">def</span> <span class="nf">dedup_k</span><span class="p">(</span><span class="n">s</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">k</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="c1"># Repeatedly dedup adjacent K letters until no longer can.
+</span>
+    <span class="n">stack</span> <span class="o">=</span> <span class="p">[]</span>  <span class="c1">#  keep (char, count) tuples
+</span>    <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">s</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">stack</span> <span class="ow">and</span> <span class="n">stack</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="n">c</span><span class="p">:</span>
+            <span class="n">stack</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="k">if</span> <span class="n">stack</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="n">k</span><span class="p">:</span>
+                <span class="n">stack</span><span class="p">.</span><span class="n">pop</span><span class="p">()</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">stack</span><span class="p">.</span><span class="n">append</span><span class="p">([</span><span class="n">c</span><span class="p">,</span> <span class="mi">1</span><span class="p">])</span>
+
+    <span class="k">return</span> <span class="s">""</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">c</span> <span class="o">*</span> <span class="n">count</span> <span class="k">for</span> <span class="n">c</span><span class="p">,</span> <span class="n">count</span> <span class="ow">in</span> <span class="n">stack</span><span class="p">)</span>
+
+
+<span class="k">assert</span> <span class="n">dedup_k</span><span class="p">(</span><span class="s">"deeedbbcccbdaa"</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span> <span class="o">==</span> <span class="s">"aa"</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -180,36 +180,36 @@ assert dedup_k("deeedbbcccbdaa", 3) == "aa"
 25
 26
 27
-</pre></td><td class="rouge-code"><pre>def decodeString(self, s):
-    """
+</pre></td><td class="rouge-code"><pre><span class="k">def</span> <span class="nf">decodeString</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">s</span><span class="p">):</span>
+    <span class="s">"""
     s = "3[a]2[bc]", return "aaabcbc".
     s = "3[a2[c]]", return "accaccacc".
     s = "2[abc]3[cd]ef", return "abcabccdcdcdef".
-    """
+    """</span>
 
-    stack = []
-    coeff = 0
-    ans = ""
+    <span class="n">stack</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">coeff</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">ans</span> <span class="o">=</span> <span class="s">""</span>
 
-    for c in s:
-        if c == "[":
-            stack.append(ans)
-            stack.append(coeff)
-            ans = ""
-            coeff = 0
-        elif c == "]":
-            num = stack.pop()
-            prevString = stack.pop()
-            ans = prevString + num * ans
-        elif c.isdigit():
-            coeff = coeff * 10 + int(c)
-        else:
-            ans += c
+    <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">s</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">c</span> <span class="o">==</span> <span class="s">"["</span><span class="p">:</span>
+            <span class="n">stack</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">ans</span><span class="p">)</span>
+            <span class="n">stack</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">coeff</span><span class="p">)</span>
+            <span class="n">ans</span> <span class="o">=</span> <span class="s">""</span>
+            <span class="n">coeff</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">elif</span> <span class="n">c</span> <span class="o">==</span> <span class="s">"]"</span><span class="p">:</span>
+            <span class="n">num</span> <span class="o">=</span> <span class="n">stack</span><span class="p">.</span><span class="n">pop</span><span class="p">()</span>
+            <span class="n">prevString</span> <span class="o">=</span> <span class="n">stack</span><span class="p">.</span><span class="n">pop</span><span class="p">()</span>
+            <span class="n">ans</span> <span class="o">=</span> <span class="n">prevString</span> <span class="o">+</span> <span class="n">num</span> <span class="o">*</span> <span class="n">ans</span>
+        <span class="k">elif</span> <span class="n">c</span><span class="p">.</span><span class="n">isdigit</span><span class="p">():</span>
+            <span class="n">coeff</span> <span class="o">=</span> <span class="n">coeff</span> <span class="o">*</span> <span class="mi">10</span> <span class="o">+</span> <span class="nb">int</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">ans</span> <span class="o">+=</span> <span class="n">c</span>
 
-    return ans
+    <span class="k">return</span> <span class="n">ans</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -225,25 +225,25 @@ assert dedup_k("deeedbbcccbdaa", 3) == "aa"
 14
 15
 16
-</pre></td><td class="rouge-code"><pre>def check_brackets(test_iterable):
-    if len(test_iterable) % 2 != 0:
-        return False
+</pre></td><td class="rouge-code"><pre><span class="k">def</span> <span class="nf">check_brackets</span><span class="p">(</span><span class="n">test_iterable</span><span class="p">):</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">test_iterable</span><span class="p">)</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">False</span>
 
-    pairs = {"{": "}", "[": "]", "(": ")"}
-    s = []
+    <span class="n">pairs</span> <span class="o">=</span> <span class="p">{</span><span class="s">"{"</span><span class="p">:</span> <span class="s">"}"</span><span class="p">,</span> <span class="s">"["</span><span class="p">:</span> <span class="s">"]"</span><span class="p">,</span> <span class="s">"("</span><span class="p">:</span> <span class="s">")"</span><span class="p">}</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="p">[]</span>
 
-    for bracket in test_iterable:
-        if bracket in pairs:
-            s.append(bracket)
-        elif s and bracket == pairs[s.pop()]:
-            continue
-        else:
-            return False
+    <span class="k">for</span> <span class="n">bracket</span> <span class="ow">in</span> <span class="n">test_iterable</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">bracket</span> <span class="ow">in</span> <span class="n">pairs</span><span class="p">:</span>
+            <span class="n">s</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">bracket</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">s</span> <span class="ow">and</span> <span class="n">bracket</span> <span class="o">==</span> <span class="n">pairs</span><span class="p">[</span><span class="n">s</span><span class="p">.</span><span class="n">pop</span><span class="p">()]:</span>
+            <span class="k">continue</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">False</span>
 
-    return not s
+    <span class="k">return</span> <span class="ow">not</span> <span class="n">s</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -277,43 +277,43 @@ assert dedup_k("deeedbbcccbdaa", 3) == "aa"
 32
 33
 34
-</pre></td><td class="rouge-code"><pre>def longestValidParentheses(self, s: str) -&gt; int:
-    maxlen = 0
+</pre></td><td class="rouge-code"><pre><span class="k">def</span> <span class="nf">longestValidParentheses</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">s</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+    <span class="n">maxlen</span> <span class="o">=</span> <span class="mi">0</span>
 
-    l = r = 0
+    <span class="n">l</span> <span class="o">=</span> <span class="n">r</span> <span class="o">=</span> <span class="mi">0</span>
 
-    for c in s:
-        if c == "(":
-            l += 1
-        else:
-            r += 1
+    <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">s</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">c</span> <span class="o">==</span> <span class="s">"("</span><span class="p">:</span>
+            <span class="n">l</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">r</span> <span class="o">+=</span> <span class="mi">1</span>
 
-        if l == r:
-            maxlen = max(maxlen, 2 * l)
-        elif r &gt; l:
-            l = r = 0
+        <span class="k">if</span> <span class="n">l</span> <span class="o">==</span> <span class="n">r</span><span class="p">:</span>
+            <span class="n">maxlen</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">maxlen</span><span class="p">,</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">l</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">r</span> <span class="o">&gt;</span> <span class="n">l</span><span class="p">:</span>
+            <span class="n">l</span> <span class="o">=</span> <span class="n">r</span> <span class="o">=</span> <span class="mi">0</span>
 
-    l = r = 0
+    <span class="n">l</span> <span class="o">=</span> <span class="n">r</span> <span class="o">=</span> <span class="mi">0</span>
 
-    for c in reversed(s):
-        if c == ")":
-            l += 1
-        else:
-            r += 1
+    <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="nb">reversed</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">c</span> <span class="o">==</span> <span class="s">")"</span><span class="p">:</span>
+            <span class="n">l</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">r</span> <span class="o">+=</span> <span class="mi">1</span>
 
-        if l == r:
-            maxlen = max(maxlen, 2 * l)
-        elif r &gt; l:
-            l = r = 0
+        <span class="k">if</span> <span class="n">l</span> <span class="o">==</span> <span class="n">r</span><span class="p">:</span>
+            <span class="n">maxlen</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">maxlen</span><span class="p">,</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">l</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">r</span> <span class="o">&gt;</span> <span class="n">l</span><span class="p">:</span>
+            <span class="n">l</span> <span class="o">=</span> <span class="n">r</span> <span class="o">=</span> <span class="mi">0</span>
 
-    return maxlen
+    <span class="k">return</span> <span class="n">maxlen</span>
 
 
-assert longestValidParentheses("()()())") == 4
-assert longestValidParentheses("(()") == 2
+<span class="k">assert</span> <span class="n">longestValidParentheses</span><span class="p">(</span><span class="s">"()()())"</span><span class="p">)</span> <span class="o">==</span> <span class="mi">4</span>
+<span class="k">assert</span> <span class="n">longestValidParentheses</span><span class="p">(</span><span class="s">"(()"</span><span class="p">)</span> <span class="o">==</span> <span class="mi">2</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -338,34 +338,34 @@ assert longestValidParentheses("(()") == 2
 23
 24
 25
-</pre></td><td class="rouge-code"><pre>/*
+</pre></td><td class="rouge-code"><pre><span class="cm">/*
 Input: ")()())"
 Output: 4
 Explanation: The longest valid parentheses substring is "()()"
-*/
+*/</span>
 
-// stack, linear time and space 
-public int longestValidParentheses(String s) {
-    int maxans = 0;
-    Stack&lt;Integer&gt; stack = new Stack&lt;&gt;();
-    stack.push(-1);
-    for (int i = 0; i &lt; s.length(); i++) {
-        if (s.charAt(i) == '(') {
-            stack.push(i);
-        } else {
-            stack.pop();
-            if (stack.empty()) {
-                stack.push(i);
-            } else {
-                maxans = Math.max(maxans, i - stack.peek());
-            }
-        }
-    }
-    return maxans;
-}
+<span class="c1">// stack, linear time and space </span>
+<span class="kd">public</span> <span class="kt">int</span> <span class="nf">longestValidParentheses</span><span class="o">(</span><span class="nc">String</span> <span class="n">s</span><span class="o">)</span> <span class="o">{</span>
+    <span class="kt">int</span> <span class="n">maxans</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+    <span class="nc">Stack</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">&gt;</span> <span class="n">stack</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Stack</span><span class="o">&lt;&gt;();</span>
+    <span class="n">stack</span><span class="o">.</span><span class="na">push</span><span class="o">(-</span><span class="mi">1</span><span class="o">);</span>
+    <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">s</span><span class="o">.</span><span class="na">length</span><span class="o">();</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span>
+        <span class="k">if</span> <span class="o">(</span><span class="n">s</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="n">i</span><span class="o">)</span> <span class="o">==</span> <span class="sc">'('</span><span class="o">)</span> <span class="o">{</span>
+            <span class="n">stack</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="n">i</span><span class="o">);</span>
+        <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+            <span class="n">stack</span><span class="o">.</span><span class="na">pop</span><span class="o">();</span>
+            <span class="k">if</span> <span class="o">(</span><span class="n">stack</span><span class="o">.</span><span class="na">empty</span><span class="o">())</span> <span class="o">{</span>
+                <span class="n">stack</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="n">i</span><span class="o">);</span>
+            <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+                <span class="n">maxans</span> <span class="o">=</span> <span class="nc">Math</span><span class="o">.</span><span class="na">max</span><span class="o">(</span><span class="n">maxans</span><span class="o">,</span> <span class="n">i</span> <span class="o">-</span> <span class="n">stack</span><span class="o">.</span><span class="na">peek</span><span class="o">());</span>
+            <span class="o">}</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+    <span class="k">return</span> <span class="n">maxans</span><span class="o">;</span>
+<span class="o">}</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -383,29 +383,29 @@ public int longestValidParentheses(String s) {
 16
 17
 18
-</pre></td><td class="rouge-code"><pre>def dailyTemperatures(T):
-    """
+</pre></td><td class="rouge-code"><pre><span class="k">def</span> <span class="nf">dailyTemperatures</span><span class="p">(</span><span class="n">T</span><span class="p">):</span>
+    <span class="s">"""
     how many days you would have to wait until a warmer temperature ? 
-    """
+    """</span>
 
-    ans = [0] * len(T)
-    stack = []
-    for i, t in enumerate(T):
-        while stack and T[stack[-1]] &lt; t:
-            cur = stack.pop()
-            ans[cur] = i - cur
-        stack.append(i) 
+    <span class="n">ans</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">T</span><span class="p">)</span>
+    <span class="n">stack</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">t</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">T</span><span class="p">):</span>
+        <span class="k">while</span> <span class="n">stack</span> <span class="ow">and</span> <span class="n">T</span><span class="p">[</span><span class="n">stack</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]]</span> <span class="o">&lt;</span> <span class="n">t</span><span class="p">:</span>
+            <span class="n">cur</span> <span class="o">=</span> <span class="n">stack</span><span class="p">.</span><span class="n">pop</span><span class="p">()</span>
+            <span class="n">ans</span><span class="p">[</span><span class="n">cur</span><span class="p">]</span> <span class="o">=</span> <span class="n">i</span> <span class="o">-</span> <span class="n">cur</span>
+        <span class="n">stack</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> 
 
-    return ans
+    <span class="k">return</span> <span class="n">ans</span>
 
 
-t = [73, 74, 75, 71, 69, 72, 76, 73]
-assert dailyTemperatures(t) ==  [1, 1, 4, 2, 1, 1, 0, 0]
+<span class="n">t</span> <span class="o">=</span> <span class="p">[</span><span class="mi">73</span><span class="p">,</span> <span class="mi">74</span><span class="p">,</span> <span class="mi">75</span><span class="p">,</span> <span class="mi">71</span><span class="p">,</span> <span class="mi">69</span><span class="p">,</span> <span class="mi">72</span><span class="p">,</span> <span class="mi">76</span><span class="p">,</span> <span class="mi">73</span><span class="p">]</span>
+<span class="k">assert</span> <span class="n">dailyTemperatures</span><span class="p">(</span><span class="n">t</span><span class="p">)</span> <span class="o">==</span>  <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <h2 id="queue">Queue</h2>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -461,7 +461,7 @@ assert dailyTemperatures(t) ==  [1, 1, 4, 2, 1, 1, 0, 0]
 54
 55
 56
-</pre></td><td class="rouge-code"><pre>/*
+</pre></td><td class="rouge-code"><pre><span class="c">/*
 Given a positive integer n, 
 find the least number of perfect square numbers which sum to n.
 (for example, 1, 4, 9, 16, ...)
@@ -478,50 +478,50 @@ Example 2:
 Input: n = 13
 Output: 2
 Explanation: 13 = 4 + 9.
-*/
+*/</span>
 
-func numSquares(n int) int {
-    var perfect_squares []int
-    for i:= 1; i*i&lt;=n; i++{
-        if i*i == n{
-            return 1
-        }
-        perfect_squares = append(perfect_squares, i*i)
-    }
+<span class="k">func</span> <span class="n">numSquares</span><span class="p">(</span><span class="n">n</span> <span class="kt">int</span><span class="p">)</span> <span class="kt">int</span> <span class="p">{</span>
+    <span class="k">var</span> <span class="n">perfect_squares</span> <span class="p">[]</span><span class="kt">int</span>
+    <span class="k">for</span> <span class="n">i</span><span class="o">:=</span> <span class="m">1</span><span class="p">;</span> <span class="n">i</span><span class="o">*</span><span class="n">i</span><span class="o">&lt;=</span><span class="n">n</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">{</span>
+        <span class="k">if</span> <span class="n">i</span><span class="o">*</span><span class="n">i</span> <span class="o">==</span> <span class="n">n</span><span class="p">{</span>
+            <span class="k">return</span> <span class="m">1</span>
+        <span class="p">}</span>
+        <span class="n">perfect_squares</span> <span class="o">=</span> <span class="nb">append</span><span class="p">(</span><span class="n">perfect_squares</span><span class="p">,</span> <span class="n">i</span><span class="o">*</span><span class="n">i</span><span class="p">)</span>
+    <span class="p">}</span>
     
-    ans := 0 
-    queue := []int{n}
+    <span class="n">ans</span> <span class="o">:=</span> <span class="m">0</span> 
+    <span class="n">queue</span> <span class="o">:=</span> <span class="p">[]</span><span class="kt">int</span><span class="p">{</span><span class="n">n</span><span class="p">}</span>
     
-    for len(queue) != 0  {
-        /*
+    <span class="k">for</span> <span class="nb">len</span><span class="p">(</span><span class="n">queue</span><span class="p">)</span> <span class="o">!=</span> <span class="m">0</span>  <span class="p">{</span>
+        <span class="c">/*
         ans 1, queue is [12] 
         ans 2, the paths are 1,4,9 -&gt; queue becomes [11 8 3], 
         following the paths 1,4,9, the new level becomes [10 7 2 7 4 2]
         ans = 3, it returns at 4, the shortest path to 0 turns out to be 12 -&gt; 8 -&gt; 4 -&gt; 0 
-        */
-        ans += 1
-        var next_level []int
-        for _, num := range(queue){
-            for _, perf := range(perfect_squares){
-                if num == perf{
-                    return ans
-                }
-                if num&lt;perf{
-                    break
-                }
-                next_level = append(next_level, num-perf)
-            } 
+        */</span>
+        <span class="n">ans</span> <span class="o">+=</span> <span class="m">1</span>
+        <span class="k">var</span> <span class="n">next_level</span> <span class="p">[]</span><span class="kt">int</span>
+        <span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">num</span> <span class="o">:=</span> <span class="k">range</span><span class="p">(</span><span class="n">queue</span><span class="p">){</span>
+            <span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">perf</span> <span class="o">:=</span> <span class="k">range</span><span class="p">(</span><span class="n">perfect_squares</span><span class="p">){</span>
+                <span class="k">if</span> <span class="n">num</span> <span class="o">==</span> <span class="n">perf</span><span class="p">{</span>
+                    <span class="k">return</span> <span class="n">ans</span>
+                <span class="p">}</span>
+                <span class="k">if</span> <span class="n">num</span><span class="o">&lt;</span><span class="n">perf</span><span class="p">{</span>
+                    <span class="k">break</span>
+                <span class="p">}</span>
+                <span class="n">next_level</span> <span class="o">=</span> <span class="nb">append</span><span class="p">(</span><span class="n">next_level</span><span class="p">,</span> <span class="n">num</span><span class="o">-</span><span class="n">perf</span><span class="p">)</span>
+            <span class="p">}</span> 
             
-        }
-        queue = next_level 
-    }
-    return ans 
-}
+        <span class="p">}</span>
+        <span class="n">queue</span> <span class="o">=</span> <span class="n">next_level</span> 
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">ans</span> 
+<span class="p">}</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <h2 id="heap">Heap</h2>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -551,37 +551,37 @@ func numSquares(n int) int {
 28
 29
 30
-</pre></td><td class="rouge-code"><pre>import heapq
+</pre></td><td class="rouge-code"><pre><span class="kn">import</span> <span class="nn">heapq</span>
 
 
-class KthLargest:
-    """
+<span class="k">class</span> <span class="nc">KthLargest</span><span class="p">:</span>
+    <span class="s">"""
     find the kth largest element in a stream.
     in the sorted order, not the kth distinct element.
-    """
+    """</span>
 
-    def __init__(self, k: int, nums: List[int]):
-        self.pool = nums
-        self.k = k
-        heapq.heapify(self.pool)
-        while len(self.pool) &gt; k:
-            heapq.heappop(self.pool)
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">k</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">nums</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]):</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">pool</span> <span class="o">=</span> <span class="n">nums</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">k</span> <span class="o">=</span> <span class="n">k</span>
+        <span class="n">heapq</span><span class="p">.</span><span class="n">heapify</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">pool</span><span class="p">)</span>
+        <span class="k">while</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">pool</span><span class="p">)</span> <span class="o">&gt;</span> <span class="n">k</span><span class="p">:</span>
+            <span class="n">heapq</span><span class="p">.</span><span class="n">heappop</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">pool</span><span class="p">)</span>
 
-    def add(self, val: int) -&gt; int:
-        if len(self.pool) &lt; self.k:
-            heapq.heappush(self.pool, val)
-        elif val &gt; self.pool[0]:
-            heapq.heapreplace(self.pool, val)
-        return self.pool[0]
+    <span class="k">def</span> <span class="nf">add</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">val</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">pool</span><span class="p">)</span> <span class="o">&lt;</span> <span class="bp">self</span><span class="p">.</span><span class="n">k</span><span class="p">:</span>
+            <span class="n">heapq</span><span class="p">.</span><span class="n">heappush</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">pool</span><span class="p">,</span> <span class="n">val</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">val</span> <span class="o">&gt;</span> <span class="bp">self</span><span class="p">.</span><span class="n">pool</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span>
+            <span class="n">heapq</span><span class="p">.</span><span class="n">heapreplace</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">pool</span><span class="p">,</span> <span class="n">val</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">pool</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
 
 
-KthLargest(3, [4, 5, 8, 2])
-kthLargest.add(3)  # returns 4
-kthLargest.add(5)  # returns 5
-kthLargest.add(10)  # returns 5
-kthLargest.add(9)  # returns 8
-kthLargest.add(4)  # returns 8
-</pre></td></tr></tbody></table></code></pre></div></div>
+<span class="n">KthLargest</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">2</span><span class="p">])</span>
+<span class="n">kthLargest</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>  <span class="c1"># returns 4
+</span><span class="n">kthLargest</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>  <span class="c1"># returns 5
+</span><span class="n">kthLargest</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>  <span class="c1"># returns 5
+</span><span class="n">kthLargest</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="mi">9</span><span class="p">)</span>  <span class="c1"># returns 8
+</span><span class="n">kthLargest</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>  <span class="c1"># returns 8
+</span></pre></td></tr></tbody></table></code></pre></div></div>
 
 
 <br>

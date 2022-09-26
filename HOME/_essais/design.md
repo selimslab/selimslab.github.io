@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Design 🖌️
+title: Design 
 --- 
   
 

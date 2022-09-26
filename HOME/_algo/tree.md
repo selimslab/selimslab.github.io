@@ -9,7 +9,7 @@ def tree():
 ```
 
 
-```
+```go
 /**
  * Definition for TreeNode.
  * type TreeNode struct {
@@ -37,7 +37,7 @@ def tree():
 ```
 
 
-```
+```python
 class Codec:
 
     def serialize(self, root):
@@ -85,7 +85,7 @@ class Codec:
         return root
 ```
 
-```
+```python
 class Trie:
     """ or prefix tree """
     def __init__(self):
@@ -134,7 +134,7 @@ def test_trie():
 ```
 
 
-```
+```python
 """
 root = [5,3,6,2,4,null,7]
 key = 3
@@ -191,7 +191,7 @@ def deleteNode(self, root, key):
         return root
 ```
 
-```
+```go
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -234,10 +234,10 @@ func diameterOfBinaryTree(root *TreeNode) int {
 }
 
 ```
-```
 
+```python
 
-'''
+"""
 Invert a binary tree.
 Example:
 Input:
@@ -278,7 +278,9 @@ Output:
       return root
 
 ```
-```
+
+
+```java
 
 /*
     1
@@ -300,7 +302,7 @@ public boolean isMirror(TreeNode t1, TreeNode t2) {
 }
 
 ```
-```
+```cpp
 
 /**
  * Definition for a binary tree node.
@@ -326,7 +328,7 @@ public:
 };
 
 ```
-```
+```python
 
 # Definition for a binary tree node.
 # class TreeNode:
@@ -355,7 +357,7 @@ def maxDepth(self, root: 'TreeNode') -> 'int':
 ```
 
 
-```
+```python
 def maxPathSum(self, root: TreeNode) -> int:
     """
        1

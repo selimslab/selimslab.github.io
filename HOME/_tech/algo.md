@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Algorithms ⚙️
+title: Algorithms 
 ---
 
 {% assign sorted = site.algo | sort: 'title' %}

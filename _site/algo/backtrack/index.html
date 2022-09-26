@@ -119,7 +119,7 @@ backtrack(current, args):
 
 
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -127,17 +127,17 @@ backtrack(current, args):
 6
 7
 8
-</pre></td><td class="rouge-code"><pre>backtrack(current, args):
-    if done:
-        add to results
-        return 
-    if go this way:
-        backtrack(current + x, updated args)
-    elif go that way:
-        backtrack(current + y, updated args)
+</pre></td><td class="rouge-code"><pre><span class="n">backtrack</span><span class="p">(</span><span class="n">current</span><span class="p">,</span> <span class="n">args</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">done</span><span class="p">:</span>
+        <span class="n">add</span> <span class="n">to</span> <span class="n">results</span>
+        <span class="k">return</span> 
+    <span class="k">if</span> <span class="n">go</span> <span class="n">this</span> <span class="n">way</span><span class="p">:</span>
+        <span class="n">backtrack</span><span class="p">(</span><span class="n">current</span> <span class="o">+</span> <span class="n">x</span><span class="p">,</span> <span class="n">updated</span> <span class="n">args</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">go</span> <span class="n">that</span> <span class="n">way</span><span class="p">:</span>
+        <span class="n">backtrack</span><span class="p">(</span><span class="n">current</span> <span class="o">+</span> <span class="n">y</span><span class="p">,</span> <span class="n">updated</span> <span class="n">args</span><span class="p">)</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -164,7 +164,7 @@ backtrack(current, args):
 25
 26
 27
-</pre></td><td class="rouge-code"><pre>"""
+</pre></td><td class="rouge-code"><pre><span class="s">"""
 n=3
 [
   "((()))",
@@ -175,25 +175,25 @@ n=3
 ]
 We can start an opening bracket if we still have one (of n) left to place. 
 And we can start a closing bracket if it would not exceed the number of opening brackets.
-"""
-def generateParenthesis(self, N):
-    ans = []
-    def backtrack(S = '', left = 0, right = 0):
-        if len(S) == 2 * N:
-            ans.append(S)
-            return
-        if left &lt; N:
-            backtrack(S+'(', left+1, right)
-        if right &lt; left:
-            backtrack(S+')', left, right+1)
+"""</span>
+<span class="k">def</span> <span class="nf">generateParenthesis</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">N</span><span class="p">):</span>
+    <span class="n">ans</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">def</span> <span class="nf">backtrack</span><span class="p">(</span><span class="n">S</span> <span class="o">=</span> <span class="s">''</span><span class="p">,</span> <span class="n">left</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">right</span> <span class="o">=</span> <span class="mi">0</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">S</span><span class="p">)</span> <span class="o">==</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">N</span><span class="p">:</span>
+            <span class="n">ans</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">S</span><span class="p">)</span>
+            <span class="k">return</span>
+        <span class="k">if</span> <span class="n">left</span> <span class="o">&lt;</span> <span class="n">N</span><span class="p">:</span>
+            <span class="n">backtrack</span><span class="p">(</span><span class="n">S</span><span class="o">+</span><span class="s">'('</span><span class="p">,</span> <span class="n">left</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">right</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">right</span> <span class="o">&lt;</span> <span class="n">left</span><span class="p">:</span>
+            <span class="n">backtrack</span><span class="p">(</span><span class="n">S</span><span class="o">+</span><span class="s">')'</span><span class="p">,</span> <span class="n">left</span><span class="p">,</span> <span class="n">right</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
 
-    backtrack()
-    return ans
+    <span class="n">backtrack</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">ans</span>
 
-assert generateParenthesis(3) == ["((()))", "(()())", "(())()", "()(())", "()()()"]
+<span class="k">assert</span> <span class="n">generateParenthesis</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span> <span class="o">==</span> <span class="p">[</span><span class="s">"((()))"</span><span class="p">,</span> <span class="s">"(()())"</span><span class="p">,</span> <span class="s">"(())()"</span><span class="p">,</span> <span class="s">"()(())"</span><span class="p">,</span> <span class="s">"()()()"</span><span class="p">]</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -224,7 +224,7 @@ assert generateParenthesis(3) == ["((()))", "(()())", "(())()", "()(())", "()()(
 29
 30
 31
-</pre></td><td class="rouge-code"><pre>"""
+</pre></td><td class="rouge-code"><pre><span class="s">"""
 find all unique combinations in candidates where the candidate numbers sums to target.
 Input: candidates = [2,3,6,7], target = 7,
 A solution set is:
@@ -239,27 +239,27 @@ A solution set is:
   [2,3,3],
   [3,5]
 ]
-"""
+"""</span>
 
-def combinationSum(self, candidates: List[int], target: int) -&gt; List[List[int]]:
+<span class="k">def</span> <span class="nf">combinationSum</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">candidates</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">],</span> <span class="n">target</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]]:</span>
 
-    def backtrack(target, comb, idx):
-        if target == 0: # found a valid combination
-            res.append(comb)
-        for i, val in enumerate(candidates[idx:]):
-            if val &gt; target: break # dead end 
-            backtrack(target-val, comb + [val], idx + i)
+    <span class="k">def</span> <span class="nf">backtrack</span><span class="p">(</span><span class="n">target</span><span class="p">,</span> <span class="n">comb</span><span class="p">,</span> <span class="n">idx</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">target</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span> <span class="c1"># found a valid combination
+</span>            <span class="n">res</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">comb</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">val</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">candidates</span><span class="p">[</span><span class="n">idx</span><span class="p">:]):</span>
+            <span class="k">if</span> <span class="n">val</span> <span class="o">&gt;</span> <span class="n">target</span><span class="p">:</span> <span class="k">break</span> <span class="c1"># dead end 
+</span>            <span class="n">backtrack</span><span class="p">(</span><span class="n">target</span><span class="o">-</span><span class="n">val</span><span class="p">,</span> <span class="n">comb</span> <span class="o">+</span> <span class="p">[</span><span class="n">val</span><span class="p">],</span> <span class="n">idx</span> <span class="o">+</span> <span class="n">i</span><span class="p">)</span>
 
-    res = []
-    candidates.sort()
-    backtrack(target, [], 0)
+    <span class="n">res</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">candidates</span><span class="p">.</span><span class="n">sort</span><span class="p">()</span>
+    <span class="n">backtrack</span><span class="p">(</span><span class="n">target</span><span class="p">,</span> <span class="p">[],</span> <span class="mi">0</span><span class="p">)</span>
 
-    return res 
+    <span class="k">return</span> <span class="n">res</span> 
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <h2 id="subsets">Subsets</h2>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -268,15 +268,15 @@ def combinationSum(self, candidates: List[int], target: int) -&gt; List[List[int
 7
 8
 9
-</pre></td><td class="rouge-code"><pre>subsets(nums):
-  start with empty set 
+</pre></td><td class="rouge-code"><pre><span class="n">subsets</span><span class="p">(</span><span class="n">nums</span><span class="p">):</span>
+  <span class="n">start</span> <span class="k">with</span> <span class="n">empty</span> <span class="nb">set</span> 
 
-  for num in nums:
-    newseen = []
-    for set in seen:
-      add (set + num) to newseen
+  <span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="n">nums</span><span class="p">:</span>
+    <span class="n">newseen</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="nb">set</span> <span class="ow">in</span> <span class="n">seen</span><span class="p">:</span>
+      <span class="n">add</span> <span class="p">(</span><span class="nb">set</span> <span class="o">+</span> <span class="n">num</span><span class="p">)</span> <span class="n">to</span> <span class="n">newseen</span>
 
-    merge newseen with seen
+    <span class="n">merge</span> <span class="n">newseen</span> <span class="k">with</span> <span class="n">seen</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 

@@ -93,7 +93,7 @@ def dynamic(n):
 
 
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -101,67 +101,33 @@ def dynamic(n):
 6
 7
 8
-</pre></td><td class="rouge-code"><pre>def dynamic(n):
-    if base case:
-        return  
+</pre></td><td class="rouge-code"><pre><span class="k">def</span> <span class="nf">dynamic</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">base</span> <span class="n">case</span><span class="p">:</span>
+        <span class="k">return</span>  
 
-    if n not in memo:
-        memo[n] = recurrence relation 
+    <span class="k">if</span> <span class="n">n</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">memo</span><span class="p">:</span>
+        <span class="n">memo</span><span class="p">[</span><span class="n">n</span><span class="p">]</span> <span class="o">=</span> <span class="n">recurrence</span> <span class="n">relation</span> 
     
-    return memo[n]
+    <span class="k">return</span> <span class="n">memo</span><span class="p">[</span><span class="n">n</span><span class="p">]</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <h2 id="fibonacci">Fibonacci</h2>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
 5
 6
-</pre></td><td class="rouge-code"><pre>def fib(n):
-    if n &lt; 2:
-        return n
-    if n not in memo.keys():
-        memo[n] = fib(n - 1) + fib(n - 2)
-    return memo.get(n)
+</pre></td><td class="rouge-code"><pre><span class="k">def</span> <span class="nf">fib</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">n</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">n</span>
+    <span class="k">if</span> <span class="n">n</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">memo</span><span class="p">.</span><span class="n">keys</span><span class="p">():</span>
+        <span class="n">memo</span><span class="p">[</span><span class="n">n</span><span class="p">]</span> <span class="o">=</span> <span class="n">fib</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">fib</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">2</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">memo</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <h2 id="stairs">Stairs</h2>
-
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-</pre></td><td class="rouge-code"><pre><span class="k">func</span> <span class="n">climbStairs</span><span class="p">(</span><span class="n">n</span> <span class="kt">int</span><span class="p">)</span> <span class="kt">int</span> <span class="p">{</span>
-    <span class="n">memo</span> <span class="o">:=</span> <span class="k">map</span><span class="p">[</span><span class="kt">int</span><span class="p">]</span><span class="kt">int</span><span class="p">{</span>
-        <span class="m">1</span><span class="o">:</span><span class="m">1</span><span class="p">,</span>
-        <span class="m">2</span><span class="o">:</span><span class="m">2</span><span class="p">,</span>
-    <span class="p">}</span>
-    <span class="k">var</span> <span class="n">climb</span> <span class="k">func</span><span class="p">(</span><span class="n">n</span> <span class="kt">int</span><span class="p">)</span> <span class="kt">int</span>
-
-    <span class="n">climb</span> <span class="o">=</span> <span class="k">func</span> <span class="p">(</span><span class="n">n</span> <span class="kt">int</span><span class="p">)</span> <span class="kt">int</span> <span class="p">{</span>
-        <span class="n">_</span><span class="p">,</span> <span class="n">ok</span> <span class="o">:=</span> <span class="n">memo</span><span class="p">[</span><span class="n">n</span><span class="p">];</span>
-        <span class="k">if</span> <span class="o">!</span><span class="n">ok</span> <span class="p">{</span>
-            <span class="n">memo</span><span class="p">[</span><span class="n">n</span><span class="p">]</span> <span class="o">=</span> <span class="n">climb</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="m">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">climb</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="m">2</span><span class="p">)</span>
-        <span class="p">}</span>
-        <span class="k">return</span> <span class="n">memo</span><span class="p">[</span><span class="n">n</span><span class="p">]</span> 
-    <span class="p">}</span>
-    <span class="k">return</span> <span class="n">climb</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
-<span class="p">}</span>
-</pre></td></tr></tbody></table></code></pre></div></div>
 
 <div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
@@ -197,27 +163,24 @@ def dynamic(n):
 32
 33
 34
-35
-36
-</pre></td><td class="rouge-code"><pre><span class="n">On</span> <span class="n">a</span> <span class="n">staircase</span><span class="p">,</span> <span class="n">the</span> <span class="n">i</span><span class="o">-</span><span class="n">th</span> <span class="n">step</span> <span class="n">has</span> <span class="n">some</span> <span class="n">non</span><span class="o">-</span><span class="n">negative</span> <span class="n">cost</span> <span class="n">cost</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="n">assigned</span> <span class="p">(</span><span class="m">0</span> <span class="n">indexed</span><span class="p">)</span><span class="o">.</span>
+</pre></td><td class="rouge-code"><pre><span class="k">func</span> <span class="n">climbStairs</span><span class="p">(</span><span class="n">n</span> <span class="kt">int</span><span class="p">)</span> <span class="kt">int</span> <span class="p">{</span>
+    <span class="n">memo</span> <span class="o">:=</span> <span class="k">map</span><span class="p">[</span><span class="kt">int</span><span class="p">]</span><span class="kt">int</span><span class="p">{</span>
+        <span class="m">1</span><span class="o">:</span><span class="m">1</span><span class="p">,</span>
+        <span class="m">2</span><span class="o">:</span><span class="m">2</span><span class="p">,</span>
+    <span class="p">}</span>
+    <span class="k">var</span> <span class="n">climb</span> <span class="k">func</span><span class="p">(</span><span class="n">n</span> <span class="kt">int</span><span class="p">)</span> <span class="kt">int</span>
 
-<span class="n">Once</span> <span class="n">you</span> <span class="n">pay</span> <span class="n">the</span> <span class="n">cost</span><span class="p">,</span> <span class="n">you</span> <span class="n">can</span> <span class="n">either</span> <span class="n">climb</span> <span class="n">one</span> <span class="n">or</span> <span class="n">two</span> <span class="n">steps</span><span class="o">.</span> 
-<span class="n">You</span> <span class="n">need</span> <span class="n">to</span> <span class="n">find</span> <span class="n">minimum</span> <span class="n">cost</span> <span class="n">to</span> <span class="n">reach</span> <span class="n">the</span> <span class="n">top</span> <span class="n">of</span> <span class="n">the</span> <span class="n">floor</span><span class="p">,</span> 
-<span class="n">and</span> <span class="n">you</span> <span class="n">can</span> <span class="n">either</span> <span class="n">start</span> <span class="n">from</span> <span class="n">the</span> <span class="n">step</span> <span class="n">with</span> <span class="n">index</span> <span class="m">0</span><span class="p">,</span> <span class="n">or</span> <span class="n">the</span> <span class="n">step</span> <span class="n">with</span> <span class="n">index</span> <span class="m">1.</span>
+    <span class="n">climb</span> <span class="o">=</span> <span class="k">func</span> <span class="p">(</span><span class="n">n</span> <span class="kt">int</span><span class="p">)</span> <span class="kt">int</span> <span class="p">{</span>
+        <span class="n">_</span><span class="p">,</span> <span class="n">ok</span> <span class="o">:=</span> <span class="n">memo</span><span class="p">[</span><span class="n">n</span><span class="p">];</span>
+        <span class="k">if</span> <span class="o">!</span><span class="n">ok</span> <span class="p">{</span>
+            <span class="n">memo</span><span class="p">[</span><span class="n">n</span><span class="p">]</span> <span class="o">=</span> <span class="n">climb</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="m">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">climb</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="m">2</span><span class="p">)</span>
+        <span class="p">}</span>
+        <span class="k">return</span> <span class="n">memo</span><span class="p">[</span><span class="n">n</span><span class="p">]</span> 
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">climb</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+<span class="p">}</span>
 
-<span class="n">Example</span> <span class="m">1</span><span class="o">:</span>
-<span class="n">Input</span><span class="o">:</span> <span class="n">cost</span> <span class="o">=</span> <span class="p">[</span><span class="m">10</span><span class="p">,</span> <span class="m">15</span><span class="p">,</span> <span class="m">20</span><span class="p">]</span>
-<span class="n">Output</span><span class="o">:</span> <span class="m">15</span>
-<span class="n">Explanation</span><span class="o">:</span> <span class="n">Cheapest</span> <span class="n">is</span> <span class="n">start</span> <span class="n">on</span> <span class="n">cost</span><span class="p">[</span><span class="m">1</span><span class="p">],</span> <span class="n">pay</span> <span class="n">that</span> <span class="n">cost</span> <span class="n">and</span> <span class="k">go</span> <span class="n">to</span> <span class="n">the</span> <span class="n">top</span><span class="o">.</span>
-
-<span class="n">Example</span> <span class="m">2</span><span class="o">:</span>
-<span class="n">Input</span><span class="o">:</span> <span class="n">cost</span> <span class="o">=</span> <span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">100</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="m">100</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="m">100</span><span class="p">,</span> <span class="m">1</span><span class="p">]</span>
-<span class="n">Output</span><span class="o">:</span> <span class="m">6</span>
-<span class="n">Explanation</span><span class="o">:</span> <span class="n">Cheapest</span> <span class="n">is</span> <span class="n">start</span> <span class="n">on</span> <span class="n">cost</span><span class="p">[</span><span class="m">0</span><span class="p">],</span> <span class="n">and</span> <span class="n">only</span> <span class="n">step</span> <span class="n">on</span> <span class="m">1</span><span class="n">s</span><span class="p">,</span> <span class="n">skipping</span> <span class="n">cost</span><span class="p">[</span><span class="m">3</span><span class="p">]</span><span class="o">.</span>
-
-<span class="n">Note</span><span class="o">:</span>
-<span class="n">cost</span> <span class="n">will</span> <span class="n">have</span> <span class="n">a</span> <span class="n">length</span> <span class="n">in</span> <span class="n">the</span> <span class="k">range</span> <span class="p">[</span><span class="m">2</span><span class="p">,</span> <span class="m">1000</span><span class="p">]</span><span class="o">.</span>
-<span class="n">Every</span> <span class="n">cost</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="n">will</span> <span class="n">be</span> <span class="n">an</span> <span class="n">integer</span> <span class="n">in</span> <span class="n">the</span> <span class="k">range</span> <span class="p">[</span><span class="m">0</span><span class="p">,</span> <span class="m">999</span><span class="p">]</span><span class="o">.</span>
+<span class="c">// or </span>
 
 <span class="k">func</span> <span class="n">minCostClimbingStairs</span><span class="p">(</span><span class="n">cost</span> <span class="p">[]</span><span class="kt">int</span><span class="p">)</span> <span class="kt">int</span> <span class="p">{</span>
     <span class="n">c1</span><span class="p">,</span><span class="n">c2</span> <span class="o">:=</span> <span class="n">cost</span><span class="p">[</span><span class="m">0</span><span class="p">],</span> <span class="n">cost</span><span class="p">[</span><span class="m">1</span><span class="p">]</span>
@@ -232,14 +195,13 @@ def dynamic(n):
         <span class="n">c1</span><span class="p">,</span> <span class="n">c2</span> <span class="o">=</span> <span class="n">c2</span><span class="p">,</span> <span class="n">cost</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">+</span> <span class="n">min</span><span class="p">(</span><span class="n">c1</span><span class="p">,</span><span class="n">c2</span><span class="p">)</span>
     <span class="p">}</span>
             
-    <span class="k">return</span> <span class="n">min</span><span class="p">(</span><span class="n">c1</span><span class="p">,</span><span class="n">c2</span><span class="p">)</span>
-            
+    <span class="k">return</span> <span class="n">min</span><span class="p">(</span><span class="n">c1</span><span class="p">,</span><span class="n">c2</span><span class="p">)</span>         
 <span class="p">}</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <h2 id="coinchange">coinChange</h2>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -251,25 +213,25 @@ def dynamic(n):
 10
 11
 12
-</pre></td><td class="rouge-code"><pre>def coinChange(coins: List[int], amount: int) -&gt; int:
-    # coinChange([1,2,5],11) == 3
-    min_coins = [0] + [float('inf')]*amount
-    for sub_amount in range(amount+1):
-        for coin in coins:
-            if coin &lt;= sub_amount:
-                min_coins[sub_amount] = min(min_coins[sub_amount], min_coins[sub_amount-coin]+1)
+</pre></td><td class="rouge-code"><pre><span class="k">def</span> <span class="nf">coinChange</span><span class="p">(</span><span class="n">coins</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">],</span> <span class="n">amount</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+    <span class="c1"># coinChange([1,2,5],11) == 3
+</span>    <span class="n">min_coins</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="p">[</span><span class="nb">float</span><span class="p">(</span><span class="s">'inf'</span><span class="p">)]</span><span class="o">*</span><span class="n">amount</span>
+    <span class="k">for</span> <span class="n">sub_amount</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">amount</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+        <span class="k">for</span> <span class="n">coin</span> <span class="ow">in</span> <span class="n">coins</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">coin</span> <span class="o">&lt;=</span> <span class="n">sub_amount</span><span class="p">:</span>
+                <span class="n">min_coins</span><span class="p">[</span><span class="n">sub_amount</span><span class="p">]</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span><span class="n">min_coins</span><span class="p">[</span><span class="n">sub_amount</span><span class="p">],</span> <span class="n">min_coins</span><span class="p">[</span><span class="n">sub_amount</span><span class="o">-</span><span class="n">coin</span><span class="p">]</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
     
-    if min_coins[-1] == float('inf'):
-        return -1
-    else: 
-        return min_coins[-1]
+    <span class="k">if</span> <span class="n">min_coins</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="nb">float</span><span class="p">(</span><span class="s">'inf'</span><span class="p">):</span>
+        <span class="k">return</span> <span class="o">-</span><span class="mi">1</span>
+    <span class="k">else</span><span class="p">:</span> 
+        <span class="k">return</span> <span class="n">min_coins</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <h2 id="unique-bst">Unique BST</h2>
 
 <p><a href="https://leetcode.com/problems/unique-binary-search-trees">https://leetcode.com/problems/unique-binary-search-trees</a></p>
 
-<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -741,27 +703,31 @@ In step 3, we use Paste operation to get 'AAA'.
 47
 48
 49
-</pre></td><td class="rouge-code"><pre><span class="n">Given</span> <span class="n">a</span> <span class="n">non</span><span class="o">-</span><span class="n">empty</span> <span class="n">string</span> <span class="n">s</span> <span class="ow">and</span> <span class="n">a</span> <span class="n">dictionary</span> <span class="n">wordDict</span> <span class="n">containing</span> <span class="n">a</span> <span class="nb">list</span> <span class="n">of</span> <span class="n">non</span><span class="o">-</span><span class="n">empty</span> <span class="n">words</span><span class="p">,</span> <span class="n">determine</span> <span class="k">if</span> <span class="n">s</span> <span class="n">can</span> <span class="n">be</span> <span class="n">segmented</span> <span class="n">into</span> <span class="n">a</span> <span class="n">space</span><span class="o">-</span><span class="n">separated</span> <span class="n">sequence</span> <span class="n">of</span> <span class="n">one</span> <span class="ow">or</span> <span class="n">more</span> <span class="n">dictionary</span> <span class="n">words</span><span class="p">.</span>
+50
+51
+</pre></td><td class="rouge-code"><pre><span class="s">"""
+Given a non-empty string s and a dictionary wordDict containing a list of non-empty words, determine if s can be segmented into a space-separated sequence of one or more dictionary words.
 
-<span class="n">Note</span><span class="p">:</span>
+Note:
 
-<span class="n">The</span> <span class="n">same</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">dictionary</span> <span class="n">may</span> <span class="n">be</span> <span class="n">reused</span> <span class="n">multiple</span> <span class="n">times</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">segmentation</span><span class="p">.</span>
-<span class="n">You</span> <span class="n">may</span> <span class="n">assume</span> <span class="n">the</span> <span class="n">dictionary</span> <span class="n">does</span> <span class="ow">not</span> <span class="n">contain</span> <span class="n">duplicate</span> <span class="n">words</span><span class="p">.</span>
-<span class="n">Example</span> <span class="mi">1</span><span class="p">:</span>
+The same word in the dictionary may be reused multiple times in the segmentation.
+You may assume the dictionary does not contain duplicate words.
+Example 1:
 
-<span class="n">Input</span><span class="p">:</span> <span class="n">s</span> <span class="o">=</span> <span class="s">"leetcode"</span><span class="p">,</span> <span class="n">wordDict</span> <span class="o">=</span> <span class="p">[</span><span class="s">"leet"</span><span class="p">,</span> <span class="s">"code"</span><span class="p">]</span>
-<span class="n">Output</span><span class="p">:</span> <span class="n">true</span>
-<span class="n">Explanation</span><span class="p">:</span> <span class="n">Return</span> <span class="n">true</span> <span class="n">because</span> <span class="s">"leetcode"</span> <span class="n">can</span> <span class="n">be</span> <span class="n">segmented</span> <span class="k">as</span> <span class="s">"leet code"</span><span class="p">.</span>
-<span class="n">Example</span> <span class="mi">2</span><span class="p">:</span>
+Input: s = "leetcode", wordDict = ["leet", "code"]
+Output: true
+Explanation: Return true because "leetcode" can be segmented as "leet code".
+Example 2:
 
-<span class="n">Input</span><span class="p">:</span> <span class="n">s</span> <span class="o">=</span> <span class="s">"applepenapple"</span><span class="p">,</span> <span class="n">wordDict</span> <span class="o">=</span> <span class="p">[</span><span class="s">"apple"</span><span class="p">,</span> <span class="s">"pen"</span><span class="p">]</span>
-<span class="n">Output</span><span class="p">:</span> <span class="n">true</span>
-<span class="n">Explanation</span><span class="p">:</span> <span class="n">Return</span> <span class="n">true</span> <span class="n">because</span> <span class="s">"applepenapple"</span> <span class="n">can</span> <span class="n">be</span> <span class="n">segmented</span> <span class="k">as</span> <span class="s">"apple pen apple"</span><span class="p">.</span>
-             <span class="n">Note</span> <span class="n">that</span> <span class="n">you</span> <span class="n">are</span> <span class="n">allowed</span> <span class="n">to</span> <span class="n">reuse</span> <span class="n">a</span> <span class="n">dictionary</span> <span class="n">word</span><span class="p">.</span>
-<span class="n">Example</span> <span class="mi">3</span><span class="p">:</span>
+Input: s = "applepenapple", wordDict = ["apple", "pen"]
+Output: true
+Explanation: Return true because "applepenapple" can be segmented as "apple pen apple".
+             Note that you are allowed to reuse a dictionary word.
+Example 3:
 
-<span class="n">Input</span><span class="p">:</span> <span class="n">s</span> <span class="o">=</span> <span class="s">"catsandog"</span><span class="p">,</span> <span class="n">wordDict</span> <span class="o">=</span> <span class="p">[</span><span class="s">"cats"</span><span class="p">,</span> <span class="s">"dog"</span><span class="p">,</span> <span class="s">"sand"</span><span class="p">,</span> <span class="s">"and"</span><span class="p">,</span> <span class="s">"cat"</span><span class="p">]</span>
-<span class="n">Output</span><span class="p">:</span> <span class="n">false</span>
+Input: s = "catsandog", wordDict = ["cats", "dog", "sand", "and", "cat"]
+Output: false
+"""</span>
 
 <span class="k">def</span> <span class="nf">wordBreak</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">s</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">wordDict</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
     <span class="s">"""

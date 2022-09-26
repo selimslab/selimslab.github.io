@@ -4,26 +4,25 @@ title: Bitworks
 ---
 
 
-```
-Get 
+```c
+// Get 
 num & 1<<i 
 
-Set 
+// Set 
 num | 1<<i
 
-Clear 
+// Clear 
 num & ~(1<<i)
 
-masks
+// masks
+(1<<i)-1 // 0100 
+0100 - 1  //0011
 
-(1<<i)-1 = 0100 
-0100 - 1 = 0011
-
--1 << (i+1) = 1111 
-1111 << 2 =  1100 
+-1 << (i+1) // 1111 
+1111 << 2 // 1100 
 ```
 
-```
+```go
 func reverseBits(num uint32) uint32 {
     /*
     Input: 00000010100101000001111010011100
@@ -40,7 +39,7 @@ func reverseBits(num uint32) uint32 {
 }
 ```
 
-```
+```py
 def readBinaryWatch(self, num: int) -> List[str]:    
     """
     Given a non-negative integer n which represents the number of LEDs that are currently on, 
