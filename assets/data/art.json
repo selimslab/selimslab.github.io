@@ -147,6 +147,22 @@
     {
         "src": "/static/827px-Johannes_Vermeer_-_Gezicht_op_huizen_in_Delft,_bekend_als_'Het_straatje'_-_Google_Art_Project.jpeg",
         "alt": "The Little Street"
+    },
+    {
+        "src": "/static/A_field_of_Blue_Bonnets.jpeg",
+        "alt": "A field of Blue Bonnets"
+    },
+    {
+        "src": "/static/Americae sive Novi Orbis, nova descripto Abraham Ortelius1587.jpeg",
+        "alt": "Americae sive Novi Orbis, 1587"
+    },
+    {
+        "src": "/static/Camille_Pissarro_-_La_rue_Saint-Honoré_(1898).jpeg",
+        "alt": "La rue Saint-Honoré"
+    },
+    {
+        "src": "/static/1024px-Chase_William_Merritt_Idle_Hours_1894.jpeg",
+        "alt": "Idle Hours, 1894"
     }
 ]
 
