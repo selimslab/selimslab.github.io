@@ -12,8 +12,8 @@ workbox.core.setCacheNameDetails({
 
 workbox.precaching.precache([
   { url: '/essais/a-good-life/', revision: '2022-09-25 01:13:38 +0300' },
-  { url: '/essais/art/', revision: '2022-09-25 16:51:40 +0300' },
-  { url: '/essais/books/', revision: '2022-09-23 13:41:53 +0300' },
+  { url: '/essais/art/', revision: '2022-09-26 14:33:01 +0300' },
+  { url: '/essais/books/', revision: '2022-09-26 14:33:01 +0300' },
   { url: '/essais/chaos/', revision: '2022-09-22 01:36:16 +0300' },
   { url: '/essais/children/', revision: '2022-09-21 19:13:22 +0300' },
   { url: '/essais/cognitive%20biases/', revision: '2022-09-21 19:13:22 +0300' },
@@ -30,17 +30,17 @@ workbox.precaching.precache([
   { url: '/essais/learning/', revision: '2022-09-21 19:13:22 +0300' },
   { url: '/essais/links/', revision: '2022-09-23 13:23:05 +0300' },
   { url: '/essais/mental-models/', revision: '2022-09-21 19:13:22 +0300' },
-  { url: '/essais/movies/', revision: '2022-09-25 18:05:57 +0300' },
+  { url: '/essais/movies/', revision: '2022-09-26 14:33:01 +0300' },
   { url: '/essais/poems/', revision: '2022-09-22 01:41:04 +0300' },
   { url: '/essais/poemtr/', revision: '2022-09-23 13:41:53 +0300' },
   { url: '/essais/problem-solving/', revision: '2022-09-23 13:41:53 +0300' },
-  { url: '/essais/public-speaking/', revision: '2022-09-21 19:13:22 +0300' },
-  { url: '/essais/questions/', revision: '2022-09-21 22:50:29 +0300' },
+  { url: '/essais/public-speaking/', revision: '2022-09-26 14:33:01 +0300' },
+  { url: '/essais/questions/', revision: '2022-09-26 14:33:01 +0300' },
   { url: '/essais/stupidity/', revision: '2022-09-21 19:13:22 +0300' },
   { url: '/essais/teamwork-in-art-of-war/', revision: '2022-09-22 01:36:16 +0300' },
   { url: '/essais/write-better/', revision: '2022-09-21 19:13:22 +0300' },
   { url: '/tech/algo/', revision: '2022-09-22 01:36:16 +0300' },
-  { url: '/tech/books/', revision: '2022-09-23 15:32:47 +0300' },
+  { url: '/tech/books/', revision: '2022-09-26 14:33:01 +0300' },
   { url: '/tech/code-review/', revision: '2022-09-22 01:41:04 +0300' },
   { url: '/tech/keyboard-shortcuts/', revision: '2022-09-23 22:53:47 +0300' },
   { url: '/tech/natural-tech/', revision: '2022-09-21 19:13:22 +0300' },
@@ -67,7 +67,7 @@ workbox.precaching.precache([
   { url: '/algo/str/', revision: '2022-09-22 00:28:18 +0300' },
   { url: '/algo/tree-traveerse/', revision: '2022-09-21 19:13:22 +0300' },
   { url: '/algo/tree/', revision: '2022-09-21 19:13:22 +0300' },
-  { url: '/', revision: '2022-09-26 14:32:21 +0300' }
+  { url: '/', revision: '2022-09-26 14:33:10 +0300' }
 ]);
 
 
