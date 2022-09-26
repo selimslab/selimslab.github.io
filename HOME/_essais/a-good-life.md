@@ -220,16 +220,3 @@ Nature does not hurry, yet everything is accomplished
 ---
 
 "Very little is needed to make a happy life; it is all within yourself, in your way of thinking"
-
-
----
-
-Also see
-
-“How to Grow Old” by Bertrand Russell
-
-<https://sites.google.com/site/gobenyan/essay>
-
-Active days feel longer, a week of traveling feels like a month 
-
-<https://www.raptitude.com/2018/05/how-to-slow-down-time/>

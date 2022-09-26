@@ -9,6 +9,18 @@ title: Liked readings 🔖
 
 ---
 
+“How to Grow Old” by Bertrand Russell
+
+<https://sites.google.com/site/gobenyan/essay>
+
+---
+
+Active days feel longer, a week of traveling feels like a month 
+
+<https://www.raptitude.com/2018/05/how-to-slow-down-time/>
+
+---
+
 Driving lessons from fighter pilots 
 
 Lookout scan: move your head and focus at 3 different points, close, mid, far 

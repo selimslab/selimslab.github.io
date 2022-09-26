@@ -18,10 +18,10 @@ $black: #000;
 $sansSerif: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $serif: Georgia, serif;
 
-$dark-bg: #2a2e32;
+$dark-bg: #22272e; // #2a2e32
 $light-text: #f0f1f2;
 
-$light-bg: #fffefc;
+$light-bg: #fffefc; // #fdc96c
 $dark-text: $gray;
 
 
@@ -91,6 +91,7 @@ h1 {
 }
 
 h2 {
+  font-family: $serif;
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 1rem;
