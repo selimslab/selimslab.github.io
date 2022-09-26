@@ -88,20 +88,34 @@ registerRoute(
   new NetworkFirst()
 );
 
+registerRoute(
+  new RegExp('\/essais\/.+'),
+  strategy
+);
+
+registerRoute(
+  new RegExp('\/tech\/.+'),
+  strategy
+);
+
+registerRoute(
+  new RegExp('\/algo\/.+'),
+  strategy
+);
 
 registerRoute(
   new RegExp('\/links\/.+'),
-  new StaleWhileRevalidate()
+  strategy
 );
 
 registerRoute(
   new RegExp('\/projects\/.+'),
-  new StaleWhileRevalidate()
+  strategy
 );
 
 registerRoute(
   new RegExp('\/assets\/.+'),
-  new StaleWhileRevalidate()
+  strategy
 );
 
 registerRoute(
