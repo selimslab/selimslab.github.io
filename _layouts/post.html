@@ -11,6 +11,7 @@ date: {{ last_modified_at }}
 <article>
         
 {% include breadcrumbs.html %}
+<br>
 
 <h1>{{ page.title }}</h1>
 
@@ -24,6 +25,9 @@ date: {{ last_modified_at }}
 
 {% if JEKYLL_ENV != "production" %}
 {% endif %}
+
+<br>
+{% include breadcrumbs.html %}
 
 </article>
 

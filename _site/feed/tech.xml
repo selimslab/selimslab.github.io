@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://selimslab.github.io/feed/tech.xml" rel="self" type="application/atom+xml" /><link href="https://selimslab.github.io/" rel="alternate" type="text/html" /><updated>2022-09-26T23:30:43+03:00</updated><id>https://selimslab.github.io/feed/tech.xml</id><title type="html">notes | Tech</title><subtitle>bicycle for the mind</subtitle><entry><title type="html">Algorithms</title><link href="https://selimslab.github.io/tech/algorithms/" rel="alternate" type="text/html" title="Algorithms" /><published>2022-09-26T23:30:43+03:00</published><updated>2022-09-26T23:22:46+03:00</updated><id>https://selimslab.github.io/tech/algorithms</id><content type="html" xml:base="https://selimslab.github.io/tech/algorithms/"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://selimslab.github.io/feed/tech.xml" rel="self" type="application/atom+xml" /><link href="https://selimslab.github.io/" rel="alternate" type="text/html" /><updated>2022-09-26T23:47:01+03:00</updated><id>https://selimslab.github.io/feed/tech.xml</id><title type="html">notes | Tech</title><subtitle>bicycle for the mind</subtitle><entry><title type="html">Algorithms</title><link href="https://selimslab.github.io/tech/algorithms/" rel="alternate" type="text/html" title="Algorithms" /><published>2022-09-26T23:47:01+03:00</published><updated>2022-09-26T23:22:46+03:00</updated><id>https://selimslab.github.io/tech/algorithms</id><content type="html" xml:base="https://selimslab.github.io/tech/algorithms/"><![CDATA[<ul>
     
         <li>
             <a href="/algorithms/arr/">Array</a>
@@ -64,7 +64,7 @@
             <a href="/algorithms/bst/">Tree, Binary Search Tree</a>
         </li>
     
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[Array Backtrack Bitworks Dijkstra Dynamic Graph Greedy Linked Lists Search Sliding Window Sort Stack, Heap, Queue String Tree Tree Traversals Tree, Binary Search Tree]]></summary></entry><entry><title type="html">Tools 🔨</title><link href="https://selimslab.github.io/tech/tools/" rel="alternate" type="text/html" title="Tools 🔨" /><published>2022-09-26T23:30:43+03:00</published><updated>2022-09-26T21:27:02+03:00</updated><id>https://selimslab.github.io/tech/tools</id><content type="html" xml:base="https://selimslab.github.io/tech/tools/"><![CDATA[<p>Pen</p>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[Array Backtrack Bitworks Dijkstra Dynamic Graph Greedy Linked Lists Search Sliding Window Sort Stack, Heap, Queue String Tree Tree Traversals Tree, Binary Search Tree]]></summary></entry><entry><title type="html">Tools 🔨</title><link href="https://selimslab.github.io/tech/tools/" rel="alternate" type="text/html" title="Tools 🔨" /><published>2022-09-26T23:47:01+03:00</published><updated>2022-09-26T21:27:02+03:00</updated><id>https://selimslab.github.io/tech/tools</id><content type="html" xml:base="https://selimslab.github.io/tech/tools/"><![CDATA[<p>Pen</p>
 
 <p>Paper</p>
 
@@ -80,7 +80,7 @@
 
 <hr />
 
-<p><a href="https://news.ycombinator.com/item?id=23468193">Ask HN: Which tools have made you a much better programmer? - Hacker News</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Pen]]></summary></entry><entry><title type="html">Stack exchange 🔖</title><link href="https://selimslab.github.io/tech/stx/" rel="alternate" type="text/html" title="Stack exchange 🔖" /><published>2022-09-26T23:30:43+03:00</published><updated>2022-09-26T21:27:02+03:00</updated><id>https://selimslab.github.io/tech/stx</id><content type="html" xml:base="https://selimslab.github.io/tech/stx/"><![CDATA[<p>sorted by votes</p>
+<p><a href="https://news.ycombinator.com/item?id=23468193">Ask HN: Which tools have made you a much better programmer? - Hacker News</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Pen]]></summary></entry><entry><title type="html">Stack exchange 🔖</title><link href="https://selimslab.github.io/tech/stx/" rel="alternate" type="text/html" title="Stack exchange 🔖" /><published>2022-09-26T23:47:01+03:00</published><updated>2022-09-26T21:27:02+03:00</updated><id>https://selimslab.github.io/tech/stx</id><content type="html" xml:base="https://selimslab.github.io/tech/stx/"><![CDATA[<p>sorted by votes</p>
 
 <p><a href="https://stackexchange.com/sites#">All Sites</a></p>
 
@@ -116,7 +116,7 @@
 
 <p><a href="https://superuser.com/questions?sort=votes">Super User</a></p>
 
-<p><a href="https://ux.stackexchange.com/questions?sort=votes">User Experience</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[sorted by votes]]></summary></entry><entry><title type="html">SRE</title><link href="https://selimslab.github.io/tech/sre/" rel="alternate" type="text/html" title="SRE" /><published>2022-09-26T23:30:43+03:00</published><updated>2022-09-26T23:22:46+03:00</updated><id>https://selimslab.github.io/tech/sre</id><content type="html" xml:base="https://selimslab.github.io/tech/sre/"><![CDATA[<p>ideas from Google SRE book</p>
+<p><a href="https://ux.stackexchange.com/questions?sort=votes">User Experience</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[sorted by votes]]></summary></entry><entry><title type="html">SRE</title><link href="https://selimslab.github.io/tech/sre/" rel="alternate" type="text/html" title="SRE" /><published>2022-09-26T23:47:01+03:00</published><updated>2022-09-26T23:22:46+03:00</updated><id>https://selimslab.github.io/tech/sre</id><content type="html" xml:base="https://selimslab.github.io/tech/sre/"><![CDATA[<p>ideas from Google SRE book</p>
 
 <hr />
 
@@ -183,7 +183,7 @@
   <li>The basis is agreed upon in advance</li>
   <li>Any assumption are explicitly stated</li>
   <li>Data driven over feelings and opinions</li>
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[ideas from Google SRE book]]></summary></entry><entry><title type="html">SOLID</title><link href="https://selimslab.github.io/tech/solid/" rel="alternate" type="text/html" title="SOLID" /><published>2022-09-26T23:30:43+03:00</published><updated>2022-09-21T22:50:29+03:00</updated><id>https://selimslab.github.io/tech/solid</id><content type="html" xml:base="https://selimslab.github.io/tech/solid/"><![CDATA[<p>Single responsibility</p>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[ideas from Google SRE book]]></summary></entry><entry><title type="html">SOLID</title><link href="https://selimslab.github.io/tech/solid/" rel="alternate" type="text/html" title="SOLID" /><published>2022-09-26T23:47:01+03:00</published><updated>2022-09-21T22:50:29+03:00</updated><id>https://selimslab.github.io/tech/solid</id><content type="html" xml:base="https://selimslab.github.io/tech/solid/"><![CDATA[<p>Single responsibility</p>
 
 <p>Do one thing, and do it well</p>
 
@@ -214,7 +214,7 @@ the program should still work correctly.</p>
 
 <p>Dependency Inversion</p>
 
-<p>Provide dependencies from outside because it makes testing easier, and modularity</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Single responsibility]]></summary></entry><entry><title type="html">Software Security 🔐</title><link href="https://selimslab.github.io/tech/software-security/" rel="alternate" type="text/html" title="Software Security 🔐" /><published>2022-09-26T23:30:43+03:00</published><updated>2022-09-26T21:27:02+03:00</updated><id>https://selimslab.github.io/tech/software-security</id><content type="html" xml:base="https://selimslab.github.io/tech/software-security/"><![CDATA[<p>Prevent problems before they happen</p>
+<p>Provide dependencies from outside because it makes testing easier, and modularity</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Single responsibility]]></summary></entry><entry><title type="html">Software Security 🔐</title><link href="https://selimslab.github.io/tech/software-security/" rel="alternate" type="text/html" title="Software Security 🔐" /><published>2022-09-26T23:47:01+03:00</published><updated>2022-09-26T21:27:02+03:00</updated><id>https://selimslab.github.io/tech/software-security</id><content type="html" xml:base="https://selimslab.github.io/tech/software-security/"><![CDATA[<p>Prevent problems before they happen</p>
 
 <p>What can go wrong?</p>
 
@@ -228,7 +228,7 @@ the program should still work correctly.</p>
 
 <p>Isolate</p>
 
-<p>Don’t try to roll your own security solutions, it’s a community effort</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Prevent problems before they happen]]></summary></entry><entry><title type="html">Projects</title><link href="https://selimslab.github.io/tech/projects/" rel="alternate" type="text/html" title="Projects" /><published>2022-09-26T23:30:43+03:00</published><updated>2022-09-26T22:45:04+03:00</updated><id>https://selimslab.github.io/tech/projects</id><content type="html" xml:base="https://selimslab.github.io/tech/projects/"><![CDATA[<ul>
+<p>Don’t try to roll your own security solutions, it’s a community effort</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Prevent problems before they happen]]></summary></entry><entry><title type="html">Projects</title><link href="https://selimslab.github.io/tech/projects/" rel="alternate" type="text/html" title="Projects" /><published>2022-09-26T23:47:01+03:00</published><updated>2022-09-26T22:45:04+03:00</updated><id>https://selimslab.github.io/tech/projects</id><content type="html" xml:base="https://selimslab.github.io/tech/projects/"><![CDATA[<ul>
     
         <li>
             <a href="/projects/gc/">A garbage collector in C from scratch</a>
@@ -262,7 +262,7 @@ the program should still work correctly.</p>
             <a href="/projects/block/">Tiny blockchain in 100 lines</a>
         </li>
     
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[A garbage collector in C from scratch A hash table in C from scratch A search engine with page rank, in 200 lines An interpreter in Python for a subset of PASCAL Logos, a toy operating system kernel from scratch Predict movie genres using ML classifiers Principal Component Analysis Tiny blockchain in 100 lines]]></summary></entry><entry><title type="html">TCP/IP Model vs OSI Model 🌐</title><link href="https://selimslab.github.io/tech/network-layers/" rel="alternate" type="text/html" title="TCP/IP Model vs OSI Model 🌐" /><published>2022-09-26T23:30:43+03:00</published><updated>2022-09-26T21:27:02+03:00</updated><id>https://selimslab.github.io/tech/network-layers</id><content type="html" xml:base="https://selimslab.github.io/tech/network-layers/"><![CDATA[<h2 id="tcpip-model">TCP/IP Model</h2>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[A garbage collector in C from scratch A hash table in C from scratch A search engine with page rank, in 200 lines An interpreter in Python for a subset of PASCAL Logos, a toy operating system kernel from scratch Predict movie genres using ML classifiers Principal Component Analysis Tiny blockchain in 100 lines]]></summary></entry><entry><title type="html">TCP/IP Model vs OSI Model 🌐</title><link href="https://selimslab.github.io/tech/network-layers/" rel="alternate" type="text/html" title="TCP/IP Model vs OSI Model 🌐" /><published>2022-09-26T23:47:01+03:00</published><updated>2022-09-26T21:27:02+03:00</updated><id>https://selimslab.github.io/tech/network-layers</id><content type="html" xml:base="https://selimslab.github.io/tech/network-layers/"><![CDATA[<h2 id="tcpip-model">TCP/IP Model</h2>
 
 <p>Application</p>
 
@@ -322,7 +322,7 @@ the program should still work correctly.</p>
 
 <p>Wifi</p>
 
-<p>Wire</p>]]></content><author><name></name></author><summary type="html"><![CDATA[TCP/IP Model]]></summary></entry><entry><title type="html">Nature vs tech 🍃</title><link href="https://selimslab.github.io/tech/natural-tech/" rel="alternate" type="text/html" title="Nature vs tech 🍃" /><published>2022-09-26T23:30:43+03:00</published><updated>2022-09-26T21:27:02+03:00</updated><id>https://selimslab.github.io/tech/natural-tech</id><content type="html" xml:base="https://selimslab.github.io/tech/natural-tech/"><![CDATA[<p>Tech blends into the reality as it matures</p>
+<p>Wire</p>]]></content><author><name></name></author><summary type="html"><![CDATA[TCP/IP Model]]></summary></entry><entry><title type="html">Nature vs tech 🍃</title><link href="https://selimslab.github.io/tech/natural-tech/" rel="alternate" type="text/html" title="Nature vs tech 🍃" /><published>2022-09-26T23:47:01+03:00</published><updated>2022-09-26T21:27:02+03:00</updated><id>https://selimslab.github.io/tech/natural-tech</id><content type="html" xml:base="https://selimslab.github.io/tech/natural-tech/"><![CDATA[<p>Tech blends into the reality as it matures</p>
 
 <p>We evolved to use our hands and eyes,</p>
 
@@ -338,7 +338,7 @@ the program should still work correctly.</p>
 
 <p><a href="https://blog.google/technology/research/project-starline/">https://blog.google/technology/research/project-starline/</a></p>
 
-<p><a href="https://ciechanow.ski/mechanical-watch/">https://ciechanow.ski/mechanical-watch/</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Tech blends into the reality as it matures]]></summary></entry><entry><title type="html">Links for makers</title><link href="https://selimslab.github.io/tech/makers/" rel="alternate" type="text/html" title="Links for makers" /><published>2022-09-26T23:30:43+03:00</published><updated>2022-09-26T20:57:22+03:00</updated><id>https://selimslab.github.io/tech/makers</id><content type="html" xml:base="https://selimslab.github.io/tech/makers/"><![CDATA[<h2 id="lists">Lists</h2>
+<p><a href="https://ciechanow.ski/mechanical-watch/">https://ciechanow.ski/mechanical-watch/</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Tech blends into the reality as it matures]]></summary></entry><entry><title type="html">Links for makers</title><link href="https://selimslab.github.io/tech/makers/" rel="alternate" type="text/html" title="Links for makers" /><published>2022-09-26T23:47:01+03:00</published><updated>2022-09-26T20:57:22+03:00</updated><id>https://selimslab.github.io/tech/makers</id><content type="html" xml:base="https://selimslab.github.io/tech/makers/"><![CDATA[<h2 id="lists">Lists</h2>
 
 <p><a href="http://aosabook.org/en/500L/">500 Lines or Less</a></p>
 
