@@ -34,8 +34,8 @@ const urls = [
   "/"
 ];
 
-const strategy = new StaleWhileRevalidate();
-warmStrategyCache({urls, strategy});
+const staleWhileRevalidateStrategy = new StaleWhileRevalidate();
+warmStrategyCache({urls, staleWhileRevalidateStrategy});
 
 registerRoute(
   ({request}) => request.destination === 'image' ,
@@ -51,31 +51,14 @@ registerRoute(
   new NetworkFirst()
 );
 
-
 registerRoute(
-  new RegExp('\/essais\/.+'),
-  strategy
+  new RegExp('\/.+\/'),
+  staleWhileRevalidateStrategy
 );
 
 registerRoute(
-  new RegExp('\/tech\/.+'),
-  strategy
-);
-
-registerRoute(
-  new RegExp('\/algorithms\/.+'),
-  strategy
-);
-
-registerRoute(
-  new RegExp('\/projects\/.+'),
-  strategy
-);
-
-
-registerRoute(
-  new RegExp('\/assets\/.+'),
-  strategy
+  new RegExp('\/^(static)\/.+'),
+  staleWhileRevalidateStrategy
 );
 
 registerRoute(
