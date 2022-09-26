@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Books
+title: Books 📚
 ---
 
 

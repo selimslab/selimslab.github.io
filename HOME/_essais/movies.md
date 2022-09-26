@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Movies   
+title: Movies 🎬
 ---
 
 
