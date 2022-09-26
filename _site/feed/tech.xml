@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://selimslab.github.io/feed/tech.xml" rel="self" type="application/atom+xml" /><link href="https://selimslab.github.io/" rel="alternate" type="text/html" /><updated>2022-09-26T20:56:50+03:00</updated><id>https://selimslab.github.io/feed/tech.xml</id><title type="html">notes | Tech</title><subtitle>bicycle for the mind</subtitle><entry><title type="html">Algorithms</title><link href="https://selimslab.github.io/tech/algo/" rel="alternate" type="text/html" title="Algorithms" /><published>2022-09-26T20:56:50+03:00</published><updated>2022-09-26T18:22:42+03:00</updated><id>https://selimslab.github.io/tech/algo</id><content type="html" xml:base="https://selimslab.github.io/tech/algo/"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://selimslab.github.io/feed/tech.xml" rel="self" type="application/atom+xml" /><link href="https://selimslab.github.io/" rel="alternate" type="text/html" /><updated>2022-09-26T21:26:34+03:00</updated><id>https://selimslab.github.io/feed/tech.xml</id><title type="html">notes | Tech</title><subtitle>bicycle for the mind</subtitle><entry><title type="html">Algorithms ⚙️</title><link href="https://selimslab.github.io/tech/algo/" rel="alternate" type="text/html" title="Algorithms ⚙️" /><published>2022-09-26T21:26:34+03:00</published><updated>2022-09-26T18:22:42+03:00</updated><id>https://selimslab.github.io/tech/algo</id><content type="html" xml:base="https://selimslab.github.io/tech/algo/"><![CDATA[<ul>
     
         <li>
             <a href="/algo/arr/">Array</a>
@@ -64,7 +64,7 @@
             <a href="/algo/bst/">Tree, Binary Search Tree</a>
         </li>
     
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[Array Backtrack Bitworks Dijkstra Dynamic Graph Greedy Linked Lists Search Sliding Window Sort Stack, Heap, Queue String Tree Tree Traversals Tree, Binary Search Tree]]></summary></entry><entry><title type="html">Tools</title><link href="https://selimslab.github.io/tech/tools/" rel="alternate" type="text/html" title="Tools" /><published>2022-09-26T20:56:50+03:00</published><updated>2022-09-26T18:55:19+03:00</updated><id>https://selimslab.github.io/tech/tools</id><content type="html" xml:base="https://selimslab.github.io/tech/tools/"><![CDATA[<p>Pen</p>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[Array Backtrack Bitworks Dijkstra Dynamic Graph Greedy Linked Lists Search Sliding Window Sort Stack, Heap, Queue String Tree Tree Traversals Tree, Binary Search Tree]]></summary></entry><entry><title type="html">Tools 🔨</title><link href="https://selimslab.github.io/tech/tools/" rel="alternate" type="text/html" title="Tools 🔨" /><published>2022-09-26T21:26:34+03:00</published><updated>2022-09-26T20:57:22+03:00</updated><id>https://selimslab.github.io/tech/tools</id><content type="html" xml:base="https://selimslab.github.io/tech/tools/"><![CDATA[<p>Pen</p>
 
 <p>Paper</p>
 
@@ -80,7 +80,7 @@
 
 <hr />
 
-<p><a href="https://news.ycombinator.com/item?id=23468193">Ask HN: Which tools have made you a much better programmer? - Hacker News</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Pen]]></summary></entry><entry><title type="html">Stack exchange</title><link href="https://selimslab.github.io/tech/stx/" rel="alternate" type="text/html" title="Stack exchange" /><published>2022-09-26T20:56:50+03:00</published><updated>2022-09-26T20:40:06+03:00</updated><id>https://selimslab.github.io/tech/stx</id><content type="html" xml:base="https://selimslab.github.io/tech/stx/"><![CDATA[<p>sorted by votes</p>
+<p><a href="https://news.ycombinator.com/item?id=23468193">Ask HN: Which tools have made you a much better programmer? - Hacker News</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Pen]]></summary></entry><entry><title type="html">Stack exchange 🔖</title><link href="https://selimslab.github.io/tech/stx/" rel="alternate" type="text/html" title="Stack exchange 🔖" /><published>2022-09-26T21:26:34+03:00</published><updated>2022-09-26T20:57:22+03:00</updated><id>https://selimslab.github.io/tech/stx</id><content type="html" xml:base="https://selimslab.github.io/tech/stx/"><![CDATA[<p>sorted by votes</p>
 
 <p><a href="https://stackexchange.com/sites#">All Sites</a></p>
 
@@ -116,7 +116,7 @@
 
 <p><a href="https://superuser.com/questions?sort=votes">Super User</a></p>
 
-<p><a href="https://ux.stackexchange.com/questions?sort=votes">User Experience</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[sorted by votes]]></summary></entry><entry><title type="html">SRE</title><link href="https://selimslab.github.io/tech/sre/" rel="alternate" type="text/html" title="SRE" /><published>2022-09-26T20:56:50+03:00</published><updated>2022-09-26T18:37:40+03:00</updated><id>https://selimslab.github.io/tech/sre</id><content type="html" xml:base="https://selimslab.github.io/tech/sre/"><![CDATA[<p>ideas from Google SRE book</p>
+<p><a href="https://ux.stackexchange.com/questions?sort=votes">User Experience</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[sorted by votes]]></summary></entry><entry><title type="html">SRE</title><link href="https://selimslab.github.io/tech/sre/" rel="alternate" type="text/html" title="SRE" /><published>2022-09-26T21:26:34+03:00</published><updated>2022-09-26T18:37:40+03:00</updated><id>https://selimslab.github.io/tech/sre</id><content type="html" xml:base="https://selimslab.github.io/tech/sre/"><![CDATA[<p>ideas from Google SRE book</p>
 
 <hr />
 
@@ -183,7 +183,7 @@
   <li>The basis is agreed upon in advance</li>
   <li>Any assumption are explicitly stated</li>
   <li>Data driven over feelings and opinions</li>
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[ideas from Google SRE book]]></summary></entry><entry><title type="html">SOLID</title><link href="https://selimslab.github.io/tech/solid/" rel="alternate" type="text/html" title="SOLID" /><published>2022-09-26T20:56:50+03:00</published><updated>2022-09-21T22:50:29+03:00</updated><id>https://selimslab.github.io/tech/solid</id><content type="html" xml:base="https://selimslab.github.io/tech/solid/"><![CDATA[<p>Single responsibility</p>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[ideas from Google SRE book]]></summary></entry><entry><title type="html">SOLID</title><link href="https://selimslab.github.io/tech/solid/" rel="alternate" type="text/html" title="SOLID" /><published>2022-09-26T21:26:34+03:00</published><updated>2022-09-21T22:50:29+03:00</updated><id>https://selimslab.github.io/tech/solid</id><content type="html" xml:base="https://selimslab.github.io/tech/solid/"><![CDATA[<p>Single responsibility</p>
 
 <p>Do one thing, and do it well</p>
 
@@ -214,7 +214,7 @@ the program should still work correctly.</p>
 
 <p>Dependency Inversion</p>
 
-<p>Provide dependencies from outside because it makes testing easier, and modularity</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Single responsibility]]></summary></entry><entry><title type="html">Software Security</title><link href="https://selimslab.github.io/tech/software-security/" rel="alternate" type="text/html" title="Software Security" /><published>2022-09-26T20:56:50+03:00</published><updated>2022-09-21T19:13:22+03:00</updated><id>https://selimslab.github.io/tech/software-security</id><content type="html" xml:base="https://selimslab.github.io/tech/software-security/"><![CDATA[<p>Prevent problems before they happen</p>
+<p>Provide dependencies from outside because it makes testing easier, and modularity</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Single responsibility]]></summary></entry><entry><title type="html">Software Security 🔐</title><link href="https://selimslab.github.io/tech/software-security/" rel="alternate" type="text/html" title="Software Security 🔐" /><published>2022-09-26T21:26:34+03:00</published><updated>2022-09-21T19:13:22+03:00</updated><id>https://selimslab.github.io/tech/software-security</id><content type="html" xml:base="https://selimslab.github.io/tech/software-security/"><![CDATA[<p>Prevent problems before they happen</p>
 
 <p>What can go wrong?</p>
 
@@ -228,65 +228,7 @@ the program should still work correctly.</p>
 
 <p>Isolate</p>
 
-<p>Don’t try to roll your own security solutions, it’s a community effort</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Prevent problems before they happen]]></summary></entry><entry><title type="html">Liked readings</title><link href="https://selimslab.github.io/tech/readings/" rel="alternate" type="text/html" title="Liked readings" /><published>2022-09-26T20:56:50+03:00</published><updated>2022-09-26T20:15:18+03:00</updated><id>https://selimslab.github.io/tech/readings</id><content type="html" xml:base="https://selimslab.github.io/tech/readings/"><![CDATA[<p><a href="https://news.ycombinator.com/item?id=22918980">Ask HN: I’m a software engineer going blind, how should I prepare? - Hacker News</a></p>
-
-<p><a href="http://jsomers.net/hn/">The Hacker Classics</a></p>
-
-<p><a href="https://volument.com/blog/minimalism-the-most-undervalued-development-skill">Minimalism — An undervalued development skill</a></p>
-
-<p><a href="https://endler.dev/2020/folklore/">Hacker Folklore - Matthias Endler</a></p>
-
-<p><a href="http://antirez.com/news/112">The mythical 10x programmer by antirez</a></p>
-
-<p><a href="https://github.com/dwmkerr/hacker-laws">hacker laws</a></p>
-
-<p><a href="https://mcfunley.com/choose-boring-technology">Dan McKinley :: Choose Boring Technology</a></p>
-
-<p><a href="https://blog.juliobiason.me/thoughts/things-i-learnt-the-hard-way/">Julio Biason .Net 4.1 - Things I Learnt The Hard Way (in 30 Years of Software Development)</a></p>
-
-<p><a href="https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/">The Ten Commandments of Egoless Programming</a></p>
-
-<p><a href="https://josebrowne.com/on-coding-ego-and-attention/">On Coding, Ego and Attention</a></p>
-
-<p><a href="https://henrikwarne.com/2015/04/16/lessons-learned-in-software-development/">Lessons Learned in Software Development</a></p>
-
-<p><a href="https://danluu.com/sounds-easy/">I could do that in a weekend!</a></p>
-
-<p><a href="https://instadeq.com/blog/posts/things-end-users-care-about-but-programmers-dont/">Things end users care about but programmers don’t - Instadeq Blog</a></p>
-
-<p><a href="https://psgraphics.blogspot.com/2019/09/how-to-succeed-as-poor-programmer.html?m=1">Pete Shirley’s Graphics Blog: How to succeed as a poor programmer</a></p>
-
-<p><a href="https://muldoon.cloud/programming/2020/04/17/programming-rules-thumb.html">Rules of thumb for a 1x developer - The Other Mickey Wiki</a></p>
-
-<p><a href="https://calmtech.com/">Calm Technology</a></p>
-
-<p><a href="https://medium.com/thrive-global/how-technology-hijacks-peoples-minds-from-a-magician-and-google-s-design-ethicist-56d62ef5edf3">How Technology is Hijacking Your Mind — from a Magician and Google Design Ethicist</a></p>
-
-<p><a href="https://www.simplethread.com/20-things-ive-learned-in-my-20-years-as-a-software-enginee">https://www.simplethread.com/20-things-ive-learned-in-my-20-years-as-a-software-enginee</a></p>
-
-<p><a href="https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/">The Joel Test: 12 Steps to Better Code – Joel on Software</a></p>
-
-<p><a href="https://www.vincit.fi/fi/software-development-450-words-per-minute/">Software development 450 words per minute – Vincit</a></p>
-
-<p><a href="https://www.csc.gov.sg/articles/how-to-build-good-software">How to Build Good Software</a></p>
-
-<p><a href="https://queue.acm.org/detail.cfm?ref=rss&amp;id=3375635">API Practices If You Hate Your Customers - ACM Queue</a></p>
-
-<p><a href="https://www.bitlog.com/2020/02/12/why-are-we-so-bad-at-software-engineering/">Why are we so bad at software engineering? - www.bitlog.com</a></p>
-
-<p><a href="https://spacecraft.ssl.umd.edu/akins_laws.html">Akin’s Laws of Spacecraft Design</a></p>
-
-<p><a href="https://blog.prototypr.io/design-driven-development-36a30dd8088c">Design Driven Development — Using Design as a Tool for Teamwork</a></p>
-
-<p><a href="https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/">Things You Should Never Do, Part I – Joel on Software</a></p>
-
-<p><a href="https://martinfowler.com/articles/is-quality-worth-cost.html">Is High Quality Software Worth the Cost?</a></p>
-
-<p><a href="http://nsaphra.github.io/post/hands/">What Does a Coder Do If They Can’t Type? - Objective Funk</a></p>
-
-<p><a href="https://idlewords.com/talks/web_design_first_100_years.htm">Web Design - The First 100 Years</a></p>
-
-<p><a href="http://computers-are-fast.github.io/">One second code: Do YOU know how much your computer can do in a second?</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Ask HN: I’m a software engineer going blind, how should I prepare? - Hacker News]]></summary></entry><entry><title type="html">Projects</title><link href="https://selimslab.github.io/tech/projects/" rel="alternate" type="text/html" title="Projects" /><published>2022-09-26T20:56:50+03:00</published><updated>2022-09-26T18:26:40+03:00</updated><id>https://selimslab.github.io/tech/projects</id><content type="html" xml:base="https://selimslab.github.io/tech/projects/"><![CDATA[<ul>
+<p>Don’t try to roll your own security solutions, it’s a community effort</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Prevent problems before they happen]]></summary></entry><entry><title type="html">Projects 💼</title><link href="https://selimslab.github.io/tech/projects/" rel="alternate" type="text/html" title="Projects 💼" /><published>2022-09-26T21:26:34+03:00</published><updated>2022-09-26T18:26:40+03:00</updated><id>https://selimslab.github.io/tech/projects</id><content type="html" xml:base="https://selimslab.github.io/tech/projects/"><![CDATA[<ul>
     
         <li>
             <a href="/projects/gc/">A garbage collector in C from scratch</a>
@@ -320,7 +262,7 @@ the program should still work correctly.</p>
             <a href="/projects/block/">Tiny blockchain in 100 lines</a>
         </li>
     
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[A garbage collector in C from scratch A hash table in C from scratch A search engine with page rank, in 200 lines An interpreter in Python for a subset of PASCAL Logos, a very basic operating system kernel from scratch Predict movie genres using ML classifiers Principal Component Analysis Tiny blockchain in 100 lines]]></summary></entry><entry><title type="html">TCP/IP Model vs OSI Model</title><link href="https://selimslab.github.io/tech/network-layers/" rel="alternate" type="text/html" title="TCP/IP Model vs OSI Model" /><published>2022-09-26T20:56:50+03:00</published><updated>2022-09-23T13:23:05+03:00</updated><id>https://selimslab.github.io/tech/network-layers</id><content type="html" xml:base="https://selimslab.github.io/tech/network-layers/"><![CDATA[<h2 id="tcpip-model">TCP/IP Model</h2>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[A garbage collector in C from scratch A hash table in C from scratch A search engine with page rank, in 200 lines An interpreter in Python for a subset of PASCAL Logos, a very basic operating system kernel from scratch Predict movie genres using ML classifiers Principal Component Analysis Tiny blockchain in 100 lines]]></summary></entry><entry><title type="html">TCP/IP Model vs OSI Model 🌐</title><link href="https://selimslab.github.io/tech/network-layers/" rel="alternate" type="text/html" title="TCP/IP Model vs OSI Model 🌐" /><published>2022-09-26T21:26:34+03:00</published><updated>2022-09-23T13:23:05+03:00</updated><id>https://selimslab.github.io/tech/network-layers</id><content type="html" xml:base="https://selimslab.github.io/tech/network-layers/"><![CDATA[<h2 id="tcpip-model">TCP/IP Model</h2>
 
 <p>Application</p>
 
@@ -380,7 +322,7 @@ the program should still work correctly.</p>
 
 <p>Wifi</p>
 
-<p>Wire</p>]]></content><author><name></name></author><summary type="html"><![CDATA[TCP/IP Model]]></summary></entry><entry><title type="html">Nature vs tech</title><link href="https://selimslab.github.io/tech/natural-tech/" rel="alternate" type="text/html" title="Nature vs tech" /><published>2022-09-26T20:56:50+03:00</published><updated>2022-09-21T19:13:22+03:00</updated><id>https://selimslab.github.io/tech/natural-tech</id><content type="html" xml:base="https://selimslab.github.io/tech/natural-tech/"><![CDATA[<p>Tech blends into the reality as it matures</p>
+<p>Wire</p>]]></content><author><name></name></author><summary type="html"><![CDATA[TCP/IP Model]]></summary></entry><entry><title type="html">Nature vs tech 🍃</title><link href="https://selimslab.github.io/tech/natural-tech/" rel="alternate" type="text/html" title="Nature vs tech 🍃" /><published>2022-09-26T21:26:34+03:00</published><updated>2022-09-21T19:13:22+03:00</updated><id>https://selimslab.github.io/tech/natural-tech</id><content type="html" xml:base="https://selimslab.github.io/tech/natural-tech/"><![CDATA[<p>Tech blends into the reality as it matures</p>
 
 <p>We evolved to use our hands and eyes,</p>
 
@@ -396,4 +338,150 @@ the program should still work correctly.</p>
 
 <p><a href="https://blog.google/technology/research/project-starline/">https://blog.google/technology/research/project-starline/</a></p>
 
-<p><a href="https://ciechanow.ski/mechanical-watch/">https://ciechanow.ski/mechanical-watch/</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Tech blends into the reality as it matures]]></summary></entry></feed>
+<p><a href="https://ciechanow.ski/mechanical-watch/">https://ciechanow.ski/mechanical-watch/</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Tech blends into the reality as it matures]]></summary></entry><entry><title type="html">Links for makers</title><link href="https://selimslab.github.io/tech/makers/" rel="alternate" type="text/html" title="Links for makers" /><published>2022-09-26T21:26:34+03:00</published><updated>2022-09-26T20:57:22+03:00</updated><id>https://selimslab.github.io/tech/makers</id><content type="html" xml:base="https://selimslab.github.io/tech/makers/"><![CDATA[<h2 id="lists">Lists</h2>
+
+<p><a href="http://aosabook.org/en/500L/">500 Lines or Less</a></p>
+
+<p><a href="https://github.com/tuvtran/project-based-learning">tuvtran/project-based-learning: Curated list of project-based tutorials</a></p>
+
+<p><a href="https://github.com/danistefanovic/build-your-own-x#build-your-own-web-server">danistefanovic/build-your-own-x: 🤓 Build your own (insert technology here)</a></p>
+
+<p><a href="http://web.eecs.utk.edu/~azh/blog/challengingprojects.html">Challenging projects every programmer should try</a></p>
+
+<h2 id="web">web</h2>
+
+<p><a href="https://blog.phuaxueyong.com/post/2020-06-15-how-to-make-a-video-chat-app/">How do you create a video chat application?</a></p>
+
+<p><a href="https://ruslanspivak.com/lsbaws-part1/">Let’s Build A Web Server. Part 1. - Ruslan’s Blog</a></p>
+
+<p><a href="https://ruslanspivak.com/lsbaws-part3/">Let’s Build A Web Server. Part 3. - Ruslan’s Blog</a></p>
+
+<p><a href="https://kasvith.me/posts/lets-create-a-simple-lb-go/">Let’s Create a Simple Load Balancer With Go - kasvith.me - a personal blog space</a></p>
+
+<p><a href="http://joaoventura.net/blog/2017/python-webserver/">http server</a></p>
+
+<p><a href="https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/">Introduction · Build web application with Golang</a></p>
+
+<p><a href="https://golang.org/doc/articles/wiki/">Writing Web Applications - The Go Programming Language</a></p>
+
+<p><a href="https://sheharyar.me/blog/simple-chat-phoenix-elixir/">Building a Simple Chat App With Elixir and Phoenix - Sheharyar Naseer</a></p>
+
+<p><a href="https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/03.4.html">Get into http package · Build web application with Golang</a></p>
+
+<p><a href="https://blog.jse.li/posts/torrent/">Building a BitTorrent client from the ground up in Go - Jesse Li</a></p>
+
+<p><a href="https://wattenberger.com/blog/react-hooks">Thinking in React Hooks</a></p>
+
+<h2 id="containers">containers</h2>
+
+<p><a href="https://unixism.net/2020/06/containers-the-hard-way-gocker-a-mini-docker-written-in-go/">Containers the hard way: Gocker: A mini Docker written in Go - Unixism</a></p>
+
+<p><a href="https://zserge.com/posts/containers/">Linux containers in a few lines of code</a></p>
+
+<h1 id="languages">languages</h1>
+
+<p><a href="https://zserge.com/posts/jvm/">How to write a (toy) JVM</a></p>
+
+<p><a href="http://web.eecs.utk.edu/~azh/blog/teenytinycompiler2.html">Let’s make a Teeny Tiny compiler, part 2 - Austin Z. Henley</a></p>
+
+<p><a href="https://www.roguelynn.com/words/asyncio-we-did-it-wrong/">asyncio: We Did It Wrong – roguelynn</a></p>
+
+<p><a href="http://journal.stuffwithstuff.com/2013/12/08/babys-first-garbage-collector/">Baby’s First Garbage Collector – journal.stuffwithstuff.com</a></p>
+
+<h2 id="compilers">compilers</h2>
+
+<p><a href="https://increment.com/programming-languages/crash-course-in-compilers/">A crash course in compilers – Increment: Programming Languages</a></p>
+
+<p><a href="http://llvm.org/docs/tutorial/MyFirstLanguageFrontend/index.html">My First Language Frontend with LLVM Tutorial — LLVM 10 documentation</a></p>
+
+<p><a href="http://llvm.org/docs/tutorial/MyFirstLanguageFrontend/LangImpl01.html">Kaleidoscope: Kaleidoscope Introduction and the Lexer — LLVM 10 documentation</a></p>
+
+<p><a href="https://github.com/kanaka/mal/tree/master/impls/python">mal/impls/python at master · kanaka/mal</a></p>
+
+<p><a href="https://inf.ethz.ch/personal/wirth/CompilerConstruction/index.html">Compiler Construction</a></p>
+
+<p><a href="https://belkadan.com/blog/2016/05/So-You-Want-To-Be-A-Compiler-Wizard/">So You Want to Be a (Compiler) Wizard // -dealloc</a></p>
+
+<p><a href="https://nicoleorchard.com/blog/compilers">Nicole Orchard</a></p>
+
+<h2 id="interpreters">Interpreters</h2>
+
+<p><a href="https://github.com/kanaka/mal#mal---make-a-lisp">kanaka/mal: mal - Make a Lisp</a></p>
+
+<p><a href="http://craftinginterpreters.com/a-map-of-the-territory.html">A Map of the Territory · Crafting Interpreters</a></p>
+
+<p><a href="http://norvig.com/lispy.html">(How to Write a (Lisp) Interpreter (in Python))</a></p>
+
+<p><a href="https://ruslanspivak.com/lsbasi-part11/">Let’s Build A Simple Interpreter. Part 11. - Ruslan’s Blog</a></p>
+
+<p><a href="http://norvig.com/lispy2.html">(An ((Even Better) Lisp) Interpreter (in Python))</a></p>
+
+<p><a href="https://github.com/robpike/lisp">robpike/lisp: Toy Lisp 1.5 interpreter</a></p>
+
+<h3 id="os">OS</h3>
+
+<p><a href="https://github.com/luisfmcalado/MiniOS/tree/master/kernel">MiniOS/kernel at master · luisfmcalado/MiniOS</a></p>
+
+<p><a href="https://os.phil-opp.com/">Writing an OS in Rust</a></p>
+
+<p><a href="https://indradhanush.github.io/blog/writing-a-unix-shell-part-1/">Writing a Unix Shell - Part I – Cracking The Code</a></p>
+
+<h3 id="network">network</h3>
+
+<p><a href="https://github.com/saminiir/level-ip">saminiir/level-ip: A hacker’s userspace TCP/IP stack</a></p>
+
+<p><a href="https://codelabs.developers.google.com/codelabs/webrtc-web/#0">Real time communication with WebRTC</a></p>
+
+<h3 id="computer-graphics">computer graphics</h3>
+
+<p><a href="https://github.com/ssloy/tinyrenderer">ssloy/tinyrenderer: A brief computer graphics / rendering course</a></p>
+
+<p><a href="https://www.scratchapixel.com/index.php">Scratchapixel</a></p>
+
+<p><a href="https://blog.bruce-hill.com/6-useful-snippets">6 Useful Snippets</a></p>
+
+<h2 id="systems">systems</h2>
+
+<p><a href="https://arjunsreedharan.org/post/148675821737/memory-allocators-101-write-a-simple-memory">Memory Allocators 101 - Write a simple memory allocator - Arjun Sreedharan</a></p>
+
+<h2 id="browser">browser</h2>
+
+<p><a href="https://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html">Let’s build a browser engine! Part 1: Getting started</a></p>
+
+<h2 id="git">git</h2>
+
+<p><a href="https://wyag.thb.lt/">Write yourself a Git!</a></p>
+
+<h2 id="databases">databases</h2>
+
+<p><a href="https://notes.eatonphil.com/database-basics.html">Database basics: writing a SQL database from scratch in Go - notes.eatonphil.com</a></p>
+
+<p><a href="https://www.mikealche.com/software-development/how-to-implement-search-by-color-when-all-you-have-is-a-good-coffee">How to Implement Search By Color When All You Have is A Good Coffee - Mike Alche</a></p>
+
+<h2 id="nlp">NLP</h2>
+
+<p><a href="https://course.spacy.io/en/">Advanced NLP with spaCy · A free online course</a></p>
+
+<h2 id="algorithms">algorithms</h2>
+
+<p><a href="https://www.hackerrank.com/dashboard">hackerrank</a></p>
+
+<h2 id="devops">devops</h2>
+
+<p><a href="https://github.com/snori74/linuxupskillchallenge">snori74/linuxupskillchallenge: Learn the skills required to sysadmin a remote Linux server from the commandline.</a></p>
+
+<h2 id="other">other</h2>
+
+<p><a href="https://norvig.com/spell-correct.html">How to Write a Spelling Corrector</a></p>
+
+<p><a href="https://0x65.dev/blog/2019-12-06/building-a-search-engine-from-scratch.html">Building a search engine from scratch</a></p>
+
+<p><a href="https://www.aosabook.org/en/500L/">Index of /en/500L</a></p>
+
+<p><a href="https://eryb.space/2020/05/27/diving-into-go-by-building-a-cli-application.html">Eryb’s Space</a></p>
+
+<p><a href="https://iknowwhatyoudownload.com/en/peer/?ip=78.175.225.36">Torrent downloads and distributions for IP 78.175.225.36</a></p>
+
+<p><a href="https://0x65.dev/blog/2019-12-07/indexing-billions-of-text-vectors.html">Indexing Billions of Text Vectors</a></p>
+
+<p><a href="https://jameskle.com/writes/rec-sys-part-2">Recommendation System Series Part 2: The 10 Categories of Deep Recommendation Systems That Academic Researchers Should Pay Attention To — James Le</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Lists]]></summary></entry></feed>

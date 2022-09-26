@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A good life  
+title: A good life 🏛️ 
 ---
 
 Some things are in our control and others not

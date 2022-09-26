@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Decisions 
+title: Decisions 💡
 ---
 
 

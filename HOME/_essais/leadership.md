@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Leadership
+title: Leadership 🌱
 ---
 
 You plant the seeds and water them, 

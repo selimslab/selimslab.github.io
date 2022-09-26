@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nature vs tech 
+title: Nature vs tech 🍃 
 ---
 
 Tech blends into the reality as it matures 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Web Security 
+title: Web Security 🔐
 --- 
 
 

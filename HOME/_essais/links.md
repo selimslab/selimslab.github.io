@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Liked readings
+title: Liked readings 🔖
 --- 
 
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TCP/IP Model vs OSI Model
+title: TCP/IP Model vs OSI Model 🌐
 --- 
 
 

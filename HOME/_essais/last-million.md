@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Some events in the last million years 
+title:  Some events in the last million years 🌏
 --- 
 
 Last Common Ancestor Of Humans And Chimps 6M years ago 
