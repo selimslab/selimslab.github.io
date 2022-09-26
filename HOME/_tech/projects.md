@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Some Personal Projects
+title: Projects
 ---
 
 
