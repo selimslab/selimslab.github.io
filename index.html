@@ -10,7 +10,7 @@ layout: default
 
 
 
-    <!-- <ul>
+    <ul>
         <li>
             <a href="/essais">Essais</a>
         </li>
@@ -24,28 +24,9 @@ layout: default
             <a href="/projects">Projects</a>
         </li>
     </ul>
- -->
-
-    <h2>Essais</h2>    
-    {% assign sorted = site.essais | sort: 'title' %}
-    <ul>
-        {% for p in sorted %}
-            <li>
-                <a href="{{ p.url }}">{{ p.title }}</a>
-            </li>
-        {% endfor %}
-    </ul>
 
 
-    {% assign sorted = site.tech | sort: 'title' %}
-    <h2>Tech</h2>
-    <ul>
-        {% for p in sorted %}
-            <li>
-                <a href="{{ p.url }}">{{ p.title }}</a>
-            </li>
-        {% endfor %}
-    </ul>
+
 
 </article>
 

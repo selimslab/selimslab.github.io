@@ -42,8 +42,7 @@ const urls = [
   '/essais/type-faster/',
   '/essais/work/',
   '/essais/write-better/',
-  '/tech/algorithms/',
-    '/tech/beginner/',
+  '/tech/beginner/',
     '/tech/books/',
     '/tech/code-review/',
     '/tech/container/',
@@ -55,7 +54,6 @@ const urls = [
     '/tech/makers/',
     '/tech/natural-tech/',
     '/tech/network-layers/',
-    '/tech/projects/',
     '/tech/software-security/',
     '/tech/solid/',
     '/tech/sre/',
@@ -105,6 +103,7 @@ registerRoute(
   '/',
   new NetworkFirst()
 );
+
 
 registerRoute(
   new RegExp('\/essais\/.+'),

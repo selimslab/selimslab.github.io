@@ -47,6 +47,7 @@ registerRoute(
   new NetworkFirst()
 );
 
+
 registerRoute(
   new RegExp('\/essais\/.+'),
   strategy
