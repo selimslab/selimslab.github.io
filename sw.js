@@ -6,26 +6,29 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox
 const { registerRoute } = workbox.routing;
 const { CacheFirst, NetworkFirst, StaleWhileRevalidate } = workbox.strategies;
 const { CacheableResponse } = workbox.cacheableResponse;
+const {warmStrategyCache} =  workbox.recipes;
 
 workbox.core.setCacheNameDetails({
-  prefix: 'selimslab',
+  prefix: 'notes',
   suffix: '{{ site.time | date: "%Y-%m" }}'
 });
 
 
-workbox.precaching.precache([
+const urls = [
   {% for post in site.essais -%}
-    { url: '{{ post.url }}', revision: '{{ post.last_modified_at }}' },
+  '{{ post.url }}',
   {% endfor -%}
   {% for post in site.tech -%}
-    { url: '{{ post.url }}', revision: '{{ post.last_modified_at }}' },
-  {% endfor -%}
+  '{{ post.url }}',
+    {% endfor -%}
   {% for post in site.algo -%}
-    { url: '{{ post.url }}', revision: '{{ post.last_modified_at }}' },
-  {% endfor -%}
-  { url: '/', revision: '{{ site.time }}' }
-]);
+  '{{ post.url }}',
+    {% endfor -%}
+  "/"
+];
 
+const strategy = new StaleWhileRevalidate();
+warmStrategyCache({urls, strategy});
 
 registerRoute(
   ({request}) => request.destination === 'image' ,
@@ -36,7 +39,6 @@ registerRoute(
   })
 );
 
-
 registerRoute(
   '/',
   new NetworkFirst()
@@ -44,25 +46,15 @@ registerRoute(
 
 
 registerRoute(
-  new RegExp('\/essais\/.+'),
-  new StaleWhileRevalidate()
-);
-registerRoute(
-  new RegExp('\/tech\/.+'),
-  new StaleWhileRevalidate()
-);
-registerRoute(
-  new RegExp('\/algo\/.+'),
-  new StaleWhileRevalidate()
-);
-registerRoute(
   new RegExp('\/links\/.+'),
   new StaleWhileRevalidate()
 );
+
 registerRoute(
   new RegExp('\/projects\/.+'),
   new StaleWhileRevalidate()
 );
+
 registerRoute(
   new RegExp('\/assets\/.+'),
   new StaleWhileRevalidate()
