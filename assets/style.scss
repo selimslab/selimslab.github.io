@@ -41,7 +41,7 @@ body{
 }
 
 .top{
-  height: 2rem;
+  height: 8px;
   background: #373B44;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -178,7 +178,7 @@ html[data-theme='light'] {
   }
 
   .top{
-    height: 12px;
+    height: 8px;
     background: #56CCF2;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
