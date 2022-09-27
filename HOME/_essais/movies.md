@@ -29,6 +29,8 @@ Persona (1966)
 
 The Godfather (1972)
 
+DAGUERRÉOTYPES (1975)
+
 One Flew Over the Cuckoo's Nest (1975)
 
 Amadeus (1984)
@@ -87,8 +89,6 @@ Friends (1994)
 The Office (2005)
 
 Rick and Morty (2013)
-
-The Sandman (2022)
 
 ## Watchlist 
 
