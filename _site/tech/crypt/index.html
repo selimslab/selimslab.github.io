@@ -10,9 +10,9 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
     
-    <meta name="description" content="## Public Key Cryptography
+    <meta name="description" content="A key is a piece of information, usually a string of numbers or letters
 " />
-    <meta property="og:description" content="## Public Key Cryptography
+    <meta property="og:description" content="A key is a piece of information, usually a string of numbers or letters
 " />
     
     
@@ -100,13 +100,11 @@
 
 
 
-<p>## Public Key Cryptography</p>
-
-<p>Public-key, or asymmetric cryptography, is a system that uses pairs of keys based on mathematical one-way functions</p>
+<p>A key is a piece of information, usually a string of numbers or letters</p>
 
 <p>If you use a single key, its symmetric cryptography</p>
 
-<p>A key is a piece of information, usually a string of numbers or letters</p>
+<p>Public-key, or asymmetric cryptography, is a system that uses pairs of keys based on mathematical one-way functions</p>
 
 <hr />
 
@@ -148,7 +146,7 @@
 
 <h2 id="certificates">Certificates</h2>
 
-<p>In reality, you trust some entity, and it trusts others, so its turtles all the way down</p>
+<p>In reality, you trust some entity, and it trusts others</p>
 
 <p>For example, imagine you visit a website claiming to be your bank, how can you trust it?</p>
 
@@ -158,9 +156,15 @@
   <li>a website shares its public key with a CA</li>
   <li>CA verifies they are the bank indeed, and signs their public key</li>
   <li>the website hands you the certificate</li>
-  <li>yet how do you trust this is signed by the CA indeed? someone else signed the CAs public key, too</li>
-  <li>you keep checking the certificates until you reach a trusted root certificate at the bottom</li>
 </ol>
+
+<p>Yet how do you trust this is signed by the CA indeed?</p>
+
+<p>Someone else signed the CAs public key, too</p>
+
+<p>You keep checking the certificates until you reach a trusted root certificate at the bottom</p>
+
+<p>so its turtles all the way down</p>
 
 <h2 id="tls">TLS</h2>
 
@@ -176,16 +180,16 @@
 
 <h2 id="authentication">Authentication</h2>
 
+<p>Practically, the auth info provided is either</p>
 <ol>
-  <li>Cryptographic keys</li>
-  <li>Passwords</li>
+  <li>something the user knows (like a password, PIN, or key)</li>
+  <li>something the user has (like a smart card or proof of possession of a smart phone)</li>
+  <li>something the user is (like the user’s fingerprint, voice, or face)</li>
 </ol>
 
 <p>Keys are more general, passwords are more specific</p>
 
-<p>For example a million users of a website can verify the site with a single certificate,</p>
-
-<p>and all users have their own passwords to authenticate</p>
+<p>For example a million users of a website can verify the site with a single certificate, while each user have their own password</p>
 
 <h2 id="authorization">Authorization</h2>
 

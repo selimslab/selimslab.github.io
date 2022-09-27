@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://selimslab.github.io/feed/tech.xml" rel="self" type="application/atom+xml" /><link href="https://selimslab.github.io/" rel="alternate" type="text/html" /><updated>2022-09-27T16:28:18+03:00</updated><id>https://selimslab.github.io/feed/tech.xml</id><title type="html">notes | Tech</title><subtitle>bicycle for the mind</subtitle><entry><title type="html">For new programmers 👩🏿‍💻</title><link href="https://selimslab.github.io/tech/beginner/" rel="alternate" type="text/html" title="For new programmers 👩🏿‍💻" /><published>2022-09-27T16:28:18+03:00</published><updated>2022-09-27T13:21:53+03:00</updated><id>https://selimslab.github.io/tech/beginner</id><content type="html" xml:base="https://selimslab.github.io/tech/beginner/"><![CDATA[<p><a href="https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo">Crash Course Computer Science</a></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://selimslab.github.io/feed/tech.xml" rel="self" type="application/atom+xml" /><link href="https://selimslab.github.io/" rel="alternate" type="text/html" /><updated>2022-09-27T17:11:18+03:00</updated><id>https://selimslab.github.io/feed/tech.xml</id><title type="html">notes | Tech</title><subtitle>bicycle for the mind</subtitle><entry><title type="html">For new programmers 👩🏿‍💻</title><link href="https://selimslab.github.io/tech/beginner/" rel="alternate" type="text/html" title="For new programmers 👩🏿‍💻" /><published>2022-09-27T17:11:18+03:00</published><updated>2022-09-27T13:21:53+03:00</updated><id>https://selimslab.github.io/tech/beginner</id><content type="html" xml:base="https://selimslab.github.io/tech/beginner/"><![CDATA[<p><a href="https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo">Crash Course Computer Science</a></p>
 
 <hr />
 
@@ -54,7 +54,7 @@
 
 <p><a href="https://endler.dev/2017/the-essence-of-information/">The Essence of Information - Matthias Endler</a></p>
 
-<p><a href="https://en.wikipedia.org/wiki/History_of_the_Internet">History of the Internet - Wikipedia</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Crash Course Computer Science]]></summary></entry><entry><title type="html">Stack exchange</title><link href="https://selimslab.github.io/tech/stx/" rel="alternate" type="text/html" title="Stack exchange" /><published>2022-09-27T16:28:18+03:00</published><updated>2022-09-27T13:21:53+03:00</updated><id>https://selimslab.github.io/tech/stx</id><content type="html" xml:base="https://selimslab.github.io/tech/stx/"><![CDATA[<p>sorted by votes</p>
+<p><a href="https://en.wikipedia.org/wiki/History_of_the_Internet">History of the Internet - Wikipedia</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Crash Course Computer Science]]></summary></entry><entry><title type="html">Stack exchange</title><link href="https://selimslab.github.io/tech/stx/" rel="alternate" type="text/html" title="Stack exchange" /><published>2022-09-27T17:11:18+03:00</published><updated>2022-09-27T13:21:53+03:00</updated><id>https://selimslab.github.io/tech/stx</id><content type="html" xml:base="https://selimslab.github.io/tech/stx/"><![CDATA[<p>sorted by votes</p>
 
 <p><a href="https://stackexchange.com/sites#">All Sites</a></p>
 
@@ -90,7 +90,7 @@
 
 <p><a href="https://superuser.com/questions?sort=votes">Super User</a></p>
 
-<p><a href="https://ux.stackexchange.com/questions?sort=votes">User Experience</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[sorted by votes]]></summary></entry><entry><title type="html">SRE</title><link href="https://selimslab.github.io/tech/sre/" rel="alternate" type="text/html" title="SRE" /><published>2022-09-27T16:28:18+03:00</published><updated>2022-09-27T13:21:53+03:00</updated><id>https://selimslab.github.io/tech/sre</id><content type="html" xml:base="https://selimslab.github.io/tech/sre/"><![CDATA[<p>ideas from Google SRE book</p>
+<p><a href="https://ux.stackexchange.com/questions?sort=votes">User Experience</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[sorted by votes]]></summary></entry><entry><title type="html">SRE</title><link href="https://selimslab.github.io/tech/sre/" rel="alternate" type="text/html" title="SRE" /><published>2022-09-27T17:11:18+03:00</published><updated>2022-09-27T13:21:53+03:00</updated><id>https://selimslab.github.io/tech/sre</id><content type="html" xml:base="https://selimslab.github.io/tech/sre/"><![CDATA[<p>ideas from Google SRE book</p>
 
 <hr />
 
@@ -157,7 +157,7 @@
   <li>The basis is agreed upon in advance</li>
   <li>Any assumption are explicitly stated</li>
   <li>Data driven over feelings and opinions</li>
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[ideas from Google SRE book]]></summary></entry><entry><title type="html">SOLID</title><link href="https://selimslab.github.io/tech/solid/" rel="alternate" type="text/html" title="SOLID" /><published>2022-09-27T16:28:18+03:00</published><updated>2022-09-27T13:21:53+03:00</updated><id>https://selimslab.github.io/tech/solid</id><content type="html" xml:base="https://selimslab.github.io/tech/solid/"><![CDATA[<p>Single responsibility</p>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[ideas from Google SRE book]]></summary></entry><entry><title type="html">SOLID</title><link href="https://selimslab.github.io/tech/solid/" rel="alternate" type="text/html" title="SOLID" /><published>2022-09-27T17:11:18+03:00</published><updated>2022-09-27T13:21:53+03:00</updated><id>https://selimslab.github.io/tech/solid</id><content type="html" xml:base="https://selimslab.github.io/tech/solid/"><![CDATA[<p>Single responsibility</p>
 
 <p>Do one thing, and do it well</p>
 
@@ -188,7 +188,7 @@ the program should still work correctly.</p>
 
 <p>Dependency Inversion</p>
 
-<p>Provide dependencies from outside because it makes testing easier, and modularity</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Single responsibility]]></summary></entry><entry><title type="html">Security for Web</title><link href="https://selimslab.github.io/tech/sec-web/" rel="alternate" type="text/html" title="Security for Web" /><published>2022-09-27T16:28:18+03:00</published><updated>2022-09-27T13:21:53+03:00</updated><id>https://selimslab.github.io/tech/sec-web</id><content type="html" xml:base="https://selimslab.github.io/tech/sec-web/"><![CDATA[<h2 id="auth">Auth</h2>
+<p>Provide dependencies from outside because it makes testing easier, and modularity</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Single responsibility]]></summary></entry><entry><title type="html">Security for Web</title><link href="https://selimslab.github.io/tech/sec-web/" rel="alternate" type="text/html" title="Security for Web" /><published>2022-09-27T17:11:18+03:00</published><updated>2022-09-27T13:21:53+03:00</updated><id>https://selimslab.github.io/tech/sec-web</id><content type="html" xml:base="https://selimslab.github.io/tech/sec-web/"><![CDATA[<h2 id="auth">Auth</h2>
 
 <p>Use 2-factor</p>
 
@@ -312,7 +312,7 @@ font-src <span class="s1">'https://fonts.googleapis.com'</span><span class="p">;
 
 <p><a href="https://stackoverflow.com/questions/2794016/what-should-every-programmer-know-about-security">https://stackoverflow.com/questions/2794016/what-should-every-programmer-know-about-security</a></p>
 
-<p><a href="https://stackoverflow.com/questions/tagged/security">https://stackoverflow.com/questions/tagged/security</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Auth]]></summary></entry><entry><title type="html">Security 🔐</title><link href="https://selimslab.github.io/tech/sec-general/" rel="alternate" type="text/html" title="Security 🔐" /><published>2022-09-27T16:28:18+03:00</published><updated>2022-09-27T13:21:53+03:00</updated><id>https://selimslab.github.io/tech/sec-general</id><content type="html" xml:base="https://selimslab.github.io/tech/sec-general/"><![CDATA[<p>Prevent problems before they happen</p>
+<p><a href="https://stackoverflow.com/questions/tagged/security">https://stackoverflow.com/questions/tagged/security</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Auth]]></summary></entry><entry><title type="html">Security 🔐</title><link href="https://selimslab.github.io/tech/sec-general/" rel="alternate" type="text/html" title="Security 🔐" /><published>2022-09-27T17:11:18+03:00</published><updated>2022-09-27T13:21:53+03:00</updated><id>https://selimslab.github.io/tech/sec-general</id><content type="html" xml:base="https://selimslab.github.io/tech/sec-general/"><![CDATA[<p>Prevent problems before they happen</p>
 
 <p>What can go wrong?</p>
 
@@ -326,7 +326,7 @@ font-src <span class="s1">'https://fonts.googleapis.com'</span><span class="p">;
 
 <p>Isolate</p>
 
-<p>Don’t try to roll your own security solutions, it’s a community effort</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Prevent problems before they happen]]></summary></entry><entry><title type="html">TCP/IP Model vs OSI Model</title><link href="https://selimslab.github.io/tech/network-layers/" rel="alternate" type="text/html" title="TCP/IP Model vs OSI Model" /><published>2022-09-27T16:28:18+03:00</published><updated>2022-09-27T13:21:53+03:00</updated><id>https://selimslab.github.io/tech/network-layers</id><content type="html" xml:base="https://selimslab.github.io/tech/network-layers/"><![CDATA[<h2 id="tcpip-model">TCP/IP Model</h2>
+<p>Don’t try to roll your own security solutions, it’s a community effort</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Prevent problems before they happen]]></summary></entry><entry><title type="html">TCP/IP Model vs OSI Model</title><link href="https://selimslab.github.io/tech/network-layers/" rel="alternate" type="text/html" title="TCP/IP Model vs OSI Model" /><published>2022-09-27T17:11:18+03:00</published><updated>2022-09-27T13:21:53+03:00</updated><id>https://selimslab.github.io/tech/network-layers</id><content type="html" xml:base="https://selimslab.github.io/tech/network-layers/"><![CDATA[<h2 id="tcpip-model">TCP/IP Model</h2>
 
 <p>Application</p>
 
@@ -386,7 +386,7 @@ font-src <span class="s1">'https://fonts.googleapis.com'</span><span class="p">;
 
 <p>Wifi</p>
 
-<p>Wire</p>]]></content><author><name></name></author><summary type="html"><![CDATA[TCP/IP Model]]></summary></entry><entry><title type="html">Nature vs tech 🍃</title><link href="https://selimslab.github.io/tech/natural-tech/" rel="alternate" type="text/html" title="Nature vs tech 🍃" /><published>2022-09-27T16:28:18+03:00</published><updated>2022-09-27T13:21:53+03:00</updated><id>https://selimslab.github.io/tech/natural-tech</id><content type="html" xml:base="https://selimslab.github.io/tech/natural-tech/"><![CDATA[<p>Tech blends into the reality as it matures</p>
+<p>Wire</p>]]></content><author><name></name></author><summary type="html"><![CDATA[TCP/IP Model]]></summary></entry><entry><title type="html">Nature vs tech 🍃</title><link href="https://selimslab.github.io/tech/natural-tech/" rel="alternate" type="text/html" title="Nature vs tech 🍃" /><published>2022-09-27T17:11:18+03:00</published><updated>2022-09-27T13:21:53+03:00</updated><id>https://selimslab.github.io/tech/natural-tech</id><content type="html" xml:base="https://selimslab.github.io/tech/natural-tech/"><![CDATA[<p>Tech blends into the reality as it matures</p>
 
 <p>We evolved to use our hands and eyes,</p>
 
@@ -402,7 +402,7 @@ font-src <span class="s1">'https://fonts.googleapis.com'</span><span class="p">;
 
 <p><a href="https://blog.google/technology/research/project-starline/">https://blog.google/technology/research/project-starline/</a></p>
 
-<p><a href="https://ciechanow.ski/mechanical-watch/">https://ciechanow.ski/mechanical-watch/</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Tech blends into the reality as it matures]]></summary></entry><entry><title type="html">Links for makers</title><link href="https://selimslab.github.io/tech/makers/" rel="alternate" type="text/html" title="Links for makers" /><published>2022-09-27T16:28:18+03:00</published><updated>2022-09-27T13:21:53+03:00</updated><id>https://selimslab.github.io/tech/makers</id><content type="html" xml:base="https://selimslab.github.io/tech/makers/"><![CDATA[<h2 id="lists">Lists</h2>
+<p><a href="https://ciechanow.ski/mechanical-watch/">https://ciechanow.ski/mechanical-watch/</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Tech blends into the reality as it matures]]></summary></entry><entry><title type="html">Links for makers</title><link href="https://selimslab.github.io/tech/makers/" rel="alternate" type="text/html" title="Links for makers" /><published>2022-09-27T17:11:18+03:00</published><updated>2022-09-27T13:21:53+03:00</updated><id>https://selimslab.github.io/tech/makers</id><content type="html" xml:base="https://selimslab.github.io/tech/makers/"><![CDATA[<h2 id="lists">Lists</h2>
 
 <p><a href="http://aosabook.org/en/500L/">500 Lines or Less</a></p>
 
@@ -548,7 +548,7 @@ font-src <span class="s1">'https://fonts.googleapis.com'</span><span class="p">;
 
 <p><a href="https://0x65.dev/blog/2019-12-07/indexing-billions-of-text-vectors.html">Indexing Billions of Text Vectors</a></p>
 
-<p><a href="https://jameskle.com/writes/rec-sys-part-2">Recommendation System Series Part 2: The 10 Categories of Deep Recommendation Systems That Academic Researchers Should Pay Attention To — James Le</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Lists]]></summary></entry><entry><title type="html">Liked readings 🔖</title><link href="https://selimslab.github.io/tech/links/" rel="alternate" type="text/html" title="Liked readings 🔖" /><published>2022-09-27T16:28:18+03:00</published><updated>2022-09-27T13:21:53+03:00</updated><id>https://selimslab.github.io/tech/links</id><content type="html" xml:base="https://selimslab.github.io/tech/links/"><![CDATA[<p><a href="https://news.ycombinator.com/item?id=22918980">Ask HN: I’m a software engineer going blind, how should I prepare? - Hacker News</a></p>
+<p><a href="https://jameskle.com/writes/rec-sys-part-2">Recommendation System Series Part 2: The 10 Categories of Deep Recommendation Systems That Academic Researchers Should Pay Attention To — James Le</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Lists]]></summary></entry><entry><title type="html">Liked readings 🔖</title><link href="https://selimslab.github.io/tech/links/" rel="alternate" type="text/html" title="Liked readings 🔖" /><published>2022-09-27T17:11:18+03:00</published><updated>2022-09-27T13:21:53+03:00</updated><id>https://selimslab.github.io/tech/links</id><content type="html" xml:base="https://selimslab.github.io/tech/links/"><![CDATA[<p><a href="https://news.ycombinator.com/item?id=22918980">Ask HN: I’m a software engineer going blind, how should I prepare? - Hacker News</a></p>
 
 <p><a href="http://jsomers.net/hn/">The Hacker Classics</a></p>
 

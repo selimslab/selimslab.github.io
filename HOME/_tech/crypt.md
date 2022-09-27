@@ -2,14 +2,11 @@
 title: Cryptography
 ---
 
-
-## Public Key Cryptography
-
-Public-key, or asymmetric cryptography, is a system that uses pairs of keys based on mathematical one-way functions 
+A key is a piece of information, usually a string of numbers or letters
 
 If you use a single key, its symmetric cryptography
 
-A key is a piece of information, usually a string of numbers or letters 
+Public-key, or asymmetric cryptography, is a system that uses pairs of keys based on mathematical one-way functions 
 
 ---
 
@@ -48,7 +45,7 @@ We need a mechanism to ensure that the public key really belongs to Alice
 
 ## Certificates
 
-In reality, you trust some entity, and it trusts others, so its turtles all the way down 
+In reality, you trust some entity, and it trusts others
 
 For example, imagine you visit a website claiming to be your bank, how can you trust it?
 
@@ -57,8 +54,14 @@ Your browser or operating system comes with pre-configured certificate authoriti
 1. a website shares its public key with a CA 
 2. CA verifies they are the bank indeed, and signs their public key 
 3. the website hands you the certificate 
-4. yet how do you trust this is signed by the CA indeed? someone else signed the CAs public key, too
-5. you keep checking the certificates until you reach a trusted root certificate at the bottom 
+
+Yet how do you trust this is signed by the CA indeed? 
+
+Someone else signed the CAs public key, too
+
+You keep checking the certificates until you reach a trusted root certificate at the bottom 
+
+so its turtles all the way down 
 
 
 
@@ -77,14 +80,15 @@ TLS is a protocol to enable a socket to encrypt outgoing messages and decrypt th
 
 ## Authentication 
 
-1. Cryptographic keys
-2. Passwords
+Practically, the auth info provided is either 
+1. something the user knows (like a password, PIN, or key)
+2. something the user has (like a smart card or proof of possession of a smart phone)
+3. something the user is (like the user’s fingerprint, voice, or face)
 
 Keys are more general, passwords are more specific 
 
-For example a million users of a website can verify the site with a single certificate, 
+For example a million users of a website can verify the site with a single certificate, while each user have their own password 
 
-and all users have their own passwords to authenticate 
 
 
 ## Authorization 
