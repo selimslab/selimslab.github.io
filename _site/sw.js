@@ -50,6 +50,7 @@ const urls = [
     '/tech/books/',
     '/tech/code-review/',
     '/tech/container/',
+    '/tech/crypt/',
     '/tech/design-patterns/',
     '/tech/go/',
     '/tech/heuristics/',
