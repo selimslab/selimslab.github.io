@@ -1,5 +1,5 @@
 ---
-layout: post
+ 
 title: Tiny blockchain in 100 lines
 ---
 

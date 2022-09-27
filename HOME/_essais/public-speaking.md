@@ -1,5 +1,5 @@
 ---
-layout: post
+ 
 title: Public speaking 🎤
 ---
 

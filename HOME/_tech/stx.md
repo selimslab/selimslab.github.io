@@ -1,6 +1,6 @@
 ---
-layout: post
-title:  Stack exchange 🔖
+ 
+title:  Stack exchange
 ---
 
 sorted by votes 

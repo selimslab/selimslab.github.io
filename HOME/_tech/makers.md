@@ -1,5 +1,5 @@
 ---
-layout: post
+ 
 title:  Links for makers
 ---
 

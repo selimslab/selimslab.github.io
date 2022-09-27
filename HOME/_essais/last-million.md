@@ -1,5 +1,5 @@
 ---
-layout: post
+ 
 title:  Some events in the last million years 🌏
 --- 
 

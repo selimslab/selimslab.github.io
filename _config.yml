@@ -83,13 +83,25 @@ collections:
   tech:    
     output: true 
 
+  security:
+    output: true 
+    permalink: /tech/:collection/:name
+
   projects:    
     output: true 
 
   algorithms:    
     output: true 
 
+
 feed:
   collections:
     - essais
     - tech 
+
+defaults:
+-
+  scope:
+    path: "" # an empty string here means all files in the project
+  values:
+    layout: post

@@ -1,5 +1,5 @@
 ---
-layout: post
+ 
 title: Nature vs tech 🍃 
 ---
 

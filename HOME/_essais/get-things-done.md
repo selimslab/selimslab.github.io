@@ -1,5 +1,5 @@
 ---
-layout: post
+ 
 title: How to get things done? ✅ 
 ---
 

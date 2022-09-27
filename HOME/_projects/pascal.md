@@ -1,5 +1,5 @@
 ---
-layout: post
+ 
 title: An interpreter in Python for a subset of PASCAL
 ---
 

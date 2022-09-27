@@ -1,5 +1,5 @@
 ---
-layout: post
+ 
 title: A garbage collector in C from scratch
 ---
 

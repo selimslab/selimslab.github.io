@@ -1,5 +1,5 @@
 ---
-layout: post
+ 
 title:  For new programmers 👩🏿‍💻 
 ---
 

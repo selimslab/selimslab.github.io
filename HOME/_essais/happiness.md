@@ -1,5 +1,5 @@
 ---
-layout: post
+ 
 title: Happiness  
 tags: top
 ---

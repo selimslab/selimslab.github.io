@@ -1,5 +1,5 @@
 ---
-layout: post
+ 
 title: Teamwork in Art of War 
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: post
+ 
 title: Producer Consumer Problem  
 ---
 

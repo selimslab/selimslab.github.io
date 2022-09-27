@@ -1,6 +1,6 @@
 ---
-layout: post
-title:  Keyboard Shortcuts ⌨️
+ 
+title:  Keyboard Shortcuts 
 --- 
 
 ## Mac 

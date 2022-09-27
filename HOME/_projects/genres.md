@@ -1,5 +1,5 @@
 ---
-layout: post
+ 
 title: Predict movie genres using ML classifiers 
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: post
+ 
 title: A good life 🏛️ 
 tags: top
 ---

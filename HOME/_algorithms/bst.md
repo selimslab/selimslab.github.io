@@ -1,5 +1,5 @@
 ---
-layout: post
+ 
 title: Tree, Binary Search Tree
 ---
 

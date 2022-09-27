@@ -1,5 +1,5 @@
 ---
-layout: post
+ 
 title: Logos, a toy operating system kernel from scratch
 ---
 

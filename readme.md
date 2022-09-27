@@ -14,4 +14,4 @@ bundle exec jekyll serve
 
 or 
 
-JEKYLL_ENV=production bundle exec jekyll serve
+JEKYLL_ENV=production bundle exec jekyll serve --trace

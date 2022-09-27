@@ -1,5 +1,5 @@
 ---
-layout: post
+ 
 title: A hash table in C from scratch
 ---
 

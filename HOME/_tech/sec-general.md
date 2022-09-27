@@ -1,6 +1,6 @@
 ---
-layout: post
-title: Software Security 🔐
+ 
+title: Security 🔐
 --- 
 
 

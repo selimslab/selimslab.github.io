@@ -24,7 +24,9 @@
   
       "/tech/network-layers/",
   
-      "/tech/software-security/",
+      "/tech/sec-general/",
+  
+      "/tech/sec-web/",
   
       "/tech/solid/",
   
@@ -33,8 +35,6 @@
       "/tech/stx/",
   
       "/tech/tools/",
-  
-      "/tech/websec/",
   
   
       "/projects/block/",
@@ -71,6 +71,8 @@
       "/algorithms/greedy/",
   
       "/algorithms/linked-list/",
+  
+      "/algorithms/pc/",
   
       "/algorithms/q/",
   
