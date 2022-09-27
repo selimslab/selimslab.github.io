@@ -104,39 +104,11 @@ registerRoute(
 );
 
 
-
-// registerRoute(
-//   new RegExp('\/essais\/.+'),
-//   new StaleWhileRevalidate()
-// );
-
-// registerRoute(
-//   new RegExp('\/tech\/.+'),
-//   stg
-// );
-
-// registerRoute(
-//   new RegExp('\/algorithms\/.+'),
-//   stg
-// );
-
-// registerRoute(
-//   new RegExp('\/projects\/.+'),
-//   stg
-// );
-
-
-
 registerRoute(
   '/',
   new NetworkFirst()
 );
 
-
-// registerRoute(
-//   new RegExp('\/^(static)\/.+'),
-//   strategy
-// );
 
 registerRoute(
   new RegExp('\/static\/.+'),
