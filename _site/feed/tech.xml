@@ -1,609 +1,551 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://selimslab.github.io/feed/tech.xml" rel="self" type="application/atom+xml" /><link href="https://selimslab.github.io/" rel="alternate" type="text/html" /><updated>2022-09-27T17:49:59+03:00</updated><id>https://selimslab.github.io/feed/tech.xml</id><title type="html">notes | Tech</title><subtitle>bicycle for the mind</subtitle><entry><title type="html">For new programmers 👩🏿‍💻</title><link href="https://selimslab.github.io/tech/beginner/" rel="alternate" type="text/html" title="For new programmers 👩🏿‍💻" /><published>2022-09-27T17:49:59+03:00</published><updated>2022-09-27T13:21:53+03:00</updated><id>https://selimslab.github.io/tech/beginner</id><content type="html" xml:base="https://selimslab.github.io/tech/beginner/"><![CDATA[<p><a href="https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo">Crash Course Computer Science</a></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed/tech.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-09-28T03:20:52+03:00</updated><id>http://localhost:4000/feed/tech.xml</id><title type="html">notes | Tech</title><subtitle>bicycle for the mind</subtitle><entry><title type="html">For new programmers 👩🏿‍💻</title><link href="http://localhost:4000/tech/beginner/" rel="alternate" type="text/html" title="For new programmers 👩🏿‍💻" /><published>2022-09-28T03:20:52+03:00</published><updated>2022-09-28T03:20:52+03:00</updated><id>http://localhost:4000/tech/beginner</id><content type="html" xml:base="http://localhost:4000/tech/beginner/">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&quot;&gt;Crash Course Computer Science&lt;/a&gt;&lt;/p&gt;
 
-<hr />
+&lt;hr /&gt;
 
-<p>Python is beginner friendly. C is also good  <a href="https://www.codecademy.com/learn/learn-python">codecademy python</a></p>
+&lt;p&gt;Python is beginner friendly. C is also good  &lt;a href=&quot;https://www.codecademy.com/learn/learn-python&quot;&gt;codecademy python&lt;/a&gt;&lt;/p&gt;
 
-<hr />
+&lt;hr /&gt;
 
-<p>a short and visual book for a tour of algorithms <a href="http://93.174.95.29/main/9F2B390517083CF4485BA524B80815F5">grokking algorithms</a></p>
+&lt;p&gt;a short and visual book for a tour of algorithms &lt;a href=&quot;http://93.174.95.29/main/9F2B390517083CF4485BA524B80815F5&quot;&gt;grokking algorithms&lt;/a&gt;&lt;/p&gt;
 
-<hr />
+&lt;hr /&gt;
 
-<p><a href="https://www.youtube.com/playlist?list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW">CS50, Harvard University’s introduction to computer science and the art of programming</a></p>
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW&quot;&gt;CS50, Harvard University’s introduction to computer science and the art of programming&lt;/a&gt;&lt;/p&gt;
 
-<hr />
+&lt;hr /&gt;
 
-<p><a href="https://leetcode.com/problemset/top-100-liked-questions/?difficulty=Easy">Leetcode’s top-100 liked easy collection</a></p>
+&lt;p&gt;&lt;a href=&quot;https://leetcode.com/problemset/top-100-liked-questions/?difficulty=Easy&quot;&gt;Leetcode’s top-100 liked easy collection&lt;/a&gt;&lt;/p&gt;
 
-<hr />
+&lt;hr /&gt;
 
-<p>Learn the basics of git, clone, add, commit, push, pull request</p>
+&lt;p&gt;Learn the basics of git, clone, add, commit, push, pull request&lt;/p&gt;
 
-<hr />
+&lt;hr /&gt;
 
-<p>Meet the terminal, ls, cd, mv, top, mkdir, touch, cat, sort, grep, rm</p>
+&lt;p&gt;Meet the terminal, ls, cd, mv, top, mkdir, touch, cat, sort, grep, rm&lt;/p&gt;
 
-<hr />
+&lt;hr /&gt;
 
-<p><a href="https://regexlearn.com/">https://regexlearn.com/</a></p>
+&lt;p&gt;&lt;a href=&quot;https://regexlearn.com/&quot;&gt;https://regexlearn.com/&lt;/a&gt;&lt;/p&gt;
 
-<hr />
+&lt;hr /&gt;
 
-<p><a href="https://sqlbolt.com/">interactive SQL lessons</a></p>
+&lt;p&gt;&lt;a href=&quot;https://sqlbolt.com/&quot;&gt;interactive SQL lessons&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://stackoverflow.com/questions/7296846/how-to-implement-one-to-one-one-to-many-and-many-to-many-relationships-while-de">sql - How to implement one-to-one, one-to-many and many-to-many relationships while designing tables? - Stack Overflow</a></p>
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/7296846/how-to-implement-one-to-one-one-to-many-and-many-to-many-relationships-while-de&quot;&gt;sql - How to implement one-to-one, one-to-many and many-to-many relationships while designing tables? - Stack Overflow&lt;/a&gt;&lt;/p&gt;
 
-<hr />
+&lt;hr /&gt;
 
-<p><a href="https://teachyourselfcs.com/">Teach Yourself Computer Science</a></p>
+&lt;p&gt;&lt;a href=&quot;https://teachyourselfcs.com/&quot;&gt;Teach Yourself Computer Science&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="http://norvig.com/21-days.html">Teach Yourself Programming in Ten Years</a></p>
+&lt;p&gt;&lt;a href=&quot;http://norvig.com/21-days.html&quot;&gt;Teach Yourself Programming in Ten Years&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418">
-<img src="/static/teapot.png" />
-</a></p>
+&lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418&quot;&gt;
+&lt;img src=&quot;/static/teapot.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
-<h2 id="misc">misc.</h2>
+&lt;h2 id=&quot;misc&quot;&gt;misc.&lt;/h2&gt;
 
-<p><a href="https://jgthms.com/web-design-in-4-minutes/">Web design in 4 minutes</a></p>
+&lt;p&gt;&lt;a href=&quot;https://jgthms.com/web-design-in-4-minutes/&quot;&gt;Web design in 4 minutes&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://endler.dev/2017/professional-programming/">Being a Professional Programmer - Matthias Endler</a></p>
+&lt;p&gt;&lt;a href=&quot;https://endler.dev/2017/professional-programming/&quot;&gt;Being a Professional Programmer - Matthias Endler&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="http://matt.might.net/articles/what-cs-majors-should-know/">What every computer science major should know</a></p>
+&lt;p&gt;&lt;a href=&quot;http://matt.might.net/articles/what-cs-majors-should-know/&quot;&gt;What every computer science major should know&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://endler.dev/2017/the-essence-of-information/">The Essence of Information - Matthias Endler</a></p>
+&lt;p&gt;&lt;a href=&quot;https://endler.dev/2017/the-essence-of-information/&quot;&gt;The Essence of Information - Matthias Endler&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://en.wikipedia.org/wiki/History_of_the_Internet">History of the Internet - Wikipedia</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Crash Course Computer Science]]></summary></entry><entry><title type="html">Stack exchange</title><link href="https://selimslab.github.io/tech/stx/" rel="alternate" type="text/html" title="Stack exchange" /><published>2022-09-27T17:49:59+03:00</published><updated>2022-09-27T13:21:53+03:00</updated><id>https://selimslab.github.io/tech/stx</id><content type="html" xml:base="https://selimslab.github.io/tech/stx/"><![CDATA[<p>sorted by votes</p>
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/History_of_the_Internet&quot;&gt;History of the Internet - Wikipedia&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Crash Course Computer Science</summary></entry><entry><title type="html">Stack exchange</title><link href="http://localhost:4000/tech/stx/" rel="alternate" type="text/html" title="Stack exchange" /><published>2022-09-28T03:20:52+03:00</published><updated>2022-09-28T03:20:52+03:00</updated><id>http://localhost:4000/tech/stx</id><content type="html" xml:base="http://localhost:4000/tech/stx/">&lt;p&gt;sorted by votes&lt;/p&gt;
 
-<p><a href="https://stackexchange.com/sites#">All Sites</a></p>
+&lt;p&gt;&lt;a href=&quot;https://stackexchange.com/sites#&quot;&gt;All Sites&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://cs.stackexchange.com/questions?sort=votes">Computer Science</a></p>
+&lt;p&gt;&lt;a href=&quot;https://cs.stackexchange.com/questions?sort=votes&quot;&gt;Computer Science&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://stats.stackexchange.com/questions?sort=votes">Cross Validated</a></p>
+&lt;p&gt;&lt;a href=&quot;https://stats.stackexchange.com/questions?sort=votes&quot;&gt;Cross Validated&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://crypto.stackexchange.com/questions?sort=votes">Cryptography</a></p>
+&lt;p&gt;&lt;a href=&quot;https://crypto.stackexchange.com/questions?sort=votes&quot;&gt;Cryptography&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://datascience.stackexchange.com/questions?sort=votes">Data Science</a></p>
+&lt;p&gt;&lt;a href=&quot;https://datascience.stackexchange.com/questions?sort=votes&quot;&gt;Data Science&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://economics.stackexchange.com/questions?sort=votes">Economics</a></p>
+&lt;p&gt;&lt;a href=&quot;https://economics.stackexchange.com/questions?sort=votes&quot;&gt;Economics&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://engineering.stackexchange.com/questions?sort=votes">Engineering</a></p>
+&lt;p&gt;&lt;a href=&quot;https://engineering.stackexchange.com/questions?sort=votes&quot;&gt;Engineering&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://security.stackexchange.com/questions?sort=votes">Information Security</a></p>
+&lt;p&gt;&lt;a href=&quot;https://security.stackexchange.com/questions?sort=votes&quot;&gt;Information Security&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://interpersonal.stackexchange.com/questions?sort=votes">Interpersonal Skills</a></p>
+&lt;p&gt;&lt;a href=&quot;https://interpersonal.stackexchange.com/questions?sort=votes&quot;&gt;Interpersonal Skills&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://lifehacks.stackexchange.com/questions?sort=votes">Lifehacks</a></p>
+&lt;p&gt;&lt;a href=&quot;https://lifehacks.stackexchange.com/questions?sort=votes&quot;&gt;Lifehacks&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://networkengineering.stackexchange.com/questions?sort=votes">Network Engineering</a></p>
+&lt;p&gt;&lt;a href=&quot;https://networkengineering.stackexchange.com/questions?sort=votes&quot;&gt;Network Engineering&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://parenting.stackexchange.com/questions?sort=votes">Parenting</a></p>
+&lt;p&gt;&lt;a href=&quot;https://parenting.stackexchange.com/questions?sort=votes&quot;&gt;Parenting&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://philosophy.stackexchange.com/questions?sort=votes">Philosophy</a></p>
+&lt;p&gt;&lt;a href=&quot;https://philosophy.stackexchange.com/questions?sort=votes&quot;&gt;Philosophy&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://psychology.stackexchange.com/questions?sort=votes">Psychology &amp; Neuroscience</a></p>
+&lt;p&gt;&lt;a href=&quot;https://psychology.stackexchange.com/questions?sort=votes&quot;&gt;Psychology &amp;amp; Neuroscience&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://serverfault.com/questions?sort=votes">Server Fault</a></p>
+&lt;p&gt;&lt;a href=&quot;https://serverfault.com/questions?sort=votes&quot;&gt;Server Fault&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://softwareengineering.stackexchange.com/questions?sort=votes">Software Engineering</a></p>
+&lt;p&gt;&lt;a href=&quot;https://softwareengineering.stackexchange.com/questions?sort=votes&quot;&gt;Software Engineering&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://superuser.com/questions?sort=votes">Super User</a></p>
+&lt;p&gt;&lt;a href=&quot;https://superuser.com/questions?sort=votes&quot;&gt;Super User&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://ux.stackexchange.com/questions?sort=votes">User Experience</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[sorted by votes]]></summary></entry><entry><title type="html">SRE</title><link href="https://selimslab.github.io/tech/sre/" rel="alternate" type="text/html" title="SRE" /><published>2022-09-27T17:49:59+03:00</published><updated>2022-09-27T13:21:53+03:00</updated><id>https://selimslab.github.io/tech/sre</id><content type="html" xml:base="https://selimslab.github.io/tech/sre/"><![CDATA[<p>ideas from Google SRE book</p>
+&lt;p&gt;&lt;a href=&quot;https://ux.stackexchange.com/questions?sort=votes&quot;&gt;User Experience&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">sorted by votes</summary></entry><entry><title type="html">SRE</title><link href="http://localhost:4000/tech/sre/" rel="alternate" type="text/html" title="SRE" /><published>2022-09-28T03:20:52+03:00</published><updated>2022-09-28T03:20:52+03:00</updated><id>http://localhost:4000/tech/sre</id><content type="html" xml:base="http://localhost:4000/tech/sre/">&lt;p&gt;ideas from Google SRE book&lt;/p&gt;
 
-<hr />
+&lt;hr /&gt;
 
-<ul>
-  <li>Fail sanely</li>
-  <li>Progressive rollouts</li>
-  <li>Monitoring
-    <ul>
-      <li>Pages</li>
-      <li>Tickets</li>
-      <li>Logging</li>
-    </ul>
-  </li>
-  <li>Measure in terms of the user</li>
-  <li>Error budgets</li>
-  <li>Postmortems</li>
-  <li>Capacity planning
-    <ul>
-      <li>N+2 instances</li>
-      <li>Load testing</li>
-      <li>Validate forecasts with reality</li>
-    </ul>
-  </li>
-  <li>Exponential back off</li>
-  <li>SRE half operational half development</li>
-  <li>Disaster role playing</li>
-</ul>
+&lt;ul&gt;
+  &lt;li&gt;Fail sanely&lt;/li&gt;
+  &lt;li&gt;Progressive rollouts&lt;/li&gt;
+  &lt;li&gt;Monitoring
+    &lt;ul&gt;
+      &lt;li&gt;Pages&lt;/li&gt;
+      &lt;li&gt;Tickets&lt;/li&gt;
+      &lt;li&gt;Logging&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Measure in terms of the user&lt;/li&gt;
+  &lt;li&gt;Error budgets&lt;/li&gt;
+  &lt;li&gt;Postmortems&lt;/li&gt;
+  &lt;li&gt;Capacity planning
+    &lt;ul&gt;
+      &lt;li&gt;N+2 instances&lt;/li&gt;
+      &lt;li&gt;Load testing&lt;/li&gt;
+      &lt;li&gt;Validate forecasts with reality&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Exponential back off&lt;/li&gt;
+  &lt;li&gt;SRE half operational half development&lt;/li&gt;
+  &lt;li&gt;Disaster role playing&lt;/li&gt;
+&lt;/ul&gt;
 
-<h2 id="preparedness-and-disaster-testing">Preparedness And Disaster testing</h2>
-<ul>
-  <li>Figure out ways to make it more robust</li>
-  <li>Ensure that systems will react as we think</li>
-  <li>Determine weaknesses</li>
-  <li>Live drills</li>
-  <li>Swing capacity</li>
-  <li>Focus on safety</li>
-  <li>attention to detail</li>
-  <li>Simulations</li>
-  <li>Training and certs</li>
-  <li>Detailed requirements and design</li>
-  <li>Defense in depth and breadth</li>
-</ul>
+&lt;h2 id=&quot;preparedness-and-disaster-testing&quot;&gt;Preparedness And Disaster testing&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Figure out ways to make it more robust&lt;/li&gt;
+  &lt;li&gt;Ensure that systems will react as we think&lt;/li&gt;
+  &lt;li&gt;Determine weaknesses&lt;/li&gt;
+  &lt;li&gt;Live drills&lt;/li&gt;
+  &lt;li&gt;Swing capacity&lt;/li&gt;
+  &lt;li&gt;Focus on safety&lt;/li&gt;
+  &lt;li&gt;attention to detail&lt;/li&gt;
+  &lt;li&gt;Simulations&lt;/li&gt;
+  &lt;li&gt;Training and certs&lt;/li&gt;
+  &lt;li&gt;Detailed requirements and design&lt;/li&gt;
+  &lt;li&gt;Defense in depth and breadth&lt;/li&gt;
+&lt;/ul&gt;
 
-<h2 id="postmortem-culture">Postmortem culture</h2>
-<ul>
-  <li>What happened</li>
-  <li>The effectiveness of the response</li>
-  <li>What we would do differently next time</li>
-  <li>What actions will be taken to make sure it doesn’t happen again</li>
-</ul>
+&lt;h2 id=&quot;postmortem-culture&quot;&gt;Postmortem culture&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;What happened&lt;/li&gt;
+  &lt;li&gt;The effectiveness of the response&lt;/li&gt;
+  &lt;li&gt;What we would do differently next time&lt;/li&gt;
+  &lt;li&gt;What actions will be taken to make sure it doesn’t happen again&lt;/li&gt;
+&lt;/ul&gt;
 
-<h2 id="automation-and-reduced-overhead">Automation and reduced overhead</h2>
-<ul>
-  <li>Automation is a double edged sword</li>
-  <li>Methodical human approach is an alternative</li>
-  <li>Slow and steady is better in high stake cases</li>
-  <li>Multiple checks and balances</li>
-  <li>Human oversight</li>
-</ul>
+&lt;h2 id=&quot;automation-and-reduced-overhead&quot;&gt;Automation and reduced overhead&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Automation is a double edged sword&lt;/li&gt;
+  &lt;li&gt;Methodical human approach is an alternative&lt;/li&gt;
+  &lt;li&gt;Slow and steady is better in high stake cases&lt;/li&gt;
+  &lt;li&gt;Multiple checks and balances&lt;/li&gt;
+  &lt;li&gt;Human oversight&lt;/li&gt;
+&lt;/ul&gt;
 
-<h2 id="structural-and-rational-decision-making">Structural and rational decision making</h2>
-<ul>
-  <li>The inputs are clear</li>
-  <li>The basis is agreed upon in advance</li>
-  <li>Any assumption are explicitly stated</li>
-  <li>Data driven over feelings and opinions</li>
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[ideas from Google SRE book]]></summary></entry><entry><title type="html">SOLID</title><link href="https://selimslab.github.io/tech/solid/" rel="alternate" type="text/html" title="SOLID" /><published>2022-09-27T17:49:59+03:00</published><updated>2022-09-27T13:21:53+03:00</updated><id>https://selimslab.github.io/tech/solid</id><content type="html" xml:base="https://selimslab.github.io/tech/solid/"><![CDATA[<p>Single responsibility</p>
+&lt;h2 id=&quot;structural-and-rational-decision-making&quot;&gt;Structural and rational decision making&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;The inputs are clear&lt;/li&gt;
+  &lt;li&gt;The basis is agreed upon in advance&lt;/li&gt;
+  &lt;li&gt;Any assumption are explicitly stated&lt;/li&gt;
+  &lt;li&gt;Data driven over feelings and opinions&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">ideas from Google SRE book</summary></entry><entry><title type="html">SOLID</title><link href="http://localhost:4000/tech/solid/" rel="alternate" type="text/html" title="SOLID" /><published>2022-09-28T03:20:52+03:00</published><updated>2022-09-28T03:20:52+03:00</updated><id>http://localhost:4000/tech/solid</id><content type="html" xml:base="http://localhost:4000/tech/solid/">&lt;p&gt;Single responsibility&lt;/p&gt;
 
-<p>Do one thing, and do it well</p>
+&lt;p&gt;Do one thing, and do it well&lt;/p&gt;
 
-<hr />
+&lt;hr /&gt;
 
-<p>Open/closed</p>
+&lt;p&gt;Open/closed&lt;/p&gt;
 
-<p>Classes should be open for extension but closed for modification</p>
+&lt;p&gt;Classes should be open for extension but closed for modification&lt;/p&gt;
 
-<hr />
+&lt;hr /&gt;
 
-<p>Liskov’s Substitution</p>
+&lt;p&gt;Liskov’s Substitution&lt;/p&gt;
 
-<p>Children should not violate the contracts of parents.</p>
+&lt;p&gt;Children should not violate the contracts of parents.&lt;/p&gt;
 
-<p>If you change a class with one of its children,
-the program should still work correctly.</p>
+&lt;p&gt;If you change a class with one of its children,
+the program should still work correctly.&lt;/p&gt;
 
-<p>Inheritance should pass the ‘Is-A’ test.</p>
+&lt;p&gt;Inheritance should pass the ‘Is-A’ test.&lt;/p&gt;
 
-<hr />
+&lt;hr /&gt;
 
-<p>Interface Segregation</p>
+&lt;p&gt;Interface Segregation&lt;/p&gt;
 
-<p>Many specific interfaces are better than one general interface</p>
+&lt;p&gt;Many specific interfaces are better than one general interface&lt;/p&gt;
 
-<hr />
+&lt;hr /&gt;
 
-<p>Dependency Inversion</p>
+&lt;p&gt;Dependency Inversion&lt;/p&gt;
 
-<p>Provide dependencies from outside because it makes testing easier, and modularity</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Single responsibility]]></summary></entry><entry><title type="html">Security for Web</title><link href="https://selimslab.github.io/tech/sec-web/" rel="alternate" type="text/html" title="Security for Web" /><published>2022-09-27T17:49:59+03:00</published><updated>2022-09-27T13:21:53+03:00</updated><id>https://selimslab.github.io/tech/sec-web</id><content type="html" xml:base="https://selimslab.github.io/tech/sec-web/"><![CDATA[<h2 id="auth">Auth</h2>
+&lt;p&gt;Provide dependencies from outside because it makes testing easier, and modularity&lt;/p&gt;</content><author><name></name></author><summary type="html">Single responsibility</summary></entry><entry><title type="html">Security for Web</title><link href="http://localhost:4000/tech/sec-web/" rel="alternate" type="text/html" title="Security for Web" /><published>2022-09-28T03:20:52+03:00</published><updated>2022-09-28T03:20:52+03:00</updated><id>http://localhost:4000/tech/sec-web</id><content type="html" xml:base="http://localhost:4000/tech/sec-web/">&lt;h2 id=&quot;auth&quot;&gt;Auth&lt;/h2&gt;
 
-<p>Use 2-factor</p>
+&lt;p&gt;Use 2-factor&lt;/p&gt;
 
-<p>Add exponential delay to repeated login attempts</p>
+&lt;p&gt;Add exponential delay to repeated login attempts&lt;/p&gt;
 
-<p>Lock account after repeated failed login attempts</p>
+&lt;p&gt;Lock account after repeated failed login attempts&lt;/p&gt;
 
-<p>Use authorization levels.</p>
+&lt;p&gt;Use authorization levels.&lt;/p&gt;
 
-<p>Least privilege, never grant more access than required.</p>
+&lt;p&gt;Least privilege, never grant more access than required.&lt;/p&gt;
 
-<p>Separation of privileges, so your system is not all or nothing</p>
+&lt;p&gt;Separation of privileges, so your system is not all or nothing&lt;/p&gt;
 
-<p>Use allow-lists, not block-lists</p>
+&lt;p&gt;Use allow-lists, not block-lists&lt;/p&gt;
 
-<h2 id="sql">SQL</h2>
+&lt;h2 id=&quot;sql&quot;&gt;SQL&lt;/h2&gt;
 
-<p>Parametrize queries to prevent SQL injection</p>
+&lt;p&gt;Parametrize queries to prevent SQL injection&lt;/p&gt;
 
-<h2 id="cookies">Cookies</h2>
+&lt;h2 id=&quot;cookies&quot;&gt;Cookies&lt;/h2&gt;
 
-<p>They are mainly used for managing sessions, tracking, and personalization</p>
+&lt;p&gt;They are mainly used for managing sessions, tracking, and personalization&lt;/p&gt;
 
-<p>Prepend with <code class="language-plaintext highlighter-rouge">__Host-</code> to restrict cookie on a specific domain (no subdomains)</p>
+&lt;p&gt;Prepend with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;__Host-&lt;/code&gt; to restrict cookie on a specific domain (no subdomains)&lt;/p&gt;
 
-<p>Prepend cookies with <code class="language-plaintext highlighter-rouge">__Secure-</code> to prevent them from being overwritten.</p>
+&lt;p&gt;Prepend cookies with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;__Secure-&lt;/code&gt; to prevent them from being overwritten.&lt;/p&gt;
 
-<p><code class="language-plaintext highlighter-rouge">__Host-</code> prefix is stricter than <code class="language-plaintext highlighter-rouge">__Secure</code></p>
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;__Host-&lt;/code&gt; prefix is stricter than &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;__Secure&lt;/code&gt;&lt;/p&gt;
 
-<p><code class="language-plaintext highlighter-rouge">Expires</code> set an expiration</p>
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Expires&lt;/code&gt; set an expiration&lt;/p&gt;
 
-<p><code class="language-plaintext highlighter-rouge">Secure</code> header make cookies HTTPS</p>
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Secure&lt;/code&gt; header make cookies HTTPS&lt;/p&gt;
 
-<p><code class="language-plaintext highlighter-rouge">HTTPOnly</code> header to prevent JavaScript access</p>
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;HTTPOnly&lt;/code&gt; header to prevent JavaScript access&lt;/p&gt;
 
-<p><code class="language-plaintext highlighter-rouge">SameSite</code> to prevent sending the cookie via cross-origin requests</p>
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SameSite&lt;/code&gt; to prevent sending the cookie via cross-origin requests&lt;/p&gt;
 
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre><span class="nb">document</span><span class="p">.</span><span class="nx">cookie</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">_Host-username=Jane; Secure; HttpOnly; Path=/; SameSite=Strict</span><span class="dl">"</span><span class="p">;</span>
-</pre></td></tr></tbody></table></code></pre></div></div>
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;cookie&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;_Host-username=Jane; Secure; HttpOnly; Path=/; SameSite=Strict&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h2 id="cross-site-request-forgery-csrf">Cross-site request forgery CSRF</h2>
+&lt;h2 id=&quot;cross-site-request-forgery-csrf&quot;&gt;Cross-site request forgery CSRF&lt;/h2&gt;
 
-<p>CSRF is forgery of a valid request.</p>
+&lt;p&gt;CSRF is forgery of a valid request.&lt;/p&gt;
 
-<p>It is possible to forge a fake request if</p>
-<ol>
-  <li>the only mechanism to track user session is a cookie,</li>
-  <li>all request parameters predictable</li>
-</ol>
+&lt;p&gt;It is possible to forge a fake request if&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;the only mechanism to track user session is a cookie,&lt;/li&gt;
+  &lt;li&gt;all request parameters predictable&lt;/li&gt;
+&lt;/ol&gt;
 
-<p>To prevent it, we need at least one unpredictable parameter, a CSRF token.</p>
+&lt;p&gt;To prevent it, we need at least one unpredictable parameter, a CSRF token.&lt;/p&gt;
 
-<p>This token is a large random value, unique per user &amp; per user session.</p>
+&lt;p&gt;This token is a large random value, unique per user &amp;amp; per user session.&lt;/p&gt;
 
-<p>Make sure your forms have CSRF tokens.</p>
+&lt;p&gt;Make sure your forms have CSRF tokens.&lt;/p&gt;
 
-<p><br /></p>
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-<p>CSRF tokens should not be sent within cookies.</p>
+&lt;p&gt;CSRF tokens should not be sent within cookies.&lt;/p&gt;
 
-<p>Use <code class="language-plaintext highlighter-rouge">SameSite</code> header to forbid sending the cookie via cross-origin requests</p>
+&lt;p&gt;Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SameSite&lt;/code&gt; header to forbid sending the cookie via cross-origin requests&lt;/p&gt;
 
-<p><a href="https://portswigger.net/web-security/csrf">more on CSRF</a></p>
+&lt;p&gt;&lt;a href=&quot;https://portswigger.net/web-security/csrf&quot;&gt;more on CSRF&lt;/a&gt;&lt;/p&gt;
 
-<h2 id="cross-origin-resource-sharing-cors">Cross-origin Resource Sharing (CORS)</h2>
+&lt;h2 id=&quot;cross-origin-resource-sharing-cors&quot;&gt;Cross-origin Resource Sharing (CORS)&lt;/h2&gt;
 
-<p>an origin is a tuple of protocol:host:port</p>
+&lt;p&gt;an origin is a tuple of protocol:host:port&lt;/p&gt;
 
-<p><code class="language-plaintext highlighter-rouge">Access-Control-Allow-Origin: https://x.com:8081</code>  only the specified origin can access</p>
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Access-Control-Allow-Origin: https://x.com:8081&lt;/code&gt;  only the specified origin can access&lt;/p&gt;
 
-<p><code class="language-plaintext highlighter-rouge">Access-Control-Allow-Origin: *</code> every origin can access</p>
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Access-Control-Allow-Origin: *&lt;/code&gt; every origin can access&lt;/p&gt;
 
-<p>By default, browser XMLHttpRequest or fetch APIs allows same-origin only</p>
+&lt;p&gt;By default, browser XMLHttpRequest or fetch APIs allows same-origin only&lt;/p&gt;
 
-<p>Use <code class="language-plaintext highlighter-rouge">Access-Control-Allow-Origin</code> to manage CORS</p>
+&lt;p&gt;Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Access-Control-Allow-Origin&lt;/code&gt; to manage CORS&lt;/p&gt;
 
-<p>Use <code class="language-plaintext highlighter-rouge">integrity</code> to verify a resource is not modified on the way</p>
+&lt;p&gt;Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;integrity&lt;/code&gt; to verify a resource is not modified on the way&lt;/p&gt;
 
-<p>Use <code class="language-plaintext highlighter-rouge">X-Frame-Options: DENY</code> to disallow allow attempts to iframe site</p>
+&lt;p&gt;Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;X-Frame-Options: DENY&lt;/code&gt; to disallow allow attempts to iframe site&lt;/p&gt;
 
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">more on CORS</a></p>
+&lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS&quot;&gt;more on CORS&lt;/a&gt;&lt;/p&gt;
 
-<h2 id="cross-site-scripting-xss">Cross-site scripting XSS</h2>
+&lt;h2 id=&quot;cross-site-scripting-xss&quot;&gt;Cross-site scripting XSS&lt;/h2&gt;
 
-<p>It is injecting malicious code into a website so user’s browser executes it</p>
+&lt;p&gt;It is injecting malicious code into a website so user’s browser executes it&lt;/p&gt;
 
-<p>To prevent, validate and encode. For example <code class="language-plaintext highlighter-rouge">&lt;script&gt;</code> would be encoded as <code class="language-plaintext highlighter-rouge">&amp;lt;script&amp;gt;</code></p>
+&lt;p&gt;To prevent, validate and encode. For example &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;script&amp;gt;&lt;/code&gt; would be encoded as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;amp;lt;script&amp;amp;gt;&lt;/code&gt;&lt;/p&gt;
 
-<p>Set <code class="language-plaintext highlighter-rouge">Content Security Policy</code> header</p>
+&lt;p&gt;Set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Content Security Policy&lt;/code&gt; header&lt;/p&gt;
 
-<p>so the browser will run only allow the white-listed scripts and assets</p>
+&lt;p&gt;so the browser will run only allow the white-listed scripts and assets&lt;/p&gt;
 
-<p>By using CSP to disable inline JavaScript, you can effectively eliminate almost all XSS attacks against your site.</p>
+&lt;p&gt;By using CSP to disable inline JavaScript, you can effectively eliminate almost all XSS attacks against your site.&lt;/p&gt;
 
-<p>Disabling inline JavaScript means that all JavaScript must be loaded from script src tags.</p>
+&lt;p&gt;Disabling inline JavaScript means that all JavaScript must be loaded from script src tags.&lt;/p&gt;
 
-<p>an example CSP response header</p>
+&lt;p&gt;an example CSP response header&lt;/p&gt;
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2
 3
 4
 5
 6
 7
-</pre></td><td class="rouge-code"><pre>Content-Security-Policy: 
-default-src <span class="s1">'none'</span><span class="p">;</span> 
-object-src <span class="s1">'none'</span><span class="p">;</span> 
-script-src <span class="s1">'self'</span><span class="p">;</span> 
-style-src <span class="s1">'self'</span><span class="p">;</span>
-img-src <span class="s1">'self'</span> <span class="s1">'https://i.imgur.com'</span><span class="p">;</span>
-font-src <span class="s1">'https://fonts.googleapis.com'</span><span class="p">;</span>
-</pre></td></tr></tbody></table></code></pre></div></div>
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;Content-Security-Policy: 
+default-src &lt;span class=&quot;s1&quot;&gt;'none'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
+object-src &lt;span class=&quot;s1&quot;&gt;'none'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
+script-src &lt;span class=&quot;s1&quot;&gt;'self'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
+style-src &lt;span class=&quot;s1&quot;&gt;'self'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+img-src &lt;span class=&quot;s1&quot;&gt;'self'&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'https://i.imgur.com'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+font-src &lt;span class=&quot;s1&quot;&gt;'https://fonts.googleapis.com'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h2 id="more">More</h2>
+&lt;h2 id=&quot;more&quot;&gt;More&lt;/h2&gt;
 
-<p><a href="https://www.hacksplaining.com/lessons">Pick a Vulnerability to Learn About</a></p>
+&lt;p&gt;&lt;a href=&quot;https://www.hacksplaining.com/lessons&quot;&gt;Pick a Vulnerability to Learn About&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://blog.gitguardian.com/secrets-api-management/#secrets-as-service">Best practices for managing &amp; storing secrets like API keys and other credentials [2020]</a></p>
+&lt;p&gt;&lt;a href=&quot;https://blog.gitguardian.com/secrets-api-management/#secrets-as-service&quot;&gt;Best practices for managing &amp;amp; storing secrets like API keys and other credentials [2020]&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://stackoverflow.com/questions/2794016/what-should-every-programmer-know-about-security">https://stackoverflow.com/questions/2794016/what-should-every-programmer-know-about-security</a></p>
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/2794016/what-should-every-programmer-know-about-security&quot;&gt;https://stackoverflow.com/questions/2794016/what-should-every-programmer-know-about-security&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://stackoverflow.com/questions/tagged/security">https://stackoverflow.com/questions/tagged/security</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Auth]]></summary></entry><entry><title type="html">Security 🔐</title><link href="https://selimslab.github.io/tech/sec-general/" rel="alternate" type="text/html" title="Security 🔐" /><published>2022-09-27T17:49:59+03:00</published><updated>2022-09-27T13:21:53+03:00</updated><id>https://selimslab.github.io/tech/sec-general</id><content type="html" xml:base="https://selimslab.github.io/tech/sec-general/"><![CDATA[<p>Prevent problems before they happen</p>
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/tagged/security&quot;&gt;https://stackoverflow.com/questions/tagged/security&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Auth</summary></entry><entry><title type="html">Security 🔐</title><link href="http://localhost:4000/tech/sec-general/" rel="alternate" type="text/html" title="Security 🔐" /><published>2022-09-28T03:20:52+03:00</published><updated>2022-09-28T03:20:52+03:00</updated><id>http://localhost:4000/tech/sec-general</id><content type="html" xml:base="http://localhost:4000/tech/sec-general/">&lt;p&gt;Prevent problems before they happen&lt;/p&gt;
 
-<p>What can go wrong?</p>
+&lt;p&gt;What can go wrong?&lt;/p&gt;
 
-<p>Model possible threats</p>
+&lt;p&gt;Model possible threats&lt;/p&gt;
 
-<p>Simpler the system, smaller the attack surface</p>
+&lt;p&gt;Simpler the system, smaller the attack surface&lt;/p&gt;
 
-<p>Validate</p>
+&lt;p&gt;Validate&lt;/p&gt;
 
-<p>Sanitize</p>
+&lt;p&gt;Sanitize&lt;/p&gt;
 
-<p>Isolate</p>
+&lt;p&gt;Isolate&lt;/p&gt;
 
-<p>Don’t try to roll your own security solutions, it’s a community effort</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Prevent problems before they happen]]></summary></entry><entry><title type="html">TCP/IP Model vs OSI Model</title><link href="https://selimslab.github.io/tech/network-layers/" rel="alternate" type="text/html" title="TCP/IP Model vs OSI Model" /><published>2022-09-27T17:49:59+03:00</published><updated>2022-09-27T13:21:53+03:00</updated><id>https://selimslab.github.io/tech/network-layers</id><content type="html" xml:base="https://selimslab.github.io/tech/network-layers/"><![CDATA[<h2 id="tcpip-model">TCP/IP Model</h2>
+&lt;p&gt;Don’t try to roll your own security solutions, it’s a community effort&lt;/p&gt;</content><author><name></name></author><summary type="html">Prevent problems before they happen</summary></entry><entry><title type="html">The Big Rewrite</title><link href="http://localhost:4000/tech/rewrite/" rel="alternate" type="text/html" title="The Big Rewrite" /><published>2022-09-28T03:20:52+03:00</published><updated>2022-09-28T03:20:52+03:00</updated><id>http://localhost:4000/tech/rewrite</id><content type="html" xml:base="http://localhost:4000/tech/rewrite/">&lt;p&gt;&lt;a href=&quot;https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/&quot;&gt;Things You Should Never Do, Part I – Joel on Software&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Things You Should Never Do, Part I – Joel on Software</summary></entry><entry><title type="html">TCP/IP Model vs OSI Model</title><link href="http://localhost:4000/tech/network-layers/" rel="alternate" type="text/html" title="TCP/IP Model vs OSI Model" /><published>2022-09-28T03:20:52+03:00</published><updated>2022-09-28T03:20:52+03:00</updated><id>http://localhost:4000/tech/network-layers</id><content type="html" xml:base="http://localhost:4000/tech/network-layers/">&lt;h2 id=&quot;tcpip-model&quot;&gt;TCP/IP Model&lt;/h2&gt;
 
-<p>Application</p>
+&lt;p&gt;Application&lt;/p&gt;
 
-<p>Network</p>
+&lt;p&gt;Network&lt;/p&gt;
 
-<p>Transport</p>
+&lt;p&gt;Transport&lt;/p&gt;
 
-<p>Link</p>
+&lt;p&gt;Link&lt;/p&gt;
 
-<hr />
+&lt;hr /&gt;
 
-<p>eg.</p>
+&lt;p&gt;eg.&lt;/p&gt;
 
-<p>HTTP</p>
+&lt;p&gt;HTTP&lt;/p&gt;
 
-<p>TCP</p>
+&lt;p&gt;TCP&lt;/p&gt;
 
-<p>IP</p>
+&lt;p&gt;IP&lt;/p&gt;
 
-<p>Ethernet</p>
+&lt;p&gt;Ethernet&lt;/p&gt;
 
-<hr />
+&lt;hr /&gt;
 
-<h2 id="osi-model">OSI Model</h2>
+&lt;h2 id=&quot;osi-model&quot;&gt;OSI Model&lt;/h2&gt;
 
-<p>App</p>
+&lt;p&gt;App&lt;/p&gt;
 
-<p>Presentation</p>
+&lt;p&gt;Presentation&lt;/p&gt;
 
-<p>Session</p>
+&lt;p&gt;Session&lt;/p&gt;
 
-<hr />
+&lt;hr /&gt;
 
-<p>Transport</p>
+&lt;p&gt;Transport&lt;/p&gt;
 
-<p>Network</p>
+&lt;p&gt;Network&lt;/p&gt;
 
-<hr />
+&lt;hr /&gt;
 
-<p>Data link</p>
+&lt;p&gt;Data link&lt;/p&gt;
 
-<p>Physical</p>
+&lt;p&gt;Physical&lt;/p&gt;
 
-<hr />
+&lt;hr /&gt;
 
-<p>eg.</p>
+&lt;p&gt;eg.&lt;/p&gt;
 
-<p>http</p>
+&lt;p&gt;http&lt;/p&gt;
 
-<p>jpeg</p>
+&lt;p&gt;jpeg&lt;/p&gt;
 
-<p>session</p>
+&lt;p&gt;session&lt;/p&gt;
 
-<p>TCP</p>
+&lt;p&gt;TCP&lt;/p&gt;
 
-<p>IP</p>
+&lt;p&gt;IP&lt;/p&gt;
 
-<p>Wifi</p>
+&lt;p&gt;Wifi&lt;/p&gt;
 
-<p>Wire</p>]]></content><author><name></name></author><summary type="html"><![CDATA[TCP/IP Model]]></summary></entry><entry><title type="html">Nature vs tech 🍃</title><link href="https://selimslab.github.io/tech/natural-tech/" rel="alternate" type="text/html" title="Nature vs tech 🍃" /><published>2022-09-27T17:49:59+03:00</published><updated>2022-09-27T13:21:53+03:00</updated><id>https://selimslab.github.io/tech/natural-tech</id><content type="html" xml:base="https://selimslab.github.io/tech/natural-tech/"><![CDATA[<p>Tech blends into the reality as it matures</p>
+&lt;p&gt;Wire&lt;/p&gt;</content><author><name></name></author><summary type="html">TCP/IP Model</summary></entry><entry><title type="html">Nature vs tech 🍃</title><link href="http://localhost:4000/tech/natural-tech/" rel="alternate" type="text/html" title="Nature vs tech 🍃" /><published>2022-09-28T03:20:52+03:00</published><updated>2022-09-28T03:20:52+03:00</updated><id>http://localhost:4000/tech/natural-tech</id><content type="html" xml:base="http://localhost:4000/tech/natural-tech/">&lt;p&gt;Tech blends into the reality as it matures&lt;/p&gt;
 
-<p>We evolved to use our hands and eyes,</p>
+&lt;p&gt;We evolved to use our hands and eyes,&lt;/p&gt;
 
-<p>not to tap on glasses,</p>
+&lt;p&gt;not to tap on glasses,&lt;/p&gt;
 
-<p>or to spend our days dreaming in artificial virtual places,</p>
+&lt;p&gt;or to spend our days dreaming in artificial virtual places,&lt;/p&gt;
 
-<p>tech should bring us together and make our lives richer instead of making us comfortably numb</p>
+&lt;p&gt;tech should bring us together and make our lives richer instead of making us comfortably numb&lt;/p&gt;
 
-<p><a href="http://worrydream.com/#!/ABriefRantOnTheFutureOfInteractionDesign">http://worrydream.com/#!/ABriefRantOnTheFutureOfInteractionDesign</a></p>
+&lt;p&gt;&lt;a href=&quot;http://worrydream.com/#!/ABriefRantOnTheFutureOfInteractionDesign&quot;&gt;http://worrydream.com/#!/ABriefRantOnTheFutureOfInteractionDesign&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://www.sony.net/Products/Developer-Spatial-Reality-display/en/">https://www.sony.net/Products/Developer-Spatial-Reality-display/en/</a></p>
+&lt;p&gt;&lt;a href=&quot;https://www.sony.net/Products/Developer-Spatial-Reality-display/en/&quot;&gt;https://www.sony.net/Products/Developer-Spatial-Reality-display/en/&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://blog.google/technology/research/project-starline/">https://blog.google/technology/research/project-starline/</a></p>
+&lt;p&gt;&lt;a href=&quot;https://blog.google/technology/research/project-starline/&quot;&gt;https://blog.google/technology/research/project-starline/&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://ciechanow.ski/mechanical-watch/">https://ciechanow.ski/mechanical-watch/</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Tech blends into the reality as it matures]]></summary></entry><entry><title type="html">Links for makers</title><link href="https://selimslab.github.io/tech/makers/" rel="alternate" type="text/html" title="Links for makers" /><published>2022-09-27T17:49:59+03:00</published><updated>2022-09-27T13:21:53+03:00</updated><id>https://selimslab.github.io/tech/makers</id><content type="html" xml:base="https://selimslab.github.io/tech/makers/"><![CDATA[<h2 id="lists">Lists</h2>
+&lt;p&gt;&lt;a href=&quot;https://ciechanow.ski/mechanical-watch/&quot;&gt;https://ciechanow.ski/mechanical-watch/&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Tech blends into the reality as it matures</summary></entry><entry><title type="html">Links for makers</title><link href="http://localhost:4000/tech/makers/" rel="alternate" type="text/html" title="Links for makers" /><published>2022-09-28T03:20:52+03:00</published><updated>2022-09-28T03:20:52+03:00</updated><id>http://localhost:4000/tech/makers</id><content type="html" xml:base="http://localhost:4000/tech/makers/">&lt;h2 id=&quot;lists&quot;&gt;Lists&lt;/h2&gt;
 
-<p><a href="http://aosabook.org/en/500L/">500 Lines or Less</a></p>
+&lt;p&gt;&lt;a href=&quot;http://aosabook.org/en/500L/&quot;&gt;500 Lines or Less&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://github.com/tuvtran/project-based-learning">tuvtran/project-based-learning: Curated list of project-based tutorials</a></p>
+&lt;p&gt;&lt;a href=&quot;https://github.com/tuvtran/project-based-learning&quot;&gt;tuvtran/project-based-learning: Curated list of project-based tutorials&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://github.com/danistefanovic/build-your-own-x#build-your-own-web-server">danistefanovic/build-your-own-x: 🤓 Build your own (insert technology here)</a></p>
+&lt;p&gt;&lt;a href=&quot;https://github.com/danistefanovic/build-your-own-x#build-your-own-web-server&quot;&gt;danistefanovic/build-your-own-x: 🤓 Build your own (insert technology here)&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="http://web.eecs.utk.edu/~azh/blog/challengingprojects.html">Challenging projects every programmer should try</a></p>
+&lt;p&gt;&lt;a href=&quot;http://web.eecs.utk.edu/~azh/blog/challengingprojects.html&quot;&gt;Challenging projects every programmer should try&lt;/a&gt;&lt;/p&gt;
 
-<h2 id="web">web</h2>
+&lt;h2 id=&quot;web&quot;&gt;web&lt;/h2&gt;
 
-<p><a href="https://blog.phuaxueyong.com/post/2020-06-15-how-to-make-a-video-chat-app/">How do you create a video chat application?</a></p>
+&lt;p&gt;&lt;a href=&quot;https://blog.phuaxueyong.com/post/2020-06-15-how-to-make-a-video-chat-app/&quot;&gt;How do you create a video chat application?&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://ruslanspivak.com/lsbaws-part1/">Let’s Build A Web Server. Part 1. - Ruslan’s Blog</a></p>
+&lt;p&gt;&lt;a href=&quot;https://ruslanspivak.com/lsbaws-part1/&quot;&gt;Let’s Build A Web Server. Part 1. - Ruslan’s Blog&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://ruslanspivak.com/lsbaws-part3/">Let’s Build A Web Server. Part 3. - Ruslan’s Blog</a></p>
+&lt;p&gt;&lt;a href=&quot;https://ruslanspivak.com/lsbaws-part3/&quot;&gt;Let’s Build A Web Server. Part 3. - Ruslan’s Blog&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://kasvith.me/posts/lets-create-a-simple-lb-go/">Let’s Create a Simple Load Balancer With Go - kasvith.me - a personal blog space</a></p>
+&lt;p&gt;&lt;a href=&quot;https://kasvith.me/posts/lets-create-a-simple-lb-go/&quot;&gt;Let’s Create a Simple Load Balancer With Go - kasvith.me - a personal blog space&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="http://joaoventura.net/blog/2017/python-webserver/">http server</a></p>
+&lt;p&gt;&lt;a href=&quot;http://joaoventura.net/blog/2017/python-webserver/&quot;&gt;http server&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/">Introduction · Build web application with Golang</a></p>
+&lt;p&gt;&lt;a href=&quot;https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/&quot;&gt;Introduction · Build web application with Golang&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://golang.org/doc/articles/wiki/">Writing Web Applications - The Go Programming Language</a></p>
+&lt;p&gt;&lt;a href=&quot;https://golang.org/doc/articles/wiki/&quot;&gt;Writing Web Applications - The Go Programming Language&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://sheharyar.me/blog/simple-chat-phoenix-elixir/">Building a Simple Chat App With Elixir and Phoenix - Sheharyar Naseer</a></p>
+&lt;p&gt;&lt;a href=&quot;https://sheharyar.me/blog/simple-chat-phoenix-elixir/&quot;&gt;Building a Simple Chat App With Elixir and Phoenix - Sheharyar Naseer&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/03.4.html">Get into http package · Build web application with Golang</a></p>
+&lt;p&gt;&lt;a href=&quot;https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/03.4.html&quot;&gt;Get into http package · Build web application with Golang&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://blog.jse.li/posts/torrent/">Building a BitTorrent client from the ground up in Go - Jesse Li</a></p>
+&lt;p&gt;&lt;a href=&quot;https://blog.jse.li/posts/torrent/&quot;&gt;Building a BitTorrent client from the ground up in Go - Jesse Li&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://wattenberger.com/blog/react-hooks">Thinking in React Hooks</a></p>
+&lt;p&gt;&lt;a href=&quot;https://wattenberger.com/blog/react-hooks&quot;&gt;Thinking in React Hooks&lt;/a&gt;&lt;/p&gt;
 
-<h2 id="containers">containers</h2>
+&lt;h2 id=&quot;containers&quot;&gt;containers&lt;/h2&gt;
 
-<p><a href="https://unixism.net/2020/06/containers-the-hard-way-gocker-a-mini-docker-written-in-go/">Containers the hard way: Gocker: A mini Docker written in Go - Unixism</a></p>
+&lt;p&gt;&lt;a href=&quot;https://unixism.net/2020/06/containers-the-hard-way-gocker-a-mini-docker-written-in-go/&quot;&gt;Containers the hard way: Gocker: A mini Docker written in Go - Unixism&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://zserge.com/posts/containers/">Linux containers in a few lines of code</a></p>
+&lt;p&gt;&lt;a href=&quot;https://zserge.com/posts/containers/&quot;&gt;Linux containers in a few lines of code&lt;/a&gt;&lt;/p&gt;
 
-<h1 id="languages">languages</h1>
+&lt;h1 id=&quot;languages&quot;&gt;languages&lt;/h1&gt;
 
-<p><a href="https://zserge.com/posts/jvm/">How to write a (toy) JVM</a></p>
+&lt;p&gt;&lt;a href=&quot;https://zserge.com/posts/jvm/&quot;&gt;How to write a (toy) JVM&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="http://web.eecs.utk.edu/~azh/blog/teenytinycompiler2.html">Let’s make a Teeny Tiny compiler, part 2 - Austin Z. Henley</a></p>
+&lt;p&gt;&lt;a href=&quot;http://web.eecs.utk.edu/~azh/blog/teenytinycompiler2.html&quot;&gt;Let’s make a Teeny Tiny compiler, part 2 - Austin Z. Henley&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://www.roguelynn.com/words/asyncio-we-did-it-wrong/">asyncio: We Did It Wrong – roguelynn</a></p>
+&lt;p&gt;&lt;a href=&quot;https://www.roguelynn.com/words/asyncio-we-did-it-wrong/&quot;&gt;asyncio: We Did It Wrong – roguelynn&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="http://journal.stuffwithstuff.com/2013/12/08/babys-first-garbage-collector/">Baby’s First Garbage Collector – journal.stuffwithstuff.com</a></p>
+&lt;p&gt;&lt;a href=&quot;http://journal.stuffwithstuff.com/2013/12/08/babys-first-garbage-collector/&quot;&gt;Baby’s First Garbage Collector – journal.stuffwithstuff.com&lt;/a&gt;&lt;/p&gt;
 
-<h2 id="compilers">compilers</h2>
+&lt;h2 id=&quot;compilers&quot;&gt;compilers&lt;/h2&gt;
 
-<p><a href="https://increment.com/programming-languages/crash-course-in-compilers/">A crash course in compilers – Increment: Programming Languages</a></p>
+&lt;p&gt;&lt;a href=&quot;https://increment.com/programming-languages/crash-course-in-compilers/&quot;&gt;A crash course in compilers – Increment: Programming Languages&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="http://llvm.org/docs/tutorial/MyFirstLanguageFrontend/index.html">My First Language Frontend with LLVM Tutorial — LLVM 10 documentation</a></p>
+&lt;p&gt;&lt;a href=&quot;http://llvm.org/docs/tutorial/MyFirstLanguageFrontend/index.html&quot;&gt;My First Language Frontend with LLVM Tutorial — LLVM 10 documentation&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="http://llvm.org/docs/tutorial/MyFirstLanguageFrontend/LangImpl01.html">Kaleidoscope: Kaleidoscope Introduction and the Lexer — LLVM 10 documentation</a></p>
+&lt;p&gt;&lt;a href=&quot;http://llvm.org/docs/tutorial/MyFirstLanguageFrontend/LangImpl01.html&quot;&gt;Kaleidoscope: Kaleidoscope Introduction and the Lexer — LLVM 10 documentation&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://github.com/kanaka/mal/tree/master/impls/python">mal/impls/python at master · kanaka/mal</a></p>
+&lt;p&gt;&lt;a href=&quot;https://github.com/kanaka/mal/tree/master/impls/python&quot;&gt;mal/impls/python at master · kanaka/mal&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://inf.ethz.ch/personal/wirth/CompilerConstruction/index.html">Compiler Construction</a></p>
+&lt;p&gt;&lt;a href=&quot;https://inf.ethz.ch/personal/wirth/CompilerConstruction/index.html&quot;&gt;Compiler Construction&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://belkadan.com/blog/2016/05/So-You-Want-To-Be-A-Compiler-Wizard/">So You Want to Be a (Compiler) Wizard // -dealloc</a></p>
+&lt;p&gt;&lt;a href=&quot;https://belkadan.com/blog/2016/05/So-You-Want-To-Be-A-Compiler-Wizard/&quot;&gt;So You Want to Be a (Compiler) Wizard // -dealloc&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://nicoleorchard.com/blog/compilers">Nicole Orchard</a></p>
+&lt;p&gt;&lt;a href=&quot;https://nicoleorchard.com/blog/compilers&quot;&gt;Nicole Orchard&lt;/a&gt;&lt;/p&gt;
 
-<h2 id="interpreters">Interpreters</h2>
+&lt;h2 id=&quot;interpreters&quot;&gt;Interpreters&lt;/h2&gt;
 
-<p><a href="https://github.com/kanaka/mal#mal---make-a-lisp">kanaka/mal: mal - Make a Lisp</a></p>
+&lt;p&gt;&lt;a href=&quot;https://github.com/kanaka/mal#mal---make-a-lisp&quot;&gt;kanaka/mal: mal - Make a Lisp&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="http://craftinginterpreters.com/a-map-of-the-territory.html">A Map of the Territory · Crafting Interpreters</a></p>
+&lt;p&gt;&lt;a href=&quot;http://craftinginterpreters.com/a-map-of-the-territory.html&quot;&gt;A Map of the Territory · Crafting Interpreters&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="http://norvig.com/lispy.html">(How to Write a (Lisp) Interpreter (in Python))</a></p>
+&lt;p&gt;&lt;a href=&quot;http://norvig.com/lispy.html&quot;&gt;(How to Write a (Lisp) Interpreter (in Python))&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://ruslanspivak.com/lsbasi-part11/">Let’s Build A Simple Interpreter. Part 11. - Ruslan’s Blog</a></p>
+&lt;p&gt;&lt;a href=&quot;https://ruslanspivak.com/lsbasi-part11/&quot;&gt;Let’s Build A Simple Interpreter. Part 11. - Ruslan’s Blog&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="http://norvig.com/lispy2.html">(An ((Even Better) Lisp) Interpreter (in Python))</a></p>
+&lt;p&gt;&lt;a href=&quot;http://norvig.com/lispy2.html&quot;&gt;(An ((Even Better) Lisp) Interpreter (in Python))&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://github.com/robpike/lisp">robpike/lisp: Toy Lisp 1.5 interpreter</a></p>
+&lt;p&gt;&lt;a href=&quot;https://github.com/robpike/lisp&quot;&gt;robpike/lisp: Toy Lisp 1.5 interpreter&lt;/a&gt;&lt;/p&gt;
 
-<h3 id="os">OS</h3>
+&lt;h3 id=&quot;os&quot;&gt;OS&lt;/h3&gt;
 
-<p><a href="https://github.com/luisfmcalado/MiniOS/tree/master/kernel">MiniOS/kernel at master · luisfmcalado/MiniOS</a></p>
+&lt;p&gt;&lt;a href=&quot;https://github.com/luisfmcalado/MiniOS/tree/master/kernel&quot;&gt;MiniOS/kernel at master · luisfmcalado/MiniOS&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://os.phil-opp.com/">Writing an OS in Rust</a></p>
+&lt;p&gt;&lt;a href=&quot;https://os.phil-opp.com/&quot;&gt;Writing an OS in Rust&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://indradhanush.github.io/blog/writing-a-unix-shell-part-1/">Writing a Unix Shell - Part I – Cracking The Code</a></p>
+&lt;p&gt;&lt;a href=&quot;https://indradhanush.github.io/blog/writing-a-unix-shell-part-1/&quot;&gt;Writing a Unix Shell - Part I – Cracking The Code&lt;/a&gt;&lt;/p&gt;
 
-<h3 id="network">network</h3>
+&lt;h3 id=&quot;network&quot;&gt;network&lt;/h3&gt;
 
-<p><a href="https://github.com/saminiir/level-ip">saminiir/level-ip: A hacker’s userspace TCP/IP stack</a></p>
+&lt;p&gt;&lt;a href=&quot;https://github.com/saminiir/level-ip&quot;&gt;saminiir/level-ip: A hacker’s userspace TCP/IP stack&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://codelabs.developers.google.com/codelabs/webrtc-web/#0">Real time communication with WebRTC</a></p>
+&lt;p&gt;&lt;a href=&quot;https://codelabs.developers.google.com/codelabs/webrtc-web/#0&quot;&gt;Real time communication with WebRTC&lt;/a&gt;&lt;/p&gt;
 
-<h3 id="computer-graphics">computer graphics</h3>
+&lt;h3 id=&quot;computer-graphics&quot;&gt;computer graphics&lt;/h3&gt;
 
-<p><a href="https://github.com/ssloy/tinyrenderer">ssloy/tinyrenderer: A brief computer graphics / rendering course</a></p>
+&lt;p&gt;&lt;a href=&quot;https://github.com/ssloy/tinyrenderer&quot;&gt;ssloy/tinyrenderer: A brief computer graphics / rendering course&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://www.scratchapixel.com/index.php">Scratchapixel</a></p>
+&lt;p&gt;&lt;a href=&quot;https://www.scratchapixel.com/index.php&quot;&gt;Scratchapixel&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://blog.bruce-hill.com/6-useful-snippets">6 Useful Snippets</a></p>
+&lt;p&gt;&lt;a href=&quot;https://blog.bruce-hill.com/6-useful-snippets&quot;&gt;6 Useful Snippets&lt;/a&gt;&lt;/p&gt;
 
-<h2 id="systems">systems</h2>
+&lt;h2 id=&quot;systems&quot;&gt;systems&lt;/h2&gt;
 
-<p><a href="https://arjunsreedharan.org/post/148675821737/memory-allocators-101-write-a-simple-memory">Memory Allocators 101 - Write a simple memory allocator - Arjun Sreedharan</a></p>
+&lt;p&gt;&lt;a href=&quot;https://arjunsreedharan.org/post/148675821737/memory-allocators-101-write-a-simple-memory&quot;&gt;Memory Allocators 101 - Write a simple memory allocator - Arjun Sreedharan&lt;/a&gt;&lt;/p&gt;
 
-<h2 id="browser">browser</h2>
+&lt;h2 id=&quot;browser&quot;&gt;browser&lt;/h2&gt;
 
-<p><a href="https://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html">Let’s build a browser engine! Part 1: Getting started</a></p>
+&lt;p&gt;&lt;a href=&quot;https://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html&quot;&gt;Let’s build a browser engine! Part 1: Getting started&lt;/a&gt;&lt;/p&gt;
 
-<h2 id="git">git</h2>
+&lt;h2 id=&quot;git&quot;&gt;git&lt;/h2&gt;
 
-<p><a href="https://wyag.thb.lt/">Write yourself a Git!</a></p>
+&lt;p&gt;&lt;a href=&quot;https://wyag.thb.lt/&quot;&gt;Write yourself a Git!&lt;/a&gt;&lt;/p&gt;
 
-<h2 id="databases">databases</h2>
+&lt;h2 id=&quot;databases&quot;&gt;databases&lt;/h2&gt;
 
-<p><a href="https://notes.eatonphil.com/database-basics.html">Database basics: writing a SQL database from scratch in Go - notes.eatonphil.com</a></p>
+&lt;p&gt;&lt;a href=&quot;https://notes.eatonphil.com/database-basics.html&quot;&gt;Database basics: writing a SQL database from scratch in Go - notes.eatonphil.com&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://www.mikealche.com/software-development/how-to-implement-search-by-color-when-all-you-have-is-a-good-coffee">How to Implement Search By Color When All You Have is A Good Coffee - Mike Alche</a></p>
+&lt;p&gt;&lt;a href=&quot;https://www.mikealche.com/software-development/how-to-implement-search-by-color-when-all-you-have-is-a-good-coffee&quot;&gt;How to Implement Search By Color When All You Have is A Good Coffee - Mike Alche&lt;/a&gt;&lt;/p&gt;
 
-<h2 id="nlp">NLP</h2>
+&lt;h2 id=&quot;nlp&quot;&gt;NLP&lt;/h2&gt;
 
-<p><a href="https://course.spacy.io/en/">Advanced NLP with spaCy · A free online course</a></p>
+&lt;p&gt;&lt;a href=&quot;https://course.spacy.io/en/&quot;&gt;Advanced NLP with spaCy · A free online course&lt;/a&gt;&lt;/p&gt;
 
-<h2 id="algorithms">algorithms</h2>
+&lt;h2 id=&quot;algorithms&quot;&gt;algorithms&lt;/h2&gt;
 
-<p><a href="https://www.hackerrank.com/dashboard">hackerrank</a></p>
+&lt;p&gt;&lt;a href=&quot;https://www.hackerrank.com/dashboard&quot;&gt;hackerrank&lt;/a&gt;&lt;/p&gt;
 
-<h2 id="devops">devops</h2>
+&lt;h2 id=&quot;devops&quot;&gt;devops&lt;/h2&gt;
 
-<p><a href="https://github.com/snori74/linuxupskillchallenge">snori74/linuxupskillchallenge: Learn the skills required to sysadmin a remote Linux server from the commandline.</a></p>
+&lt;p&gt;&lt;a href=&quot;https://github.com/snori74/linuxupskillchallenge&quot;&gt;snori74/linuxupskillchallenge: Learn the skills required to sysadmin a remote Linux server from the commandline.&lt;/a&gt;&lt;/p&gt;
 
-<h2 id="other">other</h2>
+&lt;h2 id=&quot;other&quot;&gt;other&lt;/h2&gt;
 
-<p><a href="https://norvig.com/spell-correct.html">How to Write a Spelling Corrector</a></p>
+&lt;p&gt;&lt;a href=&quot;https://norvig.com/spell-correct.html&quot;&gt;How to Write a Spelling Corrector&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://0x65.dev/blog/2019-12-06/building-a-search-engine-from-scratch.html">Building a search engine from scratch</a></p>
+&lt;p&gt;&lt;a href=&quot;https://0x65.dev/blog/2019-12-06/building-a-search-engine-from-scratch.html&quot;&gt;Building a search engine from scratch&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://www.aosabook.org/en/500L/">Index of /en/500L</a></p>
+&lt;p&gt;&lt;a href=&quot;https://www.aosabook.org/en/500L/&quot;&gt;Index of /en/500L&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://eryb.space/2020/05/27/diving-into-go-by-building-a-cli-application.html">Eryb’s Space</a></p>
+&lt;p&gt;&lt;a href=&quot;https://eryb.space/2020/05/27/diving-into-go-by-building-a-cli-application.html&quot;&gt;Eryb’s Space&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://iknowwhatyoudownload.com/en/peer/?ip=78.175.225.36">Torrent downloads and distributions for IP 78.175.225.36</a></p>
+&lt;p&gt;&lt;a href=&quot;https://iknowwhatyoudownload.com/en/peer/?ip=78.175.225.36&quot;&gt;Torrent downloads and distributions for IP 78.175.225.36&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://0x65.dev/blog/2019-12-07/indexing-billions-of-text-vectors.html">Indexing Billions of Text Vectors</a></p>
+&lt;p&gt;&lt;a href=&quot;https://0x65.dev/blog/2019-12-07/indexing-billions-of-text-vectors.html&quot;&gt;Indexing Billions of Text Vectors&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://jameskle.com/writes/rec-sys-part-2">Recommendation System Series Part 2: The 10 Categories of Deep Recommendation Systems That Academic Researchers Should Pay Attention To — James Le</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Lists]]></summary></entry><entry><title type="html">Liked readings 🔖</title><link href="https://selimslab.github.io/tech/links/" rel="alternate" type="text/html" title="Liked readings 🔖" /><published>2022-09-27T17:49:59+03:00</published><updated>2022-09-27T13:21:53+03:00</updated><id>https://selimslab.github.io/tech/links</id><content type="html" xml:base="https://selimslab.github.io/tech/links/"><![CDATA[<p><a href="https://news.ycombinator.com/item?id=22918980">Ask HN: I’m a software engineer going blind, how should I prepare? - Hacker News</a></p>
-
-<p><a href="http://jsomers.net/hn/">The Hacker Classics</a></p>
-
-<p><a href="https://volument.com/blog/minimalism-the-most-undervalued-development-skill">Minimalism — An undervalued development skill</a></p>
-
-<p><a href="https://endler.dev/2020/folklore/">Hacker Folklore - Matthias Endler</a></p>
-
-<p><a href="http://antirez.com/news/112">The mythical 10x programmer by antirez</a></p>
-
-<p><a href="https://github.com/dwmkerr/hacker-laws">hacker laws</a></p>
-
-<p><a href="https://mcfunley.com/choose-boring-technology">Dan McKinley :: Choose Boring Technology</a></p>
-
-<p><a href="https://blog.juliobiason.me/thoughts/things-i-learnt-the-hard-way/">Julio Biason .Net 4.1 - Things I Learnt The Hard Way (in 30 Years of Software Development)</a></p>
-
-<p><a href="https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/">The Ten Commandments of Egoless Programming</a></p>
-
-<p><a href="https://josebrowne.com/on-coding-ego-and-attention/">On Coding, Ego and Attention</a></p>
-
-<p><a href="https://henrikwarne.com/2015/04/16/lessons-learned-in-software-development/">Lessons Learned in Software Development</a></p>
-
-<p><a href="https://danluu.com/sounds-easy/">I could do that in a weekend!</a></p>
-
-<p><a href="https://instadeq.com/blog/posts/things-end-users-care-about-but-programmers-dont/">Things end users care about but programmers don’t - Instadeq Blog</a></p>
-
-<p><a href="https://psgraphics.blogspot.com/2019/09/how-to-succeed-as-poor-programmer.html?m=1">Pete Shirley’s Graphics Blog: How to succeed as a poor programmer</a></p>
-
-<p><a href="https://muldoon.cloud/programming/2020/04/17/programming-rules-thumb.html">Rules of thumb for a 1x developer - The Other Mickey Wiki</a></p>
-
-<p><a href="https://calmtech.com/">Calm Technology</a></p>
-
-<p><a href="https://medium.com/thrive-global/how-technology-hijacks-peoples-minds-from-a-magician-and-google-s-design-ethicist-56d62ef5edf3">How Technology is Hijacking Your Mind — from a Magician and Google Design Ethicist</a></p>
-
-<p><a href="https://www.simplethread.com/20-things-ive-learned-in-my-20-years-as-a-software-enginee">https://www.simplethread.com/20-things-ive-learned-in-my-20-years-as-a-software-enginee</a></p>
-
-<p><a href="https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/">The Joel Test: 12 Steps to Better Code – Joel on Software</a></p>
-
-<p><a href="https://www.vincit.fi/fi/software-development-450-words-per-minute/">Software development 450 words per minute – Vincit</a></p>
-
-<p><a href="https://www.csc.gov.sg/articles/how-to-build-good-software">How to Build Good Software</a></p>
-
-<p><a href="https://queue.acm.org/detail.cfm?ref=rss&amp;id=3375635">API Practices If You Hate Your Customers - ACM Queue</a></p>
-
-<p><a href="https://www.bitlog.com/2020/02/12/why-are-we-so-bad-at-software-engineering/">Why are we so bad at software engineering? - www.bitlog.com</a></p>
-
-<p><a href="https://spacecraft.ssl.umd.edu/akins_laws.html">Akin’s Laws of Spacecraft Design</a></p>
-
-<p><a href="https://blog.prototypr.io/design-driven-development-36a30dd8088c">Design Driven Development — Using Design as a Tool for Teamwork</a></p>
-
-<p><a href="https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/">Things You Should Never Do, Part I – Joel on Software</a></p>
-
-<p><a href="https://martinfowler.com/articles/is-quality-worth-cost.html">Is High Quality Software Worth the Cost?</a></p>
-
-<p><a href="http://nsaphra.github.io/post/hands/">What Does a Coder Do If They Can’t Type? - Objective Funk</a></p>
-
-<p><a href="https://idlewords.com/talks/web_design_first_100_years.htm">Web Design - The First 100 Years</a></p>
-
-<p><a href="http://computers-are-fast.github.io/">One second code: Do YOU know how much your computer can do in a second?</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Ask HN: I’m a software engineer going blind, how should I prepare? - Hacker News]]></summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://jameskle.com/writes/rec-sys-part-2&quot;&gt;Recommendation System Series Part 2: The 10 Categories of Deep Recommendation Systems That Academic Researchers Should Pay Attention To — James Le&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Lists</summary></entry></feed>

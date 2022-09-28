@@ -444,7 +444,7 @@ import numpy as np
 </span>        <span class="n">ranks</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span> <span class="o">/</span> <span class="n">number_of_pages</span><span class="p">]</span> <span class="o">*</span> <span class="n">number_of_pages</span>
         <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">max_iterations</span><span class="p">):</span>
             <span class="n">new_ranks</span> <span class="o">=</span> <span class="n">ranks</span> <span class="o">*</span> <span class="n">transition_matrix</span>
-            <span class="n">logging</span><span class="p">.</span><span class="n">debug</span><span class="p">(</span><span class="sa">f</span><span class="s">"step </span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s"> </span><span class="si">{</span><span class="n">new_ranks</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+            <span class="n">logging</span><span class="p">.</span><span class="n">debug</span><span class="p">(</span><span class="s">f"step </span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s"> </span><span class="si">{</span><span class="n">new_ranks</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
             <span class="k">if</span> <span class="n">np</span><span class="p">.</span><span class="n">allclose</span><span class="p">(</span><span class="n">ranks</span><span class="p">,</span> <span class="n">new_ranks</span><span class="p">):</span>
                 <span class="k">break</span>
             <span class="n">ranks</span> <span class="o">=</span> <span class="n">new_ranks</span>
@@ -453,7 +453,7 @@ import numpy as np
 
     <span class="k">def</span> <span class="nf">create_page_rank</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">pages</span><span class="p">):</span>
         <span class="n">transition_matrix</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">create_transition_matrix</span><span class="p">(</span><span class="n">pages</span><span class="p">)</span>
-        <span class="n">logging</span><span class="p">.</span><span class="n">debug</span><span class="p">(</span><span class="sa">f</span><span class="s">"transition_matrix </span><span class="si">{</span><span class="n">transition_matrix</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+        <span class="n">logging</span><span class="p">.</span><span class="n">debug</span><span class="p">(</span><span class="s">f"transition_matrix </span><span class="si">{</span><span class="n">transition_matrix</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
         <span class="n">ranks</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">power_method</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">pages</span><span class="p">),</span> <span class="n">transition_matrix</span><span class="p">)</span>
         <span class="n">urls</span> <span class="o">=</span> <span class="p">[</span><span class="n">page</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">page</span> <span class="ow">in</span> <span class="n">pages</span><span class="p">]</span>
         <span class="n">page_rank</span> <span class="o">=</span> <span class="p">{</span>
@@ -476,7 +476,7 @@ import numpy as np
 
     <span class="k">def</span> <span class="nf">search</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">query</span><span class="p">):</span>
         <span class="n">cosine_similarity_scores</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">ranker</span><span class="p">.</span><span class="n">get_cosine_similarity_scores</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">index</span><span class="p">,</span> <span class="bp">self</span><span class="p">.</span><span class="n">number_of_pages</span><span class="p">,</span> <span class="n">query</span><span class="p">)</span>
-        <span class="n">logging</span><span class="p">.</span><span class="n">debug</span><span class="p">(</span><span class="sa">f</span><span class="s">"cosine_similarity_scores </span><span class="si">{</span><span class="n">cosine_similarity_scores</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+        <span class="n">logging</span><span class="p">.</span><span class="n">debug</span><span class="p">(</span><span class="s">f"cosine_similarity_scores </span><span class="si">{</span><span class="n">cosine_similarity_scores</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
         <span class="n">final_scores</span> <span class="o">=</span> <span class="p">[(</span><span class="n">url</span><span class="p">,</span> <span class="n">score</span> <span class="o">*</span> <span class="bp">self</span><span class="p">.</span><span class="n">page_rank</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">))</span> <span class="k">for</span> <span class="n">url</span><span class="p">,</span> <span class="n">score</span> <span class="ow">in</span> <span class="n">cosine_similarity_scores</span><span class="p">]</span>
         <span class="n">results</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">final_scores</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="n">operator</span><span class="p">.</span><span class="n">itemgetter</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="n">reverse</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">results</span>
@@ -490,7 +490,7 @@ import numpy as np
     <span class="n">ranker</span> <span class="o">=</span> <span class="n">PageRank</span><span class="p">(</span><span class="n">scorer</span><span class="p">)</span>
     <span class="n">engine</span> <span class="o">=</span> <span class="n">SearchEngine</span><span class="p">(</span><span class="n">indexer</span><span class="p">,</span> <span class="n">ranker</span><span class="p">)</span>
     <span class="n">engine</span><span class="p">.</span><span class="n">start</span><span class="p">(</span><span class="n">pages</span><span class="p">)</span>
-    <span class="n">logging</span><span class="p">.</span><span class="n">debug</span><span class="p">(</span><span class="sa">f</span><span class="s">"page_rank </span><span class="si">{</span><span class="n">engine</span><span class="p">.</span><span class="n">page_rank</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+    <span class="n">logging</span><span class="p">.</span><span class="n">debug</span><span class="p">(</span><span class="s">f"page_rank </span><span class="si">{</span><span class="n">engine</span><span class="p">.</span><span class="n">page_rank</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
     <span class="n">logging</span><span class="p">.</span><span class="n">debug</span><span class="p">(</span><span class="n">engine</span><span class="p">.</span><span class="n">index</span><span class="p">)</span>
 
     <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
@@ -521,8 +521,7 @@ import numpy as np
 
 <br>
 
-<p style="font-weight:300; font-size:1rem">last edit: Tue, Sep 27, 22</p>
-
+<!-- <p style="font-weight:300; font-size:1rem">last edit: </p> -->
 
 
 <div id="breadcrumbs">

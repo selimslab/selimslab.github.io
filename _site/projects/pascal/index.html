@@ -579,7 +579,7 @@ program text -&gt; Tokenizer -&gt; tokens -&gt; Parser -&gt; abstract syntax tre
         <span class="k">if</span> <span class="bp">self</span><span class="p">.</span><span class="n">current_token</span><span class="p">.</span><span class="nb">type</span> <span class="o">==</span> <span class="n">token_type</span><span class="p">:</span>
             <span class="bp">self</span><span class="p">.</span><span class="n">current_token</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">tokenizer</span><span class="p">.</span><span class="n">get_next_token</span><span class="p">()</span>
         <span class="k">else</span><span class="p">:</span>
-            <span class="k">raise</span> <span class="n">ParserError</span><span class="p">(</span><span class="sa">f</span><span class="s">"invalid input, </span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">current_token</span><span class="p">.</span><span class="nb">type</span><span class="p">,</span> <span class="n">token_type</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+            <span class="k">raise</span> <span class="n">ParserError</span><span class="p">(</span><span class="s">f"invalid input, </span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">current_token</span><span class="p">.</span><span class="nb">type</span><span class="p">,</span> <span class="n">token_type</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
 
     <span class="k">def</span> <span class="nf">factor</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="s">"""
@@ -658,7 +658,7 @@ program text -&gt; Tokenizer -&gt; tokens -&gt; Parser -&gt; abstract syntax tre
         <span class="k">return</span> <span class="n">visitor</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
 
     <span class="k">def</span> <span class="nf">generic_visit</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">node</span><span class="p">):</span>
-        <span class="k">raise</span> <span class="n">NodeVisitorError</span><span class="p">(</span><span class="sa">f</span><span class="s">'No method to visit </span><span class="si">{</span><span class="nb">type</span><span class="p">(</span><span class="n">node</span><span class="p">).</span><span class="n">__name__</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
+        <span class="k">raise</span> <span class="n">NodeVisitorError</span><span class="p">(</span><span class="s">f'No method to visit </span><span class="si">{</span><span class="nb">type</span><span class="p">(</span><span class="n">node</span><span class="p">).</span><span class="n">__name__</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
 
 
 <span class="k">class</span> <span class="nc">Interpreter</span><span class="p">(</span><span class="n">NodeVisitor</span><span class="p">):</span>
@@ -728,8 +728,7 @@ program text -&gt; Tokenizer -&gt; tokens -&gt; Parser -&gt; abstract syntax tre
 
 <br>
 
-<p style="font-weight:300; font-size:1rem">last edit: Tue, Sep 27, 22</p>
-
+<!-- <p style="font-weight:300; font-size:1rem">last edit: </p> -->
 
 
 <div id="breadcrumbs">

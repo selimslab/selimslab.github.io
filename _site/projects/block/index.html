@@ -275,7 +275,7 @@ from typing import List
 
     <span class="o">@</span><span class="nb">staticmethod</span>
     <span class="k">def</span> <span class="nf">is_valid_proof</span><span class="p">(</span><span class="n">last_proof</span><span class="p">,</span> <span class="n">proof</span><span class="p">):</span>
-        <span class="n">guess_hash</span> <span class="o">=</span> <span class="n">hashlib</span><span class="p">.</span><span class="n">sha256</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">last_proof</span><span class="si">}{</span><span class="n">proof</span><span class="si">}</span><span class="s">"</span><span class="p">).</span><span class="n">hexdigest</span><span class="p">()</span>
+        <span class="n">guess_hash</span> <span class="o">=</span> <span class="n">hashlib</span><span class="p">.</span><span class="n">sha256</span><span class="p">(</span><span class="s">f"</span><span class="si">{</span><span class="n">last_proof</span><span class="si">}{</span><span class="n">proof</span><span class="si">}</span><span class="s">"</span><span class="p">).</span><span class="n">hexdigest</span><span class="p">()</span>
         <span class="k">return</span> <span class="n">guess_hash</span><span class="p">[:</span><span class="mi">3</span><span class="p">]</span> <span class="o">==</span> <span class="s">"000"</span>
 
     <span class="k">def</span> <span class="nf">generate_proof_of_work</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">last_proof</span><span class="p">):</span>
@@ -309,7 +309,7 @@ from typing import List
         <span class="bp">self</span><span class="p">.</span><span class="n">add_new_transaction</span><span class="p">(</span><span class="n">prize_transaction</span><span class="p">)</span>
         <span class="n">new_proof</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">generate_proof_of_work</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">last_block</span><span class="p">.</span><span class="n">proof_of_work</span><span class="p">)</span>
         <span class="n">new_block</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">create_new_block</span><span class="p">(</span><span class="n">new_proof</span><span class="p">,</span> <span class="bp">self</span><span class="p">.</span><span class="n">last_block</span><span class="p">.</span><span class="n">previous_hash</span><span class="p">)</span>
-        <span class="k">return</span> <span class="sa">f</span><span class="s">"new block forged, </span><span class="si">{</span><span class="n">new_block</span><span class="si">}</span><span class="s">"</span>
+        <span class="k">return</span> <span class="s">f"new block forged, </span><span class="si">{</span><span class="n">new_block</span><span class="si">}</span><span class="s">"</span>
     
     <span class="k">def</span> <span class="nf">consensus</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="c1"># The longest valid chain in the network is the true chain
@@ -319,8 +319,7 @@ from typing import List
 
 <br>
 
-<p style="font-weight:300; font-size:1rem">last edit: Tue, Sep 27, 22</p>
-
+<!-- <p style="font-weight:300; font-size:1rem">last edit: </p> -->
 
 
 <div id="breadcrumbs">

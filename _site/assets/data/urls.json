@@ -26,6 +26,8 @@
   
       "/tech/network-layers/",
   
+      "/tech/rewrite/",
+  
       "/tech/sec-general/",
   
       "/tech/sec-web/",
@@ -101,6 +103,8 @@
   
       "/essais/children/",
   
+      "/essais/cities/",
+  
       "/essais/cognitive%20biases/",
   
       "/essais/communication/",
@@ -110,6 +114,8 @@
       "/essais/decisions/",
   
       "/essais/design/",
+  
+      "/essais/driving/",
   
       "/essais/entrepreneurship/",
   
@@ -124,8 +130,6 @@
       "/essais/leadership/",
   
       "/essais/learning/",
-  
-      "/essais/links/",
   
       "/essais/mental-models/",
   

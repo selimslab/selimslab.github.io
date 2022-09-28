@@ -148,7 +148,7 @@ def reverse_string(s):
 </span>    <span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="p">.</span><span class="n">lower</span><span class="p">()</span>
 
     <span class="c1"># Replace all none alphanumeric characters with spaces
-</span>    <span class="n">s</span> <span class="o">=</span> <span class="n">re</span><span class="p">.</span><span class="n">sub</span><span class="p">(</span><span class="sa">r</span><span class="s">"[^a-zA-Z0-9\s]"</span><span class="p">,</span> <span class="s">" "</span><span class="p">,</span> <span class="n">s</span><span class="p">)</span>
+</span>    <span class="n">s</span> <span class="o">=</span> <span class="n">re</span><span class="p">.</span><span class="n">sub</span><span class="p">(</span><span class="s">r"[^a-zA-Z0-9\s]"</span><span class="p">,</span> <span class="s">" "</span><span class="p">,</span> <span class="n">s</span><span class="p">)</span>
 
     <span class="c1"># Break sentence in the token, remove empty tokens
 </span>    <span class="n">tokens</span> <span class="o">=</span> <span class="p">[</span><span class="n">token</span> <span class="k">for</span> <span class="n">token</span> <span class="ow">in</span> <span class="n">s</span><span class="p">.</span><span class="n">split</span><span class="p">(</span><span class="s">" "</span><span class="p">)</span> <span class="k">if</span> <span class="n">token</span> <span class="o">!=</span> <span class="s">""</span><span class="p">]</span>
@@ -449,8 +449,7 @@ def reverse_string(s):
 
 <br>
 
-<p style="font-weight:300; font-size:1rem">last edit: Tue, Sep 27, 22</p>
-
+<!-- <p style="font-weight:300; font-size:1rem">last edit: </p> -->
 
 
 <div id="breadcrumbs">
