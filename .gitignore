@@ -1,5 +1,5 @@
 .*
+_site/*
 !.github
+!.vscode
 Gemfile.lock
-node_modules
-package.json
