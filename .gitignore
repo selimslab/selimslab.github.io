@@ -1,6 +1,4 @@
 .*
+_site
 !.github
 Gemfile.lock
-node_modules
-package.json
-_site/
