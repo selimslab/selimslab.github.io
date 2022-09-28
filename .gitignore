@@ -1,4 +1,5 @@
 .*
-_site
+_site/*
 !.github
+!.vscode
 Gemfile.lock
