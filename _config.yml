@@ -58,11 +58,11 @@ gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
-plugins:
-  - jekyll-last-modified-at
+# plugins:
+#   - jekyll-last-modified-at
 
-last-modified-at:
-    date-format: "%Y%m%d%H%M%S"
+# last-modified-at:
+#     date-format: "%Y%m%d%H%M%S"
 
 # Exclude these files from your production _site
 exclude:
@@ -82,10 +82,6 @@ collections:
 
   tech:    
     output: true 
-
-  security:
-    output: true 
-    permalink: /tech/:collection/:name
 
   projects:    
     output: true 

@@ -43,3 +43,7 @@ We are complicit in our employer's deeds
 ---
 
 <https://training.kalzumeus.com/newsletters/archive/consulting_1>
+
+Your Professional Decline Is Coming (Much) Sooner Than You Think
+
+Do what you can, now and here 

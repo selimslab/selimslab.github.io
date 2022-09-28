@@ -3,17 +3,6 @@
 title:  Liked readings 🔖
 --- 
 
-[Ask HN: I'm a software engineer going blind, how should I prepare? - Hacker News](https://news.ycombinator.com/item?id=22918980)
-
-[The Hacker Classics](http://jsomers.net/hn/)
-
-[Minimalism — An undervalued development skill](https://volument.com/blog/minimalism-the-most-undervalued-development-skill)
-
-[Hacker Folklore - Matthias Endler](https://endler.dev/2020/folklore/)
-
-[The mythical 10x programmer by antirez](http://antirez.com/news/112)
-
-[hacker laws](https://github.com/dwmkerr/hacker-laws)
 
 [Dan McKinley :: Choose Boring Technology](https://mcfunley.com/choose-boring-technology)
 
@@ -54,13 +43,6 @@ title:  Liked readings 🔖
 [Design Driven Development — Using Design as a Tool for Teamwork](https://blog.prototypr.io/design-driven-development-36a30dd8088c)
 
 
-[Things You Should Never Do, Part I – Joel on Software](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/)
 
-
-[Is High Quality Software Worth the Cost?](https://martinfowler.com/articles/is-quality-worth-cost.html)
-
-[What Does a Coder Do If They Can't Type? - Objective Funk](http://nsaphra.github.io/post/hands/)
-
-[Web Design - The First 100 Years](https://idlewords.com/talks/web_design_first_100_years.htm)
 
 [One second code: Do YOU know how much your computer can do in a second?](http://computers-are-fast.github.io/)
