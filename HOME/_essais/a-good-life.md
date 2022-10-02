@@ -221,3 +221,10 @@ Nature does not hurry, yet everything is accomplished
 ---
 
 "Very little is needed to make a happy life; it is all within yourself, in your way of thinking"
+
+---
+
+
+also see 
+
+<https://reasonandmeaning.com/2013/12/19/aristotle-on-the-good-and-meaningful-life/>
