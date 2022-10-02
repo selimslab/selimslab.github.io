@@ -4,6 +4,7 @@ title: Books 📚
 ---
 
 
+
 ## Lit 
 
 Cien años de soledad 
@@ -132,55 +133,5 @@ The Lessons of History, Durant, Will
 Understanding Power: The Indispensable Chomsky
 
 Metaphors We Live By
-
-## Some favorite authors
-
-Antoine de Saint-Exupéry
-
-Aristotle
-
-Cervantes
-
-Dostoyevski
-
-Epictetus
-
-Gogol
-
-Hawking
-
-Homer
-
-Kafka
-
-Kant
-
-Kierkegaard
-
-Lao Tzu
-
-Marcus Aurelius
-
-Marquez
-
-Montaigne
-
-Orwell
-
-Plato
-
-Sagan
-
-Sartre
-
-Schopenhauer
-
-Seneca
-
-Sheakspeare
-
-Tolkien
-
-Tolstoy
 
 
