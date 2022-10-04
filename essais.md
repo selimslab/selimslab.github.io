@@ -1,9 +1,8 @@
 ---
 layout: page
-tags: 
-    - page
-type: page
+title: Essais
 ---
+
 
 
 {% assign sorted = site.essais | sort: 'title' %}
