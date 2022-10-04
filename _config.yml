@@ -93,6 +93,10 @@ collections:
     output: true 
     permalink:  /:title/
 
+  algo:    
+    output: true 
+    permalink:  /:title/
+
   algorithms:    
     output: true 
     permalink:  /:title/

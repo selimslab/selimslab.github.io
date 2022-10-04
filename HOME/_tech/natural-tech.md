@@ -1,5 +1,4 @@
 ---
- 
 title: Nature vs tech 🍃 
 ---
 

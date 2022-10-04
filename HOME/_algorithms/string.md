@@ -1,34 +1,9 @@
 ---
- 
 title: String
+
 ---
 
-```python
-def reverse_string(s):
-    if len(s) == 1:
-        return s
-    return s[-1] + rev(s[:-1])
-```
 
-```python
-def generate_ngrams(s, n):
-    # Convert to lowercases
-    s = s.lower()
-
-    # Replace all none alphanumeric characters with spaces
-    s = re.sub(r"[^a-zA-Z0-9\s]", " ", s)
-
-    # Break sentence in the token, remove empty tokens
-    tokens = [token for token in s.split(" ") if token != ""]
-
-    n_grams = []
-
-    for i in range(len(tokens)):
-        n_gram = " ".join(tokens[i : i + n])
-        n_grams.append(n_gram)
-
-    return n_grams
-```
 
 ```python
 # with 2 pointers
@@ -182,6 +157,23 @@ b = "cdabcdab"
 assert repeatedStringMatch(a,b) == 3 
 ```
 
-## Norvig's spell corrector 
 
-<https://norvig.com/spell-correct.html>
+```python
+def generate_ngrams(s, n):
+    # Convert to lowercases
+    s = s.lower()
+
+    # Replace all none alphanumeric characters with spaces
+    s = re.sub(r"[^a-zA-Z0-9\s]", " ", s)
+
+    # Break sentence in the token, remove empty tokens
+    tokens = [token for token in s.split(" ") if token != ""]
+
+    n_grams = []
+
+    for i in range(len(tokens)):
+        n_gram = " ".join(tokens[i : i + n])
+        n_grams.append(n_gram)
+
+    return n_grams
+```

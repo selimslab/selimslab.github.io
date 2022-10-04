@@ -1,5 +1,4 @@
 ---
- 
 title: Principal Component Analysis
 ---
 

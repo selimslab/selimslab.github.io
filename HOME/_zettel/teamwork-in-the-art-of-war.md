@@ -1,5 +1,4 @@
 ---
- 
 title: Teamwork in the Art of War 
 ---
 

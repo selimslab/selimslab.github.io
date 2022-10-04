@@ -1,5 +1,4 @@
 ---
- 
 title:  Dev Heuristics
 --- 
 

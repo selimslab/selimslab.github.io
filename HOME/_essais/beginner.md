@@ -1,5 +1,4 @@
 ---
- 
 title:  For new programmers 👩🏿‍💻 
 ---
 

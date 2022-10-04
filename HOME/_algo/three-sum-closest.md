@@ -2,44 +2,32 @@
 tags: array
 ---
 
-
-```java
-/*
-Given nums = [2, 7, 11, 15], target = 9,
-
-Because nums[0] + nums[1] = 2 + 7 = 9,
-return [0, 1].
-*/
-
-public int[] twoSum(int[] nums, int target) {
-    Map<Integer, Integer> map = new HashMap<>();
-    for (int i = 0; i < nums.length; i++) {
-        int complement = target - nums[i];
-        if (map.containsKey(complement)) {
-            return new int[] { map.get(complement), i };
-        }
-        map.put(nums[i], i);
-    }
-    throw new IllegalArgumentException("No two sum solution");
-}
-
-assert new Solution().twoSum([2, 7, 11, 15], 9) == [0, 1]
-```
-
-
 ```py
-Given an integer array nums of length n and an integer target, find three integers in nums such that the sum is closest to target.
 
-Return the sum of the three integers.
+"""
+Three sum 
 
-You may assume that each input would have exactly one solution.
+find 3 integers summing closest to a target, 
 
+return their sum 
 
 Input: nums = [-1,2,1,-4], target = 1
 Output: 2
 Explanation: The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
+"""
 
 def threeSumClosest(self, nums: List[int], target: int) -> int:
+    """
+    sort the list 
+
+    for each num:
+        start left and right pointers at 0 and n-1 
+
+        if left + right + num is target return 
+        if the sum is closer, update the result 
+
+        if less then sum, move left, else move right 
+    """
     
     n = len(nums)
     

@@ -4,6 +4,11 @@ tags: array
 
 ```py
 def longestConsecutive(nums: List[int]) -> int:
+    """
+    for each num:
+        if num-1 in set, continue
+        check the streak 
+    """
     numset = set(nums)
     ans = 0
 

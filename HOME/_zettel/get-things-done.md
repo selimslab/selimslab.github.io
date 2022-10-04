@@ -1,5 +1,4 @@
 ---
- 
 title: How to get things done? ✅ 
 ---
 

@@ -1,6 +1,5 @@
 ---
- 
-title: Search
+
 ---
 
 ```python

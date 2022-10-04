@@ -1,5 +1,4 @@
 ---
- 
 title: Software Security 🔐
 --- 
 
