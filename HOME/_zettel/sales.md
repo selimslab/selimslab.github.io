@@ -1,5 +1,4 @@
 ---
-title: Sales
 ---
 
 Don’t sell. Help. 
@@ -17,3 +16,6 @@ and be able to make a case for yours.
 People don’t buy the thing, they buy the feeling they imagine. 
 
 Sell results. Show how your product's characteristics relevant to customer's motivations
+
+---
+

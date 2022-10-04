@@ -1,7 +1,4 @@
 ---
- 
-title: Stupidity
- 
 ---
 
 Bad judgement 

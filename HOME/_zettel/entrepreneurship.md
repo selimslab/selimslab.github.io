@@ -4,31 +4,21 @@ title: Entrepreneurship
 ---
 
 
-Know thy user and you are not your user 
+[[know-thy-user]]
 
----
 
-Understand your audience and their needs, identify pain
+[[0-1-n]]
 
-Ask about specific problems in the past and what they did about them
 
-Don't tell. Show. 
+[[in-praise-of-testing]]
 
----
 
-Test early and often 
+[[marketing]]
 
-One test is worth a thousand expert opinions.
-
----
-
-Marketing matters. Its how people perceive your work. 
-
-[[sales]]
+[[_zettel/sales]]
 
 In writing or didn't happen 
 
----
 
 Hire people you’d work for 
 

@@ -28,7 +28,9 @@ take a walk
 
 talk to a friend
 
-say no more often
+say no 
+
+manage your attention
 
 rely on habits and systems 
 
@@ -46,22 +48,15 @@ just start
 
 ---
 
+[[chronic-vs-acute-stress]]
 
-
-Define what you want because a weak definition means a bad outcome
+[[practice]]
 
 You need a lot of mistakes for a few good moves, a lot bad ideas for a few good ideas. Do not fear making mistakes, do not regret mistakes, you are growing a mistake at a time 
 
-The more you do it, the better you get. Sheer volume of music produced is a good predictor for composer success. 
 
-Taking something from 0 to 1 creates value, and so does taking it from 1 to 10 
+[[0-1-n]]
 
-The ultimate productivity hack is saying no.
-
-Productivity is managing your attention 
-
-
-Chronic stress is harmful yet moderate levels of acute stress helps you grow
 
 Focus on what you need to get right and stop worrying for other things
 
@@ -119,10 +114,12 @@ Do not mix work and leisure. Have focused intervals of work and play
 
 Start small  
 
-[[park-downhill]]
-
 Stay professional, responsible and reliable. 
 
 Everything looks like a failure in the middle, keep going 
+
+
+[[park-downhill]]
+
 
 [[what-to-work-on]]
