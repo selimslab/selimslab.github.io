@@ -70,6 +70,6 @@ Meet the terminal, ls, cd, mv, top, mkdir, touch, cat, sort, grep, rm
 
 [[dev-heuristics]]
 
-[[security-general]]
+[[software-security]]
 
 [[solid]]

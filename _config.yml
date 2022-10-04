@@ -91,9 +91,12 @@ collections:
 
   projects:    
     output: true 
+    permalink:  /:title/
 
   algorithms:    
     output: true 
+    permalink:  /:title/
+
 
 
 # feed:

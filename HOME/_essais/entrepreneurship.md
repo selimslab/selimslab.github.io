@@ -12,7 +12,7 @@ title: Entrepreneurship
 
 [[marketing]]
 
-[[_zettel/sales]]
+[[sales]]
 
 [[in-wiriting-or-not-happened]]
 

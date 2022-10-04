@@ -1,5 +1,4 @@
 ---
- 
 title: Decisions
 ---
 
@@ -49,13 +48,3 @@ Build a broad margin of error into your moves
 
 Make a move, don't stuck 
 
-
----
-
-Also see 
-
-[[art]]
-
-[[a-good-life]]
-
-[[critical-thinking]]

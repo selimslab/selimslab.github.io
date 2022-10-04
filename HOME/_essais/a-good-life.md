@@ -42,9 +42,10 @@ title: A good life 🏛️
 [[success-is-leaving-the-world-a-bit-better]]
 
 
+[[already-naked]]
 
 
-[[what-makes-ypu-angry]]
+[[what-makes-you-angry]]
 
 
 [[freedom]]
@@ -75,19 +76,4 @@ title: A good life 🏛️
 [[you-pay-everything-with-your-life]]
 
 [[good-is-better-than-perfect]]
-
-
-## also see 
-
-[[health]]
-
-[[happiness]]
-
-[[communication]]
-
-[[art]]
-
-<https://reasonandmeaning.com/2013/12/19/aristotle-on-the-good-and-meaningful-life/>
-
-[[decisions]]
 
