@@ -16,3 +16,7 @@ Your Professional Decline Is Coming (Much) Sooner Than You Think
 Do what you can, now and here 
 
 [[complicit-employee]]
+
+[[interview]]
+
+[[resume]]

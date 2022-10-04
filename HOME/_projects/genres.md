@@ -2,6 +2,7 @@
 title: Predict movie genres using ML classifiers 
 tags: 
     - makers
+    - ml
 ---
 
 

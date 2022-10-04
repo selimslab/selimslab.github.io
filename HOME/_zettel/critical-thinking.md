@@ -27,3 +27,7 @@ Systematic feedback, criticism, and correction can make us less wrong
 [[critical-thinking]]
 
 [[look-below-the-surface]]
+
+[[questions]]
+
+
