@@ -1,5 +1,5 @@
 ---
-title: Greedy
+tags: algorithms
 ---
 
 

@@ -1,15 +1,9 @@
 ---
-title: Sliding Window 
-
+tags: algorithms
 ---
 
-
-check out characterReplacement
-
-
-
 {% for note in site.documents %}
-{% if note.tags contains "sliding" %}
+{% if note.tags contains "queue" %}
 <li>
     <a href="{{ note.url }}">{{ note.title  }}</a>
 </li>

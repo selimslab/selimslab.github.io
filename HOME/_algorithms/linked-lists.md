@@ -1,5 +1,5 @@
 ---
-title: Linked Lists 
+tags: algorithms
 ---
 
 

@@ -1,6 +1,5 @@
 ---
-title: Backtrack
-
+tags: algorithms
 ---
 
 

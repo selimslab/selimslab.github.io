@@ -1,6 +1,5 @@
 ---
-title: Dynamic
-
+tags: algorithms
 ---
 
 

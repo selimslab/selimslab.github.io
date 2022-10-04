@@ -1,6 +1,5 @@
 ---
-title: Sort
-
+tags: algorithms
 ---
 
 

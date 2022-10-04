@@ -1,6 +1,5 @@
 ---
-title: Graph 
-
+tags: algorithms
 ---
 
 ```py

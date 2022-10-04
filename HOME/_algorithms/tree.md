@@ -1,6 +1,5 @@
 ---
-title: Tree 
-
+tags: algorithms
 ---
 
 ```py
