@@ -1,6 +1,6 @@
 ---
  
-title: How to write better? 🖋️
+title: How to write better?
 ---
 
 Write a lot

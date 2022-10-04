@@ -120,11 +120,10 @@ Do not mix work and leisure. Have focused intervals of work and play
 
 Start small  
 
-Park downhill, stop work with a cliffhanger so it's easier to start again. Save some easy tasks for low motivation periods 
+[[park-downhill]]
 
 Stay professional, responsible and reliable. 
 
 Everything looks like a failure in the middle, keep going 
 
-What seems like work to other people that doesn't seem like work to you?
-
+[[what-to-work-on]]

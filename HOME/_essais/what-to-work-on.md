@@ -1,6 +1,6 @@
 ---
  
-title: Work
+title: What to work on?
 ---
 
 
@@ -29,6 +29,9 @@ What comes naturally to me?
 Play a game where the odds are in your favour 
 
 ---
+
+
+misc.
 
 We are complicit in our employer's deeds
 
