@@ -1,8 +1,10 @@
 ---
 title: Dijkstra
-tags: graph
+tags: 
+    - graph
 ---
 
+[[graph]]
 ```py
 from collections import defaultdict
 

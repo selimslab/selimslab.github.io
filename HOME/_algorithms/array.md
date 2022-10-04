@@ -1,5 +1,6 @@
 --- 
-tags: algorithms
+tags: 
+    - algorithms
 ---
 
 
@@ -11,7 +12,7 @@ tags: algorithms
 {% endif %}
 {% endfor %}
 
-
+[[algorithms]]
 
 
 

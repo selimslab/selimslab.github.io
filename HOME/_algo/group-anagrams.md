@@ -1,7 +1,8 @@
 ---
-tags: array
+tags: 
+    - array
 ---
-
+[[array]]
 ```py
 """
 Input: ["eat", "tea", "tan", "ate", "nat", "bat"],

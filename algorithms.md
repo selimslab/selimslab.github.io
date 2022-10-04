@@ -1,6 +1,7 @@
 ---
 layout: page
-tags: page
+tags: 
+    - page
 type: page 
 ---
 
@@ -13,7 +14,7 @@ type: page
     {% endfor %}
 </ul> -->
 
-<ul>
+<!-- <ul>
 {% for note in site.documents %}
 {% if note.tags contains "algorithms" %}
 <li>
@@ -21,4 +22,4 @@ type: page
 </li>
 {% endif %}
 {% endfor %}
-</ul>
+</ul> -->

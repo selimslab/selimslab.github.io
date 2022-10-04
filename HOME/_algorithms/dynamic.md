@@ -1,5 +1,6 @@
 ---
-tags: algorithms
+tags: 
+    - algorithms
 ---
 
 
@@ -24,16 +25,9 @@ def fibonacci(n):
     return memo.get(n)
 ```
 
-{% for note in site.documents %}
-{% if note.tags contains "dynamic" %}
-<li>
-    <a href="{{ note.url }}">{{ note.title  }}</a>
-</li>
-{% endif %}
-{% endfor %}
 
 
-
+[[algorithms]]
 
 
 

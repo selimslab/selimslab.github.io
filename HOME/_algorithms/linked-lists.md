@@ -1,5 +1,6 @@
 ---
-tags: algorithms
+tags: 
+    - algorithms
 ---
 
 
@@ -146,3 +147,5 @@ public ListNode mergeKLists(ListNode[] lists) {
 }
 
 ```
+
+[[algorithms]]

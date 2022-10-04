@@ -1,6 +1,9 @@
 ---
-tags: pointers
+tags: 
+    - pointers
 ---
+
+[[pointers]]
 
 ```python
 """

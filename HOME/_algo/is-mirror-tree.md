@@ -1,5 +1,6 @@
 ---
-tags: tree
+tags: 
+    - tree
 ---
 
 ```java
@@ -24,3 +25,5 @@ public boolean isMirror(TreeNode t1, TreeNode t2) {
 }
 
 ```
+
+[[tree]]

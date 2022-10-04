@@ -1,6 +1,7 @@
 ---
 layout: page
-tags: page
+tags: 
+    - page
 type: page
 ---
 

@@ -1,5 +1,6 @@
 ---
-tags: algorithms
+tags: 
+    - algorithms
 ---
 
 
@@ -51,3 +52,5 @@ def readBinaryWatch(self, num: int) -> List[str]:
             for h in range(12) for m in range(60)
             if (bin(h) + bin(m)).count('1') == num]
 ```
+
+[[algorithms]]

@@ -1,8 +1,9 @@
 ---
-tags: pointers
+tags: 
+    - pointers
 ---
 
-
+[[pointers]]
 
 ```
 max water among sticks:

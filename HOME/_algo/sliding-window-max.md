@@ -1,7 +1,9 @@
 ---
-tags: pointers
+tags: 
+    - pointers
 ---
 
+[[pointers]]
 
 <https://leetcode.com/problems/sliding-window-maximum/>
 

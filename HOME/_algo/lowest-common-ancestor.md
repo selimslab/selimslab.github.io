@@ -1,6 +1,9 @@
 ---
-tags: tree
+tags: 
+    - tree
 ---
+
+[[tree]]
 
 
 ```go

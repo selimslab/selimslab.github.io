@@ -1,6 +1,9 @@
 ---
-tags: array
+tags: 
+    - array
 ---
+
+[[array]]
 
 ```java
 /*

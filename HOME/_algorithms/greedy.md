@@ -1,5 +1,6 @@
 ---
-tags: algorithms
+tags: 
+    - algorithms
 ---
 
 

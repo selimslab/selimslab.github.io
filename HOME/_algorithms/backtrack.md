@@ -1,5 +1,6 @@
 ---
-tags: algorithms
+tags: 
+    - algorithms
 ---
 
 
@@ -93,3 +94,5 @@ subsets(nums):
 
     merge newseen with seen
 ```
+
+[[algorithms]]

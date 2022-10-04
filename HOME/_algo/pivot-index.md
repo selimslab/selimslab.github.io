@@ -1,6 +1,13 @@
 ---
-tags: array pointers
+tags: 
+    - array 
+    - pointers
 ---
+
+[[array]]
+
+[[pointers]]
+
 
 ```py
 """

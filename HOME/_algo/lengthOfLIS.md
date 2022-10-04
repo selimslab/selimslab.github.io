@@ -1,8 +1,9 @@
 ---
-tags: dynamic
+tags: 
+    - dynamic
 ---
 
-
+[[dynamic]]
 ## The longest increasing subsequence
 
 <https://leetcode.com/problems/longest-increasing-subsequence/>

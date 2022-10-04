@@ -1,8 +1,15 @@
 ---
-tags: pointers string stack 
+tags: 
+    - pointers 
+    - string
+    - stack 
 ---
 
+[[pointers]]
 
+[[string]]
+
+[[stack]]
 
 ```python
 def longestValidParentheses(self, s: str) -> int:

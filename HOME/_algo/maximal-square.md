@@ -1,9 +1,9 @@
 ---
-tags: dynamic
+tags: 
+    - dynamic
 ---
 
-
-## maximalSquare
+[[dynamic]]
 
 ```py
 """

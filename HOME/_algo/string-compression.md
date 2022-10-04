@@ -1,7 +1,9 @@
 ---
-tags: string
+tags: 
+    - string
 ---
 
+[[string]]
 
 ```python
 def string_compression(string):

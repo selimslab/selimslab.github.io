@@ -1,5 +1,6 @@
 ---
-tags: algorithms
+tags: 
+    - algorithms
 ---
 
 
@@ -35,3 +36,5 @@ kthLargest.add(10)  # returns 5
 kthLargest.add(9)  # returns 8
 kthLargest.add(4)  # returns 8
 ```
+
+[[algorithms]]

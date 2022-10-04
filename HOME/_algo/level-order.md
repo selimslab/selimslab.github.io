@@ -1,5 +1,6 @@
 ---
-tags: tree
+tags: 
+    - tree
 ---
 
 ```python
@@ -26,3 +27,5 @@ def levelOrder(self, root: "TreeNode") -> "List[List[int]]":
 
     return levelorder
 ```
+
+[[tree]]

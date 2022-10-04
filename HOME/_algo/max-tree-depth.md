@@ -1,7 +1,9 @@
 ---
-tags: tree
+tags: 
+    - tree
 ---
 
+[[tree]]
 ```python
 
 # Definition for a binary tree node.

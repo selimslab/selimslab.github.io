@@ -1,6 +1,13 @@
 ---
-tags: string stack
+tags: 
+    - string
+    - stack
 ---
+
+
+[[string]]
+
+[[stack]]
 
 ```python
 def check_brackets(test_iterable):

@@ -1,5 +1,6 @@
 ---
-tags: algorithms
+tags: 
+    - algorithms
 ---
 
 ```py
@@ -39,16 +40,5 @@ toposort(graph):
 ```
 
 
-
-{% for note in site.documents %}
-{% if note.tags contains "graph" %}
-<li>
-    <a href="{{ note.url }}">{{ note.title  }}</a>
-</li>
-{% endif %}
-{% endfor %}
-
-
-
-
+[[algorithms]]
 

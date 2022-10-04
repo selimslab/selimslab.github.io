@@ -47,6 +47,9 @@ Build a broad margin of error into your moves
 
 Make a move, don't stuck 
 
+[[critical-thinking]]
+
 [[mental-models]]
 
 [[take-a-walk]]
+

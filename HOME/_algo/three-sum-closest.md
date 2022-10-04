@@ -1,9 +1,11 @@
 ---
-tags: array
+tags: 
+    - array
 ---
 
-```py
+[[array]]
 
+```py
 """
 Three sum 
 

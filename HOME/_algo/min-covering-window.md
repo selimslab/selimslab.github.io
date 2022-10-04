@@ -1,8 +1,9 @@
 ---
-tags: pointers
+tags: 
+    - pointers
 ---
 
-
+[[pointers]]
 ```py
 def minWindow(self,s, t):
     """

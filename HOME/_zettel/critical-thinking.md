@@ -23,3 +23,7 @@ Systematic feedback, criticism, and correction can make us less wrong
 
 
 <https://reasonandmeaning.com/2015/10/08/bertrand-russells-nobel-prize-acceptance-speech/>
+
+[[critical-thinking]]
+
+[[look-below-the-surface]]

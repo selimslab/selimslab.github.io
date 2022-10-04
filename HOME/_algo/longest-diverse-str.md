@@ -1,5 +1,7 @@
 ---
-tags: heap string
+tags: 
+    - heap
+    - string
 ---
 
 ```python
@@ -52,3 +54,7 @@ def longestDiverseString(a: int, b: int, c: int) -> str:
 
 longestDiverseString(7,1,1)
 ```
+
+[[heap]]
+
+[[string]]

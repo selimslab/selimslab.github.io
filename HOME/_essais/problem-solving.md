@@ -40,3 +40,4 @@ Test hypotheses
 [[take-a-walk]]
 
 
+[[critical-thinking]]

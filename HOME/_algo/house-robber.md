@@ -1,10 +1,9 @@
 ---
-tags: dynamic
+tags: 
+    - dynamic
 ---
 
-
-## House Robber 
-
+[[dynamic]]
 ```py
 def rob(nums: List[int]) -> int:
     # max robbery, no adjacent homes

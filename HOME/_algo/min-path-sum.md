@@ -1,7 +1,9 @@
 ---
-tags: dynamic
+tags: 
+    - dynamic
 ---
 
+[[dynamic]]
 ```go
 func minPathSum(grid [][]int) int {
 	/*

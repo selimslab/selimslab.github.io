@@ -1,7 +1,12 @@
 ---
-tags: string stack 
----
+tags: 
+    - string
+    - stack 
+--- 
 
+[[string]]
+
+[[stack]]
 
 ```python
 def decodeString(self, s):

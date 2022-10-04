@@ -1,6 +1,9 @@
 ---
-tags: string
+tags: 
+    - string
 ---
+
+[[string]]
 
 ```python
 # with 2 pointers

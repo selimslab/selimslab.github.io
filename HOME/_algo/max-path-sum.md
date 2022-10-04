@@ -1,7 +1,9 @@
 ---
-tags: tree
+tags: 
+    - tree
 ---
 
+[[tree]]
 ```python
 def maxPathSum(self, root: TreeNode) -> int:
     """

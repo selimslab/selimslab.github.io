@@ -1,5 +1,6 @@
 ---
-tags: string
+tags: 
+    - string
 ---
 
 
@@ -20,3 +21,5 @@ def longest_common_prefix(words) -> "str":
 
 assert longest_common_prefix(["flower", "flow", "flight"]) == "fl"
 ```
+
+[[string]]

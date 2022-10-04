@@ -1,6 +1,10 @@
 ---
-tags: stack  good
+tags: 
+    - stack
+    - good
 ---
+
+[[stack]]
 
 ```python
 def dailyTemperatures(T):

@@ -1,6 +1,9 @@
 ---
-tags: graph
+tags: 
+    - graph
 ---
+
+[[graph]]
 
 
 ```py

@@ -1,7 +1,9 @@
 ---
-tags: tree
+tags: 
+    - tree
 ---
 
+[[tree]]
 
 ```go
 import "fmt"
