@@ -6,33 +6,25 @@ title: Entrepreneurship
 
 [[know-thy-user]]
 
-
 [[0-1-n]]
 
-
 [[in-praise-of-testing]]
-
 
 [[marketing]]
 
 [[_zettel/sales]]
 
-In writing or didn't happen 
+[[in-wiriting-or-not-happened]]
 
-
-Hire people you’d work for 
-
+[[hiring]]
 
 [[creativity]]
 
-
-[[c-level-communication]]
-
+[[concise-communication]]
 
 [[how-to-pitch]]
 
----
-
+[[teamwork-in-art-of-war]]
 
 ## misc. 
 

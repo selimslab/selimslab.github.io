@@ -4,6 +4,19 @@
 
 <https://selimslab.github.io>
 
+## install
+
+gem install bundler jekyll
+
+## serve
+
+bundle exec jekyll serve
+
+or 
+
+JEKYLL_ENV=production bundle exec jekyll serve --trace
+
+
 ## Features 
 
 1. minimal
@@ -19,16 +32,5 @@
 9. random artwork on post reload
    
 
-## install
-
-gem install bundler jekyll
-
-## serve
-
-bundle exec jekyll serve
-
-or 
-
-JEKYLL_ENV=production bundle exec jekyll serve --trace
 
 

@@ -1,5 +1,4 @@
 ---
- 
 title: How to write better?
 ---
 

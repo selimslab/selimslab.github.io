@@ -58,9 +58,9 @@ You need a lot of mistakes for a few good moves, a lot bad ideas for a few good 
 [[0-1-n]]
 
 
-Focus on what you need to get right and stop worrying for other things
+[[focus-on-one-thing]]
 
-The antidote to procrastination is courage. Face your fears, face discomfort, you will be glad 
+[[procrastination]]
 
 Procrastinating is not always bad. Being quick to start slow to finish may increase more background processing and may lead to original ideas. 
 

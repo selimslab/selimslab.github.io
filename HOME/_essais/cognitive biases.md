@@ -84,31 +84,7 @@ First-Conclusion Bias
 ---
 
 
-All or nothing 
-
-Expectation 
-
-Negativity 
-
-Black filter 
-
-Ignoring positives
-
-Jumping to conclusions 
-
-Mind reading 
-
-Exaggeration 
-
-Should would sentences
-
-Labelling
-
-Taking it personal 
-
-Hedonic adaptation 
-
-Unfit mental models 
+[[unhappiness-some-reasons]]
 
 
 ---

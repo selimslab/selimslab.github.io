@@ -77,8 +77,7 @@ title: A good life 🏛️
 [[good-is-better-than-perfect]]
 
 
-
-also see 
+## also see 
 
 [[health]]
 

@@ -85,6 +85,10 @@ collections:
     output: true 
     permalink:  /:title/
 
+  essais:    
+    output: true 
+    permalink:  /:title/
+
   projects:    
     output: true 
 
