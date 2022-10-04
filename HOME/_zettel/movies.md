@@ -1,10 +1,7 @@
 ---
- 
-title: Movies 🎬
 ---
 
-
-## Movies 
+## Movies 🎬
 
 
 It's a Wonderful Life (1946)
@@ -81,18 +78,9 @@ Capernaum (2018)
 
 Soul (2020)
 
+[[tv-series]]
 
-## Series 
+[[watchlist]]
 
-Friends (1994)
 
-The Office (2005)
-
-Rick and Morty (2013)
-
-## Watchlist 
-
-The Wizard of Oz
-
-Hamilton 
 

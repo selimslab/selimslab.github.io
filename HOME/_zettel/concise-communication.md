@@ -1,5 +1,4 @@
 ---
-title: C-level communication
 ---
 
 1. Conclusion & Action

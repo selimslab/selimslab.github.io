@@ -60,7 +60,6 @@ The ultimate productivity hack is saying no.
 
 Productivity is managing your attention 
 
-You’ll be most successful where you’re most intensely interested.
 
 Chronic stress is harmful yet moderate levels of acute stress helps you grow
 

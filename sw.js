@@ -15,10 +15,9 @@ workbox.core.setCacheNameDetails({
 
 
 const urls = [
-  '/essais/',
-  '/tech/',
-  '/algorithms/',
-  '/projects/',
+  {% for page in site.pages -%}
+  '{{ page.url }}',
+  {% endfor -%}
   {% for doc in site.documents -%}
   '{{ doc.url }}',
   {% endfor -%}

@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: notes
+name: home
 
 # Short bio or description (displayed in the header)
 description: bicycle for the mind 
@@ -77,7 +77,7 @@ theme:
 collections_dir: HOME
 
 collections:
-  essais:    
+  zettel:    
     output: true 
     permalink:  /:title/
 
@@ -92,10 +92,9 @@ collections:
     output: true 
 
 
-feed:
-  collections:
-    - essais
-    - tech 
+# feed:
+#   collections:
+#     - tech 
 
 defaults:
 -

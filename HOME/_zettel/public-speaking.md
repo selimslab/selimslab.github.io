@@ -1,6 +1,6 @@
 ---
  
-title: Public speaking 🎤
+title: Public speaking
 ---
 
 

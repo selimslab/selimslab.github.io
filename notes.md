@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Essais
+title: Notes
 ---
 
 
-{% assign sorted = site.essais | sort: 'title' %}
+{% assign sorted = site.zettel | sort: 'title' %}
 <ul>
     {% for p in sorted  %}
         <li>

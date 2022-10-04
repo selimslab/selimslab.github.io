@@ -3,16 +3,7 @@ layout: none
 ---
 
 [
-  {% for post in site.tech %}
-      "{{ site.baseurl }}{{ post.url }}",
-  {% endfor %}
-  {% for post in site.projects %}
-      "{{ site.baseurl }}{{ post.url }}",
-  {% endfor %}
-  {% for post in site.algorithms %}
-      "{{ site.baseurl }}{{ post.url }}",
-  {% endfor %}
-  {% for post in site.essais %}
-      "{{ site.baseurl }}{{ post.url }}"{% unless forloop.last %},{% endunless %}
+  {% for note in site.documents %}
+      "{{ site.baseurl }}{{ note.url }}"{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
