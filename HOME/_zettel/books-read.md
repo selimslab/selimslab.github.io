@@ -1,5 +1,5 @@
 ---
-title: Books 📚
+title: Read 
 ---
 
 ## Lit 
@@ -132,3 +132,5 @@ Understanding Power: The Indispensable Chomsky
 Metaphors We Live By
 
 
+
+[[books]]

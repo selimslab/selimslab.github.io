@@ -2,7 +2,7 @@
     "task.allowAutomaticTasks": true,
     "foam.graph.style": {
         "background": "#202020",
-        "fontSize": 12,
+        "fontSize": 14,
         "highlightedForeground": "#f9c74f",
         "node": {
             "note": "#277da1",
