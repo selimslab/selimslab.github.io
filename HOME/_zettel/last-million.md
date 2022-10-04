@@ -1,5 +1,6 @@
 ---
 title:  Some events in the last million years 🌏
+tags: history social
 --- 
 
 Last Common Ancestor Of Humans And Chimps 6M years ago 

@@ -1,5 +1,5 @@
 ---
-title:  Keyboard Shortcuts 
+tags: tech
 --- 
 
 ## Mac 

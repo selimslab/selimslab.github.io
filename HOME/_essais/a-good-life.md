@@ -17,6 +17,7 @@ title: A good life 🏛️
 [[do-what-is-right]]
 
 
+[[habits]]
 
 [[know-where-to-stop]]
 

@@ -40,5 +40,5 @@ toposort(graph):
 ```
 
 
-[[algorithms]]
+
 

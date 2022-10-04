@@ -1,5 +1,6 @@
 ---
 title:  Stack exchange
+tags: tech
 ---
 
 sorted by votes 

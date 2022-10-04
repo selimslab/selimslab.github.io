@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Algorithms
+tags: page
 ---
 
 {% assign sorted = site.algorithms | sort: 'title' %}

@@ -6,3 +6,4 @@ title: Art 🎨
 
 <a href="https://drive.google.com/drive/u/0/folders/1TzlHeJudSx6dVBYTVRPHiOksdA3IOQw2">High definition, printable public paintings</a>
 
+[[a-good-life]]

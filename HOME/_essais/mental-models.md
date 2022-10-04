@@ -31,6 +31,8 @@ All models are wrong, some are useful
 
 [[military-concepts]]
 
+[[learning]]
+
 ---
 
 Red Queen Effect, “Now, here, you see, it takes all the running you can do, to keep in the same place. (Alice in Wonderland)

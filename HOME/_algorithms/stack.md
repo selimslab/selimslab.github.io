@@ -3,5 +3,5 @@ tags:
     - algorithms
 ---
 
-[[algorithms]]
+
 

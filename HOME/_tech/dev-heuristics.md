@@ -1,5 +1,5 @@
 ---
-title:  Dev Heuristics
+title: Dev Heuristics
 --- 
 
 Keep it simple 

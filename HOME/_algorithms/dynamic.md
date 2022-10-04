@@ -27,7 +27,7 @@ def fibonacci(n):
 
 
 
-[[algorithms]]
+
 
 
 

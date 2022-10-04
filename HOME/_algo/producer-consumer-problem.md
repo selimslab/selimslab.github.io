@@ -4,7 +4,7 @@ tags:
     - concurrency 
 ---
 
-[[concurrency]]
+[[concurrency-algorithms]]
 
 ```c
 #include <assert.h>

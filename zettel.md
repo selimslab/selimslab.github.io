@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Zettel
+tags: page
+
 ---
 
 

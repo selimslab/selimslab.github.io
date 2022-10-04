@@ -9,7 +9,7 @@ def tree():
 ```
 
 
-[[algorithms]]
+
 
 
 

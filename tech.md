@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Tech
+tags: page
+
 ---
 
 

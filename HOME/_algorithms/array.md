@@ -12,7 +12,7 @@ tags:
 {% endif %}
 {% endfor %}
 
-[[algorithms]]
+
 
 
 

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Essais
+tags: page
 ---
 
 

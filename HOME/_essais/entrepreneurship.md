@@ -25,6 +25,8 @@ title: Entrepreneurship
 
 [[teamwork-in-the-art-of-war]]
 
+[[leadership]]
+
 ## misc. 
 
 [fast](https://patrickcollison.com/fast)

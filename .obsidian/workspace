@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "24bc4290807be1ea",
+        "id": "9f5f5ad59f28cef5",
         "type": "leaf",
         "state": {
           "type": "graph",
@@ -36,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#algorithms",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,11 +53,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d5dce7395b20d0fd",
@@ -120,14 +122,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "24bc4290807be1ea",
+  "active": "9f5f5ad59f28cef5",
   "lastOpenFiles": [
-    "HOME/_projects/os.md",
-    "projects.md",
-    "2022-10-05.md",
-    "HOME/_tech/stx.md",
-    "HOME/_projects/genres.md",
-    "tech.md",
-    "HOME/_zettel/power.md"
+    "HOME/_algo/climb-stairs.md",
+    "HOME/_algorithms/concurrency-algorithms.md",
+    "HOME/_algo/producer-consumer-problem.md",
+    "concurrency.md",
+    "algorithms.md",
+    "_site/concurrency.md",
+    "HOME/_tech/computer-networks.md",
+    "HOME/_tech/container.md",
+    "HOME/_zettel/limited-vs-unlimited.md",
+    "HOME/_essais/entrepreneurship.md"
   ]
 }

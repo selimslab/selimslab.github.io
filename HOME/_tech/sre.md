@@ -1,5 +1,6 @@
 ---
 title: SRE 
+tags: tech
 ---
 
 ideas from Google SRE book
