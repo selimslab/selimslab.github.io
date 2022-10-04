@@ -26,6 +26,8 @@ Question assumptions
 
 Take a break 
 
+[[know-where-to-stop]]
+
 ---
 
 Symptoms vs root cause

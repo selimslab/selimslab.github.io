@@ -24,7 +24,7 @@ title: Entrepreneurship
 
 [[how-to-pitch]]
 
-[[teamwork-in-art-of-war]]
+[[teamwork-in-the-art-of-war]]
 
 ## misc. 
 

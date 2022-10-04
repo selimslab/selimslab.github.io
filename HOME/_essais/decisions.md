@@ -33,7 +33,6 @@ It is easier to stay out than get out.
 
 Do not sell your future. 
 
-
 ---
 
 Never lie to yourself
@@ -48,3 +47,6 @@ Build a broad margin of error into your moves
 
 Make a move, don't stuck 
 
+[[mental-models]]
+
+[[take-a-walk]]

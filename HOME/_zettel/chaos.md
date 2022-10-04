@@ -7,23 +7,7 @@ Basic building blocks follow a few simple rules,
 
 This creates complex systems
 
----
-
-Atoms
-
-Organic molecules
-
-Proteins 
-
-Cells 
-
-Microorganisms
-
-Plants
-
-Animals 
- 
----
+[[zoom-in-zoom-out]]
 
 [[convergence-under-a-complexity-threshold]]
 

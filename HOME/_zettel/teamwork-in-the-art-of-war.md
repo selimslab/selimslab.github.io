@@ -1,6 +1,6 @@
 ---
  
-title: Sun Tzu on Teamwork 
+title: Teamwork in the Art of War 
 ---
 
 Everyone in team should share the goal 
