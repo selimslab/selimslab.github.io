@@ -31,7 +31,7 @@
 
 <!-- Add backlinks to the current page --> 
 {%- assign link_count = 0 -%}
-{%- assign wiki_link_title = '[' | append: page.id | append: ']' -%}
+{%- assign wiki_link_title = '[' | append: page.id | replace: '/', '' | append: ']' -%}
 
 {%- for note in site.documents -%}
     {%- if note.url != page.url -%}
@@ -43,18 +43,17 @@
 
 
 {%- for note in site.pages -%}
-        {%- if note.url != page.url -%}
-            {%- if note.content contains wiki_link_title -%}
-                {%- assign link_count = link_count | plus:1 -%}
-            {%- endif -%}
+    {%- if note.url != page.url -%}
+        {%- if note.content contains wiki_link_title -%}
+            {%- assign link_count = link_count | plus:1 -%}
+        {%- endif -%}
     {%- endif -%}
 {%- endfor -%}
 
 {%- if link_count > 0 -%}
-
     <h3>Links to this note</h3>
-    
-    {%- for note in site.documents -%}
+    <ul>
+    {%- for note in site.documents -%}    
         {%- if note.url != page.url -%}
             {%- if note.content contains wiki_link_title -%}
             <li>
@@ -74,4 +73,6 @@
         {%- endif -%}
     {%- endfor -%}
 
+    </ul>
+    
 {%- endif -%}

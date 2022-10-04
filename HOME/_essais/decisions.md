@@ -52,9 +52,10 @@ Make a move, don't stuck
 
 ---
 
-also see 
+Also see 
 
 [[art]]
 
 [[a-good-life]]
 
+[[critical-thinking]]

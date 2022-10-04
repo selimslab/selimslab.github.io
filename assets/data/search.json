@@ -3,18 +3,14 @@ layout: none
 ---
 
 [
-  {% for collection in site.collections %}
-    {% for post in site[collection.label] %}
+  {% for note in site.documents %}
       {
-        "title"    : "{{ post.title | escape }}",
-        "category" : "{{ post.category }}",
-        "tags"     : "{{ post.tags | join: ', ' }}",
-        "url"      : "{{ site.baseurl }}{{ post.url }}",
-        "date"     : "{{ post.date }}",
-        "content"  : {{ post.content | strip_html | jsonify }}
-        },
-    {% endfor %}
-        {}
-        {% unless forloop.last %},{% endunless %}
+        "title"    : "{{ note.title | escape }}",
+        "category" : "{{ note.category }}",
+        "tags"     : "{{ note.tags | join: ', ' }}",
+        "url"      : "{{ site.baseurl }}{{ note.url }}",
+        "date"     : "{{ note.date }}",
+        "content"  : {{ note.content | strip_html | jsonify }}
+        }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]

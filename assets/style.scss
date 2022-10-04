@@ -102,18 +102,12 @@ strong{
   font-weight: bold;
 }
 
-li {
-  margin: 1rem;
-}
-
-
 
 a.site-name {
   font-family: $serif;
   color: inherit;
   font-weight: 500;
   font-size: 2rem;
-  padding-left: 1rem;
 }
 
 
@@ -125,15 +119,13 @@ footer {
 }
 
 
+li{
+  margin: 0.8rem;
+}
+
 #results-container{
-  margin-top: 1rem;
+  margin: 1rem;
   padding-left: 1rem;
-  li{
-    margin-bottom: 1rem;
-    a{
-      color: $accent;
-    }
-  }
 }
 
 hr{
