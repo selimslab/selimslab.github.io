@@ -1,5 +1,7 @@
 ---
-tags: dynamic, tree
+tags: 
+    - dynamic
+    - tree
 ---
 
 <https://leetcode.com/problems/unique-binary-search-trees>

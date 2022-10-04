@@ -1,5 +1,5 @@
 ---
-tags: stack, good
+tags: stack  good
 ---
 
 ```python

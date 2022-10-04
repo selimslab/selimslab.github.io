@@ -1,5 +1,5 @@
 ---
-tags: heap, string
+tags: heap string
 ---
 
 ```python

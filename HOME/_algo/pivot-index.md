@@ -1,5 +1,5 @@
 ---
-tags: array, pointers
+tags: array pointers
 ---
 
 ```py

@@ -1,5 +1,6 @@
 ---
 title: Principal Component Analysis
+tags: makers
 ---
 
 Sometimes a few dimensions explain most of the variability
