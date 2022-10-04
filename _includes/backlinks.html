@@ -33,16 +33,12 @@
 {%- assign link_count = 0 -%}
 {%- assign wiki_link_title = '[' | append: page.id | append: ']' -%}
 
-wiki_link_title: {{wiki_link_title}}
-
-{%- for collection in site.collections -%}
-    {%- for note in site[collection.label] -%}
-        {%- if note.url != page.url -%}
-            {%- if note.content contains wiki_link_title -%}
-                {%- assign link_count = link_count | plus:1 -%}
-            {%- endif -%}
+{%- for note in site.documents -%}
+    {%- if note.url != page.url -%}
+        {%- if note.content contains wiki_link_title -%}
+            {%- assign link_count = link_count | plus:1 -%}
         {%- endif -%}
-    {%- endfor -%}
+    {%- endif -%}
 {%- endfor -%}
 
 
@@ -55,28 +51,27 @@ wiki_link_title: {{wiki_link_title}}
 {%- endfor -%}
 
 {%- if link_count > 0 -%}
+
     <h3>Links to this note</h3>
     
-        {%- for collection in site.collections -%}
-            {%- for note in site[collection.label] -%}    
-                {%- if note.url != page.url -%}
-                    {%- if note.content contains wiki_link_title -%}
-                    <li>
-                        <a href="{{note.url}}">{{ note.title }}</a>
-                    </li>
-                    {%- endif -%}
-                {%- endif -%}
-            {%- endfor -%}
-        {%- endfor -%}
-
-        {%- for note in site.pages -%}
-            {%- if note.url != page.url -%}
-                {%- if note.content contains wiki_link_title -%}
-                <li>
-                    <a href="{{note.url}}">{{ note.title }}</a>
-                </li>
-                {%- endif -%}
+    {%- for note in site.documents -%}
+        {%- if note.url != page.url -%}
+            {%- if note.content contains wiki_link_title -%}
+            <li>
+                <a href="{{note.url}}">{{ note.title }}</a>
+            </li>
             {%- endif -%}
-        {%- endfor -%}
+        {%- endif -%}
+    {%- endfor -%}
+
+    {%- for note in site.pages -%}
+        {%- if note.url != page.url -%}
+            {%- if note.content contains wiki_link_title -%}
+            <li>
+                <a href="{{note.url}}">{{ note.title }}</a>
+            </li>
+            {%- endif -%}
+        {%- endif -%}
+    {%- endfor -%}
 
 {%- endif -%}
