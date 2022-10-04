@@ -1,7 +1,5 @@
 ---
- 
 title: A good life 🏛️ 
-tags: top
 ---
 
 Some things are in our control and others not
@@ -225,6 +223,14 @@ Nature does not hurry, yet everything is accomplished
 ---
 
 
+
 also see 
 
 <https://reasonandmeaning.com/2013/12/19/aristotle-on-the-good-and-meaningful-life/>
+
+
+[[books-read]]
+
+[[communication]]
+
+[[art]]

@@ -3,8 +3,6 @@
 title: Books 📚
 ---
 
-
-
 ## Lit 
 
 Cien años de soledad 

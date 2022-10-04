@@ -79,9 +79,11 @@ collections_dir: HOME
 collections:
   essais:    
     output: true 
+    permalink:  /:title/
 
   tech:    
     output: true 
+    permalink:  /:title/
 
   projects:    
     output: true 

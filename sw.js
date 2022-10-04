@@ -19,18 +19,9 @@ const urls = [
   '/tech/',
   '/algorithms/',
   '/projects/',
-  {% for post in site.essais -%}
-  '{{ post.url }}',
+  {% for doc in site.documents -%}
+  '{{ doc.url }}',
   {% endfor -%}
-  {% for post in site.tech -%}
-  '{{ post.url }}',
-    {% endfor -%}
-  {% for post in site.algorithms -%}
-  '{{ post.url }}',
-    {% endfor -%}
-  {% for post in site.projects -%}
-  '{{ post.url }}',
-    {% endfor -%}
   '/'
 ];
 

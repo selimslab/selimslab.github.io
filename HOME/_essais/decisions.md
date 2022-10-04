@@ -50,3 +50,11 @@ Build a broad margin of error into your moves
 Make a move, don't stuck 
 
 
+---
+
+also see 
+
+[[art]]
+
+[[a-good-life]]
+

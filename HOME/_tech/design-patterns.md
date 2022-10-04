@@ -34,3 +34,6 @@ title:  Design Patterns
 8. Strategy, sorting strategy
 9. State, editor state, bold, italic
 10. Template Method, ABC
+
+
+[[dev-heuristics]]
