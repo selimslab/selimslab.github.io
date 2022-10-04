@@ -63,3 +63,13 @@ Meet the terminal, ls, cd, mv, top, mkdir, touch, cat, sort, grep, rm
 
 [History of the Internet - Wikipedia](https://en.wikipedia.org/wiki/History_of_the_Internet)
 
+
+[[books-tech]]
+
+[[design-patterns]]
+
+[[dev-heuristics]]
+
+[[security-general]]
+
+[[solid]]
