@@ -10,3 +10,5 @@ Do not let it
 [[what-makes-you-angry]]
 
 [[the-guy-is-not-the-problem]]
+
+[[its-not-personal]]

@@ -1,5 +1,6 @@
 ---
 title: Read 
+tags: books
 ---
 
 ## Lit 
@@ -131,6 +132,3 @@ Understanding Power: The Indispensable Chomsky
 
 Metaphors We Live By
 
-
-
-[[books]]

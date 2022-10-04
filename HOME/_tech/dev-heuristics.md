@@ -1,5 +1,6 @@
 ---
 title: Dev Heuristics
+tags: tech
 --- 
 
 Keep it simple 

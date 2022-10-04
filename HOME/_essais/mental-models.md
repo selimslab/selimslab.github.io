@@ -5,7 +5,7 @@ title: Mental models
 
 All models are wrong, some are useful 
 
-[[many-faced-truth]]
+[[critical-thinking]]
 
 [[golden-mean]]
 

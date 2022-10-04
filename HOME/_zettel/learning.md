@@ -9,7 +9,7 @@ It's an art and only genuine interest and passion creates beautiful art
 
 Beginner’s Mind
 
-Spaced repetition
+Spaced repetition [[zettelkasten]]
 
 Deliberate practice
 

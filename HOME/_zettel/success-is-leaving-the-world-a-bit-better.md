@@ -1,7 +1,6 @@
 ---
+title: Success is to leave the world a bit better
 ---
-
-## Success is to leave the world a bit better
 
 "To leave the world a bit better  
 

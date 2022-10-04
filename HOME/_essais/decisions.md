@@ -53,3 +53,8 @@ Make a move, don't stuck
 
 [[take-a-walk]]
 
+
+
+[[do-nothing-against-your-will]]
+
+[[do-what-is-right]]

@@ -3,27 +3,25 @@ title: Entrepreneurship
 ---
 
 
-[[know-thy-user]]
 
-[[0-1-n]]
 
-[[in-praise-of-testing]]
+[[what-to-work-on]]
+
+[[good-design]]
+
+[[get-things-done]]
 
 [[marketing]]
 
 [[sales]]
 
-[[in-wiriting-or-not-happened]]
-
 [[hiring]]
 
 [[creativity]]
 
-[[concise-communication]]
+[[communication]]
 
 [[how-to-pitch]]
-
-[[teamwork-in-the-art-of-war]]
 
 [[leadership]]
 

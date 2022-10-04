@@ -1,5 +1,6 @@
 ---
 title:  For new programmers 👩🏿‍💻 
+tags: tech
 ---
 
 [Crash Course Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
@@ -63,12 +64,4 @@ Meet the terminal, ls, cd, mv, top, mkdir, touch, cat, sort, grep, rm
 [History of the Internet - Wikipedia](https://en.wikipedia.org/wiki/History_of_the_Internet)
 
 
-[[books-tech]]
-
-[[design-patterns]]
-
-[[dev-heuristics]]
-
-[[software-security]]
-
-[[solid]]
+[[tech]]

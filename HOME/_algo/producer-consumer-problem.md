@@ -1,10 +1,8 @@
 ---
 title: Producer Consumer Problem 
-tags: 
-    - concurrency 
 ---
 
-[[concurrency-algorithms]]
+[[concurrent]]
 
 ```c
 #include <assert.h>

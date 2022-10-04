@@ -1,5 +1,6 @@
 ---
 title:  Design Patterns 
+tags: tech
 ---
 
 ## Creational

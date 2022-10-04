@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-tags: page
+tags: makers tech
 ---
 
 

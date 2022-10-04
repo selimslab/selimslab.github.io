@@ -51,9 +51,6 @@ just start
 
 [[practice]]
 
-You need a lot of mistakes for a few good moves, a lot bad ideas for a few good ideas. Do not fear making mistakes, do not regret mistakes, you are growing a mistake at a time 
-
-
 [[0-1-n]]
 
 
@@ -61,15 +58,7 @@ You need a lot of mistakes for a few good moves, a lot bad ideas for a few good 
 
 [[procrastination]]
 
-Procrastinating is not always bad. Being quick to start slow to finish may increase more background processing and may lead to original ideas. 
-
-One test is worth a thousand expert opinions.
-
-Don’t think about how proud you would be to run a marathon. Question whether you like running.
-
-A goal without a plan is just a wish. - Antoine de Saint-Exupéry
-
-Going fast in the wrong direction is not productivity. Think more about what to work on.
+[[planning]]
 
 Define what you want because a weak definition means a bad outcome
 
@@ -120,5 +109,4 @@ Everything looks like a failure in the middle, keep going
 
 [[park-downhill]]
 
-
-[[what-to-work-on]]
+[[in-wiriting-or-not-happened]]

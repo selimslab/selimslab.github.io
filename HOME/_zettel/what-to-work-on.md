@@ -30,4 +30,8 @@ Play a game where the odds are in your favour
 You’ll be most successful where you’re most intensely interested.
 
 
+[[career]]
+
+
+Don’t think about how proud you would be to run a marathon. Question whether you like running.
 

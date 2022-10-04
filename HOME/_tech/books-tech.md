@@ -1,5 +1,6 @@
 ---
 title: Books 📚
+tags: books
 ---
 
 
@@ -74,7 +75,3 @@ The Mythical Man-Month: Essays on Software Engineering
 
 Thinking in Systems: A Primer
 
-
-
-
-[[books]]

@@ -1,5 +1,6 @@
 ---
 title: Some favorite authors
+tags: books
 ---
 
 Antoine de Saint-Exupéry

@@ -1,5 +1,6 @@
 ---
 title:  SOLID 
+tags: tech
 --- 
 
 Single responsibility

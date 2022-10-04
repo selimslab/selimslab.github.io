@@ -15,7 +15,7 @@ Trust is the most delicate thing. Be impeccable with your word.
 
 Be kind, not clever [[the-kindness-principle]]
 
-Suspend judgement [[many-faced-truth]]
+Suspend judgement [[truth-has-many-faces-suspend-judgement]]
 
 [[give-support-not-advice]]
 
@@ -37,4 +37,6 @@ Respect yourself and signal it
 
 [[cognitive biases]]
 
+[[we-deal-judgement-and-seek-understanding]]
 
+[[we-can-heal]]

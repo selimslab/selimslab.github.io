@@ -9,3 +9,5 @@ nor against community,
 nor without due examination, 
 
 nor with reluctancy 
+
+[[stoicism]]

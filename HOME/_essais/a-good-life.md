@@ -7,74 +7,62 @@ title: A good life 🏛️
 
 [[do-not-regret-mistakes]]
 
-
 [[character-worths-the-world]]
 
-
-[[do-nothing-against-your-will]]
-
-
-[[do-what-is-right]]
-
+[[what-to-do]]
 
 [[habits]]
 
-[[know-where-to-stop]]
-
-
-[[words-are-irreversible]]
-
-
-
-[[emotions-are-contagious]]
-
-
-[[the-kindness-principle]]
-
-
-
-[[many-faced-truth]]
-
-
-[[we-deal-judgement-and-seek-understanding]]
-
-
-
-[[success-is-leaving-the-world-a-bit-better]]
-
-
-[[already-naked]]
-
-
-[[what-makes-you-angry]]
-
-
 [[freedom]]
 
+[[anger]]
 
-[[expect-everything]]
+[[know-where-to-stop]]
 
+[[communication]]
 
-
-[[experience-over-material]]
-
-
-[[life-is-not-short]]
-
-
+[[stoicism]]
 
 [[no-lies]]
 
-[[your-best-friend]]
-
 [[golden-mean]]
 
-[[we-can-heal]]
+[[success]]
 
+[[forgive]]
 
-[[nature-does-not-hurry]]
+[[critical-thinking]]
 
-[[you-pay-everything-with-your-life]]
+[[health]]
+
+[[your-best-friend]]
+
+[[enjoy-the-sun]]
+
+[[life-is-play]]
+
+[[less]]
 
 [[good-is-better-than-perfect]]
+
+[[experience-over-material]]
+ 
+[[nature-does-not-hurry]]
+
+[[practical-skills]]
+
+it doesn't matter 
+
+it will be better 
+
+
+[[find-time-to-just-be]]
+
+
+Love, Work, Hope 
+
+Walk slowly but walk 
+
+
+
 
