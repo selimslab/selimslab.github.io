@@ -2,6 +2,6 @@
 tags: tech
 ---
 
-[[osi-model]]
+[[network/osi-model]]
 
-[[tcp-ip-network-model]]
+[[network/tcp-ip-network-model]]

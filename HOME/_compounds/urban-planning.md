@@ -1,5 +1,4 @@
 ---
-title: Urban Planning
 ---
 
 We live in a world built mostly for cars 
