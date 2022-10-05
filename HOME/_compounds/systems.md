@@ -1,7 +1,7 @@
 ---
 ---
 
-[[systems-thinking]]
+[[systems-concepts]]
 
 [[chaos]]
 

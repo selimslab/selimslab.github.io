@@ -6,7 +6,5 @@ tags: social
 
 [[a-good-life]]
 
-[[happiness]]
-
 [[people]]
 

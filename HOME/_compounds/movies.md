@@ -1,5 +1,4 @@
 ---
-tags: culture
 title: Movies 🎬
 ---
 
