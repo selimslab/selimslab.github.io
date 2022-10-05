@@ -24,7 +24,8 @@
 
 {% assign replacedcontent = content %}
 {% for item in linkarray %}
-    {% assign linktext = '<a href="/'  | append: linkarray[forloop.index0]  | append:  '/">' | append:  item | append: '</a>' %}
+    {% assign title = linkarray[forloop.index0]  | replace:'-',' ' | capitalize %}
+    {% assign linktext = '<a href="/'  | append: linkarray[forloop.index0]  | append:  '/">' | append: title | append: '</a>' %}
     {% assign bracketlink = '[[' | append: item | append: ']]' %}
     {% assign replacedcontent = replacedcontent | replace: bracketlink,linktext %}
 {% endfor %}
