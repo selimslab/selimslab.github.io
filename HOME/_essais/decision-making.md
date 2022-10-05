@@ -7,13 +7,22 @@ We make even major decisions carelessly
 
 a little forethought can prevent a lot of pain later. 
 
+[[critical-thinking]]
+
 ---
 
 Solve physical needs before deciding
 
-Get some sleep 
+[[take-a-walk]]
 
-Take a walk 
+---
+
+Understand the fundemantals
+
+Think long term 
+
+Consider unintended consequences
+
 
 ---
 
@@ -47,14 +56,12 @@ Build a broad margin of error into your moves
 
 Make a move, don't stuck 
 
-[[critical-thinking]]
-
-[[mental-models]]
-
-[[take-a-walk]]
-
-
-
 [[do-nothing-against-your-will]]
 
 [[do-what-is-right]]
+
+[[good-is-better-than-perfect]]
+
+[[nature-does-not-hurry]]
+
+[[experience-over-material]]

@@ -1,6 +1,6 @@
 ---
 title: Cognitive Biases   
-tags: models
+tags: psy
 ---
 
 

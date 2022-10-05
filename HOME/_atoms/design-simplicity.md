@@ -10,3 +10,7 @@ It is whether the user has a good conceptual model of how it works
 Its simple when there is nothing left to take away
 
 a beginner in an emergency can understand it within ten seconds
+
+---
+
+Occam’s Razor, Simpler explanations are more likely to be true

@@ -1,5 +1,5 @@
 ---
-tags: models psy 
+tags: psy 
 ---
 
 A central human emotion 

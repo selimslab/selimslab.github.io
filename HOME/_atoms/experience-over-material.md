@@ -1,4 +1,5 @@
 ---
+tags: phil psy 
 ---
 
 Happiness from an experience lasts longer. 

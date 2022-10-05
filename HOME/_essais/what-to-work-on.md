@@ -1,6 +1,6 @@
 ---
 title: What to work on?
-tags: career
+tags: phil
 ---
 
 
@@ -33,3 +33,4 @@ You’ll be most successful where you’re most intensely interested.
 
 Don’t think about how proud you would be to run a marathon. Question whether you like running.
 
+Circle of Competence, understand what you know and what you don't know [[know-where-to-stop]]

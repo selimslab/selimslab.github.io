@@ -1,10 +1,12 @@
 ---
-tags: models
+tags: math
 ---
 
 Distributions
 
 Law of Large Numbers
+
+Inversion
 
 Regression to the Mean
 

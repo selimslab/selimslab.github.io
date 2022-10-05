@@ -42,5 +42,3 @@ Test hypotheses
 
 [[critical-thinking]]
 
-
-[[mental-models]]

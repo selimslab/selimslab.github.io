@@ -1,4 +1,6 @@
 ---
+tags: phil
+title: Nothing to lose 
 ---
 
 You have nothing to lose 

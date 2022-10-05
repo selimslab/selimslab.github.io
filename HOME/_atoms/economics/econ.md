@@ -1,5 +1,5 @@
 ---
-tags: models
+tags: econ
 ---
 
 Marginal utility

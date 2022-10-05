@@ -1,4 +1,5 @@
 ---
+tags: systems
 ---
 
 Systems thinking 
