@@ -2,6 +2,7 @@
 title: Logos, a toy operating system kernel from scratch
 tags: 
     - makers
+    - os
 ---
 
 Modern life runs on computers, and they run on operating systems 

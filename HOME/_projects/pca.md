@@ -2,6 +2,7 @@
 title: Principal Component Analysis
 tags: 
     - makers
+    - ml
 ---
 
 Sometimes a few dimensions explain most of the variability

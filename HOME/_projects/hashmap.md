@@ -2,6 +2,7 @@
 title: A hash table in C from scratch
 tags: 
     - makers
+    - lang
 ---
 
 a hash map implementation in C, inspired by <https://github.com/jamesroutley/write-a-hash-table>

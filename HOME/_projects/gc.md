@@ -2,6 +2,7 @@
 title: A garbage collector in C from scratch
 tags: 
     - makers
+    - lang
 ---
 
 
