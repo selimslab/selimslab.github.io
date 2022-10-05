@@ -1,6 +1,5 @@
 ---
-tags: 
-    - array
+tags: array
 ---
 [[array]]
 ```py

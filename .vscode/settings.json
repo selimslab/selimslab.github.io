@@ -1,4 +1,4 @@
-{
+{  
     "task.allowAutomaticTasks": true,
     "foam.graph.style": {
         "background": "#202020",
@@ -9,6 +9,10 @@
             "placeholder": "#545454",
             "page": "green",
         }
+    },
+    "macros": {
+        "downAndOpen": [ "list.focusDown", "list.selectAndPreserveFocus" ],
+        "upAndOpen": [ "list.focusUp", "list.selectAndPreserveFocus" ]
     }
 }
 

@@ -1,8 +1,6 @@
 ---
 ---
 
-## TLS
-
 Transport layer security 
 
 An improved and more secure version of SSL 

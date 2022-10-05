@@ -1,7 +1,7 @@
 ---
 tags: 
     - string
-    -  stack
+    - stack
 ---
 
 [[string]]

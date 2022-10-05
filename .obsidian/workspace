@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "69a0d80263b1121f",
+        "id": "e1f63fcb2f67ddb9",
         "type": "leaf",
         "state": {
           "type": "graph",
@@ -53,8 +53,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -122,17 +121,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "69a0d80263b1121f",
+  "active": "e1f63fcb2f67ddb9",
   "lastOpenFiles": [
+    "HOME/_atoms/biology-concepts.md",
+    "HOME/_atoms/arrogance.md",
+    "HOME/_atoms/ambivalence.md",
     "HOME/_zettel/my-zettelkasten-workflow.md",
     "HOME/_algorithms/concurrent.md",
     "HOME/_algo/producer-consumer-problem.md",
     "HOME/_algorithms/concurrency.md",
     "HOME/_algorithms/concurrency-algorithms.md",
     "HOME/_tech/design-patterns.md",
-    "HOME/_essais/entrepreneurship.md",
-    "HOME/_zettel/procrastination.md",
-    "HOME/_zettel/what-to-work-on.md",
-    "HOME/_zettel/do-not-regret-mistakes.md"
+    "HOME/_essais/entrepreneurship.md"
   ]
 }

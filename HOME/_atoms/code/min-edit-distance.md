@@ -1,6 +1,5 @@
 ---
-tags: 
-    - dynamic 
+tags: dynamic 
 ---
 
 [[dynamic]]

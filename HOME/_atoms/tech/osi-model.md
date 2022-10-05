@@ -40,6 +40,3 @@ Wifi
 
 Wire 
 
-
-
-[[computer-networks]]
