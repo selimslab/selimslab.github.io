@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+
+<article>
+
+    <h1>{{ page.title }} </h1>
+    <ul>        
+        {% assign sorted = site.documents | sort: 'title' %}
+        {% for note in sorted %}
+            {% if note.tags contains page.tags[0]  %}
+                {% if note.url != page.url %}
+                    <li>
+                        <a href="{{ note.url }}">{{ note.title }}</a>
+                    </li>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </ul>
+  
+</article>
+
+  

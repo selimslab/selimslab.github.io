@@ -58,13 +58,7 @@ gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
-# plugins:
-#   - jekyll-last-modified-at
 
-# last-modified-at:
-#     date-format: "%Y%m%d%H%M%S"
-
-# Exclude these files from your production _site
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -77,11 +71,11 @@ theme:
 collections_dir: HOME
 
 collections:
-  zettel:    
+  atoms:    
     output: true 
     permalink:  /:title/
 
-  tech:    
+  compounds:    
     output: true 
     permalink:  /:title/
 
@@ -89,23 +83,10 @@ collections:
     output: true 
     permalink:  /:title/
 
-  projects:    
+  pages:    
     output: true 
     permalink:  /:title/
 
-  algo:    
-    output: true 
-    permalink:  /:title/
-
-  algorithms:    
-    output: true 
-    permalink:  /:title/
-
-
-
-# feed:
-#   collections:
-#     - tech 
 
 defaults:
 -
