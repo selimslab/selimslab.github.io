@@ -1,4 +1,5 @@
 ---
+tags: math 
 ---
 
 Probabilistic thinking

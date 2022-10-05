@@ -75,11 +75,11 @@ collections:
     output: true 
     permalink:  /:title/
 
-  compounds:    
+  essais:    
     output: true 
     permalink:  /:title/
 
-  essais:    
+  top:    
     output: true 
     permalink:  /:title/
 

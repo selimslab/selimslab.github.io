@@ -1,4 +1,5 @@
 ---
+tags: models
 ---
 
 Inertia, objects and people display the same effect. 

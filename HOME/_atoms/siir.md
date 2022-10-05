@@ -1,5 +1,6 @@
 ---
 title: Şiirler
+tags: art
 ---
 
 

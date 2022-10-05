@@ -1,5 +1,6 @@
 ---
 title: Leadership 🌱
+tags: psy phil skills 
 ---
 
 You plant the seeds and water them, 

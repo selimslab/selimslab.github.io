@@ -8,17 +8,15 @@ layout: default
 
     {% include search.html %}
 
-
-
+    {% assign sorted = site.top | sort: 'title' %}
     <ul>
-        <li>
-            <a href="/essais/">Essais/</a>
-        </li>
-        <li>
-            <a href="/compounds/">Compounds/</a>
-        </li>
+        {% for p in sorted  %}
+            <li>
+                <a href="{{ p.url }}">{{ p.title }}</a>
+            </li>
+        {% endfor %}
     </ul>
-
+    
 
 </article>
 

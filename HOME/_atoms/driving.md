@@ -1,5 +1,6 @@
 ---
 title: Driving
+tags: skills
 ---
 
 Drive boring 

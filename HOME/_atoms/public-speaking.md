@@ -1,5 +1,6 @@
 ---
 title: Public speaking
+tags: skills
 ---
 
 

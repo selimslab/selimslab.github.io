@@ -1,8 +1,7 @@
 ---
-title: Entrepreneurship    
+title: Entrepreneurship 
+tags: skills 
 ---
-
-
 
 
 [[what-to-work-on]]

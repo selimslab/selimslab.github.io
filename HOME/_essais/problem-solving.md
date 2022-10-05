@@ -1,6 +1,6 @@
 ---
 title: Problem Solving
-
+tags: skills
 ---
 
 Prevention is the best

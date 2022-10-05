@@ -1,5 +1,6 @@
 ---
 title: How to write better?
+tags: skills
 ---
 
 Write a lot
@@ -20,3 +21,4 @@ Iterate
 
 Less is more 
 
+“The best writing is rewriting.” 

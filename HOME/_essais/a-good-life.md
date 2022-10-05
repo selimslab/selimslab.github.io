@@ -1,9 +1,23 @@
 ---
 title: A good life 🏛️ 
+tags: phil
 ---
 
 
+
 [[the-control-principle]]
+
+[[expect-everything]]
+
+[[less]]
+
+[[life-is-not-short]]
+
+[[do-nothing-against-your-will]]
+
+[[the-pain-is-not-unbearable]]
+
+[[already-naked]]
 
 [[do-not-regret-mistakes]]
 
@@ -20,8 +34,6 @@ title: A good life 🏛️
 [[know-where-to-stop]]
 
 [[communication]]
-
-[[stoicism]]
 
 [[no-lies]]
 
@@ -51,17 +63,15 @@ title: A good life 🏛️
 
 [[practical-skills]]
 
-it doesn't matter 
-
-it will be better 
-
-
 [[find-time-to-just-be]]
 
+[[it-does-not-matter]]
 
 Love, Work, Hope 
 
 Walk slowly but walk 
+
+
 
 
 
