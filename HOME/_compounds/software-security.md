@@ -21,7 +21,7 @@ Isolate
 Don't try to roll your own security solutions, it's a community effort 
 
 
-[[security/cookies]]
+[[cookies]]
 
 [[csrf]]
 
@@ -37,7 +37,7 @@ Don't try to roll your own security solutions, it's a community effort
 
 [[certificates]]
 
-[[security/transport-layer-security]]
+[[transport-layer-security]]
 
 [[authentication]]
 
