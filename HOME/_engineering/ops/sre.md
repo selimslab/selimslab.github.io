@@ -3,7 +3,7 @@ title: SRE
 tags: eng
 ---
 
-ideas from Google SRE book
+ideas from the Google SRE book
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Chaos
-tags: systems science
+tags: systems
 ---
 
 

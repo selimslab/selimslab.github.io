@@ -71,7 +71,7 @@ theme:
 collections_dir: HOME
 
 collections:
-  art:    
+  arts:    
     output: true 
     permalink:  /:title/
 
@@ -91,7 +91,15 @@ collections:
     output: true 
     permalink:  /:title/
 
+  social-sciences:    
+    output: true 
+    permalink:  /:title/
+
   skills:    
+    output: true 
+    permalink:  /:title/
+
+  math:    
     output: true 
     permalink:  /:title/
 

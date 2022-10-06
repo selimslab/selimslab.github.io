@@ -1,5 +1,4 @@
 ---
-title: How to raise children?
 tags: psy skills
 ---
 

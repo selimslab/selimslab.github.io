@@ -1,4 +1,5 @@
 ---
+title: OSI Model
 tags: network
 --- 
 

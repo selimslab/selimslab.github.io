@@ -1,5 +1,5 @@
 ---
-title: How to start a business? 
+title: Start and run a business
 tags: skills 
 ---
 

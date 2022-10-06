@@ -1,4 +1,0 @@
----
-tags: art
-layout: tag
----
