@@ -79,10 +79,6 @@ collections:
     output: true 
     permalink:  /:title/
 
-  third:    
-    output: true 
-    permalink:  /:title/
-
   atoms:    
     output: true 
     permalink:  /:title/

@@ -1,7 +1,5 @@
 ---
-tags: 
-    - stack
-    - good
+tags: stack
 ---
 
 [[stack]]
