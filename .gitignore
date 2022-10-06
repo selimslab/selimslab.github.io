@@ -2,5 +2,4 @@
 _site/*
 !.github
 !.vscode
-!.obsidian
 Gemfile.lock
