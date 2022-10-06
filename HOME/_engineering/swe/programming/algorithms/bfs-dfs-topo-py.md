@@ -1,6 +1,5 @@
 ---
-tags: 
-    - graph
+tags: graph
 ---
 
 [[graph]]

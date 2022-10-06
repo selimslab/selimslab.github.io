@@ -1,7 +1,6 @@
 ---
 title: Dijkstra
-tags: 
-    - graph
+tags: graph
 ---
 
 [[graph]]

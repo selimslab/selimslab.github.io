@@ -1,7 +1,4 @@
 ---
-tags: 
-    - array 
-    - pointers
 ---
 
 [[array]]

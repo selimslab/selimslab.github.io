@@ -1,7 +1,6 @@
 ---
-tags: 
-    - string
-    - stack
+tags: string stack
+
 ---
 
 [[string]]

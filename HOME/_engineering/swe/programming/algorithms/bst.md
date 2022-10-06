@@ -1,7 +1,6 @@
 ---
 title: Tree, Binary Search Tree
-tags: 
-    - tree
+tags: tree
 ---
 
 [[tree]]

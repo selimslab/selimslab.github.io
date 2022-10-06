@@ -5,7 +5,7 @@ tags: phil skills
 
 [[a-healthy-life]]
 
-[[art]]
+[[arts]]
 
 [[philosophy]]
 

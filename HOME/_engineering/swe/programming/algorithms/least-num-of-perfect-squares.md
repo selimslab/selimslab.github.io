@@ -1,6 +1,5 @@
 ---
-tags: 
-    - queue
+tags: queue
 ---
 
 [[queue]]

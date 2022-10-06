@@ -1,5 +1,7 @@
+---
+---
 
-{% assign all_tags = site.documents | map: "tags"  | compact | join: ',' |  strip | split: ',' | uniq | sort %}
+{% assign all_tags = site.documents | map: "tags"  | compact | uniq | sort %}
 
 {{site.documents.size}} docs
 

@@ -1,6 +1,5 @@
 ---
-tags: 
-    - pointers
+tags: pointers
 ---
 
 [[pointers]]

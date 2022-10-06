@@ -1,6 +1,10 @@
 ---
 ---
 
+{% include search.html %}
+
+{{site.atoms.size}} notes
+
 {% assign sorted = site.atoms | sort: 'title' %}
 <ul>
     {% for p in sorted  %}

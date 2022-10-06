@@ -1,7 +1,4 @@
 ---
-tags: 
-    - dynamic
-    - tree
 ---
 
 [[dynamic]]

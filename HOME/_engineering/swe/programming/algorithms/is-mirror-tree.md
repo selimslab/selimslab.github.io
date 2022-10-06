@@ -1,6 +1,5 @@
 ---
-tags: 
-    - tree
+tags: tree
 ---
 
 ```java

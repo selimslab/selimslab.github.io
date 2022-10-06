@@ -63,5 +63,6 @@ Meet the terminal, ls, cd, mv, top, mkdir, touch, cat, sort, grep, rm
 
 [History of the Internet - Wikipedia](https://en.wikipedia.org/wiki/History_of_the_Internet)
 
+[Avoid Working Alone – Letters To A New Developer](https://letterstoanewdeveloper.com/2019/06/24/avoid-working-alone/)
 
 [[engineering]]

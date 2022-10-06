@@ -87,15 +87,15 @@ collections:
     output: true 
     permalink:  /:title/
 
+  practical-skills:    
+    output: true 
+    permalink:  /:title/
+
   science:    
     output: true 
     permalink:  /:title/
 
   social-sciences:    
-    output: true 
-    permalink:  /:title/
-
-  skills:    
     output: true 
     permalink:  /:title/
 
