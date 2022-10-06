@@ -68,14 +68,18 @@ exclude:
 
 theme: 
 
-collections_dir: HOME
+collections_dir: _posts
 
 collections:
-  entrypoints:    
+  first:    
     output: true 
     permalink:  /:title/
 
-  essais:    
+  second:    
+    output: true 
+    permalink:  /:title/
+
+  third:    
     output: true 
     permalink:  /:title/
 

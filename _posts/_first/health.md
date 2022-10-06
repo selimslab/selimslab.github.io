@@ -1,5 +1,4 @@
 ---
-title: How to stay healthy? 
 tags: health skills
 ---
 
@@ -12,3 +11,5 @@ Drink water
 [[workout]]
 
 [[enjoy-the-sun]]
+
+[[a-good-life]]

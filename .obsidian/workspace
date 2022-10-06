@@ -4,10 +4,10 @@
     "type": "split",
     "children": [
       {
-        "id": "a1d587a00f5c7d19",
+        "id": "102ec69c57923cfb",
         "type": "leaf",
         "state": {
-          "type": "graph",
+          "type": "empty",
           "state": {}
         }
       }
@@ -121,7 +121,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a1d587a00f5c7d19",
+  "active": "0c2a9247258ab781",
   "lastOpenFiles": [
     "HOME/_atoms/zoom-in-zoom-out.md",
     "HOME/_atoms/cien-anos-de-soledad.md",
