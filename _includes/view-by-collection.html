@@ -1,0 +1,11 @@
+
+
+{% assign sorted = site.collections | sort: 'label' %}
+
+<ul>
+    {% for c in sorted  %}
+        <li>
+            <a href="/{{ c.label }}">{{ c.label }}</a>
+        </li>
+    {% endfor %}
+</ul>

@@ -71,17 +71,34 @@ theme:
 collections_dir: HOME
 
 collections:
+  art:    
+    output: true 
+    permalink:  /:title/
+
   atoms:    
     output: true 
     permalink:  /:title/
 
-  essais:    
+  engineering:    
     output: true 
     permalink:  /:title/
 
-  pagetree:    
+  philosophy:    
     output: true 
     permalink:  /:title/
+
+  science:    
+    output: true 
+    permalink:  /:title/
+
+  skills:    
+    output: true 
+    permalink:  /:title/
+
+  technology:    
+    output: true 
+    permalink:  /:title/
+
 
 
 defaults:

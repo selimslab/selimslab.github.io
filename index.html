@@ -3,19 +3,14 @@ layout: default
 ---
 
 
+
+
+
 <article>
 
     {% include search.html %}
 
-    {% assign sorted = site.top | sort: 'title' %}
-    <ul>
-        {% for p in sorted  %}
-            <li>
-                <a href="{{ p.url }}">{{ p.title }}</a>
-            </li>
-        {% endfor %}
-    </ul>
-    
+    {% include view-by-collection.html %}
 
 </article>
 
