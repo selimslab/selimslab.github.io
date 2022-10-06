@@ -2,7 +2,10 @@
 layout: default
 ---
 
+
 <article>
+
+    {% include search.html %}
 
     {% assign sorted = site.top | sort: 'title' %}
     <ul>
