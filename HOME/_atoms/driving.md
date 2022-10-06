@@ -1,5 +1,5 @@
 ---
-tags: daily
+tags: skills
 ---
 
 Drive boring 

@@ -4,19 +4,15 @@ layout: default
 
 <article>
 
-    <h1></h1>
-    <ul>        
-        {% assign sorted = site.documents | sort: 'title' %}
-        {% for note in sorted %}
-            {% if note.tags contains "skills"  %}
-                {% if note.url != page.url %}
-                    <li>
-                        <a href="{{ note.url }}">{{ note.title }}</a>
-                    </li>
-                {% endif %}
-            {% endif %}
+    {% assign sorted = site.entrypoints | sort: 'title' %}
+    <ul>
+        {% for p in sorted  %}
+            <li>
+                <a href="{{ p.url }}">{{ p.title }}</a>
+            </li>
         {% endfor %}
     </ul>
+    
 
 </article>
 

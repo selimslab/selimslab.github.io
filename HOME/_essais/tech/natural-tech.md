@@ -1,6 +1,6 @@
 ---
 title: Natural technology 🍃 
-tags: dev
+tags: tech
 ---
 
 Tech blends into the reality as it matures 

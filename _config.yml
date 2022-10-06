@@ -71,11 +71,7 @@ theme:
 collections_dir: HOME
 
 collections:
-  skills:    
-    output: true 
-    permalink:  /:title/
-
-  atoms:    
+  entrypoints:    
     output: true 
     permalink:  /:title/
 
@@ -83,7 +79,7 @@ collections:
     output: true 
     permalink:  /:title/
 
-  pages:    
+  atoms:    
     output: true 
     permalink:  /:title/
 
