@@ -1,6 +1,6 @@
 ---
-title: Nature vs tech 🍃 
-tags: tech
+title: Natural technology 🍃 
+tags: dev
 ---
 
 Tech blends into the reality as it matures 
