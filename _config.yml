@@ -92,7 +92,6 @@ collections:
     permalink:  /:title/
 
 
-
 defaults:
 -
   scope:
