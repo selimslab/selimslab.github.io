@@ -4,7 +4,7 @@ layout: default
 
 <article>
 
-    {% assign sorted = site.first | sort: 'title' %}
+    {% assign sorted = site.top | sort: 'title' %}
     <ul>
         {% for p in sorted  %}
             <li>

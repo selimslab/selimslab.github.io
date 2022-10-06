@@ -71,11 +71,11 @@ theme:
 collections_dir: HOME
 
 collections:
-  first:    
+  top:    
     output: true 
     permalink:  /:title/
 
-  second:    
+  essais:    
     output: true 
     permalink:  /:title/
 
@@ -87,7 +87,7 @@ collections:
     output: true 
     permalink:  /:title/
 
-  tree:    
+  pagetree:    
     output: true 
     permalink:  /:title/
 
