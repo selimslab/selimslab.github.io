@@ -4,7 +4,8 @@ tags: psy
 
 People will never forget how you made them feel.
 
-Social skills naturally arise from genuine empathy 
+
+[[empathy]]
 
 [[reciprocity]]
 

@@ -1,6 +1,6 @@
 ---
 title: How to live a good life? 🏛️ 
-tags: skills 
+tags: skills phil
 ---
 
 [[a-healthy-life]]

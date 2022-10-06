@@ -1,6 +1,6 @@
 ---
 title: Design 
-tags: skills 
+tags: skills
 --- 
   
 
@@ -15,8 +15,6 @@ tags: skills
 [[design-simplicity]]
 
 [[ship-it]]
-
-[[natural-tech]]
 
 ---
 

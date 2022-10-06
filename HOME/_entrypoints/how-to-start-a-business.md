@@ -3,7 +3,6 @@ title: How to start a business?
 tags: skills 
 ---
 
-
 [[what-to-work-on]]
 
 [[good-design]]

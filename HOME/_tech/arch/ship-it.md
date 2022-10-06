@@ -1,6 +1,7 @@
 ---
-tags: dev
 ---
+
+[[good-design]]
 
 Ship it
 

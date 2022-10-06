@@ -83,6 +83,10 @@ collections:
     output: true 
     permalink:  /:title/
 
+  tech:    
+    output: true 
+    permalink:  /:title/
+
 
 defaults:
 -

@@ -1,7 +1,7 @@
 ---
 ---
 
-[[entrepreneurship]]
+[[how-to-start-a-business]]
 
 [fast](https://patrickcollison.com/fast)
 
