@@ -68,7 +68,7 @@ exclude:
 
 theme: 
 
-collections_dir: _posts
+collections_dir: HOME
 
 collections:
   first:    
