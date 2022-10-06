@@ -87,6 +87,11 @@ collections:
     output: true 
     permalink:  /:title/
 
+  tree:    
+    output: true 
+    permalink:  /:title/
+
+
 
 defaults:
 -
