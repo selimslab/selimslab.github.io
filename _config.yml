@@ -71,15 +71,15 @@ theme:
 collections_dir: HOME
 
 collections:
+  skills:    
+    output: true 
+    permalink:  /:title/
+
   atoms:    
     output: true 
     permalink:  /:title/
 
   essais:    
-    output: true 
-    permalink:  /:title/
-
-  top:    
     output: true 
     permalink:  /:title/
 

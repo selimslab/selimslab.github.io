@@ -1,6 +1,6 @@
 ---
 title: How to start?
-tags: skills
+tags: skills psy
 ---
 
 You need a driving emotion 

@@ -7,7 +7,7 @@
         "id": "a1d587a00f5c7d19",
         "type": "leaf",
         "state": {
-          "type": "empty",
+          "type": "graph",
           "state": {}
         }
       }
@@ -36,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#psy",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -123,6 +123,7 @@
   },
   "active": "a1d587a00f5c7d19",
   "lastOpenFiles": [
+    "HOME/_atoms/zoom-in-zoom-out.md",
     "HOME/_atoms/cien-anos-de-soledad.md",
     "HOME/_atoms/books/books-literature.md",
     "HOME/_atoms/biology-concepts.md",
@@ -131,7 +132,6 @@
     "HOME/_zettel/my-zettelkasten-workflow.md",
     "HOME/_algorithms/concurrent.md",
     "HOME/_algo/producer-consumer-problem.md",
-    "HOME/_algorithms/concurrency.md",
-    "HOME/_algorithms/concurrency-algorithms.md"
+    "HOME/_algorithms/concurrency.md"
   ]
 }

@@ -1,6 +1,4 @@
 ---
+tags: dev skills
 layout: tag
-tags: systems
 ---
-
-

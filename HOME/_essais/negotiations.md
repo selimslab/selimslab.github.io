@@ -1,5 +1,5 @@
 ---
-tags: psy skills
+tags: psy
 ---
 
 No prep, no win 

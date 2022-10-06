@@ -12,4 +12,3 @@ Whatever this life brings
 
 But finds time to just be.
 
-[[poems]]
