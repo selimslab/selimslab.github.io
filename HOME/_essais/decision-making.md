@@ -3,17 +3,33 @@ tags: psy skills
 ---
 
 
-We make even major decisions carelessly
 
-a little forethought can prevent a lot of pain later. 
+If you first clarify your principles in life, you will decide easily  [[philosophy]]
 
-[[critical-thinking]]
+Understand [[psychology]]
+
+Dare to think [[critical-thinking]]
 
 ---
 
-Solve physical needs before deciding
+Solve physical needs before deciding, eg. [[take-a-walk]]
 
-[[take-a-walk]]
+
+[[do-nothing-against-your-will]]
+
+[[do-what-is-right]]
+
+[[good-is-better-than-perfect]]
+
+[[nature-does-not-hurry]]
+
+[[experience-over-material]]
+
+---
+
+We make even major decisions carelessly
+
+a little forethought can prevent a lot of pain later. 
 
 ---
 
@@ -22,7 +38,6 @@ Understand the fundemantals
 Think long term 
 
 Consider unintended consequences
-
 
 ---
 
@@ -56,12 +71,3 @@ Build a broad margin of error into your moves
 
 Make a move, don't stuck 
 
-[[do-nothing-against-your-will]]
-
-[[do-what-is-right]]
-
-[[good-is-better-than-perfect]]
-
-[[nature-does-not-hurry]]
-
-[[experience-over-material]]

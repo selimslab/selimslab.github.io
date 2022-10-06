@@ -1,5 +1,5 @@
 ---
-title: Children
+title: How to raise children well?
 tags: psy skills
 ---
 

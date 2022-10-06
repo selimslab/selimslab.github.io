@@ -1,6 +1,6 @@
 ---
 title: Poems 
-tags: art 
+tags: art poems
 ---
 
 [[siir]]

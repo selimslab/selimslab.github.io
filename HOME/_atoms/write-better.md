@@ -3,6 +3,8 @@ title: How to write better?
 tags: skills
 ---
 
+[[how-to-start]]
+
 Write a lot
 
 Define your audience 
@@ -10,8 +12,6 @@ Define your audience
 Define your goal 
 
 Ask a lot of questions 
-
-Set out to answer your questions
 
 Use simple words 
 

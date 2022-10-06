@@ -1,7 +1,15 @@
 ---
 title: How to live a good life? 🏛️ 
-tags: phil skills
+tags: skills 
 ---
+
+[[a-healthy-life]]
+
+[[art]]
+
+[[philosophy]]
+
+
 
 
 

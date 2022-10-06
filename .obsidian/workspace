@@ -4,10 +4,10 @@
     "type": "split",
     "children": [
       {
-        "id": "e1f63fcb2f67ddb9",
+        "id": "a1d587a00f5c7d19",
         "type": "leaf",
         "state": {
-          "type": "graph",
+          "type": "empty",
           "state": {}
         }
       }
@@ -121,8 +121,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0c2a9247258ab781",
+  "active": "a1d587a00f5c7d19",
   "lastOpenFiles": [
+    "HOME/_atoms/cien-anos-de-soledad.md",
     "HOME/_atoms/books/books-literature.md",
     "HOME/_atoms/biology-concepts.md",
     "HOME/_atoms/arrogance.md",
@@ -131,7 +132,6 @@
     "HOME/_algorithms/concurrent.md",
     "HOME/_algo/producer-consumer-problem.md",
     "HOME/_algorithms/concurrency.md",
-    "HOME/_algorithms/concurrency-algorithms.md",
-    "HOME/_tech/design-patterns.md"
+    "HOME/_algorithms/concurrency-algorithms.md"
   ]
 }
