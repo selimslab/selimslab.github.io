@@ -6,10 +6,8 @@ layout: none
   {% for note in site.documents %}
       {
         "title"    : "{{ note.title | escape }}",
-        "category" : "{{ note.category }}",
         "tags"     : "{{ note.tags | join: ', ' }}",
         "url"      : "{{ site.baseurl }}{{ note.url }}",
-        "date"     : "{{ note.date }}",
         "content"  : {{ note.content | strip_html | jsonify }}
         }{% unless forloop.last %},{% endunless %}
   {% endfor %}

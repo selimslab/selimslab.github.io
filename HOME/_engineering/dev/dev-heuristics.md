@@ -1,6 +1,6 @@
 ---
 title: Some Heuristics
-tags: swe
+tags: dev
 --- 
 
 Keep it simple 

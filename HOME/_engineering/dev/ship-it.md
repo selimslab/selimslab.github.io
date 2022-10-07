@@ -1,4 +1,5 @@
 ---
+tags: dev
 ---
 
 [[good-design]]

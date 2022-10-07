@@ -1,5 +1,4 @@
 ---
-title: Science Books
 tags: books
 ---
 

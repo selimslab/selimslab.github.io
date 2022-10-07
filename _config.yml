@@ -99,10 +99,6 @@ collections:
     output: true 
     permalink:  /:title/
 
-  math:    
-    output: true 
-    permalink:  /:title/
-
   technology:    
     output: true 
     permalink:  /:title/

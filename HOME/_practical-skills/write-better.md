@@ -22,3 +22,5 @@ Iterate
 Less is more 
 
 “The best writing is rewriting.” 
+
+[[learn-fast-typing]]
