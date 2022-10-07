@@ -1,5 +1,6 @@
 ---
 title: TV Series 
+tags: cinema 
 ---
 
 Friends (1994)

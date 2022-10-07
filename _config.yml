@@ -75,10 +75,6 @@ collections:
     output: true 
     permalink:  /:title/
 
-  atoms:    
-    output: true 
-    permalink:  /:title/
-
   engineering:    
     output: true 
     permalink:  /:title/
@@ -107,9 +103,15 @@ collections:
     output: true 
     permalink:  /:title/
 
+  atoms:    
+    output: true 
+    permalink:  /:title/
+
   meta:    
     output: true 
     permalink:  /:title/
+
+
 
 
 defaults:

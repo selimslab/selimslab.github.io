@@ -1,6 +1,6 @@
 ---
 title: Favorite Literature
-tags: books art lists
+tags: lit
 ---
 
 

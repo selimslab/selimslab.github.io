@@ -1,5 +1,5 @@
 ---
-tags: psy phil
+tags: psy phil soc
 ---
 
 People will never forget how you made them feel.
