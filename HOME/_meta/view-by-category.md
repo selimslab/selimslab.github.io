@@ -1,3 +1,7 @@
+---
+layout: page
+tags: meta
+---
 
 
 {% assign sorted = site.collections | sort: 'label' %}

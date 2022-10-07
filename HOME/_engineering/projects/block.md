@@ -1,6 +1,6 @@
 ---
 title: Tiny blockchain in 100 lines
-tags: makers 
+tags: projects 
 ---
 
 ```python

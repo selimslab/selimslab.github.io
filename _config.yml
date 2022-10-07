@@ -83,6 +83,10 @@ collections:
     output: true 
     permalink:  /:title/
 
+  math:    
+    output: true 
+    permalink:  /:title/
+    
   philosophy:    
     output: true 
     permalink:  /:title/
@@ -103,6 +107,9 @@ collections:
     output: true 
     permalink:  /:title/
 
+  meta:    
+    output: true 
+    permalink:  /:title/
 
 
 defaults:
