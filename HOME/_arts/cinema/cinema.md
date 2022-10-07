@@ -1,6 +1,6 @@
 ---
 title: Cinema 🎬
-tags: cinema art
+tags: cinema arts
 layout: tag
 ---
 

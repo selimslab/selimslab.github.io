@@ -111,6 +111,9 @@ collections:
     output: true 
     permalink:  /:title/
 
+  lists:    
+    output: true 
+    permalink:  /:title/
 
 
 
