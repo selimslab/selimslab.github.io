@@ -1,5 +1,4 @@
 ---
-tags: systems
 ---
 
 Atoms to Universe

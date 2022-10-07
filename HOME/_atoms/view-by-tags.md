@@ -13,7 +13,6 @@
 
 
 <span class="tag is-warning is-light">
-<!-- [{{tag}}](#{{tag}}) -->
 <a href="#{{tag}}">{{tag}}</a>
 </span>
 
@@ -26,7 +25,7 @@
 
   {% for p in site.documents -%}
     {% if p.tags contains tag %}
-[{{ p.title }}]( {{p.url}} )
+<a href="{{p.url}}">{{p.title}}</a>
     {% endif %}
   {% endfor %}
 

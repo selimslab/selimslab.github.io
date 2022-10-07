@@ -12,9 +12,13 @@ Constraints
 
 Equilibrium
 
+[[zoom-in-zoom-out]]
+
 Churn
 
 Compunding 
+
+[[broken-systems]]
 
 Atomicity
 
@@ -25,3 +29,5 @@ Backup Systems
 Criticality
 
 Emergence
+
+[[chaos]]

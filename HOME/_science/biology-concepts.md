@@ -1,12 +1,10 @@
 ---
-tags: health
+tags: bio
 ---
 
 Evolution
 
 Ecosystems
-
-Energy
 
 Niches 
 
