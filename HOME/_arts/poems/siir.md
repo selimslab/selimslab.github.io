@@ -1,6 +1,6 @@
 ---
 title: Şiirler
-tags: poems art
+tags: poems arts
 ---
 
 

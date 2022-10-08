@@ -1,4 +1,4 @@
 ---
 layout: tag
-tags: phil art
+tags: phil arts
 ---
