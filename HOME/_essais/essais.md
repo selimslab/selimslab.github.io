@@ -1,4 +1,4 @@
 ---
+tags: essais
 layout: tag
-tags: lists meta
 ---

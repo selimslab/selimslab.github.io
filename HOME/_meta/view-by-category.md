@@ -10,7 +10,7 @@ tags: meta
     {% for c in sorted  %}
         {% if c.label != 'posts'  %}
             <li>
-                <a href="/{{ c.label }}">{{ c.label  | replace:'-',' ' | capitalize }}</a>
+                <a href="/{{ c.label }}">{{ c.label  | replace:'-',' ' | upcase }}</a>
             </li>
         {% endif %}
     {% endfor %}

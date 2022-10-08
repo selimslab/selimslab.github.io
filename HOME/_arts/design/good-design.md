@@ -1,6 +1,6 @@
 ---
 title: Design 
-tags: skills
+tags: design skills
 --- 
   
 

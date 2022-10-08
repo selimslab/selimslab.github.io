@@ -3,8 +3,6 @@ title: Critical thinking
 tags: skills
 ---
 
-[[how-so-sure]]
-
 [[dare-to-see]]
 
 [[delete-the-adjectives]]

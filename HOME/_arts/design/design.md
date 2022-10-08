@@ -1,4 +1,4 @@
 ---
+tags: design arts
 layout: tag
-tags: lists meta
 ---

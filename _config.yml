@@ -71,43 +71,20 @@ theme:
 collections_dir: HOME
 
 collections:
-  arts:    
-    output: true 
-    permalink:  /:title/
-
-  engineering:    
-    output: true 
-    permalink:  /:title/
-
-  math:    
-    output: true 
-    permalink:  /:title/
-    
-  philosophy:    
-    output: true 
-    permalink:  /:title/
-
-  practical-skills:    
-    output: true 
-    permalink:  /:title/
-
-  science:    
-    output: true 
-    permalink:  /:title/
-
-  social-sciences:    
-    output: true 
-    permalink:  /:title/
-
-  technology:    
-    output: true 
-    permalink:  /:title/
 
   atoms:    
     output: true 
     permalink:  /:title/
 
-  meta:    
+  arts:    
+    output: true 
+    permalink:  /:title/
+    
+  practical-skills:    
+    output: true 
+    permalink:  /:title/
+
+  stem:    
     output: true 
     permalink:  /:title/
 
@@ -115,6 +92,9 @@ collections:
     output: true 
     permalink:  /:title/
 
+  meta:    
+    output: true 
+    permalink:  /:title/
 
 
 defaults:
