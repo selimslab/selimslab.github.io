@@ -1,5 +1,6 @@
 ---
 layout: tag
-tags: math 
+tags: math stem
+categories: stem 
 ---
 

@@ -1,4 +1,5 @@
 ---
-tags: arts
 layout: tag
+tags: arts
+category: arts
 ---

@@ -1,5 +1,6 @@
 ---
 layout: tag
-tags: tech
+tags: tech stem 
+categories: stem 
 ---
 

@@ -1,4 +1,5 @@
 ---
 layout: tag
-tags: science
+tags: science stem
+categories: stem 
 ---

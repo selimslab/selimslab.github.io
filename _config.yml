@@ -76,7 +76,7 @@ collections:
     output: true 
     permalink:  /:title/
 
-  arts:    
+  ARTS:    
     output: true 
     permalink:  /:title/
     
@@ -84,7 +84,7 @@ collections:
     output: true 
     permalink:  /:title/
 
-  stem:    
+  STEM:    
     output: true 
     permalink:  /:title/
 
