@@ -1,5 +1,4 @@
 ---
-layout: cat
-category: stem
-tags: stem
+layout: tag
+tags: stem root
 ---

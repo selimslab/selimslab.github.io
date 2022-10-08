@@ -1,5 +1,4 @@
 ---
 layout: tag
-tags: arts
-category: arts
+tags: arts root
 ---

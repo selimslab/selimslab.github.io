@@ -1,0 +1,15 @@
+
+
+
+<ul>
+{% for p in site.documents %}
+    {% if p.tags contains "root" %}
+
+        <li>
+            <a href="{{p.url}}">{{p.title | upcase}}</a>
+        </li>
+    {% endif %}
+
+{% endfor %}
+</ul>
+
