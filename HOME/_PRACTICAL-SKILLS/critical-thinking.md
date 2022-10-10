@@ -1,6 +1,6 @@
 ---
 title: Critical thinking 
-tags: skills
+tags: skills essais-stem essais-arts
 ---
 
 [[dare-to-see]]
