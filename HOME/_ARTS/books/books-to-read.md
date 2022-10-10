@@ -1,6 +1,6 @@
 ---
 title: Reading list
-tags: books lists
+tags: books
 ---
 
 Four Thousand Weeks

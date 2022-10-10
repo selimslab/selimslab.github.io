@@ -1,5 +1,5 @@
 ---
 title: Practical Skills 🌱
 layout: tag
-tags: skills arts
+tags: skills practical-skills
 ---

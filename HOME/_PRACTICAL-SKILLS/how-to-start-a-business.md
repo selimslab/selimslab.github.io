@@ -21,4 +21,4 @@ tags: skills
 
 [[how-to-pitch]]
 
-[[leadership]]
+[[leadership/leadership]]

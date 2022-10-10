@@ -1,4 +1,4 @@
 ---
 layout: tag
-tags: books lists
+tags: books 
 ---

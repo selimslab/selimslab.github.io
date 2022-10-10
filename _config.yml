@@ -72,23 +72,15 @@ collections_dir: HOME
 
 collections:
 
-  atoms:    
-    output: true 
-    permalink:  /:title/
-
   ARTS:    
     output: true 
     permalink:  /:title/
     
-  practical-skills:    
+  PRACTICAL-SKILLS:    
     output: true 
     permalink:  /:title/
 
   STEM:    
-    output: true 
-    permalink:  /:title/
-
-  lists:    
     output: true 
     permalink:  /:title/
 
