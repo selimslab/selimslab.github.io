@@ -20,9 +20,6 @@ need to be decoded to be human readable
 clear ways for compatibility 
 
 
-
-
-
 1. via dbs 
 2. via services, eg. REST, RPC  
 3. via message passing, eg. brokers, actors

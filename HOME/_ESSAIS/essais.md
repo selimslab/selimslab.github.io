@@ -1,5 +1,5 @@
 ---
-title: Essais
+title: Essais 📜
 layout: tag
 tags: essais root 
 ---

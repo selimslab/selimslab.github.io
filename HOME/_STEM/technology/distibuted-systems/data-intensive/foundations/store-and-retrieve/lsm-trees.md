@@ -1,39 +1,6 @@
 ---
+title: Log structured merge tree (LSM tree)
 ---
-
-The two most common data structures to build a db are B-Trees vs LSM Trees
-
-B-Trees mostly used in relational dbs and stood the test of time 
-
-LSM Trees used mostly for enabling high write throughput 
-
----
-
-The simplest db could be just appending to a file, 
-
-Writes would be very fast since its pretty hard to beat an append 
-
-Reads O(n)  
-
----
-
-If you use a hash map instead, reads would reduce to 0(1)
-
-But your hash map must fit into the memory 
-
-And no range queries are possible, eg. selecting a date range 
-
----
-
-Now maybe we can do beter with the file-append
-
-Only if there is a way to keep it sorted 
-
-you can sort after every entry but its highly ineficient 
-
-
-## Log structured merge tree (LSM) 
-
 
 What if we have an in-memory balanced tree like an AVL tree, or red-black tree, 
 
@@ -76,21 +43,3 @@ it may get behind the writes, leading to disk full,
 and slower writes due to checking more segments 
 
 So monitor well   
-
-
-## B-Tree 
-
-
-### Advantages 
-
-More compact, a key is stored once 
-
-Strong transactions via locks
-
-Consistently good performance for many loads 
-
-### Disadvantages 
-
-hard to handle high write thoughput
-
-
