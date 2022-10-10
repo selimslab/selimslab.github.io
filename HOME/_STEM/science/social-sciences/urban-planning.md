@@ -1,5 +1,5 @@
 ---
-tags: social-sciences arts
+tags: social-sciences
 ---
 
 We live in a world built mostly for cars 
