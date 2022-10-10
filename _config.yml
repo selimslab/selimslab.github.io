@@ -88,10 +88,6 @@ collections:
     output: true 
     permalink:  /:title/
 
-  meta:    
-    output: true 
-    permalink:  /:title/
-
 
 defaults:
 -
