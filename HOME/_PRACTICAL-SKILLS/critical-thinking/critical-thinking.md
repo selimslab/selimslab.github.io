@@ -1,13 +1,13 @@
 ---
 title: Critical thinking 
-tags: skills essais-stem essais-arts
+tags: skills phil essais
 ---
 
 [[dare-to-see]]
 
 [[delete-the-adjectives]]
 
-[[less-wrong]]
+[[critical/less-wrong]]
 
 [[look-below-the-surface]]
 

@@ -1,5 +1,4 @@
 ---
-tags: essais-stem
 ---
 
 All models are wrong, some are useful 

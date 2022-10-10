@@ -1,5 +1,6 @@
 ---
-tags: books
+title: STEM Books
+tags: books stem
 ---
 
 A Brief History of Time

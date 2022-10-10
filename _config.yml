@@ -84,6 +84,10 @@ collections:
     output: true 
     permalink:  /:title/
 
+  ESSAIS:    
+    output: true 
+    permalink:  /:title/
+
   meta:    
     output: true 
     permalink:  /:title/

@@ -1,6 +1,6 @@
 ---
 title: Leadership 🌱
-tags: skills 
+tags: skills essais
 ---
 
 You plant the seeds and water them, 
