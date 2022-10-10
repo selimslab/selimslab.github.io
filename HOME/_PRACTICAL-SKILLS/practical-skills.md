@@ -1,5 +1,5 @@
 ---
-title: Practical Skills 🌱
+title: PRACTICAL SKILLS 🌱
 layout: tag
-tags: skills practical-skills
+tags: skills root
 ---

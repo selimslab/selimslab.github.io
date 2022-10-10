@@ -1,27 +1,11 @@
 
-<!-- 
-{% assign root_tags = "arts, stem, skills" | split: ", " %}
-
-{% assign root_tag_titles = "arts, stem, practical skills" | split: ", " %}
-
-
-{% for root_tag in root_tags %}
-    <ul>
-        <li>
-            <a href="/{{root_tag}}">{{root_tag_titles[forloop.index0] | upcase}}</a>
-        </li>
-    </ul>
-
-{% endfor %} -->
-
 {% assign tag_pages = site.documents | where: "layout", "tag" | sort: "title" %}
 
 <ul>
 {% for p in tag_pages %}
     {% if p.tags contains "root" %}
-
         <li>
-            <a href="{{p.url}}">{{p.title}}</a>
+            <a href="{{p.url}}">{{p.title | upcase }}</a>
         </li>
     {% endif %}
 

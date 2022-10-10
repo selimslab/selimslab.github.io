@@ -7,8 +7,10 @@ layout: page
 
 <ul>        
     {% assign sorted = site.documents | sort: 'title' %}
+    {% assign parent_tag = page.tags[0] %}
+
     {% for note in sorted %}
-        {% if note.tags contains page.tags[0]  %}
+        {% if note.tags contains parent_tag  %}
             {% if note.url != page.url %}
                 <li>
                     <a href="{{ note.url }}">{{ note.title }}</a>

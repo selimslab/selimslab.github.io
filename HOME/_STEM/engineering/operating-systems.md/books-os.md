@@ -1,5 +1,5 @@
 ---
-title: Books on OS
+title: Books on Operating Systems
 tags: books os
 ---
 
