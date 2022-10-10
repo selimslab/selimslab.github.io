@@ -1,4 +1,5 @@
 ---
+title: Books on Technology
 tags: books tech
 ---
 
@@ -12,6 +13,8 @@ Hackers & Painters: Big Ideas from the Computer Age
 Algorithms to Live By: What Computers Can Teach Us About Solving Human Problems
 
 Thinking in Systems: A Primer
+
+Guns, Germs, and Steel 
 
 
 

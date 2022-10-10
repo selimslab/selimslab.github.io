@@ -1,6 +1,6 @@
 ---
 title:  Design Patterns 
-tags: dev
+tags: swe
 ---
 
 ## Creational

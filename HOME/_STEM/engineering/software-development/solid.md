@@ -1,6 +1,6 @@
 ---
 title:  SOLID 
-tags: dev
+tags: swe
 --- 
 
 Single responsibility

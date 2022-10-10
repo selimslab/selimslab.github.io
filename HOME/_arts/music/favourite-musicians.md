@@ -4,6 +4,14 @@ tags: music lists
 
 ## Classical 
 
+Hans Zimmer 
+
+Howard Shore 
+
+Ludovico Eunaudi 
+
+Nino Rota 
+
 Yann Tiersen 
 
 Yo-Yo Ma
@@ -47,11 +55,11 @@ The Doors
 
 ## Local  
 
-MFÖ 
+Barış Manço 
 
 Mor ve Ötesi 
 
 Selda Bağcan 
 
-Pinhani 
+
 
