@@ -1,4 +1,5 @@
 ---
+title: Paintings 🖼️
 tags: arts lists
 ---
 

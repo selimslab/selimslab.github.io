@@ -1,5 +1,5 @@
 ---
-tags: poems
+tags: poetry
 ---
 
 "I think that I shall never see

@@ -1,7 +1,34 @@
 
 
+{% assign root_tags = "arts, stem" | split: ", " %}
 
-<ul>
+{% assign tag_pages = site.documents | where: "layout", "tag" | sort: "title" %}
+
+<div style="padding-left:1rem">
+{% for root_tag in root_tags %}
+    <a href="/{{root_tag}}">{{root_tag | upcase}}</a>
+    <ul>
+    {% for p in tag_pages %}
+
+        {% if p.tags contains root_tag %}
+
+        {% if p.tags[0] != root_tag  %}
+
+            <li>
+                <a href="{{p.url}}">{{p.title}}</a>
+            </li>
+        
+            {% endif %}
+
+        {% endif %}
+ 
+    {% endfor %}
+    </ul>
+{% endfor %}
+
+</div>
+
+<!-- <ul>
 {% for p in site.documents %}
     {% if p.tags contains "root" %}
 
@@ -11,5 +38,5 @@
     {% endif %}
 
 {% endfor %}
-</ul>
+</ul> -->
 

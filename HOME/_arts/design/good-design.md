@@ -1,5 +1,5 @@
 ---
-title: Design 
+title:  How to design well? 
 tags: design skills
 --- 
   

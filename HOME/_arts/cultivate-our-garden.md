@@ -1,6 +1,6 @@
 ---
 title: We must cultivate our garden 
-tags: poems phil
+tags: poetry phil
 ---
 
 "Il faut cultiver notre jardin"

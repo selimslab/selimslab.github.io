@@ -1,5 +1,5 @@
 ---
-tags: poems phil
+tags: poetry phil
 ---
 
 Beautiful is the moment,

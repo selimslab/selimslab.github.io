@@ -1,5 +1,5 @@
 ---
-tags: poems phil
+tags: poetry phil
 ---
 
 The best lack all conviction, 

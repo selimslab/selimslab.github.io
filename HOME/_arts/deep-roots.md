@@ -1,5 +1,5 @@
 ---
-tags: poems
+tags: poetry
 ---
 
 All that is gold does not glitter,
