@@ -5,7 +5,7 @@ tags: arts skills
 
 [[know-thy-user]]
 
-[[do-one-thing-and-do-it-well]]
+[[design/do-one-thing-and-do-it-well]]
 
 [[in-praise-of-testing]]
 

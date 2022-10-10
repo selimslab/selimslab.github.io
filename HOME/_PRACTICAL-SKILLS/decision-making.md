@@ -19,13 +19,13 @@ Solve physical needs before deciding, eg. [[take-a-walk]]
 
 [[do-nothing-against-your-will]]
 
-[[do-what-is-right]]
+[[character/do-what-is-right]]
 
 [[good-is-better-than-perfect]]
 
 [[nature-does-not-hurry]]
 
-[[experience-over-material]]
+[[simplicity/experience-over-material]]
 
 ---
 

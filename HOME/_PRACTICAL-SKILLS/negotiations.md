@@ -56,7 +56,7 @@ Loss aversion
 
 [[cognitive biases]]
 
-[[anger]]
+[[anger/anger]]
 
 
 65 85 95 100% 
