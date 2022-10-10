@@ -1,6 +1,4 @@
 ---
 ---
 
-being busy does not mean time well lived 
-
-[[diogenes]]
+Being busy does not mean time well lived 

@@ -1,4 +1,5 @@
 ---
+tags: phil 
 ---
 
 Neither blame yourself nor others

@@ -12,4 +12,5 @@ Do what you can, now and here
 
 <https://training.kalzumeus.com/newsletters/archive/consulting_1>
 
-[[complicit-employee]]
+
+[[we-are-complicit-in-our-employers-deeds]]

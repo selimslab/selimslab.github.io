@@ -25,7 +25,7 @@ Solve physical needs before deciding, eg. [[take-a-walk]]
 
 [[nature-does-not-hurry]]
 
-[[simplicity/experience-over-material]]
+[[experience-over-material]]
 
 ---
 
