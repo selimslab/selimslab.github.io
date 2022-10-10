@@ -1,4 +1,4 @@
 ---
 layout: tag
-tags: ml eng
+tags: swe tech
 ---

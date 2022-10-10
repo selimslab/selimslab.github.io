@@ -14,8 +14,6 @@ Algorithms to Live By: What Computers Can Teach Us About Solving Human Problems
 
 Thinking in Systems: A Primer
 
-Guns, Germs, and Steel 
-
 
 
 ## Software business

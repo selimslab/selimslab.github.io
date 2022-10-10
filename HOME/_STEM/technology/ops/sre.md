@@ -1,6 +1,6 @@
 ---
 title: SRE 
-tags: ops eng
+tags: ops tech
 ---
 
 ideas from the Google SRE book

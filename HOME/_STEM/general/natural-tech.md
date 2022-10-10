@@ -1,6 +1,6 @@
 ---
 title: Natural technology 🍃 
-tags: tech essais
+tags: stem essais
 ---
 
 Tech blends into the reality as it matures 

@@ -1,6 +1,6 @@
 ---
 title: Software Security 🔐
-tags: sec eng
+tags: sec tech
 layout: tag
 --- 
 

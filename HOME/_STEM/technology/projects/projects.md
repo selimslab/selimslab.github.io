@@ -1,5 +1,5 @@
 ---
 layout: tag
-tags: os eng
+tags: projects tech
 ---
 
