@@ -5,7 +5,7 @@ tags: skills
 
 [[what-to-work-on]]
 
-[[good-design]]
+[[design]]
 
 [[get-things-done]]
 

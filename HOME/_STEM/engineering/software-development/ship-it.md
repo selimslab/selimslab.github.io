@@ -2,7 +2,7 @@
 tags: swe
 ---
 
-[[good-design]]
+[[design]]
 
 Ship it
 

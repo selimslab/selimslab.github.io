@@ -13,7 +13,7 @@ or to spend our days dreaming in artificial virtual places,
 
 tech should bring us together and make our lives richer instead of making us comfortably numb 
 
-[[good-design]]
+[[design]]
 
 [fingers](http://worrydream.com/#!/ABriefRantOnTheFutureOfInteractionDesign)
 
