@@ -1,5 +1,5 @@
 ---
-tags: stg
+tags: bus
 ---
 
 Sometimes I just can’t get anything done.

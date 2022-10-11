@@ -1,10 +1,84 @@
 
 <div class="tags">
 
+
+
 {% for tag in page.tags %}
 
+    {% case tag %}
+        {% when "skills" %}
+        {%  assign label = "practical-skills" %}
+        
+        {% when "bio" %}
+        {%  assign label = "biology" %}
+        
+        {% when "chem" %}
+        {%  assign label = "chemistry" %}
+        
+        {% when "swe" %}
+        {%  assign label = "software-engineering" %}
+        
+        {% when "pols" %}
+        {%  assign label = "politics" %}
+        
+        {% when "soc" %}
+        {%  assign label = "sociology" %}
+
+        {% when "dist" %}
+        {%  assign label = "distributed-systems" %}
+        
+        {% when "pro" %}
+        {%  assign label = "programming" %}
+        
+        {% when "psy" %}
+        {%  assign label = "psychology" %}
+        
+        {% when "pols" %}
+        {%  assign label = "politics" %}
+        
+        {% when "phys" %}
+        {%  assign label = "physics" %}
+       
+        {% when "phil" %}
+        {%  assign label = "philosophy" %}
+
+        {% when "econ" %}
+        {%  assign label = "economics" %}
+
+        {% when "bus" %}
+        {%  assign label = "business" %}
+
+        {% when "os" %}
+        {%  assign label = "operating-systems" %}
+
+        {% when "ml" %}
+        {%  assign label = "machine-learning" %}
+
+
+        {% when "network" %}
+        {%  assign label = "computer-networks" %}
+
+
+        {% when "pro" %}
+        {%  assign label = "programming" %}
+
+
+        {% when "lang" %}
+        {%  assign label = "programming-languages" %}
+
+
+        {% when "lit" %}
+        {%  assign label = "literature" %}
+
+    
+    {% else %}
+
+    {%  assign label = tag %}
+
+    {% endcase %}
+
     <span class="tag is-info is-light">
-    <a href="/{{tag}}">{{tag}}</a>
+    <a href="/{{label}}">{{label}}</a>
     </span>
 
 {% endfor %}

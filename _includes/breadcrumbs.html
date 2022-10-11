@@ -1,8 +1,16 @@
+
+<script>
+ (async() => {
+  let taglabels = await fetch("/assets/data/tags.json")
+  .then(response => response.json())
+})();
+</script>
+
 <div id="breadcrumbs">
     {% assign crumbs = page.path | remove:'/index.html' | split: '/' %}
-    <a href="/">Home</a> /
+    <a href="/">Home</a>
     
-    <a href="/{{page.collection | downcase}}"> {{page.collection  | replace:'-',' ' | capitalize}}</a> 
+    <!-- <a href="/{{page.collection | downcase}}"> {{page.collection  | replace:'-',' ' | capitalize}}</a>  -->
 
     {% for crumb in crumbs offset: 1 %}
       {% if forloop.last %}
