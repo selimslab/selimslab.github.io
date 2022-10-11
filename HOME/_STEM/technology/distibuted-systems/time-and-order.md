@@ -1,4 +1,5 @@
 ---
+tags: dist
 ---
 
 Timestamps are unreliable since nodes cannot agree on time 
