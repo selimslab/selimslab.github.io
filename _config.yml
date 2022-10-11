@@ -80,11 +80,11 @@ collections:
     output: true 
     permalink:  /:title/
 
-  ESSAIS:    
+  essais:    
     output: true 
     permalink:  /:title/
 
-  LISTS:    
+  lists:    
     output: true 
     permalink:  /:title/
 
