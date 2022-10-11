@@ -1,4 +1,4 @@
 ---
 layout: tag
-tags: lang pro
+tags: lang pro tech
 ---

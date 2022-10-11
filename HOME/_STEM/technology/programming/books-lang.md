@@ -1,6 +1,6 @@
 ---
 title: Books on Programming Languages
-tags: books pro
+tags: books lang
 ---
 
 Fluent Python: Clear, Concise, and Effective Programming
