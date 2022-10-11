@@ -71,7 +71,7 @@ collections:
   ARTS:    
     output: true 
     permalink:  /:title/
-    
+ 
   PRACTICAL-SKILLS:    
     output: true 
     permalink:  /:title/
@@ -81,6 +81,10 @@ collections:
     permalink:  /:title/
 
   ESSAIS:    
+    output: true 
+    permalink:  /:title/
+
+  LISTS:    
     output: true 
     permalink:  /:title/
 
