@@ -72,10 +72,6 @@ a:hover{
   color: $accent;
 }
 
-.nostyle{
-  all: unset;
-  cursor: pointer;
-}
 
 @media only screen and (max-width: 900px) {
   .img-full {
