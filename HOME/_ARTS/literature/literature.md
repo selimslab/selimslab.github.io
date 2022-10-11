@@ -1,5 +1,5 @@
 ---
 title: Literature 
-tags: lit arts
+tags: lit arts books
 layout: tag
 ---
