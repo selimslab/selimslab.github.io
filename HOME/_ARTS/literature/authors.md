@@ -1,6 +1,6 @@
 ---
 title: Some favorite authors
-tags: lit
+tags: lit 
 ---
 
 Antoine de Saint-Exupéry

@@ -1,5 +1,5 @@
 ---
 title: Books 📚
 layout: tag
-tags: books arts 
+tags: books arts lists
 ---

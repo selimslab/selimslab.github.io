@@ -1,4 +1,4 @@
-##  a minimal Jekyll blog with clickable backlinks, dark mode, offline access, search
+##  a knowledge base with backlinks, dark mode, search, and offline access
 
 [![Deploy Jekyll site to Pages](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml/badge.svg)](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml)
 
@@ -20,9 +20,7 @@ JEKYLL_ENV=production bundle exec jekyll serve --trace
 ## Features 
 
 1. minimal
-2. zettelkasten
-   1. backlinks
-   2. render backlinks as clickable links
+2. backlinks
 3. dark mode
 4. search
 5. random post dice
