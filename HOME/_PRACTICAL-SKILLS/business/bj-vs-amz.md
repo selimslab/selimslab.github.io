@@ -1,6 +1,6 @@
 ---
 title: Strategy Letter I, Ben and Jerry’s vs. Amazon
-tags: stg
+tags: bus
 ---
 
 

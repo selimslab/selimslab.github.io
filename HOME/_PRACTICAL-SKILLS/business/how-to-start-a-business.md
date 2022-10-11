@@ -1,6 +1,6 @@
 ---
 title: How to start and run a business
-tags: skills 
+tags: skills bus
 ---
 
 [[what-to-work-on]]
