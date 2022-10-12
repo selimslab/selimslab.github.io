@@ -30,5 +30,10 @@ JEKYLL_ENV=production bundle exec jekyll serve --trace
 9. random artwork on post reload
    
 
+## Next 
+
+1. auto generate art.json 
+
+
 
 

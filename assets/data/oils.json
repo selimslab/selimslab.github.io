@@ -1,0 +1,9 @@
+---
+layout: none
+---
+
+[
+    {% for img in site.static_files %}{% if img.path contains 'static/art' %}
+"{{img.basename}}"{% unless forloop.last %},{% endunless %}
+    {% endif %}{% endfor %}
+]
