@@ -1,6 +1,6 @@
 ---
 layout: tag
-tags: systems stem
+tags: sys stem
 ---
 
 

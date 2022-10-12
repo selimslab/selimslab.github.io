@@ -1,5 +1,5 @@
 ---
 layout: tag
-tags: network tech
+tags: net tech
 ---
 

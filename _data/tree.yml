@@ -1,0 +1,43 @@
+
+arts: 
+  - books
+  - cinema 
+  - design 
+  - lit
+  - music
+  - phil 
+  - poetry
+    - hk 
+
+stem: 
+  - tech 
+    - algorithms
+    - net
+    - dist
+    - ml
+    - os
+    - pro
+    - lang
+    - projects
+    - swe
+    - sec
+    - sre
+
+  - math
+  - social-sciences
+    - econ 
+    - pols
+    - psy
+    - soc 
+    - hist
+  - natural-sciences
+    - bio
+    - chem  
+    - phys
+  - sys
+
+skills: null 
+
+lists: null 
+
+essais: null 

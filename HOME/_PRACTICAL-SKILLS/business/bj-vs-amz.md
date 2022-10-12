@@ -16,6 +16,6 @@ The other model, popularly called “Get Big Fast” (a.k.a. “Land Grab”), r
 
 The worst thing you can do is fail to decide whether you’re going to be a Ben and Jerry’s company or an Amazon company.
 
-If you’re going into a market with no existing competition, lock-in, and network effects, you better use the Amazon model, or you’re going the way of Wordsworth.com, which started two years before Amazon, and nobody’s ever heard of them. Or even worse, you’re going to be a ghost site like MSN Auctions with virtually no chance of ever overcoming ebay. (Read Wordsworth’s reply )
+If you’re going into a market with no existing competition, lock-in, and net effects, you better use the Amazon model, or you’re going the way of Wordsworth.com, which started two years before Amazon, and nobody’s ever heard of them. Or even worse, you’re going to be a ghost site like MSN Auctions with virtually no chance of ever overcoming ebay. (Read Wordsworth’s reply )
 
 If you’re going into an established market, getting big fast is a fabulous way of wasting tons of money, as did BarnesandNoble.com. Your best hope is to do something sustainable and profitable, so that you have years to slowly take over your competition.

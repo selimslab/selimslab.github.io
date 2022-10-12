@@ -1,6 +1,6 @@
 ---
 title: Chaos
-tags: systems
+tags: sys
 ---
 
 

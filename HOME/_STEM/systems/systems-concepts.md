@@ -1,5 +1,5 @@
 ---
-tags: systems
+tags: sys
 ---
 
 Systems thinking 

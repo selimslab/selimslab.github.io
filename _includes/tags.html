@@ -5,81 +5,11 @@
 
 {% for tag in page.tags %}
 
-    {% case tag %}
-        {% when "skills" %}
-        {%  assign label = "practical-skills" %}
-        
-        {% when "bio" %}
-        {%  assign label = "biology" %}
-        
-        {% when "chem" %}
-        {%  assign label = "chemistry" %}
-        
-        {% when "swe" %}
-        {%  assign label = "software-engineering" %}
-        
-        {% when "pols" %}
-        {%  assign label = "politics" %}
-        
-        {% when "soc" %}
-        {%  assign label = "sociology" %}
-
-        {% when "dist" %}
-        {%  assign label = "distributed-systems" %}
-        
-        {% when "pro" %}
-        {%  assign label = "programming" %}
-        
-        {% when "psy" %}
-        {%  assign label = "psychology" %}
-        
-        {% when "pols" %}
-        {%  assign label = "politics" %}
-        
-        {% when "phys" %}
-        {%  assign label = "physics" %}
-       
-        {% when "phil" %}
-        {%  assign label = "philosophy" %}
-
-        {% when "econ" %}
-        {%  assign label = "economics" %}
-
-        {% when "bus" %}
-        {%  assign label = "business" %}
-
-        {% when "os" %}
-        {%  assign label = "operating-systems" %}
-
-        {% when "ml" %}
-        {%  assign label = "machine-learning" %}
-
-
-        {% when "network" %}
-        {%  assign label = "computer-networks" %}
-
-
-        {% when "pro" %}
-        {%  assign label = "programming" %}
-
-
-        {% when "lang" %}
-        {%  assign label = "programming-languages" %}
-
-
-        {% when "lit" %}
-        {%  assign label = "literature" %}
-
-
-        {% when "hk" %}
-        {%  assign label = "haiku" %}
-
-    
+    {% if site.data.tags contains tag %}
+        {%  assign label = site.data.tags[tag] %}
     {% else %}
-
-    {%  assign label = tag %}
-
-    {% endcase %}
+        {%  assign label = tag %}
+    {% endif %}
 
     <span class="tag is-info is-light">
     <a href="/{{label}}">{{label}}</a>
@@ -88,3 +18,5 @@
 {% endfor %}
 
 </div>
+
+

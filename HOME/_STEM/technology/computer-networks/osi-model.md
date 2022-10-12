@@ -1,6 +1,6 @@
 ---
 title: OSI Model
-tags: network
+tags: net
 --- 
 
 

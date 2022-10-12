@@ -1,5 +1,5 @@
 
-{% assign all_tags = site.documents | map: "tags"  | compact | uniq | sort %}
+{% assign all_tags = site.documents | map: "tags"  | compact | uniq  %}
 
 {{all_tags.size}} tags
 

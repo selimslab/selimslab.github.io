@@ -1,6 +1,6 @@
 ---
 title: TCP/IP Model
-tags: network
+tags: net
 ---
 
 Application 
