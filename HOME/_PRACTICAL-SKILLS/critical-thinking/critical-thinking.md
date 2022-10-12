@@ -16,7 +16,6 @@ tags: skills phil essais
 [[truth-has-many-faces-suspend-judgement]]
 
 
-
 <https://reasonandmeaning.com/2015/10/08/bertrand-russells-nobel-prize-acceptance-speech/>
 
 
