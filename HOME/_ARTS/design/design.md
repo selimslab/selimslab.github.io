@@ -43,7 +43,4 @@ Design for failure,
 
 Make things work well even when things do not go as planned.
 
-
-[addictive design](https://www.theguardian.com/australia-news/datablog/ng-interactive/2017/sep/28/hooked-how-pokies-are-designed-to-be-addictive)
-
-
+Design can be evil, too [[hijacked-minds]]

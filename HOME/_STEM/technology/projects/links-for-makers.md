@@ -2,6 +2,14 @@
 tags: projects
 ---
 
+
+<https://brennan.io/2015/01/16/write-a-shell-in-c/>
+
+<https://blog.carlosgaldino.com/writing-a-file-system-from-scratch-in-rust.html>
+
+<https://viewsourcecode.org/snaptoken/kilo/>
+
+<https://carltheperson.com/posts/10-things-linux/>
 ## Lists  
 
 [500 Lines or Less](http://aosabook.org/en/500L/)

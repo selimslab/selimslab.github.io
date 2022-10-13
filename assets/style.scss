@@ -2,22 +2,23 @@
 
 ---
 
-$accent : #48c774;
-
-$darkBlue: #155da0;
-$lightBlue: #4098eb;
-$turquoise: #56CCF2;
-
 // Grays
 $gray: #555;
 $darkGray: #333;
 $darkerGray: #222;
 $black: #000;
 
+// colors
+$darkBlue: #2398ff;
+$lightBlue: #62b5ff;
+$accent : #c45c00;
+
+
 // Font stacks
 $sansSerif: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $serif: Georgia, serif;
 
+// text and bg 
 $dark-bg: #22272e; // #2a2e32
 $light-text: #f0f1f2;
 
@@ -63,10 +64,10 @@ article{
 
 
 a{
-  color: $turquoise; 
+  color: $lightBlue; 
 }
 a:visited{
-  color: $lightBlue;
+  color: $darkBlue;
 }
 a:hover{
   color: $accent;
@@ -91,7 +92,6 @@ h1 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
   font-weight: bold;
-  color: $accent
 }
 
 h2 {
@@ -157,6 +157,9 @@ pre{
   text-align: center !important;
 }
 
+a.site-name {
+  color: inherit;
+}
 
 
 html[data-theme='light'] {
@@ -173,15 +176,4 @@ html[data-theme='light'] {
     background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
   
-  a{
-    color: $darkBlue; 
-  }
-  a:visited{
-    color: $lightBlue;
-  }
-
-  a.site-name {
-    color: inherit;
-  }
-
 }

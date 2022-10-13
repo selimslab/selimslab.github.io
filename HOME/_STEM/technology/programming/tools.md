@@ -9,6 +9,14 @@ Paper
 
 Plain text 
 
+Drawing 
+
+Markdown 
+ 
+Python 
+
+Go 
+
 ---
 
 <https://excalidraw.com/>

@@ -1,6 +1,6 @@
 ---
 title:  Stack exchange
-tags: pro
+tags: lists
 ---
 
 sorted by votes 

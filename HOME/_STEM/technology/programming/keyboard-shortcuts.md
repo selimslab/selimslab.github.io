@@ -2,18 +2,9 @@
 tags: pro
 --- 
 
-## Mac 
+## Mac terminal
 
 Clear line : cmd U 
-
-Full screen: cmd shift F  
-
-## Linux 
-
-
-
-## Windows 
-
 
 ## VSCode
 

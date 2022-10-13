@@ -65,6 +65,19 @@ just start
 
 ---
 
+
+Start the day by working on your top goals 
+
+If less than 2 mins, do it right away 
+
+Batch work
+
+Prepared, focused, short meetings 
+
+
+
+---
+
 Define what you want because a weak definition means a bad outcome
 
 Dare to say "I don't know"

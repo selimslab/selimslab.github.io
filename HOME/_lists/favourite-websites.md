@@ -3,11 +3,15 @@ tags: lists
 ---
 
 
-<https://dilbert.com>
+<https://ourworldindata.org>
 
 <https://sketchplanations.com> 
 
-<https://hckrnews.com> a hacker news reader, good to read the top 20% 
+<https://www.worldometers.info>
+
+<https://dilbert.com>
+
+<https://hckrnews.com> 
 
 <https://ncase.me> 
 
