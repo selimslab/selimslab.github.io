@@ -1,4 +1,5 @@
 ---
+title: Data Structures to Build a DB
 ---
 
 The two most common data structures to build a db are B-Trees vs LSM Trees
