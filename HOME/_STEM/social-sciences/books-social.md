@@ -1,6 +1,6 @@
 ---
 title: Social Science Books
-tags: books
+tags: social-sciences books
 ---
 
 Steve Jobs by Walter Isaacson 

@@ -2,7 +2,6 @@
 tags: lists
 ---
 
-I don't know almost anything 
 
 How to make, clothes, shoes, phones, .. 
 
@@ -14,33 +13,12 @@ How to fix, cars, electronics, ..
 
 How to play, sports, musical instruments 
 
+Almost all sides of a business 
+
 How to get old 
 
 How to live well and die well 
 
-How to manage a large organization 
+I hardly know anything
 
-Marketing 
-
-Sales
-
-Legal
-
-Customer Support 
-
-UI/UX 
-
-Frontend 
-
-Desktop 
-
-iOS
-
-Android 
-
-DevOps 
-
-QA
-
-
-
+I know nothing
