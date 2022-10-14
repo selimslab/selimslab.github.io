@@ -19,7 +19,7 @@ Solve physical needs before deciding, eg. [[take-a-walk]]
 
 [[do-nothing-against-your-will]]
 
-[[character/do-what-is-right]]
+[[character]]
 
 [[good-is-better-than-perfect]]
 

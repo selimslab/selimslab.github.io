@@ -11,7 +11,7 @@ $black: #000;
 // colors
 $darkBlue: #2398ff;
 $lightBlue: #62b5ff;
-$accent : #c45c00;
+$accent : #FF530D;
 
 
 // Font stacks
@@ -59,7 +59,6 @@ article{
   margin-top: 1rem;
   padding: 1rem;
   padding-left: 2rem;
-
 }
 
 
@@ -181,6 +180,9 @@ html[data-theme='light'] {
   }
   a:visited{
     color: $lightBlue;
+  }
+  a:hover{
+    color: $accent;
   }
   a.site-name{
     color: inherit

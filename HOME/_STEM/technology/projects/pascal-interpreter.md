@@ -14,9 +14,14 @@ Here be dragons
 
 This is a basic interpreter 
 
-a computer program is just text. Compilers and interpreters translate this text for the machine 
+a computer program is just text. 
+
+Compilers and interpreters translate this text for the machine 
 
 let's say our program is 2 * 7 + 3
+
+program text -> Tokenizer -> tokens -> Parser -> abstract syntax tree -> Interpreter -> result 
+
 
 1. First step is lexical analysis, a fancy term for tokenizing 
 
@@ -26,7 +31,9 @@ Lexer creates tokens [2, *, 7, +, 3]
 
 Parser takes the tokens and produces and intermediate representation or IR
 
-abstract syntax tree (AST) is a very simple IR, there are only values and operators, no metadata 
+abstract syntax tree (AST) is a very simple IR, 
+
+there are only values and operators, no metadata 
 
 here is the AST for 2 * 7 + 3
 
@@ -41,10 +48,6 @@ here is the AST for 2 * 7 + 3
 one way to implement an interpreter is visitor pattern and it makes it easy to add new operations later 
 
 just visit the nodes and execute the operations
-
-
-program text -> Tokenizer -> tokens -> Parser -> abstract syntax tree -> Interpreter -> result 
-
 
 """
 

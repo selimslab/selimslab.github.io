@@ -1,2 +1,0 @@
-# technology/algorithms/partition-labels
-

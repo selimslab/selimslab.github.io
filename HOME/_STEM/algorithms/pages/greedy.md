@@ -3,6 +3,18 @@ tags: algorithms
 ---
 
 
+Pick the optimal move at each step
+
+THE CLASSROOM SCHEDULING PROBLEM
+
+Suppose you have a classroom and want to hold as many classes here as possible. You get a list of classes. Yet some classes overlap.
+
+Sounds like a hard problem, right? Actually, the algorithm is so easy, it might surprise you. Here’s how it works:
+
+1. Pick the class that ends the soonest. This is the first class you’ll hold in this classroom.
+2. Now, you have to pick a class that starts after the first class. Again, pick the class that ends the soonest. This is the second class you’ll hold.
+
+
 ```python
 """
 Input: [[1,4],[4,5]]
