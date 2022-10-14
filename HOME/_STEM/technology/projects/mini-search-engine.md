@@ -195,9 +195,6 @@ def test_search_engine(pages):
 
 
 if __name__ == "__main__":
-    # TODO fuzzy search
-    # TODO lexrank summarizer
-    # TODO integrate with the async crawler
     pages = [
         ("a.com", "oh romeo wherefore art thou?", ["b.com", "d.com", "e.com"]),
         ("b.com", "These Violent Delights Have Violent Ends", ["d.com", "c.com"]),
