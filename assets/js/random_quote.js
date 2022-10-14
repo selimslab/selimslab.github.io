@@ -8,7 +8,8 @@ get_random_quote = async () =>{
     })
     .then(quotes => {
         let randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-        document.getElementById("random_quote").innerHTML = randomQuote;
+        let ideaSlot = ''
+        document.getElementById("random_quote").innerHTML =  ideaSlot + randomQuote;
     }
     );
 }
