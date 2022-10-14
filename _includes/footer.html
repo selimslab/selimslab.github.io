@@ -1,6 +1,27 @@
 <footer>    
 
-    <a href="javascript:void(0);" accesskey="r" onclick="get_random_post();" style="font-size:2rem;">🎲</a>
+    {% assign tag_pages = site.documents | where: "layout", "tag" | sort: "title" %}
+
+    <a href="javascript:void(0);" accesskey="r" onclick="get_random_post();">🎲 random</a>
+
+    <span>
+
+
+    {% for p in tag_pages %}
+        {% if p.tags contains "root" %}
+            |    <a href="{{p.url}}">{{p.title | downcase }}</a>
+        {% endif %}
+
+    {% endfor %}
+
+    </span> 
+
     <p>Made with ❤️ by <a href="https://github.com/selimslab">Selim</a></p>
 
 </footer>
+
+
+
+
+
+

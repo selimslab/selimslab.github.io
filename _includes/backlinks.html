@@ -30,50 +30,19 @@
 {%- endcomment -%}
 
 <!-- Add backlinks to the current page --> 
-{%- assign link_count = 0 -%}
 {%- assign wiki_link_title = '[' | append: page.id | replace: '/', '' | append: ']' -%}
 
-{%- for note in site.documents -%}
+<h3>Links to this note</h3>
+
+<ul>
+{%- for note in site.documents -%}    
     {%- if note.url != page.url -%}
         {%- if note.content contains wiki_link_title -%}
-            {%- assign link_count = link_count | plus:1 -%}
+        <li>
+            <a href="{{note.url}}">{{ note.title }}</a>
+        </li>
         {%- endif -%}
     {%- endif -%}
 {%- endfor -%}
-
-
-{%- for note in site.pages -%}
-    {%- if note.url != page.url -%}
-        {%- if note.content contains wiki_link_title -%}
-            {%- assign link_count = link_count | plus:1 -%}
-        {%- endif -%}
-    {%- endif -%}
-{%- endfor -%}
-
-{%- if link_count > 0 -%}
-    <h3>Links to this note</h3>
+</ul>
     
-    <ul>
-    {%- for note in site.documents -%}    
-        {%- if note.url != page.url -%}
-            {%- if note.content contains wiki_link_title -%}
-            <li>
-                <a href="{{note.url}}">{{ note.title }}</a>
-            </li>
-            {%- endif -%}
-        {%- endif -%}
-    {%- endfor -%}
-
-    {%- for note in site.pages -%}
-        {%- if note.url != page.url -%}
-            {%- if note.content contains wiki_link_title -%}
-            <li>
-                <a href="{{note.url}}">{{ note.title }}</a>
-            </li>
-            {%- endif -%}
-        {%- endif -%}
-    {%- endfor -%}
-
-    </ul>
-    
-{%- endif -%}
