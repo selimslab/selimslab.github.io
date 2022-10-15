@@ -4,23 +4,19 @@ layout: default
 
 
 <article>
-
-    <h1></h1>
-
-    {% include search.html %}
     
     {% assign all_tags = site.documents | map: "tags"  | compact | uniq  %}
 
     <ul>
         <li>
-            <a href="/all-notes">📝 {{site.documents.size}} notes</a>
+            <a href="/all-notes">📝  {{site.documents.size}} notes</a>
         </li>
         <li>
-            <a href="/all-tags">🏷️ {{all_tags.size}} tags</a>
+            <a href="/all-tags">🏷️  {{all_tags.size}} tags</a>
         </li>    
     </ul>
 
-    <hr>
+    {% include search.html %}
     
     {% include view-root.html %}
 
