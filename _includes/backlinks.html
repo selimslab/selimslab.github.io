@@ -5,6 +5,7 @@
 {% if page.backlinks.size >0 %}
 <h3>Links to this note</h3>
 
+<ul>
     {% for backlink in page.backlinks %}
         {% if backlink.url != page.url %}
 
@@ -13,7 +14,7 @@
         {% endif %}
 
     {% endfor %}
-
+</ul>
 {% endif %}
 
 

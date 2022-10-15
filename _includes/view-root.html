@@ -8,7 +8,19 @@
             <a href="{{p.url}}">{{p.title }}</a>
         </li>
     {% endif %}
-
 {% endfor %}
 </ul> 
+
+<hr>
+
+<ul>
+    {% for p in tag_pages %}
+        {% if p.tags contains "root-type" %}
+            <li>
+                <a href="{{p.url}}">{{p.title }}</a>
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul> 
+    
 
