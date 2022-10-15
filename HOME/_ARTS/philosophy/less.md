@@ -4,8 +4,6 @@ tags: phil
 
 Remove all nonessentials. 
 
----
-
 Speak less, 
 
 think less, 
@@ -14,10 +12,7 @@ do less,
 
 have less 
 
----
-
 Recharge
-
 
 ---
 

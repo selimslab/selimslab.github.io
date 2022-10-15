@@ -3,7 +3,7 @@ tags: psy
 ---
 
 
-The price of freedom is always dear, but there's no substitute. 
+The price of freedom is dear yet worths it 
 
 [[you-can-always-choose-your-way]]
 

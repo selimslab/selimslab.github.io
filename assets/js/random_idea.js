@@ -1,5 +1,5 @@
-get_random_quote = async () =>{
-    fetch("/assets/data/quotes.json", {headers:{     
+get_random_idea = async () =>{
+    fetch("/assets/data/ideas.json", {headers:{     
             'Content-Type': 'application/json',
             'cache': "force-cache"
     }})
@@ -9,7 +9,7 @@ get_random_quote = async () =>{
     .then(quotes => {
         let randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
         let ideaSlot = ''
-        document.getElementById("random_quote").innerHTML =  ideaSlot + randomQuote;
+        document.getElementById("random_idea").innerHTML =  ideaSlot + randomQuote;
     }
     );
 }
