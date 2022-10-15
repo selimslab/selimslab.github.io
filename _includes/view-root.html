@@ -5,7 +5,7 @@
 {% for p in tag_pages %}
     {% if p.tags contains "root" %}
         <li>
-            <a href="{{p.url}}">{{p.title | upcase }}</a>
+            <a href="{{p.url}}">{{p.title }}</a>
         </li>
     {% endif %}
 
