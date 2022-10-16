@@ -11,7 +11,3 @@ Semper tyrannis
 Sic infit: So it begins 
 
 Sic vita est: such is life 
-
-
-
-
