@@ -65,4 +65,3 @@ Meet the terminal, ls, cd, mv, top, mkdir, touch, cat, sort, grep, rm
 
 [Avoid Working Alone – Letters To A New Developer](https://letterstoanewdeveloper.com/2019/06/24/avoid-working-alone/)
 
-[[engineering]]

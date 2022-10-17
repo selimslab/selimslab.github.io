@@ -17,8 +17,8 @@ Sounds like a hard problem, right? Actually, the algorithm is so easy, it might 
 
 ```python
 """
-Input: [[1,4],[4,5]]
-Output: [[1,5]]
+Input: [ [1,4],[4,5] ]
+Output: [ [1,5] ]
 Explanation: Intervals [1,4] and [4,5] are considered overlapping.
 """
 

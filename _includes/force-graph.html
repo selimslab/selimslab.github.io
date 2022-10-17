@@ -1,0 +1,31 @@
+<div id="graph-container"></div>
+
+<script src="//unpkg.com/force-graph"></script>
+
+<script>
+
+    (async() => {
+  const gData = await fetch("/assets/data/graph.json")
+        .then(response => response.json())
+
+    const container = document.getElementById("graph-container")
+    const g = ForceGraph();
+    g(container)
+        .nodeColor(node => node.type === "tag" ? '#FF530D' : '#2398ff')
+        .linkColor(link => "#568692")
+        .linkWidth(0.5) 
+        .graphData(gData)
+        .nodeLabel("name") 
+        .onNodeClick(node => {
+        // Center/zoom on node
+        g.centerAt(node.x, node.y, 1000);
+        g.zoom(8, 2000);
+      })
+      .minZoom(0.5)
+      .maxZoom(5)
+
+    })();
+
+</script>
+
+

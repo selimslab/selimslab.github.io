@@ -3,7 +3,7 @@ title: Dijkstra
 tags: graph
 ---
 
-[[graph]]
+[[graph-algorithms]]
 ```py
 from collections import defaultdict
 

@@ -13,7 +13,6 @@ $darkBlue: #2398ff;
 $lightBlue: #62b5ff;
 $accent : #FF530D;
 
-
 // Font stacks
 $sansSerif: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $serif: Georgia, serif;
@@ -25,6 +24,9 @@ $light-text: #f0f1f2;
 $light-bg: #fffefc; // #fdc96c
 $dark-text: $gray;
 
+#graph-container{
+  max-width: 100ch;
+}
 
 html{
   font: $sansSerif;

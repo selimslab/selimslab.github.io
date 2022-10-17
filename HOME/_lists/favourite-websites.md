@@ -7,6 +7,8 @@ tags: lists
 
 <https://sketchplanations.com> 
 
+<https://betterexplained.com/>
+
 <https://www.worldometers.info>
 
 <https://dilbert.com>

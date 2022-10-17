@@ -1,26 +1,55 @@
 class BackLinksGenerator < Jekyll::Generator
     def generate(site)
       
-      # links = {}
-      # titles = {}
-      # Identify backlinks and add them to each doc
+      graph = {}
+      graph["nodes"] = {}
+      graph["links"] = []
+      titles = {}
+
+      seen = {}
+
+      tagnames = site.data["tags"]
+
       site.documents.each do |current_note|
+        
         notes_linking_to_current_note = site.documents.filter do |e|
             id = "[" + current_note.id.gsub(/\//, '') + "]"
             e.content.include?(id)
         end
 
         current_note.data['backlinks'] = notes_linking_to_current_note
-
-        # links[current_note.id] = []
-        # titles[current_note.id] = current_note.data["title"]
         
+        id = current_note.id
+        
+        title = current_note.data["title"]
+        node = {"id": id, "name": title, "val": 1, "type": "note", "neighbors": [], "links":[]}
+        graph["nodes"][id] = node
+        
+        current_note.data["tags"].each do |tag|
+          if not seen.key?(tag)
+            name = tag
+            if tagnames.key?(tag) 
+              name = tagnames[tag] 
+            end
+
+            node = {"id": tag, "name": "#" + name, "val": 2, "type": "tag", "neighbors": [], "links":[]}
+            graph["nodes"][tag] = node
+            seen[tag] = true
+          end 
+          graph["links"].push({"source": id, "target": tag})
+        end 
+
+
         backlinks = current_note.content.scan(/\[\[.*\]\]/)
         
         backlinks.each do |backlink| 
-          id = backlink.gsub(/\[\[/, '').gsub(/\]\]/, '')
-          link = "/" + id
-          # links[current_note.id].push(link)
+          # parse wikilink 
+          match = backlink.gsub(/\[\[/, '').gsub(/\]\]/, '')
+          link = "/" + match
+
+          graph["links"].push({"source": id, "target": link})
+
+          # replace wikilinks
           title = id.gsub(/-/, ' ')
           link = "[#{title}](#{link})"
           current_note.content = current_note.content.gsub(/#{Regexp.escape(backlink)}/, link)
@@ -28,17 +57,26 @@ class BackLinksGenerator < Jekyll::Generator
 
       end
 
-      # links = Hash[links.sort]
-      # titles = Hash[titles.sort]
+    #   graph["links"].each {
+    #     |link|
+    #       source = link[:source]
+    #       target = link[:target]
+    #       # add neighbors
+    #       graph["nodes"][source][:neighbors].push(target)
+    #       graph["nodes"][target][:neighbors].push(source)
 
-      # File.open("./assets/data/links.json","w") do |f|
-      #   f.write(links.to_json)
-      # end
-      
-      # File.open("./assets/data/titles.json","w") do |f|
-      #   f.write(titles.to_json)
-      # end
-  
+    #       graph["nodes"][target][:links].push(link)
+    #       graph["nodes"][source][:links].push(link)
+
+    # }
+
+
+      graph["nodes"] = graph["nodes"].values
+      File.open("./assets/data/graph.json","w") do |f|
+        f.write(graph.to_json)
+      end
+    
+
     end
   
   end

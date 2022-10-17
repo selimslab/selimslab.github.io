@@ -21,4 +21,4 @@ tags: skills bus
 
 [[how-to-pitch]]
 
-[[leadership/leadership]]
+[[leadership]]
