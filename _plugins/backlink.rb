@@ -26,6 +26,8 @@ class BackLinksGenerator < Jekyll::Generator
 
       end
 
+      links = Hash[links.sort]
+      titles = Hash[titles.sort]
 
       File.open("./assets/data/links.json","w") do |f|
         f.write(links.to_json)

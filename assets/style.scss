@@ -55,25 +55,25 @@ body{
 .navbutton{
   font-size:1.6rem;  
   margin-top:0.75rem;
-  margin-left: 0.75rem;
+  margin-left: 1rem;
 }
 
-
-
 .search{
-  margin-left:0.75rem
+  margin-left:1.25rem;
+  margin-top:0.2rem;
 }
 
 a.site-name {
   font-family: $serif;
   color: inherit;
-  font-size: 1.6rem;
-  margin-top: 0.75rem
+  font-size: 2rem;
+  margin-top: 0.5rem
 }
 
 #results-container {
   margin-top: 0.3rem;
   list-style: none;
+  font-size: 1rem;
   li{
     margin: 0 auto;
     margin-top: 0.3rem;
