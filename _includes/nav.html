@@ -3,11 +3,15 @@
 
 <nav class="navbar">
     <div class="navbar-brand">
-      <!-- <a href="{{ site.baseurl }}/" class="site-avatar image"><img src="{{ site.avatar }}" /></a> -->
       <a href="{{ site.baseurl }}/" class="site-name">{{ site.name }}</a>
 
-      <a href="javascript:void(0);" onclick="get_random_post();" style="font-size:2rem; float:right; margin-left:7rem;">🎲</a>
-      <a href="javascript:void(0);" id="theme-toggle" onclick="switchTheme()" style="font-size:2rem; float:right; margin-left: 1.5rem;">🌙</a>
-    </div>
+      {% include search.html %}
+
+      <a href="javascript:void(0);" onclick="get_random_post();" class="navbutton">🎲</a>
+      <a href="javascript:void(0);" id="theme-toggle" onclick="switchTheme()" class="navbutton">🌙</a>  
+
+    </div> 
+
+
 </nav>
 

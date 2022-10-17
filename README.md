@@ -12,13 +12,11 @@ gem install bundler jekyll
 
 bundle exec jekyll serve
 
-or
+--incremental
 
-bundle exec jekyll serve --incremental
+--trace 
 
-or 
-
-JEKYLL_ENV=production bundle exec jekyll serve --trace
+--profile 
 
 
 ## Features 
@@ -28,16 +26,8 @@ JEKYLL_ENV=production bundle exec jekyll serve --trace
 3. dark mode
 4. search
 5. random post dice
-6. breadcrumbs
-7. analytics
-8. syntax highlighter
-9. random artwork on post reload
-   
-
-## Next 
-
-1. auto generate art.json 
-
-
-
-
+6. idea machine
+7. breadcrumbs
+8. analytics
+9. syntax highlighter
+10. random artwork on post reload

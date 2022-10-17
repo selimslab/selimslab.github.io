@@ -47,10 +47,36 @@ body{
 }
 
 .navbar {
-  margin: 1rem;
   background: inherit;
   color: inherit;
   padding-left:1rem
+}
+
+.navbutton{
+  font-size:1.6rem;  
+  margin-top:0.75rem;
+  margin-left: 0.75rem;
+}
+
+.search{
+  margin-left:0.75rem
+}
+
+a.site-name {
+  font-family: $serif;
+  color: inherit;
+  font-size: 1.6rem;
+  margin-top: 0.75rem
+}
+
+#results-container {
+  margin-top: 0.3rem;
+  list-style: none;
+  li{
+    margin: 0 auto;
+    margin-top: 0.3rem;
+    padding: 0.2rem;
+  }
 }
 
 article{
@@ -101,14 +127,6 @@ h2 {
 
 strong{
   font-weight: bold;
-}
-
-
-a.site-name {
-  font-family: $serif;
-  color: inherit;
-  font-weight: 500;
-  font-size: 2rem;
 }
 
 
