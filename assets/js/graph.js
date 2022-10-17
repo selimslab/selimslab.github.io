@@ -10,8 +10,22 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
   repelForce,
   fontSize} = graphConfig;
 
+  const fetchData = Promise.all([
+    fetch("/assets/data/links.json")
+      .then(data => data.json()),
+      fetch("/assets/data/titles.json")
+      .then(data => data.json()),
+  ])
+  .then((links,titles) => ({
+    links,
+    titles,
+  }))
+
+  console.log("links", links)
+  console.log("titles", titles)
+
   const container = document.getElementById("graph-container")
-  const { index, links, content } = await fetchData
+  const { links, titles } = await fetchData
 
   // Use .pathname to remove hashes / searchParams / text fragments
   const cleanUrl = window.location.origin + window.location.pathname
@@ -229,7 +243,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
     .attr("dx", 0)
     .attr("dy", (d) => nodeRadius(d) + 8 + "px")
     .attr("text-anchor", "middle")
-    .text((d) => content[d.id]?.title || d.id.replace("-", " "))
+    .text((d) => titles[d.id]? || titles[d.id].replace("-", " "))
     .style('opacity', (opacityScale - 1) / 3.75)
     .style("pointer-events", "none")
     .style('font-size', fontSize+'em')

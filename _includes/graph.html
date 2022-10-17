@@ -4,3 +4,19 @@
   crossorigin="anonymous"
 ></script>
 <div id="graph-container"></div>
+
+<script src="/assets/js/graph.js"></script>
+
+<script>
+    ( async() => {const [links, titles] = await Promise.all([
+    fetch("/assets/data/links.json")
+      .then(data => data.json()),
+      fetch("/assets/data/titles.json")
+      .then(data => data.json()),
+  ])
+
+  console.log("links", links)
+  console.log("titles", titles)
+    })();
+
+</script>
