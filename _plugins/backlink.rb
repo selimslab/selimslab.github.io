@@ -32,7 +32,7 @@ class BackLinksGenerator < Jekyll::Generator
               name = tagnames[tag] 
             end
 
-            node = {"id": tag, "name": "#" + name, "val": 2, "type": "tag", "neighbors": [], "links":[]}
+            node = {"id": tag, "name": "#" + name, "val": 1, "type": "tag", "neighbors": [], "links":[]}
             graph["nodes"][tag] = node
             seen[tag] = true
           end 
@@ -57,18 +57,21 @@ class BackLinksGenerator < Jekyll::Generator
 
       end
 
-    #   graph["links"].each {
-    #     |link|
-    #       source = link[:source]
-    #       target = link[:target]
-    #       # add neighbors
-    #       graph["nodes"][source][:neighbors].push(target)
-    #       graph["nodes"][target][:neighbors].push(source)
+      graph["links"].each {
+        |link|
+          source = link[:source]
+          target = link[:target]
+          # add neighbors
+          graph["nodes"][source][:val] += 1
+          graph["nodes"][target][:val] += 1
 
-    #       graph["nodes"][target][:links].push(link)
-    #       graph["nodes"][source][:links].push(link)
+          # graph["nodes"][source][:neighbors].push(target)
+          # graph["nodes"][target][:neighbors].push(source)
 
-    # }
+          # graph["nodes"][target][:links].push(link)
+          # graph["nodes"][source][:links].push(link)
+
+    }
 
 
       graph["nodes"] = graph["nodes"].values

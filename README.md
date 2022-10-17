@@ -10,11 +10,9 @@ gem install bundler jekyll
 
 ## serve
 
-bundle exec jekyll serve
+bundle exec jekyll serve --trace 
 
 --incremental
-
---trace 
 
 --profile 
 

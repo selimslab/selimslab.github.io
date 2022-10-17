@@ -13,16 +13,19 @@
     g(container)
         .nodeColor(node => node.type === "tag" ? '#FF530D' : '#2398ff')
         .linkColor(link => "#568692")
-        .linkWidth(0.5) 
+        .linkWidth(0.3) 
+        .nodeRelSize(2)
         .graphData(gData)
         .nodeLabel("name") 
         .onNodeClick(node => {
         // Center/zoom on node
         g.centerAt(node.x, node.y, 1000);
-        g.zoom(8, 2000);
+        g.zoom(5, 2000);
       })
       .minZoom(0.5)
       .maxZoom(5)
+
+      g.d3Force('center', null);
 
     })();
 

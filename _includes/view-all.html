@@ -1,10 +1,16 @@
 
+<article>
+
 {{site.documents.size}} notes
 
 {% assign sorted = site.documents | sort: 'title' %}
 
+<ul>
 {% for d in sorted %}
 
+<li>
 <a href="{{d.url}}">{{d.title}}</a>
-
+</li>
 {% endfor %}
+</ul>
+</article>
