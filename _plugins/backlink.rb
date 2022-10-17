@@ -15,6 +15,7 @@ class BackLinksGenerator < Jekyll::Generator
         links[current_note.id] = []
         titles[current_note.id] = current_note.data["title"]
         backlinks = current_note.content.scan(/\[\[.*\]\]/)
+        
         backlinks.each do |backlink| 
           id = backlink.gsub(/\[\[/, '').gsub(/\]\]/, '')
           link = "/" + id
@@ -23,6 +24,8 @@ class BackLinksGenerator < Jekyll::Generator
           link = "[#{title}](#{link})"
           current_note.content = current_note.content.gsub(/#{Regexp.escape(backlink)}/, link)
         end 
+
+        links[current_note.id] = links[current_note.id].sort
 
       end
 
