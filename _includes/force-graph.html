@@ -1,6 +1,7 @@
 <div id="graph-container"></div>
 
 <script src="//unpkg.com/force-graph"></script>
+<!-- <script src="//unpkg.com/3d-force-graph"></script> -->
 
 <script>
 
@@ -20,10 +21,10 @@
         .onNodeClick(node => {
         // Center/zoom on node
         g.centerAt(node.x, node.y, 1000);
-        g.zoom(5, 2000);
+        g.zoom(3, 2000);
       })
-      .minZoom(0.5)
-      .maxZoom(5)
+      .minZoom(1)
+      .maxZoom(3)
 
       g.d3Force('center', null);
 

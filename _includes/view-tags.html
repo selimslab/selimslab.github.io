@@ -1,15 +1,21 @@
 
 {% assign all_tags = site.documents | map: "tags"  | compact | uniq  %}
 
+<article>
+
 {{all_tags.size}} tags
 
 {% assign tag_pages = site.documents | where: "layout", "tag"   %}
 
 {% assign sorted = tag_pages | sort: "title"  %}
 
-{% for p in sorted %}
-
-<a href="{{p.url}}">{{p.title}}</a>
-
+<ul>
+{% for d in sorted %}
+    
+    <li>
+    <a href="{{d.url}}">{{d.title}}</a>
+    </li>
 {% endfor %}
+</ul>
+</article>
 

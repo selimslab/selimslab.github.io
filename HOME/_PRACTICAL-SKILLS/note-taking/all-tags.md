@@ -1,6 +1,8 @@
 ---
-layout: page
+layout: default
 ---
+
 
 {% include view-tags.html %}
 
+{% include force-graph.html %}
