@@ -25,9 +25,12 @@ class BackLinksGenerator < Jekyll::Generator
         end 
 
       end
+
+
       File.open("./assets/data/links.json","w") do |f|
         f.write(links.to_json)
       end
+      
       File.open("./assets/data/titles.json","w") do |f|
         f.write(titles.to_json)
       end
