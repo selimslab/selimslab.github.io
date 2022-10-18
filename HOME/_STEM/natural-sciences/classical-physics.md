@@ -4,7 +4,6 @@ tags: phys
 
 <https://www.feynmanlectures.caltech.edu/II_18.html>
 
-![](/static/img/classical.png)
 
 All that was known of fundamental classical physics, that is, the physics that was known by 1905. 
 
@@ -12,6 +11,7 @@ Here it all is, in one table.
 
 With these equations we can understand the complete realm of classical physics.
 
+![](/static/img/classical.png)
 
 First we have the Maxwell equations—written in both the expanded form and the short mathematical form. 
 
