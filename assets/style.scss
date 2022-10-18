@@ -24,9 +24,6 @@ $light-text: #f0f1f2;
 $light-bg: #fffefc; // #fdc96c
 $dark-text: $gray;
 
-#graph-container{
-  max-width: 80ch;
-}
 
 html{
   font: $sansSerif;
@@ -209,4 +206,10 @@ html[data-theme='light'] {
     color: inherit
   }
   
+}
+
+.force-graph-container{
+  canvas {
+    border: 2px solid;
+  }
 }
