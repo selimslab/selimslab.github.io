@@ -1,35 +1,191 @@
 <div id="graph-container"></div>
+<div id="graph"></div>
 
 <script src="//unpkg.com/force-graph"></script>
 <!-- <script src="//unpkg.com/3d-force-graph"></script> -->
 
 <script>
+  (async () => {
+    const gData = await fetch("/assets/data/graph.json").then((response) =>
+      response.json()
+    );
 
-    (async() => {
-  const gData = await fetch("/assets/data/graph.json")
-        .then(response => response.json())
 
-    const container = document.getElementById("graph-container")
-    const g = ForceGraph();
-    g(container)
-        .nodeColor(node => node.type === "tag" ? '#FF530D' : '#2398ff')
-        .linkColor(link => "#568692")
-        .linkWidth(0.3) 
-        .nodeRelSize(2)
+    const NODE_R = 3;
+
+const highlightNodes = new Set();
+const highlightLinks = new Set();
+let hoverNode = null;
+
+
+    const container = document.getElementById("graph-container");
+
+    const g = ForceGraph()
+      g(container)
         .graphData(gData)
-        .nodeLabel("name") 
-        .onNodeClick(node => {
-        // Center/zoom on node
-        g.centerAt(node.x, node.y, 1000);
-        g.zoom(3, 2000);
+        // .nodeColor((node) => (node.type === "tag" ? "#FF530D" : "#2398ff"))
+        .nodeLabel("name")
+          .minZoom(0.8)
+          .maxZoom(3)
+          .linkColor((link) => "#568692")
+          .linkWidth((link) => (highlightLinks.has(link) ? 1 : 0.1))
+        .nodeAutoColorBy('group')
+        .onNodeHover((node) => {
+        highlightNodes.clear();
+        highlightLinks.clear();
+        if (node) {
+          highlightNodes.add(node.id);
+          node.neighbors.forEach((neighbor) => highlightNodes.add(neighbor));
+          node.links.forEach((link) => highlightLinks.add(link));
+        }
+
+        hoverNode = node || null;
       })
-      .minZoom(1)
-      .maxZoom(3)
+      .onLinkHover((link) => {
+        highlightNodes.clear();
+        highlightLinks.clear();
 
-      g.d3Force('center', null);
+        if (link) {
+          highlightLinks.add(link);
+          highlightNodes.add(link.source);
+          highlightNodes.add(link.target);
+        }
+      })
+      // .nodeCanvasObjectMode((node) =>
+      //   highlightNodes.has(node.id) ? "before" : undefined
+      // )
+      .autoPauseRedraw(false) // keep redrawing after engine has stopped
 
-    })();
+        .nodeCanvasObject((node, ctx, globalScale) => {
+          const label = node.name;
+          const fontSize = 12/globalScale;
+          ctx.font = `${fontSize}px Sans-Serif`;
+          const textWidth = ctx.measureText(label).width*0.6;
+          const bckgDimensions = [textWidth, fontSize].map(n => n + fontSize * 0.2); // some padding
 
+
+          ctx.textAlign = 'center';
+          ctx.textBaseline = 'middle';
+
+          let color =  "#2398ff"
+          if (highlightNodes.has(node.id)){
+            color = "#FF530D"
+          }
+
+            ctx.fillStyle = color
+
+            if (g.zoom()>2){
+              ctx.fillText(label, node.x, node.y);
+            } else {
+            }
+
+            node.__bckgDimensions = bckgDimensions; // to re-use in nodePointerAreaPaint
+        
+
+        })
+        .nodePointerAreaPaint((node, color, ctx) => {
+
+          ctx.fillStyle = color;
+          const bckgDimensions = node.__bckgDimensions;
+          bckgDimensions && ctx.fillRect(node.x - bckgDimensions[0] / 2, node.y - bckgDimensions[1] / 2, ...bckgDimensions);
+          
+        });
+
+        g.d3Force('center', null);
+
+    // const g = ForceGraph();
+    // g(container)
+    //     .nodeColor(node => node.type === "tag" ? '#FF530D' : '#2398ff')
+    //     .linkColor(link => "#568692")
+    //     .linkWidth(0.3)
+    //     .nodeRelSize(2)
+    //     .graphData(gData)
+    //     .nodeLabel("name")
+    //     .onNodeClick(node => {
+    //     // Center/zoom on node
+    //     g.centerAt(node.x, node.y, 1000);
+    //     g.zoom(3, 2000);
+    //   })
+    //   .minZoom(1)
+    //   .maxZoom(3)
+
+    //   g.d3Force('center', null);
+
+    // })();
+
+
+    // const g = ForceGraph();
+    // g(container)
+    //   .graphData(gData)
+    //   .nodeColor((node) => (node.type === "tag" ? "#FF530D" : "#2398ff"))
+    //   .linkColor((link) => "#568692")
+    //   // .nodeRelSize(NODE_R)
+    //   .nodeLabel("name")
+    //   .minZoom(1)
+    //   .maxZoom(3)
+    //   .onNodeHover((node) => {
+    //     highlightNodes.clear();
+    //     highlightLinks.clear();
+    //     if (node) {
+    //       highlightNodes.add(node.id);
+    //       node.neighbors.forEach((neighbor) => highlightNodes.add(neighbor));
+    //       node.links.forEach((link) => highlightLinks.add(link));
+    //     }
+
+    //     hoverNode = node || null;
+    //   })
+    //   .onLinkHover((link) => {
+    //     highlightNodes.clear();
+    //     highlightLinks.clear();
+
+    //     if (link) {
+    //       highlightLinks.add(link);
+    //       highlightNodes.add(link.source);
+    //       highlightNodes.add(link.target);
+    //     }
+    //   })
+    //   .autoPauseRedraw(false) // keep redrawing after engine has stopped
+    //   .linkWidth((link) => (highlightLinks.has(link) ? 3 : 0.3))
+    //   .nodeCanvasObjectMode((node) =>
+    //     highlightNodes.has(node.id) ? "before" : undefined
+    //   )
+    //   .nodeCanvasObject((node, ctx, globalScale) => {
+    //     // add ring just for highlighted nodes
+    //     const R = NODE_R * Math.sqrt(node.val)
+
+    //     // ctx.beginPath();
+    //     // ctx.arc(
+    //     //   node.x,
+    //     //   node.y,
+    //     //   R * 1.2,
+    //     //   0,
+    //     //   2 * Math.PI,
+    //     //   false
+    //     // );
+    //     const label = node.name;
+    //     const fontSize = 12/globalScale;
+    //     ctx.font = `${fontSize}px Sans-Serif`;
+    //     const textWidth = ctx.measureText(label).width;
+    //     const bckgDimensions = [textWidth, fontSize].map(n => n + fontSize * 0.2); // some padding
+
+    //     ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
+    //     ctx.fillRect(node.x - bckgDimensions[0] / 2, node.y - bckgDimensions[1] / 2, ...bckgDimensions);
+
+    //     ctx.fillStyle = highlightNodes.has(node.id) ? "yellow" : null;
+    //     ctx.textAlign = 'center';
+    //     ctx.textBaseline = 'middle';
+    //     ctx.fillStyle = node.color;
+    //     ctx.fillText(node.name, node.x-R*1.4, node.y+R*1.4);
+    //     // ctx.fill();
+
+    //     node.__bckgDimensions = bckgDimensions; // to re-use in nodePointerAreaPaint
+    //     })
+    //     .nodePointerAreaPaint((node, color, ctx) => {
+    //       ctx.fillStyle = color;
+    //       const bckgDimensions = node.__bckgDimensions;
+    //       bckgDimensions && ctx.fillRect(node.x - bckgDimensions[0] / 2, node.y - bckgDimensions[1] / 2, ...bckgDimensions);
+    //     });
+
+
+  })();
 </script>
-
-

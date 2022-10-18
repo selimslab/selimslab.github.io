@@ -36,7 +36,10 @@ class BackLinksGenerator < Jekyll::Generator
             graph["nodes"][tag] = node
             seen[tag] = true
           end 
+
           graph["links"].push({"source": id, "target": tag})
+          graph["links"].push({"source": tag, "target": id})
+
         end 
 
 
@@ -48,6 +51,7 @@ class BackLinksGenerator < Jekyll::Generator
           link = "/" + match
 
           graph["links"].push({"source": id, "target": link})
+          graph["links"].push({"source": link, "target": id})
 
           # replace wikilinks
           title = id.gsub(/-/, ' ')
@@ -65,11 +69,11 @@ class BackLinksGenerator < Jekyll::Generator
           graph["nodes"][source][:val] += 1
           graph["nodes"][target][:val] += 1
 
-          # graph["nodes"][source][:neighbors].push(target)
-          # graph["nodes"][target][:neighbors].push(source)
+          graph["nodes"][source][:neighbors].push(target)
+          graph["nodes"][target][:neighbors].push(source)
 
-          # graph["nodes"][target][:links].push(link)
-          # graph["nodes"][source][:links].push(link)
+          graph["nodes"][target][:links].push(link)
+          graph["nodes"][source][:links].push(link)
 
     }
 
