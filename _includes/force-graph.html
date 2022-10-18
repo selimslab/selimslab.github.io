@@ -67,7 +67,7 @@
       .nodeCanvasObject((node, ctx, globalScale) => {
         const label = node.name;
 
-        if (id == null && g.zoom() < 1.618) {
+        if (id == null && g.zoom() <= 1) {
             return 
         } 
 
@@ -110,6 +110,8 @@
       });
 
     g.d3Force("center", null);
+    g.d3Force('charge').strength(-20);
+
     // fit to canvas when engine stops
     g.onEngineStop(() => g.zoomToFit());
 
