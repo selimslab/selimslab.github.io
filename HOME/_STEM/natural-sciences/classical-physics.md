@@ -28,7 +28,9 @@ Therefore in one small table we have all the fundamental laws of classical physi
 
 Electricity, magnetism, and light are three faces of the same thing, 
 
-Light is how we perceive an electro-magnetic field, dancing and creating each other, travelling together, at the speed of light, well because it **is** light  
+Light is electric and magnetic fields travelling together, dancing and creating each other
+
+These dancing fields happen to travel at the speed of light, well because this is what light is 
 
 To change the speed of anything, you need to apply a force, and higher its mass, stronger the force must be 
 

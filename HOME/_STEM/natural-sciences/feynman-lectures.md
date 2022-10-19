@@ -6,7 +6,7 @@ tags: phys
 
 [[classical-physics]]
 
-[[maxwell-equations]]
+[[maxwells-equations]]
 
 [[philosophical-implications-of-quantum-mechanics]]
 
