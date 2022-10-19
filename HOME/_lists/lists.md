@@ -1,4 +1,4 @@
 ---
 layout: tag
-tags: lists root-type 
+tags: lists 
 ---

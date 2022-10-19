@@ -7,30 +7,13 @@ layout: default
     
     {% assign all_tags = site.documents | map: "tags"  | compact | uniq  %}
     
-    <ul>
-        <li>
-            <a href="/all-notes">📝      {{site.documents.size}} notes</a>
-        </li>
-        <li>
-            <a href="/all-tags">🏷️      {{all_tags.size}} tags</a>
-        </li>  
-    </ul>
+    <h2>Project Delta organizes <a href="/all-notes">{{site.documents.size}} public notes</a> with backlinks and <a href="/all-tags">{{all_tags.size}} tags</a></h2>
 
-    <hr>
+    <h2>Explore by subject: <a href="/arts">Arts</a>, <a href="/stem">STEM</a>, and <a href="/arts">Practical Skills</a></h2>
+    
+    <h2>By content type: <a href="/books">Books</a>,  <a href="/lists">Lists</a>, and <a href="/essais">Essais</a></h2>
 
-    <ul>
-        <li>
-            <a href="/2D-Graph">🗺️      2D Graph</a>
-        </li>  
-        <li>
-            <a href="/3D-Graph">🌐      3D Graph</a>
-        </li>  
-    </ul>
-
-
-    <hr>
-
-    {% include view-root.html %}
+    <h2>Also see <a href="/2D-Graph">2D</a> and <a href="/3D-Graph">3D</a> interactive graphs</h2>
 
     <hr>
     
