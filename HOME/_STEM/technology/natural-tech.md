@@ -1,6 +1,6 @@
 ---
 title: Natural technology 
-tags:  essais
+tags:  tech
 ---
 
 Tech blends into the reality as it matures 

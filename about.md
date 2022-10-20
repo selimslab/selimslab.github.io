@@ -10,3 +10,5 @@ I am Selim, writing here to examine ideas, connect them in novel ways, and remem
 [linkedin](https://www.linkedin.com/in/time/)
 
 [twitter](https://twitter.com/selimsnotes)
+
+[some favourites](/lists)

@@ -1,6 +1,6 @@
 ---
-title: TV Series 
-tags: cinema 
+title: Favourite TV Series 
+tags: cinema lists
 ---
 
 Friends (1994)

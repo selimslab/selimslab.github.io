@@ -1,9 +1,6 @@
 ---
-title:  Stack exchange
-tags: lists
+title: Stack exchange questions, sorted by votes 
 ---
-
-sorted by votes 
 
 [All Sites](https://stackexchange.com/sites#)
 

@@ -19,6 +19,6 @@ Real growth is building character, striving to improve in generosity, integrity,
 
 [[golden-mean]]
 
-[[no-lies]]
+[[do-not-lie-to-yourself]]
 
 [[forgive]]

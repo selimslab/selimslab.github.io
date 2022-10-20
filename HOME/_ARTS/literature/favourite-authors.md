@@ -1,5 +1,4 @@
 ---
-title: Some favorite authors
 tags: lit lists
 ---
 

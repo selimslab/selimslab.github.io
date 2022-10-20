@@ -4,7 +4,7 @@ layout: default
 ---
 <article>
 
-<h1>3D Interactive Graph 🔮</h1>
+<h1>3D Interactive Graph 🌐</h1>
 
 </article>
 

@@ -28,7 +28,7 @@ It won't be as good as you hope, neither as bad as you fear
 
 Mistakes of others are easier to notice than our own 
 
-We believe we are better than we actually are
+We believe we are better than we actually are. 19% think they’re in the top 1% of earners, 95% of professors think they’re better than average
 
 We can't read minds
 

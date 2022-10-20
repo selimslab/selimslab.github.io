@@ -23,4 +23,8 @@ tags: skills bus
 
 [[leadership]]
 
-![](/static/drawings/matter-vs-measure.svg)
+[[four-mistakes-of-managers]]
+
+[[not-all-important-things-are-measurable]]
+
+And do business with people you like. It’s great.

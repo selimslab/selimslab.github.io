@@ -8,13 +8,14 @@ layout: default
     {% assign all_tags = site.documents | map: "tags"  | compact | uniq  %}
     
     <h1>Project Delta</h1>
-    <p><a href="/all-notes">{{site.documents.size}} public notes</a> connected with backlinks and <a href="/all-tags">{{all_tags.size}} tags</a></p>
 
-    <h2>Explore by subject</h2>
-        
+    <p>This is a personal knowledge graph of <a href="/all-notes">{{site.documents.size}} public notes</a> linked with <a href="/all-tags">{{all_tags.size}} tags</a></p>
+    
+
+    <h2>Explore</h2>         
     {% assign tag_pages = site.documents | where: "layout", "tag" | sort: "title" %}
 
-    <ul>
+    <ul style="margin-left:1rem; list-style:circle">
     {% for p in tag_pages %}
         {% if p.tags contains "root" %}
             <li>
@@ -24,32 +25,10 @@ layout: default
     {% endfor %}
     </ul> 
 
-    <h2>Explore by content type</h2>
-    <ul>
-        {% for p in tag_pages %}
-            {% if p.tags contains "type" %}
-                <li>
-                    <a href="{{p.url}}">{{p.title }}</a>
-                </li>
-            {% endif %}
-        {% endfor %}
-    </ul> 
+    <p>Also see <a href="/2D-Graph">2D</a> or <a href="/3D-Graph">3D</a> interactive graphs</p>
 
-    <h2>Interactive graphs</h2>
 
-    <ul>
-
-    <li>
-        <a href="/2D-Graph">2D 🗺️</a>   
-     </li>
-    <li>
-        <a href="/3D-Graph">3D 🌐</a>    
-    </li>
-    </ul>
-
-    <hr>
-
-    {% include random_idea.html %}
+    <!-- {% include random_idea.html %} -->
 
 </article>
 

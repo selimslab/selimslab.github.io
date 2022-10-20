@@ -1,5 +1,5 @@
 ---
-tags: stem essais
+tags: stem
 ---
 
 This is a social problem

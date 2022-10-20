@@ -1,5 +1,5 @@
 ---
-tags: cinema 
+tags: cinema lists
 ---
 
 It's a Wonderful Life (1946)
