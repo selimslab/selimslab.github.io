@@ -14,3 +14,13 @@ a beginner in an emergency can understand it within ten seconds
 ---
 
 Occam’s Razor, Simpler explanations are more likely to be true
+
+---
+
+> Simplicity is prerequisite for reliability.
+> 
+> - Edsger W. Dijkstra
+
+
+---
+

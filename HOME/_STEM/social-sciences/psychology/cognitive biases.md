@@ -3,6 +3,8 @@ title: Cognitive Biases
 tags: psy
 ---
 
+<https://sketchplanations.com/tags/cognitive-bias>
+
 
 We tend to do what is quick, easy, comfortable over doing the important 
 
@@ -20,6 +22,7 @@ Familiar seems better, often it's not
 
 It won't be as good as you hope, neither as bad as you fear 
 
+[[framing]]
 
 ---
 
@@ -84,6 +87,7 @@ First-Conclusion Bias
 
 
 [[unhappiness-some-reasons]]
+
 
 
 ---

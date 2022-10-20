@@ -1,0 +1,4 @@
+---
+---
+
+![](/static/img/excuses.jpeg)

@@ -22,3 +22,5 @@ tags: skills bus
 [[how-to-pitch]]
 
 [[leadership]]
+
+![](/static/drawings/matter-vs-measure.svg)

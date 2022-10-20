@@ -3,9 +3,7 @@ title: Leadership 🌱
 tags: skills essais
 ---
 
-You plant the seeds and water them, 
-
-you can’t force the growing  
+Plant the seeds, water them, let them flourish 
 
 ---
 
@@ -17,6 +15,18 @@ Provide the environment and support
 
 and trust them to get it done.
 
+ 
+[[teamwork]]
+
+[[company-culture]]
+
+[[to-run-things-dont-fuss]]
+
+[[the-great-leader]]
+
+[[accountability]]
+
+[[excuses]]
 
 > If you want to build a ship, 
 > 
@@ -28,20 +38,4 @@ and trust them to get it done.
 > 
 > — Antoine de Saint-Exupery
 
- 
 
-The great ruler speaks little
-
-and his words are priceless
-
-He works without self-interest
-
-and leaves no trace
-
-When all is finished, the people say,
-
-“It happened by itself"
-
-*Tao Te Ching*
-
-[[teamwork]]

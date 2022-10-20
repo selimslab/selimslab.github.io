@@ -20,3 +20,24 @@ Listen to understand, not to answer.
 Do not offer solutions, just listen.
 
 Listen to what isn't being said, too 
+
+---
+
+thought     
+
+. . . 
+
+said       
+
+. .
+
+understood  
+
+.
+
+
+
+
+---
+
+You are in charge when you listen

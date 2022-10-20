@@ -2,6 +2,9 @@
 tags: sec
 ---
 
+<https://sketchplanations.com/2-factor-authentication>
+
+
 Practically, the auth info provided is either 
 1. something the user knows (like a password, PIN, or key)
 2. something the user has (like a smart card or proof of possession of a smart phone)

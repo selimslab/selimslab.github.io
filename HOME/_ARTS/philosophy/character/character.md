@@ -3,6 +3,8 @@ title: On Character
 tags: phil essais 
 ---
 
+Real growth is building character, striving to improve in generosity, integrity, humility, fairness, courage, .. 
+
 [[already-naked]]
 
 [[act-instead-of-worrying]]

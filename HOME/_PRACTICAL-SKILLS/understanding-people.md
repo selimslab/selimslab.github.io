@@ -1,6 +1,7 @@
 ---
-tags: psy phil soc
+tags: skills psy phil soc
 ---
+
 
 People will never forget how you made them feel.
 
@@ -9,6 +10,8 @@ People will never forget how you made them feel.
 [[reciprocity]]
 
 [[emotions-are-contagious]]
+
+[[emotions-are-connected-to-senses]]
 
 Trust is the most delicate thing. Be impeccable with your word.
 
@@ -41,3 +44,6 @@ Respect yourself and signal it
 [[we-deal-judgement-and-seek-understanding]]
 
 [[we-can-heal]]
+
+
+Nasty people are neither healthy nor happy, and that is probably a fair price 
