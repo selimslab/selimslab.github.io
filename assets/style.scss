@@ -27,7 +27,7 @@ $dark-text: $gray;
 
 html{
   font: $sansSerif;
-  font-size: 1.6em;
+  font-size: 1.5em;
   line-height: 1.8;
 }
 
@@ -51,21 +51,20 @@ body{
 }
 
 .navbutton{
-  font-size:1.6rem;  
-  margin-top:1rem;
-  margin-right: 1rem;
+  font-size:1.5rem;  
+  margin-top: 0.4rem;
+  margin-left: 0.6rem;
 }
 
 .search{
-  margin-left:1rem;
-  margin-top:0.4rem;
+  margin-left:1.2rem;
+  margin-top:0.5rem;
 }
 
 a.site-name {
   font-family: $serif;
   color: inherit;
   font-size: 2rem;
-  margin-top: 0.6rem;
 }
 
 #results-container {
@@ -137,7 +136,7 @@ footer {
 
 
 li{
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 

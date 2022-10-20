@@ -1,5 +1,5 @@
 ---
 title: Arts 🏛️
 layout: tag
-tags: arts
+tags: arts root
 ---

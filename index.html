@@ -7,25 +7,49 @@ layout: default
     
     {% assign all_tags = site.documents | map: "tags"  | compact | uniq  %}
     
-    <p>Project Delta organizes <a href="/all-notes">{{site.documents.size}} public notes</a> using backlinks and <a href="/all-tags">{{all_tags.size}} tags</a></p>
+    <h1>Project Delta</h1>
+    <p>Organizes <a href="/all-notes">{{site.documents.size}} public notes</a> using backlinks and <a href="/all-tags">{{all_tags.size}} tags</a></p>
 
-    <p>Explore by subject: <a href="/arts">Arts</a>, <a href="/stem">STEM</a>, and <a href="/arts">Practical Skills</a></p>
-    
-    <p>Explore by content type: <a href="/books">Books</a>,  <a href="/lists">Lists</a>, and <a href="/essais">Essais</a></p>
+    <h2>Explore by subject</h2>
+        
+    {% assign tag_pages = site.documents | where: "layout", "tag" | sort: "title" %}
 
-    <p>Also see <a href="/2D-Graph">2D</a> and <a href="/3D-Graph">3D</a> interactive graphs</p>
+    <ul>
+    {% for p in tag_pages %}
+        {% if p.tags contains "root" %}
+            <li>
+                <a href="{{p.url}}">{{p.title }}</a>
+            </li>
+        {% endif %}
+    {% endfor %}
+    </ul> 
 
-    <!-- <p>Every note includes an artwork selected randomly at page load</p>
+    <h2>Explore by content type</h2>
+    <ul>
+        {% for p in tag_pages %}
+            {% if p.tags contains "type" %}
+                <li>
+                    <a href="{{p.url}}">{{p.title }}</a>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul> 
 
-    <p>Button meanings: 🎲 random page, 🌙 toggle theme, 🎰 random idea</p> -->
+    <h2>Interactive graphs</h2>
 
-    <p>Made with ❤️ by <a href="/about">Selim</a></p>
+    <ul>
+
+    <li>
+        <a href="/2D-Graph">2D</a>   
+     </li>
+    <li>
+        <a href="/3D-Graph">3D</a>    
+    </li>
+    </ul>
 
     <hr>
-    
+
     {% include random_idea.html %}
-
-
 
 </article>
 
