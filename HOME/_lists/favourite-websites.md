@@ -2,7 +2,7 @@
 tags: lists
 ---
 
-<https://ourworldindata.org>
+<https://www.toddmclellan.com/thingscomeapart>
 
 <https://stars.chromeexperiments.com/>
 
@@ -14,14 +14,16 @@ tags: lists
 
 <https://dilbert.com>
 
+<https://www.gocomics.com>
+
 <https://hckrnews.com> 
 
 <https://ncase.me> 
 
 <https://explorabl.es>
 
-<https://acoup.blog/2022/08/26/collections-why-no-roman-industrial-revolution/>
+<https://ourworldindata.org>
 
-<https://www.gocomics.com>
+<https://acoup.blog/2022/08/26/collections-why-no-roman-industrial-revolution/>
 
 [[stack-exchange-sorted-by-votes]]

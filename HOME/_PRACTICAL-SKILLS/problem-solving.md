@@ -7,6 +7,12 @@ Prevention is the best
 
 ---
 
+Define it 
+
+“A problem well stated is a problem half-solved"
+
+---
+
 Don't panic
 
 Start small
@@ -41,4 +47,5 @@ Test hypotheses
 
 
 [[critical-thinking]]
+
 

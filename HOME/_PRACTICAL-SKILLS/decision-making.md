@@ -75,3 +75,5 @@ Make a move, don't stuck
 
 [[systems]] thinking
 
+
+[[common-causes-of-bad-decisions]]

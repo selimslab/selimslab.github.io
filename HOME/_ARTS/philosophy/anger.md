@@ -14,3 +14,13 @@ Do not let it
 
 [[its-not-personal]]
 
+
+Why should we feel anger at the world? As if the world would notice. - Meditations
+
+---
+
+Anger is the collision of hope and reality
+
+sad AND unexpected -> anger
+
+If you expect anything, few can make you angry

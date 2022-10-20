@@ -16,3 +16,8 @@ Sarah Andersen
 Poorly Drawn Lines
 
 xkcd 
+
+
+<https://dilbert.com>
+
+<https://www.gocomics.com>

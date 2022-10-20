@@ -24,3 +24,5 @@ Less is more
 “The best writing is rewriting.” 
 
 [[learn-fast-typing]]
+
+"If I had more time, I would have written a shorter letter." — Blaise Pascal

@@ -47,3 +47,8 @@ Respect yourself and signal it
 
 
 Nasty people are neither healthy nor happy, and that is probably a fair price 
+
+[[familiar-and-original]]
+
+
+People run after money and property yet they are the most wasteful of the only real valuable thing, time

@@ -1,15 +1,15 @@
 class BackLinksGenerator < Jekyll::Generator
     def generate(site)
 
-      if (!defined?@render_count)
-        @render_count = 1
-      end
+      # if (!defined?@render_count)
+      #   @render_count = 1
+      # end
     
-      if @render_count > 1
-        return
-      end
+      # if @render_count > 1
+      #   return
+      # end
 
-      @render_count += 1
+      # @render_count += 1
       
       graph = {}
       graph["nodes"] = {}
@@ -21,7 +21,6 @@ class BackLinksGenerator < Jekyll::Generator
       tagnames = site.data["tags"]
 
       site.documents.each do |current_note|
-        
         notes_linking_to_current_note = site.documents.filter do |e|
             id = "[" + current_note.id.gsub(/\//, '') + "]"
             e.content.include?(id)
@@ -73,11 +72,11 @@ class BackLinksGenerator < Jekyll::Generator
 
       graph["links"] = graph["links"].uniq 
       
-
       graph["links"].each {
         |link|
           source = link[:source]
           target = link[:target]
+
           # add neighbors
           graph["nodes"][source][:val] += 0.5
           graph["nodes"][target][:val] += 0.5
