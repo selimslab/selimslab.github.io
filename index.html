@@ -9,8 +9,10 @@ layout: default
     
     <h1>Project Delta</h1>
 
-    <p>This is a personal knowledge graph of <a href="/all-notes">{{site.documents.size}} public notes</a> linked with <a href="/all-tags">{{all_tags.size}} tags</a></p>
+    <p>This is a personal collection of <a href="/all-notes">{{site.documents.size}} notes</a> under <a href="/all-tags">{{all_tags.size}} tags</a></p>
     
+    <p>Also see interactive graphs in <a href="/2D-Graph">2D</a> or <a href="/3D-Graph">3D</a> </p>
+
 
     <h2>Explore</h2>         
     {% assign tag_pages = site.documents | where: "layout", "tag" | sort: "title" %}
@@ -25,7 +27,6 @@ layout: default
     {% endfor %}
     </ul> 
 
-    <p>Also see <a href="/2D-Graph">2D</a> or <a href="/3D-Graph">3D</a> interactive graphs</p>
 
 
     <!-- {% include random_idea.html %} -->
