@@ -5,8 +5,9 @@
 <script src="//unpkg.com/3d-force-graph"></script>
 
 <script>
+  function drawGraph(id=null){
 
-  async function getGraohData(id=null){
+    (async () => {
     const gData = await fetch("/assets/data/graph.json").then((response) =>
       response.json()
     );
@@ -28,14 +29,6 @@
       gData["nodes"] = Object.values(gData["nodes"])
     }
 
-    return gData
-  }
-
-  function drawGraph(id=null){
-
-    (async () => {
-
-    const gData = getGraohData(id)
     const highlightNodes = new Set();
     const highlightLinks = new Set();
     let hoverNode = null;
@@ -57,51 +50,12 @@
           sprite.textHeight = 8;
           return sprite;
         });
-        // .onNodeHover(node => {
-        //   // no state change
-        //   if ((!node && !highlightNodes.size) || (node && hoverNode === node)) return;
-
-        //   highlightNodes.clear();
-        //   highlightLinks.clear();
-        //   if (node) {
-        //     highlightNodes.add(node);
-        //     node.neighbors.forEach(neighbor => highlightNodes.add(neighbor));
-        //     node.links.forEach(link => highlightLinks.add(link));
-        //   }
-
-        //   hoverNode = node || null;
-
-        //   updateHighlight();
-        // })
-        // .onLinkHover(link => {
-        //   highlightNodes.clear();
-        //   highlightLinks.clear();
-
-        //   if (link) {
-        //     highlightLinks.add(link);
-        //     highlightNodes.add(link.source);
-        //     highlightNodes.add(link.target);
-        //   }
-
-        //   updateHighlight();
-        // });
 
     g.d3Force("center", null);
 
     // Spread nodes a little wider
-    g.d3Force('charge').strength(-150);
-
-    // function updateHighlight() {
-    //   // trigger update of highlighted objects in scene
-    //   g
-    //     .nodeColor(g.nodeColor())
-    //     .linkWidth(g.linkWidth())
-    //     .linkDirectionalParticles(g.linkDirectionalParticles());
-    // }
-
+    g.d3Force('charge').strength(-120);
   })();
-
-
 
   }
 
