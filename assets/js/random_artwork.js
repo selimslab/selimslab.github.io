@@ -14,12 +14,10 @@
     const firstLetter =  new RegExp(/\b\w/g)
 
     async function get_random_artwork(images){
-        random_index = Math.floor(Math.random() * images.length)
-        src = images[random_index]
         let doc = document.getElementById("random_artwork")
-        doc.src = src
+        doc.src = get_random_item(images)
 
-        let base = src.split('/').pop()
+        let base = doc.src.split('/').pop()
         let name = base.split(".")[0]
         let alt = name.replace(dash, " ").replace(firstLetter, l => l.toUpperCase())
         doc.alt = alt

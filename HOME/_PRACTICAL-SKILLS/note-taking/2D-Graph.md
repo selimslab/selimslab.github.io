@@ -12,5 +12,5 @@ layout: default
 {% include 2d-graph.html %}
 
 <script>
-    drawGraph()
+    draw2DGraph()
 </script>

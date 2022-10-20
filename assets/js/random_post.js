@@ -7,8 +7,7 @@ get_random_post = async () =>{
     return response.json();
     })
     .then(urls => {
-        let randomLink = urls[Math.floor(Math.random() * urls.length)];
-        location.href = randomLink;
+        location.href = get_random_item(urls);
     }
     );
 }
