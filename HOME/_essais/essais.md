@@ -1,6 +1,6 @@
 ---
 title: Essais
 layout: tag
-tags: essais root-type
+tags: essais type
 ---
 
