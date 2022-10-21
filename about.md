@@ -3,11 +3,11 @@ layout: page
 title: Welcome friend! 
 ---
 
-I am Selim, 27, Istanbul
+I am Selim, 
 
-Interested in nature, arts, science, literature, philosophy, technology, social sciences, hiking, mountaineering, paragliding, jazz, rock, ...
+I like nature, arts, science, technology, literature, philosophy, hiking, mountaineering, paragliding, classical rock, social sciences, ...
 
-I would be happy to meet you, just drop an email at durufikir at gmail dot com  
+I would be happy to meet you -> durufikir at gmail dot com  
 
 [github](https://github.com/selimslab)
 
@@ -17,4 +17,4 @@ I would be happy to meet you, just drop an email at durufikir at gmail dot com
 
 [some favourites](/lists)
 
-[[disclaimer]]
+[disclaimer]((disclaimer))
