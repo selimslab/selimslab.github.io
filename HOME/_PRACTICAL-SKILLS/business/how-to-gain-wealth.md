@@ -33,11 +33,12 @@ Learn to sell. Learn to build. If you can do both, you will be unstoppable.
 
 Arm yourself with specific knowledge, accountability, and leverage.
 
-Specific knowledge is found by pursuing your genuine curiosity and passion rather than whatever is hot right now.
+Specific knowledge is the result of pursuing your genuine curiosity
 
 Embrace accountability, and take business risks under your own name. Society will reward you with responsibility, equity, and leverage.
 
-Fortunes require leverage. Business leverage comes from capital, people, and products with no marginal cost of replication (code and media).
+Fortunes need leverage. Business leverage comes from 3 things, 
+capital, people, and products with no marginal cost of replication (code and media).
 
 ---
 
@@ -47,15 +48,15 @@ Study microeconomics, game theory, psychology, persuasion, ethics, mathematics, 
 
 ---
 
-Apply specific knowledge, with leverage, and eventually you will get what you deserve.
+Apply specific knowledge, with leverage, and you will get what you deserve.
 
 ---
 
-If you want to live in the future, live in the freest place around. Because eventually, all of the innovators and creators will show up there.
+If you want to live in the future, live in the freest place around. Because , the innovators and creators will show up there.
 
 ---
 
-An army of robots is freely available - it's just packed in data centers for heat and space efficiency. Use it.
+An army of robots is available - it's packed in data centers for heat and space efficiency. Use it.
 
 ---
 
