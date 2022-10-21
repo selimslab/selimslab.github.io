@@ -5,7 +5,7 @@ title: Welcome friend!
 
 I am Selim, 27, Istanbul
 
-Interested in nature, arts, science, literature, philosophy, technology, social sciences, ..
+Interested in nature, arts, science, literature, philosophy, technology, social sciences, hiking, mountaineering, paragliding, jazz, rock, ...
 
 I would be happy to meet you, just drop an email at durufikir at gmail dot com  
 
