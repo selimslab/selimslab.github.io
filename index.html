@@ -7,9 +7,13 @@ layout: default
     
     {% assign all_tags = site.documents | map: "tags"  | compact | uniq  %}
     
-    <p>Project Delta is a personal collection of <a href="/all-notes">{{site.documents.size}} notes</a></p>
+    <p>Writing here to examine ideas, connect them in novel ways, and apply what I can</p>
+    <p>It also shows me how little I know about what I'm writing on</p>
+
+    <p><a href="/all-notes">{{site.documents.size}} notes</a> and <a href="/all-tags">{{all_tags.size}} tags</a> in total</p>
     
-    <h2>Explore</h2>         
+    <h2>Explore</h2>   
+
     {% assign tag_pages = site.documents | where: "layout", "tag" | sort: "title" %}
 
     <ul style="margin-left:1rem; list-style:circle">
@@ -20,9 +24,6 @@ layout: default
             </li>
         {% endif %}
     {% endfor %}
-    <li>
-        <a href="/all-tags">View all {{all_tags.size}} tags</a>
-    </li>
     </ul> 
 
     <p>Also see interactive graphs in <a href="/2D-Graph">2D</a> or <a href="/3D-Graph">3D</a> </p>

@@ -3,7 +3,11 @@ layout: page
 title: Welcome friend! 
 ---
 
-I am Selim, writing here to examine ideas, connect them in novel ways, remember those worth remembering, and apply what I can 
+I am Selim, 27, Istanbul
+
+Interested in nature, arts, science, literature, philosophy, technology, social sciences, ..
+
+I would be happy to meet you, just drop an email at durufikir at gmail dot com  
 
 [github](https://github.com/selimslab)
 
