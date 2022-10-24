@@ -1,5 +1,5 @@
 ---
-tags: arts lists
+tags: lists
 ---
 
  

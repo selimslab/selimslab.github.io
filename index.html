@@ -7,11 +7,10 @@ layout: default
     
     {% assign all_tags = site.documents | map: "tags"  | compact | uniq  %}
     
-    <p>Writing here to examine ideas, connect them in novel ways, and apply what I can</p>
-    <p>It also shows me how little I know about what I'm writing on</p>
+    <p>This a collection of <a href="/all-notes">{{site.documents.size}} notes</a> under <a href="/all-tags">{{all_tags.size}} tags</a></p>
+    <p>Writing here to examine ideas, connect them, and apply what I can</p>
+    <p>It creates clarity and shows me how little I know about what I'm writing on</p>
 
-    <p><a href="/all-notes">{{site.documents.size}} notes</a> and <a href="/all-tags">{{all_tags.size}} tags</a> in total</p>
-    
     <h2>Explore</h2>   
 
     {% assign tag_pages = site.documents | where: "layout", "tag" | sort: "title" %}

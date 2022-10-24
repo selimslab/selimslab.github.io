@@ -3,11 +3,13 @@ layout: page
 title: Welcome friend! 
 ---
 
-I am Selim, 27, Istanbul
+I am Selim, another human from the pale blue dot 
 
-Interested in nature, arts, science, literature, philosophy, technology, social sciences, ..
+I love to take a walk in nature, read a good book, listen to an old song, or watch a good movie 
 
-I would be happy to meet you, just drop an email at durufikir at gmail dot com  
+Working in technology, curious about both natural and social sciences
+
+Would be happy to meet you -> durufikir at gmail dot com  
 
 [github](https://github.com/selimslab)
 
@@ -17,4 +19,4 @@ I would be happy to meet you, just drop an email at durufikir at gmail dot com
 
 [some favourites](/lists)
 
-[[disclaimer]]
+[disclaimer]((disclaimer))
