@@ -16,3 +16,8 @@ Give your mind some space
 
 Take a walk
 
+---
+
+Solvitur ambulando, its solved by walking 
+
+![](/static/img/take-a-walk.png)

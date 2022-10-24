@@ -2,9 +2,9 @@
 tags: poetry
 ---
 
-acta, non verba 
+Acta, non verba 
 
-memento mori 
+Memento mori 
 
 Semper tyrannis
 
@@ -15,3 +15,7 @@ Sic vita est: such is life
 "Ars longa, vita brevis, occasio praeceps, experimentum periculosum, iudicium difficile."
 
 "Life is short, craft long, opportunity fleeting, experiment treacherous, judgment difficult."
+
+Sapere aude, dare to know 
+
+Solvitur ambulando, its solved by walking 

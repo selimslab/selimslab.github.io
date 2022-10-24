@@ -21,3 +21,5 @@ xkcd
 <https://dilbert.com>
 
 <https://www.gocomics.com>
+
+![](/static/img/in_thought_poorlydrawn.png)

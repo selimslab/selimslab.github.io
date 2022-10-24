@@ -27,3 +27,8 @@ We blame ourselves but most things are so random
 Suspicious of success, gentle on ourselves in failure
 
 Much of what we get, we don’t deserve
+
+---
+
+"The longer we dwell on our misfortunes, the greater is their power to harm us" Voltaire 
+

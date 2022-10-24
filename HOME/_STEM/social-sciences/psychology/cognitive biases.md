@@ -8,6 +8,8 @@ tags: psy
 
 We tend to do what is quick, easy, comfortable over doing the important 
 
+We mistake the limits of our vision as the limits of the world 
+
 Environment affects us more than we suspect
 
 We fear what we don’t understand 
@@ -83,13 +85,8 @@ Tendency to Want to Do Something
 First-Conclusion Bias
 
 
----
-
-
 [[unhappiness-some-reasons]]
 
 
-
----
-
 <https://www.clearerthinking.org/tools-and-mini-courses>
+
