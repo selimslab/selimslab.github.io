@@ -42,3 +42,5 @@ understood
 ---
 
 You are in charge when you listen
+
+![](/static/img/dont-fill-the-silence.png)

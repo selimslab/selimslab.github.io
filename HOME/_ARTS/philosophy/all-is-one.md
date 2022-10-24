@@ -18,3 +18,5 @@ You are part of the whole, you are home
 There is no you 
 
 Now our minds are one 
+
+![](/static/img/attached-to-all.png)

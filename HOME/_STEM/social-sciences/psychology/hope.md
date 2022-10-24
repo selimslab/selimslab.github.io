@@ -11,3 +11,4 @@ tags: phil psy
 
 "A ship shouldn't ride on a single anchor nor life on a single hope" Epictetus 
 
+![](/static/img/hope-is-more-than-a-feeling.png)

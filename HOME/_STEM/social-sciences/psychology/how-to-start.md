@@ -15,3 +15,4 @@ Ask a question and set out to answer it
 
 This is also the gist of scientific method 
 
+![](/static/img/finish-line-is-to-start.png)

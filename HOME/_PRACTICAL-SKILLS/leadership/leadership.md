@@ -39,3 +39,5 @@ and trust them to get it done.
 > — Antoine de Saint-Exupery
 
 
+
+![](/static/img/boss-vs-leader.png)

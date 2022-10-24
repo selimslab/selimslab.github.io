@@ -7,6 +7,8 @@ tags: skills bus
 
 [[one-bit-better]]
 
+![](/static/img/the-customer-value-chain.jpeg)
+
 [[design]]
 
 [[get-things-done]]
@@ -14,6 +16,8 @@ tags: skills bus
 [[marketing]]
 
 [[sales]]
+
+![](/static/img/business-flywheel.png)
 
 [[hiring]]
 

@@ -125,3 +125,5 @@ Stay professional, responsible and reliable.
 Everything looks like a failure in the middle, keep going 
 
 
+
+![](/static/img/pomodoro.jpeg)

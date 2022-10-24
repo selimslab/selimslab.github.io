@@ -1,4 +1,4 @@
 ---
 layout: tag
-tags: bio natural-sciences
+tags: bio nat
 ---

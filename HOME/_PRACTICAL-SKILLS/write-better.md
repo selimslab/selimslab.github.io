@@ -26,3 +26,5 @@ Less is more
 [[learn-fast-typing]]
 
 "If I had more time, I would have written a shorter letter." — Blaise Pascal
+
+![](/static/img/remove-redundant-words.png)

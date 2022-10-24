@@ -3,6 +3,9 @@ title: What to work on?
 tags: phil
 ---
 
+Start with the why, then how and what 
+
+---
 
 Going fast in the wrong direction is not productivity. 
 

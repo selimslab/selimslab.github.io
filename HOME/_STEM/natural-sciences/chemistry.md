@@ -1,4 +1,4 @@
 ---
 layout: tag
-tags: chem natural-sciences
+tags: chem nat
 ---

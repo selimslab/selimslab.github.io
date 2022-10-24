@@ -1,6 +1,6 @@
 ---
 layout: tag
-tags: phys natural-sciences
+tags: phys nat
 ---
 
 

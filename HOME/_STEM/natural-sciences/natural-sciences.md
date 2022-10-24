@@ -1,4 +1,4 @@
 ---
 layout: tag
-tags: natural-sciences stem
+tags: nat stem
 ---
