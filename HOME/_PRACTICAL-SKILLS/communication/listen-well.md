@@ -1,6 +1,9 @@
 ---
 ---
 
+
+![](/static/img/listen-with-passion.png)
+
 Be present, be interested
 
 If you are not interested, walk away.
@@ -34,8 +37,6 @@ said
 understood  
 
 .
-
-
 
 
 ---

@@ -3,6 +3,9 @@ title: On Character
 tags: phil essais 
 ---
 
+![](/static/img/principles-all-the-time.jpeg)
+
+
 Real growth is building character, striving to improve in generosity, integrity, humility, fairness, courage, .. 
 
 [[already-naked]]

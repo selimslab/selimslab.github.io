@@ -22,5 +22,5 @@ Occam’s Razor, Simpler explanations are more likely to be true
 > - Edsger W. Dijkstra
 
 
----
 
+![](/static/img/complex-before-simple.jpeg)
