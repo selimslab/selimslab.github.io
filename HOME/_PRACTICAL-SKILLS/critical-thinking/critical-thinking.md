@@ -18,4 +18,4 @@ tags: skills phil essais
 
 <https://reasonandmeaning.com/2015/10/08/bertrand-russells-nobel-prize-acceptance-speech/>
 
-
+![](/static/img/must-be-true.jpeg)

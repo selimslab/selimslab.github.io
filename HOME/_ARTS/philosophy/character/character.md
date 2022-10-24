@@ -23,3 +23,13 @@ Real growth is building character, striving to improve in generosity, integrity,
 
 [[forgive]]
 
+
+"The content of your character is your choice. Day by day, what you choose, what you think, and what you do is who you become." — Heraclitus 
+
+"If you accomplish something good with hard work, the labor passes but the good endures, 
+if you do something shameful, the pleasure passes but the shame endures" Rufus 
+
+"Circumstances don't make the man but reveal him" Epictetus 
+
+
+"Your ideas determine the quality of your life, your soul takes on the color of your thoughts" MA 

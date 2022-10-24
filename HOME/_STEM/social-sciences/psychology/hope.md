@@ -8,3 +8,6 @@ tags: phil psy
 
 "False hopes are more dangerous than fears."
 
+
+"A ship shouldn't ride on a single anchor nor life on a single hope" Epictetus 
+

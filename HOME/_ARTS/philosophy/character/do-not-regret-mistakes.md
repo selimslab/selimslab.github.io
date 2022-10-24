@@ -32,3 +32,5 @@ Much of what we get, we don’t deserve
 
 "The longer we dwell on our misfortunes, the greater is their power to harm us" Voltaire 
 
+
+“Don’t waste your time in anger, regrets, worries, and grudges. Life is too short to be unhappy.” 

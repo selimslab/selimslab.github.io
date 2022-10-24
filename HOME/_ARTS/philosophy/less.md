@@ -31,3 +31,5 @@ What you want isn't always best for you
 “This is a matter of freedom. If you don’t have many possessions then you don’t need to work all your life like a slave to sustain them, and therefore you have more time for yourself.”
 
 — Jose Mujica, 40th President of Uruguay
+
+![](/static/img/does-this-spark-joy.jpeg)

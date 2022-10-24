@@ -23,3 +23,5 @@ xkcd
 <https://www.gocomics.com>
 
 ![](/static/img/in_thought_poorlydrawn.png)
+
+![](/static/img/memes.jpeg)

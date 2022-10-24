@@ -2,6 +2,10 @@
 tags: psy 
 ---
 
+Mostly, anger itself is more harmful than what is arousing it  
+
+---
+
 Anger burns you 
 
 Something making you angry means its exerting power over you 

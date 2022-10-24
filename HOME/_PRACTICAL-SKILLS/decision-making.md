@@ -77,3 +77,5 @@ Make a move, don't stuck
 
 
 [[common-causes-of-bad-decisions]]
+
+If you choose not to decide, you still made a choice - Descartes 
