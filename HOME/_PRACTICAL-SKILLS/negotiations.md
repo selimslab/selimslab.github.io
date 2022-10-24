@@ -54,7 +54,7 @@ Deadlines
 Loss aversion 
 
 
-[[cognitive biases]]
+[[cognitive-biases]]
 
 [[anger]]
 

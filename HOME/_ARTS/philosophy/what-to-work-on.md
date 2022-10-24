@@ -39,3 +39,5 @@ Circle of Competence, understand what you know and what you don't know [[know-wh
 
 
 [[start-improving-the-world-form-yourself]]
+
+![](/static/img/what-drives-us.jpeg)

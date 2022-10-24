@@ -39,7 +39,7 @@ Respect yourself and signal it
 
 [[arrogance]]
 
-[[cognitive biases]]
+[[cognitive-biases]]
 
 [[we-deal-judgement-and-seek-understanding]]
 

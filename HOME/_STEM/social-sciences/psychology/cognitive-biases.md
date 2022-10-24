@@ -5,6 +5,10 @@ tags: psy
 
 <https://sketchplanations.com/tags/cognitive-bias>
 
+![](/static/img/present-bias.jpeg)
+
+[[emotional-hot-potato]]
+
 
 We tend to do what is quick, easy, comfortable over doing the important 
 
@@ -89,4 +93,6 @@ First-Conclusion Bias
 
 
 <https://www.clearerthinking.org/tools-and-mini-courses>
+
+
 
