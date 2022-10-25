@@ -1,0 +1,19 @@
+
+[
+    {
+        "id": "water",
+        "label": "Drink Water"
+    },
+    {
+        "id": "walk",
+        "label": "Take a walk"
+    },
+    {
+        "id": "sleep",
+        "label": "Sleep before midnight"
+    },
+    {
+        "id": "sports",
+        "label": "5 pull ups"
+    }
+]

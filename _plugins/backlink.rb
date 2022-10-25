@@ -1,15 +1,15 @@
 class BackLinksGenerator < Jekyll::Generator
     def generate(site)
 
-      # if (!defined?@render_count)
-      #   @render_count = 1
-      # end
+      if (!defined?@render_count)
+        @render_count = 1
+      end
     
-      # if @render_count > 1
-      #   return
-      # end
+      if @render_count > 1
+        return
+      end
 
-      # @render_count += 1
+      @render_count += 1
       
       graph = {}
       graph["nodes"] = {}

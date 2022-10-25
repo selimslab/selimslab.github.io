@@ -92,6 +92,10 @@ collections:
     output: true 
     permalink:  /:title/
 
+  tools:    
+    output: true 
+    permalink:  /:title/
+
 
 defaults:
 -

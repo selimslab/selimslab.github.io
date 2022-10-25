@@ -5,18 +5,22 @@ title: Welcome friend!
 
 I am Selim, another human from the pale blue dot 
 
-I love to take a walk in nature, enjoy a good book, movie, or music  
+Interested in arts, STEM, social sciences, practical skills, and outdoor sports
 
-Working on software, curious about both natural and social sciences
+Writing shows me how little I know on the topic, and brings clarity
 
 Would be happy to meet you -> durufikir at gmail dot com  
 
-[some favourites](/lists)
+[Favourites](/lists)
 
-[github](https://github.com/selimslab)
+[Github](https://github.com/selimslab)
 
-[linkedin](https://www.linkedin.com/in/time/)
+[Linkedin](https://www.linkedin.com/in/time/)
 
-[twitter](https://twitter.com/selimsnotes)
+[Twitter](https://twitter.com/selimsnotes)
 
-[disclaimer](/disclaimer)
+[Disclaimer](/disclaimer)
+
+[Why delta(Δ)](/why-is-the-name-delta)
+
+

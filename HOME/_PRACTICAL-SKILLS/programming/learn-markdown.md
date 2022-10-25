@@ -1,5 +1,5 @@
 ---
-tags: tools skills
+tags: skills
 ---
 
 <https://commonmark.org/help/>

@@ -14,4 +14,9 @@ A clear time and place helps
 Here and now 
 
 
+{% include habit-tracker.html %}
+
+
+
+
 

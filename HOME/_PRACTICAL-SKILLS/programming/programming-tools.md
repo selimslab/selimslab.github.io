@@ -13,10 +13,6 @@ Drawing
 
 Markdown 
  
-Python 
-
-Go 
-
 ---
 
 <https://excalidraw.com/>
