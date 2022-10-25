@@ -19,4 +19,4 @@ Would be happy to meet you -> durufikir at gmail dot com
 
 [twitter](https://twitter.com/selimsnotes)
 
-[disclaimer](disclaimer)
+[disclaimer](/disclaimer)
