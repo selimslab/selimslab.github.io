@@ -4,7 +4,7 @@
       {
         "label": "Serve", 
         "type": "shell",
-        "command": "git push gitlab master && bundle exec jekyll serve",
+        "command": "git push gitlab master",
         "group": "none",
         "presentation": {
           "reveal": "always",

@@ -1,6 +1,6 @@
 ---
 title: A garbage collector in C from scratch
-tags: projects lang
+tags: projects pro
 
 ---
 

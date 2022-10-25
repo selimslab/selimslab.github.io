@@ -1,6 +1,6 @@
 ---
 title: Go 
-tags: lang
+tags: pro
 ---
 
 

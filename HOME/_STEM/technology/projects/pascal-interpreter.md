@@ -1,6 +1,6 @@
 ---
 title: An interpreter in Python for a subset of PASCAL
-tags: projects lang
+tags: projects pro
 ---
 
 View step by step at <https://github.com/selimslab/mini/pascal>
