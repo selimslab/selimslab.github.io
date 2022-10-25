@@ -49,3 +49,5 @@ Test hypotheses
 [[critical-thinking]]
 
 
+
+![](/static/img/smart-little-people.jpeg)

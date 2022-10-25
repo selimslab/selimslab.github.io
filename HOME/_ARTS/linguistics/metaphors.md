@@ -13,3 +13,4 @@ tags: lin
 
 ![](/static/img/affection-as-warmth.jpeg)
 
+![](/static/img/idea-metaphors.jpeg)

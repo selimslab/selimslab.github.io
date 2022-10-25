@@ -18,3 +18,8 @@ tags: phil psy
 ― J.R.R. Tolkien
 
 “Don’t waste your time in anger, regrets, worries, and grudges. Life is too short to be unhappy.” 
+
+
+![](/static/img/dont-let-them-get-you-down.jpeg)
+
+[[flow]]
