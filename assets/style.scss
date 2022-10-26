@@ -45,6 +45,8 @@ body{
   background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+li{margin-bottom:0.5rem}
+
 .navbar {
   background: inherit;
   color: inherit;
@@ -53,11 +55,10 @@ body{
 .navbutton{
   font-size:1.5rem;  
   margin-top: 0.4rem;
-  margin-left: 0.6rem;
+  margin-left: 0.8rem;
 }
 
 .search{
-  margin-left:1.2rem;
   margin-top:0.5rem;
 }
 
@@ -65,6 +66,8 @@ a.site-name {
   font-family: $serif;
   color: inherit;
   font-size: 2rem;
+  margin-right:1.2rem;
+
 }
 
 #results-container {
@@ -132,11 +135,6 @@ footer {
   background: inherit !important;
   font-family: $serif;
   padding: 1.618rem;
-}
-
-
-li{
-  margin: 0.5rem;
 }
 
 

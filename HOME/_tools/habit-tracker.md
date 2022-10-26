@@ -1,3 +1,10 @@
+---
+layout: default
+tags: tools
+---
+
+
+{% include activity-graph.html %}
 
 <!-- <ul>
     {% for habit in site.data.habits %}
