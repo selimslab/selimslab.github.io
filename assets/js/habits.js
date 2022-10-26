@@ -1,17 +1,4 @@
 
-const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
-
-function get_todays_date(){
-    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-    const today = new Date()
-    return today.toLocaleDateString(undefined, options)
-}
-
-function get_todays_weekday(){
-    const today = new Date()
-    let weekday = days[today.getDay()]
-    return weekday
-}
 
 function get(key){
     return localStorage.getItem(key)
@@ -37,11 +24,12 @@ function toggle_day(day){
 
     console.log(get_todays_date())
 
-    const today = get_todays_weekday()
+    const todays_date = new Date()
+    const weekday = get_the_weekday(todays_date)
     const last_seen = get('last_seen');
-    if (last_seen !== today){
+    if (last_seen !== weekday){
         // todo: rotate habits by one 
-        set('last_seen', today)
+        set('last_seen', weekday)
     }
 
 })();

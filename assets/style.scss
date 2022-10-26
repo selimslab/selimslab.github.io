@@ -29,6 +29,7 @@ html{
   font: $sansSerif;
   font-size: 1.5em;
   line-height: 1.8;
+  border: 2px solid linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 
@@ -199,6 +200,8 @@ html[data-theme='light'] {
   a.site-name{
     color: inherit
   }
+
+
   
 }
 

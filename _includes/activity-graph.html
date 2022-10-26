@@ -1,18 +1,10 @@
 
+<script src="/assets/js/datetime.js"></script>
+
+
+
 <div class="graph">
-    <ul class="months">
-      <li>Jan</li>
-      <li>Feb</li>
-      <li>Mar</li>
-      <li>Apr</li>
-      <li>May</li>
-      <li>Jun</li>
-      <li>Jul</li>
-      <li>Aug</li>
-      <li>Sep</li>
-      <li>Oct</li>
-      <li>Nov</li>
-      <li>Dec</li>
+    <ul class="weeks">
     </ul>
     <ul class="days">
       <li>Sun</li>
@@ -36,6 +28,7 @@
   --week-width: calc(var(--square-size) + var(--square-gap));
 }
 
+.weeks { grid-area: weeks; }
 .months { grid-area: months; }
 .days { grid-area: days; }
 .squares { grid-area: squares; }
@@ -43,33 +36,31 @@
 .graph {
   margin: 2rem;
   display: inline-grid;
+  
   grid-template-areas: "empty months"
+                        "empty weeks"
                        "days squares";
   grid-template-columns: auto 1fr;
   grid-gap: 0.5rem;
 }
 
 .months {
-    list-style-type: none;
-
+  list-style-type: none;
   display: grid;
-  grid-template-columns: calc(var(--week-width) * 4) /* Jan */
-                         calc(var(--week-width) * 4) /* Feb */
-                         calc(var(--week-width) * 4) /* Mar */
-                         calc(var(--week-width) * 5) /* Apr */
-                         calc(var(--week-width) * 4) /* May */
-                         calc(var(--week-width) * 4) /* Jun */
-                         calc(var(--week-width) * 5) /* Jul */
-                         calc(var(--week-width) * 4) /* Aug */
-                         calc(var(--week-width) * 4) /* Sep */
-                         calc(var(--week-width) * 5) /* Oct */
-                         calc(var(--week-width) * 4) /* Nov */
-                         calc(var(--week-width) * 5) /* Dec */;
+}
+
+.weeks{
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: var(--square-gap);
+  grid-template-columns: repeat(1, var(--square-size));
+  grid-auto-columns: var(--square-size);
+  margin-left: 0.2rem;
 }
 
 .days,
 .squares {
-list-style-type: none;
+  list-style-type: none;
   display: grid;
   grid-gap: var(--square-gap);
   grid-template-rows: repeat(7, var(--square-size));
@@ -88,34 +79,62 @@ body {
 }
 
 li{
-    margin: 0
+    margin: 0;
+    border-radius: 5px;
 }
 
-.days li:nth-child(odd) {
+/* .days li:nth-child(odd) {
   visibility: hidden;
-}
+} */
 
 .squares li {
-  background-color: #ebedf0;
+    background-color: #e9e6dc;
+  }
+
+
+.squares li[data-day="-1"] {
+  background-color: inherit;
 }
 
-.squares li[data-level="1"] {
-  background-color: #c6e48b;
-}
-
-.squares li[data-level="2"] {
-  background-color: #7bc96f;
-}
-
-.squares li[data-level="3"] {
-  background-color: #196127;
+.squares li[data-day="1"] {
+  background-color: #ffdd57;
 }
   </style>
 
   <script>
-    const squares = document.querySelector('.squares');
-for (var i = 1; i < 365; i++) {
-  const level = Math.floor(Math.random() * 3);  
-  squares.insertAdjacentHTML('beforeend', `<li data-level="${level}"></li>`);
-}
+
+    function toggle_day(event){
+        console.log(event.currentTarget.dataset)
+    }
+
+    function add_week_numbers(){
+      const weeks = document.querySelector('.weeks');
+        for (var i = 0; i < 53; i++) {
+          weeks.insertAdjacentHTML('beforeend', `<li>${i}</li>`);
+        }
+    }
+
+    function populate_graph(year){
+
+        const squares = document.querySelector('.squares');
+        for (const [key, val] of year.entries()) {
+            squares.insertAdjacentHTML('beforeend', `<li data-day="${val}"></li>`);
+        }
+    }
+
+
+    const first_day = get_the_first_day_of_this_year()
+    const first_day_index = days.indexOf(first_day)
+    let pre = Array(first_day_index).fill(-1) 
+    populate_graph(pre)
+
+    add_week_numbers()
+
+    let year = Array(365).fill(0)
+    for (var i = 0; i < 365; i++) {
+        year[i] = Math.floor(Math.random()*2); 
+    }
+    populate_graph(year)
+
+
   </script>
