@@ -1,6 +1,6 @@
 
 
-const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+const day_names = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 
 function get_todays_date(){
     const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
@@ -9,7 +9,7 @@ function get_todays_date(){
 }
 
 function get_the_weekday(date){
-    return days[date.getDay()]
+    return day_names[date.getDay()]
 }
 
 function get_the_first_day_of_this_year(){
