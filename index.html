@@ -15,19 +15,8 @@ layout: default
     <ul style="margin-left:1rem; list-style:circle">
     {% for p in tag_pages %}
         {% if p.tags contains "root" %}
-        
-            {%  assign tag = p.tags[0] %}
-
-            {% if site.data.tags contains tag %}
-                {%  assign label = site.data.tags[tag] %}
-            {% else %}
-                {%  assign label = tag %}
-            {% endif %}
-
-            {%  assign label = label | upcase %}
-            {% assign col = site.collections | where: "label", label | first %}
             <li>
-                <a href="{{p.url}}">{{p.title}}  ({{col.docs.size}} docs)</a>
+                <a href="{{p.url}}">{{p.title}}</a>
             </li>
         {% endif %}
     {% endfor %}
