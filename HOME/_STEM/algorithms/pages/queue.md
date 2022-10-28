@@ -1,4 +1,5 @@
 ---
-tags: algorithms
+layout: tag
+tags: q algorithms
 ---
 

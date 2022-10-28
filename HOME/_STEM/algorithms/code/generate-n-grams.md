@@ -1,8 +1,7 @@
 ---
-tags: string
+tags: str 
 ---
 
-[[string]]
 
 ```python
 def generate_ngrams(s, n):

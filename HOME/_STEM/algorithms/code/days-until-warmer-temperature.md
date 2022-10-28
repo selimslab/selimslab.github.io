@@ -2,7 +2,6 @@
 tags: stack
 ---
 
-[[stack]]
 
 ```python
 def dailyTemperatures(T):

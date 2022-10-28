@@ -1,8 +1,7 @@
 ---
-tags: pointers
+tags: ptr
 ---
 
-[[pointers]]
 
 ```python
 """

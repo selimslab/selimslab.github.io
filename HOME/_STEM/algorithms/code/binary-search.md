@@ -2,7 +2,7 @@
 tags: tree
 ---
 
-[[tree]]
+
 
 ```python
 def binary_search(nums, target)->int:

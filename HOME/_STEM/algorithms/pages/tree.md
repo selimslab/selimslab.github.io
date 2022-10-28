@@ -1,5 +1,6 @@
 ---
-tags: algorithms
+layout: tag
+tags: tree algorithms
 ---
 ```py
 def tree():

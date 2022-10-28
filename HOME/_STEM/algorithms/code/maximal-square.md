@@ -2,7 +2,7 @@
 tags: dynamic
 ---
 
-[[dynamic]]
+
 
 ```py
 """

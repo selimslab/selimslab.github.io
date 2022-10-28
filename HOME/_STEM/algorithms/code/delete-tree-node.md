@@ -2,7 +2,7 @@
 tags: tree
 ---
 
-[[tree]]
+
 
 ```python
 """

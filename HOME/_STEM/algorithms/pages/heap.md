@@ -1,5 +1,7 @@
 ---
-tags: algorithms
+layout: tag
+
+tags: heap algorithms
 ---
 
 ```python

@@ -1,8 +1,8 @@
 ---
-
+tags: dynamic
 ---
 
-[[dynamic]]
+
 ## Target Sum 
 
 <https://leetcode.com/problems/target-sum/>

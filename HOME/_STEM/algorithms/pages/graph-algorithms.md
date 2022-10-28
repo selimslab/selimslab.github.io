@@ -1,5 +1,6 @@
 ---
-tags: algorithms
+layout: tag
+tags: graph algorithms
 ---
 ```py
 dfs(node):

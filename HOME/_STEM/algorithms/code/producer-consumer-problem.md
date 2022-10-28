@@ -1,8 +1,8 @@
 ---
 title: Producer Consumer Problem 
+tags: conc
 ---
 
-[[concurrent]]
 
 ```c
 #include <assert.h>

@@ -1,7 +1,7 @@
 ---
+tags: ptr
 ---
 
-[[pointers]]
 
 <https://leetcode.com/problems/sliding-window-maximum/>
 

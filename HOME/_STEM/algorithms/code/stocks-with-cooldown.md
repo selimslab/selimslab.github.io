@@ -2,7 +2,7 @@
 tags: dynamic
 ---
 
-[[dynamic]]
+
 
 ## Stocks with 1 day cooldown
 

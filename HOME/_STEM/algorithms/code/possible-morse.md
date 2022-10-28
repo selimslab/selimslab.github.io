@@ -1,8 +1,8 @@
 ---
-tags: array
+tags: arr  
 ---
 
-[[array]]
+
 
 ```go
 // UniqueMorseRepresentations returns number of possible morse codes

@@ -1,7 +1,7 @@
 ---
+tags: ptr stack
 ---
 
-[[string]]
 
 ```python
 # with 2 pointers

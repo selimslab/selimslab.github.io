@@ -3,7 +3,7 @@ title: Tree, Binary Search Tree
 tags: tree
 ---
 
-[[tree]]
+
 
 ```py
 def sortedArrayToBST(self, nums: List[int]) -> TreeNode:

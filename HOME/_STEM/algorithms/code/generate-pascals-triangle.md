@@ -1,7 +1,7 @@
 ---
-tags: array
+tags: arr  
 ---
-[[array]]
+
 
 ```py
 """

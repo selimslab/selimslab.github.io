@@ -2,7 +2,6 @@
 tags: graph
 ---
 
-[[graph-algorithms]]
 
 ```go
 package main

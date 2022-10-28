@@ -1,5 +1,6 @@
 ---
-tags: algorithms
+layout: tag
+tags: dynamic algorithms
 ---
 
 It's useful when you try to optimize something given a constraint 

@@ -1,9 +1,8 @@
 ---
+tags: ptr
 ---
 
-[[array]]
 
-[[pointers]]
 
 
 ```py

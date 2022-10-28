@@ -1,12 +1,8 @@
 ---
-tags: string stack
-
+tags: str stack
 ---
 
-[[string]]
-
-[[stack]]
-
+```py
 def dedup_k(s: str, k: int) -> str:
     # Repeatedly dedup adjacent K letters until no longer can.
 

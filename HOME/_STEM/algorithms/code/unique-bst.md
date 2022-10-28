@@ -1,9 +1,10 @@
 ---
+tags: tree
 ---
 
-[[dynamic]]
 
-[[tree]]
+
+
 
 <https://leetcode.com/problems/unique-binary-search-trees>
 

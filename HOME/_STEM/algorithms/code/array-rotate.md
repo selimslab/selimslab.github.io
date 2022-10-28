@@ -1,8 +1,7 @@
 ---
-tags: array
+tags: arr
 ---
 
-[[array]]
 
 ```java
 /*

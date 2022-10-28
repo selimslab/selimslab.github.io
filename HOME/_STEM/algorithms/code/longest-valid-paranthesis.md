@@ -1,5 +1,5 @@
 ---
-tags: pointers string stack
+tags: ptr str stack
 ---
 
 

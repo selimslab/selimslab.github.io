@@ -1,8 +1,7 @@
 ---
-tags: queue
+tags: q
 ---
 
-[[queue]]
 ```go
 /*
 Given a positive integer n, 

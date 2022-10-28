@@ -1,4 +1,5 @@
 
+
 bio: biology
 bus: business
 chem: chemistry
@@ -20,5 +21,12 @@ soc: sociology
 swe: software-engineering
 sys: systems
 tech: technology
+arr: array
+str: string
+ptr: pointer
+q: queue
+apx: approximation
+conc: concurrent
+ll: linked-list
 
 

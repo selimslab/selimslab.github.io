@@ -2,7 +2,7 @@
 tags: dynamic 
 ---
 
-[[dynamic]]
+
 ```py
 def minDistance(word1: str, word2: str) -> int:
     """

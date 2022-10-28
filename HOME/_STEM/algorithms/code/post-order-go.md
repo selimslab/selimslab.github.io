@@ -2,7 +2,7 @@
 tags: tree
 ---
 
-[[tree]]
+
 
 ```go
 import "fmt"

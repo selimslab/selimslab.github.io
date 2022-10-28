@@ -1,7 +1,6 @@
 ---
+tags: str
 ---
-
-[[string]]
 
 ```python
 def repeatedStringMatch(A: str, B: str) -> int:

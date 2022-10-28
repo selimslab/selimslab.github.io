@@ -2,7 +2,7 @@
 tags: dynamic
 ---
 
-[[dynamic]]
+
 
 ```python
 def coinChange(coins: List[int], amount: int) -> int:

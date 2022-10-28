@@ -3,7 +3,7 @@ tags: dynamic
 ---
 
 
-[[dynamic]]
+
 
 ```go
 func climbStairs(n int) int {

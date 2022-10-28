@@ -1,4 +1,5 @@
 ---
+layout: tag
 tags: apx algorithms
 ---
 

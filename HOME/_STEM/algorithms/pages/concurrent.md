@@ -1,4 +1,4 @@
 ---
-tags: algorithms
-
+layout: tag
+tags: conc algorithms
 ---

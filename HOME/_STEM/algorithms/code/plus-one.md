@@ -1,8 +1,8 @@
 ---
-tags: array
+tags: arr  
 ---
 
-[[array]]
+
 
 ```go
 func plusOne(digits []int) []int {

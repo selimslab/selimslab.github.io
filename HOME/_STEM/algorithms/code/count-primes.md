@@ -1,8 +1,8 @@
 ---
-tags: array
+tags: arr  
 ---
 
-[[array]]
+
 
 ```py
 def countPrimes(self, n: int) -> int:
