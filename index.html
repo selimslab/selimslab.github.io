@@ -6,10 +6,8 @@ layout: default
 <article>
     
     {% assign all_tags = site.documents | map: "tags"  | compact | uniq  %}
-
-    <p>This is a collection of writings to examine, connect, and apply ideas</p>
     
-    <p>Explore <a href="/all-notes">{{site.documents.size}} notes</a> under <a href="/all-tags">{{all_tags.size}} tags</a></p>   
+    <p>Explore <a href="/all-notes">{{site.documents.size}} notes</a> by <a href="/about">Selim</a>  under <a href="/all-tags">{{all_tags.size}} tags</a></p>   
 
     {% assign tag_pages = site.documents | where: "layout", "tag" | sort: "title" %}
 
@@ -23,7 +21,7 @@ layout: default
     {% endfor %}
 
     <li>
-        Interactive graphs in <a href="/2D-Graph">2D</a> or <a href="/3D-Graph">3D</a> 
+        <a href="/2D-Graph">2D</a> and <a href="/3D-Graph">3D</a> graphs
     </li>
     </ul> 
 

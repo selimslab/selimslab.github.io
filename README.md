@@ -10,7 +10,9 @@ gem install bundler jekyll
 
 ## serve
 
-git push gitlab master && bundle exec jekyll serve --trace 
+git push gitlab master 
+
+bundle exec jekyll serve --trace 
 
 --incremental
 

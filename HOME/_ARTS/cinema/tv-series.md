@@ -1,5 +1,5 @@
 ---
-title: Favourite TV Series 
+title: TV Series 
 tags: cinema lists
 ---
 

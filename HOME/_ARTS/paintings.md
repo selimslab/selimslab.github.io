@@ -1,5 +1,5 @@
 ---
-title: Favourite Paintings 🎨
+title: Paintings 🎨
 tags: arts lists
 ---
 
