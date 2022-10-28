@@ -7,8 +7,10 @@ layout: default
     
     {% assign all_tags = site.documents | map: "tags"  | compact | uniq  %}
     
-    <p>Explore <a href="/all-notes">{{site.documents.size}} notes</a> by <a href="/about">Selim</a>  under <a href="/all-tags">{{all_tags.size}} tags</a></p>   
+    <p>Explore <a href="/all-notes">{{site.documents.size}} notes</a> by <a href="/about">Selim</a> with {{site.static_files.size}} images and <a href="/all-tags">{{all_tags.size}} tags</a></p>   
 
+
+    
     {% assign tag_pages = site.documents | where: "layout", "tag" | sort: "title" %}
 
     <ul style="margin-left:1rem; list-style:circle">
