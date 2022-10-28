@@ -7,15 +7,27 @@ layout: default
     
     {% assign all_tags = site.documents | map: "tags"  | compact | uniq  %}
     
-    <p>Explore <a href="/all-notes">{{site.documents.size}} notes</a> with {{site.static_files.size}} images and <a href="/all-tags">{{all_tags.size}} tags</a></p>   
+    
+    <p>Explore <a href="/all-notes">{{site.documents.size}} docs</a> with {{site.static_files.size}} images and <a href="/all-tags">{{all_tags.size}} tags</a></p>   
 
     {% assign tag_pages = site.documents | where: "layout", "tag" | sort: "title" %}
 
     <ul style="margin-left:1rem; list-style:circle">
     {% for p in tag_pages %}
         {% if p.tags contains "root" %}
+        
+            {%  assign tag = p.tags[0] %}
+
+            {% if site.data.tags contains tag %}
+                {%  assign label = site.data.tags[tag] %}
+            {% else %}
+                {%  assign label = tag %}
+            {% endif %}
+
+            {%  assign label = label | upcase %}
+            {% assign col = site.collections | where: "label", label | first %}
             <li>
-                <a href="{{p.url}}">{{p.title}}</a>
+                <a href="{{p.url}}">{{p.title}}  ({{col.docs.size}} docs)</a>
             </li>
         {% endif %}
     {% endfor %}
