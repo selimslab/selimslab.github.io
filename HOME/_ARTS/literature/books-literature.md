@@ -1,6 +1,6 @@
 ---
-title: Favorite Literature
-tags: lit
+title: Literature
+tags: lit lists
 ---
 
 

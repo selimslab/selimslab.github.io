@@ -1,6 +1,6 @@
 ---
-title: Favorite Philosophy Books
-tags: books phil
+title: Philosophy Books
+tags: books phil lists
 ---
 
 Enchiridion 
@@ -21,4 +21,4 @@ The Prince
 
 Tao: The Watercourse Way by Alan Watts
 
-Great Thinkers: Simple Tools from 60 Great Thinkers to Improve Your Life Today
+Great Thinkers
