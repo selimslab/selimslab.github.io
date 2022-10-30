@@ -7,6 +7,8 @@ layout: default
 
 <h1>2D Interactive Graph</h1>
 
+Zoom in/out by mouse 
+
 </article>
 
 {% include 2d-graph.html %}

@@ -9,8 +9,11 @@ layout: default
     
     <p>This is a collection of writings to examine and connect ideas</p>
 
-    <p>Explore <a href="/all-notes">{{site.documents.size}} docs</a> with {{site.static_files.size}} images</p>
-    <p>Organized under <a href="/all-tags">{{all_tags.size}} tags</a></p>   
+    <br>
+    
+    <p>Explore <a href="/all-notes">{{site.documents.size}} docs</a> 
+        with <a href="/all-tags">{{all_tags.size}} tags</a>
+    </p>   
 
     {% assign tag_pages = site.documents | where: "layout", "tag" | sort: "title" %}
 
@@ -23,10 +26,11 @@ layout: default
         {% endif %}
     {% endfor %}
 
-    <li>
-        <a href="/2D-Graph">2D</a> and <a href="/3D-Graph">3D</a> graphs
-    </li>
     </ul> 
+
+    <br>
+    Graphs -> <a href="/2D-Graph">2D</a> and <a href="/3D-Graph">3D</a>   
+
 
 </article>
 

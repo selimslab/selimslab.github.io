@@ -6,6 +6,8 @@ layout: default
 
 <h1>3D Interactive Graph 🌐</h1>
 
+Zoom in/out and rotate by mouse 
+
 </article>
 
 
