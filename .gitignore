@@ -2,4 +2,5 @@
 _site/*
 !.github
 !.vscode
+assets/data/graph.json
 Gemfile.lock
