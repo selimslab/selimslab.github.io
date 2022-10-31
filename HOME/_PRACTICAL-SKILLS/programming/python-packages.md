@@ -2,9 +2,16 @@
 tags: pro lists
 ---
 
+## dependencies and packaging
 poetry - Python dependency management and packaging made easy.
 
+## logging 
 loguru - Library which aims to bring enjoyable logging in Python.
+
+## static type check 
+mypy
+
+## testing 
 
 unittest 
 
@@ -12,7 +19,9 @@ pytest - A mature full-featured Python testing tool.
 
 [hypothesis -  property based testing library.](https://github.com/HypothesisWorks/hypothesis/tree/master/hypothesis-python)
 
-mypy
+coverage 
+
+## linters
 
 autoflake
 
@@ -20,27 +29,33 @@ autopep8
 
 flake8
 
+pylint 
+
+
+## formatting 
+
 black 
 
-coverage 
 
-pylint 
+## profiling 
 
 memory-profiler 
 
+## pre-commit checks 
+
 pre-commit 
 
----
-
-websockets - A library for building WebSocket servers and clients with a focus on correctness and simplicity.
-
----
+## web 
 
 flask
 
 django 
 
----
+fastapi 
+
+websockets - A library for building WebSocket servers and clients with a focus on correctness and simplicity.
+
+## task queues
 
 dramatiq - A fast and reliable background task processing library for Python 3.
 
