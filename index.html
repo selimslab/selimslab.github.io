@@ -8,12 +8,11 @@ layout: default
     {% assign all_tags = site.documents | map: "tags"  | compact | uniq  %}
     
     <p>This is a collection of writings to examine and apply ideas</p>
-    
+
     <p><a href="/all-notes">{{site.documents.size}} docs</a> 
         connected with backlinks and <a href="/all-tags">{{all_tags.size}} tags</a>
     </p>   
 
-    View connections as a <a href="/2D-Graph">2D</a> or <a href="/3D-Graph">3D</a> graph  
 
     <h2>Explore</h2>
 
@@ -31,6 +30,8 @@ layout: default
     </ul> 
 
     <br>
+
+    View connections as a <a href="/2D-Graph">2D</a> or <a href="/3D-Graph">3D</a> graph  
 
 
 </article>
