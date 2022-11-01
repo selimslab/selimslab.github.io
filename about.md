@@ -3,7 +3,7 @@ layout: page
 title: Welcome friend! 
 ---
 
-I am Selim, another human from the pale blue dot 
+I am Selim, yet another human on the pale blue dot 
 
 Interested in arts, STEM, social sciences, practical skills, and outdoor sports
 
