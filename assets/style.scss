@@ -86,7 +86,7 @@ article{
   width: fit-content;
   max-width: 50ch;
   margin: 0 auto;
-  padding: 0.5rem;
+  padding: 1rem;
 }
 
 
@@ -98,6 +98,11 @@ a:visited{
 }
 a:hover{
   color: $accent;
+}
+
+.metatext{
+  font-size:0.85rem;
+  font-weight: 300
 }
 
 

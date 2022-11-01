@@ -1,5 +1,5 @@
 
-<div id="breadcrumbs">
+<div id="breadcrumbs" class="metatext">
     {% assign crumbs = page.path | remove:'/index.html' | split: '/' %}
     <a href="/">Home</a>
         / <a href="/{{page.collection | downcase}}">{{page.collection | replace:'-',' ' | capitalize }}</a>
