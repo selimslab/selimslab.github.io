@@ -10,16 +10,18 @@ date: {{ last_modified_at }}
         
     <h1>{{ page.title }}</h1>
 
-    <img id="random_artwork" class="img-full" />
-    <p id="random_artwork-alt" class="metatext"></p>
+    {% include tags.html %}
 
+</article>
+
+    <img id="random_artwork" class="img-full" />
+    <p id="random_artwork-alt" class="img-alt"></p>
+
+<article>
 
     {{ content }}
 
-
     {% include backlinks.html %}
-
-    {% include tags.html %}
 
     {% include random-idea.html %}
 

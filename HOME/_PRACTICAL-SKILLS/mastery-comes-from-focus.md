@@ -1,4 +1,5 @@
 ---
+tags: skills
 ---
 
 Mastery comes from focus and deliberate practice, 

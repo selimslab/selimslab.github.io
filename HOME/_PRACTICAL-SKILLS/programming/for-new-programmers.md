@@ -67,4 +67,4 @@ Meet the terminal, ls, cd, mv, top, mkdir, touch, cat, sort, grep, rm
 
 [[programming]]
 
-[[programming-mastery]]
+[[mastery-comes-from-focus]]

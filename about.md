@@ -13,20 +13,15 @@ Would be happy to meet you -> durufikir at gmail dot com
 
 [Favourites](/lists)
 
-
 [Github](https://github.com/selimslab)
 
 [Linkedin](https://www.linkedin.com/in/time/)
 
 [Twitter](https://twitter.com/selimsnotes)
 
-
-
 [Why delta(Δ)](/why-is-the-name-delta)
 
 [Digital Mind](/digital-mind)
-
-
 
 [Disclaimer](/disclaimer)
 

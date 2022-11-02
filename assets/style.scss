@@ -100,11 +100,25 @@ a:hover{
   color: $accent;
 }
 
-.metatext{
-  font-size:0.85rem;
-  font-weight: 300
+
+
+
+.img-full {
+  display: block;
+  margin: auto;
+  max-height: 80vh;
 }
 
+.img-alt{
+  font-family: $serif;
+  text-align: center !important;
+}
+
+.metatext, .img-alt{
+  font-size:0.85rem;
+  font-weight: 300;
+  margin-bottom:0.5rem;
+}
 
 @media only screen and (max-width: 900px) {
   .img-full {
@@ -130,6 +144,7 @@ h2 {
   font-size: 1.2rem;
   font-weight: bold;
   margin-top: 1rem;
+  margin-bottom:0.5rem;
 }
 
 strong{
@@ -162,18 +177,10 @@ pre{
   font-size: 1em !important;
 }
 
-
-#random_artwork{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-height: 80vh;
+ol{
+  margin-left:1rem;
 }
 
-#random_artwork-alt{
-  font-family: $serif;
-  text-align: center !important;
-}
 
 a.site-name {
   color: inherit;
