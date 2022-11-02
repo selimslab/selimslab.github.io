@@ -32,4 +32,6 @@ What you want isn't always best for you
 
 — Jose Mujica, 40th President of Uruguay
 
+"I end up not buying a lot of things. Because I find them ridiculous." Steve Jobs 
+
 ![](/static/img/does-this-spark-joy.jpeg)

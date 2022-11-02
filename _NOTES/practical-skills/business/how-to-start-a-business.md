@@ -55,4 +55,3 @@ Make the difficult easy.
 
 There are opportunities everywhere."
 
-
