@@ -66,33 +66,9 @@ exclude:
   - README.md
   - CNAME
 
-collections_dir: HOME
+# collections_dir: HOME
 collections:
-  ARTS:    
-    output: true 
-    permalink:  /:title/
- 
-  PRACTICAL-SKILLS:    
-    output: true 
-    permalink:  /:title/
-
-  STEM:    
-    output: true 
-    permalink:  /:title/
-
-  books:    
-    output: true 
-    permalink:  /:title/
-
-  essais:    
-    output: true 
-    permalink:  /:title/
-
-  lists:    
-    output: true 
-    permalink:  /:title/
-
-  tools:    
+  NOTES:    
     output: true 
     permalink:  /:title/
 

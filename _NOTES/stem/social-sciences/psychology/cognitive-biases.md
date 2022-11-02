@@ -3,8 +3,6 @@ title: Cognitive Biases
 tags: psy
 ---
 
-<https://sketchplanations.com/tags/cognitive-bias>
-
 
 We tend to do what is quick, easy, comfortable over doing the important 
 
@@ -93,3 +91,5 @@ First-Conclusion Bias
 
 
 ![](/static/img/present-bias.jpeg)
+
+<https://sketchplanations.com/tags/cognitive-bias>

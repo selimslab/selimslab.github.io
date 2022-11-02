@@ -1,0 +1,5 @@
+---
+---
+
+
+In most people's vocabularies, design means veneer. It's interior decorating. It's the fabric of the curtains and the sofa. But to me, nothing could be further from the meaning of design. Design is the fundamental soul of a man-made creation that ends up expressing itself in successive outer layers of the product or service. The iMac is not just the color or translucence or the shape of the shell. The essence of the iMac is to be the finest possible consumer computer in which each element plays together. On our latest iMac, I was adamant that we get rid of the fan, because it is much more pleasant to work on a computer that doesn't drone all the time. That was not just 'Steve's decision' to pull out the fan; it required an enormous engineering effort to figure out how to manage power better and do a better job of thermal conduction through the machine. That is the furthest thing from veneer. It was at the core of the product the day we started.

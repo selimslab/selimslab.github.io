@@ -5,7 +5,7 @@ title: Welcome friend!
 
 I am Selim, yet another human on the pale blue dot 
 
-Interested in arts, STEM, social sciences, practical skills, and outdoor sports
+Interested in arts, STEM, social sciences, practical skills, and outdoor sports 
 
 Writing shows me how little I know on the topic, and brings clarity
 

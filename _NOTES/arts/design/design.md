@@ -17,8 +17,6 @@ tags: arts skills
 
 ---
 
-
-
 Good design resembles a likable person: respectful, generous and helpful.
 
 Take hints from the past
@@ -44,3 +42,8 @@ Design for failure,
 Make things work well even when things do not go as planned.
 
 Design can be evil, too [[hijacked-minds]]
+
+also see [[steve-jobs-on-design]]
+
+
+
