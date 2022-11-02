@@ -93,3 +93,7 @@ First-Conclusion Bias
 ![](/static/img/present-bias.jpeg)
 
 <https://sketchplanations.com/tags/cognitive-bias>
+
+[[local-maximum]]
+
+[[overvaluing-short-term]]
