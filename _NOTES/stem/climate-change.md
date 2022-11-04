@@ -4,9 +4,9 @@ tags: stem
 
 This is a social problem
 
-The Earth is the only home we have in a cold, dark, indifferent space
+The Earth is the only home we have in the cold, dark, indifferent space
 
-Only if we humans were able to agree and coordinate to solve a life and death problem 
+Only if we could stop burning our home 
 
 
 also see 
