@@ -1,13 +1,12 @@
 
 <div id="breadcrumbs" class="metatext">
     {% assign crumbs = page.path | remove:'/index.html' | split: '/' %}
-    <a href="/">Home</a>
     {% for crumb in crumbs offset: 1 %}
       {% if forloop.last %}
-        / <a href="{{page.url}}">{{page.title}}</a>
+        <a href="{{page.url}}">{{page.title}}</a>
 
       {% else %}
-        / <a href="/{{crumb}}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
+        <a href="/{{crumb}}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a> / 
       {% endif %}
     {% endfor %}
 </div>

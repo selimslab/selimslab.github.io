@@ -51,3 +51,7 @@ Test hypotheses
 
 
 ![](/static/img/smart-little-people.jpeg)
+
+[[you-are-not-nameless]]
+
+[[relax-for-the-same-result]]
