@@ -1,10 +1,9 @@
 ---
-title: Strategy Letter I, Ben and Jerry’s vs. Amazon
 tags: bus
 ---
 
 
-from <https://www.joelonsoftware.com/2000/05/12/strategy-letter-i-ben-and-jerrys-vs-amazon/>
+<https://www.joelonsoftware.com/2000/05/12/strategy-letter-i-ben-and-jerrys-vs-amazon/>
 
 Building a company? You’ve got one very important decision to make, because it affects everything else you do. No matter what else you do, you absolutely must figure out which camp you’re in, and gear everything you do accordingly, or you’re going to have a disaster on your hands.
 
