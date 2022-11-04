@@ -6,11 +6,6 @@
 
 {% assign all_tags = site.documents | map: "tags"  | compact | uniq  %}
 
-<p><a href="/all-notes">{{site.documents.size}} docs</a> 
-    connected with backlinks and <a href="/all-tags">{{all_tags.size}} tags</a>
-</p>   
-
-
 <h2>Explore</h2>
 
 {% assign tag_pages = site.documents | where: "layout", "tag" | sort: "title" %}
@@ -26,6 +21,12 @@
 
 </ul> 
 
-View connections as a <a href="/2D-Graph">2D</a> or <a href="/3D-Graph">3D</a> graph  
+<br>
+
+<p><a href="/all-notes">{{site.documents.size}} docs</a> 
+    connected with {{site.data.link_count}} backlinks and <a href="/all-tags">{{all_tags.size}} tags</a>
+</p>   
+
+View as a <a href="/2D-Graph">2D</a> or <a href="/3D-Graph">3D</a> graph  
 
 </article>
