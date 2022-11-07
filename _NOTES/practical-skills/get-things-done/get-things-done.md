@@ -53,7 +53,7 @@ just start
 
 [[0-1-n]]
 
-[[focus-on-one-thing]]
+[[do-one-thing-and-do-it-well]]
 
 [[procrastination]]
 

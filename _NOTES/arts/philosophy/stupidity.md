@@ -13,3 +13,5 @@ Being dumb is different from stupidity, its more like lacking the mental capacit
 Ignorance isn’t stupidity. Smart or educated people can also be very stupid 
 
 Hanlon’s Razor, think stupidity before malice 
+
+[[the-triumph-of-stupidity]]
