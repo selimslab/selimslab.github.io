@@ -1,15 +1,15 @@
 class BackLinksGenerator < Jekyll::Generator
     def generate(site)
 
-      # if (!defined?@render_count)
-      #   @render_count = 1
-      # end
+      if (!defined?@render_count)
+        @render_count = 1
+      end
     
-      # if @render_count > 1
-      #   return
-      # end
+      if @render_count > 1
+        return
+      end
 
-      # @render_count += 1
+      @render_count += 1
       
       graph = {}
       graph["nodes"] = {}
@@ -19,6 +19,8 @@ class BackLinksGenerator < Jekyll::Generator
       seen = {}
 
       tagnames = site.data["tags"]
+
+      link_count = 0 
 
       site.documents.each do |current_note|
         notes_linking_to_current_note = site.documents.filter do |e|
@@ -53,7 +55,7 @@ class BackLinksGenerator < Jekyll::Generator
 
 
         backlinks = current_note.content.scan(/\[\[.*\]\]/)
-        
+        link_count += backlinks.length
         backlinks.each do |backlink| 
           # parse wikilink 
           match = backlink.gsub(/\[\[/, '').gsub(/\]\]/, '')
@@ -98,7 +100,8 @@ class BackLinksGenerator < Jekyll::Generator
       File.open("./assets/data/graph.json","w") do |f|
         f.write(graph.to_json)
       end
-    
+      
+      site.data["link_count"] = link_count
 
     end
   

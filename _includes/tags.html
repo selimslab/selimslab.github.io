@@ -1,5 +1,5 @@
 
-<div class="tags">
+<div class="tags" style="margin-top:1rem">
 
 {% for tag in page.tags %}
 
@@ -9,7 +9,7 @@
         {%  assign label = tag %}
     {% endif %}
 
-    <span class="tag is-link is-light">
+    <span class="tag">
         <a href="/{{label}}">{{label}}</a>
     </span>
 

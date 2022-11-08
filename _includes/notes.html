@@ -1,0 +1,35 @@
+
+    
+<article>
+
+<!-- <p>This is a collection of writings</p> -->
+
+{% assign all_tags = site.documents | map: "tags"  | compact | uniq  %}
+
+<p>Explore <a href="/all-notes">{{site.documents.size}} notes</a> 
+
+    connected with {{site.data.link_count}} backlinks 
+    
+    and <a href="/all-tags">{{all_tags.size}} tags</a>
+</p> 
+
+
+{% assign tag_pages = site.documents | where: "layout", "tag" | sort: "title" %}
+
+<ul style="margin-left:1rem; list-style:circle">
+{% for p in tag_pages %}
+    {% if p.tags contains "root" %}
+        <li>
+            <a href="{{p.url}}">{{p.title}}</a>
+        </li>
+    {% endif %}
+{% endfor %}
+
+</ul> 
+
+<br>
+
+View as a <a href="/2D-Graph">2D</a> or <a href="/3D-Graph">3D</a> graph  
+
+
+</article>

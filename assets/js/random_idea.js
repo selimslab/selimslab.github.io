@@ -7,8 +7,7 @@ get_random_idea = async () =>{
     return response.json();
     })
     .then(quotes => {
-        let randomQuote = "\"" + get_random_item(quotes) + "\""
-        document.getElementById("random_idea").innerHTML =   randomQuote;
+        document.getElementById("random_idea").innerHTML =  get_random_item(quotes);
     }
     );
 }

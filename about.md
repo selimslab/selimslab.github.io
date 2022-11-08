@@ -3,20 +3,28 @@ layout: page
 title: Welcome friend! 
 ---
 
-I am Selim, another human from the pale blue dot 
+I am Selim, yet another human on the pale blue dot 
 
-I love to take a walk in nature, read a good book, listen to an old song, or watch a good movie 
+Interested in arts, STEM, social sciences, practical skills, and outdoor sports 
 
-Working in technology, curious about both natural and social sciences
+Writing shows me how little I know on the topic, and brings clarity
 
 Would be happy to meet you -> durufikir at gmail dot com  
 
-[github](https://github.com/selimslab)
+[Favourites](/lists)
 
-[linkedin](https://www.linkedin.com/in/time/)
+[Github](https://github.com/selimslab)
 
-[twitter](https://twitter.com/selimsnotes)
+[Linkedin](https://www.linkedin.com/in/time/)
 
-[some favourites](/lists)
+[Twitter](https://twitter.com/selimsnotes)
 
-[disclaimer]((disclaimer))
+[Why delta(Δ)](/why-is-the-name-delta)
+
+[Digital Mind](/digital-mind)
+
+[Disclaimer](/disclaimer)
+
+
+
+

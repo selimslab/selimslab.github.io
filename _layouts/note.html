@@ -7,31 +7,26 @@ date: {{ last_modified_at }}
     
         
     {% include breadcrumbs.html %}
-    
-    <br>
-    
+        
     <h1>{{ page.title }}</h1>
+
+    {% include tags.html %}
 
 </article>
 
-<img id="random_artwork" class="img-full" />
-<p id="random_artwork-alt"></p>
+    <img id="random_artwork" class="img-full" />
+    <p id="random_artwork-alt" class="img-alt"></p>
 
 <article>
 
-{{ content }}
+    {{ content }}
 
-<br>
-
-{% include backlinks.html %}
-
-<br>
-
-{% include tags.html %}
-
-{% include random_idea.html %}
+    {% include backlinks.html %}
 
 </article>
+
+{% include random-idea.html %}
+
 
 <script src="/assets/js/random_artwork.js"></script>
 

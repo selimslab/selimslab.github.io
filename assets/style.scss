@@ -18,10 +18,10 @@ $sansSerif: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $serif: Georgia, serif;
 
 // text and bg 
-$dark-bg: #22272e; // #2a2e32
+$dark-bg: #22272e;
 $light-text: #f0f1f2;
 
-$light-bg: #fffefc; // #fdc96c
+$light-bg: #f8f1e3; 
 $dark-text: $gray;
 
 
@@ -29,6 +29,7 @@ html{
   font: $sansSerif;
   font-size: 1.5em;
   line-height: 1.8;
+  border: 2px solid linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 
@@ -39,11 +40,13 @@ body{
 }
 
 .top{
-  height: 8px;
+  height: 4px;
   background: #373B44;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+li{margin-bottom:0.5rem}
 
 .navbar {
   background: inherit;
@@ -53,11 +56,10 @@ body{
 .navbutton{
   font-size:1.5rem;  
   margin-top: 0.4rem;
-  margin-left: 0.6rem;
+  margin-left: 0.8rem;
 }
 
 .search{
-  margin-left:1.2rem;
   margin-top:0.5rem;
 }
 
@@ -65,6 +67,8 @@ a.site-name {
   font-family: $serif;
   color: inherit;
   font-size: 2rem;
+  margin-right:1.2rem;
+
 }
 
 #results-container {
@@ -79,7 +83,8 @@ a.site-name {
 }
 
 article{
-  max-width: 70ch;
+  width: fit-content;
+  max-width: 50ch;
   margin: 0 auto;
   padding: 1rem;
 }
@@ -95,6 +100,25 @@ a:hover{
   color: $accent;
 }
 
+
+
+
+.img-full {
+  display: block;
+  margin: auto;
+  max-height: 80vh;
+}
+
+.img-alt{
+  font-family: $serif;
+  text-align: center !important;
+}
+
+.metatext, .img-alt{
+  font-size:0.85rem;
+  font-weight: 300;
+  margin-bottom:0.5rem;
+}
 
 @media only screen and (max-width: 900px) {
   .img-full {
@@ -120,6 +144,7 @@ h2 {
   font-size: 1.2rem;
   font-weight: bold;
   margin-top: 1rem;
+  margin-bottom:0.5rem;
 }
 
 strong{
@@ -128,15 +153,9 @@ strong{
 
 
 footer {
-  text-align: center;
   background: inherit !important;
   font-family: $serif;
   padding: 1.618rem;
-}
-
-
-li{
-  margin: 0.5rem;
 }
 
 
@@ -157,18 +176,10 @@ pre{
   font-size: 1em !important;
 }
 
-
-#random_artwork{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-height: 80vh;
+ol{
+  margin-left:1rem;
 }
 
-#random_artwork-alt{
-  font-family: $serif;
-  text-align: center !important;
-}
 
 a.site-name {
   color: inherit;
@@ -183,7 +194,6 @@ html[data-theme='light'] {
   }
 
   .top{
-    height: 8px;
     background: #56CCF2;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -201,6 +211,8 @@ html[data-theme='light'] {
   a.site-name{
     color: inherit
   }
+
+
   
 }
 

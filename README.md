@@ -1,4 +1,4 @@
-##  a knowledge base with backlinks, dark mode, search, and offline access
+##  a minimal personal wikipedia with offline access
 
 [![Deploy Jekyll site to Pages](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml/badge.svg)](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml)
 
@@ -10,7 +10,9 @@ gem install bundler jekyll
 
 ## serve
 
-git push gitlab master && bundle exec jekyll serve --trace 
+git push gitlab master 
+
+bundle exec jekyll serve --trace 
 
 --incremental
 
