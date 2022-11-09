@@ -4,36 +4,36 @@ tags: pro
 
 ## Mac terminal
 
-Clear line : cmd U 
+Clear line: cmd U 
 
 ## VSCode
 
-Multiple cursors : option + shift + click
+Multiple cursors: option + shift + click
 
 ---
 
-Go top : cmd ⬆️
+Go top: cmd ⬆️
 
-Go bottom : cmd ⬇️
-
----
-
-
-Zoom in : cmd shift 0 
-
-Zoom out : cmd - 
+Go bottom: cmd ⬇️
 
 ---
 
-Select next occurrence : cmd D
 
-Select all occurrences : cmd + shift + L
+Zoom in: cmd shift 0 
+
+Zoom out: cmd - 
 
 ---
 
-Fold all : Ctrl + K + 0
+Select next occurrence: cmd D
 
-Unfold all : Ctrl + K + J
+Select all occurrences: cmd + shift + L
+
+---
+
+Fold all: Ctrl + K + 0
+
+Unfold all: Ctrl + K + J
 
 ---
 
