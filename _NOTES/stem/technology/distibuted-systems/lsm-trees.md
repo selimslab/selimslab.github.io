@@ -2,11 +2,19 @@
 title: Log structured merge tree (LSM tree)
 ---
 
-What if we have an in-memory balanced tree like an AVL tree, or red-black tree, 
+Now maybe we can do better with the file-append
+
+Only if there is a way to keep it sorted 
+
+you can sort after every entry but its highly inefficient 
+
+---
+
+What if we have an in-memory balanced tree like an AVL tree; or red-black tree, 
 
 append write to the tree first, then periodically flush the tree to a file, 
 
-there will be multiple files, all sorted, periodically merge them in backgrund
+there will be multiple files, all sorted, and periodically merged in the background
 
 These sorted string tables are called SS Tables, and a sorted file can be compressed better, leading to smaller files 
 
@@ -24,7 +32,7 @@ a balanced tree + SS Tables + periodical merging -> LSM tree
 
 Lower write amplification, better disk life 
 
-Higher thoughput 
+Higher throughput 
 
 Localized data, less unused disk space 
 
@@ -38,7 +46,7 @@ Less stable response times in higher percentiles
 Compaction costs 
 
 If compaction is not configured well, 
-it may get behind the writes, leading to disk full, 
+it may get behind the writes, leading to a disk full, 
 
 and slower writes due to checking more segments 
 

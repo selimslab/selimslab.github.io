@@ -33,6 +33,8 @@ Select all occurrences : cmd + shift + L
 
 Fold all : Ctrl + K + 0
 
+Unfold all : Ctrl + K + J
+
 ---
 
-Unfold all : Ctrl + K + J
+swith to explorer: cmd 0 

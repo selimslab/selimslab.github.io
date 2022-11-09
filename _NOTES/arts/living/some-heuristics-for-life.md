@@ -7,4 +7,4 @@ Some good heuristics for life:
 - listen more than you speak
 - give more praise than criticism
 - create and contribute more than you consume
-- try to leave things a little better than you found them
+- try to leave things a little better than you found them  
