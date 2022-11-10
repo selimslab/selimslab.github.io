@@ -4,7 +4,7 @@ tags: arts
 
 Great ideas are about reordering existing + connecting together + right timing.
 
-Don't look for ideas, just work on things that you find genuinely interesting 
+Don't look for ideas, work on things that you find genuinely interesting 
 
 > Creativity is just connecting things. 
 > 

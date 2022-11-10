@@ -3,11 +3,11 @@ tags: phil
 ---
 
 
-Human mind takes a lit bit of the all things, names it, so it can understand it 
+We humans name and separate things, so we can understand it 
 
 The distinction is artificial
 
-When you take a tree, you must also takw the roots, soil, clouds, and sun with you 
+When you take a tree, you must also take the roots, soil, clouds, and sun with you 
 
 You take a tree and the whole universe comes with it 
 

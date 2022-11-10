@@ -2,15 +2,14 @@
 tags: phil psy
 ---
 
-Bad judgement 
 
-Choosing an inappropriate model to interpret reality 
+Stupidity is not ignorance, smart or educated people can also be very stupid 
 
-Either lacking the correct model, or not considering it even if you are aware
+Its thoughts not matching reality, using the wrong mental model 
 
-Being dumb is different from stupidity, its more like lacking the mental capacity 
+Here is reality and there are your thoughts, the gap is stupidity 
 
-Ignorance isn’t stupidity. Smart or educated people can also be very stupid 
+Leads to bad judgement 
 
 Hanlon’s Razor, think stupidity before malice 
 

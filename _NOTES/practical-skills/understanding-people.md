@@ -3,7 +3,6 @@ tags: skills psy phil soc
 ---
 
 
-People will never forget how you made them feel.
 
 [[empathy]]
 
@@ -14,6 +13,8 @@ People will never forget how you made them feel.
 [[emotions-are-connected-to-senses]]
 
 Trust is the most delicate thing. Be impeccable with your word.
+
+People will never forget how you made them feel.
 
 [[anger]]
 

@@ -3,7 +3,7 @@ tags: psy
 ---
 
 
-The price of freedom is dear yet worths it 
+The price of freedom is dear yet worth it 
 
 [[you-can-always-choose-your-way]]
 

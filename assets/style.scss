@@ -27,8 +27,8 @@ $dark-text: $gray;
 
 html{
   font: $sansSerif;
-  font-size: 1.5em;
-  line-height: 1.8;
+  font-size: 1.4em;
+  line-height: 1.7;
   border: 2px solid linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -37,7 +37,9 @@ body{
   background: $dark-bg;
   color: $light-text;
   min-height: 100vh;
+  word-break: break-word;
 }
+
 
 .top{
   height: 4px;

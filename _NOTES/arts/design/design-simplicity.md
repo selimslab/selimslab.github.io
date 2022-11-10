@@ -19,7 +19,7 @@ Occam’s Razor, Simpler explanations are more likely to be true
 
 > Simplicity is prerequisite for reliability.
 > 
-> - Edsger W. Dijkstra
+> Dijkstra
 
 
 

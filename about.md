@@ -7,11 +7,10 @@ I am Selim, yet another human on the pale blue dot
 
 Interested in arts, STEM, social sciences, practical skills, and outdoor sports 
 
-Writing shows me how little I know on the topic, and brings clarity
+Writing shows me how little I know about the topic, and brings clarity
 
 Would be happy to meet you -> durufikir at gmail dot com  
 
-[Favourites](/lists)
 
 [Github](https://github.com/selimslab)
 
@@ -23,7 +22,11 @@ Would be happy to meet you -> durufikir at gmail dot com
 
 [Digital Mind](/digital-mind)
 
+[Lists](/lists)
+
 [Disclaimer](/disclaimer)
+
+
 
 
 

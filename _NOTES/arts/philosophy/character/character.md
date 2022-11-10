@@ -3,9 +3,6 @@ title: On Character
 tags: phil essais 
 ---
 
-![](/static/img/principles-all-the-time.jpeg)
-
-
 Real growth is building character, striving to improve in generosity, integrity, humility, fairness, courage, .. 
 
 [[already-naked]]
@@ -34,5 +31,7 @@ if you do something shameful, the pleasure passes but the shame endures" Rufus
 
 "Circumstances don't make the man but reveal him" Epictetus 
 
-
 "Your ideas determine the quality of your life, your soul takes on the color of your thoughts" MA 
+
+
+![](/static/img/principles-all-the-time.jpeg)
