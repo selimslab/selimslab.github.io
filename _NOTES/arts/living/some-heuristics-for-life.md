@@ -15,7 +15,6 @@ tags: phil top
 - Truth has many faces
 - Less certainty, more probability 
 - Know your limitations
-- The pain is neither unbearable nor unending
 
 
 ## Do well  
@@ -26,12 +25,13 @@ tags: phil top
 - Do one thing at a time
 - Do it with all your heart 
 - Do. Or do not. There is no try
-- Good is better than perfect
 - Worry less, act more
+- Good is better than perfect
 
 ## Now and here 
 - Let go of past and future 
 - Past had to be this way given all the factors 
+- Neither blame yourself nor others
 - No regrets, learn and move on 
 - Future is unpredictable, prepare without worry 
 - Do not expect to 'get' anything, just play
@@ -49,9 +49,10 @@ tags: phil top
 - It is not personal 
 - Not the thing but your interpretation bothers you 
 - Do not take yourself too seriously
-- Life is soft and tender, death is stiff and dry 
 - Channel anger to curiosity 
-- Neither blame yourself nor others
+
+## Embrace hardship 
+- The pain is neither unbearable nor unending
 
 ## Know when to stop
 
