@@ -7,7 +7,7 @@
 {% include tagpage.html tag='top' %}
 
 
-<h2>Explore all</h2>
+<h2>Explore</h2>
 
 {% assign all_tags = site.documents | map: "tags"  | compact | uniq  %}
 
@@ -18,6 +18,11 @@
     and <a href="/all-tags">{{all_tags.size}} tags</a>
 </p> 
 
+<p>
+View as a <a href="/2D-Graph">2D</a> or <a href="/3D-Graph">3D</a> graph  
+</p>
+
+<h2>Main tags</h2>
 
 {% assign tag_pages = site.documents | where: "layout", "tag" | sort: "title" %}
 
@@ -31,7 +36,6 @@
 {% endfor %}
 </ul> 
 
-View as a <a href="/2D-Graph">2D</a> or <a href="/3D-Graph">3D</a> graph  
 
 
 

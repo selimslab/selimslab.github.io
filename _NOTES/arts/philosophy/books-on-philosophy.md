@@ -1,6 +1,6 @@
 ---
 title: Philosophy Books
-tags: books phil lists
+tags: books phil
 ---
 
 Enchiridion 
