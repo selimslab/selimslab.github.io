@@ -3,7 +3,6 @@ title: Some heuristics for a good life 🏛️
 tags: phil skills essais top 
 ---
 
-
 ## Good habits, good life
 - [[health]]
 - Sleep, sun, exercise 
