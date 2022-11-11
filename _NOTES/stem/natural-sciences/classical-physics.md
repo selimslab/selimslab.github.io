@@ -1,19 +1,18 @@
 ---
-tags: phys
+tags: phys 
 ---
 
-<https://www.feynmanlectures.caltech.edu/II_18.html>
-
+From <https://www.feynmanlectures.caltech.edu/II_18.html>
 
 All that was known of fundamental classical physics, that is, the physics that was known by 1905. 
 
 Here it all is, in one table. 
 
-With these equations we can understand the complete realm of classical physics.
+With these equations, we can understand the complete realm of classical physics.
 
 ![](/static/img/classical.png)
 
-First we have the Maxwell equations—written in both the expanded form and the short mathematical form. 
+First, we have the Maxwell equations—written in both the expanded form and the short mathematical form. 
 
 Then there is the conservation of charge, which is even written in parentheses, because the moment we have the complete Maxwell equations, we can deduce from them the conservation of charge. So the table is even a little redundant. 
 
@@ -23,14 +22,9 @@ Finally, having the force doesn’t tell us anything until we know what happens 
 
 Therefore in one small table we have all the fundamental laws of classical physics—even with room to write them out in words and with some redundancy. This is a great moment. We have climbed a great peak. We are on the top of K2—we are nearly ready for Mount Everest, which is quantum mechanics. We have climbed the peak of a “Great Divide,” and now we can go down the other side.
 
-
 ---
 
-Electricity, magnetism, and light are three faces of the same thing, 
-
-Light is electric and magnetic fields travelling together, dancing and creating each other
+Light is electric and magnetic fields traveling together, dancing and creating each other
 
 These dancing fields happen to travel at the speed of light, well because this is what light is 
-
-To change the speed of anything, you need to apply a force, and higher its mass, stronger the force must be 
 

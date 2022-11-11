@@ -1,6 +1,6 @@
 ---
 title: Some heuristics for a good life 🏛️ 
-tags: phil skills top
+tags: phil skills top 
 ---
 
 
@@ -9,10 +9,7 @@ tags: phil skills top
 - Sleep, sun, exercise 
 - More time with friends and family 
 - [[focus-on-what-is-in-your-control]]
-
-## Communicate well 
-- [[listen-well]]
-- [[speak-well]]
+- [[communication]]
 
 ## Emotions 
 - [[how-to-deal-with-emotions]]
@@ -26,7 +23,7 @@ tags: phil skills top
 - Look below the surface
 - Less certainty, more probability
 - Know your limitations
-- How well does your mental model match reality?
+- How well does your mental models match reality?
 - Have you done your due diligence?
 
 ## Decide and act   
@@ -36,8 +33,8 @@ tags: phil skills top
 - Solve it at the root
 - Focus on the important few 
 - Do one thing at a time
+- Don't do anything reluctantly, nor without due examination 
 - Do it with all your heart
-- Don't do anything reluctantly 
 - Worry less, act more
 - Good is better than perfect
 

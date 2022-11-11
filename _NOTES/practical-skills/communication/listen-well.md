@@ -14,7 +14,7 @@ Set aside your opinion
 
 Listen with a beginner’s mind.
 
-Suspend judgement, it’s not personal, not about you 
+Suspend judgment, it’s not personal, not about you 
 
 ---
 
@@ -37,6 +37,7 @@ said
 understood  
 
 .
+
 
 
 ---

@@ -1,7 +1,6 @@
 ---
-tags: psy skills essais
+tags: psy skills essais 
 ---
-
 
 [[lead-by-example]]
 
@@ -23,15 +22,6 @@ tags: psy skills essais
 
 [[give-children-responsibility]]
 
-A child can teach an adult three things: 
-
-to be happy for no reason, 
-
-to always be busy with something, 
-
-and to know how to demand with all his might that which he desires.
-
-― Paulo Coelho
 
 
 
