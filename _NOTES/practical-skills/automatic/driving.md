@@ -11,7 +11,7 @@ Lookout scan
 
 Move your head  
 
-Focus at 3 different points: close, mid, far 
+Focus on 3 different points: close, mid, far 
 
 ---
 
