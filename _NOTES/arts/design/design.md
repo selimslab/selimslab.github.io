@@ -1,5 +1,5 @@
 ---
-tags: arts skills
+tags: arts skills essais
 --- 
   
 
@@ -14,6 +14,8 @@ tags: arts skills
 [[design-simplicity]]
 
 [[ship-it]]
+
+[[creativity]]
 
 
 

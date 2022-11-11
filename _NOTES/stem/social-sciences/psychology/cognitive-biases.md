@@ -4,7 +4,7 @@ tags: psy
 ---
 
 
-We tend to do what is quick, easy, comfortable over doing the important 
+We tend to do what is quick, easy, and comfortable over doing the important 
 
 We mistake the limits of our vision as the limits of the world 
 
@@ -18,18 +18,28 @@ Emotions make decisions. Reason comes later and justifies.
 
 We exaggerate
 
-Familiar seems better, often it's not 
+Familiar seems better, but it's not 
 
-It won't be as good as you hope, neither as bad as you fear 
+It won't be as good as you hope, nor as bad as you fear 
 
 [[framing]]
+
+[[local-maximum]]
+
+[[overvaluing-short-term]]
+
+[[people-see-what-they-want]]
+
+[[familiar-and-original]]
+
+
 
 
 ---
 
 Mistakes of others are easier to notice than our own 
 
-We believe we are better than we actually are. 19% think they’re in the top 1% of earners, 95% of professors think they’re better than average
+We believe we are better than we are. 19% think they’re in the top 1% of earners, 95% of professors think they’re better than average
 
 We can't read minds
 
@@ -93,8 +103,4 @@ First-Conclusion Bias
 ![](/static/img/present-bias.jpeg)
 
 <https://sketchplanations.com/tags/cognitive-bias>
-
-[[local-maximum]]
-
-[[overvaluing-short-term]]
 

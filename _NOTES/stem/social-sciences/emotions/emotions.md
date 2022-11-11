@@ -1,11 +1,11 @@
 ---
-title: Understanding Human Mind
-tags: psy phil soc skills top 
+tags: psy phil soc skills 
 ---
 
-Watch them gather and disperse like waves and clouds 
+Watch emotions gather and disperse like waves and clouds 
 
 It's easy to get carried away, notice your breath and come back 
+
 
 [[anger]]
 
@@ -33,15 +33,10 @@ It's easy to get carried away, notice your breath and come back
 
 [[trust]]
 
-Emotions are contagious 
-
-They are also connected to senses, eg. physical disgust and moral disgust activate the same areas in the brain.
+[[give-support-not-advice]]
 
 [[cognitive-biases]]
 
-[[give-support-not-advice]]
+Emotions are contagious 
 
-[[people-see-what-they-want]]
-
-[[familiar-and-original]]
-
+They are also connected to senses, eg. physical disgust and moral disgust activate the same areas in the brain.

@@ -1,6 +1,6 @@
 ---
 title: Some heuristics for a good life 🏛️ 
-tags: phil skills top 
+tags: phil skills essais top 
 ---
 
 
@@ -15,16 +15,13 @@ tags: phil skills top
 ## Emotions 
 - [[emotions]]
 - [Good social relationships, good life (video)](https://youtu.be/8KkKuTCFvzI?list=FLwnL1ngkxfNFBPIXpHm2A2A…)
-
-## Live here and now
-- Complain less, appreciate more
-- Judge less, accept more
+- [[live-here-and-now]]
 
 ## Examine 
 - Look below the surface
 - Less certainty, more probability
 - Know your limitations
-- How well does your mental models match reality?
+- How well do your mental models match reality?
 - Have you done your due diligence?
 
 ## Decide and act   
@@ -49,11 +46,10 @@ tags: phil skills top
 - Balanced [[golden-mean]]
 - Courageous
 - Diligent [[acta-non-verba]]
-
 - Fair 
+- Free
 - Healthy 
 - Humble 
-
 - Light-hearted
 - Loving
 - Respectful

@@ -1,13 +1,12 @@
 ---
 title: How to start and run a business
-tags: skills bus
+
+tags: skills bus essais
 ---
 
 [[what-to-work-on]]
 
 [[one-bit-better]]
-
-![](/static/img/the-customer-value-chain.jpeg)
 
 [[design]]
 
@@ -16,8 +15,6 @@ tags: skills bus
 [[marketing]]
 
 [[sales]]
-
-![](/static/img/business-flywheel.png)
 
 [[hiring]]
 
@@ -55,3 +52,8 @@ Make the difficult easy.
 
 There are opportunities everywhere."
 
+
+
+![](/static/img/business-flywheel.png)
+
+![](/static/img/the-customer-value-chain.jpeg)

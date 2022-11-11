@@ -1,5 +1,4 @@
 ---
-tags: arts
 ---
 
 Great ideas are about reordering existing + connecting together + right timing.
