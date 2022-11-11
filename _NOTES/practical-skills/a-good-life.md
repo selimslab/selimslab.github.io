@@ -1,15 +1,61 @@
 ---
-title: How to live a good life? 🏛️ 
-tags: phil skills
+title: Some heuristics for a good life 🏛️ 
+tags: phil skills top
 ---
 
-[[health]]
 
-[[arts]]
+## Good habits, good life
+- [[health]]
+- Sleep, sun, exercise 
+- More time with friends and family 
+- [[focus-on-what-is-in-your-control]]
 
-[[philosophy]]
+## Communicate well 
+- [[listen-well]]
+- [[speak-well]]
 
-[good social relationships -> good life (video)](https://youtu.be/8KkKuTCFvzI?list=FLwnL1ngkxfNFBPIXpHm2A2A…)
+## Emotions 
+- [[how-to-deal-with-emotions]]
+- [Good social relationships, good life (video)](https://youtu.be/8KkKuTCFvzI?list=FLwnL1ngkxfNFBPIXpHm2A2A…)
+
+## Live here and now
+- Complain less, appreciate more
+- Judge less, accept more
+
+## Examine 
+- Look below the surface
+- Less certainty, more probability
+- Know your limitations
+- How well does your mental model match reality?
+- Have you done your due diligence?
+
+## Decide and act   
+
+- First, do not harm
+- Consider beginnings 
+- Solve it at the root
+- Focus on the important few 
+- Do one thing at a time
+- Do it with all your heart
+- Don't do anything reluctantly 
+- Worry less, act more
+- Good is better than perfect
+
+## How would your best version behave?
+
+- Balanced
+- Courageous
+- Diligent
+- Healthy 
+- Humble 
+- Light-hearted
+- Loving
+- Respectful
+
+## Know when to stop
+
+- Never miss a good chance to shut up
+
 
 
 

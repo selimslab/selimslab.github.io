@@ -20,7 +20,7 @@ People will never forget how you made them feel.
 
 Be kind, not clever [[the-kindness-principle]]
 
-Suspend judgement [[truth-has-many-faces-suspend-judgement]]
+[[truth-has-many-faces-suspend-judgement]]
 
 [[give-support-not-advice]]
 

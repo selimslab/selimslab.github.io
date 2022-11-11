@@ -5,7 +5,7 @@ tags: pro lists
 ## dependencies and packaging
 poetry - Python dependency management and packaging made easy.
 
-## logging 
+## logging 
 loguru - Library which aims to bring enjoyable logging in Python.
 
 ## static type check 
@@ -21,7 +21,7 @@ pytest - A mature full-featured Python testing tool.
 
 coverage 
 
-## linters
+## linters
 
 autoflake
 
@@ -32,7 +32,7 @@ flake8
 pylint 
 
 
-## formatting 
+## formatting 
 
 black 
 
@@ -41,11 +41,11 @@ black
 
 memory-profiler 
 
-## pre-commit checks 
+## pre-commit checks 
 
 pre-commit 
 
-## web 
+## web 
 
 flask
 
@@ -55,7 +55,7 @@ fastapi
 
 websockets - A library for building WebSocket servers and clients with a focus on correctness and simplicity.
 
-## task queues
+## task queues
 
 dramatiq - A fast and reliable background task processing library for Python 3.
 

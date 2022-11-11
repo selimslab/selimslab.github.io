@@ -12,7 +12,7 @@ Some background: For the past 30 months I’ve been working with code that has t
 
 Much has been written about the Object/Relational Impedance Mismatch. It’s hard to appreciate it until you live it. Neward, in his well known essay, lays out many cogent reasons why ORMs turn into quagmires. In my experience, I’ve had to deal directly with a fair number of them: entity identity issues, dual-schema problem, data retrieval mechanism concern, and the partial-object problem. I want to talk briefly about my experiences with these issues and add one of my own.
 
-## Partial objects, attribute creep, and foreign keys
+## Partial objects, attribute creep, and foreign keys
 
 Perhaps the most subversive issue I’ve had with ORMs is “attribute creep” or “wide tables”, that is, tables that just keep accruing attributes. As much as I’d like to avoid it, sometimes it becomes necessary (although things like Postgres’ hstore can help). For example, a client may be providing you with lots of data that they want attached to reports based on various business logic. Furthermore, you don’t have much insight into this data; you’re just schlepping it around.
 
@@ -25,7 +25,7 @@ Which leads to another bad experience: the pernicious use of foreign keys. In th
 
 Attribute creep and excessive use of foreign keys shows me is that in order to use ORMs effectively, you still need to know SQL. My contention with ORMs is that, if you need to know SQL, just use SQL since it prevents the need to know how non-SQL gets translated to SQL.
 
-## Data retrieval
+## Data retrieval
 
 Knowing how to write SQL becomes even more important when you attempt to actually write queries using an ORM. This is especially important when efficiency is a concern.
 
@@ -35,7 +35,7 @@ And if you elect to keep the query simple, you end up doing a lot of work in the
 
 In these cases, I’ve elected to write queries using a templating system and describe the tables using the ORM. I get the convenience of an application level description of the table with direct use of SQL. It’s a lot less trouble than anything else I’ve used so far.
 
-##  Dual schema dangers
+##  Dual schema dangers
 
 This one seems to be one of those unavoidable redundancies. If you try to get rid of it, you only make more problems or add excessive complexity.
 
@@ -47,7 +47,7 @@ But the damn migration issue is a real kick in the teeth: changing the model is 
 
 Thus, one is forced to ask, should you use an ORM for anything but convenience in making queries?
 
-## Identities
+## Identities
 
 Dealing with entity identities is one of those things that you have to keep in mind at all times when working with ORMs, forcing you to write for two systems while only have the expressivity of one.
 
@@ -57,7 +57,7 @@ What this results in is having to manipulate the ORM to get a database identifie
 
 I can’t even call this a leaky abstraction because the work “leak” implies small amounts of the contents escaping relative to the source.
 
-## Transactions
+## Transactions
 
 Something that Neward alludes to is the need for developers to handle transactions. Transactions are dynamically scoped, which is a powerful but mostly neglected concept in programming languages due to the confusion they cause if overused. This leads to a lot of boilerplate code with exception handlers and a careful consideration of where transaction boundaries should occur. It also makes you pass session objects around to any function/method that might have to communicate with the database.
 

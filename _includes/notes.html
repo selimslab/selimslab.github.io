@@ -2,11 +2,18 @@
     
 <article>
 
-<!-- <p>This is a collection of writings</p> -->
+<p>This is a collection of writings</p>
+
+<h2>Selected writings</h2>
+
+{% include tagpage.html tag='top' %}
+
+
+<h2>Explore all</h2>
 
 {% assign all_tags = site.documents | map: "tags"  | compact | uniq  %}
 
-<p>Explore <a href="/all-notes">{{site.documents.size}} notes</a> 
+<p><a href="/all-notes">{{site.documents.size}} notes</a> 
 
     connected with {{site.data.link_count}} backlinks 
     
@@ -24,15 +31,10 @@
         </li>
     {% endif %}
 {% endfor %}
-<li>
-    <a href="/top">Top Articles</a>
-</li>
-
 </ul> 
 
-<br>
-
 View as a <a href="/2D-Graph">2D</a> or <a href="/3D-Graph">3D</a> graph  
+
 
 
 </article>

@@ -4,7 +4,7 @@ tags: swe pro
 
 A little forethought can prevent a lot of pain 
 
-## Figure out what to work on 
+## Figure out what to work on 
 
 1. define the problem 
 2. define constrainsts

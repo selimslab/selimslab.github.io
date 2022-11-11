@@ -31,8 +31,6 @@ Question assumptions
 
 Take a break 
 
-[[know-where-to-stop]]
-
 ---
 
 Symptoms vs root cause
@@ -45,13 +43,13 @@ Test hypotheses
 
 [[take-a-walk]]
 
-
 [[critical-thinking]]
-
-
-
-![](/static/img/smart-little-people.jpeg)
 
 [[you-are-not-nameless]]
 
 [[relax-for-the-same-result]]
+
+[[know-where-to-stop]]
+
+
+![](/static/img/smart-little-people.jpeg)

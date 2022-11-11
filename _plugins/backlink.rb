@@ -57,14 +57,14 @@ class BackLinksGenerator < Jekyll::Generator
         backlinks = current_note.content.scan(/\[\[.*\]\]/)
         link_count += backlinks.length
         backlinks.each do |backlink| 
-          # parse wikilink 
+          # parse wikilink 
           match = backlink.gsub(/\[\[/, '').gsub(/\]\]/, '')
           link = "/" + match
 
           graph["links"].push({"source": id, "target": link})
           graph["links"].push({"source": link, "target": id})
 
-          # replace wikilinks
+          # replace wikilinks
           title = match.gsub(/-/, ' ').capitalize
           link = "[#{title}](#{link})"
           current_note.content = current_note.content.gsub(/#{Regexp.escape(backlink)}/, link)
@@ -96,7 +96,7 @@ class BackLinksGenerator < Jekyll::Generator
       end 
 
 
-      # graph["nodes"] = graph["nodes"].values
+      # graph["nodes"] = graph["nodes"].values
       File.open("./assets/data/graph.json","w") do |f|
         f.write(graph.to_json)
       end

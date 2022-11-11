@@ -28,7 +28,7 @@ a balanced tree + SS Tables + periodical merging -> LSM tree
 2. after a certain size, flush the tree to an SS table and delete the discard the recovery log  
 3. periodically merge the SS Tables in the background 
 
-### Advantages 
+### Advantages 
 
 Lower write amplification, better disk life 
 
@@ -39,7 +39,7 @@ Localized data, less unused disk space
 Better compression, smaller files 
 
 
-### Disadvantages 
+### Disadvantages 
 
 Less stable response times in higher percentiles 
 

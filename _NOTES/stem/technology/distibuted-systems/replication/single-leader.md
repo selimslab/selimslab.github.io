@@ -19,7 +19,7 @@ More tricky
 3. Make sure each node recognizes the new leader and the old leader accepts that its a follower now 
 
 
-## Lag Problems 
+## Lag Problems 
 
 1. Read your writes 
 2. Monotonic reads, you should not read an older value than they have seen 

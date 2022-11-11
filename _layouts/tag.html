@@ -8,8 +8,10 @@ layout: default
     <h1>{{ page.title }}</h1>
 
     {{ content }}
+    
+    {% assign tag=page.tags[0] %}
 
-    {% include tagpage.html %}
+    {% include tagpage.html tag=tag %}
 
 </article>
 

@@ -41,7 +41,7 @@ for i in range(10):
 
 d.pop() # 9
 
-d.popleft() # 0
+d.popleft() # 0
 ```
 
 

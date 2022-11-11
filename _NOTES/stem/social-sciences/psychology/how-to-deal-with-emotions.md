@@ -1,35 +1,10 @@
 ---
-tags: phil top
+tags: psy skills
 ---
 
-## Good habits, good life
-- Sleep, sun, exercise 
-- More time with friends and family 
-- [[listen-well]]
-- [[speak-well]]
-- Complain less, appreciate more
-- Judge less, accept more
-- Live here and now
+Watch them gather and disperse like waves and clouds 
 
-## Do well  
-
-- First, do not harm
-- Focus on the important few 
-- Consider beginnings 
-- Solve it at the root
-- Look below the surface
-- Less certainty, more probability
-- Know your limitations
-- Do one thing at a time
-- Do it with all your heart or don't 
-- Worry less, act more
-- Good is better than perfect
-
-
-# Emotions
-- Watch them gather and disperse like waves and clouds 
-
-- Anger, arrogance, and desire make you their slave, choose freedom 
+Anger, arrogance, and desire make you their slave, choose freedom 
 
 ## Angry? 
 - What is bothering me? Is it the situation or my interpretation of it? 
@@ -47,7 +22,7 @@ tags: phil top
 - Does it look like delusions of a weak mind? 
 - Why show contempt instead of being happy with using your good qualities?
 
-## Desiring?
+## Desiring?
 - If you can get it without harm, go for it 
 - No desire is free, you pay with your life and peace of mind 
 - Need little, want less
@@ -73,22 +48,4 @@ tags: phil top
 - Is it unending? 
 - Is this the worst possible pain? 
 - Can I use pain to refine my courage and strength of mind? 
-
-
-## How would your best version behave?
-
-- Balanced
-- Courageous
-- Diligent
-- Healthy 
-- Humble 
-- Light-hearted
-- Loving
-- Respectful
-
-
-## Know when to stop
-
-- Never miss a good chance to shut up
-
 
