@@ -7,5 +7,4 @@ Opportunity - Risk
 
 Optimism - Prudence 
 
-
 [[ambivalence]]

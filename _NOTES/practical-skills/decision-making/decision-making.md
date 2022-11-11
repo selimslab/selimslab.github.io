@@ -2,9 +2,13 @@
 tags: psy skills
 ---
 
+We often make even major decisions carelessly
 
+A little forethought can prevent a lot of pain  
 
-If you first clarify your principles in life, you will decide easily  
+---
+
+Principles make deciding easy   
 
 [[philosophy]]
 
@@ -12,10 +16,7 @@ If you first clarify your principles in life, you will decide easily
 
 [[critical-thinking]]
 
----
-
 Solve physical needs before deciding, eg. [[take-a-walk]]
-
 
 [[do-nothing-against-your-will]]
 
@@ -27,35 +28,19 @@ Solve physical needs before deciding, eg. [[take-a-walk]]
 
 [[experience-over-material]]
 
----
 
-We make even major decisions carelessly
-
-a little forethought can prevent a lot of pain later. 
-
----
-
-Understand the fundemantals
-
-Think long term 
-
-Consider unintended consequences
-
----
 
 Identify emotions 
 
 Define goals, inputs, and deadline 
 
-Create a process 
-
-Go through it with people you respect
+Go through a process with people you respect
 
 ---
 
-Consider second-order and third-order consequences. 
+Think long term 
 
-It is easier to stay out than get out.
+Consider second-order and third-order consequences. 
 
 Do not sell your future. 
 
@@ -64,6 +49,8 @@ Do not sell your future.
 Never lie to yourself
 
 “When there is doubt, there is no doubt.”
+
+It is easier to stay out than get out.
 
 ---
 
@@ -75,7 +62,6 @@ Make a move, don't stuck
 
 [[systems]] thinking
 
-
 [[common-causes-of-bad-decisions]]
 
-If you choose not to decide, you still made a choice - Descartes ~~
+If you choose not to decide, you still made a choice - Descartes 

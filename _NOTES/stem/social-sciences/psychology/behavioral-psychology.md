@@ -6,8 +6,6 @@ tags: psy
 
 ![](/static/img/the-spotlight-effect.jpeg)
 
-[[empathy-decrease-with-numbers]]
-
 [[emotional-hot-potato]]
 
 [[cognitive-biases]]

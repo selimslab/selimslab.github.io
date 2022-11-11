@@ -23,6 +23,7 @@ class BackLinksGenerator < Jekyll::Generator
       link_count = 0 
 
       site.documents.each do |current_note|
+
         notes_linking_to_current_note = site.documents.filter do |e|
             id = "[" + current_note.id.gsub(/\//, '') + "]"
             e.content.include?(id)
@@ -76,6 +77,7 @@ class BackLinksGenerator < Jekyll::Generator
       
       graph["links"].each {
         |link|
+
           source = link[:source]
           target = link[:target]
 

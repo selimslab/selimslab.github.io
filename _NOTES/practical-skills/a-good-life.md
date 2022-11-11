@@ -10,9 +10,10 @@ tags: phil skills top
 - More time with friends and family 
 - [[focus-on-what-is-in-your-control]]
 - [[communication]]
+- [[learning]]
 
 ## Emotions 
-- [[how-to-deal-with-emotions]]
+- [[emotions]]
 - [Good social relationships, good life (video)](https://youtu.be/8KkKuTCFvzI?list=FLwnL1ngkxfNFBPIXpHm2A2A…)
 
 ## Live here and now
@@ -37,14 +38,22 @@ tags: phil skills top
 - Do it with all your heart
 - Worry less, act more
 - Good is better than perfect
+- [[decision-making]]
+- [[problem-solving]]
+- [[get-things-done]]
+- [[leadership]]
+- [[practical-skills]]
 
 ## How would your best version behave?
 
-- Balanced
+- Balanced [[golden-mean]]
 - Courageous
-- Diligent
+- Diligent [[acta-non-verba]]
+
+- Fair 
 - Healthy 
 - Humble 
+
 - Light-hearted
 - Loving
 - Respectful

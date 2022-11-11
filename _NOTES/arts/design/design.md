@@ -15,7 +15,7 @@ tags: arts skills
 
 [[ship-it]]
 
----
+
 
 Good design resembles a likable person: respectful, generous and helpful.
 
