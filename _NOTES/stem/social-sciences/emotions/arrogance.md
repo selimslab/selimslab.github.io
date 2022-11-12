@@ -4,7 +4,6 @@
 
 Confident people are humble. Arrogance is a weakness. 
 
-
 - Are you more important than others? 
 - Are they not also living beings? 
 - Are they worthless or beneath you? 
