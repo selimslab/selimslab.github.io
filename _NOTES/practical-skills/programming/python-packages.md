@@ -1,5 +1,5 @@
 ---
-tags: pro lists
+tags: pro
 ---
 
 ## dependencies and packaging
