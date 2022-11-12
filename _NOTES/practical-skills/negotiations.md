@@ -65,6 +65,4 @@ non round numbers
 
 Confirm execution with how questions, summaries and labels
 
-
-
-
+![](/static/img/arguments-dilute.png)

@@ -13,3 +13,5 @@ Speak clearly, with enthusiasm
 Keep it short and sweet 
 
 ![](/static/img/short-speeches.png)
+
+![](/static/img/peak-end-rule.jpeg)
