@@ -1,5 +1,5 @@
 ---
-title: Heuristics for life 🏛️ 
+title: Some heuristics 🏛️ 
 tags: phil skills essais top 
 ---
 
