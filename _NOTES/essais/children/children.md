@@ -3,7 +3,8 @@ title: On children
 tags: psy skills essais top
 ---
 
-[[lead-by-example]]
+
+Lead by example, children don't listen to words but they pay close attention to actions  
 
 [[take-children-seriously]]
 

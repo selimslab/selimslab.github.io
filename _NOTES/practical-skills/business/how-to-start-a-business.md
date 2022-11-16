@@ -24,12 +24,6 @@ tags: skills bus essais top
 
 [[leadership]]
 
-[[four-mistakes-of-managers]]
-
-[[not-all-important-things-are-measurable]]
-
-[[dysfunctional-orgs]]
-
 [[good-ideas-are-in-plain-sight]]
 
 In writing or people say it didn't happen when it is convenient 
