@@ -1,6 +1,6 @@
 ---
-title:  For new programmers 👩🏿‍💻 
-tags: pro
+title: For new programmers 👩🏿‍💻 
+tags: pro top 
 ---
 
 [Crash Course Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
@@ -67,4 +67,4 @@ Meet the terminal, ls, cd, mv, top, mkdir, touch, cat, sort, grep, rm
 
 [[programming]]
 
-[[mastery-comes-from-focus]]
+[[mastery]]

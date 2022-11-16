@@ -1,3 +1,0 @@
----
----
-[[cognitive-biases]

@@ -1,7 +1,6 @@
 ---
-tags: skills
+tags: phil
 ---
-
 
 You write your life with actions, not words 
 

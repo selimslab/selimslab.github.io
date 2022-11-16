@@ -1,7 +1,7 @@
 ---
 ---
 
-People can’t read minds, explain yourelf 
+People can’t read minds, explain yourself 
 
 Something being obvious to you doesn't mean it's obvious to them 
 

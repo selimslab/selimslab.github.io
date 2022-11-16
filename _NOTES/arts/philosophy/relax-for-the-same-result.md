@@ -1,7 +1,7 @@
 ---
 ---
 
-From <sive.rs/relax>
+From <https://sive.rs/relax>
 
 ---
 

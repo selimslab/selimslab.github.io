@@ -77,7 +77,6 @@ class BackLinksGenerator < Jekyll::Generator
       
       graph["links"].each {
         |link|
-
           source = link[:source]
           target = link[:target]
 

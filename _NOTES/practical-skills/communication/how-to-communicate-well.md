@@ -8,8 +8,6 @@ tags: skills
 
 [[speak-well]]
 
-[[dress-well]]
-
 [[communication-killers]]
 
 [[public-speaking]]

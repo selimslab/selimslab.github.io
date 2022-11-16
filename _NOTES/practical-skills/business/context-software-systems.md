@@ -25,7 +25,7 @@ Discontinued after two years to pursue other opportunities,
 
 Starting a business is a great way to create value
 
-It has also a lot of overhead and sometimes I felt like butter spread over too much bread -> [[mastery-comes-from-focus]] 
+It has also a lot of overhead and sometimes I felt like butter spread over too much bread -> [[mastery]] 
 
 Overall it is less comfortable yet more exciting 
 

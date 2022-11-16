@@ -33,10 +33,6 @@ It won't be as good as you hope, nor as bad as you fear
 [[familiar-and-original]]
 
 
-
-
----
-
 Mistakes of others are easier to notice than our own 
 
 We believe we are better than we are. 19% think they’re in the top 1% of earners, 95% of professors think they’re better than average

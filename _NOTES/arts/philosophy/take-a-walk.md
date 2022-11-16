@@ -14,8 +14,6 @@ Grinding your wheels won't solve your problem
 
 Give your mind some space 
 
-Take a walk
-
 ---
 
 Solvitur ambulando, its solved by walking 
