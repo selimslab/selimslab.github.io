@@ -1,5 +1,5 @@
 ---
-tags: skills
+tags: psy
 ---
 
 Social skills naturally arise from genuine empathy 

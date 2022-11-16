@@ -1,5 +1,5 @@
 ---
-title: Walk slowly but walk 🐢
+title:
 tags: phil
 ---
 

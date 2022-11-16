@@ -1,4 +1,5 @@
 ---
+tags: psy
 ---
 
 - If you can get it without harm, go for it 

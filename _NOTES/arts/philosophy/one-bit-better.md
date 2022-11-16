@@ -6,4 +6,7 @@
 
 [[lightly-child]]
 
-[[walk-slowly-but-walk]]
+Start from your head, heart, and hands, and then work outward 
+
+Walk slowly but walk 🐢
+

@@ -2,6 +2,7 @@
 tags: essais skills top
 ---
 
+
 1. Define [[what-to-work-on]] and why
 2. Start small
 3. Plan
@@ -10,10 +11,12 @@ tags: essais skills top
 6. Delegate
 7. Get feedback early and often
 8. Set up small checkpoints
-9. Draw a deadline
+9. Suit your brains rhythm, if it peaks at [[the-morning]], then spare the most important work for then 
 10. Start the day by working on your top goals
 11. If less than 2 mins, do it right away
+9. Draw a deadline
 12. Batch work
+13. [[flow]] happens when the task slightly exceeds your skill level 
 13. [[take-a-walk]]
 14. Prepared, focused, short meetings
 15. [[do-it-with-all-your-heart]]

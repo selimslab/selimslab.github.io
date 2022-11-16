@@ -1,4 +1,5 @@
 ---
+tags: psy
 ---
 
 
@@ -11,3 +12,5 @@ Confident people are humble. Arrogance is a weakness.
 - Why show contempt instead of being happy with using your good qualities?
 - Do you have to prove something?
 - Do you need to pretend to be more than you are?
+
+[[humility]]

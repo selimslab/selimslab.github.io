@@ -13,6 +13,4 @@ tags: psy
 
 Anger is the collision of hope and reality
 
-sad AND unexpected -> anger
-
-Expect less, stay calmer 
+sad + unexpected -> anger

@@ -1,102 +1,93 @@
 ---
 title: Cognitive Biases   
-tags: psy
+tags: psy top 
 ---
 
 
-We tend to do what is quick, easy, and comfortable over doing the important 
+1. We tend to do what is quick, easy, and comfortable over doing the important 
 
-We mistake the limits of our vision as the limits of the world 
+2. We mistake the limits of our vision as the limits of the world 
 
-Environment affects us more than we suspect
+3. Environment affects us more than we suspect
 
-We fear what we don’t understand 
+4. We fear what we don’t understand 
 
-We jump to conclusions, judge, and oversimplify 
+5. We jump to conclusions, judge, and oversimplify 
 
-Emotions make decisions. Reason comes later and justifies.
+6. Emotions make decisions. Reason comes later and justifies.
 
-We exaggerate
+7. We exaggerate
 
-Familiar seems better, but it's not 
+8. Familiar seems better 
 
-It won't be as good as you hope, nor as bad as you fear 
+9. It won't be as good as you hope, nor as bad as you fear 
 
-[[framing]]
+10. Mistakes of others are easier to notice than our own 
 
-[[local-maximum]]
+11. We can't read minds
 
-[[overvaluing-short-term]]
+12. We see what we want to see
 
-[[people-see-what-they-want]]
+13. We believe what we want to believe 
 
-[[familiar-and-original]]
+14. People like you more than you know 
 
+15. People think about you way less than you believe 
 
-Mistakes of others are easier to notice than our own 
+16. Sunk cost 
 
-We believe we are better than we are. 19% think they’re in the top 1% of earners, 95% of professors think they’re better than average
+17. Anchoring
 
-We can't read minds
+18. Social Proof (Safety in Numbers)
 
-We see what we want to see
+19. Narrative Instinct -> Stories run the world
 
-We believe what we want to believe 
+20. Tendency to Overgeneralize from Small Samples
 
-People like you more than you know 
+21. Hindsight Bias
 
-People think about you way less than you believe 
+22. Sensitivity to Fairness
 
----
+23. Survivorship Bias
 
-Sunk cost 
+24. Pavlovian Association
 
-Anchoring
+25. Tendency to Distort Due to Liking Loving or Disliking/Hating
 
-Social Proof (Safety in Numbers)
+26. Rich-man in the car paradox 
 
-Narrative Instinct -> Stories run the world
+27. Earned success and deserved failure fallacy
 
-Tendency to Overgeneralize from Small Samples
+28. Tendency to Feel Envy & Jealousy
 
-Hindsight Bias
+29. Availability Heuristic
 
-Sensitivity to Fairness
+30. Tendency to Stereotype
 
-Survivorship Bias
+31. Failure to learn from the past
 
-Pavlovian Association
+32. Relative Satisfaction/Misery
 
-Tendency to Distort Due to Liking Loving or Disliking/Hating
+33. Commitment & Consistency Bias
 
-Rich man in the car paradox 
+34. Tendency to Want to Do Something
 
-Earned success and deserved failure fallacy
+35. First-Conclusion Bias
 
-Tendency to Feel Envy & Jealousy
+36. [[bias-for-unhappiness]]
 
-Availability Heuristic
+39. [[overvaluing-short-term]]
 
-Tendency to Stereotype
+40. People see what they look for, and hear what they listen for.
 
-Failure to learn from the past
+41. People are both curious and afraid of new things so a familiar thing in an original setting is interesting.
 
-Relative Satisfaction/Misery
+42. We believe we are better than we are. 19% think they’re in the top 1% of earners, 95% of professors think they’re better than average
 
-Commitment & Consistency Bias
-
-Tendency to Want to Do Something
-
-First-Conclusion Bias
-
-
-[[unhappiness-some-reasons]]
-
+Also see
 
 <https://www.clearerthinking.org/tools-and-mini-courses>
 
-
-![](/static/img/present-bias.jpeg)
-
 <https://sketchplanations.com/tags/cognitive-bias>
 
+[[behavioral-psychology]]

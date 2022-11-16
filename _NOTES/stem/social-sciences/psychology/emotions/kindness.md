@@ -1,4 +1,5 @@
 ---
+tags: psy phil 
 ---
 
 To be considerate and humane
