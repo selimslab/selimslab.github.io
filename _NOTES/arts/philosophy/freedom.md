@@ -16,3 +16,5 @@ The price of freedom is dear yet worth it
 "In this age, the mere example of non-conformity is a service" John Stuart Mill 
 
 “What destroys a man more quickly than to work, think, and feel without inner necessity, without any deep personal desire, without pleasure — as a mere automaton of duty?” – Friedrich Nietzsche, The Antichrist
+
+[[character]]

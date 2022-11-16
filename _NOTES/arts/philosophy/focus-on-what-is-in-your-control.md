@@ -8,8 +8,9 @@ Do what you can, now and here
 
 Don't worry about the rest 
 
-[[act-instead-of-worrying]]
+Worrying doesn’t make it one bit better
 
-[[mastery-comes-from-focus]] and focus comes from saying no 
+Use your energy to act instead
 
-[[steve-jobs-on-focus]]
+[[mastery-comes-from-focus]] and focus comes from saying no to many good ideas to pursue important ones 
+

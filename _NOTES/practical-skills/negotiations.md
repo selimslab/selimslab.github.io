@@ -10,8 +10,6 @@ The listener is in charge
 
 Empathy 
 
-[[socratic-method]]
-
 Build rapport, stay positive and constructive
 
 Pay attention, body langauge, voice, little nuances
@@ -40,12 +38,11 @@ Led them to solve your problem using what and how
 
 A different authority, another stake-holder
 
-[[look-below-the-surface]]
-
+[[critical-thinking]]
 
 [[the-point-is-winning-without-fighting]]
 
-Its not battle, its discovery 
+It's not battle, its discovery 
 
 Anchors
 
@@ -60,6 +57,8 @@ Loss aversion
 
 
 65 85 95 100% 
+
+20-10-5
 
 non round numbers 
 

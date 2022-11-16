@@ -5,45 +5,45 @@ tags: skills
 
 define what you want
 
-do one thing and do it well 
+[[do-one-thing-and-do-it-well]]
 
 plan 
 
 prioritize
 
-do it with all your heart 
+Do it with all your heart
 
-start small 
+Start small 
 
-make a lot of mistakes
+Make a lot of mistakes
 
-do less
+Do less
 
-sleep 
+Sleep 
 
-drink water
+Drink water
 
-take a walk 
+Take a walk 
 
-talk to a friend
+Talk to a friend
 
-say no 
+Say no  
 
-manage your attention
+Manage your attention
 
-rely on habits and systems 
+Rely on habits and systems 
 
-write more 
+Write more 
 
-work short, focused intervals and rest 
+Work short, focused intervals and rest 
 
-prevent the worst 
+Prevent the worst 
 
-keep going 
+Keep going 
 
-ignore sunk costs 
+Ignore sunk costs 
 
-just start 
+Just start 
 
 ---
 
@@ -85,8 +85,6 @@ Dare to say "I don't know"
 If you're perfectly qualified to do something, you've already outgrown it
 
 Half doing something is an expensive way of not doing it
-
-Do it with all your heart
 
 Think before you do, plan before you start.
 

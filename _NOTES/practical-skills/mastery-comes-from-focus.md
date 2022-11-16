@@ -15,5 +15,6 @@ You don't level up by switching games all the time, but by sticking with one lon
 
 [[better-dev-by-hickey]]
 
+[[steve-jobs-on-focus]]
 
 

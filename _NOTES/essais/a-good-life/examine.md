@@ -6,3 +6,5 @@
 - Know your limitations
 - How well do your mental models match reality?
 - Have you done your due diligence?
+- [[critical-thinking]]
+- [[systems]] thinking

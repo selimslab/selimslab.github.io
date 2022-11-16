@@ -3,15 +3,15 @@ title: On Character
 tags: phil essais 
 ---
 
-Real growth is building character, striving to improve in generosity, integrity, humility, fairness, courage, .. 
+Real growth is building character, 
 
-[[act-instead-of-worrying]]
+Striving to improve in generosity, integrity, humility, fairness, courage, .. 
 
-[[character-worths-the-world]]
+Our actions and thoughts shape us slowly,
 
-[[do-what-is-right]]
+[[do-what-is-right-not-what-is-easy]]
 
-[[do-nothing-against-your-will]]
+[[do-it-with-all-your-heart]]
 
 [[do-not-regret-mistakes]]
 

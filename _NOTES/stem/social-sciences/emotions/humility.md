@@ -1,4 +1,0 @@
----
----
-
-Admitting mistakes is endearing 

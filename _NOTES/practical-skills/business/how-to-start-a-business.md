@@ -20,7 +20,7 @@ tags: skills bus essais
 
 [[creativity]]
 
-[[communication]]
+[[how-to-communicate-well]]
 
 [[how-to-pitch]]
 
