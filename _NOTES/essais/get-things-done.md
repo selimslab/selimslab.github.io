@@ -16,6 +16,7 @@ tags: essais skills top
 11. If less than 2 mins, do it right away
 9. Draw a deadline
 12. Batch work
+13. Use checklists 
 13. [[flow]] happens when the task slightly exceeds your skill level 
 13. [[take-a-walk]]
 14. Prepared, focused, short meetings
