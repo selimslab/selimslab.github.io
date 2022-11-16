@@ -21,3 +21,5 @@ There will be no heroics, and I will go gentle into that good night. Like my men
 The present moment is all we have, no one can lose the past or the future, for how can one lose something that's not theirs? 
 
 Then the longest and the shortest life are the same, for you can only lose the present moment 
+
+[[life-is-not-short]] 

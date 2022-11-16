@@ -1,5 +1,5 @@
 ---
-title: Communicate well 
+title: On communication  
 tags: skills
 ---
 

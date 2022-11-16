@@ -1,8 +1,7 @@
 ---
 title: Rich Hickey on becoming a better developer
+tags: pro
 ---
-
-Sorry, I have to disagree with the entire premise here.
 
 A wide variety of experiences might lead to well-roundedness, but not to greatness, nor even goodness. By constantly switching from one thing to another you are always reaching above your comfort zone, yes, but doing so by resetting your skill and knowledge level to zero.
 

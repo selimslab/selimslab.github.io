@@ -11,7 +11,7 @@ tags: essais skills top
 6. Delegate
 7. Get feedback early and often
 8. Set up small checkpoints
-9. Suit your brains rhythm, if it peaks at [[the-morning]], then spare the most important work for then 
+9. Know your brains rhythm, if it peaks in [[the-morning]], then spare the most important work for then 
 10. Start the day by working on your top goals
 11. If less than 2 mins, do it right away
 9. Draw a deadline

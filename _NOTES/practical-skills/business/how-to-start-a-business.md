@@ -18,7 +18,7 @@ tags: skills bus essais top
 
 [[creativity]]
 
-[[how-to-communicate-well]]
+[[communication]]
 
 [[how-to-pitch]]
 

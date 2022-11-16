@@ -1,5 +1,5 @@
 ---
-tags: psy skills
+tags: psy
 ---
 
 1. It is not personal 

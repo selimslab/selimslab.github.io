@@ -1,5 +1,4 @@
 ---
-title: How to decide well? 
 tags: psy skills top
 ---
 
