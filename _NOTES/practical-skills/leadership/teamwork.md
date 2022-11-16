@@ -1,18 +1,19 @@
 ---
 ---
 
-Surgical team 
+Respect and trust among members 
 
-Cover weaknesses 
+Everyone on the team should share the goal 
 
-Amplify strengths
+Highly trained and talented leaders, autonomous in decisions of their area 
 
-Friendship 
+Discipline, consistency, and certainty in reward and punishment 
 
-Respect 
+Obeyable orders
 
-Trust 
+The right person in the right place 
 
-A team can be better than sum of its parts
+Harmony in team
+ 
+Such a team is like a surgical team, covers weaknesses, and amplifies strengths. It's more than the sum of its parts 
 
-[[teamwork-in-the-art-of-war]]

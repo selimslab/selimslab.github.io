@@ -12,7 +12,7 @@ _The Silent Void_
 
 ##### Thus spake the Master Programmer:
 
-**"When you have learned to snatch the error code from the trap frame, it will be time for you to leave."**
+"When you have learned to snatch the error code from the trap frame, it will be time for you to leave."
 
 * * *
 
@@ -70,7 +70,7 @@ _The Ancient Masters_
 
 ##### Thus spake the Master Programmer:
 
-**"After three days without programming, life becomes meaningless."**
+"After three days without programming, life becomes meaningless."
 
 * * *
 
@@ -123,7 +123,7 @@ _Design_
 
 ##### Thus spake the Master Programmer:
 
-**"When a program is being tested, it is too late to make design changes."**
+"When a program is being tested, it is too late to make design changes."
 
 * * *
 
@@ -190,7 +190,7 @@ _Coding_
 
 ##### Thus spake the Master Programmer:
 
-**"A well-written program is its own Heaven; a poorly-written program is its own Hell."**
+"A well-written program is its own Heaven; a poorly-written program is its own Hell."
 
 * * *
 
@@ -259,7 +259,7 @@ _Maintenance_
 
 ##### Thus spake the Master Programmer:
 
-**"Though a program be but three lines long, someday it will have to be maintained."**
+"Though a program be but three lines long, someday it will have to be maintained."
 
 * * *
 
@@ -316,7 +316,7 @@ _Management_
 
 ##### Thus spake the Master Programmer:
 
-**"Let the programmers be many and the managers few -- then all will be productive."**
+"Let the programmers be many and the managers few -- then all will be productive."
 
 * * *
 
@@ -372,7 +372,7 @@ _Corporate Wisdom_
 
 ##### Thus spake the Master Programmer:
 
-**"You can demonstrate a program for a corporate executive, but you can't make him computer literate."**
+"You can demonstrate a program for a corporate executive, but you can't make him computer literate."
 
 * * *
 
@@ -423,7 +423,7 @@ _Hardware and Software_
 
 ##### Thus spake the Master Programmer:
 
-**"Without the wind, the grass does not move. Without software hardware is useless."**
+"Without the wind, the grass does not move. Without software hardware is useless."
 
 * * *
 
@@ -478,6 +478,6 @@ _Epilogue_
 
 ##### Thus spake the Master Programmer:
 
-**"Time for you to leave."**
+"Time for you to leave."
 
 * * *
