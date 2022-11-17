@@ -9,7 +9,11 @@ Highly trained and talented leaders, autonomous in decisions of their area
 
 Discipline, consistency, and certainty in reward and punishment 
 
-Obeyable orders
+Explain the [intent](https://en.wikipedia.org/wiki/Intent_(military))
+
+People adopt a decision better if they are convinced or at least if they know the reasons behind
+
+Be transparent and fair  
 
 The right person in the right place 
 
