@@ -1,6 +1,6 @@
 ---
-title: Technology
+title: Technology 🚲
 layout: tag
-tags: tech stem 
+tags: tech stem root
 ---
 

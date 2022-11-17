@@ -42,7 +42,13 @@ tags: psy top
 
 19. Narrative Instinct -> Stories run the world
 
+43. Simple explanations are appealing even when they’re wrong.
+
+45. Something can be factually true but contextually nonsense.
+
 20. Tendency to Overgeneralize from Small Samples
+
+23. Reputations have momentum in both directions, because people want to associate with winners and avoid losers.
 
 21. Hindsight Bias
 
@@ -53,6 +59,8 @@ tags: psy top
 24. Pavlovian Association
 
 25. Tendency to Distort Due to Liking Loving or Disliking/Hating
+
+38. Reputations have momentum in both directions, because people want to associate with winners and avoid losers.
 
 26. Rich-man in the car paradox 
 
@@ -78,11 +86,12 @@ tags: psy top
 
 39. [[overvaluing-short-term]]
 
-40. People see what they look for, and hear what they listen for.
+40. People see what they look for, and hear what they listen for. "Show me a man who thinks he’s objective and I’ll show you a man who’s deceiving himself."
 
 41. People are both curious and afraid of new things so a familiar thing in an original setting is interesting.
 
 42. We believe we are better than we are. 19% think they’re in the top 1% of earners, 95% of professors think they’re better than average
+
 
 Also see
 

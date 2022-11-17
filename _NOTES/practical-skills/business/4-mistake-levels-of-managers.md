@@ -5,6 +5,6 @@
 
 2. Single management style, mostly the style in which you prefer to be managed, hiring people like yourself
 
-3. All business, views people as "resources" 
+3. All-business, viewing people as "resources" 
 
 4. Not listening well, not asking the right questions, impatience 

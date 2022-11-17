@@ -31,7 +31,7 @@ Make sure that every area of responsibility has a definite owner
 
 [[44-engineering-management-lessons]]
 
-[[4-mistakes-of-managers]]
+[[4-mistake-levels-of-managers]]
 
 Lead by inspiration 
 

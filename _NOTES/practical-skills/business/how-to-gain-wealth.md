@@ -61,3 +61,5 @@ An army of robots is available - it's packed in data centers for heat and space 
 ---
 
 When you're finally wealthy, you'll realize that it wasn't what you were seeking in the first place. But that's for another day.
+
+[[how-to-start-a-business]]

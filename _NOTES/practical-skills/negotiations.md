@@ -1,5 +1,5 @@
 ---
-tags: psy skills pols
+tags: psy skills pols essais 
 ---
 
 1. No prep, no win 

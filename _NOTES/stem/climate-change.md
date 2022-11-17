@@ -1,14 +1,17 @@
 ---
-tags: stem
+tags: stem top 
 ---
 
 This is a social problem
 
-The Earth is the only home we have in the cold, dark, indifferent space
+The Earth is the only home we have in a cold, dark, indifferent space
 
-Only if we could stop burning our home 
+And we can't help burning it
 
+We need to produce clean energy, consume less, and protect nature
 
-also see 
+Habitats heal when protected, Barack Obama's "Our Great National Parks" is full of examples 
 
-<http://worrydream.com/ClimateChange/>
+May oceans, forests, mountains, and every living being be safe from our harm and greed 
+ 
+[What can a technologist do?](http://worrydream.com/ClimateChange/)
