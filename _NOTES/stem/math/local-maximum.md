@@ -1,5 +1,8 @@
 ---
+tags: math algorithms 
 ---
+
+![](/static/img/beware-local-optimisation.jpeg)
 
 From <https://cdixon.org/2009/09/19/climbing-the-wrong-hill>
 
