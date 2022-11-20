@@ -9,14 +9,13 @@
 
 [[concise-communication]]
 
+[[the-best-story-wins]]
+
 Style matters
 
 Breath, voice, tone 
 
-monolog vs dialog
-
-
-[[the-best-story-wins]]
+Monolog vs dialog
 
 Sharing frequently organizes your thoughts
 

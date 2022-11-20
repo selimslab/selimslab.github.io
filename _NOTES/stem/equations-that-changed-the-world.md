@@ -1,5 +1,5 @@
 ---
-tags: stem
+tags: math stem
 ---
 
 

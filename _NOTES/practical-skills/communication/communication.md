@@ -1,5 +1,5 @@
 ---
-title: Communicate well 
+title: On communication  
 tags: skills
 ---
 
@@ -8,15 +8,7 @@ tags: skills
 
 [[speak-well]]
 
-[[insight-and-strength]]
+[[communication-killers]]
 
-[[dress-well]]
-
----
-
-"It takes years to become a great engineer, designer, writer, painter.
-
-But it only takes days to become communicative, reliable, and nice to be around"
-
-
+[[public-speaking]]
 

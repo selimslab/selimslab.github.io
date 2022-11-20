@@ -43,6 +43,4 @@ Never interrupt your enemy when he is making a mistake.
 
 [[warfare-is-deception]]
 
-[[look-below-the-surface]]
-
 

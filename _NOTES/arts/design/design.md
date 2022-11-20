@@ -1,52 +1,24 @@
 ---
-tags: arts skills essais
+title: On design 
+tags: arts skills essais top
 --- 
   
 
-[[know-thy-user]]
-
-[[do-one-thing-and-do-it-well]]
-
-[[in-praise-of-testing]]
-
-[[good-design-is-invisible]]
-
-[[design-simplicity]]
-
-[[ship-it]]
-
-[[creativity]]
-
-
-
-Good design resembles a likable person: respectful, generous and helpful.
-
-Take hints from the past
-
-Be mindful of emotions, soothe fears, use nostalgia, give hope 
-
----
-
-Get the specifications right
-
-
----
-
-Do today's work, tomorrow might turn out differently  
-
----
-
-double diamond 
-
-divergence - convergence
-
-Design for failure,
-
-Make things work well even when things do not go as planned.
-
-Design can be evil, too [[hijacked-minds]]
-
-also see [[steve-jobs-on-design]]
+1. [[know-thy-user]]
+2. Get the specifications right
+3. Do today's work, tomorrow might turn out differently  
+4. Make things work well even when things do not go as planned
+2. [[do-one-thing-at-a-time-and-do-it-well]]
+3. [[in-praise-of-testing]]
+4. [[good-design-is-invisible]]
+5. [[design-simplicity]]
+6. [[ship-it]]
+7. [[creativity]]
+8. Good design resembles a likable person: respectful, generous and helpful.
+2. Take hints from the past
+3. Be mindful of emotions, soothe fears, use nostalgia, give hope 
+5. [[steve-jobs-on-design]]
+4. Design can be evil [[hijacked-minds]]
 
 
 

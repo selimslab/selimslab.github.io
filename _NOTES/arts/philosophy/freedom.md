@@ -7,12 +7,18 @@ The price of freedom is dear yet worth it
 
 [[you-can-always-choose-your-way]]
 
-[[freedom-is-success]]
+Freedom is to have time for yourself and your loved ones, to be your master
 
-[[freedom-is-to-conquer-your-darkside]]
+Freedom is to conquer your dark side, your anger, greed, pride, ..
 
 "He who does not move, does not notice his chains"
 
 "In this age, the mere example of non-conformity is a service" John Stuart Mill 
 
 “What destroys a man more quickly than to work, think, and feel without inner necessity, without any deep personal desire, without pleasure — as a mere automaton of duty?” – Friedrich Nietzsche, The Antichrist
+
+[[character]]
+
+[[free-will]]
+
+

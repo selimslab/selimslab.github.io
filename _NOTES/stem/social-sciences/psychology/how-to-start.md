@@ -11,7 +11,6 @@ Some are more preferable than others
 
 For example, curiosity depends on hope 
 
-Ask a question and set out to answer it
 
 This is also the gist of scientific method 
 

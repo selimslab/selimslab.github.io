@@ -2,7 +2,7 @@
 ---
 
 
-Hire people you’d work for 
+Hire people you would work for, people you trust and respect 
 
 You won't be disappointed by hiring someone who is less technical but is a great human who cares for others
 

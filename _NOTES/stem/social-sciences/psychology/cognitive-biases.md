@@ -1,106 +1,102 @@
 ---
 title: Cognitive Biases   
-tags: psy
+tags: psy top 
 ---
 
 
-We tend to do what is quick, easy, and comfortable over doing the important 
+1. We tend to do what is quick, easy, and comfortable over doing the important 
 
-We mistake the limits of our vision as the limits of the world 
+2. We mistake the limits of our vision as the limits of the world 
 
-Environment affects us more than we suspect
+3. Environment affects us more than we suspect
 
-We fear what we don’t understand 
+4. We fear what we don’t understand 
 
-We jump to conclusions, judge, and oversimplify 
+5. We jump to conclusions, judge, and oversimplify 
 
-Emotions make decisions. Reason comes later and justifies.
+6. Emotions make decisions. Reason comes later and justifies.
 
-We exaggerate
+7. We exaggerate
 
-Familiar seems better, but it's not 
+8. Familiar seems better 
 
-It won't be as good as you hope, nor as bad as you fear 
+9. It won't be as good as you hope, nor as bad as you fear 
 
-[[framing]]
+10. Mistakes of others are easier to notice than our own 
 
-[[local-maximum]]
+11. We can't read minds
 
-[[overvaluing-short-term]]
+12. We see what we want to see
 
-[[people-see-what-they-want]]
+13. We believe what we want to believe 
 
-[[familiar-and-original]]
+14. People like you more than you know 
+
+15. People think about you way less than you believe 
+
+16. Sunk cost 
+
+17. Anchoring
+
+18. Social Proof (Safety in Numbers)
+
+19. Narrative Instinct -> Stories run the world
+
+43. Simple explanations are appealing even when they’re wrong.
+
+45. Something can be factually true but contextually nonsense.
+
+20. Tendency to Overgeneralize from Small Samples
+
+23. Reputations have momentum in both directions, because people want to associate with winners and avoid losers.
+
+21. Hindsight Bias
+
+22. Sensitivity to Fairness
+
+23. Survivorship Bias
+
+24. Pavlovian Association
+
+25. Tendency to Distort Due to Liking Loving or Disliking/Hating
+
+38. Reputations have momentum in both directions, because people want to associate with winners and avoid losers.
+
+26. Rich-man in the car paradox 
+
+27. Earned success and deserved failure fallacy
+
+28. Tendency to Feel Envy & Jealousy
+
+29. Availability Heuristic
+
+30. Tendency to Stereotype
+
+31. Failure to learn from the past
+
+32. Relative Satisfaction/Misery
+
+33. Commitment & Consistency Bias
+
+34. Tendency to Want to Do Something
+
+35. First-Conclusion Bias
+
+36. [[bias-for-unhappiness]]
+
+39. [[overvaluing-short-term]]
+
+40. People see what they look for, and hear what they listen for. "Show me a man who thinks he’s objective and I’ll show you a man who’s deceiving himself."
+
+41. People are both curious and afraid of new things so a familiar thing in an original setting is interesting.
+
+42. We believe we are better than we are. 19% think they’re in the top 1% of earners, 95% of professors think they’re better than average
 
 
-
-
----
-
-Mistakes of others are easier to notice than our own 
-
-We believe we are better than we are. 19% think they’re in the top 1% of earners, 95% of professors think they’re better than average
-
-We can't read minds
-
-We see what we want to see
-
-We believe what we want to believe 
-
-People like you more than you know 
-
-People think about you way less than you believe 
-
----
-
-Sunk cost 
-
-Anchoring
-
-Social Proof (Safety in Numbers)
-
-Narrative Instinct -> Stories run the world
-
-Tendency to Overgeneralize from Small Samples
-
-Hindsight Bias
-
-Sensitivity to Fairness
-
-Survivorship Bias
-
-Pavlovian Association
-
-Tendency to Distort Due to Liking Loving or Disliking/Hating
-
-Rich man in the car paradox 
-
-Earned success and deserved failure fallacy
-
-Tendency to Feel Envy & Jealousy
-
-Availability Heuristic
-
-Tendency to Stereotype
-
-Failure to learn from the past
-
-Relative Satisfaction/Misery
-
-Commitment & Consistency Bias
-
-Tendency to Want to Do Something
-
-First-Conclusion Bias
-
-
-[[unhappiness-some-reasons]]
-
+Also see
 
 <https://www.clearerthinking.org/tools-and-mini-courses>
 
-
-![](/static/img/present-bias.jpeg)
-
 <https://sketchplanations.com/tags/cognitive-bias>
 
+[[behavioral-psychology]]

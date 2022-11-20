@@ -1,6 +1,7 @@
 ---
 ---
 
+Listen more than you speak
 
 ![](/static/img/listen-with-passion.png)
 

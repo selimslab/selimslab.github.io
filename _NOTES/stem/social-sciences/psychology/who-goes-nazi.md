@@ -1,6 +1,5 @@
 ---
 title: Who Goes Nazi by Dorothy Thompson
-tags: read 
 ---
 
 

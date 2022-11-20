@@ -4,6 +4,13 @@ tags: skills
 
 ![](/static/img/submarine-shower.png)
 
-[[food-and-drink]]
-
 ![](/static/img/grow-fresh-air.jpeg)
+
+![](/static/img/set-your-table.jpeg)
+
+![](/static/img/freeze-lemons.jpeg)
+
+![](/static/img/serrated-knives.jpeg)
+
+![](/static/img/finger-dip-test.jpeg)
+

@@ -3,15 +3,9 @@ tags: psy
 ---
 
 
-Focus and feel it to break a bad habit 
-
-Make good habits easy, visible, and rewarding 
-
----
-
-A clear time and place helps 
-
-Here and now 
+1. Focus and feel a bad habit to break it  
+2. Make good habits easy, visible, and rewarding 
+3. Set a clear time and place  
 
 
 
