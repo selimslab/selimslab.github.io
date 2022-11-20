@@ -1,16 +1,15 @@
 ---
 ---
 
-You need a lot of mistakes for a few good moves, 
+The past had to be this way given all the factors
 
-a lot of bad ideas for a few good ideas. 
-
+Many inputs come together and create an outcome, it's not all your fault 
 
 ---
 
-Its not all your fault 
+How can you make good moves without mistakes?
 
-In the long run, optimism is the best prevention for regret
+How can you have good ideas without trying many bad ones?
 
 ---
 
@@ -18,12 +17,21 @@ We blame ourselves but most things are so random
 
 Much of what we get, we don’t deserve
 
-Suspicious of success, gentle on ourselves in failure
+What is the point of torturing yourself?
 
 ---
 
+Neither blame yourself nor others
 
-"The longer we dwell on our misfortunes, the greater is their power to harm us" Voltaire 
+It's not worth your peace of mind 
+
+Forgive yourself, forgive others 
+
+Anger, regret, grudge, .. 
+
+Why carry this baggage? 
+
+Learn and move on 
 
 
-“Don’t waste your time in anger, regrets, worries, and grudges. Life is too short to be unhappy.” 
+

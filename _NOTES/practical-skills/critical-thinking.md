@@ -10,11 +10,10 @@ tags: skills phil essais
 - Systematic feedback, criticism, and correction can make us less wrong 
 - Open-ended [[questions]] show how little we know 
 
-![](/static/img/must-be-true.jpeg)
-
-[[truth-has-many-faces-suspend-judgement]]
+[[truth]] has many faces, suspend judgment 
 
 [[insight-and-strength]]
 
 <https://reasonandmeaning.com/2015/10/08/bertrand-russells-nobel-prize-acceptance-speech/>
 
+![](/static/img/must-be-true.jpeg)
