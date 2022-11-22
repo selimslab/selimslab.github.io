@@ -4,7 +4,7 @@ tags: phil
 ---
 
 
-Written by Adrian Tan, author of The Teenage Textbook (1988), was the guest-of-honour at a recent NTU convocation ceremony. This was his speech to the graduating class of 2008.
+Written by Adrian Tan, to NTU graduating class of 2008.
 
 ---
 

@@ -16,7 +16,7 @@ Some heuristics
 10. Need little, want [[less]]
 11. [[decision-making]]
 12. [[communication]]
-13. [[truth-has-many-faces-suspend-judgement]]
+13. [[truth]] has many faces, suspend judgment 
 14. Success is [[freedom]] and freedom comes with [[character]] 
 15. What is bothering me? Is it the situation or my interpretation of it? [[perception-is-reality]]
 16. [[let-go-of-the-past-and-future]], live [[here-and-now]]
@@ -25,5 +25,5 @@ Some heuristics
 19. Watch [[emotions]] gather and disperse like waves and clouds 
 20. [[how-would-your-best-version-behave]]
 21. [[one-bit-better]] 🐢
-21. [[know-where-to-stop]]
+22. [[know-where-to-stop]]
 23. Never miss a good chance to shut up

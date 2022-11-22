@@ -66,7 +66,7 @@ class BackLinksGenerator < Jekyll::Generator
           graph["links"].push({"source": link, "target": id})
 
           # replace wikilinks
-          title = match.gsub(/-/, ' ')
+          title = match.gsub(/-/, ' ').capitalize
           link = "[#{title}](#{link})"
           current_note.content = current_note.content.gsub(/#{Regexp.escape(backlink)}/, link)
         end 

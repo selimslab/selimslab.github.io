@@ -10,3 +10,5 @@ and [[know-where-to-stop]]
 go enjoy the rest of the day 
 
 [[mastery]] 
+
+![](/static/img/wabi-sabi.png)
