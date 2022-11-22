@@ -3,10 +3,9 @@ title: Teamwork 🌱
 tags: skills essais top psy 
 ---
 
-
 Working together towards a shared goal 
 
-## Harmony, respect, and trust 
+## Harmony, [[respect]], and [[trust]] 
 
 Everyone on the team should clearly understand why we are doing this in the first place 
 
@@ -24,7 +23,7 @@ Lead by example, words are forgotten but actions not
 
 ![](/static/img/cost-of-tardiness.jpeg)
 
-## Autonomy and mastery 
+## Autonomy and [[mastery]] 
 
 Highly trained and talented leaders, autonomous in decisions of their area 
 
@@ -72,6 +71,8 @@ Provide the environment, remove obstacles
 
 ## Focus on the important few 
 
+[[do-one-thing-at-a-time-and-do-it-well]]
+
 > 'Manage the top line, and the bottom line will follow.' What's the top line? It's things like, why are we doing this in the first place? What's our strategy? What are customers saying? How responsive are we? Do we have the best products and the best people? Those are the kind of questions you have to focus on. 
 > 
 > Steve Jobs
@@ -84,10 +85,34 @@ Not every important thing is measurable
 
 ## No silver bullets  
 
-There is no single leadership style that suits all, the right thing to do depends on the context and the people 
+There is no single leadership style that suits all 
 
 ![](/static/img/maker-time.png)
 
+[[44-engineering-management-lessons]]
+
+## What not to do 
+
+* Trying to prove your worth
+* Insecurity
+* Micromanaging
+* Not delegating
+* Competing with reports
+* Complaining 
+
+* Single management style, mostly the style in which you prefer to be managed
+* Hiring people like yourself
+
+* Being all-business, viewing people as "resources" 
+
+* Impatience
+* Not listening well
+* Not asking the right questions
+
+
+Also see this 1944 CIA memo, on how to infiltrate an organisation and make it dysfunctional
+
+![](/static/img/infiltrate.jpeg)
 
 ## Also see 
 
@@ -95,9 +120,5 @@ There is no single leadership style that suits all, the right thing to do depend
 
 [[do-without-doing]]
 
-[[44-engineering-management-lessons]]
 
-[[4-mistake-levels-of-managers]]
-
-[[dysfunctional-orgs]]
 
