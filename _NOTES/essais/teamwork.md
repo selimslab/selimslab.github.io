@@ -3,60 +3,47 @@ title: Teamwork 🌱
 tags: skills essais top psy 
 ---
 
-Working together towards a shared goal 
+* Working together towards a shared goal 
 
-## Harmony, [[respect]], and [[trust]] 
+* Almost everything is people and [[communication]] 
 
-Everyone on the team should clearly understand why we are doing this in the first place 
+* Everyone on the team should clearly understand why we are doing this in the first place 
 
-Cover weaknesses, amplify strengths 
+* Explain the [intent](https://en.wikipedia.org/wiki/Intent_(military))
 
-Respect and trust among members, like a surgical team 
+* People trust surgical teams with their lives, because everyone in the team is an expert in their job, they trust each other and work together, leading to unparalled professional prowess 
 
-Harmony in team 
+* [[mastery]] and [[respect]] leads to [[trust]], trust leads to autonomy and harmony  
 
-## Culture 
+* When people are in harmony, the team is more than sum of its parts. They cover weaknesses and amplify strengths. 
 
-[[hiring]] decisions bring in the people and they create the [[company-culture]] 
+* [[company-culture]] is a result of [[hiring]] decisions
 
-Lead by example, words are forgotten but actions not 
+* Lead by example, words are forgotten but actions not 
 
-![](/static/img/cost-of-tardiness.jpeg)
+* Highly trained and talented leaders, autonomous in decisions of their area 
 
-## Autonomy and [[mastery]] 
+* Make sure that every area of responsibility has a definite owner 
 
-Highly trained and talented leaders, autonomous in decisions of their area 
+* Consistency and certainty in rewards and consequences  
 
-## Communicate well  
+* The right person in the right place 
 
-Explain the [intent](https://en.wikipedia.org/wiki/Intent_(military))
-
-Be transparent and fair  
-
-[[communication]]
-
-## Accountability 
-
-Make sure that every area of responsibility has a definite owner 
-
-The right person in the right place 
-
-Discipline, consistency, and certainty in rewards and consequences 
+* Due diligence 
 
 ![](/static/img/excuses.jpeg)
 
 ![](/static/img/accountability-ladder.jpeg)
-## Empower people 
 
-If people are not autonomous and flourishing in their areas, how can they be creative? [[creativity]]
+* Empower people. If people are not autonomous and flourishing in their areas, how can they be creative? 
+
+[[creativity]]
 
 ![](/static/img/boss-vs-leader.png)
 
-## Lead by inspiration 
+* Lead by inspiration 
 
-Build projects around motivated people
-
-Provide the environment, remove obstacles
+* Build projects around motivated people. Provide the environment, remove obstacles
  
 > If you want to build a ship, 
 > 
@@ -69,7 +56,7 @@ Provide the environment, remove obstacles
 > — Antoine de Saint-Exupery
 
 
-## Focus on the important few 
+* Focus on the important few 
 
 [[do-one-thing-at-a-time-and-do-it-well]]
 
@@ -77,15 +64,13 @@ Provide the environment, remove obstacles
 > 
 > Steve Jobs
 
-## Balance data with intuition and experience 
+* Balance data with intuition and experience 
 
-Not every important thing is measurable 
+* Not every important thing is measurable 
 
 ![](/static/drawings/matter-vs-measure.svg)
 
-## No silver bullets  
-
-There is no single leadership style that suits all 
+* There is no single leadership style that suits all 
 
 ![](/static/img/maker-time.png)
 
@@ -99,6 +84,7 @@ There is no single leadership style that suits all
 * Not delegating
 * Competing with reports
 * Complaining 
+* Treating people like kids, workplace is not day-care  
 
 * Single management style, mostly the style in which you prefer to be managed
 * Hiring people like yourself
@@ -108,7 +94,6 @@ There is no single leadership style that suits all
 * Impatience
 * Not listening well
 * Not asking the right questions
-
 
 Also see this 1944 CIA memo, on how to infiltrate an organisation and make it dysfunctional
 
