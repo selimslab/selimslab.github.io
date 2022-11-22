@@ -1,5 +1,5 @@
 ---
-tags: phys top
+tags: phys
 ---
 
 <https://www.feynmanlectures.caltech.edu>
