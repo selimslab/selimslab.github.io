@@ -6,7 +6,7 @@ tags: skills essais top psy
 
 Working together towards a shared goal 
 
-## Harmony, respect, and trust 
+## Harmony, respect, and trust 
 
 Everyone on the team should clearly understand why we are doing this in the first place 
 
@@ -14,15 +14,15 @@ Cover weaknesses, amplify strengths
 
 Respect and trust among members, like a surgical team 
 
-Harmony in team is shown in little ways but it's no little thing 
-
-![](/static/img/cost-of-tardiness.jpeg)
+Harmony in team 
 
 ## Culture 
 
 [[hiring]] decisions bring in the people and they create the [[company-culture]] 
 
 Lead by example, words are forgotten but actions not 
+
+![](/static/img/cost-of-tardiness.jpeg)
 
 ## Autonomy and mastery 
 
@@ -44,16 +44,14 @@ The right person in the right place
 
 Discipline, consistency, and certainty in rewards and consequences 
 
-![](/static/img/accountability-ladder.jpeg)
-
 ![](/static/img/excuses.jpeg)
 
-## Empower people 
+![](/static/img/accountability-ladder.jpeg)
+## Empower people 
 
 If people are not autonomous and flourishing in their areas, how can they be creative? [[creativity]]
 
 ![](/static/img/boss-vs-leader.png)
-
 
 ## Lead by inspiration 
 
@@ -61,7 +59,6 @@ Build projects around motivated people
 
 Provide the environment, remove obstacles
  
-
 > If you want to build a ship, 
 > 
 > don't drum up people to collect wood 
@@ -92,8 +89,7 @@ There is no single leadership style that suits all, the right thing to do depend
 ![](/static/img/maker-time.png)
 
 
-
-## Also see 
+## Also see 
 
 [[the-great-leader]]
 
