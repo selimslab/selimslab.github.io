@@ -1,5 +1,5 @@
 ---
-tags: tech
+tags: tech essais 
 ---
 
 ![](/static/img/gartner-hype-cycle.jpeg)

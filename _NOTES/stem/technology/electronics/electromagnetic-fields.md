@@ -1,6 +1,0 @@
----
----
-
-[[classical-physics]]
-
-[[maxwells-equations]]

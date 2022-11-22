@@ -4,27 +4,22 @@ tags: net
 --- 
 
 
-App
+* App
 
-Presentation 
+* Presentation 
 
-Session 
-
----
-
-Transport 
-
-Network 
-
----
-
-Data link
-
-Physical
+* Session 
 
 
+* Transport 
 
----
+* Network 
+
+
+* Data link
+
+* Physical
+
 
 eg.
 

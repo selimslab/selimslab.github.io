@@ -9,3 +9,5 @@ The Algorithm Design Manual
 Algorithms by Dasgupta 
 
 Algorithms by Sedgewick 
+
+Algorithms to Live By: What Computers Can Teach Us About Solving Human Problems

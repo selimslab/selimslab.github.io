@@ -3,15 +3,14 @@ title: TCP/IP Model
 tags: net
 ---
 
-Application 
+* Application 
 
-Network 
+* Network 
 
-Transport
+* Transport
 
-Link 
+* Link 
 
----
 
 eg. 
 

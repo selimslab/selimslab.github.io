@@ -36,4 +36,4 @@ tags: swe
 10. Template Method, ABC
 
 
-[[dev-heuristics]]
+[[hacker-laws]]

@@ -1,6 +1,6 @@
 ---
-title: Some Heuristics
-tags: swe
+title: Hacker Laws
+tags: swe top 
 
 --- 
 
@@ -8,7 +8,7 @@ Keep it simple
 
 Test early and often 
 
-Get end to end first 
+Get end-to-end first 
 
 Get feedback early and often 
 
@@ -17,6 +17,8 @@ Do one thing and do it well
 Do not overthink 
 
 Ship it, real artists ship 
+
+The best code is no code
 
 
 ---
@@ -105,13 +107,9 @@ The Law of Demeter,  "The Principle of Least Knowledge"
 
 ---
 
-
 Visible signs of lack of care of an environment lead to further and more serious deterioration. The Broken Windows Theory
 
 Always leave the code better than you found it. The Scout Rule
-
-
-
 
 also see 
 
