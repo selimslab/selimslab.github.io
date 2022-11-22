@@ -1,4 +1,4 @@
-##  a minimal personal wikipedia with offline access
+##  a minimal personal wiki with offline access
 
 [![Deploy Jekyll site to Pages](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml/badge.svg)](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml)
 
