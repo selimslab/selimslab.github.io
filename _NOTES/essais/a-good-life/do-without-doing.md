@@ -8,7 +8,7 @@ Solve a problem before it is a problem
 
 [[the-point-is-winning-without-fighting]]
 
-[[nature-does-not-hurry]]
+Nature does not hurry, yet everything is accomplished
 
 [[to-run-things-dont-fuss]]
 

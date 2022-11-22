@@ -6,6 +6,8 @@ tags: skills bus essais top
 
 [[what-to-work-on]]
 
+[[teamwork]]
+
 [[design]]
 
 [[get-things-done]]
@@ -22,10 +24,6 @@ tags: skills bus essais top
 
 [[how-to-pitch]]
 
-[[leadership]]
-
-[[good-ideas-are-in-plain-sight]]
-
 In writing or people say it didn't happen when it is convenient 
 
 Do business with people you like. It’s great.
@@ -38,7 +36,6 @@ Don't hire people you wouldn't work for
 
 ![](/static/img/the-customer-value-chain.jpeg)
 
----
 
 Also see
 
