@@ -16,9 +16,7 @@ tags: essais skills top
 10. Symptoms vs root cause
 11. [[take-a-walk]]
 
----
-
-Also see 
+## Also see 
 
 [[critical-thinking]]
 

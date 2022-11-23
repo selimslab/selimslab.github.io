@@ -28,8 +28,6 @@ Persona (1966)
 
 The Godfather (1972)
 
-Daguerrotypes (1975)
-
 One Flew Over the Cuckoo's Nest (1975)
 
 Star Wars: Episode V - The Empire Strikes Back (1980)

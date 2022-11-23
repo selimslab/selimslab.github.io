@@ -1,5 +1,5 @@
 ---
-tags: skills
+tags: sports
 ---
 
 Take photos or prints of maps as backup 

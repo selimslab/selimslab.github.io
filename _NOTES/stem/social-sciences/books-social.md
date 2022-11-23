@@ -3,10 +3,6 @@ title: Social Science Books
 tags: social-sciences books
 ---
 
-Steve Jobs by Walter Isaacson 
-
-A Promised Land, Obama
-
 The Diary of a Young Girl, Anne Frank
 
 Man's Search for Meaning, Viktor Frankl
@@ -34,3 +30,10 @@ The Lessons of History, Durant, Will
 Understanding Power: The Indispensable Chomsky
 
 Metaphors We Live By
+
+Steve Jobs by Walter Isaacson 
+
+A Promised Land, Obama
+
+
+

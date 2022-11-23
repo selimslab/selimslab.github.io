@@ -14,7 +14,7 @@ A little forethought can prevent a lot of pain
 6. What are your principles? Do you have red lines? 
 7. Assumptions?
 8. Constraints?
-9. How close does your mental model for the problem match reality? [[Stupidity]] is the gap between reality and your model 
+9. How close does your mental model for the problem match reality? [[stupidity]] is the gap between reality and your model 
 10. Set a deadline 
 11. Do your due diligence, [[examine]]
 12. [[do-what-is-right-not-what-is-easy]]

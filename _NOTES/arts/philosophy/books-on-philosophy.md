@@ -22,3 +22,6 @@ The Prince
 Tao: The Watercourse Way by Alan Watts
 
 Great Thinkers
+
+Man's Search for Meaning, Viktor Frankl
+
