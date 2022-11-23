@@ -1,5 +1,5 @@
 ---
-tags: skills
+tags: arts skills
 ---
 
 from sketchplanations

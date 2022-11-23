@@ -1,5 +1,5 @@
 ---
-tags: skills
+tags: sports
 ---
 
 
@@ -18,3 +18,5 @@ Do not sit for long, walk
 Stretch frequently 
 
 You don't have the energy for a workout because you don't work out
+
+[[calisthenics]]
