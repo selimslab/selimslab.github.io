@@ -10,7 +10,7 @@ tags: skills phil essais
 - Systematic feedback, criticism, and correction can make us less wrong 
 - Open-ended [[questions]] show how little we know 
 
-[[truth]] has many faces, suspend judgment 
+[[truth]] has many faces, suspend judgment [Epoché](https://en.wikipedia.org/wiki/Epoché)
 
 [[insight-and-strength]]
 

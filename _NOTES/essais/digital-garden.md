@@ -15,4 +15,12 @@ Not some BIGCO walled garden but a place of your own
 
 A home on the internet, [designed to last](https://jeffhuang.com/designed_to_last/)
 
+"Il faut cultiver notre jardin" Voltaire
+
+(We must cultivate our garden) 
+
+
+
+
+
 
