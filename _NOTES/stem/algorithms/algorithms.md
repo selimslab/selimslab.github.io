@@ -1,5 +1,5 @@
 ---
 layout: tag
-tags: algorithms stem
+tags: algo stem
 ---
 

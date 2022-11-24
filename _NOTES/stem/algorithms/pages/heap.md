@@ -1,7 +1,7 @@
 ---
 layout: tag
 
-tags: heap algorithms
+tags: heap algo
 ---
 
 ```python

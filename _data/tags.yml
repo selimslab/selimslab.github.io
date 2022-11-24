@@ -1,5 +1,4 @@
-
-
+algo: algorithms
 bio: biology
 bus: business
 chem: chemistry
@@ -30,5 +29,3 @@ q: queue
 apx: approximation
 conc: concurrent
 ll: linked-list
-
-

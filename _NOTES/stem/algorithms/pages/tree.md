@@ -1,6 +1,6 @@
 ---
 layout: tag
-tags: tree algorithms
+tags: tree algo
 ---
 
 

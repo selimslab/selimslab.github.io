@@ -1,6 +1,6 @@
 --- 
 layout: tag
-tags: arr algorithms
+tags: arr algo
 ---
 
 

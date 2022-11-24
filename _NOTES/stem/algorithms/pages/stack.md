@@ -1,6 +1,6 @@
 ---
 layout: tag
-tags: stack algorithms
+tags: stack algo
 ---
 
 

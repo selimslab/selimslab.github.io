@@ -1,7 +1,7 @@
 ---
 layout: tag
 
-tags: greedy algorithms
+tags: greedy algo
 ---
 
 

@@ -1,5 +1,6 @@
 ---
 title: Log structured merge tree (LSM tree)
+tags: algo 
 ---
 
 Now maybe we can do better with the file-append

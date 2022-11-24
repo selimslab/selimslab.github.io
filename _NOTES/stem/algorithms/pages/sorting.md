@@ -1,6 +1,6 @@
 ---
 layout: tag
-tags: sort algorithms
+tags: sort algo
 ---
 
 ```python

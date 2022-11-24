@@ -1,5 +1,5 @@
 ---
 layout: tag
-tags: q algorithms
+tags: q algo
 ---
 

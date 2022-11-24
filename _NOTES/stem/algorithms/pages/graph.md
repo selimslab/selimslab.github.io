@@ -1,6 +1,6 @@
 ---
 layout: tag
-tags: graph algorithms
+tags: graph algo
 ---
 ```py
 dfs(node):

@@ -18,7 +18,7 @@ layout: page
    
 * Meet the terminal. ls, cd, mv, top, mkdir, touch, rm, cat, sort, uniq, grep
 
-* [Grokking algorithms](http://93.174.95.29/main/9F2B390517083CF4485BA524B80815F5) is a visual and fun algorithms book 
+* [Grokking algorithms](http://93.174.95.29/main/9F2B390517083CF4485BA524B80815F5) is a visual and fun algo book 
 
 * [Leetcode's top-100 liked collection](https://leetcode.com/problemset/top-100-liked-questions/?difficulty=Easy)
 

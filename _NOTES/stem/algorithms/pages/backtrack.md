@@ -1,6 +1,6 @@
 ---
 layout: tag
-tags: backtrack algorithms
+tags: backtrack algo
 ---
 
 

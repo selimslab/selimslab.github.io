@@ -1,6 +1,6 @@
 ---
 layout: tag
-tags: ptr algorithms
+tags: ptr algo
 ---
 
 

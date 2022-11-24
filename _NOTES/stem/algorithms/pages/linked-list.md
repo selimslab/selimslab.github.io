@@ -1,6 +1,6 @@
 ---
 layout: tag
-tags: ll algorithms
+tags: ll algo
 ---
 
 ```go
