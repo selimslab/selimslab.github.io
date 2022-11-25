@@ -24,8 +24,6 @@ Real wealth is building character, applying your qualities and healing your dark
 
 [[do-it-with-all-your-heart]]
 
-[[do-not-regret-mistakes]]
-
 [[do-not-lie-to-yourself]]
 
 ![](/static/img/principles-all-the-time.jpeg)

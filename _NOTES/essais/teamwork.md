@@ -67,6 +67,7 @@ tags: skills essais top psy
 * Balance data with intuition and experience 
 
 * Not every important thing is measurable 
+* Goodhart's law: When a measure becomes a target, it ceases to be a good measure.
 
 ![](/static/drawings/matter-vs-measure.svg)
 

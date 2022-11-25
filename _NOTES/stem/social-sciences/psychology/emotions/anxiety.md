@@ -3,23 +3,17 @@ tags: psy
 ---
 
 
-Anxiety is the gap between fear and hope
+Anxiety is the gap between [[fear]] and [[hope]]
 
 When you face your fear, it vanishes
 
-[[expect-everything]]
+What you have is a tiny drop of possible troubles, 
 
----
+All could go wrong yet only a few did
 
-Today I escaped from anxiety. 
+Anxiety fades as gratitude settles in 
 
-Or no, I discarded it, 
-
-because it was within me, in my own perceptions-not outside. 
-
-Marcus Aurelius
+"Today I escaped from anxiety. Or no, I discarded it, because it was within me, in my own perceptions-not outside."
 
 
-[[fear]]
 
-[[hope]]
