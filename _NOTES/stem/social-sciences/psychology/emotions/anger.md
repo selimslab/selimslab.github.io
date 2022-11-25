@@ -9,7 +9,7 @@ tags: psy
 - Why must I take it too seriously?
 - Is it personal? Even so? 
 - Does it really matter?
-
+- "We suffer more in imagination than in reality" 
 
 Anger is the collision of hope and reality
 

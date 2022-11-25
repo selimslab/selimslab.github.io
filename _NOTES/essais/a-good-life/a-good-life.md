@@ -3,18 +3,21 @@ title: A good life 🏛️
 tags: phil skills essais top 
 ---
 
-Timeless questions
-
 > What is a good life? 
 
-* Health, love, friendship
-* [Eudaimonia](https://en.wikipedia.org/wiki/Eudaimonia), flourishing, realizing and developing [areté](https://en.wikipedia.org/wiki/Arete) through action 
-* [[freedom]] from pain, fear, regret, worry, greed, anger, hate, and egoism, ... 
-* A life of [balance](/golden-mean) and harmony
-* [[courage]], action, and good judgment
-* Peace and tranquility, [Ataraxia](https://en.wikipedia.org/wiki/Ataraxia)  
+[Eudaimonia](https://en.wikipedia.org/wiki/Eudaimonia) 
+
+1. Health, love, friendship
+2. Flourishing, developing [areté](https://en.wikipedia.org/wiki/Arete) through action, realizing your potential 
+3. [[freedom]] from pain, fear, regret, worry, greed, anger, hate, and egoism, ... 
+4. A life of [balance](/golden-mean) and harmony
+5. [[courage]], action, and good judgment
+6. Peace and tranquility, [Ataraxia](https://en.wikipedia.org/wiki/Ataraxia)  
+
 
 > How to live a good life? 
+
+> How would your best version live? 
 
 "Well being is attained little by little, and nevertheless is no little thing itself"  
 
@@ -26,29 +29,30 @@ Timeless questions
 * [[truth]] has many faces, suspend judgment 
 * Judge less, accept more
 * Complain less, appreciate more
+* Be kind, not clever 
+* "Pain is inevitable. Suffering is optional." 
+* Need little, want [[less]]
 * Success is [[freedom]] 
 * Freedom comes with building [[character]] 
-* [[golden-mean]]
 * [[do-what-is-right-not-what-is-easy]]
+* [[do-one-thing-at-a-time-and-do-it-well]]
 * [[do-it-with-all-your-heart]]
 * [[do-not-lie-to-yourself]]
-* Need little, want [[less]]
+* "Do nothing against your will, nor against community, nor without due examination, nor with reluctancy"
+* [[emotions]] gather and disperse like waves and clouds, feel and let go 
+* Do nothing in anger, go take a walk 
+* Arrogance is a sign of a weak mind, stay humble 
+* Choose [[hope]] over [[fear]]
+* Choose love over indifference 
 * Listen more, argue less 
-* Remember [[death]], there might be no tomorrow morning for you 
+* Remember [[death]], there might be no tomorrow morning  
 * [[no-regrets-no-worries]]
 * "How strange to be surprised at anything which happens in life"
-* "We suffer more in imagination than in reality" 
-* What is bothering me? Is it the situation or my interpretation of it? 
-* [Know thyself](https://en.wikipedia.org/wiki/Know_thyself), explore [[psychology]], [[philosophy]], and [[social-sciences]]
+* "The unexamined life is not worth living" [[examine]] and [Know thyself](https://en.wikipedia.org/wiki/Know_thyself)
 * [[decision-making]]
 * [[communication]]
-* Focus on what is in your control, don't worry about the rest, use your energy to do what you can, now and here 
-* [[do-one-thing-at-a-time-and-do-it-well]]
-* [[how-would-your-best-version-behave]]
-* [[emotions]] gather and disperse like waves and clouds, feel and let go 
-* Walk slowly but walk. Start from your head, heart, and hands, and work outward. [[lightly-child]]
-* Do not expect to 'get' anything out of life, just play
-* What you do is more important than what you think [[acta-non-verba]]
+* Do not expect to 'get' anything out of life, just play  
+* What you do is more important than what you think. [[acta-non-verba]]
 * [[know-where-to-stop]]
 * Never miss a good chance to shut up
 

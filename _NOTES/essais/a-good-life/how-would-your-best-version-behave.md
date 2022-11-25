@@ -1,5 +1,5 @@
 ---
-title: How would your best version behave?
+title: 
 ---
 
 1. Balanced [[golden-mean]]
