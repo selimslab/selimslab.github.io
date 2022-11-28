@@ -1,5 +1,5 @@
 ---
-title: A good life ☯
+title: A good life 🏛️ 
 tags: phil skills essais top 
 ---
 
