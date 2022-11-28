@@ -7,8 +7,13 @@ tags: skills phil essais
 - Look below the surface 
 - "Delete the adjectives and you will have the facts."
 - All models are wrong, some are useful 
-- Systematic feedback, criticism, and correction can make us less wrong 
-- Open-ended [[questions]] show how little we know 
+- Systematic feedback, criticism, and correction 
+- Open-ended [[questions]]  
+- Less certainty, more probability
+- How well do your mental models match reality?
+- Have you done your due diligence?
+- [[systems]] thinking
+- Know your limitations, [Know thyself](https://en.wikipedia.org/wiki/Know_thyself)
 
 [[truth]] has many faces, suspend judgment [Epoché](https://en.wikipedia.org/wiki/Epoché)
 

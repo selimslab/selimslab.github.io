@@ -1,5 +1,5 @@
 ---
-title: A good life 🏛️ 
+title: A good life ☯
 tags: phil skills essais top 
 ---
 
@@ -13,7 +13,6 @@ tags: phil skills essais top
 4. A life of [balance](/golden-mean) and harmony
 5. [[courage]], action, and good judgment
 6. Peace and tranquility, [Ataraxia](https://en.wikipedia.org/wiki/Ataraxia)  
-
 
 > How to live a good life? 
 
@@ -48,7 +47,7 @@ tags: phil skills essais top
 * Remember [[death]], there might be no tomorrow morning  
 * [[no-regrets-no-worries]]
 * "How strange to be surprised at anything which happens in life"
-* "The unexamined life is not worth living" [[examine]] and [Know thyself](https://en.wikipedia.org/wiki/Know_thyself)
+* "The unexamined life is not worth living" [[critical-thinking]]
 * [[decision-making]]
 * [[communication]]
 * Do not expect to 'get' anything out of life, just play  

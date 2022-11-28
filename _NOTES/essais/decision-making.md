@@ -16,7 +16,7 @@ A little forethought can prevent a lot of pain
 8. Constraints?
 9. How close does your mental model for the problem match reality? [[stupidity]] is the gap between reality and your model 
 10. Set a deadline 
-11. Do your due diligence, [[examine]]
+11. Do your due diligence 
 12. [[do-what-is-right-not-what-is-easy]]
 13. Think of the consequences, short, medium, and long term   
 14. [[do-not-lie-to-yourself]]
@@ -24,3 +24,6 @@ A little forethought can prevent a lot of pain
 16. It is easier to stay out than get out.
 17. [[experiences-are-better-than-material-things]]
 18. Don't get stuck, [[good-is-better-than-perfect]]
+
+
+[[critical-thinking]]
