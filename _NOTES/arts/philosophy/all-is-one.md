@@ -5,12 +5,15 @@ tags: phil top
 
 We name things so we can talk about them. It's like drawing a line in the sand, it might be useful but it's artificial. Names don't exist outside our heads.   
 
-For example, a tree could not exist without water, roots, soil, clouds, and the sun.
+A tree might seem like one separate thing but it could not exist without water, soil, and the sun. You take a tree and the sun comes with it 
 
-You take a tree and the whole universe comes with it 
+Or take an animal, 
+
+Carbon in proteins, calcium in bones, iron in the blood, and oxygen in the air; all created in the heart of distant stars
+
+You take one thing and the whole universe comes with it 
 
 ![](/static/img/attached-to-all.png)
-
 
 > "Put light against light – you have nothing. 
 > 
@@ -18,27 +21,25 @@ You take a tree and the whole universe comes with it
 > 
 > It’s the contrast of light and dark that each gives the other one meaning.” Bob Ross 
 
-Dark and light 
-
-Difficult and easy
+High and low
 
 Long and short 
-
-High and low
 
 Sound and silence 
 
 Yin and yang 
 
+Difficult and easy
+
 Good and evil 
+
+Dark and light 
 
 They define each other 
 
 Sides of the same coin 
 
 ---
-
-We are part of the whole, we are home 
 
 Self is an illusion 
 
