@@ -17,7 +17,7 @@ A little forethought can prevent a lot of pain
 9. How close does your mental model for the problem match reality? [[stupidity]] is the gap between reality and your model 
 10. Set a deadline 
 11. Do your due diligence 
-12. [[do-what-is-right-not-what-is-easy]]
+12. [[do-what-is-right]]
 13. Think of the consequences, short, medium, and long term   
 14. [[do-not-lie-to-yourself]]
 15. [[do-it-with-all-your-heart]], If you are in doubt, the answer is no

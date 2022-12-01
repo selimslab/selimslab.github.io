@@ -4,45 +4,21 @@ tags: lit lists
 
 Antoine de Saint-Exupéry
 
-Aristotle
-
 Cervantes
 
 Dostoyevski
 
-Epictetus
+Gabriel Garcia Marquez
 
 Gogol
-
-Hawking
 
 Homer
 
 Kafka
 
-Kant
-
-Kierkegaard
-
-Lao Tzu
-
-Marcus Aurelius
-
-Marquez
-
 Montaigne
 
 Orwell
-
-Plato
-
-Sagan
-
-Sartre
-
-Schopenhauer
-
-Seneca
 
 Sheakspeare
 

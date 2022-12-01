@@ -4,11 +4,9 @@ tags: lit lists
 ---
 
 
-Cien años de soledad 
+[[cien-anos-de-soledad]]
 
 Don Quixote
-
-Ensaio Sobre a Cegueira
 
 Hamlet
 
