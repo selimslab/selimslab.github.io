@@ -12,4 +12,3 @@ When you face your fear, one of you will perish
 
 "Cast aside fear and regret, do the deed at hand"
 
-"Fear both the heat and the cold of your heart, and try to have patience, if you can"

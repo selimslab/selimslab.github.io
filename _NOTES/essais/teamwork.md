@@ -1,5 +1,5 @@
 ---
-title: Teamwork 🌱
+title: Teamwork ⚽ 
 tags: skills essais top psy 
 ---
 
@@ -11,11 +11,11 @@ tags: skills essais top psy
 
 * Explain the [intent](https://en.wikipedia.org/wiki/Intent_(military))
 
-* People trust surgical teams with their lives, because everyone in the team is an expert in their job, they trust each other and work together, leading to unparalled professional prowess 
+* People trust surgical teams with their lives because everyone in the team is an expert in their job, they trust each other and work together, leading to unparalleled professional prowess 
 
-* [[mastery]] and [[respect]] leads to [[trust]], trust leads to autonomy and harmony  
+* [[mastery]] and [[respect]] lead to [[trust]], trust leads to autonomy and harmony  
 
-* When people are in harmony, the team is more than sum of its parts. They cover weaknesses and amplify strengths. 
+* When people are in harmony, the team is more than the sum of its parts. They cover weaknesses and amplify strengths. 
 
 * [[company-culture]] is a result of [[hiring]] decisions
 
@@ -35,9 +35,7 @@ tags: skills essais top psy
 
 ![](/static/img/accountability-ladder.jpeg)
 
-* Empower people. If people are not autonomous and flourishing in their areas, how can they be creative? 
-
-[[creativity]]
+* Empower people. If people are not autonomous and empowered in their areas, how can you expect [[creativity]]?
 
 ![](/static/img/boss-vs-leader.png)
 
@@ -85,7 +83,7 @@ tags: skills essais top psy
 * Not delegating
 * Competing with reports
 * Complaining 
-* Treating people like kids, workplace is not day-care  
+* Treating people like kids, the workplace is not day-care  
 
 * Single management style, mostly the style in which you prefer to be managed
 * Hiring people like yourself
@@ -96,7 +94,9 @@ tags: skills essais top psy
 * Not listening well
 * Not asking the right questions
 
-Also see this 1944 CIA memo, on how to infiltrate an organisation and make it dysfunctional
+*  Don’t let people pressure you into decisions you don’t believe in. They’ll hold _you_ responsible for them later, and they’ll be right. Decisions are your responsibility.
+
+Also see this 1944 CIA memo, on how to infiltrate an organization and make it dysfunctional
 
 ![](/static/img/infiltrate.jpeg)
 

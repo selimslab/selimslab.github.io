@@ -5,13 +5,13 @@ tags: phil top
 
 We name things so we can talk about them. It's like drawing a line in the sand, it might be useful but it's artificial. Names don't exist outside our heads.   
 
-A tree might seem like one separate thing but it could not exist without water, soil, and the sun. You take a tree and the sun comes with it 
-
-Or take an animal, 
+A tree might seem like a separate thing but it could not exist without water, soil, and the sun. You take a tree and the sun comes with it 
 
 Carbon in proteins, calcium in bones, iron in the blood, and oxygen in the air; all created in the heart of distant stars
 
-You take one thing and the whole universe comes with it 
+Take anything and the whole universe comes with it 
+
+Self is an illusion
 
 ![](/static/img/attached-to-all.png)
 
@@ -27,20 +27,12 @@ Long and short
 
 Sound and silence 
 
-Yin and yang 
-
 Difficult and easy
 
 Good and evil 
 
 Dark and light 
 
-They define each other 
-
-Sides of the same coin 
-
----
-
-Self is an illusion 
+They define and complete each other, sides of the same coin 
 
 Now our minds are one 

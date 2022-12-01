@@ -7,7 +7,7 @@ Watch emotions gather and disperse like waves and clouds
 
 It's easy to get carried away, notice your breath and come back 
 
-[[ambivalence]]
+It's not that good, not that bad, not all or nothing 
 
 [[anger]]
 
@@ -44,6 +44,4 @@ It's easy to get carried away, notice your breath and come back
 [[cognitive-biases]]
 
 [[give-support-not-advice]]
-
-[Good social relationships, good life (video)](https://youtu.be/8KkKuTCFvzI?list=FLwnL1ngkxfNFBPIXpHm2A2A…)
 
