@@ -19,7 +19,13 @@ tags: phil skills essais top
 
 > How would your best version live? 
 
-A flourishing life of harmony requires good judgment, [[courage]], and the right action
+A life of flourishing and harmony requires right action
+
+Right action comes with good judgment 
+
+Good judgment comes from understanding 
+
+Understanding comes from either learning from mistakes or learning from wise people of the past, internalizing collective human experience, adding their life to yours 
 
 "Well being is attained little by little, and nevertheless is no little thing itself"  
 
@@ -31,6 +37,7 @@ A flourishing life of harmony requires good judgment, [[courage]], and the right
 * [[truth]] has many faces, suspend judgment 
 * Judge less, accept more
 * Complain less, appreciate more
+* What goes around comes around 
 * Be kind, not clever 
 * "Pain is inevitable. Suffering is optional." 
 * Need little, want [[less]]
