@@ -1,7 +1,7 @@
 ---
 title: Poetry 📜
-tags: poetry arts
-layout: tag
+layout: tag 
+tags: poetry arts root
 ---
 
 

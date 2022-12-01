@@ -1,6 +1,9 @@
 ---
 title: Wu Wei 無爲
+tags: phil 
 ---
+
+Actionless action 
 
 Consider beginnings 
 

@@ -1,5 +1,5 @@
 ---
 title: Philosophy 🏛️
 layout: tag
-tags: phil arts
+tags: phil arts root
 ---
