@@ -1,9 +1,9 @@
 ---
 title:  Some events in the last million years 🌏
-tags: history
+tags: hist tech 
 --- 
 
-Last Common Ancestor Of Humans And Chimps 6M years ago 
+Last Common Ancestor Of Humans And Chimps, 6M years ago 
 
 First Humans 3M  
 
@@ -94,7 +94,7 @@ Floppy Disk 71
 
 Ethernet 73 
 
-first personal computers 74-77 
+First personal computers 74-77 
 
 C programming language, 72
 
@@ -104,9 +104,7 @@ First Cell Phone 73
 
 ALTAIR 8800, Microsoft, 75 
 
-Apple, Apple I, 76 
-
-Apple II 77
+Apple 76
 
 VisiCalc, the first spreadsheet program, 78
 
@@ -154,14 +152,12 @@ CRISPR 87
 
 08: Macbook Air
 
-09: Windows 7, Github, Whatsapp 
+09: Github, Whatsapp 
 
 10: Instagram, iPad
 
 12: Chrome, Raspberry Pi
 
-
----
 
 ## misc. 
 

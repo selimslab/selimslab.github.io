@@ -10,7 +10,4 @@ tags: psy
 - Is it personal? Even so? 
 - Does it really matter?
 - "We suffer more in imagination than in reality" 
-
-Anger is the collision of hope and reality
-
-sad + unexpected -> anger
+- Why should I get so surprised? What is so unexpected? 

@@ -13,4 +13,3 @@ Confident people are humble. Arrogance is a weakness.
 - Do you have to prove something?
 - Do you need to pretend to be more than you are?
 
-[[humility]]

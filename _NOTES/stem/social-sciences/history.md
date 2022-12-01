@@ -1,4 +1,4 @@
 ---
 layout: tag
-tags: history social-sciences
+tags: hist social-sciences
 ---

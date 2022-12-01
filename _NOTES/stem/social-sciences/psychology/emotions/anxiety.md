@@ -2,12 +2,7 @@
 tags: psy
 ---
 
-
-Anxiety is the gap between [[fear]] and [[hope]]
-
-When you face your fear, it vanishes
-
-What you have is a tiny drop of possible troubles, 
+What I have is a tiny drop of possible troubles, 
 
 All could go wrong yet only a few did
 
