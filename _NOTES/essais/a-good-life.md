@@ -12,6 +12,8 @@ tags: phil skills essais top
 
 ![](/static/img/notice-when-you-are-happy.png)
 
+> How would your best version live ? 
+
 A life of flourishing and harmony requires the right action
 
 Right action comes with good judgment 
@@ -29,50 +31,46 @@ In the end, what you do is more important than what you think or say. Acta, non 
 > "Very little is needed to make a happy life; 
 > it is all within yourself, in your way of thinking"
 
-## 42 heuristics
+## Some heuristics
 
 1. [[sleep]], Sun, [[exercise]]
-2. Quality time with friends and family, [good social relationships, good life (video)](https://youtu.be/8KkKuTCFvzI?list=FLwnL1ngkxfNFBPIXpHm2A2A…)
+2. Quality time with friends and family, [Good social relationships, good life (video)](https://youtu.be/8KkKuTCFvzI?list=FLwnL1ngkxfNFBPIXpHm2A2A…)
 3. Nothing in excess 
 4. [[truth]] has many faces, suspend judgment 
 5. Define what is important to you and what you don't want in life. "The unexamined life is not worth living" [[critical-thinking]] 
-9. Think about [[decision-making]] and [[problem-solving]]
 6. Judge less, accept more
 7. Complain less, appreciate more
-8. Argue less, listen more 
-9. [[communicate-well]]
-9. Focus on what is in your control
-10. Do not chase or worry about externals 
-11. Take responsibility for your actions
-12. "Pain is inevitable, suffering is optional." 
-13. Need little, want [[less]]
-14. Be kind, not clever
-15. [[good-is-better-than-perfect]]
-16. What goes around comes around 
-17. Success is [[freedom]] and freedom comes with cultivating [[character]] 
-18. [[do-what-is-right]]
-19. [[do-one-thing-at-a-time-and-do-it-well]]
-20. [[do-it-with-all-your-heart]]
-21. [[do-not-lie-to-yourself]]
-22. "Do nothing against your will, nor against community, nor without due examination, nor with reluctancy"
+8. Argue less, listen more, [[communicate-well]]
+9. Success is [[freedom]] and freedom comes with cultivating [[character]] 
+10. Focus on what is in your control
+11. Do not chase or worry about externals 
+12. Take responsibility for your actions
+13. "Pain is inevitable, suffering is optional." 
+14. Desire less, suffer less 
+15. Need little, want [[less]]
+16. Be kind, not clever
+17. Think about [[decision-making]] and [[problem-solving]]
+18. [[good-is-better-than-perfect]]
+19. [[do-what-is-right]]
+20. [[do-one-thing-at-a-time-and-do-it-well]]
+21. [[do-it-with-all-your-heart]]
+22. [[do-not-lie-to-yourself]]
 23. [[emotions]] gather and disperse like waves and clouds 
 24. Do not magnify emotions in your mind, feel and let go
 25. Do nothing in anger, go [[take-a-walk]] 
-26. [[arrogance]] comes from a weak mind, stay humble 
+26. [[arrogance]] is ugly, stay humble 
 27. Do not take yourself too seriously 
-28. Desire less, suffer less 
-29. This too shall pass 
-30. Choose [[hope]] over [[fear]]
-31. Choose love over indifference 
-32. Remember [[death]], there might be no tomorrow morning  
-33. [[no-regrets-no-worries]]
-34. "How strange to be surprised at anything which happens in life"
-35. [[decision-making]]
-36. Life is a balancing act 
-37. [[communicate-well]]
-38. Do not expect to 'get' anything out of life, just play  
-39. [[know-where-to-stop]]
-40. Never miss a good chance to shut up
+28. This too shall pass 
+29. Choose [[hope]] over [[fear]]
+30. Choose love over indifference 
+31. Remember [[death]], there might be no tomorrow morning  
+32. [[no-regrets-no-worries]]
+33. "Why surprised at anything which happens in life"
+34. What goes around comes around 
+35. Life is a balancing act 
+36. Do not expect to 'get' anything out of life, just play  
+37. [[know-where-to-stop]]
+38. Never miss a good chance to shut up
 
 ![](/static/img/just-do-one-thing.png)
 

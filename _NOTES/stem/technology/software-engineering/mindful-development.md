@@ -18,9 +18,7 @@ A little forethought can prevent a lot of pain
 
 The key ideas are 
 1. Consider beginnings
-2. Look before leap 
-3. Get feedback early and often 
-4. Test early and often 
-5. Iterate 
+2. Get feedback early and often 
+3. Iterate 
 
 

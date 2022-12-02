@@ -53,3 +53,6 @@ Also see
 
 [[mastery]]
 
+[[hacker-laws]]
+
+
