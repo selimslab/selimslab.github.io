@@ -2,8 +2,30 @@
 <script src="/assets/js/datetime.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
 
-<h2>Decades</h2>
 
+
+<h2 id="this_year"></h2>
+<div class="days-graph">
+
+  <ul class="day-labels">
+    <li>S</li>
+    <li>M</li>
+    <li>T</li>
+    <li>W</li>
+    <li>T</li>
+    <li>F</li>
+    <li>S</li>
+  </ul>
+  
+  <ul class="days">
+  </ul>
+  <ul class="week-numbers">
+  </ul>
+  
+</div>
+
+
+<h2>Years</h2>
 <div class="decades-graph">
     <ul class="year-numbers">
     </ul>
@@ -11,29 +33,7 @@
     </ul>
     <ul class="decade-numbers">
     </ul>
-  </div>
-
-<h2 id="this_year"></h2>
-<br>
-
-  <div class="days-graph">
-
-    <ul class="day-labels">
-      <li>S</li>
-      <li>M</li>
-      <li>T</li>
-      <li>W</li>
-      <li>T</li>
-      <li>F</li>
-      <li>S</li>
-    </ul>
-    
-    <ul class="days">
-    </ul>
-    <ul class="week-numbers">
-    </ul>
-    
-    </div>
+</div>
 
 <style>
 
@@ -51,7 +51,8 @@
   grid-template-columns: auto 1fr;
   grid-gap: 0.5rem;
   font-size: 0.6rem;
-  margin: 1rem;
+  margin: 2rem;
+  margin-left:3rem;
 }
 
 .days-graph {
@@ -93,7 +94,7 @@
   list-style-type: none;
   display: grid;
   grid-gap: var(--point-gap);
-  grid-template-columns: repeat(10, var(--point-size));
+  grid-template-columns: repeat(5, var(--point-size));
 }
 
 .years {
@@ -154,18 +155,18 @@ li.now {
 
   <script>
 
-    const age = 27 
+    const age = 28
 
     function add_decade_numbers(){
       const decades = document.querySelector('.decade-numbers');
-        for (var i = 1; i < 7; i++) {
+        for (var i = 1; i <= 12; i++) {
             decades.insertAdjacentHTML('beforeend', `<li>${i}</li>`);
         }
 
-        const years = document.querySelector('.year-numbers');
-        for (var i = 1; i <= 10; i++) {
-            years.insertAdjacentHTML('beforeend', `<li>${i}</li>`);
-        }
+        // const years = document.querySelector('.year-numbers');
+        // for (var i = 1; i <= 5; i++) {
+        //     years.insertAdjacentHTML('beforeend', `<li>${i}</li>`);
+        // }
 
     }
 
