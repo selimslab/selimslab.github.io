@@ -11,18 +11,19 @@
 {% assign all_tags = site.documents | map: "tags"  | compact | uniq  %}
 
 <p><a href="/all-notes">{{site.documents.size}} notes</a> 
-
     with {{site.static_files.size}} images
-
 </p> 
+
 <p>
     Connected with {{site.data.link_count}} backlinks 
-    
-    and <a href="/all-tags">{{all_tags.size}} tags</a>
 </p> 
 
 <p>
-View as a <a href="/2D-Graph">2D</a> and <a href="/3D-Graph">3D</a> graph  
+    Grouped under <a href="/all-tags">{{all_tags.size}} tags</a>
+</p>
+
+<p>
+    View as a <a href="/2D-Graph">2D</a> and <a href="/3D-Graph">3D</a> graph  
 </p>
 
 <h2>Main tags</h2>
