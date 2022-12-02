@@ -17,6 +17,8 @@ Listen with a beginner’s mind.
 
 Suspend judgment, it’s not personal, not about you 
 
+Argue less, listen more
+
 ---
 
 Listen to understand, not to answer.

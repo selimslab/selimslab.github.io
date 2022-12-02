@@ -5,7 +5,7 @@ tags: skills essais top psy
 
 * Working together towards a shared goal 
 
-* Almost everything is people and [[communicate-well]] 
+* Almost everything is people and communication. [[communicate-well]] 
 
 * Everyone on the team should clearly understand why we are doing this in the first place 
 
