@@ -7,8 +7,9 @@ date: {{ last_modified_at }}
     
         
     {% include breadcrumbs.html %}
-        
     <h1>{{ page.title }}</h1>
+
+    {% include tags.html %}
 
 </article>
 
@@ -20,8 +21,6 @@ date: {{ last_modified_at }}
     {{ content }}
 
     {% include backlinks.html %}
-
-    {% include tags.html %}
 
 </article>
 
