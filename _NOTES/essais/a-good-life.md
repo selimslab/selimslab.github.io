@@ -19,16 +19,17 @@ Good judgment comes from understanding
 
 Understanding comes from experience and reflection
 
-They complete each other since we don't have time for all possible experiences 
+Thinking and doing complete each other. 
+We don't have time for all possible experiences. 
+Thinking without doing is empy, doing without thinking is blind 
 
 Reflection enables us to draw inspiration from nature and other people, building on their ideas and mistakes, compounding on ages of human experience 
 
 In the end, what you do is more important than what you think or say. Acta, non verba. 
 
-
 ## Some heuristics
 
-## Health, love, friendship
+## Health, love, friendship
 
 * [[sleep]], Sun, [[exercise]]
 * Quality time with friends and family
@@ -42,7 +43,7 @@ In the end, what you do is more important than what you think or say. Acta, non 
 ![](/static/img/notice-when-you-are-happy.png)
 
 
-## Examine 
+## Examine 
 
 * Define what is important to you and what you don't want in life. "The unexamined life is not worth living" [[critical-thinking]] 
 * Think about [[decision-making]] and [[problem-solving]]
