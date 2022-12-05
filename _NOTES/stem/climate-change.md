@@ -4,15 +4,13 @@ tags: stem top
 
 This is a social problem
 
-The Earth is the only home we have in a cold, dark, indifferent space
+The Earth is the only home in the cold and dark space and we are burning her 
 
-And we can't help burning it
+We need to use clean energy, consume less, and protect oceans, forests, mountains, and the life on earth 
 
-We need to produce clean energy, consume less, and protect oceans, forests, mountains, and the life on earth 
+Nature heals when protected 
 
-Habitats heal when protected, Barack Obama's "Our Great National Parks" is full of examples 
-
-Political [[power]] and economic pressures can overcome the greed, inertia, and short-term focus of states and corporations
+Political power and economic pressures can overcome the greed, inertia, and short-term focus of states and corporations
 
 We can teach our children, hold our politicians accountable, and stand for the planet 
 
