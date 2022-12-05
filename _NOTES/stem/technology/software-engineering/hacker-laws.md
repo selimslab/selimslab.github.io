@@ -35,6 +35,8 @@ tags: swe top
 
 * With a sufficient number of users of an API, all observable behaviors of your system will be depended on by somebody. Hyrum's Law (The Law of Implicit Interfaces)
 
+* The technical boundaries of a system will reflect the structure of the organization. Conway's Law
+
 * The Law of Demeter,  "The Principle of Least Knowledge"
 
 * The Pareto Principle (The 80/20 Rule)
@@ -86,10 +88,6 @@ tags: swe top
 
 * People in a hierarchy tend to rise to their "level of incompetence". The Peter Principle
 
-## Identity reflects on work 
-
-* The technical boundaries of a system will reflect the structure of the organization. Conway's Law
-
 * Institutions will try to preserve the problem to which they are the solution. The Shirky Principle
 
 ## Don't get carried away   
@@ -102,6 +100,8 @@ tags: swe top
 
 Also see 
 
+[wiki](https://en.wikipedia.org/wiki/List_of_eponymous_laws)
+
 <https://github.com/dwmkerr/hacker-laws>
 
-[wiki](https://en.wikipedia.org/wiki/List_of_eponymous_laws)
+[[akins-laws-of-spacecraft]]
