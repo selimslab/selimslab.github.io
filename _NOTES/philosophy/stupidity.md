@@ -5,11 +5,11 @@ tags: phil psy
 
 Stupidity is not ignorance, smart or educated people can also be very stupid 
 
-Its thoughts not matching reality, using the wrong mental model 
+It's false confidence and closed-mindedness 
 
-Here is reality and there are your thoughts, the gap is stupidity 
+Using mental models not matching the reality 
 
-Leads to bad judgement 
+Poor judgment 
 
 Hanlon’s Razor, think stupidity before malice 
 

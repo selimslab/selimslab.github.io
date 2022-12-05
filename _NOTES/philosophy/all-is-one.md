@@ -11,7 +11,7 @@ Carbon in proteins, calcium in bones, iron in the blood, and oxygen in the air; 
 
 Take anything and the whole universe comes with it 
 
-Self is an illusion
+You are a child of the universe no less than the trees and the stars 
 
 ![](/static/img/attached-to-all.png)
 
