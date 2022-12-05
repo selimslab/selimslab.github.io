@@ -1,9 +1,9 @@
 ---
 ---
 
-{% assign sorted = site.data.ideas %}
 
-{% for idea in sorted %}
-{{idea}}
+<article>
+{% for idea in site.data.ideas %}
+<p style="white-space: pre-line;">{{idea}}</p>
 {% endfor %}
-
+</article>

@@ -1,8 +1,6 @@
 class BackLinksGenerator < Jekyll::Generator
     def generate(site)
-
-      site.data["ideas"] = JSON.parse(File.read("./assets/data/ideas.json"))
-
+      
       if (!defined?@render_count)
         @render_count = 1
       end
@@ -13,6 +11,8 @@ class BackLinksGenerator < Jekyll::Generator
 
       @render_count += 1
       
+      site.data["ideas"] = JSON.parse(File.read("./assets/data/ideas.json")).sort
+
       graph = {}
       graph["nodes"] = {}
       graph["links"] = []
