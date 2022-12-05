@@ -48,11 +48,11 @@ Let go of regret. The past had to be this way given all the factors.
 
 Let go of worry. You can handle the future when it comes 
 
-Let go of anger. There are endless sources of irritation and you can’t be angry all the time. It’s not personal. It doesn’t matter. 
+Do nothing in anger, go [[take-a-walk]]. There are endless sources of irritation and you can’t be angry all the time. It’s not personal. It doesn’t matter. 
 
 Don’t take yourself too seriously. Know your limitations. 
 
-Emotions gather and disperse like waves and clouds. Do not magnify them in your mind. Feel and let go. 
+Emotions gather and disperse like waves and clouds. Neither suppress nor exaggerate.  Feel and let go. 
 
 > "Very little is needed to make a happy life; 
 > it is all within yourself, in your way of thinking"
@@ -61,45 +61,45 @@ What else?
 
 First, do no harm 
 
+[[do-it-with-all-your-heart]]
+ 
 Do your best 
-
-Need little, want less 
 
 Nothing in excess 
 
-Go with all your heart 
+[[communicate-well]]
 
-Don't decide under physical discomfort or heavy emotion, wait until your mind is clear
+Don't decide under physical discomfort or heavy emotion, wait until your mind is clear. [[decision-making]]
+
+Need little, want less 
 
 Embrace uncertainty 
 
+What goes around comes around 
+
+Nothing lasts 
+
 Focus on what is in your control. Don't worry about externals. 
 
-Look deeper
+This too shall pass 
+
+Look deeper, try to understand the true nature of something 
 
 Truth has many faces, suspend judgment 
 
-Judge less, accept more
+The best things are free. Sleep, sun, water, exercise, friends, ... 
 
 Complain less, appreciate more
 
 ![](/static/img/notice-when-you-are-happy.png)
 
+Judge less, accept more
+
 Argue less, listen more 
 
-The best things are free. Sleep, sun, water, exercise, friends, ... 
+Remember [[death]], there might be no tomorrow morning  
 
-You become who you spend time with 
-
-You become what you think 
-
-Garbage in, garbage out 
-
-What goes around comes around 
-
-This too shall pass 
-
-Do nothing in anger, go [[take-a-walk]] 
+You become how you spend your time, who you are with, what you think. Garbage in, garbage out 
 
 [[do-one-thing-at-a-time-and-do-it-well]]
 
@@ -107,15 +107,7 @@ Do nothing in anger, go [[take-a-walk]]
 
 [[do-what-is-right]]
 
-[[do-not-lie-to-yourself]]
-
-[[do-it-with-all-your-heart]]
-
 [[good-is-better-than-perfect]]
-
-![](/static/img/wabi-sabi.png)
-
-Remember [[death]], there might be no tomorrow morning  
 
 Do not expect to 'get' anything out of life, just play  
 

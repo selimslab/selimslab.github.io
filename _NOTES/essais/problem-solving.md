@@ -5,8 +5,8 @@ tags: essais skills top
 
 0. Prevention is the best
 1. Don't panic
-2. A problem well stated is a problem half-solved
-3. Sanity check
+2. Sanity check
+3. A problem well stated is a problem half-solved
 4. Start small
 5. Go see the source
 6. See examples 

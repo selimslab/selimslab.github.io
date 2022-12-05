@@ -3,12 +3,11 @@ title: Public speaking
 tags: skills
 ---
 
-
 Focus on the audience  
 
-What is the bottom line?
-
 Speak clearly, with enthusiasm 
+
+Repeat key ideas and the bottom line 
 
 Keep it short and sweet 
 

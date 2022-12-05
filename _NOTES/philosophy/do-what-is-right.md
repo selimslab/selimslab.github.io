@@ -5,7 +5,7 @@ tags: phil pols
 
 Do what you feel in your heart to be right, 
 
-not what is easy nor what is popular. 
+neither what is easy nor what is popular. 
 
 ---
 
@@ -28,3 +28,5 @@ but he must take it because conscience tells him it is right.
 if you do something shameful, the pleasure passes but the shame endures" Rufus 
 
 [[courage]]
+
+[[do-not-lie-to-yourself]]
