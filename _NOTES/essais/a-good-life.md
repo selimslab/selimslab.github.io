@@ -52,6 +52,8 @@ Do nothing in anger, go [[take-a-walk]]. There are endless sources of irritation
 
 Don’t take yourself too seriously. Know your limitations. 
 
+Try to feel more, empathy leads to kindness 
+
 Emotions gather and disperse like waves and clouds. Neither suppress nor exaggerate.  Feel and let go. 
 
 > "Very little is needed to make a happy life; 
@@ -61,7 +63,7 @@ What else?
 
 First, do no harm 
 
-[[do-it-with-all-your-heart]]
+[[go-with-all-your-heart]]
  
 Do your best 
 
@@ -72,6 +74,8 @@ Nothing in excess
 Don't decide under physical discomfort or heavy emotion, wait until your mind is clear. [[decision-making]]
 
 Need little, want less 
+
+Work can be fun and fulfilling but it's just a game, there are more important things in life, like health, family, and principles  
 
 Embrace uncertainty 
 

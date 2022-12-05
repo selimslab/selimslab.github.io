@@ -20,7 +20,7 @@ tags: essais skills top
 13. [[flow]] happens when the task slightly exceeds your skill level 
 13. [[take-a-walk]]
 14. Prepared, focused, short meetings
-15. [[do-it-with-all-your-heart]]
+15. [[go-with-all-your-heart]]
 16. Rely on [[habits]] and [[systems]]
 17. [[do-one-thing-at-a-time-and-do-it-well]]
 18. Ignore sunk costs

@@ -20,7 +20,7 @@ Real wealth is building character, applying your qualities and healing your dark
 
 [[do-what-is-right]]
 
-[[do-it-with-all-your-heart]]
+[[go-with-all-your-heart]]
 
 [[do-not-lie-to-yourself]]
 
