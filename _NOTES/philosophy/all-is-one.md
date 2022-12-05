@@ -1,9 +1,9 @@
 ---
-title: All is One ☯
+title: All is One 
 tags: phil top
 ---
 
-We name things so we can talk about them. It's like drawing a line in the sand, it might be useful but it's artificial. Names don't exist outside our heads.   
+We name things so we can talk about them.  It's useful but artificial since names don't exist outside our minds. 
 
 A tree might seem like a separate thing but it could not exist without water, soil, and the sun. You take a tree and the sun comes with it 
 
@@ -33,6 +33,8 @@ Good and evil
 
 Dark and light 
 
-They define and complete each other, sides of the same coin 
+They define and complete each other, they are sides of the same coin 
 
 Now our minds are one 
+
+☯

@@ -3,97 +3,128 @@ title: A good life 🌱
 tags: phil skills essais top 
 ---
 
-* A life of balance and harmony, [golden mean](https://en.wikipedia.org/wiki/Golden_mean_(philosophy))
-* Peace and tranquility, [Ataraxia](https://en.wikipedia.org/wiki/Ataraxia)  
-* [[freedom]] from pain, fear, regret, worry, desire, greed, anger, hate, egoism, and similar
-* [Eudaimonia](https://en.wikipedia.org/wiki/Eudaimonia), Flourishing, cultivating and realizing your potential ([Areté](https://en.wikipedia.org/wiki/Arete)) through action
 
+A life of balance and harmony, peace and tranquility, exploring and cultivating abilities and potentials, flourishing.
 
-> How would your best version live ? 
+> "Well being is attained little by little, 
+> and nevertheless is no little thing itself"  
 
-A life of flourishing and harmony requires the right action
+How would your best version live? 
+
+A life of flourishing and harmony requires action. 
 
 Right action comes with good judgment 
 
 Good judgment comes from understanding 
 
-Understanding comes from experience and reflection
+Understanding comes from experience and reflection. They complete and enrich each other. 
 
-Thinking and doing complete each other. 
-We don't have time for all possible experiences. 
-Thinking without doing is empy, doing without thinking is blind 
+In the end, what you do is more important than what you think or say.
 
-Reflection enables us to draw inspiration from nature and other people, building on their ideas and mistakes, compounding on ages of human experience 
+It's all good but how?
 
-In the end, what you do is more important than what you think or say. Acta, non verba. 
+All living beings try to pursue pleasure and avoid pain. Nothing wrong with it but doing it blindly leads to more pain. 
 
-## Some heuristics
+Since I have some ability to think and choose, I can do better. 
 
-## Health, love, friendship
+Natural desires are easy to satisfy. Once you pass this limit, there is no end to desire and greed. 
 
-* [[sleep]], Sun, [[exercise]]
-* Quality time with friends and family
-* [Good social relationships, good life, results of 75 years of research (video)](https://youtu.be/8KkKuTCFvzI?list=FLwnL1ngkxfNFBPIXpHm2A2A…)
-* Healthy communication is the way to good relationships.[[communicate-well]] 
-* [[no-regrets-no-worries]]
-* Be kind, not clever
-* Success is [[freedom]] and freedom comes with cultivating [[character]] 
-* Complain less, appreciate more
+I can keep my body and mind healthy. 
 
-![](/static/img/notice-when-you-are-happy.png)
+I can enjoy life with friends and family 
 
+I can explore and cultivate my abilities and potentials 
 
-## Examine 
+A healthy mind is free from fear, anger, regret, worry, and desire. 
 
-* Define what is important to you and what you don't want in life. "The unexamined life is not worth living" [[critical-thinking]] 
-* Think about [[decision-making]] and [[problem-solving]]
-* Take responsibility of your thoughts and actions 
-* What goes around comes around 
-* What you think, you become. Garbage in, garbage out 
+But how?
 
-## It's inside
+The eyes don’t see, they transmit light, brain sees. Similarly external things do not create feelings, brain interprets external input and creates a feeling. 
 
-* Focus on what is in your control
-* Do not chase or worry about externals 
-* "Pain is inevitable, suffering is optional." 
-* Desire less, suffer less 
+How you think about something, how you look at it, they affect how you feel. 
+
+When you change your interpretation, the feelings will also change. 
 
 > "Very little is needed to make a happy life; 
 > it is all within yourself, in your way of thinking"
 
-## [[less]]
-* Need little, want [[less]]
-* Nothing in excess 
+For example, 
 
+Let go of regret. The past had to be this way given all the factors.
 
-## [[do-what-is-right]]
+Let go of worry. You can handle the future when it comes 
+
+Let go of anger. It’s not personal. It doesn’t matter. There are endless sources of irritation and you can’t be angry all the time. 
+
+Don’t take yourself too seriously. Know your limitations. 
+
+Complain less, appreciate more
+
+Argue less, listen more 
+
+Emotions gather and disperse like waves and clouds. Do not magnify them in your mind. Feel and let go. 
+
+Focus on what is in your control. Don't worry about externals. 
+
+What else?
+
+First, do no harm 
+
+Do your best 
+
+Need little, want less 
+
+Nothing in excess 
+
+Go with all your heart 
+
+Don't decide if your mind is not clear, under physical discomfort or heavy emotion, wait 
+
+Embrace uncertainty 
+
+Look deeper
+
+Truth has many faces, suspend judgment 
+
+Judge less, accept more
+
+The best things are free. Sleep, sun, water, exercise, friends, ... 
+
+![](/static/img/notice-when-you-are-happy.png)
+
+You become who you spend time with 
+
+You become what you think 
+
+Garbage in, garbage out 
+
+What goes around comes around 
+
+This too shall pass 
+
+Do nothing in anger, go [[take-a-walk]] 
+
 [[do-one-thing-at-a-time-and-do-it-well]]
-[[do-it-with-all-your-heart]]
+
+[[do-what-is-right]]
+
 [[do-not-lie-to-yourself]]
+
 [[good-is-better-than-perfect]]
-* Remember [[death]], there might be no tomorrow morning  
-* "Why surprised at anything which happens in life"
 
-## [[emotions]] 
-* They gather and disperse like waves and clouds 
-* Do not magnify it in your mind, feel and let go
-* Do nothing in anger, go [[take-a-walk]] 
-* [[arrogance]] is ugly, stay humble 
-* Do not take yourself too seriously 
-* This too shall pass 
-* Choose [[hope]] over [[fear]]
-* Choose love over indifference 
-* [[truth]] has many faces, suspend judgment 
-* Judge less, accept more
+[[do-it-with-all-your-heart]]
 
-## Play and flow, this is water 
-* Do not expect to 'get' anything out of life, just play  
-* [[know-where-to-stop]]
-* Never miss a good chance to shut up
+Remember [[death]], there might be no tomorrow morning  
+
+Do not expect to 'get' anything out of life, just play  
+
+[[know-where-to-stop]]
+
+Never miss a good chance to shut up
 
 ![](/static/img/just-do-one-thing.png)
 
 ![](/static/img/wabi-sabi.png)
 
-> "Well being is attained little by little, 
-> and nevertheless is no little thing itself"  
+
+> "Think of yourself as dead. You have lived your life.  Now take what's left and live it properly." 
