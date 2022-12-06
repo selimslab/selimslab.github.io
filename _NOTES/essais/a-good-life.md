@@ -44,6 +44,8 @@ How you think about something affects how you feel.
 
 When you change your interpretation, the feeling will also change. 
 
+![](/static/img/notice-when-you-are-happy.png)
+
 Let go of regret. The past had to be this way given all the factors.
 
 Let go of worry. You can handle the future when it comes 
@@ -85,6 +87,10 @@ Nothing lasts
 
 Focus on what is in your control. Don't worry about externals. 
 
+[[do-one-thing-at-a-time-and-do-it-well]]
+
+![](/static/img/just-do-one-thing.png)
+
 This too shall pass 
 
 Look deeper, try to understand the true nature of something 
@@ -95,8 +101,6 @@ The best things are free. Sleep, sun, water, exercise, friends, ...
 
 Complain less, appreciate more
 
-![](/static/img/notice-when-you-are-happy.png)
-
 Judge less, accept more
 
 Argue less, listen more 
@@ -104,10 +108,6 @@ Argue less, listen more
 Remember [[death]], there might be no tomorrow morning  
 
 You become how you spend your time, who you are with, what you think. Garbage in, garbage out 
-
-[[do-one-thing-at-a-time-and-do-it-well]]
-
-![](/static/img/just-do-one-thing.png)
 
 [[do-what-is-right]]
 

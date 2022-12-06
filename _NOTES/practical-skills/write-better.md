@@ -11,13 +11,11 @@ Writing is one of the most powerful inventions. It organizes thoughts, sparks id
 
 How to write better? 
 
-1. Ask a question and set out to answer it
-2. Define your audience 
-3. Define your goal 
-4. Write a lot and iterate. "The best writing is rewriting."
-5. Ask a lot of questions 
-6. Use simple words 
+1. Ask questions and set out to answer them
+6. Use simple words
+4. Write as you speak
 7. Less is more, "If I had more time, I would have written a shorter letter." 
+4. Write a lot and iterate. "The best writing is rewriting."
 
 ![](/static/img/remove-redundant-words.png)
 
