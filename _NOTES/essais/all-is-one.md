@@ -1,19 +1,19 @@
 ---
 title: All is One 
-tags: phil top
+tags: phil top essais
 ---
 
 We name things so we can talk about them.  It's useful but artificial since names don't exist outside our minds. 
 
 A tree might seem like a separate thing but it could not exist without water, soil, and the sun. You take a tree and the sun comes with it 
 
-Carbon in proteins, calcium in bones, iron in the blood, and oxygen in the air; all created in the heart of distant stars
+Carbon in proteins, calcium in bones, iron in the blood, and oxygen in the air; all created in the heart of stars
 
 Take anything and the whole universe comes with it 
 
-You are a child of the universe no less than the trees and the stars 
-
 ![](/static/img/attached-to-all.png)
+
+You are a child of the universe no less than the trees and the stars 
 
 > "Put light against light – you have nothing. 
 > 

@@ -72,13 +72,23 @@ Do nothing in anger, go [[take-a-walk]].
 
 There are endless sources of irritation and you can’t be angry all the time. 
 
-And why so surprised? Why so serious? Nothing new under the sun. 
+What is so surprising? Why so serious? Nothing new under the sun. 
 
 It’s not personal. It doesn’t matter. 
 
 ## Pride 
 
 Don’t take yourself too seriously. Know your limitations. 
+
+## Love
+
+"Love is wise, hatred is foolish."
+
+Choose love over indifference 
+
+> Tis better to have loved and lost
+>
+> Than never to have loved at all.
 
 ## Empathy 
 
