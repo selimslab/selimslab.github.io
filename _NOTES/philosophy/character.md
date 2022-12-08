@@ -18,8 +18,6 @@ Real wealth is building character, applying your qualities and healing your dark
 
 "Circumstances don't make the man but reveal him"  
 
-[[do-what-is-right]]
-
 [[go-with-all-your-heart]]
 
 [[do-not-lie-to-yourself]]

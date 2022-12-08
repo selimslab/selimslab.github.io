@@ -5,26 +5,22 @@ tags: phil skills essais top
 
 How would your best version live? 
 
-> "Well being is attained little by little, 
-> and nevertheless is no little thing itself"  
+A harmonious, flourishing life 
 
-A harmonious, flourishing life requires action
+Exploring, cultivating, healing, enjoying, ... 
 
-Right action comes with good judgment 
+## No shortcuts, no silver bullets
 
-Good judgment comes from understanding 
+Every situation has its context.
 
-Understanding comes from experience and reflection. 
+A good life comes from  
+taking the right action which requires sound judgment. 
 
-They enrich each other. 
+Good judgment comes with understanding which requires experience and reflection. 
+
+Since experience comes with time and mistakes, let's reflect here. 
 
 In the end, what you do is more important than what you think or say.
-
-There is no one true way to live. There are no shortcuts, no silver bullets. Every situation has a context. 
-
-We can try to be a bit better. [[good-is-better-than-perfect]]
-
-Here are some of the heuristics that helped me over time, 
 
 ## Pleasure and Pain 
 
@@ -32,13 +28,7 @@ All living beings pursue pleasure and avoid pain. Nothing wrong with it but doin
 
 Natural desires are easy to satisfy. After the natural limit, there is no end to desire and greed. 
 
-Since I have some ability to think and choose, I can do better. 
-
-I can keep my body and mind healthy. 
-
-I can enjoy life with friends and family 
-
-I can explore and cultivate my abilities
+Since we have some ability to think and choose, we can do better. 
 
 ## Thinking and Feeling 
 
@@ -52,77 +42,115 @@ Similarly, external things do not create feelings, the brain interprets external
   
 When you change your interpretation, the feeling will also change. 
 
-![](/static/img/notice-when-you-are-happy.png)
- 
-Let go of regret. The past had to be this way given all the factors.
-
-Let go of worry. You can handle the future when it comes 
-
-Do nothing in anger, go [[take-a-walk]]. There are endless sources of irritation and you can’t be angry all the time. It’s not personal. It doesn’t matter. 
-
-Don’t take yourself too seriously. Know your limitations. 
-
-Try to feel more, empathy leads to kindness 
-
-Emotions gather and disperse like waves and clouds. Neither suppress nor exaggerate.  Feel and let go. 
-
 > "Very little is needed to make a happy life; 
 > it is all within yourself, in your way of thinking"
 
-## Principia 
+Emotions gather and disperse like waves and clouds. Neither suppress nor exaggerate. Feel and let go. 
 
-First, do no harm 
+## Communication 
 
-[[go-with-all-your-heart]]
- 
-Nothing in excess 
+It is so powerful, it can both ruin and heal. [[communicate-well]]
 
-[[communicate-well]]
+Argue less, listen more 
 
-Don't decide under physical discomfort or heavy emotion, wait until your mind is clear. [[decision-making]]
+## Family and friends 
+
+We are social animals, and a good life comes with good social relationships 
+
+## The Past and The Future 
+
+Let go of regret and worry. They are a waste of energy and time.
+
+The past had to be this way given all the factors. Why make troubles heavier by upsetting yourself? Learn and move on. 
+
+The future is often neither as good as we hope nor as bad as we fear. You can handle the future when it comes. 
+
+## Anger 
+
+Do nothing in anger, go [[take-a-walk]]. 
+
+There are endless sources of irritation and you can’t be angry all the time. 
+
+And why so surprised? Why so serious? Nothing new under the sun. 
+
+It’s not personal. It doesn’t matter. 
+
+## Pride 
+
+Don’t take yourself too seriously. Know your limitations. 
+
+## Empathy 
+
+Try to feel more, empathy leads to kindness. 
+
+## Simplicity 
 
 Need little, want less 
 
-Work can be fun and fulfilling but it's just another game. There are more important things in life, like health, family, and character   
+Nothing in excess 
 
-Nothing lasts 
+## [[go-with-all-your-heart]]
 
-Look deeper, examine  
+First, do no harm 
 
-Truth has many faces, suspend judgment 
+Do what you feel to be right in your heart of hearts.
 
-Embrace uncertainty 
+## Gratitude 
 
-What goes around comes around 
-
-[[do-one-thing-at-a-time-and-do-it-well]]
-
-![](/static/img/just-do-one-thing.png)
+![](/static/img/notice-when-you-are-happy.png)
+ 
+All could go wrong yet only a few did 
 
 The best things are free. Sleep, sun, water, exercise, friends, ... 
 
 Complain less, appreciate more
 
+## Garbage in, garbage out 
+
+You become how you spend your time, who you are with, and what you think. 
+
+What goes around comes around 
+
+## [[decision-making]]
+ 
+Don't decide under physical discomfort or heavy emotion, wait until your mind is clear. 
+
+
+## Work 
+
+Work can be fun and fulfilling but it's just another game. There are more important things in life, like health, family, and character   
+
+## Examine 
+
+Look deeper  
+
+Truth has many faces, suspend judgment 
+
 Judge less, accept more
 
-Argue less, listen more 
+## Focus 
+
+[[do-one-thing-at-a-time-and-do-it-well]]
+
+![](/static/img/just-do-one-thing.png)
 
 Focus on what is in your control. Don't worry about externals. 
+
+
+## Nothing lasts 
 
 This too shall pass 
 
 Remember [[death]], there might be no tomorrow morning  
 
-You become how you spend your time, who you are with, and what you think. 
+Embrace change and uncertainty  
 
-Garbage in, garbage out 
+## Play 
 
-[[do-what-is-right]]
-
-Do not expect to 'get' anything out of life, just play  
+Do not expect to 'get' anything out of life   
 
 [[know-where-to-stop]]
 
 Never miss a good chance to shut up
 
-> "Think of yourself as dead. You have lived your life.  Now take what's left and live it properly." 
+> Think of yourself as dead. You have lived your life.  Now take what's left and live it properly.
