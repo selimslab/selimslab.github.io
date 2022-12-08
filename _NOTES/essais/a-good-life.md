@@ -7,14 +7,13 @@ How would your best version live?
 
 A harmonious, flourishing life 
 
-Exploring, cultivating, healing, enjoying, ... 
+Exploring and cultivating the good within and around 
 
 ## No shortcuts, no silver bullets
 
 Every situation has its context.
 
-A good life comes from  
-taking the right action which requires sound judgment. 
+A good life comes from taking the right action which requires sound judgment. 
 
 Good judgment comes with understanding which requires experience and reflection. 
 
@@ -56,6 +55,8 @@ Argue less, listen more
 ## Family and friends 
 
 We are social animals, and a good life comes with good social relationships 
+
+![](/static/img/boy-and-cat.jpeg)
 
 ## The Past and The Future 
 
