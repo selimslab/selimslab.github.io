@@ -12,5 +12,5 @@ A little forethought can prevent a lot of pain
 4. Due diligence and systematic [[critical-thinking]]
 5. Think of short, medium, and long-term consequences 
 6. [[go-with-all-your-heart]]. If you are in doubt, the answer is no
-7. Don't get stuck, [[good-is-better-than-perfect]]
+7. Don't get stuck, good is better than perfect 
 
