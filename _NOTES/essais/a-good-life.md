@@ -130,11 +130,11 @@ Being busy is often a waste of time, quality work requires a relaxed and focused
 
 [[what-to-work-on]]
 
-[[working-hard]]
-
 [[get-things-done]]
 
 [[flow]]
+
+[[teamwork]]
 
 Work can be fun and fulfilling but it's just another game. 
 

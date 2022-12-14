@@ -3,7 +3,11 @@ title: Teamwork ⚽
 tags: skills essais top psy 
 ---
 
-* Working together towards a shared goal 
+However hard you work, the results are limited by a single person. 
+
+Nothing great is built alone but by working effectively in groups. 
+
+A team in harmony covers weaknesses and amplifies strengths. 
 
 * Almost everything is people and communication. [[communicate-well]] 
 
@@ -14,8 +18,6 @@ tags: skills essais top psy
 * People trust surgical teams with their lives because everyone in the team is an expert in their job, they trust each other and work together, leading to unparalleled professional prowess 
 
 * [[mastery]] and [[respect]] lead to [[trust]], trust leads to autonomy and harmony  
-
-* When people are in harmony, the team is more than the sum of its parts. They cover weaknesses and amplify strengths. 
 
 * [[company-culture]] is a result of [[hiring]] decisions
 
