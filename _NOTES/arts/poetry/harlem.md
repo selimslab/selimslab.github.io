@@ -7,26 +7,26 @@ What happens to a dream deferred?
 
 ---
 
-      Does it dry up
+      Does it dry up
 
-      like a raisin in the sun?
+      like a raisin in the sun?
 
-      Or fester like a sore—
+      Or fester like a sore—
 
-      And then run?
+      And then run?
 
-      Does it stink like rotten meat?
+      Does it stink like rotten meat?
 
-      Or crust and sugar over—
+      Or crust and sugar over—
 
-      like a syrupy sweet?
-
----
-
-      Maybe it just sags
-
-      like a heavy load.
+      like a syrupy sweet?
 
 ---
 
-      Or does it explode?
+      Maybe it just sags
+
+      like a heavy load.
+
+---
+
+      Or does it explode?

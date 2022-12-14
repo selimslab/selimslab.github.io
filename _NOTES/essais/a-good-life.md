@@ -3,108 +3,116 @@ title: A good life 🌱
 tags: phil skills essais top 
 ---
 
-How would your best version live? 
+> How would your best version live? 
 
-A harmonious, flourishing life 
+In harmony, at peace, but how? 
 
-Exploring and cultivating the good within and around 
+## Boundaries 
 
-## No shortcuts, no silver bullets
+We live in the boundaries of our body, genes, childhood, our past, family, friends, society, geography, culture, and the spirit of times. 
 
-Every situation has its context.
+Very few people can go above them but everyone can do better than the default since we have some ability to think and choose 
 
-A good life comes from taking the right action which requires sound judgment. 
+> An unexamined life is not worth living.
 
-Good judgment comes with understanding which requires experience and reflection. 
+## Choice 
 
-Since experience comes with time and mistakes, let's reflect here. 
+Choosing the right course in a given context requires sound judgment 
 
-In the end, what you do is more important than what you think or say.
+Good judgment requires understanding
 
-## Pleasure and Pain 
+Understanding comes with experience 
+
+Experience comes with making mistakes and reflecting on them 
+
+Since mistakes can't be rushed, let's see what good ideas people have come up with over the ages  
+
+In the end, what you do is more important than what you think or say. 
+
+## Is it a life of pleasure?
 
 All living beings pursue pleasure and avoid pain. Nothing wrong with it but doing it blindly brings more pain. 
 
 Natural desires are easy to satisfy. After the natural limit, there is no end to desire and greed. 
 
-Since we have some ability to think and choose, we can do better. 
+Nothing in excess 
 
-## Thinking and Feeling 
-
-How you think about something affects how you feel. 
-
-It is possible to decrease fear, anger, regret, worry, egoism, desire, and similar
+## Thoughts affect feelings
 
 The eyes don’t see, they transmit light, and the brain sees. 
 
-Similarly, external things do not create feelings, the brain interprets external input and creates a feeling. 
+Similarly, external things do not create feelings, 
+the brain interprets external input and creates a feeling. 
   
-When you change your interpretation, the feeling will also change. 
+When the interpretation changes, feelings also change  
 
 > "Very little is needed to make a happy life; 
 > it is all within yourself, in your way of thinking"
 
-Emotions gather and disperse like waves and clouds. Neither suppress nor exaggerate. Feel and let go. 
 
-## Communication 
-
-It is so powerful, it can both ruin and heal. [[communicate-well]]
-
-Argue less, listen more 
-
-## Family and friends 
-
-We are social animals, and a good life comes with good social relationships 
+## Social animals 
 
 ![](/static/img/boy-and-cat.jpeg)
 
+A good life comes with good social relationships 
+
+Communication can both ruin and heal. [[communicate-well]]
+
+Empathy leads to kindness 
+
+Truth has many faces, judge less, accept more
+
 ## The Past and The Future 
 
-Let go of regret and worry. They are a waste of energy and time.
+The past had to be this way given all the factors. 
 
-The past had to be this way given all the factors. Why make troubles heavier by upsetting yourself? Learn and move on. 
+Let go of regret. Learn and move on. 
 
-The future is often neither as good as we hope nor as bad as we fear. You can handle the future when it comes. 
+The future is often neither as good as we hope nor as bad as we fear. 
 
-## Anger 
+And worrying doesn't make anything better. Spend your energy on what you can do, here and now. You can handle the future when it comes. 
 
-Do nothing in anger, go [[take-a-walk]]. 
-
-There are endless sources of irritation and you can’t be angry all the time. 
-
-What is so surprising? Why so serious? Nothing new under the sun. 
-
-It’s not personal. It doesn’t matter. 
-
-## Pride 
-
-Don’t take yourself too seriously. Know your limitations. 
+You become how you spend your time. Garbage in, garbage out. 
 
 ## Love
 
 "Love is wise, hatred is foolish."
 
-Choose love over indifference 
-
 > Tis better to have loved and lost
 >
 > Than never to have loved at all.
 
-## Empathy 
+Choose love over indifference 
 
-Try to feel more, empathy leads to kindness. 
+## Anger 
 
-## Simplicity 
+Do nothing in anger
 
-Need little, want less 
+There are endless sources of irritation and you can’t be angry all the time. 
 
-Nothing in excess 
+What is so surprising? Nothing new under the sun. 
 
-## [[go-with-all-your-heart]]
+It’s not personal. 
 
-First, do no harm 
+It doesn’t matter. 
 
-Do what you feel to be right in your heart of hearts.
+[[take-a-walk]]
+
+## Pride 
+
+I am yet another being on a speck of dust in an infinite space 
+
+Know your limitations. 
+
+Don’t take yourself too seriously.
+
+## Feel and let go 
+
+Emotions gather and disperse like waves and clouds. 
+
+Neither suppress nor exaggerate.  
+
+[[wind-and-rain]]
 
 ## Gratitude 
 
@@ -116,28 +124,21 @@ The best things are free. Sleep, sun, water, exercise, friends, ...
 
 Complain less, appreciate more
 
-## Garbage in, garbage out 
-
-You become how you spend your time, who you are with, and what you think. 
-
-What goes around comes around 
-
-## [[decision-making]]
- 
-Don't decide under physical discomfort or heavy emotion, wait until your mind is clear. 
-
-
 ## Work 
 
-Work can be fun and fulfilling but it's just another game. There are more important things in life, like health, family, and character   
+Being busy is often a waste of time, quality work requires a relaxed and focused mind 
 
-## Examine 
+[[what-to-work-on]]
 
-Look deeper  
+[[working-hard]]
 
-Truth has many faces, suspend judgment 
+[[get-things-done]]
 
-Judge less, accept more
+[[flow]]
+
+Work can be fun and fulfilling but it's just another game. 
+
+There are more important things in life, like health, family, and character   
 
 ## Focus 
 
@@ -145,23 +146,32 @@ Judge less, accept more
 
 ![](/static/img/just-do-one-thing.png)
 
-Focus on what is in your control. Don't worry about externals. 
-
-
 ## Nothing lasts 
-
-This too shall pass 
-
-Remember [[death]], there might be no tomorrow morning  
 
 Embrace change and uncertainty  
 
+[[death]] comes sooner than we think, maybe tomorrow morning  
+
+This too shall pass 
+
 ## Play 
 
-Do not expect to 'get' anything out of life   
+Do not expect to 'get' anything out of life 
 
 [[know-where-to-stop]]
 
 Never miss a good chance to shut up
 
 > Think of yourself as dead. You have lived your life.  Now take what's left and live it properly.
+
+## Also see
+
+[[decision-making]]
+
+[[problem-solving]]
+
+[[critical-thinking]]
+
+[[all-is-one]]
+
+[[cognitive-biases]]

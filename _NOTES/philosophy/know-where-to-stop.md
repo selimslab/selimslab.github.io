@@ -8,8 +8,6 @@
 
 ---
 
-[[why-so-busy]]
-
 [[wind-and-rain]]
 
 "If you know when to stop, you are in no danger" 

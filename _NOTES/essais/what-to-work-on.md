@@ -1,6 +1,6 @@
 ---
 title: What to work on?
-tags: phil essais
+tags: phil essais top 
 ---
 
 1. Start with the why, then how and what 
