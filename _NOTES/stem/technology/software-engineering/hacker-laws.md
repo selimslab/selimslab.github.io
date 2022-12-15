@@ -80,21 +80,21 @@ tags: swe top
 
 * Adding human resources to a late software development project makes it later. Brooks' Law
 
-## Stay hungry, stay foolish  
-
-* Incompetent people think they are the best. The Dunning-Kruger Effect
-
-* Companies tend to systematically promote incompetent employees to management to get them out of the workflow. The Dilbert Principle
-
-* People in a hierarchy tend to rise to their "level of incompetence". The Peter Principle
-
-* Institutions will try to preserve the problem to which they are the solution. The Shirky Principle
-
 ## Don't get carried away   
 
 * When a measure becomes a target, it ceases to be a good measure. Goodhart's Law
 
 * We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run. The Hype Cycle & Amara's Law
+* 
+## Stay hungry, stay foolish  
+
+* Incompetent people think they are the best. The Dunning-Kruger Effect
+
+* Institutions will try to preserve the problem to which they are the solution. The Shirky Principle
+
+* Companies tend to systematically promote incompetent employees to management to get them out of the workflow. The Dilbert Principle
+
+* People in a hierarchy tend to rise to their "level of incompetence". The Peter Principle
 
 ---
 
