@@ -5,15 +5,15 @@ tags: phil skills essais top
 
 > An unexamined life is not worth living.
 
-## The limits 
+## How would your best version live?  
 
 We live within the limits of our body, genes, childhood, our past, family, friends, society, geography, culture, and the spirit of times. 
 
-But it's possible to do better since we can think, choose, and communicate  
+But is it possible to do better? 
 
-> How would your best version live? 
+How to live in harmony? 
 
-In harmony, at peace, but how? 
+How to be at peace? 
 
 ## Choice 
 
@@ -37,33 +37,32 @@ Nothing wrong with it but chasing blindly brings more pain.
 
 Natural desires are easy to satisfy. After the natural limit, there is no end to desire and greed. 
 
+Sleep, sun, water, exercise, friends, ... 
+
+The best things are easy to get. 
+
 Nothing in excess. 
 
 ## Thoughts affect feelings
 
 The eyes don’t see, they transmit light, and the brain sees. 
 
-Similarly, external things do not create feelings. 
-
-The brain interprets external input and creates a feeling. 
+Similarly, external input doesn't create feelings. The brain interprets it and creates a feeling. 
   
 When the interpretation changes, feelings also change.  
 
 > "Very little is needed to make a happy life; 
 > it is all within yourself, in your way of thinking"
 
-
 ## Social animals 
 
 ![](/static/img/boy-and-cat.jpeg)
 
-A good life comes with good social relationships 
+A good life comes with good social relationships. 
+
+Empathy is a choice, kindness is a choice 
 
 Communication can both ruin and heal. [[communicate-well]]
-
-Empathy leads to kindness and peace 
-
-Truth has many faces, judge less, accept more
 
 ## The Past and The Future 
 
@@ -74,6 +73,20 @@ The future is often neither as good as we hope nor as bad as we fear. And worryi
 Spend your energy on what you can do, here and now. You can handle the future when it comes. 
 
 You become how you spend your time. Garbage in, garbage out. 
+
+## Openness
+
+There are only probabilities
+
+Embrace change and uncertainty  
+
+Truth has many faces
+
+Judge less, accept more
+
+[[cognitive-biases]]
+
+[[critical-thinking]]
 
 ## Love
 
@@ -119,10 +132,6 @@ Neither suppress nor exaggerate.
  
 All could go wrong yet only a few did 
 
-Sleep, sun, water, exercise, friends, ... 
-
-The best things are easy to get. 
-
 Complain less, appreciate more
 
 ## Work 
@@ -137,6 +146,8 @@ Being busy is often a waste of time, quality work requires a relaxed and focused
 
 [[teamwork]]
 
+[[decision-making]]
+
 Work can be fun and fulfilling but it's just another game. 
 
 There are more important things in life, like health, family, and character   
@@ -145,15 +156,19 @@ There are more important things in life, like health, family, and character
 
 [[do-one-thing-at-a-time-and-do-it-well]]
 
+[[problem-solving]]
+
 ![](/static/img/just-do-one-thing.png)
 
 ## Nothing lasts 
 
-Embrace change and uncertainty  
-
 [[death]] comes sooner than we think, maybe tomorrow morning  
 
 This too shall pass 
+
+## How to remember these?
+
+No need to remember anything specific, a conscious breath is the best reminder. Always with you. Just [[breathe]]
 
 ## Play 
 
@@ -166,15 +181,3 @@ Never miss a good chance to shut up
 > Think of yourself as dead. You have lived your life.  
 > 
 > Now take what's left and live it properly.
-
-## Also see
-
-[[decision-making]]
-
-[[problem-solving]]
-
-[[critical-thinking]]
-
-[[all-is-one]]
-
-[[cognitive-biases]]
