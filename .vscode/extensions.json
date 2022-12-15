@@ -14,7 +14,8 @@
 		"uctakeoff.vscode-counter",
 		"golang.go",
 		"formulahendry.code-runner",
-		"samuelcolvin.jinjahtml"
+		"samuelcolvin.jinjahtml",
+		"znck.grammarly"
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": [

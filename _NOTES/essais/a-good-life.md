@@ -3,17 +3,17 @@ title: A good life 🌱
 tags: phil skills essais top 
 ---
 
+> An unexamined life is not worth living.
+
+## The limits 
+
+We live within the limits of our body, genes, childhood, our past, family, friends, society, geography, culture, and the spirit of times. 
+
+But it's possible to do better since we can think, choose, and communicate  
+
 > How would your best version live? 
 
 In harmony, at peace, but how? 
-
-## Boundaries 
-
-We live in the boundaries of our body, genes, childhood, our past, family, friends, society, geography, culture, and the spirit of times. 
-
-Very few people can go above them but everyone can do better than the default since we have some ability to think and choose 
-
-> An unexamined life is not worth living.
 
 ## Choice 
 
@@ -21,30 +21,33 @@ Choosing the right course in a given context requires sound judgment
 
 Good judgment requires understanding
 
-Understanding comes with experience 
+Understanding comes with experience and reflection 
 
-Experience comes with making mistakes and reflecting on them 
+Experience comes with mistakes
 
-Since mistakes can't be rushed, let's see what good ideas people have come up with over the ages  
+Since mistakes can't be rushed, let's reflect on some good ideas people have come up with over the ages  
 
 In the end, what you do is more important than what you think or say. 
 
 ## Is it a life of pleasure?
 
-All living beings pursue pleasure and avoid pain. Nothing wrong with it but doing it blindly brings more pain. 
+All living beings pursue pleasure and avoid pain. 
+
+Nothing wrong with it but chasing blindly brings more pain. 
 
 Natural desires are easy to satisfy. After the natural limit, there is no end to desire and greed. 
 
-Nothing in excess 
+Nothing in excess. 
 
 ## Thoughts affect feelings
 
 The eyes don’t see, they transmit light, and the brain sees. 
 
-Similarly, external things do not create feelings, 
-the brain interprets external input and creates a feeling. 
+Similarly, external things do not create feelings. 
+
+The brain interprets external input and creates a feeling. 
   
-When the interpretation changes, feelings also change  
+When the interpretation changes, feelings also change.  
 
 > "Very little is needed to make a happy life; 
 > it is all within yourself, in your way of thinking"
@@ -58,19 +61,17 @@ A good life comes with good social relationships
 
 Communication can both ruin and heal. [[communicate-well]]
 
-Empathy leads to kindness 
+Empathy leads to kindness and peace 
 
 Truth has many faces, judge less, accept more
 
 ## The Past and The Future 
 
-The past had to be this way given all the factors. 
+The past had to be this way given all the factors. Let go of regret. Learn and move on. 
 
-Let go of regret. Learn and move on. 
+The future is often neither as good as we hope nor as bad as we fear. And worrying doesn't make anything better. 
 
-The future is often neither as good as we hope nor as bad as we fear. 
-
-And worrying doesn't make anything better. Spend your energy on what you can do, here and now. You can handle the future when it comes. 
+Spend your energy on what you can do, here and now. You can handle the future when it comes. 
 
 You become how you spend your time. Garbage in, garbage out. 
 
@@ -92,9 +93,7 @@ There are endless sources of irritation and you can’t be angry all the time.
 
 What is so surprising? Nothing new under the sun. 
 
-It’s not personal. 
-
-It doesn’t matter. 
+It’s not personal. It doesn’t matter. 
 
 [[take-a-walk]]
 
@@ -120,7 +119,9 @@ Neither suppress nor exaggerate.
  
 All could go wrong yet only a few did 
 
-The best things are free. Sleep, sun, water, exercise, friends, ... 
+Sleep, sun, water, exercise, friends, ... 
+
+The best things are easy to get. 
 
 Complain less, appreciate more
 
@@ -162,7 +163,9 @@ Do not expect to 'get' anything out of life
 
 Never miss a good chance to shut up
 
-> Think of yourself as dead. You have lived your life.  Now take what's left and live it properly.
+> Think of yourself as dead. You have lived your life.  
+> 
+> Now take what's left and live it properly.
 
 ## Also see
 
