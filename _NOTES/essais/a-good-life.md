@@ -9,7 +9,7 @@ tags: phil skills essais top
 
 We live within the limits of our body, genes, childhood, our past, family, friends, society, geography, culture, and the spirit of times. 
 
-But is it possible to do better? 
+This is the river but where do we go? 
 
 How to live in harmony? 
 
@@ -17,37 +17,41 @@ How to be at peace?
 
 ## Choice 
 
-Choosing the right course in a given context requires sound judgment 
+The right course depends on the context
+
+Choosing well requires sound judgment 
 
 Good judgment requires understanding
 
 Understanding comes with experience and reflection 
 
-Experience comes with mistakes
+Experience comes with mistakes 
 
-Since mistakes can't be rushed, let's reflect on some good ideas people have come up with over the ages  
+Since mistakes can't be rushed, why not learn from the ages of human experience?
 
 In the end, what you do is more important than what you think or say. 
 
-## Is it a life of pleasure?
+## Pleasure and Pain 
 
 All living beings pursue pleasure and avoid pain. 
 
 Nothing wrong with it but chasing blindly brings more pain. 
 
-Natural desires are easy to satisfy. After the natural limit, there is no end to desire and greed. 
-
-Sleep, sun, water, exercise, friends, ... 
+Natural desires are easy to satisfy. Sleep, sun, water, food, sex, exercise, friends, ... 
 
 The best things are easy to get. 
 
+After the natural limit, there is no end to desire. 
+
+Unless you draw the line.  
+
 Nothing in excess. 
 
-## Thoughts affect feelings
+## Thinking and feeling
 
 The eyes don’t see, they transmit light, and the brain sees. 
 
-Similarly, external input doesn't create feelings. The brain interprets it and creates a feeling. 
+Similarly, the brain interprets external input and creates feelings. 
   
 When the interpretation changes, feelings also change.  
 
@@ -72,21 +76,13 @@ The future is often neither as good as we hope nor as bad as we fear. And worryi
 
 Spend your energy on what you can do, here and now. You can handle the future when it comes. 
 
-You become how you spend your time. Garbage in, garbage out. 
+## Garbage in, garbage out. 
 
-## Openness
+You become what you think of. 
 
-There are only probabilities
+You become how you spend your time. 
 
-Embrace change and uncertainty  
-
-Truth has many faces
-
-Judge less, accept more
-
-[[cognitive-biases]]
-
-[[critical-thinking]]
+You become like your friends. 
 
 ## Love
 
@@ -134,6 +130,32 @@ All could go wrong yet only a few did
 
 Complain less, appreciate more
 
+## Nothing lasts 
+
+[[death]] comes sooner than we think, maybe tomorrow morning  
+
+This too shall pass 
+
+## Open
+
+Truth has many faces
+
+Embrace change and uncertainty  
+
+[[critical-thinking]]
+
+[[cognitive-biases]]
+
+Judge less, accept more
+
+## Focus 
+
+[[do-one-thing-at-a-time-and-do-it-well]]
+
+[[problem-solving]]
+
+![](/static/img/just-do-one-thing.png)
+
 ## Work 
 
 Being busy is often a waste of time, quality work requires a relaxed and focused mind 
@@ -152,27 +174,15 @@ Work can be fun and fulfilling but it's just another game.
 
 There are more important things in life, like health, family, and character   
 
-## Focus 
+## What to remember?
 
-[[do-one-thing-at-a-time-and-do-it-well]]
+No need to remember anything specific, a deep breath reminds us what is necessary. Always with you. 
 
-[[problem-solving]]
-
-![](/static/img/just-do-one-thing.png)
-
-## Nothing lasts 
-
-[[death]] comes sooner than we think, maybe tomorrow morning  
-
-This too shall pass 
-
-## How to remember these?
-
-No need to remember anything specific, a conscious breath is the best reminder. Always with you. Just [[breathe]]
+Just [[breathe]]
 
 ## Play 
 
-Do not expect to 'get' anything out of life 
+Do not expect to 'get' anything out of life, just play 
 
 [[know-where-to-stop]]
 
