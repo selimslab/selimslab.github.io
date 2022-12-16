@@ -33,19 +33,17 @@ In the end, what you do is more important than what you think or say.
 
 ## Pleasure and Pain 
 
-All living beings pursue pleasure and avoid pain. 
+All living beings try to pursue pleasure and avoid pain. 
 
 Nothing wrong with it but chasing blindly brings more pain. 
 
-Natural desires are easy to satisfy. Sleep, sun, water, food, sex, exercise, friends, ... 
+Natural desires are easy to get. Sleep, sun, water, food, sex, exercise, friends, ... 
 
-The best things are easy to get. 
-
-After the natural limit, there is no end to desire. 
-
-Unless you draw the line.  
+After the natural limit, there is no end to desire. Unless you draw the line.  
 
 Nothing in excess. 
+
+Pain is inevitable, suffering is optional, and courage is a choice. 
 
 ## Thinking and feeling
 
@@ -126,8 +124,6 @@ Neither suppress nor exaggerate.
 
 ![](/static/img/notice-when-you-are-happy.png)
  
-All could go wrong yet only a few did 
-
 Complain less, appreciate more
 
 ## Nothing lasts 
@@ -174,11 +170,11 @@ Work can be fun and fulfilling but it's just another game.
 
 There are more important things in life, like health, family, and character   
 
-## What to remember?
+## Just [[breathe]]
 
-No need to remember anything specific, a deep breath reminds us what is necessary. Always with you. 
-
-Just [[breathe]]
+There are many good ideas for a given context but mostly forgotten. 
+Is there a simpler reminder than your breath? 
+It is always here and it reminds what is necessary now.
 
 ## Play 
 
