@@ -4,99 +4,82 @@ tags: psy top
 ---
 
 
-1. We tend to do what is quick, easy, and comfortable over doing the important 
+1. We believe we are better than we are
 
-2. We mistake the limits of our vision as the limits of the world 
+2. Mistakes of others are easier to notice than our own 
 
-3. Environment affects us more than we suspect
+3. We jump to conclusions, judge, oversimplify, exaggerate, overgeneralize, and stereotype 
 
-4. We fear what we don’t understand 
+4. We mistake the limits of our vision as the limits of the world 
 
-5. We jump to conclusions, judge, and oversimplify 
+5. We tend to do what is quick, easy, and comfortable over what is important 
 
-6. Emotions make decisions. Reason comes later and justifies.
+6. We see what we want to see, believe what we want to believe 
 
-7. We exaggerate
+7. Emotions make decisions. Reason comes later and justifies.
 
-8. Familiar seems better 
+8. People like you more than you know 
 
-9. It won't be as good as you hope, nor as bad as you fear 
+9. People think about you way less than you believe 
 
-10. Mistakes of others are easier to notice than our own 
+10. Environment affects us more than we suspect
 
-11. We can't read minds
+11. "All these people can't be wrong"
 
-12. We see what we want to see
+12. The best story wins not the best idea 
 
-13. We believe what we want to believe 
+13. Simple explanations are appealing even when they’re wrong.
 
-14. People like you more than you know 
+14. The future is neither as good as we hope nor as bad as we fear 
 
-15. People think about you way less than you believe 
+15. Hindsight is 20/20
 
-16. Sunk cost 
+16. We fear what we don’t understand 
 
-17. Anchoring
+17. We can't read minds 
 
-18. Social Proof (Safety in Numbers)
+18. People are both curious and afraid of new things so a familiar thing in an original setting is interesting.
 
-19. Narrative Instinct -> Stories run the world
+19. A fact can be nonsense in a context 
 
-43. Simple explanations are appealing even when they’re wrong.
+20. People want to associate with winners and avoid losers.
 
-45. Something can be factually true but contextually nonsense.
+21. We are sensitive to fairness 
 
-20. Tendency to Overgeneralize from Small Samples
+22. We think success is earned and failure is deserved but most things are so random 
 
-23. Reputations have momentum in both directions
+23. We feel envy but we wouldn't want to completely swap ourselves with another person 
 
-24. People want to associate with winners and avoid losers.
+24. Availability increase liking 
 
-25. Hindsight Bias
+25. We fail to learn from the past
 
-26. Sensitivity to Fairness
+26. People generally like to be consistent and keep commitments
 
-27. Survivorship Bias
+27. The first conclusion is like the first sperm, the mind closes itself to preserve energy
 
-28. Pavlovian Association
-
-29. Tendency to Distort Due to Liking Loving or Disliking/Hating
-
-30. Rich-man in the car paradox 
-
-31. Earned success and deserved failure fallacy
-
-32. Tendency to Feel Envy & Jealousy
-
-33. Availability Heuristic
-
-34. Tendency to Stereotype
-
-35. Failure to learn from the past
-
-36. Relative Satisfaction/Misery
-
-37. Commitment & Consistency Bias
-
-38. Tendency to Want to Do Something
-
-39. First-Conclusion Bias
-
-40. [[bias-for-unhappiness]]
-
-41. [[overvaluing-short-term]]
-
-42. People see what they look for, and hear what they listen for. "Show me a man who thinks he’s objective and I’ll show you a man who’s deceiving himself."
-
-43. People are both curious and afraid of new things so a familiar thing in an original setting is interesting.
-
-44. We believe we are better than we are. 19% think they’re in the top 1% of earners, 95% of professors think they’re better than average
+28. We tend to do something even when doing nothing is better 
 
 
-Also see
+## Also see
 
 <https://www.clearerthinking.org/tools-and-mini-courses>
 
 <https://sketchplanations.com/tags/cognitive-bias>
 
 [[behavioral-psychology]]
+
+[[bias-for-unhappiness]]
+
+[[overvaluing-short-term]]
+
+Pavlovian Association
+
+Sunk cost fallacy 
+
+Gambler's fallacy 
+
+Anchoring
+
+Survivorship Bias
+
