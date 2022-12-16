@@ -4,9 +4,9 @@ tags: poetry phil
 
 ...
 
-The best lack all conviction, 
+Things fall apart; the centre cannot hold;
 
-while the worst
+The best lack all conviction, while the worst   
 
 Are full of passionate intensity.
 
