@@ -32,7 +32,10 @@ class BackLinksGenerator < Jekyll::Generator
         end
 
         current_note.data['backlinks'] = notes_linking_to_current_note
-        
+
+      end 
+
+      site.documents.each do |current_note|        
         id = current_note.id
         
         title = current_note.data["title"]

@@ -48,49 +48,49 @@ tags: psy top
 
 20. Tendency to Overgeneralize from Small Samples
 
-23. Reputations have momentum in both directions, because people want to associate with winners and avoid losers.
+23. Reputations have momentum in both directions
 
-21. Hindsight Bias
+24. People want to associate with winners and avoid losers.
 
-22. Sensitivity to Fairness
+25. Hindsight Bias
 
-23. Survivorship Bias
+26. Sensitivity to Fairness
 
-24. Pavlovian Association
+27. Survivorship Bias
 
-25. Tendency to Distort Due to Liking Loving or Disliking/Hating
+28. Pavlovian Association
 
-38. Reputations have momentum in both directions, because people want to associate with winners and avoid losers.
+29. Tendency to Distort Due to Liking Loving or Disliking/Hating
 
-26. Rich-man in the car paradox 
+30. Rich-man in the car paradox 
 
-27. Earned success and deserved failure fallacy
+31. Earned success and deserved failure fallacy
 
-28. Tendency to Feel Envy & Jealousy
+32. Tendency to Feel Envy & Jealousy
 
-29. Availability Heuristic
+33. Availability Heuristic
 
-30. Tendency to Stereotype
+34. Tendency to Stereotype
 
-31. Failure to learn from the past
+35. Failure to learn from the past
 
-32. Relative Satisfaction/Misery
+36. Relative Satisfaction/Misery
 
-33. Commitment & Consistency Bias
+37. Commitment & Consistency Bias
 
-34. Tendency to Want to Do Something
+38. Tendency to Want to Do Something
 
-35. First-Conclusion Bias
+39. First-Conclusion Bias
 
-36. [[bias-for-unhappiness]]
+40. [[bias-for-unhappiness]]
 
-39. [[overvaluing-short-term]]
+41. [[overvaluing-short-term]]
 
-40. People see what they look for, and hear what they listen for. "Show me a man who thinks he’s objective and I’ll show you a man who’s deceiving himself."
+42. People see what they look for, and hear what they listen for. "Show me a man who thinks he’s objective and I’ll show you a man who’s deceiving himself."
 
-41. People are both curious and afraid of new things so a familiar thing in an original setting is interesting.
+43. People are both curious and afraid of new things so a familiar thing in an original setting is interesting.
 
-42. We believe we are better than we are. 19% think they’re in the top 1% of earners, 95% of professors think they’re better than average
+44. We believe we are better than we are. 19% think they’re in the top 1% of earners, 95% of professors think they’re better than average
 
 
 Also see
