@@ -1,15 +1,11 @@
 {  
     "task.allowAutomaticTasks": "on",
-    "foam.graph.style": {
-        "background": "#202020",
-        "fontSize": 14,
-        "highlightedForeground": "#f9c74f",
-        "node": {
-            "note": "#277da1",
-            "placeholder": "#545454",
-            "page": "green",
-        }
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.exclude": {
+        "**/__pycache__": true
     },
+    "extensions.ignoreRecommendations": true,
     "macros": {
         "downAndOpen": [ "list.focusDown", "list.selectAndPreserveFocus" ],
         "upAndOpen": [ "list.focusUp", "list.selectAndPreserveFocus" ]

@@ -8,6 +8,8 @@
 
 gem install bundler jekyll
 
+bundle install
+
 ## serve
 
 git push gitlab master 
