@@ -10,3 +10,4 @@
         "downAndOpen": [ "list.focusDown", "list.selectAndPreserveFocus" ],
         "upAndOpen": [ "list.focusUp", "list.selectAndPreserveFocus" ]
     }
+}
