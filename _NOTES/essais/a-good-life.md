@@ -17,17 +17,13 @@ How to be at peace?
 
 ## Choice 
 
-The right course depends on the context
-
-Choosing well requires sound judgment 
-
-Good judgment requires understanding
+Choosing well requires an understanding of the context and possible consequences
 
 Understanding comes with experience and reflection 
 
 Experience comes with mistakes 
 
-Since mistakes can't be rushed, why not learn from the ages of human experience?
+Since mistakes can't be rushed, let's reflect on collective human experience  
 
 In the end, what you do is more important than what you think or say. 
 
@@ -37,13 +33,15 @@ All living beings try to pursue pleasure and avoid pain.
 
 Nothing wrong with it but chasing blindly brings more pain. 
 
+Pain is inevitable, suffering is optional, and courage is a choice. 
+
+## Desire 
+
 Natural desires are easy to get. Sleep, sun, water, food, sex, exercise, friends, ... 
 
 After the natural limit, there is no end to desire. Unless you draw the line.  
 
 Nothing in excess. 
-
-Pain is inevitable, suffering is optional, and courage is a choice. 
 
 ## Thinking and feeling
 
@@ -66,14 +64,6 @@ Empathy is a choice, kindness is a choice
 
 Communication can both ruin and heal. [[communicate-well]]
 
-## The Past and The Future 
-
-The past had to be this way given all the factors. Let go of regret. Learn and move on. 
-
-The future is often neither as good as we hope nor as bad as we fear. And worrying doesn't make anything better. 
-
-Spend your energy on what you can do, here and now. You can handle the future when it comes. 
-
 ## Garbage in, garbage out. 
 
 You become what you think of. 
@@ -81,6 +71,16 @@ You become what you think of.
 You become how you spend your time. 
 
 You become like your friends. 
+
+## The Past and The Future 
+
+The past had to be this way given all the factors. Let go of regret. Learn and move on. 
+
+The future is often neither as good as we hope nor as bad as we fear. 
+
+And worrying doesn't make it one bit better. 
+
+Spend your energy on what you can do, here and now. You can handle the future when it comes. 
 
 ## Love
 
@@ -100,7 +100,9 @@ There are endless sources of irritation and you can’t be angry all the time.
 
 What is so surprising? Nothing new under the sun. 
 
-It’s not personal. It doesn’t matter. 
+It’s not personal. 
+
+It doesn’t matter. 
 
 [[take-a-walk]]
 
@@ -172,9 +174,9 @@ There are more important things in life, like health, family, and character
 
 ## Just [[breathe]]
 
-There are many good ideas for a given context but mostly forgotten. 
-Is there a simpler reminder than your breath? 
-It is always here and it reminds what is necessary now.
+Is there a simpler reminder? 
+
+Always here and reminds what is necessary here and now.
 
 ## Play 
 
