@@ -1,5 +1,6 @@
 ---
 tags: q
+layout: code
 ---
 
 ```go

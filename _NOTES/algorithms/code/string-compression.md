@@ -1,5 +1,7 @@
 ---
 tags: str
+layout: code
+
 ---
 
 

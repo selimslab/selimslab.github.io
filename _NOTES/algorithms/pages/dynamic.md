@@ -1,5 +1,6 @@
 ---
 layout: tag
+layout: code
 tags: dynamic algo
 ---
 

@@ -1,5 +1,6 @@
 ---
 tags: arr  
+layout: code
 ---
 
 

@@ -1,5 +1,8 @@
 ---
+layout: code
 tags: dynamic
+layout: code
+
 ---
 
 

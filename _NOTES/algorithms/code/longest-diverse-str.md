@@ -1,5 +1,6 @@
 ---
-tags:  heap string
+tags:  heap str
+tags: dynamic
 ---
 
 ```python

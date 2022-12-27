@@ -1,5 +1,7 @@
 ---
 tags: tree
+layout: code
+
 ---
 
 

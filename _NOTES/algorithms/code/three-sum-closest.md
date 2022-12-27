@@ -1,5 +1,7 @@
 ---
-tags: arr  
+tags: arr 
+layout: code
+
 ---
 
 

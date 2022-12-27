@@ -1,5 +1,7 @@
 ---
 tags: arr  
+layout: code
+
 ---
 
 ```py

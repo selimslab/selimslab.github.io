@@ -1,5 +1,6 @@
 ---
 tags: tree
+layout: code
 ---
 
 ```python

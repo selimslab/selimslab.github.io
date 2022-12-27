@@ -1,5 +1,6 @@
 ---
 tags: ptr
+layout: code
 ---
 
 ```py

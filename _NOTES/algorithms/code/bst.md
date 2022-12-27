@@ -1,6 +1,8 @@
 ---
 title: Tree, Binary Search Tree
 tags: tree
+layout: code
+
 ---
 
 

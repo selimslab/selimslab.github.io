@@ -1,5 +1,6 @@
 ---
 tags: ptr str stack
+layout: code
 ---
 
 

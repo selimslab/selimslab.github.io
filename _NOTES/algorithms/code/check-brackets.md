@@ -1,5 +1,7 @@
 ---
 tags: str stack
+layout: code
+
 ---
 
 

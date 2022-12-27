@@ -1,5 +1,7 @@
 ---
 tags: graph
+layout: code
+
 ---
 
 

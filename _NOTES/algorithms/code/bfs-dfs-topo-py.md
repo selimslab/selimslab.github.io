@@ -1,5 +1,7 @@
 ---
 tags: graph
+layout: code
+
 ---
 
 
@@ -9,40 +11,43 @@ tags: graph
 from collections import deque
 
 
-def bfs(graph, start_node):
-    queue = deque()
-    queue.append(start_node)
+def bfs(graph, node):
+    q = deque([node])
+    res = []
+    seen = set()
 
-    result = list()
-
-    while queue:
-        node = queue.popleft()
-        if node not in result:
-            queue += graph.get(node, [])
-            result.append(node)
+    while q:
+        n = q.popleft()
+        if n not in seen:
+            q += graph.get(n, [])
+            res.append(n)
+            seen.add(n)
 
     return result
 
 
-def dfs(graph, start_node, visited=None):
-    if not visited:
-        visited = list()
+def dfs(graph, node, seen=None, res=None):
+    if not seen:
+        seen = set()
+    if not res: 
+        res = []
 
-    if start_node not in visited:
-        visited.append(start_node)
-        for node in graph.get(start_node, []):
-            dfs(graph, node, visited)
+    if node not in seen:
+        res.append(node)
+        seen.add(node)
+        for n in graph.get(node, []):
+            dfs(graph, n, seen, res)
 
-    return visited
+    return res
 
 
 def toposort(graph):
-    visited = list()
+    visited = []
 
     def topo(node):
-        for neigh in graph.get(node, []):
-            if neigh not in visited:
-                topo(neigh)
+        for n in graph.get(node, []):
+            if n not in visited:
+                topo(n)
 
         # mark as visited only after visiting all neighbours
         if node not in visited:
