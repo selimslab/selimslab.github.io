@@ -7,7 +7,7 @@ tags: phil skills essais top
 
 ## How would your best version live?  
 
-We live within the limits of our body, genes, childhood, our past, family, friends, society, geography, culture, and the spirit of times. 
+We live within the limits of our past, body, genes, family, friends, society, geography, language, culture, and the spirit of times. 
 
 This is the river but where do we go? 
 
@@ -17,7 +17,7 @@ How to be at peace?
 
 ## Choice 
 
-Choosing well requires an understanding of the context and possible consequences
+Choosing well requires understanding the context 
 
 Understanding comes with experience and reflection 
 
@@ -35,7 +35,13 @@ Nothing wrong with it but chasing blindly brings more pain.
 
 Pain is inevitable, suffering is optional, and courage is a choice. 
 
+"Pain is neither unbearable nor unending, as long as you keep in mind its limits and don't magnify them in your imagination."
+
+Pain also builds character and strengthens the mind 
+
 ## Desire 
+
+No desire is free. You pay it with your time, health, and peace of mind. 
 
 Natural desires are easy to get. Sleep, sun, water, food, sex, exercise, friends, ... 
 
@@ -106,6 +112,12 @@ It doesn’t matter.
 
 [[take-a-walk]]
 
+## Patience 
+
+"Fear both the heat and the cold of your heart, and try to have patience, if you can"
+
+Treat people with kindness and respect, out of self-respect and principle, even when they don't deserve it. 
+
 ## Pride 
 
 I am yet another being on a speck of dust in an infinite space 
@@ -113,6 +125,45 @@ I am yet another being on a speck of dust in an infinite space
 Know your limitations. 
 
 Don’t take yourself too seriously.
+
+## Envy 
+
+We often envy a specific aspect of a person. 
+
+Would you like to completely exchange lives? Often not. 
+
+## [[hope]] 
+
+"A ship shouldn't ride on a single anchor nor life on a single hope" Epictetus 
+
+"It won't be as good as you hope, neither as bad as you fear"
+
+## Fear 
+
+The root of fear is a perceived threat, real or imaginary
+
+It is often fear under anxiety, anger, and hate 
+
+Fear often vanishes when you face it
+
+## Courage 
+
+Standing up for what you believe to be right even if you fear  
+
+It gets stronger every time you choose courage over fear 
+
+It's the great antidote to injustice, pain, fear, anger, hate, and suffering in the world 
+
+## Cruelty 
+
+"All cruelty springs from weakness" Seneca 
+
+[[who-goes-nazi]]
+
+
+## Boredom 
+
+It's not something to get rid of, boredom is the seed of creativity 
 
 ## Feel and let go 
 
