@@ -1,7 +1,6 @@
 ---
 title: A good life 🌱 
 tags: phil skills essais top 
-layout: page
 ---
 
 > An unexamined life is not worth living.
