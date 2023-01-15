@@ -7,31 +7,19 @@ tags: phil skills essais top
 
 ## How would your best version live?  
 
-We live within the limits of our past, body, genes, family, friends, society, geography, language, culture, and the spirit of times. 
+We live within the limits drawn by our genes, society, culture, the spirit of times, and myriad other factors 
 
-This is the river but where do we go? 
-
-How to live in harmony? 
-
-How to be at peace? 
+Can't we do anything to live in harmony, to be at peace?
 
 ## Choice 
 
-Choosing well requires understanding the context 
+Choice requires power, choosing well also requires understanding which comes with mistakes and reflection, and mistakes comes with time 
 
-Understanding comes with experience and reflection 
-
-Experience comes with mistakes 
-
-Since mistakes can't be rushed, let's reflect on collective human experience  
-
-In the end, what you do is more important than what you think or say. 
+In the end, what you do is more important than what you think or say
 
 ## Pleasure and Pain 
 
-All living beings try to pursue pleasure and avoid pain. 
-
-Nothing wrong with it but chasing blindly brings more pain. 
+Chasing pleasure brings more pain. 
 
 Pain is inevitable, suffering is optional, and courage is a choice. 
 
@@ -41,11 +29,7 @@ Pain also builds character and strengthens the mind
 
 ## Desire 
 
-No desire is free. You pay it with your time, health, and peace of mind. 
-
-Natural desires are easy to get. Sleep, sun, water, food, sex, exercise, friends, ... 
-
-After the natural limit, there is no end to desire. Unless you draw the line.  
+No desire is free. We pay it with time, health, and peace of mind. 
 
 Nothing in excess. 
 
@@ -64,9 +48,7 @@ When the interpretation changes, feelings also change.
 
 ![](/static/img/boy-and-cat.jpeg)
 
-A good life comes with good social relationships. 
-
-Empathy is a choice, kindness is a choice 
+We can choose empathy, kindness, and sharing  
 
 Communication can both ruin and heal. [[communicate-well]]
 
@@ -82,27 +64,25 @@ You become like your friends.
 
 The past had to be this way given all the factors. Let go of regret. Learn and move on. 
 
-The future is often neither as good as we hope nor as bad as we fear. 
+Future is unpredictable, often neither as good as we hope nor as bad as we fear 
 
-And worrying doesn't make it one bit better. 
-
-Spend your energy on what you can do, here and now. You can handle the future when it comes. 
+And we have the same reason when it comes so worrying is a waste of time. Better to focus on here and now
 
 ## Love
 
 "Love is wise, hatred is foolish."
 
+We can choose love over indifference 
+
 > Tis better to have loved and lost
 >
 > Than never to have loved at all.
-
-Choose love over indifference 
 
 ## Anger 
 
 Do nothing in anger
 
-There are endless sources of irritation and you can’t be angry all the time. 
+There are endless sources of anger and you can’t be angry all the time. 
 
 What is so surprising? Nothing new under the sun. 
 
@@ -115,6 +95,8 @@ It doesn’t matter.
 ## Patience 
 
 "Fear both the heat and the cold of your heart, and try to have patience, if you can"
+
+Boredom not something to get rid of, it leads to creativity 
 
 Treat people with kindness and respect, out of self-respect and principle, even when they don't deserve it. 
 
@@ -132,12 +114,6 @@ We often envy a specific aspect of a person.
 
 Would you like to completely exchange lives? Often not. 
 
-## [[hope]] 
-
-"A ship shouldn't ride on a single anchor nor life on a single hope" Epictetus 
-
-"It won't be as good as you hope, neither as bad as you fear"
-
 ## Fear 
 
 The root of fear is a perceived threat, real or imaginary
@@ -150,20 +126,13 @@ Fear often vanishes when you face it
 
 Standing up for what you believe to be right even if you fear  
 
-It gets stronger every time you choose courage over fear 
-
-It's the great antidote to injustice, pain, fear, anger, hate, and suffering in the world 
+It's the great antidote to all the pain, fear, anger, hate, and injustice in this world 
 
 ## Cruelty 
 
 "All cruelty springs from weakness" Seneca 
 
 [[who-goes-nazi]]
-
-
-## Boredom 
-
-It's not something to get rid of, boredom is the seed of creativity 
 
 ## Feel and let go 
 
@@ -223,15 +192,12 @@ Work can be fun and fulfilling but it's just another game.
 
 There are more important things in life, like health, family, and character   
 
-## Just [[breathe]]
-
-Is there a simpler reminder? 
-
-Always here and reminds what is necessary here and now.
 
 ## Play 
 
 Do not expect to 'get' anything out of life, just play 
+
+Just [[breathe]]
 
 [[know-where-to-stop]]
 
