@@ -3,6 +3,13 @@ title: Şiirler
 tags: poetry
 ---
 
+Canı cehenneme rahat uyuyanın
+
+Kapısını örtenin perdesini çekenin
+
+Yüreği yalnız kendiyle dolu olanın
+
+---
 
 çevrende herkes şaşırsa bunu da senden bilse sen aklı başında kalabilirsen eğer
 

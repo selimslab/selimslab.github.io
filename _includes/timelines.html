@@ -155,23 +155,7 @@ li.now {
 
   <script>
 
-    const age = 28
-
-    function add_decade_numbers(){
-      const decades = document.querySelector('.decade-numbers');
-        for (var i = 1; i <= 12; i++) {
-            decades.insertAdjacentHTML('beforeend', `<li>${i}</li>`);
-        }
-
-        // const years = document.querySelector('.year-numbers');
-        // for (var i = 1; i <= 5; i++) {
-        //     years.insertAdjacentHTML('beforeend', `<li>${i}</li>`);
-        // }
-
-    }
-
-
-    function add_years(){
+    function add_years(age){
         const life = Array(60).fill(0)
 
         const years = document.querySelector('.years');
@@ -190,7 +174,7 @@ li.now {
 
     function add_week_numbers(){
       const weeks = document.querySelector('.week-numbers');
-        for (var i = 0; i < 53; i++) {
+        for (var i = 1; i <= 52; i++) {
           if (i+1 == this_week){
             weeks.insertAdjacentHTML('beforeend', `<li style="color:orange; font-weight:bold">${i}</li>`);
           }else{
@@ -226,9 +210,12 @@ li.now {
 
 
     add_decade_numbers()
-    add_years()
 
     const this_year = moment().year()
+
+    const age = this_year - 1995
+    add_years(age)
+
     const this_week = moment().week()
     const this_day = moment().dayOfYear()
 
