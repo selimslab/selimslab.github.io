@@ -7,25 +7,25 @@ tags: phil skills essais top
 
 ## How would your best version live?  
 
-We live within the limits drawn by our genes, society, culture, the spirit of times, and myriad other factors 
+We live within the limits drawn by our genes, nature, nurture, society, culture, the spirit of times, and myriad other factors 
 
 Can't we do anything to live in harmony, to be at peace?
 
 ## Choice 
 
-Choice requires power, choosing well also requires understanding which comes with mistakes and reflection, and mistakes comes with time 
+We have the ability to choose but choosing well requires understanding which comes with mistakes 
 
-In the end, what you do is more important than what you think or say
+In the end, what matters is what you do, more than what you think or say
 
 ## Pleasure and Pain 
 
-Chasing pleasure brings more pain. 
+Pleasure is good in balance but chasing pleasure doesn't end well 
 
-Pain is inevitable, suffering is optional, and courage is a choice. 
+We can't avoid all the pain but we can choose our attitude in facing painful life events
 
-"Pain is neither unbearable nor unending, as long as you keep in mind its limits and don't magnify them in your imagination."
+We can choose courage and balance instead of blame, exaggeration, anger, comparison, and despair
 
-Pain also builds character and strengthens the mind 
+We can channel our pain to build character and strength 
 
 ## Desire 
 
@@ -35,11 +35,11 @@ Nothing in excess.
 
 ## Thinking and feeling
 
-The eyes don’t see, they transmit light, and the brain sees. 
-
-Similarly, the brain interprets external input and creates feelings. 
-  
 When the interpretation changes, feelings also change.  
+
+Our brains interpret external input and creates feelings. 
+
+The eyes don’t see, they transmit light, and the brain sees. 
 
 > "Very little is needed to make a happy life; 
 > it is all within yourself, in your way of thinking"
@@ -96,13 +96,13 @@ It doesn’t matter.
 
 "Fear both the heat and the cold of your heart, and try to have patience, if you can"
 
-Boredom not something to get rid of, it leads to creativity 
+Boredom leads to creativity, it is not something to get rid of with distactions
 
 Treat people with kindness and respect, out of self-respect and principle, even when they don't deserve it. 
 
 ## Pride 
 
-I am yet another being on a speck of dust in an infinite space 
+I am yet another being on a speck of dust floating in an infinite space 
 
 Know your limitations. 
 
