@@ -1,13 +1,13 @@
 ---
 ---
 
-## ACTIVE
+# ACTIVE
 
-### TODAY 
+## TODAY 
 
 
 
-### BACKLOG 
+## BACKLOG 
  
 learn rodne cislo/ TIN 
 
@@ -22,6 +22,17 @@ replace drivers licence
 embassy appointment 
 
 ask about marriage visa 
+
+
+## PC migration 
+
++ Dynamic theme 
++ vscode 
++ visual studio 
++ docker
++ minikube 
++ download cxp main 
+
 
 
 # TECHNICAL 
@@ -302,6 +313,10 @@ VZP ok
 ## Stocks 
 
 ESPP ok 
+
+## Immigration 
+
+New partner EY 
 
 
 
