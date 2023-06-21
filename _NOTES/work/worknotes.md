@@ -1,47 +1,54 @@
 ---
 ---
 
+
+## TODAY
+
+
 # ACTIVE
 
-## TODAY 
+- tprompt 
+    - nikola jelisavac
 
 
+## Todo
 
-## BACKLOG 
- 
-learn rodne cislo/ TIN 
+- learn rodne cislo/ TIN
 
-add TIN to ESPP stock program
+  - add TIN to ESPP stock program
+  - Open broker account
 
-Open broker account 
+- embassy appointment
 
-get fidelity letter from karoliny 
+  - karoliny letter
 
-replace drivers licence 
+- buy a car
 
-embassy appointment 
+  - prepare a car checklist
 
-ask about marriage visa 
+- bring best
+  - mail EY about marriage visa
 
+## In progress
 
-## PC migration 
+replace drivers licence
 
-+ Dynamic theme 
-+ vscode 
-+ visual studio 
-+ docker
-+ minikube 
-+ download cxp main 
+## PC migration
 
+- Dynamic theme
+- vscode
+- visual studio
+- docker
+- minikube
+- download cxp main
 
+# TECHNICAL
 
-# TECHNICAL 
+## Import Forms
 
-## Import Forms 
+Import-Solution 'https://aurorabapenv2fbdc.crm10.dynamics.com/' -Username 'aurorauser07@capintegration01.onmicrosoft.com' -Password '7wS7W!@Wr' -PathToSolution 'C:\CXP-Main\bin\Solutions\Forms.Solution\Debug\net471\CrmSolutions\FormsSolution\FormsSolution_managed.zip'
 
-Import-Solution 'https://aurorabapenv70e30.crm10.dynamics.com/' -Username 'aurorauser07@capintegration01.onmicrosoft.com' -Password '7wS7W!@Wr' -PathToSolution 'C:\CXP-Main\bin\Solutions\Forms.Solution\Debug\net471\CrmSolutions\FormsSolution\FormsSolution_managed.zip'
-
-## Import Event  
+## Import Event
 
 [Setup EventManagementRealtimeLink in Aurora or Sx2 org](https://dev.azure.com/dynamicscrm/CXPlatform/_wiki/wikis/CXP%20team%20wiki/55667/Setup-EventManagementRealtimeLink-in-Aurora-or-Sx2-org)
 
@@ -53,18 +60,21 @@ Import-Solution 'https://aurorabapenv70e30.crm10.dynamics.com/' -Username 'auror
 
 Import-Solution 'https://aurorabapenv70e30.crm10.dynamics.com/' -Username 'aurorauser07@capintegration01.onmicrosoft.com' -Password '7wS7W!@Wr' -PathToSolution 'C:\Users\selimozturk\Downloads\EventManagementRealtimeLinkSolution_managed.cab'
 
+## L2 testing
 
-## L2 testing 
+.\l2TestSetup.ps1 -orgurl https://aurorabapenv2fbdc.crm10.dynamics.com/ -orgid 61cfe3ed-5e0b-ee11-a66e-00224820cbfd
 
-.\l2TestSetup.ps1 -orgurl https://mkttestfebmaster2702sg908.crm10.dynamics.com/ -orgid 2355ce29-64b6-ed11-a10e-0022482890c9
+-nobuild -nodeploy
 
 --nodeploy=true
 
-### View logs of local minikube 
+what is the difference? when to use nodeploy?
+
+### View logs of local minikube
 
 ## A11Y
 
-NVDA 
+NVDA
 
 ## Localization
 
@@ -72,19 +82,22 @@ NVDA
 
 pac solution unpack --zipfile C:\CXP-Main\bin\Solutions\Forms.Solution\Debug\net471\CrmSolutions\FormsSolution\FormsSolution.zip --folder C:\loc --localize
 
-## Kusto 
+## Kusto
 
-### tables 
-* union ActorLog*, ServiceLog*
-* AllClusters_ServiceLogs
-* union *Events
-* CommunicationEvents
-* TraceEvents
+### tables
+
+- union ActorLog*, ServiceLog*
+- AllClusters_ServiceLogs
+- union \*Events
+- CommunicationEvents
+- TraceEvents
 
 ## applicationTypeName
-| where applicationTypeName in ("FormsApplicationType", "TrackedContentApplicationType", "UserTrackingApplicationType") 
 
-### time windows 
+| where applicationTypeName in ("FormsApplicationType", "TrackedContentApplicationType", "UserTrackingApplicationType")
+
+### time windows
+
 let startTime = datetime(2023-04-27 00:00:00);
 | where TIMESTAMP between (startTime..endTime)
 
@@ -92,34 +105,33 @@ let startTime = datetime(2023-04-27 00:00:00);
 
 | where env_time >= ago(1h)
 
-## operators 
-* distinct 
-* count
-* sort by 
+## operators
 
-## API 
+- distinct
+- count
+- sort by
 
-/api/data/v9.0/ 
+## API
 
+/api/data/v9.0/
 
 ## Formeditor
 
-export a zip from powerapps and replace in repo 
+export a zip from powerapps and replace in repo
 
-## Formloader 
+## Formloader
 
 comes from cdn
 
-test with Fiddler 
+test with Fiddler
 
+## Fiddler
 
-## Fiddler 
+set cedebug to true
 
-set cedebug to true 
+nocache
 
-nocache 
-
-disable cache 
+disable cache
 
 msdynmkt_CxpFormEditorModule.WebResource
 
@@ -131,20 +143,19 @@ msdynmkt_CxpFormEditorModule.json
 
 C:\CXP-Main\src\Solutions\Forms\Solution\unmanaged\WebResources\msdynmkt_CxpFormEditorModule.json
 
+## VALUES
 
-## VALUES 
-
-* empower every person  
-* clarity 
-* energy
-* deliver
-* growth mindset
-* customer empathy
-* inclusion 
+- empower every person
+- clarity
+- energy
+- deliver
+- growth mindset
+- customer empathy
+- inclusion
 
 ---
 
-## ROADMAP 
+## ROADMAP
 
 Technical Excellence​
 
@@ -152,141 +163,196 @@ L61: able to document and communicated best practices and team standards; readil
 
 ​Design & Architecture​
 
-L61:  Understand product area and technology stack.  Design and present a medium feature considering multiple options and tradeoffs​
-
+L61:  Understand product area and technology stack. Design and present a medium feature considering multiple options and tradeoffs​
 
 Planning & Execution​
 
-L61:  Anticipates risks and roadblocks and communicates them ahead of time. Develops methods to track and report metrics. Shifts priorities as required to mitigate risks. ​
-
+L61: Anticipates risks and roadblocks and communicates them ahead of time. Develops methods to track and report metrics. Shifts priorities as required to mitigate risks. ​
 
 E2E Quality​
 
-L61: ensure tests are written at lowest level possible, 
-writes testable code and robust tests, 
-implementation tradeoffs clearly identified and discussed ahead of time, 
+L61: ensure tests are written at lowest level possible,
+writes testable code and robust tests,
+implementation tradeoffs clearly identified and discussed ahead of time,
 proactively identifies / addresses trends; able to cover triage​
 
 DevOps​
 
 L61: Considers rollout plan (including risk-mitigation) during feature design & development. Ensures proper customer and operation telemetry is in place prior to roll out. Priorities quick issue mitigation to minimize customer impact. Efficient DRI for the feature team area, who can be the primary owner for most Sev2 LSIs during DRI rotation. ​
 
-
 Collaboration​
 
 L61: Readily engages with others on the team to complete work ​
-
 
 Customer focus​
 
 L61: customer advocate, participates on feedback tickets and forums; provides feedback based on the customer needs; incorporates customer feedback into new product/feature decision making; generates new ideas to meet customer needs. Develops multiple options to meet customer needs ​
 
-
 Leadership (clarity / energy / success)​
 
-L61: Exudes confidence in the product area, feature being worked upon, seeking clarity where needed. 
-Clearly (& precisely) communicates challenges, 
-plans & status of work to stake holders. Conduct Agile design reviews sharing knowledge & inviting feedback from others. Contributes to the hiring process, acts are technical mentor, contributes to identifying and solving team efficiency and moral issues; understand team strategy and able to explain mapping between person contributions and team’s strategy. Proactively understands and support team priorities. 
+L61: Exudes confidence in the product area, feature being worked upon, seeking clarity where needed.
+Clearly (& precisely) communicates challenges,
+plans & status of work to stake holders. Conduct Agile design reviews sharing knowledge & inviting feedback from others. Contributes to the hiring process, acts are technical mentor, contributes to identifying and solving team efficiency and moral issues; understand team strategy and able to explain mapping between person contributions and team’s strategy. Proactively understands and support team priorities.
 
 ---
 
-## Evtmgt CDS integration test L2 
+## Evtmgt CDS integration test L2
 
-Create entities, local ok, ci fails 
-call eventClient, both fails 
+Create entities, local ok, ci fails
+call eventClient, both fails
 
 temporary? no
-docker? no 
-HttpClientBaseUrls? no 
+docker? no
+HttpClientBaseUrls? no
 old aurora? no, new aurora the same
-eventClient? no, formclient the same 
-config? maybe 
-91be x 
-lp-config x 
-l2 cds doc x 
-consent x 
-sxs has auth exception 
+eventClient? no, formclient the same
+config? maybe
+91be x
+lp-config x
+l2 cds doc x
+consent x
+sxs has auth exception
 
 https://dev.azure.com/dynamicscrm/CXPlatform/_wiki/wikis/CXP%20team%20wiki/40876/Connecting-to-Aurora-or-TIP-dataverse-org-from-locally-running-service
 
-CI has what? 
-- CI cant find uniquename - might be solved 
-- Local cant call eventclient, do we have to call? how else can we test CDS integration of the public api? 
+CI has what?
 
+- CI cant find uniquename - might be solved
+- Local cant call eventclient, do we have to call? how else can we test CDS integration of the public api?
 
 other notes:
-- sk-startdev and sk-deploy are flaky, they work today and fail tomorrow 
-- doesn't work without cloudtest flag, then it deploys using cloudtest settings 
-- "LocalDiscovery": false in cloud tests 
 
-how can I see logs of CI pipeline container? 
-what does forms client do in CI? 
+- sk-startdev and sk-deploy are flaky, they work today and fail tomorrow
+- doesn't work without cloudtest flag, then it deploys using cloudtest settings
+- "LocalDiscovery": false in cloud tests
 
+how can I see logs of CI pipeline container?
+what does forms client do in CI?
 
-## Errors 
+## How to L2 test?
+
+[Test levels](https://dev.azure.com/dynamicscrm/CXPlatform/_wiki/wikis/CXP%20team%20wiki/5215/Test-Levels)
+
+We test the APIs of deployed services and integrations in L2. For example CDS integration of a new endpoint.
+
+For that we will need a machine to test.
+An Aurora Machine is a sandbox VM provisioned to behave like a real D365 environment,
+with an accompanying admin user account.
+These machines can be checked out for development use through [the portal ](https://portal.microsoftaurora365.com/Resource/UserResources)
+
+Import necessary solutions
+
+Create a release for [CXP CDS Package Import into Private Org](https://dev.azure.com/dynamicscrm/CXPlatform/_release?definitionId=227) and provide details of your aurora
+
+If you need to setup Event Management, also follow [this guide](https://dev.azure.com/dynamicscrm/CXPlatform/_wiki/wikis/CXP%20team%20wiki/55667/Setup-EventManagementRealtimeLink-in-Aurora-or-Sx2-org)
+
+---
+
+Now you have an aurora with necessary solutions imported
+
+Make sure you are on MS VPN
+
+.\l2TestSetup.ps1 -orgurl [your org url] -orgid [your org id]
+
+After you deploy the local minikube with the above script, start the tests from either VS or from vscode with l2 commmand
+
+### How to debug locally?
+
+It's possible to attach a debugger to a K8 pod
+
+[K8 debugging guide](https://dev.azure.com/dynamicscrm/CXPlatform/_wiki/wikis/CXP%20team%20wiki/6685/k8s-debugging?anchor=vs-code)
+
+The l2TestSetup script has sk-deploy or sk-startdev, it will start a local minikube cluster and you can see the pods from the K8 extension
+
+The steps here will enable you to attach a debugger to running pods
+
+ctrl + shift + P -> Run tasks -> Publish
+
+Install Kubernetes extension by Microsoft
+
+ctrl + shift + P -> change kubernetes namespace -> cxp
+
+Then you can start a debug session with F5 or Run menu
+
+Add a breakpoint
+
+Send a request to the local cluster at public-localhost.. or start an L2 test
+
+Check "run and debug" menu of vscode
+
+## Errors
 
 ## IcMs
 
-## Bugs 
+## Bugs
 
-# SOCIAL 
+# SOCIAL
 
+## Vacation plan
 
- 
+april 1w 5
+
+july 2w 8
+
+sep 1w 5
+
+nov 1w 4
+
+dec 1w 3
+
 # CZECH BASICS
 
-
-dekuju moc 
+dekuju moc
 
 prominte
 
-omlouvam se 
+omlouvam se
 
-prosim 
-
----
-
-ahoj 
-
-ja sem Selim 
-
-jsem doma 
-
-jdu ven 
+prosim
 
 ---
 
-dobre rano 
+ahoj
 
-dobry den 
+ja sem Selim
 
-dobry vecer 
+jsem doma
 
-Nashledanou / cau  
+jdu ven
 
-## digits 
+---
 
-* nula 
-* jedna 
-* dva 
-* tri
-* ctyri
-* pet
-* sest
-* sedm
-* osm
-* devet
-* deset
+dobre rano
 
-## time 
+dobry den
 
-minut 
+dobry vecer
 
-hodin 
+Nashledanou / cau
 
-den 
+## digits
 
-tydne 
+- nula
+- jedna
+- dva
+- tri
+- ctyri
+- pet
+- sest
+- sedm
+- osm
+- devet
+- deset
+
+## time
+
+minut
+
+hodin
+
+den
+
+tydne
 
 mesic
 
@@ -294,29 +360,24 @@ rok
 
 ## words
 
-maybe - mozna 
+maybe - mozna
 
+# OFFICIAL
 
+## Taxes
 
-# OFFICIAL 
+kpmg
 
-## Taxes 
+tax id/TIN/rodne cislo
 
-kpmg 
+## Insurance
 
-tax id/TIN/rodne cislo  
+VZP ok
 
-## Insurance 
+## Stocks
 
-VZP ok 
+ESPP ok
 
-## Stocks 
+## Immigration
 
-ESPP ok 
-
-## Immigration 
-
-New partner EY 
-
-
-
+New partner EY
