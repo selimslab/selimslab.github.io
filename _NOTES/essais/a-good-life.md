@@ -1,208 +1,92 @@
 ---
-title: A good life 🌱 
-tags: phil skills essais top 
+title: A good life 🌱
+tags: phil skills essais top
 ---
 
-> An unexamined life is not worth living.
+Think of yourself as dead. You have lived your life. Now take what's left and live it properly.
 
-## How would your best version live?  
+Nothing in excess
 
-We live within the limits drawn by our genes, nature, nurture, society, culture, the spirit of times, and myriad other factors 
+Nothing in anger
 
-Can't we do anything to live in harmony, to be at peace?
+Neither chase pleasure nor avoid necessary pain
 
-## Choice 
+This too shall pass
 
-We have the ability to choose but choosing well requires understanding which comes with mistakes 
+---
 
-In the end, what matters is what you do, more than what you think or say
+The world is unjust and full of shit, still there is some good in it
 
-## Pleasure and Pain 
-
-Pleasure is good in balance but chasing pleasure doesn't end well 
-
-We can't avoid all the pain but we can choose our attitude in facing painful life events
-
-We can choose courage and balance instead of blame, exaggeration, anger, comparison, and despair
-
-We can channel our pain to build character and strength 
-
-## Desire 
-
-No desire is free. We pay it with time, health, and peace of mind. 
-
-Nothing in excess. 
-
-## Thinking and feeling
-
-When the interpretation changes, feelings also change.  
-
-Our brains interpret external input and creates feelings. 
-
-The eyes don’t see, they transmit light, and the brain sees. 
-
-> "Very little is needed to make a happy life; 
-> it is all within yourself, in your way of thinking"
-
-## Social animals 
+Complain less, appreciate more
 
 ![](/static/img/boy-and-cat.jpeg)
 
-We can choose empathy, kindness, and sharing  
-
-Communication can both ruin and heal. [[communicate-well]]
-
-## Garbage in, garbage out. 
-
-You become what you think of. 
-
-You become how you spend your time. 
-
-You become like your friends. 
-
-## The Past and The Future 
-
-The past had to be this way given all the factors. Let go of regret. Learn and move on. 
-
-Future is unpredictable, often neither as good as we hope nor as bad as we fear 
-
-And we have the same reason when it comes so worrying is a waste of time. Better to focus on here and now
-
-## Love
-
-"Love is wise, hatred is foolish."
-
-We can choose love over indifference 
-
-> Tis better to have loved and lost
->
-> Than never to have loved at all.
-
-## Anger 
-
-Do nothing in anger
-
-There are endless sources of anger and you can’t be angry all the time. 
-
-What is so surprising? Nothing new under the sun. 
-
-It’s not personal. 
-
-It doesn’t matter. 
-
-[[take-a-walk]]
-
-## Patience 
-
-"Fear both the heat and the cold of your heart, and try to have patience, if you can"
-
-Boredom leads to creativity, it is not something to get rid of with distactions
-
-Treat people with kindness and respect, out of self-respect and principle, even when they don't deserve it. 
-
-## Pride 
-
-I am yet another being on a speck of dust floating in an infinite space 
-
-Know your limitations. 
-
-Don’t take yourself too seriously.
-
-## Envy 
-
-We often envy a specific aspect of a person. 
-
-Would you like to completely exchange lives? Often not. 
-
-## Fear 
-
-The root of fear is a perceived threat, real or imaginary
-
-It is often fear under anxiety, anger, and hate 
-
-Fear often vanishes when you face it
-
-## Courage 
-
-Standing up for what you believe to be right even if you fear  
-
-It's the great antidote to all the pain, fear, anger, hate, and injustice in this world 
-
-## Cruelty 
-
-"All cruelty springs from weakness" Seneca 
-
-[[who-goes-nazi]]
-
-## Feel and let go 
-
-Emotions gather and disperse like waves and clouds. 
-
-Neither suppress nor exaggerate.  
-
-[[wind-and-rain]]
-
-## Gratitude 
-
-![](/static/img/notice-when-you-are-happy.png)
- 
-Complain less, appreciate more
-
-## Nothing lasts 
-
-[[death]] comes sooner than we think, maybe tomorrow morning  
-
-This too shall pass 
-
-## Open
-
-Truth has many faces
-
-Embrace change and uncertainty  
-
-[[critical-thinking]]
-
-[[cognitive-biases]]
-
 Judge less, accept more
 
-## Focus 
+---
 
-[[do-one-thing-at-a-time-and-do-it-well]]
+Do not chase or avoid emotions, feel and let go
 
-[[problem-solving]]
+Do what feels right over what is easy
 
-![](/static/img/just-do-one-thing.png)
+It’s not personal. It doesn’t matter. Don't let it get you down
 
-## Work 
+Know your limits. Don’t take yourself too seriously
 
-Being busy is often a waste of time, quality work requires a relaxed and focused mind 
+Fear leads to anger, anger leads to hate. 
 
-[[what-to-work-on]]
+---
 
-[[get-things-done]]
+You are what you do. Garbage in, garbage out
 
-[[flow]]
+Do what you can, here and now
 
-[[teamwork]]
+Nature does not hurry yet everything is accomplished
 
-[[decision-making]]
+---
 
-Work can be fun and fulfilling but it's just another game. 
+Best things are so simple, a good sleep, a shower, a walk in nature, sunlight, clouds, wind, rain, a deep breath, some fresh bread, cold water, friends
 
-There are more important things in life, like health, family, and character   
+Take a deep breath
 
+Take a walk
 
-## Play 
+---
 
-Do not expect to 'get' anything out of life, just play 
+Go with all your heart
 
-Just [[breathe]]
+Don't decide under physical discomfort or heavy emotion, wait until your mind is clear
 
-[[know-where-to-stop]]
+Do nothing against your will nor against community nor without due examination nor with reluctancy
+
+Don't get stuck, good enough is good
+
+---
+
+Love is wise, hatred is foolish.
+
+![](/static/img/attached-to-all.png)
+
+---
+
+Do one thing at a time
+
+Good work requires a relaxed and focused mind
+
+Mastery comes from deliberate practice, saying no to many good ideas to focus on the important ones
+
+---
+
+The listener is in charge
+
+Think twice before you speak. Be careful with promises.
+
+Say something good or say nothing
+
+Don't try to prove anything, people believe what they want to believe
+
+---
+
+It's later than you think
 
 Never miss a good chance to shut up
-
-> Think of yourself as dead. You have lived your life.  
-> 
-> Now take what's left and live it properly.

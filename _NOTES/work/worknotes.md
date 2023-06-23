@@ -1,15 +1,12 @@
 ---
 ---
 
-
 ## TODAY
-
 
 # ACTIVE
 
-- tprompt 
-    - nikola jelisavac
-
+- tprompt
+  - nikola jelisavac
 
 ## Todo
 
@@ -88,7 +85,7 @@ pac solution unpack --zipfile C:\CXP-Main\bin\Solutions\Forms.Solution\Debug\net
 
 - union ActorLog*, ServiceLog*
 - AllClusters_ServiceLogs
-- union \*Events
+- union *Events
 - CommunicationEvents
 - TraceEvents
 
@@ -105,11 +102,17 @@ let startTime = datetime(2023-04-27 00:00:00);
 
 | where env_time >= ago(1h)
 
-## operators
+### operators
 
 - distinct
 - count
 - sort by
+
+### examples
+
+AllClusters_ServiceLogs
+| where Service startswith "landingpageforms"
+| where Message contains "Linked Submission Id"
 
 ## API
 
