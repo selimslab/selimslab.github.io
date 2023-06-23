@@ -21,7 +21,11 @@ Complain less, appreciate more
 
 ![](/static/img/boy-and-cat.jpeg)
 
-Judge less, accept more
+Best things are simple, a good sleep, a shower, a walk, sunlight, trees, clouds, wind, rain, a deep breath, friends
+
+---
+
+We know very little to judge well. Judge less, accept more
 
 ---
 
@@ -33,7 +37,7 @@ It’s not personal. It doesn’t matter. Don't let it get you down
 
 Know your limits. Don’t take yourself too seriously
 
-Fear leads to anger, anger leads to hate. 
+Fear leads to anger, anger leads to hate.
 
 ---
 
@@ -44,12 +48,6 @@ Do what you can, here and now
 Nature does not hurry yet everything is accomplished
 
 ---
-
-Best things are so simple, a good sleep, a shower, a walk in nature, sunlight, clouds, wind, rain, a deep breath, some fresh bread, cold water, friends
-
-Take a deep breath
-
-Take a walk
 
 ---
 
@@ -73,7 +71,7 @@ Do one thing at a time
 
 Good work requires a relaxed and focused mind
 
-Mastery comes from deliberate practice, saying no to many good ideas to focus on the important ones
+Mastery comes from deliberate practice and focus, saying no to many good ideas to focus on the important ones
 
 ---
 
