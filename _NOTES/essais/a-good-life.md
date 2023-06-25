@@ -120,6 +120,8 @@ Going fast in the wrong direction is not productivity
 
 [[get-things-done]]
 
+Only genuine interest and passion can create beautiful results
+
 ---
 
 Listener"s in charge  

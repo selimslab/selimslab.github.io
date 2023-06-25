@@ -1,6 +1,6 @@
 ---
 title: NATO phonetic alphabet 
-tags: lin
+tags: lin lists
 ---
 
 Alpha

@@ -1,5 +1,5 @@
 ---
-tags: lin
+tags: lin lists
 ---
 
 ![](/static/img/greek-alphabet.jpeg)

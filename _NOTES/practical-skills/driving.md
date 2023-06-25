@@ -2,8 +2,6 @@
 tags: skills
 ---
 
-Drive boring 
-
 Be predictable 
 
 ---

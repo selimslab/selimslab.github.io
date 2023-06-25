@@ -3,67 +3,6 @@ title: Mr. Tambourine Man
 ---
 
 
-Hey, Mr. Tambourine Man, play a song for me
-
-I'm not sleepy and there is no place I'm going to
-
-Hey, Mr. Tambourine Man, play a song for me
-
-In the jingle jangle morning I'll come following you
-
----
-
-Though I know that evening's empire has returned into sand
-
-Vanished from my hand
-
-Left me blindly here to stand, but still not sleeping
-
-My weariness amazes me, I'm branded on my feet
-
-I have no one to meet
-
-And the ancient empty street's too dead for dreaming
-
----
-
-Hey, Mr. Tambourine Man, play a song for me
-
-I'm not sleepy and there is no place I'm going to
-
-Hey, Mr. Tambourine Man, play a song for me
-
-In the jingle jangle morning I'll come following you
-
----
-
-Take me on a trip upon your magic swirling ship
-
-My senses have been stripped
-
-My hands can't feel to grip
-
-My toes too numb to step
-
-Wait only for my boot heels to be wandering
-
-I'm ready to go anywhere, I'm ready for to fade
-
-Into my own parade
-
-Cast your dancing spell my way, I promise to go under it
-
----
-
-Hey, Mr. Tambourine Man, play a song for me
-
-I'm not sleepy and there is no place I'm going to
-
-Hey, Mr. Tambourine Man, play a song for me
-
-In the jingle jangle morning I'll come following you
-
----
 
 Though you might hear laughing, spinning, swinging madly across the sun
 
@@ -120,14 +59,4 @@ With all memory and fate
 Driven deep beneath the waves
 
 Let me forget about today until tomorrow
-
----
-
-Hey, Mr. Tambourine Man, play a song for me
-
-I'm not sleepy and there is no place I'm going to
-
-Hey, Mr. Tambourine Man, play a song for me
-
-In the jingle jangle morning I'll come following you
 
