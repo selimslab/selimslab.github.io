@@ -1,10 +1,20 @@
 <script src="/assets/js/datetime.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
 
+<div>
 
+  <progress id="life-progress" max="64" value=""></progress>
   <ul class="years"></ul>
+</div>
 
+<div>
+
+  <progress id="year-progress" max="365" value=""></progress>
   <ul class="days"></ul>
+
+
+</div>
+
 
 <style>
   :root {
@@ -14,7 +24,7 @@
 
 
   .years, .days {
-    margin: 1rem;
+    margin-top: 1rem;
     list-style-type: none;
     display: inline-grid;
     grid-gap: var(--point-gap);
@@ -76,9 +86,6 @@
   function add_days() {
 
     const days = document.querySelector('.days');
-
-    const this_day = moment().dayOfYear();
-
     for (let day = 1; day <= 365; day++) {
       if (day == this_day) {
         days.insertAdjacentHTML("beforeend", `<li class="now"></li>`);
@@ -91,8 +98,14 @@
   }
 
   const this_year = moment().year();
+  const this_day = moment().dayOfYear();
+
   const age = this_year - 1995;
   add_years(age);
   add_days();
+
+  document.querySelector('#life-progress').setAttribute("value", age);
+  document.querySelector('#year-progress').setAttribute("value", this_day);
+
 
 </script>
