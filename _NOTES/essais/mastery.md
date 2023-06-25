@@ -1,10 +1,8 @@
 ---
-tags: essais top 
+tags: essais 
 ---
 
-Deliberate practice leads to mastery and requires focus 
-
-Focus comes from saying no to many good ideas to pursue important ones 
+Mastery comes from focus and deliberate practice, from saying no to many good ideas to pursue important ones 
 
 A wide variety of experiences might lead to well-roundedness, but not to greatness, nor even goodness.
 
@@ -12,5 +10,5 @@ For example, musicians get better by tackling harder and harder pieces, not by s
 
 You don't level up by switching games all the time, but by sticking with one long enough to gain advanced skills.
 
-More ego, less mastery 
+Less ego, more mastery 
 

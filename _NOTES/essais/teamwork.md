@@ -1,6 +1,6 @@
 ---
 title: Teamwork ⚽ 
-tags: skills essais top psy 
+tags: skills essais psy 
 ---
 
 However hard you work, the results are limited by a single person. 

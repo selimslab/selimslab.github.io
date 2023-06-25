@@ -5,7 +5,9 @@ tags: poetry phil
 Two hands clap and there is a sound. What is the sound of one hand?
 
 One said, “The flag moves.”
+
 The other said, “The wind moves.”
+
 the third said, "It is your mind that moves."
 
 "The world is vast and wide. Why do you put on your robes at the sound of a bell?"

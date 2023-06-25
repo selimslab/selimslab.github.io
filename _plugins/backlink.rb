@@ -104,7 +104,6 @@ class BackLinksGenerator < Jekyll::Generator
       end 
 
 
-      # graph["nodes"] = graph["nodes"].values
       File.open("./assets/data/graph.json","w") do |f|
         f.write(graph.to_json)
       end

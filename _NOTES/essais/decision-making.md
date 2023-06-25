@@ -1,5 +1,5 @@
 ---
-tags: skills essais top psy 
+tags: skills essais psy 
 ---
 
 We often make even major decisions carelessly

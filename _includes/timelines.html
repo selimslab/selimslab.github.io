@@ -1,229 +1,127 @@
-
 <script src="/assets/js/datetime.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
 
-
-
 <h2 id="this_year"></h2>
-<div class="days-graph">
 
-  <ul class="day-labels">
-    <li>S</li>
-    <li>M</li>
-    <li>T</li>
-    <li>W</li>
-    <li>T</li>
-    <li>F</li>
-    <li>S</li>
-  </ul>
-  
-  <ul class="days">
-  </ul>
-  <ul class="week-numbers">
-  </ul>
-  
+<div class="years-graph">
+  <ul class="years"></ul>
 </div>
 
-
-<h2>Years</h2>
-<div class="decades-graph">
-    <ul class="year-numbers">
-    </ul>
-    <ul class="years">
-    </ul>
-    <ul class="decade-numbers">
-    </ul>
+<div class="days-graph">
+  <ul class="days"></ul>
 </div>
 
 <style>
+  :root {
+    --point-size: 1rem;
+    --point-gap: 0.2rem;
+  }
+
+  .years-graph {
+    display: inline-grid;
+    grid-template-areas: "years";
+    grid-template-columns: auto 1fr;
+    grid-gap: 0.5rem;
+    font-size: 0.6rem;
+    margin: 1rem;
+  }
+
+  .days-graph {
+    display: inline-grid;
+    grid-template-areas: "days";
+    grid-template-columns: auto 1fr;
+    grid-gap: 0.5rem;
+    font-size: 0.6rem;
+    margin: 1rem;
+  }
 
 
-:root {
-  --point-size: 1rem;
-  --point-gap: 0.2rem;
-}
+  .years {
+    list-style-type: none;
+    display: grid;
+    grid-gap: var(--point-gap);
+    grid-template-columns: repeat(10, var(--point-size));
+    grid-area: years;
+    grid-auto-flow: row;
+    grid-auto-rows: var(--point-size);
+  }
 
+  .days {
+    list-style-type: none;
+    display: grid;
+    grid-gap: var(--point-gap);
+    grid-template-columns: repeat(30, var(--point-size));
+    grid-area: days;
+    grid-auto-flow: row;
+    grid-auto-rows: var(--point-size);
+  }
 
-.decades-graph {
-  display: inline-grid;
-  grid-template-areas: "empty year-numbers"
-                       "decade-numbers years";
-  grid-template-columns: auto 1fr;
-  grid-gap: 0.5rem;
-  font-size: 0.6rem;
-  margin: 2rem;
-  margin-left:3rem;
-}
+  /* Other styling */
+  body {
+    font-size: 12px;
+  }
 
-.days-graph {
-  display: inline-grid;
-  
-  grid-template-areas: "empty day-labels"
-                       "week-numbers days";
-  grid-template-columns: auto 1fr;
-  grid-gap: 0.5rem;
-  font-size: 0.6rem;
-  margin: 2rem;
-}
-
-.decade-numbers{
-  grid-area: decade-numbers;
-  display: grid;
-  grid-auto-flow: row;
-  grid-gap: var(--point-gap);
-  grid-auto-rows: var(--point-size);
-}
-
-.week-numbers{
-  grid-area: week-numbers;
-  display: grid;
-  grid-auto-flow: row;
-  grid-gap: var(--point-gap);
-  grid-template-columns: repeat(1, var(--point-size));
-  grid-auto-rows: var(--point-size);
-}
-
-.year-numbers { 
-  grid-area: year-numbers;
-  margin-left: 0.2rem;
-
-}
-
-.year-numbers,
-.years{
-  list-style-type: none;
-  display: grid;
-  grid-gap: var(--point-gap);
-  grid-template-columns: repeat(5, var(--point-size));
-}
-
-.years {
-  grid-area: years;
-  grid-auto-flow: row;
-  grid-auto-rows: var(--point-size);
-}
-
-.day-labels{ 
-  grid-area: day-labels; 
-  margin-left: 0.2rem;
-}
-
-.day-labels,
-.days {
-  list-style-type: none;
-  display: grid;
-  grid-gap: var(--point-gap);
-  grid-template-columns: repeat(7, var(--point-size));
-}
-
-.days {
-  grid-area: days;
-  grid-auto-flow: row;
-  grid-auto-rows: var(--point-size);
-}
-
-
-/* Other styling */
-body {
-  font-size: 12px;
-}
-
-li{
+  li {
     margin: 0;
     border-radius: 50%;
-}
+  }
 
-.years li, 
-.days li{
-  background-color: #e9e6dc;
-}
+  .years li,
+  .days li {
+    background-color: #e9e6dc;
+  }
 
-li.pre {
-  background-color: inherit;
-}
+  li.pre {
+    background-color: inherit;
+  }
 
-li.past {
-  background-color: #f6d958;
-}
+  li.past {
+    background-color: #f6d958;
+  }
 
-li.now {
-  background-color: #f6d958;
-  border: 4px solid orange;
-}
+  li.now {
+    background-color: #f6d958;
+    border: 4px solid orange;
+  }
+</style>
 
-  </style>
+<script>
+  function add_years(age) {
+    const life = Array(64).fill(0);
 
-  <script>
-
-    function add_years(age){
-        const life = Array(60).fill(0)
-
-        const years = document.querySelector('.years');
-        for (const [key, val] of life.entries()) {
-        if (key+1 == age){
-          years.insertAdjacentHTML('beforeend', `<li class="now"></li>`);
-        } else if (key < age){
-          years.insertAdjacentHTML('beforeend', `<li class="past"></li>`);
-        } else {
-          years.insertAdjacentHTML('beforeend', `<li></li>`)
-        }
-
-        }
-    }
-
-
-    function add_week_numbers(){
-      const weeks = document.querySelector('.week-numbers');
-        for (var i = 1; i <= 52; i++) {
-          if (i+1 == this_week){
-            weeks.insertAdjacentHTML('beforeend', `<li style="color:orange; font-weight:bold">${i}</li>`);
-          }else{
-            weeks.insertAdjacentHTML('beforeend', `<li>${i}</li>`);
-
-          }
-        }
-    }
-
-    function add_days(){
-
-      const days = document.querySelector('.days');
-
-      const first_day_index = day_names.indexOf(get_the_first_day_of_this_year())
-      for (let day=1; day<=first_day_index; day++) {
-          days.insertAdjacentHTML('beforeend', `<li class="pre"></li>`);
-      }
-
-
-      for (let day=1; day<=365; day++) {
-        if (day == this_day){
-          days.insertAdjacentHTML('beforeend', `<li class="now"></li>`);
-        }
-        else if (day < this_day){
-          days.insertAdjacentHTML('beforeend', `<li class="past"></li>`);
+    const years = document.querySelector(".years");
+    for (const [key, val] of life.entries()) {
+      if (key + 1 == age) {
+        years.insertAdjacentHTML("beforeend", `<li class="now"></li>`);
+      } else if (key < age) {
+        years.insertAdjacentHTML("beforeend", `<li class="past"></li>`);
       } else {
-        days.insertAdjacentHTML('beforeend', `<li></li>`)
-      }
-
-      
+        years.insertAdjacentHTML("beforeend", `<li></li>`);
       }
     }
+  }
 
 
-    add_decade_numbers()
+  function add_days() {
 
-    const this_year = moment().year()
+    const days = document.querySelector('.days');
 
-    const age = this_year - 1995
-    add_years(age)
+    const this_day = moment().dayOfYear();
 
-    const this_week = moment().week()
-    const this_day = moment().dayOfYear()
+    for (let day = 1; day <= 365; day++) {
+      if (day == this_day) {
+        days.insertAdjacentHTML("beforeend", `<li class="now"></li>`);
+      } else if (day < this_day) {
+        days.insertAdjacentHTML("beforeend", `<li class="past"></li>`);
+      } else {
+        days.insertAdjacentHTML("beforeend", `<li></li>`);
+      }
+    }
+  }
 
-    add_week_numbers()
-    add_days()
+  const this_year = moment().year();
+  const age = this_year - 1995;
+  add_years(age);
+  add_days();
 
-
-    const today = get_todays_date()
-    document.getElementById("this_year").innerHTML = this_year 
-    
-  </script>
+</script>

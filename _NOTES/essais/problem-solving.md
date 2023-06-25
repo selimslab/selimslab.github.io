@@ -1,6 +1,6 @@
 ---
 title: Problem Solving
-tags: essais skills top 
+tags: essais skills  
 ---
 
 0. Prevention is the best
