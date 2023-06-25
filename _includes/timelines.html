@@ -1,15 +1,22 @@
 <script src="/assets/js/datetime.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
 
-<div>
+<p id="date"></p>
 
-  <progress id="life-progress" max="64" value=""></progress>
+
+<div>
+  <h2>Life progress</h2>
+  <p id="days-seen"></p>
   <ul class="years"></ul>
 </div>
 
-<div>
+<br>
 
+<div>
+  <h2>Year progress</h2>
   <progress id="year-progress" max="365" value=""></progress>
+  <p id="year-percent"></p>
+  <p id="year-ratio"></p>
   <ul class="days"></ul>
 
 
@@ -26,19 +33,19 @@
   .years, .days {
     margin-top: 1rem;
     list-style-type: none;
-    display: inline-grid;
+    display: grid;
     grid-gap: var(--point-gap);
     grid-auto-flow: row;
     grid-auto-rows: var(--point-size);
   }
 
   .years {
-    grid-template-columns: repeat(10, var(--point-size));
+    grid-template-columns: repeat(4, var(--point-size));
     grid-area: years;
   }
 
   .days {
-    grid-template-columns: repeat(30, var(--point-size));
+    grid-template-columns: repeat(31, var(--point-size));
     grid-area: days;
   }
 
@@ -52,7 +59,7 @@
     background-color: #e9e6dc;
   }
 
-  li.pre {
+  li.dummy {
     background-color: inherit;
   }
 
@@ -76,35 +83,53 @@
         years.insertAdjacentHTML("beforeend", `<li class="now"></li>`);
       } else if (key < age) {
         years.insertAdjacentHTML("beforeend", `<li class="past"></li>`);
-      } else {
-        years.insertAdjacentHTML("beforeend", `<li></li>`);
-      }
+      } 
     }
   }
 
 
-  function add_days() {
+  function add_days(this_day) {
 
-    const days = document.querySelector('.days');
-    for (let day = 1; day <= 365; day++) {
-      if (day == this_day) {
-        days.insertAdjacentHTML("beforeend", `<li class="now"></li>`);
-      } else if (day < this_day) {
-        days.insertAdjacentHTML("beforeend", `<li class="past"></li>`);
-      } else {
-        days.insertAdjacentHTML("beforeend", `<li></li>`);
+    
+    // create an array by using moment.js to get number of days in each month of this year   
+    const days_in_months = Array.from({ length: 12 }, (v, i) => moment().month(i).daysInMonth());
+    
+    total = 0 
+    const day_graph = document.querySelector('.days');
+
+    for (let number_of_days of days_in_months) {
+      let dummy_days = 31 - number_of_days;
+      for (let day = 1; day <= number_of_days; day++) {
+        total += 1
+        if (total == this_day) {
+          day_graph.insertAdjacentHTML("beforeend", `<li class="now"></li>`);
+        } else if (total < this_day) {
+          day_graph.insertAdjacentHTML("beforeend", `<li class="past"></li>`);
+        }
+      }
+      // insert dummy days to fill the grid
+      for (let i = 0; i < dummy_days; i++) {
+        day_graph.insertAdjacentHTML("beforeend", `<li class="dummy"></li>`);
       }
     }
   }
 
+  const bday = moment("1995-11-15");  
   const this_year = moment().year();
   const this_day = moment().dayOfYear();
 
   const age = this_year - 1995;
   add_years(age);
-  add_days();
+  add_days(this_day);
 
-  document.querySelector('#life-progress').setAttribute("value", age);
+
+  document.querySelector('#date').innerHTML = `${moment()}`;
+
+  days_seen = moment().diff(bday, 'days');
+  document.querySelector('#days-seen').innerHTML = `${days_seen}th day`;
+  const percent = Math.round((this_day / 365) * 100);
+  document.querySelector('#year-percent').innerHTML = `%${percent}`;
+  document.querySelector('#year-ratio').innerHTML = `${this_day} of 365`;
   document.querySelector('#year-progress').setAttribute("value", this_day);
 
 

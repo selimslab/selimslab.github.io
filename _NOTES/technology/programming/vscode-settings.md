@@ -3,7 +3,16 @@ title: VSCode Settings
 tags: pro 
 ---
 
+install macros geddski.macros 
+
+
+
+
+
 ## settings.json 
+
+add macros to vscode settings 
+
 
     {  
         "task.allowAutomaticTasks": "on",
@@ -18,6 +27,42 @@ tags: pro
             "upAndOpen": [ "list.focusUp", "list.selectAndPreserveFocus" ]
         }
     }
+
+## keybindings 
+
+open keyboard shortcuts json and add keybindings
+
+    [
+        {
+            "key": "ctrl+[Backquote]",
+            "command": "workbench.action.navigateBack"
+        },
+        {
+            "key": "ctrl+-",
+            "command": "-workbench.action.navigateBack"
+        },
+        {
+            "key": "cmd+s cmd+s",
+            "command": "git.stageAll"
+        },
+        {
+            "key": "cmd+n cmd+n",
+            "command": "explorer.newFile"
+        },
+        {
+            "key": "cmd+down",
+            "command": "list.select",
+            "when": "listFocus && !inputFocus"
+        },
+        {
+            "key": "cmd+down",
+            "command": "-list.select",
+            "when": "listFocus && !inputFocus"
+        },
+        { "key": "down", "command": "macros.downAndOpen", "when": "listFocus" },
+        { "key": "up", "command": "macros.upAndOpen", "when": "listFocus" },
+    ]
+
 
 ## extensions.json 
 
@@ -67,41 +112,9 @@ tags: pro
         ]
     }
 
-## keybindings.json 
-
-    [
-        {
-            "key": "ctrl+[Backquote]",
-            "command": "workbench.action.navigateBack"
-        },
-        {
-            "key": "ctrl+-",
-            "command": "-workbench.action.navigateBack"
-        },
-        {
-            "key": "cmd+s cmd+s",
-            "command": "git.stageAll"
-        },
-        {
-            "key": "cmd+n cmd+n",
-            "command": "explorer.newFile"
-        },
-        {
-            "key": "cmd+down",
-            "command": "list.select",
-            "when": "listFocus && !inputFocus"
-        },
-        {
-            "key": "cmd+down",
-            "command": "-list.select",
-            "when": "listFocus && !inputFocus"
-        },
-        { "key": "down", "command": "macros.downAndOpen", "when": "listFocus" },
-        { "key": "up", "command": "macros.upAndOpen", "when": "listFocus" },
-    ]
 
 
-## Keyboard shortcuts 
+## Some default keyboard shortcuts 
 
 
     Multiple cursors: option + shift + click

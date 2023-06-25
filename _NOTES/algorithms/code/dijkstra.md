@@ -1,6 +1,7 @@
 ---
 title: Dijkstra
 tags: graph algo 
+layout: code
 ---
 
 
