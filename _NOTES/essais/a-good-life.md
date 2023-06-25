@@ -25,7 +25,9 @@ Complain less, appreciate more
 
 ---
 
-Simple things are the best, sleep, friends, sunlight, trees, clouds, wind, rain, a deep breath
+Simple things are the best
+
+Sleep, friends, sunlight, trees, clouds, wind, rain, a deep breath
 
 [[take-a-walk]]
 
@@ -33,10 +35,7 @@ Simple things are the best, sleep, friends, sunlight, trees, clouds, wind, rain,
 
 ---
 
-The world is unjust and full of shit, still there is some good in it and its worth fighting for
-
-[[all-is-one]]
-
+The world is unjust and full of shit, still there is some good in it and it's worth fighting for
 
 ---
 
@@ -61,8 +60,6 @@ It’s not personal. It doesn’t matter. Don't let it get you down
 Do nothing in anger
 
 Be kind to yourself, if you won't, who will?
-
-[[insight-and-strength]]
 
 ---
 
@@ -116,7 +113,7 @@ Good work requires a relaxed and focused mind
 
 Going fast in the wrong direction is not productivity 
 
-[[Mastery]] comes from focus and humility 
+[[mastery]] comes from focus and humility 
 
 [[get-things-done]]
 
@@ -124,7 +121,7 @@ Only genuine interest and passion can create beautiful results
 
 ---
 
-Listener"s in charge  
+The listener is in charge  
 
 Think twice before you speak. 
 
@@ -137,19 +134,26 @@ Don't try to prove anything
 [[poetry]] 
 
 As with all matters of the heart, you'll know when you find it.
+
 ---
 
 All models are wrong, some are useful 
 
-Leave it better than you found.
+Keep it simple
+
+---
 
 Anything that can go wrong will go wrong.
 
 In writing or it didn’t happen
 
-Keep it simple
+---
+
+Leave it better than you found.
 
 Stay hungry, stay foolish
+
+[[all-is-one]]
 
 ---
 
