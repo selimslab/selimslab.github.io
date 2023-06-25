@@ -1,6 +1,6 @@
 ---
-tags: tree
-tags: dynamic
+tags: dynamic tree
+layout: code
 ---
 
 

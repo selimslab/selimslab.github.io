@@ -2,6 +2,7 @@
 layout: tag
 tags: graph algo
 ---
+
 ```py
 dfs(node):
     if node is not visited:

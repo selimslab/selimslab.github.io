@@ -1,6 +1,7 @@
 ---
 layout: tag
 tags: bit algo
+layout: code
 ---
 
 ```c

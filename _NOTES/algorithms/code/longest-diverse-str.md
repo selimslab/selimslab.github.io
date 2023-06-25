@@ -1,6 +1,6 @@
 ---
-tags:  heap str
-tags: dynamic
+tags:  heap str dynamic
+layout: code
 ---
 
 ```python
