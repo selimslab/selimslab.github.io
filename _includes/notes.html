@@ -2,29 +2,26 @@
     
 <article>
 
-<h2>Selected notes</h2>
-
-{% include tagpage.html tag='top' %}
-
-<h2>Explore</h2>
 
 {% assign all_tags = site.documents | map: "tags"  | compact | uniq  %}
 
-<p><a href="/all-notes">{{site.documents.size}} notes</a> 
-    with {{site.static_files.size}} images
+<!-- total word count of all documents-->
+{% assign total_words = 0 %}
+{% for p in site.documents %}
+    {% assign total_words = total_words | plus: p.content | number_of_words %}
+{% endfor %}
+
+<p>A digital personal wiki of <a href="/all-notes">{{site.documents.size}} notes</a>
+    with {{site.static_files.size}} images, 
+    {{ total_words }} words, 
+    {{site.data.link_count}} backlinks, 
+    <a href="/all-tags">{{all_tags.size}} tags</a>,
+    with <a href="/2D-Graph">2D</a> and <a href="/3D-Graph">3D</a> link graphs
 </p> 
 
-<p>
-    Connected with {{site.data.link_count}} backlinks 
-</p> 
+<h2>Selected notes</h2>
 
-<p>
-    Grouped under <a href="/all-tags">{{all_tags.size}} tags</a>
-</p>
-
-<p>
-    View as a <a href="/2D-Graph">2D</a> and <a href="/3D-Graph">3D</a> graph  
-</p>
+{% include tagpage.html tag='top' %}
 
 <h2>Main tags</h2>
 
@@ -39,6 +36,5 @@
     {% endif %}
 {% endfor %}
 </ul> 
-
 
 </article>
