@@ -1,43 +1,25 @@
 
 
+const IS_ARTWORK_ENABLED = "is_artworks_enabled"
 
 toggle_artworks = () => {
-    const is_artworks_enabled = window.localStorage.getItem('is_artworks_enabled');
-    if (is_artworks_enabled === "false") {
-        window.localStorage.setItem('is_artworks_enabled', 'true'); 
+    if (window.localStorage.getItem(IS_ARTWORK_ENABLED) === "false") {
+        window.localStorage.setItem(IS_ARTWORK_ENABLED, 'true'); 
+        get_random_artwork()
     } else {   
-        window.localStorage.setItem('is_artworks_enabled', 'false'); 
+        window.localStorage.setItem(IS_ARTWORK_ENABLED, 'false'); 
+        clear_artwork()
     }
+
 }
 
  get_random_artwork = async() => {
-        const is_artworks_enabled = window.localStorage.getItem('is_artworks_enabled');
-        if (is_artworks_enabled === "false") {
-            setPlayButton()
+        if ( window.localStorage.getItem(IS_ARTWORK_ENABLED) === "false") {
             return 
         }
         let images = await fetch("/assets/data/art.json")
         .then(response => response.json())
         await select_random_artwork(images)
-
-        setShuffleButton()
-        setStopButton()
-}
-
-const setShuffleButton = () => {
-    const shuffle = '<a href="javascript:void(0);" onclick="get_random_artwork();">🔀</a>'
-    document.getElementById("art-shuffle").innerHTML = shuffle
-}
-
-
-const setPlayButton = () => {
-    const play = '<a href="javascript:void(0);" onclick="toggle_artworks();">enable artworks ▶️</a>'
-    document.getElementById("art-toggle").innerHTML = play
-}
-
-const setStopButton = () => {   
-    const stop = '<a href="javascript:void(0);" onclick="toggle_artworks();">⏹️</a>'
-    document.getElementById("art-toggle").innerHTML = stop
 }
 
 
