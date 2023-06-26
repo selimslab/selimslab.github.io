@@ -1,55 +1,55 @@
-
-    
 <article>
+  {% assign all_tags = site.documents | map: "tags" | compact | uniq %}
 
+  <!-- total word count as integer of all documents and skip errors -->
+  {% assign total_words = 0 %} {% for doc in site.documents %} {% assign words =
+  doc.content | number_of_words | times: 1.0 %} {% assign total_words =
+  total_words | plus: words %} {% endfor %} {% assign total_words = total_words
+  | round %}
 
-{% assign all_tags = site.documents | map: "tags"  | compact | uniq  %}
+  <!-- total read time as hours and mins byu dividing word count woth 180 words per minute -->
+  {% assign total_read_time = total_words | divided_by:180 | round %} {% assign
+  total_read_time_hours = total_read_time | divided_by:60 | round %} {% assign
+  total_read_time_mins = total_read_time | modulo:60 | round %}
 
-<!-- total word count as integer of all documents and skip errors -->
-{% assign total_words = 0 %}
-{% for doc in site.documents %}
-    {% assign words = doc.content | number_of_words | times: 1.0  %}
-    {% assign total_words = total_words | plus: words %}
-{% endfor %}
-{% assign total_words = total_words | round %}
+  <!-- count all links in all documents -->
+  {% assign total_links = 0 %} {% for doc in site.documents %} {% assign links =
+  doc.content | number_of_links | times: 1.0 %} {% assign total_links =
+  total_links | plus: links %} {% endfor %} {% assign total_links = total_links
+  | round %}
 
-<!-- count all links in all documents -->
-{% assign total_links = 0 %}
-{% for doc in site.documents %}
-    {% assign links = doc.content | number_of_links | times: 1.0  %}
-    {% assign total_links = total_links | plus: links %}
-{% endfor %}
-{% assign total_links = total_links | round %}
+  <p>A digital personal wiki, a zettelkasten, a place to share and remember</p>
 
-<p>A digital personal wiki, a zettelkasten, a place to share and remember</p>
-
-<ul style="margin-left:1rem; list-style:circle">
+  <ul style="margin-left: 1rem; list-style: circle">
     <li><a href="/all-notes">{{site.documents.size}} pages</a></li>
     <li>{{ total_words }} words</li>
+    <li>
+        {{ total_read_time_hours }} hours and {{total_read_time_mins}} reading
+        time
+    </li>
     <li>{{site.static_files.size}} images</li>
-    <li> {{ total_links }} links</li>
+    <li>{{ total_links }} links</li>
     <li><a href="/all-tags">{{all_tags.size}} tags</a></li>
-    <li> {{site.data.link_count}} backlinks</li>
-    <li><a href="/2D-Graph">2D</a> and <a href="/3D-Graph">3D</a> link graphs</li>
-</ul>
+    <li>{{site.data.link_count}} backlinks</li>
+    <li>
+      <a href="/2D-Graph">2D</a> and <a href="/3D-Graph">3D</a> link graphs
+    </li>
+  </ul>
 
+  <h2>Selected notes</h2>
 
-<h2>Selected notes</h2>
+  {% include tagpage.html tag='top' %}
 
-{% include tagpage.html tag='top' %}
+  <h2>Main tags</h2>
 
-<h2>Main tags</h2>
+  {% assign tag_pages = site.documents | where: "layout", "tag" | sort: "title"
+  %}
 
-{% assign tag_pages = site.documents | where: "layout", "tag" | sort: "title" %}
-
-<ul style="margin-left:1rem; list-style:circle">
-{% for p in tag_pages %}
-    {% if p.tags contains "root" %}
-        <li>
-            <a href="{{p.url}}">{{p.title}}</a>
-        </li>
-    {% endif %}
-{% endfor %}
-</ul> 
-
+  <ul style="margin-left: 1rem; list-style: circle">
+    {% for p in tag_pages %} {% if p.tags contains "root" %}
+    <li>
+      <a href="{{p.url}}">{{p.title}}</a>
+    </li>
+    {% endif %} {% endfor %}
+  </ul>
 </article>
