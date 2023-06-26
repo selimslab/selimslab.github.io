@@ -5,10 +5,11 @@
 
 {% assign all_tags = site.documents | map: "tags"  | compact | uniq  %}
 
-<!-- total word count of all documents-->
+<!-- total word count of all documents and skip errors -->
 {% assign total_words = 0 %}
-{% for p in site.documents %}
-    {% assign total_words = total_words | plus: p.content | number_of_words %}
+{% for doc in site.documents %}
+    {% assign words = doc.content | number_of_words | times: 1.0  %}
+    {% assign total_words = total_words | plus: words %}
 {% endfor %}
 
 <p>A digital personal wiki of <a href="/all-notes">{{site.documents.size}} notes</a>
