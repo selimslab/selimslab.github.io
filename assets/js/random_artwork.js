@@ -2,18 +2,18 @@
 
 
 toggle_artworks = () => {
-    const is_artworks_enabled = localStorage.getItem('is_artworks_enabled');
+    const is_artworks_enabled = window.localStorage.getItem('is_artworks_enabled');
     if (is_artworks_enabled === "false") {
-        localStorage.setItem('is_artworks_enabled', 'true'); 
+        window.localStorage.setItem('is_artworks_enabled', 'true'); 
     } else {   
-        localStorage.setItem('is_artworks_enabled', 'false'); 
+        window.localStorage.setItem('is_artworks_enabled', 'false'); 
     }
 }
 
  get_random_artwork = async() => {
-        const is_artworks_enabled = localStorage.getItem('is_artworks_enabled');
+        const is_artworks_enabled = window.localStorage.getItem('is_artworks_enabled');
         if (is_artworks_enabled === "false") {
-
+            setPlayButton()
             return 
         }
         let images = await fetch("/assets/data/art.json")
@@ -31,7 +31,7 @@ const setShuffleButton = () => {
 
 
 const setPlayButton = () => {
-    const play = '<a href="javascript:void(0);" onclick="toggle_artworks();">▶️</a>'
+    const play = '<a href="javascript:void(0);" onclick="toggle_artworks();">enable artworks ▶️</a>'
     document.getElementById("art-toggle").innerHTML = play
 }
 
