@@ -13,14 +13,14 @@
   total_read_time_hours = total_read_time | divided_by:60 | round %} {% assign
   total_read_time_mins = total_read_time | modulo:60 | round %}
 
-
+  <h1>Delta</h1>
   <p>A digital personal wiki, a zettelkasten, a place to share and remember</p>
 
   <ul style="margin-left: 1rem; list-style: circle">
     <li><a href="/all-notes">{{site.documents.size}} pages</a></li>
     <li id="total_words">{{ total_words }} words</li>
     <li>
-        {{ total_read_time_hours }} hours and {{total_read_time_mins}} minutes reading time
+        {{ total_read_time_hours }} hours and {{total_read_time_mins}} minutes average reading time
     </li>
     <li>{{site.static_files.size}} images</li>
     <li><a href="/all-tags">{{all_tags.size}} tags</a></li>
