@@ -1,7 +1,8 @@
 <article>
   {% assign all_tags = site.documents | map: "tags" | compact | uniq %}
 
-  <!-- total word count as integer of all documents and skip errors -->
+  <!-- total word count as integer of all documents and skip errors
+ -->
   {% assign total_words = 0 %} {% for doc in site.documents %} {% assign words =
   doc.content | number_of_words | times: 1.0 %} {% assign total_words =
   total_words | plus: words %} {% endfor %} {% assign total_words = total_words
@@ -12,23 +13,17 @@
   total_read_time_hours = total_read_time | divided_by:60 | round %} {% assign
   total_read_time_mins = total_read_time | modulo:60 | round %}
 
-  <!-- count all links in all documents -->
-  {% assign total_links = 0 %} {% for doc in site.documents %} {% assign links =
-  doc.content | number_of_links | times: 1.0 %} {% assign total_links =
-  total_links | plus: links %} {% endfor %} {% assign total_links = total_links
-  | round %}
 
   <p>A digital personal wiki, a zettelkasten, a place to share and remember</p>
 
   <ul style="margin-left: 1rem; list-style: circle">
     <li><a href="/all-notes">{{site.documents.size}} pages</a></li>
-    <li>{{ total_words }} words</li>
+    <li id="total_words">{{ total_words }} words</li>
     <li>
         {{ total_read_time_hours }} hours and {{total_read_time_mins}} reading
         time
     </li>
     <li>{{site.static_files.size}} images</li>
-    <li>{{ total_links }} links</li>
     <li><a href="/all-tags">{{all_tags.size}} tags</a></li>
     <li>{{site.data.link_count}} backlinks</li>
     <li>
@@ -53,3 +48,12 @@
     {% endif %} {% endfor %}
   </ul>
 </article>
+
+
+<script>
+
+    var total_words = document.getElementById("total_words").innerHTML;
+    // print total_words  with spaces between thousands
+    document.getElementById("total_words").innerHTML = total_words.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+
+</script>
