@@ -64,6 +64,6 @@ async function select_random_artwork(images){
     let name = base.split(".")[0]
     let alt = name.replace(dash, " ").replace(firstLetter, l => l.toUpperCase())
     img.alt = alt 
-    document.getElementById("srt-alt").innerHTML = alt
+    document.getElementById("art-alt").innerHTML = alt
 }
 
