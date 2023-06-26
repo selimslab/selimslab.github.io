@@ -1,12 +1,16 @@
-<img id="art-img" class="img-full" />
-<p id="art-alt" class="img-alt"></p>
+<img id="artwork" class="img-full" />
+<p id="description" class="img-alt"></p>
 
-   <a class="has-text-centered" id="art-stop" href="javascript:void(0);" onclick="toggle_artworks();">⏯️</a>
-   <a class="has-text-centered" id="art-shuffle" href="javascript:void(0);" onclick="get_random_artwork();">🔀</a>
-
+<p class="has-text-centered">
+  <!-- <a id="toggle" href="javascript:void(0);" onclick="toggle();"
+    >⏯️</a
+  > -->
+  <a id="shuffle" href="javascript:void(0);" onclick="shuffle();"
+    >🔀</a
+  >
+</p>
 
 <script src="/assets/js/random_artwork.js"></script>
 <script>
-    get_random_artwork()
+  shuffle();
 </script>
-    
