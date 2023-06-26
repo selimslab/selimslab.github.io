@@ -36,3 +36,4 @@ bundle exec jekyll serve --trace
 12. refresh artwork button
 13. 2D and 3D link graphs
 14. site stats
+15. no ads 

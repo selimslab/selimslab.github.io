@@ -3,9 +3,9 @@ title: A good life 🌱
 tags: phil skills essais top
 ---
 
-Think of yourself as dead. 
+Think of yourself as dead.
 
-You have lived your life. 
+You have lived your life.
 
 Now take what's left and live it properly.
 
@@ -67,7 +67,7 @@ Know your limits. Don’t take yourself too seriously
 
 ---
 
-You are what you do. 
+You are what you do.
 
 Garbage in, garbage out
 
@@ -78,9 +78,9 @@ Do what you can, here and now
 Nature does not hurry yet everything is accomplished
 
 > O snail
-> 
+>
 > Climb Mount Fuji,
-> 
+>
 > But slowly, slowly!
 
 ---
@@ -101,7 +101,7 @@ Think twice but don't get stuck, good enough is good
 
 Fear leads to anger, anger leads to hate
 
-"All cruelty springs from weakness" Seneca 
+"All cruelty springs from weakness" Seneca
 
 [[who-goes-nazi]]
 
@@ -111,9 +111,9 @@ Fear leads to anger, anger leads to hate
 
 Good work requires a relaxed and focused mind
 
-Going fast in the wrong direction is not productivity 
+Going fast in the wrong direction is not productivity
 
-[[mastery]] comes from focus and humility 
+[[mastery]] comes from focus and humility
 
 [[get-things-done]]
 
@@ -121,23 +121,29 @@ Only genuine interest and passion can create beautiful results
 
 ---
 
-The listener is in charge  
+[[price-vs-value]]
 
-Think twice before you speak. 
-
-Be careful with promises.
-
-Don't try to prove anything 
+[[wait-before-buying]]
 
 ---
 
-[[poetry]] 
+The listener is in charge
+
+Think twice before you speak.
+
+Be careful with promises.
+
+Don't try to prove anything
+
+---
+
+[[poetry]]
 
 As with all matters of the heart, you'll know when you find it.
 
 ---
 
-All models are wrong, some are useful 
+All models are wrong, some are useful
 
 Keep it simple
 
