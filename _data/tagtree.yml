@@ -7,10 +7,25 @@ arts:
   - music
   - phil 
   - poetry
-
 stem: 
   - tech 
     - algo
+      - apx
+      - arr
+      - bit
+      - backtrack
+      - conc
+      - dynamic
+      - greedy
+      - graph
+      - heap
+      - ll 
+      - ptr
+      - q
+      - sort
+      - stack
+      - str
+      - tree
     - net
     - dist
     - ml
@@ -20,7 +35,6 @@ stem:
     - swe
     - sec
     - sre
-
   - math
   - social-sciences
     - econ 

@@ -1,11 +1,15 @@
 
 
+<div id="tagtree"></div>
+<script src="/assets/js/tagtree.js"></script>
+
+
 <span style="font-size: 0.8rem">
 
 {% for tag in page.tags %}
 
-    {% if site.data.tags contains tag %}
-        {%  assign label = site.data.tags[tag] %}
+    {% if site.data.tagnames contains tag %}
+        {%  assign label = site.data.tagnames[tag] %}
     {% else %}
         {%  assign label = tag %}
     {% endif %}
