@@ -3,29 +3,29 @@ layout: default
 date: {{ last_modified_at }}
 ---
 
+{% assign words = content | number_of_words | times: 1.0  %}
+
 <article>
-    
+
     <h1>{{ page.title }}</h1>
 
-    {% include read-time.html %}
+    {% if words > 100 %}
+        {% include read-time.html %}
+    {% endif %}
 
     {% include tags.html %}
 
-</article>
-
-
-{% assign words = content | number_of_words | times: 1.0  %}
-{% if words > 100 %}
-    {% include random-artwork.html %}
-{% endif %}
-
-<article>
+    <br />
 
     {{ content }}
 
     {% include backlinks.html %}
 
 </article>
+
+{% if words > 100 %}
+    {% include random-artwork.html %}
+{% endif %}
 
 {% include random-idea.html %}
 
