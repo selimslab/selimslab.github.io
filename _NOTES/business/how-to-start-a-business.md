@@ -1,6 +1,4 @@
 ---
-title: On business
-
 tags: skills bus essais top
 ---
 
