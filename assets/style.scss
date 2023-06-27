@@ -94,7 +94,8 @@ a.site-name {
 }
 
 article{
-  width: 60ch;
+  min-width: 30ch;
+  max-width: 60ch;
   margin: 0 auto;
   padding: 1rem;
 }
