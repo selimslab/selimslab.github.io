@@ -20,7 +20,7 @@ class BackLinksGenerator < Jekyll::Generator
 
       seen = {}
 
-      tagnames = site.data["tags"]
+      tagnames = site.data["tagnames"]
 
       link_count = 0 
 
