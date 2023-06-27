@@ -15,7 +15,11 @@ date: {{ last_modified_at }}
 
 </article>
 
-{% include random-artwork.html %}
+
+{% assign words = content | number_of_words | times: 1.0  %}
+{% if words > 100 %}
+    {% include random-artwork.html %}
+{% endif %}
 
 <article>
 

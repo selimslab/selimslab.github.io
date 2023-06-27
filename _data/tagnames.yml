@@ -30,3 +30,5 @@ q: queue
 apx: approximation
 conc: concurrent
 ll: linked-list
+sort: sorting
+

@@ -3,7 +3,7 @@ essais:
 
 
 skills:
-
+  bus: 
 
 lists: 
   books:
@@ -17,11 +17,16 @@ arts:
   phil :
   
   poetry:
-   tao: 
+    tao: 
 
   lit:
 
+sports: 
+
 stem: 
+
+  medicine: 
+
   math:
       
   sys: 
@@ -68,6 +73,8 @@ stem:
 
     ux:
 
+    net:
+
     algo:
       
       apx:
@@ -102,4 +109,4 @@ stem:
       
       tree:
       
-      net:
+
