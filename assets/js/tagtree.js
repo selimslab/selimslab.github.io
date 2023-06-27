@@ -1,34 +1,55 @@
 ---
+layout: null
 ---
 
-
-function renderTagTree(tagdata, parent) {
+function renderUl(root) {
     let ul = document.createElement("ul");
-    parent.appendChild(ul);
-    for (let tag in tagdata) {  
-        let li = document.createElement("li");
-        ul.appendChild(li);
-        let a = document.createElement("a");
-        li.appendChild(a);
-        a.href = "/" + tag;
-
-        if (tagnames[tag]) {
-            title = tagnames[tag];
-        }
-        else {
-            title = tag
-        }
-
-        a.innerHTML = title;
-
-        if (tagdata[tag]) {
-            renderTagTree(tagdata[tag], li);
-        }
-    }
+    root.appendChild(ul);
+    return ul;
 }
+
+function renderLi(tag, ul) {
+
+    let li = document.createElement("li");
+    ul.appendChild(li);
+
+    let a = document.createElement("a");
+
+    if (tagnames[tag]) {
+        tag = tagnames[tag];
+    }
+
+    a.innerHTML = titles[tag] ?? tag;
+    a.href = "/" + tag;
+
+    li.appendChild(a);
+    return li 
+}
+
+total = 0 
+const iterate = (obj, root) => {
+    Object.keys(obj).forEach(key => {
+
+    ul = renderUl(root);
+    li = renderLi(key, ul);
+    total += 1;
+
+    if (typeof obj[key] === 'object' && obj[key] !== null) {
+            iterate(obj[key], li)
+        }
+    })
+}
+{% assign tag_pages = site.documents | where: "layout", "tag"   %}
+const tag_pages = {{tag_pages | jsonify}};
+
+titles = {}
+tag_pages.forEach(function(page) {
+    titles[page.slug] = page.title;
+});
 
 const tagnames = {{ site.data.tagnames | jsonify }};
 const tagtree = {{ site.data.tagtree | jsonify }};
-const parent = document.getElementById("tagtree");
-renderTagTree(tagdata, parent);
+const root = document.getElementById("tagtree");
 
+iterate(tagtree, root);
+console.log(total, "tags rendered");

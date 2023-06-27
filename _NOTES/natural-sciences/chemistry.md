@@ -1,4 +1,4 @@
 ---
-tags: lin arts 
 layout: tag
+tags: chem nat
 ---

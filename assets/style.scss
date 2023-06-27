@@ -48,7 +48,16 @@ body{
   background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-li{margin-bottom:0.5rem}
+
+ul {
+  margin-left: 1rem;
+  margin-top:0.5rem;
+}
+
+li{
+  margin-top:0.5rem;
+  margin-bottom:0.5rem;
+}
 
 .navbar {
   background: inherit;

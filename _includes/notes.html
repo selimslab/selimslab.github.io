@@ -36,9 +36,9 @@
 
   <h2>Tags</h2>
 
-  {% include tagpage.html tag='top' %}
-
-
+  <div id="tagtree"></div>
+  <script src="/assets/js/tagtree.js"></script>
+  
 
 </article>
 
@@ -48,23 +48,5 @@
     var total_words = document.getElementById("total_words").innerHTML;
     // print total_words  with spaces between thousands
     document.getElementById("total_words").innerHTML = total_words.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
-
-
-    // render tagdata as a recursive list 
-    function renderTagTree(tagdata, parent) {
-        var ul = document.createElement("ul");
-        parent.appendChild(ul);
-        for (var key in tagdata) {
-            var li = document.createElement("li");
-            ul.appendChild(li);
-            var a = document.createElement("a");
-            a.setAttribute("href", "/tag/" + key);
-            a.innerHTML = key + " (" + tagdata[key].length + ")";
-            li.appendChild(a);
-            if (tagdata[key].length > 0) {
-                renderTagTree(tagdata[key], li);
-            }
-        }
-    } 
 
 </script>

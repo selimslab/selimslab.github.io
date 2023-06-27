@@ -6,6 +6,7 @@ dist: distributed-systems
 econ: economics
 hist: history
 lit: literature
+lin: linguistics
 ml: machine-learning
 nat: natural-sciences
 net: computer-networks
@@ -24,7 +25,7 @@ tao: tao-te-ching
 tech: technology
 arr: array
 str: string
-ptr: pointer
+ptr: pointers
 q: queue
 apx: approximation
 conc: concurrent
