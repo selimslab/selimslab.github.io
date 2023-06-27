@@ -1,6 +1,7 @@
 ---
 tags: essais top 
 layout: page
+title: Take a walk
 ---
 
 ![Solvitur ambulando, its solved by walking](/static/img/take-a-walk.png)

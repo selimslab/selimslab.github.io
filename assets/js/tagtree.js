@@ -32,7 +32,7 @@ function renderLi(tag, ul) {
 
 
 const iterate = (obj, root) => {
-    Object.keys(obj).forEach(key => {
+    Object.keys(obj).sort().forEach(key => {
 
     ul = renderUl(root);
     li = renderLi(key, ul);
