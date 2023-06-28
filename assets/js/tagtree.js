@@ -12,11 +12,12 @@ let seen = new Set();
 
 function renderLi(tag, ul) {
     
-
     let li = document.createElement("li");
     ul.appendChild(li);
 
     let a = document.createElement("a");
+
+
 
     if (tagnames[tag]) {
         tag = tagnames[tag];
@@ -37,8 +38,13 @@ const iterate = (obj, root) => {
     ul = renderUl(root);
     li = renderLi(key, ul);
 
-    if (typeof obj[key] === 'object' && obj[key] !== null) {
-            iterate(obj[key], li)
+    if (key == "algo") {
+        return;
+    }
+
+    next = obj[key]
+    if (typeof next === 'object' && next !== null) {
+            iterate(next, li)
         }
     })
 }
