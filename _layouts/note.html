@@ -13,11 +13,13 @@ date: {{ last_modified_at }}
         {% include read-time.html %}
     {% endif %}
 
-    {% include tags.html %}
-
     <br />
 
     {{ content }}
+
+    <br />
+
+    {% include tags.html %}
 
     {% include backlinks.html %}
 
