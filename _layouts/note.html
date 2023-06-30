@@ -9,12 +9,14 @@ date: {{ last_modified_at }}
 
     <h1>{{ page.title }}</h1>
 
-    {% if words > 100 %}
+    {% if words > 150 %}
         {% include read-time.html %}
         <br>
     {% endif %}
 
     {{ content }}
+
+    <br>
 
     {% include tags.html %}
 
@@ -22,7 +24,7 @@ date: {{ last_modified_at }}
 
 </article>
 
-{% if words > 100 %}
+{% if words > 150 %}
     {% include random-artwork.html %}
 {% endif %}
 
