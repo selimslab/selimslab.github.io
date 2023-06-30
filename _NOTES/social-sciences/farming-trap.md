@@ -1,5 +1,5 @@
 ---
-tags: hist soc
+tags: soc
 ---
 
 Humans started to farm only 10 000 years ago, and it led to a crowded, unhealthy, unequal society 

@@ -1,6 +1,6 @@
 ---
 title: Philosophy Books
-tags: books phil
+tags: books soc
 ---
 
 Enchiridion 

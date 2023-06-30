@@ -1,6 +1,6 @@
 ---
 title: Principal Component Analysis
-tags: projects ml
+tags: projects
 ---
 
 Sometimes a few dimensions explain most of the variability

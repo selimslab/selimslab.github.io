@@ -1,0 +1,10 @@
+---
+tags: soc
+---
+
+ 
+[[do-not-lie-to-yourself]]
+
+[[elaborate-vs-clear-speech]]
+
+[[unhappy-in-their-own-way]]

@@ -1,109 +1,55 @@
+essais:
 
-essais: 
+lists:
 
+sk:
 
-skills:
+lit:
 
-lists: 
-  books:
-  
-  cinema :
+phil:
 
-arts: 
-  
-  music:
-  
-  phil :
-  
-  poetry:
+nat:
 
-  lit:
+soc:
 
-sports: 
+tech:
 
-stem: 
+pro:
 
-  medicine: 
+math: 
+  # projects:
 
-  math:
-      
-  sys: 
+  # sec:
 
-  nat:
-    
-    bio:
-    
-    chem:
-    
-    phys:
+  # algo:
+  #   apx:
 
-  social-sciences:
-    
-    econ :
-    
-    pols:
-    
-    psy:
-    
-    soc :
-    
-    hist: 
+  #   arr:
 
-    lin:
+  #   bit:
 
-  tech: 
-    
-    dist:
-    
-    ml:
-    
-    os:
-    
-    pro:
-    
-    projects:
-    
-    swe:
-    
-    sec:
-    
-    sre:
+  #   backtrack:
 
-    ux:
+  #   conc:
 
-    net:
+  #   dynamic:
 
-    algo:
-      
-      apx:
-      
-      arr:
-      
-      bit:
-      
-      backtrack:
-      
-      conc:
-      
-      dynamic:
-      
-      greedy:
-      
-      graph:
-      
-      heap:
-      
-      ll :
-      
-      ptr:
-      
-      q:
-      
-      sort:
-      
-      stack:
-      
-      str:
-      
-      tree:
-      
+  #   greedy:
+
+  #   graph:
+
+  #   heap:
+
+  #   ll:
+
+  #   ptr:
+
+  #   q:
+
+  #   sort:
+
+  #   stack:
+
+  #   str:
+
+  #   tree:

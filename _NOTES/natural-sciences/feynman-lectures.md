@@ -1,5 +1,5 @@
 ---
-tags: phys
+tags: nat
 ---
 
 <https://www.feynmanlectures.caltech.edu>

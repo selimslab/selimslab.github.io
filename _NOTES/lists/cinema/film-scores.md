@@ -1,5 +1,5 @@
 ---
-tags: cinema music lists
+tags: cinema
 ---
 
 Concerning Hobbits 

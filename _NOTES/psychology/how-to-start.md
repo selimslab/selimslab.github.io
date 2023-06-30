@@ -1,17 +1,16 @@
 ---
 title: How to start?
-tags: skills psy
+tags: sk soc
 ---
 
-You need a driving emotion 
+You need a driving emotion
 
-It could be anger, greed, fear, hope, .. 
+It could be anger, greed, fear, hope, ..
 
-Some are more preferable than others 
+Some are more preferable than others
 
-For example, curiosity depends on hope 
+For example, curiosity depends on hope
 
-
-This is also the gist of scientific method 
+This is also the gist of scientific method
 
 ![](/static/img/finish-line-is-to-start.png)

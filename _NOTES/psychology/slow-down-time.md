@@ -1,6 +1,6 @@
 ---
 title: Deepen your days
-tags: psy
+tags: soc
 ---
 
 From <https://www.raptitude.com/2018/05/how-to-slow-down-time/>
@@ -11,11 +11,8 @@ Compare that to the life of a middle-aged adult, which is much more governed by 
 
 ---
 
-Travel 
+Travel
 
 Do more physical activities
 
 Spend more time with people you enjoy talking to
-
-
-

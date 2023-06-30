@@ -1,6 +1,6 @@
 ---
 title: Social Science Books
-tags: social-sciences books
+tags: soc books
 ---
 
 The Diary of a Young Girl, Anne Frank
@@ -31,9 +31,6 @@ Understanding Power: The Indispensable Chomsky
 
 Metaphors We Live By
 
-Steve Jobs by Walter Isaacson 
+Steve Jobs by Walter Isaacson
 
 A Promised Land, Obama
-
-
-

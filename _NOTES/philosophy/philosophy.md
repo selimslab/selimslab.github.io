@@ -1,5 +1,5 @@
 ---
-title: Philosophy Φ 
+title: Philosophy
 layout: tag
-tags: phil arts root
+tags: phil
 ---

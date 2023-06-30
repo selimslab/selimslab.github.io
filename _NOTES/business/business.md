@@ -1,4 +1,4 @@
 ---
 layout: tag
-tags: bus skills
+tags: bus sk
 ---

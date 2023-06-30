@@ -1,16 +1,15 @@
 ---
-tags: phil psy
+tags: phil soc
 ---
 
+Stupidity is not ignorance, smart or educated people can also be very stupid
 
-Stupidity is not ignorance, smart or educated people can also be very stupid 
+It's false confidence and closed-mindedness
 
-It's false confidence and closed-mindedness 
+Using mental models not matching the reality
 
-Using mental models not matching the reality 
+Poor judgment
 
-Poor judgment 
-
-Hanlon’s Razor, think stupidity before malice 
+Hanlon’s Razor, think stupidity before malice
 
 [[the-triumph-of-stupidity]]

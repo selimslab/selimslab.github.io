@@ -1,6 +1,6 @@
 ---
 title: Paintings 🎨
-tags: arts lists
+tags: lists
 ---
 
 <a href="https://artsandculture.google.com/favorite/group/lwICDYo8WqCBLQ" target="_blank">Some liked artwork on Google Arts & Culture</a>

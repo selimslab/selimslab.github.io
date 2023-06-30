@@ -1,5 +1,5 @@
 ---
-tags: phil econ 
+tags: phil 
 ---
 
 Nature is balancing, 

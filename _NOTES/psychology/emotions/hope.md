@@ -1,5 +1,5 @@
 ---
-tags: phil psy
+tags: phil soc
 ---
 
 "It won't be as good as you hope, neither as bad as you fear"
@@ -8,6 +8,6 @@ tags: phil psy
 
 "False hopes are more dangerous than fears."
 
-"A ship shouldn't ride on a single anchor nor life on a single hope" Epictetus 
+"A ship shouldn't ride on a single anchor nor life on a single hope" Epictetus
 
 ![](/static/img/hope-is-more-than-a-feeling.png)

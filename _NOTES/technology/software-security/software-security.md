@@ -1,5 +1,5 @@
 ---
-title: Software Security 🔐
+title: Software Security
 tags: sec tech
 layout: tag
 --- 

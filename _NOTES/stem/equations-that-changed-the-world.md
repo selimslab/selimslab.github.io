@@ -1,5 +1,5 @@
 ---
-tags: math stem
+tags: nat 
 ---
 
 

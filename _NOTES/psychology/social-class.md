@@ -1,6 +1,5 @@
 ---
-tags: psy
+tags: soc
 ---
 
 [[tolerate-anything-except-outgroup]]
-

@@ -1,7 +1,7 @@
 ---
-tags: psy
+tags: soc
 ---
 
-Humans need to be seen, heard, loved, accepted, respected. 
+Humans need to be seen, heard, loved, accepted, respected.
 
 Anger, greed, pride, and other toxic behavior signals an unmet need.

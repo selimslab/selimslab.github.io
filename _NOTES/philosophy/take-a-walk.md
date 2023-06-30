@@ -1,6 +1,5 @@
 ---
 tags: essais top 
-layout: page
 title: Take a walk
 ---
 

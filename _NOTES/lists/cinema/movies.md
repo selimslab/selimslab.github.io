@@ -1,6 +1,6 @@
 ---
 tags: Movies 🎬
-tags: cinema lists
+tags: cinema
 ---
 
 

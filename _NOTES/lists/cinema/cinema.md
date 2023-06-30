@@ -1,7 +1,7 @@
 ---
-title: Cinema 🎬
-tags: cinema arts
-layout: tag
+title: Cinema
+tags: cinema lists 
+layout: tag 
 ---
 
 

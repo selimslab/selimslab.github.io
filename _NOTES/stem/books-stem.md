@@ -1,6 +1,6 @@
 ---
-title: Books on STEM 
-tags: books stem
+title: Books on natural sciences 
+tags: books nat
 ---
 
 A Brief History of Time

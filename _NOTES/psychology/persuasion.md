@@ -1,13 +1,13 @@
 ---
-tags: psy
+tags: soc
 ---
 
-Persuasion has 2 main parts, 
+Persuasion has 2 main parts,
 
-attention and emotion 
+attention and emotion
 
-Attention is fragile so keep it short and sweet, clear and fun 
+Attention is fragile so keep it short and sweet, clear and fun
 
-Emotions make decisions, reason justifies later. 
+Emotions make decisions, reason justifies later.
 
 Create a story, appeal to emotion.

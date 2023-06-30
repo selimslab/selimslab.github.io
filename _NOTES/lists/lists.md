@@ -1,5 +1,5 @@
 ---
 title: Lists
 layout: tag
-tags: lists root
+tags: lists
 ---

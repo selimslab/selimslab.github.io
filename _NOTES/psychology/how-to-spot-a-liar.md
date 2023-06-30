@@ -1,7 +1,6 @@
 ---
-tags: psy
+tags: soc
 ---
-
 
 These are not proof of deception but when they come in clusters, this is your signal
 
@@ -13,9 +12,8 @@ Liers may look down, lower voice, set up a barrier, pepper it with irrelevant de
 
 ---
 
-Let go of your anger and contempt. 
+Let go of your anger and contempt.
 
-Switch to the curiosity mode. 
+Switch to the curiosity mode.
 
 Ask specific questions, go backward.
-

@@ -1,6 +1,6 @@
 ---
 title: Logos, a toy operating system kernel from scratch
-tags: projects os
+tags: projects
 ---
 
 Modern life runs on computers, and they run on operating systems 

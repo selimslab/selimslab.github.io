@@ -1,8 +1,8 @@
 ---
-tags: psy
+tags: soc
 ---
 
-Objects and people display the same effect. 
+Objects and people display the same effect.
 
 The first move is harder
 

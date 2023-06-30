@@ -1,29 +1,29 @@
 ---
 title: How to Get Rich (without getting lucky)
-tags: skills 
+tags: sk
 ---
 
 From the Almanack of Naval Ravikant
 
 ---
 
-Seek wealth, not money or status. 
+Seek wealth, not money or status.
 
-Wealth is having assets that earn while you sleep. 
+Wealth is having assets that earn while you sleep.
 
-Money is how we transfer time and wealth. 
+Money is how we transfer time and wealth.
 
 Status is your place in the social hierarchy.
 
 ---
 
-Ignore people playing status games. 
+Ignore people playing status games.
 
 You’re not going to get rich renting out your time. You must own equity - a piece of a business - to gain your financial freedom.
 
 Play long term games with long term people.
 
-Play iterated games 
+Play iterated games
 
 ---
 
@@ -37,12 +37,12 @@ Specific knowledge is the result of pursuing your genuine curiosity
 
 Embrace accountability, and take business risks under your own name. Society will reward you with responsibility, equity, and leverage.
 
-Fortunes need leverage. Business leverage comes from 3 things, 
+Fortunes need leverage. Business leverage comes from 3 things,
 capital, people, and products with no marginal cost of replication (code and media).
 
 ---
 
-There is no skill called “business.” Avoid business magazines and business classes. 
+There is no skill called “business.” Avoid business magazines and business classes.
 
 Study microeconomics, game theory, psychology, persuasion, ethics, mathematics, and computers.
 

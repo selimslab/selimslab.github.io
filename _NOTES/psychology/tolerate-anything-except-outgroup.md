@@ -1,6 +1,6 @@
 ---
 title: I CAN TOLERATE ANYTHING EXCEPT THE OUTGROUP
-tags: psy
+tags: soc
 ---
 
 POSTED ON SEPTEMBER 30, 2014 BY SCOTT ALEXANDER
@@ -223,7 +223,7 @@ Republicans pounced on the comment, asking why she hadn’t felt proud before, a
 
 As unconvincing denials go, this one was pretty far up there. But no one really held it against her. Probably most Obama voters felt vaguely the same way. I was an Obama voter, and I have proud memories of spending my Fourth of Julys as a kid debunking people’s heartfelt emotions of patriotism. Aaron Sorkin:
 
-[What makes America the greatest country in the world?] It’s not the greatest country in the world! We’re seventh in literacy, 27th in math, 22nd in science, 49th in life expectancy, 178th in infant mortality, third in median household income, No. 4 in labor force, and No. 4 in exports. So when you ask what makes us the greatest country in the world, I don’t know what the f*** you’re talking about.
+[What makes America the greatest country in the world?] It’s not the greatest country in the world! We’re seventh in literacy, 27th in math, 22nd in science, 49th in life expectancy, 178th in infant mortality, third in median household income, No. 4 in labor force, and No. 4 in exports. So when you ask what makes us the greatest country in the world, I don’t know what the f\*\*\* you’re talking about.
 
 (Another good retort is “We’re number one? Sure – number one in incarceration rates, drone strikes, and making new parents go back to work!”)
 
@@ -370,4 +370,3 @@ But if I want Self-Criticism Virtue Points, criticizing the Grey Tribe is the on
 The worst thing that could happen to this post is to have it be used as convenient feces to fling at the Blue Tribe whenever feces are necessary. Which, given what has happened to my last couple of posts along these lines and the obvious biases of my own subconscious, I already expect it will be.
 
 But the best thing that could happen to this post is that it makes a lot of people, especially myself, figure out how to be more tolerant. Not in the “of course I’m tolerant, why shouldn’t I be?” sense of the Emperor in Part I. But in the sense of “being tolerant makes me see red, makes me sweat blood, but darn it I am going to be tolerant anyway.”
-

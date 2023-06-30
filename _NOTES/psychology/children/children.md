@@ -1,9 +1,9 @@
 ---
 title: On children
-tags: psy skills essais
+tags: soc sk essais
 ---
 
-Lead by example, actions matter more to children than words  
+Lead by example, actions matter more to children than words
 
 [[take-children-seriously]]
 

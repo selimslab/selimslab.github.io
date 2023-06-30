@@ -20,7 +20,7 @@ class BackLinksGenerator < Jekyll::Generator
 
       seen = {}
 
-      tagnames = site.data["tagnames"]
+      tagtofilename = site.data["tagtofilename"]
 
       link_count = 0 
 
@@ -46,8 +46,8 @@ class BackLinksGenerator < Jekyll::Generator
         current_note.data["tags"].each do |tag|
           if not seen.key?(tag)
             name = tag
-            if tagnames.key?(tag) 
-              name = tagnames[tag] 
+            if tagtofilename.key?(tag) 
+              name = tagtofilename[tag] 
             end
 
             node = {"id": tag, "name": "#" + name, "val": 1, "type": "tag", "neighbors": [], "links":[], "group": tag}

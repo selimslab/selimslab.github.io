@@ -1,5 +1,5 @@
 ---
-tags: psy
+tags: soc
 ---
 
 ![](/static/img/stages-of-grief.jpeg)

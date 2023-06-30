@@ -1,5 +1,5 @@
 ---
-tags: stem 
+tags: nat soc
 ---
 
 This is a social problem

@@ -1,10 +1,10 @@
 ---
-tags: psy
+tags: soc
 ---
 
-Respect yourself, respect others, and show it 
+Respect yourself, respect others, and show it
 
-Pause before answering 
+Pause before answering
 
 Attention to everyone in a group
 

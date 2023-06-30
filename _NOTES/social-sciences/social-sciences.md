@@ -1,4 +1,4 @@
 ---
 layout: tag
-tags: social-sciences stem
+tags: soc 
 ---

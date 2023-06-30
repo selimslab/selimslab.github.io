@@ -1,5 +1,5 @@
 ---
 layout: tag
-tags: projects tech
+tags: projects pro
 ---
 

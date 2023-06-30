@@ -1,8 +1,8 @@
 ---
-tags: psy
+tags: soc
 ---
 
-A happy relationship consists of two happy people 
+A happy relationship consists of two happy people
 
 Your first relationship is with yourself, and if you are not at peace with yourself, how can you be happy with someone else?
 
