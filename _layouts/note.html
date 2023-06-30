@@ -11,13 +11,10 @@ date: {{ last_modified_at }}
 
     {% if words > 100 %}
         {% include read-time.html %}
+        <br>
     {% endif %}
 
-    <br />
-
     {{ content }}
-
-    <br />
 
     {% include tags.html %}
 
