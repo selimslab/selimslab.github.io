@@ -8,19 +8,17 @@
   total_words | plus: words %} {% endfor %} {% assign total_words = total_words
   | round %}
 
-  <!-- total read time as hours and mins byu dividing word count woth 180 words per minute -->
-  {% assign total_read_time = total_words | divided_by:180 | round %} {% assign
-  total_read_time_hours = total_read_time | divided_by:60 | round %} {% assign
-  total_read_time_mins = total_read_time | modulo:60 | round %}
-
+  {% assign total_read_time = total_words | divided_by:180 | round %} 
+  {% assign total_read_time_hours = total_read_time | divided_by:60 | plus: 1 | round %}
+  {% assign total_read_time_mins = total_read_time | modulo:60 | round %}
+  
   <h1>Project Delta</h1>
   <p>A place to share and remember</p>
 
-  <ul style="margin-left: 1rem; list-style: circle">
-    <li><a href="/all">{{site.documents.size}} pages</a></li>
-    <li id="total_words">{{ total_words }} words, {{site.static_files.size}} images</li>
+  <ul style="margin-left: 1rem; list-style: circle ">
+    <li id="stats">{{site.documents.size}} pages, {{ total_words }} words, {{site.static_files.size}} images</li>
     <li>
-        {{ total_read_time_hours }} hours and {{total_read_time_mins}} minutes average reading time
+        {{ total_read_time_hours }} hours to read on average
     </li>
   </ul>
 
@@ -28,7 +26,7 @@
 
   {% include tagpage.html tag='top' %}
 
-  <h2>Tags</h2>
+  <h2>Explore</h2>
   <div id="tagtree"></div>
 
   <script src="/assets/js/tagtree.js"></script>
@@ -37,8 +35,8 @@
 
 <script>
 
-    var total_words = document.getElementById("total_words").innerHTML;
-    // print total_words  with spaces between thousands
-    document.getElementById("total_words").innerHTML = total_words.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+    var stats = document.getElementById("stats").innerHTML;
+    // print stats  with spaces between thousands
+    document.getElementById("stats").innerHTML = stats.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
 
 </script>
