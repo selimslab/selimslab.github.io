@@ -39,6 +39,10 @@ Sleep, friends, sunlight, trees, clouds, wind, rain, a deep breath
 
 The world is unjust and full of shit, still there is some good in it and it's worth fighting for
 
+We can channel our pain to build character and strength
+
+Don't regret your mistakes, experience and good jugment comes from mistakes 
+
 ---
 
 [[truth]] has many faces

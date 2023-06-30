@@ -83,6 +83,7 @@ class BackLinksGenerator < Jekyll::Generator
       
       graph["links"].each {
         |link|
+          begin 
           # puts link
           source = link[:source]
           target = link[:target]
@@ -96,6 +97,11 @@ class BackLinksGenerator < Jekyll::Generator
 
           graph["nodes"][target][:links].push(link)
           graph["nodes"][source][:links].push(link)
+          rescue => exception
+            puts exception
+            puts target 
+            puts source 
+          end
     }
 
       graph["nodes"].each do |k,v|
