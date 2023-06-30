@@ -1,5 +1,4 @@
 ---
-layout: tag
 tags: pro tech top
 ---
 
