@@ -5,7 +5,7 @@ tags: psy top
 
 ## tldr
 
-We are all human, driven by emotion. We know almost nothing yet think we know the best. We make decisions for the stupidest of resaons and pretend otherwise 
+We are all human and driven by emotion. We know almost nothing yet think we know the best. We make decisions for the stupidest of reasons and pretend otherwise 
 
 ---
 

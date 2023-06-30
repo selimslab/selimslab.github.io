@@ -6,7 +6,7 @@ From <https://www.feynmanlectures.caltech.edu/II_18.html>
 
 The physics known by 1905 is the foundation of modern technology 
 
-Here all of it, in one table. 
+Here all in one table. 
 
 ![](/static/img/classical.png)
 

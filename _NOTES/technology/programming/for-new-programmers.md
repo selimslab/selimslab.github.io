@@ -16,30 +16,20 @@ layout: page
 
 3. C is a good start, as well as [codecademy python](https://www.codecademy.com/learn/learn-python) 
 
-4. Meet the terminal. ls, cd, mv, top, mkdir, touch, rm, cat, sort, uniq, grep
+4. Terminal basics -> ls, cd, mkdir, mv, touch, rm, cat, sort, uniq, grep
 
-5. Meet version control and git. clone, add, commit, push, pull request, merge 
+5. Version control -> git clone, add, commit, push, pull request, merge 
    
 6. [Grokking algorithms](http://93.174.95.29/main/9F2B390517083CF4485BA524B80815F5) is visual and fun, a great algorithms book  
 
-
-## SQL 
-
-* [Interactive SQL lessons](https://sqlbolt.com/)
-
-* [sql - How to implement one-to-one, one-to-many and many-to-many relationships while designing tables? - Stack Overflow](https://stackoverflow.com/questions/7296846/how-to-implement-one-to-one-one-to-many-and-many-to-many-relationships-while-de)
-
-
-## Pattern matching and regex 
-
-* <https://regexlearn.com/>
-
-## Algorithms Practice
-
-* [Leetcode's top-100 liked collection](https://leetcode.com/problemset/top-100-liked-questions/?difficulty=Easy)
+7. SQL basics -> [Interactive SQL lessons](https://sqlbolt.com/) [How to implement one-to-one, one-to-many and many-to-many relationships while designing tables? - Stack Overflow](https://stackoverflow.com/questions/7296846/how-to-implement-one-to-one-one-to-many-and-many-to-many-relationships-while-de)
 
 
 ## Misc. 
+
+* [History of the Internet - Wikipedia](https://en.wikipedia.org/wiki/History_of_the_Internet)
+
+* Regex <https://regexlearn.com/>
 
 * [Web design in 4 minutes](https://jgthms.com/web-design-in-4-minutes/)
 
@@ -48,8 +38,6 @@ layout: page
 * [What every computer science major should know](http://matt.might.net/articles/what-cs-majors-should-know/)
 
 * [The Essence of Information - Matthias Endler](https://endler.dev/2017/the-essence-of-information/)
-
-* [History of the Internet - Wikipedia](https://en.wikipedia.org/wiki/History_of_the_Internet)
 
 * [Avoid Working Alone – Letters To A New Developer](https://letterstoanewdeveloper.com/2019/06/24/avoid-working-alone/)
 

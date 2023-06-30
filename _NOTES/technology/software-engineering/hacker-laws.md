@@ -6,7 +6,7 @@ tags: swe top
 
 > All models are wrong, but some are useful. 
 
-## TLDR 
+## tldr 
 
 Keep it simple 
 

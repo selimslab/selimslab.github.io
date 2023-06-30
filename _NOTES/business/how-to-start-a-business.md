@@ -1,5 +1,5 @@
 ---
-tags: skills bus essais top
+tags: skills bus essais
 ---
 
 [[what-to-work-on]]
