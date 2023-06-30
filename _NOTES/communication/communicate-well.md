@@ -1,6 +1,6 @@
 ---
 title: On communication  
-tags: skills top  
+tags: skills  
 ---
 
 

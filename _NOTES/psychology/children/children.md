@@ -1,6 +1,6 @@
 ---
 title: On children
-tags: psy skills essais top
+tags: psy skills essais
 ---
 
 Lead by example, actions matter more to children than words  

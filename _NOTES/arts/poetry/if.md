@@ -18,7 +18,7 @@ Or being lied about, don’t deal in lies,
 
 Or being hated, don’t give way to hating,
 
-And yet don’t look too good, nor talk too wise:
+And yet don’t look too good, nor talk too wise
 
 ---
 

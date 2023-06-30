@@ -23,6 +23,8 @@ Complain less, appreciate more
 
 ![](/static/img/notice-when-you-are-happy.png)
 
+[[less]]
+
 ---
 
 Simple things are the best
@@ -73,6 +75,8 @@ Garbage in, garbage out
 
 Do what you can, here and now
 
+[[character]]
+
 ---
 
 Nature does not hurry yet everything is accomplished
@@ -82,6 +86,8 @@ Nature does not hurry yet everything is accomplished
 > Climb Mount Fuji,
 >
 > But slowly, slowly!
+
+[[wind-and-rain]]
 
 ---
 
@@ -101,7 +107,7 @@ Think twice but don't get stuck, good enough is good
 
 Fear leads to anger, anger leads to hate
 
-"All cruelty springs from weakness" Seneca
+Cruelty springs from weakness 
 
 [[who-goes-nazi]]
 
@@ -118,6 +124,10 @@ Going fast in the wrong direction is not productivity
 [[get-things-done]]
 
 Only genuine interest and passion can create beautiful results
+
+[[success]]
+
+[[you-are-not-nameless]]
 
 ---
 
@@ -137,9 +147,9 @@ Don't try to prove anything
 
 ---
 
-[[poetry]]
-
 As with all matters of the heart, you'll know when you find it.
+
+What goes around, comes back around.  [[all-is-one]]
 
 ---
 
@@ -159,7 +169,6 @@ Leave it better than you found.
 
 Stay hungry, stay foolish
 
-[[all-is-one]]
 
 ---
 
@@ -168,3 +177,18 @@ It's later than you think
 [[know-where-to-stop]]
 
 Never miss a good chance to shut up
+
+
+Also see
+
+[[free-will]]
+
+[[freedom]]
+
+[[happiness]]
+
+[[death]]
+
+[[life-is-not-short]]
+
+

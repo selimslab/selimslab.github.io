@@ -1,6 +1,6 @@
 ---
 title: On design 
-tags: arts skills essais top
+tags: arts skills essais
 --- 
   
 - Design is the core and it keeps expressing itself in successive outer layers of the product or service.

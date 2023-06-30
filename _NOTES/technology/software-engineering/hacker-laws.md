@@ -6,26 +6,42 @@ tags: swe top
 
 > All models are wrong, but some are useful. 
 
+## TLDR 
+
+Keep it simple 
+
+Don't take down a fence unless you know why it is put up
+
+The best code is no code
+
+Do one thing and do it well 
+
+Test early and often 
+
+Anything that can go wrong will go wrong. 
+
+Leave it better than you found. 
+
+
+---
 
 ## Keep it simple 
 
+* The best code is no code
+
 * Simple solutions are more likely to be correct. Occam's Razor
+
+* Do one thing and do it well 
 
 * YAGNI 
 
 * KISS 
 
-* Nirvana Fallacy, gold-plating
-
-* A complex system that works is invariably found to have evolved from a simple system that worked. Gall's Law
-
-* Do not overthink 
-
-* The best code is no code
-
-* Do one thing and do it well 
+* Nirvana Fallacy
 
 * Get end-to-end first 
+
+* Too many options leads to decision paralysis 
 
 * Premature optimization is the root of all evil. Donald Knuth
 
@@ -45,7 +61,7 @@ tags: swe top
 
 * Ship it
 
-## Make everything as simple as possible, but not simpler. 
+* Make everything as simple as possible, but not simpler. 
 
 * There is a certain amount of complexity in a system that cannot be reduced. The Law of Conservation of Complexity (Tesler's Law)
 
@@ -80,19 +96,15 @@ tags: swe top
 
 * Adding human resources to a late software development project makes it later. Brooks' Law
 
-## Don't get carried away   
-
 * When a measure becomes a target, it ceases to be a good measure. Goodhart's Law
 
 * We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run. The Hype Cycle & Amara's Law
-* 
+
 ## Stay hungry, stay foolish  
 
 * Incompetent people think they are the best. The Dunning-Kruger Effect
 
 * Institutions will try to preserve the problem to which they are the solution. The Shirky Principle
-
-* Companies tend to systematically promote incompetent employees to management to get them out of the workflow. The Dilbert Principle
 
 * People in a hierarchy tend to rise to their "level of incompetence". The Peter Principle
 

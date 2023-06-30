@@ -20,7 +20,7 @@ Want everything, lose everything
 
 What you want isn't always best for you 
 
-[[the-price-is-your-life]]
+The price of anything is the amount of life you exchange for it 
 
 ---
 

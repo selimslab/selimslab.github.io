@@ -3,62 +3,45 @@ title: Cognitive Biases
 tags: psy top 
 ---
 
+## tldr
 
-1. We believe we are better than we are
+We are all human, driven by emotion. We know almost nothing yet think we know the best. We make decisions for the stupidest of resaons and pretend otherwise 
 
-2. Mistakes of others are easier to notice than our own 
+---
 
-3. We jump to conclusions, judge, oversimplify, exaggerate, overgeneralize, and stereotype 
+We think we are better than we are because mistakes of others are easier to notice than our own 
 
-4. We mistake the limits of our vision as the limits of the world 
+Environment shapes us 
 
-5. We tend to do what is quick, easy, and comfortable over what is important 
+Brains love saving energy so we jump to conclusions, oversimplify, overgeneralize, exaggerate, and stereotype. We like to do what is quick, easy, and comfortable over what is important. 
 
-6. We see what we want to see, believe what we want to believe 
+We love bandwagons, all these people can't be wrong?
 
-7. Emotions make decisions. Reason comes later and justifies.
+We can't read minds or predict other people yet we like to pretend so 
 
-8. People like you more than you know 
+Availability increase liking, we make friends with whoever is close by 
 
-9. People think about you way less than you believe 
+We regret over the past, worry or hope about the future. Yet we fail to learn from the past and the future turns out neither that good or that bad 
 
-10. Environment affects us more than we suspect
+People believe what they want, not what is true, yet we still try to prove something or to change people. And we love stories, a good story can easily win over the facts 
 
-11. "All these people can't be wrong"
+We like to cry over spilt milk, it's just sunk cost and it's better to move on 
 
-12. The best story wins not the best idea 
+We think our luck will turn after many losses, like a gambler, but every turn is different and no one is keeping the score 
 
-13. Simple explanations are appealing even when they’re wrong.
+Emotions make decisions. Reason comes later and justifies.
 
-14. The future is neither as good as we hope nor as bad as we fear 
+People like you more than you know but they don't think much about you. 
 
-15. Hindsight is 20/20
+We fear and respect what we don’t know. 
 
-16. We fear what we don’t understand 
+We think success is earned and failure is deserved but most things are so random. Yet, people want to associate with winners and avoid losers.
 
-17. We can't read minds 
+We feel envy but we wouldn't want to completely swap ourselves with another person 
 
-18. People are both curious and afraid of new things so a familiar thing in an original setting is interesting.
+People generally like to be consistent and keep commitments
 
-19. A fact can be nonsense in a context 
-
-20. People want to associate with winners and avoid losers.
-
-21. We are sensitive to fairness 
-
-22. We think success is earned and failure is deserved but most things are so random 
-
-23. We feel envy but we wouldn't want to completely swap ourselves with another person 
-
-24. Availability increase liking 
-
-25. We fail to learn from the past
-
-26. People generally like to be consistent and keep commitments
-
-27. The first conclusion is like the first sperm, the mind closes itself to preserve energy
-
-28. We tend to do something even when doing nothing is better 
+We tend to do something even when doing nothing is better 
 
 
 ## Also see
@@ -74,10 +57,6 @@ tags: psy top
 [[overvaluing-short-term]]
 
 Pavlovian Association
-
-Sunk cost fallacy 
-
-Gambler's fallacy 
 
 Anchoring
 
