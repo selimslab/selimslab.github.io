@@ -14,9 +14,11 @@
 ## serve
 `bundle exec jekyll serve --trace`
 
---incremental
+or 
 
---profile 
+`--incremental`
+
+`--profile` 
 
 ## Features 
 1. minimal
