@@ -1,6 +1,8 @@
 ---
 title: Principal Component Analysis
 tags: projects
+layout: code
+
 ---
 
 Sometimes a few dimensions explain most of the variability

@@ -1,5 +1,7 @@
 ---
 tags: projects
+layout: code
+
 ---
 
 

@@ -1,6 +1,8 @@
 ---
 title: Tiny blockchain in 100 lines
 tags: projects 
+layout: code
+
 ---
 
 ```python
