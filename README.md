@@ -1,4 +1,4 @@
-##  a minimal personal wiki with offline access
+##  a minimal personal wiki 
 
 <https://selimslab.github.io>
 
@@ -6,34 +6,28 @@
 
 ## setup
 
-install ruby 
-
-gem install bundler jekyll
-
-bundle install
+1. install ruby <https://www.ruby-lang.org/en/downloads/>
+2. clone the repo 
+3. `gem install bundler jekyll`
+4. `bundle install`
 
 ## serve
-
-bundle exec jekyll serve --trace 
+`bundle exec jekyll serve --trace`
 
 --incremental
 
 --profile 
 
 ## Features 
-
 1. minimal
-2. backlinks
-3. tags
-4. dark mode
-5. search
-6. random post dice
-7. idea bulb
-8. random post dice
-9. breadcrumbs
-10. syntax highlighter
-11. random artwork for every post
-12. refresh artwork button
-13. 2D and 3D link graphs
-14. site stats
-15. no ads 
+2. no ads
+3. backlinks
+4.  PWA service worker for offline access\
+5. caching for static assets
+6. analytics and site stats
+7. dark mode
+8. search
+9. shuffle buttons to view a random page, artwork, or quote
+10. breadcrumbs
+11. syntax highlighter
+12. 2D and 3D link graphs
