@@ -1,4 +1,5 @@
 ---
+tags: soc
 ---
 
 Ability to attract and co-opt, rather than coerce (contrast hard power). 

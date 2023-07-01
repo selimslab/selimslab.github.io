@@ -1,6 +1,6 @@
 ---
-title: Teamwork ⚽
-tags: sk essais soc
+title: Teamwork
+tags: sk essais soc bus
 ---
 
 However hard you work, the results are limited by a single person.

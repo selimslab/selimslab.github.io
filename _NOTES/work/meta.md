@@ -1,8 +1,6 @@
 ---
 ---
 
-
-
 ## feedback 
 
 Self-directed, high initiative 

@@ -7,7 +7,7 @@ title:  Questions❓
 
 * What is not?
 
-* What do I not want in life?
+* What do I NOT want in life?
 
 * What would my best version do? 
 

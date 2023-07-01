@@ -1,6 +1,6 @@
 ---
 title: What to work on?
-tags: phil essais 
+tags: phil essais bus sk
 ---
 
 1. Start with the why, then how and what 

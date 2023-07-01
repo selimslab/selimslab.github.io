@@ -11,7 +11,13 @@ Zoom in/out by mouse
 
 </article>
 
-{% include 2d-graph.html %}
+<div id="graph-container"></div>
+
+<script src="//unpkg.com/force-graph"></script>
+
+<script src="/assets/js/graph.js"></script>
+
+<script src="/assets/js/graph2D.js"></script>
 
 <script>
     draw2DGraph()

@@ -1,5 +1,5 @@
 ---
-tags: books
+tags: soc
 ---
 
 Irrevocable judgement

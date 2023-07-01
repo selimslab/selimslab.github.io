@@ -1,6 +1,6 @@
 ---
 title: OSI Model
-tags: net
+tags: tech
 --- 
 
 

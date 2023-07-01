@@ -4,7 +4,7 @@ tags: lit
 ---
 
 They fuck you up, your mum and dad.  
- They may not mean to, but they do.  
+They may not mean to, but they do.  
 They fill you with the faults they had
 And add some extra, just for you.
 

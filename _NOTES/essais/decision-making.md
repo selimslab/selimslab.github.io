@@ -1,5 +1,5 @@
 ---
-tags: sk essais soc
+tags: sk essais soc bus
 ---
 
 We often make even major decisions carelessly

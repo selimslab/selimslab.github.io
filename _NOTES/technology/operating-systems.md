@@ -1,8 +1,8 @@
 ---
+title: Books on Operating Systems 
 layout: tag
-tags: os tech books
+tags: tech books
 ---
-
 
 Operating Systems: Three Easy Pieces
 

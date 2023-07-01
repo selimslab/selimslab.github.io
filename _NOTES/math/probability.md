@@ -2,11 +2,7 @@
 tags: math 
 ---
 
-Probabilistic thinking
-
-Probability runs the world
-
-Randomness is the heart of creativity 
+Probability and randomness run deep in life  
 
 <https://en.wikipedia.org/wiki/Survivorship_bias>
 

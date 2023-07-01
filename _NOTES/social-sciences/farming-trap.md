@@ -2,13 +2,11 @@
 tags: soc
 ---
 
-Humans started to farm only 10 000 years ago, and it led to a crowded, unhealthy, unequal society 
+Hunter-gatherers had their worries and fears but this is the price of freedom, freedom costs dearly but it's worth it 
 
-Hunter-gatherers had diverse and healthy diets, ample leisure time, fit bodies, a deep connection with nature, and superb survival skills 
+They had diverse and healthy diets, ample leisure time, fit bodies, a deep connection with nature, and superb survival skills 
 
-They had their worries and fears, this is the price of freedom, freedom costs dearly but it's worth it 
-
-Overall being a hunter-gatherer is just like being a free wild animal compared to being a farm or zoo animal
+Overall it is like being a free wild animal compared to being a farm or zoo animal
 
 <http://www.ditext.com/diamond/mistake.html>
 

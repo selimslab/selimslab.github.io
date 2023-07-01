@@ -6,9 +6,6 @@ tags: pro
 install macros geddski.macros 
 
 
-
-
-
 ## settings.json 
 
 add macros to vscode settings 

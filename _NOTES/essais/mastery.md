@@ -1,5 +1,5 @@
 ---
-tags: essais pro
+tags: essais pro sk
 ---
 
 Mastery comes from focus and deliberate practice, from saying no to many good ideas to pursue important ones 

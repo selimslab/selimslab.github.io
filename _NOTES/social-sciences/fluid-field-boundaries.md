@@ -2,8 +2,6 @@
 tags: nat soc tech
 ---
 
-Field boundaries are so fluid 
-
 Back-propagation arose from control theory and used to optimize the thrusts of the Apollo spaceships
 
 Now its an important concept in machine learning and deep learning

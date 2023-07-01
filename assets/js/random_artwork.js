@@ -26,19 +26,3 @@ shuffle = async () => {
   document.getElementById("description").innerHTML = alt;
 };
 
-toggle = () => {
-  if (window.localStorage.getItem(IS_ARTWORK_ENABLED) === "false") {
-    window.localStorage.setItem(IS_ARTWORK_ENABLED, "true");
-    shuffle();
-  } else {
-    window.localStorage.setItem(IS_ARTWORK_ENABLED, "false");
-    clear();
-  }
-};
-
-clear = () => {
-  let img = document.getElementById("artwork");
-  img.src = "";
-  img.alt = "";
-  document.getElementById("description").innerHTML = "";
-};

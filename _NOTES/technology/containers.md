@@ -1,6 +1,6 @@
 ---
 title: Containers
-tags: os  
+tags: tech  
 ---
 
 Although OS provides process isolation, containers provide more isolation and ease on top of that  
