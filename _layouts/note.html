@@ -19,15 +19,13 @@ date: {{ last_modified_at }}
 
     {% include backlinks.html %}
 
-    <hr>
-    
-    {% include random-idea.html %}
-
 </article>
 
 {% if words > 150 %}
     {% include random-artwork.html %}
 {% endif %}
+
+{% include random-idea.html %}
 
 
 

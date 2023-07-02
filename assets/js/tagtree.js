@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: none
 ---
 
 function renderUl(root) {
@@ -58,9 +58,5 @@ const tagtree = {{ site.data.tagtree | jsonify }};
 const root = document.getElementById("tagtree");
 
 iterate(tagtree, root);
-console.log(seen, "tags rendered");
-console.log(labels, "labels");
-
 let diff =  Object.keys(labels).filter(x => !seen.has(x));
-console.log(diff, "tags not rendered");
 
