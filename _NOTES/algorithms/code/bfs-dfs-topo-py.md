@@ -1,5 +1,5 @@
 ---
-tags: graph
+tags: gr
 layout: code
 
 ---

@@ -1,6 +1,5 @@
 ---
-layout: tag
-tags: backtrack algo
+tags: algo
 ---
 
 

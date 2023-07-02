@@ -1,6 +1,5 @@
 ---
 layout: tag
-
 tags: heap algo
 ---
 

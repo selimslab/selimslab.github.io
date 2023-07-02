@@ -1,6 +1,6 @@
 ---
 title: Tree, Binary Search Tree
-tags: tree
+tags: gr
 layout: code
 
 ---

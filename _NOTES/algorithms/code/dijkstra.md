@@ -1,6 +1,6 @@
 ---
 title: Dijkstra
-tags: graph algo 
+tags: gr algo 
 layout: code
 ---
 

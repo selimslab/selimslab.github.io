@@ -1,6 +1,6 @@
 ---
 title: Accessible Software 
-tags: tech design
+tags: tech
 ---
 
 <https://www.accessibility-developer-guide.com>

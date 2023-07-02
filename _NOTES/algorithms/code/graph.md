@@ -1,6 +1,6 @@
 ---
 layout: tag
-tags: graph algo
+tags: gr algo
 ---
 
 ```py

@@ -1,12 +1,12 @@
 ---
 layout: tag
-tags: apx algo
+tags: algo
 ---
 
 
 Sometimes the exact solution takes too much time 
 
-Like the set covering problem or travelling salesman 
+Like the set covering problem or traveling salesman 
 
 [[greedy]] algo helps here 
 

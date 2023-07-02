@@ -1,5 +1,5 @@
 ---
-tags:  heap str dynamic
+tags:  heap str dp
 layout: code
 ---
 
