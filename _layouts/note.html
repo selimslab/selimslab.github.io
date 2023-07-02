@@ -9,18 +9,19 @@ date: {{ last_modified_at }}
 
     <h1>{{ page.title }}</h1>
 
-    {% if words > 150 %}
-        {% include read-time.html %}
-        <br>
-    {% endif %}
+    {% include read-time.html %}
 
     {{ content }}
 
-    <br>
+    <hr>
 
     {% include tags.html %}
 
     {% include backlinks.html %}
+
+    <hr>
+    
+    {% include random-idea.html %}
 
 </article>
 
@@ -28,7 +29,6 @@ date: {{ last_modified_at }}
     {% include random-artwork.html %}
 {% endif %}
 
-{% include random-idea.html %}
 
 
 

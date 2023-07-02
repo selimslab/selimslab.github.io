@@ -16,7 +16,7 @@ This token is a large random value, unique per user & per user session.
 
 Make sure your forms have CSRF tokens. 
 
-<br>
+<hr>
 
 CSRF tokens should not be sent within cookies. 
 

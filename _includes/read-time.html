@@ -1,9 +1,8 @@
-<p style="font-size: 0.8rem">
 {% assign words = content | number_of_words | times: 1.0  %}
-  {% if words < 180 %}
-    1 min
-  {% else %}
-    {{ words | divided_by:180 | ceil }} mins
-  {% endif %}
-  read
+{% if words > 180 %}
+<p style="font-size: 0.8rem; margin-bottom:0.6rem">
+  {{ words | divided_by:180 | ceil }} mins read
 </p>
+{% endif %}
+
+

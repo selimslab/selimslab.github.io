@@ -57,7 +57,7 @@ bu kadar geniş olduğuna şaşarak
 
 kımıldanmadan durdum.
 
-<br>
+<hr>
 
 Sonra saygıyla toprağa oturdum,
 
@@ -269,7 +269,7 @@ Bağıra çağıra düşerim yollara;
 
 Döner döner durur basım havalarda.
 
-<br>
+<hr>
 
 Sanırım ki günler hep güzel gidecek;
 
