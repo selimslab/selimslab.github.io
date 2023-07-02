@@ -9,5 +9,11 @@
     "macros": {
         "downAndOpen": [ "list.focusDown", "list.selectAndPreserveFocus" ],
         "upAndOpen": [ "list.focusUp", "list.selectAndPreserveFocus" ]
-    }
+    },
+    "grammarly.selectors": [
+        {
+            "language": "markdown",
+            "scheme": "file"
+        }
+    ]
 }

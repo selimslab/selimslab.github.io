@@ -37,11 +37,11 @@ Sleep, friends, sunlight, trees, clouds, wind, rain, a deep breath
 
 ---
 
-The world is unjust and full of shit, still there is some good in it and it's worth fighting for
+The world is unjust and full of shit, still, there is some good in it and it's worth fighting for
 
 We can channel our pain to build character and strength
 
-Don't regret your mistakes, experience and good jugment comes from mistakes 
+Don't regret your mistakes, experience and good judgment comes from mistakes 
 
 ---
 
@@ -99,7 +99,7 @@ Go with all your heart
 
 Don't decide under physical discomfort or heavy emotion, wait until your mind is clear
 
-An ounce of prevention worths a pound of cure. [[do-without-doing]]
+An ounce of prevention is worth a pound of cure. [[do-without-doing]]
 
 Think twice but don't get stuck, good enough is good
 
@@ -179,9 +179,9 @@ It's later than you think
 
 [[know-where-to-stop]]
 
-Never miss a good chance to shut up
+Never miss a good chance to shut up.
 
-Also see
+Also, see
 
 [[free-will]]
 

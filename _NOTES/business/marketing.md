@@ -2,7 +2,7 @@
 tags: bus
 ---
 
-Marketing matters. Its how people perceive your work. 
+Marketing matters. It's how people perceive your work. 
 
 ![](/static/img/net-promoter-score.png)
 

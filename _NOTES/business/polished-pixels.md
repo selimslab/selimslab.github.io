@@ -2,7 +2,7 @@
 tags: bus pro
 ---
 
-People mistake a polished UI with good software
+People mistake a polished UI for good software
 
 Pixels on the screen are what matters to non-programmers. Why not make it beautiful
 

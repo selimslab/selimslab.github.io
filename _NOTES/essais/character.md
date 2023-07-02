@@ -14,7 +14,7 @@ Building a good character takes time and practice.
 
 "Well-being is attained little by little, and nevertheless is no little thing itself"
 
-Real wealth is building character, applying your qualities and healing your dark side 
+Real wealth is building character, applying your qualities, and healing your dark side 
 
 "Circumstances don't make the man but reveal him"  
 

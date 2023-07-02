@@ -19,9 +19,7 @@ Status is your place in the social hierarchy.
 
 Ignore people playing status games.
 
-You’re not going to get rich renting out your time. You must own equity - a piece of a business - to gain your financial freedom.
-
-Play long term games with long term people.
+You’re not going to get rich renting out your time. You must own equity - a piece of a business - to gain your financial freedom. Play long-term games with long-term people.
 
 Play iterated games
 
@@ -35,7 +33,7 @@ Arm yourself with specific knowledge, accountability, and leverage.
 
 Specific knowledge is the result of pursuing your genuine curiosity
 
-Embrace accountability, and take business risks under your own name. Society will reward you with responsibility, equity, and leverage.
+Embrace accountability, and take business risks under your name. Society will reward you with responsibility, equity, and leverage.
 
 Fortunes need leverage. Business leverage comes from 3 things,
 capital, people, and products with no marginal cost of replication (code and media).
@@ -52,7 +50,7 @@ Apply specific knowledge, with leverage, and you will get what you deserve.
 
 ---
 
-If you want to live in the future, live in the freest place around. Because , the innovators and creators will show up there.
+If you want to live in the future, live in the freest place around. Because the innovators and creators will show up there.
 
 ---
 
