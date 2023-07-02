@@ -15,5 +15,11 @@ tao: tao-te-ching
 tech: technology
 dp: dynamic
 gr: graph
-
-
+arr: array 
+apx: approximation
+conc: concurrent
+ll: linked-list
+ptr: pointers
+q: queue
+sort: sorting
+str: string
