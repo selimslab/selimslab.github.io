@@ -8,23 +8,6 @@
 - tprompt
   - nikola jelisavac
 
-## Todo
-
-- learn rodne cislo/ TIN
-
-  - add TIN to ESPP stock program
-  - Open broker account
-
-- embassy appointment
-
-  - karoliny letter
-
-- buy a car
-
-  - prepare a car checklist
-
-- bring best
-  - mail EY about marriage visa
 
 ## In progress
 
@@ -303,67 +286,6 @@ nov 1w 4
 
 dec 1w 3
 
-# CZECH BASICS
-
-dekuju moc
-
-prominte
-
-omlouvam se
-
-prosim
-
----
-
-ahoj
-
-ja sem Selim
-
-jsem doma
-
-jdu ven
-
----
-
-dobre rano
-
-dobry den
-
-dobry vecer
-
-Nashledanou / cau
-
-## digits
-
-- nula
-- jedna
-- dva
-- tri
-- ctyri
-- pet
-- sest
-- sedm
-- osm
-- devet
-- deset
-
-## time
-
-minut
-
-hodin
-
-den
-
-tydne
-
-mesic
-
-rok
-
-## words
-
-maybe - mozna
 
 # OFFICIAL
 
