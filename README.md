@@ -24,7 +24,7 @@ or
 1. minimal
 2. no ads
 3. backlinks
-4.  PWA service worker for offline access\
+4.  PWA service worker for offline access
 5. caching for static assets
 6. analytics and site stats
 7. dark mode
