@@ -3,11 +3,20 @@ title: A good life 🌱
 tags: phil sk essais top
 ---
 
-Think of yourself as dead.
+
+"Think of yourself as dead.
 
 You have lived your life.
 
-Now take what's left and live it properly.
+Now take what's left and live it properly."
+
+---
+
+Learn from the past and move on. 
+
+Do your best in the present. 
+
+Prepare for the future. 
 
 ---
 
@@ -15,33 +24,21 @@ Nothing in excess
 
 Neither chase pleasure nor avoid necessary pain
 
-This too shall pass
-
----
-
 Complain less, appreciate more
 
-![](/static/img/notice-when-you-are-happy.png)
-
-[[less]]
-
----
-
 Simple things are the best
-
-Sleep, friends, sunlight, trees, clouds, wind, rain, a deep breath
 
 [[take-a-walk]]
 
 ![](/static/img/boy-and-cat.jpeg)
 
----
-
 The world is unjust and full of shit, still, there is some good in it and it's worth fighting for
 
 We can channel our pain to build character and strength
 
-Don't regret your mistakes, experience and good judgment comes from mistakes 
+This too shall pass
+
+Don't regret your mistakes, experience and good judgment come from mistakes 
 
 ---
 
@@ -109,11 +106,17 @@ Think twice but don't get stuck, good enough is good
 >
 > Than never to have loved at all.
 
+
+As with all matters of the heart, you'll know it when you find it.
+
+---
+
 Fear leads to anger, anger leads to hate
 
 Cruelty springs from weakness
 
 [[who-goes-nazi]]
+
 
 ---
 
@@ -125,9 +128,9 @@ Going fast in the wrong direction is not productivity
 
 [[mastery]] comes from focus and humility
 
-[[get-things-done]]
-
 Only genuine interest and passion can create beautiful results
+
+[[get-things-done]]
 
 [[success]]
 
@@ -151,35 +154,27 @@ Don't try to prove anything
 
 ---
 
-As with all matters of the heart, you'll know when you find it.
-
-What goes around, comes back around. [[all-is-one]]
-
----
-
 All models are wrong, some are useful
 
 Keep it simple
-
----
 
 Anything that can go wrong will go wrong.
 
 In writing or it didn’t happen
 
+What goes around, comes back around. [[all-is-one]]
+
 ---
 
 Leave it better than you found.
-
-Stay hungry, stay foolish
-
----
 
 It's later than you think
 
 [[know-where-to-stop]]
 
 Never miss a good chance to shut up.
+
+---
 
 Also, see
 
@@ -192,3 +187,8 @@ Also, see
 [[death]]
 
 [[life-is-not-short]]
+
+![](/static/img/notice-when-you-are-happy.png)
+
+[[less]]
+

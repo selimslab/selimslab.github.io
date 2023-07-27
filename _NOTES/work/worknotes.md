@@ -1,26 +1,13 @@
 ---
 ---
 
-## TODAY
-
 # ACTIVE
+
+## NEXT
 
 - tprompt
   - nikola jelisavac
 
-
-## In progress
-
-replace drivers licence
-
-## PC migration
-
-- Dynamic theme
-- vscode
-- visual studio
-- docker
-- minikube
-- download cxp main
 
 # TECHNICAL
 

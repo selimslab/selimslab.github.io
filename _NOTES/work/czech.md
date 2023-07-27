@@ -46,6 +46,17 @@ Nashledanou / cau
 - devet
 - deset
 
+HUNDREDS 
+
+THOUSANDS 
+
+DAYS 
+
+COLORS 
+
+basic nouns, verbs, adjectives 
+
+
 ## time
 
 minut
