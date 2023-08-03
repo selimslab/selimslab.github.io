@@ -1,15 +1,36 @@
 ---
 ---
 
+# Q&A 
+
+on-call payroll? 
+
 # ACTIVE
+
+saw setup 
+pc setup 
+
+on-call readiness
+
+1:1 team sessions 
+connect feedback 
 
 ## NEXT
 
 - tprompt
   - nikola jelisavac
 
+# IDEAS 
+
+scrape wiki and list most visited wiki pages 
+
 
 # TECHNICAL
+
+## On call 
+
+Redirect -> Consent DRI 
+
 
 ## Import Forms
 
