@@ -1,24 +1,59 @@
 ---
 ---
 
-# Q&A 
-
-on-call payroll? 
-
 # ACTIVE
 
+% monitor
+
+unicode icm 
+
+tprompt, nikola jelisavac
+
+bugbash bugs
+  
 saw setup 
+
 pc setup 
 
 on-call readiness
 
 1:1 team sessions 
+
 connect feedback 
 
-## NEXT
+## Q&A 
 
-- tprompt
-  - nikola jelisavac
+on-call payroll? turgaya
+
+basic tax deduction 
+
+## Official
+
+Rodne 
+
+Embassy sign 
+
+DL
+
+## Tax 
+
+1. get receipts of donations 
+2. life insurance deduction
+3. basic tax deduction 
+4. etc 
+   
+### KPMG tax meeting notes 
+
+PoA
+
+Example Payroll calc 
+
+Possible to  deduct life insurance and donations 
+
+report until 2024 apr 1 or july 1 
+
+stock market value + ESPP gain 
+
 
 # IDEAS 
 
@@ -69,6 +104,11 @@ NVDA
 .\SolutionPackager.exe /action:Extract /zipfile:C:\CXP-Main\bin\Solutions\Forms.Solution\Debug\net471\CrmSolutions\FormsSolution\FormsSolution_managed.zip /folder:C:\loc /loc
 
 pac solution unpack --zipfile C:\CXP-Main\bin\Solutions\Forms.Solution\Debug\net471\CrmSolutions\FormsSolution\FormsSolution.zip --folder C:\loc --localize
+
+
+# Logs
+
+https://mktcxptestsg908rcorg2903.crm10.dynamics.com/api/data/v9.2/plugintracelogs?$top=10&$orderby=createdon%20asc
 
 ## Kusto
 

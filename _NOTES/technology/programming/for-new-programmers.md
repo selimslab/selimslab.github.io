@@ -4,23 +4,50 @@ tags: pro tech top
 
 ## Fundamentals 
 
-1. [Crash Course Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo) is fantastic 
+### 1. Have a high-level overview of the field 
 
-2. [CS50](https://www.youtube.com/playlist?list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW) is Harvard University's introduction to computer science and the art of programming
+[Crash Course Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo) is fantastic 
 
-3. C is a good start, as well as [codecademy python](https://www.codecademy.com/learn/learn-python) 
+or 
 
-4. Terminal basics -> ls, cd, mkdir, mv, touch, rm, cat, sort, uniq, grep
+[CS50](https://www.youtube.com/playlist?list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW) is Harvard University's introduction to computer science and the art of programming
 
-5. Version control -> git clone, add, commit, push, pull request, merge 
+### 2. Get started with a language
 
-6. [Grokking algorithms](http://93.174.95.29/main/9F2B390517083CF4485BA524B80815F5) is visual and fun, a great algorithms book  
+C is a good start
 
-7. SQL basics -> [Interactive SQL lessons](https://sqlbolt.com/) 
+or Python [codecademy](https://www.codecademy.com/learn/learn-python) 
+
+or Golang [a tour of go](https://go.dev/tour/welcome/1) [go by example](https://gobyexample.com/)
+
+### 3. Learn terminal basics 
+
+Operating systems have some high-level useful commands 
+
+for example linux and mac have ls, cd, mkdir, mv, touch, rm, cat, sort, uniq, grep
+
+### 4. Meet version control 
+
+Read a bit about git and basic pull request workflow. 
+
+-> git clone, add, commit, push, pull request, merge 
+
+### 5. Meet algorithms 
+
+[Grokking algorithms](http://93.174.95.29/main/9F2B390517083CF4485BA524B80815F5) is visual and fun, a great algorithms book  
+
+### 6. Meet databases and SQL 
+
+SQL basics -> [Interactive SQL lessons](https://sqlbolt.com/) 
    
 <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418">
 <img src="/static/img/teapot.png">
 </a>
+
+### 7. Meet system design 
+
+[System Design Fundamentals](https://www.youtube.com/watch?v=lX4CrbXMsNQ&list=PLCRMIe5FDPsd0gVs500xeOewfySTsmEjf&pp=iAQB)
+
 
 ## Misc. 
 
