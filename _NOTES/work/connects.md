@@ -2,6 +2,22 @@
 ---
 
 
+## The log 
+
+Got quickly up to speed 
+Enriched our docs by x% 
+Taking initiative for X bugs and Y icms 
+Working independently, clarifying and collaborating as needed
+Volunteered for a11y 
+Quickly joined on-call, 8 months 
+Delivering quality code with tests 
+Volunteered to work on all fronts of the product, services, UI, monitoring, bugs, icms
+Created scripts to streamline dev experience 
+
+...
+
+
+
 ## ROADMAP
 
 Technical Excellence​

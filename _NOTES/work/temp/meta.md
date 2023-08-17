@@ -13,9 +13,7 @@ Connect more, reach out people more
 
 Think less
 
-
 ## QA 
-
 
 Quality, Reliability 
 
@@ -23,14 +21,20 @@ Changes over years
 
 Performance 
 
-Like
-
-Change
-
-sense of purpose 
+Change n Like
 
 ## stories 
 
+
+---
+
+built the wrong yachtworld due to lack of communication 
+
+---
+
+Manual decision tree -> bayes -> NLP 
+
+---
 
 Lack of docs -> autodocs 
 
@@ -38,6 +42,11 @@ Reinvented wheels + pivot -> gradually replace
 
 No data engineers -> cover and advocate 
 
-Manual decision tree -> bayes -> NLP 
-
 Slow builds -> measure, colab, iterate 
+
+---
+
+Chaotic onboarding -> write, enrich 
+
+
+
