@@ -1,71 +1,18 @@
 ---
 ---
 
-# ACTIVE
-
-% monitor
-
-unicode icm 
-
-tprompt, nikola jelisavac
-
-bugbash bugs
-  
-saw setup 
-
-pc setup 
-
-on-call readiness
-
-1:1 team sessions 
-
-connect feedback 
-
-## Q&A 
-
-on-call payroll? turgaya
-
-basic tax deduction 
-
-## Official
-
-Rodne 
-
-Embassy sign 
-
-DL
-
-## Tax 
-
-1. get receipts of donations 
-2. life insurance deduction
-3. basic tax deduction 
-4. etc 
-   
-### KPMG tax meeting notes 
-
-PoA
-
-Example Payroll calc 
-
-Possible to  deduct life insurance and donations 
-
-report until 2024 apr 1 or july 1 
-
-stock market value + ESPP gain 
-
-
-# IDEAS 
-
-scrape wiki and list most visited wiki pages 
-
-
 # TECHNICAL
+## tprompt
+
+nikola jelisavac 
+
+our docs already included but it can't even work as good as a simple text index. The real value here is created by each one of us, even writing a few lines has more impact than gpt 
+
+can we use the search better? https://learn.microsoft.com/en-us/azure/devops/project/search/functional-code-search?view=azure-devops
 
 ## On call 
 
 Redirect -> Consent DRI 
-
 
 ## Import Forms
 
@@ -177,59 +124,6 @@ msdynmkt_CxpFormEditorModule.json
 
 C:\CXP-Main\src\Solutions\Forms\Solution\unmanaged\WebResources\msdynmkt_CxpFormEditorModule.json
 
-## VALUES
-
-- empower every person
-- clarity
-- energy
-- deliver
-- growth mindset
-- customer empathy
-- inclusion
-
----
-
-## ROADMAP
-
-Technical Excellence​
-
-L61: able to document and communicated best practices and team standards; readily adopts and applies new engineering methods. (TSGs, Public docs)​
-
-​Design & Architecture​
-
-L61:  Understand product area and technology stack. Design and present a medium feature considering multiple options and tradeoffs​
-
-Planning & Execution​
-
-L61: Anticipates risks and roadblocks and communicates them ahead of time. Develops methods to track and report metrics. Shifts priorities as required to mitigate risks. ​
-
-E2E Quality​
-
-L61: ensure tests are written at lowest level possible,
-writes testable code and robust tests,
-implementation tradeoffs clearly identified and discussed ahead of time,
-proactively identifies / addresses trends; able to cover triage​
-
-DevOps​
-
-L61: Considers rollout plan (including risk-mitigation) during feature design & development. Ensures proper customer and operation telemetry is in place prior to roll out. Priorities quick issue mitigation to minimize customer impact. Efficient DRI for the feature team area, who can be the primary owner for most Sev2 LSIs during DRI rotation. ​
-
-Collaboration​
-
-L61: Readily engages with others on the team to complete work ​
-
-Customer focus​
-
-L61: customer advocate, participates on feedback tickets and forums; provides feedback based on the customer needs; incorporates customer feedback into new product/feature decision making; generates new ideas to meet customer needs. Develops multiple options to meet customer needs ​
-
-Leadership (clarity / energy / success)​
-
-L61: Exudes confidence in the product area, feature being worked upon, seeking clarity where needed.
-Clearly (& precisely) communicates challenges,
-plans & status of work to stake holders. Conduct Agile design reviews sharing knowledge & inviting feedback from others. Contributes to the hiring process, acts are technical mentor, contributes to identifying and solving team efficiency and moral issues; understand team strategy and able to explain mapping between person contributions and team’s strategy. Proactively understands and support team priorities.
-
----
-
 ## Evtmgt CDS integration test L2
 
 Create entities, local ok, ci fails
@@ -313,44 +207,3 @@ Add a breakpoint
 Send a request to the local cluster at public-localhost.. or start an L2 test
 
 Check "run and debug" menu of vscode
-
-## Errors
-
-## IcMs
-
-## Bugs
-
-# SOCIAL
-
-## Vacation plan
-
-april 1w 5
-
-july 2w 8
-
-sep 1w 5
-
-nov 1w 4
-
-dec 1w 3
-
-
-# OFFICIAL
-
-## Taxes
-
-kpmg
-
-tax id/TIN/rodne cislo
-
-## Insurance
-
-VZP ok
-
-## Stocks
-
-ESPP ok
-
-## Immigration
-
-New partner EY
