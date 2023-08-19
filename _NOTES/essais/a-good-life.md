@@ -14,9 +14,9 @@ tags: phil sk essais top
 
 Learn from the past and move on. Don't regret your mistakes. Good judgment comes from making a lot of mistakes. Be kind to yourself, if you won't, who will? 
 
-Prepare for the future. Consider beginnings.Solve problems while they are still small. Anything that can go wrong will go wrong and prevention is the best cure. [[do-without-doing]]
+Prepare for the future. Consider beginnings. Solve problems while they are still small. Anything that can go wrong will go wrong. And prevention is the best cure. [[do-without-doing]]
 
-You become what you do. Garbage in, garbage out.  Do your best, here and now. Do what you can and don't worry for the rest. Nature does not hurry yet everything is accomplished. 
+You become what you do. Garbage in, garbage out. Do your best, here and now. Do what you can and let go of the rest. Nature does not hurry yet everything is accomplished. 
 
 > O snail
 >
@@ -36,7 +36,7 @@ Nothing in excess
 
 Neither chase pleasure nor avoid necessary pain
 
-[[less]]
+[[less]] is more 
 
 ## Emotions 
 
