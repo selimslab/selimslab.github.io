@@ -12,7 +12,9 @@
 5. `bundle install`
 
 ## serve
-`bundle exec jekyll serve --trace`
+```
+bundle exec jekyll serve --trace
+```
 
 or 
 
