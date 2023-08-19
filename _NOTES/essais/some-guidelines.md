@@ -1,5 +1,5 @@
 ---
-title: Zen of Δ
+title: Some guidelines for the road
 tags: phil
 ---
 

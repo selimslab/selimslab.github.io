@@ -1,5 +1,5 @@
 ---
-title: A good life 🌱
+title: Some ideas for a good life 🌱
 tags: phil sk essais top
 ---
 
@@ -8,7 +8,7 @@ tags: phil sk essais top
 
 ## TLDR 
 
-[[zen]]
+[[some-guidelines]]
 
 ## Here and Now  
 
@@ -52,7 +52,9 @@ It's possible to channel pain to build [[character]] and strength. This too shal
 
 Do nothing in anger. 
 
-Do what feels right over what is easy
+Do you have to prove anything?
+
+Do what feels right over what is easy.
 
 Fear leads to anger, anger leads to hate. Cruelty springs from weakness. [[who-goes-nazi]]
 
@@ -90,6 +92,7 @@ As with all matters of the heart, you'll know it when you find it.
 
 [[freedom]]
 
+Think twice before you speak and be careful with promises. 
 
 ## Work 
 
@@ -112,10 +115,6 @@ Leave it better than you found.
 ## Sound and Silence 
 
 Listen more than you speak. 
-
-Do you have to prove anything?
-
-Think twice before you speak and be careful with promises. 
 
 [[know-where-to-stop]]
 
