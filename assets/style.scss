@@ -40,6 +40,10 @@ body{
   word-break: break-word;
 }
 
+strong{
+  color: $light-text;
+}
+
 hr{
   margin: 1rem 0!important;
 }
@@ -207,6 +211,10 @@ html[data-theme='light'] {
 
   body{
     background: $light-bg;
+    color: $dark-text;
+  }
+
+  strong{
     color: $dark-text;
   }
 

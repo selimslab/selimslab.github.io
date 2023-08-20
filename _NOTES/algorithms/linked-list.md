@@ -4,8 +4,11 @@ tags: ll algo
 ---
 
 **Detect cycle:** fast and slow pointers, if the fast finds the end then no cycle
+
 **Sort:** find the middle with fast and slow pointers then merge 
+
 **Get intersection:** iterate lists with two pointers, if one becomes null then set it to the head of the other list, This assumes there is an intersection. If not it will be an infinite loop so return after a few iterations. 
+
 **Remove nth from end:** use two pointers, one is n steps ahead of the other. When the first pointer reaches the end, the second pointer will be at the nth from the end.
 
 ```python
