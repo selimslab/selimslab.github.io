@@ -1,8 +1,6 @@
 ---
 layout: code
 tags: dp
-layout: code
-
 ---
 
 

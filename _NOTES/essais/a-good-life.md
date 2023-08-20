@@ -1,5 +1,5 @@
 ---
-title: Some ideas for a good life 🌱
+title: Some guidelines for a good life 🌱
 tags: phil sk essais top
 ---
 
