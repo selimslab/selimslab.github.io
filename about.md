@@ -3,6 +3,14 @@ layout: page
 title: Welcome! 
 ---
 
-Hi, this is Selim, writing here to evaluate, clarify, connect, remember, and share. 
+Hi, this is Selim, yet another being on the pale blue dot. 
 
-You can reach me at durufikir at gmail dot com  
+Writing here to have some fun and to share some thoughts.
+
+You can reach me at 
+
+durufikir at gmail dot com  
+
+linkedin.com/in/time
+
+github.com/selimslab
