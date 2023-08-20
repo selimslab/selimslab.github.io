@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome! 
+title: Welcome, friend! 
 ---
 
 Hi, this is Selim, yet another being on the pale blue dot. 
