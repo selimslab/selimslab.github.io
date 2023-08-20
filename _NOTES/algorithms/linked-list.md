@@ -3,44 +3,12 @@ layout: tag
 tags: ll algo
 ---
 
-```go
-type ListNode struct {
-    Val int
-    Next *ListNode
-}
-
-import "sort"
-
-func sortList(head *ListNode) *ListNode {
-    vals := []int{}
-    temp := head
-    for temp != nil {
-        vals = append(vals,temp.Val)
-        temp = temp.Next
-    }
-    sort.Ints(vals)
-    
-    t := head
-    for _, val := range(vals) {
-        t.Val = val
-        t = t.Next 
-    }
-    return head
-}
-```
+**Detect cycle:** fast and slow pointers, if the fast finds the end then no cycle
+**Sort:** find the middle with fast and slow pointers then merge 
+**Get intersection:** iterate lists with two pointers, if one becomes null then set it to the head of the other list, This assumes there is an intersection. If not it will be an infinite loop so return after a few iterations. 
+**Remove nth from end:** use two pointers, one is n steps ahead of the other. When the first pointer reaches the end, the second pointer will be at the nth from the end.
 
 ```python
-"""
-Detect a cycle in a linked list. Note that the head pointer may be 'None' if the list is empty.
-A Node is defined as: 
- 
-class Node(object):
-  def __init__(self, data = None, next_node = None):
-      self.data = data
-      self.next = next_node
-"""
-
-
 def has_cycle(head):
     if not head:
         return False
@@ -53,6 +21,43 @@ def has_cycle(head):
         fast = fast.next.next
     
     return True
+```
+
+```python
+def find_middle(head):
+    if not head:
+        return None
+
+    slow = head
+    fast = head
+
+    while fast and fast.next:
+        slow = slow.next
+        fast = fast.next.next
+
+    return slow
+```
+
+```python
+def sorted_list_to_bst(head):
+    if not head:
+        return None
+
+    # Find the middle element of the linked list
+    middle = find_middle(head)
+
+    # Create a TreeNode using the middle element
+    root = TreeNode(middle.val)
+
+    # If there's only one element in the list, return the root
+    if middle == head:
+        return root
+
+    # Recursively construct the left and right subtrees
+    root.left = sorted_list_to_bst(head)
+    root.right = sorted_list_to_bst(middle.next)
+
+    return root
 ```
 
 ```python
@@ -85,66 +90,4 @@ def removeElements(self, head: ListNode, val: int) -> ListNode:
             
     return head.next
 ```
-
-```java
-/*
-Given linked list: 1->2->3->4->5, and n = 2.
-After removing the second node from the end, the linked list becomes 1->2->3->5.
-*/
-
-public ListNode removeNthFromEnd(ListNode head, int n) {
-    ListNode dummy = new ListNode(0);
-    dummy.next = head;
-    ListNode first = dummy;
-    ListNode second = dummy;
-    // Advances first pointer so that the gap between first and second is n nodes apart
-    for (int i = 1; i <= n + 1; i++) {
-        first = first.next;
-    }
-    // Move first to the end, maintaining the gap
-    while (first != null) {
-        first = first.next;
-        second = second.next;
-    }
-    second.next = second.next.next;
-    return dummy.next;
-}
-```
-
-```python
-/*
-Input:
-[
-  1->4->5,
-  1->3->4,
-  2->6
-]
-Output: 1->1->2->3->4->4->5->6
-*/
-
-public ListNode mergeKLists(ListNode[] lists) {
-    List<Integer> l = new ArrayList<Integer>();
-   
-    for (ListNode ln : lists) {
-        while (ln != null) {
-            l.add(ln.val);
-            ln = ln.next;
-        }
-    }
-   
-    Collections.sort(l);
- 
-    ListNode head = new ListNode(0);
-    ListNode h = head;
-    for (int i : l) {
-        ListNode t = new ListNode(i);
-        h.next = t;
-        h = h.next;
-    }
-    h.next = null;
-    return head.next;
-}
-
-```
-
 

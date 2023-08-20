@@ -1,26 +1,20 @@
 ---
-tags: str stack
+tags: stack
 layout: code
-
 ---
 
-
-
 ```python
-def check_brackets(test_iterable):
-    if len(test_iterable) % 2 != 0:
-        return False
+def check_brackets(expression):
+    stack = []
+    brackets = {'(': ')', '{': '}', '[': ']'}
 
-    pairs = {"{": "}", "[": "]", "(": ")"}
-    s = []
+    for char in expression:
+        if char in brackets.keys():  # Opening bracket
+            stack.append(char)
+        elif char in brackets.values():  # Closing bracket
+            if not stack or brackets[stack.pop()] != char:
+                return False
 
-    for bracket in test_iterable:
-        if bracket in pairs:
-            s.append(bracket)
-        elif s and bracket == pairs[s.pop()]:
-            continue
-        else:
-            return False
-
-    return not s
+    return len(stack) == 0
 ```
+

@@ -1,5 +1,5 @@
 ---
-tags: str  stack
+tags: str stack
 layout: code
 
 --- 
@@ -15,22 +15,20 @@ def decodeString(self, s):
 
     stack = []
     coeff = 0
-    ans = ""
+    current_str = ""
 
     for c in s:
-        if c == "[":
-            stack.append(ans)
-            stack.append(coeff)
-            ans = ""
+        if c.isdigit():
+            coeff = coeff * 10 + int(c)
+        elif c == "[":
+            stack.append((current_str, coeff))
+            current_str = ""
             coeff = 0
         elif c == "]":
-            num = stack.pop()
-            prevString = stack.pop()
-            ans = prevString + num * ans
-        elif c.isdigit():
-            coeff = coeff * 10 + int(c)
+            prev_str, coeff = stack.pop()
+            current_str = prevString + num * current_str
         else:
-            ans += c
+            current_str += c
 
-    return ans
+    return current_str
 ```

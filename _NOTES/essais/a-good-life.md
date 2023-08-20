@@ -6,10 +6,6 @@ tags: phil sk essais top
 
 "Think of yourself as dead. You have lived your life. Now take what's left and live it properly."
 
-## TLDR 
-
-[[some-guidelines]]
-
 ## Here and Now  
 
 Learn from the past and move on. Don't regret your mistakes. Good judgment comes from making a lot of mistakes. Be kind to yourself, if you won't, who will? 
@@ -112,12 +108,16 @@ Only genuine interest and passion can create beautiful results
 
 Leave it better than you found.
 
+## Life and Death 
+
+[[life-is-not-short]] 
+
+[[death]]
+
 ## Sound and Silence 
 
 Listen more than you speak. 
 
 [[know-where-to-stop]]
-
-[[death]]
 
 Never miss a good chance to shut up.

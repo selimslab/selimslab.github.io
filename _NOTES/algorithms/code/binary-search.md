@@ -1,10 +1,7 @@
 ---
-tags: gr
+tags: algo
 layout: code
-
 ---
-
-
 
 ```python
 def binary_search(nums, target)->int:
