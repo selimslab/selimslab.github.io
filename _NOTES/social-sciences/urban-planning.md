@@ -17,3 +17,6 @@ College Campuses Are Designed at Human-Scale. Our Cities Can Be Too.
 ![](/static/img/cities-in-an-hours-time.jpeg)
 
 ![](/static/img/pollution-localized.jpeg)
+
+
+<https://zachklein.com/Sidewalk+Garden>
