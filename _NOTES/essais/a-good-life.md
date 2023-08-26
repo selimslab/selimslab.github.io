@@ -12,15 +12,7 @@ Learn from the past and move on. Don't regret your mistakes. Good judgment comes
 
 Prepare for the future. Consider beginnings. Solve problems while they are still small. Anything that can go wrong will go wrong. And prevention is the best cure. [[do-without-doing]]
 
-You become what you do. Garbage in, garbage out. Do your best, here and now. Do what you can and let go of the rest. Nature does not hurry yet everything is accomplished. 
-
-> O snail
->
-> Climb Mount Fuji,
->
-> But slowly, slowly!
-
-[[wind-and-rain]]
+You become what you do. Garbage in, garbage out. Do your best, here and now. 
 
 ## Enjoy yourself
 
@@ -34,6 +26,16 @@ Neither chase pleasure nor avoid necessary pain
 
 [[less]] is more 
 
+Nature does not hurry yet everything is accomplished. 
+
+> O snail
+>
+> Climb Mount Fuji,
+>
+> But slowly, slowly!
+
+[[wind-and-rain]]
+
 ## Emotions 
 
 Do not chase or avoid emotions, feel and let go
@@ -41,6 +43,8 @@ Do not chase or avoid emotions, feel and let go
 The world is full of nonsense. It’s not personal. It doesn’t matter. Don't let it get you down
 
 Complain less, appreciate more
+
+What is the use of negativity? Don't make yourself miserable 
 
 ![](/static/img/boy-and-cat.jpeg)
 
@@ -87,6 +91,8 @@ As with all matters of the heart, you'll know it when you find it.
 [[free-will]]
 
 [[freedom]]
+
+When in doubt, the answer is no 
 
 Think twice before you speak and be careful with promises. 
 
