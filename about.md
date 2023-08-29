@@ -11,6 +11,6 @@ You can reach me at
 
 durufikir at gmail dot com  
 
-<linkedin.com/in/time>
+[linkedin.com/in/time](https://linkedin.com/in/time)
 
-<github.com/selimslab>
+[github.com/selimslab](https://github.com/selimslab)
