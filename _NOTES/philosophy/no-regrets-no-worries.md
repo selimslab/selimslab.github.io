@@ -12,6 +12,4 @@ tags: phil
 - Learn and move on 
 - The future is unpredictable, prepare without worry 
 
-
-
 ![](/static/img/life-paths.jpeg)

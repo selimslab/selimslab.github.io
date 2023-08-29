@@ -3,25 +3,19 @@ title: Philosophy Books
 tags: books soc
 ---
 
-Enchiridion 
-
 Tao Te Ching
+
+Enchiridion 
 
 Meditations by Marcus Aurelius 
 
 On the Shortness of Life by Seneca 
 
-Rubáiyát of Omar Khayyám
+Rubaiyat of Omar Khayyam
 
 The Art of War
 
 Die Kunst, glücklich zu sein by Schopenhauer
-
-The Prince
-
-Tao: The Watercourse Way by Alan Watts
-
-Great Thinkers
 
 Man's Search for Meaning, Viktor Frankl
 

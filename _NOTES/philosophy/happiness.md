@@ -20,7 +20,7 @@ tags: phil soc
 “If more of us valued food and cheer and song above hoarded gold, it would be a merrier world.” 
 ― J.R.R. Tolkien
 
-“Don’t waste your time in anger, regrets, worries, and grudges. Life is too short to be unhappy.” 
+“Don’t waste your time in anger, regrets, worries, and grudges. Life is too short for that” 
 
 
 ![](/static/img/dont-let-them-get-you-down.jpeg)

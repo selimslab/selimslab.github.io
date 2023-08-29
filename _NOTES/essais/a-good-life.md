@@ -8,11 +8,11 @@ tags: phil sk essais top
 
 ## Here and Now  
 
-Learn from the past and move on. Don't regret your mistakes. Good judgment comes from making a lot of mistakes. Be kind to yourself, if you won't, who will? 
+Learn from the past and move on. Don't regret your mistakes. Good judgment comes from making a lot of mistakes. Be kind to yourself, if you won't, who will?[[no-regrets-no-worries]]
 
 Prepare for the future. Consider beginnings. Solve problems while they are still small. Anything that can go wrong will go wrong. And prevention is the best cure. [[do-without-doing]]
 
-You become what you do. Garbage in, garbage out. Do your best, here and now. 
+You become what you do. Garbage in, garbage out. Do your best, here and now. [[one-bit-better]]
 
 ## Enjoy yourself
 
@@ -20,7 +20,7 @@ It's later than you think.
 
 Simple things are the best. [[take-a-walk]]
 
-Nothing in excess
+Nothing in excess. [[moderation]]
 
 Neither chase pleasure nor avoid necessary pain
 
@@ -113,6 +113,8 @@ Only genuine interest and passion can create beautiful results
 [[you-are-not-nameless]]
 
 Leave it better than you found.
+
+[[be-good-to-each-other-and-yourself]]
 
 ## Life and Death 
 

@@ -3,9 +3,11 @@
 
 "This is our big mistake to think death is in the future. most of the death is already gone. Whatever time has passed belongs to death" Seneca 
 
-We can only lose what we have. And this exact moment is all we have so we can't lose the past or the future. How can you lose something that's not yours? Living until you die is living long enough.
+We can only lose what we have. And this exact moment is all we have so we can't lose the past or the future. How can you lose something that's not yours? 
 
 [[life-is-not-short]] 
+
+Living until you die is living long enough.
 
 ---
 
