@@ -1,5 +1,7 @@
 ---
+tags: cz
 ---
+
 
 
 tak jo, jdeme na to  ok, here we go 
@@ -22,3 +24,4 @@ Umím anglicky.
 
 mne taky me too 
 
+Pojďme ven - lets go out 
