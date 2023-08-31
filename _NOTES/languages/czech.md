@@ -244,3 +244,75 @@ kartou, nebo hotove? - cash
 
 
 mam rad cestinu, ma roztomila slova, jako pocitac, pockey 
+
+----
+
+blizko daleko  near far 
+
+snadny slozity
+
+vcera dnes zitra 
+
+pekny pretty 
+
+tak jo, jdeme na to 
+
+ahoj tady Selim 
+
+c'asto 
+
+---
+
+byt 
+
+ja jsem 
+
+ty jsi 
+
+on ona ono je 
+
+my jsme 
+
+vy jste 
+
+ony onu jsou
+
+---
+
+mit have 
+
+mam 
+
+mas 
+
+ma 
+
+mame 
+
+mate
+
+maji
+
+---
+
+zit  live 
+
+delat do 
+
+dat give 
+
+spat sleep
+
+nejredsi ze vseho spiim
+
+i like to sleep the best 
+
+jist eat 
+
+videt see 
+
+slyset hear 
+
+cist read
+
+psat write 
