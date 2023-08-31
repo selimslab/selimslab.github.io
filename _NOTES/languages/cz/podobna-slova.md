@@ -1,6 +1,9 @@
 ---
 ---
 
+<https://www.ezglot.com/common-words?l=eng&l2=ces>
+
+
 emoce 
 
 negativita 
