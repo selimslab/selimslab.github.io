@@ -3,10 +3,41 @@ title: VSCode Settings
 tags: pro 
 ---
 
-install macros geddski.macros 
+## Some default keyboard shortcuts 
+
+
+    Multiple cursors: option + shift + click
+
+
+    Go top: cmd ⬆️
+
+    Go bottom: cmd ⬇️
+
+
+    Zoom in: cmd shift 0 
+
+    Zoom out: cmd - 
+
+
+    Select next occurrence: cmd D
+
+    Select all occurrences: cmd + shift + L
+
+
+    Fold all: Ctrl + K + 0
+
+    Unfold all: Ctrl + K + J
+
+
+    swith to explorer: cmd 0 
+
+
+
 
 
 ## settings.json 
+
+install macros geddski.macros 
 
 add macros to vscode settings 
 
@@ -29,36 +60,57 @@ add macros to vscode settings
 
 open keyboard shortcuts json and add keybindings
 
-    [
-        {
-            "key": "ctrl+[Backquote]",
-            "command": "workbench.action.navigateBack"
-        },
-        {
-            "key": "ctrl+-",
-            "command": "-workbench.action.navigateBack"
-        },
-        {
-            "key": "cmd+s cmd+s",
-            "command": "git.stageAll"
-        },
-        {
-            "key": "cmd+n cmd+n",
-            "command": "explorer.newFile"
-        },
-        {
-            "key": "cmd+down",
-            "command": "list.select",
-            "when": "listFocus && !inputFocus"
-        },
-        {
-            "key": "cmd+down",
-            "command": "-list.select",
-            "when": "listFocus && !inputFocus"
-        },
-        { "key": "down", "command": "macros.downAndOpen", "when": "listFocus" },
-        { "key": "up", "command": "macros.upAndOpen", "when": "listFocus" },
-    ]
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+[Backquote]",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "ctrl+-",
+        "command": "-workbench.action.navigateBack"
+    },
+    {
+        "key": "cmd+s cmd+s",
+        "command": "git.stageAll"
+    },
+    {
+        "key": "cmd+n cmd+n",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "cmd+down",
+        "command": "list.select",
+        "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "cmd+down",
+        "command": "-list.select",
+        "when": "listFocus && !inputFocus"
+    },
+    { "key": "down", "command": "macros.downAndOpen", "when": "listFocus" },
+    { "key": "up", "command": "macros.upAndOpen", "when": "listFocus" },
+    {
+        "key": "ctrl+n",
+        "command": "explorer.newFile",
+        "when": "explorerViewletFocus"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "explorer.newFolder",
+        "when": "explorerViewletFocus"
+    },
+    {
+        "key": "shift+e",
+        "command": "workbench.view.explorer",
+        "when": "viewContainer.workbench.view.explorer.enabled"
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "-workbench.view.explorer",
+        "when": "viewContainer.workbench.view.explorer.enabled"
+    }
+]
 
 
 ## extensions.json 
@@ -110,31 +162,3 @@ open keyboard shortcuts json and add keybindings
     }
 
 
-
-## Some default keyboard shortcuts 
-
-
-    Multiple cursors: option + shift + click
-
-
-    Go top: cmd ⬆️
-
-    Go bottom: cmd ⬇️
-
-
-    Zoom in: cmd shift 0 
-
-    Zoom out: cmd - 
-
-
-    Select next occurrence: cmd D
-
-    Select all occurrences: cmd + shift + L
-
-
-    Fold all: Ctrl + K + 0
-
-    Unfold all: Ctrl + K + J
-
-
-    swith to explorer: cmd 0 

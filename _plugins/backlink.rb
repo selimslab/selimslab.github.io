@@ -1,6 +1,6 @@
 class BackLinksGenerator < Jekyll::Generator
     def generate(site)
-      
+          
       if (!defined?@render_count)
         @render_count = 1
       end
@@ -10,20 +10,15 @@ class BackLinksGenerator < Jekyll::Generator
       end
 
       @render_count += 1
-      
+
       site.data["ideas"] = JSON.parse(File.read("./assets/data/ideas.json")).sort
 
-      graph = {}
-      graph["nodes"] = {}
-      graph["links"] = []
-      titles = {}
+      add_backlinks_to_notes(site)
 
-      seen = {}
+    end 
+    
 
-      tagtofilename = site.data["tagtofilename"]
-
-      link_count = 0 
-
+    def add_backlinks_to_notes(site)
       site.documents.each do |current_note|
 
         notes_linking_to_current_note = site.documents.filter do |e|
@@ -35,6 +30,22 @@ class BackLinksGenerator < Jekyll::Generator
         current_note.data['backlinks'] = notes_linking_to_current_note
 
       end 
+
+    end
+
+    def build_graph(site)
+
+      
+      graph = {}
+      graph["nodes"] = {}
+      graph["links"] = []
+      titles = {}
+
+      seen = {}
+
+      tagtofilename = site.data["tagtofilename"]
+
+      link_count = 0 
 
       site.documents.each do |current_note|        
         id = current_note.id
