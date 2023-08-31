@@ -316,3 +316,36 @@ slyset hear
 cist read
 
 psat write 
+
+
+---
+
+
+prevence prevent 
+
+nejlepsi best 
+
+pripravte prepare 
+
+ted now 
+
+odpadky dovnitr, odpadky ven garbage in garbage out 
+
+Delejte to nejlepsi, tady a ted 
+
+jednoduche simple 
+
+pomalu slowly 
+
+emoce emotions 
+
+nesmsyl nonsense 
+
+to je jedno  doesnt matter 
+
+stejny the same 
+
+podobny similar 
+
+
+více méně more less 

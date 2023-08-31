@@ -15,5 +15,6 @@
             "language": "markdown",
             "scheme": "file"
         }
-    ]
+    ],
+    "explorer.autoReveal": true
 }
