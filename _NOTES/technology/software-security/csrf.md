@@ -1,7 +1,6 @@
 ---
 title: Cross-site request forgery  
 tags: sec
-
 ---
 
 CSRF is forgery of a valid request.

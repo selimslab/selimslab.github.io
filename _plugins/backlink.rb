@@ -20,13 +20,10 @@ class BackLinksGenerator < Jekyll::Generator
 
     def add_backlinks_to_notes(site)
       site.documents.each do |current_note|
-
+        id = "[" + current_note.id.gsub(/\//, '') + "]"
         notes_linking_to_current_note = site.documents.filter do |e|
-            # puts e.path
-            id = "[" + current_note.id.gsub(/\//, '') + "]"
             e.content.include?(id)
         end
-
         current_note.data['backlinks'] = notes_linking_to_current_note
 
       end 
