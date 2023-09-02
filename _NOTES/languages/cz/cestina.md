@@ -1,6 +1,6 @@
 ---
 layout: tag
-tags: cz 
+tags: cz lang
 ---
 
 

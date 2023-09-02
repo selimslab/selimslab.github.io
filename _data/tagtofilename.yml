@@ -23,3 +23,8 @@ ptr: pointers
 q: queue
 sort: sorting
 str: string
+lang: languages
+tr: turkce
+en: english
+de: deutsch
+cz: cestina
