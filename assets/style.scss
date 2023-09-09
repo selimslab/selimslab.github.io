@@ -100,6 +100,7 @@ a.site-name {
   margin-top: 0.3rem;
   list-style: none;
   font-size: 1rem;
+  max-width: 20ch;
   li{
     margin: 0 auto;
     margin-top: 0.3rem;
@@ -125,6 +126,9 @@ a:hover{
   color: $accent;
 }
 
+summary:hover{
+  color: $accent;
+}
 
 
 

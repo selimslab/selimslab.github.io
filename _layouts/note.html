@@ -1,11 +1,13 @@
 ---
 layout: default
+toc: true
 ---
 
 {% assign words = content | number_of_words | times: 1.0  %}
 
 <article>
 
+    
     <h1>{{ page.title }}</h1>
 
     <!-- <p style="font-size: 0.8rem; margin-bottom:0.6rem">
@@ -13,7 +15,7 @@ layout: default
     </p> -->
 
     {% include read-time.html %}
-
+`
     {{ content }}
 
     <hr>

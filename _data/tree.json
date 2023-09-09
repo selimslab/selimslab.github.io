@@ -543,7 +543,7 @@
         "title": "Languages",
         "items": [
           {
-            "name": "cz",
+            "name": "CZ",
             "type": "dir",
             "title": "Cz",
             "items": [
@@ -664,7 +664,7 @@
             ]
           },
           {
-            "name": "de",
+            "name": "DE",
             "type": "dir",
             "title": "De",
             "items": [
@@ -676,12 +676,7 @@
             ]
           },
           {
-            "name": "languages",
-            "type": "file",
-            "title": "Languages"
-          },
-          {
-            "name": "tr",
+            "name": "TR",
             "type": "dir",
             "title": "Tr",
             "items": [
@@ -691,6 +686,11 @@
                 "title": "Turkce"
               }
             ]
+          },
+          {
+            "name": "languages",
+            "type": "file",
+            "title": "Languages"
           }
         ]
       },
@@ -708,11 +708,6 @@
             "name": "3D-Graph",
             "type": "file",
             "title": "3D Interactive Graph"
-          },
-          {
-            "name": "all",
-            "type": "file",
-            "title": "All"
           },
           {
             "name": "authors",

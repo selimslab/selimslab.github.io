@@ -69,6 +69,7 @@ class SiteGenerator < Jekyll::Generator
 
     def replace_wikilinks(doc, titles)
       wikilinks = doc.content.scan(/\[\[[a-z0-9-]*\]\]/)
+      doc.data['wikilinks'] = wikilinks
       wikilinks.each do |wikilink| 
         id = "/" + wikilink.gsub(/\[\[/, '').gsub(/\]\]/, '')
         title = titles[id]
@@ -78,25 +79,30 @@ class SiteGenerator < Jekyll::Generator
     end
 
     def build_graph(site)
-      graph = {}
-      graph["nodes"] = {}
-      graph["links"] = []
-      titles = {}
-
+      graph = {
+        "nodes": {},
+        "links": []
+      }
       seen = {}
 
       tagtofilename = site.data["tagtofilename"]
 
-      link_count = 0 
-
-      site.documents.each do |current_note|        
-        id = current_note.id
+      site.documents.each do |doc|        
+        id = doc.id
         
-        title = current_note.data["title"]
-        node = {"id": id, "name": title, "val": 1, "type": "note", "neighbors": [], "links":[], "group": 0}
+        title = doc.data["title"]
+        node = {
+          "id": id, 
+          "name": title, 
+          "val": 1, 
+          "type": "note", 
+          "neighbors": [], 
+          "links":[], 
+          "group": 0
+        }
         graph["nodes"][id] = node
         
-        current_note.data["tags"].each do |tag|
+        doc.data["tags"].each do |tag|
           if not seen.key?(tag)
             name = tag
             if tagtofilename.key?(tag) 
@@ -113,23 +119,10 @@ class SiteGenerator < Jekyll::Generator
 
         end 
 
+        graph["links"].push({"source": id, "target": link})
+        graph["links"].push({"source": link, "target": id})
 
-        wikilinks = current_note.content.scan(/\[\[[a-z0-9-]*\]\]/)
-        link_count += wikilinks.length
-        wikilinks.each do |wikilink| 
-          # parse wikilink 
-          title = wikilink.gsub(/\[\[/, '').gsub(/\]\]/, '')
-          link = "/" + title
 
-          graph["links"].push({"source": id, "target": link})
-          graph["links"].push({"source": link, "target": id})
-
-          # replace wikilinks
-          title = match.gsub(/-/, ' ').capitalize
-          link = "[#{title}](#{link})"
-          current_note.content = current_note.content.gsub(/#{Regexp.escape(wikilink)}/, link)
-        end 
-        
       end
 
       graph["links"] = graph["links"].uniq 
@@ -137,7 +130,6 @@ class SiteGenerator < Jekyll::Generator
       graph["links"].each {
         |link|
           begin 
-          # puts link
           source = link[:source]
           target = link[:target]
 
@@ -155,7 +147,7 @@ class SiteGenerator < Jekyll::Generator
             puts target 
             puts source 
           end
-    }
+      }
 
       graph["nodes"].each do |k,v|
         graph["nodes"][k][:links] = graph["nodes"][k][:links].uniq
