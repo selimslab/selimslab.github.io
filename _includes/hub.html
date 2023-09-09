@@ -1,6 +1,6 @@
 <ul>        
     {% assign sorted = site.documents | sort: 'title' %}
-
+    
     {% for note in sorted %}
         {% if note.tags contains include.tag  %}
             {% if note.url != page.url %}

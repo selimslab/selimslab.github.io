@@ -3,40 +3,38 @@ layout: default
 ---
 
 <article>
-    {% assign all_tags = site.documents | map: "tags" | compact | uniq %}
-  
-    {% assign total_words = 0 %} {% for doc in site.documents %} {% assign words =
-    doc.content | number_of_words | times: 1.0 %} {% assign total_words =
-    total_words | plus: words %} {% endfor %} {% assign total_words = total_words
-    | round %}
-  
-    {% assign total_read_time = total_words | divided_by:180 | round %} 
-    {% assign total_read_time_hours = total_read_time | divided_by:60 | plus: 1 | round %}
-    {% assign total_read_time_mins = total_read_time | modulo:60 | round %}
-    
-    <p>A place to share and remember</p>
+{% assign all_tags = site.documents | map: "tags" | compact | uniq %}
 
-    <h2>Most read</h2>
-  
-    {% include tagpage.html tag='top' %}
-  
-    <h2>Index</h2>
+{% assign total_words = 0 %} {% for doc in site.documents %} {% assign words =
+doc.content | number_of_words | times: 1.0 %} {% assign total_words =
+total_words | plus: words %} {% endfor %} {% assign total_words = total_words
+| round %}
 
-    <ul>
-      <li id="stats">{{site.documents.size}} pages</li>
-      <li id="words">{{ total_words }} words</li>
-      <li id="stats">{{site.static_files.size}} images</li>
+{% assign total_read_time = total_words | divided_by:180 | round %} 
+{% assign total_read_time_hours = total_read_time | divided_by:60 | plus: 1 | round %}
+{% assign total_read_time_mins = total_read_time | modulo:60 | round %}
 
-    </ul>
-    
-    {% include tree.html %}
+<p>A place to share and remember</p>
 
-  </article>
-  
-  <script>
-      function spacesBetweenThousands(id){
-          var x = document.getElementById(id).innerHTML;
-          document.getElementById(id).innerHTML = x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
-      }
-      spacesBetweenThousands("words");
-  </script>
+<h2>Most read</h2>
+
+{% include hub.html tag='top' %}
+
+<h2>Index</h2>
+
+<ul>
+  <li id="stats">{{site.documents.size}} pages</li>
+  <li id="words">{{ total_words }} words</li>
+  <li id="stats">{{site.static_files.size}} images</li>
+</ul>
+
+
+
+</article>
+<script>
+    function spacesBetweenThousands(id){
+        var x = document.getElementById(id).innerHTML;
+        document.getElementById(id).innerHTML = x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+    }
+    spacesBetweenThousands("words");
+</script>

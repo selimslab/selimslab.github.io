@@ -1,0 +1,6 @@
+<span style="font-size: 0.8rem">
+  {% for tag in page.tags %} 
+    {% include tag.html tag=tag %}
+    <a style="margin-right: 0.5rem" href="/{{label}}">{{label}}</a>
+  {% endfor %}
+</span>

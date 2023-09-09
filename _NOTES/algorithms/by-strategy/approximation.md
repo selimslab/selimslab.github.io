@@ -1,6 +1,6 @@
 ---
-layout: tag
-tags:  apx algo
+
+tags: apx algo
 ---
 
 

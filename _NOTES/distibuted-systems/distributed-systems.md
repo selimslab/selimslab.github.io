@@ -1,5 +1,6 @@
 ---
-layout: tag
+
 tags: dist tech
 ---
 
+[[technology]]

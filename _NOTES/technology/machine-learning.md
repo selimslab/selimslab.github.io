@@ -1,5 +1,5 @@
 ---
-layout: tag
+
 tags: ml tech books 
 ---
 

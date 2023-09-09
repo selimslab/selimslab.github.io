@@ -1,0 +1,8 @@
+
+
+{% if site.data.tags_to_files contains include.tag %} 
+{% assign label = site.data.tags_to_files[tag] %} 
+{% else %} 
+{% assign label =tag %} 
+{% endif %}
+

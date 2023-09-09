@@ -1,5 +1,5 @@
 ---
-layout: tag
+
 tags: ll algo
 ---
 

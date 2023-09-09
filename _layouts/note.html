@@ -3,29 +3,24 @@ layout: default
 toc: true
 ---
 
-{% assign words = content | number_of_words | times: 1.0  %}
 
 <article>
 
-    
     <h1>{{ page.title }}</h1>
 
-    <!-- <p style="font-size: 0.8rem; margin-bottom:0.6rem">
-        {{ page.date | date: "%-d %B %Y" }}
-    </p> -->
-
     {% include read-time.html %}
-`
+
     {{ content }}
 
     <hr>
 
-    {% include tags.html %}
+    {% include taglist.html %}
 
     {% include backlinks.html %}
 
 </article>
 
+{% assign words = content | number_of_words | times: 1.0  %}
 {% if words > 150 %}
     {% include random-artwork.html %}
 {% endif %}

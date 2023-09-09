@@ -1,6 +1,6 @@
 ---
 title: Books on Operating Systems 
-layout: tag
+
 tags: tech books
 ---
 
