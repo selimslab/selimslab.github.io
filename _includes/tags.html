@@ -1,7 +1,10 @@
 <span style="font-size: 0.8rem">
-  {% for tag in page.tags %} {% if site.data.tagtofilename contains tag %} {%
-  assign label = site.data.tagtofilename[tag] %} {% else %} {% assign label =
-  tag %} {% endif %}
+  {% for tag in page.tags %} 
+    {% if site.data.tagtofilename contains tag %} 
+      {% assign label = site.data.tagtofilename[tag] %} 
+    {% else %} 
+      {% assign label =tag %} 
+    {% endif %}
 
   <a style="margin-right: 0.5rem" href="/{{label}}">{{label}}</a>
 

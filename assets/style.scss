@@ -109,11 +109,11 @@ a.site-name {
 
 article{
   width: fit-content;
+  max-width: 55ch;
+  padding-top: 1rem;
   margin: 0 auto;
-  max-width: 60ch;
-  padding: 1rem;
+  min-width: 33vw;
 }
-
 
 a{
   color: $lightBlue; 
