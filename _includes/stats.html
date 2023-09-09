@@ -1,0 +1,13 @@
+<ul>
+    <li id="stats">{{site.documents.size}} pages</li>
+    <li id="words">{{ total_words }} words</li>
+    <li id="stats">{{site.static_files.size}} images</li>
+  </ul>
+  
+  <script>
+      function spacesBetweenThousands(id){
+          var x = document.getElementById(id).innerHTML;
+          document.getElementById(id).innerHTML = x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+      }
+      spacesBetweenThousands("words");
+  </script>

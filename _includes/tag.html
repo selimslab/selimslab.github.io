@@ -1,8 +1,14 @@
 
 
+{% assign label = tag %} 
+
 {% if site.data.tags_to_files contains include.tag %} 
-{% assign label = site.data.tags_to_files[tag] %} 
-{% else %} 
-{% assign label =tag %} 
+    {% assign label = site.data.tags_to_files[tag] %} 
+{% endif %}
+
+{% assign title = label %} 
+
+{% if site.data.file_to_title_map contains label %} 
+    {% assign title = site.data.file_to_title_map[label] %} 
 {% endif %}
 

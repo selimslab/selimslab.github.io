@@ -1,5 +1,2 @@
 ---
-title: Lists
-
-tags: lists
 ---

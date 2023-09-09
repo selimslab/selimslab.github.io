@@ -1,1 +1,2 @@
-bundle exec jekyll serve --trace
+bundle exec jekyll serve --trace --incremental 
+# --profile

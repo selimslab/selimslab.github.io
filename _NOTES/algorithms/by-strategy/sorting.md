@@ -1,6 +1,4 @@
 ---
-
-tags: sort algo
 ---
 
 ```python

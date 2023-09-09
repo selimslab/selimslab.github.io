@@ -1,5 +1,5 @@
 ---
-tags: math algo 
+tags: math 
 ---
 
 ![](/static/img/beware-local-optimisation.jpeg)

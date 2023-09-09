@@ -1,4 +1,3 @@
 ---
-
-tags: nat  
+tags: nat 
 ---

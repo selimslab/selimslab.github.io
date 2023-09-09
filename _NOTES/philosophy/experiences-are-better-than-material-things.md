@@ -1,5 +1,5 @@
 ---
-tags: phil soc 
+tags: phil 
 ---
 
 Happiness from an experience lasts longer. 

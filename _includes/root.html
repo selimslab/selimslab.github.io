@@ -1,0 +1,8 @@
+<ul>
+    {% for tag in site.data.root %} 
+    {% include tag.html tag=tag %}
+    <li>
+        <a href="/{{label}}">{{title}}</a>
+    </li>
+{% endfor %}
+</ul>

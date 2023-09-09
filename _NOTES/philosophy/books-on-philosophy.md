@@ -1,6 +1,6 @@
 ---
 title: Philosophy Books
-tags: books soc
+tags: books
 ---
 
 Tao Te Ching

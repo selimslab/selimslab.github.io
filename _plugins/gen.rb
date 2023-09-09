@@ -3,11 +3,27 @@ require 'json'
 
 class SiteGenerator < Jekyll::Generator
     # file means a file base name, without extension, eg. my-file  
+
+
     def generate(site)
+
+      site.documents.each do |doc|
+        doc.data['backlinks'] ||= []
+      end 
+
+      # walk("./_NOTES", site)
+
       site.data["ideas"] = JSON.parse(File.read("./assets/data/ideas.json")).sort
 
       visit_links(site)
 
+      site.documents.each do |doc|   
+        doc.data['backlinks'] = doc.data['backlinks'].reject { |e| e.id == doc.id }.uniq.sort_by { |e| e.data["title"] }
+        # remove circular tags
+        file = doc.id.sub(/^\//, '')
+        doc.data['tags'] = doc.data['tags'].reject { |e| e == file }
+
+      end
     end 
 
 
@@ -21,9 +37,7 @@ class SiteGenerator < Jekyll::Generator
       site.data["file_to_title_map"] = file_to_title_map
 
       site.documents.each do |doc|
-        
-        # add backlinks to doc
-        doc.data['backlinks'] ||= []
+        # incoming links
         src = doc.id.sub(/^\//, '')
         src_link = "[" + src + "]"
         linking_to_doc = site.documents.filter do |e| e.content.include?(src_link) end
@@ -69,17 +83,33 @@ class SiteGenerator < Jekyll::Generator
         end 
       end
 
-      site.documents.each do |doc|   
-        doc.data['backlinks'] = doc.data['backlinks'].reject { |e| e.id == doc.id }
-        doc.data['backlinks'] = doc.data['backlinks'].uniq.sort
-        # remove circular tags
-        file = doc.id.sub(/^\//, '')
-        doc.data['tags'] = doc.data['tags'].reject { |e| e == file }
+    end
 
+    def walk(dir, site)
+      Dir.foreach(dir) do |entry|
+        next if entry == '.' || entry == '..'
+        path = File.join(dir, entry)
+    
+        # take immediate parent dir 
+        file = File.basename(path)
+        # remove extension
+        file = "/" + file.sub(/\..*/, '')
+        parent = "/" + File.basename(File.dirname(path))
+        doc = site.documents.filter do |e| e.id == file end
+        parent_doc = site.documents.filter do |e| e.id == parent end 
+        if doc.length > 0 && parent_doc.length > 0
+          doc = doc[0]
+          parent_doc = parent_doc[0]
+          doc.data['parent'] = parent_doc
+          parent_doc.data['backlinks'] << doc
+        end
+
+        if File.directory?(path)
+          walk(path, site)
+        end
       end
 
-
-    end
+    end 
 
 
   end

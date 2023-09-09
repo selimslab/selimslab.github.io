@@ -1,6 +1,6 @@
 ---
 
-tags: apx algo
+tags: apx 
 ---
 
 

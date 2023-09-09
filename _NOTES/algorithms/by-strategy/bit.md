@@ -1,6 +1,6 @@
 ---
 
-tags: bit algo
+tags: bit 
 ---
 
 ```c

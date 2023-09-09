@@ -1,4 +1,4 @@
 ---
 
-tags: conc algo
+tags: conc 
 ---

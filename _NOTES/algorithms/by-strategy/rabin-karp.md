@@ -1,5 +1,4 @@
 ---
-tags: algo 
 ---
 
 Sometimes we need to search for a small string in a big string, 
