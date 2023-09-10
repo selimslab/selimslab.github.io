@@ -116,6 +116,10 @@ article{
   min-width: 33vw;
 }
 
+article.code{
+  max-width: 80ch
+}
+
 .navbar{
   width: fit-content;
   max-width: 60ch;
@@ -170,6 +174,9 @@ p{
   margin-bottom: 0.5rem;
 }
 
+pre{
+  padding: 0.8rem;
+}
 h1 {
   font-family: $serif;
   font-size: 1.5rem;

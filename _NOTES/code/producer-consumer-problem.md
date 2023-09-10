@@ -1,7 +1,6 @@
 ---
 title: Producer Consumer Problem 
 tags: conc
-
 ---
 
 

@@ -2,12 +2,13 @@
 layout: default
 ---
 
-<article style="max-width: 100vw">
+<article class="code">
+
+  {% include taglist.html %}
+
   <h1>{{ page.title }}</h1>
 
   {{ content }} 
-  
-  {% include taglist.html %} 
-  
+    
   {% include backlinks.html %}
 </article>

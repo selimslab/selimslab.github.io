@@ -14,7 +14,8 @@ def dailyTemperatures(T):
     result = [0] * len(T)  # Initialize the result list with zeros
 
     for current_day in range(len(T)):
-        # Check if the current day's temperature is warmer than temperatures in the stack
+        # Check if the current day's temperature is warmer 
+        # than temperatures in the stack
         while stack and T[current_day] > T[stack[-1]]:
             previous_day = stack.pop()  # Get the index of the previous day
             result[previous_day] = current_day - previous_day  # Update the result

@@ -3,7 +3,7 @@ a11y: accessibility
 algo: algorithms
 arr: array
 bus: business
-conc: concurrent
+conc: concurrency
 cs: computer-science
 cz: cestina
 de: deutsch
@@ -22,6 +22,7 @@ mng: management
 nat: natural-sciences
 net: computer-networks
 os: operating-systems
+par: parallel-programming
 phil: philosophy
 psy: psychology
 pro: programming
