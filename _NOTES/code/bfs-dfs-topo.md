@@ -1,7 +1,7 @@
 ---
+tags: gr mid 
 ---
 
-[[graph]]
 
 **bfs:** use a queue
 

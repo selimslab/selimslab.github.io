@@ -1,8 +1,8 @@
 ---
-title: Tree, Binary Search Tree
+title: Binary Search Tree
+tags: gr easy
 ---
 
-[[graph]]
 
 
 ```py

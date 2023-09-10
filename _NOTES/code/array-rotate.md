@@ -1,7 +1,7 @@
 ---
+tags: arr easy
 ---
 
-[[array]]
 
 
 ```go

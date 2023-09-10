@@ -1,7 +1,5 @@
 ---
-tags: str stack
-
-
+tags: str stack easy
 --- 
 
 

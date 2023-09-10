@@ -1,5 +1,5 @@
 ---
-tags: stack
+tags: stack easy
 
 ---
 

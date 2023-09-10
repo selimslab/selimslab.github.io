@@ -1,10 +1,8 @@
 ---
-
-tags: dp
+title: Longest increasing subsequence
+tags: dp mid
 ---
 
-
-## The longest increasing subsequence
 
 <https://leetcode.com/problems/longest-increasing-subsequence/>
 

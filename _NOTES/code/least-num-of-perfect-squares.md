@@ -1,5 +1,5 @@
 ---
-tags: q
+tags: q hard
 
 ---
 

@@ -1,6 +1,5 @@
 ---
-
-tags: dp algo
+tags: dp
 ---
 
 It's useful when you try to optimize something given a constraint 

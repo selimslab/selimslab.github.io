@@ -1,0 +1,4 @@
+---
+title: Easy
+tags: easy
+---
