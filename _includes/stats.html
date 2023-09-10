@@ -1,13 +1,20 @@
-<ul>
-    <li id="stats">{{site.documents.size}} pages</li>
-    <li id="words">{{ total_words }} words</li>
-    <li id="stats">{{site.static_files.size}} images</li>
-  </ul>
+{% assign total_words = 0 %} {% for doc in site.documents %} {% assign words =
+    doc.content | number_of_words | times: 1.0 %} {% assign total_words =
+    total_words | plus: words %} {% endfor %} {% assign total_words = total_words
+    | round %}
   
+    {% assign total_read_time = total_words | divided_by:180 | round %} 
+    {% assign total_read_time_hours = total_read_time | divided_by:60 | plus: 1 | round %}
+    {% assign total_read_time_mins = total_read_time | modulo:60 | round %}
+
+<ul>
+<li id="stats">{{site.documents.size}} pages, {{ total_words }} words, {{site.static_files.size}} images</li>
+</ul>
+
   <script>
       function spacesBetweenThousands(id){
           var x = document.getElementById(id).innerHTML;
           document.getElementById(id).innerHTML = x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
       }
-      spacesBetweenThousands("words");
+      spacesBetweenThousands("stats");
   </script>

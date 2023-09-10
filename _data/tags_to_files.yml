@@ -1,4 +1,6 @@
 apx: approximation
+a11y: accessibility
+algo: algorithms
 arr: array
 bus: business
 conc: concurrent
@@ -10,14 +12,17 @@ dp: dynamic
 ds: data-structures
 en: english
 gr: graph
+func: functional-programming
 lang: languages
 ll: linked-list
 lit: literature
 ml: machine-learning
+mng: management
 nat: natural-sciences
 net: computer-networks
 os: operating-systems
 phil: philosophy
+psy: psychology
 pro: programming
 ptr: pointers
 q: queue
@@ -25,6 +30,7 @@ sec: software-security
 sk: practical-skills
 soc: social-sciences
 str: string
+sys: system-design
+swe: software-engineering
 tao: tao-te-ching
-tech: technology
 tr: turkce

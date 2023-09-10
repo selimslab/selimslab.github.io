@@ -1,5 +1,0 @@
----
-title: Philosophy
-
-tags: phil
----

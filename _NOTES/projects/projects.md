@@ -1,6 +1,4 @@
 ---
-title: Personal Projects 
-
-tags: projects pro
+title: Mini Projects 
 ---
 

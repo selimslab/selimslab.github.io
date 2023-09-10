@@ -1,6 +1,0 @@
----
-title: Technology
-
-tags: tech
----
-

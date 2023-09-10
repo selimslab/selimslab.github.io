@@ -11,9 +11,10 @@ class SiteGenerator < Jekyll::Generator
         doc.data['backlinks'] ||= []
       end 
 
-      # walk("./_NOTES", site)
 
       site.data["ideas"] = JSON.parse(File.read("./assets/data/ideas.json")).sort
+
+      walk("./_NOTES", site)
 
       visit_links(site)
 
@@ -46,7 +47,9 @@ class SiteGenerator < Jekyll::Generator
           doc.data['backlinks'] << linking_doc
         end
         
+        # tags to backlinks
         # if this doc has essais tag, add it to the backlinks of essais.md 
+        # or if its under projects folder, walker will add projects to its tags, 
         tags = doc.data["tags"]
         tags.each do |tag|
           # any doc with this tag in id 
@@ -89,23 +92,22 @@ class SiteGenerator < Jekyll::Generator
       Dir.foreach(dir) do |entry|
         next if entry == '.' || entry == '..'
         path = File.join(dir, entry)
-    
-        # take immediate parent dir 
-        file = File.basename(path)
-        # remove extension
-        file = "/" + file.sub(/\..*/, '')
-        parent = "/" + File.basename(File.dirname(path))
-        doc = site.documents.filter do |e| e.id == file end
-        parent_doc = site.documents.filter do |e| e.id == parent end 
-        if doc.length > 0 && parent_doc.length > 0
-          doc = doc[0]
-          parent_doc = parent_doc[0]
-          doc.data['parent'] = parent_doc
-          parent_doc.data['backlinks'] << doc
-        end
-
+  
         if File.directory?(path)
           walk(path, site)
+        else
+          # take immediate parent dir 
+          file = File.basename(path)
+          # remove extension
+          file = "/" + file.sub(/\..*/, '')
+          parent = File.basename(File.dirname(path))
+          doc = site.documents.filter do |e| e.id == file end
+
+          if doc.length > 0 
+            doc = doc[0]
+            doc.data['tags'] ||= []
+            doc.data['tags'] << parent
+          end
         end
       end
 

@@ -2,8 +2,6 @@
 layout: page
 ---
 
-
-
 ## Most read
 
 {% include hub.html tag='top' %}
