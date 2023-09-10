@@ -117,7 +117,12 @@ article{
 }
 
 article.code{
-  max-width: 80ch
+  max-width: 80ch;
+}
+
+article.ideas{
+  min-height:10rem;
+  width: 100%;
 }
 
 .navbar{

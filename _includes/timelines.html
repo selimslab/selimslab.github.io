@@ -114,16 +114,16 @@
   const this_day = moment().dayOfYear();
 
   const age = moment().diff(bday, "years") + 1;
-  add_years(age);
+  // add_years(age);
   add_days(this_day);
 
   const today = moment().format("dddd, MMMM Do YYYY");
   document.querySelector("#date").innerHTML = `${today}`;
 
-  days_seen = moment().diff(bday, "days");
-  // print days seen with spaces between thousands
-  days_seen = days_seen.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
-  document.querySelector("#days-seen").innerHTML = `Day ${days_seen} of my life`;
+  // days_seen = moment().diff(bday, "days");
+  // // print days seen with spaces between thousands
+  // days_seen = days_seen.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+  // document.querySelector("#days-seen").innerHTML = `Day ${days_seen} of my life`;
 
   const percent = Math.round((this_day / 365) * 100);
   document.querySelector("#year-percent").innerHTML = `%${percent}`;
