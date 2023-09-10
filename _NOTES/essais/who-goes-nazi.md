@@ -1,3 +1,4 @@
+---
 title: Who Goes Nazi by Dorothy Thompson
 ---
 

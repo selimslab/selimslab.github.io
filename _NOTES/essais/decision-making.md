@@ -1,5 +1,5 @@
 ---
-tags: skills soc bus
+tags: skills
 ---
 
 We often make even major decisions carelessly

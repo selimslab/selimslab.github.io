@@ -1,14 +1,14 @@
 
 
-{% assign label = tag %} 
+{% assign file = tag %} 
 
 {% if site.data.tags_to_files contains include.tag %} 
-    {% assign label = site.data.tags_to_files[tag] %} 
+    {% assign file = site.data.tags_to_files[tag] %} 
 {% endif %}
 
-{% assign title = label %} 
+{% assign title = file %} 
 
-{% if site.data.file_to_title_map contains label %} 
-    {% assign title = site.data.file_to_title_map[label] %} 
+{% if site.data.file_to_title_map contains file %} 
+    {% assign title = site.data.file_to_title_map[file] %} 
 {% endif %}
 
