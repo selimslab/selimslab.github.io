@@ -2,10 +2,6 @@
 layout: page
 ---
 
-## Most read
-
-{% include hub.html tag='top' %}
-
 ## Index
 
 {% include stats.html  %}
@@ -13,3 +9,7 @@ layout: page
 {% include root.html  %}
 
 {% include offline.html  %}
+
+## Featured
+
+{% include hub.html tag='top' %}

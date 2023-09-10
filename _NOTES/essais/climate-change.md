@@ -1,5 +1,5 @@
 ---
-tags: nat soc
+tags: nat
 ---
 
 The Earth is the only home and we are burning her 

@@ -1,5 +1,5 @@
 ---
-tags: tech mng
+tags: tech
 ---
 
 

@@ -1,5 +1,4 @@
 ---
-
 title: Price vs Value
 ---
 

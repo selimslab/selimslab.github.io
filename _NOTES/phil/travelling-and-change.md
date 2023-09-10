@@ -1,5 +1,5 @@
 ---
-tags: phil
+
 ---
 
 Travelling is romanticized and hyped because it's good for business 

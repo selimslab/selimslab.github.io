@@ -1,5 +1,5 @@
 ---
-tags: phil
+
 ---
 
 Remove all nonessentials. 

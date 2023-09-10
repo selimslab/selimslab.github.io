@@ -1,7 +1,5 @@
 ---
 title: The days are long but the decades are short
-
-tags: phil
 ---
 
 From <https://blog.samaltman.com/the-days-are-long-but-the-decades-are-short>

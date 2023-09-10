@@ -1,5 +1,5 @@
 ---
-tags: nat
+
 ---
 
 Systems thinking 

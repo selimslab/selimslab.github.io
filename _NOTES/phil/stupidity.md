@@ -1,5 +1,5 @@
 ---
-tags: phil soc
+tags: soc
 ---
 
 Stupidity is not ignorance, smart or educated people can also be very stupid

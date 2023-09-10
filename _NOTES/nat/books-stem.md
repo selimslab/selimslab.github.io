@@ -1,6 +1,6 @@
 ---
 title: Books on natural sciences 
-tags: books nat
+tags: books
 ---
 
 A Brief History of Time

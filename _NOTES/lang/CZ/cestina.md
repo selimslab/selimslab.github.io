@@ -1,6 +1,5 @@
 ---
-
-tags: cz lang
+tags: lang
 ---
 
 

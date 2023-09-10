@@ -1,5 +1,5 @@
 ---
-tags: phil soc
+tags: soc psy
 ---
 
 ![](/static/img/happier-dog.jpeg)

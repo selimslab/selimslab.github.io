@@ -1,5 +1,5 @@
 ---
-tags: phil 
+ 
 ---
 
 - The past had to be this way given all the factors. Many inputs come together and create an outcome, it's not all your fault 

@@ -1,5 +1,3 @@
 ---
-title: Philosophy
-
-tags: phil arts 
+tags: arts 
 ---

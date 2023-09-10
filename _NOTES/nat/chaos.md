@@ -1,6 +1,6 @@
 ---
 title: Systems and Chaos 
-tags: nat
+
 ---
 
 

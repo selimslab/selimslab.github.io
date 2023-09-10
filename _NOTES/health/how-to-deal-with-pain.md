@@ -1,6 +1,6 @@
 ---
 title: How to deal with Extreme Physical Pain
-tags: health phil 
+tags: phil 
 ---
 
 from <https://www.hanselman.com/blog/how-to-deal-with-extreme-physical-pain>

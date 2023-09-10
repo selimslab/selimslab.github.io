@@ -1,5 +1,5 @@
 ---
-tags: sports
+
 ---
 
 ![](/static/img/outdoor-essentials.jpeg)

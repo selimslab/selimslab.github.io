@@ -1,3 +1,3 @@
 ---
-tags: ml tech
+tags: tech
 --- 

@@ -1,5 +1,5 @@
 ---
-tags: ml tech books 
+tags: books 
 ---
 
 

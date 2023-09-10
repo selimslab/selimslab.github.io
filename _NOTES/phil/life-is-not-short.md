@@ -1,6 +1,6 @@
 ---
 title: Life is not short but we waste it
-tags: phil 
+ 
 ---
 
 "Think of yourself as dead. Now take what's left, and live it properly." Marcus Aurelius  

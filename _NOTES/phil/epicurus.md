@@ -1,5 +1,5 @@
 ---
-tags: phil 
+ 
 ---
 
 Maybe the most misunderstood thinker, even in his own time 

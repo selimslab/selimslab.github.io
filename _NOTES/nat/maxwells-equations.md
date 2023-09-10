@@ -1,5 +1,5 @@
 ---
-tags: nat
+
 ---
 
 Maxwell had made one of the great unifications of physics. Before his time, there was light, and there was electricity and magnetism. The latter two had been unified by the experimental work of Faraday, Oersted, and Ampère. 

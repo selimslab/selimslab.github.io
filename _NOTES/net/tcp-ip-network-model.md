@@ -1,6 +1,5 @@
 ---
 title: TCP/IP Model
-tags: tech
 ---
 
 * Application 

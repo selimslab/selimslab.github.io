@@ -1,6 +1,6 @@
 ---
 title: The Art of War
-tags: phil books
+tags: books
 ---
 
 

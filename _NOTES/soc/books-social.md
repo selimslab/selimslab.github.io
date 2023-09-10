@@ -1,6 +1,6 @@
 ---
 title: Social Science Books
- books
+tags: books
 ---
 
 The Diary of a Young Girl, Anne Frank
