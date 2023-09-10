@@ -1,5 +1,5 @@
 ---
-tags: math
+
 ---
 
 Nature doesn't draw straight lines, it is continuous 

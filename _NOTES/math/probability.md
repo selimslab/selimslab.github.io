@@ -1,5 +1,5 @@
 ---
-tags: math 
+ 
 ---
 
 Probability and randomness run deep in life  

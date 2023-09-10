@@ -1,5 +1,5 @@
 ---
-tags: math
+
 ---
 
 “The difference between 1% and 2% is not just 1%, it’s 100%.”

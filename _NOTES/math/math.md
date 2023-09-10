@@ -1,6 +1,6 @@
 ---
 title: Math
 
-tags: math 
+ 
 ---
 

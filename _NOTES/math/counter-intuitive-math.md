@@ -1,5 +1,5 @@
 ---
-tags: math
+
 ---
 
 A one-in-billion event will happen 8 times a month: <https://gwern.net/Littlewood>

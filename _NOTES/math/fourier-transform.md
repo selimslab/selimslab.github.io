@@ -1,5 +1,5 @@
 ---
-tags: math
+
 ---
 
 <https://betterexplained.com/topics/fourier-transform/>

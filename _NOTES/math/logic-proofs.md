@@ -1,6 +1,6 @@
 ---
 title: Five ways to prove P=>Q
-tags: math
+
 ---
 
 
