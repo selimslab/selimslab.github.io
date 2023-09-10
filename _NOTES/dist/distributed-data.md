@@ -1,7 +1,6 @@
 ---
 ---
 
-
 Why distribute data?
 
 - fault tolerance 

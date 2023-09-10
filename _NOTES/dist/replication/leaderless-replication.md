@@ -3,7 +3,7 @@
 
 Dynamo-style, Cassandra, Riak, .. 
 
-Since any node can accept writes, a mechanism is necesary to make them consistent, eventually 
+Since any node can accept writes, a mechanism is necessary to make them consistent, eventually 
 
 1. Read repair, read from multiple nodes and accept the latest value 
 2. Anti-entropy, run a background process watching for differences in data and updates old values 

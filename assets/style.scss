@@ -1,6 +1,7 @@
 ---
 
 ---
+// variables
 
 // Grays
 $gray: #555;
@@ -26,18 +27,9 @@ $light-bg: #f8f1e3;
 $dark-text: $gray;
 
 
-html{
-  font: $sansSerif;
-  font-size: 1.4em;
-  line-height: 1.7;
-  border: 2px solid linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-::selection {
-  background: $accent;
-}
-
+// basics 
 body{
+  font: $sansSerif;
   background: $dark-bg;
   color: $light-text;
   min-height: 100vh;
@@ -50,13 +42,6 @@ strong{
 
 hr{
   margin: 1rem 0!important;
-}
-
-.top{
-  height: 4px;
-  background: #373B44;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 
@@ -73,39 +58,8 @@ li ul {
   margin-left: 1rem;
 }
 
-.navbar {
-  background: inherit;
-  color: inherit;
-}
-
-.navbutton{
-  font-size:1.2rem;  
-  margin-top: 0.8rem;
-  margin-left: 0.8rem;
-}
-
-.search{
-  margin-top:0.8rem;
-  margin-right: 0.4rem;
-}
-
-a.site-name {
-  font-family: $serif;
-  color: inherit;
-  font-size: 2.4rem;
-  margin-right:1.2rem;
-}
-
-#results-container {
-  margin-top: 0.3rem;
-  list-style: none;
-  font-size: 1rem;
-  max-width: 20ch;
-  li{
-    margin: 0 auto;
-    margin-top: 0.3rem;
-    padding: 0.2rem;
-  }
+::selection {
+  background: $accent;
 }
 
 article{
@@ -125,14 +79,6 @@ article.ideas{
   width: 50%;
 }
 
-.navbar{
-  width: fit-content;
-  max-width: 60ch;
-  padding: 0.5rem;
-  margin: 0 auto;
-  min-width: 33vw;
-}
-
 a{
   color: $lightBlue; 
 }
@@ -146,7 +92,6 @@ a:hover{
 summary:hover{
   color: $accent;
 }
-
 
 
 .img-full {
@@ -165,6 +110,59 @@ summary:hover{
   font-weight: 300;
   margin-bottom:0.5rem;
 }
+
+// nav 
+.navbar{
+  background: inherit;
+  color: inherit;
+  width: fit-content;
+  max-width: 60ch;
+  padding: 0.5rem;
+  margin: 0 auto;
+  min-width: 33vw;
+}
+
+.top{
+  height: 4px;
+  background: #373B44;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.navbutton{
+  font-size:1.2rem;  
+  margin-top: 0.8rem;
+  margin-left: 0.8rem;
+}
+
+.search{
+  margin-top:0.8rem;
+  margin-right: 0.4rem;
+}
+
+a.site-name {
+  font-family: $serif;
+  color: inherit;
+  font-size: 2rem;
+  margin-right:1rem;
+  
+}
+
+#results-container {
+  margin-top: 0.3rem;
+  list-style: none;
+  font-size: 1rem;
+  max-width: 20ch;
+  li{
+    margin: 0 auto;
+    margin-top: 0.3rem;
+    padding: 0.2rem;
+  }
+}
+
+
+
+
 
 @media only screen and (max-width: 900px) {
   .img-full {
@@ -232,9 +230,14 @@ ol{
   margin-left:1rem;
 }
 
+.force-graph-container{
+  canvas {
+    border: 2px solid;
+  }
+}
 
-a.site-name {
-  color: inherit;
+.taglist{
+  font-size: 0.8rem;
 }
 
 
@@ -271,18 +274,7 @@ html[data-theme='light'] {
   a.site-name{
     color: inherit
   }
-
-
-  
 }
 
-.force-graph-container{
-  canvas {
-    border: 2px solid;
-  }
-}
 
-.taglist{
-  font-size: 0.8rem;
-}
 

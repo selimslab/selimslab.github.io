@@ -4,8 +4,7 @@ tags: soc psy
 
 ![](/static/img/happier-dog.jpeg)
 
-![](/static/img/notice-when-you-are-happy.png)
-
+[[gratitude]]
 
 "Happiness always looks small while you hold it in your hands, but let it go, and you learn at once how big and precious it is."
 - Maxim Gorky
@@ -14,6 +13,8 @@ tags: soc psy
 
 “Folks are usually about as happy as they make their minds up to be.” 
 ― Abraham Lincoln
+
+![](/static/img/notice-when-you-are-happy.png)
 
 “Time you enjoy wasting is not wasted time.” 
 

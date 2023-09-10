@@ -2,6 +2,8 @@
 
 ---
 
+From <https://variety.com/2022/tv/news/william-shatner-space-boldly-go-excerpt-1235395113/>
+ 
 So, I went to space.
 
 The countdown began. With all the attending noise, fire, and fury, we lifted off. I could see Earth disappearing. As we ascended, I was at once aware of pressure. Gravitational forces pulling at me. The g’s. There was an instrument that told us how many g’s we were experiencing. At two g’s, I tried to raise my arm, and could barely do so. At three g’s, I felt my face being pushed down into my seat. I don’t know how much more of this I can take, I thought. Will I pass out? Will my face melt into a pile of mush? How many g’s can my ninety-year-old body handle?
@@ -26,4 +28,3 @@ I learned later that I was not alone in this feeling. It is called the “Overvi
 
 It can change the way we look at the planet but also other things like countries, ethnicities, religions; it can prompt an instant reevaluation of our shared harmony and a shift in focus to all the wonderful things we have in common instead of what makes us different. It reinforced tenfold my own view on the power of our beautiful, mysterious collective human entanglement, and eventually, it returned a feeling of hope to my heart. In this insignificance we share, we have one gift that other species perhaps do not: we are aware—not only of our insignificance, but the grandeur around us that makes us insignificant. That allows us perhaps a chance to rededicate ourselves to our planet, to each other, to life and love all around us. If we seize that chance.
 
-<https://variety.com/2022/tv/news/william-shatner-space-boldly-go-excerpt-1235395113/>

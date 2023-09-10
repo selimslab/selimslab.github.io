@@ -1,5 +1,5 @@
 ---
-tags: soc pols
+tags: psy soc pols
 ---
 
 <https://www.madinamerica.com/2012/02/why-anti-authoritarians-are-diagnosed-as-mentally-ill/>

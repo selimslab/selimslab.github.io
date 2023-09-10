@@ -1,5 +1,5 @@
 ---
-tags: 
+
 ---
 
 "It won't be as good as you hope, neither as bad as you fear"

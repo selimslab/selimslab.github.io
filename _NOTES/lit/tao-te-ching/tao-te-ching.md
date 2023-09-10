@@ -1,5 +1,5 @@
 ---
 title: Tao Te Ching
 
-tags: lit phil
+tags: lit phil pols
 ---

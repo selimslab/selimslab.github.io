@@ -3,7 +3,7 @@ title: Philosophy Books
 tags: books
 ---
 
-Tao Te Ching
+[[tao-te-ching]]
 
 Enchiridion 
 
@@ -13,9 +13,9 @@ On the Shortness of Life by Seneca
 
 Rubaiyat of Omar Khayyam
 
-The Art of War
+[[the-art-of-war]]
 
 Die Kunst, glücklich zu sein by Schopenhauer
 
-Man's Search for Meaning, Viktor Frankl
+[[search-for-meaning]]
 

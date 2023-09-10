@@ -1,5 +1,6 @@
 ---
 title: The Triumph of Stupidity
+tags: pols 
 ---
 
 Bertrand Russell

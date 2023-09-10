@@ -1,6 +1,3 @@
 ---
-
-tags: dist tech
+tags: swe
 ---
-
-[[technology]]

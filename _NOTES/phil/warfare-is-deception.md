@@ -25,3 +25,4 @@ If you can't control your anger, you lose
 Attack unexpectedly. Be prepared and wait to take them unprepared
 
 
+[[the-art-of-war]]

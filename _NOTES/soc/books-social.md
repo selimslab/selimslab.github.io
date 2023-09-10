@@ -5,7 +5,7 @@ tags: books
 
 The Diary of a Young Girl, Anne Frank
 
-Man's Search for Meaning, Viktor Frankl
+[[search-for-meaning]]
 
 Thinking, Fast and Slow
 

@@ -1,5 +1,5 @@
 ---
-
+tags: pols
 ---
 
 By Major General Smedley Butler
