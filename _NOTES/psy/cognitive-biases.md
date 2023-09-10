@@ -53,8 +53,7 @@ People like to fill in the blanks
 
 We tend to do something even when doing nothing is better
 
-
-## Also see
+---
 
 <https://www.clearerthinking.org/tools-and-mini-courses>
 

@@ -12,14 +12,16 @@ class SiteGenerator < Jekyll::Generator
 
       walk("./_NOTES", site)
 
+      site.documents.each do |doc|   
+        # remove circular tags
+        file = doc.id.sub(/^\//, '')
+        doc.data['tags'] = doc.data['tags'].reject { |e| e == file }.uniq.sort
+      end
+
       visit_links(site)
 
       site.documents.each do |doc|   
         doc.data['backlinks'] = doc.data['backlinks'].reject { |e| e.id == doc.id }.uniq.sort_by { |e| e.data["title"] }
-        # remove circular tags
-        file = doc.id.sub(/^\//, '')
-        doc.data['tags'] = doc.data['tags'].reject { |e| e == file }
-
       end
     end 
 

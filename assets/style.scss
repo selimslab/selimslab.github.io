@@ -143,7 +143,7 @@ summary:hover{
 .img-full {
   display: block;
   margin: auto;
-  max-height: 95vh;
+  max-height: 94vh;
 }
 
 .img-alt{
@@ -265,4 +265,8 @@ html[data-theme='light'] {
   canvas {
     border: 2px solid;
   }
+}
+
+.taglist{
+  font-size: 0.8rem;
 }

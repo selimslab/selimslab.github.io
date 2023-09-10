@@ -19,9 +19,13 @@ Files link to each other with wikilinks eg. [[psy]]
 
 Files can also tag to each other in markdown front-matter, eg. tags: psy
 
-Markdown files are grouped under dirs with short names eg. psy, math, lit, ux etc  
+Markdown files are grouped under dirs with short names eg. psy, math, lit, ux etc
 
-There is a yaml file to clarify the short name, eg. func: functional-programming
+Dirs have a file with the proper dir name, eg. psy dir has psychology.md 
+
+If you tag any file to psy, you will see its link in url /psychology
+
+There is a yaml file to clarify the short name to display in a url, eg. func: functional-programming
 
 ## Build  
 
