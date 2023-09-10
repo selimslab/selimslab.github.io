@@ -122,7 +122,7 @@ article.code{
 
 article.ideas{
   min-height:10rem;
-  width: 100%;
+  width: 50%;
 }
 
 .navbar{
@@ -171,6 +171,9 @@ summary:hover{
     max-width: 100%;
     display: block; 
     height: auto;
+  }
+  article.ideas{
+    width: 100%;
   }
 }
 
