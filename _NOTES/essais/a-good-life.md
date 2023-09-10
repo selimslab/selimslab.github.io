@@ -1,5 +1,5 @@
 ---
-title: Some guidelines for a good life 🌱
+title: Guidelines for a good life 🌱
 tags: phil skills top
 ---
 
