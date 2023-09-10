@@ -1,6 +1,6 @@
 ---
 title: ML Books
-tags: books 
+tags: ml 
 ---
 
 

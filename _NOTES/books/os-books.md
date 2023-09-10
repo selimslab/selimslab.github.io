@@ -1,7 +1,6 @@
 ---
-title: Books on Operating Systems 
-
-tags: books
+title: Operating Systems Books
+tags: os
 ---
 
 Operating Systems: Three Easy Pieces
