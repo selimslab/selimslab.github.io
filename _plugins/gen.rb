@@ -2,15 +2,11 @@ require 'json'
 
 
 class SiteGenerator < Jekyll::Generator
-    # file means a file base name, without extension, eg. my-file  
-
-
     def generate(site)
 
       site.documents.each do |doc|
         doc.data['backlinks'] ||= []
       end 
-
 
       site.data["ideas"] = JSON.parse(File.read("./assets/data/ideas.json")).sort
 

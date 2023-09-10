@@ -1,4 +1,4 @@
-##  a minimal personal wiki 
+##  a lovely personal wiki 
 
 <https://selimslab.github.io>
 
@@ -16,8 +16,6 @@
 bundle exec jekyll serve --trace
 ```
 
-or 
-
 `--incremental`
 
 `--profile` 
@@ -25,15 +23,15 @@ or
 ## Features 
 1. minimal
 2. no ads
-3. backlinks
-4. PWA service worker for offline access
-5. caching for static assets
-6. analytics
-7. site stats
-8. dark mode
-9. search
-10. shuffle buttons to view a random page, artwork, or quote
-11. breadcrumbs
-12. syntax highlighter
-13. reading time
-15. 2D and 3D link graphs
+3. wikilinks 
+4. backlinks
+5. Works offline
+6. Caching for static assets
+7. Dark mode
+8. Simple search
+9. Shuffle buttons to view a random page, artwork, or quote
+10. Syntax highlighter
+11. 2D and 3D link graphs
+
+
+[Development](/organization-of-this-site)

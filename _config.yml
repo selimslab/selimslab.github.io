@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: Δ 
+name: Δ  
 
 # Short bio or description (displayed in the header)
 description: A place to share and remember
@@ -12,7 +12,8 @@ description: A place to share and remember
 avatar: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/The_Great_Wave_off_Kanagawa.jpg/120px-The_Great_Wave_off_Kanagawa.jpg
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: G-WT9QGKVX1Q
+google_analytics: 
+# G-WT9QGKVX1Q
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
@@ -81,7 +82,7 @@ defaults:
       layout: post
   -
     scope:
-      path: "*/code/*" # an empty string here means all files in the project
+      path: "*/code/*" 
     values:
       layout: code
       
