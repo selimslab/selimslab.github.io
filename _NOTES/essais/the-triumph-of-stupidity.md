@@ -17,6 +17,6 @@ The fundamental cause of the trouble is that in the modern world the stupid are 
 
 It is quite true that the intelligence of the philosophical radicals was very limited. It is, I think, undeniable that the best men of the present day have a wider and truer outlook, but the best men of that day had influence, while the best men of this are impotent spectators. Perhaps we shall have to realise that scepticism and intellectual individualism are luxuries which in our tragic age must be forgone, and if intelligence is to be effective, it will have to be combined with a moral fervour which it usually possessed in the past but now usually lacks. 
 
-In this gloomy state of affairs, the brightest spot is America. In America democracy still appears well established, and the men in power deal with what is amiss by constructive measures, not by pogroms and wholesale imprisonment. After the defeat of the French Revolution, democracy; discredited by the reign of terror, reconquered the world from America. Perhaps America is destined once more to save Europe from the consequences of its excesses.
+In this gloomy state of affairs, the brightest spot is America. In America democracy still appears well established, and the men in powered deal with what is amiss by constructive measures, not by pogroms and wholesale imprisonment. After the defeat of the French Revolution, democracy; discredited by the reign of terror, reconquered the world from America. Perhaps America is destined once more to save Europe from the consequences of its excesses.
 
 (10 May 1933)
