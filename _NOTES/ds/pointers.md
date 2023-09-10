@@ -1,5 +1,5 @@
 ---
-tags: ptr algo
+tags: ptr
 ---
 
 

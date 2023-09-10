@@ -1,5 +1,5 @@
 ---
 
-tags: q algo
+tags: q
 ---
 

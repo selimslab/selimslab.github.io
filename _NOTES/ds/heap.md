@@ -1,6 +1,5 @@
 ---
-
-tags: heap algo
+tags: heap
 ---
 
 ```python

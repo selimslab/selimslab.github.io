@@ -1,5 +1,5 @@
 ---
 
-tags: str algo
+tags: str
 ---
 

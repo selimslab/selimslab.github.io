@@ -1,6 +1,6 @@
 --- 
 
-tags: arr algo
+tags: arr
 ---
 
 

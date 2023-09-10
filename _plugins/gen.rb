@@ -88,7 +88,7 @@ class SiteGenerator < Jekyll::Generator
 
     def walk(dir, site)
       Dir.foreach(dir) do |entry|
-        next if entry == '.' || entry == '..'
+        next if entry == '.' || entry == '..' || entry == '.obsidian'
         path = File.join(dir, entry)
   
         if File.directory?(path)

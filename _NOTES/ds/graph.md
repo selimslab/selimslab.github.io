@@ -1,6 +1,6 @@
 ---
 
-tags: gr algo
+tags: gr
 ---
 
 ```py

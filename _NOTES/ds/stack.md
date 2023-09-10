@@ -1,5 +1,5 @@
 ---
 
-tags: stack algo
+tags: stack
 ---
 
