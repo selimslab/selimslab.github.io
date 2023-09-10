@@ -1,6 +1,6 @@
 ---
-title: Books on Distributed Systems
-tags: dist books
+title: Distributed Systems Books
+tags: dist
 ---
 
 [[designing-data-intensive-apps]]

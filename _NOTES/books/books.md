@@ -1,4 +1,4 @@
 ---
 title: Books
-tags: books lists 
+tags: lists 
 ---

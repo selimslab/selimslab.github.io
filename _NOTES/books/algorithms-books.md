@@ -1,5 +1,5 @@
 ---
-tags: books
+tags: algo
 ---
 
 Grokking Algorithms An Illustrated Guide For Programmers and Other Curious People

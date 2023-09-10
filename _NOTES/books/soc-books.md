@@ -1,5 +1,5 @@
 ---
-title: Social Science Books
+title: Social Sciences Books
 tags: books
 ---
 
@@ -34,3 +34,7 @@ Metaphors We Live By
 Steve Jobs by Walter Isaacson
 
 A Promised Land, Obama
+
+[[the-prince]]
+
+[[the-art-of-war]]

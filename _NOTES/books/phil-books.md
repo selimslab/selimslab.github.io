@@ -1,6 +1,6 @@
 ---
 title: Philosophy Books
-tags: books
+tags: phil
 ---
 
 [[tao-te-ching]]

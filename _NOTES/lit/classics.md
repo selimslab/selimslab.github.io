@@ -1,6 +1,6 @@
 ---
 title: Literature
-tags: books
+tags: lists
 ---
 
 
@@ -18,8 +18,6 @@ Oblomov
 
 Of Mice and Men
 
-Strange Planet
-
 The Count of Monte Cristo
 
 The Death of Ivan Ilych
@@ -28,19 +26,11 @@ The Gambler
 
 The Hitchhiker's Guide to the Galaxy
 
-The Hobbit 
+Iliad
 
-The Iliad
-
-The Little Prince
-
-The Lorax
-
-The Lord of the Rings
+Odyssey
 
 The Metamorphosis
-
-The Odyssey
 
 The Overcoat
 

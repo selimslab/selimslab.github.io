@@ -1,5 +1,5 @@
 ---
-tags:  lists lit
+tags: lists lit
 ---
 
 Antoine de Saint-Exupéry

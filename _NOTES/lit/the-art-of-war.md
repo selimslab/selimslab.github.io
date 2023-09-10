@@ -1,6 +1,5 @@
 ---
 title: The Art of War
-tags: books
 ---
 
 

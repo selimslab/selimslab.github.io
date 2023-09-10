@@ -1,6 +1,6 @@
 ---
 title: How to Get Rich (without getting lucky)
-tags: skills bus books
+tags: skills bus
 ---
 
 From the Almanack of Naval Ravikant

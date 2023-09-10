@@ -1,5 +1,4 @@
 ---
-tags: books
 ---
 
 Irrevocable judgement
