@@ -1,6 +1,6 @@
 ---
 title: Cinema
-tags: cinema lists 
+tags: cinema arts
 ---
 
 
