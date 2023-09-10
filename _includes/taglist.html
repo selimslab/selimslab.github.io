@@ -1,10 +1,8 @@
 <span class="taglist">
   {% for tag in page.tags %} 
-    {% if tag != "top" %} 
       {% include tag.html tag=tag %}
       {% if title != page.title %} 
         <a style="margin-right: 0.5rem" href="/{{file}}">{{title}}</a>
       {% endif %}
-    {% endif %}
   {% endfor %}
 </span>

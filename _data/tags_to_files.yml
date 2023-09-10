@@ -36,6 +36,7 @@ str: string
 sys: system-design
 swe: software-engineering
 tr: turkce
+top: featured
 easy: algo-easy
 mid: algo-mid
 hard: algo-hard
