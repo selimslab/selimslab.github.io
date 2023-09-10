@@ -11,7 +11,7 @@
 
 # Experience
 ## Microsoft
- 
+
 ### Software Engineer
 Jan ‘23 - present, Prague
 
@@ -36,6 +36,7 @@ using algorithms, SQL, analytics, machine learning and natural language processi
 ### SIEMENS, IoT Intern, Munich, ‘17
 ### HEAVN, Embedded Systems Intern, Munich, ‘16 
 
+---
 # Education  
 ## Bogazici University, Istanbul
 ### Software Engineering, MSc, unfinished
@@ -43,6 +44,7 @@ using algorithms, SQL, analytics, machine learning and natural language processi
 - Top 100 among 2 million students in the national math and science exams for admissions
 - Senior thesis on lung disease detection in X-rays using deep learning 
 
+---
 # Skills
 - Web development, backend, distributed systems, cloud computing, system design 
 - Math, statistics, data science, machine learning, natural language processing
