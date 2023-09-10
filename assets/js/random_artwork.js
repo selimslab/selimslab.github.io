@@ -1,5 +1,3 @@
-const IS_ARTWORK_ENABLED = "is_artworks_enabled";
-
 fileNameToTitle = (fileName) => {
   const dash = new RegExp("-", "g");
   /*

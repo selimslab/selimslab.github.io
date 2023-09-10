@@ -111,7 +111,15 @@ a.site-name {
 article{
   width: fit-content;
   max-width: 55ch;
-  padding-top: 1rem;
+  padding: 1rem;
+  margin: 0 auto;
+  min-width: 33vw;
+}
+
+.navbar{
+  width: fit-content;
+  max-width: 60ch;
+  padding: 0.5rem;
   margin: 0 auto;
   min-width: 33vw;
 }

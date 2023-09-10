@@ -3,30 +3,12 @@
 
 {% include head.html %}
 
-
 <body>
-  <script src="/assets/js/theme.js"></script>
-  <script src="/assets/js/random_array_item.js"></script>
-
-  <div class="top"></div>
-
-  <article>
-    {% include nav.html %}
-  </article>
+  {% include nav.html %}
 
   {{ content }}
 
   {% include footer.html %}
-
-  <script src="/assets/js/random_post.js"></script>
-
-  <script>
-    if('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js')
-      })
-    }
-  </script>
   
 </body>
 

@@ -3,7 +3,6 @@ layout: page
 ---
 
 
-A place to share and remember
 
 ## Most read
 
@@ -15,3 +14,4 @@ A place to share and remember
 
 {% include root.html  %}
 
+{% include offline.html  %}
