@@ -1,7 +1,7 @@
 ---
 title: Principal Component Analysis
 tags: projects
-layout: code
+
 
 ---
 

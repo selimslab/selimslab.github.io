@@ -1,7 +1,7 @@
 ---
 title: An interpreter in Python for a subset of PASCAL
 tags: projects
-layout: code
+
 
 ---
 

@@ -1,0 +1,7 @@
+---
+tags: arts
+---
+
+[[lit]]
+
+[[history]]

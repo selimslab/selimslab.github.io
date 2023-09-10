@@ -3,7 +3,7 @@ title: Bayes' theorem
 tags: math algo
 ---
 
-How the probability of an event changes with new information? 
+	How the probability of an event changes with new information? 
 
     Let little dashes represent the probabilities of events A and B
 

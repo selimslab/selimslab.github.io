@@ -1,7 +1,7 @@
 ---
 title: A search engine with page rank, in 200 lines 
 tags: projects
-layout: code
+
 
 ---
 
