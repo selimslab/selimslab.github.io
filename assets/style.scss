@@ -26,7 +26,10 @@ $light-text: #f0f1f2;
 $light-bg: #f8f1e3; 
 $dark-text: $gray;
 
-
+html{
+  font-size: 1.4em;
+  line-height: 1.7;
+}
 // basics 
 body{
   font: $sansSerif;
