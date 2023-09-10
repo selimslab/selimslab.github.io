@@ -1,6 +1,6 @@
 ---
 title: Deepen your days
-tags: soc
+
 ---
 
 From <https://www.raptitude.com/2018/05/how-to-slow-down-time/>

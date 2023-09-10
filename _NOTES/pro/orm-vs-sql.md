@@ -1,6 +1,6 @@
 ---
 title: What ORMs have taught me, just learn SQL
-tags: pro
+
 ---
 
 <https://web.archive.org/web/20190920210113/https://wozniak.ca/blog/2014/08/03/What-ORMs-have-taught-me-just-learn-SQL/>

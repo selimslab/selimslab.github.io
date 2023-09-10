@@ -1,5 +1,5 @@
 ---
-tags: soc 
+ 
 ---
 
 ![](/static/img/notice-top-of-mind.jpeg)

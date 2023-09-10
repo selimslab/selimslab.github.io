@@ -1,5 +1,5 @@
 ---
-tags: soc
+
 ---
 
 Confident people are humble. Arrogance is a weakness.

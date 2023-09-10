@@ -1,6 +1,6 @@
 ---
 title: Public speaking
-tags: sk
+tags: skills
 ---
 
 Focus on the audience

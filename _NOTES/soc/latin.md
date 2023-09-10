@@ -1,5 +1,5 @@
 ---
-tags: soc
+
 ---
 
 Acta, non verba 

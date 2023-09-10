@@ -1,6 +1,6 @@
 ---
 title:  Some events in the last million years 🌏
-tags: soc nat tech 
+tags: nat tech 
 --- 
 
 Last Common Ancestor Of Humans And Chimps, 6M years ago 

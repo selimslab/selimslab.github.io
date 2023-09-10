@@ -1,3 +1,3 @@
 ---
-tags: pro swe
+tags: swe
 ---

@@ -1,6 +1,5 @@
 ---
 title: Career advice
-tags: bus
 ---
 
 Your Professional Decline Is Coming (Much) Sooner Than You Think

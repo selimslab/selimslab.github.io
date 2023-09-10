@@ -1,6 +1,6 @@
 ---
 title: VSCode Settings 
-tags: pro 
+ 
 ---
 
 ## Some default keyboard shortcuts 

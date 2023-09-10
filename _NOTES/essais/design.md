@@ -1,6 +1,6 @@
 ---
 title: On design
-tags: skills essais tech bus
+tags: skills tech bus
 ---
 
 - Design is the core and it keeps expressing itself in successive outer layers of the product or service.

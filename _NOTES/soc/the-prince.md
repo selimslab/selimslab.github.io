@@ -1,5 +1,5 @@
 ---
-tags: soc
+
 ---
 
 Irrevocable judgement

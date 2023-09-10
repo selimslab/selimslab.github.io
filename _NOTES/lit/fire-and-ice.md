@@ -1,6 +1,6 @@
 ---
 title: Fire and Ice
-tags: lit
+
 ---
 
 Some say the world will end in fire,

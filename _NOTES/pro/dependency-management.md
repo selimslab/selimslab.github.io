@@ -1,5 +1,5 @@
 ---
-tags: pro
+
 ---
 
 Static linking, pinning, and bundling(vendoring) have all downsides

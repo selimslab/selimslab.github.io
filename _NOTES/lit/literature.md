@@ -1,7 +1,5 @@
 ---
-title: Literature
- 
-tags: lit
+tags: arts phil 
 ---
 
 

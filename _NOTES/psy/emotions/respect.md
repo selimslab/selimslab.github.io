@@ -1,5 +1,5 @@
 ---
-tags: soc
+
 ---
 
 Respect yourself, respect others, and show it

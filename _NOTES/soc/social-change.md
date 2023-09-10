@@ -1,5 +1,5 @@
 ---
-tags: soc
+
 ---
 
 People imagine change as dramatic and revolutionary.

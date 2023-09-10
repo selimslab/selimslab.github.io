@@ -1,5 +1,5 @@
 ---
-tags: soc
+
 ---
 
 Standing up for what you believe to be right even if you fear

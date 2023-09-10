@@ -1,5 +1,5 @@
 ---
-tags: soc
+
 ---
 
 By Major General Smedley Butler

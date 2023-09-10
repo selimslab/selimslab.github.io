@@ -1,5 +1,5 @@
 ---
-tags: soc
+
 ---
 
 Billions of children grow up in appalling poverty. 

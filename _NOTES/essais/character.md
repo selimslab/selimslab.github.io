@@ -1,6 +1,6 @@
 ---
 title: On Character
-tags: essais phil soc
+tags: phil soc
 ---
 
 

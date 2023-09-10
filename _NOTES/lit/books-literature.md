@@ -1,6 +1,6 @@
 ---
 title: Literature
-tags: lit books
+tags: books
 ---
 
 

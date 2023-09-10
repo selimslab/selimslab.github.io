@@ -1,5 +1,4 @@
 ---
-tags: lit phil
 ---
 
 ...

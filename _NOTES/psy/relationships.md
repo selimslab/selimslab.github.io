@@ -1,5 +1,5 @@
 ---
-tags: soc
+
 ---
 
 A happy relationship consists of two happy people

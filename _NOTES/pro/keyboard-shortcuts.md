@@ -1,5 +1,5 @@
 ---
-tags: pro
+
 --- 
 
 ## Mac terminal

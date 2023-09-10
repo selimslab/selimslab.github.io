@@ -1,5 +1,5 @@
 ---
-tags: soc
+
 title: Price vs Value
 ---
 

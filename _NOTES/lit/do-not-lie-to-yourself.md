@@ -1,5 +1,5 @@
 ---
-tags: lit
+
 ---
 
 “Above all, don't lie to yourself.

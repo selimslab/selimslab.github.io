@@ -19,13 +19,16 @@ Files can also tag to each other in markdown front-matter, eg. tags: psy
 
 Markdown files are grouped under dirs with short names eg. psy, math, lit, ux etc
 
-Dirs have a file with the proper dir name, eg. psy dir has psychology.md 
+Dirs have a tag file with the proper dir name, eg. psy dir has psychology.md
+
+There is a yaml file listing them, eg. func: functional-programming
+
+Any file under a dir is automatically linked to the tag file in its dir 
 
 If you tag any file to psy, you will see its link in url /psychology
 
 Dirs have at most one child dir, flat is better than nested 
 
-There is a yaml file to clarify the short name to display in a url, eg. func: functional-programming
 
 ## Build  
 

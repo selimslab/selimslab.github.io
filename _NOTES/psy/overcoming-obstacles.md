@@ -1,5 +1,5 @@
 ---
-tags: soc
+
 ---
 
 Overcoming obstacles is a great pleasure,

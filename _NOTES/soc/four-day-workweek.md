@@ -1,5 +1,5 @@
 ---
-tags: soc
+
 ---
 
 An easy way to improve both the economy and happiness 

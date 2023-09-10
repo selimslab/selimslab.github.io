@@ -1,5 +1,5 @@
 ---
-tags: soc
+
 ---
 
 These are not proof of deception but when they come in clusters, this is your signal

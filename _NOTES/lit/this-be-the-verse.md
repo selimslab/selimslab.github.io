@@ -1,6 +1,6 @@
 ---
 title: This Be The Verse
-tags: lit
+
 ---
 
 They fuck you up, your mum and dad.  

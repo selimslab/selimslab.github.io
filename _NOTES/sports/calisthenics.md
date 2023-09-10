@@ -1,5 +1,5 @@
 ---
-tags: sports 
+
 ---
 
 Strength training, often performed with minimal equipment, as bodyweight exercises.

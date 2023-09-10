@@ -1,5 +1,5 @@
 ---
-tags: soc
+
 ---
 
 1. It is not personal

@@ -1,5 +1,5 @@
 ---
-tags: soc
+
 ---
 
 Objects and people display the same effect.

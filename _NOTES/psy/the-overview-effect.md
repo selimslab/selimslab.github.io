@@ -1,5 +1,5 @@
 ---
-tags: soc
+
 ---
 
 So, I went to space.

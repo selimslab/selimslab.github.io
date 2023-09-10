@@ -1,5 +1,5 @@
 ---
-tags: bus pro
+tags: swe
 ---
 
 People mistake a polished UI for good software

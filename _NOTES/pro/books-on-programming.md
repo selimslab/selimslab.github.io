@@ -1,5 +1,5 @@
 ---
-tags: pro books
+tags:  books
 ---
 
 Code Complete

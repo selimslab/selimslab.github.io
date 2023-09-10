@@ -1,5 +1,5 @@
 ---
-tags: soc
+
 ---
 
 - What is bothering me? Is it the situation or my interpretation of it?

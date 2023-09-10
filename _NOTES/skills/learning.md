@@ -1,5 +1,5 @@
 ---
-tags: soc sk
+tags: soc skills
 ---
 
 People learn when they’re surprised

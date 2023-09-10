@@ -1,5 +1,5 @@
 ---
-tags: soc
+
 ---
 
 What I have is a tiny drop of possible troubles,

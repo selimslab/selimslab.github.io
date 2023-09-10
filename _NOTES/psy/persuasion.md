@@ -1,5 +1,5 @@
 ---
-tags: soc
+
 ---
 
 Persuasion has 2 main parts,

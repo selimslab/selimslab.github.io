@@ -1,5 +1,5 @@
 ---
-tags: lit phil
+
 ---
 
 Beautiful is the moment,

@@ -1,5 +1,5 @@
 ---
-tags: sk
+tags: skills
 ---
 
 <https://commonmark.org/help/>

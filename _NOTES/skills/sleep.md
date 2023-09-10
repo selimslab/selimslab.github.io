@@ -1,6 +1,6 @@
 ---
 title: How to sleep better?
-tags: nat sk
+tags: nat skills
 ---
 
 1. Wake up early 

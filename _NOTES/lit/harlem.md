@@ -1,5 +1,5 @@
 ---
-tags: lit
+
 ---
 
 What happens to a dream deferred?

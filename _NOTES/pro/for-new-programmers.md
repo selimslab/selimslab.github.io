@@ -1,5 +1,5 @@
 ---
-tags: pro top
+tags: top
 ---
 
 ## Fundamentals 

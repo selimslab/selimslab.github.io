@@ -1,5 +1,5 @@
 ---
-tags: soc
+
 ---
 
 Social skills naturally arise from genuine empathy

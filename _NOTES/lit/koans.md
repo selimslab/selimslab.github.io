@@ -1,5 +1,5 @@
 ---
-tags: lit phil
+tags: phil
 ---
 
 Two hands clap and there is a sound. What is the sound of one hand?

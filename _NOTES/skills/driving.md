@@ -1,5 +1,5 @@
 ---
-tags: sk
+tags: skills
 ---
 
 Be predictable

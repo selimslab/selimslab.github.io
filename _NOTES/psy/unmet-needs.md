@@ -1,5 +1,5 @@
 ---
-tags: soc
+
 ---
 
 Humans need to be seen, heard, loved, accepted, respected.

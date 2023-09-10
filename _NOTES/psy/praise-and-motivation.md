@@ -1,5 +1,5 @@
 ---
-tags: soc
+
 ---
 
 "Recipients of praise do work harder, but only initially.

@@ -1,5 +1,5 @@
 ---
-tags: soc
+
 ---
 
 From Feeling Good: The New Mood Therapy by David D. Burns

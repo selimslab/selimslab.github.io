@@ -1,5 +1,5 @@
 ---
-tags: lit
+
 ---
 
 It’s dark because you are trying too hard.

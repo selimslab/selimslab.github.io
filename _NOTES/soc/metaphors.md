@@ -1,5 +1,5 @@
 ---
-tags: soc
+
 ---
 
 <https://sketchplanations.com/primary-metaphor>

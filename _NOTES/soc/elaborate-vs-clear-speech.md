@@ -1,5 +1,5 @@
 ---
-tags: soc soc
+
 ---
 
 "When people speak in a very elaborate and sophisticated way,

@@ -1,5 +1,5 @@
 ---
-tags: soc
+
 ---
 
 We live in a world built mostly for cars

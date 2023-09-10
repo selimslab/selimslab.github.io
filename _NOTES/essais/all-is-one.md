@@ -1,6 +1,6 @@
 ---
 title: All is One 
-tags: phil essais
+tags: phil
 ---
 
 We name things so we can talk about them.  It's useful but artificial since names don't exist outside our minds. 

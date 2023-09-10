@@ -1,5 +1,5 @@
 ---
-tags: tao
+
 ---
 
 “People whose power is real fulfill their obligations;
