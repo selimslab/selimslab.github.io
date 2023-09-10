@@ -1,6 +1,6 @@
 ---
 title: Teamwork
-tags: sk essais soc bus
+tags: skills essais soc bus
 ---
 
 However hard you work, the results are limited by a single person.

@@ -1,6 +1,6 @@
 ---
 title: How to start?
-tags: sk soc
+tags: skills soc
 ---
 
 You need a driving emotion

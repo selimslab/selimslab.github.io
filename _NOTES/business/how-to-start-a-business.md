@@ -1,5 +1,5 @@
 ---
-tags: sk bus essais
+tags: skills bus essais
 ---
 
 [[what-to-work-on]]

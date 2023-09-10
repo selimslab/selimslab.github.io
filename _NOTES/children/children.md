@@ -1,6 +1,6 @@
 ---
 title: On children
-tags: soc sk essais
+tags: soc skills essais
 ---
 
 Lead by example, actions matter more to children than words

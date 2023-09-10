@@ -1,5 +1,5 @@
 ---
-tags: soc essais sk bus
+tags: soc essais skills bus
 ---
 
 Good ideas are in plain sight. They are about reordering existing + connecting + right timing.

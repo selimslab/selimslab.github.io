@@ -1,6 +1,6 @@
 ---
 title: On writing
-tags: sk essais
+tags: skills essais
 ---
 
 Writing is one of the most powerful inventions. It organizes thoughts, sparks ideas, reveals cracks, and connects us to the past and the future.

@@ -1,6 +1,6 @@
 ---
 title: Some guidelines for a good life 🌱
-tags: phil sk essais top
+tags: phil skills essais top
 ---
 
 

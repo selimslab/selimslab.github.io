@@ -1,5 +1,5 @@
 ---
-tags: essais sk bus
+tags: essais skills bus
 ---
 
 1. Define [[what-to-work-on]] and why

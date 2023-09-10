@@ -5,8 +5,6 @@ Taking notes clears my mind and it's fun
 
 There are many ways to do it. I searched for a simple and flexible way. Publishing should be simple, readable, accessible, beautiful, and personal
 
-[[zen-of-python]]
-
 So here is my process so far 
 
 ## Write 
@@ -24,6 +22,8 @@ Markdown files are grouped under dirs with short names eg. psy, math, lit, ux et
 Dirs have a file with the proper dir name, eg. psy dir has psychology.md 
 
 If you tag any file to psy, you will see its link in url /psychology
+
+Dirs have at most one child dir, flat is better than nested 
 
 There is a yaml file to clarify the short name to display in a url, eg. func: functional-programming
 

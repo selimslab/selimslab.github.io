@@ -1,6 +1,6 @@
 ---
 title: On communication
-tags: sk soc essais
+tags: skills soc essais
 ---
 
 ![](/static/img/listen-with-passion.png)

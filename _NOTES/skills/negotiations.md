@@ -1,5 +1,5 @@
 ---
-tags: soc sk essais
+tags: soc skills essais
 ---
 
 1. No prep, no win
