@@ -1,5 +1,5 @@
 ---
-tags: cz
+
 ---
 
 dobre rano

@@ -1,5 +1,5 @@
 ---
-tags: cz
+
 ---
 
 jsem šťastný - i'm happy 

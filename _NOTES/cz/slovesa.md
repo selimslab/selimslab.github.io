@@ -1,5 +1,5 @@
 ---
-tags: cz
+
 ---
 
 cist - read (like cislo)
