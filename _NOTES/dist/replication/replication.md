@@ -1,5 +1,5 @@
 ---
-tags: dist storage
+tags: storage
 ---
 
 Keeping the same data on multiple nodes 

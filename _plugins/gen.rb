@@ -10,7 +10,8 @@ class SiteGenerator < Jekyll::Generator
 
       site.data["ideas"] = JSON.parse(File.read("./assets/data/ideas.json")).sort
 
-      walk("./_NOTES", site)
+      link_to_parent = create_link_to_parent(site)
+      level_order_directory_traversal("./_NOTES", link_to_parent)
 
       site.documents.each do |doc|   
         # remove circular tags
@@ -86,6 +87,81 @@ class SiteGenerator < Jekyll::Generator
 
     end
 
+    def level_order_directory_traversal(root_dir, func)
+      queue = [root_dir] # Initialize the queue with the root directory
+    
+      while !queue.empty?
+        level_size = queue.size
+    
+        # Process all directories at the current level
+        level_directories = []
+    
+        level_size.times do
+          current_dir = queue.shift # Dequeue the next directory
+          level_directories << current_dir
+    
+          # List all files and directories in the current directory
+          entries = Dir.entries(current_dir).reject { |e| e == "." || e == ".." || current_dir == '.obsidian'}
+    
+          entries.each do |entry|
+            entry_path = File.join(current_dir, entry)
+            func.call(entry_path)
+            if File.directory?(entry_path)
+              queue << entry_path # Enqueue subdirectories
+            end
+          end
+        end
+    
+        # Print directories at the current level
+        # puts "Level #{queue.size}: #{level_directories.join(', ')}" unless level_directories.empty?
+      end
+    end
+
+    def create_link_to_parent(site)
+      return lambda do |entry_path|
+        # take immediate parent dir 
+        name = File.basename(entry_path)
+        parent = File.basename(File.dirname(entry_path))        
+        if parent == "_NOTES" 
+          return 
+        end
+        # remove extension
+        id = "/" + name.sub(/\..*/, '')
+        docs = site.documents.filter do |e| e.id == id end
+    
+        if docs.length > 0 
+          doc = docs[0]
+          doc.data['tags'] ||= []
+          doc.data['tags'] << parent
+        end
+      end
+    end
+
+
+
+    def bfs_directory_traversal(root_dir, site)
+      queue = [root_dir] # Initialize the queue with the root directory
+      
+      while !queue.empty?
+        current_dir = queue.shift # Dequeue the next directory
+        next if current_dir == '.' || current_dir == '..' || current_dir == '.obsidian'
+
+        puts "Visiting: #{current_dir}"
+    
+        # List all files and directories in the current directory
+        entries = Dir.entries(current_dir).reject { |e| e == "." || e == ".." }
+    
+        entries.each do |entry|
+
+
+          if File.directory?(entry_path)
+            queue << entry_path # Enqueue subdirectories
+          end
+        end
+      end
+    end
+
+
     def walk(dir, site)
       Dir.foreach(dir) do |entry|
         next if entry == '.' || entry == '..' || entry == '.obsidian'
@@ -94,18 +170,7 @@ class SiteGenerator < Jekyll::Generator
         if File.directory?(path)
           walk(path, site)
         else
-          # take immediate parent dir 
-          file = File.basename(path)
-          # remove extension
-          file = "/" + file.sub(/\..*/, '')
-          parent = File.basename(File.dirname(path))
-          doc = site.documents.filter do |e| e.id == file end
 
-          if doc.length > 0 
-            doc = doc[0]
-            doc.data['tags'] ||= []
-            doc.data['tags'] << parent
-          end
         end
       end
 
