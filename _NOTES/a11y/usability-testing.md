@@ -1,6 +1,7 @@
 ---
 title: Why You Only Need to Test with 5 Users
-tags: swe
+tags: 
+    - swe
 ---
 
 Usability is a quality attribute that assesses how easy user interfaces are to use. 

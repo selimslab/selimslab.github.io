@@ -1,5 +1,4 @@
 ---
-
 ---
 
 Systems thinking 
@@ -11,8 +10,6 @@ Bottlenecks
 Constraints
 
 Equilibrium
-
-[[zoom-in-zoom-out]]
 
 Churn
 

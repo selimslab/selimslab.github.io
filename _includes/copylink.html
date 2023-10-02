@@ -1,0 +1,13 @@
+
+
+<span id="copyToClipBoard" onclick="copyToClipBoard();" title="Copy link to clipboard">🔗</span>
+<br>
+<script>
+function copyToClipBoard() {
+    navigator.clipboard.writeText(window.location.href);
+    document.getElementById("copyToClipBoard").innerHTML = "✅";
+    setTimeout(function() {
+        document.getElementById("copyToClipBoard").innerHTML = "🔗";
+    }, 600);
+}
+</script>

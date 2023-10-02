@@ -1,6 +1,6 @@
 ---
-title: Books on Software Engineering
-tags: books pro
+title: Software Engineering Books
+tags: books
 ---
 
 The Mythical Man-Month: Essays on Software Engineering

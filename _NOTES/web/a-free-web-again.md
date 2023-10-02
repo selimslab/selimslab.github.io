@@ -17,7 +17,7 @@ the least we can do are
 1. publish our own websites, regaining control and ownership of our digital life
 2. quit invasive social networks
 3. set up adblockers and privacy tools to prevent ad networks wasting our time 
-4. support the content we value with subscriptions  
+4. support the content we value   
 
 <https://www.eff.org/pages/tools>
 

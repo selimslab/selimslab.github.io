@@ -1,3 +1,5 @@
 ---
-tags: swe tech
+tags: 
+    - swe
+    - tech
 ---
