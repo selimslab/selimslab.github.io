@@ -4,13 +4,15 @@ layout: default
 
 <article class="code">
 
+  {% include copylink.html %}
+
   {% include taglist.html %}
 
   <h1>{{ page.title }} 
-    <span>  {% include copylink.html %}</span>
   </h1>  
   
   {{ content }} 
     
   {% include backlinks.html %}
 </article>
+

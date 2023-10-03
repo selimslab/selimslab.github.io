@@ -1,11 +1,20 @@
-
-<span id="copyToClipBoard" style="font-size: 1rem; margin-left: 0.5rem;" onclick="copyToClipBoard();" title="Copy link to clipboard">🔗</span>
+<p>
+    <a href="javascript:void(0);" id="copyToClipBoard" onclick="copyToClipBoard();" title="Copy link">📋</a>
+</p>
 <script>
-function copyToClipBoard() {
-    navigator.clipboard.writeText(window.location.href);
-    document.getElementById("copyToClipBoard").innerHTML = "✅";
-    setTimeout(function() {
-        document.getElementById("copyToClipBoard").innerHTML = "🔗";
-    }, 600);
-}
+    const copyButton = document.getElementById("copyToClipBoard");
+    // only show if no url box 
+    if (window.matchMedia('(display-mode: standalone)').matches) {
+        // ok 
+    }
+    else {
+        copyButton.style.display = "none";
+    }
+    function copyToClipBoard() {
+        navigator.clipboard.writeText(window.location.href);
+        copyButton.innerHTML = "✅ Link copied!";
+        setTimeout(function () {
+            copyButton.innerHTML = '📋';
+        }, 500);
+    }
 </script>
