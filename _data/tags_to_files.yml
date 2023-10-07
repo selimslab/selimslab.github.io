@@ -5,6 +5,7 @@ arr: array
 bus: business
 conc: concurrency
 cs: computer-science
+cyc: cycling
 cz: cestina
 de: deutsch
 dist: distributed-systems
@@ -18,6 +19,7 @@ lang: languages
 ll: linked-list
 lit: literature
 ml: machine-learning
+moto: motocycles
 mng: management
 nat: natural-sciences
 net: computer-networks
