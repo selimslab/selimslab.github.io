@@ -9,4 +9,4 @@ On the third day, I had an accident when coming down from the highest station, I
 
 Three weeks after I returned to Prague, they stolen my hybrid bike in front of my building. I neglected to take it inside for one hot summer night, and it was gone in the morning. No cameras, no insurance, it's as good as gone.  
 
-Then I got a XC120 cyclocross bike with 100mm front suspension and 55mm MTB wheels. I love off-road. I would like to get a motocycle for off-road and touring too. 
+Then I got a XC120 cross country(XC) race bike with 100mm front suspension and 55mm MTB wheels. I love off-road. I would like to get a motocycle for off-road and touring too. 
