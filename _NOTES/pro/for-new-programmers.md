@@ -6,13 +6,13 @@ Software should be easy to understand, easy to explain.
 
 Like in the great Lynyrd Skynyrd song "Simple Man", something you love and understand. 
 
-It takes years to master a craft, but you can start simply by learning one language well. Focus on the fundamentals - variables, data types, conditionals, loops, functions. Build small programs to solve simple problems. Break large problems into smaller pieces. Ask questions. 
+It takes years to master a field yet we gotta start somewhere 
 
-[Crash Course Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo) and [Harvard CS50](https://www.youtube.com/playlist?list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW) are excellent free introductions to computer science concepts.
+We represent the real world by writing, and it's the same since people writing their crops and animals on clay tablets 
 
-Programs organize information, we represent the real world by writing, and it's the same principles of Sumers and Hitits writing their crops and animals on clay tablets 5000 years ago. 
-
-A program is about information, and we call a piece of information "data". Data structures are the fundamental blocks of programs. Like lists, key-value pairs, stacks, queues, trees, .. 
+We always need a way to keep track of things and computers are our latest tool. 
+We get a piece of information about the world and process it, we can derive new information from it or discover a new way of seeing it. 
+When we do the same with computers, we call it a "program". A program takes some information and operates on it. We call a piece of information "data" and organize data in "data structures" like lists, key-value pairs, stacks, queues, trees, .. 
 
 When you choose the right data structure for the problem, algorithms naturally flow from there. 
 
@@ -24,6 +24,8 @@ And we need some way to store data. The simplest thing would be to write to keep
 <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418">
 <img src="/static/img/teapot.png">
 </a>
+
+[Crash Course Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo) and [Harvard CS50](https://www.youtube.com/playlist?list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW) are excellent free introductions to computer science concepts.
 
 C is a good first language to learn as it teaches you about memory management and how computers work at a low level. 
 
