@@ -2,50 +2,27 @@
 tags: top
 ---
 
-Software should be easy to understand, easy to explain. 
-
-Like in the great Lynyrd Skynyrd song "Simple Man", something you love and understand. 
-
-It takes years to master a field yet we gotta start somewhere 
-
-We represent the real world by writing, and it's the same since people writing their crops and animals on clay tablets 
-
-We always need a way to keep track of things and computers are our latest tool. 
-We get a piece of information about the world and process it, we can derive new information from it or discover a new way of seeing it. 
-When we do the same with computers, we call it a "program". A program takes some information and operates on it. We call a piece of information "data" and organize data in "data structures" like lists, key-value pairs, stacks, queues, trees, .. 
-
-When you choose the right data structure for the problem, algorithms naturally flow from there. 
-
-[Grokking algorithms](http://93.174.95.29/main/9F2B390517083CF4485BA524B80815F5) is visual and fun algorithms book  
-
-And we need some way to store data. The simplest thing would be to write to keep it in memory. Since a program already works with the data in memory. And if the data is in the long-term like a disk, the program first need to move it from the disk to memory to work with it. However, when the program exits or gets killed or the computer crashes, and it means all prgrams are killed, then the data in program memory is lost. So we use disks to store the data. 
-
-
 <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418">
 <img src="/static/img/teapot.png">
 </a>
 
-[Crash Course Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo) and [Harvard CS50](https://www.youtube.com/playlist?list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW) are excellent free introductions to computer science concepts.
+[Crash Course Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo) and [Harvard CS50](https://www.youtube.com/playlist?list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW) are excellent introductions to the fundamental concepts. 
 
-C is a good first language to learn as it teaches you about memory management and how computers work at a low level. 
+C is a good first language to better understand these fundamental, as it's a relatively small and low-level language. After you understand the basics like variables, loops, conditionals, pointers, and functions, you can go explore any language. Python, JavaScript, Go, and C# are some good choices to get a feel for different approaches. 
 
-Python or Ruby are dynamic languages, readable and practical [codecademy python course](https://www.codecademy.com/learn/learn-python) 
-
-Go is a great intro to statically typed languages, its simplicity is a breath of fresh air after the complexity of Java and C++ 
+[Codecademy python course](https://www.codecademy.com/learn/learn-python) 
 
 [a tour of go](https://go.dev/tour/welcome/1) 
 
 [go by example](https://gobyexample.com/)
 
-JavaScript can also be fun and useful but may not be a good first language as it lacks structure and can encourage bad habits. 
+[Grokking algorithms](http://93.174.95.29/main/9F2B390517083CF4485BA524B80815F5) is visual and fun algorithms book  
 
 Using basic terminal commands is both useful and a lot of fun, like **ls** to list files and directories, **cd** to change directory, **mkdir** to make a new directory, **touch** to create an empty file, **rm** to remove files and directories, **cat** to output the contents of a file, **sort** to sort, **uniq** to filter unique lines, **grep** to search for patterns in text, .. 
 
 Version control with Git is important to track changes to code. Basic workflow involves git clone to download a repository, git add to stage files for commit, git commit to save changes locally with a message, git push to upload commits to a remote repository like hosted on github for example. 
 
-
-
-## Some links 
+## Misc. 
 
 * [Teach Yourself Computer Science](https://teachyourselfcs.com/)
 
