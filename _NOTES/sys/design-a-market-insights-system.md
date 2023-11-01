@@ -2,26 +2,48 @@
 tags: sys 
 ---
 
-## Goals 
+Follow prices of online products on multiple websites 
 
-1. Follow online products 
-2. Generate analytics and recommendations 
+```py 
 
-## Assumptions 
+class Website:
+    name: str  
+    url: str
+    html: str
 
-## Domain 
+class Currency(Enum):
+    ...
 
-We need a way to collect the products daily and store them somewhere 
+class Price: 
+    amount: Decimal 
+    currency: Currency 
 
-1. Get a URL as an input
-2. Follow the links and generate a document tree 
-3. Parse the HTMLs and generate products
-4. Process and store 
+class UID: 
+    def generate():
+        ... 
 
-Then other systems can consume them to generate analytics and recommendations
+class Photo(File): 
+    uid: UID  
 
-For example 
-1. Group products by IDs
-2. Join the remaining ones to existing groups by similarity of features like name, brand, price, photo, etc 
+class Company:
+    name: str 
 
+class Brand: 
+    name: str
+    company: Company 
 
+class Product:
+    uid: UID
+    name: str
+    brand: Brand 
+
+class ProductPrice: 
+    product_id: str
+    price_id: str 
+    timestamp: Timestamp 
+
+class ProductPhoto:
+    product_id: str
+    photo_id: str 
+    timestamp: Timestamp    
+```
