@@ -13,26 +13,21 @@ tags: sys
 
 ```py
 
-from dataclasses import dataclass
-from typing import List
-from enum import Enum
-
-
 class SourceTypes(Enum):
     DB = 1
     File = 2
 
-@dataclass
+
 class ConnectionInfo:
     ... 
 
-@dataclass
+
 class DataStore:
     source_type: SourceTypes
     connection_info: ConnectionInfo
 
 
-@dataclass
+
 class DBConnection(ConnectionInfo):
     host: str
     port: int
@@ -40,16 +35,16 @@ class DBConnection(ConnectionInfo):
     password: str
     db_name: str 
 
-@dataclass
+
 class FileConnection(ConnectionInfo):
     path: str
 
-@dataclass
+
 class DBStore(DataStore):
     source_type: SourceTypes.DB
     connection_info: DBConnection
 
-@dataclass
+
 class FileStore(DataStore):
     source_type: SourceTypes.File
     connection_info: FileConnection
@@ -61,19 +56,19 @@ class FlowStates(Enum):
     FAILED = 4
     COMPLETED = 5
 
-@dataclass
+
 class Progress:
     percent: int  
     started: datetime
     updated: datetime
 
-@dataclass
+
 class Flow:
-    sources: List[DataStore]
+    sources: list[DataStore]
     target: DataStore
     state: FlowStates
     progress: Progress
-    logs: List[str]
-    errors: List[str]
+    logs: list[str]
+    errors: list[str]
 ```
 

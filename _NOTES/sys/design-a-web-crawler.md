@@ -8,8 +8,8 @@ Follow prices of online products on multiple websites
 
 class Website:
     name: str  
-    url: str
-    html: str
+    url: URL
+    html: HTML
 
 class Currency(Enum):
     ...
@@ -18,12 +18,11 @@ class Price:
     amount: Decimal 
     currency: Currency 
 
-class UID: 
-    def generate():
-        ... 
+class UUID: 
+    ...
 
 class Photo(File): 
-    uid: UID  
+    uid: UUID  
 
 class Company:
     name: str 
@@ -33,10 +32,11 @@ class Brand:
     company: Company 
 
 class Product:
-    uid: UID
+    uid: UUID
     name: str
     brand: Brand 
-
+    description: str 
+    
 class ProductPrice: 
     product_id: str
     price_id: str 
