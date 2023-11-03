@@ -3,10 +3,9 @@ title: An interpreter in Python for a subset of PASCAL
 layout: code
 ---
 
-View step by step at <https://github.com/selimslab/mini/pascal>
+Inspired by Peter Norvig's [(How to Write a (Lisp) Interpreter (in Python))](http://norvig.com/lispy.html) and [Ruslan's great interpreter series](https://ruslanspivak.com/lsbasi-part1/)
 
-Also see Peter Norvig's [(How to Write a (Lisp) Interpreter (in Python))](http://norvig.com/lispy.html)
-
+View step by step at <https://github.com/selimslab/mini/tree/master/pascal>
 
 ```python
 """
