@@ -1,13 +1,12 @@
 ---
-title: Logos, a toy operating system kernel from scratch
+title: Logos, an operating system kernel from scratch
 ---
 
 <https://github.com/selimslab/logos>
 
-This is a project to understand and replicate the great [os-tutorial](https://github.com/cfenollosa/os-tutorial) 
+This is a project to understand and replicate [the great OS tutorial of Carlos Fenollosa](https://github.com/cfenollosa/os-tutorial) 
 
 Logos bootloads a kernel, connects to the keyboard and the screen, then starts a basic shell 
-
 
 ## Resources
 
