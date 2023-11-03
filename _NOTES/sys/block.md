@@ -1,5 +1,6 @@
 ---
-title: Tiny blockchain in 100 lines
+title: Design a blockchain 
+layout: code
 ---
 
 ```python

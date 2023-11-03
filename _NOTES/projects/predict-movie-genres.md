@@ -1,7 +1,6 @@
 ---
 title: Predict movie genres using ML classifiers 
-
-
+layout: code
 ---
 
 

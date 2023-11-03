@@ -1,23 +1,13 @@
 ---
 title: Logos, a toy operating system kernel from scratch
-
-
-
 ---
 
-Modern life runs on computers, and they run on operating systems 
-
-So how do they really work? What happens under the hood?
-
-Questions follow each other. 
-
----
+<https://github.com/selimslab/logos>
 
 This is a project to understand and replicate the great [os-tutorial](https://github.com/cfenollosa/os-tutorial) 
 
-Logos bootloads a kernel, connects to the keyboard and screen, and starts a basic shell 
+Logos bootloads a kernel, connects to the keyboard and the screen, then starts a basic shell 
 
-<https://github.com/selimslab/logos>
 
 ## Resources
 
