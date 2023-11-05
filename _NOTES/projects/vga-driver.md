@@ -3,7 +3,9 @@ title: VGA Driver
 layout: code
 ---
 
-Used this for a game similar to doodle jump on ARM Cortex A9 microcontroller
+It's for a game similar to Doodle Jump,
+ 
+Tried on ARM Cortex A9 microcontroller
 
 We will need some routines to draw boxes, display text etc. 
 

@@ -79,7 +79,6 @@ article.code{
 
 article.ideas{
   min-height:10rem;
-  width: 50%;
 }
 
 a{
@@ -168,17 +167,11 @@ a.site-name {
 }
 
 
-
-
-
 @media only screen and (max-width: 900px) {
   .img-full {
     max-width: 100%;
     display: block; 
     height: auto;
-  }
-  article.ideas{
-    width: 100%;
   }
 }
 
