@@ -21,15 +21,15 @@ bundle exec jekyll serve --trace
 `--profile` 
 
 ## Features 
-1. minimal
-2. no ads
-3. wikilinks 
-4. backlinks
+1. Minimal
+2. No ads
+3. Wiki links
+4. Backlinks
 5. Works offline
 6. Caching for static assets
 7. Dark mode
 8. Simple search
-9. Shuffle buttons to view a random page, artwork, or quote
+9. Random pages, artworks, and ideas
 10. Syntax highlighter
 11. 2D and 3D link graphs
 
