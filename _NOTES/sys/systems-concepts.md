@@ -1,4 +1,5 @@
 ---
+title: Ideas from systems engineering 
 ---
 
 Systems thinking 

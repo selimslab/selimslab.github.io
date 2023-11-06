@@ -1,5 +1,5 @@
 ---
-tags: sys 
+
 ---
 
 Trade financial instruments like stocks, bonds, and currencies on one or more exchanges, in real-time 

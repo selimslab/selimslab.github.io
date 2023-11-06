@@ -1,6 +1,6 @@
 ---
 title: SOLID
-
+tags: oop
 ---
 
 Single responsibility
