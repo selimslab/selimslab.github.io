@@ -1,4 +1,4 @@
-##  a personal wiki/digital garden
+##  Project Delta: a personal wiki/digital garden
 
 <https://selimslab.github.io>
 
