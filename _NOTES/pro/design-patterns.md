@@ -1,6 +1,6 @@
 ---
 title: Design Patterns
-
+tags: oop
 ---
 
 ## Creational
