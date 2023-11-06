@@ -1,6 +1,6 @@
 ---
 title: How Technology is Hijacking Your Mind
-tags: soc
+tags: soc 
 ---
 
 Inspired by <https://medium.com/thrive-global/how-technology-hijacks-peoples-minds-from-a-magician-and-google-s-design-ethicist-56d62ef5edf3>
@@ -36,4 +36,4 @@ Bottomless bowls
 
 Interruption is good for business
 
-Make it hard to cancel
+Easy to get in, hard to cancel
