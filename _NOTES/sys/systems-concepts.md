@@ -1,8 +1,6 @@
 ---
-title: Ideas from systems engineering 
+title: Systems thinking 
 ---
-
-Systems thinking 
  
 Feedback loops 
 
