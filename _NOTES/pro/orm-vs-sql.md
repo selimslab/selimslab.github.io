@@ -1,9 +1,8 @@
 ---
 title: What ORMs have taught me, just learn SQL
-tags: sys  
 ---
 
-From Steve Wozniak's blog post <https://web.archive.org/web/20190920210113/https://wozniak.ca/blog/2014/08/03/What-ORMs-have-taught-me-just-learn-SQL/>
+From Geoff Wozniak's blog post <https://web.archive.org/web/20190920210113/https://wozniak.ca/blog/2014/08/03/What-ORMs-have-taught-me-just-learn-SQL/>
 
 
 I’ve come to the conclusion that, for me, ORMs are more detriment than benefit. In short, they can be used to nicely augment working with SQL in a program, but they should not replace it.
