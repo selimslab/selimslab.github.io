@@ -9,16 +9,19 @@ title: OSI Model
 
 * Session 
 
+---
 
 * Transport 
 
 * Network 
 
+---
 
-* Data link
+* Data link 
 
-* Physical
+* Physical 
 
+---
 
 eg.
 

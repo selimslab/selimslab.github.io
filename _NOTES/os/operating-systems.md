@@ -1,5 +1,3 @@
 ---
-tags: 
-    - os
-    - swe
+tags: os swe
 --- 

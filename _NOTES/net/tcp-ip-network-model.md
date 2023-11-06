@@ -2,23 +2,15 @@
 title: TCP/IP Model
 ---
 
-* Application 
+* Application eg. HTTP
 
-* Network 
+* Network eg. TCP 
 
-* Transport
+* Transport eg. IP 
 
-* Link 
+* Link, eg. Ethernet
 
 
-eg. 
-
-HTTP 
-
-TCP 
-
-IP 
-
-Ethernet 
+ 
 
 
