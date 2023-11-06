@@ -4,6 +4,8 @@
 
 After a certain size, it's hard to keep it easy to use but this system evolves quite elegantly, see [How it works?](https://selimslab.github.io/project-delta)
 
+One key idea is to treat everything as a file, like in UNIX, and to organize them as a graph 
+
 [![Deploy Jekyll site to Pages](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml/badge.svg)](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml)
 
 ## setup
