@@ -1,6 +1,5 @@
 ---
 title: The fine line between easy and very hard  
-
 ---
 
 

@@ -1,5 +1,4 @@
 ---
-tags: tech 
 ---
 
 The web has born open and free

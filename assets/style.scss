@@ -79,7 +79,7 @@ article.code{
 
 article.ideas{
   min-height:10rem;
-  width: 50%;
+  width: 42ch;
 }
 
 a{
@@ -174,9 +174,6 @@ a.site-name {
     display: block; 
     height: auto;
   }
-}
-
-@media only screen and (min-width: 900px) {
   article.ideas{
     width: 100%;
   }

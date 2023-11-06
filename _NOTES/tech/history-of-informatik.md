@@ -1,4 +1,5 @@
 ---
+tags: essais swe
 ---
 
 Technology should be easy to understand, easy to explain because it's human-made and made from scratch. It should be something you love and understand, as in the great Lynyrd Skynyrd song "Simple Man" 

@@ -1,8 +1,8 @@
 ---
-title: Natural technology 
+title: Natural UX 
 ---
 
-Tech blends into the reality as it matures 
+Tech blends into reality as it matures 
 
 We evolved to use our hands and eyes, 
 
