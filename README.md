@@ -1,6 +1,8 @@
-##  a lovely personal wiki 
+##  a personal wiki/digital garden
 
 <https://selimslab.github.io>
+
+After a certain size, it's hard to keep it easy to use but this system evolves quite elegantly, see [How it works?](https://selimslab.github.io/project-delta)
 
 [![Deploy Jekyll site to Pages](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml/badge.svg)](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml)
 
@@ -33,5 +35,3 @@ bundle exec jekyll serve --trace
 10. Syntax highlighter
 11. 2D and 3D link graphs
 
-
-[Development](/organization-of-this-site)

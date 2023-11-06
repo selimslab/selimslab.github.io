@@ -5,5 +5,5 @@ Physical world is messy but we have more control over computers so we can make t
 
 [[zen-of-python]]
 
-[[organization-of-this-site]]
+[[project-delta]]
 
