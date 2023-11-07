@@ -1,4 +1,4 @@
 ---
-title: Object-Oriented Programming 
+title: Object-Oriented Design Examples 
 tags: sys pro
 ---
