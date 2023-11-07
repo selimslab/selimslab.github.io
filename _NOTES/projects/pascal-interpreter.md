@@ -30,9 +30,13 @@ Lexer creates tokens [2, *, 7, +, 3]
 
 Parser takes the tokens and produces and intermediate representation or IR
 
-abstract syntax tree (AST) is a very simple IR, 
+abstract syntax tree (AST) is an IR only values and operators, no metadata 
 
-there are only values and operators, no metadata 
+When we put operators between the literals like 1+2 it's infix notation 
+
+To create the graph, parser turns infix to prefix notation 
+
+So 2 * 7 + 3 becomes + 3 * 7 2 
 
 here is the AST for 2 * 7 + 3
 
@@ -44,9 +48,10 @@ here is the AST for 2 * 7 + 3
 
 3. Interpreter evaluates the AST 
 
-one way to implement an interpreter is visitor pattern and it makes it easy to add new operations later 
+one way to implement an interpreter is visitor pattern 
+and it makes it easy to add new operations later 
 
-just visit the nodes and execute the operations
+Visit the nodes and execute operations
 
 """
 
@@ -67,12 +72,10 @@ class TokenType(Enum):
     RPAREN = ")"
 
 
-
+@dataclass 
 class Token:
-    def __init__(self, type: TokenType, value):
-        self.type = type
-        self.value = value
-
+    type: TokenType
+    value: str
 
 class LexerError(Exception):
     pass
@@ -80,10 +83,8 @@ class LexerError(Exception):
 
 class Lexer:
     """
-    The process is called lexical analysis and the part of the interpreter
-    that does it is called a lexical analyzer, lexer, scanner, or tokenizer. 
-    
-    Here is our own lexer from the ground up without using regular expressions or any other tools like Lex.
+    Tokenizer
+    it is also called a lexical analyzer or scanner
     """
     def __init__(self, text):
         self.text = text
@@ -132,13 +133,9 @@ class Lexer:
         return Token(TokenType.EOF, None)
 
 
-
-
 # AST 
-
 class ASTNode:
     pass
-
 
 class BinaryOperator(ASTNode):
     def __init__(self, left, op, right):
@@ -163,11 +160,6 @@ class ParserError(Exception):
 
 class Parser:
     """
-    How to recognize a phrase in the stream of tokens ? 
-
-    Finding structure in the stream of tokens is called parsing or syntax analysis. 
-
-    Here is the parser or syntax analyzer.
     """
     def __init__(self, tokenizer):
         self.tokenizer = tokenizer
@@ -291,7 +283,6 @@ def eval_program(program:str):
     return result
 
 
-# REPL 
 def repl():
     while True:
         program = input('repl> ')
