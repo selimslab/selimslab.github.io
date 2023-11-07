@@ -56,13 +56,11 @@ class TokenType(Enum):
     ELSE = "ELSE"
     RETURN = "RETURN"
 
-# Token data class with type hints
 @dataclass
 class Token:
     Type: TokenType
     Literal: str
 
-# Dictionary to store keywords
 keywords = {
     "fn": TokenType.FUNCTION,
     "let": TokenType.LET,
@@ -91,16 +89,7 @@ single_char_tokens = {
     ')': TokenType.RPAREN,
 }
 
-# Function to lookup identifier and return appropriate TokenType
 def lookup_ident(ident: str) -> TokenType:
-    """Looks up the identifier in the keywords dictionary and returns the corresponding TokenType.
-    
-    Args:
-        ident (str): Identifier to be looked up.
-        
-    Returns:
-        TokenType: TokenType corresponding to the identifier, or IDENT if not a keyword.
-    """
     return keywords.get(ident, TokenType.IDENT)
 
 ```
