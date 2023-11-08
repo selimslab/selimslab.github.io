@@ -40,7 +40,7 @@ Now we have something more abstract. We don't need to think about the switches a
 
 There are many ways to represent the same information, like the same thing having different names in different languages. Or representing the same number in different number bases than the common base 10, We use base 10 since most people have 10 fingers on both hands. 
 
-The most simple representation could be the difference between something existing or not. People are counting things since the first people and later came up with the number 0 to represent something not existing. 
+The most simple representation could be the difference between something existing or not. People have been counting things since the first people and later came up with the number 0 to represent something not existing. 
 
 And since we are building our machine with electricity, we can represent if electricity is flowing or not with 0 and 1. And we call this one bit of information. 
 
