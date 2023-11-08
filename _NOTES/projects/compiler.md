@@ -2,6 +2,16 @@
 title: Let's write a compiler
 ---
 
+Both an interpreter and a compiler translate one language to another, normally a higher-level one to a lower-level one. 
+
+In the end, every program must be compiled down to the assembly, CPU instructions, and finally electric pulses on transistors of logic gates
+
+In the [[pascal-interpreter]] post, we built a mini interpreter, visiting the nodes and executing them, the flow looked like 
+
+Source Code -> **TOKENIZER** -> tokens 
+-> **PARSER** -> Abstract Syntax Tree -> **EVALUATOR** -> Executes in another language like C -> **COMPILER** -> machine code 
+
+For a compiler, it would look like 
 
 Source Code -> **TOKENIZER** -> tokens 
 -> **PARSER** -> Abstract Syntax Tree 
