@@ -45,3 +45,9 @@ The most simple representation could be the difference between something existin
 And since we are building our machine with electricity, we can represent if electricity is flowing or not with 0 and 1. And we call this one bit of information. 
 
 If we had a way to store these, we could do useful things with that. And we can design a little circuit using the logic gate to stay electrified if we send it some current, and stay empty of we don't send anything. This is a memory bit and the building block of the memory. By connecting 8 of them together we can store 8 bits or 1 byte of data like 00010001, here we just send current to the 4th and 8th memory bits and they will stay 1 as long as the circuit is powered. When you power off the computer, the memory will also reset since it needs constant flow to keep the value. 
+
+
+...
+
+Computers execute the instructions we provide. An instruction is a simple operation like "read from this address and copy to that address"
+A program is a list of instructions. A process isolates and keeps track of many pieces of information during the lifetime of a program, like the memory regions storing instructions and data, the registers and counters, ..
