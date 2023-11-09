@@ -2,15 +2,137 @@
 tags: essais swe tech
 ---
 
-Technology should be easy to understand, easy to explain because it's human-made and made from scratch. It should be something you love and understand, as in the great Lynyrd Skynyrd song "Simple Man" 
 
-> In the beginning there was darkness, and God said, Let there be light: and there was light.
+Technology should be easy to understand and easy to explain because it's made from scratch by people like you and me. 
+
+speaking 
+
+numbers 
+
+0 come later, 
+
+writing 
+
+on clay, sand, paper 
+
+Pen and paper were enough until 100 years ago 
+
+People knew magnets for a long time but they were of little use, later they discovered how turning a metal between magnets creates an effect, which we call electricity today. Today mostly some flowing water turns a metal between magnets and electricity flows through cables to our homes 
+
+
+They were also using pen and paper to keep track of numbers and there can be a lot of them. So they designed machines to add numbers. These mechanical calculators can do a few calculations every second. This is better than doing them by pen and paper but still a bit slow for things like calculating artillery trajectory 
+
+So people come up with a way to use electric 
+
+mechanical switch 
+
+Vacuum tube 
+
+transistor 
+
+logic gates 
+
+memory circuit
+
+assign numbers to each cell 
+
+design a circuit to control memory, read this address and write to that address 
+
+this is what we call CPU today 
+
+represent numbers in base 2
+
+assign numbers to the letters 
+
+assign numbers to file types 
+
+then print to paper 
+
+get the input, calculate, print back, punch cards 
+
+instructions 
+
+machine code 
+
+if with jump
+
+for with if and jump 
+
+read/write/jump is enough to be Turing-complete 
+
+assembly 
+
+a programming language 
+
+keyboard 
+
+represent pictures with numbers too 
+
+tv screen, pixels, screen 
+
+mouse to point things on the screen 
+
+represent data, data structures 
+
+sort, search, find path, algorithms 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+Senses send some raw information about the environment and the brain uses it to create some meaning 
+
+Telling stories is a deep human desire.  
+
+
+people were living simpler lives 
+
+
+Even when people were living in caves, they were painting the walls with stories of their lives 
+
+
+
+---
+
+
+
+When back in the cave painting the walls, and making different sounds to explain themselves. 
+
+
+---
+Our tools and toys are changing but our needs are the same.  
+
+It should be something you love and understand, as in the great Lynyrd Skynyrd song "Simple Man" 
+
 
 If there is only darkness, there is nothing to distinguish between, there is no uncertainty, no information since information is the difference, between something and nothing, light and darkness, sound and silence, .. 
 
-Senses turn the differences in air vibrations or light density to nerve signals, brain interprets the signals, and we get the feeling that we understand something. All of this is pure magic and we know very little about its why or how. 
+Senses turn the differences in air vibrations or light density to nerve signals, brain interprets the signals, and we get the feeling that we understand something. All of this is almost pure magic and we know very little about its why or how. 
 
-So senses and brains are nature's way to process information and the brain is still the best computer. 
+So senses and brains are nature's way of processing information and the brain is still the best computer. 
 
 Even the first people needed to keep track of a few things other and matched their fingers to objects, leading to numbers and counting. When they start growing plants and raising animals, there become many more things and people to keep track of and this led to saving numbers with knots or symbols on clay tablets. leading to letters and writing. 
 
