@@ -39,9 +39,8 @@ class SiteGenerator < Jekyll::Generator
       site.documents.each do |doc|
         # incoming links
         src = doc.id.sub(/^\//, '')
-        src_link = "[" + src + "]"
         linking_to_doc = site.documents.filter do |e|
-          e.content.include?(src_link) || e.content.include?("/#{src}")
+          e.content.include?(src) 
         end        # append linked docs to backlinks
         linking_to_doc.each do |linking_doc|
           doc.data['backlinks'] << linking_doc
@@ -113,8 +112,6 @@ class SiteGenerator < Jekyll::Generator
           end
         end
     
-        # Print directories at the current level
-        # puts "Level #{queue.size}: #{level_directories.join(', ')}" unless level_directories.empty?
       end
     end
 
@@ -137,45 +134,5 @@ class SiteGenerator < Jekyll::Generator
         end
       end
     end
-
-
-
-    def bfs_directory_traversal(root_dir, site)
-      queue = [root_dir] # Initialize the queue with the root directory
-      
-      while !queue.empty?
-        current_dir = queue.shift # Dequeue the next directory
-        next if current_dir == '.' || current_dir == '..' || current_dir == '.obsidian'
-
-        puts "Visiting: #{current_dir}"
-    
-        # List all files and directories in the current directory
-        entries = Dir.entries(current_dir).reject { |e| e == "." || e == ".." }
-    
-        entries.each do |entry|
-
-
-          if File.directory?(entry_path)
-            queue << entry_path # Enqueue subdirectories
-          end
-        end
-      end
-    end
-
-
-    def walk(dir, site)
-      Dir.foreach(dir) do |entry|
-        next if entry == '.' || entry == '..' || entry == '.obsidian'
-        path = File.join(dir, entry)
-  
-        if File.directory?(path)
-          walk(path, site)
-        else
-
-        end
-      end
-
-    end 
-
 
   end

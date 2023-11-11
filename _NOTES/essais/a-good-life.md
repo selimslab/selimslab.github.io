@@ -8,7 +8,7 @@ tags: phil skills top
 
 ## Here and Now  
 
-Learn from the past and move on. Don't regret your mistakes. Good judgment comes from making a lot of mistakes. Be kind to yourself, if you won't, who will?[[no-regrets-no-worries]]
+Learn from the past and move on. Don't regret your mistakes. Good judgment comes from making a lot of mistakes. Be kind to yourself, if you won't, who will? [[no-regrets-no-worries]]
 
 Prepare for the future. Consider beginnings. Solve problems while they are still small. Anything that can go wrong will go wrong. And prevention is the best cure. [[do-without-doing]]
 
