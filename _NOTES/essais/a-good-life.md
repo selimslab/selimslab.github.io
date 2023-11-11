@@ -24,7 +24,7 @@ Nothing in excess. [[moderation]]
 
 Neither chase pleasure nor avoid necessary pain
 
-[[less]] is more 
+Less is more [[lesser-the-better]] 
 
 Nature does not hurry yet everything is accomplished. 
 

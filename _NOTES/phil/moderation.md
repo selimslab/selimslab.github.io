@@ -2,7 +2,7 @@
  
 ---
 
-[[less]]
+[[lesser-the-better]]
 
 "Its braver to overcome desire than to conquer enemy, for the hardest victory is over self" Aristotle 
 
