@@ -9,7 +9,7 @@ We are all human and driven by emotion. We know almost nothing yet we think we k
 
 ---
 
-We think we are better than we are because mistakes of others are easier to notice than our own
+We think we are better than we are because the mistakes of others are easier to notice than our own
 
 We make ourselves unhappy by comparison and negativity
 
@@ -25,7 +25,7 @@ We can't read minds or predict other people yet we like to pretend so
 
 People like you more than you know but they don't think much about you.
 
-Availability increase liking, we make friends with whoever is close by
+Availability increases liking, and we make friends with whoever is close by
 
 We regret and worry, both are useless most of the time
 
@@ -33,7 +33,7 @@ People believe what they want yet we still try to prove something or to change p
 
 We love stories, a good story can easily win over the facts
 
-We like to cry over spilt milk, it's just sunk cost and it's better to move on
+We like to cry over spilled milk, it's just sunk cost and it's better to move on
 
 We think our luck will turn after many losses, like a gambler, but every turn is different and no one is keeping the score
 
@@ -45,7 +45,7 @@ People want to associate with winners and avoid losers.
 
 We think success is earned and failure is deserved but most things are so random. 
 
-People feel envy but they wouldn't want to completely swap ourselves with another person
+People feel envy but they wouldn't want to completely swap themselves with another person
 
 People generally like to be consistent, to keep commitments
 

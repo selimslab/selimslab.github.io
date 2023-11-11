@@ -1,5 +1,8 @@
 ---
-tags: essais swe tech
+tags:
+  - essais
+  - swe
+  - tech
 ---
 
 

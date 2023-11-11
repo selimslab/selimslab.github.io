@@ -53,12 +53,16 @@ having new people are great in the long term but won't help with releasing earli
 
 he already knew this but such feedback from the team helped to clarify expectations 
 
+## dif: yachtworld 
+
+
+
 
 # COLLABORATION 
 
 ## guided an unhappy teammate in a chaotic period 
 
-provided direction with suggestions for things we can improve, pair programming, and discussing both tech and team culture 
+provided direction with suggestions for things we can improve, pair programming
 
 he turned out to be one of the most effective people in the team 
 
@@ -73,6 +77,13 @@ pair programming
 ## no data engs 
 
 cover but advocate 
+
+## doodle jump 
+
+overcomplicated trajectory 
+
+process the main character image 
+
 
 
 
@@ -151,4 +162,14 @@ No data engineers -> cover and advocate
 ---
 
 Chaotic onboarding -> write, enrich 
+
+
+
+## 
+
+stories are about people 
+
+so if I think of people I worked with, I can come up with some interesting cases, and the stories don't have to be extraordinary 
+
+
 
