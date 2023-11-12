@@ -41,17 +41,19 @@ Emotions make decisions. Reason comes later and justifies.
 
 We fear and respect what we don’t know.
 
-People want to associate with winners and avoid losers.
+We want to associate with winners and avoid losers.
 
 We think success is earned and failure is deserved but most things are so random. 
 
-People feel envy but they wouldn't want to completely swap themselves with another person
+We feel envy but wouldn't want to completely swap ourselves with another person
 
-People generally like to be consistent, to keep commitments
+We generally like to be consistent, to keep commitments
 
-People like to fill in the blanks 
+We like to fill in the blanks 
 
 We tend to do something even when doing nothing is better
+
+We don't know where to stop
 
 ---
 
