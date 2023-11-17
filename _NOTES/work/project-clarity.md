@@ -136,14 +136,15 @@ then tried to create a generic system for all this, but it's harder than it soun
 
 ## DP 
 
-- minio overeng
+
 
 ### problems 
+- minio overeng story 
 - redis debug story 
-- a custom system, hard for data engs  
-- slow builds, rewrite dockerfile, remove deps, parallelize tests and CI steps 
 - reinventing dbt  
 - duct tape 
+- a custom system, hard for data engs  
+- slow builds, rewrite dockerfile, remove deps, parallelize tests and CI steps 
 
 - reverse engineered and diagrammed 
 - driven the discussion and planning, even discussed with the director and the CTO 
