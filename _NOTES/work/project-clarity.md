@@ -2,7 +2,7 @@
 ---
 # QA 
 
-1. Past, present, future 
+1. Past, present, future for the company, team,  person, and lifecycle   
 	- historical context 
 	- Present challenges and opportunities
 	- Future vision and direction 
@@ -13,50 +13,22 @@
 	- deployments, 
 	- monitoring, 
 	- on-calls 
-3. team dynamics 
+	what could be better about the life-cycle? 
+	what do you like about it? 
+	
+ 3. team dynamics 
 	- which teams are there 
 	- how do they collaborate  
 	- who is on this team and for how long 
-4. Good bad ugly 
+2. Good bad ugly 
 	- things to improve 
 	- things they like 
 	- churn/burn out/hardest parts 
-5. Growth 
+3. Growth 
 	- what have they been learning 
 	- how the work improved their skills (look if they just focus on tech)
----
 
-## OLD DAYS
-
-- learning to swim 
-- kurek 
-- buik pixar, member of the month
-
-- zeybek night
-- sau
-- kemer dalis 
-- dogu karadeniz
-- kas 1 
-- germany
-
-- aladaglar 
-- athletics field day 
-- olimpos 
-- kas 2 
-
-- balkans 
-- guneydogu 
-
-- koy kampi
-- ege 
-
-- latin night 
-
-- flight pamukkale  
-- sailing fenerbahce  
-
-
----
+## courses 
 
 - sociology class 
 - humanities 

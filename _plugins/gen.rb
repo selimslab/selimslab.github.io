@@ -40,8 +40,10 @@ class SiteGenerator < Jekyll::Generator
         # incoming links
         src = doc.id.sub(/^\//, '')
         linking_to_doc = site.documents.filter do |e|
-          e.content.include?(src) 
-        end        # append linked docs to backlinks
+          # select which includes [src] or /src 
+          e.content.include?("[[#{src}]]") || e.content.include?("(/#{src})") 
+        end        
+        # append linked docs to backlinks
         linking_to_doc.each do |linking_doc|
           doc.data['backlinks'] << linking_doc
         end
