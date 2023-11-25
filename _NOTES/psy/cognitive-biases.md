@@ -5,41 +5,58 @@ tags: soc top
 
 ## TLDR
 
-We are all human and driven by emotion. We know almost nothing yet we think we know the best. We make decisions for the stupidest of reasons and pretend otherwise.
+We know almost nothing yet think we know the best, we often follow the easy path, we make decisions for trivial reasons and pretend otherwise, we often have double standards. We follow stories, winners, bandwagons, .. We do almost everything to feel a bit better.
 
----
+## Pride and Prejudice 
 
 We think we are better than we are because the mistakes of others are easier to notice than our own
 
-We make ourselves unhappy by comparison and negativity
+Brains evolved to save energy so we jump to conclusions, oversimplify, overgeneralize, exaggerate, and stereotype. We do what is quick, easy, and comfortable over what is important.
 
-Brains love saving energy so we jump to conclusions, oversimplify, overgeneralize, exaggerate, and stereotype. 
+We deal out judgment to others and seek understanding for ourselves
 
-Environment shapes us more than we think.
+---
 
-We like to do what is quick, easy, and comfortable over what is important.
+An action has a motive, often the motive is to feel a bit better, or feeling more free, more secure, more powerful, more liked, feared, or respected. People chase such emotions, money and status are just a proxy 
 
-We love bandwagons, all these people can't be wrong?
+Even a seemingly selfless act makes us feel better about ourselves, though it doesn't make the act less valuable 
 
-We can't read minds or predict other people yet we like to pretend so
+---
 
-People like you more than you know but they don't think much about you.
-
-Availability increases liking, and we make friends with whoever is close by
-
-We regret and worry, both are useless most of the time
+We love stories, a good story can easily win over the facts. Emotions make decisions. Reason comes later and justifies.
 
 People believe what they want yet we still try to prove something or to change people. 
 
-We love stories, a good story can easily win over the facts
+We can't read minds or predict other people yet we like to pretend so, as I am doing here  
 
-We like to cry over spilled milk, it's just sunk cost and it's better to move on
+---
 
-We think our luck will turn after many losses, like a gambler, but every turn is different and no one is keeping the score
 
-Emotions make decisions. Reason comes later and justifies.
+We make ourselves unhappy by comparison, negativity, regret, and worry
+
+We like to cry over spilled milk
+
+Like a gambler, we think our luck will turn after a streak of losses, but every turn is different and no one is keeping the score 
+
+---
+
+Environment shapes us more than we think.
+
+We often make friends with whoever is close by
+
+We love bandwagons, all these people can't be wrong?
+
+People like you more than you know but they seldom think about you 
+
+---
+
+We generally like to be consistent, to keep commitments
 
 We fear and respect what we don’t know.
+
+We like to fill in the blanks 
+
+---
 
 We want to associate with winners and avoid losers.
 
@@ -47,13 +64,11 @@ We think success is earned and failure is deserved but most things are so random
 
 We feel envy but wouldn't want to completely swap ourselves with another person
 
-We generally like to be consistent, to keep commitments
-
-We like to fill in the blanks 
+---
 
 We tend to do something even when doing nothing is better
 
-We don't know where to stop
+We often don't know where to stop
 
 ---
 
