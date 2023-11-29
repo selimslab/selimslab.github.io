@@ -3,9 +3,9 @@ title: The Art of War
 ---
 
 
-[[the-point-is-winning-without-fighting]]
+The point is winning without fighting
 
-Know yourself and know the enemy 
+Know yourself, know the enemy, win with ease
 
 ---
 

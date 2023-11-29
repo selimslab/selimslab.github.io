@@ -10,7 +10,7 @@ tags: essais skills bus
 6. Delegate
 7. Get feedback early and often
 8. Set up small checkpoints
-9. Know your brains rhythm, if it peaks in [[the-morning]], then spare the most important work for then
+9. Know your brains rhythm, if it peaks in [[the-morning]], then spare the most important work for the morning
 10. Start the day by working on your top goals
 11. If less than 2 mins, do it right away
 12. Draw a deadline
@@ -19,7 +19,7 @@ tags: essais skills bus
 15. [[flow]] happens when the task slightly exceeds your skill level
 16. [[take-a-walk]]
 17. Prepared, focused, short meetings
-18. [[decision-making]]
+18. [[on-decision-making]]
 19. Rely on [[habits]] and [[systems]]
 20. [[do-one-thing-at-a-time-and-do-it-well]]
 21. Ignore sunk costs

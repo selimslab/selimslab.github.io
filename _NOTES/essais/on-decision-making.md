@@ -1,5 +1,5 @@
 ---
-tags: skills
+tags: skills top
 ---
 
 We often make even major decisions carelessly but a little forethought can prevent a lot of pain. 
@@ -12,15 +12,15 @@ Follow your gut for reversible decisions, follow due diligence for the important
 
 Do nothing against your will, nor against community, nor without due examination, nor with reluctancy 
 
-Go with all your heart. Do or do not. There is no try. 
-
-Neither chase pleasure nor avoid necessary pain. Do what feels right over what is easy. 
-
-Do what you feel to be right in your heart of hearts. As with all matters of the heart, you'll know it when you find it.
-
-When in doubt, the answer is no. 
-
 Think twice before you speak and be careful with promises. 
+
+Do or do not. There is no try. 
+
+Neither chase pleasure nor avoid necessary pain. Do what feels right in your heart of hearts, over what is easy. 
+
+Go with all your heart. When in doubt, the answer is no. 
+
+As with all matters of the heart, you'll know it when you find it.
 
 Don't get stuck, good enough is good.
 

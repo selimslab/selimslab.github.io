@@ -3,7 +3,7 @@ tags: soc skills essais
 ---
 
 1. No prep, no win
-2. Approach it as a discovery, not battle, [[the-point-is-winning-without-fighting]]
+2. Approach it as a discovery, not battle, the point is winning without fighting
 3. Define your goals and limits
 4. The listener is in charge
 5. Empathy

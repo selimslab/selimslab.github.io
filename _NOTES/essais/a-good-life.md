@@ -11,7 +11,7 @@ Consider beginnings. Solve problems while they are still small. [[do-without-doi
 
 You become what you do. Garbage in, garbage out. Do your best, here and now. [[one-bit-better]]
 
-[[decision-making]]
+[[on-decision-making]]
 
 Enjoy yourself, it's later than you think. Simple things are the best. [[take-a-walk]]
 

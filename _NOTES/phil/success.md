@@ -1,7 +1,7 @@
 ---
 ---
 
-[[freedom]]
+[[freedom]] 
 
 "To leave the world a bit better  
 
