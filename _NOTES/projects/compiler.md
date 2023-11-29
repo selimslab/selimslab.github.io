@@ -15,7 +15,7 @@ For a compiler, it would look like
 
 Source Code -> **TOKENIZER** -> tokens 
 -> **PARSER** -> Abstract Syntax Tree 
--> **COMPILER** -> byte code -> **VM** -> **Assembler** -> machine code 
+-> **COMPILER** -> byte code -> **VM** -> **COMPILER for the VM language** -> **Assembler** -> machine code 
 
 ```py
 from enum import Enum, auto

@@ -3,24 +3,18 @@ title: An interpreter in Python for a subset of PASCAL
 layout: code
 ---
 
-Inspired by Peter Norvig's [(How to Write a (Lisp) Interpreter (in Python))](http://norvig.com/lispy.html) and [Ruslan's great interpreter series](https://ruslanspivak.com/lsbasi-part1/)
+Inspired by Peter Norvig's [(How to Write a (Lisp) Interpreter (in Python))](http://norvig.com/lispy.html) and [Ruslan's interpreter series](https://ruslanspivak.com/lsbasi-part1/)
 
 View step by step at <https://github.com/selimslab/mini/tree/master/pascal>
 
 ```python
 """
-Here be dragons
+A program is just some text. 
+An interpreter translates it into something that can be evaluated
 
-This is a basic interpreter 
-
-a computer program is just text. 
-
-Compilers and interpreters translate this text for the machine 
+program text -> Tokenizer -> tokens -> Parser -> abstract syntax tree -> Evaluator -> result 
 
 let's say our program is 2 * 7 + 3
-
-program text -> Tokenizer -> tokens -> Parser -> abstract syntax tree -> Interpreter -> result 
-
 
 1. First step is lexical analysis, a fancy term for tokenizing 
 
@@ -49,7 +43,7 @@ here is the AST for 2 * 7 + 3
 3. Interpreter evaluates the AST 
 
 one way to implement an interpreter is visitor pattern 
-and it makes it easy to add new operations later 
+since it makes it easy to add new operations later 
 
 Visit the nodes and execute operations
 
