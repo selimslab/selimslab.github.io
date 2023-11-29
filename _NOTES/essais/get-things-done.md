@@ -19,7 +19,7 @@ tags: essais skills bus
 15. [[flow]] happens when the task slightly exceeds your skill level
 16. [[take-a-walk]]
 17. Prepared, focused, short meetings
-18. [[go-with-all-your-heart]]
+18. [[decision-making]]
 19. Rely on [[habits]] and [[systems]]
 20. [[do-one-thing-at-a-time-and-do-it-well]]
 21. Ignore sunk costs
