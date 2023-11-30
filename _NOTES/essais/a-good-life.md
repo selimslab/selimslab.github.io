@@ -17,9 +17,15 @@ Consider beginnings. Solve problems while they are still small. [[do-without-doi
 
 Nature does not hurry yet everything is accomplished. 
 
+![](/static/img/boy-and-cat.jpeg)
+
 "Well being is attained little by little, and nevertheless is no little thing itself" [[one-bit-better]]  
 
 Enjoy yourself, it's later than you think. 
+
+[[life-is-not-short]] 
+
+[[death]]
 
 Simple things are the best. [[take-a-walk]]
 
@@ -41,9 +47,9 @@ The world is full of nonsense. It’s not personal. It doesn’t matter. Don't l
 
 What is the use of negativity? Complain less, appreciate more. 
 
-Do nothing in anger. Do you have to prove anything?
+![](/static/img/notice-when-you-are-happy.png)
 
-![](/static/img/boy-and-cat.jpeg)
+Do nothing in anger. Do you have to prove anything?
 
 It's possible to channel pain to build [[character]] and strength. This too shall pass. 
 
@@ -54,8 +60,6 @@ It's possible to channel pain to build [[character]] and strength. This too shal
 Fear leads to anger, anger leads to hate. 
 
 Cruelty springs from weakness. [[who-goes-nazi]]
-
-![](/static/img/notice-when-you-are-happy.png)
 
 [[happiness]]
 
@@ -72,7 +76,3 @@ Listen more than you speak.
 [[know-where-to-stop]]
 
 Never miss a good chance to shut up.
-
-[[life-is-not-short]] 
-
-[[death]]
