@@ -7,17 +7,23 @@ tags: phil skills top
 
 [Learn and move on](/the-past)
 
-Consider beginnings. Solve problems while they are still small. [[do-without-doing]]
+You become what you do. Garbage in, garbage out. 
 
-You become what you do. Garbage in, garbage out. Do your best, here and now. [[one-bit-better]]
+Do your best, here and now. 
 
 [[on-decision-making]]
 
-Enjoy yourself, it's later than you think. Simple things are the best. [[take-a-walk]]
-
-Nothing in excess. [[moderation]]
+Consider beginnings. Solve problems while they are still small. [[do-without-doing]]
 
 Nature does not hurry yet everything is accomplished. 
+
+"Well being is attained little by little, and nevertheless is no little thing itself" [[one-bit-better]]  
+
+Enjoy yourself, it's later than you think. 
+
+Simple things are the best. [[take-a-walk]]
+
+Nothing in excess. [[moderation]]
 
 > O snail
 >
@@ -29,9 +35,11 @@ Nature does not hurry yet everything is accomplished.
 
 Neither chase pleasure nor avoid necessary pain. Do what feels right over what is easy. 
 
-Do not chase or avoid emotions, feel and let go. The world is full of nonsense. It’s not personal. It doesn’t matter. Don't let it get you down. 
+Do not chase or avoid emotions, feel and let go. 
 
-What is the use of negativity? Don't make yourself miserable. Complain less, appreciate more. 
+The world is full of nonsense. It’s not personal. It doesn’t matter. Don't let it get you down. 
+
+What is the use of negativity? Complain less, appreciate more. 
 
 Do nothing in anger. Do you have to prove anything?
 
@@ -43,7 +51,9 @@ It's possible to channel pain to build [[character]] and strength. This too shal
 >
 > Than never to have loved at all.
 
-Fear leads to anger, anger leads to hate. Cruelty springs from weakness. [[who-goes-nazi]]
+Fear leads to anger, anger leads to hate. 
+
+Cruelty springs from weakness. [[who-goes-nazi]]
 
 ![](/static/img/notice-when-you-are-happy.png)
 
@@ -51,7 +61,9 @@ Fear leads to anger, anger leads to hate. Cruelty springs from weakness. [[who-g
 
 Know your limits. Don’t take yourself too seriously. 
 
-[[truth]] has many faces and even all knowledge of humanity is next to nothing. Judge less, accept more. [[cognitive-biases]]
+[[truth]] has many faces and even all the knowledge of humanity is next to nothing. 
+
+Judge less, accept more. [[cognitive-biases]]
 
 [[work]]
 
