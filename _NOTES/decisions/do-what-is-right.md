@@ -15,10 +15,6 @@ but he must take it because conscience tells him it is right.
 ― Martin Luther King Jr.
 
 
-
-Hard work passes but 
-
-
 "If you accomplish something good with hard work, the labor passes but the good endures, 
 if you do something shameful, the pleasure passes but the shame endures" Rufus 
 

@@ -1,5 +1,5 @@
 ---
-tags: skills top
+tags: skills essais top
 ---
 
 We often make even major decisions carelessly but a little forethought can prevent a lot of pain. 
@@ -16,7 +16,7 @@ Think twice before you speak and be careful with promises.
 
 Do or do not. There is no try. 
 
-Neither chase pleasure nor avoid necessary pain. Do what feels right in your heart of hearts, over what is easy. 
+Neither chase pleasure nor avoid necessary pain. Do what feels right in your heart of hearts, over what is easy. [[do-what-is-right]]
 
 Go with all your heart. When in doubt, the answer is no. 
 
