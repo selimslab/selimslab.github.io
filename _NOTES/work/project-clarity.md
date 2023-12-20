@@ -65,7 +65,7 @@ overall, I overloaded myself and caused a lot of unnecessary stress, feel lucky 
 
 real estate analytics for an alumni 
 
-yacht market analytics for his friend 
+yacht market analytics 
 
 cosmetics analytics 
 
@@ -85,8 +85,8 @@ entropy, manual decision tree > stats > NLP
 
 then tried to create a generic system for all this, but it's harder than it sounds, also given my overall experience at the time 
   
-- negotiation mistakes, 
-- not charging enough, 
+
+- negotiation and pricing mistakes
 - underestimating the cost to me and the benefit to the customer 
 - clarification mistakes, 
 - should only put enough effort to verify an approach 
