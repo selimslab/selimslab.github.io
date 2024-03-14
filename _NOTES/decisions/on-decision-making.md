@@ -2,7 +2,7 @@
 tags: skills essais top
 ---
 
-We often make even major decisions carelessly but a little forethought can prevent a lot of pain. 
+A little forethought can prevent a lot of pain. 
 
 Don't decide under physical discomfort or heavy emotion, wait until your mind is clear. 
 
