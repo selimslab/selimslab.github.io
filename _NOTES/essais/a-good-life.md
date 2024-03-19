@@ -51,7 +51,9 @@ What is the use of negativity? Complain less, appreciate more.
 
 Do nothing in anger. Do you have to prove anything?
 
-It's possible to channel pain to build [[character]] and strength. This too shall pass. 
+It's possible to channel pain to build character and strength. This too shall pass. 
+
+[[character]]
 
 > Tis better to have loved and lost
 >
