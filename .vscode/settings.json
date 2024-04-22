@@ -1,5 +1,6 @@
 {  
-    "task.allowAutomaticTasks": "off",
+    "task.allowAutomaticTasks": "on",
+    "task.autoDetect": "on",
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 1000,
     "files.exclude": {

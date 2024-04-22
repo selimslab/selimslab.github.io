@@ -2,9 +2,9 @@
     "version": "2.0.0",
     "tasks": [
       {
-        "label": "Serve", 
+        "label": "Sync", 
         "type": "shell",
-        "command": "git pull && git push gitlab master && bundle exec jekyll serve",
+        "command": "git pull && git push gitlab master",
         "group": "none",
         "presentation": {
           "reveal": "always",
