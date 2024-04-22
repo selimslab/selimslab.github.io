@@ -1,5 +1,5 @@
 ---
-title: Who Goes Nazi by Dorothy Thompson
+title: Who Goes Nazi
 tags: pols
 ---
 
