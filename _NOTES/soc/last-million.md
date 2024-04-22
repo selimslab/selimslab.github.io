@@ -70,13 +70,15 @@ Atomic bomb
 
 Transistor 
 
-Jonas Salk and his team found Polio Vaccine 48-55
+Polio Vaccine 48-55
 
 COBOL, Fortran
 
 DNA double helix 53 
 
 Integrated Circuit 58
+
+## 60s 
 
 a prototype of the modern computer, with a mouse and a graphical user interface 1964
 
@@ -90,17 +92,19 @@ UNIX 69
 
 Apollo 11, 69 
 
+## 70s 
+
 Floppy Disk 71 
-
-Ethernet 73 
-
-First personal computers 74-77 
 
 C programming language, 72
 
 Apollo 17, 72
 
+Ethernet 73 
+
 First Cell Phone 73 
+
+First personal computers 74-77 
 
 ALTAIR 8800, Microsoft, 75 
 
@@ -109,6 +113,8 @@ Apple 76
 VisiCalc, the first spreadsheet program, 78
 
 WordStar, word processing, 79 
+
+## 80s 
 
 IBM PC 81
 
@@ -142,7 +148,7 @@ CRISPR 87
 
 03: Safari, Tesla 
 
-04: Gmail, FB 
+04: Gmail, Facebook
 
 05: Arduino, Reddit, Youtube
 
@@ -154,10 +160,23 @@ CRISPR 87
 
 09: Github, Whatsapp 
 
+## 10s 
+
 10: Instagram, iPad
 
-12: Chrome, Raspberry Pi
+12: Chrome, Raspberry Pi, Higgs boson 
 
+## 20s 
+
+20: covid 19
+
+21:
+
+22: russia invades ukraine
+
+23: 
+
+24: 
 
 ## misc. 
 

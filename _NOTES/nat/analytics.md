@@ -1,5 +1,5 @@
 ---
-tags: tech soc 
+tags: tech 
 ---
 
 

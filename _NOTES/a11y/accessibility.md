@@ -1,6 +1,6 @@
 ---
 title: Accessible Software 
-tags: tech soc sys
+tags: tech sys
 ---
 
 <https://www.accessibility-developer-guide.com>
