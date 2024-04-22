@@ -12,6 +12,10 @@ title: Go
 <img src="/static/img/gopherize.png" style="max-height:7rem">
 
 
-I appreciate the Go approach, composition of simple primitives, automatic formatting, disallowing unused variables or imports, 
+Composition over inheritance
 
-you start with defining your types and data structures, write simple functions that do one thing well, and compose them to achieve higher level goals 
+automatic formatting
+
+disallowing unused variables or imports
+
+Start with defining your types and data structures, write simple functions that do one thing well, and compose them to achieve higher level goals 

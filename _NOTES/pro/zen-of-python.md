@@ -6,7 +6,7 @@ I like how Python have a philosophy of elegance. Software should be easy to unde
 
 Like in the great Lynyrd Skynyrd song "Simple Man", be something you love and understand
 
-```bash
+```sh
 > python 
 > import this 
 > Simple is better than complex.
@@ -26,4 +26,4 @@ Although never is often better than *right* now.
 If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
-``````
+```

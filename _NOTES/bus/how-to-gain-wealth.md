@@ -1,11 +1,8 @@
 ---
-title: How to Get Rich (without getting lucky)
+title: The Almanack of Naval Ravikant
 tags: skills bus
 ---
 
-From the Almanack of Naval Ravikant
-
----
 
 Seek wealth, not money or status.
 

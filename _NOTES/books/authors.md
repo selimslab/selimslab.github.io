@@ -20,7 +20,7 @@ Montaigne
 
 Orwell
 
-Sheakspeare
+Shakespeare
 
 Tolkien
 

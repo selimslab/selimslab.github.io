@@ -2,6 +2,12 @@
 ---
 # QA 
 
+
+current pains 
+vision 
+past learnings 
+good bad ugly 
+
 1. Past, present, future for the company, team,  person, and lifecycle   
 	- historical context 
 	- Present challenges and opportunities
@@ -16,7 +22,7 @@
 	what could be better about the life-cycle? 
 	what do you like about it? 
 	
- 3. team dynamics 
+3. team dynamics 
 	- which teams are there 
 	- how do they collaborate  
 	- who is on this team and for how long 
@@ -96,7 +102,7 @@ then tried to create a generic system for all this, but it's harder than it soun
 
 - slow reporting, measure & debug, found the gitlab was the bottleneck, replaced with gitea 
 
-- fb: manager change, guidance through identifying and prioritizing, charting the technical roadmap and communicating through both sessions and docs 
+- manager change, guidance through identifying and prioritizing, charting the technical roadmap and communicating through both sessions and docs 
 
 - driven monitoring, log collection, telemetry, DevOps collab 
 
