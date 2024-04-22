@@ -3,15 +3,15 @@
 
 ## Encodings
 
-1. languages specific, eg. python pickle 
+### languages specific, eg. python pickle 
    
 restricted to one language and they have poor back/forward compatibility
 
-2. text, eg. json, csv
+### text, eg. json, csv
 
 More generic, better human-readable, better compatibility than the former 
 
-3. binary, eg. protobuf, thrift 
+### binary, eg. protobuf, thrift 
 
 more compact 
 

@@ -2,7 +2,6 @@
 
 
 {% if page.backlinks.size > 0 %}
-<hr>
 <ul>
     {% assign sorted_backlinks = page.backlinks | sort: 'title' %}
     {% for backlink in sorted_backlinks %}
