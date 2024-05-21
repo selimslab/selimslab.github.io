@@ -1,8 +1,5 @@
 ---
 ---
-
-## tax 
-
 you are responsible  
 
 1. potrv prijm - conf. of income 
@@ -16,4 +13,3 @@ feb15 for simplified tax return
 databox 
 
 3 years share holding period 
-
