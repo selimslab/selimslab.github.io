@@ -567,7 +567,7 @@ class HashLiteral(Expression):
 
     def __str__(self) -> str:
         pairs = ", ".join(f"{key}: {value}" for key, value in self.pairs.items())
-        return f"{{{pairs}}}"
+        return f"{{pairs}}"
 
 ```
 
