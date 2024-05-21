@@ -3,29 +3,36 @@ require 'json'
 
 class SiteGenerator < Jekyll::Generator
     def generate(site)
+      init_backlinks(site)
+      link_to_parent = create_link_to_parent(site)
+      level_order_directory_traversal("./_NOTES", link_to_parent)
+      remove_circular_tags(site)
+      visit_links(site)
+      remove_self_links(site)
+      # add ideas to site.data
+      site.data["ideas"] = JSON.parse(File.read("./assets/data/ideas.json")).sort
+    end 
 
+    def init_backlinks(site)
       site.documents.each do |doc|
         doc.data['backlinks'] ||= []
       end 
+    end 
 
-      site.data["ideas"] = JSON.parse(File.read("./assets/data/ideas.json")).sort
-
-      link_to_parent = create_link_to_parent(site)
-      level_order_directory_traversal("./_NOTES", link_to_parent)
-
+    def remove_circular_tags(site)
       site.documents.each do |doc|   
         # remove circular tags
         file = doc.id.sub(/^\//, '')
         doc.data['tags'] = doc.data['tags'].reject { |e| e == file }.uniq.sort
       end
 
-      visit_links(site)
+    end 
 
+    def remove_self_links(site)
       site.documents.each do |doc|   
         doc.data['backlinks'] = doc.data['backlinks'].reject { |e| e.id == doc.id }.uniq.sort_by { |e| e.data["title"] }
       end
-    end 
-
+    end
 
     def visit_links(site)
 
