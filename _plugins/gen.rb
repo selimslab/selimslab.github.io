@@ -3,6 +3,7 @@ require 'json'
 
 class SiteGenerator < Jekyll::Generator
     def generate(site)
+      fix_frontmatter()
       init_backlinks(site)
       link_to_parent = create_link_to_parent(site)
       level_order_directory_traversal("./_NOTES", link_to_parent)
@@ -11,6 +12,29 @@ class SiteGenerator < Jekyll::Generator
       remove_self_links(site)
       # add ideas to site.data
       site.data["ideas"] = JSON.parse(File.read("./assets/data/ideas.json")).sort
+    end 
+
+    def fix_frontmatter()
+      # Iterate through all files in the _posts directory
+      Dir.glob("_NOTES/**/*.md") do |file|
+        # Read the content of each file
+        content = File.read(file)
+
+        # Trim leading whitespace
+        content.lstrip!
+
+        # Check if the file has front matter
+        if !content.start_with?("---")
+          puts content
+          # If not, add front matter at the beginning
+          new_content = "---\n---\n#{content}"
+
+          # Write the updated content back to the file
+          File.open(file, "w") { |f| f.write(new_content) }
+
+          puts "Added front matter to: #{file}"
+        end
+      end
     end 
 
     def init_backlinks(site)

@@ -2,7 +2,6 @@
 title: Accessible Software 
 tags: tech sys
 ---
-
 <https://www.accessibility-developer-guide.com>
 
 * Be mindful of color, contrast, and fonts 
