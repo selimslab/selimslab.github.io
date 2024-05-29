@@ -71,7 +71,7 @@ Know your limits. Don’t take yourself too seriously.
 
 Judge less, accept more. [[cognitive-biases]]
 
-[[work]]
+[[work-phil]]
 
 Listen more than you speak. 
 
