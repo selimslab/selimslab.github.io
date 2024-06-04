@@ -1,5 +1,0 @@
----
----
-
-Also called sharding 
-
