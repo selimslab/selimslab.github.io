@@ -1,5 +1,7 @@
 <span class="taglist">
-  {% for tag in page.tags %} 
+  <!-- sort tags -->
+  {% assign tags = page.tags | sort %}
+  {% for tag in tags %} 
   {% if tag != "top" %} 
       {% include tag.html tag=tag %}
       {% if title != page.title %} 
