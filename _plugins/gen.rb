@@ -162,8 +162,7 @@ class SiteGenerator < Jekyll::Generator
     
         if docs.length > 0 
           doc = docs[0]
-          doc.data['tags'] ||= []
-          doc.data['tags'] << parent
+          doc.data['parentfolder'] = parent
         end
       end
     end
