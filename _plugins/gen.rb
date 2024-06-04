@@ -6,7 +6,7 @@ class SiteGenerator < Jekyll::Generator
       fix_frontmatter()
       init_backlinks(site)
       link_to_parent = create_link_to_parent(site)
-      level_order_directory_traversal("./_NOTES", link_to_parent)
+      level_order_directory_traversal(site, "./_NOTES", link_to_parent)
       remove_circular_tags(site)
       visit_links(site)
       remove_self_links(site)
@@ -120,9 +120,9 @@ class SiteGenerator < Jekyll::Generator
 
     end
 
-    def level_order_directory_traversal(root_dir, func)
+    def level_order_directory_traversal(site, root_dir, func)
       queue = [root_dir] # Initialize the queue with the root directory
-    
+      site.data['dirs'] ||= []
       while !queue.empty?
         level_size = queue.size
     
@@ -140,7 +140,8 @@ class SiteGenerator < Jekyll::Generator
             entry_path = File.join(current_dir, entry)
             func.call(entry_path)
             if File.directory?(entry_path)
-              queue << entry_path # Enqueue subdirectories
+              queue << entry_path 
+              site.data['dirs'] << entry_path
             end
           end
         end
@@ -151,13 +152,11 @@ class SiteGenerator < Jekyll::Generator
     def create_link_to_parent(site)
       return lambda do |entry_path|
         # take immediate parent dir 
-        name = File.basename(entry_path)
         parent = File.basename(File.dirname(entry_path))        
         if parent == "_NOTES" 
           return 
         end
-        # remove extension
-        id = "/" + name.sub(/\..*/, '')
+        id = "/" + File.basename(entry_path).sub(/\..*/, '')
         docs = site.documents.filter do |e| e.id == id end
     
         if docs.length > 0 
