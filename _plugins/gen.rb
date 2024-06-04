@@ -79,6 +79,32 @@ class SiteGenerator < Jekyll::Generator
           doc.data['backlinks'] << linking_doc
         end
         
+        # tags to backlinks
+        # if this doc has essais tag, add it to the backlinks of essais.md 
+        # or if its under projects folder, walker will add projects to its tags, 
+        tags = doc.data["tags"]
+        tags.each do |tag|
+          # any doc with this tag in id 
+          tagfileid = "/" + tag 
+          tagfiles = site.documents.filter do |e| e.id == tagfileid end
+          # append tagged docs to backlinks
+          tagfiles.each do |tagfile|
+            tagfile.data['backlinks'] ||= []
+            tagfile.data['backlinks'] << doc
+          end
+        end
+
+        # handle short tags 
+        if file_to_tag_map.has_key?(src)
+          tag = file_to_tag_map[src]
+          # which documents are tagged with this tag?
+          tagged_to_doc = site.documents.filter do |e| e.data["tags"].include?(tag) end
+          # append tagged docs to backlinks
+          tagged_to_doc.each do |tagged_doc|
+            doc.data['backlinks'] << tagged_doc
+          end
+        end
+        
         # replace [[file]] with [title](/file)
         links = doc.content.scan(/\[\[[a-z0-9-]*\]\]/)
         links.each do |link|
@@ -136,7 +162,8 @@ class SiteGenerator < Jekyll::Generator
     
         if docs.length > 0 
           doc = docs[0]
-          doc.data['parentfolder'] << parent
+          doc.data['tags'] ||= []
+          doc.data['tags'] << parent
         end
       end
     end
