@@ -1,5 +1,9 @@
 <span class="taglist">
-  <!-- sort tags -->
+  {% if page.parentfolder %}
+    {% include tag.html tag=page.parentfolder %}
+    <a style="margin-right: 0.5rem" href="/{{file}}">📁 {{title}}</a>
+  {% endif %}
+
   {% assign tags = page.tags | sort %}
   {% for tag in tags %} 
   {% if tag != "top" %} 
