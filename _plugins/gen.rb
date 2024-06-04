@@ -59,49 +59,41 @@ class SiteGenerator < Jekyll::Generator
     end
 
     def visit_links(site)
+
       tags_to_files = site.data["tags_to_files"]
-      file_to_tag_map = map_file_to_tag(tags_to_files)
-      file_to_title_map = map_file_to_title(site)
+
+      file_to_tag_map = tags_to_files.map { |k, v| [v, k] }.to_h
+      
+      file_to_title_map = site.documents.map { |doc| [doc.id.sub(/^\//, ''), doc.data["title"]] }.to_h
       site.data["file_to_title_map"] = file_to_title_map
-    
+
       site.documents.each do |doc|
-        update_backlinks(site, doc)
-        replace_links(doc, tags_to_files, file_to_title_map)
-      end
-    end
-    
-    def map_file_to_tag(tags_to_files)
-      tags_to_files.map { |k, v| [v, k] }.to_h
-    end
-    
-    def map_file_to_title(site)
-      site.documents.map { |doc| [doc.id.sub(/^\//, ''), doc.data["title"]] }.to_h
-    end
-    
-    def update_backlinks(site, doc)
-      src = doc.id.sub(/^\//, '')
-      linking_to_doc = site.documents.filter do |e|
-        e.content.include?("[[#{src}]]") || e.content.include?("(/#{src})")
-      end
-    
-      linking_to_doc.each do |linking_doc|
-        doc.data['backlinks'] << linking_doc
-      end
-    end
-    
-    def replace_links(doc, tags_to_files, file_to_title_map)
-      links = doc.content.scan(/\[\[[a-z0-9-]*\]\]/)
-      links.each do |link|
-        trg = link.gsub(/\[\[/, '').gsub(/\]\]/, '')
-        if tags_to_files.has_key?(trg)
-          trg = tags_to_files[trg]
+        # incoming links
+        src = doc.id.sub(/^\//, '')
+        linking_to_doc = site.documents.filter do |e|
+          # select which includes [src] or /src 
+          e.content.include?("[[#{src}]]") || e.content.include?("(/#{src})") 
+        end        
+        # append linked docs to backlinks
+        linking_to_doc.each do |linking_doc|
+          doc.data['backlinks'] << linking_doc
         end
-        title = file_to_title_map[trg]
-        markdown_link = "[#{title}](/#{trg})"
-        doc.content = doc.content.gsub(/#{Regexp.escape(link)}/, markdown_link)
+        
+        # replace [[file]] with [title](/file)
+        links = doc.content.scan(/\[\[[a-z0-9-]*\]\]/)
+        links.each do |link|
+          trg = link.gsub(/\[\[/, '').gsub(/\]\]/, '')
+          if tags_to_files.has_key?(trg)
+            trg = tags_to_files[trg]
+          end
+          title = file_to_title_map[trg]
+          markdown_link = "[#{title}](/#{trg})"
+          doc.content = doc.content.gsub(/#{Regexp.escape(link)}/, markdown_link)
+        end 
       end
+
     end
-    
+
     def level_order_directory_traversal(root_dir, func)
       queue = [root_dir] # Initialize the queue with the root directory
     
