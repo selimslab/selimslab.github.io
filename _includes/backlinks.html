@@ -1,18 +1,7 @@
 
 
-{% if page.children.size > 0 %}
-<h3>📁</h3>
-<ul>
-    {% assign sorted_children = page.children | sort: 'title' %}
-    {% for child in sorted_children %}
-        <li><a href="{{ site.url }}{{ child.url }}">{{ child.title }}</a></li>
-    {% endfor %}
-</ul>
-{% endif %}
-
 
 {% if page.backlinks.size > 0 %}
-<h3>Backlinks</h3>
 <ul>
     {% assign sorted_backlinks = page.backlinks | sort: 'title' %}
     {% for backlink in sorted_backlinks %}

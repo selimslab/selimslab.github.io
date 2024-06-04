@@ -79,14 +79,18 @@ class SiteGenerator < Jekyll::Generator
           doc.data['backlinks'] << linking_doc
         end
         
-        # if this doc has essais tag, its a child of essais
+        # tags to backlinks
+        # if this doc has essais tag, add it to the backlinks of essais.md 
+        # or if its under projects folder, walker will add projects to its tags, 
         tags = doc.data["tags"]
         tags.each do |tag|
+          # any doc with this tag in id 
           tagfileid = "/" + tag 
           tagfiles = site.documents.filter do |e| e.id == tagfileid end
+          # append tagged docs to backlinks
           tagfiles.each do |tagfile|
-            tagfile.data['children'] ||= []
-            tagfile.data['children'] << doc
+            tagfile.data['backlinks'] ||= []
+            tagfile.data['backlinks'] << doc
           end
         end
 
