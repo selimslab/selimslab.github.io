@@ -1,3 +1,6 @@
+---
+---
+
 think about your data and how it will be used
 
 consider different angles, there is often an easier way to look at a problem, like using a helper table, or relaxing the real-time constraint, or preparing ahead like pre-sorting 

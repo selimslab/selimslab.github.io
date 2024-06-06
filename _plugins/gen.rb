@@ -3,10 +3,17 @@ require 'json'
 
 class SiteGenerator < Jekyll::Generator
     def generate(site)
+      root_dir = "./_NOTES"
+
       fix_frontmatter()
-      init_backlinks(site)
-      link_to_parent = create_link_to_parent(site)
-      level_order_directory_traversal(site, "./_NOTES", link_to_parent)
+
+      site.documents.each do |doc|
+        doc.data['backlinks'] ||= []
+      end 
+
+      site.data["dirs"] = Hash.new { |hash, key| hash[key] = [] }
+      bfs(site, root_dir)
+      
       remove_circular_tags(site)
       visit_links(site)
       remove_self_links(site)
@@ -25,7 +32,6 @@ class SiteGenerator < Jekyll::Generator
 
         # Check if the file has front matter
         if !content.start_with?("---")
-          puts content
           # If not, add front matter at the beginning
           new_content = "---\n---\n#{content}"
 
@@ -35,12 +41,6 @@ class SiteGenerator < Jekyll::Generator
           puts "Added front matter to: #{file}"
         end
       end
-    end 
-
-    def init_backlinks(site)
-      site.documents.each do |doc|
-        doc.data['backlinks'] ||= []
-      end 
     end 
 
     def remove_circular_tags(site)
@@ -76,35 +76,35 @@ class SiteGenerator < Jekyll::Generator
         end        
         # append linked docs to backlinks
         linking_to_doc.each do |linking_doc|
+          if site.data["dirs"][doc.id].include?(linking_doc.id)
+            next
+          end
           doc.data['backlinks'] << linking_doc
         end
         
         # tags to backlinks
         # if this doc has essais tag, add it to the backlinks of essais.md 
         # or if its under projects folder, walker will add projects to its tags, 
-        tags = doc.data["tags"]
-        tags.each do |tag|
+        doc.data["tags"].each do |tag|
           # any doc with this tag in id 
           tagfileid = "/" + tag 
-          tagfiles = site.documents.filter do |e| e.id == tagfileid end
+          # if tag in tags_to_files, use that instead
+          if tags_to_files.has_key?(tag)
+            tagfileid = "/" + tags_to_files[tag]
+          end
+
+          tagfiles = site.documents.filter do |e| e.id == tagfileid  end
           # append tagged docs to backlinks
           tagfiles.each do |tagfile|
             tagfile.data['backlinks'] ||= []
+            # if doc in site.data["dirs"][tagfileid], do not add to backlinks
+            if site.data["dirs"][tagfileid].include?(doc.id)
+              next
+            end
             tagfile.data['backlinks'] << doc
           end
         end
 
-        # handle short tags 
-        if file_to_tag_map.has_key?(src)
-          tag = file_to_tag_map[src]
-          # which documents are tagged with this tag?
-          tagged_to_doc = site.documents.filter do |e| e.data["tags"].include?(tag) end
-          # append tagged docs to backlinks
-          tagged_to_doc.each do |tagged_doc|
-            doc.data['backlinks'] << tagged_doc
-          end
-        end
-        
         # replace [[file]] with [title](/file)
         links = doc.content.scan(/\[\[[a-z0-9-]*\]\]/)
         links.each do |link|
@@ -120,51 +120,40 @@ class SiteGenerator < Jekyll::Generator
 
     end
 
-    def level_order_directory_traversal(site, root_dir, func)
-      queue = [root_dir] # Initialize the queue with the root directory
-      site.data['dirs'] ||= []
+    def bfs(site, root_dir)
+      queue = [root_dir]
+    
       while !queue.empty?
-        level_size = queue.size
-    
-        # Process all directories at the current level
-        level_directories = []
-    
-        level_size.times do
-          current_dir = queue.shift # Dequeue the next directory
-          level_directories << current_dir
-    
-          # List all files and directories in the current directory
-          entries = Dir.entries(current_dir).reject { |e| e == "." || e == ".." || current_dir == '.obsidian'}
-    
-          entries.each do |entry|
-            entry_path = File.join(current_dir, entry)
-            func.call(entry_path)
-            if File.directory?(entry_path)
-              queue << entry_path 
-              site.data['dirs'] << entry_path
-            end
+        current_dir = queue.shift
+        Dir.entries(current_dir).each do |entry|
+          next if entry == '.' || entry == '..'
+  
+          fullpath = File.join(current_dir, entry)
+          if File.directory?(fullpath)
+            childid = "/" + File.basename(entry)
+            parentid = "/" + File.basename(current_dir)
+            site.data["dirs"][parentid] << childid
+            queue << fullpath
+          elsif File.basename(current_dir) != root_dir
+            tag_to_parent(site, entry, File.basename(current_dir))
           end
         end
     
       end
+    
     end
 
-    def create_link_to_parent(site)
-      return lambda do |entry_path|
-        # take immediate parent dir 
-        parent = File.basename(File.dirname(entry_path))        
-        if parent == "_NOTES" 
-          return 
-        end
-        id = "/" + File.basename(entry_path).sub(/\..*/, '')
-        docs = site.documents.filter do |e| e.id == id end
-    
-        if docs.length > 0 
-          doc = docs[0]
-          doc.data['tags'] ||= []
-          doc.data['tags'] << parent
-        end
+    def tag_to_parent(site, entry, parent)
+      # take immediate parent dir 
+      id = "/" + File.basename(entry).sub(/\..*/, '')
+      docs = site.documents.filter do |e| e.id == id end
+  
+      if docs.length > 0 
+        doc = docs[0]
+        doc.data['tags'] ||= []
+        doc.data['tags'] << parent
       end
+
     end
 
   end

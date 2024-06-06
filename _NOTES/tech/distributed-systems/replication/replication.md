@@ -1,5 +1,4 @@
 ---
-tags: storage
 ---
 
 Keeping the same data on multiple nodes 

@@ -1,33 +1,21 @@
 
 
+<!-- does site.data.dirs hash has this page.id -->
+{% assign dirs = site.data.dirs[page.id] %}
+{% if dirs.size > 0 %}
+    <ul>
+        <!-- build a list of dirpages -->
+        {% for id in dirs %}
+            <!-- find the page with this id -->
+            {% assign dirpage = site.documents | where: 'id', id | first %}
+            <li><a href="{{ site.dirpage }}{{ dirpage.url }}">📁 {{ dirpage.title }}</a></li>
+        {% endfor %}
+    </ul>
+{% endif %}
 
 {% if page.backlinks.size > 0 %}
-
-{% assign dirs = site.data.dirs %}
-{% assign backlinks = page.backlinks %}
-
-{% assign backlinks_in_dirs = [] %}
-{% assign backlinks_out_dirs = [] %}
-
-{% for backlink in backlinks %}
-  {% assign backlink_dir = backlink | split: '/' | first %}
-  {% if dirs contains backlink_dir %}
-    {% assign backlinks_in_dirs = backlinks_in_dirs | push: backlink %}
-  {% else %}
-    {% assign backlinks_out_dirs = backlinks_out_dirs | push: backlink %}
-  {% endif %}
-{% endfor %}
-
-<h3>📁</h3>
 <ul>
-    {% assign sorted_backlinks = backlinks_in_dirs | sort: 'title' %}
-    {% for backlink in sorted_backlinks %}
-        <li><a href="{{ site.url }}{{ backlink.url }}">{{ backlink.title }}</a></li>
-    {% endfor %}
-</ul>
-<h3>📄</h3>
-<ul>
-    {% assign sorted_backlinks = backlinks_out_dirs | sort: 'title' %}
+    {% assign sorted_backlinks = page.backlinks | sort: 'title' %}
     {% for backlink in sorted_backlinks %}
         <li><a href="{{ site.url }}{{ backlink.url }}">{{ backlink.title }}</a></li>
     {% endfor %}
