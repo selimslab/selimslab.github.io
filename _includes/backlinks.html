@@ -3,9 +3,10 @@
 <!-- does site.data.dirs hash has this page.id -->
 {% assign dirs = site.data.dirs[page.id] %}
 {% if dirs.size > 0 %}
+    {% assign sorted_dirs = dirs | sort %}
     <ul>
         <!-- build a list of dirpages -->
-        {% for id in dirs %}
+        {% for id in sorted_dirs %}
             <!-- find the page with this id -->
             {% assign dirpage = site.documents | where: 'id', id | first %}
             <li><a href="{{ site.dirpage }}{{ dirpage.url }}">📁 {{ dirpage.title }}</a></li>

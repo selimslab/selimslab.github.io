@@ -1,0 +1,3 @@
+
+doskey /macros
+
