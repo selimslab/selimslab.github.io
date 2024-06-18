@@ -19,6 +19,12 @@ class SiteGenerator < Jekyll::Generator
       remove_self_links(site)
       # add ideas to site.data
       site.data["ideas"] = JSON.parse(File.read("./assets/data/ideas.json")).sort
+      
+      # sort all values in site.data["dirs"]
+      site.data["dirs"].each do |k, v|
+        site.data["dirs"][k] = v.sort
+      end
+
     end 
 
     def fix_frontmatter()
@@ -76,6 +82,7 @@ class SiteGenerator < Jekyll::Generator
         end        
         # append linked docs to backlinks
         linking_to_doc.each do |linking_doc|
+          # skip dirs 
           if site.data["dirs"][doc.id].include?(linking_doc.id)
             next
           end
