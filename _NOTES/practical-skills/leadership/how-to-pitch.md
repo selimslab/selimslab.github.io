@@ -8,3 +8,5 @@ title: How to pitch?
 3. promised land
 4. obstacles/ how to get over
 5. Don't tell. Show. Present evidence.
+
+[[communication]]

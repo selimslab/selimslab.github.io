@@ -1,6 +1,5 @@
 ---
 title: The Almanack of Naval Ravikant
-tags: skills bus
 ---
 
 
