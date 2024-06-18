@@ -1,4 +1,4 @@
 ---
-tags: tech swe 
+tags: swe 
 ---
 

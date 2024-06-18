@@ -1,6 +1,6 @@
 ---
 title: The Tao of Programming
-tags: swe tech top
+tags: pro top
 ---
 
 From <https://www.mit.edu/~xela/tao.html>
