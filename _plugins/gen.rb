@@ -156,6 +156,9 @@ class SiteGenerator < Jekyll::Generator
     end
 
     def tag_to_parent(site, entry, parent)
+      if parent == "_CODE"
+        parent = "code"
+      end
       # take immediate parent dir 
       id = "/" + File.basename(entry).sub(/\..*/, '')
       docs = site.documents.filter do |e| e.id == id end
