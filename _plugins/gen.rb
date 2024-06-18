@@ -12,9 +12,7 @@ class SiteGenerator < Jekyll::Generator
 
       site.data["dirs"] = Hash.new { |hash, key| hash[key] = [] }
       dirs = ["./_NOTES", "./_CODE"]
-      dirs.each do |dir|  
-        bfs(site, dir)
-      end 
+      bfs(site, dirs)
       
       remove_circular_tags(site)
       visit_links(site)
@@ -129,8 +127,8 @@ class SiteGenerator < Jekyll::Generator
 
     end
 
-    def bfs(site, root_dir)
-      queue = [root_dir]
+    def bfs(site, root_dirs)
+      queue = root_dirs
     
       while !queue.empty?
         current_dir = queue.shift
@@ -146,7 +144,7 @@ class SiteGenerator < Jekyll::Generator
             site.data["dirs"][parentid] << childid
             queue << fullpath
 
-          elsif File.basename(current_dir) != "./_NOTES"
+          elsif !root_dirs.include?(File.basename(current_dir))
             tag_to_parent(site, entry, File.basename(current_dir))
           end
         end
