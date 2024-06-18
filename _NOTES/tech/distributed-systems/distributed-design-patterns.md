@@ -1,4 +1,5 @@
-
+---
+---
 https://learn.microsoft.com/en-us/azure/architecture/patterns/category/data-management
 
 There are so many patterns but you don't need to memorize them all because they are based on a smaller list of key ideas. When you encounter a problem, you can arrive at the same pattern using the fundamentals.  
