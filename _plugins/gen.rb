@@ -17,13 +17,16 @@ class SiteGenerator < Jekyll::Generator
       remove_circular_tags(site)
       visit_links(site)
       remove_self_links(site)
-      # add ideas to site.data
-      site.data["ideas"] = JSON.parse(File.read("./assets/data/ideas.json")).sort
-      
+
       # sort all values in site.data["dirs"]
       site.data["dirs"].each do |k, v|
         site.data["dirs"][k] = v.sort
       end
+
+      puts site.data["dirs"]
+
+      # add ideas to site.data
+      site.data["ideas"] = JSON.parse(File.read("./assets/data/ideas.json")).sort
 
     end 
 
