@@ -1,5 +1,5 @@
-
-
+---
+---
 Utilize partitioning to circumvent constraints in databases, networks, and computation. 
 
 Ways to partition include:

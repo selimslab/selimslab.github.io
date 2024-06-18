@@ -3,7 +3,6 @@ require 'json'
 
 class SiteGenerator < Jekyll::Generator
     def generate(site)
-      root_dir = "./_NOTES"
 
       fix_frontmatter()
 
@@ -12,7 +11,10 @@ class SiteGenerator < Jekyll::Generator
       end 
 
       site.data["dirs"] = Hash.new { |hash, key| hash[key] = [] }
-      bfs(site, root_dir)
+      dirs = ["./_NOTES", "./_CODE"]
+      dirs.each do |dir|  
+        bfs(site, dir)
+      end 
       
       remove_circular_tags(site)
       visit_links(site)
@@ -23,15 +25,12 @@ class SiteGenerator < Jekyll::Generator
         site.data["dirs"][k] = v.sort
       end
 
-      puts site.data["dirs"]
-
       # add ideas to site.data
       site.data["ideas"] = JSON.parse(File.read("./assets/data/ideas.json")).sort
 
     end 
 
     def fix_frontmatter()
-      # Iterate through all files in the _posts directory
       Dir.glob("_NOTES/**/*.md") do |file|
         # Read the content of each file
         content = File.read(file)
@@ -135,16 +134,19 @@ class SiteGenerator < Jekyll::Generator
     
       while !queue.empty?
         current_dir = queue.shift
+      
         Dir.entries(current_dir).each do |entry|
           next if entry == '.' || entry == '..'
-  
+
           fullpath = File.join(current_dir, entry)
           if File.directory?(fullpath)
+            # both child and parent are dirs, no need to strip .md 
             childid = "/" + File.basename(entry)
             parentid = "/" + File.basename(current_dir)
             site.data["dirs"][parentid] << childid
             queue << fullpath
-          elsif File.basename(current_dir) != root_dir
+
+          elsif File.basename(current_dir) != "./_NOTES"
             tag_to_parent(site, entry, File.basename(current_dir))
           end
         end

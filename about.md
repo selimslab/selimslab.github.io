@@ -5,7 +5,7 @@ title: Welcome, friend!
 
 Hi, this is Selim, yet another being on the pale blue dot. 
 
-Writing here to have some fun and to share some thoughts.
+Writing here to share and remember 
 
 [github.com/selimslab](https://github.com/selimslab)
 
