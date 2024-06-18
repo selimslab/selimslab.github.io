@@ -1,3 +1,4 @@
 ---
 tags: pro
+layout: post
 --- 
