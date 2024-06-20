@@ -1,6 +1,6 @@
 ---
 title: What to work on?
-tags: phil essais bus skills
+tags: phil essais skills
 ---
 
 1. Start with the why, then how and what 
@@ -15,3 +15,4 @@ tags: phil essais bus skills
 
 ![](/static/img/what-drives-us.jpeg)
 
+[[career]]

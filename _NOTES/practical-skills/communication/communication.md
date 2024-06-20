@@ -1,5 +1,4 @@
 ---
-title: On communication
 tags: skills soc essais
 ---
 

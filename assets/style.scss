@@ -26,11 +26,13 @@ $light-text: #f0f1f2;
 $light-bg: #f8f1e3; 
 $dark-text: $gray;
 
+html{
+  font-size: larger;
+  line-height:1.6;
+}
 // basics 
 body{
   font-family: $sansSerif;
-  font-size: larger;
-  line-height:1.6;
   background: $dark-bg;
   color: $light-text;
   min-height: 100vh;
