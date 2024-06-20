@@ -30,6 +30,7 @@ $dark-text: $gray;
 body{
   font: $sansSerif;
   font-size: larger;
+  line-height:1.6;
   background: $dark-bg;
   color: $light-text;
   min-height: 100vh;
