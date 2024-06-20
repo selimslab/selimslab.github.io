@@ -1,5 +1,5 @@
 ---
-tags: soc skills bus
+tags: soc skills lead
 ---
 
 Good ideas are in plain sight. They are about reordering existing + connecting + right timing.
