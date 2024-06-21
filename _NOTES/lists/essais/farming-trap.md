@@ -1,5 +1,5 @@
 ---
-
+tags: soc
 ---
 
 Hunter-gatherers had their worries and fears but this is the price of freedom, freedom costs dearly but it's worth it 
