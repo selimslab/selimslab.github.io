@@ -4,83 +4,81 @@ tags: gr mid
 
 ---
 
-
 ```py
 from collections import defaultdict
+from dataclasses import dataclass, field
+import heapq
 
+Cost = int
+Node = str
 
+@dataclass
+class Edge:
+    source: Node
+    target: Node
+    cost: Cost
+
+@dataclass
 class Graph:
-    def __init__(self):
-        self.nodes = set()
-        self.edges = defaultdict(list)
-        self.distances = {}
+    edges: defaultdict[Node, list[Edge]] = field(
+        default_factory=lambda: defaultdict(list)
+    )
 
-    def add_node(self, value):
-        self.nodes.add(value)
+    def add_edge(self, edge: Edge):
+        self.edges[edge.source].append(edge)
 
-    def add_edge(self, from_node, to_node, distance):
-        if from_node not in self.nodes:
-            self.add_node(from_node)
-        if to_node not in self.nodes:
-            self.add_node(to_node)
-        self.edges[from_node].append(to_node)
-        self.edges[to_node].append(from_node)
-        self.distances[(from_node, to_node)] = distance
-        self.distances[(to_node, from_node)] = distance
+    def get_shortest_path(self, start: Node, finish: Node):
+        # dijkstra
 
+        costs: dict[Node, Cost] = {node: float("infinity") for node in self.edges}
+        costs[start] = 0
+        parents: dict[Node, Node] = {}
 
-def get_shortest_path(parents, start_node, finish_node):
-    path = [finish_node]
-    parent = parents[finish_node]
-    while parent:
-        path = [parent] + path
-        if parent == start_node:
-            break
-        parent = parents[parent]
-    return path
+        priority_queue = [(0, start)]
 
+        while priority_queue:
+            current_distance, current_node = heapq.heappop(priority_queue)
+            if current_distance > costs[current_node]:
+                continue
+            for edge in self.edges[current_node]:
+                distance = current_distance + edge.cost
+                if distance < costs[edge.target]:
+                    costs[edge.target] = distance
+                    heapq.heappush(priority_queue, (distance, edge.target))
+                    parents[edge.target] = current_node
 
-def dijkstra(graph, start_node, finish_node):
-    costs = {start_node: 0}
-    parents = dict()
-    nodes = graph.nodes
+        print("parents:", parents)
+        print("minimum distances:", costs)
 
-    while nodes:
-        costs_of_remaining_nodes = {k: v for k, v in costs.items() if k in nodes}
-        cheapest_node = min(costs_of_remaining_nodes, key=costs_of_remaining_nodes.get)
-        nodes.remove(cheapest_node)
+        path = [finish]
+        parent = parents.get(finish)
+        while parent:
+            path.append(parent)
+            if parent == start:
+                break
+            parent = parents.get(parent)
 
-        cost = costs[cheapest_node]
-        neighbors = graph.edges[cheapest_node]
-
-        for neighbor in neighbors:
-            new_cost = cost + graph.distances[(cheapest_node, neighbor)]
-            if neighbor not in costs or new_cost < costs[neighbor]:
-                costs[neighbor] = new_cost
-                parents[neighbor] = cheapest_node
-
-    print("parents:", parents)
-    print("minimum distances:", costs)
-
-    return get_shortest_path(parents, start_node, finish_node)
+        shortest_path = list(reversed(path))
+        print("shortest_path:", shortest_path)
+        return shortest_path
 
 
 def test_dijkstra():
     cities = Graph()
     edges = [
         ("ankara", "istanbul", 6),
-        ("ankara", "eskişehir", 2),
-        ("eskişehir", "istanbul", 3),
-        ("eskişehir", "izmir", 12),
+        ("ankara", "eskisehir", 2),
+        ("eskisehir", "istanbul", 3),
+        ("eskisehir", "izmir", 12),
         ("istanbul", "izmir", 8),
     ]
 
     for start, finish, distance in edges:
-        cities.add_edge(start, finish, distance)
+        cities.add_edge(Edge(start, finish, distance))
+        cities.add_edge(Edge(finish, start, distance))
 
-    shortest_path = dijkstra(cities, "ankara", "izmir")
-
-    assert shortest_path == ['ankara', 'eskişehir', 'istanbul', 'izmir']
+    shortest_path = cities.get_shortest_path("ankara", "izmir")
+    assert shortest_path == ["ankara", "eskisehir", "istanbul", "izmir"]
 
 
 if __name__ == "__main__":

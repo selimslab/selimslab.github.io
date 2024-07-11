@@ -19,19 +19,19 @@ func diameterOfBinaryTree(root *TreeNode) int {
             return 0 
         }
         
-        var left = walk(root.Left)
+        var leftDepth = walk(root.Left)
         
-        var right = walk(root.Right)
+        var rightDepth = walk(root.Right)
                 
-        dia = max(dia, left+right)
+        maxDia = max(dia, leftDepth+rightDepth)
 
-        return max(left,right) + 1
+        return max(leftDepth,rightDepth) + 1
   
     }
     
     walk(root)
     
-    return dia 
+    return maxDia 
     
 }
 

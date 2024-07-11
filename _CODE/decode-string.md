@@ -30,3 +30,30 @@ def decodeString(self, s):
 
     return current_str
 ```
+
+```c#
+public class Solution {
+    public string DecodeString(string s) {
+        Stack<(string, int)> stack = new Stack<(string, int)>();
+        int coeff = 0;
+        string currentStr = "";
+
+        foreach (char c in s) {
+            if (char.IsDigit(c)) {
+                coeff = coeff * 10 + (c - '0');
+            } else if (c == '[') {
+                stack.Push((currentStr, coeff));
+                currentStr = "";
+                coeff = 0;
+            } else if (c == ']') {
+                var (prevStr, num) = stack.Pop();
+                currentStr = prevStr + string.Concat(Enumerable.Repeat(currentStr, num));
+            } else {
+                currentStr += c;
+            }
+        }
+
+        return currentStr;
+    }
+}
+```

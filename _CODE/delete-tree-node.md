@@ -3,8 +3,6 @@ tags: gr mid
 
 ---
 
-
-
 ```python
 """
 root = [5,3,6,2,4,null,7]
@@ -43,7 +41,7 @@ def deleteNode(self, root, key):
     # now the key is the root of a subtree
     else:
         # if the subtree does not have a left child, we just return its right child
-        # to its father, and they will be connected on the higher level recursion.
+        # to its parent, and they will be connected on the higher level recursion.
         if not root.left:
             return root.right
 
@@ -57,7 +55,7 @@ def deleteNode(self, root, key):
 
             root.val = tmp.val
    
-                root.left = self.deleteNode(root.left, tmp.val)
+            root.left = self.deleteNode(root.left, tmp.val)
         
         return root
 ```

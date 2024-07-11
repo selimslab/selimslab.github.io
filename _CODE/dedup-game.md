@@ -1,23 +1,28 @@
 ---
 tags: str stack easy
-
-
 ---
 
 ```py
+from typing import NamedTuple
+
+class CharCount(NamedTuple):
+    char: str
+    count: int
+
 def dedup_k(s: str, k: int) -> str:
     # Repeatedly dedup adjacent K letters until no longer can.
 
-    stack = []  # keep (char, count) tuples
+    stack: list[CharCount] = []  
     for c in s:
-        if stack and stack[-1][0] == c:
-            stack[-1][1] += 1
-            if stack[-1][1] == k:
+        top = stack[-1]
+        if stack and top.char == c:
+            top.count += 1
+            if top.count == k:
                 stack.pop()
         else:
-            stack.append([c, 1])
+            stack.append(Charcount(c,1))
 
-    return "".join(c * count for c, count in stack)
+    return "".join(c.char * c.count for c in stack)
 
 
 assert dedup_k("deeedbbcccbdaa", 3) == "aa"
