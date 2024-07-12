@@ -1,27 +1,41 @@
 ---
 ---
 
+## TODAY 
 
-vlad - shopper copilot, intent 
+BE setup 
 
-max - copilot 
+## WEEKEND 
 
-jan - v4
+TR stuff 
 
-promptflow
+Check- in 
+##  WEEK 
 
-langchain
+EY 
 
-login saw 
+##  MONTH 
 
-#### maybe 
+vlad & ivo - shopper copilot, intent 
 
-amex 
+## QUARTER 
 
-marriage poa
+Connect and promo 
+
+beste move 
+## YEAR 
 
 
-# Personal 
+# DRAWERS 
+
+## EY 
+
+marital status change POA 
+
+best documents 
+
+employee card renewal POA 
+
 ## delta 
 
 search lunr
@@ -42,3 +56,8 @@ antep fistik
 
 breath right 
 
+## maybe 
+
+https://www.anadoluhayat.com.tr/urunlerimiz?tab=bireysel-urunlerimiz
+
+amex 

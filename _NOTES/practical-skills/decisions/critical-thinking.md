@@ -8,7 +8,7 @@ tags: skills phil essais
 - "Delete the adjectives and you will have the facts."
 - All models are wrong, some are useful
 - Systematic feedback, criticism, and correction
-- Open-ended [[questions]]
+- Open-ended [[arts/philosophy/questions]]
 - Less certainty, more probability
 - How well do your mental models match reality?
 - Have you done your due diligence?
