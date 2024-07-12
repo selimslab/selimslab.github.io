@@ -4,4 +4,4 @@ _site/*
 !.vscode
 Gemfile.lock
 */_/
-_TODO.md
+_*.md
