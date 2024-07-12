@@ -3,5 +3,5 @@ _site/*
 !.github
 !.vscode
 Gemfile.lock
-*/_/
+*/_misc/*
 _*.md
