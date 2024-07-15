@@ -112,7 +112,7 @@ class SiteGenerator < Jekyll::Generator
           end
         end
 
-        # replace [[file]] with [title](/file)
+        # replace [[file]] with [title](/file/)
         links = doc.content.scan(/\[\[[a-z0-9-]*\]\]/)
         links.each do |link|
           trg = link.gsub(/\[\[/, '').gsub(/\]\]/, '')
@@ -120,7 +120,7 @@ class SiteGenerator < Jekyll::Generator
             trg = tags_to_files[trg]
           end
           title = file_to_title_map[trg]
-          markdown_link = "[#{title}](/#{trg})"
+          markdown_link = "[#{title}](/#{trg}/)"
           doc.content = doc.content.gsub(/#{Regexp.escape(link)}/, markdown_link)
         end 
       end
