@@ -1,5 +1,7 @@
 require 'json'
 
+NOTES_PATH = "./_NOTES"
+CODE_PATH = "./_CODE"
 
 class SiteGenerator < Jekyll::Generator
     def generate(site)
@@ -11,8 +13,9 @@ class SiteGenerator < Jekyll::Generator
       end 
 
       site.data["dirs"] = Hash.new { |hash, key| hash[key] = [] }
-      dirs = ["./_NOTES", "./_CODE"]
-      bfs(site, dirs)
+      
+      bfs(site, NOTES_PATH)
+      bfs(site, CODE_PATH)
       
       remove_circular_tags(site)
       visit_links(site)
@@ -127,38 +130,90 @@ class SiteGenerator < Jekyll::Generator
 
     end
 
-    def bfs(site, root_dirs)
-      queue = root_dirs
-    
-      while !queue.empty?
-        current_dir = queue.shift
+    def tree_to_html(site, tree)
+      return "" if tree.empty?
+      html = "<ul>"
+      tree.each do |id, children|
+        docs = site.documents.select { |e| e.id == id }
+        next if docs.empty?
+        doc = docs.first
+        title = doc.data["title"]
+
+        if children.empty?
+          html += "<li><a href='#{id}/'>#{title}</a></li>" 
+        else
+          html += "<details>"
+          html += "<summary>#{title}</summary>"
+          html += "<li>"
+          html += tree_to_html(site, children)
+          html += "</li></details>"
+        end
+      end
+      html += "</ul>"
       
-        Dir.entries(current_dir).each do |entry|
-          next if entry == '.' || entry == '..'
+      html
+    end
+    
 
-          fullpath = File.join(current_dir, entry)
-          if File.directory?(fullpath)
-            # both child and parent are dirs, no need to strip .md 
-            childid = "/" + File.basename(entry)
-            parentid = "/" + File.basename(current_dir)
-            site.data["dirs"][parentid] << childid
-            queue << fullpath
+    def bfs(site, path)
+      
+      tree = {}
+      queue = [[path, tree]]
+      root = nil 
 
-          elsif !root_dirs.include?(File.basename(current_dir))
-            tag_to_parent(site, entry, File.basename(current_dir))
+      while !queue.empty?
+        parent_path, branch = queue.shift
+        parent_basename = File.basename(parent_path)
+        parent_id = "/" + parent_basename
+        if root.nil?
+          root = parent_id
+        end
+
+        branch[parent_id] ||= {}
+
+        entries = Dir.entries(parent_path)
+        # sort entries
+        entries.sort_by! { |e| e.downcase }
+
+        entries.each do |child|
+
+          next if child == '.' || child == '..'  || child.start_with?('.') || child.start_with?('_') 
+
+          child_path = File.join(parent_path, child)
+
+          if File.directory?(child_path)
+            # both child and parent_basename are dirs, no need to strip .md 
+            child_id = "/" + File.basename(child)
+
+            site.data["dirs"][parent_id] << child_id
+            queue.push([child_path, branch[parent_id]])
+            
+          elsif path != parent_basename
+            tag_to_parent(site, child, parent_basename)
+            child_id = "/" + File.basename(child).sub(/\..*/, '')
           end
+          branch[parent_id][child_id] ||= {}
+
         end
     
       end
-    
+      
+      tree = tree[root]
+      
+      if path == NOTES_PATH
+        site.data["tree"] = tree
+        html = tree_to_html(site, tree)
+        site.data["tree_html"] = html
+      end 
+
     end
 
-    def tag_to_parent(site, entry, parent)
+    def tag_to_parent(site, child, parent)
       if parent == "_CODE"
         parent = "code"
       end
       # take immediate parent dir 
-      id = "/" + File.basename(entry).sub(/\..*/, '')
+      id = "/" + File.basename(child).sub(/\..*/, '')
       docs = site.documents.filter do |e| e.id == id end
   
       if docs.length > 0 

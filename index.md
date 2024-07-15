@@ -2,13 +2,14 @@
 layout: page
 ---
 
+
 # Project Delta 
 
 A personal knowledge graph   
 
-## Index
-
 {% include stats.html  %}
+
+## Index
 
 {% include root.html  %}
 
