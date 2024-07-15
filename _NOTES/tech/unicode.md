@@ -28,6 +28,6 @@ One of the really nice features of UTF-8 is that it is compatible with null-term
 |1110xxxx|10xxxxxx|10xxxxxx||(4+6+6)=16|FFFF hex (65535)|
 |11110xxx|10xxxxxx|10xxxxxx|10xxxxxx|(3+6+6+6)=21|10FFFF hex (1,114,111)|
 
-https://www.fileformat.info/info/unicode/utf8.htm
+<https://www.fileformat.info/info/unicode/utf8.htm>
 
 
