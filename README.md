@@ -28,10 +28,8 @@ bundle exec jekyll serve --trace
 3. Wiki links
 4. Backlinks
 5. Works offline
-6. Caching for static assets
-7. Dark mode
-8. Simple search
-9. Random pages, artworks, and ideas
-10. Syntax highlighter
-11. 2D and 3D link graphs
+6. Dark mode
+7. Search
+8. Roll a dice for pages, artworks, and ideas
+9. Syntax highlighter
 
