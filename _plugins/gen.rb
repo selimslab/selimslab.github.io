@@ -140,7 +140,7 @@ class SiteGenerator < Jekyll::Generator
         title = doc.data["title"]
 
         if children.empty?
-          html += "<li><a href='#{id}/' target="_blank">#{title}</a></li>" 
+          html += "<li><a href='#{id}/' target='_blank'>#{title}</a></li>" 
         else
           html += "<details>"
           html += "<summary>#{title}</summary>"
