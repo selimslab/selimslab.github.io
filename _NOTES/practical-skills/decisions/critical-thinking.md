@@ -19,6 +19,6 @@ tags: skills phil essais
 
 [[insight-and-strength]]
 
-<https://reasonandmeaning.com/2015/10/08/bertrand-russells-nobel-prize-acceptance-speech/>
+[Bertrand Russell’s Nobel Prize Acceptance Speech | Reason and Meaning](https://reasonandmeaning.com/2015/10/08/bertrand-russells-nobel-prize-acceptance-speech/)
 
 ![](/static/img/must-be-true.jpeg)
