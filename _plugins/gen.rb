@@ -12,6 +12,7 @@ class SiteGenerator < Jekyll::Generator
         doc.data['backlinks'] ||= []
       end
 
+      site.data["child_to_parent"] = Hash.new
       site.data["file_to_tag"] = site.data["tag_to_file"].invert
 
       site.data["file_to_title"] = site.documents.map do |doc|
@@ -71,15 +72,6 @@ class SiteGenerator < Jekyll::Generator
         # remove_circular_tags
         id = doc.id.sub(/^\//, '')
         doc.data['tags'] = doc.data['tags'].reject { |e| e == id }.uniq.sort
-
-        # short_tag = site.data["file_to_tag"][parent_basename]
-        # if short_tag
-        #   if !child_doc.data['tags'].include?(short_tag)
-        #     child_doc.data['tags'] << short_tag
-        #   end
-        # elsif !child_doc.data['tags'].include?(parent_basename)
-        #   child_doc.data['tags'] << parent_basename
-        # end
 
       end
 
@@ -161,15 +153,18 @@ class SiteGenerator < Jekyll::Generator
           if File.directory?(child_path)
             # both child and parent_basename are dirs, no need to strip .md
             child_id = "/" + child_basename
-
+            next if child_id == parent_id
             site.data["dirs"][parent_id] << child_id
             queue.push([child_path, branch[parent_id]])
 
           elsif path != parent_basename
             child_id = "/" + child_basename.sub(/\..*/, '')
+            next if child_id == parent_id
+
             link_to_parent(site, child_basename, child_id, parent_basename, parent_id)
           end
           branch[parent_id][child_id] ||= {}
+          site.data["child_to_parent"][child_id] = parent_id
 
         end
 
@@ -197,7 +192,7 @@ class SiteGenerator < Jekyll::Generator
         children = children.sort_by { |k, v| [-v.length, k] }.to_h
 
         if children.empty?
-          html += "<li><a href='#{file_id}/' target='_blank'>#{title}</a></li>"
+          html += "<li><a href='#{file_id}/'>#{title}</a></li>"
         else
           html += "<details>"
           html += "<summary>#{title}</summary>"
@@ -225,9 +220,13 @@ class SiteGenerator < Jekyll::Generator
         return
       end
 
-      child_doc.data['breadcrumbs'] ||= []
-      link = "<a href='#{parent_id}/'>#{parent_doc.data['title']}</a>"
-      child_doc.data['breadcrumbs'] << link
+      if child_doc == parent_doc
+        puts "Error: #{child_id} is linking to itself"
+        return
+      end
+
+      link = "<a class='toplink' href='#{parent_id}/'>#{parent_doc.data['title']}</a>"
+      child_doc.data['parentlink'] = link
 
       parent_doc.data['children'] ||= []
       parent_doc.data['children'] << child_basename

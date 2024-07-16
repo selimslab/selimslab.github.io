@@ -3,13 +3,12 @@
     {% if tag != "top" %} 
       {% include tag_to_title.html tag=tag %}
         {% if title != page.title %} 
-          <a style="margin-right: 0.5rem" href="/{{file}}/">{{title}}</a>
+          <a class="toplink" href="/{{file}}/">{{title}}</a>
         {% endif %}
     {% endif %}
   {% endfor %}
-  {{page.data.breadcrumbs}}
 
-  {% for link in page.data.breadcrumbs %} 
-    {{link}}
-  {% endfor %}
+  {{page.parentlink}}
+
+
 </span>
