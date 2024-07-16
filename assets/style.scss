@@ -67,10 +67,10 @@ li ul {
 
 article{
   width: fit-content;
+  min-width: 50vw;
   max-width: 64ch;
   padding: 1rem;
   margin: 0 auto;
-  min-width: 33vw;
 }
 
 article.code{
@@ -119,10 +119,9 @@ summary:hover{
   background: inherit;
   color: inherit;
   width: fit-content;
-  max-width: 60ch;
-  padding: 0.5rem;
+  min-width: 50vw;
+  padding: 0.2rem;
   margin: 0 auto;
-  min-width: 33vw;
 }
 
 .top{
@@ -134,12 +133,12 @@ summary:hover{
 
 .navbutton{
   font-size:1.2rem;  
-  margin-top: 0.8rem;
+  margin-top: 0.6rem;
   margin-left: 0.6rem;
 }
 
 .search{
-  margin-top:0.8rem;
+  margin-top:0.6rem;
   margin-right: 0.4rem;
 }
 
@@ -150,7 +149,7 @@ summary:hover{
 a.site-name {
   font-family: $serif;
   color: inherit;
-  font-size: 2.3rem;
+  font-size: 2rem;
   margin-right:1.2rem;
   
 }

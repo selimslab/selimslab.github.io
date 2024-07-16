@@ -1,7 +1,10 @@
 ---
-layout: default
+layout: page
+title: Page tree 
 ---
 
-<div style="margin-left:2rem; margin-top:4rem">
+{% include stats.html  %}
+
+<div style="margin-top:1rem">
 {{ site.data.tree_html }}
 </div>

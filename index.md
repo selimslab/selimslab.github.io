@@ -7,9 +7,10 @@ layout: page
 
 A personal knowledge graph   
 
-{% include stats.html  %}
 
 ## Index
+
+<a href="/tree/">All pages</a>
 
 {% include root.html  %}
 
