@@ -1,4 +1,5 @@
 ---
+title: Psychology in Literature
 tags: lit
 ---
 
