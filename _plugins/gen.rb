@@ -215,7 +215,7 @@ class SiteGenerator < Jekyll::Generator
         title = doc.data["title"]
         # sort children by their children count descending
         children = children.sort_by { |k, v| -v.length }.to_h
-        
+
         if children.empty?
           html += "<li><a href='#{id}/' target='_blank'>#{title}</a></li>" 
         else
