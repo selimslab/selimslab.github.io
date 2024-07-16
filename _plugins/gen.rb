@@ -218,7 +218,7 @@ class SiteGenerator < Jekyll::Generator
           html += "<li><a href='#{id}/' target='_blank'>#{title}</a></li>" 
         else
           html += "<details>"
-          html += "<summary>#{title}</summary>"
+          html += "<summary>📁 #{title}</summary>"
           html += "<li>"
           html += tree_to_html(site, children)
           html += "</li></details>"
