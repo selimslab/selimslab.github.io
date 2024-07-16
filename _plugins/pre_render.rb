@@ -6,6 +6,20 @@ CODE_PATH = "./_CODE"
 class SiteGenerator < Jekyll::Generator
     def generate(site)
 
+      init(site)
+
+      generate_tree(site)
+
+      site.documents.each do |doc|
+        process_doc(doc, site)
+      end
+
+      # add ideas to site.data
+      site.data["ideas"] = JSON.parse(File.read("./assets/data/ideas.json")).sort
+
+    end
+
+    def init(site)
       fix_frontmatter()
 
       site.documents.each do |doc|
@@ -18,21 +32,22 @@ class SiteGenerator < Jekyll::Generator
         [doc.id.sub(/^\//, ''), doc.data["title"]]
       end.to_h
 
+    end
+
+    def generate_tree(site)
       tree= bfs(site, NOTES_PATH)
       site.data["tree"] = tree
 
       site.data["tree_htmls"] = {}
       tree_to_html(site, tree, "root")
 
-      bfs(site, CODE_PATH)
-
-      site.documents.each do |doc|
-        process_doc(doc, site)
+      site.data["tree_htmls_without_self"] = {}
+      # for each element in site.data["tree_htmls"], remove link to self
+      site.data["tree_htmls"].each do |k, v|
+        site.data["tree_htmls_without_self"][k] = v.gsub(/<a href='#{k}\/'>.*?<\/a>/, "")
       end
 
-      # add ideas to site.data
-      site.data["ideas"] = JSON.parse(File.read("./assets/data/ideas.json")).sort
-
+      bfs(site, CODE_PATH)
     end
 
     def fix_frontmatter()

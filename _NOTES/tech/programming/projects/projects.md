@@ -1,5 +1,5 @@
 ---
-title: Mini Projects 
+title: Projects 
 tags: pro swe
 ---
 
