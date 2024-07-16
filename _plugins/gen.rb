@@ -213,12 +213,14 @@ class SiteGenerator < Jekyll::Generator
         next if docs.empty?
         doc = docs.first
         title = doc.data["title"]
+        # sort children by their children count
+        children = children.sort_by { |k, v| v.length }
 
         if children.empty?
           html += "<li><a href='#{id}/' target='_blank'>#{title}</a></li>" 
         else
           html += "<details>"
-          html += "<summary>📁 #{title}</summary>"
+          html += "<summary>#{title}</summary>"
           html += "<li>"
           html += tree_to_html(site, children)
           html += "</li></details>"
