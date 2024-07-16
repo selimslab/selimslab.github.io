@@ -1,11 +1,9 @@
 ---
 layout: page
-title: Welcome, friend! 
+title: Welcome, friend!
 ---
 
-Hi, this is Selim, yet another being on the pale blue dot. 
-
-Writing here to share and remember 
+This is Selim, yet another being on Planet Earth. Writing here to share and remember.
 
 [github.com/selimslab](https://github.com/selimslab)
 
