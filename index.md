@@ -7,15 +7,20 @@ layout: page
 
 A personal knowledge graph   
 
-
 ## Index
 
-<a href="/tree/">All pages</a>
 
-{% include root.html  %}
-
-{% include offline.html  %}
+<div style="margin-top:1rem">
+{{ site.data.tree_htmls["root"] }}
+</div>
 
 ## Featured
 
 {% include hub.html tag='top' %}
+
+
+## Stats 
+{% include stats.html  %}
+
+{% include offline.html  %}
+
