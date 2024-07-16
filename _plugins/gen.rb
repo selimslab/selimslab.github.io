@@ -12,19 +12,20 @@ class SiteGenerator < Jekyll::Generator
         doc.data['backlinks'] ||= []
       end 
 
+      site.data["file_to_title"] = site.documents.map do |doc| 
+        [doc.id.sub(/^\//, ''), doc.data["title"]]
+      end.to_h
+
       site.data["dirs"] = Hash.new { |hash, key| hash[key] = [] }
-      
+
       bfs(site, NOTES_PATH)
       bfs(site, CODE_PATH)
-      
-      remove_circular_tags(site)
-      visit_links(site)
-      remove_self_links(site)
 
-      # sort all values in site.data["dirs"]
       site.data["dirs"].each do |k, v|
         site.data["dirs"][k] = v.sort
       end
+
+      visit_links(site)
 
       # add ideas to site.data
       site.data["ideas"] = JSON.parse(File.read("./assets/data/ideas.json")).sort
@@ -52,89 +53,70 @@ class SiteGenerator < Jekyll::Generator
       end
     end 
 
-    def remove_circular_tags(site)
-      site.documents.each do |doc|   
-        # remove circular tags
-        file = doc.id.sub(/^\//, '')
-        doc.data['tags'] = doc.data['tags'].reject { |e| e == file }.uniq.sort
-      end
+\
+    def visit_links(site)
+      site.documents.each do |doc|
+        process_incoming_links(doc, site)
+        process_tags_to_backlinks(doc, site)
+        replace_links_in_content(doc, site)
 
-    end 
-
-    def remove_self_links(site)
-      site.documents.each do |doc|   
+        # remove links to self 
         doc.data['backlinks'] = doc.data['backlinks'].reject { |e| e.id == doc.id }.uniq.sort_by { |e| e.data["title"] }
+        
         # dedup tags 
         doc.data['tags'] = doc.data['tags'].uniq
-      end
-    end
 
-    def visit_links(site)
+        # remove_circular_tags
+        id = doc.id.sub(/^\//, '')
+        doc.data['tags'] = doc.data['tags'].reject { |e| e == id }.uniq.sort
 
-      tags_to_files = site.data["tags_to_files"]
-
-      file_to_tag_map = tags_to_files.map { |k, v| [v, k] }.to_h
-      
-      file_to_title_map = site.documents.map { |doc| [doc.id.sub(/^\//, ''), doc.data["title"]] }.to_h
-      site.data["file_to_title_map"] = file_to_title_map
-
-      site.documents.each do |doc|
-
-        # incoming links
-        src = doc.id.sub(/^\//, '')
-        linking_to_doc = site.documents.filter do |e|
-          # select which includes [src] or /src 
-          e.content.include?("[[#{src}]]") || e.content.include?("(/#{src})") 
-        end    
-
-        # append linked docs to backlinks
-        linking_to_doc.each do |linking_doc|
-          # skip dirs 
-          if site.data["dirs"][doc.id].include?(linking_doc.id)
-            next
-          end
-          doc.data['backlinks'] << linking_doc
-        end
-
-
-        # tags to backlinks
-        # if this doc has essais tag, add it to the backlinks of essais.md 
-        # or if its under projects folder, walker will add projects to its tags, 
-        doc.data["tags"].each do |tag|
-          # any doc with this tag in id 
-          tagfileid = "/" + tag 
-          # if tag in tags_to_files, use that instead
-          if tags_to_files.has_key?(tag)
-            tagfileid = "/" + tags_to_files[tag]
-          end
-
-          tagfiles = site.documents.filter do |e| e.id == tagfileid  end
-          # append tagged docs to backlinks
-          tagfiles.each do |tagfile|
-            tagfile.data['backlinks'] ||= []
-            # if doc in site.data["dirs"][tagfileid], do not add to backlinks
-            if site.data["dirs"][tagfileid].include?(doc.id)
-              next
-            end
-            tagfile.data['backlinks'] << doc
-          end
-        end
-
-        # replace [[file]] with [title](/file/)
-        links = doc.content.scan(/\[\[[a-z0-9-]*\]\]/)
-        links.each do |link|
-          trg = link.gsub(/\[\[/, '').gsub(/\]\]/, '')
-          if tags_to_files.has_key?(trg)
-            trg = tags_to_files[trg]
-          end
-          title = file_to_title_map[trg]
-          markdown_link = "[#{title}](/#{trg}/)"
-          doc.content = doc.content.gsub(/#{Regexp.escape(link)}/, markdown_link)
-        end 
       end
 
     end
-
+    
+    def process_incoming_links(doc, site)
+      src = doc.id.sub(/^\//, '')
+      linking_to_doc = site.documents.select do |e|
+        e.content.include?("[[#{src}]]") || e.content.include?("(/#{src})")
+      end
+    
+      linking_to_doc.each do |linking_doc|
+        next if site.data["dirs"][doc.id].include?(linking_doc.id)
+    
+        doc.data['backlinks'] << linking_doc
+      end
+    end
+    
+    def process_tags_to_backlinks(doc, site)
+      tag_to_file = site.data["tag_to_file"]
+    
+      doc.data["tags"].each do |tag|
+        tagfileid = tag_to_file.has_key?(tag) ? "/" + tag_to_file[tag] : "/" + tag
+    
+        tagfiles = site.documents.select { |e| e.id == tagfileid }
+        tagfiles.each do |tagfile|
+          next if site.data["dirs"][tagfileid].include?(doc.id)
+    
+          tagfile.data['backlinks'] ||= []
+          tagfile.data['backlinks'] << doc
+        end
+      end
+    end
+    
+    def replace_links_in_content(doc, site)
+      tag_to_file = site.data["tag_to_file"]
+      file_to_title = site.data["file_to_title"]
+    
+      links = doc.content.scan(/\[\[[a-z0-9-]*\]\]/)
+      links.each do |link|
+        target = link.gsub(/\[\[/, '').gsub(/\]\]/, '')
+        target = tag_to_file[target] if tag_to_file.has_key?(target)
+        title = file_to_title[target]
+        markdown_link = "[#{title}](/#{target}/)"
+        doc.content = doc.content.gsub(/#{Regexp.escape(link)}/, markdown_link)
+      end
+    end
+    
 
     def bfs(site, path)
       
@@ -160,18 +142,19 @@ class SiteGenerator < Jekyll::Generator
 
           next if child == '.' || child == '..'  || child.start_with?('.') || child.start_with?('_') 
 
+          child_basename = File.basename(child)
           child_path = File.join(parent_path, child)
 
           if File.directory?(child_path)
             # both child and parent_basename are dirs, no need to strip .md 
-            child_id = "/" + File.basename(child)
+            child_id = "/" + child_basename
 
             site.data["dirs"][parent_id] << child_id
             queue.push([child_path, branch[parent_id]])
             
           elsif path != parent_basename
-            tag_to_parent(site, child, parent_basename)
-            child_id = "/" + File.basename(child).sub(/\..*/, '')
+            child_id = "/" + child_basename.sub(/\..*/, '')
+            tag_to_parent(site, child_basename, child_id, parent_basename, parent_id)
           end
           branch[parent_id][child_id] ||= {}
 
@@ -189,20 +172,23 @@ class SiteGenerator < Jekyll::Generator
 
     end
 
-    def tag_to_parent(site, child, parent)
-      if parent == "_CODE"
-        parent = "code"
+    def tag_to_parent(site, child_basename, child_id, parent_basename, parent_id)
+      if parent_basename == "_CODE"
+        parent_basename = "code"
       end
-      # take immediate parent dir 
-      id = "/" + File.basename(child).sub(/\..*/, '')
-      docs = site.documents.filter do |e| e.id == id end
-  
-      if docs.length > 0 
-        doc = docs[0]
-        doc.data['tags'] ||= []
-        doc.data['tags'] << parent
+      child_doc = site.documents.find { |e| e.id == child_id }
+      parent_doc = site.documents.find { |e| e.id == parent_id }
+
+      if child_doc
+        child_doc.data['tags'] ||= []
+        child_doc.data['tags'] << parent_basename
       end
 
+      if parent_doc
+        parent_doc.data['children'] ||= []
+        parent_doc.data['children'] << child_basename
+      end
+      
     end
 
     def tree_to_html(site, tree)
@@ -213,9 +199,9 @@ class SiteGenerator < Jekyll::Generator
         next if docs.empty?
         doc = docs.first
         title = doc.data["title"]
-        # sort children by their children count descending
-        children = children.sort_by { |k, v| -v.length }.to_h
-
+        # sort children by their children count descending, keep alphabetical order
+        children = children.sort_by { |k, v| [-v.length, k] }.to_h
+        
         if children.empty?
           html += "<li><a href='#{id}/' target='_blank'>#{title}</a></li>" 
         else

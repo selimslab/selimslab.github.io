@@ -318,3 +318,19 @@ Yaşamak kolay değil ya kardeşler,
 Kolay değil bu dünyadan ayrılmak.
 
 ---
+
+
+
+Kıran vurdu memleketi
+
+Zalimler hakan olmuştur
+
+Yedikleri yoksul eti
+
+İçtikleri kan olmuştur.
+
+Nerde varsa böyle zulüm
+
+Çaresi isyan olmuştur.
+
+Ataol Behramoğlu 
