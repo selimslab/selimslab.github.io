@@ -19,3 +19,5 @@ How to write better?
 ![](/static/img/remove-redundant-words.png)
 
 > "Il faut cultiver notre jardin"
+
+[[zen-of-python]]

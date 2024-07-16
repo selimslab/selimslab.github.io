@@ -56,7 +56,7 @@ class SiteGenerator < Jekyll::Generator
       end
     end
 
-\
+
     def visit_links(site)
       site.documents.each do |doc|
         process_incoming_links(doc, site)
@@ -122,9 +122,7 @@ class SiteGenerator < Jekyll::Generator
       end
     end
 
-
     def bfs(site, path)
-
       tree = {}
       queue = [[path, tree]]
       root = nil
@@ -133,105 +131,86 @@ class SiteGenerator < Jekyll::Generator
         parent_path, branch = queue.shift
         parent_basename = File.basename(parent_path)
         parent_id = "/" + parent_basename
-        if root.nil?
-          root = parent_id
-        end
+
+        root ||= parent_id
 
         branch[parent_id] ||= {}
 
-        entries = Dir.entries(parent_path)
-        # sort entries
-        entries.sort_by! { |e| e.downcase }
-
-        entries.each do |child|
-
-          next if child == '.' || child == '..'  || child.start_with?('.') || child.start_with?('_')
+        Dir.entries(parent_path).sort.each do |child|
+          next if ['.', '..', '.', '_'].include?(child) || child.start_with?('.')
 
           child_basename = File.basename(child)
           child_path = File.join(parent_path, child)
 
           if File.directory?(child_path)
-            # both child and parent_basename are dirs, no need to strip .md
             child_id = "/" + child_basename
             next if child_id == parent_id
+
             site.data["dirs"][parent_id] << child_id
             queue.push([child_path, branch[parent_id]])
-
           elsif path != parent_basename
             child_id = "/" + child_basename.sub(/\..*/, '')
-            next if child_id == parent_id
 
             link_to_parent(site, child_basename, child_id, parent_basename, parent_id)
           end
           branch[parent_id][child_id] ||= {}
-          site.data["child_to_parent"][child_id] = parent_id
+
+          if child_id != parent_id
+            site.data["child_to_parent"][child_id] = parent_id
+          end
 
         end
-
       end
 
       tree = tree[root]
 
       if path == NOTES_PATH
         site.data["tree"] = tree
-        site.data["tree_htmls"]= {}
-        html = tree_to_html(site, tree, "root")
+        site.data["tree_htmls"] = {}
+        return tree_to_html(site, tree, "root")
       end
-
     end
 
     def tree_to_html(site, tree, root_id)
-      return "" if tree.empty?
-      html = "<ul>"
-      tree.each do |file_id, children|
-        docs = site.documents.select { |e| e.id == file_id }
-        next if docs.empty?
-        doc = docs.first
-        title = doc.data["title"]
-        # sort children by their children count descending, keep alphabetical order
-        children = children.sort_by { |k, v| [-v.length, k] }.to_h
+      html = ""
 
-        if children.empty?
-          html += "<li><a href='#{file_id}/'>#{title}</a></li>"
-        else
-          html += "<details>"
-          html += "<summary>#{title}</summary>"
-          html += "<li>"
-          html += tree_to_html(site, children, file_id)
-          html += "</li></details>"
+      unless tree.empty?
+        html += "<ul>"
+        tree.each do |file_id, children|
+          docs = site.documents.select { |e| e.id == file_id }
+          next if docs.empty?
+
+          doc = docs.first
+          title = doc.data["title"]
+          children = children.sort_by { |k, v| [-v.length, k] }.to_h
+
+          if children.empty?
+            html += "<li><a href='#{file_id}/'>#{title}</a></li>"
+          else
+            html += "<details><summary>#{title}</summary>"
+            html += "<li>" + tree_to_html(site, children, file_id) + "</li></details>"
+          end
         end
+        html += "</ul>"
+        site.data["tree_htmls"][root_id] = html
       end
-      html += "</ul>"
-      site.data["tree_htmls"][root_id] = html
 
       html
     end
 
-
     def link_to_parent(site, child_basename, child_id, parent_basename, parent_id)
-      if parent_basename == "_CODE"
-        parent_basename = "code"
-      end
+      parent_basename = "code" if parent_basename == "_CODE"
 
       child_doc = site.documents.find { |e| e.id == child_id }
       parent_doc = site.documents.find { |e| e.id == parent_id }
 
-      if !child_doc || !parent_doc
-        return
-      end
-
-      if child_doc == parent_doc
-        puts "Error: #{child_id} is linking to itself"
-        return
-      end
+      return unless child_doc && parent_doc && child_doc != parent_doc
 
       link = "<a class='toplink' href='#{parent_id}/'>#{parent_doc.data['title']}</a>"
       child_doc.data['parentlink'] = link
 
       parent_doc.data['children'] ||= []
       parent_doc.data['children'] << child_basename
-
     end
-
 
   end
