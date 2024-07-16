@@ -167,6 +167,11 @@ a.site-name {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  article{
+    width: 100%;
+  }
+}
 
 @media only screen and (max-width: 900px) {
   .img-full {
@@ -281,8 +286,8 @@ html[data-theme='light'] {
 }
 
 details{
-  margin-bottom: 0.6rem;
-  margin-top: 0.6rem;
+  margin-bottom: 0.7rem;
+  margin-top: 0.7rem;
 }
 
 .toplink{
