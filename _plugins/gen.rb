@@ -72,6 +72,15 @@ class SiteGenerator < Jekyll::Generator
         id = doc.id.sub(/^\//, '')
         doc.data['tags'] = doc.data['tags'].reject { |e| e == id }.uniq.sort
 
+        # short_tag = site.data["file_to_tag"][parent_basename]
+        # if short_tag
+        #   if !child_doc.data['tags'].include?(short_tag)
+        #     child_doc.data['tags'] << short_tag
+        #   end
+        # elsif !child_doc.data['tags'].include?(parent_basename)
+        #   child_doc.data['tags'] << parent_basename
+        # end
+
       end
 
     end
@@ -102,7 +111,9 @@ class SiteGenerator < Jekyll::Generator
           tagfile.data['backlinks'] ||= []
           tagfile.data['backlinks'] << doc
         end
+
       end
+
     end
 
     def replace_links_in_content(doc, site)
@@ -156,7 +167,7 @@ class SiteGenerator < Jekyll::Generator
 
           elsif path != parent_basename
             child_id = "/" + child_basename.sub(/\..*/, '')
-            tag_to_parent(site, child_basename, child_id, parent_basename, parent_id)
+            link_to_parent(site, child_basename, child_id, parent_basename, parent_id)
           end
           branch[parent_id][child_id] ||= {}
 
@@ -168,46 +179,17 @@ class SiteGenerator < Jekyll::Generator
 
       if path == NOTES_PATH
         site.data["tree"] = tree
-        html = tree_to_html(site, tree)
-        site.data["tree_html"] = html
+        site.data["tree_htmls"]= {}
+        html = tree_to_html(site, tree, "root")
       end
 
     end
 
-    def tag_to_parent(site, child_basename, child_id, parent_basename, parent_id)
-      if parent_basename == "_CODE"
-        parent_basename = "code"
-      end
-      child_doc = site.documents.find { |e| e.id == child_id }
-      parent_doc = site.documents.find { |e| e.id == parent_id }
-
-      if !child_doc || !parent_doc
-        return
-      end
-
-      child_doc.data['tags'] ||= []
-
-      short_tag = site.data["file_to_tag"][parent_basename]
-      if short_tag
-        if !child_doc.data['tags'].include?(short_tag)
-          child_doc.data['tags'] << short_tag
-        end
-      else
-        child_doc.data['tags'] << parent_basename
-      end
-
-      if parent_doc
-        parent_doc.data['children'] ||= []
-        parent_doc.data['children'] << child_basename
-      end
-
-    end
-
-    def tree_to_html(site, tree)
+    def tree_to_html(site, tree, root_id)
       return "" if tree.empty?
       html = "<ul>"
-      tree.each do |id, children|
-        docs = site.documents.select { |e| e.id == id }
+      tree.each do |file_id, children|
+        docs = site.documents.select { |e| e.id == file_id }
         next if docs.empty?
         doc = docs.first
         title = doc.data["title"]
@@ -215,18 +197,42 @@ class SiteGenerator < Jekyll::Generator
         children = children.sort_by { |k, v| [-v.length, k] }.to_h
 
         if children.empty?
-          html += "<li><a href='#{id}/' target='_blank'>#{title}</a></li>"
+          html += "<li><a href='#{file_id}/' target='_blank'>#{title}</a></li>"
         else
           html += "<details>"
           html += "<summary>#{title}</summary>"
           html += "<li>"
-          html += tree_to_html(site, children)
+          html += tree_to_html(site, children, file_id)
           html += "</li></details>"
         end
       end
       html += "</ul>"
+      site.data["tree_htmls"][root_id] = html
 
       html
     end
+
+
+    def link_to_parent(site, child_basename, child_id, parent_basename, parent_id)
+      if parent_basename == "_CODE"
+        parent_basename = "code"
+      end
+
+      child_doc = site.documents.find { |e| e.id == child_id }
+      parent_doc = site.documents.find { |e| e.id == parent_id }
+
+      if !child_doc || !parent_doc
+        return
+      end
+
+      child_doc.data['breadcrumbs'] ||= []
+      link = "<a href='#{parent_id}/'>#{parent_doc.data['title']}</a>"
+      child_doc.data['breadcrumbs'] << link
+
+      parent_doc.data['children'] ||= []
+      parent_doc.data['children'] << child_basename
+
+    end
+
 
   end

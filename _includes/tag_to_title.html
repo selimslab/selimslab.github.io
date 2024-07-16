@@ -1,8 +1,10 @@
 
 
+{% assign tag = include.tag %} 
+
 {% assign file = tag %} 
 
-{% if site.data.tag_to_file contains include.tag %} 
+{% if site.data.tag_to_file contains tag %} 
     {% assign file = site.data.tag_to_file[tag] %} 
 {% endif %}
 

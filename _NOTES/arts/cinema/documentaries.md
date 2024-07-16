@@ -1,5 +1,5 @@
 ---
-tags: cinema lists
+tags: lists
 ---
 
 Daguerréotypes, Agnès Varda, 1975 

@@ -1,6 +1,6 @@
 <ul>
     {% for tag in site.data.root %} 
-    {% include tag.html tag=tag %}
+    {% include tag_to_title.html tag=tag %}
     <li>
         <a href="/{{file}}/">{{title}}</a>
     </li>

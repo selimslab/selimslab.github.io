@@ -1,23 +1,18 @@
 
 
 <!-- does site.data.dirs hash has this page.id -->
-{% assign dirs = site.data.dirs[page.id] %}
-{% if dirs.size > 0 %}
-    <ul>
-        {% for id in dirs %}
-            <!-- find the page with this id -->
-            {% assign dirpage = site.documents | where: 'id', id | first %}
-            <li><a href="{{ site.dirpage }}{{ dirpage.url }}">📁 {{ dirpage.title }}</a></li>
-        {% endfor %}
-    </ul>
+
+
+{% if page.children.size > 0 %}
+{{ site.data.tree_htmls[page.id] }}
 {% endif %}
 
 {% if page.backlinks.size > 0 %}
 <h2>Links to this page</h2>
 <ul>
-    {% assign sorted_backlinks = page.backlinks | sort: 'title' %}
-    {% for backlink in sorted_backlinks %}
-        <li><a href="{{ site.url }}{{ backlink.url }}">{{ backlink.title }}</a></li>
+    {% assign sorted = page.backlinks | sort: 'title' %}
+    {% for doc in sorted %}
+        <li><a href="{{ site.url }}{{ doc.url }}">{{ doc.title }}</a></li>
     {% endfor %}
 </ul>
 {% endif %}
