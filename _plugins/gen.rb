@@ -64,6 +64,8 @@ class SiteGenerator < Jekyll::Generator
     def remove_self_links(site)
       site.documents.each do |doc|   
         doc.data['backlinks'] = doc.data['backlinks'].reject { |e| e.id == doc.id }.uniq.sort_by { |e| e.data["title"] }
+        # dedup tags 
+        doc.data['tags'] = doc.data['tags'].uniq
       end
     end
 
@@ -77,12 +79,14 @@ class SiteGenerator < Jekyll::Generator
       site.data["file_to_title_map"] = file_to_title_map
 
       site.documents.each do |doc|
+
         # incoming links
         src = doc.id.sub(/^\//, '')
         linking_to_doc = site.documents.filter do |e|
           # select which includes [src] or /src 
           e.content.include?("[[#{src}]]") || e.content.include?("(/#{src})") 
-        end        
+        end    
+
         # append linked docs to backlinks
         linking_to_doc.each do |linking_doc|
           # skip dirs 
@@ -91,7 +95,8 @@ class SiteGenerator < Jekyll::Generator
           end
           doc.data['backlinks'] << linking_doc
         end
-        
+
+
         # tags to backlinks
         # if this doc has essais tag, add it to the backlinks of essais.md 
         # or if its under projects folder, walker will add projects to its tags, 
@@ -130,30 +135,6 @@ class SiteGenerator < Jekyll::Generator
 
     end
 
-    def tree_to_html(site, tree)
-      return "" if tree.empty?
-      html = "<ul>"
-      tree.each do |id, children|
-        docs = site.documents.select { |e| e.id == id }
-        next if docs.empty?
-        doc = docs.first
-        title = doc.data["title"]
-
-        if children.empty?
-          html += "<li><a href='#{id}/' target='_blank'>#{title}</a></li>" 
-        else
-          html += "<details>"
-          html += "<summary>#{title}</summary>"
-          html += "<li>"
-          html += tree_to_html(site, children)
-          html += "</li></details>"
-        end
-      end
-      html += "</ul>"
-      
-      html
-    end
-    
 
     def bfs(site, path)
       
@@ -222,6 +203,30 @@ class SiteGenerator < Jekyll::Generator
         doc.data['tags'] << parent
       end
 
+    end
+
+    def tree_to_html(site, tree)
+      return "" if tree.empty?
+      html = "<ul>"
+      tree.each do |id, children|
+        docs = site.documents.select { |e| e.id == id }
+        next if docs.empty?
+        doc = docs.first
+        title = doc.data["title"]
+
+        if children.empty?
+          html += "<li><a href='#{id}/' target='_blank'>#{title}</a></li>" 
+        else
+          html += "<details>"
+          html += "<summary>#{title}</summary>"
+          html += "<li>"
+          html += tree_to_html(site, children)
+          html += "</li></details>"
+        end
+      end
+      html += "</ul>"
+      
+      html
     end
 
   end
