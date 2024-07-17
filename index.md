@@ -9,7 +9,6 @@ A personal knowledge graph
 
 ## Index
 
-
 <div style="margin-top:1rem">
 {{ site.data.tree_htmls["root"] }}
 </div>

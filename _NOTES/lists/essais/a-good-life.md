@@ -17,13 +17,13 @@ Consider beginnings. Solve problems while they are still small.
 
 Nothing in excess. Simple things are the best. 
 
-Neither chase nor avoid emotions, feel and let go. 
+Neither chase nor avoid, feel and let go. 
 
-Do what feels right over what is easy.
+Do what feels right over what you crave.
 
-Neither chase pleasure nor avoid necessary pain.  
+Do nothing in anger. 
 
-Do nothing in anger. The world is full of nonsense. It’s not personal. It doesn’t matter. Don't let it get you down. 
+The world is full of nonsense. It’s not personal. It doesn’t matter. Don't let it get you down. 
 
 Complain less, appreciate more. 
 
