@@ -4,12 +4,14 @@ A personal knowledge base (or graph/wiki/digital garden)
 
 View at <https://selimslab.github.io>
 
+<br>
+
 [![CI/CD](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml/badge.svg)](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml)
 
 
 ## Why?
 
-Like a personal shared internet archive, it's a single place to keep everything I like. My notes, code snippets, lists, artworks, ideas, poems, articles, PDFs, and images clipped from the web, ..
+Like a personal shared internet archive, it's a single place to keep everything I like. My notes, code snippets, lists, artworks, ideas, poems, articles, PDFs, and images clipped from the web, etc.
 
 I wanted to build something I'd love to use every day and I'm happy that it worked. 
 
@@ -19,6 +21,8 @@ I wanted to build something I'd love to use every day and I'm happy that it work
 Plain markdown files, published with jekyll. Mostly written in vscode or obsidian. 
 
 Minimal, no ads, no analytics. 
+
+Built upon [barryclark/jekyll-now](https://github.com/barryclark/jekyll-now)
 
 ## Connected graph  
 
@@ -52,4 +56,3 @@ Search, theme, page-dice and idea-machine also work offline. Artwork shuffle wil
 ```
 bundle exec jekyll serve --trace --incremental --profile
 ```
-
