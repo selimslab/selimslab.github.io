@@ -7,74 +7,54 @@ tags: phil skills top
 
 [Learn and move on](/the-past)
 
-You become what you do. Garbage in, garbage out. 
+[[one-bit-better]]  
 
-Do your best, here and now. 
+Consider beginnings. Solve problems while they are still small.
 
-[[on-decision-making]]
-
-Consider beginnings. Solve problems while they are still small. [[do-without-doing]]
-
-Nature does not hurry yet everything is accomplished. 
+[[do-without-doing]] 
 
 ![](/static/img/boy-and-cat.jpeg)
 
-"Well being is attained little by little, and nevertheless is no little thing itself" [[one-bit-better]]  
+Nothing in excess. Simple things are the best. 
 
-Enjoy yourself, it's later than you think. 
+Neither chase nor avoid emotions, feel and let go. 
 
-[[life-is-not-short]] 
+Do what feels right over what is easy.
 
-[[death]]
+Neither chase pleasure nor avoid necessary pain.  
 
-Simple things are the best. [[take-a-walk]]
+Do nothing in anger. The world is full of nonsense. It’s not personal. It doesn’t matter. Don't let it get you down. 
 
-Nothing in excess. [[moderation]]
+Complain less, appreciate more. 
 
-> O snail
->
-> Climb Mount Fuji,
->
-> But slowly, slowly!
-
-[[wind-and-rain]]
-
-Neither chase pleasure nor avoid necessary pain. Do what feels right over what is easy. 
-
-Do not chase or avoid emotions, feel and let go. 
-
-The world is full of nonsense. It’s not personal. It doesn’t matter. Don't let it get you down. 
-
-What is the use of negativity? Complain less, appreciate more. 
+Channel your pain to build strength. This too shall pass. 
 
 ![](/static/img/notice-when-you-are-happy.png)
-
-Do nothing in anger. Do you have to prove anything?
-
-It's possible to channel pain to build character and strength. This too shall pass. 
-
-[[character]]
 
 > Tis better to have loved and lost
 >
 > Than never to have loved at all.
 
-Fear leads to anger, anger leads to hate. 
+Truth has many faces. Even all the knowledge of humanity is next to nothing. Judge less, accept more. 
 
-Cruelty springs from weakness. [[who-goes-nazi]]
+Listen more than you speak. Know your limits. Don’t take yourself too seriously. 
+
+Never miss a good chance to shut up.
+
+## See also 
+
+[[character]]
+
+[[cognitive-biases]] 
+
+[[death]]
 
 [[happiness]]
 
-Know your limits. Don’t take yourself too seriously. 
+[[life-is-not-short]] 
 
-[[truth]] has many faces and even all the knowledge of humanity is next to nothing. 
+[[moderation]]
 
-Judge less, accept more. [[cognitive-biases]]
+[[on-decision-making]]
 
-[[work-phil]]
-
-Listen more than you speak. 
-
-[[know-where-to-stop]]
-
-Never miss a good chance to shut up.
+[[take-a-walk]]

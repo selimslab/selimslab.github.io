@@ -10,3 +10,5 @@
 - Does it really matter?
 - "We suffer more in imagination than in reality"
 - Why should I get so surprised? What is so unexpected?
+
+Fear leads to anger, anger leads to hate. 

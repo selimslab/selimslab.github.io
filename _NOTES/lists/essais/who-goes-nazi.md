@@ -3,6 +3,7 @@ title: Who Goes Nazi
 tags: pols
 ---
 
+"Cruelty springs from weakness."
 
 [Who Goes Nazi by Dorothy Thompson](https://harpers.org/archive/1941/08/who-goes-nazi/)
 

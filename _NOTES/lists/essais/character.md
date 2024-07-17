@@ -13,6 +13,10 @@ Real wealth is building character. Applying your qualities. Healing your wounds.
 
 "Circumstances don't make the man but reveal him"  
 
+## See also 
+
 [[do-not-lie-to-yourself]]
+
+[[who-goes-nazi]]
 
 ![](/static/img/principles-all-the-time.jpeg)
