@@ -2,6 +2,21 @@
 
 A personal knowledge graph/wiki/digital garden. View at <https://selimslab.github.io>
 
+[![Deploy Jekyll site to Pages](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml/badge.svg)](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml)
+
+## Setup
+
+1. clone the repo
+3. install ruby <https://www.ruby-lang.org/en/downloads/>
+4. `gem install bundler jekyll`
+5. `bundle install`
+
+## Serve
+```
+bundle exec jekyll serve --trace --incremental --profile
+```
+
+## How it works 
 Plain markdown notes published with jekyll. Minimal, no ads, no analytics. 
 
 ## Connected graph  
@@ -21,28 +36,4 @@ Works offline. A service worker caches all static pages (4-5mb) on the first ope
 Search, dark mode, and idea shuffle also work offline. 
 
 Artwork shuffle needs network since images are heavy so they can't be cached. 
-
-[![Deploy Jekyll site to Pages](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml/badge.svg)](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml)
-
-## Setup
-
-1. clone the repo
-3. install ruby <https://www.ruby-lang.org/en/downloads/>
-4. `gem install bundler jekyll`
-5. `bundle install`
-
-## Serve
-```
-bundle exec jekyll serve --trace --profile --incremental
-```
-
-## Features 
-1. Minimal
-2. No ads
-3. Wiki links
-4. Backlinks
-5. Works offline
-6. Dark mode
-7. Search
-8.
 
