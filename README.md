@@ -2,7 +2,7 @@
 
 A personal knowledge base (or graph/wiki/digital garden). View at <https://selimslab.github.io>
 
-
+[![Deployment](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml/badge.svg)](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml)
 
 
 ## Why?
@@ -51,4 +51,3 @@ Search, theme, page-dice and idea-machine also work offline. Artwork shuffle wil
 bundle exec jekyll serve --trace --incremental --profile
 ```
 
-[![Deploy Jekyll site to Pages](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml/badge.svg)](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml)
