@@ -2,13 +2,14 @@
 tags: top
 ---
 
+[Crash Course Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo) and [Harvard CS50](https://www.youtube.com/playlist?list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW) are great introductions to fundamental concepts. 
+
+[Grokking algorithms](http://93.174.95.29/main/9F2B390517083CF4485BA524B80815F5) is a visual and fun algorithms book  
+
 <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418">
 <img src="/static/img/teapot.png">
 </a>
 
-[Crash Course Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo) and [Harvard CS50](https://www.youtube.com/playlist?list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW) are great introductions to fundamental concepts. 
-
-[Grokking algorithms](http://93.174.95.29/main/9F2B390517083CF4485BA524B80815F5) is a visual and fun algorithms book  
 
 ## See also 
 
