@@ -4,7 +4,7 @@ tags: top
 
 [Crash Course Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo) and [Harvard CS50](https://www.youtube.com/playlist?list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW) are great introductions to fundamental concepts. 
 
-[Grokking algorithms](http://93.174.95.29/main/9F2B390517083CF4485BA524B80815F5) is a visual and fun algorithms book  
+Grokking Algorithms by Aditya Bhargava is visual and fun. I think it's the best algorithms book for new programmers. 
 
 ## See also 
 
