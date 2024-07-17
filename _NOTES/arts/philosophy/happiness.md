@@ -4,13 +4,17 @@ tags: soc psy
 
 “Something to do, someone to love, something to hope for.”
 
-![](/static/img/happier-dog.jpeg)
+A large part of happiness depends on health. Freedom, security, love, friendship, flourishing, .. 
+
+![](/static/img/notice-when-you-are-happy.png)
 
 "Happiness always looks small while you hold it in your hands, but let it go, and you learn at once how big and precious it is." _Maxim Gorky_
 
+![](/static/img/boy-and-cat.jpeg)
+
 “Folks are usually about as happy as they make their minds up to be.” _Abraham Lincoln_
 
-![](/static/img/notice-when-you-are-happy.png)
+![](/static/img/happier-dog.jpeg)
 
 “Time you enjoy wasting is not wasted time.” 
 
