@@ -20,20 +20,22 @@ bundle exec jekyll serve --trace --incremental --profile
 Plain markdown notes published with jekyll. Minimal, no ads, no analytics. 
 
 ## Connected graph  
-All pages have a unique name so file name is file id.
 
-Any file can link to any other using its id, with html, markdown, or [[wikilink]] format.
+All pages have a unique name so file name is also file id.
 
-See which pages links to the current page (backlinks or incoming links)
+Any file can link to any other using its id. With html, markdown, or [[wikilink]] format.
 
-Files can also tag each other. Tags are defined at `_data\tag_to_file.yml`
+Pages list which other pages links to them (backlinks or incoming links)
+
+Files can also tag each other. Tags are defined at `_data\tag_to_file.yml` 
+Tags of a page is listed above its title. 
 
 `_plugins\gen.rb` visits all pages before rendering, figures out document tree, replaces wikilinks with html links, and adds backlinks to page metadata. 
 
 ## Offline 
 Works offline. A service worker caches all static pages (4-5mb) on the first open. 
 
-Search, dark mode, and idea shuffle also work offline. 
+Search, theme, and idea-shuffle also work offline. 
 
 Artwork shuffle needs network since images are heavy so they can't be cached. 
 
