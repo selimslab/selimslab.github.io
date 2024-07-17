@@ -11,7 +11,7 @@ View at <https://selimslab.github.io>
 
 ## Why?
 
-Like a personal shared internet archive, it's a single place to keep everything I like. My notes, code snippets, lists, artworks, ideas, poems, articles, PDFs, and images clipped from the web, etc.
+Like a personal shared internet archive, it's a single place to keep everything I like. My notes, code snippets, experiments, projects, lists, artworks, ideas, poems, articles, PDFs, images, things clipped from the web, etc.
 
 I wanted to build something I'd love to use every day and I'm happy that it worked. 
 
