@@ -1,8 +1,10 @@
 #  Project Delta
 
-A personal knowledge base (or graph/wiki/digital garden). View at <https://selimslab.github.io>
+A personal knowledge base (or graph/wiki/digital garden)
 
-[![Deployment](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml/badge.svg)](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml)
+View at <https://selimslab.github.io>
+
+[![CI/CD](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml/badge.svg)](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml)
 
 
 ## Why?
