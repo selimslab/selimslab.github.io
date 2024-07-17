@@ -20,9 +20,12 @@ A personal knowledge graph
 
 
 ## Stats 
+
 {% include stats.html  %}
 
 {% include offline.html  %}
+
+## Tap to shuffle   
 
 {% include random-artwork.html %}
 

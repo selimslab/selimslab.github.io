@@ -1,4 +1,6 @@
 get_random_idea = async () =>{
+    document.getElementById("ideaMachine").classList.toggle('clicked');
+
     fetch("/assets/data/ideas.json", {headers:{     
             'Content-Type': 'application/json',
             'cache': "force-cache"
