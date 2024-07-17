@@ -8,13 +8,11 @@ View at <https://selimslab.github.io>
 
 [![CI/CD](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml/badge.svg)](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml)
 
-
-## Why?
+## Why 
 
 Like a personal shared internet archive, it's a single place to keep everything I like. My notes, code snippets, experiments, projects, lists, artworks, ideas, poems, articles, PDFs, images, things clipped from the web, etc.
 
 I wanted to build something I'd love to use every day and I'm happy that it worked. 
-
 
 ## How it works 
 
@@ -36,14 +34,16 @@ Pages list which other pages links to them (backlinks or incoming links)
 Files can also tag each other. Tags are defined at `_data\tag_to_file.yml` 
 Tags of a page is listed above its title. 
 
-## Plugin 
-`_plugins\gen.rb` visits all pages before rendering, figures out document tree, replaces wikilinks with html links, and adds backlinks to page metadata. 
-
 ## Offline 
 
-Works offline. A service worker caches all static pages (4-5mb) on the first open. 
+Works offline. A service worker caches all static pages (4-5mb) on the first visit. 
 
-Search, theme, page-dice and idea-machine also work offline. Artwork shuffle will only work images you've seen before.  
+Search, theme, page-dice and idea-machine also work offline. Artwork shuffle will only work with images you've seen before.  
+
+## Plugin 
+`_plugins\gen.rb` visits all pages before rendering. 
+
+Figures out document tree, replaces wikilinks with html links, and adds backlinks to page metadata. 
 
 ## Setup
 
