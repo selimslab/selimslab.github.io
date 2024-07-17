@@ -1,6 +1,5 @@
 ---
 title: Design a blockchain 
-layout: code
 ---
 
 ```python

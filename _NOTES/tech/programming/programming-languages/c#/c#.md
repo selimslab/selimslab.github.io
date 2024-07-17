@@ -1,15 +1,16 @@
 ---
-title: C#
+title: C# 
 ---
+[C# docs - get started, tutorials, reference. | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
+
+[Tutorial: Build algorithms with pattern matching - C# | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/pattern-matching)
 
 ```c#
-
 using System;
 
 class LanguageTour{
     
     static void Main(){
-
 
     }
 
@@ -27,6 +28,4 @@ class LanguageTour{
         (_, _) => true,
     };
 }
-
-
 ```

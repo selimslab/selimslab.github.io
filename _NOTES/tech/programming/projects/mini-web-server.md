@@ -1,6 +1,6 @@
 ---
 title: A web server from scratch
-layout: code
+
 ---
 
 Inspired by [Ruslan's blog](https://ruslanspivak.com/lsbaws-part1/)

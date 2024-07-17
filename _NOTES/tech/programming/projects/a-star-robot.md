@@ -1,6 +1,6 @@
 ---
 title: A* path-finding algorithm for a robot 
-layout: code
+
 ---
 
 Path finding algorithm of a robot named "minik", running The Robot Operating System (ROS) 

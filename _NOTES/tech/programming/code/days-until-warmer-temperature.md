@@ -5,20 +5,21 @@ tags: stack easy
 
 
 ```python
-def dailyTemperatures(T):
+def dailyTemperatures(temps:list):
     """
     how many days you would have to wait until a warmer temperature ? 
     """
     
     stack = []  # Stack to store indices of temperatures
-    result = [0] * len(T)  # Initialize the result list with zeros
+    result = [0] * len(temps)  # Initialize the result list with zeros
 
-    for current_day in range(len(T)):
+    for current_day in range(len(temps)):
         # Check if the current day's temperature is warmer 
         # than temperatures in the stack
-        while stack and T[current_day] > T[stack[-1]]:
-            previous_day = stack.pop()  # Get the index of the previous day
-            result[previous_day] = current_day - previous_day  # Update the result
+        while stack and temps[current_day] > temps[stack[-1]]:
+            # Get the index of the previous day
+            previous_day = stack.pop()  
+            result[previous_day] = current_day - previous_day  
 
         # Push the current day's index onto the stack
         stack.append(current_day)

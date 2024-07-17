@@ -1,6 +1,6 @@
 ---
 title: An interpreter in Python for a subset of PASCAL
-layout: code
+
 ---
 
 Inspired by Peter Norvig's [(How to Write a (Lisp) Interpreter (in Python))](http://norvig.com/lispy.html) and [Ruslan's interpreter series](https://ruslanspivak.com/lsbasi-part1/)

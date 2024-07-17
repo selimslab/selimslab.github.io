@@ -1,7 +1,7 @@
 require 'json'
+require 'pp'
 
 NOTES_PATH = "./_NOTES"
-CODE_PATH = "./_CODE"
 
 class SiteGenerator < Jekyll::Generator
     def generate(site)
@@ -36,10 +36,8 @@ class SiteGenerator < Jekyll::Generator
 
     def generate_tree(site)
       tree= bfs(site, NOTES_PATH)
-      code_tree = bfs(site, CODE_PATH)
-      tree["/tech"]["/programming"]["/code"] = code_tree
-      
       site.data["tree"] = tree
+      # pp tree
 
       site.data["tree_htmls"] = {}
       tree_to_html(site, tree, "root")
@@ -159,26 +157,23 @@ class SiteGenerator < Jekyll::Generator
         branch[parent_id] ||= {}
 
         Dir.entries(parent_path).sort.each do |child|
-          next if ['.', '..', '.', '_'].include?(child) || child.start_with?('.')
+          next if ['.', '..', '.', '_'].include?(child) || child.start_with?('.') || child.start_with?('_')
 
           child_basename = File.basename(child)
           child_path = File.join(parent_path, child)
 
           if File.directory?(child_path)
             child_id = "/" + child_basename
-            next if child_id == parent_id
             queue.push([child_path, branch[parent_id]])
           elsif path != parent_basename
-            child_id = "/" + child_basename.sub(/\..*/, '')
+            child_id = "/" + child_basename.sub(/\..*/, '') # remove extension
 
             link_to_parent(site, child_basename, child_id, parent_basename, parent_id)
           end
           branch[parent_id][child_id] ||= {}
         end
       end
-
       return tree[root]
-
     end
 
     def tree_to_html(site, tree, root_id)
@@ -212,7 +207,6 @@ class SiteGenerator < Jekyll::Generator
     end
 
     def link_to_parent(site, child_basename, child_id, parent_basename, parent_id)
-      parent_basename = "code" if parent_basename == "_CODE"
 
       child_doc = site.documents.find { |e| e.id == child_id }
       parent_doc = site.documents.find { |e| e.id == parent_id }

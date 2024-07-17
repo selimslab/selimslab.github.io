@@ -48,4 +48,6 @@ Version control with Git is important to track changes to code. Basic workflow i
 
 * [How to implement one-to-one, one-to-many and many-to-many relationships while designing tables?](https://stackoverflow.com/questions/7296846/how-to-implement-one-to-one-one-to-many-and-many-to-many-relationships-while-de)
 
+<https://github.com/kdeldycke/awesome-falsehood>
+
 * [Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html)

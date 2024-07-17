@@ -47,7 +47,8 @@ public class Solution {
                 coeff = 0;
             } else if (c == ']') {
                 var (prevStr, num) = stack.Pop();
-                currentStr = prevStr + string.Concat(Enumerable.Repeat(currentStr, num));
+                var repeated = Enumerable.Repeat(currentStr, num)
+                currentStr = prevStr + string.Concat(repeated);
             } else {
                 currentStr += c;
             }

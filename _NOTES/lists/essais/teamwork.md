@@ -68,8 +68,6 @@ A team in harmony covers weaknesses and amplifies strengths.
 - Not every important thing is measurable
 - Goodhart's law: When a measure becomes a target, it ceases to be a good measure.
 
-![](/static/drawings/matter-vs-measure.svg)
-
 - There is no single leadership style that suits all
 
 ![](/static/img/maker-time.png)

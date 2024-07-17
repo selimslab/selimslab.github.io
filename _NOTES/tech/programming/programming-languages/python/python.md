@@ -2,7 +2,6 @@
 title: Python 🐍
 
 ---
-
 A pragmatic language, values your time over the machine's time and it makes sense for many kind of problems 
 
 Its a tool just like other tools but a tool I enjoy to use

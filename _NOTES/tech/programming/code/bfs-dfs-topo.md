@@ -2,17 +2,11 @@
 tags: gr mid 
 ---
 
-
-**bfs:** use a queue
-
-**dfs:** recursive or stack
-
-**topo:** reuse dfs, visit after all neighbors, reverse
+## BFS 
 
 
 ```py
 from collections import deque
-
 
 def bfs(graph, node):
     q = deque([node])
@@ -22,41 +16,58 @@ def bfs(graph, node):
     while q:
         n = q.popleft()
         if n not in seen:
-            q += graph.get(n, [])
-            res.append(n)
             seen.add(n)
+            res.append(n)
+            q += graph.get(n, [])
 
     return result
+```
 
+## DFS
+
+recursive or stack
+
+
+```py
 def dfs(graph, node, seen=None, res=None):
     if not seen:
         seen = set()
     if not res: 
-        res = []
+        stack = []
 
     if node not in seen:
-        res.append(node)
         seen.add(node)
-        for n in graph.get(node, []):
-            dfs(graph, n, seen, res)
-
-    return res
-
-
-def topological_sort(graph):
-    def dfs(node):
-        if node in visited:
-            return
-
-        visited.add(node)
-        
-        for neighbor in graph.get(node, []):
-            dfs(neighbor)
-        
-        # After visiting all neighbors, add the node to the stack
         stack.append(node)
+        for n in graph.get(node, []):
+            dfs(graph, n, seen, stack)
 
-    visited = set()
+    return stack
+```
+
+## Toposort 
+
+1. modify dfs to neighbors-first(add a node dfs result after its neighbors)
+2. call dfs for all nodes
+3. reverse the result 
+
+
+```py
+def topological_sort(graph):
+    def dfs(graph, node, seen=None, res=None):
+        if not seen:
+            seen = set()
+        if not res: 
+            stack = []
+
+        if node not in seen:
+            seen.add(node)
+            for n in graph.get(node, []):
+                dfs(graph, n, seen, res)
+            stack.append(node) # after neighbors
+
+        return res
+
+    seen = set()
     stack = []
 
     for node in graph:
@@ -92,7 +103,6 @@ def test():
 
 if __name__ == "__main__":
     test()
-
 ```
 
 ```go

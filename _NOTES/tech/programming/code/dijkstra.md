@@ -1,7 +1,6 @@
 ---
 title: Dijkstra
 tags: gr mid
-
 ---
 
 ```py
@@ -20,6 +19,7 @@ class Edge:
 
 @dataclass
 class Graph:
+    # represent graph as an edge list 
     edges: defaultdict[Node, list[Edge]] = field(
         default_factory=lambda: defaultdict(list)
     )
@@ -30,7 +30,9 @@ class Graph:
     def get_shortest_path(self, start: Node, finish: Node):
         # dijkstra
 
-        costs: dict[Node, Cost] = {node: float("infinity") for node in self.edges}
+        costs: dict[Node, Cost] = {
+            node: float("infinity") for node in self.edges
+        }
         costs[start] = 0
         parents: dict[Node, Node] = {}
 
@@ -41,11 +43,11 @@ class Graph:
             if current_distance > costs[current_node]:
                 continue
             for edge in self.edges[current_node]:
-                distance = current_distance + edge.cost
-                if distance < costs[edge.target]:
-                    costs[edge.target] = distance
-                    heapq.heappush(priority_queue, (distance, edge.target))
+                cost_to_target = current_distance + edge.cost
+                if cost_to_target < costs[edge.target]:
+                    costs[edge.target] = cost_to_target
                     parents[edge.target] = current_node
+                    heapq.heappush(priority_queue, (cost_to_target, edge.target))
 
         print("parents:", parents)
         print("minimum distances:", costs)

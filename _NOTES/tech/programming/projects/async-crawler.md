@@ -1,6 +1,6 @@
 ---
 title: An async web crawler from scratch 
-layout: code
+
 ---
 
 ```py

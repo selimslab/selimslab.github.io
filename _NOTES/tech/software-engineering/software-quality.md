@@ -3,9 +3,7 @@ tags: swe
 title: Is High Quality Software Worth the Cost?
 ---
 
-Software builds up cruft with time, even a great team will have cruft  
-
-If you neglect to regularly clean and re-order, the quality and development speed will rapidly go down  
+Software builds up cruft with time, even a great team will have cruft. If you neglect to regularly clean and re-order, the quality and development speed will rapidly go down  
 
 from <https://martinfowler.com/articles/is-quality-worth-cost.html>
 

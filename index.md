@@ -24,3 +24,6 @@ A personal knowledge graph
 
 {% include offline.html  %}
 
+{% include random-artwork.html %}
+
+{% include random-idea.html %}

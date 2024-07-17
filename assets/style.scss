@@ -66,21 +66,13 @@ li ul {
 }
 
 article{
-  width: fit-content;
+  padding: 1rem;
+  padding-top: 0.5rem;
+  margin: 0 auto;
   min-width: 50vw;
   max-width: 64ch;
-  padding: 1rem;
-  margin: 0 auto;
 }
 
-article.code{
-  max-width: 90ch;
-}
-
-article.ideas{
-  min-height:10rem;
-  width: 42ch;
-}
 
 a{
   color: $lightBlue; 
@@ -119,10 +111,6 @@ summary:hover{
   background: inherit;
   color: inherit;
   width: fit-content;
-  min-width: 50vw;
-  padding: 0.2rem;
-  padding-left: 1rem;
-  margin: 0 auto;
 }
 
 .top{
@@ -132,16 +120,19 @@ summary:hover{
   background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.navbutton{
-  font-size:1.4rem;  
-  margin-top: 0.4rem;
-  margin-left: 0.6rem;
-}
 
 .search{
-  margin-top:0.6rem;
-  margin-right: 0.4rem;
+  padding: 0.8rem;
+  padding-top: 0.5rem;
+  max-width: 8rem;
 }
+
+.navbutton{
+  font-size:1.4rem;  
+  padding-top: 0.4rem;
+  padding-left: 0.6rem;
+}
+
 
 .input{
   background-color: $light-text;
@@ -151,7 +142,7 @@ a.site-name {
   font-family: $serif;
   color: inherit;
   font-size: 2rem;
-  margin-right:1.2rem;
+  margin-right:1rem;
   
 }
 
@@ -173,14 +164,17 @@ a.site-name {
   }
 }
 
+@media only screen and (min-width: 900px) {
+  article{
+
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .img-full {
     max-width: 100%;
     display: block; 
     height: auto;
-  }
-  article.ideas{
-    width: 100%;
   }
 }
 
@@ -190,7 +184,7 @@ p{
 }
 
 pre{
-  padding: 0.8rem;
+  padding: 0.5rem;
 }
 h1 {
   font-family: $serif;
@@ -214,7 +208,7 @@ strong{
 footer {
   background: inherit !important;
   font-family: $serif;
-  padding: 1.618rem;
+  padding-top: 2rem;
 }
 
 

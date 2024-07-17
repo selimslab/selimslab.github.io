@@ -1,26 +1,40 @@
-##  Project Delta: a personal wiki/digital garden
+##  Project Delta
 
-<https://selimslab.github.io>
+A personal knowledge graph/wiki/digital garden. View at <https://selimslab.github.io>
+
+Plain markdown notes published with jekyll. Minimal, no ads, no analytics. 
+
+## Connected graph  
+All pages have a unique name so file name is file id.
+
+Any file can link to any other using its id, with html, markdown, or [[wikilink]] format.
+
+See which pages links to the current page (backlinks or incoming links)
+
+Files can also tag each other. Tags are defined at `_data\tag_to_file.yml`
+
+`_plugins\gen.rb` visits all pages before rendering, figures out document tree, replaces wikilinks with html links, and adds backlinks to page metadata. 
+
+## Offline 
+Works offline. A service worker caches all static pages (4-5mb) on the first open. 
+
+Search, dark mode, and idea shuffle also work offline. 
+
+Artwork shuffle needs network since images are heavy so they can't be cached. 
 
 [![Deploy Jekyll site to Pages](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml/badge.svg)](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml)
 
-[How it works?](https://selimslab.github.io/project-delta)
-
-## setup
+## Setup
 
 1. clone the repo
 3. install ruby <https://www.ruby-lang.org/en/downloads/>
 4. `gem install bundler jekyll`
 5. `bundle install`
 
-## serve
+## Serve
 ```
-bundle exec jekyll serve --trace
+bundle exec jekyll serve --trace --profile --incremental
 ```
-
-`--incremental`
-
-`--profile` 
 
 ## Features 
 1. Minimal
@@ -30,6 +44,5 @@ bundle exec jekyll serve --trace
 5. Works offline
 6. Dark mode
 7. Search
-8. Roll a dice for pages, artworks, and ideas
-9. Syntax highlighter
+8.
 

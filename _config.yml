@@ -67,8 +67,8 @@ collections:
   NOTES:    
     output: true 
     permalink:  /:title/
-  CODE:    
-    output: true 
+  pages:
+    output: true
     permalink:  /:title/
 
 defaults:
@@ -77,12 +77,7 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: post
-  -
-    scope:
-      path: "_CODE" 
-    values:
-      layout: code
-      
+
 
 plugins:
   - jekyll-sitemap
