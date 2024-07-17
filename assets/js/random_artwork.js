@@ -22,5 +22,6 @@ shuffle = async () => {
   let alt = fileNameToTitle(fileName);
   img.alt = alt;
   document.getElementById("description").innerHTML = alt;
+
 };
 

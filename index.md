@@ -28,4 +28,6 @@ A personal knowledge graph
 
 {% include random-artwork.html %}
 
+<br>
+
 {% include random-idea.html %}
