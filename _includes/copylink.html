@@ -1,5 +1,9 @@
 <p>
-    <a href="javascript:void(0);" id="copyToClipBoard" onclick="copyToClipBoard();" title="Copy link">📋</a>
+    <a href="javascript:void(0);" 
+    id="copyToClipBoard" 
+    onclick="copyToClipBoard();" 
+    style="font-size: x-small;"
+     title="Copy link">📋 Copy link</a>
 </p>
 <script>
     const copyButton = document.getElementById("copyToClipBoard");
@@ -14,7 +18,7 @@
         navigator.clipboard.writeText(window.location.href);
         copyButton.innerHTML = "✅ Link copied!";
         setTimeout(function () {
-            copyButton.innerHTML = '📋';
+            copyButton.innerHTML = '📋 Copy link';
         }, 500);
     }
 </script>
