@@ -1,6 +1,6 @@
 ---
 title: Şiirler
-
+tags: tr
 ---
 
 Canı cehenneme rahat uyuyanın

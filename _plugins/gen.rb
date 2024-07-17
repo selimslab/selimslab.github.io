@@ -36,6 +36,9 @@ class SiteGenerator < Jekyll::Generator
 
     def generate_tree(site)
       tree= bfs(site, NOTES_PATH)
+      code_tree = bfs(site, CODE_PATH)
+      tree["/tech"]["/programming"]["/code"] = code_tree
+      
       site.data["tree"] = tree
 
       site.data["tree_htmls"] = {}
@@ -47,7 +50,6 @@ class SiteGenerator < Jekyll::Generator
         site.data["tree_htmls_without_self"][k] = v.gsub(/<a href='#{k}\/'>.*?<\/a>/, "")
       end
 
-      bfs(site, CODE_PATH)
     end
 
     def fix_frontmatter()
@@ -235,8 +237,5 @@ class SiteGenerator < Jekyll::Generator
 
       reversed_tree
     end
-
-
-
 
   end
