@@ -6,23 +6,11 @@ tags: top
 <img src="/static/img/teapot.png">
 </a>
 
-[Crash Course Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo) and [Harvard CS50](https://www.youtube.com/playlist?list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW) are excellent introductions to the fundamental concepts. 
+[Crash Course Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo) and [Harvard CS50](https://www.youtube.com/playlist?list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW) are great introductions to fundamental concepts. 
 
-C is a good first language to better understand these fundamental, as it's a relatively small and low-level language. After you understand the basics like variables, loops, conditionals, pointers, and functions, you can go explore any language. Python, JavaScript, Go, and C# are some good choices to get a feel for different approaches. 
+[Grokking algorithms](http://93.174.95.29/main/9F2B390517083CF4485BA524B80815F5) is a visual and fun algorithms book  
 
-[Codecademy python course](https://www.codecademy.com/learn/learn-python) 
-
-[a tour of go](https://go.dev/tour/welcome/1) 
-
-[go by example](https://gobyexample.com/)
-
-[Grokking algorithms](http://93.174.95.29/main/9F2B390517083CF4485BA524B80815F5) is visual and fun algorithms book  
-
-Using basic terminal commands is both useful and a lot of fun, like **ls** to list files and directories, **cd** to change directory, **mkdir** to make a new directory, **touch** to create an empty file, **rm** to remove files and directories, **cat** to output the contents of a file, **sort** to sort, **uniq** to filter unique lines, **grep** to search for patterns in text, .. 
-
-Version control with Git is important to track changes to code. Basic workflow involves git clone to download a repository, git add to stage files for commit, git commit to save changes locally with a message, git push to upload commits to a remote repository like hosted on github for example. 
-
-## Misc. 
+## See also 
 
 * [Teach Yourself Computer Science](https://teachyourselfcs.com/)
 
