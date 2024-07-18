@@ -13,10 +13,13 @@ A personal knowledge graph
 {{ site.data.tree_htmls["root"] }}
 </div>
 
+<br>
+
 ## Featured
 
 {% include hub.html tag='top' %}
 
+<br>
 
 ## Stats 
 
@@ -24,9 +27,13 @@ A personal knowledge graph
 
 {% include offline.html  %}
 
+<br>
+
 ## Time 
 
 {% include time.html %}
+
+<br>
 
 ## Tap to shuffle   
 
