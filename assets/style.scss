@@ -207,8 +207,12 @@ strong{
 
 footer {
   background: inherit !important;
-  font-family: $serif;
   padding-top: 1rem;
+  text-align: center;
+}
+
+footer.about {
+  font-family: $serif;
 }
 
 

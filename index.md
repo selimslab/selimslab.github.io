@@ -24,7 +24,9 @@ A personal knowledge graph
 
 {% include offline.html  %}
 
-{% include year-progress.html %}
+## Time 
+
+{% include time.html %}
 
 ## Tap to shuffle   
 
