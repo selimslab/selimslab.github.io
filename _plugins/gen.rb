@@ -14,10 +14,72 @@ class SiteGenerator < Jekyll::Generator
         process_doc(doc, site)
       end
 
+      generate_graph(site)
+
       # add ideas to site.data
       site.data["ideas"] = JSON.parse(File.read("./assets/data/ideas.json")).sort
 
     end
+
+    def generate_graph(site)
+      nodes = []
+      links = []
+
+      def traverse(data, parent = nil, nodes, links)
+        data.each do |key, value|
+          nodes << { id: key }
+          links << { source: parent, target: key } if parent
+          traverse(value, key, nodes, links)
+        end
+      end
+
+      file_tree = site.data["tree"]
+      traverse(file_tree, nil, nodes, links)
+
+
+      backlink_tree = {}
+      site.documents.each do |doc|
+        backlink_tree[doc.id] = doc.data['backlinks'].map { |e| e.id }
+      end
+
+      backlink_tree.each do |parent, children|
+        nodes << { id: parent }
+        children.each do |child|
+          nodes << { id: child } unless nodes.any? { |node| node[:id] == child }
+          links << { source: parent, target: child }
+        end
+      end
+
+      # remove duplicate links
+      links = links.uniq
+      # remove links to self
+      links = links.reject { |e| e[:source] == e[:target] }
+
+      # remove duplicate nodes
+      nodes = nodes.uniq { |e| e[:id] }
+
+      ## add name to each node
+      site.documents.each do |doc|
+        node = nodes.find { |e| e[:id] == doc.id }
+        node[:name] = doc.data["title"]
+      end
+
+      # add all links of a node to the node
+      nodes.each do |node|
+        node[:links] = links.select { |e| e[:source] == node[:id] || e[:target] == node[:id] }.map { |e| e[:source] == node[:id] ? e[:target] : e[:source] }
+      end
+
+
+      graph_data = { nodes: nodes, links: links }
+
+
+     # write tree to /assets/data/graph.json
+      File.open("./assets/data/graph.json", "w") do |f|
+        f.write(JSON.pretty_generate(graph_data))
+      end
+
+    end
+
 
     def init(site)
       fix_frontmatter()
@@ -37,7 +99,6 @@ class SiteGenerator < Jekyll::Generator
     def generate_tree(site)
       tree= bfs(site, NOTES_PATH)
       site.data["tree"] = tree
-      # pp tree
 
       site.data["tree_htmls"] = {}
       tree_to_html(site, tree, "root")

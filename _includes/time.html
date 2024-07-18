@@ -5,7 +5,12 @@
 <p id="clock"></p>
 
 <p id="year-ratio"></p>
+
+<ul class="days"></ul>
+
+
 <p id="weekNumber"></p>
+
 <p style="margin:0">
   <span>
     <progress id="year-progress" max="365" value=""></progress>
@@ -14,7 +19,52 @@
 </p>
 
 
+
+
 <style>
+
+  :root {
+      --point-size: 0.4rem;
+      --point-gap: 0.1rem;
+  }
+
+  .weeks,
+  .days {
+    list-style-type: none;
+    display: grid;
+    grid-gap: var(--point-gap);
+    grid-auto-flow: row;
+    grid-auto-rows: var(--point-size);
+  }
+
+  .days {
+    grid-template-columns: repeat(31, var(--point-size));
+    grid-area: days;
+  }
+
+  li {
+    margin: 0;
+    border-radius: 50%;
+  }
+
+
+  .days li {
+    background-color: #e9e6dc;
+  }
+
+  li.dummy {
+    background-color: inherit;
+  }
+
+  li.past {
+    background-color: #f6d958;
+  }
+
+  li.now {
+    background-color: #f6d958;
+    border: 3px solid orange;
+  }
+
   progress::-webkit-progress-value {
     background-color: #ffc800;
   }
@@ -59,6 +109,36 @@
 
   setInterval(updateClock, 1000);
   updateClock();
+
+  function add_days(this_day) {
+    // create an array by using moment.js to get number of days in each month of this year
+    const days_in_months = Array.from({ length: 12 }, (v, i) =>
+      moment().month(i).daysInMonth()
+    );
+
+    total = 0;
+    const day_graph = document.querySelector(".days");
+
+    for (let number_of_days of days_in_months) {
+      let dummy_days = 31 - number_of_days;
+      for (let day = 1; day <= number_of_days; day++) {
+        total += 1;
+        if (total == this_day) {
+          day_graph.insertAdjacentHTML("beforeend", `<li class="now"></li>`);
+        } else if (total < this_day) {
+          day_graph.insertAdjacentHTML("beforeend", `<li class="past"></li>`);
+        } else {
+          day_graph.insertAdjacentHTML("beforeend", `<li></li>`);
+        }
+      }
+      // insert dummy days to fill the grid
+      for (let i = 0; i < dummy_days; i++) {
+        day_graph.insertAdjacentHTML("beforeend", `<li class="dummy"></li>`);
+      }
+    }
+  }
+
+  add_days(this_day);
 
 
 </script>

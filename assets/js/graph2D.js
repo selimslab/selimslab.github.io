@@ -41,18 +41,6 @@
       })
       .autoPauseRedraw(false) // keep redrawing after engine has stopped
       .nodeCanvasObject((node, ctx, globalScale) => {
-        const label = node.name;
-
-        if (id == null && g.zoom() <= 1) {
-            return 
-        } 
-
-        const fontSize = 12 / globalScale;
-        ctx.font = `${fontSize}px Sans-Serif`;
-        const textWidth = ctx.measureText(label).width;
-        const bckgDimensions = [textWidth, fontSize].map(
-          (n) => n + fontSize * 0.5
-        ); // some padding
 
         ctx.textAlign = "center";
         ctx.textBaseline = "middle";

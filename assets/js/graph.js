@@ -1,23 +1,55 @@
-async function getGraphData(id=null){
-    const gData = await fetch("/assets/data/graph.json").then((response) =>
-      response.json()
-    );
 
-    if (id !== null){
-        node = gData["nodes"][id]
-        links =  node["links"]
-        if (links.length == 0){
-          return 
-        }
-        gData["links"] = links
+(async () => {
+  const graphData = await fetch("/assets/data/graph.json").then((response) =>
+    response.json()
+  );
+  const container = document.getElementById("graph");
+  const g = ForceGraph()
 
-        nodes  =  [ node ]
-        for (const n of node["neighbors"]){
-            nodes.push(gData["nodes"][n])
-        }
-        gData["nodes"] = nodes
-    } else {
-      gData["nodes"] = Object.values(gData["nodes"])
-    }
-    return gData
-  }
+  const highlightNodes = new Set();
+  const highlightLinks = new Set();
+  let hoverNode = null;
+
+  
+  g(container)
+    .graphData(graphData)
+    .minZoom(1)
+    .maxZoom(5)
+    .nodeAutoColorBy("group")
+    .linkColor((link) => (highlightLinks.has(link) ?  "#FF530D" : "#568692"))
+    .nodeColor(node => {
+      return highlightNodes.has(node.id) ? "#FF530D" : "#568692";
+    })
+    .linkWidth((link) => (highlightLinks.has(link) ? 1 : 0.3))
+    .onNodeHover((node) => {
+      highlightNodes.clear();
+      highlightLinks.clear();
+      if (node) {
+        highlightNodes.add(node.id);
+        node.links.forEach((linkedNode) => highlightNodes.add(linkedNode)
+        );
+      }
+
+      hoverNode = node || null;
+    })
+    .onLinkHover((link) => {
+      highlightNodes.clear();
+      highlightLinks.clear();
+
+      if (link) {
+        highlightLinks.add(link);
+        highlightNodes.add(link.source.id);
+        highlightNodes.add(link.target.id);
+      }
+    })
+    .autoPauseRedraw(false) // keep redrawing after engine has stopped
+
+
+
+  g.d3Force("center", null);
+  g.d3Force('charge').strength(-15);
+
+  // fit to canvas when engine stops
+  g.onEngineStop(() => g.zoomToFit());
+  
+})();

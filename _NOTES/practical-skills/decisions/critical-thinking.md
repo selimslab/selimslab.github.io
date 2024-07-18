@@ -8,17 +8,25 @@ tags: skills phil essais
 - "Delete the adjectives and you will have the facts."
 - All models are wrong, some are useful
 - Systematic feedback, criticism, and correction
-- Open-ended [[questions]]
+- Open-ended questions 
 - Less certainty, more probability
 - How well do your mental models match reality?
 - Have you done your due diligence?
-- [[systems]] thinking
-- Know your limitations, [Know thyself](https://en.wikipedia.org/wiki/Know_thyself)
+- Systems thinking
+- Know your limitations
 
-[[truth]] has many faces, suspend judgment [Epoché](https://en.wikipedia.org/wiki/Epoché)
+[[truth]] has many faces, suspend judgment 
+
+## See also
+
+[[systems]]
+
+[Know thyself](https://en.wikipedia.org/wiki/Know_thyself)
 
 [[insight-and-strength]]
 
-[Bertrand Russell’s Nobel Prize Acceptance Speech | Reason and Meaning](https://reasonandmeaning.com/2015/10/08/bertrand-russells-nobel-prize-acceptance-speech/)
+[[questions]]
 
-![](/static/img/must-be-true.jpeg)
+[Bertrand Russell’s Nobel Prize Acceptance Speech](https://reasonandmeaning.com/2015/10/08/bertrand-russells-nobel-prize-acceptance-speech/)
+
+[Epoché](https://en.wikipedia.org/wiki/Epoché)

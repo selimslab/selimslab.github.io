@@ -35,3 +35,7 @@ A personal knowledge graph
 <br>
 
 {% include random-idea.html %}
+
+
+<br>
+
