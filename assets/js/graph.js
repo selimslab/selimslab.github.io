@@ -47,7 +47,7 @@
 
 
   g.d3Force("center", null);
-  g.d3Force('charge').strength(-15);
+  g.d3Force('charge').strength(-18);
 
   // fit to canvas when engine stops
   g.onEngineStop(() => g.zoomToFit());
