@@ -1,4 +1,5 @@
 
+<script src="/assets/js/animate.js"></script>
 <script src="/assets/js/theme.js"></script>
 <script src="/assets/js/random_array_item.js"></script>
 <script src="/assets/js/random_post.js"></script>
@@ -9,8 +10,8 @@
 
       {% include search.html %}
 
-      <a href="javascript:void(0);" title="Toggle theme" id="theme-toggle" onclick="switchTheme()" class="navbutton">🌙</a>  
-      <a href="javascript:void(0);" title="Roll the dice!" onclick="get_random_post();" class="navbutton">🎲</a>
+      <div title="Toggle theme" id="themeToggle" onclick="switchTheme()" class="navbutton">🌙</div>  
+      <div title="Roll the dice!" id="dice" onclick="get_random_post();" class="navbutton">🎲</div>
 
     </div> 
 </nav>

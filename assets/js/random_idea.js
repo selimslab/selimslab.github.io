@@ -1,5 +1,6 @@
 get_random_idea = async () =>{
-    document.getElementById("ideaMachine").classList.toggle('clicked');
+    var machine = document.getElementById("ideaMachine");
+    animate(machine, "shakey");
 
     fetch("/assets/data/ideas.json", {headers:{     
             'Content-Type': 'application/json',
@@ -13,5 +14,6 @@ get_random_idea = async () =>{
     }
     );
 }
+
 
 

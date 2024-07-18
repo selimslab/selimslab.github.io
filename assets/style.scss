@@ -62,7 +62,7 @@ li ul {
 }
 
 ::selection {
-  background: $accent;
+  background: $darkBlue;
 }
 
 article{
@@ -292,4 +292,42 @@ details{
   margin-right: 0.5rem;
 }
 
+
+@keyframes shakex {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-3px); }
+  50% { transform: translateX(3px); }
+  75% { transform: translateX(-3px); }
+}
+
+@keyframes shakey {
+  0%, 100% { transform: translateY(0); }
+  25% { transform: translateY(-2px); }
+  50% { transform: translateY(2px); }
+  75% { transform: translateY(-2px); }
+}
+
+@keyframes flash {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+
+.shakex {
+  animation: shakex 0.4s;
+}
+
+.shakey {
+  animation: shakey 0.4s;
+}
+
+.flash {
+  animation: fadeOut 0.1s;
+}
 
