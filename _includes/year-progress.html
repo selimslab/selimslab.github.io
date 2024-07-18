@@ -1,0 +1,45 @@
+<script src="/assets/js/datetime.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+
+
+<div>
+  <h3 id="year-ratio"></h3>
+  <p>
+    <span>
+      <progress id="year-progress" max="365" value=""></progress>
+    </span>
+    <span id="year-percent"></span>
+  </p>
+
+</div>
+
+
+<style>
+  progress::-webkit-progress-value {
+    background-color: #ffc800;
+  }
+  
+  progress::-moz-progress-bar {
+    background-color: #ffc800;
+  }
+  
+  progress::-ms-fill {
+    background-color: #ffc800;
+  }
+</style>
+
+<script>
+
+  const this_day = moment().dayOfYear();
+  const percent = Math.round((this_day / 365) * 100);
+
+  document.querySelector(
+    "#year-ratio"
+  ).innerHTML = `Day ${this_day} of ${moment().year()}`;
+
+  document.querySelector("#year-percent").innerHTML = `%${percent}`;
+
+  document.querySelector("#year-progress").setAttribute("value", this_day);
+
+
+</script>
