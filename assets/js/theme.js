@@ -1,7 +1,6 @@
 
 function setTheme() {
 	var themeToggle = document.getElementById("themeToggle");
-	animate(themeToggle, "flash");
 
 	const theme = localStorage.getItem('theme');
 	if (theme === "light") {
