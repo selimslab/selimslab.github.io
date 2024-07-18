@@ -5,6 +5,7 @@
 <p id="clock"></p>
 
 <p id="year-ratio"></p>
+<p id="weekNumber"></p>
 <p style="margin:0">
   <span>
     <progress id="year-progress" max="365" value=""></progress>
@@ -31,10 +32,15 @@
 
   const this_day = moment().dayOfYear();
   const percent = Math.round((this_day / 365) * 100);
+  const weekNumber = moment().isoWeek();
+  const year = moment().year();
 
   document.querySelector(
     "#year-ratio"
-  ).innerHTML = `Day ${this_day} of ${moment().year()}`;
+  ).innerHTML = `Day ${this_day} of ${year}`;
+
+  document.querySelector("#weekNumber").innerHTML = `Week ${weekNumber}`;
+
 
   document.querySelector("#year-percent").innerHTML = `%${percent}`;
 
