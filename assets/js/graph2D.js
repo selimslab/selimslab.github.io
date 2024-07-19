@@ -1,83 +1,64 @@
 
-  function draw2DGraph(id=null){
+(async () => {
+  const graphData = await fetch("/assets/data/graph.json").then((response) =>
+    response.json()
+  );
+  const container = document.getElementById("graph");
+  const g = ForceGraph()
 
-    (async () => {
+  const highlightNodes = new Set();
+  const highlightLinks = new Set();
+  let hoverNode = null;
 
-    const gData = await  getGraphData()
-    const highlightNodes = new Set();
-    const highlightLinks = new Set();
-    let hoverNode = null;
+  g(container)
+    .graphData(graphData)
+    .minZoom(1)
+    .maxZoom(5)
+    .linkColor((link) => (highlightLinks.has(link) ?  "#FF530D" : "#568692"))
+    .nodeColor(node => {
+      return highlightNodes.has(node.id) ? "#FF530D" : getColor(node.group);
+    })
+    .linkWidth((link) => (highlightLinks.has(link) ? 1 : 0.3))
+    .onNodeHover((node) => {
+      highlightNodes.clear();
+      highlightLinks.clear();
+      if (node) {
+        highlightNodes.add(node.id);
+        node.links.forEach((linkedNode) => highlightNodes.add(linkedNode)
+        );
+      }
 
-    const container = document.getElementById("graph-container");
+      hoverNode = node || null;
+    })
+    .onLinkHover((link) => {
+      highlightNodes.clear();
+      highlightLinks.clear();
 
-    const g = ForceGraph();
-    g(container)
-      .graphData(gData)
-      .nodeLabel("name")
-      .minZoom(1)
-      .maxZoom(5)
-      .linkColor((link) => (highlightLinks.has(link) ?  "#FF530D" : "#568692"))
-      .linkWidth((link) => (highlightLinks.has(link) ? 1 : 0.1))
-      .onNodeHover((node) => {
-        highlightNodes.clear();
-        highlightLinks.clear();
-        if (node) {
-          highlightNodes.add(node.id);
-          node.neighbors.forEach((neighbor) => highlightNodes.add(neighbor));
-          node.links.forEach((link) => highlightLinks.add(link));
-        }
+      if (link) {
+        highlightLinks.add(link);
+        highlightNodes.add(link.source.id);
+        highlightNodes.add(link.target.id);
+      }
+    })
+    .autoPauseRedraw(false) // keep redrawing after engine has stopped
 
-        hoverNode = node || null;
-      })
-      .onLinkHover((link) => {
-        highlightNodes.clear();
-        highlightLinks.clear();
 
-        if (link) {
-          highlightLinks.add(link);
-          highlightNodes.add(link.source.id);
-          highlightNodes.add(link.target.id);
-        }
-      })
-      .autoPauseRedraw(false) // keep redrawing after engine has stopped
-      .nodeCanvasObject((node, ctx, globalScale) => {
 
-        ctx.textAlign = "center";
-        ctx.textBaseline = "middle";
+  g.d3Force("center", null);
+  g.d3Force('charge').strength(-18);
 
-        let color = "#2398ff";
-        if (node.type == "tag") {
-          color = "orange";
-        }
-        if (highlightNodes.has(node.id)) {
-          color = "#FF530D";
-        }
+  // fit to canvas when engine stops
+  g.onEngineStop(() => g.zoomToFit());
+  
+})();
 
-        ctx.fillStyle = color;
-        ctx.fillText(label, node.x, node.y);
-        
-        node.__bckgDimensions = bckgDimensions; // to re-use in nodePointerAreaPaint
-      })
-      .nodePointerAreaPaint((node, color, ctx) => {
-        ctx.fillStyle = color;
-        const bckgDimensions = node.__bckgDimensions;
-        bckgDimensions &&
-          ctx.fillRect(
-            node.x - bckgDimensions[0] / 2,
-            node.y - bckgDimensions[1] / 2,
-            ...bckgDimensions
-          );
-      })
-      .onNodeDragEnd(node => {
-        node.fx = node.x;
-        node.fy = node.y;
-      });
-
-    g.d3Force('charge').strength(-18);
-
-    // fit to canvas when engine stops
-    g.onEngineStop(() => g.zoomToFit());
-
-  })();
-
-  }
+function getColor(index) {
+  const colors = [
+    "#8A2BE2", // Violet
+    "#71C9CE",
+    "#B4E380", // Green
+    "#FFFF00", // Yellow
+    "#E3FDFD"
+  ];
+  return colors[index % colors.length];
+}

@@ -24,18 +24,27 @@ class SiteGenerator < Jekyll::Generator
     def generate_graph(site)
       nodes = []
       links = []
+      nodemap = {}
+      group = 1
+      file_tree = site.data["tree"]
 
-      def traverse(data, parent = nil, nodes, links)
-        data.each do |key, value|
-          nodes << { id: key }
+      queue = [[file_tree, nil, group]] # Start with root node, no parent, and group number 0
+
+      until queue.empty?
+        current_data, parent, group_number = queue.shift
+
+        current_data.each do |key, value|
+          if !nodemap.has_key?(key)
+            node = { id: key, group: group_number }
+            nodes << node
+            nodemap[key] = node
+          end
+
           links << { source: parent, target: key } if parent
-          traverse(value, key, nodes, links)
+
+          queue << [value, key, group_number + 1]
         end
       end
-
-      file_tree = site.data["tree"]
-      traverse(file_tree, nil, nodes, links)
-
 
       backlink_tree = {}
       site.documents.each do |doc|
@@ -43,9 +52,12 @@ class SiteGenerator < Jekyll::Generator
       end
 
       backlink_tree.each do |parent, children|
-        nodes << { id: parent }
+        if nodemap[parent].nil?
+          node = { id: parent, group: 0 }
+          nodes << node
+          nodemap[parent] = node
+        end
         children.each do |child|
-          nodes << { id: child } unless nodes.any? { |node| node[:id] == child }
           links << { source: parent, target: child }
         end
       end
@@ -55,12 +67,13 @@ class SiteGenerator < Jekyll::Generator
       # remove links to self
       links = links.reject { |e| e[:source] == e[:target] }
 
-      # remove duplicate nodes
-      nodes = nodes.uniq { |e| e[:id] }
+      # remove repeated links, if source and target are the same, keep the first one
+      links = links.uniq { |e| [e[:source], e[:target]] }
 
       ## add name to each node
       site.documents.each do |doc|
         node = nodes.find { |e| e[:id] == doc.id }
+        next if node.nil?
         node[:name] = doc.data["title"]
       end
 
