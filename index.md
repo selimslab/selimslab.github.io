@@ -31,7 +31,6 @@ A personal knowledge graph
 {% include time.html %}
 
 
-
 ## Tap to shuffle   
 
 {% include random-artwork.html %}
@@ -41,3 +40,8 @@ A personal knowledge graph
 {% include random-idea.html %}
 
 {% include offline.html  %}
+
+
+<br>
+
+{% include earth.html %}
