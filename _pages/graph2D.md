@@ -4,4 +4,4 @@ layout: free
 tags: top 
 ---
 
-{% include graph.html %}
+{% include graph2D.html %}

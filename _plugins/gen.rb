@@ -67,7 +67,11 @@ class SiteGenerator < Jekyll::Generator
       # add all links of a node to the node
       nodes.each do |node|
         node[:links] = links.select { |e| e[:source] == node[:id] || e[:target] == node[:id] }.map { |e| e[:source] == node[:id] ? e[:target] : e[:source] }
+        # remove nodes with no links
+        nodes.delete(node) if node[:links].empty?
       end
+
+
 
 
       graph_data = { nodes: nodes, links: links }

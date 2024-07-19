@@ -2916,6 +2916,7 @@
       "name": "Programming",
       "links": [
         "/tech",
+        "/1240619083716-oop",
         "/algorithms",
         "/code",
         "/compsci",
@@ -2930,6 +2931,124 @@
         "/the-tao-of-programming",
         "/zen-of-python",
         "/software-engineering"
+      ]
+    },
+    {
+      "id": "/1240619083716-oop",
+      "links": [
+        "/programming",
+        "/oop-designs"
+      ]
+    },
+    {
+      "id": "/oop-designs",
+      "name": "OOP designs",
+      "links": [
+        "/1240619083716-oop",
+        "/block",
+        "/design-a-bicycle",
+        "/design-a-book-app",
+        "/design-a-crm",
+        "/design-a-data-pipeline",
+        "/design-a-gov-cloud",
+        "/design-a-personal-note-publishing-system",
+        "/design-a-trader",
+        "/design-a-web-crawler",
+        "/design-auth",
+        "/design-oauth",
+        "/design-units",
+        "/design-video-streaming-app"
+      ]
+    },
+    {
+      "id": "/block",
+      "name": "Design a blockchain",
+      "links": [
+        "/oop-designs"
+      ]
+    },
+    {
+      "id": "/design-a-bicycle",
+      "name": "Design A Bicycle",
+      "links": [
+        "/oop-designs"
+      ]
+    },
+    {
+      "id": "/design-a-book-app",
+      "name": "Design A Book App",
+      "links": [
+        "/oop-designs"
+      ]
+    },
+    {
+      "id": "/design-a-crm",
+      "name": "Design A Crm",
+      "links": [
+        "/oop-designs"
+      ]
+    },
+    {
+      "id": "/design-a-data-pipeline",
+      "name": "Design A Data Pipeline",
+      "links": [
+        "/oop-designs"
+      ]
+    },
+    {
+      "id": "/design-a-gov-cloud",
+      "name": "Design A Gov Cloud",
+      "links": [
+        "/oop-designs"
+      ]
+    },
+    {
+      "id": "/design-a-personal-note-publishing-system",
+      "name": "Design A Personal Note Publishing System",
+      "links": [
+        "/oop-designs"
+      ]
+    },
+    {
+      "id": "/design-a-trader",
+      "name": "Design A Trader",
+      "links": [
+        "/oop-designs"
+      ]
+    },
+    {
+      "id": "/design-a-web-crawler",
+      "name": "Design A Web Crawler",
+      "links": [
+        "/oop-designs"
+      ]
+    },
+    {
+      "id": "/design-auth",
+      "name": "Design Auth",
+      "links": [
+        "/oop-designs"
+      ]
+    },
+    {
+      "id": "/design-oauth",
+      "name": "Design an OAuth System",
+      "links": [
+        "/oop-designs"
+      ]
+    },
+    {
+      "id": "/design-units",
+      "name": "Design Units",
+      "links": [
+        "/oop-designs"
+      ]
+    },
+    {
+      "id": "/design-video-streaming-app",
+      "name": "Design Video Streaming App",
+      "links": [
+        "/oop-designs"
       ]
     },
     {
@@ -3820,7 +3939,6 @@
       "links": [
         "/programming",
         "/design-patterns",
-        "/oop-designs",
         "/solid",
         "/system-design"
       ]
@@ -3830,117 +3948,6 @@
       "name": "Design Patterns",
       "links": [
         "/oop"
-      ]
-    },
-    {
-      "id": "/oop-designs",
-      "name": "OOP designs",
-      "links": [
-        "/oop",
-        "/block",
-        "/design-a-bicycle",
-        "/design-a-book-app",
-        "/design-a-crm",
-        "/design-a-data-pipeline",
-        "/design-a-gov-cloud",
-        "/design-a-personal-note-publishing-system",
-        "/design-a-trader",
-        "/design-a-web-crawler",
-        "/design-auth",
-        "/design-oauth",
-        "/design-units",
-        "/design-video-streaming-app"
-      ]
-    },
-    {
-      "id": "/block",
-      "name": "Design a blockchain",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-a-bicycle",
-      "name": "Design A Bicycle",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-a-book-app",
-      "name": "Design A Book App",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-a-crm",
-      "name": "Design A Crm",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-a-data-pipeline",
-      "name": "Design A Data Pipeline",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-a-gov-cloud",
-      "name": "Design A Gov Cloud",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-a-personal-note-publishing-system",
-      "name": "Design A Personal Note Publishing System",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-a-trader",
-      "name": "Design A Trader",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-a-web-crawler",
-      "name": "Design A Web Crawler",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-auth",
-      "name": "Design Auth",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-oauth",
-      "name": "Design an OAuth System",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-units",
-      "name": "Design Units",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-video-streaming-app",
-      "name": "Design Video Streaming App",
-      "links": [
-        "/oop-designs"
       ]
     },
     {
@@ -4621,32 +4628,16 @@
       ]
     },
     {
-      "id": "/about",
-      "name": "Welcome, friend!",
-      "links": [
-
-      ]
-    },
-    {
-      "id": "/page-graph",
-      "name": "2D Interactive Graph",
-      "links": [
-
-      ]
+      "id": "/graph2D",
+      "name": "2D Interactive Graph"
     },
     {
       "id": "/pub",
-      "name": "Pub",
-      "links": [
-
-      ]
+      "name": "Pub"
     },
     {
-      "id": "/resume",
-      "name": "Resume",
-      "links": [
-
-      ]
+      "id": "/root",
+      "name": "Root"
     }
   ],
   "links": [
@@ -5908,6 +5899,66 @@
     },
     {
       "source": "/programming",
+      "target": "/1240619083716-oop"
+    },
+    {
+      "source": "/1240619083716-oop",
+      "target": "/oop-designs"
+    },
+    {
+      "source": "/oop-designs",
+      "target": "/block"
+    },
+    {
+      "source": "/oop-designs",
+      "target": "/design-a-bicycle"
+    },
+    {
+      "source": "/oop-designs",
+      "target": "/design-a-book-app"
+    },
+    {
+      "source": "/oop-designs",
+      "target": "/design-a-crm"
+    },
+    {
+      "source": "/oop-designs",
+      "target": "/design-a-data-pipeline"
+    },
+    {
+      "source": "/oop-designs",
+      "target": "/design-a-gov-cloud"
+    },
+    {
+      "source": "/oop-designs",
+      "target": "/design-a-personal-note-publishing-system"
+    },
+    {
+      "source": "/oop-designs",
+      "target": "/design-a-trader"
+    },
+    {
+      "source": "/oop-designs",
+      "target": "/design-a-web-crawler"
+    },
+    {
+      "source": "/oop-designs",
+      "target": "/design-auth"
+    },
+    {
+      "source": "/oop-designs",
+      "target": "/design-oauth"
+    },
+    {
+      "source": "/oop-designs",
+      "target": "/design-units"
+    },
+    {
+      "source": "/oop-designs",
+      "target": "/design-video-streaming-app"
+    },
+    {
+      "source": "/programming",
       "target": "/algorithms"
     },
     {
@@ -6261,62 +6312,6 @@
     {
       "source": "/oop",
       "target": "/design-patterns"
-    },
-    {
-      "source": "/oop",
-      "target": "/oop-designs"
-    },
-    {
-      "source": "/oop-designs",
-      "target": "/block"
-    },
-    {
-      "source": "/oop-designs",
-      "target": "/design-a-bicycle"
-    },
-    {
-      "source": "/oop-designs",
-      "target": "/design-a-book-app"
-    },
-    {
-      "source": "/oop-designs",
-      "target": "/design-a-crm"
-    },
-    {
-      "source": "/oop-designs",
-      "target": "/design-a-data-pipeline"
-    },
-    {
-      "source": "/oop-designs",
-      "target": "/design-a-gov-cloud"
-    },
-    {
-      "source": "/oop-designs",
-      "target": "/design-a-personal-note-publishing-system"
-    },
-    {
-      "source": "/oop-designs",
-      "target": "/design-a-trader"
-    },
-    {
-      "source": "/oop-designs",
-      "target": "/design-a-web-crawler"
-    },
-    {
-      "source": "/oop-designs",
-      "target": "/design-auth"
-    },
-    {
-      "source": "/oop-designs",
-      "target": "/design-oauth"
-    },
-    {
-      "source": "/oop-designs",
-      "target": "/design-units"
-    },
-    {
-      "source": "/oop-designs",
-      "target": "/design-video-streaming-app"
     },
     {
       "source": "/oop",

@@ -7,9 +7,11 @@ layout: page
 
 A personal knowledge graph   
 
-## Index
+<br>
 
-<div style="margin-top:1rem">
+## Contents
+
+<div style="margin-top:0.5rem">
 {{ site.data.tree_htmls["root"] }}
 </div>
 
@@ -24,8 +26,6 @@ A personal knowledge graph
 ## Stats 
 
 {% include stats.html  %}
-
-{% include offline.html  %}
 
 <br>
 
@@ -46,3 +46,4 @@ A personal knowledge graph
 
 <br>
 
+{% include offline.html  %}
