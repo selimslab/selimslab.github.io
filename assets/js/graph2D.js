@@ -57,7 +57,7 @@ function getColor(index) {
     "#8A2BE2", // Violet
     "#71C9CE",
     "#B4E380", // Green
-    "#FFFF00", // Yellow
+    "#F6FB7A", // Yellow
     "#E3FDFD"
   ];
   return colors[index % colors.length];
