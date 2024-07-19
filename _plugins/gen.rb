@@ -72,11 +72,14 @@ class SiteGenerator < Jekyll::Generator
 
       graph_data = { nodes: nodes, links: links }
 
-
-     # write tree to /assets/data/graph.json
-      File.open("./assets/data/graph.json", "w") do |f|
-        f.write(JSON.pretty_generate(graph_data))
+      begin
+        File.open("./assets/data/graph.json", "w") do |f|
+          f.write(JSON.pretty_generate(graph_data))
+        end
+      rescue
+        puts "Error writing graph.json"
       end
+
 
     end
 
