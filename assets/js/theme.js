@@ -27,3 +27,8 @@ function switchTheme() {
 	}
 	setTheme()
 }
+
+function setDarkTheme() {
+	window.localStorage.setItem('theme', 'dark');
+	setTheme()
+}
