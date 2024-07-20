@@ -24,6 +24,8 @@
         "/languages",
         "/literature",
         "/philosophy",
+        "/poetry",
+        "/siir",
         "/politics"
       ]
     },
@@ -144,21 +146,15 @@
         "/broken-systems",
         "/criminal-justice",
         "/economics",
-        "/elaborate-vs-clear-speech",
         "/fluid-field-boundaries",
-        "/four-day-workweek",
         "/in-praise-of-idleness",
         "/last-million",
-        "/loneliness",
         "/metaphors",
-        "/nothing-to-lose",
         "/politics",
         "/psychology",
         "/social-change",
         "/the-tragedy-of-the-commons",
-        "/turk-mirasi",
         "/urban-planning",
-        "/wage-theft",
         "/being-poor",
         "/cognitive-biases",
         "/communication",
@@ -241,13 +237,9 @@
       "links": [
         "/arts",
         "/classics",
-        "/poetry",
-        "/siir",
-        "/tao-te-ching",
         "/turkce",
         "/authors",
-        "/psy-in-lit",
-        "/philosophy"
+        "/psy-in-lit"
       ]
     },
     {
@@ -294,7 +286,6 @@
         "/work-phil",
         "/you-can-always-choose-your-way",
         "/life-is-soft",
-        "/literature",
         "/tao-te-ching",
         "/phil-books",
         "/a-good-life",
@@ -307,6 +298,42 @@
         "/critical-thinking",
         "/how-to-deal-with-pain",
         "/solitude"
+      ]
+    },
+    {
+      "id": "/poetry",
+      "group": 2,
+      "name": "Poetry",
+      "links": [
+        "/arts",
+        "/conviction",
+        "/deep-roots",
+        "/find-time-to-just-be",
+        "/fire-and-ice",
+        "/haikus",
+        "/harlem",
+        "/if",
+        "/lightly-child",
+        "/tao-te-ching",
+        "/the-road-not-taken",
+        "/this-be-the-verse",
+        "/siir"
+      ]
+    },
+    {
+      "id": "/siir",
+      "group": 2,
+      "name": "Şiirler",
+      "links": [
+        "/arts",
+        "/can-yucel",
+        "/fuzuli",
+        "/if-ecevit",
+        "/isyan",
+        "/nazim",
+        "/orhan-veli",
+        "/turkce",
+        "/poetry"
       ]
     },
     {
@@ -386,7 +413,9 @@
         "/critical-thinking",
         "/on-decision-making",
         "/how-to-deal-with-pain",
+        "/in-praise-of-idleness",
         "/how-to-speak-to-children",
+        "/overvaluing-short-term",
         "/technology-and-time"
       ]
     },
@@ -760,6 +789,7 @@
         "/sales",
         "/business",
         "/creativity",
+        "/overvaluing-short-term",
         "/44-engineering-management-lessons",
         "/tech-leadership"
       ]
@@ -832,16 +862,9 @@
       "group": 2,
       "name": "Economics",
       "links": [
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/elaborate-vs-clear-speech",
-      "group": 2,
-      "name": "Tolstoy on clear speech",
-      "links": [
         "/social-sciences",
-        "/psy-in-lit"
+        "/four-day-workweek",
+        "/wage-theft"
       ]
     },
     {
@@ -855,20 +878,12 @@
       ]
     },
     {
-      "id": "/four-day-workweek",
-      "group": 2,
-      "name": "Four Day Workweek",
-      "links": [
-        "/social-sciences",
-        "/in-praise-of-idleness"
-      ]
-    },
-    {
       "id": "/in-praise-of-idleness",
       "group": 2,
       "name": "In Praise Of Idleness",
       "links": [
         "/social-sciences",
+        "/essais",
         "/four-day-workweek"
       ]
     },
@@ -883,25 +898,9 @@
       ]
     },
     {
-      "id": "/loneliness",
-      "group": 2,
-      "name": "Loneliness",
-      "links": [
-        "/social-sciences"
-      ]
-    },
-    {
       "id": "/metaphors",
       "group": 2,
       "name": "Metaphors",
-      "links": [
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/nothing-to-lose",
-      "group": 2,
-      "name": "Nothing To Lose",
       "links": [
         "/social-sciences"
       ]
@@ -912,6 +911,7 @@
       "name": "Politics",
       "links": [
         "/social-sciences",
+        "/nothing-to-lose",
         "/arts",
         "/insight-and-strength",
         "/real-vs-hollow-power",
@@ -934,17 +934,16 @@
         "/children",
         "/chronic-vs-acute-stress",
         "/cognitive-biases",
-        "/complain-vs-appreciate",
         "/distractions",
         "/ego",
         "/emotions",
         "/flow",
         "/gaslighting",
-        "/give-support-not-advice",
         "/habits",
         "/how-to-spot-a-liar",
         "/how-to-start",
         "/inertia",
+        "/loneliness",
         "/overcoming-obstacles",
         "/overvaluing-short-term",
         "/people-see-what-they-want",
@@ -982,26 +981,9 @@
       ]
     },
     {
-      "id": "/turk-mirasi",
-      "group": 2,
-      "name": "Türk Mirası",
-      "links": [
-        "/social-sciences",
-        "/turkce"
-      ]
-    },
-    {
       "id": "/urban-planning",
       "group": 2,
       "name": "Urban Planning",
-      "links": [
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/wage-theft",
-      "group": 2,
-      "name": "Wage Theft",
       "links": [
         "/social-sciences"
       ]
@@ -1314,62 +1296,10 @@
         "/literature",
         "/cien-anos-de-soledad",
         "/do-not-lie-to-yourself",
+        "/elaborate-vs-clear-speech",
         "/the-art-of-war",
         "/cien-anos-de-soledad",
         "/lists"
-      ]
-    },
-    {
-      "id": "/poetry",
-      "group": 3,
-      "name": "Poetry",
-      "links": [
-        "/literature",
-        "/conviction",
-        "/deep-roots",
-        "/find-time-to-just-be",
-        "/fire-and-ice",
-        "/haikus",
-        "/harlem",
-        "/if",
-        "/lightly-child",
-        "/the-road-not-taken",
-        "/this-be-the-verse"
-      ]
-    },
-    {
-      "id": "/siir",
-      "group": 3,
-      "name": "Şiirler",
-      "links": [
-        "/literature",
-        "/fuzuli",
-        "/if-ecevit",
-        "/nazim",
-        "/orhan-veli",
-        "/turkce"
-      ]
-    },
-    {
-      "id": "/tao-te-ching",
-      "group": 3,
-      "name": "Tao Te Ching",
-      "links": [
-        "/literature",
-        "/insight-and-strength",
-        "/life-is-soft",
-        "/misery-under-happiness",
-        "/monstrous-ingenuity",
-        "/not-being",
-        "/not-far-away",
-        "/real-vs-hollow-power",
-        "/the-great-leader",
-        "/uncut-wood",
-        "/wei-wu-wei",
-        "/wind-and-rain",
-        "/phil-books",
-        "/philosophy",
-        "/politics"
       ]
     },
     {
@@ -1379,10 +1309,10 @@
       "links": [
         "/literature",
         "/ince-memed",
+        "/turk-mirasi",
         "/languages",
-        "/siir",
         "/ideal-insan",
-        "/turk-mirasi"
+        "/siir"
       ]
     },
     {
@@ -1500,7 +1430,6 @@
       "name": "Know Where To Stop",
       "links": [
         "/philosophy",
-        "/wind-and-rain",
         "/do-one-thing-at-a-time-and-do-it-well"
       ]
     },
@@ -1587,7 +1516,6 @@
       "name": "One Bit Better",
       "links": [
         "/philosophy",
-        "/lightly-child",
         "/a-good-life"
       ]
     },
@@ -1670,8 +1598,7 @@
       "group": 3,
       "name": "Travelling And Change",
       "links": [
-        "/philosophy",
-        "/not-far-away"
+        "/philosophy"
       ]
     },
     {
@@ -1721,6 +1648,159 @@
       ]
     },
     {
+      "id": "/conviction",
+      "group": 3,
+      "name": "Conviction",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/deep-roots",
+      "group": 3,
+      "name": "Deep Roots",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/find-time-to-just-be",
+      "group": 3,
+      "name": "Find Time To Just Be",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/fire-and-ice",
+      "group": 3,
+      "name": "Fire and Ice",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/haikus",
+      "group": 3,
+      "name": "Haikus",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/harlem",
+      "group": 3,
+      "name": "Harlem",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/if",
+      "group": 3,
+      "name": "If by Rudyard KIPLING",
+      "links": [
+        "/poetry",
+        "/if-ecevit"
+      ]
+    },
+    {
+      "id": "/lightly-child",
+      "group": 3,
+      "name": "Lightly Child",
+      "links": [
+        "/poetry",
+        "/do-one-thing-at-a-time-and-do-it-well"
+      ]
+    },
+    {
+      "id": "/tao-te-ching",
+      "group": 3,
+      "name": "Tao Te Ching",
+      "links": [
+        "/poetry",
+        "/insight-and-strength",
+        "/life-is-soft",
+        "/misery-under-happiness",
+        "/monstrous-ingenuity",
+        "/not-being",
+        "/not-far-away",
+        "/real-vs-hollow-power",
+        "/the-great-leader",
+        "/uncut-wood",
+        "/wei-wu-wei",
+        "/wind-and-rain",
+        "/philosophy",
+        "/phil-books",
+        "/politics"
+      ]
+    },
+    {
+      "id": "/the-road-not-taken",
+      "group": 3,
+      "name": "The Road Not Taken",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/this-be-the-verse",
+      "group": 3,
+      "name": "This Be The Verse",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/can-yucel",
+      "group": 3,
+      "name": "Can Yücel",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/fuzuli",
+      "group": 3,
+      "name": "Fuzuli",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/if-ecevit",
+      "group": 3,
+      "name": "If, ceviri Bulent Ecevit",
+      "links": [
+        "/siir",
+        "/if"
+      ]
+    },
+    {
+      "id": "/isyan",
+      "group": 3,
+      "name": "Isyan",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/nazim",
+      "group": 3,
+      "name": "Nazim Hikmet",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/orhan-veli",
+      "group": 3,
+      "name": "Orhan Veli",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
       "id": "/algorithms-books",
       "group": 3,
       "name": "Algorithms Books",
@@ -1736,9 +1816,9 @@
       "links": [
         "/books",
         "/the-art-of-war",
-        "/tao-te-ching",
         "/philosophy",
-        "/search-for-meaning"
+        "/search-for-meaning",
+        "/tao-te-ching"
       ]
     },
     {
@@ -2145,10 +2225,10 @@
       "name": "Critical thinking",
       "links": [
         "/decisions",
-        "/insight-and-strength",
         "/philosophy",
         "/questions",
         "/truth",
+        "/insight-and-strength",
         "/essais",
         "/on-decision-making",
         "/practical-skills"
@@ -2160,8 +2240,8 @@
       "name": "Do One Thing At A Time And Do It Well",
       "links": [
         "/decisions",
-        "/lightly-child",
         "/know-where-to-stop",
+        "/lightly-child",
         "/mastery",
         "/system-design"
       ]
@@ -2316,6 +2396,31 @@
       ]
     },
     {
+      "id": "/four-day-workweek",
+      "group": 3,
+      "name": "Four Day Workweek",
+      "links": [
+        "/economics",
+        "/in-praise-of-idleness"
+      ]
+    },
+    {
+      "id": "/wage-theft",
+      "group": 3,
+      "name": "Wage Theft",
+      "links": [
+        "/economics"
+      ]
+    },
+    {
+      "id": "/nothing-to-lose",
+      "group": 3,
+      "name": "Nothing To Lose",
+      "links": [
+        "/politics"
+      ]
+    },
+    {
       "id": "/behavioral-psychology",
       "group": 3,
       "name": "Behavioral Psychology",
@@ -2362,17 +2467,10 @@
       "name": "Cognitive Biases",
       "links": [
         "/psychology",
+        "/complain-vs-appreciate",
         "/behavioral-psychology",
         "/bias-for-unhappiness",
         "/social-sciences"
-      ]
-    },
-    {
-      "id": "/complain-vs-appreciate",
-      "group": 3,
-      "name": "Complain Vs Appreciate",
-      "links": [
-        "/psychology"
       ]
     },
     {
@@ -2426,14 +2524,6 @@
       ]
     },
     {
-      "id": "/give-support-not-advice",
-      "group": 3,
-      "name": "Give Support Not Advice",
-      "links": [
-        "/psychology"
-      ]
-    },
-    {
       "id": "/habits",
       "group": 3,
       "name": "Habits",
@@ -2468,6 +2558,14 @@
       ]
     },
     {
+      "id": "/loneliness",
+      "group": 3,
+      "name": "Loneliness",
+      "links": [
+        "/psychology"
+      ]
+    },
+    {
       "id": "/overcoming-obstacles",
       "group": 3,
       "name": "Overcoming Obstacles",
@@ -2481,7 +2579,9 @@
       "group": 3,
       "name": "Overvaluing Short Term",
       "links": [
-        "/psychology"
+        "/psychology",
+        "/essais",
+        "/leadership"
       ]
     },
     {
@@ -2523,9 +2623,9 @@
       "links": [
         "/psychology",
         "/do-not-lie-to-yourself",
+        "/elaborate-vs-clear-speech",
         "/literature",
-        "/unhappy-in-their-own-way",
-        "/elaborate-vs-clear-speech"
+        "/unhappy-in-their-own-way"
       ]
     },
     {
@@ -3593,6 +3693,15 @@
       ]
     },
     {
+      "id": "/elaborate-vs-clear-speech",
+      "group": 4,
+      "name": "Tolstoy on clear speech",
+      "links": [
+        "/classics",
+        "/psy-in-lit"
+      ]
+    },
+    {
       "id": "/the-art-of-war",
       "group": 4,
       "name": "The Art of War",
@@ -3604,117 +3713,27 @@
       ]
     },
     {
-      "id": "/conviction",
+      "id": "/ince-memed",
       "group": 4,
-      "name": "Conviction",
+      "name": "Ince Memed",
       "links": [
-        "/poetry"
+        "/turkce"
       ]
     },
     {
-      "id": "/deep-roots",
+      "id": "/turk-mirasi",
       "group": 4,
-      "name": "Deep Roots",
+      "name": "Türk Mirası",
       "links": [
-        "/poetry"
+        "/turkce"
       ]
     },
     {
-      "id": "/find-time-to-just-be",
+      "id": "/concepts-in-greek-thought",
       "group": 4,
-      "name": "Find Time To Just Be",
+      "name": "Concepts In Greek Thought",
       "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/fire-and-ice",
-      "group": 4,
-      "name": "Fire and Ice",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/haikus",
-      "group": 4,
-      "name": "Haikus",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/harlem",
-      "group": 4,
-      "name": "Harlem",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/if",
-      "group": 4,
-      "name": "If",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/lightly-child",
-      "group": 4,
-      "name": "Lightly Child",
-      "links": [
-        "/poetry",
-        "/do-one-thing-at-a-time-and-do-it-well",
-        "/one-bit-better"
-      ]
-    },
-    {
-      "id": "/the-road-not-taken",
-      "group": 4,
-      "name": "The Road Not Taken",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/this-be-the-verse",
-      "group": 4,
-      "name": "This Be The Verse",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/fuzuli",
-      "group": 4,
-      "name": "Fuzuli",
-      "links": [
-        "/siir"
-      ]
-    },
-    {
-      "id": "/if-ecevit",
-      "group": 4,
-      "name": "If Ecevit",
-      "links": [
-        "/siir"
-      ]
-    },
-    {
-      "id": "/nazim",
-      "group": 4,
-      "name": "Nazim Hikmet",
-      "links": [
-        "/siir"
-      ]
-    },
-    {
-      "id": "/orhan-veli",
-      "group": 4,
-      "name": "Orhan Veli",
-      "links": [
-        "/siir"
+        "/greek"
       ]
     },
     {
@@ -3765,8 +3784,7 @@
       "group": 4,
       "name": "Not Far Away",
       "links": [
-        "/tao-te-ching",
-        "/travelling-and-change"
+        "/tao-te-ching"
       ]
     },
     {
@@ -3808,24 +3826,7 @@
       "group": 4,
       "name": "Wind And Rain",
       "links": [
-        "/tao-te-ching",
-        "/know-where-to-stop"
-      ]
-    },
-    {
-      "id": "/ince-memed",
-      "group": 4,
-      "name": "Ince Memed",
-      "links": [
-        "/turkce"
-      ]
-    },
-    {
-      "id": "/concepts-in-greek-thought",
-      "group": 4,
-      "name": "Concepts In Greek Thought",
-      "links": [
-        "/greek"
+        "/tao-te-ching"
       ]
     },
     {
@@ -3867,6 +3868,14 @@
       "name": "Take Children Seriously",
       "links": [
         "/children"
+      ]
+    },
+    {
+      "id": "/complain-vs-appreciate",
+      "group": 4,
+      "name": "Complain Vs Appreciate",
+      "links": [
+        "/cognitive-biases"
       ]
     },
     {
@@ -5238,6 +5247,14 @@
       "target": "/philosophy"
     },
     {
+      "source": "/arts",
+      "target": "/poetry"
+    },
+    {
+      "source": "/arts",
+      "target": "/siir"
+    },
+    {
       "source": "/lists",
       "target": "/authors"
     },
@@ -5451,15 +5468,7 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/elaborate-vs-clear-speech"
-    },
-    {
-      "source": "/social-sciences",
       "target": "/fluid-field-boundaries"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/four-day-workweek"
     },
     {
       "source": "/social-sciences",
@@ -5471,15 +5480,7 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/loneliness"
-    },
-    {
-      "source": "/social-sciences",
       "target": "/metaphors"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/nothing-to-lose"
     },
     {
       "source": "/social-sciences",
@@ -5499,15 +5500,7 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/turk-mirasi"
-    },
-    {
-      "source": "/social-sciences",
       "target": "/urban-planning"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/wage-theft"
     },
     {
       "source": "/tech",
@@ -5592,18 +5585,6 @@
     {
       "source": "/literature",
       "target": "/classics"
-    },
-    {
-      "source": "/literature",
-      "target": "/poetry"
-    },
-    {
-      "source": "/literature",
-      "target": "/siir"
-    },
-    {
-      "source": "/literature",
-      "target": "/tao-te-ching"
     },
     {
       "source": "/literature",
@@ -5756,6 +5737,74 @@
     {
       "source": "/philosophy",
       "target": "/you-can-always-choose-your-way"
+    },
+    {
+      "source": "/poetry",
+      "target": "/conviction"
+    },
+    {
+      "source": "/poetry",
+      "target": "/deep-roots"
+    },
+    {
+      "source": "/poetry",
+      "target": "/find-time-to-just-be"
+    },
+    {
+      "source": "/poetry",
+      "target": "/fire-and-ice"
+    },
+    {
+      "source": "/poetry",
+      "target": "/haikus"
+    },
+    {
+      "source": "/poetry",
+      "target": "/harlem"
+    },
+    {
+      "source": "/poetry",
+      "target": "/if"
+    },
+    {
+      "source": "/poetry",
+      "target": "/lightly-child"
+    },
+    {
+      "source": "/poetry",
+      "target": "/tao-te-ching"
+    },
+    {
+      "source": "/poetry",
+      "target": "/the-road-not-taken"
+    },
+    {
+      "source": "/poetry",
+      "target": "/this-be-the-verse"
+    },
+    {
+      "source": "/siir",
+      "target": "/can-yucel"
+    },
+    {
+      "source": "/siir",
+      "target": "/fuzuli"
+    },
+    {
+      "source": "/siir",
+      "target": "/if-ecevit"
+    },
+    {
+      "source": "/siir",
+      "target": "/isyan"
+    },
+    {
+      "source": "/siir",
+      "target": "/nazim"
+    },
+    {
+      "source": "/siir",
+      "target": "/orhan-veli"
     },
     {
       "source": "/books",
@@ -5998,6 +6047,18 @@
       "target": "/sports"
     },
     {
+      "source": "/economics",
+      "target": "/four-day-workweek"
+    },
+    {
+      "source": "/economics",
+      "target": "/wage-theft"
+    },
+    {
+      "source": "/politics",
+      "target": "/nothing-to-lose"
+    },
+    {
       "source": "/psychology",
       "target": "/behavioral-psychology"
     },
@@ -6016,10 +6077,6 @@
     {
       "source": "/psychology",
       "target": "/cognitive-biases"
-    },
-    {
-      "source": "/psychology",
-      "target": "/complain-vs-appreciate"
     },
     {
       "source": "/psychology",
@@ -6043,10 +6100,6 @@
     },
     {
       "source": "/psychology",
-      "target": "/give-support-not-advice"
-    },
-    {
-      "source": "/psychology",
       "target": "/habits"
     },
     {
@@ -6060,6 +6113,10 @@
     {
       "source": "/psychology",
       "target": "/inertia"
+    },
+    {
+      "source": "/psychology",
+      "target": "/loneliness"
     },
     {
       "source": "/psychology",
@@ -6539,63 +6596,23 @@
     },
     {
       "source": "/classics",
+      "target": "/elaborate-vs-clear-speech"
+    },
+    {
+      "source": "/classics",
       "target": "/the-art-of-war"
     },
     {
-      "source": "/poetry",
-      "target": "/conviction"
+      "source": "/turkce",
+      "target": "/ince-memed"
     },
     {
-      "source": "/poetry",
-      "target": "/deep-roots"
+      "source": "/turkce",
+      "target": "/turk-mirasi"
     },
     {
-      "source": "/poetry",
-      "target": "/find-time-to-just-be"
-    },
-    {
-      "source": "/poetry",
-      "target": "/fire-and-ice"
-    },
-    {
-      "source": "/poetry",
-      "target": "/haikus"
-    },
-    {
-      "source": "/poetry",
-      "target": "/harlem"
-    },
-    {
-      "source": "/poetry",
-      "target": "/if"
-    },
-    {
-      "source": "/poetry",
-      "target": "/lightly-child"
-    },
-    {
-      "source": "/poetry",
-      "target": "/the-road-not-taken"
-    },
-    {
-      "source": "/poetry",
-      "target": "/this-be-the-verse"
-    },
-    {
-      "source": "/siir",
-      "target": "/fuzuli"
-    },
-    {
-      "source": "/siir",
-      "target": "/if-ecevit"
-    },
-    {
-      "source": "/siir",
-      "target": "/nazim"
-    },
-    {
-      "source": "/siir",
-      "target": "/orhan-veli"
+      "source": "/greek",
+      "target": "/concepts-in-greek-thought"
     },
     {
       "source": "/tao-te-ching",
@@ -6642,14 +6659,6 @@
       "target": "/wind-and-rain"
     },
     {
-      "source": "/turkce",
-      "target": "/ince-memed"
-    },
-    {
-      "source": "/greek",
-      "target": "/concepts-in-greek-thought"
-    },
-    {
       "source": "/children",
       "target": "/children-and-school"
     },
@@ -6668,6 +6677,10 @@
     {
       "source": "/children",
       "target": "/take-children-seriously"
+    },
+    {
+      "source": "/cognitive-biases",
+      "target": "/complain-vs-appreciate"
     },
     {
       "source": "/emotions",
@@ -7262,6 +7275,10 @@
       "target": "/psy-in-lit"
     },
     {
+      "source": "/elaborate-vs-clear-speech",
+      "target": "/psy-in-lit"
+    },
+    {
       "source": "/the-art-of-war",
       "target": "/phil-books"
     },
@@ -7282,52 +7299,12 @@
       "target": "/psy-in-lit"
     },
     {
-      "source": "/lightly-child",
-      "target": "/do-one-thing-at-a-time-and-do-it-well"
-    },
-    {
-      "source": "/lightly-child",
-      "target": "/one-bit-better"
-    },
-    {
-      "source": "/insight-and-strength",
-      "target": "/critical-thinking"
-    },
-    {
-      "source": "/insight-and-strength",
-      "target": "/politics"
-    },
-    {
-      "source": "/not-far-away",
-      "target": "/travelling-and-change"
-    },
-    {
-      "source": "/real-vs-hollow-power",
-      "target": "/politics"
-    },
-    {
-      "source": "/tao-te-ching",
-      "target": "/phil-books"
-    },
-    {
-      "source": "/the-great-leader",
-      "target": "/teamwork"
-    },
-    {
-      "source": "/wind-and-rain",
-      "target": "/know-where-to-stop"
-    },
-    {
-      "source": "/turkce",
-      "target": "/siir"
-    },
-    {
       "source": "/turkce",
       "target": "/ideal-insan"
     },
     {
       "source": "/turkce",
-      "target": "/turk-mirasi"
+      "target": "/siir"
     },
     {
       "source": "/death",
@@ -7384,10 +7361,6 @@
     {
       "source": "/philosophy",
       "target": "/life-is-soft"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/literature"
     },
     {
       "source": "/philosophy",
@@ -7478,6 +7451,38 @@
       "target": "/psy-in-lit"
     },
     {
+      "source": "/if",
+      "target": "/if-ecevit"
+    },
+    {
+      "source": "/lightly-child",
+      "target": "/do-one-thing-at-a-time-and-do-it-well"
+    },
+    {
+      "source": "/poetry",
+      "target": "/siir"
+    },
+    {
+      "source": "/insight-and-strength",
+      "target": "/critical-thinking"
+    },
+    {
+      "source": "/insight-and-strength",
+      "target": "/politics"
+    },
+    {
+      "source": "/real-vs-hollow-power",
+      "target": "/politics"
+    },
+    {
+      "source": "/tao-te-ching",
+      "target": "/phil-books"
+    },
+    {
+      "source": "/the-great-leader",
+      "target": "/teamwork"
+    },
+    {
       "source": "/books",
       "target": "/books-swe"
     },
@@ -7535,7 +7540,15 @@
     },
     {
       "source": "/essais",
+      "target": "/in-praise-of-idleness"
+    },
+    {
+      "source": "/essais",
       "target": "/how-to-speak-to-children"
+    },
+    {
+      "source": "/essais",
+      "target": "/overvaluing-short-term"
     },
     {
       "source": "/essais",
@@ -7667,6 +7680,10 @@
     },
     {
       "source": "/leadership",
+      "target": "/overvaluing-short-term"
+    },
+    {
+      "source": "/leadership",
       "target": "/44-engineering-management-lessons"
     },
     {
@@ -7756,10 +7773,6 @@
     {
       "source": "/broken-systems",
       "target": "/systems-concepts"
-    },
-    {
-      "source": "/elaborate-vs-clear-speech",
-      "target": "/psy-in-lit"
     },
     {
       "source": "/four-day-workweek",

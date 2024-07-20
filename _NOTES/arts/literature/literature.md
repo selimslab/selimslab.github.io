@@ -1,5 +1,5 @@
 ---
-tags: arts phil 
+tags: arts 
 ---
 
 

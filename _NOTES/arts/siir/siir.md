@@ -1,6 +1,6 @@
 ---
 title: Şiirler
-tags: tr
+tags: tr poetry
 ---
 
 

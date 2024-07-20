@@ -1,7 +1,9 @@
+---
 
+title: If, ceviri Bulent Ecevit
 ---
-title: If, ceviri Bulent Ecevit 
----
+
+[[if]] 
 
 çevrende herkes şaşırsa bunu da senden bilse sen aklı başında kalabilirsen eğer
 
@@ -30,6 +32,3 @@ dost da düşman da incitemezse seni, ne küçümser ne de büyültürsen çevre
 her saatin her dakkasına emeğini katarsan hakçasına
 
 her şeyiyle dünya önüne serilir üstelik oğlum adam oldun demektir
-
-
-[[if]]
