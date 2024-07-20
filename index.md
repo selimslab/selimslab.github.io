@@ -20,18 +20,14 @@ A personal knowledge graph
 
 {% include stats.html  %}
 
-
 ## Featured
 
 {% include hub.html tag='top' %}
 
-
 <br>
 {% include earth.html %}
 
-
 ## Time 
-
 {% include time.html %}
 
 
