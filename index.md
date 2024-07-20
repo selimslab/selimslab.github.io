@@ -15,7 +15,7 @@ A personal knowledge graph
 </div>
 
 
-<br>
+
 {% include earth.html %}
 
 
