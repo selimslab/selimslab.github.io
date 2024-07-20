@@ -7,42 +7,25 @@
   const g = ForceGraph()
 
   const highlightNodes = new Set();
-  const highlightLinks = new Set();
-  let hoverNode = null;
 
   g(container)
     .graphData(graphData)
     .minZoom(1)
     .maxZoom(5)
-    .linkColor((link) => (highlightLinks.has(link) ?  accent : lightText))
+    .linkColor(() => lightText)
+    .linkWidth(() => 0.4)
     .nodeColor(node => {
       return highlightNodes.has(node.id) ? accent : getColor(node.group);
     })
-    .linkWidth((link) => (highlightLinks.has(link) ? 1 : 0.4))
     .onNodeHover((node) => {
       highlightNodes.clear();
-      highlightLinks.clear();
       if (node) {
         highlightNodes.add(node.id);
         node.links.forEach((linkedNode) => highlightNodes.add(linkedNode)
         );
       }
-
-      hoverNode = node || null;
-    })
-    .onLinkHover((link) => {
-      highlightNodes.clear();
-      highlightLinks.clear();
-
-      if (link) {
-        highlightLinks.add(link);
-        highlightNodes.add(link.source.id);
-        highlightNodes.add(link.target.id);
-      }
     })
     .autoPauseRedraw(false) // keep redrawing after engine has stopped
-
-
 
   g.d3Force("center", null);
   g.d3Force('charge').strength(-16);
