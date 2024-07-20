@@ -1,5 +1,5 @@
 ---
-title: 2D Graph
+title: 2D Graph of All Pages
 layout: free
 tags: top 
 ---
