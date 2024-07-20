@@ -8,7 +8,6 @@ layout: page
 A personal knowledge graph   
 
 
-
 ## Contents
 
 <div style="margin-top:0.5rem">
@@ -16,21 +15,17 @@ A personal knowledge graph
 </div>
 
 
-## Stats 
+<br>
+{% include earth.html %}
 
-{% include stats.html  %}
 
 ## Featured
 
 {% include hub.html tag='top' %}
 
-<br>
-{% include earth.html %}
 
 ## Time 
 {% include time.html %}
-
-
 
 ## Tap to shuffle   
 
@@ -39,3 +34,4 @@ A personal knowledge graph
 {% include random-idea.html %}
 
 {% include offline.html  %}
+
