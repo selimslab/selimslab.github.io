@@ -15,7 +15,7 @@ function render3DGraph(){
       .graphData(gData)
       .nodeLabel("name")
       .linkColor(() => lightText)
-      .linkWidth(() => 0.4)
+      .linkWidth(() => 1)
       .nodeColor(node => {
         return highlightNodes.has(node.id) ? accent : getColor(node.group);
       })
