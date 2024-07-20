@@ -14,11 +14,11 @@
     .graphData(graphData)
     .minZoom(1)
     .maxZoom(5)
-    .linkColor((link) => (highlightLinks.has(link) ?  accent : "#f0f1f2"))
+    .linkColor((link) => (highlightLinks.has(link) ?  accent : lightText))
     .nodeColor(node => {
       return highlightNodes.has(node.id) ? accent : getColor(node.group);
     })
-    .linkWidth((link) => (highlightLinks.has(link) ? 1 : 0.3))
+    .linkWidth((link) => (highlightLinks.has(link) ? 1 : 0.4))
     .onNodeHover((node) => {
       highlightNodes.clear();
       highlightLinks.clear();

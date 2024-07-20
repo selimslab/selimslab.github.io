@@ -17,11 +17,11 @@ $sansSerif: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $serif: Georgia, serif;
 
 // text and bg 
-$dark-bg: #22272e;
-$light-text: #f0f1f2;
+$darkBg: #22272e;
+$lightText: #f0f1f2;
 
-$light-bg: #f8f1e3;
-$dark-text: $gray;
+$lightBg: #f8f1e3;
+$darkText: $gray;
 
 html {
   font-size: larger;
@@ -44,13 +44,13 @@ body {
   /* Ensures the image covers the entire background */
   background-position: center;
   /* Centers the image */
-  color: $light-text;
+  color: $lightText;
   min-height: 100vh;
   word-break: break-word;
 }
 
 strong {
-  color: $light-text;
+  color: $lightText;
 }
 
 hr {
@@ -121,7 +121,7 @@ summary:hover {
 
 
 .input {
-  background-color: $light-text;
+  background-color: $lightText;
 }
 
 
@@ -207,8 +207,8 @@ details {
 html[data-theme='light'] {
 
   body {
-    background: $light-bg;
-    color: $dark-text;
+    background: $lightBg;
+    color: $darkText;
   }
 
   ::selection {
@@ -216,7 +216,7 @@ html[data-theme='light'] {
   }
 
   strong {
-    color: $dark-text;
+    color: $darkText;
   }
 
   .top {
