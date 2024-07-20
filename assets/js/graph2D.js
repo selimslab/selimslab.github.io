@@ -14,7 +14,7 @@
     .graphData(graphData)
     .minZoom(1)
     .maxZoom(5)
-    .linkColor((link) => (highlightLinks.has(link) ?  accent : "#568692"))
+    .linkColor((link) => (highlightLinks.has(link) ?  accent : "#f0f1f2"))
     .nodeColor(node => {
       return highlightNodes.has(node.id) ? accent : getColor(node.group);
     })
