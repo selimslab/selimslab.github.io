@@ -1,14 +1,18 @@
 
+let moon = "<div class='moon' style='width:2rem; height:2rem'></div>"
+let sun = "<div class='sun' style='width:2rem; height:2rem'></div>"
+
+
 function setTheme() {
 	var themeToggle = document.getElementById("themeToggle");
 
 	const theme = localStorage.getItem('theme');
 	if (theme === "light") {
 		document.documentElement.setAttribute('data-theme', 'light');
-		themeToggle.innerText = "☀️"
+		themeToggle.innerHTML = sun
 	} else {
 		document.documentElement.setAttribute('data-theme', 'dark');
-		themeToggle.innerText = "🌙"
+		themeToggle.innerHTML = moon
 	}
 }
 

@@ -14,21 +14,41 @@ class SiteGenerator < Jekyll::Generator
         process_doc(doc, site)
       end
 
-      generate_graph(site)
+      begin
+        File.open("./assets/data/tree.json", "w") do |f|
+          f.write(JSON.pretty_generate(site.data["tree"]))
+        end
+      rescue
+        puts "Error writing tree.json"
+      end
+
+
+      graph = generate_graph(site)
+
+      site.data["link_count"] = 0
+
+      # count <a> tag in the site
+      site.data["link_count"] += site.documents.map { |doc| doc.content.scan(/<a/).length }.sum
 
       # add ideas to site.data
       site.data["ideas"] = JSON.parse(File.read("./assets/data/ideas.json")).sort
 
+      site.data["link_count"] += graph[:links].length
+
+    end
+
+    def remove_leading_slash(str)
+      return str.sub(/^\//, '')
     end
 
     def generate_graph(site)
       nodes = []
       links = []
       nodemap = {}
-      group = 1
-      file_tree = site.data["tree"]
+      group = 0
+      file_tree = {"/root": site.data["tree"] }
 
-      queue = [[file_tree, nil, group]] # Start with root node, no parent, and group number 0
+      queue = [[file_tree, nil, group]]
 
       until queue.empty?
         current_data, parent, group_number = queue.shift
@@ -48,7 +68,9 @@ class SiteGenerator < Jekyll::Generator
 
       backlink_tree = {}
       site.documents.each do |doc|
-        backlink_tree[doc.id] = doc.data['backlinks'].map { |e| e.id }
+        if doc.data['backlinks'].any?
+          backlink_tree[doc.id] = doc.data['backlinks'].map { |e| e.id }
+        end
       end
 
       backlink_tree.each do |parent, children|
@@ -71,10 +93,14 @@ class SiteGenerator < Jekyll::Generator
       links = links.uniq { |e| [e[:source], e[:target]] }
 
       ## add name to each node
-      site.documents.each do |doc|
-        node = nodes.find { |e| e[:id] == doc.id }
-        next if node.nil?
-        node[:name] = doc.data["title"]
+      nodes.each do |node|
+        file = remove_leading_slash(node[:id].to_s)
+        name = site.data["file_to_title"][file]
+        if name
+          node[:name] = name
+        else
+          node[:name] = file.capitalize
+        end
       end
 
       # add all links of a node to the node
@@ -83,8 +109,6 @@ class SiteGenerator < Jekyll::Generator
         # remove nodes with no links
         nodes.delete(node) if node[:links].empty?
       end
-
-
 
 
       graph_data = { nodes: nodes, links: links }
@@ -97,7 +121,7 @@ class SiteGenerator < Jekyll::Generator
         puts "Error writing graph.json"
       end
 
-
+      return graph_data
     end
 
 
@@ -111,7 +135,7 @@ class SiteGenerator < Jekyll::Generator
       site.data["file_to_tag"] = site.data["tag_to_file"].invert
 
       site.data["file_to_title"] = site.documents.map do |doc|
-        [doc.id.sub(/^\//, ''), doc.data["title"]]
+        [remove_leading_slash(doc.id), doc.data["title"]]
       end.to_h
 
     end

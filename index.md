@@ -16,14 +16,18 @@ A personal knowledge graph
 </div>
 
 
-## Featured
-
-{% include hub.html tag='top' %}
-
 ## Stats 
 
 {% include stats.html  %}
 
+
+## Featured
+
+{% include hub.html tag='top' %}
+
+
+<br>
+{% include earth.html %}
 
 
 ## Time 
@@ -31,17 +35,11 @@ A personal knowledge graph
 {% include time.html %}
 
 
+
 ## Tap to shuffle   
 
 {% include random-artwork.html %}
 
-
-
 {% include random-idea.html %}
 
 {% include offline.html  %}
-
-
-<br>
-
-{% include earth.html %}

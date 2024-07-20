@@ -14,9 +14,9 @@
     .graphData(graphData)
     .minZoom(1)
     .maxZoom(5)
-    .linkColor((link) => (highlightLinks.has(link) ?  "#FF530D" : "#568692"))
+    .linkColor((link) => (highlightLinks.has(link) ?  accent : "#568692"))
     .nodeColor(node => {
-      return highlightNodes.has(node.id) ? "#FF530D" : getColor(node.group);
+      return highlightNodes.has(node.id) ? accent : getColor(node.group);
     })
     .linkWidth((link) => (highlightLinks.has(link) ? 1 : 0.3))
     .onNodeHover((node) => {
@@ -45,20 +45,13 @@
 
 
   g.d3Force("center", null);
-  g.d3Force('charge').strength(-18);
+  g.d3Force('charge').strength(-16);
 
   // fit to canvas when engine stops
   g.onEngineStop(() => g.zoomToFit());
   
 })();
 
-function getColor(index) {
-  const colors = [
-    "#8A2BE2", // Violet
-    "#71C9CE",
-    "#B4E380", // Green
-    "#F6FB7A", // Yellow
-    "#E3FDFD"
-  ];
-  return colors[index % colors.length];
-}
+
+
+

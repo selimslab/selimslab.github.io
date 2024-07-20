@@ -1,10 +1,25 @@
 {
   "nodes": [
     {
+      "id": "/root",
+      "group": 0,
+      "name": "Root",
+      "links": [
+        "/arts",
+        "/lists",
+        "/math",
+        "/natural-sciences",
+        "/practical-skills",
+        "/social-sciences",
+        "/tech"
+      ]
+    },
+    {
       "id": "/arts",
       "group": 1,
       "name": "Arts",
       "links": [
+        "/root",
         "/cinema",
         "/languages",
         "/literature",
@@ -17,6 +32,7 @@
       "group": 1,
       "name": "Lists",
       "links": [
+        "/root",
         "/authors",
         "/books",
         "/comics",
@@ -36,6 +52,7 @@
       "group": 1,
       "name": "Math",
       "links": [
+        "/root",
         "/bayes",
         "/counter-intuitive-math",
         "/discrete-vs-continuous",
@@ -56,6 +73,7 @@
       "group": 1,
       "name": "Natural Sciences",
       "links": [
+        "/root",
         "/akins-laws-of-spacecraft",
         "/analytics",
         "/chaos",
@@ -80,6 +98,7 @@
       "group": 1,
       "name": "Practical Skills",
       "links": [
+        "/root",
         "/business",
         "/career",
         "/communication",
@@ -120,6 +139,7 @@
       "group": 1,
       "name": "Social Sciences",
       "links": [
+        "/root",
         "/0-1-n",
         "/broken-systems",
         "/criminal-justice",
@@ -166,6 +186,7 @@
       "group": 1,
       "name": "Technology",
       "links": [
+        "/root",
         "/computer-networks",
         "/databases",
         "/discussion",
@@ -2952,6 +2973,7 @@
     {
       "id": "/1240619083716-oop",
       "group": 3,
+      "name": "1240619083716-oop",
       "links": [
         "/programming",
         "/oop-designs"
@@ -3150,6 +3172,7 @@
     {
       "id": "/tools",
       "group": 3,
+      "name": "Tools",
       "links": [
         "/programming",
         "/keyboard-shortcuts",
@@ -4817,6 +4840,7 @@
     {
       "id": "/c",
       "group": 4,
+      "name": "C",
       "links": [
         "/programming-languages"
       ]
@@ -4853,6 +4877,7 @@
     {
       "id": "/ruby",
       "group": 4,
+      "name": "Ruby",
       "links": [
         "/programming-languages"
       ]
@@ -4860,6 +4885,7 @@
     {
       "id": "/typescript",
       "group": 4,
+      "name": "Typescript",
       "links": [
         "/programming-languages"
       ]
@@ -5130,24 +5156,37 @@
         "/python",
         "/programming"
       ]
-    },
-    {
-      "id": "/graph2D",
-      "group": 0,
-      "name": "2D Force Graph"
-    },
-    {
-      "id": "/pub",
-      "group": 0,
-      "name": "Pub"
-    },
-    {
-      "id": "/root",
-      "group": 0,
-      "name": "Root"
     }
   ],
   "links": [
+    {
+      "source": "/root",
+      "target": "/arts"
+    },
+    {
+      "source": "/root",
+      "target": "/lists"
+    },
+    {
+      "source": "/root",
+      "target": "/math"
+    },
+    {
+      "source": "/root",
+      "target": "/natural-sciences"
+    },
+    {
+      "source": "/root",
+      "target": "/practical-skills"
+    },
+    {
+      "source": "/root",
+      "target": "/social-sciences"
+    },
+    {
+      "source": "/root",
+      "target": "/tech"
+    },
     {
       "source": "/arts",
       "target": "/cinema"

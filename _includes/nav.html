@@ -1,18 +1,70 @@
-
-
 <nav class="navbar">
-    <div class="navbar-brand">
-      <a href="{{ site.baseurl }}/" title="Home" class="site-name">Δ</a>
+  <div class="navbar-brand">
+    <a href="{{ site.baseurl }}/" title="Home" class="site-name">Δ</a>
 
-      {% include search.html %}
+    {% include search.html %}
 
-      <div title="Toggle theme" id="themeToggle" onclick="switchTheme()" class="navbutton">🌙</div>  
-      <div title="Roll the dice!" id="dice" onclick="get_random_post();" class="navbutton">🎲</div>
-
-    </div> 
+    <div title="Toggle theme" id="themeToggle" onclick="switchTheme()" class="navbutton"></div>
+    <div title="Roll the dice!" id="dice" onclick="get_random_post();" class="navbutton">🎲</div>
+  </div>
 </nav>
+
+<style>
+  .navbutton {
+    font-size: 1.4rem;
+    padding-left: 1.2rem;
+    margin-top:0.5rem
+  }
+
+  #dice{
+    margin-left: 2rem;
+  }
+
+  .navbar {
+    background: inherit;
+    color: inherit;
+    width: fit-content;
+  }
+
+  .top {
+    height: 4px;
+    background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+
+  .search {
+    padding: 0.8rem;
+    padding-top: 0.5rem;
+    max-width: 9rem;
+  }
+
+  a.site-name {
+    color: inherit;
+    font-size: 2rem;
+    margin-right: 1rem;
+
+  }
+
+  #results-container {
+    margin-top: 0.3rem;
+    list-style: none;
+    font-size: 1rem;
+    max-width: 20ch;
+
+    li {
+      margin: 0 auto;
+      margin-top: 0.3rem;
+      padding: 0.2rem;
+    }
+  }
+</style>
 
 <script src="/assets/js/animate.js"></script>
 <script src="/assets/js/theme.js"></script>
-<script src="/assets/js/random_array_item.js"></script>
+<script src="/assets/js/utils.js"></script>
 <script src="/assets/js/random_post.js"></script>

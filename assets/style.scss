@@ -1,8 +1,5 @@
 ---
-
 ---
-// variables
-
 // Grays
 $gray: #555;
 $darkGray: #333;
@@ -23,38 +20,51 @@ $serif: Georgia, serif;
 $dark-bg: #22272e;
 $light-text: #f0f1f2;
 
-$light-bg: #f8f1e3; 
+$light-bg: #f8f1e3;
 $dark-text: $gray;
 
-html{
+html {
   font-size: larger;
-  line-height:1.6;
+  line-height: 1.6;
 }
+
+a.site-name {
+  font-family: $serif;
+}
+
+footer.about {
+  font-family: $serif;
+}
+
 // basics 
-body{
+body {
   font-family: $sansSerif;
-  background: $dark-bg;
+  background-image: url('/static/2k_stars_milky_way.jpg');
+  background-size: cover;
+  /* Ensures the image covers the entire background */
+  background-position: center;
+  /* Centers the image */
   color: $light-text;
   min-height: 100vh;
   word-break: break-word;
 }
 
-strong{
+strong {
   color: $light-text;
 }
 
-hr{
-  margin: 1rem 0!important;
+hr {
+  margin: 1rem 0 !important;
 }
 
 
 ul {
-  margin-top:0.5rem;
+  margin-top: 0.5rem;
 }
 
-li{
-  margin-top:0.6rem;
-  margin-bottom:0.6rem;
+li {
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
 }
 
 li ul {
@@ -65,7 +75,7 @@ li ul {
   background: $darkBlue;
 }
 
-article{
+article {
   padding: 1rem;
   padding-top: 0.5rem;
   margin: 0 auto;
@@ -74,17 +84,19 @@ article{
 }
 
 
-a{
-  color: $lightBlue; 
+a {
+  color: $lightBlue;
 }
-a:visited{
+
+a:visited {
   color: $darkBlue;
 }
-a:hover{
+
+a:hover {
   color: $accent;
 }
 
-summary:hover{
+summary:hover {
   color: $accent;
 }
 
@@ -95,97 +107,47 @@ summary:hover{
   max-height: 94vh;
 }
 
-.img-alt{
+.img-alt {
   font-family: $serif;
   text-align: center !important;
 }
 
-.metatext, .img-alt{
-  font-size:0.85rem;
+.metatext,
+.img-alt {
+  font-size: 0.85rem;
   font-weight: 300;
-  margin-bottom:0.5rem;
-}
-
-// nav 
-.navbar{
-  background: inherit;
-  color: inherit;
-  width: fit-content;
-}
-
-.top{
-  height: 4px;
-  background: #373B44;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-bottom: 0.5rem;
 }
 
 
-.search{
-  padding: 0.8rem;
-  padding-top: 0.5rem;
-  max-width: 9rem;
-}
-
-.navbutton{
-  font-size:1.4rem;  
-  padding-top: 0.4rem;
-  padding-left: 1.2rem;
-}
-
-
-.input{
+.input {
   background-color: $light-text;
 }
 
-a.site-name {
-  font-family: $serif;
-  color: inherit;
-  font-size: 2rem;
-  margin-right:1rem;
-  
-}
-
-#results-container {
-  margin-top: 0.3rem;
-  list-style: none;
-  font-size: 1rem;
-  max-width: 20ch;
-  li{
-    margin: 0 auto;
-    margin-top: 0.3rem;
-    padding: 0.2rem;
-  }
-}
 
 @media only screen and (max-width: 600px) {
-  article{
+  article {
     width: 100%;
-  }
-}
-
-@media only screen and (min-width: 900px) {
-  article{
-
   }
 }
 
 @media only screen and (max-width: 900px) {
   .img-full {
     max-width: 100%;
-    display: block; 
+    display: block;
     height: auto;
   }
 }
 
-p{
+p {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
-pre{
+pre {
   padding: 0.5rem;
 }
+
 h1 {
   font-family: $serif;
   font-size: 1.5rem;
@@ -197,26 +159,14 @@ h2 {
   font-size: 1.2rem;
   font-weight: bold;
   margin-top: 1.5rem;
-  margin-bottom:0.5rem;
+  margin-bottom: 0.5rem;
 }
 
-strong{
+strong {
   font-weight: bold;
 }
 
-
-footer {
-  background: inherit !important;
-  padding-top: 1rem;
-  text-align: center;
-}
-
-footer.about {
-  font-family: $serif;
-}
-
-
-hr{
+hr {
   background-color: inherit !important;
 }
 
@@ -224,28 +174,39 @@ hr{
 blockquote {
   border-left: 2px solid $lightBlue;
   padding-left: 1rem;
-  margin:1rem;
+  margin: 1rem;
 }
 
-pre{
+pre {
   background: inherit;
   color: inherit;
   font-size: 1em !important;
 }
 
-ol{
-  margin-left:1rem;
+ol {
+  margin-left: 1rem;
 }
 
-
-.taglist{
+.taglist {
   font-size: 0.8rem;
 }
+
+.toplink {
+  margin-right: 0.5rem;
+}
+
+
+details {
+  margin-bottom: 0.7rem;
+  margin-top: 0.7rem;
+}
+
+
 
 
 html[data-theme='light'] {
 
-  body{
+  body {
     background: $light-bg;
     color: $dark-text;
   }
@@ -254,75 +215,82 @@ html[data-theme='light'] {
     background: $highlight;
   }
 
-  strong{
+  strong {
     color: $dark-text;
   }
 
-  .top{
-    background: #FC9601;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FC9601, #FFCC33);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FC9601, #FFCC33); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  .top {
+    background: #FC9601;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FC9601, #FFCC33);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FC9601, #FFCC33);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
-  a{
-    color: $darkBlue 
+  a {
+    color: $darkBlue
   }
-  a:visited{
+
+  a:visited {
     color: $lightBlue;
   }
-  a:hover{
+
+  a:hover {
     color: $accent;
   }
-  a.site-name{
+
+  a.site-name {
     color: inherit
   }
 }
 
-details{
-  margin-bottom: 0.7rem;
-  margin-top: 0.7rem;
-}
-
-.toplink{
-  margin-right: 0.5rem;
-}
 
 
 @keyframes shakex {
-  0%, 100% { transform: translateX(0); }
-  25% { transform: translateX(-3px); }
-  50% { transform: translateX(3px); }
-  75% { transform: translateX(-3px); }
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-3px);
+  }
+
+  50% {
+    transform: translateX(3px);
+  }
+
+  75% {
+    transform: translateX(-3px);
+  }
 }
 
 @keyframes shakey {
-  0%, 100% { transform: translateY(0); }
-  25% { transform: translateY(-2px); }
-  50% { transform: translateY(2px); }
-  75% { transform: translateY(-2px); }
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  25% {
+    transform: translateY(-2px);
+  }
+
+  50% {
+    transform: translateY(2px);
+  }
+
+  75% {
+    transform: translateY(-2px);
+  }
 }
-
-@keyframes flash {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
-}
-
-
-@keyframes fadeOut {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
-}
-
 
 .shakex {
-  animation: shakex 0.2s;
+  animation: shakex 0.1s;
 }
 
 .shakey {
-  animation: shakey 0.2s;
+  animation: shakey 0.1s;
 }
-
-.flash {
-  animation: fadeOut 0.1s;
-}
-
