@@ -30,6 +30,11 @@ Any file can link to any other using its id. With html, markdown, or [[wikilink]
 
 Pages list which other pages links to them (backlinks or incoming links)
 
+[2D Graph](https://selimslab.github.io/graph2D)
+
+[3D Graph](https://selimslab.github.io/graph3D)
+
+
 ## Tags 
 Files can also tag each other. Tags are defined at `_data\tag_to_file.yml` 
 Tags of a page is listed above its title. 

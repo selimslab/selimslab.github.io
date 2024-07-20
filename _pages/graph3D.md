@@ -1,5 +1,5 @@
 ---
-title: 3D Space Graph
+title: 3D Graph
 layout: free
 tags: top 
 ---

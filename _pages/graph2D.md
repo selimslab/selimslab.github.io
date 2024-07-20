@@ -1,5 +1,5 @@
 ---
-title: 2D Force Graph
+title: 2D Graph
 layout: free
 tags: top 
 ---
