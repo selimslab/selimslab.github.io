@@ -1,5 +1,7 @@
 ---
+tags: tr 
 ---
+
 aristoteles'e göre ideal insan:  
   
 "kendini boşuna tehlikeye atmaz. çünkü onu kaygılandıran pek az şey vardır. ama önemli durumlarda hayatını bile seve seve verir. bazı şartlarda, yaşamanın anlamı olmadığını da bilir. insanlara yardıma koşar, kendisine yardım edildiğindeyse utanır. iyilik bağışlamak bir üstünlük belirtisidir. iyilik görmekse bir alçalmadır. kamu gösterilerine katılmaz. sevdiği sevmediği ortadadır. insanları ve nesneleri umursamadığından dürüst davranır, açık konuşur. gözünde hiçbir şey fazla büyük olmadığı için, hiçbir şeye karşı da fazla hayranlık duymaz. ancak dostuna karşı alttan alır, yoksa bu tür davranış bir köle özelliğidir. garaz nedir bilmez, olayları unutur, yürek incitecek şeyler üstünde durmaz. konuşmak için can atmaz. övülmesi ya da yerilmesi onu ilgilendirmez. düşman da olsa, başkaları hakkında kötü konuşmaz, ancak o kişi kendi kendinin düşmanıysa iş değişir. ağır başlı davranır, sesi toktur, sözleri ölçülüdür; telâşlı değildir, çünkü pek az şey onu kaygılandırır; hiçbir şeye fazla önem vermediği için de hiddete kapılmaz. cırtlak ses, acele adımlar, kaygı içindeki adama yakışır. hayatın cilvelerini vakar ve sükûnetle karşılar, az sayıdaki askerini büyük bir savaş stratejisi ile yöneten usta bir general gibi, içinde bulunduğu durumdan elinden geldiğince yararlanır. en iyi dost kendisidir, yalnız kalmaktan hoşlanır, erdemi ve yeteneği olmayan kişinin en büyük düşmanı ise kendisidir, yalnızlıktan o korkar.”

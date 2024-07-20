@@ -167,7 +167,6 @@
         "/freedom",
         "/happiness",
         "/how-to-start",
-        "/in-memory-of-my-bike",
         "/learning",
         "/negotiations",
         "/character",
@@ -241,25 +240,11 @@
       "name": "Literature",
       "links": [
         "/arts",
-        "/cien-anos-de-soledad",
         "/classics",
-        "/conviction",
-        "/deep-roots",
-        "/do-not-lie-to-yourself",
-        "/find-time-to-just-be",
-        "/fire-and-ice",
-        "/haikus",
-        "/harlem",
-        "/if",
-        "/ince-memed",
-        "/koans",
-        "/lightly-child",
-        "/search-for-meaning",
+        "/poetry",
         "/siir",
         "/tao-te-ching",
-        "/the-art-of-war",
-        "/the-road-not-taken",
-        "/this-be-the-verse",
+        "/turkce",
         "/authors",
         "/psy-in-lit",
         "/philosophy"
@@ -271,8 +256,8 @@
       "name": "Philosophy",
       "links": [
         "/arts",
-        "/concepts-in-greek-thought",
         "/death",
+        "/eastern",
         "/enemies",
         "/epicurus",
         "/experiences-are-better-than-material-things",
@@ -280,10 +265,11 @@
         "/freedom",
         "/friends",
         "/good-and-evil",
+        "/greek",
         "/happiness",
         "/ideal-insan",
-        "/in-memory-of-my-bike",
         "/know-where-to-stop",
+        "/koans",
         "/lesser-the-better",
         "/life-is-not-short",
         "/life-is-play",
@@ -295,6 +281,7 @@
         "/one-bit-better",
         "/pleasure-vs-possibility",
         "/questions",
+        "/search-for-meaning",
         "/still-vs-running-water",
         "/stupidity",
         "/success",
@@ -306,7 +293,6 @@
         "/warfare-is-deception",
         "/work-phil",
         "/you-can-always-choose-your-way",
-        "/koans",
         "/life-is-soft",
         "/literature",
         "/tao-te-ching",
@@ -1282,7 +1268,6 @@
         "/cas",
         "/cisla",
         "/domov",
-        "/dovolena",
         "/emoce",
         "/fraze",
         "/jidla",
@@ -1291,7 +1276,6 @@
         "/nemocnice",
         "/podobna-slova",
         "/podstatna-jmena",
-        "/politik",
         "/pracoviště",
         "/predlozky",
         "/slovesa",
@@ -1323,141 +1307,34 @@
       ]
     },
     {
-      "id": "/turkce",
-      "group": 3,
-      "name": "Turkce",
-      "links": [
-        "/languages",
-        "/ince-memed",
-        "/siir",
-        "/turk-mirasi"
-      ]
-    },
-    {
-      "id": "/cien-anos-de-soledad",
-      "group": 3,
-      "name": "Cien Anos De Soledad",
-      "links": [
-        "/literature",
-        "/classics"
-      ]
-    },
-    {
       "id": "/classics",
       "group": 3,
       "name": "Classics",
       "links": [
         "/literature",
         "/cien-anos-de-soledad",
+        "/do-not-lie-to-yourself",
+        "/the-art-of-war",
+        "/cien-anos-de-soledad",
         "/lists"
       ]
     },
     {
-      "id": "/conviction",
+      "id": "/poetry",
       "group": 3,
-      "name": "Conviction",
-      "links": [
-        "/literature"
-      ]
-    },
-    {
-      "id": "/deep-roots",
-      "group": 3,
-      "name": "Deep Roots",
-      "links": [
-        "/literature"
-      ]
-    },
-    {
-      "id": "/do-not-lie-to-yourself",
-      "group": 3,
-      "name": "Do Not Lie To Yourself",
+      "name": "Poetry",
       "links": [
         "/literature",
-        "/do-what-is-right",
-        "/character",
-        "/on-decision-making",
-        "/psy-in-lit"
-      ]
-    },
-    {
-      "id": "/find-time-to-just-be",
-      "group": 3,
-      "name": "Find Time To Just Be",
-      "links": [
-        "/literature"
-      ]
-    },
-    {
-      "id": "/fire-and-ice",
-      "group": 3,
-      "name": "Fire and Ice",
-      "links": [
-        "/literature"
-      ]
-    },
-    {
-      "id": "/haikus",
-      "group": 3,
-      "name": "Haikus",
-      "links": [
-        "/literature"
-      ]
-    },
-    {
-      "id": "/harlem",
-      "group": 3,
-      "name": "Harlem",
-      "links": [
-        "/literature"
-      ]
-    },
-    {
-      "id": "/if",
-      "group": 3,
-      "name": "If",
-      "links": [
-        "/literature"
-      ]
-    },
-    {
-      "id": "/ince-memed",
-      "group": 3,
-      "name": "Ince Memed",
-      "links": [
-        "/literature",
-        "/turkce"
-      ]
-    },
-    {
-      "id": "/koans",
-      "group": 3,
-      "name": "Koans",
-      "links": [
-        "/literature",
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/lightly-child",
-      "group": 3,
-      "name": "Lightly Child",
-      "links": [
-        "/literature",
-        "/do-one-thing-at-a-time-and-do-it-well",
-        "/one-bit-better"
-      ]
-    },
-    {
-      "id": "/search-for-meaning",
-      "group": 3,
-      "name": "Man's Search for Meaning",
-      "links": [
-        "/literature",
-        "/overcoming-obstacles",
-        "/phil-books",
-        "/soc-books",
-        "/you-can-always-choose-your-way"
+        "/conviction",
+        "/deep-roots",
+        "/find-time-to-just-be",
+        "/fire-and-ice",
+        "/haikus",
+        "/harlem",
+        "/if",
+        "/lightly-child",
+        "/the-road-not-taken",
+        "/this-be-the-verse"
       ]
     },
     {
@@ -1466,6 +1343,10 @@
       "name": "Şiirler",
       "links": [
         "/literature",
+        "/fuzuli",
+        "/if-ecevit",
+        "/nazim",
+        "/orhan-veli",
         "/turkce"
       ]
     },
@@ -1492,38 +1373,16 @@
       ]
     },
     {
-      "id": "/the-art-of-war",
+      "id": "/turkce",
       "group": 3,
-      "name": "The Art of War",
+      "name": "Turkce",
       "links": [
         "/literature",
-        "/phil-books",
-        "/soc-books",
-        "/warfare-is-deception"
-      ]
-    },
-    {
-      "id": "/the-road-not-taken",
-      "group": 3,
-      "name": "The Road Not Taken",
-      "links": [
-        "/literature"
-      ]
-    },
-    {
-      "id": "/this-be-the-verse",
-      "group": 3,
-      "name": "This Be The Verse",
-      "links": [
-        "/literature"
-      ]
-    },
-    {
-      "id": "/concepts-in-greek-thought",
-      "group": 3,
-      "name": "Concepts In Greek Thought",
-      "links": [
-        "/philosophy"
+        "/ince-memed",
+        "/languages",
+        "/siir",
+        "/ideal-insan",
+        "/turk-mirasi"
       ]
     },
     {
@@ -1533,6 +1392,14 @@
       "links": [
         "/philosophy",
         "/a-good-life"
+      ]
+    },
+    {
+      "id": "/eastern",
+      "group": 3,
+      "name": "Eastern",
+      "links": [
+        "/philosophy"
       ]
     },
     {
@@ -1598,6 +1465,15 @@
       ]
     },
     {
+      "id": "/greek",
+      "group": 3,
+      "name": "Greek",
+      "links": [
+        "/philosophy",
+        "/concepts-in-greek-thought"
+      ]
+    },
+    {
       "id": "/happiness",
       "group": 3,
       "name": "Happiness",
@@ -1614,16 +1490,8 @@
       "group": 3,
       "name": "Ideal Insan",
       "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/in-memory-of-my-bike",
-      "group": 3,
-      "name": "In Memory Of My Bike",
-      "links": [
         "/philosophy",
-        "/social-sciences"
+        "/turkce"
       ]
     },
     {
@@ -1634,6 +1502,14 @@
         "/philosophy",
         "/wind-and-rain",
         "/do-one-thing-at-a-time-and-do-it-well"
+      ]
+    },
+    {
+      "id": "/koans",
+      "group": 3,
+      "name": "Koans",
+      "links": [
+        "/philosophy"
       ]
     },
     {
@@ -1730,6 +1606,18 @@
       "links": [
         "/philosophy",
         "/critical-thinking"
+      ]
+    },
+    {
+      "id": "/search-for-meaning",
+      "group": 3,
+      "name": "Man's Search for Meaning",
+      "links": [
+        "/philosophy",
+        "/overcoming-obstacles",
+        "/phil-books",
+        "/soc-books",
+        "/you-can-always-choose-your-way"
       ]
     },
     {
@@ -1847,10 +1735,10 @@
       "name": "Philosophy Books",
       "links": [
         "/books",
-        "/search-for-meaning",
-        "/tao-te-ching",
         "/the-art-of-war",
-        "/philosophy"
+        "/tao-te-ching",
+        "/philosophy",
+        "/search-for-meaning"
       ]
     },
     {
@@ -1859,8 +1747,8 @@
       "name": "Social Sciences Books",
       "links": [
         "/books",
-        "/search-for-meaning",
-        "/the-art-of-war"
+        "/the-art-of-war",
+        "/search-for-meaning"
       ]
     },
     {
@@ -3588,14 +3476,6 @@
       ]
     },
     {
-      "id": "/dovolena",
-      "group": 4,
-      "name": "Dovolena",
-      "links": [
-        "/cestina"
-      ]
-    },
-    {
       "id": "/emoce",
       "group": 4,
       "name": "Emoce",
@@ -3660,14 +3540,6 @@
       ]
     },
     {
-      "id": "/politik",
-      "group": 4,
-      "name": "Politik",
-      "links": [
-        "/cestina"
-      ]
-    },
-    {
       "id": "/pracoviště",
       "group": 4,
       "name": "Pracoviště",
@@ -3697,6 +3569,152 @@
       "name": "Zaklady",
       "links": [
         "/cestina"
+      ]
+    },
+    {
+      "id": "/cien-anos-de-soledad",
+      "group": 4,
+      "name": "Cien Anos De Soledad",
+      "links": [
+        "/classics",
+        "/classics"
+      ]
+    },
+    {
+      "id": "/do-not-lie-to-yourself",
+      "group": 4,
+      "name": "Do Not Lie To Yourself",
+      "links": [
+        "/classics",
+        "/do-what-is-right",
+        "/character",
+        "/on-decision-making",
+        "/psy-in-lit"
+      ]
+    },
+    {
+      "id": "/the-art-of-war",
+      "group": 4,
+      "name": "The Art of War",
+      "links": [
+        "/classics",
+        "/phil-books",
+        "/soc-books",
+        "/warfare-is-deception"
+      ]
+    },
+    {
+      "id": "/conviction",
+      "group": 4,
+      "name": "Conviction",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/deep-roots",
+      "group": 4,
+      "name": "Deep Roots",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/find-time-to-just-be",
+      "group": 4,
+      "name": "Find Time To Just Be",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/fire-and-ice",
+      "group": 4,
+      "name": "Fire and Ice",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/haikus",
+      "group": 4,
+      "name": "Haikus",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/harlem",
+      "group": 4,
+      "name": "Harlem",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/if",
+      "group": 4,
+      "name": "If",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/lightly-child",
+      "group": 4,
+      "name": "Lightly Child",
+      "links": [
+        "/poetry",
+        "/do-one-thing-at-a-time-and-do-it-well",
+        "/one-bit-better"
+      ]
+    },
+    {
+      "id": "/the-road-not-taken",
+      "group": 4,
+      "name": "The Road Not Taken",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/this-be-the-verse",
+      "group": 4,
+      "name": "This Be The Verse",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/fuzuli",
+      "group": 4,
+      "name": "Fuzuli",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/if-ecevit",
+      "group": 4,
+      "name": "If Ecevit",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/nazim",
+      "group": 4,
+      "name": "Nazim Hikmet",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/orhan-veli",
+      "group": 4,
+      "name": "Orhan Veli",
+      "links": [
+        "/siir"
       ]
     },
     {
@@ -3792,6 +3810,22 @@
       "links": [
         "/tao-te-ching",
         "/know-where-to-stop"
+      ]
+    },
+    {
+      "id": "/ince-memed",
+      "group": 4,
+      "name": "Ince Memed",
+      "links": [
+        "/turkce"
+      ]
+    },
+    {
+      "id": "/concepts-in-greek-thought",
+      "group": 4,
+      "name": "Concepts In Greek Thought",
+      "links": [
+        "/greek"
       ]
     },
     {
@@ -5556,64 +5590,12 @@
       "target": "/latin"
     },
     {
-      "source": "/languages",
-      "target": "/turkce"
-    },
-    {
-      "source": "/literature",
-      "target": "/cien-anos-de-soledad"
-    },
-    {
       "source": "/literature",
       "target": "/classics"
     },
     {
       "source": "/literature",
-      "target": "/conviction"
-    },
-    {
-      "source": "/literature",
-      "target": "/deep-roots"
-    },
-    {
-      "source": "/literature",
-      "target": "/do-not-lie-to-yourself"
-    },
-    {
-      "source": "/literature",
-      "target": "/find-time-to-just-be"
-    },
-    {
-      "source": "/literature",
-      "target": "/fire-and-ice"
-    },
-    {
-      "source": "/literature",
-      "target": "/haikus"
-    },
-    {
-      "source": "/literature",
-      "target": "/harlem"
-    },
-    {
-      "source": "/literature",
-      "target": "/if"
-    },
-    {
-      "source": "/literature",
-      "target": "/ince-memed"
-    },
-    {
-      "source": "/literature",
-      "target": "/koans"
-    },
-    {
-      "source": "/literature",
-      "target": "/lightly-child"
-    },
-    {
-      "source": "/literature",
-      "target": "/search-for-meaning"
+      "target": "/poetry"
     },
     {
       "source": "/literature",
@@ -5625,23 +5607,15 @@
     },
     {
       "source": "/literature",
-      "target": "/the-art-of-war"
-    },
-    {
-      "source": "/literature",
-      "target": "/the-road-not-taken"
-    },
-    {
-      "source": "/literature",
-      "target": "/this-be-the-verse"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/concepts-in-greek-thought"
+      "target": "/turkce"
     },
     {
       "source": "/philosophy",
       "target": "/death"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/eastern"
     },
     {
       "source": "/philosophy",
@@ -5673,6 +5647,10 @@
     },
     {
       "source": "/philosophy",
+      "target": "/greek"
+    },
+    {
+      "source": "/philosophy",
       "target": "/happiness"
     },
     {
@@ -5681,11 +5659,11 @@
     },
     {
       "source": "/philosophy",
-      "target": "/in-memory-of-my-bike"
+      "target": "/know-where-to-stop"
     },
     {
       "source": "/philosophy",
-      "target": "/know-where-to-stop"
+      "target": "/koans"
     },
     {
       "source": "/philosophy",
@@ -5730,6 +5708,10 @@
     {
       "source": "/philosophy",
       "target": "/questions"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/search-for-meaning"
     },
     {
       "source": "/philosophy",
@@ -6501,10 +6483,6 @@
     },
     {
       "source": "/cestina",
-      "target": "/dovolena"
-    },
-    {
-      "source": "/cestina",
       "target": "/emoce"
     },
     {
@@ -6537,10 +6515,6 @@
     },
     {
       "source": "/cestina",
-      "target": "/politik"
-    },
-    {
-      "source": "/cestina",
       "target": "/pracoviště"
     },
     {
@@ -6554,6 +6528,74 @@
     {
       "source": "/cestina",
       "target": "/zaklady"
+    },
+    {
+      "source": "/classics",
+      "target": "/cien-anos-de-soledad"
+    },
+    {
+      "source": "/classics",
+      "target": "/do-not-lie-to-yourself"
+    },
+    {
+      "source": "/classics",
+      "target": "/the-art-of-war"
+    },
+    {
+      "source": "/poetry",
+      "target": "/conviction"
+    },
+    {
+      "source": "/poetry",
+      "target": "/deep-roots"
+    },
+    {
+      "source": "/poetry",
+      "target": "/find-time-to-just-be"
+    },
+    {
+      "source": "/poetry",
+      "target": "/fire-and-ice"
+    },
+    {
+      "source": "/poetry",
+      "target": "/haikus"
+    },
+    {
+      "source": "/poetry",
+      "target": "/harlem"
+    },
+    {
+      "source": "/poetry",
+      "target": "/if"
+    },
+    {
+      "source": "/poetry",
+      "target": "/lightly-child"
+    },
+    {
+      "source": "/poetry",
+      "target": "/the-road-not-taken"
+    },
+    {
+      "source": "/poetry",
+      "target": "/this-be-the-verse"
+    },
+    {
+      "source": "/siir",
+      "target": "/fuzuli"
+    },
+    {
+      "source": "/siir",
+      "target": "/if-ecevit"
+    },
+    {
+      "source": "/siir",
+      "target": "/nazim"
+    },
+    {
+      "source": "/siir",
+      "target": "/orhan-veli"
     },
     {
       "source": "/tao-te-ching",
@@ -6598,6 +6640,14 @@
     {
       "source": "/tao-te-ching",
       "target": "/wind-and-rain"
+    },
+    {
+      "source": "/turkce",
+      "target": "/ince-memed"
+    },
+    {
+      "source": "/greek",
+      "target": "/concepts-in-greek-thought"
     },
     {
       "source": "/children",
@@ -7181,23 +7231,15 @@
     },
     {
       "source": "/languages",
+      "target": "/turkce"
+    },
+    {
+      "source": "/languages",
       "target": "/modern-greek-alphabet"
     },
     {
       "source": "/languages",
       "target": "/nato-phonetic-alphabet"
-    },
-    {
-      "source": "/turkce",
-      "target": "/ince-memed"
-    },
-    {
-      "source": "/turkce",
-      "target": "/siir"
-    },
-    {
-      "source": "/turkce",
-      "target": "/turk-mirasi"
     },
     {
       "source": "/cien-anos-de-soledad",
@@ -7220,12 +7262,16 @@
       "target": "/psy-in-lit"
     },
     {
-      "source": "/lightly-child",
-      "target": "/do-one-thing-at-a-time-and-do-it-well"
+      "source": "/the-art-of-war",
+      "target": "/phil-books"
     },
     {
-      "source": "/lightly-child",
-      "target": "/one-bit-better"
+      "source": "/the-art-of-war",
+      "target": "/soc-books"
+    },
+    {
+      "source": "/the-art-of-war",
+      "target": "/warfare-is-deception"
     },
     {
       "source": "/literature",
@@ -7236,20 +7282,12 @@
       "target": "/psy-in-lit"
     },
     {
-      "source": "/search-for-meaning",
-      "target": "/overcoming-obstacles"
+      "source": "/lightly-child",
+      "target": "/do-one-thing-at-a-time-and-do-it-well"
     },
     {
-      "source": "/search-for-meaning",
-      "target": "/phil-books"
-    },
-    {
-      "source": "/search-for-meaning",
-      "target": "/soc-books"
-    },
-    {
-      "source": "/search-for-meaning",
-      "target": "/you-can-always-choose-your-way"
+      "source": "/lightly-child",
+      "target": "/one-bit-better"
     },
     {
       "source": "/insight-and-strength",
@@ -7280,16 +7318,16 @@
       "target": "/know-where-to-stop"
     },
     {
-      "source": "/the-art-of-war",
-      "target": "/phil-books"
+      "source": "/turkce",
+      "target": "/siir"
     },
     {
-      "source": "/the-art-of-war",
-      "target": "/soc-books"
+      "source": "/turkce",
+      "target": "/ideal-insan"
     },
     {
-      "source": "/the-art-of-war",
-      "target": "/warfare-is-deception"
+      "source": "/turkce",
+      "target": "/turk-mirasi"
     },
     {
       "source": "/death",
@@ -7342,10 +7380,6 @@
     {
       "source": "/one-bit-better",
       "target": "/a-good-life"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/koans"
     },
     {
       "source": "/philosophy",
@@ -7406,6 +7440,22 @@
     {
       "source": "/questions",
       "target": "/critical-thinking"
+    },
+    {
+      "source": "/search-for-meaning",
+      "target": "/overcoming-obstacles"
+    },
+    {
+      "source": "/search-for-meaning",
+      "target": "/phil-books"
+    },
+    {
+      "source": "/search-for-meaning",
+      "target": "/soc-books"
+    },
+    {
+      "source": "/search-for-meaning",
+      "target": "/you-can-always-choose-your-way"
     },
     {
       "source": "/success",
@@ -7786,10 +7836,6 @@
     {
       "source": "/social-sciences",
       "target": "/how-to-start"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/in-memory-of-my-bike"
     },
     {
       "source": "/social-sciences",

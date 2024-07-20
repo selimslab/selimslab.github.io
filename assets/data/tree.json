@@ -26,8 +26,6 @@
         },
         "/domov": {
         },
-        "/dovolena": {
-        },
         "/emoce": {
         },
         "/fraze": {
@@ -43,8 +41,6 @@
         "/podobna-slova": {
         },
         "/podstatna-jmena": {
-        },
-        "/politik": {
         },
         "/pracoviště": {
         },
@@ -66,42 +62,54 @@
       "/languages": {
       },
       "/latin": {
-      },
-      "/turkce": {
       }
     },
     "/literature": {
-      "/cien-anos-de-soledad": {
-      },
       "/classics": {
-      },
-      "/conviction": {
-      },
-      "/deep-roots": {
-      },
-      "/do-not-lie-to-yourself": {
-      },
-      "/find-time-to-just-be": {
-      },
-      "/fire-and-ice": {
-      },
-      "/haikus": {
-      },
-      "/harlem": {
-      },
-      "/if": {
-      },
-      "/ince-memed": {
-      },
-      "/koans": {
-      },
-      "/lightly-child": {
+        "/cien-anos-de-soledad": {
+        },
+        "/classics": {
+        },
+        "/do-not-lie-to-yourself": {
+        },
+        "/the-art-of-war": {
+        }
       },
       "/literature": {
       },
-      "/search-for-meaning": {
+      "/poetry": {
+        "/conviction": {
+        },
+        "/deep-roots": {
+        },
+        "/find-time-to-just-be": {
+        },
+        "/fire-and-ice": {
+        },
+        "/haikus": {
+        },
+        "/harlem": {
+        },
+        "/if": {
+        },
+        "/lightly-child": {
+        },
+        "/the-road-not-taken": {
+        },
+        "/this-be-the-verse": {
+        }
       },
       "/siir": {
+        "/fuzuli": {
+        },
+        "/if-ecevit": {
+        },
+        "/nazim": {
+        },
+        "/orhan-veli": {
+        },
+        "/siir": {
+        }
       },
       "/tao-te-ching": {
         "/insight-and-strength": {
@@ -129,17 +137,17 @@
         "/wind-and-rain": {
         }
       },
-      "/the-art-of-war": {
-      },
-      "/the-road-not-taken": {
-      },
-      "/this-be-the-verse": {
+      "/turkce": {
+        "/ince-memed": {
+        },
+        "/turkce": {
+        }
       }
     },
     "/philosophy": {
-      "/concepts-in-greek-thought": {
-      },
       "/death": {
+      },
+      "/eastern": {
       },
       "/enemies": {
       },
@@ -155,13 +163,17 @@
       },
       "/good-and-evil": {
       },
+      "/greek": {
+        "/concepts-in-greek-thought": {
+        }
+      },
       "/happiness": {
       },
       "/ideal-insan": {
       },
-      "/in-memory-of-my-bike": {
-      },
       "/know-where-to-stop": {
+      },
+      "/koans": {
       },
       "/lesser-the-better": {
       },
@@ -186,6 +198,8 @@
       "/pleasure-vs-possibility": {
       },
       "/questions": {
+      },
+      "/search-for-meaning": {
       },
       "/still-vs-running-water": {
       },

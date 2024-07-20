@@ -1,5 +1,5 @@
 ---
-
+title: If by Rudyard KIPLING
 ---
 
 If you can keep your head when all about you
