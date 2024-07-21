@@ -2,7 +2,7 @@
 
 One shared digital space to bring together everything I like on the web. 
 
-Articles, notes, photos, videos, artworks, blogs, quotes, links, code snippets, algorithms, web experiments, .. 
+Notes, links, articles, photos, artworks, drawings, poetry, lists, summaries, code snippets, experiments, ideas, ..
 
 View at <https://selimslab.github.io>
 
@@ -10,21 +10,20 @@ View at <https://selimslab.github.io>
 
 [![CI/CD](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml/badge.svg)](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml)
 
-## Why 
-
-Like a personal shared internet archive, it's a single place to keep everything I like. My notes, code snippets, experiments, projects, lists, artworks, ideas, poems, articles, PDFs, images, things clipped from the web, etc.
-
-I wanted to build something I'd love to use every day and I'm happy that it worked. 
 
 ## How it works 
 
-Plain markdown files, published with jekyll. Mostly written in vscode or obsidian. 
+Plain markdown files, published with jekyll. 
 
-Minimal, no ads, no analytics. 
+Mostly written in vscode and obsidian. 
+
+Minimal, simple, clean, custom. 
+
+No ads, no tracking.  
 
 Built upon [barryclark/jekyll-now](https://github.com/barryclark/jekyll-now)
 
-## Connected graph  
+## Connected information graph  
 
 All pages have a unique name so file name is also file id.
 
@@ -32,9 +31,9 @@ Any file can link to any other using its id. With html, markdown, or [[wikilink]
 
 Pages list which other pages links to them (backlinks or incoming links)
 
-[2D Graph](https://selimslab.github.io/graph2D)
+[2D Graph of all pages](https://selimslab.github.io/graph2D)
 
-[3D Graph](https://selimslab.github.io/graph3D)
+[3D Graph of all pages](https://selimslab.github.io/graph3D)
 
 
 ## Tags 
