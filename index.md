@@ -7,7 +7,7 @@ layout: page
 
 One shared digital space to bring together everything I like on the web
 
-Notes, links, articles, photos, artworks, drawings, poetry, lists, summaries, code snippets, experiments, ideas, ..
+Notes, links, articles, photos, artworks, drawings, poetry, lists, code snippets, experiments, ideas, ..
 
 ## Contents
 
