@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f4201a957d4c281d",
+        "id": "12e122e0930052e3",
         "type": "tabs",
         "children": [
           {
-            "id": "8816682f165349f2",
+            "id": "e6d8fcdfcb892950",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -139,8 +139,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8816682f165349f2",
+  "active": "e6d8fcdfcb892950",
   "lastOpenFiles": [
+    "_NOTES/lists/books/books.md",
+    "_NOTES/practical-skills/making-videos.md",
+    "_site/making-videos/index.html",
+    "_site/making-videos",
+    "_site/Untitled/index.html",
+    "_site/Untitled",
+    "_NOTES/social-sciences/psychology/children/children-and-school.md",
+    "_NOTES/social-sciences/psychology/children/children.md",
+    "_NOTES/tech/software-engineering/choose-boring-tech.md",
+    "_NOTES/tech/ux/ux.md",
+    "_NOTES/tech/ux/polished-pixels.md",
+    "_NOTES/tech/ux/things-users-care.md",
+    "_NOTES/tech/ux/usability-testing.md",
     "_NOTES/tech/machine-learning/machine-learning.md",
     "_NOTES/math/math.md",
     "_NOTES/practical-skills/communication/communication.md",
@@ -154,8 +167,6 @@
     "_site/clojure/index.html",
     "_site/clojure",
     "_NOTES/tech/programming/programming-languages/clojure.md",
-    "_site/Untitled/index.html",
-    "_site/Untitled",
     "_NOTES/tech/distributed-systems/distributed-systems.md",
     "_NOTES/lists/reading-list.md",
     "_site/reading-list/index.html",
@@ -164,29 +175,18 @@
     "_NOTES/tech/history-of-technology.md",
     "_NOTES/social-sciences/history/last-million.md",
     "_NOTES/social-sciences/history/history.md",
-    "_NOTES/social-sciences/history",
-    "_site/history-of-technology/index.html",
     "_NOTES/lists/web-experiments.md",
     "_NOTES/practical-skills/teaching.md",
-    "_NOTES/natural-sciences/astronomy.md",
-    "_NOTES/practical-skills/drawing.md",
     "_site/assets/static/solar/marble.jpg",
     "assets/static/solar/marble.jpg",
     "_site/assets/static/solar/NASA-Apollo8-Dec24-Earthrise.jpg",
     "assets/static/solar/NASA-Apollo8-Dec24-Earthrise.jpg",
-    "_NOTES/practical-skills/cooking.md",
-    "_NOTES/lists/quotes.md",
     "_site/assets/static/img/the-s-curve.jpeg",
     "_site/assets/static/img/the-singularity-effect.jpeg",
     "_site/assets/static/img/the-spotlight-effect.jpeg",
     "_site/assets/static/img/tragedy-of-commons.jpeg",
     "_site/assets/static/img/true-size-of-africa.jpeg",
     "_site/assets/static/img/trust-battery.jpeg",
-    "_NOTES/lists/paintings.md",
-    "_NOTES/lists/news.md",
-    "_NOTES/lists/nato-phonetic-alphabet.md",
-    "_NOTES/lists/modern-greek-alphabet.md",
-    "_NOTES/lists/lists.md",
     "Untitled.canvas"
   ]
 }

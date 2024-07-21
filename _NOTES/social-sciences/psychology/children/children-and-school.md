@@ -7,3 +7,6 @@ and [spectacular cognitive gains from multivitamin supplementation](http://www.n
 
 and continue to be ignored despite strong evidence in favor 
 
+
+Schools prioritize conformity and adherence to rules over fostering curiosity and innovation
+[Having Kids (paulgraham.com)](https://paulgraham.com/kids.html)

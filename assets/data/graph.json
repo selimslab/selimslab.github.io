@@ -124,6 +124,7 @@
         "/investing",
         "/leadership",
         "/learning",
+        "/making-videos",
         "/motocycles",
         "/outdoors",
         "/photography",
@@ -903,6 +904,14 @@
       "links": [
         "/practical-skills",
         "/social-sciences"
+      ]
+    },
+    {
+      "id": "/making-videos",
+      "group": 2,
+      "name": "Making Videos",
+      "links": [
+        "/practical-skills"
       ]
     },
     {
@@ -5633,6 +5642,10 @@
     {
       "source": "/practical-skills",
       "target": "/learning"
+    },
+    {
+      "source": "/practical-skills",
+      "target": "/making-videos"
     },
     {
       "source": "/practical-skills",

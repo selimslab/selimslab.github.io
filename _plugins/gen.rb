@@ -37,6 +37,21 @@ class SiteGenerator < Jekyll::Generator
 
     end
 
+    def init(site)
+      fix_frontmatter()
+
+      site.documents.each do |doc|
+        doc.data['backlinks'] ||= []
+      end
+
+      site.data["file_to_tag"] = site.data["tag_to_file"].invert
+
+      site.data["file_to_title"] = site.documents.map do |doc|
+        [remove_leading_slash(doc.id), doc.data["title"]]
+      end.to_h
+
+    end
+
     def remove_leading_slash(str)
       return str.sub(/^\//, '')
     end
@@ -125,20 +140,7 @@ class SiteGenerator < Jekyll::Generator
     end
 
 
-    def init(site)
-      fix_frontmatter()
 
-      site.documents.each do |doc|
-        doc.data['backlinks'] ||= []
-      end
-
-      site.data["file_to_tag"] = site.data["tag_to_file"].invert
-
-      site.data["file_to_title"] = site.documents.map do |doc|
-        [remove_leading_slash(doc.id), doc.data["title"]]
-      end.to_h
-
-    end
 
     def generate_tree(site)
       tree= bfs(site, NOTES_PATH)
@@ -166,13 +168,19 @@ class SiteGenerator < Jekyll::Generator
         # Check if the file has front matter
         if !content.start_with?("---")
           # If not, add front matter at the beginning
-          new_content = "---\n---\n#{content}"
+          content = "---\n---\n#{content}"
+
+          puts "Added front matter to: #{file}"
+        end
+
+        # find markdown links []() and replace | with - in markdown links
+        content = content.gsub(/\[.*?\]\(.*?\)/) do |match|
+          match.gsub(/\|/, '-')
+        end
 
           # Write the updated content back to the file
           File.open(file, "w") { |f| f.write(new_content) }
 
-          puts "Added front matter to: #{file}"
-        end
       end
     end
 
