@@ -50,9 +50,11 @@
         "/news",
         "/paintings",
         "/quotes",
+        "/reading-list",
         "/web-experiments",
         "/classics",
-        "/documentaries"
+        "/documentaries",
+        "/last-million"
       ]
     },
     {
@@ -526,6 +528,14 @@
       "links": [
         "/lists",
         "/ideas"
+      ]
+    },
+    {
+      "id": "/reading-list",
+      "group": 2,
+      "name": "Reading List",
+      "links": [
+        "/lists"
       ]
     },
     {
@@ -1191,7 +1201,6 @@
       "name": "Programming",
       "links": [
         "/tech",
-        "/1240619083716-oop",
         "/algorithms",
         "/code",
         "/compsci",
@@ -2536,6 +2545,7 @@
       "name": "Some key events in the last million years",
       "links": [
         "/history",
+        "/lists",
         "/natural-sciences",
         "/tech"
       ]
@@ -3087,15 +3097,6 @@
       ]
     },
     {
-      "id": "/1240619083716-oop",
-      "group": 3,
-      "name": "1240619083716-oop",
-      "links": [
-        "/programming",
-        "/oop-designs"
-      ]
-    },
-    {
       "id": "/algorithms",
       "group": 3,
       "name": "Algorithms",
@@ -3203,6 +3204,7 @@
         "/graph",
         "/hash-table",
         "/heap",
+        "/hyperloglog",
         "/linked-list",
         "/pointers",
         "/queue",
@@ -3244,6 +3246,7 @@
       "links": [
         "/programming",
         "/design-patterns",
+        "/oop-designs",
         "/solid",
         "/system-design"
       ]
@@ -3256,6 +3259,7 @@
         "/programming",
         "/c",
         "/c#",
+        "/clojure",
         "/go",
         "/python",
         "/ruby",
@@ -4153,27 +4157,6 @@
       ]
     },
     {
-      "id": "/oop-designs",
-      "group": 4,
-      "name": "OOP designs",
-      "links": [
-        "/1240619083716-oop",
-        "/block",
-        "/design-a-bicycle",
-        "/design-a-book-app",
-        "/design-a-crm",
-        "/design-a-data-pipeline",
-        "/design-a-gov-cloud",
-        "/design-a-personal-note-publishing-system",
-        "/design-a-trader",
-        "/design-a-web-crawler",
-        "/design-auth",
-        "/design-oauth",
-        "/design-units",
-        "/design-video-streaming-app"
-      ]
-    },
-    {
       "id": "/algo-easy",
       "group": 4,
       "name": "Easy",
@@ -4938,6 +4921,14 @@
       ]
     },
     {
+      "id": "/hyperloglog",
+      "group": 4,
+      "name": "Hyperloglog",
+      "links": [
+        "/data-structures"
+      ]
+    },
+    {
       "id": "/linked-list",
       "group": 4,
       "name": "Linked List",
@@ -5009,6 +5000,27 @@
       ]
     },
     {
+      "id": "/oop-designs",
+      "group": 4,
+      "name": "OOP designs",
+      "links": [
+        "/oop",
+        "/block",
+        "/design-a-bicycle",
+        "/design-a-book-app",
+        "/design-a-crm",
+        "/design-a-data-pipeline",
+        "/design-a-gov-cloud",
+        "/design-a-personal-note-publishing-system",
+        "/design-a-trader",
+        "/design-a-web-crawler",
+        "/design-auth",
+        "/design-oauth",
+        "/design-units",
+        "/design-video-streaming-app"
+      ]
+    },
+    {
       "id": "/solid",
       "group": 4,
       "name": "SOLID",
@@ -5028,6 +5040,14 @@
       "id": "/c#",
       "group": 4,
       "name": "C#",
+      "links": [
+        "/programming-languages"
+      ]
+    },
+    {
+      "id": "/clojure",
+      "group": 4,
+      "name": "Clojure",
       "links": [
         "/programming-languages"
       ]
@@ -5449,6 +5469,10 @@
     {
       "source": "/lists",
       "target": "/quotes"
+    },
+    {
+      "source": "/lists",
+      "target": "/reading-list"
     },
     {
       "source": "/lists",
@@ -6488,10 +6512,6 @@
     },
     {
       "source": "/programming",
-      "target": "/1240619083716-oop"
-    },
-    {
-      "source": "/programming",
       "target": "/algorithms"
     },
     {
@@ -6943,10 +6963,6 @@
       "target": "/summary-prompt"
     },
     {
-      "source": "/1240619083716-oop",
-      "target": "/oop-designs"
-    },
-    {
       "source": "/algorithms",
       "target": "/algo-easy"
     },
@@ -7248,6 +7264,10 @@
     },
     {
       "source": "/data-structures",
+      "target": "/hyperloglog"
+    },
+    {
+      "source": "/data-structures",
       "target": "/linked-list"
     },
     {
@@ -7272,6 +7292,10 @@
     },
     {
       "source": "/oop",
+      "target": "/oop-designs"
+    },
+    {
+      "source": "/oop",
       "target": "/solid"
     },
     {
@@ -7281,6 +7305,10 @@
     {
       "source": "/programming-languages",
       "target": "/c#"
+    },
+    {
+      "source": "/programming-languages",
+      "target": "/clojure"
     },
     {
       "source": "/programming-languages",
@@ -7793,6 +7821,10 @@
     {
       "source": "/lists",
       "target": "/documentaries"
+    },
+    {
+      "source": "/lists",
+      "target": "/last-million"
     },
     {
       "source": "/math",

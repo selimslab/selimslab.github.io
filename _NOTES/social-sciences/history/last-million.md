@@ -1,6 +1,6 @@
 ---
 title:  Some key events in the last million years
-tags: nat tech top
+tags: nat tech top lists
 --- 
 
 - **Big Bang**: 13.8 billion years ago

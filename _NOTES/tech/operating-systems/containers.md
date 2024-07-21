@@ -4,6 +4,7 @@ tags: sys
 ---
 
 Although OS provides process isolation, containers provide more isolation and ease on top of that  
+See [The What, Why and How of Containers – Annwan](https://www.annwan.me/computers/what-why-how-containers/)
 
 [Containers From Scratch • Liz Rice • GOTO 2018](https://www.youtube.com/watch?v=8fi7uSYlOdc) is a great look under the hood for what really is a container 
 

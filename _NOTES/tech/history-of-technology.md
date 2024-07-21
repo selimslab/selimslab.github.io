@@ -2,141 +2,101 @@
 ---
 
 
-Telescope 1608
+**1608**  
+Telescope
 
-Steam Engine 1698
+**1698**  
+Steam Engine
 
-## 1800s
-
-Electricity
-
-DC Motor
-
-Combustion Engine 
-
-The Origin Of Species
-
-Ligtbulb
-
-Telephone
-
-Car
-
-AC Motor 
-
+**1800s**  
+Electricity  
+DC Motor  
+Combustion Engine  
+_The Origin of Species_  
+Lightbulb  
+Telephone  
+Car  
+AC Motor  
 Radio
 
+**1900s**  
+_First Flight_  
+Television  
+Edwin Hubble finds Expansion of the Universe  
+Einstein formulates the equivalence of matter and energy, relativity of time and space  
+Digital Computer ENIAC  
+Atomic Bomb  
+Transistor  
+Polio Vaccine (1948-1955)  
+COBOL, Fortran  
+DNA Double Helix (1953)  
+Integrated Circuit (1958)
 
-## 1900s 
+**1960s**  
+Prototype of the modern computer with a mouse and graphical user interface (1964)  
+The Birth of the Internet (1965-1995)  
+Apollo 1 (1967)  
+Intel (1968)  
+UNIX (1969)  
+Apollo 11 (1969)
 
-First Flight 
+**1970s**  
+Floppy Disk (1971)  
+C Programming Language (1972)  
+Apollo 17 (1972)  
+Ethernet (1973)  
+First Cell Phone (1973)  
+First Personal Computers (1974-1977)  
+ALTAIR 8800, Microsoft (1975)  
+Apple (1976)  
+VisiCalc, the first spreadsheet program (1978)  
+WordStar, word processing (1979)
 
-Television 
+**1980s**  
+IBM PC  
+Commodore 64 (1982)  
+Macintosh (1984)  
+CRISPR (1987)  
+C++ (1985)  
+The first domain (symbolics.com)
 
-Edwin Hubble found Expansion Of Universe 
+**1990s**  
+Hubble (1990)  
+IMDb, Python, Haskell (1990)  
+Dolly Cloned (1993)  
+Pentium Processor, Mosaic Browser (1993)  
+Netscape Navigator, Internet Explorer, Yahoo, Amazon, PHP (1994)  
+Java, Ruby, JavaScript, PostgreSQL (1996)  
+Google (1998)  
+International Space Station Launched (1998)  
+Wi-Fi (1999)
 
-Einstein found the equality of matter and energy, relativity of time and space 
+**2000s**  
+Wikipedia (2001)  
+SpaceX (2002)  
+Safari, Tesla (2003)  
+Gmail, Facebook (2004)  
+Arduino, Reddit, YouTube (2005)  
+Twitter, MacBook Pro (2006)  
+iPhone, Kindle (2007)  
+MacBook Air (2008)  
+GitHub, WhatsApp (2009)  
 
-Digital Computer ENIAC 
+**2010s**  
+Instagram (2010)  
+Snapchat (2011)  
+Tesla Model S (2012)  
+Apple Watch (2015)  
+CRISPR in Human Trials (2016)  
+GPT-3 (2019)
 
-Atomic bomb 
-
-Transistor 
-
-Polio Vaccine 48-55
-
-COBOL, Fortran
-
-DNA double helix 53 
-
-Integrated Circuit 58
-
-## 60s 
-
-a prototype of the modern computer, with a mouse and a graphical user interface 1964
-
-The Birth of the Internet 65-95
-
-Apollo 1, 67
-
-Intel 68
-
-UNIX 69
-
-Apollo 11, 69 
-
-## 70s 
-
-Floppy Disk 71 
-
-C programming language, 72
-
-Apollo 17, 72
-
-Ethernet 73 
-
-First Cell Phone 73 
-
-First personal computers 74-77 
-
-ALTAIR 8800, Microsoft, 75 
-
-Apple 76
-
-VisiCalc, the first spreadsheet program, 78
-
-WordStar, word processing, 79 
-
-## 80s 
-
-IBM PC 
-
-82: Commodore 64 (64 KB of RAM, $595, sold more than 22 million units)
-
-84: Macintosh, $2,500
-
-85: The first domain symbolics.com, AOL, C++ 
-
-CRISPR
-
-## 90s
-
-90: Hubble, Imdb, Python, Haskell
-
-93: Dolly cloned, Pentium processor, Mosaic Browser
-
-94: Netscape Navigator, Internet Explorer, Yahoo, Amazon, PHP
-
-96: Java, Ruby, JavaScript, PostgreSQL
-
-98: Google, International Space Station Launched
-
-99: Wifi
-
-## 2000s
-
-01: Wikipedia
-
-02: SpaceX
-
-03: Safari, Tesla 
-
-04: Gmail, Facebook
-
-05: Arduino, Reddit, Youtube
-
-06: Twitter, MacBook Pro
-
-07: iPhone, Kindle
-
-08: Macbook Air
-
-09: Github, Whatsapp 
-
-10: Instagram, iPad
-
-12: Chrome, Raspberry Pi, Higgs boson 
-
+**2020s**  
+5G Networks (2020)  
+COVID-19 mRNA Vaccines (2020) 
+James Webb Space Telescope (2021)  
+ChatGPT (2022)  
+Quantum Supremacy Claims (2022)  
+Generative AI Expansion (2023)
 
 ## misc. 
 

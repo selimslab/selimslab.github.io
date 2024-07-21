@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "dccaf847abb42c9d",
+        "id": "5a69edfaad2823d3",
         "type": "tabs",
         "children": [
           {
-            "id": "5dbfa3753e253b7b",
+            "id": "b50088518f2f4db9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_NOTES/social-sciences/history/last-million.md",
+                "file": "_NOTES/tech/machine-learning/machine-learning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_NOTES/social-sciences/history/last-million.md",
+                "file": "_NOTES/tech/machine-learning/machine-learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_NOTES/social-sciences/history/last-million.md",
+                "file": "_NOTES/tech/machine-learning/machine-learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_NOTES/social-sciences/history/last-million.md"
+                "file": "_NOTES/tech/machine-learning/machine-learning.md"
               }
             }
           }
@@ -148,32 +148,41 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5dbfa3753e253b7b",
+  "active": "b50088518f2f4db9",
   "lastOpenFiles": [
-    "_NOTES/social-sciences/history/history.md",
-    "_NOTES/social-sciences/history/last-million.md",
-    "_NOTES/social-sciences/history",
-    "_NOTES/tech/history-of-technology.md",
-    "_site/history-of-technology/index.html",
-    "_site/history-of-technology",
+    "_NOTES/math/math.md",
+    "_NOTES/practical-skills/communication/communication.md",
+    "_NOTES/tech/operating-systems/concurrency.md",
+    "_NOTES/tech/programming/data-structures/hyperloglog.md",
+    "_site/hyperloglog/index.html",
+    "_site/hyperloglog",
+    "_NOTES/tech/programming/data-structures/data-structures.md",
+    "_NOTES/tech/operating-systems/containers.md",
+    "_NOTES/tech/databases/databases.md",
+    "_site/clojure/index.html",
+    "_site/clojure",
+    "_NOTES/tech/programming/programming-languages/clojure.md",
     "_site/Untitled/index.html",
     "_site/Untitled",
+    "_NOTES/tech/distributed-systems/distributed-systems.md",
+    "_NOTES/lists/reading-list.md",
+    "_site/reading-list/index.html",
+    "_site/reading-list",
+    "_NOTES/lists/blogs.md",
+    "_NOTES/tech/history-of-technology.md",
+    "_NOTES/social-sciences/history/last-million.md",
+    "_NOTES/social-sciences/history/history.md",
+    "_NOTES/social-sciences/history",
+    "_site/history-of-technology/index.html",
     "_NOTES/lists/web-experiments.md",
     "_NOTES/practical-skills/teaching.md",
     "_NOTES/natural-sciences/astronomy.md",
-    "_site/web-experiments/index.html",
-    "_site/web-experiments",
     "_NOTES/practical-skills/drawing.md",
-    "_NOTES/lists/blogs.md",
     "_site/assets/static/solar/marble.jpg",
     "assets/static/solar/marble.jpg",
-    "assets/static/solar/marble.jpg.crdownload",
     "_site/assets/static/solar/NASA-Apollo8-Dec24-Earthrise.jpg",
     "assets/static/solar/NASA-Apollo8-Dec24-Earthrise.jpg",
-    "assets/static/solar/NASA-Apollo8-Dec24-Earthrise.jpg.crdownload",
-    "_site/run.ps1",
     "_NOTES/practical-skills/cooking.md",
-    "_NOTES/math/math.md",
     "_NOTES/lists/quotes.md",
     "_site/assets/static/img/the-s-curve.jpeg",
     "_site/assets/static/img/the-singularity-effect.jpeg",
@@ -187,14 +196,6 @@
     "_NOTES/lists/modern-greek-alphabet.md",
     "_NOTES/lists/lists.md",
     "_NOTES/lists/ideas.md",
-    "_NOTES/lists/hn-top-links.md",
-    "_NOTES/lists/games.md",
-    "_NOTES/lists/datasets.md",
-    "_NOTES/lists/comics.md",
-    "_NOTES/tech/software-engineering/going-blind.md",
-    "_NOTES/tech/tech-.md",
-    "_NOTES/lists/websites.md",
-    "quotes.md",
     "Untitled.canvas"
   ]
 }

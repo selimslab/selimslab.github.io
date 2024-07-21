@@ -2,7 +2,7 @@
 ---
 
 
-
+[Drew DeVault's blog](https://drewdevault.com/)
 
 [Astral Codex Ten - Scott Alexander - Substack](https://www.astralcodexten.com/)
 
