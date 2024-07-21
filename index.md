@@ -5,7 +5,7 @@ layout: page
 
 # Project Delta 
 
-A digital space to create and share
+A digital space to create, collect, and share
 
 ## Contents
 
