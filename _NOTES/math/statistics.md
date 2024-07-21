@@ -45,3 +45,6 @@ Inferential statistics
 Central Limit Theorem 
 
 Frequentist vs Bayesian statistics 
+
+
+[[datasets]]

@@ -20,4 +20,9 @@ How to write better?
 
 > "Il faut cultiver notre jardin"
 
+## See also 
+
 [[zen-of-python]]
+
+<https://hemingwayapp.com>
+

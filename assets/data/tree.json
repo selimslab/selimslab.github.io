@@ -12,6 +12,8 @@
       "/movies": {
       }
     },
+    "/everyday-objects": {
+    },
     "/languages": {
       "/cestina": {
         "/adjektiva": {
@@ -238,6 +240,8 @@
   "/lists": {
     "/authors": {
     },
+    "/blogs": {
+    },
     "/books": {
       "/algorithms-books": {
       },
@@ -251,6 +255,8 @@
       }
     },
     "/comics": {
+    },
+    "/datasets": {
     },
     "/essais": {
       "/a-good-life": {
@@ -326,6 +332,8 @@
       "/your-lifestyle-already-designed": {
       }
     },
+    "/games": {
+    },
     "/hn-top-links": {
     },
     "/ideas": {
@@ -336,11 +344,11 @@
     },
     "/nato-phonetic-alphabet": {
     },
+    "/news": {
+    },
     "/paintings": {
     },
-    "/rss": {
-    },
-    "/websites": {
+    "/quotes": {
     }
   },
   "/math": {
@@ -375,6 +383,8 @@
     "/akins-laws-of-spacecraft": {
     },
     "/analytics": {
+    },
+    "/astronomy": {
     },
     "/chaos": {
     },
@@ -414,6 +424,8 @@
       "/write-better": {
       }
     },
+    "/cooking": {
+    },
     "/decisions": {
       "/critical-thinking": {
       },
@@ -427,6 +439,8 @@
       },
       "/on-decision-making": {
       }
+    },
+    "/drawing": {
     },
     "/driving": {
       "/car-equipment": {
@@ -468,6 +482,8 @@
     },
     "/learning": {
     },
+    "/motocycles": {
+    },
     "/outdoors": {
       "/calisthenics": {
       },
@@ -483,6 +499,8 @@
     "/photography": {
     },
     "/practical-skills": {
+    },
+    "/teaching": {
     },
     "/trading": {
     }
@@ -503,6 +521,8 @@
       }
     },
     "/fluid-field-boundaries": {
+    },
+    "/history": {
     },
     "/in-praise-of-idleness": {
     },
@@ -1028,6 +1048,8 @@
       "/code-review": {
       },
       "/core-concepts": {
+      },
+      "/going-blind": {
       },
       "/google-sre-book": {
       },

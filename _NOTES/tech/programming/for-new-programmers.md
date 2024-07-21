@@ -12,6 +12,8 @@ I think the best algorithms book for new programmers is Grokking Algorithms An I
 * [Teach Yourself Computer Science](https://teachyourselfcs.com/)
 
 * [History of the Internet - Wikipedia](https://en.wikipedia.org/wiki/History_of_the_Internet)
+
+- [[zen-of-python]]
   
 * <https://regexlearn.com/>
 

@@ -23,6 +23,7 @@ No ads, no tracking.
 
 Built upon [barryclark/jekyll-now](https://github.com/barryclark/jekyll-now)
 
+
 ## Connected information graph  
 
 All pages have a unique name so file name is also file id.
@@ -50,6 +51,12 @@ Search, theme, page-dice and idea-machine also work offline. Artwork shuffle wil
 `_plugins\gen.rb` visits all pages before rendering. 
 
 Figures out document tree, replaces wikilinks with html links, and adds backlinks to page metadata. 
+
+## Other
+
+All content and ideas belong to their original creators, even though most are not listed explicitly. Please verify their origin before sharing. 
+
+Most pages do not have dates since the site aims to include timeless information.
 
 ## Setup
 

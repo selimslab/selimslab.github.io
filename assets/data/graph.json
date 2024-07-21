@@ -21,6 +21,7 @@
       "links": [
         "/root",
         "/cinema",
+        "/everyday-objects",
         "/languages",
         "/literature",
         "/philosophy",
@@ -36,16 +37,19 @@
       "links": [
         "/root",
         "/authors",
+        "/blogs",
         "/books",
         "/comics",
+        "/datasets",
         "/essais",
+        "/games",
         "/hn-top-links",
         "/ideas",
         "/modern-greek-alphabet",
         "/nato-phonetic-alphabet",
+        "/news",
         "/paintings",
-        "/rss",
-        "/websites",
+        "/quotes",
         "/classics",
         "/documentaries"
       ]
@@ -79,6 +83,7 @@
         "/root",
         "/akins-laws-of-spacecraft",
         "/analytics",
+        "/astronomy",
         "/chaos",
         "/classical-physics",
         "/equations-that-changed-the-world",
@@ -105,7 +110,9 @@
         "/business",
         "/career",
         "/communication",
+        "/cooking",
         "/decisions",
+        "/drawing",
         "/driving",
         "/drowning-doesnt-look-dramatic",
         "/health",
@@ -114,8 +121,10 @@
         "/investing",
         "/leadership",
         "/learning",
+        "/motocycles",
         "/outdoors",
         "/photography",
+        "/teaching",
         "/trading",
         "/creativity",
         "/critical-thinking",
@@ -148,6 +157,7 @@
         "/criminal-justice",
         "/economics",
         "/fluid-field-boundaries",
+        "/history",
         "/in-praise-of-idleness",
         "/last-million",
         "/metaphors",
@@ -198,6 +208,7 @@
         "/ux",
         "/akins-laws-of-spacecraft",
         "/analytics",
+        "/everyday-objects",
         "/fluid-field-boundaries",
         "/hacker-laws",
         "/design",
@@ -214,6 +225,16 @@
         "/documentaries",
         "/film-scores",
         "/movies"
+      ]
+    },
+    {
+      "id": "/everyday-objects",
+      "group": 2,
+      "name": "Everyday Objects",
+      "links": [
+        "/arts",
+        "/design",
+        "/tech"
       ]
     },
     {
@@ -347,6 +368,14 @@
       ]
     },
     {
+      "id": "/blogs",
+      "group": 2,
+      "name": "RSS",
+      "links": [
+        "/lists"
+      ]
+    },
+    {
       "id": "/books",
       "group": 2,
       "name": "Books",
@@ -365,6 +394,15 @@
       "name": "Comics",
       "links": [
         "/lists"
+      ]
+    },
+    {
+      "id": "/datasets",
+      "group": 2,
+      "name": "Datasets",
+      "links": [
+        "/lists",
+        "/statistics"
       ]
     },
     {
@@ -421,11 +459,20 @@
       ]
     },
     {
-      "id": "/hn-top-links",
+      "id": "/games",
       "group": 2,
-      "name": "Hn Top Links",
+      "name": "Games",
       "links": [
         "/lists"
+      ]
+    },
+    {
+      "id": "/hn-top-links",
+      "group": 2,
+      "name": "HackerNews all-time top links",
+      "links": [
+        "/lists",
+        "/software-engineering"
       ]
     },
     {
@@ -433,7 +480,8 @@
       "group": 2,
       "name": "Ideas",
       "links": [
-        "/lists"
+        "/lists",
+        "/quotes"
       ]
     },
     {
@@ -455,6 +503,14 @@
       ]
     },
     {
+      "id": "/news",
+      "group": 2,
+      "name": "News",
+      "links": [
+        "/lists"
+      ]
+    },
+    {
       "id": "/paintings",
       "group": 2,
       "name": "Paintings 🎨",
@@ -463,19 +519,12 @@
       ]
     },
     {
-      "id": "/rss",
+      "id": "/quotes",
       "group": 2,
-      "name": "RSS",
+      "name": "Quotes",
       "links": [
-        "/lists"
-      ]
-    },
-    {
-      "id": "/websites",
-      "group": 2,
-      "name": "Websites",
-      "links": [
-        "/lists"
+        "/lists",
+        "/ideas"
       ]
     },
     {
@@ -572,7 +621,8 @@
       "group": 2,
       "name": "Statistics",
       "links": [
-        "/math"
+        "/math",
+        "/datasets"
       ]
     },
     {
@@ -594,6 +644,14 @@
       "links": [
         "/natural-sciences",
         "/tech"
+      ]
+    },
+    {
+      "id": "/astronomy",
+      "group": 2,
+      "name": "Astronomy",
+      "links": [
+        "/natural-sciences"
       ]
     },
     {
@@ -720,6 +778,14 @@
       ]
     },
     {
+      "id": "/cooking",
+      "group": 2,
+      "name": "Cooking",
+      "links": [
+        "/practical-skills"
+      ]
+    },
+    {
       "id": "/decisions",
       "group": 2,
       "name": "Decisions",
@@ -730,6 +796,14 @@
         "/do-what-is-right",
         "/do-without-doing",
         "/on-decision-making"
+      ]
+    },
+    {
+      "id": "/drawing",
+      "group": 2,
+      "name": "Drawing",
+      "links": [
+        "/practical-skills"
       ]
     },
     {
@@ -813,6 +887,14 @@
       ]
     },
     {
+      "id": "/motocycles",
+      "group": 2,
+      "name": "Motocycles",
+      "links": [
+        "/practical-skills"
+      ]
+    },
+    {
       "id": "/outdoors",
       "group": 2,
       "name": "Outdoors",
@@ -829,6 +911,14 @@
       "id": "/photography",
       "group": 2,
       "name": "Photography",
+      "links": [
+        "/practical-skills"
+      ]
+    },
+    {
+      "id": "/teaching",
+      "group": 2,
+      "name": "Teaching",
       "links": [
         "/practical-skills"
       ]
@@ -884,6 +974,14 @@
         "/social-sciences",
         "/natural-sciences",
         "/tech"
+      ]
+    },
+    {
+      "id": "/history",
+      "group": 2,
+      "name": "History",
+      "links": [
+        "/social-sciences"
       ]
     },
     {
@@ -1112,6 +1210,7 @@
         "/choose-boring-tech",
         "/code-review",
         "/core-concepts",
+        "/going-blind",
         "/google-sre-book",
         "/hacker-laws",
         "/ship-it",
@@ -1123,6 +1222,7 @@
         "/computer-networks",
         "/concurrency",
         "/distributed-systems",
+        "/hn-top-links",
         "/machine-learning",
         "/operating-systems",
         "/programming",
@@ -1942,6 +2042,7 @@
       "links": [
         "/essais",
         "/creativity",
+        "/everyday-objects",
         "/how-to-start-a-business",
         "/natural-tech",
         "/polished-pixels",
@@ -3208,6 +3309,14 @@
       "id": "/core-concepts",
       "group": 3,
       "name": "Core Concepts",
+      "links": [
+        "/software-engineering"
+      ]
+    },
+    {
+      "id": "/going-blind",
+      "group": 3,
+      "name": "Going Blind",
       "links": [
         "/software-engineering"
       ]
@@ -5245,6 +5354,10 @@
     },
     {
       "source": "/arts",
+      "target": "/everyday-objects"
+    },
+    {
+      "source": "/arts",
       "target": "/languages"
     },
     {
@@ -5269,6 +5382,10 @@
     },
     {
       "source": "/lists",
+      "target": "/blogs"
+    },
+    {
+      "source": "/lists",
       "target": "/books"
     },
     {
@@ -5277,7 +5394,15 @@
     },
     {
       "source": "/lists",
+      "target": "/datasets"
+    },
+    {
+      "source": "/lists",
       "target": "/essais"
+    },
+    {
+      "source": "/lists",
+      "target": "/games"
     },
     {
       "source": "/lists",
@@ -5297,15 +5422,15 @@
     },
     {
       "source": "/lists",
+      "target": "/news"
+    },
+    {
+      "source": "/lists",
       "target": "/paintings"
     },
     {
       "source": "/lists",
-      "target": "/rss"
-    },
-    {
-      "source": "/lists",
-      "target": "/websites"
+      "target": "/quotes"
     },
     {
       "source": "/math",
@@ -5365,6 +5490,10 @@
     },
     {
       "source": "/natural-sciences",
+      "target": "/astronomy"
+    },
+    {
+      "source": "/natural-sciences",
       "target": "/chaos"
     },
     {
@@ -5417,7 +5546,15 @@
     },
     {
       "source": "/practical-skills",
+      "target": "/cooking"
+    },
+    {
+      "source": "/practical-skills",
       "target": "/decisions"
+    },
+    {
+      "source": "/practical-skills",
+      "target": "/drawing"
     },
     {
       "source": "/practical-skills",
@@ -5453,11 +5590,19 @@
     },
     {
       "source": "/practical-skills",
+      "target": "/motocycles"
+    },
+    {
+      "source": "/practical-skills",
       "target": "/outdoors"
     },
     {
       "source": "/practical-skills",
       "target": "/photography"
+    },
+    {
+      "source": "/practical-skills",
+      "target": "/teaching"
     },
     {
       "source": "/practical-skills",
@@ -5482,6 +5627,10 @@
     {
       "source": "/social-sciences",
       "target": "/fluid-field-boundaries"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/history"
     },
     {
       "source": "/social-sciences",
@@ -6374,6 +6523,10 @@
     {
       "source": "/software-engineering",
       "target": "/core-concepts"
+    },
+    {
+      "source": "/software-engineering",
+      "target": "/going-blind"
     },
     {
       "source": "/software-engineering",
@@ -7500,6 +7653,10 @@
       "target": "/books-swe"
     },
     {
+      "source": "/datasets",
+      "target": "/statistics"
+    },
+    {
       "source": "/creativity",
       "target": "/how-to-start-a-business"
     },
@@ -7510,6 +7667,10 @@
     {
       "source": "/creativity",
       "target": "/teamwork"
+    },
+    {
+      "source": "/design",
+      "target": "/everyday-objects"
     },
     {
       "source": "/design",
@@ -7594,6 +7755,10 @@
     {
       "source": "/wasted-talent",
       "target": "/hiring"
+    },
+    {
+      "source": "/ideas",
+      "target": "/quotes"
     },
     {
       "source": "/lists",
@@ -8361,6 +8526,10 @@
     },
     {
       "source": "/software-engineering",
+      "target": "/hn-top-links"
+    },
+    {
+      "source": "/software-engineering",
       "target": "/machine-learning"
     },
     {
@@ -8450,6 +8619,10 @@
     {
       "source": "/tech",
       "target": "/analytics"
+    },
+    {
+      "source": "/tech",
+      "target": "/everyday-objects"
     },
     {
       "source": "/tech",
