@@ -1,8 +1,8 @@
 #  Project Delta
 
-One shared digital space to bring together everything I like on the web. 
+A digital space to create and share
 
-Notes, links, articles, photos, artworks, drawings, poetry, lists, code snippets, experiments, ideas, ..
+A place to bring together everything I like on the web. Notes, links, articles, photos, artworks, drawings, poetry, lists, code snippets, experiments, ideas, ..
 
 View at <https://selimslab.github.io>
 

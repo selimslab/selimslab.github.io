@@ -1,10 +1,10 @@
 ---
-title:  Some key events in the last million years
+title: Some events in the last 14 billion years  
 tags: nat tech top lists
 --- 
 
 - **Big Bang**: 13.8 billion years ago
-- **Formation of Milky Way Galaxy**: ~13.6 billion years ago
+- **Formation of Milky Way Galaxy**: 13.6 billion years ago
 - **Formation of Solar System**: 4.6 billion years ago
 - **Formation of Earth**: 4.5 billion years ago
 - **First Single-Celled Life**: 3.5 billion years ago
@@ -20,24 +20,23 @@ tags: nat tech top lists
 - **Controlled Use of Fire**: 1 million years ago
 - **Homo Sapiens**: 300,000 years ago
 - **Cave Paintings**: 40,000 years ago
-- **End of the Last Ice Age**: ~10,000 years ago
-- **Agriculture**: 10,000 years ago
-- **First Temple (Göbekli Tepe)**: 9600 BCE
-- **First Cities**: 7500 BCE
-- **Copper Age**: 5000 BCE
-- **Wheel**: ~4500–3300 BCE
-- **Bronze Age**: ~3300 - 1200 BCE
-- **Ancient Egypt**: 3100 BCE
-- **First Writings (Sumerians)**: 3100 BCE
-- **Pyramids**: 2630 BCE
-- **Iron Age**: 1200 BCE
-- **Classical Greece**: 5th to 4th centuries BCE
-- **Hellenistic Period**: 323–146 BCE
-- **Roman Republic**: 5th to 1st centuries BCE
-- **Roman Empire**: 1st century BCE to 5th century CE
-- **Renaissance**: 14th to 17th centuries
-- **Age of Exploration**: 15th to 17th centuries
-- **Industrial Revolution**: 18th - 20th centuries
-- **World War I**: 1914 - 1918
+- **End of the Last Ice Age**: ~12,000 years ago
+- **Agriculture**: ~12,000 years ago
+- **First Temple (Göbekli Tepe)**: 11,600 years ago
+- **First Cities**: 9,500 years ago
+- **Copper Age**: 7,000 years ago
+- **Wheel**: 6,500 years ago
+- **Bronze Age**: 5,300 years ago
+- **Ancient Egypt**: 5000 years ago
+- **First Writings (Sumerians)**: 5000 years ago
+- **Pyramids**: 4,500 years ago
+- **Iron Age**: 3,200 years ago
+- **Classical Greece**: 2,500 to 2,400 years ago
+- **Hellenistic Period**: 2,300 to 2,100 years ago
+- **Roman Republic**: 2,500 to 2,100 years ago
+- **Roman Empire**: 2,100 to 1,500 years ago
+- **Renaissance**: 700 to 400 years ago
+- **Age of Exploration**: 600 to 400 years ago
+- **Industrial Revolution**: 300 to 100 years ago
+- **World War I**: 1914 - 1918 
 - **World War II**: 1939 - 1945
-- **Digital Revolution**: 20th and 21st centuries

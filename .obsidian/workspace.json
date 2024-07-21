@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "12e122e0930052e3",
+        "id": "dc37240f3c5d2155",
         "type": "tabs",
         "children": [
           {
-            "id": "e6d8fcdfcb892950",
+            "id": "aec6d8f212363ff5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           }
         ]
@@ -139,8 +148,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e6d8fcdfcb892950",
+  "active": "aec6d8f212363ff5",
   "lastOpenFiles": [
+    "index.md",
+    "_NOTES/social-sciences/history/last-million.md",
+    "_site/assets/static/wind-spring-white-stratosphere-pure.jpg",
+    "assets/static/wind-spring-white-stratosphere-pure.jpg",
     "_NOTES/lists/books/books.md",
     "_NOTES/practical-skills/making-videos.md",
     "_site/making-videos/index.html",
@@ -173,10 +186,8 @@
     "_site/reading-list",
     "_NOTES/lists/blogs.md",
     "_NOTES/tech/history-of-technology.md",
-    "_NOTES/social-sciences/history/last-million.md",
     "_NOTES/social-sciences/history/history.md",
     "_NOTES/lists/web-experiments.md",
-    "_NOTES/practical-skills/teaching.md",
     "_site/assets/static/solar/marble.jpg",
     "assets/static/solar/marble.jpg",
     "_site/assets/static/solar/NASA-Apollo8-Dec24-Earthrise.jpg",
@@ -185,8 +196,6 @@
     "_site/assets/static/img/the-singularity-effect.jpeg",
     "_site/assets/static/img/the-spotlight-effect.jpeg",
     "_site/assets/static/img/tragedy-of-commons.jpeg",
-    "_site/assets/static/img/true-size-of-africa.jpeg",
-    "_site/assets/static/img/trust-battery.jpeg",
     "Untitled.canvas"
   ]
 }
