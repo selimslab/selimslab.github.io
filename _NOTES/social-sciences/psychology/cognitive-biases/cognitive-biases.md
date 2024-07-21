@@ -81,3 +81,5 @@ We often don't know where to stop
 [[bias-for-unhappiness]]
 
 [[overvaluing-short-term]]
+
+[Heuristics That Almost Always Work - by Scott Alexander (astralcodexten.com)](https://www.astralcodexten.com/p/heuristics-that-almost-always-work)
