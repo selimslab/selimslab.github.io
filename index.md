@@ -2,6 +2,9 @@
 layout: page
 ---
 
+<style>
+
+</style>
 
 # Project Delta 
 
@@ -13,16 +16,14 @@ A digital space to create, collect, and share
 {{ site.data.tree_htmls["root"] }}
 </div>
 
-
 {% include earth.html %}
-
 
 ## Featured
 
 {% include hub.html tag='top' %}
 
-
 ## Time 
+
 {% include time.html %}
 
 ## Tap to shuffle   
@@ -32,4 +33,3 @@ A digital space to create, collect, and share
 {% include random-idea.html %}
 
 {% include offline.html  %}
-

@@ -39,7 +39,8 @@ footer.about {
 // basics 
 body {
   font-family: $sansSerif;
-  background-image: url('/assets/static/solar/2k_stars_milky_way.jpg');
+  background-color: $darkBg;
+  background-image: url('/assets/static/solar/2k_stars_milky_way3.jpg');
   background-size: cover;
   /* Ensures the image covers the entire background */
   background-position: center;
