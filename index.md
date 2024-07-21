@@ -5,8 +5,9 @@ layout: page
 
 # Project Delta 
 
-A personal knowledge graph   
+One shared digital space to bring together everything I like on the web
 
+Articles, notes, lists, photos, links, artworks, ideas, code snippets, ..
 
 ## Contents
 

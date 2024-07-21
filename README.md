@@ -1,6 +1,8 @@
 #  Project Delta
 
-A personal knowledge base (or graph/wiki/digital garden)
+One shared digital space to bring together everything I like on the web. 
+
+Articles, notes, photos, videos, artworks, blogs, quotes, links, code snippets, algorithms, web experiments, .. 
 
 View at <https://selimslab.github.io>
 
