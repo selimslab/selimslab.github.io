@@ -39,6 +39,7 @@
         "/books",
         "/comics",
         "/essais",
+        "/hn-top-links",
         "/ideas",
         "/modern-greek-alphabet",
         "/nato-phonetic-alphabet",
@@ -417,6 +418,14 @@
         "/how-to-speak-to-children",
         "/overvaluing-short-term",
         "/technology-and-time"
+      ]
+    },
+    {
+      "id": "/hn-top-links",
+      "group": 2,
+      "name": "Hn Top Links",
+      "links": [
+        "/lists"
       ]
     },
     {
@@ -5269,6 +5278,10 @@
     {
       "source": "/lists",
       "target": "/essais"
+    },
+    {
+      "source": "/lists",
+      "target": "/hn-top-links"
     },
     {
       "source": "/lists",
