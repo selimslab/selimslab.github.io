@@ -2,4 +2,4 @@
 
 ---
 
-![](/static/img/stages-of-grief.jpeg)
+![](/assets/static/img/stages-of-grief.jpeg)

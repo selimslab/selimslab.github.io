@@ -4,15 +4,15 @@
 
 <https://sketchplanations.com/primary-metaphor>
 
-![](/static/img/primary-metaphor.jpeg)
+![](/assets/static/img/primary-metaphor.jpeg)
 
-![](/static/img/knowing-as-seeing.jpeg)
+![](/assets/static/img/knowing-as-seeing.jpeg)
 
-![](/static/img/affection-as-warmth.jpeg)
+![](/assets/static/img/affection-as-warmth.jpeg)
 
 
-![](/static/img/trust-battery.jpeg)
+![](/assets/static/img/trust-battery.jpeg)
 
-![](/static/img/under-lamppost.png)
+![](/assets/static/img/under-lamppost.png)
 
-![](/static/img/idea-metaphors.jpeg)
+![](/assets/static/img/idea-metaphors.jpeg)

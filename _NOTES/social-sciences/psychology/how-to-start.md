@@ -13,4 +13,4 @@ For example, curiosity depends on hope
 
 This is also the gist of scientific method
 
-![](/static/img/finish-line-is-to-start.png)
+![](/assets/static/img/finish-line-is-to-start.png)

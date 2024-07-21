@@ -28,9 +28,9 @@ Don't take money from people you wouldn't hire.
 
 Don't hire people you wouldn't work for.
 
-![](/static/img/business-flywheel.png)
+![](/assets/static/img/business-flywheel.png)
 
-![](/static/img/the-customer-value-chain.jpeg)
+![](/assets/static/img/the-customer-value-chain.jpeg)
 
 <https://patrickcollison.com/fast>
 

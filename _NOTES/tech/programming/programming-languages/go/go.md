@@ -6,10 +6,10 @@ title: Go
 
 <https://gopherize.me>
 
-<img src="/static/img/gopher.svg" style="max-height:7rem">
+<img src="/assets/static/img/gopher.svg" style="max-height:7rem">
 
 
-<img src="/static/img/gopherize.png" style="max-height:7rem">
+<img src="/assets/static/img/gopherize.png" style="max-height:7rem">
 
 
 Composition over inheritance

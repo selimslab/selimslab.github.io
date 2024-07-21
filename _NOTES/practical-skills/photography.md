@@ -4,10 +4,10 @@ tags: skills
 
 from sketchplanations
 
-![](/static/img/apperture.jpeg)
+![](/assets/static/img/apperture.jpeg)
 
-![](/static/img/shutter-speed.jpeg)
+![](/assets/static/img/shutter-speed.jpeg)
 
-![](/static/img/iso-sensitivity.jpeg)
+![](/assets/static/img/iso-sensitivity.jpeg)
 
-![](/static/img/exposure.jpeg)
+![](/assets/static/img/exposure.jpeg)

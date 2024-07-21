@@ -12,4 +12,4 @@ Would you treat a beloved friend as you treat yourself? Be kind to yourself. If 
 
 Learn from the past and move on. 
 
-![](/static/img/life-paths.jpeg)
+![](/assets/static/img/life-paths.jpeg)

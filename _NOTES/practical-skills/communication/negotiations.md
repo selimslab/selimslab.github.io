@@ -24,4 +24,4 @@ tags: soc skills essais
 20. Specific numbers
 21. Confirm execution with how questions, summaries and labels
 
-![](/static/img/arguments-dilute.png)
+![](/assets/static/img/arguments-dilute.png)

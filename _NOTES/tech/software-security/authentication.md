@@ -2,7 +2,7 @@
 tags: sec
 ---
 
-![](/static/img/2-factor-auth.jpeg)
+![](/assets/static/img/2-factor-auth.jpeg)
 
 Practically, the auth info provided is either 
 1. something the user knows (like a password, PIN, or key)

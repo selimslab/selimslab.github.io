@@ -2,14 +2,14 @@
 tags: essais 
 ---
 
-![](/static/img/gartner-hype-cycle.jpeg)
+![](/assets/static/img/gartner-hype-cycle.jpeg)
 
-![](/static/img/the-s-curve.jpeg)
+![](/assets/static/img/the-s-curve.jpeg)
 
-![](/static/img/complex-before-simple.jpeg)
+![](/assets/static/img/complex-before-simple.jpeg)
 
-![](/static/img/the-chasm.jpeg)
+![](/assets/static/img/the-chasm.jpeg)
 
-![](/static/img/the-long-nose-of-innovation.jpeg)
+![](/assets/static/img/the-long-nose-of-innovation.jpeg)
 
-![](/static/img/pace-layers.jpeg)
+![](/assets/static/img/pace-layers.jpeg)

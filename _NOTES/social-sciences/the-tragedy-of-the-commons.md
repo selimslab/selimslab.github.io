@@ -3,4 +3,4 @@
 ---
 
 
-![](/static/img/tragedy-of-commons.jpeg)
+![](/assets/static/img/tragedy-of-commons.jpeg)

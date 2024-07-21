@@ -33,13 +33,13 @@ A team in harmony covers weaknesses and amplifies strengths.
 
 - Due diligence
 
-![](/static/img/excuses.jpeg)
+![](/assets/static/img/excuses.jpeg)
 
-![](/static/img/accountability-ladder.jpeg)
+![](/assets/static/img/accountability-ladder.jpeg)
 
 - Empower people. If people are not autonomous and empowered in their areas, how can you expect [[creativity]]?
 
-![](/static/img/boss-vs-leader.png)
+![](/assets/static/img/boss-vs-leader.png)
 
 - Lead by inspiration
 
@@ -70,7 +70,7 @@ A team in harmony covers weaknesses and amplifies strengths.
 
 - There is no single leadership style that suits all
 
-![](/static/img/maker-time.png)
+![](/assets/static/img/maker-time.png)
 
 [[44-engineering-management-lessons]]
 
@@ -97,7 +97,7 @@ A team in harmony covers weaknesses and amplifies strengths.
 
 Also see this 1944 CIA memo, on how to infiltrate an organization and make it dysfunctional
 
-![](/static/img/infiltrate.jpeg)
+![](/assets/static/img/infiltrate.jpeg)
 
 ## Also see
 

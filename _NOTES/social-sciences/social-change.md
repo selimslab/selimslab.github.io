@@ -8,4 +8,4 @@ Yet most changes are very undramatic, slow changes in bureaucracy and systematic
 
 The same for the change for worse 
 
-![](/static/img/slow-change-unnoticed.jpeg)
+![](/assets/static/img/slow-change-unnoticed.jpeg)

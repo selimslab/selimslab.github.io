@@ -9,3 +9,5 @@
 <https://sketchplanations.com> 
 
 <https://betterexplained.com/>
+
+<https://www.youtube.com/@crashcourse>

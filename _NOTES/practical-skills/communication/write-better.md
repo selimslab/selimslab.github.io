@@ -16,7 +16,7 @@ How to write better?
 4. Less is more, "If I had more time, I would have written a shorter letter."
 5. Write a lot and iterate. "The best writing is rewriting."
 
-![](/static/img/remove-redundant-words.png)
+![](/assets/static/img/remove-redundant-words.png)
 
 > "Il faut cultiver notre jardin"
 

@@ -24,7 +24,7 @@ A second analogy empasizes iteration,
 
 From a skateboard, to a scooter, a bike, a motorbike, a car, .. 
 
-![](/static/img/release-strategy.jpeg)
+![](/assets/static/img/release-strategy.jpeg)
 
 ---
 

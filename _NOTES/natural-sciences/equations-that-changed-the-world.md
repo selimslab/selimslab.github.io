@@ -3,6 +3,6 @@
 ---
 
 
-![](/static/img/equations.jpeg)
+![](/assets/static/img/equations.jpeg)
 
 Also see [[classical-physics]]

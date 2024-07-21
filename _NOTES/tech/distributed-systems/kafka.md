@@ -24,7 +24,7 @@ Sending data from disk to network normally follows the red path below.
 
 Kafka uses sendfile system call to directly copy from pagecache to network, following the green path 
 
-![](/static/img/kafka-sendfile.png)
+![](/assets/static/img/kafka-sendfile.png)
 
 
 

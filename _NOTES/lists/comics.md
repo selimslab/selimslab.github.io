@@ -19,4 +19,4 @@ xkcd
 
 <https://www.gocomics.com>
 
-![](/static/img/in_thought_poorlydrawn.png)
+![](/assets/static/img/in_thought_poorlydrawn.png)

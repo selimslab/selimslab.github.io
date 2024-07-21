@@ -20,4 +20,4 @@ You become what you do. Garbage in, garbage out. Do your best, here and now. [[o
 - Learn and move on 
 - The future is unpredictable, prepare without worry 
 
-![](/static/img/life-paths.jpeg)
+![](/assets/static/img/life-paths.jpeg)

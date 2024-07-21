@@ -13,9 +13,9 @@ Don't look for ideas, work on things that you find genuinely interesting
 > Steve Jobs
 
 
-![](/static/img/get-good-ideas.jpeg)
+![](/assets/static/img/get-good-ideas.jpeg)
 
-![](/static/img/six-hats.jpeg)
+![](/assets/static/img/six-hats.jpeg)
 
 
 "Make the expensive cheap.

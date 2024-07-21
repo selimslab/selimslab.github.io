@@ -7,4 +7,4 @@ It's easy to be different, because others are mostly doing the opposite: tons of
 
 <https://volument.com/blog/minimalism-the-most-undervalued-development-skill>
 
-![](/static/img/features-as-pets.png)
+![](/assets/static/img/features-as-pets.png)

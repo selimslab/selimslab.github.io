@@ -2,4 +2,4 @@
 
 ---
 
-![](/static/img/3-day-effect.jpeg)
+![](/assets/static/img/3-day-effect.jpeg)

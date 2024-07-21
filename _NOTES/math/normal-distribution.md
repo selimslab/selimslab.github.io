@@ -3,7 +3,7 @@
 ---
 
 
-![](/static/img/std-sigma-rule.png)
+![](/assets/static/img/std-sigma-rule.png)
 
 Nearly all values are within three standard deviations of the mean 
 

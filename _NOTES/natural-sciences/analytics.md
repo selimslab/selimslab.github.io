@@ -3,4 +3,4 @@ tags: tech
 ---
 
 
-![](/static/img/analytics-maturity.png)
+![](/assets/static/img/analytics-maturity.png)

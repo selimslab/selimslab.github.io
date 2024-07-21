@@ -13,6 +13,6 @@ tags: phil essais skills
 8. Circle of Competence, understand what you know and what you don't know 
 9. [[teamwork]]
 
-![](/static/img/what-drives-us.jpeg)
+![](/assets/static/img/what-drives-us.jpeg)
 
 [[career]]

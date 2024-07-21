@@ -2,4 +2,4 @@
 ---
 
 
-![](/static/img/notice-when-you-are-happy.png)
+![](/assets/static/img/notice-when-you-are-happy.png)

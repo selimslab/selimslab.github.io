@@ -18,7 +18,7 @@ Best practices are not always the best way. [article](https://stackoverflow.blog
 The Big Rewrite can be the answer sometimes but more often not, see [Things You Should Never Do, Part I – Joel on Software](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/)
 
 
-![](/static/img/non-coding-contributions.png)
+![](/assets/static/img/non-coding-contributions.png)
 
 [[ship-it]]
 

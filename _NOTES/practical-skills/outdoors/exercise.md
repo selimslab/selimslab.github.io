@@ -10,7 +10,7 @@
 6. Quality time 
 7. Healthier eating patterns 
 
-![](/static/img/a-billion-heartbeats.jpeg)
+![](/assets/static/img/a-billion-heartbeats.jpeg)
 
 Do not sit for long, walk 
 

@@ -8,7 +8,7 @@ The physics known by 1905 is the foundation of modern technology
 
 Here all in one table. 
 
-![](/static/img/classical.png)
+![](/assets/static/img/classical.png)
 
 This is enough theory to explain electricity, magnetism, light, and motions of all bodies from galaxies to atoms 
 

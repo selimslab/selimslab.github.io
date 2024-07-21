@@ -43,16 +43,17 @@ registerRoute(
   new NetworkFirst()
 );
 
+registerRoute(
+  new RegExp('\/.+\/.+'),
+  strategy
+);
+
 
 registerRoute(
-  new RegExp('\/static\/.+'),
+  new RegExp('\/assets\/static\/.+'),
   new CacheFirst()
 );
 
 
 
-registerRoute(
-  new RegExp('\/.+\/.+'),
-  strategy
-);
 

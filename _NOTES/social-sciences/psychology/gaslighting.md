@@ -2,4 +2,4 @@
 
 ---
 
-![](/static/img/gaslighting.jpeg)
+![](/assets/static/img/gaslighting.jpeg)

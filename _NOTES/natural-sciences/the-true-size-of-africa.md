@@ -2,4 +2,4 @@
 
 ---
 
-![](/static/img/true-size-of-africa.jpeg)
+![](/assets/static/img/true-size-of-africa.jpeg)

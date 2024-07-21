@@ -3,7 +3,7 @@ tags: sec
 ---
 
 
-![](/static/img/swiss-cheese-model.png)
+![](/assets/static/img/swiss-cheese-model.png)
 
 Prevent problems before they happen     
 

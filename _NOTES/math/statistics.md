@@ -3,15 +3,15 @@
 ---
 
 
-![](/static/img/sampling-bias.png)
+![](/assets/static/img/sampling-bias.png)
 
-![](/static/img/monty-hall.jpeg)
+![](/assets/static/img/monty-hall.jpeg)
 
 <https://en.wikipedia.org/wiki/Monty_Hall_problem>
 
-![](/static/img/averages.png)
+![](/assets/static/img/averages.png)
 
-![](/static/img/accurate-vs-precise.jpeg)
+![](/assets/static/img/accurate-vs-precise.jpeg)
 
 
 ---

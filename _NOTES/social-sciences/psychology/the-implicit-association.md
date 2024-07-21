@@ -2,4 +2,4 @@
 
 ---
 
-![](/static/img/the-implicit-association-test.jpeg)
+![](/assets/static/img/the-implicit-association-test.jpeg)

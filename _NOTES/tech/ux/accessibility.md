@@ -22,4 +22,4 @@ tags: tech sys
 
 * Make it clear where I am and where I can go from here. Sensible urls, clear navigation links, and breadcrumbs
 
-![](/static/img/curb-cut-effect.png)
+![](/assets/static/img/curb-cut-effect.png)

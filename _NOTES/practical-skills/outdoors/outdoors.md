@@ -61,9 +61,9 @@ goretex shoes
 
 ## misc 
 
-![](/static/img/outdoor-essentials.jpeg)
+![](/assets/static/img/outdoor-essentials.jpeg)
 
-![](/static/img/camp-away-from-water.jpeg)
+![](/assets/static/img/camp-away-from-water.jpeg)
 
 
 ## tools 

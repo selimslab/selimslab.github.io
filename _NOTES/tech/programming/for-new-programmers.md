@@ -41,5 +41,5 @@ I think the best algorithms book for new programmers is Grokking Algorithms An I
 
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418">
-<img src="/static/img/teapot.png">
+<img src="/assets/static/img/teapot.png">
 </a>

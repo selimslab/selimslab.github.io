@@ -2,7 +2,7 @@
 tags: sys 
 ---
 
-![](/static/img/just-do-one-thing.png)
+![](/assets/static/img/just-do-one-thing.png)
 
 * First, do not harm
 * Consider beginnings 
@@ -14,7 +14,7 @@ tags: sys
 * [[know-where-to-stop]]
 * Go enjoy the rest of the day 
 
-![](/static/img/wabi-sabi.png)
+![](/assets/static/img/wabi-sabi.png)
 
 O snail
 

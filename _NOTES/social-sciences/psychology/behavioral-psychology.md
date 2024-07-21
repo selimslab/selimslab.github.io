@@ -2,18 +2,18 @@
  
 ---
 
-![](/static/img/notice-top-of-mind.jpeg)
+![](/assets/static/img/notice-top-of-mind.jpeg)
 
-![](/static/img/the-spotlight-effect.jpeg)
+![](/assets/static/img/the-spotlight-effect.jpeg)
 
-![](/static/img/emotional-hot-potato.jpeg)
+![](/assets/static/img/emotional-hot-potato.jpeg)
 
-![](/static/img/human-pace.jpeg)
+![](/assets/static/img/human-pace.jpeg)
 
-![](/static/img/framing.jpeg)
+![](/assets/static/img/framing.jpeg)
 
-![](/static/img/peak-end-rule.jpeg)
+![](/assets/static/img/peak-end-rule.jpeg)
 
-![](/static/img/present-bias.jpeg)
+![](/assets/static/img/present-bias.jpeg)
 
 

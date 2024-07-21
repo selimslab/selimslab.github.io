@@ -14,6 +14,6 @@ You can’t make it better until you make it work.
 
 A good plan violently executed now is better than a perfect plan next week.
 
-![](/static/img/release-strategy.jpeg)
+![](/assets/static/img/release-strategy.jpeg)
 
-![](/static/img/bugs-vs-release-size.jpeg)
+![](/assets/static/img/bugs-vs-release-size.jpeg)

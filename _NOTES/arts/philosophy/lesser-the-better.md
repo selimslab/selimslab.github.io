@@ -34,4 +34,4 @@ The price of anything is the amount of life you exchange for it
 
 "I end up not buying a lot of things. Because I find them ridiculous." Steve Jobs 
 
-![](/static/img/does-this-spark-joy.jpeg)
+![](/assets/static/img/does-this-spark-joy.jpeg)

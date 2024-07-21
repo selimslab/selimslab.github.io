@@ -3,7 +3,7 @@ tags: phil top
 title: Take a walk
 ---
 
-![Solvitur ambulando, its solved by walking](/static/img/take-a-walk.png)
+![Solvitur ambulando, its solved by walking](/assets/static/img/take-a-walk.png)
 
 Get some sleep 
 

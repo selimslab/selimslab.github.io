@@ -27,4 +27,4 @@ tags: skills tech sys
 * Be mindful of emotions, soothe fears, use nostalgia, give hope
 * Design can be evil [[hijacked-minds]]
 
-![](/static/img/complex-before-simple.jpeg)
+![](/assets/static/img/complex-before-simple.jpeg)

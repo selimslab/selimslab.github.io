@@ -2,4 +2,4 @@
 
 ---
 
-![](/static/img/the-piston.gif)
+![](/assets/static/img/the-piston.gif)

@@ -2,4 +2,4 @@
 
 ---
 
-![](/static/img/solar-system-scale.png)
+![](/assets/static/img/solar-system-scale.png)

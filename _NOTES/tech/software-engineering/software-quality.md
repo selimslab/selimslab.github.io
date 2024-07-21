@@ -7,7 +7,7 @@ Software builds up cruft with time, even a great team will have cruft. If you ne
 
 from <https://martinfowler.com/articles/is-quality-worth-cost.html>
 
-![](/static/img/cruft-impact.png)
+![](/assets/static/img/cruft-impact.png)
 
-![](/static/img/high-quality-goes-further.png)
+![](/assets/static/img/high-quality-goes-further.png)
 
