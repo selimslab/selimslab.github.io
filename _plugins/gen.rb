@@ -169,17 +169,26 @@ class SiteGenerator < Jekyll::Generator
         if !content.start_with?("---")
           # If not, add front matter at the beginning
           content = "---\n---\n#{content}"
-
+          File.open(file, "w") { |f| f.write(new_content) }
           puts "Added front matter to: #{file}"
         end
 
-        # find markdown links []() and replace | with - in markdown links
-        content = content.gsub(/\[.*?\]\(.*?\)/) do |match|
-          match.gsub(/\|/, '-')
+        # find markdown links []() and see if | with - in markdown links
+        fixed = 0
+        links = content.scan(/\[.*?\]\(.*?\)/)
+        links.each do |link|
+          if link.include?("|")
+            new_link = link.gsub(/\|/, "-")
+            content = content.gsub(/#{Regexp.escape(link)}/, new_link)
+            fixed += 1
+          end
         end
 
-          # Write the updated content back to the file
-          File.open(file, "w") { |f| f.write(new_content) }
+        if fixed > 0
+          File.open(file, "w") { |f| f.write(content) }
+          puts "Fixed #{fixed} links in: #{file}"
+        end
+
 
       end
     end
