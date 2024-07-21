@@ -1,6 +1,6 @@
 ---
 ---
-https://250bpm.com/index.html
+<https://250bpm.com/index.html>
 
-https://tonsky.me/
+<https://tonsky.me/>
 
