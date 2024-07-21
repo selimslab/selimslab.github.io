@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "a378c9d56ff4bc30",
+    "type": "split",
+    "children": [
+      {
+        "id": "ff556fa77a09311a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ceaee60235fe90a0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c6f0bd7bed38fd61",
+    "type": "split",
+    "children": [
+      {
+        "id": "d871a6884cc95482",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "20025adb747b31e2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7f36766d828911c6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "siir",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4adfccf9ab7bdbab",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8038d713306de5c8",
+    "type": "split",
+    "children": [
+      {
+        "id": "34d1f398da56a880",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b275a0385629eade",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "757a8f176c48df72",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a11c63f72a7f8d3a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "eca60d0c782aadc5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "6bbe51703aa71439",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "1644b4c19c1c3bf2",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "ceaee60235fe90a0",
+  "lastOpenFiles": [
+    "tech/software-engineering/swe-phil.md",
+    "tech/software-engineering/best-practices-are-not-always-best.md",
+    "tech/software-engineering/books-swe.md",
+    "tech/software-engineering/choose-boring-tech.md",
+    "tech/software-engineering/code-review.md",
+    "tech/software-engineering/software-engineering.md",
+    "tech/software-engineering/software-architecture.md",
+    "tech/software-engineering/google-sre-book.md",
+    "tech/software-engineering/hacker-laws.md",
+    "tech/software-engineering/ship-it.md",
+    "tech/software-engineering/software-analogies.md",
+    "tech/software-engineering/software-quality.md",
+    "tech/software-engineering/the-joel-test.md",
+    "tech/software-engineering/the-big-rewrite.md",
+    "tech/software-engineering/non-coding-contributions.md",
+    "tech/software-engineering/dependencies.md",
+    "tech/software-engineering/core-concepts.md",
+    "_FRESH.md",
+    "tech/programming/programming-languages/c#/c#.md",
+    "tech/databases/normalization.md",
+    "tech/programming/oop/oop-designs/oop-designs.md",
+    "tech/programming/oop/oop.md",
+    "tech/programming/oop/oop-designs/design-units.md",
+    "tech/programming/oop/oop-designs/oop.md",
+    "tech/programming/oop/oop-designs/design-auth.md",
+    "tech/programming/oop/oop-designs/design-video-streaming-app.md",
+    "tech/programming/oop/oop-designs",
+    "tech/programming/oop/oop",
+    "tech/programming/tools",
+    "tech/programming/oop",
+    "tech/programming/programming-languages/typescript",
+    "tech/programming/programming-languages/ruby",
+    "tech/programming/programming-languages/python",
+    "tech/programming/programming-languages/go",
+    "tech/programming/programming-languages/c#",
+    "tech/programming/programming-languages/c",
+    "_misc/images/mds-arch.png",
+    "_misc/images/tcpip.png",
+    "_misc/images/dmm.png",
+    "_misc/images/copilot-arch.png",
+    "copilot-arch.png",
+    "Untitled.canvas"
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "72c19989d9cd8f57",
+    "type": "split",
+    "children": [
+      {
+        "id": "dccaf847abb42c9d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5dbfa3753e253b7b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f3327f96b1c4afdd",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a438326c77cc4b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bc86af8c7183ead1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "abe72c6e7ddc7181",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ceedd169efe395c0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 355.5060043334961
+  },
+  "right": {
+    "id": "6e05b6972371b360",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa00efdc8de70466",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dae641e90cda5d5a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ec689a5e50b60de8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5d53d756eacfb074",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "11ded0a301587149",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "random-note:Open random note": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "5dbfa3753e253b7b",
+  "lastOpenFiles": [
+    "_NOTES/social-sciences/history.md",
+    "_NOTES/practical-skills/cooking.md",
+    "_NOTES/practical-skills/teaching.md",
+    "_NOTES/math/math.md",
+    "_NOTES/lists/quotes.md",
+    "_site/assets/static/img/the-s-curve.jpeg",
+    "_site/assets/static/img/the-singularity-effect.jpeg",
+    "_site/assets/static/img/the-spotlight-effect.jpeg",
+    "_site/assets/static/img/tragedy-of-commons.jpeg",
+    "_site/assets/static/img/true-size-of-africa.jpeg",
+    "_site/assets/static/img/trust-battery.jpeg",
+    "_site/assets/static/img/what-drives-us.jpeg",
+    "_site/assets/static/img/wabi-sabi.png",
+    "_site/assets/static/img/user-testing-diminshing-returns-curve.gif",
+    "_site/assets/static/img/under-lamppost.png",
+    "_site/assets/static/solar",
+    "_site/assets/static/img",
+    "_site/assets/static/art",
+    "_site/assets/static/gifs",
+    "_site/assets/static",
+    "assets/static/solar",
+    "assets/static/img",
+    "assets/static/gifs",
+    "assets/static/art",
+    "assets/static",
+    "_NOTES/lists/paintings.md",
+    "_NOTES/lists/news.md",
+    "_NOTES/lists/nato-phonetic-alphabet.md",
+    "_NOTES/lists/modern-greek-alphabet.md",
+    "_NOTES/lists/lists.md",
+    "_NOTES/lists/ideas.md",
+    "_NOTES/lists/hn-top-links.md",
+    "_NOTES/lists/games.md",
+    "_NOTES/lists/datasets.md",
+    "_NOTES/lists/comics.md",
+    "_NOTES/lists/blogs.md",
+    "_NOTES/tech/software-engineering/going-blind.md",
+    "_NOTES/tech/tech-.md",
+    "_NOTES/lists/websites.md",
+    "quotes.md",
+    "_site/quotes.md",
+    "_NOTES/practical-skills/drawing.md",
+    "stack-exchange-sorted-by-votes.md",
+    "_NOTES/social-sciences/in-praise-of-idleness.md",
+    "_pages/stats.md",
+    "_NOTES/math/statistics.md",
+    "Untitled.canvas"
+  ]
+}

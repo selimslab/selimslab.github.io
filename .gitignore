@@ -2,6 +2,7 @@
 _site/*
 !.github
 !.vscode
+!.obsidian
 Gemfile.lock
 */_misc/*
 _*.md
