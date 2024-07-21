@@ -190,6 +190,8 @@
       "/poetry": {
       },
       "/tao-te-ching": {
+        "/hollow-power": {
+        },
         "/insight-and-strength": {
         },
         "/life-is-soft": {
@@ -201,8 +203,6 @@
         "/not-being": {
         },
         "/not-far-away": {
-        },
-        "/real-vs-hollow-power": {
         },
         "/tao-te-ching": {
         },
@@ -542,6 +542,10 @@
       "/nothing-to-lose": {
       },
       "/politics": {
+      },
+      "/prince": {
+      },
+      "/soft-power": {
       }
     },
     "/psychology": {

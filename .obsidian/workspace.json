@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "dc37240f3c5d2155",
+        "id": "a65c2adfcd5cb343",
         "type": "tabs",
         "children": [
           {
-            "id": "aec6d8f212363ff5",
+            "id": "55873a392afdd3ca",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,8 +139,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aec6d8f212363ff5",
+  "active": "55873a392afdd3ca",
   "lastOpenFiles": [
+    "_site/assets/data/graph_debug.json",
+    "assets/data/graph_debug.json",
+    "README.md",
     "index.md",
     "_NOTES/social-sciences/history/last-million.md",
     "_site/assets/static/wind-spring-white-stratosphere-pure.jpg",
@@ -183,11 +177,8 @@
     "_NOTES/tech/distributed-systems/distributed-systems.md",
     "_NOTES/lists/reading-list.md",
     "_site/reading-list/index.html",
-    "_site/reading-list",
     "_NOTES/lists/blogs.md",
     "_NOTES/tech/history-of-technology.md",
-    "_NOTES/social-sciences/history/history.md",
-    "_NOTES/lists/web-experiments.md",
     "_site/assets/static/solar/marble.jpg",
     "assets/static/solar/marble.jpg",
     "_site/assets/static/solar/NASA-Apollo8-Dec24-Earthrise.jpg",

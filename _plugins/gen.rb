@@ -4,7 +4,14 @@ require 'pp'
 NOTES_PATH = "./_NOTES"
 
 class SiteGenerator < Jekyll::Generator
+    @fixed_frontmatter = false
+
     def generate(site)
+      if !@fixed_frontmatter
+        fix_frontmatter()
+        @fixed_frontmatter = true
+        generate(site)
+      end
 
       init(site)
 
@@ -22,7 +29,6 @@ class SiteGenerator < Jekyll::Generator
         puts "Error writing tree.json"
       end
 
-
       graph = generate_graph(site)
 
       site.data["link_count"] = 0
@@ -38,7 +44,6 @@ class SiteGenerator < Jekyll::Generator
     end
 
     def init(site)
-      fix_frontmatter()
 
       site.documents.each do |doc|
         doc.data['backlinks'] ||= []
@@ -127,13 +132,14 @@ class SiteGenerator < Jekyll::Generator
 
 
       graph_data = { nodes: nodes, links: links }
+      site.data["graph"] = JSON.pretty_generate(graph_data)
 
       begin
         File.open("./assets/data/graph.json", "w") do |f|
-          f.write(JSON.pretty_generate(graph_data))
+          f.write(site.data["graph"])
         end
       rescue
-        puts "Error writing graph.json"
+        puts "Error writing graph"
       end
 
       return graph_data
@@ -169,7 +175,7 @@ class SiteGenerator < Jekyll::Generator
         if !content.start_with?("---")
           # If not, add front matter at the beginning
           content = "---\n---\n#{content}"
-          File.open(file, "w") { |f| f.write(new_content) }
+          File.open(file, "w") { |f| f.write(content) }
           puts "Added front matter to: #{file}"
         end
 

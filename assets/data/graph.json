@@ -1038,9 +1038,11 @@
       "links": [
         "/social-sciences",
         "/nothing-to-lose",
+        "/prince",
+        "/soft-power",
         "/arts",
+        "/hollow-power",
         "/insight-and-strength",
-        "/real-vs-hollow-power",
         "/look-down-and-around",
         "/questioning-people-seen-as-a-threat-to-status-quo",
         "/tao-te-ching",
@@ -1854,13 +1856,13 @@
       "name": "Tao Te Ching",
       "links": [
         "/poetry",
+        "/hollow-power",
         "/insight-and-strength",
         "/life-is-soft",
         "/misery-under-happiness",
         "/monstrous-ingenuity",
         "/not-being",
         "/not-far-away",
-        "/real-vs-hollow-power",
         "/the-great-leader",
         "/uncut-wood",
         "/wei-wu-wei",
@@ -2563,6 +2565,22 @@
       "id": "/nothing-to-lose",
       "group": 3,
       "name": "Nothing To Lose",
+      "links": [
+        "/politics"
+      ]
+    },
+    {
+      "id": "/prince",
+      "group": 3,
+      "name": "Prince",
+      "links": [
+        "/politics"
+      ]
+    },
+    {
+      "id": "/soft-power",
+      "group": 3,
+      "name": "Soft Power",
       "links": [
         "/politics"
       ]
@@ -3886,6 +3904,15 @@
       ]
     },
     {
+      "id": "/hollow-power",
+      "group": 4,
+      "name": "Hollow Power",
+      "links": [
+        "/tao-te-ching",
+        "/politics"
+      ]
+    },
+    {
       "id": "/insight-and-strength",
       "group": 4,
       "name": "Insight And Strength",
@@ -3934,15 +3961,6 @@
       "name": "Not Far Away",
       "links": [
         "/tao-te-ching"
-      ]
-    },
-    {
-      "id": "/real-vs-hollow-power",
-      "group": 4,
-      "name": "Real Vs Hollow Power",
-      "links": [
-        "/tao-te-ching",
-        "/politics"
       ]
     },
     {
@@ -6284,6 +6302,14 @@
       "target": "/nothing-to-lose"
     },
     {
+      "source": "/politics",
+      "target": "/prince"
+    },
+    {
+      "source": "/politics",
+      "target": "/soft-power"
+    },
+    {
       "source": "/psychology",
       "target": "/behavioral-psychology"
     },
@@ -6841,6 +6867,10 @@
     },
     {
       "source": "/tao-te-ching",
+      "target": "/hollow-power"
+    },
+    {
+      "source": "/tao-te-ching",
       "target": "/insight-and-strength"
     },
     {
@@ -6862,10 +6892,6 @@
     {
       "source": "/tao-te-ching",
       "target": "/not-far-away"
-    },
-    {
-      "source": "/tao-te-ching",
-      "target": "/real-vs-hollow-power"
     },
     {
       "source": "/tao-te-ching",
@@ -7696,15 +7722,15 @@
       "target": "/siir"
     },
     {
+      "source": "/hollow-power",
+      "target": "/politics"
+    },
+    {
       "source": "/insight-and-strength",
       "target": "/critical-thinking"
     },
     {
       "source": "/insight-and-strength",
-      "target": "/politics"
-    },
-    {
-      "source": "/real-vs-hollow-power",
       "target": "/politics"
     },
     {

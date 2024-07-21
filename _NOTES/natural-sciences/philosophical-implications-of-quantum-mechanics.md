@@ -2,6 +2,12 @@
  
 ---
 
+
+Quantum mechanics challenges classical physics by emphasizing the observer's effect on phenomena and the limits of measurable concepts. The uncertainty principle highlights that observation alters the observed, making precise measurements of certain properties impossible. This shift deems some classical ideas unnecessary, not wrong. The theory's predictive power relies on extrapolating beyond measured data. Classical physics also exhibited practical indeterminacy due to the amplification of small errors. Quantum mechanics' indeterminacy thus doesn't uniquely explain free will, as classical unpredictability also exists.
+
+---
+
+
 From <https://www.feynmanlectures.caltech.edu/III_02.html>
 
 Let us consider briefly some philosophical implications of quantum mechanics. As always, there are two aspects of the problem: one is the philosophical implication for physics, and the other is the extrapolation of philosophical matters to other fields. When philosophical ideas associated with science are dragged into another field, they are usually completely distorted. Therefore we shall confine our remarks as much as possible to physics itself.
