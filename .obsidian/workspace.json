@@ -11,8 +11,13 @@
             "id": "5dbfa3753e253b7b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_NOTES/social-sciences/history/last-million.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_NOTES/social-sciences/history/last-million.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_NOTES/social-sciences/history/last-million.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_NOTES/social-sciences/history/last-million.md"
+              }
             }
           }
         ]
@@ -141,6 +150,21 @@
   },
   "active": "5dbfa3753e253b7b",
   "lastOpenFiles": [
+    "_NOTES/social-sciences/history/history.md",
+    "_NOTES/social-sciences/history/last-million.md",
+    "_NOTES/social-sciences/history",
+    "_NOTES/tech/history-of-technology.md",
+    "_site/history-of-technology/index.html",
+    "_site/history-of-technology",
+    "_site/Untitled/index.html",
+    "_site/Untitled",
+    "_NOTES/lists/web-experiments.md",
+    "_NOTES/practical-skills/teaching.md",
+    "_NOTES/natural-sciences/astronomy.md",
+    "_site/web-experiments/index.html",
+    "_site/web-experiments",
+    "_NOTES/practical-skills/drawing.md",
+    "_NOTES/lists/blogs.md",
     "_site/assets/static/solar/marble.jpg",
     "assets/static/solar/marble.jpg",
     "assets/static/solar/marble.jpg.crdownload",
@@ -148,16 +172,7 @@
     "assets/static/solar/NASA-Apollo8-Dec24-Earthrise.jpg",
     "assets/static/solar/NASA-Apollo8-Dec24-Earthrise.jpg.crdownload",
     "_site/run.ps1",
-    "run.ps1",
-    "_site/sync.ps1",
-    "sync.ps1",
-    "_site/assets/css/style.css.map",
-    "_site/assets/css/style.css",
-    "assets/css/style.scss",
-    "_site/assets/css/solar.css",
-    "_NOTES/social-sciences/history.md",
     "_NOTES/practical-skills/cooking.md",
-    "_NOTES/practical-skills/teaching.md",
     "_NOTES/math/math.md",
     "_NOTES/lists/quotes.md",
     "_site/assets/static/img/the-s-curve.jpeg",
@@ -166,7 +181,6 @@
     "_site/assets/static/img/tragedy-of-commons.jpeg",
     "_site/assets/static/img/true-size-of-africa.jpeg",
     "_site/assets/static/img/trust-battery.jpeg",
-    "_site/assets/static/img/what-drives-us.jpeg",
     "_NOTES/lists/paintings.md",
     "_NOTES/lists/news.md",
     "_NOTES/lists/nato-phonetic-alphabet.md",
@@ -177,16 +191,10 @@
     "_NOTES/lists/games.md",
     "_NOTES/lists/datasets.md",
     "_NOTES/lists/comics.md",
-    "_NOTES/lists/blogs.md",
     "_NOTES/tech/software-engineering/going-blind.md",
     "_NOTES/tech/tech-.md",
     "_NOTES/lists/websites.md",
     "quotes.md",
-    "_site/quotes.md",
-    "_NOTES/practical-skills/drawing.md",
-    "stack-exchange-sorted-by-votes.md",
-    "_NOTES/social-sciences/in-praise-of-idleness.md",
-    "_pages/stats.md",
     "Untitled.canvas"
   ]
 }

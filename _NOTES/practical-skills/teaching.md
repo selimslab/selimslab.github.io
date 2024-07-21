@@ -11,3 +11,5 @@
 <https://betterexplained.com/>
 
 <https://www.youtube.com/@crashcourse>
+
+[wizard zines](https://wizardzines.com/)

@@ -50,6 +50,7 @@
         "/news",
         "/paintings",
         "/quotes",
+        "/web-experiments",
         "/classics",
         "/documentaries"
       ]
@@ -159,7 +160,6 @@
         "/fluid-field-boundaries",
         "/history",
         "/in-praise-of-idleness",
-        "/last-million",
         "/metaphors",
         "/politics",
         "/psychology",
@@ -197,6 +197,7 @@
         "/databases",
         "/discussion",
         "/distributed-systems",
+        "/history-of-technology",
         "/machine-learning",
         "/operating-systems",
         "/programming",
@@ -525,6 +526,14 @@
       "links": [
         "/lists",
         "/ideas"
+      ]
+    },
+    {
+      "id": "/web-experiments",
+      "group": 2,
+      "name": "Web Experiments",
+      "links": [
+        "/lists"
       ]
     },
     {
@@ -981,7 +990,8 @@
       "group": 2,
       "name": "History",
       "links": [
-        "/social-sciences"
+        "/social-sciences",
+        "/last-million"
       ]
     },
     {
@@ -992,16 +1002,6 @@
         "/social-sciences",
         "/essais",
         "/four-day-workweek"
-      ]
-    },
-    {
-      "id": "/last-million",
-      "group": 2,
-      "name": "Some events in the last million years 🌏",
-      "links": [
-        "/social-sciences",
-        "/natural-sciences",
-        "/tech"
       ]
     },
     {
@@ -1152,6 +1152,14 @@
         "/use-an-identity-service",
         "/software-engineering",
         "/system-design"
+      ]
+    },
+    {
+      "id": "/history-of-technology",
+      "group": 2,
+      "name": "History Of Technology",
+      "links": [
+        "/tech"
       ]
     },
     {
@@ -2520,6 +2528,16 @@
       "name": "Wage Theft",
       "links": [
         "/economics"
+      ]
+    },
+    {
+      "id": "/last-million",
+      "group": 3,
+      "name": "Some key events in the last million years",
+      "links": [
+        "/history",
+        "/natural-sciences",
+        "/tech"
       ]
     },
     {
@@ -5433,6 +5451,10 @@
       "target": "/quotes"
     },
     {
+      "source": "/lists",
+      "target": "/web-experiments"
+    },
+    {
       "source": "/math",
       "target": "/bayes"
     },
@@ -5638,10 +5660,6 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/last-million"
-    },
-    {
-      "source": "/social-sciences",
       "target": "/metaphors"
     },
     {
@@ -5679,6 +5697,10 @@
     {
       "source": "/tech",
       "target": "/distributed-systems"
+    },
+    {
+      "source": "/tech",
+      "target": "/history-of-technology"
     },
     {
       "source": "/tech",
@@ -6215,6 +6237,10 @@
     {
       "source": "/economics",
       "target": "/wage-theft"
+    },
+    {
+      "source": "/history",
+      "target": "/last-million"
     },
     {
       "source": "/politics",

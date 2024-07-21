@@ -349,6 +349,8 @@
     "/paintings": {
     },
     "/quotes": {
+    },
+    "/web-experiments": {
     }
   },
   "/math": {
@@ -523,10 +525,12 @@
     "/fluid-field-boundaries": {
     },
     "/history": {
+      "/history": {
+      },
+      "/last-million": {
+      }
     },
     "/in-praise-of-idleness": {
-    },
-    "/last-million": {
     },
     "/metaphors": {
     },
@@ -719,6 +723,8 @@
       },
       "/use-an-identity-service": {
       }
+    },
+    "/history-of-technology": {
     },
     "/machine-learning": {
       "/machine-learning": {
