@@ -2,8 +2,6 @@
 
 ---
 
-
-
 tak jo, jdeme na to  ok, here we go 
 
 Pojďme lets go 
@@ -25,3 +23,41 @@ Umím anglicky.
 mne taky me too 
 
 Pojďme ven - lets go out 
+
+---
+
+dobre rano
+
+dobry den
+
+dobry vecer
+
+Nashledanou / cau
+
+dekuju moc
+
+prominte
+
+omlouvam se
+
+prosim
+
+mluvis anglicky? trochu? 
+
+prominte, mluvite anglicky? trochu? 
+
+---
+
+ahoj
+
+ano 
+
+ne 
+
+jsem Selim, rad te poznavam 
+
+jsem doma
+
+nejsem doma 
+
+jdu ven

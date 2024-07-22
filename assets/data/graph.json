@@ -1364,21 +1364,15 @@
       "links": [
         "/languages",
         "/adjektiva",
-        "/adverbium",
         "/cas",
         "/cisla",
         "/domov",
-        "/emoce",
         "/fraze",
-        "/jidla",
-        "/kazdodenni-zivot",
         "/koníčky",
-        "/nemocnice",
         "/podobna-slova",
         "/podstatna-jmena",
         "/predlozky",
-        "/slovesa",
-        "/zaklady"
+        "/slovesa"
       ]
     },
     {
@@ -3430,14 +3424,6 @@
       ]
     },
     {
-      "id": "/adverbium",
-      "group": 4,
-      "name": "Adverbium",
-      "links": [
-        "/cestina"
-      ]
-    },
-    {
       "id": "/cas",
       "group": 4,
       "name": "Cas",
@@ -3462,14 +3448,6 @@
       ]
     },
     {
-      "id": "/emoce",
-      "group": 4,
-      "name": "Emoce",
-      "links": [
-        "/cestina"
-      ]
-    },
-    {
       "id": "/fraze",
       "group": 4,
       "name": "Fraze",
@@ -3478,33 +3456,9 @@
       ]
     },
     {
-      "id": "/jidla",
-      "group": 4,
-      "name": "Jidla",
-      "links": [
-        "/cestina"
-      ]
-    },
-    {
-      "id": "/kazdodenni-zivot",
-      "group": 4,
-      "name": "Kazdodenni Zivot",
-      "links": [
-        "/cestina"
-      ]
-    },
-    {
       "id": "/koníčky",
       "group": 4,
       "name": "Koníčky",
-      "links": [
-        "/cestina"
-      ]
-    },
-    {
-      "id": "/nemocnice",
-      "group": 4,
-      "name": "Nemocnice",
       "links": [
         "/cestina"
       ]
@@ -3537,14 +3491,6 @@
       "id": "/slovesa",
       "group": 4,
       "name": "Slovesa",
-      "links": [
-        "/cestina"
-      ]
-    },
-    {
-      "id": "/zaklady",
-      "group": 4,
-      "name": "Zaklady",
       "links": [
         "/cestina"
       ]
@@ -6584,10 +6530,6 @@
     },
     {
       "source": "/cestina",
-      "target": "/adverbium"
-    },
-    {
-      "source": "/cestina",
       "target": "/cas"
     },
     {
@@ -6600,27 +6542,11 @@
     },
     {
       "source": "/cestina",
-      "target": "/emoce"
-    },
-    {
-      "source": "/cestina",
       "target": "/fraze"
     },
     {
       "source": "/cestina",
-      "target": "/jidla"
-    },
-    {
-      "source": "/cestina",
-      "target": "/kazdodenni-zivot"
-    },
-    {
-      "source": "/cestina",
       "target": "/koníčky"
-    },
-    {
-      "source": "/cestina",
-      "target": "/nemocnice"
     },
     {
       "source": "/cestina",
@@ -6637,10 +6563,6 @@
     {
       "source": "/cestina",
       "target": "/slovesa"
-    },
-    {
-      "source": "/cestina",
-      "target": "/zaklady"
     },
     {
       "source": "/classics",

@@ -11,15 +11,15 @@ const lightBg = "#f8f1e3";
 const blueViolet = "#8A2BE2";
 const lightGreen = "#B4E380";
 const lightCyan = "#E3FDFD";
-
+const mediumYellow = "#FFD700";
 
 function getColor(index) {
   const colors = [
     blueViolet,
     lightGreen,
     darkBlue,
+    mediumYellow,
     lightBg,
-    lightCyan,
     lightBlue
   ];
   return colors[index % colors.length];
