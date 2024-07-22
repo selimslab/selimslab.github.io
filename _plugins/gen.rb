@@ -86,9 +86,9 @@ class SiteGenerator < Jekyll::Generator
       nodes.delete(node) if node[:links].empty?
     end
 
-    graph_data = { nodes: nodes, links: links }
+    graph_data = { "nodes": nodes, "links": links }
 
-    write_json("./assets/data/graph.json", JSON.pretty_generate(graph_data))
+    write_json("./assets/data/graph.json", graph_data)
 
     graph_data
   end
@@ -188,9 +188,9 @@ class SiteGenerator < Jekyll::Generator
 
         child_basename = File.basename(child)
         child_id = "/#{child_basename.sub(/\..*/, '')}"
+        child_path = File.join(parent_path, child)
 
         if File.directory?(child_path)
-          child_path = File.join(parent_path, child)
           queue.push([child_path, branch[parent_id]])
         elsif path != parent_basename
           branch[parent_id][child_id] ||= {}

@@ -160,6 +160,7 @@
   },
   "active": "bc86af8c7183ead1",
   "lastOpenFiles": [
+    "_site/assets/data/graph.json",
     "_site/assets/data/tags.json",
     "assets/data/tags.json",
     "_site/csharp/index.html",
@@ -171,7 +172,6 @@
     "_site/scala",
     "_site/rust/index.html",
     "_site/rust",
-    "_site/lisp/index.html",
     "_NOTES/arts/languages/modern-greek-alphabet.md",
     "_NOTES/social-sciences/politics/do-what-is-right.md",
     "_NOTES/skills/decisions/do-the-right-thing.md",
