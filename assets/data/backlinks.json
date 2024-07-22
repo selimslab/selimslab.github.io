@@ -92,9 +92,9 @@
   "/languages": [
     "/cestina",
     "/deutsch",
+    "/turkce",
     "/modern-greek-alphabet",
-    "/nato-phonetic-alphabet",
-    "/turkce"
+    "/nato-phonetic-alphabet"
   ],
   "/latin": [
 
@@ -216,15 +216,15 @@
     "/no-regrets-no-worries"
   ],
   "/philosophy": [
-    "/criminal-justice",
-    "/critical-thinking",
-    "/how-to-grow-old-russell",
-    "/how-to-deal-with-pain",
     "/life-is-soft",
-    "/look-down-and-around",
+    "/tao-te-ching",
     "/phil-books",
-    "/solitude",
-    "/tao-te-ching"
+    "/critical-thinking",
+    "/how-to-deal-with-pain",
+    "/how-to-grow-old-russell",
+    "/criminal-justice",
+    "/look-down-and-around",
+    "/solitude"
   ],
   "/questions": [
     "/critical-thinking"
@@ -405,13 +405,13 @@
   ],
   "/essais": [
     "/communication",
+    "/negotiations",
+    "/write-better",
     "/critical-thinking",
-    "/how-to-speak-to-children",
+    "/on-decision-making",
     "/how-to-deal-with-pain",
     "/in-praise-of-idleness",
-    "/negotiations",
-    "/on-decision-making",
-    "/write-better",
+    "/how-to-speak-to-children",
     "/overvaluing-short-term",
     "/technology-and-time"
   ],
@@ -514,9 +514,9 @@
 
   ],
   "/natural-sciences": [
-    "/fluid-field-boundaries",
-    "/sleep",
     "/stem-books",
+    "/sleep",
+    "/fluid-field-boundaries",
     "/since-big-bang"
   ],
   "/philosophical-implications-of-quantum-mechanics": [
@@ -544,8 +544,8 @@
 
   ],
   "/business": [
-    "/how-to-start-a-business",
-    "/thoughts-on-work"
+    "/thoughts-on-work",
+    "/how-to-start-a-business"
   ],
   "/fire-and-motion": [
 
@@ -666,15 +666,15 @@
 
   ],
   "/leadership": [
-    "/44-engineering-management-lessons",
     "/business",
     "/creativity",
-    "/overvaluing-short-term",
-    "/praise-and-motivation",
     "/teamwork",
     "/thoughts-on-work",
+    "/what-to-work-on",
+    "/overvaluing-short-term",
+    "/praise-and-motivation",
     "/wasted-talent",
-    "/what-to-work-on"
+    "/44-engineering-management-lessons"
   ],
   "/rules-are-easier-when-explained": [
 
@@ -720,16 +720,16 @@
     "/critical-thinking",
     "/decisions",
     "/sleep",
-    "/how-to-start",
     "/leadership",
     "/negotiations",
     "/on-decision-making",
     "/a-good-life",
-    "/children",
     "/design",
     "/write-better",
     "/outdoors",
-    "/public-speaking"
+    "/public-speaking",
+    "/children",
+    "/how-to-start"
   ],
   "/submarine-shower": [
 
@@ -783,9 +783,9 @@
 
   ],
   "/politics": [
-    "/tolerate-anything-except-outgroup",
     "/look-below-the-surface",
-    "/tao-te-ching"
+    "/tao-te-ching",
+    "/tolerate-anything-except-outgroup"
   ],
   "/prince": [
 
@@ -914,10 +914,10 @@
     "/criminal-justice",
     "/emotions",
     "/happiness",
-    "/tolerate-anything-except-outgroup",
     "/inertia",
     "/children",
-    "/questioning-people-seen-as-a-threat-to-status-quo"
+    "/questioning-people-seen-as-a-threat-to-status-quo",
+    "/tolerate-anything-except-outgroup"
   ],
   "/relationships": [
 
@@ -951,9 +951,7 @@
     "/communication",
     "/freedom",
     "/happiness",
-    "/hijacked-minds",
     "/how-to-start",
-    "/is-tech-fast-or-slow",
     "/learning",
     "/negotiations",
     "/children",
@@ -961,7 +959,9 @@
     "/psychology",
     "/questioning-people-seen-as-a-threat-to-status-quo",
     "/solitude",
-    "/stupidity"
+    "/stupidity",
+    "/hijacked-minds",
+    "/is-tech-fast-or-slow"
   ],
   "/broken-systems": [
     "/systems"
@@ -1142,11 +1142,11 @@
     "/house-robber",
     "/invert-binary-tree",
     "/is-mirror-tree",
+    "/lengthOfLIS",
     "/level-order",
     "/longest-common-subsequence",
     "/longest-diverse-str",
     "/longest-valid-paranthesis",
-    "/lengthOfLIS",
     "/min-edit-distance"
   ],
   "/algorithms": [
@@ -1234,9 +1234,9 @@
     "/coin-change",
     "/edit-distance",
     "/house-robber",
+    "/lengthOfLIS",
     "/longest-common-subsequence",
     "/longest-diverse-str",
-    "/lengthOfLIS",
     "/lowest-common-ancestor",
     "/maximal-square",
     "/min-edit-distance",
@@ -1545,8 +1545,8 @@
     "/code",
     "/data-structures",
     "/oop",
-    "/projects",
-    "/zen-of-python"
+    "/zen-of-python",
+    "/projects"
   ],
   "/a-star-robot": [
 
@@ -1701,7 +1701,6 @@
 
   ],
   "/system-design": [
-    "/accessibility",
     "/akins-laws-of-spacecraft",
     "/choose-boring-tech",
     "/concurrency",
@@ -1714,10 +1713,10 @@
     "/ship-it",
     "/software-security",
     "/chaos",
+    "/accessibility",
     "/ux"
   ],
   "/tech": [
-    "/accessibility",
     "/akins-laws-of-spacecraft",
     "/everyday-objects",
     "/fluid-field-boundaries",
@@ -1728,6 +1727,7 @@
     "/software-engineering",
     "/software-security",
     "/since-big-bang",
+    "/accessibility",
     "/ux"
   ],
   "/a-free-web-again": [
