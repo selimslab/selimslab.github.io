@@ -18,46 +18,38 @@ On the Shortness of Life by Seneca
 
 Rubaiyat of Omar Khayyam
 
-[[the-art-of-war]]
-
 Die Kunst, glücklich zu sein by Schopenhauer
 
 [[search-for-meaning]]
 
+[[the-art-of-war]]
+
+
+
 ## [[social-sciences]]
-
-The Diary of a Young Girl, Anne Frank
-
-[[search-for-meaning]]
-
-Thinking, Fast and Slow
-
-Predictably Irrational: The Hidden Forces That Shape Our Decisions
-
-Skill with People
-
-The Man Who Mistook His Wife for a Hat and Other Clinical Tales
-
-Atomic Habits
-
-The Boy Who Was Raised as a Dog: And Other Stories from a Child Psychiatrist's Notebook
-
-Freakonomics
-
-Never Split the Difference: Negotiating As If Your Life Depended On It
-
-Sapiens: A Brief History of Humankind
-
-The Lessons of History, Durant, Will
-
-Understanding Power: The Indispensable Chomsky
-
-Metaphors We Live By
-
-Steve Jobs by Walter Isaacson
 
 A Promised Land, Obama
 
-[[the-prince]]
+Atomic Habits
 
-[[the-art-of-war]]
+Freakonomics
+
+Metaphors We Live By
+
+Never Split the Difference
+
+Predictably Irrational
+
+Sapiens: A Brief History of Humankind
+
+Skill with People
+
+Steve Jobs by Walter Isaacson
+
+The Diary of a Young Girl, Anne Frank
+
+The Lessons of History, Will Durant
+
+Thinking, Fast and Slow
+
+Understanding Power: The Indispensable Chomsky
