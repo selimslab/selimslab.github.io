@@ -346,7 +346,7 @@ class SiteGenerator < Jekyll::Generator
       child_doc.data['parent_basename'] = parent_basename
 
       parent_doc.data['children'] ||= []
-      parent_doc.data['children'] << child_basename
+      parent_doc.data['children'] << child_id
     end
 
     def reverse_tree(tree)

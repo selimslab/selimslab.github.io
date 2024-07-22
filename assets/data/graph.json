@@ -98,9 +98,9 @@
         "/the-piston",
         "/the-true-size-of-africa",
         "/climate-change",
-        "/stem-books",
-        "/sleep",
         "/fluid-field-boundaries",
+        "/sleep",
+        "/stem-books",
         "/since-big-bang"
       ]
     },
@@ -135,19 +135,19 @@
         "/get-things-done",
         "/how-to-start-a-business",
         "/sleep",
+        "/how-to-start",
         "/mastery",
         "/negotiations",
         "/on-decision-making",
         "/a-good-life",
+        "/children",
         "/design",
         "/write-better",
         "/problem-solving",
         "/public-speaking",
         "/teamwork",
         "/what-to-work-on",
-        "/how-to-grow-old-russell",
-        "/children",
-        "/how-to-start"
+        "/how-to-grow-old-russell"
       ]
     },
     {
@@ -176,7 +176,9 @@
         "/farming-trap",
         "/freedom",
         "/happiness",
+        "/hijacked-minds",
         "/how-to-start",
+        "/is-tech-fast-or-slow",
         "/learning",
         "/negotiations",
         "/character",
@@ -185,9 +187,7 @@
         "/solitude",
         "/stupidity",
         "/teamwork",
-        "/your-lifestyle-already-designed",
-        "/hijacked-minds",
-        "/is-tech-fast-or-slow"
+        "/your-lifestyle-already-designed"
       ]
     },
     {
@@ -210,14 +210,14 @@
         "/tech-leadership",
         "/unicode",
         "/ux",
+        "/accessibility",
         "/akins-laws-of-spacecraft",
         "/analytics",
         "/everyday-objects",
         "/fluid-field-boundaries",
         "/hacker-laws",
         "/design",
-        "/since-big-bang",
-        "/accessibility"
+        "/since-big-bang"
       ]
     },
     {
@@ -251,9 +251,9 @@
         "/deutsch",
         "/english",
         "/latin",
-        "/turkce",
         "/modern-greek-alphabet",
-        "/nato-phonetic-alphabet"
+        "/nato-phonetic-alphabet",
+        "/turkce"
       ]
     },
     {
@@ -311,19 +311,19 @@
         "/warfare-is-deception",
         "/work-phil",
         "/you-can-always-choose-your-way",
-        "/life-is-soft",
-        "/tao-te-ching",
-        "/phil-books",
-        "/a-good-life",
         "/all-is-one",
         "/be-good-to-each-other-and-yourself",
-        "/character",
-        "/take-a-walk",
-        "/what-to-work-on",
-        "/your-lifestyle-already-designed",
         "/critical-thinking",
         "/how-to-deal-with-pain",
-        "/solitude"
+        "/life-is-soft",
+        "/character",
+        "/a-good-life",
+        "/phil-books",
+        "/solitude",
+        "/take-a-walk",
+        "/tao-te-ching",
+        "/what-to-work-on",
+        "/your-lifestyle-already-designed"
       ]
     },
     {
@@ -451,13 +451,13 @@
         "/you-are-not-nameless",
         "/your-lifestyle-already-designed",
         "/communication",
-        "/negotiations",
-        "/write-better",
         "/critical-thinking",
-        "/on-decision-making",
+        "/how-to-speak-to-children",
         "/how-to-deal-with-pain",
         "/in-praise-of-idleness",
-        "/how-to-speak-to-children",
+        "/negotiations",
+        "/on-decision-making",
+        "/write-better",
         "/overvaluing-short-term",
         "/technology-and-time"
       ]
@@ -890,10 +890,10 @@
         "/how-to-pitch",
         "/marketing",
         "/sales",
+        "/44-engineering-management-lessons",
         "/business",
         "/creativity",
         "/overvaluing-short-term",
-        "/44-engineering-management-lessons",
         "/tech-leadership"
       ]
     },
@@ -1293,6 +1293,7 @@
         "/system-design-concepts",
         "/systems-concepts",
         "/software-engineering",
+        "/accessibility",
         "/akins-laws-of-spacecraft",
         "/choose-boring-tech",
         "/concurrency",
@@ -1306,7 +1307,6 @@
         "/ship-it",
         "/software-security",
         "/chaos",
-        "/accessibility",
         "/ux"
       ]
     },
@@ -4228,11 +4228,11 @@
         "/house-robber",
         "/invert-binary-tree",
         "/is-mirror-tree",
-        "/lengthOfLIS",
         "/level-order",
         "/longest-common-subsequence",
         "/longest-diverse-str",
         "/longest-valid-paranthesis",
+        "/lengthOfLIS",
         "/min-edit-distance"
       ]
     },
@@ -4468,9 +4468,9 @@
         "/coin-change",
         "/edit-distance",
         "/house-robber",
-        "/lengthOfLIS",
         "/longest-common-subsequence",
         "/longest-diverse-str",
+        "/lengthOfLIS",
         "/lowest-common-ancestor",
         "/maximal-square",
         "/min-edit-distance",
@@ -7503,15 +7503,15 @@
     },
     {
       "source": "/languages",
-      "target": "/turkce"
-    },
-    {
-      "source": "/languages",
       "target": "/modern-greek-alphabet"
     },
     {
       "source": "/languages",
       "target": "/nato-phonetic-alphabet"
+    },
+    {
+      "source": "/languages",
+      "target": "/turkce"
     },
     {
       "source": "/cien-anos-de-soledad",
@@ -7619,43 +7619,11 @@
     },
     {
       "source": "/philosophy",
-      "target": "/life-is-soft"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/tao-te-ching"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/phil-books"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/a-good-life"
-    },
-    {
-      "source": "/philosophy",
       "target": "/all-is-one"
     },
     {
       "source": "/philosophy",
       "target": "/be-good-to-each-other-and-yourself"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/character"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/take-a-walk"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/what-to-work-on"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/your-lifestyle-already-designed"
     },
     {
       "source": "/philosophy",
@@ -7667,7 +7635,39 @@
     },
     {
       "source": "/philosophy",
+      "target": "/life-is-soft"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/character"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/a-good-life"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/phil-books"
+    },
+    {
+      "source": "/philosophy",
       "target": "/solitude"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/take-a-walk"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/tao-te-ching"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/what-to-work-on"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/your-lifestyle-already-designed"
     },
     {
       "source": "/questions",
@@ -7787,19 +7787,11 @@
     },
     {
       "source": "/essais",
-      "target": "/negotiations"
-    },
-    {
-      "source": "/essais",
-      "target": "/write-better"
-    },
-    {
-      "source": "/essais",
       "target": "/critical-thinking"
     },
     {
       "source": "/essais",
-      "target": "/on-decision-making"
+      "target": "/how-to-speak-to-children"
     },
     {
       "source": "/essais",
@@ -7811,7 +7803,15 @@
     },
     {
       "source": "/essais",
-      "target": "/how-to-speak-to-children"
+      "target": "/negotiations"
+    },
+    {
+      "source": "/essais",
+      "target": "/on-decision-making"
+    },
+    {
+      "source": "/essais",
+      "target": "/write-better"
     },
     {
       "source": "/essais",
@@ -7899,7 +7899,7 @@
     },
     {
       "source": "/natural-sciences",
-      "target": "/stem-books"
+      "target": "/fluid-field-boundaries"
     },
     {
       "source": "/natural-sciences",
@@ -7907,7 +7907,7 @@
     },
     {
       "source": "/natural-sciences",
-      "target": "/fluid-field-boundaries"
+      "target": "/stem-books"
     },
     {
       "source": "/natural-sciences",
@@ -7947,6 +7947,10 @@
     },
     {
       "source": "/leadership",
+      "target": "/44-engineering-management-lessons"
+    },
+    {
+      "source": "/leadership",
       "target": "/business"
     },
     {
@@ -7956,10 +7960,6 @@
     {
       "source": "/leadership",
       "target": "/overvaluing-short-term"
-    },
-    {
-      "source": "/leadership",
-      "target": "/44-engineering-management-lessons"
     },
     {
       "source": "/leadership",
@@ -7995,6 +7995,10 @@
     },
     {
       "source": "/practical-skills",
+      "target": "/how-to-start"
+    },
+    {
+      "source": "/practical-skills",
       "target": "/mastery"
     },
     {
@@ -8008,6 +8012,10 @@
     {
       "source": "/practical-skills",
       "target": "/a-good-life"
+    },
+    {
+      "source": "/practical-skills",
+      "target": "/children"
     },
     {
       "source": "/practical-skills",
@@ -8036,14 +8044,6 @@
     {
       "source": "/practical-skills",
       "target": "/how-to-grow-old-russell"
-    },
-    {
-      "source": "/practical-skills",
-      "target": "/children"
-    },
-    {
-      "source": "/practical-skills",
-      "target": "/how-to-start"
     },
     {
       "source": "/broken-systems",
@@ -8123,7 +8123,15 @@
     },
     {
       "source": "/social-sciences",
+      "target": "/hijacked-minds"
+    },
+    {
+      "source": "/social-sciences",
       "target": "/how-to-start"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/is-tech-fast-or-slow"
     },
     {
       "source": "/social-sciences",
@@ -8160,14 +8168,6 @@
     {
       "source": "/social-sciences",
       "target": "/your-lifestyle-already-designed"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/hijacked-minds"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/is-tech-fast-or-slow"
     },
     {
       "source": "/atomicity",
@@ -8287,10 +8287,6 @@
     },
     {
       "source": "/algo-mid",
-      "target": "/lengthOfLIS"
-    },
-    {
-      "source": "/algo-mid",
       "target": "/level-order"
     },
     {
@@ -8304,6 +8300,10 @@
     {
       "source": "/algo-mid",
       "target": "/longest-valid-paranthesis"
+    },
+    {
+      "source": "/algo-mid",
+      "target": "/lengthOfLIS"
     },
     {
       "source": "/algo-mid",
@@ -8339,15 +8339,15 @@
     },
     {
       "source": "/dynamic",
-      "target": "/lengthOfLIS"
-    },
-    {
-      "source": "/dynamic",
       "target": "/longest-common-subsequence"
     },
     {
       "source": "/dynamic",
       "target": "/longest-diverse-str"
+    },
+    {
+      "source": "/dynamic",
+      "target": "/lengthOfLIS"
     },
     {
       "source": "/dynamic",
@@ -8651,6 +8651,10 @@
     },
     {
       "source": "/system-design",
+      "target": "/accessibility"
+    },
+    {
+      "source": "/system-design",
       "target": "/akins-laws-of-spacecraft"
     },
     {
@@ -8703,11 +8707,11 @@
     },
     {
       "source": "/system-design",
-      "target": "/accessibility"
+      "target": "/ux"
     },
     {
-      "source": "/system-design",
-      "target": "/ux"
+      "source": "/tech",
+      "target": "/accessibility"
     },
     {
       "source": "/tech",
@@ -8736,10 +8740,6 @@
     {
       "source": "/tech",
       "target": "/since-big-bang"
-    },
-    {
-      "source": "/tech",
-      "target": "/accessibility"
     },
     {
       "source": "/ux",

@@ -32,9 +32,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9c0a4dc9f9dbef06",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -162,7 +172,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bc86af8c7183ead1",
+  "active": "9c0a4dc9f9dbef06",
   "lastOpenFiles": [
     "index.md",
     "README.md",
