@@ -9,3 +9,5 @@
 <p style="white-space: pre-line;">{{idea}}</p>
 {% endfor %}
 </article>
+
+<https://www.norvig.com/quotations.html>

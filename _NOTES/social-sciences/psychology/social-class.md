@@ -2,4 +2,4 @@
 
 ---
 
-[[tolerate-anything-except-outgroup]]
+[[social-sciences/tolerate-anything-except-outgroup]]

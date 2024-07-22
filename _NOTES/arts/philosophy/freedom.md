@@ -20,6 +20,6 @@ It's not the absence of negatives but not being controlled by them; the reign of
 
 “What destroys a man more quickly than to work, think, and feel without inner necessity, without any deep personal desire, without pleasure — as a mere automaton of duty?” – Friedrich Nietzsche, The Antichrist
 
-[[character]]
+[[philosophy/character]]
 
 [[free-will]]

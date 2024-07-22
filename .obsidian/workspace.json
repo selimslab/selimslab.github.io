@@ -11,13 +11,8 @@
             "id": "ec07143514c18e6e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_NOTES/arts/philosophy/thoughts-on-work.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -94,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_NOTES/arts/philosophy/thoughts-on-work.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_NOTES/arts/philosophy/thoughts-on-work.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_NOTES/arts/philosophy/thoughts-on-work.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -158,44 +149,45 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ec07143514c18e6e",
+  "active": "bc86af8c7183ead1",
   "lastOpenFiles": [
-    "_NOTES/social-sciences/economics/the-tragedy-of-the-commons.md",
-    "_NOTES/arts/philosophy/travelling.md",
-    "_NOTES/arts/philosophy/unhappy-in-their-own-way.md",
-    "_NOTES/arts/philosophy/thoughts-on-work.md",
-    "_NOTES/arts/philosophy/balance/the-less-the-better.md",
-    "_NOTES/arts/philosophy/balance/still-vs-running-water.md",
-    "_NOTES/arts/philosophy/success-and-failure.md",
-    "_NOTES/arts/philosophy/gain-and-loss/success-and-failure.md",
-    "_NOTES/arts/philosophy/gain-and-loss/failure.md",
-    "_NOTES/arts/philosophy/success.md",
-    "_NOTES/arts/philosophy/gain-and-loss/success.md",
-    "_NOTES/arts/philosophy/questions",
-    "_NOTES/arts/philosophy/choice/experiences-vs-materials.md",
-    "_NOTES/arts/philosophy/experiences-vs-materials.md",
-    "_NOTES/arts/philosophy/choice/pleasure-vs-possibility.md",
-    "_NOTES/arts/philosophy/choice/good-and-evil.md",
-    "_NOTES/arts/philosophy/choice/you-can-always-choose-your-way.md",
-    "_NOTES/arts/philosophy/gain-and-loss",
-    "_NOTES/arts/philosophy/the-less-the-better.md",
-    "_NOTES/arts/philosophy/stupidity.md",
-    "_NOTES/arts/philosophy/still-vs-running-water.md",
-    "_NOTES/arts/philosophy/search-for-meaning.md",
-    "_NOTES/arts/philosophy/pleasure-vs-possibility.md",
-    "_NOTES/arts/philosophy/questions.md",
-    "_NOTES/arts/philosophy/philosophy.md",
-    "_NOTES/arts/philosophy/one-bit-better.md",
-    "_NOTES/arts/philosophy/love.md",
-    "_NOTES/arts/philosophy/life-is-play.md",
-    "_NOTES/arts/philosophy/choice",
-    "_NOTES/arts/philosophy/balance",
-    "_NOTES/arts/philosophy/time",
-    "_NOTES/tech/interviews",
-    "_NOTES/tech/encoding",
-    "_NOTES/tech/thoughts-on-tech",
-    "_NOTES/tech/engineering-management",
-    "_NOTES/social-sciences/systems",
+    "_NOTES/arts/philosophy/work/teamwork.md",
+    "_NOTES/skills/teamwork.md",
+    "_NOTES/arts/philosophy/work/work.md",
+    "_NOTES/social-sciences/tolerate-anything-except-outgroup.md",
+    "_NOTES/lists/essais.md",
+    "_NOTES/arts/philosophy/work/what-to-work-on.md",
+    "_NOTES/social-sciences/wasted-talent.md",
+    "_NOTES/social-sciences/politics/the-triumph-of-stupidity.md",
+    "_NOTES/skills/humor/humor.md",
+    "_NOTES/skills/humor/the-tao-of-programming.md",
+    "_NOTES/skills/humor",
+    "_NOTES/skills/humor.md",
+    "_NOTES/natural-sciences/the-overview-effect.md",
+    "_NOTES/social-sciences/politics/war-is-a-racket.md",
+    "_NOTES/natural-sciences/climate-change.md",
+    "_NOTES/social-sciences/politics/who-goes-nazi.md",
+    "_NOTES/skills/career/you-are-not-nameless.md",
+    "_NOTES/social-sciences/your-lifestyle-already-designed.md",
+    "_NOTES/skills/career/career-advice.md",
+    "_NOTES/arts/philosophy/character.md",
+    "_NOTES/essais/your-lifestyle-already-designed.md",
+    "_NOTES/essais/who-goes-nazi.md",
+    "_NOTES/essais/you-are-not-nameless.md",
+    "_NOTES/essais/wasted-talent.md",
+    "_NOTES/essais/what-to-work-on.md",
+    "_NOTES/essais/war-is-a-racket.md",
+    "_NOTES/essais/tolerate-anything-except-outgroup.md",
+    "_NOTES/essais",
+    "_NOTES/skills/decisions",
+    "_NOTES/skills/outdoors",
+    "_NOTES/skills/leadership",
+    "_NOTES/skills/health",
+    "_NOTES/skills/grow-fresh-air.jpeg",
+    "_NOTES/skills/driving",
+    "_NOTES/skills/communication",
+    "_NOTES/skills/business",
+    "_NOTES/skills/career",
     "_NOTES/practical-skills/grow-fresh-air.jpeg",
     "_site/assets/static/solar/2k_stars_milky_way3.jpg",
     "assets/static/solar/2k_stars_milky_way3.jpg",
@@ -205,7 +197,6 @@
     "assets/static/wind-spring-white-stratosphere-pure.jpg",
     "_site/assets/static/solar/marble.jpg",
     "assets/static/solar/marble.jpg",
-    "_site/assets/static/solar/NASA-Apollo8-Dec24-Earthrise.jpg",
     "Untitled.canvas"
   ]
 }

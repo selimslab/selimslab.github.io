@@ -12,4 +12,4 @@ Poor judgment
 
 Hanlon’s Razor, think stupidity before malice
 
-[[the-triumph-of-stupidity]]
+[[politics/the-triumph-of-stupidity]]
