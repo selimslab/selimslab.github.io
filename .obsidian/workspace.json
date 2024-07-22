@@ -158,8 +158,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c124ba1ec6e0abad",
+  "active": "bc86af8c7183ead1",
   "lastOpenFiles": [
+    "_site/assets/data/tags.json",
+    "assets/data/tags.json",
     "_site/csharp/index.html",
     "_site/csharp",
     "_NOTES/tech/programming/programming-languages/csharp.md",
@@ -170,8 +172,6 @@
     "_site/rust/index.html",
     "_site/rust",
     "_site/lisp/index.html",
-    "_site/lisp",
-    "_site/java/index.html",
     "_NOTES/arts/languages/modern-greek-alphabet.md",
     "_NOTES/social-sciences/politics/do-what-is-right.md",
     "_NOTES/skills/decisions/do-the-right-thing.md",

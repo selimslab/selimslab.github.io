@@ -1,5 +1,5 @@
 ---
-tags: 
+
 ---
 
 A high price doesn't mean high value or high quality, the same for low price

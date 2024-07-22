@@ -22,7 +22,6 @@ class SiteGenerator < Jekyll::Generator
     generate_tree(site)
 
     site.documents.each do |doc|
-      remove_tags_to_parent(doc, site)
       doc.data['tags'] = doc.data['tags'].uniq.sort
       wikilinks_to_backlinks(doc, site)
       tags_to_backlinks(doc, site)
@@ -40,6 +39,10 @@ class SiteGenerator < Jekyll::Generator
     site.data["link_count"] = site.documents.sum { |doc| doc.content.scan(/<a/).length } + graph[:links].length
 
     site.data["ideas"] = JSON.parse(File.read("./assets/data/ideas.json")).sort
+
+    # write tags of each doc to a json file
+    write_json("./assets/data/tags.json", site.documents.map { |doc| [doc.id, doc.data["tags"]] }.to_h)
+    
   end
 
   def remove_leading_slash(str)
@@ -127,14 +130,6 @@ class SiteGenerator < Jekyll::Generator
     end
   end
 
-  def remove_tags_to_parent(doc, site)
-    basename = remove_leading_slash(doc.id)
-    parent_basename = doc.data['parent_basename']
-    parent_shorttag = site.data["file_to_tag"][parent_basename]
-
-    doc.data['tags'] -= [basename, parent_shorttag, parent_basename]
-  end
-
   def wikilinks_to_backlinks(doc, site)
     source_basename = remove_leading_slash(doc.id)
     linking_to_doc = site.documents.select do |e|
@@ -194,14 +189,14 @@ class SiteGenerator < Jekyll::Generator
 
         child_basename = File.basename(child)
         child_path = File.join(parent_path, child)
+        child_id = "/#{child_basename.sub(/\..*/, '')}"
 
         if File.directory?(child_path)
           queue.push([child_path, branch[parent_id]])
         elsif path != parent_basename
-          child_id = "/#{child_basename.sub(/\..*/, '')}"
-          link_to_parent(site, child_basename, child_id, parent_basename, parent_id)
           branch[parent_id][child_id] ||= {}
         end
+        link_to_parent(site, child_id, parent_id)
       end
     end
     tree[root]
@@ -228,15 +223,18 @@ class SiteGenerator < Jekyll::Generator
     html
   end
 
-  def link_to_parent(site, child_basename, child_id, parent_basename, parent_id)
+  def link_to_parent(site, child_id, parent_id)
     child_doc = site.documents.find { |e| e.id == child_id }
-    return unless child_doc
+    return unless child_doc 
+
+    parent_doc = site.documents.find { |e| e.id == parent_id }
+    return unless parent_doc
+    return if child_doc == parent_doc
+    
+    parent_basename = remove_leading_slash(parent_id)
     child_doc.data['parent_basename'] = parent_basename
     child_doc.data['tags'] << parent_basename
     
-    parent_doc = site.documents.find { |e| e.id == parent_id }
-    return unless parent_doc
-
     parent_doc.data['children'] ||= []
     parent_doc.data['children'] << child_id
   end
