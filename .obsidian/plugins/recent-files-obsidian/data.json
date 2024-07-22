@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "software-architecture",
+      "path": "_NOTES/tech/software-engineering/software-architecture.md"
+    },
+    {
       "basename": "accessibility",
       "path": "_NOTES/tech/ux/accessibility.md"
     },
@@ -155,10 +159,6 @@
     {
       "basename": "history-of-technology",
       "path": "_NOTES/social-sciences/history/history-of-technology.md"
-    },
-    {
-      "basename": "discussion-topics",
-      "path": "_NOTES/tech/interviews/discussion-topics.md"
     },
     {
       "basename": "unicode",

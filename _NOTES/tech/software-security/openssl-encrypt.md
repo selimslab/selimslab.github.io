@@ -1,6 +1,6 @@
 ---
 title: How to encrypt-decrypt a file with a password  
-tags: sec
+
 ---
 
 openssl comes pre-installed on Mac OS

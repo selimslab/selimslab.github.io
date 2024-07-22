@@ -1,17 +1,13 @@
 ---
 ---
-"Bad programmers worry about the code. Good programmers worry about data structures and their relationships." -Linus Torvalds
-Azure pillars 
 
 
-## Secure 
+##  Azure pillars 
 
-## Reliable 
+- Secure
+- Reliable
+- Cost ROI
+- Perf
+- Ops Excellence
 
-## Cost Optimized 
-
-ROI 
-## Performant 
-
-## Operational X
 

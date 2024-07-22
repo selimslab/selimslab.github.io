@@ -1,5 +1,5 @@
 ---
-tags: sec
+
 ---
 
 ![](/assets/static/img/2-factor-auth.jpeg)

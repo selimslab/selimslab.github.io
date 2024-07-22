@@ -1,6 +1,6 @@
 ---
 title: Cross-site scripting  
-tags: sec
+
 
 ---
 

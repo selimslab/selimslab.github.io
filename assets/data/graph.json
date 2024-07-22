@@ -53,7 +53,9 @@
         "/reading-list",
         "/web-experiments",
         "/classics",
-        "/since-big-bang"
+        "/since-big-bang",
+        "/code-review",
+        "/the-joel-test"
       ]
     },
     {
@@ -87,6 +89,7 @@
         "/climate-change",
         "/feynman-lectures",
         "/feynmans-epilogue",
+        "/fluid-field-boundaries",
         "/maxwells-equations",
         "/philosophical-implications-of-quantum-mechanics",
         "/physics",
@@ -95,7 +98,6 @@
         "/the-overview-effect",
         "/the-true-size-of-africa",
         "/sleep",
-        "/fluid-field-boundaries",
         "/since-big-bang",
         "/chaos"
       ]
@@ -145,7 +147,6 @@
         "/root",
         "/being-poor",
         "/economics",
-        "/fluid-field-boundaries",
         "/history",
         "/in-praise-of-idleness",
         "/metaphors",
@@ -176,15 +177,16 @@
       "name": "Technology",
       "links": [
         "/root",
-        "/computer-networks",
         "/databases",
         "/distributed-systems",
         "/encoding",
         "/engineering-management",
-        "/interviews",
         "/machine-learning",
+        "/networks",
+        "/nlp",
         "/operating-systems",
         "/programming",
+        "/prompt-engineering",
         "/software-engineering",
         "/software-security",
         "/system-design",
@@ -192,8 +194,6 @@
         "/ux",
         "/akins-laws-of-spacecraft",
         "/everyday-objects",
-        "/fluid-field-boundaries",
-        "/hacker-laws",
         "/history-of-technology",
         "/since-big-bang",
         "/accessibility"
@@ -247,7 +247,6 @@
       "links": [
         "/arts",
         "/classics",
-        "/psy-in-lit",
         "/turkce",
         "/authors"
       ]
@@ -361,7 +360,8 @@
         "/tao-te-ching",
         "/stem-books",
         "/algo-books",
-        "/books-swe"
+        "/books-swe",
+        "/google-sre-book"
       ]
     },
     {
@@ -604,6 +604,14 @@
       ]
     },
     {
+      "id": "/fluid-field-boundaries",
+      "group": 2,
+      "name": "Fluid Field Boundaries",
+      "links": [
+        "/natural-sciences"
+      ]
+    },
+    {
       "id": "/maxwells-equations",
       "group": 2,
       "name": "Maxwells Equations",
@@ -783,7 +791,8 @@
       "links": [
         "/skills",
         "/how-to-deal-with-pain",
-        "/sleep"
+        "/sleep",
+        "/going-blind"
       ]
     },
     {
@@ -942,16 +951,6 @@
       ]
     },
     {
-      "id": "/fluid-field-boundaries",
-      "group": 2,
-      "name": "Fluid Field Boundaries",
-      "links": [
-        "/social-sciences",
-        "/natural-sciences",
-        "/tech"
-      ]
-    },
-    {
       "id": "/history",
       "group": 2,
       "name": "History",
@@ -997,6 +996,7 @@
         "/who-goes-nazi",
         "/arts",
         "/tao-te-ching",
+        "/do-what-is-right",
         "/look-below-the-surface",
         "/tao-te-ching",
         "/tolerate-anything-except-outgroup"
@@ -1096,15 +1096,6 @@
       ]
     },
     {
-      "id": "/computer-networks",
-      "group": 2,
-      "name": "Computer Networks",
-      "links": [
-        "/tech",
-        "/software-engineering"
-      ]
-    },
-    {
       "id": "/databases",
       "group": 2,
       "name": "Databases",
@@ -1120,6 +1111,7 @@
         "/normalization",
         "/orm-vs-sql",
         "/partitioning",
+        "/replication",
         "/sql-tips"
       ]
     },
@@ -1138,7 +1130,6 @@
         "/encoding-and-evolution",
         "/generate-a-unique-id",
         "/kafka",
-        "/replication",
         "/spark",
         "/time-and-order",
         "/use-an-identity-service",
@@ -1165,23 +1156,29 @@
       ]
     },
     {
-      "id": "/interviews",
-      "group": 2,
-      "name": "Interviews",
-      "links": [
-        "/tech",
-        "/discussion-topics"
-      ]
-    },
-    {
       "id": "/machine-learning",
       "group": 2,
       "name": "Machine Learning",
       "links": [
         "/tech",
-        "/nlp",
-        "/prompt-engineering",
         "/software-engineering"
+      ]
+    },
+    {
+      "id": "/networks",
+      "group": 2,
+      "name": "Networks",
+      "links": [
+        "/tech",
+        "/software-engineering"
+      ]
+    },
+    {
+      "id": "/nlp",
+      "group": 2,
+      "name": "NLP",
+      "links": [
+        "/tech"
       ]
     },
     {
@@ -1206,7 +1203,6 @@
         "/code",
         "/compsci",
         "/data-structures",
-        "/dependency-management",
         "/for-new-programmers",
         "/functional-programming",
         "/oop",
@@ -1218,27 +1214,36 @@
       ]
     },
     {
+      "id": "/prompt-engineering",
+      "group": 2,
+      "name": "Prompt Engineering",
+      "links": [
+        "/tech",
+        "/base-prompt",
+        "/question-prompt",
+        "/recap-prompt",
+        "/summary-prompt"
+      ]
+    },
+    {
       "id": "/software-engineering",
       "group": 2,
       "name": "Software Engineering",
       "links": [
         "/tech",
         "/books-swe",
-        "/choose-boring-tech",
         "/code-review",
         "/core-concepts",
+        "/dependency-management",
+        "/discussion-topics",
         "/going-blind",
         "/google-sre-book",
-        "/hacker-laws",
-        "/software-analogies",
         "/software-architecture",
-        "/software-quality",
-        "/swe-phil",
         "/the-joel-test",
-        "/computer-networks",
         "/concurrency",
         "/distributed-systems",
         "/machine-learning",
+        "/networks",
         "/operating-systems",
         "/programming",
         "/projects",
@@ -1281,16 +1286,15 @@
         "/system-design-concepts",
         "/software-engineering",
         "/akins-laws-of-spacecraft",
-        "/choose-boring-tech",
         "/concurrency",
         "/containers",
-        "/dependency-management",
         "/distributed-systems",
         "/do-one-thing-at-a-time-and-do-it-well",
-        "/hacker-laws",
         "/oop",
         "/ship-it",
         "/software-security",
+        "/choose-boring-tech",
+        "/hacker-laws",
         "/accessibility"
       ]
     },
@@ -1301,12 +1305,17 @@
       "links": [
         "/tech",
         "/a-free-web-again",
+        "/choose-boring-tech",
         "/easy-vs-hard-in-cs",
+        "/hacker-laws",
         "/hijacked-minds",
         "/is-tech-fast-or-slow",
         "/minimal-tech",
         "/social-media",
-        "/technology-and-time"
+        "/software-analogies",
+        "/software-quality",
+        "/technology-and-time",
+        "/thought-on-swe"
       ]
     },
     {
@@ -1351,7 +1360,7 @@
       "name": "Ship It",
       "links": [
         "/design",
-        "/swe-phil",
+        "/thought-on-swe",
         "/software-engineering",
         "/system-design"
       ]
@@ -1410,16 +1419,6 @@
         "/the-art-of-war",
         "/cien-anos-de-soledad",
         "/lists"
-      ]
-    },
-    {
-      "id": "/psy-in-lit",
-      "group": 3,
-      "name": "Psychology in Literature",
-      "links": [
-        "/literature",
-        "/do-not-lie-to-yourself",
-        "/elaborate-vs-clear-speech"
       ]
     },
     {
@@ -2076,7 +2075,8 @@
       "links": [
         "/decisions",
         "/do-not-lie-to-yourself",
-        "/on-decision-making"
+        "/on-decision-making",
+        "/politics"
       ]
     },
     {
@@ -2663,6 +2663,20 @@
       ]
     },
     {
+      "id": "/replication",
+      "group": 3,
+      "name": "Replication",
+      "links": [
+        "/databases",
+        "/leaderless-replication",
+        "/multi-leader",
+        "/single-leader",
+        "/leaderless-replication",
+        "/multi-leader",
+        "/distributed-data"
+      ]
+    },
+    {
       "id": "/sql-tips",
       "group": 3,
       "name": "Sql Tips",
@@ -2709,7 +2723,8 @@
       "name": "Distributed Data",
       "links": [
         "/distributed-systems",
-        "/partitioning"
+        "/partitioning",
+        "/replication"
       ]
     },
     {
@@ -2742,19 +2757,6 @@
       "name": "Apache Kafka",
       "links": [
         "/distributed-systems"
-      ]
-    },
-    {
-      "id": "/replication",
-      "group": 3,
-      "name": "Replication",
-      "links": [
-        "/distributed-systems",
-        "/leaderless-replication",
-        "/multi-leader",
-        "/single-leader",
-        "/leaderless-replication",
-        "/multi-leader"
       ]
     },
     {
@@ -2796,34 +2798,6 @@
       "links": [
         "/engineering-management",
         "/leadership"
-      ]
-    },
-    {
-      "id": "/discussion-topics",
-      "group": 3,
-      "name": "Discussion Topics",
-      "links": [
-        "/interviews"
-      ]
-    },
-    {
-      "id": "/nlp",
-      "group": 3,
-      "name": "NLP",
-      "links": [
-        "/machine-learning"
-      ]
-    },
-    {
-      "id": "/prompt-engineering",
-      "group": 3,
-      "name": "Prompt Engineering",
-      "links": [
-        "/machine-learning",
-        "/base-prompt",
-        "/question-prompt",
-        "/recap-prompt",
-        "/summary-prompt"
       ]
     },
     {
@@ -2972,15 +2946,6 @@
       ]
     },
     {
-      "id": "/dependency-management",
-      "group": 3,
-      "name": "Dependency Management",
-      "links": [
-        "/programming",
-        "/system-design"
-      ]
-    },
-    {
       "id": "/for-new-programmers",
       "group": 3,
       "name": "For New Programmers",
@@ -3014,7 +2979,6 @@
       "name": "Programming Languages",
       "links": [
         "/programming",
-        "/c",
         "/c#",
         "/clojure",
         "/go",
@@ -3058,6 +3022,38 @@
       ]
     },
     {
+      "id": "/base-prompt",
+      "group": 3,
+      "name": "Base Prompt",
+      "links": [
+        "/prompt-engineering"
+      ]
+    },
+    {
+      "id": "/question-prompt",
+      "group": 3,
+      "name": "Question Prompt",
+      "links": [
+        "/prompt-engineering"
+      ]
+    },
+    {
+      "id": "/recap-prompt",
+      "group": 3,
+      "name": "Recap Prompt",
+      "links": [
+        "/prompt-engineering"
+      ]
+    },
+    {
+      "id": "/summary-prompt",
+      "group": 3,
+      "name": "Summary Prompt",
+      "links": [
+        "/prompt-engineering"
+      ]
+    },
+    {
       "id": "/books-swe",
       "group": 3,
       "name": "Software Engineering Books",
@@ -3067,21 +3063,12 @@
       ]
     },
     {
-      "id": "/choose-boring-tech",
-      "group": 3,
-      "name": "Choose Boring Tech",
-      "links": [
-        "/software-engineering",
-        "/swe-phil",
-        "/system-design"
-      ]
-    },
-    {
       "id": "/code-review",
       "group": 3,
       "name": "Code Review",
       "links": [
-        "/software-engineering"
+        "/software-engineering",
+        "/lists"
       ]
     },
     {
@@ -3093,11 +3080,28 @@
       ]
     },
     {
+      "id": "/dependency-management",
+      "group": 3,
+      "name": "Dependency Management",
+      "links": [
+        "/software-engineering"
+      ]
+    },
+    {
+      "id": "/discussion-topics",
+      "group": 3,
+      "name": "Discussion Topics",
+      "links": [
+        "/software-engineering"
+      ]
+    },
+    {
       "id": "/going-blind",
       "group": 3,
       "name": "Going Blind",
       "links": [
-        "/software-engineering"
+        "/software-engineering",
+        "/health"
       ]
     },
     {
@@ -3105,26 +3109,8 @@
       "group": 3,
       "name": "Google SRE book",
       "links": [
-        "/software-engineering"
-      ]
-    },
-    {
-      "id": "/hacker-laws",
-      "group": 3,
-      "name": "Hacker Laws",
-      "links": [
         "/software-engineering",
-        "/akins-laws-of-spacecraft",
-        "/system-design",
-        "/tech"
-      ]
-    },
-    {
-      "id": "/software-analogies",
-      "group": 3,
-      "name": "Software Analogies",
-      "links": [
-        "/software-engineering"
+        "/books"
       ]
     },
     {
@@ -3136,29 +3122,12 @@
       ]
     },
     {
-      "id": "/software-quality",
-      "group": 3,
-      "name": "Is High Quality Software Worth the Cost?",
-      "links": [
-        "/software-engineering"
-      ]
-    },
-    {
-      "id": "/swe-phil",
-      "group": 3,
-      "name": "Engineering philosophy",
-      "links": [
-        "/software-engineering",
-        "/ship-it",
-        "/choose-boring-tech"
-      ]
-    },
-    {
       "id": "/the-joel-test",
       "group": 3,
       "name": "The Joel Test",
       "links": [
-        "/software-engineering"
+        "/software-engineering",
+        "/lists"
       ]
     },
     {
@@ -3298,11 +3267,30 @@
       ]
     },
     {
+      "id": "/choose-boring-tech",
+      "group": 3,
+      "name": "Choose Boring Tech",
+      "links": [
+        "/thoughts-on-tech",
+        "/system-design"
+      ]
+    },
+    {
       "id": "/easy-vs-hard-in-cs",
       "group": 3,
       "name": "The fine line between easy and very hard",
       "links": [
         "/thoughts-on-tech"
+      ]
+    },
+    {
+      "id": "/hacker-laws",
+      "group": 3,
+      "name": "Hacker Laws",
+      "links": [
+        "/thoughts-on-tech",
+        "/akins-laws-of-spacecraft",
+        "/system-design"
       ]
     },
     {
@@ -3341,11 +3329,36 @@
       ]
     },
     {
+      "id": "/software-analogies",
+      "group": 3,
+      "name": "Software Analogies",
+      "links": [
+        "/thoughts-on-tech"
+      ]
+    },
+    {
+      "id": "/software-quality",
+      "group": 3,
+      "name": "Is High Quality Software Worth the Cost?",
+      "links": [
+        "/thoughts-on-tech"
+      ]
+    },
+    {
       "id": "/technology-and-time",
       "group": 3,
       "name": "Technology And Time",
       "links": [
         "/thoughts-on-tech"
+      ]
+    },
+    {
+      "id": "/thought-on-swe",
+      "group": 3,
+      "name": "Thoughts on software",
+      "links": [
+        "/thoughts-on-tech",
+        "/ship-it"
       ]
     },
     {
@@ -3498,8 +3511,7 @@
         "/classics",
         "/do-what-is-right",
         "/character",
-        "/on-decision-making",
-        "/psy-in-lit"
+        "/on-decision-making"
       ]
     },
     {
@@ -3507,8 +3519,7 @@
       "group": 4,
       "name": "Tolstoy on clear speech",
       "links": [
-        "/classics",
-        "/psy-in-lit"
+        "/classics"
       ]
     },
     {
@@ -3977,38 +3988,6 @@
       "name": "Single Leader",
       "links": [
         "/replication"
-      ]
-    },
-    {
-      "id": "/base-prompt",
-      "group": 4,
-      "name": "Base Prompt",
-      "links": [
-        "/prompt-engineering"
-      ]
-    },
-    {
-      "id": "/question-prompt",
-      "group": 4,
-      "name": "Question Prompt",
-      "links": [
-        "/prompt-engineering"
-      ]
-    },
-    {
-      "id": "/recap-prompt",
-      "group": 4,
-      "name": "Recap Prompt",
-      "links": [
-        "/prompt-engineering"
-      ]
-    },
-    {
-      "id": "/summary-prompt",
-      "group": 4,
-      "name": "Summary Prompt",
-      "links": [
-        "/prompt-engineering"
       ]
     },
     {
@@ -4893,14 +4872,6 @@
       ]
     },
     {
-      "id": "/c",
-      "group": 4,
-      "name": "C",
-      "links": [
-        "/programming-languages"
-      ]
-    },
-    {
       "id": "/c#",
       "group": 4,
       "name": "C#",
@@ -5404,6 +5375,10 @@
     },
     {
       "source": "/natural-sciences",
+      "target": "/fluid-field-boundaries"
+    },
+    {
+      "source": "/natural-sciences",
       "target": "/maxwells-equations"
     },
     {
@@ -5536,10 +5511,6 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/fluid-field-boundaries"
-    },
-    {
-      "source": "/social-sciences",
       "target": "/history"
     },
     {
@@ -5584,10 +5555,6 @@
     },
     {
       "source": "/tech",
-      "target": "/computer-networks"
-    },
-    {
-      "source": "/tech",
       "target": "/databases"
     },
     {
@@ -5604,11 +5571,15 @@
     },
     {
       "source": "/tech",
-      "target": "/interviews"
+      "target": "/machine-learning"
     },
     {
       "source": "/tech",
-      "target": "/machine-learning"
+      "target": "/networks"
+    },
+    {
+      "source": "/tech",
+      "target": "/nlp"
     },
     {
       "source": "/tech",
@@ -5617,6 +5588,10 @@
     {
       "source": "/tech",
       "target": "/programming"
+    },
+    {
+      "source": "/tech",
+      "target": "/prompt-engineering"
     },
     {
       "source": "/tech",
@@ -5669,10 +5644,6 @@
     {
       "source": "/literature",
       "target": "/classics"
-    },
-    {
-      "source": "/literature",
-      "target": "/psy-in-lit"
     },
     {
       "source": "/literature",
@@ -6216,6 +6187,10 @@
     },
     {
       "source": "/databases",
+      "target": "/replication"
+    },
+    {
+      "source": "/databases",
       "target": "/sql-tips"
     },
     {
@@ -6256,10 +6231,6 @@
     },
     {
       "source": "/distributed-systems",
-      "target": "/replication"
-    },
-    {
-      "source": "/distributed-systems",
       "target": "/spark"
     },
     {
@@ -6277,18 +6248,6 @@
     {
       "source": "/engineering-management",
       "target": "/44-engineering-management-lessons"
-    },
-    {
-      "source": "/interviews",
-      "target": "/discussion-topics"
-    },
-    {
-      "source": "/machine-learning",
-      "target": "/nlp"
-    },
-    {
-      "source": "/machine-learning",
-      "target": "/prompt-engineering"
     },
     {
       "source": "/operating-systems",
@@ -6320,10 +6279,6 @@
     },
     {
       "source": "/programming",
-      "target": "/dependency-management"
-    },
-    {
-      "source": "/programming",
       "target": "/for-new-programmers"
     },
     {
@@ -6347,12 +6302,24 @@
       "target": "/tools"
     },
     {
-      "source": "/software-engineering",
-      "target": "/books-swe"
+      "source": "/prompt-engineering",
+      "target": "/base-prompt"
+    },
+    {
+      "source": "/prompt-engineering",
+      "target": "/question-prompt"
+    },
+    {
+      "source": "/prompt-engineering",
+      "target": "/recap-prompt"
+    },
+    {
+      "source": "/prompt-engineering",
+      "target": "/summary-prompt"
     },
     {
       "source": "/software-engineering",
-      "target": "/choose-boring-tech"
+      "target": "/books-swe"
     },
     {
       "source": "/software-engineering",
@@ -6364,6 +6331,14 @@
     },
     {
       "source": "/software-engineering",
+      "target": "/dependency-management"
+    },
+    {
+      "source": "/software-engineering",
+      "target": "/discussion-topics"
+    },
+    {
+      "source": "/software-engineering",
       "target": "/going-blind"
     },
     {
@@ -6372,23 +6347,7 @@
     },
     {
       "source": "/software-engineering",
-      "target": "/hacker-laws"
-    },
-    {
-      "source": "/software-engineering",
-      "target": "/software-analogies"
-    },
-    {
-      "source": "/software-engineering",
       "target": "/software-architecture"
-    },
-    {
-      "source": "/software-engineering",
-      "target": "/software-quality"
-    },
-    {
-      "source": "/software-engineering",
-      "target": "/swe-phil"
     },
     {
       "source": "/software-engineering",
@@ -6464,7 +6423,15 @@
     },
     {
       "source": "/thoughts-on-tech",
+      "target": "/choose-boring-tech"
+    },
+    {
+      "source": "/thoughts-on-tech",
       "target": "/easy-vs-hard-in-cs"
+    },
+    {
+      "source": "/thoughts-on-tech",
+      "target": "/hacker-laws"
     },
     {
       "source": "/thoughts-on-tech",
@@ -6484,7 +6451,19 @@
     },
     {
       "source": "/thoughts-on-tech",
+      "target": "/software-analogies"
+    },
+    {
+      "source": "/thoughts-on-tech",
+      "target": "/software-quality"
+    },
+    {
+      "source": "/thoughts-on-tech",
       "target": "/technology-and-time"
+    },
+    {
+      "source": "/thoughts-on-tech",
+      "target": "/thought-on-swe"
     },
     {
       "source": "/ux",
@@ -6781,22 +6760,6 @@
     {
       "source": "/replication",
       "target": "/single-leader"
-    },
-    {
-      "source": "/prompt-engineering",
-      "target": "/base-prompt"
-    },
-    {
-      "source": "/prompt-engineering",
-      "target": "/question-prompt"
-    },
-    {
-      "source": "/prompt-engineering",
-      "target": "/recap-prompt"
-    },
-    {
-      "source": "/prompt-engineering",
-      "target": "/summary-prompt"
     },
     {
       "source": "/algorithms",
@@ -7140,10 +7103,6 @@
     },
     {
       "source": "/programming-languages",
-      "target": "/c"
-    },
-    {
-      "source": "/programming-languages",
       "target": "/c#"
     },
     {
@@ -7340,7 +7299,7 @@
     },
     {
       "source": "/ship-it",
-      "target": "/swe-phil"
+      "target": "/thought-on-swe"
     },
     {
       "source": "/languages",
@@ -7369,14 +7328,6 @@
     {
       "source": "/do-not-lie-to-yourself",
       "target": "/on-decision-making"
-    },
-    {
-      "source": "/do-not-lie-to-yourself",
-      "target": "/psy-in-lit"
-    },
-    {
-      "source": "/elaborate-vs-clear-speech",
-      "target": "/psy-in-lit"
     },
     {
       "source": "/the-art-of-war",
@@ -7567,6 +7518,10 @@
       "target": "/books-swe"
     },
     {
+      "source": "/books",
+      "target": "/google-sre-book"
+    },
+    {
       "source": "/datasets",
       "target": "/statistics"
     },
@@ -7577,6 +7532,14 @@
     {
       "source": "/lists",
       "target": "/since-big-bang"
+    },
+    {
+      "source": "/lists",
+      "target": "/code-review"
+    },
+    {
+      "source": "/lists",
+      "target": "/the-joel-test"
     },
     {
       "source": "/math",
@@ -7597,10 +7560,6 @@
     {
       "source": "/natural-sciences",
       "target": "/sleep"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/fluid-field-boundaries"
     },
     {
       "source": "/natural-sciences",
@@ -7669,6 +7628,10 @@
     {
       "source": "/get-things-done",
       "target": "/how-to-start-a-business"
+    },
+    {
+      "source": "/health",
+      "target": "/going-blind"
     },
     {
       "source": "/leadership",
@@ -7741,6 +7704,10 @@
     {
       "source": "/four-day-workweek",
       "target": "/in-praise-of-idleness"
+    },
+    {
+      "source": "/politics",
+      "target": "/do-what-is-right"
     },
     {
       "source": "/politics",
@@ -7857,6 +7824,10 @@
     {
       "source": "/multi-leader",
       "target": "/replication"
+    },
+    {
+      "source": "/replication",
+      "target": "/distributed-data"
     },
     {
       "source": "/algo-easy",
@@ -8259,14 +8230,6 @@
       "target": "/zen-of-python"
     },
     {
-      "source": "/choose-boring-tech",
-      "target": "/swe-phil"
-    },
-    {
-      "source": "/software-engineering",
-      "target": "/computer-networks"
-    },
-    {
       "source": "/software-engineering",
       "target": "/concurrency"
     },
@@ -8277,6 +8240,10 @@
     {
       "source": "/software-engineering",
       "target": "/machine-learning"
+    },
+    {
+      "source": "/software-engineering",
+      "target": "/networks"
     },
     {
       "source": "/software-engineering",
@@ -8308,10 +8275,6 @@
     },
     {
       "source": "/system-design",
-      "target": "/choose-boring-tech"
-    },
-    {
-      "source": "/system-design",
       "target": "/concurrency"
     },
     {
@@ -8320,19 +8283,11 @@
     },
     {
       "source": "/system-design",
-      "target": "/dependency-management"
-    },
-    {
-      "source": "/system-design",
       "target": "/distributed-systems"
     },
     {
       "source": "/system-design",
       "target": "/do-one-thing-at-a-time-and-do-it-well"
-    },
-    {
-      "source": "/system-design",
-      "target": "/hacker-laws"
     },
     {
       "source": "/system-design",
@@ -8348,6 +8303,14 @@
     },
     {
       "source": "/system-design",
+      "target": "/choose-boring-tech"
+    },
+    {
+      "source": "/system-design",
+      "target": "/hacker-laws"
+    },
+    {
+      "source": "/system-design",
       "target": "/accessibility"
     },
     {
@@ -8357,14 +8320,6 @@
     {
       "source": "/tech",
       "target": "/everyday-objects"
-    },
-    {
-      "source": "/tech",
-      "target": "/fluid-field-boundaries"
-    },
-    {
-      "source": "/tech",
-      "target": "/hacker-laws"
     },
     {
       "source": "/tech",

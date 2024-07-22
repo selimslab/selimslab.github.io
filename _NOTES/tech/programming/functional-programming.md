@@ -1,5 +1,4 @@
 ---
-tags: pro
 ---
 
 immutable data 

@@ -1,5 +1,5 @@
 ---
-tags: sec
+
 ---
 
 Yes they are authenticated now, yet what they are authorized to do? 

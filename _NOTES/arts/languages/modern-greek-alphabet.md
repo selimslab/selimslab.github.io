@@ -1,5 +1,5 @@
 ---
-tags: lists lang
+tags: lists
 ---
 
 ![](/assets/static/img/greek-alphabet.jpeg)

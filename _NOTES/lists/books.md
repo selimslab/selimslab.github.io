@@ -1,6 +1,5 @@
 ---
 title: Books
-tags: lists 
 ---
 
 

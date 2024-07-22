@@ -1,5 +1,4 @@
 ---
-tags: dist
 ---
 
 When you add or remove a node, you only need to re-distribute a fraction of keys instead of all your keys 

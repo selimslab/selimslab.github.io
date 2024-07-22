@@ -1,4 +1,4 @@
 ---
 title: OOP
-tags: sys pro
+tags: sys prog
 ---

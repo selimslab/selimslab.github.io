@@ -1,5 +1,4 @@
 ---
-tags: nat soc tech
 ---
 
 Back-propagation arose from control theory and used to optimize the thrusts of the Apollo spaceships

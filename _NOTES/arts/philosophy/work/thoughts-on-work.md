@@ -1,5 +1,5 @@
 ---
-tags: lead bus
+tags: lead
 ---
 
 Good work requires a relaxed and focused mind. [[do-one-thing-at-a-time-and-do-it-well]]

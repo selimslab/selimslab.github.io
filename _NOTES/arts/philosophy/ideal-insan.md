@@ -1,5 +1,5 @@
 ---
-tags: tr 
+tags: turkce 
 ---
 
 aristoteles'e göre ideal insan:  

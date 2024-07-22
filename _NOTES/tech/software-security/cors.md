@@ -1,6 +1,6 @@
 ---
 title:  Cross-origin Resource Sharing (CORS)
-tags: sec
+
 
 ---
 

@@ -1,6 +1,4 @@
 ---
-
-tags: ll
 ---
 
 **Detect cycle:** fast and slow pointers, if the fast finds the end then no cycle

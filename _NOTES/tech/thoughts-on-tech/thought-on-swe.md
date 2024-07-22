@@ -1,16 +1,10 @@
 ---
-title: Engineering philosophy
+title: Thoughts on software
 ---
-"Bad programmers worry about the code. Good programmers worry about data structures and their relationships." -Linus Torvalds
 
 "Show me your flowchart and conceal your tables, and I shall continue to be mystified. Show me your tables, and I won't usually need your flowchart; it'll be obvious." -- Fred Brooks, The Mythical Man Month
 
-
 A little duplication is better than a new dependency 
-
-
-[[choose-boring-tech]]
-
 
 Best practices are not always the best way. [article](https://stackoverflow.blog/2021/12/22/best-practices-can-slow-your-application-down/)
 

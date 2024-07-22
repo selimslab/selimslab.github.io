@@ -1,5 +1,4 @@
 ---
-
 ---
 
 1. Chain with linked lists, O(n) worst-case lookup

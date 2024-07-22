@@ -1,5 +1,4 @@
 ---
-tags: bus
 ---
 
 [[what-to-work-on]]

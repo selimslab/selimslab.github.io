@@ -1,6 +1,6 @@
 ---
 title: Google SRE book 
-tags: swe 
+tags: books 
 ---
 
 * Fail sanely

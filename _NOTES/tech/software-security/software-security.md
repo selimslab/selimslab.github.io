@@ -1,6 +1,6 @@
 ---
 title: Software Security
-tags: sec swe tech sys 
+ swe tech sys 
 --- 
 
 

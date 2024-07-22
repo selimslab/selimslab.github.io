@@ -1,6 +1,6 @@
 ---
 title: Şiirler
-tags: tr poetry
+tags: turkce poetry
 ---
 
 

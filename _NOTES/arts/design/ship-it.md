@@ -1,5 +1,5 @@
 ---
-tags: swe sys
+tags: swe
 ---
 
 Ship it

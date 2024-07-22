@@ -1,5 +1,4 @@
 ---
-tags: net swe
 --- 
 
 ## TCP/IP Model

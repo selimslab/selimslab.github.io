@@ -1,5 +1,4 @@
 ---
-tags: dist
 ---
 
 1. auto increment -> works on a single node 

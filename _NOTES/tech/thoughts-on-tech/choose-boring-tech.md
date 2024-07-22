@@ -1,5 +1,5 @@
 ---
-tags: swe sys
+tags: sys
 ---
 
 When choosing technology, you have both known unknowns and unknown unknowns

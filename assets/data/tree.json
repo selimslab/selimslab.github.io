@@ -67,8 +67,6 @@
       },
       "/literature": {
       },
-      "/psy-in-lit": {
-      },
       "/turkce": {
         "/ince-memed": {
         },
@@ -330,6 +328,8 @@
     },
     "/feynmans-epilogue": {
     },
+    "/fluid-field-boundaries": {
+    },
     "/maxwells-equations": {
     },
     "/natural-sciences": {
@@ -502,8 +502,6 @@
       "/wage-theft": {
       }
     },
-    "/fluid-field-boundaries": {
-    },
     "/history": {
       "/farming-trap": {
       },
@@ -656,10 +654,6 @@
     }
   },
   "/tech": {
-    "/computer-networks": {
-      "/computer-networks": {
-      }
-    },
     "/databases": {
       "/atomicity": {
       },
@@ -682,6 +676,16 @@
       "/orm-vs-sql": {
       },
       "/partitioning": {
+      },
+      "/replication": {
+        "/leaderless-replication": {
+        },
+        "/multi-leader": {
+        },
+        "/replication": {
+        },
+        "/single-leader": {
+        }
       },
       "/sql-tips": {
       }
@@ -707,16 +711,6 @@
       },
       "/kafka": {
       },
-      "/replication": {
-        "/leaderless-replication": {
-        },
-        "/multi-leader": {
-        },
-        "/replication": {
-        },
-        "/single-leader": {
-        }
-      },
       "/spark": {
       },
       "/time-and-order": {
@@ -732,27 +726,11 @@
       "/44-engineering-management-lessons": {
       }
     },
-    "/interviews": {
-      "/discussion-topics": {
-      }
-    },
     "/machine-learning": {
-      "/machine-learning": {
-      },
-      "/nlp": {
-      },
-      "/prompt-engineering": {
-        "/base-prompt": {
-        },
-        "/prompt-engineering": {
-        },
-        "/question-prompt": {
-        },
-        "/recap-prompt": {
-        },
-        "/summary-prompt": {
-        }
-      }
+    },
+    "/networks": {
+    },
+    "/nlp": {
     },
     "/operating-systems": {
       "/concurrency": {
@@ -943,8 +921,6 @@
         "/string": {
         }
       },
-      "/dependency-management": {
-      },
       "/for-new-programmers": {
       },
       "/functional-programming": {
@@ -988,11 +964,7 @@
         }
       },
       "/programming-languages": {
-        "/c": {
-        },
         "/c#": {
-          "/c#": {
-          }
         },
         "/clojure": {
         },
@@ -1060,30 +1032,36 @@
         }
       }
     },
+    "/prompt-engineering": {
+      "/base-prompt": {
+      },
+      "/prompt-engineering": {
+      },
+      "/question-prompt": {
+      },
+      "/recap-prompt": {
+      },
+      "/summary-prompt": {
+      }
+    },
     "/software-engineering": {
       "/books-swe": {
-      },
-      "/choose-boring-tech": {
       },
       "/code-review": {
       },
       "/core-concepts": {
       },
+      "/dependency-management": {
+      },
+      "/discussion-topics": {
+      },
       "/going-blind": {
       },
       "/google-sre-book": {
       },
-      "/hacker-laws": {
-      },
-      "/software-analogies": {
-      },
       "/software-architecture": {
       },
       "/software-engineering": {
-      },
-      "/software-quality": {
-      },
-      "/swe-phil": {
       },
       "/the-joel-test": {
       }
@@ -1133,7 +1111,11 @@
     "/thoughts-on-tech": {
       "/a-free-web-again": {
       },
+      "/choose-boring-tech": {
+      },
       "/easy-vs-hard-in-cs": {
+      },
+      "/hacker-laws": {
       },
       "/hijacked-minds": {
       },
@@ -1143,7 +1125,13 @@
       },
       "/social-media": {
       },
+      "/software-analogies": {
+      },
+      "/software-quality": {
+      },
       "/technology-and-time": {
+      },
+      "/thought-on-swe": {
       },
       "/thoughts-on-tech": {
       }

@@ -24,7 +24,7 @@
 
   ],
   "/ship-it": [
-    "/swe-phil"
+    "/thought-on-swe"
   ],
   "/adjektiva": [
 
@@ -84,11 +84,10 @@
   "/do-not-lie-to-yourself": [
     "/do-what-is-right",
     "/character",
-    "/on-decision-making",
-    "/psy-in-lit"
+    "/on-decision-making"
   ],
   "/elaborate-vs-clear-speech": [
-    "/psy-in-lit"
+
   ],
   "/the-art-of-war": [
     "/books",
@@ -96,9 +95,6 @@
   ],
   "/literature": [
     "/authors"
-  ],
-  "/psy-in-lit": [
-
   ],
   "/ince-memed": [
 
@@ -362,7 +358,8 @@
   "/books": [
     "/stem-books",
     "/algo-books",
-    "/books-swe"
+    "/books-swe",
+    "/google-sre-book"
   ],
   "/comics": [
 
@@ -384,7 +381,9 @@
   ],
   "/lists": [
     "/classics",
-    "/since-big-bang"
+    "/since-big-bang",
+    "/code-review",
+    "/the-joel-test"
   ],
   "/modern-greek-alphabet": [
 
@@ -469,12 +468,14 @@
   "/feynmans-epilogue": [
 
   ],
+  "/fluid-field-boundaries": [
+
+  ],
   "/maxwells-equations": [
 
   ],
   "/natural-sciences": [
     "/sleep",
-    "/fluid-field-boundaries",
     "/since-big-bang",
     "/chaos"
   ],
@@ -608,7 +609,7 @@
 
   ],
   "/health": [
-
+    "/going-blind"
   ],
   "/how-to-deal-with-pain": [
 
@@ -710,9 +711,6 @@
   "/wage-theft": [
 
   ],
-  "/fluid-field-boundaries": [
-
-  ],
   "/farming-trap": [
 
   ],
@@ -741,6 +739,7 @@
 
   ],
   "/politics": [
+    "/do-what-is-right",
     "/look-below-the-surface",
     "/tao-te-ching",
     "/tolerate-anything-except-outgroup"
@@ -937,9 +936,6 @@
   "/your-lifestyle-already-designed": [
 
   ],
-  "/computer-networks": [
-
-  ],
   "/atomicity": [
     "/db-consistency"
   ],
@@ -974,6 +970,18 @@
     "/consistent-hashing",
     "/distributed-data"
   ],
+  "/leaderless-replication": [
+    "/replication"
+  ],
+  "/multi-leader": [
+    "/replication"
+  ],
+  "/replication": [
+    "/distributed-data"
+  ],
+  "/single-leader": [
+
+  ],
   "/sql-tips": [
 
   ],
@@ -1007,18 +1015,6 @@
   "/kafka": [
 
   ],
-  "/leaderless-replication": [
-    "/replication"
-  ],
-  "/multi-leader": [
-    "/replication"
-  ],
-  "/replication": [
-
-  ],
-  "/single-leader": [
-
-  ],
   "/spark": [
 
   ],
@@ -1034,28 +1030,13 @@
   "/44-engineering-management-lessons": [
 
   ],
-  "/discussion-topics": [
-
-  ],
   "/machine-learning": [
 
   ],
+  "/networks": [
+
+  ],
   "/nlp": [
-
-  ],
-  "/base-prompt": [
-
-  ],
-  "/prompt-engineering": [
-
-  ],
-  "/question-prompt": [
-
-  ],
-  "/recap-prompt": [
-
-  ],
-  "/summary-prompt": [
 
   ],
   "/concurrency": [
@@ -1411,9 +1392,6 @@
     "/repeatedStringMatch",
     "/string-compression"
   ],
-  "/dependency-management": [
-
-  ],
   "/for-new-programmers": [
 
   ],
@@ -1557,16 +1535,34 @@
   "/vscode-settings": [
 
   ],
-  "/books-swe": [
+  "/base-prompt": [
 
   ],
-  "/choose-boring-tech": [
-    "/swe-phil"
+  "/prompt-engineering": [
+
+  ],
+  "/question-prompt": [
+
+  ],
+  "/recap-prompt": [
+
+  ],
+  "/summary-prompt": [
+
+  ],
+  "/books-swe": [
+
   ],
   "/code-review": [
 
   ],
   "/core-concepts": [
+
+  ],
+  "/dependency-management": [
+
+  ],
+  "/discussion-topics": [
 
   ],
   "/going-blind": [
@@ -1575,32 +1571,20 @@
   "/google-sre-book": [
 
   ],
-  "/hacker-laws": [
-
-  ],
-  "/software-analogies": [
-
-  ],
   "/software-architecture": [
 
   ],
   "/software-engineering": [
-    "/computer-networks",
     "/concurrency",
     "/distributed-systems",
     "/machine-learning",
+    "/networks",
     "/operating-systems",
     "/programming",
     "/projects",
     "/ship-it",
     "/software-security",
     "/system-design"
-  ],
-  "/software-quality": [
-
-  ],
-  "/swe-phil": [
-
   ],
   "/the-joel-test": [
 
@@ -1658,26 +1642,21 @@
   ],
   "/system-design": [
     "/akins-laws-of-spacecraft",
-    "/choose-boring-tech",
     "/concurrency",
     "/containers",
-    "/dependency-management",
     "/distributed-systems",
     "/do-one-thing-at-a-time-and-do-it-well",
-    "/hacker-laws",
     "/oop",
     "/ship-it",
     "/software-security",
+    "/choose-boring-tech",
+    "/hacker-laws",
     "/accessibility"
   ],
   "/tech": [
     "/akins-laws-of-spacecraft",
     "/everyday-objects",
-    "/fluid-field-boundaries",
-    "/hacker-laws",
     "/history-of-technology",
-    "/machine-learning",
-    "/software-engineering",
     "/software-security",
     "/since-big-bang",
     "/accessibility"
@@ -1685,7 +1664,13 @@
   "/a-free-web-again": [
 
   ],
+  "/choose-boring-tech": [
+
+  ],
   "/easy-vs-hard-in-cs": [
+
+  ],
+  "/hacker-laws": [
 
   ],
   "/hijacked-minds": [
@@ -1700,7 +1685,16 @@
   "/social-media": [
 
   ],
+  "/software-analogies": [
+
+  ],
+  "/software-quality": [
+
+  ],
   "/technology-and-time": [
+
+  ],
+  "/thought-on-swe": [
 
   ],
   "/thoughts-on-tech": [

@@ -2,7 +2,7 @@
 
 ---
 
-vcera dnes zitra 
+vcera **dnes** zitra 
 
 vesmirny cas - spacetime 
 

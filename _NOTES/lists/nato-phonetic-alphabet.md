@@ -1,6 +1,5 @@
 ---
 title: NATO phonetic alphabet 
-tags: lists lang
 ---
 
 Alpha

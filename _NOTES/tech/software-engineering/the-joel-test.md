@@ -1,6 +1,6 @@
 ---
 title: The Joel Test
-tags: swe
+tags: lists
 ---
 
 1. Do you use source control?

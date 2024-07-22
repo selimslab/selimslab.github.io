@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_NOTES/tech/ux/accessibility.md",
+                "file": "_NOTES/tech/software-engineering/software-architecture.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_NOTES/tech/ux/accessibility.md",
+                "file": "_NOTES/tech/software-engineering/software-architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_NOTES/tech/ux/accessibility.md",
+                "file": "_NOTES/tech/software-engineering/software-architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_NOTES/tech/ux/accessibility.md"
+                "file": "_NOTES/tech/software-engineering/software-architecture.md"
               }
             }
           }
@@ -158,44 +158,44 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "bc86af8c7183ead1",
+  "active": "c124ba1ec6e0abad",
   "lastOpenFiles": [
+    "_NOTES/arts/languages/modern-greek-alphabet.md",
+    "_NOTES/social-sciences/politics/do-what-is-right.md",
+    "_NOTES/skills/decisions/do-the-right-thing.md",
+    "_NOTES/skills/business/how-to-start-a-business.md",
+    "_NOTES/tech/programming/programming-languages/rust.md",
+    "_NOTES/tech/programming/programming-languages/cpp.md",
+    "_NOTES/tech/programming/programming-languages/haskell.md",
+    "_NOTES/tech/programming/programming-languages/erlang.md",
+    "_NOTES/tech/programming/programming-languages/elixir.md",
+    "_NOTES/tech/programming/programming-languages/java.md",
+    "_NOTES/tech/programming/programming-languages/scala.md",
+    "_NOTES/tech/programming/programming-languages/lisp.md",
+    "_NOTES/tech/programming/programming-languages/go.md",
+    "_NOTES/tech/programming/programming-languages/c.md",
+    "_NOTES/tech/programming/programming-languages/c#.md",
+    "_NOTES/tech/software-engineering/dependency-management.md",
+    "_NOTES/tech/thoughts-on-tech/hacker-laws.md",
+    "_NOTES/tech/thoughts-on-tech/thought-on-swe.md",
+    "_NOTES/tech/software-engineering/software-quality.md",
+    "_NOTES/tech/thoughts-on-tech/software-quality.md",
+    "_NOTES/tech/thoughts-on-tech/software-analogies.md",
+    "_NOTES/tech/thoughts-on-tech/choose-boring-tech.md",
+    "_site/thought-on-swe/index.html",
+    "_site/thought-on-swe",
+    "_NOTES/tech/software-engineering/thought-on-swe.md",
+    "_NOTES/tech/software-engineering/software-architecture.md",
+    "_NOTES/tech/ux/accessibility.md",
+    "_NOTES/tech/software-engineering/discussion-topics.md",
+    "_NOTES/tech/prompt-engineering",
+    "_NOTES/tech/databases/replication",
+    "_site/networks/index.html",
+    "_site/networks",
     "_site/setting-rules/index.html",
     "_site/setting-rules",
-    "_NOTES/skills/leadership/setting-rules.md",
-    "_NOTES/skills/business/company-culture.md",
-    "_NOTES/skills/communication/how-to-pitch.md",
-    "_NOTES/tech/ux/evolution-of-computer-interfaces.md",
-    "_NOTES/tech/ux/natural-tech.md",
-    "_NOTES/tech/ux/polished-pixels.md",
-    "_NOTES/tech/ux/ux.md",
-    "_NOTES/arts/design/ship-it.md",
     "_site/choice/index.html",
     "_site/choice",
-    "_NOTES/arts/philosophy/choice/choice.md",
-    "_NOTES/social-sciences/wasted-talent.md",
-    "_NOTES/social-sciences/economics/wasted-talent.md",
-    "_NOTES/natural-sciences/astronomy",
-    "_NOTES/natural-sciences/physics/the-piston.md",
-    "_NOTES/math/equations-that-changed-the-world.md",
-    "_NOTES/social-sciences/systems/chaos.md",
-    "_NOTES/arts/cinema.md",
-    "_NOTES/lists/documentaries.md",
-    "_NOTES/lists/film-scores.md",
-    "_NOTES/lists/movies.md",
-    "_NOTES/natural-sciences/stem-books.md",
-    "_NOTES/tech/programming/algorithms/algo-books.md",
-    "_site/algo-books/index.html",
-    "_site/algo-books",
-    "_NOTES/lists/books/algo-books.md",
-    "_NOTES/lists/books.md",
-    "_NOTES/arts/philosophy/take-a-walk.md",
-    "_NOTES/arts/philosophy/success-and-failure.md",
-    "_NOTES/arts/philosophy/stupidity.md",
-    "_site/thoughts-on-tech/index.html",
-    "_site/thoughts-on-tech",
-    "_site/discussion-topics/index.html",
-    "_site/discussion-topics",
     "assets/static/img/grow-fresh-air.jpeg",
     "_NOTES/skills/grow-fresh-air.jpeg",
     "_NOTES/practical-skills/grow-fresh-air.jpeg",

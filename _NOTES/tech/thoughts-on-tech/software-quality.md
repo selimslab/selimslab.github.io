@@ -1,5 +1,4 @@
 ---
-tags: swe
 title: Is High Quality Software Worth the Cost?
 ---
 

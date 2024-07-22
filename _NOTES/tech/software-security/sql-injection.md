@@ -1,6 +1,6 @@
 ---
 title: SQL Injection
-tags: sec
+
 
 ---
 

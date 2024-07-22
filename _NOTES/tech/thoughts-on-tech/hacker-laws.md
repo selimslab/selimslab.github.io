@@ -1,6 +1,6 @@
 ---
 title: Hacker Laws
-tags: swe sys tech
+tags: sys
 --- 
 
 > All models are wrong, but some are useful. 
