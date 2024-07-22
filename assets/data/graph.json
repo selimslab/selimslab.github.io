@@ -42,7 +42,6 @@
         "/comics",
         "/datasets",
         "/documentaries",
-        "/essais",
         "/film-scores",
         "/games",
         "/ideas",
@@ -66,6 +65,7 @@
         "/counter-intuitive-math",
         "/discrete-vs-continuous",
         "/eigenvectors",
+        "/equations-that-changed-the-world",
         "/fourier-transform",
         "/laplace-transform",
         "/linear-algebra",
@@ -84,9 +84,7 @@
         "/root",
         "/akins-laws-of-spacecraft",
         "/astronomy",
-        "/chaos",
         "/climate-change",
-        "/equations-that-changed-the-world",
         "/feynman-lectures",
         "/feynmans-epilogue",
         "/maxwells-equations",
@@ -95,11 +93,11 @@
         "/solar-system",
         "/stem-books",
         "/the-overview-effect",
-        "/the-piston",
         "/the-true-size-of-africa",
         "/sleep",
         "/fluid-field-boundaries",
-        "/since-big-bang"
+        "/since-big-bang",
+        "/chaos"
       ]
     },
     {
@@ -133,7 +131,6 @@
         "/submarine-shower",
         "/teaching",
         "/critical-thinking",
-        "/sleep",
         "/negotiations",
         "/on-decision-making",
         "/a-good-life",
@@ -405,24 +402,6 @@
       ]
     },
     {
-      "id": "/essais",
-      "group": 2,
-      "name": "Essais",
-      "links": [
-        "/lists",
-        "/communication",
-        "/negotiations",
-        "/write-better",
-        "/critical-thinking",
-        "/on-decision-making",
-        "/how-to-deal-with-pain",
-        "/in-praise-of-idleness",
-        "/how-to-speak-to-children",
-        "/overvaluing-short-term",
-        "/technology-and-time"
-      ]
-    },
-    {
       "id": "/film-scores",
       "group": 2,
       "name": "Film Scores",
@@ -531,6 +510,14 @@
       ]
     },
     {
+      "id": "/equations-that-changed-the-world",
+      "group": 2,
+      "name": "Equations That Changed The World",
+      "links": [
+        "/math"
+      ]
+    },
+    {
       "id": "/fourier-transform",
       "group": 2,
       "name": "Fourier Transform",
@@ -604,27 +591,9 @@
       ]
     },
     {
-      "id": "/chaos",
-      "group": 2,
-      "name": "Systems and Chaos",
-      "links": [
-        "/natural-sciences",
-        "/systems",
-        "/system-design"
-      ]
-    },
-    {
       "id": "/climate-change",
       "group": 2,
       "name": "Climate Change",
-      "links": [
-        "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/equations-that-changed-the-world",
-      "group": 2,
-      "name": "Equations That Changed The World",
       "links": [
         "/natural-sciences"
       ]
@@ -668,7 +637,8 @@
       "links": [
         "/natural-sciences",
         "/classical-physics",
-        "/inertia"
+        "/inertia",
+        "/the-piston"
       ]
     },
     {
@@ -697,14 +667,6 @@
       ]
     },
     {
-      "id": "/the-piston",
-      "group": 2,
-      "name": "The Piston",
-      "links": [
-        "/natural-sciences"
-      ]
-    },
-    {
       "id": "/the-true-size-of-africa",
       "group": 2,
       "name": "The True Size Of Africa",
@@ -727,6 +689,7 @@
         "/sales",
         "/trading",
         "/thoughts-on-work",
+        "/wasted-talent",
         "/how-to-start-a-business",
         "/leadership"
       ]
@@ -751,7 +714,6 @@
         "/negotiations",
         "/public-speaking",
         "/write-better",
-        "/essais",
         "/how-to-pitch",
         "/social-sciences"
       ]
@@ -1017,7 +979,7 @@
       "name": "In Praise Of Idleness",
       "links": [
         "/social-sciences",
-        "/essais",
+        "/thoughts-on-work",
         "/four-day-workweek"
       ]
     },
@@ -1103,9 +1065,8 @@
       "name": "Systems thinking",
       "links": [
         "/social-sciences",
-        "/broken-systems",
         "/chaos",
-        "/broken-systems"
+        "/chaos"
       ]
     },
     {
@@ -1132,6 +1093,7 @@
       "name": "Wasted Talent",
       "links": [
         "/social-sciences",
+        "/business",
         "/leadership"
       ]
     },
@@ -1339,7 +1301,6 @@
         "/oop",
         "/ship-it",
         "/software-security",
-        "/chaos",
         "/accessibility",
         "/ux"
       ]
@@ -1946,6 +1907,14 @@
       ]
     },
     {
+      "id": "/the-piston",
+      "group": 3,
+      "name": "The Piston",
+      "links": [
+        "/physics"
+      ]
+    },
+    {
       "id": "/fire-and-motion",
       "group": 3,
       "name": "Fire And Motion",
@@ -2042,7 +2011,6 @@
       "name": "Negotiations",
       "links": [
         "/communication",
-        "/essais",
         "/persuasion",
         "/skills",
         "/social-sciences"
@@ -2063,7 +2031,6 @@
       "name": "On writing",
       "links": [
         "/communication",
-        "/essais",
         "/skills"
       ]
     },
@@ -2077,7 +2044,6 @@
         "/questions",
         "/truth",
         "/insight-and-strength",
-        "/essais",
         "/on-decision-making",
         "/problem-solving",
         "/skills"
@@ -2123,7 +2089,6 @@
         "/do-not-lie-to-yourself",
         "/free-will",
         "/freedom",
-        "/essais",
         "/critical-thinking",
         "/do-what-is-right",
         "/do-without-doing",
@@ -2153,8 +2118,7 @@
       "name": "How to deal with Extreme Physical Pain",
       "links": [
         "/health",
-        "/philosophy",
-        "/essais"
+        "/philosophy"
       ]
     },
     {
@@ -2163,8 +2127,7 @@
       "name": "How to sleep better?",
       "links": [
         "/health",
-        "/natural-sciences",
-        "/skills"
+        "/natural-sciences"
       ]
     },
     {
@@ -2608,11 +2571,12 @@
       ]
     },
     {
-      "id": "/broken-systems",
+      "id": "/chaos",
       "group": 3,
-      "name": "Broken Systems",
+      "name": "Chaos",
       "links": [
         "/systems",
+        "/natural-sciences",
         "/systems"
       ]
     },
@@ -3399,8 +3363,7 @@
       "group": 3,
       "name": "Technology And Time",
       "links": [
-        "/thoughts-on-tech",
-        "/essais"
+        "/thoughts-on-tech"
       ]
     },
     {
@@ -3804,6 +3767,7 @@
       "links": [
         "/work",
         "/be-good-to-each-other-and-yourself",
+        "/in-praise-of-idleness",
         "/business",
         "/leadership"
       ]
@@ -3931,8 +3895,7 @@
       "group": 4,
       "name": "How To Speak To Children",
       "links": [
-        "/children",
-        "/essais"
+        "/children"
       ]
     },
     {
@@ -3965,7 +3928,6 @@
       "name": "Overvaluing Short Term",
       "links": [
         "/cognitive-biases",
-        "/essais",
         "/leadership"
       ]
     },
@@ -5408,10 +5370,6 @@
     },
     {
       "source": "/lists",
-      "target": "/essais"
-    },
-    {
-      "source": "/lists",
       "target": "/film-scores"
     },
     {
@@ -5464,6 +5422,10 @@
     },
     {
       "source": "/math",
+      "target": "/equations-that-changed-the-world"
+    },
+    {
+      "source": "/math",
       "target": "/fourier-transform"
     },
     {
@@ -5496,15 +5458,7 @@
     },
     {
       "source": "/natural-sciences",
-      "target": "/chaos"
-    },
-    {
-      "source": "/natural-sciences",
       "target": "/climate-change"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/equations-that-changed-the-world"
     },
     {
       "source": "/natural-sciences",
@@ -5537,10 +5491,6 @@
     {
       "source": "/natural-sciences",
       "target": "/the-overview-effect"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/the-piston"
     },
     {
       "source": "/natural-sciences",
@@ -5991,6 +5941,10 @@
       "target": "/inertia"
     },
     {
+      "source": "/physics",
+      "target": "/the-piston"
+    },
+    {
       "source": "/business",
       "target": "/fire-and-motion"
     },
@@ -6280,7 +6234,7 @@
     },
     {
       "source": "/systems",
-      "target": "/broken-systems"
+      "target": "/chaos"
     },
     {
       "source": "/databases",
@@ -7651,6 +7605,10 @@
       "target": "/what-to-work-on"
     },
     {
+      "source": "/thoughts-on-work",
+      "target": "/in-praise-of-idleness"
+    },
+    {
       "source": "/what-to-work-on",
       "target": "/get-things-done"
     },
@@ -7699,46 +7657,6 @@
       "target": "/statistics"
     },
     {
-      "source": "/essais",
-      "target": "/communication"
-    },
-    {
-      "source": "/essais",
-      "target": "/negotiations"
-    },
-    {
-      "source": "/essais",
-      "target": "/write-better"
-    },
-    {
-      "source": "/essais",
-      "target": "/critical-thinking"
-    },
-    {
-      "source": "/essais",
-      "target": "/on-decision-making"
-    },
-    {
-      "source": "/essais",
-      "target": "/how-to-deal-with-pain"
-    },
-    {
-      "source": "/essais",
-      "target": "/in-praise-of-idleness"
-    },
-    {
-      "source": "/essais",
-      "target": "/how-to-speak-to-children"
-    },
-    {
-      "source": "/essais",
-      "target": "/overvaluing-short-term"
-    },
-    {
-      "source": "/essais",
-      "target": "/technology-and-time"
-    },
-    {
       "source": "/lists",
       "target": "/classics"
     },
@@ -7763,10 +7681,6 @@
       "target": "/polished-pixels"
     },
     {
-      "source": "/chaos",
-      "target": "/systems"
-    },
-    {
       "source": "/natural-sciences",
       "target": "/sleep"
     },
@@ -7779,8 +7693,16 @@
       "target": "/since-big-bang"
     },
     {
+      "source": "/natural-sciences",
+      "target": "/chaos"
+    },
+    {
       "source": "/business",
       "target": "/thoughts-on-work"
+    },
+    {
+      "source": "/business",
+      "target": "/wasted-talent"
     },
     {
       "source": "/business",
@@ -7881,10 +7803,6 @@
     {
       "source": "/skills",
       "target": "/critical-thinking"
-    },
-    {
-      "source": "/skills",
-      "target": "/sleep"
     },
     {
       "source": "/skills",
@@ -8019,7 +7937,7 @@
       "target": "/is-tech-fast-or-slow"
     },
     {
-      "source": "/broken-systems",
+      "source": "/chaos",
       "target": "/systems"
     },
     {
@@ -8533,10 +8451,6 @@
     {
       "source": "/system-design",
       "target": "/software-security"
-    },
-    {
-      "source": "/system-design",
-      "target": "/chaos"
     },
     {
       "source": "/system-design",

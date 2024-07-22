@@ -266,7 +266,7 @@
     "/what-to-work-on"
   ],
   "/thoughts-on-work": [
-
+    "/in-praise-of-idleness"
   ],
   "/what-to-work-on": [
     "/get-things-done",
@@ -386,18 +386,6 @@
   "/documentaries": [
 
   ],
-  "/essais": [
-    "/communication",
-    "/negotiations",
-    "/write-better",
-    "/critical-thinking",
-    "/on-decision-making",
-    "/how-to-deal-with-pain",
-    "/in-praise-of-idleness",
-    "/how-to-speak-to-children",
-    "/overvaluing-short-term",
-    "/technology-and-time"
-  ],
   "/film-scores": [
 
   ],
@@ -441,6 +429,9 @@
   "/eigenvectors": [
 
   ],
+  "/equations-that-changed-the-world": [
+
+  ],
   "/fourier-transform": [
 
   ],
@@ -482,13 +473,7 @@
   "/astronomy": [
 
   ],
-  "/chaos": [
-    "/systems"
-  ],
   "/climate-change": [
-
-  ],
-  "/equations-that-changed-the-world": [
 
   ],
   "/feynman-lectures": [
@@ -503,7 +488,8 @@
   "/natural-sciences": [
     "/sleep",
     "/fluid-field-boundaries",
-    "/since-big-bang"
+    "/since-big-bang",
+    "/chaos"
   ],
   "/philosophical-implications-of-quantum-mechanics": [
 
@@ -517,6 +503,9 @@
   "/physics": [
 
   ],
+  "/the-piston": [
+
+  ],
   "/solar-system": [
 
   ],
@@ -526,14 +515,12 @@
   "/the-overview-effect": [
 
   ],
-  "/the-piston": [
-
-  ],
   "/the-true-size-of-africa": [
 
   ],
   "/business": [
     "/thoughts-on-work",
+    "/wasted-talent",
     "/how-to-start-a-business"
   ],
   "/fire-and-motion": [
@@ -708,7 +695,6 @@
     "/communication",
     "/critical-thinking",
     "/decisions",
-    "/sleep",
     "/leadership",
     "/negotiations",
     "/on-decision-making",
@@ -952,7 +938,7 @@
     "/hijacked-minds",
     "/is-tech-fast-or-slow"
   ],
-  "/broken-systems": [
+  "/chaos": [
     "/systems"
   ],
   "/systems": [
@@ -1703,7 +1689,6 @@
     "/oop",
     "/ship-it",
     "/software-security",
-    "/chaos",
     "/accessibility",
     "/ux"
   ],

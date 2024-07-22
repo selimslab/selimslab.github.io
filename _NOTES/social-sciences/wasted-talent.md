@@ -14,3 +14,4 @@ Why are we wasting so much natural intelligence?
 
 Talent is everywhere but opportunity is not.
 
+[[business]]

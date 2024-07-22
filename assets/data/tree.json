@@ -268,8 +268,6 @@
     },
     "/documentaries": {
     },
-    "/essais": {
-    },
     "/film-scores": {
     },
     "/games": {
@@ -299,6 +297,8 @@
     "/discrete-vs-continuous": {
     },
     "/eigenvectors": {
+    },
+    "/equations-that-changed-the-world": {
     },
     "/fourier-transform": {
     },
@@ -332,11 +332,7 @@
     },
     "/astronomy": {
     },
-    "/chaos": {
-    },
     "/climate-change": {
-    },
-    "/equations-that-changed-the-world": {
     },
     "/feynman-lectures": {
     },
@@ -354,6 +350,8 @@
       "/inertia": {
       },
       "/physics": {
+      },
+      "/the-piston": {
       }
     },
     "/solar-system": {
@@ -361,8 +359,6 @@
     "/stem-books": {
     },
     "/the-overview-effect": {
-    },
-    "/the-piston": {
     },
     "/the-true-size-of-africa": {
     }
@@ -653,7 +649,7 @@
     "/social-sciences": {
     },
     "/systems": {
-      "/broken-systems": {
+      "/chaos": {
       },
       "/systems": {
       }

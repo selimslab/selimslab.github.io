@@ -1,6 +1,6 @@
 ---
 title: Critical thinking
-tags: skills phil essais
+tags: skills phil 
 ---
 
 - Dare to see with your own eyes

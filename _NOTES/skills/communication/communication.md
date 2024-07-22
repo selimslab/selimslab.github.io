@@ -1,5 +1,5 @@
 ---
-tags: skills soc essais
+tags: skills soc 
 ---
 
 ![](/assets/static/img/listen-with-passion.png)
