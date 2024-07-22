@@ -1,5 +1,5 @@
 ---
- 
+tags: pols 
 ---
 
 If you only see the obvious, you win by difficulty 

@@ -1,8 +1,8 @@
 ---
 ---
 
-Irrevocable judgement
+Zeitgeist 
 
-The spirit of times
+Irrevocable judgement
 
 "i pensieri stretti & il viso sciolto." 

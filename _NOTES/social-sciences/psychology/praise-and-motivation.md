@@ -1,5 +1,5 @@
 ---
-
+tags: lead
 ---
 
 "Recipients of praise do work harder, but only initially.

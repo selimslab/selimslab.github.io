@@ -2,7 +2,7 @@
  
 ---
 
-Maybe the most misunderstood thinker, even in his own time 
+A misunderstood thinker, even in his own time 
 
 Epicurus regarded ataraxia (tranquility, freedom from fear) and aponia (absence of pain) as the height of happiness. A simple life free from fear, pain, greed, desire, anger, and worry
 

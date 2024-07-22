@@ -2,7 +2,7 @@
 tags: design tech 
 ---
 
-<https://www.toddmclellan.com/thingscomeapart>
+[Things Come Apart - TODD MCLELLAN MOTION/STILLS](https://www.toddmclellan.com/thingscomeapart)
 
 [Mechanical Watch – Bartosz Ciechanowski](https://ciechanow.ski/mechanical-watch/)
 

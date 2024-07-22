@@ -4,47 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "a65c2adfcd5cb343",
+        "id": "5a6baa8d6879a1cb",
         "type": "tabs",
         "children": [
           {
-            "id": "55873a392afdd3ca",
+            "id": "ec07143514c18e6e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_NOTES/_TODO.md",
+                "file": "_NOTES/arts/philosophy/thoughts-on-work.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "774397bb4d40224c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_NOTES/_x.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9c0a4dc9f9dbef06",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.7"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,6 +65,14 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "c0a1fc5dfccb8e13",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
           }
         ]
       }
@@ -110,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_NOTES/_x.md",
+                "file": "_NOTES/arts/philosophy/thoughts-on-work.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_NOTES/_x.md",
+                "file": "_NOTES/arts/philosophy/thoughts-on-work.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_NOTES/_x.md"
+                "file": "_NOTES/arts/philosophy/thoughts-on-work.md"
               }
             }
           }
@@ -169,57 +153,59 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "9c0a4dc9f9dbef06",
+  "active": "ec07143514c18e6e",
   "lastOpenFiles": [
-    "_site/assets/data/backlinks.json",
-    "assets/data/backlinks.json",
-    "index.md",
-    "README.md",
-    "_site/since-big-bang/index.html",
-    "_site/since-big-bang",
-    "_NOTES/social-sciences/history/since-big-bang.md",
-    "x.md",
-    "_NOTES/_x.md",
-    "Untitled 1.md",
-    "Untitled.md",
-    "_NOTES/_TODO.md",
+    "_NOTES/social-sciences/economics/the-tragedy-of-the-commons.md",
+    "_NOTES/arts/philosophy/travelling.md",
+    "_NOTES/arts/philosophy/unhappy-in-their-own-way.md",
+    "_NOTES/arts/philosophy/thoughts-on-work.md",
+    "_NOTES/arts/philosophy/balance/the-less-the-better.md",
+    "_NOTES/arts/philosophy/balance/still-vs-running-water.md",
+    "_NOTES/arts/philosophy/success-and-failure.md",
+    "_NOTES/arts/philosophy/gain-and-loss/success-and-failure.md",
+    "_NOTES/arts/philosophy/gain-and-loss/failure.md",
+    "_NOTES/arts/philosophy/success.md",
+    "_NOTES/arts/philosophy/gain-and-loss/success.md",
+    "_NOTES/arts/philosophy/questions",
+    "_NOTES/arts/philosophy/choice/experiences-vs-materials.md",
+    "_NOTES/arts/philosophy/experiences-vs-materials.md",
+    "_NOTES/arts/philosophy/choice/pleasure-vs-possibility.md",
+    "_NOTES/arts/philosophy/choice/good-and-evil.md",
+    "_NOTES/arts/philosophy/choice/you-can-always-choose-your-way.md",
+    "_NOTES/arts/philosophy/gain-and-loss",
+    "_NOTES/arts/philosophy/the-less-the-better.md",
+    "_NOTES/arts/philosophy/stupidity.md",
+    "_NOTES/arts/philosophy/still-vs-running-water.md",
+    "_NOTES/arts/philosophy/search-for-meaning.md",
+    "_NOTES/arts/philosophy/pleasure-vs-possibility.md",
+    "_NOTES/arts/philosophy/questions.md",
+    "_NOTES/arts/philosophy/philosophy.md",
+    "_NOTES/arts/philosophy/one-bit-better.md",
+    "_NOTES/arts/philosophy/love.md",
+    "_NOTES/arts/philosophy/life-is-play.md",
+    "_NOTES/arts/philosophy/choice",
+    "_NOTES/arts/philosophy/balance",
+    "_NOTES/arts/philosophy/time",
+    "_NOTES/tech/interviews",
+    "_NOTES/tech/encoding",
+    "_NOTES/tech/thoughts-on-tech",
+    "_NOTES/tech/engineering-management",
+    "_NOTES/social-sciences/systems",
+    "_NOTES/practical-skills/grow-fresh-air.jpeg",
     "_site/assets/static/solar/2k_stars_milky_way3.jpg",
     "assets/static/solar/2k_stars_milky_way3.jpg",
     "_site/assets/static/solar/2k_stars_milky_way2.jpg",
     "assets/static/solar/2k_stars_milky_way2.jpg",
-    "assets/static/solar/2k_stars_milky_way2.jpg.~tmp",
-    "_site/soft-power/index.html",
-    "_site/soft-power",
-    "_NOTES/social-sciences/politics/soft-power.md",
-    "_site/prince/index.html",
-    "_site/prince",
-    "_NOTES/social-sciences/politics/prince.md",
-    "_site/hollow-power/index.html",
-    "_site/hollow-power",
-    "_NOTES/arts/poetry/tao-te-ching/hollow-power.md",
-    "_NOTES/social-sciences/history/last-million.md",
     "_site/assets/static/wind-spring-white-stratosphere-pure.jpg",
     "assets/static/wind-spring-white-stratosphere-pure.jpg",
-    "_NOTES/lists/books/books.md",
-    "_NOTES/practical-skills/making-videos.md",
-    "_NOTES/social-sciences/psychology/children/children-and-school.md",
-    "_NOTES/social-sciences/psychology/children/children.md",
-    "_NOTES/tech/software-engineering/choose-boring-tech.md",
-    "_NOTES/tech/ux/ux.md",
-    "_NOTES/tech/ux/polished-pixels.md",
-    "_NOTES/tech/ux/things-users-care.md",
-    "_NOTES/tech/ux/usability-testing.md",
-    "_NOTES/tech/machine-learning/machine-learning.md",
-    "_NOTES/math/math.md",
-    "_NOTES/practical-skills/communication/communication.md",
-    "_NOTES/tech/operating-systems/concurrency.md",
     "_site/assets/static/solar/marble.jpg",
     "assets/static/solar/marble.jpg",
     "_site/assets/static/solar/NASA-Apollo8-Dec24-Earthrise.jpg",
-    "assets/static/solar/NASA-Apollo8-Dec24-Earthrise.jpg",
     "Untitled.canvas"
   ]
 }

@@ -12,6 +12,9 @@ A large part of happiness depends on health. Freedom, security, love, friendship
 
 ![](/assets/static/img/boy-and-cat.jpeg)
 
+
+"Happy families are all alike; every unhappy family is unhappy in its own way." Tolstoy in Anna Karenina
+
 “Folks are usually about as happy as they make their minds up to be.” _Abraham Lincoln_
 
 ![](/assets/static/img/happier-dog.jpeg)
