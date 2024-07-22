@@ -13,19 +13,35 @@ class SiteGenerator < Jekyll::Generator
         generate(site)
       end
 
-      init(site)
+      site.documents.each do |doc|
+        doc.data['backlinks'] ||= []
+      end
+
+      site.data["file_to_tag"] = site.data["tag_to_file"].invert
+
+      site.data["file_to_title"] = site.documents.map do |doc|
+        [remove_leading_slash(doc.id), doc.data["title"]]
+      end.to_h
 
       generate_tree(site)
 
       site.documents.each do |doc|
-        process_doc(doc, site)
+        remove_tags_to_parent(doc, site)
+        doc.data['tags'] = doc.data['tags'].uniq.sort
+
+        wikilinks_to_backlinks(doc, site)
+        tags_to_backlinks(doc, site)
+  
+        # remove links to self
+        doc.data['backlinks'] = doc.data['backlinks'].reject { |e| e.id == doc.id }.sort_by { |e| e.data["title"] }
+  
+        replace_links_in_content(doc, site)
       end
 
       site.documents.each do |doc|
           # dedup backlinks
           doc.data['backlinks'] = doc.data['backlinks'].uniq
       end
-
 
       begin
         File.open("./assets/data/tree.json", "w") do |f|
@@ -38,39 +54,14 @@ class SiteGenerator < Jekyll::Generator
       graph = generate_graph(site)
 
       site.data["link_count"] = 0
-
-      # count <a> tag in the site
       site.data["link_count"] += site.documents.map { |doc| doc.content.scan(/<a/).length }.sum
+      site.data["link_count"] += graph[:links].length
 
       # add ideas to site.data
       site.data["ideas"] = JSON.parse(File.read("./assets/data/ideas.json")).sort
 
-      site.data["link_count"] += graph[:links].length
-
-      # print backlinks to json
-      backlinks = site.documents.map do |doc|
-        [doc.id, doc.data['backlinks'].map { |e| e.id }]
-      end
-      # print backlinks to json
-      File.open("./assets/data/backlinks.json", "w") do |f|
-        f.write(JSON.pretty_generate(backlinks.to_h))
-      end
-
     end
 
-    def init(site)
-
-      site.documents.each do |doc|
-        doc.data['backlinks'] ||= []
-      end
-
-      site.data["file_to_tag"] = site.data["tag_to_file"].invert
-
-      site.data["file_to_title"] = site.documents.map do |doc|
-        [remove_leading_slash(doc.id), doc.data["title"]]
-      end.to_h
-
-    end
 
     def remove_leading_slash(str)
       return str.sub(/^\//, '')
@@ -161,8 +152,6 @@ class SiteGenerator < Jekyll::Generator
     end
 
 
-
-
     def generate_tree(site)
       tree= bfs(site, NOTES_PATH)
       site.data["tree"] = tree
@@ -209,22 +198,7 @@ class SiteGenerator < Jekyll::Generator
           File.open(file, "w") { |f| f.write(content) }
           puts "Fixed #{fixed} links in: #{file}"
         end
-
-
       end
-    end
-
-
-    def process_doc(doc, site)
-      remove_tags_to_parent(doc, site)
-
-      wikilinks_to_backlinks(doc, site)
-      tags_to_backlinks(doc, site)
-
-      # remove links to self
-      doc.data['backlinks'] = doc.data['backlinks'].reject { |e| e.id == doc.id }.uniq.sort_by { |e| e.data["title"] }
-
-      replace_links_in_content(doc, site)
     end
 
     def remove_tags_to_parent(doc, site)
@@ -237,10 +211,6 @@ class SiteGenerator < Jekyll::Generator
         parent_shorttag = site.data["file_to_tag"][parent_basename]
         doc.data['tags'] = doc.data['tags'].reject { |e| e == parent_shorttag  }
         doc.data['tags'] = doc.data['tags'].reject { |e| e == parent_basename  }
-
-        # dedup tags
-        doc.data['tags'] = doc.data['tags'].uniq.sort
-
     end
 
     def wikilinks_to_backlinks(doc, site)
@@ -250,7 +220,7 @@ class SiteGenerator < Jekyll::Generator
       end
 
       linking_to_doc.each do |linking_doc|
-        next if doc.data["children"]&.include?(linking_doc.id)
+        next if doc.data['children']&.include?(linking_doc.id)
         doc.data['backlinks'] << linking_doc
       end
     end
