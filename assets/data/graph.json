@@ -179,6 +179,7 @@
         "/networks",
         "/nlp",
         "/databases",
+        "/digital-security",
         "/distributed-systems",
         "/encoding",
         "/engineering-management",
@@ -186,7 +187,6 @@
         "/programming",
         "/prompt-engineering",
         "/software-engineering",
-        "/software-security",
         "/system-design",
         "/thoughts-on-tech",
         "/ux",
@@ -1099,6 +1099,28 @@
       ]
     },
     {
+      "id": "/digital-security",
+      "group": 2,
+      "name": "Digital-security",
+      "links": [
+        "/tech",
+        "/aes",
+        "/authentication",
+        "/authorization",
+        "/certificates",
+        "/cookies",
+        "/cors",
+        "/csrf",
+        "/openssl-encrypt",
+        "/public-key-cryptography",
+        "/security-heuristics",
+        "/sql-injection",
+        "/store-passwords",
+        "/transport-layer-security",
+        "/xss"
+      ]
+    },
+    {
       "id": "/distributed-systems",
       "group": 2,
       "name": "Distributed Systems",
@@ -1200,28 +1222,6 @@
         "/projects",
         "/ship-it",
         "/system-design"
-      ]
-    },
-    {
-      "id": "/software-security",
-      "group": 2,
-      "name": "Software Security swe tech sys",
-      "links": [
-        "/tech",
-        "/aes",
-        "/authentication",
-        "/authorization",
-        "/certificates",
-        "/cookies",
-        "/cors",
-        "/csrf",
-        "/openssl-encrypt",
-        "/public-key-cryptography",
-        "/security-heuristics",
-        "/sql-injection",
-        "/store-passwords",
-        "/transport-layer-security",
-        "/xss"
       ]
     },
     {
@@ -2641,6 +2641,118 @@
       ]
     },
     {
+      "id": "/aes",
+      "group": 3,
+      "name": "AES",
+      "links": [
+        "/digital-security"
+      ]
+    },
+    {
+      "id": "/authentication",
+      "group": 3,
+      "name": "Authentication",
+      "links": [
+        "/digital-security"
+      ]
+    },
+    {
+      "id": "/authorization",
+      "group": 3,
+      "name": "Authorization",
+      "links": [
+        "/digital-security"
+      ]
+    },
+    {
+      "id": "/certificates",
+      "group": 3,
+      "name": "Certificates",
+      "links": [
+        "/digital-security"
+      ]
+    },
+    {
+      "id": "/cookies",
+      "group": 3,
+      "name": "Cookies",
+      "links": [
+        "/digital-security"
+      ]
+    },
+    {
+      "id": "/cors",
+      "group": 3,
+      "name": "Cross-origin Resource Sharing (CORS)",
+      "links": [
+        "/digital-security"
+      ]
+    },
+    {
+      "id": "/csrf",
+      "group": 3,
+      "name": "Cross-site request forgery",
+      "links": [
+        "/digital-security"
+      ]
+    },
+    {
+      "id": "/openssl-encrypt",
+      "group": 3,
+      "name": "How to encrypt-decrypt a file with a password",
+      "links": [
+        "/digital-security"
+      ]
+    },
+    {
+      "id": "/public-key-cryptography",
+      "group": 3,
+      "name": "Public Key Cryptography",
+      "links": [
+        "/digital-security"
+      ]
+    },
+    {
+      "id": "/security-heuristics",
+      "group": 3,
+      "name": "Security Heuristics",
+      "links": [
+        "/digital-security"
+      ]
+    },
+    {
+      "id": "/sql-injection",
+      "group": 3,
+      "name": "SQL Injection",
+      "links": [
+        "/digital-security"
+      ]
+    },
+    {
+      "id": "/store-passwords",
+      "group": 3,
+      "name": "How to store passwords?",
+      "links": [
+        "/digital-security"
+      ]
+    },
+    {
+      "id": "/transport-layer-security",
+      "group": 3,
+      "name": "Transport Layer Security",
+      "links": [
+        "/digital-security"
+      ]
+    },
+    {
+      "id": "/xss",
+      "group": 3,
+      "name": "Cross-site scripting",
+      "links": [
+        "/digital-security"
+      ]
+    },
+    {
       "id": "/armstrong-thesis",
       "group": 3,
       "name": "Armstrong Thesis",
@@ -3091,118 +3203,6 @@
       "links": [
         "/software-engineering",
         "/lists"
-      ]
-    },
-    {
-      "id": "/aes",
-      "group": 3,
-      "name": "AES",
-      "links": [
-        "/software-security"
-      ]
-    },
-    {
-      "id": "/authentication",
-      "group": 3,
-      "name": "Authentication",
-      "links": [
-        "/software-security"
-      ]
-    },
-    {
-      "id": "/authorization",
-      "group": 3,
-      "name": "Authorization",
-      "links": [
-        "/software-security"
-      ]
-    },
-    {
-      "id": "/certificates",
-      "group": 3,
-      "name": "Certificates",
-      "links": [
-        "/software-security"
-      ]
-    },
-    {
-      "id": "/cookies",
-      "group": 3,
-      "name": "Cookies",
-      "links": [
-        "/software-security"
-      ]
-    },
-    {
-      "id": "/cors",
-      "group": 3,
-      "name": "Cross-origin Resource Sharing (CORS)",
-      "links": [
-        "/software-security"
-      ]
-    },
-    {
-      "id": "/csrf",
-      "group": 3,
-      "name": "Cross-site request forgery",
-      "links": [
-        "/software-security"
-      ]
-    },
-    {
-      "id": "/openssl-encrypt",
-      "group": 3,
-      "name": "How to encrypt-decrypt a file with a password",
-      "links": [
-        "/software-security"
-      ]
-    },
-    {
-      "id": "/public-key-cryptography",
-      "group": 3,
-      "name": "Public Key Cryptography",
-      "links": [
-        "/software-security"
-      ]
-    },
-    {
-      "id": "/security-heuristics",
-      "group": 3,
-      "name": "Security Heuristics",
-      "links": [
-        "/software-security"
-      ]
-    },
-    {
-      "id": "/sql-injection",
-      "group": 3,
-      "name": "SQL Injection",
-      "links": [
-        "/software-security"
-      ]
-    },
-    {
-      "id": "/store-passwords",
-      "group": 3,
-      "name": "How to store passwords?",
-      "links": [
-        "/software-security"
-      ]
-    },
-    {
-      "id": "/transport-layer-security",
-      "group": 3,
-      "name": "Transport Layer Security",
-      "links": [
-        "/software-security"
-      ]
-    },
-    {
-      "id": "/xss",
-      "group": 3,
-      "name": "Cross-site scripting",
-      "links": [
-        "/software-security"
       ]
     },
     {
@@ -5580,6 +5580,10 @@
     },
     {
       "source": "/tech",
+      "target": "/digital-security"
+    },
+    {
+      "source": "/tech",
       "target": "/distributed-systems"
     },
     {
@@ -5605,10 +5609,6 @@
     {
       "source": "/tech",
       "target": "/software-engineering"
-    },
-    {
-      "source": "/tech",
-      "target": "/software-security"
     },
     {
       "source": "/tech",
@@ -6211,6 +6211,62 @@
       "target": "/replication"
     },
     {
+      "source": "/digital-security",
+      "target": "/aes"
+    },
+    {
+      "source": "/digital-security",
+      "target": "/authentication"
+    },
+    {
+      "source": "/digital-security",
+      "target": "/authorization"
+    },
+    {
+      "source": "/digital-security",
+      "target": "/certificates"
+    },
+    {
+      "source": "/digital-security",
+      "target": "/cookies"
+    },
+    {
+      "source": "/digital-security",
+      "target": "/cors"
+    },
+    {
+      "source": "/digital-security",
+      "target": "/csrf"
+    },
+    {
+      "source": "/digital-security",
+      "target": "/openssl-encrypt"
+    },
+    {
+      "source": "/digital-security",
+      "target": "/public-key-cryptography"
+    },
+    {
+      "source": "/digital-security",
+      "target": "/security-heuristics"
+    },
+    {
+      "source": "/digital-security",
+      "target": "/sql-injection"
+    },
+    {
+      "source": "/digital-security",
+      "target": "/store-passwords"
+    },
+    {
+      "source": "/digital-security",
+      "target": "/transport-layer-security"
+    },
+    {
+      "source": "/digital-security",
+      "target": "/xss"
+    },
+    {
       "source": "/distributed-systems",
       "target": "/armstrong-thesis"
     },
@@ -6369,62 +6425,6 @@
     {
       "source": "/software-engineering",
       "target": "/the-joel-test"
-    },
-    {
-      "source": "/software-security",
-      "target": "/aes"
-    },
-    {
-      "source": "/software-security",
-      "target": "/authentication"
-    },
-    {
-      "source": "/software-security",
-      "target": "/authorization"
-    },
-    {
-      "source": "/software-security",
-      "target": "/certificates"
-    },
-    {
-      "source": "/software-security",
-      "target": "/cookies"
-    },
-    {
-      "source": "/software-security",
-      "target": "/cors"
-    },
-    {
-      "source": "/software-security",
-      "target": "/csrf"
-    },
-    {
-      "source": "/software-security",
-      "target": "/openssl-encrypt"
-    },
-    {
-      "source": "/software-security",
-      "target": "/public-key-cryptography"
-    },
-    {
-      "source": "/software-security",
-      "target": "/security-heuristics"
-    },
-    {
-      "source": "/software-security",
-      "target": "/sql-injection"
-    },
-    {
-      "source": "/software-security",
-      "target": "/store-passwords"
-    },
-    {
-      "source": "/software-security",
-      "target": "/transport-layer-security"
-    },
-    {
-      "source": "/software-security",
-      "target": "/xss"
     },
     {
       "source": "/system-design",

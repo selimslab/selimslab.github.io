@@ -698,6 +698,36 @@
         }
       }
     },
+    "/digital-security": {
+      "/aes": {
+      },
+      "/authentication": {
+      },
+      "/authorization": {
+      },
+      "/certificates": {
+      },
+      "/cookies": {
+      },
+      "/cors": {
+      },
+      "/csrf": {
+      },
+      "/openssl-encrypt": {
+      },
+      "/public-key-cryptography": {
+      },
+      "/security-heuristics": {
+      },
+      "/sql-injection": {
+      },
+      "/store-passwords": {
+      },
+      "/transport-layer-security": {
+      },
+      "/xss": {
+      }
+    },
     "/distributed-systems": {
       "/armstrong-thesis": {
       },
@@ -1076,38 +1106,6 @@
       "/software-engineering": {
       },
       "/the-joel-test": {
-      }
-    },
-    "/software-security": {
-      "/aes": {
-      },
-      "/authentication": {
-      },
-      "/authorization": {
-      },
-      "/certificates": {
-      },
-      "/cookies": {
-      },
-      "/cors": {
-      },
-      "/csrf": {
-      },
-      "/openssl-encrypt": {
-      },
-      "/public-key-cryptography": {
-      },
-      "/security-heuristics": {
-      },
-      "/software-security": {
-      },
-      "/sql-injection": {
-      },
-      "/store-passwords": {
-      },
-      "/transport-layer-security": {
-      },
-      "/xss": {
       }
     },
     "/system-design": {

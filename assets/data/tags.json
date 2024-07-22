@@ -977,6 +977,48 @@
   "/sql-tips": [
     "databases"
   ],
+  "/aes": [
+
+  ],
+  "/authentication": [
+
+  ],
+  "/authorization": [
+
+  ],
+  "/certificates": [
+
+  ],
+  "/cookies": [
+
+  ],
+  "/cors": [
+
+  ],
+  "/csrf": [
+
+  ],
+  "/openssl-encrypt": [
+
+  ],
+  "/public-key-cryptography": [
+
+  ],
+  "/security-heuristics": [
+
+  ],
+  "/sql-injection": [
+
+  ],
+  "/store-passwords": [
+
+  ],
+  "/transport-layer-security": [
+
+  ],
+  "/xss": [
+
+  ],
   "/armstrong-thesis": [
     "distributed-systems"
   ],
@@ -1626,51 +1668,6 @@
   "/the-joel-test": [
     "lists",
     "software-engineering"
-  ],
-  "/aes": [
-    "software-security"
-  ],
-  "/authentication": [
-    "software-security"
-  ],
-  "/authorization": [
-    "software-security"
-  ],
-  "/certificates": [
-    "software-security"
-  ],
-  "/cookies": [
-    "software-security"
-  ],
-  "/cors": [
-    "software-security"
-  ],
-  "/csrf": [
-    "software-security"
-  ],
-  "/openssl-encrypt": [
-    "software-security"
-  ],
-  "/public-key-cryptography": [
-    "software-security"
-  ],
-  "/security-heuristics": [
-    "software-security"
-  ],
-  "/software-security": [
-    "tech"
-  ],
-  "/sql-injection": [
-    "software-security"
-  ],
-  "/store-passwords": [
-    "software-security"
-  ],
-  "/transport-layer-security": [
-    "software-security"
-  ],
-  "/xss": [
-    "software-security"
   ],
   "/domain-driven-design": [
     "sys",

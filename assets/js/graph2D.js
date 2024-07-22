@@ -13,10 +13,11 @@
     .minZoom(1)
     .maxZoom(5)
     .linkColor(() => lightText)
-    .linkWidth(() => 0.4)
+    .linkWidth(() => 0.3)
     .nodeColor(node => {
       return highlightNodes.has(node.id) ? accent : getColor(node.group);
     })
+    .nodeVal(node => node.links.length || 1) 
     .onNodeHover((node) => {
       highlightNodes.clear();
       if (node) {
