@@ -4,345 +4,253 @@ require 'pp'
 NOTES_PATH = "./_NOTES"
 
 class SiteGenerator < Jekyll::Generator
-    @fixed_frontmatter = false
+  @fixed_frontmatter = false
 
-    def generate(site)
-      if !@fixed_frontmatter
-        fix_frontmatter()
-        @fixed_frontmatter = true
-        generate(site)
-      end
-
-      site.documents.each do |doc|
-        doc.data['backlinks'] ||= []
-      end
-
-      site.data["file_to_tag"] = site.data["tag_to_file"].invert
-
-      site.data["file_to_title"] = site.documents.map do |doc|
-        [remove_leading_slash(doc.id), doc.data["title"]]
-      end.to_h
-
-      generate_tree(site)
-
-      site.documents.each do |doc|
-        remove_tags_to_parent(doc, site)
-        doc.data['tags'] = doc.data['tags'].uniq.sort
-
-        wikilinks_to_backlinks(doc, site)
-        tags_to_backlinks(doc, site)
-  
-        # remove links to self
-        doc.data['backlinks'] = doc.data['backlinks'].reject { |e| e.id == doc.id }.sort_by { |e| e.data["title"] }
-  
-        replace_links_in_content(doc, site)
-      end
-
-      site.documents.each do |doc|
-          # dedup backlinks
-          doc.data['backlinks'] = doc.data['backlinks'].uniq
-      end
-
-      begin
-        File.open("./assets/data/tree.json", "w") do |f|
-          f.write(JSON.pretty_generate(site.data["tree"]))
-        end
-      rescue
-        puts "Error writing tree.json"
-      end
-
-      graph = generate_graph(site)
-
-      site.data["link_count"] = 0
-      site.data["link_count"] += site.documents.map { |doc| doc.content.scan(/<a/).length }.sum
-      site.data["link_count"] += graph[:links].length
-
-      # add ideas to site.data
-      site.data["ideas"] = JSON.parse(File.read("./assets/data/ideas.json")).sort
-
+  def generate(site)
+    unless @fixed_frontmatter
+      fix_frontmatter
+      @fixed_frontmatter = true
+      generate(site)
     end
 
+    site.documents.each { |doc| doc.data['backlinks'] ||= [] }
 
-    def remove_leading_slash(str)
-      return str.sub(/^\//, '')
+    site.data["file_to_tag"] = site.data["tag_to_file"].invert
+
+    site.data["file_to_title"] = site.documents.map { |doc| [remove_leading_slash(doc.id), doc.data["title"]] }.to_h
+
+    generate_tree(site)
+
+    site.documents.each do |doc|
+      remove_tags_to_parent(doc, site)
+      doc.data['tags'] = doc.data['tags'].uniq.sort
+      wikilinks_to_backlinks(doc, site)
+      tags_to_backlinks(doc, site)
+      doc.data['backlinks'].reject! { |e| e.id == doc.id }
+      doc.data['backlinks'].sort_by! { |e| e.data["title"] }
+      replace_links_in_content(doc, site)
     end
 
-    def generate_graph(site)
-      nodes = []
-      links = []
-      nodemap = {}
-      group = 0
-      file_tree = {"/root": site.data["tree"] }
+    site.documents.each { |doc| doc.data['backlinks'].uniq! }
 
-      queue = [[file_tree, nil, group]]
+    write_json("./assets/data/tree.json", site.data["tree"])
 
-      until queue.empty?
-        current_data, parent, group_number = queue.shift
+    graph = generate_graph(site)
 
-        current_data.each do |key, value|
-          if !nodemap.has_key?(key)
-            node = { id: key, group: group_number }
-            nodes << node
-            nodemap[key] = node
-          end
+    site.data["link_count"] = site.documents.sum { |doc| doc.content.scan(/<a/).length } + graph[:links].length
 
-          links << { source: parent, target: key } if parent
+    site.data["ideas"] = JSON.parse(File.read("./assets/data/ideas.json")).sort
+  end
 
-          queue << [value, key, group_number + 1]
-        end
-      end
+  def remove_leading_slash(str)
+    str.sub(/^\//, '')
+  end
 
-      backlink_tree = {}
-      site.documents.each do |doc|
-        if doc.data['backlinks'].any?
-          backlink_tree[doc.id] = doc.data['backlinks'].map { |e| e.id }
-        end
-      end
+  def generate_graph(site)
+    nodes, links, nodemap, group = [], [], {}, 0
+    file_tree = { "/root": site.data["tree"] }
+    queue = [[file_tree, nil, group]]
 
-      backlink_tree.each do |parent, children|
-        if nodemap[parent].nil?
-          node = { id: parent, group: 0 }
-          nodes << node
-          nodemap[parent] = node
-        end
-        children.each do |child|
-          links << { source: parent, target: child }
-        end
-      end
-
-      # remove duplicate links
-      links = links.uniq
-      # remove links to self
-      links = links.reject { |e| e[:source] == e[:target] }
-
-      # remove repeated links, if source and target are the same, keep the first one
-      links = links.uniq { |e| [e[:source], e[:target]] }
-
-      ## add name to each node
-      nodes.each do |node|
-        file = remove_leading_slash(node[:id].to_s)
-        name = site.data["file_to_title"][file]
-        if name
-          node[:name] = name
-        else
-          node[:name] = file.capitalize
-        end
-      end
-
-      # add all links of a node to the node
-      nodes.each do |node|
-        node[:links] = links.select { |e| e[:source] == node[:id] || e[:target] == node[:id] }.map { |e| e[:source] == node[:id] ? e[:target] : e[:source] }
-        # remove nodes with no links
-        nodes.delete(node) if node[:links].empty?
-      end
-
-
-      graph_data = { nodes: nodes, links: links }
-      site.data["graph"] = JSON.pretty_generate(graph_data)
-
-      begin
-        File.open("./assets/data/graph.json", "w") do |f|
-          f.write(site.data["graph"])
-        end
-      rescue
-        puts "Error writing graph"
-      end
-
-      return graph_data
-    end
-
-
-    def generate_tree(site)
-      tree= bfs(site, NOTES_PATH)
-      site.data["tree"] = tree
-
-      site.data["tree_htmls"] = {}
-      tree_to_html(site, tree, "root")
-
-      site.data["tree_htmls_without_self"] = {}
-      # for each element in site.data["tree_htmls"], remove link to self
-      site.data["tree_htmls"].each do |k, v|
-        site.data["tree_htmls_without_self"][k] = v.gsub(/<a href='#{k}\/'>.*?<\/a>/, "")
-      end
-
-    end
-
-    def fix_frontmatter()
-      Dir.glob("_NOTES/**/*.md") do |file|
-        # Read the content of each file
-        content = File.read(file)
-
-        # Trim leading whitespace
-        content.lstrip!
-
-        # Check if the file has front matter
-        if !content.start_with?("---")
-          # If not, add front matter at the beginning
-          content = "---\n---\n#{content}"
-          File.open(file, "w") { |f| f.write(content) }
-          puts "Added front matter to: #{file}"
-        end
-
-        # find markdown links []() and see if | with - in markdown links
-        fixed = 0
-        links = content.scan(/\[.*?\]\(.*?\)/)
-        links.each do |link|
-          if link.include?("|")
-            new_link = link.gsub(/\|/, "-")
-            content = content.gsub(/#{Regexp.escape(link)}/, new_link)
-            fixed += 1
-          end
-        end
-
-        if fixed > 0
-          File.open(file, "w") { |f| f.write(content) }
-          puts "Fixed #{fixed} links in: #{file}"
-        end
+    until queue.empty?
+      current_data, parent, group_number = queue.shift
+      current_data.each do |key, value|
+        nodemap[key] ||= { id: key, group: group_number }
+        nodes << nodemap[key] unless nodes.include?(nodemap[key])
+        links << { source: parent, target: key } if parent
+        queue << [value, key, group_number + 1]
       end
     end
 
-    def remove_tags_to_parent(doc, site)
-        # remove_circular_tags
-        basename = doc.id.sub(/^\//, '')
-        doc.data['tags'] = doc.data['tags'].reject { |e| e == basename }
-
-        # remove tags to parent
-        parent_basename = doc.data['parent_basename']
-        parent_shorttag = site.data["file_to_tag"][parent_basename]
-        doc.data['tags'] = doc.data['tags'].reject { |e| e == parent_shorttag  }
-        doc.data['tags'] = doc.data['tags'].reject { |e| e == parent_basename  }
+    backlink_tree = site.documents.each_with_object({}) do |doc, hash|
+      hash[doc.id] = doc.data['backlinks'].map(&:id) if doc.data['backlinks'].any?
     end
 
-    def wikilinks_to_backlinks(doc, site)
-      source_basename = doc.id.sub(/^\//, '')
-      linking_to_doc = site.documents.select do |e|
-        e.content.include?("[[#{source_basename}]]") || e.content.include?("(/#{source_basename})")
-      end
-
-      linking_to_doc.each do |linking_doc|
-        next if doc.data['children']&.include?(linking_doc.id)
-        doc.data['backlinks'] << linking_doc
-      end
+    backlink_tree.each do |parent, children|
+      nodemap[parent] ||= { id: parent, group: 0 }
+      nodes << nodemap[parent] unless nodes.include?(nodemap[parent])
+      children.each { |child| links << { source: parent, target: child } }
     end
 
-    def tags_to_backlinks(doc, site)
-      tag_to_file = site.data["tag_to_file"]
-      basename = doc.id.sub(/^\//, '')
+    links.uniq!
+    links.reject! { |e| e[:source] == e[:target] }
+    links.uniq! { |e| [e[:source], e[:target]] }
 
-      doc.data["tags"].each do |tag|
-        tagfileid = tag_to_file.has_key?(tag) ? "/" + tag_to_file[tag] : "/" + tag
-
-        tagdocs = site.documents.select { |e| e.id == tagfileid }
-        next if tagdocs.empty?
-        tagged_doc = tagdocs.first
-
-        tagged_doc.data['backlinks'] ||= []
-        tagged_doc.data['backlinks'] << doc
-      end
+    nodes.each do |node|
+      file = remove_leading_slash(node[:id].to_s)
+      node[:name] = site.data["file_to_title"][file] || file.capitalize
+      node[:links] = links.select { |e| e[:source] == node[:id] || e[:target] == node[:id] }
+                           .map { |e| e[:source] == node[:id] ? e[:target] : e[:source] }
+      nodes.delete(node) if node[:links].empty?
     end
 
-    def replace_links_in_content(doc, site)
-      tag_to_file = site.data["tag_to_file"]
-      file_to_title = site.data["file_to_title"]
+    graph_data = { nodes: nodes, links: links }
+    site.data["graph"] = JSON.pretty_generate(graph_data)
 
-      links = doc.content.scan(/\[\[[a-z0-9-]*\]\]/)
-      links.each do |link|
-        target = link.gsub(/\[\[/, '').gsub(/\]\]/, '')
-        target = tag_to_file[target] if tag_to_file.has_key?(target)
-        title = file_to_title[target]
-        markdown_link = "[#{title}](/#{target}/)"
-        doc.content = doc.content.gsub(/#{Regexp.escape(link)}/, markdown_link)
+    write_json("./assets/data/graph.json", site.data["graph"])
+
+    graph_data
+  end
+
+  def generate_tree(site)
+    tree = bfs(site, NOTES_PATH)
+    site.data["tree"] = tree
+
+    site.data["tree_htmls"] = {}
+    tree_to_html(site, tree, "root")
+
+    site.data["tree_htmls_without_self"] = site.data["tree_htmls"].transform_values do |html|
+      html.gsub(/<a href='[^']*\/'>.*?<\/a>/, "")
+    end
+  end
+
+  def fix_frontmatter
+    Dir.glob("#{NOTES_PATH}/**/*.md").each do |file|
+      content = File.read(file).lstrip
+
+      unless content.start_with?("---")
+        content = "---\n---\n#{content}"
+        File.write(file, content)
+        puts "Added front matter to: #{file}"
+      end
+
+      fixed = content.scan(/\[.*?\]\(.*?\)/).count do |link|
+        next false unless link.include?("|")
+        new_link = link.gsub("|", "-")
+        content.gsub!(link, new_link)
+        true
+      end
+
+      if fixed.positive?
+        File.write(file, content)
+        puts "Fixed #{fixed} links in: #{file}"
       end
     end
+  end
 
-    def bfs(site, path)
-      tree = {}
-      queue = [[path, tree]]
-      root = nil
+  def remove_tags_to_parent(doc, site)
+    basename = remove_leading_slash(doc.id)
+    parent_basename = doc.data['parent_basename']
+    parent_shorttag = site.data["file_to_tag"][parent_basename]
 
-      while !queue.empty?
-        parent_path, branch = queue.shift
-        parent_basename = File.basename(parent_path)
-        parent_id = "/" + parent_basename
+    doc.data['tags'] -= [basename, parent_shorttag, parent_basename]
+  end
 
-        root ||= parent_id
+  def wikilinks_to_backlinks(doc, site)
+    source_basename = remove_leading_slash(doc.id)
+    linking_to_doc = site.documents.select do |e|
+      e.content.include?("[[#{source_basename}]]") || e.content.include?("(/#{source_basename})")
+    end
 
-        branch[parent_id] ||= {}
+    linking_to_doc.each do |linking_doc|
+      # parent already lists its children, no need to list them again under its backlinks
+      next if doc.data['children']&.include?(linking_doc.id)
+      doc.data['backlinks'] << linking_doc
+    end
+  end
 
-        Dir.entries(parent_path).sort.each do |child|
-          next if ['.', '..', '.', '_'].include?(child) || child.start_with?('.') || child.start_with?('_')
+  def tags_to_backlinks(doc, site)
+    tag_to_file = site.data["tag_to_file"]
 
-          child_basename = File.basename(child)
-          child_path = File.join(parent_path, child)
+    doc.data["tags"].each do |tag|
+      tagfileid = tag_to_file.has_key?(tag) ? "/#{tag_to_file[tag]}" : "/#{tag}"
+      tagged_doc = site.documents.find { |e| e.id == tagfileid }
+      next unless tagged_doc
+      # parent already lists its children, no need to list them again under its backlinks
+      next if tagged_doc.data['children']&.include?(doc.id)
 
-          if File.directory?(child_path)
-            child_id = "/" + child_basename
-            queue.push([child_path, branch[parent_id]])
-          elsif path != parent_basename
-            child_id = "/" + child_basename.sub(/\..*/, '') # remove extension
+      tagged_doc.data['backlinks'] ||= []
+      tagged_doc.data['backlinks'] << doc
+    end
+  end
 
-            link_to_parent(site, child_basename, child_id, parent_basename, parent_id)
-          end
+  def replace_links_in_content(doc, site)
+    tag_to_file = site.data["tag_to_file"]
+    file_to_title = site.data["file_to_title"]
+
+    doc.content.scan(/\[\[[a-z0-9-]*\]\]/).each do |link|
+      target = link[2..-3]
+      target = tag_to_file[target] if tag_to_file.key?(target)
+      title = file_to_title[target]
+      markdown_link = "[#{title}](/#{target}/)"
+      doc.content.gsub!(link, markdown_link)
+    end
+  end
+
+  def bfs(site, path)
+    tree = {}
+    queue = [[path, tree]]
+    root = nil
+
+    until queue.empty?
+      parent_path, branch = queue.shift
+      parent_basename = File.basename(parent_path)
+      parent_id = "/#{parent_basename}"
+      root ||= parent_id
+
+      branch[parent_id] ||= {}
+
+      Dir.entries(parent_path).sort.each do |child|
+        next if child.start_with?('.', '_')
+
+        child_basename = File.basename(child)
+        child_path = File.join(parent_path, child)
+
+        if File.directory?(child_path)
+          queue.push([child_path, branch[parent_id]])
+        elsif path != parent_basename
+          child_id = "/#{child_basename.sub(/\..*/, '')}"
+          link_to_parent(site, child_basename, child_id, parent_basename, parent_id)
           branch[parent_id][child_id] ||= {}
         end
       end
-      return tree[root]
     end
-
-    def tree_to_html(site, tree, root_id)
-
-      html = ""
-
-      unless tree.empty?
-        html += "<ul>"
-        tree.each do |file_id, children|
-          doc = site.documents.find { |e| e.id == file_id }
-          if doc.nil?
-            # strip leading slash and capitalize
-            title = file_id.sub(/^\//, '').capitalize
-          else
-            title = doc.data["title"]
-          end
-
-          # sort children by length and then by title
-          children = children.sort_by { |k, v| [-v.length, site.data["file_to_title"][k]] }.to_h
-
-          if children.empty?
-            html += "<li><a href='#{file_id}/'>#{title}</a></li>"
-          else
-            html += "<details><summary>#{title}</summary>"
-            html += "<li>" + tree_to_html(site, children, file_id) + "</li></details>"
-          end
-        end
-        html += "</ul>"
-        site.data["tree_htmls"][root_id] = html
-      end
-
-      return html
-    end
-
-    def link_to_parent(site, child_basename, child_id, parent_basename, parent_id)
-
-      child_doc = site.documents.find { |e| e.id == child_id }
-      return unless child_doc
-      child_doc.data['parent_basename'] = parent_basename
-
-      parent_doc = site.documents.find { |e| e.id == parent_id }
-      return unless parent_doc
-
-      parent_doc.data['children'] ||= []
-      parent_doc.data['children'] << child_id
-    end
-
-    def reverse_tree(tree)
-      return tree if tree.nil? || tree.empty?
-
-      reversed_tree = {}
-      tree.each do |key, value|
-        reversed_tree[key] = reverse_tree(value)
-      end
-
-      reversed_tree
-    end
-
+    tree[root]
   end
+
+  def tree_to_html(site, tree, root_id)
+    return "" if tree.empty?
+
+    html = "<ul>"
+    tree.each do |file_id, children|
+      doc = site.documents.find { |e| e.id == file_id }
+      title = doc.nil? ? file_id.sub(/^\//, '').capitalize : doc.data["title"]
+
+      sorted_children = children.sort_by { |k, v| [-v.length, site.data["file_to_title"][k]] }.to_h
+      html += if sorted_children.empty?
+                "<li><a href='#{file_id}/'>#{title}</a></li>"
+              else
+                "<details><summary>#{title}</summary><li>#{tree_to_html(site, sorted_children, file_id)}</li></details>"
+              end
+    end
+    html += "</ul>"
+    site.data["tree_htmls"][root_id] = html
+
+    html
+  end
+
+  def link_to_parent(site, child_basename, child_id, parent_basename, parent_id)
+    child_doc = site.documents.find { |e| e.id == child_id }
+    return unless child_doc
+    child_doc.data['parent_basename'] = parent_basename
+    child_doc.data['tags'] << parent_basename
+    
+    parent_doc = site.documents.find { |e| e.id == parent_id }
+    return unless parent_doc
+
+    parent_doc.data['children'] ||= []
+    parent_doc.data['children'] << child_id
+  end
+
+  def reverse_tree(tree)
+    return tree if tree.nil? || tree.empty?
+
+    tree.transform_values { |value| reverse_tree(value) }
+  end
+
+  private
+
+  def write_json(path, data)
+    File.open(path, "w") { |f| f.write(JSON.pretty_generate(data)) }
+  end 
+
+end 

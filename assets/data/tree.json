@@ -15,6 +15,12 @@
       }
     },
     "/languages": {
+      "/languages": {
+      },
+      "/latin": {
+      },
+      "/modern-greek-alphabet": {
+      },
       "/cestina": {
         "/adjektiva": {
         },
@@ -46,15 +52,11 @@
       "/english": {
         "/english": {
         }
-      },
-      "/languages": {
-      },
-      "/latin": {
-      },
-      "/modern-greek-alphabet": {
       }
     },
     "/literature": {
+      "/literature": {
+      },
       "/classics": {
         "/cien-anos-de-soledad": {
         },
@@ -66,8 +68,6 @@
         },
         "/the-art-of-war": {
         }
-      },
-      "/literature": {
       },
       "/turkce": {
         "/ince-memed": {
@@ -83,35 +83,9 @@
       },
       "/all-is-one": {
       },
-      "/balance": {
-        "/know-where-to-stop": {
-        },
-        "/moderation": {
-        },
-        "/nature-vs-people": {
-        },
-        "/still-vs-running-water": {
-        },
-        "/the-less-the-better": {
-        }
-      },
       "/be-good-to-each-other-and-yourself": {
       },
       "/character": {
-      },
-      "/choice": {
-        "/choice": {
-        },
-        "/experiences-vs-materials": {
-        },
-        "/free-will": {
-        },
-        "/good-and-evil": {
-        },
-        "/pleasure-vs-possibility": {
-        },
-        "/you-can-always-choose-your-way": {
-        }
       },
       "/concepts-in-greek-thought": {
       },
@@ -149,6 +123,36 @@
       },
       "/take-a-walk": {
       },
+      "/travelling": {
+      },
+      "/truth": {
+      },
+      "/balance": {
+        "/know-where-to-stop": {
+        },
+        "/moderation": {
+        },
+        "/nature-vs-people": {
+        },
+        "/still-vs-running-water": {
+        },
+        "/the-less-the-better": {
+        }
+      },
+      "/choice": {
+        "/choice": {
+        },
+        "/experiences-vs-materials": {
+        },
+        "/free-will": {
+        },
+        "/good-and-evil": {
+        },
+        "/pleasure-vs-possibility": {
+        },
+        "/you-can-always-choose-your-way": {
+        }
+      },
       "/time": {
         "/death": {
         },
@@ -162,10 +166,6 @@
         },
         "/the-past": {
         }
-      },
-      "/travelling": {
-      },
-      "/truth": {
       },
       "/work": {
         "/long-days-short-decades": {
@@ -199,6 +199,10 @@
       },
       "/poetry": {
       },
+      "/the-road-not-taken": {
+      },
+      "/this-be-the-verse": {
+      },
       "/tao-te-ching": {
         "/hollow-power": {
         },
@@ -224,10 +228,6 @@
         },
         "/wind-and-rain": {
         }
-      },
-      "/the-road-not-taken": {
-      },
-      "/this-be-the-verse": {
       }
     },
     "/siir": {
@@ -336,6 +336,14 @@
     },
     "/philosophical-implications-of-quantum-mechanics": {
     },
+    "/solar-system": {
+    },
+    "/stem-books": {
+    },
+    "/the-overview-effect": {
+    },
+    "/the-true-size-of-africa": {
+    },
     "/physics": {
       "/classical-physics": {
       },
@@ -345,17 +353,39 @@
       },
       "/the-piston": {
       }
-    },
-    "/solar-system": {
-    },
-    "/stem-books": {
-    },
-    "/the-overview-effect": {
-    },
-    "/the-true-size-of-africa": {
     }
   },
   "/skills": {
+    "/cooking": {
+    },
+    "/drawing": {
+    },
+    "/drowning-does-not-look-dramatic": {
+    },
+    "/get-things-done": {
+    },
+    "/growing-plants": {
+    },
+    "/how-to-grow-old-russell": {
+    },
+    "/learning": {
+    },
+    "/making-videos": {
+    },
+    "/mastery": {
+    },
+    "/motocycles": {
+    },
+    "/photography": {
+    },
+    "/problem-solving": {
+    },
+    "/skills": {
+    },
+    "/submarine-shower": {
+    },
+    "/teaching": {
+    },
     "/business": {
       "/business": {
       },
@@ -402,8 +432,6 @@
       "/write-better": {
       }
     },
-    "/cooking": {
-    },
     "/decisions": {
       "/critical-thinking": {
       },
@@ -418,8 +446,6 @@
       "/on-decision-making": {
       }
     },
-    "/drawing": {
-    },
     "/driving": {
       "/car-equipment": {
       },
@@ -428,12 +454,6 @@
       "/used-car-checklist": {
       }
     },
-    "/drowning-does-not-look-dramatic": {
-    },
-    "/get-things-done": {
-    },
-    "/growing-plants": {
-    },
     "/health": {
       "/health": {
       },
@@ -441,8 +461,6 @@
       },
       "/sleep": {
       }
-    },
-    "/how-to-grow-old-russell": {
     },
     "/humor": {
       "/humor": {
@@ -455,14 +473,6 @@
       },
       "/setting-rules": {
       }
-    },
-    "/learning": {
-    },
-    "/making-videos": {
-    },
-    "/mastery": {
-    },
-    "/motocycles": {
     },
     "/outdoors": {
       "/3-day-nature-reset": {
@@ -477,20 +487,26 @@
       },
       "/sports": {
       }
-    },
-    "/photography": {
-    },
-    "/problem-solving": {
-    },
-    "/skills": {
-    },
-    "/submarine-shower": {
-    },
-    "/teaching": {
     }
   },
   "/social-sciences": {
     "/being-poor": {
+    },
+    "/in-praise-of-idleness": {
+    },
+    "/metaphors": {
+    },
+    "/social-change": {
+    },
+    "/social-sciences": {
+    },
+    "/tolerate-anything-except-outgroup": {
+    },
+    "/urban-planning": {
+    },
+    "/wasted-talent": {
+    },
+    "/your-lifestyle-already-designed": {
     },
     "/economics": {
       "/economics": {
@@ -511,10 +527,6 @@
       },
       "/since-big-bang": {
       }
-    },
-    "/in-praise-of-idleness": {
-    },
-    "/metaphors": {
     },
     "/politics": {
       "/criminal-justice": {
@@ -543,57 +555,9 @@
       },
       "/bias-for-unhappiness": {
       },
-      "/children": {
-        "/children-and-school": {
-        },
-        "/children": {
-        },
-        "/give-children-responsibility": {
-        },
-        "/how-to-speak-to-children": {
-        },
-        "/let-a-child-be-angry": {
-        },
-        "/take-children-seriously": {
-        }
-      },
-      "/cognitive-biases": {
-        "/cognitive-biases": {
-        },
-        "/complain-vs-appreciate": {
-        },
-        "/overvaluing-short-term": {
-        },
-        "/people-see-what-they-want": {
-        }
-      },
       "/distractions": {
       },
       "/ego": {
-      },
-      "/emotions": {
-        "/anger": {
-        },
-        "/anxiety": {
-        },
-        "/arrogance": {
-        },
-        "/courage": {
-        },
-        "/emotions": {
-        },
-        "/empathy": {
-        },
-        "/gratitude": {
-        },
-        "/hope": {
-        },
-        "/respect": {
-        },
-        "/trust": {
-        },
-        "/vulnerability": {
-        }
       },
       "/flow": {
       },
@@ -632,28 +596,72 @@
       "/thinking-fast-and-slow": {
       },
       "/unmet-needs": {
+      },
+      "/children": {
+        "/children-and-school": {
+        },
+        "/children": {
+        },
+        "/give-children-responsibility": {
+        },
+        "/how-to-speak-to-children": {
+        },
+        "/let-a-child-be-angry": {
+        },
+        "/take-children-seriously": {
+        }
+      },
+      "/cognitive-biases": {
+        "/cognitive-biases": {
+        },
+        "/complain-vs-appreciate": {
+        },
+        "/overvaluing-short-term": {
+        },
+        "/people-see-what-they-want": {
+        }
+      },
+      "/emotions": {
+        "/anger": {
+        },
+        "/anxiety": {
+        },
+        "/arrogance": {
+        },
+        "/courage": {
+        },
+        "/emotions": {
+        },
+        "/empathy": {
+        },
+        "/gratitude": {
+        },
+        "/hope": {
+        },
+        "/respect": {
+        },
+        "/trust": {
+        },
+        "/vulnerability": {
+        }
       }
-    },
-    "/social-change": {
-    },
-    "/social-sciences": {
     },
     "/systems": {
       "/chaos": {
       },
       "/systems": {
       }
-    },
-    "/tolerate-anything-except-outgroup": {
-    },
-    "/urban-planning": {
-    },
-    "/wasted-talent": {
-    },
-    "/your-lifestyle-already-designed": {
     }
   },
   "/tech": {
+    "/machine-learning": {
+    },
+    "/networks": {
+    },
+    "/nlp": {
+    },
+    "/tech": {
+    },
     "/databases": {
       "/atomicity": {
       },
@@ -677,6 +685,8 @@
       },
       "/partitioning": {
       },
+      "/sql-tips": {
+      },
       "/replication": {
         "/leaderless-replication": {
         },
@@ -686,8 +696,6 @@
         },
         "/single-leader": {
         }
-      },
-      "/sql-tips": {
       }
     },
     "/distributed-systems": {
@@ -726,12 +734,6 @@
       "/44-engineering-management-lessons": {
       }
     },
-    "/machine-learning": {
-    },
-    "/networks": {
-    },
-    "/nlp": {
-    },
     "/operating-systems": {
       "/concurrency": {
       },
@@ -743,6 +745,14 @@
       }
     },
     "/programming": {
+      "/compsci": {
+      },
+      "/for-new-programmers": {
+      },
+      "/functional-programming": {
+      },
+      "/programming": {
+      },
       "/algorithms": {
         "/algo-books": {
         },
@@ -895,8 +905,6 @@
         "/word-break": {
         }
       },
-      "/compsci": {
-      },
       "/data-structures": {
         "/array": {
         },
@@ -921,12 +929,12 @@
         "/string": {
         }
       },
-      "/for-new-programmers": {
-      },
-      "/functional-programming": {
-      },
       "/oop": {
         "/design-patterns": {
+        },
+        "/oop": {
+        },
+        "/solid": {
         },
         "/oop-designs": {
           "/block": {
@@ -957,10 +965,6 @@
           },
           "/oop-designs": {
           }
-        },
-        "/oop": {
-        },
-        "/solid": {
         }
       },
       "/programming-languages": {
@@ -984,6 +988,12 @@
         },
         "/lisp": {
         },
+        "/rust": {
+        },
+        "/scala": {
+        },
+        "/typing": {
+        },
         "/python": {
           "/python-data-structures": {
           },
@@ -993,15 +1003,7 @@
           },
           "/zen-of-python": {
           }
-        },
-        "/rust": {
-        },
-        "/scala": {
-        },
-        "/typing": {
         }
-      },
-      "/programming": {
       },
       "/projects": {
         "/a-star-robot": {
@@ -1115,8 +1117,6 @@
       },
       "/system-design": {
       }
-    },
-    "/tech": {
     },
     "/thoughts-on-tech": {
       "/a-free-web-again": {
