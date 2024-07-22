@@ -29,7 +29,7 @@
     .autoPauseRedraw(false) // keep redrawing after engine has stopped
 
   g.d3Force("center", null);
-  g.d3Force('charge').strength(-16);
+  g.d3Force('charge').strength(-20);
 
   // fit to canvas when engine stops
   g.onEngineStop(() => g.zoomToFit());
