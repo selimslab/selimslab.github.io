@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "thoughts-on-work",
+      "path": "_NOTES/arts/philosophy/work/thoughts-on-work.md"
+    },
+    {
+      "basename": "what-to-work-on",
+      "path": "_NOTES/arts/philosophy/work/what-to-work-on.md"
+    },
+    {
       "basename": "software-architecture",
       "path": "_NOTES/tech/software-engineering/software-architecture.md"
     },
@@ -179,10 +187,6 @@
     {
       "basename": "hijacked-minds",
       "path": "_NOTES/tech/thoughts-on-tech/hijacked-minds.md"
-    },
-    {
-      "basename": "is-tech-fast-or-slow",
-      "path": "_NOTES/tech/thoughts-on-tech/is-tech-fast-or-slow.md"
     }
   ],
   "omittedPaths": []

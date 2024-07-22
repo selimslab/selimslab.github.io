@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_NOTES/tech/software-engineering/software-architecture.md",
+                "file": "_NOTES/arts/philosophy/work/thoughts-on-work.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_NOTES/tech/software-engineering/software-architecture.md",
+                "file": "_NOTES/arts/philosophy/work/thoughts-on-work.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_NOTES/tech/software-engineering/software-architecture.md",
+                "file": "_NOTES/arts/philosophy/work/thoughts-on-work.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_NOTES/tech/software-engineering/software-architecture.md"
+                "file": "_NOTES/arts/philosophy/work/thoughts-on-work.md"
               }
             }
           }
@@ -158,8 +158,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "bc86af8c7183ead1",
+  "active": "c124ba1ec6e0abad",
   "lastOpenFiles": [
+    "_NOTES/skills/career/career.md",
+    "_NOTES/arts/philosophy/work/you-are-not-nameless.md",
+    "_NOTES/skills/career/career-advice.md",
+    "_NOTES/arts/philosophy/work/career-advice.md",
+    "_NOTES/arts/philosophy/work/thoughts-on-work.md",
+    "_NOTES/arts/philosophy/work/what-to-work-on.md",
+    "_NOTES/skills/career/you-are-not-nameless.md",
+    "_NOTES/skills/career/salary-negotiation.md",
+    "_NOTES/tech/software-engineering/software-architecture.md",
     "_NOTES/tech/digital-security/xss.md",
     "_NOTES/tech/digital-security/store-passwords.md",
     "_NOTES/tech/digital-security/transport-layer-security.md",
@@ -187,15 +196,6 @@
     "_site/scala/index.html",
     "_site/scala",
     "_NOTES/arts/languages/modern-greek-alphabet.md",
-    "_NOTES/social-sciences/politics/do-what-is-right.md",
-    "_NOTES/skills/decisions/do-the-right-thing.md",
-    "_NOTES/skills/business/how-to-start-a-business.md",
-    "_NOTES/tech/programming/programming-languages/rust.md",
-    "_NOTES/tech/programming/programming-languages/cpp.md",
-    "_NOTES/tech/programming/programming-languages/haskell.md",
-    "_NOTES/tech/programming/programming-languages/erlang.md",
-    "_NOTES/tech/programming/programming-languages/elixir.md",
-    "_NOTES/tech/programming/programming-languages/java.md",
     "assets/static/img/grow-fresh-air.jpeg",
     "_NOTES/skills/grow-fresh-air.jpeg",
     "_NOTES/practical-skills/grow-fresh-air.jpeg",
