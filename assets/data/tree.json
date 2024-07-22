@@ -50,6 +50,8 @@
       "/languages": {
       },
       "/latin": {
+      },
+      "/modern-greek-alphabet": {
       }
     },
     "/literature": {
@@ -266,8 +268,6 @@
     },
     "/lists": {
     },
-    "/modern-greek-alphabet": {
-    },
     "/movies": {
     },
     "/nato-phonetic-alphabet": {
@@ -369,6 +369,8 @@
       },
       "/how-to-gain-wealth": {
       },
+      "/how-to-start-a-business": {
+      },
       "/investing": {
       },
       "/marketing": {
@@ -409,7 +411,7 @@
       },
       "/do-one-thing-at-a-time-and-do-it-well": {
       },
-      "/do-what-is-right": {
+      "/do-the-right-thing": {
       },
       "/do-without-doing": {
       },
@@ -441,8 +443,6 @@
       }
     },
     "/how-to-grow-old-russell": {
-    },
-    "/how-to-start-a-business": {
     },
     "/humor": {
       "/humor": {
@@ -964,15 +964,25 @@
         }
       },
       "/programming-languages": {
-        "/c#": {
+        "/c": {
         },
         "/clojure": {
         },
-        "/go": {
-          "/go": {
-          }
+        "/cpp": {
         },
-        "/programming-languages": {
+        "/csharp": {
+        },
+        "/elixir": {
+        },
+        "/erlang": {
+        },
+        "/go": {
+        },
+        "/haskell": {
+        },
+        "/java": {
+        },
+        "/lisp": {
         },
         "/python": {
           "/python-data-structures": {
@@ -984,9 +994,9 @@
           "/zen-of-python": {
           }
         },
-        "/ruby": {
+        "/rust": {
         },
-        "/typescript": {
+        "/scala": {
         },
         "/typing": {
         }

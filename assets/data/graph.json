@@ -45,7 +45,6 @@
         "/film-scores",
         "/games",
         "/ideas",
-        "/modern-greek-alphabet",
         "/movies",
         "/nato-phonetic-alphabet",
         "/news",
@@ -53,6 +52,7 @@
         "/reading-list",
         "/web-experiments",
         "/classics",
+        "/modern-greek-alphabet",
         "/since-big-bang",
         "/code-review",
         "/the-joel-test"
@@ -120,7 +120,6 @@
         "/growing-plants",
         "/health",
         "/how-to-grow-old-russell",
-        "/how-to-start-a-business",
         "/humor",
         "/leadership",
         "/learning",
@@ -235,9 +234,7 @@
         "/deutsch",
         "/english",
         "/latin",
-        "/turkce",
-        "/modern-greek-alphabet",
-        "/nato-phonetic-alphabet"
+        "/modern-greek-alphabet"
       ]
     },
     {
@@ -286,7 +283,6 @@
         "/work",
         "/books",
         "/life-is-soft",
-        "/tao-te-ching",
         "/critical-thinking",
         "/how-to-deal-with-pain",
         "/how-to-grow-old-russell",
@@ -416,15 +412,6 @@
       ]
     },
     {
-      "id": "/modern-greek-alphabet",
-      "group": 2,
-      "name": "Modern Greek Alphabet",
-      "links": [
-        "/lists",
-        "/languages"
-      ]
-    },
-    {
       "id": "/movies",
       "group": 2,
       "name": "Movies 🎬",
@@ -438,8 +425,7 @@
       "group": 2,
       "name": "NATO phonetic alphabet",
       "links": [
-        "/lists",
-        "/languages"
+        "/lists"
       ]
     },
     {
@@ -682,13 +668,12 @@
         "/growing-fast-and-slow",
         "/hiring",
         "/how-to-gain-wealth",
+        "/how-to-start-a-business",
         "/investing",
         "/marketing",
         "/sales",
         "/trading",
-        "/thoughts-on-work",
         "/wasted-talent",
-        "/how-to-start-a-business",
         "/leadership"
       ]
     },
@@ -731,7 +716,7 @@
         "/skills",
         "/critical-thinking",
         "/do-one-thing-at-a-time-and-do-it-well",
-        "/do-what-is-right",
+        "/do-the-right-thing",
         "/do-without-doing",
         "/on-decision-making"
       ]
@@ -772,8 +757,7 @@
         "/the-morning",
         "/what-to-work-on",
         "/do-one-thing-at-a-time-and-do-it-well",
-        "/on-decision-making",
-        "/how-to-start-a-business"
+        "/on-decision-making"
       ]
     },
     {
@@ -802,24 +786,6 @@
       "links": [
         "/skills",
         "/philosophy"
-      ]
-    },
-    {
-      "id": "/how-to-start-a-business",
-      "group": 2,
-      "name": "How To Start A Business",
-      "links": [
-        "/skills",
-        "/creativity",
-        "/design",
-        "/teamwork",
-        "/what-to-work-on",
-        "/business",
-        "/hiring",
-        "/marketing",
-        "/sales",
-        "/how-to-pitch",
-        "/get-things-done"
       ]
     },
     {
@@ -996,10 +962,7 @@
         "/who-goes-nazi",
         "/arts",
         "/tao-te-ching",
-        "/do-what-is-right",
-        "/look-below-the-surface",
-        "/tao-te-ching",
-        "/tolerate-anything-except-outgroup"
+        "/do-the-right-thing"
       ]
     },
     {
@@ -1037,8 +1000,7 @@
         "/happiness",
         "/inertia",
         "/questioning-people-seen-as-a-threat-to-status-quo",
-        "/setting-rules",
-        "/tolerate-anything-except-outgroup"
+        "/setting-rules"
       ]
     },
     {
@@ -1064,9 +1026,7 @@
       "group": 2,
       "name": "I CAN TOLERATE ANYTHING EXCEPT THE OUTGROUP",
       "links": [
-        "/social-sciences",
-        "/politics",
-        "/psychology"
+        "/social-sciences"
       ]
     },
     {
@@ -1133,7 +1093,6 @@
         "/spark",
         "/time-and-order",
         "/use-an-identity-service",
-        "/software-engineering",
         "/system-design"
       ]
     },
@@ -1160,8 +1119,7 @@
       "group": 2,
       "name": "Machine Learning",
       "links": [
-        "/tech",
-        "/software-engineering"
+        "/tech"
       ]
     },
     {
@@ -1169,8 +1127,7 @@
       "group": 2,
       "name": "Networks",
       "links": [
-        "/tech",
-        "/software-engineering"
+        "/tech"
       ]
     },
     {
@@ -1189,8 +1146,7 @@
         "/tech",
         "/concurrency",
         "/containers",
-        "/os-books",
-        "/software-engineering"
+        "/os-books"
       ]
     },
     {
@@ -1241,21 +1197,16 @@
         "/software-architecture",
         "/the-joel-test",
         "/concurrency",
-        "/distributed-systems",
-        "/machine-learning",
-        "/networks",
-        "/operating-systems",
         "/programming",
         "/projects",
         "/ship-it",
-        "/software-security",
         "/system-design"
       ]
     },
     {
       "id": "/software-security",
       "group": 2,
-      "name": "Software Security",
+      "name": "Software Security swe tech sys",
       "links": [
         "/tech",
         "/aes",
@@ -1271,9 +1222,7 @@
         "/sql-injection",
         "/store-passwords",
         "/transport-layer-security",
-        "/xss",
-        "/software-engineering",
-        "/system-design"
+        "/xss"
       ]
     },
     {
@@ -1291,8 +1240,6 @@
         "/distributed-systems",
         "/do-one-thing-at-a-time-and-do-it-well",
         "/oop",
-        "/ship-it",
-        "/software-security",
         "/choose-boring-tech",
         "/hacker-laws",
         "/accessibility"
@@ -1361,8 +1308,7 @@
       "links": [
         "/design",
         "/thought-on-swe",
-        "/software-engineering",
-        "/system-design"
+        "/software-engineering"
       ]
     },
     {
@@ -1408,6 +1354,15 @@
       ]
     },
     {
+      "id": "/modern-greek-alphabet",
+      "group": 3,
+      "name": "Modern Greek Alphabet",
+      "links": [
+        "/languages",
+        "/lists"
+      ]
+    },
+    {
       "id": "/classics",
       "group": 3,
       "name": "Classics",
@@ -1429,7 +1384,6 @@
         "/literature",
         "/ince-memed",
         "/turk-mirasi",
-        "/languages",
         "/ideal-insan",
         "/siir"
       ]
@@ -1583,8 +1537,7 @@
       "group": 3,
       "name": "Look Below The Surface",
       "links": [
-        "/philosophy",
-        "/politics"
+        "/philosophy"
       ]
     },
     {
@@ -1777,9 +1730,7 @@
         "/uncut-wood",
         "/wei-wu-wei",
         "/wind-and-rain",
-        "/philosophy",
         "/books",
-        "/politics",
         "/politics"
       ]
     },
@@ -1950,6 +1901,19 @@
       ]
     },
     {
+      "id": "/how-to-start-a-business",
+      "group": 3,
+      "name": "How To Start A Business",
+      "links": [
+        "/business",
+        "/creativity",
+        "/design",
+        "/teamwork",
+        "/what-to-work-on",
+        "/hiring"
+      ]
+    },
+    {
       "id": "/investing",
       "group": 3,
       "name": "Investing",
@@ -1962,8 +1926,7 @@
       "group": 3,
       "name": "Marketing",
       "links": [
-        "/business",
-        "/how-to-start-a-business"
+        "/business"
       ]
     },
     {
@@ -1971,8 +1934,7 @@
       "group": 3,
       "name": "Sales",
       "links": [
-        "/business",
-        "/how-to-start-a-business"
+        "/business"
       ]
     },
     {
@@ -2012,8 +1974,7 @@
       "group": 3,
       "name": "How to pitch?",
       "links": [
-        "/communication",
-        "/how-to-start-a-business"
+        "/communication"
       ]
     },
     {
@@ -2069,13 +2030,12 @@
       ]
     },
     {
-      "id": "/do-what-is-right",
+      "id": "/do-the-right-thing",
       "group": 3,
-      "name": "Do What Is Right",
+      "name": "Do The Right Thing",
       "links": [
         "/decisions",
         "/do-not-lie-to-yourself",
-        "/on-decision-making",
         "/politics"
       ]
     },
@@ -2099,7 +2059,6 @@
         "/free-will",
         "/freedom",
         "/critical-thinking",
-        "/do-what-is-right",
         "/do-without-doing",
         "/get-things-done",
         "/skills"
@@ -2606,8 +2565,7 @@
       "name": "Data Structures to Build a DB",
       "links": [
         "/databases",
-        "/b-trees",
-        "/data-structures"
+        "/b-trees"
       ]
     },
     {
@@ -2632,8 +2590,7 @@
       "name": "Log structured merge tree (LSM tree)",
       "links": [
         "/databases",
-        "/algorithms",
-        "/data-structures"
+        "/algorithms"
       ]
     },
     {
@@ -2848,7 +2805,8 @@
         "/sort",
         "/vector-search",
         "/bayes",
-        "/lsm-trees"
+        "/lsm-trees",
+        "/data-structures"
       ]
     },
     {
@@ -2941,8 +2899,7 @@
         "/queue",
         "/stack",
         "/string",
-        "/db-data-structures",
-        "/lsm-trees"
+        "/algorithms"
       ]
     },
     {
@@ -2976,15 +2933,22 @@
     {
       "id": "/programming-languages",
       "group": 3,
-      "name": "Programming Languages",
+      "name": "Programming-languages",
       "links": [
         "/programming",
-        "/c#",
+        "/c",
         "/clojure",
+        "/cpp",
+        "/csharp",
+        "/elixir",
+        "/erlang",
         "/go",
+        "/haskell",
+        "/java",
+        "/lisp",
         "/python",
-        "/ruby",
-        "/typescript",
+        "/rust",
+        "/scala",
         "/typing"
       ]
     },
@@ -3509,7 +3473,7 @@
       "name": "Do Not Lie To Yourself",
       "links": [
         "/classics",
-        "/do-what-is-right",
+        "/do-the-right-thing",
         "/character",
         "/on-decision-making"
       ]
@@ -3713,7 +3677,6 @@
         "/work",
         "/be-good-to-each-other-and-yourself",
         "/in-praise-of-idleness",
-        "/business",
         "/leadership"
       ]
     },
@@ -4872,9 +4835,9 @@
       ]
     },
     {
-      "id": "/c#",
+      "id": "/c",
       "group": 4,
-      "name": "C#",
+      "name": "C",
       "links": [
         "/programming-languages"
       ]
@@ -4888,9 +4851,65 @@
       ]
     },
     {
+      "id": "/cpp",
+      "group": 4,
+      "name": "Cpp",
+      "links": [
+        "/programming-languages"
+      ]
+    },
+    {
+      "id": "/csharp",
+      "group": 4,
+      "name": "C#",
+      "links": [
+        "/programming-languages"
+      ]
+    },
+    {
+      "id": "/elixir",
+      "group": 4,
+      "name": "Elixir",
+      "links": [
+        "/programming-languages"
+      ]
+    },
+    {
+      "id": "/erlang",
+      "group": 4,
+      "name": "Erlang",
+      "links": [
+        "/programming-languages"
+      ]
+    },
+    {
       "id": "/go",
       "group": 4,
       "name": "Go",
+      "links": [
+        "/programming-languages"
+      ]
+    },
+    {
+      "id": "/haskell",
+      "group": 4,
+      "name": "Haskell",
+      "links": [
+        "/programming-languages"
+      ]
+    },
+    {
+      "id": "/java",
+      "group": 4,
+      "name": "Java",
+      "links": [
+        "/programming-languages"
+      ]
+    },
+    {
+      "id": "/lisp",
+      "group": 4,
+      "name": "Lisp",
       "links": [
         "/programming-languages"
       ]
@@ -4909,17 +4928,17 @@
       ]
     },
     {
-      "id": "/ruby",
+      "id": "/rust",
       "group": 4,
-      "name": "Ruby",
+      "name": "Rust",
       "links": [
         "/programming-languages"
       ]
     },
     {
-      "id": "/typescript",
+      "id": "/scala",
       "group": 4,
-      "name": "Typescript",
+      "name": "Scala",
       "links": [
         "/programming-languages"
       ]
@@ -5287,10 +5306,6 @@
     },
     {
       "source": "/lists",
-      "target": "/modern-greek-alphabet"
-    },
-    {
-      "source": "/lists",
       "target": "/movies"
     },
     {
@@ -5452,10 +5467,6 @@
     {
       "source": "/skills",
       "target": "/how-to-grow-old-russell"
-    },
-    {
-      "source": "/skills",
-      "target": "/how-to-start-a-business"
     },
     {
       "source": "/skills",
@@ -5640,6 +5651,10 @@
     {
       "source": "/languages",
       "target": "/latin"
+    },
+    {
+      "source": "/languages",
+      "target": "/modern-greek-alphabet"
     },
     {
       "source": "/literature",
@@ -5875,6 +5890,10 @@
     },
     {
       "source": "/business",
+      "target": "/how-to-start-a-business"
+    },
+    {
+      "source": "/business",
       "target": "/investing"
     },
     {
@@ -5927,7 +5946,7 @@
     },
     {
       "source": "/decisions",
-      "target": "/do-what-is-right"
+      "target": "/do-the-right-thing"
     },
     {
       "source": "/decisions",
@@ -7103,7 +7122,7 @@
     },
     {
       "source": "/programming-languages",
-      "target": "/c#"
+      "target": "/c"
     },
     {
       "source": "/programming-languages",
@@ -7111,7 +7130,35 @@
     },
     {
       "source": "/programming-languages",
+      "target": "/cpp"
+    },
+    {
+      "source": "/programming-languages",
+      "target": "/csharp"
+    },
+    {
+      "source": "/programming-languages",
+      "target": "/elixir"
+    },
+    {
+      "source": "/programming-languages",
+      "target": "/erlang"
+    },
+    {
+      "source": "/programming-languages",
       "target": "/go"
+    },
+    {
+      "source": "/programming-languages",
+      "target": "/haskell"
+    },
+    {
+      "source": "/programming-languages",
+      "target": "/java"
+    },
+    {
+      "source": "/programming-languages",
+      "target": "/lisp"
     },
     {
       "source": "/programming-languages",
@@ -7119,11 +7166,11 @@
     },
     {
       "source": "/programming-languages",
-      "target": "/ruby"
+      "target": "/rust"
     },
     {
       "source": "/programming-languages",
-      "target": "/typescript"
+      "target": "/scala"
     },
     {
       "source": "/programming-languages",
@@ -7302,24 +7349,12 @@
       "target": "/thought-on-swe"
     },
     {
-      "source": "/languages",
-      "target": "/turkce"
-    },
-    {
-      "source": "/languages",
-      "target": "/modern-greek-alphabet"
-    },
-    {
-      "source": "/languages",
-      "target": "/nato-phonetic-alphabet"
-    },
-    {
       "source": "/cien-anos-de-soledad",
       "target": "/classics"
     },
     {
       "source": "/do-not-lie-to-yourself",
-      "target": "/do-what-is-right"
+      "target": "/do-the-right-thing"
     },
     {
       "source": "/do-not-lie-to-yourself",
@@ -7400,10 +7435,6 @@
     {
       "source": "/philosophy",
       "target": "/life-is-soft"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/tao-te-ching"
     },
     {
       "source": "/philosophy",
@@ -7531,6 +7562,10 @@
     },
     {
       "source": "/lists",
+      "target": "/modern-greek-alphabet"
+    },
+    {
+      "source": "/lists",
       "target": "/since-big-bang"
     },
     {
@@ -7571,30 +7606,10 @@
     },
     {
       "source": "/business",
-      "target": "/thoughts-on-work"
-    },
-    {
-      "source": "/business",
       "target": "/wasted-talent"
     },
     {
-      "source": "/business",
-      "target": "/how-to-start-a-business"
-    },
-    {
       "source": "/hiring",
-      "target": "/how-to-start-a-business"
-    },
-    {
-      "source": "/marketing",
-      "target": "/how-to-start-a-business"
-    },
-    {
-      "source": "/sales",
-      "target": "/how-to-start-a-business"
-    },
-    {
-      "source": "/how-to-pitch",
       "target": "/how-to-start-a-business"
     },
     {
@@ -7614,8 +7629,8 @@
       "target": "/get-things-done"
     },
     {
-      "source": "/do-what-is-right",
-      "target": "/on-decision-making"
+      "source": "/do-the-right-thing",
+      "target": "/politics"
     },
     {
       "source": "/do-without-doing",
@@ -7624,10 +7639,6 @@
     {
       "source": "/on-decision-making",
       "target": "/get-things-done"
-    },
-    {
-      "source": "/get-things-done",
-      "target": "/how-to-start-a-business"
     },
     {
       "source": "/health",
@@ -7706,22 +7717,6 @@
       "target": "/in-praise-of-idleness"
     },
     {
-      "source": "/politics",
-      "target": "/do-what-is-right"
-    },
-    {
-      "source": "/politics",
-      "target": "/look-below-the-surface"
-    },
-    {
-      "source": "/politics",
-      "target": "/tao-te-ching"
-    },
-    {
-      "source": "/politics",
-      "target": "/tolerate-anything-except-outgroup"
-    },
-    {
       "source": "/behavioral-psychology",
       "target": "/cognitive-biases"
     },
@@ -7748,10 +7743,6 @@
     {
       "source": "/psychology",
       "target": "/setting-rules"
-    },
-    {
-      "source": "/psychology",
-      "target": "/tolerate-anything-except-outgroup"
     },
     {
       "source": "/social-sciences",
@@ -7954,6 +7945,10 @@
       "target": "/lsm-trees"
     },
     {
+      "source": "/algorithms",
+      "target": "/data-structures"
+    },
+    {
       "source": "/dynamic",
       "target": "/climb-stairs"
     },
@@ -8048,14 +8043,6 @@
     {
       "source": "/array",
       "target": "/three-sum-closest"
-    },
-    {
-      "source": "/data-structures",
-      "target": "/db-data-structures"
-    },
-    {
-      "source": "/data-structures",
-      "target": "/lsm-trees"
     },
     {
       "source": "/graph",
@@ -8235,22 +8222,6 @@
     },
     {
       "source": "/software-engineering",
-      "target": "/distributed-systems"
-    },
-    {
-      "source": "/software-engineering",
-      "target": "/machine-learning"
-    },
-    {
-      "source": "/software-engineering",
-      "target": "/networks"
-    },
-    {
-      "source": "/software-engineering",
-      "target": "/operating-systems"
-    },
-    {
-      "source": "/software-engineering",
       "target": "/programming"
     },
     {
@@ -8260,10 +8231,6 @@
     {
       "source": "/software-engineering",
       "target": "/ship-it"
-    },
-    {
-      "source": "/software-engineering",
-      "target": "/software-security"
     },
     {
       "source": "/software-engineering",
@@ -8292,14 +8259,6 @@
     {
       "source": "/system-design",
       "target": "/oop"
-    },
-    {
-      "source": "/system-design",
-      "target": "/ship-it"
-    },
-    {
-      "source": "/system-design",
-      "target": "/software-security"
     },
     {
       "source": "/system-design",

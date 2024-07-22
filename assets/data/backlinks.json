@@ -66,13 +66,12 @@
 
   ],
   "/languages": [
-    "/cestina",
-    "/deutsch",
-    "/turkce",
-    "/modern-greek-alphabet",
-    "/nato-phonetic-alphabet"
+
   ],
   "/latin": [
+
+  ],
+  "/modern-greek-alphabet": [
 
   ],
   "/cien-anos-de-soledad": [
@@ -82,7 +81,7 @@
 
   ],
   "/do-not-lie-to-yourself": [
-    "/do-what-is-right",
+    "/do-the-right-thing",
     "/character",
     "/on-decision-making"
   ],
@@ -192,7 +191,6 @@
   "/philosophy": [
     "/books",
     "/life-is-soft",
-    "/tao-te-ching",
     "/critical-thinking",
     "/how-to-deal-with-pain",
     "/how-to-grow-old-russell",
@@ -381,12 +379,10 @@
   ],
   "/lists": [
     "/classics",
+    "/modern-greek-alphabet",
     "/since-big-bang",
     "/code-review",
     "/the-joel-test"
-  ],
-  "/modern-greek-alphabet": [
-
   ],
   "/movies": [
 
@@ -507,9 +503,7 @@
 
   ],
   "/business": [
-    "/thoughts-on-work",
-    "/wasted-talent",
-    "/how-to-start-a-business"
+    "/wasted-talent"
   ],
   "/company-culture": [
 
@@ -526,14 +520,17 @@
   "/how-to-gain-wealth": [
 
   ],
+  "/how-to-start-a-business": [
+
+  ],
   "/investing": [
 
   ],
   "/marketing": [
-    "/how-to-start-a-business"
+
   ],
   "/sales": [
-    "/how-to-start-a-business"
+
   ],
   "/trading": [
 
@@ -554,7 +551,7 @@
 
   ],
   "/how-to-pitch": [
-    "/how-to-start-a-business"
+
   ],
   "/negotiations": [
     "/persuasion"
@@ -578,8 +575,8 @@
   "/do-one-thing-at-a-time-and-do-it-well": [
     "/get-things-done"
   ],
-  "/do-what-is-right": [
-    "/on-decision-making"
+  "/do-the-right-thing": [
+    "/politics"
   ],
   "/do-without-doing": [
     "/on-decision-making"
@@ -603,7 +600,7 @@
 
   ],
   "/get-things-done": [
-    "/how-to-start-a-business"
+
   ],
   "/growing-plants": [
 
@@ -618,9 +615,6 @@
 
   ],
   "/how-to-grow-old-russell": [
-
-  ],
-  "/how-to-start-a-business": [
 
   ],
   "/humor": [
@@ -739,10 +733,7 @@
 
   ],
   "/politics": [
-    "/do-what-is-right",
-    "/look-below-the-surface",
-    "/tao-te-ching",
-    "/tolerate-anything-except-outgroup"
+
   ],
   "/prince": [
 
@@ -874,8 +865,7 @@
     "/inertia",
     "/children",
     "/questioning-people-seen-as-a-threat-to-status-quo",
-    "/setting-rules",
-    "/tolerate-anything-except-outgroup"
+    "/setting-rules"
   ],
   "/relationships": [
 
@@ -1091,7 +1081,8 @@
   ],
   "/algorithms": [
     "/bayes",
-    "/lsm-trees"
+    "/lsm-trees",
+    "/data-structures"
   ],
   "/approximation": [
 
@@ -1328,8 +1319,7 @@
     "/three-sum-closest"
   ],
   "/data-structures": [
-    "/db-data-structures",
-    "/lsm-trees"
+
   ],
   "/graph": [
     "/bfs-dfs-topo",
@@ -1449,16 +1439,34 @@
   "/solid": [
 
   ],
-  "/c#": [
+  "/c": [
 
   ],
   "/clojure": [
 
   ],
+  "/cpp": [
+
+  ],
+  "/csharp": [
+
+  ],
+  "/elixir": [
+
+  ],
+  "/erlang": [
+
+  ],
   "/go": [
 
   ],
-  "/programming-languages": [
+  "/haskell": [
+
+  ],
+  "/java": [
+
+  ],
+  "/lisp": [
 
   ],
   "/python-data-structures": [
@@ -1473,11 +1481,16 @@
   "/zen-of-python": [
 
   ],
+  "/rust": [
+
+  ],
+  "/scala": [
+
+  ],
   "/typing": [
 
   ],
   "/programming": [
-    "/algorithms",
     "/code",
     "/data-structures",
     "/oop",
@@ -1576,14 +1589,9 @@
   ],
   "/software-engineering": [
     "/concurrency",
-    "/distributed-systems",
-    "/machine-learning",
-    "/networks",
-    "/operating-systems",
     "/programming",
     "/projects",
     "/ship-it",
-    "/software-security",
     "/system-design"
   ],
   "/the-joel-test": [
@@ -1647,8 +1655,6 @@
     "/distributed-systems",
     "/do-one-thing-at-a-time-and-do-it-well",
     "/oop",
-    "/ship-it",
-    "/software-security",
     "/choose-boring-tech",
     "/hacker-laws",
     "/accessibility"
@@ -1657,7 +1663,6 @@
     "/akins-laws-of-spacecraft",
     "/everyday-objects",
     "/history-of-technology",
-    "/software-security",
     "/since-big-bang",
     "/accessibility"
   ],
