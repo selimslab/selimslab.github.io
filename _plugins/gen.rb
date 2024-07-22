@@ -208,7 +208,8 @@ class SiteGenerator < Jekyll::Generator
 
       # remove links to self
       doc.data['backlinks'] = doc.data['backlinks'].reject { |e| e.id == doc.id }.uniq.sort_by { |e| e.data["title"] }
-
+      doc.data['backlinks'] = doc.data['backlinks'].uniq.sort_by { |e| e.data["title"] }
+      
       replace_links_in_content(doc, site)
     end
 

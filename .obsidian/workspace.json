@@ -11,11 +11,30 @@
             "id": "55873a392afdd3ca",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_NOTES/_TODO.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "774397bb4d40224c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +139,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           }
         ]
@@ -139,8 +162,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "55873a392afdd3ca",
+  "active": "774397bb4d40224c",
   "lastOpenFiles": [
+    "x.md",
+    "_x.md",
+    "README.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "_NOTES/_TODO.md",
     "_site/assets/static/solar/2k_stars_milky_way3.jpg",
     "assets/static/solar/2k_stars_milky_way3.jpg",
     "_site/assets/static/solar/2k_stars_milky_way2.jpg",
@@ -157,7 +186,6 @@
     "_NOTES/arts/poetry/tao-te-ching/hollow-power.md",
     "_site/assets/data/graph_debug.json",
     "assets/data/graph_debug.json",
-    "README.md",
     "index.md",
     "_NOTES/social-sciences/history/last-million.md",
     "_site/assets/static/wind-spring-white-stratosphere-pure.jpg",
@@ -178,15 +206,10 @@
     "_NOTES/tech/operating-systems/concurrency.md",
     "_NOTES/tech/programming/data-structures/hyperloglog.md",
     "_NOTES/tech/programming/data-structures/data-structures.md",
-    "_NOTES/tech/operating-systems/containers.md",
-    "_NOTES/tech/databases/databases.md",
-    "_NOTES/tech/programming/programming-languages/clojure.md",
-    "_NOTES/tech/distributed-systems/distributed-systems.md",
     "_site/assets/static/solar/marble.jpg",
     "assets/static/solar/marble.jpg",
     "_site/assets/static/solar/NASA-Apollo8-Dec24-Earthrise.jpg",
     "assets/static/solar/NASA-Apollo8-Dec24-Earthrise.jpg",
-    "_site/assets/static/img/the-s-curve.jpeg",
     "Untitled.canvas"
   ]
 }
