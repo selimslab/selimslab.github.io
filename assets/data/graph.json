@@ -41,17 +41,19 @@
         "/books",
         "/comics",
         "/datasets",
+        "/documentaries",
         "/essais",
+        "/film-scores",
         "/games",
         "/ideas",
         "/modern-greek-alphabet",
+        "/movies",
         "/nato-phonetic-alphabet",
         "/news",
         "/paintings",
         "/reading-list",
         "/web-experiments",
         "/classics",
-        "/documentaries",
         "/since-big-bang"
       ]
     },
@@ -91,10 +93,10 @@
         "/philosophical-implications-of-quantum-mechanics",
         "/physics",
         "/solar-system",
+        "/stem-books",
         "/the-overview-effect",
         "/the-piston",
         "/the-true-size-of-africa",
-        "/stem-books",
         "/sleep",
         "/fluid-field-boundaries",
         "/since-big-bang"
@@ -297,9 +299,9 @@
         "/travelling",
         "/truth",
         "/work",
+        "/books",
         "/life-is-soft",
         "/tao-te-ching",
-        "/phil-books",
         "/critical-thinking",
         "/how-to-deal-with-pain",
         "/how-to-grow-old-russell",
@@ -367,10 +369,12 @@
       "name": "Books",
       "links": [
         "/lists",
-        "/algorithms-books",
-        "/phil-books",
-        "/soc-books",
+        "/the-art-of-war",
+        "/philosophy",
+        "/search-for-meaning",
+        "/tao-te-ching",
         "/stem-books",
+        "/algo-books",
         "/books-swe"
       ]
     },
@@ -392,6 +396,15 @@
       ]
     },
     {
+      "id": "/documentaries",
+      "group": 2,
+      "name": "Documentaries",
+      "links": [
+        "/lists",
+        "/cinema"
+      ]
+    },
+    {
       "id": "/essais",
       "group": 2,
       "name": "Essais",
@@ -407,6 +420,15 @@
         "/how-to-speak-to-children",
         "/overvaluing-short-term",
         "/technology-and-time"
+      ]
+    },
+    {
+      "id": "/film-scores",
+      "group": 2,
+      "name": "Film Scores",
+      "links": [
+        "/lists",
+        "/cinema"
       ]
     },
     {
@@ -432,6 +454,15 @@
       "links": [
         "/lists",
         "/languages"
+      ]
+    },
+    {
+      "id": "/movies",
+      "group": 2,
+      "name": "Movies 🎬",
+      "links": [
+        "/lists",
+        "/cinema"
       ]
     },
     {
@@ -646,6 +677,15 @@
       "name": "Solar System",
       "links": [
         "/natural-sciences"
+      ]
+    },
+    {
+      "id": "/stem-books",
+      "group": 2,
+      "name": "Books on Science",
+      "links": [
+        "/natural-sciences",
+        "/books"
       ]
     },
     {
@@ -1336,31 +1376,6 @@
       ]
     },
     {
-      "id": "/documentaries",
-      "group": 3,
-      "name": "Documentaries",
-      "links": [
-        "/cinema",
-        "/lists"
-      ]
-    },
-    {
-      "id": "/film-scores",
-      "group": 3,
-      "name": "Film Scores",
-      "links": [
-        "/cinema"
-      ]
-    },
-    {
-      "id": "/movies",
-      "group": 3,
-      "name": "Movies",
-      "links": [
-        "/cinema"
-      ]
-    },
-    {
       "id": "/creativity",
       "group": 3,
       "name": "Creativity",
@@ -1650,9 +1665,8 @@
       "name": "Man's Search for Meaning",
       "links": [
         "/philosophy",
-        "/overcoming-obstacles",
-        "/phil-books",
-        "/soc-books"
+        "/books",
+        "/overcoming-obstacles"
       ]
     },
     {
@@ -1810,7 +1824,7 @@
         "/wei-wu-wei",
         "/wind-and-rain",
         "/philosophy",
-        "/phil-books",
+        "/books",
         "/politics",
         "/politics"
       ]
@@ -1878,46 +1892,6 @@
       "name": "Orhan Veli",
       "links": [
         "/siir"
-      ]
-    },
-    {
-      "id": "/algorithms-books",
-      "group": 3,
-      "name": "Algorithms Books",
-      "links": [
-        "/books",
-        "/algorithms"
-      ]
-    },
-    {
-      "id": "/phil-books",
-      "group": 3,
-      "name": "Philosophy Books",
-      "links": [
-        "/books",
-        "/the-art-of-war",
-        "/philosophy",
-        "/search-for-meaning",
-        "/tao-te-ching"
-      ]
-    },
-    {
-      "id": "/soc-books",
-      "group": 3,
-      "name": "Social Sciences Books",
-      "links": [
-        "/books",
-        "/the-art-of-war",
-        "/search-for-meaning"
-      ]
-    },
-    {
-      "id": "/stem-books",
-      "group": 3,
-      "name": "Science Books",
-      "links": [
-        "/books",
-        "/natural-sciences"
       ]
     },
     {
@@ -2928,6 +2902,7 @@
       "name": "Algorithms",
       "links": [
         "/programming",
+        "/algo-books",
         "/algo-easy",
         "/algo-hard",
         "/algo-mid",
@@ -2941,7 +2916,6 @@
         "/rabin-karp",
         "/sort",
         "/vector-search",
-        "/algorithms-books",
         "/bayes",
         "/lsm-trees"
       ]
@@ -3646,8 +3620,7 @@
       "name": "The Art of War",
       "links": [
         "/classics",
-        "/phil-books",
-        "/soc-books",
+        "/books",
         "/warfare-is-deception"
       ]
     },
@@ -4140,6 +4113,15 @@
       "name": "Summary Prompt",
       "links": [
         "/prompt-engineering"
+      ]
+    },
+    {
+      "id": "/algo-books",
+      "group": 4,
+      "name": "Books on Algorithms",
+      "links": [
+        "/algorithms",
+        "/books"
       ]
     },
     {
@@ -5422,7 +5404,15 @@
     },
     {
       "source": "/lists",
+      "target": "/documentaries"
+    },
+    {
+      "source": "/lists",
       "target": "/essais"
+    },
+    {
+      "source": "/lists",
+      "target": "/film-scores"
     },
     {
       "source": "/lists",
@@ -5435,6 +5425,10 @@
     {
       "source": "/lists",
       "target": "/modern-greek-alphabet"
+    },
+    {
+      "source": "/lists",
+      "target": "/movies"
     },
     {
       "source": "/lists",
@@ -5535,6 +5529,10 @@
     {
       "source": "/natural-sciences",
       "target": "/solar-system"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/stem-books"
     },
     {
       "source": "/natural-sciences",
@@ -5757,18 +5755,6 @@
       "target": "/ux"
     },
     {
-      "source": "/cinema",
-      "target": "/documentaries"
-    },
-    {
-      "source": "/cinema",
-      "target": "/film-scores"
-    },
-    {
-      "source": "/cinema",
-      "target": "/movies"
-    },
-    {
       "source": "/design",
       "target": "/creativity"
     },
@@ -5979,22 +5965,6 @@
     {
       "source": "/siir",
       "target": "/orhan-veli"
-    },
-    {
-      "source": "/books",
-      "target": "/algorithms-books"
-    },
-    {
-      "source": "/books",
-      "target": "/phil-books"
-    },
-    {
-      "source": "/books",
-      "target": "/soc-books"
-    },
-    {
-      "source": "/books",
-      "target": "/stem-books"
     },
     {
       "source": "/probability",
@@ -6966,6 +6936,10 @@
     },
     {
       "source": "/algorithms",
+      "target": "/algo-books"
+    },
+    {
+      "source": "/algorithms",
       "target": "/algo-easy"
     },
     {
@@ -7465,6 +7439,18 @@
       "target": "/politics"
     },
     {
+      "source": "/cinema",
+      "target": "/documentaries"
+    },
+    {
+      "source": "/cinema",
+      "target": "/film-scores"
+    },
+    {
+      "source": "/cinema",
+      "target": "/movies"
+    },
+    {
       "source": "/creativity",
       "target": "/how-to-start-a-business"
     },
@@ -7530,11 +7516,7 @@
     },
     {
       "source": "/the-art-of-war",
-      "target": "/phil-books"
-    },
-    {
-      "source": "/the-art-of-war",
-      "target": "/soc-books"
+      "target": "/books"
     },
     {
       "source": "/the-art-of-war",
@@ -7594,15 +7576,15 @@
     },
     {
       "source": "/philosophy",
+      "target": "/books"
+    },
+    {
+      "source": "/philosophy",
       "target": "/life-is-soft"
     },
     {
       "source": "/philosophy",
       "target": "/tao-te-ching"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/phil-books"
     },
     {
       "source": "/philosophy",
@@ -7634,15 +7616,11 @@
     },
     {
       "source": "/search-for-meaning",
+      "target": "/books"
+    },
+    {
+      "source": "/search-for-meaning",
       "target": "/overcoming-obstacles"
-    },
-    {
-      "source": "/search-for-meaning",
-      "target": "/phil-books"
-    },
-    {
-      "source": "/search-for-meaning",
-      "target": "/soc-books"
     },
     {
       "source": "/take-a-walk",
@@ -7698,11 +7676,19 @@
     },
     {
       "source": "/tao-te-ching",
-      "target": "/phil-books"
+      "target": "/books"
     },
     {
       "source": "/tao-te-ching",
       "target": "/politics"
+    },
+    {
+      "source": "/books",
+      "target": "/stem-books"
+    },
+    {
+      "source": "/books",
+      "target": "/algo-books"
     },
     {
       "source": "/books",
@@ -7758,10 +7744,6 @@
     },
     {
       "source": "/lists",
-      "target": "/documentaries"
-    },
-    {
-      "source": "/lists",
       "target": "/since-big-bang"
     },
     {
@@ -7783,10 +7765,6 @@
     {
       "source": "/chaos",
       "target": "/systems"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/stem-books"
     },
     {
       "source": "/natural-sciences",
@@ -8183,10 +8161,6 @@
     {
       "source": "/algo-mid",
       "target": "/min-edit-distance"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/algorithms-books"
     },
     {
       "source": "/algorithms",

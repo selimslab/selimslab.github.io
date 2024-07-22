@@ -1,7 +1,30 @@
 ---
-title: Social Sciences Books
-tags: books
+title: Books
+tags: lists 
 ---
+
+
+[Ask HN: What books changed the way you think about almost everything? - Hacker News (ycombinator.com)](https://news.ycombinator.com/item?id=19087418)
+
+## [[philosophy]]
+
+[[tao-te-ching]]
+
+Enchiridion 
+
+Meditations by Marcus Aurelius 
+
+On the Shortness of Life by Seneca 
+
+Rubaiyat of Omar Khayyam
+
+[[the-art-of-war]]
+
+Die Kunst, glücklich zu sein by Schopenhauer
+
+[[search-for-meaning]]
+
+## [[social-sciences]]
 
 The Diary of a Young Girl, Anne Frank
 

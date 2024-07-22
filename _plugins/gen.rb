@@ -326,11 +326,13 @@ class SiteGenerator < Jekyll::Generator
       unless tree.empty?
         html += "<ul>"
         tree.each do |file_id, children|
-          docs = site.documents.select { |e| e.id == file_id }
-          next if docs.empty?
-
-          doc = docs.first
-          title = doc.data["title"]
+          doc = site.documents.find { |e| e.id == file_id }
+          if doc.nil?
+            # strip leading slash and capitalize
+            title = file_id.sub(/^\//, '').capitalize
+          else
+            title = doc.data["title"]
+          end
 
           # sort children by length and then by title
           children = children.sort_by { |k, v| [-v.length, site.data["file_to_title"][k]] }.to_h
@@ -352,13 +354,11 @@ class SiteGenerator < Jekyll::Generator
     def link_to_parent(site, child_basename, child_id, parent_basename, parent_id)
 
       child_doc = site.documents.find { |e| e.id == child_id }
-      parent_doc = site.documents.find { |e| e.id == parent_id }
-
-      return unless child_doc && parent_doc && child_doc != parent_doc
-
-      link = "<a class='toplink' href='#{parent_id}/'>#{parent_doc.data['title']}</a>"
-      child_doc.data['parentlink'] = link
+      return unless child_doc
       child_doc.data['parent_basename'] = parent_basename
+
+      parent_doc = site.documents.find { |e| e.id == parent_id }
+      return unless parent_doc
 
       parent_doc.data['children'] ||= []
       parent_doc.data['children'] << child_id

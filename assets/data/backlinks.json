@@ -1,22 +1,14 @@
 {
   "/arts": [
-    "/cinema",
     "/languages",
     "/literature",
     "/philosophy",
     "/politics"
   ],
   "/cinema": [
-
-  ],
-  "/documentaries": [
-
-  ],
-  "/film-scores": [
-
-  ],
-  "/movies": [
-
+    "/documentaries",
+    "/film-scores",
+    "/movies"
   ],
   "/creativity": [
     "/how-to-start-a-business",
@@ -115,8 +107,7 @@
     "/psy-in-lit"
   ],
   "/the-art-of-war": [
-    "/phil-books",
-    "/soc-books",
+    "/books",
     "/warfare-is-deception"
   ],
   "/literature": [
@@ -216,9 +207,9 @@
     "/no-regrets-no-worries"
   ],
   "/philosophy": [
+    "/books",
     "/life-is-soft",
     "/tao-te-ching",
-    "/phil-books",
     "/critical-thinking",
     "/how-to-deal-with-pain",
     "/how-to-grow-old-russell",
@@ -230,9 +221,8 @@
     "/critical-thinking"
   ],
   "/search-for-meaning": [
-    "/overcoming-obstacles",
-    "/phil-books",
-    "/soc-books"
+    "/books",
+    "/overcoming-obstacles"
   ],
   "/stupidity": [
 
@@ -334,7 +324,7 @@
 
   ],
   "/tao-te-ching": [
-    "/phil-books",
+    "/books",
     "/politics"
   ],
   "/the-great-leader": [
@@ -382,26 +372,19 @@
   "/blogs": [
 
   ],
-  "/algorithms-books": [
-
-  ],
   "/books": [
+    "/stem-books",
+    "/algo-books",
     "/books-swe"
-  ],
-  "/phil-books": [
-
-  ],
-  "/soc-books": [
-
-  ],
-  "/stem-books": [
-
   ],
   "/comics": [
 
   ],
   "/datasets": [
     "/statistics"
+  ],
+  "/documentaries": [
+
   ],
   "/essais": [
     "/communication",
@@ -415,6 +398,9 @@
     "/overvaluing-short-term",
     "/technology-and-time"
   ],
+  "/film-scores": [
+
+  ],
   "/games": [
 
   ],
@@ -422,12 +408,13 @@
 
   ],
   "/lists": [
-    "/books",
     "/classics",
-    "/documentaries",
     "/since-big-bang"
   ],
   "/modern-greek-alphabet": [
+
+  ],
+  "/movies": [
 
   ],
   "/nato-phonetic-alphabet": [
@@ -514,7 +501,6 @@
 
   ],
   "/natural-sciences": [
-    "/stem-books",
     "/sleep",
     "/fluid-field-boundaries",
     "/since-big-bang"
@@ -532,6 +518,9 @@
 
   ],
   "/solar-system": [
+
+  ],
+  "/stem-books": [
 
   ],
   "/the-overview-effect": [
@@ -1114,6 +1103,9 @@
   "/os-books": [
 
   ],
+  "/algo-books": [
+
+  ],
   "/algo-easy": [
     "/array-rotate",
     "/binary-search",
@@ -1150,7 +1142,6 @@
     "/min-edit-distance"
   ],
   "/algorithms": [
-    "/algorithms-books",
     "/bayes",
     "/lsm-trees"
   ],

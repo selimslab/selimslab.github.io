@@ -3,14 +3,6 @@
     "/arts": {
     },
     "/cinema": {
-      "/cinema": {
-      },
-      "/documentaries": {
-      },
-      "/film-scores": {
-      },
-      "/movies": {
-      }
     },
     "/design": {
       "/creativity": {
@@ -269,22 +261,16 @@
     "/blogs": {
     },
     "/books": {
-      "/algorithms-books": {
-      },
-      "/books": {
-      },
-      "/phil-books": {
-      },
-      "/soc-books": {
-      },
-      "/stem-books": {
-      }
     },
     "/comics": {
     },
     "/datasets": {
     },
+    "/documentaries": {
+    },
     "/essais": {
+    },
+    "/film-scores": {
     },
     "/games": {
     },
@@ -293,6 +279,8 @@
     "/lists": {
     },
     "/modern-greek-alphabet": {
+    },
+    "/movies": {
     },
     "/nato-phonetic-alphabet": {
     },
@@ -369,6 +357,8 @@
       }
     },
     "/solar-system": {
+    },
+    "/stem-books": {
     },
     "/the-overview-effect": {
     },
@@ -788,6 +778,8 @@
     },
     "/programming": {
       "/algorithms": {
+        "/algo-books": {
+        },
         "/algo-easy": {
         },
         "/algo-hard": {
