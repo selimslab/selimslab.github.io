@@ -36,7 +36,7 @@ tags: nat tech top lists
 - **Roman Republic**: 2,500 to 2,100 years ago
 - **Roman Empire**: 2,100 to 1,500 years ago
 - **Renaissance**: 700 to 400 years ago
-- **Age of Exploration**: 600 to 400 years ago
 - **Industrial Revolution**: 300 to 100 years ago
 - **World War I**: 1914 - 1918 
 - **World War II**: 1939 - 1945
+- **Digital Revolution**: ongoing 

@@ -54,7 +54,7 @@
         "/web-experiments",
         "/classics",
         "/documentaries",
-        "/last-million"
+        "/since-big-bang"
       ]
     },
     {
@@ -101,7 +101,7 @@
         "/stem-books",
         "/sleep",
         "/fluid-field-boundaries",
-        "/last-million"
+        "/since-big-bang"
       ]
     },
     {
@@ -216,7 +216,7 @@
         "/fluid-field-boundaries",
         "/hacker-laws",
         "/design",
-        "/last-million",
+        "/since-big-bang",
         "/accessibility"
       ]
     },
@@ -1010,7 +1010,7 @@
       "name": "History",
       "links": [
         "/social-sciences",
-        "/last-million"
+        "/since-big-bang"
       ]
     },
     {
@@ -2551,7 +2551,7 @@
       ]
     },
     {
-      "id": "/last-million",
+      "id": "/since-big-bang",
       "group": 3,
       "name": "Some events in the last 14 billion years",
       "links": [
@@ -6295,7 +6295,7 @@
     },
     {
       "source": "/history",
-      "target": "/last-million"
+      "target": "/since-big-bang"
     },
     {
       "source": "/politics",
@@ -7863,7 +7863,7 @@
     },
     {
       "source": "/lists",
-      "target": "/last-million"
+      "target": "/since-big-bang"
     },
     {
       "source": "/math",
@@ -7911,7 +7911,7 @@
     },
     {
       "source": "/natural-sciences",
-      "target": "/last-million"
+      "target": "/since-big-bang"
     },
     {
       "source": "/business",
@@ -8735,7 +8735,7 @@
     },
     {
       "source": "/tech",
-      "target": "/last-million"
+      "target": "/since-big-bang"
     },
     {
       "source": "/tech",
