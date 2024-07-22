@@ -131,10 +131,10 @@
         "/submarine-shower",
         "/teaching",
         "/critical-thinking",
+        "/design",
         "/negotiations",
         "/on-decision-making",
         "/a-good-life",
-        "/design",
         "/write-better",
         "/public-speaking",
         "/children",
@@ -163,13 +163,13 @@
         "/your-lifestyle-already-designed",
         "/cognitive-biases",
         "/communication",
+        "/design",
         "/freedom",
         "/happiness",
         "/how-to-start",
         "/learning",
         "/negotiations",
         "/children",
-        "/design",
         "/questioning-people-seen-as-a-threat-to-status-quo",
         "/solitude",
         "/stupidity",
@@ -198,11 +198,11 @@
         "/thoughts-on-tech",
         "/ux",
         "/akins-laws-of-spacecraft",
+        "/design",
         "/everyday-objects",
         "/fluid-field-boundaries",
         "/hacker-laws",
         "/history-of-technology",
-        "/design",
         "/since-big-bang",
         "/accessibility"
       ]
@@ -221,16 +221,16 @@
     {
       "id": "/design",
       "group": 2,
-      "name": "On design",
+      "name": "Design",
       "links": [
         "/arts",
         "/creativity",
         "/everyday-objects",
-        "/creativity",
+        "/ship-it",
         "/how-to-start-a-business",
         "/natural-tech",
         "/polished-pixels",
-        "/ship-it",
+        "/ux",
         "/skills",
         "/social-sciences",
         "/tech"
@@ -1240,7 +1240,6 @@
         "/going-blind",
         "/google-sre-book",
         "/hacker-laws",
-        "/ship-it",
         "/software-analogies",
         "/software-architecture",
         "/software-quality",
@@ -1253,6 +1252,7 @@
         "/operating-systems",
         "/programming",
         "/projects",
+        "/ship-it",
         "/software-security",
         "/system-design"
       ]
@@ -1301,8 +1301,7 @@
         "/oop",
         "/ship-it",
         "/software-security",
-        "/accessibility",
-        "/ux"
+        "/accessibility"
       ]
     },
     {
@@ -1332,7 +1331,7 @@
         "/polished-pixels",
         "/things-users-care",
         "/usability-testing",
-        "/system-design",
+        "/design",
         "/hijacked-minds"
       ]
     },
@@ -1343,7 +1342,6 @@
       "links": [
         "/design",
         "/how-to-start-a-business",
-        "/design",
         "/teamwork",
         "/leadership"
       ]
@@ -1355,6 +1353,17 @@
       "links": [
         "/design",
         "/tech"
+      ]
+    },
+    {
+      "id": "/ship-it",
+      "group": 3,
+      "name": "Ship It",
+      "links": [
+        "/design",
+        "/swe-phil",
+        "/software-engineering",
+        "/system-design"
       ]
     },
     {
@@ -3123,17 +3132,6 @@
       ]
     },
     {
-      "id": "/ship-it",
-      "group": 3,
-      "name": "Ship It",
-      "links": [
-        "/software-engineering",
-        "/design",
-        "/swe-phil",
-        "/system-design"
-      ]
-    },
-    {
       "id": "/software-analogies",
       "group": 3,
       "name": "Software Analogies",
@@ -3163,8 +3161,8 @@
       "name": "Engineering philosophy",
       "links": [
         "/software-engineering",
-        "/choose-boring-tech",
-        "/ship-it"
+        "/ship-it",
+        "/choose-boring-tech"
       ]
     },
     {
@@ -5661,6 +5659,10 @@
       "target": "/everyday-objects"
     },
     {
+      "source": "/design",
+      "target": "/ship-it"
+    },
+    {
       "source": "/languages",
       "target": "/cestina"
     },
@@ -6383,10 +6385,6 @@
     {
       "source": "/software-engineering",
       "target": "/hacker-laws"
-    },
-    {
-      "source": "/software-engineering",
-      "target": "/ship-it"
     },
     {
       "source": "/software-engineering",
@@ -7334,10 +7332,6 @@
     },
     {
       "source": "/creativity",
-      "target": "/design"
-    },
-    {
-      "source": "/creativity",
       "target": "/teamwork"
     },
     {
@@ -7354,7 +7348,11 @@
     },
     {
       "source": "/design",
-      "target": "/ship-it"
+      "target": "/ux"
+    },
+    {
+      "source": "/ship-it",
+      "target": "/swe-phil"
     },
     {
       "source": "/languages",
@@ -7734,6 +7732,10 @@
     },
     {
       "source": "/skills",
+      "target": "/design"
+    },
+    {
+      "source": "/skills",
       "target": "/negotiations"
     },
     {
@@ -7743,10 +7745,6 @@
     {
       "source": "/skills",
       "target": "/a-good-life"
-    },
-    {
-      "source": "/skills",
-      "target": "/design"
     },
     {
       "source": "/skills",
@@ -7818,6 +7816,10 @@
     },
     {
       "source": "/social-sciences",
+      "target": "/design"
+    },
+    {
+      "source": "/social-sciences",
       "target": "/freedom"
     },
     {
@@ -7839,10 +7841,6 @@
     {
       "source": "/social-sciences",
       "target": "/children"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/design"
     },
     {
       "source": "/social-sciences",
@@ -8297,10 +8295,6 @@
       "target": "/swe-phil"
     },
     {
-      "source": "/ship-it",
-      "target": "/swe-phil"
-    },
-    {
       "source": "/software-engineering",
       "target": "/computer-networks"
     },
@@ -8327,6 +8321,10 @@
     {
       "source": "/software-engineering",
       "target": "/projects"
+    },
+    {
+      "source": "/software-engineering",
+      "target": "/ship-it"
     },
     {
       "source": "/software-engineering",
@@ -8385,12 +8383,12 @@
       "target": "/accessibility"
     },
     {
-      "source": "/system-design",
-      "target": "/ux"
+      "source": "/tech",
+      "target": "/akins-laws-of-spacecraft"
     },
     {
       "source": "/tech",
-      "target": "/akins-laws-of-spacecraft"
+      "target": "/design"
     },
     {
       "source": "/tech",
@@ -8407,10 +8405,6 @@
     {
       "source": "/tech",
       "target": "/history-of-technology"
-    },
-    {
-      "source": "/tech",
-      "target": "/design"
     },
     {
       "source": "/tech",

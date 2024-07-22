@@ -11,8 +11,13 @@
             "id": "c124ba1ec6e0abad",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_NOTES/tech/ux/accessibility.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_NOTES/tech/ux/accessibility.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_NOTES/tech/ux/accessibility.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_NOTES/tech/ux/accessibility.md"
+              }
             }
           }
         ]
@@ -151,6 +160,11 @@
   },
   "active": "c124ba1ec6e0abad",
   "lastOpenFiles": [
+    "_NOTES/tech/ux/evolution-of-computer-interfaces.md",
+    "_NOTES/tech/ux/natural-tech.md",
+    "_NOTES/tech/ux/polished-pixels.md",
+    "_NOTES/tech/ux/ux.md",
+    "_NOTES/arts/design/ship-it.md",
     "_site/choice/index.html",
     "_site/choice",
     "_NOTES/arts/philosophy/choice/choice.md",
@@ -177,16 +191,11 @@
     "_NOTES/arts/philosophy/questions.md",
     "_NOTES/arts/philosophy/philosophy.md",
     "_NOTES/arts/philosophy/one-bit-better.md",
-    "_NOTES/arts/philosophy/love.md",
-    "_NOTES/arts/philosophy/look-below-the-surface.md",
-    "_NOTES/arts/philosophy/life-is-play.md",
-    "_NOTES/arts/philosophy/koans.md",
     "_site/thoughts-on-tech/index.html",
     "_site/thoughts-on-tech",
     "_site/discussion-topics/index.html",
     "_site/discussion-topics",
     "_site/systems/index.html",
-    "_site/systems",
     "assets/static/img/grow-fresh-air.jpeg",
     "_NOTES/skills/grow-fresh-air.jpeg",
     "_NOTES/practical-skills/grow-fresh-air.jpeg",

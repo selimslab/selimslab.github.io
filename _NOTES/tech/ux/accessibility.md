@@ -2,6 +2,9 @@
 title: Accessible Software 
 tags: tech sys
 ---
+
+![](/assets/static/img/curb-cut-effect.png)
+
 <https://www.accessibility-developer-guide.com>
 
 * Be mindful of color, contrast, and fonts 
@@ -22,4 +25,4 @@ tags: tech sys
 
 * Make it clear where I am and where I can go from here. Sensible urls, clear navigation links, and breadcrumbs
 
-![](/assets/static/img/curb-cut-effect.png)
+

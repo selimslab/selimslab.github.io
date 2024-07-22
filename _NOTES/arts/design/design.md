@@ -1,5 +1,4 @@
 ---
-title: On design
 tags: skills tech soc
 ---
 
@@ -18,8 +17,6 @@ tags: skills tech soc
 - Design is like a mom, nobody notices when she’s around, but everybody misses her when she’s not.
 - Its simple enough if the user can easily and intuitively grasp how it works
 
-* [[ship-it]]
-* [[creativity]]
 * Take hints from the past
 
 - Don’t design for everyone. It makes everyone unhappy.

@@ -2,8 +2,6 @@
 tags: swe sys
 ---
 
-[[design]]
-
 Ship it
 
 Usage is like oxygen for ideas.

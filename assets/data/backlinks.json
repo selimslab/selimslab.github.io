@@ -12,17 +12,19 @@
   ],
   "/creativity": [
     "/how-to-start-a-business",
-    "/design",
     "/teamwork"
   ],
   "/design": [
     "/how-to-start-a-business",
     "/natural-tech",
     "/polished-pixels",
-    "/ship-it"
+    "/ux"
   ],
   "/everyday-objects": [
 
+  ],
+  "/ship-it": [
+    "/swe-phil"
   ],
   "/adjektiva": [
 
@@ -680,11 +682,11 @@
     "/communication",
     "/critical-thinking",
     "/decisions",
+    "/design",
     "/leadership",
     "/negotiations",
     "/on-decision-making",
     "/a-good-life",
-    "/design",
     "/write-better",
     "/outdoors",
     "/public-speaking",
@@ -909,13 +911,13 @@
   "/social-sciences": [
     "/cognitive-biases",
     "/communication",
+    "/design",
     "/freedom",
     "/happiness",
     "/how-to-start",
     "/learning",
     "/negotiations",
     "/children",
-    "/design",
     "/psychology",
     "/questioning-people-seen-as-a-threat-to-status-quo",
     "/solitude",
@@ -1582,9 +1584,6 @@
   "/hacker-laws": [
 
   ],
-  "/ship-it": [
-    "/swe-phil"
-  ],
   "/software-analogies": [
 
   ],
@@ -1599,6 +1598,7 @@
     "/operating-systems",
     "/programming",
     "/projects",
+    "/ship-it",
     "/software-security",
     "/system-design"
   ],
@@ -1674,22 +1674,20 @@
     "/oop",
     "/ship-it",
     "/software-security",
-    "/accessibility",
-    "/ux"
+    "/accessibility"
   ],
   "/tech": [
     "/akins-laws-of-spacecraft",
+    "/design",
     "/everyday-objects",
     "/fluid-field-boundaries",
     "/hacker-laws",
     "/history-of-technology",
     "/machine-learning",
-    "/design",
     "/software-engineering",
     "/software-security",
     "/since-big-bang",
-    "/accessibility",
-    "/ux"
+    "/accessibility"
   ],
   "/a-free-web-again": [
 
