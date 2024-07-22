@@ -576,16 +576,6 @@
       "/who-goes-nazi": {
       }
     },
-    "/economics": {
-      "/economics": {
-      },
-      "/four-day-workweek": {
-      },
-      "/the-tragedy-of-the-commons": {
-      },
-      "/wage-theft": {
-      }
-    },
     "/history": {
       "/farming-trap": {
       },
@@ -596,25 +586,33 @@
       "/since-big-bang": {
       }
     },
-    "/systems": {
-      "/chaos": {
+    "/economics": {
+      "/economics": {
       },
-      "/systems": {
+      "/four-day-workweek": {
+      },
+      "/the-tragedy-of-the-commons": {
+      },
+      "/wage-theft": {
       }
     },
     "/social-sciences": {
+    },
+    "/systems": {
+    },
+    "/metaphors": {
+    },
+    "/urban-planning": {
     },
     "/wasted-talent": {
     },
     "/your-lifestyle-already-designed": {
     },
+    "/chaos": {
+    },
     "/social-change": {
     },
-    "/metaphors": {
-    },
     "/in-praise-of-idleness": {
-    },
-    "/urban-planning": {
     },
     "/tolerate-anything-except-outgroup": {
     },
@@ -652,43 +650,9 @@
       "/xss": {
       }
     },
-    "/databases": {
-      "/atomicity": {
-      },
-      "/b-trees": {
-      },
-      "/databases": {
-      },
-      "/db-consistency": {
-      },
-      "/db-data-structures": {
-      },
-      "/durability": {
-      },
-      "/isolation": {
-      },
-      "/lsm-trees": {
-      },
-      "/normalization": {
-      },
-      "/orm-vs-sql": {
-      },
-      "/partitioning": {
-      },
-      "/sql-tips": {
-      },
-      "/replication": {
-        "/leaderless-replication": {
-        },
-        "/multi-leader": {
-        },
-        "/replication": {
-        },
-        "/single-leader": {
-        }
-      }
-    },
     "/thoughts-on-tech": {
+      "/44-engineering-management-lessons": {
+      },
       "/a-free-web-again": {
       },
       "/choose-boring-tech": {
@@ -742,6 +706,42 @@
       "/time-and-order": {
       },
       "/use-an-identity-service": {
+      }
+    },
+    "/databases": {
+      "/atomicity": {
+      },
+      "/b-trees": {
+      },
+      "/databases": {
+      },
+      "/db-consistency": {
+      },
+      "/db-data-structures": {
+      },
+      "/durability": {
+      },
+      "/isolation": {
+      },
+      "/lsm-trees": {
+      },
+      "/normalization": {
+      },
+      "/orm-vs-sql": {
+      },
+      "/partitioning": {
+      },
+      "/sql-tips": {
+      },
+      "/replication": {
+        "/leaderless-replication": {
+        },
+        "/multi-leader": {
+        },
+        "/replication": {
+        },
+        "/single-leader": {
+        }
       }
     },
     "/programming": {
@@ -1112,21 +1112,19 @@
       "/system-design": {
       }
     },
-    "/engineering-management": {
-      "/44-engineering-management-lessons": {
-      }
-    },
     "/encoding": {
       "/unicode": {
       }
     },
-    "/nlp": {
-    },
     "/networks": {
     },
-    "/machine-learning": {
+    "/nlp": {
+    },
+    "/engineering-management": {
     },
     "/tech": {
+    },
+    "/machine-learning": {
     }
   }
 }

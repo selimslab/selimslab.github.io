@@ -1,5 +1,4 @@
 ---
-tags: lead
 ---
 
 Good work requires a relaxed and focused mind. 

@@ -1,4 +1,3 @@
 ---
-tags: prog
 layout: post
 --- 

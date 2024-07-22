@@ -1,5 +1,4 @@
 ---
-tags: lead
 ---
 
 <https://ourworldindata.org/talent-is-everywhere-opportunity-is-not>

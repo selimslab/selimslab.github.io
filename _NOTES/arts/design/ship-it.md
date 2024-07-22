@@ -1,5 +1,4 @@
 ---
-tags: swe
 ---
 
 Ship it

@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "behavioral-psychology",
+      "path": "_NOTES/social-sciences/psychology/behavioral-psychology.md"
+    },
+    {
+      "basename": "vulnerability",
+      "path": "_NOTES/social-sciences/psychology/emotions/vulnerability.md"
+    },
+    {
       "basename": "courage",
       "path": "_NOTES/social-sciences/psychology/emotions/courage.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "anger",
       "path": "_NOTES/social-sciences/psychology/emotions/anger.md"
-    },
-    {
-      "basename": "behavioral-psychology",
-      "path": "_NOTES/social-sciences/psychology/behavioral-psychology.md"
     },
     {
       "basename": "bias-for-unhappiness",
@@ -185,20 +189,12 @@
       "path": "_NOTES/social-sciences/politics/criminal-justice.md"
     },
     {
-      "basename": "systems",
-      "path": "_NOTES/social-sciences/systems/systems.md"
-    },
-    {
       "basename": "tech",
       "path": "_NOTES/tech/tech.md"
     },
     {
       "basename": "history-of-technology",
       "path": "_NOTES/social-sciences/history/history-of-technology.md"
-    },
-    {
-      "basename": "unicode",
-      "path": "_NOTES/tech/encoding/unicode.md"
     }
   ],
   "omittedPaths": []

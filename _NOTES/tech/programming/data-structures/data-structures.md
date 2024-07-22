@@ -1,3 +1,3 @@
 ---
-tags: prog algo
+tags: algo
 ---

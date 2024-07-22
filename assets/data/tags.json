@@ -6,8 +6,7 @@
     "arts"
   ],
   "/creativity": [
-    "design",
-    "lead"
+    "design"
   ],
   "/design": [
     "arts"
@@ -17,8 +16,7 @@
     "tech"
   ],
   "/ship-it": [
-    "design",
-    "swe"
+    "design"
   ],
   "/adjektiva": [
     "cestina"
@@ -236,15 +234,12 @@
     "work"
   ],
   "/teamwork": [
-    "lead",
     "work"
   ],
   "/thoughts-on-work": [
-    "lead",
     "work"
   ],
   "/what-to-work-on": [
-    "lead",
     "work"
   ],
   "/work": [
@@ -495,12 +490,10 @@
     "natural-sciences"
   ],
   "/business": [
-    "lead",
     "skills"
   ],
   "/company-culture": [
-    "business",
-    "lead"
+    "business"
   ],
   "/fire-and-motion": [
     "business"
@@ -670,6 +663,10 @@
   "/being-poor": [
     "social-sciences"
   ],
+  "/chaos": [
+    "social-sciences",
+    "systems"
+  ],
   "/economics": [
     "social-sciences"
   ],
@@ -704,6 +701,7 @@
     "social-sciences"
   ],
   "/metaphors": [
+    "languages",
     "social-sciences"
   ],
   "/criminal-justice": [
@@ -757,8 +755,7 @@
     "cognitive-biases"
   ],
   "/overvaluing-short-term": [
-    "cognitive-biases",
-    "lead"
+    "cognitive-biases"
   ],
   "/people-see-what-they-want": [
     "cognitive-biases"
@@ -865,11 +862,8 @@
   "/social-sciences": [
 
   ],
-  "/chaos": [
-    "nat",
-    "systems"
-  ],
   "/systems": [
+    "nat",
     "social-sciences"
   ],
   "/tolerate-anything-except-outgroup": [
@@ -879,7 +873,6 @@
     "social-sciences"
   ],
   "/wasted-talent": [
-    "lead",
     "social-sciences"
   ],
   "/your-lifestyle-already-designed": [
@@ -1022,9 +1015,6 @@
   "/unicode": [
 
   ],
-  "/44-engineering-management-lessons": [
-    "lead"
-  ],
   "/machine-learning": [
     "tech"
   ],
@@ -1130,7 +1120,6 @@
     "easy"
   ],
   "/code": [
-    "prog",
     "programming"
   ],
   "/coin-change": [
@@ -1380,7 +1369,6 @@
   ],
   "/data-structures": [
     "algo",
-    "prog",
     "programming"
   ],
   "/graph": [
@@ -1463,7 +1451,6 @@
     "oop"
   ],
   "/oop": [
-    "prog",
     "programming",
     "sys"
   ],
@@ -1510,7 +1497,6 @@
 
   ],
   "/zen-of-python": [
-    "prog",
     "python"
   ],
   "/rust": [
@@ -1563,9 +1549,7 @@
     "projects"
   ],
   "/projects": [
-    "prog",
-    "programming",
-    "swe"
+    "programming"
   ],
   "/vga-driver": [
     "projects"
@@ -1643,6 +1627,9 @@
   ],
   "/tech": [
 
+  ],
+  "/44-engineering-management-lessons": [
+    "thoughts-on-tech"
   ],
   "/a-free-web-again": [
     "thoughts-on-tech"

@@ -9,14 +9,11 @@ gr: graph
 ll: linked-list
 ptr: pointers
 q: queue
-lit: literature
 phil: philosophy
 psy: psychology
 pols: politics
-lead: leadership
 soc: social-sciences
 nat: natural-sciences
-prog: programming
 swe: software-engineering
 sys: system-design
 

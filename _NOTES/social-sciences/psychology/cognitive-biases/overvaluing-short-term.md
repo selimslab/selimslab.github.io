@@ -1,5 +1,4 @@
 ---
-tags:  lead
 ---
 
 From <https://cdixon.org/2009/09/19/climbing-the-wrong-hill>
@@ -13,3 +12,5 @@ Going back to the job candidate, he has the benefit of having a less foggy view 
 But the lure of the current hill is strong. There is a natural human tendency to make the next step an upward one. He ends up falling for a common trap highlighted by behavioral economists: people tend to systematically overvalue near term over long term rewards.  This effect seems to be even stronger in more ambitious people. Their ambition seems to make it hard for them to forgo the nearby upward step.
 
 People early in their career should learn from computer science: meander some in your walk (especially early on), randomly drop yourself into new parts of the terrain, and when you find the highest hill, don’t waste any more time on the current hill no matter how much better the next step up might appear.
+
+[[leadership]]

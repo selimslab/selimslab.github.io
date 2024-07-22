@@ -101,7 +101,7 @@
         "/the-true-size-of-africa",
         "/sleep",
         "/since-big-bang",
-        "/chaos"
+        "/systems"
       ]
     },
     {
@@ -146,15 +146,16 @@
         "/root",
         "/psychology",
         "/politics",
-        "/economics",
         "/history",
+        "/economics",
         "/systems",
+        "/metaphors",
+        "/urban-planning",
         "/wasted-talent",
         "/your-lifestyle-already-designed",
+        "/chaos",
         "/social-change",
-        "/metaphors",
         "/in-praise-of-idleness",
-        "/urban-planning",
         "/tolerate-anything-except-outgroup",
         "/being-poor",
         "/cognitive-biases",
@@ -176,19 +177,19 @@
       "links": [
         "/root",
         "/digital-security",
-        "/databases",
         "/thoughts-on-tech",
         "/distributed-systems",
+        "/databases",
         "/programming",
         "/software-engineering",
         "/ux",
         "/prompt-engineering",
         "/operating-systems",
         "/system-design",
-        "/engineering-management",
         "/encoding",
-        "/nlp",
         "/networks",
+        "/nlp",
+        "/engineering-management",
         "/machine-learning",
         "/akins-laws-of-spacecraft",
         "/everyday-objects",
@@ -287,7 +288,8 @@
         "/modern-greek-alphabet",
         "/cestina",
         "/deutsch",
-        "/english"
+        "/english",
+        "/metaphors"
       ]
     },
     {
@@ -697,8 +699,7 @@
         "/marketing",
         "/sales",
         "/trading",
-        "/wasted-talent",
-        "/leadership"
+        "/wasted-talent"
       ]
     },
     {
@@ -777,16 +778,8 @@
       "links": [
         "/skills",
         "/setting-rules",
-        "/business",
-        "/company-culture",
-        "/creativity",
-        "/teamwork",
-        "/thoughts-on-work",
-        "/what-to-work-on",
-        "/overvaluing-short-term",
-        "/praise-and-motivation",
-        "/wasted-talent",
-        "/44-engineering-management-lessons"
+        "/44-engineering-management-lessons",
+        "/overvaluing-short-term"
       ]
     },
     {
@@ -967,17 +960,6 @@
       ]
     },
     {
-      "id": "/economics",
-      "group": 2,
-      "name": "Economics",
-      "links": [
-        "/social-sciences",
-        "/four-day-workweek",
-        "/the-tragedy-of-the-commons",
-        "/wage-theft"
-      ]
-    },
-    {
       "id": "/history",
       "group": 2,
       "name": "History",
@@ -989,13 +971,42 @@
       ]
     },
     {
+      "id": "/economics",
+      "group": 2,
+      "name": "Economics",
+      "links": [
+        "/social-sciences",
+        "/four-day-workweek",
+        "/the-tragedy-of-the-commons",
+        "/wage-theft"
+      ]
+    },
+    {
       "id": "/systems",
       "group": 2,
       "name": "Systems thinking",
       "links": [
         "/social-sciences",
+        "/natural-sciences",
         "/chaos",
         "/chaos"
+      ]
+    },
+    {
+      "id": "/metaphors",
+      "group": 2,
+      "name": "Metaphors",
+      "links": [
+        "/social-sciences",
+        "/languages"
+      ]
+    },
+    {
+      "id": "/urban-planning",
+      "group": 2,
+      "name": "Urban Planning",
+      "links": [
+        "/social-sciences"
       ]
     },
     {
@@ -1004,8 +1015,7 @@
       "name": "Wasted Talent",
       "links": [
         "/social-sciences",
-        "/business",
-        "/leadership"
+        "/business"
       ]
     },
     {
@@ -1017,17 +1027,19 @@
       ]
     },
     {
-      "id": "/social-change",
+      "id": "/chaos",
       "group": 2,
-      "name": "Social Change",
+      "name": "Chaos",
       "links": [
-        "/social-sciences"
+        "/social-sciences",
+        "/systems",
+        "/systems"
       ]
     },
     {
-      "id": "/metaphors",
+      "id": "/social-change",
       "group": 2,
-      "name": "Metaphors",
+      "name": "Social Change",
       "links": [
         "/social-sciences"
       ]
@@ -1040,14 +1052,6 @@
         "/social-sciences",
         "/philosophy",
         "/four-day-workweek"
-      ]
-    },
-    {
-      "id": "/urban-planning",
-      "group": 2,
-      "name": "Urban Planning",
-      "links": [
-        "/social-sciences"
       ]
     },
     {
@@ -1089,31 +1093,12 @@
       ]
     },
     {
-      "id": "/databases",
-      "group": 2,
-      "name": "Databases",
-      "links": [
-        "/tech",
-        "/atomicity",
-        "/b-trees",
-        "/db-consistency",
-        "/db-data-structures",
-        "/durability",
-        "/isolation",
-        "/lsm-trees",
-        "/normalization",
-        "/orm-vs-sql",
-        "/partitioning",
-        "/sql-tips",
-        "/replication"
-      ]
-    },
-    {
       "id": "/thoughts-on-tech",
       "group": 2,
       "name": "Thoughts On Tech",
       "links": [
         "/tech",
+        "/44-engineering-management-lessons",
         "/a-free-web-again",
         "/choose-boring-tech",
         "/easy-vs-hard-in-cs",
@@ -1150,6 +1135,26 @@
       ]
     },
     {
+      "id": "/databases",
+      "group": 2,
+      "name": "Databases",
+      "links": [
+        "/tech",
+        "/atomicity",
+        "/b-trees",
+        "/db-consistency",
+        "/db-data-structures",
+        "/durability",
+        "/isolation",
+        "/lsm-trees",
+        "/normalization",
+        "/orm-vs-sql",
+        "/partitioning",
+        "/sql-tips",
+        "/replication"
+      ]
+    },
+    {
       "id": "/programming",
       "group": 2,
       "name": "Programming",
@@ -1165,7 +1170,6 @@
         "/programming-languages",
         "/projects",
         "/tools",
-        "/zen-of-python",
         "/software-engineering"
       ]
     },
@@ -1186,8 +1190,6 @@
         "/the-joel-test",
         "/concurrency",
         "/programming",
-        "/projects",
-        "/ship-it",
         "/system-design"
       ]
     },
@@ -1251,21 +1253,20 @@
       ]
     },
     {
-      "id": "/engineering-management",
-      "group": 2,
-      "name": "Engineering-management",
-      "links": [
-        "/tech",
-        "/44-engineering-management-lessons"
-      ]
-    },
-    {
       "id": "/encoding",
       "group": 2,
       "name": "Encoding",
       "links": [
         "/tech",
         "/unicode"
+      ]
+    },
+    {
+      "id": "/networks",
+      "group": 2,
+      "name": "Networks",
+      "links": [
+        "/tech"
       ]
     },
     {
@@ -1277,9 +1278,9 @@
       ]
     },
     {
-      "id": "/networks",
+      "id": "/engineering-management",
       "group": 2,
-      "name": "Networks",
+      "name": "Engineering-management",
       "links": [
         "/tech"
       ]
@@ -1763,8 +1764,7 @@
       "links": [
         "/design",
         "/how-to-start-a-business",
-        "/teamwork",
-        "/leadership"
+        "/teamwork"
       ]
     },
     {
@@ -1782,8 +1782,7 @@
       "name": "Ship It",
       "links": [
         "/design",
-        "/thought-on-swe",
-        "/software-engineering"
+        "/thought-on-swe"
       ]
     },
     {
@@ -1835,8 +1834,7 @@
       "group": 3,
       "name": "Company Culture",
       "links": [
-        "/business",
-        "/leadership"
+        "/business"
       ]
     },
     {
@@ -2213,8 +2211,7 @@
       "group": 3,
       "name": "Praise And Motivation",
       "links": [
-        "/psychology",
-        "/leadership"
+        "/psychology"
       ]
     },
     {
@@ -2402,31 +2399,6 @@
       ]
     },
     {
-      "id": "/four-day-workweek",
-      "group": 3,
-      "name": "Four Day Workweek",
-      "links": [
-        "/economics",
-        "/in-praise-of-idleness"
-      ]
-    },
-    {
-      "id": "/the-tragedy-of-the-commons",
-      "group": 3,
-      "name": "The Tragedy Of The Commons",
-      "links": [
-        "/economics"
-      ]
-    },
-    {
-      "id": "/wage-theft",
-      "group": 3,
-      "name": "Wage Theft",
-      "links": [
-        "/economics"
-      ]
-    },
-    {
       "id": "/farming-trap",
       "group": 3,
       "name": "Farming Trap",
@@ -2455,13 +2427,28 @@
       ]
     },
     {
-      "id": "/chaos",
+      "id": "/four-day-workweek",
       "group": 3,
-      "name": "Chaos",
+      "name": "Four Day Workweek",
       "links": [
-        "/systems",
-        "/natural-sciences",
-        "/systems"
+        "/economics",
+        "/in-praise-of-idleness"
+      ]
+    },
+    {
+      "id": "/the-tragedy-of-the-commons",
+      "group": 3,
+      "name": "The Tragedy Of The Commons",
+      "links": [
+        "/economics"
+      ]
+    },
+    {
+      "id": "/wage-theft",
+      "group": 3,
+      "name": "Wage Theft",
+      "links": [
+        "/economics"
       ]
     },
     {
@@ -2577,112 +2564,12 @@
       ]
     },
     {
-      "id": "/atomicity",
+      "id": "/44-engineering-management-lessons",
       "group": 3,
-      "name": "Atomicity",
+      "name": "44 Engineering Management Lessons",
       "links": [
-        "/databases",
-        "/db-consistency"
-      ]
-    },
-    {
-      "id": "/b-trees",
-      "group": 3,
-      "name": "B Trees",
-      "links": [
-        "/databases",
-        "/db-data-structures"
-      ]
-    },
-    {
-      "id": "/db-consistency",
-      "group": 3,
-      "name": "Db Consistency",
-      "links": [
-        "/databases",
-        "/atomicity"
-      ]
-    },
-    {
-      "id": "/db-data-structures",
-      "group": 3,
-      "name": "Data Structures to Build a DB",
-      "links": [
-        "/databases",
-        "/b-trees"
-      ]
-    },
-    {
-      "id": "/durability",
-      "group": 3,
-      "name": "Durability",
-      "links": [
-        "/databases"
-      ]
-    },
-    {
-      "id": "/isolation",
-      "group": 3,
-      "name": "Isolation",
-      "links": [
-        "/databases"
-      ]
-    },
-    {
-      "id": "/lsm-trees",
-      "group": 3,
-      "name": "Log structured merge tree (LSM tree)",
-      "links": [
-        "/databases",
-        "/algorithms"
-      ]
-    },
-    {
-      "id": "/normalization",
-      "group": 3,
-      "name": "Normalization",
-      "links": [
-        "/databases"
-      ]
-    },
-    {
-      "id": "/orm-vs-sql",
-      "group": 3,
-      "name": "What ORMs have taught me, just learn SQL",
-      "links": [
-        "/databases"
-      ]
-    },
-    {
-      "id": "/partitioning",
-      "group": 3,
-      "name": "Partitioning",
-      "links": [
-        "/databases",
-        "/consistent-hashing",
-        "/distributed-data"
-      ]
-    },
-    {
-      "id": "/sql-tips",
-      "group": 3,
-      "name": "Sql Tips",
-      "links": [
-        "/databases"
-      ]
-    },
-    {
-      "id": "/replication",
-      "group": 3,
-      "name": "Replication",
-      "links": [
-        "/databases",
-        "/leaderless-replication",
-        "/multi-leader",
-        "/single-leader",
-        "/leaderless-replication",
-        "/multi-leader",
-        "/distributed-data"
+        "/thoughts-on-tech",
+        "/leadership"
       ]
     },
     {
@@ -2888,6 +2775,115 @@
       ]
     },
     {
+      "id": "/atomicity",
+      "group": 3,
+      "name": "Atomicity",
+      "links": [
+        "/databases",
+        "/db-consistency"
+      ]
+    },
+    {
+      "id": "/b-trees",
+      "group": 3,
+      "name": "B Trees",
+      "links": [
+        "/databases",
+        "/db-data-structures"
+      ]
+    },
+    {
+      "id": "/db-consistency",
+      "group": 3,
+      "name": "Db Consistency",
+      "links": [
+        "/databases",
+        "/atomicity"
+      ]
+    },
+    {
+      "id": "/db-data-structures",
+      "group": 3,
+      "name": "Data Structures to Build a DB",
+      "links": [
+        "/databases",
+        "/b-trees"
+      ]
+    },
+    {
+      "id": "/durability",
+      "group": 3,
+      "name": "Durability",
+      "links": [
+        "/databases"
+      ]
+    },
+    {
+      "id": "/isolation",
+      "group": 3,
+      "name": "Isolation",
+      "links": [
+        "/databases"
+      ]
+    },
+    {
+      "id": "/lsm-trees",
+      "group": 3,
+      "name": "Log structured merge tree (LSM tree)",
+      "links": [
+        "/databases",
+        "/algorithms"
+      ]
+    },
+    {
+      "id": "/normalization",
+      "group": 3,
+      "name": "Normalization",
+      "links": [
+        "/databases"
+      ]
+    },
+    {
+      "id": "/orm-vs-sql",
+      "group": 3,
+      "name": "What ORMs have taught me, just learn SQL",
+      "links": [
+        "/databases"
+      ]
+    },
+    {
+      "id": "/partitioning",
+      "group": 3,
+      "name": "Partitioning",
+      "links": [
+        "/databases",
+        "/consistent-hashing",
+        "/distributed-data"
+      ]
+    },
+    {
+      "id": "/sql-tips",
+      "group": 3,
+      "name": "Sql Tips",
+      "links": [
+        "/databases"
+      ]
+    },
+    {
+      "id": "/replication",
+      "group": 3,
+      "name": "Replication",
+      "links": [
+        "/databases",
+        "/leaderless-replication",
+        "/multi-leader",
+        "/single-leader",
+        "/leaderless-replication",
+        "/multi-leader",
+        "/distributed-data"
+      ]
+    },
+    {
       "id": "/compsci",
       "group": 3,
       "name": "Computers from scratch",
@@ -3073,8 +3069,7 @@
         "/pascal-interpreter",
         "/pca",
         "/predict-movie-genres",
-        "/vga-driver",
-        "/software-engineering"
+        "/vga-driver"
       ]
     },
     {
@@ -3294,15 +3289,6 @@
       ]
     },
     {
-      "id": "/44-engineering-management-lessons",
-      "group": 3,
-      "name": "44 Engineering Management Lessons",
-      "links": [
-        "/engineering-management",
-        "/leadership"
-      ]
-    },
-    {
       "id": "/unicode",
       "group": 3,
       "name": "Unicode",
@@ -3471,8 +3457,7 @@
         "/work",
         "/creativity",
         "/how-to-start-a-business",
-        "/what-to-work-on",
-        "/leadership"
+        "/what-to-work-on"
       ]
     },
     {
@@ -3481,8 +3466,7 @@
       "name": "Thoughts On Work",
       "links": [
         "/work",
-        "/be-good-to-each-other-and-yourself",
-        "/leadership"
+        "/be-good-to-each-other-and-yourself"
       ]
     },
     {
@@ -3493,8 +3477,7 @@
         "/work",
         "/teamwork",
         "/get-things-done",
-        "/how-to-start-a-business",
-        "/leadership"
+        "/how-to-start-a-business"
       ]
     },
     {
@@ -5105,8 +5088,7 @@
       "group": 5,
       "name": "Zen Of Python",
       "links": [
-        "/python",
-        "/programming"
+        "/python"
       ]
     }
   ],
@@ -5429,15 +5411,23 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/economics"
-    },
-    {
-      "source": "/social-sciences",
       "target": "/history"
     },
     {
       "source": "/social-sciences",
+      "target": "/economics"
+    },
+    {
+      "source": "/social-sciences",
       "target": "/systems"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/metaphors"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/urban-planning"
     },
     {
       "source": "/social-sciences",
@@ -5449,19 +5439,15 @@
     },
     {
       "source": "/social-sciences",
+      "target": "/chaos"
+    },
+    {
+      "source": "/social-sciences",
       "target": "/social-change"
     },
     {
       "source": "/social-sciences",
-      "target": "/metaphors"
-    },
-    {
-      "source": "/social-sciences",
       "target": "/in-praise-of-idleness"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/urban-planning"
     },
     {
       "source": "/social-sciences",
@@ -5477,15 +5463,15 @@
     },
     {
       "source": "/tech",
-      "target": "/databases"
-    },
-    {
-      "source": "/tech",
       "target": "/thoughts-on-tech"
     },
     {
       "source": "/tech",
       "target": "/distributed-systems"
+    },
+    {
+      "source": "/tech",
+      "target": "/databases"
     },
     {
       "source": "/tech",
@@ -5513,11 +5499,11 @@
     },
     {
       "source": "/tech",
-      "target": "/engineering-management"
+      "target": "/encoding"
     },
     {
       "source": "/tech",
-      "target": "/encoding"
+      "target": "/networks"
     },
     {
       "source": "/tech",
@@ -5525,7 +5511,7 @@
     },
     {
       "source": "/tech",
-      "target": "/networks"
+      "target": "/engineering-management"
     },
     {
       "source": "/tech",
@@ -6008,18 +5994,6 @@
       "target": "/who-goes-nazi"
     },
     {
-      "source": "/economics",
-      "target": "/four-day-workweek"
-    },
-    {
-      "source": "/economics",
-      "target": "/the-tragedy-of-the-commons"
-    },
-    {
-      "source": "/economics",
-      "target": "/wage-theft"
-    },
-    {
       "source": "/history",
       "target": "/farming-trap"
     },
@@ -6032,8 +6006,16 @@
       "target": "/since-big-bang"
     },
     {
-      "source": "/systems",
-      "target": "/chaos"
+      "source": "/economics",
+      "target": "/four-day-workweek"
+    },
+    {
+      "source": "/economics",
+      "target": "/the-tragedy-of-the-commons"
+    },
+    {
+      "source": "/economics",
+      "target": "/wage-theft"
     },
     {
       "source": "/digital-security",
@@ -6092,52 +6074,8 @@
       "target": "/xss"
     },
     {
-      "source": "/databases",
-      "target": "/atomicity"
-    },
-    {
-      "source": "/databases",
-      "target": "/b-trees"
-    },
-    {
-      "source": "/databases",
-      "target": "/db-consistency"
-    },
-    {
-      "source": "/databases",
-      "target": "/db-data-structures"
-    },
-    {
-      "source": "/databases",
-      "target": "/durability"
-    },
-    {
-      "source": "/databases",
-      "target": "/isolation"
-    },
-    {
-      "source": "/databases",
-      "target": "/lsm-trees"
-    },
-    {
-      "source": "/databases",
-      "target": "/normalization"
-    },
-    {
-      "source": "/databases",
-      "target": "/orm-vs-sql"
-    },
-    {
-      "source": "/databases",
-      "target": "/partitioning"
-    },
-    {
-      "source": "/databases",
-      "target": "/sql-tips"
-    },
-    {
-      "source": "/databases",
-      "target": "/replication"
+      "source": "/thoughts-on-tech",
+      "target": "/44-engineering-management-lessons"
     },
     {
       "source": "/thoughts-on-tech",
@@ -6234,6 +6172,54 @@
     {
       "source": "/distributed-systems",
       "target": "/use-an-identity-service"
+    },
+    {
+      "source": "/databases",
+      "target": "/atomicity"
+    },
+    {
+      "source": "/databases",
+      "target": "/b-trees"
+    },
+    {
+      "source": "/databases",
+      "target": "/db-consistency"
+    },
+    {
+      "source": "/databases",
+      "target": "/db-data-structures"
+    },
+    {
+      "source": "/databases",
+      "target": "/durability"
+    },
+    {
+      "source": "/databases",
+      "target": "/isolation"
+    },
+    {
+      "source": "/databases",
+      "target": "/lsm-trees"
+    },
+    {
+      "source": "/databases",
+      "target": "/normalization"
+    },
+    {
+      "source": "/databases",
+      "target": "/orm-vs-sql"
+    },
+    {
+      "source": "/databases",
+      "target": "/partitioning"
+    },
+    {
+      "source": "/databases",
+      "target": "/sql-tips"
+    },
+    {
+      "source": "/databases",
+      "target": "/replication"
     },
     {
       "source": "/programming",
@@ -6370,10 +6356,6 @@
     {
       "source": "/system-design",
       "target": "/system-design-concepts"
-    },
-    {
-      "source": "/engineering-management",
-      "target": "/44-engineering-management-lessons"
     },
     {
       "source": "/encoding",
@@ -7200,6 +7182,10 @@
       "target": "/thought-on-swe"
     },
     {
+      "source": "/languages",
+      "target": "/metaphors"
+    },
+    {
       "source": "/cien-anos-de-soledad",
       "target": "/classics"
     },
@@ -7461,7 +7447,7 @@
     },
     {
       "source": "/natural-sciences",
-      "target": "/chaos"
+      "target": "/systems"
     },
     {
       "source": "/business",
@@ -7505,43 +7491,11 @@
     },
     {
       "source": "/leadership",
-      "target": "/business"
-    },
-    {
-      "source": "/leadership",
-      "target": "/company-culture"
-    },
-    {
-      "source": "/leadership",
-      "target": "/creativity"
-    },
-    {
-      "source": "/leadership",
-      "target": "/teamwork"
-    },
-    {
-      "source": "/leadership",
-      "target": "/thoughts-on-work"
-    },
-    {
-      "source": "/leadership",
-      "target": "/what-to-work-on"
+      "target": "/44-engineering-management-lessons"
     },
     {
       "source": "/leadership",
       "target": "/overvaluing-short-term"
-    },
-    {
-      "source": "/leadership",
-      "target": "/praise-and-motivation"
-    },
-    {
-      "source": "/leadership",
-      "target": "/wasted-talent"
-    },
-    {
-      "source": "/leadership",
-      "target": "/44-engineering-management-lessons"
     },
     {
       "source": "/calisthenics",
@@ -7566,6 +7520,10 @@
     {
       "source": "/skills",
       "target": "/how-to-start"
+    },
+    {
+      "source": "/chaos",
+      "target": "/systems"
     },
     {
       "source": "/four-day-workweek",
@@ -7640,8 +7598,8 @@
       "target": "/is-tech-fast-or-slow"
     },
     {
-      "source": "/chaos",
-      "target": "/systems"
+      "source": "/systems",
+      "target": "/chaos"
     },
     {
       "source": "/atomicity",
@@ -8064,24 +8022,12 @@
       "target": "/python"
     },
     {
-      "source": "/programming",
-      "target": "/zen-of-python"
-    },
-    {
       "source": "/software-engineering",
       "target": "/concurrency"
     },
     {
       "source": "/software-engineering",
       "target": "/programming"
-    },
-    {
-      "source": "/software-engineering",
-      "target": "/projects"
-    },
-    {
-      "source": "/software-engineering",
-      "target": "/ship-it"
     },
     {
       "source": "/software-engineering",

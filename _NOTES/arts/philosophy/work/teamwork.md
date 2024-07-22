@@ -1,6 +1,5 @@
 ---
 title: Teamwork
-tags: lead
 ---
 
 However hard you work, the results are limited by a single person.

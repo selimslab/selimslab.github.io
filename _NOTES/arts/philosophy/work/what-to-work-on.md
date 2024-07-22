@@ -1,6 +1,5 @@
 ---
 title: What to work on?
-tags: lead
 ---
 
 1. Start with the why, then how and what 

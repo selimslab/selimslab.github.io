@@ -1,5 +1,4 @@
 ---
-tags: prog
 ---
 
 I like how Python have a philosophy of elegance. Software should be easy to understand, easy to explain. 

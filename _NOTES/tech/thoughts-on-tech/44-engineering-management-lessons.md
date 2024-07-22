@@ -1,6 +1,7 @@
 ---
-tags: lead
 ---
+
+[[leadership]]
 
 From <https://www.defmacro.org/2014/10/03/engman.html>
 
@@ -9,12 +10,12 @@ Welcome to engineering management. It’s fun, it’s exhausting, it’s rewardi
 Do
 ==
 
-01. Attract, nurture, coach, and retain talent. Talk to engineers to tease out concerns early, then fix them if you can.
-02. Communicate to every engineer the next most important issue for them to work on.
-03. Be the tiebreaker when the development team can’t reach consensus.
-04. Be the information hub. Know what every engineer is working on, and help connect the dots that wouldn’t otherwise get connected.
-05. Provide administrative support. Schedule issues, coordinate releases, and make sure the bureaucratic machine keeps ticking.
-06. Enforce behavioral and performance standards. Fire bullies and underperformers.
+1.  Attract, nurture, coach, and retain talent. Talk to engineers to tease out concerns early, then fix them if you can.
+2.  Communicate to every engineer the next most important issue for them to work on.
+3.  Be the tiebreaker when the development team can’t reach consensus.
+4.  Be the information hub. Know what every engineer is working on, and help connect the dots that wouldn’t otherwise get connected.
+5.  Provide administrative support. Schedule issues, coordinate releases, and make sure the bureaucratic machine keeps ticking.
+6.  Enforce behavioral and performance standards. Fire bullies and underperformers.
 
 Don’t
 =====

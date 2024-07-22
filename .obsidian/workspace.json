@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_NOTES/social-sciences/psychology/emotions/courage.md",
+                "file": "_NOTES/social-sciences/psychology/behavioral-psychology.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_NOTES/social-sciences/psychology/emotions/courage.md",
+                "file": "_NOTES/social-sciences/psychology/behavioral-psychology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_NOTES/social-sciences/psychology/emotions/courage.md",
+                "file": "_NOTES/social-sciences/psychology/behavioral-psychology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_NOTES/social-sciences/psychology/emotions/courage.md"
+                "file": "_NOTES/social-sciences/psychology/behavioral-psychology.md"
               }
             }
           }
@@ -160,6 +160,11 @@
   },
   "active": "bc86af8c7183ead1",
   "lastOpenFiles": [
+    "_NOTES/tech/thoughts-on-tech/44-engineering-management-lessons.md",
+    "_NOTES/social-sciences/chaos.md",
+    "_NOTES/social-sciences/systems.md",
+    "_NOTES/social-sciences/psychology/emotions/vulnerability.md",
+    "_NOTES/social-sciences/psychology/emotions/courage.md",
     "_NOTES/social-sciences/psychology/emotions/arrogance.md",
     "_NOTES/social-sciences/psychology/emotions/anxiety.md",
     "_NOTES/social-sciences/psychology/emotions/anger.md",
@@ -181,11 +186,6 @@
     "_NOTES/natural-sciences/classical-physics.md",
     "_NOTES/skills/career/career.md",
     "_NOTES/arts/philosophy/work/you-are-not-nameless.md",
-    "_NOTES/skills/career/career-advice.md",
-    "_NOTES/arts/philosophy/work/career-advice.md",
-    "_NOTES/arts/philosophy/work/what-to-work-on.md",
-    "_NOTES/skills/career/you-are-not-nameless.md",
-    "_NOTES/skills/career/salary-negotiation.md",
     "_NOTES/tech/digital-security",
     "_site/assets/data/graph.json",
     "_site/assets/data/tags.json",
