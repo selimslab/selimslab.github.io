@@ -21,6 +21,12 @@ class SiteGenerator < Jekyll::Generator
         process_doc(doc, site)
       end
 
+      site.documents.each do |doc|
+          # dedup backlinks
+          doc.data['backlinks'] = doc.data['backlinks'].uniq
+      end
+
+
       begin
         File.open("./assets/data/tree.json", "w") do |f|
           f.write(JSON.pretty_generate(site.data["tree"]))
@@ -40,6 +46,15 @@ class SiteGenerator < Jekyll::Generator
       site.data["ideas"] = JSON.parse(File.read("./assets/data/ideas.json")).sort
 
       site.data["link_count"] += graph[:links].length
+
+      # print backlinks to json
+      backlinks = site.documents.map do |doc|
+        [doc.id, doc.data['backlinks'].map { |e| e.id }]
+      end
+      # print backlinks to json
+      File.open("./assets/data/backlinks.json", "w") do |f|
+        f.write(JSON.pretty_generate(backlinks.to_h))
+      end
 
     end
 
@@ -207,7 +222,7 @@ class SiteGenerator < Jekyll::Generator
       tags_to_backlinks(doc, site)
 
       # remove links to self
-      doc.data['backlinks'] = doc.data['backlinks'].uniq.reject { |e| e.id == doc.id }.uniq.sort_by { |e| e.data["title"] }
+      doc.data['backlinks'] = doc.data['backlinks'].reject { |e| e.id == doc.id }.uniq.sort_by { |e| e.data["title"] }
 
       replace_links_in_content(doc, site)
     end

@@ -1,0 +1,1832 @@
+{
+  "/arts": [
+    "/cinema",
+    "/languages",
+    "/literature",
+    "/philosophy",
+    "/politics"
+  ],
+  "/cinema": [
+
+  ],
+  "/documentaries": [
+
+  ],
+  "/film-scores": [
+
+  ],
+  "/movies": [
+
+  ],
+  "/everyday-objects": [
+
+  ],
+  "/adjektiva": [
+
+  ],
+  "/adverbium": [
+
+  ],
+  "/cas": [
+
+  ],
+  "/cestina": [
+
+  ],
+  "/cisla": [
+
+  ],
+  "/domov": [
+
+  ],
+  "/emoce": [
+
+  ],
+  "/fraze": [
+
+  ],
+  "/jidla": [
+
+  ],
+  "/kazdodenni-zivot": [
+
+  ],
+  "/koníčky": [
+
+  ],
+  "/nemocnice": [
+
+  ],
+  "/podobna-slova": [
+
+  ],
+  "/podstatna-jmena": [
+
+  ],
+  "/pracoviště": [
+
+  ],
+  "/predlozky": [
+
+  ],
+  "/slovesa": [
+
+  ],
+  "/zaklady": [
+
+  ],
+  "/deutsch": [
+
+  ],
+  "/english": [
+
+  ],
+  "/languages": [
+    "/cestina",
+    "/deutsch",
+    "/turkce",
+    "/modern-greek-alphabet",
+    "/nato-phonetic-alphabet"
+  ],
+  "/latin": [
+
+  ],
+  "/cien-anos-de-soledad": [
+    "/classics"
+  ],
+  "/classics": [
+
+  ],
+  "/do-not-lie-to-yourself": [
+    "/do-what-is-right",
+    "/character",
+    "/on-decision-making",
+    "/psy-in-lit"
+  ],
+  "/elaborate-vs-clear-speech": [
+    "/psy-in-lit"
+  ],
+  "/the-art-of-war": [
+    "/phil-books",
+    "/soc-books",
+    "/warfare-is-deception"
+  ],
+  "/literature": [
+    "/authors",
+    "/psy-in-lit"
+  ],
+  "/ince-memed": [
+
+  ],
+  "/turk-mirasi": [
+
+  ],
+  "/turkce": [
+    "/ideal-insan",
+    "/siir"
+  ],
+  "/death": [
+    "/a-good-life"
+  ],
+  "/enemies": [
+
+  ],
+  "/epicurus": [
+
+  ],
+  "/experiences-are-better-than-material-things": [
+
+  ],
+  "/free-will": [
+    "/freedom",
+    "/on-decision-making"
+  ],
+  "/freedom": [
+    "/on-decision-making",
+    "/success"
+  ],
+  "/friends": [
+
+  ],
+  "/good-and-evil": [
+
+  ],
+  "/concepts-in-greek-thought": [
+
+  ],
+  "/happiness": [
+    "/a-good-life",
+    "/unhappy-in-their-own-way"
+  ],
+  "/ideal-insan": [
+
+  ],
+  "/know-where-to-stop": [
+    "/do-one-thing-at-a-time-and-do-it-well"
+  ],
+  "/koans": [
+
+  ],
+  "/lesser-the-better": [
+    "/moderation"
+  ],
+  "/life-is-not-short": [
+    "/a-good-life"
+  ],
+  "/life-is-play": [
+
+  ],
+  "/look-below-the-surface": [
+
+  ],
+  "/love": [
+    "/a-good-life"
+  ],
+  "/moderation": [
+    "/a-good-life"
+  ],
+  "/nature-vs-people": [
+
+  ],
+  "/no-regrets-no-worries": [
+
+  ],
+  "/one-bit-better": [
+    "/a-good-life"
+  ],
+  "/philosophy": [
+    "/life-is-soft",
+    "/tao-te-ching",
+    "/phil-books",
+    "/a-good-life",
+    "/all-is-one",
+    "/be-good-to-each-other-and-yourself",
+    "/character",
+    "/take-a-walk",
+    "/what-to-work-on",
+    "/your-lifestyle-already-designed",
+    "/critical-thinking",
+    "/how-to-deal-with-pain",
+    "/solitude"
+  ],
+  "/pleasure-vs-possibility": [
+
+  ],
+  "/questions": [
+    "/critical-thinking"
+  ],
+  "/search-for-meaning": [
+    "/overcoming-obstacles",
+    "/phil-books",
+    "/soc-books",
+    "/you-can-always-choose-your-way"
+  ],
+  "/still-vs-running-water": [
+
+  ],
+  "/stupidity": [
+
+  ],
+  "/success": [
+    "/work-phil"
+  ],
+  "/the-morning": [
+    "/get-things-done"
+  ],
+  "/the-past": [
+    "/a-good-life"
+  ],
+  "/travelling-and-change": [
+
+  ],
+  "/truth": [
+    "/critical-thinking"
+  ],
+  "/unhappy-in-their-own-way": [
+    "/psy-in-lit"
+  ],
+  "/warfare-is-deception": [
+
+  ],
+  "/work-phil": [
+
+  ],
+  "/you-can-always-choose-your-way": [
+
+  ],
+  "/conviction": [
+
+  ],
+  "/deep-roots": [
+
+  ],
+  "/find-time-to-just-be": [
+
+  ],
+  "/fire-and-ice": [
+
+  ],
+  "/haikus": [
+
+  ],
+  "/harlem": [
+
+  ],
+  "/if": [
+    "/if-ecevit"
+  ],
+  "/lightly-child": [
+    "/do-one-thing-at-a-time-and-do-it-well"
+  ],
+  "/poetry": [
+    "/siir"
+  ],
+  "/hollow-power": [
+    "/politics"
+  ],
+  "/insight-and-strength": [
+    "/critical-thinking",
+    "/politics"
+  ],
+  "/life-is-soft": [
+
+  ],
+  "/misery-under-happiness": [
+
+  ],
+  "/monstrous-ingenuity": [
+
+  ],
+  "/not-being": [
+
+  ],
+  "/not-far-away": [
+
+  ],
+  "/tao-te-ching": [
+    "/phil-books"
+  ],
+  "/the-great-leader": [
+    "/teamwork"
+  ],
+  "/uncut-wood": [
+
+  ],
+  "/wei-wu-wei": [
+
+  ],
+  "/wind-and-rain": [
+
+  ],
+  "/the-road-not-taken": [
+
+  ],
+  "/this-be-the-verse": [
+
+  ],
+  "/can-yucel": [
+
+  ],
+  "/fuzuli": [
+
+  ],
+  "/if-ecevit": [
+
+  ],
+  "/isyan": [
+
+  ],
+  "/nazim": [
+
+  ],
+  "/orhan-veli": [
+
+  ],
+  "/siir": [
+
+  ],
+  "/authors": [
+
+  ],
+  "/blogs": [
+
+  ],
+  "/algorithms-books": [
+
+  ],
+  "/books": [
+    "/books-swe"
+  ],
+  "/phil-books": [
+
+  ],
+  "/soc-books": [
+
+  ],
+  "/stem-books": [
+
+  ],
+  "/comics": [
+
+  ],
+  "/datasets": [
+    "/statistics"
+  ],
+  "/a-good-life": [
+
+  ],
+  "/all-is-one": [
+
+  ],
+  "/be-good-to-each-other-and-yourself": [
+
+  ],
+  "/being-poor": [
+
+  ],
+  "/career-advice": [
+
+  ],
+  "/character": [
+
+  ],
+  "/climate-change": [
+
+  ],
+  "/creativity": [
+    "/how-to-start-a-business",
+    "/design",
+    "/teamwork"
+  ],
+  "/design": [
+    "/everyday-objects",
+    "/how-to-start-a-business",
+    "/natural-tech",
+    "/polished-pixels",
+    "/ship-it"
+  ],
+  "/essais": [
+    "/communication",
+    "/negotiations",
+    "/write-better",
+    "/critical-thinking",
+    "/on-decision-making",
+    "/how-to-deal-with-pain",
+    "/in-praise-of-idleness",
+    "/how-to-speak-to-children",
+    "/overvaluing-short-term",
+    "/technology-and-time"
+  ],
+  "/farming-trap": [
+
+  ],
+  "/fire-and-motion": [
+
+  ],
+  "/get-things-done": [
+    "/how-to-start-a-business"
+  ],
+  "/growing-fast-and-slow": [
+
+  ],
+  "/how-to-grow-old-russell": [
+
+  ],
+  "/how-to-start-a-business": [
+    "/how-to-gain-wealth"
+  ],
+  "/long-days-short-decades": [
+
+  ],
+  "/look-down-and-around": [
+
+  ],
+  "/mastery": [
+    "/do-one-thing-at-a-time-and-do-it-well",
+    "/teamwork"
+  ],
+  "/problem-solving": [
+
+  ],
+  "/questioning-people-seen-as-a-threat-to-status-quo": [
+
+  ],
+  "/salary-negotiation": [
+
+  ],
+  "/skills": [
+
+  ],
+  "/slow-down-time": [
+
+  ],
+  "/take-a-walk": [
+
+  ],
+  "/teamwork": [
+    "/what-to-work-on"
+  ],
+  "/the-overview-effect": [
+
+  ],
+  "/the-tao-of-programming": [
+
+  ],
+  "/the-triumph-of-stupidity": [
+
+  ],
+  "/tolerate-anything-except-outgroup": [
+    "/social-class"
+  ],
+  "/war-is-a-racket": [
+
+  ],
+  "/wasted-talent": [
+    "/hiring"
+  ],
+  "/what-to-work-on": [
+
+  ],
+  "/who-goes-nazi": [
+
+  ],
+  "/you-are-not-nameless": [
+
+  ],
+  "/your-lifestyle-already-designed": [
+
+  ],
+  "/games": [
+
+  ],
+  "/hn-top-links": [
+
+  ],
+  "/ideas": [
+    "/quotes"
+  ],
+  "/lists": [
+    "/books",
+    "/classics",
+    "/documentaries",
+    "/since-big-bang"
+  ],
+  "/modern-greek-alphabet": [
+
+  ],
+  "/nato-phonetic-alphabet": [
+
+  ],
+  "/news": [
+
+  ],
+  "/paintings": [
+
+  ],
+  "/quotes": [
+
+  ],
+  "/reading-list": [
+
+  ],
+  "/web-experiments": [
+
+  ],
+  "/bayes": [
+
+  ],
+  "/counter-intuitive-math": [
+
+  ],
+  "/discrete-vs-continuous": [
+
+  ],
+  "/eigenvectors": [
+
+  ],
+  "/fourier-transform": [
+
+  ],
+  "/laplace-transform": [
+
+  ],
+  "/linear-algebra": [
+
+  ],
+  "/logic-proofs": [
+
+  ],
+  "/math": [
+    "/local-maximum"
+  ],
+  "/normal-distribution": [
+
+  ],
+  "/percentiles": [
+
+  ],
+  "/probability": [
+
+  ],
+  "/statistics": [
+
+  ],
+  "/akins-laws-of-spacecraft": [
+    "/hacker-laws",
+    "/polished-pixels"
+  ],
+  "/analytics": [
+
+  ],
+  "/astronomy": [
+
+  ],
+  "/chaos": [
+    "/systems-concepts"
+  ],
+  "/classical-physics": [
+    "/equations-that-changed-the-world",
+    "/feynman-lectures",
+    "/maxwells-equations"
+  ],
+  "/equations-that-changed-the-world": [
+
+  ],
+  "/feynman-lectures": [
+
+  ],
+  "/feynmans-epilogue": [
+
+  ],
+  "/maxwells-equations": [
+
+  ],
+  "/natural-sciences": [
+    "/climate-change",
+    "/stem-books",
+    "/sleep",
+    "/fluid-field-boundaries",
+    "/since-big-bang"
+  ],
+  "/philosophical-implications-of-quantum-mechanics": [
+
+  ],
+  "/solar-system": [
+
+  ],
+  "/the-piston": [
+
+  ],
+  "/the-true-size-of-africa": [
+
+  ],
+  "/business": [
+    "/fire-and-motion",
+    "/growing-fast-and-slow",
+    "/how-to-start-a-business"
+  ],
+  "/career": [
+
+  ],
+  "/communication": [
+    "/how-to-pitch",
+    "/sales"
+  ],
+  "/negotiations": [
+
+  ],
+  "/public-speaking": [
+
+  ],
+  "/write-better": [
+
+  ],
+  "/cooking": [
+
+  ],
+  "/critical-thinking": [
+    "/on-decision-making"
+  ],
+  "/decisions": [
+
+  ],
+  "/do-one-thing-at-a-time-and-do-it-well": [
+
+  ],
+  "/do-what-is-right": [
+    "/on-decision-making"
+  ],
+  "/do-without-doing": [
+    "/on-decision-making"
+  ],
+  "/on-decision-making": [
+
+  ],
+  "/drawing": [
+
+  ],
+  "/car-equipment": [
+
+  ],
+  "/driving": [
+
+  ],
+  "/used-car-checklist": [
+
+  ],
+  "/drowning-doesnt-look-dramatic": [
+
+  ],
+  "/health": [
+
+  ],
+  "/how-to-deal-with-pain": [
+
+  ],
+  "/sleep": [
+
+  ],
+  "/homelife": [
+
+  ],
+  "/how-to-gain-wealth": [
+
+  ],
+  "/investing": [
+
+  ],
+  "/company-culture": [
+
+  ],
+  "/hiring": [
+
+  ],
+  "/how-to-pitch": [
+
+  ],
+  "/leadership": [
+    "/business",
+    "/creativity",
+    "/overvaluing-short-term",
+    "/44-engineering-management-lessons",
+    "/tech-leadership"
+  ],
+  "/marketing": [
+
+  ],
+  "/sales": [
+
+  ],
+  "/learning": [
+
+  ],
+  "/making-videos": [
+
+  ],
+  "/motocycles": [
+
+  ],
+  "/calisthenics": [
+    "/exercise"
+  ],
+  "/exercise": [
+
+  ],
+  "/mountaineering": [
+
+  ],
+  "/outdoors": [
+
+  ],
+  "/sports": [
+    "/outdoors"
+  ],
+  "/photography": [
+
+  ],
+  "/practical-skills": [
+    "/communication",
+    "/creativity",
+    "/critical-thinking",
+    "/decisions",
+    "/get-things-done",
+    "/how-to-start-a-business",
+    "/sleep",
+    "/leadership",
+    "/mastery",
+    "/negotiations",
+    "/on-decision-making",
+    "/a-good-life",
+    "/design",
+    "/write-better",
+    "/outdoors",
+    "/problem-solving",
+    "/public-speaking",
+    "/teamwork",
+    "/what-to-work-on",
+    "/how-to-grow-old-russell",
+    "/children",
+    "/how-to-start"
+  ],
+  "/teaching": [
+
+  ],
+  "/trading": [
+
+  ],
+  "/0-1-n": [
+
+  ],
+  "/broken-systems": [
+    "/systems-concepts"
+  ],
+  "/criminal-justice": [
+
+  ],
+  "/economics": [
+
+  ],
+  "/four-day-workweek": [
+    "/in-praise-of-idleness"
+  ],
+  "/wage-theft": [
+
+  ],
+  "/fluid-field-boundaries": [
+
+  ],
+  "/history": [
+
+  ],
+  "/since-big-bang": [
+
+  ],
+  "/in-praise-of-idleness": [
+
+  ],
+  "/metaphors": [
+
+  ],
+  "/nothing-to-lose": [
+
+  ],
+  "/politics": [
+    "/look-down-and-around",
+    "/questioning-people-seen-as-a-threat-to-status-quo",
+    "/tao-te-ching",
+    "/the-triumph-of-stupidity",
+    "/war-is-a-racket",
+    "/who-goes-nazi"
+  ],
+  "/prince": [
+
+  ],
+  "/soft-power": [
+
+  ],
+  "/behavioral-psychology": [
+    "/cognitive-biases"
+  ],
+  "/bias-for-unhappiness": [
+    "/cognitive-biases"
+  ],
+  "/children-and-school": [
+
+  ],
+  "/children": [
+
+  ],
+  "/give-children-responsibility": [
+
+  ],
+  "/how-to-speak-to-children": [
+
+  ],
+  "/let-a-child-be-angry": [
+
+  ],
+  "/take-children-seriously": [
+
+  ],
+  "/chronic-vs-acute-stress": [
+
+  ],
+  "/cognitive-biases": [
+
+  ],
+  "/complain-vs-appreciate": [
+
+  ],
+  "/distractions": [
+
+  ],
+  "/ego": [
+
+  ],
+  "/anger": [
+
+  ],
+  "/anxiety": [
+
+  ],
+  "/arrogance": [
+
+  ],
+  "/courage": [
+
+  ],
+  "/emotions": [
+
+  ],
+  "/empathy": [
+
+  ],
+  "/gratitude": [
+
+  ],
+  "/hope": [
+
+  ],
+  "/respect": [
+
+  ],
+  "/trust": [
+
+  ],
+  "/vulnerability": [
+
+  ],
+  "/flow": [
+
+  ],
+  "/gaslighting": [
+
+  ],
+  "/habits": [
+
+  ],
+  "/how-to-spot-a-liar": [
+
+  ],
+  "/how-to-start": [
+
+  ],
+  "/inertia": [
+
+  ],
+  "/loneliness": [
+
+  ],
+  "/overcoming-obstacles": [
+
+  ],
+  "/overvaluing-short-term": [
+
+  ],
+  "/people-see-what-they-want": [
+
+  ],
+  "/persuasion": [
+
+  ],
+  "/praise-and-motivation": [
+
+  ],
+  "/procrastination": [
+
+  ],
+  "/psy-in-lit": [
+
+  ],
+  "/psychology": [
+    "/emotions",
+    "/happiness",
+    "/children",
+    "/questioning-people-seen-as-a-threat-to-status-quo"
+  ],
+  "/recreation": [
+
+  ],
+  "/relationships": [
+
+  ],
+  "/rules-are-easier-when-explained": [
+
+  ],
+  "/social-class": [
+
+  ],
+  "/solitude": [
+
+  ],
+  "/stages-of-grief": [
+
+  ],
+  "/the-implicit-association": [
+
+  ],
+  "/thinking-fast-and-slow": [
+
+  ],
+  "/unmet-needs": [
+
+  ],
+  "/social-change": [
+
+  ],
+  "/social-sciences": [
+    "/being-poor",
+    "/cognitive-biases",
+    "/communication",
+    "/creativity",
+    "/farming-trap",
+    "/freedom",
+    "/happiness",
+    "/how-to-start",
+    "/learning",
+    "/negotiations",
+    "/character",
+    "/children",
+    "/psychology",
+    "/questioning-people-seen-as-a-threat-to-status-quo",
+    "/solitude",
+    "/stupidity",
+    "/teamwork",
+    "/your-lifestyle-already-designed",
+    "/hijacked-minds",
+    "/is-tech-fast-or-slow"
+  ],
+  "/the-tragedy-of-the-commons": [
+
+  ],
+  "/urban-planning": [
+
+  ],
+  "/computer-networks": [
+
+  ],
+  "/atomicity": [
+    "/db-consistency"
+  ],
+  "/b-trees": [
+    "/db-data-structures"
+  ],
+  "/databases": [
+
+  ],
+  "/db-consistency": [
+
+  ],
+  "/db-data-structures": [
+
+  ],
+  "/durability": [
+
+  ],
+  "/isolation": [
+
+  ],
+  "/lsm-trees": [
+
+  ],
+  "/normalization": [
+
+  ],
+  "/orm-vs-sql": [
+
+  ],
+  "/partitioning": [
+    "/consistent-hashing",
+    "/distributed-data"
+  ],
+  "/sql-tips": [
+
+  ],
+  "/discussion": [
+
+  ],
+  "/armstrong-thesis": [
+
+  ],
+  "/consistent-hashing": [
+
+  ],
+  "/designing-data-intensive-apps": [
+
+  ],
+  "/detect-a-node-failure": [
+
+  ],
+  "/distributed-data": [
+
+  ],
+  "/distributed-design-patterns": [
+
+  ],
+  "/distributed-systems": [
+
+  ],
+  "/encoding-and-evolution": [
+
+  ],
+  "/generate-a-unique-id": [
+
+  ],
+  "/kafka": [
+
+  ],
+  "/leaderless-replication": [
+    "/replication"
+  ],
+  "/multi-leader": [
+    "/replication"
+  ],
+  "/replication": [
+
+  ],
+  "/single-leader": [
+
+  ],
+  "/spark": [
+
+  ],
+  "/time-and-order": [
+
+  ],
+  "/use-an-identity-service": [
+
+  ],
+  "/history-of-technology": [
+
+  ],
+  "/machine-learning": [
+
+  ],
+  "/nlp": [
+
+  ],
+  "/base-prompt": [
+
+  ],
+  "/prompt-engineering": [
+
+  ],
+  "/question-prompt": [
+
+  ],
+  "/recap-prompt": [
+
+  ],
+  "/summary-prompt": [
+
+  ],
+  "/concurrency": [
+
+  ],
+  "/containers": [
+
+  ],
+  "/operating-systems": [
+
+  ],
+  "/os-books": [
+
+  ],
+  "/algo-easy": [
+    "/array-rotate",
+    "/binary-search",
+    "/bst",
+    "/check-brackets",
+    "/climb-stairs",
+    "/count-primes",
+    "/days-until-warmer-temperature",
+    "/decode-string",
+    "/dedup-game",
+    "/generate-pascals-triangle",
+    "/group-anagrams",
+    "/longest-common-prefix"
+  ],
+  "/algo-hard": [
+    "/least-num-of-perfect-squares"
+  ],
+  "/algo-mid": [
+    "/bfs-dfs-topo",
+    "/coin-change",
+    "/delete-tree-node",
+    "/diamater-of-binary-tree",
+    "/dijkstra",
+    "/edit-distance",
+    "/generate-n-grams",
+    "/house-robber",
+    "/invert-binary-tree",
+    "/is-mirror-tree",
+    "/lengthOfLIS",
+    "/level-order",
+    "/longest-common-subsequence",
+    "/longest-diverse-str",
+    "/longest-valid-paranthesis",
+    "/min-edit-distance"
+  ],
+  "/algorithms": [
+    "/algorithms-books",
+    "/bayes",
+    "/lsm-trees"
+  ],
+  "/approximation": [
+
+  ],
+  "/backtrack": [
+
+  ],
+  "/bit": [
+
+  ],
+  "/greedy": [
+
+  ],
+  "/leet": [
+
+  ],
+  "/local-maximum": [
+
+  ],
+  "/parallel-programming": [
+
+  ],
+  "/rabin-karp": [
+
+  ],
+  "/sort": [
+
+  ],
+  "/vector-search": [
+
+  ],
+  "/array-rotate": [
+
+  ],
+  "/bfs-dfs-topo": [
+
+  ],
+  "/binary-search": [
+
+  ],
+  "/bst": [
+
+  ],
+  "/check-brackets": [
+
+  ],
+  "/climb-stairs": [
+
+  ],
+  "/code": [
+
+  ],
+  "/coin-change": [
+
+  ],
+  "/count-primes": [
+
+  ],
+  "/days-until-warmer-temperature": [
+
+  ],
+  "/decode-string": [
+
+  ],
+  "/dedup-game": [
+
+  ],
+  "/delete-tree-node": [
+
+  ],
+  "/diamater-of-binary-tree": [
+
+  ],
+  "/dijkstra": [
+
+  ],
+  "/dynamic": [
+    "/climb-stairs",
+    "/coin-change",
+    "/edit-distance",
+    "/house-robber",
+    "/lengthOfLIS",
+    "/longest-common-subsequence",
+    "/longest-diverse-str",
+    "/lowest-common-ancestor",
+    "/maximal-square",
+    "/min-edit-distance",
+    "/min-path-sum",
+    "/min-steps-notepad",
+    "/stocks-with-cooldown",
+    "/ways-to-target-sum",
+    "/word-break"
+  ],
+  "/edit-distance": [
+
+  ],
+  "/generate-n-grams": [
+
+  ],
+  "/generate-pascals-triangle": [
+
+  ],
+  "/group-anagrams": [
+
+  ],
+  "/house-robber": [
+
+  ],
+  "/invert-binary-tree": [
+
+  ],
+  "/is-mirror-tree": [
+
+  ],
+  "/least-num-of-perfect-squares": [
+
+  ],
+  "/lengthOfLIS": [
+
+  ],
+  "/level-order": [
+
+  ],
+  "/longest-common-prefix": [
+
+  ],
+  "/longest-common-subsequence": [
+    "/min-edit-distance"
+  ],
+  "/longest-consecutive": [
+
+  ],
+  "/longest-diverse-str": [
+
+  ],
+  "/longest-valid-paranthesis": [
+
+  ],
+  "/lowest-common-ancestor": [
+
+  ],
+  "/max-path-sum": [
+
+  ],
+  "/max-tree-depth": [
+
+  ],
+  "/max-water": [
+
+  ],
+  "/maximal-square": [
+
+  ],
+  "/min-covering-window": [
+
+  ],
+  "/min-edit-distance": [
+
+  ],
+  "/min-path-sum": [
+
+  ],
+  "/min-steps-notepad": [
+
+  ],
+  "/partition-labels": [
+
+  ],
+  "/pivot-index": [
+
+  ],
+  "/plus-one": [
+
+  ],
+  "/possible-morse": [
+
+  ],
+  "/post-order-go": [
+
+  ],
+  "/producer-consumer-problem": [
+
+  ],
+  "/repeatedStringMatch": [
+
+  ],
+  "/reverse-letters-only": [
+
+  ],
+  "/sliding-window-max": [
+
+  ],
+  "/stocks-with-cooldown": [
+
+  ],
+  "/string-compression": [
+
+  ],
+  "/three-sum-closest": [
+
+  ],
+  "/threeSum": [
+
+  ],
+  "/tree-codec-py": [
+
+  ],
+  "/tree-traversals": [
+
+  ],
+  "/trie-py": [
+
+  ],
+  "/unique-bst": [
+
+  ],
+  "/ways-to-target-sum": [
+
+  ],
+  "/word-break": [
+
+  ],
+  "/compsci": [
+
+  ],
+  "/array": [
+    "/array-rotate",
+    "/count-primes",
+    "/generate-pascals-triangle",
+    "/group-anagrams",
+    "/longest-consecutive",
+    "/plus-one",
+    "/possible-morse",
+    "/three-sum-closest"
+  ],
+  "/data-structures": [
+    "/db-data-structures",
+    "/lsm-trees"
+  ],
+  "/graph": [
+    "/bfs-dfs-topo",
+    "/bst",
+    "/delete-tree-node",
+    "/diamater-of-binary-tree",
+    "/dijkstra",
+    "/invert-binary-tree",
+    "/is-mirror-tree",
+    "/level-order",
+    "/lowest-common-ancestor",
+    "/max-path-sum",
+    "/max-tree-depth",
+    "/post-order-go",
+    "/tree-codec-py",
+    "/tree-traversals",
+    "/trie-py",
+    "/unique-bst"
+  ],
+  "/hash-table": [
+
+  ],
+  "/heap": [
+    "/longest-diverse-str"
+  ],
+  "/hyperloglog": [
+
+  ],
+  "/linked-list": [
+
+  ],
+  "/pointers": [
+    "/longest-valid-paranthesis",
+    "/max-water",
+    "/min-covering-window",
+    "/partition-labels",
+    "/pivot-index",
+    "/reverse-letters-only",
+    "/sliding-window-max",
+    "/threeSum"
+  ],
+  "/queue": [
+    "/least-num-of-perfect-squares"
+  ],
+  "/stack": [
+    "/check-brackets",
+    "/days-until-warmer-temperature",
+    "/decode-string",
+    "/dedup-game",
+    "/longest-valid-paranthesis",
+    "/reverse-letters-only"
+  ],
+  "/string": [
+    "/decode-string",
+    "/dedup-game",
+    "/generate-n-grams",
+    "/longest-common-prefix",
+    "/longest-diverse-str",
+    "/longest-valid-paranthesis",
+    "/repeatedStringMatch",
+    "/string-compression"
+  ],
+  "/dependency-management": [
+
+  ],
+  "/for-new-programmers": [
+
+  ],
+  "/functional-programming": [
+
+  ],
+  "/design-patterns": [
+
+  ],
+  "/block": [
+
+  ],
+  "/design-a-bicycle": [
+
+  ],
+  "/design-a-book-app": [
+
+  ],
+  "/design-a-crm": [
+
+  ],
+  "/design-a-data-pipeline": [
+
+  ],
+  "/design-a-gov-cloud": [
+
+  ],
+  "/design-a-personal-note-publishing-system": [
+
+  ],
+  "/design-a-trader": [
+
+  ],
+  "/design-a-web-crawler": [
+
+  ],
+  "/design-auth": [
+
+  ],
+  "/design-oauth": [
+
+  ],
+  "/design-units": [
+
+  ],
+  "/design-video-streaming-app": [
+
+  ],
+  "/oop-designs": [
+
+  ],
+  "/oop": [
+
+  ],
+  "/solid": [
+
+  ],
+  "/c#": [
+
+  ],
+  "/clojure": [
+
+  ],
+  "/go": [
+
+  ],
+  "/programming-languages": [
+
+  ],
+  "/python-data-structures": [
+    "/python"
+  ],
+  "/python-packages": [
+    "/python"
+  ],
+  "/python": [
+
+  ],
+  "/zen-of-python": [
+
+  ],
+  "/typing": [
+
+  ],
+  "/programming": [
+    "/algorithms",
+    "/code",
+    "/data-structures",
+    "/oop",
+    "/the-tao-of-programming",
+    "/zen-of-python",
+    "/projects"
+  ],
+  "/a-star-robot": [
+
+  ],
+  "/async-crawler": [
+
+  ],
+  "/c-hashmap": [
+
+  ],
+  "/compiler": [
+
+  ],
+  "/garbage-collector-in-c": [
+
+  ],
+  "/links-for-makers": [
+
+  ],
+  "/logos-os": [
+
+  ],
+  "/mini-search-engine": [
+
+  ],
+  "/mini-web-server": [
+
+  ],
+  "/pascal-interpreter": [
+
+  ],
+  "/pca": [
+
+  ],
+  "/predict-movie-genres": [
+
+  ],
+  "/projects": [
+
+  ],
+  "/vga-driver": [
+
+  ],
+  "/keyboard-shortcuts": [
+
+  ],
+  "/programming-tools": [
+
+  ],
+  "/vscode-settings": [
+
+  ],
+  "/books-swe": [
+
+  ],
+  "/choose-boring-tech": [
+    "/swe-phil"
+  ],
+  "/code-review": [
+
+  ],
+  "/core-concepts": [
+
+  ],
+  "/going-blind": [
+
+  ],
+  "/google-sre-book": [
+
+  ],
+  "/hacker-laws": [
+
+  ],
+  "/ship-it": [
+    "/swe-phil"
+  ],
+  "/software-analogies": [
+
+  ],
+  "/software-architecture": [
+
+  ],
+  "/software-engineering": [
+    "/computer-networks",
+    "/concurrency",
+    "/distributed-systems",
+    "/hn-top-links",
+    "/machine-learning",
+    "/operating-systems",
+    "/programming",
+    "/projects",
+    "/software-security",
+    "/system-design"
+  ],
+  "/software-quality": [
+
+  ],
+  "/swe-phil": [
+
+  ],
+  "/the-joel-test": [
+
+  ],
+  "/aes": [
+
+  ],
+  "/authentication": [
+
+  ],
+  "/authorization": [
+
+  ],
+  "/certificates": [
+
+  ],
+  "/cookies": [
+
+  ],
+  "/cors": [
+
+  ],
+  "/csrf": [
+
+  ],
+  "/openssl-encrypt": [
+
+  ],
+  "/public-key-cryptography": [
+
+  ],
+  "/security-heuristics": [
+
+  ],
+  "/software-security": [
+
+  ],
+  "/sql-injection": [
+
+  ],
+  "/store-passwords": [
+
+  ],
+  "/transport-layer-security": [
+
+  ],
+  "/xss": [
+
+  ],
+  "/domain-driven-design": [
+
+  ],
+  "/system-design-concepts": [
+
+  ],
+  "/system-design": [
+    "/akins-laws-of-spacecraft",
+    "/choose-boring-tech",
+    "/concurrency",
+    "/containers",
+    "/dependency-management",
+    "/distributed-systems",
+    "/do-one-thing-at-a-time-and-do-it-well",
+    "/hacker-laws",
+    "/oop",
+    "/design",
+    "/ship-it",
+    "/software-security",
+    "/chaos",
+    "/accessibility",
+    "/ux"
+  ],
+  "/systems-concepts": [
+
+  ],
+  "/44-engineering-management-lessons": [
+
+  ],
+  "/a-free-web-again": [
+
+  ],
+  "/easy-vs-hard-in-cs": [
+
+  ],
+  "/hijacked-minds": [
+
+  ],
+  "/is-tech-fast-or-slow": [
+
+  ],
+  "/minimal-tech": [
+
+  ],
+  "/social-media": [
+
+  ],
+  "/tech-leadership": [
+
+  ],
+  "/technology-and-time": [
+
+  ],
+  "/tech": [
+    "/akins-laws-of-spacecraft",
+    "/analytics",
+    "/everyday-objects",
+    "/fluid-field-boundaries",
+    "/hacker-laws",
+    "/machine-learning",
+    "/design",
+    "/software-engineering",
+    "/software-security",
+    "/since-big-bang",
+    "/accessibility",
+    "/ux"
+  ],
+  "/unicode": [
+
+  ],
+  "/accessibility": [
+
+  ],
+  "/evolution-of-computer-interfaces": [
+
+  ],
+  "/natural-tech": [
+
+  ],
+  "/polished-pixels": [
+
+  ],
+  "/things-users-care": [
+
+  ],
+  "/usability-testing": [
+
+  ],
+  "/ux": [
+    "/hijacked-minds"
+  ],
+  "/about": [
+
+  ],
+  "/earth": [
+
+  ],
+  "/graph2D": [
+
+  ],
+  "/graph3D": [
+
+  ],
+  "/pub": [
+
+  ],
+  "/resume": [
+
+  ],
+  "/root": [
+
+  ],
+  "/stats": [
+
+  ]
+}
