@@ -42,7 +42,7 @@ class SiteGenerator < Jekyll::Generator
 
     # write tags of each doc to a json file
     write_json("./assets/data/tags.json", site.documents.map { |doc| [doc.id, doc.data["tags"]] }.to_h)
-    
+
   end
 
   def remove_leading_slash(str)
@@ -87,9 +87,8 @@ class SiteGenerator < Jekyll::Generator
     end
 
     graph_data = { nodes: nodes, links: links }
-    site.data["graph"] = JSON.pretty_generate(graph_data)
 
-    write_json("./assets/data/graph.json", site.data["graph"])
+    write_json("./assets/data/graph.json", JSON.pretty_generate(graph_data))
 
     graph_data
   end
@@ -188,10 +187,10 @@ class SiteGenerator < Jekyll::Generator
         next if child.start_with?('.', '_')
 
         child_basename = File.basename(child)
-        child_path = File.join(parent_path, child)
         child_id = "/#{child_basename.sub(/\..*/, '')}"
 
         if File.directory?(child_path)
+          child_path = File.join(parent_path, child)
           queue.push([child_path, branch[parent_id]])
         elsif path != parent_basename
           branch[parent_id][child_id] ||= {}
@@ -225,16 +224,16 @@ class SiteGenerator < Jekyll::Generator
 
   def link_to_parent(site, child_id, parent_id)
     child_doc = site.documents.find { |e| e.id == child_id }
-    return unless child_doc 
+    return unless child_doc
 
     parent_doc = site.documents.find { |e| e.id == parent_id }
     return unless parent_doc
     return if child_doc == parent_doc
-    
+
     parent_basename = remove_leading_slash(parent_id)
     child_doc.data['parent_basename'] = parent_basename
     child_doc.data['tags'] << parent_basename
-    
+
     parent_doc.data['children'] ||= []
     parent_doc.data['children'] << child_id
   end
@@ -249,6 +248,6 @@ class SiteGenerator < Jekyll::Generator
 
   def write_json(path, data)
     File.open(path, "w") { |f| f.write(JSON.pretty_generate(data)) }
-  end 
+  end
 
-end 
+end

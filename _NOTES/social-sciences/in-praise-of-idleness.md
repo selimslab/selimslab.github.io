@@ -1,4 +1,5 @@
 ---
+tags: phil
 ---
 
 <https://harpers.org/archive/1932/10/in-praise-of-idleness/>
@@ -24,5 +25,3 @@ Good nature is, of all moral qualities, the one that the world needs most, and g
 We have continued to be as energetic as we were before there were machines. In this we have been foolish, but there is no reason to go on being foolish for ever.
 
 [[four-day-workweek]]
-
-[[thoughts-on-work]]
