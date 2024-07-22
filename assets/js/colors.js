@@ -20,8 +20,8 @@ function getColor(index) {
     lightGreen,
     lavender,
     gold,
-    lightBg,
-    lightBlue
+    lightBlue,
+    lightBg
   ];
   return colors[index % colors.length];
 }
