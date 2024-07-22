@@ -1,5 +1,4 @@
 ---
-tags: skills tech soc
 ---
 
 - Design is the core and it keeps expressing itself in successive outer layers of the product or service.

@@ -131,12 +131,8 @@
         "/submarine-shower",
         "/teaching",
         "/critical-thinking",
-        "/design",
-        "/negotiations",
         "/on-decision-making",
         "/a-good-life",
-        "/write-better",
-        "/public-speaking",
         "/children",
         "/how-to-start"
       ]
@@ -162,13 +158,10 @@
         "/wasted-talent",
         "/your-lifestyle-already-designed",
         "/cognitive-biases",
-        "/communication",
-        "/design",
         "/freedom",
         "/happiness",
         "/how-to-start",
         "/learning",
-        "/negotiations",
         "/children",
         "/questioning-people-seen-as-a-threat-to-status-quo",
         "/solitude",
@@ -198,7 +191,6 @@
         "/thoughts-on-tech",
         "/ux",
         "/akins-laws-of-spacecraft",
-        "/design",
         "/everyday-objects",
         "/fluid-field-boundaries",
         "/hacker-laws",
@@ -230,10 +222,7 @@
         "/how-to-start-a-business",
         "/natural-tech",
         "/polished-pixels",
-        "/ux",
-        "/skills",
-        "/social-sciences",
-        "/tech"
+        "/ux"
       ]
     },
     {
@@ -680,6 +669,7 @@
       "name": "Business",
       "links": [
         "/skills",
+        "/company-culture",
         "/fire-and-motion",
         "/growing-fast-and-slow",
         "/hiring",
@@ -711,11 +701,10 @@
       "name": "Communication",
       "links": [
         "/skills",
+        "/how-to-pitch",
         "/negotiations",
         "/public-speaking",
-        "/write-better",
-        "/how-to-pitch",
-        "/social-sciences"
+        "/write-better"
       ]
     },
     {
@@ -820,6 +809,7 @@
         "/hiring",
         "/marketing",
         "/sales",
+        "/how-to-pitch",
         "/get-things-done"
       ]
     },
@@ -838,10 +828,9 @@
       "name": "Leadership",
       "links": [
         "/skills",
-        "/company-culture",
-        "/how-to-pitch",
-        "/rules-are-easier-when-explained",
+        "/setting-rules",
         "/business",
+        "/company-culture",
         "/creativity",
         "/teamwork",
         "/thoughts-on-work",
@@ -1048,6 +1037,7 @@
         "/happiness",
         "/inertia",
         "/questioning-people-seen-as-a-threat-to-status-quo",
+        "/setting-rules",
         "/tolerate-anything-except-outgroup"
       ]
     },
@@ -1919,6 +1909,15 @@
       ]
     },
     {
+      "id": "/company-culture",
+      "group": 3,
+      "name": "Company Culture",
+      "links": [
+        "/business",
+        "/leadership"
+      ]
+    },
+    {
       "id": "/fire-and-motion",
       "group": 3,
       "name": "Fire And Motion",
@@ -2010,14 +2009,21 @@
       ]
     },
     {
+      "id": "/how-to-pitch",
+      "group": 3,
+      "name": "How to pitch?",
+      "links": [
+        "/communication",
+        "/how-to-start-a-business"
+      ]
+    },
+    {
       "id": "/negotiations",
       "group": 3,
       "name": "Negotiations",
       "links": [
         "/communication",
-        "/persuasion",
-        "/skills",
-        "/social-sciences"
+        "/persuasion"
       ]
     },
     {
@@ -2025,8 +2031,7 @@
       "group": 3,
       "name": "Public speaking",
       "links": [
-        "/communication",
-        "/skills"
+        "/communication"
       ]
     },
     {
@@ -2034,8 +2039,7 @@
       "group": 3,
       "name": "On writing",
       "links": [
-        "/communication",
-        "/skills"
+        "/communication"
       ]
     },
     {
@@ -2144,28 +2148,12 @@
       ]
     },
     {
-      "id": "/company-culture",
+      "id": "/setting-rules",
       "group": 3,
-      "name": "Company Culture",
-      "links": [
-        "/leadership"
-      ]
-    },
-    {
-      "id": "/how-to-pitch",
-      "group": 3,
-      "name": "How to pitch?",
+      "name": "Setting Rules",
       "links": [
         "/leadership",
-        "/communication"
-      ]
-    },
-    {
-      "id": "/rules-are-easier-when-explained",
-      "group": 3,
-      "name": "Rules Are Easier When Explained",
-      "links": [
-        "/leadership"
+        "/psychology"
       ]
     },
     {
@@ -5896,6 +5884,10 @@
     },
     {
       "source": "/business",
+      "target": "/company-culture"
+    },
+    {
+      "source": "/business",
       "target": "/fire-and-motion"
     },
     {
@@ -5937,6 +5929,10 @@
     {
       "source": "/career",
       "target": "/you-are-not-nameless"
+    },
+    {
+      "source": "/communication",
+      "target": "/how-to-pitch"
     },
     {
       "source": "/communication",
@@ -5992,15 +5988,7 @@
     },
     {
       "source": "/leadership",
-      "target": "/company-culture"
-    },
-    {
-      "source": "/leadership",
-      "target": "/how-to-pitch"
-    },
-    {
-      "source": "/leadership",
-      "target": "/rules-are-easier-when-explained"
+      "target": "/setting-rules"
     },
     {
       "source": "/outdoors",
@@ -7647,8 +7635,8 @@
       "target": "/how-to-start-a-business"
     },
     {
-      "source": "/communication",
-      "target": "/how-to-pitch"
+      "source": "/how-to-pitch",
+      "target": "/how-to-start-a-business"
     },
     {
       "source": "/negotiations",
@@ -7685,6 +7673,10 @@
     {
       "source": "/leadership",
       "target": "/business"
+    },
+    {
+      "source": "/leadership",
+      "target": "/company-culture"
     },
     {
       "source": "/leadership",
@@ -7732,27 +7724,11 @@
     },
     {
       "source": "/skills",
-      "target": "/design"
-    },
-    {
-      "source": "/skills",
-      "target": "/negotiations"
-    },
-    {
-      "source": "/skills",
       "target": "/on-decision-making"
     },
     {
       "source": "/skills",
       "target": "/a-good-life"
-    },
-    {
-      "source": "/skills",
-      "target": "/write-better"
-    },
-    {
-      "source": "/skills",
-      "target": "/public-speaking"
     },
     {
       "source": "/skills",
@@ -7804,19 +7780,15 @@
     },
     {
       "source": "/psychology",
+      "target": "/setting-rules"
+    },
+    {
+      "source": "/psychology",
       "target": "/tolerate-anything-except-outgroup"
     },
     {
       "source": "/social-sciences",
       "target": "/cognitive-biases"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/communication"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/design"
     },
     {
       "source": "/social-sciences",
@@ -7833,10 +7805,6 @@
     {
       "source": "/social-sciences",
       "target": "/learning"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/negotiations"
     },
     {
       "source": "/social-sciences",
@@ -8385,10 +8353,6 @@
     {
       "source": "/tech",
       "target": "/akins-laws-of-spacecraft"
-    },
-    {
-      "source": "/tech",
-      "target": "/design"
     },
     {
       "source": "/tech",

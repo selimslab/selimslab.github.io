@@ -359,6 +359,8 @@
     "/business": {
       "/business": {
       },
+      "/company-culture": {
+      },
       "/fire-and-motion": {
       },
       "/growing-fast-and-slow": {
@@ -388,6 +390,8 @@
     },
     "/communication": {
       "/communication": {
+      },
+      "/how-to-pitch": {
       },
       "/negotiations": {
       },
@@ -447,13 +451,9 @@
       }
     },
     "/leadership": {
-      "/company-culture": {
-      },
-      "/how-to-pitch": {
-      },
       "/leadership": {
       },
-      "/rules-are-easier-when-explained": {
+      "/setting-rules": {
       }
     },
     "/learning": {

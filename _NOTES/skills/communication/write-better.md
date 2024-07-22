@@ -1,6 +1,5 @@
 ---
 title: On writing
-tags: skills  
 ---
 
 Writing is one of the most powerful inventions. It organizes thoughts, sparks ideas, reveals cracks, and connects us to the past and the future.

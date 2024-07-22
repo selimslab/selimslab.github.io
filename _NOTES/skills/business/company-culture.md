@@ -1,4 +1,5 @@
 ---
+tags: lead
 ---
 
 In toxic cultures, people get promoted for results even if they destroy relationships. Abuse is a price to pay for high performance.

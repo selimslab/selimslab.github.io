@@ -1,5 +1,4 @@
 ---
-tags: skills soc 
 ---
 
 ![](/assets/static/img/listen-with-passion.png)
@@ -32,9 +31,8 @@ Frequent sharing organizes thoughts
 
 ![](/assets/static/img/not-say-told-you.jpeg)
 
-[[public-speaking]]
-
 
 [How to Communicate When Trust Is Low (Without Digging Yourself Into A Deeper Hole) – charity.wtf](https://charity.wtf/2023/08/17/how-to-communicate-when-trust-is-low-without-digging-yourself-into-a-deeper-hole/)
 
 
+[[leadership]]

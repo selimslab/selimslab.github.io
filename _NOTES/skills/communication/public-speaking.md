@@ -1,6 +1,5 @@
 ---
 title: Public speaking
-tags: skills
 ---
 
 Focus on the audience

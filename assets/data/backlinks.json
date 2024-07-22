@@ -510,6 +510,9 @@
     "/wasted-talent",
     "/how-to-start-a-business"
   ],
+  "/company-culture": [
+
+  ],
   "/fire-and-motion": [
 
   ],
@@ -547,7 +550,10 @@
 
   ],
   "/communication": [
-    "/how-to-pitch"
+
+  ],
+  "/how-to-pitch": [
+    "/how-to-start-a-business"
   ],
   "/negotiations": [
     "/persuasion"
@@ -622,14 +628,9 @@
   "/the-tao-of-programming": [
 
   ],
-  "/company-culture": [
-
-  ],
-  "/how-to-pitch": [
-
-  ],
   "/leadership": [
     "/business",
+    "/company-culture",
     "/creativity",
     "/teamwork",
     "/thoughts-on-work",
@@ -639,7 +640,7 @@
     "/wasted-talent",
     "/44-engineering-management-lessons"
   ],
-  "/rules-are-easier-when-explained": [
+  "/setting-rules": [
 
   ],
   "/learning": [
@@ -679,17 +680,12 @@
 
   ],
   "/skills": [
-    "/communication",
     "/critical-thinking",
     "/decisions",
-    "/design",
     "/leadership",
-    "/negotiations",
     "/on-decision-making",
     "/a-good-life",
-    "/write-better",
     "/outdoors",
-    "/public-speaking",
     "/children",
     "/how-to-start"
   ],
@@ -879,6 +875,7 @@
     "/inertia",
     "/children",
     "/questioning-people-seen-as-a-threat-to-status-quo",
+    "/setting-rules",
     "/tolerate-anything-except-outgroup"
   ],
   "/relationships": [
@@ -910,13 +907,10 @@
   ],
   "/social-sciences": [
     "/cognitive-biases",
-    "/communication",
-    "/design",
     "/freedom",
     "/happiness",
     "/how-to-start",
     "/learning",
-    "/negotiations",
     "/children",
     "/psychology",
     "/questioning-people-seen-as-a-threat-to-status-quo",
@@ -1678,7 +1672,6 @@
   ],
   "/tech": [
     "/akins-laws-of-spacecraft",
-    "/design",
     "/everyday-objects",
     "/fluid-field-boundaries",
     "/hacker-laws",
