@@ -18,6 +18,17 @@
   "/movies": [
 
   ],
+  "/creativity": [
+    "/how-to-start-a-business",
+    "/design",
+    "/teamwork"
+  ],
+  "/design": [
+    "/how-to-start-a-business",
+    "/natural-tech",
+    "/polished-pixels",
+    "/ship-it"
+  ],
   "/everyday-objects": [
 
   ],
@@ -63,9 +74,6 @@
   "/podstatna-jmena": [
 
   ],
-  "/pracoviště": [
-
-  ],
   "/predlozky": [
 
   ],
@@ -84,9 +92,9 @@
   "/languages": [
     "/cestina",
     "/deutsch",
-    "/turkce",
     "/modern-greek-alphabet",
-    "/nato-phonetic-alphabet"
+    "/nato-phonetic-alphabet",
+    "/turkce"
   ],
   "/latin": [
 
@@ -112,8 +120,10 @@
     "/warfare-is-deception"
   ],
   "/literature": [
-    "/authors",
-    "/psy-in-lit"
+    "/authors"
+  ],
+  "/psy-in-lit": [
+
   ],
   "/ince-memed": [
 
@@ -125,8 +135,51 @@
     "/ideal-insan",
     "/siir"
   ],
-  "/death": [
-    "/a-good-life"
+  "/a-good-life": [
+
+  ],
+  "/all-is-one": [
+    "/good-and-evil"
+  ],
+  "/know-where-to-stop": [
+    "/do-one-thing-at-a-time-and-do-it-well"
+  ],
+  "/moderation": [
+
+  ],
+  "/nature-vs-people": [
+
+  ],
+  "/still-vs-running-water": [
+
+  ],
+  "/the-less-the-better": [
+
+  ],
+  "/be-good-to-each-other-and-yourself": [
+    "/thoughts-on-work"
+  ],
+  "/character": [
+
+  ],
+  "/experiences-vs-materials": [
+
+  ],
+  "/free-will": [
+    "/freedom",
+    "/on-decision-making"
+  ],
+  "/good-and-evil": [
+    "/criminal-justice"
+  ],
+  "/pleasure-vs-possibility": [
+
+  ],
+  "/you-can-always-choose-your-way": [
+    "/freedom"
+  ],
+  "/concepts-in-greek-thought": [
+
   ],
   "/enemies": [
 
@@ -134,44 +187,21 @@
   "/epicurus": [
 
   ],
-  "/experiences-are-better-than-material-things": [
-
-  ],
-  "/free-will": [
-    "/freedom",
-    "/on-decision-making"
-  ],
   "/freedom": [
     "/on-decision-making",
-    "/success"
+    "/success-and-failure"
   ],
   "/friends": [
 
   ],
-  "/good-and-evil": [
-
-  ],
-  "/concepts-in-greek-thought": [
-
-  ],
   "/happiness": [
-    "/a-good-life",
-    "/unhappy-in-their-own-way"
+
   ],
   "/ideal-insan": [
 
   ],
-  "/know-where-to-stop": [
-    "/do-one-thing-at-a-time-and-do-it-well"
-  ],
   "/koans": [
 
-  ],
-  "/lesser-the-better": [
-    "/moderation"
-  ],
-  "/life-is-not-short": [
-    "/a-good-life"
   ],
   "/life-is-play": [
 
@@ -180,37 +210,21 @@
 
   ],
   "/love": [
-    "/a-good-life"
-  ],
-  "/moderation": [
-    "/a-good-life"
-  ],
-  "/nature-vs-people": [
-
-  ],
-  "/no-regrets-no-worries": [
 
   ],
   "/one-bit-better": [
-    "/a-good-life"
+    "/no-regrets-no-worries"
   ],
   "/philosophy": [
-    "/life-is-soft",
-    "/tao-te-ching",
-    "/phil-books",
-    "/a-good-life",
-    "/all-is-one",
-    "/be-good-to-each-other-and-yourself",
-    "/character",
-    "/take-a-walk",
-    "/what-to-work-on",
-    "/your-lifestyle-already-designed",
+    "/criminal-justice",
     "/critical-thinking",
+    "/how-to-grow-old-russell",
     "/how-to-deal-with-pain",
-    "/solitude"
-  ],
-  "/pleasure-vs-possibility": [
-
+    "/life-is-soft",
+    "/look-down-and-around",
+    "/phil-books",
+    "/solitude",
+    "/tao-te-ching"
   ],
   "/questions": [
     "/critical-thinking"
@@ -218,17 +232,29 @@
   "/search-for-meaning": [
     "/overcoming-obstacles",
     "/phil-books",
-    "/soc-books",
-    "/you-can-always-choose-your-way"
-  ],
-  "/still-vs-running-water": [
-
+    "/soc-books"
   ],
   "/stupidity": [
 
   ],
-  "/success": [
-    "/work-phil"
+  "/success-and-failure": [
+
+  ],
+  "/take-a-walk": [
+    "/get-things-done",
+    "/problem-solving"
+  ],
+  "/death": [
+
+  ],
+  "/life-is-not-short": [
+
+  ],
+  "/no-regrets-no-worries": [
+
+  ],
+  "/slow-down-time": [
+
   ],
   "/the-morning": [
     "/get-things-done"
@@ -236,22 +262,27 @@
   "/the-past": [
     "/a-good-life"
   ],
-  "/travelling-and-change": [
+  "/travelling": [
 
   ],
   "/truth": [
     "/critical-thinking"
   ],
-  "/unhappy-in-their-own-way": [
-    "/psy-in-lit"
-  ],
-  "/warfare-is-deception": [
+  "/long-days-short-decades": [
 
   ],
-  "/work-phil": [
+  "/teamwork": [
+    "/how-to-start-a-business",
+    "/what-to-work-on"
+  ],
+  "/thoughts-on-work": [
 
   ],
-  "/you-can-always-choose-your-way": [
+  "/what-to-work-on": [
+    "/get-things-done",
+    "/how-to-start-a-business"
+  ],
+  "/work": [
 
   ],
   "/conviction": [
@@ -282,11 +313,10 @@
     "/siir"
   ],
   "/hollow-power": [
-    "/politics"
+
   ],
   "/insight-and-strength": [
-    "/critical-thinking",
-    "/politics"
+    "/critical-thinking"
   ],
   "/life-is-soft": [
 
@@ -304,10 +334,11 @@
 
   ],
   "/tao-te-ching": [
-    "/phil-books"
+    "/phil-books",
+    "/politics"
   ],
   "/the-great-leader": [
-    "/teamwork"
+
   ],
   "/uncut-wood": [
 
@@ -372,138 +403,23 @@
   "/datasets": [
     "/statistics"
   ],
-  "/a-good-life": [
-
-  ],
-  "/all-is-one": [
-
-  ],
-  "/be-good-to-each-other-and-yourself": [
-
-  ],
-  "/being-poor": [
-
-  ],
-  "/career-advice": [
-
-  ],
-  "/character": [
-
-  ],
-  "/climate-change": [
-
-  ],
-  "/creativity": [
-    "/how-to-start-a-business",
-    "/design",
-    "/teamwork"
-  ],
-  "/design": [
-    "/everyday-objects",
-    "/how-to-start-a-business",
-    "/natural-tech",
-    "/polished-pixels",
-    "/ship-it"
-  ],
   "/essais": [
     "/communication",
-    "/negotiations",
-    "/write-better",
     "/critical-thinking",
-    "/on-decision-making",
+    "/how-to-speak-to-children",
     "/how-to-deal-with-pain",
     "/in-praise-of-idleness",
-    "/how-to-speak-to-children",
+    "/negotiations",
+    "/on-decision-making",
+    "/write-better",
     "/overvaluing-short-term",
     "/technology-and-time"
-  ],
-  "/farming-trap": [
-
-  ],
-  "/fire-and-motion": [
-
-  ],
-  "/get-things-done": [
-    "/how-to-start-a-business"
-  ],
-  "/growing-fast-and-slow": [
-
-  ],
-  "/how-to-grow-old-russell": [
-
-  ],
-  "/how-to-start-a-business": [
-    "/how-to-gain-wealth"
-  ],
-  "/long-days-short-decades": [
-
-  ],
-  "/look-down-and-around": [
-
-  ],
-  "/mastery": [
-    "/do-one-thing-at-a-time-and-do-it-well",
-    "/teamwork"
-  ],
-  "/problem-solving": [
-
-  ],
-  "/questioning-people-seen-as-a-threat-to-status-quo": [
-
-  ],
-  "/salary-negotiation": [
-
-  ],
-  "/skills": [
-
-  ],
-  "/slow-down-time": [
-
-  ],
-  "/take-a-walk": [
-
-  ],
-  "/teamwork": [
-    "/what-to-work-on"
-  ],
-  "/the-overview-effect": [
-
-  ],
-  "/the-tao-of-programming": [
-
-  ],
-  "/the-triumph-of-stupidity": [
-
-  ],
-  "/tolerate-anything-except-outgroup": [
-    "/social-class"
-  ],
-  "/war-is-a-racket": [
-
-  ],
-  "/wasted-talent": [
-    "/hiring"
-  ],
-  "/what-to-work-on": [
-
-  ],
-  "/who-goes-nazi": [
-
-  ],
-  "/you-are-not-nameless": [
-
-  ],
-  "/your-lifestyle-already-designed": [
-
   ],
   "/games": [
 
   ],
-  "/hn-top-links": [
-
-  ],
   "/ideas": [
-    "/quotes"
+
   ],
   "/lists": [
     "/books",
@@ -523,16 +439,10 @@
   "/paintings": [
 
   ],
-  "/quotes": [
-
-  ],
   "/reading-list": [
 
   ],
   "/web-experiments": [
-
-  ],
-  "/bayes": [
 
   ],
   "/counter-intuitive-math": [
@@ -557,15 +467,22 @@
 
   ],
   "/math": [
+    "/bayes",
     "/local-maximum"
+  ],
+  "/bayes": [
+
+  ],
+  "/probability": [
+
+  ],
+  "/analytics": [
+
   ],
   "/normal-distribution": [
 
   ],
   "/percentiles": [
-
-  ],
-  "/probability": [
 
   ],
   "/statistics": [
@@ -575,19 +492,14 @@
     "/hacker-laws",
     "/polished-pixels"
   ],
-  "/analytics": [
-
-  ],
   "/astronomy": [
 
   ],
   "/chaos": [
-    "/systems-concepts"
+    "/systems"
   ],
-  "/classical-physics": [
-    "/equations-that-changed-the-world",
-    "/feynman-lectures",
-    "/maxwells-equations"
+  "/climate-change": [
+
   ],
   "/equations-that-changed-the-world": [
 
@@ -602,16 +514,27 @@
 
   ],
   "/natural-sciences": [
-    "/climate-change",
-    "/stem-books",
-    "/sleep",
     "/fluid-field-boundaries",
+    "/sleep",
+    "/stem-books",
     "/since-big-bang"
   ],
   "/philosophical-implications-of-quantum-mechanics": [
 
   ],
+  "/classical-physics": [
+
+  ],
+  "/inertia": [
+
+  ],
+  "/physics": [
+
+  ],
   "/solar-system": [
+
+  ],
+  "/the-overview-effect": [
 
   ],
   "/the-piston": [
@@ -621,19 +544,50 @@
 
   ],
   "/business": [
-    "/fire-and-motion",
-    "/growing-fast-and-slow",
+    "/how-to-start-a-business",
+    "/thoughts-on-work"
+  ],
+  "/fire-and-motion": [
+
+  ],
+  "/growing-fast-and-slow": [
+
+  ],
+  "/hiring": [
     "/how-to-start-a-business"
+  ],
+  "/how-to-gain-wealth": [
+
+  ],
+  "/investing": [
+
+  ],
+  "/marketing": [
+    "/how-to-start-a-business"
+  ],
+  "/sales": [
+    "/how-to-start-a-business"
+  ],
+  "/trading": [
+
+  ],
+  "/career-advice": [
+
   ],
   "/career": [
 
   ],
+  "/salary-negotiation": [
+
+  ],
+  "/you-are-not-nameless": [
+
+  ],
   "/communication": [
-    "/how-to-pitch",
-    "/sales"
+    "/how-to-pitch"
   ],
   "/negotiations": [
-
+    "/persuasion"
   ],
   "/public-speaking": [
 
@@ -645,13 +599,14 @@
 
   ],
   "/critical-thinking": [
-    "/on-decision-making"
+    "/on-decision-making",
+    "/problem-solving"
   ],
   "/decisions": [
 
   ],
   "/do-one-thing-at-a-time-and-do-it-well": [
-
+    "/get-things-done"
   ],
   "/do-what-is-right": [
     "/on-decision-making"
@@ -660,7 +615,7 @@
     "/on-decision-making"
   ],
   "/on-decision-making": [
-
+    "/get-things-done"
   ],
   "/drawing": [
 
@@ -674,7 +629,13 @@
   "/used-car-checklist": [
 
   ],
-  "/drowning-doesnt-look-dramatic": [
+  "/drowning-does-not-look-dramatic": [
+
+  ],
+  "/get-things-done": [
+    "/how-to-start-a-business"
+  ],
+  "/growing-plants": [
 
   ],
   "/health": [
@@ -686,35 +647,36 @@
   "/sleep": [
 
   ],
-  "/homelife": [
+  "/how-to-grow-old-russell": [
 
   ],
-  "/how-to-gain-wealth": [
+  "/how-to-start-a-business": [
 
   ],
-  "/investing": [
+  "/humor": [
+
+  ],
+  "/the-tao-of-programming": [
 
   ],
   "/company-culture": [
-
-  ],
-  "/hiring": [
 
   ],
   "/how-to-pitch": [
 
   ],
   "/leadership": [
+    "/44-engineering-management-lessons",
     "/business",
     "/creativity",
     "/overvaluing-short-term",
-    "/44-engineering-management-lessons",
-    "/tech-leadership"
+    "/praise-and-motivation",
+    "/teamwork",
+    "/thoughts-on-work",
+    "/wasted-talent",
+    "/what-to-work-on"
   ],
-  "/marketing": [
-
-  ],
-  "/sales": [
+  "/rules-are-easier-when-explained": [
 
   ],
   "/learning": [
@@ -723,7 +685,13 @@
   "/making-videos": [
 
   ],
+  "/mastery": [
+
+  ],
   "/motocycles": [
+
+  ],
+  "/3-day-nature-reset": [
 
   ],
   "/calisthenics": [
@@ -744,43 +712,32 @@
   "/photography": [
 
   ],
-  "/practical-skills": [
+  "/problem-solving": [
+
+  ],
+  "/skills": [
     "/communication",
-    "/creativity",
     "/critical-thinking",
     "/decisions",
-    "/get-things-done",
-    "/how-to-start-a-business",
     "/sleep",
+    "/how-to-start",
     "/leadership",
-    "/mastery",
     "/negotiations",
     "/on-decision-making",
     "/a-good-life",
+    "/children",
     "/design",
     "/write-better",
     "/outdoors",
-    "/problem-solving",
-    "/public-speaking",
-    "/teamwork",
-    "/what-to-work-on",
-    "/how-to-grow-old-russell",
-    "/children",
-    "/how-to-start"
+    "/public-speaking"
+  ],
+  "/submarine-shower": [
+
   ],
   "/teaching": [
 
   ],
-  "/trading": [
-
-  ],
-  "/0-1-n": [
-
-  ],
-  "/broken-systems": [
-    "/systems-concepts"
-  ],
-  "/criminal-justice": [
+  "/being-poor": [
 
   ],
   "/economics": [
@@ -789,10 +746,19 @@
   "/four-day-workweek": [
     "/in-praise-of-idleness"
   ],
+  "/the-tragedy-of-the-commons": [
+
+  ],
   "/wage-theft": [
 
   ],
   "/fluid-field-boundaries": [
+
+  ],
+  "/farming-trap": [
+
+  ],
+  "/history-of-technology": [
 
   ],
   "/history": [
@@ -807,21 +773,36 @@
   "/metaphors": [
 
   ],
+  "/criminal-justice": [
+
+  ],
+  "/look-down-and-around": [
+
+  ],
   "/nothing-to-lose": [
 
   ],
   "/politics": [
-    "/look-down-and-around",
-    "/questioning-people-seen-as-a-threat-to-status-quo",
-    "/tao-te-ching",
-    "/the-triumph-of-stupidity",
-    "/war-is-a-racket",
-    "/who-goes-nazi"
+    "/tolerate-anything-except-outgroup",
+    "/look-below-the-surface",
+    "/tao-te-ching"
   ],
   "/prince": [
 
   ],
-  "/soft-power": [
+  "/questioning-people-seen-as-a-threat-to-status-quo": [
+
+  ],
+  "/the-triumph-of-stupidity": [
+
+  ],
+  "/war-is-a-racket": [
+
+  ],
+  "/warfare-is-deception": [
+
+  ],
+  "/who-goes-nazi": [
 
   ],
   "/behavioral-psychology": [
@@ -848,13 +829,16 @@
   "/take-children-seriously": [
 
   ],
-  "/chronic-vs-acute-stress": [
-
-  ],
   "/cognitive-biases": [
 
   ],
   "/complain-vs-appreciate": [
+
+  ],
+  "/overvaluing-short-term": [
+
+  ],
+  "/people-see-what-they-want": [
 
   ],
   "/distractions": [
@@ -911,19 +895,10 @@
   "/how-to-start": [
 
   ],
-  "/inertia": [
-
-  ],
   "/loneliness": [
 
   ],
   "/overcoming-obstacles": [
-
-  ],
-  "/overvaluing-short-term": [
-
-  ],
-  "/people-see-what-they-want": [
 
   ],
   "/persuasion": [
@@ -935,22 +910,16 @@
   "/procrastination": [
 
   ],
-  "/psy-in-lit": [
-
-  ],
   "/psychology": [
+    "/criminal-justice",
     "/emotions",
     "/happiness",
+    "/tolerate-anything-except-outgroup",
+    "/inertia",
     "/children",
     "/questioning-people-seen-as-a-threat-to-status-quo"
   ],
-  "/recreation": [
-
-  ],
   "/relationships": [
-
-  ],
-  "/rules-are-easier-when-explained": [
 
   ],
   "/social-class": [
@@ -960,6 +929,9 @@
 
   ],
   "/stages-of-grief": [
+
+  ],
+  "/stress": [
 
   ],
   "/the-implicit-association": [
@@ -975,31 +947,38 @@
 
   ],
   "/social-sciences": [
-    "/being-poor",
     "/cognitive-biases",
     "/communication",
-    "/creativity",
-    "/farming-trap",
     "/freedom",
     "/happiness",
+    "/hijacked-minds",
     "/how-to-start",
+    "/is-tech-fast-or-slow",
     "/learning",
     "/negotiations",
-    "/character",
     "/children",
+    "/design",
     "/psychology",
     "/questioning-people-seen-as-a-threat-to-status-quo",
     "/solitude",
-    "/stupidity",
-    "/teamwork",
-    "/your-lifestyle-already-designed",
-    "/hijacked-minds",
-    "/is-tech-fast-or-slow"
+    "/stupidity"
   ],
-  "/the-tragedy-of-the-commons": [
+  "/broken-systems": [
+    "/systems"
+  ],
+  "/systems": [
+
+  ],
+  "/tolerate-anything-except-outgroup": [
 
   ],
   "/urban-planning": [
+
+  ],
+  "/wasted-talent": [
+
+  ],
+  "/your-lifestyle-already-designed": [
 
   ],
   "/computer-networks": [
@@ -1040,9 +1019,6 @@
     "/distributed-data"
   ],
   "/sql-tips": [
-
-  ],
-  "/discussion": [
 
   ],
   "/armstrong-thesis": [
@@ -1096,7 +1072,13 @@
   "/use-an-identity-service": [
 
   ],
-  "/history-of-technology": [
+  "/unicode": [
+
+  ],
+  "/44-engineering-management-lessons": [
+
+  ],
+  "/discussion-topics": [
 
   ],
   "/machine-learning": [
@@ -1160,11 +1142,11 @@
     "/house-robber",
     "/invert-binary-tree",
     "/is-mirror-tree",
-    "/lengthOfLIS",
     "/level-order",
     "/longest-common-subsequence",
     "/longest-diverse-str",
     "/longest-valid-paranthesis",
+    "/lengthOfLIS",
     "/min-edit-distance"
   ],
   "/algorithms": [
@@ -1252,9 +1234,9 @@
     "/coin-change",
     "/edit-distance",
     "/house-robber",
-    "/lengthOfLIS",
     "/longest-common-subsequence",
     "/longest-diverse-str",
+    "/lengthOfLIS",
     "/lowest-common-ancestor",
     "/maximal-square",
     "/min-edit-distance",
@@ -1563,9 +1545,8 @@
     "/code",
     "/data-structures",
     "/oop",
-    "/the-tao-of-programming",
-    "/zen-of-python",
-    "/projects"
+    "/projects",
+    "/zen-of-python"
   ],
   "/a-star-robot": [
 
@@ -1652,7 +1633,6 @@
     "/computer-networks",
     "/concurrency",
     "/distributed-systems",
-    "/hn-top-links",
     "/machine-learning",
     "/operating-systems",
     "/programming",
@@ -1721,6 +1701,7 @@
 
   ],
   "/system-design": [
+    "/accessibility",
     "/akins-laws-of-spacecraft",
     "/choose-boring-tech",
     "/concurrency",
@@ -1730,18 +1711,24 @@
     "/do-one-thing-at-a-time-and-do-it-well",
     "/hacker-laws",
     "/oop",
-    "/design",
     "/ship-it",
     "/software-security",
     "/chaos",
-    "/accessibility",
     "/ux"
   ],
-  "/systems-concepts": [
-
-  ],
-  "/44-engineering-management-lessons": [
-
+  "/tech": [
+    "/accessibility",
+    "/akins-laws-of-spacecraft",
+    "/everyday-objects",
+    "/fluid-field-boundaries",
+    "/hacker-laws",
+    "/history-of-technology",
+    "/machine-learning",
+    "/design",
+    "/software-engineering",
+    "/software-security",
+    "/since-big-bang",
+    "/ux"
   ],
   "/a-free-web-again": [
 
@@ -1761,27 +1748,10 @@
   "/social-media": [
 
   ],
-  "/tech-leadership": [
-
-  ],
   "/technology-and-time": [
 
   ],
-  "/tech": [
-    "/akins-laws-of-spacecraft",
-    "/analytics",
-    "/everyday-objects",
-    "/fluid-field-boundaries",
-    "/hacker-laws",
-    "/machine-learning",
-    "/design",
-    "/software-engineering",
-    "/software-security",
-    "/since-big-bang",
-    "/accessibility",
-    "/ux"
-  ],
-  "/unicode": [
+  "/thoughts-on-tech": [
 
   ],
   "/accessibility": [

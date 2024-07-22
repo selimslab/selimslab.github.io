@@ -12,7 +12,13 @@
       "/movies": {
       }
     },
-    "/everyday-objects": {
+    "/design": {
+      "/creativity": {
+      },
+      "/design": {
+      },
+      "/everyday-objects": {
+      }
     },
     "/languages": {
       "/cestina": {
@@ -43,8 +49,6 @@
         "/podobna-slova": {
         },
         "/podstatna-jmena": {
-        },
-        "/pracoviště": {
         },
         "/predlozky": {
         },
@@ -81,6 +85,8 @@
       },
       "/literature": {
       },
+      "/psy-in-lit": {
+      },
       "/turkce": {
         "/ince-memed": {
         },
@@ -91,39 +97,53 @@
       }
     },
     "/philosophy": {
-      "/death": {
+      "/a-good-life": {
       },
-      "/eastern": {
+      "/all-is-one": {
+      },
+      "/balance": {
+        "/know-where-to-stop": {
+        },
+        "/moderation": {
+        },
+        "/nature-vs-people": {
+        },
+        "/still-vs-running-water": {
+        },
+        "/the-less-the-better": {
+        }
+      },
+      "/be-good-to-each-other-and-yourself": {
+      },
+      "/character": {
+      },
+      "/choice": {
+        "/experiences-vs-materials": {
+        },
+        "/free-will": {
+        },
+        "/good-and-evil": {
+        },
+        "/pleasure-vs-possibility": {
+        },
+        "/you-can-always-choose-your-way": {
+        }
+      },
+      "/concepts-in-greek-thought": {
       },
       "/enemies": {
       },
       "/epicurus": {
       },
-      "/experiences-are-better-than-material-things": {
-      },
-      "/free-will": {
-      },
       "/freedom": {
       },
       "/friends": {
-      },
-      "/good-and-evil": {
-      },
-      "/greek": {
-        "/concepts-in-greek-thought": {
-        }
       },
       "/happiness": {
       },
       "/ideal-insan": {
       },
-      "/know-where-to-stop": {
-      },
       "/koans": {
-      },
-      "/lesser-the-better": {
-      },
-      "/life-is-not-short": {
       },
       "/life-is-play": {
       },
@@ -131,43 +151,49 @@
       },
       "/love": {
       },
-      "/moderation": {
-      },
-      "/nature-vs-people": {
-      },
-      "/no-regrets-no-worries": {
-      },
       "/one-bit-better": {
       },
       "/philosophy": {
-      },
-      "/pleasure-vs-possibility": {
       },
       "/questions": {
       },
       "/search-for-meaning": {
       },
-      "/still-vs-running-water": {
-      },
       "/stupidity": {
       },
-      "/success": {
+      "/success-and-failure": {
       },
-      "/the-morning": {
+      "/take-a-walk": {
       },
-      "/the-past": {
+      "/time": {
+        "/death": {
+        },
+        "/life-is-not-short": {
+        },
+        "/no-regrets-no-worries": {
+        },
+        "/slow-down-time": {
+        },
+        "/the-morning": {
+        },
+        "/the-past": {
+        }
       },
-      "/travelling-and-change": {
+      "/travelling": {
       },
       "/truth": {
       },
-      "/unhappy-in-their-own-way": {
-      },
-      "/warfare-is-deception": {
-      },
-      "/work-phil": {
-      },
-      "/you-can-always-choose-your-way": {
+      "/work": {
+        "/long-days-short-decades": {
+        },
+        "/teamwork": {
+        },
+        "/thoughts-on-work": {
+        },
+        "/what-to-work-on": {
+        },
+        "/work": {
+        }
       }
     },
     "/poetry": {
@@ -259,82 +285,8 @@
     "/datasets": {
     },
     "/essais": {
-      "/a-good-life": {
-      },
-      "/all-is-one": {
-      },
-      "/be-good-to-each-other-and-yourself": {
-      },
-      "/being-poor": {
-      },
-      "/career-advice": {
-      },
-      "/character": {
-      },
-      "/climate-change": {
-      },
-      "/creativity": {
-      },
-      "/design": {
-      },
-      "/essais": {
-      },
-      "/farming-trap": {
-      },
-      "/fire-and-motion": {
-      },
-      "/get-things-done": {
-      },
-      "/growing-fast-and-slow": {
-      },
-      "/how-to-grow-old-russell": {
-      },
-      "/how-to-start-a-business": {
-      },
-      "/long-days-short-decades": {
-      },
-      "/look-down-and-around": {
-      },
-      "/mastery": {
-      },
-      "/problem-solving": {
-      },
-      "/questioning-people-seen-as-a-threat-to-status-quo": {
-      },
-      "/salary-negotiation": {
-      },
-      "/skills": {
-      },
-      "/slow-down-time": {
-      },
-      "/take-a-walk": {
-      },
-      "/teamwork": {
-      },
-      "/the-overview-effect": {
-      },
-      "/the-tao-of-programming": {
-      },
-      "/the-triumph-of-stupidity": {
-      },
-      "/tolerate-anything-except-outgroup": {
-      },
-      "/war-is-a-racket": {
-      },
-      "/wasted-talent": {
-      },
-      "/what-to-work-on": {
-      },
-      "/who-goes-nazi": {
-      },
-      "/you-are-not-nameless": {
-      },
-      "/your-lifestyle-already-designed": {
-      }
     },
     "/games": {
-    },
-    "/hn-top-links": {
     },
     "/ideas": {
     },
@@ -348,16 +300,12 @@
     },
     "/paintings": {
     },
-    "/quotes": {
-    },
     "/reading-list": {
     },
     "/web-experiments": {
     }
   },
   "/math": {
-    "/bayes": {
-    },
     "/counter-intuitive-math": {
     },
     "/discrete-vs-continuous": {
@@ -374,25 +322,31 @@
     },
     "/math": {
     },
-    "/normal-distribution": {
-    },
-    "/percentiles": {
-    },
     "/probability": {
+      "/bayes": {
+      },
+      "/probability": {
+      }
     },
     "/statistics": {
+      "/analytics": {
+      },
+      "/normal-distribution": {
+      },
+      "/percentiles": {
+      },
+      "/statistics": {
+      }
     }
   },
   "/natural-sciences": {
     "/akins-laws-of-spacecraft": {
     },
-    "/analytics": {
-    },
     "/astronomy": {
     },
     "/chaos": {
     },
-    "/classical-physics": {
+    "/climate-change": {
     },
     "/equations-that-changed-the-world": {
     },
@@ -406,17 +360,53 @@
     },
     "/philosophical-implications-of-quantum-mechanics": {
     },
+    "/physics": {
+      "/classical-physics": {
+      },
+      "/inertia": {
+      },
+      "/physics": {
+      }
+    },
     "/solar-system": {
+    },
+    "/the-overview-effect": {
     },
     "/the-piston": {
     },
     "/the-true-size-of-africa": {
     }
   },
-  "/practical-skills": {
+  "/skills": {
     "/business": {
+      "/business": {
+      },
+      "/fire-and-motion": {
+      },
+      "/growing-fast-and-slow": {
+      },
+      "/hiring": {
+      },
+      "/how-to-gain-wealth": {
+      },
+      "/investing": {
+      },
+      "/marketing": {
+      },
+      "/sales": {
+      },
+      "/trading": {
+      }
     },
     "/career": {
+      "/career-advice": {
+      },
+      "/career": {
+      },
+      "/salary-negotiation": {
+      },
+      "/you-are-not-nameless": {
+      }
     },
     "/communication": {
       "/communication": {
@@ -454,7 +444,11 @@
       "/used-car-checklist": {
       }
     },
-    "/drowning-doesnt-look-dramatic": {
+    "/drowning-does-not-look-dramatic": {
+    },
+    "/get-things-done": {
+    },
+    "/growing-plants": {
     },
     "/health": {
       "/health": {
@@ -464,33 +458,37 @@
       "/sleep": {
       }
     },
-    "/homelife": {
+    "/how-to-grow-old-russell": {
     },
-    "/how-to-gain-wealth": {
+    "/how-to-start-a-business": {
     },
-    "/investing": {
+    "/humor": {
+      "/humor": {
+      },
+      "/the-tao-of-programming": {
+      }
     },
     "/leadership": {
       "/company-culture": {
-      },
-      "/hiring": {
       },
       "/how-to-pitch": {
       },
       "/leadership": {
       },
-      "/marketing": {
-      },
-      "/sales": {
+      "/rules-are-easier-when-explained": {
       }
     },
     "/learning": {
     },
     "/making-videos": {
     },
+    "/mastery": {
+    },
     "/motocycles": {
     },
     "/outdoors": {
+      "/3-day-nature-reset": {
+      },
       "/calisthenics": {
       },
       "/exercise": {
@@ -504,24 +502,24 @@
     },
     "/photography": {
     },
-    "/practical-skills": {
+    "/problem-solving": {
+    },
+    "/skills": {
+    },
+    "/submarine-shower": {
     },
     "/teaching": {
-    },
-    "/trading": {
     }
   },
   "/social-sciences": {
-    "/0-1-n": {
-    },
-    "/broken-systems": {
-    },
-    "/criminal-justice": {
+    "/being-poor": {
     },
     "/economics": {
       "/economics": {
       },
       "/four-day-workweek": {
+      },
+      "/the-tragedy-of-the-commons": {
       },
       "/wage-theft": {
       }
@@ -529,6 +527,10 @@
     "/fluid-field-boundaries": {
     },
     "/history": {
+      "/farming-trap": {
+      },
+      "/history-of-technology": {
+      },
       "/history": {
       },
       "/since-big-bang": {
@@ -539,13 +541,25 @@
     "/metaphors": {
     },
     "/politics": {
+      "/criminal-justice": {
+      },
+      "/look-down-and-around": {
+      },
       "/nothing-to-lose": {
       },
       "/politics": {
       },
       "/prince": {
       },
-      "/soft-power": {
+      "/questioning-people-seen-as-a-threat-to-status-quo": {
+      },
+      "/the-triumph-of-stupidity": {
+      },
+      "/war-is-a-racket": {
+      },
+      "/warfare-is-deception": {
+      },
+      "/who-goes-nazi": {
       }
     },
     "/psychology": {
@@ -567,12 +581,14 @@
         "/take-children-seriously": {
         }
       },
-      "/chronic-vs-acute-stress": {
-      },
       "/cognitive-biases": {
         "/cognitive-biases": {
         },
         "/complain-vs-appreciate": {
+        },
+        "/overvaluing-short-term": {
+        },
+        "/people-see-what-they-want": {
         }
       },
       "/distractions": {
@@ -613,15 +629,9 @@
       },
       "/how-to-start": {
       },
-      "/inertia": {
-      },
       "/loneliness": {
       },
       "/overcoming-obstacles": {
-      },
-      "/overvaluing-short-term": {
-      },
-      "/people-see-what-they-want": {
       },
       "/persuasion": {
       },
@@ -629,21 +639,17 @@
       },
       "/procrastination": {
       },
-      "/psy-in-lit": {
-      },
       "/psychology": {
       },
-      "/recreation": {
-      },
       "/relationships": {
-      },
-      "/rules-are-easier-when-explained": {
       },
       "/social-class": {
       },
       "/solitude": {
       },
       "/stages-of-grief": {
+      },
+      "/stress": {
       },
       "/the-implicit-association": {
       },
@@ -656,9 +662,19 @@
     },
     "/social-sciences": {
     },
-    "/the-tragedy-of-the-commons": {
+    "/systems": {
+      "/broken-systems": {
+      },
+      "/systems": {
+      }
+    },
+    "/tolerate-anything-except-outgroup": {
     },
     "/urban-planning": {
+    },
+    "/wasted-talent": {
+    },
+    "/your-lifestyle-already-designed": {
     }
   },
   "/tech": {
@@ -691,8 +707,6 @@
       },
       "/sql-tips": {
       }
-    },
-    "/discussion": {
     },
     "/distributed-systems": {
       "/armstrong-thesis": {
@@ -732,7 +746,17 @@
       "/use-an-identity-service": {
       }
     },
-    "/history-of-technology": {
+    "/encoding": {
+      "/unicode": {
+      }
+    },
+    "/engineering-management": {
+      "/44-engineering-management-lessons": {
+      }
+    },
+    "/interviews": {
+      "/discussion-topics": {
+      }
     },
     "/machine-learning": {
       "/machine-learning": {
@@ -1124,13 +1148,11 @@
       "/system-design-concepts": {
       },
       "/system-design": {
-      },
-      "/systems-concepts": {
       }
     },
-    "/tech-leadership": {
-      "/44-engineering-management-lessons": {
-      },
+    "/tech": {
+    },
+    "/thoughts-on-tech": {
       "/a-free-web-again": {
       },
       "/easy-vs-hard-in-cs": {
@@ -1143,14 +1165,10 @@
       },
       "/social-media": {
       },
-      "/tech-leadership": {
-      },
       "/technology-and-time": {
+      },
+      "/thoughts-on-tech": {
       }
-    },
-    "/tech": {
-    },
-    "/unicode": {
     },
     "/ux": {
       "/accessibility": {
