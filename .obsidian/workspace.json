@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "_NOTES/_x.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "_NOTES/_x.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "_NOTES/_x.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "_NOTES/_x.md"
               }
             }
           }
@@ -162,11 +162,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "774397bb4d40224c",
+  "active": "bc86af8c7183ead1",
   "lastOpenFiles": [
-    "x.md",
-    "_x.md",
+    "index.md",
     "README.md",
+    "_site/since-big-bang/index.html",
+    "_site/since-big-bang",
+    "_NOTES/social-sciences/history/since-big-bang.md",
+    "x.md",
+    "_NOTES/_x.md",
     "Untitled 1.md",
     "Untitled.md",
     "_NOTES/_TODO.md",
@@ -185,14 +189,11 @@
     "_site/hollow-power",
     "_NOTES/arts/poetry/tao-te-ching/hollow-power.md",
     "_site/assets/data/graph_debug.json",
-    "assets/data/graph_debug.json",
-    "index.md",
     "_NOTES/social-sciences/history/last-million.md",
     "_site/assets/static/wind-spring-white-stratosphere-pure.jpg",
     "assets/static/wind-spring-white-stratosphere-pure.jpg",
     "_NOTES/lists/books/books.md",
     "_NOTES/practical-skills/making-videos.md",
-    "_site/making-videos/index.html",
     "_NOTES/social-sciences/psychology/children/children-and-school.md",
     "_NOTES/social-sciences/psychology/children/children.md",
     "_NOTES/tech/software-engineering/choose-boring-tech.md",
@@ -204,8 +205,6 @@
     "_NOTES/math/math.md",
     "_NOTES/practical-skills/communication/communication.md",
     "_NOTES/tech/operating-systems/concurrency.md",
-    "_NOTES/tech/programming/data-structures/hyperloglog.md",
-    "_NOTES/tech/programming/data-structures/data-structures.md",
     "_site/assets/static/solar/marble.jpg",
     "assets/static/solar/marble.jpg",
     "_site/assets/static/solar/NASA-Apollo8-Dec24-Earthrise.jpg",
