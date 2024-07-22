@@ -1,5 +1,5 @@
 ---
-tags: skills  top
+tags: skills top
 ---
 
 A little forethought can prevent a lot of pain. 
@@ -31,3 +31,5 @@ Don't get stuck, good enough is good.
 [[critical-thinking]]
 
 [[do-not-lie-to-yourself]]
+
+[[choice]]

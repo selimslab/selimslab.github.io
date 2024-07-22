@@ -153,6 +153,9 @@
   "/character": [
 
   ],
+  "/choice": [
+    "/on-decision-making"
+  ],
   "/experiences-vs-materials": [
 
   ],

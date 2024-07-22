@@ -1502,7 +1502,8 @@
         "/free-will",
         "/good-and-evil",
         "/pleasure-vs-possibility",
-        "/you-can-always-choose-your-way"
+        "/you-can-always-choose-your-way",
+        "/on-decision-making"
       ]
     },
     {
@@ -2087,6 +2088,7 @@
       "links": [
         "/decisions",
         "/do-not-lie-to-yourself",
+        "/choice",
         "/free-will",
         "/freedom",
         "/critical-thinking",
@@ -7499,6 +7501,10 @@
     {
       "source": "/be-good-to-each-other-and-yourself",
       "target": "/thoughts-on-work"
+    },
+    {
+      "source": "/choice",
+      "target": "/on-decision-making"
     },
     {
       "source": "/free-will",
