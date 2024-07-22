@@ -1,5 +1,5 @@
 ---
-title: If by Rudyard KIPLING
+title: If
 ---
 
 If you can keep your head when all about you
@@ -79,3 +79,6 @@ With sixty seconds’ worth of distance run,
 Yours is the Earth and everything that’s in it,
 
 And—which is more—you’ll be a Man, my son!
+
+
+_Rudyard KIPLING_

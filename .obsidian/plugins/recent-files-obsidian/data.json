@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "courage",
+      "path": "_NOTES/social-sciences/psychology/emotions/courage.md"
+    },
+    {
+      "basename": "arrogance",
+      "path": "_NOTES/social-sciences/psychology/emotions/arrogance.md"
+    },
+    {
+      "basename": "anxiety",
+      "path": "_NOTES/social-sciences/psychology/emotions/anxiety.md"
+    },
+    {
+      "basename": "anger",
+      "path": "_NOTES/social-sciences/psychology/emotions/anger.md"
+    },
+    {
+      "basename": "behavioral-psychology",
+      "path": "_NOTES/social-sciences/psychology/behavioral-psychology.md"
+    },
+    {
+      "basename": "bias-for-unhappiness",
+      "path": "_NOTES/social-sciences/psychology/bias-for-unhappiness.md"
+    },
+    {
+      "basename": "probability",
+      "path": "_NOTES/math/probability/probability.md"
+    },
+    {
       "basename": "thoughts-on-work",
       "path": "_NOTES/arts/philosophy/work/thoughts-on-work.md"
     },
@@ -171,22 +199,6 @@
     {
       "basename": "unicode",
       "path": "_NOTES/tech/encoding/unicode.md"
-    },
-    {
-      "basename": "thoughts-on-tech",
-      "path": "_NOTES/tech/thoughts-on-tech/thoughts-on-tech.md"
-    },
-    {
-      "basename": "a-free-web-again",
-      "path": "_NOTES/tech/thoughts-on-tech/a-free-web-again.md"
-    },
-    {
-      "basename": "easy-vs-hard-in-cs",
-      "path": "_NOTES/tech/thoughts-on-tech/easy-vs-hard-in-cs.md"
-    },
-    {
-      "basename": "hijacked-minds",
-      "path": "_NOTES/tech/thoughts-on-tech/hijacked-minds.md"
     }
   ],
   "omittedPaths": []

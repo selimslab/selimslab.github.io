@@ -3,9 +3,19 @@ title: Cognitive Biases
 tags: soc top
 ---
 
-## TLDR
+## tldr
 
-We know almost nothing yet think we know the best, we often follow the easy path, we make decisions for trivial reasons and pretend otherwise, we often have double standards. We follow stories, winners, bandwagons, .. We do almost everything to feel a bit better.
+We know almost nothing yet think we know the best. 
+
+We often follow the easy path. 
+
+We make decisions for trivial reasons and pretend otherwise. 
+
+We often have double standards. 
+
+We follow stories, winners, bandwagons, .. 
+
+We do almost everything to feel a bit better. 
 
 ## Pride and Prejudice 
 

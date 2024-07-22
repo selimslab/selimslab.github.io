@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d3652310595b0f3a",
+        "id": "b7b0528bd356e404",
         "type": "tabs",
         "children": [
           {
-            "id": "c124ba1ec6e0abad",
+            "id": "b80a8a4530bb837f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_NOTES/arts/philosophy/work/thoughts-on-work.md",
+                "file": "_NOTES/social-sciences/psychology/emotions/courage.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_NOTES/arts/philosophy/work/thoughts-on-work.md",
+                "file": "_NOTES/social-sciences/psychology/emotions/courage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_NOTES/arts/philosophy/work/thoughts-on-work.md",
+                "file": "_NOTES/social-sciences/psychology/emotions/courage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_NOTES/arts/philosophy/work/thoughts-on-work.md"
+                "file": "_NOTES/social-sciences/psychology/emotions/courage.md"
               }
             }
           }
@@ -158,44 +158,44 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c124ba1ec6e0abad",
+  "active": "bc86af8c7183ead1",
   "lastOpenFiles": [
+    "_NOTES/social-sciences/psychology/emotions/arrogance.md",
+    "_NOTES/social-sciences/psychology/emotions/anxiety.md",
+    "_NOTES/social-sciences/psychology/emotions/anger.md",
+    "_NOTES/social-sciences/psychology/behavioral-psychology.md",
+    "_NOTES/social-sciences/psychology/bias-for-unhappiness.md",
+    "_site/skills/children.md",
+    "_NOTES/social-sciences/psychology/children/give-children-responsibility.md",
+    "_NOTES/social-sciences/psychology/children/children-and-school.md",
+    "_NOTES/social-sciences/psychology/children/how-to-speak-to-children.md",
+    "_NOTES/social-sciences/psychology/children/let-a-child-be-angry.md",
+    "_NOTES/social-sciences/psychology/children/take-children-seriously.md",
+    "_NOTES/math/analytics.md",
+    "_NOTES/math/statistics.md",
+    "_NOTES/math/probability/normal-distribution.md",
+    "_NOTES/math/probability/probability.md",
+    "_NOTES/arts/philosophy/work/thoughts-on-work.md",
+    "_NOTES/natural-sciences/the-piston.md",
+    "_NOTES/natural-sciences/inertia.md",
+    "_NOTES/natural-sciences/classical-physics.md",
     "_NOTES/skills/career/career.md",
     "_NOTES/arts/philosophy/work/you-are-not-nameless.md",
     "_NOTES/skills/career/career-advice.md",
     "_NOTES/arts/philosophy/work/career-advice.md",
-    "_NOTES/arts/philosophy/work/thoughts-on-work.md",
     "_NOTES/arts/philosophy/work/what-to-work-on.md",
     "_NOTES/skills/career/you-are-not-nameless.md",
     "_NOTES/skills/career/salary-negotiation.md",
-    "_NOTES/tech/software-engineering/software-architecture.md",
-    "_NOTES/tech/digital-security/xss.md",
-    "_NOTES/tech/digital-security/store-passwords.md",
-    "_NOTES/tech/digital-security/transport-layer-security.md",
-    "_NOTES/tech/digital-security/sql-injection.md",
-    "_NOTES/tech/digital-security/cors.md",
-    "_NOTES/tech/digital-security/security-heuristics.md",
-    "_NOTES/tech/digital-security/software-security.md",
-    "_NOTES/tech/digital-security/public-key-cryptography.md",
-    "_NOTES/tech/digital-security/openssl-encrypt.md",
-    "_NOTES/tech/digital-security/csrf.md",
-    "_NOTES/tech/digital-security/cookies.md",
-    "_NOTES/tech/digital-security/authorization.md",
-    "_NOTES/tech/digital-security/certificates.md",
-    "_NOTES/tech/digital-security/aes.md",
-    "_NOTES/tech/digital-security/authentication.md",
     "_NOTES/tech/digital-security",
     "_site/assets/data/graph.json",
     "_site/assets/data/tags.json",
     "assets/data/tags.json",
     "_site/csharp/index.html",
     "_site/csharp",
-    "_NOTES/tech/programming/programming-languages/csharp.md",
     "_site/do-the-right-thing/index.html",
     "_site/do-the-right-thing",
     "_site/scala/index.html",
     "_site/scala",
-    "_NOTES/arts/languages/modern-greek-alphabet.md",
     "assets/static/img/grow-fresh-air.jpeg",
     "_NOTES/skills/grow-fresh-air.jpeg",
     "_NOTES/practical-skills/grow-fresh-air.jpeg",

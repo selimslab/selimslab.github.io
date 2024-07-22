@@ -1,83 +1,5 @@
 {
   "/arts": {
-    "/arts": {
-    },
-    "/cinema": {
-    },
-    "/design": {
-      "/creativity": {
-      },
-      "/design": {
-      },
-      "/everyday-objects": {
-      },
-      "/ship-it": {
-      }
-    },
-    "/languages": {
-      "/languages": {
-      },
-      "/latin": {
-      },
-      "/modern-greek-alphabet": {
-      },
-      "/cestina": {
-        "/adjektiva": {
-        },
-        "/cas": {
-        },
-        "/cestina": {
-        },
-        "/cisla": {
-        },
-        "/domov": {
-        },
-        "/fraze": {
-        },
-        "/koníčky": {
-        },
-        "/podobna-slova": {
-        },
-        "/podstatna-jmena": {
-        },
-        "/predlozky": {
-        },
-        "/slovesa": {
-        }
-      },
-      "/deutsch": {
-        "/deutsch": {
-        }
-      },
-      "/english": {
-        "/english": {
-        }
-      }
-    },
-    "/literature": {
-      "/literature": {
-      },
-      "/classics": {
-        "/cien-anos-de-soledad": {
-        },
-        "/classics": {
-        },
-        "/do-not-lie-to-yourself": {
-        },
-        "/elaborate-vs-clear-speech": {
-        },
-        "/the-art-of-war": {
-        }
-      },
-      "/turkce": {
-        "/ince-memed": {
-        },
-        "/turk-mirasi": {
-        },
-        "/turkce": {
-        }
-      }
-    },
     "/philosophy": {
       "/a-good-life": {
       },
@@ -168,6 +90,8 @@
         }
       },
       "/work": {
+        "/career-advice": {
+        },
         "/long-days-short-decades": {
         },
         "/teamwork": {
@@ -177,6 +101,8 @@
         "/what-to-work-on": {
         },
         "/work": {
+        },
+        "/you-are-not-nameless": {
         }
       }
     },
@@ -245,6 +171,84 @@
       },
       "/siir": {
       }
+    },
+    "/languages": {
+      "/languages": {
+      },
+      "/latin": {
+      },
+      "/modern-greek-alphabet": {
+      },
+      "/cestina": {
+        "/adjektiva": {
+        },
+        "/cas": {
+        },
+        "/cestina": {
+        },
+        "/cisla": {
+        },
+        "/domov": {
+        },
+        "/fraze": {
+        },
+        "/koníčky": {
+        },
+        "/podobna-slova": {
+        },
+        "/podstatna-jmena": {
+        },
+        "/predlozky": {
+        },
+        "/slovesa": {
+        }
+      },
+      "/deutsch": {
+        "/deutsch": {
+        }
+      },
+      "/english": {
+        "/english": {
+        }
+      }
+    },
+    "/design": {
+      "/creativity": {
+      },
+      "/design": {
+      },
+      "/everyday-objects": {
+      },
+      "/ship-it": {
+      }
+    },
+    "/literature": {
+      "/literature": {
+      },
+      "/classics": {
+        "/cien-anos-de-soledad": {
+        },
+        "/classics": {
+        },
+        "/do-not-lie-to-yourself": {
+        },
+        "/elaborate-vs-clear-speech": {
+        },
+        "/the-art-of-war": {
+        }
+      },
+      "/turkce": {
+        "/ince-memed": {
+        },
+        "/turk-mirasi": {
+        },
+        "/turkce": {
+        }
+      }
+    },
+    "/cinema": {
+    },
+    "/arts": {
     }
   },
   "/lists": {
@@ -282,6 +286,14 @@
     }
   },
   "/math": {
+    "/probability": {
+      "/bayes": {
+      },
+      "/normal-distribution": {
+      },
+      "/probability": {
+      }
+    },
     "/counter-intuitive-math": {
     },
     "/discrete-vs-continuous": {
@@ -300,27 +312,17 @@
     },
     "/math": {
     },
-    "/probability": {
-      "/bayes": {
-      },
-      "/probability": {
-      }
-    },
     "/statistics": {
-      "/analytics": {
-      },
-      "/normal-distribution": {
-      },
-      "/percentiles": {
-      },
-      "/statistics": {
-      }
+    },
+    "/analytics": {
     }
   },
   "/natural-sciences": {
     "/akins-laws-of-spacecraft": {
     },
     "/astronomy": {
+    },
+    "/classical-physics": {
     },
     "/climate-change": {
     },
@@ -329,6 +331,8 @@
     "/feynmans-epilogue": {
     },
     "/fluid-field-boundaries": {
+    },
+    "/inertia": {
     },
     "/maxwells-equations": {
     },
@@ -342,50 +346,12 @@
     },
     "/the-overview-effect": {
     },
-    "/the-true-size-of-africa": {
+    "/the-piston": {
     },
-    "/physics": {
-      "/classical-physics": {
-      },
-      "/inertia": {
-      },
-      "/physics": {
-      },
-      "/the-piston": {
-      }
+    "/the-true-size-of-africa": {
     }
   },
   "/skills": {
-    "/cooking": {
-    },
-    "/drawing": {
-    },
-    "/drowning-does-not-look-dramatic": {
-    },
-    "/get-things-done": {
-    },
-    "/growing-plants": {
-    },
-    "/how-to-grow-old-russell": {
-    },
-    "/learning": {
-    },
-    "/making-videos": {
-    },
-    "/mastery": {
-    },
-    "/motocycles": {
-    },
-    "/photography": {
-    },
-    "/problem-solving": {
-    },
-    "/skills": {
-    },
-    "/submarine-shower": {
-    },
-    "/teaching": {
-    },
     "/business": {
       "/business": {
       },
@@ -410,28 +376,6 @@
       "/trading": {
       }
     },
-    "/career": {
-      "/career-advice": {
-      },
-      "/career": {
-      },
-      "/salary-negotiation": {
-      },
-      "/you-are-not-nameless": {
-      }
-    },
-    "/communication": {
-      "/communication": {
-      },
-      "/how-to-pitch": {
-      },
-      "/negotiations": {
-      },
-      "/public-speaking": {
-      },
-      "/write-better": {
-      }
-    },
     "/decisions": {
       "/critical-thinking": {
       },
@@ -444,6 +388,32 @@
       "/do-without-doing": {
       },
       "/on-decision-making": {
+      }
+    },
+    "/outdoors": {
+      "/3-day-nature-reset": {
+      },
+      "/calisthenics": {
+      },
+      "/exercise": {
+      },
+      "/mountaineering": {
+      },
+      "/outdoors": {
+      },
+      "/sports": {
+      }
+    },
+    "/communication": {
+      "/communication": {
+      },
+      "/how-to-pitch": {
+      },
+      "/negotiations": {
+      },
+      "/public-speaking": {
+      },
+      "/write-better": {
       }
     },
     "/driving": {
@@ -474,82 +444,38 @@
       "/setting-rules": {
       }
     },
-    "/outdoors": {
-      "/3-day-nature-reset": {
-      },
-      "/calisthenics": {
-      },
-      "/exercise": {
-      },
-      "/mountaineering": {
-      },
-      "/outdoors": {
-      },
-      "/sports": {
-      }
+    "/mastery": {
+    },
+    "/motocycles": {
+    },
+    "/photography": {
+    },
+    "/making-videos": {
+    },
+    "/skills": {
+    },
+    "/submarine-shower": {
+    },
+    "/teaching": {
+    },
+    "/learning": {
+    },
+    "/how-to-grow-old-russell": {
+    },
+    "/growing-plants": {
+    },
+    "/get-things-done": {
+    },
+    "/drowning-does-not-look-dramatic": {
+    },
+    "/drawing": {
+    },
+    "/problem-solving": {
+    },
+    "/cooking": {
     }
   },
   "/social-sciences": {
-    "/being-poor": {
-    },
-    "/in-praise-of-idleness": {
-    },
-    "/metaphors": {
-    },
-    "/social-change": {
-    },
-    "/social-sciences": {
-    },
-    "/tolerate-anything-except-outgroup": {
-    },
-    "/urban-planning": {
-    },
-    "/wasted-talent": {
-    },
-    "/your-lifestyle-already-designed": {
-    },
-    "/economics": {
-      "/economics": {
-      },
-      "/four-day-workweek": {
-      },
-      "/the-tragedy-of-the-commons": {
-      },
-      "/wage-theft": {
-      }
-    },
-    "/history": {
-      "/farming-trap": {
-      },
-      "/history-of-technology": {
-      },
-      "/history": {
-      },
-      "/since-big-bang": {
-      }
-    },
-    "/politics": {
-      "/criminal-justice": {
-      },
-      "/look-down-and-around": {
-      },
-      "/nothing-to-lose": {
-      },
-      "/politics": {
-      },
-      "/prince": {
-      },
-      "/questioning-people-seen-as-a-threat-to-status-quo": {
-      },
-      "/the-triumph-of-stupidity": {
-      },
-      "/war-is-a-racket": {
-      },
-      "/warfare-is-deception": {
-      },
-      "/who-goes-nazi": {
-      }
-    },
     "/psychology": {
       "/behavioral-psychology": {
       },
@@ -597,20 +523,6 @@
       },
       "/unmet-needs": {
       },
-      "/children": {
-        "/children-and-school": {
-        },
-        "/children": {
-        },
-        "/give-children-responsibility": {
-        },
-        "/how-to-speak-to-children": {
-        },
-        "/let-a-child-be-angry": {
-        },
-        "/take-children-seriously": {
-        }
-      },
       "/cognitive-biases": {
         "/cognitive-biases": {
         },
@@ -630,11 +542,7 @@
         },
         "/courage": {
         },
-        "/emotions": {
-        },
         "/empathy": {
-        },
-        "/gratitude": {
         },
         "/hope": {
         },
@@ -646,21 +554,103 @@
         }
       }
     },
+    "/politics": {
+      "/criminal-justice": {
+      },
+      "/look-down-and-around": {
+      },
+      "/nothing-to-lose": {
+      },
+      "/politics": {
+      },
+      "/prince": {
+      },
+      "/questioning-people-seen-as-a-threat-to-status-quo": {
+      },
+      "/the-triumph-of-stupidity": {
+      },
+      "/war-is-a-racket": {
+      },
+      "/warfare-is-deception": {
+      },
+      "/who-goes-nazi": {
+      }
+    },
+    "/economics": {
+      "/economics": {
+      },
+      "/four-day-workweek": {
+      },
+      "/the-tragedy-of-the-commons": {
+      },
+      "/wage-theft": {
+      }
+    },
+    "/history": {
+      "/farming-trap": {
+      },
+      "/history-of-technology": {
+      },
+      "/history": {
+      },
+      "/since-big-bang": {
+      }
+    },
     "/systems": {
       "/chaos": {
       },
       "/systems": {
       }
+    },
+    "/social-sciences": {
+    },
+    "/wasted-talent": {
+    },
+    "/your-lifestyle-already-designed": {
+    },
+    "/social-change": {
+    },
+    "/metaphors": {
+    },
+    "/in-praise-of-idleness": {
+    },
+    "/urban-planning": {
+    },
+    "/tolerate-anything-except-outgroup": {
+    },
+    "/being-poor": {
     }
   },
   "/tech": {
-    "/machine-learning": {
-    },
-    "/networks": {
-    },
-    "/nlp": {
-    },
-    "/tech": {
+    "/digital-security": {
+      "/aes": {
+      },
+      "/authentication": {
+      },
+      "/authorization": {
+      },
+      "/certificates": {
+      },
+      "/cookies": {
+      },
+      "/cors": {
+      },
+      "/csrf": {
+      },
+      "/openssl-encrypt": {
+      },
+      "/public-key-cryptography": {
+      },
+      "/security-heuristics": {
+      },
+      "/sql-injection": {
+      },
+      "/store-passwords": {
+      },
+      "/transport-layer-security": {
+      },
+      "/xss": {
+      }
     },
     "/databases": {
       "/atomicity": {
@@ -698,34 +688,32 @@
         }
       }
     },
-    "/digital-security": {
-      "/aes": {
+    "/thoughts-on-tech": {
+      "/a-free-web-again": {
       },
-      "/authentication": {
+      "/choose-boring-tech": {
       },
-      "/authorization": {
+      "/easy-vs-hard-in-cs": {
       },
-      "/certificates": {
+      "/hacker-laws": {
       },
-      "/cookies": {
+      "/hijacked-minds": {
       },
-      "/cors": {
+      "/is-tech-fast-or-slow": {
       },
-      "/csrf": {
+      "/minimal-tech": {
       },
-      "/openssl-encrypt": {
+      "/social-media": {
       },
-      "/public-key-cryptography": {
+      "/software-analogies": {
       },
-      "/security-heuristics": {
+      "/software-quality": {
       },
-      "/sql-injection": {
+      "/technology-and-time": {
       },
-      "/store-passwords": {
+      "/thought-on-swe": {
       },
-      "/transport-layer-security": {
-      },
-      "/xss": {
+      "/thoughts-on-tech": {
       }
     },
     "/distributed-systems": {
@@ -754,24 +742,6 @@
       "/time-and-order": {
       },
       "/use-an-identity-service": {
-      }
-    },
-    "/encoding": {
-      "/unicode": {
-      }
-    },
-    "/engineering-management": {
-      "/44-engineering-management-lessons": {
-      }
-    },
-    "/operating-systems": {
-      "/concurrency": {
-      },
-      "/containers": {
-      },
-      "/operating-systems": {
-      },
-      "/os-books": {
       }
     },
     "/programming": {
@@ -1074,18 +1044,6 @@
         }
       }
     },
-    "/prompt-engineering": {
-      "/base-prompt": {
-      },
-      "/prompt-engineering": {
-      },
-      "/question-prompt": {
-      },
-      "/recap-prompt": {
-      },
-      "/summary-prompt": {
-      }
-    },
     "/software-engineering": {
       "/books-swe": {
       },
@@ -1108,42 +1066,6 @@
       "/the-joel-test": {
       }
     },
-    "/system-design": {
-      "/domain-driven-design": {
-      },
-      "/system-design-concepts": {
-      },
-      "/system-design": {
-      }
-    },
-    "/thoughts-on-tech": {
-      "/a-free-web-again": {
-      },
-      "/choose-boring-tech": {
-      },
-      "/easy-vs-hard-in-cs": {
-      },
-      "/hacker-laws": {
-      },
-      "/hijacked-minds": {
-      },
-      "/is-tech-fast-or-slow": {
-      },
-      "/minimal-tech": {
-      },
-      "/social-media": {
-      },
-      "/software-analogies": {
-      },
-      "/software-quality": {
-      },
-      "/technology-and-time": {
-      },
-      "/thought-on-swe": {
-      },
-      "/thoughts-on-tech": {
-      }
-    },
     "/ux": {
       "/accessibility": {
       },
@@ -1159,6 +1081,52 @@
       },
       "/ux": {
       }
+    },
+    "/prompt-engineering": {
+      "/base-prompt": {
+      },
+      "/prompt-engineering": {
+      },
+      "/question-prompt": {
+      },
+      "/recap-prompt": {
+      },
+      "/summary-prompt": {
+      }
+    },
+    "/operating-systems": {
+      "/concurrency": {
+      },
+      "/containers": {
+      },
+      "/operating-systems": {
+      },
+      "/os-books": {
+      }
+    },
+    "/system-design": {
+      "/domain-driven-design": {
+      },
+      "/system-design-concepts": {
+      },
+      "/system-design": {
+      }
+    },
+    "/engineering-management": {
+      "/44-engineering-management-lessons": {
+      }
+    },
+    "/encoding": {
+      "/unicode": {
+      }
+    },
+    "/nlp": {
+    },
+    "/networks": {
+    },
+    "/machine-learning": {
+    },
+    "/tech": {
     }
   }
 }

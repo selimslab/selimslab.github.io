@@ -93,17 +93,7 @@ class SiteGenerator < Jekyll::Generator
     graph_data
   end
 
-  def generate_tree(site)
-    tree = bfs(site, NOTES_PATH)
-    site.data["tree"] = tree
 
-    site.data["tree_htmls"] = {}
-    tree_to_html(site, tree, "root")
-
-    site.data["tree_htmls_without_self"] = site.data["tree_htmls"].transform_values do |html|
-      html.gsub(/<a href='[^']*\/'>.*?<\/a>/, "")
-    end
-  end
 
   def fix_frontmatter
     Dir.glob("#{NOTES_PATH}/**/*.md").each do |file|
@@ -167,6 +157,20 @@ class SiteGenerator < Jekyll::Generator
       title = file_to_title[target]
       markdown_link = "[#{title}](/#{target}/)"
       doc.content.gsub!(link, markdown_link)
+    end
+  end
+
+  def generate_tree(site)
+    tree = bfs(site, NOTES_PATH)
+    # sort each level of tree by number of children, then by title
+    tree.transform_values! { |v| v.sort_by { |k, v| [-v.length, site.data["file_to_title"][k]] }.to_h }
+    site.data["tree"] = tree
+
+    site.data["tree_htmls"] = {}
+    tree_to_html(site, tree, "root")
+
+    site.data["tree_htmls_without_self"] = site.data["tree_htmls"].transform_values do |html|
+      html.gsub(/<a href='[^']*\/'>.*?<\/a>/, "")
     end
   end
 

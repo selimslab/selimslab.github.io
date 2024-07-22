@@ -229,6 +229,9 @@
   "/truth": [
     "philosophy"
   ],
+  "/career-advice": [
+    "work"
+  ],
   "/long-days-short-decades": [
     "work"
   ],
@@ -246,6 +249,9 @@
   ],
   "/work": [
     "philosophy"
+  ],
+  "/you-are-not-nameless": [
+    "work"
   ],
   "/conviction": [
     "poetry"
@@ -392,6 +398,9 @@
   "/web-experiments": [
     "lists"
   ],
+  "/analytics": [
+    "math"
+  ],
   "/counter-intuitive-math": [
     "math"
   ],
@@ -424,17 +433,11 @@
     "math",
     "probability"
   ],
+  "/normal-distribution": [
+    "probability"
+  ],
   "/probability": [
     "math"
-  ],
-  "/analytics": [
-    "statistics"
-  ],
-  "/normal-distribution": [
-    "statistics"
-  ],
-  "/percentiles": [
-    "statistics"
   ],
   "/statistics": [
     "math"
@@ -445,6 +448,9 @@
     "tech"
   ],
   "/astronomy": [
+    "natural-sciences"
+  ],
+  "/classical-physics": [
     "natural-sciences"
   ],
   "/climate-change": [
@@ -459,6 +465,10 @@
   "/fluid-field-boundaries": [
     "natural-sciences"
   ],
+  "/inertia": [
+    "natural-sciences",
+    "psy"
+  ],
   "/maxwells-equations": [
     "natural-sciences"
   ],
@@ -468,19 +478,6 @@
   "/philosophical-implications-of-quantum-mechanics": [
     "natural-sciences"
   ],
-  "/classical-physics": [
-    "physics"
-  ],
-  "/inertia": [
-    "physics",
-    "psy"
-  ],
-  "/physics": [
-    "natural-sciences"
-  ],
-  "/the-piston": [
-    "physics"
-  ],
   "/solar-system": [
     "natural-sciences"
   ],
@@ -489,6 +486,9 @@
     "natural-sciences"
   ],
   "/the-overview-effect": [
+    "natural-sciences"
+  ],
+  "/the-piston": [
     "natural-sciences"
   ],
   "/the-true-size-of-africa": [
@@ -528,18 +528,6 @@
   ],
   "/trading": [
     "business"
-  ],
-  "/career-advice": [
-    "career"
-  ],
-  "/career": [
-    "skills"
-  ],
-  "/salary-negotiation": [
-    "career"
-  ],
-  "/you-are-not-nameless": [
-    "career"
   ],
   "/communication": [
     "skills"
@@ -760,27 +748,6 @@
   "/bias-for-unhappiness": [
     "psychology"
   ],
-  "/children-and-school": [
-    "children"
-  ],
-  "/children": [
-    "psy",
-    "psychology",
-    "skills",
-    "soc"
-  ],
-  "/give-children-responsibility": [
-    "children"
-  ],
-  "/how-to-speak-to-children": [
-    "children"
-  ],
-  "/let-a-child-be-angry": [
-    "children"
-  ],
-  "/take-children-seriously": [
-    "children"
-  ],
   "/cognitive-biases": [
     "psychology",
     "soc",
@@ -803,38 +770,31 @@
     "psychology"
   ],
   "/anger": [
-    "emotions"
+
   ],
   "/anxiety": [
-    "emotions"
+
   ],
   "/arrogance": [
-    "emotions"
+
   ],
   "/courage": [
-    "emotions"
-  ],
-  "/emotions": [
-    "psy",
-    "psychology"
+
   ],
   "/empathy": [
-    "emotions"
-  ],
-  "/gratitude": [
-    "emotions"
+
   ],
   "/hope": [
-    "emotions"
+
   ],
   "/respect": [
-    "emotions"
+
   ],
   "/trust": [
-    "emotions"
+
   ],
   "/vulnerability": [
-    "emotions"
+
   ],
   "/flow": [
     "psychology"
