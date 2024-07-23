@@ -26,6 +26,10 @@ A digital space to create, collect, and share
 
 {% include time.html %}
 
+## Stats 
+
+{% include stats.html  %}
+
 ## Tap to shuffle   
 
 {% include random-artwork.html %}
