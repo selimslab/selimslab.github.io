@@ -134,9 +134,9 @@
         "/motocycles",
         "/cooking",
         "/critical-thinking",
-        "/how-to-start",
         "/on-decision-making",
-        "/a-good-life"
+        "/a-good-life",
+        "/how-to-start"
       ]
     },
     {
@@ -164,13 +164,13 @@
         "/cognitive-biases",
         "/freedom",
         "/happiness",
-        "/hijacked-minds",
         "/how-to-start",
-        "/is-tech-fast-or-slow",
         "/learning",
         "/questioning-people-seen-as-a-threat-to-status-quo",
         "/solitude",
-        "/stupidity"
+        "/stupidity",
+        "/hijacked-minds",
+        "/is-tech-fast-or-slow"
       ]
     },
     {
@@ -197,11 +197,11 @@
         "/system-design",
         "/nlp",
         "/concurrency",
-        "/accessibility",
         "/akins-laws-of-spacecraft",
         "/everyday-objects",
         "/history-of-technology",
-        "/since-big-bang"
+        "/since-big-bang",
+        "/accessibility"
       ]
     },
     {
@@ -238,12 +238,12 @@
         "/choice",
         "/time",
         "/work",
-        "/criminal-justice",
-        "/critical-thinking",
-        "/how-to-grow-old-russell",
-        "/how-to-deal-with-pain",
-        "/in-praise-of-idleness",
         "/life-is-soft",
+        "/critical-thinking",
+        "/how-to-deal-with-pain",
+        "/how-to-grow-old-russell",
+        "/in-praise-of-idleness",
+        "/criminal-justice",
         "/look-down-and-around",
         "/solitude"
       ]
@@ -1311,13 +1311,13 @@
         "/tech",
         "/do-one-thing-at-a-time-and-do-it-well",
         "/systems",
-        "/accessibility",
         "/akins-laws-of-spacecraft",
-        "/choose-boring-tech",
         "/distributed-systems",
         "/domain-driven-design",
+        "/oop",
+        "/choose-boring-tech",
         "/hacker-laws",
-        "/oop"
+        "/accessibility"
       ]
     },
     {
@@ -2811,8 +2811,8 @@
         "/sort",
         "/vector-search",
         "/bayes",
-        "/data-structures",
-        "/lsm-trees"
+        "/lsm-trees",
+        "/data-structures"
       ]
     },
     {
@@ -3747,11 +3747,11 @@
         "/house-robber",
         "/invert-binary-tree",
         "/is-mirror-tree",
+        "/lengthOfLIS",
         "/level-order",
         "/longest-common-subsequence",
         "/longest-diverse-str",
         "/longest-valid-paranthesis",
-        "/lengthOfLIS",
         "/min-edit-distance"
       ]
     },
@@ -3987,9 +3987,9 @@
         "/coin-change",
         "/edit-distance",
         "/house-robber",
+        "/lengthOfLIS",
         "/longest-common-subsequence",
         "/longest-diverse-str",
-        "/lengthOfLIS",
         "/lowest-common-ancestor",
         "/maximal-square",
         "/min-edit-distance",
@@ -7073,7 +7073,7 @@
     },
     {
       "source": "/philosophy",
-      "target": "/criminal-justice"
+      "target": "/life-is-soft"
     },
     {
       "source": "/philosophy",
@@ -7081,11 +7081,11 @@
     },
     {
       "source": "/philosophy",
-      "target": "/how-to-grow-old-russell"
+      "target": "/how-to-deal-with-pain"
     },
     {
       "source": "/philosophy",
-      "target": "/how-to-deal-with-pain"
+      "target": "/how-to-grow-old-russell"
     },
     {
       "source": "/philosophy",
@@ -7093,7 +7093,7 @@
     },
     {
       "source": "/philosophy",
-      "target": "/life-is-soft"
+      "target": "/criminal-justice"
     },
     {
       "source": "/philosophy",
@@ -7285,15 +7285,15 @@
     },
     {
       "source": "/skills",
-      "target": "/how-to-start"
-    },
-    {
-      "source": "/skills",
       "target": "/on-decision-making"
     },
     {
       "source": "/skills",
       "target": "/a-good-life"
+    },
+    {
+      "source": "/skills",
+      "target": "/how-to-start"
     },
     {
       "source": "/chaos",
@@ -7341,15 +7341,7 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/hijacked-minds"
-    },
-    {
-      "source": "/social-sciences",
       "target": "/how-to-start"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/is-tech-fast-or-slow"
     },
     {
       "source": "/social-sciences",
@@ -7366,6 +7358,14 @@
     {
       "source": "/social-sciences",
       "target": "/stupidity"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/hijacked-minds"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/is-tech-fast-or-slow"
     },
     {
       "source": "/systems",
@@ -7497,6 +7497,10 @@
     },
     {
       "source": "/algo-mid",
+      "target": "/lengthOfLIS"
+    },
+    {
+      "source": "/algo-mid",
       "target": "/level-order"
     },
     {
@@ -7513,10 +7517,6 @@
     },
     {
       "source": "/algo-mid",
-      "target": "/lengthOfLIS"
-    },
-    {
-      "source": "/algo-mid",
       "target": "/min-edit-distance"
     },
     {
@@ -7525,11 +7525,11 @@
     },
     {
       "source": "/algorithms",
-      "target": "/data-structures"
+      "target": "/lsm-trees"
     },
     {
       "source": "/algorithms",
-      "target": "/lsm-trees"
+      "target": "/data-structures"
     },
     {
       "source": "/dynamic",
@@ -7549,15 +7549,15 @@
     },
     {
       "source": "/dynamic",
+      "target": "/lengthOfLIS"
+    },
+    {
+      "source": "/dynamic",
       "target": "/longest-common-subsequence"
     },
     {
       "source": "/dynamic",
       "target": "/longest-diverse-str"
-    },
-    {
-      "source": "/dynamic",
-      "target": "/lengthOfLIS"
     },
     {
       "source": "/dynamic",
@@ -7813,15 +7813,7 @@
     },
     {
       "source": "/system-design",
-      "target": "/accessibility"
-    },
-    {
-      "source": "/system-design",
       "target": "/akins-laws-of-spacecraft"
-    },
-    {
-      "source": "/system-design",
-      "target": "/choose-boring-tech"
     },
     {
       "source": "/system-design",
@@ -7833,14 +7825,18 @@
     },
     {
       "source": "/system-design",
+      "target": "/oop"
+    },
+    {
+      "source": "/system-design",
+      "target": "/choose-boring-tech"
+    },
+    {
+      "source": "/system-design",
       "target": "/hacker-laws"
     },
     {
       "source": "/system-design",
-      "target": "/oop"
-    },
-    {
-      "source": "/tech",
       "target": "/accessibility"
     },
     {
@@ -7858,6 +7854,10 @@
     {
       "source": "/tech",
       "target": "/since-big-bang"
+    },
+    {
+      "source": "/tech",
+      "target": "/accessibility"
     },
     {
       "source": "/ux",
