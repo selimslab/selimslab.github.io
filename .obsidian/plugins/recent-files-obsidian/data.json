@@ -1,6 +1,154 @@
 {
   "recentFiles": [
     {
+      "basename": "_TODO",
+      "path": "_NOTES/_TODO.md"
+    },
+    {
+      "basename": "unicode",
+      "path": "_NOTES/tech/unicode.md"
+    },
+    {
+      "basename": "tech",
+      "path": "_NOTES/tech/tech.md"
+    },
+    {
+      "basename": "system-design",
+      "path": "_NOTES/tech/system-design.md"
+    },
+    {
+      "basename": "operating-systems",
+      "path": "_NOTES/tech/operating-systems.md"
+    },
+    {
+      "basename": "nlp",
+      "path": "_NOTES/tech/nlp.md"
+    },
+    {
+      "basename": "networks",
+      "path": "_NOTES/tech/networks.md"
+    },
+    {
+      "basename": "machine-learning",
+      "path": "_NOTES/tech/machine-learning.md"
+    },
+    {
+      "basename": "encodings",
+      "path": "_NOTES/tech/encodings.md"
+    },
+    {
+      "basename": "domain-driven-design",
+      "path": "_NOTES/tech/domain-driven-design.md"
+    },
+    {
+      "basename": "containers",
+      "path": "_NOTES/tech/containers.md"
+    },
+    {
+      "basename": "concurrency",
+      "path": "_NOTES/tech/concurrency.md"
+    },
+    {
+      "basename": "ux",
+      "path": "_NOTES/tech/ux/ux.md"
+    },
+    {
+      "basename": "usability-testing",
+      "path": "_NOTES/tech/ux/usability-testing.md"
+    },
+    {
+      "basename": "things-users-care",
+      "path": "_NOTES/tech/ux/things-users-care.md"
+    },
+    {
+      "basename": "polished-pixels",
+      "path": "_NOTES/tech/ux/polished-pixels.md"
+    },
+    {
+      "basename": "natural-tech",
+      "path": "_NOTES/tech/ux/natural-tech.md"
+    },
+    {
+      "basename": "evolution-of-computer-interfaces",
+      "path": "_NOTES/tech/ux/evolution-of-computer-interfaces.md"
+    },
+    {
+      "basename": "accessibility",
+      "path": "_NOTES/tech/ux/accessibility.md"
+    },
+    {
+      "basename": "thoughts-on-tech",
+      "path": "_NOTES/tech/thoughts-on-tech/thoughts-on-tech.md"
+    },
+    {
+      "basename": "thoughts-on-swe",
+      "path": "_NOTES/tech/thoughts-on-tech/thoughts-on-swe.md"
+    },
+    {
+      "basename": "software-quality",
+      "path": "_NOTES/tech/thoughts-on-tech/software-quality.md"
+    },
+    {
+      "basename": "software-analogies",
+      "path": "_NOTES/tech/thoughts-on-tech/software-analogies.md"
+    },
+    {
+      "basename": "social-media",
+      "path": "_NOTES/tech/thoughts-on-tech/social-media.md"
+    },
+    {
+      "basename": "minimal-tech",
+      "path": "_NOTES/tech/thoughts-on-tech/minimal-tech.md"
+    },
+    {
+      "basename": "is-tech-fast-or-slow",
+      "path": "_NOTES/tech/thoughts-on-tech/is-tech-fast-or-slow.md"
+    },
+    {
+      "basename": "hijacked-minds",
+      "path": "_NOTES/tech/thoughts-on-tech/hijacked-minds.md"
+    },
+    {
+      "basename": "easy-vs-hard-in-cs",
+      "path": "_NOTES/tech/programming/easy-vs-hard-in-cs.md"
+    },
+    {
+      "basename": "hacker-laws",
+      "path": "_NOTES/tech/thoughts-on-tech/hacker-laws.md"
+    },
+    {
+      "basename": "choose-boring-tech",
+      "path": "_NOTES/tech/thoughts-on-tech/choose-boring-tech.md"
+    },
+    {
+      "basename": "a-free-web-again",
+      "path": "_NOTES/tech/thoughts-on-tech/a-free-web-again.md"
+    },
+    {
+      "basename": "44-engineering-management-lessons",
+      "path": "_NOTES/tech/thoughts-on-tech/44-engineering-management-lessons.md"
+    },
+    {
+      "basename": "compsci",
+      "path": "_NOTES/tech/programming/compsci.md"
+    },
+    {
+      "basename": "for-new-programmers",
+      "path": "_NOTES/tech/programming/for-new-programmers.md"
+    },
+    {
+      "basename": "programming",
+      "path": "_NOTES/tech/programming/programming.md"
+    },
+    {
+      "basename": "the-tao-of-programming",
+      "path": "_NOTES/tech/programming/the-tao-of-programming.md"
+    },
+    {
+      "basename": "tools",
+      "path": "_NOTES/tech/programming/tools.md"
+    },
+    {
       "basename": "authentication",
       "path": "_NOTES/tech/security/authentication.md"
     },
@@ -51,154 +199,6 @@
     {
       "basename": "xss",
       "path": "_NOTES/tech/security/xss.md"
-    },
-    {
-      "basename": "lsm-trees",
-      "path": "_NOTES/tech/databases/lsm-trees.md"
-    },
-    {
-      "basename": "leaderless-replication",
-      "path": "_NOTES/tech/databases/leaderless-replication.md"
-    },
-    {
-      "basename": "db-data-structures",
-      "path": "_NOTES/tech/databases/db-data-structures.md"
-    },
-    {
-      "basename": "b-trees",
-      "path": "_NOTES/tech/databases/b-trees.md"
-    },
-    {
-      "basename": "acid",
-      "path": "_NOTES/tech/databases/acid.md"
-    },
-    {
-      "basename": "databases",
-      "path": "_NOTES/tech/databases/databases.md"
-    },
-    {
-      "basename": "replication",
-      "path": "_NOTES/tech/databases/replication.md"
-    },
-    {
-      "basename": "partitioning",
-      "path": "_NOTES/tech/databases/partitioning.md"
-    },
-    {
-      "basename": "sql-tips",
-      "path": "_NOTES/tech/databases/sql-tips.md"
-    },
-    {
-      "basename": "single-leader",
-      "path": "_NOTES/tech/databases/single-leader.md"
-    },
-    {
-      "basename": "go",
-      "path": "_NOTES/tech/programming/programming-languages/go.md"
-    },
-    {
-      "basename": "normal-distribution",
-      "path": "_NOTES/math/normal-distribution.md"
-    },
-    {
-      "basename": "normal",
-      "path": "assets/static/img/normal.png"
-    },
-    {
-      "basename": "drawing",
-      "path": "_NOTES/skills/drawing.md"
-    },
-    {
-      "basename": "marketing",
-      "path": "_NOTES/skills/business/marketing.md"
-    },
-    {
-      "basename": "outdoors",
-      "path": "_NOTES/skills/outdoors.md"
-    },
-    {
-      "basename": "public-speaking",
-      "path": "_NOTES/skills/communication/public-speaking.md"
-    },
-    {
-      "basename": "respect",
-      "path": "_NOTES/social-sciences/psychology/emotions/respect.md"
-    },
-    {
-      "basename": "ship-it",
-      "path": "_NOTES/arts/design/ship-it.md"
-    },
-    {
-      "basename": "social-change",
-      "path": "_NOTES/social-sciences/social-change.md"
-    },
-    {
-      "basename": "hope",
-      "path": "_NOTES/social-sciences/psychology/emotions/hope.md"
-    },
-    {
-      "basename": "happiness",
-      "path": "_NOTES/arts/philosophy/happiness.md"
-    },
-    {
-      "basename": "gaslighting",
-      "path": "_NOTES/social-sciences/psychology/gaslighting.md"
-    },
-    {
-      "basename": "growing-plants",
-      "path": "_NOTES/skills/growing-plants.md"
-    },
-    {
-      "basename": "software-quality",
-      "path": "_NOTES/tech/thoughts-on-tech/software-quality.md"
-    },
-    {
-      "basename": "solar-system",
-      "path": "_NOTES/natural-sciences/solar-system.md"
-    },
-    {
-      "basename": "ideas",
-      "path": "_NOTES/lists/ideas.md"
-    },
-    {
-      "basename": "classical-physics",
-      "path": "_NOTES/natural-sciences/classical-physics.md"
-    },
-    {
-      "basename": "natural-sciences",
-      "path": "_NOTES/natural-sciences/natural-sciences.md"
-    },
-    {
-      "basename": "urban-planning",
-      "path": "_NOTES/social-sciences/urban-planning.md"
-    },
-    {
-      "basename": "thoughts-on-swe",
-      "path": "_NOTES/tech/thoughts-on-tech/thoughts-on-swe.md"
-    },
-    {
-      "basename": "problem-solving",
-      "path": "_NOTES/skills/problem-solving.md"
-    },
-    {
-      "basename": "communication",
-      "path": "_NOTES/skills/communication/communication.md"
-    },
-    {
-      "basename": "write-better",
-      "path": "_NOTES/skills/communication/write-better.md"
-    },
-    {
-      "basename": "zen-of-python",
-      "path": "_NOTES/tech/programming/programming-languages/python/zen-of-python.md"
-    },
-    {
-      "basename": "what-to-work-on",
-      "path": "_NOTES/arts/philosophy/work/what-to-work-on.md"
-    },
-    {
-      "basename": "usability-testing",
-      "path": "_NOTES/tech/ux/usability-testing.md"
     }
   ],
   "omittedPaths": []

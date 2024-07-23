@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_NOTES/tech/security/authentication.md",
+                "file": "_NOTES/_TODO.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_NOTES/tech/security/authentication.md",
+                "file": "_NOTES/_TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_NOTES/tech/security/authentication.md",
+                "file": "_NOTES/_TODO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_NOTES/tech/security/authentication.md"
+                "file": "_NOTES/_TODO.md"
               }
             }
           }
@@ -160,32 +160,32 @@
   },
   "active": "bc86af8c7183ead1",
   "lastOpenFiles": [
-    "_NOTES/tech/security/authorization.md",
-    "_NOTES/tech/security/certificates.md",
-    "_NOTES/tech/security/cookies.md",
-    "_NOTES/tech/security/cors.md",
-    "_NOTES/tech/security/csrf.md",
-    "_NOTES/tech/security/openssl-encrypt.md",
-    "_NOTES/tech/security/public-key-cryptography.md",
-    "_NOTES/tech/security/security.md",
-    "_NOTES/tech/security/security-heuristics.md",
-    "_NOTES/tech/digital-security/Untitled.md",
-    "_NOTES/tech/security/store-passwords.md",
-    "_NOTES/tech/security/transport-layer-security.md",
-    "_NOTES/tech/security/xss.md",
-    "_NOTES/tech/digital-security/sql-injection.md",
-    "_NOTES/tech/digital-security/aes.md",
-    "_NOTES/tech/databases/lsm-trees.md",
-    "_NOTES/tech/databases/leaderless-replication.md",
-    "_NOTES/tech/databases/db-data-structures.md",
-    "_NOTES/tech/databases/b-trees.md",
-    "_NOTES/tech/databases/acid.md",
-    "_NOTES/tech/databases/databases.md",
-    "_NOTES/tech/databases/replication.md",
-    "_NOTES/tech/databases/partitioning.md",
-    "_NOTES/tech/databases/normalization.md",
-    "_NOTES/tech/databases/sql-tips.md",
-    "_NOTES/tech/databases/single-leader.md",
+    "_NOTES/tech/unicode.md",
+    "_NOTES/tech/tech.md",
+    "_NOTES/tech/system-design.md",
+    "_NOTES/tech/operating-systems.md",
+    "_NOTES/tech/nlp.md",
+    "_NOTES/tech/networks.md",
+    "_NOTES/tech/machine-learning.md",
+    "_NOTES/tech/encodings.md",
+    "_NOTES/tech/domain-driven-design.md",
+    "_NOTES/tech/containers.md",
+    "_NOTES/tech/concurrency.md",
+    "_NOTES/tech/ux/ux.md",
+    "_NOTES/tech/ux/usability-testing.md",
+    "_NOTES/tech/ux/things-users-care.md",
+    "_NOTES/tech/ux/polished-pixels.md",
+    "_NOTES/tech/ux/natural-tech.md",
+    "_NOTES/tech/ux/evolution-of-computer-interfaces.md",
+    "_NOTES/tech/ux/accessibility.md",
+    "_NOTES/tech/thoughts-on-tech/thoughts-on-tech.md",
+    "_NOTES/tech/thoughts-on-tech/thoughts-on-swe.md",
+    "_NOTES/tech/thoughts-on-tech/software-quality.md",
+    "_NOTES/tech/thoughts-on-tech/software-analogies.md",
+    "_NOTES/tech/thoughts-on-tech/social-media.md",
+    "_NOTES/tech/thoughts-on-tech/minimal-tech.md",
+    "_NOTES/tech/thoughts-on-tech/is-tech-fast-or-slow.md",
+    "_NOTES/tech/thoughts-on-tech/hijacked-minds.md",
     "_site/probability-and-statistics/index.html",
     "_site/probability-and-statistics",
     "_site/assets/static/img/plain-pooh.jpg",
