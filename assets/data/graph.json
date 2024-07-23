@@ -83,6 +83,7 @@
         "/root",
         "/akins-laws-of-spacecraft",
         "/astronomy",
+        "/books-natural",
         "/classical-physics",
         "/climate-change",
         "/feynman-lectures",
@@ -133,9 +134,9 @@
         "/motocycles",
         "/cooking",
         "/critical-thinking",
+        "/how-to-start",
         "/on-decision-making",
-        "/a-good-life",
-        "/how-to-start"
+        "/a-good-life"
       ]
     },
     {
@@ -148,27 +149,28 @@
         "/politics",
         "/history",
         "/economics",
+        "/metaphors",
         "/social-change",
         "/social-class",
-        "/metaphors",
+        "/in-praise-of-idleness",
         "/tolerate-anything-except-outgroup",
         "/urban-planning",
         "/wasted-talent",
         "/your-lifestyle-already-designed",
+        "/books-social",
         "/chaos",
-        "/in-praise-of-idleness",
         "/systems",
         "/being-poor",
         "/cognitive-biases",
         "/freedom",
         "/happiness",
+        "/hijacked-minds",
         "/how-to-start",
+        "/is-tech-fast-or-slow",
         "/learning",
         "/questioning-people-seen-as-a-threat-to-status-quo",
         "/solitude",
-        "/stupidity",
-        "/hijacked-minds",
-        "/is-tech-fast-or-slow"
+        "/stupidity"
       ]
     },
     {
@@ -195,11 +197,11 @@
         "/system-design",
         "/nlp",
         "/concurrency",
+        "/accessibility",
         "/akins-laws-of-spacecraft",
         "/everyday-objects",
         "/history-of-technology",
-        "/since-big-bang",
-        "/accessibility"
+        "/since-big-bang"
       ]
     },
     {
@@ -211,6 +213,7 @@
         "/a-good-life",
         "/all-is-one",
         "/be-good-to-each-other-and-yourself",
+        "/books-phil",
         "/character",
         "/concepts-in-greek-thought",
         "/enemies",
@@ -235,13 +238,12 @@
         "/choice",
         "/time",
         "/work",
-        "/the-art-of-war",
-        "/life-is-soft",
-        "/critical-thinking",
-        "/how-to-deal-with-pain",
-        "/how-to-grow-old-russell",
-        "/in-praise-of-idleness",
         "/criminal-justice",
+        "/critical-thinking",
+        "/how-to-grow-old-russell",
+        "/how-to-deal-with-pain",
+        "/in-praise-of-idleness",
+        "/life-is-soft",
         "/look-down-and-around",
         "/solitude"
       ]
@@ -564,6 +566,14 @@
       "id": "/astronomy",
       "group": 2,
       "name": "Astronomy",
+      "links": [
+        "/natural-sciences"
+      ]
+    },
+    {
+      "id": "/books-natural",
+      "group": 2,
+      "name": "Books",
       "links": [
         "/natural-sciences"
       ]
@@ -986,6 +996,15 @@
       ]
     },
     {
+      "id": "/metaphors",
+      "group": 2,
+      "name": "Metaphors",
+      "links": [
+        "/social-sciences",
+        "/languages"
+      ]
+    },
+    {
       "id": "/social-change",
       "group": 2,
       "name": "Social Change",
@@ -1002,12 +1021,13 @@
       ]
     },
     {
-      "id": "/metaphors",
+      "id": "/in-praise-of-idleness",
       "group": 2,
-      "name": "Metaphors",
+      "name": "In Praise Of Idleness",
       "links": [
         "/social-sciences",
-        "/languages"
+        "/philosophy",
+        "/four-day-workweek"
       ]
     },
     {
@@ -1044,6 +1064,14 @@
       ]
     },
     {
+      "id": "/books-social",
+      "group": 2,
+      "name": "Books",
+      "links": [
+        "/social-sciences"
+      ]
+    },
+    {
       "id": "/chaos",
       "group": 2,
       "name": "Chaos",
@@ -1051,16 +1079,6 @@
         "/social-sciences",
         "/systems",
         "/systems"
-      ]
-    },
-    {
-      "id": "/in-praise-of-idleness",
-      "group": 2,
-      "name": "In Praise Of Idleness",
-      "links": [
-        "/social-sciences",
-        "/philosophy",
-        "/four-day-workweek"
       ]
     },
     {
@@ -1293,13 +1311,13 @@
         "/tech",
         "/do-one-thing-at-a-time-and-do-it-well",
         "/systems",
+        "/accessibility",
         "/akins-laws-of-spacecraft",
+        "/choose-boring-tech",
         "/distributed-systems",
         "/domain-driven-design",
-        "/oop",
-        "/choose-boring-tech",
         "/hacker-laws",
-        "/accessibility"
+        "/oop"
       ]
     },
     {
@@ -1345,6 +1363,15 @@
       "links": [
         "/philosophy",
         "/work"
+      ]
+    },
+    {
+      "id": "/books-phil",
+      "group": 3,
+      "name": "Books",
+      "links": [
+        "/philosophy",
+        "/the-art-of-war"
       ]
     },
     {
@@ -2784,8 +2811,8 @@
         "/sort",
         "/vector-search",
         "/bayes",
-        "/lsm-trees",
-        "/data-structures"
+        "/data-structures",
+        "/lsm-trees"
       ]
     },
     {
@@ -3446,7 +3473,7 @@
       "name": "The Art of War",
       "links": [
         "/classics",
-        "/philosophy",
+        "/books-phil",
         "/warfare-is-deception"
       ]
     },
@@ -3720,11 +3747,11 @@
         "/house-robber",
         "/invert-binary-tree",
         "/is-mirror-tree",
-        "/lengthOfLIS",
         "/level-order",
         "/longest-common-subsequence",
         "/longest-diverse-str",
         "/longest-valid-paranthesis",
+        "/lengthOfLIS",
         "/min-edit-distance"
       ]
     },
@@ -3960,9 +3987,9 @@
         "/coin-change",
         "/edit-distance",
         "/house-robber",
-        "/lengthOfLIS",
         "/longest-common-subsequence",
         "/longest-diverse-str",
+        "/lengthOfLIS",
         "/lowest-common-ancestor",
         "/maximal-square",
         "/min-edit-distance",
@@ -5094,6 +5121,10 @@
     },
     {
       "source": "/natural-sciences",
+      "target": "/books-natural"
+    },
+    {
+      "source": "/natural-sciences",
       "target": "/classical-physics"
     },
     {
@@ -5262,6 +5293,10 @@
     },
     {
       "source": "/social-sciences",
+      "target": "/metaphors"
+    },
+    {
+      "source": "/social-sciences",
       "target": "/social-change"
     },
     {
@@ -5270,7 +5305,7 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/metaphors"
+      "target": "/in-praise-of-idleness"
     },
     {
       "source": "/social-sciences",
@@ -5290,11 +5325,11 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/chaos"
+      "target": "/books-social"
     },
     {
       "source": "/social-sciences",
-      "target": "/in-praise-of-idleness"
+      "target": "/chaos"
     },
     {
       "source": "/social-sciences",
@@ -5387,6 +5422,10 @@
     {
       "source": "/philosophy",
       "target": "/be-good-to-each-other-and-yourself"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/books-phil"
     },
     {
       "source": "/philosophy",
@@ -6970,7 +7009,7 @@
     },
     {
       "source": "/the-art-of-war",
-      "target": "/philosophy"
+      "target": "/books-phil"
     },
     {
       "source": "/the-art-of-war",
@@ -7034,7 +7073,7 @@
     },
     {
       "source": "/philosophy",
-      "target": "/life-is-soft"
+      "target": "/criminal-justice"
     },
     {
       "source": "/philosophy",
@@ -7042,11 +7081,11 @@
     },
     {
       "source": "/philosophy",
-      "target": "/how-to-deal-with-pain"
+      "target": "/how-to-grow-old-russell"
     },
     {
       "source": "/philosophy",
-      "target": "/how-to-grow-old-russell"
+      "target": "/how-to-deal-with-pain"
     },
     {
       "source": "/philosophy",
@@ -7054,7 +7093,7 @@
     },
     {
       "source": "/philosophy",
-      "target": "/criminal-justice"
+      "target": "/life-is-soft"
     },
     {
       "source": "/philosophy",
@@ -7246,15 +7285,15 @@
     },
     {
       "source": "/skills",
+      "target": "/how-to-start"
+    },
+    {
+      "source": "/skills",
       "target": "/on-decision-making"
     },
     {
       "source": "/skills",
       "target": "/a-good-life"
-    },
-    {
-      "source": "/skills",
-      "target": "/how-to-start"
     },
     {
       "source": "/chaos",
@@ -7302,7 +7341,15 @@
     },
     {
       "source": "/social-sciences",
+      "target": "/hijacked-minds"
+    },
+    {
+      "source": "/social-sciences",
       "target": "/how-to-start"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/is-tech-fast-or-slow"
     },
     {
       "source": "/social-sciences",
@@ -7319,14 +7366,6 @@
     {
       "source": "/social-sciences",
       "target": "/stupidity"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/hijacked-minds"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/is-tech-fast-or-slow"
     },
     {
       "source": "/systems",
@@ -7458,10 +7497,6 @@
     },
     {
       "source": "/algo-mid",
-      "target": "/lengthOfLIS"
-    },
-    {
-      "source": "/algo-mid",
       "target": "/level-order"
     },
     {
@@ -7478,6 +7513,10 @@
     },
     {
       "source": "/algo-mid",
+      "target": "/lengthOfLIS"
+    },
+    {
+      "source": "/algo-mid",
       "target": "/min-edit-distance"
     },
     {
@@ -7486,11 +7525,11 @@
     },
     {
       "source": "/algorithms",
-      "target": "/lsm-trees"
+      "target": "/data-structures"
     },
     {
       "source": "/algorithms",
-      "target": "/data-structures"
+      "target": "/lsm-trees"
     },
     {
       "source": "/dynamic",
@@ -7510,15 +7549,15 @@
     },
     {
       "source": "/dynamic",
-      "target": "/lengthOfLIS"
-    },
-    {
-      "source": "/dynamic",
       "target": "/longest-common-subsequence"
     },
     {
       "source": "/dynamic",
       "target": "/longest-diverse-str"
+    },
+    {
+      "source": "/dynamic",
+      "target": "/lengthOfLIS"
     },
     {
       "source": "/dynamic",
@@ -7774,7 +7813,15 @@
     },
     {
       "source": "/system-design",
+      "target": "/accessibility"
+    },
+    {
+      "source": "/system-design",
       "target": "/akins-laws-of-spacecraft"
+    },
+    {
+      "source": "/system-design",
+      "target": "/choose-boring-tech"
     },
     {
       "source": "/system-design",
@@ -7786,18 +7833,14 @@
     },
     {
       "source": "/system-design",
-      "target": "/oop"
-    },
-    {
-      "source": "/system-design",
-      "target": "/choose-boring-tech"
-    },
-    {
-      "source": "/system-design",
       "target": "/hacker-laws"
     },
     {
       "source": "/system-design",
+      "target": "/oop"
+    },
+    {
+      "source": "/tech",
       "target": "/accessibility"
     },
     {
@@ -7815,10 +7858,6 @@
     {
       "source": "/tech",
       "target": "/since-big-bang"
-    },
-    {
-      "source": "/tech",
-      "target": "/accessibility"
     },
     {
       "source": "/ux",

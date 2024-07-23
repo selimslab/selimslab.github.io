@@ -124,6 +124,9 @@
   "/be-good-to-each-other-and-yourself": [
     "philosophy"
   ],
+  "/books-phil": [
+    "philosophy"
+  ],
   "/character": [
     "philosophy"
   ],
@@ -443,6 +446,9 @@
   "/astronomy": [
     "natural-sciences"
   ],
+  "/books-natural": [
+    "natural-sciences"
+  ],
   "/classical-physics": [
     "natural-sciences"
   ],
@@ -466,7 +472,7 @@
     "natural-sciences"
   ],
   "/natural-sciences": [
-    "nat"
+
   ],
   "/philosophical-implications-of-quantum-mechanics": [
     "natural-sciences"
@@ -642,6 +648,9 @@
     "skills"
   ],
   "/being-poor": [
+    "social-sciences"
+  ],
+  "/books-social": [
     "social-sciences"
   ],
   "/chaos": [

@@ -21,6 +21,8 @@ class SiteGenerator < Jekyll::Generator
 
     generate_tree(site)
 
+    write_json("./assets/data/tree.json", site.data["tree"])
+
     site.documents.each do |doc|
       doc.data['tags'] = doc.data['tags'].uniq.sort
       wikilinks_to_backlinks(doc, site)
@@ -31,8 +33,6 @@ class SiteGenerator < Jekyll::Generator
     end
 
     site.documents.each { |doc| doc.data['backlinks'].uniq! }
-
-    write_json("./assets/data/tree.json", site.data["tree"])
 
     graph = generate_graph(site)
 
@@ -168,6 +168,12 @@ class SiteGenerator < Jekyll::Generator
 
     site.data["tree_htmls"] = {}
     tree_to_html(site, tree, "root")
+
+    site.data["tree_htmls_without_self"] = {}
+    # for each element in site.data["tree_htmls"], remove link to self
+    site.data["tree_htmls"].each do |k, v|
+      site.data["tree_htmls_without_self"][k] = v.gsub(/<a href='#{k}\/'>.*?<\/a>/, "")
+    end
 
   end
 
