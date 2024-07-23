@@ -186,11 +186,10 @@
         "/prompt-engineering",
         "/operating-systems",
         "/system-design",
-        "/encoding",
-        "/engineering-management",
         "/nlp",
         "/networks",
         "/machine-learning",
+        "/unicode",
         "/akins-laws-of-spacecraft",
         "/everyday-objects",
         "/history-of-technology",
@@ -1253,23 +1252,6 @@
       ]
     },
     {
-      "id": "/encoding",
-      "group": 2,
-      "name": "Encoding",
-      "links": [
-        "/tech",
-        "/unicode"
-      ]
-    },
-    {
-      "id": "/engineering-management",
-      "group": 2,
-      "name": "Engineering Management",
-      "links": [
-        "/tech"
-      ]
-    },
-    {
       "id": "/nlp",
       "group": 2,
       "name": "NLP",
@@ -1289,6 +1271,14 @@
       "id": "/machine-learning",
       "group": 2,
       "name": "Machine Learning",
+      "links": [
+        "/tech"
+      ]
+    },
+    {
+      "id": "/unicode",
+      "group": 2,
+      "name": "Unicode",
       "links": [
         "/tech"
       ]
@@ -3286,14 +3276,6 @@
       "name": "System Design Concepts",
       "links": [
         "/system-design"
-      ]
-    },
-    {
-      "id": "/unicode",
-      "group": 3,
-      "name": "Unicode",
-      "links": [
-        "/encoding"
       ]
     },
     {
@@ -5499,14 +5481,6 @@
     },
     {
       "source": "/tech",
-      "target": "/encoding"
-    },
-    {
-      "source": "/tech",
-      "target": "/engineering-management"
-    },
-    {
-      "source": "/tech",
       "target": "/nlp"
     },
     {
@@ -5516,6 +5490,10 @@
     {
       "source": "/tech",
       "target": "/machine-learning"
+    },
+    {
+      "source": "/tech",
+      "target": "/unicode"
     },
     {
       "source": "/philosophy",
@@ -6356,10 +6334,6 @@
     {
       "source": "/system-design",
       "target": "/system-design-concepts"
-    },
-    {
-      "source": "/encoding",
-      "target": "/unicode"
     },
     {
       "source": "/balance",

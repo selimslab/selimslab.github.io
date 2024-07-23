@@ -185,14 +185,12 @@ class SiteGenerator < Jekyll::Generator
       branch[parent_id] ||= {}
 
       entries = Dir.entries(parent_path)
-      # if entries do not include parent_basename.md, add a new jekyll doc with empty front matter
-      if !entries.include?("#{parent_basename}.md")
-        File.open("#{parent_path}/#{parent_basename}.md", "w") do |f|
-          f.write("---\n---\n")
-        end
-        # add the new doc to site.documents
-        site.reader.read_directories(site.source)
-      end
+      # # if entries do not include parent_basename.md, add a new jekyll doc with empty front matter
+      # if !entries.include?("#{parent_basename}.md")
+      #   File.open("#{parent_path}/#{parent_basename}.md", "w") do |f|
+      #     f.write("---\n---\n")
+      #   end
+      # end
 
       entries.sort.each do |child|
         next if child.start_with?('.', '_')

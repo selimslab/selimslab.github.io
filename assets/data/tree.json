@@ -1124,23 +1124,15 @@
       "/system-design": {
       }
     },
-    "/encoding": {
-      "/encoding": {
-      },
-      "/unicode": {
-      }
-    },
-    "/engineering-management": {
-      "/engineering-management": {
-      }
-    },
     "/nlp": {
+    },
+    "/tech": {
     },
     "/networks": {
     },
     "/machine-learning": {
     },
-    "/tech": {
+    "/unicode": {
     }
   }
 }

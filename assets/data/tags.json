@@ -1024,15 +1024,6 @@
   "/use-an-identity-service": [
     "distributed-systems"
   ],
-  "/encoding": [
-    "tech"
-  ],
-  "/unicode": [
-    "encoding"
-  ],
-  "/engineering-management": [
-    "tech"
-  ],
   "/machine-learning": [
     "tech"
   ],
@@ -1697,6 +1688,9 @@
     "thoughts-on-tech"
   ],
   "/thoughts-on-tech": [
+    "tech"
+  ],
+  "/unicode": [
     "tech"
   ],
   "/accessibility": [
