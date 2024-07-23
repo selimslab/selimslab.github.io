@@ -5,10 +5,6 @@
       "path": "_NOTES/_TODO.md"
     },
     {
-      "basename": "unicode",
-      "path": "_NOTES/tech/unicode.md"
-    },
-    {
       "basename": "tech",
       "path": "_NOTES/tech/tech.md"
     },
@@ -31,10 +27,6 @@
     {
       "basename": "machine-learning",
       "path": "_NOTES/tech/machine-learning.md"
-    },
-    {
-      "basename": "encodings",
-      "path": "_NOTES/tech/encodings.md"
     },
     {
       "basename": "domain-driven-design",

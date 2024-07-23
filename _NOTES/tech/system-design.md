@@ -28,8 +28,3 @@ Redundancy helps to ensure the system keeps up when some of its parts are down
 
 Load balancers and consistent hashing help with distributing load 
 
-
-## See also 
-
-[[do-one-thing-at-a-time-and-do-it-well]]
-
