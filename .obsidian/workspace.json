@@ -94,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_NOTES/tech/programming/programming-languages/go.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_NOTES/tech/programming/programming-languages/go.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_NOTES/tech/programming/programming-languages/go.md"
+                "file": "jekyll.md"
               }
             }
           }
@@ -160,7 +158,9 @@
   },
   "active": "bc86af8c7183ead1",
   "lastOpenFiles": [
+    "_NOTES/tech/programming/tools/jekyll.md",
     "_NOTES/tech/programming/programming-languages/go.md",
+    "jekyll.md",
     "_NOTES/math/normal-distribution.md",
     "assets/static/img/std-sigma-rule.png",
     "assets/static/img/normal.png",
@@ -188,7 +188,6 @@
     "_NOTES/tech/thoughts-on-tech/thoughts-on-swe.md",
     "_NOTES/skills/problem-solving.md",
     "_NOTES/skills/communication/communication.md",
-    "_NOTES/skills/communication/write-better.md",
     "assets/static/img/plain-pooh.jpg",
     "assets/static/img/plain-pooh.jpg.crdownload",
     "assets/static/img/user-testing-diminshing-returns-curve.gif",

@@ -3,7 +3,7 @@ layout: none
 ---
 
 [
-  {% for note in site.documents %}
+  {% for note in site.notes %}
       "{{ note.url }}"{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
