@@ -1,8 +1,96 @@
 {
   "recentFiles": [
     {
+      "basename": "cinema",
+      "path": "_NOTES/arts/cinema.md"
+    },
+    {
+      "basename": "arts",
+      "path": "_NOTES/arts/arts.md"
+    },
+    {
+      "basename": "classics",
+      "path": "_NOTES/arts/literature/classics.md"
+    },
+    {
+      "basename": "ince-memed",
+      "path": "_NOTES/arts/literature/ince-memed.md"
+    },
+    {
+      "basename": "turk-mirasi",
+      "path": "_NOTES/arts/literature/turk-mirasi.md"
+    },
+    {
+      "basename": "turkce",
+      "path": "_NOTES/arts/languages/turkce.md"
+    },
+    {
+      "basename": "modern-greek-alphabet",
+      "path": "_NOTES/arts/languages/modern-greek-alphabet.md"
+    },
+    {
+      "basename": "latin",
+      "path": "_NOTES/arts/languages/latin.md"
+    },
+    {
       "basename": "languages",
       "path": "_NOTES/arts/languages/languages.md"
+    },
+    {
+      "basename": "deutsch",
+      "path": "_NOTES/arts/languages/deutsch.md"
+    },
+    {
+      "basename": "math",
+      "path": "_NOTES/math/math.md"
+    },
+    {
+      "basename": "investing",
+      "path": "_NOTES/skills/business/investing.md"
+    },
+    {
+      "basename": "skills",
+      "path": "_NOTES/skills/skills.md"
+    },
+    {
+      "basename": "economics",
+      "path": "_NOTES/social-sciences/economics.md"
+    },
+    {
+      "basename": "cognitive-biases",
+      "path": "_NOTES/social-sciences/psychology/cognitive-biases/cognitive-biases.md"
+    },
+    {
+      "basename": "overvaluing-short-term",
+      "path": "_NOTES/social-sciences/psychology/cognitive-biases/overvaluing-short-term.md"
+    },
+    {
+      "basename": "bias-for-unhappiness",
+      "path": "_NOTES/social-sciences/psychology/cognitive-biases/bias-for-unhappiness.md"
+    },
+    {
+      "basename": "psychology",
+      "path": "_NOTES/social-sciences/psychology/psychology.md"
+    },
+    {
+      "basename": "outdoors",
+      "path": "_NOTES/skills/outdoors.md"
+    },
+    {
+      "basename": "framing.jpeg",
+      "path": "assets/static/img/framing.jpeg.md"
+    },
+    {
+      "basename": "cooking",
+      "path": "_NOTES/skills/cooking.md"
+    },
+    {
+      "basename": "design",
+      "path": "_NOTES/arts/design/design.md"
+    },
+    {
+      "basename": "problem-solving",
+      "path": "_NOTES/skills/problem-solving.md"
     },
     {
       "basename": "what-drives-us",
@@ -39,10 +127,6 @@
     {
       "basename": "wage-theft",
       "path": "_NOTES/social-sciences/wage-theft.md"
-    },
-    {
-      "basename": "economics",
-      "path": "_NOTES/social-sciences/economics.md"
     },
     {
       "basename": "in-praise-of-idleness",
@@ -115,90 +199,6 @@
     {
       "basename": "sleep",
       "path": "_NOTES/natural-sciences/healthcare/sleep.md"
-    },
-    {
-      "basename": "44-engineering-management-lessons",
-      "path": "_NOTES/tech/thoughts-on-tech/44-engineering-management-lessons.md"
-    },
-    {
-      "basename": "a-free-web-again",
-      "path": "_NOTES/tech/thoughts-on-tech/a-free-web-again.md"
-    },
-    {
-      "basename": "choose-boring-tech",
-      "path": "_NOTES/tech/thoughts-on-tech/choose-boring-tech.md"
-    },
-    {
-      "basename": "hijacked-minds",
-      "path": "_NOTES/tech/thoughts-on-tech/hijacked-minds.md"
-    },
-    {
-      "basename": "minimal-tech",
-      "path": "_NOTES/tech/thoughts-on-tech/minimal-tech.md"
-    },
-    {
-      "basename": "social-media",
-      "path": "_NOTES/tech/thoughts-on-tech/social-media.md"
-    },
-    {
-      "basename": "software-analogies",
-      "path": "_NOTES/tech/thoughts-on-tech/software-analogies.md"
-    },
-    {
-      "basename": "software-quality",
-      "path": "_NOTES/tech/thoughts-on-tech/software-quality.md"
-    },
-    {
-      "basename": "technology-and-time",
-      "path": "_NOTES/tech/thoughts-on-tech/technology-and-time.md"
-    },
-    {
-      "basename": "thoughts-on-swe",
-      "path": "_NOTES/tech/thoughts-on-tech/thoughts-on-swe.md"
-    },
-    {
-      "basename": "thoughts-on-tech",
-      "path": "_NOTES/tech/thoughts-on-tech/thoughts-on-tech.md"
-    },
-    {
-      "basename": "systems",
-      "path": "_NOTES/social-sciences/systems.md"
-    },
-    {
-      "basename": "wasted-talent",
-      "path": "_NOTES/social-sciences/wasted-talent.md"
-    },
-    {
-      "basename": "urban-planning",
-      "path": "_NOTES/social-sciences/urban-planning.md"
-    },
-    {
-      "basename": "interviews",
-      "path": "_NOTES/_misc/interviews.md"
-    },
-    {
-      "basename": "connect",
-      "path": "_NOTES/_misc/connect.md"
-    },
-    {
-      "basename": "tax",
-      "path": "_NOTES/_misc/tax.md"
-    },
-    {
-      "basename": "autofill",
-      "path": "_NOTES/_misc/autofill.md"
-    },
-    {
-      "basename": "solitude",
-      "path": "_NOTES/social-sciences/psychology/solitude.md"
-    },
-    {
-      "basename": "relationships",
-      "path": "_NOTES/social-sciences/psychology/relationships.md"
-    },
-    {
-      "basename": "psychology",
-      "path": "_NOTES/social-sciences/psychology/psychology.md"
     }
   ],
   "omittedPaths": []

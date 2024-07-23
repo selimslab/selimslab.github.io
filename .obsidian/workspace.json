@@ -13,14 +13,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_NOTES/arts/languages/languages.md",
+                "file": "_NOTES/skills/outdoors.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "52dbe621691e8cfb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_NOTES/arts/cinema.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "24375d0ba94181c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_NOTES/social-sciences/psychology/cognitive-biases/overvaluing-short-term.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "84c567d9a38e3a0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_NOTES/social-sciences/psychology/cognitive-biases/bias-for-unhappiness.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_NOTES/arts/languages/languages.md",
+                "file": "_NOTES/arts/cinema.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_NOTES/arts/languages/languages.md",
+                "file": "_NOTES/arts/cinema.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_NOTES/arts/languages/languages.md"
+                "file": "_NOTES/arts/cinema.md"
               }
             }
           }
@@ -158,52 +198,52 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "bc86af8c7183ead1",
+  "active": "52dbe621691e8cfb",
   "lastOpenFiles": [
-    "_site/assets/static/img/word-spectrum.jpg",
-    "_site/assets/static/img/a-billion-heartbeats.jpeg",
-    "assets/static/img/word-spectrum.jpg",
-    "assets/static/img/a-billion-heartbeats.jpeg",
-    "assets/static/img/what-drives-us.jpeg",
-    "_site/assets/static/img/2-factor-auth.jpeg",
+    "_NOTES/arts/arts.md",
+    "_NOTES/arts/literature/classics.md",
+    "_NOTES/arts/literature/ince-memed.md",
+    "_NOTES/arts/literature/turk-mirasi.md",
+    "_NOTES/arts/languages/turkce.md",
+    "_NOTES/arts/languages/modern-greek-alphabet.md",
+    "_NOTES/arts/languages/latin.md",
     "_NOTES/arts/languages/languages.md",
+    "_NOTES/arts/languages/deutsch.md",
+    "_NOTES/math/math.md",
+    "_NOTES/arts/languages/english/english.md",
+    "assets/static/img/word-spectrum.jpg",
+    "_NOTES/skills/business/investing.md",
+    "_NOTES/skills/skills.md",
+    "_NOTES/social-sciences/economics.md",
+    "_NOTES/social-sciences/psychology/cognitive-biases/cognitive-biases.md",
+    "_NOTES/social-sciences/psychology/cognitive-biases/overvaluing-short-term.md",
+    "_NOTES/social-sciences/psychology/cognitive-biases/bias-for-unhappiness.md",
+    "_NOTES/social-sciences/psychology/psychology.md",
+    "_NOTES/skills/outdoors.md",
+    "_NOTES/social-sciences/psychology/behavioral-psychology.md",
+    "assets/static/img/notice-top-of-mind.jpeg",
+    "assets/static/img/the-spotlight-effect.jpeg",
+    "assets/static/img/emotional-hot-potato.jpeg",
+    "assets/static/img/present-bias.jpeg",
+    "assets/static/img/peak-end-rule.jpeg",
+    "assets/static/img/human-pace.jpeg",
+    "_site/assets/static/img/framing.jpeg.md",
+    "assets/static/img/framing.jpeg.md",
+    "assets/static/img/framing.jpeg",
+    "_NOTES/skills/cooking.md",
+    "assets/static/img/freeze-lemons.jpeg",
+    "assets/static/img/serrated-knives.jpeg",
+    "_NOTES/arts/design/design.md",
+    "_NOTES/skills/problem-solving.md",
     "_site/thoughts-on-swe/index.html",
     "_site/thoughts-on-swe",
     "_site/healthcare/index.html",
     "_site/healthcare",
-    "_site/assets/static/sk/word-spectrum.jpg",
-    "_site/assets/static/sk/a-billion-heartbeats.jpeg",
-    "_site/assets/static/sk/2-factor-auth.jpeg",
     "_site/assets/static/sk",
     "_NOTES/tech/digital-security/authentication.md",
-    "assets/static/sk/a-billion-heartbeats.jpeg",
-    "assets/static/img/2-factor-auth.jpeg",
     "assets/static/sk",
     "assets/static/sketch",
     "assets/static/New folder",
-    "_NOTES/social-sciences/history/since-big-bang.md",
-    "_NOTES/_x.md",
-    "_NOTES/_mdsf.md",
-    "README.md",
-    "_NOTES/social-sciences/history/farming-trap.md",
-    "_NOTES/social-sciences/history/history-of-technology.md",
-    "_NOTES/social-sciences/history/history.md",
-    "_NOTES/social-sciences/wage-theft.md",
-    "_NOTES/social-sciences/economics.md",
-    "_NOTES/social-sciences/economics/the-tragedy-of-the-commons.md",
-    "_NOTES/social-sciences/in-praise-of-idleness.md",
-    "_NOTES/social-sciences/economics/four-day-workweek.md",
-    "_NOTES/_FRESH.md",
-    "_NOTES/_TODO.md",
-    "_NOTES/_NOTES.md",
-    "_NOTES/tech/thoughts-on-tech/hacker-laws.md",
-    "_NOTES/tech/programming/the-tao-of-programming.md",
-    "_NOTES/skills/decisions/do-without-doing.md",
-    "_NOTES/skills/decisions/on-decision-making.md",
-    "_NOTES/arts/philosophy/work/work.md",
-    "_NOTES/skills/get-things-done.md",
-    "_NOTES/arts/philosophy/a-good-life.md",
-    "_NOTES/skills/decisions/do-the-right-thing.md",
     "_site/encodings/index.html",
     "_site/encodings",
     "Untitled.canvas"

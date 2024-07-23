@@ -2,4 +2,7 @@
 tags: arts 
 ---
 
-![](/assets/static/img/word-spectrum.jpg)
+
+[Tag: words - Sketchplanations](https://sketchplanations.com/tags/words)
+
+

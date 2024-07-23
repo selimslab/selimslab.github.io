@@ -160,6 +160,24 @@
         }
       }
     },
+    "/literature": {
+      "/cien-anos-de-soledad": {
+      },
+      "/classics": {
+      },
+      "/do-not-lie-to-yourself": {
+      },
+      "/elaborate-vs-clear-speech": {
+      },
+      "/ince-memed": {
+      },
+      "/literature": {
+      },
+      "/the-art-of-war": {
+      },
+      "/turk-mirasi": {
+      }
+    },
     "/siir": {
       "/can-yucel": {
       },
@@ -177,11 +195,15 @@
       }
     },
     "/languages": {
+      "/deutsch": {
+      },
       "/languages": {
       },
       "/latin": {
       },
       "/modern-greek-alphabet": {
+      },
+      "/turkce": {
       },
       "/cestina": {
         "/adjektiva": {
@@ -206,14 +228,6 @@
         },
         "/slovesa": {
         }
-      },
-      "/deutsch": {
-        "/deutsch": {
-        }
-      },
-      "/english": {
-        "/english": {
-        }
       }
     },
     "/design": {
@@ -224,30 +238,6 @@
       "/everyday-objects": {
       },
       "/ship-it": {
-      }
-    },
-    "/literature": {
-      "/literature": {
-      },
-      "/classics": {
-        "/cien-anos-de-soledad": {
-        },
-        "/classics": {
-        },
-        "/do-not-lie-to-yourself": {
-        },
-        "/elaborate-vs-clear-speech": {
-        },
-        "/the-art-of-war": {
-        }
-      },
-      "/turkce": {
-        "/ince-memed": {
-        },
-        "/turk-mirasi": {
-        },
-        "/turkce": {
-        }
       }
     },
     "/cinema": {
@@ -455,8 +445,6 @@
   },
   "/social-sciences": {
     "/psychology": {
-      "/behavioral-psychology": {
-      },
       "/gaslighting": {
       },
       "/habits": {

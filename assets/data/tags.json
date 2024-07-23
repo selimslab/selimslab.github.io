@@ -54,9 +54,6 @@
   "/deutsch": [
     "languages"
   ],
-  "/english": [
-    "languages"
-  ],
   "/languages": [
     "arts"
   ],
@@ -67,32 +64,33 @@
     "languages",
     "lists"
   ],
+  "/turkce": [
+    "languages"
+  ],
   "/cien-anos-de-soledad": [
-    "classics"
+    "literature"
   ],
   "/classics": [
     "lists",
     "literature"
   ],
   "/do-not-lie-to-yourself": [
-    "classics"
+    "literature"
   ],
   "/elaborate-vs-clear-speech": [
-    "classics"
+    "literature"
   ],
-  "/the-art-of-war": [
-    "classics"
+  "/ince-memed": [
+    "literature",
+    "turkce"
   ],
   "/literature": [
     "arts"
   ],
-  "/ince-memed": [
-    "turkce"
+  "/the-art-of-war": [
+    "literature"
   ],
   "/turk-mirasi": [
-    "turkce"
-  ],
-  "/turkce": [
     "literature"
   ],
   "/a-good-life": [
@@ -715,9 +713,6 @@
   ],
   "/who-goes-nazi": [
     "politics"
-  ],
-  "/behavioral-psychology": [
-    "psychology"
   ],
   "/bias-for-unhappiness": [
     "cognitive-biases"

@@ -1,6 +1,8 @@
 ---
 ---
 
+[Tag: design - Sketchplanations](https://sketchplanations.com/tags/design)
+
 - Design is the core and it keeps expressing itself in successive outer layers of the product or service.
 - Good design resembles a likable person: respectful, generous and helpful.
 
@@ -23,4 +25,4 @@
 * Be mindful of emotions, soothe fears, use nostalgia, give hope
 * Design can be evil [[hijacked-minds]]
 
-![](/assets/static/img/complex-before-simple.jpeg)
+

@@ -13,3 +13,7 @@ title: Problem Solving
 9. Ask a lot of questions and refine the definitions
 10. Test hypotheses with systematic [[critical-thinking]]
 11. [[take-a-walk]]
+
+[Tag: problem-solving - Sketchplanations](https://sketchplanations.com/tags/problem-solving)
+
+![](/assets/static/point-positive.jpg)

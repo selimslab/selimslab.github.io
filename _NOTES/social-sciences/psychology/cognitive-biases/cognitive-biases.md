@@ -3,6 +3,8 @@ title: Cognitive Biases
 tags: soc top
 ---
 
+
+
 ## tldr
 
 We know almost nothing yet think we know the best. 
@@ -80,13 +82,9 @@ We tend to do something even when doing nothing is better
 
 We often don't know where to stop
 
----
+## See also
 
-<https://www.clearerthinking.org/tools-and-mini-courses>
-
-<https://sketchplanations.com/tags/cognitive-bias>
-
-[[behavioral-psychology]]
+[Tag: cognitive-bias - Sketchplanations](https://sketchplanations.com/tags/cognitive-bias)
 
 [[bias-for-unhappiness]]
 

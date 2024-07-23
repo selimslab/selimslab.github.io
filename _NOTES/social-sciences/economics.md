@@ -26,3 +26,8 @@ Why don't we do it so? Because everyone else is not doing it
 ## Commons
 
 ![](/assets/static/img/tragedy-of-commons.jpeg)
+
+
+## See also 
+
+[Tag: economics - Sketchplanations](https://sketchplanations.com/tags/economics)
