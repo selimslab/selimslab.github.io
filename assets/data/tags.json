@@ -229,9 +229,6 @@
   "/time": [
     "philosophy"
   ],
-  "/travelling": [
-    "philosophy"
-  ],
   "/truth": [
     "philosophy"
   ],
@@ -436,7 +433,7 @@
   "/normal-distribution": [
     "math"
   ],
-  "/statistics": [
+  "/probability-and-statistics": [
     "math"
   ],
   "/akins-laws-of-spacecraft": [
@@ -496,12 +493,6 @@
     "natural-sciences"
   ],
   "/the-overview-effect": [
-    "natural-sciences"
-  ],
-  "/the-piston": [
-    "natural-sciences"
-  ],
-  "/the-true-size-of-africa": [
     "natural-sciences"
   ],
   "/business": [
@@ -579,7 +570,8 @@
     "decisions"
   ],
   "/drawing": [
-    "skills"
+    "skills",
+    "top"
   ],
   "/driving": [
     "skills"
@@ -639,6 +631,9 @@
     "skills"
   ],
   "/teaching": [
+    "skills"
+  ],
+  "/travelling": [
     "skills"
   ],
   "/used-car-checklist": [
@@ -804,12 +799,6 @@
     "psychology"
   ],
   "/stress": [
-    "psychology"
-  ],
-  "/the-implicit-association": [
-    "psychology"
-  ],
-  "/thinking-fast-and-slow": [
     "psychology"
   ],
   "/distractions": [
@@ -1622,9 +1611,6 @@
     "thoughts-on-tech"
   ],
   "/software-quality": [
-    "thoughts-on-tech"
-  ],
-  "/technology-and-time": [
     "thoughts-on-tech"
   ],
   "/thoughts-on-swe": [

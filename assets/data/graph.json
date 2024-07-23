@@ -71,7 +71,7 @@
         "/linear-algebra",
         "/logic-proofs",
         "/normal-distribution",
-        "/statistics",
+        "/probability-and-statistics",
         "/local-maximum"
       ]
     },
@@ -94,8 +94,6 @@
         "/philosophical-implications-of-quantum-mechanics",
         "/solar-system",
         "/the-overview-effect",
-        "/the-piston",
-        "/the-true-size-of-africa",
         "/akins-laws-of-spacecraft",
         "/since-big-bang",
         "/systems"
@@ -119,8 +117,8 @@
         "/humor",
         "/leadership",
         "/learning",
+        "/making-videos",
         "/drawing",
-        "/mastery",
         "/motocycles",
         "/mountaineering",
         "/outdoors",
@@ -128,13 +126,14 @@
         "/problem-solving",
         "/submarine-shower",
         "/teaching",
+        "/travelling",
         "/used-car-checklist",
         "/cooking",
-        "/making-videos",
+        "/mastery",
         "/children",
         "/critical-thinking",
-        "/how-to-start",
-        "/a-good-life"
+        "/a-good-life",
+        "/how-to-start"
       ]
     },
     {
@@ -162,13 +161,13 @@
         "/cognitive-biases",
         "/freedom",
         "/happiness",
-        "/hijacked-minds",
         "/how-to-start",
-        "/is-tech-fast-or-slow",
         "/learning",
         "/questioning-people-seen-as-a-threat-to-status-quo",
         "/solitude",
-        "/stupidity"
+        "/stupidity",
+        "/hijacked-minds",
+        "/is-tech-fast-or-slow"
       ]
     },
     {
@@ -178,8 +177,8 @@
       "links": [
         "/root",
         "/digital-security",
-        "/thoughts-on-tech",
         "/databases",
+        "/thoughts-on-tech",
         "/distributed-systems",
         "/programming",
         "/ux",
@@ -195,11 +194,11 @@
         "/system-design",
         "/nlp",
         "/concurrency",
-        "/accessibility",
         "/akins-laws-of-spacecraft",
         "/everyday-objects",
         "/history-of-technology",
-        "/since-big-bang"
+        "/since-big-bang",
+        "/accessibility"
       ]
     },
     {
@@ -230,23 +229,22 @@
         "/stupidity",
         "/success-and-failure",
         "/take-a-walk",
-        "/travelling",
         "/truth",
         "/balance",
         "/choice",
         "/time",
         "/work",
-        "/criminal-justice",
+        "/life-is-soft",
+        "/tao-te-ching",
+        "/going-blind",
+        "/how-to-deal-with-pain",
         "/critical-thinking",
         "/do-the-right-thing",
-        "/going-blind",
         "/how-to-grow-old-russell",
-        "/how-to-deal-with-pain",
         "/in-praise-of-idleness",
-        "/life-is-soft",
+        "/criminal-justice",
         "/look-down-and-around",
-        "/solitude",
-        "/tao-te-ching"
+        "/solitude"
       ]
     },
     {
@@ -372,7 +370,7 @@
       "name": "Datasets",
       "links": [
         "/lists",
-        "/statistics"
+        "/probability-and-statistics"
       ]
     },
     {
@@ -548,9 +546,9 @@
       ]
     },
     {
-      "id": "/statistics",
+      "id": "/probability-and-statistics",
       "group": 2,
-      "name": "Statistics",
+      "name": "Probability And Statistics",
       "links": [
         "/math",
         "/datasets"
@@ -664,22 +662,6 @@
       "id": "/the-overview-effect",
       "group": 2,
       "name": "The Overview Effect",
-      "links": [
-        "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/the-piston",
-      "group": 2,
-      "name": "The Piston",
-      "links": [
-        "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/the-true-size-of-africa",
-      "group": 2,
-      "name": "The True Size Of Africa",
       "links": [
         "/natural-sciences"
       ]
@@ -832,17 +814,17 @@
       ]
     },
     {
-      "id": "/drawing",
+      "id": "/making-videos",
       "group": 2,
-      "name": "Drawing",
+      "name": "Making Videos",
       "links": [
         "/skills"
       ]
     },
     {
-      "id": "/mastery",
+      "id": "/drawing",
       "group": 2,
-      "name": "Mastery",
+      "name": "Drawing",
       "links": [
         "/skills"
       ]
@@ -906,6 +888,15 @@
       ]
     },
     {
+      "id": "/travelling",
+      "group": 2,
+      "name": "Travelling",
+      "links": [
+        "/skills",
+        "/not-far-away"
+      ]
+    },
+    {
       "id": "/used-car-checklist",
       "group": 2,
       "name": "Used Car Checklist",
@@ -923,9 +914,9 @@
       ]
     },
     {
-      "id": "/making-videos",
+      "id": "/mastery",
       "group": 2,
-      "name": "Making Videos",
+      "name": "Mastery",
       "links": [
         "/skills"
       ]
@@ -954,8 +945,6 @@
         "/solitude",
         "/stages-of-grief",
         "/stress",
-        "/the-implicit-association",
-        "/thinking-fast-and-slow",
         "/cognitive-biases",
         "/emotions",
         "/work",
@@ -1132,27 +1121,6 @@
       ]
     },
     {
-      "id": "/thoughts-on-tech",
-      "group": 2,
-      "name": "Thoughts On Tech",
-      "links": [
-        "/tech",
-        "/44-engineering-management-lessons",
-        "/a-free-web-again",
-        "/choose-boring-tech",
-        "/easy-vs-hard-in-cs",
-        "/hacker-laws",
-        "/hijacked-minds",
-        "/is-tech-fast-or-slow",
-        "/minimal-tech",
-        "/social-media",
-        "/software-analogies",
-        "/software-quality",
-        "/technology-and-time",
-        "/thoughts-on-swe"
-      ]
-    },
-    {
       "id": "/databases",
       "group": 2,
       "name": "Databases",
@@ -1170,6 +1138,26 @@
         "/partitioning",
         "/sql-tips",
         "/replication"
+      ]
+    },
+    {
+      "id": "/thoughts-on-tech",
+      "group": 2,
+      "name": "Thoughts On Tech",
+      "links": [
+        "/tech",
+        "/44-engineering-management-lessons",
+        "/a-free-web-again",
+        "/choose-boring-tech",
+        "/easy-vs-hard-in-cs",
+        "/hacker-laws",
+        "/hijacked-minds",
+        "/is-tech-fast-or-slow",
+        "/minimal-tech",
+        "/social-media",
+        "/software-analogies",
+        "/software-quality",
+        "/thoughts-on-swe"
       ]
     },
     {
@@ -1320,13 +1308,13 @@
         "/tech",
         "/do-one-thing-at-a-time-and-do-it-well",
         "/systems",
-        "/accessibility",
         "/akins-laws-of-spacecraft",
-        "/choose-boring-tech",
         "/distributed-systems",
         "/domain-driven-design",
+        "/oop",
+        "/choose-boring-tech",
         "/hacker-laws",
-        "/oop"
+        "/accessibility"
       ]
     },
     {
@@ -1541,14 +1529,6 @@
         "/philosophy",
         "/get-things-done",
         "/problem-solving"
-      ]
-    },
-    {
-      "id": "/travelling",
-      "group": 3,
-      "name": "Travelling",
-      "links": [
-        "/philosophy"
       ]
     },
     {
@@ -1871,8 +1851,8 @@
       "name": "Turkce",
       "links": [
         "/languages",
-        "/ideal-insan",
         "/ince-memed",
+        "/ideal-insan",
         "/siir"
       ]
     },
@@ -2189,22 +2169,6 @@
       ]
     },
     {
-      "id": "/the-implicit-association",
-      "group": 3,
-      "name": "The Implicit Association",
-      "links": [
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/thinking-fast-and-slow",
-      "group": 3,
-      "name": "Thinking Fast And Slow",
-      "links": [
-        "/psychology"
-      ]
-    },
-    {
       "id": "/cognitive-biases",
       "group": 3,
       "name": "Cognitive Biases",
@@ -2458,118 +2422,6 @@
       ]
     },
     {
-      "id": "/44-engineering-management-lessons",
-      "group": 3,
-      "name": "44 Engineering Management Lessons",
-      "links": [
-        "/thoughts-on-tech",
-        "/leadership"
-      ]
-    },
-    {
-      "id": "/a-free-web-again",
-      "group": 3,
-      "name": "A Free Web Again",
-      "links": [
-        "/thoughts-on-tech"
-      ]
-    },
-    {
-      "id": "/choose-boring-tech",
-      "group": 3,
-      "name": "Choose Boring Tech",
-      "links": [
-        "/thoughts-on-tech",
-        "/system-design"
-      ]
-    },
-    {
-      "id": "/easy-vs-hard-in-cs",
-      "group": 3,
-      "name": "The fine line between easy and very hard",
-      "links": [
-        "/thoughts-on-tech"
-      ]
-    },
-    {
-      "id": "/hacker-laws",
-      "group": 3,
-      "name": "Hacker Laws",
-      "links": [
-        "/thoughts-on-tech",
-        "/akins-laws-of-spacecraft",
-        "/system-design"
-      ]
-    },
-    {
-      "id": "/hijacked-minds",
-      "group": 3,
-      "name": "How Technology is Hijacking Your Mind",
-      "links": [
-        "/thoughts-on-tech",
-        "/social-sciences",
-        "/ux"
-      ]
-    },
-    {
-      "id": "/is-tech-fast-or-slow",
-      "group": 3,
-      "name": "Is Tech Fast Or Slow",
-      "links": [
-        "/thoughts-on-tech",
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/minimal-tech",
-      "group": 3,
-      "name": "Minimal Tech",
-      "links": [
-        "/thoughts-on-tech"
-      ]
-    },
-    {
-      "id": "/social-media",
-      "group": 3,
-      "name": "Social Media",
-      "links": [
-        "/thoughts-on-tech"
-      ]
-    },
-    {
-      "id": "/software-analogies",
-      "group": 3,
-      "name": "Software Analogies",
-      "links": [
-        "/thoughts-on-tech"
-      ]
-    },
-    {
-      "id": "/software-quality",
-      "group": 3,
-      "name": "Is High Quality Software Worth the Cost?",
-      "links": [
-        "/thoughts-on-tech"
-      ]
-    },
-    {
-      "id": "/technology-and-time",
-      "group": 3,
-      "name": "Technology And Time",
-      "links": [
-        "/thoughts-on-tech"
-      ]
-    },
-    {
-      "id": "/thoughts-on-swe",
-      "group": 3,
-      "name": "On Software",
-      "links": [
-        "/thoughts-on-tech",
-        "/ship-it"
-      ]
-    },
-    {
       "id": "/atomicity",
       "group": 3,
       "name": "Atomicity",
@@ -2678,6 +2530,110 @@
         "/partitioning",
         "/leaderless-replication",
         "/multi-leader"
+      ]
+    },
+    {
+      "id": "/44-engineering-management-lessons",
+      "group": 3,
+      "name": "44 Engineering Management Lessons",
+      "links": [
+        "/thoughts-on-tech",
+        "/leadership"
+      ]
+    },
+    {
+      "id": "/a-free-web-again",
+      "group": 3,
+      "name": "A Free Web Again",
+      "links": [
+        "/thoughts-on-tech"
+      ]
+    },
+    {
+      "id": "/choose-boring-tech",
+      "group": 3,
+      "name": "Choose Boring Tech",
+      "links": [
+        "/thoughts-on-tech",
+        "/system-design"
+      ]
+    },
+    {
+      "id": "/easy-vs-hard-in-cs",
+      "group": 3,
+      "name": "The fine line between easy and very hard",
+      "links": [
+        "/thoughts-on-tech"
+      ]
+    },
+    {
+      "id": "/hacker-laws",
+      "group": 3,
+      "name": "Hacker Laws",
+      "links": [
+        "/thoughts-on-tech",
+        "/akins-laws-of-spacecraft",
+        "/system-design"
+      ]
+    },
+    {
+      "id": "/hijacked-minds",
+      "group": 3,
+      "name": "How Technology is Hijacking Your Mind",
+      "links": [
+        "/thoughts-on-tech",
+        "/social-sciences",
+        "/ux"
+      ]
+    },
+    {
+      "id": "/is-tech-fast-or-slow",
+      "group": 3,
+      "name": "Is Tech Fast Or Slow",
+      "links": [
+        "/thoughts-on-tech",
+        "/social-sciences"
+      ]
+    },
+    {
+      "id": "/minimal-tech",
+      "group": 3,
+      "name": "Minimal Tech",
+      "links": [
+        "/thoughts-on-tech"
+      ]
+    },
+    {
+      "id": "/social-media",
+      "group": 3,
+      "name": "Social Media",
+      "links": [
+        "/thoughts-on-tech"
+      ]
+    },
+    {
+      "id": "/software-analogies",
+      "group": 3,
+      "name": "Software Analogies",
+      "links": [
+        "/thoughts-on-tech"
+      ]
+    },
+    {
+      "id": "/software-quality",
+      "group": 3,
+      "name": "Is High Quality Software Worth the Cost?",
+      "links": [
+        "/thoughts-on-tech"
+      ]
+    },
+    {
+      "id": "/thoughts-on-swe",
+      "group": 3,
+      "name": "On Software",
+      "links": [
+        "/thoughts-on-tech",
+        "/ship-it"
       ]
     },
     {
@@ -2822,8 +2778,8 @@
         "/sort",
         "/vector-search",
         "/bayes",
-        "/data-structures",
-        "/lsm-trees"
+        "/lsm-trees",
+        "/data-structures"
       ]
     },
     {
@@ -3335,7 +3291,8 @@
       "group": 4,
       "name": "Not Far Away",
       "links": [
-        "/tao-te-ching"
+        "/tao-te-ching",
+        "/travelling"
       ]
     },
     {
@@ -3704,11 +3661,11 @@
         "/house-robber",
         "/invert-binary-tree",
         "/is-mirror-tree",
+        "/lengthOfLIS",
         "/level-order",
         "/longest-common-subsequence",
         "/longest-diverse-str",
         "/longest-valid-paranthesis",
-        "/lengthOfLIS",
         "/min-edit-distance"
       ]
     },
@@ -3944,9 +3901,9 @@
         "/coin-change",
         "/edit-distance",
         "/house-robber",
+        "/lengthOfLIS",
         "/longest-common-subsequence",
         "/longest-diverse-str",
-        "/lengthOfLIS",
         "/lowest-common-ancestor",
         "/maximal-square",
         "/min-edit-distance",
@@ -5066,7 +5023,7 @@
     },
     {
       "source": "/math",
-      "target": "/statistics"
+      "target": "/probability-and-statistics"
     },
     {
       "source": "/natural-sciences",
@@ -5122,14 +5079,6 @@
     },
     {
       "source": "/natural-sciences",
-      "target": "/the-piston"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/the-true-size-of-africa"
-    },
-    {
-      "source": "/natural-sciences",
       "target": "/akins-laws-of-spacecraft"
     },
     {
@@ -5182,11 +5131,11 @@
     },
     {
       "source": "/skills",
-      "target": "/drawing"
+      "target": "/making-videos"
     },
     {
       "source": "/skills",
-      "target": "/mastery"
+      "target": "/drawing"
     },
     {
       "source": "/skills",
@@ -5218,6 +5167,10 @@
     },
     {
       "source": "/skills",
+      "target": "/travelling"
+    },
+    {
+      "source": "/skills",
       "target": "/used-car-checklist"
     },
     {
@@ -5226,7 +5179,7 @@
     },
     {
       "source": "/skills",
-      "target": "/making-videos"
+      "target": "/mastery"
     },
     {
       "source": "/skills",
@@ -5302,11 +5255,11 @@
     },
     {
       "source": "/tech",
-      "target": "/thoughts-on-tech"
+      "target": "/databases"
     },
     {
       "source": "/tech",
-      "target": "/databases"
+      "target": "/thoughts-on-tech"
     },
     {
       "source": "/tech",
@@ -5455,10 +5408,6 @@
     {
       "source": "/philosophy",
       "target": "/take-a-walk"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/travelling"
     },
     {
       "source": "/philosophy",
@@ -5730,14 +5679,6 @@
     },
     {
       "source": "/psychology",
-      "target": "/the-implicit-association"
-    },
-    {
-      "source": "/psychology",
-      "target": "/thinking-fast-and-slow"
-    },
-    {
-      "source": "/psychology",
       "target": "/cognitive-biases"
     },
     {
@@ -5853,58 +5794,6 @@
       "target": "/xss"
     },
     {
-      "source": "/thoughts-on-tech",
-      "target": "/44-engineering-management-lessons"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/a-free-web-again"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/choose-boring-tech"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/easy-vs-hard-in-cs"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/hacker-laws"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/hijacked-minds"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/is-tech-fast-or-slow"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/minimal-tech"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/social-media"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/software-analogies"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/software-quality"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/technology-and-time"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/thoughts-on-swe"
-    },
-    {
       "source": "/databases",
       "target": "/atomicity"
     },
@@ -5951,6 +5840,54 @@
     {
       "source": "/databases",
       "target": "/replication"
+    },
+    {
+      "source": "/thoughts-on-tech",
+      "target": "/44-engineering-management-lessons"
+    },
+    {
+      "source": "/thoughts-on-tech",
+      "target": "/a-free-web-again"
+    },
+    {
+      "source": "/thoughts-on-tech",
+      "target": "/choose-boring-tech"
+    },
+    {
+      "source": "/thoughts-on-tech",
+      "target": "/easy-vs-hard-in-cs"
+    },
+    {
+      "source": "/thoughts-on-tech",
+      "target": "/hacker-laws"
+    },
+    {
+      "source": "/thoughts-on-tech",
+      "target": "/hijacked-minds"
+    },
+    {
+      "source": "/thoughts-on-tech",
+      "target": "/is-tech-fast-or-slow"
+    },
+    {
+      "source": "/thoughts-on-tech",
+      "target": "/minimal-tech"
+    },
+    {
+      "source": "/thoughts-on-tech",
+      "target": "/social-media"
+    },
+    {
+      "source": "/thoughts-on-tech",
+      "target": "/software-analogies"
+    },
+    {
+      "source": "/thoughts-on-tech",
+      "target": "/software-quality"
+    },
+    {
+      "source": "/thoughts-on-tech",
+      "target": "/thoughts-on-swe"
     },
     {
       "source": "/distributed-systems",
@@ -6930,11 +6867,11 @@
     },
     {
       "source": "/turkce",
-      "target": "/ideal-insan"
+      "target": "/ince-memed"
     },
     {
       "source": "/turkce",
-      "target": "/ince-memed"
+      "target": "/ideal-insan"
     },
     {
       "source": "/turkce",
@@ -7014,7 +6951,19 @@
     },
     {
       "source": "/philosophy",
-      "target": "/criminal-justice"
+      "target": "/life-is-soft"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/tao-te-ching"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/going-blind"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/how-to-deal-with-pain"
     },
     {
       "source": "/philosophy",
@@ -7026,15 +6975,7 @@
     },
     {
       "source": "/philosophy",
-      "target": "/going-blind"
-    },
-    {
-      "source": "/philosophy",
       "target": "/how-to-grow-old-russell"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/how-to-deal-with-pain"
     },
     {
       "source": "/philosophy",
@@ -7042,7 +6983,7 @@
     },
     {
       "source": "/philosophy",
-      "target": "/life-is-soft"
+      "target": "/criminal-justice"
     },
     {
       "source": "/philosophy",
@@ -7051,10 +6992,6 @@
     {
       "source": "/philosophy",
       "target": "/solitude"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/tao-te-ching"
     },
     {
       "source": "/questions",
@@ -7117,8 +7054,12 @@
       "target": "/critical-thinking"
     },
     {
+      "source": "/not-far-away",
+      "target": "/travelling"
+    },
+    {
       "source": "/datasets",
-      "target": "/statistics"
+      "target": "/probability-and-statistics"
     },
     {
       "source": "/lists",
@@ -7230,11 +7171,11 @@
     },
     {
       "source": "/skills",
-      "target": "/how-to-start"
+      "target": "/a-good-life"
     },
     {
       "source": "/skills",
-      "target": "/a-good-life"
+      "target": "/how-to-start"
     },
     {
       "source": "/economics",
@@ -7282,15 +7223,7 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/hijacked-minds"
-    },
-    {
-      "source": "/social-sciences",
       "target": "/how-to-start"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/is-tech-fast-or-slow"
     },
     {
       "source": "/social-sciences",
@@ -7307,6 +7240,14 @@
     {
       "source": "/social-sciences",
       "target": "/stupidity"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/hijacked-minds"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/is-tech-fast-or-slow"
     },
     {
       "source": "/systems",
@@ -7438,6 +7379,10 @@
     },
     {
       "source": "/algo-mid",
+      "target": "/lengthOfLIS"
+    },
+    {
+      "source": "/algo-mid",
       "target": "/level-order"
     },
     {
@@ -7454,10 +7399,6 @@
     },
     {
       "source": "/algo-mid",
-      "target": "/lengthOfLIS"
-    },
-    {
-      "source": "/algo-mid",
       "target": "/min-edit-distance"
     },
     {
@@ -7466,11 +7407,11 @@
     },
     {
       "source": "/algorithms",
-      "target": "/data-structures"
+      "target": "/lsm-trees"
     },
     {
       "source": "/algorithms",
-      "target": "/lsm-trees"
+      "target": "/data-structures"
     },
     {
       "source": "/dynamic",
@@ -7490,15 +7431,15 @@
     },
     {
       "source": "/dynamic",
+      "target": "/lengthOfLIS"
+    },
+    {
+      "source": "/dynamic",
       "target": "/longest-common-subsequence"
     },
     {
       "source": "/dynamic",
       "target": "/longest-diverse-str"
-    },
-    {
-      "source": "/dynamic",
-      "target": "/lengthOfLIS"
     },
     {
       "source": "/dynamic",
@@ -7754,15 +7695,7 @@
     },
     {
       "source": "/system-design",
-      "target": "/accessibility"
-    },
-    {
-      "source": "/system-design",
       "target": "/akins-laws-of-spacecraft"
-    },
-    {
-      "source": "/system-design",
-      "target": "/choose-boring-tech"
     },
     {
       "source": "/system-design",
@@ -7774,14 +7707,18 @@
     },
     {
       "source": "/system-design",
+      "target": "/oop"
+    },
+    {
+      "source": "/system-design",
+      "target": "/choose-boring-tech"
+    },
+    {
+      "source": "/system-design",
       "target": "/hacker-laws"
     },
     {
       "source": "/system-design",
-      "target": "/oop"
-    },
-    {
-      "source": "/tech",
       "target": "/accessibility"
     },
     {
@@ -7799,6 +7736,10 @@
     {
       "source": "/tech",
       "target": "/since-big-bang"
+    },
+    {
+      "source": "/tech",
+      "target": "/accessibility"
     },
     {
       "source": "/ux",

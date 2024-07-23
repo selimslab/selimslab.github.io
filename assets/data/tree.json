@@ -47,8 +47,6 @@
       },
       "/take-a-walk": {
       },
-      "/travelling": {
-      },
       "/truth": {
       },
       "/balance": {
@@ -302,7 +300,7 @@
     },
     "/normal-distribution": {
     },
-    "/statistics": {
+    "/probability-and-statistics": {
     }
   },
   "/natural-sciences": {
@@ -341,10 +339,6 @@
     "/solar-system": {
     },
     "/the-overview-effect": {
-    },
-    "/the-piston": {
-    },
-    "/the-true-size-of-africa": {
     },
     "/akins-laws-of-spacecraft": {
     }
@@ -416,9 +410,9 @@
     },
     "/learning": {
     },
-    "/drawing": {
+    "/making-videos": {
     },
-    "/mastery": {
+    "/drawing": {
     },
     "/motocycles": {
     },
@@ -436,11 +430,13 @@
     },
     "/teaching": {
     },
+    "/travelling": {
+    },
     "/used-car-checklist": {
     },
     "/cooking": {
     },
-    "/making-videos": {
+    "/mastery": {
     },
     "/children": {
     }
@@ -466,10 +462,6 @@
       "/stages-of-grief": {
       },
       "/stress": {
-      },
-      "/the-implicit-association": {
-      },
-      "/thinking-fast-and-slow": {
       },
       "/cognitive-biases": {
         "/bias-for-unhappiness": {
@@ -620,36 +612,6 @@
       "/xss": {
       }
     },
-    "/thoughts-on-tech": {
-      "/44-engineering-management-lessons": {
-      },
-      "/a-free-web-again": {
-      },
-      "/choose-boring-tech": {
-      },
-      "/easy-vs-hard-in-cs": {
-      },
-      "/hacker-laws": {
-      },
-      "/hijacked-minds": {
-      },
-      "/is-tech-fast-or-slow": {
-      },
-      "/minimal-tech": {
-      },
-      "/social-media": {
-      },
-      "/software-analogies": {
-      },
-      "/software-quality": {
-      },
-      "/technology-and-time": {
-      },
-      "/thoughts-on-swe": {
-      },
-      "/thoughts-on-tech": {
-      }
-    },
     "/databases": {
       "/atomicity": {
       },
@@ -684,6 +646,34 @@
         },
         "/single-leader": {
         }
+      }
+    },
+    "/thoughts-on-tech": {
+      "/44-engineering-management-lessons": {
+      },
+      "/a-free-web-again": {
+      },
+      "/choose-boring-tech": {
+      },
+      "/easy-vs-hard-in-cs": {
+      },
+      "/hacker-laws": {
+      },
+      "/hijacked-minds": {
+      },
+      "/is-tech-fast-or-slow": {
+      },
+      "/minimal-tech": {
+      },
+      "/social-media": {
+      },
+      "/software-analogies": {
+      },
+      "/software-quality": {
+      },
+      "/thoughts-on-swe": {
+      },
+      "/thoughts-on-tech": {
       }
     },
     "/distributed-systems": {
