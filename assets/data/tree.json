@@ -5,11 +5,15 @@
       },
       "/all-is-one": {
       },
+      "/balance": {
+      },
       "/be-good-to-each-other-and-yourself": {
       },
       "/books-phil": {
       },
       "/character": {
+      },
+      "/choice": {
       },
       "/concepts-in-greek-thought": {
       },
@@ -17,13 +21,21 @@
       },
       "/epicurus": {
       },
+      "/experiences-vs-materials": {
+      },
+      "/free-will": {
+      },
       "/freedom": {
       },
       "/friends": {
       },
+      "/good-and-evil": {
+      },
       "/happiness": {
       },
       "/ideal-insan": {
+      },
+      "/know-where-to-stop": {
       },
       "/koans": {
       },
@@ -33,13 +45,13 @@
       },
       "/love": {
       },
+      "/moderation": {
+      },
       "/one-bit-better": {
       },
       "/philosophy": {
       },
       "/questions": {
-      },
-      "/search-for-meaning": {
       },
       "/stupidity": {
       },
@@ -47,35 +59,9 @@
       },
       "/take-a-walk": {
       },
+      "/the-less-the-better": {
+      },
       "/truth": {
-      },
-      "/balance": {
-        "/balance": {
-        },
-        "/know-where-to-stop": {
-        },
-        "/moderation": {
-        },
-        "/nature-vs-people": {
-        },
-        "/still-vs-running-water": {
-        },
-        "/the-less-the-better": {
-        }
-      },
-      "/choice": {
-        "/choice": {
-        },
-        "/experiences-vs-materials": {
-        },
-        "/free-will": {
-        },
-        "/good-and-evil": {
-        },
-        "/pleasure-vs-possibility": {
-        },
-        "/you-can-always-choose-your-way": {
-        }
       },
       "/time": {
         "/death": {
@@ -95,8 +81,6 @@
       },
       "/work": {
         "/career-advice": {
-        },
-        "/long-days-short-decades": {
         },
         "/teamwork": {
         },
@@ -220,8 +204,6 @@
         },
         "/podobna-slova": {
         },
-        "/podstatna-jmena": {
-        },
         "/predlozky": {
         },
         "/slovesa": {
@@ -254,9 +236,13 @@
     },
     "/documentaries": {
     },
+    "/essais": {
+    },
     "/film-scores": {
     },
     "/games": {
+    },
+    "/history-of-technology": {
     },
     "/ideas": {
     },
@@ -272,27 +258,23 @@
     },
     "/reading-list": {
     },
+    "/since-big-bang": {
+    },
     "/web-experiments": {
     }
   },
   "/math": {
-    "/analytics": {
-    },
     "/bayes": {
     },
     "/counter-intuitive-math": {
     },
     "/discrete-vs-continuous": {
     },
-    "/eigenvectors": {
-    },
     "/equations-that-changed-the-world": {
     },
     "/fourier-transform": {
     },
     "/laplace-transform": {
-    },
-    "/linear-algebra": {
     },
     "/logic-proofs": {
     },
@@ -304,10 +286,10 @@
     }
   },
   "/natural-sciences": {
-    "/healthcare": {
+    "/health": {
       "/going-blind": {
       },
-      "/healthcare": {
+      "/health": {
       },
       "/how-to-deal-with-pain": {
       },
@@ -343,29 +325,325 @@
     "/akins-laws-of-spacecraft": {
     }
   },
+  "/programming": {
+    "/code": {
+      "/array-rotate": {
+      },
+      "/bfs-dfs-topo": {
+      },
+      "/binary-search": {
+      },
+      "/bst": {
+      },
+      "/check-brackets": {
+      },
+      "/climb-stairs": {
+      },
+      "/code": {
+      },
+      "/coin-change": {
+      },
+      "/count-primes": {
+      },
+      "/days-until-warmer-temperature": {
+      },
+      "/decode-string": {
+      },
+      "/dedup-game": {
+      },
+      "/delete-tree-node": {
+      },
+      "/diamater-of-binary-tree": {
+      },
+      "/dijkstra": {
+      },
+      "/dynamic": {
+      },
+      "/edit-distance": {
+      },
+      "/generate-n-grams": {
+      },
+      "/generate-pascals-triangle": {
+      },
+      "/group-anagrams": {
+      },
+      "/house-robber": {
+      },
+      "/invert-binary-tree": {
+      },
+      "/is-mirror-tree": {
+      },
+      "/least-num-of-perfect-squares": {
+      },
+      "/lengthOfLIS": {
+      },
+      "/level-order": {
+      },
+      "/longest-common-prefix": {
+      },
+      "/longest-common-subsequence": {
+      },
+      "/longest-consecutive": {
+      },
+      "/longest-diverse-str": {
+      },
+      "/longest-valid-paranthesis": {
+      },
+      "/lowest-common-ancestor": {
+      },
+      "/max-path-sum": {
+      },
+      "/max-tree-depth": {
+      },
+      "/max-water": {
+      },
+      "/maximal-square": {
+      },
+      "/min-covering-window": {
+      },
+      "/min-edit-distance": {
+      },
+      "/min-path-sum": {
+      },
+      "/min-steps-notepad": {
+      },
+      "/partition-labels": {
+      },
+      "/pivot-index": {
+      },
+      "/plus-one": {
+      },
+      "/possible-morse": {
+      },
+      "/post-order-go": {
+      },
+      "/producer-consumer-problem": {
+      },
+      "/repeatedStringMatch": {
+      },
+      "/reverse-letters-only": {
+      },
+      "/sliding-window-max": {
+      },
+      "/stocks-with-cooldown": {
+      },
+      "/string-compression": {
+      },
+      "/three-sum-closest": {
+      },
+      "/threeSum": {
+      },
+      "/tree-codec-py": {
+      },
+      "/tree-traversals": {
+      },
+      "/trie-py": {
+      },
+      "/unique-bst": {
+      },
+      "/ways-to-target-sum": {
+      },
+      "/word-break": {
+      }
+    },
+    "/programming-languages": {
+      "/c": {
+      },
+      "/clojure": {
+      },
+      "/cpp": {
+      },
+      "/csharp": {
+      },
+      "/elixir": {
+      },
+      "/erlang": {
+      },
+      "/functional-programming": {
+      },
+      "/go": {
+      },
+      "/haskell": {
+      },
+      "/java": {
+      },
+      "/lisp": {
+      },
+      "/programming-languages": {
+      },
+      "/rust": {
+      },
+      "/scala": {
+      },
+      "/typing": {
+      },
+      "/python": {
+        "/python-data-structures": {
+        },
+        "/python-packages": {
+        },
+        "/python": {
+        },
+        "/zen-of-python": {
+        }
+      }
+    },
+    "/projects": {
+      "/a-star-robot": {
+      },
+      "/async-crawler": {
+      },
+      "/c-hashmap": {
+      },
+      "/compiler": {
+      },
+      "/garbage-collector-in-c": {
+      },
+      "/links-for-makers": {
+      },
+      "/logos-os": {
+      },
+      "/mini-search-engine": {
+      },
+      "/mini-web-server": {
+      },
+      "/pascal-interpreter": {
+      },
+      "/pca": {
+      },
+      "/pneumonia-detection": {
+      },
+      "/predict-movie-genres": {
+      },
+      "/projects": {
+      },
+      "/vga-driver": {
+      }
+    },
+    "/algorithms": {
+      "/algorithms": {
+      },
+      "/approximation": {
+      },
+      "/backtrack": {
+      },
+      "/bit": {
+      },
+      "/easy": {
+      },
+      "/greedy": {
+      },
+      "/hard": {
+      },
+      "/leet": {
+      },
+      "/local-maximum": {
+      },
+      "/mid": {
+      },
+      "/parallel-programming": {
+      },
+      "/rabin-karp": {
+      },
+      "/sort": {
+      },
+      "/vector-search": {
+      }
+    },
+    "/data-structures": {
+      "/array": {
+      },
+      "/data-structures": {
+      },
+      "/graph": {
+      },
+      "/hash-table": {
+      },
+      "/heap": {
+      },
+      "/hyperloglog": {
+      },
+      "/linked-list": {
+      },
+      "/pointers": {
+      },
+      "/queue": {
+      },
+      "/stack": {
+      },
+      "/string": {
+      }
+    },
+    "/oop": {
+      "/design-patterns": {
+      },
+      "/oop": {
+      },
+      "/solid": {
+      },
+      "/oop-designs": {
+        "/block": {
+        },
+        "/design-a-bicycle": {
+        },
+        "/design-a-book-app": {
+        },
+        "/design-a-crm": {
+        },
+        "/design-a-data-pipeline": {
+        },
+        "/design-a-gov-cloud": {
+        },
+        "/design-a-personal-note-publishing-system": {
+        },
+        "/design-a-trader": {
+        },
+        "/design-a-web-crawler": {
+        },
+        "/design-auth": {
+        },
+        "/design-oauth": {
+        },
+        "/design-units": {
+        },
+        "/design-video-streaming-app": {
+        },
+        "/oop-designs": {
+        }
+      }
+    },
+    "/programming": {
+    },
+    "/unicode": {
+    },
+    "/for-new-programmers": {
+    },
+    "/discussion-topics": {
+    },
+    "/easy-vs-hard-in-cs": {
+    },
+    "/the-tao-of-programming": {
+    },
+    "/encodings": {
+    },
+    "/tools": {
+    },
+    "/compsci": {
+    }
+  },
   "/skills": {
     "/business": {
       "/business": {
       },
       "/company-culture": {
       },
-      "/fire-and-motion": {
-      },
-      "/growing-fast-and-slow": {
-      },
       "/hiring": {
       },
-      "/how-to-gain-wealth": {
-      },
       "/how-to-start-a-business": {
-      },
-      "/investing": {
       },
       "/marketing": {
       },
       "/sales": {
-      },
-      "/trading": {
       }
     },
     "/decisions": {
@@ -402,17 +680,21 @@
     },
     "/growing-plants": {
     },
+    "/how-to-gain-wealth": {
+    },
     "/how-to-grow-old-russell": {
     },
     "/humor": {
+    },
+    "/investing": {
     },
     "/leadership": {
     },
     "/learning": {
     },
-    "/making-videos": {
-    },
     "/drawing": {
+    },
+    "/mastery": {
     },
     "/motocycles": {
     },
@@ -430,13 +712,15 @@
     },
     "/teaching": {
     },
+    "/trading": {
+    },
     "/travelling": {
     },
     "/used-car-checklist": {
     },
     "/cooking": {
     },
-    "/mastery": {
+    "/making-videos": {
     },
     "/children": {
     }
@@ -521,6 +805,10 @@
     "/politics": {
       "/criminal-justice": {
       },
+      "/farming-trap": {
+      },
+      "/history": {
+      },
       "/look-down-and-around": {
       },
       "/nothing-to-lose": {
@@ -540,15 +828,7 @@
       "/who-goes-nazi": {
       }
     },
-    "/history": {
-      "/farming-trap": {
-      },
-      "/history-of-technology": {
-      },
-      "/history": {
-      },
-      "/since-big-bang": {
-      }
+    "/chaos": {
     },
     "/economics": {
     },
@@ -556,15 +836,15 @@
     },
     "/metaphors": {
     },
-    "/social-change": {
-    },
-    "/social-class": {
+    "/outgroup": {
     },
     "/books-social": {
     },
-    "/systems": {
+    "/social-class": {
     },
-    "/tolerate-anything-except-outgroup": {
+    "/social-sciences": {
+    },
+    "/systems": {
     },
     "/urban-planning": {
     },
@@ -572,17 +852,13 @@
     },
     "/wasted-talent": {
     },
-    "/chaos": {
-    },
-    "/social-sciences": {
+    "/social-change": {
     },
     "/being-poor": {
     }
   },
   "/tech": {
-    "/digital-security": {
-      "/aes": {
-      },
+    "/security": {
       "/authentication": {
       },
       "/authorization": {
@@ -595,85 +871,19 @@
       },
       "/csrf": {
       },
-      "/digital-security": {
-      },
       "/openssl-encrypt": {
       },
       "/public-key-cryptography": {
       },
       "/security-heuristics": {
       },
-      "/sql-injection": {
+      "/security": {
       },
       "/store-passwords": {
       },
       "/transport-layer-security": {
       },
       "/xss": {
-      }
-    },
-    "/databases": {
-      "/atomicity": {
-      },
-      "/b-trees": {
-      },
-      "/databases": {
-      },
-      "/db-consistency": {
-      },
-      "/db-data-structures": {
-      },
-      "/durability": {
-      },
-      "/isolation": {
-      },
-      "/lsm-trees": {
-      },
-      "/normalization": {
-      },
-      "/orm-vs-sql": {
-      },
-      "/partitioning": {
-      },
-      "/sql-tips": {
-      },
-      "/replication": {
-        "/leaderless-replication": {
-        },
-        "/multi-leader": {
-        },
-        "/replication": {
-        },
-        "/single-leader": {
-        }
-      }
-    },
-    "/thoughts-on-tech": {
-      "/44-engineering-management-lessons": {
-      },
-      "/a-free-web-again": {
-      },
-      "/choose-boring-tech": {
-      },
-      "/easy-vs-hard-in-cs": {
-      },
-      "/hacker-laws": {
-      },
-      "/hijacked-minds": {
-      },
-      "/is-tech-fast-or-slow": {
-      },
-      "/minimal-tech": {
-      },
-      "/social-media": {
-      },
-      "/software-analogies": {
-      },
-      "/software-quality": {
-      },
-      "/thoughts-on-swe": {
-      },
-      "/thoughts-on-tech": {
       }
     },
     "/distributed-systems": {
@@ -702,308 +912,52 @@
       "/use-an-identity-service": {
       }
     },
-    "/programming": {
-      "/compsci": {
+    "/thoughts-on-tech": {
+      "/44-engineering-management-lessons": {
       },
-      "/for-new-programmers": {
+      "/a-free-web-again": {
       },
-      "/functional-programming": {
+      "/choose-boring-tech": {
       },
-      "/programming": {
+      "/hacker-laws": {
       },
-      "/the-tao-of-programming": {
+      "/hijacked-minds": {
       },
-      "/algorithms": {
-        "/algo-easy": {
-        },
-        "/algo-hard": {
-        },
-        "/algo-mid": {
-        },
-        "/algorithms": {
-        },
-        "/approximation": {
-        },
-        "/backtrack": {
-        },
-        "/bit": {
-        },
-        "/greedy": {
-        },
-        "/leet": {
-        },
-        "/local-maximum": {
-        },
-        "/parallel-programming": {
-        },
-        "/rabin-karp": {
-        },
-        "/sort": {
-        },
-        "/vector-search": {
-        }
+      "/is-tech-fast-or-slow": {
       },
-      "/code": {
-        "/array-rotate": {
-        },
-        "/bfs-dfs-topo": {
-        },
-        "/binary-search": {
-        },
-        "/bst": {
-        },
-        "/check-brackets": {
-        },
-        "/climb-stairs": {
-        },
-        "/code": {
-        },
-        "/coin-change": {
-        },
-        "/count-primes": {
-        },
-        "/days-until-warmer-temperature": {
-        },
-        "/decode-string": {
-        },
-        "/dedup-game": {
-        },
-        "/delete-tree-node": {
-        },
-        "/diamater-of-binary-tree": {
-        },
-        "/dijkstra": {
-        },
-        "/dynamic": {
-        },
-        "/edit-distance": {
-        },
-        "/generate-n-grams": {
-        },
-        "/generate-pascals-triangle": {
-        },
-        "/group-anagrams": {
-        },
-        "/house-robber": {
-        },
-        "/invert-binary-tree": {
-        },
-        "/is-mirror-tree": {
-        },
-        "/least-num-of-perfect-squares": {
-        },
-        "/lengthOfLIS": {
-        },
-        "/level-order": {
-        },
-        "/longest-common-prefix": {
-        },
-        "/longest-common-subsequence": {
-        },
-        "/longest-consecutive": {
-        },
-        "/longest-diverse-str": {
-        },
-        "/longest-valid-paranthesis": {
-        },
-        "/lowest-common-ancestor": {
-        },
-        "/max-path-sum": {
-        },
-        "/max-tree-depth": {
-        },
-        "/max-water": {
-        },
-        "/maximal-square": {
-        },
-        "/min-covering-window": {
-        },
-        "/min-edit-distance": {
-        },
-        "/min-path-sum": {
-        },
-        "/min-steps-notepad": {
-        },
-        "/partition-labels": {
-        },
-        "/pivot-index": {
-        },
-        "/plus-one": {
-        },
-        "/possible-morse": {
-        },
-        "/post-order-go": {
-        },
-        "/producer-consumer-problem": {
-        },
-        "/repeatedStringMatch": {
-        },
-        "/reverse-letters-only": {
-        },
-        "/sliding-window-max": {
-        },
-        "/stocks-with-cooldown": {
-        },
-        "/string-compression": {
-        },
-        "/three-sum-closest": {
-        },
-        "/threeSum": {
-        },
-        "/tree-codec-py": {
-        },
-        "/tree-traversals": {
-        },
-        "/trie-py": {
-        },
-        "/unique-bst": {
-        },
-        "/ways-to-target-sum": {
-        },
-        "/word-break": {
-        }
+      "/minimal-tech": {
       },
-      "/data-structures": {
-        "/array": {
-        },
-        "/data-structures": {
-        },
-        "/graph": {
-        },
-        "/hash-table": {
-        },
-        "/heap": {
-        },
-        "/hyperloglog": {
-        },
-        "/linked-list": {
-        },
-        "/pointers": {
-        },
-        "/queue": {
-        },
-        "/stack": {
-        },
-        "/string": {
-        }
+      "/social-media": {
       },
-      "/oop": {
-        "/design-patterns": {
-        },
-        "/oop": {
-        },
-        "/solid": {
-        },
-        "/oop-designs": {
-          "/block": {
-          },
-          "/design-a-bicycle": {
-          },
-          "/design-a-book-app": {
-          },
-          "/design-a-crm": {
-          },
-          "/design-a-data-pipeline": {
-          },
-          "/design-a-gov-cloud": {
-          },
-          "/design-a-personal-note-publishing-system": {
-          },
-          "/design-a-trader": {
-          },
-          "/design-a-web-crawler": {
-          },
-          "/design-auth": {
-          },
-          "/design-oauth": {
-          },
-          "/design-units": {
-          },
-          "/design-video-streaming-app": {
-          },
-          "/oop-designs": {
-          }
-        }
+      "/software-analogies": {
       },
-      "/programming-languages": {
-        "/c": {
-        },
-        "/clojure": {
-        },
-        "/cpp": {
-        },
-        "/csharp": {
-        },
-        "/elixir": {
-        },
-        "/erlang": {
-        },
-        "/go": {
-        },
-        "/haskell": {
-        },
-        "/java": {
-        },
-        "/lisp": {
-        },
-        "/programming-languages": {
-        },
-        "/rust": {
-        },
-        "/scala": {
-        },
-        "/typing": {
-        },
-        "/python": {
-          "/python-data-structures": {
-          },
-          "/python-packages": {
-          },
-          "/python": {
-          },
-          "/zen-of-python": {
-          }
-        }
+      "/software-quality": {
       },
-      "/projects": {
-        "/a-star-robot": {
-        },
-        "/async-crawler": {
-        },
-        "/c-hashmap": {
-        },
-        "/compiler": {
-        },
-        "/garbage-collector-in-c": {
-        },
-        "/links-for-makers": {
-        },
-        "/logos-os": {
-        },
-        "/mini-search-engine": {
-        },
-        "/mini-web-server": {
-        },
-        "/pascal-interpreter": {
-        },
-        "/pca": {
-        },
-        "/predict-movie-genres": {
-        },
-        "/projects": {
-        },
-        "/vga-driver": {
-        }
+      "/thoughts-on-swe": {
       },
-      "/tools": {
-        "/keyboard-shortcuts": {
-        },
-        "/programming-tools": {
-        },
-        "/tools": {
-        },
-        "/vscode-settings": {
-        }
+      "/thoughts-on-tech": {
+      }
+    },
+    "/databases": {
+      "/acid": {
+      },
+      "/b-trees": {
+      },
+      "/databases": {
+      },
+      "/db-data-structures": {
+      },
+      "/leaderless-replication": {
+      },
+      "/lsm-trees": {
+      },
+      "/partitioning": {
+      },
+      "/replication": {
+      },
+      "/single-leader": {
+      },
+      "/sql-tips": {
       }
     },
     "/ux": {
@@ -1022,18 +976,6 @@
       "/ux": {
       }
     },
-    "/software-engineering": {
-      "/code-review": {
-      },
-      "/core-concepts": {
-      },
-      "/discussion-topics": {
-      },
-      "/software-engineering": {
-      },
-      "/the-joel-test": {
-      }
-    },
     "/prompt-engineering": {
       "/base-prompt": {
       },
@@ -1048,25 +990,29 @@
     },
     "/networks": {
     },
-    "/unicode": {
+    "/nlp": {
     },
     "/operating-systems": {
     },
-    "/encodings": {
-    },
     "/domain-driven-design": {
+    },
+    "/system-design": {
+    },
+    "/tech": {
+    },
+    "/the-joel-test": {
+    },
+    "/core-concepts": {
     },
     "/containers": {
     },
     "/machine-learning": {
     },
-    "/system-design": {
-    },
-    "/nlp": {
-    },
-    "/tech": {
-    },
     "/concurrency": {
+    },
+    "/software-engineering": {
+    },
+    "/code-review": {
     }
   }
 }
