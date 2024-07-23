@@ -19,8 +19,6 @@ Churn
 
 Compunding 
 
-[[broken-systems]]
-
 Atomicity
 
 Margin of Safety  

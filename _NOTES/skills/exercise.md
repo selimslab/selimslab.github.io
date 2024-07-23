@@ -18,4 +18,8 @@ Stretch frequently
 
 You don't have the energy for a workout because you don't work out
 
-[[calisthenics]]
+## Calisthenics
+
+Strength training, often performed with minimal equipment, as bodyweight exercises.
+
+You don't need a gym for stretching, push-ups, pull-ups, crunches, lunges, squats, planks, yoga poses 

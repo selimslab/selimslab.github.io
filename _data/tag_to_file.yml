@@ -1,3 +1,4 @@
+ds: data-structures
 algo: algorithms
 easy: algo-easy
 mid: algo-mid
@@ -9,6 +10,7 @@ gr: graph
 ll: linked-list
 ptr: pointers
 q: queue
+os: operating-systems
 phil: philosophy
 psy: psychology
 pols: politics

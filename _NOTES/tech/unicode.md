@@ -1,5 +1,6 @@
 ---
 ---
+
 Unicode is a standard for consistent encoding, representation, and handling of text from various writing systems and languages around the world.
 
 "U+" followed by a series of hexadecimal digits represents a Unicode code point. For example, "U+0041" represents the Unicode code point for the Latin letter 'A'. The "U+" prefix is used to denote that the following digits represent a Unicode code point in hexadecimal notation.

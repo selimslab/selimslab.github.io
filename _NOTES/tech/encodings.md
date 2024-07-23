@@ -1,7 +1,6 @@
 ---
 ---
 
-## Encodings
 
 ### languages specific, eg. python pickle 
    
@@ -24,3 +23,5 @@ clear ways for compatibility
 2. via services, eg. REST, RPC  
 3. via message passing, eg. brokers, actors
    
+
+[[unicode]]

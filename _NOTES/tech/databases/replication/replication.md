@@ -3,6 +3,12 @@
 
 Keeping the same data on multiple nodes 
 
+Why distribute data?
+
+- fault tolerance 
+- lower latency, eg. multiple AZ, closer to users 
+- scale 
+
 A simple concept yet requires a lot of thought to implement well 
 
 ## Sync or Async?
@@ -36,3 +42,7 @@ A simple concept yet requires a lot of thought to implement well
 [[multi-leader]]
 
 [[leaderless-replication]]
+
+## See also 
+
+[[partitioning]]

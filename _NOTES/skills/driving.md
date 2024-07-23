@@ -8,3 +8,9 @@ Be predictable
 Always look where you are going
 
 No phone, no distractions
+
+## Buy 
+
+top quality tyres
+
+dash cam 

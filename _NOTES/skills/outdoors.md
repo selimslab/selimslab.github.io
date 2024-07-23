@@ -2,6 +2,10 @@
 tags: skills sports
 ---
 
+
+![](/assets/static/img/3-day-effect.jpeg)
+
+
 ## elements 
 
 ### wind 

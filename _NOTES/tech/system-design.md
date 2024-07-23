@@ -1,5 +1,5 @@
 ---
-tags: sys 
+tags: systems
 ---
 
 There are many kinds of tech with different tradeoffs but at the high level, many systems are built over the same fundamental ideas. 
@@ -29,4 +29,7 @@ Redundancy helps to ensure the system keeps up when some of its parts are down
 Load balancers and consistent hashing help with distributing load 
 
 
+## See also 
+
+[[do-one-thing-at-a-time-and-do-it-well]]
 

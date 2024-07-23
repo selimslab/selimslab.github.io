@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_NOTES/social-sciences/psychology/behavioral-psychology.md",
+                "file": "_NOTES/social-sciences/psychology/solitude.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_NOTES/social-sciences/psychology/behavioral-psychology.md",
+                "file": "_NOTES/social-sciences/psychology/solitude.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_NOTES/social-sciences/psychology/behavioral-psychology.md",
+                "file": "_NOTES/social-sciences/psychology/solitude.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_NOTES/social-sciences/psychology/behavioral-psychology.md"
+                "file": "_NOTES/social-sciences/psychology/solitude.md"
               }
             }
           }
@@ -160,11 +160,32 @@
   },
   "active": "b80a8a4530bb837f",
   "lastOpenFiles": [
-    "_NOTES/math/bayes.md",
-    "_NOTES/math/normal-distribution.md",
-    "_NOTES/tech/unicode.md",
+    "_NOTES/social-sciences/psychology/social-class.md",
+    "_NOTES/social-sciences/social-class.md",
+    "_NOTES/social-sciences/psychology/solitude.md",
+    "_NOTES/social-sciences/psychology/setting-rules.md",
+    "_NOTES/social-sciences/psychology/relationships.md",
     "_NOTES/social-sciences/psychology/psychology.md",
-    "_NOTES/social-sciences/psychology/emotions/emotions.md",
+    "_NOTES/social-sciences/psychology/procrastination.md",
+    "_NOTES/social-sciences/psychology/praise-and-motivation.md",
+    "_NOTES/skills/leadership.md",
+    "_NOTES/social-sciences/psychology/emotions/loneliness.md",
+    "_NOTES/social-sciences/psychology/persuasion.md",
+    "_NOTES/social-sciences/psychology/overcoming-obstacles.md",
+    "_NOTES/social-sciences/psychology/how-to-start.md",
+    "_NOTES/social-sciences/psychology/how-to-spot-a-liar.md",
+    "_NOTES/social-sciences/psychology/habits.md",
+    "_NOTES/social-sciences/psychology/gaslighting.md",
+    "_NOTES/social-sciences/psychology/behavioral-psychology.md",
+    "_NOTES/social-sciences/psychology/emotions/ego.md",
+    "_NOTES/tech/distributed-systems/google-sre-book.md",
+    "_NOTES/skills/health/going-blind.md",
+    "_NOTES/tech/distributed-systems/azure-pillars.md",
+    "_NOTES/tech/domain-driven-design.md",
+    "_NOTES/tech/software-engineering/azure-pillars.md",
+    "_NOTES/tech/system-design.md",
+    "_NOTES/tech/programming/data-structures/db-data-structures.md",
+    "_NOTES/tech/encodings.md",
     "_site/_NOTES/social-sciences/psychology/emotions/emotions/index.html",
     "_site/_NOTES/social-sciences/psychology/emotions/emotions",
     "_site/_NOTES/social-sciences/psychology/emotions",
@@ -175,27 +196,6 @@
     "_site/tools",
     "_site/programming-languages/index.html",
     "_site/programming-languages",
-    "_NOTES/tech/programming/tools/tools.md",
-    "_NOTES/tech/programming/programming-languages/programming-languages.md",
-    "_NOTES/arts/philosophy/time/time.md",
-    "_NOTES/arts/philosophy/questions/questions.md",
-    "_NOTES/arts/philosophy/balance/balance.md",
-    "_NOTES/tech/engineering-management/engineering-management.md",
-    "_NOTES/tech/encoding/encoding.md",
-    "_NOTES/tech/digital-security/digital-security.md",
-    "_NOTES/_NOTES.md",
-    "_NOTES/tech/thoughts-on-tech/44-engineering-management-lessons.md",
-    "_NOTES/social-sciences/chaos.md",
-    "_NOTES/social-sciences/systems.md",
-    "_NOTES/social-sciences/psychology/emotions/vulnerability.md",
-    "_NOTES/social-sciences/psychology/emotions/courage.md",
-    "_NOTES/social-sciences/psychology/emotions/arrogance.md",
-    "_NOTES/social-sciences/psychology/emotions/anxiety.md",
-    "_NOTES/social-sciences/psychology/emotions/anger.md",
-    "_NOTES/social-sciences/psychology/behavioral-psychology.md",
-    "_NOTES/social-sciences/psychology/bias-for-unhappiness.md",
-    "_site/skills/children.md",
-    "_NOTES/social-sciences/psychology/children/give-children-responsibility.md",
     "assets/static/img/grow-fresh-air.jpeg",
     "_NOTES/skills/grow-fresh-air.jpeg",
     "_NOTES/practical-skills/grow-fresh-air.jpeg",

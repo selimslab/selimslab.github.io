@@ -15,4 +15,4 @@ If you add a node,  go counter clockwise and map the keys to the new node
 
 If a node leaves, go counter clockwise and map the keys to the next node on the ring 
 
-Used for [[partitioning]] in Dynamo and Cassandra
+Used for partitioning in Dynamo and Cassandra

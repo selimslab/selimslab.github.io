@@ -1,6 +1,62 @@
 {
   "recentFiles": [
     {
+      "basename": "solitude",
+      "path": "_NOTES/social-sciences/psychology/solitude.md"
+    },
+    {
+      "basename": "setting-rules",
+      "path": "_NOTES/social-sciences/psychology/setting-rules.md"
+    },
+    {
+      "basename": "relationships",
+      "path": "_NOTES/social-sciences/psychology/relationships.md"
+    },
+    {
+      "basename": "psychology",
+      "path": "_NOTES/social-sciences/psychology/psychology.md"
+    },
+    {
+      "basename": "procrastination",
+      "path": "_NOTES/social-sciences/psychology/procrastination.md"
+    },
+    {
+      "basename": "praise-and-motivation",
+      "path": "_NOTES/social-sciences/psychology/praise-and-motivation.md"
+    },
+    {
+      "basename": "leadership",
+      "path": "_NOTES/skills/leadership.md"
+    },
+    {
+      "basename": "loneliness",
+      "path": "_NOTES/social-sciences/psychology/emotions/loneliness.md"
+    },
+    {
+      "basename": "persuasion",
+      "path": "_NOTES/social-sciences/psychology/persuasion.md"
+    },
+    {
+      "basename": "overcoming-obstacles",
+      "path": "_NOTES/social-sciences/psychology/overcoming-obstacles.md"
+    },
+    {
+      "basename": "how-to-start",
+      "path": "_NOTES/social-sciences/psychology/how-to-start.md"
+    },
+    {
+      "basename": "how-to-spot-a-liar",
+      "path": "_NOTES/social-sciences/psychology/how-to-spot-a-liar.md"
+    },
+    {
+      "basename": "habits",
+      "path": "_NOTES/social-sciences/psychology/habits.md"
+    },
+    {
+      "basename": "gaslighting",
+      "path": "_NOTES/social-sciences/psychology/gaslighting.md"
+    },
+    {
       "basename": "behavioral-psychology",
       "path": "_NOTES/social-sciences/psychology/behavioral-psychology.md"
     },
@@ -35,10 +91,6 @@
     {
       "basename": "what-to-work-on",
       "path": "_NOTES/arts/philosophy/work/what-to-work-on.md"
-    },
-    {
-      "basename": "software-architecture",
-      "path": "_NOTES/tech/software-engineering/software-architecture.md"
     },
     {
       "basename": "accessibility",
@@ -143,54 +195,6 @@
     {
       "basename": "epicurus",
       "path": "_NOTES/arts/philosophy/epicurus.md"
-    },
-    {
-      "basename": "life-is-not-short",
-      "path": "_NOTES/arts/philosophy/time/life-is-not-short.md"
-    },
-    {
-      "basename": "free-will",
-      "path": "_NOTES/arts/philosophy/choice/free-will.md"
-    },
-    {
-      "basename": "truth",
-      "path": "_NOTES/arts/philosophy/truth.md"
-    },
-    {
-      "basename": "the-past",
-      "path": "_NOTES/arts/philosophy/time/the-past.md"
-    },
-    {
-      "basename": "the-morning",
-      "path": "_NOTES/arts/philosophy/time/the-morning.md"
-    },
-    {
-      "basename": "no-regrets-no-worries",
-      "path": "_NOTES/arts/philosophy/time/no-regrets-no-worries.md"
-    },
-    {
-      "basename": "death",
-      "path": "_NOTES/arts/philosophy/time/death.md"
-    },
-    {
-      "basename": "enemies",
-      "path": "_NOTES/arts/philosophy/enemies.md"
-    },
-    {
-      "basename": "warfare-is-deception",
-      "path": "_NOTES/social-sciences/politics/warfare-is-deception.md"
-    },
-    {
-      "basename": "criminal-justice",
-      "path": "_NOTES/social-sciences/politics/criminal-justice.md"
-    },
-    {
-      "basename": "tech",
-      "path": "_NOTES/tech/tech.md"
-    },
-    {
-      "basename": "history-of-technology",
-      "path": "_NOTES/social-sciences/history/history-of-technology.md"
     }
   ],
   "omittedPaths": []

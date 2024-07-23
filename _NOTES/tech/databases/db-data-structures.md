@@ -1,6 +1,6 @@
 ---
 title: Data Structures to Build a DB
-tags: ds 
+tags: ds
 ---
 
 

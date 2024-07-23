@@ -1,9 +1,6 @@
 ---
 ---
 
-
-##  Azure pillars 
-
 - Secure
 - Reliable
 - Cost ROI
