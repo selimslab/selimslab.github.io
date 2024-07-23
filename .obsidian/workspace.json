@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b4e86fba195a34b4",
+        "id": "6cdffa2d1cdfc647",
         "type": "tabs",
         "children": [
           {
-            "id": "02e062183f50d088",
+            "id": "6209cbcd232c380e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_NOTES/math/normal-distribution.md",
+                "file": "_NOTES/tech/programming/programming-languages/go.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_NOTES/math/normal-distribution.md",
+                "file": "_NOTES/tech/programming/programming-languages/go.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_NOTES/math/normal-distribution.md",
+                "file": "_NOTES/tech/programming/programming-languages/go.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_NOTES/math/normal-distribution.md"
+                "file": "_NOTES/tech/programming/programming-languages/go.md"
               }
             }
           }
@@ -158,10 +158,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "02e062183f50d088",
+  "active": "bc86af8c7183ead1",
   "lastOpenFiles": [
-    "assets/static/img/std-sigma-rule.png",
+    "_NOTES/tech/programming/programming-languages/go.md",
     "_NOTES/math/normal-distribution.md",
+    "assets/static/img/std-sigma-rule.png",
     "assets/static/img/normal.png",
     "_NOTES/skills/drawing.md",
     "assets/static/img/normal.png.crdownload",
@@ -175,7 +176,6 @@
     "_NOTES/social-sciences/psychology/emotions/hope.md",
     "_NOTES/arts/philosophy/happiness.md",
     "_NOTES/social-sciences/psychology/gaslighting.md",
-    "_NOTES/tech/programming/programming-languages/go.md",
     "_NOTES/skills/growing-plants.md",
     "_NOTES/tech/thoughts-on-tech/software-quality.md",
     "_NOTES/natural-sciences/solar-system.md",

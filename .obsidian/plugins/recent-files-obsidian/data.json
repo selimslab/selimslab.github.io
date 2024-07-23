@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "go",
+      "path": "_NOTES/tech/programming/programming-languages/go.md"
+    },
+    {
       "basename": "normal-distribution",
       "path": "_NOTES/math/normal-distribution.md"
     },
@@ -51,10 +55,6 @@
     {
       "basename": "gaslighting",
       "path": "_NOTES/social-sciences/psychology/gaslighting.md"
-    },
-    {
-      "basename": "go",
-      "path": "_NOTES/tech/programming/programming-languages/go.md"
     },
     {
       "basename": "growing-plants",
