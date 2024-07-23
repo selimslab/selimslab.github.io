@@ -1,8 +1,6 @@
 ---
-tags: lists
+tags: lists literature
 ---
-
-[[literature]]
 
 Antoine de Saint-Exupéry
 

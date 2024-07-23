@@ -1,10 +1,6 @@
 
-
-<!-- does site.data.dirs hash has this page.id -->
-
-
 {% if page.children.size > 0 %}
-{{ site.data.tree_htmls_without_self[page.id] }}
+{{ site.data.tree_htmls[page.id] }}
 {% endif %}
 
 {% if page.backlinks.size > 0 %}

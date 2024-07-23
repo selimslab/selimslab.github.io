@@ -168,10 +168,8 @@ class SiteGenerator < Jekyll::Generator
 
     site.data["tree_htmls"] = {}
     tree_to_html(site, tree, "root")
+    write_json("./assets/data/tree_htmls.json", site.data["tree_htmls"])
 
-    site.data["tree_htmls_without_self"] = site.data["tree_htmls"].transform_values do |html|
-      html.gsub(/<a href='[^']*\/'>.*?<\/a>/, "")
-    end
   end
 
   def bfs(site, path)

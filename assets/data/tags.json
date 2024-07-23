@@ -343,7 +343,8 @@
     "turkce"
   ],
   "/authors": [
-    "lists"
+    "lists",
+    "literature"
   ],
   "/blogs": [
     "lists"
@@ -827,7 +828,6 @@
     "psychology"
   ],
   "/psychology": [
-    "soc",
     "social-sciences"
   ],
   "/relationships": [

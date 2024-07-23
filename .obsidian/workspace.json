@@ -158,8 +158,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "bc86af8c7183ead1",
+  "active": "b80a8a4530bb837f",
   "lastOpenFiles": [
+    "_site/assets/data/tree_htmls.json",
+    "assets/data/tree_htmls.json",
+    "_site/assets/data/tree_htmls_without_self.json",
+    "assets/data/tree_htmls_without_self.json",
     "_NOTES/tech/thoughts-on-tech/44-engineering-management-lessons.md",
     "_NOTES/social-sciences/chaos.md",
     "_NOTES/social-sciences/systems.md",
@@ -185,7 +189,6 @@
     "_NOTES/natural-sciences/inertia.md",
     "_NOTES/natural-sciences/classical-physics.md",
     "_NOTES/skills/career/career.md",
-    "_NOTES/arts/philosophy/work/you-are-not-nameless.md",
     "_NOTES/tech/digital-security",
     "_site/assets/data/graph.json",
     "_site/assets/data/tags.json",
@@ -193,9 +196,6 @@
     "_site/csharp/index.html",
     "_site/csharp",
     "_site/do-the-right-thing/index.html",
-    "_site/do-the-right-thing",
-    "_site/scala/index.html",
-    "_site/scala",
     "assets/static/img/grow-fresh-air.jpeg",
     "_NOTES/skills/grow-fresh-air.jpeg",
     "_NOTES/practical-skills/grow-fresh-air.jpeg",
