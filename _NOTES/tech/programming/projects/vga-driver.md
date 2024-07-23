@@ -1,6 +1,6 @@
 ---
 title: VGA Driver
-
+tags: c
 ---
 
 It's for a game similar to Doodle Jump,

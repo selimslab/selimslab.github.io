@@ -1,5 +1,7 @@
 ---
 title: Let's write a compiler
+tags: python
+
 ---
 
 Both an interpreter and a compiler translate one language to another, normally a higher-level one to a lower-level one. 

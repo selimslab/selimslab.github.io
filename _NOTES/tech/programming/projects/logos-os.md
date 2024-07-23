@@ -1,5 +1,6 @@
 ---
 title: Logos, an operating system kernel from scratch
+tags: c
 ---
 
 <https://github.com/selimslab/logos>

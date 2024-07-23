@@ -1,5 +1,6 @@
 ---
 title: A* path-finding algorithm for a robot 
+tags: cpp
 
 ---
 

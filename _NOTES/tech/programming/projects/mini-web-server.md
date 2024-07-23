@@ -1,5 +1,6 @@
 ---
 title: A web server from scratch
+tags: python
 
 ---
 

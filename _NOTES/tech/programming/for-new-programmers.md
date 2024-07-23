@@ -6,7 +6,6 @@ tags: top
 
 I think the best algorithms book for new programmers is Grokking Algorithms An Illustrated Guide For Programmers and Other Curious People
 
-
 ## See also 
 
 * [Teach Yourself Computer Science](https://teachyourselfcs.com/)
