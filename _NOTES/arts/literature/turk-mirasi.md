@@ -1,6 +1,6 @@
 ---
 title: Türk Mirası
-
+tags: turkce
 ---
 
 ## Bilge Kagan 

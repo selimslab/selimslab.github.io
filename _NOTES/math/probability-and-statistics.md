@@ -5,6 +5,9 @@
 
 [Tag: statistics - Sketchplanations](https://sketchplanations.com/tags/statistics)
 
+
+[[bayes]]
+
 Hypothesis testing  
 
 Population sampling 

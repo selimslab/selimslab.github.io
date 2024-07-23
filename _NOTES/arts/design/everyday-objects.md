@@ -1,5 +1,4 @@
 ---
-tags: design tech 
 ---
 
 [Things Come Apart - TODD MCLELLAN MOTION/STILLS](https://www.toddmclellan.com/thingscomeapart)

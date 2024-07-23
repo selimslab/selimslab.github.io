@@ -2,7 +2,6 @@
  
 ---
 
-
 ![](/assets/static/img/equations.jpeg)
 
-Also see [[classical-physics]]
+See [[classical-physics]]
