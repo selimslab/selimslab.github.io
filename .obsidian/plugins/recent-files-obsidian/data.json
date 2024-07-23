@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "normal-distribution",
+      "path": "_NOTES/math/normal-distribution.md"
+    },
+    {
+      "basename": "normal",
+      "path": "assets/static/img/normal.png"
+    },
+    {
       "basename": "drawing",
       "path": "_NOTES/skills/drawing.md"
     },
     {
       "basename": "marketing",
       "path": "_NOTES/skills/business/marketing.md"
-    },
-    {
-      "basename": "normal-distribution",
-      "path": "_NOTES/math/normal-distribution.md"
     },
     {
       "basename": "outdoors",
@@ -99,10 +103,6 @@
     {
       "basename": "zen-of-python",
       "path": "_NOTES/tech/programming/programming-languages/python/zen-of-python.md"
-    },
-    {
-      "basename": "pla",
-      "path": "assets/static/img/pla.md"
     },
     {
       "basename": "what-to-work-on",
@@ -195,10 +195,6 @@
     {
       "basename": "easy-vs-hard-in-cs",
       "path": "_NOTES/tech/thoughts-on-tech/easy-vs-hard-in-cs.md"
-    },
-    {
-      "basename": "do-one-thing-at-a-time-and-do-it-well",
-      "path": "_NOTES/skills/decisions/do-one-thing-at-a-time-and-do-it-well.md"
     }
   ],
   "omittedPaths": []
