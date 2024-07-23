@@ -1,6 +1,66 @@
 {
   "recentFiles": [
     {
+      "basename": "bias-for-unhappiness",
+      "path": "_NOTES/social-sciences/psychology/cognitive-biases/bias-for-unhappiness.md"
+    },
+    {
+      "basename": "overvaluing-short-term",
+      "path": "_NOTES/social-sciences/psychology/cognitive-biases/overvaluing-short-term.md"
+    },
+    {
+      "basename": "outdoors",
+      "path": "_NOTES/skills/outdoors.md"
+    },
+    {
+      "basename": "children",
+      "path": "_NOTES/skills/children.md"
+    },
+    {
+      "basename": "lightly-child",
+      "path": "_NOTES/arts/poetry/lightly-child.md"
+    },
+    {
+      "basename": "history",
+      "path": "_NOTES/social-sciences/history/history.md"
+    },
+    {
+      "basename": "get-things-done",
+      "path": "_NOTES/skills/get-things-done.md"
+    },
+    {
+      "basename": "business",
+      "path": "_NOTES/skills/business/business.md"
+    },
+    {
+      "basename": "skills",
+      "path": "_NOTES/skills/skills.md"
+    },
+    {
+      "basename": "learning",
+      "path": "_NOTES/skills/learning.md"
+    },
+    {
+      "basename": "teaching",
+      "path": "_NOTES/skills/teaching.md"
+    },
+    {
+      "basename": "accessibility",
+      "path": "_NOTES/tech/ux/accessibility.md"
+    },
+    {
+      "basename": "404",
+      "path": "404.md"
+    },
+    {
+      "basename": "all-is-one",
+      "path": "_NOTES/arts/philosophy/all-is-one.md"
+    },
+    {
+      "basename": "tolerate-anything-except-outgroup",
+      "path": "_NOTES/social-sciences/tolerate-anything-except-outgroup.md"
+    },
+    {
       "basename": "cinema",
       "path": "_NOTES/arts/cinema.md"
     },
@@ -49,10 +109,6 @@
       "path": "_NOTES/skills/business/investing.md"
     },
     {
-      "basename": "skills",
-      "path": "_NOTES/skills/skills.md"
-    },
-    {
       "basename": "economics",
       "path": "_NOTES/social-sciences/economics.md"
     },
@@ -61,20 +117,8 @@
       "path": "_NOTES/social-sciences/psychology/cognitive-biases/cognitive-biases.md"
     },
     {
-      "basename": "overvaluing-short-term",
-      "path": "_NOTES/social-sciences/psychology/cognitive-biases/overvaluing-short-term.md"
-    },
-    {
-      "basename": "bias-for-unhappiness",
-      "path": "_NOTES/social-sciences/psychology/cognitive-biases/bias-for-unhappiness.md"
-    },
-    {
       "basename": "psychology",
       "path": "_NOTES/social-sciences/psychology/psychology.md"
-    },
-    {
-      "basename": "outdoors",
-      "path": "_NOTES/skills/outdoors.md"
     },
     {
       "basename": "framing.jpeg",
@@ -121,10 +165,6 @@
       "path": "_NOTES/social-sciences/history/history-of-technology.md"
     },
     {
-      "basename": "history",
-      "path": "_NOTES/social-sciences/history/history.md"
-    },
-    {
       "basename": "wage-theft",
       "path": "_NOTES/social-sciences/wage-theft.md"
     },
@@ -153,52 +193,12 @@
       "path": "_NOTES/arts/philosophy/work/work.md"
     },
     {
-      "basename": "get-things-done",
-      "path": "_NOTES/skills/get-things-done.md"
-    },
-    {
       "basename": "a-good-life",
       "path": "_NOTES/arts/philosophy/a-good-life.md"
     },
     {
       "basename": "do-the-right-thing",
       "path": "_NOTES/skills/decisions/do-the-right-thing.md"
-    },
-    {
-      "basename": "do-one-thing-at-a-time-and-do-it-well",
-      "path": "_NOTES/skills/decisions/do-one-thing-at-a-time-and-do-it-well.md"
-    },
-    {
-      "basename": "decisions",
-      "path": "_NOTES/skills/decisions/decisions.md"
-    },
-    {
-      "basename": "critical-thinking",
-      "path": "_NOTES/skills/decisions/critical-thinking.md"
-    },
-    {
-      "basename": "discrete-vs-continuous",
-      "path": "_NOTES/math/discrete-vs-continuous.md"
-    },
-    {
-      "basename": "choice",
-      "path": "_NOTES/arts/philosophy/choice/choice.md"
-    },
-    {
-      "basename": "going-blind",
-      "path": "_NOTES/natural-sciences/healthcare/going-blind.md"
-    },
-    {
-      "basename": "healthcare",
-      "path": "_NOTES/natural-sciences/healthcare/healthcare.md"
-    },
-    {
-      "basename": "how-to-deal-with-pain",
-      "path": "_NOTES/natural-sciences/healthcare/how-to-deal-with-pain.md"
-    },
-    {
-      "basename": "sleep",
-      "path": "_NOTES/natural-sciences/healthcare/sleep.md"
     }
   ],
   "omittedPaths": []

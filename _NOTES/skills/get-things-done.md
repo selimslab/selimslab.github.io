@@ -30,3 +30,5 @@
 28. Everything looks like a failure in the middle, keep going
 
 [[decisions]]
+
+[Tag: productivity - Sketchplanations](https://sketchplanations.com/tags/productivity)

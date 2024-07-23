@@ -17,3 +17,7 @@ Separate work from leisure
 No arbitrary, fixed schedule
 
 Educate the heart
+
+[Tag: education - Sketchplanations](https://sketchplanations.com/tags/education)
+
+[Tag: framework - Sketchplanations](https://sketchplanations.com/tags/framework)

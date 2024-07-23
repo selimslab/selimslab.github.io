@@ -13,3 +13,5 @@
 <https://www.youtube.com/@crashcourse>
 
 [wizard zines](https://wizardzines.com/)
+
+[Tag: education - Sketchplanations](https://sketchplanations.com/tags/education)
