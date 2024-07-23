@@ -2,9 +2,7 @@
   {% for tag in page.tags %} 
     {% if tag != "top" %} 
       {% include tag_to_title.html tag=tag %}
-        {% if title != page.title %} 
           <a class="toplink" href="/{{file}}/">{{title}}</a>
-        {% endif %}
     {% endif %}
   {% endfor %}
 
