@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "255e1e72b54d2454",
+        "id": "0c329b579a579e3d",
         "type": "tabs",
         "children": [
           {
-            "id": "ae96cf92beff84fa",
+            "id": "67cf7c7d74778e05",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_NOTES/tech/thoughts-on-tech/44-engineering-management-lessons.md",
+                "file": "_NOTES/arts/philosophy/choice/choice.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_NOTES/tech/thoughts-on-tech/44-engineering-management-lessons.md",
+                "file": "_NOTES/arts/philosophy/choice/choice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_NOTES/tech/thoughts-on-tech/44-engineering-management-lessons.md",
+                "file": "_NOTES/arts/philosophy/choice/choice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_NOTES/tech/thoughts-on-tech/44-engineering-management-lessons.md"
+                "file": "_NOTES/arts/philosophy/choice/choice.md"
               }
             }
           }
@@ -158,8 +158,20 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ae96cf92beff84fa",
+  "active": "67cf7c7d74778e05",
   "lastOpenFiles": [
+    "_NOTES/skills/decisions/decisions.md",
+    "_NOTES/skills/decisions/on-decision-making.md",
+    "_NOTES/skills/decisions/do-without-doing.md",
+    "_NOTES/skills/decisions/do-the-right-thing.md",
+    "_NOTES/skills/decisions/do-one-thing-at-a-time-and-do-it-well.md",
+    "_NOTES/skills/decisions/critical-thinking.md",
+    "_NOTES/natural-sciences/healthcare/going-blind.md",
+    "_NOTES/natural-sciences/healthcare/healthcare.md",
+    "_NOTES/natural-sciences/healthcare/how-to-deal-with-pain.md",
+    "_NOTES/natural-sciences/healthcare/sleep.md",
+    "_NOTES/natural-sciences/health/Untitled.md",
+    "_NOTES/tech/thoughts-on-tech/44-engineering-management-lessons.md",
     "_NOTES/tech/thoughts-on-tech/a-free-web-again.md",
     "_NOTES/tech/thoughts-on-tech/choose-boring-tech.md",
     "_NOTES/tech/thoughts-on-tech/hacker-laws.md",
@@ -174,22 +186,10 @@
     "_NOTES/social-sciences/systems.md",
     "_NOTES/social-sciences/economics/economics.md",
     "_NOTES/social-sciences/your-lifestyle-already-designed.md",
-    "_NOTES/social-sciences/wasted-talent.md",
-    "_NOTES/social-sciences/urban-planning.md",
-    "_NOTES/_misc/interviews.md",
-    "_NOTES/_misc/connect.md",
-    "_NOTES/_misc/tax.md",
-    "_NOTES/_misc/cz/flat.md",
-    "_NOTES/_misc/autofill.md",
-    "_NOTES/social-sciences/psychology/solitude.md",
     "_site/encodings/index.html",
     "_site/encodings",
     "_site/azure-pillars/index.html",
     "_site/azure-pillars",
-    "_NOTES/social-sciences/psychology/emotions/unmet-needs.md",
-    "_NOTES/social-sciences/psychology/work/setting-rules.md",
-    "_NOTES/social-sciences/psychology/work/praise-and-motivation.md",
-    "_NOTES/social-sciences/psychology/work/overcoming-obstacles.md",
     "_NOTES/social-sciences/psychology/work",
     "_site/_NOTES/social-sciences/psychology/emotions/emotions/index.html",
     "_site/_NOTES/social-sciences/psychology/emotions/emotions",

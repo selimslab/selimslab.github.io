@@ -1,6 +1,50 @@
 {
   "recentFiles": [
     {
+      "basename": "choice",
+      "path": "_NOTES/arts/philosophy/choice/choice.md"
+    },
+    {
+      "basename": "decisions",
+      "path": "_NOTES/skills/decisions/decisions.md"
+    },
+    {
+      "basename": "on-decision-making",
+      "path": "_NOTES/skills/decisions/on-decision-making.md"
+    },
+    {
+      "basename": "do-without-doing",
+      "path": "_NOTES/skills/decisions/do-without-doing.md"
+    },
+    {
+      "basename": "do-the-right-thing",
+      "path": "_NOTES/skills/decisions/do-the-right-thing.md"
+    },
+    {
+      "basename": "do-one-thing-at-a-time-and-do-it-well",
+      "path": "_NOTES/skills/decisions/do-one-thing-at-a-time-and-do-it-well.md"
+    },
+    {
+      "basename": "critical-thinking",
+      "path": "_NOTES/skills/decisions/critical-thinking.md"
+    },
+    {
+      "basename": "going-blind",
+      "path": "_NOTES/natural-sciences/healthcare/going-blind.md"
+    },
+    {
+      "basename": "healthcare",
+      "path": "_NOTES/natural-sciences/healthcare/healthcare.md"
+    },
+    {
+      "basename": "how-to-deal-with-pain",
+      "path": "_NOTES/natural-sciences/healthcare/how-to-deal-with-pain.md"
+    },
+    {
+      "basename": "sleep",
+      "path": "_NOTES/natural-sciences/healthcare/sleep.md"
+    },
+    {
       "basename": "44-engineering-management-lessons",
       "path": "_NOTES/tech/thoughts-on-tech/44-engineering-management-lessons.md"
     },
@@ -155,50 +199,6 @@
     {
       "basename": "evolution-of-computer-interfaces",
       "path": "_NOTES/tech/ux/evolution-of-computer-interfaces.md"
-    },
-    {
-      "basename": "natural-tech",
-      "path": "_NOTES/tech/ux/natural-tech.md"
-    },
-    {
-      "basename": "polished-pixels",
-      "path": "_NOTES/tech/ux/polished-pixels.md"
-    },
-    {
-      "basename": "ux",
-      "path": "_NOTES/tech/ux/ux.md"
-    },
-    {
-      "basename": "take-a-walk",
-      "path": "_NOTES/arts/philosophy/take-a-walk.md"
-    },
-    {
-      "basename": "success-and-failure",
-      "path": "_NOTES/arts/philosophy/success-and-failure.md"
-    },
-    {
-      "basename": "stupidity",
-      "path": "_NOTES/arts/philosophy/stupidity.md"
-    },
-    {
-      "basename": "search-for-meaning",
-      "path": "_NOTES/arts/philosophy/search-for-meaning.md"
-    },
-    {
-      "basename": "questions",
-      "path": "_NOTES/arts/philosophy/questions.md"
-    },
-    {
-      "basename": "philosophy",
-      "path": "_NOTES/arts/philosophy/philosophy.md"
-    },
-    {
-      "basename": "one-bit-better",
-      "path": "_NOTES/arts/philosophy/one-bit-better.md"
-    },
-    {
-      "basename": "love",
-      "path": "_NOTES/arts/philosophy/love.md"
     }
   ],
   "omittedPaths": []
