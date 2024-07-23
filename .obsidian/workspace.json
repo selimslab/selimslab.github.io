@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_NOTES/arts/philosophy/choice/choice.md",
+                "file": "_NOTES/skills/decisions/do-without-doing.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_NOTES/arts/philosophy/choice/choice.md",
+                "file": "_NOTES/skills/decisions/do-without-doing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_NOTES/arts/philosophy/choice/choice.md",
+                "file": "_NOTES/skills/decisions/do-without-doing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_NOTES/arts/philosophy/choice/choice.md"
+                "file": "_NOTES/skills/decisions/do-without-doing.md"
               }
             }
           }
@@ -158,14 +158,19 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "67cf7c7d74778e05",
+  "active": "bc86af8c7183ead1",
   "lastOpenFiles": [
-    "_NOTES/skills/decisions/decisions.md",
     "_NOTES/skills/decisions/on-decision-making.md",
+    "_NOTES/arts/philosophy/work/work.md",
+    "_NOTES/skills/get-things-done.md",
+    "_NOTES/arts/philosophy/a-good-life.md",
     "_NOTES/skills/decisions/do-without-doing.md",
     "_NOTES/skills/decisions/do-the-right-thing.md",
     "_NOTES/skills/decisions/do-one-thing-at-a-time-and-do-it-well.md",
+    "_NOTES/skills/decisions/decisions.md",
     "_NOTES/skills/decisions/critical-thinking.md",
+    "_NOTES/math/discrete-vs-continuous.md",
+    "_NOTES/arts/philosophy/choice/choice.md",
     "_NOTES/natural-sciences/healthcare/going-blind.md",
     "_NOTES/natural-sciences/healthcare/healthcare.md",
     "_NOTES/natural-sciences/healthcare/how-to-deal-with-pain.md",
@@ -181,11 +186,6 @@
     "_NOTES/tech/thoughts-on-tech/software-analogies.md",
     "_NOTES/tech/thoughts-on-tech/software-quality.md",
     "_NOTES/tech/thoughts-on-tech/technology-and-time.md",
-    "_NOTES/tech/thoughts-on-tech/thoughts-on-swe.md",
-    "_NOTES/tech/thoughts-on-tech/thoughts-on-tech.md",
-    "_NOTES/social-sciences/systems.md",
-    "_NOTES/social-sciences/economics/economics.md",
-    "_NOTES/social-sciences/your-lifestyle-already-designed.md",
     "_site/encodings/index.html",
     "_site/encodings",
     "_site/azure-pillars/index.html",

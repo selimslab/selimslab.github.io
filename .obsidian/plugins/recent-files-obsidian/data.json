@@ -1,20 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "choice",
-      "path": "_NOTES/arts/philosophy/choice/choice.md"
-    },
-    {
-      "basename": "decisions",
-      "path": "_NOTES/skills/decisions/decisions.md"
-    },
-    {
-      "basename": "on-decision-making",
-      "path": "_NOTES/skills/decisions/on-decision-making.md"
-    },
-    {
       "basename": "do-without-doing",
       "path": "_NOTES/skills/decisions/do-without-doing.md"
+    },
+    {
+      "basename": "work",
+      "path": "_NOTES/arts/philosophy/work/work.md"
+    },
+    {
+      "basename": "get-things-done",
+      "path": "_NOTES/skills/get-things-done.md"
+    },
+    {
+      "basename": "a-good-life",
+      "path": "_NOTES/arts/philosophy/a-good-life.md"
     },
     {
       "basename": "do-the-right-thing",
@@ -25,8 +25,20 @@
       "path": "_NOTES/skills/decisions/do-one-thing-at-a-time-and-do-it-well.md"
     },
     {
+      "basename": "decisions",
+      "path": "_NOTES/skills/decisions/decisions.md"
+    },
+    {
       "basename": "critical-thinking",
       "path": "_NOTES/skills/decisions/critical-thinking.md"
+    },
+    {
+      "basename": "discrete-vs-continuous",
+      "path": "_NOTES/math/discrete-vs-continuous.md"
+    },
+    {
+      "basename": "choice",
+      "path": "_NOTES/arts/philosophy/choice/choice.md"
     },
     {
       "basename": "going-blind",
@@ -183,22 +195,6 @@
     {
       "basename": "anxiety",
       "path": "_NOTES/social-sciences/psychology/emotions/anxiety.md"
-    },
-    {
-      "basename": "anger",
-      "path": "_NOTES/social-sciences/psychology/emotions/anger.md"
-    },
-    {
-      "basename": "what-to-work-on",
-      "path": "_NOTES/arts/philosophy/work/what-to-work-on.md"
-    },
-    {
-      "basename": "accessibility",
-      "path": "_NOTES/tech/ux/accessibility.md"
-    },
-    {
-      "basename": "evolution-of-computer-interfaces",
-      "path": "_NOTES/tech/ux/evolution-of-computer-interfaces.md"
     }
   ],
   "omittedPaths": []

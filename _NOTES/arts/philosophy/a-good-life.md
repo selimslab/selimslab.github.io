@@ -31,6 +31,6 @@ Consider beginnings. Solve problems while they are still small.
 
 [[practical-skills]]
 
-[[on-decision-making]]
+[[decisions]]
 
 [[take-a-walk]]

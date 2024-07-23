@@ -1,5 +1,5 @@
 ---
-
+title: Digital vs Analog
 ---
 
 Nature doesn't draw straight lines, it is continuous 
