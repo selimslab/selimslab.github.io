@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "36ff165f5248f1f0",
+        "id": "15deae834098a029",
         "type": "tabs",
         "children": [
           {
-            "id": "9fea56d67d58fe54",
+            "id": "dada1b44e8a3151c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_NOTES/arts/languages/languages.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_NOTES/arts/languages/languages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_NOTES/arts/languages/languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/static/sketch/60-30-10.jpeg"
+                "file": "_NOTES/arts/languages/languages.md"
               }
             }
           }
@@ -153,9 +160,25 @@
   },
   "active": "bc86af8c7183ead1",
   "lastOpenFiles": [
-    "assets/static/sketch/a-billion-heartbeats.jpeg",
-    "assets/static/sketch/2-factor-auth.jpeg",
-    "assets/static/sketch/word-spectrum.jpg",
+    "_site/assets/static/img/word-spectrum.jpg",
+    "_site/assets/static/img/a-billion-heartbeats.jpeg",
+    "assets/static/img/word-spectrum.jpg",
+    "assets/static/img/a-billion-heartbeats.jpeg",
+    "assets/static/img/what-drives-us.jpeg",
+    "_site/assets/static/img/2-factor-auth.jpeg",
+    "_NOTES/arts/languages/languages.md",
+    "_site/thoughts-on-swe/index.html",
+    "_site/thoughts-on-swe",
+    "_site/healthcare/index.html",
+    "_site/healthcare",
+    "_site/assets/static/sk/word-spectrum.jpg",
+    "_site/assets/static/sk/a-billion-heartbeats.jpeg",
+    "_site/assets/static/sk/2-factor-auth.jpeg",
+    "_site/assets/static/sk",
+    "_NOTES/tech/digital-security/authentication.md",
+    "assets/static/sk/a-billion-heartbeats.jpeg",
+    "assets/static/img/2-factor-auth.jpeg",
+    "assets/static/sk",
     "assets/static/sketch",
     "assets/static/New folder",
     "_NOTES/social-sciences/history/since-big-bang.md",
@@ -181,24 +204,8 @@
     "_NOTES/skills/get-things-done.md",
     "_NOTES/arts/philosophy/a-good-life.md",
     "_NOTES/skills/decisions/do-the-right-thing.md",
-    "_NOTES/skills/decisions/do-one-thing-at-a-time-and-do-it-well.md",
-    "_NOTES/skills/decisions/decisions.md",
     "_site/encodings/index.html",
     "_site/encodings",
-    "_site/azure-pillars/index.html",
-    "_site/azure-pillars",
-    "_NOTES/social-sciences/psychology/work",
-    "_site/_NOTES/social-sciences/psychology/emotions/emotions/index.html",
-    "_site/_NOTES/social-sciences/psychology/emotions/emotions",
-    "_site/_NOTES/social-sciences/psychology/emotions",
-    "assets/static/img/grow-fresh-air.jpeg",
-    "_NOTES/skills/grow-fresh-air.jpeg",
-    "_NOTES/practical-skills/grow-fresh-air.jpeg",
-    "_site/assets/static/solar/2k_stars_milky_way3.jpg",
-    "assets/static/solar/2k_stars_milky_way3.jpg",
-    "_site/assets/static/solar/2k_stars_milky_way2.jpg",
-    "assets/static/solar/2k_stars_milky_way2.jpg",
-    "_site/assets/static/wind-spring-white-stratosphere-pure.jpg",
     "Untitled.canvas"
   ]
 }

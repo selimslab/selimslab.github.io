@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "languages",
+      "path": "_NOTES/arts/languages/languages.md"
+    },
+    {
+      "basename": "what-drives-us",
+      "path": "assets/static/img/what-drives-us.jpeg"
+    },
+    {
+      "basename": "authentication",
+      "path": "_NOTES/tech/digital-security/authentication.md"
+    },
+    {
       "basename": "since-big-bang",
       "path": "_NOTES/social-sciences/history/since-big-bang.md"
     },
@@ -187,14 +199,6 @@
     {
       "basename": "psychology",
       "path": "_NOTES/social-sciences/psychology/psychology.md"
-    },
-    {
-      "basename": "procrastination",
-      "path": "_NOTES/social-sciences/psychology/procrastination.md"
-    },
-    {
-      "basename": "leadership",
-      "path": "_NOTES/skills/leadership.md"
     }
   ],
   "omittedPaths": []

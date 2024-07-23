@@ -81,7 +81,7 @@
       "name": "Natural Sciences",
       "links": [
         "/root",
-        "/akins-laws-of-spacecraft",
+        "/healthcare",
         "/astronomy",
         "/books-natural",
         "/classical-physics",
@@ -96,7 +96,7 @@
         "/the-overview-effect",
         "/the-piston",
         "/the-true-size-of-africa",
-        "/sleep",
+        "/akins-laws-of-spacecraft",
         "/since-big-bang",
         "/systems"
       ]
@@ -110,7 +110,7 @@
         "/business",
         "/decisions",
         "/communication",
-        "/health",
+        "/drowning-does-not-look-dramatic",
         "/exercise",
         "/get-things-done",
         "/growing-plants",
@@ -119,22 +119,19 @@
         "/leadership",
         "/learning",
         "/making-videos",
-        "/mastery",
-        "/drowning-does-not-look-dramatic",
+        "/driving",
+        "/motocycles",
         "/mountaineering",
         "/outdoors",
         "/photography",
         "/problem-solving",
         "/submarine-shower",
         "/teaching",
-        "/the-tao-of-programming",
         "/used-car-checklist",
-        "/driving",
         "/drawing",
-        "/motocycles",
+        "/mastery",
         "/cooking",
         "/critical-thinking",
-        "/on-decision-making",
         "/a-good-life",
         "/how-to-start"
       ]
@@ -149,17 +146,17 @@
         "/politics",
         "/history",
         "/economics",
+        "/in-praise-of-idleness",
         "/metaphors",
         "/social-change",
         "/social-class",
-        "/in-praise-of-idleness",
+        "/books-social",
+        "/systems",
         "/tolerate-anything-except-outgroup",
         "/urban-planning",
+        "/wage-theft",
         "/wasted-talent",
-        "/your-lifestyle-already-designed",
-        "/books-social",
         "/chaos",
-        "/systems",
         "/being-poor",
         "/cognitive-biases",
         "/freedom",
@@ -239,8 +236,11 @@
         "/time",
         "/work",
         "/life-is-soft",
-        "/critical-thinking",
+        "/tao-te-ching",
+        "/going-blind",
         "/how-to-deal-with-pain",
+        "/critical-thinking",
+        "/do-the-right-thing",
         "/how-to-grow-old-russell",
         "/in-praise-of-idleness",
         "/criminal-justice",
@@ -480,7 +480,7 @@
     {
       "id": "/discrete-vs-continuous",
       "group": 2,
-      "name": "Discrete Vs Continuous",
+      "name": "Digital vs Analog",
       "links": [
         "/math"
       ]
@@ -551,15 +551,14 @@
       ]
     },
     {
-      "id": "/akins-laws-of-spacecraft",
+      "id": "/healthcare",
       "group": 2,
-      "name": "Akins Laws Of Spacecraft",
+      "name": "Healthcare",
       "links": [
         "/natural-sciences",
-        "/hacker-laws",
-        "/polished-pixels",
-        "/system-design",
-        "/tech"
+        "/going-blind",
+        "/how-to-deal-with-pain",
+        "/sleep"
       ]
     },
     {
@@ -680,6 +679,18 @@
       ]
     },
     {
+      "id": "/akins-laws-of-spacecraft",
+      "group": 2,
+      "name": "Akins Laws Of Spacecraft",
+      "links": [
+        "/natural-sciences",
+        "/hacker-laws",
+        "/polished-pixels",
+        "/system-design",
+        "/tech"
+      ]
+    },
+    {
       "id": "/business",
       "group": 2,
       "name": "Business",
@@ -701,14 +712,20 @@
     {
       "id": "/decisions",
       "group": 2,
-      "name": "Decisions",
+      "name": "On Decisions",
       "links": [
         "/skills",
         "/critical-thinking",
         "/do-one-thing-at-a-time-and-do-it-well",
         "/do-the-right-thing",
         "/do-without-doing",
-        "/on-decision-making"
+        "/do-not-lie-to-yourself",
+        "/choice",
+        "/free-will",
+        "/freedom",
+        "/critical-thinking",
+        "/choice",
+        "/get-things-done"
       ]
     },
     {
@@ -724,14 +741,11 @@
       ]
     },
     {
-      "id": "/health",
+      "id": "/drowning-does-not-look-dramatic",
       "group": 2,
-      "name": "Health",
+      "name": "Drowning Does Not Look Dramatic",
       "links": [
-        "/skills",
-        "/going-blind",
-        "/how-to-deal-with-pain",
-        "/sleep"
+        "/skills"
       ]
     },
     {
@@ -751,8 +765,8 @@
         "/take-a-walk",
         "/the-morning",
         "/what-to-work-on",
-        "/do-one-thing-at-a-time-and-do-it-well",
-        "/on-decision-making"
+        "/decisions",
+        "/do-one-thing-at-a-time-and-do-it-well"
       ]
     },
     {
@@ -811,17 +825,18 @@
       ]
     },
     {
-      "id": "/mastery",
+      "id": "/driving",
       "group": 2,
-      "name": "Mastery",
+      "name": "Driving",
       "links": [
-        "/skills"
+        "/skills",
+        "/used-car-checklist"
       ]
     },
     {
-      "id": "/drowning-does-not-look-dramatic",
+      "id": "/motocycles",
       "group": 2,
-      "name": "Drowning Does Not Look Dramatic",
+      "name": "Motocycles",
       "links": [
         "/skills"
       ]
@@ -877,30 +892,12 @@
       ]
     },
     {
-      "id": "/the-tao-of-programming",
-      "group": 2,
-      "name": "The Tao of Programming",
-      "links": [
-        "/skills",
-        "/humor"
-      ]
-    },
-    {
       "id": "/used-car-checklist",
       "group": 2,
       "name": "Used Car Checklist",
       "links": [
         "/skills",
         "/driving"
-      ]
-    },
-    {
-      "id": "/driving",
-      "group": 2,
-      "name": "Driving",
-      "links": [
-        "/skills",
-        "/used-car-checklist"
       ]
     },
     {
@@ -912,9 +909,9 @@
       ]
     },
     {
-      "id": "/motocycles",
+      "id": "/mastery",
       "group": 2,
-      "name": "Motocycles",
+      "name": "Mastery",
       "links": [
         "/skills"
       ]
@@ -969,8 +966,8 @@
         "/war-is-a-racket",
         "/warfare-is-deception",
         "/who-goes-nazi",
-        "/tao-te-ching",
-        "/do-the-right-thing"
+        "/do-the-right-thing",
+        "/tao-te-ching"
       ]
     },
     {
@@ -990,9 +987,16 @@
       "name": "Economics",
       "links": [
         "/social-sciences",
-        "/four-day-workweek",
-        "/the-tragedy-of-the-commons",
         "/wage-theft"
+      ]
+    },
+    {
+      "id": "/in-praise-of-idleness",
+      "group": 2,
+      "name": "In Praise Of Idleness",
+      "links": [
+        "/social-sciences",
+        "/philosophy"
       ]
     },
     {
@@ -1021,13 +1025,22 @@
       ]
     },
     {
-      "id": "/in-praise-of-idleness",
+      "id": "/books-social",
       "group": 2,
-      "name": "In Praise Of Idleness",
+      "name": "Books",
+      "links": [
+        "/social-sciences"
+      ]
+    },
+    {
+      "id": "/systems",
+      "group": 2,
+      "name": "Systems thinking",
       "links": [
         "/social-sciences",
-        "/philosophy",
-        "/four-day-workweek"
+        "/natural-sciences",
+        "/chaos",
+        "/system-design"
       ]
     },
     {
@@ -1047,6 +1060,15 @@
       ]
     },
     {
+      "id": "/wage-theft",
+      "group": 2,
+      "name": "Wage Theft",
+      "links": [
+        "/social-sciences",
+        "/economics"
+      ]
+    },
+    {
       "id": "/wasted-talent",
       "group": 2,
       "name": "Wasted Talent",
@@ -1056,41 +1078,12 @@
       ]
     },
     {
-      "id": "/your-lifestyle-already-designed",
-      "group": 2,
-      "name": "Your Lifestyle Already Designed",
-      "links": [
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/books-social",
-      "group": 2,
-      "name": "Books",
-      "links": [
-        "/social-sciences"
-      ]
-    },
-    {
       "id": "/chaos",
       "group": 2,
       "name": "Chaos",
       "links": [
         "/social-sciences",
-        "/systems",
         "/systems"
-      ]
-    },
-    {
-      "id": "/systems",
-      "group": 2,
-      "name": "Systems thinking",
-      "links": [
-        "/social-sciences",
-        "/natural-sciences",
-        "/chaos",
-        "/chaos",
-        "/system-design"
       ]
     },
     {
@@ -1141,7 +1134,7 @@
         "/software-analogies",
         "/software-quality",
         "/technology-and-time",
-        "/thought-on-swe"
+        "/thoughts-on-swe"
       ]
     },
     {
@@ -1193,6 +1186,7 @@
         "/compsci",
         "/for-new-programmers",
         "/functional-programming",
+        "/the-tao-of-programming",
         "/algorithms",
         "/code",
         "/data-structures",
@@ -1415,7 +1409,7 @@
         "/philosophy",
         "/free-will",
         "/you-can-always-choose-your-way",
-        "/on-decision-making",
+        "/decisions",
         "/success-and-failure",
         "/social-sciences"
       ]
@@ -1575,7 +1569,8 @@
         "/good-and-evil",
         "/pleasure-vs-possibility",
         "/you-can-always-choose-your-way",
-        "/on-decision-making"
+        "/decisions",
+        "/decisions"
       ]
     },
     {
@@ -1712,6 +1707,7 @@
         "/uncut-wood",
         "/wei-wu-wei",
         "/wind-and-rain",
+        "/philosophy",
         "/politics"
       ]
     },
@@ -1840,7 +1836,7 @@
       "name": "Ship It",
       "links": [
         "/design",
-        "/thought-on-swe"
+        "/thoughts-on-swe"
       ]
     },
     {
@@ -1867,6 +1863,32 @@
         "/turk-mirasi",
         "/ideal-insan",
         "/siir"
+      ]
+    },
+    {
+      "id": "/going-blind",
+      "group": 3,
+      "name": "Going Blind",
+      "links": [
+        "/healthcare",
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/how-to-deal-with-pain",
+      "group": 3,
+      "name": "How to deal with Extreme Physical Pain",
+      "links": [
+        "/healthcare",
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/sleep",
+      "group": 3,
+      "name": "How to sleep better?",
+      "links": [
+        "/healthcare"
       ]
     },
     {
@@ -1965,7 +1987,7 @@
         "/questions",
         "/truth",
         "/insight-and-strength",
-        "/on-decision-making",
+        "/decisions",
         "/problem-solving",
         "/skills"
       ]
@@ -1989,6 +2011,7 @@
       "links": [
         "/decisions",
         "/do-not-lie-to-yourself",
+        "/philosophy",
         "/politics"
       ]
     },
@@ -1997,24 +2020,7 @@
       "group": 3,
       "name": "Do without doing - Wu Wei 無爲",
       "links": [
-        "/decisions",
-        "/on-decision-making"
-      ]
-    },
-    {
-      "id": "/on-decision-making",
-      "group": 3,
-      "name": "On Decision Making",
-      "links": [
-        "/decisions",
-        "/do-not-lie-to-yourself",
-        "/choice",
-        "/free-will",
-        "/freedom",
-        "/critical-thinking",
-        "/do-without-doing",
-        "/get-things-done",
-        "/skills"
+        "/decisions"
       ]
     },
     {
@@ -2048,32 +2054,6 @@
       "name": "On writing",
       "links": [
         "/communication"
-      ]
-    },
-    {
-      "id": "/going-blind",
-      "group": 3,
-      "name": "Going Blind",
-      "links": [
-        "/health"
-      ]
-    },
-    {
-      "id": "/how-to-deal-with-pain",
-      "group": 3,
-      "name": "How to deal with Extreme Physical Pain",
-      "links": [
-        "/health",
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/sleep",
-      "group": 3,
-      "name": "How to sleep better?",
-      "links": [
-        "/health",
-        "/natural-sciences"
       ]
     },
     {
@@ -2319,31 +2299,6 @@
       ]
     },
     {
-      "id": "/four-day-workweek",
-      "group": 3,
-      "name": "Four Day Workweek",
-      "links": [
-        "/economics",
-        "/in-praise-of-idleness"
-      ]
-    },
-    {
-      "id": "/the-tragedy-of-the-commons",
-      "group": 3,
-      "name": "The Tragedy Of The Commons",
-      "links": [
-        "/economics"
-      ]
-    },
-    {
-      "id": "/wage-theft",
-      "group": 3,
-      "name": "Wage Theft",
-      "links": [
-        "/economics"
-      ]
-    },
-    {
       "id": "/aes",
       "group": 3,
       "name": "AES",
@@ -2559,9 +2514,9 @@
       ]
     },
     {
-      "id": "/thought-on-swe",
+      "id": "/thoughts-on-swe",
       "group": 3,
-      "name": "Thoughts on software",
+      "name": "On Software",
       "links": [
         "/thoughts-on-tech",
         "/ship-it"
@@ -2789,6 +2744,15 @@
       "name": "Functional Programming",
       "links": [
         "/programming"
+      ]
+    },
+    {
+      "id": "/the-tao-of-programming",
+      "group": 3,
+      "name": "The Tao of Programming",
+      "links": [
+        "/programming",
+        "/humor"
       ]
     },
     {
@@ -3142,7 +3106,7 @@
       "links": [
         "/choice",
         "/freedom",
-        "/on-decision-making"
+        "/decisions"
       ]
     },
     {
@@ -3456,7 +3420,7 @@
         "/classics",
         "/do-the-right-thing",
         "/character",
-        "/on-decision-making"
+        "/decisions"
       ]
     },
     {
@@ -5113,7 +5077,7 @@
     },
     {
       "source": "/natural-sciences",
-      "target": "/akins-laws-of-spacecraft"
+      "target": "/healthcare"
     },
     {
       "source": "/natural-sciences",
@@ -5172,6 +5136,10 @@
       "target": "/the-true-size-of-africa"
     },
     {
+      "source": "/natural-sciences",
+      "target": "/akins-laws-of-spacecraft"
+    },
+    {
       "source": "/skills",
       "target": "/business"
     },
@@ -5185,7 +5153,7 @@
     },
     {
       "source": "/skills",
-      "target": "/health"
+      "target": "/drowning-does-not-look-dramatic"
     },
     {
       "source": "/skills",
@@ -5221,11 +5189,11 @@
     },
     {
       "source": "/skills",
-      "target": "/mastery"
+      "target": "/driving"
     },
     {
       "source": "/skills",
-      "target": "/drowning-does-not-look-dramatic"
+      "target": "/motocycles"
     },
     {
       "source": "/skills",
@@ -5253,15 +5221,7 @@
     },
     {
       "source": "/skills",
-      "target": "/the-tao-of-programming"
-    },
-    {
-      "source": "/skills",
       "target": "/used-car-checklist"
-    },
-    {
-      "source": "/skills",
-      "target": "/driving"
     },
     {
       "source": "/skills",
@@ -5269,7 +5229,7 @@
     },
     {
       "source": "/skills",
-      "target": "/motocycles"
+      "target": "/mastery"
     },
     {
       "source": "/skills",
@@ -5293,6 +5253,10 @@
     },
     {
       "source": "/social-sciences",
+      "target": "/in-praise-of-idleness"
+    },
+    {
+      "source": "/social-sciences",
       "target": "/metaphors"
     },
     {
@@ -5305,7 +5269,11 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/in-praise-of-idleness"
+      "target": "/books-social"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/systems"
     },
     {
       "source": "/social-sciences",
@@ -5317,23 +5285,15 @@
     },
     {
       "source": "/social-sciences",
+      "target": "/wage-theft"
+    },
+    {
+      "source": "/social-sciences",
       "target": "/wasted-talent"
     },
     {
       "source": "/social-sciences",
-      "target": "/your-lifestyle-already-designed"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/books-social"
-    },
-    {
-      "source": "/social-sciences",
       "target": "/chaos"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/systems"
     },
     {
       "source": "/social-sciences",
@@ -5632,6 +5592,18 @@
       "target": "/turkce"
     },
     {
+      "source": "/healthcare",
+      "target": "/going-blind"
+    },
+    {
+      "source": "/healthcare",
+      "target": "/how-to-deal-with-pain"
+    },
+    {
+      "source": "/healthcare",
+      "target": "/sleep"
+    },
+    {
       "source": "/business",
       "target": "/company-culture"
     },
@@ -5688,10 +5660,6 @@
       "target": "/do-without-doing"
     },
     {
-      "source": "/decisions",
-      "target": "/on-decision-making"
-    },
-    {
       "source": "/communication",
       "target": "/how-to-pitch"
     },
@@ -5706,18 +5674,6 @@
     {
       "source": "/communication",
       "target": "/write-better"
-    },
-    {
-      "source": "/health",
-      "target": "/going-blind"
-    },
-    {
-      "source": "/health",
-      "target": "/how-to-deal-with-pain"
-    },
-    {
-      "source": "/health",
-      "target": "/sleep"
     },
     {
       "source": "/psychology",
@@ -5828,18 +5784,6 @@
       "target": "/since-big-bang"
     },
     {
-      "source": "/economics",
-      "target": "/four-day-workweek"
-    },
-    {
-      "source": "/economics",
-      "target": "/the-tragedy-of-the-commons"
-    },
-    {
-      "source": "/economics",
-      "target": "/wage-theft"
-    },
-    {
       "source": "/digital-security",
       "target": "/aes"
     },
@@ -5945,7 +5889,7 @@
     },
     {
       "source": "/thoughts-on-tech",
-      "target": "/thought-on-swe"
+      "target": "/thoughts-on-swe"
     },
     {
       "source": "/databases",
@@ -6050,6 +5994,10 @@
     {
       "source": "/programming",
       "target": "/functional-programming"
+    },
+    {
+      "source": "/programming",
+      "target": "/the-tao-of-programming"
     },
     {
       "source": "/programming",
@@ -6985,7 +6933,7 @@
     },
     {
       "source": "/ship-it",
-      "target": "/thought-on-swe"
+      "target": "/thoughts-on-swe"
     },
     {
       "source": "/languages",
@@ -7005,7 +6953,7 @@
     },
     {
       "source": "/do-not-lie-to-yourself",
-      "target": "/on-decision-making"
+      "target": "/decisions"
     },
     {
       "source": "/the-art-of-war",
@@ -7041,7 +6989,7 @@
     },
     {
       "source": "/choice",
-      "target": "/on-decision-making"
+      "target": "/decisions"
     },
     {
       "source": "/free-will",
@@ -7049,7 +6997,7 @@
     },
     {
       "source": "/free-will",
-      "target": "/on-decision-making"
+      "target": "/decisions"
     },
     {
       "source": "/good-and-evil",
@@ -7061,7 +7009,7 @@
     },
     {
       "source": "/freedom",
-      "target": "/on-decision-making"
+      "target": "/decisions"
     },
     {
       "source": "/freedom",
@@ -7077,11 +7025,23 @@
     },
     {
       "source": "/philosophy",
-      "target": "/critical-thinking"
+      "target": "/tao-te-ching"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/going-blind"
     },
     {
       "source": "/philosophy",
       "target": "/how-to-deal-with-pain"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/critical-thinking"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/do-the-right-thing"
     },
     {
       "source": "/philosophy",
@@ -7164,10 +7124,6 @@
       "target": "/critical-thinking"
     },
     {
-      "source": "/tao-te-ching",
-      "target": "/politics"
-    },
-    {
       "source": "/datasets",
       "target": "/statistics"
     },
@@ -7205,10 +7161,6 @@
     },
     {
       "source": "/natural-sciences",
-      "target": "/sleep"
-    },
-    {
-      "source": "/natural-sciences",
       "target": "/since-big-bang"
     },
     {
@@ -7229,11 +7181,19 @@
     },
     {
       "source": "/critical-thinking",
-      "target": "/on-decision-making"
+      "target": "/decisions"
     },
     {
       "source": "/critical-thinking",
       "target": "/problem-solving"
+    },
+    {
+      "source": "/decisions",
+      "target": "/choice"
+    },
+    {
+      "source": "/decisions",
+      "target": "/get-things-done"
     },
     {
       "source": "/do-one-thing-at-a-time-and-do-it-well",
@@ -7246,14 +7206,6 @@
     {
       "source": "/do-the-right-thing",
       "target": "/politics"
-    },
-    {
-      "source": "/do-without-doing",
-      "target": "/on-decision-making"
-    },
-    {
-      "source": "/on-decision-making",
-      "target": "/get-things-done"
     },
     {
       "source": "/driving",
@@ -7285,10 +7237,6 @@
     },
     {
       "source": "/skills",
-      "target": "/on-decision-making"
-    },
-    {
-      "source": "/skills",
       "target": "/a-good-life"
     },
     {
@@ -7296,12 +7244,12 @@
       "target": "/how-to-start"
     },
     {
-      "source": "/chaos",
-      "target": "/systems"
+      "source": "/economics",
+      "target": "/wage-theft"
     },
     {
-      "source": "/four-day-workweek",
-      "target": "/in-praise-of-idleness"
+      "source": "/politics",
+      "target": "/tao-te-ching"
     },
     {
       "source": "/behavioral-psychology",

@@ -131,6 +131,7 @@
     "philosophy"
   ],
   "/choice": [
+    "decisions",
     "philosophy"
   ],
   "/experiences-vs-materials": [
@@ -306,7 +307,9 @@
     "tao-te-ching"
   ],
   "/tao-te-ching": [
-    "poetry"
+    "phil",
+    "poetry",
+    "pols"
   ],
   "/the-great-leader": [
     "tao-te-ching"
@@ -464,6 +467,20 @@
   "/fluid-field-boundaries": [
     "natural-sciences"
   ],
+  "/going-blind": [
+    "healthcare",
+    "phil"
+  ],
+  "/healthcare": [
+    "natural-sciences"
+  ],
+  "/how-to-deal-with-pain": [
+    "healthcare",
+    "phil"
+  ],
+  "/sleep": [
+    "healthcare"
+  ],
   "/inertia": [
     "natural-sciences",
     "psy"
@@ -546,21 +563,18 @@
     "skills"
   ],
   "/decisions": [
-    "skills"
+    "skills",
+    "top"
   ],
   "/do-one-thing-at-a-time-and-do-it-well": [
     "decisions"
   ],
   "/do-the-right-thing": [
-    "decisions"
+    "decisions",
+    "phil"
   ],
   "/do-without-doing": [
     "decisions"
-  ],
-  "/on-decision-making": [
-    "decisions",
-    "skills",
-    "top"
   ],
   "/drawing": [
     "skills"
@@ -579,20 +593,6 @@
   ],
   "/growing-plants": [
     "skills"
-  ],
-  "/going-blind": [
-    "health"
-  ],
-  "/health": [
-    "skills"
-  ],
-  "/how-to-deal-with-pain": [
-    "health",
-    "phil"
-  ],
-  "/sleep": [
-    "health",
-    "nat"
   ],
   "/how-to-grow-old-russell": [
     "phil",
@@ -639,11 +639,6 @@
   "/teaching": [
     "skills"
   ],
-  "/the-tao-of-programming": [
-    "humor",
-    "skills",
-    "top"
-  ],
   "/used-car-checklist": [
     "skills"
   ],
@@ -659,15 +654,6 @@
   ],
   "/economics": [
     "social-sciences"
-  ],
-  "/four-day-workweek": [
-    "economics"
-  ],
-  "/the-tragedy-of-the-commons": [
-    "economics"
-  ],
-  "/wage-theft": [
-    "economics"
   ],
   "/farming-trap": [
     "history"
@@ -866,11 +852,11 @@
   "/urban-planning": [
     "social-sciences"
   ],
-  "/wasted-talent": [
+  "/wage-theft": [
+    "economics",
     "social-sciences"
   ],
-  "/your-lifestyle-already-designed": [
-    "soc",
+  "/wasted-talent": [
     "social-sciences"
   ],
   "/concurrency": [
@@ -1547,6 +1533,11 @@
   "/vga-driver": [
     "projects"
   ],
+  "/the-tao-of-programming": [
+    "humor",
+    "programming",
+    "top"
+  ],
   "/keyboard-shortcuts": [
     "tools"
   ],
@@ -1637,7 +1628,7 @@
   "/technology-and-time": [
     "thoughts-on-tech"
   ],
-  "/thought-on-swe": [
+  "/thoughts-on-swe": [
     "thoughts-on-tech"
   ],
   "/thoughts-on-tech": [

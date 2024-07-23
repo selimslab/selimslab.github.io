@@ -316,7 +316,15 @@
     }
   },
   "/natural-sciences": {
-    "/akins-laws-of-spacecraft": {
+    "/healthcare": {
+      "/going-blind": {
+      },
+      "/healthcare": {
+      },
+      "/how-to-deal-with-pain": {
+      },
+      "/sleep": {
+      }
     },
     "/astronomy": {
     },
@@ -347,6 +355,8 @@
     "/the-piston": {
     },
     "/the-true-size-of-africa": {
+    },
+    "/akins-laws-of-spacecraft": {
     }
   },
   "/skills": {
@@ -384,8 +394,6 @@
       "/do-the-right-thing": {
       },
       "/do-without-doing": {
-      },
-      "/on-decision-making": {
       }
     },
     "/communication": {
@@ -400,15 +408,7 @@
       "/write-better": {
       }
     },
-    "/health": {
-      "/going-blind": {
-      },
-      "/health": {
-      },
-      "/how-to-deal-with-pain": {
-      },
-      "/sleep": {
-      }
+    "/drowning-does-not-look-dramatic": {
     },
     "/exercise": {
     },
@@ -426,9 +426,9 @@
     },
     "/making-videos": {
     },
-    "/mastery": {
+    "/driving": {
     },
-    "/drowning-does-not-look-dramatic": {
+    "/motocycles": {
     },
     "/mountaineering": {
     },
@@ -444,15 +444,11 @@
     },
     "/teaching": {
     },
-    "/the-tao-of-programming": {
-    },
     "/used-car-checklist": {
-    },
-    "/driving": {
     },
     "/drawing": {
     },
-    "/motocycles": {
+    "/mastery": {
     },
     "/cooking": {
     }
@@ -573,14 +569,8 @@
       }
     },
     "/economics": {
-      "/economics": {
-      },
-      "/four-day-workweek": {
-      },
-      "/the-tragedy-of-the-commons": {
-      },
-      "/wage-theft": {
-      }
+    },
+    "/in-praise-of-idleness": {
     },
     "/metaphors": {
     },
@@ -588,23 +578,21 @@
     },
     "/social-class": {
     },
-    "/social-sciences": {
+    "/books-social": {
     },
-    "/in-praise-of-idleness": {
+    "/systems": {
     },
     "/tolerate-anything-except-outgroup": {
     },
     "/urban-planning": {
     },
+    "/wage-theft": {
+    },
     "/wasted-talent": {
-    },
-    "/your-lifestyle-already-designed": {
-    },
-    "/books-social": {
     },
     "/chaos": {
     },
-    "/systems": {
+    "/social-sciences": {
     },
     "/being-poor": {
     }
@@ -667,7 +655,7 @@
       },
       "/technology-and-time": {
       },
-      "/thought-on-swe": {
+      "/thoughts-on-swe": {
       },
       "/thoughts-on-tech": {
       }
@@ -742,6 +730,8 @@
       "/functional-programming": {
       },
       "/programming": {
+      },
+      "/the-tao-of-programming": {
       },
       "/algorithms": {
         "/algo-easy": {
