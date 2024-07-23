@@ -28,6 +28,3 @@ Backup Systems
 Criticality
 
 Emergence
-
-[[chaos]]
-

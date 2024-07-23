@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b7b0528bd356e404",
+        "id": "255e1e72b54d2454",
         "type": "tabs",
         "children": [
           {
-            "id": "b80a8a4530bb837f",
+            "id": "ae96cf92beff84fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_NOTES/_misc/interviews.md",
+                "file": "_NOTES/tech/thoughts-on-tech/44-engineering-management-lessons.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_NOTES/_misc/interviews.md",
+                "file": "_NOTES/tech/thoughts-on-tech/44-engineering-management-lessons.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_NOTES/_misc/interviews.md",
+                "file": "_NOTES/tech/thoughts-on-tech/44-engineering-management-lessons.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_NOTES/_misc/interviews.md"
+                "file": "_NOTES/tech/thoughts-on-tech/44-engineering-management-lessons.md"
               }
             }
           }
@@ -158,10 +158,26 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "bc86af8c7183ead1",
+  "active": "ae96cf92beff84fa",
   "lastOpenFiles": [
-    "_NOTES/_misc/connect.md",
+    "_NOTES/tech/thoughts-on-tech/a-free-web-again.md",
+    "_NOTES/tech/thoughts-on-tech/choose-boring-tech.md",
+    "_NOTES/tech/thoughts-on-tech/hacker-laws.md",
+    "_NOTES/tech/thoughts-on-tech/hijacked-minds.md",
+    "_NOTES/tech/thoughts-on-tech/minimal-tech.md",
+    "_NOTES/tech/thoughts-on-tech/social-media.md",
+    "_NOTES/tech/thoughts-on-tech/software-analogies.md",
+    "_NOTES/tech/thoughts-on-tech/software-quality.md",
+    "_NOTES/tech/thoughts-on-tech/technology-and-time.md",
+    "_NOTES/tech/thoughts-on-tech/thoughts-on-swe.md",
+    "_NOTES/tech/thoughts-on-tech/thoughts-on-tech.md",
+    "_NOTES/social-sciences/systems.md",
+    "_NOTES/social-sciences/economics/economics.md",
+    "_NOTES/social-sciences/your-lifestyle-already-designed.md",
+    "_NOTES/social-sciences/wasted-talent.md",
+    "_NOTES/social-sciences/urban-planning.md",
     "_NOTES/_misc/interviews.md",
+    "_NOTES/_misc/connect.md",
     "_NOTES/_misc/tax.md",
     "_NOTES/_misc/cz/flat.md",
     "_NOTES/_misc/autofill.md",
@@ -174,23 +190,7 @@
     "_NOTES/social-sciences/psychology/work/setting-rules.md",
     "_NOTES/social-sciences/psychology/work/praise-and-motivation.md",
     "_NOTES/social-sciences/psychology/work/overcoming-obstacles.md",
-    "_NOTES/social-sciences/psychology/work/how-to-start.md",
-    "_NOTES/social-sciences/psychology/work/distractions.md",
-    "_NOTES/social-sciences/psychology/work/flow.md",
     "_NOTES/social-sciences/psychology/work",
-    "_NOTES/social-sciences/psychology/cognitive-biases/bias-for-unhappiness.md",
-    "_NOTES/social-sciences/psychology/social-class.md",
-    "_NOTES/social-sciences/social-class.md",
-    "_NOTES/social-sciences/psychology/setting-rules.md",
-    "_NOTES/social-sciences/psychology/relationships.md",
-    "_NOTES/social-sciences/psychology/psychology.md",
-    "_NOTES/social-sciences/psychology/procrastination.md",
-    "_NOTES/social-sciences/psychology/praise-and-motivation.md",
-    "_NOTES/skills/leadership.md",
-    "_NOTES/social-sciences/psychology/emotions/loneliness.md",
-    "_NOTES/social-sciences/psychology/persuasion.md",
-    "_NOTES/social-sciences/psychology/overcoming-obstacles.md",
-    "_NOTES/social-sciences/psychology/how-to-start.md",
     "_site/_NOTES/social-sciences/psychology/emotions/emotions/index.html",
     "_site/_NOTES/social-sciences/psychology/emotions/emotions",
     "_site/_NOTES/social-sciences/psychology/emotions",

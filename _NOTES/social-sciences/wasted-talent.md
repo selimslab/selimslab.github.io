@@ -1,7 +1,7 @@
 ---
 ---
 
-<https://ourworldindata.org/talent-is-everywhere-opportunity-is-not>
+[Talent is everywhere, opportunity is not. We are all losing out because of this - Our World in Data](https://ourworldindata.org/talent-is-everywhere-opportunity-is-not)
 
 Billions of children grow up in appalling poverty. 
 
