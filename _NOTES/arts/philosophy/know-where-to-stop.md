@@ -13,6 +13,4 @@
 
 Never miss a good chance to shut up
 
-## See also 
-
 [[wind-and-rain]]

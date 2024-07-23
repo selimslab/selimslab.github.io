@@ -7,6 +7,6 @@
 
 — Miguel de Cervantes, Don Quixote
 
-Sounds like gambler's fallacy but hopeful  
+Gambler's fallacy but hopeful  
 
 [[all-is-one]]
