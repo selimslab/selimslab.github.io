@@ -73,10 +73,6 @@
       "path": "_NOTES/tech/thoughts-on-tech/thoughts-on-tech.md"
     },
     {
-      "basename": "thoughts-on-swe",
-      "path": "_NOTES/tech/thoughts-on-tech/thoughts-on-swe.md"
-    },
-    {
       "basename": "software-quality",
       "path": "_NOTES/tech/thoughts-on-tech/software-quality.md"
     },
@@ -101,10 +97,6 @@
       "path": "_NOTES/tech/thoughts-on-tech/hijacked-minds.md"
     },
     {
-      "basename": "easy-vs-hard-in-cs",
-      "path": "_NOTES/tech/programming/easy-vs-hard-in-cs.md"
-    },
-    {
       "basename": "hacker-laws",
       "path": "_NOTES/tech/thoughts-on-tech/hacker-laws.md"
     },
@@ -119,26 +111,6 @@
     {
       "basename": "44-engineering-management-lessons",
       "path": "_NOTES/tech/thoughts-on-tech/44-engineering-management-lessons.md"
-    },
-    {
-      "basename": "compsci",
-      "path": "_NOTES/tech/programming/compsci.md"
-    },
-    {
-      "basename": "for-new-programmers",
-      "path": "_NOTES/tech/programming/for-new-programmers.md"
-    },
-    {
-      "basename": "programming",
-      "path": "_NOTES/tech/programming/programming.md"
-    },
-    {
-      "basename": "the-tao-of-programming",
-      "path": "_NOTES/tech/programming/the-tao-of-programming.md"
-    },
-    {
-      "basename": "tools",
-      "path": "_NOTES/tech/programming/tools.md"
     },
     {
       "basename": "authentication",
