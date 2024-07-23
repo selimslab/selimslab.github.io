@@ -19,6 +19,8 @@ Sanitize
 
 Isolate 
 
+Parametrize queries to prevent SQL injection
+
 Don't try to roll your own security solutions, it's a community effort 
 
 
@@ -28,6 +30,6 @@ also see:
 
 [Best practices for managing & storing secrets like API keys and other credentials \[2020\]](https://blog.gitguardian.com/secrets-api-management/#secrets-as-service)
 
-<https://stackoverflow.com/questions/2794016/what-should-every-programmer-know-about-security>
+[What should every programmer know about security? - Stack Overflow](https://stackoverflow.com/questions/2794016/what-should-every-programmer-know-about-security)
 
-<https://stackoverflow.com/questions/tagged/security>
+[Newest 'security' Questions - Stack Overflow](https://stackoverflow.com/questions/tagged/security)

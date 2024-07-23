@@ -1,6 +1,98 @@
 {
   "recentFiles": [
     {
+      "basename": "authentication",
+      "path": "_NOTES/tech/security/authentication.md"
+    },
+    {
+      "basename": "authorization",
+      "path": "_NOTES/tech/security/authorization.md"
+    },
+    {
+      "basename": "certificates",
+      "path": "_NOTES/tech/security/certificates.md"
+    },
+    {
+      "basename": "cookies",
+      "path": "_NOTES/tech/security/cookies.md"
+    },
+    {
+      "basename": "cors",
+      "path": "_NOTES/tech/security/cors.md"
+    },
+    {
+      "basename": "csrf",
+      "path": "_NOTES/tech/security/csrf.md"
+    },
+    {
+      "basename": "openssl-encrypt",
+      "path": "_NOTES/tech/security/openssl-encrypt.md"
+    },
+    {
+      "basename": "public-key-cryptography",
+      "path": "_NOTES/tech/security/public-key-cryptography.md"
+    },
+    {
+      "basename": "security",
+      "path": "_NOTES/tech/security/security.md"
+    },
+    {
+      "basename": "security-heuristics",
+      "path": "_NOTES/tech/security/security-heuristics.md"
+    },
+    {
+      "basename": "store-passwords",
+      "path": "_NOTES/tech/security/store-passwords.md"
+    },
+    {
+      "basename": "transport-layer-security",
+      "path": "_NOTES/tech/security/transport-layer-security.md"
+    },
+    {
+      "basename": "xss",
+      "path": "_NOTES/tech/security/xss.md"
+    },
+    {
+      "basename": "lsm-trees",
+      "path": "_NOTES/tech/databases/lsm-trees.md"
+    },
+    {
+      "basename": "leaderless-replication",
+      "path": "_NOTES/tech/databases/leaderless-replication.md"
+    },
+    {
+      "basename": "db-data-structures",
+      "path": "_NOTES/tech/databases/db-data-structures.md"
+    },
+    {
+      "basename": "b-trees",
+      "path": "_NOTES/tech/databases/b-trees.md"
+    },
+    {
+      "basename": "acid",
+      "path": "_NOTES/tech/databases/acid.md"
+    },
+    {
+      "basename": "databases",
+      "path": "_NOTES/tech/databases/databases.md"
+    },
+    {
+      "basename": "replication",
+      "path": "_NOTES/tech/databases/replication.md"
+    },
+    {
+      "basename": "partitioning",
+      "path": "_NOTES/tech/databases/partitioning.md"
+    },
+    {
+      "basename": "sql-tips",
+      "path": "_NOTES/tech/databases/sql-tips.md"
+    },
+    {
+      "basename": "single-leader",
+      "path": "_NOTES/tech/databases/single-leader.md"
+    },
+    {
       "basename": "go",
       "path": "_NOTES/tech/programming/programming-languages/go.md"
     },
@@ -31,10 +123,6 @@
     {
       "basename": "respect",
       "path": "_NOTES/social-sciences/psychology/emotions/respect.md"
-    },
-    {
-      "basename": "security-heuristics",
-      "path": "_NOTES/tech/digital-security/security-heuristics.md"
     },
     {
       "basename": "ship-it",
@@ -111,90 +199,6 @@
     {
       "basename": "usability-testing",
       "path": "_NOTES/tech/ux/usability-testing.md"
-    },
-    {
-      "basename": "teamwork",
-      "path": "_NOTES/arts/philosophy/work/teamwork.md"
-    },
-    {
-      "basename": "take-a-walk",
-      "path": "_NOTES/arts/philosophy/take-a-walk.md"
-    },
-    {
-      "basename": "submarine-shower",
-      "path": "_NOTES/skills/submarine-shower.md"
-    },
-    {
-      "basename": "stages-of-grief",
-      "path": "_NOTES/social-sciences/psychology/stages-of-grief.md"
-    },
-    {
-      "basename": "probability-and-statistics",
-      "path": "_NOTES/math/probability-and-statistics.md"
-    },
-    {
-      "basename": "software-analogies",
-      "path": "_NOTES/tech/thoughts-on-tech/software-analogies.md"
-    },
-    {
-      "basename": "no-regrets-no-worries",
-      "path": "_NOTES/arts/philosophy/time/no-regrets-no-worries.md"
-    },
-    {
-      "basename": "negotiations",
-      "path": "_NOTES/skills/communication/negotiations.md"
-    },
-    {
-      "basename": "modern-greek-alphabet",
-      "path": "_NOTES/arts/languages/modern-greek-alphabet.md"
-    },
-    {
-      "basename": "minimal-tech",
-      "path": "_NOTES/tech/thoughts-on-tech/minimal-tech.md"
-    },
-    {
-      "basename": "metaphors",
-      "path": "_NOTES/social-sciences/metaphors.md"
-    },
-    {
-      "basename": "local-maximum",
-      "path": "_NOTES/tech/programming/algorithms/local-maximum.md"
-    },
-    {
-      "basename": "kafka",
-      "path": "_NOTES/tech/distributed-systems/kafka.md"
-    },
-    {
-      "basename": "how-to-start-a-business",
-      "path": "_NOTES/skills/business/how-to-start-a-business.md"
-    },
-    {
-      "basename": "how-to-start",
-      "path": "_NOTES/social-sciences/psychology/work/how-to-start.md"
-    },
-    {
-      "basename": "for-new-programmers",
-      "path": "_NOTES/tech/programming/for-new-programmers.md"
-    },
-    {
-      "basename": "flow",
-      "path": "_NOTES/social-sciences/psychology/work/flow.md"
-    },
-    {
-      "basename": "exercise",
-      "path": "_NOTES/skills/exercise.md"
-    },
-    {
-      "basename": "equations-that-changed-the-world",
-      "path": "_NOTES/math/equations-that-changed-the-world.md"
-    },
-    {
-      "basename": "economics",
-      "path": "_NOTES/social-sciences/economics.md"
-    },
-    {
-      "basename": "easy-vs-hard-in-cs",
-      "path": "_NOTES/tech/thoughts-on-tech/easy-vs-hard-in-cs.md"
     }
   ],
   "omittedPaths": []

@@ -1,6 +1,4 @@
 ---
-
-
 ---
 
 A key is a piece of information, usually a string of numbers or letters
@@ -32,4 +30,6 @@ Alice
 3. Verifies the signature using Bob's public key 
 
 
-<https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange>
+[Diffie–Hellman key exchange - Wikipedia](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)
+
+[A Stick Figure Guide to the Advanced Encryption Standard (AES)](http://www.moserware.com/2009/09/stick-figure-guide-to-advanced.html)

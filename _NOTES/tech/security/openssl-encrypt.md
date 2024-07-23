@@ -22,3 +22,5 @@ openssl enc -d -aes-256-cbc -a -in file.enc -out file.txt
 256-bit AES ecryption with Cipher Block Chaining (CBC) is about as secure as it gets
 
 from <https://superuser.com/a/370412>
+
+[A Stick Figure Guide to the Advanced Encryption Standard (AES)](http://www.moserware.com/2009/09/stick-figure-guide-to-advanced.html)

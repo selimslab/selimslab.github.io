@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6cdffa2d1cdfc647",
+        "id": "277f62c6ace8808f",
         "type": "tabs",
         "children": [
           {
-            "id": "6209cbcd232c380e",
+            "id": "64455aacbcb18f78",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_NOTES/tech/programming/programming-languages/go.md",
+                "file": "_NOTES/tech/security/authentication.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_NOTES/tech/security/authentication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_NOTES/tech/security/authentication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jekyll.md"
+                "file": "_NOTES/tech/security/authentication.md"
               }
             }
           }
@@ -158,39 +160,40 @@
   },
   "active": "bc86af8c7183ead1",
   "lastOpenFiles": [
+    "_NOTES/tech/security/authorization.md",
+    "_NOTES/tech/security/certificates.md",
+    "_NOTES/tech/security/cookies.md",
+    "_NOTES/tech/security/cors.md",
+    "_NOTES/tech/security/csrf.md",
+    "_NOTES/tech/security/openssl-encrypt.md",
+    "_NOTES/tech/security/public-key-cryptography.md",
+    "_NOTES/tech/security/security.md",
+    "_NOTES/tech/security/security-heuristics.md",
+    "_NOTES/tech/digital-security/Untitled.md",
+    "_NOTES/tech/security/store-passwords.md",
+    "_NOTES/tech/security/transport-layer-security.md",
+    "_NOTES/tech/security/xss.md",
+    "_NOTES/tech/digital-security/sql-injection.md",
+    "_NOTES/tech/digital-security/aes.md",
+    "_NOTES/tech/databases/lsm-trees.md",
+    "_NOTES/tech/databases/leaderless-replication.md",
+    "_NOTES/tech/databases/db-data-structures.md",
+    "_NOTES/tech/databases/b-trees.md",
+    "_NOTES/tech/databases/acid.md",
+    "_NOTES/tech/databases/databases.md",
+    "_NOTES/tech/databases/replication.md",
+    "_NOTES/tech/databases/partitioning.md",
+    "_NOTES/tech/databases/normalization.md",
+    "_NOTES/tech/databases/sql-tips.md",
+    "_NOTES/tech/databases/single-leader.md",
     "_site/probability-and-statistics/index.html",
     "_site/probability-and-statistics",
     "_site/assets/static/img/plain-pooh.jpg",
     "_site/assets/static/img/normal.png",
-    "_NOTES/tech/programming/tools/jekyll.md",
-    "_NOTES/tech/programming/programming-languages/go.md",
-    "jekyll.md",
-    "_NOTES/math/normal-distribution.md",
     "assets/static/img/std-sigma-rule.png",
     "assets/static/img/normal.png",
-    "_NOTES/skills/drawing.md",
     "assets/static/img/normal.png.crdownload",
-    "_NOTES/skills/business/marketing.md",
-    "_NOTES/skills/outdoors.md",
-    "_NOTES/skills/communication/public-speaking.md",
-    "_NOTES/social-sciences/psychology/emotions/respect.md",
-    "_NOTES/tech/digital-security/security-heuristics.md",
-    "_NOTES/arts/design/ship-it.md",
-    "_NOTES/social-sciences/social-change.md",
-    "_NOTES/social-sciences/psychology/emotions/hope.md",
-    "_NOTES/arts/philosophy/happiness.md",
-    "_NOTES/social-sciences/psychology/gaslighting.md",
-    "_NOTES/skills/growing-plants.md",
-    "_NOTES/tech/thoughts-on-tech/software-quality.md",
-    "_NOTES/natural-sciences/solar-system.md",
-    "_NOTES/lists/ideas.md",
-    "_NOTES/natural-sciences/classical-physics.md",
-    "_NOTES/natural-sciences/natural-sciences.md",
-    "_NOTES/social-sciences/urban-planning.md",
-    "_NOTES/natural-sciences/the-piston.md",
     "assets/static/img/the-piston.gif",
-    "_NOTES/tech/thoughts-on-tech/thoughts-on-swe.md",
-    "_NOTES/skills/problem-solving.md",
     "assets/static/img/plain-pooh.jpg",
     "assets/static/img/plain-pooh.jpg.crdownload",
     "assets/static/img/user-testing-diminshing-returns-curve.gif",
@@ -203,7 +206,6 @@
     "_site/thoughts-on-swe/index.html",
     "_site/thoughts-on-swe",
     "_site/healthcare/index.html",
-    "_site/healthcare",
     "Untitled.canvas"
   ]
 }

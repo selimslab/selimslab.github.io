@@ -1,8 +1,6 @@
 ---
 tags: ds
 ---
-
-
 ### Advantages 
 
 More compact, a key is stored once 
