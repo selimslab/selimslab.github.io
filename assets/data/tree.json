@@ -36,6 +36,8 @@
       "/philosophy": {
       },
       "/questions": {
+        "/questions": {
+        }
       },
       "/search-for-meaning": {
       },
@@ -50,6 +52,8 @@
       "/truth": {
       },
       "/balance": {
+        "/balance": {
+        },
         "/know-where-to-stop": {
         },
         "/moderation": {
@@ -87,6 +91,8 @@
         "/the-morning": {
         },
         "/the-past": {
+        },
+        "/time": {
         }
       },
       "/work": {
@@ -542,6 +548,8 @@
         },
         "/courage": {
         },
+        "/emotions": {
+        },
         "/empathy": {
         },
         "/hope": {
@@ -635,6 +643,8 @@
       },
       "/csrf": {
       },
+      "/digital-security": {
+      },
       "/openssl-encrypt": {
       },
       "/public-key-cryptography": {
@@ -680,34 +690,6 @@
       "/thoughts-on-tech": {
       }
     },
-    "/distributed-systems": {
-      "/armstrong-thesis": {
-      },
-      "/consistent-hashing": {
-      },
-      "/designing-data-intensive-apps": {
-      },
-      "/detect-a-node-failure": {
-      },
-      "/distributed-data": {
-      },
-      "/distributed-design-patterns": {
-      },
-      "/distributed-systems": {
-      },
-      "/encoding-and-evolution": {
-      },
-      "/generate-a-unique-id": {
-      },
-      "/kafka": {
-      },
-      "/spark": {
-      },
-      "/time-and-order": {
-      },
-      "/use-an-identity-service": {
-      }
-    },
     "/databases": {
       "/atomicity": {
       },
@@ -742,6 +724,34 @@
         },
         "/single-leader": {
         }
+      }
+    },
+    "/distributed-systems": {
+      "/armstrong-thesis": {
+      },
+      "/consistent-hashing": {
+      },
+      "/designing-data-intensive-apps": {
+      },
+      "/detect-a-node-failure": {
+      },
+      "/distributed-data": {
+      },
+      "/distributed-design-patterns": {
+      },
+      "/distributed-systems": {
+      },
+      "/encoding-and-evolution": {
+      },
+      "/generate-a-unique-id": {
+      },
+      "/kafka": {
+      },
+      "/spark": {
+      },
+      "/time-and-order": {
+      },
+      "/use-an-identity-service": {
       }
     },
     "/programming": {
@@ -988,6 +998,8 @@
         },
         "/lisp": {
         },
+        "/programming-languages": {
+        },
         "/rust": {
         },
         "/scala": {
@@ -1039,6 +1051,8 @@
         "/keyboard-shortcuts": {
         },
         "/programming-tools": {
+        },
+        "/tools": {
         },
         "/vscode-settings": {
         }
@@ -1113,18 +1127,22 @@
       }
     },
     "/encoding": {
+      "/encoding": {
+      },
       "/unicode": {
       }
     },
-    "/networks": {
+    "/engineering-management": {
+      "/engineering-management": {
+      }
     },
     "/nlp": {
     },
-    "/engineering-management": {
-    },
-    "/tech": {
+    "/networks": {
     },
     "/machine-learning": {
+    },
+    "/tech": {
     }
   }
 }

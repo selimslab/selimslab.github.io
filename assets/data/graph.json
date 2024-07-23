@@ -178,8 +178,8 @@
         "/root",
         "/digital-security",
         "/thoughts-on-tech",
-        "/distributed-systems",
         "/databases",
+        "/distributed-systems",
         "/programming",
         "/software-engineering",
         "/ux",
@@ -187,9 +187,9 @@
         "/operating-systems",
         "/system-design",
         "/encoding",
-        "/networks",
-        "/nlp",
         "/engineering-management",
+        "/nlp",
+        "/networks",
         "/machine-learning",
         "/akins-laws-of-spacecraft",
         "/everyday-objects",
@@ -1073,7 +1073,7 @@
     {
       "id": "/digital-security",
       "group": 2,
-      "name": "Digital-security",
+      "name": "Digital Security",
       "links": [
         "/tech",
         "/aes",
@@ -1114,6 +1114,26 @@
       ]
     },
     {
+      "id": "/databases",
+      "group": 2,
+      "name": "Databases",
+      "links": [
+        "/tech",
+        "/atomicity",
+        "/b-trees",
+        "/db-consistency",
+        "/db-data-structures",
+        "/durability",
+        "/isolation",
+        "/lsm-trees",
+        "/normalization",
+        "/orm-vs-sql",
+        "/partitioning",
+        "/sql-tips",
+        "/replication"
+      ]
+    },
+    {
       "id": "/distributed-systems",
       "group": 2,
       "name": "Distributed Systems",
@@ -1132,26 +1152,6 @@
         "/time-and-order",
         "/use-an-identity-service",
         "/system-design"
-      ]
-    },
-    {
-      "id": "/databases",
-      "group": 2,
-      "name": "Databases",
-      "links": [
-        "/tech",
-        "/atomicity",
-        "/b-trees",
-        "/db-consistency",
-        "/db-data-structures",
-        "/durability",
-        "/isolation",
-        "/lsm-trees",
-        "/normalization",
-        "/orm-vs-sql",
-        "/partitioning",
-        "/sql-tips",
-        "/replication"
       ]
     },
     {
@@ -1262,9 +1262,9 @@
       ]
     },
     {
-      "id": "/networks",
+      "id": "/engineering-management",
       "group": 2,
-      "name": "Networks",
+      "name": "Engineering Management",
       "links": [
         "/tech"
       ]
@@ -1278,9 +1278,9 @@
       ]
     },
     {
-      "id": "/engineering-management",
+      "id": "/networks",
       "group": 2,
-      "name": "Engineering-management",
+      "name": "Networks",
       "links": [
         "/tech"
       ]
@@ -2676,105 +2676,6 @@
       ]
     },
     {
-      "id": "/armstrong-thesis",
-      "group": 3,
-      "name": "Armstrong Thesis",
-      "links": [
-        "/distributed-systems"
-      ]
-    },
-    {
-      "id": "/consistent-hashing",
-      "group": 3,
-      "name": "Consistent Hashing",
-      "links": [
-        "/distributed-systems",
-        "/partitioning"
-      ]
-    },
-    {
-      "id": "/designing-data-intensive-apps",
-      "group": 3,
-      "name": "Designing Data-Intensive Applications",
-      "links": [
-        "/distributed-systems"
-      ]
-    },
-    {
-      "id": "/detect-a-node-failure",
-      "group": 3,
-      "name": "Detect A Node Failure",
-      "links": [
-        "/distributed-systems"
-      ]
-    },
-    {
-      "id": "/distributed-data",
-      "group": 3,
-      "name": "Distributed Data",
-      "links": [
-        "/distributed-systems",
-        "/partitioning",
-        "/replication"
-      ]
-    },
-    {
-      "id": "/distributed-design-patterns",
-      "group": 3,
-      "name": "Distributed Design Patterns",
-      "links": [
-        "/distributed-systems"
-      ]
-    },
-    {
-      "id": "/encoding-and-evolution",
-      "group": 3,
-      "name": "Encoding And Evolution",
-      "links": [
-        "/distributed-systems"
-      ]
-    },
-    {
-      "id": "/generate-a-unique-id",
-      "group": 3,
-      "name": "Generate A Unique Id",
-      "links": [
-        "/distributed-systems"
-      ]
-    },
-    {
-      "id": "/kafka",
-      "group": 3,
-      "name": "Apache Kafka",
-      "links": [
-        "/distributed-systems"
-      ]
-    },
-    {
-      "id": "/spark",
-      "group": 3,
-      "name": "Apache Spark",
-      "links": [
-        "/distributed-systems"
-      ]
-    },
-    {
-      "id": "/time-and-order",
-      "group": 3,
-      "name": "Time And Order",
-      "links": [
-        "/distributed-systems"
-      ]
-    },
-    {
-      "id": "/use-an-identity-service",
-      "group": 3,
-      "name": "Use An Identity Service",
-      "links": [
-        "/distributed-systems"
-      ]
-    },
-    {
       "id": "/atomicity",
       "group": 3,
       "name": "Atomicity",
@@ -2881,6 +2782,105 @@
         "/leaderless-replication",
         "/multi-leader",
         "/distributed-data"
+      ]
+    },
+    {
+      "id": "/armstrong-thesis",
+      "group": 3,
+      "name": "Armstrong Thesis",
+      "links": [
+        "/distributed-systems"
+      ]
+    },
+    {
+      "id": "/consistent-hashing",
+      "group": 3,
+      "name": "Consistent Hashing",
+      "links": [
+        "/distributed-systems",
+        "/partitioning"
+      ]
+    },
+    {
+      "id": "/designing-data-intensive-apps",
+      "group": 3,
+      "name": "Designing Data-Intensive Applications",
+      "links": [
+        "/distributed-systems"
+      ]
+    },
+    {
+      "id": "/detect-a-node-failure",
+      "group": 3,
+      "name": "Detect A Node Failure",
+      "links": [
+        "/distributed-systems"
+      ]
+    },
+    {
+      "id": "/distributed-data",
+      "group": 3,
+      "name": "Distributed Data",
+      "links": [
+        "/distributed-systems",
+        "/partitioning",
+        "/replication"
+      ]
+    },
+    {
+      "id": "/distributed-design-patterns",
+      "group": 3,
+      "name": "Distributed Design Patterns",
+      "links": [
+        "/distributed-systems"
+      ]
+    },
+    {
+      "id": "/encoding-and-evolution",
+      "group": 3,
+      "name": "Encoding And Evolution",
+      "links": [
+        "/distributed-systems"
+      ]
+    },
+    {
+      "id": "/generate-a-unique-id",
+      "group": 3,
+      "name": "Generate A Unique Id",
+      "links": [
+        "/distributed-systems"
+      ]
+    },
+    {
+      "id": "/kafka",
+      "group": 3,
+      "name": "Apache Kafka",
+      "links": [
+        "/distributed-systems"
+      ]
+    },
+    {
+      "id": "/spark",
+      "group": 3,
+      "name": "Apache Spark",
+      "links": [
+        "/distributed-systems"
+      ]
+    },
+    {
+      "id": "/time-and-order",
+      "group": 3,
+      "name": "Time And Order",
+      "links": [
+        "/distributed-systems"
+      ]
+    },
+    {
+      "id": "/use-an-identity-service",
+      "group": 3,
+      "name": "Use An Identity Service",
+      "links": [
+        "/distributed-systems"
       ]
     },
     {
@@ -3032,7 +3032,7 @@
     {
       "id": "/programming-languages",
       "group": 3,
-      "name": "Programming-languages",
+      "name": "Programming Languages",
       "links": [
         "/programming",
         "/c",
@@ -5467,11 +5467,11 @@
     },
     {
       "source": "/tech",
-      "target": "/distributed-systems"
+      "target": "/databases"
     },
     {
       "source": "/tech",
-      "target": "/databases"
+      "target": "/distributed-systems"
     },
     {
       "source": "/tech",
@@ -5503,7 +5503,7 @@
     },
     {
       "source": "/tech",
-      "target": "/networks"
+      "target": "/engineering-management"
     },
     {
       "source": "/tech",
@@ -5511,7 +5511,7 @@
     },
     {
       "source": "/tech",
-      "target": "/engineering-management"
+      "target": "/networks"
     },
     {
       "source": "/tech",
@@ -6126,54 +6126,6 @@
       "target": "/thought-on-swe"
     },
     {
-      "source": "/distributed-systems",
-      "target": "/armstrong-thesis"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/consistent-hashing"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/designing-data-intensive-apps"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/detect-a-node-failure"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/distributed-data"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/distributed-design-patterns"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/encoding-and-evolution"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/generate-a-unique-id"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/kafka"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/spark"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/time-and-order"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/use-an-identity-service"
-    },
-    {
       "source": "/databases",
       "target": "/atomicity"
     },
@@ -6220,6 +6172,54 @@
     {
       "source": "/databases",
       "target": "/replication"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/armstrong-thesis"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/consistent-hashing"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/designing-data-intensive-apps"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/detect-a-node-failure"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/distributed-data"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/distributed-design-patterns"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/encoding-and-evolution"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/generate-a-unique-id"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/kafka"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/spark"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/time-and-order"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/use-an-identity-service"
     },
     {
       "source": "/programming",

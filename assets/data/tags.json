@@ -103,20 +103,23 @@
   "/all-is-one": [
     "philosophy"
   ],
+  "/balance": [
+    "philosophy"
+  ],
   "/know-where-to-stop": [
-
+    "balance"
   ],
   "/moderation": [
-
+    "balance"
   ],
   "/nature-vs-people": [
-
+    "balance"
   ],
   "/still-vs-running-water": [
-
+    "balance"
   ],
   "/the-less-the-better": [
-
+    "balance"
   ],
   "/be-good-to-each-other-and-yourself": [
     "philosophy"
@@ -187,7 +190,7 @@
     "arts"
   ],
   "/questions": [
-    "philosophy"
+
   ],
   "/search-for-meaning": [
     "philosophy"
@@ -204,22 +207,25 @@
     "top"
   ],
   "/death": [
-
+    "time"
   ],
   "/life-is-not-short": [
-
+    "time"
   ],
   "/no-regrets-no-worries": [
-
+    "time"
   ],
   "/slow-down-time": [
-
+    "time"
   ],
   "/the-morning": [
-
+    "time"
   ],
   "/the-past": [
-
+    "time"
+  ],
+  "/time": [
+    "philosophy"
   ],
   "/travelling": [
     "philosophy"
@@ -768,31 +774,34 @@
     "psychology"
   ],
   "/anger": [
-
+    "emotions"
   ],
   "/anxiety": [
-
+    "emotions"
   ],
   "/arrogance": [
-
+    "emotions"
   ],
   "/courage": [
-
+    "emotions"
+  ],
+  "/emotions": [
+    "psychology"
   ],
   "/empathy": [
-
+    "emotions"
   ],
   "/hope": [
-
+    "emotions"
   ],
   "/respect": [
-
+    "emotions"
   ],
   "/trust": [
-
+    "emotions"
   ],
   "/vulnerability": [
-
+    "emotions"
   ],
   "/flow": [
     "psychology"
@@ -931,46 +940,49 @@
     "databases"
   ],
   "/aes": [
-
+    "digital-security"
   ],
   "/authentication": [
-
+    "digital-security"
   ],
   "/authorization": [
-
+    "digital-security"
   ],
   "/certificates": [
-
+    "digital-security"
   ],
   "/cookies": [
-
+    "digital-security"
   ],
   "/cors": [
-
+    "digital-security"
   ],
   "/csrf": [
-
+    "digital-security"
+  ],
+  "/digital-security": [
+    "tech"
   ],
   "/openssl-encrypt": [
-
+    "digital-security"
   ],
   "/public-key-cryptography": [
-
+    "digital-security"
   ],
   "/security-heuristics": [
-
+    "digital-security"
   ],
   "/sql-injection": [
-
+    "digital-security"
   ],
   "/store-passwords": [
-
+    "digital-security"
   ],
   "/transport-layer-security": [
-
+    "digital-security"
   ],
   "/xss": [
-
+    "digital-security"
   ],
   "/armstrong-thesis": [
     "distributed-systems"
@@ -1012,8 +1024,14 @@
   "/use-an-identity-service": [
     "distributed-systems"
   ],
+  "/encoding": [
+    "tech"
+  ],
   "/unicode": [
-
+    "encoding"
+  ],
+  "/engineering-management": [
+    "tech"
   ],
   "/machine-learning": [
     "tech"
@@ -1458,34 +1476,37 @@
     "oop"
   ],
   "/c": [
-
+    "programming-languages"
   ],
   "/clojure": [
-
+    "programming-languages"
   ],
   "/cpp": [
-
+    "programming-languages"
   ],
   "/csharp": [
-
+    "programming-languages"
   ],
   "/elixir": [
-
+    "programming-languages"
   ],
   "/erlang": [
-
+    "programming-languages"
   ],
   "/go": [
-
+    "programming-languages"
   ],
   "/haskell": [
-
+    "programming-languages"
   ],
   "/java": [
-
+    "programming-languages"
   ],
   "/lisp": [
-
+    "programming-languages"
+  ],
+  "/programming-languages": [
+    "programming"
   ],
   "/python-data-structures": [
     "python"
@@ -1494,19 +1515,19 @@
     "python"
   ],
   "/python": [
-
+    "programming-languages"
   ],
   "/zen-of-python": [
     "python"
   ],
   "/rust": [
-
+    "programming-languages"
   ],
   "/scala": [
-
+    "programming-languages"
   ],
   "/typing": [
-
+    "programming-languages"
   ],
   "/programming": [
     "swe",
@@ -1555,13 +1576,16 @@
     "projects"
   ],
   "/keyboard-shortcuts": [
-
+    "tools"
   ],
   "/programming-tools": [
-
+    "tools"
+  ],
+  "/tools": [
+    "programming"
   ],
   "/vscode-settings": [
-
+    "tools"
   ],
   "/base-prompt": [
     "prompt-engineering"

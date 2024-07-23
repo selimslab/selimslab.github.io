@@ -168,7 +168,6 @@ class SiteGenerator < Jekyll::Generator
 
     site.data["tree_htmls"] = {}
     tree_to_html(site, tree, "root")
-    write_json("./assets/data/tree_htmls.json", site.data["tree_htmls"])
 
   end
 
@@ -185,7 +184,15 @@ class SiteGenerator < Jekyll::Generator
 
       branch[parent_id] ||= {}
 
-      Dir.entries(parent_path).sort.each do |child|
+      entries = Dir.entries(parent_path)
+      # if entries do not include parent_basename.md, create the file
+      if !entries.include?("#{parent_basename}.md")
+        File.open("#{parent_path}/#{parent_basename}.md", "w") do |f|
+          f.write("---\n---\n")
+        end
+      end
+
+      entries.sort.each do |child|
         next if child.start_with?('.', '_')
 
         child_basename = File.basename(child)
