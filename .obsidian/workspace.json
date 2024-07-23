@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_NOTES/social-sciences/psychology/solitude.md",
+                "file": "_NOTES/_misc/interviews.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_NOTES/social-sciences/psychology/solitude.md",
+                "file": "_NOTES/_misc/interviews.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_NOTES/social-sciences/psychology/solitude.md",
+                "file": "_NOTES/_misc/interviews.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_NOTES/social-sciences/psychology/solitude.md"
+                "file": "_NOTES/_misc/interviews.md"
               }
             }
           }
@@ -158,11 +158,29 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b80a8a4530bb837f",
+  "active": "bc86af8c7183ead1",
   "lastOpenFiles": [
+    "_NOTES/_misc/connect.md",
+    "_NOTES/_misc/interviews.md",
+    "_NOTES/_misc/tax.md",
+    "_NOTES/_misc/cz/flat.md",
+    "_NOTES/_misc/autofill.md",
+    "_NOTES/social-sciences/psychology/solitude.md",
+    "_site/encodings/index.html",
+    "_site/encodings",
+    "_site/azure-pillars/index.html",
+    "_site/azure-pillars",
+    "_NOTES/social-sciences/psychology/emotions/unmet-needs.md",
+    "_NOTES/social-sciences/psychology/work/setting-rules.md",
+    "_NOTES/social-sciences/psychology/work/praise-and-motivation.md",
+    "_NOTES/social-sciences/psychology/work/overcoming-obstacles.md",
+    "_NOTES/social-sciences/psychology/work/how-to-start.md",
+    "_NOTES/social-sciences/psychology/work/distractions.md",
+    "_NOTES/social-sciences/psychology/work/flow.md",
+    "_NOTES/social-sciences/psychology/work",
+    "_NOTES/social-sciences/psychology/cognitive-biases/bias-for-unhappiness.md",
     "_NOTES/social-sciences/psychology/social-class.md",
     "_NOTES/social-sciences/social-class.md",
-    "_NOTES/social-sciences/psychology/solitude.md",
     "_NOTES/social-sciences/psychology/setting-rules.md",
     "_NOTES/social-sciences/psychology/relationships.md",
     "_NOTES/social-sciences/psychology/psychology.md",
@@ -173,29 +191,11 @@
     "_NOTES/social-sciences/psychology/persuasion.md",
     "_NOTES/social-sciences/psychology/overcoming-obstacles.md",
     "_NOTES/social-sciences/psychology/how-to-start.md",
-    "_NOTES/social-sciences/psychology/how-to-spot-a-liar.md",
-    "_NOTES/social-sciences/psychology/habits.md",
-    "_NOTES/social-sciences/psychology/gaslighting.md",
-    "_NOTES/social-sciences/psychology/behavioral-psychology.md",
-    "_NOTES/social-sciences/psychology/emotions/ego.md",
-    "_NOTES/tech/distributed-systems/google-sre-book.md",
-    "_NOTES/skills/health/going-blind.md",
-    "_NOTES/tech/distributed-systems/azure-pillars.md",
-    "_NOTES/tech/domain-driven-design.md",
-    "_NOTES/tech/software-engineering/azure-pillars.md",
-    "_NOTES/tech/system-design.md",
-    "_NOTES/tech/programming/data-structures/db-data-structures.md",
-    "_NOTES/tech/encodings.md",
     "_site/_NOTES/social-sciences/psychology/emotions/emotions/index.html",
     "_site/_NOTES/social-sciences/psychology/emotions/emotions",
     "_site/_NOTES/social-sciences/psychology/emotions",
     "_site/_NOTES/social-sciences/psychology",
     "_site/_NOTES/social-sciences",
-    "_site/_NOTES",
-    "_site/tools/index.html",
-    "_site/tools",
-    "_site/programming-languages/index.html",
-    "_site/programming-languages",
     "assets/static/img/grow-fresh-air.jpeg",
     "_NOTES/skills/grow-fresh-air.jpeg",
     "_NOTES/practical-skills/grow-fresh-air.jpeg",

@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "solitude",
-      "path": "_NOTES/social-sciences/psychology/solitude.md"
+      "basename": "interviews",
+      "path": "_NOTES/_misc/interviews.md"
     },
     {
-      "basename": "setting-rules",
-      "path": "_NOTES/social-sciences/psychology/setting-rules.md"
+      "basename": "connect",
+      "path": "_NOTES/_misc/connect.md"
+    },
+    {
+      "basename": "tax",
+      "path": "_NOTES/_misc/tax.md"
+    },
+    {
+      "basename": "autofill",
+      "path": "_NOTES/_misc/autofill.md"
+    },
+    {
+      "basename": "solitude",
+      "path": "_NOTES/social-sciences/psychology/solitude.md"
     },
     {
       "basename": "relationships",
@@ -21,10 +33,6 @@
       "path": "_NOTES/social-sciences/psychology/procrastination.md"
     },
     {
-      "basename": "praise-and-motivation",
-      "path": "_NOTES/social-sciences/psychology/praise-and-motivation.md"
-    },
-    {
       "basename": "leadership",
       "path": "_NOTES/skills/leadership.md"
     },
@@ -35,14 +43,6 @@
     {
       "basename": "persuasion",
       "path": "_NOTES/social-sciences/psychology/persuasion.md"
-    },
-    {
-      "basename": "overcoming-obstacles",
-      "path": "_NOTES/social-sciences/psychology/overcoming-obstacles.md"
-    },
-    {
-      "basename": "how-to-start",
-      "path": "_NOTES/social-sciences/psychology/how-to-start.md"
     },
     {
       "basename": "how-to-spot-a-liar",
@@ -79,14 +79,6 @@
     {
       "basename": "anger",
       "path": "_NOTES/social-sciences/psychology/emotions/anger.md"
-    },
-    {
-      "basename": "bias-for-unhappiness",
-      "path": "_NOTES/social-sciences/psychology/bias-for-unhappiness.md"
-    },
-    {
-      "basename": "thoughts-on-work",
-      "path": "_NOTES/arts/philosophy/work/thoughts-on-work.md"
     },
     {
       "basename": "what-to-work-on",
