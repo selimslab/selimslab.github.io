@@ -7,9 +7,8 @@ tags: dp mid
 
 
 ```python
-from typing import List
 
-def minimumCoinsRequired(coins: List[int], amount: int) -> int:
+def minimumCoinsRequired(coins: list[int], amount: int) -> int:
     # coinChange([1,2,5],11) == 3
 
     # Initialize a list to store 
@@ -24,7 +23,8 @@ def minimumCoinsRequired(coins: List[int], amount: int) -> int:
                 # Update the minimum number of coins needed for the current sub-amount.
                 min_coins[sub_amount] = min(min_coins[sub_amount], min_coins[sub_amount - coin] + 1)
     
-    # If it's not possible to make up the amount, return -1. Otherwise, return the minimum count.
+    # If it's not possible to make up the amount, return -1. 
+	# Otherwise, return the minimum count.
     if min_coins[amount] == float('inf'):
         return -1
     else:

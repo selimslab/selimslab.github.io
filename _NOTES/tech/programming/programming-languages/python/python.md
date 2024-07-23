@@ -1,5 +1,5 @@
 ---
-title: Python 🐍
+title: Python
 
 ---
 A pragmatic language, values your time over the machine's time and it makes sense for many kind of problems 
@@ -21,13 +21,7 @@ also the tooling is good for formatting the style, linting, sorting imports, etc
 
 [standard library](https://docs.python.org/3/library/index.html)
 
-[[python-data-structures]]
 
-[[python-packages]]
-
-[[golang]]
-
-[[zen-of-python]]
 
 
 

@@ -1,5 +1,5 @@
 ---
-tags: arr easy
+tags: arr mid
 ---
 
 
@@ -8,7 +8,7 @@ tags: arr easy
 def countPrimes(self, n: int) -> int:
     """
     Mark non-primes, 
-    2s, 3s, 
+    2s, 3s, 5s
     """
     primes = [True] * n
     

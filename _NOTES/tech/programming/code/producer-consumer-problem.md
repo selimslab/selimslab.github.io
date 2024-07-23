@@ -1,6 +1,6 @@
 ---
 title: Producer Consumer Problem 
-tags: conc
+tags: concurrency
 ---
 
 
