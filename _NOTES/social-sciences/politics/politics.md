@@ -20,7 +20,4 @@ Strength knows how to yield."
 
 ## Also see 
 
-[[tao-te-ching]]
-
-
 [[do-the-right-thing]]
