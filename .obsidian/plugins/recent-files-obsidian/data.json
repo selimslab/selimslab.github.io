@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "bias-for-unhappiness",
-      "path": "_NOTES/social-sciences/psychology/cognitive-biases/bias-for-unhappiness.md"
+      "basename": "drawing",
+      "path": "_NOTES/skills/drawing.md"
     },
     {
-      "basename": "overvaluing-short-term",
-      "path": "_NOTES/social-sciences/psychology/cognitive-biases/overvaluing-short-term.md"
+      "basename": "marketing",
+      "path": "_NOTES/skills/business/marketing.md"
+    },
+    {
+      "basename": "normal-distribution",
+      "path": "_NOTES/math/normal-distribution.md"
     },
     {
       "basename": "outdoors",
       "path": "_NOTES/skills/outdoors.md"
     },
     {
-      "basename": "children",
-      "path": "_NOTES/skills/children.md"
+      "basename": "public-speaking",
+      "path": "_NOTES/skills/communication/public-speaking.md"
     },
     {
-      "basename": "lightly-child",
-      "path": "_NOTES/arts/poetry/lightly-child.md"
+      "basename": "respect",
+      "path": "_NOTES/social-sciences/psychology/emotions/respect.md"
     },
     {
-      "basename": "history",
-      "path": "_NOTES/social-sciences/history/history.md"
+      "basename": "security-heuristics",
+      "path": "_NOTES/tech/digital-security/security-heuristics.md"
     },
     {
-      "basename": "get-things-done",
-      "path": "_NOTES/skills/get-things-done.md"
+      "basename": "ship-it",
+      "path": "_NOTES/arts/design/ship-it.md"
     },
     {
-      "basename": "business",
-      "path": "_NOTES/skills/business/business.md"
+      "basename": "social-change",
+      "path": "_NOTES/social-sciences/social-change.md"
     },
     {
-      "basename": "skills",
-      "path": "_NOTES/skills/skills.md"
+      "basename": "hope",
+      "path": "_NOTES/social-sciences/psychology/emotions/hope.md"
     },
     {
-      "basename": "learning",
-      "path": "_NOTES/skills/learning.md"
+      "basename": "happiness",
+      "path": "_NOTES/arts/philosophy/happiness.md"
     },
     {
-      "basename": "teaching",
-      "path": "_NOTES/skills/teaching.md"
+      "basename": "gaslighting",
+      "path": "_NOTES/social-sciences/psychology/gaslighting.md"
     },
     {
-      "basename": "accessibility",
-      "path": "_NOTES/tech/ux/accessibility.md"
+      "basename": "go",
+      "path": "_NOTES/tech/programming/programming-languages/go.md"
     },
     {
-      "basename": "404",
-      "path": "404.md"
+      "basename": "growing-plants",
+      "path": "_NOTES/skills/growing-plants.md"
     },
     {
-      "basename": "all-is-one",
-      "path": "_NOTES/arts/philosophy/all-is-one.md"
+      "basename": "software-quality",
+      "path": "_NOTES/tech/thoughts-on-tech/software-quality.md"
     },
     {
-      "basename": "tolerate-anything-except-outgroup",
-      "path": "_NOTES/social-sciences/tolerate-anything-except-outgroup.md"
+      "basename": "solar-system",
+      "path": "_NOTES/natural-sciences/solar-system.md"
     },
     {
-      "basename": "cinema",
-      "path": "_NOTES/arts/cinema.md"
+      "basename": "ideas",
+      "path": "_NOTES/lists/ideas.md"
     },
     {
-      "basename": "arts",
-      "path": "_NOTES/arts/arts.md"
+      "basename": "classical-physics",
+      "path": "_NOTES/natural-sciences/classical-physics.md"
     },
     {
-      "basename": "classics",
-      "path": "_NOTES/arts/literature/classics.md"
+      "basename": "natural-sciences",
+      "path": "_NOTES/natural-sciences/natural-sciences.md"
     },
     {
-      "basename": "ince-memed",
-      "path": "_NOTES/arts/literature/ince-memed.md"
+      "basename": "urban-planning",
+      "path": "_NOTES/social-sciences/urban-planning.md"
     },
     {
-      "basename": "turk-mirasi",
-      "path": "_NOTES/arts/literature/turk-mirasi.md"
-    },
-    {
-      "basename": "turkce",
-      "path": "_NOTES/arts/languages/turkce.md"
-    },
-    {
-      "basename": "modern-greek-alphabet",
-      "path": "_NOTES/arts/languages/modern-greek-alphabet.md"
-    },
-    {
-      "basename": "latin",
-      "path": "_NOTES/arts/languages/latin.md"
-    },
-    {
-      "basename": "languages",
-      "path": "_NOTES/arts/languages/languages.md"
-    },
-    {
-      "basename": "deutsch",
-      "path": "_NOTES/arts/languages/deutsch.md"
-    },
-    {
-      "basename": "math",
-      "path": "_NOTES/math/math.md"
-    },
-    {
-      "basename": "investing",
-      "path": "_NOTES/skills/business/investing.md"
-    },
-    {
-      "basename": "economics",
-      "path": "_NOTES/social-sciences/economics.md"
-    },
-    {
-      "basename": "cognitive-biases",
-      "path": "_NOTES/social-sciences/psychology/cognitive-biases/cognitive-biases.md"
-    },
-    {
-      "basename": "psychology",
-      "path": "_NOTES/social-sciences/psychology/psychology.md"
-    },
-    {
-      "basename": "framing.jpeg",
-      "path": "assets/static/img/framing.jpeg.md"
-    },
-    {
-      "basename": "cooking",
-      "path": "_NOTES/skills/cooking.md"
-    },
-    {
-      "basename": "design",
-      "path": "_NOTES/arts/design/design.md"
+      "basename": "thoughts-on-swe",
+      "path": "_NOTES/tech/thoughts-on-tech/thoughts-on-swe.md"
     },
     {
       "basename": "problem-solving",
       "path": "_NOTES/skills/problem-solving.md"
     },
     {
-      "basename": "what-drives-us",
-      "path": "assets/static/img/what-drives-us.jpeg"
+      "basename": "communication",
+      "path": "_NOTES/skills/communication/communication.md"
     },
     {
-      "basename": "authentication",
-      "path": "_NOTES/tech/digital-security/authentication.md"
+      "basename": "write-better",
+      "path": "_NOTES/skills/communication/write-better.md"
     },
     {
-      "basename": "since-big-bang",
-      "path": "_NOTES/social-sciences/history/since-big-bang.md"
+      "basename": "zen-of-python",
+      "path": "_NOTES/tech/programming/programming-languages/python/zen-of-python.md"
     },
     {
-      "basename": "_x",
-      "path": "_NOTES/_x.md"
+      "basename": "pla",
+      "path": "assets/static/img/pla.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "what-to-work-on",
+      "path": "_NOTES/arts/philosophy/work/what-to-work-on.md"
     },
     {
-      "basename": "farming-trap",
-      "path": "_NOTES/social-sciences/history/farming-trap.md"
+      "basename": "usability-testing",
+      "path": "_NOTES/tech/ux/usability-testing.md"
     },
     {
-      "basename": "history-of-technology",
-      "path": "_NOTES/social-sciences/history/history-of-technology.md"
+      "basename": "teamwork",
+      "path": "_NOTES/arts/philosophy/work/teamwork.md"
     },
     {
-      "basename": "wage-theft",
-      "path": "_NOTES/social-sciences/wage-theft.md"
+      "basename": "take-a-walk",
+      "path": "_NOTES/arts/philosophy/take-a-walk.md"
     },
     {
-      "basename": "in-praise-of-idleness",
-      "path": "_NOTES/social-sciences/in-praise-of-idleness.md"
+      "basename": "submarine-shower",
+      "path": "_NOTES/skills/submarine-shower.md"
     },
     {
-      "basename": "_TODO",
-      "path": "_NOTES/_TODO.md"
+      "basename": "stages-of-grief",
+      "path": "_NOTES/social-sciences/psychology/stages-of-grief.md"
     },
     {
-      "basename": "hacker-laws",
-      "path": "_NOTES/tech/thoughts-on-tech/hacker-laws.md"
+      "basename": "probability-and-statistics",
+      "path": "_NOTES/math/probability-and-statistics.md"
     },
     {
-      "basename": "the-tao-of-programming",
-      "path": "_NOTES/tech/programming/the-tao-of-programming.md"
+      "basename": "software-analogies",
+      "path": "_NOTES/tech/thoughts-on-tech/software-analogies.md"
     },
     {
-      "basename": "do-without-doing",
-      "path": "_NOTES/skills/decisions/do-without-doing.md"
+      "basename": "no-regrets-no-worries",
+      "path": "_NOTES/arts/philosophy/time/no-regrets-no-worries.md"
     },
     {
-      "basename": "work",
-      "path": "_NOTES/arts/philosophy/work/work.md"
+      "basename": "negotiations",
+      "path": "_NOTES/skills/communication/negotiations.md"
     },
     {
-      "basename": "a-good-life",
-      "path": "_NOTES/arts/philosophy/a-good-life.md"
+      "basename": "modern-greek-alphabet",
+      "path": "_NOTES/arts/languages/modern-greek-alphabet.md"
     },
     {
-      "basename": "do-the-right-thing",
-      "path": "_NOTES/skills/decisions/do-the-right-thing.md"
+      "basename": "minimal-tech",
+      "path": "_NOTES/tech/thoughts-on-tech/minimal-tech.md"
+    },
+    {
+      "basename": "metaphors",
+      "path": "_NOTES/social-sciences/metaphors.md"
+    },
+    {
+      "basename": "local-maximum",
+      "path": "_NOTES/tech/programming/algorithms/local-maximum.md"
+    },
+    {
+      "basename": "kafka",
+      "path": "_NOTES/tech/distributed-systems/kafka.md"
+    },
+    {
+      "basename": "how-to-start-a-business",
+      "path": "_NOTES/skills/business/how-to-start-a-business.md"
+    },
+    {
+      "basename": "how-to-start",
+      "path": "_NOTES/social-sciences/psychology/work/how-to-start.md"
+    },
+    {
+      "basename": "for-new-programmers",
+      "path": "_NOTES/tech/programming/for-new-programmers.md"
+    },
+    {
+      "basename": "flow",
+      "path": "_NOTES/social-sciences/psychology/work/flow.md"
+    },
+    {
+      "basename": "exercise",
+      "path": "_NOTES/skills/exercise.md"
+    },
+    {
+      "basename": "equations-that-changed-the-world",
+      "path": "_NOTES/math/equations-that-changed-the-world.md"
+    },
+    {
+      "basename": "economics",
+      "path": "_NOTES/social-sciences/economics.md"
+    },
+    {
+      "basename": "easy-vs-hard-in-cs",
+      "path": "_NOTES/tech/thoughts-on-tech/easy-vs-hard-in-cs.md"
+    },
+    {
+      "basename": "do-one-thing-at-a-time-and-do-it-well",
+      "path": "_NOTES/skills/decisions/do-one-thing-at-a-time-and-do-it-well.md"
     }
   ],
   "omittedPaths": []

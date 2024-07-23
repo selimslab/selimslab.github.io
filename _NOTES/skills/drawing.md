@@ -1,12 +1,13 @@
 ---
+tags: top
 ---
 
-<https://sketchplanations.com> 
+[Tag: drawing - Sketchplanations](https://sketchplanations.com/tags/drawing)
 
 [wizard zines](https://wizardzines.com/)
 
-<https://ncase.me> 
+[It's Nicky Case! (ncase.me)](https://ncase.me/)
 
-<https://explorabl.es>
+[Explorable Explanations](https://explorabl.es/)
 
 [Archives - Bartosz Ciechanowski](https://ciechanow.ski/archives/)

@@ -537,6 +537,10 @@
   "/trading": [
     "business"
   ],
+  "/children": [
+    "psy",
+    "skills"
+  ],
   "/communication": [
     "skills"
   ],

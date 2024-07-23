@@ -110,6 +110,7 @@
         "/business",
         "/decisions",
         "/communication",
+        "/driving",
         "/drowning-does-not-look-dramatic",
         "/exercise",
         "/get-things-done",
@@ -118,8 +119,8 @@
         "/humor",
         "/leadership",
         "/learning",
-        "/making-videos",
-        "/driving",
+        "/drawing",
+        "/mastery",
         "/motocycles",
         "/mountaineering",
         "/outdoors",
@@ -128,12 +129,12 @@
         "/submarine-shower",
         "/teaching",
         "/used-car-checklist",
-        "/drawing",
-        "/mastery",
         "/cooking",
+        "/making-videos",
+        "/children",
         "/critical-thinking",
-        "/a-good-life",
-        "/how-to-start"
+        "/how-to-start",
+        "/a-good-life"
       ]
     },
     {
@@ -161,13 +162,13 @@
         "/cognitive-biases",
         "/freedom",
         "/happiness",
+        "/hijacked-minds",
         "/how-to-start",
+        "/is-tech-fast-or-slow",
         "/learning",
         "/questioning-people-seen-as-a-threat-to-status-quo",
         "/solitude",
-        "/stupidity",
-        "/hijacked-minds",
-        "/is-tech-fast-or-slow"
+        "/stupidity"
       ]
     },
     {
@@ -194,11 +195,11 @@
         "/system-design",
         "/nlp",
         "/concurrency",
+        "/accessibility",
         "/akins-laws-of-spacecraft",
         "/everyday-objects",
         "/history-of-technology",
-        "/since-big-bang",
-        "/accessibility"
+        "/since-big-bang"
       ]
     },
     {
@@ -235,17 +236,17 @@
         "/choice",
         "/time",
         "/work",
-        "/life-is-soft",
-        "/tao-te-ching",
-        "/going-blind",
-        "/how-to-deal-with-pain",
+        "/criminal-justice",
         "/critical-thinking",
         "/do-the-right-thing",
+        "/going-blind",
         "/how-to-grow-old-russell",
+        "/how-to-deal-with-pain",
         "/in-praise-of-idleness",
-        "/criminal-justice",
+        "/life-is-soft",
         "/look-down-and-around",
-        "/solitude"
+        "/solitude",
+        "/tao-te-ching"
       ]
     },
     {
@@ -746,6 +747,15 @@
       ]
     },
     {
+      "id": "/driving",
+      "group": 2,
+      "name": "Driving",
+      "links": [
+        "/skills",
+        "/used-car-checklist"
+      ]
+    },
+    {
       "id": "/drowning-does-not-look-dramatic",
       "group": 2,
       "name": "Drowning Does Not Look Dramatic",
@@ -822,20 +832,19 @@
       ]
     },
     {
-      "id": "/making-videos",
+      "id": "/drawing",
       "group": 2,
-      "name": "Making Videos",
+      "name": "Drawing",
       "links": [
         "/skills"
       ]
     },
     {
-      "id": "/driving",
+      "id": "/mastery",
       "group": 2,
-      "name": "Driving",
+      "name": "Mastery",
       "links": [
-        "/skills",
-        "/used-car-checklist"
+        "/skills"
       ]
     },
     {
@@ -906,27 +915,28 @@
       ]
     },
     {
-      "id": "/drawing",
-      "group": 2,
-      "name": "Drawing",
-      "links": [
-        "/skills"
-      ]
-    },
-    {
-      "id": "/mastery",
-      "group": 2,
-      "name": "Mastery",
-      "links": [
-        "/skills"
-      ]
-    },
-    {
       "id": "/cooking",
       "group": 2,
       "name": "Cooking",
       "links": [
         "/skills"
+      ]
+    },
+    {
+      "id": "/making-videos",
+      "group": 2,
+      "name": "Making Videos",
+      "links": [
+        "/skills"
+      ]
+    },
+    {
+      "id": "/children",
+      "group": 2,
+      "name": "On children",
+      "links": [
+        "/skills",
+        "/psychology"
       ]
     },
     {
@@ -952,6 +962,7 @@
         "/criminal-justice",
         "/happiness",
         "/inertia",
+        "/children",
         "/questioning-people-seen-as-a-threat-to-status-quo"
       ]
     },
@@ -1309,13 +1320,13 @@
         "/tech",
         "/do-one-thing-at-a-time-and-do-it-well",
         "/systems",
+        "/accessibility",
         "/akins-laws-of-spacecraft",
+        "/choose-boring-tech",
         "/distributed-systems",
         "/domain-driven-design",
-        "/oop",
-        "/choose-boring-tech",
         "/hacker-laws",
-        "/accessibility"
+        "/oop"
       ]
     },
     {
@@ -1860,8 +1871,8 @@
       "name": "Turkce",
       "links": [
         "/languages",
-        "/ince-memed",
         "/ideal-insan",
+        "/ince-memed",
         "/siir"
       ]
     },
@@ -2811,8 +2822,8 @@
         "/sort",
         "/vector-search",
         "/bayes",
-        "/lsm-trees",
-        "/data-structures"
+        "/data-structures",
+        "/lsm-trees"
       ]
     },
     {
@@ -3693,11 +3704,11 @@
         "/house-robber",
         "/invert-binary-tree",
         "/is-mirror-tree",
-        "/lengthOfLIS",
         "/level-order",
         "/longest-common-subsequence",
         "/longest-diverse-str",
         "/longest-valid-paranthesis",
+        "/lengthOfLIS",
         "/min-edit-distance"
       ]
     },
@@ -3933,9 +3944,9 @@
         "/coin-change",
         "/edit-distance",
         "/house-robber",
-        "/lengthOfLIS",
         "/longest-common-subsequence",
         "/longest-diverse-str",
+        "/lengthOfLIS",
         "/lowest-common-ancestor",
         "/maximal-square",
         "/min-edit-distance",
@@ -5135,6 +5146,10 @@
     },
     {
       "source": "/skills",
+      "target": "/driving"
+    },
+    {
+      "source": "/skills",
       "target": "/drowning-does-not-look-dramatic"
     },
     {
@@ -5167,11 +5182,11 @@
     },
     {
       "source": "/skills",
-      "target": "/making-videos"
+      "target": "/drawing"
     },
     {
       "source": "/skills",
-      "target": "/driving"
+      "target": "/mastery"
     },
     {
       "source": "/skills",
@@ -5207,15 +5222,15 @@
     },
     {
       "source": "/skills",
-      "target": "/drawing"
-    },
-    {
-      "source": "/skills",
-      "target": "/mastery"
-    },
-    {
-      "source": "/skills",
       "target": "/cooking"
+    },
+    {
+      "source": "/skills",
+      "target": "/making-videos"
+    },
+    {
+      "source": "/skills",
+      "target": "/children"
     },
     {
       "source": "/social-sciences",
@@ -6915,11 +6930,11 @@
     },
     {
       "source": "/turkce",
-      "target": "/ince-memed"
+      "target": "/ideal-insan"
     },
     {
       "source": "/turkce",
-      "target": "/ideal-insan"
+      "target": "/ince-memed"
     },
     {
       "source": "/turkce",
@@ -6999,19 +7014,7 @@
     },
     {
       "source": "/philosophy",
-      "target": "/life-is-soft"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/tao-te-ching"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/going-blind"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/how-to-deal-with-pain"
+      "target": "/criminal-justice"
     },
     {
       "source": "/philosophy",
@@ -7023,7 +7026,15 @@
     },
     {
       "source": "/philosophy",
+      "target": "/going-blind"
+    },
+    {
+      "source": "/philosophy",
       "target": "/how-to-grow-old-russell"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/how-to-deal-with-pain"
     },
     {
       "source": "/philosophy",
@@ -7031,7 +7042,7 @@
     },
     {
       "source": "/philosophy",
-      "target": "/criminal-justice"
+      "target": "/life-is-soft"
     },
     {
       "source": "/philosophy",
@@ -7040,6 +7051,10 @@
     {
       "source": "/philosophy",
       "target": "/solitude"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/tao-te-ching"
     },
     {
       "source": "/questions",
@@ -7215,11 +7230,11 @@
     },
     {
       "source": "/skills",
-      "target": "/a-good-life"
+      "target": "/how-to-start"
     },
     {
       "source": "/skills",
-      "target": "/how-to-start"
+      "target": "/a-good-life"
     },
     {
       "source": "/economics",
@@ -7247,6 +7262,10 @@
     },
     {
       "source": "/psychology",
+      "target": "/children"
+    },
+    {
+      "source": "/psychology",
       "target": "/questioning-people-seen-as-a-threat-to-status-quo"
     },
     {
@@ -7263,7 +7282,15 @@
     },
     {
       "source": "/social-sciences",
+      "target": "/hijacked-minds"
+    },
+    {
+      "source": "/social-sciences",
       "target": "/how-to-start"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/is-tech-fast-or-slow"
     },
     {
       "source": "/social-sciences",
@@ -7280,14 +7307,6 @@
     {
       "source": "/social-sciences",
       "target": "/stupidity"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/hijacked-minds"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/is-tech-fast-or-slow"
     },
     {
       "source": "/systems",
@@ -7419,10 +7438,6 @@
     },
     {
       "source": "/algo-mid",
-      "target": "/lengthOfLIS"
-    },
-    {
-      "source": "/algo-mid",
       "target": "/level-order"
     },
     {
@@ -7439,6 +7454,10 @@
     },
     {
       "source": "/algo-mid",
+      "target": "/lengthOfLIS"
+    },
+    {
+      "source": "/algo-mid",
       "target": "/min-edit-distance"
     },
     {
@@ -7447,11 +7466,11 @@
     },
     {
       "source": "/algorithms",
-      "target": "/lsm-trees"
+      "target": "/data-structures"
     },
     {
       "source": "/algorithms",
-      "target": "/data-structures"
+      "target": "/lsm-trees"
     },
     {
       "source": "/dynamic",
@@ -7471,15 +7490,15 @@
     },
     {
       "source": "/dynamic",
-      "target": "/lengthOfLIS"
-    },
-    {
-      "source": "/dynamic",
       "target": "/longest-common-subsequence"
     },
     {
       "source": "/dynamic",
       "target": "/longest-diverse-str"
+    },
+    {
+      "source": "/dynamic",
+      "target": "/lengthOfLIS"
     },
     {
       "source": "/dynamic",
@@ -7735,7 +7754,15 @@
     },
     {
       "source": "/system-design",
+      "target": "/accessibility"
+    },
+    {
+      "source": "/system-design",
       "target": "/akins-laws-of-spacecraft"
+    },
+    {
+      "source": "/system-design",
+      "target": "/choose-boring-tech"
     },
     {
       "source": "/system-design",
@@ -7747,18 +7774,14 @@
     },
     {
       "source": "/system-design",
-      "target": "/oop"
-    },
-    {
-      "source": "/system-design",
-      "target": "/choose-boring-tech"
-    },
-    {
-      "source": "/system-design",
       "target": "/hacker-laws"
     },
     {
       "source": "/system-design",
+      "target": "/oop"
+    },
+    {
+      "source": "/tech",
       "target": "/accessibility"
     },
     {
@@ -7776,10 +7799,6 @@
     {
       "source": "/tech",
       "target": "/since-big-bang"
-    },
-    {
-      "source": "/tech",
-      "target": "/accessibility"
     },
     {
       "source": "/ux",

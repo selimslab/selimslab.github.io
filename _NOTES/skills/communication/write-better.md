@@ -23,5 +23,6 @@ How to write better?
 
 [[zen-of-python]]
 
-<https://hemingwayapp.com>
+[Hemingway Editor (hemingwayapp.com)](https://hemingwayapp.com/)
 
+[Tag: writing - Sketchplanations](https://sketchplanations.com/tags/writing)

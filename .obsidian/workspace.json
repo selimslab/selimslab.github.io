@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "106810a6c1707121",
+        "id": "b4e86fba195a34b4",
         "type": "tabs",
         "children": [
           {
-            "id": "543572ffe7d57fe2",
+            "id": "02e062183f50d088",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_NOTES/skills/drawing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "/img/",
+                "query": "static/img/",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -90,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_NOTES/skills/drawing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_NOTES/skills/drawing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_NOTES/skills/drawing.md"
+              }
             }
           }
         ]
@@ -150,54 +159,54 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "543572ffe7d57fe2",
+  "active": "02e062183f50d088",
   "lastOpenFiles": [
-    "_NOTES/social-sciences/psychology/cognitive-biases/bias-for-unhappiness.md",
-    "_NOTES/social-sciences/psychology/cognitive-biases/overvaluing-short-term.md",
+    "_NOTES/skills/business/marketing.md",
+    "_NOTES/math/normal-distribution.md",
     "_NOTES/skills/outdoors.md",
-    "_NOTES/skills/children.md",
-    "_NOTES/arts/poetry/lightly-child.md",
+    "_NOTES/skills/communication/public-speaking.md",
+    "_NOTES/social-sciences/psychology/emotions/respect.md",
+    "_NOTES/tech/digital-security/security-heuristics.md",
+    "_NOTES/arts/design/ship-it.md",
+    "_NOTES/social-sciences/social-change.md",
+    "_NOTES/social-sciences/psychology/emotions/hope.md",
+    "_NOTES/arts/philosophy/happiness.md",
+    "_NOTES/social-sciences/psychology/gaslighting.md",
+    "_NOTES/tech/programming/programming-languages/go.md",
+    "_NOTES/skills/growing-plants.md",
+    "_NOTES/tech/thoughts-on-tech/software-quality.md",
+    "_NOTES/natural-sciences/solar-system.md",
+    "_NOTES/lists/ideas.md",
+    "_NOTES/natural-sciences/classical-physics.md",
+    "_NOTES/skills/drawing.md",
+    "_NOTES/natural-sciences/natural-sciences.md",
+    "_NOTES/social-sciences/urban-planning.md",
+    "_NOTES/natural-sciences/the-piston.md",
+    "assets/static/img/the-piston.gif",
+    "_NOTES/tech/thoughts-on-tech/thoughts-on-swe.md",
+    "_NOTES/skills/problem-solving.md",
+    "_NOTES/skills/communication/communication.md",
+    "_NOTES/skills/communication/write-better.md",
+    "_NOTES/tech/programming/programming-languages/python/zen-of-python.md",
+    "assets/static/img/plain-pooh.jpg",
+    "assets/static/img/plain-pooh.jpg.crdownload",
+    "assets/static/img/user-testing-diminshing-returns-curve.gif",
+    "assets/static/img/fast-and-slow-thinking.jpeg",
+    "assets/static/img/true-size-of-africa.jpeg",
+    "assets/static/img/the-implicit-association-test.jpeg",
+    "assets/static/img/the-s-curve.jpeg",
+    "assets/static/img/gartner-hype-cycle.jpeg",
+    "assets/static/img/the-long-nose-of-innovation.jpeg",
+    "assets/static/img/pace-layers.jpeg",
+    "_site/children/index.html",
+    "_site/children",
     "_NOTES/skills/pa",
-    "_NOTES/social-sciences/history/history.md",
-    "_NOTES/skills/get-things-done.md",
-    "_NOTES/skills/business/business.md",
-    "_NOTES/skills/skills.md",
-    "_NOTES/skills/learning.md",
-    "_NOTES/skills/teaching.md",
-    "_NOTES/tech/ux/accessibility.md",
-    "404.md",
-    "_NOTES/arts/philosophy/all-is-one.md",
-    "_NOTES/social-sciences/tolerate-anything-except-outgroup.md",
-    "_NOTES/arts/cinema.md",
-    "_NOTES/arts/arts.md",
-    "_NOTES/arts/literature/classics.md",
-    "_NOTES/arts/literature/ince-memed.md",
-    "_NOTES/arts/literature/turk-mirasi.md",
-    "_NOTES/arts/languages/turkce.md",
-    "_NOTES/arts/languages/modern-greek-alphabet.md",
-    "_NOTES/arts/languages/latin.md",
-    "_NOTES/arts/languages/languages.md",
-    "_NOTES/arts/languages/deutsch.md",
-    "_NOTES/math/math.md",
-    "assets/static/img/word-spectrum.jpg",
-    "assets/static/img/notice-top-of-mind.jpeg",
-    "assets/static/img/the-spotlight-effect.jpeg",
-    "assets/static/img/emotional-hot-potato.jpeg",
-    "assets/static/img/present-bias.jpeg",
-    "assets/static/img/peak-end-rule.jpeg",
-    "assets/static/img/human-pace.jpeg",
-    "assets/static/img/framing.jpeg",
-    "assets/static/img/freeze-lemons.jpeg",
-    "assets/static/img/serrated-knives.jpeg",
     "_site/thoughts-on-swe/index.html",
     "_site/thoughts-on-swe",
     "_site/healthcare/index.html",
     "_site/healthcare",
     "_site/assets/static/sk",
     "assets/static/sk",
-    "assets/static/sketch",
-    "assets/static/New folder",
-    "_site/encodings/index.html",
     "Untitled.canvas"
   ]
 }

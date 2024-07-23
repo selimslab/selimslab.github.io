@@ -2,6 +2,8 @@
 title: Teamwork
 ---
 
+// todo 
+
 However hard you work, the results are limited by a single person.
 
 Nothing great is built alone but by working effectively in groups.

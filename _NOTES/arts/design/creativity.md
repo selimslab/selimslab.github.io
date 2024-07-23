@@ -1,6 +1,9 @@
 ---
 ---
 
+
+
+
 Good ideas are in plain sight. They are about reordering existing + connecting + right timing.
 
 Don't look for ideas, work on things that you find genuinely interesting 
@@ -10,11 +13,6 @@ Don't look for ideas, work on things that you find genuinely interesting
 > Creative people feel a little guilty because they just saw something obvious. 
 > 
 > Steve Jobs
-
-
-![](/assets/static/img/get-good-ideas.jpeg)
-
-![](/assets/static/img/six-hats.jpeg)
 
 
 "Make the expensive cheap.
@@ -27,3 +25,7 @@ Make the difficult easy.
 
 There are opportunities everywhere."
 
+
+[Tag: creativity - Sketchplanations](https://sketchplanations.com/tags/creativity)
+
+[Tag: ideas - Sketchplanations](https://sketchplanations.com/tags/ideas)

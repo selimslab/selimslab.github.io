@@ -13,3 +13,4 @@ Here all in one table.
 This is enough theory to explain electricity, magnetism, light, and motions of all bodies from galaxies to atoms 
 
 
+[Tag: physics - Sketchplanations](https://sketchplanations.com/tags/physics)

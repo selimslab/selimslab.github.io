@@ -2,12 +2,6 @@
 tags: skills
 ---
 
-from sketchplanations
+[Tag: photography - Sketchplanations](https://sketchplanations.com/tags/photography)
 
-![](/assets/static/img/apperture.jpeg)
 
-![](/assets/static/img/shutter-speed.jpeg)
-
-![](/assets/static/img/iso-sensitivity.jpeg)
-
-![](/assets/static/img/exposure.jpeg)

@@ -2,6 +2,8 @@
 tags: languages
 ---
 
+[Tag: metaphor - Sketchplanations](https://sketchplanations.com/tags/metaphor)
+
 <https://sketchplanations.com/primary-metaphor>
 
 ![](/assets/static/img/primary-metaphor.jpeg)

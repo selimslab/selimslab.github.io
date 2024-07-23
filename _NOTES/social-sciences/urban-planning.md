@@ -12,6 +12,9 @@ We live in a world built mostly for cars
 
 [Sidewalk Garden - Zach Klein](https://zachklein.com/Sidewalk+Garden)
 
-![](/assets/static/img/cities-in-an-hours-time.jpeg)
+
 
 ![](/assets/static/img/pollution-localized.jpeg)
+
+
+![](/assets/static/img/cities-in-an-hours-time.jpeg)

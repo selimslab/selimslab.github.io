@@ -17,7 +17,6 @@ A large part of happiness depends on health. Freedom, security, love, friendship
 
 “Folks are usually about as happy as they make their minds up to be.” _Abraham Lincoln_
 
-![](/assets/static/img/happier-dog.jpeg)
 
 “Time you enjoy wasting is not wasted time.” 
 
@@ -25,7 +24,8 @@ A large part of happiness depends on health. Freedom, security, love, friendship
 
 “Don’t waste your time in anger, regrets, worries, and grudges. Life is too short for that” 
 
-![](/assets/static/img/dont-let-them-get-you-down.jpeg)
+
+![](/assets/static/img/happier-dog.jpeg)
 
 ## See also 
 

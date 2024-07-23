@@ -25,14 +25,18 @@ Poeple often share a problem or vulnerability for emotional support, not for adv
 
 Frequent sharing organizes thoughts
 
-![](/assets/static/img/ask-for-it.jpeg)
-
 ![](/assets/static/img/compliments-are-gifts.jpeg)
 
 ![](/assets/static/img/not-say-told-you.jpeg)
 
 
-[How to Communicate When Trust Is Low (Without Digging Yourself Into A Deeper Hole) – charity.wtf](https://charity.wtf/2023/08/17/how-to-communicate-when-trust-is-low-without-digging-yourself-into-a-deeper-hole/)
 
+![](/assets/static/img/plain-pooh.jpg)
+
+[How to Communicate When Trust Is Low (Without Digging Yourself Into A Deeper Hole) ](https://charity.wtf/2023/08/17/how-to-communicate-when-trust-is-low-without-digging-yourself-into-a-deeper-hole/)
 
 [[leadership]]
+
+[Tag: advice - Sketchplanations](https://sketchplanations.com/tags/advice)
+
+[Tag: kindness - Sketchplanations](https://sketchplanations.com/tags/kindness)

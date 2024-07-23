@@ -28,3 +28,4 @@ It’s a common sight on Japanese mass transit: children troop through train car
 Parents in Japan regularly send their kids out into the world at a very young age. A popular television show called Hajimete no Otsukai, or My First Errand, features children as young as two or three being sent out to do a task for their family. As they tentatively make their way to the greengrocer or bakery, their progress is secretly filmed by a camera crew. The show has been running for more than 25 years.
 
 
+[Tag: parenting - Sketchplanations](https://sketchplanations.com/tags/parenting)
