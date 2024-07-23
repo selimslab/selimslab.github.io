@@ -242,14 +242,12 @@
   "/teamwork": [
     "work"
   ],
-  "/thoughts-on-work": [
-    "work"
-  ],
   "/what-to-work-on": [
     "work"
   ],
   "/work": [
-    "philosophy"
+    "philosophy",
+    "psychology"
   ],
   "/you-are-not-nameless": [
     "work"
@@ -355,9 +353,6 @@
   "/blogs": [
     "lists"
   ],
-  "/books": [
-    "lists"
-  ],
   "/comics": [
     "lists"
   ],
@@ -403,6 +398,10 @@
   "/analytics": [
     "math"
   ],
+  "/bayes": [
+    "algo",
+    "math"
+  ],
   "/counter-intuitive-math": [
     "math"
   ],
@@ -430,15 +429,7 @@
   "/math": [
 
   ],
-  "/bayes": [
-    "algo",
-    "math",
-    "probability"
-  ],
   "/normal-distribution": [
-    "probability"
-  ],
-  "/probability": [
     "math"
   ],
   "/statistics": [
@@ -481,10 +472,6 @@
     "natural-sciences"
   ],
   "/solar-system": [
-    "natural-sciences"
-  ],
-  "/stem-books": [
-    "books",
     "natural-sciences"
   ],
   "/the-overview-effect": [
@@ -556,8 +543,7 @@
     "skills"
   ],
   "/do-one-thing-at-a-time-and-do-it-well": [
-    "decisions",
-    "sys"
+    "decisions"
   ],
   "/do-the-right-thing": [
     "decisions"
@@ -573,16 +559,13 @@
   "/drawing": [
     "skills"
   ],
-  "/car-equipment": [
-    "driving"
-  ],
   "/driving": [
     "skills"
   ],
-  "/used-car-checklist": [
-    "driving"
-  ],
   "/drowning-does-not-look-dramatic": [
+    "skills"
+  ],
+  "/exercise": [
     "skills"
   ],
   "/get-things-done": [
@@ -590,6 +573,9 @@
   ],
   "/growing-plants": [
     "skills"
+  ],
+  "/going-blind": [
+    "health"
   ],
   "/health": [
     "skills"
@@ -609,16 +595,8 @@
   "/humor": [
     "skills"
   ],
-  "/the-tao-of-programming": [
-    "humor",
-    "top"
-  ],
   "/leadership": [
     "skills"
-  ],
-  "/setting-rules": [
-    "leadership",
-    "psy"
   ],
   "/learning": [
     "skills",
@@ -633,24 +611,12 @@
   "/motocycles": [
     "skills"
   ],
-  "/3-day-nature-reset": [
-    "outdoors"
-  ],
-  "/calisthenics": [
-    "outdoors"
-  ],
-  "/exercise": [
-    "outdoors"
-  ],
   "/mountaineering": [
-    "outdoors"
+    "skills"
   ],
   "/outdoors": [
     "skills",
     "sports"
-  ],
-  "/sports": [
-    "outdoors"
   ],
   "/photography": [
     "skills"
@@ -665,6 +631,14 @@
     "skills"
   ],
   "/teaching": [
+    "skills"
+  ],
+  "/the-tao-of-programming": [
+    "humor",
+    "skills",
+    "top"
+  ],
+  "/used-car-checklist": [
     "skills"
   ],
   "/being-poor": [
@@ -751,7 +725,7 @@
     "psychology"
   ],
   "/bias-for-unhappiness": [
-    "psychology"
+    "cognitive-biases"
   ],
   "/cognitive-biases": [
     "psychology",
@@ -767,12 +741,6 @@
   "/people-see-what-they-want": [
     "cognitive-biases"
   ],
-  "/distractions": [
-    "psychology"
-  ],
-  "/ego": [
-    "psychology"
-  ],
   "/anger": [
     "emotions"
   ],
@@ -785,6 +753,9 @@
   "/courage": [
     "emotions"
   ],
+  "/ego": [
+    "emotions"
+  ],
   "/emotions": [
     "psychology"
   ],
@@ -794,17 +765,20 @@
   "/hope": [
     "emotions"
   ],
+  "/loneliness": [
+    "emotions"
+  ],
   "/respect": [
     "emotions"
   ],
   "/trust": [
     "emotions"
   ],
-  "/vulnerability": [
+  "/unmet-needs": [
     "emotions"
   ],
-  "/flow": [
-    "psychology"
+  "/vulnerability": [
+    "emotions"
   ],
   "/gaslighting": [
     "psychology"
@@ -815,22 +789,7 @@
   "/how-to-spot-a-liar": [
     "psychology"
   ],
-  "/how-to-start": [
-    "psychology",
-    "skills",
-    "soc"
-  ],
-  "/loneliness": [
-    "psychology"
-  ],
-  "/overcoming-obstacles": [
-    "psychology"
-  ],
   "/persuasion": [
-    "psychology"
-  ],
-  "/praise-and-motivation": [
-    "lead",
     "psychology"
   ],
   "/procrastination": [
@@ -840,9 +799,6 @@
     "social-sciences"
   ],
   "/relationships": [
-    "psychology"
-  ],
-  "/social-class": [
     "psychology"
   ],
   "/solitude": [
@@ -862,10 +818,30 @@
   "/thinking-fast-and-slow": [
     "psychology"
   ],
-  "/unmet-needs": [
-    "psychology"
+  "/distractions": [
+    "work"
+  ],
+  "/flow": [
+    "work"
+  ],
+  "/how-to-start": [
+    "skills",
+    "soc",
+    "work"
+  ],
+  "/overcoming-obstacles": [
+    "work"
+  ],
+  "/praise-and-motivation": [
+    "work"
+  ],
+  "/setting-rules": [
+    "work"
   ],
   "/social-change": [
+    "social-sciences"
+  ],
+  "/social-class": [
     "social-sciences"
   ],
   "/social-sciences": [
@@ -888,11 +864,19 @@
     "soc",
     "social-sciences"
   ],
+  "/concurrency": [
+    "tech"
+  ],
+  "/containers": [
+    "os",
+    "tech"
+  ],
   "/atomicity": [
     "databases"
   ],
   "/b-trees": [
-    "databases"
+    "databases",
+    "ds"
   ],
   "/databases": [
     "tech"
@@ -987,16 +971,13 @@
   "/armstrong-thesis": [
     "distributed-systems"
   ],
+  "/azure-pillars": [
+    "distributed-systems"
+  ],
   "/consistent-hashing": [
     "distributed-systems"
   ],
-  "/designing-data-intensive-apps": [
-    "distributed-systems"
-  ],
   "/detect-a-node-failure": [
-    "distributed-systems"
-  ],
-  "/distributed-data": [
     "distributed-systems"
   ],
   "/distributed-design-patterns": [
@@ -1006,10 +987,10 @@
     "sys",
     "tech"
   ],
-  "/encoding-and-evolution": [
+  "/generate-a-unique-id": [
     "distributed-systems"
   ],
-  "/generate-a-unique-id": [
+  "/google-sre-book": [
     "distributed-systems"
   ],
   "/kafka": [
@@ -1024,6 +1005,13 @@
   "/use-an-identity-service": [
     "distributed-systems"
   ],
+  "/domain-driven-design": [
+    "sys",
+    "tech"
+  ],
+  "/encodings": [
+    "tech"
+  ],
   "/machine-learning": [
     "tech"
   ],
@@ -1033,24 +1021,8 @@
   "/nlp": [
     "tech"
   ],
-  "/concurrency": [
-    "operating-systems",
-    "swe",
-    "sys"
-  ],
-  "/containers": [
-    "operating-systems",
-    "sys"
-  ],
   "/operating-systems": [
     "tech"
-  ],
-  "/os-books": [
-    "operating-systems"
-  ],
-  "/algo-books": [
-    "algorithms",
-    "books"
   ],
   "/algo-easy": [
     "algorithms",
@@ -1593,51 +1565,23 @@
   "/summary-prompt": [
     "prompt-engineering"
   ],
-  "/books-swe": [
-    "books",
-    "software-engineering"
-  ],
   "/code-review": [
-    "lists",
     "software-engineering"
   ],
   "/core-concepts": [
     "software-engineering"
   ],
-  "/dependency-management": [
-    "software-engineering"
-  ],
   "/discussion-topics": [
-    "software-engineering"
-  ],
-  "/going-blind": [
-    "health",
-    "software-engineering"
-  ],
-  "/google-sre-book": [
-    "books",
-    "software-engineering"
-  ],
-  "/software-architecture": [
     "software-engineering"
   ],
   "/software-engineering": [
     "tech"
   ],
   "/the-joel-test": [
-    "lists",
     "software-engineering"
   ],
-  "/domain-driven-design": [
-    "sys",
-    "system-design"
-  ],
-  "/system-design-concepts": [
-    "sys",
-    "system-design"
-  ],
   "/system-design": [
-    "swe",
+    "systems",
     "tech"
   ],
   "/tech": [

@@ -1,5 +1,4 @@
 ---
-tags: lists
 ---
 
  
@@ -20,3 +19,5 @@ xkcd
 <https://www.gocomics.com>
 
 ![](/assets/static/img/in_thought_poorlydrawn.png)
+
+[[humor]]

@@ -100,8 +100,6 @@
         },
         "/teamwork": {
         },
-        "/thoughts-on-work": {
-        },
         "/what-to-work-on": {
         },
         "/work": {
@@ -260,8 +258,6 @@
     },
     "/blogs": {
     },
-    "/books": {
-    },
     "/comics": {
     },
     "/datasets": {
@@ -290,13 +286,9 @@
     }
   },
   "/math": {
-    "/probability": {
-      "/bayes": {
-      },
-      "/normal-distribution": {
-      },
-      "/probability": {
-      }
+    "/analytics": {
+    },
+    "/bayes": {
     },
     "/counter-intuitive-math": {
     },
@@ -316,9 +308,9 @@
     },
     "/math": {
     },
-    "/statistics": {
+    "/normal-distribution": {
     },
-    "/analytics": {
+    "/statistics": {
     }
   },
   "/natural-sciences": {
@@ -345,8 +337,6 @@
     "/philosophical-implications-of-quantum-mechanics": {
     },
     "/solar-system": {
-    },
-    "/stem-books": {
     },
     "/the-overview-effect": {
     },
@@ -394,20 +384,6 @@
       "/on-decision-making": {
       }
     },
-    "/outdoors": {
-      "/3-day-nature-reset": {
-      },
-      "/calisthenics": {
-      },
-      "/exercise": {
-      },
-      "/mountaineering": {
-      },
-      "/outdoors": {
-      },
-      "/sports": {
-      }
-    },
     "/communication": {
       "/communication": {
       },
@@ -420,15 +396,9 @@
       "/write-better": {
       }
     },
-    "/driving": {
-      "/car-equipment": {
-      },
-      "/driving": {
-      },
-      "/used-car-checklist": {
-      }
-    },
     "/health": {
+      "/going-blind": {
+      },
       "/health": {
       },
       "/how-to-deal-with-pain": {
@@ -436,25 +406,33 @@
       "/sleep": {
       }
     },
+    "/exercise": {
+    },
+    "/get-things-done": {
+    },
+    "/growing-plants": {
+    },
+    "/how-to-grow-old-russell": {
+    },
     "/humor": {
-      "/humor": {
-      },
-      "/the-tao-of-programming": {
-      }
     },
     "/leadership": {
-      "/leadership": {
-      },
-      "/setting-rules": {
-      }
+    },
+    "/learning": {
+    },
+    "/making-videos": {
     },
     "/mastery": {
     },
-    "/motocycles": {
+    "/drowning-does-not-look-dramatic": {
+    },
+    "/mountaineering": {
+    },
+    "/outdoors": {
     },
     "/photography": {
     },
-    "/making-videos": {
+    "/problem-solving": {
     },
     "/skills": {
     },
@@ -462,19 +440,15 @@
     },
     "/teaching": {
     },
-    "/learning": {
+    "/the-tao-of-programming": {
     },
-    "/how-to-grow-old-russell": {
+    "/used-car-checklist": {
     },
-    "/growing-plants": {
-    },
-    "/get-things-done": {
-    },
-    "/drowning-does-not-look-dramatic": {
+    "/driving": {
     },
     "/drawing": {
     },
-    "/problem-solving": {
+    "/motocycles": {
     },
     "/cooking": {
     }
@@ -483,37 +457,19 @@
     "/psychology": {
       "/behavioral-psychology": {
       },
-      "/bias-for-unhappiness": {
-      },
-      "/distractions": {
-      },
-      "/ego": {
-      },
-      "/flow": {
-      },
       "/gaslighting": {
       },
       "/habits": {
       },
       "/how-to-spot-a-liar": {
       },
-      "/how-to-start": {
-      },
-      "/loneliness": {
-      },
-      "/overcoming-obstacles": {
-      },
       "/persuasion": {
-      },
-      "/praise-and-motivation": {
       },
       "/procrastination": {
       },
       "/psychology": {
       },
       "/relationships": {
-      },
-      "/social-class": {
       },
       "/solitude": {
       },
@@ -525,9 +481,9 @@
       },
       "/thinking-fast-and-slow": {
       },
-      "/unmet-needs": {
-      },
       "/cognitive-biases": {
+        "/bias-for-unhappiness": {
+        },
         "/cognitive-biases": {
         },
         "/complain-vs-appreciate": {
@@ -546,17 +502,37 @@
         },
         "/courage": {
         },
+        "/ego": {
+        },
         "/emotions": {
         },
         "/empathy": {
         },
         "/hope": {
         },
+        "/loneliness": {
+        },
         "/respect": {
         },
         "/trust": {
         },
+        "/unmet-needs": {
+        },
         "/vulnerability": {
+        }
+      },
+      "/work": {
+        "/distractions": {
+        },
+        "/flow": {
+        },
+        "/how-to-start": {
+        },
+        "/overcoming-obstacles": {
+        },
+        "/praise-and-motivation": {
+        },
+        "/setting-rules": {
         }
       }
     },
@@ -602,11 +578,15 @@
       "/wage-theft": {
       }
     },
+    "/social-change": {
+    },
+    "/social-class": {
+    },
     "/social-sciences": {
     },
-    "/systems": {
-    },
     "/metaphors": {
+    },
+    "/tolerate-anything-except-outgroup": {
     },
     "/urban-planning": {
     },
@@ -616,11 +596,9 @@
     },
     "/chaos": {
     },
-    "/social-change": {
-    },
     "/in-praise-of-idleness": {
     },
-    "/tolerate-anything-except-outgroup": {
+    "/systems": {
     },
     "/being-poor": {
     }
@@ -727,21 +705,19 @@
     "/distributed-systems": {
       "/armstrong-thesis": {
       },
+      "/azure-pillars": {
+      },
       "/consistent-hashing": {
       },
-      "/designing-data-intensive-apps": {
-      },
       "/detect-a-node-failure": {
-      },
-      "/distributed-data": {
       },
       "/distributed-design-patterns": {
       },
       "/distributed-systems": {
       },
-      "/encoding-and-evolution": {
-      },
       "/generate-a-unique-id": {
+      },
+      "/google-sre-book": {
       },
       "/kafka": {
       },
@@ -762,8 +738,6 @@
       "/programming": {
       },
       "/algorithms": {
-        "/algo-books": {
-        },
         "/algo-easy": {
         },
         "/algo-hard": {
@@ -1056,28 +1030,6 @@
         }
       }
     },
-    "/software-engineering": {
-      "/books-swe": {
-      },
-      "/code-review": {
-      },
-      "/core-concepts": {
-      },
-      "/dependency-management": {
-      },
-      "/discussion-topics": {
-      },
-      "/going-blind": {
-      },
-      "/google-sre-book": {
-      },
-      "/software-architecture": {
-      },
-      "/software-engineering": {
-      },
-      "/the-joel-test": {
-      }
-    },
     "/ux": {
       "/accessibility": {
       },
@@ -1094,6 +1046,18 @@
       "/ux": {
       }
     },
+    "/software-engineering": {
+      "/code-review": {
+      },
+      "/core-concepts": {
+      },
+      "/discussion-topics": {
+      },
+      "/software-engineering": {
+      },
+      "/the-joel-test": {
+      }
+    },
     "/prompt-engineering": {
       "/base-prompt": {
       },
@@ -1106,33 +1070,27 @@
       "/summary-prompt": {
       }
     },
+    "/networks": {
+    },
+    "/unicode": {
+    },
     "/operating-systems": {
-      "/concurrency": {
-      },
-      "/containers": {
-      },
-      "/operating-systems": {
-      },
-      "/os-books": {
-      }
+    },
+    "/encodings": {
+    },
+    "/domain-driven-design": {
+    },
+    "/containers": {
+    },
+    "/machine-learning": {
     },
     "/system-design": {
-      "/domain-driven-design": {
-      },
-      "/system-design-concepts": {
-      },
-      "/system-design": {
-      }
     },
     "/nlp": {
     },
     "/tech": {
     },
-    "/networks": {
-    },
-    "/machine-learning": {
-    },
-    "/unicode": {
+    "/concurrency": {
     }
   }
 }
