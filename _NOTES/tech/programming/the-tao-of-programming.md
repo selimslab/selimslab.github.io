@@ -3,7 +3,7 @@ title: The Tao of Programming
 tags: top humor
 ---
 
-From <https://www.mit.edu/~xela/tao.html>
+From [The Tao of Programming (mit.edu)](https://www.mit.edu/~xela/tao.html)
 
 ### BOOK 1
 

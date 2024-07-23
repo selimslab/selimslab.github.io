@@ -21,9 +21,6 @@ Anything that can go wrong will go wrong.
 
 Leave it better than you found. 
 
-
----
-
 ## Keep it simple 
 
 * The best code is no code
@@ -107,12 +104,10 @@ Leave it better than you found.
 
 * People in a hierarchy tend to rise to their "level of incompetence". The Peter Principle
 
----
+## See also 
 
-Also see 
+[List of eponymous laws - Wikipedia](https://en.wikipedia.org/wiki/List_of_eponymous_laws)
 
-[wiki](https://en.wikipedia.org/wiki/List_of_eponymous_laws)
-
-<https://github.com/dwmkerr/hacker-laws>
+[dwmkerr/hacker-laws: 💻📖 Laws, Theories, Principles and Patterns that developers will find useful. #hackerlaws (github.com)](https://github.com/dwmkerr/hacker-laws)
 
 [[akins-laws-of-spacecraft]]

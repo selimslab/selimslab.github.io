@@ -23,5 +23,3 @@ Ordinary men and women, having the opportunity of a happy life, will become more
 Good nature is, of all moral qualities, the one that the world needs most, and good nature is the result of ease and security, not of a life of arduous struggle. 
 
 We have continued to be as energetic as we were before there were machines. In this we have been foolish, but there is no reason to go on being foolish for ever.
-
-[[four-day-workweek]]

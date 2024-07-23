@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "since-big-bang",
+      "path": "_NOTES/social-sciences/history/since-big-bang.md"
+    },
+    {
+      "basename": "_x",
+      "path": "_NOTES/_x.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "farming-trap",
+      "path": "_NOTES/social-sciences/history/farming-trap.md"
+    },
+    {
+      "basename": "history-of-technology",
+      "path": "_NOTES/social-sciences/history/history-of-technology.md"
+    },
+    {
+      "basename": "history",
+      "path": "_NOTES/social-sciences/history/history.md"
+    },
+    {
+      "basename": "wage-theft",
+      "path": "_NOTES/social-sciences/wage-theft.md"
+    },
+    {
+      "basename": "economics",
+      "path": "_NOTES/social-sciences/economics.md"
+    },
+    {
+      "basename": "in-praise-of-idleness",
+      "path": "_NOTES/social-sciences/in-praise-of-idleness.md"
+    },
+    {
+      "basename": "_TODO",
+      "path": "_NOTES/_TODO.md"
+    },
+    {
+      "basename": "hacker-laws",
+      "path": "_NOTES/tech/thoughts-on-tech/hacker-laws.md"
+    },
+    {
+      "basename": "the-tao-of-programming",
+      "path": "_NOTES/tech/programming/the-tao-of-programming.md"
+    },
+    {
       "basename": "do-without-doing",
       "path": "_NOTES/skills/decisions/do-without-doing.md"
     },
@@ -69,10 +117,6 @@
       "path": "_NOTES/tech/thoughts-on-tech/choose-boring-tech.md"
     },
     {
-      "basename": "hacker-laws",
-      "path": "_NOTES/tech/thoughts-on-tech/hacker-laws.md"
-    },
-    {
       "basename": "hijacked-minds",
       "path": "_NOTES/tech/thoughts-on-tech/hijacked-minds.md"
     },
@@ -107,10 +151,6 @@
     {
       "basename": "systems",
       "path": "_NOTES/social-sciences/systems.md"
-    },
-    {
-      "basename": "economics",
-      "path": "_NOTES/social-sciences/economics/economics.md"
     },
     {
       "basename": "wasted-talent",
@@ -155,46 +195,6 @@
     {
       "basename": "leadership",
       "path": "_NOTES/skills/leadership.md"
-    },
-    {
-      "basename": "loneliness",
-      "path": "_NOTES/social-sciences/psychology/emotions/loneliness.md"
-    },
-    {
-      "basename": "persuasion",
-      "path": "_NOTES/social-sciences/psychology/persuasion.md"
-    },
-    {
-      "basename": "how-to-spot-a-liar",
-      "path": "_NOTES/social-sciences/psychology/how-to-spot-a-liar.md"
-    },
-    {
-      "basename": "habits",
-      "path": "_NOTES/social-sciences/psychology/habits.md"
-    },
-    {
-      "basename": "gaslighting",
-      "path": "_NOTES/social-sciences/psychology/gaslighting.md"
-    },
-    {
-      "basename": "behavioral-psychology",
-      "path": "_NOTES/social-sciences/psychology/behavioral-psychology.md"
-    },
-    {
-      "basename": "vulnerability",
-      "path": "_NOTES/social-sciences/psychology/emotions/vulnerability.md"
-    },
-    {
-      "basename": "courage",
-      "path": "_NOTES/social-sciences/psychology/emotions/courage.md"
-    },
-    {
-      "basename": "arrogance",
-      "path": "_NOTES/social-sciences/psychology/emotions/arrogance.md"
-    },
-    {
-      "basename": "anxiety",
-      "path": "_NOTES/social-sciences/psychology/emotions/anxiety.md"
     }
   ],
   "omittedPaths": []

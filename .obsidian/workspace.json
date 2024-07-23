@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "0c329b579a579e3d",
+        "id": "36ff165f5248f1f0",
         "type": "tabs",
         "children": [
           {
-            "id": "67cf7c7d74778e05",
+            "id": "9fea56d67d58fe54",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_NOTES/skills/decisions/do-without-doing.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -94,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_NOTES/skills/decisions/do-without-doing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_NOTES/skills/decisions/do-without-doing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_NOTES/skills/decisions/do-without-doing.md"
+                "file": "assets/static/sketch/60-30-10.jpeg"
               }
             }
           }
@@ -160,32 +153,36 @@
   },
   "active": "bc86af8c7183ead1",
   "lastOpenFiles": [
+    "assets/static/sketch/a-billion-heartbeats.jpeg",
+    "assets/static/sketch/2-factor-auth.jpeg",
+    "assets/static/sketch/word-spectrum.jpg",
+    "assets/static/sketch",
+    "assets/static/New folder",
+    "_NOTES/social-sciences/history/since-big-bang.md",
+    "_NOTES/_x.md",
+    "_NOTES/_mdsf.md",
+    "README.md",
+    "_NOTES/social-sciences/history/farming-trap.md",
+    "_NOTES/social-sciences/history/history-of-technology.md",
+    "_NOTES/social-sciences/history/history.md",
+    "_NOTES/social-sciences/wage-theft.md",
+    "_NOTES/social-sciences/economics.md",
+    "_NOTES/social-sciences/economics/the-tragedy-of-the-commons.md",
+    "_NOTES/social-sciences/in-praise-of-idleness.md",
+    "_NOTES/social-sciences/economics/four-day-workweek.md",
+    "_NOTES/_FRESH.md",
+    "_NOTES/_TODO.md",
+    "_NOTES/_NOTES.md",
+    "_NOTES/tech/thoughts-on-tech/hacker-laws.md",
+    "_NOTES/tech/programming/the-tao-of-programming.md",
+    "_NOTES/skills/decisions/do-without-doing.md",
     "_NOTES/skills/decisions/on-decision-making.md",
     "_NOTES/arts/philosophy/work/work.md",
     "_NOTES/skills/get-things-done.md",
     "_NOTES/arts/philosophy/a-good-life.md",
-    "_NOTES/skills/decisions/do-without-doing.md",
     "_NOTES/skills/decisions/do-the-right-thing.md",
     "_NOTES/skills/decisions/do-one-thing-at-a-time-and-do-it-well.md",
     "_NOTES/skills/decisions/decisions.md",
-    "_NOTES/skills/decisions/critical-thinking.md",
-    "_NOTES/math/discrete-vs-continuous.md",
-    "_NOTES/arts/philosophy/choice/choice.md",
-    "_NOTES/natural-sciences/healthcare/going-blind.md",
-    "_NOTES/natural-sciences/healthcare/healthcare.md",
-    "_NOTES/natural-sciences/healthcare/how-to-deal-with-pain.md",
-    "_NOTES/natural-sciences/healthcare/sleep.md",
-    "_NOTES/natural-sciences/health/Untitled.md",
-    "_NOTES/tech/thoughts-on-tech/44-engineering-management-lessons.md",
-    "_NOTES/tech/thoughts-on-tech/a-free-web-again.md",
-    "_NOTES/tech/thoughts-on-tech/choose-boring-tech.md",
-    "_NOTES/tech/thoughts-on-tech/hacker-laws.md",
-    "_NOTES/tech/thoughts-on-tech/hijacked-minds.md",
-    "_NOTES/tech/thoughts-on-tech/minimal-tech.md",
-    "_NOTES/tech/thoughts-on-tech/social-media.md",
-    "_NOTES/tech/thoughts-on-tech/software-analogies.md",
-    "_NOTES/tech/thoughts-on-tech/software-quality.md",
-    "_NOTES/tech/thoughts-on-tech/technology-and-time.md",
     "_site/encodings/index.html",
     "_site/encodings",
     "_site/azure-pillars/index.html",
@@ -194,8 +191,6 @@
     "_site/_NOTES/social-sciences/psychology/emotions/emotions/index.html",
     "_site/_NOTES/social-sciences/psychology/emotions/emotions",
     "_site/_NOTES/social-sciences/psychology/emotions",
-    "_site/_NOTES/social-sciences/psychology",
-    "_site/_NOTES/social-sciences",
     "assets/static/img/grow-fresh-air.jpeg",
     "_NOTES/skills/grow-fresh-air.jpeg",
     "_NOTES/practical-skills/grow-fresh-air.jpeg",
@@ -204,8 +199,6 @@
     "_site/assets/static/solar/2k_stars_milky_way2.jpg",
     "assets/static/solar/2k_stars_milky_way2.jpg",
     "_site/assets/static/wind-spring-white-stratosphere-pure.jpg",
-    "assets/static/wind-spring-white-stratosphere-pure.jpg",
-    "_site/assets/static/solar/marble.jpg",
     "Untitled.canvas"
   ]
 }
