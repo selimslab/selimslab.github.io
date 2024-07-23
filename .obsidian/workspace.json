@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "277f62c6ace8808f",
+        "id": "94067fe0a90f262e",
         "type": "tabs",
         "children": [
           {
-            "id": "64455aacbcb18f78",
+            "id": "e027ca3895864cdb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_NOTES/_TODO.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -94,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_NOTES/_TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_NOTES/_TODO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_NOTES/_TODO.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -158,8 +149,19 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "bc86af8c7183ead1",
+  "active": "e027ca3895864cdb",
   "lastOpenFiles": [
+    "_NOTES/_TODO.md",
+    "_site/acid/index.html",
+    "_site/acid",
+    "_site/outgroup/index.html",
+    "_site/outgroup",
+    "_site/pneumonia-detection/index.html",
+    "_site/pneumonia-detection",
+    "_site/mid/index.html",
+    "_site/mid",
+    "_site/hard/index.html",
+    "_site/hard",
     "_NOTES/tech/thoughts-on-tech/thoughts-on-swe.md",
     "_NOTES/programming/programming-languages/python/python-packages.md",
     "_NOTES/programming/programming-languages/python/zen-of-python.md",
@@ -185,17 +187,6 @@
     "_NOTES/programming/projects/projects.md",
     "_NOTES/programming/projects/predict-movie-genres.md",
     "_NOTES/programming/projects/mini-web-server.md",
-    "_NOTES/programming/projects/pneumonia-detection.md",
-    "_NOTES/programming/programming-languages/python",
-    "_NOTES/programming/oop/oop-designs",
-    "_NOTES/programming/projects",
-    "_NOTES/programming/programming-languages",
-    "_NOTES/programming/oop",
-    "_NOTES/programming/data-structures",
-    "_NOTES/programming/code",
-    "_NOTES/programming/algorithms",
-    "_NOTES/programming",
-    "_NOTES/natural-sciences/health",
     "_site/assets/static/img/plain-pooh.jpg",
     "_site/assets/static/img/normal.png",
     "assets/static/img/std-sigma-rule.png",

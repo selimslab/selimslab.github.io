@@ -1,3 +1,3 @@
 ---
-tags: swe
+tags: swe skills tech
 ---

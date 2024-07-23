@@ -119,7 +119,9 @@
         "/encodings",
         "/tools",
         "/compsci",
-        "/software-engineering"
+        "/skills",
+        "/software-engineering",
+        "/tech"
       ]
     },
     {
@@ -158,8 +160,9 @@
         "/making-videos",
         "/children",
         "/critical-thinking",
-        "/how-to-start",
-        "/a-good-life"
+        "/a-good-life",
+        "/programming",
+        "/how-to-start"
       ]
     },
     {
@@ -186,12 +189,12 @@
         "/cognitive-biases",
         "/freedom",
         "/happiness",
-        "/hijacked-minds",
         "/how-to-start",
         "/learning",
         "/questioning-people-seen-as-a-threat-to-status-quo",
         "/solitude",
-        "/stupidity"
+        "/stupidity",
+        "/hijacked-minds"
       ]
     },
     {
@@ -218,10 +221,11 @@
         "/concurrency",
         "/software-engineering",
         "/code-review",
-        "/accessibility",
         "/akins-laws-of-spacecraft",
         "/history-of-technology",
-        "/since-big-bang"
+        "/programming",
+        "/since-big-bang",
+        "/accessibility"
       ]
     },
     {
@@ -262,17 +266,17 @@
         "/truth",
         "/time",
         "/work",
-        "/criminal-justice",
+        "/life-is-soft",
+        "/tao-te-ching",
+        "/going-blind",
+        "/how-to-deal-with-pain",
         "/critical-thinking",
         "/do-the-right-thing",
-        "/going-blind",
         "/how-to-grow-old-russell",
-        "/how-to-deal-with-pain",
         "/in-praise-of-idleness",
-        "/life-is-soft",
+        "/criminal-justice",
         "/look-down-and-around",
-        "/solitude",
-        "/tao-te-ching"
+        "/solitude"
       ]
     },
     {
@@ -416,9 +420,9 @@
       "name": "Essais",
       "links": [
         "/lists",
-        "/farming-trap",
         "/how-to-grow-old-russell",
         "/outgroup",
+        "/farming-trap",
         "/look-down-and-around",
         "/the-triumph-of-stupidity",
         "/who-goes-nazi"
@@ -1442,7 +1446,6 @@
         "/social-media",
         "/software-analogies",
         "/software-quality",
-        "/thoughts-on-swe",
         "/ship-it"
       ]
     },
@@ -1532,13 +1535,13 @@
       "links": [
         "/tech",
         "/systems",
-        "/accessibility",
         "/akins-laws-of-spacecraft",
-        "/choose-boring-tech",
         "/distributed-systems",
         "/domain-driven-design",
+        "/oop",
+        "/choose-boring-tech",
         "/hacker-laws",
-        "/oop"
+        "/accessibility"
       ]
     },
     {
@@ -2154,9 +2157,9 @@
       "name": "Turkce",
       "links": [
         "/languages",
-        "/ideal-insan",
         "/ince-memed",
         "/turk-mirasi",
+        "/ideal-insan",
         "/siir"
       ]
     },
@@ -2381,9 +2384,9 @@
         "/coin-change",
         "/edit-distance",
         "/house-robber",
+        "/lengthOfLIS",
         "/longest-common-subsequence",
         "/longest-diverse-str",
-        "/lengthOfLIS",
         "/lowest-common-ancestor",
         "/maximal-square",
         "/min-edit-distance",
@@ -2810,8 +2813,8 @@
       "name": "C",
       "links": [
         "/programming-languages",
-        "/garbage-collector-in-c",
         "/c-hashmap",
+        "/garbage-collector-in-c",
         "/logos-os",
         "/vga-driver"
       ]
@@ -2930,11 +2933,11 @@
         "/python-data-structures",
         "/python-packages",
         "/zen-of-python",
+        "/async-crawler",
+        "/compiler",
         "/mini-search-engine",
         "/mini-web-server",
-        "/async-crawler",
-        "/pascal-interpreter",
-        "/compiler"
+        "/pascal-interpreter"
       ]
     },
     {
@@ -3157,11 +3160,11 @@
         "/house-robber",
         "/invert-binary-tree",
         "/is-mirror-tree",
+        "/lengthOfLIS",
         "/level-order",
         "/longest-common-subsequence",
         "/longest-diverse-str",
         "/longest-valid-paranthesis",
-        "/lengthOfLIS",
         "/min-edit-distance"
       ]
     },
@@ -3967,14 +3970,6 @@
       "id": "/software-quality",
       "group": 3,
       "name": "Is High Quality Software Worth the Cost?",
-      "links": [
-        "/thoughts-on-tech"
-      ]
-    },
-    {
-      "id": "/thoughts-on-swe",
-      "group": 3,
-      "name": "Thoughts On Swe",
       "links": [
         "/thoughts-on-tech"
       ]
@@ -6233,10 +6228,6 @@
       "target": "/software-quality"
     },
     {
-      "source": "/thoughts-on-tech",
-      "target": "/thoughts-on-swe"
-    },
-    {
       "source": "/databases",
       "target": "/acid"
     },
@@ -6630,15 +6621,15 @@
     },
     {
       "source": "/turkce",
-      "target": "/ideal-insan"
-    },
-    {
-      "source": "/turkce",
       "target": "/ince-memed"
     },
     {
       "source": "/turkce",
       "target": "/turk-mirasi"
+    },
+    {
+      "source": "/turkce",
+      "target": "/ideal-insan"
     },
     {
       "source": "/turkce",
@@ -6714,7 +6705,19 @@
     },
     {
       "source": "/philosophy",
-      "target": "/criminal-justice"
+      "target": "/life-is-soft"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/tao-te-ching"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/going-blind"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/how-to-deal-with-pain"
     },
     {
       "source": "/philosophy",
@@ -6726,15 +6729,7 @@
     },
     {
       "source": "/philosophy",
-      "target": "/going-blind"
-    },
-    {
-      "source": "/philosophy",
       "target": "/how-to-grow-old-russell"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/how-to-deal-with-pain"
     },
     {
       "source": "/philosophy",
@@ -6742,7 +6737,7 @@
     },
     {
       "source": "/philosophy",
-      "target": "/life-is-soft"
+      "target": "/criminal-justice"
     },
     {
       "source": "/philosophy",
@@ -6751,10 +6746,6 @@
     {
       "source": "/philosophy",
       "target": "/solitude"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/tao-te-ching"
     },
     {
       "source": "/questions",
@@ -6822,15 +6813,15 @@
     },
     {
       "source": "/essais",
-      "target": "/farming-trap"
-    },
-    {
-      "source": "/essais",
       "target": "/how-to-grow-old-russell"
     },
     {
       "source": "/essais",
       "target": "/outgroup"
+    },
+    {
+      "source": "/essais",
+      "target": "/farming-trap"
     },
     {
       "source": "/essais",
@@ -6994,6 +6985,10 @@
     },
     {
       "source": "/mid",
+      "target": "/lengthOfLIS"
+    },
+    {
+      "source": "/mid",
       "target": "/level-order"
     },
     {
@@ -7007,10 +7002,6 @@
     {
       "source": "/mid",
       "target": "/longest-valid-paranthesis"
-    },
-    {
-      "source": "/mid",
-      "target": "/lengthOfLIS"
     },
     {
       "source": "/mid",
@@ -7034,15 +7025,15 @@
     },
     {
       "source": "/dynamic",
+      "target": "/lengthOfLIS"
+    },
+    {
+      "source": "/dynamic",
       "target": "/longest-common-subsequence"
     },
     {
       "source": "/dynamic",
       "target": "/longest-diverse-str"
-    },
-    {
-      "source": "/dynamic",
-      "target": "/lengthOfLIS"
     },
     {
       "source": "/dynamic",
@@ -7286,11 +7277,11 @@
     },
     {
       "source": "/c",
-      "target": "/garbage-collector-in-c"
+      "target": "/c-hashmap"
     },
     {
       "source": "/c",
-      "target": "/c-hashmap"
+      "target": "/garbage-collector-in-c"
     },
     {
       "source": "/c",
@@ -7306,6 +7297,14 @@
     },
     {
       "source": "/python",
+      "target": "/async-crawler"
+    },
+    {
+      "source": "/python",
+      "target": "/compiler"
+    },
+    {
+      "source": "/python",
       "target": "/mini-search-engine"
     },
     {
@@ -7314,15 +7313,7 @@
     },
     {
       "source": "/python",
-      "target": "/async-crawler"
-    },
-    {
-      "source": "/python",
       "target": "/pascal-interpreter"
-    },
-    {
-      "source": "/python",
-      "target": "/compiler"
     },
     {
       "source": "/zen-of-python",
@@ -7398,11 +7389,15 @@
     },
     {
       "source": "/skills",
-      "target": "/how-to-start"
+      "target": "/a-good-life"
     },
     {
       "source": "/skills",
-      "target": "/a-good-life"
+      "target": "/programming"
+    },
+    {
+      "source": "/skills",
+      "target": "/how-to-start"
     },
     {
       "source": "/economics",
@@ -7462,10 +7457,6 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/hijacked-minds"
-    },
-    {
-      "source": "/social-sciences",
       "target": "/how-to-start"
     },
     {
@@ -7483,6 +7474,10 @@
     {
       "source": "/social-sciences",
       "target": "/stupidity"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/hijacked-minds"
     },
     {
       "source": "/systems",
@@ -7534,15 +7529,7 @@
     },
     {
       "source": "/system-design",
-      "target": "/accessibility"
-    },
-    {
-      "source": "/system-design",
       "target": "/akins-laws-of-spacecraft"
-    },
-    {
-      "source": "/system-design",
-      "target": "/choose-boring-tech"
     },
     {
       "source": "/system-design",
@@ -7554,14 +7541,18 @@
     },
     {
       "source": "/system-design",
+      "target": "/oop"
+    },
+    {
+      "source": "/system-design",
+      "target": "/choose-boring-tech"
+    },
+    {
+      "source": "/system-design",
       "target": "/hacker-laws"
     },
     {
       "source": "/system-design",
-      "target": "/oop"
-    },
-    {
-      "source": "/tech",
       "target": "/accessibility"
     },
     {
@@ -7574,7 +7565,15 @@
     },
     {
       "source": "/tech",
+      "target": "/programming"
+    },
+    {
+      "source": "/tech",
       "target": "/since-big-bang"
+    },
+    {
+      "source": "/tech",
+      "target": "/accessibility"
     },
     {
       "source": "/ux",

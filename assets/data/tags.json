@@ -955,7 +955,9 @@
     "programming-languages"
   ],
   "/programming": [
-    "swe"
+    "skills",
+    "swe",
+    "tech"
   ],
   "/a-star-robot": [
     "cpp",
@@ -1568,9 +1570,6 @@
     "thoughts-on-tech"
   ],
   "/software-quality": [
-    "thoughts-on-tech"
-  ],
-  "/thoughts-on-swe": [
     "thoughts-on-tech"
   ],
   "/thoughts-on-tech": [
