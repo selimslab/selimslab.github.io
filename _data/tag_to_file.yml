@@ -1,8 +1,5 @@
 ds: data-structures
 algo: algorithms
-easy: algo-easy
-mid: algo-mid
-hard: algo-hard
 str: string
 arr: array
 dp: dynamic

@@ -1,4 +1,3 @@
 ---
 title: Medium
-tags: mid
 ---

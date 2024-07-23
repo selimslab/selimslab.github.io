@@ -1,4 +1,0 @@
----
-title: Hard
-tags: hard
----
