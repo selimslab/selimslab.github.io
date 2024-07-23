@@ -44,6 +44,7 @@ body {
   background-size: cover;
   /* Ensures the image covers the entire background */
   background-position: center;
+  background-attachment: fixed;
   /* Centers the image */
   color: $lightText;
   min-height: 100vh;
