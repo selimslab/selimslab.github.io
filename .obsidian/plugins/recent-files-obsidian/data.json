@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "_x",
+      "path": "_NOTES/_x.md"
+    },
+    {
+      "basename": "_TODO",
+      "path": "_NOTES/_TODO.md"
+    },
+    {
       "basename": "eudaimonia",
       "path": "_NOTES/arts/philosophy/eudaimonia.md"
     },
@@ -55,10 +63,6 @@
     {
       "basename": "look-down-and-around",
       "path": "_NOTES/social-sciences/politics/look-down-and-around.md"
-    },
-    {
-      "basename": "_TODO",
-      "path": "_NOTES/_TODO.md"
     },
     {
       "basename": "tech",
@@ -195,10 +199,6 @@
     {
       "basename": "openssl-encrypt",
       "path": "_NOTES/tech/security/openssl-encrypt.md"
-    },
-    {
-      "basename": "public-key-cryptography",
-      "path": "_NOTES/tech/security/public-key-cryptography.md"
     }
   ],
   "omittedPaths": []
