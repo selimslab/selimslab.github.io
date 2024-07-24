@@ -18,6 +18,10 @@ No arbitrary, fixed schedule
 
 Educate the heart
 
+[The Learning Pit - Sketchplanations](https://sketchplanations.com/the-learning-pit)
+
+![[learning-pit.png]]
+
 [Tag: education - Sketchplanations](https://sketchplanations.com/tags/education)
 
 [Tag: framework - Sketchplanations](https://sketchplanations.com/tags/framework)

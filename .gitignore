@@ -4,5 +4,5 @@ _site/*
 !.vscode
 !.obsidian
 Gemfile.lock
-*/_misc/*
+_misc/*
 _*.md

@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "learning-pit",
+      "path": "assets/static/img/learning-pit.png"
+    },
+    {
+      "basename": "learning",
+      "path": "_NOTES/skills/learning.md"
+    },
+    {
       "basename": "_x",
       "path": "_NOTES/_x.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "cors",
       "path": "_NOTES/tech/security/cors.md"
-    },
-    {
-      "basename": "csrf",
-      "path": "_NOTES/tech/security/csrf.md"
-    },
-    {
-      "basename": "openssl-encrypt",
-      "path": "_NOTES/tech/security/openssl-encrypt.md"
     }
   ],
   "omittedPaths": []
