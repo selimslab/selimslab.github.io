@@ -11,8 +11,13 @@
             "id": "0a76ee1a9e446ab9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_NOTES/tech/programming/data-structures/bloom-filters.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -89,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/static/img/learning-pit.png",
+                "file": "_NOTES/tech/programming/data-structures/bloom-filters.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "assets/static/img/learning-pit.png",
+                "file": "_NOTES/tech/programming/data-structures/bloom-filters.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/static/img/learning-pit.png"
+                "file": "_NOTES/tech/programming/data-structures/bloom-filters.md"
               }
             }
           }
@@ -153,10 +158,22 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "bc86af8c7183ead1",
+  "active": "0a76ee1a9e446ab9",
   "lastOpenFiles": [
-    "_NOTES/skills/learning.md",
+    "_NOTES/tech/programming/data-structures/hyperloglog.md",
+    "_NOTES/tech/programming/data-structures/bloom-filters.md",
+    "_NOTES/tech/programming/data-structures/skiplists.md",
+    "_NOTES/tech/programming/data-structures/data-structures.md",
+    "_x.md",
+    "Pasted image 20240724120827.png",
     "assets/static/img/learning-pit.png",
+    "_misc/tax.md",
+    "_misc/interviews.md",
+    "_misc/connect.md",
+    "_misc/autofill.md",
+    "_misc",
+    "_TODO.md",
+    "_NOTES/skills/learning.md",
     "_NOTES/_x.md",
     "_NOTES/_TODO.md",
     "_NOTES/arts/philosophy/eudaimonia.md",
@@ -172,15 +189,6 @@
     "_NOTES/arts/philosophy/epicurus.md",
     "_NOTES/social-sciences/psychology/emotions/love.md",
     "_NOTES/social-sciences/psychology/relationships.md",
-    "_NOTES/social-sciences/politics/look-down-and-around.md",
-    "_NOTES/social-sciences/politics/criminal-justice.md",
-    "_NOTES/tech/programming/programming-languages/python/zen-of-python.md",
-    "_NOTES/tech/programming/programming-languages/python/python.md",
-    "_NOTES/tech/programming/programming-languages/python/python-packages.md",
-    "_NOTES/tech/programming/programming-languages/python/python-data-structures.md",
-    "_NOTES/tech/programming/oop/oop-designs/oop-designs.md",
-    "_NOTES/tech/programming/oop/oop-designs/design-video-streaming-app.md",
-    "_NOTES/tech/programming/oop/oop-designs/design-oauth.md",
     "_NOTES/tech/programming/programming-languages/python",
     "_NOTES/tech/programming/oop/oop-designs",
     "_NOTES/tech/programming/projects",
@@ -190,7 +198,6 @@
     "_NOTES/tech/programming/data-structures",
     "_NOTES/tech/programming/code",
     "_NOTES/tech/programming",
-    "_site/acid/index.html",
     "_site/assets/static/img/plain-pooh.jpg",
     "_site/assets/static/img/normal.png",
     "assets/static/img/std-sigma-rule.png",
@@ -199,7 +206,6 @@
     "assets/static/img/plain-pooh.jpg",
     "assets/static/img/user-testing-diminshing-returns-curve.gif",
     "assets/static/img/fast-and-slow-thinking.jpeg",
-    "assets/static/img/true-size-of-africa.jpeg",
     "Untitled.canvas"
   ]
 }

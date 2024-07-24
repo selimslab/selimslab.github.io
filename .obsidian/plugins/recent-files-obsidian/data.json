@@ -1,20 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "bloom-filters",
+      "path": "_NOTES/tech/programming/data-structures/bloom-filters.md"
+    },
+    {
+      "basename": "hyperloglog",
+      "path": "_NOTES/tech/programming/data-structures/hyperloglog.md"
+    },
+    {
+      "basename": "skiplists",
+      "path": "_NOTES/tech/programming/data-structures/skiplists.md"
+    },
+    {
+      "basename": "data-structures",
+      "path": "_NOTES/tech/programming/data-structures/data-structures.md"
+    },
+    {
+      "basename": "_x",
+      "path": "_x.md"
+    },
+    {
       "basename": "learning-pit",
       "path": "assets/static/img/learning-pit.png"
     },
     {
       "basename": "learning",
       "path": "_NOTES/skills/learning.md"
-    },
-    {
-      "basename": "_x",
-      "path": "_NOTES/_x.md"
-    },
-    {
-      "basename": "_TODO",
-      "path": "_NOTES/_TODO.md"
     },
     {
       "basename": "eudaimonia",
@@ -187,18 +199,6 @@
     {
       "basename": "authorization",
       "path": "_NOTES/tech/security/authorization.md"
-    },
-    {
-      "basename": "certificates",
-      "path": "_NOTES/tech/security/certificates.md"
-    },
-    {
-      "basename": "cookies",
-      "path": "_NOTES/tech/security/cookies.md"
-    },
-    {
-      "basename": "cors",
-      "path": "_NOTES/tech/security/cors.md"
     }
   ],
   "omittedPaths": []
