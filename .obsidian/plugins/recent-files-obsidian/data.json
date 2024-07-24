@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "_TODO",
+      "path": "_TODO.md"
+    },
+    {
       "basename": "bloom-filters",
       "path": "_NOTES/tech/programming/data-structures/bloom-filters.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "authentication",
       "path": "_NOTES/tech/security/authentication.md"
-    },
-    {
-      "basename": "authorization",
-      "path": "_NOTES/tech/security/authorization.md"
     }
   ],
   "omittedPaths": []
