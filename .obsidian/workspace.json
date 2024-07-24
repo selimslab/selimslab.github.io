@@ -11,11 +11,43 @@
             "id": "e027ca3895864cdb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_NOTES/arts/philosophy/concepts-in-greek-thought.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9345864e941cef6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_NOTES/arts/philosophy/eudaimonia.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "91a9bb17b284a94f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_NOTES/arts/philosophy/good-and-evil.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,6 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_NOTES/arts/philosophy/eudaimonia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_NOTES/arts/philosophy/eudaimonia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +160,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_NOTES/arts/philosophy/eudaimonia.md"
+              }
             }
           }
         ]
@@ -149,44 +185,44 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e027ca3895864cdb",
+  "active": "bc86af8c7183ead1",
   "lastOpenFiles": [
-    "_NOTES/_TODO.md",
+    "_NOTES/arts/philosophy/choice.md",
+    "_NOTES/arts/philosophy/eudaimonia.md",
+    "_NOTES/arts/philosophy/character.md",
+    "_NOTES/arts/philosophy/good-and-evil.md",
+    "_NOTES/arts/philosophy/concepts-in-greek-thought.md",
+    "_NOTES/arts/philosophy/friends.md",
+    "_NOTES/arts/philosophy/happiness.md",
+    "_NOTES/arts/philosophy/freedom.md",
+    "_NOTES/arts/philosophy/free-will.md",
+    "_NOTES/arts/philosophy/experiences-vs-materials.md",
+    "_NOTES/arts/philosophy/epicurus.md",
+    "_NOTES/social-sciences/psychology/emotions/love.md",
+    "_NOTES/social-sciences/psychology/relationships.md",
+    "_NOTES/social-sciences/politics/look-down-and-around.md",
+    "_NOTES/social-sciences/politics/criminal-justice.md",
+    "_NOTES/tech/programming/programming-languages/python/zen-of-python.md",
+    "_NOTES/tech/programming/programming-languages/python/python.md",
+    "_NOTES/tech/programming/programming-languages/python/python-packages.md",
+    "_NOTES/tech/programming/programming-languages/python/python-data-structures.md",
+    "_NOTES/tech/programming/oop/oop-designs/oop-designs.md",
+    "_NOTES/tech/programming/oop/oop-designs/design-video-streaming-app.md",
+    "_NOTES/tech/programming/oop/oop-designs/design-oauth.md",
+    "_NOTES/tech/programming/oop/oop-designs/design-units.md",
+    "_NOTES/tech/programming/oop/oop-designs/design-auth.md",
+    "_NOTES/tech/programming/oop/oop-designs/design-a-web-crawler.md",
+    "_NOTES/tech/programming/oop/oop-designs/design-a-trader.md",
+    "_NOTES/tech/programming/programming-languages/python",
+    "_NOTES/tech/programming/oop/oop-designs",
+    "_NOTES/tech/programming/projects",
+    "_NOTES/tech/programming/programming-languages",
+    "_NOTES/tech/programming/oop",
+    "_NOTES/tech/programming/algorithms",
+    "_NOTES/tech/programming/data-structures",
+    "_NOTES/tech/programming/code",
+    "_NOTES/tech/programming",
     "_site/acid/index.html",
-    "_site/acid",
-    "_site/outgroup/index.html",
-    "_site/outgroup",
-    "_site/pneumonia-detection/index.html",
-    "_site/pneumonia-detection",
-    "_site/mid/index.html",
-    "_site/mid",
-    "_site/hard/index.html",
-    "_site/hard",
-    "_NOTES/tech/thoughts-on-tech/thoughts-on-swe.md",
-    "_NOTES/programming/programming-languages/python/python-packages.md",
-    "_NOTES/programming/programming-languages/python/zen-of-python.md",
-    "_NOTES/programming/programming-languages/python/python.md",
-    "_NOTES/programming/programming-languages/python/python-data-structures.md",
-    "_NOTES/programming/oop/oop-designs/design-units.md",
-    "_NOTES/programming/oop/oop-designs/design-video-streaming-app.md",
-    "_NOTES/programming/oop/oop-designs/oop-designs.md",
-    "_NOTES/programming/oop/oop-designs/design-a-web-crawler.md",
-    "_NOTES/programming/oop/oop-designs/design-auth.md",
-    "_NOTES/programming/oop/oop-designs/design-oauth.md",
-    "_NOTES/programming/oop/oop-designs/design-a-trader.md",
-    "_NOTES/programming/oop/oop-designs/design-a-gov-cloud.md",
-    "_NOTES/programming/oop/oop-designs/design-a-personal-note-publishing-system.md",
-    "_NOTES/programming/oop/oop-designs/design-a-crm.md",
-    "_NOTES/programming/oop/oop-designs/design-a-data-pipeline.md",
-    "_NOTES/programming/oop/oop-designs/design-a-bicycle.md",
-    "_NOTES/programming/oop/oop-designs/design-a-book-app.md",
-    "_NOTES/programming/oop/oop-designs/block.md",
-    "_NOTES/programming/data-structures/queue.md",
-    "_NOTES/programming/projects/pca.md",
-    "_NOTES/programming/projects/vga-driver.md",
-    "_NOTES/programming/projects/projects.md",
-    "_NOTES/programming/projects/predict-movie-genres.md",
-    "_NOTES/programming/projects/mini-web-server.md",
     "_site/assets/static/img/plain-pooh.jpg",
     "_site/assets/static/img/normal.png",
     "assets/static/img/std-sigma-rule.png",

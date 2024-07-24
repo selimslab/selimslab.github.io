@@ -10,6 +10,6 @@ They come through great toil; kept by great anxiety.
 
 ---
 
-Was Du erlebst, kann keine Macht der Welt Dir rauben. 
-
-What you have experienced, no power on earth can take from you.
+	Was Du erlebst, kann keine Macht der Welt Dir rauben. 
+	
+	What you have experienced, no power on earth can take from you.

@@ -1,6 +1,62 @@
 {
   "recentFiles": [
     {
+      "basename": "eudaimonia",
+      "path": "_NOTES/arts/philosophy/eudaimonia.md"
+    },
+    {
+      "basename": "choice",
+      "path": "_NOTES/arts/philosophy/choice.md"
+    },
+    {
+      "basename": "character",
+      "path": "_NOTES/arts/philosophy/character.md"
+    },
+    {
+      "basename": "good-and-evil",
+      "path": "_NOTES/arts/philosophy/good-and-evil.md"
+    },
+    {
+      "basename": "concepts-in-greek-thought",
+      "path": "_NOTES/arts/philosophy/concepts-in-greek-thought.md"
+    },
+    {
+      "basename": "friends",
+      "path": "_NOTES/arts/philosophy/friends.md"
+    },
+    {
+      "basename": "happiness",
+      "path": "_NOTES/arts/philosophy/happiness.md"
+    },
+    {
+      "basename": "freedom",
+      "path": "_NOTES/arts/philosophy/freedom.md"
+    },
+    {
+      "basename": "free-will",
+      "path": "_NOTES/arts/philosophy/free-will.md"
+    },
+    {
+      "basename": "experiences-vs-materials",
+      "path": "_NOTES/arts/philosophy/experiences-vs-materials.md"
+    },
+    {
+      "basename": "epicurus",
+      "path": "_NOTES/arts/philosophy/epicurus.md"
+    },
+    {
+      "basename": "love",
+      "path": "_NOTES/social-sciences/psychology/emotions/love.md"
+    },
+    {
+      "basename": "relationships",
+      "path": "_NOTES/social-sciences/psychology/relationships.md"
+    },
+    {
+      "basename": "look-down-and-around",
+      "path": "_NOTES/social-sciences/politics/look-down-and-around.md"
+    },
+    {
       "basename": "_TODO",
       "path": "_NOTES/_TODO.md"
     },
@@ -143,26 +199,6 @@
     {
       "basename": "public-key-cryptography",
       "path": "_NOTES/tech/security/public-key-cryptography.md"
-    },
-    {
-      "basename": "security",
-      "path": "_NOTES/tech/security/security.md"
-    },
-    {
-      "basename": "security-heuristics",
-      "path": "_NOTES/tech/security/security-heuristics.md"
-    },
-    {
-      "basename": "store-passwords",
-      "path": "_NOTES/tech/security/store-passwords.md"
-    },
-    {
-      "basename": "transport-layer-security",
-      "path": "_NOTES/tech/security/transport-layer-security.md"
-    },
-    {
-      "basename": "xss",
-      "path": "_NOTES/tech/security/xss.md"
     }
   ],
   "omittedPaths": []

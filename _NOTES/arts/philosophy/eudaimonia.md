@@ -13,7 +13,7 @@ Consider beginnings. Solve problems while they are still small.
 
 [[do-without-doing]] 
 
-[[philosophy/character]]
+[[character]]
 
 ## See also 
 
@@ -29,8 +29,8 @@ Consider beginnings. Solve problems while they are still small.
 
 [[moderation]]
 
-[[practical-skills]]
-
 [[decisions]]
+
+[[choice]]
 
 [[take-a-walk]]
