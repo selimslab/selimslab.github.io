@@ -8,3 +8,5 @@
 [Common DB schema change mistakes - Postgres.AI](https://postgres.ai/blog/20220525-common-db-schema-change-mistakes)
 
 [I'm betting on HTML (catskull.net)](https://catskull.net/html.html)
+
+[chap01.pdf (pearsoncmg.com)](https://ptgmedia.pearsoncmg.com/images/0201634465/samplechapter/chap01.pdf)

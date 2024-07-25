@@ -1,5 +1,4 @@
 ---
-tags: essais skills
 ---
 
 1. Define [[what-to-work-on]] and why
@@ -19,7 +18,6 @@ tags: essais skills
 15. [[flow]] happens when the task slightly exceeds your skill level
 16. [[take-a-walk]]
 17. Prepared, focused, short meetings
-18. [[on-decision-making]]
 19. Rely on [[habits]] and [[systems]]
 20. [[do-one-thing-at-a-time-and-do-it-well]]
 21. Ignore sunk costs
@@ -30,3 +28,7 @@ tags: essais skills
 26. End the day with a cliffhanger so it’s easier to start again
 27. Stay professional, responsible and reliable.
 28. Everything looks like a failure in the middle, keep going
+
+[[decisions]]
+
+[Tag: productivity - Sketchplanations](https://sketchplanations.com/tags/productivity)

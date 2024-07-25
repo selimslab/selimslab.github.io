@@ -29,3 +29,8 @@ class LanguageTour{
     };
 }
 ```
+
+
+[Highest scored 'c#' questions - Stack Overflow](https://stackoverflow.com/questions/tagged/c%23?tab=Votes)
+
+[c# - Proper use of the IDisposable interface - Stack Overflow](https://stackoverflow.com/questions/538060/proper-use-of-the-idisposable-interface)

@@ -1,11 +1,15 @@
 ---
 ---
-summarize a given text following the listed guidelines and only return the final result 
-1. Retain the same text structure like paragraph boundaries in your result
-2. Don't use adjectives and adverbs
+
+Summarize the article I'll provide using these list of instructions:
+1. Be comprehensive, consider every paragraph and sentence. Consider how they fit in the overall theme
+2. Prioritize correctness
 3. Retain numbers and units.
-4. Always use active voice
-5. Use simple, clear, concise English. 
-6. Use the full form of an abbreviation at least once
-7. Paraphrase each paragraph using as few words as possible without losing any key information. 
-8. Keep your sentences shorter than 15 words. 
+4. Be clear and concise. Use simple, direct language.  
+5. Use active voice.
+6. Avoid adjectives and adverbs.
+7. Expand abbreviations at least once 
+8. Generate answers as valid markdown with clear titles, sections, paragraphs, lists, etc. 
+9. Maintain original writing tone 
+10. Skip the author, title, intro, etc. and get to the point
+11. Don't form full sentences;  just list and group the key concepts. For example, problems, ideas, discussion points, options, pros, cons, tradeoffs, benefits, challenges, examples, sample data, etc. 

@@ -1,6 +1,86 @@
 {
   "recentFiles": [
     {
+      "basename": "summary-prompt",
+      "path": "_NOTES/tech/prompt-engineering/summary-prompt.md"
+    },
+    {
+      "basename": "customize-prompt",
+      "path": "_NOTES/tech/prompt-engineering/customize-prompt.md"
+    },
+    {
+      "basename": "recap-prompt",
+      "path": "_NOTES/tech/prompt-engineering/recap-prompt.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
+      "basename": "question-prompt",
+      "path": "_NOTES/tech/prompt-engineering/question-prompt.md"
+    },
+    {
+      "basename": "prompt-engineering",
+      "path": "_NOTES/tech/prompt-engineering/prompt-engineering.md"
+    },
+    {
+      "basename": "soft-rains",
+      "path": "_NOTES/arts/poetry/soft-rains.md"
+    },
+    {
+      "basename": "haikus",
+      "path": "_NOTES/arts/poetry/haikus.md"
+    },
+    {
+      "basename": "poetry",
+      "path": "_NOTES/arts/poetry/poetry.md"
+    },
+    {
+      "basename": "ozymandias",
+      "path": "_NOTES/arts/poetry/ozymandias.md"
+    },
+    {
+      "basename": "not-gentle",
+      "path": "_NOTES/arts/poetry/not-gentle.md"
+    },
+    {
+      "basename": "if",
+      "path": "_NOTES/arts/poetry/if.md"
+    },
+    {
+      "basename": "tree-balancing",
+      "path": "_NOTES/tech/programming/algorithms/tree-balancing.md"
+    },
+    {
+      "basename": "_x",
+      "path": "_x.md"
+    },
+    {
+      "basename": "reading-list",
+      "path": "_NOTES/lists/reading-list.md"
+    },
+    {
+      "basename": "csharp",
+      "path": "_NOTES/tech/programming/programming-languages/csharp.md"
+    },
+    {
+      "basename": "base-prompt",
+      "path": "_NOTES/tech/prompt-engineering/base-prompt.md"
+    },
+    {
+      "basename": "_be.md",
+      "path": "_be.md.md"
+    },
+    {
+      "basename": "skiplists",
+      "path": "_NOTES/tech/programming/data-structures/skiplists.md"
+    },
+    {
+      "basename": "algorithms",
+      "path": "_NOTES/tech/programming/algorithms/algorithms.md"
+    },
+    {
       "basename": "_TODO",
       "path": "_TODO.md"
     },
@@ -13,16 +93,8 @@
       "path": "_NOTES/tech/programming/data-structures/hyperloglog.md"
     },
     {
-      "basename": "skiplists",
-      "path": "_NOTES/tech/programming/data-structures/skiplists.md"
-    },
-    {
       "basename": "data-structures",
       "path": "_NOTES/tech/programming/data-structures/data-structures.md"
-    },
-    {
-      "basename": "_x",
-      "path": "_x.md"
     },
     {
       "basename": "learning-pit",
@@ -127,78 +199,6 @@
     {
       "basename": "ux",
       "path": "_NOTES/tech/ux/ux.md"
-    },
-    {
-      "basename": "usability-testing",
-      "path": "_NOTES/tech/ux/usability-testing.md"
-    },
-    {
-      "basename": "things-users-care",
-      "path": "_NOTES/tech/ux/things-users-care.md"
-    },
-    {
-      "basename": "polished-pixels",
-      "path": "_NOTES/tech/ux/polished-pixels.md"
-    },
-    {
-      "basename": "natural-tech",
-      "path": "_NOTES/tech/ux/natural-tech.md"
-    },
-    {
-      "basename": "evolution-of-computer-interfaces",
-      "path": "_NOTES/tech/ux/evolution-of-computer-interfaces.md"
-    },
-    {
-      "basename": "accessibility",
-      "path": "_NOTES/tech/ux/accessibility.md"
-    },
-    {
-      "basename": "thoughts-on-tech",
-      "path": "_NOTES/tech/thoughts-on-tech/thoughts-on-tech.md"
-    },
-    {
-      "basename": "software-quality",
-      "path": "_NOTES/tech/thoughts-on-tech/software-quality.md"
-    },
-    {
-      "basename": "software-analogies",
-      "path": "_NOTES/tech/thoughts-on-tech/software-analogies.md"
-    },
-    {
-      "basename": "social-media",
-      "path": "_NOTES/tech/thoughts-on-tech/social-media.md"
-    },
-    {
-      "basename": "minimal-tech",
-      "path": "_NOTES/tech/thoughts-on-tech/minimal-tech.md"
-    },
-    {
-      "basename": "is-tech-fast-or-slow",
-      "path": "_NOTES/tech/thoughts-on-tech/is-tech-fast-or-slow.md"
-    },
-    {
-      "basename": "hijacked-minds",
-      "path": "_NOTES/tech/thoughts-on-tech/hijacked-minds.md"
-    },
-    {
-      "basename": "hacker-laws",
-      "path": "_NOTES/tech/thoughts-on-tech/hacker-laws.md"
-    },
-    {
-      "basename": "choose-boring-tech",
-      "path": "_NOTES/tech/thoughts-on-tech/choose-boring-tech.md"
-    },
-    {
-      "basename": "a-free-web-again",
-      "path": "_NOTES/tech/thoughts-on-tech/a-free-web-again.md"
-    },
-    {
-      "basename": "44-engineering-management-lessons",
-      "path": "_NOTES/tech/thoughts-on-tech/44-engineering-management-lessons.md"
-    },
-    {
-      "basename": "authentication",
-      "path": "_NOTES/tech/security/authentication.md"
     }
   ],
   "omittedPaths": []

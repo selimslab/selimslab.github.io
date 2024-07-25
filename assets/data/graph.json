@@ -9,7 +9,6 @@
         "/lists",
         "/math",
         "/natural-sciences",
-        "/programming",
         "/skills",
         "/social-sciences",
         "/tech"
@@ -100,31 +99,6 @@
       ]
     },
     {
-      "id": "/programming",
-      "group": 1,
-      "name": "Programming",
-      "links": [
-        "/root",
-        "/code",
-        "/programming-languages",
-        "/projects",
-        "/algorithms",
-        "/data-structures",
-        "/oop",
-        "/unicode",
-        "/for-new-programmers",
-        "/discussion-topics",
-        "/easy-vs-hard-in-cs",
-        "/the-tao-of-programming",
-        "/encodings",
-        "/tools",
-        "/compsci",
-        "/skills",
-        "/software-engineering",
-        "/tech"
-      ]
-    },
-    {
       "id": "/skills",
       "group": 1,
       "name": "Skills",
@@ -136,33 +110,38 @@
         "/driving",
         "/drowning-does-not-look-dramatic",
         "/exercise",
+        "/get-things-done-selim",
         "/get-things-done",
         "/growing-plants",
         "/how-to-gain-wealth",
+        "/how-to-grow-old-russell-selim",
         "/how-to-grow-old-russell",
         "/humor",
         "/investing",
         "/leadership",
         "/learning",
+        "/making-videos",
         "/drawing",
         "/mastery",
         "/motocycles",
         "/mountaineering",
         "/outdoors",
         "/photography",
+        "/problem-solving-selim",
         "/problem-solving",
+        "/skills-selim",
         "/submarine-shower",
         "/teaching",
         "/trading",
         "/travelling",
         "/used-car-checklist",
         "/cooking",
-        "/making-videos",
+        "/mastery-selim",
         "/children",
         "/critical-thinking",
-        "/a-good-life",
-        "/programming",
-        "/how-to-start"
+        "/eudaimonia",
+        "/how-to-start",
+        "/programming"
       ]
     },
     {
@@ -203,27 +182,27 @@
       "name": "Technology",
       "links": [
         "/root",
+        "/programming",
         "/security",
         "/distributed-systems",
         "/thoughts-on-tech",
         "/databases",
         "/ux",
         "/prompt-engineering",
-        "/networks",
         "/nlp",
         "/operating-systems",
-        "/domain-driven-design",
+        "/machine-learning",
         "/system-design",
         "/the-joel-test",
+        "/domain-driven-design",
         "/core-concepts",
         "/containers",
-        "/machine-learning",
+        "/networks",
         "/concurrency",
         "/software-engineering",
         "/code-review",
         "/akins-laws-of-spacecraft",
         "/history-of-technology",
-        "/programming",
         "/since-big-bang",
         "/accessibility"
       ]
@@ -234,7 +213,6 @@
       "name": "Philosophy",
       "links": [
         "/arts",
-        "/a-good-life",
         "/all-is-one",
         "/balance",
         "/be-good-to-each-other-and-yourself",
@@ -244,6 +222,7 @@
         "/concepts-in-greek-thought",
         "/enemies",
         "/epicurus",
+        "/eudaimonia",
         "/experiences-vs-materials",
         "/free-will",
         "/freedom",
@@ -255,7 +234,6 @@
         "/koans",
         "/life-is-play",
         "/look-below-the-surface",
-        "/love",
         "/moderation",
         "/one-bit-better",
         "/questions",
@@ -272,9 +250,8 @@
         "/how-to-deal-with-pain",
         "/critical-thinking",
         "/do-the-right-thing",
-        "/how-to-grow-old-russell",
+        "/how-to-grow-old-russell-selim",
         "/in-praise-of-idleness",
-        "/criminal-justice",
         "/look-down-and-around",
         "/solitude"
       ]
@@ -293,6 +270,9 @@
         "/harlem",
         "/if",
         "/lightly-child",
+        "/not-gentle",
+        "/ozymandias",
+        "/soft-rains",
         "/the-road-not-taken",
         "/this-be-the-verse",
         "/tao-te-ching",
@@ -420,7 +400,10 @@
       "name": "Essais",
       "links": [
         "/lists",
-        "/how-to-grow-old-russell",
+        "/get-things-done",
+        "/how-to-grow-old-russell-selim",
+        "/mastery",
+        "/problem-solving",
         "/outgroup",
         "/farming-trap",
         "/look-down-and-around",
@@ -724,240 +707,6 @@
       ]
     },
     {
-      "id": "/code",
-      "group": 2,
-      "name": "Code",
-      "links": [
-        "/programming",
-        "/array-rotate",
-        "/bfs-dfs-topo",
-        "/binary-search",
-        "/bst",
-        "/check-brackets",
-        "/climb-stairs",
-        "/coin-change",
-        "/count-primes",
-        "/days-until-warmer-temperature",
-        "/decode-string",
-        "/dedup-game",
-        "/delete-tree-node",
-        "/diamater-of-binary-tree",
-        "/dijkstra",
-        "/dynamic",
-        "/edit-distance",
-        "/generate-n-grams",
-        "/generate-pascals-triangle",
-        "/group-anagrams",
-        "/house-robber",
-        "/invert-binary-tree",
-        "/is-mirror-tree",
-        "/least-num-of-perfect-squares",
-        "/lengthOfLIS",
-        "/level-order",
-        "/longest-common-prefix",
-        "/longest-common-subsequence",
-        "/longest-consecutive",
-        "/longest-diverse-str",
-        "/longest-valid-paranthesis",
-        "/lowest-common-ancestor",
-        "/max-path-sum",
-        "/max-tree-depth",
-        "/max-water",
-        "/maximal-square",
-        "/min-covering-window",
-        "/min-edit-distance",
-        "/min-path-sum",
-        "/min-steps-notepad",
-        "/partition-labels",
-        "/pivot-index",
-        "/plus-one",
-        "/possible-morse",
-        "/post-order-go",
-        "/producer-consumer-problem",
-        "/repeatedStringMatch",
-        "/reverse-letters-only",
-        "/sliding-window-max",
-        "/stocks-with-cooldown",
-        "/string-compression",
-        "/three-sum-closest",
-        "/threeSum",
-        "/tree-codec-py",
-        "/tree-traversals",
-        "/trie-py",
-        "/unique-bst",
-        "/ways-to-target-sum",
-        "/word-break"
-      ]
-    },
-    {
-      "id": "/programming-languages",
-      "group": 2,
-      "name": "Programming Languages",
-      "links": [
-        "/programming",
-        "/c",
-        "/clojure",
-        "/cpp",
-        "/csharp",
-        "/elixir",
-        "/erlang",
-        "/functional-programming",
-        "/go",
-        "/haskell",
-        "/java",
-        "/lisp",
-        "/rust",
-        "/scala",
-        "/typing",
-        "/python"
-      ]
-    },
-    {
-      "id": "/projects",
-      "group": 2,
-      "name": "Projects",
-      "links": [
-        "/programming",
-        "/a-star-robot",
-        "/async-crawler",
-        "/c-hashmap",
-        "/compiler",
-        "/garbage-collector-in-c",
-        "/links-for-makers",
-        "/logos-os",
-        "/mini-search-engine",
-        "/mini-web-server",
-        "/pascal-interpreter",
-        "/pca",
-        "/pneumonia-detection",
-        "/predict-movie-genres",
-        "/vga-driver"
-      ]
-    },
-    {
-      "id": "/algorithms",
-      "group": 2,
-      "name": "Algorithms",
-      "links": [
-        "/programming",
-        "/approximation",
-        "/backtrack",
-        "/bit",
-        "/easy",
-        "/greedy",
-        "/hard",
-        "/leet",
-        "/local-maximum",
-        "/mid",
-        "/parallel-programming",
-        "/rabin-karp",
-        "/sort",
-        "/vector-search",
-        "/bayes",
-        "/data-structures",
-        "/lsm-trees"
-      ]
-    },
-    {
-      "id": "/data-structures",
-      "group": 2,
-      "name": "Data Structures",
-      "links": [
-        "/programming",
-        "/array",
-        "/graph",
-        "/hash-table",
-        "/heap",
-        "/hyperloglog",
-        "/linked-list",
-        "/pointers",
-        "/queue",
-        "/stack",
-        "/string",
-        "/algorithms",
-        "/b-trees",
-        "/db-data-structures",
-        "/lsm-trees"
-      ]
-    },
-    {
-      "id": "/oop",
-      "group": 2,
-      "name": "OOP",
-      "links": [
-        "/programming",
-        "/design-patterns",
-        "/solid",
-        "/oop-designs",
-        "/system-design"
-      ]
-    },
-    {
-      "id": "/unicode",
-      "group": 2,
-      "name": "Unicode",
-      "links": [
-        "/programming"
-      ]
-    },
-    {
-      "id": "/for-new-programmers",
-      "group": 2,
-      "name": "For New Programmers",
-      "links": [
-        "/programming"
-      ]
-    },
-    {
-      "id": "/discussion-topics",
-      "group": 2,
-      "name": "Discussion Topics",
-      "links": [
-        "/programming"
-      ]
-    },
-    {
-      "id": "/easy-vs-hard-in-cs",
-      "group": 2,
-      "name": "The fine line between easy and very hard",
-      "links": [
-        "/programming"
-      ]
-    },
-    {
-      "id": "/the-tao-of-programming",
-      "group": 2,
-      "name": "The Tao of Programming",
-      "links": [
-        "/programming",
-        "/humor"
-      ]
-    },
-    {
-      "id": "/encodings",
-      "group": 2,
-      "name": "Encodings",
-      "links": [
-        "/programming"
-      ]
-    },
-    {
-      "id": "/tools",
-      "group": 2,
-      "name": "Tools",
-      "links": [
-        "/programming"
-      ]
-    },
-    {
-      "id": "/compsci",
-      "group": 2,
-      "name": "Computers from scratch",
-      "links": [
-        "/programming"
-      ]
-    },
-    {
       "id": "/business",
       "group": 2,
       "name": "Business",
@@ -987,7 +736,7 @@
         "/freedom",
         "/critical-thinking",
         "/choice",
-        "/get-things-done"
+        "/get-things-done-selim"
       ]
     },
     {
@@ -1028,6 +777,19 @@
       ]
     },
     {
+      "id": "/get-things-done-selim",
+      "group": 2,
+      "name": "Get Things Done Selim",
+      "links": [
+        "/skills",
+        "/take-a-walk",
+        "/the-morning",
+        "/what-to-work-on",
+        "/decisions",
+        "/do-one-thing-at-a-time-and-do-it-well"
+      ]
+    },
+    {
       "id": "/get-things-done",
       "group": 2,
       "name": "Get Things Done",
@@ -1036,7 +798,7 @@
         "/take-a-walk",
         "/the-morning",
         "/what-to-work-on",
-        "/decisions",
+        "/essais",
         "/do-one-thing-at-a-time-and-do-it-well"
       ]
     },
@@ -1058,13 +820,21 @@
       ]
     },
     {
-      "id": "/how-to-grow-old-russell",
+      "id": "/how-to-grow-old-russell-selim",
       "group": 2,
       "name": "How to Grow Old, by Bertrand Russell",
       "links": [
         "/skills",
         "/philosophy",
         "/essais"
+      ]
+    },
+    {
+      "id": "/how-to-grow-old-russell",
+      "group": 2,
+      "name": "“How to Grow Old” by Bertrand Russell",
+      "links": [
+        "/skills"
       ]
     },
     {
@@ -1106,6 +876,14 @@
       ]
     },
     {
+      "id": "/making-videos",
+      "group": 2,
+      "name": "Making Videos",
+      "links": [
+        "/skills"
+      ]
+    },
+    {
       "id": "/drawing",
       "group": 2,
       "name": "Drawing",
@@ -1118,7 +896,8 @@
       "group": 2,
       "name": "Mastery",
       "links": [
-        "/skills"
+        "/skills",
+        "/essais"
       ]
     },
     {
@@ -1154,13 +933,32 @@
       ]
     },
     {
-      "id": "/problem-solving",
+      "id": "/problem-solving-selim",
       "group": 2,
       "name": "Problem Solving",
       "links": [
         "/skills",
         "/take-a-walk",
         "/critical-thinking"
+      ]
+    },
+    {
+      "id": "/problem-solving",
+      "group": 2,
+      "name": "Problem Solving",
+      "links": [
+        "/skills",
+        "/take-a-walk",
+        "/essais",
+        "/critical-thinking"
+      ]
+    },
+    {
+      "id": "/skills-selim",
+      "group": 2,
+      "name": "Skills Selim",
+      "links": [
+        "/skills"
       ]
     },
     {
@@ -1214,9 +1012,9 @@
       ]
     },
     {
-      "id": "/making-videos",
+      "id": "/mastery-selim",
       "group": 2,
-      "name": "Making Videos",
+      "name": "Mastery Selim",
       "links": [
         "/skills"
       ]
@@ -1248,7 +1046,6 @@
         "/cognitive-biases",
         "/emotions",
         "/work",
-        "/criminal-justice",
         "/happiness",
         "/inertia",
         "/children",
@@ -1261,7 +1058,6 @@
       "name": "Politics",
       "links": [
         "/social-sciences",
-        "/criminal-justice",
         "/farming-trap",
         "/history",
         "/look-down-and-around",
@@ -1391,6 +1187,30 @@
       ]
     },
     {
+      "id": "/programming",
+      "group": 2,
+      "name": "Programming",
+      "links": [
+        "/tech",
+        "/compsci",
+        "/discussion-topics",
+        "/easy-vs-hard-in-cs",
+        "/encodings",
+        "/for-new-programmers",
+        "/the-tao-of-programming",
+        "/tools",
+        "/unicode",
+        "/algorithms",
+        "/code",
+        "/data-structures",
+        "/oop",
+        "/programming-languages",
+        "/projects",
+        "/skills",
+        "/software-engineering"
+      ]
+    },
+    {
       "id": "/security",
       "group": 2,
       "name": "Security",
@@ -1489,17 +1309,10 @@
       "links": [
         "/tech",
         "/base-prompt",
+        "/customize-prompt",
         "/question-prompt",
         "/recap-prompt",
         "/summary-prompt"
-      ]
-    },
-    {
-      "id": "/networks",
-      "group": 2,
-      "name": "Networks",
-      "links": [
-        "/tech"
       ]
     },
     {
@@ -1520,12 +1333,14 @@
       ]
     },
     {
-      "id": "/domain-driven-design",
+      "id": "/machine-learning",
       "group": 2,
-      "name": "Domain Driven Design",
+      "name": "Machine Learning",
       "links": [
         "/tech",
-        "/system-design"
+        "/pca",
+        "/pneumonia-detection",
+        "/predict-movie-genres"
       ]
     },
     {
@@ -1553,6 +1368,15 @@
       ]
     },
     {
+      "id": "/domain-driven-design",
+      "group": 2,
+      "name": "Domain Driven Design",
+      "links": [
+        "/tech",
+        "/system-design"
+      ]
+    },
+    {
       "id": "/core-concepts",
       "group": 2,
       "name": "Core Concepts",
@@ -1570,14 +1394,11 @@
       ]
     },
     {
-      "id": "/machine-learning",
+      "id": "/networks",
       "group": 2,
-      "name": "Machine Learning",
+      "name": "Networks",
       "links": [
-        "/tech",
-        "/pneumonia-detection",
-        "/predict-movie-genres",
-        "/pca"
+        "/tech"
       ]
     },
     {
@@ -1608,22 +1429,11 @@
       ]
     },
     {
-      "id": "/a-good-life",
-      "group": 3,
-      "name": "On a good life 🌱",
-      "links": [
-        "/philosophy",
-        "/the-past",
-        "/skills"
-      ]
-    },
-    {
       "id": "/all-is-one",
       "group": 3,
       "name": "All is One",
       "links": [
-        "/philosophy",
-        "/good-and-evil"
+        "/philosophy"
       ]
     },
     {
@@ -1658,7 +1468,8 @@
       "name": "On Character",
       "links": [
         "/philosophy",
-        "/do-not-lie-to-yourself"
+        "/do-not-lie-to-yourself",
+        "/eudaimonia"
       ]
     },
     {
@@ -1668,6 +1479,7 @@
       "links": [
         "/philosophy",
         "/decisions",
+        "/eudaimonia",
         "/decisions"
       ]
     },
@@ -1693,6 +1505,18 @@
       "name": "Epicurus",
       "links": [
         "/philosophy"
+      ]
+    },
+    {
+      "id": "/eudaimonia",
+      "group": 3,
+      "name": "On a good life 🌱",
+      "links": [
+        "/philosophy",
+        "/character",
+        "/choice",
+        "/the-past",
+        "/skills"
       ]
     },
     {
@@ -1738,9 +1562,7 @@
       "group": 3,
       "name": "Good And Evil",
       "links": [
-        "/philosophy",
-        "/all-is-one",
-        "/criminal-justice"
+        "/philosophy"
       ]
     },
     {
@@ -1796,14 +1618,6 @@
       ]
     },
     {
-      "id": "/love",
-      "group": 3,
-      "name": "Love",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
       "id": "/moderation",
       "group": 3,
       "name": "Moderation",
@@ -1854,7 +1668,9 @@
       "links": [
         "/philosophy",
         "/get-things-done",
-        "/problem-solving"
+        "/get-things-done-selim",
+        "/problem-solving",
+        "/problem-solving-selim"
       ]
     },
     {
@@ -1972,6 +1788,30 @@
       "links": [
         "/poetry",
         "/do-one-thing-at-a-time-and-do-it-well"
+      ]
+    },
+    {
+      "id": "/not-gentle",
+      "group": 3,
+      "name": "Do not go gentle into that good night",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/ozymandias",
+      "group": 3,
+      "name": "Ozymandias",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/soft-rains",
+      "group": 3,
+      "name": "There Will Come Soft Rains",
+      "links": [
+        "/poetry"
       ]
     },
     {
@@ -2234,1138 +2074,6 @@
       ]
     },
     {
-      "id": "/array-rotate",
-      "group": 3,
-      "name": "Array Rotate",
-      "links": [
-        "/code",
-        "/easy",
-        "/array"
-      ]
-    },
-    {
-      "id": "/bfs-dfs-topo",
-      "group": 3,
-      "name": "Bfs Dfs Topo",
-      "links": [
-        "/code",
-        "/mid",
-        "/graph"
-      ]
-    },
-    {
-      "id": "/binary-search",
-      "group": 3,
-      "name": "Binary Search",
-      "links": [
-        "/code",
-        "/easy"
-      ]
-    },
-    {
-      "id": "/bst",
-      "group": 3,
-      "name": "Binary Search Tree",
-      "links": [
-        "/code",
-        "/easy",
-        "/graph"
-      ]
-    },
-    {
-      "id": "/check-brackets",
-      "group": 3,
-      "name": "Check Brackets",
-      "links": [
-        "/code",
-        "/easy",
-        "/stack"
-      ]
-    },
-    {
-      "id": "/climb-stairs",
-      "group": 3,
-      "name": "Climb Stairs",
-      "links": [
-        "/code",
-        "/easy",
-        "/dynamic"
-      ]
-    },
-    {
-      "id": "/coin-change",
-      "group": 3,
-      "name": "Coin Change",
-      "links": [
-        "/code",
-        "/mid",
-        "/dynamic"
-      ]
-    },
-    {
-      "id": "/count-primes",
-      "group": 3,
-      "name": "Count Primes",
-      "links": [
-        "/code",
-        "/mid",
-        "/array"
-      ]
-    },
-    {
-      "id": "/days-until-warmer-temperature",
-      "group": 3,
-      "name": "Days Until Warmer Temperature",
-      "links": [
-        "/code",
-        "/easy",
-        "/stack"
-      ]
-    },
-    {
-      "id": "/decode-string",
-      "group": 3,
-      "name": "Decode String",
-      "links": [
-        "/code",
-        "/easy",
-        "/stack",
-        "/string"
-      ]
-    },
-    {
-      "id": "/dedup-game",
-      "group": 3,
-      "name": "Dedup Game",
-      "links": [
-        "/code",
-        "/easy",
-        "/stack",
-        "/string"
-      ]
-    },
-    {
-      "id": "/delete-tree-node",
-      "group": 3,
-      "name": "Delete Tree Node",
-      "links": [
-        "/code",
-        "/mid",
-        "/graph"
-      ]
-    },
-    {
-      "id": "/diamater-of-binary-tree",
-      "group": 3,
-      "name": "Diamater Of Binary Tree",
-      "links": [
-        "/code",
-        "/mid",
-        "/graph"
-      ]
-    },
-    {
-      "id": "/dijkstra",
-      "group": 3,
-      "name": "Dijkstra",
-      "links": [
-        "/code",
-        "/mid",
-        "/graph"
-      ]
-    },
-    {
-      "id": "/dynamic",
-      "group": 3,
-      "name": "Dynamic",
-      "links": [
-        "/code",
-        "/climb-stairs",
-        "/coin-change",
-        "/edit-distance",
-        "/house-robber",
-        "/lengthOfLIS",
-        "/longest-common-subsequence",
-        "/longest-diverse-str",
-        "/lowest-common-ancestor",
-        "/maximal-square",
-        "/min-edit-distance",
-        "/min-path-sum",
-        "/min-steps-notepad",
-        "/stocks-with-cooldown",
-        "/ways-to-target-sum",
-        "/word-break"
-      ]
-    },
-    {
-      "id": "/edit-distance",
-      "group": 3,
-      "name": "Edit Distance",
-      "links": [
-        "/code",
-        "/mid",
-        "/dynamic"
-      ]
-    },
-    {
-      "id": "/generate-n-grams",
-      "group": 3,
-      "name": "Generate N Grams",
-      "links": [
-        "/code",
-        "/mid",
-        "/string"
-      ]
-    },
-    {
-      "id": "/generate-pascals-triangle",
-      "group": 3,
-      "name": "Generate Pascals Triangle",
-      "links": [
-        "/code",
-        "/easy",
-        "/array"
-      ]
-    },
-    {
-      "id": "/group-anagrams",
-      "group": 3,
-      "name": "Group Anagrams",
-      "links": [
-        "/code",
-        "/easy",
-        "/array"
-      ]
-    },
-    {
-      "id": "/house-robber",
-      "group": 3,
-      "name": "House Robber",
-      "links": [
-        "/code",
-        "/mid",
-        "/dynamic"
-      ]
-    },
-    {
-      "id": "/invert-binary-tree",
-      "group": 3,
-      "name": "Invert Binary Tree",
-      "links": [
-        "/code",
-        "/mid",
-        "/graph"
-      ]
-    },
-    {
-      "id": "/is-mirror-tree",
-      "group": 3,
-      "name": "Is Mirror Tree",
-      "links": [
-        "/code",
-        "/mid",
-        "/graph"
-      ]
-    },
-    {
-      "id": "/least-num-of-perfect-squares",
-      "group": 3,
-      "name": "Least Num Of Perfect Squares",
-      "links": [
-        "/code",
-        "/hard",
-        "/queue"
-      ]
-    },
-    {
-      "id": "/lengthOfLIS",
-      "group": 3,
-      "name": "Longest increasing subsequence",
-      "links": [
-        "/code",
-        "/mid",
-        "/dynamic"
-      ]
-    },
-    {
-      "id": "/level-order",
-      "group": 3,
-      "name": "Level Order",
-      "links": [
-        "/code",
-        "/mid",
-        "/graph"
-      ]
-    },
-    {
-      "id": "/longest-common-prefix",
-      "group": 3,
-      "name": "Longest Common Prefix",
-      "links": [
-        "/code",
-        "/easy",
-        "/string"
-      ]
-    },
-    {
-      "id": "/longest-common-subsequence",
-      "group": 3,
-      "name": "Longest Common Subsequence",
-      "links": [
-        "/code",
-        "/mid",
-        "/dynamic",
-        "/min-edit-distance"
-      ]
-    },
-    {
-      "id": "/longest-consecutive",
-      "group": 3,
-      "name": "Longest Consecutive",
-      "links": [
-        "/code",
-        "/array"
-      ]
-    },
-    {
-      "id": "/longest-diverse-str",
-      "group": 3,
-      "name": "Longest Diverse Str",
-      "links": [
-        "/code",
-        "/mid",
-        "/dynamic",
-        "/heap",
-        "/string"
-      ]
-    },
-    {
-      "id": "/longest-valid-paranthesis",
-      "group": 3,
-      "name": "Longest Valid Paranthesis",
-      "links": [
-        "/code",
-        "/mid",
-        "/pointers",
-        "/stack",
-        "/string"
-      ]
-    },
-    {
-      "id": "/lowest-common-ancestor",
-      "group": 3,
-      "name": "Lowest Common Ancestor",
-      "links": [
-        "/code",
-        "/dynamic",
-        "/graph"
-      ]
-    },
-    {
-      "id": "/max-path-sum",
-      "group": 3,
-      "name": "Max Path Sum",
-      "links": [
-        "/code",
-        "/graph"
-      ]
-    },
-    {
-      "id": "/max-tree-depth",
-      "group": 3,
-      "name": "Max Tree Depth",
-      "links": [
-        "/code",
-        "/graph"
-      ]
-    },
-    {
-      "id": "/max-water",
-      "group": 3,
-      "name": "Max Water",
-      "links": [
-        "/code",
-        "/pointers"
-      ]
-    },
-    {
-      "id": "/maximal-square",
-      "group": 3,
-      "name": "Maximal Square",
-      "links": [
-        "/code",
-        "/dynamic"
-      ]
-    },
-    {
-      "id": "/min-covering-window",
-      "group": 3,
-      "name": "Min Covering Window",
-      "links": [
-        "/code",
-        "/pointers"
-      ]
-    },
-    {
-      "id": "/min-edit-distance",
-      "group": 3,
-      "name": "Min Edit Distance",
-      "links": [
-        "/code",
-        "/mid",
-        "/dynamic",
-        "/longest-common-subsequence"
-      ]
-    },
-    {
-      "id": "/min-path-sum",
-      "group": 3,
-      "name": "Min Path Sum",
-      "links": [
-        "/code",
-        "/dynamic"
-      ]
-    },
-    {
-      "id": "/min-steps-notepad",
-      "group": 3,
-      "name": "Min Steps Notepad",
-      "links": [
-        "/code",
-        "/dynamic"
-      ]
-    },
-    {
-      "id": "/partition-labels",
-      "group": 3,
-      "name": "Partition Labels",
-      "links": [
-        "/code",
-        "/pointers"
-      ]
-    },
-    {
-      "id": "/pivot-index",
-      "group": 3,
-      "name": "Pivot Index",
-      "links": [
-        "/code",
-        "/pointers"
-      ]
-    },
-    {
-      "id": "/plus-one",
-      "group": 3,
-      "name": "Plus One",
-      "links": [
-        "/code",
-        "/array"
-      ]
-    },
-    {
-      "id": "/possible-morse",
-      "group": 3,
-      "name": "Possible Morse",
-      "links": [
-        "/code",
-        "/array"
-      ]
-    },
-    {
-      "id": "/post-order-go",
-      "group": 3,
-      "name": "Post Order Go",
-      "links": [
-        "/code",
-        "/graph"
-      ]
-    },
-    {
-      "id": "/producer-consumer-problem",
-      "group": 3,
-      "name": "Producer Consumer Problem",
-      "links": [
-        "/code",
-        "/concurrency"
-      ]
-    },
-    {
-      "id": "/repeatedStringMatch",
-      "group": 3,
-      "name": "Repeatedstringmatch",
-      "links": [
-        "/code",
-        "/string"
-      ]
-    },
-    {
-      "id": "/reverse-letters-only",
-      "group": 3,
-      "name": "Reverse Letters Only",
-      "links": [
-        "/code",
-        "/pointers",
-        "/stack"
-      ]
-    },
-    {
-      "id": "/sliding-window-max",
-      "group": 3,
-      "name": "Sliding Window Max",
-      "links": [
-        "/code",
-        "/pointers"
-      ]
-    },
-    {
-      "id": "/stocks-with-cooldown",
-      "group": 3,
-      "name": "Stocks With Cooldown",
-      "links": [
-        "/code",
-        "/dynamic"
-      ]
-    },
-    {
-      "id": "/string-compression",
-      "group": 3,
-      "name": "String Compression",
-      "links": [
-        "/code",
-        "/string"
-      ]
-    },
-    {
-      "id": "/three-sum-closest",
-      "group": 3,
-      "name": "Three Sum Closest",
-      "links": [
-        "/code",
-        "/array"
-      ]
-    },
-    {
-      "id": "/threeSum",
-      "group": 3,
-      "name": "Threesum",
-      "links": [
-        "/code",
-        "/pointers"
-      ]
-    },
-    {
-      "id": "/tree-codec-py",
-      "group": 3,
-      "name": "Tree Codec Py",
-      "links": [
-        "/code",
-        "/graph"
-      ]
-    },
-    {
-      "id": "/tree-traversals",
-      "group": 3,
-      "name": "Tree Traversals",
-      "links": [
-        "/code",
-        "/graph"
-      ]
-    },
-    {
-      "id": "/trie-py",
-      "group": 3,
-      "name": "Trie Py",
-      "links": [
-        "/code",
-        "/graph"
-      ]
-    },
-    {
-      "id": "/unique-bst",
-      "group": 3,
-      "name": "Unique Bst",
-      "links": [
-        "/code",
-        "/graph"
-      ]
-    },
-    {
-      "id": "/ways-to-target-sum",
-      "group": 3,
-      "name": "Ways To Target Sum",
-      "links": [
-        "/code",
-        "/dynamic"
-      ]
-    },
-    {
-      "id": "/word-break",
-      "group": 3,
-      "name": "Word Break",
-      "links": [
-        "/code",
-        "/dynamic"
-      ]
-    },
-    {
-      "id": "/c",
-      "group": 3,
-      "name": "C",
-      "links": [
-        "/programming-languages",
-        "/c-hashmap",
-        "/garbage-collector-in-c",
-        "/logos-os",
-        "/vga-driver"
-      ]
-    },
-    {
-      "id": "/clojure",
-      "group": 3,
-      "name": "Clojure",
-      "links": [
-        "/programming-languages"
-      ]
-    },
-    {
-      "id": "/cpp",
-      "group": 3,
-      "name": "Cpp",
-      "links": [
-        "/programming-languages",
-        "/a-star-robot"
-      ]
-    },
-    {
-      "id": "/csharp",
-      "group": 3,
-      "name": "C#",
-      "links": [
-        "/programming-languages"
-      ]
-    },
-    {
-      "id": "/elixir",
-      "group": 3,
-      "name": "Elixir",
-      "links": [
-        "/programming-languages"
-      ]
-    },
-    {
-      "id": "/erlang",
-      "group": 3,
-      "name": "Erlang",
-      "links": [
-        "/programming-languages"
-      ]
-    },
-    {
-      "id": "/functional-programming",
-      "group": 3,
-      "name": "Functional Programming",
-      "links": [
-        "/programming-languages"
-      ]
-    },
-    {
-      "id": "/go",
-      "group": 3,
-      "name": "Go",
-      "links": [
-        "/programming-languages"
-      ]
-    },
-    {
-      "id": "/haskell",
-      "group": 3,
-      "name": "Haskell",
-      "links": [
-        "/programming-languages"
-      ]
-    },
-    {
-      "id": "/java",
-      "group": 3,
-      "name": "Java",
-      "links": [
-        "/programming-languages"
-      ]
-    },
-    {
-      "id": "/lisp",
-      "group": 3,
-      "name": "Lisp",
-      "links": [
-        "/programming-languages"
-      ]
-    },
-    {
-      "id": "/rust",
-      "group": 3,
-      "name": "Rust",
-      "links": [
-        "/programming-languages"
-      ]
-    },
-    {
-      "id": "/scala",
-      "group": 3,
-      "name": "Scala",
-      "links": [
-        "/programming-languages"
-      ]
-    },
-    {
-      "id": "/typing",
-      "group": 3,
-      "name": "Typing",
-      "links": [
-        "/programming-languages"
-      ]
-    },
-    {
-      "id": "/python",
-      "group": 3,
-      "name": "Python",
-      "links": [
-        "/programming-languages",
-        "/python-data-structures",
-        "/python-packages",
-        "/zen-of-python",
-        "/async-crawler",
-        "/compiler",
-        "/mini-search-engine",
-        "/mini-web-server",
-        "/pascal-interpreter"
-      ]
-    },
-    {
-      "id": "/a-star-robot",
-      "group": 3,
-      "name": "A* path-finding algorithm for a robot",
-      "links": [
-        "/projects",
-        "/cpp"
-      ]
-    },
-    {
-      "id": "/async-crawler",
-      "group": 3,
-      "name": "An async web crawler from scratch",
-      "links": [
-        "/projects",
-        "/python"
-      ]
-    },
-    {
-      "id": "/c-hashmap",
-      "group": 3,
-      "name": "A hash table in C from scratch",
-      "links": [
-        "/projects",
-        "/c"
-      ]
-    },
-    {
-      "id": "/compiler",
-      "group": 3,
-      "name": "Let's write a compiler",
-      "links": [
-        "/projects",
-        "/python"
-      ]
-    },
-    {
-      "id": "/garbage-collector-in-c",
-      "group": 3,
-      "name": "A garbage collector in C from scratch",
-      "links": [
-        "/projects",
-        "/c"
-      ]
-    },
-    {
-      "id": "/links-for-makers",
-      "group": 3,
-      "name": "Links For Makers",
-      "links": [
-        "/projects"
-      ]
-    },
-    {
-      "id": "/logos-os",
-      "group": 3,
-      "name": "Logos, an operating system kernel from scratch",
-      "links": [
-        "/projects",
-        "/c"
-      ]
-    },
-    {
-      "id": "/mini-search-engine",
-      "group": 3,
-      "name": "A search engine with page rank, in 200 lines",
-      "links": [
-        "/projects",
-        "/python"
-      ]
-    },
-    {
-      "id": "/mini-web-server",
-      "group": 3,
-      "name": "A web server from scratch",
-      "links": [
-        "/projects",
-        "/python"
-      ]
-    },
-    {
-      "id": "/pascal-interpreter",
-      "group": 3,
-      "name": "An interpreter in Python",
-      "links": [
-        "/projects",
-        "/python"
-      ]
-    },
-    {
-      "id": "/pca",
-      "group": 3,
-      "name": "Principal Component Analysis",
-      "links": [
-        "/projects",
-        "/machine-learning"
-      ]
-    },
-    {
-      "id": "/pneumonia-detection",
-      "group": 3,
-      "name": "Pneumonia Detection",
-      "links": [
-        "/projects",
-        "/machine-learning"
-      ]
-    },
-    {
-      "id": "/predict-movie-genres",
-      "group": 3,
-      "name": "Predict movie genres using ML classifiers",
-      "links": [
-        "/projects",
-        "/machine-learning"
-      ]
-    },
-    {
-      "id": "/vga-driver",
-      "group": 3,
-      "name": "VGA Driver",
-      "links": [
-        "/projects",
-        "/c"
-      ]
-    },
-    {
-      "id": "/approximation",
-      "group": 3,
-      "name": "Approximation",
-      "links": [
-        "/algorithms"
-      ]
-    },
-    {
-      "id": "/backtrack",
-      "group": 3,
-      "name": "Backtrack",
-      "links": [
-        "/algorithms"
-      ]
-    },
-    {
-      "id": "/bit",
-      "group": 3,
-      "name": "Bit",
-      "links": [
-        "/algorithms"
-      ]
-    },
-    {
-      "id": "/easy",
-      "group": 3,
-      "name": "Easy",
-      "links": [
-        "/algorithms",
-        "/array-rotate",
-        "/binary-search",
-        "/bst",
-        "/check-brackets",
-        "/climb-stairs",
-        "/days-until-warmer-temperature",
-        "/decode-string",
-        "/dedup-game",
-        "/generate-pascals-triangle",
-        "/group-anagrams",
-        "/longest-common-prefix"
-      ]
-    },
-    {
-      "id": "/greedy",
-      "group": 3,
-      "name": "Greedy",
-      "links": [
-        "/algorithms"
-      ]
-    },
-    {
-      "id": "/hard",
-      "group": 3,
-      "name": "Hard",
-      "links": [
-        "/algorithms",
-        "/least-num-of-perfect-squares"
-      ]
-    },
-    {
-      "id": "/leet",
-      "group": 3,
-      "name": "Leet",
-      "links": [
-        "/algorithms"
-      ]
-    },
-    {
-      "id": "/local-maximum",
-      "group": 3,
-      "name": "Local Maximum",
-      "links": [
-        "/algorithms",
-        "/math",
-        "/overvaluing-short-term"
-      ]
-    },
-    {
-      "id": "/mid",
-      "group": 3,
-      "name": "Medium",
-      "links": [
-        "/algorithms",
-        "/bfs-dfs-topo",
-        "/coin-change",
-        "/count-primes",
-        "/delete-tree-node",
-        "/diamater-of-binary-tree",
-        "/dijkstra",
-        "/edit-distance",
-        "/generate-n-grams",
-        "/house-robber",
-        "/invert-binary-tree",
-        "/is-mirror-tree",
-        "/lengthOfLIS",
-        "/level-order",
-        "/longest-common-subsequence",
-        "/longest-diverse-str",
-        "/longest-valid-paranthesis",
-        "/min-edit-distance"
-      ]
-    },
-    {
-      "id": "/parallel-programming",
-      "group": 3,
-      "name": "Parallel Programming",
-      "links": [
-        "/algorithms"
-      ]
-    },
-    {
-      "id": "/rabin-karp",
-      "group": 3,
-      "name": "Rabin Karp",
-      "links": [
-        "/algorithms"
-      ]
-    },
-    {
-      "id": "/sort",
-      "group": 3,
-      "name": "Sort",
-      "links": [
-        "/algorithms"
-      ]
-    },
-    {
-      "id": "/vector-search",
-      "group": 3,
-      "name": "Vector Search",
-      "links": [
-        "/algorithms"
-      ]
-    },
-    {
-      "id": "/array",
-      "group": 3,
-      "name": "Array",
-      "links": [
-        "/data-structures",
-        "/array-rotate",
-        "/count-primes",
-        "/generate-pascals-triangle",
-        "/group-anagrams",
-        "/longest-consecutive",
-        "/plus-one",
-        "/possible-morse",
-        "/three-sum-closest"
-      ]
-    },
-    {
-      "id": "/graph",
-      "group": 3,
-      "name": "Graph",
-      "links": [
-        "/data-structures",
-        "/bfs-dfs-topo",
-        "/bst",
-        "/delete-tree-node",
-        "/diamater-of-binary-tree",
-        "/dijkstra",
-        "/invert-binary-tree",
-        "/is-mirror-tree",
-        "/level-order",
-        "/lowest-common-ancestor",
-        "/max-path-sum",
-        "/max-tree-depth",
-        "/post-order-go",
-        "/tree-codec-py",
-        "/tree-traversals",
-        "/trie-py",
-        "/unique-bst"
-      ]
-    },
-    {
-      "id": "/hash-table",
-      "group": 3,
-      "name": "Hash Table",
-      "links": [
-        "/data-structures"
-      ]
-    },
-    {
-      "id": "/heap",
-      "group": 3,
-      "name": "Heap",
-      "links": [
-        "/data-structures",
-        "/longest-diverse-str"
-      ]
-    },
-    {
-      "id": "/hyperloglog",
-      "group": 3,
-      "name": "Hyperloglog",
-      "links": [
-        "/data-structures"
-      ]
-    },
-    {
-      "id": "/linked-list",
-      "group": 3,
-      "name": "Linked List",
-      "links": [
-        "/data-structures"
-      ]
-    },
-    {
-      "id": "/pointers",
-      "group": 3,
-      "name": "Pointers",
-      "links": [
-        "/data-structures",
-        "/longest-valid-paranthesis",
-        "/max-water",
-        "/min-covering-window",
-        "/partition-labels",
-        "/pivot-index",
-        "/reverse-letters-only",
-        "/sliding-window-max",
-        "/threeSum"
-      ]
-    },
-    {
-      "id": "/queue",
-      "group": 3,
-      "name": "Queue",
-      "links": [
-        "/data-structures",
-        "/least-num-of-perfect-squares"
-      ]
-    },
-    {
-      "id": "/stack",
-      "group": 3,
-      "name": "Stack",
-      "links": [
-        "/data-structures",
-        "/check-brackets",
-        "/days-until-warmer-temperature",
-        "/decode-string",
-        "/dedup-game",
-        "/longest-valid-paranthesis",
-        "/reverse-letters-only"
-      ]
-    },
-    {
-      "id": "/string",
-      "group": 3,
-      "name": "String",
-      "links": [
-        "/data-structures",
-        "/decode-string",
-        "/dedup-game",
-        "/generate-n-grams",
-        "/longest-common-prefix",
-        "/longest-diverse-str",
-        "/longest-valid-paranthesis",
-        "/repeatedStringMatch",
-        "/string-compression"
-      ]
-    },
-    {
-      "id": "/design-patterns",
-      "group": 3,
-      "name": "Design Patterns",
-      "links": [
-        "/oop"
-      ]
-    },
-    {
-      "id": "/solid",
-      "group": 3,
-      "name": "SOLID",
-      "links": [
-        "/oop"
-      ]
-    },
-    {
-      "id": "/oop-designs",
-      "group": 3,
-      "name": "OOP designs",
-      "links": [
-        "/oop",
-        "/block",
-        "/design-a-bicycle",
-        "/design-a-book-app",
-        "/design-a-crm",
-        "/design-a-data-pipeline",
-        "/design-a-gov-cloud",
-        "/design-a-personal-note-publishing-system",
-        "/design-a-trader",
-        "/design-a-web-crawler",
-        "/design-auth",
-        "/design-oauth",
-        "/design-units",
-        "/design-video-streaming-app"
-      ]
-    },
-    {
       "id": "/company-culture",
       "group": 3,
       "name": "Company Culture",
@@ -3424,6 +2132,7 @@
         "/insight-and-strength",
         "/decisions",
         "/problem-solving",
+        "/problem-solving-selim",
         "/skills"
       ]
     },
@@ -3435,7 +2144,8 @@
         "/decisions",
         "/know-where-to-stop",
         "/lightly-child",
-        "/get-things-done"
+        "/get-things-done",
+        "/get-things-done-selim"
       ]
     },
     {
@@ -3487,8 +2197,7 @@
       "group": 3,
       "name": "On writing",
       "links": [
-        "/communication",
-        "/zen-of-python"
+        "/communication"
       ]
     },
     {
@@ -3594,21 +2303,11 @@
         "/empathy",
         "/hope",
         "/loneliness",
+        "/love",
         "/respect",
         "/trust",
         "/unmet-needs",
         "/vulnerability"
-      ]
-    },
-    {
-      "id": "/criminal-justice",
-      "group": 3,
-      "name": "Criminal Justice",
-      "links": [
-        "/politics",
-        "/good-and-evil",
-        "/philosophy",
-        "/psychology"
       ]
     },
     {
@@ -3701,6 +2400,243 @@
       "links": [
         "/politics",
         "/essais"
+      ]
+    },
+    {
+      "id": "/compsci",
+      "group": 3,
+      "name": "Computers from scratch",
+      "links": [
+        "/programming"
+      ]
+    },
+    {
+      "id": "/discussion-topics",
+      "group": 3,
+      "name": "Discussion Topics",
+      "links": [
+        "/programming"
+      ]
+    },
+    {
+      "id": "/easy-vs-hard-in-cs",
+      "group": 3,
+      "name": "The fine line between easy and very hard",
+      "links": [
+        "/programming"
+      ]
+    },
+    {
+      "id": "/encodings",
+      "group": 3,
+      "name": "Encodings",
+      "links": [
+        "/programming"
+      ]
+    },
+    {
+      "id": "/for-new-programmers",
+      "group": 3,
+      "name": "For New Programmers",
+      "links": [
+        "/programming"
+      ]
+    },
+    {
+      "id": "/the-tao-of-programming",
+      "group": 3,
+      "name": "The Tao of Programming",
+      "links": [
+        "/programming",
+        "/humor"
+      ]
+    },
+    {
+      "id": "/tools",
+      "group": 3,
+      "name": "Tools",
+      "links": [
+        "/programming"
+      ]
+    },
+    {
+      "id": "/unicode",
+      "group": 3,
+      "name": "Unicode",
+      "links": [
+        "/programming"
+      ]
+    },
+    {
+      "id": "/algorithms",
+      "group": 3,
+      "name": "Algorithms",
+      "links": [
+        "/programming",
+        "/approximation",
+        "/backtrack",
+        "/bit",
+        "/easy",
+        "/greedy",
+        "/hard",
+        "/leet",
+        "/local-maximum",
+        "/mid",
+        "/parallel-programming",
+        "/rabin-karp",
+        "/sort",
+        "/tree-balancing",
+        "/vector-search",
+        "/bayes",
+        "/lsm-trees",
+        "/data-structures"
+      ]
+    },
+    {
+      "id": "/code",
+      "group": 3,
+      "name": "Code",
+      "links": [
+        "/programming",
+        "/array-rotate",
+        "/bfs-dfs-topo",
+        "/binary-search",
+        "/bst",
+        "/check-brackets",
+        "/climb-stairs",
+        "/coin-change",
+        "/count-primes",
+        "/days-until-warmer-temperature",
+        "/decode-string",
+        "/dedup-game",
+        "/delete-tree-node",
+        "/diamater-of-binary-tree",
+        "/dijkstra",
+        "/dynamic",
+        "/edit-distance",
+        "/generate-n-grams",
+        "/generate-pascals-triangle",
+        "/group-anagrams",
+        "/house-robber",
+        "/invert-binary-tree",
+        "/is-mirror-tree",
+        "/least-num-of-perfect-squares",
+        "/lengthOfLIS",
+        "/level-order",
+        "/longest-common-prefix",
+        "/longest-common-subsequence",
+        "/longest-consecutive",
+        "/longest-diverse-str",
+        "/longest-valid-paranthesis",
+        "/lowest-common-ancestor",
+        "/max-path-sum",
+        "/max-tree-depth",
+        "/max-water",
+        "/maximal-square",
+        "/min-covering-window",
+        "/min-edit-distance",
+        "/min-path-sum",
+        "/min-steps-notepad",
+        "/partition-labels",
+        "/pivot-index",
+        "/plus-one",
+        "/possible-morse",
+        "/post-order-go",
+        "/producer-consumer-problem",
+        "/repeatedStringMatch",
+        "/reverse-letters-only",
+        "/sliding-window-max",
+        "/stocks-with-cooldown",
+        "/string-compression",
+        "/three-sum-closest",
+        "/threeSum",
+        "/tree-codec-py",
+        "/tree-traversals",
+        "/trie-py",
+        "/unique-bst",
+        "/ways-to-target-sum",
+        "/word-break"
+      ]
+    },
+    {
+      "id": "/data-structures",
+      "group": 3,
+      "name": "Data Structures",
+      "links": [
+        "/programming",
+        "/array",
+        "/bloom-filters",
+        "/graph",
+        "/hash-table",
+        "/heap",
+        "/hyperloglog",
+        "/linked-list",
+        "/pointers",
+        "/queue",
+        "/skiplists",
+        "/stack",
+        "/string",
+        "/algorithms",
+        "/b-trees",
+        "/db-data-structures",
+        "/lsm-trees"
+      ]
+    },
+    {
+      "id": "/oop",
+      "group": 3,
+      "name": "OOP",
+      "links": [
+        "/programming",
+        "/design-patterns",
+        "/solid",
+        "/oop-designs",
+        "/system-design"
+      ]
+    },
+    {
+      "id": "/programming-languages",
+      "group": 3,
+      "name": "Programming Languages",
+      "links": [
+        "/programming",
+        "/c",
+        "/clojure",
+        "/cpp",
+        "/csharp",
+        "/elixir",
+        "/erlang",
+        "/functional-programming",
+        "/go",
+        "/haskell",
+        "/java",
+        "/lisp",
+        "/rust",
+        "/scala",
+        "/typing",
+        "/python"
+      ]
+    },
+    {
+      "id": "/projects",
+      "group": 3,
+      "name": "Projects",
+      "links": [
+        "/programming",
+        "/a-star-robot",
+        "/async-crawler",
+        "/c-hashmap",
+        "/compiler",
+        "/garbage-collector-in-c",
+        "/links-for-makers",
+        "/logos-os",
+        "/mini-search-engine",
+        "/mini-web-server",
+        "/pascal-interpreter",
+        "/pca",
+        "/pneumonia-detection",
+        "/predict-movie-genres",
+        "/vga-driver"
       ]
     },
     {
@@ -3988,8 +2924,9 @@
       "name": "B Trees",
       "links": [
         "/databases",
-        "/data-structures",
-        "/db-data-structures"
+        "/db-data-structures",
+        "/tree-balancing",
+        "/data-structures"
       ]
     },
     {
@@ -3998,8 +2935,8 @@
       "name": "Data Structures to Build a DB",
       "links": [
         "/databases",
-        "/data-structures",
-        "/b-trees"
+        "/b-trees",
+        "/data-structures"
       ]
     },
     {
@@ -4118,6 +3055,14 @@
       ]
     },
     {
+      "id": "/customize-prompt",
+      "group": 3,
+      "name": "Customize Prompt",
+      "links": [
+        "/prompt-engineering"
+      ]
+    },
+    {
       "id": "/question-prompt",
       "group": 3,
       "name": "Question Prompt",
@@ -4180,7 +3125,8 @@
       "name": "The Morning",
       "links": [
         "/time",
-        "/get-things-done"
+        "/get-things-done",
+        "/get-things-done-selim"
       ]
     },
     {
@@ -4189,7 +3135,7 @@
       "name": "The Past",
       "links": [
         "/time",
-        "/a-good-life"
+        "/eudaimonia"
       ]
     },
     {
@@ -4219,6 +3165,7 @@
         "/work",
         "/teamwork",
         "/get-things-done",
+        "/get-things-done-selim",
         "/how-to-start-a-business"
       ]
     },
@@ -4394,135 +3341,6 @@
       ]
     },
     {
-      "id": "/python-data-structures",
-      "group": 4,
-      "name": "Python Data Structures",
-      "links": [
-        "/python"
-      ]
-    },
-    {
-      "id": "/python-packages",
-      "group": 4,
-      "name": "Python Packages",
-      "links": [
-        "/python"
-      ]
-    },
-    {
-      "id": "/zen-of-python",
-      "group": 4,
-      "name": "Zen Of Python",
-      "links": [
-        "/python",
-        "/write-better"
-      ]
-    },
-    {
-      "id": "/block",
-      "group": 4,
-      "name": "Design a blockchain",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-a-bicycle",
-      "group": 4,
-      "name": "Design A Bicycle",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-a-book-app",
-      "group": 4,
-      "name": "Design A Book App",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-a-crm",
-      "group": 4,
-      "name": "Design A Crm",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-a-data-pipeline",
-      "group": 4,
-      "name": "Design A Data Pipeline",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-a-gov-cloud",
-      "group": 4,
-      "name": "Design A Gov Cloud",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-a-personal-note-publishing-system",
-      "group": 4,
-      "name": "Design A Personal Note Publishing System",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-a-trader",
-      "group": 4,
-      "name": "Design A Trader",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-a-web-crawler",
-      "group": 4,
-      "name": "Design A Web Crawler",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-auth",
-      "group": 4,
-      "name": "Design Auth",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-oauth",
-      "group": 4,
-      "name": "Design an OAuth System",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-units",
-      "group": 4,
-      "name": "Design Units",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-video-streaming-app",
-      "group": 4,
-      "name": "Design Video Streaming App",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
       "id": "/bias-for-unhappiness",
       "group": 4,
       "name": "Bias For Unhappiness",
@@ -4545,7 +3363,6 @@
       "name": "Overvaluing Short Term",
       "links": [
         "/cognitive-biases",
-        "/local-maximum",
         "/leadership"
       ]
     },
@@ -4617,6 +3434,14 @@
       "id": "/loneliness",
       "group": 4,
       "name": "Loneliness",
+      "links": [
+        "/emotions"
+      ]
+    },
+    {
+      "id": "/love",
+      "group": 4,
+      "name": "Love",
       "links": [
         "/emotions"
       ]
@@ -4704,6 +3529,1290 @@
         "/work",
         "/leadership"
       ]
+    },
+    {
+      "id": "/approximation",
+      "group": 4,
+      "name": "Approximation",
+      "links": [
+        "/algorithms"
+      ]
+    },
+    {
+      "id": "/backtrack",
+      "group": 4,
+      "name": "Backtrack",
+      "links": [
+        "/algorithms"
+      ]
+    },
+    {
+      "id": "/bit",
+      "group": 4,
+      "name": "Bit",
+      "links": [
+        "/algorithms"
+      ]
+    },
+    {
+      "id": "/easy",
+      "group": 4,
+      "name": "Easy",
+      "links": [
+        "/algorithms",
+        "/array-rotate",
+        "/binary-search",
+        "/bst",
+        "/check-brackets",
+        "/climb-stairs",
+        "/days-until-warmer-temperature",
+        "/decode-string",
+        "/dedup-game",
+        "/generate-pascals-triangle",
+        "/group-anagrams",
+        "/longest-common-prefix"
+      ]
+    },
+    {
+      "id": "/greedy",
+      "group": 4,
+      "name": "Greedy",
+      "links": [
+        "/algorithms"
+      ]
+    },
+    {
+      "id": "/hard",
+      "group": 4,
+      "name": "Hard",
+      "links": [
+        "/algorithms",
+        "/least-num-of-perfect-squares"
+      ]
+    },
+    {
+      "id": "/leet",
+      "group": 4,
+      "name": "Leet",
+      "links": [
+        "/algorithms"
+      ]
+    },
+    {
+      "id": "/local-maximum",
+      "group": 4,
+      "name": "Local Maximum",
+      "links": [
+        "/algorithms",
+        "/math"
+      ]
+    },
+    {
+      "id": "/mid",
+      "group": 4,
+      "name": "Medium",
+      "links": [
+        "/algorithms",
+        "/bfs-dfs-topo",
+        "/coin-change",
+        "/count-primes",
+        "/delete-tree-node",
+        "/diamater-of-binary-tree",
+        "/dijkstra",
+        "/edit-distance",
+        "/generate-n-grams",
+        "/house-robber",
+        "/invert-binary-tree",
+        "/is-mirror-tree",
+        "/lengthOfLIS",
+        "/level-order",
+        "/longest-common-subsequence",
+        "/longest-diverse-str",
+        "/longest-valid-paranthesis",
+        "/min-edit-distance"
+      ]
+    },
+    {
+      "id": "/parallel-programming",
+      "group": 4,
+      "name": "Parallel Programming",
+      "links": [
+        "/algorithms"
+      ]
+    },
+    {
+      "id": "/rabin-karp",
+      "group": 4,
+      "name": "Rabin Karp",
+      "links": [
+        "/algorithms"
+      ]
+    },
+    {
+      "id": "/sort",
+      "group": 4,
+      "name": "Sort",
+      "links": [
+        "/algorithms"
+      ]
+    },
+    {
+      "id": "/tree-balancing",
+      "group": 4,
+      "name": "Tree Balancing",
+      "links": [
+        "/algorithms",
+        "/b-trees"
+      ]
+    },
+    {
+      "id": "/vector-search",
+      "group": 4,
+      "name": "Vector Search",
+      "links": [
+        "/algorithms"
+      ]
+    },
+    {
+      "id": "/array-rotate",
+      "group": 4,
+      "name": "Array Rotate",
+      "links": [
+        "/code",
+        "/easy",
+        "/array"
+      ]
+    },
+    {
+      "id": "/bfs-dfs-topo",
+      "group": 4,
+      "name": "Bfs Dfs Topo",
+      "links": [
+        "/code",
+        "/mid",
+        "/graph"
+      ]
+    },
+    {
+      "id": "/binary-search",
+      "group": 4,
+      "name": "Binary Search",
+      "links": [
+        "/code",
+        "/easy"
+      ]
+    },
+    {
+      "id": "/bst",
+      "group": 4,
+      "name": "Binary Search Tree",
+      "links": [
+        "/code",
+        "/easy",
+        "/graph"
+      ]
+    },
+    {
+      "id": "/check-brackets",
+      "group": 4,
+      "name": "Check Brackets",
+      "links": [
+        "/code",
+        "/easy",
+        "/stack"
+      ]
+    },
+    {
+      "id": "/climb-stairs",
+      "group": 4,
+      "name": "Climb Stairs",
+      "links": [
+        "/code",
+        "/easy",
+        "/dynamic"
+      ]
+    },
+    {
+      "id": "/coin-change",
+      "group": 4,
+      "name": "Coin Change",
+      "links": [
+        "/code",
+        "/mid",
+        "/dynamic"
+      ]
+    },
+    {
+      "id": "/count-primes",
+      "group": 4,
+      "name": "Count Primes",
+      "links": [
+        "/code",
+        "/mid",
+        "/array"
+      ]
+    },
+    {
+      "id": "/days-until-warmer-temperature",
+      "group": 4,
+      "name": "Days Until Warmer Temperature",
+      "links": [
+        "/code",
+        "/easy",
+        "/stack"
+      ]
+    },
+    {
+      "id": "/decode-string",
+      "group": 4,
+      "name": "Decode String",
+      "links": [
+        "/code",
+        "/easy",
+        "/stack",
+        "/string"
+      ]
+    },
+    {
+      "id": "/dedup-game",
+      "group": 4,
+      "name": "Dedup Game",
+      "links": [
+        "/code",
+        "/easy",
+        "/stack",
+        "/string"
+      ]
+    },
+    {
+      "id": "/delete-tree-node",
+      "group": 4,
+      "name": "Delete Tree Node",
+      "links": [
+        "/code",
+        "/mid",
+        "/graph"
+      ]
+    },
+    {
+      "id": "/diamater-of-binary-tree",
+      "group": 4,
+      "name": "Diamater Of Binary Tree",
+      "links": [
+        "/code",
+        "/mid",
+        "/graph"
+      ]
+    },
+    {
+      "id": "/dijkstra",
+      "group": 4,
+      "name": "Dijkstra",
+      "links": [
+        "/code",
+        "/mid",
+        "/graph"
+      ]
+    },
+    {
+      "id": "/dynamic",
+      "group": 4,
+      "name": "Dynamic",
+      "links": [
+        "/code",
+        "/climb-stairs",
+        "/coin-change",
+        "/edit-distance",
+        "/house-robber",
+        "/lengthOfLIS",
+        "/longest-common-subsequence",
+        "/longest-diverse-str",
+        "/lowest-common-ancestor",
+        "/maximal-square",
+        "/min-edit-distance",
+        "/min-path-sum",
+        "/min-steps-notepad",
+        "/stocks-with-cooldown",
+        "/ways-to-target-sum",
+        "/word-break"
+      ]
+    },
+    {
+      "id": "/edit-distance",
+      "group": 4,
+      "name": "Edit Distance",
+      "links": [
+        "/code",
+        "/mid",
+        "/dynamic"
+      ]
+    },
+    {
+      "id": "/generate-n-grams",
+      "group": 4,
+      "name": "Generate N Grams",
+      "links": [
+        "/code",
+        "/mid",
+        "/string"
+      ]
+    },
+    {
+      "id": "/generate-pascals-triangle",
+      "group": 4,
+      "name": "Generate Pascals Triangle",
+      "links": [
+        "/code",
+        "/easy",
+        "/array"
+      ]
+    },
+    {
+      "id": "/group-anagrams",
+      "group": 4,
+      "name": "Group Anagrams",
+      "links": [
+        "/code",
+        "/easy",
+        "/array"
+      ]
+    },
+    {
+      "id": "/house-robber",
+      "group": 4,
+      "name": "House Robber",
+      "links": [
+        "/code",
+        "/mid",
+        "/dynamic"
+      ]
+    },
+    {
+      "id": "/invert-binary-tree",
+      "group": 4,
+      "name": "Invert Binary Tree",
+      "links": [
+        "/code",
+        "/mid",
+        "/graph"
+      ]
+    },
+    {
+      "id": "/is-mirror-tree",
+      "group": 4,
+      "name": "Is Mirror Tree",
+      "links": [
+        "/code",
+        "/mid",
+        "/graph"
+      ]
+    },
+    {
+      "id": "/least-num-of-perfect-squares",
+      "group": 4,
+      "name": "Least Num Of Perfect Squares",
+      "links": [
+        "/code",
+        "/hard",
+        "/queue"
+      ]
+    },
+    {
+      "id": "/lengthOfLIS",
+      "group": 4,
+      "name": "Longest increasing subsequence",
+      "links": [
+        "/code",
+        "/mid",
+        "/dynamic"
+      ]
+    },
+    {
+      "id": "/level-order",
+      "group": 4,
+      "name": "Level Order",
+      "links": [
+        "/code",
+        "/mid",
+        "/graph"
+      ]
+    },
+    {
+      "id": "/longest-common-prefix",
+      "group": 4,
+      "name": "Longest Common Prefix",
+      "links": [
+        "/code",
+        "/easy",
+        "/string"
+      ]
+    },
+    {
+      "id": "/longest-common-subsequence",
+      "group": 4,
+      "name": "Longest Common Subsequence",
+      "links": [
+        "/code",
+        "/mid",
+        "/dynamic",
+        "/min-edit-distance"
+      ]
+    },
+    {
+      "id": "/longest-consecutive",
+      "group": 4,
+      "name": "Longest Consecutive",
+      "links": [
+        "/code",
+        "/array"
+      ]
+    },
+    {
+      "id": "/longest-diverse-str",
+      "group": 4,
+      "name": "Longest Diverse Str",
+      "links": [
+        "/code",
+        "/mid",
+        "/dynamic",
+        "/heap",
+        "/string"
+      ]
+    },
+    {
+      "id": "/longest-valid-paranthesis",
+      "group": 4,
+      "name": "Longest Valid Paranthesis",
+      "links": [
+        "/code",
+        "/mid",
+        "/pointers",
+        "/stack",
+        "/string"
+      ]
+    },
+    {
+      "id": "/lowest-common-ancestor",
+      "group": 4,
+      "name": "Lowest Common Ancestor",
+      "links": [
+        "/code",
+        "/dynamic",
+        "/graph"
+      ]
+    },
+    {
+      "id": "/max-path-sum",
+      "group": 4,
+      "name": "Max Path Sum",
+      "links": [
+        "/code",
+        "/graph"
+      ]
+    },
+    {
+      "id": "/max-tree-depth",
+      "group": 4,
+      "name": "Max Tree Depth",
+      "links": [
+        "/code",
+        "/graph"
+      ]
+    },
+    {
+      "id": "/max-water",
+      "group": 4,
+      "name": "Max Water",
+      "links": [
+        "/code",
+        "/pointers"
+      ]
+    },
+    {
+      "id": "/maximal-square",
+      "group": 4,
+      "name": "Maximal Square",
+      "links": [
+        "/code",
+        "/dynamic"
+      ]
+    },
+    {
+      "id": "/min-covering-window",
+      "group": 4,
+      "name": "Min Covering Window",
+      "links": [
+        "/code",
+        "/pointers"
+      ]
+    },
+    {
+      "id": "/min-edit-distance",
+      "group": 4,
+      "name": "Min Edit Distance",
+      "links": [
+        "/code",
+        "/mid",
+        "/dynamic",
+        "/longest-common-subsequence"
+      ]
+    },
+    {
+      "id": "/min-path-sum",
+      "group": 4,
+      "name": "Min Path Sum",
+      "links": [
+        "/code",
+        "/dynamic"
+      ]
+    },
+    {
+      "id": "/min-steps-notepad",
+      "group": 4,
+      "name": "Min Steps Notepad",
+      "links": [
+        "/code",
+        "/dynamic"
+      ]
+    },
+    {
+      "id": "/partition-labels",
+      "group": 4,
+      "name": "Partition Labels",
+      "links": [
+        "/code",
+        "/pointers"
+      ]
+    },
+    {
+      "id": "/pivot-index",
+      "group": 4,
+      "name": "Pivot Index",
+      "links": [
+        "/code",
+        "/pointers"
+      ]
+    },
+    {
+      "id": "/plus-one",
+      "group": 4,
+      "name": "Plus One",
+      "links": [
+        "/code",
+        "/array"
+      ]
+    },
+    {
+      "id": "/possible-morse",
+      "group": 4,
+      "name": "Possible Morse",
+      "links": [
+        "/code",
+        "/array"
+      ]
+    },
+    {
+      "id": "/post-order-go",
+      "group": 4,
+      "name": "Post Order Go",
+      "links": [
+        "/code",
+        "/graph"
+      ]
+    },
+    {
+      "id": "/producer-consumer-problem",
+      "group": 4,
+      "name": "Producer Consumer Problem",
+      "links": [
+        "/code",
+        "/concurrency"
+      ]
+    },
+    {
+      "id": "/repeatedStringMatch",
+      "group": 4,
+      "name": "Repeatedstringmatch",
+      "links": [
+        "/code",
+        "/string"
+      ]
+    },
+    {
+      "id": "/reverse-letters-only",
+      "group": 4,
+      "name": "Reverse Letters Only",
+      "links": [
+        "/code",
+        "/pointers",
+        "/stack"
+      ]
+    },
+    {
+      "id": "/sliding-window-max",
+      "group": 4,
+      "name": "Sliding Window Max",
+      "links": [
+        "/code",
+        "/pointers"
+      ]
+    },
+    {
+      "id": "/stocks-with-cooldown",
+      "group": 4,
+      "name": "Stocks With Cooldown",
+      "links": [
+        "/code",
+        "/dynamic"
+      ]
+    },
+    {
+      "id": "/string-compression",
+      "group": 4,
+      "name": "String Compression",
+      "links": [
+        "/code",
+        "/string"
+      ]
+    },
+    {
+      "id": "/three-sum-closest",
+      "group": 4,
+      "name": "Three Sum Closest",
+      "links": [
+        "/code",
+        "/array"
+      ]
+    },
+    {
+      "id": "/threeSum",
+      "group": 4,
+      "name": "Threesum",
+      "links": [
+        "/code",
+        "/pointers"
+      ]
+    },
+    {
+      "id": "/tree-codec-py",
+      "group": 4,
+      "name": "Tree Codec Py",
+      "links": [
+        "/code",
+        "/graph"
+      ]
+    },
+    {
+      "id": "/tree-traversals",
+      "group": 4,
+      "name": "Tree Traversals",
+      "links": [
+        "/code",
+        "/graph"
+      ]
+    },
+    {
+      "id": "/trie-py",
+      "group": 4,
+      "name": "Trie Py",
+      "links": [
+        "/code",
+        "/graph"
+      ]
+    },
+    {
+      "id": "/unique-bst",
+      "group": 4,
+      "name": "Unique Bst",
+      "links": [
+        "/code",
+        "/graph"
+      ]
+    },
+    {
+      "id": "/ways-to-target-sum",
+      "group": 4,
+      "name": "Ways To Target Sum",
+      "links": [
+        "/code",
+        "/dynamic"
+      ]
+    },
+    {
+      "id": "/word-break",
+      "group": 4,
+      "name": "Word Break",
+      "links": [
+        "/code",
+        "/dynamic"
+      ]
+    },
+    {
+      "id": "/array",
+      "group": 4,
+      "name": "Array",
+      "links": [
+        "/data-structures",
+        "/array-rotate",
+        "/count-primes",
+        "/generate-pascals-triangle",
+        "/group-anagrams",
+        "/longest-consecutive",
+        "/plus-one",
+        "/possible-morse",
+        "/three-sum-closest"
+      ]
+    },
+    {
+      "id": "/bloom-filters",
+      "group": 4,
+      "name": "Bloom Filters",
+      "links": [
+        "/data-structures"
+      ]
+    },
+    {
+      "id": "/graph",
+      "group": 4,
+      "name": "Graph",
+      "links": [
+        "/data-structures",
+        "/bfs-dfs-topo",
+        "/bst",
+        "/delete-tree-node",
+        "/diamater-of-binary-tree",
+        "/dijkstra",
+        "/invert-binary-tree",
+        "/is-mirror-tree",
+        "/level-order",
+        "/lowest-common-ancestor",
+        "/max-path-sum",
+        "/max-tree-depth",
+        "/post-order-go",
+        "/tree-codec-py",
+        "/tree-traversals",
+        "/trie-py",
+        "/unique-bst"
+      ]
+    },
+    {
+      "id": "/hash-table",
+      "group": 4,
+      "name": "Hash Table",
+      "links": [
+        "/data-structures"
+      ]
+    },
+    {
+      "id": "/heap",
+      "group": 4,
+      "name": "Heap",
+      "links": [
+        "/data-structures",
+        "/longest-diverse-str"
+      ]
+    },
+    {
+      "id": "/hyperloglog",
+      "group": 4,
+      "name": "Hyperloglog",
+      "links": [
+        "/data-structures"
+      ]
+    },
+    {
+      "id": "/linked-list",
+      "group": 4,
+      "name": "Linked List",
+      "links": [
+        "/data-structures"
+      ]
+    },
+    {
+      "id": "/pointers",
+      "group": 4,
+      "name": "Pointers",
+      "links": [
+        "/data-structures",
+        "/longest-valid-paranthesis",
+        "/max-water",
+        "/min-covering-window",
+        "/partition-labels",
+        "/pivot-index",
+        "/reverse-letters-only",
+        "/sliding-window-max",
+        "/threeSum"
+      ]
+    },
+    {
+      "id": "/queue",
+      "group": 4,
+      "name": "Queue",
+      "links": [
+        "/data-structures",
+        "/least-num-of-perfect-squares"
+      ]
+    },
+    {
+      "id": "/skiplists",
+      "group": 4,
+      "name": "Skip Lists",
+      "links": [
+        "/data-structures"
+      ]
+    },
+    {
+      "id": "/stack",
+      "group": 4,
+      "name": "Stack",
+      "links": [
+        "/data-structures",
+        "/check-brackets",
+        "/days-until-warmer-temperature",
+        "/decode-string",
+        "/dedup-game",
+        "/longest-valid-paranthesis",
+        "/reverse-letters-only"
+      ]
+    },
+    {
+      "id": "/string",
+      "group": 4,
+      "name": "String",
+      "links": [
+        "/data-structures",
+        "/decode-string",
+        "/dedup-game",
+        "/generate-n-grams",
+        "/longest-common-prefix",
+        "/longest-diverse-str",
+        "/longest-valid-paranthesis",
+        "/repeatedStringMatch",
+        "/string-compression"
+      ]
+    },
+    {
+      "id": "/design-patterns",
+      "group": 4,
+      "name": "Design Patterns",
+      "links": [
+        "/oop"
+      ]
+    },
+    {
+      "id": "/solid",
+      "group": 4,
+      "name": "SOLID",
+      "links": [
+        "/oop"
+      ]
+    },
+    {
+      "id": "/oop-designs",
+      "group": 4,
+      "name": "OOP designs",
+      "links": [
+        "/oop",
+        "/block",
+        "/design-a-bicycle",
+        "/design-a-book-app",
+        "/design-a-crm",
+        "/design-a-data-pipeline",
+        "/design-a-gov-cloud",
+        "/design-a-personal-note-publishing-system",
+        "/design-a-trader",
+        "/design-a-web-crawler",
+        "/design-auth",
+        "/design-oauth",
+        "/design-units",
+        "/design-video-streaming-app"
+      ]
+    },
+    {
+      "id": "/c",
+      "group": 4,
+      "name": "C",
+      "links": [
+        "/programming-languages",
+        "/c-hashmap",
+        "/garbage-collector-in-c",
+        "/logos-os",
+        "/vga-driver"
+      ]
+    },
+    {
+      "id": "/clojure",
+      "group": 4,
+      "name": "Clojure",
+      "links": [
+        "/programming-languages"
+      ]
+    },
+    {
+      "id": "/cpp",
+      "group": 4,
+      "name": "Cpp",
+      "links": [
+        "/programming-languages",
+        "/a-star-robot"
+      ]
+    },
+    {
+      "id": "/csharp",
+      "group": 4,
+      "name": "C#",
+      "links": [
+        "/programming-languages"
+      ]
+    },
+    {
+      "id": "/elixir",
+      "group": 4,
+      "name": "Elixir",
+      "links": [
+        "/programming-languages"
+      ]
+    },
+    {
+      "id": "/erlang",
+      "group": 4,
+      "name": "Erlang",
+      "links": [
+        "/programming-languages"
+      ]
+    },
+    {
+      "id": "/functional-programming",
+      "group": 4,
+      "name": "Functional Programming",
+      "links": [
+        "/programming-languages"
+      ]
+    },
+    {
+      "id": "/go",
+      "group": 4,
+      "name": "Go",
+      "links": [
+        "/programming-languages"
+      ]
+    },
+    {
+      "id": "/haskell",
+      "group": 4,
+      "name": "Haskell",
+      "links": [
+        "/programming-languages"
+      ]
+    },
+    {
+      "id": "/java",
+      "group": 4,
+      "name": "Java",
+      "links": [
+        "/programming-languages"
+      ]
+    },
+    {
+      "id": "/lisp",
+      "group": 4,
+      "name": "Lisp",
+      "links": [
+        "/programming-languages"
+      ]
+    },
+    {
+      "id": "/rust",
+      "group": 4,
+      "name": "Rust",
+      "links": [
+        "/programming-languages"
+      ]
+    },
+    {
+      "id": "/scala",
+      "group": 4,
+      "name": "Scala",
+      "links": [
+        "/programming-languages"
+      ]
+    },
+    {
+      "id": "/typing",
+      "group": 4,
+      "name": "Typing",
+      "links": [
+        "/programming-languages"
+      ]
+    },
+    {
+      "id": "/python",
+      "group": 4,
+      "name": "Python",
+      "links": [
+        "/programming-languages",
+        "/python-data-structures",
+        "/python-packages",
+        "/zen-of-python",
+        "/async-crawler",
+        "/compiler",
+        "/mini-search-engine",
+        "/mini-web-server",
+        "/pascal-interpreter"
+      ]
+    },
+    {
+      "id": "/a-star-robot",
+      "group": 4,
+      "name": "A* path-finding algorithm for a robot",
+      "links": [
+        "/projects",
+        "/cpp"
+      ]
+    },
+    {
+      "id": "/async-crawler",
+      "group": 4,
+      "name": "An async web crawler from scratch",
+      "links": [
+        "/projects",
+        "/python"
+      ]
+    },
+    {
+      "id": "/c-hashmap",
+      "group": 4,
+      "name": "A hash table in C from scratch",
+      "links": [
+        "/projects",
+        "/c"
+      ]
+    },
+    {
+      "id": "/compiler",
+      "group": 4,
+      "name": "Let's write a compiler",
+      "links": [
+        "/projects",
+        "/python"
+      ]
+    },
+    {
+      "id": "/garbage-collector-in-c",
+      "group": 4,
+      "name": "A garbage collector in C from scratch",
+      "links": [
+        "/projects",
+        "/c"
+      ]
+    },
+    {
+      "id": "/links-for-makers",
+      "group": 4,
+      "name": "Links For Makers",
+      "links": [
+        "/projects"
+      ]
+    },
+    {
+      "id": "/logos-os",
+      "group": 4,
+      "name": "Logos, an operating system kernel from scratch",
+      "links": [
+        "/projects",
+        "/c"
+      ]
+    },
+    {
+      "id": "/mini-search-engine",
+      "group": 4,
+      "name": "A search engine with page rank, in 200 lines",
+      "links": [
+        "/projects",
+        "/python"
+      ]
+    },
+    {
+      "id": "/mini-web-server",
+      "group": 4,
+      "name": "A web server from scratch",
+      "links": [
+        "/projects",
+        "/python"
+      ]
+    },
+    {
+      "id": "/pascal-interpreter",
+      "group": 4,
+      "name": "An interpreter in Python",
+      "links": [
+        "/projects",
+        "/python"
+      ]
+    },
+    {
+      "id": "/pca",
+      "group": 4,
+      "name": "Principal Component Analysis",
+      "links": [
+        "/projects",
+        "/machine-learning"
+      ]
+    },
+    {
+      "id": "/pneumonia-detection",
+      "group": 4,
+      "name": "Pneumonia Detection",
+      "links": [
+        "/projects",
+        "/machine-learning"
+      ]
+    },
+    {
+      "id": "/predict-movie-genres",
+      "group": 4,
+      "name": "Predict movie genres using ML classifiers",
+      "links": [
+        "/projects",
+        "/machine-learning"
+      ]
+    },
+    {
+      "id": "/vga-driver",
+      "group": 4,
+      "name": "VGA Driver",
+      "links": [
+        "/projects",
+        "/c"
+      ]
+    },
+    {
+      "id": "/block",
+      "group": 5,
+      "name": "Design a blockchain",
+      "links": [
+        "/oop-designs"
+      ]
+    },
+    {
+      "id": "/design-a-bicycle",
+      "group": 5,
+      "name": "Design A Bicycle",
+      "links": [
+        "/oop-designs"
+      ]
+    },
+    {
+      "id": "/design-a-book-app",
+      "group": 5,
+      "name": "Design A Book App",
+      "links": [
+        "/oop-designs"
+      ]
+    },
+    {
+      "id": "/design-a-crm",
+      "group": 5,
+      "name": "CRM design",
+      "links": [
+        "/oop-designs"
+      ]
+    },
+    {
+      "id": "/design-a-data-pipeline",
+      "group": 5,
+      "name": "Design A Data Pipeline",
+      "links": [
+        "/oop-designs"
+      ]
+    },
+    {
+      "id": "/design-a-gov-cloud",
+      "group": 5,
+      "name": "Design A Gov Cloud",
+      "links": [
+        "/oop-designs"
+      ]
+    },
+    {
+      "id": "/design-a-personal-note-publishing-system",
+      "group": 5,
+      "name": "Design A Personal Note Publishing System",
+      "links": [
+        "/oop-designs"
+      ]
+    },
+    {
+      "id": "/design-a-trader",
+      "group": 5,
+      "name": "Design A Trader",
+      "links": [
+        "/oop-designs"
+      ]
+    },
+    {
+      "id": "/design-a-web-crawler",
+      "group": 5,
+      "name": "Design A Web Crawler",
+      "links": [
+        "/oop-designs"
+      ]
+    },
+    {
+      "id": "/design-auth",
+      "group": 5,
+      "name": "Design Auth",
+      "links": [
+        "/oop-designs"
+      ]
+    },
+    {
+      "id": "/design-oauth",
+      "group": 5,
+      "name": "Design an OAuth System",
+      "links": [
+        "/oop-designs"
+      ]
+    },
+    {
+      "id": "/design-units",
+      "group": 5,
+      "name": "Design Units",
+      "links": [
+        "/oop-designs"
+      ]
+    },
+    {
+      "id": "/design-video-streaming-app",
+      "group": 5,
+      "name": "Design Video Streaming App",
+      "links": [
+        "/oop-designs"
+      ]
+    },
+    {
+      "id": "/python-data-structures",
+      "group": 5,
+      "name": "Python Data Structures",
+      "links": [
+        "/python"
+      ]
+    },
+    {
+      "id": "/python-packages",
+      "group": 5,
+      "name": "Python Packages",
+      "links": [
+        "/python"
+      ]
+    },
+    {
+      "id": "/zen-of-python",
+      "group": 5,
+      "name": "Zen Of Python",
+      "links": [
+        "/python"
+      ]
     }
   ],
   "links": [
@@ -4722,10 +4831,6 @@
     {
       "source": "/root",
       "target": "/natural-sciences"
-    },
-    {
-      "source": "/root",
-      "target": "/programming"
     },
     {
       "source": "/root",
@@ -4928,62 +5033,6 @@
       "target": "/akins-laws-of-spacecraft"
     },
     {
-      "source": "/programming",
-      "target": "/code"
-    },
-    {
-      "source": "/programming",
-      "target": "/programming-languages"
-    },
-    {
-      "source": "/programming",
-      "target": "/projects"
-    },
-    {
-      "source": "/programming",
-      "target": "/algorithms"
-    },
-    {
-      "source": "/programming",
-      "target": "/data-structures"
-    },
-    {
-      "source": "/programming",
-      "target": "/oop"
-    },
-    {
-      "source": "/programming",
-      "target": "/unicode"
-    },
-    {
-      "source": "/programming",
-      "target": "/for-new-programmers"
-    },
-    {
-      "source": "/programming",
-      "target": "/discussion-topics"
-    },
-    {
-      "source": "/programming",
-      "target": "/easy-vs-hard-in-cs"
-    },
-    {
-      "source": "/programming",
-      "target": "/the-tao-of-programming"
-    },
-    {
-      "source": "/programming",
-      "target": "/encodings"
-    },
-    {
-      "source": "/programming",
-      "target": "/tools"
-    },
-    {
-      "source": "/programming",
-      "target": "/compsci"
-    },
-    {
       "source": "/skills",
       "target": "/business"
     },
@@ -5009,6 +5058,10 @@
     },
     {
       "source": "/skills",
+      "target": "/get-things-done-selim"
+    },
+    {
+      "source": "/skills",
       "target": "/get-things-done"
     },
     {
@@ -5018,6 +5071,10 @@
     {
       "source": "/skills",
       "target": "/how-to-gain-wealth"
+    },
+    {
+      "source": "/skills",
+      "target": "/how-to-grow-old-russell-selim"
     },
     {
       "source": "/skills",
@@ -5038,6 +5095,10 @@
     {
       "source": "/skills",
       "target": "/learning"
+    },
+    {
+      "source": "/skills",
+      "target": "/making-videos"
     },
     {
       "source": "/skills",
@@ -5065,7 +5126,15 @@
     },
     {
       "source": "/skills",
+      "target": "/problem-solving-selim"
+    },
+    {
+      "source": "/skills",
       "target": "/problem-solving"
+    },
+    {
+      "source": "/skills",
+      "target": "/skills-selim"
     },
     {
       "source": "/skills",
@@ -5093,7 +5162,7 @@
     },
     {
       "source": "/skills",
-      "target": "/making-videos"
+      "target": "/mastery-selim"
     },
     {
       "source": "/skills",
@@ -5161,6 +5230,10 @@
     },
     {
       "source": "/tech",
+      "target": "/programming"
+    },
+    {
+      "source": "/tech",
       "target": "/security"
     },
     {
@@ -5185,10 +5258,6 @@
     },
     {
       "source": "/tech",
-      "target": "/networks"
-    },
-    {
-      "source": "/tech",
       "target": "/nlp"
     },
     {
@@ -5197,7 +5266,7 @@
     },
     {
       "source": "/tech",
-      "target": "/domain-driven-design"
+      "target": "/machine-learning"
     },
     {
       "source": "/tech",
@@ -5209,6 +5278,10 @@
     },
     {
       "source": "/tech",
+      "target": "/domain-driven-design"
+    },
+    {
+      "source": "/tech",
       "target": "/core-concepts"
     },
     {
@@ -5217,7 +5290,7 @@
     },
     {
       "source": "/tech",
-      "target": "/machine-learning"
+      "target": "/networks"
     },
     {
       "source": "/tech",
@@ -5230,10 +5303,6 @@
     {
       "source": "/tech",
       "target": "/code-review"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/a-good-life"
     },
     {
       "source": "/philosophy",
@@ -5270,6 +5339,10 @@
     {
       "source": "/philosophy",
       "target": "/epicurus"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/eudaimonia"
     },
     {
       "source": "/philosophy",
@@ -5314,10 +5387,6 @@
     {
       "source": "/philosophy",
       "target": "/look-below-the-surface"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/love"
     },
     {
       "source": "/philosophy",
@@ -5390,6 +5459,18 @@
     {
       "source": "/poetry",
       "target": "/lightly-child"
+    },
+    {
+      "source": "/poetry",
+      "target": "/not-gentle"
+    },
+    {
+      "source": "/poetry",
+      "target": "/ozymandias"
+    },
+    {
+      "source": "/poetry",
+      "target": "/soft-rains"
     },
     {
       "source": "/poetry",
@@ -5498,6 +5579,682 @@
     {
       "source": "/health",
       "target": "/sleep"
+    },
+    {
+      "source": "/business",
+      "target": "/company-culture"
+    },
+    {
+      "source": "/business",
+      "target": "/hiring"
+    },
+    {
+      "source": "/business",
+      "target": "/how-to-start-a-business"
+    },
+    {
+      "source": "/business",
+      "target": "/marketing"
+    },
+    {
+      "source": "/business",
+      "target": "/sales"
+    },
+    {
+      "source": "/decisions",
+      "target": "/critical-thinking"
+    },
+    {
+      "source": "/decisions",
+      "target": "/do-one-thing-at-a-time-and-do-it-well"
+    },
+    {
+      "source": "/decisions",
+      "target": "/do-the-right-thing"
+    },
+    {
+      "source": "/decisions",
+      "target": "/do-without-doing"
+    },
+    {
+      "source": "/communication",
+      "target": "/how-to-pitch"
+    },
+    {
+      "source": "/communication",
+      "target": "/negotiations"
+    },
+    {
+      "source": "/communication",
+      "target": "/public-speaking"
+    },
+    {
+      "source": "/communication",
+      "target": "/write-better"
+    },
+    {
+      "source": "/psychology",
+      "target": "/gaslighting"
+    },
+    {
+      "source": "/psychology",
+      "target": "/habits"
+    },
+    {
+      "source": "/psychology",
+      "target": "/how-to-spot-a-liar"
+    },
+    {
+      "source": "/psychology",
+      "target": "/persuasion"
+    },
+    {
+      "source": "/psychology",
+      "target": "/procrastination"
+    },
+    {
+      "source": "/psychology",
+      "target": "/relationships"
+    },
+    {
+      "source": "/psychology",
+      "target": "/solitude"
+    },
+    {
+      "source": "/psychology",
+      "target": "/stages-of-grief"
+    },
+    {
+      "source": "/psychology",
+      "target": "/stress"
+    },
+    {
+      "source": "/psychology",
+      "target": "/cognitive-biases"
+    },
+    {
+      "source": "/psychology",
+      "target": "/emotions"
+    },
+    {
+      "source": "/psychology",
+      "target": "/work"
+    },
+    {
+      "source": "/politics",
+      "target": "/farming-trap"
+    },
+    {
+      "source": "/politics",
+      "target": "/history"
+    },
+    {
+      "source": "/politics",
+      "target": "/look-down-and-around"
+    },
+    {
+      "source": "/politics",
+      "target": "/nothing-to-lose"
+    },
+    {
+      "source": "/politics",
+      "target": "/prince"
+    },
+    {
+      "source": "/politics",
+      "target": "/questioning-people-seen-as-a-threat-to-status-quo"
+    },
+    {
+      "source": "/politics",
+      "target": "/the-triumph-of-stupidity"
+    },
+    {
+      "source": "/politics",
+      "target": "/war-is-a-racket"
+    },
+    {
+      "source": "/politics",
+      "target": "/warfare-is-deception"
+    },
+    {
+      "source": "/politics",
+      "target": "/who-goes-nazi"
+    },
+    {
+      "source": "/programming",
+      "target": "/compsci"
+    },
+    {
+      "source": "/programming",
+      "target": "/discussion-topics"
+    },
+    {
+      "source": "/programming",
+      "target": "/easy-vs-hard-in-cs"
+    },
+    {
+      "source": "/programming",
+      "target": "/encodings"
+    },
+    {
+      "source": "/programming",
+      "target": "/for-new-programmers"
+    },
+    {
+      "source": "/programming",
+      "target": "/the-tao-of-programming"
+    },
+    {
+      "source": "/programming",
+      "target": "/tools"
+    },
+    {
+      "source": "/programming",
+      "target": "/unicode"
+    },
+    {
+      "source": "/programming",
+      "target": "/algorithms"
+    },
+    {
+      "source": "/programming",
+      "target": "/code"
+    },
+    {
+      "source": "/programming",
+      "target": "/data-structures"
+    },
+    {
+      "source": "/programming",
+      "target": "/oop"
+    },
+    {
+      "source": "/programming",
+      "target": "/programming-languages"
+    },
+    {
+      "source": "/programming",
+      "target": "/projects"
+    },
+    {
+      "source": "/security",
+      "target": "/authentication"
+    },
+    {
+      "source": "/security",
+      "target": "/authorization"
+    },
+    {
+      "source": "/security",
+      "target": "/certificates"
+    },
+    {
+      "source": "/security",
+      "target": "/cookies"
+    },
+    {
+      "source": "/security",
+      "target": "/cors"
+    },
+    {
+      "source": "/security",
+      "target": "/csrf"
+    },
+    {
+      "source": "/security",
+      "target": "/openssl-encrypt"
+    },
+    {
+      "source": "/security",
+      "target": "/public-key-cryptography"
+    },
+    {
+      "source": "/security",
+      "target": "/security-heuristics"
+    },
+    {
+      "source": "/security",
+      "target": "/store-passwords"
+    },
+    {
+      "source": "/security",
+      "target": "/transport-layer-security"
+    },
+    {
+      "source": "/security",
+      "target": "/xss"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/armstrong-thesis"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/azure-pillars"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/consistent-hashing"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/detect-a-node-failure"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/distributed-design-patterns"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/generate-a-unique-id"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/google-sre-book"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/kafka"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/spark"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/time-and-order"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/use-an-identity-service"
+    },
+    {
+      "source": "/thoughts-on-tech",
+      "target": "/44-engineering-management-lessons"
+    },
+    {
+      "source": "/thoughts-on-tech",
+      "target": "/a-free-web-again"
+    },
+    {
+      "source": "/thoughts-on-tech",
+      "target": "/choose-boring-tech"
+    },
+    {
+      "source": "/thoughts-on-tech",
+      "target": "/hacker-laws"
+    },
+    {
+      "source": "/thoughts-on-tech",
+      "target": "/hijacked-minds"
+    },
+    {
+      "source": "/thoughts-on-tech",
+      "target": "/is-tech-fast-or-slow"
+    },
+    {
+      "source": "/thoughts-on-tech",
+      "target": "/minimal-tech"
+    },
+    {
+      "source": "/thoughts-on-tech",
+      "target": "/social-media"
+    },
+    {
+      "source": "/thoughts-on-tech",
+      "target": "/software-analogies"
+    },
+    {
+      "source": "/thoughts-on-tech",
+      "target": "/software-quality"
+    },
+    {
+      "source": "/databases",
+      "target": "/acid"
+    },
+    {
+      "source": "/databases",
+      "target": "/b-trees"
+    },
+    {
+      "source": "/databases",
+      "target": "/db-data-structures"
+    },
+    {
+      "source": "/databases",
+      "target": "/leaderless-replication"
+    },
+    {
+      "source": "/databases",
+      "target": "/lsm-trees"
+    },
+    {
+      "source": "/databases",
+      "target": "/partitioning"
+    },
+    {
+      "source": "/databases",
+      "target": "/replication"
+    },
+    {
+      "source": "/databases",
+      "target": "/single-leader"
+    },
+    {
+      "source": "/databases",
+      "target": "/sql-tips"
+    },
+    {
+      "source": "/ux",
+      "target": "/accessibility"
+    },
+    {
+      "source": "/ux",
+      "target": "/evolution-of-computer-interfaces"
+    },
+    {
+      "source": "/ux",
+      "target": "/natural-tech"
+    },
+    {
+      "source": "/ux",
+      "target": "/polished-pixels"
+    },
+    {
+      "source": "/ux",
+      "target": "/things-users-care"
+    },
+    {
+      "source": "/ux",
+      "target": "/usability-testing"
+    },
+    {
+      "source": "/prompt-engineering",
+      "target": "/base-prompt"
+    },
+    {
+      "source": "/prompt-engineering",
+      "target": "/customize-prompt"
+    },
+    {
+      "source": "/prompt-engineering",
+      "target": "/question-prompt"
+    },
+    {
+      "source": "/prompt-engineering",
+      "target": "/recap-prompt"
+    },
+    {
+      "source": "/prompt-engineering",
+      "target": "/summary-prompt"
+    },
+    {
+      "source": "/time",
+      "target": "/death"
+    },
+    {
+      "source": "/time",
+      "target": "/life-is-not-short"
+    },
+    {
+      "source": "/time",
+      "target": "/no-regrets-no-worries"
+    },
+    {
+      "source": "/time",
+      "target": "/slow-down-time"
+    },
+    {
+      "source": "/time",
+      "target": "/the-morning"
+    },
+    {
+      "source": "/time",
+      "target": "/the-past"
+    },
+    {
+      "source": "/work",
+      "target": "/career-advice"
+    },
+    {
+      "source": "/work",
+      "target": "/teamwork"
+    },
+    {
+      "source": "/work",
+      "target": "/what-to-work-on"
+    },
+    {
+      "source": "/work",
+      "target": "/you-are-not-nameless"
+    },
+    {
+      "source": "/tao-te-ching",
+      "target": "/hollow-power"
+    },
+    {
+      "source": "/tao-te-ching",
+      "target": "/insight-and-strength"
+    },
+    {
+      "source": "/tao-te-ching",
+      "target": "/life-is-soft"
+    },
+    {
+      "source": "/tao-te-ching",
+      "target": "/misery-under-happiness"
+    },
+    {
+      "source": "/tao-te-ching",
+      "target": "/monstrous-ingenuity"
+    },
+    {
+      "source": "/tao-te-ching",
+      "target": "/not-being"
+    },
+    {
+      "source": "/tao-te-ching",
+      "target": "/not-far-away"
+    },
+    {
+      "source": "/tao-te-ching",
+      "target": "/the-great-leader"
+    },
+    {
+      "source": "/tao-te-ching",
+      "target": "/uncut-wood"
+    },
+    {
+      "source": "/tao-te-ching",
+      "target": "/wei-wu-wei"
+    },
+    {
+      "source": "/tao-te-ching",
+      "target": "/wind-and-rain"
+    },
+    {
+      "source": "/cestina",
+      "target": "/adjektiva"
+    },
+    {
+      "source": "/cestina",
+      "target": "/cas"
+    },
+    {
+      "source": "/cestina",
+      "target": "/cisla"
+    },
+    {
+      "source": "/cestina",
+      "target": "/domov"
+    },
+    {
+      "source": "/cestina",
+      "target": "/fraze"
+    },
+    {
+      "source": "/cestina",
+      "target": "/koníčky"
+    },
+    {
+      "source": "/cestina",
+      "target": "/podobna-slova"
+    },
+    {
+      "source": "/cestina",
+      "target": "/predlozky"
+    },
+    {
+      "source": "/cestina",
+      "target": "/slovesa"
+    },
+    {
+      "source": "/cognitive-biases",
+      "target": "/bias-for-unhappiness"
+    },
+    {
+      "source": "/cognitive-biases",
+      "target": "/complain-vs-appreciate"
+    },
+    {
+      "source": "/cognitive-biases",
+      "target": "/overvaluing-short-term"
+    },
+    {
+      "source": "/cognitive-biases",
+      "target": "/people-see-what-they-want"
+    },
+    {
+      "source": "/emotions",
+      "target": "/anger"
+    },
+    {
+      "source": "/emotions",
+      "target": "/anxiety"
+    },
+    {
+      "source": "/emotions",
+      "target": "/arrogance"
+    },
+    {
+      "source": "/emotions",
+      "target": "/courage"
+    },
+    {
+      "source": "/emotions",
+      "target": "/ego"
+    },
+    {
+      "source": "/emotions",
+      "target": "/empathy"
+    },
+    {
+      "source": "/emotions",
+      "target": "/hope"
+    },
+    {
+      "source": "/emotions",
+      "target": "/loneliness"
+    },
+    {
+      "source": "/emotions",
+      "target": "/love"
+    },
+    {
+      "source": "/emotions",
+      "target": "/respect"
+    },
+    {
+      "source": "/emotions",
+      "target": "/trust"
+    },
+    {
+      "source": "/emotions",
+      "target": "/unmet-needs"
+    },
+    {
+      "source": "/emotions",
+      "target": "/vulnerability"
+    },
+    {
+      "source": "/work",
+      "target": "/distractions"
+    },
+    {
+      "source": "/work",
+      "target": "/flow"
+    },
+    {
+      "source": "/work",
+      "target": "/how-to-start"
+    },
+    {
+      "source": "/work",
+      "target": "/overcoming-obstacles"
+    },
+    {
+      "source": "/work",
+      "target": "/praise-and-motivation"
+    },
+    {
+      "source": "/work",
+      "target": "/setting-rules"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/approximation"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/backtrack"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/bit"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/easy"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/greedy"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/hard"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/leet"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/local-maximum"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/mid"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/parallel-programming"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/rabin-karp"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/sort"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/tree-balancing"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/vector-search"
     },
     {
       "source": "/code",
@@ -5732,6 +6489,66 @@
       "target": "/word-break"
     },
     {
+      "source": "/data-structures",
+      "target": "/array"
+    },
+    {
+      "source": "/data-structures",
+      "target": "/bloom-filters"
+    },
+    {
+      "source": "/data-structures",
+      "target": "/graph"
+    },
+    {
+      "source": "/data-structures",
+      "target": "/hash-table"
+    },
+    {
+      "source": "/data-structures",
+      "target": "/heap"
+    },
+    {
+      "source": "/data-structures",
+      "target": "/hyperloglog"
+    },
+    {
+      "source": "/data-structures",
+      "target": "/linked-list"
+    },
+    {
+      "source": "/data-structures",
+      "target": "/pointers"
+    },
+    {
+      "source": "/data-structures",
+      "target": "/queue"
+    },
+    {
+      "source": "/data-structures",
+      "target": "/skiplists"
+    },
+    {
+      "source": "/data-structures",
+      "target": "/stack"
+    },
+    {
+      "source": "/data-structures",
+      "target": "/string"
+    },
+    {
+      "source": "/oop",
+      "target": "/design-patterns"
+    },
+    {
+      "source": "/oop",
+      "target": "/solid"
+    },
+    {
+      "source": "/oop",
+      "target": "/oop-designs"
+    },
+    {
       "source": "/programming-languages",
       "target": "/c"
     },
@@ -5848,594 +6665,6 @@
       "target": "/vga-driver"
     },
     {
-      "source": "/algorithms",
-      "target": "/approximation"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/backtrack"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/bit"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/easy"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/greedy"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/hard"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/leet"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/local-maximum"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/mid"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/parallel-programming"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/rabin-karp"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/sort"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/vector-search"
-    },
-    {
-      "source": "/data-structures",
-      "target": "/array"
-    },
-    {
-      "source": "/data-structures",
-      "target": "/graph"
-    },
-    {
-      "source": "/data-structures",
-      "target": "/hash-table"
-    },
-    {
-      "source": "/data-structures",
-      "target": "/heap"
-    },
-    {
-      "source": "/data-structures",
-      "target": "/hyperloglog"
-    },
-    {
-      "source": "/data-structures",
-      "target": "/linked-list"
-    },
-    {
-      "source": "/data-structures",
-      "target": "/pointers"
-    },
-    {
-      "source": "/data-structures",
-      "target": "/queue"
-    },
-    {
-      "source": "/data-structures",
-      "target": "/stack"
-    },
-    {
-      "source": "/data-structures",
-      "target": "/string"
-    },
-    {
-      "source": "/oop",
-      "target": "/design-patterns"
-    },
-    {
-      "source": "/oop",
-      "target": "/solid"
-    },
-    {
-      "source": "/oop",
-      "target": "/oop-designs"
-    },
-    {
-      "source": "/business",
-      "target": "/company-culture"
-    },
-    {
-      "source": "/business",
-      "target": "/hiring"
-    },
-    {
-      "source": "/business",
-      "target": "/how-to-start-a-business"
-    },
-    {
-      "source": "/business",
-      "target": "/marketing"
-    },
-    {
-      "source": "/business",
-      "target": "/sales"
-    },
-    {
-      "source": "/decisions",
-      "target": "/critical-thinking"
-    },
-    {
-      "source": "/decisions",
-      "target": "/do-one-thing-at-a-time-and-do-it-well"
-    },
-    {
-      "source": "/decisions",
-      "target": "/do-the-right-thing"
-    },
-    {
-      "source": "/decisions",
-      "target": "/do-without-doing"
-    },
-    {
-      "source": "/communication",
-      "target": "/how-to-pitch"
-    },
-    {
-      "source": "/communication",
-      "target": "/negotiations"
-    },
-    {
-      "source": "/communication",
-      "target": "/public-speaking"
-    },
-    {
-      "source": "/communication",
-      "target": "/write-better"
-    },
-    {
-      "source": "/psychology",
-      "target": "/gaslighting"
-    },
-    {
-      "source": "/psychology",
-      "target": "/habits"
-    },
-    {
-      "source": "/psychology",
-      "target": "/how-to-spot-a-liar"
-    },
-    {
-      "source": "/psychology",
-      "target": "/persuasion"
-    },
-    {
-      "source": "/psychology",
-      "target": "/procrastination"
-    },
-    {
-      "source": "/psychology",
-      "target": "/relationships"
-    },
-    {
-      "source": "/psychology",
-      "target": "/solitude"
-    },
-    {
-      "source": "/psychology",
-      "target": "/stages-of-grief"
-    },
-    {
-      "source": "/psychology",
-      "target": "/stress"
-    },
-    {
-      "source": "/psychology",
-      "target": "/cognitive-biases"
-    },
-    {
-      "source": "/psychology",
-      "target": "/emotions"
-    },
-    {
-      "source": "/psychology",
-      "target": "/work"
-    },
-    {
-      "source": "/politics",
-      "target": "/criminal-justice"
-    },
-    {
-      "source": "/politics",
-      "target": "/farming-trap"
-    },
-    {
-      "source": "/politics",
-      "target": "/history"
-    },
-    {
-      "source": "/politics",
-      "target": "/look-down-and-around"
-    },
-    {
-      "source": "/politics",
-      "target": "/nothing-to-lose"
-    },
-    {
-      "source": "/politics",
-      "target": "/prince"
-    },
-    {
-      "source": "/politics",
-      "target": "/questioning-people-seen-as-a-threat-to-status-quo"
-    },
-    {
-      "source": "/politics",
-      "target": "/the-triumph-of-stupidity"
-    },
-    {
-      "source": "/politics",
-      "target": "/war-is-a-racket"
-    },
-    {
-      "source": "/politics",
-      "target": "/warfare-is-deception"
-    },
-    {
-      "source": "/politics",
-      "target": "/who-goes-nazi"
-    },
-    {
-      "source": "/security",
-      "target": "/authentication"
-    },
-    {
-      "source": "/security",
-      "target": "/authorization"
-    },
-    {
-      "source": "/security",
-      "target": "/certificates"
-    },
-    {
-      "source": "/security",
-      "target": "/cookies"
-    },
-    {
-      "source": "/security",
-      "target": "/cors"
-    },
-    {
-      "source": "/security",
-      "target": "/csrf"
-    },
-    {
-      "source": "/security",
-      "target": "/openssl-encrypt"
-    },
-    {
-      "source": "/security",
-      "target": "/public-key-cryptography"
-    },
-    {
-      "source": "/security",
-      "target": "/security-heuristics"
-    },
-    {
-      "source": "/security",
-      "target": "/store-passwords"
-    },
-    {
-      "source": "/security",
-      "target": "/transport-layer-security"
-    },
-    {
-      "source": "/security",
-      "target": "/xss"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/armstrong-thesis"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/azure-pillars"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/consistent-hashing"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/detect-a-node-failure"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/distributed-design-patterns"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/generate-a-unique-id"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/google-sre-book"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/kafka"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/spark"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/time-and-order"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/use-an-identity-service"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/44-engineering-management-lessons"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/a-free-web-again"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/choose-boring-tech"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/hacker-laws"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/hijacked-minds"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/is-tech-fast-or-slow"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/minimal-tech"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/social-media"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/software-analogies"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/software-quality"
-    },
-    {
-      "source": "/databases",
-      "target": "/acid"
-    },
-    {
-      "source": "/databases",
-      "target": "/b-trees"
-    },
-    {
-      "source": "/databases",
-      "target": "/db-data-structures"
-    },
-    {
-      "source": "/databases",
-      "target": "/leaderless-replication"
-    },
-    {
-      "source": "/databases",
-      "target": "/lsm-trees"
-    },
-    {
-      "source": "/databases",
-      "target": "/partitioning"
-    },
-    {
-      "source": "/databases",
-      "target": "/replication"
-    },
-    {
-      "source": "/databases",
-      "target": "/single-leader"
-    },
-    {
-      "source": "/databases",
-      "target": "/sql-tips"
-    },
-    {
-      "source": "/ux",
-      "target": "/accessibility"
-    },
-    {
-      "source": "/ux",
-      "target": "/evolution-of-computer-interfaces"
-    },
-    {
-      "source": "/ux",
-      "target": "/natural-tech"
-    },
-    {
-      "source": "/ux",
-      "target": "/polished-pixels"
-    },
-    {
-      "source": "/ux",
-      "target": "/things-users-care"
-    },
-    {
-      "source": "/ux",
-      "target": "/usability-testing"
-    },
-    {
-      "source": "/prompt-engineering",
-      "target": "/base-prompt"
-    },
-    {
-      "source": "/prompt-engineering",
-      "target": "/question-prompt"
-    },
-    {
-      "source": "/prompt-engineering",
-      "target": "/recap-prompt"
-    },
-    {
-      "source": "/prompt-engineering",
-      "target": "/summary-prompt"
-    },
-    {
-      "source": "/time",
-      "target": "/death"
-    },
-    {
-      "source": "/time",
-      "target": "/life-is-not-short"
-    },
-    {
-      "source": "/time",
-      "target": "/no-regrets-no-worries"
-    },
-    {
-      "source": "/time",
-      "target": "/slow-down-time"
-    },
-    {
-      "source": "/time",
-      "target": "/the-morning"
-    },
-    {
-      "source": "/time",
-      "target": "/the-past"
-    },
-    {
-      "source": "/work",
-      "target": "/career-advice"
-    },
-    {
-      "source": "/work",
-      "target": "/teamwork"
-    },
-    {
-      "source": "/work",
-      "target": "/what-to-work-on"
-    },
-    {
-      "source": "/work",
-      "target": "/you-are-not-nameless"
-    },
-    {
-      "source": "/tao-te-ching",
-      "target": "/hollow-power"
-    },
-    {
-      "source": "/tao-te-ching",
-      "target": "/insight-and-strength"
-    },
-    {
-      "source": "/tao-te-ching",
-      "target": "/life-is-soft"
-    },
-    {
-      "source": "/tao-te-ching",
-      "target": "/misery-under-happiness"
-    },
-    {
-      "source": "/tao-te-ching",
-      "target": "/monstrous-ingenuity"
-    },
-    {
-      "source": "/tao-te-ching",
-      "target": "/not-being"
-    },
-    {
-      "source": "/tao-te-ching",
-      "target": "/not-far-away"
-    },
-    {
-      "source": "/tao-te-ching",
-      "target": "/the-great-leader"
-    },
-    {
-      "source": "/tao-te-ching",
-      "target": "/uncut-wood"
-    },
-    {
-      "source": "/tao-te-ching",
-      "target": "/wei-wu-wei"
-    },
-    {
-      "source": "/tao-te-ching",
-      "target": "/wind-and-rain"
-    },
-    {
-      "source": "/cestina",
-      "target": "/adjektiva"
-    },
-    {
-      "source": "/cestina",
-      "target": "/cas"
-    },
-    {
-      "source": "/cestina",
-      "target": "/cisla"
-    },
-    {
-      "source": "/cestina",
-      "target": "/domov"
-    },
-    {
-      "source": "/cestina",
-      "target": "/fraze"
-    },
-    {
-      "source": "/cestina",
-      "target": "/koníčky"
-    },
-    {
-      "source": "/cestina",
-      "target": "/podobna-slova"
-    },
-    {
-      "source": "/cestina",
-      "target": "/predlozky"
-    },
-    {
-      "source": "/cestina",
-      "target": "/slovesa"
-    },
-    {
-      "source": "/python",
-      "target": "/python-data-structures"
-    },
-    {
-      "source": "/python",
-      "target": "/python-packages"
-    },
-    {
-      "source": "/python",
-      "target": "/zen-of-python"
-    },
-    {
       "source": "/oop-designs",
       "target": "/block"
     },
@@ -6488,92 +6717,16 @@
       "target": "/design-video-streaming-app"
     },
     {
-      "source": "/cognitive-biases",
-      "target": "/bias-for-unhappiness"
+      "source": "/python",
+      "target": "/python-data-structures"
     },
     {
-      "source": "/cognitive-biases",
-      "target": "/complain-vs-appreciate"
+      "source": "/python",
+      "target": "/python-packages"
     },
     {
-      "source": "/cognitive-biases",
-      "target": "/overvaluing-short-term"
-    },
-    {
-      "source": "/cognitive-biases",
-      "target": "/people-see-what-they-want"
-    },
-    {
-      "source": "/emotions",
-      "target": "/anger"
-    },
-    {
-      "source": "/emotions",
-      "target": "/anxiety"
-    },
-    {
-      "source": "/emotions",
-      "target": "/arrogance"
-    },
-    {
-      "source": "/emotions",
-      "target": "/courage"
-    },
-    {
-      "source": "/emotions",
-      "target": "/ego"
-    },
-    {
-      "source": "/emotions",
-      "target": "/empathy"
-    },
-    {
-      "source": "/emotions",
-      "target": "/hope"
-    },
-    {
-      "source": "/emotions",
-      "target": "/loneliness"
-    },
-    {
-      "source": "/emotions",
-      "target": "/respect"
-    },
-    {
-      "source": "/emotions",
-      "target": "/trust"
-    },
-    {
-      "source": "/emotions",
-      "target": "/unmet-needs"
-    },
-    {
-      "source": "/emotions",
-      "target": "/vulnerability"
-    },
-    {
-      "source": "/work",
-      "target": "/distractions"
-    },
-    {
-      "source": "/work",
-      "target": "/flow"
-    },
-    {
-      "source": "/work",
-      "target": "/how-to-start"
-    },
-    {
-      "source": "/work",
-      "target": "/overcoming-obstacles"
-    },
-    {
-      "source": "/work",
-      "target": "/praise-and-motivation"
-    },
-    {
-      "source": "/work",
-      "target": "/setting-rules"
+      "source": "/python",
+      "target": "/zen-of-python"
     },
     {
       "source": "/cinema",
@@ -6664,16 +6817,20 @@
       "target": "/warfare-is-deception"
     },
     {
-      "source": "/all-is-one",
-      "target": "/good-and-evil"
-    },
-    {
       "source": "/be-good-to-each-other-and-yourself",
       "target": "/work"
     },
     {
+      "source": "/character",
+      "target": "/eudaimonia"
+    },
+    {
       "source": "/choice",
       "target": "/decisions"
+    },
+    {
+      "source": "/choice",
+      "target": "/eudaimonia"
     },
     {
       "source": "/free-will",
@@ -6690,10 +6847,6 @@
     {
       "source": "/freedom",
       "target": "/success-and-failure"
-    },
-    {
-      "source": "/good-and-evil",
-      "target": "/criminal-justice"
     },
     {
       "source": "/know-where-to-stop",
@@ -6729,15 +6882,11 @@
     },
     {
       "source": "/philosophy",
-      "target": "/how-to-grow-old-russell"
+      "target": "/how-to-grow-old-russell-selim"
     },
     {
       "source": "/philosophy",
       "target": "/in-praise-of-idleness"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/criminal-justice"
     },
     {
       "source": "/philosophy",
@@ -6757,15 +6906,27 @@
     },
     {
       "source": "/take-a-walk",
+      "target": "/get-things-done-selim"
+    },
+    {
+      "source": "/take-a-walk",
       "target": "/problem-solving"
+    },
+    {
+      "source": "/take-a-walk",
+      "target": "/problem-solving-selim"
     },
     {
       "source": "/the-morning",
       "target": "/get-things-done"
     },
     {
+      "source": "/the-morning",
+      "target": "/get-things-done-selim"
+    },
+    {
       "source": "/the-past",
-      "target": "/a-good-life"
+      "target": "/eudaimonia"
     },
     {
       "source": "/truth",
@@ -6782,6 +6943,10 @@
     {
       "source": "/what-to-work-on",
       "target": "/get-things-done"
+    },
+    {
+      "source": "/what-to-work-on",
+      "target": "/get-things-done-selim"
     },
     {
       "source": "/what-to-work-on",
@@ -6813,7 +6978,19 @@
     },
     {
       "source": "/essais",
-      "target": "/how-to-grow-old-russell"
+      "target": "/get-things-done"
+    },
+    {
+      "source": "/essais",
+      "target": "/how-to-grow-old-russell-selim"
+    },
+    {
+      "source": "/essais",
+      "target": "/mastery"
+    },
+    {
+      "source": "/essais",
+      "target": "/problem-solving"
     },
     {
       "source": "/essais",
@@ -6876,16 +7053,228 @@
       "target": "/systems"
     },
     {
+      "source": "/business",
+      "target": "/wasted-talent"
+    },
+    {
+      "source": "/hiring",
+      "target": "/how-to-start-a-business"
+    },
+    {
+      "source": "/how-to-start-a-business",
+      "target": "/how-to-gain-wealth"
+    },
+    {
+      "source": "/negotiations",
+      "target": "/persuasion"
+    },
+    {
+      "source": "/critical-thinking",
+      "target": "/decisions"
+    },
+    {
+      "source": "/critical-thinking",
+      "target": "/problem-solving"
+    },
+    {
+      "source": "/critical-thinking",
+      "target": "/problem-solving-selim"
+    },
+    {
+      "source": "/decisions",
+      "target": "/choice"
+    },
+    {
+      "source": "/decisions",
+      "target": "/get-things-done-selim"
+    },
+    {
+      "source": "/do-one-thing-at-a-time-and-do-it-well",
+      "target": "/get-things-done"
+    },
+    {
+      "source": "/do-one-thing-at-a-time-and-do-it-well",
+      "target": "/get-things-done-selim"
+    },
+    {
+      "source": "/do-the-right-thing",
+      "target": "/politics"
+    },
+    {
+      "source": "/driving",
+      "target": "/used-car-checklist"
+    },
+    {
+      "source": "/humor",
+      "target": "/the-tao-of-programming"
+    },
+    {
+      "source": "/leadership",
+      "target": "/44-engineering-management-lessons"
+    },
+    {
+      "source": "/leadership",
+      "target": "/overvaluing-short-term"
+    },
+    {
+      "source": "/leadership",
+      "target": "/praise-and-motivation"
+    },
+    {
+      "source": "/leadership",
+      "target": "/setting-rules"
+    },
+    {
+      "source": "/skills",
+      "target": "/critical-thinking"
+    },
+    {
+      "source": "/skills",
+      "target": "/eudaimonia"
+    },
+    {
+      "source": "/skills",
+      "target": "/how-to-start"
+    },
+    {
+      "source": "/skills",
+      "target": "/programming"
+    },
+    {
+      "source": "/economics",
+      "target": "/wage-theft"
+    },
+    {
+      "source": "/history",
+      "target": "/farming-trap"
+    },
+    {
+      "source": "/history",
+      "target": "/history-of-technology"
+    },
+    {
+      "source": "/history",
+      "target": "/since-big-bang"
+    },
+    {
+      "source": "/politics",
+      "target": "/tao-te-ching"
+    },
+    {
+      "source": "/bias-for-unhappiness",
+      "target": "/cognitive-biases"
+    },
+    {
+      "source": "/psychology",
+      "target": "/happiness"
+    },
+    {
+      "source": "/psychology",
+      "target": "/inertia"
+    },
+    {
+      "source": "/psychology",
+      "target": "/children"
+    },
+    {
+      "source": "/psychology",
+      "target": "/questioning-people-seen-as-a-threat-to-status-quo"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/cognitive-biases"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/freedom"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/happiness"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/how-to-start"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/learning"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/questioning-people-seen-as-a-threat-to-status-quo"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/solitude"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/stupidity"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/hijacked-minds"
+    },
+    {
+      "source": "/systems",
+      "target": "/chaos"
+    },
+    {
+      "source": "/systems",
+      "target": "/system-design"
+    },
+    {
+      "source": "/concurrency",
+      "target": "/armstrong-thesis"
+    },
+    {
+      "source": "/concurrency",
+      "target": "/producer-consumer-problem"
+    },
+    {
+      "source": "/b-trees",
+      "target": "/db-data-structures"
+    },
+    {
+      "source": "/b-trees",
+      "target": "/tree-balancing"
+    },
+    {
+      "source": "/leaderless-replication",
+      "target": "/replication"
+    },
+    {
+      "source": "/partitioning",
+      "target": "/replication"
+    },
+    {
+      "source": "/machine-learning",
+      "target": "/pca"
+    },
+    {
+      "source": "/machine-learning",
+      "target": "/pneumonia-detection"
+    },
+    {
+      "source": "/machine-learning",
+      "target": "/predict-movie-genres"
+    },
+    {
+      "source": "/operating-systems",
+      "target": "/containers"
+    },
+    {
       "source": "/algorithms",
       "target": "/bayes"
     },
     {
       "source": "/algorithms",
-      "target": "/data-structures"
+      "target": "/lsm-trees"
     },
     {
       "source": "/algorithms",
-      "target": "/lsm-trees"
+      "target": "/data-structures"
     },
     {
       "source": "/easy",
@@ -6934,10 +7323,6 @@
     {
       "source": "/hard",
       "target": "/least-num-of-perfect-squares"
-    },
-    {
-      "source": "/local-maximum",
-      "target": "/overvaluing-short-term"
     },
     {
       "source": "/mid",
@@ -7316,214 +7701,6 @@
       "target": "/pascal-interpreter"
     },
     {
-      "source": "/zen-of-python",
-      "target": "/write-better"
-    },
-    {
-      "source": "/business",
-      "target": "/wasted-talent"
-    },
-    {
-      "source": "/hiring",
-      "target": "/how-to-start-a-business"
-    },
-    {
-      "source": "/how-to-start-a-business",
-      "target": "/how-to-gain-wealth"
-    },
-    {
-      "source": "/negotiations",
-      "target": "/persuasion"
-    },
-    {
-      "source": "/critical-thinking",
-      "target": "/decisions"
-    },
-    {
-      "source": "/critical-thinking",
-      "target": "/problem-solving"
-    },
-    {
-      "source": "/decisions",
-      "target": "/choice"
-    },
-    {
-      "source": "/decisions",
-      "target": "/get-things-done"
-    },
-    {
-      "source": "/do-one-thing-at-a-time-and-do-it-well",
-      "target": "/get-things-done"
-    },
-    {
-      "source": "/do-the-right-thing",
-      "target": "/politics"
-    },
-    {
-      "source": "/driving",
-      "target": "/used-car-checklist"
-    },
-    {
-      "source": "/humor",
-      "target": "/the-tao-of-programming"
-    },
-    {
-      "source": "/leadership",
-      "target": "/44-engineering-management-lessons"
-    },
-    {
-      "source": "/leadership",
-      "target": "/overvaluing-short-term"
-    },
-    {
-      "source": "/leadership",
-      "target": "/praise-and-motivation"
-    },
-    {
-      "source": "/leadership",
-      "target": "/setting-rules"
-    },
-    {
-      "source": "/skills",
-      "target": "/critical-thinking"
-    },
-    {
-      "source": "/skills",
-      "target": "/a-good-life"
-    },
-    {
-      "source": "/skills",
-      "target": "/programming"
-    },
-    {
-      "source": "/skills",
-      "target": "/how-to-start"
-    },
-    {
-      "source": "/economics",
-      "target": "/wage-theft"
-    },
-    {
-      "source": "/history",
-      "target": "/farming-trap"
-    },
-    {
-      "source": "/history",
-      "target": "/history-of-technology"
-    },
-    {
-      "source": "/history",
-      "target": "/since-big-bang"
-    },
-    {
-      "source": "/politics",
-      "target": "/tao-te-ching"
-    },
-    {
-      "source": "/bias-for-unhappiness",
-      "target": "/cognitive-biases"
-    },
-    {
-      "source": "/psychology",
-      "target": "/criminal-justice"
-    },
-    {
-      "source": "/psychology",
-      "target": "/happiness"
-    },
-    {
-      "source": "/psychology",
-      "target": "/inertia"
-    },
-    {
-      "source": "/psychology",
-      "target": "/children"
-    },
-    {
-      "source": "/psychology",
-      "target": "/questioning-people-seen-as-a-threat-to-status-quo"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/cognitive-biases"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/freedom"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/happiness"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/how-to-start"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/learning"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/questioning-people-seen-as-a-threat-to-status-quo"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/solitude"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/stupidity"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/hijacked-minds"
-    },
-    {
-      "source": "/systems",
-      "target": "/chaos"
-    },
-    {
-      "source": "/systems",
-      "target": "/system-design"
-    },
-    {
-      "source": "/concurrency",
-      "target": "/armstrong-thesis"
-    },
-    {
-      "source": "/concurrency",
-      "target": "/producer-consumer-problem"
-    },
-    {
-      "source": "/b-trees",
-      "target": "/db-data-structures"
-    },
-    {
-      "source": "/leaderless-replication",
-      "target": "/replication"
-    },
-    {
-      "source": "/partitioning",
-      "target": "/replication"
-    },
-    {
-      "source": "/machine-learning",
-      "target": "/pneumonia-detection"
-    },
-    {
-      "source": "/machine-learning",
-      "target": "/predict-movie-genres"
-    },
-    {
-      "source": "/machine-learning",
-      "target": "/pca"
-    },
-    {
-      "source": "/operating-systems",
-      "target": "/containers"
-    },
-    {
       "source": "/software-engineering",
       "target": "/programming"
     },
@@ -7562,10 +7739,6 @@
     {
       "source": "/tech",
       "target": "/history-of-technology"
-    },
-    {
-      "source": "/tech",
-      "target": "/programming"
     },
     {
       "source": "/tech",

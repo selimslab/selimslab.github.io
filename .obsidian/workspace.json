@@ -4,16 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "825c8ca3a4e01dfd",
+        "id": "d8bb6be6f0f412c2",
         "type": "tabs",
         "children": [
           {
-            "id": "92a2389c69f774be",
+            "id": "fcdbafdc410d848f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_TODO.md",
+                "file": "_NOTES/tech/prompt-engineering/summary-prompt.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "98177b0d5a921d83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_TODO.md",
+                "file": "_NOTES/tech/prompt-engineering/summary-prompt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_TODO.md",
+                "file": "_NOTES/tech/prompt-engineering/summary-prompt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_TODO.md"
+                "file": "_NOTES/tech/prompt-engineering/summary-prompt.md"
               }
             }
           }
@@ -158,54 +171,54 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "92a2389c69f774be",
+  "active": "fcdbafdc410d848f",
   "lastOpenFiles": [
-    "_NOTES/tech/programming/data-structures/bloom-filters.md",
-    "_NOTES/tech/programming/data-structures/hyperloglog.md",
-    "_NOTES/tech/programming/data-structures/skiplists.md",
-    "_NOTES/tech/programming/data-structures/data-structures.md",
+    "_site/customize-prompt/index.html",
+    "_site/customize-prompt",
+    "_site/skiplists/index.html",
+    "_site/skiplists",
+    "_site/bloom-filters/index.html",
+    "_site/bloom-filters",
+    "_site/tree-balancing/index.html",
+    "_site/tree-balancing",
+    "_site/skills-selim/index.html",
+    "_site/skills-selim",
+    "_site/problem-solving-selim/index.html",
+    "_site/assets/static/img/learning-pit.png",
+    "_site/assets/static/abstract-sunrise-sky-and-ocean-nature-background-irina-moskalev.jpg",
+    "_site/Untitled.md",
+    "_NOTES/skills/get-things-done-selim.md",
+    "_NOTES/skills/how-to-grow-old-russell-selim.md",
+    "_NOTES/skills/problem-solving-selim.md",
+    "_NOTES/skills/mastery-selim.md",
+    "_NOTES/skills/skills-selim.md",
+    "_NOTES/tech/prompt-engineering/customize-prompt.md",
+    "_NOTES/tech/prompt-engineering/recap-prompt.md",
+    "_NOTES/tech/prompt-engineering/summary-prompt.md",
+    "Untitled.md",
+    "_NOTES/tech/prompt-engineering/question-prompt.md",
+    "_NOTES/tech/prompt-engineering/prompt-engineering.md",
+    "_NOTES/arts/poetry/soft-rains.md",
+    "assets/static/abstract-sunrise-sky-and-ocean-nature-background-irina-moskalev.jpg",
+    "_NOTES/arts/poetry/haikus.md",
+    "_NOTES/arts/poetry/poetry.md",
+    "_NOTES/arts/poetry/ozymandias.md",
+    "_NOTES/arts/poetry/not-gentle.md",
+    "_NOTES/arts/poetry/if.md",
+    "_NOTES/tech/programming/algorithms/tree-balancing.md",
     "_x.md",
+    "_NOTES/lists/reading-list.md",
+    "_NOTES/tech/programming/programming-languages/csharp.md",
+    "_NOTES/tech/prompt-engineering/base-prompt.md",
+    "_be.md.md",
+    "_NOTES/tech/programming/data-structures/skiplists.md",
+    "Pasted image 20240724131223.png",
     "Pasted image 20240724120827.png",
     "assets/static/img/learning-pit.png",
-    "_misc/tax.md",
-    "_misc/interviews.md",
-    "_misc/connect.md",
-    "_misc/autofill.md",
-    "_misc",
-    "_TODO.md",
-    "_NOTES/skills/learning.md",
-    "_NOTES/_x.md",
-    "_NOTES/_TODO.md",
-    "_NOTES/arts/philosophy/eudaimonia.md",
-    "_NOTES/arts/philosophy/choice.md",
-    "_NOTES/arts/philosophy/character.md",
-    "_NOTES/arts/philosophy/good-and-evil.md",
-    "_NOTES/arts/philosophy/concepts-in-greek-thought.md",
-    "_NOTES/arts/philosophy/friends.md",
-    "_NOTES/arts/philosophy/happiness.md",
-    "_NOTES/arts/philosophy/freedom.md",
-    "_NOTES/arts/philosophy/free-will.md",
-    "_NOTES/arts/philosophy/experiences-vs-materials.md",
-    "_NOTES/arts/philosophy/epicurus.md",
-    "_NOTES/social-sciences/psychology/emotions/love.md",
-    "_NOTES/social-sciences/psychology/relationships.md",
-    "_NOTES/tech/programming/programming-languages/python",
-    "_NOTES/tech/programming/oop/oop-designs",
-    "_NOTES/tech/programming/projects",
-    "_NOTES/tech/programming/programming-languages",
-    "_NOTES/tech/programming/oop",
-    "_NOTES/tech/programming/algorithms",
-    "_NOTES/tech/programming/data-structures",
-    "_NOTES/tech/programming/code",
-    "_NOTES/tech/programming",
     "_site/assets/static/img/plain-pooh.jpg",
     "_site/assets/static/img/normal.png",
     "assets/static/img/std-sigma-rule.png",
     "assets/static/img/normal.png",
-    "assets/static/img/the-piston.gif",
-    "assets/static/img/plain-pooh.jpg",
-    "assets/static/img/user-testing-diminshing-returns-curve.gif",
-    "assets/static/img/fast-and-slow-thinking.jpeg",
     "Untitled.canvas"
   ]
 }

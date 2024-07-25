@@ -4,11 +4,15 @@ title: Skip Lists
 
 Searching sorted data is a common use case 
 
-A binary search tree would work well for static data. since it searches in logarithmic time but inserts in linear time 
+For static data, you could simply use binary search over an array 
 
-For dynamic data, one way is to keep a tree and balance the tree as you insert new elements. 
+For dynamic data, one way is to balance a tree as you insert new elements. 
 
-A simpler alternative is a skip list. It has multiple linked lists and it balances probabilistically 
+A simpler alternative is a skip list. It has multiple linked lists and it balances probabilistically. 
+
+A skip list uses log-linear memory while a tree uses linear. Both have logarithmic search and insert time. But the former is simpler to implement, better for concurrent operations due to this simplicity, better for caching due to its linear structure
+
+
 ### Example
 
 #### Data:
