@@ -68,7 +68,7 @@ class SiteGenerator < Jekyll::Generator
   end
 
   def generate_graph(site)
-    nodes, links, nodemap, group = [], [], {}, 0 
+    nodes, links, nodemap, group = [], [], {}, 0
     file_tree = { "/root": site.data["tree"] }
 
     process_file_tree(file_tree, nodes, links, nodemap, group)
@@ -151,6 +151,7 @@ class SiteGenerator < Jekyll::Generator
         puts "Fixed #{fixed} links in: #{file}"
       end
     end
+
   end
 
   def wikilinks_to_backlinks(doc, site)
