@@ -28,11 +28,9 @@ A digital space to create, collect, and share
 
 ## Metadata 
 
-{% include hub.html tag='meta' %}
-
 {% include stats.html  %}
 
-
+{% include hub.html tag='meta' %}
 
 ## Tap to shuffle   
 
