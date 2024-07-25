@@ -3,14 +3,18 @@ title: Problem Solving
 tags: essais skills
 ---
 
-0. Prevention is the best
-1. Don't panic
-2. Sanity check
-3. A problem well stated is a problem half-solved
-4. Start small
-5. Go see the source
-6. See examples
-7. Define the problem, goals, inputs, assumptions, and constraints
-8. Ask a lot of questions and refine the definitions
-9. Test hypotheses with systematic [[critical-thinking]]
-10. [[take-a-walk]]
+1. Prevention is the best
+2. Don't panic
+3. Sanity check
+4. A problem well stated is a problem half-solved
+5. Start small
+6. Go see the source
+7. See examples
+8. Define the problem, goals, inputs, assumptions, and constraints
+9. Ask a lot of questions and refine the definitions
+10. Test hypotheses with systematic [[critical-thinking]]
+11. [[take-a-walk]]
+
+[Tag: problem-solving - Sketchplanations](https://sketchplanations.com/tags/problem-solving)
+
+![](/assets/static/point-positive.jpg)
