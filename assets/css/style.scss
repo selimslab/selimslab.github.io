@@ -10,7 +10,8 @@ $black: #000;
 $darkBlue: #2398ff;
 $lightBlue: #62b5ff;
 $accent : #FF530D;
-$highlight : #ffc800;
+$highlight: #ffc800;
+$sunrise: #FAEAD4;
 
 // Font stacks
 $sansSerif: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -210,7 +211,7 @@ details {
 html[data-theme='light'] {
 
   body {
-    background: $lightBg;
+    background: linear-gradient(169deg,  $sunrise 0%, $lightBg 20%);
     color: $darkText;
   }
 
@@ -223,11 +224,11 @@ html[data-theme='light'] {
   }
 
   .top {
-    background: #FC9601;
+    background: $accent;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FC9601, #FFCC33);
+    background: -webkit-linear-gradient(to right, $accent, $sunrise);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FC9601, #FFCC33);
+    background: linear-gradient(to right, $accent, $sunrise);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
