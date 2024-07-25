@@ -1,4 +1,3 @@
-
 require 'json'
 require 'pp'
 
@@ -9,11 +8,8 @@ class SiteGenerator < Jekyll::Generator
   @fixed_frontmatter = false
 
   def generate(site)
-    unless @fixed_frontmatter
-      fix_frontmatter
-      @fixed_frontmatter = true
-      generate(site)
-    end
+    fix_frontmatter unless @fixed_frontmatter
+    @fixed_frontmatter = true
 
     initialize_backlinks(site)
     initialize_file_to_tag(site)
@@ -72,8 +68,22 @@ class SiteGenerator < Jekyll::Generator
   end
 
   def generate_graph(site)
-    nodes, links, nodemap, group = [], [], {}, 0
+    nodes, links, nodemap, group = [], [], {}, 0 
     file_tree = { "/root": site.data["tree"] }
+
+    process_file_tree(file_tree, nodes, links, nodemap, group)
+    process_backlink_tree(site, nodes, links, nodemap)
+
+    clean_up_links(links)
+    enrich_nodes(nodes, links, site)
+
+    graph_data = { "nodes": nodes, "links": links }
+    write_graph_data(graph_data)
+
+    graph_data
+  end
+
+  def process_file_tree(file_tree, nodes, links, nodemap, group)
     queue = [[file_tree, nil, group]]
 
     until queue.empty?
@@ -85,7 +95,9 @@ class SiteGenerator < Jekyll::Generator
         queue << [value, key, group_number + 1]
       end
     end
+  end
 
+  def process_backlink_tree(site, nodes, links, nodemap)
     backlink_tree = site.documents.each_with_object({}) do |doc, hash|
       hash[doc.id] = doc.data['backlinks'].map(&:id) if doc.data['backlinks'].any?
     end
@@ -95,11 +107,15 @@ class SiteGenerator < Jekyll::Generator
       nodes << nodemap[parent] unless nodes.include?(nodemap[parent])
       children.each { |child| links << { source: parent, target: child } }
     end
+  end
 
+  def clean_up_links(links)
     links.uniq!
     links.reject! { |e| e[:source] == e[:target] }
     links.uniq! { |e| [e[:source], e[:target]] }
+  end
 
+  def enrich_nodes(nodes, links, site)
     nodes.each do |node|
       file = remove_leading_slash(node[:id].to_s)
       node[:name] = site.data["file_to_title"][file] || file.capitalize
@@ -107,12 +123,10 @@ class SiteGenerator < Jekyll::Generator
                            .map { |e| e[:source] == node[:id] ? e[:target] : e[:source] }
       nodes.delete(node) if node[:links].empty?
     end
+  end
 
-    graph_data = { "nodes": nodes, "links": links }
-
+  def write_graph_data(graph_data)
     write_json("#{ASSETS_PATH}/graph.json", graph_data)
-
-    graph_data
   end
 
   def fix_frontmatter

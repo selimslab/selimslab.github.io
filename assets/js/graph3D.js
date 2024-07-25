@@ -14,6 +14,7 @@ function render3DGraph(){
     g(container)
       .graphData(gData)
       .nodeLabel("name")
+      .backgroundColor(darkBg)
       .linkColor(() => lightText)
       .linkWidth(() => 1)
       .nodeVal(node => node.links.length || 1) 
