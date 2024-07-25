@@ -36,7 +36,7 @@ A digital space to create, collect, and share
 
 ## Tap to shuffle   
 
-{% include random-artwork.html %}
+{% include random-art.html %}
 
 {% include random-idea.html %}
 
