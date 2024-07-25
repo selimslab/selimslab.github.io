@@ -10,18 +10,29 @@ fileNameToTitle = (fileName) => {
     .replace(firstLetter, (l) => l.toUpperCase());
 };
 
-shuffleArt = async () => {
-  let images = await fetch("/assets/data/art.json").then((response) =>
-    response.json()
-  );
+let cachedArt = null;
+
+const shuffleArt = async () => {
+  if (!cachedArt) {
+    try {
+      const response = await fetch("/assets/data/art.json", {
+        headers: {
+          'Content-Type': 'application/json',
+          'cache': "force-cache"
+        }
+      });
+      cachedArt = await response.json();
+    } catch (error) {
+      console.error("Error fetching art:", error);
+      return;
+    }
+  }
 
   let img = document.getElementById("artwork");
-  img.src = get_random_item(images);
+  img.src = get_random_item(cachedArt);
 
   let fileName = img.src.split("/").pop().split(".")[0];
   let alt = fileNameToTitle(fileName);
   img.alt = alt;
   document.getElementById("description").innerHTML = alt;
-
 };
-
