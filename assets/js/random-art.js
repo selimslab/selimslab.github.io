@@ -10,7 +10,7 @@ fileNameToTitle = (fileName) => {
     .replace(firstLetter, (l) => l.toUpperCase());
 };
 
-shuffle = async () => {
+shuffleArt = async () => {
   let images = await fetch("/assets/data/art.json").then((response) =>
     response.json()
   );
@@ -22,8 +22,6 @@ shuffle = async () => {
   let alt = fileNameToTitle(fileName);
   img.alt = alt;
   document.getElementById("description").innerHTML = alt;
-
-  get_random_idea()
 
 };
 
