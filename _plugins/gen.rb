@@ -1,7 +1,9 @@
+
 require 'json'
 require 'pp'
 
 NOTES_PATH = "./_NOTES"
+ASSETS_PATH = "./assets/data"
 
 class SiteGenerator < Jekyll::Generator
   @fixed_frontmatter = false
@@ -13,16 +15,34 @@ class SiteGenerator < Jekyll::Generator
       generate(site)
     end
 
-    site.documents.each { |doc| doc.data['backlinks'] ||= [] }
-
-    site.data["file_to_tag"] = site.data["tag_to_file"].invert
-
-    site.data["file_to_title"] = site.documents.map { |doc| [remove_leading_slash(doc.id), doc.data["title"]] }.to_h
-
+    initialize_backlinks(site)
+    initialize_file_to_tag(site)
+    initialize_file_to_title(site)
     generate_tree(site)
+    write_json("#{ASSETS_PATH}/tree.json", site.data["tree"])
 
-    write_json("./assets/data/tree.json", site.data["tree"])
+    process_documents(site)
 
+    graph = generate_graph(site)
+    site.data["link_count"] = calculate_link_count(site, graph)
+    site.data["ideas"] = load_ideas
+
+    write_tags_json(site)
+  end
+
+  def initialize_backlinks(site)
+    site.documents.each { |doc| doc.data['backlinks'] ||= [] }
+  end
+
+  def initialize_file_to_tag(site)
+    site.data["file_to_tag"] = site.data["tag_to_file"].invert
+  end
+
+  def initialize_file_to_title(site)
+    site.data["file_to_title"] = site.documents.map { |doc| [remove_leading_slash(doc.id), doc.data["title"]] }.to_h
+  end
+
+  def process_documents(site)
     site.documents.each do |doc|
       doc.data['tags'] = doc.data['tags'].uniq.sort
       wikilinks_to_backlinks(doc, site)
@@ -33,16 +53,18 @@ class SiteGenerator < Jekyll::Generator
     end
 
     site.documents.each { |doc| doc.data['backlinks'].uniq! }
+  end
 
-    graph = generate_graph(site)
+  def calculate_link_count(site, graph)
+    site.documents.sum { |doc| doc.content.scan(/<a/).length } + graph[:links].length
+  end
 
-    site.data["link_count"] = site.documents.sum { |doc| doc.content.scan(/<a/).length } + graph[:links].length
+  def load_ideas
+    JSON.parse(File.read("#{ASSETS_PATH}/ideas.json")).sort
+  end
 
-    site.data["ideas"] = JSON.parse(File.read("./assets/data/ideas.json")).sort
-
-    # write tags of each doc to a json file
-    write_json("./assets/data/tags.json", site.documents.map { |doc| [doc.id, doc.data["tags"]] }.to_h)
-
+  def write_tags_json(site)
+    write_json("#{ASSETS_PATH}/tags.json", site.documents.map { |doc| [doc.id, doc.data["tags"]] }.to_h)
   end
 
   def remove_leading_slash(str)
@@ -88,12 +110,10 @@ class SiteGenerator < Jekyll::Generator
 
     graph_data = { "nodes": nodes, "links": links }
 
-    write_json("./assets/data/graph.json", graph_data)
+    write_json("#{ASSETS_PATH}/graph.json", graph_data)
 
     graph_data
   end
-
-
 
   def fix_frontmatter
     Dir.glob("#{NOTES_PATH}/**/*.md").each do |file|
@@ -126,7 +146,6 @@ class SiteGenerator < Jekyll::Generator
     end
 
     linking_to_doc.each do |linking_doc|
-      # parent already lists its children, no need to list them again under its backlinks
       next if doc.data['children']&.include?(linking_doc.id)
       doc.data['backlinks'] << linking_doc
     end
@@ -139,7 +158,6 @@ class SiteGenerator < Jekyll::Generator
       tagfileid = tag_to_file.has_key?(tag) ? "/#{tag_to_file[tag]}" : "/#{tag}"
       tagged_doc = site.documents.find { |e| e.id == tagfileid }
       next unless tagged_doc
-      # parent already lists its children, no need to list them again under its backlinks
       next if tagged_doc.data['children']&.include?(doc.id)
 
       tagged_doc.data['backlinks'] ||= []
@@ -162,7 +180,6 @@ class SiteGenerator < Jekyll::Generator
 
   def generate_tree(site)
     tree = bfs(site, NOTES_PATH)
-    # sort each level of tree by number of children, then by title
     tree.transform_values! { |v| v.sort_by { |k, v| [-v.length, site.data["file_to_title"][k]] }.to_h }
     site.data["tree"] = tree
 
@@ -170,11 +187,9 @@ class SiteGenerator < Jekyll::Generator
     tree_to_html(site, tree, "root")
 
     site.data["tree_htmls_without_self"] = {}
-    # for each element in site.data["tree_htmls"], remove link to self
     site.data["tree_htmls"].each do |k, v|
       site.data["tree_htmls_without_self"][k] = v.gsub(/<a href='#{k}\/'>.*?<\/a>/, "")
     end
-
   end
 
   def bfs(site, path)
@@ -191,13 +206,6 @@ class SiteGenerator < Jekyll::Generator
       branch[parent_id] ||= {}
 
       entries = Dir.entries(parent_path)
-      # # if entries do not include parent_basename.md, add a new jekyll doc with empty front matter
-      # if !entries.include?("#{parent_basename}.md")
-      #   File.open("#{parent_path}/#{parent_basename}.md", "w") do |f|
-      #     f.write("---\n---\n")
-      #   end
-      # end
-
       entries.sort.each do |child|
         next if child.start_with?('.', '_')
 
@@ -253,16 +261,9 @@ class SiteGenerator < Jekyll::Generator
     parent_doc.data['children'] << child_id
   end
 
-  def reverse_tree(tree)
-    return tree if tree.nil? || tree.empty?
-
-    tree.transform_values { |value| reverse_tree(value) }
-  end
-
   private
 
   def write_json(path, data)
     File.open(path, "w") { |f| f.write(JSON.pretty_generate(data)) }
   end
-
 end
