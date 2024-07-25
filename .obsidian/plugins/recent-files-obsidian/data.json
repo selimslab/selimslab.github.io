@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "domain-driven-design",
+      "path": "_NOTES/tech/domain-driven-design.md"
+    },
+    {
+      "basename": "concurrency",
+      "path": "_NOTES/tech/concurrency.md"
+    },
+    {
       "basename": "summary-prompt",
       "path": "_NOTES/tech/prompt-engineering/summary-prompt.md"
     },
@@ -181,16 +189,8 @@
       "path": "_NOTES/tech/machine-learning.md"
     },
     {
-      "basename": "domain-driven-design",
-      "path": "_NOTES/tech/domain-driven-design.md"
-    },
-    {
       "basename": "containers",
       "path": "_NOTES/tech/containers.md"
-    },
-    {
-      "basename": "concurrency",
-      "path": "_NOTES/tech/concurrency.md"
     },
     {
       "basename": "ux",
