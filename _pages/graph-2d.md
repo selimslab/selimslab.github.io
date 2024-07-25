@@ -4,4 +4,4 @@ layout: free
 tags: meta 
 ---
 
-{% include graph2D.html %}
+{% include graph-2d.html %}

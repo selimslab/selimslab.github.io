@@ -4,4 +4,4 @@ layout: free
 tags: meta 
 ---
 
-{% include graph3D.html %}
+{% include graph-3d.html %}

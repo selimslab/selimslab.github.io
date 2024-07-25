@@ -23,5 +23,7 @@ shuffle = async () => {
   img.alt = alt;
   document.getElementById("description").innerHTML = alt;
 
+  get_random_idea()
+
 };
 
