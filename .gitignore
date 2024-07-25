@@ -3,6 +3,7 @@ _site/*
 !.github
 !.vscode
 !.obsidian
+.obsidian/workspace.json
 Gemfile.lock
 _misc/*
 _*.md
