@@ -4,6 +4,7 @@ _site/*
 !.vscode
 !.obsidian
 .obsidian/workspace.json
+.obsidian/data.json
 Gemfile.lock
 _misc/*
 _*.md
