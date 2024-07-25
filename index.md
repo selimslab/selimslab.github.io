@@ -10,7 +10,7 @@ layout: page
 
 A digital space to create, collect, and share
 
-## Contents
+## Content
 
 <div style="margin-top:0.5rem">
 {{ site.data.tree_htmls["root"] }}
@@ -26,9 +26,13 @@ A digital space to create, collect, and share
 
 {% include time.html %}
 
-## Stats 
+## Metadata 
+
+{% include hub.html tag='meta' %}
 
 {% include stats.html  %}
+
+
 
 ## Tap to shuffle   
 

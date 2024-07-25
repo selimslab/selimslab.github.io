@@ -546,8 +546,7 @@
     "decisions"
   ],
   "/drawing": [
-    "skills",
-    "top"
+    "skills"
   ],
   "/driving": [
     "skills"
@@ -1641,10 +1640,10 @@
 
   ],
   "/graph2D": [
-    "top"
+    "meta"
   ],
   "/graph3D": [
-    "top"
+    "meta"
   ],
   "/pub": [
 

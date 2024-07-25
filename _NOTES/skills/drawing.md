@@ -1,5 +1,4 @@
 ---
-tags: top
 ---
 
 [Tag: drawing - Sketchplanations](https://sketchplanations.com/tags/drawing)
