@@ -2,15 +2,21 @@
 ---
 
 
-## languages specific, eg. python pickle 
+## language-specific
+
+eg. python pickle 
    
 restricted to one language and they have poor back/forward compatibility
 
-## text, eg. json, csv
+## text
+
+eg. json, csv
 
 More generic, better human-readable, better compatibility than the former 
 
-## binary, eg. protobuf, thrift 
+## binary
+
+eg. protobuf, thrift 
 
 more compact 
 
