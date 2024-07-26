@@ -1,5 +1,5 @@
 ---
-tags: economics 
+tags: economics law
 ---
 
 Wage theft—employers’ failure to pay workers money they are legally entitled to—affects far more people than more well-known and feared forms of theft 

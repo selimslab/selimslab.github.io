@@ -6,7 +6,7 @@
 
 [[classical-physics]]
 
-[[maxwells-equations]]
+[[maxwell-equations]]
 
 [[philosophical-implications-of-quantum-mechanics]]
 

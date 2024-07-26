@@ -28,3 +28,9 @@
     Swith to explorer: cmd 0 
 
 
+## VS 
+
+
+| Collapse to Definitions | **Ctrl**+**M**, **Ctrl**+**O** |
+| ----------------------- | ------------------------------ |
+| Toggle All Outlining    | **Ctrl**+**M**, **Ctrl**+**L** |

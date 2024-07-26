@@ -1,4 +1,11 @@
 ---
 ---
 
-Check out George Carlin 
+Charlie Chaplin 
+
+George Carlin 
+
+Jackie Chan 
+
+
+

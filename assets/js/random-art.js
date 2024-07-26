@@ -36,3 +36,5 @@ const shuffleArt = async () => {
   img.alt = alt;
   document.getElementById("description").innerHTML = alt;
 };
+
+

@@ -1,6 +1,8 @@
 ---
 ---
 
+[[driving]]
+
 ## outside 
 - panels
 - tires 
@@ -45,8 +47,7 @@
 - take it to a trusted mechanic 
 
 ## Psy 
-do not seem too interested 
-do not talk good or bad about the car 
+- do not seem too interested 
+- do not talk good or bad about the car 
 
 
-[[driving]]

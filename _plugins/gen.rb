@@ -187,7 +187,7 @@ class SiteGenerator < Jekyll::Generator
     doc.content.scan(/\[\[[a-z0-9-]*\]\]/).each do |link|
       target = link[2..-3]
       target = tag_to_file[target] if tag_to_file.key?(target)
-      title = file_to_title[target]
+      title = file_to_title[target].downcase
       markdown_link = "[#{title}](/#{target}/)"
       doc.content.gsub!(link, markdown_link)
     end

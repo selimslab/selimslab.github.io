@@ -1,5 +1,4 @@
 ---
-title: On children
 tags: psy 
 ---
 
