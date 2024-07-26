@@ -35,6 +35,8 @@
       },
       "/ideal-insan": {
       },
+      "/in-praise-of-idleness": {
+      },
       "/know-where-to-stop": {
       },
       "/koans": {
@@ -316,7 +318,7 @@
     },
     "/inertia": {
     },
-    "/maxwells-equations": {
+    "/maxwell-equations": {
     },
     "/natural-sciences": {
     },
@@ -368,21 +370,17 @@
       "/write-better": {
       }
     },
-    "/driving": {
-    },
     "/drowning-does-not-look-dramatic": {
     },
     "/exercise": {
-    },
-    "/get-things-done-selim": {
     },
     "/get-things-done": {
     },
     "/growing-plants": {
     },
-    "/how-to-gain-wealth": {
+    "/home-life": {
     },
-    "/how-to-grow-old-russell-selim": {
+    "/how-to-gain-wealth": {
     },
     "/how-to-grow-old-russell": {
     },
@@ -394,9 +392,7 @@
     },
     "/learning": {
     },
-    "/making-videos": {
-    },
-    "/drawing": {
+    "/driving": {
     },
     "/mastery": {
     },
@@ -406,17 +402,13 @@
     },
     "/outdoors": {
     },
-    "/photography": {
+    "/parenting": {
     },
-    "/problem-solving-selim": {
+    "/photography": {
     },
     "/problem-solving": {
     },
-    "/skills-selim": {
-    },
     "/skills": {
-    },
-    "/submarine-shower": {
     },
     "/teaching": {
     },
@@ -426,11 +418,11 @@
     },
     "/used-car-checklist": {
     },
+    "/drawing": {
+    },
+    "/making-videos": {
+    },
     "/cooking": {
-    },
-    "/mastery-selim": {
-    },
-    "/children": {
     }
   },
   "/social-sciences": {
@@ -536,17 +528,19 @@
       "/who-goes-nazi": {
       }
     },
+    "/books-social": {
+    },
     "/chaos": {
     },
     "/economics": {
     },
-    "/in-praise-of-idleness": {
+    "/law": {
     },
     "/metaphors": {
     },
     "/outgroup": {
     },
-    "/books-social": {
+    "/being-poor": {
     },
     "/social-class": {
     },
@@ -562,12 +556,18 @@
     },
     "/social-change": {
     },
-    "/being-poor": {
+    "/architecture": {
+    },
+    "/system-thinking": {
     }
   },
   "/tech": {
     "/programming": {
+      "/api-definition": {
+      },
       "/compsci": {
+      },
+      "/concurrency": {
       },
       "/discussion-topics": {
       },
@@ -765,44 +765,6 @@
         "/string": {
         }
       },
-      "/oop": {
-        "/design-patterns": {
-        },
-        "/oop": {
-        },
-        "/solid": {
-        },
-        "/oop-designs": {
-          "/block": {
-          },
-          "/design-a-bicycle": {
-          },
-          "/design-a-book-app": {
-          },
-          "/design-a-crm": {
-          },
-          "/design-a-data-pipeline": {
-          },
-          "/design-a-gov-cloud": {
-          },
-          "/design-a-personal-note-publishing-system": {
-          },
-          "/design-a-trader": {
-          },
-          "/design-a-web-crawler": {
-          },
-          "/design-auth": {
-          },
-          "/design-oauth": {
-          },
-          "/design-units": {
-          },
-          "/design-video-streaming-app": {
-          },
-          "/oop-designs": {
-          }
-        }
-      },
       "/programming-languages": {
         "/c": {
         },
@@ -932,30 +894,6 @@
       "/use-an-identity-service": {
       }
     },
-    "/thoughts-on-tech": {
-      "/44-engineering-management-lessons": {
-      },
-      "/a-free-web-again": {
-      },
-      "/choose-boring-tech": {
-      },
-      "/hacker-laws": {
-      },
-      "/hijacked-minds": {
-      },
-      "/is-tech-fast-or-slow": {
-      },
-      "/minimal-tech": {
-      },
-      "/social-media": {
-      },
-      "/software-analogies": {
-      },
-      "/software-quality": {
-      },
-      "/thoughts-on-tech": {
-      }
-    },
     "/databases": {
       "/acid": {
       },
@@ -983,6 +921,8 @@
       },
       "/evolution-of-computer-interfaces": {
       },
+      "/hijacked-minds": {
+      },
       "/natural-tech": {
       },
       "/polished-pixels": {
@@ -994,10 +934,28 @@
       "/ux": {
       }
     },
+    "/software-engineering": {
+      "/code-review": {
+      },
+      "/core-concepts": {
+      },
+      "/on-software": {
+      },
+      "/software-analogies": {
+      },
+      "/software-engineering": {
+      },
+      "/software-quality": {
+      },
+      "/the-joel-test": {
+      }
+    },
     "/prompt-engineering": {
       "/base-prompt": {
       },
       "/customize-prompt": {
+      },
+      "/ozlang": {
       },
       "/prompt-engineering": {
       },
@@ -1008,31 +966,79 @@
       "/summary-prompt": {
       }
     },
-    "/nlp": {
+    "/system-design": {
+      "/choose-boring-tech": {
+      },
+      "/domain-driven-design": {
+      },
+      "/hacker-laws": {
+      },
+      "/minimal-tech": {
+      },
+      "/system-design": {
+      },
+      "/oop": {
+        "/design-patterns": {
+        },
+        "/oop": {
+        },
+        "/solid": {
+        },
+        "/oop-designs": {
+          "/block": {
+          },
+          "/design-a-bicycle": {
+          },
+          "/design-a-book-app": {
+          },
+          "/design-a-crm": {
+          },
+          "/design-a-data-pipeline": {
+          },
+          "/design-a-gov-cloud": {
+          },
+          "/design-a-personal-note-publishing-system": {
+          },
+          "/design-a-trader": {
+          },
+          "/design-a-web-crawler": {
+          },
+          "/design-auth": {
+          },
+          "/design-oauth": {
+          },
+          "/design-units": {
+          },
+          "/design-video-streaming-app": {
+          },
+          "/oop-designs": {
+          }
+        }
+      }
     },
-    "/operating-systems": {
+    "/computers": {
+      "/containers": {
+      },
+      "/networks": {
+      },
+      "/operating-systems": {
+      }
+    },
+    "/thoughts-on-tech": {
+      "/a-free-web-again": {
+      },
+      "/is-tech-fast-or-slow": {
+      },
+      "/social-media": {
+      }
     },
     "/machine-learning": {
-    },
-    "/system-design": {
+      "/machine-learning": {
+      },
+      "/nlp": {
+      }
     },
     "/tech": {
-    },
-    "/the-joel-test": {
-    },
-    "/domain-driven-design": {
-    },
-    "/core-concepts": {
-    },
-    "/containers": {
-    },
-    "/networks": {
-    },
-    "/concurrency": {
-    },
-    "/software-engineering": {
-    },
-    "/code-review": {
     }
   }
 }

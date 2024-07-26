@@ -89,7 +89,7 @@
         "/feynmans-epilogue",
         "/fluid-field-boundaries",
         "/inertia",
-        "/maxwells-equations",
+        "/maxwell-equations",
         "/philosophical-implications-of-quantum-mechanics",
         "/solar-system",
         "/the-overview-effect",
@@ -107,37 +107,32 @@
         "/business",
         "/decisions",
         "/communication",
-        "/driving",
         "/drowning-does-not-look-dramatic",
         "/exercise",
-        "/get-things-done-selim",
         "/get-things-done",
         "/growing-plants",
+        "/home-life",
         "/how-to-gain-wealth",
-        "/how-to-grow-old-russell-selim",
         "/how-to-grow-old-russell",
         "/humor",
         "/investing",
         "/leadership",
         "/learning",
-        "/making-videos",
-        "/drawing",
+        "/driving",
         "/mastery",
         "/motocycles",
         "/mountaineering",
         "/outdoors",
+        "/parenting",
         "/photography",
-        "/problem-solving-selim",
         "/problem-solving",
-        "/skills-selim",
-        "/submarine-shower",
         "/teaching",
         "/trading",
         "/travelling",
         "/used-car-checklist",
+        "/drawing",
+        "/making-videos",
         "/cooking",
-        "/mastery-selim",
-        "/children",
         "/critical-thinking",
         "/eudaimonia",
         "/how-to-start",
@@ -152,19 +147,21 @@
         "/root",
         "/psychology",
         "/politics",
+        "/books-social",
         "/chaos",
         "/economics",
-        "/in-praise-of-idleness",
+        "/law",
         "/metaphors",
         "/outgroup",
-        "/books-social",
+        "/being-poor",
         "/social-class",
         "/systems",
         "/urban-planning",
         "/wage-theft",
         "/wasted-talent",
         "/social-change",
-        "/being-poor",
+        "/architecture",
+        "/system-thinking",
         "/cognitive-biases",
         "/freedom",
         "/happiness",
@@ -185,22 +182,14 @@
         "/programming",
         "/security",
         "/distributed-systems",
-        "/thoughts-on-tech",
         "/databases",
         "/ux",
-        "/prompt-engineering",
-        "/nlp",
-        "/operating-systems",
-        "/machine-learning",
-        "/system-design",
-        "/the-joel-test",
-        "/domain-driven-design",
-        "/core-concepts",
-        "/containers",
-        "/networks",
-        "/concurrency",
         "/software-engineering",
-        "/code-review",
+        "/prompt-engineering",
+        "/system-design",
+        "/computers",
+        "/thoughts-on-tech",
+        "/machine-learning",
         "/akins-laws-of-spacecraft",
         "/history-of-technology",
         "/since-big-bang",
@@ -230,6 +219,7 @@
         "/good-and-evil",
         "/happiness",
         "/ideal-insan",
+        "/in-praise-of-idleness",
         "/know-where-to-stop",
         "/koans",
         "/life-is-play",
@@ -250,8 +240,7 @@
         "/how-to-deal-with-pain",
         "/critical-thinking",
         "/do-the-right-thing",
-        "/how-to-grow-old-russell-selim",
-        "/in-praise-of-idleness",
+        "/how-to-grow-old-russell",
         "/look-down-and-around",
         "/solitude"
       ]
@@ -400,8 +389,8 @@
       "name": "Essais",
       "links": [
         "/lists",
-        "/get-things-done",
-        "/how-to-grow-old-russell-selim",
+        "/in-praise-of-idleness",
+        "/how-to-grow-old-russell",
         "/mastery",
         "/problem-solving",
         "/outgroup",
@@ -616,7 +605,7 @@
       "links": [
         "/natural-sciences",
         "/feynman-lectures",
-        "/maxwells-equations"
+        "/maxwell-equations"
       ]
     },
     {
@@ -662,9 +651,9 @@
       ]
     },
     {
-      "id": "/maxwells-equations",
+      "id": "/maxwell-equations",
       "group": 2,
-      "name": "Maxwells Equations",
+      "name": "Maxwell Equations",
       "links": [
         "/natural-sciences",
         "/classical-physics"
@@ -736,7 +725,7 @@
         "/freedom",
         "/critical-thinking",
         "/choice",
-        "/get-things-done-selim"
+        "/get-things-done"
       ]
     },
     {
@@ -749,15 +738,6 @@
         "/negotiations",
         "/public-speaking",
         "/write-better"
-      ]
-    },
-    {
-      "id": "/driving",
-      "group": 2,
-      "name": "Driving",
-      "links": [
-        "/skills",
-        "/used-car-checklist"
       ]
     },
     {
@@ -777,9 +757,9 @@
       ]
     },
     {
-      "id": "/get-things-done-selim",
+      "id": "/get-things-done",
       "group": 2,
-      "name": "Get Things Done Selim",
+      "name": "Get Things Done",
       "links": [
         "/skills",
         "/take-a-walk",
@@ -790,22 +770,17 @@
       ]
     },
     {
-      "id": "/get-things-done",
-      "group": 2,
-      "name": "Get Things Done",
-      "links": [
-        "/skills",
-        "/take-a-walk",
-        "/the-morning",
-        "/what-to-work-on",
-        "/essais",
-        "/do-one-thing-at-a-time-and-do-it-well"
-      ]
-    },
-    {
       "id": "/growing-plants",
       "group": 2,
       "name": "Growing Plants",
+      "links": [
+        "/skills"
+      ]
+    },
+    {
+      "id": "/home-life",
+      "group": 2,
+      "name": "Home Life",
       "links": [
         "/skills"
       ]
@@ -820,21 +795,13 @@
       ]
     },
     {
-      "id": "/how-to-grow-old-russell-selim",
+      "id": "/how-to-grow-old-russell",
       "group": 2,
       "name": "How to Grow Old, by Bertrand Russell",
       "links": [
         "/skills",
         "/philosophy",
         "/essais"
-      ]
-    },
-    {
-      "id": "/how-to-grow-old-russell",
-      "group": 2,
-      "name": "“How to Grow Old” by Bertrand Russell",
-      "links": [
-        "/skills"
       ]
     },
     {
@@ -860,7 +827,6 @@
       "name": "Leadership",
       "links": [
         "/skills",
-        "/44-engineering-management-lessons",
         "/overvaluing-short-term",
         "/praise-and-motivation",
         "/setting-rules"
@@ -876,19 +842,12 @@
       ]
     },
     {
-      "id": "/making-videos",
+      "id": "/driving",
       "group": 2,
-      "name": "Making Videos",
+      "name": "Driving",
       "links": [
-        "/skills"
-      ]
-    },
-    {
-      "id": "/drawing",
-      "group": 2,
-      "name": "Drawing",
-      "links": [
-        "/skills"
+        "/skills",
+        "/used-car-checklist"
       ]
     },
     {
@@ -925,21 +884,20 @@
       ]
     },
     {
+      "id": "/parenting",
+      "group": 2,
+      "name": "Parenting",
+      "links": [
+        "/skills",
+        "/psychology"
+      ]
+    },
+    {
       "id": "/photography",
       "group": 2,
       "name": "Photography",
       "links": [
         "/skills"
-      ]
-    },
-    {
-      "id": "/problem-solving-selim",
-      "group": 2,
-      "name": "Problem Solving",
-      "links": [
-        "/skills",
-        "/take-a-walk",
-        "/critical-thinking"
       ]
     },
     {
@@ -951,22 +909,6 @@
         "/take-a-walk",
         "/essais",
         "/critical-thinking"
-      ]
-    },
-    {
-      "id": "/skills-selim",
-      "group": 2,
-      "name": "Skills Selim",
-      "links": [
-        "/skills"
-      ]
-    },
-    {
-      "id": "/submarine-shower",
-      "group": 2,
-      "name": "Submarine Shower",
-      "links": [
-        "/skills"
       ]
     },
     {
@@ -1004,28 +946,27 @@
       ]
     },
     {
+      "id": "/drawing",
+      "group": 2,
+      "name": "Drawing",
+      "links": [
+        "/skills"
+      ]
+    },
+    {
+      "id": "/making-videos",
+      "group": 2,
+      "name": "Making Videos",
+      "links": [
+        "/skills"
+      ]
+    },
+    {
       "id": "/cooking",
       "group": 2,
       "name": "Cooking",
       "links": [
         "/skills"
-      ]
-    },
-    {
-      "id": "/mastery-selim",
-      "group": 2,
-      "name": "Mastery Selim",
-      "links": [
-        "/skills"
-      ]
-    },
-    {
-      "id": "/children",
-      "group": 2,
-      "name": "On children",
-      "links": [
-        "/skills",
-        "/psychology"
       ]
     },
     {
@@ -1048,7 +989,7 @@
         "/work",
         "/happiness",
         "/inertia",
-        "/children",
+        "/parenting",
         "/questioning-people-seen-as-a-threat-to-status-quo"
       ]
     },
@@ -1073,6 +1014,14 @@
       ]
     },
     {
+      "id": "/books-social",
+      "group": 2,
+      "name": "Books",
+      "links": [
+        "/social-sciences"
+      ]
+    },
+    {
       "id": "/chaos",
       "group": 2,
       "name": "Chaos",
@@ -1087,16 +1036,17 @@
       "name": "Economics",
       "links": [
         "/social-sciences",
-        "/wage-theft"
+        "/wage-theft",
+        "/wasted-talent"
       ]
     },
     {
-      "id": "/in-praise-of-idleness",
+      "id": "/law",
       "group": 2,
-      "name": "In Praise Of Idleness",
+      "name": "Law",
       "links": [
         "/social-sciences",
-        "/philosophy"
+        "/wage-theft"
       ]
     },
     {
@@ -1111,16 +1061,16 @@
     {
       "id": "/outgroup",
       "group": 2,
-      "name": "I CAN TOLERATE ANYTHING EXCEPT THE OUTGROUP",
+      "name": "Outgroup",
       "links": [
         "/social-sciences",
         "/essais"
       ]
     },
     {
-      "id": "/books-social",
+      "id": "/being-poor",
       "group": 2,
-      "name": "Books",
+      "name": "Being Poor",
       "links": [
         "/social-sciences"
       ]
@@ -1149,7 +1099,8 @@
       "group": 2,
       "name": "Urban Planning",
       "links": [
-        "/social-sciences"
+        "/social-sciences",
+        "/architecture"
       ]
     },
     {
@@ -1158,7 +1109,8 @@
       "name": "Wage Theft",
       "links": [
         "/social-sciences",
-        "/economics"
+        "/economics",
+        "/law"
       ]
     },
     {
@@ -1167,7 +1119,8 @@
       "name": "Wasted Talent",
       "links": [
         "/social-sciences",
-        "/business"
+        "/business",
+        "/economics"
       ]
     },
     {
@@ -1179,9 +1132,18 @@
       ]
     },
     {
-      "id": "/being-poor",
+      "id": "/architecture",
       "group": 2,
-      "name": "Being Poor",
+      "name": "Architecture",
+      "links": [
+        "/social-sciences",
+        "/urban-planning"
+      ]
+    },
+    {
+      "id": "/system-thinking",
+      "group": 2,
+      "name": "System-thinking",
       "links": [
         "/social-sciences"
       ]
@@ -1192,7 +1154,9 @@
       "name": "Programming",
       "links": [
         "/tech",
+        "/api-definition",
         "/compsci",
+        "/concurrency",
         "/discussion-topics",
         "/easy-vs-hard-in-cs",
         "/encodings",
@@ -1203,7 +1167,6 @@
         "/algorithms",
         "/code",
         "/data-structures",
-        "/oop",
         "/programming-languages",
         "/projects",
         "/skills",
@@ -1251,25 +1214,6 @@
       ]
     },
     {
-      "id": "/thoughts-on-tech",
-      "group": 2,
-      "name": "On Software",
-      "links": [
-        "/tech",
-        "/44-engineering-management-lessons",
-        "/a-free-web-again",
-        "/choose-boring-tech",
-        "/hacker-laws",
-        "/hijacked-minds",
-        "/is-tech-fast-or-slow",
-        "/minimal-tech",
-        "/social-media",
-        "/software-analogies",
-        "/software-quality",
-        "/ship-it"
-      ]
-    },
-    {
       "id": "/databases",
       "group": 2,
       "name": "Databases",
@@ -1294,12 +1238,27 @@
         "/tech",
         "/accessibility",
         "/evolution-of-computer-interfaces",
+        "/hijacked-minds",
         "/natural-tech",
         "/polished-pixels",
         "/things-users-care",
         "/usability-testing",
-        "/design",
-        "/hijacked-minds"
+        "/design"
+      ]
+    },
+    {
+      "id": "/software-engineering",
+      "group": 2,
+      "name": "Software Engineering",
+      "links": [
+        "/tech",
+        "/code-review",
+        "/core-concepts",
+        "/on-software",
+        "/software-analogies",
+        "/software-quality",
+        "/the-joel-test",
+        "/programming"
       ]
     },
     {
@@ -1310,37 +1269,10 @@
         "/tech",
         "/base-prompt",
         "/customize-prompt",
+        "/ozlang",
         "/question-prompt",
         "/recap-prompt",
         "/summary-prompt"
-      ]
-    },
-    {
-      "id": "/nlp",
-      "group": 2,
-      "name": "NLP",
-      "links": [
-        "/tech"
-      ]
-    },
-    {
-      "id": "/operating-systems",
-      "group": 2,
-      "name": "Operating Systems",
-      "links": [
-        "/tech",
-        "/containers"
-      ]
-    },
-    {
-      "id": "/machine-learning",
-      "group": 2,
-      "name": "Machine Learning",
-      "links": [
-        "/tech",
-        "/pca",
-        "/pneumonia-detection",
-        "/predict-movie-genres"
       ]
     },
     {
@@ -1349,83 +1281,49 @@
       "name": "System Design",
       "links": [
         "/tech",
+        "/choose-boring-tech",
+        "/domain-driven-design",
+        "/hacker-laws",
+        "/minimal-tech",
+        "/oop",
         "/systems",
         "/akins-laws-of-spacecraft",
         "/distributed-systems",
-        "/domain-driven-design",
-        "/oop",
-        "/choose-boring-tech",
-        "/hacker-laws",
         "/accessibility"
       ]
     },
     {
-      "id": "/the-joel-test",
+      "id": "/computers",
       "group": 2,
-      "name": "The Joel Test",
-      "links": [
-        "/tech"
-      ]
-    },
-    {
-      "id": "/domain-driven-design",
-      "group": 2,
-      "name": "Domain Driven Design",
+      "name": "Computers",
       "links": [
         "/tech",
-        "/system-design"
-      ]
-    },
-    {
-      "id": "/core-concepts",
-      "group": 2,
-      "name": "Core Concepts",
-      "links": [
-        "/tech"
-      ]
-    },
-    {
-      "id": "/containers",
-      "group": 2,
-      "name": "Containers",
-      "links": [
-        "/tech",
+        "/containers",
+        "/networks",
         "/operating-systems"
       ]
     },
     {
-      "id": "/networks",
+      "id": "/thoughts-on-tech",
       "group": 2,
-      "name": "Networks",
-      "links": [
-        "/tech"
-      ]
-    },
-    {
-      "id": "/concurrency",
-      "group": 2,
-      "name": "Concurrency",
+      "name": "Thoughts-on-tech",
       "links": [
         "/tech",
-        "/armstrong-thesis",
-        "/producer-consumer-problem"
+        "/a-free-web-again",
+        "/is-tech-fast-or-slow",
+        "/social-media"
       ]
     },
     {
-      "id": "/software-engineering",
+      "id": "/machine-learning",
       "group": 2,
-      "name": "Software Engineering",
+      "name": "Machine Learning",
       "links": [
         "/tech",
-        "/programming"
-      ]
-    },
-    {
-      "id": "/code-review",
-      "group": 2,
-      "name": "Code Review",
-      "links": [
-        "/tech"
+        "/nlp",
+        "/pca",
+        "/pneumonia-detection",
+        "/predict-movie-genres"
       ]
     },
     {
@@ -1585,6 +1483,15 @@
       ]
     },
     {
+      "id": "/in-praise-of-idleness",
+      "group": 3,
+      "name": "In Praise Of Idleness",
+      "links": [
+        "/philosophy",
+        "/essais"
+      ]
+    },
+    {
       "id": "/know-where-to-stop",
       "group": 3,
       "name": "Know Where To Stop",
@@ -1668,9 +1575,7 @@
       "links": [
         "/philosophy",
         "/get-things-done",
-        "/get-things-done-selim",
-        "/problem-solving",
-        "/problem-solving-selim"
+        "/problem-solving"
       ]
     },
     {
@@ -2044,7 +1949,7 @@
       "name": "Ship It",
       "links": [
         "/design",
-        "/thoughts-on-tech"
+        "/on-software"
       ]
     },
     {
@@ -2132,7 +2037,6 @@
         "/insight-and-strength",
         "/decisions",
         "/problem-solving",
-        "/problem-solving-selim",
         "/skills"
       ]
     },
@@ -2144,8 +2048,7 @@
         "/decisions",
         "/know-where-to-stop",
         "/lightly-child",
-        "/get-things-done",
-        "/get-things-done-selim"
+        "/get-things-done"
       ]
     },
     {
@@ -2403,11 +2306,28 @@
       ]
     },
     {
+      "id": "/api-definition",
+      "group": 3,
+      "name": "Api Definition",
+      "links": [
+        "/programming"
+      ]
+    },
+    {
       "id": "/compsci",
       "group": 3,
       "name": "Computers from scratch",
       "links": [
         "/programming"
+      ]
+    },
+    {
+      "id": "/concurrency",
+      "group": 3,
+      "name": "Concurrency",
+      "links": [
+        "/programming",
+        "/producer-consumer-problem"
       ]
     },
     {
@@ -2583,18 +2503,6 @@
       ]
     },
     {
-      "id": "/oop",
-      "group": 3,
-      "name": "OOP",
-      "links": [
-        "/programming",
-        "/design-patterns",
-        "/solid",
-        "/oop-designs",
-        "/system-design"
-      ]
-    },
-    {
       "id": "/programming-languages",
       "group": 3,
       "name": "Programming Languages",
@@ -2740,8 +2648,7 @@
       "group": 3,
       "name": "Armstrong Thesis",
       "links": [
-        "/distributed-systems",
-        "/concurrency"
+        "/distributed-systems"
       ]
     },
     {
@@ -2822,92 +2729,6 @@
       "name": "Use An Identity Service",
       "links": [
         "/distributed-systems"
-      ]
-    },
-    {
-      "id": "/44-engineering-management-lessons",
-      "group": 3,
-      "name": "44 Engineering Management Lessons",
-      "links": [
-        "/thoughts-on-tech",
-        "/leadership"
-      ]
-    },
-    {
-      "id": "/a-free-web-again",
-      "group": 3,
-      "name": "A Free Web Again",
-      "links": [
-        "/thoughts-on-tech"
-      ]
-    },
-    {
-      "id": "/choose-boring-tech",
-      "group": 3,
-      "name": "Choose Boring Tech",
-      "links": [
-        "/thoughts-on-tech",
-        "/system-design"
-      ]
-    },
-    {
-      "id": "/hacker-laws",
-      "group": 3,
-      "name": "Hacker Laws",
-      "links": [
-        "/thoughts-on-tech",
-        "/akins-laws-of-spacecraft",
-        "/system-design"
-      ]
-    },
-    {
-      "id": "/hijacked-minds",
-      "group": 3,
-      "name": "How Technology is Hijacking Your Mind",
-      "links": [
-        "/thoughts-on-tech",
-        "/social-sciences",
-        "/ux"
-      ]
-    },
-    {
-      "id": "/is-tech-fast-or-slow",
-      "group": 3,
-      "name": "Is Tech Fast Or Slow",
-      "links": [
-        "/thoughts-on-tech"
-      ]
-    },
-    {
-      "id": "/minimal-tech",
-      "group": 3,
-      "name": "Minimal Tech",
-      "links": [
-        "/thoughts-on-tech"
-      ]
-    },
-    {
-      "id": "/social-media",
-      "group": 3,
-      "name": "Social Media",
-      "links": [
-        "/thoughts-on-tech"
-      ]
-    },
-    {
-      "id": "/software-analogies",
-      "group": 3,
-      "name": "Software Analogies",
-      "links": [
-        "/thoughts-on-tech"
-      ]
-    },
-    {
-      "id": "/software-quality",
-      "group": 3,
-      "name": "Is High Quality Software Worth the Cost?",
-      "links": [
-        "/thoughts-on-tech"
       ]
     },
     {
@@ -3012,6 +2833,15 @@
       ]
     },
     {
+      "id": "/hijacked-minds",
+      "group": 3,
+      "name": "How Technology is Hijacking Your Mind",
+      "links": [
+        "/ux",
+        "/social-sciences"
+      ]
+    },
+    {
       "id": "/natural-tech",
       "group": 3,
       "name": "Natural UX",
@@ -3047,6 +2877,55 @@
       ]
     },
     {
+      "id": "/code-review",
+      "group": 3,
+      "name": "Code Review",
+      "links": [
+        "/software-engineering"
+      ]
+    },
+    {
+      "id": "/core-concepts",
+      "group": 3,
+      "name": "Core Concepts",
+      "links": [
+        "/software-engineering"
+      ]
+    },
+    {
+      "id": "/on-software",
+      "group": 3,
+      "name": "On Software",
+      "links": [
+        "/software-engineering",
+        "/ship-it"
+      ]
+    },
+    {
+      "id": "/software-analogies",
+      "group": 3,
+      "name": "Software Analogies",
+      "links": [
+        "/software-engineering"
+      ]
+    },
+    {
+      "id": "/software-quality",
+      "group": 3,
+      "name": "Is High Quality Software Worth the Cost?",
+      "links": [
+        "/software-engineering"
+      ]
+    },
+    {
+      "id": "/the-joel-test",
+      "group": 3,
+      "name": "The Joel Test",
+      "links": [
+        "/software-engineering"
+      ]
+    },
+    {
       "id": "/base-prompt",
       "group": 3,
       "name": "Base Prompt",
@@ -3058,6 +2937,14 @@
       "id": "/customize-prompt",
       "group": 3,
       "name": "Customize Prompt",
+      "links": [
+        "/prompt-engineering"
+      ]
+    },
+    {
+      "id": "/ozlang",
+      "group": 3,
+      "name": "Ozlang",
       "links": [
         "/prompt-engineering"
       ]
@@ -3084,6 +2971,109 @@
       "name": "Summary Prompt",
       "links": [
         "/prompt-engineering"
+      ]
+    },
+    {
+      "id": "/choose-boring-tech",
+      "group": 3,
+      "name": "Choose Boring Tech",
+      "links": [
+        "/system-design"
+      ]
+    },
+    {
+      "id": "/domain-driven-design",
+      "group": 3,
+      "name": "Domain Driven Design",
+      "links": [
+        "/system-design"
+      ]
+    },
+    {
+      "id": "/hacker-laws",
+      "group": 3,
+      "name": "Hacker Laws",
+      "links": [
+        "/system-design",
+        "/akins-laws-of-spacecraft",
+        "/design-patterns"
+      ]
+    },
+    {
+      "id": "/minimal-tech",
+      "group": 3,
+      "name": "Minimal Tech",
+      "links": [
+        "/system-design"
+      ]
+    },
+    {
+      "id": "/oop",
+      "group": 3,
+      "name": "OOP",
+      "links": [
+        "/system-design",
+        "/design-patterns",
+        "/solid",
+        "/oop-designs"
+      ]
+    },
+    {
+      "id": "/containers",
+      "group": 3,
+      "name": "Containers",
+      "links": [
+        "/computers",
+        "/operating-systems"
+      ]
+    },
+    {
+      "id": "/networks",
+      "group": 3,
+      "name": "Networks",
+      "links": [
+        "/computers"
+      ]
+    },
+    {
+      "id": "/operating-systems",
+      "group": 3,
+      "name": "Operating Systems",
+      "links": [
+        "/computers",
+        "/containers"
+      ]
+    },
+    {
+      "id": "/a-free-web-again",
+      "group": 3,
+      "name": "A Free Web Again",
+      "links": [
+        "/thoughts-on-tech"
+      ]
+    },
+    {
+      "id": "/is-tech-fast-or-slow",
+      "group": 3,
+      "name": "Is Tech Fast Or Slow",
+      "links": [
+        "/thoughts-on-tech"
+      ]
+    },
+    {
+      "id": "/social-media",
+      "group": 3,
+      "name": "Social Media",
+      "links": [
+        "/thoughts-on-tech"
+      ]
+    },
+    {
+      "id": "/nlp",
+      "group": 3,
+      "name": "NLP",
+      "links": [
+        "/machine-learning"
       ]
     },
     {
@@ -3125,8 +3115,7 @@
       "name": "The Morning",
       "links": [
         "/time",
-        "/get-things-done",
-        "/get-things-done-selim"
+        "/get-things-done"
       ]
     },
     {
@@ -3165,7 +3154,6 @@
         "/work",
         "/teamwork",
         "/get-things-done",
-        "/get-things-done-selim",
         "/how-to-start-a-business"
       ]
     },
@@ -4392,43 +4380,6 @@
       ]
     },
     {
-      "id": "/design-patterns",
-      "group": 4,
-      "name": "Design Patterns",
-      "links": [
-        "/oop"
-      ]
-    },
-    {
-      "id": "/solid",
-      "group": 4,
-      "name": "SOLID",
-      "links": [
-        "/oop"
-      ]
-    },
-    {
-      "id": "/oop-designs",
-      "group": 4,
-      "name": "OOP designs",
-      "links": [
-        "/oop",
-        "/block",
-        "/design-a-bicycle",
-        "/design-a-book-app",
-        "/design-a-crm",
-        "/design-a-data-pipeline",
-        "/design-a-gov-cloud",
-        "/design-a-personal-note-publishing-system",
-        "/design-a-trader",
-        "/design-a-web-crawler",
-        "/design-auth",
-        "/design-oauth",
-        "/design-units",
-        "/design-video-streaming-app"
-      ]
-    },
-    {
       "id": "/c",
       "group": 4,
       "name": "C",
@@ -4687,6 +4638,68 @@
       ]
     },
     {
+      "id": "/design-patterns",
+      "group": 4,
+      "name": "Design Patterns",
+      "links": [
+        "/oop",
+        "/hacker-laws"
+      ]
+    },
+    {
+      "id": "/solid",
+      "group": 4,
+      "name": "SOLID",
+      "links": [
+        "/oop"
+      ]
+    },
+    {
+      "id": "/oop-designs",
+      "group": 4,
+      "name": "OOP designs",
+      "links": [
+        "/oop",
+        "/block",
+        "/design-a-bicycle",
+        "/design-a-book-app",
+        "/design-a-crm",
+        "/design-a-data-pipeline",
+        "/design-a-gov-cloud",
+        "/design-a-personal-note-publishing-system",
+        "/design-a-trader",
+        "/design-a-web-crawler",
+        "/design-auth",
+        "/design-oauth",
+        "/design-units",
+        "/design-video-streaming-app"
+      ]
+    },
+    {
+      "id": "/python-data-structures",
+      "group": 5,
+      "name": "Python Data Structures",
+      "links": [
+        "/python"
+      ]
+    },
+    {
+      "id": "/python-packages",
+      "group": 5,
+      "name": "Python Packages",
+      "links": [
+        "/python"
+      ]
+    },
+    {
+      "id": "/zen-of-python",
+      "group": 5,
+      "name": "Zen Of Python",
+      "links": [
+        "/python"
+      ]
+    },
+    {
       "id": "/block",
       "group": 5,
       "name": "Design a blockchain",
@@ -4788,30 +4801,6 @@
       "name": "Design Video Streaming App",
       "links": [
         "/oop-designs"
-      ]
-    },
-    {
-      "id": "/python-data-structures",
-      "group": 5,
-      "name": "Python Data Structures",
-      "links": [
-        "/python"
-      ]
-    },
-    {
-      "id": "/python-packages",
-      "group": 5,
-      "name": "Python Packages",
-      "links": [
-        "/python"
-      ]
-    },
-    {
-      "id": "/zen-of-python",
-      "group": 5,
-      "name": "Zen Of Python",
-      "links": [
-        "/python"
       ]
     }
   ],
@@ -5014,7 +5003,7 @@
     },
     {
       "source": "/natural-sciences",
-      "target": "/maxwells-equations"
+      "target": "/maxwell-equations"
     },
     {
       "source": "/natural-sciences",
@@ -5046,19 +5035,11 @@
     },
     {
       "source": "/skills",
-      "target": "/driving"
-    },
-    {
-      "source": "/skills",
       "target": "/drowning-does-not-look-dramatic"
     },
     {
       "source": "/skills",
       "target": "/exercise"
-    },
-    {
-      "source": "/skills",
-      "target": "/get-things-done-selim"
     },
     {
       "source": "/skills",
@@ -5070,11 +5051,11 @@
     },
     {
       "source": "/skills",
-      "target": "/how-to-gain-wealth"
+      "target": "/home-life"
     },
     {
       "source": "/skills",
-      "target": "/how-to-grow-old-russell-selim"
+      "target": "/how-to-gain-wealth"
     },
     {
       "source": "/skills",
@@ -5098,11 +5079,7 @@
     },
     {
       "source": "/skills",
-      "target": "/making-videos"
-    },
-    {
-      "source": "/skills",
-      "target": "/drawing"
+      "target": "/driving"
     },
     {
       "source": "/skills",
@@ -5122,23 +5099,15 @@
     },
     {
       "source": "/skills",
+      "target": "/parenting"
+    },
+    {
+      "source": "/skills",
       "target": "/photography"
     },
     {
       "source": "/skills",
-      "target": "/problem-solving-selim"
-    },
-    {
-      "source": "/skills",
       "target": "/problem-solving"
-    },
-    {
-      "source": "/skills",
-      "target": "/skills-selim"
-    },
-    {
-      "source": "/skills",
-      "target": "/submarine-shower"
     },
     {
       "source": "/skills",
@@ -5158,15 +5127,15 @@
     },
     {
       "source": "/skills",
+      "target": "/drawing"
+    },
+    {
+      "source": "/skills",
+      "target": "/making-videos"
+    },
+    {
+      "source": "/skills",
       "target": "/cooking"
-    },
-    {
-      "source": "/skills",
-      "target": "/mastery-selim"
-    },
-    {
-      "source": "/skills",
-      "target": "/children"
     },
     {
       "source": "/social-sciences",
@@ -5178,6 +5147,10 @@
     },
     {
       "source": "/social-sciences",
+      "target": "/books-social"
+    },
+    {
+      "source": "/social-sciences",
       "target": "/chaos"
     },
     {
@@ -5186,7 +5159,7 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/in-praise-of-idleness"
+      "target": "/law"
     },
     {
       "source": "/social-sciences",
@@ -5198,7 +5171,7 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/books-social"
+      "target": "/being-poor"
     },
     {
       "source": "/social-sciences",
@@ -5226,7 +5199,11 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/being-poor"
+      "target": "/architecture"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/system-thinking"
     },
     {
       "source": "/tech",
@@ -5242,10 +5219,6 @@
     },
     {
       "source": "/tech",
-      "target": "/thoughts-on-tech"
-    },
-    {
-      "source": "/tech",
       "target": "/databases"
     },
     {
@@ -5254,19 +5227,11 @@
     },
     {
       "source": "/tech",
+      "target": "/software-engineering"
+    },
+    {
+      "source": "/tech",
       "target": "/prompt-engineering"
-    },
-    {
-      "source": "/tech",
-      "target": "/nlp"
-    },
-    {
-      "source": "/tech",
-      "target": "/operating-systems"
-    },
-    {
-      "source": "/tech",
-      "target": "/machine-learning"
     },
     {
       "source": "/tech",
@@ -5274,35 +5239,15 @@
     },
     {
       "source": "/tech",
-      "target": "/the-joel-test"
+      "target": "/computers"
     },
     {
       "source": "/tech",
-      "target": "/domain-driven-design"
+      "target": "/thoughts-on-tech"
     },
     {
       "source": "/tech",
-      "target": "/core-concepts"
-    },
-    {
-      "source": "/tech",
-      "target": "/containers"
-    },
-    {
-      "source": "/tech",
-      "target": "/networks"
-    },
-    {
-      "source": "/tech",
-      "target": "/concurrency"
-    },
-    {
-      "source": "/tech",
-      "target": "/software-engineering"
-    },
-    {
-      "source": "/tech",
-      "target": "/code-review"
+      "target": "/machine-learning"
     },
     {
       "source": "/philosophy",
@@ -5371,6 +5316,10 @@
     {
       "source": "/philosophy",
       "target": "/ideal-insan"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/in-praise-of-idleness"
     },
     {
       "source": "/philosophy",
@@ -5722,7 +5671,15 @@
     },
     {
       "source": "/programming",
+      "target": "/api-definition"
+    },
+    {
+      "source": "/programming",
       "target": "/compsci"
+    },
+    {
+      "source": "/programming",
+      "target": "/concurrency"
     },
     {
       "source": "/programming",
@@ -5763,10 +5720,6 @@
     {
       "source": "/programming",
       "target": "/data-structures"
-    },
-    {
-      "source": "/programming",
-      "target": "/oop"
     },
     {
       "source": "/programming",
@@ -5869,46 +5822,6 @@
       "target": "/use-an-identity-service"
     },
     {
-      "source": "/thoughts-on-tech",
-      "target": "/44-engineering-management-lessons"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/a-free-web-again"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/choose-boring-tech"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/hacker-laws"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/hijacked-minds"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/is-tech-fast-or-slow"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/minimal-tech"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/social-media"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/software-analogies"
-    },
-    {
-      "source": "/thoughts-on-tech",
-      "target": "/software-quality"
-    },
-    {
       "source": "/databases",
       "target": "/acid"
     },
@@ -5954,6 +5867,10 @@
     },
     {
       "source": "/ux",
+      "target": "/hijacked-minds"
+    },
+    {
+      "source": "/ux",
       "target": "/natural-tech"
     },
     {
@@ -5969,12 +5886,40 @@
       "target": "/usability-testing"
     },
     {
+      "source": "/software-engineering",
+      "target": "/code-review"
+    },
+    {
+      "source": "/software-engineering",
+      "target": "/core-concepts"
+    },
+    {
+      "source": "/software-engineering",
+      "target": "/on-software"
+    },
+    {
+      "source": "/software-engineering",
+      "target": "/software-analogies"
+    },
+    {
+      "source": "/software-engineering",
+      "target": "/software-quality"
+    },
+    {
+      "source": "/software-engineering",
+      "target": "/the-joel-test"
+    },
+    {
       "source": "/prompt-engineering",
       "target": "/base-prompt"
     },
     {
       "source": "/prompt-engineering",
       "target": "/customize-prompt"
+    },
+    {
+      "source": "/prompt-engineering",
+      "target": "/ozlang"
     },
     {
       "source": "/prompt-engineering",
@@ -5987,6 +5932,54 @@
     {
       "source": "/prompt-engineering",
       "target": "/summary-prompt"
+    },
+    {
+      "source": "/system-design",
+      "target": "/choose-boring-tech"
+    },
+    {
+      "source": "/system-design",
+      "target": "/domain-driven-design"
+    },
+    {
+      "source": "/system-design",
+      "target": "/hacker-laws"
+    },
+    {
+      "source": "/system-design",
+      "target": "/minimal-tech"
+    },
+    {
+      "source": "/system-design",
+      "target": "/oop"
+    },
+    {
+      "source": "/computers",
+      "target": "/containers"
+    },
+    {
+      "source": "/computers",
+      "target": "/networks"
+    },
+    {
+      "source": "/computers",
+      "target": "/operating-systems"
+    },
+    {
+      "source": "/thoughts-on-tech",
+      "target": "/a-free-web-again"
+    },
+    {
+      "source": "/thoughts-on-tech",
+      "target": "/is-tech-fast-or-slow"
+    },
+    {
+      "source": "/thoughts-on-tech",
+      "target": "/social-media"
+    },
+    {
+      "source": "/machine-learning",
+      "target": "/nlp"
     },
     {
       "source": "/time",
@@ -6537,18 +6530,6 @@
       "target": "/string"
     },
     {
-      "source": "/oop",
-      "target": "/design-patterns"
-    },
-    {
-      "source": "/oop",
-      "target": "/solid"
-    },
-    {
-      "source": "/oop",
-      "target": "/oop-designs"
-    },
-    {
       "source": "/programming-languages",
       "target": "/c"
     },
@@ -6665,6 +6646,30 @@
       "target": "/vga-driver"
     },
     {
+      "source": "/oop",
+      "target": "/design-patterns"
+    },
+    {
+      "source": "/oop",
+      "target": "/solid"
+    },
+    {
+      "source": "/oop",
+      "target": "/oop-designs"
+    },
+    {
+      "source": "/python",
+      "target": "/python-data-structures"
+    },
+    {
+      "source": "/python",
+      "target": "/python-packages"
+    },
+    {
+      "source": "/python",
+      "target": "/zen-of-python"
+    },
+    {
       "source": "/oop-designs",
       "target": "/block"
     },
@@ -6717,18 +6722,6 @@
       "target": "/design-video-streaming-app"
     },
     {
-      "source": "/python",
-      "target": "/python-data-structures"
-    },
-    {
-      "source": "/python",
-      "target": "/python-packages"
-    },
-    {
-      "source": "/python",
-      "target": "/zen-of-python"
-    },
-    {
       "source": "/cinema",
       "target": "/documentaries"
     },
@@ -6766,7 +6759,7 @@
     },
     {
       "source": "/ship-it",
-      "target": "/thoughts-on-tech"
+      "target": "/on-software"
     },
     {
       "source": "/languages",
@@ -6882,11 +6875,7 @@
     },
     {
       "source": "/philosophy",
-      "target": "/how-to-grow-old-russell-selim"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/in-praise-of-idleness"
+      "target": "/how-to-grow-old-russell"
     },
     {
       "source": "/philosophy",
@@ -6906,23 +6895,11 @@
     },
     {
       "source": "/take-a-walk",
-      "target": "/get-things-done-selim"
-    },
-    {
-      "source": "/take-a-walk",
       "target": "/problem-solving"
-    },
-    {
-      "source": "/take-a-walk",
-      "target": "/problem-solving-selim"
     },
     {
       "source": "/the-morning",
       "target": "/get-things-done"
-    },
-    {
-      "source": "/the-morning",
-      "target": "/get-things-done-selim"
     },
     {
       "source": "/the-past",
@@ -6943,10 +6920,6 @@
     {
       "source": "/what-to-work-on",
       "target": "/get-things-done"
-    },
-    {
-      "source": "/what-to-work-on",
-      "target": "/get-things-done-selim"
     },
     {
       "source": "/what-to-work-on",
@@ -6978,11 +6951,11 @@
     },
     {
       "source": "/essais",
-      "target": "/get-things-done"
+      "target": "/in-praise-of-idleness"
     },
     {
       "source": "/essais",
-      "target": "/how-to-grow-old-russell-selim"
+      "target": "/how-to-grow-old-russell"
     },
     {
       "source": "/essais",
@@ -7042,7 +7015,7 @@
     },
     {
       "source": "/classical-physics",
-      "target": "/maxwells-equations"
+      "target": "/maxwell-equations"
     },
     {
       "source": "/natural-sciences",
@@ -7077,24 +7050,16 @@
       "target": "/problem-solving"
     },
     {
-      "source": "/critical-thinking",
-      "target": "/problem-solving-selim"
-    },
-    {
       "source": "/decisions",
       "target": "/choice"
     },
     {
       "source": "/decisions",
-      "target": "/get-things-done-selim"
-    },
-    {
-      "source": "/do-one-thing-at-a-time-and-do-it-well",
       "target": "/get-things-done"
     },
     {
       "source": "/do-one-thing-at-a-time-and-do-it-well",
-      "target": "/get-things-done-selim"
+      "target": "/get-things-done"
     },
     {
       "source": "/do-the-right-thing",
@@ -7107,10 +7072,6 @@
     {
       "source": "/humor",
       "target": "/the-tao-of-programming"
-    },
-    {
-      "source": "/leadership",
-      "target": "/44-engineering-management-lessons"
     },
     {
       "source": "/leadership",
@@ -7141,7 +7102,19 @@
       "target": "/programming"
     },
     {
+      "source": "/architecture",
+      "target": "/urban-planning"
+    },
+    {
       "source": "/economics",
+      "target": "/wage-theft"
+    },
+    {
+      "source": "/economics",
+      "target": "/wasted-talent"
+    },
+    {
+      "source": "/law",
       "target": "/wage-theft"
     },
     {
@@ -7174,7 +7147,7 @@
     },
     {
       "source": "/psychology",
-      "target": "/children"
+      "target": "/parenting"
     },
     {
       "source": "/psychology",
@@ -7225,12 +7198,8 @@
       "target": "/system-design"
     },
     {
-      "source": "/concurrency",
-      "target": "/armstrong-thesis"
-    },
-    {
-      "source": "/concurrency",
-      "target": "/producer-consumer-problem"
+      "source": "/operating-systems",
+      "target": "/containers"
     },
     {
       "source": "/b-trees",
@@ -7259,10 +7228,6 @@
     {
       "source": "/machine-learning",
       "target": "/predict-movie-genres"
-    },
-    {
-      "source": "/operating-systems",
-      "target": "/containers"
     },
     {
       "source": "/algorithms",
@@ -7455,6 +7420,10 @@
     {
       "source": "/longest-common-subsequence",
       "target": "/min-edit-distance"
+    },
+    {
+      "source": "/concurrency",
+      "target": "/producer-consumer-problem"
     },
     {
       "source": "/array",
@@ -7705,28 +7674,16 @@
       "target": "/programming"
     },
     {
+      "source": "/hacker-laws",
+      "target": "/design-patterns"
+    },
+    {
       "source": "/system-design",
       "target": "/akins-laws-of-spacecraft"
     },
     {
       "source": "/system-design",
       "target": "/distributed-systems"
-    },
-    {
-      "source": "/system-design",
-      "target": "/domain-driven-design"
-    },
-    {
-      "source": "/system-design",
-      "target": "/oop"
-    },
-    {
-      "source": "/system-design",
-      "target": "/choose-boring-tech"
-    },
-    {
-      "source": "/system-design",
-      "target": "/hacker-laws"
     },
     {
       "source": "/system-design",
@@ -7747,10 +7704,6 @@
     {
       "source": "/tech",
       "target": "/accessibility"
-    },
-    {
-      "source": "/ux",
-      "target": "/hijacked-minds"
     }
   ]
 }

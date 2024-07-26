@@ -1,9 +1,9 @@
+---
+---
 
 ## Ideas 
 
 R for random post
-
-S for search
 
 arrow keys to go back and forth between pages 
 

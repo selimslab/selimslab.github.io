@@ -148,6 +148,11 @@
     "philosophy",
     "turkce"
   ],
+  "/in-praise-of-idleness": [
+    "essais",
+    "phil",
+    "philosophy"
+  ],
   "/know-where-to-stop": [
     "philosophy"
   ],
@@ -471,7 +476,7 @@
     "natural-sciences",
     "psy"
   ],
-  "/maxwells-equations": [
+  "/maxwell-equations": [
     "natural-sciences"
   ],
   "/natural-sciences": [
@@ -503,10 +508,6 @@
   ],
   "/sales": [
     "business"
-  ],
-  "/children": [
-    "psy",
-    "skills"
   ],
   "/communication": [
     "skills"
@@ -557,25 +558,21 @@
   "/exercise": [
     "skills"
   ],
-  "/get-things-done-selim": [
-    "skills"
-  ],
   "/get-things-done": [
-    "essais",
     "skills"
   ],
   "/growing-plants": [
     "skills"
   ],
+  "/home-life": [
+    "skills"
+  ],
   "/how-to-gain-wealth": [
     "skills"
   ],
-  "/how-to-grow-old-russell-selim": [
+  "/how-to-grow-old-russell": [
     "essais",
     "phil",
-    "skills"
-  ],
-  "/how-to-grow-old-russell": [
     "skills"
   ],
   "/humor": [
@@ -594,9 +591,6 @@
   "/making-videos": [
     "skills"
   ],
-  "/mastery-selim": [
-    "skills"
-  ],
   "/mastery": [
     "essais",
     "skills"
@@ -611,24 +605,19 @@
     "skills",
     "sports"
   ],
-  "/photography": [
+  "/parenting": [
+    "psy",
     "skills"
   ],
-  "/problem-solving-selim": [
+  "/photography": [
     "skills"
   ],
   "/problem-solving": [
     "essais",
     "skills"
   ],
-  "/skills-selim": [
-    "skills"
-  ],
   "/skills": [
 
-  ],
-  "/submarine-shower": [
-    "skills"
   ],
   "/teaching": [
     "skills"
@@ -641,6 +630,9 @@
   ],
   "/used-car-checklist": [
     "skills"
+  ],
+  "/architecture": [
+    "social-sciences"
   ],
   "/being-poor": [
     "social-sciences"
@@ -655,8 +647,7 @@
   "/economics": [
     "social-sciences"
   ],
-  "/in-praise-of-idleness": [
-    "phil",
+  "/law": [
     "social-sciences"
   ],
   "/metaphors": [
@@ -834,27 +825,26 @@
     "social-sciences"
   ],
   "/urban-planning": [
+    "architecture",
     "social-sciences"
   ],
   "/wage-theft": [
     "economics",
+    "law",
     "social-sciences"
   ],
   "/wasted-talent": [
+    "economics",
     "social-sciences"
   ],
-  "/code-review": [
-    "tech"
-  ],
-  "/concurrency": [
-    "tech"
-  ],
   "/containers": [
-    "os",
-    "tech"
+    "os"
   ],
-  "/core-concepts": [
-    "tech"
+  "/networks": [
+
+  ],
+  "/operating-systems": [
+
   ],
   "/acid": [
     "databases"
@@ -927,21 +917,11 @@
   "/use-an-identity-service": [
     "distributed-systems"
   ],
-  "/domain-driven-design": [
-    "sys",
-    "tech"
-  ],
   "/machine-learning": [
     "tech"
   ],
-  "/networks": [
-    "tech"
-  ],
   "/nlp": [
-    "tech"
-  ],
-  "/operating-systems": [
-    "tech"
+    "machine-learning"
   ],
   "/algorithms": [
     "programming"
@@ -989,6 +969,9 @@
   ],
   "/vector-search": [
     "algorithms"
+  ],
+  "/api-definition": [
+    "programming"
   ],
   "/array-rotate": [
     "arr",
@@ -1264,6 +1247,9 @@
   "/compsci": [
     "programming"
   ],
+  "/concurrency": [
+    "programming"
+  ],
   "/array": [
     "data-structures"
   ],
@@ -1316,58 +1302,6 @@
   "/for-new-programmers": [
     "programming",
     "top"
-  ],
-  "/design-patterns": [
-    "oop"
-  ],
-  "/block": [
-    "oop-designs"
-  ],
-  "/design-a-bicycle": [
-    "oop-designs"
-  ],
-  "/design-a-book-app": [
-    "oop-designs"
-  ],
-  "/design-a-crm": [
-    "oop-designs"
-  ],
-  "/design-a-data-pipeline": [
-    "oop-designs"
-  ],
-  "/design-a-gov-cloud": [
-    "oop-designs"
-  ],
-  "/design-a-personal-note-publishing-system": [
-    "oop-designs"
-  ],
-  "/design-a-trader": [
-    "oop-designs"
-  ],
-  "/design-a-web-crawler": [
-    "oop-designs"
-  ],
-  "/design-auth": [
-    "oop-designs"
-  ],
-  "/design-oauth": [
-    "oop-designs"
-  ],
-  "/design-units": [
-    "oop-designs"
-  ],
-  "/design-video-streaming-app": [
-    "oop-designs"
-  ],
-  "/oop-designs": [
-    "oop"
-  ],
-  "/oop": [
-    "programming",
-    "sys"
-  ],
-  "/solid": [
-    "oop"
   ],
   "/c": [
     "programming-languages"
@@ -1507,6 +1441,9 @@
   "/customize-prompt": [
     "prompt-engineering"
   ],
+  "/ozlang": [
+    "prompt-engineering"
+  ],
   "/prompt-engineering": [
     "tech"
   ],
@@ -1558,8 +1495,92 @@
   "/xss": [
     "security"
   ],
+  "/code-review": [
+    "software-engineering"
+  ],
+  "/core-concepts": [
+    "software-engineering"
+  ],
+  "/on-software": [
+    "software-engineering"
+  ],
+  "/software-analogies": [
+    "software-engineering"
+  ],
   "/software-engineering": [
     "tech"
+  ],
+  "/software-quality": [
+    "software-engineering"
+  ],
+  "/the-joel-test": [
+    "software-engineering"
+  ],
+  "/choose-boring-tech": [
+    "system-design"
+  ],
+  "/domain-driven-design": [
+    "sys",
+    "system-design"
+  ],
+  "/hacker-laws": [
+    "sys",
+    "system-design"
+  ],
+  "/minimal-tech": [
+    "system-design"
+  ],
+  "/design-patterns": [
+    "oop"
+  ],
+  "/block": [
+    "oop-designs"
+  ],
+  "/design-a-bicycle": [
+    "oop-designs"
+  ],
+  "/design-a-book-app": [
+    "oop-designs"
+  ],
+  "/design-a-crm": [
+    "oop-designs"
+  ],
+  "/design-a-data-pipeline": [
+    "oop-designs"
+  ],
+  "/design-a-gov-cloud": [
+    "oop-designs"
+  ],
+  "/design-a-personal-note-publishing-system": [
+    "oop-designs"
+  ],
+  "/design-a-trader": [
+    "oop-designs"
+  ],
+  "/design-a-web-crawler": [
+    "oop-designs"
+  ],
+  "/design-auth": [
+    "oop-designs"
+  ],
+  "/design-oauth": [
+    "oop-designs"
+  ],
+  "/design-units": [
+    "oop-designs"
+  ],
+  "/design-video-streaming-app": [
+    "oop-designs"
+  ],
+  "/oop-designs": [
+    "oop"
+  ],
+  "/oop": [
+    "sys",
+    "system-design"
+  ],
+  "/solid": [
+    "oop"
   ],
   "/system-design": [
     "systems",
@@ -1568,45 +1589,14 @@
   "/tech": [
 
   ],
-  "/the-joel-test": [
-    "tech"
-  ],
-  "/44-engineering-management-lessons": [
-    "thoughts-on-tech"
-  ],
   "/a-free-web-again": [
-    "thoughts-on-tech"
-  ],
-  "/choose-boring-tech": [
-    "sys",
-    "thoughts-on-tech"
-  ],
-  "/hacker-laws": [
-    "sys",
-    "thoughts-on-tech"
-  ],
-  "/hijacked-minds": [
-    "soc",
-    "thoughts-on-tech",
-    "ux"
+
   ],
   "/is-tech-fast-or-slow": [
-    "thoughts-on-tech"
-  ],
-  "/minimal-tech": [
-    "thoughts-on-tech"
+
   ],
   "/social-media": [
-    "thoughts-on-tech"
-  ],
-  "/software-analogies": [
-    "thoughts-on-tech"
-  ],
-  "/software-quality": [
-    "thoughts-on-tech"
-  ],
-  "/thoughts-on-tech": [
-    "tech"
+
   ],
   "/accessibility": [
     "sys",
@@ -1614,6 +1604,10 @@
     "ux"
   ],
   "/evolution-of-computer-interfaces": [
+    "ux"
+  ],
+  "/hijacked-minds": [
+    "soc",
     "ux"
   ],
   "/natural-tech": [
@@ -1634,6 +1628,9 @@
     "web"
   ],
   "/about": [
+
+  ],
+  "/delta": [
 
   ],
   "/earth": [
