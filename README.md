@@ -32,9 +32,9 @@ Any file can link to any other using its id. With html, markdown, or [[wikilink]
 
 Pages list which other pages links to them (backlinks or incoming links)
 
-[2D Graph of all pages](https://selimslab.github.io/graph2D)
+[2D Graph of all pages](https://selimslab.github.io/graph-2d)
 
-[3D Graph of all pages](https://selimslab.github.io/graph3D)
+[3D Graph of all pages](https://selimslab.github.io/graph-3d)
 
 
 ## Tags 
