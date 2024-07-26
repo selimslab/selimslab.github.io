@@ -31,4 +31,3 @@ Don’t waste your time in anger, regrets, worries, and grudges. Life is too sho
 [[gratitude]]
 
 
-![](/assets/static/img/notice-when-you-are-happy.png)

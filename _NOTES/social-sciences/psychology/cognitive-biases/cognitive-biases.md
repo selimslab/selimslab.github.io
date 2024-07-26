@@ -41,6 +41,8 @@ People believe what they want yet we still try to prove something or to change p
 
 We can't read minds or predict other people yet we like to pretend so, as I am doing here  
 
+People see what they look for, and hear what they listen for.
+
 ---
 
 
