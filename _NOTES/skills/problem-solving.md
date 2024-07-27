@@ -17,4 +17,4 @@ tags: essais skills
 
 [Tag: problem-solving - Sketchplanations](https://sketchplanations.com/tags/problem-solving)
 
-![](/assets/static/point-positive.jpg)
+![](/assets/static/img/point-positive.jpg)
