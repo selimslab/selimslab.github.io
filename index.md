@@ -8,7 +8,7 @@ layout: page
 
 # Project Delta 
 
-A digital space to create, collect, and share
+A digital space for work and play. A garden, home, lab, garage, .. 
 
 ## Content
 
@@ -39,5 +39,3 @@ A digital space to create, collect, and share
 {% include random-idea.html %}
 
 {% include offline.html  %}
-
-add button to cache 
