@@ -211,7 +211,7 @@ details {
 html[data-theme='light'] {
 
   body {
-    background: linear-gradient(180deg,  $sunrise 0%, $lightBg 10%);
+    background: $lightBg;
     color: $darkText;
   }
 
