@@ -60,6 +60,7 @@ understood, as everybody knows, what a man is in the eyes of his
 fellowmen, or, more strictly, the light in which they regard him. This is
 shown by their opinion of him; and their opinion is in its turn manifested
 by the honor in which he is held, and by his rank and reputation.
+
 The differences which come under the first head are those which Nature
 herself has set between man and man; and from this fact alone we may at
 once infer that they influence the happiness or unhappiness of mankind in
@@ -97,6 +98,7 @@ reader to envy the poet because so many delightful things happened to
 him, instead of envying that mighty power of phantasy which was capable
 of turning a fairly common experience into something so great and
 beautiful.
+
 In the same way, a person of melancholy temperament will make a scene in
 a tragedy out of what appears to the sanguine man only in the light of an
 interesting conflict, and to a phlegmatic soul as something without any
@@ -133,6 +135,7 @@ compared with the imagination of Cervantes writing his Don Quixote in a
 miserable prison. The objective half of life and reality is in the hand of fate,
 and accordingly takes various forms in different cases: the subjective half is
 ourself, and in essentials is always remains the same.
+
 Hence the life of every man is stamped with the same character
 throughout, however much his external circumstances may alter; it is like a
 series of variations on a single theme. No one can get beyond his own
@@ -160,11 +163,13 @@ fool remains a fool, a dull blockhead, to his last hour, even though he were
 surrounded by houris in paradise. This is why Goethe, in the Westöstliclien
 Divan, says that every man, whether he occupies a low position
 in life, or emerges as its victor, testifies to personality as the greatest factor
-in happiness:—
+in happiness
+
 Volk und Knecht und Uberwinder
 Sie gestehen, zu jeder Zeit,
 Höchtes Glück der Erdenkinder
 Sei nur die Persönlichkeit.
+
 Everything confirms the fact that the subjective element in life is
 incomparably more important for our happiness and pleasure than the
 objective, from such sayings as Hunger is the best sauce, and Youth and
@@ -188,8 +193,10 @@ constant delight of a special individuality, with a high degree of intellect,
 most of the pleasures which are run after by mankind are simply
 superfluous; they are even a trouble and a burden. And so Horace says of
 himself, that, however many are deprived of the fancy-goods of life, there
-is one at least who can live without them:—
+is one at least who can live without them
+
 Gemmas, marmor, ebur, Tyrrhena sigilla, tabellas, Argentum, vestes,
+
 Gaetulo murice tinctas Sunt qui non habeant, est qui non curat habere;
 and when Socrates saw various articles of luxury spread out for sale, he
 exclaimed: How much there is in the world I do not want.
@@ -216,7 +223,8 @@ an unalterable destiny is assigned to every man at the hour of his birth, so
 that he can develop only in the lines laid down for him, as it were, by the
 conjunctions of the stars: and how the Sybil and the prophets declare that
 himself a man can never escape, nor any power of time avail to change the
-path on which his life is cast:—
+path on which his life is cast
+
 Wie an dem Tag, der dich der Welt verliehen,
 Dïe Sonne stand zum Grusse der Planeten,
 Bist alsobald und fort und fort gediehen,
@@ -225,12 +233,14 @@ So musst du sein, dir kannst du nicht entfliehen,
 So tagten schon Sybillen und Propheten;
 Und keine Zeit, und keine Macht zerstückelt
 Geprägte Form, die lebend sich entwickelt.
+
 The only thing that stands in our power to achieve, is to make the most
 advantageous use possible of the personal qualities we possess, and
 accordingly to follow such pursuits only as will call them into play, to
 strive after the kind of perfection of which they admit and to avoid every
 other; consequently, to choose the position, occupation and manner of life
 which are most suitable for their development.
+
 Imagine a man endowed with herculean strength who is compelled by
 circumstances to follow a sedentary occupation, some minute exquisite
 work of the hands, for example, or to engage in study and mental labor
@@ -244,6 +254,7 @@ perhaps, for which his strength is insufficient. Still, in a case of this kind, 
 should be our care, especially in youth, to avoid the precipice of
 presumption, and not ascribe to ourselves a superfluity of power which is
 not there.
+
 Since the blessings described under the first head decidedly outweigh
 those contained under the other two, it is manifestly a wiser course to aim
 at the maintenance of our health and the cultivation of our faculties, than at
@@ -272,6 +283,7 @@ gold, which he leaves to his heir, either to make it still larger, or to
 squander it in extravagance. A life like this, though pursued with a sense of
 earnestness and an air of importance, is just as silly as many another which
 has a fool's cap for its symbol.
+
 What a man has in himself is, then, the chief element in his happiness.
 Because this is, as a rule, so very little, most of those who are placed
 beyond the struggle with penury feel at bottom quite as unhappy as those
@@ -289,6 +301,7 @@ make his external wealth compensate for his inner poverty, by trying to
 obtain everything from without, like an old man who seeks to strengthen
 himself as King David or Maréchal de Rex tried to do. And so in the end
 one who is inwardly poor comes to be also poor outwardly.
+
 I need not insist upon the importance of the other two kinds of blessings
 which make up the happiness of human life; now-a-days the value of
 possessing them is too well known to require advertisement. The third
@@ -303,6 +316,7 @@ prefer rank to property. The second and third classes, moreover, are
 reciprocally cause and effect; so far, that is, as Petronius' maxim, habes
 habeberis, is true; and conversely, the favor of others, in all its forms, often
 puts us in the way of getting what we want.
+
 ## CHAPTER II.
 PERSONALITY, OR WHAT A MAN IS.
 We have already seen, in general, that what a man is contributes much
@@ -325,12 +339,15 @@ and welfare. All else is mediate and indirect, and its influence can be
 neutralized and frustrated; but the influence of personality never. This is
 why the envy which personal qualities excite is the most implacable of
 all,—as it is also the most carefully dissembled.
+
 Further, the constitution of our consciousness is the ever present and
 lasting element in all we do or suffer; our individuality is persistently at
 work, more or less, at every moment of our life: all other influences are
 temporal, incidental, fleeting, and subject to every kind of chance and
 change. This is why Aristotle says: It is not wealth but character that lasts.
+
 [Greek: —hae gar phusis bebion ou ta chraemata]
+
 And just for the same reason we can more easily bear a misfortune which
 comes to us entirely from without, than one which we have drawn upon
 ourselves; for fortune may always change, but not character. Therefore,
@@ -340,6 +357,7 @@ in a word,mens sana in corpore sano, are the first and most important
 elements in happiness; so that we should be more intent on promoting and
 preserving such qualities than on the possession of external wealth and
 external honor.
+
 And of all these, the one which makes us the most directly happy is a
 genial flow of good spirits; for this excellent quality is its own immediate
 reward. The man who is cheerful and merry has always a good reason for
@@ -363,6 +381,7 @@ immediately happy in the present moment, and that is the highest blessing
 for beings like us, whose existence is but an infinitesimal moment between
 two eternities. To secure and promote this feeling of cheerfulness should be
 the supreme aim of all our endeavors after happiness.
+
 Now it is certain that nothing contributes so little to cheerfulness as riches,
 or so much, as health. Is it not in the lower classes, the so-called working
 classes, more especially those of them who live in the country, that we see
@@ -392,6 +411,7 @@ of it produces effects like those of emotion which we are obliged to
 suppress. Even trees must be shaken by the wind, if they are to thrive. The
 rule which finds its application here may be most briefly expressed in
 Latin: omnis motus, quo celerior, eo magis motus.
+
 How much our happiness depends upon our spirits, and these again upon
 our state of health, may be seen by comparing the influence which the
 same external circumstances or events have upon us when we are well and
@@ -411,6 +431,7 @@ follows from all this that the greatest of follies is to sacrifice health for an
 other kind of happiness, whatever it may be, for gain, advancement,
 learning or fame, let alone, then, for fleeting sensual pleasures. Everything
 else should rather be postponed to it.
+
 But however much health may contribute to that flow of good spirits which
 is so essential to our happiness, good spirits do not entirely depend upon
 health; for a man may be perfectly sound in his physique and still possess a
@@ -433,6 +454,7 @@ And laugh, like parrots at a bag-piper;
 And others of such vinegar aspect,
 That they'll not show their teeth in way of smile,
 Though Nestor swear the jest be laughable.
+
 This is the difference which Plato draws between [Greek: eukolos] and
 [Greek: dyskolos]—the man of easy, and the man of difficult disposition—
 in proof of which he refers to the varying degrees of susceptibility which
@@ -479,6 +501,7 @@ There are countless steps in the scale between the two extremes of suicide,
 the suicide which springs merely from a morbid intensification of innate
 gloom, and the suicide of the healthy and cheerful man, who has entirely
 objective grounds for putting an end to his existence.
+
 Beauty is partly an affair of health. It may be reckoned as a personal
 advantage; though it does not, properly speaking, contribute directly to our
 happiness. It does so indirectly, by impressing other people; and it is no
@@ -489,6 +512,7 @@ be thrown away, that glorious gift which none can bestow save the gods
 alone—
 [Greek: outoi hapoblaet erti theon erikuoea dora, ossa ken autoi dosin,
 ekon douk an tis eloito].
+
 The most general survey shows us that the two foes of human happiness
 are pain and boredom. We may go further, and say that in the degree in
 which we are fortunate enough to get away from the one, we approach the
@@ -524,6 +548,7 @@ in the multifarious phenomena of self and nature, and able and ready to
 form new combinations of them,—there you have something that
 invigorates the mind, and apart from moments of relaxation, sets it far
 above the reach of boredom.
+
 But, on the other hand, this high degree of intelligence is rooted in a high
 degree of susceptibility, greater strength of will, greater passionateness;
 and from the union of these qualities comes an increased capacity for
@@ -548,6 +573,7 @@ people can be to him. This is why a high degree of intellect tends to make a
 man unsocial. True, if quality of intellect could be made up for by quantity,
 it might be worth while to live even in the great world; but unfortunately, a
 hundred fools together will not make one wise man.
+
 But the individual who stands at the other end of the scale is no sooner free
 from the pangs of need than he endeavors to get pastime and society at any
 cost, taking up with the first person he meets, and avoiding nothing so
@@ -567,6 +593,7 @@ reading once in a French paper that the blacks in North America, whether
 free or enslaved, are fond of shutting themselves up in large numbers in
 the smallest space, because they cannot have too much of one another's
 snub-nosed company.
+
 The brain may be regarded as a kind of parasite of the organism, a
 pensioner, as it were, who dwells with the body: and leisure, that is, the
 time one has for the free enjoyment of one's consciousness or individuality,
@@ -629,6 +656,7 @@ everything a man has ultimately to appeal to himself; or, as Goldsmith puts
 it in The Traveller:
 Still to ourselves in every place consign'd Our own felicity we make or
 find.
+
 Himself is the source of the best and most a man can be or achieve. The
 more this is so—the more a man finds his sources of pleasure in himself—
 the happier he will be. Therefore, it is with great truth that Aristotle says,
@@ -652,6 +680,7 @@ doubt, the happiest destiny on earth is to have the rare gift of a rich
 individuality, and, more especially to be possessed of a good endowment
 of intellect; this is the happiest destiny, though it may not be, after all, a
 very brilliant one.
+
 There was a great wisdom in that remark which Queen Christina of
 Sweden made, in her nineteenth year, about Descartes, who had then lived
 for twenty years in the deepest solitude in Holland, and, apart from report,
@@ -672,6 +701,7 @@ order to conform to low desires and vulgar tastes; nay, in such a case he
 will follow the advice that Horace gives in his epistle to Maecenas.
 Nec somnum plebis laudo, satur altilium, nec Otia divitiis Arabum
 liberrima muto.
+
 It is a great piece of folly to sacrifice the inner for the outer man, to give the
 whole or the greater part of one's quiet, leisure and independence for
 splendor, rank, pomp, titles and honor. This is what Goethe did. My good
@@ -700,6 +730,7 @@ returns thither, because he is no better off outside;—or else he is away in
 post-haste to his house in the country, as if it were on fire; and he is no
 sooner arrived there, than he is bored again, and seeks to forget everything
 in sleep, or else hurries back to town once more.
+
 Exit saepe foras magnis ex aedibus ille,
 Esse domi quem pertaesum est, subitoque reventat,
 Quippe foris nihilo melius qui sentiat esse.
@@ -708,6 +739,7 @@ Auxilium tectis quasi ferre ardentibus instans:
 Oscitat extemplo, tetigit quum limina villae;
 Aut abit in somnum gravis, atque oblivia quaerit;
 Aut etiam properans urbem petit atque revisit.
+
 In their youth, such people must have had a superfluity of muscular and
 vital energy,—powers which, unlike those of the mind, cannot maintain
 their full degree of vigor very long; and in later years they either have no
@@ -727,6 +759,7 @@ considering these powers by themselves, and apart from any of the definite
 aims which they may subserve, and simply as affording three sources of
 possible pleasure, out of which every man will choose what suits him,
 according as he excels in one direction or another.
+
 First of all come the pleasures of vital energy, of food, drink, digestion, rest
 and sleep; and there are parts of the world where it can be said that these
 are characteristic and national pleasures. Secondly, there are the pleasures
@@ -749,6 +782,7 @@ powers are forms of sensibility, and therefore a preponderating amount of
 it makes us capable of that kind of pleasure which has to do with mind, socalled
 intellectual pleasure; and the more sensibility predominates, the
 greater the pleasure will be.
+
 The normal, ordinary man takes a vivid interest in anything only in so far
 as it excites his will, that is to say, is a matter of personal interest to him.
 But constant excitement of the will is never an unmixed good, to say the
@@ -757,6 +791,7 @@ occupation of "good society" everywhere, is a device for providing this
 kind of excitement, and that, too, by means of interests so small as to
 produce slight and momentary, instead of real and permanent, pain. Cardplaying
 is, in fact, a mere tickling of the will.
+
 On the other hand, a man of powerful intellect is capable of taking a vivid
 interest in things in the way of mere knowledge, with no admixture of will;
 nay, such an interest is a necessity to him. It places him in a sphere where
@@ -798,6 +833,7 @@ with which, a life devoted to the attainment of personal comfort, a life that
 may broaden indeed, but can never be deepened, makes but a poor show:
 and yet, as I have said, people make this baser sort of existence an end in
 itself.
+
 The ordinary life of every day, so far as it is not moved by passion, is
 tedious and insipid; and if it is so moved, it soon becomes painful. Those
 alone are happy whom nature has favored with some superfluity of
@@ -818,6 +854,7 @@ misfortunes, losses and extravagances which the man who places his
 happiness entirely in the objective world is sure to encounter, My
 philosophy, for instance, has never brought me in a six-pence; but it has
 spared me many an expense.
+
 The ordinary man places his life's happiness in things external to him, in
 property, rank, wife and children, friends, society, and the like, so that
 when he loses them or finds them disappointing, the foundation of his
@@ -850,6 +887,7 @@ philosophy. Hence, undisturbed occupation with himself, his own
 thoughts and works, is a matter of urgent necessity to such a man; solitude
 is welcome, leisure is the highest good, and everything else is unnecessary,
 nay, even burdensome.
+
 This is the only type of man of whom it can be said that his centre of
 gravity is entirely in himself; which explains why it is that people of this
 sort—and they are very rare—no matter how excellent their character may
@@ -862,6 +900,7 @@ whole, of a different nature: nay more, since this difference is constantly
 forcing itself upon their notice they get accustomed to move about amongst
 mankind as alien beings, and in thinking of humanity in general, to say
 they instead of we.
+
 So the conclusion we come to is that the man whom nature has endowed
 with intellectual wealth is the happiest; so true it is that the subjective
 concerns us more than the objective; for whatever the latter may be, it can
@@ -869,6 +908,7 @@ work only indirectly, secondly, and through the medium of the former—a
 truth finely expressed by Lucian:—
 [Greek: Aeloutos ho taes psychaes ploutus monos estin alaethaes
 Talla dechei ataen pleiona ton kteanon—]
+
 the wealth of the soul is the only true wealth, for with all other riches
 comes a bane even greater than they. The man of inner wealth wants
 nothing from outside but the negative gift of undisturbed leisure, to
@@ -887,6 +927,7 @@ free exercise of any power, whatever it may be, is happiness. This again,
 tallies with what Goethe says in Wilhelm Meister: The man who is born
 with a talent which he is meant to use, finds his greatest happiness in using
 it.
+
 But to be in possession of undisturbed leisure, is far from being the
 common lot; nay, it is something alien to human nature, for the ordinary
 man's destiny is to spend life in procuring what is necessary for the
@@ -908,6 +949,7 @@ sources of human suffering, pain and boredom, from the painful struggle
 for existence, and the incapacity for enduring leisure (which is free
 existence itself)—evils which may be escaped only by being mutually
 neutralized.
+
 But there is something to be said in opposition to this view. Great
 intellectual gifts mean an activity pre-eminently nervous in its character,
 and consequently a very high degree of susceptibility to pain in every
@@ -938,6 +980,7 @@ The life of a fool is worse than death
 and—
 In much wisdom is much grief; and he that increaseth knowledge
 increaseth sorrow.
+
 I may remark, however, that a man who has no mental needs, because his
 intellect is of the narrow and normal amount, is, in the strict sense of the
 word, what is called a philistine—an expression at first peculiar to the
@@ -978,6 +1021,7 @@ of wealth, or rank, or influence and power to other people, who thereupon
 pay him honor; or, at any rate, by going about with those who have a
 superfluity of these blessings, sunning himself in the reflection of their
 splendor—what the English call a snob.
+
 From the essential nature of the philistine it follows, secondly, in regard to
 others, that, as he possesses no intellectual, but only physical need, he will
 seek the society of those who can satisfy the latter, but not the former. The
@@ -997,6 +1041,7 @@ that, to escape being bored, they are in constant need of realities. But
 realities are either unsatisfactory or dangerous; when they lose their
 interest, they become fatiguing. But the ideal world is illimitable and calm,
 something afar From the sphere of our sorrow.
+
 ## CHAPTER III.
 PROPERTY, OR WHAT A MAN HAS.
 Epicurus divides the needs of mankind into three classes, and the division
@@ -1508,6 +1553,7 @@ other nations, and all are right.
 The contents of this chapter, which treats, as I have said, of what we
 represent in the world, or what we are in the eyes of others, may be further
 distributed under three heads: honor rank and fame.
+
 Section 3.—Rank.
 Let us take rank first, as it may be dismissed in a few words, although it
 plays an important part in the eyes of the masses and of the philistines, and
@@ -1515,6 +1561,7 @@ is a most useful wheel in the machinery of the State.
 It has a purely conventional value. Strictly speaking, it is a sham; its
 method is to exact an artificial respect, and, as a matter of fact, the whole
 thing is a mere farce.
+
 Orders, it may be said, are bills of exchange drawn on public opinion, and
 the measure of their value is the credit of the drawer. Of course, as a
 substitute for pensions, they save the State a good deal of money; and,
@@ -1531,6 +1578,7 @@ too great numbers: a prince should be as careful in conferring them as a
 man of business is in signing a bill. It is a pleonasm to inscribe on any order
 for distinguished service; for every order ought to be for distinguished
 service. That stands to reason.
+
 Section 4.—Honor.
 Honor is a much larger question than rank, and more difficult to discuss.
 Let us begin by trying to define it.
@@ -1542,6 +1590,7 @@ people's opinion of what we are worth; on its subjective side, it is the
 respect we pay to this opinion. From the latter point of view, to be a man of
 honor is to exercise what is often a very wholesome, but by no means a
 purely moral, influence.
+
 The feelings of honor and shame exist in every man who is not utterly
 depraved, and honor is everywhere recognized as something particularly
 valuable. The reason of this is as follows. By and in himself a man can
@@ -1554,6 +1603,7 @@ thereby acquiring a right to the benefits of social life. Now, to be a useful
 member of society, one must do two things: firstly, what everyone is
 expected to do everywhere; and, secondly, what one's own particular
 position in the world demands and requires.
+
 But a man soon discovers that everything depends upon his being useful,
 not in his own opinion, but in the opinion of others; and so he tries his best
 to make that favorable impression upon the world, to which he attaches
@@ -1568,6 +1618,7 @@ as the attainment or renewal of the conviction that other people regard him
 with favor; because it means that everyone joins to give him help and
 protection, which is an infinitely stronger bulwark against the ills of life
 than anything he can do himself.
+
 The variety of relations in which a man can stand to other people so as to
 obtain their confidence, that is, their good opinion, gives rise to a
 distinction between several kinds of honor, resting chiefly on the different
@@ -1575,6 +1626,7 @@ bearings that meum may take to tuum; or, again, on the performance of
 various pledges; or finally, on the relation of the sexes. Hence, there are
 three main kinds of honor, each of which takes various forms—civic honor,
 official honor, and sexual honor.
+
 Civic honor has the widest sphere of all. It consists in the assumption that
 we shall pay unconditional respect to the rights of others, and, therefore,
 never use any unjust or unlawful means of getting what we want. It is the
@@ -1598,12 +1650,14 @@ him; as, otherwise, he would bring these forward as the premises, and rely
 upon his hearers to draw the conclusion themselves: instead of which, he
 gives the conclusion and leaves out the premises, trusting that people will
 suppose that he has done so only for the sake of being brief.
+
 Civic honor draws its existence and name from the middle classes; but it
 applies equally to all, not excepting the highest. No man can disregard it,
 and it is a very serious thing, of which every one should be careful not to
 make light. The man who breaks confidence has for ever forfeited
 confidence, whatever he may do, and whoever he may be; and the bitter
 consequences of the loss of confidence can never be averted.
+
 There is a sense in which honor may be said to have a negative character in
 opposition to the positive character of fame. For honor is not the opinion
 people have of particular qualities which a man may happen to possess
@@ -1620,6 +1674,7 @@ and leaves undone, and has nothing to do with the actions of others or the
 obstacles they place in his way. It is something entirely in our own
 power—[Greek: ton ephaemon]. This distinction, as we shall see presently,
 marks off true honor from the sham honor of chivalry.
+
 Slander is the only weapon by which honor can be attacked from without;
 and the only way to repel the attack is to confute the slander with the
 proper amount of publicity, and a due unmasking of him who utters it.
@@ -1637,6 +1692,7 @@ fact that white hair always commands reverence—a reverence really innate
 and instinctive. Wrinkles—a much surer sign of old age—command no
 reverence at all; you never hear any one speak of venerable wrinkles; but
 venerable white hair is a common expression.
+
 Honor has only an indirect value. For, as I explained at the beginning of
 this chapter, what other people think of us, if it affects us at all, can affect
 us only in so far as it governs their behavior towards us, and only just so
@@ -1669,6 +1725,7 @@ however much this degree may be modified by the capacity of the masses
 to form any notion of its importance. Still, as a matter of fact, greater honor
 is paid to a man who fulfills special duties than to the common citizen,
 whose honor mainly consists in keeping clear of dishonor.
+
 Official honor demands, further, that the man who occupies an office must
 maintain respect for it, for the sake both of his colleagues and of those who
 will come after him. This respect an official can maintain by a proper
@@ -1678,6 +1735,7 @@ over unheeded any statement to the effect that the duties of the office are
 not properly discharged, or that the office itself does not conduce to the
 public welfare. He must prove the unwarrantable nature of such attacks by
 enforcing the legal penalty for them.
+
 Subordinate to the honor of official personages comes that of those who
 serve the State in any other capacity, as doctors, lawyers, teachers, anyone,
 in short, who, by graduating in any subject, or by any other public
@@ -1692,6 +1750,7 @@ any circumstances desert the flag to which they have once sworn
 allegiance. I have here taken official honor in a wider sense than that in
 which it is generally used, namely, the respect due by citizens to an office
 itself.
+
 In treating of sexual honor and the principles on which it rests, a little more
 attention and analysis are necessary; and what I shall say will support my
 contention that all honor really rests upon a utilitarian basis. There are two
@@ -1699,6 +1758,7 @@ natural divisions of the subject—the honor of women and the honor of
 men, in either side issuing in a well-understood esprit de corps. The former
 is by far the more important of the two, because the most essential feature
 in woman's life is her relation to man.
+
 Female honor is the general opinion in regard to a girl that she is pure, and
 in regard to a wife that she is faithful. The importance of this opinion rests
 upon the following considerations. Women depend upon men in all the
