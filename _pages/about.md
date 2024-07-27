@@ -3,9 +3,9 @@ layout: page
 title: Welcome, friend!
 ---
 
-This is Selim, yet another being on Planet Earth. 
+This is Selim, yet another being on Planet Earth
 
-Writing here to share and remember.
+Writing here to share and remember
 
 [github.com/selimslab](https://github.com/selimslab)
 

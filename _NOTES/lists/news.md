@@ -6,4 +6,6 @@
 
 [Hacker News sorted by time](https://hckrnews.com/)
 
-[All Time Best - Hacker News Top Links (hntoplinks.com)](https://www.hntoplinks.com/all)
+[All Time Best - Hacker News Top Links (hntoplinks.com)](https://www.hntoplinks.com/all/5)
+
+

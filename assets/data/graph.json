@@ -22,11 +22,13 @@
         "/root",
         "/philosophy",
         "/poetry",
-        "/literature",
         "/siir",
         "/languages",
+        "/literature",
+        "/music",
         "/design",
-        "/cinema"
+        "/cinema",
+        "/paintings"
       ]
     },
     {
@@ -41,19 +43,21 @@
         "/datasets",
         "/documentaries",
         "/essais",
-        "/film-scores",
         "/games",
         "/history-of-technology",
         "/ideas",
-        "/movies",
         "/nato-phonetic-alphabet",
         "/news",
         "/paintings",
-        "/reading-list",
         "/since-big-bang",
+        "/to-read",
+        "/to-watch",
         "/web-experiments",
         "/classics",
-        "/modern-greek-alphabet"
+        "/film-scores",
+        "/modern-greek-alphabet",
+        "/movies",
+        "/turk-sanatcilar"
       ]
     },
     {
@@ -147,26 +151,20 @@
         "/root",
         "/psychology",
         "/politics",
-        "/books-social",
-        "/chaos",
         "/economics",
-        "/law",
-        "/metaphors",
-        "/outgroup",
-        "/being-poor",
-        "/social-class",
+        "/sociology",
         "/systems",
+        "/law",
+        "/books-social",
+        "/being-poor",
         "/urban-planning",
-        "/wage-theft",
-        "/wasted-talent",
-        "/social-change",
         "/architecture",
-        "/system-thinking",
         "/cognitive-biases",
         "/freedom",
         "/happiness",
         "/how-to-start",
         "/learning",
+        "/metaphors",
         "/questioning-people-seen-as-a-threat-to-status-quo",
         "/solitude",
         "/stupidity",
@@ -185,14 +183,12 @@
         "/databases",
         "/ux",
         "/software-engineering",
-        "/prompt-engineering",
         "/system-design",
         "/computers",
         "/thoughts-on-tech",
         "/machine-learning",
         "/akins-laws-of-spacecraft",
         "/history-of-technology",
-        "/since-big-bang",
         "/accessibility"
       ]
     },
@@ -217,6 +213,7 @@
         "/freedom",
         "/friends",
         "/good-and-evil",
+        "/gratitude",
         "/happiness",
         "/ideal-insan",
         "/in-praise-of-idleness",
@@ -269,6 +266,43 @@
       ]
     },
     {
+      "id": "/siir",
+      "group": 2,
+      "name": "Şiirler",
+      "links": [
+        "/arts",
+        "/abbas",
+        "/asik-veysel",
+        "/bingol-cobanlari",
+        "/can-yucel",
+        "/edip-cansever",
+        "/fuzuli",
+        "/if-ecevit",
+        "/isyan",
+        "/melih-cevdet",
+        "/nazim",
+        "/orhan-veli",
+        "/yunus-emre",
+        "/turkce",
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/languages",
+      "group": 2,
+      "name": "Languages",
+      "links": [
+        "/arts",
+        "/deutsch",
+        "/english",
+        "/latin",
+        "/metaphors",
+        "/modern-greek-alphabet",
+        "/turkce",
+        "/cestina"
+      ]
+    },
+    {
       "id": "/literature",
       "group": 2,
       "name": "Literature",
@@ -285,33 +319,17 @@
       ]
     },
     {
-      "id": "/siir",
+      "id": "/music",
       "group": 2,
-      "name": "Şiirler",
+      "name": "Music",
       "links": [
         "/arts",
-        "/can-yucel",
-        "/fuzuli",
-        "/if-ecevit",
-        "/isyan",
-        "/nazim",
-        "/orhan-veli",
-        "/turkce",
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/languages",
-      "group": 2,
-      "name": "Languages",
-      "links": [
-        "/arts",
-        "/deutsch",
-        "/latin",
-        "/modern-greek-alphabet",
-        "/turkce",
-        "/cestina",
-        "/metaphors"
+        "/classical-music",
+        "/electro-house",
+        "/film-scores",
+        "/rap",
+        "/rock",
+        "/turk-sanatcilar"
       ]
     },
     {
@@ -335,9 +353,9 @@
       "name": "Cinema",
       "links": [
         "/arts",
-        "/documentaries",
+        "/movies",
         "/film-scores",
-        "/movies"
+        "/documentaries"
       ]
     },
     {
@@ -393,20 +411,11 @@
         "/how-to-grow-old-russell",
         "/mastery",
         "/problem-solving",
-        "/outgroup",
         "/farming-trap",
         "/look-down-and-around",
         "/the-triumph-of-stupidity",
-        "/who-goes-nazi"
-      ]
-    },
-    {
-      "id": "/film-scores",
-      "group": 2,
-      "name": "Film Scores",
-      "links": [
-        "/lists",
-        "/cinema"
+        "/who-goes-nazi",
+        "/outgroup"
       ]
     },
     {
@@ -436,15 +445,6 @@
       ]
     },
     {
-      "id": "/movies",
-      "group": 2,
-      "name": "Movies 🎬",
-      "links": [
-        "/lists",
-        "/cinema"
-      ]
-    },
-    {
       "id": "/nato-phonetic-alphabet",
       "group": 2,
       "name": "NATO phonetic alphabet",
@@ -463,17 +463,10 @@
     {
       "id": "/paintings",
       "group": 2,
-      "name": "Paintings 🎨",
+      "name": "Paintings",
       "links": [
-        "/lists"
-      ]
-    },
-    {
-      "id": "/reading-list",
-      "group": 2,
-      "name": "Reading List",
-      "links": [
-        "/lists"
+        "/lists",
+        "/arts"
       ]
     },
     {
@@ -483,8 +476,23 @@
       "links": [
         "/lists",
         "/natural-sciences",
-        "/history",
-        "/tech"
+        "/history"
+      ]
+    },
+    {
+      "id": "/to-read",
+      "group": 2,
+      "name": "To Read",
+      "links": [
+        "/lists"
+      ]
+    },
+    {
+      "id": "/to-watch",
+      "group": 2,
+      "name": "To Watch",
+      "links": [
+        "/lists"
       ]
     },
     {
@@ -1014,23 +1022,6 @@
       ]
     },
     {
-      "id": "/books-social",
-      "group": 2,
-      "name": "Books",
-      "links": [
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/chaos",
-      "group": 2,
-      "name": "Chaos",
-      "links": [
-        "/social-sciences",
-        "/systems"
-      ]
-    },
-    {
       "id": "/economics",
       "group": 2,
       "name": "Economics",
@@ -1038,6 +1029,28 @@
         "/social-sciences",
         "/wage-theft",
         "/wasted-talent"
+      ]
+    },
+    {
+      "id": "/sociology",
+      "group": 2,
+      "name": "Sociology",
+      "links": [
+        "/social-sciences",
+        "/outgroup",
+        "/social-change",
+        "/social-class"
+      ]
+    },
+    {
+      "id": "/systems",
+      "group": 2,
+      "name": "Systems thinking",
+      "links": [
+        "/social-sciences",
+        "/chaos",
+        "/natural-sciences",
+        "/system-design"
       ]
     },
     {
@@ -1050,21 +1063,11 @@
       ]
     },
     {
-      "id": "/metaphors",
+      "id": "/books-social",
       "group": 2,
-      "name": "Metaphors",
+      "name": "Books",
       "links": [
-        "/social-sciences",
-        "/languages"
-      ]
-    },
-    {
-      "id": "/outgroup",
-      "group": 2,
-      "name": "Outgroup",
-      "links": [
-        "/social-sciences",
-        "/essais"
+        "/social-sciences"
       ]
     },
     {
@@ -1073,25 +1076,6 @@
       "name": "Being Poor",
       "links": [
         "/social-sciences"
-      ]
-    },
-    {
-      "id": "/social-class",
-      "group": 2,
-      "name": "Social Class",
-      "links": [
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/systems",
-      "group": 2,
-      "name": "Systems thinking",
-      "links": [
-        "/social-sciences",
-        "/natural-sciences",
-        "/chaos",
-        "/system-design"
       ]
     },
     {
@@ -1104,34 +1088,6 @@
       ]
     },
     {
-      "id": "/wage-theft",
-      "group": 2,
-      "name": "Wage Theft",
-      "links": [
-        "/social-sciences",
-        "/economics",
-        "/law"
-      ]
-    },
-    {
-      "id": "/wasted-talent",
-      "group": 2,
-      "name": "Wasted Talent",
-      "links": [
-        "/social-sciences",
-        "/business",
-        "/economics"
-      ]
-    },
-    {
-      "id": "/social-change",
-      "group": 2,
-      "name": "Social Change",
-      "links": [
-        "/social-sciences"
-      ]
-    },
-    {
       "id": "/architecture",
       "group": 2,
       "name": "Architecture",
@@ -1141,27 +1097,18 @@
       ]
     },
     {
-      "id": "/system-thinking",
-      "group": 2,
-      "name": "System-thinking",
-      "links": [
-        "/social-sciences"
-      ]
-    },
-    {
       "id": "/programming",
       "group": 2,
       "name": "Programming",
       "links": [
         "/tech",
-        "/api-definition",
-        "/compsci",
+        "/api",
+        "/com",
         "/concurrency",
         "/discussion-topics",
         "/easy-vs-hard-in-cs",
         "/encodings",
         "/for-new-programmers",
-        "/the-tao-of-programming",
         "/tools",
         "/unicode",
         "/algorithms",
@@ -1170,6 +1117,7 @@
         "/programming-languages",
         "/projects",
         "/skills",
+        "/the-tao-of-programming",
         "/software-engineering"
       ]
     },
@@ -1262,20 +1210,6 @@
       ]
     },
     {
-      "id": "/prompt-engineering",
-      "group": 2,
-      "name": "Prompt Engineering",
-      "links": [
-        "/tech",
-        "/base-prompt",
-        "/customize-prompt",
-        "/ozlang",
-        "/question-prompt",
-        "/recap-prompt",
-        "/summary-prompt"
-      ]
-    },
-    {
       "id": "/system-design",
       "group": 2,
       "name": "System Design",
@@ -1295,7 +1229,7 @@
     {
       "id": "/computers",
       "group": 2,
-      "name": "Computers",
+      "name": "Computers from scratch",
       "links": [
         "/tech",
         "/containers",
@@ -1311,7 +1245,8 @@
         "/tech",
         "/a-free-web-again",
         "/is-tech-fast-or-slow",
-        "/social-media"
+        "/social-media",
+        "/the-tao-of-programming"
       ]
     },
     {
@@ -1321,6 +1256,7 @@
       "links": [
         "/tech",
         "/nlp",
+        "/prompt-engineering",
         "/pca",
         "/pneumonia-detection",
         "/predict-movie-genres"
@@ -1464,11 +1400,21 @@
       ]
     },
     {
+      "id": "/gratitude",
+      "group": 3,
+      "name": "Gratitude",
+      "links": [
+        "/philosophy",
+        "/happiness"
+      ]
+    },
+    {
       "id": "/happiness",
       "group": 3,
       "name": "Happiness",
       "links": [
         "/philosophy",
+        "/gratitude",
         "/psychology",
         "/social-sciences"
       ]
@@ -1757,6 +1703,175 @@
       ]
     },
     {
+      "id": "/abbas",
+      "group": 3,
+      "name": "Abbas",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/asik-veysel",
+      "group": 3,
+      "name": "Asik Veysel",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/bingol-cobanlari",
+      "group": 3,
+      "name": "Bingol Cobanlari",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/can-yucel",
+      "group": 3,
+      "name": "Can Yücel",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/edip-cansever",
+      "group": 3,
+      "name": "Edip Cansever",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/fuzuli",
+      "group": 3,
+      "name": "Fuzuli",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/if-ecevit",
+      "group": 3,
+      "name": "If, ceviri Bulent Ecevit",
+      "links": [
+        "/siir",
+        "/if"
+      ]
+    },
+    {
+      "id": "/isyan",
+      "group": 3,
+      "name": "Isyan",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/melih-cevdet",
+      "group": 3,
+      "name": "Melih Cevdet",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/nazim",
+      "group": 3,
+      "name": "Nazim Hikmet",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/orhan-veli",
+      "group": 3,
+      "name": "Orhan Veli",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/yunus-emre",
+      "group": 3,
+      "name": "Yunus Emre",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/deutsch",
+      "group": 3,
+      "name": "Deutsch",
+      "links": [
+        "/languages"
+      ]
+    },
+    {
+      "id": "/english",
+      "group": 3,
+      "name": "English",
+      "links": [
+        "/languages"
+      ]
+    },
+    {
+      "id": "/latin",
+      "group": 3,
+      "name": "Latin",
+      "links": [
+        "/languages"
+      ]
+    },
+    {
+      "id": "/metaphors",
+      "group": 3,
+      "name": "Metaphors",
+      "links": [
+        "/languages",
+        "/social-sciences"
+      ]
+    },
+    {
+      "id": "/modern-greek-alphabet",
+      "group": 3,
+      "name": "Modern Greek Alphabet",
+      "links": [
+        "/languages",
+        "/lists"
+      ]
+    },
+    {
+      "id": "/turkce",
+      "group": 3,
+      "name": "Turkce",
+      "links": [
+        "/languages",
+        "/ince-memed",
+        "/turk-mirasi",
+        "/turk-sanatcilar",
+        "/ideal-insan",
+        "/siir"
+      ]
+    },
+    {
+      "id": "/cestina",
+      "group": 3,
+      "name": "Cestina",
+      "links": [
+        "/languages",
+        "/adjektiva",
+        "/cas",
+        "/cisla",
+        "/domov",
+        "/fraze",
+        "/koníčky",
+        "/podobna-slova",
+        "/predlozky",
+        "/slovesa"
+      ]
+    },
+    {
       "id": "/cien-anos-de-soledad",
       "group": 3,
       "name": "Cien Anos De Soledad",
@@ -1823,106 +1938,55 @@
       ]
     },
     {
-      "id": "/can-yucel",
+      "id": "/classical-music",
       "group": 3,
-      "name": "Can Yücel",
+      "name": "Classical Music",
       "links": [
-        "/siir"
+        "/music"
       ]
     },
     {
-      "id": "/fuzuli",
+      "id": "/electro-house",
       "group": 3,
-      "name": "Fuzuli",
+      "name": "Electro House",
       "links": [
-        "/siir"
+        "/music"
       ]
     },
     {
-      "id": "/if-ecevit",
+      "id": "/film-scores",
       "group": 3,
-      "name": "If, ceviri Bulent Ecevit",
+      "name": "Film Scores",
       "links": [
-        "/siir",
-        "/if"
-      ]
-    },
-    {
-      "id": "/isyan",
-      "group": 3,
-      "name": "Isyan",
-      "links": [
-        "/siir"
-      ]
-    },
-    {
-      "id": "/nazim",
-      "group": 3,
-      "name": "Nazim Hikmet",
-      "links": [
-        "/siir"
-      ]
-    },
-    {
-      "id": "/orhan-veli",
-      "group": 3,
-      "name": "Orhan Veli",
-      "links": [
-        "/siir"
-      ]
-    },
-    {
-      "id": "/deutsch",
-      "group": 3,
-      "name": "Deutsch",
-      "links": [
-        "/languages"
-      ]
-    },
-    {
-      "id": "/latin",
-      "group": 3,
-      "name": "Latin",
-      "links": [
-        "/languages"
-      ]
-    },
-    {
-      "id": "/modern-greek-alphabet",
-      "group": 3,
-      "name": "Modern Greek Alphabet",
-      "links": [
-        "/languages",
+        "/music",
+        "/cinema",
         "/lists"
       ]
     },
     {
-      "id": "/turkce",
+      "id": "/rap",
       "group": 3,
-      "name": "Turkce",
+      "name": "Rap",
       "links": [
-        "/languages",
-        "/ince-memed",
-        "/turk-mirasi",
-        "/ideal-insan",
-        "/siir"
+        "/music"
       ]
     },
     {
-      "id": "/cestina",
+      "id": "/rock",
       "group": 3,
-      "name": "Cestina",
+      "name": "Rock",
       "links": [
-        "/languages",
-        "/adjektiva",
-        "/cas",
-        "/cisla",
-        "/domov",
-        "/fraze",
-        "/koníčky",
-        "/podobna-slova",
-        "/predlozky",
-        "/slovesa"
+        "/music"
+      ]
+    },
+    {
+      "id": "/turk-sanatcilar",
+      "group": 3,
+      "name": "Sanatcilar",
+      "links": [
+        "/music",
+        "/turkce",
+        "/lists"
       ]
     },
     {
@@ -1950,6 +2014,15 @@
       "links": [
         "/design",
         "/on-software"
+      ]
+    },
+    {
+      "id": "/movies",
+      "group": 3,
+      "name": "Movies 🎬",
+      "links": [
+        "/cinema",
+        "/lists"
       ]
     },
     {
@@ -2185,9 +2258,7 @@
       "links": [
         "/psychology",
         "/bias-for-unhappiness",
-        "/complain-vs-appreciate",
         "/overvaluing-short-term",
-        "/people-see-what-they-want",
         "/bias-for-unhappiness",
         "/social-sciences"
       ]
@@ -2306,17 +2377,68 @@
       ]
     },
     {
-      "id": "/api-definition",
+      "id": "/wage-theft",
       "group": 3,
-      "name": "Api Definition",
+      "name": "Wage Theft",
+      "links": [
+        "/economics",
+        "/law"
+      ]
+    },
+    {
+      "id": "/wasted-talent",
+      "group": 3,
+      "name": "Wasted Talent",
+      "links": [
+        "/economics",
+        "/business"
+      ]
+    },
+    {
+      "id": "/outgroup",
+      "group": 3,
+      "name": "Outgroup",
+      "links": [
+        "/sociology",
+        "/essais"
+      ]
+    },
+    {
+      "id": "/social-change",
+      "group": 3,
+      "name": "Social Change",
+      "links": [
+        "/sociology"
+      ]
+    },
+    {
+      "id": "/social-class",
+      "group": 3,
+      "name": "Social Class",
+      "links": [
+        "/sociology"
+      ]
+    },
+    {
+      "id": "/chaos",
+      "group": 3,
+      "name": "Chaos",
+      "links": [
+        "/systems"
+      ]
+    },
+    {
+      "id": "/api",
+      "group": 3,
+      "name": "APIs",
       "links": [
         "/programming"
       ]
     },
     {
-      "id": "/compsci",
+      "id": "/com",
       "group": 3,
-      "name": "Computers from scratch",
+      "name": "COM - Component Object Model",
       "links": [
         "/programming"
       ]
@@ -2363,15 +2485,6 @@
       ]
     },
     {
-      "id": "/the-tao-of-programming",
-      "group": 3,
-      "name": "The Tao of Programming",
-      "links": [
-        "/programming",
-        "/humor"
-      ]
-    },
-    {
       "id": "/tools",
       "group": 3,
       "name": "Tools",
@@ -2399,7 +2512,6 @@
         "/easy",
         "/greedy",
         "/hard",
-        "/leet",
         "/local-maximum",
         "/mid",
         "/parallel-programming",
@@ -2531,7 +2643,6 @@
       "name": "Projects",
       "links": [
         "/programming",
-        "/a-star-robot",
         "/async-crawler",
         "/c-hashmap",
         "/compiler",
@@ -2540,6 +2651,7 @@
         "/logos-os",
         "/mini-search-engine",
         "/mini-web-server",
+        "/minik-robot",
         "/pascal-interpreter",
         "/pca",
         "/pneumonia-detection",
@@ -2926,54 +3038,6 @@
       ]
     },
     {
-      "id": "/base-prompt",
-      "group": 3,
-      "name": "Base Prompt",
-      "links": [
-        "/prompt-engineering"
-      ]
-    },
-    {
-      "id": "/customize-prompt",
-      "group": 3,
-      "name": "Customize Prompt",
-      "links": [
-        "/prompt-engineering"
-      ]
-    },
-    {
-      "id": "/ozlang",
-      "group": 3,
-      "name": "Ozlang",
-      "links": [
-        "/prompt-engineering"
-      ]
-    },
-    {
-      "id": "/question-prompt",
-      "group": 3,
-      "name": "Question Prompt",
-      "links": [
-        "/prompt-engineering"
-      ]
-    },
-    {
-      "id": "/recap-prompt",
-      "group": 3,
-      "name": "Recap Prompt",
-      "links": [
-        "/prompt-engineering"
-      ]
-    },
-    {
-      "id": "/summary-prompt",
-      "group": 3,
-      "name": "Summary Prompt",
-      "links": [
-        "/prompt-engineering"
-      ]
-    },
-    {
       "id": "/choose-boring-tech",
       "group": 3,
       "name": "Choose Boring Tech",
@@ -3069,11 +3133,35 @@
       ]
     },
     {
+      "id": "/the-tao-of-programming",
+      "group": 3,
+      "name": "The Tao of Programming",
+      "links": [
+        "/thoughts-on-tech",
+        "/humor",
+        "/programming"
+      ]
+    },
+    {
       "id": "/nlp",
       "group": 3,
       "name": "NLP",
       "links": [
         "/machine-learning"
+      ]
+    },
+    {
+      "id": "/prompt-engineering",
+      "group": 3,
+      "name": "Prompt Engineering",
+      "links": [
+        "/machine-learning",
+        "/base-prompt",
+        "/customize-prompt",
+        "/ozlang",
+        "/question-prompt",
+        "/recap-prompt",
+        "/summary-prompt"
       ]
     },
     {
@@ -3338,28 +3426,12 @@
       ]
     },
     {
-      "id": "/complain-vs-appreciate",
-      "group": 4,
-      "name": "Complain Vs Appreciate",
-      "links": [
-        "/cognitive-biases"
-      ]
-    },
-    {
       "id": "/overvaluing-short-term",
       "group": 4,
       "name": "Overvaluing Short Term",
       "links": [
         "/cognitive-biases",
         "/leadership"
-      ]
-    },
-    {
-      "id": "/people-see-what-they-want",
-      "group": 4,
-      "name": "People See What They Want",
-      "links": [
-        "/cognitive-biases"
       ]
     },
     {
@@ -3576,14 +3648,6 @@
       "links": [
         "/algorithms",
         "/least-num-of-perfect-squares"
-      ]
-    },
-    {
-      "id": "/leet",
-      "group": 4,
-      "name": "Leet",
-      "links": [
-        "/algorithms"
       ]
     },
     {
@@ -4405,7 +4469,7 @@
       "name": "Cpp",
       "links": [
         "/programming-languages",
-        "/a-star-robot"
+        "/minik-robot"
       ]
     },
     {
@@ -4513,15 +4577,6 @@
       ]
     },
     {
-      "id": "/a-star-robot",
-      "group": 4,
-      "name": "A* path-finding algorithm for a robot",
-      "links": [
-        "/projects",
-        "/cpp"
-      ]
-    },
-    {
       "id": "/async-crawler",
       "group": 4,
       "name": "An async web crawler from scratch",
@@ -4590,6 +4645,15 @@
       "links": [
         "/projects",
         "/python"
+      ]
+    },
+    {
+      "id": "/minik-robot",
+      "group": 4,
+      "name": "A* path-finding algorithm for a robot",
+      "links": [
+        "/projects",
+        "/cpp"
       ]
     },
     {
@@ -4673,6 +4737,54 @@
         "/design-oauth",
         "/design-units",
         "/design-video-streaming-app"
+      ]
+    },
+    {
+      "id": "/base-prompt",
+      "group": 4,
+      "name": "Base Prompt",
+      "links": [
+        "/prompt-engineering"
+      ]
+    },
+    {
+      "id": "/customize-prompt",
+      "group": 4,
+      "name": "Customize Prompt",
+      "links": [
+        "/prompt-engineering"
+      ]
+    },
+    {
+      "id": "/ozlang",
+      "group": 4,
+      "name": "Ozlang",
+      "links": [
+        "/prompt-engineering"
+      ]
+    },
+    {
+      "id": "/question-prompt",
+      "group": 4,
+      "name": "Question Prompt",
+      "links": [
+        "/prompt-engineering"
+      ]
+    },
+    {
+      "id": "/recap-prompt",
+      "group": 4,
+      "name": "Recap Prompt",
+      "links": [
+        "/prompt-engineering"
+      ]
+    },
+    {
+      "id": "/summary-prompt",
+      "group": 4,
+      "name": "Summary Prompt",
+      "links": [
+        "/prompt-engineering"
       ]
     },
     {
@@ -4843,15 +4955,19 @@
     },
     {
       "source": "/arts",
-      "target": "/literature"
-    },
-    {
-      "source": "/arts",
       "target": "/siir"
     },
     {
       "source": "/arts",
       "target": "/languages"
+    },
+    {
+      "source": "/arts",
+      "target": "/literature"
+    },
+    {
+      "source": "/arts",
+      "target": "/music"
     },
     {
       "source": "/arts",
@@ -4887,10 +5003,6 @@
     },
     {
       "source": "/lists",
-      "target": "/film-scores"
-    },
-    {
-      "source": "/lists",
       "target": "/games"
     },
     {
@@ -4900,10 +5012,6 @@
     {
       "source": "/lists",
       "target": "/ideas"
-    },
-    {
-      "source": "/lists",
-      "target": "/movies"
     },
     {
       "source": "/lists",
@@ -4919,11 +5027,15 @@
     },
     {
       "source": "/lists",
-      "target": "/reading-list"
+      "target": "/since-big-bang"
     },
     {
       "source": "/lists",
-      "target": "/since-big-bang"
+      "target": "/to-read"
+    },
+    {
+      "source": "/lists",
+      "target": "/to-watch"
     },
     {
       "source": "/lists",
@@ -5147,35 +5259,11 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/books-social"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/chaos"
-    },
-    {
-      "source": "/social-sciences",
       "target": "/economics"
     },
     {
       "source": "/social-sciences",
-      "target": "/law"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/metaphors"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/outgroup"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/being-poor"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/social-class"
+      "target": "/sociology"
     },
     {
       "source": "/social-sciences",
@@ -5183,27 +5271,23 @@
     },
     {
       "source": "/social-sciences",
+      "target": "/law"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/books-social"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/being-poor"
+    },
+    {
+      "source": "/social-sciences",
       "target": "/urban-planning"
     },
     {
       "source": "/social-sciences",
-      "target": "/wage-theft"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/wasted-talent"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/social-change"
-    },
-    {
-      "source": "/social-sciences",
       "target": "/architecture"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/system-thinking"
     },
     {
       "source": "/tech",
@@ -5228,10 +5312,6 @@
     {
       "source": "/tech",
       "target": "/software-engineering"
-    },
-    {
-      "source": "/tech",
-      "target": "/prompt-engineering"
     },
     {
       "source": "/tech",
@@ -5308,6 +5388,10 @@
     {
       "source": "/philosophy",
       "target": "/good-and-evil"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/gratitude"
     },
     {
       "source": "/philosophy",
@@ -5434,6 +5518,82 @@
       "target": "/tao-te-ching"
     },
     {
+      "source": "/siir",
+      "target": "/abbas"
+    },
+    {
+      "source": "/siir",
+      "target": "/asik-veysel"
+    },
+    {
+      "source": "/siir",
+      "target": "/bingol-cobanlari"
+    },
+    {
+      "source": "/siir",
+      "target": "/can-yucel"
+    },
+    {
+      "source": "/siir",
+      "target": "/edip-cansever"
+    },
+    {
+      "source": "/siir",
+      "target": "/fuzuli"
+    },
+    {
+      "source": "/siir",
+      "target": "/if-ecevit"
+    },
+    {
+      "source": "/siir",
+      "target": "/isyan"
+    },
+    {
+      "source": "/siir",
+      "target": "/melih-cevdet"
+    },
+    {
+      "source": "/siir",
+      "target": "/nazim"
+    },
+    {
+      "source": "/siir",
+      "target": "/orhan-veli"
+    },
+    {
+      "source": "/siir",
+      "target": "/yunus-emre"
+    },
+    {
+      "source": "/languages",
+      "target": "/deutsch"
+    },
+    {
+      "source": "/languages",
+      "target": "/english"
+    },
+    {
+      "source": "/languages",
+      "target": "/latin"
+    },
+    {
+      "source": "/languages",
+      "target": "/metaphors"
+    },
+    {
+      "source": "/languages",
+      "target": "/modern-greek-alphabet"
+    },
+    {
+      "source": "/languages",
+      "target": "/turkce"
+    },
+    {
+      "source": "/languages",
+      "target": "/cestina"
+    },
+    {
       "source": "/literature",
       "target": "/cien-anos-de-soledad"
     },
@@ -5462,48 +5622,28 @@
       "target": "/turk-mirasi"
     },
     {
-      "source": "/siir",
-      "target": "/can-yucel"
+      "source": "/music",
+      "target": "/classical-music"
     },
     {
-      "source": "/siir",
-      "target": "/fuzuli"
+      "source": "/music",
+      "target": "/electro-house"
     },
     {
-      "source": "/siir",
-      "target": "/if-ecevit"
+      "source": "/music",
+      "target": "/film-scores"
     },
     {
-      "source": "/siir",
-      "target": "/isyan"
+      "source": "/music",
+      "target": "/rap"
     },
     {
-      "source": "/siir",
-      "target": "/nazim"
+      "source": "/music",
+      "target": "/rock"
     },
     {
-      "source": "/siir",
-      "target": "/orhan-veli"
-    },
-    {
-      "source": "/languages",
-      "target": "/deutsch"
-    },
-    {
-      "source": "/languages",
-      "target": "/latin"
-    },
-    {
-      "source": "/languages",
-      "target": "/modern-greek-alphabet"
-    },
-    {
-      "source": "/languages",
-      "target": "/turkce"
-    },
-    {
-      "source": "/languages",
-      "target": "/cestina"
+      "source": "/music",
+      "target": "/turk-sanatcilar"
     },
     {
       "source": "/design",
@@ -5516,6 +5656,10 @@
     {
       "source": "/design",
       "target": "/ship-it"
+    },
+    {
+      "source": "/cinema",
+      "target": "/movies"
     },
     {
       "source": "/health",
@@ -5670,12 +5814,36 @@
       "target": "/who-goes-nazi"
     },
     {
-      "source": "/programming",
-      "target": "/api-definition"
+      "source": "/economics",
+      "target": "/wage-theft"
+    },
+    {
+      "source": "/economics",
+      "target": "/wasted-talent"
+    },
+    {
+      "source": "/sociology",
+      "target": "/outgroup"
+    },
+    {
+      "source": "/sociology",
+      "target": "/social-change"
+    },
+    {
+      "source": "/sociology",
+      "target": "/social-class"
+    },
+    {
+      "source": "/systems",
+      "target": "/chaos"
     },
     {
       "source": "/programming",
-      "target": "/compsci"
+      "target": "/api"
+    },
+    {
+      "source": "/programming",
+      "target": "/com"
     },
     {
       "source": "/programming",
@@ -5696,10 +5864,6 @@
     {
       "source": "/programming",
       "target": "/for-new-programmers"
-    },
-    {
-      "source": "/programming",
-      "target": "/the-tao-of-programming"
     },
     {
       "source": "/programming",
@@ -5910,30 +6074,6 @@
       "target": "/the-joel-test"
     },
     {
-      "source": "/prompt-engineering",
-      "target": "/base-prompt"
-    },
-    {
-      "source": "/prompt-engineering",
-      "target": "/customize-prompt"
-    },
-    {
-      "source": "/prompt-engineering",
-      "target": "/ozlang"
-    },
-    {
-      "source": "/prompt-engineering",
-      "target": "/question-prompt"
-    },
-    {
-      "source": "/prompt-engineering",
-      "target": "/recap-prompt"
-    },
-    {
-      "source": "/prompt-engineering",
-      "target": "/summary-prompt"
-    },
-    {
       "source": "/system-design",
       "target": "/choose-boring-tech"
     },
@@ -5978,8 +6118,16 @@
       "target": "/social-media"
     },
     {
+      "source": "/thoughts-on-tech",
+      "target": "/the-tao-of-programming"
+    },
+    {
       "source": "/machine-learning",
       "target": "/nlp"
+    },
+    {
+      "source": "/machine-learning",
+      "target": "/prompt-engineering"
     },
     {
       "source": "/time",
@@ -6107,15 +6255,7 @@
     },
     {
       "source": "/cognitive-biases",
-      "target": "/complain-vs-appreciate"
-    },
-    {
-      "source": "/cognitive-biases",
       "target": "/overvaluing-short-term"
-    },
-    {
-      "source": "/cognitive-biases",
-      "target": "/people-see-what-they-want"
     },
     {
       "source": "/emotions",
@@ -6216,10 +6356,6 @@
     {
       "source": "/algorithms",
       "target": "/hard"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/leet"
     },
     {
       "source": "/algorithms",
@@ -6591,10 +6727,6 @@
     },
     {
       "source": "/projects",
-      "target": "/a-star-robot"
-    },
-    {
-      "source": "/projects",
       "target": "/async-crawler"
     },
     {
@@ -6627,6 +6759,10 @@
     },
     {
       "source": "/projects",
+      "target": "/minik-robot"
+    },
+    {
+      "source": "/projects",
       "target": "/pascal-interpreter"
     },
     {
@@ -6656,6 +6792,30 @@
     {
       "source": "/oop",
       "target": "/oop-designs"
+    },
+    {
+      "source": "/prompt-engineering",
+      "target": "/base-prompt"
+    },
+    {
+      "source": "/prompt-engineering",
+      "target": "/customize-prompt"
+    },
+    {
+      "source": "/prompt-engineering",
+      "target": "/ozlang"
+    },
+    {
+      "source": "/prompt-engineering",
+      "target": "/question-prompt"
+    },
+    {
+      "source": "/prompt-engineering",
+      "target": "/recap-prompt"
+    },
+    {
+      "source": "/prompt-engineering",
+      "target": "/summary-prompt"
     },
     {
       "source": "/python",
@@ -6722,8 +6882,8 @@
       "target": "/design-video-streaming-app"
     },
     {
-      "source": "/cinema",
-      "target": "/documentaries"
+      "source": "/arts",
+      "target": "/paintings"
     },
     {
       "source": "/cinema",
@@ -6731,7 +6891,7 @@
     },
     {
       "source": "/cinema",
-      "target": "/movies"
+      "target": "/documentaries"
     },
     {
       "source": "/creativity",
@@ -6762,16 +6922,16 @@
       "target": "/on-software"
     },
     {
-      "source": "/languages",
-      "target": "/metaphors"
-    },
-    {
       "source": "/turkce",
       "target": "/ince-memed"
     },
     {
       "source": "/turkce",
       "target": "/turk-mirasi"
+    },
+    {
+      "source": "/turkce",
+      "target": "/turk-sanatcilar"
     },
     {
       "source": "/turkce",
@@ -6840,6 +7000,10 @@
     {
       "source": "/freedom",
       "target": "/success-and-failure"
+    },
+    {
+      "source": "/gratitude",
+      "target": "/happiness"
     },
     {
       "source": "/know-where-to-stop",
@@ -6967,10 +7131,6 @@
     },
     {
       "source": "/essais",
-      "target": "/outgroup"
-    },
-    {
-      "source": "/essais",
       "target": "/farming-trap"
     },
     {
@@ -6986,12 +7146,28 @@
       "target": "/who-goes-nazi"
     },
     {
+      "source": "/essais",
+      "target": "/outgroup"
+    },
+    {
       "source": "/lists",
       "target": "/classics"
     },
     {
       "source": "/lists",
+      "target": "/film-scores"
+    },
+    {
+      "source": "/lists",
       "target": "/modern-greek-alphabet"
+    },
+    {
+      "source": "/lists",
+      "target": "/movies"
+    },
+    {
+      "source": "/lists",
+      "target": "/turk-sanatcilar"
     },
     {
       "source": "/bayes",
@@ -7106,14 +7282,6 @@
       "target": "/urban-planning"
     },
     {
-      "source": "/economics",
-      "target": "/wage-theft"
-    },
-    {
-      "source": "/economics",
-      "target": "/wasted-talent"
-    },
-    {
       "source": "/law",
       "target": "/wage-theft"
     },
@@ -7175,6 +7343,10 @@
     },
     {
       "source": "/social-sciences",
+      "target": "/metaphors"
+    },
+    {
+      "source": "/social-sciences",
       "target": "/questioning-people-seen-as-a-threat-to-status-quo"
     },
     {
@@ -7188,10 +7360,6 @@
     {
       "source": "/social-sciences",
       "target": "/hijacked-minds"
-    },
-    {
-      "source": "/systems",
-      "target": "/chaos"
     },
     {
       "source": "/systems",
@@ -7647,7 +7815,7 @@
     },
     {
       "source": "/cpp",
-      "target": "/a-star-robot"
+      "target": "/minik-robot"
     },
     {
       "source": "/python",
@@ -7668,6 +7836,10 @@
     {
       "source": "/python",
       "target": "/pascal-interpreter"
+    },
+    {
+      "source": "/programming",
+      "target": "/the-tao-of-programming"
     },
     {
       "source": "/software-engineering",
@@ -7696,10 +7868,6 @@
     {
       "source": "/tech",
       "target": "/history-of-technology"
-    },
-    {
-      "source": "/tech",
-      "target": "/since-big-bang"
     },
     {
       "source": "/tech",

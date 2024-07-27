@@ -1,5 +1,5 @@
 ---
-tags: languages
+tags: soc
 ---
 
 [Tag: metaphor - Sketchplanations](https://sketchplanations.com/tags/metaphor)

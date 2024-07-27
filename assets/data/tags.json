@@ -5,6 +5,10 @@
   "/cinema": [
     "arts"
   ],
+  "/movies": [
+    "cinema",
+    "lists"
+  ],
   "/creativity": [
     "design"
   ],
@@ -50,11 +54,18 @@
   "/deutsch": [
     "languages"
   ],
+  "/english": [
+    "languages"
+  ],
   "/languages": [
     "arts"
   ],
   "/latin": [
     "languages"
+  ],
+  "/metaphors": [
+    "languages",
+    "soc"
   ],
   "/modern-greek-alphabet": [
     "languages",
@@ -88,6 +99,31 @@
   ],
   "/turk-mirasi": [
     "literature",
+    "turkce"
+  ],
+  "/classical-music": [
+    "music"
+  ],
+  "/electro-house": [
+    "music"
+  ],
+  "/film-scores": [
+    "cinema",
+    "lists",
+    "music"
+  ],
+  "/music": [
+    "arts"
+  ],
+  "/rap": [
+    "music"
+  ],
+  "/rock": [
+    "music"
+  ],
+  "/turk-sanatcilar": [
+    "lists",
+    "music",
     "turkce"
   ],
   "/all-is-one": [
@@ -137,6 +173,9 @@
     "philosophy"
   ],
   "/good-and-evil": [
+    "philosophy"
+  ],
+  "/gratitude": [
     "philosophy"
   ],
   "/happiness": [
@@ -314,7 +353,19 @@
   "/this-be-the-verse": [
     "poetry"
   ],
+  "/abbas": [
+    "siir"
+  ],
+  "/asik-veysel": [
+    "siir"
+  ],
+  "/bingol-cobanlari": [
+    "siir"
+  ],
   "/can-yucel": [
+    "siir"
+  ],
+  "/edip-cansever": [
     "siir"
   ],
   "/fuzuli": [
@@ -324,6 +375,9 @@
     "siir"
   ],
   "/isyan": [
+    "siir"
+  ],
+  "/melih-cevdet": [
     "siir"
   ],
   "/nazim": [
@@ -336,6 +390,9 @@
     "arts",
     "poetry",
     "turkce"
+  ],
+  "/yunus-emre": [
+    "siir"
   ],
   "/authors": [
     "lists",
@@ -357,10 +414,6 @@
   "/essais": [
     "lists"
   ],
-  "/film-scores": [
-    "cinema",
-    "lists"
-  ],
   "/games": [
     "lists"
   ],
@@ -375,10 +428,6 @@
   "/lists": [
 
   ],
-  "/movies": [
-    "cinema",
-    "lists"
-  ],
   "/nato-phonetic-alphabet": [
     "lists"
   ],
@@ -386,17 +435,20 @@
     "lists"
   ],
   "/paintings": [
-    "lists"
-  ],
-  "/reading-list": [
+    "arts",
     "lists"
   ],
   "/since-big-bang": [
     "history",
     "lists",
     "nat",
-    "tech",
     "top"
+  ],
+  "/to-read": [
+    "lists"
+  ],
+  "/to-watch": [
+    "lists"
   ],
   "/web-experiments": [
     "lists"
@@ -640,22 +692,17 @@
   "/books-social": [
     "social-sciences"
   ],
-  "/chaos": [
-    "social-sciences",
-    "systems"
-  ],
   "/economics": [
     "social-sciences"
   ],
+  "/wage-theft": [
+    "economics",
+    "law"
+  ],
+  "/wasted-talent": [
+    "economics"
+  ],
   "/law": [
-    "social-sciences"
-  ],
-  "/metaphors": [
-    "languages",
-    "social-sciences"
-  ],
-  "/outgroup": [
-    "essais",
     "social-sciences"
   ],
   "/farming-trap": [
@@ -708,13 +755,7 @@
     "soc",
     "top"
   ],
-  "/complain-vs-appreciate": [
-    "cognitive-biases"
-  ],
   "/overvaluing-short-term": [
-    "cognitive-biases"
-  ],
-  "/people-see-what-they-want": [
     "cognitive-biases"
   ],
   "/anger": [
@@ -811,14 +852,20 @@
   "/setting-rules": [
     "work"
   ],
-  "/social-change": [
-    "social-sciences"
-  ],
-  "/social-class": [
-    "social-sciences"
-  ],
   "/social-sciences": [
 
+  ],
+  "/outgroup": [
+    "essais"
+  ],
+  "/social-change": [
+
+  ],
+  "/social-class": [
+
+  ],
+  "/chaos": [
+    "systems"
   ],
   "/systems": [
     "nat",
@@ -828,23 +875,18 @@
     "architecture",
     "social-sciences"
   ],
-  "/wage-theft": [
-    "economics",
-    "law",
-    "social-sciences"
-  ],
-  "/wasted-talent": [
-    "economics",
-    "social-sciences"
+  "/computers": [
+    "tech"
   ],
   "/containers": [
+    "computers",
     "os"
   ],
   "/networks": [
-
+    "computers"
   ],
   "/operating-systems": [
-
+    "computers"
   ],
   "/acid": [
     "databases"
@@ -923,6 +965,27 @@
   "/nlp": [
     "machine-learning"
   ],
+  "/base-prompt": [
+    "prompt-engineering"
+  ],
+  "/customize-prompt": [
+    "prompt-engineering"
+  ],
+  "/ozlang": [
+    "prompt-engineering"
+  ],
+  "/prompt-engineering": [
+    "machine-learning"
+  ],
+  "/question-prompt": [
+    "prompt-engineering"
+  ],
+  "/recap-prompt": [
+    "prompt-engineering"
+  ],
+  "/summary-prompt": [
+    "prompt-engineering"
+  ],
   "/algorithms": [
     "programming"
   ],
@@ -943,9 +1006,6 @@
     "algorithms"
   ],
   "/hard": [
-    "algorithms"
-  ],
-  "/leet": [
     "algorithms"
   ],
   "/local-maximum": [
@@ -970,7 +1030,7 @@
   "/vector-search": [
     "algorithms"
   ],
-  "/api-definition": [
+  "/api": [
     "programming"
   ],
   "/array-rotate": [
@@ -1244,7 +1304,7 @@
     "code",
     "dp"
   ],
-  "/compsci": [
+  "/com": [
     "programming"
   ],
   "/concurrency": [
@@ -1365,10 +1425,6 @@
     "swe",
     "tech"
   ],
-  "/a-star-robot": [
-    "cpp",
-    "projects"
-  ],
   "/async-crawler": [
     "projects",
     "python"
@@ -1400,6 +1456,10 @@
     "projects",
     "python"
   ],
+  "/minik-robot": [
+    "cpp",
+    "projects"
+  ],
   "/pascal-interpreter": [
     "projects",
     "python"
@@ -1424,37 +1484,11 @@
     "c",
     "projects"
   ],
-  "/the-tao-of-programming": [
-    "humor",
-    "programming",
-    "top"
-  ],
   "/tools": [
     "programming"
   ],
   "/unicode": [
     "programming"
-  ],
-  "/base-prompt": [
-    "prompt-engineering"
-  ],
-  "/customize-prompt": [
-    "prompt-engineering"
-  ],
-  "/ozlang": [
-    "prompt-engineering"
-  ],
-  "/prompt-engineering": [
-    "tech"
-  ],
-  "/question-prompt": [
-    "prompt-engineering"
-  ],
-  "/recap-prompt": [
-    "prompt-engineering"
-  ],
-  "/summary-prompt": [
-    "prompt-engineering"
   ],
   "/authentication": [
     "security"
@@ -1597,6 +1631,11 @@
   ],
   "/social-media": [
 
+  ],
+  "/the-tao-of-programming": [
+    "humor",
+    "programming",
+    "top"
   ],
   "/accessibility": [
     "sys",

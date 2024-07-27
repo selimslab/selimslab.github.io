@@ -1,5 +1,4 @@
 ---
-
 ---
 
 Selâm verdim rüşvet değildir deyü almadılar
