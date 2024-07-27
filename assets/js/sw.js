@@ -38,8 +38,6 @@ const urls = [
 
 const strategy = new NetworkFirst();
 
-const warmCache = () => warmStrategyCache({urls, strategy});
-
 registerRoute(
   new RegExp('\/.+\/.+'),
   strategy
@@ -51,6 +49,24 @@ registerRoute(
   new CacheFirst()
 );
 
+
+const clearCaches = async () => {
+  const cacheNames = await caches.keys();
+  await Promise.all(
+    cacheNames.map((cacheName) => {
+      if (cacheName.startsWith('notes') && cacheName !== workbox.core.cacheNames.current) {
+        return caches.delete(cacheName);
+      }
+    })
+  );
+}
+
+const warmCache = () => {
+  clearCaches();
+  warmStrategyCache({urls, strategy});
+}
+
 warmCache();
+
 
 
