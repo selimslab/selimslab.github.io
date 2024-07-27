@@ -39,3 +39,5 @@ A digital space to create, collect, and share
 {% include random-idea.html %}
 
 {% include offline.html  %}
+
+add button to cache 
