@@ -28,7 +28,6 @@ const shuffleArt = async () => {
     }
   }
 
-  let img = document.getElementById("artwork");
   let artIdx = localStorage.getItem('artIdx');
   if (artIdx) {
     artIdx = parseInt(artIdx);
@@ -39,7 +38,8 @@ const shuffleArt = async () => {
   let nextIdx = (artIdx + 1) % cachedArt.length;
   localStorage.setItem('artIdx', nextIdx.toString());
 
-  img.src =cachedArt[artIdx].url;
+  let img = document.getElementById("artwork");
+  img.src =cachedArt[artIdx];
 
   let fileName = img.src.split("/").pop().split(".")[0];
   img.alt = fileNameToTitle(fileName);
