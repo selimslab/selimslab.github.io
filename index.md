@@ -32,6 +32,7 @@ A digital space for work and play
 
 {% include hub.html tag='meta' %}
 
+
 ## Tap to shuffle   
 
 {% include random-art.html %}
@@ -39,3 +40,18 @@ A digital space for work and play
 {% include random-idea.html %}
 
 {% include offline.html  %}
+
+## Keyboard Shortcuts 
+
+This website works keyboard-only too  
+- `Arrow keys` go back and forward 
+- `P` go to a random page 
+- `S` search
+- `A` shuffle artworks
+- `I` shuffle idea machine  
+
+Standard browser keys are the same 
+- `Tab` and `Shift+Tab` to move focus 
+- `Home` go top 
+- `End` go bottom 
+- `Space` scroll down 

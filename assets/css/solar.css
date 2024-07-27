@@ -16,7 +16,6 @@
     background-size: 200%;
     height: 5rem;
     box-shadow: 0 0 15px 5px #5e90f1;
-    position: absolute;
     width: 5rem;
     z-index: 2;
 }
@@ -27,7 +26,6 @@
     background-size: 200%;
     height: 5rem;
     box-shadow: 0 0 10px 5px #f1855e;
-    position: absolute;
     width: 5rem;
     z-index: 2;
 }

@@ -9,33 +9,48 @@ DATA_PATH = "./assets/data"
 class SiteGenerator < Jekyll::Generator
   @fixed_frontmatter = false
   @generated = false
+  @debug = false
 
   def generate(site)
     return if @generated
     fix_frontmatter unless @fixed_frontmatter
     @fixed_frontmatter = true
 
+    site.data["tree"] = {}
+    site.data["tree_htmls"] = {}
+    site.data["tree_htmls_without_self"] = {}
+
     initialize_backlinks(site)
     initialize_file_to_tag(site)
     initialize_file_to_title(site)
     tree= generate_tree(site)
     site.data["tree"] = tree
-    generate_tree_htmls(site, tree)
-
     write_json("#{DATA_PATH}/tree.json", tree)
 
+    generate_tree_htmls(site, tree)
+
     level_order = tree_level_order(tree)
-    write_json("#{DATA_PATH}/tree_level_order.json", level_order)
+    write_json("#{DATA_PATH}/tree_level_order.json", level_order) if @debug
 
     process_documents(site)
 
     graph = generate_graph(site)
     site.data["link_count"] = calculate_link_count(site, graph)
-    ideas = load_ideas
+
+    ideas = JSON.parse(File.read("#{DATA_PATH}/ideas.json")).sort
     # shuffle ideas
     ideas = ideas.shuffle(random: Random.new(ideas.length))
     write_json("#{DATA_PATH}/ideas.json", ideas)
 
+    artworks = get_artworks
+    write_json("#{DATA_PATH}/artworks.json", artworks)
+
+    write_tags_json(site) if @debug
+
+    @generated = true
+  end
+
+  def get_artworks
     artworks = []
     paths = Dir.glob("#{STATIC_PATH}/art/**/*.{jpg,jpeg,png,gif}")
     # shuffle paths
@@ -48,11 +63,7 @@ class SiteGenerator < Jekyll::Generator
       artworks << { "name": name, "path": path }
     end
 
-    write_json("#{DATA_PATH}/artworks.json", artworks)
-
-    write_tags_json(site)
-
-    @generated = true
+    artworks
   end
 
   def tree_level_order(tree)
@@ -111,9 +122,6 @@ class SiteGenerator < Jekyll::Generator
     site.documents.sum { |doc| doc.content.scan(/<a/).length } + graph[:links].length
   end
 
-  def load_ideas
-    JSON.parse(File.read("#{DATA_PATH}/ideas.json")).sort
-  end
 
   def write_tags_json(site)
     write_json("#{DATA_PATH}/tags.json", site.documents.map { |doc| [doc.id, doc.data["tags"]] }.to_h)
@@ -256,10 +264,8 @@ class SiteGenerator < Jekyll::Generator
   end
 
   def generate_tree_htmls(site, tree)
-    site.data["tree_htmls"] = {}
     tree_to_html(site, tree, "root")
 
-    site.data["tree_htmls_without_self"] = {}
     site.data["tree_htmls"].each do |k, v|
       site.data["tree_htmls_without_self"][k] = v.gsub(/<a href='#{k}\/'>.*?<\/a>/, "")
     end

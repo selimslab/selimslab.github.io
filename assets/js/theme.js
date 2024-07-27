@@ -1,34 +1,43 @@
 
-let moon = "<div class='moon' style='width:2rem; height:2rem'></div>"
-let sun = "<div class='sun' style='width:2rem; height:2rem'></div>"
+
+
+const THEME = 'theme';
+const DATA_THEME = 'data-theme';
+const THEME_LIGHT = 'light';
+const THEME_DARK = 'dark';
+const CLASS_SUN = 'sun';
+const CLASS_MOON = 'moon';
+const themeToggle = document.getElementById("themeToggle");
 
 
 function setTheme() {
-	var themeToggle = document.getElementById("themeToggle");
-
-	const theme = localStorage.getItem('theme');
-	if (theme === "light") {
-		document.documentElement.setAttribute('data-theme', 'light');
-		themeToggle.innerHTML = sun
-	} else {
-		document.documentElement.setAttribute('data-theme', 'dark');
-		themeToggle.innerHTML = moon
-	}
+    const theme = localStorage.getItem(THEME);
+    if (theme === THEME_LIGHT) {
+        document.documentElement.setAttribute(DATA_THEME, THEME_LIGHT);
+        themeToggle.classList.remove(CLASS_MOON);
+        themeToggle.classList.add(CLASS_SUN);
+    } else {
+        document.documentElement.setAttribute(DATA_THEME, THEME_DARK);
+        themeToggle.classList.remove(CLASS_SUN);
+        themeToggle.classList.add(CLASS_MOON);
+    }
 }
 
-setTheme()
+setTheme();
 
 function switchTheme() {
-	let currentMode = document.documentElement.getAttribute('data-theme');
-	if (currentMode === "dark") {
-		window.localStorage.setItem('theme', 'light');
-	} else {
-		window.localStorage.setItem('theme', 'dark');
-	}
-	setTheme()
+    let currentMode = document.documentElement.getAttribute(DATA_THEME);
+    if (currentMode === THEME_DARK) {
+        window.localStorage.setItem(THEME, THEME_LIGHT);
+    } else {
+        window.localStorage.setItem(THEME, THEME_DARK);
+    }
+    setTheme();
 }
 
-function setDarkTheme() {
-	window.localStorage.setItem('theme', 'dark');
-	setTheme()
-}
+themeToggle.addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+      switchTheme();
+    }
+});
+

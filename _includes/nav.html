@@ -4,8 +4,8 @@
 
     {% include search.html %}
 
-    <div title="Toggle theme" id="themeToggle" onclick="switchTheme()" class="navbutton"></div>
-    <div title="Roll the dice!" id="dice" onclick="get_random_post();" class="navbutton">🎲</div>
+    <a title="Toggle theme" id="themeToggle"  tabindex="0" onclick="switchTheme()" class="navbutton"></a>
+    <a title="Roll the dice!" id="dice"  tabindex="0" onclick="getRandomPage()" class="navbutton">🎲</a>
   </div>
 </nav>
 
@@ -18,14 +18,45 @@
 <script src="/assets/js/arrow.js"></script>
 
 <style>
-  .navbutton {
-    font-size: 1.4rem;
-    padding-left: 1.2rem;
-    margin-top:0.5rem
+
+a.site-name {
+    color: inherit;
+    font-size: 2rem;
+    margin-right: 1rem;
+
   }
 
-  #dice{
-    margin-left: 2rem;
+  .search {
+    padding: 0.5rem;
+    max-width: 8rem;
+  }
+
+  #results-container {
+    margin-top: 0.3rem;
+    list-style: none;
+    font-size: 1rem;
+    max-width: 20ch;
+
+    li {
+      margin: 0 auto;
+      margin-top: 0.3rem;
+      padding: 0.2rem;
+    }
+  }
+
+
+
+  #themeToggle{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+  }
+
+
+  .navbutton {
+    font-size: 1.3rem;
+    margin-top:0.5rem;
+    margin-left:1.2rem;
   }
 
   .navbar {
@@ -46,28 +77,8 @@
   }
 
 
-  .search {
-    padding: 0.5rem;
-  }
 
-  a.site-name {
-    color: inherit;
-    font-size: 2rem;
-    margin-right: 1rem;
 
-  }
 
-  #results-container {
-    margin-top: 0.3rem;
-    list-style: none;
-    font-size: 1rem;
-    max-width: 20ch;
-
-    li {
-      margin: 0 auto;
-      margin-top: 0.3rem;
-      padding: 0.2rem;
-    }
-  }
 </style>
 

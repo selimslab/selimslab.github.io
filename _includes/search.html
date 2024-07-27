@@ -1,8 +1,7 @@
-
 <div class="search is-6 is-6-mobile">
-    <input type="text" class="input is-small is-rounded" id="search-input" placeholder="Search..">   
- 
-    <ul id="results-container"></ul>
+  <input type="text" class="input is-small is-rounded" id="search-input" placeholder="Search..">
+
+  <ul id="results-container"></ul>
 </div>
 <script src="/assets/js/search.js"></script>
 <script>
@@ -11,7 +10,14 @@
     resultsContainer: document.getElementById('results-container'),
     json: '/assets/data/search.json',
     noResultsText: "🤷🏿",
-    limit:7
+    limit: 7
   })
-</script>
 
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 's' || e.key === 'S') {
+      e.preventDefault();
+      // focus on search input
+      document.getElementById('search-input').focus();
+    }
+  });
+</script>

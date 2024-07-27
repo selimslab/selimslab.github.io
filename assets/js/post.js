@@ -1,7 +1,8 @@
-get_random_post = async () =>{
-    var dice = document.getElementById("dice");
-    animate(dice, "shakex");
 
+const dice = document.getElementById("dice");
+
+getRandomPage = async () =>{
+    animate(dice, "shakex");
     fetch("/assets/data/urls.json", {headers:{     
             'Content-Type': 'application/json',
             'cache': "force-cache"
@@ -15,8 +16,14 @@ get_random_post = async () =>{
     );
 }
 
+dice.addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+      getRandomPage();
+    }
+});
+
 document.addEventListener('keydown', function(e) {
-    if (e.key === 'p') {
-       get_random_post();
+    if (e.key === 'p' || e.key === 'P') {
+       getRandomPage();
     }
 });

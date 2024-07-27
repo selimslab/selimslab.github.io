@@ -33,7 +33,7 @@ const getRandomIdea = async () => {
 
 
 document.addEventListener('keydown', function(e) {
-  if (e.key === 'i') {
+  if (e.key === 'i' || e.key === 'I') {
      getRandomIdea();
   }
 });
