@@ -1,6 +1,4 @@
 ---
-
-title: If, ceviri Bulent Ecevit
 ---
 
 [[if]] 
