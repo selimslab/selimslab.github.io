@@ -35,7 +35,7 @@ class SiteGenerator < Jekyll::Generator
     # shuffle paths
     paths = paths.shuffle(random: Random.new(paths.length))
     paths.map do |path|
-      name = File.basename(path, ".*").split("-").map(&:capitalize).join(" ")
+      name = File.basename(path, ".*").split("-").split("_").map(&:capitalize).join(" ")
       artworks << { "name": name, "path": path }
     end
 
@@ -231,17 +231,21 @@ class SiteGenerator < Jekyll::Generator
     tree = {}
     queue = [[path, tree]]
     root = nil
+    pre = nil
+    nxt = nil
 
     until queue.empty?
       parent_path, branch = queue.shift
       parent_basename = File.basename(parent_path)
       parent_id = "/#{parent_basename}"
       root ||= parent_id
+      pre || = parent_id
 
       branch[parent_id] ||= {}
 
-      entries = Dir.entries(parent_path)
-      entries.sort.each do |child|
+      entries = Dir.entries(parent_path).sort
+
+      entries.each do |child|
         next if child.start_with?('.', '_')
 
         child_basename = File.basename(child)
