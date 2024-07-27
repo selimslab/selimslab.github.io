@@ -2,12 +2,16 @@ require 'json'
 require 'pp'
 
 NOTES_PATH = "./_NOTES"
-ASSETS_PATH = "./assets/data"
+ASSETS_PATH = "./assets"
+STATIC_PATH = "./assets/static"
+DATA_PATH = "./assets/data"
 
 class SiteGenerator < Jekyll::Generator
   @fixed_frontmatter = false
+  @generated = false
 
   def generate(site)
+    return if @generated
     fix_frontmatter unless @fixed_frontmatter
     @fixed_frontmatter = true
 
@@ -15,15 +19,31 @@ class SiteGenerator < Jekyll::Generator
     initialize_file_to_tag(site)
     initialize_file_to_title(site)
     generate_tree(site)
-    write_json("#{ASSETS_PATH}/tree.json", site.data["tree"])
+    write_json("#{DATA_PATH}/tree.json", site.data["tree"])
 
     process_documents(site)
 
     graph = generate_graph(site)
     site.data["link_count"] = calculate_link_count(site, graph)
-    site.data["ideas"] = load_ideas
+    ideas = load_ideas
+    # shuffle ideas
+    ideas = ideas.shuffle(random: Random.new(ideas.length))
+    write_json("#{DATA_PATH}/ideas.json", ideas)
+
+    artworks = []
+    paths = Dir.glob("#{STATIC_PATH}/art/**/*.{jpg,jpeg,png,gif}")
+    # shuffle paths
+    paths = paths.shuffle(random: Random.new(paths.length))
+    paths.map do |path|
+      name = File.basename(path, ".*").split("-").map(&:capitalize).join(" ")
+      artworks << { "name": name, "path": path }
+    end
+
+    write_json("#{DATA_PATH}/artworks.json", artworks)
 
     write_tags_json(site)
+
+    @generated = true
   end
 
   def initialize_backlinks(site)
@@ -56,11 +76,11 @@ class SiteGenerator < Jekyll::Generator
   end
 
   def load_ideas
-    JSON.parse(File.read("#{ASSETS_PATH}/ideas.json")).sort
+    JSON.parse(File.read("#{DATA_PATH}/ideas.json")).sort
   end
 
   def write_tags_json(site)
-    write_json("#{ASSETS_PATH}/tags.json", site.documents.map { |doc| [doc.id, doc.data["tags"]] }.to_h)
+    write_json("#{DATA_PATH}/tags.json", site.documents.map { |doc| [doc.id, doc.data["tags"]] }.to_h)
   end
 
   def remove_leading_slash(str)
@@ -126,7 +146,7 @@ class SiteGenerator < Jekyll::Generator
   end
 
   def write_graph_data(graph_data)
-    write_json("#{ASSETS_PATH}/graph.json", graph_data)
+    write_json("#{DATA_PATH}/graph.json", graph_data)
   end
 
   def fix_frontmatter
