@@ -21,3 +21,5 @@ We can reject to treat people as attention machines to make money
 <https://github.com/pi-hole/pi-hole>
 
 <https://github.com/gorhill/uBlock>
+
+[I'm betting on HTML (catskull.net)](https://catskull.net/html.html)

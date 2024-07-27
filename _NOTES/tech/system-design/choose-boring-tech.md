@@ -9,3 +9,5 @@ But more importantly, their failure modes are well understood.
 
 
 [The boring technology behind a one-person Internet company - Listen Notes](https://www.listennotes.com/blog/the-boring-technology-behind-a-one-person-23/)
+
+[I'm betting on HTML (catskull.net)](https://catskull.net/html.html)
