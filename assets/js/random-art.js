@@ -2,7 +2,7 @@
 let cachedJson = null;
 
 const shuffleArt = async () => {
-  if (!cachedJson) {
+  if (cachedJson === null) {
     try {
       const response = await fetch("/assets/data/artworks.json", {
         headers: {
