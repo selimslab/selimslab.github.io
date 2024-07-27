@@ -44,3 +44,8 @@ const shuffleArt = async () => {
 };
 
 
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'a') {
+     shuffleArt();
+  }
+});

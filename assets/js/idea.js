@@ -32,3 +32,8 @@ const getRandomIdea = async () => {
 }
 
 
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'i') {
+     getRandomIdea();
+  }
+});

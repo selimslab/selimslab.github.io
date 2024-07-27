@@ -15,8 +15,8 @@ get_random_post = async () =>{
     );
 }
 
-// document.addEventListener('keydown', function(event) {
-//     if (event.key === 'R') {
-//         get_random_post();
-//     }
-//   });
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'p') {
+       get_random_post();
+    }
+});
