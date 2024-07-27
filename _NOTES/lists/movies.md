@@ -1,6 +1,6 @@
 ---
 title: Movies 🎬
-tags: lists
+tags: cinema
 ---
 
 
