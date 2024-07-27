@@ -208,7 +208,6 @@
         "/concepts-in-greek-thought",
         "/enemies",
         "/epicurus",
-        "/essays-of-schopenhauer",
         "/eudaimonia",
         "/experiences-vs-materials",
         "/free-will",
@@ -418,15 +417,13 @@
       "links": [
         "/lists",
         "/in-praise-of-idleness",
-        "/essays-of-schopenhauer",
         "/how-to-grow-old-russell",
         "/mastery",
         "/problem-solving",
         "/farming-trap",
         "/look-down-and-around",
         "/the-triumph-of-stupidity",
-        "/who-goes-nazi",
-        "/outgroup"
+        "/who-goes-nazi"
       ]
     },
     {
@@ -1049,9 +1046,9 @@
       "name": "Sociology",
       "links": [
         "/social-sciences",
-        "/outgroup",
         "/social-change",
-        "/social-class"
+        "/social-class",
+        "/social-groups"
       ]
     },
     {
@@ -1351,15 +1348,6 @@
       "name": "Epicurus",
       "links": [
         "/philosophy"
-      ]
-    },
-    {
-      "id": "/essays-of-schopenhauer",
-      "group": 3,
-      "name": "The Essays Of Schopenhauer",
-      "links": [
-        "/philosophy",
-        "/essais"
       ]
     },
     {
@@ -2399,15 +2387,6 @@
       ]
     },
     {
-      "id": "/outgroup",
-      "group": 3,
-      "name": "Outgroup",
-      "links": [
-        "/sociology",
-        "/essais"
-      ]
-    },
-    {
       "id": "/social-change",
       "group": 3,
       "name": "Social Change",
@@ -2419,6 +2398,14 @@
       "id": "/social-class",
       "group": 3,
       "name": "Social Class",
+      "links": [
+        "/sociology"
+      ]
+    },
+    {
+      "id": "/social-groups",
+      "group": 3,
+      "name": "Social Groups",
       "links": [
         "/sociology"
       ]
@@ -5375,10 +5362,6 @@
     },
     {
       "source": "/philosophy",
-      "target": "/essays-of-schopenhauer"
-    },
-    {
-      "source": "/philosophy",
       "target": "/eudaimonia"
     },
     {
@@ -5827,15 +5810,15 @@
     },
     {
       "source": "/sociology",
-      "target": "/outgroup"
-    },
-    {
-      "source": "/sociology",
       "target": "/social-change"
     },
     {
       "source": "/sociology",
       "target": "/social-class"
+    },
+    {
+      "source": "/sociology",
+      "target": "/social-groups"
     },
     {
       "source": "/systems",
@@ -7127,10 +7110,6 @@
     },
     {
       "source": "/essais",
-      "target": "/essays-of-schopenhauer"
-    },
-    {
-      "source": "/essais",
       "target": "/how-to-grow-old-russell"
     },
     {
@@ -7156,10 +7135,6 @@
     {
       "source": "/essais",
       "target": "/who-goes-nazi"
-    },
-    {
-      "source": "/essais",
-      "target": "/outgroup"
     },
     {
       "source": "/lists",

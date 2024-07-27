@@ -18,8 +18,14 @@ class SiteGenerator < Jekyll::Generator
     initialize_backlinks(site)
     initialize_file_to_tag(site)
     initialize_file_to_title(site)
-    generate_tree(site)
-    write_json("#{DATA_PATH}/tree.json", site.data["tree"])
+    tree= generate_tree(site)
+    site.data["tree"] = tree
+    generate_tree_htmls(site, tree)
+
+    write_json("#{DATA_PATH}/tree.json", tree)
+
+    level_order = tree_level_order(tree)
+    write_json("#{DATA_PATH}/tree_level_order.json", level_order)
 
     process_documents(site)
 
@@ -48,6 +54,33 @@ class SiteGenerator < Jekyll::Generator
 
     @generated = true
   end
+
+  def tree_level_order(tree)
+    current_level = {"/":tree}
+    level_order = {}
+
+    while !current_level.empty?
+      next_level = {}
+
+      current_level.each do |parent, node|
+        current_keys = []
+        node.each do |key, children|
+          current_keys << key
+          if children != {}
+            next_level[key] = children
+          end
+        end
+        level_order[parent] = current_keys
+      end
+
+      current_level = next_level
+    end
+
+    level_order
+
+  end
+
+
 
   def initialize_backlinks(site)
     site.documents.each { |doc| doc.data['backlinks'] ||= [] }
@@ -219,8 +252,10 @@ class SiteGenerator < Jekyll::Generator
   def generate_tree(site)
     tree = bfs(site, NOTES_PATH)
     tree.transform_values! { |v| v.sort_by { |k, v| [-v.length, site.data["file_to_title"][k]] }.to_h }
-    site.data["tree"] = tree
+    tree
+  end
 
+  def generate_tree_htmls(site, tree)
     site.data["tree_htmls"] = {}
     tree_to_html(site, tree, "root")
 

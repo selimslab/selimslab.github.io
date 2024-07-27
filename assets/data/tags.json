@@ -150,10 +150,6 @@
   "/epicurus": [
     "philosophy"
   ],
-  "/essays-of-schopenhauer": [
-    "essais",
-    "philosophy"
-  ],
   "/eudaimonia": [
     "philosophy",
     "skills",
@@ -857,13 +853,13 @@
   "/social-sciences": [
 
   ],
-  "/outgroup": [
-    "essais"
-  ],
   "/social-change": [
 
   ],
   "/social-class": [
+
+  ],
+  "/social-groups": [
 
   ],
   "/chaos": [
@@ -992,8 +988,7 @@
     "programming"
   ],
   "/approximation": [
-    "algorithms",
-    "apx"
+    "algorithms"
   ],
   "/backtrack": [
     "algorithms"
