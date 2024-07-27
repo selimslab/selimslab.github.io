@@ -30,10 +30,14 @@ const shuffleArt = async () => {
 
   let img = document.getElementById("artwork");
   let artIdx = localStorage.getItem('artIdx');
-  if (artIdx === null) {
+  if (artIdx) {
+    artIdx = parseInt(artIdx);
+  } else {
     artIdx = Math.floor(Math.random() * cachedArt.length);
-    localStorage.setItem('artIdx', (artIdx+1)%cachedArt.length);
-  } 
+  }
+
+  let nextIdx = (artIdx + 1) % cachedArt.length;
+  localStorage.setItem('artIdx', nextIdx.toString());
 
   img.src =cachedArt[artIdx].url;
 

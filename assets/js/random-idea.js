@@ -19,10 +19,15 @@ const getRandomIdea = async () => {
     }
   }
   let ideaIdx = localStorage.getItem('ideaIdx');
-  if (ideaIdx === null) {
-    ideaIdx = Math.floor(Math.random() * cachedIdeas.length);
-    localStorage.setItem('ideaIdx', (ideaIdx+1)%cachedIdeas.length);
+  if (ideaIdx) {
+    ideaIdx = parseInt(ideaIdx);
   }
+  else {
+    ideaIdx = Math.floor(Math.random() * cachedIdeas.length);
+  } 
+  let nextIdx = (ideaIdx + 1) % cachedIdeas.length;
+  localStorage.setItem('ideaIdx', nextIdx.toString());
+  
   document.getElementById("random_idea").innerHTML = cachedIdeas[ideaIdx];
 }
 
