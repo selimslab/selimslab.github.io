@@ -1,8 +1,7 @@
 ---
-title: The Essays Of Arthur Schopenhauer: The Wisdom Of Life
+title: The Essays Of Schopenhauer 
 tags: essais
 ---
-
 
 In these pages I shall speak of The Wisdom of Life in the common meaning
 of the term, as the art, namely, of ordering our lives so as to obtain the

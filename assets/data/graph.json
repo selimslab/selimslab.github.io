@@ -208,6 +208,7 @@
         "/concepts-in-greek-thought",
         "/enemies",
         "/epicurus",
+        "/essays-of-schopenhauer",
         "/eudaimonia",
         "/experiences-vs-materials",
         "/free-will",
@@ -274,10 +275,10 @@
         "/arts",
         "/abbas",
         "/asik-veysel",
+        "/bulent-ecevit",
         "/can-yucel",
         "/edip-cansever",
         "/fuzuli",
-        "/if-ecevit",
         "/isyan",
         "/melih-cevdet",
         "/nazim",
@@ -417,6 +418,7 @@
       "links": [
         "/lists",
         "/in-praise-of-idleness",
+        "/essays-of-schopenhauer",
         "/how-to-grow-old-russell",
         "/mastery",
         "/problem-solving",
@@ -1352,6 +1354,15 @@
       ]
     },
     {
+      "id": "/essays-of-schopenhauer",
+      "group": 3,
+      "name": "The Essays Of Schopenhauer",
+      "links": [
+        "/philosophy",
+        "/essais"
+      ]
+    },
+    {
       "id": "/eudaimonia",
       "group": 3,
       "name": "On a good life 🌱",
@@ -1639,7 +1650,7 @@
       "name": "If",
       "links": [
         "/poetry",
-        "/if-ecevit"
+        "/bulent-ecevit"
       ]
     },
     {
@@ -1729,6 +1740,15 @@
       ]
     },
     {
+      "id": "/bulent-ecevit",
+      "group": 3,
+      "name": "Bulent Ecevit",
+      "links": [
+        "/siir",
+        "/if"
+      ]
+    },
+    {
       "id": "/can-yucel",
       "group": 3,
       "name": "Can Yücel",
@@ -1750,15 +1770,6 @@
       "name": "Fuzuli",
       "links": [
         "/siir"
-      ]
-    },
-    {
-      "id": "/if-ecevit",
-      "group": 3,
-      "name": "If, ceviri Bulent Ecevit",
-      "links": [
-        "/siir",
-        "/if"
       ]
     },
     {
@@ -5364,6 +5375,10 @@
     },
     {
       "source": "/philosophy",
+      "target": "/essays-of-schopenhauer"
+    },
+    {
+      "source": "/philosophy",
       "target": "/eudaimonia"
     },
     {
@@ -5524,6 +5539,10 @@
     },
     {
       "source": "/siir",
+      "target": "/bulent-ecevit"
+    },
+    {
+      "source": "/siir",
       "target": "/can-yucel"
     },
     {
@@ -5533,10 +5552,6 @@
     {
       "source": "/siir",
       "target": "/fuzuli"
-    },
-    {
-      "source": "/siir",
-      "target": "/if-ecevit"
     },
     {
       "source": "/siir",
@@ -7084,7 +7099,7 @@
     },
     {
       "source": "/if",
-      "target": "/if-ecevit"
+      "target": "/bulent-ecevit"
     },
     {
       "source": "/lightly-child",
@@ -7109,6 +7124,10 @@
     {
       "source": "/essais",
       "target": "/in-praise-of-idleness"
+    },
+    {
+      "source": "/essais",
+      "target": "/essays-of-schopenhauer"
     },
     {
       "source": "/essais",

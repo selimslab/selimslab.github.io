@@ -18,8 +18,12 @@ const getRandomIdea = async () => {
       return;
     }
   }
-
-  document.getElementById("random_idea").innerHTML = get_random_item(cachedIdeas);
+  let ideaIdx = localStorage.getItem('ideaIdx');
+  if (ideaIdx === null) {
+    ideaIdx = Math.floor(Math.random() * cachedIdeas.length);
+    localStorage.setItem('ideaIdx', (ideaIdx+1)%cachedIdeas.length);
+  }
+  document.getElementById("random_idea").innerHTML = cachedIdeas[ideaIdx];
 }
 
 

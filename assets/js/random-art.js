@@ -29,12 +29,17 @@ const shuffleArt = async () => {
   }
 
   let img = document.getElementById("artwork");
-  img.src = get_random_item(cachedArt);
+  let artIdx = localStorage.getItem('artIdx');
+  if (artIdx === null) {
+    artIdx = Math.floor(Math.random() * cachedArt.length);
+    localStorage.setItem('artIdx', (artIdx+1)%cachedArt.length);
+  } 
+
+  img.src =cachedArt[artIdx].url;
 
   let fileName = img.src.split("/").pop().split(".")[0];
-  let alt = fileNameToTitle(fileName);
-  img.alt = alt;
-  document.getElementById("description").innerHTML = alt;
+  img.alt = fileNameToTitle(fileName);
+  document.getElementById("description").innerHTML = img.alt;
 };
 
 

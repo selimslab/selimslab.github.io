@@ -150,6 +150,10 @@
   "/epicurus": [
     "philosophy"
   ],
+  "/essays-of-schopenhauer": [
+    "essais",
+    "philosophy"
+  ],
   "/eudaimonia": [
     "philosophy",
     "skills",
@@ -359,6 +363,9 @@
   "/asik-veysel": [
     "siir"
   ],
+  "/bulent-ecevit": [
+    "siir"
+  ],
   "/can-yucel": [
     "siir"
   ],
@@ -366,9 +373,6 @@
     "siir"
   ],
   "/fuzuli": [
-    "siir"
-  ],
-  "/if-ecevit": [
     "siir"
   ],
   "/isyan": [
