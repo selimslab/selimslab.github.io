@@ -155,8 +155,6 @@
       },
       "/asik-veysel": {
       },
-      "/bingol-cobanlari": {
-      },
       "/can-yucel": {
       },
       "/edip-cansever": {
@@ -176,6 +174,24 @@
       "/siir": {
       },
       "/yunus-emre": {
+      }
+    },
+    "/literature": {
+      "/cien-anos-de-soledad": {
+      },
+      "/classics": {
+      },
+      "/do-not-lie-to-yourself": {
+      },
+      "/elaborate-vs-clear-speech": {
+      },
+      "/ince-memed": {
+      },
+      "/literature": {
+      },
+      "/the-art-of-war": {
+      },
+      "/turk-mirasi": {
       }
     },
     "/languages": {
@@ -216,24 +232,6 @@
         }
       }
     },
-    "/literature": {
-      "/cien-anos-de-soledad": {
-      },
-      "/classics": {
-      },
-      "/do-not-lie-to-yourself": {
-      },
-      "/elaborate-vs-clear-speech": {
-      },
-      "/ince-memed": {
-      },
-      "/literature": {
-      },
-      "/the-art-of-war": {
-      },
-      "/turk-mirasi": {
-      }
-    },
     "/music": {
       "/classical-music": {
       },
@@ -247,7 +245,7 @@
       },
       "/rock": {
       },
-      "/turk-sanatcilar": {
+      "/sanatcilar": {
       }
     },
     "/design": {
@@ -261,12 +259,10 @@
       }
     },
     "/cinema": {
-      "/cinema": {
-      },
-      "/movies": {
-      }
     },
     "/arts": {
+    },
+    "/photography": {
     }
   },
   "/lists": {
@@ -289,6 +285,8 @@
     "/ideas": {
     },
     "/lists": {
+    },
+    "/movies": {
     },
     "/nato-phonetic-alphabet": {
     },
@@ -439,8 +437,6 @@
     "/outdoors": {
     },
     "/parenting": {
-    },
-    "/photography": {
     },
     "/problem-solving": {
     },

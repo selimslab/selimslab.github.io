@@ -5,10 +5,6 @@
   "/cinema": [
     "arts"
   ],
-  "/movies": [
-    "cinema",
-    "lists"
-  ],
   "/creativity": [
     "design"
   ],
@@ -121,7 +117,7 @@
   "/rock": [
     "music"
   ],
-  "/turk-sanatcilar": [
+  "/sanatcilar": [
     "lists",
     "music",
     "turkce"
@@ -271,6 +267,10 @@
   "/you-are-not-nameless": [
     "work"
   ],
+  "/photography": [
+    "arts",
+    "skills"
+  ],
   "/conviction": [
     "poetry"
   ],
@@ -359,9 +359,6 @@
   "/asik-veysel": [
     "siir"
   ],
-  "/bingol-cobanlari": [
-    "siir"
-  ],
   "/can-yucel": [
     "siir"
   ],
@@ -427,6 +424,10 @@
   ],
   "/lists": [
 
+  ],
+  "/movies": [
+    "cinema",
+    "lists"
   ],
   "/nato-phonetic-alphabet": [
     "lists"
@@ -659,9 +660,6 @@
   ],
   "/parenting": [
     "psy",
-    "skills"
-  ],
-  "/photography": [
     "skills"
   ],
   "/problem-solving": [

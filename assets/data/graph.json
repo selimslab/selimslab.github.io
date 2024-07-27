@@ -23,11 +23,12 @@
         "/philosophy",
         "/poetry",
         "/siir",
-        "/languages",
         "/literature",
+        "/languages",
         "/music",
         "/design",
         "/cinema",
+        "/photography",
         "/paintings"
       ]
     },
@@ -46,6 +47,7 @@
         "/games",
         "/history-of-technology",
         "/ideas",
+        "/movies",
         "/nato-phonetic-alphabet",
         "/news",
         "/paintings",
@@ -56,8 +58,7 @@
         "/classics",
         "/film-scores",
         "/modern-greek-alphabet",
-        "/movies",
-        "/turk-sanatcilar"
+        "/sanatcilar"
       ]
     },
     {
@@ -128,7 +129,6 @@
         "/mountaineering",
         "/outdoors",
         "/parenting",
-        "/photography",
         "/problem-solving",
         "/teaching",
         "/trading",
@@ -139,6 +139,7 @@
         "/cooking",
         "/critical-thinking",
         "/eudaimonia",
+        "/photography",
         "/how-to-start",
         "/programming"
       ]
@@ -273,7 +274,6 @@
         "/arts",
         "/abbas",
         "/asik-veysel",
-        "/bingol-cobanlari",
         "/can-yucel",
         "/edip-cansever",
         "/fuzuli",
@@ -285,21 +285,6 @@
         "/yunus-emre",
         "/turkce",
         "/poetry"
-      ]
-    },
-    {
-      "id": "/languages",
-      "group": 2,
-      "name": "Languages",
-      "links": [
-        "/arts",
-        "/deutsch",
-        "/english",
-        "/latin",
-        "/metaphors",
-        "/modern-greek-alphabet",
-        "/turkce",
-        "/cestina"
       ]
     },
     {
@@ -319,6 +304,21 @@
       ]
     },
     {
+      "id": "/languages",
+      "group": 2,
+      "name": "Languages",
+      "links": [
+        "/arts",
+        "/deutsch",
+        "/english",
+        "/latin",
+        "/metaphors",
+        "/modern-greek-alphabet",
+        "/turkce",
+        "/cestina"
+      ]
+    },
+    {
       "id": "/music",
       "group": 2,
       "name": "Music",
@@ -329,7 +329,7 @@
         "/film-scores",
         "/rap",
         "/rock",
-        "/turk-sanatcilar"
+        "/sanatcilar"
       ]
     },
     {
@@ -353,9 +353,18 @@
       "name": "Cinema",
       "links": [
         "/arts",
-        "/movies",
         "/film-scores",
-        "/documentaries"
+        "/documentaries",
+        "/movies"
+      ]
+    },
+    {
+      "id": "/photography",
+      "group": 2,
+      "name": "Photography",
+      "links": [
+        "/arts",
+        "/skills"
       ]
     },
     {
@@ -442,6 +451,15 @@
       "name": "Ideas",
       "links": [
         "/lists"
+      ]
+    },
+    {
+      "id": "/movies",
+      "group": 2,
+      "name": "Movies 🎬",
+      "links": [
+        "/lists",
+        "/cinema"
       ]
     },
     {
@@ -898,14 +916,6 @@
       "links": [
         "/skills",
         "/psychology"
-      ]
-    },
-    {
-      "id": "/photography",
-      "group": 2,
-      "name": "Photography",
-      "links": [
-        "/skills"
       ]
     },
     {
@@ -1719,14 +1729,6 @@
       ]
     },
     {
-      "id": "/bingol-cobanlari",
-      "group": 3,
-      "name": "Bingol Cobanlari",
-      "links": [
-        "/siir"
-      ]
-    },
-    {
       "id": "/can-yucel",
       "group": 3,
       "name": "Can Yücel",
@@ -1800,78 +1802,6 @@
       ]
     },
     {
-      "id": "/deutsch",
-      "group": 3,
-      "name": "Deutsch",
-      "links": [
-        "/languages"
-      ]
-    },
-    {
-      "id": "/english",
-      "group": 3,
-      "name": "English",
-      "links": [
-        "/languages"
-      ]
-    },
-    {
-      "id": "/latin",
-      "group": 3,
-      "name": "Latin",
-      "links": [
-        "/languages"
-      ]
-    },
-    {
-      "id": "/metaphors",
-      "group": 3,
-      "name": "Metaphors",
-      "links": [
-        "/languages",
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/modern-greek-alphabet",
-      "group": 3,
-      "name": "Modern Greek Alphabet",
-      "links": [
-        "/languages",
-        "/lists"
-      ]
-    },
-    {
-      "id": "/turkce",
-      "group": 3,
-      "name": "Turkce",
-      "links": [
-        "/languages",
-        "/ince-memed",
-        "/turk-mirasi",
-        "/turk-sanatcilar",
-        "/ideal-insan",
-        "/siir"
-      ]
-    },
-    {
-      "id": "/cestina",
-      "group": 3,
-      "name": "Cestina",
-      "links": [
-        "/languages",
-        "/adjektiva",
-        "/cas",
-        "/cisla",
-        "/domov",
-        "/fraze",
-        "/koníčky",
-        "/podobna-slova",
-        "/predlozky",
-        "/slovesa"
-      ]
-    },
-    {
       "id": "/cien-anos-de-soledad",
       "group": 3,
       "name": "Cien Anos De Soledad",
@@ -1938,6 +1868,78 @@
       ]
     },
     {
+      "id": "/deutsch",
+      "group": 3,
+      "name": "Deutsch",
+      "links": [
+        "/languages"
+      ]
+    },
+    {
+      "id": "/english",
+      "group": 3,
+      "name": "English",
+      "links": [
+        "/languages"
+      ]
+    },
+    {
+      "id": "/latin",
+      "group": 3,
+      "name": "Latin",
+      "links": [
+        "/languages"
+      ]
+    },
+    {
+      "id": "/metaphors",
+      "group": 3,
+      "name": "Metaphors",
+      "links": [
+        "/languages",
+        "/social-sciences"
+      ]
+    },
+    {
+      "id": "/modern-greek-alphabet",
+      "group": 3,
+      "name": "Modern Greek Alphabet",
+      "links": [
+        "/languages",
+        "/lists"
+      ]
+    },
+    {
+      "id": "/turkce",
+      "group": 3,
+      "name": "Turkce",
+      "links": [
+        "/languages",
+        "/ince-memed",
+        "/turk-mirasi",
+        "/sanatcilar",
+        "/ideal-insan",
+        "/siir"
+      ]
+    },
+    {
+      "id": "/cestina",
+      "group": 3,
+      "name": "Cestina",
+      "links": [
+        "/languages",
+        "/adjektiva",
+        "/cas",
+        "/cisla",
+        "/domov",
+        "/fraze",
+        "/koníčky",
+        "/podobna-slova",
+        "/predlozky",
+        "/slovesa"
+      ]
+    },
+    {
       "id": "/classical-music",
       "group": 3,
       "name": "Classical Music",
@@ -1980,7 +1982,7 @@
       ]
     },
     {
-      "id": "/turk-sanatcilar",
+      "id": "/sanatcilar",
       "group": 3,
       "name": "Sanatcilar",
       "links": [
@@ -2014,15 +2016,6 @@
       "links": [
         "/design",
         "/on-software"
-      ]
-    },
-    {
-      "id": "/movies",
-      "group": 3,
-      "name": "Movies 🎬",
-      "links": [
-        "/cinema",
-        "/lists"
       ]
     },
     {
@@ -4959,11 +4952,11 @@
     },
     {
       "source": "/arts",
-      "target": "/languages"
+      "target": "/literature"
     },
     {
       "source": "/arts",
-      "target": "/literature"
+      "target": "/languages"
     },
     {
       "source": "/arts",
@@ -4976,6 +4969,10 @@
     {
       "source": "/arts",
       "target": "/cinema"
+    },
+    {
+      "source": "/arts",
+      "target": "/photography"
     },
     {
       "source": "/lists",
@@ -5012,6 +5009,10 @@
     {
       "source": "/lists",
       "target": "/ideas"
+    },
+    {
+      "source": "/lists",
+      "target": "/movies"
     },
     {
       "source": "/lists",
@@ -5212,10 +5213,6 @@
     {
       "source": "/skills",
       "target": "/parenting"
-    },
-    {
-      "source": "/skills",
-      "target": "/photography"
     },
     {
       "source": "/skills",
@@ -5527,10 +5524,6 @@
     },
     {
       "source": "/siir",
-      "target": "/bingol-cobanlari"
-    },
-    {
-      "source": "/siir",
       "target": "/can-yucel"
     },
     {
@@ -5566,34 +5559,6 @@
       "target": "/yunus-emre"
     },
     {
-      "source": "/languages",
-      "target": "/deutsch"
-    },
-    {
-      "source": "/languages",
-      "target": "/english"
-    },
-    {
-      "source": "/languages",
-      "target": "/latin"
-    },
-    {
-      "source": "/languages",
-      "target": "/metaphors"
-    },
-    {
-      "source": "/languages",
-      "target": "/modern-greek-alphabet"
-    },
-    {
-      "source": "/languages",
-      "target": "/turkce"
-    },
-    {
-      "source": "/languages",
-      "target": "/cestina"
-    },
-    {
       "source": "/literature",
       "target": "/cien-anos-de-soledad"
     },
@@ -5622,6 +5587,34 @@
       "target": "/turk-mirasi"
     },
     {
+      "source": "/languages",
+      "target": "/deutsch"
+    },
+    {
+      "source": "/languages",
+      "target": "/english"
+    },
+    {
+      "source": "/languages",
+      "target": "/latin"
+    },
+    {
+      "source": "/languages",
+      "target": "/metaphors"
+    },
+    {
+      "source": "/languages",
+      "target": "/modern-greek-alphabet"
+    },
+    {
+      "source": "/languages",
+      "target": "/turkce"
+    },
+    {
+      "source": "/languages",
+      "target": "/cestina"
+    },
+    {
       "source": "/music",
       "target": "/classical-music"
     },
@@ -5643,7 +5636,7 @@
     },
     {
       "source": "/music",
-      "target": "/turk-sanatcilar"
+      "target": "/sanatcilar"
     },
     {
       "source": "/design",
@@ -5656,10 +5649,6 @@
     {
       "source": "/design",
       "target": "/ship-it"
-    },
-    {
-      "source": "/cinema",
-      "target": "/movies"
     },
     {
       "source": "/health",
@@ -6894,6 +6883,10 @@
       "target": "/documentaries"
     },
     {
+      "source": "/cinema",
+      "target": "/movies"
+    },
+    {
       "source": "/creativity",
       "target": "/how-to-start-a-business"
     },
@@ -6931,7 +6924,7 @@
     },
     {
       "source": "/turkce",
-      "target": "/turk-sanatcilar"
+      "target": "/sanatcilar"
     },
     {
       "source": "/turkce",
@@ -7163,11 +7156,7 @@
     },
     {
       "source": "/lists",
-      "target": "/movies"
-    },
-    {
-      "source": "/lists",
-      "target": "/turk-sanatcilar"
+      "target": "/sanatcilar"
     },
     {
       "source": "/bayes",
@@ -7268,6 +7257,10 @@
     {
       "source": "/skills",
       "target": "/eudaimonia"
+    },
+    {
+      "source": "/skills",
+      "target": "/photography"
     },
     {
       "source": "/skills",
