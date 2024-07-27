@@ -8,7 +8,7 @@ layout: page
 
 # Project Delta 
 
-A digital space for work and play. A garden, home, lab, garage, .. 
+A digital space for work and play 
 
 ## Content
 
