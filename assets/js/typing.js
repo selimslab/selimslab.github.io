@@ -20,7 +20,7 @@ async function getNextSentence() {
 
     // remove any punctuation next to another punctuation
     content = content.replace(/[,;.:?!]([,;.:?!])/g, '$1');
-    
+
 
     return content;
 }
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     let isHandlingKeydown = false;
     let incorrect = 0;
     let idx = 0;
-    
+
 
     function renderSentence() {
         let caret = false;
@@ -55,19 +55,19 @@ document.addEventListener('DOMContentLoaded', async () => {
                     console.log(typedText.slice(i));
                     formattedSentence += `<span class="incorrect">${typedText.slice(i)}</span>`;
                     formattedSentence += `<span class="caret">${sentence[i]}</span>`;
-                    formattedSentence += `<span>${sentence.slice(i+1)}</span>`;
+                    formattedSentence += `<span>${sentence.slice(i + 1)}</span>`;
                     i = typedText.length;
                     sentenceDiv.innerHTML = formattedSentence;
-                    return 
+                    return
                 }
             } else {
-                if (!caret){
+                if (!caret) {
                     formattedSentence += `<span class="caret">${sentence[i]}</span>`;
                     caret = true;
-                } else{
+                } else {
                     formattedSentence += sentence[i];
                 }
-                
+
             }
         }
 
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (isHandlingKeydown) return;
         isHandlingKeydown = true;
         console.log("event.key:", event.key);
-        
+
         if (!startTime) {
             startTime = new Date();
         }
