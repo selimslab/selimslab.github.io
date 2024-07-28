@@ -1,7 +1,7 @@
 let cachedIdeas = null;
+const machine = document.getElementById("ideaMachine");
 
 const getRandomIdea = async () => {
-  var machine = document.getElementById("ideaMachine");
   animate(machine, "shakey");
 
   if (!cachedIdeas) {
@@ -31,6 +31,11 @@ const getRandomIdea = async () => {
   document.getElementById("random_idea").innerHTML = cachedIdeas[ideaIdx];
 }
 
+machine.addEventListener('keydown', function(e) {
+  if (e.key === 'Enter') {
+    getRandomIdea();
+  }
+});
 
 document.addEventListener('keydown', function(e) {
   if (e.key === 'i' || e.key === 'I') {

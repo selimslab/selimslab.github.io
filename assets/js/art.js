@@ -1,6 +1,9 @@
 
 let cachedJson = null;
 
+const img = document.getElementById("artwork");
+
+
 const shuffleArt = async () => {
   if (cachedJson === null) {
     try {
@@ -26,7 +29,6 @@ const shuffleArt = async () => {
   let nextIdx = (artIdx + 1) % cachedJson.length;
   localStorage.setItem('artIdx', nextIdx.toString());
 
-  let img = document.getElementById("artwork");
   artwork = cachedJson[artIdx];
   img.src = artwork.path;
   img.alt = artwork.name;
@@ -42,6 +44,13 @@ const shuffleArt = async () => {
   }
 
 };
+
+
+img.addEventListener('keydown', function(e) {
+  if (e.key === 'Enter') {
+    shuffleArt();
+  }
+});
 
 
 document.addEventListener('keydown', function(e) {
