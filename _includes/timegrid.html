@@ -1,0 +1,47 @@
+<div class="container"></div>
+
+<style>
+  :root {
+    --point-size: 0.6rem;
+    --point-gap: 0.2rem;
+    --columns: 10;
+  }
+
+  .grid {
+    list-style-type: none;
+    display: grid;
+    grid-gap: var(--point-gap);
+    grid-auto-flow: row;
+    grid-auto-rows: var(--point-size);
+    grid-template-columns: repeat(var(--columns), var(--point-size));
+  }
+
+  .grid li {
+    background-color: #fff;
+    margin: 0;
+    border-radius: 50%;
+  }
+
+  .container {
+    margin-bottom: 1rem;
+  }
+</style>
+
+<script>
+const columns = 10;
+const years = 14000;
+const yearsPerGrid = 1000;
+const rowsPerGrid = yearsPerGrid / columns;
+const grids = years / yearsPerGrid;
+
+const container = document.querySelector('.container');
+
+for (let g = 0; g < grids; g++) {
+  const grid = document.createElement('ul');
+  grid.classList.add('grid');
+  for (let i = 0; i < rowsPerGrid; i++) {
+    grid.appendChild(document.createElement('li'));
+  }
+  container.appendChild(grid);
+}
+</script>

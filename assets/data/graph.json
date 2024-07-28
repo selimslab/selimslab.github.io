@@ -40,8 +40,8 @@
       "name": "Experiments",
       "links": [
         "/root",
-        "/news-reader",
-        "/decades",
+        "/rss-reader",
+        "/timegrid",
         "/typing-practice"
       ]
     },
@@ -393,17 +393,17 @@
       ]
     },
     {
-      "id": "/news-reader",
+      "id": "/rss-reader",
       "group": 2,
-      "name": "News Reader",
+      "name": "Rss Reader",
       "links": [
         "/experiments"
       ]
     },
     {
-      "id": "/decades",
+      "id": "/timegrid",
       "group": 2,
-      "name": "Decades",
+      "name": "Timegrid",
       "links": [
         "/experiments"
       ]
@@ -5040,11 +5040,11 @@
     },
     {
       "source": "/experiments",
-      "target": "/news-reader"
+      "target": "/rss-reader"
     },
     {
       "source": "/experiments",
-      "target": "/decades"
+      "target": "/timegrid"
     },
     {
       "source": "/lists",

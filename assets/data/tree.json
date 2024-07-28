@@ -266,11 +266,11 @@
     }
   },
   "/experiments": {
+    "/rss-reader": {
+    },
+    "/timegrid": {
+    },
     "/experiments": {
-    },
-    "/news-reader": {
-    },
-    "/decades": {
     }
   },
   "/lists": {
