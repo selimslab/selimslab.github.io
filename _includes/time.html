@@ -24,8 +24,8 @@
 <style>
 
   :root {
-      --point-size: 0.45rem;
-      --point-gap: 0.1rem;
+      --point-size: 0.4rem;
+      --point-gap: 0.15rem;
   }
 
   .days {
@@ -60,7 +60,7 @@
   }
 
   .days li.now {
-    border: 3px solid orange;
+    border: 2px solid rgb(255, 55, 0);
   }
 
 
@@ -127,7 +127,11 @@
       for (let day = 1; day <= number_of_days; day++) {
         total += 1;
         if (total == this_day) {
-          day_graph.insertAdjacentHTML("beforeend", `<li class="now"></li>`);
+          if (weekend_days[month_index].includes(day)) {
+            day_graph.insertAdjacentHTML("beforeend", `<li class="now weekend"></li>`);
+          } else {
+            day_graph.insertAdjacentHTML("beforeend", `<li class="now"></li>`);
+          }
         } else if (total < this_day) {
           day_graph.insertAdjacentHTML("beforeend", `<li class="past"></li>`);
         } else {

@@ -4,9 +4,12 @@ tags: top
 
 [Crash Course Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo) and [Harvard CS50](https://www.youtube.com/playlist?list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW) are great introductions to fundamental concepts. 
 
-I think the best algorithms book for new programmers is Grokking Algorithms An Illustrated Guide For Programmers and Other Curious People
+I think the best algorithms book for new programmers is:
+Grokking Algorithms, An Illustrated Guide For Programmers and Other Curious People
 
 ## See also 
+
+- [[computers]]
 
 * [Teach Yourself Computer Science](https://teachyourselfcs.com/)
 

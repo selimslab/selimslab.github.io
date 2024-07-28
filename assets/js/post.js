@@ -18,12 +18,7 @@ getRandomPage = async () =>{
     }
 
     animate(dice, "shakex");
-    const body = document.querySelector('body');
-    body.style.opacity = "20%";
-    // wait for 1 second
-    setTimeout(() => {
-        location.href = get_random_item(cachedUrls);
-    }, 200);
+    location.href = get_random_item(cachedUrls);
 
 }
 
