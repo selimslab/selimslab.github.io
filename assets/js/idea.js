@@ -1,17 +1,6 @@
 let cachedIdeas = null;
 
-document.addEventListener('DOMContentLoaded', async () => {
-  const machine = document.getElementById("ideaMachine");
 
-  machine.addEventListener('keydown', function (e) {
-    if (e.key === 'Enter') {
-      setNextIdea();
-    }
-  });
-
-  setNextIdea()
-
-});
 
 const readIdeas = async () => {
   if (!cachedIdeas) {
@@ -45,11 +34,6 @@ const getNextIdea = async () => {
   let nextIdx = (idx + 1) % cachedIdeas.length;
   setIdeaIdx(nextIdx);
   return cachedIdeas[idx];
-}
-
-const setNextIdea = async () => {
-  animate(machine, "shakey");
-  document.getElementById("random_idea").innerHTML = await getNextIdea();
 }
 
 

@@ -21,3 +21,22 @@ onclick="setNextIdea();">🎰
 
 <script src="/assets/js/idea.js"></script>
 
+<script>
+  document.addEventListener('DOMContentLoaded', async () => {
+  const machine = document.getElementById("ideaMachine");
+
+  const setNextIdea = async () => {
+    animate(machine, "shakey");
+    document.getElementById("random_idea").innerHTML = await getNextIdea();
+  }
+
+  machine.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') {
+      setNextIdea();
+    }
+  });
+
+  setNextIdea()
+});
+
+</script>

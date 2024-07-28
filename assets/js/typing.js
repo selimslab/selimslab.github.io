@@ -1,6 +1,6 @@
 
 
-let wpms = [];
+
 
 async function getNextSentence() {
     content = await getNextIdea();
@@ -18,9 +18,6 @@ async function getNextSentence() {
     // remove double commas 
     content = content.replace(/,,/g, ',');
 
-    // remove ; and : and . and ! and ? and " 
-    content = content.replace(/[;:.!?"]/g, '');
-
     return content;
 }
 
@@ -31,6 +28,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const medianWpmDiv = document.getElementById('medianWpm');
     const accuracyDiv = document.getElementById('typingAccuracy');
 
+    let wpms = [];
     let typedText = '';
     let startTime = null;
     let endTime = null;
@@ -64,6 +62,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         endTime = null;
         sentenceDiv.textContent = sentence;
         idx = 0;
+        isHandlingKeydown = false;
+        correct = 0;
+        incorrect = 0;
     }
 
 
@@ -78,7 +79,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         if (event.key === 'Backspace') {
             typedText = typedText.slice(0, -1);
-        } else if (event.key.length === 1 && event.key.match(/^[a-zA-Z0-9, ]$/)) {
+        } else if (event.key.length === 1 && event.key.match(/^[a-zA-Z0-9'",;.:?!\/ ]$/)) {
             // only add the character if it is a letter or number or space or comma 
             typedText += event.key;
             expectedChar = sentence[idx];
@@ -97,7 +98,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         console.log("typedText:", typedText);
         console.log("sentence:", sentence);
 
-        if (typedText === sentence) {
+        if (typedText.length === sentence.length) {
             endTime = new Date();
             const timeTaken = (endTime - startTime) / 1000 / 60; // time in minutes
             const charactersTyped = sentence.length;
@@ -109,12 +110,10 @@ document.addEventListener('DOMContentLoaded', async () => {
             medianWpmDiv.textContent = `median wpm: ${medianWpm}`;
             let accuracy = Math.round((correct / (correct + incorrect)) * 100);
             accuracyDiv.textContent = `accuracy: ${accuracy}%`;
+            // wait for 1 second before resetting
+            await new Promise(resolve => setTimeout(resolve, 1000));
             await reset();
-        } else if (typedText.length === sentence.length) {
-            console.error("typedText:", typedText);
-            console.error("sentence:", sentence);
         }
-
         isHandlingKeydown = false;
 
     });
