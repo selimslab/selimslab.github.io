@@ -6,6 +6,7 @@
       "name": "Root",
       "links": [
         "/arts",
+        "/experiments",
         "/lists",
         "/math",
         "/meta",
@@ -31,6 +32,17 @@
         "/cinema",
         "/photography",
         "/paintings"
+      ]
+    },
+    {
+      "id": "/experiments",
+      "group": 1,
+      "name": "Experiments",
+      "links": [
+        "/root",
+        "/news-reader",
+        "/decades",
+        "/typing-practice"
       ]
     },
     {
@@ -378,6 +390,22 @@
       "links": [
         "/arts",
         "/skills"
+      ]
+    },
+    {
+      "id": "/news-reader",
+      "group": 2,
+      "name": "News Reader",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/decades",
+      "group": 2,
+      "name": "Decades",
+      "links": [
+        "/experiments"
       ]
     },
     {
@@ -995,7 +1023,8 @@
       "group": 2,
       "name": "Typing Practice",
       "links": [
-        "/skills"
+        "/skills",
+        "/experiments"
       ]
     },
     {
@@ -1161,7 +1190,7 @@
         "/easy-vs-hard-in-cs",
         "/encodings",
         "/for-new-programmers",
-        "/tools",
+        "/programming-tools",
         "/unicode",
         "/algorithms",
         "/code",
@@ -2505,9 +2534,9 @@
       ]
     },
     {
-      "id": "/tools",
+      "id": "/programming-tools",
       "group": 3,
-      "name": "Tools",
+      "name": "Programming Tools",
       "links": [
         "/programming"
       ]
@@ -4943,6 +4972,10 @@
     },
     {
       "source": "/root",
+      "target": "/experiments"
+    },
+    {
+      "source": "/root",
       "target": "/lists"
     },
     {
@@ -5004,6 +5037,14 @@
     {
       "source": "/arts",
       "target": "/photography"
+    },
+    {
+      "source": "/experiments",
+      "target": "/news-reader"
+    },
+    {
+      "source": "/experiments",
+      "target": "/decades"
     },
     {
       "source": "/lists",
@@ -5895,7 +5936,7 @@
     },
     {
       "source": "/programming",
-      "target": "/tools"
+      "target": "/programming-tools"
     },
     {
       "source": "/programming",
@@ -7140,6 +7181,10 @@
     {
       "source": "/not-far-away",
       "target": "/travelling"
+    },
+    {
+      "source": "/experiments",
+      "target": "/typing-practice"
     },
     {
       "source": "/datasets",

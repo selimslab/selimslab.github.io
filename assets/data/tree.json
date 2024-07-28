@@ -265,6 +265,14 @@
     "/photography": {
     }
   },
+  "/experiments": {
+    "/experiments": {
+    },
+    "/news-reader": {
+    },
+    "/decades": {
+    }
+  },
   "/lists": {
     "/authors": {
     },
@@ -615,9 +623,9 @@
       },
       "/for-new-programmers": {
       },
-      "/programming": {
+      "/programming-tools": {
       },
-      "/tools": {
+      "/programming": {
       },
       "/unicode": {
       },

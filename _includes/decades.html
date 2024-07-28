@@ -1,0 +1,42 @@
+<ul class="grid"></ul>
+
+<style>
+  :root {
+      --point-size: 0.45rem;
+      --point-gap: 0.15rem;
+      --columns: 10
+  }
+
+  .grid {
+    list-style-type: none;
+    display: grid;
+    grid-gap: var(--point-gap);
+    grid-auto-flow: row;
+    grid-auto-rows: var(--point-size);
+    grid-template-columns: repeat(var(--columns), var(--point-size));
+  }
+
+  .grid li {
+    background-color: #fff;
+    margin: 0;
+    border-radius: 50%;
+  }
+</style>
+
+<script>
+let columns = 10;
+let years = 12000;
+let rows = years / columns;
+const grid = document.querySelector('.grid');
+
+for (let i = 0; i < rows; i++) {
+  if (i % 100 == 0 && i != 0) {
+    for (let j = 0; j < columns; j++) {
+      const breakElement = document.createElement('div');
+      breakElement.style.height = '2rem';
+      grid.appendChild(breakElement);
+    }
+  }
+  grid.appendChild(document.createElement('li'));
+}
+</script>

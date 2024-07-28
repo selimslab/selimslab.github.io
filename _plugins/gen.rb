@@ -13,8 +13,11 @@ class SiteGenerator < Jekyll::Generator
 
   def generate(site)
     return if @generated
-    fix_frontmatter unless @fixed_frontmatter
-    @fixed_frontmatter = true
+    unless @fixed_frontmatter
+      fix_frontmatter
+      @fixed_frontmatter = true
+
+    end
 
     site.data["tree"] = {}
     site.data["tree_htmls"] = {}
