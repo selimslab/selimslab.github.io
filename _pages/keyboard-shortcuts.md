@@ -16,3 +16,5 @@ Standard browser keys are the same
 - `Enter` to select
 - `Home` go top 
 - `End` go bottom 
+
+[[accessibility]]

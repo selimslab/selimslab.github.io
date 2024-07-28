@@ -1052,7 +1052,7 @@
     {
       "id": "/systems",
       "group": 2,
-      "name": "Systems thinking",
+      "name": "Systems Thinking",
       "links": [
         "/social-sciences",
         "/chaos",
@@ -2906,7 +2906,8 @@
       "links": [
         "/ux",
         "/system-design",
-        "/tech"
+        "/tech",
+        "/keyboard-shortcuts"
       ]
     },
     {
@@ -7843,6 +7844,10 @@
     {
       "source": "/tech",
       "target": "/accessibility"
+    },
+    {
+      "source": "/accessibility",
+      "target": "/keyboard-shortcuts"
     },
     {
       "source": "/meta",
