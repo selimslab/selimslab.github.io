@@ -1,22 +1,35 @@
+<div id="sentence" class="idea"></div>
+<div id="wpm">wpm: 0</div>
 
+<style>
+    .idea {
+        white-space: pre-line;
+        min-height: 4rem;
+        font-size: 1.6rem;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
 
-<div class="sentence" id="sentence"></div>
-<div class="field">
-    <textarea id="typingArea" placeholder="Start typing here..."></textarea>
+    #wpm {
+        margin-top: 2rem;
+    }
+</style>
 
-</div>
-<div class="wpm" id="wpm"></div>
 
 <script src="/assets/js/idea.js"></script>
 
 <script src="/assets/js/typing.js"></script>
 
 <style>
-    .typed {
-    color: grey;
-}
+    .correct {
+        color: #909090;
+    }
 
-.highlight {
-    background-color: rgba(255, 238, 0, 0.313);
-}
+    .incorrect {
+        color: rgba(241, 2, 2, 0.769);
+    }
+
+    .highlight {
+        background-color: rgba(255, 238, 0, 0.313);
+    }
 </style>

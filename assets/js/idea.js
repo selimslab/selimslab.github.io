@@ -1,5 +1,4 @@
 let cachedIdeas = null;
-const machine = document.getElementById("ideaMachine");
 
 const readIdeas = async () => {
   if (!cachedIdeas) {
@@ -23,7 +22,7 @@ const getIdeaIdx = () => {
   return idx ? parseInt(idx) : Math.floor(Math.random() * cachedIdeas.length);;
 }
 
-const  setIdeaIdx = (idx) => {
+const setIdeaIdx = (idx) => {
   localStorage.setItem('ideaIdx', idx.toString());
 }
 
@@ -40,10 +39,4 @@ const setNextIdea = async () => {
   document.getElementById("random_idea").innerHTML = await getNextIdea();
 }
 
-machine.addEventListener('keydown', function(e) {
-  if (e.key === 'Enter') {
-    setNextIdea();
-  }
-});
 
-setNextIdea()
