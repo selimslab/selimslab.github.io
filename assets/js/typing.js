@@ -1,7 +1,3 @@
-
-
-
-
 async function getNextSentence() {
     content = await getNextIdea();
     // convert to lowercase
@@ -52,7 +48,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                 } else {
                     // the rest of typed text is incorrect
                     incorrect += typedText.length - i;
-                    console.log(typedText.slice(i));
                     formattedSentence += `<span class="incorrect">${typedText.slice(i)}</span>`;
                     formattedSentence += `<span class="caret">${sentence[i]}</span>`;
                     formattedSentence += `<span>${sentence.slice(i + 1)}</span>`;
@@ -90,7 +85,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     document.addEventListener('keydown', async (event) => {
         if (isHandlingKeydown) return;
         isHandlingKeydown = true;
-        console.log("event.key:", event.key);
 
         if (!startTime) {
             startTime = new Date();
@@ -106,8 +100,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
 
         renderSentence();
-        console.log("typedText:", typedText);
-        console.log("sentence:", sentence);
 
         if (typedText.length === sentence.length) {
             endTime = new Date();
