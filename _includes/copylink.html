@@ -2,7 +2,7 @@
     <a href="javascript:void(0);" 
     id="copyToClipBoard" 
     onclick="copyToClipBoard();" 
-    style="font-size: smaller;"
+    style="font-size: smaller; margin-top: 2rem;"
      title="Copy link">📋 Copy link to share</a>
 </p>
 <script>
@@ -18,7 +18,7 @@
         navigator.clipboard.writeText(window.location.href);
         copyButton.innerHTML = "✅ Link copied!";
         setTimeout(function () {
-            copyButton.innerHTML = '📋 Copy link';
+            copyButton.innerHTML = '📋 Copy link to share';
         }, 500);
     }
 </script>
