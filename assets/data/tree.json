@@ -325,6 +325,18 @@
     "/probability-and-statistics": {
     }
   },
+  "/meta": {
+    "/graph-3d": {
+    },
+    "/keyboard-shortcuts": {
+    },
+    "/meta": {
+    },
+    "/stats": {
+    },
+    "/graph-2d": {
+    }
+  },
   "/natural-sciences": {
     "/health": {
       "/going-blind": {
@@ -944,8 +956,6 @@
       "/evolution-of-computer-interfaces": {
       },
       "/hijacked-minds": {
-      },
-      "/keyboard-shortcuts": {
       },
       "/natural-tech": {
       },

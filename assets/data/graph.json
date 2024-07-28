@@ -8,6 +8,7 @@
         "/arts",
         "/lists",
         "/math",
+        "/meta",
         "/natural-sciences",
         "/skills",
         "/social-sciences",
@@ -77,6 +78,18 @@
         "/normal-distribution",
         "/probability-and-statistics",
         "/local-maximum"
+      ]
+    },
+    {
+      "id": "/meta",
+      "group": 1,
+      "name": "Meta",
+      "links": [
+        "/root",
+        "/graph-3d",
+        "/keyboard-shortcuts",
+        "/stats",
+        "/graph-2d"
       ]
     },
     {
@@ -594,6 +607,38 @@
         "/math",
         "/datasets",
         "/bayes"
+      ]
+    },
+    {
+      "id": "/graph-3d",
+      "group": 2,
+      "name": "3D Graph of All Pages",
+      "links": [
+        "/meta"
+      ]
+    },
+    {
+      "id": "/keyboard-shortcuts",
+      "group": 2,
+      "name": "Keyboard Shortcuts",
+      "links": [
+        "/meta"
+      ]
+    },
+    {
+      "id": "/stats",
+      "group": 2,
+      "name": "Stats",
+      "links": [
+        "/meta"
+      ]
+    },
+    {
+      "id": "/graph-2d",
+      "group": 2,
+      "name": "2D Graph of All Pages",
+      "links": [
+        "/meta"
       ]
     },
     {
@@ -1194,7 +1239,6 @@
         "/accessibility",
         "/evolution-of-computer-interfaces",
         "/hijacked-minds",
-        "/keyboard-shortcuts",
         "/natural-tech",
         "/polished-pixels",
         "/things-users-care",
@@ -2907,8 +2951,7 @@
       "links": [
         "/ux",
         "/system-design",
-        "/tech",
-        "/keyboard-shortcuts"
+        "/tech"
       ]
     },
     {
@@ -2926,15 +2969,6 @@
       "links": [
         "/ux",
         "/social-sciences"
-      ]
-    },
-    {
-      "id": "/keyboard-shortcuts",
-      "group": 3,
-      "name": "Keyboard Shortcuts",
-      "links": [
-        "/ux",
-        "/accessibility"
       ]
     },
     {
@@ -4915,6 +4949,10 @@
     },
     {
       "source": "/root",
+      "target": "/meta"
+    },
+    {
+      "source": "/root",
       "target": "/natural-sciences"
     },
     {
@@ -5068,6 +5106,22 @@
     {
       "source": "/math",
       "target": "/probability-and-statistics"
+    },
+    {
+      "source": "/meta",
+      "target": "/graph-3d"
+    },
+    {
+      "source": "/meta",
+      "target": "/keyboard-shortcuts"
+    },
+    {
+      "source": "/meta",
+      "target": "/stats"
+    },
+    {
+      "source": "/meta",
+      "target": "/graph-2d"
     },
     {
       "source": "/natural-sciences",
@@ -6004,10 +6058,6 @@
     {
       "source": "/ux",
       "target": "/hijacked-minds"
-    },
-    {
-      "source": "/ux",
-      "target": "/keyboard-shortcuts"
     },
     {
       "source": "/ux",
@@ -7848,10 +7898,6 @@
     {
       "source": "/tech",
       "target": "/accessibility"
-    },
-    {
-      "source": "/accessibility",
-      "target": "/keyboard-shortcuts"
     }
   ]
 }
