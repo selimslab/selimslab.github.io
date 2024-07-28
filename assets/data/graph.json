@@ -2934,8 +2934,7 @@
       "name": "Keyboard Shortcuts",
       "links": [
         "/ux",
-        "/accessibility",
-        "/meta"
+        "/accessibility"
       ]
     },
     {
@@ -4898,16 +4897,6 @@
       "name": "Design Video Streaming App",
       "links": [
         "/oop-designs"
-      ]
-    },
-    {
-      "id": "/meta",
-      "group": 0,
-      "name": "Meta",
-      "links": [
-        "/graph-2d",
-        "/graph-3d",
-        "/keyboard-shortcuts"
       ]
     }
   ],
@@ -7862,18 +7851,6 @@
     },
     {
       "source": "/accessibility",
-      "target": "/keyboard-shortcuts"
-    },
-    {
-      "source": "/meta",
-      "target": "/graph-2d"
-    },
-    {
-      "source": "/meta",
-      "target": "/graph-3d"
-    },
-    {
-      "source": "/meta",
       "target": "/keyboard-shortcuts"
     }
   ]
