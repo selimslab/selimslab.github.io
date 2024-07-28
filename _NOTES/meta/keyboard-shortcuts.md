@@ -7,8 +7,8 @@ tags: meta
 - **S** search
 - **Shift+P** go to a random page 
 
-**Standard browser keys are the same** 
-## Focus and select
+Standard browser keys are the same 
+## Tab navigation 
 - **Tab** and **Shift+Tab** to move focus 
 - **Enter** to select
 ## Scroll
