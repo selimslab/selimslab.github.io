@@ -1194,6 +1194,7 @@
         "/accessibility",
         "/evolution-of-computer-interfaces",
         "/hijacked-minds",
+        "/keyboard-shortcuts",
         "/natural-tech",
         "/polished-pixels",
         "/things-users-care",
@@ -2925,6 +2926,16 @@
       "links": [
         "/ux",
         "/social-sciences"
+      ]
+    },
+    {
+      "id": "/keyboard-shortcuts",
+      "group": 3,
+      "name": "Keyboard Shortcuts",
+      "links": [
+        "/ux",
+        "/accessibility",
+        "/meta"
       ]
     },
     {
@@ -6004,6 +6015,10 @@
     {
       "source": "/ux",
       "target": "/hijacked-minds"
+    },
+    {
+      "source": "/ux",
+      "target": "/keyboard-shortcuts"
     },
     {
       "source": "/ux",
