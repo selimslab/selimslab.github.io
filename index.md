@@ -32,8 +32,6 @@ A digital space for work and play
 
 {% include hub.html tag='meta' %}
 
-[Keyboard Shortcuts](keyboard-shortcuts)
-
 ## Tap to shuffle   
 
 {% include random-art.html %}
