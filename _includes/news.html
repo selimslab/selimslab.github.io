@@ -1,0 +1,41 @@
+<div class="rss-feed" id="rss-feed">
+    Loading RSS feed...
+</div>
+
+<script>
+    async function fetchRSSFeed() {
+        const bbcTurkce = 'https://feeds.bbci.co.uk/turkce/rss.xml';
+        const bbcTopStories = 'https://feeds.bbci.co.uk/news/rss.xml?edition=int';
+        const response =  await fetch(bbcTurkce);
+        const text = await response.text();
+        const parser = new DOMParser();
+        const xml = parser.parseFromString(text, 'application/xml');
+        const items = xml.querySelectorAll('item');
+        const rssFeed = document.getElementById('rss-feed');
+        rssFeed.innerHTML = '';
+
+        items.forEach(item => {
+            const title = item.querySelector('title').textContent;
+            const link = item.querySelector('link').textContent;
+            const description = item.querySelector('description').textContent;
+
+            const rssItem = document.createElement('div');
+            rssItem.classList.add('rss-item');
+
+            const rssTitle = document.createElement('h3');
+            const rssLink = document.createElement('a');
+            rssLink.href = link;
+            rssLink.textContent = title;
+            rssTitle.appendChild(rssLink);
+
+            const rssDescription = document.createElement('p');
+            rssDescription.textContent = description;
+
+            rssItem.appendChild(rssTitle);
+            rssItem.appendChild(rssDescription);
+            rssFeed.appendChild(rssItem);
+        });
+    }
+
+    fetchRSSFeed();
+</script>

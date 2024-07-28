@@ -1,42 +1,39 @@
 
 
-<a
-style="font-size:1.8rem;"
-id="ideaMachine" 
-title="Idea Machine" 
-tabindex="0"
-onclick="setNextIdea();">🎰
+<a style="font-size:1.8rem;" id="ideaMachine" title="Idea Machine" tabindex="0" onclick="setNextIdea();">🎰
 </a>
 
 <p id="random_idea" class="idea" onclick="setNextIdea();"></p>
 
 
 <style>
-.idea{
-    white-space: pre-line; 
-    min-height:4rem
-}
+  .idea {
+    white-space: pre-line;
+    min-height: 4rem
+  }
 </style>
 
 
 <script src="/assets/js/idea.js"></script>
 
 <script>
-  document.addEventListener('DOMContentLoaded', async () => {
-  const machine = document.getElementById("ideaMachine");
 
   const setNextIdea = async () => {
+    let machine = document.getElementById("ideaMachine");
     animate(machine, "shakey");
     document.getElementById("random_idea").innerHTML = await getNextIdea();
   }
 
-  machine.addEventListener('keydown', function (e) {
-    if (e.key === 'Enter') {
-      setNextIdea();
-    }
-  });
+  document.addEventListener('DOMContentLoaded', async () => {
+    let machine = document.getElementById("ideaMachine");
 
-  setNextIdea()
-});
+    machine.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        setNextIdea();
+      }
+    });
+
+    setNextIdea()
+  });
 
 </script>
