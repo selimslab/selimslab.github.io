@@ -1,5 +1,7 @@
 ---
 ---
+
+
 // Grays
 $gray: #555;
 $darkGray: #333;
@@ -13,16 +15,17 @@ $accent : #FF530D;
 $highlight: #ffc800;
 $sunrise: #FAEAD4;
 
-// Font stacks
-$sansSerif: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$serif: Georgia, serif;
-
 // text and bg 
 $darkBg: #22272e;
 $lightText: #f0f1f2;
 
 $lightBg: #edeaea;
 $darkText: $gray;
+
+// Font stacks
+$sansSerif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif: Georgia, serif;
+
 
 html {
   font-size: larger;
@@ -38,16 +41,13 @@ footer.about {
   font-family: $serif;
 }
 
-// basics 
+
 body {
   font-family: $sansSerif;
   background-color: $darkBg;
   background-image: url('/assets/static/solar/2k_stars_milky_way3.jpg');
-  background-size: cover;
-  /* Ensures the image covers the entire background */
   background-position: center;
   background-attachment: fixed;
-  /* Centers the image */
   color: $lightText;
   min-height: 100vh;
   word-break: break-word;
