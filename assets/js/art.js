@@ -1,6 +1,5 @@
 
 let cachedJson = null;
-
 const img = document.getElementById("artwork");
 
 
@@ -30,6 +29,7 @@ const shuffleArt = async () => {
   localStorage.setItem('artIdx', nextIdx.toString());
 
   artwork = cachedJson[artIdx];
+
   img.src = artwork.path;
   img.alt = artwork.name;
   document.getElementById("description").innerHTML = artwork.name;
@@ -53,8 +53,4 @@ img.addEventListener('keydown', function(e) {
 });
 
 
-document.addEventListener('keydown', function(e) {
-  if (e.key === 'a' || e.key === 'A') {
-     shuffleArt();
-  }
-});
+shuffleArt();

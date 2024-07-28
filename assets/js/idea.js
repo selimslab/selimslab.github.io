@@ -37,8 +37,5 @@ machine.addEventListener('keydown', function(e) {
   }
 });
 
-document.addEventListener('keydown', function(e) {
-  if (e.key === 'i' || e.key === 'I') {
-     getRandomIdea();
-  }
-});
+
+getRandomIdea()

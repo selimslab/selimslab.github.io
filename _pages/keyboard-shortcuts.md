@@ -3,10 +3,8 @@ tags: meta
 ---
 
 This website works keyboard-only too  
-- `Arrow keys < >` go back and forward 
+- `Arrow keys < >` go back/forward 
 - `S` search
-- `A` shuffle artwork
-- `I` shuffle idea machine  
 - `Shift+P` go to a random page 
 
 
