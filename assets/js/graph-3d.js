@@ -26,3 +26,5 @@ function render3DGraph(){
   })();
 
 }
+
+render3DGraph()
