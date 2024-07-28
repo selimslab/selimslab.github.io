@@ -18,6 +18,10 @@ async function getNextSentence() {
     // remove double commas 
     content = content.replace(/,,/g, ',');
 
+    // remove any punctuation next to another punctuation
+    content = content.replace(/[,;.:?!]([,;.:?!])/g, '$1');
+    
+
     return content;
 }
 
@@ -33,22 +37,37 @@ document.addEventListener('DOMContentLoaded', async () => {
     let startTime = null;
     let endTime = null;
     let isHandlingKeydown = false;
-    let correct = 0;
     let incorrect = 0;
     let idx = 0;
+    
 
     function renderSentence() {
-        let formattedSentence = '';
+        let caret = false;
 
+        let formattedSentence = '';
         for (let i = 0; i < sentence.length; i++) {
             if (i < typedText.length) {
                 if (typedText[i] === sentence[i]) {
                     formattedSentence += `<span class="correct">${sentence[i]}</span>`;
                 } else {
-                    formattedSentence += `<span class="incorrect">${sentence[i]}</span>`;
+                    // the rest of typed text is incorrect
+                    incorrect += typedText.length - i;
+                    console.log(typedText.slice(i));
+                    formattedSentence += `<span class="incorrect">${typedText.slice(i)}</span>`;
+                    formattedSentence += `<span class="caret">${sentence[i]}</span>`;
+                    formattedSentence += `<span>${sentence.slice(i+1)}</span>`;
+                    i = typedText.length;
+                    sentenceDiv.innerHTML = formattedSentence;
+                    return 
                 }
             } else {
-                formattedSentence += sentence[i];
+                if (!caret){
+                    formattedSentence += `<span class="caret">${sentence[i]}</span>`;
+                    caret = true;
+                } else{
+                    formattedSentence += sentence[i];
+                }
+                
             }
         }
 
@@ -79,17 +98,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         if (event.key === 'Backspace') {
             typedText = typedText.slice(0, -1);
-        } else if (event.key.length === 1 && event.key.match(/^[a-zA-Z0-9'",;.:?!\/ ]$/)) {
-            // only add the character if it is a letter or number or space or comma 
+        } else if (event.key.length === 1) {
             typedText += event.key;
-            expectedChar = sentence[idx];
-            if (event.key === expectedChar) {
-                correct++;
-                idx++;
-            } else {
-                incorrect++;
-            }
-        }  else {
+        } else {
             isHandlingKeydown = false
             return;
         }
@@ -108,10 +119,11 @@ document.addEventListener('DOMContentLoaded', async () => {
             wpmDiv.textContent = `wpm: ${wpm}`;
             medianWpm = wpms.sort()[Math.floor(wpms.length / 2)];
             medianWpmDiv.textContent = `median wpm: ${medianWpm}`;
+            let correct = sentence.length;
             let accuracy = Math.round((correct / (correct + incorrect)) * 100);
             accuracyDiv.textContent = `accuracy: ${accuracy}%`;
             // wait for 1 second before resetting
-            await new Promise(resolve => setTimeout(resolve, 1000));
+            await new Promise(resolve => setTimeout(resolve, 400));
             await reset();
         }
         isHandlingKeydown = false;

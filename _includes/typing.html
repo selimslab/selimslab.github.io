@@ -5,11 +5,11 @@
 
 <style>
     .idea {
-        white-space: pre-line;
         min-height: 4rem;
         font-size: 1.6rem;
         margin: 0 auto;
         margin-top: 2rem;
+        font-family: monospace;
     }
 
     #wpm {
@@ -17,9 +17,22 @@
     }
 
     .caret {
-            color: #000;
-            font-weight: bold;
-        }
+        text-decoration: underline;
+        text-decoration-thickness: 3px;    
+    }
+
+    .correct {
+        color: #909090;
+    }
+
+    .incorrect {
+        background-color:  rgba(241, 2, 2, 0.769);
+        white-space: pre-wrap;
+    }
+
+    .highlight {
+        background-color: rgba(255, 238, 0, 0.313);
+    }
 </style>
 
 
@@ -27,16 +40,3 @@
 
 <script src="/assets/js/typing.js"></script>
 
-<style>
-    .correct {
-        color: #909090;
-    }
-
-    .incorrect {
-        color: rgba(241, 2, 2, 0.769);
-    }
-
-    .highlight {
-        background-color: rgba(255, 238, 0, 0.313);
-    }
-</style>
