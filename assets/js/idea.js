@@ -1,7 +1,5 @@
 let cachedIdeas = null;
 
-
-
 const readIdeas = async () => {
   if (!cachedIdeas) {
     try {

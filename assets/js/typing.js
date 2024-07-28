@@ -2,10 +2,6 @@ async function getNextSentence() {
     content = await getNextIdea();
     // convert to lowercase
     content = content.toLowerCase();
-    // capitalize i 
-    content = content.replace(/\si\s/g, ' I ');
-    // capitalize first letter of the sentence
-    content = content.charAt(0).toUpperCase() + content.slice(1);
 
     // turn new lines into commas 
     content = content.replace(/\n/g, ',');
@@ -13,10 +9,15 @@ async function getNextSentence() {
     content = content.replace(/ ,/g, ',');
     // remove double commas 
     content = content.replace(/,,/g, ',');
-
+    // remove .. 
+    content = content.replace(/\.\./g, '');
     // remove any punctuation next to another punctuation
-    content = content.replace(/[,;.:?!]([,;.:?!])/g, '$1');
+    content = content.replace(/[,;.:?! ]([,;.:?! ])/g, '$1');
 
+    // capitalize i 
+    content = content.replace(/\si\s/g, ' I ');
+    // capitalize first letter of the sentence
+    content = content.charAt(0).toUpperCase() + content.slice(1);
 
     return content;
 }
@@ -36,7 +37,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     let incorrect = 0;
     let idx = 0;
 
-
     function renderSentence() {
         let caret = false;
 
@@ -45,9 +45,9 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (i < typedText.length) {
                 if (typedText[i] === sentence[i]) {
                     formattedSentence += `<span class="correct">${sentence[i]}</span>`;
+                    idx = i + 1;
                 } else {
                     // the rest of typed text is incorrect
-                    incorrect += typedText.length - i;
                     formattedSentence += `<span class="incorrect">${typedText.slice(i)}</span>`;
                     formattedSentence += `<span class="caret">${sentence[i]}</span>`;
                     formattedSentence += `<span>${sentence.slice(i + 1)}</span>`;
@@ -94,6 +94,9 @@ document.addEventListener('DOMContentLoaded', async () => {
             typedText = typedText.slice(0, -1);
         } else if (event.key.length === 1) {
             typedText += event.key;
+            if (event.key !== sentence[idx]) {
+                incorrect++;
+            }
         } else {
             isHandlingKeydown = false
             return;
@@ -101,7 +104,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         renderSentence();
 
-        if (typedText.length === sentence.length) {
+        if (typedText.length === sentence.length && typedText === sentence) {
             endTime = new Date();
             const timeTaken = (endTime - startTime) / 1000 / 60; // time in minutes
             const charactersTyped = sentence.length;
