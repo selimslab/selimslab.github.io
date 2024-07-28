@@ -332,8 +332,6 @@
     },
     "/meta": {
     },
-    "/stats": {
-    },
     "/graph-2d": {
     }
   },
@@ -459,6 +457,8 @@
     "/trading": {
     },
     "/travelling": {
+    },
+    "/typing-practice": {
     },
     "/used-car-checklist": {
     },

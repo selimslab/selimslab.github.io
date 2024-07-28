@@ -88,7 +88,6 @@
         "/root",
         "/graph-3d",
         "/keyboard-shortcuts",
-        "/stats",
         "/graph-2d"
       ]
     },
@@ -146,6 +145,7 @@
         "/teaching",
         "/trading",
         "/travelling",
+        "/typing-practice",
         "/used-car-checklist",
         "/drawing",
         "/making-videos",
@@ -626,14 +626,6 @@
       ]
     },
     {
-      "id": "/stats",
-      "group": 2,
-      "name": "Stats",
-      "links": [
-        "/meta"
-      ]
-    },
-    {
       "id": "/graph-2d",
       "group": 2,
       "name": "2D Graph of All Pages",
@@ -999,6 +991,14 @@
       ]
     },
     {
+      "id": "/typing-practice",
+      "group": 2,
+      "name": "Typing Practice",
+      "links": [
+        "/skills"
+      ]
+    },
+    {
       "id": "/used-car-checklist",
       "group": 2,
       "name": "Used Car Checklist",
@@ -1286,7 +1286,8 @@
         "/tech",
         "/containers",
         "/networks",
-        "/operating-systems"
+        "/operating-systems",
+        "/for-new-programmers"
       ]
     },
     {
@@ -2499,7 +2500,8 @@
       "group": 3,
       "name": "For New Programmers",
       "links": [
-        "/programming"
+        "/programming",
+        "/computers"
       ]
     },
     {
@@ -5117,10 +5119,6 @@
     },
     {
       "source": "/meta",
-      "target": "/stats"
-    },
-    {
-      "source": "/meta",
       "target": "/graph-2d"
     },
     {
@@ -5274,6 +5272,10 @@
     {
       "source": "/skills",
       "target": "/travelling"
+    },
+    {
+      "source": "/skills",
+      "target": "/typing-practice"
     },
     {
       "source": "/skills",
@@ -7390,6 +7392,10 @@
     {
       "source": "/systems",
       "target": "/system-design"
+    },
+    {
+      "source": "/computers",
+      "target": "/for-new-programmers"
     },
     {
       "source": "/operating-systems",

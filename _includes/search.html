@@ -13,7 +13,7 @@
   })
 
   document.addEventListener('keydown', function (e) {
-    if (e.key === 's' || e.key === 'S') {
+    if (e.shiftKey && (e.key === 's' || e.key === 'S')) {
       e.preventDefault();
       // focus on search input
       document.getElementById('search-input').focus();

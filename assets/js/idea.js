@@ -1,9 +1,7 @@
 let cachedIdeas = null;
 const machine = document.getElementById("ideaMachine");
 
-const getRandomIdea = async () => {
-  animate(machine, "shakey");
-
+const readIdeas = async () => {
   if (!cachedIdeas) {
     try {
       const response = await fetch("/assets/data/ideas.json", {
@@ -18,24 +16,34 @@ const getRandomIdea = async () => {
       return;
     }
   }
-  let ideaIdx = localStorage.getItem('ideaIdx');
-  if (ideaIdx) {
-    ideaIdx = parseInt(ideaIdx);
-  }
-  else {
-    ideaIdx = Math.floor(Math.random() * cachedIdeas.length);
-  } 
-  let nextIdx = (ideaIdx + 1) % cachedIdeas.length;
-  localStorage.setItem('ideaIdx', nextIdx.toString());
-  
-  document.getElementById("random_idea").innerHTML = cachedIdeas[ideaIdx];
+}
+
+const getIdeaIdx = () => {
+  const idx = localStorage.getItem('ideaIdx');
+  return idx ? parseInt(idx) : Math.floor(Math.random() * cachedIdeas.length);;
+}
+
+const  setIdeaIdx = (idx) => {
+  localStorage.setItem('ideaIdx', idx.toString());
+}
+
+const getNextIdea = async () => {
+  await readIdeas();
+  let idx = getIdeaIdx();
+  let nextIdx = (idx + 1) % cachedIdeas.length;
+  setIdeaIdx(nextIdx);
+  return cachedIdeas[idx];
+}
+
+const setNextIdea = async () => {
+  animate(machine, "shakey");
+  document.getElementById("random_idea").innerHTML = await getNextIdea();
 }
 
 machine.addEventListener('keydown', function(e) {
   if (e.key === 'Enter') {
-    getRandomIdea();
+    setNextIdea();
   }
 });
 
-
-getRandomIdea()
+setNextIdea()

@@ -2,7 +2,7 @@
 layout: none
 ---
 
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js');
+importScripts('/assets/js/workbox.js');
 
 const { registerRoute } = workbox.routing;
 const { CacheFirst, NetworkFirst, StaleWhileRevalidate } = workbox.strategies;
