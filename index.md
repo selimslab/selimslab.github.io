@@ -16,7 +16,13 @@ A digital space for work and play
 {{ site.data.tree_htmls["root"] }}
 </div>
 
-{% include earth.html %}
+<br>
+
+## Tap to shuffle   
+
+{% include random-art.html %}
+
+{% include random-idea.html %}
 
 ## Featured
 
@@ -32,11 +38,9 @@ A digital space for work and play
 
 {% include hub.html tag='meta' %}
 
-## Tap to shuffle   
 
-{% include random-art.html %}
+{% include earth.html %}
 
-{% include random-idea.html %}
 
 {% include offline.html  %}
 

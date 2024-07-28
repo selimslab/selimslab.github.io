@@ -1019,11 +1019,9 @@
         "/farming-trap",
         "/history",
         "/look-down-and-around",
-        "/nothing-to-lose",
         "/prince",
         "/questioning-people-seen-as-a-threat-to-status-quo",
         "/the-triumph-of-stupidity",
-        "/war-is-a-racket",
         "/warfare-is-deception",
         "/who-goes-nazi",
         "/do-the-right-thing",
@@ -2308,14 +2306,6 @@
       ]
     },
     {
-      "id": "/nothing-to-lose",
-      "group": 3,
-      "name": "Nothing To Lose",
-      "links": [
-        "/politics"
-      ]
-    },
-    {
       "id": "/prince",
       "group": 3,
       "name": "Prince",
@@ -2340,14 +2330,6 @@
       "links": [
         "/politics",
         "/essais"
-      ]
-    },
-    {
-      "id": "/war-is-a-racket",
-      "group": 3,
-      "name": "War Is A Racket",
-      "links": [
-        "/politics"
       ]
     },
     {
@@ -4905,6 +4887,16 @@
       "links": [
         "/oop-designs"
       ]
+    },
+    {
+      "id": "/meta",
+      "group": 0,
+      "name": "Meta",
+      "links": [
+        "/graph-2d",
+        "/graph-3d",
+        "/keyboard-shortcuts"
+      ]
     }
   ],
   "links": [
@@ -5774,10 +5766,6 @@
     },
     {
       "source": "/politics",
-      "target": "/nothing-to-lose"
-    },
-    {
-      "source": "/politics",
       "target": "/prince"
     },
     {
@@ -5787,10 +5775,6 @@
     {
       "source": "/politics",
       "target": "/the-triumph-of-stupidity"
-    },
-    {
-      "source": "/politics",
-      "target": "/war-is-a-racket"
     },
     {
       "source": "/politics",
@@ -7859,6 +7843,18 @@
     {
       "source": "/tech",
       "target": "/accessibility"
+    },
+    {
+      "source": "/meta",
+      "target": "/graph-2d"
+    },
+    {
+      "source": "/meta",
+      "target": "/graph-3d"
+    },
+    {
+      "source": "/meta",
+      "target": "/keyboard-shortcuts"
     }
   ]
 }
