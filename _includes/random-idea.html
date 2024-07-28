@@ -10,7 +10,6 @@ onclick="setNextIdea();">🎰
 
 <p id="random_idea" class="idea" onclick="setNextIdea();"></p>
 
-<script src="/assets/js/idea.js"></script>
 
 <style>
 .idea{
@@ -19,20 +18,6 @@ onclick="setNextIdea();">🎰
 }
 </style>
 
-<script>
-// on document load
-document.addEventListener('DOMContentLoaded', async () => {
-  const machine = document.getElementById("ideaMachine");
 
-  machine.addEventListener('keydown', function (e) {
-    if (e.key === 'Enter') {
-      setNextIdea();
-    }
-  });
-
-  setNextIdea()
-
-});
-
-</script>
+<script src="/assets/js/idea.js"></script>
 

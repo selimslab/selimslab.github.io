@@ -1,5 +1,18 @@
 let cachedIdeas = null;
 
+document.addEventListener('DOMContentLoaded', async () => {
+  const machine = document.getElementById("ideaMachine");
+
+  machine.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') {
+      setNextIdea();
+    }
+  });
+
+  setNextIdea()
+
+});
+
 const readIdeas = async () => {
   if (!cachedIdeas) {
     try {
