@@ -58,9 +58,10 @@ class SiteGenerator < Jekyll::Generator
 
     paths.map do |path|
       name = File.basename(path, ".*")
+      # remove leading dot
       # split name by - or _, capitalize each word, join with space
       name = name.split(/[-_]/).map(&:capitalize).join(" ")
-      artworks << { "name": name, "path": path }
+      artworks << { "name": name, "path": path.sub(/^\./, "") }
     end
 
     artworks

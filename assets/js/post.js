@@ -16,14 +16,14 @@ getRandomPage = async () =>{
     );
 }
 
-dice.addEventListener('keydown', function(event) {
-    if (event.key === 'Enter') {
+dice.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') {
       getRandomPage();
     }
 });
 
 document.addEventListener('keydown', function(e) {
-    if (e.key === 'p' || e.key === 'P') {
+    if (e.shiftKey && (e.key === 'p' || e.key === 'P')) {
        getRandomPage();
     }
 });
