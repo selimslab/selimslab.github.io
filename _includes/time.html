@@ -1,5 +1,6 @@
 <script src="/assets/js/datetime.js"></script>
 <script src="/assets/js/moment.min.js"></script>
+<script src="/assets/js/color.js"></script>
 
 <p id="clock"></p>
 
@@ -54,21 +55,15 @@
     background-color: #909090;
   }
 
+  .days li.weekend {
+    background-color: #ffc800;
+  }
+
   .days li.now {
     border: 3px solid orange;
   }
 
-  progress::-webkit-progress-value {
-    background-color: #ffc800;
-  }
-  
-  progress::-moz-progress-bar {
-    background-color: #ffc800;
-  }
-  
-  progress::-ms-fill {
-    background-color: #ffc800;
-  }
+
 </style>
 
 <script>
@@ -110,12 +105,24 @@
     // create an array by using moment.js to get number of days in each month of this year
     const days_in_months = Array.from({ length: 12 }, (v, i) =>
       moment().month(i).daysInMonth()
+      
     );
+    // indexes of weekend days in each month
+    const weekend_days = days_in_months.map((days, index) => {
+      let weekend = [];
+      for (let day = 1; day <= days; day++) {
+        let date = moment().month(index).date(day);
+        if (date.day() == 0 || date.day() == 6) {
+          weekend.push(day);
+        }
+      }
+      return weekend;
+    });
 
     total = 0;
     const day_graph = document.querySelector(".days");
-
-    for (let number_of_days of days_in_months) {
+    
+    days_in_months.forEach((number_of_days, month_index) => {
       let dummy_days = 31 - number_of_days;
       for (let day = 1; day <= number_of_days; day++) {
         total += 1;
@@ -124,14 +131,21 @@
         } else if (total < this_day) {
           day_graph.insertAdjacentHTML("beforeend", `<li class="past"></li>`);
         } else {
-          day_graph.insertAdjacentHTML("beforeend", `<li></li>`);
-        }
+          // day in the weekend for the month
+          if (weekend_days[month_index].includes(day)) {
+            day_graph.insertAdjacentHTML("beforeend", `<li class="weekend"></li>`);
+          } else {
+            day_graph.insertAdjacentHTML("beforeend", `<li></li>`);
+          }
+        } 
       }
       // insert dummy days to fill the grid
       for (let i = 0; i < dummy_days; i++) {
         day_graph.insertAdjacentHTML("beforeend", `<li class="dummy"></li>`);
       }
-    }
+    });
+
+
   }
 
   add_days(this_day);
