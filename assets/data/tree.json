@@ -253,6 +253,8 @@
       },
       "/design": {
       },
+      "/double-diamond": {
+      },
       "/everyday-objects": {
       },
       "/ship-it": {
@@ -266,13 +268,27 @@
     }
   },
   "/experiments": {
+    "/digital-art": {
+    },
+    "/experiments": {
+    },
     "/grid": {
+    },
+    "/music-player": {
+    },
+    "/photo-gallery": {
     },
     "/rss-reader": {
     },
-    "/year-progress": {
+    "/savings-planner": {
     },
-    "/experiments": {
+    "/typing-practice": {
+    },
+    "/video-call": {
+    },
+    "/video-player": {
+    },
+    "/year-progress": {
     }
   },
   "/lists": {
@@ -467,8 +483,6 @@
     "/trading": {
     },
     "/travelling": {
-    },
-    "/typing-practice": {
     },
     "/used-car-checklist": {
     },

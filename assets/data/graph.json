@@ -40,10 +40,17 @@
       "name": "Experiments",
       "links": [
         "/root",
+        "/digital-art",
         "/grid",
+        "/music-player",
+        "/photo-gallery",
         "/rss-reader",
+        "/savings-planner",
+        "/typing-practice",
+        "/video-call",
+        "/video-player",
         "/year-progress",
-        "/typing-practice"
+        "/121st-century"
       ]
     },
     {
@@ -158,7 +165,6 @@
         "/teaching",
         "/trading",
         "/travelling",
-        "/typing-practice",
         "/used-car-checklist",
         "/drawing",
         "/making-videos",
@@ -166,6 +172,7 @@
         "/critical-thinking",
         "/eudaimonia",
         "/photography",
+        "/typing-practice",
         "/how-to-start",
         "/programming"
       ]
@@ -366,6 +373,7 @@
       "links": [
         "/arts",
         "/creativity",
+        "/double-diamond",
         "/everyday-objects",
         "/ship-it",
         "/how-to-start-a-business",
@@ -395,6 +403,14 @@
       ]
     },
     {
+      "id": "/digital-art",
+      "group": 2,
+      "name": "Digital Art",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
       "id": "/grid",
       "group": 2,
       "name": "Grid",
@@ -403,9 +419,58 @@
       ]
     },
     {
+      "id": "/music-player",
+      "group": 2,
+      "name": "Music Player",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/photo-gallery",
+      "group": 2,
+      "name": "Photo Gallery",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
       "id": "/rss-reader",
       "group": 2,
-      "name": "Rss Reader",
+      "name": "RSS reader",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/savings-planner",
+      "group": 2,
+      "name": "Savings Planner",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/typing-practice",
+      "group": 2,
+      "name": "Typing Practice",
+      "links": [
+        "/experiments",
+        "/skills"
+      ]
+    },
+    {
+      "id": "/video-call",
+      "group": 2,
+      "name": "Video Call",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/video-player",
+      "group": 2,
+      "name": "Video Player",
       "links": [
         "/experiments"
       ]
@@ -1026,15 +1091,6 @@
       "links": [
         "/skills",
         "/not-far-away"
-      ]
-    },
-    {
-      "id": "/typing-practice",
-      "group": 2,
-      "name": "Typing Practice",
-      "links": [
-        "/skills",
-        "/experiments"
       ]
     },
     {
@@ -2095,6 +2151,14 @@
       ]
     },
     {
+      "id": "/double-diamond",
+      "group": 3,
+      "name": "Double-diamond design process <><>",
+      "links": [
+        "/design"
+      ]
+    },
+    {
       "id": "/everyday-objects",
       "group": 3,
       "name": "Everyday Objects",
@@ -2455,7 +2519,8 @@
       "name": "121st century",
       "links": [
         "/history",
-        "/time"
+        "/time",
+        "/experiments"
       ]
     },
     {
@@ -5058,11 +5123,39 @@
     },
     {
       "source": "/experiments",
+      "target": "/digital-art"
+    },
+    {
+      "source": "/experiments",
       "target": "/grid"
     },
     {
       "source": "/experiments",
+      "target": "/music-player"
+    },
+    {
+      "source": "/experiments",
+      "target": "/photo-gallery"
+    },
+    {
+      "source": "/experiments",
       "target": "/rss-reader"
+    },
+    {
+      "source": "/experiments",
+      "target": "/savings-planner"
+    },
+    {
+      "source": "/experiments",
+      "target": "/typing-practice"
+    },
+    {
+      "source": "/experiments",
+      "target": "/video-call"
+    },
+    {
+      "source": "/experiments",
+      "target": "/video-player"
     },
     {
       "source": "/experiments",
@@ -5335,10 +5428,6 @@
     {
       "source": "/skills",
       "target": "/travelling"
-    },
-    {
-      "source": "/skills",
-      "target": "/typing-practice"
     },
     {
       "source": "/skills",
@@ -5755,6 +5844,10 @@
     {
       "source": "/design",
       "target": "/creativity"
+    },
+    {
+      "source": "/design",
+      "target": "/double-diamond"
     },
     {
       "source": "/design",
@@ -7214,7 +7307,7 @@
     },
     {
       "source": "/experiments",
-      "target": "/typing-practice"
+      "target": "/121st-century"
     },
     {
       "source": "/datasets",
@@ -7371,6 +7464,10 @@
     {
       "source": "/skills",
       "target": "/photography"
+    },
+    {
+      "source": "/skills",
+      "target": "/typing-practice"
     },
     {
       "source": "/skills",
