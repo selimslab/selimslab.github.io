@@ -12,7 +12,11 @@ Pleasure disappoints, not possibility."
 
 _Søren Kierkegaard_
 
-Everything can be taken from a man but one thing, the last of the human freedoms, 
+---
+
+Everything can be taken from a man but one thing, 
+
+the last of the human freedoms, 
 
 to choose one’s attitude in any given set of circumstances, 
 
