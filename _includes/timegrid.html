@@ -1,10 +1,16 @@
+
+
 <div class="container"></div>
 
 <style>
   :root {
-    --point-size: 0.6rem;
-    --point-gap: 0.2rem;
+    --point-size: 0.8rem;
+    --point-gap: 0.4rem;
     --columns: 10;
+  }
+
+  .container {
+    margin: 0 auto;
   }
 
   .grid {
@@ -14,6 +20,7 @@
     grid-auto-flow: row;
     grid-auto-rows: var(--point-size);
     grid-template-columns: repeat(var(--columns), var(--point-size));
+    margin-bottom: 1rem;
   }
 
   .grid li {
@@ -22,26 +29,34 @@
     border-radius: 50%;
   }
 
-  .container {
-    margin-bottom: 1rem;
-  }
+
 </style>
 
 <script>
 const columns = 10;
-const years = 14000;
-const yearsPerGrid = 1000;
-const rowsPerGrid = yearsPerGrid / columns;
-const grids = years / yearsPerGrid;
+const yearsPerGridPoint = 10;
+const grids = 121;
+
+// 121 means 21st century
+const events = {
+  3: 'End of the last ice age',
+  4: "First Temple (Göbekli Tepe)",
+  25: "First cities",
+  51: "Uruk",
+  121: "21st century"
+}
 
 const container = document.querySelector('.container');
 
 for (let g = 0; g < grids; g++) {
   const grid = document.createElement('ul');
   grid.classList.add('grid');
-  for (let i = 0; i < rowsPerGrid; i++) {
+  for (let i = 0; i < yearsPerGridPoint; i++) {
     grid.appendChild(document.createElement('li'));
   }
+  const gridNumber = document.createElement('h2');
+  gridNumber.textContent = `${grids-g}`
+  container.appendChild(gridNumber);
   container.appendChild(grid);
 }
 </script>

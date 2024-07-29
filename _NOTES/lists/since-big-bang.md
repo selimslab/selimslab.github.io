@@ -39,4 +39,3 @@ tags: nat top history
 - **Industrial Revolution**: 300 to 50 years ago
 - **World War I**: 1914 - 1918 
 - **World War II**: 1939 - 1945
-- **Digital Revolution**: ongoing 

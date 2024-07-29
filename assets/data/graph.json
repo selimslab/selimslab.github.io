@@ -403,9 +403,10 @@
     {
       "id": "/timegrid",
       "group": 2,
-      "name": "Timegrid",
+      "name": "Human Era Calendar",
       "links": [
-        "/experiments"
+        "/experiments",
+        "/history"
       ]
     },
     {
@@ -2367,6 +2368,7 @@
         "/politics",
         "/farming-trap",
         "/history-of-technology",
+        "/timegrid",
         "/since-big-bang"
       ]
     },
@@ -7365,6 +7367,10 @@
     {
       "source": "/history",
       "target": "/history-of-technology"
+    },
+    {
+      "source": "/history",
+      "target": "/timegrid"
     },
     {
       "source": "/history",
