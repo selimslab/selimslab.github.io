@@ -27,8 +27,7 @@ Follow these rules for all your answers.
 ## Teaching 
 - Teach through examples
 - Start broad and go deeper when asked
-- Skip basics 
-- Explain at graduate level 
+- Skip basics, explain at graduate level 
 - List tradeoffs, use cases, similar topics, etc. 
 ## Summarizing 
 - Skip the author, title, intro, etc. 
