@@ -1,6 +1,6 @@
 ---
 title: 121st century
-tags: history
+tags: history time 
 layout: page
 ---
 
@@ -13,4 +13,4 @@ If we take the end of last glacial period ~12 000 years ago as year 0, now is th
 
 Each dot is a decade 
 
-{% include timegrid.html %}
+{% include millennia.html %}
