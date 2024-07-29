@@ -9,8 +9,8 @@ Although different human species have been around for millions of year, the most
 
 Agriculture, first settlements, cities, religions, kingdoms, wars, explorations, and technological advances followed, bringing us to today. 
 
-If we take the end of last glacial period ~12 000 years ago as year 0, now is the year 12 024, 121st century.  
+If we take the end of last glacial period ~12 000 years ago as year 0, now is the year 12 024. And we are in the 121st century of Human Era, not 21st
 
-Numbers are centuries, each dot is a decade 
+Each dot is a decade 
 
 {% include timegrid.html %}

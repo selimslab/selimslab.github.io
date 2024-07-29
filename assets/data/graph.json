@@ -41,7 +41,6 @@
       "links": [
         "/root",
         "/rss-reader",
-        "/timegrid",
         "/typing-practice"
       ]
     },
@@ -177,14 +176,15 @@
         "/root",
         "/psychology",
         "/politics",
-        "/economics",
         "/sociology",
+        "/history",
+        "/economics",
         "/systems",
         "/law",
         "/books-social",
         "/being-poor",
-        "/urban-planning",
         "/architecture",
+        "/urban-planning",
         "/cognitive-biases",
         "/freedom",
         "/happiness",
@@ -398,15 +398,6 @@
       "name": "Rss Reader",
       "links": [
         "/experiments"
-      ]
-    },
-    {
-      "id": "/timegrid",
-      "group": 2,
-      "name": "Human Era Calendar",
-      "links": [
-        "/experiments",
-        "/history"
       ]
     },
     {
@@ -1091,8 +1082,6 @@
       "name": "Politics",
       "links": [
         "/social-sciences",
-        "/farming-trap",
-        "/history",
         "/look-down-and-around",
         "/prince",
         "/questioning-people-seen-as-a-threat-to-status-quo",
@@ -1104,16 +1093,6 @@
       ]
     },
     {
-      "id": "/economics",
-      "group": 2,
-      "name": "Economics",
-      "links": [
-        "/social-sciences",
-        "/wage-theft",
-        "/wasted-talent"
-      ]
-    },
-    {
       "id": "/sociology",
       "group": 2,
       "name": "Sociology",
@@ -1122,6 +1101,28 @@
         "/social-change",
         "/social-class",
         "/social-groups"
+      ]
+    },
+    {
+      "id": "/history",
+      "group": 2,
+      "name": "History",
+      "links": [
+        "/social-sciences",
+        "/121st-century",
+        "/farming-trap",
+        "/history-of-technology",
+        "/since-big-bang"
+      ]
+    },
+    {
+      "id": "/economics",
+      "group": 2,
+      "name": "Economics",
+      "links": [
+        "/social-sciences",
+        "/wage-theft",
+        "/wasted-talent"
       ]
     },
     {
@@ -1161,21 +1162,21 @@
       ]
     },
     {
-      "id": "/urban-planning",
-      "group": 2,
-      "name": "Urban Planning",
-      "links": [
-        "/social-sciences",
-        "/architecture"
-      ]
-    },
-    {
       "id": "/architecture",
       "group": 2,
       "name": "Architecture",
       "links": [
         "/social-sciences",
         "/urban-planning"
+      ]
+    },
+    {
+      "id": "/urban-planning",
+      "group": 2,
+      "name": "Urban Planning",
+      "links": [
+        "/social-sciences",
+        "/architecture"
       ]
     },
     {
@@ -2351,28 +2352,6 @@
       ]
     },
     {
-      "id": "/farming-trap",
-      "group": 3,
-      "name": "Farming Trap",
-      "links": [
-        "/politics",
-        "/essais",
-        "/history"
-      ]
-    },
-    {
-      "id": "/history",
-      "group": 3,
-      "name": "History",
-      "links": [
-        "/politics",
-        "/farming-trap",
-        "/history-of-technology",
-        "/timegrid",
-        "/since-big-bang"
-      ]
-    },
-    {
       "id": "/look-down-and-around",
       "group": 3,
       "name": "Look Down And Around",
@@ -2428,24 +2407,6 @@
       ]
     },
     {
-      "id": "/wage-theft",
-      "group": 3,
-      "name": "Wage Theft",
-      "links": [
-        "/economics",
-        "/law"
-      ]
-    },
-    {
-      "id": "/wasted-talent",
-      "group": 3,
-      "name": "Wasted Talent",
-      "links": [
-        "/economics",
-        "/business"
-      ]
-    },
-    {
       "id": "/social-change",
       "group": 3,
       "name": "Social Change",
@@ -2467,6 +2428,41 @@
       "name": "Social Groups",
       "links": [
         "/sociology"
+      ]
+    },
+    {
+      "id": "/121st-century",
+      "group": 3,
+      "name": "121st century",
+      "links": [
+        "/history"
+      ]
+    },
+    {
+      "id": "/farming-trap",
+      "group": 3,
+      "name": "Farming Trap",
+      "links": [
+        "/history",
+        "/essais"
+      ]
+    },
+    {
+      "id": "/wage-theft",
+      "group": 3,
+      "name": "Wage Theft",
+      "links": [
+        "/economics",
+        "/law"
+      ]
+    },
+    {
+      "id": "/wasted-talent",
+      "group": 3,
+      "name": "Wasted Talent",
+      "links": [
+        "/economics",
+        "/business"
       ]
     },
     {
@@ -5045,10 +5041,6 @@
       "target": "/rss-reader"
     },
     {
-      "source": "/experiments",
-      "target": "/timegrid"
-    },
-    {
       "source": "/lists",
       "target": "/authors"
     },
@@ -5346,11 +5338,15 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/economics"
+      "target": "/sociology"
     },
     {
       "source": "/social-sciences",
-      "target": "/sociology"
+      "target": "/history"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/economics"
     },
     {
       "source": "/social-sciences",
@@ -5370,11 +5366,11 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/urban-planning"
+      "target": "/architecture"
     },
     {
       "source": "/social-sciences",
-      "target": "/architecture"
+      "target": "/urban-planning"
     },
     {
       "source": "/tech",
@@ -5854,14 +5850,6 @@
     },
     {
       "source": "/politics",
-      "target": "/farming-trap"
-    },
-    {
-      "source": "/politics",
-      "target": "/history"
-    },
-    {
-      "source": "/politics",
       "target": "/look-down-and-around"
     },
     {
@@ -5885,14 +5873,6 @@
       "target": "/who-goes-nazi"
     },
     {
-      "source": "/economics",
-      "target": "/wage-theft"
-    },
-    {
-      "source": "/economics",
-      "target": "/wasted-talent"
-    },
-    {
       "source": "/sociology",
       "target": "/social-change"
     },
@@ -5903,6 +5883,22 @@
     {
       "source": "/sociology",
       "target": "/social-groups"
+    },
+    {
+      "source": "/history",
+      "target": "/121st-century"
+    },
+    {
+      "source": "/history",
+      "target": "/farming-trap"
+    },
+    {
+      "source": "/economics",
+      "target": "/wage-theft"
+    },
+    {
+      "source": "/economics",
+      "target": "/wasted-talent"
     },
     {
       "source": "/systems",
@@ -7357,24 +7353,16 @@
       "target": "/urban-planning"
     },
     {
-      "source": "/law",
-      "target": "/wage-theft"
-    },
-    {
-      "source": "/history",
-      "target": "/farming-trap"
-    },
-    {
       "source": "/history",
       "target": "/history-of-technology"
     },
     {
       "source": "/history",
-      "target": "/timegrid"
+      "target": "/since-big-bang"
     },
     {
-      "source": "/history",
-      "target": "/since-big-bang"
+      "source": "/law",
+      "target": "/wage-theft"
     },
     {
       "source": "/politics",

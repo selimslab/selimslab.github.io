@@ -1,5 +1,3 @@
-
-
 <div class="container"></div>
 
 <style>
@@ -24,39 +22,87 @@
   }
 
   .grid li {
-    background-color: #fff;
+    background-color: #bcbcbc;
     margin: 0;
     border-radius: 50%;
   }
 
+  .grid li.future {
+    background-color: #fff;
+  }
 
+  .grid li.now {
+    border: 2px solid rgb(255, 55, 0);
+  }
 </style>
 
 <script>
-const columns = 10;
-const yearsPerGridPoint = 10;
-const grids = 121;
 
-// 121 means 21st century
-const events = {
-  3: 'End of the last ice age',
-  4: "First Temple (Göbekli Tepe)",
-  25: "First cities",
-  51: "Uruk",
-  121: "21st century"
-}
+  const getSuffix = (num) => {
+    const suffixes = { '1': 'st', '2': 'nd', '3': 'rd' };
+    const lastDigit = num.toString().slice(-1);
+    const lastTwoDigits = num % 100;
 
-const container = document.querySelector('.container');
+    // Handle special cases for 11, 12, and 13
+    if (lastTwoDigits >= 11 && lastTwoDigits <= 13) {
+      return "th";
+    }
 
-for (let g = 0; g < grids; g++) {
-  const grid = document.createElement('ul');
-  grid.classList.add('grid');
-  for (let i = 0; i < yearsPerGridPoint; i++) {
-    grid.appendChild(document.createElement('li'));
+    const suffix = suffixes[lastDigit] || 'th';
+    return suffix;
+  };
+
+  const columns = 10;
+  const grids = 121;
+
+  // 121 means 21st century
+  const events = {
+    3: 'End of the last ice age',
+    4: "First Temple (Göbekli Tepe)",
+    25: "First cities",
+    51: "Uruk",
+    121: "21st century"
   }
-  const gridNumber = document.createElement('h2');
-  gridNumber.textContent = `${grids-g}`
-  container.appendChild(gridNumber);
-  container.appendChild(grid);
-}
+
+  const container = document.querySelector('.container');
+
+  for (let g = 0; g < grids; g++) {
+    const grid = document.createElement('ul');
+    grid.classList.add('grid');
+    for (let i = 0; i < columns; i++) {
+      let li = document.createElement('li');
+      if (g === 0 && i > 2) {
+        li.classList.add('future');
+      }
+      if (g === 0 && i == 2) {
+        li.classList.add('now');
+      }
+      grid.appendChild(li);
+
+    }
+    const gridNumber = document.createElement('h3');
+    let century = grids - g;
+    // find the millenium
+    let millenium = Math.floor(century / 10);
+    // if it's bigger than 100, make the 1 red 
+    if (century == 121) {
+      centuryDiv = `<span style="color: violet;">1</span>${century.toString().slice(1)}${getSuffix(century)} century`;
+    } else if (century >= 100) {
+      centuryDiv = `<span style="color: violet;">1</span>${century.toString().slice(1)}`
+    } else{
+      centuryDiv = `${century}`
+    }
+
+    gridNumber.innerHTML = centuryDiv;
+    container.appendChild(gridNumber);
+    container.appendChild(grid);
+    if (g % 10 === 0 && g != 120) {
+      const milleniumDiv = document.createElement('h2');
+      let suffix = getSuffix(millenium);
+      milleniumDiv.innerHTML = `${millenium}${suffix} thousand years`;
+      container.appendChild(milleniumDiv);
+    }
+  }
+
+
 </script>
