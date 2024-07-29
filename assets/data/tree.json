@@ -266,7 +266,11 @@
     }
   },
   "/experiments": {
+    "/grid": {
+    },
     "/rss-reader": {
+    },
+    "/year-progress": {
     },
     "/experiments": {
     }

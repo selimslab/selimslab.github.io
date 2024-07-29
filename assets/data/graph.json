@@ -40,7 +40,9 @@
       "name": "Experiments",
       "links": [
         "/root",
+        "/grid",
         "/rss-reader",
+        "/year-progress",
         "/typing-practice"
       ]
     },
@@ -393,9 +395,25 @@
       ]
     },
     {
+      "id": "/grid",
+      "group": 2,
+      "name": "Grid",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
       "id": "/rss-reader",
       "group": 2,
       "name": "Rss Reader",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/year-progress",
+      "group": 2,
+      "name": "Year Progress",
       "links": [
         "/experiments"
       ]
@@ -1636,7 +1654,8 @@
         "/no-regrets-no-worries",
         "/slow-down-time",
         "/the-morning",
-        "/the-past"
+        "/the-past",
+        "/121st-century"
       ]
     },
     {
@@ -2435,7 +2454,8 @@
       "group": 3,
       "name": "121st century",
       "links": [
-        "/history"
+        "/history",
+        "/time"
       ]
     },
     {
@@ -5038,7 +5058,15 @@
     },
     {
       "source": "/experiments",
+      "target": "/grid"
+    },
+    {
+      "source": "/experiments",
       "target": "/rss-reader"
+    },
+    {
+      "source": "/experiments",
+      "target": "/year-progress"
     },
     {
       "source": "/lists",
@@ -7139,6 +7167,10 @@
     {
       "source": "/the-past",
       "target": "/eudaimonia"
+    },
+    {
+      "source": "/time",
+      "target": "/121st-century"
     },
     {
       "source": "/truth",

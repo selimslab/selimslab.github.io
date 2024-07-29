@@ -30,7 +30,7 @@ A digital space for work and play
 
 ## Time 
 
-{% include time.html %}
+{% include year-progress.html %}
 
 ## Metadata 
 
