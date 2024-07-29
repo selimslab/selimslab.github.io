@@ -11,8 +11,6 @@ async function getNextSentence() {
     content = content.replace(/,,/g, ',');
     // remove .. 
     content = content.replace(/\.\./g, '');
-    // remove any punctuation next to another punctuation
-    content = content.replace(/[,;.:?! ]([,;.:?! ])/g, '$1');
 
     // capitalize i 
     content = content.replace(/\si\s/g, ' I ');
