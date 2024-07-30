@@ -52,14 +52,14 @@
         "/nato-phonetic-alphabet",
         "/news",
         "/paintings",
-        "/since-big-bang",
         "/to-read",
         "/to-watch",
         "/web-experiments",
         "/classics",
         "/film-scores",
         "/modern-greek-alphabet",
-        "/sanatcilar"
+        "/sanatcilar",
+        "/since-big-bang"
       ]
     },
     {
@@ -165,8 +165,8 @@
         "/root",
         "/psychology",
         "/politics",
-        "/sociology",
         "/history",
+        "/sociology",
         "/economics",
         "/systems",
         "/law",
@@ -499,16 +499,6 @@
       "links": [
         "/lists",
         "/arts"
-      ]
-    },
-    {
-      "id": "/since-big-bang",
-      "group": 2,
-      "name": "Some events in the last 14 billion years",
-      "links": [
-        "/lists",
-        "/natural-sciences",
-        "/history"
       ]
     },
     {
@@ -1066,6 +1056,19 @@
       ]
     },
     {
+      "id": "/history",
+      "group": 2,
+      "name": "History",
+      "links": [
+        "/social-sciences",
+        "/12000",
+        "/bigtime",
+        "/farming-trap",
+        "/since-big-bang",
+        "/history-of-technology"
+      ]
+    },
+    {
       "id": "/sociology",
       "group": 2,
       "name": "Sociology",
@@ -1074,18 +1077,6 @@
         "/social-change",
         "/social-class",
         "/social-groups"
-      ]
-    },
-    {
-      "id": "/history",
-      "group": 2,
-      "name": "History",
-      "links": [
-        "/social-sciences",
-        "/121st-century",
-        "/farming-trap",
-        "/history-of-technology",
-        "/since-big-bang"
       ]
     },
     {
@@ -1611,7 +1602,7 @@
         "/slow-down-time",
         "/the-morning",
         "/the-past",
-        "/121st-century"
+        "/12000"
       ]
     },
     {
@@ -2390,6 +2381,45 @@
       ]
     },
     {
+      "id": "/12000",
+      "group": 3,
+      "name": "121st century",
+      "links": [
+        "/history",
+        "/time",
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/bigtime",
+      "group": 3,
+      "name": "The Big History",
+      "links": [
+        "/history",
+        "/since-big-bang"
+      ]
+    },
+    {
+      "id": "/farming-trap",
+      "group": 3,
+      "name": "Farming Trap",
+      "links": [
+        "/history",
+        "/essais"
+      ]
+    },
+    {
+      "id": "/since-big-bang",
+      "group": 3,
+      "name": "Some events in the last 14 billion years",
+      "links": [
+        "/history",
+        "/lists",
+        "/natural-sciences",
+        "/bigtime"
+      ]
+    },
+    {
       "id": "/social-change",
       "group": 3,
       "name": "Social Change",
@@ -2411,25 +2441,6 @@
       "name": "Social Groups",
       "links": [
         "/sociology"
-      ]
-    },
-    {
-      "id": "/121st-century",
-      "group": 3,
-      "name": "121st century",
-      "links": [
-        "/history",
-        "/time",
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/farming-trap",
-      "group": 3,
-      "name": "Farming Trap",
-      "links": [
-        "/history",
-        "/essais"
       ]
     },
     {
@@ -4978,7 +4989,7 @@
       "group": 0,
       "name": "Experiments",
       "links": [
-        "/121st-century"
+        "/12000"
       ]
     }
   ],
@@ -5102,10 +5113,6 @@
     {
       "source": "/lists",
       "target": "/paintings"
-    },
-    {
-      "source": "/lists",
-      "target": "/since-big-bang"
     },
     {
       "source": "/lists",
@@ -5345,11 +5352,11 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/sociology"
+      "target": "/history"
     },
     {
       "source": "/social-sciences",
-      "target": "/history"
+      "target": "/sociology"
     },
     {
       "source": "/social-sciences",
@@ -5884,6 +5891,22 @@
       "target": "/who-goes-nazi"
     },
     {
+      "source": "/history",
+      "target": "/12000"
+    },
+    {
+      "source": "/history",
+      "target": "/bigtime"
+    },
+    {
+      "source": "/history",
+      "target": "/farming-trap"
+    },
+    {
+      "source": "/history",
+      "target": "/since-big-bang"
+    },
+    {
       "source": "/sociology",
       "target": "/social-change"
     },
@@ -5894,14 +5917,6 @@
     {
       "source": "/sociology",
       "target": "/social-groups"
-    },
-    {
-      "source": "/history",
-      "target": "/121st-century"
-    },
-    {
-      "source": "/history",
-      "target": "/farming-trap"
     },
     {
       "source": "/economics",
@@ -7165,7 +7180,7 @@
     },
     {
       "source": "/time",
-      "target": "/121st-century"
+      "target": "/12000"
     },
     {
       "source": "/truth",
@@ -7258,6 +7273,10 @@
     {
       "source": "/lists",
       "target": "/sanatcilar"
+    },
+    {
+      "source": "/lists",
+      "target": "/since-big-bang"
     },
     {
       "source": "/bayes",
@@ -7380,12 +7399,12 @@
       "target": "/urban-planning"
     },
     {
-      "source": "/history",
-      "target": "/history-of-technology"
+      "source": "/bigtime",
+      "target": "/since-big-bang"
     },
     {
       "source": "/history",
-      "target": "/since-big-bang"
+      "target": "/history-of-technology"
     },
     {
       "source": "/law",
@@ -7973,7 +7992,7 @@
     },
     {
       "source": "/experiments",
-      "target": "/121st-century"
+      "target": "/12000"
     }
   ]
 }

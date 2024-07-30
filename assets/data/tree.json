@@ -296,8 +296,6 @@
     },
     "/paintings": {
     },
-    "/since-big-bang": {
-    },
     "/to-read": {
     },
     "/to-watch": {
@@ -560,20 +558,24 @@
       "/who-goes-nazi": {
       }
     },
+    "/history": {
+      "/12000": {
+      },
+      "/bigtime": {
+      },
+      "/farming-trap": {
+      },
+      "/history": {
+      },
+      "/since-big-bang": {
+      }
+    },
     "/sociology": {
       "/social-change": {
       },
       "/social-class": {
       },
       "/social-groups": {
-      }
-    },
-    "/history": {
-      "/121st-century": {
-      },
-      "/farming-trap": {
-      },
-      "/history": {
       }
     },
     "/economics": {

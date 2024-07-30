@@ -9,15 +9,17 @@ Numbers do not directly register their size in my mind. So let's do an experimen
 
 Let's say the universe is 100 years old in universe years. 
 
-If 13.8 billion human years is 100 universe years, then
-- ~138 000 000 human years is a year
-- ~11 500 000 years is a month 
-- ~380 000 years is a day
-- ~16 000 years is an hour
-- ~266 years is a minute 
-- ~4.37 human years is 1 second for universe
+If 13.8 billion human years is 100 universe years, then 
+- 138 000 000 human years is a year
+- 11 500 000 years is a month 
+- 380 000 years is a day
+- 16 000 years is an hour
+- 266 years is a minute 
+- 4.37 human years is 1 second for universe
 
-So the universe is 100 years old. Sun and Earth are 40-somethings. A human life is 20 seconds, as the WW2. 
+If the universe is 100 years old, Sun and Earth are 40-somethings. 
+
+A human life is 20 seconds, as the WW2. 
 
 Rome was 10 minutes ago, Pyramids 20 minutes, Trojan War 30 minutes. 
 
