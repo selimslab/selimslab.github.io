@@ -21,19 +21,21 @@ async function getNextSentence() {
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
-    let sentence = await getNextSentence();
+    let sentence = '';
+    let typedText = '';
+
     const sentenceDiv = document.getElementById('sentence');
     const wpmDiv = document.getElementById('wpm');
     const medianWpmDiv = document.getElementById('medianWpm');
     const accuracyDiv = document.getElementById('typingAccuracy');
 
     let wpms = [];
-    let typedText = '';
+    
     let startTime = null;
     let endTime = null;
-    let isHandlingKeydown = false;
-    let incorrect = 0;
     let idx = 0;
+    let incorrect = 0;
+    let isHandlingKeydown = false;
 
     function renderSentence() {
         let caret = false;
@@ -68,15 +70,14 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     async function reset() {
-        sentence = await getNextSentence();
         typedText = '';
         startTime = null;
         endTime = null;
-        sentenceDiv.textContent = sentence;
         idx = 0;
-        isHandlingKeydown = false;
-        correct = 0;
         incorrect = 0;
+        isHandlingKeydown = false;
+        sentence = await getNextSentence();
+        renderSentence()
     }
 
 
