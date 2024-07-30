@@ -1,0 +1,39 @@
+
+<style>
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+        font-family: monospace;
+        gap: 0.4rem;
+    }
+    .cell {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+    }
+
+    .dot{
+        font-size: 0.8rem;
+        margin: 0;
+        line-height: 0.6;
+    }
+
+</style>
+
+<div class="grid" id="dotGrid"></div>
+
+<script>
+    const grid = document.getElementById('dotGrid');
+    for (let i = 0; i < 100; i++) {
+        const cell = document.createElement('div');
+        cell.classList.add('cell');
+        for (let j = 0; j < 100; j++) {
+            const dot = document.createElement('span');
+            dot.classList.add('dot');
+            dot.textContent = '.';
+            cell.appendChild(dot);
+        }
+        grid.appendChild(cell);
+    }
+</script>

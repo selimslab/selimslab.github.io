@@ -6,7 +6,6 @@
       "name": "Root",
       "links": [
         "/arts",
-        "/experiments",
         "/lists",
         "/math",
         "/meta",
@@ -32,25 +31,6 @@
         "/cinema",
         "/photography",
         "/paintings"
-      ]
-    },
-    {
-      "id": "/experiments",
-      "group": 1,
-      "name": "Experiments",
-      "links": [
-        "/root",
-        "/digital-art",
-        "/grid",
-        "/music-player",
-        "/photo-gallery",
-        "/rss-reader",
-        "/savings-planner",
-        "/typing-practice",
-        "/video-call",
-        "/video-player",
-        "/year-progress",
-        "/121st-century"
       ]
     },
     {
@@ -172,9 +152,9 @@
         "/critical-thinking",
         "/eudaimonia",
         "/photography",
-        "/typing-practice",
         "/how-to-start",
-        "/programming"
+        "/programming",
+        "/typing-practice"
       ]
     },
     {
@@ -400,87 +380,6 @@
       "links": [
         "/arts",
         "/skills"
-      ]
-    },
-    {
-      "id": "/digital-art",
-      "group": 2,
-      "name": "Digital Art",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/grid",
-      "group": 2,
-      "name": "Grid",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/music-player",
-      "group": 2,
-      "name": "Music Player",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/photo-gallery",
-      "group": 2,
-      "name": "Photo Gallery",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/rss-reader",
-      "group": 2,
-      "name": "RSS reader",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/savings-planner",
-      "group": 2,
-      "name": "Savings Planner",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/typing-practice",
-      "group": 2,
-      "name": "Typing Practice",
-      "links": [
-        "/experiments",
-        "/skills"
-      ]
-    },
-    {
-      "id": "/video-call",
-      "group": 2,
-      "name": "Video Call",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/video-player",
-      "group": 2,
-      "name": "Video Player",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/year-progress",
-      "group": 2,
-      "name": "Year Progress",
-      "links": [
-        "/experiments"
       ]
     },
     {
@@ -1326,6 +1225,7 @@
         "/tech",
         "/acid",
         "/b-trees",
+        "/db-concepts",
         "/db-data-structures",
         "/leaderless-replication",
         "/lsm-trees",
@@ -2995,6 +2895,14 @@
       ]
     },
     {
+      "id": "/db-concepts",
+      "group": 3,
+      "name": "Database Concepts",
+      "links": [
+        "/databases"
+      ]
+    },
+    {
       "id": "/db-data-structures",
       "group": 3,
       "name": "Data Structures to Build a DB",
@@ -3292,6 +3200,7 @@
         "/customize-prompt",
         "/ozlang",
         "/question-prompt",
+        "/questions-to-gpt",
         "/recap-prompt",
         "/summary-prompt"
       ]
@@ -4698,6 +4607,7 @@
       "name": "Python",
       "links": [
         "/programming-languages",
+        "/c-and-python",
         "/python-data-structures",
         "/python-packages",
         "/zen-of-python",
@@ -4904,6 +4814,14 @@
       ]
     },
     {
+      "id": "/questions-to-gpt",
+      "group": 4,
+      "name": "Questions To Gpt",
+      "links": [
+        "/prompt-engineering"
+      ]
+    },
+    {
       "id": "/recap-prompt",
       "group": 4,
       "name": "Recap Prompt",
@@ -4917,6 +4835,14 @@
       "name": "Summary Prompt",
       "links": [
         "/prompt-engineering"
+      ]
+    },
+    {
+      "id": "/c-and-python",
+      "group": 5,
+      "name": "Call C code from Python",
+      "links": [
+        "/python"
       ]
     },
     {
@@ -5046,16 +4972,20 @@
       "links": [
         "/oop-designs"
       ]
+    },
+    {
+      "id": "/experiments",
+      "group": 0,
+      "name": "Experiments",
+      "links": [
+        "/121st-century"
+      ]
     }
   ],
   "links": [
     {
       "source": "/root",
       "target": "/arts"
-    },
-    {
-      "source": "/root",
-      "target": "/experiments"
     },
     {
       "source": "/root",
@@ -5120,46 +5050,6 @@
     {
       "source": "/arts",
       "target": "/photography"
-    },
-    {
-      "source": "/experiments",
-      "target": "/digital-art"
-    },
-    {
-      "source": "/experiments",
-      "target": "/grid"
-    },
-    {
-      "source": "/experiments",
-      "target": "/music-player"
-    },
-    {
-      "source": "/experiments",
-      "target": "/photo-gallery"
-    },
-    {
-      "source": "/experiments",
-      "target": "/rss-reader"
-    },
-    {
-      "source": "/experiments",
-      "target": "/savings-planner"
-    },
-    {
-      "source": "/experiments",
-      "target": "/typing-practice"
-    },
-    {
-      "source": "/experiments",
-      "target": "/video-call"
-    },
-    {
-      "source": "/experiments",
-      "target": "/video-player"
-    },
-    {
-      "source": "/experiments",
-      "target": "/year-progress"
     },
     {
       "source": "/lists",
@@ -6183,6 +6073,10 @@
     },
     {
       "source": "/databases",
+      "target": "/db-concepts"
+    },
+    {
+      "source": "/databases",
       "target": "/db-data-structures"
     },
     {
@@ -6999,11 +6893,19 @@
     },
     {
       "source": "/prompt-engineering",
+      "target": "/questions-to-gpt"
+    },
+    {
+      "source": "/prompt-engineering",
       "target": "/recap-prompt"
     },
     {
       "source": "/prompt-engineering",
       "target": "/summary-prompt"
+    },
+    {
+      "source": "/python",
+      "target": "/c-and-python"
     },
     {
       "source": "/python",
@@ -7306,10 +7208,6 @@
       "target": "/travelling"
     },
     {
-      "source": "/experiments",
-      "target": "/121st-century"
-    },
-    {
       "source": "/datasets",
       "target": "/probability-and-statistics"
     },
@@ -7467,15 +7365,15 @@
     },
     {
       "source": "/skills",
-      "target": "/typing-practice"
-    },
-    {
-      "source": "/skills",
       "target": "/how-to-start"
     },
     {
       "source": "/skills",
       "target": "/programming"
+    },
+    {
+      "source": "/skills",
+      "target": "/typing-practice"
     },
     {
       "source": "/architecture",
@@ -8072,6 +7970,10 @@
     {
       "source": "/tech",
       "target": "/accessibility"
+    },
+    {
+      "source": "/experiments",
+      "target": "/121st-century"
     }
   ]
 }

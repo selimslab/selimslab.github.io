@@ -267,30 +267,6 @@
     "/photography": {
     }
   },
-  "/experiments": {
-    "/digital-art": {
-    },
-    "/experiments": {
-    },
-    "/grid": {
-    },
-    "/music-player": {
-    },
-    "/photo-gallery": {
-    },
-    "/rss-reader": {
-    },
-    "/savings-planner": {
-    },
-    "/typing-practice": {
-    },
-    "/video-call": {
-    },
-    "/video-player": {
-    },
-    "/year-progress": {
-    }
-  },
   "/lists": {
     "/authors": {
     },
@@ -859,6 +835,8 @@
         "/typing": {
         },
         "/python": {
+          "/c-and-python": {
+          },
           "/python-data-structures": {
           },
           "/python-packages": {
@@ -962,6 +940,8 @@
       "/b-trees": {
       },
       "/databases": {
+      },
+      "/db-concepts": {
       },
       "/db-data-structures": {
       },
@@ -1097,6 +1077,8 @@
         "/prompt-engineering": {
         },
         "/question-prompt": {
+        },
+        "/questions-to-gpt": {
         },
         "/recap-prompt": {
         },
