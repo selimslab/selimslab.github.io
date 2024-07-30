@@ -6,6 +6,7 @@
       "name": "Root",
       "links": [
         "/arts",
+        "/experiments",
         "/lists",
         "/math",
         "/meta",
@@ -31,6 +32,29 @@
         "/cinema",
         "/photography",
         "/paintings"
+      ]
+    },
+    {
+      "id": "/experiments",
+      "group": 1,
+      "name": "Experiments",
+      "links": [
+        "/root",
+        "/digital-art",
+        "/dots",
+        "/grid",
+        "/markdown-editor",
+        "/music-player",
+        "/photo-gallery",
+        "/rss-reader",
+        "/savings-planner",
+        "/search-index",
+        "/spreadsheet",
+        "/typing-practice",
+        "/video-call",
+        "/video-player",
+        "/year-progress",
+        "/12000"
       ]
     },
     {
@@ -152,9 +176,9 @@
         "/critical-thinking",
         "/eudaimonia",
         "/photography",
+        "/typing-practice",
         "/how-to-start",
-        "/programming",
-        "/typing-practice"
+        "/programming"
       ]
     },
     {
@@ -192,6 +216,7 @@
       "name": "Technology",
       "links": [
         "/root",
+        "/projects",
         "/programming",
         "/security",
         "/distributed-systems",
@@ -380,6 +405,119 @@
       "links": [
         "/arts",
         "/skills"
+      ]
+    },
+    {
+      "id": "/digital-art",
+      "group": 2,
+      "name": "Digital Art",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/dots",
+      "group": 2,
+      "name": "Dots",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/grid",
+      "group": 2,
+      "name": "Grid",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/markdown-editor",
+      "group": 2,
+      "name": "Markdown Editor",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/music-player",
+      "group": 2,
+      "name": "Music Player",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/photo-gallery",
+      "group": 2,
+      "name": "Photo Gallery",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/rss-reader",
+      "group": 2,
+      "name": "RSS reader",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/savings-planner",
+      "group": 2,
+      "name": "Savings Planner",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/search-index",
+      "group": 2,
+      "name": "Search Index",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/spreadsheet",
+      "group": 2,
+      "name": "Spreadsheet",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/typing-practice",
+      "group": 2,
+      "name": "Typing Practice",
+      "links": [
+        "/experiments",
+        "/skills"
+      ]
+    },
+    {
+      "id": "/video-call",
+      "group": 2,
+      "name": "Video Call",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/video-player",
+      "group": 2,
+      "name": "Video Player",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/year-progress",
+      "group": 2,
+      "name": "Year Progress",
+      "links": [
+        "/experiments"
       ]
     },
     {
@@ -1144,6 +1282,28 @@
       ]
     },
     {
+      "id": "/projects",
+      "group": 2,
+      "name": "Projects",
+      "links": [
+        "/tech",
+        "/async-crawler",
+        "/c-hashmap",
+        "/compiler",
+        "/garbage-collector-in-c",
+        "/links-for-makers",
+        "/logos-os",
+        "/mini-search-engine",
+        "/mini-web-server",
+        "/minik-robot",
+        "/pascal-interpreter",
+        "/pca",
+        "/pneumonia-detection",
+        "/predict-movie-genres",
+        "/vga-driver"
+      ]
+    },
+    {
       "id": "/programming",
       "group": 2,
       "name": "Programming",
@@ -1162,7 +1322,6 @@
         "/code",
         "/data-structures",
         "/programming-languages",
-        "/projects",
         "/skills",
         "/the-tao-of-programming",
         "/software-engineering"
@@ -2470,6 +2629,131 @@
       ]
     },
     {
+      "id": "/async-crawler",
+      "group": 3,
+      "name": "An async web crawler from scratch",
+      "links": [
+        "/projects",
+        "/python"
+      ]
+    },
+    {
+      "id": "/c-hashmap",
+      "group": 3,
+      "name": "A hash table in C from scratch",
+      "links": [
+        "/projects",
+        "/c"
+      ]
+    },
+    {
+      "id": "/compiler",
+      "group": 3,
+      "name": "Let's write a compiler",
+      "links": [
+        "/projects",
+        "/python"
+      ]
+    },
+    {
+      "id": "/garbage-collector-in-c",
+      "group": 3,
+      "name": "A garbage collector in C from scratch",
+      "links": [
+        "/projects",
+        "/c"
+      ]
+    },
+    {
+      "id": "/links-for-makers",
+      "group": 3,
+      "name": "Links For Makers",
+      "links": [
+        "/projects"
+      ]
+    },
+    {
+      "id": "/logos-os",
+      "group": 3,
+      "name": "Logos, an operating system kernel from scratch",
+      "links": [
+        "/projects",
+        "/c"
+      ]
+    },
+    {
+      "id": "/mini-search-engine",
+      "group": 3,
+      "name": "A search engine with page rank, in 200 lines",
+      "links": [
+        "/projects",
+        "/python"
+      ]
+    },
+    {
+      "id": "/mini-web-server",
+      "group": 3,
+      "name": "A web server from scratch",
+      "links": [
+        "/projects",
+        "/python"
+      ]
+    },
+    {
+      "id": "/minik-robot",
+      "group": 3,
+      "name": "A* path-finding algorithm for a robot",
+      "links": [
+        "/projects",
+        "/cpp"
+      ]
+    },
+    {
+      "id": "/pascal-interpreter",
+      "group": 3,
+      "name": "An interpreter in Python",
+      "links": [
+        "/projects",
+        "/python"
+      ]
+    },
+    {
+      "id": "/pca",
+      "group": 3,
+      "name": "Principal Component Analysis",
+      "links": [
+        "/projects",
+        "/machine-learning"
+      ]
+    },
+    {
+      "id": "/pneumonia-detection",
+      "group": 3,
+      "name": "Pneumonia Detection",
+      "links": [
+        "/projects",
+        "/machine-learning"
+      ]
+    },
+    {
+      "id": "/predict-movie-genres",
+      "group": 3,
+      "name": "Predict movie genres using ML classifiers",
+      "links": [
+        "/projects",
+        "/machine-learning"
+      ]
+    },
+    {
+      "id": "/vga-driver",
+      "group": 3,
+      "name": "VGA Driver",
+      "links": [
+        "/projects",
+        "/c"
+      ]
+    },
+    {
       "id": "/api",
       "group": 3,
       "name": "APIs",
@@ -2678,28 +2962,6 @@
         "/scala",
         "/typing",
         "/python"
-      ]
-    },
-    {
-      "id": "/projects",
-      "group": 3,
-      "name": "Projects",
-      "links": [
-        "/programming",
-        "/async-crawler",
-        "/c-hashmap",
-        "/compiler",
-        "/garbage-collector-in-c",
-        "/links-for-makers",
-        "/logos-os",
-        "/mini-search-engine",
-        "/mini-web-server",
-        "/minik-robot",
-        "/pascal-interpreter",
-        "/pca",
-        "/pneumonia-detection",
-        "/predict-movie-genres",
-        "/vga-driver"
       ]
     },
     {
@@ -4630,131 +4892,6 @@
       ]
     },
     {
-      "id": "/async-crawler",
-      "group": 4,
-      "name": "An async web crawler from scratch",
-      "links": [
-        "/projects",
-        "/python"
-      ]
-    },
-    {
-      "id": "/c-hashmap",
-      "group": 4,
-      "name": "A hash table in C from scratch",
-      "links": [
-        "/projects",
-        "/c"
-      ]
-    },
-    {
-      "id": "/compiler",
-      "group": 4,
-      "name": "Let's write a compiler",
-      "links": [
-        "/projects",
-        "/python"
-      ]
-    },
-    {
-      "id": "/garbage-collector-in-c",
-      "group": 4,
-      "name": "A garbage collector in C from scratch",
-      "links": [
-        "/projects",
-        "/c"
-      ]
-    },
-    {
-      "id": "/links-for-makers",
-      "group": 4,
-      "name": "Links For Makers",
-      "links": [
-        "/projects"
-      ]
-    },
-    {
-      "id": "/logos-os",
-      "group": 4,
-      "name": "Logos, an operating system kernel from scratch",
-      "links": [
-        "/projects",
-        "/c"
-      ]
-    },
-    {
-      "id": "/mini-search-engine",
-      "group": 4,
-      "name": "A search engine with page rank, in 200 lines",
-      "links": [
-        "/projects",
-        "/python"
-      ]
-    },
-    {
-      "id": "/mini-web-server",
-      "group": 4,
-      "name": "A web server from scratch",
-      "links": [
-        "/projects",
-        "/python"
-      ]
-    },
-    {
-      "id": "/minik-robot",
-      "group": 4,
-      "name": "A* path-finding algorithm for a robot",
-      "links": [
-        "/projects",
-        "/cpp"
-      ]
-    },
-    {
-      "id": "/pascal-interpreter",
-      "group": 4,
-      "name": "An interpreter in Python",
-      "links": [
-        "/projects",
-        "/python"
-      ]
-    },
-    {
-      "id": "/pca",
-      "group": 4,
-      "name": "Principal Component Analysis",
-      "links": [
-        "/projects",
-        "/machine-learning"
-      ]
-    },
-    {
-      "id": "/pneumonia-detection",
-      "group": 4,
-      "name": "Pneumonia Detection",
-      "links": [
-        "/projects",
-        "/machine-learning"
-      ]
-    },
-    {
-      "id": "/predict-movie-genres",
-      "group": 4,
-      "name": "Predict movie genres using ML classifiers",
-      "links": [
-        "/projects",
-        "/machine-learning"
-      ]
-    },
-    {
-      "id": "/vga-driver",
-      "group": 4,
-      "name": "VGA Driver",
-      "links": [
-        "/projects",
-        "/c"
-      ]
-    },
-    {
       "id": "/design-patterns",
       "group": 4,
       "name": "Design Patterns",
@@ -4983,20 +5120,16 @@
       "links": [
         "/oop-designs"
       ]
-    },
-    {
-      "id": "/experiments",
-      "group": 0,
-      "name": "Experiments",
-      "links": [
-        "/12000"
-      ]
     }
   ],
   "links": [
     {
       "source": "/root",
       "target": "/arts"
+    },
+    {
+      "source": "/root",
+      "target": "/experiments"
     },
     {
       "source": "/root",
@@ -5061,6 +5194,62 @@
     {
       "source": "/arts",
       "target": "/photography"
+    },
+    {
+      "source": "/experiments",
+      "target": "/digital-art"
+    },
+    {
+      "source": "/experiments",
+      "target": "/dots"
+    },
+    {
+      "source": "/experiments",
+      "target": "/grid"
+    },
+    {
+      "source": "/experiments",
+      "target": "/markdown-editor"
+    },
+    {
+      "source": "/experiments",
+      "target": "/music-player"
+    },
+    {
+      "source": "/experiments",
+      "target": "/photo-gallery"
+    },
+    {
+      "source": "/experiments",
+      "target": "/rss-reader"
+    },
+    {
+      "source": "/experiments",
+      "target": "/savings-planner"
+    },
+    {
+      "source": "/experiments",
+      "target": "/search-index"
+    },
+    {
+      "source": "/experiments",
+      "target": "/spreadsheet"
+    },
+    {
+      "source": "/experiments",
+      "target": "/typing-practice"
+    },
+    {
+      "source": "/experiments",
+      "target": "/video-call"
+    },
+    {
+      "source": "/experiments",
+      "target": "/video-player"
+    },
+    {
+      "source": "/experiments",
+      "target": "/year-progress"
     },
     {
       "source": "/lists",
@@ -5385,6 +5574,10 @@
     {
       "source": "/social-sciences",
       "target": "/urban-planning"
+    },
+    {
+      "source": "/tech",
+      "target": "/projects"
     },
     {
       "source": "/tech",
@@ -5931,6 +6124,62 @@
       "target": "/chaos"
     },
     {
+      "source": "/projects",
+      "target": "/async-crawler"
+    },
+    {
+      "source": "/projects",
+      "target": "/c-hashmap"
+    },
+    {
+      "source": "/projects",
+      "target": "/compiler"
+    },
+    {
+      "source": "/projects",
+      "target": "/garbage-collector-in-c"
+    },
+    {
+      "source": "/projects",
+      "target": "/links-for-makers"
+    },
+    {
+      "source": "/projects",
+      "target": "/logos-os"
+    },
+    {
+      "source": "/projects",
+      "target": "/mini-search-engine"
+    },
+    {
+      "source": "/projects",
+      "target": "/mini-web-server"
+    },
+    {
+      "source": "/projects",
+      "target": "/minik-robot"
+    },
+    {
+      "source": "/projects",
+      "target": "/pascal-interpreter"
+    },
+    {
+      "source": "/projects",
+      "target": "/pca"
+    },
+    {
+      "source": "/projects",
+      "target": "/pneumonia-detection"
+    },
+    {
+      "source": "/projects",
+      "target": "/predict-movie-genres"
+    },
+    {
+      "source": "/projects",
+      "target": "/vga-driver"
+    },
+    {
       "source": "/programming",
       "target": "/api"
     },
@@ -5981,10 +6230,6 @@
     {
       "source": "/programming",
       "target": "/programming-languages"
-    },
-    {
-      "source": "/programming",
-      "target": "/projects"
     },
     {
       "source": "/security",
@@ -6823,62 +7068,6 @@
       "target": "/python"
     },
     {
-      "source": "/projects",
-      "target": "/async-crawler"
-    },
-    {
-      "source": "/projects",
-      "target": "/c-hashmap"
-    },
-    {
-      "source": "/projects",
-      "target": "/compiler"
-    },
-    {
-      "source": "/projects",
-      "target": "/garbage-collector-in-c"
-    },
-    {
-      "source": "/projects",
-      "target": "/links-for-makers"
-    },
-    {
-      "source": "/projects",
-      "target": "/logos-os"
-    },
-    {
-      "source": "/projects",
-      "target": "/mini-search-engine"
-    },
-    {
-      "source": "/projects",
-      "target": "/mini-web-server"
-    },
-    {
-      "source": "/projects",
-      "target": "/minik-robot"
-    },
-    {
-      "source": "/projects",
-      "target": "/pascal-interpreter"
-    },
-    {
-      "source": "/projects",
-      "target": "/pca"
-    },
-    {
-      "source": "/projects",
-      "target": "/pneumonia-detection"
-    },
-    {
-      "source": "/projects",
-      "target": "/predict-movie-genres"
-    },
-    {
-      "source": "/projects",
-      "target": "/vga-driver"
-    },
-    {
       "source": "/oop",
       "target": "/design-patterns"
     },
@@ -7223,6 +7412,10 @@
       "target": "/travelling"
     },
     {
+      "source": "/experiments",
+      "target": "/12000"
+    },
+    {
       "source": "/datasets",
       "target": "/probability-and-statistics"
     },
@@ -7384,15 +7577,15 @@
     },
     {
       "source": "/skills",
+      "target": "/typing-practice"
+    },
+    {
+      "source": "/skills",
       "target": "/how-to-start"
     },
     {
       "source": "/skills",
       "target": "/programming"
-    },
-    {
-      "source": "/skills",
-      "target": "/typing-practice"
     },
     {
       "source": "/architecture",
@@ -7989,10 +8182,6 @@
     {
       "source": "/tech",
       "target": "/accessibility"
-    },
-    {
-      "source": "/experiments",
-      "target": "/12000"
     }
   ]
 }
