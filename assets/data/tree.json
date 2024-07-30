@@ -267,6 +267,38 @@
     "/photography": {
     }
   },
+  "/experiments": {
+    "/digital-art": {
+    },
+    "/dots": {
+    },
+    "/experiments": {
+    },
+    "/grid": {
+    },
+    "/markdown-editor": {
+    },
+    "/music-player": {
+    },
+    "/photo-gallery": {
+    },
+    "/rss-reader": {
+    },
+    "/savings-planner": {
+    },
+    "/search-index": {
+    },
+    "/spreadsheet": {
+    },
+    "/typing-practice": {
+    },
+    "/video-call": {
+    },
+    "/video-player": {
+    },
+    "/year-progress": {
+    }
+  },
   "/lists": {
     "/authors": {
     },
@@ -606,6 +638,38 @@
     }
   },
   "/tech": {
+    "/projects": {
+      "/async-crawler": {
+      },
+      "/c-hashmap": {
+      },
+      "/compiler": {
+      },
+      "/garbage-collector-in-c": {
+      },
+      "/links-for-makers": {
+      },
+      "/logos-os": {
+      },
+      "/mini-search-engine": {
+      },
+      "/mini-web-server": {
+      },
+      "/minik-robot": {
+      },
+      "/pascal-interpreter": {
+      },
+      "/pca": {
+      },
+      "/pneumonia-detection": {
+      },
+      "/predict-movie-genres": {
+      },
+      "/projects": {
+      },
+      "/vga-driver": {
+      }
+    },
     "/programming": {
       "/api": {
       },
@@ -847,38 +911,6 @@
           },
           "/zen-of-python": {
           }
-        }
-      },
-      "/projects": {
-        "/async-crawler": {
-        },
-        "/c-hashmap": {
-        },
-        "/compiler": {
-        },
-        "/garbage-collector-in-c": {
-        },
-        "/links-for-makers": {
-        },
-        "/logos-os": {
-        },
-        "/mini-search-engine": {
-        },
-        "/mini-web-server": {
-        },
-        "/minik-robot": {
-        },
-        "/pascal-interpreter": {
-        },
-        "/pca": {
-        },
-        "/pneumonia-detection": {
-        },
-        "/predict-movie-genres": {
-        },
-        "/projects": {
-        },
-        "/vga-driver": {
         }
       }
     },
