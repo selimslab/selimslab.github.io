@@ -13,9 +13,6 @@ async function getNextSentence() {
     // capitalize i 
     content = content.replace(/\si\s/g, ' I ');
 
-    // capitalize first letter of the sentence
-    content = content.charAt(0).toUpperCase() + content.slice(1);
-
     // remove multiple spaces
     content = content.replace(/\s+/g, ' ');
     
