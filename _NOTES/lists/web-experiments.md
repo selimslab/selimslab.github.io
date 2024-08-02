@@ -15,3 +15,5 @@
 
 [wizard zines](https://wizardzines.com/)
 
+https://turbopuffer.com/blog/turbopuffer
+

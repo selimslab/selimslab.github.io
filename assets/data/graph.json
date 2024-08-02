@@ -54,7 +54,7 @@
         "/video-call",
         "/video-player",
         "/year-progress",
-        "/12000"
+        "/121st-century"
       ]
     },
     {
@@ -1200,9 +1200,10 @@
       "links": [
         "/social-sciences",
         "/12000",
-        "/bigtime",
+        "/121st-century",
         "/farming-trap",
         "/since-big-bang",
+        "/universe-is-an-old-woman",
         "/history-of-technology"
       ]
     },
@@ -1761,7 +1762,7 @@
         "/slow-down-time",
         "/the-morning",
         "/the-past",
-        "/12000"
+        "/121st-century"
       ]
     },
     {
@@ -2542,20 +2543,19 @@
     {
       "id": "/12000",
       "group": 3,
+      "name": "12000",
+      "links": [
+        "/history"
+      ]
+    },
+    {
+      "id": "/121st-century",
+      "group": 3,
       "name": "121st century",
       "links": [
         "/history",
         "/time",
         "/experiments"
-      ]
-    },
-    {
-      "id": "/bigtime",
-      "group": 3,
-      "name": "The Big History",
-      "links": [
-        "/history",
-        "/since-big-bang"
       ]
     },
     {
@@ -2574,8 +2574,15 @@
       "links": [
         "/history",
         "/lists",
-        "/natural-sciences",
-        "/bigtime"
+        "/natural-sciences"
+      ]
+    },
+    {
+      "id": "/universe-is-an-old-woman",
+      "group": 3,
+      "name": "Universe Is An Old Woman",
+      "links": [
+        "/history"
       ]
     },
     {
@@ -6089,7 +6096,7 @@
     },
     {
       "source": "/history",
-      "target": "/bigtime"
+      "target": "/121st-century"
     },
     {
       "source": "/history",
@@ -6098,6 +6105,10 @@
     {
       "source": "/history",
       "target": "/since-big-bang"
+    },
+    {
+      "source": "/history",
+      "target": "/universe-is-an-old-woman"
     },
     {
       "source": "/sociology",
@@ -7369,7 +7380,7 @@
     },
     {
       "source": "/time",
-      "target": "/12000"
+      "target": "/121st-century"
     },
     {
       "source": "/truth",
@@ -7413,7 +7424,7 @@
     },
     {
       "source": "/experiments",
-      "target": "/12000"
+      "target": "/121st-century"
     },
     {
       "source": "/datasets",
@@ -7590,10 +7601,6 @@
     {
       "source": "/architecture",
       "target": "/urban-planning"
-    },
-    {
-      "source": "/bigtime",
-      "target": "/since-big-bang"
     },
     {
       "source": "/history",

@@ -1,22 +1,24 @@
 async function getNextSentence() {
     content = await getNextIdea();
+
     // convert to lowercase
     content = content.toLowerCase();
 
-    // turn new lines into commas 
-    content = content.replace(/\n/g, ',');
-    // remove if a space before a comma
-    content = content.replace(/ ,/g, ',');
-    // remove double commas 
-    content = content.replace(/,,/g, ',');
-    // remove .. 
-    content = content.replace(/\.\./g, '');
+    // remove new lines
+    content = content.replace(/\n/g, ' ');
+
+    // remove spaces before a punctuation
+    content = content.replace(/\s([.,!?:;])/g, '$1');
 
     // capitalize i 
     content = content.replace(/\si\s/g, ' I ');
+
     // capitalize first letter of the sentence
     content = content.charAt(0).toUpperCase() + content.slice(1);
 
+    // remove multiple spaces
+    content = content.replace(/\s+/g, ' ');
+    
     return content;
 }
 
