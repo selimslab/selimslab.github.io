@@ -3,26 +3,27 @@
 
 
 // Grays
-$gray: #555;
-$darkGray: #333;
-$darkerGray: #222;
-$black: #000;
+$dummy: #f0f1f2;
+$lightGray : #eaecf0;
+$darkGray: #202122;
+
 
 // colors
 $darkBlue: #2259a7;
 $lightBlue: #3298dc;
 $lighterBlue: #8ec5ff;
 $lightViolet: #bec0ff;
+$darkViolet: #6b4ba1;
 $accent : #FF530D;
 $highlight: #ffc800;
 $sunrise: #FAEAD4;
 
 // text and bg 
 $darkBg: #22272e;
-$lightText: #f0f1f2;
+$lightText: $darkGray;
 
 $lightBg: #edeaea;
-$darkText: $gray;
+$darkText: $lightGray;
 
 // Font stacks
 $sansSerif: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -237,11 +238,11 @@ html[data-theme='light'] {
   }
 
   a {
-    color: $lightBlue
+    color: $darkBlue
   }
 
   a:visited {
-    color: $darkBlue;
+    color: $darkViolet;
   }
 
   a:hover {
