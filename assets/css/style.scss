@@ -11,6 +11,7 @@ $black: #000;
 // colors
 $darkBlue: #2259a7;
 $lightBlue: #3298dc;
+$lighterBlue: #8ec5ff;
 $lightViolet: #9ea2ff;
 $accent : #FF530D;
 $highlight: #ffc800;
@@ -38,6 +39,23 @@ a.site-name {
   font-family: $serif;
 }
 
+a {
+  color: $lighterBlue
+}
+
+a:visited {
+  color: $lightViolet;
+}
+
+a:hover {
+  color: $accent;
+}
+
+summary:hover {
+  color: $accent;
+}
+
+
 footer.about {
   font-family: $serif;
 }
@@ -47,7 +65,6 @@ body {
   font-family: $sansSerif;
   background-color: $darkBg;
   background-image: url('/assets/static/solar/2k_stars_milky_way3.jpg');
-  background-position: center;
   background-attachment: fixed;
   color: $lightText;
   min-height: 100vh;
@@ -88,21 +105,6 @@ article {
   max-width: 64ch;
 }
 
-a {
-  color: $lightBlue
-}
-
-a:visited {
-  color: $lightViolet;
-}
-
-a:hover {
-  color: $accent;
-}
-
-summary:hover {
-  color: $accent;
-}
 
 
 .img-full {
