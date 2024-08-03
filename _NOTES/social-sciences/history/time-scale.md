@@ -15,7 +15,7 @@ and Big Bang happened 138 years ago.
 
 ---
 
-By the same scale, 
+**By the same scale,** 
 
 A decade is 3 seconds
 
@@ -31,7 +31,7 @@ A human lifetime is about 20 seconds
 
 {% include earth.html %}
 
-For the 45 years old Mother Earth, 
+**For the 45 years old Mother Earth,**
 
 Dinosaurs appeared 2 years ago and lived for ~1.5 years 
 
