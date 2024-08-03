@@ -8,11 +8,16 @@
       "scripting"
     ],
     "content_scripts": [
-    {
-      "matches": ["*://*.reddit.com/*"],
-      "js": ["reddit.js"],
-      "run_at": "document_end" 
-    }
+      {
+        "matches": ["*://*.reddit.com/*"],
+        "js": ["reddit.js"],
+        "run_at": "document_end" 
+      },
+      {
+        "matches": ["*://*.stackexchange.com/*"],
+        "js": ["stackexchange.js"],
+        "run_at": "document_end" 
+      }
   ],
     "action": {
       "default_popup": "",
