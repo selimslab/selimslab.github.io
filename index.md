@@ -34,13 +34,9 @@ A digital space for work and play
 
 ## Metadata 
 
-{% include stats.html  %}
-
 {% include hub.html tag='meta' %}
 
-
 {% include earth.html %}
-
 
 {% include offline.html  %}
 
