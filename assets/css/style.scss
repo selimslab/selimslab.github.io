@@ -9,8 +9,9 @@ $darkerGray: #222;
 $black: #000;
 
 // colors
-$darkBlue: #2398ff;
-$lightBlue: #62b5ff;
+$darkBlue: #99c3ff;
+$lightBlue: #99c3ff;
+$lightViolet: #9ea2ff;
 $accent : #FF530D;
 $highlight: #ffc800;
 $sunrise: #FAEAD4;
@@ -76,7 +77,7 @@ li ul {
 }
 
 ::selection {
-  background: $darkBlue;
+  background: $highlight;
 }
 
 article {
@@ -238,7 +239,7 @@ html[data-theme='light'] {
   }
 
   a:visited {
-    color: $lightBlue;
+    color: $lightViolet;
   }
 
   a:hover {
