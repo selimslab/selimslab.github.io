@@ -86,9 +86,15 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         if (!startTime) {
             startTime = new Date();
-        }
+        }        
 
-        if (event.key === 'Backspace') {
+        if (event.key === 'Backspace' && typedText.length > 0) {
+            let i = typedText.length - 1;
+            while (i >= 0 && typedText[i] !== ' ') {
+                i--;
+            }
+            typedText = typedText.slice(0, i+1);
+        } else if (event.key === 'Backspace') {
             typedText = typedText.slice(0, -1);
         } else if (event.key.length === 1) {
             typedText += event.key;
