@@ -7,7 +7,9 @@ The earth is 4.5 billion years old. Let's take it to human-scale and say the Ear
 
 100 000 000 years for us is like one year to her. 
 
-Then the Milky way galaxy is 136 years old, and Big Bang happened 138 years ago. 
+Then the Milky Way is 136 years old, 
+
+and Big Bang happened 138 years ago. 
 
 ---
 
