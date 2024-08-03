@@ -112,6 +112,7 @@
         "/root",
         "/graph-3d",
         "/keyboard-shortcuts",
+        "/stats",
         "/graph-2d"
       ]
     },
@@ -751,6 +752,14 @@
       "id": "/keyboard-shortcuts",
       "group": 2,
       "name": "Keyboard Shortcuts",
+      "links": [
+        "/meta"
+      ]
+    },
+    {
+      "id": "/stats",
+      "group": 2,
+      "name": "Stats",
       "links": [
         "/meta"
       ]
@@ -5365,6 +5374,10 @@
     {
       "source": "/meta",
       "target": "/keyboard-shortcuts"
+    },
+    {
+      "source": "/meta",
+      "target": "/stats"
     },
     {
       "source": "/meta",
