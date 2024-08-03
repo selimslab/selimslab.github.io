@@ -35,13 +35,19 @@ A human lifetime is about 20 seconds
 
 Dinosaurs appeared 2 years ago and lived for ~1.5 years 
 
-Human species evolved during the last week
+Human species evolved during the last two weeks
+
+Made early stone tools a week ago
+
+Learned to control fire in the last few days 
 
 Agriculture started an hour ago (12 000 years)
 
-Sumerians, writing, wheel, 30 minutes ago
+Sumer, writing, wheel, 30 minutes ago
 
-Pyramids 25 minutes ago 
+Ancient Egypt 25 minutes ago 
+
+Babylonia 20 minutes ago 
 
 Trojan War 16 minutes ago 
 
