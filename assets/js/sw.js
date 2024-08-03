@@ -40,17 +40,20 @@ const urls = [
   '/'
 ];
 
-const strategy = new NetworkFirst();
-
 registerRoute(
   new RegExp('\/.+\/.+'),
-  strategy
+  new NetworkFirst()
 );
 
 
 registerRoute(
   new RegExp('\/assets\/static\/.+'),
   new CacheFirst()
+);
+
+registerRoute(
+  new RegExp('\/assets\/fav\/.+'),
+  new NetworkFirst()
 );
 
 
@@ -67,6 +70,7 @@ const clearCaches = async () => {
 
 const warmCache = () => {
   clearCaches();
+  const strategy = new NetworkFirst();
   warmStrategyCache({urls, strategy});
 }
 

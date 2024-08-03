@@ -46,6 +46,7 @@
         "/markdown-editor",
         "/music-player",
         "/photo-gallery",
+        "/primes",
         "/rss-reader",
         "/savings-planner",
         "/search-index",
@@ -107,7 +108,7 @@
     {
       "id": "/meta",
       "group": 1,
-      "name": "Meta",
+      "name": "Metadata",
       "links": [
         "/root",
         "/graph-3d",
@@ -452,6 +453,14 @@
       "id": "/photo-gallery",
       "group": 2,
       "name": "Photo Gallery",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/primes",
+      "group": 2,
+      "name": "Primes",
       "links": [
         "/experiments"
       ]
@@ -5234,6 +5243,10 @@
     {
       "source": "/experiments",
       "target": "/photo-gallery"
+    },
+    {
+      "source": "/experiments",
+      "target": "/primes"
     },
     {
       "source": "/experiments",
