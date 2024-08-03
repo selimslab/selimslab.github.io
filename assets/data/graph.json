@@ -1212,7 +1212,7 @@
         "/121st-century",
         "/farming-trap",
         "/since-big-bang",
-        "/universe-is-an-old-woman",
+        "/time-scale",
         "/history-of-technology"
       ]
     },
@@ -2587,9 +2587,9 @@
       ]
     },
     {
-      "id": "/universe-is-an-old-woman",
+      "id": "/time-scale",
       "group": 3,
-      "name": "Universe Is An Old Woman",
+      "name": "If the Earth is 45 years old",
       "links": [
         "/history"
       ]
@@ -6121,7 +6121,7 @@
     },
     {
       "source": "/history",
-      "target": "/universe-is-an-old-woman"
+      "target": "/time-scale"
     },
     {
       "source": "/sociology",
