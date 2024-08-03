@@ -9,8 +9,8 @@ $darkerGray: #222;
 $black: #000;
 
 // colors
-$darkBlue: #99c3ff;
-$lightBlue: #99c3ff;
+$darkBlue: #2259a7;
+$lightBlue: #3298dc;
 $lightViolet: #9ea2ff;
 $accent : #FF530D;
 $highlight: #ffc800;
@@ -89,11 +89,11 @@ article {
 }
 
 a {
-  color: $lightBlue;
+  color: $lightBlue
 }
 
 a:visited {
-  color: #9ea2ff;
+  color: $lightViolet;
 }
 
 a:hover {
@@ -178,7 +178,7 @@ hr {
 
 
 blockquote {
-  border-left: 2px solid $lightBlue;
+  border-left: 2px solid $darkBlue
   padding-left: 1rem;
   margin: 1rem;
 }
@@ -235,11 +235,11 @@ html[data-theme='light'] {
   }
 
   a {
-    color: $darkBlue
+    color: $lightBlue
   }
 
   a:visited {
-    color: $lightViolet;
+    color: $darkBlue;
   }
 
   a:hover {
