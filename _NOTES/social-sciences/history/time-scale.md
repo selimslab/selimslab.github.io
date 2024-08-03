@@ -3,7 +3,9 @@ title: If the Earth is 45 years old
 tags: top 
 ---
 
-The earth is 4.5 billion years old. Let's take it to human-scale and say the Earth is 45 years old. 
+The earth is about 4.5 billion years old. 
+
+Let's take it to human-scale and say the Earth is 45 years old. 
 
 100 000 000 years for us is like one year to her. 
 
@@ -53,6 +55,4 @@ WW2 was 25 seconds ago
 
 Moon landings were 16 seconds ago 
 
-Each decade is about 3 seconds 
-
-Our lifetimes are seconds for a 138 years old universe
+Each decade is about 3 seconds, in a 138 years old universe
