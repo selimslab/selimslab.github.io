@@ -20,10 +20,10 @@ $sunrise: #FAEAD4;
 
 // text and bg 
 $darkBg: #22272e;
-$lightText: $darkGray;
+$lightText: $lightGray;
 
 $lightBg: #edeaea;
-$darkText: $lightGray;
+$darkText: $darkGray;
 
 // Font stacks
 $sansSerif: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -95,7 +95,7 @@ li ul {
 }
 
 ::selection {
-  background: $highlight;
+  background: $lightBlue;
 }
 
 article {
