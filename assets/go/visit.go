@@ -21,9 +21,6 @@ func visit(args map[string]interface{}) (string, error) {
 		return "", errors.New("Invalid URL")
 	}
 
-	apiBase := "https://cjnlnvj9iz.sqlite.cloud:8090/v2/functions/visit/add"
-	apiKey := "ahoVIDrv79tqtiwSSc7zxZA3lDOg7yRtsYOdwODruhY"
-
     apiURL, err := url.Parse(apiBase)
     if err != nil {
         return "", err
