@@ -29,9 +29,6 @@ func visit(args map[string]interface{}) (string, error) {
 	queryParams := url.Values{}
     queryParams.Add("apikey", apiKey)
     queryParams.Add("path", path)
-	// if d, ok := args["duration"].(int); ok && d > 0 {
-	// 	queryParams.Add("duration", strconv.Itoa(d))
-	// }
 	apiURL.RawQuery = queryParams.Encode()
 
 	resp, err := http.Get(apiURL.String())
