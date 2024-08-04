@@ -6,10 +6,8 @@
       "name": "Root",
       "links": [
         "/arts",
-        "/experiments",
         "/lists",
         "/math",
-        "/meta",
         "/natural-sciences",
         "/skills",
         "/social-sciences",
@@ -35,37 +33,13 @@
       ]
     },
     {
-      "id": "/experiments",
-      "group": 1,
-      "name": "Experiments",
-      "links": [
-        "/root",
-        "/digital-art",
-        "/dots",
-        "/grid",
-        "/markdown-editor",
-        "/music-player",
-        "/photo-gallery",
-        "/primes",
-        "/rss-reader",
-        "/savings-planner",
-        "/search-index",
-        "/spreadsheet",
-        "/typing-practice",
-        "/video-call",
-        "/video-player",
-        "/year-progress",
-        "/121st-century"
-      ]
-    },
-    {
       "id": "/lists",
       "group": 1,
       "name": "Lists",
       "links": [
         "/root",
-        "/authors",
-        "/blogs",
+        "/experiments",
+        "/meta",
         "/comics",
         "/datasets",
         "/documentaries",
@@ -73,6 +47,7 @@
         "/games",
         "/history-of-technology",
         "/ideas",
+        "/blogs",
         "/movies",
         "/nato-phonetic-alphabet",
         "/news",
@@ -80,6 +55,7 @@
         "/to-read",
         "/to-watch",
         "/web-experiments",
+        "/authors",
         "/classics",
         "/film-scores",
         "/modern-greek-alphabet",
@@ -103,18 +79,6 @@
         "/normal-distribution",
         "/probability-and-statistics",
         "/local-maximum"
-      ]
-    },
-    {
-      "id": "/meta",
-      "group": 1,
-      "name": "Metadata",
-      "links": [
-        "/root",
-        "/graph-3d",
-        "/keyboard-shortcuts",
-        "/stats",
-        "/graph-2d"
       ]
     },
     {
@@ -226,9 +190,9 @@
         "/ux",
         "/software-engineering",
         "/system-design",
-        "/computers",
-        "/thoughts-on-tech",
         "/machine-learning",
+        "/thoughts-on-tech",
+        "/computers",
         "/akins-laws-of-spacecraft",
         "/history-of-technology",
         "/accessibility"
@@ -410,141 +374,39 @@
       ]
     },
     {
-      "id": "/digital-art",
+      "id": "/experiments",
       "group": 2,
-      "name": "Digital Art",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/dots",
-      "group": 2,
-      "name": "Dots",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/grid",
-      "group": 2,
-      "name": "Grid",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/markdown-editor",
-      "group": 2,
-      "name": "Markdown Editor",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/music-player",
-      "group": 2,
-      "name": "Music Player",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/photo-gallery",
-      "group": 2,
-      "name": "Photo Gallery",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/primes",
-      "group": 2,
-      "name": "Primes",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/rss-reader",
-      "group": 2,
-      "name": "RSS reader",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/savings-planner",
-      "group": 2,
-      "name": "Savings Planner",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/search-index",
-      "group": 2,
-      "name": "Search Index",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/spreadsheet",
-      "group": 2,
-      "name": "Spreadsheet",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/typing-practice",
-      "group": 2,
-      "name": "Typing Practice",
-      "links": [
-        "/experiments",
-        "/skills"
-      ]
-    },
-    {
-      "id": "/video-call",
-      "group": 2,
-      "name": "Video Call",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/video-player",
-      "group": 2,
-      "name": "Video Player",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/year-progress",
-      "group": 2,
-      "name": "Year Progress",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/authors",
-      "group": 2,
-      "name": "Authors",
+      "name": "Experiments",
       "links": [
         "/lists",
-        "/literature"
+        "/digital-art",
+        "/dots",
+        "/grid",
+        "/markdown-editor",
+        "/music-player",
+        "/photo-gallery",
+        "/primes",
+        "/rss-reader",
+        "/savings-planner",
+        "/search-index",
+        "/spreadsheet",
+        "/typing-practice",
+        "/video-call",
+        "/video-player",
+        "/year-progress",
+        "/121st-century"
       ]
     },
     {
-      "id": "/blogs",
+      "id": "/meta",
       "group": 2,
-      "name": "Blogs",
+      "name": "Metadata",
       "links": [
-        "/lists"
+        "/lists",
+        "/graph-2d",
+        "/graph-3d",
+        "/keyboard-shortcuts",
+        "/stats"
       ]
     },
     {
@@ -616,6 +478,14 @@
       ]
     },
     {
+      "id": "/blogs",
+      "group": 2,
+      "name": "Blogs",
+      "links": [
+        "/lists"
+      ]
+    },
+    {
       "id": "/movies",
       "group": 2,
       "name": "Movies 🎬",
@@ -671,6 +541,15 @@
       "name": "Web Experiments",
       "links": [
         "/lists"
+      ]
+    },
+    {
+      "id": "/authors",
+      "group": 2,
+      "name": "Authors",
+      "links": [
+        "/lists",
+        "/literature"
       ]
     },
     {
@@ -747,38 +626,6 @@
         "/math",
         "/datasets",
         "/bayes"
-      ]
-    },
-    {
-      "id": "/graph-3d",
-      "group": 2,
-      "name": "3D Graph of All Pages",
-      "links": [
-        "/meta"
-      ]
-    },
-    {
-      "id": "/keyboard-shortcuts",
-      "group": 2,
-      "name": "Keyboard Shortcuts",
-      "links": [
-        "/meta"
-      ]
-    },
-    {
-      "id": "/stats",
-      "group": 2,
-      "name": "Stats",
-      "links": [
-        "/meta"
-      ]
-    },
-    {
-      "id": "/graph-2d",
-      "group": 2,
-      "name": "2D Graph of All Pages",
-      "links": [
-        "/meta"
       ]
     },
     {
@@ -1222,6 +1069,7 @@
         "/farming-trap",
         "/since-big-bang",
         "/time-scale",
+        "/time",
         "/history-of-technology"
       ]
     },
@@ -1453,15 +1301,18 @@
       ]
     },
     {
-      "id": "/computers",
+      "id": "/machine-learning",
       "group": 2,
-      "name": "Computers from scratch",
+      "name": "Machine Learning",
       "links": [
         "/tech",
-        "/containers",
-        "/networks",
-        "/operating-systems",
-        "/for-new-programmers"
+        "/customize-prompt",
+        "/nlp",
+        "/ozlang",
+        "/prompt-engineering",
+        "/pca",
+        "/pneumonia-detection",
+        "/predict-movie-genres"
       ]
     },
     {
@@ -1477,16 +1328,15 @@
       ]
     },
     {
-      "id": "/machine-learning",
+      "id": "/computers",
       "group": 2,
-      "name": "Machine Learning",
+      "name": "Computers from scratch",
       "links": [
         "/tech",
-        "/nlp",
-        "/prompt-engineering",
-        "/pca",
-        "/pneumonia-detection",
-        "/predict-movie-genres"
+        "/containers",
+        "/networks",
+        "/operating-systems",
+        "/for-new-programmers"
       ]
     },
     {
@@ -1780,7 +1630,10 @@
         "/slow-down-time",
         "/the-morning",
         "/the-past",
-        "/121st-century"
+        "/121st-century",
+        "/history",
+        "/since-big-bang",
+        "/time-scale"
       ]
     },
     {
@@ -2245,6 +2098,159 @@
       ]
     },
     {
+      "id": "/digital-art",
+      "group": 3,
+      "name": "Digital Art",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/dots",
+      "group": 3,
+      "name": "Dots",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/grid",
+      "group": 3,
+      "name": "Grid",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/markdown-editor",
+      "group": 3,
+      "name": "Markdown Editor",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/music-player",
+      "group": 3,
+      "name": "Music Player",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/photo-gallery",
+      "group": 3,
+      "name": "Photo Gallery",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/primes",
+      "group": 3,
+      "name": "Primes",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/rss-reader",
+      "group": 3,
+      "name": "RSS reader",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/savings-planner",
+      "group": 3,
+      "name": "Savings Planner",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/search-index",
+      "group": 3,
+      "name": "Search Index",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/spreadsheet",
+      "group": 3,
+      "name": "Spreadsheet",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/typing-practice",
+      "group": 3,
+      "name": "Typing Practice",
+      "links": [
+        "/experiments",
+        "/skills"
+      ]
+    },
+    {
+      "id": "/video-call",
+      "group": 3,
+      "name": "Video Call",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/video-player",
+      "group": 3,
+      "name": "Video Player",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/year-progress",
+      "group": 3,
+      "name": "Year Progress",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/graph-2d",
+      "group": 3,
+      "name": "2D Graph of All Pages",
+      "links": [
+        "/meta"
+      ]
+    },
+    {
+      "id": "/graph-3d",
+      "group": 3,
+      "name": "3D Graph of All Pages",
+      "links": [
+        "/meta"
+      ]
+    },
+    {
+      "id": "/keyboard-shortcuts",
+      "group": 3,
+      "name": "Keyboard Shortcuts",
+      "links": [
+        "/meta"
+      ]
+    },
+    {
+      "id": "/stats",
+      "group": 3,
+      "name": "Stats",
+      "links": [
+        "/meta"
+      ]
+    },
+    {
       "id": "/going-blind",
       "group": 3,
       "name": "Going Blind",
@@ -2591,6 +2597,7 @@
       "name": "Some events in the last 14 billion years",
       "links": [
         "/history",
+        "/time",
         "/lists",
         "/natural-sciences"
       ]
@@ -2600,7 +2607,8 @@
       "group": 3,
       "name": "If the Earth is 45 years old",
       "links": [
-        "/history"
+        "/history",
+        "/time"
       ]
     },
     {
@@ -3421,29 +3429,35 @@
       ]
     },
     {
-      "id": "/containers",
+      "id": "/customize-prompt",
       "group": 3,
-      "name": "Containers",
+      "name": "Customize Prompt",
       "links": [
-        "/computers",
-        "/operating-systems"
+        "/machine-learning"
       ]
     },
     {
-      "id": "/networks",
+      "id": "/nlp",
       "group": 3,
-      "name": "Networks",
+      "name": "NLP",
       "links": [
-        "/computers"
+        "/machine-learning"
       ]
     },
     {
-      "id": "/operating-systems",
+      "id": "/ozlang",
       "group": 3,
-      "name": "Operating Systems",
+      "name": "Ozlang",
       "links": [
-        "/computers",
-        "/containers"
+        "/machine-learning"
+      ]
+    },
+    {
+      "id": "/prompt-engineering",
+      "group": 3,
+      "name": "Prompt Engineering",
+      "links": [
+        "/machine-learning"
       ]
     },
     {
@@ -3481,26 +3495,29 @@
       ]
     },
     {
-      "id": "/nlp",
+      "id": "/containers",
       "group": 3,
-      "name": "NLP",
+      "name": "Containers",
       "links": [
-        "/machine-learning"
+        "/computers",
+        "/operating-systems"
       ]
     },
     {
-      "id": "/prompt-engineering",
+      "id": "/networks",
       "group": 3,
-      "name": "Prompt Engineering",
+      "name": "Networks",
       "links": [
-        "/machine-learning",
-        "/base-prompt",
-        "/customize-prompt",
-        "/ozlang",
-        "/question-prompt",
-        "/questions-to-gpt",
-        "/recap-prompt",
-        "/summary-prompt"
+        "/computers"
+      ]
+    },
+    {
+      "id": "/operating-systems",
+      "group": 3,
+      "name": "Operating Systems",
+      "links": [
+        "/computers",
+        "/containers"
       ]
     },
     {
@@ -4955,62 +4972,6 @@
       ]
     },
     {
-      "id": "/base-prompt",
-      "group": 4,
-      "name": "Base Prompt",
-      "links": [
-        "/prompt-engineering"
-      ]
-    },
-    {
-      "id": "/customize-prompt",
-      "group": 4,
-      "name": "Customize Prompt",
-      "links": [
-        "/prompt-engineering"
-      ]
-    },
-    {
-      "id": "/ozlang",
-      "group": 4,
-      "name": "Ozlang",
-      "links": [
-        "/prompt-engineering"
-      ]
-    },
-    {
-      "id": "/question-prompt",
-      "group": 4,
-      "name": "Question Prompt",
-      "links": [
-        "/prompt-engineering"
-      ]
-    },
-    {
-      "id": "/questions-to-gpt",
-      "group": 4,
-      "name": "Questions To Gpt",
-      "links": [
-        "/prompt-engineering"
-      ]
-    },
-    {
-      "id": "/recap-prompt",
-      "group": 4,
-      "name": "Recap Prompt",
-      "links": [
-        "/prompt-engineering"
-      ]
-    },
-    {
-      "id": "/summary-prompt",
-      "group": 4,
-      "name": "Summary Prompt",
-      "links": [
-        "/prompt-engineering"
-      ]
-    },
-    {
       "id": "/c-and-python",
       "group": 5,
       "name": "Call C code from Python",
@@ -5154,19 +5115,11 @@
     },
     {
       "source": "/root",
-      "target": "/experiments"
-    },
-    {
-      "source": "/root",
       "target": "/lists"
     },
     {
       "source": "/root",
       "target": "/math"
-    },
-    {
-      "source": "/root",
-      "target": "/meta"
     },
     {
       "source": "/root",
@@ -5221,72 +5174,12 @@
       "target": "/photography"
     },
     {
-      "source": "/experiments",
-      "target": "/digital-art"
-    },
-    {
-      "source": "/experiments",
-      "target": "/dots"
-    },
-    {
-      "source": "/experiments",
-      "target": "/grid"
-    },
-    {
-      "source": "/experiments",
-      "target": "/markdown-editor"
-    },
-    {
-      "source": "/experiments",
-      "target": "/music-player"
-    },
-    {
-      "source": "/experiments",
-      "target": "/photo-gallery"
-    },
-    {
-      "source": "/experiments",
-      "target": "/primes"
-    },
-    {
-      "source": "/experiments",
-      "target": "/rss-reader"
-    },
-    {
-      "source": "/experiments",
-      "target": "/savings-planner"
-    },
-    {
-      "source": "/experiments",
-      "target": "/search-index"
-    },
-    {
-      "source": "/experiments",
-      "target": "/spreadsheet"
-    },
-    {
-      "source": "/experiments",
-      "target": "/typing-practice"
-    },
-    {
-      "source": "/experiments",
-      "target": "/video-call"
-    },
-    {
-      "source": "/experiments",
-      "target": "/video-player"
-    },
-    {
-      "source": "/experiments",
-      "target": "/year-progress"
+      "source": "/lists",
+      "target": "/experiments"
     },
     {
       "source": "/lists",
-      "target": "/authors"
-    },
-    {
-      "source": "/lists",
-      "target": "/blogs"
+      "target": "/meta"
     },
     {
       "source": "/lists",
@@ -5318,6 +5211,10 @@
     },
     {
       "source": "/lists",
+      "target": "/blogs"
+    },
+    {
+      "source": "/lists",
       "target": "/movies"
     },
     {
@@ -5343,6 +5240,10 @@
     {
       "source": "/lists",
       "target": "/web-experiments"
+    },
+    {
+      "source": "/lists",
+      "target": "/authors"
     },
     {
       "source": "/math",
@@ -5379,22 +5280,6 @@
     {
       "source": "/math",
       "target": "/probability-and-statistics"
-    },
-    {
-      "source": "/meta",
-      "target": "/graph-3d"
-    },
-    {
-      "source": "/meta",
-      "target": "/keyboard-shortcuts"
-    },
-    {
-      "source": "/meta",
-      "target": "/stats"
-    },
-    {
-      "source": "/meta",
-      "target": "/graph-2d"
     },
     {
       "source": "/natural-sciences",
@@ -5642,7 +5527,7 @@
     },
     {
       "source": "/tech",
-      "target": "/computers"
+      "target": "/machine-learning"
     },
     {
       "source": "/tech",
@@ -5650,7 +5535,7 @@
     },
     {
       "source": "/tech",
-      "target": "/machine-learning"
+      "target": "/computers"
     },
     {
       "source": "/philosophy",
@@ -5979,6 +5864,82 @@
     {
       "source": "/design",
       "target": "/ship-it"
+    },
+    {
+      "source": "/experiments",
+      "target": "/digital-art"
+    },
+    {
+      "source": "/experiments",
+      "target": "/dots"
+    },
+    {
+      "source": "/experiments",
+      "target": "/grid"
+    },
+    {
+      "source": "/experiments",
+      "target": "/markdown-editor"
+    },
+    {
+      "source": "/experiments",
+      "target": "/music-player"
+    },
+    {
+      "source": "/experiments",
+      "target": "/photo-gallery"
+    },
+    {
+      "source": "/experiments",
+      "target": "/primes"
+    },
+    {
+      "source": "/experiments",
+      "target": "/rss-reader"
+    },
+    {
+      "source": "/experiments",
+      "target": "/savings-planner"
+    },
+    {
+      "source": "/experiments",
+      "target": "/search-index"
+    },
+    {
+      "source": "/experiments",
+      "target": "/spreadsheet"
+    },
+    {
+      "source": "/experiments",
+      "target": "/typing-practice"
+    },
+    {
+      "source": "/experiments",
+      "target": "/video-call"
+    },
+    {
+      "source": "/experiments",
+      "target": "/video-player"
+    },
+    {
+      "source": "/experiments",
+      "target": "/year-progress"
+    },
+    {
+      "source": "/meta",
+      "target": "/graph-2d"
+    },
+    {
+      "source": "/meta",
+      "target": "/graph-3d"
+    },
+    {
+      "source": "/meta",
+      "target": "/keyboard-shortcuts"
+    },
+    {
+      "source": "/meta",
+      "target": "/stats"
     },
     {
       "source": "/health",
@@ -6473,16 +6434,20 @@
       "target": "/oop"
     },
     {
-      "source": "/computers",
-      "target": "/containers"
+      "source": "/machine-learning",
+      "target": "/customize-prompt"
     },
     {
-      "source": "/computers",
-      "target": "/networks"
+      "source": "/machine-learning",
+      "target": "/nlp"
     },
     {
-      "source": "/computers",
-      "target": "/operating-systems"
+      "source": "/machine-learning",
+      "target": "/ozlang"
+    },
+    {
+      "source": "/machine-learning",
+      "target": "/prompt-engineering"
     },
     {
       "source": "/thoughts-on-tech",
@@ -6501,12 +6466,16 @@
       "target": "/the-tao-of-programming"
     },
     {
-      "source": "/machine-learning",
-      "target": "/nlp"
+      "source": "/computers",
+      "target": "/containers"
     },
     {
-      "source": "/machine-learning",
-      "target": "/prompt-engineering"
+      "source": "/computers",
+      "target": "/networks"
+    },
+    {
+      "source": "/computers",
+      "target": "/operating-systems"
     },
     {
       "source": "/time",
@@ -7117,34 +7086,6 @@
       "target": "/oop-designs"
     },
     {
-      "source": "/prompt-engineering",
-      "target": "/base-prompt"
-    },
-    {
-      "source": "/prompt-engineering",
-      "target": "/customize-prompt"
-    },
-    {
-      "source": "/prompt-engineering",
-      "target": "/ozlang"
-    },
-    {
-      "source": "/prompt-engineering",
-      "target": "/question-prompt"
-    },
-    {
-      "source": "/prompt-engineering",
-      "target": "/questions-to-gpt"
-    },
-    {
-      "source": "/prompt-engineering",
-      "target": "/recap-prompt"
-    },
-    {
-      "source": "/prompt-engineering",
-      "target": "/summary-prompt"
-    },
-    {
       "source": "/python",
       "target": "/c-and-python"
     },
@@ -7409,6 +7350,18 @@
       "target": "/121st-century"
     },
     {
+      "source": "/time",
+      "target": "/history"
+    },
+    {
+      "source": "/time",
+      "target": "/since-big-bang"
+    },
+    {
+      "source": "/time",
+      "target": "/time-scale"
+    },
+    {
       "source": "/truth",
       "target": "/critical-thinking"
     },
@@ -7449,10 +7402,6 @@
       "target": "/travelling"
     },
     {
-      "source": "/experiments",
-      "target": "/121st-century"
-    },
-    {
       "source": "/datasets",
       "target": "/probability-and-statistics"
     },
@@ -7487,6 +7436,10 @@
     {
       "source": "/essais",
       "target": "/who-goes-nazi"
+    },
+    {
+      "source": "/experiments",
+      "target": "/121st-century"
     },
     {
       "source": "/lists",

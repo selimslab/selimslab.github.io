@@ -7,8 +7,8 @@ Like in the great Lynyrd Skynyrd song "Simple Man", be something you love and un
 
 ```sh
 > python 
-> import this 
-> Simple is better than complex.
+>>> import this 
+Simple is better than complex.
 Complex is better than complicated.
 Flat is better than nested.
 Sparse is better than dense.

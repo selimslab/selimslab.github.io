@@ -267,44 +267,52 @@
     "/photography": {
     }
   },
-  "/experiments": {
-    "/digital-art": {
-    },
-    "/dots": {
-    },
-    "/experiments": {
-    },
-    "/grid": {
-    },
-    "/markdown-editor": {
-    },
-    "/music-player": {
-    },
-    "/photo-gallery": {
-    },
-    "/primes": {
-    },
-    "/rss-reader": {
-    },
-    "/savings-planner": {
-    },
-    "/search-index": {
-    },
-    "/spreadsheet": {
-    },
-    "/typing-practice": {
-    },
-    "/video-call": {
-    },
-    "/video-player": {
-    },
-    "/year-progress": {
-    }
-  },
   "/lists": {
-    "/authors": {
+    "/experiments": {
+      "/digital-art": {
+      },
+      "/dots": {
+      },
+      "/experiments": {
+      },
+      "/grid": {
+      },
+      "/markdown-editor": {
+      },
+      "/music-player": {
+      },
+      "/photo-gallery": {
+      },
+      "/primes": {
+      },
+      "/rss-reader": {
+      },
+      "/savings-planner": {
+      },
+      "/search-index": {
+      },
+      "/spreadsheet": {
+      },
+      "/typing-practice": {
+      },
+      "/video-call": {
+      },
+      "/video-player": {
+      },
+      "/year-progress": {
+      }
     },
-    "/blogs": {
+    "/meta": {
+      "/graph-2d": {
+      },
+      "/graph-3d": {
+      },
+      "/keyboard-shortcuts": {
+      },
+      "/meta": {
+      },
+      "/stats": {
+      }
     },
     "/comics": {
     },
@@ -320,7 +328,7 @@
     },
     "/ideas": {
     },
-    "/lists": {
+    "/blogs": {
     },
     "/movies": {
     },
@@ -335,6 +343,10 @@
     "/to-watch": {
     },
     "/web-experiments": {
+    },
+    "/lists": {
+    },
+    "/authors": {
     }
   },
   "/math": {
@@ -357,18 +369,6 @@
     "/normal-distribution": {
     },
     "/probability-and-statistics": {
-    }
-  },
-  "/meta": {
-    "/graph-3d": {
-    },
-    "/keyboard-shortcuts": {
-    },
-    "/meta": {
-    },
-    "/stats": {
-    },
-    "/graph-2d": {
     }
   },
   "/natural-sciences": {
@@ -1082,14 +1082,16 @@
         }
       }
     },
-    "/computers": {
-      "/computers": {
+    "/machine-learning": {
+      "/customize-prompt": {
       },
-      "/containers": {
+      "/machine-learning": {
       },
-      "/networks": {
+      "/nlp": {
       },
-      "/operating-systems": {
+      "/ozlang": {
+      },
+      "/prompt-engineering": {
       }
     },
     "/thoughts-on-tech": {
@@ -1102,28 +1104,14 @@
       "/the-tao-of-programming": {
       }
     },
-    "/machine-learning": {
-      "/machine-learning": {
+    "/computers": {
+      "/computers": {
       },
-      "/nlp": {
+      "/containers": {
       },
-      "/prompt-engineering": {
-        "/base-prompt": {
-        },
-        "/customize-prompt": {
-        },
-        "/ozlang": {
-        },
-        "/prompt-engineering": {
-        },
-        "/question-prompt": {
-        },
-        "/questions-to-gpt": {
-        },
-        "/recap-prompt": {
-        },
-        "/summary-prompt": {
-        }
+      "/networks": {
+      },
+      "/operating-systems": {
       }
     },
     "/tech": {

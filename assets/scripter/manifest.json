@@ -17,6 +17,11 @@
         "matches": ["*://*.stackexchange.com/*"],
         "js": ["stackexchange.js"],
         "run_at": "document_end" 
+      },
+      {
+        "matches": ["*://*.eksisozluk.com/*"],
+        "js": ["eksi.js"],
+        "run_at": "document_end" 
       }
   ],
     "action": {
@@ -25,7 +30,8 @@
       }
     },
     "background": {
-      "service_worker": "background.js"
+      "service_worker": "background.js",
+      "scripts": ["background.js"]
     }
   }
   
