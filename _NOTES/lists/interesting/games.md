@@ -1,10 +1,6 @@
 ---
 ---
 
-
-
-
-
 Age of Empires II 
 
 Age of Mythology
