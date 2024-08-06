@@ -11,13 +11,12 @@
   g(container)
     .graphData(graphData)
     .minZoom(1)
-    .maxZoom(5)
+    .maxZoom(4)
     .linkColor(() => lightText)
     .linkWidth(() => 0.3)
     .nodeColor(node => {
       return highlightNodes.has(node.id) ? accent : getColor(node.group);
     })
-    .nodeVal(node => node.links.length || 1) 
     .onNodeHover((node) => {
       highlightNodes.clear();
       if (node) {
@@ -29,7 +28,7 @@
     .autoPauseRedraw(false) // keep redrawing after engine has stopped
 
   g.d3Force("center", null);
-  g.d3Force('charge').strength(-20);
+  g.d3Force('charge').strength(-18);
 
   // fit to canvas when engine stops
   g.onEngineStop(() => g.zoomToFit());
