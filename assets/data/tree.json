@@ -194,44 +194,6 @@
       "/turk-mirasi": {
       }
     },
-    "/languages": {
-      "/deutsch": {
-      },
-      "/english": {
-      },
-      "/languages": {
-      },
-      "/latin": {
-      },
-      "/metaphors": {
-      },
-      "/modern-greek-alphabet": {
-      },
-      "/turkce": {
-      },
-      "/cestina": {
-        "/adjektiva": {
-        },
-        "/cas": {
-        },
-        "/cestina": {
-        },
-        "/cisla": {
-        },
-        "/domov": {
-        },
-        "/fraze": {
-        },
-        "/koníčky": {
-        },
-        "/podobna-slova": {
-        },
-        "/predlozky": {
-        },
-        "/slovesa": {
-        }
-      }
-    },
     "/music": {
       "/classical-music": {
       },
@@ -259,6 +221,8 @@
       },
       "/ship-it": {
       }
+    },
+    "/paintings": {
     },
     "/cinema": {
     },
@@ -302,10 +266,52 @@
       "/year-progress": {
       }
     },
+    "/languages": {
+      "/deutsch": {
+      },
+      "/english": {
+      },
+      "/languages": {
+      },
+      "/latin": {
+      },
+      "/metaphors": {
+      },
+      "/modern-greek-alphabet": {
+      },
+      "/nato-phonetic-alphabet": {
+      },
+      "/turkce": {
+      },
+      "/cestina": {
+        "/adjektiva": {
+        },
+        "/cas": {
+        },
+        "/cestina": {
+        },
+        "/cisla": {
+        },
+        "/domov": {
+        },
+        "/fraze": {
+        },
+        "/koníčky": {
+        },
+        "/podobna-slova": {
+        },
+        "/predlozky": {
+        },
+        "/slovesa": {
+        }
+      }
+    },
     "/meta": {
       "/graph-2d": {
       },
       "/graph-3d": {
+      },
+      "/ideas": {
       },
       "/keyboard-shortcuts": {
       },
@@ -314,39 +320,35 @@
       "/stats": {
       }
     },
-    "/comics": {
-    },
-    "/datasets": {
-    },
-    "/documentaries": {
-    },
-    "/essais": {
-    },
-    "/games": {
-    },
-    "/history-of-technology": {
-    },
-    "/ideas": {
-    },
-    "/blogs": {
-    },
-    "/movies": {
-    },
-    "/nato-phonetic-alphabet": {
-    },
-    "/news": {
-    },
-    "/paintings": {
-    },
     "/to-read": {
+      "/authors": {
+      },
+      "/blogs": {
+      },
+      "/books": {
+      },
+      "/comics": {
+      },
+      "/essais": {
+      },
+      "/news": {
+      }
+    },
+    "/interesting": {
+      "/datasets": {
+      },
+      "/games": {
+      },
+      "/web-experiments": {
+      }
     },
     "/to-watch": {
-    },
-    "/web-experiments": {
+      "/documentaries": {
+      },
+      "/movies": {
+      }
     },
     "/lists": {
-    },
-    "/authors": {
     }
   },
   "/math": {
@@ -372,6 +374,30 @@
     }
   },
   "/natural-sciences": {
+    "/astronomy": {
+      "/astronomy": {
+      },
+      "/earth": {
+      },
+      "/size-of-the-universe": {
+      },
+      "/solar-system": {
+      },
+      "/the-overview-effect": {
+      }
+    },
+    "/physics": {
+      "/classical-physics": {
+      },
+      "/inertia": {
+      },
+      "/maxwell-equations": {
+      },
+      "/philosophical-implications-of-quantum-mechanics": {
+      },
+      "/physics": {
+      }
+    },
     "/health": {
       "/going-blind": {
       },
@@ -382,31 +408,17 @@
       "/sleep": {
       }
     },
-    "/astronomy": {
-    },
-    "/books-natural": {
-    },
-    "/classical-physics": {
-    },
     "/climate-change": {
-    },
-    "/feynman-lectures": {
-    },
-    "/feynmans-epilogue": {
     },
     "/fluid-field-boundaries": {
     },
-    "/inertia": {
-    },
-    "/maxwell-equations": {
-    },
     "/natural-sciences": {
     },
-    "/philosophical-implications-of-quantum-mechanics": {
+    "/books-natural": {
     },
-    "/solar-system": {
+    "/feynmans-epilogue": {
     },
-    "/the-overview-effect": {
+    "/feynman-lectures": {
     },
     "/akins-laws-of-spacecraft": {
     }
@@ -600,6 +612,8 @@
       "/121st-century": {
       },
       "/farming-trap": {
+      },
+      "/history-of-technology": {
       },
       "/history": {
       },

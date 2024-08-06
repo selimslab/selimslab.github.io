@@ -24,12 +24,12 @@
         "/poetry",
         "/siir",
         "/literature",
-        "/languages",
         "/music",
         "/design",
+        "/paintings",
         "/cinema",
         "/photography",
-        "/paintings"
+        "/languages"
       ]
     },
     {
@@ -39,27 +39,17 @@
       "links": [
         "/root",
         "/experiments",
+        "/languages",
         "/meta",
-        "/comics",
-        "/datasets",
-        "/documentaries",
-        "/essais",
-        "/games",
-        "/history-of-technology",
-        "/ideas",
-        "/blogs",
-        "/movies",
-        "/nato-phonetic-alphabet",
-        "/news",
-        "/paintings",
         "/to-read",
+        "/interesting",
         "/to-watch",
-        "/web-experiments",
-        "/authors",
         "/classics",
         "/film-scores",
         "/modern-greek-alphabet",
         "/sanatcilar",
+        "/authors",
+        "/history-of-technology",
         "/since-big-bang"
       ]
     },
@@ -87,19 +77,14 @@
       "name": "Natural Sciences",
       "links": [
         "/root",
-        "/health",
         "/astronomy",
-        "/books-natural",
-        "/classical-physics",
+        "/physics",
+        "/health",
         "/climate-change",
-        "/feynman-lectures",
-        "/feynmans-epilogue",
         "/fluid-field-boundaries",
-        "/inertia",
-        "/maxwell-equations",
-        "/philosophical-implications-of-quantum-mechanics",
-        "/solar-system",
-        "/the-overview-effect",
+        "/books-natural",
+        "/feynmans-epilogue",
+        "/feynman-lectures",
         "/akins-laws-of-spacecraft",
         "/since-big-bang",
         "/systems"
@@ -241,6 +226,7 @@
         "/tao-te-ching",
         "/going-blind",
         "/how-to-deal-with-pain",
+        "/philosophical-implications-of-quantum-mechanics",
         "/critical-thinking",
         "/do-the-right-thing",
         "/how-to-grow-old-russell",
@@ -288,8 +274,8 @@
         "/nazim",
         "/orhan-veli",
         "/yunus-emre",
-        "/turkce",
-        "/poetry"
+        "/poetry",
+        "/turkce"
       ]
     },
     {
@@ -306,21 +292,6 @@
         "/the-art-of-war",
         "/turk-mirasi",
         "/authors"
-      ]
-    },
-    {
-      "id": "/languages",
-      "group": 2,
-      "name": "Languages",
-      "links": [
-        "/arts",
-        "/deutsch",
-        "/english",
-        "/latin",
-        "/metaphors",
-        "/modern-greek-alphabet",
-        "/turkce",
-        "/cestina"
       ]
     },
     {
@@ -351,6 +322,14 @@
         "/natural-tech",
         "/polished-pixels",
         "/ux"
+      ]
+    },
+    {
+      "id": "/paintings",
+      "group": 2,
+      "name": "Paintings",
+      "links": [
+        "/arts"
       ]
     },
     {
@@ -398,6 +377,23 @@
       ]
     },
     {
+      "id": "/languages",
+      "group": 2,
+      "name": "Languages",
+      "links": [
+        "/lists",
+        "/deutsch",
+        "/english",
+        "/latin",
+        "/metaphors",
+        "/modern-greek-alphabet",
+        "/nato-phonetic-alphabet",
+        "/turkce",
+        "/cestina",
+        "/arts"
+      ]
+    },
+    {
       "id": "/meta",
       "group": 2,
       "name": "Metadata",
@@ -405,151 +401,44 @@
         "/lists",
         "/graph-2d",
         "/graph-3d",
+        "/ideas",
         "/keyboard-shortcuts",
         "/stats"
       ]
     },
     {
-      "id": "/comics",
-      "group": 2,
-      "name": "Comics",
-      "links": [
-        "/lists"
-      ]
-    },
-    {
-      "id": "/datasets",
-      "group": 2,
-      "name": "Datasets",
-      "links": [
-        "/lists",
-        "/probability-and-statistics"
-      ]
-    },
-    {
-      "id": "/documentaries",
-      "group": 2,
-      "name": "Documentaries",
-      "links": [
-        "/lists",
-        "/cinema"
-      ]
-    },
-    {
-      "id": "/essais",
-      "group": 2,
-      "name": "Essais",
-      "links": [
-        "/lists",
-        "/in-praise-of-idleness",
-        "/how-to-grow-old-russell",
-        "/mastery",
-        "/problem-solving",
-        "/farming-trap",
-        "/look-down-and-around",
-        "/the-triumph-of-stupidity",
-        "/who-goes-nazi"
-      ]
-    },
-    {
-      "id": "/games",
-      "group": 2,
-      "name": "Games",
-      "links": [
-        "/lists"
-      ]
-    },
-    {
-      "id": "/history-of-technology",
-      "group": 2,
-      "name": "History Of Technology",
-      "links": [
-        "/lists",
-        "/history",
-        "/tech"
-      ]
-    },
-    {
-      "id": "/ideas",
-      "group": 2,
-      "name": "Ideas",
-      "links": [
-        "/lists"
-      ]
-    },
-    {
-      "id": "/blogs",
-      "group": 2,
-      "name": "Blogs",
-      "links": [
-        "/lists"
-      ]
-    },
-    {
-      "id": "/movies",
-      "group": 2,
-      "name": "Movies 🎬",
-      "links": [
-        "/lists",
-        "/cinema"
-      ]
-    },
-    {
-      "id": "/nato-phonetic-alphabet",
-      "group": 2,
-      "name": "NATO phonetic alphabet",
-      "links": [
-        "/lists"
-      ]
-    },
-    {
-      "id": "/news",
-      "group": 2,
-      "name": "News",
-      "links": [
-        "/lists"
-      ]
-    },
-    {
-      "id": "/paintings",
-      "group": 2,
-      "name": "Paintings",
-      "links": [
-        "/lists",
-        "/arts"
-      ]
-    },
-    {
       "id": "/to-read",
       "group": 2,
-      "name": "To Read",
+      "name": "To-read",
       "links": [
-        "/lists"
+        "/lists",
+        "/authors",
+        "/blogs",
+        "/books",
+        "/comics",
+        "/essais",
+        "/news"
+      ]
+    },
+    {
+      "id": "/interesting",
+      "group": 2,
+      "name": "Interesting",
+      "links": [
+        "/lists",
+        "/datasets",
+        "/games",
+        "/web-experiments"
       ]
     },
     {
       "id": "/to-watch",
       "group": 2,
-      "name": "To Watch",
-      "links": [
-        "/lists"
-      ]
-    },
-    {
-      "id": "/web-experiments",
-      "group": 2,
-      "name": "Web Experiments",
-      "links": [
-        "/lists"
-      ]
-    },
-    {
-      "id": "/authors",
-      "group": 2,
-      "name": "Authors",
+      "name": "To-watch",
       "links": [
         "/lists",
-        "/literature"
+        "/documentaries",
+        "/movies"
       ]
     },
     {
@@ -629,6 +518,30 @@
       ]
     },
     {
+      "id": "/astronomy",
+      "group": 2,
+      "name": "Astronomy",
+      "links": [
+        "/natural-sciences",
+        "/earth",
+        "/size-of-the-universe",
+        "/solar-system",
+        "/the-overview-effect"
+      ]
+    },
+    {
+      "id": "/physics",
+      "group": 2,
+      "name": "Physics",
+      "links": [
+        "/natural-sciences",
+        "/classical-physics",
+        "/inertia",
+        "/maxwell-equations",
+        "/philosophical-implications-of-quantum-mechanics"
+      ]
+    },
+    {
       "id": "/health",
       "group": 2,
       "name": "Health",
@@ -640,52 +553,9 @@
       ]
     },
     {
-      "id": "/astronomy",
-      "group": 2,
-      "name": "Astronomy",
-      "links": [
-        "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/books-natural",
-      "group": 2,
-      "name": "Books",
-      "links": [
-        "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/classical-physics",
-      "group": 2,
-      "name": "Classical Physics",
-      "links": [
-        "/natural-sciences",
-        "/feynman-lectures",
-        "/maxwell-equations"
-      ]
-    },
-    {
       "id": "/climate-change",
       "group": 2,
       "name": "Climate Change",
-      "links": [
-        "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/feynman-lectures",
-      "group": 2,
-      "name": "Feynman Lectures",
-      "links": [
-        "/natural-sciences",
-        "/classical-physics"
-      ]
-    },
-    {
-      "id": "/feynmans-epilogue",
-      "group": 2,
-      "name": "Feynmans Epilogue",
       "links": [
         "/natural-sciences"
       ]
@@ -699,43 +569,26 @@
       ]
     },
     {
-      "id": "/inertia",
+      "id": "/books-natural",
       "group": 2,
-      "name": "Inertia",
-      "links": [
-        "/natural-sciences",
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/maxwell-equations",
-      "group": 2,
-      "name": "Maxwell Equations",
-      "links": [
-        "/natural-sciences",
-        "/classical-physics"
-      ]
-    },
-    {
-      "id": "/philosophical-implications-of-quantum-mechanics",
-      "group": 2,
-      "name": "Philosophical Implications Of Quantum Mechanics",
+      "name": "Books",
       "links": [
         "/natural-sciences"
       ]
     },
     {
-      "id": "/solar-system",
+      "id": "/feynmans-epilogue",
       "group": 2,
-      "name": "Solar System",
+      "name": "Feynmans Epilogue",
       "links": [
-        "/natural-sciences"
+        "/natural-sciences",
+        "/essais"
       ]
     },
     {
-      "id": "/the-overview-effect",
+      "id": "/feynman-lectures",
       "group": 2,
-      "name": "The Overview Effect",
+      "name": "Feynman Lectures",
       "links": [
         "/natural-sciences"
       ]
@@ -1067,10 +920,10 @@
         "/12000",
         "/121st-century",
         "/farming-trap",
+        "/history-of-technology",
         "/since-big-bang",
         "/time-scale",
-        "/time",
-        "/history-of-technology"
+        "/time"
       ]
     },
     {
@@ -1265,7 +1118,8 @@
         "/polished-pixels",
         "/things-users-care",
         "/usability-testing",
-        "/design"
+        "/design",
+        "/web-experiments"
       ]
     },
     {
@@ -1939,78 +1793,6 @@
       ]
     },
     {
-      "id": "/deutsch",
-      "group": 3,
-      "name": "Deutsch",
-      "links": [
-        "/languages"
-      ]
-    },
-    {
-      "id": "/english",
-      "group": 3,
-      "name": "English",
-      "links": [
-        "/languages"
-      ]
-    },
-    {
-      "id": "/latin",
-      "group": 3,
-      "name": "Latin",
-      "links": [
-        "/languages"
-      ]
-    },
-    {
-      "id": "/metaphors",
-      "group": 3,
-      "name": "Metaphors",
-      "links": [
-        "/languages",
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/modern-greek-alphabet",
-      "group": 3,
-      "name": "Modern Greek Alphabet",
-      "links": [
-        "/languages",
-        "/lists"
-      ]
-    },
-    {
-      "id": "/turkce",
-      "group": 3,
-      "name": "Turkce",
-      "links": [
-        "/languages",
-        "/ince-memed",
-        "/turk-mirasi",
-        "/sanatcilar",
-        "/ideal-insan",
-        "/siir"
-      ]
-    },
-    {
-      "id": "/cestina",
-      "group": 3,
-      "name": "Cestina",
-      "links": [
-        "/languages",
-        "/adjektiva",
-        "/cas",
-        "/cisla",
-        "/domov",
-        "/fraze",
-        "/koníčky",
-        "/podobna-slova",
-        "/predlozky",
-        "/slovesa"
-      ]
-    },
-    {
       "id": "/classical-music",
       "group": 3,
       "name": "Classical Music",
@@ -2219,6 +2001,86 @@
       ]
     },
     {
+      "id": "/deutsch",
+      "group": 3,
+      "name": "Deutsch",
+      "links": [
+        "/languages"
+      ]
+    },
+    {
+      "id": "/english",
+      "group": 3,
+      "name": "English",
+      "links": [
+        "/languages"
+      ]
+    },
+    {
+      "id": "/latin",
+      "group": 3,
+      "name": "Latin",
+      "links": [
+        "/languages"
+      ]
+    },
+    {
+      "id": "/metaphors",
+      "group": 3,
+      "name": "Metaphors",
+      "links": [
+        "/languages",
+        "/social-sciences"
+      ]
+    },
+    {
+      "id": "/modern-greek-alphabet",
+      "group": 3,
+      "name": "Modern Greek Alphabet",
+      "links": [
+        "/languages",
+        "/lists"
+      ]
+    },
+    {
+      "id": "/nato-phonetic-alphabet",
+      "group": 3,
+      "name": "NATO phonetic alphabet",
+      "links": [
+        "/languages"
+      ]
+    },
+    {
+      "id": "/turkce",
+      "group": 3,
+      "name": "Turkce",
+      "links": [
+        "/languages",
+        "/ideal-insan",
+        "/ince-memed",
+        "/sanatcilar",
+        "/turk-mirasi",
+        "/siir"
+      ]
+    },
+    {
+      "id": "/cestina",
+      "group": 3,
+      "name": "Cestina",
+      "links": [
+        "/languages",
+        "/adjektiva",
+        "/cas",
+        "/cisla",
+        "/domov",
+        "/fraze",
+        "/koníčky",
+        "/podobna-slova",
+        "/predlozky",
+        "/slovesa"
+      ]
+    },
+    {
       "id": "/graph-2d",
       "group": 3,
       "name": "2D Graph of All Pages",
@@ -2230,6 +2092,14 @@
       "id": "/graph-3d",
       "group": 3,
       "name": "3D Graph of All Pages",
+      "links": [
+        "/meta"
+      ]
+    },
+    {
+      "id": "/ideas",
+      "group": 3,
+      "name": "Ideas",
       "links": [
         "/meta"
       ]
@@ -2248,6 +2118,177 @@
       "name": "Stats",
       "links": [
         "/meta"
+      ]
+    },
+    {
+      "id": "/authors",
+      "group": 3,
+      "name": "Authors",
+      "links": [
+        "/to-read",
+        "/literature",
+        "/lists"
+      ]
+    },
+    {
+      "id": "/blogs",
+      "group": 3,
+      "name": "Blogs",
+      "links": [
+        "/to-read"
+      ]
+    },
+    {
+      "id": "/books",
+      "group": 3,
+      "name": "Books",
+      "links": [
+        "/to-read"
+      ]
+    },
+    {
+      "id": "/comics",
+      "group": 3,
+      "name": "Comics",
+      "links": [
+        "/to-read"
+      ]
+    },
+    {
+      "id": "/essais",
+      "group": 3,
+      "name": "Essais",
+      "links": [
+        "/to-read",
+        "/in-praise-of-idleness",
+        "/feynmans-epilogue",
+        "/how-to-grow-old-russell",
+        "/mastery",
+        "/problem-solving",
+        "/farming-trap",
+        "/look-down-and-around",
+        "/the-triumph-of-stupidity",
+        "/who-goes-nazi"
+      ]
+    },
+    {
+      "id": "/news",
+      "group": 3,
+      "name": "News",
+      "links": [
+        "/to-read"
+      ]
+    },
+    {
+      "id": "/datasets",
+      "group": 3,
+      "name": "Datasets",
+      "links": [
+        "/interesting",
+        "/probability-and-statistics"
+      ]
+    },
+    {
+      "id": "/games",
+      "group": 3,
+      "name": "Games",
+      "links": [
+        "/interesting"
+      ]
+    },
+    {
+      "id": "/web-experiments",
+      "group": 3,
+      "name": "Web Experiments",
+      "links": [
+        "/interesting",
+        "/ux"
+      ]
+    },
+    {
+      "id": "/documentaries",
+      "group": 3,
+      "name": "Documentaries",
+      "links": [
+        "/to-watch",
+        "/cinema"
+      ]
+    },
+    {
+      "id": "/movies",
+      "group": 3,
+      "name": "Movies 🎬",
+      "links": [
+        "/to-watch",
+        "/cinema"
+      ]
+    },
+    {
+      "id": "/earth",
+      "group": 3,
+      "name": "Earth",
+      "links": [
+        "/astronomy"
+      ]
+    },
+    {
+      "id": "/size-of-the-universe",
+      "group": 3,
+      "name": "Size Of The Universe",
+      "links": [
+        "/astronomy"
+      ]
+    },
+    {
+      "id": "/solar-system",
+      "group": 3,
+      "name": "Solar System",
+      "links": [
+        "/astronomy"
+      ]
+    },
+    {
+      "id": "/the-overview-effect",
+      "group": 3,
+      "name": "The Overview Effect",
+      "links": [
+        "/astronomy"
+      ]
+    },
+    {
+      "id": "/classical-physics",
+      "group": 3,
+      "name": "Classical Physics",
+      "links": [
+        "/physics",
+        "/maxwell-equations"
+      ]
+    },
+    {
+      "id": "/inertia",
+      "group": 3,
+      "name": "Inertia",
+      "links": [
+        "/physics",
+        "/psychology"
+      ]
+    },
+    {
+      "id": "/maxwell-equations",
+      "group": 3,
+      "name": "Maxwell Equations",
+      "links": [
+        "/physics",
+        "/classical-physics"
+      ]
+    },
+    {
+      "id": "/philosophical-implications-of-quantum-mechanics",
+      "group": 3,
+      "name": "Philosophical Implications Of Quantum Mechanics",
+      "links": [
+        "/physics",
+        "/philosophy"
       ]
     },
     {
@@ -2589,6 +2630,16 @@
       "links": [
         "/history",
         "/essais"
+      ]
+    },
+    {
+      "id": "/history-of-technology",
+      "group": 3,
+      "name": "History Of Technology",
+      "links": [
+        "/history",
+        "/lists",
+        "/tech"
       ]
     },
     {
@@ -5155,15 +5206,15 @@
     },
     {
       "source": "/arts",
-      "target": "/languages"
-    },
-    {
-      "source": "/arts",
       "target": "/music"
     },
     {
       "source": "/arts",
       "target": "/design"
+    },
+    {
+      "source": "/arts",
+      "target": "/paintings"
     },
     {
       "source": "/arts",
@@ -5179,55 +5230,11 @@
     },
     {
       "source": "/lists",
+      "target": "/languages"
+    },
+    {
+      "source": "/lists",
       "target": "/meta"
-    },
-    {
-      "source": "/lists",
-      "target": "/comics"
-    },
-    {
-      "source": "/lists",
-      "target": "/datasets"
-    },
-    {
-      "source": "/lists",
-      "target": "/documentaries"
-    },
-    {
-      "source": "/lists",
-      "target": "/essais"
-    },
-    {
-      "source": "/lists",
-      "target": "/games"
-    },
-    {
-      "source": "/lists",
-      "target": "/history-of-technology"
-    },
-    {
-      "source": "/lists",
-      "target": "/ideas"
-    },
-    {
-      "source": "/lists",
-      "target": "/blogs"
-    },
-    {
-      "source": "/lists",
-      "target": "/movies"
-    },
-    {
-      "source": "/lists",
-      "target": "/nato-phonetic-alphabet"
-    },
-    {
-      "source": "/lists",
-      "target": "/news"
-    },
-    {
-      "source": "/lists",
-      "target": "/paintings"
     },
     {
       "source": "/lists",
@@ -5235,15 +5242,11 @@
     },
     {
       "source": "/lists",
+      "target": "/interesting"
+    },
+    {
+      "source": "/lists",
       "target": "/to-watch"
-    },
-    {
-      "source": "/lists",
-      "target": "/web-experiments"
-    },
-    {
-      "source": "/lists",
-      "target": "/authors"
     },
     {
       "source": "/math",
@@ -5283,19 +5286,15 @@
     },
     {
       "source": "/natural-sciences",
-      "target": "/health"
-    },
-    {
-      "source": "/natural-sciences",
       "target": "/astronomy"
     },
     {
       "source": "/natural-sciences",
-      "target": "/books-natural"
+      "target": "/physics"
     },
     {
       "source": "/natural-sciences",
-      "target": "/classical-physics"
+      "target": "/health"
     },
     {
       "source": "/natural-sciences",
@@ -5303,7 +5302,11 @@
     },
     {
       "source": "/natural-sciences",
-      "target": "/feynman-lectures"
+      "target": "/fluid-field-boundaries"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/books-natural"
     },
     {
       "source": "/natural-sciences",
@@ -5311,27 +5314,7 @@
     },
     {
       "source": "/natural-sciences",
-      "target": "/fluid-field-boundaries"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/inertia"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/maxwell-equations"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/philosophical-implications-of-quantum-mechanics"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/solar-system"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/the-overview-effect"
+      "target": "/feynman-lectures"
     },
     {
       "source": "/natural-sciences",
@@ -5798,34 +5781,6 @@
       "target": "/turk-mirasi"
     },
     {
-      "source": "/languages",
-      "target": "/deutsch"
-    },
-    {
-      "source": "/languages",
-      "target": "/english"
-    },
-    {
-      "source": "/languages",
-      "target": "/latin"
-    },
-    {
-      "source": "/languages",
-      "target": "/metaphors"
-    },
-    {
-      "source": "/languages",
-      "target": "/modern-greek-alphabet"
-    },
-    {
-      "source": "/languages",
-      "target": "/turkce"
-    },
-    {
-      "source": "/languages",
-      "target": "/cestina"
-    },
-    {
       "source": "/music",
       "target": "/classical-music"
     },
@@ -5926,6 +5881,38 @@
       "target": "/year-progress"
     },
     {
+      "source": "/languages",
+      "target": "/deutsch"
+    },
+    {
+      "source": "/languages",
+      "target": "/english"
+    },
+    {
+      "source": "/languages",
+      "target": "/latin"
+    },
+    {
+      "source": "/languages",
+      "target": "/metaphors"
+    },
+    {
+      "source": "/languages",
+      "target": "/modern-greek-alphabet"
+    },
+    {
+      "source": "/languages",
+      "target": "/nato-phonetic-alphabet"
+    },
+    {
+      "source": "/languages",
+      "target": "/turkce"
+    },
+    {
+      "source": "/languages",
+      "target": "/cestina"
+    },
+    {
       "source": "/meta",
       "target": "/graph-2d"
     },
@@ -5935,11 +5922,91 @@
     },
     {
       "source": "/meta",
+      "target": "/ideas"
+    },
+    {
+      "source": "/meta",
       "target": "/keyboard-shortcuts"
     },
     {
       "source": "/meta",
       "target": "/stats"
+    },
+    {
+      "source": "/to-read",
+      "target": "/authors"
+    },
+    {
+      "source": "/to-read",
+      "target": "/blogs"
+    },
+    {
+      "source": "/to-read",
+      "target": "/books"
+    },
+    {
+      "source": "/to-read",
+      "target": "/comics"
+    },
+    {
+      "source": "/to-read",
+      "target": "/essais"
+    },
+    {
+      "source": "/to-read",
+      "target": "/news"
+    },
+    {
+      "source": "/interesting",
+      "target": "/datasets"
+    },
+    {
+      "source": "/interesting",
+      "target": "/games"
+    },
+    {
+      "source": "/interesting",
+      "target": "/web-experiments"
+    },
+    {
+      "source": "/to-watch",
+      "target": "/documentaries"
+    },
+    {
+      "source": "/to-watch",
+      "target": "/movies"
+    },
+    {
+      "source": "/astronomy",
+      "target": "/earth"
+    },
+    {
+      "source": "/astronomy",
+      "target": "/size-of-the-universe"
+    },
+    {
+      "source": "/astronomy",
+      "target": "/solar-system"
+    },
+    {
+      "source": "/astronomy",
+      "target": "/the-overview-effect"
+    },
+    {
+      "source": "/physics",
+      "target": "/classical-physics"
+    },
+    {
+      "source": "/physics",
+      "target": "/inertia"
+    },
+    {
+      "source": "/physics",
+      "target": "/maxwell-equations"
+    },
+    {
+      "source": "/physics",
+      "target": "/philosophical-implications-of-quantum-mechanics"
     },
     {
       "source": "/health",
@@ -6088,6 +6155,10 @@
     {
       "source": "/history",
       "target": "/farming-trap"
+    },
+    {
+      "source": "/history",
+      "target": "/history-of-technology"
     },
     {
       "source": "/history",
@@ -7155,7 +7226,7 @@
     },
     {
       "source": "/arts",
-      "target": "/paintings"
+      "target": "/languages"
     },
     {
       "source": "/cinema",
@@ -7196,26 +7267,6 @@
     {
       "source": "/ship-it",
       "target": "/on-software"
-    },
-    {
-      "source": "/turkce",
-      "target": "/ince-memed"
-    },
-    {
-      "source": "/turkce",
-      "target": "/turk-mirasi"
-    },
-    {
-      "source": "/turkce",
-      "target": "/sanatcilar"
-    },
-    {
-      "source": "/turkce",
-      "target": "/ideal-insan"
-    },
-    {
-      "source": "/turkce",
-      "target": "/siir"
     },
     {
       "source": "/cien-anos-de-soledad",
@@ -7304,6 +7355,10 @@
     {
       "source": "/philosophy",
       "target": "/how-to-deal-with-pain"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/philosophical-implications-of-quantum-mechanics"
     },
     {
       "source": "/philosophy",
@@ -7402,12 +7457,68 @@
       "target": "/travelling"
     },
     {
+      "source": "/experiments",
+      "target": "/121st-century"
+    },
+    {
       "source": "/datasets",
       "target": "/probability-and-statistics"
     },
     {
+      "source": "/turkce",
+      "target": "/ideal-insan"
+    },
+    {
+      "source": "/turkce",
+      "target": "/ince-memed"
+    },
+    {
+      "source": "/turkce",
+      "target": "/sanatcilar"
+    },
+    {
+      "source": "/turkce",
+      "target": "/turk-mirasi"
+    },
+    {
+      "source": "/turkce",
+      "target": "/siir"
+    },
+    {
+      "source": "/lists",
+      "target": "/classics"
+    },
+    {
+      "source": "/lists",
+      "target": "/film-scores"
+    },
+    {
+      "source": "/lists",
+      "target": "/modern-greek-alphabet"
+    },
+    {
+      "source": "/lists",
+      "target": "/sanatcilar"
+    },
+    {
+      "source": "/lists",
+      "target": "/authors"
+    },
+    {
+      "source": "/lists",
+      "target": "/history-of-technology"
+    },
+    {
+      "source": "/lists",
+      "target": "/since-big-bang"
+    },
+    {
       "source": "/essais",
       "target": "/in-praise-of-idleness"
+    },
+    {
+      "source": "/essais",
+      "target": "/feynmans-epilogue"
     },
     {
       "source": "/essais",
@@ -7438,30 +7549,6 @@
       "target": "/who-goes-nazi"
     },
     {
-      "source": "/experiments",
-      "target": "/121st-century"
-    },
-    {
-      "source": "/lists",
-      "target": "/classics"
-    },
-    {
-      "source": "/lists",
-      "target": "/film-scores"
-    },
-    {
-      "source": "/lists",
-      "target": "/modern-greek-alphabet"
-    },
-    {
-      "source": "/lists",
-      "target": "/sanatcilar"
-    },
-    {
-      "source": "/lists",
-      "target": "/since-big-bang"
-    },
-    {
       "source": "/bayes",
       "target": "/probability-and-statistics"
     },
@@ -7478,20 +7565,16 @@
       "target": "/polished-pixels"
     },
     {
-      "source": "/classical-physics",
-      "target": "/feynman-lectures"
-    },
-    {
-      "source": "/classical-physics",
-      "target": "/maxwell-equations"
-    },
-    {
       "source": "/natural-sciences",
       "target": "/since-big-bang"
     },
     {
       "source": "/natural-sciences",
       "target": "/systems"
+    },
+    {
+      "source": "/classical-physics",
+      "target": "/maxwell-equations"
     },
     {
       "source": "/business",
@@ -7580,10 +7663,6 @@
     {
       "source": "/architecture",
       "target": "/urban-planning"
-    },
-    {
-      "source": "/history",
-      "target": "/history-of-technology"
     },
     {
       "source": "/law",
@@ -8168,6 +8247,10 @@
     {
       "source": "/tech",
       "target": "/accessibility"
+    },
+    {
+      "source": "/ux",
+      "target": "/web-experiments"
     }
   ]
 }
