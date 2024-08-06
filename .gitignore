@@ -8,3 +8,5 @@ _site/*
 Gemfile.lock
 _misc/*
 _*.md
+*.crx
+*.pem
