@@ -4,14 +4,11 @@ async function getNextSentence() {
     // convert to lowercase
     content = content.toLowerCase();
 
-    // remove new lines
-    content = content.replace(/\n/g, ' ');
-
     // remove spaces before a punctuation
     content = content.replace(/\s([.,!?:;])/g, '$1');
 
     // capitalize i 
-    content = content.replace(/\si\s/g, ' I ');
+    content = content.replace(/i\s/g, 'I ');
 
     // remove multiple spaces
     content = content.replace(/\s+/g, ' ');
