@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             startTime = new Date();
         }        
 
-        if (event.shiftKey && event.key === 'Backspace' && typedText.length > 0) {
+        if (event.ctrlKey  && event.key === 'Backspace' && typedText.length > 0) {
             let i = typedText.length - 1;
             while (i >= 0 && typedText[i] !== ' ') {
                 i--;
