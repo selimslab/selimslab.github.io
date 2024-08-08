@@ -8,7 +8,7 @@ async function getNextSentence() {
     content = content.replace(/\s([.,!?:;])/g, '$1');
 
     // capitalize i 
-    content = content.replace(/i\s/g, 'I ');
+    content = content.replace(/\si\s/g, 'I ');
 
     // remove multiple spaces
     content = content.replace(/\s+/g, ' ');
