@@ -10,7 +10,6 @@ Grokking Algorithms, An Illustrated Guide For Programmers and Other Curious Peop
 Having a personal website will accelerate your learning. 
 You will have an existing place to try things and share. You can modify it to your taste and create all the features you like. Even a static website will go a long way. It's always possible to connect it to a backend or to use serverless functions or to rent a database, when you need it. 
 It can also be a good central place to keep your writings so you have everything in one place and you can connect/organize/refine your writings. 
-To put it where my mouth is, here's what I've been playing with https://selimslab.github.io/ 
 
 ## See also 
 
