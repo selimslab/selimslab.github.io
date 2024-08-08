@@ -1,6 +1,5 @@
 ---
 
-
 ---
 
 Hollowed out
