@@ -1,24 +1,21 @@
 ---
-tags: meta
+tags: meta pro
 ---
 
 This website works without a mouse too  
+
 - `Arrow keys < >` go back/forward 
 - `Shift+S` search
 - `Shift+P` go to a random page 
-
-Standard browser keys are the same 
 
 ## Tab navigation 
 - `Tab` and `Shift+Tab` move focus 
 - `Shift+Enter` open in a new window
 - `Ctrl+Enter` open in a new tab
 
-
 ## Mac terminal
 
     Clear line: cmd U 
-
 
 ## VSCode 
 
@@ -41,15 +38,9 @@ Standard browser keys are the same
 
 ## VS 
 
+CTRL + M + O collapse all.
 
-CTRL + M + O will collapse all.
+CTRL + M + L expand all
 
-CTRL + M + L will expand all
-
-CTRL + M + P will expand all and disable outlining.
-
-CTRL + M + M will collapse/expand the current section.
-
-CTRL + M + A will collapse all even in Html files.
 
 [[accessibility]]
