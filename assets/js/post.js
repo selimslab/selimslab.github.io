@@ -17,7 +17,7 @@ getRandomPage = async () =>{
         }
     }
 
-    animate(dice, "shakex");
+    // animate(dice, "shakex");
     location.href = get_random_item(cachedUrls);
 
 }
