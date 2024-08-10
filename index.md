@@ -6,9 +6,9 @@ layout: page
 
 </style>
 
-# Project Delta 
+# Delta 
 
-A digital space for work and play 
+Give your mind some space
 
 ## Content
 
