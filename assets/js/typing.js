@@ -81,53 +81,56 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (isHandlingKeydown) return;
         isHandlingKeydown = true;
 
+
+        if (event.key === "Enter") {
+            reset();
+        }
+        else if (event.ctrlKey && event.key === 'Backspace' && typedText.length > 0) {
+            let i = typedText.length - 1;
+            while (i >= 0 && typedText[i] !== ' ') {
+                i--;
+            }
+            typedText = typedText.slice(0, i + 1);
+        } else if (event.key === 'Backspace') {
+            typedText = typedText.slice(0, -1);
+        } else if (event.key.length === 1) {
+            
+            typedText += event.key;
+            if (event.key !== sentence[idx]) {
+                incorrect++;
+            }
+        } else {
+            isHandlingKeydown = false
+            return;
+        }
+
         if (!startTime) {
             startTime = new Date();
         }
 
-        if (event.key === "Enter") {
-            reset();
-            {
-                if (event.ctrlKey && event.key === 'Backspace' && typedText.length > 0) {
-                    let i = typedText.length - 1;
-                    while (i >= 0 && typedText[i] !== ' ') {
-                        i--;
-                    }
-                    typedText = typedText.slice(0, i + 1);
-                } else if (event.key === 'Backspace') {
-                    typedText = typedText.slice(0, -1);
-                } else if (event.key.length === 1) {
-                    typedText += event.key;
-                    if (event.key !== sentence[idx]) {
-                        incorrect++;
-                    }
-                } else {
-                    isHandlingKeydown = false
-                    return;
-                }
 
-                renderSentence();
+        renderSentence();
 
-                if (typedText.length === sentence.length && typedText === sentence) {
-                    endTime = new Date();
-                    const timeTaken = (endTime - startTime) / 1000 / 60; // time in minutes
-                    const charactersTyped = sentence.length;
-                    const wordsTyped = charactersTyped / 5; // average word length is 5 characters
-                    const wpm = Math.round(wordsTyped / timeTaken);
-                    wpms.push(wpm);
-                    wpmDiv.textContent = `wpm: ${wpm}`;
-                    medianWpm = wpms.sort()[Math.floor(wpms.length / 2)];
-                    medianWpmDiv.textContent = `median wpm: ${medianWpm}`;
-                    let correct = sentence.length;
-                    let accuracy = Math.round((correct / (correct + incorrect)) * 100);
-                    accuracyDiv.textContent = `accuracy: ${accuracy}%`;
-                    // wait for 1 second before resetting
-                    await new Promise(resolve => setTimeout(resolve, 400));
-                    await reset();
-                }
-                isHandlingKeydown = false;
+        if (typedText.length === sentence.length && typedText === sentence) {
+            endTime = new Date();
+            const timeTaken = (endTime - startTime) / 1000 / 60; // time in minutes
+            const charactersTyped = sentence.length;
+            const wordsTyped = charactersTyped / 5; // average word length is 5 characters
+            const wpm = Math.round(wordsTyped / timeTaken);
+            wpms.push(wpm);
+            wpmDiv.textContent = `wpm: ${wpm}`;
+            medianWpm = wpms.sort()[Math.floor(wpms.length / 2)];
+            medianWpmDiv.textContent = `median wpm: ${medianWpm}`;
+            let correct = sentence.length;
+            let accuracy = Math.round((correct / (correct + incorrect)) * 100);
+            accuracyDiv.textContent = `accuracy: ${accuracy}%`;
+            // wait for 1 second before resetting
+            await new Promise(resolve => setTimeout(resolve, 400));
+            await reset();
+        }
+        isHandlingKeydown = false;
 
-            });
+    });
 
     reset();
 });
