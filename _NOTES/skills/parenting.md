@@ -28,3 +28,6 @@ Parents in Japan regularly send their kids out into the world at a very young ag
 
 
 [Tag: parenting - Sketchplanations](https://sketchplanations.com/tags/parenting)
+
+“When I was a boy of 14, my father was so ignorant I could hardly stand to have the old man around. But when I got to be 21, I was astonished at how much the old man had learned in seven years.”
+― Mark Twain

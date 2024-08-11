@@ -13,6 +13,24 @@ people whose power is hollow insist on their claims.”
 "Insight sees the insignificant.
 Strength knows how to yield."
 
+“Strike the shepherd and the sheep will scatter”
+
+“Despise The Free Lunch”
+
+“Society is much more easily soothed than one's own conscience.”
+― Isaac Asimov, Foundation and Empire
+
+“The creatures outside looked from pig to man, and from man to pig, and from pig to man again; but already it was impossible to say which was which.”
+
+“Violence is the last refuge of the incompetent.”
+
+“My course is set for an uncharted sea.”
+― Dante Alighieri
+
+
+“Never interrupt your enemy when he is making a mistake.”
+― Napoleon Bonaparte
+
 **Soft power:** Shaping the preferences through appeal and attraction 
 
 ---

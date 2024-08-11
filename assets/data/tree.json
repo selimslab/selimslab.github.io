@@ -29,11 +29,15 @@
       },
       "/friends": {
       },
+      "/getting-old": {
+      },
       "/good-and-evil": {
       },
       "/gratitude": {
       },
       "/happiness": {
+      },
+      "/hard-times": {
       },
       "/ideal-insan": {
       },
@@ -42,6 +46,8 @@
       "/know-where-to-stop": {
       },
       "/koans": {
+      },
+      "/let-it-go": {
       },
       "/life-is-play": {
       },
@@ -54,6 +60,8 @@
       "/philosophy": {
       },
       "/questions": {
+      },
+      "/seeking": {
       },
       "/stupidity": {
       },
@@ -111,17 +119,31 @@
       },
       "/lightly-child": {
       },
+      "/mother-to-son": {
+      },
       "/not-gentle": {
+      },
+      "/one-art": {
       },
       "/ozymandias": {
       },
       "/poetry": {
       },
+      "/saturday": {
+      },
       "/soft-rains": {
+      },
+      "/the-red-wheelbarrow": {
       },
       "/the-road-not-taken": {
       },
+      "/the-second-coming": {
+      },
       "/this-be-the-verse": {
+      },
+      "/to-be-or-not": {
+      },
+      "/we-wear-the-mask": {
       },
       "/tao-te-ching": {
         "/hollow-power": {
@@ -241,6 +263,8 @@
       },
       "/grid": {
       },
+      "/jobs": {
+      },
       "/markdown-editor": {
       },
       "/music-player": {
@@ -254,6 +278,8 @@
       "/savings-planner": {
       },
       "/search-index": {
+      },
+      "/shops": {
       },
       "/spreadsheet": {
       },
@@ -338,6 +364,8 @@
       "/datasets": {
       },
       "/games": {
+      },
+      "/quotes": {
       },
       "/web-experiments": {
       }
@@ -705,8 +733,6 @@
       },
       "/for-new-programmers": {
       },
-      "/programming-tools": {
-      },
       "/programming": {
       },
       "/unicode": {
@@ -880,7 +906,11 @@
         },
         "/pointers": {
         },
+        "/quad-tree": {
+        },
         "/queue": {
+        },
+        "/r-tree": {
         },
         "/skiplists": {
         },

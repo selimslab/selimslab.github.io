@@ -21,6 +21,8 @@ A large part of happiness depends on health. Freedom, security, love, friendship
 
 Don’t waste your time in anger, regrets, worries, and grudges. Life is too short for that
 
+Happiness is not something ready made. It comes from your own actions
+
 
 ![](/assets/static/img/happier-dog.jpeg)
 

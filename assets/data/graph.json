@@ -203,18 +203,22 @@
         "/free-will",
         "/freedom",
         "/friends",
+        "/getting-old",
         "/good-and-evil",
         "/gratitude",
         "/happiness",
+        "/hard-times",
         "/ideal-insan",
         "/in-praise-of-idleness",
         "/know-where-to-stop",
         "/koans",
+        "/let-it-go",
         "/life-is-play",
         "/look-below-the-surface",
         "/moderation",
         "/one-bit-better",
         "/questions",
+        "/seeking",
         "/stupidity",
         "/success-and-failure",
         "/take-a-walk",
@@ -248,11 +252,18 @@
         "/harlem",
         "/if",
         "/lightly-child",
+        "/mother-to-son",
         "/not-gentle",
+        "/one-art",
         "/ozymandias",
+        "/saturday",
         "/soft-rains",
+        "/the-red-wheelbarrow",
         "/the-road-not-taken",
+        "/the-second-coming",
         "/this-be-the-verse",
+        "/to-be-or-not",
+        "/we-wear-the-mask",
         "/tao-te-ching",
         "/siir"
       ]
@@ -361,6 +372,7 @@
         "/digital-art",
         "/dots",
         "/grid",
+        "/jobs",
         "/markdown-editor",
         "/music-player",
         "/photo-gallery",
@@ -368,6 +380,7 @@
         "/rss-reader",
         "/savings-planner",
         "/search-index",
+        "/shops",
         "/spreadsheet",
         "/typing-practice",
         "/video-call",
@@ -428,6 +441,7 @@
         "/lists",
         "/datasets",
         "/games",
+        "/quotes",
         "/web-experiments"
       ]
     },
@@ -1036,7 +1050,6 @@
         "/easy-vs-hard-in-cs",
         "/encodings",
         "/for-new-programmers",
-        "/programming-tools",
         "/unicode",
         "/algorithms",
         "/code",
@@ -1323,6 +1336,14 @@
       ]
     },
     {
+      "id": "/getting-old",
+      "group": 3,
+      "name": "Getting Old",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
       "id": "/good-and-evil",
       "group": 3,
       "name": "Good And Evil",
@@ -1348,6 +1369,14 @@
         "/gratitude",
         "/psychology",
         "/social-sciences"
+      ]
+    },
+    {
+      "id": "/hard-times",
+      "group": 3,
+      "name": "Hard Times",
+      "links": [
+        "/philosophy"
       ]
     },
     {
@@ -1381,6 +1410,14 @@
       "id": "/koans",
       "group": 3,
       "name": "Koans",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/let-it-go",
+      "group": 3,
+      "name": "Let It Go",
       "links": [
         "/philosophy"
       ]
@@ -1425,6 +1462,14 @@
       "links": [
         "/philosophy",
         "/critical-thinking"
+      ]
+    },
+    {
+      "id": "/seeking",
+      "group": 3,
+      "name": "Seeking",
+      "links": [
+        "/philosophy"
       ]
     },
     {
@@ -1577,9 +1622,25 @@
       ]
     },
     {
+      "id": "/mother-to-son",
+      "group": 3,
+      "name": "Mother To Son",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
       "id": "/not-gentle",
       "group": 3,
       "name": "Do not go gentle into that good night",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/one-art",
+      "group": 3,
+      "name": "One Art",
       "links": [
         "/poetry"
       ]
@@ -1593,9 +1654,25 @@
       ]
     },
     {
+      "id": "/saturday",
+      "group": 3,
+      "name": "Saturday",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
       "id": "/soft-rains",
       "group": 3,
       "name": "There Will Come Soft Rains",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/the-red-wheelbarrow",
+      "group": 3,
+      "name": "The Red Wheelbarrow",
       "links": [
         "/poetry"
       ]
@@ -1609,9 +1686,33 @@
       ]
     },
     {
+      "id": "/the-second-coming",
+      "group": 3,
+      "name": "The Second Coming",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
       "id": "/this-be-the-verse",
       "group": 3,
       "name": "This Be The Verse",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/to-be-or-not",
+      "group": 3,
+      "name": "To Be Or Not",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/we-wear-the-mask",
+      "group": 3,
+      "name": "We Wear The Mask",
       "links": [
         "/poetry"
       ]
@@ -1904,6 +2005,14 @@
       ]
     },
     {
+      "id": "/jobs",
+      "group": 3,
+      "name": "Jobs",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
       "id": "/markdown-editor",
       "group": 3,
       "name": "Markdown Editor",
@@ -1955,6 +2064,14 @@
       "id": "/search-index",
       "group": 3,
       "name": "Search Index",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/shops",
+      "group": 3,
+      "name": "Shops",
       "links": [
         "/experiments"
       ]
@@ -2192,6 +2309,14 @@
       "id": "/games",
       "group": 3,
       "name": "Games",
+      "links": [
+        "/interesting"
+      ]
+    },
+    {
+      "id": "/quotes",
+      "group": 3,
+      "name": "Quotes",
       "links": [
         "/interesting"
       ]
@@ -2896,14 +3021,6 @@
       ]
     },
     {
-      "id": "/programming-tools",
-      "group": 3,
-      "name": "Programming Tools",
-      "links": [
-        "/programming"
-      ]
-    },
-    {
       "id": "/unicode",
       "group": 3,
       "name": "Unicode",
@@ -3015,7 +3132,9 @@
         "/hyperloglog",
         "/linked-list",
         "/pointers",
+        "/quad-tree",
         "/queue",
+        "/r-tree",
         "/skiplists",
         "/stack",
         "/string",
@@ -4804,12 +4923,28 @@
       ]
     },
     {
+      "id": "/quad-tree",
+      "group": 4,
+      "name": "Quad Tree",
+      "links": [
+        "/data-structures"
+      ]
+    },
+    {
       "id": "/queue",
       "group": 4,
       "name": "Queue",
       "links": [
         "/data-structures",
         "/least-num-of-perfect-squares"
+      ]
+    },
+    {
+      "id": "/r-tree",
+      "group": 4,
+      "name": "R Tree",
+      "links": [
+        "/data-structures"
       ]
     },
     {
@@ -5578,6 +5713,10 @@
     },
     {
       "source": "/philosophy",
+      "target": "/getting-old"
+    },
+    {
+      "source": "/philosophy",
       "target": "/good-and-evil"
     },
     {
@@ -5587,6 +5726,10 @@
     {
       "source": "/philosophy",
       "target": "/happiness"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/hard-times"
     },
     {
       "source": "/philosophy",
@@ -5603,6 +5746,10 @@
     {
       "source": "/philosophy",
       "target": "/koans"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/let-it-go"
     },
     {
       "source": "/philosophy",
@@ -5623,6 +5770,10 @@
     {
       "source": "/philosophy",
       "target": "/questions"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/seeking"
     },
     {
       "source": "/philosophy",
@@ -5686,7 +5837,15 @@
     },
     {
       "source": "/poetry",
+      "target": "/mother-to-son"
+    },
+    {
+      "source": "/poetry",
       "target": "/not-gentle"
+    },
+    {
+      "source": "/poetry",
+      "target": "/one-art"
     },
     {
       "source": "/poetry",
@@ -5694,7 +5853,15 @@
     },
     {
       "source": "/poetry",
+      "target": "/saturday"
+    },
+    {
+      "source": "/poetry",
       "target": "/soft-rains"
+    },
+    {
+      "source": "/poetry",
+      "target": "/the-red-wheelbarrow"
     },
     {
       "source": "/poetry",
@@ -5702,7 +5869,19 @@
     },
     {
       "source": "/poetry",
+      "target": "/the-second-coming"
+    },
+    {
+      "source": "/poetry",
       "target": "/this-be-the-verse"
+    },
+    {
+      "source": "/poetry",
+      "target": "/to-be-or-not"
+    },
+    {
+      "source": "/poetry",
+      "target": "/we-wear-the-mask"
     },
     {
       "source": "/poetry",
@@ -5834,6 +6013,10 @@
     },
     {
       "source": "/experiments",
+      "target": "/jobs"
+    },
+    {
+      "source": "/experiments",
       "target": "/markdown-editor"
     },
     {
@@ -5859,6 +6042,10 @@
     {
       "source": "/experiments",
       "target": "/search-index"
+    },
+    {
+      "source": "/experiments",
+      "target": "/shops"
     },
     {
       "source": "/experiments",
@@ -5963,6 +6150,10 @@
     {
       "source": "/interesting",
       "target": "/games"
+    },
+    {
+      "source": "/interesting",
+      "target": "/quotes"
     },
     {
       "source": "/interesting",
@@ -6275,10 +6466,6 @@
     {
       "source": "/programming",
       "target": "/for-new-programmers"
-    },
-    {
-      "source": "/programming",
-      "target": "/programming-tools"
     },
     {
       "source": "/programming",
@@ -7070,7 +7257,15 @@
     },
     {
       "source": "/data-structures",
+      "target": "/quad-tree"
+    },
+    {
+      "source": "/data-structures",
       "target": "/queue"
+    },
+    {
+      "source": "/data-structures",
+      "target": "/r-tree"
     },
     {
       "source": "/data-structures",
