@@ -6,7 +6,11 @@
 “So we shall let the reader answer this question for himself: who is the happier man, he who has braved the storm of life and lived or he who has stayed securely on shore and merely existed?”
 ― Hunter S. Thompson
 
+“It's not the load that breaks you down, it's the way you carry it.”
+
 No winter lasts forever; no spring skips its turn
+
+Even the darkest night will end and the sun will rise
 
 This too shall pass 
 

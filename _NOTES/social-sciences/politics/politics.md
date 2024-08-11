@@ -22,11 +22,29 @@ Strength knows how to yield."
 
 “The creatures outside looked from pig to man, and from man to pig, and from pig to man again; but already it was impossible to say which was which.”
 
+“War is peace.
+Freedom is slavery.
+Ignorance is strength.”
+
+“Who controls the past controls the future. Who controls the present controls the past.”
+
+― George Orwell, 1984
+
+“Our lives begin to end the day we become silent about things that matter.”
+
+“All animals are equal, but some animals are more equal than others.”
+
 “Violence is the last refuge of the incompetent.”
 
 “My course is set for an uncharted sea.”
 ― Dante Alighieri
 
+
+“Propaganda is to a democracy what the bludgeon is to a totalitarian state.”
+― Noam Chomsky, Media Control
+
+“The beauty of our system is that it isolates everybody. Each person is sitting alone in front of the tube, you know. It's very hard to have ideas or thoughts under those circumstances. You can't fight the world alone.”
+― Noam Chomsky
 
 “Never interrupt your enemy when he is making a mistake.”
 ― Napoleon Bonaparte

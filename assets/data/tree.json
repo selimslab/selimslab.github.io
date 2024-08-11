@@ -1,6 +1,8 @@
 {
   "/arts": {
     "/philosophy": {
+      "/act": {
+      },
       "/all-is-one": {
       },
       "/balance": {
@@ -125,6 +127,8 @@
       },
       "/one-art": {
       },
+      "/one-ring": {
+      },
       "/ozymandias": {
       },
       "/poetry": {
@@ -177,7 +181,11 @@
       },
       "/asik-veysel": {
       },
+      "/boz-ayran": {
+      },
       "/bulent-ecevit": {
+      },
+      "/bulgur-pilavi": {
       },
       "/can-yucel": {
       },
@@ -236,6 +244,8 @@
       "/creativity": {
       },
       "/design": {
+      },
+      "/don-norman": {
       },
       "/double-diamond": {
       },
@@ -436,15 +446,19 @@
       "/sleep": {
       }
     },
-    "/climate-change": {
+    "/feynmans-epilogue": {
     },
-    "/fluid-field-boundaries": {
+    "/climate-change": {
     },
     "/natural-sciences": {
     },
+    "/pale-blue-dot": {
+    },
+    "/sapolsky": {
+    },
     "/books-natural": {
     },
-    "/feynmans-epilogue": {
+    "/fluid-field-boundaries": {
     },
     "/feynman-lectures": {
     },
@@ -650,14 +664,6 @@
       "/time-scale": {
       }
     },
-    "/sociology": {
-      "/social-change": {
-      },
-      "/social-class": {
-      },
-      "/social-groups": {
-      }
-    },
     "/economics": {
       "/economics": {
       },
@@ -666,13 +672,21 @@
       "/wasted-talent": {
       }
     },
+    "/sociology": {
+      "/social-change": {
+      },
+      "/social-class": {
+      },
+      "/social-groups": {
+      }
+    },
     "/systems": {
       "/chaos": {
       },
       "/systems": {
       }
     },
-    "/social-sciences": {
+    "/noam-chomsky": {
     },
     "/law": {
     },
@@ -680,9 +694,11 @@
     },
     "/being-poor": {
     },
-    "/architecture": {
-    },
     "/urban-planning": {
+    },
+    "/social-sciences": {
+    },
+    "/architecture": {
     }
   },
   "/tech": {

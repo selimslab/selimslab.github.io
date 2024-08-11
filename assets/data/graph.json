@@ -80,10 +80,12 @@
         "/astronomy",
         "/physics",
         "/health",
-        "/climate-change",
-        "/fluid-field-boundaries",
-        "/books-natural",
         "/feynmans-epilogue",
+        "/climate-change",
+        "/pale-blue-dot",
+        "/sapolsky",
+        "/books-natural",
+        "/fluid-field-boundaries",
         "/feynman-lectures",
         "/akins-laws-of-spacecraft",
         "/since-big-bang",
@@ -141,14 +143,15 @@
         "/psychology",
         "/politics",
         "/history",
-        "/sociology",
         "/economics",
+        "/sociology",
         "/systems",
+        "/noam-chomsky",
         "/law",
         "/books-social",
         "/being-poor",
-        "/architecture",
         "/urban-planning",
+        "/architecture",
         "/cognitive-biases",
         "/freedom",
         "/happiness",
@@ -189,6 +192,7 @@
       "name": "Philosophy",
       "links": [
         "/arts",
+        "/act",
         "/all-is-one",
         "/balance",
         "/be-good-to-each-other-and-yourself",
@@ -255,6 +259,7 @@
         "/mother-to-son",
         "/not-gentle",
         "/one-art",
+        "/one-ring",
         "/ozymandias",
         "/saturday",
         "/soft-rains",
@@ -276,7 +281,9 @@
         "/arts",
         "/abbas",
         "/asik-veysel",
+        "/boz-ayran",
         "/bulent-ecevit",
+        "/bulgur-pilavi",
         "/can-yucel",
         "/edip-cansever",
         "/fuzuli",
@@ -326,6 +333,7 @@
       "links": [
         "/arts",
         "/creativity",
+        "/don-norman",
         "/double-diamond",
         "/everyday-objects",
         "/ship-it",
@@ -567,6 +575,15 @@
       ]
     },
     {
+      "id": "/feynmans-epilogue",
+      "group": 2,
+      "name": "Feynmans Epilogue",
+      "links": [
+        "/natural-sciences",
+        "/essais"
+      ]
+    },
+    {
       "id": "/climate-change",
       "group": 2,
       "name": "Climate Change",
@@ -575,9 +592,17 @@
       ]
     },
     {
-      "id": "/fluid-field-boundaries",
+      "id": "/pale-blue-dot",
       "group": 2,
-      "name": "Fluid Field Boundaries",
+      "name": "Pale Blue Dot",
+      "links": [
+        "/natural-sciences"
+      ]
+    },
+    {
+      "id": "/sapolsky",
+      "group": 2,
+      "name": "Sapolsky",
       "links": [
         "/natural-sciences"
       ]
@@ -591,12 +616,11 @@
       ]
     },
     {
-      "id": "/feynmans-epilogue",
+      "id": "/fluid-field-boundaries",
       "group": 2,
-      "name": "Feynmans Epilogue",
+      "name": "Fluid Field Boundaries",
       "links": [
-        "/natural-sciences",
-        "/essais"
+        "/natural-sciences"
       ]
     },
     {
@@ -941,6 +965,16 @@
       ]
     },
     {
+      "id": "/economics",
+      "group": 2,
+      "name": "Economics",
+      "links": [
+        "/social-sciences",
+        "/wage-theft",
+        "/wasted-talent"
+      ]
+    },
+    {
       "id": "/sociology",
       "group": 2,
       "name": "Sociology",
@@ -952,16 +986,6 @@
       ]
     },
     {
-      "id": "/economics",
-      "group": 2,
-      "name": "Economics",
-      "links": [
-        "/social-sciences",
-        "/wage-theft",
-        "/wasted-talent"
-      ]
-    },
-    {
       "id": "/systems",
       "group": 2,
       "name": "Systems Thinking",
@@ -970,6 +994,14 @@
         "/chaos",
         "/natural-sciences",
         "/system-design"
+      ]
+    },
+    {
+      "id": "/noam-chomsky",
+      "group": 2,
+      "name": "Noam Chomsky",
+      "links": [
+        "/social-sciences"
       ]
     },
     {
@@ -998,21 +1030,21 @@
       ]
     },
     {
-      "id": "/architecture",
-      "group": 2,
-      "name": "Architecture",
-      "links": [
-        "/social-sciences",
-        "/urban-planning"
-      ]
-    },
-    {
       "id": "/urban-planning",
       "group": 2,
       "name": "Urban Planning",
       "links": [
         "/social-sciences",
         "/architecture"
+      ]
+    },
+    {
+      "id": "/architecture",
+      "group": 2,
+      "name": "Architecture",
+      "links": [
+        "/social-sciences",
+        "/urban-planning"
       ]
     },
     {
@@ -1204,6 +1236,14 @@
         "/networks",
         "/operating-systems",
         "/for-new-programmers"
+      ]
+    },
+    {
+      "id": "/act",
+      "group": 3,
+      "name": "Act",
+      "links": [
+        "/philosophy"
       ]
     },
     {
@@ -1646,6 +1686,14 @@
       ]
     },
     {
+      "id": "/one-ring",
+      "group": 3,
+      "name": "One Ring",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
       "id": "/ozymandias",
       "group": 3,
       "name": "Ozymandias",
@@ -1755,12 +1803,28 @@
       ]
     },
     {
+      "id": "/boz-ayran",
+      "group": 3,
+      "name": "Boz Ayran",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
       "id": "/bulent-ecevit",
       "group": 3,
       "name": "Bulent Ecevit",
       "links": [
         "/siir",
         "/if"
+      ]
+    },
+    {
+      "id": "/bulgur-pilavi",
+      "group": 3,
+      "name": "Bulgur Pilavi",
+      "links": [
+        "/siir"
       ]
     },
     {
@@ -1953,6 +2017,14 @@
         "/design",
         "/how-to-start-a-business",
         "/teamwork"
+      ]
+    },
+    {
+      "id": "/don-norman",
+      "group": 3,
+      "name": "Don Norman",
+      "links": [
+        "/design"
       ]
     },
     {
@@ -2788,6 +2860,24 @@
       ]
     },
     {
+      "id": "/wage-theft",
+      "group": 3,
+      "name": "Wage Theft",
+      "links": [
+        "/economics",
+        "/law"
+      ]
+    },
+    {
+      "id": "/wasted-talent",
+      "group": 3,
+      "name": "Wasted Talent",
+      "links": [
+        "/economics",
+        "/business"
+      ]
+    },
+    {
       "id": "/social-change",
       "group": 3,
       "name": "Social Change",
@@ -2809,24 +2899,6 @@
       "name": "Social Groups",
       "links": [
         "/sociology"
-      ]
-    },
-    {
-      "id": "/wage-theft",
-      "group": 3,
-      "name": "Wage Theft",
-      "links": [
-        "/economics",
-        "/law"
-      ]
-    },
-    {
-      "id": "/wasted-talent",
-      "group": 3,
-      "name": "Wasted Talent",
-      "links": [
-        "/economics",
-        "/business"
       ]
     },
     {
@@ -5433,11 +5505,19 @@
     },
     {
       "source": "/natural-sciences",
+      "target": "/feynmans-epilogue"
+    },
+    {
+      "source": "/natural-sciences",
       "target": "/climate-change"
     },
     {
       "source": "/natural-sciences",
-      "target": "/fluid-field-boundaries"
+      "target": "/pale-blue-dot"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/sapolsky"
     },
     {
       "source": "/natural-sciences",
@@ -5445,7 +5525,7 @@
     },
     {
       "source": "/natural-sciences",
-      "target": "/feynmans-epilogue"
+      "target": "/fluid-field-boundaries"
     },
     {
       "source": "/natural-sciences",
@@ -5581,15 +5661,19 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/sociology"
-    },
-    {
-      "source": "/social-sciences",
       "target": "/economics"
     },
     {
       "source": "/social-sciences",
+      "target": "/sociology"
+    },
+    {
+      "source": "/social-sciences",
       "target": "/systems"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/noam-chomsky"
     },
     {
       "source": "/social-sciences",
@@ -5605,11 +5689,11 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/architecture"
+      "target": "/urban-planning"
     },
     {
       "source": "/social-sciences",
-      "target": "/urban-planning"
+      "target": "/architecture"
     },
     {
       "source": "/tech",
@@ -5654,6 +5738,10 @@
     {
       "source": "/tech",
       "target": "/computers"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/act"
     },
     {
       "source": "/philosophy",
@@ -5849,6 +5937,10 @@
     },
     {
       "source": "/poetry",
+      "target": "/one-ring"
+    },
+    {
+      "source": "/poetry",
       "target": "/ozymandias"
     },
     {
@@ -5897,7 +5989,15 @@
     },
     {
       "source": "/siir",
+      "target": "/boz-ayran"
+    },
+    {
+      "source": "/siir",
       "target": "/bulent-ecevit"
+    },
+    {
+      "source": "/siir",
+      "target": "/bulgur-pilavi"
     },
     {
       "source": "/siir",
@@ -5986,6 +6086,10 @@
     {
       "source": "/design",
       "target": "/creativity"
+    },
+    {
+      "source": "/design",
+      "target": "/don-norman"
     },
     {
       "source": "/design",
@@ -6360,6 +6464,14 @@
       "target": "/time-scale"
     },
     {
+      "source": "/economics",
+      "target": "/wage-theft"
+    },
+    {
+      "source": "/economics",
+      "target": "/wasted-talent"
+    },
+    {
       "source": "/sociology",
       "target": "/social-change"
     },
@@ -6370,14 +6482,6 @@
     {
       "source": "/sociology",
       "target": "/social-groups"
-    },
-    {
-      "source": "/economics",
-      "target": "/wage-theft"
-    },
-    {
-      "source": "/economics",
-      "target": "/wasted-talent"
     },
     {
       "source": "/systems",
