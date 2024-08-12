@@ -6,9 +6,7 @@
 [Familiar and Unfamiliar Quotations (norvig.com)](https://www.norvig.com/quotations.html)
 
 <article>
-{% assign n = site.data.ideas | size %}
-{% assign ideas = site.data.ideas | sample: n %}
-{% for idea in ideas %}
+{% for idea in site.data.ideas %}
 <p style="white-space: pre-line;">{{idea}}</p>
 {% endfor %}
 </article>

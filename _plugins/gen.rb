@@ -40,10 +40,10 @@ class SiteGenerator < Jekyll::Generator
     graph = generate_graph(site)
     site.data["link_count"] = calculate_link_count(site, graph)
 
-    ideas = JSON.parse(File.read("#{DATA_PATH}/ideas.json")).sort
-    # shuffle ideas
+    ideas = JSON.parse(File.read("#{DATA_PATH}/ideas.json"))
     ideas = ideas.shuffle(random: Random.new(ideas.length))
     write_json("#{DATA_PATH}/ideas.json", ideas)
+    site.data["ideas"] = ideas
 
     artworks = get_artworks
     write_json("#{DATA_PATH}/artworks.json", artworks)
