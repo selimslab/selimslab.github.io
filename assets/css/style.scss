@@ -106,11 +106,15 @@ article {
   width: 64ch;
 }
 
+.centered{
+  margin: 0 auto;
+}
+
 .img-full {
   display: block;
   margin: auto;
-  margin-top: 2rem;
-  max-height: 94vh;
+  margin-top: 1rem;
+  max-height: 91vh;
 }
 
 .img-alt {

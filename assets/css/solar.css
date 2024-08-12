@@ -10,9 +10,6 @@
     z-index: 1;
 }
 
-.planet-container{
-    margin: 0 auto;
-}
 
 .moon{
     animation: rotate-night 24s linear infinite;

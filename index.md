@@ -6,17 +6,18 @@ layout: page
 
 </style>
 
-# Delta 
-
+## Delta 
 Give your mind some space
 
-## Content
+## Featured
+
+{% include hub.html tag='top' %}
+
+## All Pages
 
 <div style="margin-top:0.5rem">
 {{ site.data.tree_htmls["root"] }}
 </div>
-
-<br>
 
 ## Tap to shuffle   
 
@@ -24,19 +25,17 @@ Give your mind some space
 
 {% include random-idea.html %}
 
-## Featured
-
-{% include hub.html tag='top' %}
-
 ## Time 
 
 {% include year-progress.html %}
+
+{% include earth.html %}
+
 
 ## Metadata 
 
 {% include hub.html tag='meta' %}
 
-{% include earth.html %}
 
 {% include offline.html  %}
 
