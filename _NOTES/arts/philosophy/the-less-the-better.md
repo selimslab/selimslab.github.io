@@ -28,7 +28,7 @@ The price of anything is the amount of life you exchange for it
 
 ---
 
-“This is a matter of freedom. If you don’t have many possessions then you don’t need to work all your life like a slave to sustain them, and therefore you have more time for yourself.”
+"This is a matter of freedom. If you don’t have many possessions then you don’t need to work all your life like a slave to sustain them, and therefore you have more time for yourself.”
 
 — Jose Mujica, 40th President of Uruguay
 

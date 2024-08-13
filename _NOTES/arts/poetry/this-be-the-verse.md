@@ -1,6 +1,5 @@
 ---
 title: This Be The Verse
-
 ---
 
 

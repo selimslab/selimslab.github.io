@@ -8,9 +8,9 @@ Are you still young and dumb enough to know everything?
 
 ---
 
-Less “I know”, 
+Less "I know”, 
 
-more “It seems, maybe, probably” 
+more "It seems, maybe, probably” 
 
 ---
 

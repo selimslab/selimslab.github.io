@@ -2,7 +2,7 @@
 
 ---
 
-“Above all, don't lie to yourself.
+"Above all, don't lie to yourself.
 
 The man who lies to himself and listens to his own lie comes to a point
 

@@ -4,9 +4,9 @@ tags: phil
 
 Two hands clap and there is a sound. What is the sound of one hand?
 
-One said, “The flag moves.”
+One said, "The flag moves.”
 
-The other said, “The wind moves.”
+The other said, "The wind moves.”
 
 the third said, "It is your mind that moves."
 

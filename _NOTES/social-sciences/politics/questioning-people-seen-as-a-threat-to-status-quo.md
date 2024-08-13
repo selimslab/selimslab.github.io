@@ -10,4 +10,4 @@ In my career as a psychologist, I have talked with hundreds of people previously
 
 ...
 
-So authoritarians financially marginalize those who buck the system, they criminalize anti-authoritarianism, they psychopathologize anti-authoritarians, and they market drugs for their “cure.”
+So authoritarians financially marginalize those who buck the system, they criminalize anti-authoritarianism, they psychopathologize anti-authoritarians, and they market drugs for their "cure.”

@@ -20,7 +20,7 @@ In counting all our tears and sighs?
 
 Nay, let them only see us, while
 
-       We wear the mask.
+We wear the mask.
 
 
 
@@ -34,4 +34,4 @@ Beneath our feet, and long the mile;
 
 But let the world dream otherwise,
 
-       We wear the mask!
+We wear the mask!

@@ -2,7 +2,7 @@
 
 ---
 
-Do not expect to “get” anything 
+Do not expect to "get” anything 
 
 Do not expect to be better 
 

@@ -5,7 +5,7 @@ tags: ux
 
 Usability is a quality attribute that assesses how easy user interfaces are to use. 
 
-In a usability-testing session, a researcher (called a “facilitator” or a “moderator”) asks a participant to perform tasks, usually using one or more specific user interfaces. While the participant completes each task, the researcher observes the participant’s behavior and listens for feedback.
+In a usability-testing session, a researcher (called a "facilitator” or a "moderator”) asks a participant to perform tasks, usually using one or more specific user interfaces. While the participant completes each task, the researcher observes the participant’s behavior and listens for feedback.
 
 Zero users give zero insights.
 

@@ -26,6 +26,6 @@ Look for these other signs of drowning when persons are in the water:
 - Trying to swim in a particular direction but not making headway
 - Trying to roll over on the back
 - Appear to be climbing an invisible ladder.
-- Sometimes the most common indication that someone is drowning is that they don’t look like they’re drowning. They may just look like they are treading water and looking up. One way to be sure? Ask them, “Are you alright?” If they can answer at all – they probably are. If they return a blank stare, you may have less than 30 seconds to get to them.
+- Sometimes the most common indication that someone is drowning is that they don’t look like they’re drowning. They may just look like they are treading water and looking up. One way to be sure? Ask them, "Are you alright?” If they can answer at all – they probably are. If they return a blank stare, you may have less than 30 seconds to get to them.
 
 Parents – children playing in the water make noise. When they get quiet, you get to them and find out why.

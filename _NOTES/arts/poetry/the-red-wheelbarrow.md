@@ -1,13 +1,13 @@
 ---
 ---
-so much depends
-    upon
+so much depends  
+upon
 
-    a red wheel
-    barrow
+a red wheel  
+barrow
 
-    glazed with rain
-    water
+glazed with rain  
+water
 
-    beside the white
-    chickens
+beside the white  
+chickens

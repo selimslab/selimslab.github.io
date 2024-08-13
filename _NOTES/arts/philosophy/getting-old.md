@@ -1,6 +1,6 @@
 ---
 ---
-“The Little Boy and the Old Man
+"The Little Boy and the Old Man
 
 Said the little boy, "Sometimes I drop my spoon."
 Said the old man, "I do that too."
@@ -14,5 +14,5 @@ And he felt the warmth of a wrinkled old hand.
 I know what you mean," said the little old man.”
 ― Shel Silverstein
 
-“...inside every old person is a young person wondering what happened.”
+"...inside every old person is a young person wondering what happened.”
 ― Terry Pratchett, Moving Pictures

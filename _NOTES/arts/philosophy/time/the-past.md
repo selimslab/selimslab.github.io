@@ -14,5 +14,5 @@ Learn from the past and move on.
 
 ![](/assets/static/img/life-paths.jpeg)
 
-“You can spend minutes, hours, days, weeks, or even months over-analyzing a situation; trying to put the pieces together, justifying what could've, would've happened... or you can just leave the pieces on the floor and move the fuck on.”
+"You can spend minutes, hours, days, weeks, or even months over-analyzing a situation; trying to put the pieces together, justifying what could've, would've happened... or you can just leave the pieces on the floor and move the fuck on.”
 ― Tupac Shakur

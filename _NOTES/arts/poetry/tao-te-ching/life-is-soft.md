@@ -2,7 +2,7 @@
 tags: phil tao
 ---
 
-“Living people
+"Living people
 
 are soft and tender.
 

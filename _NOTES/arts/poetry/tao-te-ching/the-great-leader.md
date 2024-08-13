@@ -14,5 +14,5 @@ and leaves no trace
 
 When all is finished, the people say,
 
-“It happened by itself"
+"It happened by itself"
 

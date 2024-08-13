@@ -1,13 +1,13 @@
 ---
 ---
 
-“All animals are equal, but some animals are more equal than others.”
+"All animals are equal, but some animals are more equal than others.”
 
 
-“The creatures outside looked from pig to man, and from man to pig, and from pig to man again; but already it was impossible to say which was which.”
+"The creatures outside looked from pig to man, and from man to pig, and from pig to man again; but already it was impossible to say which was which.”
 
-“War is peace.
+"War is peace.
 Freedom is slavery.
 Ignorance is strength.”
 
-“Who controls the past controls the future. Who controls the present controls the past.”
+"Who controls the past controls the future. Who controls the present controls the past.”

@@ -2,7 +2,7 @@
 tags: soc psy
 ---
 
-“Something to do, someone to love, something to hope for.”
+"Something to do, someone to love, something to hope for.”
 
 A large part of happiness depends on health. Freedom, security, love, friendship, flourishing, .. 
 
@@ -13,11 +13,11 @@ A large part of happiness depends on health. Freedom, security, love, friendship
 
 "Happy families are all alike; every unhappy family is unhappy in its own way." _Tolstoy in Anna Karenina
 
-“Folks are usually about as happy as they make their minds up to be.” _Abraham Lincoln
+"Folks are usually about as happy as they make their minds up to be.” _Abraham Lincoln
 
-“Time you enjoy wasting is not wasted time.” 
+"Time you enjoy wasting is not wasted time.” 
 
-“If more of us valued food and cheer and song above hoarded gold, it would be a merrier world.” _J.R.R. Tolkien
+"If more of us valued food and cheer and song above hoarded gold, it would be a merrier world.” _J.R.R. Tolkien
 
 Don’t waste your time in anger, regrets, worries, and grudges. Life is too short for that
 

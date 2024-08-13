@@ -16,7 +16,7 @@ This is to have succeeded."
 [[if]]
 
 
-“I can't give you a sure-fire formula for success, but I can give you a formula for failure: try to please everybody all the time.”
+"I can't give you a sure-fire formula for success, but I can give you a formula for failure: try to please everybody all the time.”
 ― Herbert Bayard Swope
 
-“Success is getting what you want, happiness is wanting what you get”
+"Success is getting what you want, happiness is wanting what you get”

@@ -7,7 +7,7 @@
 
 Travelling is romanticized and hyped because it's good for business 
 
-“Travelers change their sky but not their soul.”
+"Travelers change their sky but not their soul.”
 
 "Wherever you go, there you are"
 

@@ -13,7 +13,7 @@ Being poor is hoping the toothache goes away.
 
 Being poor is knowing your kid goes to friends’ houses but never has friends over to yours.
 
-Being poor is going to the restroom before you get in the school lunch line so your friends will be ahead of you and won’t hear you say “I get free lunch” when you get to the cashier.
+Being poor is going to the restroom before you get in the school lunch line so your friends will be ahead of you and won’t hear you say "I get free lunch” when you get to the cashier.
 
 Being poor is living next to the freeway.
 

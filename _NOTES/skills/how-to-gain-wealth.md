@@ -36,7 +36,7 @@ capital, people, and products with no marginal cost of replication (code and med
 
 ---
 
-There is no skill called “business.” Avoid business magazines and business classes.
+There is no skill called "business.” Avoid business magazines and business classes.
 
 Study microeconomics, game theory, psychology, persuasion, ethics, mathematics, and computers.
 
