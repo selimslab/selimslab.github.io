@@ -196,8 +196,8 @@
       "name": "Poetry",
       "links": [
         "/arts",
-        "/conviction",
         "/deep-roots",
+        "/do-not-go-gentle",
         "/find-time-to-just-be",
         "/fire-and-ice",
         "/haikus",
@@ -205,7 +205,6 @@
         "/if",
         "/lightly-child",
         "/mother-to-son",
-        "/not-gentle",
         "/one-art",
         "/one-ring",
         "/ozymandias",
@@ -1240,17 +1239,17 @@
       ]
     },
     {
-      "id": "/conviction",
+      "id": "/deep-roots",
       "group": 3,
-      "name": "Conviction",
+      "name": "Deep Roots",
       "links": [
         "/poetry"
       ]
     },
     {
-      "id": "/deep-roots",
+      "id": "/do-not-go-gentle",
       "group": 3,
-      "name": "Deep Roots",
+      "name": "Do not go gentle into that good night",
       "links": [
         "/poetry"
       ]
@@ -1309,14 +1308,6 @@
       "id": "/mother-to-son",
       "group": 3,
       "name": "Mother To Son",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/not-gentle",
-      "group": 3,
-      "name": "Do not go gentle into that good night",
       "links": [
         "/poetry"
       ]
@@ -5817,11 +5808,11 @@
     },
     {
       "source": "/poetry",
-      "target": "/conviction"
+      "target": "/deep-roots"
     },
     {
       "source": "/poetry",
-      "target": "/deep-roots"
+      "target": "/do-not-go-gentle"
     },
     {
       "source": "/poetry",
@@ -5850,10 +5841,6 @@
     {
       "source": "/poetry",
       "target": "/mother-to-son"
-    },
-    {
-      "source": "/poetry",
-      "target": "/not-gentle"
     },
     {
       "source": "/poetry",
