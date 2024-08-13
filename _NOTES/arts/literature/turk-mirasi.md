@@ -47,7 +47,7 @@ Taglar başı kertilür
 Alp Er Tunga öldü mü?  
 Dünya ıssız kaldı mı?  
 Felek öcünü aldı mı?  
-Şimdi yürek yırtılır.  
+Şimdi yürek yırtılır
   
 Felek fırsat gözetti  
 Gizli tuzak uzattı  
@@ -57,4 +57,4 @@ Kaçan nasıl kurtulur
 Dünyanın geleneği böyle  
 Gerisi bütünüyle bahane  
 O gelip bir ok atsa,  
-Dağlar başı kertili  
+Dağlar başı kertilir
