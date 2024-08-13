@@ -17,3 +17,5 @@ From Feeling Good: The New Mood Therapy by David D. Burns
 11. Taking it personal
 12. Hedonic adaptation
 13. Unfit mental models
+
+[[hard-times]]

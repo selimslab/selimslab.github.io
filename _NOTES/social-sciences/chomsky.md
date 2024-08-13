@@ -70,3 +70,7 @@ Compare mathematics and the political sciences… it’s quite striking. In math
  “Real education is about getting people involved in thinking for themselves- and that's a tricky business to know how to do well, but clearly it requires that whatever it is you're looking at has to somehow catch people's interest and make them want to think, and make them want to pursue and explore.”
 
  “Neoliberal democracy. Instead of citizens, it produces consumers. Instead of communities, it produces shopping malls. The net result is an atomized society of disengaged individuals who feel demoralized and socially powerless.”
+
+ “Propaganda is to a democracy what the bludgeon is to a totalitarian state.”
+
+“The beauty of our system is that it isolates everybody. Each person is sitting alone in front of the tube, you know. It's very hard to have ideas or thoughts under those circumstances. You can't fight the world alone.”
