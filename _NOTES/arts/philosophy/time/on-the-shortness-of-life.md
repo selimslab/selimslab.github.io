@@ -5,7 +5,8 @@ title: Life is not short but we waste it
 
 "Think of yourself as dead. Now take what's left, and live it properly." Marcus Aurelius  
 
----
+
+## On the Shortness of Life  
 
 The whole wisdom and beauty of the world is here to be explored,
 
@@ -47,4 +48,5 @@ All the greatest blessings create anxiety, and Fortune is never less to be trust
 
 Of all people only those are at leisure who make time for philosophy, only those are really alive. For they not only keep a good watch over their own lifetimes, but they annex every age to theirs.
 
-On the Shortness of Life: Seneca 
+
+_Seneca_

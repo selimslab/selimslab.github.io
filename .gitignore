@@ -6,7 +6,7 @@ _site/*
 .obsidian/workspace.json
 .obsidian/plugins/*
 Gemfile.lock
-_misc/*
+_notrack/*
 _*.md
 *.crx
 *.pem

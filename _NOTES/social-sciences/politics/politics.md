@@ -24,6 +24,8 @@ Strength knows how to yield."
 "My course is set for an uncharted sea.”
 ― Dante Alighieri
 
+If they can make you ask the wrong questions, they don't have to worry about answers
+
 
 
 "Never interrupt your enemy when he is making a mistake.”

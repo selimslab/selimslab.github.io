@@ -8,6 +8,14 @@ A high price doesn't mean high value or high quality, the same for low price
 
 You can pay a lot and get little value, or get a lot of value for a reasonable price
 
+## Emotions drive industries 
+
+Insecurity and fear, cosmetics, arms
+
+discontent, envy, luxury 
+
+.. 
+
 ## Spending for happiness 
 
 [Your Lifestyle Has Already Been Designed (raptitude.com)](https://www.raptitude.com/2010/07/your-lifestyle-has-already-been-designed/)

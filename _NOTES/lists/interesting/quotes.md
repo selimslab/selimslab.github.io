@@ -1,9 +1,12 @@
 ---
 ---
+
+There is always a philosophy for lack of courage. - Camus
+
 "What matters in life is not what happens to you but what you remember and how you remember it.”
 ― Gabriel Garcia Marquez
 
-"If we listened to our intellect we'd never have a love affair. We'd never have a friendship. We'd never go in business because we'd be cynical: "It's gonna go wrong." Or "She's going to hurt me." Or,"I've had a couple of bad love affairs, so therefore . . ." Well, that's nonsense. You're going to miss life. You've got to jump off the cliff all the time and build your wings on the way down.”
+"If we listened to our intellect we'd never have a love affair. We'd never have a friendship. We'd never go in business because we'd be cynical: "It's gonna go wrong." Or "She's going to hurt me." Or, "I've had a couple of bad love affairs, so therefore . . ." Well, that's nonsense. You're going to miss life. You've got to jump off the cliff all the time and build your wings on the way down.”
 ― Ray Bradbury
 
 "Whenever you feel like criticizing any one," he told me, "just remember that all the people in this world haven't had the advantages that you've had.”
@@ -137,3 +140,47 @@ Spring is the time of plans and projects
 
 "You don’t have to choose between being scientific and being compassionate.”
 ― Robert M. Sapolsky
+
+If there is a God, He will have to beg my forgiveness. 
+
+Socialism never took root in America because the poor see themselves not as an exploited proletariat but as temporarily embarrassed millionaires
+
+Beware of overconcern for money, or position, or glory. Someday you will meet a man who cares for none of these things. Then you will know how poor you are.
+
+Until you make the unconscious conscious, it will direct your life and you will call it fate.
+
+If I'm sincere today, does it matter if I regret it tomorrow?
+
+Some stranger somewhere still remembers you because you were kind to them when no one else was. 
+
+Anything that just costs money is cheap 
+
+The one chasing two rabbits, catches neither 
+
+The lonely one offers his hand too quickly to whomever he encounters
+
+I know a cure for everything, salt water.. sweat, tears, sea  
+
+.. blur the line between work and play 
+
+Conceal a flaw, and the world will imagine the worst
+
+First step to learn is to admit that you don't know 
+
+Pursue a path you can walk with love and reverence 
+
+How does it help.. to make troubles heavier by bemoaning them?
+
+We suffer more in imagination than in reality 
+
+Don't explain your philosophy, embody it 
+
+Words are loaded pistols 
+
+Circumstances reveal the man 
+
+
+
+
+
+
