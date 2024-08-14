@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Year Progress
+  </title>
+
+      <meta charset="utf-8" />
+    <meta lang="en-US" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+  
+  
+
+
+
+
+
+
+
+
+" />
+    <meta property="og:description" content="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+  
+  
+
+
+
+
+
+
+
+
+" />
+    
+    
+    <meta name="author" content="selimslab" />
+
+    
+    <meta property="og:title" content="Year Progress" />
+    <meta property="twitter:title" content="Year Progress" />
+    
+  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-touch-icon.png">
+  <link rel="icon" type="image/x-icon" href="/assets/fav/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="/assets/css/bulma.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/code.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/solar.css">
+
+</head>
+
+<body>
+
+  <div class="top"></div>
+
+  <article>
+
+    <nav class="navbar">
+  <div class="navbar-brand">
+    <a href="/" title="Home" class="site-name">Δ</a>
+
+    <div class="search is-6 is-6-mobile">
+  <input type="text" class="input is-small is-rounded" id="search-input" placeholder="Search..">
+  <ul id="results-container"></ul>
+</div>
+<script src="/assets/js/search.js"></script>
+<script>
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/assets/data/search.json',
+    noResultsText: "🤷🏿",
+    limit: 7
+  })
+
+  document.addEventListener('keydown', function (e) {
+    if (e.shiftKey && (e.key === 's' || e.key === 'S')) {
+      e.preventDefault();
+      // focus on search input
+      document.getElementById('search-input').focus();
+    }
+  });
+
+
+</script>
+
+    <a title="Toggle theme" id="themeToggle"  tabindex="0" onclick="switchTheme()" class="navbutton"></a>
+    <a title="Roll the dice! Shift+P" id="dice"  tabindex="0" onclick="getRandomPage()" class="navbutton">🎲</a>
+  </div>
+</nav>
+
+<script src="/assets/js/animate.js"></script>
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/utils.js"></script>
+<script src="/assets/js/post.js"></script>
+<script src="/assets/js/arrow.js"></script>
+
+<style>
+
+a.site-name {
+    color: inherit;
+    font-size: 2rem;
+    margin-right: 1rem;
+
+  }
+
+  .search {
+    padding: 0.5rem;
+    max-width: 9rem;
+  }
+
+  #results-container {
+    margin-top: 0.3rem;
+    list-style: none;
+    font-size: 1rem;
+    max-width: 20ch;
+
+    li {
+      margin: 0 auto;
+      margin-top: 0.3rem;
+      padding: 0.2rem;
+    }
+  }
+
+
+
+  #themeToggle{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+  }
+
+
+  .navbutton {
+    font-size: 1.3rem;
+    margin-top:0.5rem;
+    margin-left:1.2rem;
+  }
+
+  .navbar {
+    background: inherit;
+    color: inherit;
+    width: fit-content;
+    margin-bottom: 1rem;
+  }
+
+  .top {
+    height: 4px;
+    background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2259a7, #373B44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2259a7, #373B44);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+
+
+
+
+</style>
+
+
+
+      <h1 id="page-title">Year Progress</h1>
+
+  <script src="/assets/js/datetime.js"></script>
+
+<script src="/assets/js/moment.min.js"></script>
+
+<script src="/assets/js/color.js"></script>
+
+<p id="clock"></p>
+
+<p id="date"></p>
+
+<p id="year-ratio"></p>
+
+<p id="weekNumber"></p>
+
+<p>
+  <span>
+    <progress id="year-progress" max="365" value=""></progress>
+  </span>
+  <span id="year-percent"></span>
+</p>
+
+<ul class="days"></ul>
+
+<style>
+
+  :root {
+      --point-size: 0.4rem;
+      --point-gap: 0.16rem;
+      --row-gap: 0.4rem; 
+  }
+
+  .days {
+    list-style-type: none;
+    display: grid;
+    grid-gap: var(--point-gap);
+    row-gap: var(--row-gap); 
+    grid-auto-flow: row;
+    grid-auto-rows: var(--point-size);
+  }
+
+  .days {
+    grid-template-columns: repeat(31, var(--point-size));
+    grid-area: days;
+  }
+
+  .days li {
+    background-color: #fff;
+    margin: 0;
+    border-radius: 50%;
+  }
+
+  .days li.dummy {
+    background-color: inherit;
+  }
+
+  .days li.past {
+    background-color: #909090;
+  }
+
+  .days li.weekend {
+    background-color: #ffc800;
+  }
+
+  .days li.now {
+    border: 2px solid rgb(255, 55, 0);
+  }
+
+
+</style>
+
+<script>
+
+  const this_day = moment().dayOfYear();
+  const percent = Math.round((this_day / 365) * 100);
+  const weekNumber = moment().isoWeek();
+  const year = moment().year();
+  const date = moment().format('dddd, MMMM DD');
+
+  document.querySelector(
+    "#year-ratio"
+  ).innerHTML = `Day ${this_day}`;
+
+  document.querySelector("#weekNumber").innerHTML = `Week ${weekNumber}`;
+
+  document.querySelector("#date").innerHTML = `${date}`;
+
+
+  document.querySelector("#year-percent").innerHTML = `%${percent}`;
+
+  document.querySelector("#year-progress").setAttribute("value", this_day);
+
+
+  function updateClock() {
+    const now = new Date();
+    const hours = now.getHours().toString().padStart(2, '0');
+    const minutes = now.getMinutes().toString().padStart(2, '0');
+    const seconds = now.getSeconds().toString().padStart(2, '0');
+    const timeString = `${hours}:${minutes}:${seconds}`;
+    
+    document.getElementById('clock').textContent = timeString;
+}
+
+  setInterval(updateClock, 1000);
+  updateClock();
+
+  function add_days(this_day) {
+    // create an array by using moment.js to get number of days in each month of this year
+    const days_in_months = Array.from({ length: 12 }, (v, i) =>
+      moment().month(i).daysInMonth()
+      
+    );
+    // indexes of weekend days in each month
+    const weekend_days = days_in_months.map((days, index) => {
+      let weekend = [];
+      for (let day = 1; day <= days; day++) {
+        let date = moment().month(index).date(day);
+        if (date.day() == 0 || date.day() == 6) {
+          weekend.push(day);
+        }
+      }
+      return weekend;
+    });
+
+    total = 0;
+    const day_graph = document.querySelector(".days");
+    
+    days_in_months.forEach((number_of_days, month_index) => {
+      let dummy_days = 31 - number_of_days;
+      for (let day = 1; day <= number_of_days; day++) {
+        total += 1;
+        if (total == this_day) {
+          if (weekend_days[month_index].includes(day)) {
+            day_graph.insertAdjacentHTML("beforeend", `<li class="now weekend"></li>`);
+          } else {
+            day_graph.insertAdjacentHTML("beforeend", `<li class="now"></li>`);
+          }
+        } else if (total < this_day) {
+          day_graph.insertAdjacentHTML("beforeend", `<li class="past"></li>`);
+        } else {
+          // day in the weekend for the month
+          if (weekend_days[month_index].includes(day)) {
+            day_graph.insertAdjacentHTML("beforeend", `<li class="weekend"></li>`);
+          } else {
+            day_graph.insertAdjacentHTML("beforeend", `<li></li>`);
+          }
+        } 
+      }
+      // insert dummy days to fill the grid
+      for (let i = 0; i < dummy_days; i++) {
+        day_graph.insertAdjacentHTML("beforeend", `<li class="dummy"></li>`);
+      }
+    });
+
+
+  }
+
+  add_days(this_day);
+
+
+</script>
+
+<!-- from https://codepen.io/jamesfinn180/pen/VwzENbR -->
+
+<p><br /></p>
+<div class="planet-container">
+    <div class="night"></div>
+    <div class="day"></div>
+    <div class="clouds"></div>
+    <div class="inner-shadow"></div>
+</div>
+
+
+
+
+    <footer>
+    
+</footer>
+<style>
+    footer {
+        background: inherit !important;
+        padding-top: 1rem;
+        text-align: center;
+    }
+
+
+</style>
+
+  </article>
+</body>
+
+
+</html>
+

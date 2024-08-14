@@ -1,0 +1,36 @@
+{
+    "manifest_version": 3,
+    "name": "Charlie",
+    "version": "1.0",
+    "description": "Run custom scripts on any webpage.",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["*://*.reddit.com/*"],
+        "js": ["reddit.js"],
+        "run_at": "document_end" 
+      },
+      {
+        "matches": ["*://*.stackexchange.com/*"],
+        "js": ["stackexchange.js"],
+        "run_at": "document_end" 
+      },
+      {
+        "matches": ["*://*.eksisozluk.com/*"],
+        "js": ["eksi.js"],
+        "run_at": "document_end" 
+      }
+  ],
+    "action": {
+      "default_popup": "",
+      "default_icon": {
+      }
+    },
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
+  

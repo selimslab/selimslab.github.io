@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Design Units
+  </title>
+
+      <meta charset="utf-8" />
+    <meta lang="en-US" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="```py
+" />
+    <meta property="og:description" content="```py
+" />
+    
+    
+    <meta name="author" content="selimslab" />
+
+    
+    <meta property="og:title" content="Design Units" />
+    <meta property="twitter:title" content="Design Units" />
+    
+  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-touch-icon.png">
+  <link rel="icon" type="image/x-icon" href="/assets/fav/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="/assets/css/bulma.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/code.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/solar.css">
+
+</head>
+
+<body>
+
+  <div class="top"></div>
+
+  <article>
+
+    <nav class="navbar">
+  <div class="navbar-brand">
+    <a href="/" title="Home" class="site-name">Δ</a>
+
+    <div class="search is-6 is-6-mobile">
+  <input type="text" class="input is-small is-rounded" id="search-input" placeholder="Search..">
+  <ul id="results-container"></ul>
+</div>
+<script src="/assets/js/search.js"></script>
+<script>
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/assets/data/search.json',
+    noResultsText: "🤷🏿",
+    limit: 7
+  })
+
+  document.addEventListener('keydown', function (e) {
+    if (e.shiftKey && (e.key === 's' || e.key === 'S')) {
+      e.preventDefault();
+      // focus on search input
+      document.getElementById('search-input').focus();
+    }
+  });
+
+
+</script>
+
+    <a title="Toggle theme" id="themeToggle"  tabindex="0" onclick="switchTheme()" class="navbutton"></a>
+    <a title="Roll the dice! Shift+P" id="dice"  tabindex="0" onclick="getRandomPage()" class="navbutton">🎲</a>
+  </div>
+</nav>
+
+<script src="/assets/js/animate.js"></script>
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/utils.js"></script>
+<script src="/assets/js/post.js"></script>
+<script src="/assets/js/arrow.js"></script>
+
+<style>
+
+a.site-name {
+    color: inherit;
+    font-size: 2rem;
+    margin-right: 1rem;
+
+  }
+
+  .search {
+    padding: 0.5rem;
+    max-width: 9rem;
+  }
+
+  #results-container {
+    margin-top: 0.3rem;
+    list-style: none;
+    font-size: 1rem;
+    max-width: 20ch;
+
+    li {
+      margin: 0 auto;
+      margin-top: 0.3rem;
+      padding: 0.2rem;
+    }
+  }
+
+
+
+  #themeToggle{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+  }
+
+
+  .navbutton {
+    font-size: 1.3rem;
+    margin-top:0.5rem;
+    margin-left:1.2rem;
+  }
+
+  .navbar {
+    background: inherit;
+    color: inherit;
+    width: fit-content;
+    margin-bottom: 1rem;
+  }
+
+  .top {
+    height: 4px;
+    background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2259a7, #373B44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2259a7, #373B44);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+
+
+
+
+</style>
+
+
+
+      <span class="taglist">
+   
+     
+      
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+         
+          <a class="toplink" href="/oop-designs/">OOP designs</a>
+        
+    
+  
+
+  
+
+
+</span>
+
+
+  <h1>Design Units</h1>  
+ 
+  
+
+<p style="font-size: 0.8rem; margin-bottom:0.8rem">
+  ~4 mins read
+</p>
+
+
+
+
+
+  <div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+</pre></td><td class="rouge-code"><pre>
+<span class="kn">from</span> <span class="nn">enum</span> <span class="kn">import</span> <span class="n">Enum</span>
+<span class="kn">from</span> <span class="nn">dataclasses</span> <span class="kn">import</span> <span class="n">dataclass</span>
+
+<span class="k">class</span> <span class="nc">Symbol</span><span class="p">(</span><span class="n">Enum</span><span class="p">):</span>
+    <span class="n">S</span> <span class="o">=</span> <span class="s">"s"</span>
+    <span class="n">M</span> <span class="o">=</span> <span class="s">"m"</span>
+    <span class="n">KG</span> <span class="o">=</span> <span class="s">"kg"</span>
+    <span class="n">A</span> <span class="o">=</span> <span class="s">"A"</span>
+    <span class="n">K</span> <span class="o">=</span> <span class="s">"K"</span>
+    <span class="n">MOL</span> <span class="o">=</span> <span class="s">"mol"</span>
+    <span class="n">CD</span> <span class="o">=</span> <span class="s">"cd"</span>
+
+<span class="k">class</span> <span class="nc">UnitName</span><span class="p">(</span><span class="n">Enum</span><span class="p">):</span>
+    <span class="n">SECOND</span> <span class="o">=</span> <span class="s">"second"</span>
+    <span class="n">METER</span> <span class="o">=</span> <span class="s">"meter"</span>
+    <span class="n">KILOGRAM</span> <span class="o">=</span> <span class="s">"kilogram"</span>
+    <span class="n">AMPERE</span> <span class="o">=</span> <span class="s">"ampere"</span>
+    <span class="n">KELVIN</span> <span class="o">=</span> <span class="s">"kelvin"</span>
+    <span class="n">MOLE</span> <span class="o">=</span> <span class="s">"mole"</span>
+    <span class="n">CANDELA</span> <span class="o">=</span> <span class="s">"candela"</span>
+
+<span class="k">class</span> <span class="nc">Dimension</span><span class="p">(</span><span class="n">Enum</span><span class="p">):</span>
+    <span class="n">TIME</span> <span class="o">=</span> <span class="s">"time"</span>
+    <span class="n">LENGTH</span> <span class="o">=</span> <span class="s">"length"</span>
+    <span class="n">MASS</span> <span class="o">=</span> <span class="s">"mass"</span>
+    <span class="n">ELECTRIC_CURRENT</span> <span class="o">=</span> <span class="s">"electric current"</span>
+    <span class="n">THERMODYNAMIC_TEMPERATURE</span> <span class="o">=</span> <span class="s">"thermodynamic temperature"</span>
+    <span class="n">AMOUNT_OF_SUBSTANCE</span> <span class="o">=</span> <span class="s">"amount of substance"</span>
+    <span class="n">LUMINOUS_INTENSITY</span> <span class="o">=</span> <span class="s">"luminous intensity"</span>
+
+<span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">Unit</span><span class="p">:</span>
+    <span class="n">symbol</span><span class="p">:</span> <span class="n">Symbol</span>
+    <span class="n">name</span><span class="p">:</span> <span class="n">UnitName</span>
+    <span class="n">dimension</span><span class="p">:</span> <span class="n">Dimension</span>
+
+<span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">SIUnit</span><span class="p">(</span><span class="n">Unit</span><span class="p">):</span>
+    <span class="p">...</span> 
+
+
+<span class="n">second</span> <span class="o">=</span> <span class="n">SIUnit</span><span class="p">(</span><span class="n">Symbol</span><span class="p">.</span><span class="n">S</span><span class="p">,</span> <span class="n">UnitName</span><span class="p">.</span><span class="n">SECOND</span><span class="p">,</span> <span class="n">Dimension</span><span class="p">.</span><span class="n">TIME</span><span class="p">)</span>
+<span class="n">meter</span> <span class="o">=</span> <span class="n">SIUnit</span><span class="p">(</span><span class="n">Symbol</span><span class="p">.</span><span class="n">M</span><span class="p">,</span> <span class="n">UnitName</span><span class="p">.</span><span class="n">METER</span><span class="p">,</span> <span class="n">Dimension</span><span class="p">.</span><span class="n">LENGTH</span><span class="p">)</span>
+<span class="n">kilogram</span> <span class="o">=</span> <span class="n">SIUnit</span><span class="p">(</span><span class="n">Symbol</span><span class="p">.</span><span class="n">KG</span><span class="p">,</span> <span class="n">UnitName</span><span class="p">.</span><span class="n">KILOGRAM</span><span class="p">,</span> <span class="n">Dimension</span><span class="p">.</span><span class="n">MASS</span><span class="p">)</span>
+<span class="n">ampere</span> <span class="o">=</span> <span class="n">SIUnit</span><span class="p">(</span><span class="n">Symbol</span><span class="p">.</span><span class="n">A</span><span class="p">,</span> <span class="n">UnitName</span><span class="p">.</span><span class="n">AMPERE</span><span class="p">,</span> <span class="n">Dimension</span><span class="p">.</span><span class="n">ELECTRIC_CURRENT</span><span class="p">)</span>
+<span class="n">kelvin</span> <span class="o">=</span> <span class="n">SIUnit</span><span class="p">(</span><span class="n">Symbol</span><span class="p">.</span><span class="n">K</span><span class="p">,</span> <span class="n">UnitName</span><span class="p">.</span><span class="n">KELVIN</span><span class="p">,</span> <span class="n">Dimension</span><span class="p">.</span><span class="n">THERMODYNAMIC_TEMPERATURE</span><span class="p">)</span>
+<span class="n">mole</span> <span class="o">=</span> <span class="n">SIUnit</span><span class="p">(</span><span class="n">Symbol</span><span class="p">.</span><span class="n">MOL</span><span class="p">,</span> <span class="n">UnitName</span><span class="p">.</span><span class="n">MOLE</span><span class="p">,</span> <span class="n">Dimension</span><span class="p">.</span><span class="n">AMOUNT_OF_SUBSTANCE</span><span class="p">)</span>
+<span class="n">candela</span> <span class="o">=</span> <span class="n">SIUnit</span><span class="p">(</span><span class="n">Symbol</span><span class="p">.</span><span class="n">CD</span><span class="p">,</span> <span class="n">UnitName</span><span class="p">.</span><span class="n">CANDELA</span><span class="p">,</span> <span class="n">Dimension</span><span class="p">.</span><span class="n">LUMINOUS_INTENSITY</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">second</span><span class="p">)</span>  <span class="c1"># Output: SIUnit(symbol=&lt;Symbol.S: 's'&gt;, unit_name=&lt;UnitName.SECOND: 'second'&gt;, dimension=&lt;Dimension.TIME: 'time'&gt;)
+</span>
+
+
+<span class="n">Sure</span><span class="err">!</span> <span class="n">The</span> <span class="n">SI</span> <span class="n">prefixes</span> <span class="n">represent</span> <span class="n">powers</span> <span class="n">of</span> <span class="mi">10</span> <span class="n">that</span> <span class="n">are</span> <span class="n">used</span> <span class="n">to</span> <span class="n">form</span> <span class="n">decimal</span> <span class="n">multiples</span> <span class="ow">and</span> <span class="n">submultiples</span> <span class="n">of</span> <span class="n">SI</span> <span class="n">units</span><span class="p">.</span> <span class="n">Here</span><span class="s">'s how you can define SI prefixes from pico (10^-12) to exa (10^18) using enums in Python:
+
+python
+Copy code
+from enum import Enum
+
+class SIPrefix(Enum):
+    PICO = "p"  # 10^-12
+    NANO = "n"  # 10^-9
+    MICRO = "µ"  # 10^-6 (mu symbol)
+    MILLI = "m"  # 10^-3
+    CENTI = "c"  # 10^-2
+    DECI = "d"   # 10^-1
+    DECA = "da"   # 10^1
+    HECTO = "h"  # 10^2
+    KILO = "k"   # 10^3
+    MEGA = "M"   # 10^6
+    GIGA = "G"   # 10^9
+    TERA = "T"   # 10^12
+    PETA = "P"   # 10^15
+    EXA = "E"    # 10^18
+
+
+@dataclass
+class SIScalarUnit(SIUnit):
+    prefix: SIPrefix
+
+millimeter = SIScalarUnit(Symbol.M, UnitName.METER, Dimension.LENGTH, SIPrefix.MILLI)
+
+from numbers import Number
+
+class Measurement:
+    unit: Unit 
+    quantity: Number
+
+
+</span></pre></td></tr></tbody></table></code></pre></div></div>
+
+
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+  
+
+<img id="artwork" class="img-full" tabindex="0" onclick="shuffleArt();"/>
+<p id="description" class="img-alt"></p>
+
+<script src="/assets/js/art.js"></script>
+
+
+  
+
+<a style="font-size:1.8rem;" id="ideaMachine" title="Idea Machine" tabindex="0" onclick="setNextIdea();">🎰
+</a>
+
+<p id="random_idea" class="idea" onclick="setNextIdea();"></p>
+
+
+<style>
+  .idea {
+    white-space: pre-line;
+    min-height: 2.5rem
+  }
+</style>
+
+
+<script src="/assets/js/idea.js"></script>
+
+<script>
+
+  const setNextIdea = async () => {
+    let machine = document.getElementById("ideaMachine");
+    animate(machine, "shakey");
+    document.getElementById("random_idea").innerHTML = await getNextIdea();
+  }
+
+  document.addEventListener('DOMContentLoaded', async () => {
+    let machine = document.getElementById("ideaMachine");
+
+    machine.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        setNextIdea();
+      }
+    });
+
+    setNextIdea()
+  });
+
+</script>
+
+
+
+
+<script src="/assets/js/visits.js"></script>
+
+
+
+
+
+    <footer>
+    
+</footer>
+<style>
+    footer {
+        background: inherit !important;
+        padding-top: 1rem;
+        text-align: center;
+    }
+
+
+</style>
+
+  </article>
+</body>
+
+
+</html>
+

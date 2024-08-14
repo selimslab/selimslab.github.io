@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Longest Common Subsequence
+  </title>
+
+      <meta charset="utf-8" />
+    <meta lang="en-US" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="```
+Example 1:
+" />
+    <meta property="og:description" content="```
+Example 1:
+" />
+    
+    
+    <meta name="author" content="selimslab" />
+
+    
+    <meta property="og:title" content="Longest Common Subsequence" />
+    <meta property="twitter:title" content="Longest Common Subsequence" />
+    
+  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-touch-icon.png">
+  <link rel="icon" type="image/x-icon" href="/assets/fav/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="/assets/css/bulma.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/code.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/solar.css">
+
+</head>
+
+<body>
+
+  <div class="top"></div>
+
+  <article>
+
+    <nav class="navbar">
+  <div class="navbar-brand">
+    <a href="/" title="Home" class="site-name">Δ</a>
+
+    <div class="search is-6 is-6-mobile">
+  <input type="text" class="input is-small is-rounded" id="search-input" placeholder="Search..">
+  <ul id="results-container"></ul>
+</div>
+<script src="/assets/js/search.js"></script>
+<script>
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/assets/data/search.json',
+    noResultsText: "🤷🏿",
+    limit: 7
+  })
+
+  document.addEventListener('keydown', function (e) {
+    if (e.shiftKey && (e.key === 's' || e.key === 'S')) {
+      e.preventDefault();
+      // focus on search input
+      document.getElementById('search-input').focus();
+    }
+  });
+
+
+</script>
+
+    <a title="Toggle theme" id="themeToggle"  tabindex="0" onclick="switchTheme()" class="navbutton"></a>
+    <a title="Roll the dice! Shift+P" id="dice"  tabindex="0" onclick="getRandomPage()" class="navbutton">🎲</a>
+  </div>
+</nav>
+
+<script src="/assets/js/animate.js"></script>
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/utils.js"></script>
+<script src="/assets/js/post.js"></script>
+<script src="/assets/js/arrow.js"></script>
+
+<style>
+
+a.site-name {
+    color: inherit;
+    font-size: 2rem;
+    margin-right: 1rem;
+
+  }
+
+  .search {
+    padding: 0.5rem;
+    max-width: 9rem;
+  }
+
+  #results-container {
+    margin-top: 0.3rem;
+    list-style: none;
+    font-size: 1rem;
+    max-width: 20ch;
+
+    li {
+      margin: 0 auto;
+      margin-top: 0.3rem;
+      padding: 0.2rem;
+    }
+  }
+
+
+
+  #themeToggle{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+  }
+
+
+  .navbutton {
+    font-size: 1.3rem;
+    margin-top:0.5rem;
+    margin-left:1.2rem;
+  }
+
+  .navbar {
+    background: inherit;
+    color: inherit;
+    width: fit-content;
+    margin-bottom: 1rem;
+  }
+
+  .top {
+    height: 4px;
+    background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2259a7, #373B44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2259a7, #373B44);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+
+
+
+
+</style>
+
+
+
+      <span class="taglist">
+   
+     
+      
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+         
+          <a class="toplink" href="/code/">Code</a>
+        
+    
+   
+     
+      
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+         
+          <a class="toplink" href="/dynamic/">Dynamic</a>
+        
+    
+   
+     
+      
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+         
+          <a class="toplink" href="/mid/">Medium</a>
+        
+    
+  
+
+  
+
+
+</span>
+
+
+  <h1>Longest Common Subsequence</h1>  
+ 
+  
+
+<p style="font-size: 0.8rem; margin-bottom:0.8rem">
+  ~9 mins read
+</p>
+
+
+
+
+
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+</pre></td><td class="rouge-code"><pre>Example 1:
+
+Input: text1 = "abcde", text2 = "ace" 
+Output: 3  
+Explanation: The longest common subsequence is "ace" and its length is 3.
+Example 2:
+
+Input: text1 = "abc", text2 = "abc"
+Output: 3
+Explanation: The longest common subsequence is "abc" and its length is 3.
+Example 3:
+
+Input: text1 = "abc", text2 = "def"
+Output: 0
+Explanation: There is no such common subsequence, so the result is 0.
+ 
+
+Constraints:
+
+1 &lt;= text1.length, text2.length &lt;= 1000
+text1 and text2 consist of only lowercase English characters.
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>imagine looong strings</p>
+
+<p>abncsdgs…..fsfsd   vs asfdagfd….fasdfas</p>
+
+<p>lets look at the last letters</p>
+
+<p>if I knew the common length up until there, i could just add 1 if the last letters are the same or add 0 if different</p>
+
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+</pre></td><td class="rouge-code"><pre><span class="k">func</span> <span class="n">longestCommonSubsequence</span><span class="p">(</span><span class="n">word1</span><span class="p">,</span> <span class="n">word2</span> <span class="kt">string</span><span class="p">)</span> <span class="kt">int</span> <span class="p">{</span>
+	<span class="k">return</span> <span class="n">lcsHelper</span><span class="p">(</span><span class="n">word1</span><span class="p">,</span> <span class="n">word2</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">word1</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">word2</span><span class="p">))</span>
+<span class="p">}</span>
+
+<span class="k">func</span> <span class="n">lcsHelper</span><span class="p">(</span><span class="n">word1</span><span class="p">,</span> <span class="n">word2</span> <span class="kt">string</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">n</span> <span class="kt">int</span><span class="p">)</span> <span class="kt">int</span> <span class="p">{</span>
+	<span class="c">// Base case: If either of the words is empty, LCS is 0.</span>
+	<span class="k">if</span> <span class="n">m</span> <span class="o">==</span> <span class="m">0</span> <span class="o">||</span> <span class="n">n</span> <span class="o">==</span> <span class="m">0</span> <span class="p">{</span>
+		<span class="k">return</span> <span class="m">0</span>
+	<span class="p">}</span>
+
+	<span class="c">// If the characters match, include them in the LCS.</span>
+	<span class="k">if</span> <span class="n">word1</span><span class="p">[</span><span class="n">m</span><span class="o">-</span><span class="m">1</span><span class="p">]</span> <span class="o">==</span> <span class="n">word2</span><span class="p">[</span><span class="n">n</span><span class="o">-</span><span class="m">1</span><span class="p">]</span> <span class="p">{</span>
+		<span class="k">return</span> <span class="m">1</span> <span class="o">+</span> <span class="n">lcsHelper</span><span class="p">(</span><span class="n">word1</span><span class="p">,</span> <span class="n">word2</span><span class="p">,</span> <span class="n">m</span><span class="o">-</span><span class="m">1</span><span class="p">,</span> <span class="n">n</span><span class="o">-</span><span class="m">1</span><span class="p">)</span>
+	<span class="p">}</span>
+
+	<span class="c">// If characters don't match, take the maximum LCS from the previous states.</span>
+	<span class="k">return</span> <span class="n">max</span><span class="p">(</span><span class="n">lcsHelper</span><span class="p">(</span><span class="n">word1</span><span class="p">,</span> <span class="n">word2</span><span class="p">,</span> <span class="n">m</span><span class="o">-</span><span class="m">1</span><span class="p">,</span> <span class="n">n</span><span class="p">),</span> <span class="n">lcsHelper</span><span class="p">(</span><span class="n">word1</span><span class="p">,</span> <span class="n">word2</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">n</span><span class="o">-</span><span class="m">1</span><span class="p">))</span>
+<span class="p">}</span>
+
+<span class="k">func</span> <span class="n">max</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="kt">int</span><span class="p">)</span> <span class="kt">int</span> <span class="p">{</span>
+	<span class="k">if</span> <span class="n">a</span> <span class="o">&gt;</span> <span class="n">b</span> <span class="p">{</span>
+		<span class="k">return</span> <span class="n">a</span>
+	<span class="p">}</span>
+	<span class="k">return</span> <span class="n">b</span>
+<span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>here we can save some calls by remembering the result of a previous call</p>
+
+<p>for example look at the lcsHelper(word1, word2, m-1, n-1) call</p>
+
+<p>maybe it’s called with the same args multiple times</p>
+
+<p>what if we save the result of this call to an array and look up if we need it again</p>
+
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+</pre></td><td class="rouge-code"><pre>
+<span class="k">func</span> <span class="n">longestCommonSubsequence</span><span class="p">(</span><span class="n">text1</span> <span class="kt">string</span><span class="p">,</span> <span class="n">text2</span> <span class="kt">string</span><span class="p">)</span> <span class="kt">int</span> <span class="p">{</span>
+	<span class="n">m</span><span class="p">,</span> <span class="n">n</span> <span class="o">:=</span> <span class="nb">len</span><span class="p">(</span><span class="n">text1</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">text2</span><span class="p">)</span>
+	<span class="n">dp</span> <span class="o">:=</span> <span class="nb">make</span><span class="p">([][]</span><span class="kt">int</span><span class="p">,</span> <span class="n">m</span><span class="o">+</span><span class="m">1</span><span class="p">)</span>
+	<span class="k">for</span> <span class="n">i</span> <span class="o">:=</span> <span class="k">range</span> <span class="n">dp</span> <span class="p">{</span>
+		<span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="nb">make</span><span class="p">([]</span><span class="kt">int</span><span class="p">,</span> <span class="n">n</span><span class="o">+</span><span class="m">1</span><span class="p">)</span>
+	<span class="p">}</span>
+
+	<span class="k">for</span> <span class="n">i</span> <span class="o">:=</span> <span class="m">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">m</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span> <span class="p">{</span>
+		<span class="k">for</span> <span class="n">j</span> <span class="o">:=</span> <span class="m">1</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;=</span> <span class="n">n</span><span class="p">;</span> <span class="n">j</span><span class="o">++</span> <span class="p">{</span>
+			<span class="k">if</span> <span class="n">text1</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="m">1</span><span class="p">]</span> <span class="o">==</span> <span class="n">text2</span><span class="p">[</span><span class="n">j</span><span class="o">-</span><span class="m">1</span><span class="p">]</span> <span class="p">{</span>
+				<span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="m">1</span><span class="p">][</span><span class="n">j</span><span class="o">-</span><span class="m">1</span><span class="p">]</span> <span class="o">+</span> <span class="m">1</span> 
+			<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+				<span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">max</span><span class="p">(</span><span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="o">-</span><span class="m">1</span><span class="p">],</span> <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="m">1</span><span class="p">][</span><span class="n">j</span><span class="p">])</span>
+			<span class="p">}</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+
+	<span class="k">return</span> <span class="n">dp</span><span class="p">[</span><span class="n">m</span><span class="p">][</span><span class="n">n</span><span class="p">]</span>
+
+<span class="p">}</span>
+
+<span class="k">func</span> <span class="n">max</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="kt">int</span><span class="p">)</span> <span class="kt">int</span> <span class="p">{</span>
+	<span class="k">if</span> <span class="n">a</span> <span class="o">&gt;</span> <span class="n">b</span> <span class="p">{</span>
+		<span class="k">return</span> <span class="n">a</span>
+	<span class="p">}</span>
+	<span class="k">return</span> <span class="n">b</span>
+<span class="p">}</span>
+
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>here dp[i-1][j-1] keeps the result of lcsHelper(word1, word2, m-1, n-1) call</p>
+
+<p>we can also follow dp a table</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+</pre></td><td class="rouge-code"><pre>iterate the first row
+
+s vs e 
+0 common  
+
+   |    s  e  a
+---|------------
+   | 0  0  0  0
+e  | 0  **0**  0  0
+a  | 0  0  0  0
+t  | 0  0  0  0
+
+
+se vs e 1
+
+   |    s  e  a
+---|------------
+   | 0  0  0  0
+e  | 0  0  1  0
+a  | 0  0  0  0
+t  | 0  0  0  0
+
+sea vs e 1
+
+   |    s  e  a
+---|------------
+   | 0  0  0  0
+e  | 0  0  1  1
+a  | 0  0  0  0
+t  | 0  0  0  0
+
+
+2nd row 
+
+s vs ea 0 
+
+   |    s  e  a
+---|------------
+   | 0  0  0  0
+e  | 0  0  1  0
+a  | 0  0  0  0
+t  | 0  0  0  0
+
+se vs ea 1 
+   |    s  e  a
+---|------------
+   | 0  0  0  0
+e  | 0  0  1  0
+a  | 0  0  1  0
+t  | 0  0  0  0
+
+sea vs ea 2 common
+   |    s  e  a
+---|------------
+   | 0  0  0  0
+e  | 0  0  1  0
+a  | 0  0  1  2
+t  | 0  0  0  0
+
+3rd row 
+
+s vs eat 0 
+   |    s  e  a
+---|------------
+   | 0  0  0  0
+e  | 0  0  1  0
+a  | 0  0  1  2
+t  | 0  0  0  0
+
+se vs eat 
+   |    s  e  a
+---|------------
+   | 0  0  0  0
+e  | 0  0  1  0
+a  | 0  0  1  2
+t  | 0  0  1  0
+
+sea vs eat 
+
+   |    s  e  a
+---|------------
+   | 0  0  0  0
+e  | 0  0  1  0
+a  | 0  0  1  2
+t  | 0  0  1  2
+
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>at each step, it’s enough to know the results of 3 prev calls</p>
+
+<p>dp[i-1][j-1], dp[i][j-1], dp[i-1][j]</p>
+
+<p>It means we don’t have remember all the table</p>
+
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+</pre></td><td class="rouge-code"><pre><span class="k">func</span> <span class="n">longestCommonSubsequence</span><span class="p">(</span><span class="n">word1</span><span class="p">,</span> <span class="n">word2</span> <span class="kt">string</span><span class="p">)</span> <span class="kt">int</span> <span class="p">{</span>
+	<span class="n">m</span><span class="p">,</span> <span class="n">n</span> <span class="o">:=</span> <span class="nb">len</span><span class="p">(</span><span class="n">word1</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">word2</span><span class="p">)</span>
+
+	<span class="c">// Ensure m is the smaller of the two lengths for space optimization.</span>
+	<span class="k">if</span> <span class="n">m</span> <span class="o">&gt;</span> <span class="n">n</span> <span class="p">{</span>
+		<span class="n">word1</span><span class="p">,</span> <span class="n">word2</span> <span class="o">=</span> <span class="n">word2</span><span class="p">,</span> <span class="n">word1</span>
+		<span class="n">m</span><span class="p">,</span> <span class="n">n</span> <span class="o">=</span> <span class="n">n</span><span class="p">,</span> <span class="n">m</span>
+	<span class="p">}</span>
+
+	<span class="c">// Use a 1D DP slice to store the current row.</span>
+	<span class="n">dp</span> <span class="o">:=</span> <span class="nb">make</span><span class="p">([]</span><span class="kt">int</span><span class="p">,</span> <span class="n">n</span><span class="o">+</span><span class="m">1</span><span class="p">)</span>
+
+	<span class="k">for</span> <span class="n">i</span> <span class="o">:=</span> <span class="m">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">m</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span> <span class="p">{</span>
+		<span class="n">prev</span> <span class="o">:=</span> <span class="m">0</span> <span class="c">// Store the value from the previous row and column.</span>
+		<span class="k">for</span> <span class="n">j</span> <span class="o">:=</span> <span class="m">1</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;=</span> <span class="n">n</span><span class="p">;</span> <span class="n">j</span><span class="o">++</span> <span class="p">{</span>
+			<span class="n">temp</span> <span class="o">:=</span> <span class="n">dp</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="c">// Store the current value in dp[j].</span>
+			<span class="k">if</span> <span class="n">word1</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="m">1</span><span class="p">]</span> <span class="o">==</span> <span class="n">word2</span><span class="p">[</span><span class="n">j</span><span class="o">-</span><span class="m">1</span><span class="p">]</span> <span class="p">{</span>
+				<span class="n">dp</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">prev</span> <span class="o">+</span> <span class="m">1</span>
+			<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+				<span class="n">dp</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">max</span><span class="p">(</span><span class="n">dp</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="n">dp</span><span class="p">[</span><span class="n">j</span><span class="o">-</span><span class="m">1</span><span class="p">])</span>
+			<span class="p">}</span>
+			<span class="n">prev</span> <span class="o">=</span> <span class="n">temp</span> <span class="c">// Update prev with the stored value.</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+
+	<span class="k">return</span> <span class="n">dp</span><span class="p">[</span><span class="n">n</span><span class="p">]</span>
+<span class="p">}</span>
+
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+
+
+  
+
+
+
+<h2>Links to this page</h2>
+<ul>
+    
+    
+        <li><a href="https://selimslab.github.io/min-edit-distance/">Min Edit Distance</a></li>
+    
+</ul>
+
+
+
+
+    
+
+
+
+
+
+  
+
+<img id="artwork" class="img-full" tabindex="0" onclick="shuffleArt();"/>
+<p id="description" class="img-alt"></p>
+
+<script src="/assets/js/art.js"></script>
+
+
+  
+
+<a style="font-size:1.8rem;" id="ideaMachine" title="Idea Machine" tabindex="0" onclick="setNextIdea();">🎰
+</a>
+
+<p id="random_idea" class="idea" onclick="setNextIdea();"></p>
+
+
+<style>
+  .idea {
+    white-space: pre-line;
+    min-height: 2.5rem
+  }
+</style>
+
+
+<script src="/assets/js/idea.js"></script>
+
+<script>
+
+  const setNextIdea = async () => {
+    let machine = document.getElementById("ideaMachine");
+    animate(machine, "shakey");
+    document.getElementById("random_idea").innerHTML = await getNextIdea();
+  }
+
+  document.addEventListener('DOMContentLoaded', async () => {
+    let machine = document.getElementById("ideaMachine");
+
+    machine.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        setNextIdea();
+      }
+    });
+
+    setNextIdea()
+  });
+
+</script>
+
+
+
+
+<script src="/assets/js/visits.js"></script>
+
+
+
+
+
+    <footer>
+    
+</footer>
+<style>
+    footer {
+        background: inherit !important;
+        padding-top: 1rem;
+        text-align: center;
+    }
+
+
+</style>
+
+  </article>
+</body>
+
+
+</html>
+

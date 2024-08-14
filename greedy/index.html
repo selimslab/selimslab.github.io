@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Greedy
+  </title>
+
+      <meta charset="utf-8" />
+    <meta lang="en-US" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Pick the optimal move at each step
+" />
+    <meta property="og:description" content="Pick the optimal move at each step
+" />
+    
+    
+    <meta name="author" content="selimslab" />
+
+    
+    <meta property="og:title" content="Greedy" />
+    <meta property="twitter:title" content="Greedy" />
+    
+  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-touch-icon.png">
+  <link rel="icon" type="image/x-icon" href="/assets/fav/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="/assets/css/bulma.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/code.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/solar.css">
+
+</head>
+
+<body>
+
+  <div class="top"></div>
+
+  <article>
+
+    <nav class="navbar">
+  <div class="navbar-brand">
+    <a href="/" title="Home" class="site-name">Δ</a>
+
+    <div class="search is-6 is-6-mobile">
+  <input type="text" class="input is-small is-rounded" id="search-input" placeholder="Search..">
+  <ul id="results-container"></ul>
+</div>
+<script src="/assets/js/search.js"></script>
+<script>
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/assets/data/search.json',
+    noResultsText: "🤷🏿",
+    limit: 7
+  })
+
+  document.addEventListener('keydown', function (e) {
+    if (e.shiftKey && (e.key === 's' || e.key === 'S')) {
+      e.preventDefault();
+      // focus on search input
+      document.getElementById('search-input').focus();
+    }
+  });
+
+
+</script>
+
+    <a title="Toggle theme" id="themeToggle"  tabindex="0" onclick="switchTheme()" class="navbutton"></a>
+    <a title="Roll the dice! Shift+P" id="dice"  tabindex="0" onclick="getRandomPage()" class="navbutton">🎲</a>
+  </div>
+</nav>
+
+<script src="/assets/js/animate.js"></script>
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/utils.js"></script>
+<script src="/assets/js/post.js"></script>
+<script src="/assets/js/arrow.js"></script>
+
+<style>
+
+a.site-name {
+    color: inherit;
+    font-size: 2rem;
+    margin-right: 1rem;
+
+  }
+
+  .search {
+    padding: 0.5rem;
+    max-width: 9rem;
+  }
+
+  #results-container {
+    margin-top: 0.3rem;
+    list-style: none;
+    font-size: 1rem;
+    max-width: 20ch;
+
+    li {
+      margin: 0 auto;
+      margin-top: 0.3rem;
+      padding: 0.2rem;
+    }
+  }
+
+
+
+  #themeToggle{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+  }
+
+
+  .navbutton {
+    font-size: 1.3rem;
+    margin-top:0.5rem;
+    margin-left:1.2rem;
+  }
+
+  .navbar {
+    background: inherit;
+    color: inherit;
+    width: fit-content;
+    margin-bottom: 1rem;
+  }
+
+  .top {
+    height: 4px;
+    background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2259a7, #373B44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2259a7, #373B44);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+
+
+
+
+</style>
+
+
+
+      <span class="taglist">
+   
+     
+      
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+         
+          <a class="toplink" href="/algorithms/">Algorithms</a>
+        
+    
+  
+
+  
+
+
+</span>
+
+
+  <h1>Greedy</h1>  
+ 
+  
+
+<p style="font-size: 0.8rem; margin-bottom:0.8rem">
+  ~5 mins read
+</p>
+
+
+
+
+
+  <p>Pick the optimal move at each step</p>
+
+<hr />
+
+<p>THE CLASSROOM SCHEDULING PROBLEM</p>
+
+<p>Suppose you have a classroom and want to hold as many classes here as possible. You get a list of classes. Yet some classes overlap.</p>
+
+<p>Sounds like a hard problem, right? Actually, the algorithm is so easy, it might surprise you. Here’s how it works:</p>
+
+<ol>
+  <li>Pick the class that ends the soonest. This is the first class you’ll hold in this classroom.</li>
+  <li>Now, you have to pick a class that starts after the first class. Again, pick the class that ends the soonest. This is the second class you’ll hold.</li>
+</ol>
+
+<hr />
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+</pre></td><td class="rouge-code"><pre><span class="s">"""
+Input: [ [1,4],[4,5] ]
+Output: [ [1,5] ]
+Explanation: Intervals [1,4] and [4,5] are considered overlapping.
+"""</span>
+
+<span class="k">def</span> <span class="nf">mergeIntervals</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">intervals</span><span class="p">):</span>
+    <span class="n">intervals</span><span class="p">.</span><span class="n">sort</span><span class="p">(</span><span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">.</span><span class="n">start</span><span class="p">)</span>
+
+    <span class="n">merged</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">interval</span> <span class="ow">in</span> <span class="n">intervals</span><span class="p">:</span>
+        <span class="c1"># if the list of merged intervals is empty or if the current
+</span>        <span class="c1"># interval does not overlap with the previous, simply append it.
+</span>        <span class="k">if</span> <span class="ow">not</span> <span class="n">merged</span> <span class="ow">or</span> <span class="n">merged</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">].</span><span class="n">end</span> <span class="o">&lt;</span> <span class="n">interval</span><span class="p">.</span><span class="n">start</span><span class="p">:</span>
+            <span class="n">merged</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">interval</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="c1"># otherwise, there is overlap, so we merge the current and previous
+</span>            <span class="c1"># intervals.
+</span>            <span class="n">merged</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">].</span><span class="n">end</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">merged</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">].</span><span class="n">end</span><span class="p">,</span> <span class="n">interval</span><span class="p">.</span><span class="n">end</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">merged</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+</pre></td><td class="rouge-code"><pre><span class="s">"""
+Input: tasks = ["A","A","A","B","B","B"], n = 2
+Output: 8
+Explanation: 
+A -&gt; B -&gt; idle -&gt; A -&gt; B -&gt; idle -&gt; A -&gt; B
+There is at least 2 units of time between any two same tasks.
+
+
+Input: tasks = ["A","A","A","A","A","A","B","C","D","E","F","G"], n = 2
+Output: 16
+Explanation: 
+One possible solution is
+A -&gt; B -&gt; C -&gt; A -&gt; D -&gt; E -&gt; A -&gt; F -&gt; G -&gt; A -&gt; idle -&gt; idle -&gt; A -&gt; idle -&gt; idle -&gt; A
+"""</span>
+<span class="kn">import</span> <span class="nn">collections</span> 
+
+<span class="k">def</span> <span class="nf">leastInterval</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">tasks</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span> <span class="n">n</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>        
+
+    <span class="c1"># tasks = ["A","A","A","B","B","B"]
+</span>    <span class="c1"># n = 2 
+</span>
+    <span class="n">counts</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">collections</span><span class="p">.</span><span class="n">Counter</span><span class="p">(</span><span class="n">tasks</span><span class="p">).</span><span class="n">values</span><span class="p">())</span> <span class="c1"># [3,3]
+</span>    <span class="n">max_count</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">counts</span><span class="p">)</span> <span class="c1"># 3
+</span>    <span class="n">num_of_chars_with_max_count</span> <span class="o">=</span> <span class="n">counts</span><span class="p">.</span><span class="n">count</span><span class="p">(</span><span class="n">max_count</span><span class="p">)</span> <span class="c1"># 2, A and B
+</span>
+    <span class="n">num_of_chunks_with_idles</span> <span class="o">=</span> <span class="n">max_count</span><span class="o">-</span><span class="mi">1</span> <span class="c1"># 2  -&gt; A  A  A
+</span>
+    <span class="c1"># either a task will fill an empty place or the place stays idle, 
+</span>    <span class="c1"># either way the chunk size stays the same  
+</span>    <span class="n">length_of_a_chunk_with_idle</span> <span class="o">=</span> <span class="n">n</span><span class="o">+</span><span class="mi">1</span>  <span class="c1"># 3 -&gt; A _ _ A _ _ A 
+</span>
+    <span class="c1"># on the final chunk, there will only be most frequent letters 
+</span>    <span class="n">length_of_the_final_chunk</span> <span class="o">=</span> <span class="n">num_of_chars_with_max_count</span>  <span class="c1"># 2  
+</span>
+    <span class="n">length_of_all_chunks</span> <span class="o">=</span> <span class="p">(</span><span class="n">num_of_chunks_with_idles</span><span class="o">*</span><span class="n">length_of_a_chunk_with_idle</span><span class="p">)</span> <span class="o">+</span> <span class="n">length_of_the_final_chunk</span> <span class="c1"># 2*3 + 2 = 8 
+</span>    <span class="c1"># -&gt; A B _ A B _ A B 
+</span>
+    <span class="k">return</span> <span class="nb">max</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">tasks</span><span class="p">),</span> <span class="n">length_of_all_chunks</span><span class="p">)</span>
+
+<span class="k">assert</span> <span class="n">leastInterval</span><span class="p">([</span><span class="s">"A"</span><span class="p">,</span> <span class="s">"A"</span><span class="p">,</span> <span class="s">"A"</span><span class="p">,</span> <span class="s">"B"</span><span class="p">,</span> <span class="s">"B"</span><span class="p">,</span> <span class="s">"B"</span><span class="p">],</span> <span class="mi">2</span><span class="p">)</span> <span class="o">==</span> <span class="mi">8</span>
+<span class="c1"># A -&gt; B -&gt; idle -&gt; A -&gt; B -&gt; idle -&gt; A -&gt; B
+# There is at least 2 units of time between any two same tasks.
+</span>
+<span class="k">assert</span> <span class="p">(</span>
+    <span class="n">leastInterval</span><span class="p">([</span><span class="s">"A"</span><span class="p">,</span> <span class="s">"A"</span><span class="p">,</span> <span class="s">"A"</span><span class="p">,</span> <span class="s">"A"</span><span class="p">,</span> <span class="s">"A"</span><span class="p">,</span> <span class="s">"A"</span><span class="p">,</span> <span class="s">"B"</span><span class="p">,</span> <span class="s">"C"</span><span class="p">,</span> <span class="s">"D"</span><span class="p">,</span> <span class="s">"E"</span><span class="p">,</span> <span class="s">"F"</span><span class="p">,</span> <span class="s">"G"</span><span class="p">],</span> <span class="n">n</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+    <span class="o">==</span> <span class="mi">16</span>
+<span class="p">)</span>
+<span class="c1"># One possible solution is
+# A -&gt; B -&gt; C -&gt; A -&gt; D -&gt; E -&gt; A -&gt; F -&gt; G -&gt; A -&gt; idle -&gt; idle -&gt; A -&gt; idle -&gt; idle -&gt; A
+</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+  
+
+<img id="artwork" class="img-full" tabindex="0" onclick="shuffleArt();"/>
+<p id="description" class="img-alt"></p>
+
+<script src="/assets/js/art.js"></script>
+
+
+  
+
+<a style="font-size:1.8rem;" id="ideaMachine" title="Idea Machine" tabindex="0" onclick="setNextIdea();">🎰
+</a>
+
+<p id="random_idea" class="idea" onclick="setNextIdea();"></p>
+
+
+<style>
+  .idea {
+    white-space: pre-line;
+    min-height: 2.5rem
+  }
+</style>
+
+
+<script src="/assets/js/idea.js"></script>
+
+<script>
+
+  const setNextIdea = async () => {
+    let machine = document.getElementById("ideaMachine");
+    animate(machine, "shakey");
+    document.getElementById("random_idea").innerHTML = await getNextIdea();
+  }
+
+  document.addEventListener('DOMContentLoaded', async () => {
+    let machine = document.getElementById("ideaMachine");
+
+    machine.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        setNextIdea();
+      }
+    });
+
+    setNextIdea()
+  });
+
+</script>
+
+
+
+
+<script src="/assets/js/visits.js"></script>
+
+
+
+
+
+    <footer>
+    
+</footer>
+<style>
+    footer {
+        background: inherit !important;
+        padding-top: 1rem;
+        text-align: center;
+    }
+
+
+</style>
+
+  </article>
+</body>
+
+
+</html>
+

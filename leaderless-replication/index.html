@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Leaderless Replication
+  </title>
+
+      <meta charset="utf-8" />
+    <meta lang="en-US" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Dynamo-style, Cassandra, Riak, ..
+" />
+    <meta property="og:description" content="Dynamo-style, Cassandra, Riak, ..
+" />
+    
+    
+    <meta name="author" content="selimslab" />
+
+    
+    <meta property="og:title" content="Leaderless Replication" />
+    <meta property="twitter:title" content="Leaderless Replication" />
+    
+  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-touch-icon.png">
+  <link rel="icon" type="image/x-icon" href="/assets/fav/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="/assets/css/bulma.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/code.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/solar.css">
+
+</head>
+
+<body>
+
+  <div class="top"></div>
+
+  <article>
+
+    <nav class="navbar">
+  <div class="navbar-brand">
+    <a href="/" title="Home" class="site-name">Δ</a>
+
+    <div class="search is-6 is-6-mobile">
+  <input type="text" class="input is-small is-rounded" id="search-input" placeholder="Search..">
+  <ul id="results-container"></ul>
+</div>
+<script src="/assets/js/search.js"></script>
+<script>
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/assets/data/search.json',
+    noResultsText: "🤷🏿",
+    limit: 7
+  })
+
+  document.addEventListener('keydown', function (e) {
+    if (e.shiftKey && (e.key === 's' || e.key === 'S')) {
+      e.preventDefault();
+      // focus on search input
+      document.getElementById('search-input').focus();
+    }
+  });
+
+
+</script>
+
+    <a title="Toggle theme" id="themeToggle"  tabindex="0" onclick="switchTheme()" class="navbutton"></a>
+    <a title="Roll the dice! Shift+P" id="dice"  tabindex="0" onclick="getRandomPage()" class="navbutton">🎲</a>
+  </div>
+</nav>
+
+<script src="/assets/js/animate.js"></script>
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/utils.js"></script>
+<script src="/assets/js/post.js"></script>
+<script src="/assets/js/arrow.js"></script>
+
+<style>
+
+a.site-name {
+    color: inherit;
+    font-size: 2rem;
+    margin-right: 1rem;
+
+  }
+
+  .search {
+    padding: 0.5rem;
+    max-width: 9rem;
+  }
+
+  #results-container {
+    margin-top: 0.3rem;
+    list-style: none;
+    font-size: 1rem;
+    max-width: 20ch;
+
+    li {
+      margin: 0 auto;
+      margin-top: 0.3rem;
+      padding: 0.2rem;
+    }
+  }
+
+
+
+  #themeToggle{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+  }
+
+
+  .navbutton {
+    font-size: 1.3rem;
+    margin-top:0.5rem;
+    margin-left:1.2rem;
+  }
+
+  .navbar {
+    background: inherit;
+    color: inherit;
+    width: fit-content;
+    margin-bottom: 1rem;
+  }
+
+  .top {
+    height: 4px;
+    background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2259a7, #373B44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2259a7, #373B44);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+
+
+
+
+</style>
+
+
+
+      <span class="taglist">
+   
+     
+      
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+         
+          <a class="toplink" href="/databases/">Databases</a>
+        
+    
+  
+
+  
+
+
+</span>
+
+
+  <h1>Leaderless Replication</h1>  
+ 
+  
+
+<p style="font-size: 0.8rem; margin-bottom:0.8rem">
+  ~2 mins read
+</p>
+
+
+
+
+
+  <p>Dynamo-style, Cassandra, Riak, ..</p>
+
+<p>Since any node can accept writes, a mechanism is necessary to make them consistent, eventually</p>
+
+<ol>
+  <li>Read repair, read from multiple nodes and accept the latest value</li>
+  <li>Anti-entropy, run a background process watching for differences in data and updates old values</li>
+</ol>
+
+<h3 id="quorums">Quorums</h3>
+
+<p>Imagine you have n total nodes,</p>
+
+<p>The system may not have to wait for all nodes to write or read,</p>
+
+<p>If you wait for,</p>
+
+<p>w votes for a valid write,</p>
+
+<p>r votes for a valid read</p>
+
+<p>It satisfies the quorum condition if w + r &gt; n</p>
+
+<p>If you require more than half of the nodes for a read and write to be valid, your system can handle up to n/2 node failures</p>
+
+<p>for example n=5 w=3 r=3, you wait for 3 nodes to consider a write to be valid,</p>
+
+<p>then you know 3 out of 5 nodes have an up to date value,</p>
+
+<p>so if you read 3 nodes, at least one of them will have an up to date value,</p>
+
+<p>and this setup can handle 2 node failures</p>
+
+<p>Quorum is a way to decrease probability of stale reads and causality errors,</p>
+
+<p>yet you still need to think about</p>
+
+<ul>
+  <li>detecting concurrent writes</li>
+  <li>what will happen to the quorum in case of a network partition?</li>
+  <li>what happens when a write fails halfway through? do you rollback the written nodes?</li>
+</ul>
+
+
+  
+
+
+
+<h2>Links to this page</h2>
+<ul>
+    
+    
+        <li><a href="https://selimslab.github.io/replication/">Replication</a></li>
+    
+</ul>
+
+
+
+
+    
+
+
+
+
+
+  
+
+<img id="artwork" class="img-full" tabindex="0" onclick="shuffleArt();"/>
+<p id="description" class="img-alt"></p>
+
+<script src="/assets/js/art.js"></script>
+
+
+  
+
+<a style="font-size:1.8rem;" id="ideaMachine" title="Idea Machine" tabindex="0" onclick="setNextIdea();">🎰
+</a>
+
+<p id="random_idea" class="idea" onclick="setNextIdea();"></p>
+
+
+<style>
+  .idea {
+    white-space: pre-line;
+    min-height: 2.5rem
+  }
+</style>
+
+
+<script src="/assets/js/idea.js"></script>
+
+<script>
+
+  const setNextIdea = async () => {
+    let machine = document.getElementById("ideaMachine");
+    animate(machine, "shakey");
+    document.getElementById("random_idea").innerHTML = await getNextIdea();
+  }
+
+  document.addEventListener('DOMContentLoaded', async () => {
+    let machine = document.getElementById("ideaMachine");
+
+    machine.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        setNextIdea();
+      }
+    });
+
+    setNextIdea()
+  });
+
+</script>
+
+
+
+
+<script src="/assets/js/visits.js"></script>
+
+
+
+
+
+    <footer>
+    
+</footer>
+<style>
+    footer {
+        background: inherit !important;
+        padding-top: 1rem;
+        text-align: center;
+    }
+
+
+</style>
+
+  </article>
+</body>
+
+
+</html>
+

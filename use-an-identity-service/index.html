@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Use An Identity Service
+  </title>
+
+      <meta charset="utf-8" />
+    <meta lang="en-US" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Using a framework or off-the-shelf identity solution still requires you to handle many issues. Avoid building an identity system from scratch.
+" />
+    <meta property="og:description" content="Using a framework or off-the-shelf identity solution still requires you to handle many issues. Avoid building an identity system from scratch.
+" />
+    
+    
+    <meta name="author" content="selimslab" />
+
+    
+    <meta property="og:title" content="Use An Identity Service" />
+    <meta property="twitter:title" content="Use An Identity Service" />
+    
+  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-touch-icon.png">
+  <link rel="icon" type="image/x-icon" href="/assets/fav/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="/assets/css/bulma.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/code.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/solar.css">
+
+</head>
+
+<body>
+
+  <div class="top"></div>
+
+  <article>
+
+    <nav class="navbar">
+  <div class="navbar-brand">
+    <a href="/" title="Home" class="site-name">Δ</a>
+
+    <div class="search is-6 is-6-mobile">
+  <input type="text" class="input is-small is-rounded" id="search-input" placeholder="Search..">
+  <ul id="results-container"></ul>
+</div>
+<script src="/assets/js/search.js"></script>
+<script>
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/assets/data/search.json',
+    noResultsText: "🤷🏿",
+    limit: 7
+  })
+
+  document.addEventListener('keydown', function (e) {
+    if (e.shiftKey && (e.key === 's' || e.key === 'S')) {
+      e.preventDefault();
+      // focus on search input
+      document.getElementById('search-input').focus();
+    }
+  });
+
+
+</script>
+
+    <a title="Toggle theme" id="themeToggle"  tabindex="0" onclick="switchTheme()" class="navbutton"></a>
+    <a title="Roll the dice! Shift+P" id="dice"  tabindex="0" onclick="getRandomPage()" class="navbutton">🎲</a>
+  </div>
+</nav>
+
+<script src="/assets/js/animate.js"></script>
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/utils.js"></script>
+<script src="/assets/js/post.js"></script>
+<script src="/assets/js/arrow.js"></script>
+
+<style>
+
+a.site-name {
+    color: inherit;
+    font-size: 2rem;
+    margin-right: 1rem;
+
+  }
+
+  .search {
+    padding: 0.5rem;
+    max-width: 9rem;
+  }
+
+  #results-container {
+    margin-top: 0.3rem;
+    list-style: none;
+    font-size: 1rem;
+    max-width: 20ch;
+
+    li {
+      margin: 0 auto;
+      margin-top: 0.3rem;
+      padding: 0.2rem;
+    }
+  }
+
+
+
+  #themeToggle{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+  }
+
+
+  .navbutton {
+    font-size: 1.3rem;
+    margin-top:0.5rem;
+    margin-left:1.2rem;
+  }
+
+  .navbar {
+    background: inherit;
+    color: inherit;
+    width: fit-content;
+    margin-bottom: 1rem;
+  }
+
+  .top {
+    height: 4px;
+    background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2259a7, #373B44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2259a7, #373B44);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+
+
+
+
+</style>
+
+
+
+      <span class="taglist">
+   
+     
+      
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+         
+          <a class="toplink" href="/distributed-systems/">Distributed Systems</a>
+        
+    
+  
+
+  
+
+
+</span>
+
+
+  <h1>Use An Identity Service</h1>  
+ 
+  
+
+<p style="font-size: 0.8rem; margin-bottom:0.8rem">
+  ~3 mins read
+</p>
+
+
+
+
+
+  <p>Using a framework or off-the-shelf identity solution still requires you to handle many issues. Avoid building an identity system from scratch.</p>
+
+<p><strong>Avoid storing credentials</strong></p>
+
+<p>Running your identity system means storing a database of credentials. Never store credentials in clear text or encrypted form. Consider cryptographically hashing and salting credentials before storage. Even then, credentials remain vulnerable. Credential storage is a liability. IDaaS platforms securely manage credentials.</p>
+
+<p><strong>Implement identity and federation protocols</strong></p>
+
+<p>Modern identity protocols like OAuth 2 and OpenID Connect are complex. Industry experts designed them to mitigate real-world attacks. These protocols evolve with technology and user expectations. Identity specialists implement and validate these protocols best. Federation protocols are also complex and need specialist knowledge.</p>
+
+<p><strong>Adopt modern identity features</strong></p>
+
+<p>Users expect advanced features like:</p>
+
+<ul>
+  <li>Passwordless authentication</li>
+  <li>Single sign-on (SSO)</li>
+  <li>Multifactor authentication (MFA)</li>
+  <li>Auditing</li>
+  <li>Conditional access</li>
+  <li>Just-in-time access control</li>
+</ul>
+
+<p>Building these features yourself is difficult. IDaaS platforms offer improved security features like:</p>
+
+<ul>
+  <li>Detection of risky sign-in events</li>
+  <li>Detection of impossible travel</li>
+  <li>Detection of common credentials</li>
+  <li>Machine learning classification of sign-in attempts</li>
+  <li>Dark web monitoring for leaked credentials</li>
+  <li>Ongoing threat monitoring</li>
+</ul>
+
+<p>Building your identity system means missing out on these features.</p>
+
+<p><strong>Use a reliable, high-performance identity system</strong></p>
+
+<p>Identity systems must be reliable. If unavailable, your solution may degrade or fail. IDaaS with service level agreements (SLA) ensure operational reliability. For example, Microsoft Entra ID offers an SLA for uptime. Identity systems must perform well and scale with growth. IDaaS systems handle large user loads and absorb attack traffic.</p>
+
+<p><strong>Test your security and apply tight controls</strong></p>
+
+<p>Running your identity system requires you to keep it secure. Implement controls like:</p>
+
+<ul>
+  <li>Periodic penetration testing</li>
+  <li>Vetting employees</li>
+  <li>Tight change control</li>
+</ul>
+
+<p>These controls are expensive and complex.</p>
+
+<p><strong>Use cloud-native security controls</strong></p>
+
+<p>Using Microsoft Entra ID allows you to use cloud-native security features like managed identities for Azure resources. If using a separate identity platform, integrate managed identities with your identity solution.</p>
+
+<p><strong>Focus on your core value</strong></p>
+
+<p>Maintaining a secure, reliable, and responsive identity platform is expensive. Identity systems don’t add value to your solution or differentiate you from competitors. Outsource your identity needs to experts to focus on adding business value for customers.</p>
+
+
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+  
+
+<img id="artwork" class="img-full" tabindex="0" onclick="shuffleArt();"/>
+<p id="description" class="img-alt"></p>
+
+<script src="/assets/js/art.js"></script>
+
+
+  
+
+<a style="font-size:1.8rem;" id="ideaMachine" title="Idea Machine" tabindex="0" onclick="setNextIdea();">🎰
+</a>
+
+<p id="random_idea" class="idea" onclick="setNextIdea();"></p>
+
+
+<style>
+  .idea {
+    white-space: pre-line;
+    min-height: 2.5rem
+  }
+</style>
+
+
+<script src="/assets/js/idea.js"></script>
+
+<script>
+
+  const setNextIdea = async () => {
+    let machine = document.getElementById("ideaMachine");
+    animate(machine, "shakey");
+    document.getElementById("random_idea").innerHTML = await getNextIdea();
+  }
+
+  document.addEventListener('DOMContentLoaded', async () => {
+    let machine = document.getElementById("ideaMachine");
+
+    machine.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        setNextIdea();
+      }
+    });
+
+    setNextIdea()
+  });
+
+</script>
+
+
+
+
+<script src="/assets/js/visits.js"></script>
+
+
+
+
+
+    <footer>
+    
+</footer>
+<style>
+    footer {
+        background: inherit !important;
+        padding-top: 1rem;
+        text-align: center;
+    }
+
+
+</style>
+
+  </article>
+</body>
+
+
+</html>
+

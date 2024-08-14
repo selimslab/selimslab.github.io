@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Hacker Laws
+  </title>
+
+      <meta charset="utf-8" />
+    <meta lang="en-US" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="
+  All models are wrong, but some are useful.
+
+" />
+    <meta property="og:description" content="
+  All models are wrong, but some are useful.
+
+" />
+    
+    
+    <meta name="author" content="selimslab" />
+
+    
+    <meta property="og:title" content="Hacker Laws" />
+    <meta property="twitter:title" content="Hacker Laws" />
+    
+  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-touch-icon.png">
+  <link rel="icon" type="image/x-icon" href="/assets/fav/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="/assets/css/bulma.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/code.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/solar.css">
+
+</head>
+
+<body>
+
+  <div class="top"></div>
+
+  <article>
+
+    <nav class="navbar">
+  <div class="navbar-brand">
+    <a href="/" title="Home" class="site-name">Δ</a>
+
+    <div class="search is-6 is-6-mobile">
+  <input type="text" class="input is-small is-rounded" id="search-input" placeholder="Search..">
+  <ul id="results-container"></ul>
+</div>
+<script src="/assets/js/search.js"></script>
+<script>
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/assets/data/search.json',
+    noResultsText: "🤷🏿",
+    limit: 7
+  })
+
+  document.addEventListener('keydown', function (e) {
+    if (e.shiftKey && (e.key === 's' || e.key === 'S')) {
+      e.preventDefault();
+      // focus on search input
+      document.getElementById('search-input').focus();
+    }
+  });
+
+
+</script>
+
+    <a title="Toggle theme" id="themeToggle"  tabindex="0" onclick="switchTheme()" class="navbutton"></a>
+    <a title="Roll the dice! Shift+P" id="dice"  tabindex="0" onclick="getRandomPage()" class="navbutton">🎲</a>
+  </div>
+</nav>
+
+<script src="/assets/js/animate.js"></script>
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/utils.js"></script>
+<script src="/assets/js/post.js"></script>
+<script src="/assets/js/arrow.js"></script>
+
+<style>
+
+a.site-name {
+    color: inherit;
+    font-size: 2rem;
+    margin-right: 1rem;
+
+  }
+
+  .search {
+    padding: 0.5rem;
+    max-width: 9rem;
+  }
+
+  #results-container {
+    margin-top: 0.3rem;
+    list-style: none;
+    font-size: 1rem;
+    max-width: 20ch;
+
+    li {
+      margin: 0 auto;
+      margin-top: 0.3rem;
+      padding: 0.2rem;
+    }
+  }
+
+
+
+  #themeToggle{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+  }
+
+
+  .navbutton {
+    font-size: 1.3rem;
+    margin-top:0.5rem;
+    margin-left:1.2rem;
+  }
+
+  .navbar {
+    background: inherit;
+    color: inherit;
+    width: fit-content;
+    margin-bottom: 1rem;
+  }
+
+  .top {
+    height: 4px;
+    background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2259a7, #373B44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2259a7, #373B44);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+
+
+
+
+</style>
+
+
+
+      <span class="taglist">
+   
+     
+      
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+         
+          <a class="toplink" href="/system-design/">System Design</a>
+        
+    
+   
+     
+      
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+         
+          <a class="toplink" href="/system-design/">System Design</a>
+        
+    
+  
+
+  
+
+
+</span>
+
+
+  <h1>Hacker Laws</h1>  
+ 
+  
+
+<p style="font-size: 0.8rem; margin-bottom:0.8rem">
+  ~4 mins read
+</p>
+
+
+
+
+
+  <blockquote>
+  <p>All models are wrong, but some are useful.</p>
+</blockquote>
+
+<h2 id="tldr">tldr</h2>
+
+<p>Keep it simple</p>
+
+<p>Don’t take down a fence unless you know why it is put up</p>
+
+<p>The best code is no code</p>
+
+<p>Do one thing and do it well</p>
+
+<p>Test early and often</p>
+
+<p>Anything that can go wrong will go wrong.</p>
+
+<p>Leave it better than you found.</p>
+
+<h2 id="keep-it-simple">Keep it simple</h2>
+
+<ul>
+  <li>
+    <p>The best code is no code</p>
+  </li>
+  <li>
+    <p>Simple solutions are more likely to be correct. Occam’s Razor</p>
+  </li>
+  <li>
+    <p>Do one thing and do it well</p>
+  </li>
+  <li>
+    <p>YAGNI</p>
+  </li>
+  <li>
+    <p>KISS</p>
+  </li>
+  <li>
+    <p>Nirvana Fallacy</p>
+  </li>
+  <li>
+    <p>Get end-to-end first</p>
+  </li>
+  <li>
+    <p>Too many options leads to decision paralysis</p>
+  </li>
+  <li>
+    <p>Premature optimization is the root of all evil. Donald Knuth</p>
+  </li>
+  <li>
+    <p>Decision time grows logarithmically with the number of options you can choose from. Hick’s Law</p>
+  </li>
+  <li>
+    <p>Humans can comfortably maintain up to 150 stable relationships. Dunbar’s Number</p>
+  </li>
+  <li>
+    <p>With a sufficient number of users of an API, all observable behaviors of your system will be depended on by somebody. Hyrum’s Law (The Law of Implicit Interfaces)</p>
+  </li>
+  <li>
+    <p>The technical boundaries of a system will reflect the structure of the organization. Conway’s Law</p>
+  </li>
+  <li>
+    <p>The Law of Demeter,  “The Principle of Least Knowledge”</p>
+  </li>
+  <li>
+    <p>The Pareto Principle (The 80/20 Rule)</p>
+  </li>
+  <li>
+    <p>20% of a system creates 80% of its value</p>
+  </li>
+  <li>
+    <p>Ship it</p>
+  </li>
+  <li>
+    <p>Make everything as simple as possible, but not simpler.</p>
+  </li>
+  <li>
+    <p>There is a certain amount of complexity in a system that cannot be reduced. The Law of Conservation of Complexity (Tesler’s Law)</p>
+  </li>
+  <li>
+    <p>All non-trivial abstractions, to some degree, are leaky.</p>
+  </li>
+  <li>
+    <p>If all you have is a hammer, everything looks like a nail.</p>
+  </li>
+  <li>
+    <p>Chesterton’s Fence: Don’t take down a fence unless you know why it is put up.</p>
+  </li>
+</ul>
+
+<h2 id="leave-it-better-than-you-found">Leave it better than you found.</h2>
+
+<ul>
+  <li>
+    <p>The Broken Windows Theory: Visible signs of lack of care in an environment lead to further and more serious deterioration.</p>
+  </li>
+  <li>
+    <p>Get feedback early and often</p>
+  </li>
+  <li>
+    <p>Test early and often</p>
+  </li>
+  <li>
+    <p>Given enough eyeballs, all bugs are shallow.</p>
+  </li>
+</ul>
+
+<blockquote>
+  <p>Any sufficiently advanced technology is indistinguishable from magic.</p>
+</blockquote>
+
+<h2 id="anything-that-can-go-wrong-will-go-wrong">Anything that can go wrong will go wrong.</h2>
+
+<ul>
+  <li>
+    <p>Brandolini’s law: The amount of energy needed to refute bullshit is an order of magnitude bigger than to produce it.</p>
+  </li>
+  <li>
+    <p>It always takes longer than you expect, even when you take this into account</p>
+  </li>
+  <li>
+    <p>Work expands to fill the time available for its completion. Parkinson’s Law</p>
+  </li>
+  <li>
+    <p>Cheops law: Nothing ever gets built on schedule or within budget.</p>
+  </li>
+  <li>
+    <p>Adding human resources to a late software development project makes it later. Brooks’ Law</p>
+  </li>
+  <li>
+    <p>When a measure becomes a target, it ceases to be a good measure. Goodhart’s Law</p>
+  </li>
+  <li>
+    <p>We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run. The Hype Cycle &amp; Amara’s Law</p>
+  </li>
+</ul>
+
+<h2 id="stay-hungry-stay-foolish">Stay hungry, stay foolish</h2>
+
+<ul>
+  <li>
+    <p>Incompetent people think they are the best. The Dunning-Kruger Effect</p>
+  </li>
+  <li>
+    <p>Institutions will try to preserve the problem to which they are the solution. The Shirky Principle</p>
+  </li>
+  <li>
+    <p>People in a hierarchy tend to rise to their “level of incompetence”. The Peter Principle</p>
+  </li>
+</ul>
+
+<h2 id="see-also">See also</h2>
+
+<p><a href="https://en.wikipedia.org/wiki/List_of_eponymous_laws">List of eponymous laws - Wikipedia</a></p>
+
+<p><a href="https://github.com/dwmkerr/hacker-laws">dwmkerr/hacker-laws: 💻📖 Laws, Theories, Principles and Patterns that developers will find useful. #hackerlaws (github.com)</a></p>
+
+<p><a href="/akins-laws-of-spacecraft/">Akins Laws Of Spacecraft</a></p>
+
+
+  
+
+
+
+<h2>Links to this page</h2>
+<ul>
+    
+    
+        <li><a href="https://selimslab.github.io/design-patterns/">Design Patterns</a></li>
+    
+</ul>
+
+
+
+
+    
+
+
+
+
+
+  
+
+<img id="artwork" class="img-full" tabindex="0" onclick="shuffleArt();"/>
+<p id="description" class="img-alt"></p>
+
+<script src="/assets/js/art.js"></script>
+
+
+  
+
+<a style="font-size:1.8rem;" id="ideaMachine" title="Idea Machine" tabindex="0" onclick="setNextIdea();">🎰
+</a>
+
+<p id="random_idea" class="idea" onclick="setNextIdea();"></p>
+
+
+<style>
+  .idea {
+    white-space: pre-line;
+    min-height: 2.5rem
+  }
+</style>
+
+
+<script src="/assets/js/idea.js"></script>
+
+<script>
+
+  const setNextIdea = async () => {
+    let machine = document.getElementById("ideaMachine");
+    animate(machine, "shakey");
+    document.getElementById("random_idea").innerHTML = await getNextIdea();
+  }
+
+  document.addEventListener('DOMContentLoaded', async () => {
+    let machine = document.getElementById("ideaMachine");
+
+    machine.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        setNextIdea();
+      }
+    });
+
+    setNextIdea()
+  });
+
+</script>
+
+
+
+
+<script src="/assets/js/visits.js"></script>
+
+
+
+
+
+    <footer>
+    
+</footer>
+<style>
+    footer {
+        background: inherit !important;
+        padding-top: 1rem;
+        text-align: center;
+    }
+
+
+</style>
+
+  </article>
+</body>
+
+
+</html>
+

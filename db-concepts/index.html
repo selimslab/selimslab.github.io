@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Database Concepts
+  </title>
+
+      <meta charset="utf-8" />
+    <meta lang="en-US" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="1. Normalization and Denormalization
+
+  Normalization: Process of organizing data to reduce redundancy. Steps involve normal forms (1NF, 2NF, 3NF, BCNF).
+  Denormalization: Introducing redundancy to optimize read performance. Used to reduce the complexity of queries.
+
+" />
+    <meta property="og:description" content="1. Normalization and Denormalization
+
+  Normalization: Process of organizing data to reduce redundancy. Steps involve normal forms (1NF, 2NF, 3NF, BCNF).
+  Denormalization: Introducing redundancy to optimize read performance. Used to reduce the complexity of queries.
+
+" />
+    
+    
+    <meta name="author" content="selimslab" />
+
+    
+    <meta property="og:title" content="Database Concepts" />
+    <meta property="twitter:title" content="Database Concepts" />
+    
+  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-touch-icon.png">
+  <link rel="icon" type="image/x-icon" href="/assets/fav/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="/assets/css/bulma.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/code.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/solar.css">
+
+</head>
+
+<body>
+
+  <div class="top"></div>
+
+  <article>
+
+    <nav class="navbar">
+  <div class="navbar-brand">
+    <a href="/" title="Home" class="site-name">Δ</a>
+
+    <div class="search is-6 is-6-mobile">
+  <input type="text" class="input is-small is-rounded" id="search-input" placeholder="Search..">
+  <ul id="results-container"></ul>
+</div>
+<script src="/assets/js/search.js"></script>
+<script>
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/assets/data/search.json',
+    noResultsText: "🤷🏿",
+    limit: 7
+  })
+
+  document.addEventListener('keydown', function (e) {
+    if (e.shiftKey && (e.key === 's' || e.key === 'S')) {
+      e.preventDefault();
+      // focus on search input
+      document.getElementById('search-input').focus();
+    }
+  });
+
+
+</script>
+
+    <a title="Toggle theme" id="themeToggle"  tabindex="0" onclick="switchTheme()" class="navbutton"></a>
+    <a title="Roll the dice! Shift+P" id="dice"  tabindex="0" onclick="getRandomPage()" class="navbutton">🎲</a>
+  </div>
+</nav>
+
+<script src="/assets/js/animate.js"></script>
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/utils.js"></script>
+<script src="/assets/js/post.js"></script>
+<script src="/assets/js/arrow.js"></script>
+
+<style>
+
+a.site-name {
+    color: inherit;
+    font-size: 2rem;
+    margin-right: 1rem;
+
+  }
+
+  .search {
+    padding: 0.5rem;
+    max-width: 9rem;
+  }
+
+  #results-container {
+    margin-top: 0.3rem;
+    list-style: none;
+    font-size: 1rem;
+    max-width: 20ch;
+
+    li {
+      margin: 0 auto;
+      margin-top: 0.3rem;
+      padding: 0.2rem;
+    }
+  }
+
+
+
+  #themeToggle{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+  }
+
+
+  .navbutton {
+    font-size: 1.3rem;
+    margin-top:0.5rem;
+    margin-left:1.2rem;
+  }
+
+  .navbar {
+    background: inherit;
+    color: inherit;
+    width: fit-content;
+    margin-bottom: 1rem;
+  }
+
+  .top {
+    height: 4px;
+    background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2259a7, #373B44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2259a7, #373B44);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+
+
+
+
+</style>
+
+
+
+      <span class="taglist">
+   
+     
+      
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+         
+          <a class="toplink" href="/databases/">Databases</a>
+        
+    
+  
+
+  
+
+
+</span>
+
+
+  <h1>Database Concepts</h1>  
+ 
+  
+
+<p style="font-size: 0.8rem; margin-bottom:0.8rem">
+  ~3 mins read
+</p>
+
+
+
+
+
+  <h4 id="1-normalization-and-denormalization">1. <strong>Normalization and Denormalization</strong></h4>
+<ul>
+  <li><strong>Normalization:</strong> Process of organizing data to reduce redundancy. Steps involve normal forms (1NF, 2NF, 3NF, BCNF).</li>
+  <li><strong>Denormalization:</strong> Introducing redundancy to optimize read performance. Used to reduce the complexity of queries.</li>
+</ul>
+
+<h4 id="2-indexing">2. <strong>Indexing</strong></h4>
+<ul>
+  <li><strong>Purpose:</strong> Speeds up retrieval operations.</li>
+  <li><strong>Types:</strong> B-tree, Hash, Bitmap, Full-text.</li>
+  <li><strong>Trade-offs:</strong> Increased write times and storage usage.</li>
+</ul>
+
+<h4 id="3-transaction-management">3. <strong>Transaction Management</strong></h4>
+<ul>
+  <li><strong>ACID Properties:</strong>
+    <ul>
+      <li><strong>Atomicity:</strong> All operations in a transaction complete or none do.</li>
+      <li><strong>Consistency:</strong> Database remains in a valid state before and after the transaction.</li>
+      <li><strong>Isolation:</strong> Transactions do not affect each other’s execution.</li>
+      <li><strong>Durability:</strong> Changes are permanent once committed.</li>
+    </ul>
+  </li>
+  <li><strong>Isolation Levels:</strong> Read Uncommitted, Read Committed, Repeatable Read, Serializable.</li>
+</ul>
+
+<h4 id="4-concurrency-control">4. <strong>Concurrency Control</strong></h4>
+<ul>
+  <li><strong>Locking Mechanisms:</strong> Pessimistic (Explicit locking) vs. Optimistic (Versioning).</li>
+  <li><strong>Two-Phase Locking (2PL):</strong> Ensures conflict-serializability.</li>
+  <li><strong>Timestamp Ordering:</strong> Ensures serializability by assigning timestamps to transactions.</li>
+</ul>
+
+<h4 id="5-replication-and-sharding">5. <strong>Replication and Sharding</strong></h4>
+<ul>
+  <li><strong>Replication:</strong> Copying data across multiple servers for fault tolerance and load balancing.
+    <ul>
+      <li><strong>Types:</strong> Master-slave, Peer-to-peer.</li>
+    </ul>
+  </li>
+  <li><strong>Sharding:</strong> Splitting data across multiple servers to handle large datasets and high throughput.</li>
+</ul>
+
+<h4 id="6-data-warehousing-and-olap">6. <strong>Data Warehousing and OLAP</strong></h4>
+<ul>
+  <li><strong>Data Warehousing:</strong> Centralized repository for integrated data from multiple sources.</li>
+  <li><strong>Online Analytical Processing (OLAP):</strong> Supports complex queries and analysis.
+    <ul>
+      <li><strong>Star Schema:</strong> Central fact table linked to dimension tables.</li>
+      <li><strong>Snowflake Schema:</strong> Star schema with normalized dimension tables.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="7-nosql-databases">7. <strong>NoSQL Databases</strong></h4>
+<ul>
+  <li><strong>Types:</strong> Document, Key-Value, Column-Family, Graph.</li>
+  <li><strong>Use Cases:</strong> High scalability, unstructured or semi-structured data.</li>
+</ul>
+
+<h4 id="8-query-optimization">8. <strong>Query Optimization</strong></h4>
+<ul>
+  <li><strong>Execution Plans:</strong> Understanding how queries are executed and optimized.</li>
+  <li><strong>Cost-Based Optimization:</strong> Choosing the most efficient query execution path.</li>
+</ul>
+
+<h4 id="9-consistency-models">9. <strong>Consistency Models</strong></h4>
+<ul>
+  <li><strong>Strong Consistency:</strong> Guarantees immediate consistency after a write.</li>
+  <li><strong>Eventual Consistency:</strong> Guarantees eventual consistency without immediate guarantees.</li>
+</ul>
+
+<h4 id="10-cap-theorem">10. <strong>CAP Theorem</strong></h4>
+<ul>
+  <li><strong>Consistency:</strong> All nodes see the same data at the same time.</li>
+  <li><strong>Availability:</strong> Every request receives a response, success or failure.</li>
+  <li><strong>Partition Tolerance:</strong> The system continues to function despite network partitions.</li>
+</ul>
+
+<h4 id="11-database-security">11. <strong>Database Security</strong></h4>
+<ul>
+  <li><strong>Authentication and Authorization:</strong> Controlling access to data.</li>
+  <li><strong>Encryption:</strong> Protecting data at rest and in transit.</li>
+  <li><strong>Auditing:</strong> Tracking access and changes to data.</li>
+</ul>
+
+<h4 id="12-advanced-data-models">12. <strong>Advanced Data Models</strong></h4>
+<ul>
+  <li><strong>Graph Databases:</strong> Represent data as nodes and edges.</li>
+  <li><strong>Temporal Databases:</strong> Manage data involving time dimensions.</li>
+</ul>
+
+<h4 id="13-distributed-databases">13. <strong>Distributed Databases</strong></h4>
+<ul>
+  <li><strong>Coordination:</strong> Mechanisms for ensuring consistency across distributed nodes.</li>
+  <li><strong>Challenges:</strong> Network latency, consistency, fault tolerance.</li>
+</ul>
+
+
+
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+  
+
+<img id="artwork" class="img-full" tabindex="0" onclick="shuffleArt();"/>
+<p id="description" class="img-alt"></p>
+
+<script src="/assets/js/art.js"></script>
+
+
+  
+
+<a style="font-size:1.8rem;" id="ideaMachine" title="Idea Machine" tabindex="0" onclick="setNextIdea();">🎰
+</a>
+
+<p id="random_idea" class="idea" onclick="setNextIdea();"></p>
+
+
+<style>
+  .idea {
+    white-space: pre-line;
+    min-height: 2.5rem
+  }
+</style>
+
+
+<script src="/assets/js/idea.js"></script>
+
+<script>
+
+  const setNextIdea = async () => {
+    let machine = document.getElementById("ideaMachine");
+    animate(machine, "shakey");
+    document.getElementById("random_idea").innerHTML = await getNextIdea();
+  }
+
+  document.addEventListener('DOMContentLoaded', async () => {
+    let machine = document.getElementById("ideaMachine");
+
+    machine.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        setNextIdea();
+      }
+    });
+
+    setNextIdea()
+  });
+
+</script>
+
+
+
+
+<script src="/assets/js/visits.js"></script>
+
+
+
+
+
+    <footer>
+    
+</footer>
+<style>
+    footer {
+        background: inherit !important;
+        padding-top: 1rem;
+        text-align: center;
+    }
+
+
+</style>
+
+  </article>
+</body>
+
+
+</html>
+

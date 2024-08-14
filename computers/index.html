@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Computers from scratch
+  </title>
+
+      <meta charset="utf-8" />
+    <meta lang="en-US" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="From scratch
+" />
+    <meta property="og:description" content="From scratch
+" />
+    
+    
+    <meta name="author" content="selimslab" />
+
+    
+    <meta property="og:title" content="Computers from scratch" />
+    <meta property="twitter:title" content="Computers from scratch" />
+    
+  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-touch-icon.png">
+  <link rel="icon" type="image/x-icon" href="/assets/fav/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="/assets/css/bulma.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/code.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/solar.css">
+
+</head>
+
+<body>
+
+  <div class="top"></div>
+
+  <article>
+
+    <nav class="navbar">
+  <div class="navbar-brand">
+    <a href="/" title="Home" class="site-name">Δ</a>
+
+    <div class="search is-6 is-6-mobile">
+  <input type="text" class="input is-small is-rounded" id="search-input" placeholder="Search..">
+  <ul id="results-container"></ul>
+</div>
+<script src="/assets/js/search.js"></script>
+<script>
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/assets/data/search.json',
+    noResultsText: "🤷🏿",
+    limit: 7
+  })
+
+  document.addEventListener('keydown', function (e) {
+    if (e.shiftKey && (e.key === 's' || e.key === 'S')) {
+      e.preventDefault();
+      // focus on search input
+      document.getElementById('search-input').focus();
+    }
+  });
+
+
+</script>
+
+    <a title="Toggle theme" id="themeToggle"  tabindex="0" onclick="switchTheme()" class="navbutton"></a>
+    <a title="Roll the dice! Shift+P" id="dice"  tabindex="0" onclick="getRandomPage()" class="navbutton">🎲</a>
+  </div>
+</nav>
+
+<script src="/assets/js/animate.js"></script>
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/utils.js"></script>
+<script src="/assets/js/post.js"></script>
+<script src="/assets/js/arrow.js"></script>
+
+<style>
+
+a.site-name {
+    color: inherit;
+    font-size: 2rem;
+    margin-right: 1rem;
+
+  }
+
+  .search {
+    padding: 0.5rem;
+    max-width: 9rem;
+  }
+
+  #results-container {
+    margin-top: 0.3rem;
+    list-style: none;
+    font-size: 1rem;
+    max-width: 20ch;
+
+    li {
+      margin: 0 auto;
+      margin-top: 0.3rem;
+      padding: 0.2rem;
+    }
+  }
+
+
+
+  #themeToggle{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+  }
+
+
+  .navbutton {
+    font-size: 1.3rem;
+    margin-top:0.5rem;
+    margin-left:1.2rem;
+  }
+
+  .navbar {
+    background: inherit;
+    color: inherit;
+    width: fit-content;
+    margin-bottom: 1rem;
+  }
+
+  .top {
+    height: 4px;
+    background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2259a7, #373B44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2259a7, #373B44);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+
+
+
+
+</style>
+
+
+
+      <span class="taglist">
+   
+     
+      
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+         
+          <a class="toplink" href="/tech/">Technology</a>
+        
+    
+  
+
+  
+
+
+</span>
+
+
+  <h1>Computers from scratch</h1>  
+ 
+  
+
+<p style="font-size: 0.8rem; margin-bottom:0.8rem">
+  ~2 mins read
+</p>
+
+
+
+
+
+  <h2 id="from-scratch">From scratch</h2>
+
+<p>numbers</p>
+
+<p>writing</p>
+
+<p>electricity</p>
+
+<p>electron movement = current</p>
+
+<p>the cause of electron movement can be magnetism + moving parts or chemical</p>
+
+<p>no current/current</p>
+
+<p>open/close</p>
+
+<p>0/1</p>
+
+<p>base 2</p>
+
+<p>boolean logic, AND OR NOT IF</p>
+
+<p>mechanical switch</p>
+
+<p>vacuum tube</p>
+
+<p>transistor npn pnp</p>
+
+<p>logic gates</p>
+
+<p>memory cells</p>
+
+<p>bit</p>
+
+<p>byte</p>
+
+<h2 id="data-types">Data types</h2>
+
+<p>Everything is bytes in memory. We define how should the computer interpret bytes. 
+For example, take the byte 0101001. If looked as text, it’s the letter ‘A’. The computer could interpret it as a color pixel if the same byte were in a movie file, or as part of a song.</p>
+
+<p>int</p>
+
+<p>unsigned int</p>
+
+<p>long</p>
+
+<p>short</p>
+
+<p>double</p>
+
+<p>float</p>
+
+<p>decimal</p>
+
+<p>bool</p>
+
+<p>char</p>
+
+<p>string</p>
+
+<p>unicode</p>
+
+<p>utf8</p>
+
+<h2 id="computer-organization">Computer organization</h2>
+
+<p>fetch-decode-execute</p>
+
+<p>CPU =  ALU + control unit + memory unit</p>
+
+<p>memory</p>
+
+<p>disk</p>
+
+<h2 id="instructions">Instructions</h2>
+
+<p>opcode operand</p>
+
+<p>LOAD 0010</p>
+
+<p>ADD 0001 0100</p>
+
+<p>PUSH</p>
+
+<p>POP</p>
+
+<p>JUMP</p>
+
+<p>conditionals -&gt; jump &amp; jump if not true</p>
+
+<p>variables -&gt; binding, SET&amp;GET, symbol table in VM</p>
+
+<p>loops -&gt; if &amp; jump</p>
+
+<p>expressions</p>
+
+<h2 id="program">Program</h2>
+
+<p>a set of instructions</p>
+
+<p>code</p>
+
+<p>data</p>
+
+<h2 id="process">Process</h2>
+
+<p>the OS abstraction for a running program, PID</p>
+
+<p>thread is a process with a shared address space</p>
+
+<p>stack pointer SP</p>
+
+<p>instruction pointer(program counter) PC or IP</p>
+
+<h2 id="address-space">address space</h2>
+
+<p>stack</p>
+
+<p>heap</p>
+
+<p>code</p>
+
+<p>data</p>
+
+<h3 id="stack">stack</h3>
+
+<p>return address</p>
+
+<p>params</p>
+
+<p>open files</p>
+
+<p>local variables</p>
+
+<h3 id="heap">heap</h3>
+<p>new()</p>
+
+<p>malloc()</p>
+
+<h2 id="interpreter">interpreter</h2>
+
+<p>tokenize</p>
+
+<p>parse tokens to nodes</p>
+
+<p>create AST, a tree of nodes</p>
+
+<p>take a walk and eval</p>
+
+<h2 id="compiler">compiler</h2>
+<p>tokenize</p>
+
+<p>parse tokens to nodes</p>
+
+<p>create AST or another IR</p>
+
+<p>emit bytecodes</p>
+
+<h2 id="vm">VM</h2>
+
+<p>execute bytecodes</p>
+
+<p>can be a stack or register machine</p>
+
+<p>examples</p>
+
+<p>java compiler vs jvm</p>
+
+<p>c# compiler vs CLR</p>
+
+<p>PVM</p>
+
+<h2 id="os">OS</h2>
+
+<p>bios</p>
+
+<p>bootloader</p>
+
+<p>kernel</p>
+
+<p>user space</p>
+
+<h2 id="kernel">Kernel</h2>
+
+<p>virtual memory</p>
+
+<p>file system</p>
+
+<p>virtual cpu</p>
+
+<h2 id="concurrency-control">Concurrency control</h2>
+
+<p>mutex</p>
+
+<p>semaphore</p>
+
+<h2 id="policies">Policies</h2>
+
+<p>Scheduling</p>
+
+<h2 id="mechanisms">Mechanisms</h2>
+
+<h2 id="process-api">Process api</h2>
+
+<p>fork, exec, wait</p>
+
+<p>signals</p>
+
+<h2 id="c">C</h2>
+
+<p>include</p>
+
+<p>struct</p>
+
+<p>typedef</p>
+
+<p>union</p>
+
+<p>enum</p>
+
+<hr />
+
+<p>pointer</p>
+
+<p>*p &amp;p</p>
+
+<hr />
+
+<p>atomic</p>
+
+<p>volatile</p>
+
+<p>const</p>
+
+<p>static</p>
+
+<p>register</p>
+
+
+  
+
+<h2>Content</h2>
+<ul><li></li><li><a href='/containers/'>Containers</a></li><li><a href='/networks/'>Networks</a></li><li><a href='/operating-systems/'>Operating Systems</a></li></ul>
+
+
+
+<h2>Links to this page</h2>
+<ul>
+    
+    
+        <li><a href="https://selimslab.github.io/for-new-programmers/">For New Programmers</a></li>
+    
+</ul>
+
+
+
+
+    
+
+
+
+
+
+  
+
+<img id="artwork" class="img-full" tabindex="0" onclick="shuffleArt();"/>
+<p id="description" class="img-alt"></p>
+
+<script src="/assets/js/art.js"></script>
+
+
+  
+
+<a style="font-size:1.8rem;" id="ideaMachine" title="Idea Machine" tabindex="0" onclick="setNextIdea();">🎰
+</a>
+
+<p id="random_idea" class="idea" onclick="setNextIdea();"></p>
+
+
+<style>
+  .idea {
+    white-space: pre-line;
+    min-height: 2.5rem
+  }
+</style>
+
+
+<script src="/assets/js/idea.js"></script>
+
+<script>
+
+  const setNextIdea = async () => {
+    let machine = document.getElementById("ideaMachine");
+    animate(machine, "shakey");
+    document.getElementById("random_idea").innerHTML = await getNextIdea();
+  }
+
+  document.addEventListener('DOMContentLoaded', async () => {
+    let machine = document.getElementById("ideaMachine");
+
+    machine.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        setNextIdea();
+      }
+    });
+
+    setNextIdea()
+  });
+
+</script>
+
+
+
+
+<script src="/assets/js/visits.js"></script>
+
+
+
+
+
+    <footer>
+    
+</footer>
+<style>
+    footer {
+        background: inherit !important;
+        padding-top: 1rem;
+        text-align: center;
+    }
+
+
+</style>
+
+  </article>
+</body>
+
+
+</html>
+

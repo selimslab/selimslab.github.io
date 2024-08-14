@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Design an OAuth System
+  </title>
+
+      <meta charset="utf-8" />
+    <meta lang="en-US" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="```py
+from dataclasses import dataclass
+from typing import Dict, Optional, Tuple
+from urllib.parse import urlparse, parse_qs
+" />
+    <meta property="og:description" content="```py
+from dataclasses import dataclass
+from typing import Dict, Optional, Tuple
+from urllib.parse import urlparse, parse_qs
+" />
+    
+    
+    <meta name="author" content="selimslab" />
+
+    
+    <meta property="og:title" content="Design an OAuth System" />
+    <meta property="twitter:title" content="Design an OAuth System" />
+    
+  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-touch-icon.png">
+  <link rel="icon" type="image/x-icon" href="/assets/fav/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="/assets/css/bulma.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/code.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/solar.css">
+
+</head>
+
+<body>
+
+  <div class="top"></div>
+
+  <article>
+
+    <nav class="navbar">
+  <div class="navbar-brand">
+    <a href="/" title="Home" class="site-name">Δ</a>
+
+    <div class="search is-6 is-6-mobile">
+  <input type="text" class="input is-small is-rounded" id="search-input" placeholder="Search..">
+  <ul id="results-container"></ul>
+</div>
+<script src="/assets/js/search.js"></script>
+<script>
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/assets/data/search.json',
+    noResultsText: "🤷🏿",
+    limit: 7
+  })
+
+  document.addEventListener('keydown', function (e) {
+    if (e.shiftKey && (e.key === 's' || e.key === 'S')) {
+      e.preventDefault();
+      // focus on search input
+      document.getElementById('search-input').focus();
+    }
+  });
+
+
+</script>
+
+    <a title="Toggle theme" id="themeToggle"  tabindex="0" onclick="switchTheme()" class="navbutton"></a>
+    <a title="Roll the dice! Shift+P" id="dice"  tabindex="0" onclick="getRandomPage()" class="navbutton">🎲</a>
+  </div>
+</nav>
+
+<script src="/assets/js/animate.js"></script>
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/utils.js"></script>
+<script src="/assets/js/post.js"></script>
+<script src="/assets/js/arrow.js"></script>
+
+<style>
+
+a.site-name {
+    color: inherit;
+    font-size: 2rem;
+    margin-right: 1rem;
+
+  }
+
+  .search {
+    padding: 0.5rem;
+    max-width: 9rem;
+  }
+
+  #results-container {
+    margin-top: 0.3rem;
+    list-style: none;
+    font-size: 1rem;
+    max-width: 20ch;
+
+    li {
+      margin: 0 auto;
+      margin-top: 0.3rem;
+      padding: 0.2rem;
+    }
+  }
+
+
+
+  #themeToggle{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+  }
+
+
+  .navbutton {
+    font-size: 1.3rem;
+    margin-top:0.5rem;
+    margin-left:1.2rem;
+  }
+
+  .navbar {
+    background: inherit;
+    color: inherit;
+    width: fit-content;
+    margin-bottom: 1rem;
+  }
+
+  .top {
+    height: 4px;
+    background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2259a7, #373B44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2259a7, #373B44);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+
+
+
+
+</style>
+
+
+
+      <span class="taglist">
+   
+     
+      
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+         
+          <a class="toplink" href="/oop-designs/">OOP designs</a>
+        
+    
+  
+
+  
+
+
+</span>
+
+
+  <h1>Design an OAuth System</h1>  
+ 
+  
+
+<p style="font-size: 0.8rem; margin-bottom:0.8rem">
+  ~6 mins read
+</p>
+
+
+
+
+
+  <div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+</pre></td><td class="rouge-code"><pre><span class="kn">from</span> <span class="nn">dataclasses</span> <span class="kn">import</span> <span class="n">dataclass</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">Optional</span><span class="p">,</span> <span class="n">Tuple</span>
+<span class="kn">from</span> <span class="nn">urllib.parse</span> <span class="kn">import</span> <span class="n">urlparse</span><span class="p">,</span> <span class="n">parse_qs</span>
+
+<span class="n">ClientID</span> <span class="o">=</span> <span class="nb">str</span>
+<span class="n">ClientSecret</span> <span class="o">=</span> <span class="nb">str</span>
+<span class="n">RedirectURI</span> <span class="o">=</span> <span class="nb">str</span>
+<span class="n">UserID</span> <span class="o">=</span> <span class="nb">str</span>
+<span class="n">AuthorizationCode</span> <span class="o">=</span> <span class="nb">str</span>
+<span class="n">AccessToken</span> <span class="o">=</span> <span class="nb">str</span>
+
+<span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">OAuthClient</span><span class="p">:</span>
+    <span class="n">client_id</span><span class="p">:</span> <span class="n">ClientID</span>
+    <span class="n">client_secret</span><span class="p">:</span> <span class="n">ClientSecret</span>
+    <span class="n">redirect_uri</span><span class="p">:</span> <span class="n">RedirectURI</span>
+
+<span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">OAuthUser</span><span class="p">:</span>
+    <span class="n">user_id</span><span class="p">:</span> <span class="n">UserID</span>
+    <span class="n">username</span><span class="p">:</span> <span class="nb">str</span>
+
+<span class="k">class</span> <span class="nc">OAuthServer</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">clients</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="n">ClientID</span><span class="p">,</span> <span class="n">OAuthClient</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">users</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="n">UserID</span><span class="p">,</span> <span class="n">OAuthUser</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">authorization_codes</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="n">AuthorizationCode</span><span class="p">,</span> <span class="n">Tuple</span><span class="p">[</span><span class="n">ClientID</span><span class="p">,</span> <span class="n">RedirectURI</span><span class="p">]]</span> <span class="o">=</span> <span class="p">{}</span>  <span class="c1"># Map authorization code to client ID and redirect URI
+</span>        <span class="bp">self</span><span class="p">.</span><span class="n">access_tokens</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="n">ClientID</span><span class="p">,</span> <span class="n">AccessToken</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>  <span class="c1"># Store access tokens
+</span>
+    <span class="k">def</span> <span class="nf">register_client</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">client</span><span class="p">:</span> <span class="n">OAuthClient</span><span class="p">):</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">clients</span><span class="p">[</span><span class="n">client</span><span class="p">.</span><span class="n">client_id</span><span class="p">]</span> <span class="o">=</span> <span class="n">client</span>
+
+    <span class="k">def</span> <span class="nf">register_user</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">user</span><span class="p">:</span> <span class="n">OAuthUser</span><span class="p">):</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">users</span><span class="p">[</span><span class="n">user</span><span class="p">.</span><span class="n">user_id</span><span class="p">]</span> <span class="o">=</span> <span class="n">user</span>
+
+    <span class="k">def</span> <span class="nf">generate_authorization_code</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">client_id</span><span class="p">:</span> <span class="n">ClientID</span><span class="p">,</span> <span class="n">user_id</span><span class="p">:</span> <span class="n">UserID</span><span class="p">,</span> <span class="n">redirect_uri</span><span class="p">:</span> <span class="n">RedirectURI</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">AuthorizationCode</span><span class="p">:</span>
+        <span class="n">authorization_code</span> <span class="o">=</span> <span class="s">"generated_authorization_code"</span>  <span class="c1"># Implement logic to generate authorization code
+</span>        <span class="bp">self</span><span class="p">.</span><span class="n">authorization_codes</span><span class="p">[</span><span class="n">authorization_code</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">client_id</span><span class="p">,</span> <span class="n">redirect_uri</span><span class="p">)</span>  <span class="c1"># Store authorization code with client ID and redirect URI
+</span>        <span class="k">return</span> <span class="n">authorization_code</span>
+
+    <span class="k">def</span> <span class="nf">exchange_authorization_code_for_access_token</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">client_id</span><span class="p">:</span> <span class="n">ClientID</span><span class="p">,</span> <span class="n">client_secret</span><span class="p">:</span> <span class="n">ClientSecret</span><span class="p">,</span> <span class="n">authorization_code</span><span class="p">:</span> <span class="n">AuthorizationCode</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Optional</span><span class="p">[</span><span class="n">AccessToken</span><span class="p">]:</span>
+        <span class="n">stored_client_id</span><span class="p">,</span> <span class="n">redirect_uri</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">authorization_codes</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="n">authorization_code</span><span class="p">,</span> <span class="p">(</span><span class="bp">None</span><span class="p">,</span> <span class="bp">None</span><span class="p">))</span>
+        <span class="k">if</span> <span class="n">stored_client_id</span> <span class="o">==</span> <span class="n">client_id</span><span class="p">:</span>
+            <span class="n">access_token</span> <span class="o">=</span> <span class="s">"generated_access_token"</span>  <span class="c1"># Implement logic to generate access token
+</span>            <span class="c1"># for example, secrets.token_urlsafe(length)
+</span>            <span class="bp">self</span><span class="p">.</span><span class="n">access_tokens</span><span class="p">[</span><span class="n">client_id</span><span class="p">]</span> <span class="o">=</span> <span class="n">access_token</span>  <span class="c1"># Store access token
+</span>            <span class="k">return</span> <span class="n">access_token</span><span class="p">,</span> <span class="n">redirect_uri</span>
+        <span class="k">return</span> <span class="bp">None</span><span class="p">,</span> <span class="bp">None</span>
+
+<span class="k">class</span> <span class="nc">OAuthClientApp</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">client</span><span class="p">:</span> <span class="n">OAuthClient</span><span class="p">):</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">client</span> <span class="o">=</span> <span class="n">client</span>
+
+    <span class="k">def</span> <span class="nf">request_authorization</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">user_id</span><span class="p">:</span> <span class="n">UserID</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="n">redirect_uri</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">client</span><span class="p">.</span><span class="n">redirect_uri</span>
+        <span class="n">authorization_code</span> <span class="o">=</span> <span class="n">oauth_server</span><span class="p">.</span><span class="n">generate_authorization_code</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">client</span><span class="p">.</span><span class="n">client_id</span><span class="p">,</span> <span class="n">user_id</span><span class="p">,</span> <span class="n">redirect_uri</span><span class="p">)</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">redirect_uri</span><span class="si">}</span><span class="s">?code=</span><span class="si">{</span><span class="n">authorization_code</span><span class="si">}</span><span class="s">"</span>
+
+    <span class="k">def</span> <span class="nf">handle_redirect_response</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">redirect_url</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="n">Optional</span><span class="p">[</span><span class="n">AuthorizationCode</span><span class="p">],</span> <span class="n">Optional</span><span class="p">[</span><span class="n">RedirectURI</span><span class="p">]]:</span>
+        <span class="n">parsed_url</span> <span class="o">=</span> <span class="n">urlparse</span><span class="p">(</span><span class="n">redirect_url</span><span class="p">)</span>
+        <span class="n">query_params</span> <span class="o">=</span> <span class="n">parse_qs</span><span class="p">(</span><span class="n">parsed_url</span><span class="p">.</span><span class="n">query</span><span class="p">)</span>
+        <span class="n">authorization_code</span> <span class="o">=</span> <span class="n">query_params</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="s">'code'</span><span class="p">,</span> <span class="p">[</span><span class="bp">None</span><span class="p">])[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">redirect_uri</span> <span class="o">=</span> <span class="n">query_params</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="s">'redirect_uri'</span><span class="p">,</span> <span class="p">[</span><span class="bp">None</span><span class="p">])[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="k">return</span> <span class="n">authorization_code</span><span class="p">,</span> <span class="n">redirect_uri</span>
+
+    <span class="k">def</span> <span class="nf">request_access_token</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">authorization_code</span><span class="p">:</span> <span class="n">AuthorizationCode</span><span class="p">,</span> <span class="n">redirect_uri</span><span class="p">:</span> <span class="n">RedirectURI</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Optional</span><span class="p">[</span><span class="n">AccessToken</span><span class="p">]:</span>
+        <span class="n">client_id</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">client</span><span class="p">.</span><span class="n">client_id</span>
+        <span class="n">client_secret</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">client</span><span class="p">.</span><span class="n">client_secret</span>
+        <span class="n">access_token</span><span class="p">,</span> <span class="n">stored_redirect_uri</span> <span class="o">=</span> <span class="n">oauth_server</span><span class="p">.</span><span class="n">exchange_authorization_code_for_access_token</span><span class="p">(</span><span class="n">client_id</span><span class="p">,</span> <span class="n">client_secret</span><span class="p">,</span> <span class="n">authorization_code</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">stored_redirect_uri</span> <span class="o">==</span> <span class="n">redirect_uri</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">access_token</span>
+        <span class="k">return</span> <span class="bp">None</span>
+
+<span class="n">oauth_server</span> <span class="o">=</span> <span class="n">OAuthServer</span><span class="p">()</span>
+<span class="n">client</span> <span class="o">=</span> <span class="n">OAuthClient</span><span class="p">(</span><span class="s">"client_id"</span><span class="p">,</span> <span class="s">"client_secret"</span><span class="p">,</span> <span class="s">"https://client.example.com/callback"</span><span class="p">)</span>
+<span class="n">oauth_server</span><span class="p">.</span><span class="n">register_client</span><span class="p">(</span><span class="n">client</span><span class="p">)</span>
+<span class="n">user</span> <span class="o">=</span> <span class="n">OAuthUser</span><span class="p">(</span><span class="s">"user_id"</span><span class="p">,</span> <span class="s">"username"</span><span class="p">)</span>
+<span class="n">oauth_server</span><span class="p">.</span><span class="n">register_user</span><span class="p">(</span><span class="n">user</span><span class="p">)</span>
+
+<span class="n">client_app</span> <span class="o">=</span> <span class="n">OAuthClientApp</span><span class="p">(</span><span class="n">client</span><span class="p">)</span>
+
+<span class="c1"># Step 1: User Authorization Request
+</span><span class="n">authorization_url</span> <span class="o">=</span> <span class="n">client_app</span><span class="p">.</span><span class="n">request_authorization</span><span class="p">(</span><span class="s">"user_id"</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Redirect the user to: </span><span class="si">{</span><span class="n">authorization_url</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+
+<span class="c1"># Step 2: Client Handles Redirect and Extracts Authorization Code
+</span><span class="n">redirect_url</span> <span class="o">=</span> <span class="s">"https://client.example.com/callback?code=generated_authorization_code&amp;redirect_uri=https://client.example.com/callback"</span>
+<span class="n">authorization_code</span><span class="p">,</span> <span class="n">redirect_uri</span> <span class="o">=</span> <span class="n">client_app</span><span class="p">.</span><span class="n">handle_redirect_response</span><span class="p">(</span><span class="n">redirect_url</span><span class="p">)</span>
+
+<span class="c1"># Step 3: Client Requests Access Token Using Authorization Code and Redirect URI
+</span><span class="n">access_token</span> <span class="o">=</span> <span class="n">client_app</span><span class="p">.</span><span class="n">request_access_token</span><span class="p">(</span><span class="n">authorization_code</span><span class="p">,</span> <span class="n">redirect_uri</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">access_token</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Received access token: </span><span class="si">{</span><span class="n">access_token</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">"Invalid authorization code or redirect URI"</span><span class="p">)</span>
+
+
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+  
+
+<img id="artwork" class="img-full" tabindex="0" onclick="shuffleArt();"/>
+<p id="description" class="img-alt"></p>
+
+<script src="/assets/js/art.js"></script>
+
+
+  
+
+<a style="font-size:1.8rem;" id="ideaMachine" title="Idea Machine" tabindex="0" onclick="setNextIdea();">🎰
+</a>
+
+<p id="random_idea" class="idea" onclick="setNextIdea();"></p>
+
+
+<style>
+  .idea {
+    white-space: pre-line;
+    min-height: 2.5rem
+  }
+</style>
+
+
+<script src="/assets/js/idea.js"></script>
+
+<script>
+
+  const setNextIdea = async () => {
+    let machine = document.getElementById("ideaMachine");
+    animate(machine, "shakey");
+    document.getElementById("random_idea").innerHTML = await getNextIdea();
+  }
+
+  document.addEventListener('DOMContentLoaded', async () => {
+    let machine = document.getElementById("ideaMachine");
+
+    machine.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        setNextIdea();
+      }
+    });
+
+    setNextIdea()
+  });
+
+</script>
+
+
+
+
+<script src="/assets/js/visits.js"></script>
+
+
+
+
+
+    <footer>
+    
+</footer>
+<style>
+    footer {
+        background: inherit !important;
+        padding-top: 1rem;
+        text-align: center;
+    }
+
+
+</style>
+
+  </article>
+</body>
+
+
+</html>
+

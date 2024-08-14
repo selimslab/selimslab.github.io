@@ -1,0 +1,1395 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Let's write a compiler
+  </title>
+
+      <meta charset="utf-8" />
+    <meta lang="en-US" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Both an interpreter and a compiler translate one language to another, normally a higher-level one to a lower-level one.
+" />
+    <meta property="og:description" content="Both an interpreter and a compiler translate one language to another, normally a higher-level one to a lower-level one.
+" />
+    
+    
+    <meta name="author" content="selimslab" />
+
+    
+    <meta property="og:title" content="Let's write a compiler" />
+    <meta property="twitter:title" content="Let's write a compiler" />
+    
+  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-touch-icon.png">
+  <link rel="icon" type="image/x-icon" href="/assets/fav/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="/assets/css/bulma.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/code.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/solar.css">
+
+</head>
+
+<body>
+
+  <div class="top"></div>
+
+  <article>
+
+    <nav class="navbar">
+  <div class="navbar-brand">
+    <a href="/" title="Home" class="site-name">Δ</a>
+
+    <div class="search is-6 is-6-mobile">
+  <input type="text" class="input is-small is-rounded" id="search-input" placeholder="Search..">
+  <ul id="results-container"></ul>
+</div>
+<script src="/assets/js/search.js"></script>
+<script>
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/assets/data/search.json',
+    noResultsText: "🤷🏿",
+    limit: 7
+  })
+
+  document.addEventListener('keydown', function (e) {
+    if (e.shiftKey && (e.key === 's' || e.key === 'S')) {
+      e.preventDefault();
+      // focus on search input
+      document.getElementById('search-input').focus();
+    }
+  });
+
+
+</script>
+
+    <a title="Toggle theme" id="themeToggle"  tabindex="0" onclick="switchTheme()" class="navbutton"></a>
+    <a title="Roll the dice! Shift+P" id="dice"  tabindex="0" onclick="getRandomPage()" class="navbutton">🎲</a>
+  </div>
+</nav>
+
+<script src="/assets/js/animate.js"></script>
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/utils.js"></script>
+<script src="/assets/js/post.js"></script>
+<script src="/assets/js/arrow.js"></script>
+
+<style>
+
+a.site-name {
+    color: inherit;
+    font-size: 2rem;
+    margin-right: 1rem;
+
+  }
+
+  .search {
+    padding: 0.5rem;
+    max-width: 9rem;
+  }
+
+  #results-container {
+    margin-top: 0.3rem;
+    list-style: none;
+    font-size: 1rem;
+    max-width: 20ch;
+
+    li {
+      margin: 0 auto;
+      margin-top: 0.3rem;
+      padding: 0.2rem;
+    }
+  }
+
+
+
+  #themeToggle{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+  }
+
+
+  .navbutton {
+    font-size: 1.3rem;
+    margin-top:0.5rem;
+    margin-left:1.2rem;
+  }
+
+  .navbar {
+    background: inherit;
+    color: inherit;
+    width: fit-content;
+    margin-bottom: 1rem;
+  }
+
+  .top {
+    height: 4px;
+    background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2259a7, #373B44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2259a7, #373B44);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+
+
+
+
+</style>
+
+
+
+      <span class="taglist">
+   
+     
+      
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+         
+          <a class="toplink" href="/projects/">Projects</a>
+        
+    
+   
+     
+      
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+         
+          <a class="toplink" href="/python/">Python</a>
+        
+    
+  
+
+  
+
+
+</span>
+
+
+  <h1>Let's write a compiler</h1>  
+ 
+  
+
+<p style="font-size: 0.8rem; margin-bottom:0.8rem">
+  ~25 mins read
+</p>
+
+
+
+
+
+  <p>Both an interpreter and a compiler translate one language to another, normally a higher-level one to a lower-level one.</p>
+
+<p>In the end, every program must be compiled down to the assembly, CPU instructions, and finally electric pulses on transistors of logic gates</p>
+
+<p>In the <a href="/pascal-interpreter/">An interpreter in Python</a> post, we built a mini interpreter, visiting the nodes and executing them, the flow looked like</p>
+
+<p>Source Code -&gt; <strong>TOKENIZER</strong> -&gt; tokens 
+-&gt; <strong>PARSER</strong> -&gt; Abstract Syntax Tree -&gt; <strong>EVALUATOR</strong> -&gt; Executes in another language like C -&gt; <strong>COMPILER</strong> -&gt; machine code</p>
+
+<p>For a compiler, it would look like</p>
+
+<p>Source Code -&gt; <strong>TOKENIZER</strong> -&gt; tokens 
+-&gt; <strong>PARSER</strong> -&gt; Abstract Syntax Tree 
+-&gt; <strong>COMPILER</strong> -&gt; byte code -&gt; <strong>VM</strong> -&gt; <strong>COMPILER for the VM language</strong> -&gt; <strong>Assembler</strong> -&gt; machine code</p>
+
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+</pre></td><td class="rouge-code"><pre><span class="kn">from</span> <span class="nn">enum</span> <span class="kn">import</span> <span class="n">Enum</span><span class="p">,</span> <span class="n">auto</span>
+<span class="kn">from</span> <span class="nn">dataclasses</span> <span class="kn">import</span> <span class="n">dataclass</span>
+
+<span class="c1"># Enum to represent different token types
+</span><span class="k">class</span> <span class="nc">TokenType</span><span class="p">(</span><span class="n">Enum</span><span class="p">):</span>
+    <span class="n">ILLEGAL</span> <span class="o">=</span> <span class="s">"ILLEGAL"</span>
+    <span class="n">EOF</span> <span class="o">=</span> <span class="s">"EOF"</span>
+
+    <span class="c1"># Identifiers + literals
+</span>    <span class="n">IDENT</span> <span class="o">=</span> <span class="s">"IDENT"</span>  <span class="c1"># add, foobar, x, y, ...
+</span>    <span class="n">INT</span> <span class="o">=</span> <span class="s">"INT"</span>      <span class="c1"># 1343456
+</span>    <span class="n">STRING</span> <span class="o">=</span> <span class="s">"STRING"</span>  <span class="c1"># "foobar"
+</span>
+    <span class="c1"># Operators
+</span>    <span class="n">ASSIGN</span> <span class="o">=</span> <span class="s">"="</span>
+    <span class="n">PLUS</span> <span class="o">=</span> <span class="s">"+"</span>
+    <span class="n">MINUS</span> <span class="o">=</span> <span class="s">"-"</span>
+    <span class="n">BANG</span> <span class="o">=</span> <span class="s">"!"</span>
+    <span class="n">ASTERISK</span> <span class="o">=</span> <span class="s">"*"</span>
+    <span class="n">SLASH</span> <span class="o">=</span> <span class="s">"/"</span>
+
+    <span class="n">LT</span> <span class="o">=</span> <span class="s">"&lt;"</span>
+    <span class="n">GT</span> <span class="o">=</span> <span class="s">"&gt;"</span>
+
+    <span class="n">EQ</span> <span class="o">=</span> <span class="s">"=="</span>
+    <span class="n">NOT_EQ</span> <span class="o">=</span> <span class="s">"!="</span>
+
+    <span class="c1"># Delimiters
+</span>    <span class="n">COMMA</span> <span class="o">=</span> <span class="s">","</span>
+    <span class="n">SEMICOLON</span> <span class="o">=</span> <span class="s">";"</span>
+    <span class="n">COLON</span> <span class="o">=</span> <span class="s">":"</span>
+
+    <span class="n">LPAREN</span> <span class="o">=</span> <span class="s">"("</span>
+    <span class="n">RPAREN</span> <span class="o">=</span> <span class="s">")"</span>
+    <span class="n">LBRACE</span> <span class="o">=</span> <span class="s">"{"</span>
+    <span class="n">RBRACE</span> <span class="o">=</span> <span class="s">"}"</span>
+    <span class="n">LBRACKET</span> <span class="o">=</span> <span class="s">"["</span>
+    <span class="n">RBRACKET</span> <span class="o">=</span> <span class="s">"]"</span>
+
+    <span class="c1"># Keywords
+</span>    <span class="n">FUNCTION</span> <span class="o">=</span> <span class="s">"FUNCTION"</span>
+    <span class="n">LET</span> <span class="o">=</span> <span class="s">"LET"</span>
+    <span class="n">TRUE</span> <span class="o">=</span> <span class="s">"TRUE"</span>
+    <span class="n">FALSE</span> <span class="o">=</span> <span class="s">"FALSE"</span>
+    <span class="n">IF</span> <span class="o">=</span> <span class="s">"IF"</span>
+    <span class="n">ELSE</span> <span class="o">=</span> <span class="s">"ELSE"</span>
+    <span class="n">RETURN</span> <span class="o">=</span> <span class="s">"RETURN"</span>
+
+<span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">Token</span><span class="p">:</span>
+    <span class="n">Type</span><span class="p">:</span> <span class="n">TokenType</span>
+    <span class="n">Literal</span><span class="p">:</span> <span class="nb">str</span>
+
+<span class="n">keywords</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s">"fn"</span><span class="p">:</span> <span class="n">TokenType</span><span class="p">.</span><span class="n">FUNCTION</span><span class="p">,</span>
+    <span class="s">"let"</span><span class="p">:</span> <span class="n">TokenType</span><span class="p">.</span><span class="n">LET</span><span class="p">,</span>
+    <span class="s">"true"</span><span class="p">:</span> <span class="n">TokenType</span><span class="p">.</span><span class="n">TRUE</span><span class="p">,</span>
+    <span class="s">"false"</span><span class="p">:</span> <span class="n">TokenType</span><span class="p">.</span><span class="n">FALSE</span><span class="p">,</span>
+    <span class="s">"if"</span><span class="p">:</span> <span class="n">TokenType</span><span class="p">.</span><span class="n">IF</span><span class="p">,</span>
+    <span class="s">"else"</span><span class="p">:</span> <span class="n">TokenType</span><span class="p">.</span><span class="n">ELSE</span><span class="p">,</span>
+    <span class="s">"return"</span><span class="p">:</span> <span class="n">TokenType</span><span class="p">.</span><span class="n">RETURN</span><span class="p">,</span>
+<span class="p">}</span>
+
+<span class="n">single_char_tokens</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s">'='</span><span class="p">:</span> <span class="n">TokenType</span><span class="p">.</span><span class="n">ASSIGN</span><span class="p">,</span>
+    <span class="s">'+'</span><span class="p">:</span> <span class="n">TokenType</span><span class="p">.</span><span class="n">PLUS</span><span class="p">,</span>
+    <span class="s">'-'</span><span class="p">:</span> <span class="n">TokenType</span><span class="p">.</span><span class="n">MINUS</span><span class="p">,</span>
+    <span class="s">'!'</span><span class="p">:</span> <span class="n">TokenType</span><span class="p">.</span><span class="n">BANG</span><span class="p">,</span>
+    <span class="s">'/'</span><span class="p">:</span> <span class="n">TokenType</span><span class="p">.</span><span class="n">SLASH</span><span class="p">,</span>
+    <span class="s">'*'</span><span class="p">:</span> <span class="n">TokenType</span><span class="p">.</span><span class="n">ASTERISK</span><span class="p">,</span>
+    <span class="s">'&lt;'</span><span class="p">:</span> <span class="n">TokenType</span><span class="p">.</span><span class="n">LT</span><span class="p">,</span>
+    <span class="s">'&gt;'</span><span class="p">:</span> <span class="n">TokenType</span><span class="p">.</span><span class="n">GT</span><span class="p">,</span>
+    <span class="s">';'</span><span class="p">:</span> <span class="n">TokenType</span><span class="p">.</span><span class="n">SEMICOLON</span><span class="p">,</span>
+    <span class="s">':'</span><span class="p">:</span> <span class="n">TokenType</span><span class="p">.</span><span class="n">COLON</span><span class="p">,</span>
+    <span class="s">','</span><span class="p">:</span> <span class="n">TokenType</span><span class="p">.</span><span class="n">COMMA</span><span class="p">,</span>
+    <span class="s">'{'</span><span class="p">:</span> <span class="n">TokenType</span><span class="p">.</span><span class="n">LBRACE</span><span class="p">,</span>
+    <span class="s">'}'</span><span class="p">:</span> <span class="n">TokenType</span><span class="p">.</span><span class="n">RBRACE</span><span class="p">,</span>
+    <span class="s">'('</span><span class="p">:</span> <span class="n">TokenType</span><span class="p">.</span><span class="n">LPAREN</span><span class="p">,</span>
+    <span class="s">')'</span><span class="p">:</span> <span class="n">TokenType</span><span class="p">.</span><span class="n">RPAREN</span><span class="p">,</span>
+<span class="p">}</span>
+
+<span class="k">def</span> <span class="nf">lookup_ident</span><span class="p">(</span><span class="n">ident</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">TokenType</span><span class="p">:</span>
+    <span class="k">return</span> <span class="n">keywords</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="n">ident</span><span class="p">,</span> <span class="n">TokenType</span><span class="p">.</span><span class="n">IDENT</span><span class="p">)</span>
+
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Now we have the tokens, let’s define what we expect from the tokenizer</p>
+
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+</pre></td><td class="rouge-code"><pre><span class="kn">from</span> <span class="nn">tokenizer</span> <span class="kn">import</span> <span class="n">Tokenizer</span>
+<span class="kn">from</span> <span class="nn">token</span> <span class="kn">import</span> <span class="n">TokenType</span>
+
+<span class="k">def</span> <span class="nf">test_next_token</span><span class="p">():</span>
+    <span class="n">input_text</span> <span class="o">=</span> <span class="s">"""
+    let five = 5;
+    let ten = 10;
+
+    let add = fn(x, y) {
+        x + y;
+    };
+
+    let result = add(five, ten);
+    !-/*5;
+    5 &lt; 10 &gt; 5;
+
+    if (5 &lt; 10) {
+        return true;
+    } else {
+        return false;
+    }
+
+    10 == 10;
+    10 != 9;
+    "foobar"
+    "foo bar"
+    [1, 2];
+    {"foo": "bar"}
+    """</span>
+
+    <span class="n">tests</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">LET</span><span class="p">,</span> <span class="s">"let"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">IDENT</span><span class="p">,</span> <span class="s">"five"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">ASSIGN</span><span class="p">,</span> <span class="s">"="</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">INT</span><span class="p">,</span> <span class="s">"5"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">SEMICOLON</span><span class="p">,</span> <span class="s">";"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">LET</span><span class="p">,</span> <span class="s">"let"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">IDENT</span><span class="p">,</span> <span class="s">"ten"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">ASSIGN</span><span class="p">,</span> <span class="s">"="</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">INT</span><span class="p">,</span> <span class="s">"10"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">SEMICOLON</span><span class="p">,</span> <span class="s">";"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">LET</span><span class="p">,</span> <span class="s">"let"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">IDENT</span><span class="p">,</span> <span class="s">"add"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">ASSIGN</span><span class="p">,</span> <span class="s">"="</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">FUNCTION</span><span class="p">,</span> <span class="s">"fn"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">LPAREN</span><span class="p">,</span> <span class="s">"("</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">IDENT</span><span class="p">,</span> <span class="s">"x"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">COMMA</span><span class="p">,</span> <span class="s">","</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">IDENT</span><span class="p">,</span> <span class="s">"y"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">RPAREN</span><span class="p">,</span> <span class="s">")"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">LBRACE</span><span class="p">,</span> <span class="s">"{"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">IDENT</span><span class="p">,</span> <span class="s">"x"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">PLUS</span><span class="p">,</span> <span class="s">"+"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">IDENT</span><span class="p">,</span> <span class="s">"y"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">SEMICOLON</span><span class="p">,</span> <span class="s">";"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">RBRACE</span><span class="p">,</span> <span class="s">"}"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">SEMICOLON</span><span class="p">,</span> <span class="s">";"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">LET</span><span class="p">,</span> <span class="s">"let"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">IDENT</span><span class="p">,</span> <span class="s">"result"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">ASSIGN</span><span class="p">,</span> <span class="s">"="</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">IDENT</span><span class="p">,</span> <span class="s">"add"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">LPAREN</span><span class="p">,</span> <span class="s">"("</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">IDENT</span><span class="p">,</span> <span class="s">"five"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">COMMA</span><span class="p">,</span> <span class="s">","</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">IDENT</span><span class="p">,</span> <span class="s">"ten"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">RPAREN</span><span class="p">,</span> <span class="s">")"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">SEMICOLON</span><span class="p">,</span> <span class="s">";"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">BANG</span><span class="p">,</span> <span class="s">"!"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">MINUS</span><span class="p">,</span> <span class="s">"-"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">SLASH</span><span class="p">,</span> <span class="s">"/"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">ASTERISK</span><span class="p">,</span> <span class="s">"*"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">INT</span><span class="p">,</span> <span class="s">"5"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">SEMICOLON</span><span class="p">,</span> <span class="s">";"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">INT</span><span class="p">,</span> <span class="s">"5"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">LT</span><span class="p">,</span> <span class="s">"&lt;"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">INT</span><span class="p">,</span> <span class="s">"10"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">GT</span><span class="p">,</span> <span class="s">"&gt;"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">INT</span><span class="p">,</span> <span class="s">"5"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">SEMICOLON</span><span class="p">,</span> <span class="s">";"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">IF</span><span class="p">,</span> <span class="s">"if"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">LPAREN</span><span class="p">,</span> <span class="s">"("</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">INT</span><span class="p">,</span> <span class="s">"5"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">LT</span><span class="p">,</span> <span class="s">"&lt;"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">INT</span><span class="p">,</span> <span class="s">"10"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">RPAREN</span><span class="p">,</span> <span class="s">")"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">LBRACE</span><span class="p">,</span> <span class="s">"{"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">RETURN</span><span class="p">,</span> <span class="s">"return"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">TRUE</span><span class="p">,</span> <span class="s">"true"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">SEMICOLON</span><span class="p">,</span> <span class="s">";"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">RBRACE</span><span class="p">,</span> <span class="s">"}"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">ELSE</span><span class="p">,</span> <span class="s">"else"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">LBRACE</span><span class="p">,</span> <span class="s">"{"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">RETURN</span><span class="p">,</span> <span class="s">"return"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">FALSE</span><span class="p">,</span> <span class="s">"false"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">SEMICOLON</span><span class="p">,</span> <span class="s">";"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">RBRACE</span><span class="p">,</span> <span class="s">"}"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">INT</span><span class="p">,</span> <span class="s">"10"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">EQ</span><span class="p">,</span> <span class="s">"=="</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">INT</span><span class="p">,</span> <span class="s">"10"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">SEMICOLON</span><span class="p">,</span> <span class="s">";"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">INT</span><span class="p">,</span> <span class="s">"10"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">NOT_EQ</span><span class="p">,</span> <span class="s">"!="</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">INT</span><span class="p">,</span> <span class="s">"9"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">SEMICOLON</span><span class="p">,</span> <span class="s">";"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">STRING</span><span class="p">,</span> <span class="s">"foobar"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">STRING</span><span class="p">,</span> <span class="s">"foo bar"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">LBRACKET</span><span class="p">,</span> <span class="s">"["</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">INT</span><span class="p">,</span> <span class="s">"1"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">COMMA</span><span class="p">,</span> <span class="s">","</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">INT</span><span class="p">,</span> <span class="s">"2"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">RBRACKET</span><span class="p">,</span> <span class="s">"]"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">SEMICOLON</span><span class="p">,</span> <span class="s">";"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">LBRACE</span><span class="p">,</span> <span class="s">"{"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">STRING</span><span class="p">,</span> <span class="s">"foo"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">COLON</span><span class="p">,</span> <span class="s">":"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">STRING</span><span class="p">,</span> <span class="s">"bar"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">RBRACE</span><span class="p">,</span> <span class="s">"}"</span><span class="p">),</span>
+        <span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">EOF</span><span class="p">,</span> <span class="s">""</span><span class="p">),</span>
+    <span class="p">]</span>
+
+    <span class="n">tokenizer</span> <span class="o">=</span> <span class="n">Tokenizer</span><span class="p">(</span><span class="n">input_text</span><span class="p">)</span>
+
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="p">(</span><span class="n">expected_type</span><span class="p">,</span> <span class="n">expected_literal</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">tests</span><span class="p">):</span>
+        <span class="n">tok</span> <span class="o">=</span> <span class="n">tokenizer</span><span class="p">.</span><span class="n">next_token</span><span class="p">()</span>
+
+        <span class="k">assert</span> <span class="n">tok</span><span class="p">.</span><span class="nb">type</span> <span class="o">==</span> <span class="n">expected_type</span><span class="p">,</span> <span class="sa">f</span><span class="s">"tests[</span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s">] - tokentype wrong. expected=</span><span class="si">{</span><span class="n">expected_type</span><span class="si">}</span><span class="s">, got=</span><span class="si">{</span><span class="n">tok</span><span class="p">.</span><span class="nb">type</span><span class="si">}</span><span class="s">"</span>
+        <span class="k">assert</span> <span class="n">tok</span><span class="p">.</span><span class="n">literal</span> <span class="o">==</span> <span class="n">expected_literal</span><span class="p">,</span> <span class="sa">f</span><span class="s">"tests[</span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s">] - literal wrong. expected=</span><span class="si">{</span><span class="n">expected_literal</span><span class="si">}</span><span class="s">, got=</span><span class="si">{</span><span class="n">tok</span><span class="p">.</span><span class="n">literal</span><span class="si">}</span><span class="s">"</span>
+
+    <span class="k">print</span><span class="p">(</span><span class="s">"Tokenizer tests passed!"</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">"__main__"</span><span class="p">:</span>
+    <span class="n">test_next_token</span><span class="p">()</span>
+
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Now let’s implement the tokenizer</p>
+
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+</pre></td><td class="rouge-code"><pre>
+<span class="kn">from</span> <span class="nn">token</span> <span class="kn">import</span> <span class="n">Token</span><span class="p">,</span> <span class="n">TokenType</span><span class="p">,</span> <span class="n">single_char_tokens</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Optional</span>
+
+<span class="k">class</span> <span class="nc">Tokenizer</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">input</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+        <span class="bp">self</span><span class="p">.</span><span class="nb">input</span> <span class="o">=</span> <span class="nb">input</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">position</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">read_position</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">ch</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="bp">None</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">read_char</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">__post_init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">read_char</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">read_char</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="p">.</span><span class="n">read_position</span> <span class="o">&gt;=</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="nb">input</span><span class="p">):</span>
+            <span class="bp">self</span><span class="p">.</span><span class="n">ch</span> <span class="o">=</span> <span class="bp">None</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="p">.</span><span class="n">ch</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="nb">input</span><span class="p">[</span><span class="bp">self</span><span class="p">.</span><span class="n">read_position</span><span class="p">]</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">position</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">read_position</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">read_position</span> <span class="o">+=</span> <span class="mi">1</span>
+
+    <span class="k">def</span> <span class="nf">peek_char</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="p">.</span><span class="n">read_position</span> <span class="o">&gt;=</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="nb">input</span><span class="p">):</span>
+            <span class="k">return</span> <span class="bp">None</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="nb">input</span><span class="p">[</span><span class="bp">self</span><span class="p">.</span><span class="n">read_position</span><span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">read_identifier</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">position</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">position</span>
+        <span class="k">while</span> <span class="bp">self</span><span class="p">.</span><span class="n">ch</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span> <span class="ow">and</span> <span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">ch</span><span class="p">.</span><span class="n">isalpha</span><span class="p">()</span> <span class="ow">or</span> <span class="bp">self</span><span class="p">.</span><span class="n">ch</span> <span class="o">==</span> <span class="s">'_'</span><span class="p">):</span>
+            <span class="bp">self</span><span class="p">.</span><span class="n">read_char</span><span class="p">()</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="nb">input</span><span class="p">[</span><span class="n">position</span><span class="p">:</span><span class="bp">self</span><span class="p">.</span><span class="n">position</span><span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">read_number</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">position</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">position</span>
+        <span class="k">while</span> <span class="bp">self</span><span class="p">.</span><span class="n">ch</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span> <span class="ow">and</span> <span class="bp">self</span><span class="p">.</span><span class="n">ch</span><span class="p">.</span><span class="n">isdigit</span><span class="p">():</span>
+            <span class="bp">self</span><span class="p">.</span><span class="n">read_char</span><span class="p">()</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="nb">input</span><span class="p">[</span><span class="n">position</span><span class="p">:</span><span class="bp">self</span><span class="p">.</span><span class="n">position</span><span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">read_string</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">position</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">position</span> <span class="o">+</span> <span class="mi">1</span>
+        <span class="k">while</span> <span class="bp">self</span><span class="p">.</span><span class="n">ch</span> <span class="o">!=</span> <span class="s">'"'</span> <span class="ow">and</span> <span class="bp">self</span><span class="p">.</span><span class="n">ch</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+            <span class="bp">self</span><span class="p">.</span><span class="n">read_char</span><span class="p">()</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="nb">input</span><span class="p">[</span><span class="n">position</span><span class="p">:</span><span class="bp">self</span><span class="p">.</span><span class="n">position</span><span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">skip_whitespace</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">while</span> <span class="bp">self</span><span class="p">.</span><span class="n">ch</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span> <span class="ow">and</span> <span class="bp">self</span><span class="p">.</span><span class="n">ch</span><span class="p">.</span><span class="n">isspace</span><span class="p">():</span>
+            <span class="bp">self</span><span class="p">.</span><span class="n">read_char</span><span class="p">()</span>
+
+
+    <span class="k">def</span> <span class="nf">next_token</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">skip_whitespace</span><span class="p">()</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="p">.</span><span class="n">ch</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">Token</span><span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">EOF</span><span class="p">,</span> <span class="s">""</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="p">.</span><span class="n">ch</span> <span class="ow">in</span> <span class="n">single_char_tokens</span><span class="p">:</span>
+            <span class="n">tok_type</span> <span class="o">=</span> <span class="n">single_char_tokens</span><span class="p">[</span><span class="bp">self</span><span class="p">.</span><span class="n">ch</span><span class="p">]</span>
+            <span class="n">tok_literal</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">ch</span>
+            <span class="bp">self</span><span class="p">.</span><span class="n">read_char</span><span class="p">()</span>
+            <span class="k">return</span> <span class="n">Token</span><span class="p">(</span><span class="n">tok_type</span><span class="p">,</span> <span class="n">tok_literal</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="p">.</span><span class="n">ch</span> <span class="o">==</span> <span class="s">'"'</span><span class="p">:</span>
+            <span class="n">tok_type</span> <span class="o">=</span> <span class="n">TokenType</span><span class="p">.</span><span class="n">STRING</span>
+            <span class="n">tok_literal</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">read_string</span><span class="p">()</span>
+            <span class="k">return</span> <span class="n">Token</span><span class="p">(</span><span class="n">tok_type</span><span class="p">,</span> <span class="n">tok_literal</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="p">.</span><span class="n">ch</span><span class="p">.</span><span class="n">isdigit</span><span class="p">():</span>
+            <span class="n">tok_type</span> <span class="o">=</span> <span class="n">TokenType</span><span class="p">.</span><span class="n">INT</span>
+            <span class="n">tok_literal</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">read_number</span><span class="p">()</span>
+            <span class="k">return</span> <span class="n">Token</span><span class="p">(</span><span class="n">tok_type</span><span class="p">,</span> <span class="n">tok_literal</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="p">.</span><span class="n">ch</span><span class="p">.</span><span class="n">isalpha</span><span class="p">()</span> <span class="ow">or</span> <span class="bp">self</span><span class="p">.</span><span class="n">ch</span> <span class="o">==</span> <span class="s">'_'</span><span class="p">:</span>
+            <span class="n">tok_literal</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">read_identifier</span><span class="p">()</span>
+            <span class="n">tok_type</span> <span class="o">=</span> <span class="n">TokenType</span><span class="p">(</span><span class="n">t</span><span class="p">)</span>
+            <span class="k">return</span> <span class="n">Token</span><span class="p">(</span><span class="n">tok_type</span><span class="p">,</span> <span class="n">tok_literal</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">Token</span><span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">ILLEGAL</span><span class="p">,</span> <span class="bp">self</span><span class="p">.</span><span class="n">ch</span><span class="p">)</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Now let’s define the AST,</p>
+
+<p>a program is a list of statements</p>
+
+<p>each statement is a node in AST</p>
+
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+</pre></td><td class="rouge-code"><pre><span class="kn">from</span> <span class="nn">token</span> <span class="kn">import</span> <span class="n">Token</span><span class="p">,</span> <span class="n">TokenType</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">List</span><span class="p">,</span> <span class="n">Optional</span>
+<span class="kn">from</span> <span class="nn">dataclasses</span> <span class="kn">import</span> <span class="n">dataclass</span>
+
+<span class="c1"># The base Node interface
+</span><span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">Node</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">token_literal</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="nb">NotImplementedError</span>
+
+    <span class="k">def</span> <span class="nf">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="nb">NotImplementedError</span>
+
+<span class="c1"># All statement nodes implement this
+</span><span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">Statement</span><span class="p">(</span><span class="n">Node</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">token_literal</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="nb">NotImplementedError</span>
+
+<span class="c1"># All expression nodes implement this
+</span><span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">Expression</span><span class="p">(</span><span class="n">Node</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">token_literal</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="nb">NotImplementedError</span>
+
+<span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">Program</span><span class="p">(</span><span class="n">Node</span><span class="p">):</span>
+    <span class="n">statements</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Statement</span><span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">token_literal</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="p">.</span><span class="n">statements</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">statements</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">token_literal</span><span class="p">()</span>
+        <span class="k">return</span> <span class="s">""</span>
+
+    <span class="k">def</span> <span class="nf">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s">""</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">stmt</span><span class="p">)</span> <span class="k">for</span> <span class="n">stmt</span> <span class="ow">in</span> <span class="bp">self</span><span class="p">.</span><span class="n">statements</span><span class="p">)</span>
+
+<span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">LetStatement</span><span class="p">(</span><span class="n">Statement</span><span class="p">):</span>
+    <span class="n">token</span><span class="p">:</span> <span class="n">Token</span>
+    <span class="n">name</span><span class="p">:</span> <span class="n">Expression</span>
+    <span class="n">value</span><span class="p">:</span> <span class="n">Expression</span>
+
+    <span class="k">def</span> <span class="nf">token_literal</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">token</span><span class="p">.</span><span class="n">literal</span>
+
+    <span class="k">def</span> <span class="nf">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">token_literal</span><span class="p">()</span><span class="si">}</span><span class="s"> </span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">name</span><span class="si">}</span><span class="s"> = </span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">value</span><span class="si">}</span><span class="s">;"</span>
+
+<span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">ReturnStatement</span><span class="p">(</span><span class="n">Statement</span><span class="p">):</span>
+    <span class="n">token</span><span class="p">:</span> <span class="n">Token</span>
+    <span class="n">return_value</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Expression</span><span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">token_literal</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">token</span><span class="p">.</span><span class="n">literal</span>
+
+    <span class="k">def</span> <span class="nf">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="p">.</span><span class="n">return_value</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+            <span class="k">return</span> <span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">token_literal</span><span class="p">()</span><span class="si">}</span><span class="s"> </span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">return_value</span><span class="si">}</span><span class="s">;"</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">token_literal</span><span class="p">()</span><span class="si">}</span><span class="s">;"</span>
+
+<span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">ExpressionStatement</span><span class="p">(</span><span class="n">Statement</span><span class="p">):</span>
+    <span class="n">token</span><span class="p">:</span> <span class="n">Token</span>
+    <span class="n">expression</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Expression</span><span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">token_literal</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">token</span><span class="p">.</span><span class="n">literal</span>
+
+    <span class="k">def</span> <span class="nf">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="p">.</span><span class="n">expression</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+            <span class="k">return</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">expression</span><span class="p">)</span>
+        <span class="k">return</span> <span class="s">""</span>
+
+<span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">BlockStatement</span><span class="p">(</span><span class="n">Statement</span><span class="p">):</span>
+    <span class="n">token</span><span class="p">:</span> <span class="n">Token</span>
+    <span class="n">statements</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Statement</span><span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">token_literal</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">token</span><span class="p">.</span><span class="n">literal</span>
+
+    <span class="k">def</span> <span class="nf">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s">""</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">stmt</span><span class="p">)</span> <span class="k">for</span> <span class="n">stmt</span> <span class="ow">in</span> <span class="bp">self</span><span class="p">.</span><span class="n">statements</span><span class="p">)</span>
+
+<span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">Identifier</span><span class="p">(</span><span class="n">Expression</span><span class="p">):</span>
+    <span class="n">token</span><span class="p">:</span> <span class="n">Token</span>
+    <span class="n">value</span><span class="p">:</span> <span class="nb">str</span>
+
+    <span class="k">def</span> <span class="nf">token_literal</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">token</span><span class="p">.</span><span class="n">literal</span>
+
+    <span class="k">def</span> <span class="nf">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">value</span>
+
+<span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">Boolean</span><span class="p">(</span><span class="n">Expression</span><span class="p">):</span>
+    <span class="n">token</span><span class="p">:</span> <span class="n">Token</span>
+    <span class="n">value</span><span class="p">:</span> <span class="nb">bool</span>
+
+    <span class="k">def</span> <span class="nf">token_literal</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">token</span><span class="p">.</span><span class="n">literal</span>
+
+    <span class="k">def</span> <span class="nf">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">token</span><span class="p">.</span><span class="n">literal</span>
+
+<span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">IntegerLiteral</span><span class="p">(</span><span class="n">Expression</span><span class="p">):</span>
+    <span class="n">token</span><span class="p">:</span> <span class="n">Token</span>
+    <span class="n">value</span><span class="p">:</span> <span class="nb">int</span>
+
+    <span class="k">def</span> <span class="nf">token_literal</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">token</span><span class="p">.</span><span class="n">literal</span>
+
+    <span class="k">def</span> <span class="nf">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">token</span><span class="p">.</span><span class="n">literal</span>
+
+<span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">PrefixExpression</span><span class="p">(</span><span class="n">Expression</span><span class="p">):</span>
+    <span class="n">token</span><span class="p">:</span> <span class="n">Token</span>
+    <span class="n">operator</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">right</span><span class="p">:</span> <span class="n">Expression</span>
+
+    <span class="k">def</span> <span class="nf">token_literal</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">token</span><span class="p">.</span><span class="n">literal</span>
+
+    <span class="k">def</span> <span class="nf">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="s">"(</span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">operator</span><span class="si">}{</span><span class="bp">self</span><span class="p">.</span><span class="n">right</span><span class="si">}</span><span class="s">)"</span>
+
+<span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">InfixExpression</span><span class="p">(</span><span class="n">Expression</span><span class="p">):</span>
+    <span class="n">token</span><span class="p">:</span> <span class="n">Token</span>
+    <span class="n">left</span><span class="p">:</span> <span class="n">Expression</span>
+    <span class="n">operator</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">right</span><span class="p">:</span> <span class="n">Expression</span>
+
+    <span class="k">def</span> <span class="nf">token_literal</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">token</span><span class="p">.</span><span class="n">literal</span>
+
+    <span class="k">def</span> <span class="nf">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="s">"(</span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">left</span><span class="si">}</span><span class="s"> </span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">operator</span><span class="si">}</span><span class="s"> </span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">right</span><span class="si">}</span><span class="s">)"</span>
+
+<span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">IfExpression</span><span class="p">(</span><span class="n">Expression</span><span class="p">):</span>
+    <span class="n">token</span><span class="p">:</span> <span class="n">Token</span>
+    <span class="n">condition</span><span class="p">:</span> <span class="n">Expression</span>
+    <span class="n">consequence</span><span class="p">:</span> <span class="n">BlockStatement</span>
+    <span class="n">alternative</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">BlockStatement</span><span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">token_literal</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">token</span><span class="p">.</span><span class="n">literal</span>
+
+    <span class="k">def</span> <span class="nf">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="sa">f</span><span class="s">"if </span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">condition</span><span class="si">}</span><span class="s"> </span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">consequence</span><span class="si">}</span><span class="s">"</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="p">.</span><span class="n">alternative</span><span class="p">:</span>
+            <span class="n">result</span> <span class="o">+=</span> <span class="sa">f</span><span class="s">" else </span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">alternative</span><span class="si">}</span><span class="s">"</span>
+        <span class="k">return</span> <span class="n">result</span>
+
+<span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">FunctionLiteral</span><span class="p">(</span><span class="n">Expression</span><span class="p">):</span>
+    <span class="n">token</span><span class="p">:</span> <span class="n">Token</span>
+    <span class="n">parameters</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Identifier</span><span class="p">]</span>
+    <span class="n">body</span><span class="p">:</span> <span class="n">BlockStatement</span>
+
+    <span class="k">def</span> <span class="nf">token_literal</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">token</span><span class="p">.</span><span class="n">literal</span>
+
+    <span class="k">def</span> <span class="nf">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="n">params</span> <span class="o">=</span> <span class="s">", "</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">param</span><span class="p">)</span> <span class="k">for</span> <span class="n">param</span> <span class="ow">in</span> <span class="bp">self</span><span class="p">.</span><span class="n">parameters</span><span class="p">)</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">token_literal</span><span class="p">()</span><span class="si">}</span><span class="s">(</span><span class="si">{</span><span class="n">params</span><span class="si">}</span><span class="s">) </span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">body</span><span class="si">}</span><span class="s">"</span>
+
+<span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">CallExpression</span><span class="p">(</span><span class="n">Expression</span><span class="p">):</span>
+    <span class="n">token</span><span class="p">:</span> <span class="n">Token</span>
+    <span class="n">function</span><span class="p">:</span> <span class="n">Expression</span>
+    <span class="n">arguments</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Expression</span><span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">token_literal</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">token</span><span class="p">.</span><span class="n">literal</span>
+
+    <span class="k">def</span> <span class="nf">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="n">args</span> <span class="o">=</span> <span class="s">", "</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">arg</span><span class="p">)</span> <span class="k">for</span> <span class="n">arg</span> <span class="ow">in</span> <span class="bp">self</span><span class="p">.</span><span class="n">arguments</span><span class="p">)</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">function</span><span class="si">}</span><span class="s">(</span><span class="si">{</span><span class="n">args</span><span class="si">}</span><span class="s">)"</span>
+
+<span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">StringLiteral</span><span class="p">(</span><span class="n">Expression</span><span class="p">):</span>
+    <span class="n">token</span><span class="p">:</span> <span class="n">Token</span>
+    <span class="n">value</span><span class="p">:</span> <span class="nb">str</span>
+
+    <span class="k">def</span> <span class="nf">token_literal</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">token</span><span class="p">.</span><span class="n">literal</span>
+
+    <span class="k">def</span> <span class="nf">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">token</span><span class="p">.</span><span class="n">literal</span>
+
+<span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">ArrayLiteral</span><span class="p">(</span><span class="n">Expression</span><span class="p">):</span>
+    <span class="n">token</span><span class="p">:</span> <span class="n">Token</span>
+    <span class="n">elements</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Expression</span><span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">token_literal</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">token</span><span class="p">.</span><span class="n">literal</span>
+
+    <span class="k">def</span> <span class="nf">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="n">elements</span> <span class="o">=</span> <span class="s">", "</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">elem</span><span class="p">)</span> <span class="k">for</span> <span class="n">elem</span> <span class="ow">in</span> <span class="bp">self</span><span class="p">.</span><span class="n">elements</span><span class="p">)</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="s">"[</span><span class="si">{</span><span class="n">elements</span><span class="si">}</span><span class="s">]"</span>
+
+<span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">IndexExpression</span><span class="p">(</span><span class="n">Expression</span><span class="p">):</span>
+    <span class="n">token</span><span class="p">:</span> <span class="n">Token</span>
+    <span class="n">left</span><span class="p">:</span> <span class="n">Expression</span>
+    <span class="n">index</span><span class="p">:</span> <span class="n">Expression</span>
+
+    <span class="k">def</span> <span class="nf">token_literal</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">token</span><span class="p">.</span><span class="n">literal</span>
+
+    <span class="k">def</span> <span class="nf">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="s">"(</span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">left</span><span class="si">}</span><span class="s">[</span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">index</span><span class="si">}</span><span class="s">])"</span>
+
+<span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">HashLiteral</span><span class="p">(</span><span class="n">Expression</span><span class="p">):</span>
+    <span class="n">token</span><span class="p">:</span> <span class="n">Token</span>
+    <span class="n">pairs</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="n">Expression</span><span class="p">,</span> <span class="n">Expression</span><span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">token_literal</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">token</span><span class="p">.</span><span class="n">literal</span>
+
+    <span class="k">def</span> <span class="nf">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="n">pairs</span> <span class="o">=</span> <span class="s">", "</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">key</span><span class="si">}</span><span class="s">: </span><span class="si">{</span><span class="n">value</span><span class="si">}</span><span class="s">"</span> <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="bp">self</span><span class="p">.</span><span class="n">pairs</span><span class="p">.</span><span class="n">items</span><span class="p">())</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="s">""</span>
+
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>To be continued..</p>
+
+
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+  
+
+<img id="artwork" class="img-full" tabindex="0" onclick="shuffleArt();"/>
+<p id="description" class="img-alt"></p>
+
+<script src="/assets/js/art.js"></script>
+
+
+  
+
+<a style="font-size:1.8rem;" id="ideaMachine" title="Idea Machine" tabindex="0" onclick="setNextIdea();">🎰
+</a>
+
+<p id="random_idea" class="idea" onclick="setNextIdea();"></p>
+
+
+<style>
+  .idea {
+    white-space: pre-line;
+    min-height: 2.5rem
+  }
+</style>
+
+
+<script src="/assets/js/idea.js"></script>
+
+<script>
+
+  const setNextIdea = async () => {
+    let machine = document.getElementById("ideaMachine");
+    animate(machine, "shakey");
+    document.getElementById("random_idea").innerHTML = await getNextIdea();
+  }
+
+  document.addEventListener('DOMContentLoaded', async () => {
+    let machine = document.getElementById("ideaMachine");
+
+    machine.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        setNextIdea();
+      }
+    });
+
+    setNextIdea()
+  });
+
+</script>
+
+
+
+
+<script src="/assets/js/visits.js"></script>
+
+
+
+
+
+    <footer>
+    
+</footer>
+<style>
+    footer {
+        background: inherit !important;
+        padding-top: 1rem;
+        text-align: center;
+    }
+
+
+</style>
+
+  </article>
+</body>
+
+
+</html>
+

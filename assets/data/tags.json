@@ -1,0 +1,1835 @@
+{
+  "/bayes": [
+    "algo",
+    "math"
+  ],
+  "/counter-intuitive-math": [
+    "math"
+  ],
+  "/discrete-vs-continuous": [
+    "math"
+  ],
+  "/equations-that-changed-the-world": [
+    "math"
+  ],
+  "/fourier-transform": [
+    "math"
+  ],
+  "/laplace-transform": [
+    "math"
+  ],
+  "/logic-proofs": [
+    "math"
+  ],
+  "/math": [
+
+  ],
+  "/normal-distribution": [
+    "math"
+  ],
+  "/probability-and-statistics": [
+    "math"
+  ],
+  "/akins-laws-of-spacecraft": [
+    "natural-sciences",
+    "sys",
+    "tech"
+  ],
+  "/astronomy": [
+    "natural-sciences"
+  ],
+  "/earth": [
+    "astronomy"
+  ],
+  "/size-of-the-universe": [
+    "astronomy"
+  ],
+  "/solar-system": [
+    "astronomy"
+  ],
+  "/the-overview-effect": [
+    "astronomy"
+  ],
+  "/books-natural": [
+    "natural-sciences"
+  ],
+  "/climate-change": [
+    "natural-sciences"
+  ],
+  "/feynman-lectures": [
+    "natural-sciences"
+  ],
+  "/feynmans-epilogue": [
+    "essais",
+    "natural-sciences"
+  ],
+  "/fluid-field-boundaries": [
+    "natural-sciences"
+  ],
+  "/going-blind": [
+    "health",
+    "phil"
+  ],
+  "/health": [
+    "natural-sciences"
+  ],
+  "/how-to-deal-with-pain": [
+    "health",
+    "phil"
+  ],
+  "/sleep": [
+    "health"
+  ],
+  "/natural-sciences": [
+
+  ],
+  "/pale-blue-dot": [
+    "natural-sciences"
+  ],
+  "/classical-physics": [
+    "physics"
+  ],
+  "/inertia": [
+    "physics",
+    "psy"
+  ],
+  "/maxwell-equations": [
+    "physics"
+  ],
+  "/philosophical-implications-of-quantum-mechanics": [
+    "phil",
+    "physics"
+  ],
+  "/physics": [
+    "natural-sciences"
+  ],
+  "/sagan": [
+    "natural-sciences"
+  ],
+  "/sapolsky": [
+    "natural-sciences"
+  ],
+  "/stem": [
+
+  ],
+  "/computers": [
+    "tech"
+  ],
+  "/containers": [
+    "computers",
+    "os"
+  ],
+  "/networks": [
+    "computers"
+  ],
+  "/operating-systems": [
+    "computers"
+  ],
+  "/acid": [
+    "databases"
+  ],
+  "/b-trees": [
+    "databases",
+    "ds"
+  ],
+  "/databases": [
+    "tech"
+  ],
+  "/db-concepts": [
+    "databases"
+  ],
+  "/db-data-structures": [
+    "databases",
+    "ds"
+  ],
+  "/leaderless-replication": [
+    "databases"
+  ],
+  "/lsm-trees": [
+    "algo",
+    "databases",
+    "ds"
+  ],
+  "/partitioning": [
+    "databases"
+  ],
+  "/replication": [
+    "databases"
+  ],
+  "/single-leader": [
+    "databases"
+  ],
+  "/sql-tips": [
+    "databases"
+  ],
+  "/armstrong-thesis": [
+    "distributed-systems"
+  ],
+  "/azure-pillars": [
+    "distributed-systems"
+  ],
+  "/consistent-hashing": [
+    "distributed-systems"
+  ],
+  "/detect-a-node-failure": [
+    "distributed-systems"
+  ],
+  "/distributed-design-patterns": [
+    "distributed-systems"
+  ],
+  "/distributed-systems": [
+    "sys",
+    "tech"
+  ],
+  "/generate-a-unique-id": [
+    "distributed-systems"
+  ],
+  "/google-sre-book": [
+    "distributed-systems"
+  ],
+  "/kafka": [
+    "distributed-systems"
+  ],
+  "/spark": [
+    "distributed-systems"
+  ],
+  "/time-and-order": [
+    "distributed-systems"
+  ],
+  "/use-an-identity-service": [
+    "distributed-systems"
+  ],
+  "/customize-prompt": [
+    "machine-learning"
+  ],
+  "/machine-learning": [
+    "tech"
+  ],
+  "/nlp": [
+    "machine-learning"
+  ],
+  "/ozlang": [
+    "machine-learning"
+  ],
+  "/prompt-engineering": [
+    "machine-learning"
+  ],
+  "/algorithms": [
+    "programming"
+  ],
+  "/approximation": [
+    "algorithms"
+  ],
+  "/backtrack": [
+    "algorithms"
+  ],
+  "/bit": [
+    "algorithms"
+  ],
+  "/easy": [
+    "algorithms"
+  ],
+  "/greedy": [
+    "algorithms"
+  ],
+  "/hard": [
+    "algorithms"
+  ],
+  "/local-maximum": [
+    "algorithms",
+    "math"
+  ],
+  "/mid": [
+    "algorithms"
+  ],
+  "/parallel-programming": [
+    "algorithms"
+  ],
+  "/rabin-karp": [
+    "algorithms"
+  ],
+  "/sort": [
+    "algorithms"
+  ],
+  "/tree-balancing": [
+    "algorithms"
+  ],
+  "/vector-search": [
+    "algorithms"
+  ],
+  "/api": [
+    "programming"
+  ],
+  "/array-rotate": [
+    "arr",
+    "code",
+    "easy"
+  ],
+  "/bfs-dfs-topo": [
+    "code",
+    "gr",
+    "mid"
+  ],
+  "/binary-search": [
+    "code",
+    "easy"
+  ],
+  "/bst": [
+    "code",
+    "easy",
+    "gr"
+  ],
+  "/check-brackets": [
+    "code",
+    "easy",
+    "stack"
+  ],
+  "/climb-stairs": [
+    "code",
+    "dp",
+    "easy"
+  ],
+  "/code": [
+    "programming"
+  ],
+  "/coin-change": [
+    "code",
+    "dp",
+    "mid"
+  ],
+  "/count-primes": [
+    "arr",
+    "code",
+    "mid"
+  ],
+  "/days-until-warmer-temperature": [
+    "code",
+    "easy",
+    "stack"
+  ],
+  "/decode-string": [
+    "code",
+    "easy",
+    "stack",
+    "str"
+  ],
+  "/dedup-game": [
+    "code",
+    "easy",
+    "stack",
+    "str"
+  ],
+  "/delete-tree-node": [
+    "code",
+    "gr",
+    "mid"
+  ],
+  "/diamater-of-binary-tree": [
+    "code",
+    "gr",
+    "mid"
+  ],
+  "/dijkstra": [
+    "code",
+    "gr",
+    "mid"
+  ],
+  "/dynamic": [
+    "code",
+    "dp"
+  ],
+  "/edit-distance": [
+    "code",
+    "dp",
+    "mid"
+  ],
+  "/generate-n-grams": [
+    "code",
+    "mid",
+    "str"
+  ],
+  "/generate-pascals-triangle": [
+    "arr",
+    "code",
+    "easy"
+  ],
+  "/group-anagrams": [
+    "arr",
+    "code",
+    "easy"
+  ],
+  "/house-robber": [
+    "code",
+    "dp",
+    "mid"
+  ],
+  "/invert-binary-tree": [
+    "code",
+    "gr",
+    "mid"
+  ],
+  "/is-mirror-tree": [
+    "code",
+    "gr",
+    "mid"
+  ],
+  "/least-num-of-perfect-squares": [
+    "code",
+    "hard",
+    "q"
+  ],
+  "/lengthOfLIS": [
+    "code",
+    "dp",
+    "mid"
+  ],
+  "/level-order": [
+    "code",
+    "gr",
+    "mid"
+  ],
+  "/longest-common-prefix": [
+    "code",
+    "easy",
+    "str"
+  ],
+  "/longest-common-subsequence": [
+    "code",
+    "dp",
+    "mid"
+  ],
+  "/longest-consecutive": [
+    "arr",
+    "code"
+  ],
+  "/longest-diverse-str": [
+    "code",
+    "dp",
+    "heap",
+    "mid",
+    "str"
+  ],
+  "/longest-valid-paranthesis": [
+    "code",
+    "mid",
+    "ptr",
+    "stack",
+    "str"
+  ],
+  "/lowest-common-ancestor": [
+    "code",
+    "dp",
+    "gr"
+  ],
+  "/max-path-sum": [
+    "code",
+    "gr"
+  ],
+  "/max-tree-depth": [
+    "code",
+    "gr"
+  ],
+  "/max-water": [
+    "code",
+    "ptr"
+  ],
+  "/maximal-square": [
+    "code",
+    "dp"
+  ],
+  "/min-covering-window": [
+    "code",
+    "ptr"
+  ],
+  "/min-edit-distance": [
+    "code",
+    "dp",
+    "mid"
+  ],
+  "/min-path-sum": [
+    "code",
+    "dp"
+  ],
+  "/min-steps-notepad": [
+    "code",
+    "dp"
+  ],
+  "/partition-labels": [
+    "code",
+    "ptr"
+  ],
+  "/pivot-index": [
+    "code",
+    "ptr"
+  ],
+  "/plus-one": [
+    "arr",
+    "code"
+  ],
+  "/possible-morse": [
+    "arr",
+    "code"
+  ],
+  "/post-order-go": [
+    "code",
+    "gr"
+  ],
+  "/producer-consumer-problem": [
+    "code",
+    "concurrency"
+  ],
+  "/repeatedStringMatch": [
+    "code",
+    "str"
+  ],
+  "/reverse-letters-only": [
+    "code",
+    "ptr",
+    "stack"
+  ],
+  "/sliding-window-max": [
+    "code",
+    "ptr"
+  ],
+  "/stocks-with-cooldown": [
+    "code",
+    "dp"
+  ],
+  "/string-compression": [
+    "code",
+    "str"
+  ],
+  "/three-sum-closest": [
+    "arr",
+    "code"
+  ],
+  "/threeSum": [
+    "code",
+    "ptr"
+  ],
+  "/tree-codec-py": [
+    "code",
+    "gr"
+  ],
+  "/tree-traversals": [
+    "code",
+    "gr"
+  ],
+  "/trie-py": [
+    "code",
+    "gr"
+  ],
+  "/unique-bst": [
+    "code",
+    "gr"
+  ],
+  "/ways-to-target-sum": [
+    "code",
+    "dp"
+  ],
+  "/word-break": [
+    "code",
+    "dp"
+  ],
+  "/com": [
+    "programming"
+  ],
+  "/concurrency": [
+    "programming"
+  ],
+  "/array": [
+    "data-structures"
+  ],
+  "/bloom-filters": [
+    "data-structures"
+  ],
+  "/data-structures": [
+    "algo",
+    "programming"
+  ],
+  "/graph": [
+    "data-structures"
+  ],
+  "/hash-table": [
+    "data-structures"
+  ],
+  "/heap": [
+    "data-structures"
+  ],
+  "/hyperloglog": [
+    "data-structures"
+  ],
+  "/linked-list": [
+    "data-structures"
+  ],
+  "/pointers": [
+    "data-structures"
+  ],
+  "/quad-tree": [
+    "data-structures"
+  ],
+  "/queue": [
+    "data-structures"
+  ],
+  "/r-tree": [
+    "data-structures"
+  ],
+  "/skiplists": [
+    "data-structures"
+  ],
+  "/stack": [
+    "data-structures"
+  ],
+  "/string": [
+    "data-structures"
+  ],
+  "/discussion-topics": [
+    "programming"
+  ],
+  "/easy-vs-hard-in-cs": [
+    "programming"
+  ],
+  "/encodings": [
+    "programming"
+  ],
+  "/for-new-programmers": [
+    "programming",
+    "top"
+  ],
+  "/c": [
+    "programming-languages"
+  ],
+  "/clojure": [
+    "programming-languages"
+  ],
+  "/cpp": [
+    "programming-languages"
+  ],
+  "/csharp": [
+    "programming-languages"
+  ],
+  "/elixir": [
+    "programming-languages"
+  ],
+  "/erlang": [
+    "programming-languages"
+  ],
+  "/functional-programming": [
+    "programming-languages"
+  ],
+  "/go": [
+    "programming-languages"
+  ],
+  "/haskell": [
+    "programming-languages"
+  ],
+  "/java": [
+    "programming-languages"
+  ],
+  "/lisp": [
+    "programming-languages"
+  ],
+  "/programming-languages": [
+    "programming"
+  ],
+  "/c-and-python": [
+    "python"
+  ],
+  "/python-data-structures": [
+    "python"
+  ],
+  "/python-packages": [
+    "python"
+  ],
+  "/python": [
+    "programming-languages"
+  ],
+  "/zen-of-python": [
+    "python"
+  ],
+  "/rust": [
+    "programming-languages"
+  ],
+  "/scala": [
+    "programming-languages"
+  ],
+  "/typing": [
+    "programming-languages"
+  ],
+  "/programming": [
+    "skills",
+    "swe",
+    "tech"
+  ],
+  "/unicode": [
+    "programming"
+  ],
+  "/async-crawler": [
+    "projects",
+    "python"
+  ],
+  "/c-hashmap": [
+    "c",
+    "projects"
+  ],
+  "/compiler": [
+    "projects",
+    "python"
+  ],
+  "/garbage-collector-in-c": [
+    "c",
+    "projects"
+  ],
+  "/links-for-makers": [
+    "projects"
+  ],
+  "/logos-os": [
+    "c",
+    "projects"
+  ],
+  "/mini-search-engine": [
+    "projects",
+    "python"
+  ],
+  "/mini-web-server": [
+    "projects",
+    "python"
+  ],
+  "/minik-robot": [
+    "cpp",
+    "projects"
+  ],
+  "/pascal-interpreter": [
+    "projects",
+    "python"
+  ],
+  "/pca": [
+    "ml",
+    "projects"
+  ],
+  "/pneumonia-detection": [
+    "ml",
+    "projects"
+  ],
+  "/predict-movie-genres": [
+    "ml",
+    "projects"
+  ],
+  "/projects": [
+    "tech"
+  ],
+  "/vga-driver": [
+    "c",
+    "projects"
+  ],
+  "/authentication": [
+    "security"
+  ],
+  "/authorization": [
+    "security"
+  ],
+  "/certificates": [
+    "security"
+  ],
+  "/cookies": [
+    "security"
+  ],
+  "/cors": [
+    "security"
+  ],
+  "/csrf": [
+    "security"
+  ],
+  "/openssl-encrypt": [
+    "security"
+  ],
+  "/public-key-cryptography": [
+    "security"
+  ],
+  "/security-heuristics": [
+    "security"
+  ],
+  "/security": [
+    "tech"
+  ],
+  "/store-passwords": [
+    "security"
+  ],
+  "/transport-layer-security": [
+    "security"
+  ],
+  "/xss": [
+    "security"
+  ],
+  "/code-review": [
+    "software-engineering"
+  ],
+  "/core-concepts": [
+    "software-engineering"
+  ],
+  "/on-software": [
+    "software-engineering"
+  ],
+  "/software-analogies": [
+    "software-engineering"
+  ],
+  "/software-engineering": [
+    "tech"
+  ],
+  "/software-quality": [
+    "software-engineering"
+  ],
+  "/the-joel-test": [
+    "software-engineering"
+  ],
+  "/choose-boring-tech": [
+    "system-design"
+  ],
+  "/domain-driven-design": [
+    "sys",
+    "system-design"
+  ],
+  "/hacker-laws": [
+    "sys",
+    "system-design"
+  ],
+  "/minimal-tech": [
+    "system-design"
+  ],
+  "/design-patterns": [
+    "oop"
+  ],
+  "/block": [
+    "oop-designs"
+  ],
+  "/design-a-bicycle": [
+    "oop-designs"
+  ],
+  "/design-a-book-app": [
+    "oop-designs"
+  ],
+  "/design-a-crm": [
+    "oop-designs"
+  ],
+  "/design-a-data-pipeline": [
+    "oop-designs"
+  ],
+  "/design-a-gov-cloud": [
+    "oop-designs"
+  ],
+  "/design-a-personal-note-publishing-system": [
+    "oop-designs"
+  ],
+  "/design-a-trader": [
+    "oop-designs"
+  ],
+  "/design-a-web-crawler": [
+    "oop-designs"
+  ],
+  "/design-auth": [
+    "oop-designs"
+  ],
+  "/design-oauth": [
+    "oop-designs"
+  ],
+  "/design-units": [
+    "oop-designs"
+  ],
+  "/design-video-streaming-app": [
+    "oop-designs"
+  ],
+  "/oop-designs": [
+    "oop"
+  ],
+  "/oop": [
+    "sys",
+    "system-design"
+  ],
+  "/solid": [
+    "oop"
+  ],
+  "/system-design": [
+    "systems",
+    "tech"
+  ],
+  "/tech": [
+
+  ],
+  "/a-free-web-again": [
+
+  ],
+  "/is-tech-fast-or-slow": [
+
+  ],
+  "/social-media": [
+
+  ],
+  "/the-tao-of-programming": [
+    "humor",
+    "programming",
+    "top"
+  ],
+  "/accessibility": [
+    "sys",
+    "tech",
+    "ux"
+  ],
+  "/evolution-of-computer-interfaces": [
+    "ux"
+  ],
+  "/hijacked-minds": [
+    "soc",
+    "ux"
+  ],
+  "/natural-tech": [
+    "ux"
+  ],
+  "/polished-pixels": [
+    "ux"
+  ],
+  "/things-users-care": [
+    "ux"
+  ],
+  "/usability-testing": [
+    "ux"
+  ],
+  "/ux": [
+    "design",
+    "tech",
+    "web"
+  ],
+  "/arts": [
+
+  ],
+  "/cinema": [
+    "arts"
+  ],
+  "/creativity": [
+    "design"
+  ],
+  "/design": [
+    "arts"
+  ],
+  "/don-norman": [
+    "design"
+  ],
+  "/double-diamond": [
+    "design"
+  ],
+  "/everyday-objects": [
+    "design"
+  ],
+  "/ship-it": [
+    "design"
+  ],
+  "/cien-anos-de-soledad": [
+    "literature"
+  ],
+  "/classics": [
+    "lists",
+    "literature"
+  ],
+  "/do-not-lie-to-yourself": [
+    "literature"
+  ],
+  "/elaborate-vs-clear-speech": [
+    "literature"
+  ],
+  "/ince-memed": [
+    "literature",
+    "turkce"
+  ],
+  "/literature": [
+    "arts"
+  ],
+  "/the-art-of-war": [
+    "literature"
+  ],
+  "/turk-mirasi": [
+    "literature",
+    "turkce"
+  ],
+  "/classical-music": [
+    "music"
+  ],
+  "/electro-house": [
+    "music"
+  ],
+  "/film-scores": [
+    "cinema",
+    "lists",
+    "music"
+  ],
+  "/music": [
+    "arts"
+  ],
+  "/rap": [
+    "music"
+  ],
+  "/rock": [
+    "music"
+  ],
+  "/sanatcilar": [
+    "lists",
+    "music",
+    "turkce"
+  ],
+  "/paintings": [
+    "arts"
+  ],
+  "/act": [
+    "philosophy"
+  ],
+  "/all-is-one": [
+    "philosophy"
+  ],
+  "/balance": [
+    "philosophy"
+  ],
+  "/be-good-to-each-other-and-yourself": [
+    "philosophy"
+  ],
+  "/books-phil": [
+    "philosophy"
+  ],
+  "/character": [
+    "philosophy"
+  ],
+  "/choice": [
+    "decisions",
+    "philosophy"
+  ],
+  "/concepts-in-greek-thought": [
+    "philosophy"
+  ],
+  "/enemies": [
+    "philosophy"
+  ],
+  "/epicurus": [
+    "philosophy"
+  ],
+  "/eudaimonia": [
+    "philosophy",
+    "skills",
+    "top"
+  ],
+  "/experiences-vs-materials": [
+    "philosophy"
+  ],
+  "/free-will": [
+    "philosophy"
+  ],
+  "/freedom": [
+    "philosophy",
+    "soc"
+  ],
+  "/friends": [
+    "philosophy"
+  ],
+  "/getting-old": [
+    "philosophy"
+  ],
+  "/good-and-evil": [
+    "philosophy"
+  ],
+  "/gratitude": [
+    "philosophy"
+  ],
+  "/happiness": [
+    "philosophy",
+    "psy",
+    "soc"
+  ],
+  "/hard-times": [
+    "philosophy",
+    "top"
+  ],
+  "/ideal-insan": [
+    "philosophy",
+    "turkce"
+  ],
+  "/in-praise-of-idleness": [
+    "essais",
+    "phil",
+    "philosophy"
+  ],
+  "/know-where-to-stop": [
+    "philosophy"
+  ],
+  "/koans": [
+    "phil",
+    "philosophy"
+  ],
+  "/let-it-go": [
+    "philosophy"
+  ],
+  "/life-is-play": [
+    "philosophy"
+  ],
+  "/look-below-the-surface": [
+    "philosophy"
+  ],
+  "/moderation": [
+    "philosophy"
+  ],
+  "/one-bit-better": [
+    "philosophy"
+  ],
+  "/philosophy": [
+    "arts"
+  ],
+  "/phronesis": [
+    "philosophy"
+  ],
+  "/questions": [
+    "philosophy"
+  ],
+  "/seeking": [
+    "philosophy"
+  ],
+  "/stupidity": [
+    "philosophy",
+    "soc"
+  ],
+  "/success-and-failure": [
+    "philosophy"
+  ],
+  "/take-a-walk": [
+    "philosophy",
+    "top"
+  ],
+  "/the-less-the-better": [
+    "philosophy"
+  ],
+  "/death": [
+    "time"
+  ],
+  "/on-the-shortness-of-life": [
+    "time"
+  ],
+  "/slow-down-time": [
+    "time"
+  ],
+  "/the-morning": [
+    "time"
+  ],
+  "/the-past": [
+    "time"
+  ],
+  "/time": [
+    "philosophy"
+  ],
+  "/truth": [
+    "philosophy"
+  ],
+  "/career-advice": [
+    "work"
+  ],
+  "/teamwork": [
+    "work"
+  ],
+  "/what-to-work-on": [
+    "work"
+  ],
+  "/work": [
+    "philosophy",
+    "psychology"
+  ],
+  "/you-are-not-nameless": [
+    "work"
+  ],
+  "/photography": [
+    "arts",
+    "skills"
+  ],
+  "/brecht": [
+    "poetry"
+  ],
+  "/deep-roots": [
+    "poetry"
+  ],
+  "/do-not-go-gentle": [
+    "poetry"
+  ],
+  "/find-time-to-just-be": [
+    "poetry"
+  ],
+  "/fire-and-ice": [
+    "poetry"
+  ],
+  "/haikus": [
+    "poetry"
+  ],
+  "/harlem": [
+    "poetry"
+  ],
+  "/if": [
+    "poetry"
+  ],
+  "/lightly-child": [
+    "poetry"
+  ],
+  "/mother-to-son": [
+    "poetry"
+  ],
+  "/one-art": [
+    "poetry"
+  ],
+  "/one-ring": [
+    "poetry"
+  ],
+  "/ozymandias": [
+    "poetry"
+  ],
+  "/poetry": [
+    "arts"
+  ],
+  "/saturday": [
+    "poetry"
+  ],
+  "/soft-rains": [
+    "poetry"
+  ],
+  "/hollow-power": [
+    "tao-te-ching"
+  ],
+  "/insight-and-strength": [
+    "tao-te-ching"
+  ],
+  "/life-is-soft": [
+    "phil",
+    "tao",
+    "tao-te-ching"
+  ],
+  "/misery-under-happiness": [
+    "tao-te-ching"
+  ],
+  "/monstrous-ingenuity": [
+    "tao-te-ching"
+  ],
+  "/not-being": [
+    "tao-te-ching"
+  ],
+  "/not-far-away": [
+    "tao-te-ching"
+  ],
+  "/tao-te-ching": [
+    "phil",
+    "poetry",
+    "pols"
+  ],
+  "/the-great-leader": [
+    "tao-te-ching"
+  ],
+  "/uncut-wood": [
+    "tao-te-ching"
+  ],
+  "/wei-wu-wei": [
+    "tao-te-ching"
+  ],
+  "/wind-and-rain": [
+    "tao-te-ching"
+  ],
+  "/the-red-wheelbarrow": [
+    "poetry"
+  ],
+  "/the-road-not-taken": [
+    "poetry"
+  ],
+  "/the-second-coming": [
+    "poetry"
+  ],
+  "/this-be-the-verse": [
+    "poetry"
+  ],
+  "/to-be-or-not": [
+    "poetry"
+  ],
+  "/we-wear-the-mask": [
+    "poetry"
+  ],
+  "/abbas": [
+    "siir"
+  ],
+  "/asik-veysel": [
+    "siir"
+  ],
+  "/boz-ayran": [
+    "siir"
+  ],
+  "/bulent-ecevit": [
+    "siir"
+  ],
+  "/bulgur-pilavi": [
+    "siir"
+  ],
+  "/can-yucel": [
+    "siir"
+  ],
+  "/edip-cansever": [
+    "siir"
+  ],
+  "/fuzuli": [
+    "siir"
+  ],
+  "/isyan": [
+    "siir"
+  ],
+  "/melih-cevdet": [
+    "siir"
+  ],
+  "/nazim": [
+    "siir"
+  ],
+  "/orhan-veli": [
+    "siir"
+  ],
+  "/siir": [
+    "arts",
+    "poetry",
+    "turkce"
+  ],
+  "/yunus-emre": [
+    "siir"
+  ],
+  "/digital-art": [
+    "experiments"
+  ],
+  "/dots": [
+    "experiments"
+  ],
+  "/experiments": [
+    "lists"
+  ],
+  "/grid": [
+    "experiments"
+  ],
+  "/jobs": [
+    "experiments"
+  ],
+  "/markdown-editor": [
+    "experiments"
+  ],
+  "/music-player": [
+    "experiments"
+  ],
+  "/photo-gallery": [
+    "experiments"
+  ],
+  "/primes": [
+    "experiments"
+  ],
+  "/rss-reader": [
+    "experiments"
+  ],
+  "/savings-planner": [
+    "experiments"
+  ],
+  "/search-index": [
+    "experiments"
+  ],
+  "/shops": [
+    "experiments"
+  ],
+  "/spreadsheet": [
+    "experiments"
+  ],
+  "/typing-practice": [
+    "experiments",
+    "skills",
+    "top"
+  ],
+  "/video-call": [
+    "experiments"
+  ],
+  "/video-player": [
+    "experiments"
+  ],
+  "/year-progress": [
+    "experiments"
+  ],
+  "/datasets": [
+
+  ],
+  "/games": [
+
+  ],
+  "/quotes": [
+
+  ],
+  "/web-experiments": [
+    "ux"
+  ],
+  "/adjektiva": [
+    "cestina"
+  ],
+  "/cas": [
+    "cestina"
+  ],
+  "/cestina": [
+    "languages"
+  ],
+  "/cisla": [
+    "cestina"
+  ],
+  "/domov": [
+    "cestina"
+  ],
+  "/fraze": [
+    "cestina"
+  ],
+  "/koníčky": [
+    "cestina"
+  ],
+  "/podobna-slova": [
+    "cestina"
+  ],
+  "/predlozky": [
+    "cestina"
+  ],
+  "/slovesa": [
+    "cestina"
+  ],
+  "/deutsch": [
+    "languages"
+  ],
+  "/english": [
+    "languages"
+  ],
+  "/languages": [
+    "arts",
+    "lists"
+  ],
+  "/latin": [
+    "languages"
+  ],
+  "/metaphors": [
+    "languages",
+    "soc"
+  ],
+  "/modern-greek-alphabet": [
+    "languages",
+    "lists"
+  ],
+  "/nato-phonetic-alphabet": [
+    "languages"
+  ],
+  "/turkce": [
+    "languages"
+  ],
+  "/lists": [
+
+  ],
+  "/graph-2d": [
+    "meta"
+  ],
+  "/graph-3d": [
+    "meta"
+  ],
+  "/ideas": [
+    "meta"
+  ],
+  "/keyboard-shortcuts": [
+    "meta",
+    "pro"
+  ],
+  "/meta": [
+    "lists"
+  ],
+  "/stats": [
+    "meta"
+  ],
+  "/authors": [
+    "lists",
+    "literature"
+  ],
+  "/blogs": [
+
+  ],
+  "/books": [
+
+  ],
+  "/comics": [
+
+  ],
+  "/essais": [
+
+  ],
+  "/news": [
+
+  ],
+  "/documentaries": [
+    "cinema"
+  ],
+  "/movies": [
+    "cinema"
+  ],
+  "/business": [
+    "skills"
+  ],
+  "/company-culture": [
+    "business"
+  ],
+  "/hiring": [
+    "business"
+  ],
+  "/how-to-start-a-business": [
+    "business"
+  ],
+  "/marketing": [
+    "business"
+  ],
+  "/sales": [
+    "business"
+  ],
+  "/communication": [
+    "skills"
+  ],
+  "/how-to-pitch": [
+    "communication"
+  ],
+  "/negotiations": [
+    "communication"
+  ],
+  "/public-speaking": [
+    "communication"
+  ],
+  "/write-better": [
+    "communication"
+  ],
+  "/cooking": [
+    "skills"
+  ],
+  "/critical-thinking": [
+    "decisions",
+    "phil",
+    "skills"
+  ],
+  "/decisions": [
+    "skills",
+    "top"
+  ],
+  "/do-one-thing-at-a-time-and-do-it-well": [
+    "decisions"
+  ],
+  "/do-the-right-thing": [
+    "decisions",
+    "phil"
+  ],
+  "/do-without-doing": [
+    "decisions"
+  ],
+  "/drawing": [
+    "skills"
+  ],
+  "/driving": [
+    "skills"
+  ],
+  "/drowning-does-not-look-dramatic": [
+    "skills"
+  ],
+  "/exercise": [
+    "skills"
+  ],
+  "/get-things-done": [
+    "skills"
+  ],
+  "/growing-plants": [
+    "skills"
+  ],
+  "/home-life": [
+    "skills"
+  ],
+  "/how-to-gain-wealth": [
+    "skills"
+  ],
+  "/how-to-grow-old-russell": [
+    "essais",
+    "phil",
+    "skills"
+  ],
+  "/humor": [
+    "skills"
+  ],
+  "/investing": [
+    "skills"
+  ],
+  "/leadership": [
+    "skills"
+  ],
+  "/learning": [
+    "skills",
+    "soc"
+  ],
+  "/making-videos": [
+    "skills"
+  ],
+  "/mastery": [
+    "essais",
+    "skills"
+  ],
+  "/motocycles": [
+    "skills"
+  ],
+  "/mountaineering": [
+    "skills"
+  ],
+  "/outdoors": [
+    "skills",
+    "sports"
+  ],
+  "/parenting": [
+    "psy",
+    "skills"
+  ],
+  "/problem-solving": [
+    "essais",
+    "skills"
+  ],
+  "/skills": [
+
+  ],
+  "/teaching": [
+    "skills"
+  ],
+  "/trading": [
+    "skills"
+  ],
+  "/travelling": [
+    "skills"
+  ],
+  "/used-car-checklist": [
+    "skills"
+  ],
+  "/architecture": [
+    "social-sciences"
+  ],
+  "/being-poor": [
+    "social-sciences"
+  ],
+  "/books-social": [
+    "social-sciences"
+  ],
+  "/chomsky": [
+    "social-sciences"
+  ],
+  "/economics": [
+    "social-sciences"
+  ],
+  "/wage-theft": [
+    "economics",
+    "law"
+  ],
+  "/wasted-talent": [
+    "economics"
+  ],
+  "/12000": [
+    "history"
+  ],
+  "/121st-century": [
+    "experiments",
+    "history",
+    "time"
+  ],
+  "/farming-trap": [
+    "essais",
+    "history"
+  ],
+  "/history-of-technology": [
+    "history",
+    "lists",
+    "tech"
+  ],
+  "/history": [
+    "social-sciences",
+    "time"
+  ],
+  "/since-big-bang": [
+    "history",
+    "lists",
+    "nat",
+    "time"
+  ],
+  "/time-scale": [
+    "history",
+    "time",
+    "top"
+  ],
+  "/law": [
+    "social-sciences"
+  ],
+  "/asimov": [
+    "politics"
+  ],
+  "/brave-new-world": [
+    "politics"
+  ],
+  "/look-down-and-around": [
+    "essais",
+    "phil",
+    "politics",
+    "pols"
+  ],
+  "/orwell": [
+    "politics"
+  ],
+  "/politics": [
+    "social-sciences"
+  ],
+  "/prince": [
+    "politics"
+  ],
+  "/questioning-people-seen-as-a-threat-to-status-quo": [
+    "politics",
+    "psy",
+    "soc"
+  ],
+  "/the-triumph-of-stupidity": [
+    "essais",
+    "politics"
+  ],
+  "/warfare-is-deception": [
+    "politics"
+  ],
+  "/who-goes-nazi": [
+    "essais",
+    "politics"
+  ],
+  "/bias-for-unhappiness": [
+    "cognitive-biases"
+  ],
+  "/cognitive-biases": [
+    "psychology",
+    "soc",
+    "top"
+  ],
+  "/overvaluing-short-term": [
+    "cognitive-biases"
+  ],
+  "/anger": [
+    "emotions"
+  ],
+  "/anxiety": [
+    "emotions"
+  ],
+  "/arrogance": [
+    "emotions"
+  ],
+  "/courage": [
+    "emotions"
+  ],
+  "/ego": [
+    "emotions"
+  ],
+  "/emotions": [
+    "psychology"
+  ],
+  "/empathy": [
+    "emotions"
+  ],
+  "/hope": [
+    "emotions"
+  ],
+  "/loneliness": [
+    "emotions"
+  ],
+  "/love": [
+    "emotions"
+  ],
+  "/respect": [
+    "emotions"
+  ],
+  "/trust": [
+    "emotions"
+  ],
+  "/unmet-needs": [
+    "emotions"
+  ],
+  "/vulnerability": [
+    "emotions"
+  ],
+  "/gaslighting": [
+    "psychology"
+  ],
+  "/habits": [
+    "psychology"
+  ],
+  "/how-to-spot-a-liar": [
+    "psychology"
+  ],
+  "/persuasion": [
+    "psychology"
+  ],
+  "/procrastination": [
+    "psychology"
+  ],
+  "/psychology": [
+    "social-sciences"
+  ],
+  "/relationships": [
+    "psychology"
+  ],
+  "/solitude": [
+    "phil",
+    "psychology",
+    "soc"
+  ],
+  "/stages-of-grief": [
+    "psychology"
+  ],
+  "/stress": [
+    "psychology"
+  ],
+  "/distractions": [
+    "work"
+  ],
+  "/flow": [
+    "work"
+  ],
+  "/how-to-start": [
+    "skills",
+    "soc",
+    "work"
+  ],
+  "/overcoming-obstacles": [
+    "work"
+  ],
+  "/praise-and-motivation": [
+    "work"
+  ],
+  "/setting-rules": [
+    "work"
+  ],
+  "/social-sciences": [
+
+  ],
+  "/social-change": [
+
+  ],
+  "/social-class": [
+
+  ],
+  "/social-groups": [
+
+  ],
+  "/chaos": [
+    "systems"
+  ],
+  "/systems": [
+    "nat",
+    "social-sciences"
+  ],
+  "/urban-planning": [
+    "architecture",
+    "social-sciences"
+  ],
+  "/about": [
+
+  ],
+  "/pub": [
+
+  ],
+  "/resume": [
+
+  ]
+}

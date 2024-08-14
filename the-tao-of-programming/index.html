@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    The Tao of Programming
+  </title>
+
+      <meta charset="utf-8" />
+    <meta lang="en-US" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="From The Tao of Programming (mit.edu)
+" />
+    <meta property="og:description" content="From The Tao of Programming (mit.edu)
+" />
+    
+    
+    <meta name="author" content="selimslab" />
+
+    
+    <meta property="og:title" content="The Tao of Programming" />
+    <meta property="twitter:title" content="The Tao of Programming" />
+    
+  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-touch-icon.png">
+  <link rel="icon" type="image/x-icon" href="/assets/fav/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="/assets/css/bulma.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/code.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/solar.css">
+
+</head>
+
+<body>
+
+  <div class="top"></div>
+
+  <article>
+
+    <nav class="navbar">
+  <div class="navbar-brand">
+    <a href="/" title="Home" class="site-name">Δ</a>
+
+    <div class="search is-6 is-6-mobile">
+  <input type="text" class="input is-small is-rounded" id="search-input" placeholder="Search..">
+  <ul id="results-container"></ul>
+</div>
+<script src="/assets/js/search.js"></script>
+<script>
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/assets/data/search.json',
+    noResultsText: "🤷🏿",
+    limit: 7
+  })
+
+  document.addEventListener('keydown', function (e) {
+    if (e.shiftKey && (e.key === 's' || e.key === 'S')) {
+      e.preventDefault();
+      // focus on search input
+      document.getElementById('search-input').focus();
+    }
+  });
+
+
+</script>
+
+    <a title="Toggle theme" id="themeToggle"  tabindex="0" onclick="switchTheme()" class="navbutton"></a>
+    <a title="Roll the dice! Shift+P" id="dice"  tabindex="0" onclick="getRandomPage()" class="navbutton">🎲</a>
+  </div>
+</nav>
+
+<script src="/assets/js/animate.js"></script>
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/utils.js"></script>
+<script src="/assets/js/post.js"></script>
+<script src="/assets/js/arrow.js"></script>
+
+<style>
+
+a.site-name {
+    color: inherit;
+    font-size: 2rem;
+    margin-right: 1rem;
+
+  }
+
+  .search {
+    padding: 0.5rem;
+    max-width: 9rem;
+  }
+
+  #results-container {
+    margin-top: 0.3rem;
+    list-style: none;
+    font-size: 1rem;
+    max-width: 20ch;
+
+    li {
+      margin: 0 auto;
+      margin-top: 0.3rem;
+      padding: 0.2rem;
+    }
+  }
+
+
+
+  #themeToggle{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+  }
+
+
+  .navbutton {
+    font-size: 1.3rem;
+    margin-top:0.5rem;
+    margin-left:1.2rem;
+  }
+
+  .navbar {
+    background: inherit;
+    color: inherit;
+    width: fit-content;
+    margin-bottom: 1rem;
+  }
+
+  .top {
+    height: 4px;
+    background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2259a7, #373B44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2259a7, #373B44);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+
+
+
+
+</style>
+
+
+
+      <span class="taglist">
+   
+     
+      
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+         
+          <a class="toplink" href="/humor/">Humor</a>
+        
+    
+   
+     
+      
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+         
+          <a class="toplink" href="/programming/">Programming</a>
+        
+    
+   
+    
+  
+
+  
+
+
+</span>
+
+
+  <h1>The Tao of Programming</h1>  
+ 
+  
+
+<p style="font-size: 0.8rem; margin-bottom:0.8rem">
+  ~21 mins read
+</p>
+
+
+
+
+
+  <p>From <a href="https://www.mit.edu/~xela/tao.html">The Tao of Programming (mit.edu)</a></p>
+
+<h3 id="book-1">BOOK 1</h3>
+
+<h2 id="the-silent-void"><em>The Silent Void</em></h2>
+
+<h5 id="thus-spake-the-master-programmer">Thus spake the Master Programmer:</h5>
+
+<p>“When you have learned to snatch the error code from the trap frame, it will be time for you to leave.”</p>
+
+<hr />
+
+<h4 id="11">1.1</h4>
+
+<p>Something mysterious is formed, born in the silent void. waiting alone and unmoving, it is at once still and yet in constant motion. It is the source of all programs. I do not know its name, so I will call it the Tao of Programming.</p>
+
+<blockquote>
+  <p>If the Tao is great, then the operating system is great.<br />
+If the operating system is great, then the compiler is great.<br />
+If the compiler is great, then the application is great.<br />
+The user is pleased, and there is harmony in the world.</p>
+</blockquote>
+
+<p>The Tao of Programming flows far away and returns on the wind of morning.</p>
+
+<hr />
+
+<h4 id="12">1.2</h4>
+
+<p>The Tao gave birth to machine language. Machine language gave birth to the assembler.</p>
+
+<p>The assembler gave birth to the compiler. Now there are ten thousand languages.</p>
+
+<p>Each language has its purpose, however humble. Each language expresses the Yin and Yang of software. Each language has its place within the Tao.</p>
+
+<p>But do not program in COBOL if you can avoid it.</p>
+
+<hr />
+
+<h4 id="13">1.3</h4>
+
+<p>In the beginning was the Tao. The Tao gave birth to Space and Time.</p>
+
+<p>Therefore Space and Time are the Yin and Yang of programming.</p>
+
+<p>Programmers that do not comprehend the Tao are always running out of time and space for their programs. Programmers that comprehend the Tao always have enough time and space to accomplish their goals.</p>
+
+<p>How could it be otherwise?</p>
+
+<hr />
+
+<h4 id="14">1.4</h4>
+
+<p>The wise programmer is told about Tao and follows it. The average programmer is told about Tao and searches for it. The foolish programmer is told about Tao and laughs at it.</p>
+
+<p>If it were not for laughter, there would be no Tao.</p>
+
+<p>The highest sounds are hardest to hear. Going forward is a way to retreat. Great talent shows itself late in life. Even a perfect program still has bugs.</p>
+
+<hr />
+
+<h3 id="book-2">BOOK 2</h3>
+
+<h2 id="the-ancient-masters"><em>The Ancient Masters</em></h2>
+
+<h5 id="thus-spake-the-master-programmer-1">Thus spake the Master Programmer:</h5>
+
+<p>“After three days without programming, life becomes meaningless.”</p>
+
+<hr />
+
+<h4 id="21">2.1</h4>
+
+<p>The programmers of old were mysterious and profound. We cannot fathom their thoughts, so all we do is describe their appearance.</p>
+
+<blockquote>
+  <p>Aware, like a fox crossing the water.<br />
+Alert, like a general on the battlefield.<br />
+Kind, like a hostess greeting her guests.<br />
+Simple, like uncarved blocks of wood.<br />
+Opaque, like black pools in darkened caves.</p>
+</blockquote>
+
+<p>Who can tell the secrets of their hearts and minds?</p>
+
+<p>The answer exists only in Tao.</p>
+
+<hr />
+
+<h4 id="22">2.2</h4>
+
+<p>The Grand Master Turing once dreamed that he was a machine. When he awoke, he exclaimed:</p>
+
+<p>“I don’t know whether I am Turing dreaming that I am a machine, or a machine dreaming that I am Turing!”</p>
+
+<hr />
+
+<h4 id="23">2.3</h4>
+
+<p>A programmer from a very large computer company went to a software conference and then returned to report to his manager, saying: “What sort of programmers work for other companies? They behaved badly and were unconcerned with appearances. Their hair was long and unkempt and their clothes were wrinkled and old. They crashed our hospitality suite and they made rude noises during my presentation.”</p>
+
+<p>The manager said: “I should have never sent you to the conference. Those programmers live beyond the physical world. They consider life absurd, an accidental coincidence. They come and go without knowing limitations. Without a care, they live only for their programs. Why should they bother with social conventions?</p>
+
+<p>They are alive within the Tao.”</p>
+
+<hr />
+
+<h4 id="24">2.4</h4>
+
+<p>A novice asked the Master: “Here is a programmer that never designs, documents or tests his programs. Yet all who know him consider him one of the best programmers in the world. Why is this?”</p>
+
+<p>The Master replied: “That programmer has mastered the Tao. He has gone beyond the need for design; he does not become angry when the system crashes, but accepts the universe without concern. He has gone beyond the need for documentation; he no longer cares if anyone else sees his code. He has gone beyond the need for testing; each of his programs are perfect within themselves, serene and elegant, their purpose self-evident. Truly, he has entered the mystery of Tao.”</p>
+
+<hr />
+
+<h3 id="book-3">BOOK 3</h3>
+
+<h2 id="design"><em>Design</em></h2>
+
+<h5 id="thus-spake-the-master-programmer-2">Thus spake the Master Programmer:</h5>
+
+<p>“When a program is being tested, it is too late to make design changes.”</p>
+
+<hr />
+
+<h4 id="31">3.1</h4>
+
+<p>There once was a man who went to a computer trade show. Each day as he entered, the man told the guard at the door:</p>
+
+<p>“I am a great thief, renowned for my feats of shoplifting. Be forewarned, for this trade show shall not escape unplundered.”</p>
+
+<p>This speech disturbed the guard greatly, because there were millions of dollars of computer equipment inside, so he watched the man carefully. But the man merely wandered from booth to booth, humming quietly to himself.</p>
+
+<p>When the man left, the guard took him aside and searched his clothes, but nothing was to be found.</p>
+
+<p>On the next day of the trade show, the man returned and chided the guard, saying: “I escaped with a vast booty yesterday, but today will be even better.” So the guard watched him ever more closely, but to no avail.</p>
+
+<p>On the final day of the trade show, the guard could restrain his curiosity no longer. “Sir Thief,” he said, “I am so perplexed, I cannot live in peace. Please enlighten me. What is it that you are stealing?”</p>
+
+<p>The man smiled. “I am stealing ideas,” he said.</p>
+
+<hr />
+
+<h4 id="32">3.2</h4>
+
+<p>There once was a Master Programmer who wrote unstructured programs. A novice programmer, seeking to imitate him, also began to write unstructured programs. When the novice asked the Master to evaluate his progress, the Master criticized him for writing unstructured programs, saying, “What is appropriate for the Master is not appropriate for the novice. You must understand Tao before transcending structure.”</p>
+
+<hr />
+
+<h4 id="33">3.3</h4>
+
+<p>There was once a programmer who was attached to the court of the warlord of Wu. The warlord asked the programmer: “Which is easier to design: an accounting package or an operating system?”</p>
+
+<p>“An operating system,” replied the programmer.</p>
+
+<p>The warlord uttered an exclamation of disbelief. “Surely an accounting package is trivial next to the complexity of an operating system,” he said.</p>
+
+<p>“Not so,” said the programmer, “When designing an accounting package, the programmer operates as a mediator between people having different ideas: how it must operate, how its reports must appear, and how it must conform to the tax laws. By contrast, an operating system is not limited by outside appearances. When designing an operating system, the programmer seeks the simplest harmony between machine and ideas. This is why an operating system is easier to design.”</p>
+
+<p>The warlord of Wu nodded and smiled. “That is all good and well, but which is easier to debug?”</p>
+
+<p>The programmer made no reply.</p>
+
+<hr />
+
+<h4 id="34">3.4</h4>
+
+<p>A manager went to the Master Programmer and showed him the requirements document for a new application. The manager asked the Master: “How long will it take to design this system if I assign five programmers to it?”</p>
+
+<p>“It will take one year,” said the Master promptly.</p>
+
+<p>“But we need this system immediately or even sooner! How long will it take if I assign ten programmers to it?”</p>
+
+<p>The Master Programmer frowned. “In that case, it will take two years.”</p>
+
+<p>“And what if I assign a hundred programmers to it?”</p>
+
+<p>The Master Programmer shrugged. “Then the design will never be completed,” he said.</p>
+
+<hr />
+
+<h3 id="book-4">BOOK 4</h3>
+
+<h2 id="coding"><em>Coding</em></h2>
+
+<h5 id="thus-spake-the-master-programmer-3">Thus spake the Master Programmer:</h5>
+
+<p>“A well-written program is its own Heaven; a poorly-written program is its own Hell.”</p>
+
+<hr />
+
+<h4 id="41">4.1</h4>
+
+<p>A program should be light and agile, its subroutines connected like a string of pearls. The spirit and intent of the program should be retained throughout. There should be neither too little nor too much. Neither needless loops nor useless variables; neither lack of structure nor overwhelming rigidity.</p>
+
+<p>A program should follow the “Law of Least Astonishment”. What is this law? It is simply that the program should always respond to the users in the way that least astonishes them.</p>
+
+<p>A program, no matter how complex, should act as a single unit. The program should be directed by the logic within rather than by outward appearances.</p>
+
+<p>If the program fails in these requirements, it will be in a state of disorder and confusion. The only way to correct this is to rewrite the program.</p>
+
+<hr />
+
+<h4 id="42">4.2</h4>
+
+<p>A novice asked the Master: “I have a program that sometimes runs and sometimes aborts. I have followed the rules of programming, yet I am totally baffled. What is the reason for this?”</p>
+
+<p>The Master replied: “You are confused because you do not understand Tao. Only a fool expects rational behavior from his fellow humans. Why do you expect it from a machine that humans have constructed? Computers simulate determinism; only Tao is perfect.</p>
+
+<p>The rules of programming are transitory; only Tao is eternal. Therefore, you must contemplate Tao before you receive Enlightenment.”</p>
+
+<p>“But how will I know when I have received Enlightenment?” asked the novice.</p>
+
+<p>“Your program will run correctly,” replied the Master.</p>
+
+<hr />
+
+<h4 id="43">4.3</h4>
+
+<p>The Master was explaining the nature of Tao to one of his novices.</p>
+
+<p>“The Tao is embodied in all software – regardless of how insignificant,” said the Master.</p>
+
+<p>“Is the Tao in a hand-held calculator?” asked the novice.</p>
+
+<p>“It is,” came the reply.</p>
+
+<p>“Is the Tao in a video game?” asked the novice.</p>
+
+<p>“It is even in a video game,” said the Master.</p>
+
+<p>“Is the Tao in the DOS for a personal computer?” asked the novice.</p>
+
+<p>The Master coughed and shifted his position slightly. “The lesson is over for today,” he said.</p>
+
+<hr />
+
+<h4 id="44">4.4</h4>
+
+<p>Prince Wang’s programmer was coding software. His fingers danced upon the keyboard. The program compiled without and error message, and the program ran like a gentle wind.</p>
+
+<p>“Excellent!” the Prince exclaimed. “Your technique is faultless!”</p>
+
+<p>“Technique?” said the programmer, turning from his terminal, “What I follow is Tao – beyond all techniques! When I first began to program, I would see before me the whole problem in one mass. After three years, I no longer saw this mass. Instead, I used subroutines. But now I see nothing. My whole being exists in a formless void. My senses are idle. My spirit, free to work without a plan, follows its own instinct. In short, my program writes itself. True, sometimes there are difficult problems. I see them coming, I slow down, I watch silently. Then I change a single line of code and the difficulties vanish like puffs of idle smoke. I then compile the program. I sit still and let the joy of the work fill my being. I close my eyes for a moment and then log off.”</p>
+
+<p>Prince Wang said, “Would that all of my programmers were as wise!”</p>
+
+<hr />
+
+<h3 id="book-5">BOOK 5</h3>
+
+<h2 id="maintenance"><em>Maintenance</em></h2>
+
+<h5 id="thus-spake-the-master-programmer-4">Thus spake the Master Programmer:</h5>
+
+<p>“Though a program be but three lines long, someday it will have to be maintained.”</p>
+
+<hr />
+
+<h4 id="51">5.1</h4>
+
+<blockquote>
+  <p>A well-used door needs no oil on its hinges.<br />
+A swift-flowing stream does not grow stagnant.<br />
+A deer blends perfectly into the forest colors.<br />
+Software rots if not used.</p>
+</blockquote>
+
+<p>These are great mysteries.</p>
+
+<hr />
+
+<h4 id="52">5.2</h4>
+
+<p>A manager asked a programmer how long it would take him to finish the program on which he was working. “I will be finished tomorrow,” the programmer promptly replied.</p>
+
+<p>“I think you are being unrealistic,” said the manager, “Truthfully, how long will it take?”</p>
+
+<p>The programmer thought for a moment. “I have some features that I wish to add. This will take at least two weeks,” he finally said.</p>
+
+<p>“Even that is too much to expect,” insisted the manager, “I will be satisfied if you simply tell me when the program is complete.”</p>
+
+<p>The programmer agreed to this.</p>
+
+<p>Several years later, the manager retired. On the way to his retirement luncheon, he discovered the programmer asleep at his terminal. He had been programming all night.</p>
+
+<hr />
+
+<h4 id="53">5.3</h4>
+
+<p>A novice programmer was once assigned to code a simple financial package.</p>
+
+<p>The novice worked furiously for many days, but when his Master reviewed his program, he discovered it contained a screen editor, a set of generalized graphics routines, and an artificial intelligence interface, but not the slightest hint of anything financial.</p>
+
+<p>When the Master asked about this, the novice became indignant. “Don’t be so impatient,” he said, “I’ll put in the financial stuff eventually.”</p>
+
+<hr />
+
+<h4 id="54">5.4</h4>
+
+<blockquote>
+  <p>Does a good farmer neglect a crop he has planted?<br />
+Does a good teacher overlook even the most humble student?<br />
+Does a good father allow a single child to starve?<br />
+Does a good programmer refuse to maintain his code?</p>
+</blockquote>
+
+<hr />
+
+<h3 id="book-6">BOOK 6</h3>
+
+<h2 id="management"><em>Management</em></h2>
+
+<h5 id="thus-spake-the-master-programmer-5">Thus spake the Master Programmer:</h5>
+
+<p>“Let the programmers be many and the managers few – then all will be productive.”</p>
+
+<hr />
+
+<h4 id="61">6.1</h4>
+
+<blockquote>
+  <p>When managers hold endless meetings, the programmers write games.<br />
+When accountants speak of quarterly profits, the development budget is about to be cut.<br />
+When senior scientists talk blue sky, the clouds are about to roll in.</p>
+</blockquote>
+
+<p>Truly, this is not the Tao of Programming.</p>
+
+<blockquote>
+  <p>When managers make commitments, game programs are ignored.<br />
+When accountants make long-range plans, harmony and order are about to be restored.<br />
+When senior scientists address the problems at hand, the problems will soon be solved.</p>
+</blockquote>
+
+<p>Truly, this is the Tao of Programming.</p>
+
+<hr />
+
+<h4 id="62">6.2</h4>
+
+<blockquote>
+  <p>Why are programmers non-productive? Because their time is wasted in meetings.<br />
+Why are programmers rebellious? Because the management interferes too much.<br />
+Why are the programmers resigning one by one? Because they are burnt out.<br />
+Having worked for poor management, they no longer value their jobs.</p>
+</blockquote>
+
+<hr />
+
+<h4 id="63">6.3</h4>
+
+<p>A manager was about to be fired, but a programmer who worked for him wrote a new program that became popular and sold well. As a result, the manager retained his job.</p>
+
+<p>The manager tried to give the programmer a bonus, but the programmer refused it, saying, “I wrote the program because I thought it was an interesting concept, and thus I expect no reward.”</p>
+
+<p>The manager upon hearing this remarked, “This programmer, though he holds a position of small esteem, understands well the proper duty of an employee. Let us promote him to the exalted position of management consultant!”</p>
+
+<p>But when told this, the programmer once more refused, saying, “I exist so that I can program. If I were promoted, I would do nothing but waste everyone’s time. Can I go now? I have a program that I am working on.”</p>
+
+<hr />
+
+<h4 id="64">6.4</h4>
+
+<p>A manager went to his programmers and told them: “As regards to your work hours: you are going to have to come in at nine in the morning and leave at five in the afternoon.” At this, all of them became angry and several resigned on the spot.</p>
+
+<p>So the manager said: “All right, in that case you may set your own working hours, as long as you finish your projects on schedule.” The programmers, now satisfied, began to come in at noon and work to the wee hours of the morning.</p>
+
+<hr />
+
+<h3 id="book-7">BOOK 7</h3>
+
+<h2 id="corporate-wisdom"><em>Corporate Wisdom</em></h2>
+
+<h5 id="thus-spake-the-master-programmer-6">Thus spake the Master Programmer:</h5>
+
+<p>“You can demonstrate a program for a corporate executive, but you can’t make him computer literate.”</p>
+
+<hr />
+
+<h4 id="71">7.1</h4>
+
+<p>A novice asked the Master: “In the East, there is a great tree-structure that men call ‘Corporate Headquarters’. It is bloated out of shape with vice presidents and accountants. It issues a multitude of memos, each saying ‘Go Hence!’ or ‘Go Hither!’ and nobody knows what is meant. Every year new names are put onto the branches, but all to no avail. How can such an unnatural entity exist?”</p>
+
+<p>The Master replied: “You perceive this immense structure and are disturbed that it has no rational purpose. Can you not take amusement from its endless gyrations? Do you not enjoy the untroubled ease of programming beneath its sheltering branches? Why are you bothered by its uselessness?”</p>
+
+<hr />
+
+<h4 id="72">7.2</h4>
+
+<p>In the East there is a shark which is larger than all other fish. It changes into a bird whose wings are like clouds filling the sky. When this bird moves across the land, it brings a message from Corporate Headquarters. This message it drops into the midst of the programmers, like a seagull making its mark upon the beach. Then the bird mounts on the wind and, with the blue sky at its back, returns home.</p>
+
+<p>The novice programmer stares in wonder at the bird, for he understands it not. The average programmer dreads the coming of the bird, for he fears its message. The Master Programmer continues to work at his terminal, unaware that the bird has come and gone.</p>
+
+<hr />
+
+<h4 id="73">7.3</h4>
+
+<p>The Magician of the Ivory Tower brought his latest invention for the Master Programmer to examine. The Magician wheeled a large black box into the Master’s office while the Master waited in silence.</p>
+
+<p>“This is an integrated, distributed, general-purpose workstation,” began the Magician, “ergonomically designed with a proprietary operating system, sixth generation languages, and multiple state of the art user interfaces. It took my assistants several hundred man years to construct. Is it not amazing?”</p>
+
+<p>The Master Programmer raised his eyebrows slightly. “It is indeed amazing,” he said.</p>
+
+<p>“Corporate Headquarters has commanded,” continued the Magician, “that everyone use this workstation as a platform for new programs. Do you agree to this?”</p>
+
+<p>“Certainly,” replied the Master. “I will have it transported to the Data Center immediately!” And the Magician returned to his tower, well pleased.</p>
+
+<p>Several days later, a novice wandered into the office of the Master Programmer and said, “I cannot find the listing for my new program. Do you know where it might be?”</p>
+
+<p>“Yes,” replied the Master, “the listings are stacked on the platform in the Data Center.”</p>
+
+<hr />
+
+<h4 id="74">7.4</h4>
+
+<p>The Master Programmer moves from program to program without fear. No change in management can harm him. He will not be fired, even if the project is cancelled. Why is this? He is filled with Tao.</p>
+
+<hr />
+
+<h3 id="book-8">BOOK 8</h3>
+
+<h2 id="hardware-and-software"><em>Hardware and Software</em></h2>
+
+<h5 id="thus-spake-the-master-programmer-7">Thus spake the Master Programmer:</h5>
+
+<p>“Without the wind, the grass does not move. Without software hardware is useless.”</p>
+
+<hr />
+
+<h4 id="81">8.1</h4>
+
+<p>A novice asked the Master: “I perceive that one computer company is much larger than all others. It towers above its competition like a giant among dwarfs. Any one of its divisions could comprise an entire business. Why is this so?”</p>
+
+<p>The Master replied, “Why do you ask such foolish questions? That company is large because it is large. If it only made hardware, nobody would buy it. If it only made software, nobody would use it. If it only maintained systems, people would treat it like a servant. But because it combines all of these things, people think it one of the gods! By not seeking to strive, it conquers without effort.”</p>
+
+<hr />
+
+<h4 id="82">8.2</h4>
+
+<p>A Master Programmer passed a novice programmer one day.</p>
+
+<p>The Master noted the novice’s preoccupation with a hand-held computer game.</p>
+
+<p>“Excuse me,” he said, “may I examine it?”</p>
+
+<p>The novice bolted to attention and handed the device to the Master. “I see that the device claims to have three levels of play: Easy, Medium, and Hard,” said the Master. “Yet every such device has another level of play, where the device seeks not to conquer the human, nor to be conquered by the human.”</p>
+
+<p>“Pray, Great Master,” implored the novice, “how does one find this mysterious setting?”</p>
+
+<p>The Master dropped the device to the ground and crushed it with his heel. Suddenly the novice was enlightened.</p>
+
+<hr />
+
+<h4 id="83">8.3</h4>
+
+<p>There was once a programmer who wrote software for personal computers. “Look at how well off I am here,” he said to a mainframe programmer who came to visit. “I have my own operating system and file storage device. I do not have to share my resources with anyone. The software is self-consistent and easy-to-use. Why do you not quit your present job and join me here?”</p>
+
+<p>The mainframe programmer then began to describe his system to his friend, saying, “The mainframe sits like an ancient Sage meditating in the midst of the Data Center. Its disk drives lie end-to- end like a great ocean of machinery. The software is as multifaceted as a diamond, and as convoluted as a primeval jungle. The programs, each unique, move through the system like a swift-flowing river. That is why I am happy where I am.”</p>
+
+<p>The personal computer programmer, upon hearing this, fell silent. But the two programmers remained friends until the end of their days.</p>
+
+<hr />
+
+<h4 id="84">8.4</h4>
+
+<p>Hardware met Software on the road to Changtse. Software said: “You are Yin and I am Yang. If we travel together, we will become famous and earn vast sums of money.” And so they set forth together, thinking to conquer the world.</p>
+
+<p>Presently, they met Firmware, who was dressed in tattered rags and hobbled along propped on a thorny stick. Firmware said to them: “The Tao lies beyond Yin and Yang. It is silent and still as a pool of water. It does not seek fame; therefore, nobody knows its presence. It does not seek fortune, for it is complete within itself. It exists beyond space and time.”</p>
+
+<p>Software and Hardware, ashamed, returned to their homes.</p>
+
+<hr />
+
+<h3 id="book-9">BOOK 9</h3>
+
+<h2 id="epilogue"><em>Epilogue</em></h2>
+
+<h5 id="thus-spake-the-master-programmer-8">Thus spake the Master Programmer:</h5>
+
+<p>“Time for you to leave.”</p>
+
+<hr />
+
+
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+  
+
+<img id="artwork" class="img-full" tabindex="0" onclick="shuffleArt();"/>
+<p id="description" class="img-alt"></p>
+
+<script src="/assets/js/art.js"></script>
+
+
+  
+
+<a style="font-size:1.8rem;" id="ideaMachine" title="Idea Machine" tabindex="0" onclick="setNextIdea();">🎰
+</a>
+
+<p id="random_idea" class="idea" onclick="setNextIdea();"></p>
+
+
+<style>
+  .idea {
+    white-space: pre-line;
+    min-height: 2.5rem
+  }
+</style>
+
+
+<script src="/assets/js/idea.js"></script>
+
+<script>
+
+  const setNextIdea = async () => {
+    let machine = document.getElementById("ideaMachine");
+    animate(machine, "shakey");
+    document.getElementById("random_idea").innerHTML = await getNextIdea();
+  }
+
+  document.addEventListener('DOMContentLoaded', async () => {
+    let machine = document.getElementById("ideaMachine");
+
+    machine.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        setNextIdea();
+      }
+    });
+
+    setNextIdea()
+  });
+
+</script>
+
+
+
+
+<script src="/assets/js/visits.js"></script>
+
+
+
+
+
+    <footer>
+    
+</footer>
+<style>
+    footer {
+        background: inherit !important;
+        padding-top: 1rem;
+        text-align: center;
+    }
+
+
+</style>
+
+  </article>
+</body>
+
+
+</html>
+

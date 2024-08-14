@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Call C code from Python
+  </title>
+
+      <meta charset="utf-8" />
+    <meta lang="en-US" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="You can use ctypes or cffi to call C code from Python.
+" />
+    <meta property="og:description" content="You can use ctypes or cffi to call C code from Python.
+" />
+    
+    
+    <meta name="author" content="selimslab" />
+
+    
+    <meta property="og:title" content="Call C code from Python" />
+    <meta property="twitter:title" content="Call C code from Python" />
+    
+  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-touch-icon.png">
+  <link rel="icon" type="image/x-icon" href="/assets/fav/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="/assets/css/bulma.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/code.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/solar.css">
+
+</head>
+
+<body>
+
+  <div class="top"></div>
+
+  <article>
+
+    <nav class="navbar">
+  <div class="navbar-brand">
+    <a href="/" title="Home" class="site-name">Δ</a>
+
+    <div class="search is-6 is-6-mobile">
+  <input type="text" class="input is-small is-rounded" id="search-input" placeholder="Search..">
+  <ul id="results-container"></ul>
+</div>
+<script src="/assets/js/search.js"></script>
+<script>
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/assets/data/search.json',
+    noResultsText: "🤷🏿",
+    limit: 7
+  })
+
+  document.addEventListener('keydown', function (e) {
+    if (e.shiftKey && (e.key === 's' || e.key === 'S')) {
+      e.preventDefault();
+      // focus on search input
+      document.getElementById('search-input').focus();
+    }
+  });
+
+
+</script>
+
+    <a title="Toggle theme" id="themeToggle"  tabindex="0" onclick="switchTheme()" class="navbutton"></a>
+    <a title="Roll the dice! Shift+P" id="dice"  tabindex="0" onclick="getRandomPage()" class="navbutton">🎲</a>
+  </div>
+</nav>
+
+<script src="/assets/js/animate.js"></script>
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/utils.js"></script>
+<script src="/assets/js/post.js"></script>
+<script src="/assets/js/arrow.js"></script>
+
+<style>
+
+a.site-name {
+    color: inherit;
+    font-size: 2rem;
+    margin-right: 1rem;
+
+  }
+
+  .search {
+    padding: 0.5rem;
+    max-width: 9rem;
+  }
+
+  #results-container {
+    margin-top: 0.3rem;
+    list-style: none;
+    font-size: 1rem;
+    max-width: 20ch;
+
+    li {
+      margin: 0 auto;
+      margin-top: 0.3rem;
+      padding: 0.2rem;
+    }
+  }
+
+
+
+  #themeToggle{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+  }
+
+
+  .navbutton {
+    font-size: 1.3rem;
+    margin-top:0.5rem;
+    margin-left:1.2rem;
+  }
+
+  .navbar {
+    background: inherit;
+    color: inherit;
+    width: fit-content;
+    margin-bottom: 1rem;
+  }
+
+  .top {
+    height: 4px;
+    background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2259a7, #373B44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2259a7, #373B44);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+
+
+
+
+</style>
+
+
+
+      <span class="taglist">
+   
+     
+      
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+         
+          <a class="toplink" href="/python/">Python</a>
+        
+    
+  
+
+  
+
+
+</span>
+
+
+  <h1>Call C code from Python</h1>  
+ 
+  
+
+<p style="font-size: 0.8rem; margin-bottom:0.8rem">
+  ~2 mins read
+</p>
+
+
+
+
+
+  <p>You can use <code class="language-plaintext highlighter-rouge">ctypes</code> or <code class="language-plaintext highlighter-rouge">cffi</code> to call C code from Python.</p>
+
+<h3 id="using-ctypes">Using <code class="language-plaintext highlighter-rouge">ctypes</code></h3>
+
+<ol>
+  <li>
+    <p><strong>Create a C Library</strong></p>
+
+    <div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td><td class="rouge-code"><pre><span class="c1">// example.c</span>
+<span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
+</span>
+<span class="kt">void</span> <span class="nf">hello</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"Hello from C!</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+  <li>
+    <p><strong>Compile to Shared Library</strong></p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>gcc <span class="nt">-shared</span> <span class="nt">-o</span> libexample.so <span class="nt">-fPIC</span> example.c
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+  <li>
+    <p><strong>Use in Python</strong></p>
+
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre><span class="kn">import</span> <span class="nn">ctypes</span>
+
+<span class="c1"># Load the shared library
+</span><span class="n">lib</span> <span class="o">=</span> <span class="n">ctypes</span><span class="p">.</span><span class="n">CDLL</span><span class="p">(</span><span class="s">'./libexample.so'</span><span class="p">)</span>
+
+<span class="c1"># Call the function
+</span><span class="n">lib</span><span class="p">.</span><span class="n">hello</span><span class="p">()</span>
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+</ol>
+
+<h3 id="using-cffi">Using <code class="language-plaintext highlighter-rouge">cffi</code></h3>
+
+<ol>
+  <li>
+    <p><strong>Create a C Library</strong></p>
+
+    <p>Same as above.</p>
+  </li>
+  <li>
+    <p><strong>Compile to Shared Library</strong></p>
+
+    <p>Same as above.</p>
+  </li>
+  <li>
+    <p><strong>Use in Python</strong></p>
+
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+</pre></td><td class="rouge-code"><pre><span class="kn">from</span> <span class="nn">cffi</span> <span class="kn">import</span> <span class="n">FFI</span>
+
+<span class="n">ffi</span> <span class="o">=</span> <span class="n">FFI</span><span class="p">()</span>
+
+<span class="c1"># Load the shared library
+</span><span class="n">lib</span> <span class="o">=</span> <span class="n">ffi</span><span class="p">.</span><span class="n">dlopen</span><span class="p">(</span><span class="s">'./libexample.so'</span><span class="p">)</span>
+
+<span class="c1"># Define the function prototype
+</span><span class="n">ffi</span><span class="p">.</span><span class="n">cdef</span><span class="p">(</span><span class="s">'void hello();'</span><span class="p">)</span>
+
+<span class="c1"># Call the function
+</span><span class="n">lib</span><span class="p">.</span><span class="n">hello</span><span class="p">()</span>
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+</ol>
+
+
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+  
+
+<img id="artwork" class="img-full" tabindex="0" onclick="shuffleArt();"/>
+<p id="description" class="img-alt"></p>
+
+<script src="/assets/js/art.js"></script>
+
+
+  
+
+<a style="font-size:1.8rem;" id="ideaMachine" title="Idea Machine" tabindex="0" onclick="setNextIdea();">🎰
+</a>
+
+<p id="random_idea" class="idea" onclick="setNextIdea();"></p>
+
+
+<style>
+  .idea {
+    white-space: pre-line;
+    min-height: 2.5rem
+  }
+</style>
+
+
+<script src="/assets/js/idea.js"></script>
+
+<script>
+
+  const setNextIdea = async () => {
+    let machine = document.getElementById("ideaMachine");
+    animate(machine, "shakey");
+    document.getElementById("random_idea").innerHTML = await getNextIdea();
+  }
+
+  document.addEventListener('DOMContentLoaded', async () => {
+    let machine = document.getElementById("ideaMachine");
+
+    machine.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        setNextIdea();
+      }
+    });
+
+    setNextIdea()
+  });
+
+</script>
+
+
+
+
+<script src="/assets/js/visits.js"></script>
+
+
+
+
+
+    <footer>
+    
+</footer>
+<style>
+    footer {
+        background: inherit !important;
+        padding-top: 1rem;
+        text-align: center;
+    }
+
+
+</style>
+
+  </article>
+</body>
+
+
+</html>
+

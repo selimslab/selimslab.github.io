@@ -1,0 +1,2675 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    delta | one bit better
+  </title>
+
+      <meta charset="utf-8" />
+    <meta lang="en-US" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="one bit better">
+    <meta property="og:description" content="one bit better" />
+    
+    
+    <meta name="author" content="selimslab" />
+
+    
+  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-touch-icon.png">
+  <link rel="icon" type="image/x-icon" href="/assets/fav/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="/assets/css/bulma.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/code.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/solar.css">
+
+</head>
+
+<body>
+
+  <div class="top"></div>
+
+  <article>
+
+    <nav class="navbar">
+  <div class="navbar-brand">
+    <a href="/" title="Home" class="site-name">Δ</a>
+
+    <div class="search is-6 is-6-mobile">
+  <input type="text" class="input is-small is-rounded" id="search-input" placeholder="Search..">
+  <ul id="results-container"></ul>
+</div>
+<script src="/assets/js/search.js"></script>
+<script>
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/assets/data/search.json',
+    noResultsText: "🤷🏿",
+    limit: 7
+  })
+
+  document.addEventListener('keydown', function (e) {
+    if (e.shiftKey && (e.key === 's' || e.key === 'S')) {
+      e.preventDefault();
+      // focus on search input
+      document.getElementById('search-input').focus();
+    }
+  });
+
+
+</script>
+
+    <a title="Toggle theme" id="themeToggle"  tabindex="0" onclick="switchTheme()" class="navbutton"></a>
+    <a title="Roll the dice! Shift+P" id="dice"  tabindex="0" onclick="getRandomPage()" class="navbutton">🎲</a>
+  </div>
+</nav>
+
+<script src="/assets/js/animate.js"></script>
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/utils.js"></script>
+<script src="/assets/js/post.js"></script>
+<script src="/assets/js/arrow.js"></script>
+
+<style>
+
+a.site-name {
+    color: inherit;
+    font-size: 2rem;
+    margin-right: 1rem;
+
+  }
+
+  .search {
+    padding: 0.5rem;
+    max-width: 9rem;
+  }
+
+  #results-container {
+    margin-top: 0.3rem;
+    list-style: none;
+    font-size: 1rem;
+    max-width: 20ch;
+
+    li {
+      margin: 0 auto;
+      margin-top: 0.3rem;
+      padding: 0.2rem;
+    }
+  }
+
+
+
+  #themeToggle{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+  }
+
+
+  .navbutton {
+    font-size: 1.3rem;
+    margin-top:0.5rem;
+    margin-left:1.2rem;
+  }
+
+  .navbar {
+    background: inherit;
+    color: inherit;
+    width: fit-content;
+    margin-bottom: 1rem;
+  }
+
+  .top {
+    height: 4px;
+    background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2259a7, #373B44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2259a7, #373B44);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+
+
+
+
+</style>
+
+
+
+      <h1 id="page-title"></h1>
+
+  <style>
+
+</style>
+
+<h2 id="delta">Delta</h2>
+<p>Give your mind some space</p>
+
+<h2 id="featured">Featured</h2>
+
+<ul>        
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+                <li>
+                    <a href="/cognitive-biases/">Cognitive Biases</a>
+                </li>
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+                <li>
+                    <a href="/for-new-programmers/">For New Programmers</a>
+                </li>
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+                <li>
+                    <a href="/hard-times/">Hard Times</a>
+                </li>
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+                <li>
+                    <a href="/time-scale/">If the Earth is 45 years old</a>
+                </li>
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+                <li>
+                    <a href="/decisions/">On Decisions</a>
+                </li>
+            
+        
+    
+        
+    
+        
+            
+                <li>
+                    <a href="/eudaimonia/">On a good life 🌱</a>
+                </li>
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+                <li>
+                    <a href="/take-a-walk/">Take a walk</a>
+                </li>
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+                <li>
+                    <a href="/the-tao-of-programming/">The Tao of Programming</a>
+                </li>
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+                <li>
+                    <a href="/typing-practice/">Typing Practice</a>
+                </li>
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</ul>
+
+<h2 id="all-pages">All Pages</h2>
+
+<div style="margin-top:0.5rem">
+<ul><details><summary>Stem</summary><li><ul><details><summary>Natural Sciences</summary><li><ul><details><summary>Astronomy</summary><li><ul><li><a href="/astronomy/">Astronomy</a></li><li><a href="/earth/">Earth</a></li><li><a href="/size-of-the-universe/">Size Of The Universe</a></li><li><a href="/solar-system/">Solar System</a></li><li><a href="/the-overview-effect/">The Overview Effect</a></li></ul></li></details><details><summary>Physics</summary><li><ul><li><a href="/classical-physics/">Classical Physics</a></li><li><a href="/inertia/">Inertia</a></li><li><a href="/maxwell-equations/">Maxwell Equations</a></li><li><a href="/philosophical-implications-of-quantum-mechanics/">Philosophical Implications Of Quantum Mechanics</a></li><li><a href="/physics/">Physics</a></li></ul></li></details><details><summary>Health</summary><li><ul><li><a href="/going-blind/">Going Blind</a></li><li><a href="/health/">Health</a></li><li><a href="/how-to-deal-with-pain/">How to deal with Extreme Physical Pain</a></li><li><a href="/sleep/">How to sleep better?</a></li></ul></li></details><li><a href="/akins-laws-of-spacecraft/">Akins Laws Of Spacecraft</a></li><li><a href="/books-natural/">Books</a></li><li><a href="/climate-change/">Climate Change</a></li><li><a href="/feynman-lectures/">Feynman Lectures</a></li><li><a href="/feynmans-epilogue/">Feynmans Epilogue</a></li><li><a href="/fluid-field-boundaries/">Fluid Field Boundaries</a></li><li><a href="/natural-sciences/">Natural Sciences</a></li><li><a href="/pale-blue-dot/">Pale Blue Dot</a></li><li><a href="/sagan/">Sagan</a></li><li><a href="/sapolsky/">Sapolsky</a></li></ul></li></details><details><summary>Technology</summary><li><ul><details><summary>Projects</summary><li><ul><li><a href="/async-crawler/">An async web crawler from scratch</a></li><li><a href="/c-hashmap/">A hash table in C from scratch</a></li><li><a href="/compiler/">Let's write a compiler</a></li><li><a href="/garbage-collector-in-c/">A garbage collector in C from scratch</a></li><li><a href="/links-for-makers/">Links For Makers</a></li><li><a href="/logos-os/">Logos, an operating system kernel from scratch</a></li><li><a href="/mini-search-engine/">A search engine with page rank, in 200 lines</a></li><li><a href="/mini-web-server/">A web server from scratch</a></li><li><a href="/minik-robot/">A* path-finding algorithm for a robot</a></li><li><a href="/pascal-interpreter/">An interpreter in Python</a></li><li><a href="/pca/">Principal Component Analysis</a></li><li><a href="/pneumonia-detection/">Pneumonia Detection</a></li><li><a href="/predict-movie-genres/">Predict movie genres using ML classifiers</a></li><li><a href="/projects/">Projects</a></li><li><a href="/vga-driver/">VGA Driver</a></li></ul></li></details><details><summary>Programming</summary><li><ul><details><summary>Code</summary><li><ul><li><a href="/array-rotate/">Array Rotate</a></li><li><a href="/bfs-dfs-topo/">Bfs Dfs Topo</a></li><li><a href="/binary-search/">Binary Search</a></li><li><a href="/bst/">Binary Search Tree</a></li><li><a href="/check-brackets/">Check Brackets</a></li><li><a href="/climb-stairs/">Climb Stairs</a></li><li><a href="/code/">Code</a></li><li><a href="/coin-change/">Coin Change</a></li><li><a href="/count-primes/">Count Primes</a></li><li><a href="/days-until-warmer-temperature/">Days Until Warmer Temperature</a></li><li><a href="/decode-string/">Decode String</a></li><li><a href="/dedup-game/">Dedup Game</a></li><li><a href="/delete-tree-node/">Delete Tree Node</a></li><li><a href="/diamater-of-binary-tree/">Diamater Of Binary Tree</a></li><li><a href="/dijkstra/">Dijkstra</a></li><li><a href="/dynamic/">Dynamic</a></li><li><a href="/edit-distance/">Edit Distance</a></li><li><a href="/generate-n-grams/">Generate N Grams</a></li><li><a href="/generate-pascals-triangle/">Generate Pascals Triangle</a></li><li><a href="/group-anagrams/">Group Anagrams</a></li><li><a href="/house-robber/">House Robber</a></li><li><a href="/invert-binary-tree/">Invert Binary Tree</a></li><li><a href="/is-mirror-tree/">Is Mirror Tree</a></li><li><a href="/least-num-of-perfect-squares/">Least Num Of Perfect Squares</a></li><li><a href="/lengthOfLIS/">Longest increasing subsequence</a></li><li><a href="/level-order/">Level Order</a></li><li><a href="/longest-common-prefix/">Longest Common Prefix</a></li><li><a href="/longest-common-subsequence/">Longest Common Subsequence</a></li><li><a href="/longest-consecutive/">Longest Consecutive</a></li><li><a href="/longest-diverse-str/">Longest Diverse Str</a></li><li><a href="/longest-valid-paranthesis/">Longest Valid Paranthesis</a></li><li><a href="/lowest-common-ancestor/">Lowest Common Ancestor</a></li><li><a href="/max-path-sum/">Max Path Sum</a></li><li><a href="/max-tree-depth/">Max Tree Depth</a></li><li><a href="/max-water/">Max Water</a></li><li><a href="/maximal-square/">Maximal Square</a></li><li><a href="/min-covering-window/">Min Covering Window</a></li><li><a href="/min-edit-distance/">Min Edit Distance</a></li><li><a href="/min-path-sum/">Min Path Sum</a></li><li><a href="/min-steps-notepad/">Min Steps Notepad</a></li><li><a href="/partition-labels/">Partition Labels</a></li><li><a href="/pivot-index/">Pivot Index</a></li><li><a href="/plus-one/">Plus One</a></li><li><a href="/possible-morse/">Possible Morse</a></li><li><a href="/post-order-go/">Post Order Go</a></li><li><a href="/producer-consumer-problem/">Producer Consumer Problem</a></li><li><a href="/repeatedStringMatch/">Repeatedstringmatch</a></li><li><a href="/reverse-letters-only/">Reverse Letters Only</a></li><li><a href="/sliding-window-max/">Sliding Window Max</a></li><li><a href="/stocks-with-cooldown/">Stocks With Cooldown</a></li><li><a href="/string-compression/">String Compression</a></li><li><a href="/three-sum-closest/">Three Sum Closest</a></li><li><a href="/threeSum/">Threesum</a></li><li><a href="/tree-codec-py/">Tree Codec Py</a></li><li><a href="/tree-traversals/">Tree Traversals</a></li><li><a href="/trie-py/">Trie Py</a></li><li><a href="/unique-bst/">Unique Bst</a></li><li><a href="/ways-to-target-sum/">Ways To Target Sum</a></li><li><a href="/word-break/">Word Break</a></li></ul></li></details><details><summary>Programming Languages</summary><li><ul><details><summary>Python</summary><li><ul><li><a href="/c-and-python/">Call C code from Python</a></li><li><a href="/python-data-structures/">Python Data Structures</a></li><li><a href="/python-packages/">Python Packages</a></li><li><a href="/python/">Python</a></li><li><a href="/zen-of-python/">Zen Of Python</a></li></ul></li></details><li><a href="/c/">C</a></li><li><a href="/clojure/">Clojure</a></li><li><a href="/cpp/">Cpp</a></li><li><a href="/csharp/">C#</a></li><li><a href="/elixir/">Elixir</a></li><li><a href="/erlang/">Erlang</a></li><li><a href="/functional-programming/">Functional Programming</a></li><li><a href="/go/">Go</a></li><li><a href="/haskell/">Haskell</a></li><li><a href="/java/">Java</a></li><li><a href="/lisp/">Lisp</a></li><li><a href="/programming-languages/">Programming Languages</a></li><li><a href="/rust/">Rust</a></li><li><a href="/scala/">Scala</a></li><li><a href="/typing/">Typing</a></li></ul></li></details><details><summary>Data Structures</summary><li><ul><li><a href="/array/">Array</a></li><li><a href="/bloom-filters/">Bloom Filters</a></li><li><a href="/data-structures/">Data Structures</a></li><li><a href="/graph/">Graph</a></li><li><a href="/hash-table/">Hash Table</a></li><li><a href="/heap/">Heap</a></li><li><a href="/hyperloglog/">Hyperloglog</a></li><li><a href="/linked-list/">Linked List</a></li><li><a href="/pointers/">Pointers</a></li><li><a href="/quad-tree/">Quad Tree</a></li><li><a href="/queue/">Queue</a></li><li><a href="/r-tree/">R Tree</a></li><li><a href="/skiplists/">Skip Lists</a></li><li><a href="/stack/">Stack</a></li><li><a href="/string/">String</a></li></ul></li></details><details><summary>Algorithms</summary><li><ul><li><a href="/algorithms/">Algorithms</a></li><li><a href="/approximation/">Approximation</a></li><li><a href="/backtrack/">Backtrack</a></li><li><a href="/bit/">Bit</a></li><li><a href="/easy/">Easy</a></li><li><a href="/greedy/">Greedy</a></li><li><a href="/hard/">Hard</a></li><li><a href="/local-maximum/">Local Maximum</a></li><li><a href="/mid/">Medium</a></li><li><a href="/parallel-programming/">Parallel Programming</a></li><li><a href="/rabin-karp/">Rabin Karp</a></li><li><a href="/sort/">Sort</a></li><li><a href="/tree-balancing/">Tree Balancing</a></li><li><a href="/vector-search/">Vector Search</a></li></ul></li></details><li><a href="/api/">APIs</a></li><li><a href="/com/">COM - Component Object Model</a></li><li><a href="/concurrency/">Concurrency</a></li><li><a href="/discussion-topics/">Discussion Topics</a></li><li><a href="/easy-vs-hard-in-cs/">The fine line between easy and very hard</a></li><li><a href="/encodings/">Encodings</a></li><li><a href="/for-new-programmers/">For New Programmers</a></li><li><a href="/programming/">Programming</a></li><li><a href="/unicode/">Unicode</a></li></ul></li></details><details><summary>Security</summary><li><ul><li><a href="/authentication/">Authentication</a></li><li><a href="/authorization/">Authorization</a></li><li><a href="/certificates/">Certificates</a></li><li><a href="/cookies/">Cookies</a></li><li><a href="/cors/">Cross-origin Resource Sharing (CORS)</a></li><li><a href="/csrf/">Cross-site request forgery</a></li><li><a href="/openssl-encrypt/">How to encrypt-decrypt a file with a password</a></li><li><a href="/public-key-cryptography/">Public Key Cryptography</a></li><li><a href="/security-heuristics/">Security Heuristics</a></li><li><a href="/security/">Security</a></li><li><a href="/store-passwords/">How to store passwords?</a></li><li><a href="/transport-layer-security/">Transport Layer Security</a></li><li><a href="/xss/">Cross-site scripting</a></li></ul></li></details><details><summary>Distributed Systems</summary><li><ul><li><a href="/armstrong-thesis/">Armstrong Thesis</a></li><li><a href="/azure-pillars/">Azure Pillars</a></li><li><a href="/consistent-hashing/">Consistent Hashing</a></li><li><a href="/detect-a-node-failure/">Detect A Node Failure</a></li><li><a href="/distributed-design-patterns/">Distributed Design Patterns</a></li><li><a href="/distributed-systems/">Distributed Systems</a></li><li><a href="/generate-a-unique-id/">Generate A Unique Id</a></li><li><a href="/google-sre-book/">Google SRE book</a></li><li><a href="/kafka/">Apache Kafka</a></li><li><a href="/spark/">Apache Spark</a></li><li><a href="/time-and-order/">Time And Order</a></li><li><a href="/use-an-identity-service/">Use An Identity Service</a></li></ul></li></details><details><summary>Databases</summary><li><ul><li><a href="/acid/">ACID</a></li><li><a href="/b-trees/">B Trees</a></li><li><a href="/databases/">Databases</a></li><li><a href="/db-concepts/">Database Concepts</a></li><li><a href="/db-data-structures/">Data Structures to Build a DB</a></li><li><a href="/leaderless-replication/">Leaderless Replication</a></li><li><a href="/lsm-trees/">Log structured merge tree (LSM tree)</a></li><li><a href="/partitioning/">Partitioning</a></li><li><a href="/replication/">Replication</a></li><li><a href="/single-leader/">Single Leader</a></li><li><a href="/sql-tips/">Sql Tips</a></li></ul></li></details><details><summary>UX</summary><li><ul><li><a href="/accessibility/">Accessible Software</a></li><li><a href="/evolution-of-computer-interfaces/">Evolution Of Computer Interfaces</a></li><li><a href="/hijacked-minds/">How Technology is Hijacking Your Mind</a></li><li><a href="/natural-tech/">Natural UX</a></li><li><a href="/polished-pixels/">Polished Pixels</a></li><li><a href="/things-users-care/">Things end users care about but programmers don't</a></li><li><a href="/usability-testing/">Why You Only Need to Test with 5 Users</a></li><li><a href="/ux/">UX</a></li></ul></li></details><details><summary>Software Engineering</summary><li><ul><li><a href="/code-review/">Code Review</a></li><li><a href="/core-concepts/">Core Concepts</a></li><li><a href="/on-software/">On Software</a></li><li><a href="/software-analogies/">Software Analogies</a></li><li><a href="/software-engineering/">Software Engineering</a></li><li><a href="/software-quality/">Is High Quality Software Worth the Cost?</a></li><li><a href="/the-joel-test/">The Joel Test</a></li></ul></li></details><details><summary>System Design</summary><li><ul><details><summary>OOP</summary><li><ul><details><summary>OOP designs</summary><li><ul><li><a href="/block/">Design a blockchain</a></li><li><a href="/design-a-bicycle/">Design A Bicycle</a></li><li><a href="/design-a-book-app/">Design A Book App</a></li><li><a href="/design-a-crm/">CRM design</a></li><li><a href="/design-a-data-pipeline/">Design A Data Pipeline</a></li><li><a href="/design-a-gov-cloud/">Design A Gov Cloud</a></li><li><a href="/design-a-personal-note-publishing-system/">Design A Personal Note Publishing System</a></li><li><a href="/design-a-trader/">Design A Trader</a></li><li><a href="/design-a-web-crawler/">Design A Web Crawler</a></li><li><a href="/design-auth/">Design Auth</a></li><li><a href="/design-oauth/">Design an OAuth System</a></li><li><a href="/design-units/">Design Units</a></li><li><a href="/design-video-streaming-app/">Design Video Streaming App</a></li><li><a href="/oop-designs/">OOP designs</a></li></ul></li></details><li><a href="/design-patterns/">Design Patterns</a></li><li><a href="/oop/">OOP</a></li><li><a href="/solid/">SOLID</a></li></ul></li></details><li><a href="/choose-boring-tech/">Choose Boring Tech</a></li><li><a href="/domain-driven-design/">Domain Driven Design</a></li><li><a href="/hacker-laws/">Hacker Laws</a></li><li><a href="/minimal-tech/">Minimal Tech</a></li><li><a href="/system-design/">System Design</a></li></ul></li></details><details><summary>Machine Learning</summary><li><ul><li><a href="/customize-prompt/">Customize Prompt</a></li><li><a href="/machine-learning/">Machine Learning</a></li><li><a href="/nlp/">NLP</a></li><li><a href="/ozlang/">Ozlang</a></li><li><a href="/prompt-engineering/">Prompt Engineering</a></li></ul></li></details><details><summary>Computers from scratch</summary><li><ul><li><a href="/computers/">Computers from scratch</a></li><li><a href="/containers/">Containers</a></li><li><a href="/networks/">Networks</a></li><li><a href="/operating-systems/">Operating Systems</a></li></ul></li></details><details><summary>Thoughts-on-tech</summary><li><ul><li><a href="/a-free-web-again/">A Free Web Again</a></li><li><a href="/is-tech-fast-or-slow/">Is Tech Fast Or Slow</a></li><li><a href="/social-media/">Social Media</a></li><li><a href="/the-tao-of-programming/">The Tao of Programming</a></li></ul></li></details><li><a href="/tech/">Technology</a></li></ul></li></details><details><summary>Math</summary><li><ul><li><a href="/bayes/">Bayes' theorem</a></li><li><a href="/counter-intuitive-math/">Counter Intuitive Math</a></li><li><a href="/discrete-vs-continuous/">Digital vs Analog</a></li><li><a href="/equations-that-changed-the-world/">Equations That Changed The World</a></li><li><a href="/fourier-transform/">Fourier Transform</a></li><li><a href="/laplace-transform/">Laplace Transform</a></li><li><a href="/logic-proofs/">Five ways to prove P=&gt;Q</a></li><li><a href="/math/">Math</a></li><li><a href="/normal-distribution/">Normal Distribution</a></li><li><a href="/probability-and-statistics/">Probability And Statistics</a></li></ul></li></details><li><a href="/stem/">STEM</a></li></ul></li></details><details><summary>Arts</summary><li><ul><details><summary>Philosophy</summary><li><ul><details><summary>Time</summary><li><ul><li><a href="/death/">Death</a></li><li><a href="/on-the-shortness-of-life/">Life is not short but we waste it</a></li><li><a href="/slow-down-time/">Deepen your days</a></li><li><a href="/the-morning/">The Morning</a></li><li><a href="/the-past/">The Past</a></li><li><a href="/time/">Time</a></li></ul></li></details><details><summary>Work</summary><li><ul><li><a href="/career-advice/">Career advice</a></li><li><a href="/teamwork/">Teamwork</a></li><li><a href="/what-to-work-on/">What to work on?</a></li><li><a href="/work/">Work</a></li><li><a href="/you-are-not-nameless/">You Are Not Nameless</a></li></ul></li></details><li><a href="/act/">Act</a></li><li><a href="/all-is-one/">All is One</a></li><li><a href="/balance/">Balance</a></li><li><a href="/be-good-to-each-other-and-yourself/">Be Good To Each Other And Yourself</a></li><li><a href="/books-phil/">Books</a></li><li><a href="/character/">On Character</a></li><li><a href="/choice/">Choice</a></li><li><a href="/concepts-in-greek-thought/">Concepts In Greek Thought</a></li><li><a href="/enemies/">Enemies</a></li><li><a href="/epicurus/">Epicurus</a></li><li><a href="/eudaimonia/">On a good life 🌱</a></li><li><a href="/experiences-vs-materials/">Experiences Vs Materials</a></li><li><a href="/free-will/">Free Will</a></li><li><a href="/freedom/">Freedom</a></li><li><a href="/friends/">Friends</a></li><li><a href="/getting-old/">Getting Old</a></li><li><a href="/good-and-evil/">Good And Evil</a></li><li><a href="/gratitude/">Gratitude</a></li><li><a href="/happiness/">Happiness</a></li><li><a href="/hard-times/">Hard Times</a></li><li><a href="/ideal-insan/">Ideal Insan</a></li><li><a href="/in-praise-of-idleness/">In Praise Of Idleness</a></li><li><a href="/know-where-to-stop/">Know Where To Stop</a></li><li><a href="/koans/">Koans</a></li><li><a href="/let-it-go/">Let It Go</a></li><li><a href="/life-is-play/">Life Is Play</a></li><li><a href="/look-below-the-surface/">Look Below The Surface</a></li><li><a href="/moderation/">Moderation</a></li><li><a href="/one-bit-better/">One Bit Better</a></li><li><a href="/philosophy/">Philosophy</a></li><li><a href="/phronesis/">Phronesis</a></li><li><a href="/questions/">Questions</a></li><li><a href="/seeking/">Seeking</a></li><li><a href="/stupidity/">Stupidity</a></li><li><a href="/success-and-failure/">Success And Failure</a></li><li><a href="/take-a-walk/">Take a walk</a></li><li><a href="/the-less-the-better/">The Less The Better</a></li><li><a href="/truth/">Truth</a></li></ul></li></details><details><summary>Poetry</summary><li><ul><details><summary>Tao Te Ching</summary><li><ul><li><a href="/hollow-power/">Hollow Power</a></li><li><a href="/insight-and-strength/">Insight And Strength</a></li><li><a href="/life-is-soft/">Life Is Soft</a></li><li><a href="/misery-under-happiness/">Misery Under Happiness</a></li><li><a href="/monstrous-ingenuity/">Monstrous Ingenuity</a></li><li><a href="/not-being/">Not Being</a></li><li><a href="/not-far-away/">Not Far Away</a></li><li><a href="/tao-te-ching/">Tao Te Ching</a></li><li><a href="/the-great-leader/">The Great Leader</a></li><li><a href="/uncut-wood/">Uncut Wood</a></li><li><a href="/wei-wu-wei/">Wei Wu Wei</a></li><li><a href="/wind-and-rain/">Wind And Rain</a></li></ul></li></details><li><a href="/brecht/">The Interrogation of the Good</a></li><li><a href="/deep-roots/">Deep Roots</a></li><li><a href="/do-not-go-gentle/">Do not go gentle into that good night</a></li><li><a href="/find-time-to-just-be/">Find Time To Just Be</a></li><li><a href="/fire-and-ice/">Fire and Ice</a></li><li><a href="/haikus/">Haikus</a></li><li><a href="/harlem/">Harlem</a></li><li><a href="/if/">If</a></li><li><a href="/lightly-child/">Lightly Child</a></li><li><a href="/mother-to-son/">Mother To Son</a></li><li><a href="/one-art/">One Art</a></li><li><a href="/one-ring/">One Ring</a></li><li><a href="/ozymandias/">Ozymandias</a></li><li><a href="/poetry/">Poetry</a></li><li><a href="/saturday/">Saturday</a></li><li><a href="/soft-rains/">There Will Come Soft Rains</a></li><li><a href="/the-red-wheelbarrow/">The Red Wheelbarrow</a></li><li><a href="/the-road-not-taken/">The Road Not Taken</a></li><li><a href="/the-second-coming/">The Second Coming</a></li><li><a href="/this-be-the-verse/">This Be The Verse</a></li><li><a href="/to-be-or-not/">To Be Or Not</a></li><li><a href="/we-wear-the-mask/">We Wear The Mask</a></li></ul></li></details><details><summary>Şiirler</summary><li><ul><li><a href="/abbas/">Abbas</a></li><li><a href="/asik-veysel/">Asik Veysel</a></li><li><a href="/boz-ayran/">Boz Ayran</a></li><li><a href="/bulent-ecevit/">Bulent Ecevit</a></li><li><a href="/bulgur-pilavi/">Bulgur Pilavi</a></li><li><a href="/can-yucel/">Can Yücel</a></li><li><a href="/edip-cansever/">Edip Cansever</a></li><li><a href="/fuzuli/">Fuzuli</a></li><li><a href="/isyan/">Isyan</a></li><li><a href="/melih-cevdet/">Melih Cevdet</a></li><li><a href="/nazim/">Nazim Hikmet</a></li><li><a href="/orhan-veli/">Orhan Veli</a></li><li><a href="/siir/">Şiirler</a></li><li><a href="/yunus-emre/">Yunus Emre</a></li></ul></li></details><details><summary>Literature</summary><li><ul><li><a href="/cien-anos-de-soledad/">Cien Anos De Soledad</a></li><li><a href="/classics/">Classics</a></li><li><a href="/do-not-lie-to-yourself/">Do Not Lie To Yourself</a></li><li><a href="/elaborate-vs-clear-speech/">Tolstoy on clear speech</a></li><li><a href="/ince-memed/">Ince Memed</a></li><li><a href="/literature/">Literature</a></li><li><a href="/the-art-of-war/">The Art of War</a></li><li><a href="/turk-mirasi/">Türk Mirası</a></li></ul></li></details><details><summary>Music</summary><li><ul><li><a href="/classical-music/">Classical Music</a></li><li><a href="/electro-house/">Electro House</a></li><li><a href="/film-scores/">Film Scores</a></li><li><a href="/music/">Music</a></li><li><a href="/rap/">Rap</a></li><li><a href="/rock/">Rock</a></li><li><a href="/sanatcilar/">Sanatcilar</a></li></ul></li></details><details><summary>Design</summary><li><ul><li><a href="/creativity/">Creativity</a></li><li><a href="/design/">Design</a></li><li><a href="/don-norman/">Don Norman</a></li><li><a href="/double-diamond/">Double-diamond design process &lt;&gt;&lt;&gt;</a></li><li><a href="/everyday-objects/">Everyday Objects</a></li><li><a href="/ship-it/">Ship It</a></li></ul></li></details><li><a href="/arts/">Arts</a></li><li><a href="/cinema/">Cinema</a></li><li><a href="/paintings/">Paintings</a></li><li><a href="/photography/">Photography</a></li></ul></li></details><details><summary>Lists</summary><li><ul><details><summary>Experiments</summary><li><ul><li><a href="/digital-art/">Digital Art</a></li><li><a href="/dots/">Dots</a></li><li><a href="/experiments/">Experiments</a></li><li><a href="/grid/">Grid</a></li><li><a href="/jobs/">Jobs</a></li><li><a href="/markdown-editor/">Markdown Editor</a></li><li><a href="/music-player/">Music Player</a></li><li><a href="/photo-gallery/">Photo Gallery</a></li><li><a href="/primes/">Primes</a></li><li><a href="/rss-reader/">RSS reader</a></li><li><a href="/savings-planner/">Savings Planner</a></li><li><a href="/search-index/">Search Index</a></li><li><a href="/shops/">Shops</a></li><li><a href="/spreadsheet/">Spreadsheet</a></li><li><a href="/typing-practice/">Typing Practice</a></li><li><a href="/video-call/">Video Call</a></li><li><a href="/video-player/">Video Player</a></li><li><a href="/year-progress/">Year Progress</a></li></ul></li></details><details><summary>Languages</summary><li><ul><details><summary>Cestina</summary><li><ul><li><a href="/adjektiva/">Adjektiva</a></li><li><a href="/cas/">Cas</a></li><li><a href="/cestina/">Cestina</a></li><li><a href="/cisla/">Cisla</a></li><li><a href="/domov/">Domov</a></li><li><a href="/fraze/">Fraze</a></li><li><a href="/koníčky/">Koníčky</a></li><li><a href="/podobna-slova/">Podobna Slova</a></li><li><a href="/predlozky/">Predlozky</a></li><li><a href="/slovesa/">Slovesa</a></li></ul></li></details><li><a href="/deutsch/">Deutsch</a></li><li><a href="/english/">English</a></li><li><a href="/languages/">Languages</a></li><li><a href="/latin/">Latin</a></li><li><a href="/metaphors/">Metaphors</a></li><li><a href="/modern-greek-alphabet/">Modern Greek Alphabet</a></li><li><a href="/nato-phonetic-alphabet/">NATO phonetic alphabet</a></li><li><a href="/turkce/">Turkce</a></li></ul></li></details><details><summary>Metadata</summary><li><ul><li><a href="/graph-2d/">2D Graph of All Pages</a></li><li><a href="/graph-3d/">3D Graph of All Pages</a></li><li><a href="/ideas/">Ideas</a></li><li><a href="/keyboard-shortcuts/">Keyboard Shortcuts</a></li><li><a href="/meta/">Metadata</a></li><li><a href="/stats/">Stats</a></li></ul></li></details><details><summary>To-read</summary><li><ul><li><a href="/authors/">Authors</a></li><li><a href="/blogs/">Blogs</a></li><li><a href="/books/">Books</a></li><li><a href="/comics/">Comics</a></li><li><a href="/essais/">Essais</a></li><li><a href="/news/">News</a></li></ul></li></details><details><summary>Interesting</summary><li><ul><li><a href="/datasets/">Datasets</a></li><li><a href="/games/">Games</a></li><li><a href="/quotes/">Quotes</a></li><li><a href="/web-experiments/">Web Experiments</a></li></ul></li></details><details><summary>To-watch</summary><li><ul><li><a href="/documentaries/">Documentaries</a></li><li><a href="/movies/">Movies 🎬</a></li></ul></li></details><li><a href="/lists/">Lists</a></li></ul></li></details><details><summary>Skills</summary><li><ul><details><summary>Business</summary><li><ul><li><a href="/business/">Business</a></li><li><a href="/company-culture/">Company Culture</a></li><li><a href="/hiring/">Hiring</a></li><li><a href="/how-to-start-a-business/">How To Start A Business</a></li><li><a href="/marketing/">Marketing</a></li><li><a href="/sales/">Sales</a></li></ul></li></details><details><summary>Communication</summary><li><ul><li><a href="/communication/">Communication</a></li><li><a href="/how-to-pitch/">How to pitch?</a></li><li><a href="/negotiations/">Negotiations</a></li><li><a href="/public-speaking/">Public speaking</a></li><li><a href="/write-better/">On writing</a></li></ul></li></details><details><summary>On Decisions</summary><li><ul><li><a href="/critical-thinking/">Critical thinking</a></li><li><a href="/decisions/">On Decisions</a></li><li><a href="/do-one-thing-at-a-time-and-do-it-well/">Do One Thing At A Time And Do It Well</a></li><li><a href="/do-the-right-thing/">Do The Right Thing</a></li><li><a href="/do-without-doing/">Do without doing - Wu Wei 無爲</a></li></ul></li></details><li><a href="/cooking/">Cooking</a></li><li><a href="/drawing/">Drawing</a></li><li><a href="/driving/">Driving</a></li><li><a href="/drowning-does-not-look-dramatic/">Drowning Does Not Look Dramatic</a></li><li><a href="/exercise/">Exercise</a></li><li><a href="/get-things-done/">Get Things Done</a></li><li><a href="/growing-plants/">Growing Plants</a></li><li><a href="/home-life/">Home Life</a></li><li><a href="/how-to-gain-wealth/">The Almanack of Naval Ravikant</a></li><li><a href="/how-to-grow-old-russell/">How to Grow Old, by Bertrand Russell</a></li><li><a href="/humor/">Humor</a></li><li><a href="/investing/">Investing</a></li><li><a href="/leadership/">Leadership</a></li><li><a href="/learning/">Learning</a></li><li><a href="/making-videos/">Making Videos</a></li><li><a href="/mastery/">Mastery</a></li><li><a href="/motocycles/">Motocycles</a></li><li><a href="/mountaineering/">Mountaineering</a></li><li><a href="/outdoors/">Outdoors</a></li><li><a href="/parenting/">Parenting</a></li><li><a href="/problem-solving/">Problem Solving</a></li><li><a href="/skills/">Skills</a></li><li><a href="/teaching/">Teaching</a></li><li><a href="/trading/">Trading</a></li><li><a href="/travelling/">Travelling</a></li><li><a href="/used-car-checklist/">Used Car Checklist</a></li></ul></li></details><details><summary>Social Sciences</summary><li><ul><details><summary>Psychology</summary><li><ul><details><summary>Emotions</summary><li><ul><li><a href="/anger/">Anger</a></li><li><a href="/anxiety/">Anxiety</a></li><li><a href="/arrogance/">Arrogance</a></li><li><a href="/courage/">Courage</a></li><li><a href="/ego/">Ego</a></li><li><a href="/emotions/">Emotions</a></li><li><a href="/empathy/">Empathy</a></li><li><a href="/hope/">Hope</a></li><li><a href="/loneliness/">Loneliness</a></li><li><a href="/love/">Love</a></li><li><a href="/respect/">Respect</a></li><li><a href="/trust/">Trust</a></li><li><a href="/unmet-needs/">Unmet Needs</a></li><li><a href="/vulnerability/">Vulnerability</a></li></ul></li></details><details><summary>Work</summary><li><ul><li><a href="/distractions/">Distractions</a></li><li><a href="/flow/">Flow</a></li><li><a href="/how-to-start/">How to start?</a></li><li><a href="/overcoming-obstacles/">Overcoming Obstacles</a></li><li><a href="/praise-and-motivation/">Praise And Motivation</a></li><li><a href="/setting-rules/">Setting Rules</a></li></ul></li></details><details><summary>Cognitive Biases</summary><li><ul><li><a href="/bias-for-unhappiness/">Bias For Unhappiness</a></li><li><a href="/cognitive-biases/">Cognitive Biases</a></li><li><a href="/overvaluing-short-term/">Overvaluing Short Term</a></li></ul></li></details><li><a href="/gaslighting/">Gaslighting</a></li><li><a href="/habits/">Habits</a></li><li><a href="/how-to-spot-a-liar/">How To Spot A Liar</a></li><li><a href="/persuasion/">Persuasion</a></li><li><a href="/procrastination/">Procrastination</a></li><li><a href="/psychology/">Psychology</a></li><li><a href="/relationships/">Relationships</a></li><li><a href="/solitude/">Solitude</a></li><li><a href="/stages-of-grief/">Stages Of Grief</a></li><li><a href="/stress/">Stress</a></li></ul></li></details><details><summary>Politics</summary><li><ul><li><a href="/asimov/">Asimov</a></li><li><a href="/brave-new-world/">Brave New World</a></li><li><a href="/look-down-and-around/">Look Down And Around</a></li><li><a href="/orwell/">Orwell</a></li><li><a href="/politics/">Politics</a></li><li><a href="/prince/">Prince</a></li><li><a href="/questioning-people-seen-as-a-threat-to-status-quo/">Questioning People Seen As A Threat To Status Quo</a></li><li><a href="/the-triumph-of-stupidity/">The Triumph of Stupidity, Bertrand Russell</a></li><li><a href="/warfare-is-deception/">Warfare Is Deception</a></li><li><a href="/who-goes-nazi/">Who Goes Nazi</a></li></ul></li></details><details><summary>History</summary><li><ul><li><a href="/12000/">12000</a></li><li><a href="/121st-century/">121st century</a></li><li><a href="/farming-trap/">Farming Trap</a></li><li><a href="/history-of-technology/">History Of Technology</a></li><li><a href="/history/">History</a></li><li><a href="/since-big-bang/">Some events in the last 14 billion years</a></li><li><a href="/time-scale/">If the Earth is 45 years old</a></li></ul></li></details><details><summary>Economics</summary><li><ul><li><a href="/economics/">Economics</a></li><li><a href="/wage-theft/">Wage Theft</a></li><li><a href="/wasted-talent/">Wasted Talent</a></li></ul></li></details><details><summary>Sociology</summary><li><ul><li><a href="/social-change/">Social Change</a></li><li><a href="/social-class/">Social Class</a></li><li><a href="/social-groups/">Social Groups</a></li></ul></li></details><details><summary>Systems Thinking</summary><li><ul><li><a href="/chaos/">Chaos</a></li><li><a href="/systems/">Systems Thinking</a></li></ul></li></details><li><a href="/architecture/">Architecture</a></li><li><a href="/being-poor/">Being Poor</a></li><li><a href="/books-social/">Books</a></li><li><a href="/chomsky/">Chomsky</a></li><li><a href="/law/">Law</a></li><li><a href="/social-sciences/">Social Sciences</a></li><li><a href="/urban-planning/">Urban Planning</a></li></ul></li></details></ul>
+</div>
+
+<h2 id="tap-to-shuffle">Tap to shuffle</h2>
+
+<p><img id="artwork" class="img-full" tabindex="0" onclick="shuffleArt();" /></p>
+<p id="description" class="img-alt"></p>
+
+<script src="/assets/js/art.js"></script>
+
+<p><a style="font-size:1.8rem;" id="ideaMachine" title="Idea Machine" tabindex="0" onclick="setNextIdea();">🎰
+</a></p>
+
+<p id="random_idea" class="idea" onclick="setNextIdea();"></p>
+
+<style>
+  .idea {
+    white-space: pre-line;
+    min-height: 2.5rem
+  }
+</style>
+
+<script src="/assets/js/idea.js"></script>
+
+<script>
+
+  const setNextIdea = async () => {
+    let machine = document.getElementById("ideaMachine");
+    animate(machine, "shakey");
+    document.getElementById("random_idea").innerHTML = await getNextIdea();
+  }
+
+  document.addEventListener('DOMContentLoaded', async () => {
+    let machine = document.getElementById("ideaMachine");
+
+    machine.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        setNextIdea();
+      }
+    });
+
+    setNextIdea()
+  });
+
+</script>
+
+<h2 id="time">Time</h2>
+
+<script src="/assets/js/datetime.js"></script>
+
+<script src="/assets/js/moment.min.js"></script>
+
+<script src="/assets/js/color.js"></script>
+
+<p id="clock"></p>
+
+<p id="date"></p>
+
+<p id="year-ratio"></p>
+
+<p id="weekNumber"></p>
+
+<p>
+  <span>
+    <progress id="year-progress" max="365" value=""></progress>
+  </span>
+  <span id="year-percent"></span>
+</p>
+
+<ul class="days"></ul>
+
+<style>
+
+  :root {
+      --point-size: 0.4rem;
+      --point-gap: 0.16rem;
+      --row-gap: 0.4rem; 
+  }
+
+  .days {
+    list-style-type: none;
+    display: grid;
+    grid-gap: var(--point-gap);
+    row-gap: var(--row-gap); 
+    grid-auto-flow: row;
+    grid-auto-rows: var(--point-size);
+  }
+
+  .days {
+    grid-template-columns: repeat(31, var(--point-size));
+    grid-area: days;
+  }
+
+  .days li {
+    background-color: #fff;
+    margin: 0;
+    border-radius: 50%;
+  }
+
+  .days li.dummy {
+    background-color: inherit;
+  }
+
+  .days li.past {
+    background-color: #909090;
+  }
+
+  .days li.weekend {
+    background-color: #ffc800;
+  }
+
+  .days li.now {
+    border: 2px solid rgb(255, 55, 0);
+  }
+
+
+</style>
+
+<script>
+
+  const this_day = moment().dayOfYear();
+  const percent = Math.round((this_day / 365) * 100);
+  const weekNumber = moment().isoWeek();
+  const year = moment().year();
+  const date = moment().format('dddd, MMMM DD');
+
+  document.querySelector(
+    "#year-ratio"
+  ).innerHTML = `Day ${this_day}`;
+
+  document.querySelector("#weekNumber").innerHTML = `Week ${weekNumber}`;
+
+  document.querySelector("#date").innerHTML = `${date}`;
+
+
+  document.querySelector("#year-percent").innerHTML = `%${percent}`;
+
+  document.querySelector("#year-progress").setAttribute("value", this_day);
+
+
+  function updateClock() {
+    const now = new Date();
+    const hours = now.getHours().toString().padStart(2, '0');
+    const minutes = now.getMinutes().toString().padStart(2, '0');
+    const seconds = now.getSeconds().toString().padStart(2, '0');
+    const timeString = `${hours}:${minutes}:${seconds}`;
+    
+    document.getElementById('clock').textContent = timeString;
+}
+
+  setInterval(updateClock, 1000);
+  updateClock();
+
+  function add_days(this_day) {
+    // create an array by using moment.js to get number of days in each month of this year
+    const days_in_months = Array.from({ length: 12 }, (v, i) =>
+      moment().month(i).daysInMonth()
+      
+    );
+    // indexes of weekend days in each month
+    const weekend_days = days_in_months.map((days, index) => {
+      let weekend = [];
+      for (let day = 1; day <= days; day++) {
+        let date = moment().month(index).date(day);
+        if (date.day() == 0 || date.day() == 6) {
+          weekend.push(day);
+        }
+      }
+      return weekend;
+    });
+
+    total = 0;
+    const day_graph = document.querySelector(".days");
+    
+    days_in_months.forEach((number_of_days, month_index) => {
+      let dummy_days = 31 - number_of_days;
+      for (let day = 1; day <= number_of_days; day++) {
+        total += 1;
+        if (total == this_day) {
+          if (weekend_days[month_index].includes(day)) {
+            day_graph.insertAdjacentHTML("beforeend", `<li class="now weekend"></li>`);
+          } else {
+            day_graph.insertAdjacentHTML("beforeend", `<li class="now"></li>`);
+          }
+        } else if (total < this_day) {
+          day_graph.insertAdjacentHTML("beforeend", `<li class="past"></li>`);
+        } else {
+          // day in the weekend for the month
+          if (weekend_days[month_index].includes(day)) {
+            day_graph.insertAdjacentHTML("beforeend", `<li class="weekend"></li>`);
+          } else {
+            day_graph.insertAdjacentHTML("beforeend", `<li></li>`);
+          }
+        } 
+      }
+      // insert dummy days to fill the grid
+      for (let i = 0; i < dummy_days; i++) {
+        day_graph.insertAdjacentHTML("beforeend", `<li class="dummy"></li>`);
+      }
+    });
+
+
+  }
+
+  add_days(this_day);
+
+
+</script>
+
+<!-- from https://codepen.io/jamesfinn180/pen/VwzENbR -->
+
+<p><br /></p>
+<div class="planet-container">
+    <div class="night"></div>
+    <div class="day"></div>
+    <div class="clouds"></div>
+    <div class="inner-shadow"></div>
+</div>
+
+<h2 id="metadata">Metadata</h2>
+
+<ul>        
+    
+    
+    
+        
+    
+        
+    
+        
+            
+                <li>
+                    <a href="/graph-2d/">2D Graph of All Pages</a>
+                </li>
+            
+        
+    
+        
+            
+                <li>
+                    <a href="/graph-3d/">3D Graph of All Pages</a>
+                </li>
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+                <li>
+                    <a href="/ideas/">Ideas</a>
+                </li>
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+                <li>
+                    <a href="/keyboard-shortcuts/">Keyboard Shortcuts</a>
+                </li>
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+                <li>
+                    <a href="/stats/">Stats</a>
+                </li>
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</ul>
+
+<script>
+    if('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/assets/js/sw.js')
+      })
+    }
+</script>
+
+
+
+
+
+    <footer>
+    
+    <p class="about">Made with ❤️ by <a href="/about">Selim</a></p>
+    <p style="font-size:smaller">All content belongs to its original creators</p>
+    
+</footer>
+<style>
+    footer {
+        background: inherit !important;
+        padding-top: 1rem;
+        text-align: center;
+    }
+
+
+</style>
+
+  </article>
+</body>
+
+
+</html>
+

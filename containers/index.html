@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Containers
+  </title>
+
+      <meta charset="utf-8" />
+    <meta lang="en-US" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Although OS provides process isolation, containers provide more isolation and ease on top of that
+See The What, Why and How of Containers – Annwan
+" />
+    <meta property="og:description" content="Although OS provides process isolation, containers provide more isolation and ease on top of that
+See The What, Why and How of Containers – Annwan
+" />
+    
+    
+    <meta name="author" content="selimslab" />
+
+    
+    <meta property="og:title" content="Containers" />
+    <meta property="twitter:title" content="Containers" />
+    
+  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-touch-icon.png">
+  <link rel="icon" type="image/x-icon" href="/assets/fav/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="/assets/css/bulma.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/code.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/solar.css">
+
+</head>
+
+<body>
+
+  <div class="top"></div>
+
+  <article>
+
+    <nav class="navbar">
+  <div class="navbar-brand">
+    <a href="/" title="Home" class="site-name">Δ</a>
+
+    <div class="search is-6 is-6-mobile">
+  <input type="text" class="input is-small is-rounded" id="search-input" placeholder="Search..">
+  <ul id="results-container"></ul>
+</div>
+<script src="/assets/js/search.js"></script>
+<script>
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/assets/data/search.json',
+    noResultsText: "🤷🏿",
+    limit: 7
+  })
+
+  document.addEventListener('keydown', function (e) {
+    if (e.shiftKey && (e.key === 's' || e.key === 'S')) {
+      e.preventDefault();
+      // focus on search input
+      document.getElementById('search-input').focus();
+    }
+  });
+
+
+</script>
+
+    <a title="Toggle theme" id="themeToggle"  tabindex="0" onclick="switchTheme()" class="navbutton"></a>
+    <a title="Roll the dice! Shift+P" id="dice"  tabindex="0" onclick="getRandomPage()" class="navbutton">🎲</a>
+  </div>
+</nav>
+
+<script src="/assets/js/animate.js"></script>
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/utils.js"></script>
+<script src="/assets/js/post.js"></script>
+<script src="/assets/js/arrow.js"></script>
+
+<style>
+
+a.site-name {
+    color: inherit;
+    font-size: 2rem;
+    margin-right: 1rem;
+
+  }
+
+  .search {
+    padding: 0.5rem;
+    max-width: 9rem;
+  }
+
+  #results-container {
+    margin-top: 0.3rem;
+    list-style: none;
+    font-size: 1rem;
+    max-width: 20ch;
+
+    li {
+      margin: 0 auto;
+      margin-top: 0.3rem;
+      padding: 0.2rem;
+    }
+  }
+
+
+
+  #themeToggle{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+  }
+
+
+  .navbutton {
+    font-size: 1.3rem;
+    margin-top:0.5rem;
+    margin-left:1.2rem;
+  }
+
+  .navbar {
+    background: inherit;
+    color: inherit;
+    width: fit-content;
+    margin-bottom: 1rem;
+  }
+
+  .top {
+    height: 4px;
+    background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2259a7, #373B44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2259a7, #373B44);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+
+
+
+
+</style>
+
+
+
+      <span class="taglist">
+   
+     
+      
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+         
+          <a class="toplink" href="/computers/">Computers from scratch</a>
+        
+    
+   
+     
+      
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+         
+          <a class="toplink" href="/operating-systems/">Operating Systems</a>
+        
+    
+  
+
+  
+
+
+</span>
+
+
+  <h1>Containers</h1>  
+ 
+  
+
+<p style="font-size: 0.8rem; margin-bottom:0.8rem">
+  ~4 mins read
+</p>
+
+
+
+
+
+  <p>Although OS provides process isolation, containers provide more isolation and ease on top of that<br />
+See <a href="https://www.annwan.me/computers/what-why-how-containers/">The What, Why and How of Containers – Annwan</a></p>
+
+<p><a href="https://www.youtube.com/watch?v=8fi7uSYlOdc">Containers From Scratch • Liz Rice • GOTO 2018</a> is a great look under the hood for what really is a container</p>
+
+<p>her code below</p>
+
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+</pre></td><td class="rouge-code"><pre><span class="k">package</span> <span class="n">main</span>
+
+<span class="k">import</span> <span class="p">(</span>
+	<span class="s">"fmt"</span>
+	<span class="s">"io/ioutil"</span>
+	<span class="s">"os"</span>
+	<span class="s">"os/exec"</span>
+	<span class="s">"path/filepath"</span>
+	<span class="s">"strconv"</span>
+	<span class="s">"syscall"</span>
+<span class="p">)</span>
+
+<span class="c">// go run main.go run &lt;cmd&gt; &lt;args&gt;</span>
+<span class="k">func</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+	<span class="k">switch</span> <span class="n">os</span><span class="o">.</span><span class="n">Args</span><span class="p">[</span><span class="m">1</span><span class="p">]</span> <span class="p">{</span>
+	<span class="k">case</span> <span class="s">"run"</span><span class="o">:</span>
+		<span class="n">run</span><span class="p">()</span>
+	<span class="k">case</span> <span class="s">"child"</span><span class="o">:</span>
+		<span class="n">child</span><span class="p">()</span>
+	<span class="k">default</span><span class="o">:</span>
+		<span class="nb">panic</span><span class="p">(</span><span class="s">"help"</span><span class="p">)</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">func</span> <span class="n">run</span><span class="p">()</span> <span class="p">{</span>
+	<span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span><span class="p">(</span><span class="s">"Running %v </span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">os</span><span class="o">.</span><span class="n">Args</span><span class="p">[</span><span class="m">2</span><span class="o">:</span><span class="p">])</span>
+
+	<span class="n">cmd</span> <span class="o">:=</span> <span class="n">exec</span><span class="o">.</span><span class="n">Command</span><span class="p">(</span><span class="s">"/proc/self/exe"</span><span class="p">,</span> <span class="nb">append</span><span class="p">([]</span><span class="kt">string</span><span class="p">{</span><span class="s">"child"</span><span class="p">},</span> <span class="n">os</span><span class="o">.</span><span class="n">Args</span><span class="p">[</span><span class="m">2</span><span class="o">:</span><span class="p">]</span><span class="o">...</span><span class="p">)</span><span class="o">...</span><span class="p">)</span>
+	<span class="n">cmd</span><span class="o">.</span><span class="n">Stdin</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">Stdin</span>
+	<span class="n">cmd</span><span class="o">.</span><span class="n">Stdout</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">Stdout</span>
+	<span class="n">cmd</span><span class="o">.</span><span class="n">Stderr</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">Stderr</span>
+	<span class="n">cmd</span><span class="o">.</span><span class="n">SysProcAttr</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">syscall</span><span class="o">.</span><span class="n">SysProcAttr</span><span class="p">{</span>
+		<span class="n">Cloneflags</span><span class="o">:</span>   <span class="n">syscall</span><span class="o">.</span><span class="n">CLONE_NEWUTS</span> <span class="o">|</span> <span class="n">syscall</span><span class="o">.</span><span class="n">CLONE_NEWPID</span> <span class="o">|</span> <span class="n">syscall</span><span class="o">.</span><span class="n">CLONE_NEWNS</span><span class="p">,</span>
+		<span class="n">Unshareflags</span><span class="o">:</span> <span class="n">syscall</span><span class="o">.</span><span class="n">CLONE_NEWNS</span><span class="p">,</span>
+	<span class="p">}</span>
+
+	<span class="n">must</span><span class="p">(</span><span class="n">cmd</span><span class="o">.</span><span class="n">Run</span><span class="p">())</span>
+<span class="p">}</span>
+
+<span class="k">func</span> <span class="n">child</span><span class="p">()</span> <span class="p">{</span>
+	<span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span><span class="p">(</span><span class="s">"Running %v </span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">os</span><span class="o">.</span><span class="n">Args</span><span class="p">[</span><span class="m">2</span><span class="o">:</span><span class="p">])</span>
+
+	<span class="n">cg</span><span class="p">()</span>
+
+	<span class="n">cmd</span> <span class="o">:=</span> <span class="n">exec</span><span class="o">.</span><span class="n">Command</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">Args</span><span class="p">[</span><span class="m">2</span><span class="p">],</span> <span class="n">os</span><span class="o">.</span><span class="n">Args</span><span class="p">[</span><span class="m">3</span><span class="o">:</span><span class="p">]</span><span class="o">...</span><span class="p">)</span>
+	<span class="n">cmd</span><span class="o">.</span><span class="n">Stdin</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">Stdin</span>
+	<span class="n">cmd</span><span class="o">.</span><span class="n">Stdout</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">Stdout</span>
+	<span class="n">cmd</span><span class="o">.</span><span class="n">Stderr</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">Stderr</span>
+
+	<span class="n">must</span><span class="p">(</span><span class="n">syscall</span><span class="o">.</span><span class="n">Sethostname</span><span class="p">([]</span><span class="kt">byte</span><span class="p">(</span><span class="s">"container"</span><span class="p">)))</span>
+	<span class="n">must</span><span class="p">(</span><span class="n">syscall</span><span class="o">.</span><span class="n">Chroot</span><span class="p">(</span><span class="s">"/home/liz/ubuntufs"</span><span class="p">))</span>
+	<span class="n">must</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">Chdir</span><span class="p">(</span><span class="s">"/"</span><span class="p">))</span>
+	<span class="n">must</span><span class="p">(</span><span class="n">syscall</span><span class="o">.</span><span class="n">Mount</span><span class="p">(</span><span class="s">"proc"</span><span class="p">,</span> <span class="s">"proc"</span><span class="p">,</span> <span class="s">"proc"</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="s">""</span><span class="p">))</span>
+	<span class="n">must</span><span class="p">(</span><span class="n">syscall</span><span class="o">.</span><span class="n">Mount</span><span class="p">(</span><span class="s">"thing"</span><span class="p">,</span> <span class="s">"mytemp"</span><span class="p">,</span> <span class="s">"tmpfs"</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="s">""</span><span class="p">))</span>
+
+	<span class="n">must</span><span class="p">(</span><span class="n">cmd</span><span class="o">.</span><span class="n">Run</span><span class="p">())</span>
+
+	<span class="n">must</span><span class="p">(</span><span class="n">syscall</span><span class="o">.</span><span class="n">Unmount</span><span class="p">(</span><span class="s">"proc"</span><span class="p">,</span> <span class="m">0</span><span class="p">))</span>
+	<span class="n">must</span><span class="p">(</span><span class="n">syscall</span><span class="o">.</span><span class="n">Unmount</span><span class="p">(</span><span class="s">"thing"</span><span class="p">,</span> <span class="m">0</span><span class="p">))</span>
+<span class="p">}</span>
+
+<span class="k">func</span> <span class="n">cg</span><span class="p">()</span> <span class="p">{</span>
+	<span class="n">cgroups</span> <span class="o">:=</span> <span class="s">"/sys/fs/cgroup/"</span>
+	<span class="n">pids</span> <span class="o">:=</span> <span class="n">filepath</span><span class="o">.</span><span class="n">Join</span><span class="p">(</span><span class="n">cgroups</span><span class="p">,</span> <span class="s">"pids"</span><span class="p">)</span>
+	<span class="n">os</span><span class="o">.</span><span class="n">Mkdir</span><span class="p">(</span><span class="n">filepath</span><span class="o">.</span><span class="n">Join</span><span class="p">(</span><span class="n">pids</span><span class="p">,</span> <span class="s">"liz"</span><span class="p">),</span> <span class="m">0755</span><span class="p">)</span>
+	<span class="n">must</span><span class="p">(</span><span class="n">ioutil</span><span class="o">.</span><span class="n">WriteFile</span><span class="p">(</span><span class="n">filepath</span><span class="o">.</span><span class="n">Join</span><span class="p">(</span><span class="n">pids</span><span class="p">,</span> <span class="s">"liz/pids.max"</span><span class="p">),</span> <span class="p">[]</span><span class="kt">byte</span><span class="p">(</span><span class="s">"20"</span><span class="p">),</span> <span class="m">0700</span><span class="p">))</span>
+	<span class="c">// Removes the new cgroup in place after the container exits</span>
+	<span class="n">must</span><span class="p">(</span><span class="n">ioutil</span><span class="o">.</span><span class="n">WriteFile</span><span class="p">(</span><span class="n">filepath</span><span class="o">.</span><span class="n">Join</span><span class="p">(</span><span class="n">pids</span><span class="p">,</span> <span class="s">"liz/notify_on_release"</span><span class="p">),</span> <span class="p">[]</span><span class="kt">byte</span><span class="p">(</span><span class="s">"1"</span><span class="p">),</span> <span class="m">0700</span><span class="p">))</span>
+	<span class="n">must</span><span class="p">(</span><span class="n">ioutil</span><span class="o">.</span><span class="n">WriteFile</span><span class="p">(</span><span class="n">filepath</span><span class="o">.</span><span class="n">Join</span><span class="p">(</span><span class="n">pids</span><span class="p">,</span> <span class="s">"liz/cgroup.procs"</span><span class="p">),</span> <span class="p">[]</span><span class="kt">byte</span><span class="p">(</span><span class="n">strconv</span><span class="o">.</span><span class="n">Itoa</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">Getpid</span><span class="p">())),</span> <span class="m">0700</span><span class="p">))</span>
+<span class="p">}</span>
+
+<span class="k">func</span> <span class="n">must</span><span class="p">(</span><span class="n">err</span> <span class="kt">error</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">if</span> <span class="n">err</span> <span class="o">!=</span> <span class="no">nil</span> <span class="p">{</span>
+		<span class="nb">panic</span><span class="p">(</span><span class="n">err</span><span class="p">)</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+  
+
+<img id="artwork" class="img-full" tabindex="0" onclick="shuffleArt();"/>
+<p id="description" class="img-alt"></p>
+
+<script src="/assets/js/art.js"></script>
+
+
+  
+
+<a style="font-size:1.8rem;" id="ideaMachine" title="Idea Machine" tabindex="0" onclick="setNextIdea();">🎰
+</a>
+
+<p id="random_idea" class="idea" onclick="setNextIdea();"></p>
+
+
+<style>
+  .idea {
+    white-space: pre-line;
+    min-height: 2.5rem
+  }
+</style>
+
+
+<script src="/assets/js/idea.js"></script>
+
+<script>
+
+  const setNextIdea = async () => {
+    let machine = document.getElementById("ideaMachine");
+    animate(machine, "shakey");
+    document.getElementById("random_idea").innerHTML = await getNextIdea();
+  }
+
+  document.addEventListener('DOMContentLoaded', async () => {
+    let machine = document.getElementById("ideaMachine");
+
+    machine.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        setNextIdea();
+      }
+    });
+
+    setNextIdea()
+  });
+
+</script>
+
+
+
+
+<script src="/assets/js/visits.js"></script>
+
+
+
+
+
+    <footer>
+    
+</footer>
+<style>
+    footer {
+        background: inherit !important;
+        padding-top: 1rem;
+        text-align: center;
+    }
+
+
+</style>
+
+  </article>
+</body>
+
+
+</html>
+

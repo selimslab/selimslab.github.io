@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    A web server from scratch
+  </title>
+
+      <meta charset="utf-8" />
+    <meta lang="en-US" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Inspired by Ruslan’s blog
+" />
+    <meta property="og:description" content="Inspired by Ruslan’s blog
+" />
+    
+    
+    <meta name="author" content="selimslab" />
+
+    
+    <meta property="og:title" content="A web server from scratch" />
+    <meta property="twitter:title" content="A web server from scratch" />
+    
+  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-touch-icon.png">
+  <link rel="icon" type="image/x-icon" href="/assets/fav/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="/assets/css/bulma.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/code.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/solar.css">
+
+</head>
+
+<body>
+
+  <div class="top"></div>
+
+  <article>
+
+    <nav class="navbar">
+  <div class="navbar-brand">
+    <a href="/" title="Home" class="site-name">Δ</a>
+
+    <div class="search is-6 is-6-mobile">
+  <input type="text" class="input is-small is-rounded" id="search-input" placeholder="Search..">
+  <ul id="results-container"></ul>
+</div>
+<script src="/assets/js/search.js"></script>
+<script>
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/assets/data/search.json',
+    noResultsText: "🤷🏿",
+    limit: 7
+  })
+
+  document.addEventListener('keydown', function (e) {
+    if (e.shiftKey && (e.key === 's' || e.key === 'S')) {
+      e.preventDefault();
+      // focus on search input
+      document.getElementById('search-input').focus();
+    }
+  });
+
+
+</script>
+
+    <a title="Toggle theme" id="themeToggle"  tabindex="0" onclick="switchTheme()" class="navbutton"></a>
+    <a title="Roll the dice! Shift+P" id="dice"  tabindex="0" onclick="getRandomPage()" class="navbutton">🎲</a>
+  </div>
+</nav>
+
+<script src="/assets/js/animate.js"></script>
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/utils.js"></script>
+<script src="/assets/js/post.js"></script>
+<script src="/assets/js/arrow.js"></script>
+
+<style>
+
+a.site-name {
+    color: inherit;
+    font-size: 2rem;
+    margin-right: 1rem;
+
+  }
+
+  .search {
+    padding: 0.5rem;
+    max-width: 9rem;
+  }
+
+  #results-container {
+    margin-top: 0.3rem;
+    list-style: none;
+    font-size: 1rem;
+    max-width: 20ch;
+
+    li {
+      margin: 0 auto;
+      margin-top: 0.3rem;
+      padding: 0.2rem;
+    }
+  }
+
+
+
+  #themeToggle{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+  }
+
+
+  .navbutton {
+    font-size: 1.3rem;
+    margin-top:0.5rem;
+    margin-left:1.2rem;
+  }
+
+  .navbar {
+    background: inherit;
+    color: inherit;
+    width: fit-content;
+    margin-bottom: 1rem;
+  }
+
+  .top {
+    height: 4px;
+    background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2259a7, #373B44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2259a7, #373B44);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+
+
+
+
+</style>
+
+
+
+      <span class="taglist">
+   
+     
+      
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+         
+          <a class="toplink" href="/projects/">Projects</a>
+        
+    
+   
+     
+      
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+         
+          <a class="toplink" href="/python/">Python</a>
+        
+    
+  
+
+  
+
+
+</span>
+
+
+  <h1>A web server from scratch</h1>  
+ 
+  
+
+<p style="font-size: 0.8rem; margin-bottom:0.8rem">
+  ~6 mins read
+</p>
+
+
+
+
+
+  <p>Inspired by <a href="https://ruslanspivak.com/lsbaws-part1/">Ruslan’s blog</a></p>
+
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+</pre></td><td class="rouge-code"><pre><span class="c1"># coding: utf-8
+</span><span class="s">"""
+a simple concurrent web server
+
+socket -&gt; bind -&gt; listen -&gt; accept -&gt; loop 
+"""</span>
+<span class="kn">import</span> <span class="nn">socket</span>
+<span class="kn">import</span> <span class="nn">os</span> 
+<span class="kn">import</span> <span class="nn">time</span>
+<span class="kn">import</span> <span class="nn">signal</span>
+<span class="kn">import</span> <span class="nn">errno</span>
+
+<span class="c1"># Define socket host and port
+</span><span class="n">SERVER_HOST</span> <span class="o">=</span> <span class="s">'0.0.0.0'</span>
+<span class="n">SERVER_PORT</span> <span class="o">=</span> <span class="mi">8000</span>
+
+<span class="s">"""
+A socket is an abstraction of a communication endpoint 
+and it allows your program to communicate with another program using file descriptors. 
+
+The socket pair for a TCP connection is a 4-tuple
+that identifies two endpoints of the TCP connection: 
+the local IP address, local port, foreign IP address, and foreign port.
+
+eg. (0.0.0.1:80, 0.0.0.2:6379) is a socket pair and 0.0.0.1:80 is a socket 
+"""</span>
+
+<span class="k">def</span> <span class="nf">wait_for_children_process</span><span class="p">(</span><span class="n">signum</span><span class="p">,</span> <span class="n">frame</span><span class="p">):</span>
+    <span class="s">"""
+    If you don’t close duplicate descriptors, 
+    the clients won’t terminate because the client connections won’t get closed.
+    
+    Moreover, your long-running server will eventually 
+    run out of available file descriptors (max open files).
+
+    When you fork a child process and it exits 
+    if the parent process doesn’t wait for it and doesn’t collect its termination status,
+    the child process becomes a zombie.
+
+    Zombies need to eat something and, in our case, it’s memory. 
+
+    Your server will eventually run out of available processes (max user processes) 
+    if it doesn’t take care of zombies.
+
+    You can’t kill a zombie, you need to wait for it.
+
+    If you fork a child and don’t wait for it, it becomes a zombie.
+    """</span>
+    <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">pid</span><span class="p">,</span> <span class="n">status</span> <span class="o">=</span> <span class="n">os</span><span class="p">.</span><span class="n">waitpid</span><span class="p">(</span>
+                <span class="o">-</span><span class="mi">1</span><span class="p">,</span>          <span class="c1"># Wait for any child process
+</span>                 <span class="n">os</span><span class="p">.</span><span class="n">WNOHANG</span>  <span class="c1"># Do not block and return EWOULDBLOCK error
+</span>            <span class="p">)</span>
+        <span class="k">except</span> <span class="nb">OSError</span><span class="p">:</span>
+            <span class="k">return</span>
+
+        <span class="k">if</span> <span class="n">pid</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>  <span class="c1"># no more zombies
+</span>            <span class="k">return</span>
+
+<span class="k">def</span> <span class="nf">serve</span><span class="p">():</span>
+    <span class="c1"># Create socket
+</span>    <span class="n">server_socket</span> <span class="o">=</span> <span class="n">socket</span><span class="p">.</span><span class="n">socket</span><span class="p">(</span><span class="n">socket</span><span class="p">.</span><span class="n">AF_INET</span><span class="p">,</span> <span class="n">socket</span><span class="p">.</span><span class="n">SOCK_STREAM</span><span class="p">)</span>
+    <span class="c1"># add socket options
+</span>    <span class="n">server_socket</span><span class="p">.</span><span class="n">setsockopt</span><span class="p">(</span><span class="n">socket</span><span class="p">.</span><span class="n">SOL_SOCKET</span><span class="p">,</span> <span class="n">socket</span><span class="p">.</span><span class="n">SO_REUSEADDR</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="c1"># bind -&gt; assign a local protocol address to the socket
+</span>    <span class="n">server_socket</span><span class="p">.</span><span class="n">bind</span><span class="p">((</span><span class="n">SERVER_HOST</span><span class="p">,</span> <span class="n">SERVER_PORT</span><span class="p">))</span>
+    <span class="c1"># listen -&gt; make the socket a listening socket
+</span>    <span class="n">server_socket</span><span class="p">.</span><span class="n">listen</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'Listening on port %s ...'</span> <span class="o">%</span> <span class="n">SERVER_PORT</span><span class="p">)</span>
+
+    <span class="s">"""
+    Use the SIGCHLD event handler to asynchronously 
+    wait for a terminated child to get its termination status
+
+    When using an event handler you need to keep in mind that
+    system calls might get interrupted 
+    and you need to be prepared for that scenario
+    """</span>
+    <span class="n">signal</span><span class="p">.</span><span class="n">signal</span><span class="p">(</span><span class="n">signal</span><span class="p">.</span><span class="n">SIGCHLD</span><span class="p">,</span> <span class="n">wait_for_children_process</span><span class="p">)</span>
+
+    <span class="c1"># accept and loop 
+</span>    <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>    
+        <span class="k">try</span><span class="p">:</span>
+            <span class="c1"># Wait for client connections
+</span>            <span class="n">client_connection</span><span class="p">,</span> <span class="n">client_address</span> <span class="o">=</span> <span class="n">server_socket</span><span class="p">.</span><span class="n">accept</span><span class="p">()</span>
+        <span class="k">except</span> <span class="nb">IOError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="n">code</span><span class="p">,</span> <span class="n">msg</span> <span class="o">=</span> <span class="n">e</span><span class="p">.</span><span class="n">args</span>
+            <span class="c1"># restart 'accept' if it was interrupted
+</span>            <span class="k">if</span> <span class="n">code</span> <span class="o">==</span> <span class="n">errno</span><span class="p">.</span><span class="n">EINTR</span><span class="p">:</span>
+                <span class="k">continue</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">raise</span>
+
+        <span class="c1"># Get the client request
+</span>        <span class="n">request</span> <span class="o">=</span> <span class="n">client_connection</span><span class="p">.</span><span class="n">recv</span><span class="p">(</span><span class="mi">1024</span><span class="p">).</span><span class="n">decode</span><span class="p">()</span>
+
+        <span class="s">"""
+        The simplest way to write a concurrent server in Unix
+        is to use the fork() system call
+
+        When a process forks a new process,
+        it becomes a parent process to that newly forked child process.
+
+        Parent and child share the same file descriptors after the call to fork.
+
+        The kernel uses descriptor reference counts 
+        to decide whether to close the file/socket or not
+
+        The role of a server parent process: 
+        1. all it does now is accept a new connection from a client, 
+        2. fork a child to handle the client request, 
+        3. and loop over to accept a new client connection.
+        """</span>
+        <span class="n">pid</span> <span class="o">=</span> <span class="n">os</span><span class="p">.</span><span class="n">fork</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">pid</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>  <span class="c1"># child
+</span>            <span class="n">server_socket</span><span class="p">.</span><span class="n">close</span><span class="p">()</span>  <span class="c1"># close child copy
+</span>            <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'Child PID: </span><span class="si">{</span><span class="n">pid</span><span class="o">=</span><span class="n">os</span><span class="p">.</span><span class="n">getpid</span><span class="p">()</span><span class="si">}</span><span class="s">. Parent PID </span><span class="si">{</span><span class="n">ppid</span><span class="o">=</span><span class="n">os</span><span class="p">.</span><span class="n">getppid</span><span class="p">()</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
+            <span class="n">response</span> <span class="o">=</span> <span class="s">"HTTP/1.1 200 OK</span><span class="se">\n\n</span><span class="s">Hello, World!"</span>
+            <span class="n">client_connection</span><span class="p">.</span><span class="n">sendall</span><span class="p">(</span><span class="n">response</span><span class="p">.</span><span class="n">encode</span><span class="p">())</span>
+            <span class="n">client_connection</span><span class="p">.</span><span class="n">close</span><span class="p">()</span>
+            <span class="n">os</span><span class="p">.</span><span class="n">_exit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>  <span class="c1"># child exits here
+</span>        <span class="k">else</span><span class="p">:</span>  <span class="c1"># parent
+</span>            <span class="n">client_connection</span><span class="p">.</span><span class="n">close</span><span class="p">()</span>
+
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">'__main__'</span><span class="p">:</span>
+    <span class="n">serve</span><span class="p">()</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+  
+
+<img id="artwork" class="img-full" tabindex="0" onclick="shuffleArt();"/>
+<p id="description" class="img-alt"></p>
+
+<script src="/assets/js/art.js"></script>
+
+
+  
+
+<a style="font-size:1.8rem;" id="ideaMachine" title="Idea Machine" tabindex="0" onclick="setNextIdea();">🎰
+</a>
+
+<p id="random_idea" class="idea" onclick="setNextIdea();"></p>
+
+
+<style>
+  .idea {
+    white-space: pre-line;
+    min-height: 2.5rem
+  }
+</style>
+
+
+<script src="/assets/js/idea.js"></script>
+
+<script>
+
+  const setNextIdea = async () => {
+    let machine = document.getElementById("ideaMachine");
+    animate(machine, "shakey");
+    document.getElementById("random_idea").innerHTML = await getNextIdea();
+  }
+
+  document.addEventListener('DOMContentLoaded', async () => {
+    let machine = document.getElementById("ideaMachine");
+
+    machine.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        setNextIdea();
+      }
+    });
+
+    setNextIdea()
+  });
+
+</script>
+
+
+
+
+<script src="/assets/js/visits.js"></script>
+
+
+
+
+
+    <footer>
+    
+</footer>
+<style>
+    footer {
+        background: inherit !important;
+        padding-top: 1rem;
+        text-align: center;
+    }
+
+
+</style>
+
+  </article>
+</body>
+
+
+</html>
+
