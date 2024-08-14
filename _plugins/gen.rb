@@ -5,11 +5,11 @@ NOTES_PATH = "./_NOTES"
 ASSETS_PATH = "./assets"
 STATIC_PATH = "./assets/static"
 DATA_PATH = "./assets/data"
+DEBUG = true
 
 class SiteGenerator < Jekyll::Generator
   @fixed_frontmatter = false
   @generated = false
-  @debug = false
 
   def generate(site)
     return if @generated
@@ -28,12 +28,14 @@ class SiteGenerator < Jekyll::Generator
     initialize_file_to_title(site)
     tree= generate_tree(site)
     site.data["tree"] = tree
-    write_json("#{DATA_PATH}/tree.json", tree)
-
     generate_tree_htmls(site, tree)
-
     level_order = tree_level_order(tree)
-    write_json("#{DATA_PATH}/tree_level_order.json", level_order) if @debug
+
+    if DEBUG
+      write_json("#{DATA_PATH}/tree.json", tree)
+      write_json("#{DATA_PATH}/tree_htmls.json", site.data["tree_htmls"])
+      write_json("#{DATA_PATH}/tree_level_order.json", level_order)
+    end
 
     process_documents(site)
 
@@ -48,7 +50,7 @@ class SiteGenerator < Jekyll::Generator
     artworks = get_artworks
     write_json("#{DATA_PATH}/artworks.json", artworks)
 
-    write_tags_json(site) if @debug
+    write_json("#{DATA_PATH}/tags.json", site.documents.map { |doc| [doc.id, doc.data["tags"]] }.to_h)
 
     @generated = true
   end
@@ -126,10 +128,6 @@ class SiteGenerator < Jekyll::Generator
     site.documents.sum { |doc| doc.content.scan(/<a/).length } + graph[:links].length
   end
 
-
-  def write_tags_json(site)
-    write_json("#{DATA_PATH}/tags.json", site.documents.map { |doc| [doc.id, doc.data["tags"]] }.to_h)
-  end
 
   def remove_leading_slash(str)
     str.sub(/^\//, '')
@@ -315,7 +313,6 @@ class SiteGenerator < Jekyll::Generator
     tree.each do |file_id, children|
       doc = site.documents.find { |e| e.id == file_id }
       title = doc.nil? ? file_id.sub(/^\//, '').capitalize : doc.data["title"]
-
       sorted_children = children.sort_by { |k, v| [-v.length, site.data["file_to_title"][k]] }.to_h
       html += if sorted_children.empty?
                 "<li><a href='#{file_id}/'>#{title}</a></li>"

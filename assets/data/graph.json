@@ -169,6 +169,7 @@
         "/look-below-the-surface",
         "/moderation",
         "/one-bit-better",
+        "/phronesis",
         "/questions",
         "/seeking",
         "/stupidity",
@@ -196,6 +197,7 @@
       "name": "Poetry",
       "links": [
         "/arts",
+        "/brecht",
         "/deep-roots",
         "/do-not-go-gentle",
         "/find-time-to-just-be",
@@ -707,6 +709,7 @@
       "links": [
         "/social-sciences",
         "/asimov",
+        "/brave-new-world",
         "/look-down-and-around",
         "/orwell",
         "/prince",
@@ -1134,8 +1137,15 @@
       "group": 3,
       "name": "One Bit Better",
       "links": [
-        "/philosophy",
-        "/no-regrets-no-worries"
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/phronesis",
+      "group": 3,
+      "name": "Phronesis",
+      "links": [
+        "/philosophy"
       ]
     },
     {
@@ -1207,8 +1217,7 @@
       "links": [
         "/philosophy",
         "/death",
-        "/life-is-not-short",
-        "/no-regrets-no-worries",
+        "/on-the-shortness-of-life",
         "/slow-down-time",
         "/the-morning",
         "/the-past",
@@ -1236,6 +1245,14 @@
         "/praise-and-motivation",
         "/setting-rules",
         "/be-good-to-each-other-and-yourself"
+      ]
+    },
+    {
+      "id": "/brecht",
+      "group": 3,
+      "name": "The Interrogation of the Good",
+      "links": [
+        "/poetry"
       ]
     },
     {
@@ -2297,6 +2314,14 @@
       ]
     },
     {
+      "id": "/brave-new-world",
+      "group": 3,
+      "name": "Brave New World",
+      "links": [
+        "/politics"
+      ]
+    },
+    {
       "id": "/look-down-and-around",
       "group": 3,
       "name": "Look Down And Around",
@@ -2856,20 +2881,11 @@
       ]
     },
     {
-      "id": "/life-is-not-short",
+      "id": "/on-the-shortness-of-life",
       "group": 4,
       "name": "Life is not short but we waste it",
       "links": [
         "/time"
-      ]
-    },
-    {
-      "id": "/no-regrets-no-worries",
-      "group": 4,
-      "name": "No Regrets No Worries",
-      "links": [
-        "/time",
-        "/one-bit-better"
       ]
     },
     {
@@ -5772,6 +5788,10 @@
     },
     {
       "source": "/philosophy",
+      "target": "/phronesis"
+    },
+    {
+      "source": "/philosophy",
       "target": "/questions"
     },
     {
@@ -5805,6 +5825,10 @@
     {
       "source": "/philosophy",
       "target": "/work"
+    },
+    {
+      "source": "/poetry",
+      "target": "/brecht"
     },
     {
       "source": "/poetry",
@@ -6288,6 +6312,10 @@
     },
     {
       "source": "/politics",
+      "target": "/brave-new-world"
+    },
+    {
+      "source": "/politics",
       "target": "/look-down-and-around"
     },
     {
@@ -6496,11 +6524,7 @@
     },
     {
       "source": "/time",
-      "target": "/life-is-not-short"
-    },
-    {
-      "source": "/time",
-      "target": "/no-regrets-no-worries"
+      "target": "/on-the-shortness-of-life"
     },
     {
       "source": "/time",
@@ -7693,10 +7717,6 @@
     {
       "source": "/know-where-to-stop",
       "target": "/do-one-thing-at-a-time-and-do-it-well"
-    },
-    {
-      "source": "/one-bit-better",
-      "target": "/no-regrets-no-worries"
     },
     {
       "source": "/philosophy",

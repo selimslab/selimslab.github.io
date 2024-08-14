@@ -11,64 +11,17 @@
   "/design": [
     "arts"
   ],
+  "/don-norman": [
+    "design"
+  ],
+  "/double-diamond": [
+    "design"
+  ],
   "/everyday-objects": [
     "design"
   ],
   "/ship-it": [
     "design"
-  ],
-  "/adjektiva": [
-    "cestina"
-  ],
-  "/cas": [
-    "cestina"
-  ],
-  "/cestina": [
-    "languages"
-  ],
-  "/cisla": [
-    "cestina"
-  ],
-  "/domov": [
-    "cestina"
-  ],
-  "/fraze": [
-    "cestina"
-  ],
-  "/koníčky": [
-    "cestina"
-  ],
-  "/podobna-slova": [
-    "cestina"
-  ],
-  "/predlozky": [
-    "cestina"
-  ],
-  "/slovesa": [
-    "cestina"
-  ],
-  "/deutsch": [
-    "languages"
-  ],
-  "/english": [
-    "languages"
-  ],
-  "/languages": [
-    "arts"
-  ],
-  "/latin": [
-    "languages"
-  ],
-  "/metaphors": [
-    "languages",
-    "soc"
-  ],
-  "/modern-greek-alphabet": [
-    "languages",
-    "lists"
-  ],
-  "/turkce": [
-    "languages"
   ],
   "/cien-anos-de-soledad": [
     "literature"
@@ -122,6 +75,12 @@
     "music",
     "turkce"
   ],
+  "/paintings": [
+    "arts"
+  ],
+  "/act": [
+    "philosophy"
+  ],
   "/all-is-one": [
     "philosophy"
   ],
@@ -168,6 +127,9 @@
   "/friends": [
     "philosophy"
   ],
+  "/getting-old": [
+    "philosophy"
+  ],
   "/good-and-evil": [
     "philosophy"
   ],
@@ -178,6 +140,10 @@
     "philosophy",
     "psy",
     "soc"
+  ],
+  "/hard-times": [
+    "philosophy",
+    "top"
   ],
   "/ideal-insan": [
     "philosophy",
@@ -195,6 +161,9 @@
     "phil",
     "philosophy"
   ],
+  "/let-it-go": [
+    "philosophy"
+  ],
   "/life-is-play": [
     "philosophy"
   ],
@@ -210,7 +179,13 @@
   "/philosophy": [
     "arts"
   ],
+  "/phronesis": [
+    "philosophy"
+  ],
   "/questions": [
+    "philosophy"
+  ],
+  "/seeking": [
     "philosophy"
   ],
   "/stupidity": [
@@ -230,10 +205,7 @@
   "/death": [
     "time"
   ],
-  "/life-is-not-short": [
-    "time"
-  ],
-  "/no-regrets-no-worries": [
+  "/on-the-shortness-of-life": [
     "time"
   ],
   "/slow-down-time": [
@@ -271,10 +243,13 @@
     "arts",
     "skills"
   ],
-  "/conviction": [
+  "/brecht": [
     "poetry"
   ],
   "/deep-roots": [
+    "poetry"
+  ],
+  "/do-not-go-gentle": [
     "poetry"
   ],
   "/find-time-to-just-be": [
@@ -295,7 +270,13 @@
   "/lightly-child": [
     "poetry"
   ],
-  "/not-gentle": [
+  "/mother-to-son": [
+    "poetry"
+  ],
+  "/one-art": [
+    "poetry"
+  ],
+  "/one-ring": [
     "poetry"
   ],
   "/ozymandias": [
@@ -303,6 +284,9 @@
   ],
   "/poetry": [
     "arts"
+  ],
+  "/saturday": [
+    "poetry"
   ],
   "/soft-rains": [
     "poetry"
@@ -347,10 +331,22 @@
   "/wind-and-rain": [
     "tao-te-ching"
   ],
+  "/the-red-wheelbarrow": [
+    "poetry"
+  ],
   "/the-road-not-taken": [
     "poetry"
   ],
+  "/the-second-coming": [
+    "poetry"
+  ],
   "/this-be-the-verse": [
+    "poetry"
+  ],
+  "/to-be-or-not": [
+    "poetry"
+  ],
+  "/we-wear-the-mask": [
     "poetry"
   ],
   "/abbas": [
@@ -359,7 +355,13 @@
   "/asik-veysel": [
     "siir"
   ],
+  "/boz-ayran": [
+    "siir"
+  ],
   "/bulent-ecevit": [
+    "siir"
+  ],
+  "/bulgur-pilavi": [
     "siir"
   ],
   "/can-yucel": [
@@ -391,158 +393,177 @@
   "/yunus-emre": [
     "siir"
   ],
+  "/digital-art": [
+    "experiments"
+  ],
+  "/dots": [
+    "experiments"
+  ],
+  "/experiments": [
+    "lists"
+  ],
+  "/grid": [
+    "experiments"
+  ],
+  "/jobs": [
+    "experiments"
+  ],
+  "/markdown-editor": [
+    "experiments"
+  ],
+  "/music-player": [
+    "experiments"
+  ],
+  "/photo-gallery": [
+    "experiments"
+  ],
+  "/primes": [
+    "experiments"
+  ],
+  "/rss-reader": [
+    "experiments"
+  ],
+  "/savings-planner": [
+    "experiments"
+  ],
+  "/search-index": [
+    "experiments"
+  ],
+  "/shops": [
+    "experiments"
+  ],
+  "/spreadsheet": [
+    "experiments"
+  ],
+  "/typing-practice": [
+    "experiments",
+    "skills",
+    "top"
+  ],
+  "/video-call": [
+    "experiments"
+  ],
+  "/video-player": [
+    "experiments"
+  ],
+  "/year-progress": [
+    "experiments"
+  ],
+  "/datasets": [
+
+  ],
+  "/games": [
+
+  ],
+  "/quotes": [
+
+  ],
+  "/web-experiments": [
+    "ux"
+  ],
+  "/adjektiva": [
+    "cestina"
+  ],
+  "/cas": [
+    "cestina"
+  ],
+  "/cestina": [
+    "languages"
+  ],
+  "/cisla": [
+    "cestina"
+  ],
+  "/domov": [
+    "cestina"
+  ],
+  "/fraze": [
+    "cestina"
+  ],
+  "/koníčky": [
+    "cestina"
+  ],
+  "/podobna-slova": [
+    "cestina"
+  ],
+  "/predlozky": [
+    "cestina"
+  ],
+  "/slovesa": [
+    "cestina"
+  ],
+  "/deutsch": [
+    "languages"
+  ],
+  "/english": [
+    "languages"
+  ],
+  "/languages": [
+    "arts",
+    "lists"
+  ],
+  "/latin": [
+    "languages"
+  ],
+  "/metaphors": [
+    "languages",
+    "soc"
+  ],
+  "/modern-greek-alphabet": [
+    "languages",
+    "lists"
+  ],
+  "/nato-phonetic-alphabet": [
+    "languages"
+  ],
+  "/turkce": [
+    "languages"
+  ],
+  "/lists": [
+
+  ],
+  "/graph-2d": [
+    "meta"
+  ],
+  "/graph-3d": [
+    "meta"
+  ],
+  "/ideas": [
+    "meta"
+  ],
+  "/keyboard-shortcuts": [
+    "meta",
+    "pro"
+  ],
+  "/meta": [
+    "lists"
+  ],
+  "/stats": [
+    "meta"
+  ],
   "/authors": [
     "lists",
     "literature"
   ],
   "/blogs": [
-    "lists"
+
+  ],
+  "/books": [
+
   ],
   "/comics": [
-    "lists"
-  ],
-  "/datasets": [
-    "lists"
-  ],
-  "/documentaries": [
-    "cinema",
-    "lists"
+
   ],
   "/essais": [
-    "lists"
-  ],
-  "/games": [
-    "lists"
-  ],
-  "/history-of-technology": [
-    "history",
-    "lists",
-    "tech"
-  ],
-  "/ideas": [
-    "lists"
-  ],
-  "/lists": [
 
-  ],
-  "/movies": [
-    "cinema",
-    "lists"
-  ],
-  "/nato-phonetic-alphabet": [
-    "lists"
   ],
   "/news": [
-    "lists"
-  ],
-  "/paintings": [
-    "arts",
-    "lists"
-  ],
-  "/since-big-bang": [
-    "history",
-    "lists",
-    "nat",
-    "top"
-  ],
-  "/to-read": [
-    "lists"
-  ],
-  "/to-watch": [
-    "lists"
-  ],
-  "/web-experiments": [
-    "lists"
-  ],
-  "/bayes": [
-    "algo",
-    "math"
-  ],
-  "/counter-intuitive-math": [
-    "math"
-  ],
-  "/discrete-vs-continuous": [
-    "math"
-  ],
-  "/equations-that-changed-the-world": [
-    "math"
-  ],
-  "/fourier-transform": [
-    "math"
-  ],
-  "/laplace-transform": [
-    "math"
-  ],
-  "/logic-proofs": [
-    "math"
-  ],
-  "/math": [
 
   ],
-  "/normal-distribution": [
-    "math"
+  "/documentaries": [
+    "cinema"
   ],
-  "/probability-and-statistics": [
-    "math"
-  ],
-  "/akins-laws-of-spacecraft": [
-    "natural-sciences",
-    "sys",
-    "tech"
-  ],
-  "/astronomy": [
-    "natural-sciences"
-  ],
-  "/books-natural": [
-    "natural-sciences"
-  ],
-  "/classical-physics": [
-    "natural-sciences"
-  ],
-  "/climate-change": [
-    "natural-sciences"
-  ],
-  "/feynman-lectures": [
-    "natural-sciences"
-  ],
-  "/feynmans-epilogue": [
-    "natural-sciences"
-  ],
-  "/fluid-field-boundaries": [
-    "natural-sciences"
-  ],
-  "/going-blind": [
-    "health",
-    "phil"
-  ],
-  "/health": [
-    "natural-sciences"
-  ],
-  "/how-to-deal-with-pain": [
-    "health",
-    "phil"
-  ],
-  "/sleep": [
-    "health"
-  ],
-  "/inertia": [
-    "natural-sciences",
-    "psy"
-  ],
-  "/maxwell-equations": [
-    "natural-sciences"
-  ],
-  "/natural-sciences": [
-
-  ],
-  "/philosophical-implications-of-quantum-mechanics": [
-    "natural-sciences"
-  ],
-  "/solar-system": [
-    "natural-sciences"
-  ],
-  "/the-overview-effect": [
-    "natural-sciences"
+  "/movies": [
+    "cinema"
   ],
   "/business": [
     "skills"
@@ -690,6 +711,9 @@
   "/books-social": [
     "social-sciences"
   ],
+  "/chomsky": [
+    "social-sciences"
+  ],
   "/economics": [
     "social-sciences"
   ],
@@ -700,15 +724,45 @@
   "/wasted-talent": [
     "economics"
   ],
-  "/law": [
-    "social-sciences"
+  "/12000": [
+    "history"
+  ],
+  "/121st-century": [
+    "experiments",
+    "history",
+    "time"
   ],
   "/farming-trap": [
     "essais",
+    "history"
+  ],
+  "/history-of-technology": [
     "history",
-    "politics"
+    "lists",
+    "tech"
   ],
   "/history": [
+    "social-sciences",
+    "time"
+  ],
+  "/since-big-bang": [
+    "history",
+    "lists",
+    "nat",
+    "time"
+  ],
+  "/time-scale": [
+    "history",
+    "time",
+    "top"
+  ],
+  "/law": [
+    "social-sciences"
+  ],
+  "/asimov": [
+    "politics"
+  ],
+  "/brave-new-world": [
     "politics"
   ],
   "/look-down-and-around": [
@@ -717,7 +771,7 @@
     "politics",
     "pols"
   ],
-  "/nothing-to-lose": [
+  "/orwell": [
     "politics"
   ],
   "/politics": [
@@ -733,9 +787,6 @@
   ],
   "/the-triumph-of-stupidity": [
     "essais",
-    "politics"
-  ],
-  "/war-is-a-racket": [
     "politics"
   ],
   "/warfare-is-deception": [
@@ -873,6 +924,119 @@
     "architecture",
     "social-sciences"
   ],
+  "/bayes": [
+    "algo",
+    "math"
+  ],
+  "/counter-intuitive-math": [
+    "math"
+  ],
+  "/discrete-vs-continuous": [
+    "math"
+  ],
+  "/equations-that-changed-the-world": [
+    "math"
+  ],
+  "/fourier-transform": [
+    "math"
+  ],
+  "/laplace-transform": [
+    "math"
+  ],
+  "/logic-proofs": [
+    "math"
+  ],
+  "/math": [
+    "stem"
+  ],
+  "/normal-distribution": [
+    "math"
+  ],
+  "/probability-and-statistics": [
+    "math"
+  ],
+  "/akins-laws-of-spacecraft": [
+    "natural-sciences",
+    "sys",
+    "tech"
+  ],
+  "/astronomy": [
+    "natural-sciences"
+  ],
+  "/earth": [
+    "astronomy"
+  ],
+  "/size-of-the-universe": [
+    "astronomy"
+  ],
+  "/solar-system": [
+    "astronomy"
+  ],
+  "/the-overview-effect": [
+    "astronomy"
+  ],
+  "/books-natural": [
+    "natural-sciences"
+  ],
+  "/climate-change": [
+    "natural-sciences"
+  ],
+  "/feynman-lectures": [
+    "natural-sciences"
+  ],
+  "/feynmans-epilogue": [
+    "essais",
+    "natural-sciences"
+  ],
+  "/fluid-field-boundaries": [
+    "natural-sciences"
+  ],
+  "/going-blind": [
+    "health",
+    "phil"
+  ],
+  "/health": [
+    "natural-sciences"
+  ],
+  "/how-to-deal-with-pain": [
+    "health",
+    "phil"
+  ],
+  "/sleep": [
+    "health"
+  ],
+  "/natural-sciences": [
+    "stem"
+  ],
+  "/pale-blue-dot": [
+    "natural-sciences"
+  ],
+  "/classical-physics": [
+    "physics"
+  ],
+  "/inertia": [
+    "physics",
+    "psy"
+  ],
+  "/maxwell-equations": [
+    "physics"
+  ],
+  "/philosophical-implications-of-quantum-mechanics": [
+    "phil",
+    "physics"
+  ],
+  "/physics": [
+    "natural-sciences"
+  ],
+  "/sagan": [
+    "natural-sciences"
+  ],
+  "/sapolsky": [
+    "natural-sciences"
+  ],
+  "/stem": [
+
+  ],
   "/computers": [
     "tech"
   ],
@@ -895,6 +1059,9 @@
   ],
   "/databases": [
     "tech"
+  ],
+  "/db-concepts": [
+    "databases"
   ],
   "/db-data-structures": [
     "databases",
@@ -957,32 +1124,20 @@
   "/use-an-identity-service": [
     "distributed-systems"
   ],
+  "/customize-prompt": [
+    "machine-learning"
+  ],
   "/machine-learning": [
     "tech"
   ],
   "/nlp": [
     "machine-learning"
   ],
-  "/base-prompt": [
-    "prompt-engineering"
-  ],
-  "/customize-prompt": [
-    "prompt-engineering"
-  ],
   "/ozlang": [
-    "prompt-engineering"
+    "machine-learning"
   ],
   "/prompt-engineering": [
     "machine-learning"
-  ],
-  "/question-prompt": [
-    "prompt-engineering"
-  ],
-  "/recap-prompt": [
-    "prompt-engineering"
-  ],
-  "/summary-prompt": [
-    "prompt-engineering"
   ],
   "/algorithms": [
     "programming"
@@ -1335,7 +1490,13 @@
   "/pointers": [
     "data-structures"
   ],
+  "/quad-tree": [
+    "data-structures"
+  ],
   "/queue": [
+    "data-structures"
+  ],
+  "/r-tree": [
     "data-structures"
   ],
   "/skiplists": [
@@ -1396,6 +1557,9 @@
   "/programming-languages": [
     "programming"
   ],
+  "/c-and-python": [
+    "python"
+  ],
   "/python-data-structures": [
     "python"
   ],
@@ -1421,6 +1585,9 @@
     "skills",
     "swe",
     "tech"
+  ],
+  "/unicode": [
+    "programming"
   ],
   "/async-crawler": [
     "projects",
@@ -1474,18 +1641,11 @@
     "projects"
   ],
   "/projects": [
-    "programming",
-    "top"
+    "tech"
   ],
   "/vga-driver": [
     "c",
     "projects"
-  ],
-  "/tools": [
-    "programming"
-  ],
-  "/unicode": [
-    "programming"
   ],
   "/authentication": [
     "security"
@@ -1618,7 +1778,7 @@
     "tech"
   ],
   "/tech": [
-
+    "stem"
   ],
   "/a-free-web-again": [
 
@@ -1666,28 +1826,10 @@
   "/about": [
 
   ],
-  "/delta": [
-
-  ],
-  "/earth": [
-
-  ],
-  "/graph-2d": [
-    "meta"
-  ],
-  "/graph-3d": [
-    "meta"
-  ],
   "/pub": [
 
   ],
   "/resume": [
-
-  ],
-  "/root": [
-
-  ],
-  "/stats": [
 
   ]
 }

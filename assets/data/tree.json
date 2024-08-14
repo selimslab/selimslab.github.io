@@ -61,6 +61,8 @@
       },
       "/philosophy": {
       },
+      "/phronesis": {
+      },
       "/questions": {
       },
       "/seeking": {
@@ -78,9 +80,7 @@
       "/time": {
         "/death": {
         },
-        "/life-is-not-short": {
-        },
-        "/no-regrets-no-worries": {
+        "/on-the-shortness-of-life": {
         },
         "/slow-down-time": {
         },
@@ -105,6 +105,8 @@
       }
     },
     "/poetry": {
+      "/brecht": {
+      },
       "/deep-roots": {
       },
       "/do-not-go-gentle": {
@@ -556,6 +558,8 @@
     },
     "/politics": {
       "/asimov": {
+      },
+      "/brave-new-world": {
       },
       "/look-down-and-around": {
       },
