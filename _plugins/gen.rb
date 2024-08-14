@@ -291,7 +291,7 @@ class SiteGenerator < Jekyll::Generator
       entries.each do |child|
         next if child.start_with?('.', '_')
 
-        child_basename = File.basename(child).lowercase
+        child_basename = File.basename(child).downcase
         child_id = "/#{child_basename.sub(/\..*/, '')}"
         child_path = File.join(parent_path, child)
 
