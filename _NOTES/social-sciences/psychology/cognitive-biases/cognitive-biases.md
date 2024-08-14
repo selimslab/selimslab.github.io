@@ -4,85 +4,59 @@ tags: soc top
 ---
 
 
+1. I know almost nothing yet think I know the best. 
 
-## tldr
+2. I often follow the easy path. 
 
-We know almost nothing yet think we know the best. 
+3. I often have double standards. 
 
-We often follow the easy path. 
+4. I follow stories, winners, bandwagons, .. 
 
-We make decisions for trivial reasons and pretend otherwise. 
+5. I do almost everything to feel a bit better. 
 
-We often have double standards. 
+6. Mistakes of others are easier to notice than my own
 
-We follow stories, winners, bandwagons, .. 
+7. I jump to conclusions, oversimplify, overgeneralize, exaggerate, and stereotype. 
 
-We do almost everything to feel a bit better. 
+8. I do what is quick, easy, and comfortable over what is important.
 
-## Pride and Prejudice 
+9. I deal out judgment to others and seek understanding myself
 
-We think we are better than we are because the mistakes of others are easier to notice than our own
+10. A good story can easily win over the facts. 
 
-Brains evolved to save energy so we jump to conclusions, oversimplify, overgeneralize, exaggerate, and stereotype. We do what is quick, easy, and comfortable over what is important.
+11. I make decisions for trivial reasons and pretend otherwise. Emotions make decisions. Reason comes later and justifies.
 
-We deal out judgment to others and seek understanding for ourselves
+12. It's almost impossible to change people, read minds, or predict future. Yet I still try 
 
----
+13. I make myself unhappy by comparison, negativity, regret, and worry
 
-An action has a motive, often the motive is to feel a bit better, or feeling more free, more secure, more powerful, more liked, feared, or respected. People chase such emotions, money and status are just a proxy 
+14. I like to cry over spilled milk
 
-Even a seemingly selfless act makes us feel better about ourselves, though it doesn't make the act less valuable 
+15. Like a gambler, I think my luck will turn after a streak of losses, but every turn is different and no one's keeping the score 
 
----
+16. Environment shapes me more than I think.
 
-We love stories, a good story can easily win over the facts. Emotions make decisions. Reason comes later and justifies.
+17. I often make friends with whoever is close by
 
-People believe what they want yet we still try to prove something or to change people. 
+18. I love bandwagons, all these people can't be wrong?
 
-We can't read minds or predict other people yet we like to pretend so, as I am doing here  
+19. People like you more than you know but they seldom think about you 
 
-People see what they look for, and hear what they listen for.
+20. I generally like to be consistent, to keep commitments
 
----
+21. I fear and respect what I don’t know.
 
+22. I like to fill in the blanks 
 
-We make ourselves unhappy by comparison, negativity, regret, and worry
+23. I want to associate with winners and avoid losers.
 
-We like to cry over spilled milk
+24. I think success is earned and failure is deserved but most things are so random. 
 
-Like a gambler, we think our luck will turn after a streak of losses, but every turn is different and no one is keeping the score 
+25. I feel envy but wouldn't want to completely swap myself with another person
 
----
+26. I tend to do something even when doing nothing is better
 
-Environment shapes us more than we think.
-
-We often make friends with whoever is close by
-
-We love bandwagons, all these people can't be wrong?
-
-People like you more than you know but they seldom think about you 
-
----
-
-We generally like to be consistent, to keep commitments
-
-We fear and respect what we don’t know.
-
-We like to fill in the blanks 
-
----
-
-We want to associate with winners and avoid losers.
-
-We think success is earned and failure is deserved but most things are so random. 
-
-We feel envy but wouldn't want to completely swap ourselves with another person
-
----
-
-We tend to do something even when doing nothing is better
-
-We often don't know where to stop
+27. I often don't know where to stop
 
 ## See also
 
