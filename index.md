@@ -9,15 +9,15 @@ layout: page
 ## Delta 
 Give your mind some space
 
-## Featured
 
-{% include hub.html tag='top' %}
-
-## All Pages
+## Contents
 
 <div style="margin-top:0.5rem">
 {{ site.data.tree_htmls["root"] }}
 </div>
+## Featured
+
+{% include hub.html tag='top' %}
 
 ## Tap to shuffle   
 
