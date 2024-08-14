@@ -7,9 +7,7 @@ tags: top
 I think the best algorithms book for new programmers is:
 Grokking Algorithms, An Illustrated Guide For Programmers and Other Curious People
 
-Having a personal website will accelerate your learning. 
-You will have an existing place to try things and share. You can modify it to your taste and create all the features you like. Even a static website will go a long way. It's always possible to connect it to a backend or to use serverless functions or to rent a database, when you need it. 
-It can also be a good central place to keep your writings so you have everything in one place and you can connect/organize/refine your writings. 
+Have a central repository to keep a record of things you do, your writings, your code, diagrams, .. So you can refine your ideas as you go along 
 
 ## See also 
 

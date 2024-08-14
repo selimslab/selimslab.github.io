@@ -26,6 +26,8 @@ Walk no more in shadows
 
 Difficulties vanish when faced boldly
 
+Under the bludgeonings of chance, My head is bloody, but unbowed
+
 Nothing beside remains. Round the decay
 
 Cast aside fear and regret, do the deed at hand
