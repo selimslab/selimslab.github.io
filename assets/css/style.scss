@@ -103,7 +103,8 @@ article {
   padding: 1rem;
   padding-top: 0.5rem;
   margin: 0 auto;
-  width: 64ch;
+  min-width: 50%;
+  max-width: 80ch;
 }
 
 .centered{
