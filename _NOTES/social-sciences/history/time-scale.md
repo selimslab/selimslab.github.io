@@ -13,7 +13,8 @@ Then the Milky Way is 136 years old,
 
 and Big Bang happened 138 years ago. 
 
----
+
+{% include earth.html %}
 
 **By the same scale,** 
 
@@ -28,8 +29,6 @@ a century, 30 seconds
 300 000 years, a day 
 
 A human lifetime is about 20 seconds
-
-{% include earth.html %}
 
 **For the 45 years old Mother Earth,**
 
