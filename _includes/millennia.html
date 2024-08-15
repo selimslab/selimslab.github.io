@@ -4,8 +4,8 @@
 
 <style>
   :root {
-    --point-size: 0.8rem;
-    --point-gap: 0.4rem;
+    --point-size: 0.2rem;
+    --point-gap: 0.2rem;
     --columns: 10;
   }
 
@@ -54,56 +54,31 @@
     return suffix;
   };
 
-  const columns = 10;
-  const grids = 121;
+  const columns = 100;
+  const grids = 13;
 
-  // 121 means 21st century
-  const events = {
-    3: 'End of the last ice age',
-    4: "First Temple (Göbekli Tepe)",
-    25: "First cities",
-    51: "Uruk",
-    121: "21st century"
-  }
-
+ 
   const container = document.querySelector('.container');
 
-  for (let g = 0; g < grids; g++) {
+  for (let g = 1; g <= grids; g++) {
     const grid = document.createElement('ul');
     grid.classList.add('grid');
     for (let i = 0; i < columns; i++) {
       let li = document.createElement('li');
-      if (g === 0 && i > 2) {
-        li.classList.add('future');
-      }
-      if (g === 0 && i == 2) {
-        li.classList.add('now');
+      if (g === 13) {
+        if (i === 2) {
+          li.classList.add('now');
+        } else if (i > 2) {
+          li.classList.add('future');
+        }
+       
       }
       grid.appendChild(li);
 
     }
-    const gridNumber = document.createElement('h3');
-    let century = grids - g;
-    // find the millenium
-    let millenium = Math.floor(century / 10);
-    // if it's bigger than 100, make the 1 red 
-    if (century == 121) {
-      centuryDiv = `<span style="color: violet;">1</span>${century.toString().slice(1)}${getSuffix(century)} century`;
-    } else if (century >= 100) {
-      centuryDiv = `<span style="color: violet;">1</span>${century.toString().slice(1)}`
-    } else{
-      centuryDiv = `${century}`
-    }
 
-    gridNumber.innerHTML = centuryDiv;
-    container.appendChild(gridNumber);
     container.appendChild(grid);
-    if (g % 10 === 0 && g != 120) {
-      const milleniumDiv = document.createElement('h2');
-      let suffix = getSuffix(millenium);
-      milleniumDiv.innerHTML = `${millenium}${suffix} thousand years`;
-      container.appendChild(milleniumDiv);
-    }
+
   }
 
 

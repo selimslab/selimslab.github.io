@@ -15,6 +15,3 @@ Each dot is a decade
 
 {% include millennia.html %}
 
-## See also 
-
-[[universe-is-an-old-woman]]
