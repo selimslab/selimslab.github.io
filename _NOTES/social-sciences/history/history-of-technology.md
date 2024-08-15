@@ -13,7 +13,7 @@ Steam Engine
 Electricity  
 DC Motor  
 Combustion Engine  
-_The Origin of Species_  
+The Origin of Species
 Lightbulb  
 Telephone  
 Car  
@@ -21,7 +21,7 @@ AC Motor
 Radio
 
 **1900s**  
-_First Flight_  
+First Flight
 Television  
 Edwin Hubble finds Expansion of the Universe  
 Einstein formulates the equivalence of matter and energy, relativity of time and space  
@@ -89,15 +89,10 @@ Snapchat (2011)
 Tesla Model S (2012)  
 Apple Watch (2015)  
 CRISPR in Human Trials (2016)  
-GPT-3 (2019)
 
 **2020s**  
-5G Networks (2020)  
 COVID-19 mRNA Vaccines (2020) 
 James Webb Space Telescope (2021)  
-ChatGPT (2022)  
-Quantum Supremacy Claims (2022)  
-Generative AI Expansion (2023)
 
 ## misc. 
 
