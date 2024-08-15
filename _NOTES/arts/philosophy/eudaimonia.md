@@ -11,15 +11,19 @@ tags: skills top
 
 Consider beginnings. Solve problems while they are still small.
 
-[[do-without-doing]] 
+## See also 
 
 [[character]]
 
-## See also 
+[[choice]]
 
 [[cognitive-biases]] 
 
 [[death]]
+
+[[decisions]]
+
+[[do-without-doing]] 
 
 [[happiness]]
 
@@ -28,9 +32,5 @@ Consider beginnings. Solve problems while they are still small.
 [[love]]
 
 [[moderation]]
-
-[[decisions]]
-
-[[choice]]
 
 [[take-a-walk]]
