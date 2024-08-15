@@ -10,13 +10,7 @@
 
 <p id="weekNumber"></p>
 
-<p>
-  <span>
-    <progress id="year-progress" max="365" value=""></progress>
-  </span>
-  <span id="year-percent"></span>
-</p>
-
+<p id="year-percent"></p>
 
 <ul class="days"></ul>
 
@@ -24,17 +18,17 @@
 <style>
 
   :root {
-      --point-size: 0.4rem;
+      --point-size: 0.32rem;
       --point-gap: 0.16rem;
-      --row-gap: 0.4rem; 
+      --row-gap: 0.32rem; 
   }
 
   .days {
     list-style-type: none;
     display: grid;
+    grid-auto-flow: row;
     grid-gap: var(--point-gap);
     row-gap: var(--row-gap); 
-    grid-auto-flow: row;
     grid-auto-rows: var(--point-size);
   }
 
@@ -49,12 +43,12 @@
     border-radius: 50%;
   }
 
-  .days li.dummy {
+  .days li.filler {
     background-color: inherit;
   }
 
   .days li.past {
-    background-color: #909090;
+    opacity: 0.4;
   }
 
   .days li.weekend {
@@ -62,7 +56,7 @@
   }
 
   .days li.now {
-    border: 2px solid rgb(255, 55, 0);
+    background-color: rgb(255, 55, 0);
   }
 
 
@@ -86,8 +80,6 @@
 
 
   document.querySelector("#year-percent").innerHTML = `%${percent}`;
-
-  document.querySelector("#year-progress").setAttribute("value", this_day);
 
 
   function updateClock() {
@@ -121,34 +113,34 @@
       return weekend;
     });
 
-    total = 0;
-    const day_graph = document.querySelector(".days");
+    dayNumber = 0;
+    const days = document.querySelector(".days");
     
     days_in_months.forEach((number_of_days, month_index) => {
-      let dummy_days = 31 - number_of_days;
-      for (let day = 1; day <= number_of_days; day++) {
-        total += 1;
-        if (total == this_day) {
-          if (weekend_days[month_index].includes(day)) {
-            day_graph.insertAdjacentHTML("beforeend", `<li class="now weekend"></li>`);
-          } else {
-            day_graph.insertAdjacentHTML("beforeend", `<li class="now"></li>`);
-          }
-        } else if (total < this_day) {
-          day_graph.insertAdjacentHTML("beforeend", `<li class="past"></li>`);
-        } else {
-          // day in the weekend for the month
-          if (weekend_days[month_index].includes(day)) {
-            day_graph.insertAdjacentHTML("beforeend", `<li class="weekend"></li>`);
-          } else {
-            day_graph.insertAdjacentHTML("beforeend", `<li></li>`);
-          }
+      for (let i = 1; i <= number_of_days; i++) {
+        dayNumber += 1;
+        let day = document.createElement("li");
+        if (weekend_days[month_index].includes(i)) {
+            day.classList.add("weekend");
+        }
+        if (dayNumber == this_day) {
+          day.classList.add("now");
+        } else if (dayNumber < this_day) {
+          day.classList.add("past");
         } 
+        days.insertAdjacentElement("beforeend", day);
       }
-      // insert dummy days to fill the grid
-      for (let i = 0; i < dummy_days; i++) {
-        day_graph.insertAdjacentHTML("beforeend", `<li class="dummy"></li>`);
+
+      let dummy_days = 31 - number_of_days;
+
+
+      for (let i = 1; i <= dummy_days; i++) {
+        let empty = document.createElement("li");
+        empty.classList.add("filler");
+        days.insertAdjacentElement("beforeend", empty);
       }
+
+
     });
 
 

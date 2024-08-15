@@ -3,7 +3,7 @@
 // find .dotsContainer
 var dotsContainer = document.querySelector('.dotsContainer');
 
-rowSize = 10000;
+rowSize = 100;
 columnSize = 100;
 
 

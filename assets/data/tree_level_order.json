@@ -1,16 +1,10 @@
 {
   "/": [
-    "/STEM",
     "/arts",
     "/lists",
+    "/s-t-e-m",
     "/skills",
     "/social-sciences"
-  ],
-  "/STEM": [
-    "/natural-sciences",
-    "/tech",
-    "/math",
-    "/stem"
   ],
   "/arts": [
     "/philosophy",
@@ -32,6 +26,12 @@
     "/interesting",
     "/to-watch",
     "/lists"
+  ],
+  "/s-t-e-m": [
+    "/natural-sciences",
+    "/tech",
+    "/math",
+    "/s-t-e-m"
   ],
   "/skills": [
     "/business",
@@ -78,47 +78,6 @@
     "/urban-planning",
     "/social-sciences",
     "/architecture"
-  ],
-  "/natural-sciences": [
-    "/akins-laws-of-spacecraft",
-    "/books-natural",
-    "/climate-change",
-    "/feynman-lectures",
-    "/feynmans-epilogue",
-    "/fluid-field-boundaries",
-    "/natural-sciences",
-    "/pale-blue-dot",
-    "/sagan",
-    "/sapolsky",
-    "/astronomy",
-    "/health",
-    "/physics"
-  ],
-  "/tech": [
-    "/tech",
-    "/computers",
-    "/databases",
-    "/distributed-systems",
-    "/machine-learning",
-    "/programming",
-    "/projects",
-    "/security",
-    "/software-engineering",
-    "/system-design",
-    "/thoughts-on-tech",
-    "/ux"
-  ],
-  "/math": [
-    "/bayes",
-    "/counter-intuitive-math",
-    "/discrete-vs-continuous",
-    "/equations-that-changed-the-world",
-    "/fourier-transform",
-    "/laplace-transform",
-    "/logic-proofs",
-    "/math",
-    "/normal-distribution",
-    "/probability-and-statistics"
   ],
   "/philosophy": [
     "/act",
@@ -287,6 +246,47 @@
     "/documentaries",
     "/movies"
   ],
+  "/natural-sciences": [
+    "/akins-laws-of-spacecraft",
+    "/books-natural",
+    "/climate-change",
+    "/feynman-lectures",
+    "/feynmans-epilogue",
+    "/fluid-field-boundaries",
+    "/natural-sciences",
+    "/pale-blue-dot",
+    "/sagan",
+    "/sapolsky",
+    "/astronomy",
+    "/health",
+    "/physics"
+  ],
+  "/tech": [
+    "/tech",
+    "/computers",
+    "/databases",
+    "/distributed-systems",
+    "/machine-learning",
+    "/programming",
+    "/projects",
+    "/security",
+    "/software-engineering",
+    "/system-design",
+    "/thoughts-on-tech",
+    "/ux"
+  ],
+  "/math": [
+    "/bayes",
+    "/counter-intuitive-math",
+    "/discrete-vs-continuous",
+    "/equations-that-changed-the-world",
+    "/fourier-transform",
+    "/laplace-transform",
+    "/logic-proofs",
+    "/math",
+    "/normal-distribution",
+    "/probability-and-statistics"
+  ],
   "/business": [
     "/business",
     "/company-culture",
@@ -358,6 +358,48 @@
   "/systems": [
     "/chaos",
     "/systems"
+  ],
+  "/time": [
+    "/death",
+    "/on-the-shortness-of-life",
+    "/slow-down-time",
+    "/the-morning",
+    "/the-past",
+    "/time"
+  ],
+  "/work": [
+    "/distractions",
+    "/flow",
+    "/how-to-start",
+    "/overcoming-obstacles",
+    "/praise-and-motivation",
+    "/setting-rules"
+  ],
+  "/tao-te-ching": [
+    "/hollow-power",
+    "/insight-and-strength",
+    "/life-is-soft",
+    "/misery-under-happiness",
+    "/monstrous-ingenuity",
+    "/not-being",
+    "/not-far-away",
+    "/tao-te-ching",
+    "/the-great-leader",
+    "/uncut-wood",
+    "/wei-wu-wei",
+    "/wind-and-rain"
+  ],
+  "/cestina": [
+    "/adjektiva",
+    "/cas",
+    "/cestina",
+    "/cisla",
+    "/domov",
+    "/fraze",
+    "/koníčky",
+    "/podobna-slova",
+    "/predlozky",
+    "/slovesa"
   ],
   "/astronomy": [
     "/astronomy",
@@ -499,48 +541,6 @@
     "/usability-testing",
     "/ux"
   ],
-  "/time": [
-    "/death",
-    "/on-the-shortness-of-life",
-    "/slow-down-time",
-    "/the-morning",
-    "/the-past",
-    "/time"
-  ],
-  "/work": [
-    "/distractions",
-    "/flow",
-    "/how-to-start",
-    "/overcoming-obstacles",
-    "/praise-and-motivation",
-    "/setting-rules"
-  ],
-  "/tao-te-ching": [
-    "/hollow-power",
-    "/insight-and-strength",
-    "/life-is-soft",
-    "/misery-under-happiness",
-    "/monstrous-ingenuity",
-    "/not-being",
-    "/not-far-away",
-    "/tao-te-ching",
-    "/the-great-leader",
-    "/uncut-wood",
-    "/wei-wu-wei",
-    "/wind-and-rain"
-  ],
-  "/cestina": [
-    "/adjektiva",
-    "/cas",
-    "/cestina",
-    "/cisla",
-    "/domov",
-    "/fraze",
-    "/koníčky",
-    "/podobna-slova",
-    "/predlozky",
-    "/slovesa"
-  ],
   "/cognitive-biases": [
     "/bias-for-unhappiness",
     "/cognitive-biases",
@@ -603,7 +603,7 @@
     "/invert-binary-tree",
     "/is-mirror-tree",
     "/least-num-of-perfect-squares",
-    "/lengthoflis",
+    "/lengthOfLIS",
     "/level-order",
     "/longest-common-prefix",
     "/longest-common-subsequence",
@@ -625,13 +625,13 @@
     "/possible-morse",
     "/post-order-go",
     "/producer-consumer-problem",
-    "/repeatedstringmatch",
+    "/repeatedStringMatch",
     "/reverse-letters-only",
     "/sliding-window-max",
     "/stocks-with-cooldown",
     "/string-compression",
     "/three-sum-closest",
-    "/threesum",
+    "/threeSum",
     "/tree-codec-py",
     "/tree-traversals",
     "/trie-py",
