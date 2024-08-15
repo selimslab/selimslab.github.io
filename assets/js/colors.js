@@ -11,18 +11,23 @@ const darkText = gray;
 const darkBg = "#22272e";
 
 const blueViolet = "#8A2BE2";
-const lightGreen = "#98F5F9";
+const lightGreen = "#90EE90";
 const lightViolet = "#bec0ff";
 const gold = "#DFC57B";
 const lavender = "#E7DDFF";
+const lightRed = "#FFB6B9";
 
 function getColor(index) {
   const colors = [
-    blueViolet,
-    gold,
     lightViolet,
+    gold,
+    lightGreen,
+    lightRed,
+    lightBlue,
     lightBg,
-    lightBlue
+    blueViolet,
+    lavender,
+    highlight
   ];
   return colors[index % colors.length];
 }

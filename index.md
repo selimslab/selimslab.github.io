@@ -32,11 +32,6 @@ Give your mind some space
 {% include earth.html %}
 
 
-## Metadata 
-
-{% include hub.html tag='meta' %}
-
-
 {% include offline.html  %}
 
 
