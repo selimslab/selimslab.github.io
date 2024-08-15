@@ -1,5 +1,5 @@
 ---
-title: On a good life 🌱
+title: Eudaimonia 🌱
 tags: skills top
 ---
 

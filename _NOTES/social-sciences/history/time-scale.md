@@ -7,7 +7,7 @@ The earth is about 4.5 billion years old.
 
 Let's take it to human-scale and say the Earth is 45 years old. 
 
-100 000 000 years for us is like one year to her. 
+100 million years for us feels like a year to her. 
 
 Then the Milky Way is 136 years old, 
 
@@ -57,8 +57,6 @@ Renaissance 3 minutes ago
 
 Industry a minute ago
 
-WW2 was 25 seconds ago
-
-Moon landings were 16 seconds ago 
+WW2 25 seconds ago
 
 Each decade is about 3 seconds, in a 138 years old universe
