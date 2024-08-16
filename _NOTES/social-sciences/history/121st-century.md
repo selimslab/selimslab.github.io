@@ -1,7 +1,6 @@
 ---
 title: 121st century
 tags: time experiments
-layout: page
 ---
 
 

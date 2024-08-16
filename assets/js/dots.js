@@ -4,7 +4,7 @@
 var dotsContainer = document.querySelector('.dotsContainer');
 
 rowSize = 100;
-columnSize = 100;
+columnSize = 10;
 
 
 // add "." chars to the .dotsContainer
