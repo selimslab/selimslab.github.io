@@ -2045,8 +2045,7 @@
       "group": 3,
       "name": "Why No Authors",
       "links": [
-        "/meta",
-        "/selim"
+        "/meta"
       ]
     },
     {
@@ -4108,6 +4107,7 @@
         "/programming-languages",
         "/c-and-python",
         "/python-data-structures",
+        "/python-packages",
         "/zen-of-python",
         "/async-crawler",
         "/compiler",
@@ -5272,6 +5272,14 @@
       "id": "/python-data-structures",
       "group": 5,
       "name": "Python Data Structures",
+      "links": [
+        "/python"
+      ]
+    },
+    {
+      "id": "/python-packages",
+      "group": 5,
+      "name": "Python Packages",
       "links": [
         "/python"
       ]
@@ -7513,6 +7521,10 @@
     },
     {
       "source": "/python",
+      "target": "/python-packages"
+    },
+    {
+      "source": "/python",
       "target": "/zen-of-python"
     },
     {
@@ -7842,10 +7854,6 @@
     {
       "source": "/lists",
       "target": "/since-big-bang"
-    },
-    {
-      "source": "/why-no-authors",
-      "target": "/selim"
     },
     {
       "source": "/essais",

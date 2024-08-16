@@ -1619,6 +1619,9 @@
   "/python-data-structures": [
     "python"
   ],
+  "/python-packages": [
+    "python"
+  ],
   "/python": [
     "programming-languages"
   ],
