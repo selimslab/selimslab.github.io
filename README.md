@@ -4,6 +4,8 @@ This is a place to bring together everything I like on the web. Notes, links, ar
 
 View at <https://selimslab.github.io>
 
+The name **delta** comes from the mathematical symbol of change 
+
 ## Setup
 
 1. clone the repo
