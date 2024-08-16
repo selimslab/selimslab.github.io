@@ -1,5 +1,5 @@
 ---
-tags: tech sys
+tags:  sys
 ---
 
 1. Engineering is done with numbers. Analysis without numbers is only an opinion.

@@ -1,8 +1,6 @@
 ---
-title: Computers from scratch 
 ---
 
-## From scratch  
 
 numbers 
 

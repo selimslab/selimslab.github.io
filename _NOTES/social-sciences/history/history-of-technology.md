@@ -99,3 +99,5 @@ James Webb Space Telescope (2021)
 <https://drewdevault.com/time>
 
 <https://www.computerhistory.org/timeline/computers/>
+
+[[is-tech-fast-or-slow]]
