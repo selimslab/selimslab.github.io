@@ -4,7 +4,9 @@ layout: page
 
 
 ## Delta
-a space for heart and mind, to change for one bit better
+a space for heart and mind, 
+
+to change for one bit better
 
 ## Contents
 
