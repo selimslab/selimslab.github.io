@@ -60,10 +60,6 @@ tags: soc top
 
 ## See also
 
-[Tag: cognitive-bias - Sketchplanations](https://sketchplanations.com/tags/cognitive-bias)
-
-[[bias-for-unhappiness]]
-
-[[overvaluing-short-term]]
-
 [Heuristics That Almost Always Work - by Scott Alexander (astralcodexten.com)](https://www.astralcodexten.com/p/heuristics-that-almost-always-work)
+
+[Tag: cognitive-bias - Sketchplanations](https://sketchplanations.com/tags/cognitive-bias)
