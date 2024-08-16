@@ -1,5 +1,6 @@
 ---
 tags: top
+layout: page
 ---
 
 
