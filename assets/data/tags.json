@@ -930,261 +930,8 @@
     "architecture",
     "social-sciences"
   ],
-  "/computers-from-scratch": [
-    "computers"
-  ],
-  "/computers": [
-    "stem"
-  ],
-  "/containers": [
-    "computers",
-    "os"
-  ],
-  "/acid": [
-    "databases"
-  ],
-  "/b-trees": [
-    "databases",
-    "ds"
-  ],
-  "/databases": [
-    "computers"
-  ],
-  "/db-concepts": [
-    "databases"
-  ],
-  "/db-data-structures": [
-    "databases",
-    "ds"
-  ],
-  "/leaderless-replication": [
-    "databases"
-  ],
-  "/lsm-trees": [
-    "algo",
-    "databases",
-    "ds"
-  ],
-  "/partitioning": [
-    "databases"
-  ],
-  "/replication": [
-    "databases"
-  ],
-  "/single-leader": [
-    "databases"
-  ],
-  "/sql-tips": [
-    "databases"
-  ],
-  "/armstrong-thesis": [
-    "distributed-systems"
-  ],
-  "/azure-pillars": [
-    "distributed-systems"
-  ],
-  "/consistent-hashing": [
-    "distributed-systems"
-  ],
-  "/detect-a-node-failure": [
-    "distributed-systems"
-  ],
-  "/distributed-design-patterns": [
-    "distributed-systems"
-  ],
-  "/distributed-systems": [
-    "computers",
-    "sys"
-  ],
-  "/generate-a-unique-id": [
-    "distributed-systems"
-  ],
-  "/google-sre-book": [
-    "distributed-systems"
-  ],
-  "/kafka": [
-    "distributed-systems"
-  ],
-  "/spark": [
-    "distributed-systems"
-  ],
-  "/time-and-order": [
-    "distributed-systems"
-  ],
-  "/easy-vs-hard-in-cs": [
-    "computers"
-  ],
-  "/networks": [
-    "computers"
-  ],
-  "/operating-systems": [
-    "computers"
-  ],
-  "/authentication": [
-    "security"
-  ],
-  "/authorization": [
-    "security"
-  ],
-  "/certificates": [
-    "security"
-  ],
-  "/cookies": [
-    "security"
-  ],
-  "/cors": [
-    "security"
-  ],
-  "/csrf": [
-    "security"
-  ],
-  "/openssl-encrypt": [
-    "security"
-  ],
-  "/public-key-cryptography": [
-    "security"
-  ],
-  "/security-heuristics": [
-    "security"
-  ],
-  "/security": [
-    "computers"
-  ],
-  "/store-passwords": [
-    "security"
-  ],
-  "/transport-layer-security": [
-    "security"
-  ],
-  "/xss": [
-    "security"
-  ],
-  "/customize-prompt": [
-    "data-science"
-  ],
-  "/data-science": [
-    "stem"
-  ],
-  "/machine-learning": [
-    "data-science"
-  ],
-  "/nlp": [
-    "data-science"
-  ],
-  "/prompt-engineering": [
-    "data-science"
-  ],
-  "/bayes": [
-    "algo",
-    "math"
-  ],
-  "/counter-intuitive-math": [
-    "math"
-  ],
-  "/discrete-vs-continuous": [
-    "math"
-  ],
-  "/equations-that-changed-the-world": [
-    "math"
-  ],
-  "/fourier-transform": [
-    "math"
-  ],
-  "/laplace-transform": [
-    "math"
-  ],
-  "/logic-proofs": [
-    "math"
-  ],
-  "/math": [
-    "stem"
-  ],
-  "/normal-distribution": [
-    "math"
-  ],
-  "/probability-and-statistics": [
-    "math"
-  ],
-  "/akins-laws-of-spacecraft": [
-    "natural-sciences",
-    "sys"
-  ],
-  "/astronomy": [
-    "natural-sciences"
-  ],
-  "/earth": [
-    "astronomy"
-  ],
-  "/size-of-the-universe": [
-    "astronomy"
-  ],
-  "/solar-system": [
-    "astronomy"
-  ],
-  "/the-overview-effect": [
-    "astronomy"
-  ],
-  "/books-natural": [
-    "natural-sciences"
-  ],
-  "/climate-change": [
-    "natural-sciences"
-  ],
-  "/feynman-lectures": [
-    "natural-sciences"
-  ],
-  "/feynmans-epilogue": [
-    "essais",
-    "natural-sciences"
-  ],
-  "/fluid-field-boundaries": [
-    "natural-sciences"
-  ],
-  "/going-blind": [
-    "health",
-    "phil"
-  ],
-  "/health": [
-    "natural-sciences"
-  ],
-  "/how-to-deal-with-pain": [
-    "health",
-    "phil"
-  ],
-  "/sleep": [
-    "health"
-  ],
-  "/natural-sciences": [
-    "stem"
-  ],
-  "/pale-blue-dot": [
-    "natural-sciences"
-  ],
-  "/classical-physics": [
-    "physics"
-  ],
-  "/inertia": [
-    "physics",
-    "psy"
-  ],
-  "/maxwell-equations": [
-    "physics"
-  ],
-  "/philosophical-implications-of-quantum-mechanics": [
-    "phil",
-    "physics"
-  ],
-  "/physics": [
-    "natural-sciences"
-  ],
-  "/sagan": [
-    "natural-sciences"
-  ],
-  "/sapolsky": [
-    "natural-sciences"
-  ],
   "/algorithms": [
-    "programming"
+    "stem"
   ],
   "/array-rotate": [
     "arr",
@@ -1505,6 +1252,262 @@
   "/trie": [
     "str"
   ],
+  "/computers-from-scratch": [
+    "computers"
+  ],
+  "/computers": [
+    "stem"
+  ],
+  "/containers": [
+    "computers",
+    "os"
+  ],
+  "/acid": [
+    "databases"
+  ],
+  "/b-trees": [
+    "databases",
+    "ds"
+  ],
+  "/databases": [
+    "computers"
+  ],
+  "/db-concepts": [
+    "databases"
+  ],
+  "/db-data-structures": [
+    "databases",
+    "ds"
+  ],
+  "/leaderless-replication": [
+    "databases"
+  ],
+  "/lsm-trees": [
+    "algo",
+    "databases",
+    "ds"
+  ],
+  "/partitioning": [
+    "databases"
+  ],
+  "/replication": [
+    "databases"
+  ],
+  "/single-leader": [
+    "databases"
+  ],
+  "/sql-tips": [
+    "databases"
+  ],
+  "/discussion-topics": [
+    "computers"
+  ],
+  "/armstrong-thesis": [
+    "distributed-systems"
+  ],
+  "/azure-pillars": [
+    "distributed-systems"
+  ],
+  "/consistent-hashing": [
+    "distributed-systems"
+  ],
+  "/detect-a-node-failure": [
+    "distributed-systems"
+  ],
+  "/distributed-design-patterns": [
+    "distributed-systems"
+  ],
+  "/distributed-systems": [
+    "computers",
+    "sys"
+  ],
+  "/generate-a-unique-id": [
+    "distributed-systems"
+  ],
+  "/google-sre-book": [
+    "distributed-systems"
+  ],
+  "/kafka": [
+    "distributed-systems"
+  ],
+  "/spark": [
+    "distributed-systems"
+  ],
+  "/time-and-order": [
+    "distributed-systems"
+  ],
+  "/easy-vs-hard-in-cs": [
+    "computers"
+  ],
+  "/networks": [
+    "computers"
+  ],
+  "/operating-systems": [
+    "computers"
+  ],
+  "/authentication": [
+    "security"
+  ],
+  "/authorization": [
+    "security"
+  ],
+  "/certificates": [
+    "security"
+  ],
+  "/cookies": [
+    "security"
+  ],
+  "/cors": [
+    "security"
+  ],
+  "/csrf": [
+    "security"
+  ],
+  "/openssl-encrypt": [
+    "security"
+  ],
+  "/public-key-cryptography": [
+    "security"
+  ],
+  "/security-heuristics": [
+    "security"
+  ],
+  "/security": [
+    "computers"
+  ],
+  "/store-passwords": [
+    "security"
+  ],
+  "/transport-layer-security": [
+    "security"
+  ],
+  "/xss": [
+    "security"
+  ],
+  "/customize-prompt": [
+    "data-science"
+  ],
+  "/data-science": [
+    "stem"
+  ],
+  "/machine-learning": [
+    "data-science"
+  ],
+  "/nlp": [
+    "data-science"
+  ],
+  "/prompt-engineering": [
+    "data-science"
+  ],
+  "/bayes": [
+    "algo",
+    "math"
+  ],
+  "/counter-intuitive-math": [
+    "math"
+  ],
+  "/discrete-vs-continuous": [
+    "math"
+  ],
+  "/equations-that-changed-the-world": [
+    "math"
+  ],
+  "/fourier-transform": [
+    "math"
+  ],
+  "/laplace-transform": [
+    "math"
+  ],
+  "/logic-proofs": [
+    "math"
+  ],
+  "/math": [
+    "stem"
+  ],
+  "/normal-distribution": [
+    "math"
+  ],
+  "/probability-and-statistics": [
+    "math"
+  ],
+  "/akins-laws-of-spacecraft": [
+    "natural-sciences",
+    "sys"
+  ],
+  "/astronomy": [
+    "natural-sciences"
+  ],
+  "/earth": [
+    "astronomy"
+  ],
+  "/size-of-the-universe": [
+    "astronomy"
+  ],
+  "/solar-system": [
+    "astronomy"
+  ],
+  "/the-overview-effect": [
+    "astronomy"
+  ],
+  "/books-natural": [
+    "natural-sciences"
+  ],
+  "/climate-change": [
+    "natural-sciences"
+  ],
+  "/feynman-lectures": [
+    "natural-sciences"
+  ],
+  "/feynmans-epilogue": [
+    "essais",
+    "natural-sciences"
+  ],
+  "/fluid-field-boundaries": [
+    "natural-sciences"
+  ],
+  "/going-blind": [
+    "health",
+    "phil"
+  ],
+  "/health": [
+    "natural-sciences"
+  ],
+  "/how-to-deal-with-pain": [
+    "health",
+    "phil"
+  ],
+  "/sleep": [
+    "health"
+  ],
+  "/natural-sciences": [
+    "stem"
+  ],
+  "/pale-blue-dot": [
+    "natural-sciences"
+  ],
+  "/classical-physics": [
+    "physics"
+  ],
+  "/inertia": [
+    "physics",
+    "psy"
+  ],
+  "/maxwell-equations": [
+    "physics"
+  ],
+  "/philosophical-implications-of-quantum-mechanics": [
+    "phil",
+    "physics"
+  ],
+  "/physics": [
+    "natural-sciences"
+  ],
+  "/sagan": [
+    "natural-sciences"
+  ],
+  "/sapolsky": [
+    "natural-sciences"
+  ],
   "/api": [
     "programming"
   ],
@@ -1512,9 +1515,6 @@
     "programming"
   ],
   "/concurrency": [
-    "programming"
-  ],
-  "/discussion-topics": [
     "programming"
   ],
   "/encodings": [

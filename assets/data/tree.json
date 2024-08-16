@@ -634,6 +634,206 @@
     }
   },
   "/stem": {
+    "/algorithms": {
+      "/algorithms": {
+      },
+      "/backtrack": {
+      },
+      "/bit": {
+      },
+      "/data-structures": {
+      },
+      "/greedy": {
+      },
+      "/hash-table": {
+      },
+      "/linked-list": {
+      },
+      "/parallel-programming": {
+      },
+      "/producer-consumer-problem": {
+      },
+      "/sort": {
+      },
+      "/array": {
+        "/array-rotate": {
+        },
+        "/array": {
+        },
+        "/count-primes": {
+        },
+        "/generate-pascals-triangle": {
+        },
+        "/group-anagrams": {
+        },
+        "/longest-consecutive": {
+        },
+        "/plus-one": {
+        },
+        "/possible-morse": {
+        },
+        "/three-sum-closest": {
+        }
+      },
+      "/by-level": {
+        "/easy": {
+        },
+        "/hard": {
+        },
+        "/mid": {
+        }
+      },
+      "/dp": {
+        "/climb-stairs": {
+        },
+        "/coin-change": {
+        },
+        "/dynamic": {
+        },
+        "/edit-distance": {
+        },
+        "/house-robber": {
+        },
+        "/lengthOfLIS": {
+        },
+        "/longest-common-subsequence": {
+        },
+        "/longest-diverse-str": {
+        },
+        "/lowest-common-ancestor": {
+        },
+        "/maximal-square": {
+        },
+        "/min-edit-distance": {
+        },
+        "/min-path-sum": {
+        },
+        "/min-steps-notepad": {
+        },
+        "/stocks-with-cooldown": {
+        },
+        "/ways-to-target-sum": {
+        },
+        "/word-break": {
+        }
+      },
+      "/graph": {
+        "/bfs-dfs-topo": {
+        },
+        "/dijkstra": {
+        },
+        "/graph": {
+        }
+      },
+      "/heuristic": {
+        "/approximation": {
+        },
+        "/bloom-filters": {
+        },
+        "/hyperloglog": {
+        }
+      },
+      "/pointers": {
+        "/max-water": {
+        },
+        "/min-covering-window": {
+        },
+        "/partition-labels": {
+        },
+        "/pivot-index": {
+        },
+        "/pointers": {
+        },
+        "/reverse-letters-only": {
+        },
+        "/sliding-window-max": {
+        },
+        "/threeSum": {
+        }
+      },
+      "/queue": {
+        "/least-num-of-perfect-squares": {
+        },
+        "/queue": {
+        }
+      },
+      "/search": {
+        "/binary-search": {
+        },
+        "/bst": {
+        },
+        "/local-maximum": {
+        },
+        "/skiplists": {
+        },
+        "/vector-search": {
+        }
+      },
+      "/stack": {
+        "/check-brackets": {
+        },
+        "/days-until-warmer-temperature": {
+        },
+        "/dedup-game": {
+        },
+        "/longest-valid-paranthesis": {
+        },
+        "/stack": {
+        }
+      },
+      "/string": {
+        "/decode-string": {
+        },
+        "/generate-n-grams": {
+        },
+        "/longest-common-prefix": {
+        },
+        "/rabin-karp": {
+        },
+        "/repeatedStringMatch": {
+        },
+        "/string-compression": {
+        },
+        "/string": {
+        }
+      },
+      "/tree": {
+        "/heap": {
+        },
+        "/level-order": {
+        },
+        "/quad-tree": {
+        },
+        "/r-tree": {
+        },
+        "/tree-balancing": {
+        },
+        "/tree-traversals": {
+        },
+        "/trie": {
+        },
+        "/code": {
+          "/delete-tree-node": {
+          },
+          "/diamater-of-binary-tree": {
+          },
+          "/invert-binary-tree": {
+          },
+          "/is-mirror-tree": {
+          },
+          "/max-path-sum": {
+          },
+          "/max-tree-depth": {
+          },
+          "/post-order-go": {
+          },
+          "/tree-codec-py": {
+          },
+          "/unique-bst": {
+          }
+        }
+      }
+    },
     "/natural-sciences": {
       "/akins-laws-of-spacecraft": {
       },
@@ -697,8 +897,6 @@
       },
       "/concurrency": {
       },
-      "/discussion-topics": {
-      },
       "/encodings": {
       },
       "/for-new-programmers": {
@@ -708,206 +906,6 @@
       "/the-tao-of-programming": {
       },
       "/unicode": {
-      },
-      "/algorithms": {
-        "/algorithms": {
-        },
-        "/backtrack": {
-        },
-        "/bit": {
-        },
-        "/data-structures": {
-        },
-        "/greedy": {
-        },
-        "/hash-table": {
-        },
-        "/linked-list": {
-        },
-        "/parallel-programming": {
-        },
-        "/producer-consumer-problem": {
-        },
-        "/sort": {
-        },
-        "/array": {
-          "/array-rotate": {
-          },
-          "/array": {
-          },
-          "/count-primes": {
-          },
-          "/generate-pascals-triangle": {
-          },
-          "/group-anagrams": {
-          },
-          "/longest-consecutive": {
-          },
-          "/plus-one": {
-          },
-          "/possible-morse": {
-          },
-          "/three-sum-closest": {
-          }
-        },
-        "/by-level": {
-          "/easy": {
-          },
-          "/hard": {
-          },
-          "/mid": {
-          }
-        },
-        "/dp": {
-          "/climb-stairs": {
-          },
-          "/coin-change": {
-          },
-          "/dynamic": {
-          },
-          "/edit-distance": {
-          },
-          "/house-robber": {
-          },
-          "/lengthOfLIS": {
-          },
-          "/longest-common-subsequence": {
-          },
-          "/longest-diverse-str": {
-          },
-          "/lowest-common-ancestor": {
-          },
-          "/maximal-square": {
-          },
-          "/min-edit-distance": {
-          },
-          "/min-path-sum": {
-          },
-          "/min-steps-notepad": {
-          },
-          "/stocks-with-cooldown": {
-          },
-          "/ways-to-target-sum": {
-          },
-          "/word-break": {
-          }
-        },
-        "/graph": {
-          "/bfs-dfs-topo": {
-          },
-          "/dijkstra": {
-          },
-          "/graph": {
-          }
-        },
-        "/heuristic": {
-          "/approximation": {
-          },
-          "/bloom-filters": {
-          },
-          "/hyperloglog": {
-          }
-        },
-        "/pointers": {
-          "/max-water": {
-          },
-          "/min-covering-window": {
-          },
-          "/partition-labels": {
-          },
-          "/pivot-index": {
-          },
-          "/pointers": {
-          },
-          "/reverse-letters-only": {
-          },
-          "/sliding-window-max": {
-          },
-          "/threeSum": {
-          }
-        },
-        "/queue": {
-          "/least-num-of-perfect-squares": {
-          },
-          "/queue": {
-          }
-        },
-        "/search": {
-          "/binary-search": {
-          },
-          "/bst": {
-          },
-          "/local-maximum": {
-          },
-          "/skiplists": {
-          },
-          "/vector-search": {
-          }
-        },
-        "/stack": {
-          "/check-brackets": {
-          },
-          "/days-until-warmer-temperature": {
-          },
-          "/dedup-game": {
-          },
-          "/longest-valid-paranthesis": {
-          },
-          "/stack": {
-          }
-        },
-        "/string": {
-          "/decode-string": {
-          },
-          "/generate-n-grams": {
-          },
-          "/longest-common-prefix": {
-          },
-          "/rabin-karp": {
-          },
-          "/repeatedStringMatch": {
-          },
-          "/string-compression": {
-          },
-          "/string": {
-          }
-        },
-        "/tree": {
-          "/heap": {
-          },
-          "/level-order": {
-          },
-          "/quad-tree": {
-          },
-          "/r-tree": {
-          },
-          "/tree-balancing": {
-          },
-          "/tree-traversals": {
-          },
-          "/trie": {
-          },
-          "/code": {
-            "/delete-tree-node": {
-            },
-            "/diamater-of-binary-tree": {
-            },
-            "/invert-binary-tree": {
-            },
-            "/is-mirror-tree": {
-            },
-            "/max-path-sum": {
-            },
-            "/max-tree-depth": {
-            },
-            "/post-order-go": {
-            },
-            "/tree-codec-py": {
-            },
-            "/unique-bst": {
-            }
-          }
-        }
       },
       "/oop": {
         "/design-patterns": {
@@ -1024,28 +1022,6 @@
         }
       }
     },
-    "/math": {
-      "/bayes": {
-      },
-      "/counter-intuitive-math": {
-      },
-      "/discrete-vs-continuous": {
-      },
-      "/equations-that-changed-the-world": {
-      },
-      "/fourier-transform": {
-      },
-      "/laplace-transform": {
-      },
-      "/logic-proofs": {
-      },
-      "/math": {
-      },
-      "/normal-distribution": {
-      },
-      "/probability-and-statistics": {
-      }
-    },
     "/ux": {
       "/a-free-web-again": {
       },
@@ -1074,6 +1050,8 @@
       "/computers": {
       },
       "/containers": {
+      },
+      "/discussion-topics": {
       },
       "/easy-vs-hard-in-cs": {
       },
@@ -1156,6 +1134,28 @@
         },
         "/xss": {
         }
+      }
+    },
+    "/math": {
+      "/bayes": {
+      },
+      "/counter-intuitive-math": {
+      },
+      "/discrete-vs-continuous": {
+      },
+      "/equations-that-changed-the-world": {
+      },
+      "/fourier-transform": {
+      },
+      "/laplace-transform": {
+      },
+      "/logic-proofs": {
+      },
+      "/math": {
+      },
+      "/normal-distribution": {
+      },
+      "/probability-and-statistics": {
       }
     },
     "/software-engineering": {
