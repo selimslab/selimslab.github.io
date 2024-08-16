@@ -2,9 +2,12 @@
 title: Python
 
 ---
-A pragmatic language, values your time over the machine's time and it makes sense for many kind of problems 
 
-Its a tool just like other tools but a tool I enjoy to use
+A pragmatic language, values your time over the machine's time 
+
+Makes sense for many kinds of problems 
+
+It's a tool I enjoy to use
 
 It gets out of your way and enables you to express yourself comfortably 
 
@@ -14,10 +17,9 @@ There is a drawback with flexible and expressive languages like Python, Ruby, or
 
 So it requires self discipline from the team to keep a project well organized, readable, and maintainable 
 
-For example list comprehensions brings great expressive power, but power comes with responsibility, and in a large enough team, if the language is not enforcing responsibility, you will see people writing unnecessarily complicated list comprehensions 
+For example list comprehensions brings great expressive power but you will also see people writing unnecessarily complicated list comprehensions 
 
-Static type checking with mypy made it easier to build larger projects with Python, 
-also the tooling is good for formatting the style, linting, sorting imports, etc. 
+Check out poetry, mypy, pydantic, pylint, autoflake, autopep8, isort, black, pytest, coverage, pre-commit, loguru, .. 
 
 [standard library](https://docs.python.org/3/library/index.html)
 

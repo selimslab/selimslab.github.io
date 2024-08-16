@@ -1,4 +1,5 @@
 ---
+title: Dynamic Programming
 tags: dp
 ---
 

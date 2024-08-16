@@ -75,12 +75,12 @@
     "/architecture"
   ],
   "/stem": [
-    "/programming",
     "/natural-sciences",
+    "/programming",
     "/math",
     "/ux",
-    "/software-engineering",
     "/computers",
+    "/software-engineering",
     "/data-science",
     "/stem"
   ],
@@ -323,24 +323,6 @@
     "/chaos",
     "/systems"
   ],
-  "/programming": [
-    "/api",
-    "/com",
-    "/concurrency",
-    "/discussion-topics",
-    "/easy-vs-hard-in-cs",
-    "/encodings",
-    "/for-new-programmers",
-    "/programming",
-    "/the-tao-of-programming",
-    "/unicode",
-    "/algorithms",
-    "/code",
-    "/data-structures",
-    "/oop",
-    "/programming-languages",
-    "/projects"
-  ],
   "/natural-sciences": [
     "/akins-laws-of-spacecraft",
     "/books-natural",
@@ -355,6 +337,21 @@
     "/astronomy",
     "/health",
     "/physics"
+  ],
+  "/programming": [
+    "/api",
+    "/com",
+    "/concurrency",
+    "/discussion-topics",
+    "/encodings",
+    "/for-new-programmers",
+    "/programming",
+    "/the-tao-of-programming",
+    "/unicode",
+    "/algorithms",
+    "/oop",
+    "/programming-languages",
+    "/projects"
   ],
   "/math": [
     "/bayes",
@@ -380,6 +377,17 @@
     "/usability-testing",
     "/ux"
   ],
+  "/computers": [
+    "/computers-from-scratch",
+    "/computers",
+    "/containers",
+    "/easy-vs-hard-in-cs",
+    "/networks",
+    "/operating-systems",
+    "/databases",
+    "/distributed-systems",
+    "/security"
+  ],
   "/software-engineering": [
     "/code-review",
     "/core-concepts",
@@ -389,16 +397,6 @@
     "/software-quality",
     "/the-joel-test",
     "/system-design"
-  ],
-  "/computers": [
-    "/computers-from-scratch",
-    "/computers",
-    "/containers",
-    "/networks",
-    "/operating-systems",
-    "/databases",
-    "/distributed-systems",
-    "/security"
   ],
   "/data-science": [
     "/customize-prompt",
@@ -470,99 +468,48 @@
     "/unmet-needs",
     "/vulnerability"
   ],
+  "/astronomy": [
+    "/astronomy",
+    "/earth",
+    "/size-of-the-universe",
+    "/solar-system",
+    "/the-overview-effect"
+  ],
+  "/health": [
+    "/going-blind",
+    "/health",
+    "/how-to-deal-with-pain",
+    "/sleep"
+  ],
+  "/physics": [
+    "/classical-physics",
+    "/inertia",
+    "/maxwell-equations",
+    "/philosophical-implications-of-quantum-mechanics",
+    "/physics"
+  ],
   "/algorithms": [
     "/algorithms",
-    "/approximation",
     "/backtrack",
     "/bit",
-    "/easy",
-    "/greedy",
-    "/hard",
-    "/local-maximum",
-    "/mid",
-    "/parallel-programming",
-    "/rabin-karp",
-    "/sort",
-    "/tree-balancing",
-    "/vector-search"
-  ],
-  "/code": [
-    "/array-rotate",
-    "/bfs-dfs-topo",
-    "/binary-search",
-    "/bst",
-    "/check-brackets",
-    "/climb-stairs",
-    "/code",
-    "/coin-change",
-    "/count-primes",
-    "/days-until-warmer-temperature",
-    "/decode-string",
-    "/dedup-game",
-    "/delete-tree-node",
-    "/diamater-of-binary-tree",
-    "/dijkstra",
-    "/dynamic",
-    "/edit-distance",
-    "/generate-n-grams",
-    "/generate-pascals-triangle",
-    "/group-anagrams",
-    "/house-robber",
-    "/invert-binary-tree",
-    "/is-mirror-tree",
-    "/least-num-of-perfect-squares",
-    "/lengthOfLIS",
-    "/level-order",
-    "/longest-common-prefix",
-    "/longest-common-subsequence",
-    "/longest-consecutive",
-    "/longest-diverse-str",
-    "/longest-valid-paranthesis",
-    "/lowest-common-ancestor",
-    "/max-path-sum",
-    "/max-tree-depth",
-    "/max-water",
-    "/maximal-square",
-    "/min-covering-window",
-    "/min-edit-distance",
-    "/min-path-sum",
-    "/min-steps-notepad",
-    "/partition-labels",
-    "/pivot-index",
-    "/plus-one",
-    "/possible-morse",
-    "/post-order-go",
-    "/producer-consumer-problem",
-    "/repeatedStringMatch",
-    "/reverse-letters-only",
-    "/sliding-window-max",
-    "/stocks-with-cooldown",
-    "/string-compression",
-    "/three-sum-closest",
-    "/threeSum",
-    "/tree-codec-py",
-    "/tree-traversals",
-    "/trie-py",
-    "/unique-bst",
-    "/ways-to-target-sum",
-    "/word-break"
-  ],
-  "/data-structures": [
-    "/array",
-    "/bloom-filters",
     "/data-structures",
-    "/graph",
+    "/greedy",
     "/hash-table",
-    "/heap",
-    "/hyperloglog",
     "/linked-list",
+    "/parallel-programming",
+    "/producer-consumer-problem",
+    "/sort",
+    "/array",
+    "/by-level",
+    "/dp",
+    "/graph",
+    "/heuristic",
     "/pointers",
-    "/quad-tree",
     "/queue",
-    "/r-tree",
-    "/skiplists",
+    "/search",
     "/stack",
-    "/string"
+    "/string",
+    "/tree"
   ],
   "/oop": [
     "/design-patterns",
@@ -605,33 +552,6 @@
     "/projects",
     "/vga-driver"
   ],
-  "/astronomy": [
-    "/astronomy",
-    "/earth",
-    "/size-of-the-universe",
-    "/solar-system",
-    "/the-overview-effect"
-  ],
-  "/health": [
-    "/going-blind",
-    "/health",
-    "/how-to-deal-with-pain",
-    "/sleep"
-  ],
-  "/physics": [
-    "/classical-physics",
-    "/inertia",
-    "/maxwell-equations",
-    "/philosophical-implications-of-quantum-mechanics",
-    "/physics"
-  ],
-  "/system-design": [
-    "/choose-boring-tech",
-    "/domain-driven-design",
-    "/hacker-laws",
-    "/minimal-tech",
-    "/system-design"
-  ],
   "/databases": [
     "/acid",
     "/b-trees",
@@ -673,6 +593,104 @@
     "/transport-layer-security",
     "/xss"
   ],
+  "/system-design": [
+    "/choose-boring-tech",
+    "/domain-driven-design",
+    "/hacker-laws",
+    "/minimal-tech",
+    "/system-design"
+  ],
+  "/array": [
+    "/array-rotate",
+    "/array",
+    "/count-primes",
+    "/generate-pascals-triangle",
+    "/group-anagrams",
+    "/longest-consecutive",
+    "/plus-one",
+    "/possible-morse",
+    "/three-sum-closest"
+  ],
+  "/by-level": [
+    "/easy",
+    "/hard",
+    "/mid"
+  ],
+  "/dp": [
+    "/climb-stairs",
+    "/coin-change",
+    "/dynamic",
+    "/edit-distance",
+    "/house-robber",
+    "/lengthOfLIS",
+    "/longest-common-subsequence",
+    "/longest-diverse-str",
+    "/lowest-common-ancestor",
+    "/maximal-square",
+    "/min-edit-distance",
+    "/min-path-sum",
+    "/min-steps-notepad",
+    "/stocks-with-cooldown",
+    "/ways-to-target-sum",
+    "/word-break"
+  ],
+  "/graph": [
+    "/bfs-dfs-topo",
+    "/dijkstra",
+    "/graph"
+  ],
+  "/heuristic": [
+    "/approximation",
+    "/bloom-filters",
+    "/hyperloglog"
+  ],
+  "/pointers": [
+    "/max-water",
+    "/min-covering-window",
+    "/partition-labels",
+    "/pivot-index",
+    "/pointers",
+    "/reverse-letters-only",
+    "/sliding-window-max",
+    "/threeSum"
+  ],
+  "/queue": [
+    "/least-num-of-perfect-squares",
+    "/queue"
+  ],
+  "/search": [
+    "/binary-search",
+    "/bst",
+    "/local-maximum",
+    "/skiplists",
+    "/vector-search"
+  ],
+  "/stack": [
+    "/check-brackets",
+    "/days-until-warmer-temperature",
+    "/dedup-game",
+    "/longest-valid-paranthesis",
+    "/stack"
+  ],
+  "/string": [
+    "/decode-string",
+    "/generate-n-grams",
+    "/longest-common-prefix",
+    "/rabin-karp",
+    "/repeatedStringMatch",
+    "/string-compression",
+    "/string"
+  ],
+  "/tree": [
+    "/heap",
+    "/level-order",
+    "/quad-tree",
+    "/r-tree",
+    "/tree-balancing",
+    "/tree-traversals",
+    "/trie",
+    "/code"
+  ],
   "/oop-designs": [
     "/block",
     "/design-a-bicycle",
@@ -695,5 +713,16 @@
     "/python-packages",
     "/python",
     "/zen-of-python"
+  ],
+  "/code": [
+    "/delete-tree-node",
+    "/diamater-of-binary-tree",
+    "/invert-binary-tree",
+    "/is-mirror-tree",
+    "/max-path-sum",
+    "/max-tree-depth",
+    "/post-order-go",
+    "/tree-codec-py",
+    "/unique-bst"
   ]
 }

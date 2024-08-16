@@ -1011,6 +1011,9 @@
   "/time-and-order": [
     "distributed-systems"
   ],
+  "/easy-vs-hard-in-cs": [
+    "computers"
+  ],
   "/networks": [
     "computers"
   ],
@@ -1183,8 +1186,44 @@
   "/algorithms": [
     "programming"
   ],
-  "/approximation": [
+  "/array-rotate": [
+    "arr",
+    "array",
+    "easy"
+  ],
+  "/array": [
     "algorithms"
+  ],
+  "/count-primes": [
+    "arr",
+    "array",
+    "mid"
+  ],
+  "/generate-pascals-triangle": [
+    "arr",
+    "array",
+    "easy"
+  ],
+  "/group-anagrams": [
+    "arr",
+    "array",
+    "easy"
+  ],
+  "/longest-consecutive": [
+    "arr",
+    "array"
+  ],
+  "/plus-one": [
+    "arr",
+    "array"
+  ],
+  "/possible-morse": [
+    "arr",
+    "array"
+  ],
+  "/three-sum-closest": [
+    "arr",
+    "array"
   ],
   "/backtrack": [
     "algorithms"
@@ -1193,309 +1232,281 @@
     "algorithms"
   ],
   "/easy": [
-    "algorithms"
-  ],
-  "/greedy": [
-    "algorithms"
+
   ],
   "/hard": [
-    "algorithms"
-  ],
-  "/local-maximum": [
-    "algorithms",
-    "math"
+
   ],
   "/mid": [
+
+  ],
+  "/data-structures": [
+    "algo",
     "algorithms"
-  ],
-  "/parallel-programming": [
-    "algorithms"
-  ],
-  "/rabin-karp": [
-    "algorithms"
-  ],
-  "/sort": [
-    "algorithms"
-  ],
-  "/tree-balancing": [
-    "algorithms"
-  ],
-  "/vector-search": [
-    "algorithms"
-  ],
-  "/api": [
-    "programming"
-  ],
-  "/array-rotate": [
-    "arr",
-    "code",
-    "easy"
-  ],
-  "/bfs-dfs-topo": [
-    "code",
-    "gr",
-    "mid"
-  ],
-  "/binary-search": [
-    "code",
-    "easy"
-  ],
-  "/bst": [
-    "code",
-    "easy",
-    "gr"
-  ],
-  "/check-brackets": [
-    "code",
-    "easy",
-    "stack"
   ],
   "/climb-stairs": [
-    "code",
     "dp",
     "easy"
   ],
-  "/code": [
-    "programming"
-  ],
   "/coin-change": [
-    "code",
     "dp",
-    "mid"
-  ],
-  "/count-primes": [
-    "arr",
-    "code",
-    "mid"
-  ],
-  "/days-until-warmer-temperature": [
-    "code",
-    "easy",
-    "stack"
-  ],
-  "/decode-string": [
-    "code",
-    "easy",
-    "stack",
-    "str"
-  ],
-  "/dedup-game": [
-    "code",
-    "easy",
-    "stack",
-    "str"
-  ],
-  "/delete-tree-node": [
-    "code",
-    "gr",
-    "mid"
-  ],
-  "/diamater-of-binary-tree": [
-    "code",
-    "gr",
-    "mid"
-  ],
-  "/dijkstra": [
-    "code",
-    "gr",
     "mid"
   ],
   "/dynamic": [
-    "code",
     "dp"
   ],
   "/edit-distance": [
-    "code",
     "dp",
     "mid"
-  ],
-  "/generate-n-grams": [
-    "code",
-    "mid",
-    "str"
-  ],
-  "/generate-pascals-triangle": [
-    "arr",
-    "code",
-    "easy"
-  ],
-  "/group-anagrams": [
-    "arr",
-    "code",
-    "easy"
   ],
   "/house-robber": [
-    "code",
     "dp",
     "mid"
-  ],
-  "/invert-binary-tree": [
-    "code",
-    "gr",
-    "mid"
-  ],
-  "/is-mirror-tree": [
-    "code",
-    "gr",
-    "mid"
-  ],
-  "/least-num-of-perfect-squares": [
-    "code",
-    "hard",
-    "q"
   ],
   "/lengthOfLIS": [
-    "code",
     "dp",
     "mid"
-  ],
-  "/level-order": [
-    "code",
-    "gr",
-    "mid"
-  ],
-  "/longest-common-prefix": [
-    "code",
-    "easy",
-    "str"
   ],
   "/longest-common-subsequence": [
-    "code",
     "dp",
     "mid"
   ],
-  "/longest-consecutive": [
-    "arr",
-    "code"
-  ],
   "/longest-diverse-str": [
-    "code",
     "dp",
     "heap",
     "mid",
     "str"
   ],
+  "/lowest-common-ancestor": [
+    "dp",
+    "gr"
+  ],
+  "/maximal-square": [
+    "dp"
+  ],
+  "/min-edit-distance": [
+    "dp",
+    "mid"
+  ],
+  "/min-path-sum": [
+    "dp"
+  ],
+  "/min-steps-notepad": [
+    "dp"
+  ],
+  "/stocks-with-cooldown": [
+    "dp"
+  ],
+  "/ways-to-target-sum": [
+    "dp"
+  ],
+  "/word-break": [
+    "dp"
+  ],
+  "/bfs-dfs-topo": [
+    "gr",
+    "graph",
+    "mid"
+  ],
+  "/dijkstra": [
+    "gr",
+    "graph",
+    "mid"
+  ],
+  "/graph": [
+    "algorithms"
+  ],
+  "/greedy": [
+    "algorithms"
+  ],
+  "/hash-table": [
+    "algorithms"
+  ],
+  "/approximation": [
+
+  ],
+  "/bloom-filters": [
+
+  ],
+  "/hyperloglog": [
+
+  ],
+  "/linked-list": [
+    "algorithms"
+  ],
+  "/parallel-programming": [
+    "algorithms"
+  ],
+  "/max-water": [
+    "pointers",
+    "ptr"
+  ],
+  "/min-covering-window": [
+    "pointers",
+    "ptr"
+  ],
+  "/partition-labels": [
+    "pointers",
+    "ptr"
+  ],
+  "/pivot-index": [
+    "pointers",
+    "ptr"
+  ],
+  "/pointers": [
+    "algorithms"
+  ],
+  "/reverse-letters-only": [
+    "pointers",
+    "ptr",
+    "stack"
+  ],
+  "/sliding-window-max": [
+    "pointers",
+    "ptr"
+  ],
+  "/threeSum": [
+    "pointers",
+    "ptr"
+  ],
+  "/producer-consumer-problem": [
+    "algorithms",
+    "concurrency"
+  ],
+  "/least-num-of-perfect-squares": [
+    "hard",
+    "q",
+    "queue"
+  ],
+  "/queue": [
+    "algorithms"
+  ],
+  "/binary-search": [
+    "easy"
+  ],
+  "/bst": [
+    "easy",
+    "gr"
+  ],
+  "/local-maximum": [
+    "math"
+  ],
+  "/skiplists": [
+
+  ],
+  "/vector-search": [
+
+  ],
+  "/sort": [
+    "algorithms"
+  ],
+  "/check-brackets": [
+    "easy",
+    "stack"
+  ],
+  "/days-until-warmer-temperature": [
+    "easy",
+    "stack"
+  ],
+  "/dedup-game": [
+    "easy",
+    "stack",
+    "str"
+  ],
   "/longest-valid-paranthesis": [
-    "code",
     "mid",
     "ptr",
     "stack",
     "str"
   ],
-  "/lowest-common-ancestor": [
-    "code",
-    "dp",
-    "gr"
+  "/stack": [
+    "algorithms"
   ],
-  "/max-path-sum": [
-    "code",
-    "gr"
+  "/decode-string": [
+    "easy",
+    "stack",
+    "str",
+    "string"
   ],
-  "/max-tree-depth": [
-    "code",
-    "gr"
+  "/generate-n-grams": [
+    "mid",
+    "str",
+    "string"
   ],
-  "/max-water": [
-    "code",
-    "ptr"
+  "/longest-common-prefix": [
+    "easy",
+    "str",
+    "string"
   ],
-  "/maximal-square": [
-    "code",
-    "dp"
-  ],
-  "/min-covering-window": [
-    "code",
-    "ptr"
-  ],
-  "/min-edit-distance": [
-    "code",
-    "dp",
-    "mid"
-  ],
-  "/min-path-sum": [
-    "code",
-    "dp"
-  ],
-  "/min-steps-notepad": [
-    "code",
-    "dp"
-  ],
-  "/partition-labels": [
-    "code",
-    "ptr"
-  ],
-  "/pivot-index": [
-    "code",
-    "ptr"
-  ],
-  "/plus-one": [
-    "arr",
-    "code"
-  ],
-  "/possible-morse": [
-    "arr",
-    "code"
-  ],
-  "/post-order-go": [
-    "code",
-    "gr"
-  ],
-  "/producer-consumer-problem": [
-    "code",
-    "concurrency"
+  "/rabin-karp": [
+    "string"
   ],
   "/repeatedStringMatch": [
-    "code",
-    "str"
-  ],
-  "/reverse-letters-only": [
-    "code",
-    "ptr",
-    "stack"
-  ],
-  "/sliding-window-max": [
-    "code",
-    "ptr"
-  ],
-  "/stocks-with-cooldown": [
-    "code",
-    "dp"
+    "str",
+    "string"
   ],
   "/string-compression": [
-    "code",
-    "str"
+    "str",
+    "string"
   ],
-  "/three-sum-closest": [
-    "arr",
-    "code"
+  "/string": [
+    "algorithms"
   ],
-  "/threeSum": [
-    "code",
-    "ptr"
+  "/delete-tree-node": [
+    "gr",
+    "mid"
+  ],
+  "/diamater-of-binary-tree": [
+    "gr",
+    "mid"
+  ],
+  "/invert-binary-tree": [
+    "gr",
+    "mid"
+  ],
+  "/is-mirror-tree": [
+    "gr",
+    "mid"
+  ],
+  "/max-path-sum": [
+
+  ],
+  "/max-tree-depth": [
+
+  ],
+  "/post-order-go": [
+
   ],
   "/tree-codec-py": [
-    "code",
-    "gr"
-  ],
-  "/tree-traversals": [
-    "code",
-    "gr"
-  ],
-  "/trie-py": [
-    "code",
     "gr"
   ],
   "/unique-bst": [
-    "code",
-    "gr"
+
   ],
-  "/ways-to-target-sum": [
-    "code",
-    "dp"
+  "/heap": [
+
   ],
-  "/word-break": [
-    "code",
-    "dp"
+  "/level-order": [
+    "gr",
+    "mid"
+  ],
+  "/quad-tree": [
+
+  ],
+  "/r-tree": [
+
+  ],
+  "/tree-balancing": [
+
+  ],
+  "/tree-traversals": [
+
+  ],
+  "/trie": [
+    "str"
+  ],
+  "/api": [
+    "programming"
   ],
   "/com": [
     "programming"
@@ -1503,56 +1514,7 @@
   "/concurrency": [
     "programming"
   ],
-  "/array": [
-    "data-structures"
-  ],
-  "/bloom-filters": [
-    "data-structures"
-  ],
-  "/data-structures": [
-    "algo",
-    "programming"
-  ],
-  "/graph": [
-    "data-structures"
-  ],
-  "/hash-table": [
-    "data-structures"
-  ],
-  "/heap": [
-    "data-structures"
-  ],
-  "/hyperloglog": [
-    "data-structures"
-  ],
-  "/linked-list": [
-    "data-structures"
-  ],
-  "/pointers": [
-    "data-structures"
-  ],
-  "/quad-tree": [
-    "data-structures"
-  ],
-  "/queue": [
-    "data-structures"
-  ],
-  "/r-tree": [
-    "data-structures"
-  ],
-  "/skiplists": [
-    "data-structures"
-  ],
-  "/stack": [
-    "data-structures"
-  ],
-  "/string": [
-    "data-structures"
-  ],
   "/discussion-topics": [
-    "programming"
-  ],
-  "/easy-vs-hard-in-cs": [
     "programming"
   ],
   "/encodings": [
@@ -1651,12 +1613,10 @@
     "programming"
   ],
   "/c-and-python": [
+    "c",
     "python"
   ],
   "/python-data-structures": [
-    "python"
-  ],
-  "/python-packages": [
     "python"
   ],
   "/python": [

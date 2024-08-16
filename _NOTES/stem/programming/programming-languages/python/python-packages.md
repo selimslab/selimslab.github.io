@@ -55,8 +55,4 @@ fastapi
 
 websockets - A library for building WebSocket servers and clients with a focus on correctness and simplicity.
 
-## task queues
 
-dramatiq - A fast and reliable background task processing library for Python 3.
-
-rq - Simple job queues for Python.

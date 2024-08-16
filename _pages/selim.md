@@ -10,7 +10,3 @@ This is a place to bring together everything I like on the web. Notes, links, ar
 ## Site stats 
 
 {% include stats.html  %}
-
-## Misc 
-
-[[why-no-authors]]

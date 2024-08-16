@@ -1,5 +1,6 @@
 ---
 title: Call C code from Python
+tags: c
 ---
 
 You can use `ctypes` or `cffi` to call C code from Python.
