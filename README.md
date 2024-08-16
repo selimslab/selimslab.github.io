@@ -18,6 +18,10 @@ The name **delta** comes from the mathematical symbol of change
 bundle exec jekyll serve --trace --incremental --profile
 ```
 
+## Deploy 
+
+Git push to main triggers a github action 
+
 [![CI/CD](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml/badge.svg)](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml)
 
 
