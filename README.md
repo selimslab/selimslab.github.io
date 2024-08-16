@@ -1,62 +1,8 @@
-#  Project Delta
+# Project Delta
 
-A digital space to create and share
-
-A place to bring together everything I like on the web. Notes, links, articles, photos, artworks, drawings, poetry, lists, code snippets, experiments, ideas, ..
+This is a place to bring together everything I like on the web. Notes, links, articles, photos, artworks, drawings, poetry, lists, code snippets, experiments, ..
 
 View at <https://selimslab.github.io>
-
-<br>
-
-[![CI/CD](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml/badge.svg)](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml)
-
-
-## How it works 
-
-Plain markdown files, published with jekyll. 
-
-Mostly written in vscode and obsidian. 
-
-Minimal, simple, clean, custom. 
-
-No ads, no tracking.  
-
-Built upon [barryclark/jekyll-now](https://github.com/barryclark/jekyll-now)
-
-
-## Connected information graph  
-
-All pages have a unique name so file name is also file id.
-
-Any file can link to any other using its id. With html, markdown, or [[wikilink]] format.
-
-Pages list which other pages links to them (backlinks or incoming links)
-
-[2D Graph of all pages](https://selimslab.github.io/graph-2d)
-
-[3D Graph of all pages](https://selimslab.github.io/graph-3d)
-
-
-## Tags 
-Files can also tag each other. Tags are defined at `_data\tag_to_file.yml` 
-Tags of a page is listed above its title. 
-
-## Offline 
-
-Works offline. A service worker caches all static pages (4-5mb) on the first visit. 
-
-Search, theme, page-dice and idea-machine also work offline. Artwork shuffle will only work with images you've seen before.  
-
-## Plugin 
-`_plugins\gen.rb` visits all pages before rendering. 
-
-Figures out document tree, replaces wikilinks with html links, and adds backlinks to page metadata. 
-
-## Other
-
-All content and ideas belong to their original creators, even though most are not listed explicitly. Please verify their origin before sharing. 
-
-Most pages do not have dates since the site aims to include timeless information.
 
 ## Setup
 
@@ -69,3 +15,35 @@ Most pages do not have dates since the site aims to include timeless information
 ```
 bundle exec jekyll serve --trace --incremental --profile
 ```
+
+[![CI/CD](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml/badge.svg)](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml)
+
+
+## How it works 
+
+Plain markdown files 
+
+Published with jekyll, following [barryclark/jekyll-now](https://github.com/barryclark/jekyll-now)
+
+All pages have a unique file name, it is also file id.
+
+Any file can link to any other using its name. With html, markdown, or [[wikilink]] format. 
+
+Files can also tag each other by their name. **Tags** of a page is listed above its title. 
+
+Pages list which other pages links to them (backlinks or incoming links)
+
+[3D Graph of all pages](https://selimslab.github.io/graph-3d)
+
+## Offline 
+Works offline. A service worker caches all static pages (4-5mb) on the first visit. 
+
+## Plugin 
+`_plugins\gen.rb` visits all pages before rendering. 
+
+Figures out document tree, replaces wikilinks with html links, and adds backlinks to page metadata. 
+
+## Other
+
+All content and ideas belong to their original creators. Even though most are not listed explicitly. Please verify their origin before sharing. 
+
