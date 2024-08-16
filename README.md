@@ -45,5 +45,4 @@ Figures out document tree, replaces wikilinks with html links, and adds backlink
 
 ## Other
 
-All content and ideas belong to their original creators. Even though most are not listed explicitly. Please verify their origin before sharing. 
-
+All content and ideas belong to their original creators. 
