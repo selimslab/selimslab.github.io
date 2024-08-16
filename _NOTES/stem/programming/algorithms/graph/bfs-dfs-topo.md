@@ -1,5 +1,6 @@
 ---
 tags: gr mid 
+title: BFS DFS Toposort
 ---
 
 ## BFS 
