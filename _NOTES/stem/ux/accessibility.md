@@ -1,6 +1,6 @@
 ---
 title: Accessible Software 
-tags: tech sys
+tags: sys
 ---
 
 ![](/assets/static/img/curb-cut-effect.png)
