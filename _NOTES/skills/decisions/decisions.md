@@ -31,8 +31,5 @@ tags: skills top
 
 [[freedom]]
 
-[[critical-thinking]]
-
 [[do-not-lie-to-yourself]]
 
-[[choice]]

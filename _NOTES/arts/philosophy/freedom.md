@@ -4,8 +4,6 @@ tags: soc
 
 The price of freedom is dear yet worth it
 
-[[you-can-always-choose-your-way]]
-
 Freedom is to have time for yourself and your loved ones, to be your master
 
 Freedom is to conquer your dark side, your anger, greed, pride, ..
@@ -20,6 +18,9 @@ It's not the absence of negatives but not being controlled by them; the reign of
 
 "What destroys a man more quickly than to work, think, and feel without inner necessity, without any deep personal desire, without pleasure — as a mere automaton of duty?” – Friedrich Nietzsche, The Antichrist
 
-[[philosophy/character]]
+[[character]]
 
 [[free-will]]
+
+[[you-can-always-choose-your-way]]
+
