@@ -5,7 +5,7 @@ Ship it
 
 Usage is like oxygen for ideas.
 
-You can’t make it better until you make it work.
+You can't make it better until you make it work.
 
 "Release early. Release often.”
 

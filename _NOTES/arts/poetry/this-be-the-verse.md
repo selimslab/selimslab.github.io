@@ -19,7 +19,7 @@ By fools in old-style hats and coats,
 
 Who half the time were soppy-stern
 
-And half at one another’s throats.
+And half at one another's throats.
 
 ---
 
@@ -29,6 +29,6 @@ It deepens like a coastal shelf.
 
 Get out as early as you can,
 
-And don’t have any kids yourself.
+And don't have any kids yourself.
 
 BY PHILIP LARKIN

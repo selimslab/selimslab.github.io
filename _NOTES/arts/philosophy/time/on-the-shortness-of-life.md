@@ -24,9 +24,9 @@ you may have even less time in reality
 
 ---
 
-Life is divided into three periods, past, present and future. Of these, the present is short, the future is doubtful, the past is certain. For this last is the one over which Fortune has lost her power, which cannot be brought back to anyone’s control.
+Life is divided into three periods, past, present and future. Of these, the present is short, the future is doubtful, the past is certain. For this last is the one over which Fortune has lost her power, which cannot be brought back to anyone's control.
 
-The greatest obstacle to living is expectancy, which hangs upon tomorrow and loses today. You are arranging what lies in Fortune’s control, and abandoning what lies in yours
+The greatest obstacle to living is expectancy, which hangs upon tomorrow and loses today. You are arranging what lies in Fortune's control, and abandoning what lies in yours
 
 Putting things off is the biggest waste of life: it snatches away each day as it comes, and denies us the present by promising the future
 

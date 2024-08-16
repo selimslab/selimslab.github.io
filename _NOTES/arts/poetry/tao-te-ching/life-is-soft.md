@@ -14,4 +14,4 @@ the living grass, the trees,
 
 are soft, pliant.
 
-Dead, they’re dry and brittle.”
+Dead, they're dry and brittle.”

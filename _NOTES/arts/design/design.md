@@ -17,12 +17,12 @@
 
 * [[do-one-thing-at-a-time-and-do-it-well]]
 
-- Design is like a mom, nobody notices when she’s around, but everybody misses her when she’s not.
+- Design is like a mom, nobody notices when she's around, but everybody misses her when she's not.
 - Its simple enough if the user can easily and intuitively grasp how it works
 
 * Take hints from the past
 
-- Don’t design for everyone. It makes everyone unhappy.
+- Don't design for everyone. It makes everyone unhappy.
 
 * Be mindful of emotions, soothe fears, use nostalgia, give hope
 * Design can be evil [[hijacked-minds]]

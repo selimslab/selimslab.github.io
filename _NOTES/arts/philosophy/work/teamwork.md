@@ -94,7 +94,7 @@ A team in harmony covers weaknesses and amplifies strengths.
 - Not listening well
 - Not asking the right questions
 
-- Don’t let people pressure you into decisions you don’t believe in. They’ll hold _you_ responsible for them later, and they’ll be right. Decisions are your responsibility.
+- Don't let people pressure you into decisions you don't believe in. They'll hold _you_ responsible for them later, and they'll be right. Decisions are your responsibility.
 
 Also see this 1944 CIA memo, on how to infiltrate an organization and make it dysfunctional
 

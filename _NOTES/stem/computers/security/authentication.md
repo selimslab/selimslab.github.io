@@ -7,7 +7,7 @@
 Practically, the auth info provided is either 
 1. something the user knows (like a password, PIN, or key)
 2. something the user has (like a smart card or proof of possession of a smart phone)
-3. something the user is (like the user’s fingerprint, voice, or face)
+3. something the user is (like the user's fingerprint, voice, or face)
 
 Keys are more general, passwords are more specific 
 

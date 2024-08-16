@@ -10,7 +10,7 @@
 
 [250bpm - Martin Sustrik - Substack](https://250bpm.substack.com/)
 
-[Seth’s Top 100 - Seth's Blog (seths.blog)](https://seths.blog/top-100/)
+[Seth's Top 100 - Seth's Blog (seths.blog)](https://seths.blog/top-100/)
 
 
 ## notes 

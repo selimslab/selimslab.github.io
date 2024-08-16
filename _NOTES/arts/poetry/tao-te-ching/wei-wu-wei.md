@@ -20,9 +20,9 @@ with the power of goodness.
 
 ---
 
-Study the hard while it’s easy.
+Study the hard while it's easy.
 
-Do big things while they’re small.
+Do big things while they're small.
 
 The hardest jobs in the world start out easy,
 
@@ -38,7 +38,7 @@ the wise soul,
 
 by treating the easy as hard,
 
-doesn’t find anything hard.
+doesn't find anything hard.
 
 ---
 

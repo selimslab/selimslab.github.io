@@ -10,7 +10,7 @@ A complex system that works is invariably found to have evolved from a simple sy
 – John Gall (Systemantics: How Systems Really Work and How They Fail)
 
 
-When systems look broken, it’s often because the function they’re really trying to serve is not what we think. Companies, schools, hospitals, politics, .. 
+When systems look broken, it's often because the function they're really trying to serve is not what we think. Companies, schools, hospitals, politics, .. 
 
 
 Feedback loops 

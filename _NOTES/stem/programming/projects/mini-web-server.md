@@ -36,24 +36,24 @@ eg. (0.0.0.1:80, 0.0.0.2:6379) is a socket pair and 0.0.0.1:80 is a socket
 
 def wait_for_children_process(signum, frame):
     """
-    If you don’t close duplicate descriptors, 
-    the clients won’t terminate because the client connections won’t get closed.
+    If you don't close duplicate descriptors, 
+    the clients won't terminate because the client connections won't get closed.
     
     Moreover, your long-running server will eventually 
     run out of available file descriptors (max open files).
 
     When you fork a child process and it exits 
-    if the parent process doesn’t wait for it and doesn’t collect its termination status,
+    if the parent process doesn't wait for it and doesn't collect its termination status,
     the child process becomes a zombie.
 
-    Zombies need to eat something and, in our case, it’s memory. 
+    Zombies need to eat something and, in our case, it's memory. 
 
     Your server will eventually run out of available processes (max user processes) 
-    if it doesn’t take care of zombies.
+    if it doesn't take care of zombies.
 
-    You can’t kill a zombie, you need to wait for it.
+    You can't kill a zombie, you need to wait for it.
 
-    If you fork a child and don’t wait for it, it becomes a zombie.
+    If you fork a child and don't wait for it, it becomes a zombie.
     """
     while True:
         try:

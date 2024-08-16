@@ -10,11 +10,11 @@ Ursula K. Le Guin
 
 ...
 
-Because you are human beings you are going to meet failure. You are going to meet disappointment, injustice, betrayal, and irreparable loss. You will find you’re weak where you thought yourself strong. You’ll work for possessions and then find they possess you. You will find yourself -- as I know you already have -- in dark places, alone, and afraid.
+Because you are human beings you are going to meet failure. You are going to meet disappointment, injustice, betrayal, and irreparable loss. You will find you're weak where you thought yourself strong. You'll work for possessions and then find they possess you. You will find yourself -- as I know you already have -- in dark places, alone, and afraid.
 
 ...
 
-I’m talking about society, the so-called man’s world of institutionalized competition, aggression, violence, authority, and power.
+I'm talking about society, the so-called man's world of institutionalized competition, aggression, violence, authority, and power.
 
 ...
 

@@ -15,7 +15,7 @@ Status is your place in the social hierarchy.
 
 Ignore people playing status games.
 
-You’re not going to get rich renting out your time. You must own equity - a piece of a business - to gain your financial freedom. Play long-term games with long-term people.
+You're not going to get rich renting out your time. You must own equity - a piece of a business - to gain your financial freedom. Play long-term games with long-term people.
 
 Play iterated games
 

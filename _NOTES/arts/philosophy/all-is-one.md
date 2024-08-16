@@ -18,7 +18,7 @@ You are a child of the universe no less than the trees and the stars
 > 
 > Put dark against dark – you have nothing. 
 > 
-> It’s the contrast of light and dark that each gives the other one meaning.” Bob Ross 
+> It's the contrast of light and dark that each gives the other one meaning.” Bob Ross 
 
 High and low
 

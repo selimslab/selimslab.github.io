@@ -71,7 +71,7 @@ Spring is the time of plans and projects
 ― Walt Whitman, Leaves of Grass
 
 "She generally gave herself very good advice, (though she very seldom followed it).”
-― Lewis Carroll, Alice’s Adventures in Wonderland / Through the Looking-Glass
+― Lewis Carroll, Alice's Adventures in Wonderland / Through the Looking-Glass
 
 "When his life was ruined, his family killed, his farm destroyed, Job knelt down on the ground and yelled up to the heavens, "Why god? Why me?" and the thundering voice of God answered, There's just something about you that pisses me off.”
 ― Stephen King, Storm of the Century
@@ -138,7 +138,7 @@ Spring is the time of plans and projects
 "Every one of us is, in the cosmic perspective, precious. If a human disagrees with you, let him live. In a hundred billion galaxies, you will not find another.”
 ― Carl Sagan, Cosmos
 
-"You don’t have to choose between being scientific and being compassionate.”
+"You don't have to choose between being scientific and being compassionate.”
 ― Robert M. Sapolsky
 
 If there is a God, He will have to beg my forgiveness. 

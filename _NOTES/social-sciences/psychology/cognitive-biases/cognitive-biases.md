@@ -44,7 +44,7 @@ tags: soc top
 
 20. I generally like to be consistent, to keep commitments
 
-21. I fear and respect what I don’t know.
+21. I fear and respect what I don't know.
 
 22. I like to fill in the blanks 
 

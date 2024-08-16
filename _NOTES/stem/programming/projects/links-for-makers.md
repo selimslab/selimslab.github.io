@@ -26,9 +26,9 @@
 [How do you create a video chat application?](https://blog.phuaxueyong.com/post/2020-06-15-how-to-make-a-video-chat-app/)
 
 
-[Let’s Build A Web Server. Part 1. - Ruslan's Blog](https://ruslanspivak.com/lsbaws-part1/)
+[Let's Build A Web Server. Part 1. - Ruslan's Blog](https://ruslanspivak.com/lsbaws-part1/)
 
-[Let’s Build A Web Server. Part 3. - Ruslan's Blog](https://ruslanspivak.com/lsbaws-part3/)
+[Let's Build A Web Server. Part 3. - Ruslan's Blog](https://ruslanspivak.com/lsbaws-part3/)
 
 [Let's Create a Simple Load Balancer With Go - kasvith.me - a personal blog space](https://kasvith.me/posts/lets-create-a-simple-lb-go/)
 
@@ -89,7 +89,7 @@
 
 [(How to Write a (Lisp) Interpreter (in Python))](http://norvig.com/lispy.html)
 
-[Let’s Build A Simple Interpreter. Part 11. - Ruslan's Blog](https://ruslanspivak.com/lsbasi-part11/)
+[Let's Build A Simple Interpreter. Part 11. - Ruslan's Blog](https://ruslanspivak.com/lsbasi-part11/)
 
 [(An ((Even Better) Lisp) Interpreter (in Python))](http://norvig.com/lispy2.html)
 

@@ -2,11 +2,11 @@
 tags: soc skills
 ---
 
-People learn when they’re surprised
+People learn when they're surprised
 
 It's an art and only genuine interest and passion create beautiful art
 
-Beginner’s Mind -> "In the beginner's mind there are many possibilities, but in the expert's there are few."
+Beginner's Mind -> "In the beginner's mind there are many possibilities, but in the expert's there are few."
 
 "Learning should take place when it is needed, when the learner is interested, not according to some arbitrary, fixed schedule”
 ― Donald A. Norman, Emotional Design

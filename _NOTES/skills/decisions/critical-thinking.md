@@ -27,6 +27,6 @@ tags: skills phil
 
 [[questions]]
 
-[Bertrand Russell’s Nobel Prize Acceptance Speech](https://reasonandmeaning.com/2015/10/08/bertrand-russells-nobel-prize-acceptance-speech/)
+[Bertrand Russell's Nobel Prize Acceptance Speech](https://reasonandmeaning.com/2015/10/08/bertrand-russells-nobel-prize-acceptance-speech/)
 
 [Epoché](https://en.wikipedia.org/wiki/Epoché)

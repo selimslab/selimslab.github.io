@@ -11,7 +11,7 @@ Living until you die is living long enough.
 
 ---
 
-"What’s unusual about medical professionals is not how much treatment they get when faced with a terminal illness—but how little.
+"What's unusual about medical professionals is not how much treatment they get when faced with a terminal illness—but how little.
 
 There will be no heroics, and I will go gentle into that good night. Like my mentor Charlie. Like my cousin Torch. Like my fellow doctors." 
 

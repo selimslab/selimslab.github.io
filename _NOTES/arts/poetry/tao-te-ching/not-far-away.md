@@ -2,11 +2,11 @@
 
 ---
 
-"You don’t have to go out the door
+"You don't have to go out the door
 
 to know what goes on in the world.
 
-You don’t have to look out the window
+You don't have to look out the window
 
 to see the way of heaven.
 

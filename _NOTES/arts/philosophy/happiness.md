@@ -19,7 +19,7 @@ A large part of happiness depends on health. Freedom, security, love, friendship
 
 "If more of us valued food and cheer and song above hoarded gold, it would be a merrier world.” _J.R.R. Tolkien
 
-Don’t waste your time in anger, regrets, worries, and grudges. Life is too short for that
+Don't waste your time in anger, regrets, worries, and grudges. Life is too short for that
 
 Happiness is not something ready made. It comes from your own actions
 

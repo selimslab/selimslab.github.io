@@ -13,7 +13,7 @@
 10. Pause after you talk
 11. Paraphrase to make people feel understood and appreciated
 12. Its not about you, they should accept it as their own idea
-13. Use a summary to trigger that’s right
+13. Use a summary to trigger that's right
 14. Ask open-ended questions, how and what
 15. A different authority, another stake-holder
 16. [[cognitive-biases]], Anchors, Deadlines, Loss aversion

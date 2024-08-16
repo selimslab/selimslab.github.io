@@ -15,14 +15,14 @@ Classes should be open for extension but closed for modification
 
 ---
 
-Liskov’s Substitution
+Liskov's Substitution
 
 Children should not violate the contracts of parents.
 
 If you change a class with one of its children,
 the program should still work correctly.
 
-Inheritance should pass the ‘Is-A’ test.
+Inheritance should pass the ‘Is-A' test.
 
 ---
 

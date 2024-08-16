@@ -18,7 +18,7 @@ Do what feels right over what you crave.
 
 Do nothing in anger. 
 
-The world is full of nonsense. It’s not personal. It doesn’t matter. Don't let it get you down. 
+The world is full of nonsense. It's not personal. It doesn't matter. Don't let it get you down. 
 
 Complain less, appreciate more. 
 
@@ -28,7 +28,7 @@ Channel your pain to build strength. This too shall pass.
 
 Truth has many faces. Even all the knowledge of humanity is next to nothing. Judge less, accept more. 
 
-Listen more than you speak. Know your limits. Don’t take yourself too seriously. 
+Listen more than you speak. Know your limits. Don't take yourself too seriously. 
 
 Never miss a good chance to shut up.
 

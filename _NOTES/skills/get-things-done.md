@@ -21,9 +21,9 @@
 18. Ignore sunk costs
 19. Work short, focused intervals and rest
 20. Say no more often
-21. Write more so you don’t have to remember everything
+21. Write more so you don't have to remember everything
 22. Save some easy tasks for low-motivation periods
-23. End the day with a cliffhanger so it’s easier to start again
+23. End the day with a cliffhanger so it's easier to start again
 24. Stay professional, responsible and reliable.
 25. Everything looks like a failure in the middle, keep going
 

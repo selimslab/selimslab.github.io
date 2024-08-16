@@ -16,7 +16,7 @@ title: Database Concepts
    - **ACID Properties:**
      - **Atomicity:** All operations in a transaction complete or none do.
      - **Consistency:** Database remains in a valid state before and after the transaction.
-     - **Isolation:** Transactions do not affect each other’s execution.
+     - **Isolation:** Transactions do not affect each other's execution.
      - **Durability:** Changes are permanent once committed.
    - **Isolation Levels:** Read Uncommitted, Read Committed, Repeatable Read, Serializable.
 

@@ -27,7 +27,7 @@ I had a nerve block in my neck that turned off my right side for a week. That wa
 
 This nerve block is wearing off and it's gone from itching, to tingling, to the feeling of an ice pick shoved into my deltoid and armpit every few minutes.
 
-I burst into tears at physical therapy today. The year just hit me all at once. It hurts. Between diabetes and this temporary paralysis, it’s been a week. 2020 is ass. It’s OK. Happens a few times a decade. Maybe it happens to you twice a week. Let it out, listen to your body.
+I burst into tears at physical therapy today. The year just hit me all at once. It hurts. Between diabetes and this temporary paralysis, it's been a week. 2020 is ass. It's OK. Happens a few times a decade. Maybe it happens to you twice a week. Let it out, listen to your body.
 
 WHY AM I TELLING YOU THIS?
 

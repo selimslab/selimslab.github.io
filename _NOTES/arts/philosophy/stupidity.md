@@ -10,6 +10,6 @@ Using mental models not matching the reality
 
 Poor judgment
 
-Hanlon’s Razor, think stupidity before malice
+Hanlon's Razor, think stupidity before malice
 
 [[politics/the-triumph-of-stupidity]]

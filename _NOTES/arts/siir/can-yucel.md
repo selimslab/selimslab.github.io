@@ -4,7 +4,7 @@ title: Can Yücel
 
 Anayasası İnsanın
 
-Ustamız Eluard’ın izinden
+Ustamız Eluard'ın izinden
 
 Kan yasası bu insanın:
 

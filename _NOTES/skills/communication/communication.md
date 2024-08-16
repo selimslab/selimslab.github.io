@@ -3,9 +3,9 @@
 
 ![](/assets/static/img/listen-with-passion.png)
 
-Listen with a beginner’s mind. Set aside your opinion. Listen to understand, not to answer, not to offer solutions
+Listen with a beginner's mind. Set aside your opinion. Listen to understand, not to answer, not to offer solutions
 
-Suspend judgment, it’s not personal, not about you. Argue less, listen more 
+Suspend judgment, it's not personal, not about you. Argue less, listen more 
 
 Listen to what isn't being said, too 
 
@@ -19,7 +19,7 @@ Emotions drive the conversation. Have a positive, constructive attitude. Don't t
 
 Don't say it if you don't believe it
 
-People can’t read minds. Something being obvious to you doesn't mean it's obvious to them 
+People can't read minds. Something being obvious to you doesn't mean it's obvious to them 
 
 Poeple often share a problem or vulnerability for emotional support, not for advice or solutions
 
