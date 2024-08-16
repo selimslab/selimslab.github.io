@@ -1,4 +1,3 @@
 ---
-title: Computers from scratch 
 ---
 
