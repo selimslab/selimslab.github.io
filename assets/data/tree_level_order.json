@@ -2,9 +2,9 @@
   "/": [
     "/arts",
     "/lists",
-    "/s-t-e-m",
     "/skills",
-    "/social-sciences"
+    "/social-sciences",
+    "/stem"
   ],
   "/arts": [
     "/philosophy",
@@ -26,12 +26,6 @@
     "/interesting",
     "/to-watch",
     "/lists"
-  ],
-  "/s-t-e-m": [
-    "/natural-sciences",
-    "/tech",
-    "/math",
-    "/s-t-e-m"
   ],
   "/skills": [
     "/business",
@@ -71,13 +65,24 @@
     "/economics",
     "/sociology",
     "/systems",
+    "/urban-planning",
     "/law",
     "/chomsky",
     "/books-social",
     "/being-poor",
-    "/urban-planning",
     "/social-sciences",
+    "/social-media",
     "/architecture"
+  ],
+  "/stem": [
+    "/programming",
+    "/natural-sciences",
+    "/math",
+    "/ux",
+    "/software-engineering",
+    "/computers",
+    "/data-science",
+    "/stem"
   ],
   "/philosophy": [
     "/act",
@@ -247,47 +252,6 @@
     "/documentaries",
     "/movies"
   ],
-  "/natural-sciences": [
-    "/akins-laws-of-spacecraft",
-    "/books-natural",
-    "/climate-change",
-    "/feynman-lectures",
-    "/feynmans-epilogue",
-    "/fluid-field-boundaries",
-    "/natural-sciences",
-    "/pale-blue-dot",
-    "/sagan",
-    "/sapolsky",
-    "/astronomy",
-    "/health",
-    "/physics"
-  ],
-  "/tech": [
-    "/tech",
-    "/computers",
-    "/databases",
-    "/distributed-systems",
-    "/machine-learning",
-    "/programming",
-    "/projects",
-    "/security",
-    "/software-engineering",
-    "/system-design",
-    "/thoughts-on-tech",
-    "/ux"
-  ],
-  "/math": [
-    "/bayes",
-    "/counter-intuitive-math",
-    "/discrete-vs-continuous",
-    "/equations-that-changed-the-world",
-    "/fourier-transform",
-    "/laplace-transform",
-    "/logic-proofs",
-    "/math",
-    "/normal-distribution",
-    "/probability-and-statistics"
-  ],
   "/business": [
     "/business",
     "/company-culture",
@@ -359,6 +323,90 @@
     "/chaos",
     "/systems"
   ],
+  "/programming": [
+    "/api",
+    "/com",
+    "/concurrency",
+    "/discussion-topics",
+    "/easy-vs-hard-in-cs",
+    "/encodings",
+    "/for-new-programmers",
+    "/programming",
+    "/the-tao-of-programming",
+    "/unicode",
+    "/algorithms",
+    "/code",
+    "/data-structures",
+    "/oop",
+    "/programming-languages",
+    "/projects"
+  ],
+  "/natural-sciences": [
+    "/akins-laws-of-spacecraft",
+    "/books-natural",
+    "/climate-change",
+    "/feynman-lectures",
+    "/feynmans-epilogue",
+    "/fluid-field-boundaries",
+    "/natural-sciences",
+    "/pale-blue-dot",
+    "/sagan",
+    "/sapolsky",
+    "/astronomy",
+    "/health",
+    "/physics"
+  ],
+  "/math": [
+    "/bayes",
+    "/counter-intuitive-math",
+    "/discrete-vs-continuous",
+    "/equations-that-changed-the-world",
+    "/fourier-transform",
+    "/laplace-transform",
+    "/logic-proofs",
+    "/math",
+    "/normal-distribution",
+    "/probability-and-statistics"
+  ],
+  "/ux": [
+    "/a-free-web-again",
+    "/accessibility",
+    "/evolution-of-computer-interfaces",
+    "/hijacked-minds",
+    "/is-tech-fast-or-slow",
+    "/natural-ux",
+    "/polished-pixels",
+    "/things-users-care",
+    "/usability-testing",
+    "/ux"
+  ],
+  "/software-engineering": [
+    "/code-review",
+    "/core-concepts",
+    "/on-software",
+    "/software-analogies",
+    "/software-engineering",
+    "/software-quality",
+    "/the-joel-test",
+    "/system-design"
+  ],
+  "/computers": [
+    "/computers-from-scratch",
+    "/computers",
+    "/containers",
+    "/networks",
+    "/operating-systems",
+    "/databases",
+    "/distributed-systems",
+    "/security"
+  ],
+  "/data-science": [
+    "/customize-prompt",
+    "/data-science",
+    "/machine-learning",
+    "/nlp",
+    "/prompt-engineering"
+  ],
   "/time": [
     "/death",
     "/on-the-shortness-of-life",
@@ -400,146 +448,6 @@
     "/podobna-slova",
     "/predlozky",
     "/slovesa"
-  ],
-  "/astronomy": [
-    "/astronomy",
-    "/earth",
-    "/size-of-the-universe",
-    "/solar-system",
-    "/the-overview-effect"
-  ],
-  "/health": [
-    "/going-blind",
-    "/health",
-    "/how-to-deal-with-pain",
-    "/sleep"
-  ],
-  "/physics": [
-    "/classical-physics",
-    "/inertia",
-    "/maxwell-equations",
-    "/philosophical-implications-of-quantum-mechanics",
-    "/physics"
-  ],
-  "/computers": [
-    "/computers",
-    "/containers",
-    "/networks",
-    "/operating-systems"
-  ],
-  "/databases": [
-    "/acid",
-    "/b-trees",
-    "/databases",
-    "/db-concepts",
-    "/db-data-structures",
-    "/leaderless-replication",
-    "/lsm-trees",
-    "/partitioning",
-    "/replication",
-    "/single-leader",
-    "/sql-tips"
-  ],
-  "/distributed-systems": [
-    "/armstrong-thesis",
-    "/azure-pillars",
-    "/consistent-hashing",
-    "/detect-a-node-failure",
-    "/distributed-design-patterns",
-    "/distributed-systems",
-    "/generate-a-unique-id",
-    "/google-sre-book",
-    "/kafka",
-    "/spark",
-    "/time-and-order",
-    "/use-an-identity-service"
-  ],
-  "/machine-learning": [
-    "/customize-prompt",
-    "/machine-learning",
-    "/nlp",
-    "/ozlang",
-    "/prompt-engineering"
-  ],
-  "/programming": [
-    "/api",
-    "/com",
-    "/concurrency",
-    "/discussion-topics",
-    "/easy-vs-hard-in-cs",
-    "/encodings",
-    "/for-new-programmers",
-    "/programming",
-    "/unicode",
-    "/algorithms",
-    "/code",
-    "/data-structures",
-    "/programming-languages"
-  ],
-  "/projects": [
-    "/async-crawler",
-    "/c-hashmap",
-    "/compiler",
-    "/garbage-collector-in-c",
-    "/links-for-makers",
-    "/logos-os",
-    "/mini-search-engine",
-    "/mini-web-server",
-    "/minik-robot",
-    "/pascal-interpreter",
-    "/pca",
-    "/pneumonia-detection",
-    "/predict-movie-genres",
-    "/projects",
-    "/vga-driver"
-  ],
-  "/security": [
-    "/authentication",
-    "/authorization",
-    "/certificates",
-    "/cookies",
-    "/cors",
-    "/csrf",
-    "/openssl-encrypt",
-    "/public-key-cryptography",
-    "/security-heuristics",
-    "/security",
-    "/store-passwords",
-    "/transport-layer-security",
-    "/xss"
-  ],
-  "/software-engineering": [
-    "/code-review",
-    "/core-concepts",
-    "/on-software",
-    "/software-analogies",
-    "/software-engineering",
-    "/software-quality",
-    "/the-joel-test"
-  ],
-  "/system-design": [
-    "/choose-boring-tech",
-    "/domain-driven-design",
-    "/hacker-laws",
-    "/minimal-tech",
-    "/system-design",
-    "/oop"
-  ],
-  "/thoughts-on-tech": [
-    "/a-free-web-again",
-    "/is-tech-fast-or-slow",
-    "/social-media",
-    "/the-tao-of-programming"
-  ],
-  "/ux": [
-    "/accessibility",
-    "/evolution-of-computer-interfaces",
-    "/hijacked-minds",
-    "/natural-tech",
-    "/polished-pixels",
-    "/things-users-care",
-    "/usability-testing",
-    "/ux"
   ],
   "/cognitive-biases": [
     "/bias-for-unhappiness",
@@ -656,6 +564,12 @@
     "/stack",
     "/string"
   ],
+  "/oop": [
+    "/design-patterns",
+    "/oop",
+    "/solid",
+    "/oop-designs"
+  ],
   "/programming-languages": [
     "/c",
     "/clojure",
@@ -674,18 +588,90 @@
     "/typing",
     "/python"
   ],
-  "/oop": [
-    "/design-patterns",
-    "/oop",
-    "/solid",
-    "/oop-designs"
+  "/projects": [
+    "/async-crawler",
+    "/c-hashmap",
+    "/compiler",
+    "/garbage-collector-in-c",
+    "/links-for-makers",
+    "/logos-os",
+    "/mini-search-engine",
+    "/mini-web-server",
+    "/minik-robot",
+    "/pascal-interpreter",
+    "/pca",
+    "/pneumonia-detection",
+    "/predict-movie-genres",
+    "/projects",
+    "/vga-driver"
   ],
-  "/python": [
-    "/c-and-python",
-    "/python-data-structures",
-    "/python-packages",
-    "/python",
-    "/zen-of-python"
+  "/astronomy": [
+    "/astronomy",
+    "/earth",
+    "/size-of-the-universe",
+    "/solar-system",
+    "/the-overview-effect"
+  ],
+  "/health": [
+    "/going-blind",
+    "/health",
+    "/how-to-deal-with-pain",
+    "/sleep"
+  ],
+  "/physics": [
+    "/classical-physics",
+    "/inertia",
+    "/maxwell-equations",
+    "/philosophical-implications-of-quantum-mechanics",
+    "/physics"
+  ],
+  "/system-design": [
+    "/choose-boring-tech",
+    "/domain-driven-design",
+    "/hacker-laws",
+    "/minimal-tech",
+    "/system-design"
+  ],
+  "/databases": [
+    "/acid",
+    "/b-trees",
+    "/databases",
+    "/db-concepts",
+    "/db-data-structures",
+    "/leaderless-replication",
+    "/lsm-trees",
+    "/partitioning",
+    "/replication",
+    "/single-leader",
+    "/sql-tips"
+  ],
+  "/distributed-systems": [
+    "/armstrong-thesis",
+    "/azure-pillars",
+    "/consistent-hashing",
+    "/detect-a-node-failure",
+    "/distributed-design-patterns",
+    "/distributed-systems",
+    "/generate-a-unique-id",
+    "/google-sre-book",
+    "/kafka",
+    "/spark",
+    "/time-and-order"
+  ],
+  "/security": [
+    "/authentication",
+    "/authorization",
+    "/certificates",
+    "/cookies",
+    "/cors",
+    "/csrf",
+    "/openssl-encrypt",
+    "/public-key-cryptography",
+    "/security-heuristics",
+    "/security",
+    "/store-passwords",
+    "/transport-layer-security",
+    "/xss"
   ],
   "/oop-designs": [
     "/block",
@@ -702,5 +688,12 @@
     "/design-units",
     "/design-video-streaming-app",
     "/oop-designs"
+  ],
+  "/python": [
+    "/c-and-python",
+    "/python-data-structures",
+    "/python-packages",
+    "/python",
+    "/zen-of-python"
   ]
 }

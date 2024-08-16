@@ -570,6 +570,507 @@
   "/movies": [
     "cinema"
   ],
+  "/business": [
+    "skills"
+  ],
+  "/company-culture": [
+    "business"
+  ],
+  "/hiring": [
+    "business"
+  ],
+  "/how-to-start-a-business": [
+    "business"
+  ],
+  "/marketing": [
+    "business"
+  ],
+  "/sales": [
+    "business"
+  ],
+  "/communication": [
+    "skills"
+  ],
+  "/how-to-pitch": [
+    "communication"
+  ],
+  "/negotiations": [
+    "communication"
+  ],
+  "/public-speaking": [
+    "communication"
+  ],
+  "/write-better": [
+    "communication"
+  ],
+  "/cooking": [
+    "skills"
+  ],
+  "/critical-thinking": [
+    "decisions",
+    "phil",
+    "skills"
+  ],
+  "/decisions": [
+    "skills",
+    "top"
+  ],
+  "/do-one-thing-at-a-time-and-do-it-well": [
+    "decisions"
+  ],
+  "/do-the-right-thing": [
+    "decisions",
+    "phil"
+  ],
+  "/do-without-doing": [
+    "decisions"
+  ],
+  "/drawing": [
+    "skills"
+  ],
+  "/driving": [
+    "skills"
+  ],
+  "/drowning-does-not-look-dramatic": [
+    "skills"
+  ],
+  "/exercise": [
+    "skills"
+  ],
+  "/get-things-done": [
+    "skills"
+  ],
+  "/growing-plants": [
+    "skills"
+  ],
+  "/home-life": [
+    "skills"
+  ],
+  "/how-to-gain-wealth": [
+    "skills"
+  ],
+  "/how-to-grow-old-russell": [
+    "essais",
+    "phil",
+    "skills"
+  ],
+  "/humor": [
+    "skills"
+  ],
+  "/investing": [
+    "skills"
+  ],
+  "/leadership": [
+    "skills"
+  ],
+  "/learning": [
+    "skills",
+    "soc"
+  ],
+  "/making-videos": [
+    "skills"
+  ],
+  "/mastery": [
+    "essais",
+    "skills"
+  ],
+  "/motocycles": [
+    "skills"
+  ],
+  "/mountaineering": [
+    "skills"
+  ],
+  "/outdoors": [
+    "skills",
+    "sports"
+  ],
+  "/parenting": [
+    "psy",
+    "skills"
+  ],
+  "/problem-solving": [
+    "essais",
+    "skills"
+  ],
+  "/skills": [
+
+  ],
+  "/teaching": [
+    "skills"
+  ],
+  "/trading": [
+    "skills"
+  ],
+  "/travelling": [
+    "skills"
+  ],
+  "/used-car-checklist": [
+    "skills"
+  ],
+  "/architecture": [
+    "social-sciences"
+  ],
+  "/being-poor": [
+    "social-sciences"
+  ],
+  "/books-social": [
+    "social-sciences"
+  ],
+  "/chomsky": [
+    "social-sciences"
+  ],
+  "/economics": [
+    "social-sciences"
+  ],
+  "/wage-theft": [
+    "economics",
+    "law"
+  ],
+  "/wasted-talent": [
+    "economics"
+  ],
+  "/121st-century": [
+    "experiments",
+    "history",
+    "time"
+  ],
+  "/farming-trap": [
+    "essais",
+    "history"
+  ],
+  "/history-of-technology": [
+    "history",
+    "lists",
+    "stem"
+  ],
+  "/history": [
+    "social-sciences",
+    "time"
+  ],
+  "/since-big-bang": [
+    "history",
+    "lists",
+    "nat",
+    "time"
+  ],
+  "/time-scale": [
+    "history",
+    "time",
+    "top"
+  ],
+  "/law": [
+    "social-sciences"
+  ],
+  "/asimov": [
+    "politics"
+  ],
+  "/brave-new-world": [
+    "politics"
+  ],
+  "/look-down-and-around": [
+    "essais",
+    "phil",
+    "politics",
+    "pols"
+  ],
+  "/orwell": [
+    "politics"
+  ],
+  "/politics": [
+    "social-sciences"
+  ],
+  "/prince": [
+    "politics"
+  ],
+  "/questioning-people-seen-as-a-threat-to-status-quo": [
+    "politics",
+    "psy",
+    "soc"
+  ],
+  "/the-triumph-of-stupidity": [
+    "essais",
+    "politics"
+  ],
+  "/warfare-is-deception": [
+    "politics"
+  ],
+  "/who-goes-nazi": [
+    "essais",
+    "politics"
+  ],
+  "/bias-for-unhappiness": [
+    "cognitive-biases"
+  ],
+  "/cognitive-biases": [
+    "psychology",
+    "soc",
+    "top"
+  ],
+  "/overvaluing-short-term": [
+    "cognitive-biases"
+  ],
+  "/anger": [
+    "emotions"
+  ],
+  "/anxiety": [
+    "emotions"
+  ],
+  "/arrogance": [
+    "emotions"
+  ],
+  "/courage": [
+    "emotions"
+  ],
+  "/ego": [
+    "emotions"
+  ],
+  "/emotions": [
+    "psychology"
+  ],
+  "/empathy": [
+    "emotions"
+  ],
+  "/hope": [
+    "emotions"
+  ],
+  "/loneliness": [
+    "emotions"
+  ],
+  "/love": [
+    "emotions"
+  ],
+  "/respect": [
+    "emotions"
+  ],
+  "/trust": [
+    "emotions"
+  ],
+  "/unmet-needs": [
+    "emotions"
+  ],
+  "/vulnerability": [
+    "emotions"
+  ],
+  "/gaslighting": [
+    "psychology"
+  ],
+  "/habits": [
+    "psychology"
+  ],
+  "/how-to-spot-a-liar": [
+    "psychology"
+  ],
+  "/persuasion": [
+    "psychology"
+  ],
+  "/procrastination": [
+    "psychology"
+  ],
+  "/psychology": [
+    "social-sciences"
+  ],
+  "/relationships": [
+    "psychology"
+  ],
+  "/solitude": [
+    "phil",
+    "psychology",
+    "soc"
+  ],
+  "/stages-of-grief": [
+    "psychology"
+  ],
+  "/stress": [
+    "psychology"
+  ],
+  "/distractions": [
+    "work"
+  ],
+  "/flow": [
+    "work"
+  ],
+  "/how-to-start": [
+    "skills",
+    "soc",
+    "work"
+  ],
+  "/overcoming-obstacles": [
+    "work"
+  ],
+  "/praise-and-motivation": [
+    "work"
+  ],
+  "/setting-rules": [
+    "work"
+  ],
+  "/social-media": [
+    "social-sciences",
+    "ux"
+  ],
+  "/social-sciences": [
+
+  ],
+  "/social-change": [
+
+  ],
+  "/social-class": [
+
+  ],
+  "/social-groups": [
+
+  ],
+  "/chaos": [
+    "systems"
+  ],
+  "/systems": [
+    "nat",
+    "social-sciences"
+  ],
+  "/urban-planning": [
+    "architecture",
+    "social-sciences"
+  ],
+  "/computers-from-scratch": [
+    "computers"
+  ],
+  "/computers": [
+    "stem"
+  ],
+  "/containers": [
+    "computers",
+    "os"
+  ],
+  "/acid": [
+    "databases"
+  ],
+  "/b-trees": [
+    "databases",
+    "ds"
+  ],
+  "/databases": [
+    "computers"
+  ],
+  "/db-concepts": [
+    "databases"
+  ],
+  "/db-data-structures": [
+    "databases",
+    "ds"
+  ],
+  "/leaderless-replication": [
+    "databases"
+  ],
+  "/lsm-trees": [
+    "algo",
+    "databases",
+    "ds"
+  ],
+  "/partitioning": [
+    "databases"
+  ],
+  "/replication": [
+    "databases"
+  ],
+  "/single-leader": [
+    "databases"
+  ],
+  "/sql-tips": [
+    "databases"
+  ],
+  "/armstrong-thesis": [
+    "distributed-systems"
+  ],
+  "/azure-pillars": [
+    "distributed-systems"
+  ],
+  "/consistent-hashing": [
+    "distributed-systems"
+  ],
+  "/detect-a-node-failure": [
+    "distributed-systems"
+  ],
+  "/distributed-design-patterns": [
+    "distributed-systems"
+  ],
+  "/distributed-systems": [
+    "computers",
+    "sys"
+  ],
+  "/generate-a-unique-id": [
+    "distributed-systems"
+  ],
+  "/google-sre-book": [
+    "distributed-systems"
+  ],
+  "/kafka": [
+    "distributed-systems"
+  ],
+  "/spark": [
+    "distributed-systems"
+  ],
+  "/time-and-order": [
+    "distributed-systems"
+  ],
+  "/networks": [
+    "computers"
+  ],
+  "/operating-systems": [
+    "computers"
+  ],
+  "/authentication": [
+    "security"
+  ],
+  "/authorization": [
+    "security"
+  ],
+  "/certificates": [
+    "security"
+  ],
+  "/cookies": [
+    "security"
+  ],
+  "/cors": [
+    "security"
+  ],
+  "/csrf": [
+    "security"
+  ],
+  "/openssl-encrypt": [
+    "security"
+  ],
+  "/public-key-cryptography": [
+    "security"
+  ],
+  "/security-heuristics": [
+    "security"
+  ],
+  "/security": [
+    "computers"
+  ],
+  "/store-passwords": [
+    "security"
+  ],
+  "/transport-layer-security": [
+    "security"
+  ],
+  "/xss": [
+    "security"
+  ],
+  "/customize-prompt": [
+    "data-science"
+  ],
+  "/data-science": [
+    "stem"
+  ],
+  "/machine-learning": [
+    "data-science"
+  ],
+  "/nlp": [
+    "data-science"
+  ],
+  "/prompt-engineering": [
+    "data-science"
+  ],
   "/bayes": [
     "algo",
     "math"
@@ -593,7 +1094,7 @@
     "math"
   ],
   "/math": [
-    "s-t-e-m"
+    "stem"
   ],
   "/normal-distribution": [
     "math"
@@ -603,8 +1104,7 @@
   ],
   "/akins-laws-of-spacecraft": [
     "natural-sciences",
-    "sys",
-    "tech"
+    "sys"
   ],
   "/astronomy": [
     "natural-sciences"
@@ -652,7 +1152,7 @@
     "health"
   ],
   "/natural-sciences": [
-    "s-t-e-m"
+    "stem"
   ],
   "/pale-blue-dot": [
     "natural-sciences"
@@ -679,111 +1179,6 @@
   ],
   "/sapolsky": [
     "natural-sciences"
-  ],
-  "/s-t-e-m": [
-
-  ],
-  "/computers": [
-    "tech"
-  ],
-  "/containers": [
-    "computers",
-    "os"
-  ],
-  "/networks": [
-    "computers"
-  ],
-  "/operating-systems": [
-    "computers"
-  ],
-  "/acid": [
-    "databases"
-  ],
-  "/b-trees": [
-    "databases",
-    "ds"
-  ],
-  "/databases": [
-    "tech"
-  ],
-  "/db-concepts": [
-    "databases"
-  ],
-  "/db-data-structures": [
-    "databases",
-    "ds"
-  ],
-  "/leaderless-replication": [
-    "databases"
-  ],
-  "/lsm-trees": [
-    "algo",
-    "databases",
-    "ds"
-  ],
-  "/partitioning": [
-    "databases"
-  ],
-  "/replication": [
-    "databases"
-  ],
-  "/single-leader": [
-    "databases"
-  ],
-  "/sql-tips": [
-    "databases"
-  ],
-  "/armstrong-thesis": [
-    "distributed-systems"
-  ],
-  "/azure-pillars": [
-    "distributed-systems"
-  ],
-  "/consistent-hashing": [
-    "distributed-systems"
-  ],
-  "/detect-a-node-failure": [
-    "distributed-systems"
-  ],
-  "/distributed-design-patterns": [
-    "distributed-systems"
-  ],
-  "/distributed-systems": [
-    "sys",
-    "tech"
-  ],
-  "/generate-a-unique-id": [
-    "distributed-systems"
-  ],
-  "/google-sre-book": [
-    "distributed-systems"
-  ],
-  "/kafka": [
-    "distributed-systems"
-  ],
-  "/spark": [
-    "distributed-systems"
-  ],
-  "/time-and-order": [
-    "distributed-systems"
-  ],
-  "/use-an-identity-service": [
-    "distributed-systems"
-  ],
-  "/customize-prompt": [
-    "machine-learning"
-  ],
-  "/machine-learning": [
-    "tech"
-  ],
-  "/nlp": [
-    "machine-learning"
-  ],
-  "/ozlang": [
-    "machine-learning"
-  ],
-  "/prompt-engineering": [
-    "machine-learning"
   ],
   "/algorithms": [
     "programming"
@@ -1167,6 +1562,58 @@
     "programming",
     "top"
   ],
+  "/design-patterns": [
+    "oop"
+  ],
+  "/block": [
+    "oop-designs"
+  ],
+  "/design-a-bicycle": [
+    "oop-designs"
+  ],
+  "/design-a-book-app": [
+    "oop-designs"
+  ],
+  "/design-a-crm": [
+    "oop-designs"
+  ],
+  "/design-a-data-pipeline": [
+    "oop-designs"
+  ],
+  "/design-a-gov-cloud": [
+    "oop-designs"
+  ],
+  "/design-a-personal-note-publishing-system": [
+    "oop-designs"
+  ],
+  "/design-a-trader": [
+    "oop-designs"
+  ],
+  "/design-a-web-crawler": [
+    "oop-designs"
+  ],
+  "/design-auth": [
+    "oop-designs"
+  ],
+  "/design-oauth": [
+    "oop-designs"
+  ],
+  "/design-units": [
+    "oop-designs"
+  ],
+  "/design-video-streaming-app": [
+    "oop-designs"
+  ],
+  "/oop-designs": [
+    "oop"
+  ],
+  "/oop": [
+    "programming",
+    "sys"
+  ],
+  "/solid": [
+    "oop"
+  ],
   "/c": [
     "programming-languages"
   ],
@@ -1229,11 +1676,8 @@
   ],
   "/programming": [
     "skills",
-    "swe",
-    "tech"
-  ],
-  "/unicode": [
-    "programming"
+    "stem",
+    "swe"
   ],
   "/async-crawler": [
     "projects",
@@ -1287,50 +1731,19 @@
     "projects"
   ],
   "/projects": [
-    "tech"
+    "programming"
   ],
   "/vga-driver": [
     "c",
     "projects"
   ],
-  "/authentication": [
-    "security"
+  "/the-tao-of-programming": [
+    "humor",
+    "programming",
+    "top"
   ],
-  "/authorization": [
-    "security"
-  ],
-  "/certificates": [
-    "security"
-  ],
-  "/cookies": [
-    "security"
-  ],
-  "/cors": [
-    "security"
-  ],
-  "/csrf": [
-    "security"
-  ],
-  "/openssl-encrypt": [
-    "security"
-  ],
-  "/public-key-cryptography": [
-    "security"
-  ],
-  "/security-heuristics": [
-    "security"
-  ],
-  "/security": [
-    "tech"
-  ],
-  "/store-passwords": [
-    "security"
-  ],
-  "/transport-layer-security": [
-    "security"
-  ],
-  "/xss": [
-    "security"
+  "/unicode": [
+    "programming"
   ],
   "/code-review": [
     "software-engineering"
@@ -1345,12 +1758,9 @@
     "software-engineering"
   ],
   "/software-engineering": [
-    "tech"
+    "stem"
   ],
   "/software-quality": [
-    "software-engineering"
-  ],
-  "/the-joel-test": [
     "software-engineering"
   ],
   "/choose-boring-tech": [
@@ -1367,82 +1777,21 @@
   "/minimal-tech": [
     "system-design"
   ],
-  "/design-patterns": [
-    "oop"
-  ],
-  "/block": [
-    "oop-designs"
-  ],
-  "/design-a-bicycle": [
-    "oop-designs"
-  ],
-  "/design-a-book-app": [
-    "oop-designs"
-  ],
-  "/design-a-crm": [
-    "oop-designs"
-  ],
-  "/design-a-data-pipeline": [
-    "oop-designs"
-  ],
-  "/design-a-gov-cloud": [
-    "oop-designs"
-  ],
-  "/design-a-personal-note-publishing-system": [
-    "oop-designs"
-  ],
-  "/design-a-trader": [
-    "oop-designs"
-  ],
-  "/design-a-web-crawler": [
-    "oop-designs"
-  ],
-  "/design-auth": [
-    "oop-designs"
-  ],
-  "/design-oauth": [
-    "oop-designs"
-  ],
-  "/design-units": [
-    "oop-designs"
-  ],
-  "/design-video-streaming-app": [
-    "oop-designs"
-  ],
-  "/oop-designs": [
-    "oop"
-  ],
-  "/oop": [
-    "sys",
-    "system-design"
-  ],
-  "/solid": [
-    "oop"
-  ],
   "/system-design": [
-    "systems",
-    "tech"
+    "software-engineering",
+    "systems"
   ],
-  "/tech": [
-    "s-t-e-m"
+  "/the-joel-test": [
+    "software-engineering"
+  ],
+  "/stem": [
+
   ],
   "/a-free-web-again": [
-
-  ],
-  "/is-tech-fast-or-slow": [
-
-  ],
-  "/social-media": [
-
-  ],
-  "/the-tao-of-programming": [
-    "humor",
-    "programming",
-    "top"
+    "ux"
   ],
   "/accessibility": [
     "sys",
-    "tech",
     "ux"
   ],
   "/evolution-of-computer-interfaces": [
@@ -1452,7 +1801,10 @@
     "soc",
     "ux"
   ],
-  "/natural-tech": [
+  "/is-tech-fast-or-slow": [
+    "ux"
+  ],
+  "/natural-ux": [
     "ux"
   ],
   "/polished-pixels": [
@@ -1466,364 +1818,8 @@
   ],
   "/ux": [
     "design",
-    "tech",
+    "stem",
     "web"
-  ],
-  "/business": [
-    "skills"
-  ],
-  "/company-culture": [
-    "business"
-  ],
-  "/hiring": [
-    "business"
-  ],
-  "/how-to-start-a-business": [
-    "business"
-  ],
-  "/marketing": [
-    "business"
-  ],
-  "/sales": [
-    "business"
-  ],
-  "/communication": [
-    "skills"
-  ],
-  "/how-to-pitch": [
-    "communication"
-  ],
-  "/negotiations": [
-    "communication"
-  ],
-  "/public-speaking": [
-    "communication"
-  ],
-  "/write-better": [
-    "communication"
-  ],
-  "/cooking": [
-    "skills"
-  ],
-  "/critical-thinking": [
-    "decisions",
-    "phil",
-    "skills"
-  ],
-  "/decisions": [
-    "skills",
-    "top"
-  ],
-  "/do-one-thing-at-a-time-and-do-it-well": [
-    "decisions"
-  ],
-  "/do-the-right-thing": [
-    "decisions",
-    "phil"
-  ],
-  "/do-without-doing": [
-    "decisions"
-  ],
-  "/drawing": [
-    "skills"
-  ],
-  "/driving": [
-    "skills"
-  ],
-  "/drowning-does-not-look-dramatic": [
-    "skills"
-  ],
-  "/exercise": [
-    "skills"
-  ],
-  "/get-things-done": [
-    "skills"
-  ],
-  "/growing-plants": [
-    "skills"
-  ],
-  "/home-life": [
-    "skills"
-  ],
-  "/how-to-gain-wealth": [
-    "skills"
-  ],
-  "/how-to-grow-old-russell": [
-    "essais",
-    "phil",
-    "skills"
-  ],
-  "/humor": [
-    "skills"
-  ],
-  "/investing": [
-    "skills"
-  ],
-  "/leadership": [
-    "skills"
-  ],
-  "/learning": [
-    "skills",
-    "soc"
-  ],
-  "/making-videos": [
-    "skills"
-  ],
-  "/mastery": [
-    "essais",
-    "skills"
-  ],
-  "/motocycles": [
-    "skills"
-  ],
-  "/mountaineering": [
-    "skills"
-  ],
-  "/outdoors": [
-    "skills",
-    "sports"
-  ],
-  "/parenting": [
-    "psy",
-    "skills"
-  ],
-  "/problem-solving": [
-    "essais",
-    "skills"
-  ],
-  "/skills": [
-
-  ],
-  "/teaching": [
-    "skills"
-  ],
-  "/trading": [
-    "skills"
-  ],
-  "/travelling": [
-    "skills"
-  ],
-  "/used-car-checklist": [
-    "skills"
-  ],
-  "/architecture": [
-    "social-sciences"
-  ],
-  "/being-poor": [
-    "social-sciences"
-  ],
-  "/books-social": [
-    "social-sciences"
-  ],
-  "/chomsky": [
-    "social-sciences"
-  ],
-  "/economics": [
-    "social-sciences"
-  ],
-  "/wage-theft": [
-    "economics",
-    "law"
-  ],
-  "/wasted-talent": [
-    "economics"
-  ],
-  "/121st-century": [
-    "experiments",
-    "history",
-    "time"
-  ],
-  "/farming-trap": [
-    "essais",
-    "history"
-  ],
-  "/history-of-technology": [
-    "history",
-    "lists",
-    "tech"
-  ],
-  "/history": [
-    "social-sciences",
-    "time"
-  ],
-  "/since-big-bang": [
-    "history",
-    "lists",
-    "nat",
-    "time"
-  ],
-  "/time-scale": [
-    "history",
-    "time",
-    "top"
-  ],
-  "/law": [
-    "social-sciences"
-  ],
-  "/asimov": [
-    "politics"
-  ],
-  "/brave-new-world": [
-    "politics"
-  ],
-  "/look-down-and-around": [
-    "essais",
-    "phil",
-    "politics",
-    "pols"
-  ],
-  "/orwell": [
-    "politics"
-  ],
-  "/politics": [
-    "social-sciences"
-  ],
-  "/prince": [
-    "politics"
-  ],
-  "/questioning-people-seen-as-a-threat-to-status-quo": [
-    "politics",
-    "psy",
-    "soc"
-  ],
-  "/the-triumph-of-stupidity": [
-    "essais",
-    "politics"
-  ],
-  "/warfare-is-deception": [
-    "politics"
-  ],
-  "/who-goes-nazi": [
-    "essais",
-    "politics"
-  ],
-  "/bias-for-unhappiness": [
-    "cognitive-biases"
-  ],
-  "/cognitive-biases": [
-    "psychology",
-    "soc",
-    "top"
-  ],
-  "/overvaluing-short-term": [
-    "cognitive-biases"
-  ],
-  "/anger": [
-    "emotions"
-  ],
-  "/anxiety": [
-    "emotions"
-  ],
-  "/arrogance": [
-    "emotions"
-  ],
-  "/courage": [
-    "emotions"
-  ],
-  "/ego": [
-    "emotions"
-  ],
-  "/emotions": [
-    "psychology"
-  ],
-  "/empathy": [
-    "emotions"
-  ],
-  "/hope": [
-    "emotions"
-  ],
-  "/loneliness": [
-    "emotions"
-  ],
-  "/love": [
-    "emotions"
-  ],
-  "/respect": [
-    "emotions"
-  ],
-  "/trust": [
-    "emotions"
-  ],
-  "/unmet-needs": [
-    "emotions"
-  ],
-  "/vulnerability": [
-    "emotions"
-  ],
-  "/gaslighting": [
-    "psychology"
-  ],
-  "/habits": [
-    "psychology"
-  ],
-  "/how-to-spot-a-liar": [
-    "psychology"
-  ],
-  "/persuasion": [
-    "psychology"
-  ],
-  "/procrastination": [
-    "psychology"
-  ],
-  "/psychology": [
-    "social-sciences"
-  ],
-  "/relationships": [
-    "psychology"
-  ],
-  "/solitude": [
-    "phil",
-    "psychology",
-    "soc"
-  ],
-  "/stages-of-grief": [
-    "psychology"
-  ],
-  "/stress": [
-    "psychology"
-  ],
-  "/distractions": [
-    "work"
-  ],
-  "/flow": [
-    "work"
-  ],
-  "/how-to-start": [
-    "skills",
-    "soc",
-    "work"
-  ],
-  "/overcoming-obstacles": [
-    "work"
-  ],
-  "/praise-and-motivation": [
-    "work"
-  ],
-  "/setting-rules": [
-    "work"
-  ],
-  "/social-sciences": [
-
-  ],
-  "/social-change": [
-
-  ],
-  "/social-class": [
-
-  ],
-  "/social-groups": [
-
-  ],
-  "/chaos": [
-    "systems"
-  ],
-  "/systems": [
-    "nat",
-    "social-sciences"
-  ],
-  "/urban-planning": [
-    "architecture",
-    "social-sciences"
   ],
   "/pub": [
 
