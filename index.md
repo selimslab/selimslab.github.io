@@ -2,13 +2,9 @@
 layout: page
 ---
 
-<style>
 
-</style>
 
-## Delta 
-Give your mind some space
-
+Some space for heart and mind 
 
 ## Contents
 
