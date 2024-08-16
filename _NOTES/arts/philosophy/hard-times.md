@@ -36,3 +36,6 @@ Courage is found in unlikely places
 
 May it be a light to you in dark places, when all other lights go out
 
+"The pain is neither unbearable nor unending, as long as you keep in mind its limits, and don't magnify them in your imagination"
+
+Don't be unhappy before the crisis comes

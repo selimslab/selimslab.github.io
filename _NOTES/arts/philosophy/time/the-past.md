@@ -16,9 +16,12 @@ Would you treat a beloved friend as you treat yourself? Be kind to yourself. If 
 
 Learn from the past and move on. 
 
+"It's no use going back to yesterday, because I was a different person then"
+
 ![](/assets/static/img/life-paths.jpeg)
 
 "You can spend minutes, hours, days, weeks, or even months over-analyzing a situation; trying to put the pieces together, justifying what could've, would've happened... or you can just leave the pieces on the floor and move the fuck on.”
 
 
 "Think of yourself as dead. You have lived your life. Now take what's left and live it properly."
+
