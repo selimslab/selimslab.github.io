@@ -3,8 +3,8 @@ layout: page
 ---
 
 
-
-Some space for heart and mind 
+## Delta
+Give your mind some space, to change for one bit better
 
 ## Contents
 
