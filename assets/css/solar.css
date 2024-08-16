@@ -11,6 +11,8 @@
 }
 
 
+
+
 .moon{
     animation: rotate-night 24s linear infinite;
     background-image: url(/assets/static/solar/2k_moon.jpg);

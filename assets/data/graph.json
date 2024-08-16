@@ -373,7 +373,8 @@
         "/graph-3d",
         "/ideas",
         "/keyboard-shortcuts",
-        "/stats"
+        "/stats",
+        "/why-no-authors"
       ]
     },
     {
@@ -789,7 +790,6 @@
       "name": "History",
       "links": [
         "/social-sciences",
-        "/12000",
         "/121st-century",
         "/farming-trap",
         "/history-of-technology",
@@ -971,12 +971,11 @@
     {
       "id": "/eudaimonia",
       "group": 3,
-      "name": "On a good life 🌱",
+      "name": "Eudaimonia 🌱",
       "links": [
         "/philosophy",
         "/character",
         "/choice",
-        "/the-past",
         "/skills"
       ]
     },
@@ -1962,6 +1961,14 @@
       ]
     },
     {
+      "id": "/why-no-authors",
+      "group": 3,
+      "name": "Why No Authors",
+      "links": [
+        "/meta"
+      ]
+    },
+    {
       "id": "/authors",
       "group": 3,
       "name": "Authors",
@@ -2765,14 +2772,6 @@
       ]
     },
     {
-      "id": "/12000",
-      "group": 3,
-      "name": "12000",
-      "links": [
-        "/history"
-      ]
-    },
-    {
       "id": "/121st-century",
       "group": 3,
       "name": "121st century",
@@ -2907,10 +2906,9 @@
     {
       "id": "/the-past",
       "group": 4,
-      "name": "The Past",
+      "name": "Learn and move on",
       "links": [
-        "/time",
-        "/eudaimonia"
+        "/time"
       ]
     },
     {
@@ -6161,6 +6159,10 @@
       "target": "/stats"
     },
     {
+      "source": "/meta",
+      "target": "/why-no-authors"
+    },
+    {
       "source": "/to-read",
       "target": "/authors"
     },
@@ -6471,10 +6473,6 @@
     {
       "source": "/politics",
       "target": "/who-goes-nazi"
-    },
-    {
-      "source": "/history",
-      "target": "/12000"
     },
     {
       "source": "/history",
@@ -7775,10 +7773,6 @@
     {
       "source": "/the-morning",
       "target": "/get-things-done"
-    },
-    {
-      "source": "/the-past",
-      "target": "/eudaimonia"
     },
     {
       "source": "/time",

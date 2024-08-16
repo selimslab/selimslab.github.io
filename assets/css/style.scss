@@ -220,8 +220,14 @@ details {
 html[data-theme='light'] {
 
   body {
-    background: $lightBg;
+    background-image: url('/assets/static/paper.jpg');
+    background-attachment: unset;
+    background-position: unset;
     color: $darkText;
+  }
+
+  .planet-container{
+    display: none;
   }
 
   ::selection {
@@ -233,12 +239,7 @@ html[data-theme='light'] {
   }
 
   .top {
-    background: $accent;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, $accent, $sunrise);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, $accent, $sunrise);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: none;
   }
 
   a {

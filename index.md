@@ -18,7 +18,7 @@ Give your mind some space
 
 ## Featured
 
-<div class="columns">
+<div class="columns is-vcentered">
 
 <div class="column">
 {% include hub.html tag='top' %}

@@ -3,7 +3,7 @@
 <script src="/assets/js/color.js"></script>
 
 
-<div class="columns">
+<div class="columns is-vcentered">
 
   <div class="column is-4">
     <p id="clock"></p>
@@ -47,30 +47,43 @@
     grid-auto-rows: var(--point-size);
     grid-template-columns: repeat(31, var(--point-size));
     grid-area: days;
+    width: max-content;
   }
 
-
-  .days li {
-    background-color: #fff;
+  .days li{
     margin: 0;
     border-radius: 50%;
   }
 
-  .days li.filler {
+  .weekday {
+    background-color: #fff;
+
+  }
+
+  .filler {
     background-color: inherit;
   }
 
-  .days li.past {
+  .past {
     opacity: 0.5;
   }
 
-  .days li.weekend {
-    background-color: #ffc800;
+  .weekend {
+    background-color: #ffcc00e2;
   }
 
-  .days li.now {
+  .now {
     background-color: rgb(255, 55, 0);
   }
+
+  html[data-theme='light'] {
+    .weekday {
+    background-color: #b2afaf;
+    }
+
+  }
+
+
 </style>
 
 <script>
@@ -133,6 +146,8 @@
         let day = document.createElement("li");
         if (weekend_days[month_index].includes(i)) {
           day.classList.add("weekend");
+        } else {
+          day.classList.add("weekday");
         }
         if (dayNumber == this_day) {
           day.classList.add("now");

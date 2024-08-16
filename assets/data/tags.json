@@ -403,7 +403,8 @@
     "lists"
   ],
   "/grid": [
-    "experiments"
+    "experiments",
+    "top"
   ],
   "/jobs": [
     "experiments"
@@ -525,7 +526,8 @@
     "meta"
   ],
   "/graph-3d": [
-    "meta"
+    "meta",
+    "top"
   ],
   "/ideas": [
     "meta"
@@ -538,6 +540,9 @@
     "lists"
   ],
   "/stats": [
+    "meta"
+  ],
+  "/why-no-authors": [
     "meta"
   ],
   "/authors": [
@@ -1623,9 +1628,6 @@
   "/wasted-talent": [
     "economics"
   ],
-  "/12000": [
-    "history"
-  ],
   "/121st-century": [
     "experiments",
     "history",
@@ -1823,13 +1825,13 @@
     "architecture",
     "social-sciences"
   ],
-  "/about": [
-
-  ],
   "/pub": [
 
   ],
   "/resume": [
+
+  ],
+  "/selim": [
 
   ]
 }

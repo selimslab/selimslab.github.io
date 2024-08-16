@@ -226,7 +226,8 @@
     "/ideas",
     "/keyboard-shortcuts",
     "/meta",
-    "/stats"
+    "/stats",
+    "/why-no-authors"
   ],
   "/to-read": [
     "/authors",
@@ -337,7 +338,6 @@
     "/who-goes-nazi"
   ],
   "/history": [
-    "/12000",
     "/121st-century",
     "/farming-trap",
     "/history-of-technology",
