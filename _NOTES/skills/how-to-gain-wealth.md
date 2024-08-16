@@ -1,7 +1,7 @@
 ---
-title: The Almanack of Naval Ravikant
 ---
 
+## The Almanack of Naval Ravikant
 
 Seek wealth, not money or status.
 
