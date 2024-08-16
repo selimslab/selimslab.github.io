@@ -4,7 +4,7 @@ layout: page
 
 
 ## Delta
-Give your mind some space, to change for one bit better
+a space for heart and mind, to change for one bit better
 
 ## Contents
 
