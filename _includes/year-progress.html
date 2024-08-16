@@ -2,25 +2,40 @@
 <script src="/assets/js/moment.min.js"></script>
 <script src="/assets/js/color.js"></script>
 
-<p id="clock"></p>
 
-<p id="date"></p>
+<div class="columns">
 
-<p id="year-ratio"></p>
+  <div class="column is-4">
+    <p id="clock"></p>
 
-<p id="weekNumber"></p>
+    <p id="date"></p>
 
-<p id="year-percent"></p>
+    <p id="year-ratio"></p>
 
-<ul class="days"></ul>
+    <p id="weekNumber"></p>
+
+    <p id="year-percent"></p>
+
+  </div>
+
+  <div class="column is-8">
+
+    <ul class="days"></ul>
+
+  </div>
+
+</div>
+
+
+
+
 
 
 <style>
-
   :root {
-      --point-size: 0.25rem;
-      --point-gap: 0.25rem;
-      --row-gap: 0.36rem; 
+    --point-size: 0.25rem;
+    --point-gap: 0.25rem;
+    --row-gap: 0.36rem;
   }
 
   .days {
@@ -28,14 +43,12 @@
     display: grid;
     grid-auto-flow: row;
     grid-gap: var(--point-gap);
-    row-gap: var(--row-gap); 
+    row-gap: var(--row-gap);
     grid-auto-rows: var(--point-size);
-  }
-
-  .days {
     grid-template-columns: repeat(31, var(--point-size));
     grid-area: days;
   }
+
 
   .days li {
     background-color: #fff;
@@ -58,8 +71,6 @@
   .days li.now {
     background-color: rgb(255, 55, 0);
   }
-
-
 </style>
 
 <script>
@@ -88,9 +99,9 @@
     const minutes = now.getMinutes().toString().padStart(2, '0');
     const seconds = now.getSeconds().toString().padStart(2, '0');
     const timeString = `${hours}:${minutes}:${seconds}`;
-    
+
     document.getElementById('clock').textContent = timeString;
-}
+  }
 
   setInterval(updateClock, 1000);
   updateClock();
@@ -99,7 +110,7 @@
     // create an array by using moment.js to get number of days in each month of this year
     const days_in_months = Array.from({ length: 12 }, (v, i) =>
       moment().month(i).daysInMonth()
-      
+
     );
     // indexes of weekend days in each month
     const weekend_days = days_in_months.map((days, index) => {
@@ -115,19 +126,19 @@
 
     dayNumber = 0;
     const days = document.querySelector(".days");
-    
+
     days_in_months.forEach((number_of_days, month_index) => {
       for (let i = 1; i <= number_of_days; i++) {
         dayNumber += 1;
         let day = document.createElement("li");
         if (weekend_days[month_index].includes(i)) {
-            day.classList.add("weekend");
+          day.classList.add("weekend");
         }
         if (dayNumber == this_day) {
           day.classList.add("now");
         } else if (dayNumber < this_day) {
           day.classList.add("past");
-        } 
+        }
         days.insertAdjacentElement("beforeend", day);
       }
 

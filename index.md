@@ -15,9 +15,22 @@ Give your mind some space
 <div style="margin-top:0.5rem">
 {{ site.data.tree_htmls["root"] }}
 </div>
+
 ## Featured
 
+<div class="columns">
+
+<div class="column">
 {% include hub.html tag='top' %}
+</div>
+
+<div class="column">
+  {% include earth.html %}
+</div>
+
+</div>
+
+
 
 ## Tap to shuffle   
 
@@ -29,7 +42,6 @@ Give your mind some space
 
 {% include year-progress.html %}
 
-{% include earth.html %}
 
 
 {% include offline.html  %}
