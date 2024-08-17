@@ -2,40 +2,41 @@
 tags: top
 ---
 
+"May it be a light to you in dark places, when all other lights go out"
+
+## It'll be over 
+
 This too shall pass
 
-"It's not the load that breaks you down, it's the way you carry it.”
-
-No winter lasts forever; no spring skips its turn
-
-Even the darkest night will end and the sun will rise
+Every night has a morning, every winter has a spring 
 
 If you are going through hell, keep going
 
-What matters most is how well you walk through the fire
-
-"So we shall let the reader answer this question for himself: who is the happier man, he who has braved the storm of life and lived or he who has stayed securely on shore and merely existed?”
-
-"And once the storm is over, you won't remember how you made it through, how you managed to survive. You won't even be sure, whether the storm is really over. But one thing is certain. When you come out of the storm, you won't be the same person who walked in. That's what this storm's all about.”
-
-Channel your pain to build strength. 
-
 There will come soft rains
 
-Walk no more in shadows 
+## Be easy on yourself 
+
+How much of our lives have we spent fighting shadows rather than simply enjoying the sun? Walk no more in shadows 
+
+"The pain is neither unbearable nor unending, as long as you keep in mind its limits, and don't magnify them in your imagination"
+
+"It's not the load that breaks you down, it's the way you carry it.”
+
+Prepare for hard times if you can but don't be unhappy before the crisis comes
+
+## Face it 
 
 Difficulties vanish when faced boldly
 
 Under the bludgeonings of chance, My head is bloody, but unbowed
 
-Nothing beside remains. Round the decay
+Courage is found in unlikely places. Cast aside fear and regret, do the deed at hand
 
-Cast aside fear and regret, do the deed at hand
+## Come out better on the other side 
 
-Courage is found in unlikely places 
+Who is the happier man, he who has braved the storm of life and lived or he who has stayed securely on shore and merely existed? 
 
-May it be a light to you in dark places, when all other lights go out
+When you come out of the storm, you won't be the same person who walked in
 
-"The pain is neither unbearable nor unending, as long as you keep in mind its limits, and don't magnify them in your imagination"
+Channel your pain to build strength. 
 
-Don't be unhappy before the crisis comes
