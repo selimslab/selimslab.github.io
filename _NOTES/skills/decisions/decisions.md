@@ -3,33 +3,61 @@ title: Decision Making
 tags: skills top
 ---
 
-1. A little forethought can prevent a lot of pain. 
+## See it for what it is 
 
-2. Don't decide under physical discomfort or heavy emotion, wait until your mind is clear. 
+Check your assumptions and cognitive biases 
 
-3. Prevention is the best cure. It is easier to stay out than get out. 
+Check for exaggeration, like too much negativity or optimism
 
-4. Follow your gut for reversible decisions, follow due diligence for the important ones 
+Often it's not black and white but a spectrum 
 
-5. Do nothing against your will, nor against community, nor without due examination, nor with reluctancy 
+Remove the layers, look at the core, the essence
 
-6. Think twice before you speak and be careful with promises. 
+Discuss with people you trust and people with relevant experience 
 
-7. Do or do not. There is no try. 
+Look at it from different angles and perspectives 
 
-8. Neither chase pleasure nor avoid necessary pain. 
-   
-9.  Do what feels right in your heart of hearts, over what is easy. 
+[[cognitive-biases]]
 
-10. Go with all your heart. When in doubt, the answer is no. 
+[[bias-for-unhappiness]]
 
-11. As with all matters of the heart, you'll know it when you find it.
+## Prevention is the best
 
-12. Don't get stuck, good enough is good.
+A little forethought can prevent a lot of pain. It's easier staying out than getting out. 
 
-[[free-will]]
+## Listen to both heart and mind 
 
-[[freedom]]
+Follow your gut for reversible decisions, follow due diligence for the important ones 
+
+## Consider your principles 
+
+> Do nothing against your will,  
+> nor against community,  
+> nor without due examination,  
+> nor with reluctancy  
+
+Think twice before you speak. 
+
+Be careful with promises. 
+
+Do what feels right in your heart of hearts, over what is easy. 
+
+Neither chase pleasure nor avoid necessary pain. 
+
+[[character]]
 
 [[do-not-lie-to-yourself]]
+   
+## Wait until your mind is clear. 
 
+You may be sleepless, hungry, tired, angry, in pain, ..
+
+Don't decide under physical discomfort or heavy emotion
+
+## Don't get stuck
+
+An ok decision today is often better than a perfect one tomorrow
+
+## Do or do not. There is no try. 
+
+Once you decide, follow through with a high spirit and persistence. 

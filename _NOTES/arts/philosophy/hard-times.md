@@ -5,16 +5,6 @@ tags: top
 
 "May it be a light to you in dark places, when all other lights go out"
 
-
-## Before the storm 
-
-Don't be unhappy before the crisis comes. 
-
-Prepare if you can but worry not 
-
-There'll be hard times but until then, don't stress for little things  
-
-
 ## It'll be over 
 
 This too shall pass
@@ -74,6 +64,12 @@ When you come out of the storm, you won't be the same person who walked in
 > or he who has stayed securely on shore and merely existed?  
 
 
+## Before the storm 
 
+Prepare if you can but worry not 
+
+There'll be hard times but until then, don't stress for little things  
+
+Don't be unhappy before the crisis comes. 
 
 
