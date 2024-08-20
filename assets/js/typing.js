@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     let typedText = '';
 
     const sentenceDiv = document.getElementById('sentence');
+    sentenceDiv.focus();
     const wpmDiv = document.getElementById('wpm');
     const medianWpmDiv = document.getElementById('medianWpm');
     const accuracyDiv = document.getElementById('typingAccuracy');

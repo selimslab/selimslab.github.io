@@ -15,3 +15,5 @@ Fear leads to anger, anger leads to hate.
 
 "The longer I live, the more I observe that carrying around anger is the most debilitating to the person who bears it.”
 ― Katharine Graham
+
+"Why are you troubled? What’s new here?"
