@@ -1,7 +1,8 @@
 ---
+tags: top
 layout: page
 ---
 
 
-{% include dots.html %}
+{% include grid.html %}
 

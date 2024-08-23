@@ -1,10 +1,22 @@
 # Δ Delta  
 
-This is a place to bring together everything I like on the web. Notes, links, articles, photos, artworks, drawings, poetry, lists, code snippets, experiments, ..
-
 View at <https://selimslab.github.io>
 
-The name **delta**(Δ) comes from the mathematical symbol of change 
+![](assets/static/ss.jpg)
+
+
+This is a place to bring together everything I like online.  
+Links, articles, photos, artworks, drawings, poetry, lists, code snippets, experiments, ..
+
+The name **delta**(Δ) comes from the greek letter Δ, used for mathematical symbol of change, often for incremental change.  
+It reflects the philosophy of doing one little thing at a time and it compounds.  
+
+Writing clarifies mind.  
+Editing the site becomes natural spaced repetition.   
+Ideas start to connect in creative ways.  
+Having an existing central place makes it easier to add new content and experiments   
+Overall this creates a virtuous cycle
+
 
 ## Setup
 

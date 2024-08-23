@@ -39,3 +39,5 @@ Why don't we do it so? Because everyone else is not doing it
 ## See also 
 
 [Tag: economics - Sketchplanations](https://sketchplanations.com/tags/economics)
+
+<https://economics.stackexchange.com/questions?tab=Votes>
