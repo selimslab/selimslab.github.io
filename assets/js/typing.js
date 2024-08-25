@@ -79,14 +79,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 
     document.addEventListener('keydown', async (event) => {
+        event.preventDefault();
+
         if (isHandlingKeydown) return;
         isHandlingKeydown = true;
-
 
         if (event.key === "Enter") {
             reset();
         } else if (event.key === 'Space') {
-            event.preventDefault();
             typedText += ' ';
         }
         else if (event.ctrlKey && event.key === 'Backspace' && typedText.length > 0) {
