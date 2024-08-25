@@ -43,7 +43,7 @@
 }
 
 .day {
-    animation: rotate-day 24s linear infinite;
+    animation: rotate-day 12s linear infinite;
     background-image: url(/assets/static/solar/2k_earth_daymap.jpg);
     background-size: 200%;
     border-left: solid 1px black;
