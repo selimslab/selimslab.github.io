@@ -8,13 +8,12 @@
     position: relative;
     width: 15rem;
     z-index: 1;
+    margin: 0 auto;
 }
 
 
-
-
 .moon{
-    animation: rotate-night 24s linear infinite;
+    animation: rotate-night 12s linear infinite;
     background-image: url(/assets/static/solar/2k_moon.jpg);
     background-size: 200%;
     height: 5rem;
@@ -24,7 +23,7 @@
 }
 
 .sun{
-    animation: rotate-night 24s linear infinite;
+    animation: rotate-night 12s linear infinite;
     background-image: url(/assets/static/solar/2k_sun_small.jpg);
     background-size: 200%;
     height: 5rem;
@@ -34,7 +33,7 @@
 }
 
 .night {
-    animation: rotate-night 24s linear infinite;
+    animation: rotate-night 12s linear infinite;
     background-image: url(/assets/static/solar/2k_earth_nightmap.jpg);
     background-size: 200%;
     height: 15rem;
@@ -57,7 +56,7 @@
     z-index: 3;
 }
 .clouds {
-    animation: rotate-day 50s linear infinite, spin-clouds 100s ease infinite;
+    animation: rotate-day 24s linear infinite, spin-clouds 48s ease infinite;
     background-image: url(/assets/static/solar/2k_earth_clouds.jpg);
     background-size: 200%;
     border-radius: 50%;    
