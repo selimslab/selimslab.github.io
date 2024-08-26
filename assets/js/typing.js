@@ -79,12 +79,15 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 
     document.addEventListener('keydown', async (event) => {
+        event.preventDefault();
+
         if (isHandlingKeydown) return;
         isHandlingKeydown = true;
 
-
         if (event.key === "Enter") {
             reset();
+        } else if (event.key === 'Space') {
+            typedText += ' ';
         }
         else if (event.ctrlKey && event.key === 'Backspace' && typedText.length > 0) {
             let i = typedText.length - 1;
@@ -95,7 +98,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         } else if (event.key === 'Backspace') {
             typedText = typedText.slice(0, -1);
         } else if (event.key.length === 1) {
-            
             typedText += event.key;
             if (event.key !== sentence[idx]) {
                 incorrect++;
