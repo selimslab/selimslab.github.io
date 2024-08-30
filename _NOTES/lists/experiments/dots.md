@@ -1,5 +1,4 @@
 ---
-tags: top
 layout: page
 ---
 

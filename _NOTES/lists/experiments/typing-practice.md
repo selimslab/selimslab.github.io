@@ -1,5 +1,5 @@
 ---
-tags: top skills
+tags:  skills
 ---
 
 {% include typing.html %}
