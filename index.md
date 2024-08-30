@@ -15,13 +15,14 @@ Give your mind some space
 <div class="columns is-vcentered">
 
 <div class="column">
+
 ## Featured
 
 {% include hub.html tag='top' %}
 
 ## Experiments
 
-{% include hub.html tag='top' %}
+{% include hub.html tag='experiments' %}
 
 </div>
 
