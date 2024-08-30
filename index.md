@@ -12,12 +12,11 @@ Give your mind some space
 {{ site.data.tree_htmls["root"] }}
 </div>
 
-<div class="columns is-vcentered">
-
 ## Featured
 
-<div class="column">
+<div class="columns is-vcentered">
 
+<div class="column">
 
 {% include hub.html tag='top' %}
 
