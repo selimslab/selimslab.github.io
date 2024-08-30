@@ -12,13 +12,19 @@ Give your mind some space
 {{ site.data.tree_htmls["root"] }}
 </div>
 
-## Featured
+
 
 <div class="columns is-vcentered">
 
 <div class="column">
 
+<h2>Featured</h2>
+
 {% include hub.html tag='top' %}
+
+<h2>Experiments</h2>
+
+{% include hub.html tag='experiments' %}
 
 </div>
 
@@ -28,9 +34,7 @@ Give your mind some space
 
 </div>
 
-## Experiments
 
-{% include hub.html tag='experiments' %}
 
 
 ## Tap to shuffle   
