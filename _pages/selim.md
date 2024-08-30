@@ -9,6 +9,3 @@ This is a place to bring together everything I like on the web. Notes, links, ar
 
 The name **delta**(Δ) comes from the mathematical symbol of change 
 
-## Site stats 
-
-{% include stats.html  %}
