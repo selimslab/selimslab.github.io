@@ -14,15 +14,12 @@ Give your mind some space
 
 <div class="columns is-vcentered">
 
-<div class="column">
-
 ## Featured
 
+<div class="column">
+
+
 {% include hub.html tag='top' %}
-
-## Experiments
-
-{% include hub.html tag='experiments' %}
 
 </div>
 
@@ -31,6 +28,11 @@ Give your mind some space
 </div>
 
 </div>
+
+## Experiments
+
+{% include hub.html tag='experiments' %}
+
 
 ## Tap to shuffle   
 
