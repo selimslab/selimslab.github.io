@@ -1,12 +1,6 @@
 ---
-tags: meta pro
 ---
 
-This website works without a mouse too  
-
-- `Arrow keys < >` go back/forward 
-- `Shift+S` search
-- `Shift+P` go to a random page 
 
 ## Tab navigation 
 - `Tab` and `Shift+Tab` move focus 
