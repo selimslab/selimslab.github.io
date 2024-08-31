@@ -22,6 +22,10 @@ Give your mind some space
 
 {% include hub.html tag='top' %}
 
+<h2>Metadata</h2>
+
+{% include hub.html tag='metatop' %}
+
 <h2>Experiments</h2>
 
 {% include hub.html tag='experiments' %}
