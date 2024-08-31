@@ -8,8 +8,6 @@ tags: dp
 
 ## Stocks with 1 day cooldown
 
-<https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/submissions/>
-
 ```go
 func maxProfit(prices []int) int {
     /*

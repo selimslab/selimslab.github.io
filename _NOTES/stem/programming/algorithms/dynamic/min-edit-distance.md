@@ -11,7 +11,7 @@ Output: 2
 Explanation: You need one step to make "sea" to "ea" 
 and another step to make "eat" to "ea".
 
-Input: word1 = "leetcode", word2 = "etco"
+Input: word1 = "Subsequence", word2 = "bqne"
 Output: 4
 */
 func minSteps(word1 string, word2 string):

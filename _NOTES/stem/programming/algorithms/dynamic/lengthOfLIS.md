@@ -4,8 +4,6 @@ tags: dp mid
 ---
 
 
-<https://leetcode.com/problems/longest-increasing-subsequence/>
-
 ```go
 /*
 Given an unsorted array of integers, find the length of longest increasing subsequence.
