@@ -1,5 +1,5 @@
 ---
-title: Programming Experiments 
+title: Programming Projects
 tags: experiments
 ---
 
