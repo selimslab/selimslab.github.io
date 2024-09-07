@@ -9,6 +9,7 @@ Grokking Algorithms, An Illustrated Guide For Programmers and Other Curious Peop
 
 Have a central repository to keep a record of things you do, your writings, your code, diagrams, .. So you can refine your ideas as you go along 
 
+
 ## See also 
 
 - [[computers]]

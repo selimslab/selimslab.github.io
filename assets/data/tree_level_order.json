@@ -19,12 +19,12 @@
     "/photography"
   ],
   "/lists": [
-    "/experiments",
     "/languages",
-    "/meta",
-    "/to-read",
+    "/read",
+    "/experiments",
     "/interesting",
-    "/to-watch",
+    "/meta",
+    "/watch",
     "/lists"
   ],
   "/skills": [
@@ -75,13 +75,12 @@
     "/architecture"
   ],
   "/stem": [
-    "/algorithms",
     "/natural-sciences",
     "/programming",
-    "/ux",
-    "/computers",
     "/math",
     "/software-engineering",
+    "/computers",
+    "/ux",
     "/data-science",
     "/stem"
   ],
@@ -195,26 +194,6 @@
     "/everyday-objects",
     "/ship-it"
   ],
-  "/experiments": [
-    "/digital-art",
-    "/dots",
-    "/experiments",
-    "/grid",
-    "/jobs",
-    "/markdown-editor",
-    "/music-player",
-    "/photo-gallery",
-    "/primes",
-    "/rss-reader",
-    "/savings-planner",
-    "/search-index",
-    "/shops",
-    "/spreadsheet",
-    "/typing-practice",
-    "/video-call",
-    "/video-player",
-    "/year-progress"
-  ],
   "/languages": [
     "/deutsch",
     "/english",
@@ -226,22 +205,22 @@
     "/turkce",
     "/cestina"
   ],
-  "/meta": [
-    "/graph-2d",
-    "/graph-3d",
-    "/ideas",
-    "/keyboard-shortcuts",
-    "/meta",
-    "/stats",
-    "/why-no-authors"
-  ],
-  "/to-read": [
+  "/read": [
     "/authors",
     "/blogs",
     "/books",
     "/comics",
     "/essais",
+    "/ideas",
     "/news"
+  ],
+  "/experiments": [
+    "/dots",
+    "/graph-3d",
+    "/time-scale",
+    "/typing-practice",
+    "/year-progress",
+    "/drafts"
   ],
   "/interesting": [
     "/datasets",
@@ -249,7 +228,11 @@
     "/quotes",
     "/web-experiments"
   ],
-  "/to-watch": [
+  "/meta": [
+    "/graph-2d",
+    "/meta"
+  ],
+  "/watch": [
     "/documentaries",
     "/movies"
   ],
@@ -307,8 +290,7 @@
     "/farming-trap",
     "/history-of-technology",
     "/history",
-    "/since-big-bang",
-    "/time-scale"
+    "/since-big-bang"
   ],
   "/economics": [
     "/economics",
@@ -323,29 +305,6 @@
   "/systems": [
     "/chaos",
     "/systems"
-  ],
-  "/algorithms": [
-    "/algorithms",
-    "/backtrack",
-    "/bit",
-    "/data-structures",
-    "/greedy",
-    "/hash-table",
-    "/linked-list",
-    "/parallel-programming",
-    "/producer-consumer-problem",
-    "/sort",
-    "/array",
-    "/by-level",
-    "/dp",
-    "/graph",
-    "/heuristic",
-    "/pointers",
-    "/queue",
-    "/search",
-    "/stack",
-    "/string",
-    "/tree"
   ],
   "/natural-sciences": [
     "/akins-laws-of-spacecraft",
@@ -368,36 +327,14 @@
     "/concurrency",
     "/encodings",
     "/for-new-programmers",
+    "/keyboard-shortcuts",
     "/programming",
     "/the-tao-of-programming",
     "/unicode",
+    "/algorithms",
     "/oop",
     "/programming-languages",
     "/projects"
-  ],
-  "/ux": [
-    "/a-free-web-again",
-    "/accessibility",
-    "/evolution-of-computer-interfaces",
-    "/hijacked-minds",
-    "/is-tech-fast-or-slow",
-    "/natural-ux",
-    "/polished-pixels",
-    "/things-users-care",
-    "/usability-testing",
-    "/ux"
-  ],
-  "/computers": [
-    "/computers-from-scratch",
-    "/computers",
-    "/containers",
-    "/discussion-topics",
-    "/easy-vs-hard-in-cs",
-    "/networks",
-    "/operating-systems",
-    "/databases",
-    "/distributed-systems",
-    "/security"
   ],
   "/math": [
     "/bayes",
@@ -412,14 +349,40 @@
     "/probability-and-statistics"
   ],
   "/software-engineering": [
+    "/api-design",
     "/code-review",
     "/core-concepts",
     "/on-software",
     "/software-analogies",
     "/software-engineering",
     "/software-quality",
+    "/swe-misery",
     "/the-joel-test",
     "/system-design"
+  ],
+  "/computers": [
+    "/computers-from-scratch",
+    "/computers",
+    "/containers",
+    "/discussion-topics",
+    "/easy-vs-hard-in-cs",
+    "/networks",
+    "/operating-systems",
+    "/databases",
+    "/distributed-systems",
+    "/security"
+  ],
+  "/ux": [
+    "/a-free-web-again",
+    "/accessibility",
+    "/evolution-of-computer-interfaces",
+    "/hijacked-minds",
+    "/is-tech-fast-or-slow",
+    "/natural-ux",
+    "/polished-pixels",
+    "/things-users-care",
+    "/usability-testing",
+    "/ux"
   ],
   "/data-science": [
     "/customize-prompt",
@@ -470,6 +433,23 @@
     "/predlozky",
     "/slovesa"
   ],
+  "/drafts": [
+    "/digital-art",
+    "/experiments",
+    "/jobs",
+    "/markdown-editor",
+    "/mini-dots",
+    "/music-player",
+    "/photo-gallery",
+    "/primes",
+    "/rss-reader",
+    "/savings-planner",
+    "/search-index",
+    "/shops",
+    "/spreadsheet",
+    "/video-call",
+    "/video-player"
+  ],
   "/cognitive-biases": [
     "/bias-for-unhappiness",
     "/cognitive-biases",
@@ -491,6 +471,138 @@
     "/unmet-needs",
     "/vulnerability"
   ],
+  "/astronomy": [
+    "/astronomy",
+    "/earth",
+    "/size-of-the-universe",
+    "/solar-system",
+    "/the-overview-effect"
+  ],
+  "/health": [
+    "/going-blind",
+    "/health",
+    "/how-to-deal-with-pain",
+    "/sleep"
+  ],
+  "/physics": [
+    "/classical-physics",
+    "/inertia",
+    "/maxwell-equations",
+    "/philosophical-implications-of-quantum-mechanics",
+    "/physics"
+  ],
+  "/algorithms": [
+    "/algorithms",
+    "/backtrack",
+    "/bit",
+    "/data-structures",
+    "/greedy",
+    "/hash-table",
+    "/linked-list",
+    "/parallel-programming",
+    "/producer-consumer-problem",
+    "/sort",
+    "/array",
+    "/by-level",
+    "/dynamic",
+    "/graph",
+    "/heuristic",
+    "/pointers",
+    "/queue",
+    "/search",
+    "/stack",
+    "/string",
+    "/tree"
+  ],
+  "/oop": [
+    "/design-patterns",
+    "/oop",
+    "/solid",
+    "/oop-designs"
+  ],
+  "/programming-languages": [
+    "/c",
+    "/clojure",
+    "/cpp",
+    "/csharp",
+    "/elixir",
+    "/erlang",
+    "/functional-programming",
+    "/go",
+    "/haskell",
+    "/java",
+    "/lisp",
+    "/programming-languages",
+    "/rust",
+    "/scala",
+    "/typing",
+    "/python"
+  ],
+  "/projects": [
+    "/async-crawler",
+    "/c-hashmap",
+    "/compiler",
+    "/garbage-collector-in-c",
+    "/links-for-makers",
+    "/logos-os",
+    "/mini-search-engine",
+    "/mini-web-server",
+    "/minik-robot",
+    "/pascal-interpreter",
+    "/pca",
+    "/pneumonia-detection",
+    "/predict-movie-genres",
+    "/projects",
+    "/vga-driver"
+  ],
+  "/system-design": [
+    "/choose-boring-tech",
+    "/domain-driven-design",
+    "/hacker-laws",
+    "/minimal-tech",
+    "/system-design"
+  ],
+  "/databases": [
+    "/acid",
+    "/b-trees",
+    "/databases",
+    "/db-concepts",
+    "/db-data-structures",
+    "/leaderless-replication",
+    "/lsm-trees",
+    "/partitioning",
+    "/replication",
+    "/single-leader",
+    "/sql-tips"
+  ],
+  "/distributed-systems": [
+    "/armstrong-thesis",
+    "/azure-pillars",
+    "/consistent-hashing",
+    "/detect-a-node-failure",
+    "/distributed-design-patterns",
+    "/distributed-systems",
+    "/generate-a-unique-id",
+    "/google-sre-book",
+    "/kafka",
+    "/spark",
+    "/time-and-order"
+  ],
+  "/security": [
+    "/authentication",
+    "/authorization",
+    "/certificates",
+    "/cookies",
+    "/cors",
+    "/csrf",
+    "/openssl-encrypt",
+    "/public-key-cryptography",
+    "/security-heuristics",
+    "/security",
+    "/store-passwords",
+    "/transport-layer-security",
+    "/xss"
+  ],
   "/array": [
     "/array-rotate",
     "/array",
@@ -507,7 +619,7 @@
     "/hard",
     "/mid"
   ],
-  "/dp": [
+  "/dynamic": [
     "/climb-stairs",
     "/coin-change",
     "/dynamic",
@@ -582,126 +694,6 @@
     "/trie",
     "/code"
   ],
-  "/astronomy": [
-    "/astronomy",
-    "/earth",
-    "/size-of-the-universe",
-    "/solar-system",
-    "/the-overview-effect"
-  ],
-  "/health": [
-    "/going-blind",
-    "/health",
-    "/how-to-deal-with-pain",
-    "/sleep"
-  ],
-  "/physics": [
-    "/classical-physics",
-    "/inertia",
-    "/maxwell-equations",
-    "/philosophical-implications-of-quantum-mechanics",
-    "/physics"
-  ],
-  "/oop": [
-    "/design-patterns",
-    "/oop",
-    "/solid",
-    "/oop-designs"
-  ],
-  "/programming-languages": [
-    "/c",
-    "/clojure",
-    "/cpp",
-    "/csharp",
-    "/elixir",
-    "/erlang",
-    "/functional-programming",
-    "/go",
-    "/haskell",
-    "/java",
-    "/lisp",
-    "/programming-languages",
-    "/rust",
-    "/scala",
-    "/typing",
-    "/python"
-  ],
-  "/projects": [
-    "/async-crawler",
-    "/c-hashmap",
-    "/compiler",
-    "/garbage-collector-in-c",
-    "/links-for-makers",
-    "/logos-os",
-    "/mini-search-engine",
-    "/mini-web-server",
-    "/minik-robot",
-    "/pascal-interpreter",
-    "/pca",
-    "/pneumonia-detection",
-    "/predict-movie-genres",
-    "/projects",
-    "/vga-driver"
-  ],
-  "/databases": [
-    "/acid",
-    "/b-trees",
-    "/databases",
-    "/db-concepts",
-    "/db-data-structures",
-    "/leaderless-replication",
-    "/lsm-trees",
-    "/partitioning",
-    "/replication",
-    "/single-leader",
-    "/sql-tips"
-  ],
-  "/distributed-systems": [
-    "/armstrong-thesis",
-    "/azure-pillars",
-    "/consistent-hashing",
-    "/detect-a-node-failure",
-    "/distributed-design-patterns",
-    "/distributed-systems",
-    "/generate-a-unique-id",
-    "/google-sre-book",
-    "/kafka",
-    "/spark",
-    "/time-and-order"
-  ],
-  "/security": [
-    "/authentication",
-    "/authorization",
-    "/certificates",
-    "/cookies",
-    "/cors",
-    "/csrf",
-    "/openssl-encrypt",
-    "/public-key-cryptography",
-    "/security-heuristics",
-    "/security",
-    "/store-passwords",
-    "/transport-layer-security",
-    "/xss"
-  ],
-  "/system-design": [
-    "/choose-boring-tech",
-    "/domain-driven-design",
-    "/hacker-laws",
-    "/minimal-tech",
-    "/system-design"
-  ],
-  "/code": [
-    "/delete-tree-node",
-    "/diamater-of-binary-tree",
-    "/invert-binary-tree",
-    "/is-mirror-tree",
-    "/max-path-sum",
-    "/max-tree-depth",
-    "/post-order-go",
-    "/tree-codec-py",
-    "/unique-bst"
-  ],
   "/oop-designs": [
     "/block",
     "/design-a-bicycle",
@@ -721,8 +713,20 @@
   "/python": [
     "/c-and-python",
     "/python-data-structures",
+    "/python-guidelines",
     "/python-packages",
     "/python",
     "/zen-of-python"
+  ],
+  "/code": [
+    "/delete-tree-node",
+    "/diamater-of-binary-tree",
+    "/invert-binary-tree",
+    "/is-mirror-tree",
+    "/max-path-sum",
+    "/max-tree-depth",
+    "/post-order-go",
+    "/tree-codec-py",
+    "/unique-bst"
   ]
 }

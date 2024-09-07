@@ -393,59 +393,65 @@
   "/yunus-emre": [
     "siir"
   ],
-  "/digital-art": [
-    "experiments"
-  ],
   "/dots": [
     "experiments"
+  ],
+  "/digital-art": [
+
   ],
   "/experiments": [
     "lists"
   ],
-  "/grid": [
-    "experiments",
-    "top"
-  ],
   "/jobs": [
-    "experiments"
+
   ],
   "/markdown-editor": [
-    "experiments"
+
+  ],
+  "/mini-dots": [
+
   ],
   "/music-player": [
-    "experiments"
+
   ],
   "/photo-gallery": [
-    "experiments"
+
   ],
   "/primes": [
-    "experiments"
+
   ],
   "/rss-reader": [
-    "experiments"
+
   ],
   "/savings-planner": [
-    "experiments"
+
   ],
   "/search-index": [
-    "experiments"
+
   ],
   "/shops": [
-    "experiments"
+
   ],
   "/spreadsheet": [
+
+  ],
+  "/video-call": [
+
+  ],
+  "/video-player": [
+
+  ],
+  "/graph-3d": [
     "experiments"
+  ],
+  "/time-scale": [
+    "experiments",
+    "stem",
+    "time"
   ],
   "/typing-practice": [
     "experiments",
-    "skills",
-    "top"
-  ],
-  "/video-call": [
-    "experiments"
-  ],
-  "/video-player": [
-    "experiments"
+    "skills"
   ],
   "/year-progress": [
     "experiments"
@@ -525,25 +531,8 @@
   "/graph-2d": [
     "meta"
   ],
-  "/graph-3d": [
-    "meta",
-    "top"
-  ],
-  "/ideas": [
-    "meta"
-  ],
-  "/keyboard-shortcuts": [
-    "meta",
-    "pro"
-  ],
   "/meta": [
     "lists"
-  ],
-  "/stats": [
-    "meta"
-  ],
-  "/why-no-authors": [
-    "meta"
   ],
   "/authors": [
     "lists",
@@ -559,6 +548,9 @@
 
   ],
   "/essais": [
+
+  ],
+  "/ideas": [
 
   ],
   "/news": [
@@ -730,7 +722,6 @@
     "economics"
   ],
   "/121st-century": [
-    "experiments",
     "history",
     "time"
   ],
@@ -752,11 +743,6 @@
     "lists",
     "nat",
     "time"
-  ],
-  "/time-scale": [
-    "history",
-    "time",
-    "top"
   ],
   "/law": [
     "social-sciences"
@@ -929,328 +915,6 @@
   "/urban-planning": [
     "architecture",
     "social-sciences"
-  ],
-  "/algorithms": [
-    "stem"
-  ],
-  "/array-rotate": [
-    "arr",
-    "array",
-    "easy"
-  ],
-  "/array": [
-    "algorithms"
-  ],
-  "/count-primes": [
-    "arr",
-    "array",
-    "mid"
-  ],
-  "/generate-pascals-triangle": [
-    "arr",
-    "array",
-    "easy"
-  ],
-  "/group-anagrams": [
-    "arr",
-    "array",
-    "easy"
-  ],
-  "/longest-consecutive": [
-    "arr",
-    "array"
-  ],
-  "/plus-one": [
-    "arr",
-    "array"
-  ],
-  "/possible-morse": [
-    "arr",
-    "array"
-  ],
-  "/three-sum-closest": [
-    "arr",
-    "array"
-  ],
-  "/backtrack": [
-    "algorithms"
-  ],
-  "/bit": [
-    "algorithms"
-  ],
-  "/easy": [
-
-  ],
-  "/hard": [
-
-  ],
-  "/mid": [
-
-  ],
-  "/data-structures": [
-    "algo",
-    "algorithms"
-  ],
-  "/climb-stairs": [
-    "dp",
-    "easy"
-  ],
-  "/coin-change": [
-    "dp",
-    "mid"
-  ],
-  "/dynamic": [
-    "dp"
-  ],
-  "/edit-distance": [
-    "dp",
-    "mid"
-  ],
-  "/house-robber": [
-    "dp",
-    "mid"
-  ],
-  "/lengthOfLIS": [
-    "dp",
-    "mid"
-  ],
-  "/longest-common-subsequence": [
-    "dp",
-    "mid"
-  ],
-  "/longest-diverse-str": [
-    "dp",
-    "heap",
-    "mid",
-    "str"
-  ],
-  "/lowest-common-ancestor": [
-    "dp",
-    "gr"
-  ],
-  "/maximal-square": [
-    "dp"
-  ],
-  "/min-edit-distance": [
-    "dp",
-    "mid"
-  ],
-  "/min-path-sum": [
-    "dp"
-  ],
-  "/min-steps-notepad": [
-    "dp"
-  ],
-  "/stocks-with-cooldown": [
-    "dp"
-  ],
-  "/ways-to-target-sum": [
-    "dp"
-  ],
-  "/word-break": [
-    "dp"
-  ],
-  "/bfs-dfs-topo": [
-    "gr",
-    "graph",
-    "mid"
-  ],
-  "/dijkstra": [
-    "gr",
-    "graph",
-    "mid"
-  ],
-  "/graph": [
-    "algorithms"
-  ],
-  "/greedy": [
-    "algorithms"
-  ],
-  "/hash-table": [
-    "algorithms"
-  ],
-  "/approximation": [
-
-  ],
-  "/bloom-filters": [
-
-  ],
-  "/hyperloglog": [
-
-  ],
-  "/linked-list": [
-    "algorithms"
-  ],
-  "/parallel-programming": [
-    "algorithms"
-  ],
-  "/max-water": [
-    "pointers",
-    "ptr"
-  ],
-  "/min-covering-window": [
-    "pointers",
-    "ptr"
-  ],
-  "/partition-labels": [
-    "pointers",
-    "ptr"
-  ],
-  "/pivot-index": [
-    "pointers",
-    "ptr"
-  ],
-  "/pointers": [
-    "algorithms"
-  ],
-  "/reverse-letters-only": [
-    "pointers",
-    "ptr",
-    "stack"
-  ],
-  "/sliding-window-max": [
-    "pointers",
-    "ptr"
-  ],
-  "/threeSum": [
-    "pointers",
-    "ptr"
-  ],
-  "/producer-consumer-problem": [
-    "algorithms",
-    "concurrency"
-  ],
-  "/least-num-of-perfect-squares": [
-    "hard",
-    "q",
-    "queue"
-  ],
-  "/queue": [
-    "algorithms"
-  ],
-  "/binary-search": [
-    "easy"
-  ],
-  "/bst": [
-    "easy",
-    "gr"
-  ],
-  "/local-maximum": [
-    "math"
-  ],
-  "/skiplists": [
-
-  ],
-  "/vector-search": [
-
-  ],
-  "/sort": [
-    "algorithms"
-  ],
-  "/check-brackets": [
-    "easy",
-    "stack"
-  ],
-  "/days-until-warmer-temperature": [
-    "easy",
-    "stack"
-  ],
-  "/dedup-game": [
-    "easy",
-    "stack",
-    "str"
-  ],
-  "/longest-valid-paranthesis": [
-    "mid",
-    "ptr",
-    "stack",
-    "str"
-  ],
-  "/stack": [
-    "algorithms"
-  ],
-  "/decode-string": [
-    "easy",
-    "stack",
-    "str",
-    "string"
-  ],
-  "/generate-n-grams": [
-    "mid",
-    "str",
-    "string"
-  ],
-  "/longest-common-prefix": [
-    "easy",
-    "str",
-    "string"
-  ],
-  "/rabin-karp": [
-    "string"
-  ],
-  "/repeatedStringMatch": [
-    "str",
-    "string"
-  ],
-  "/string-compression": [
-    "str",
-    "string"
-  ],
-  "/string": [
-    "algorithms"
-  ],
-  "/delete-tree-node": [
-    "gr",
-    "mid"
-  ],
-  "/diamater-of-binary-tree": [
-    "gr",
-    "mid"
-  ],
-  "/invert-binary-tree": [
-    "gr",
-    "mid"
-  ],
-  "/is-mirror-tree": [
-    "gr",
-    "mid"
-  ],
-  "/max-path-sum": [
-
-  ],
-  "/max-tree-depth": [
-
-  ],
-  "/post-order-go": [
-
-  ],
-  "/tree-codec-py": [
-    "gr"
-  ],
-  "/unique-bst": [
-
-  ],
-  "/heap": [
-
-  ],
-  "/level-order": [
-    "gr",
-    "mid"
-  ],
-  "/quad-tree": [
-
-  ],
-  "/r-tree": [
-
-  ],
-  "/tree-balancing": [
-
-  ],
-  "/tree-traversals": [
-
-  ],
-  "/trie": [
-    "str"
   ],
   "/computers-from-scratch": [
     "computers"
@@ -1508,6 +1172,344 @@
   "/sapolsky": [
     "natural-sciences"
   ],
+  "/algorithms": [
+    "programming"
+  ],
+  "/array-rotate": [
+    "arr",
+    "array",
+    "easy"
+  ],
+  "/array": [
+    "algorithms"
+  ],
+  "/count-primes": [
+    "arr",
+    "array",
+    "mid"
+  ],
+  "/generate-pascals-triangle": [
+    "arr",
+    "array",
+    "easy"
+  ],
+  "/group-anagrams": [
+    "arr",
+    "array",
+    "easy"
+  ],
+  "/longest-consecutive": [
+    "arr",
+    "array"
+  ],
+  "/plus-one": [
+    "arr",
+    "array"
+  ],
+  "/possible-morse": [
+    "arr",
+    "array"
+  ],
+  "/three-sum-closest": [
+    "arr",
+    "array"
+  ],
+  "/backtrack": [
+    "algorithms"
+  ],
+  "/bit": [
+    "algorithms"
+  ],
+  "/easy": [
+
+  ],
+  "/hard": [
+
+  ],
+  "/mid": [
+
+  ],
+  "/data-structures": [
+    "algo",
+    "algorithms"
+  ],
+  "/climb-stairs": [
+    "dp",
+    "dynamic",
+    "easy"
+  ],
+  "/coin-change": [
+    "dp",
+    "dynamic",
+    "mid"
+  ],
+  "/dynamic": [
+    "algorithms",
+    "dp"
+  ],
+  "/edit-distance": [
+    "dp",
+    "dynamic",
+    "mid"
+  ],
+  "/house-robber": [
+    "dp",
+    "dynamic",
+    "mid"
+  ],
+  "/lengthOfLIS": [
+    "dp",
+    "dynamic",
+    "mid"
+  ],
+  "/longest-common-subsequence": [
+    "dp",
+    "dynamic",
+    "mid"
+  ],
+  "/longest-diverse-str": [
+    "dp",
+    "dynamic",
+    "heap",
+    "mid",
+    "str"
+  ],
+  "/lowest-common-ancestor": [
+    "dp",
+    "dynamic",
+    "gr"
+  ],
+  "/maximal-square": [
+    "dp",
+    "dynamic"
+  ],
+  "/min-edit-distance": [
+    "dp",
+    "dynamic",
+    "mid"
+  ],
+  "/min-path-sum": [
+    "dp",
+    "dynamic"
+  ],
+  "/min-steps-notepad": [
+    "dp",
+    "dynamic"
+  ],
+  "/stocks-with-cooldown": [
+    "dp",
+    "dynamic"
+  ],
+  "/ways-to-target-sum": [
+    "dp",
+    "dynamic"
+  ],
+  "/word-break": [
+    "dp",
+    "dynamic"
+  ],
+  "/bfs-dfs-topo": [
+    "gr",
+    "graph",
+    "mid"
+  ],
+  "/dijkstra": [
+    "gr",
+    "graph",
+    "mid"
+  ],
+  "/graph": [
+    "algorithms"
+  ],
+  "/greedy": [
+    "algorithms"
+  ],
+  "/hash-table": [
+    "algorithms"
+  ],
+  "/approximation": [
+
+  ],
+  "/bloom-filters": [
+
+  ],
+  "/hyperloglog": [
+
+  ],
+  "/linked-list": [
+    "algorithms"
+  ],
+  "/parallel-programming": [
+    "algorithms"
+  ],
+  "/max-water": [
+    "pointers",
+    "ptr"
+  ],
+  "/min-covering-window": [
+    "pointers",
+    "ptr"
+  ],
+  "/partition-labels": [
+    "pointers",
+    "ptr"
+  ],
+  "/pivot-index": [
+    "pointers",
+    "ptr"
+  ],
+  "/pointers": [
+    "algorithms"
+  ],
+  "/reverse-letters-only": [
+    "pointers",
+    "ptr",
+    "stack"
+  ],
+  "/sliding-window-max": [
+    "pointers",
+    "ptr"
+  ],
+  "/threeSum": [
+    "pointers",
+    "ptr"
+  ],
+  "/producer-consumer-problem": [
+    "algorithms",
+    "concurrency"
+  ],
+  "/least-num-of-perfect-squares": [
+    "hard",
+    "q",
+    "queue"
+  ],
+  "/queue": [
+    "algorithms"
+  ],
+  "/binary-search": [
+    "easy"
+  ],
+  "/bst": [
+    "easy",
+    "gr"
+  ],
+  "/local-maximum": [
+    "math"
+  ],
+  "/skiplists": [
+
+  ],
+  "/vector-search": [
+
+  ],
+  "/sort": [
+    "algorithms"
+  ],
+  "/check-brackets": [
+    "easy",
+    "stack"
+  ],
+  "/days-until-warmer-temperature": [
+    "easy",
+    "stack"
+  ],
+  "/dedup-game": [
+    "easy",
+    "stack",
+    "str"
+  ],
+  "/longest-valid-paranthesis": [
+    "mid",
+    "ptr",
+    "stack",
+    "str"
+  ],
+  "/stack": [
+    "algorithms"
+  ],
+  "/decode-string": [
+    "easy",
+    "stack",
+    "str",
+    "string"
+  ],
+  "/generate-n-grams": [
+    "mid",
+    "str",
+    "string"
+  ],
+  "/longest-common-prefix": [
+    "easy",
+    "str",
+    "string"
+  ],
+  "/rabin-karp": [
+    "string"
+  ],
+  "/repeatedStringMatch": [
+    "str",
+    "string"
+  ],
+  "/string-compression": [
+    "str",
+    "string"
+  ],
+  "/string": [
+    "algorithms"
+  ],
+  "/delete-tree-node": [
+    "gr",
+    "mid"
+  ],
+  "/diamater-of-binary-tree": [
+    "gr",
+    "mid"
+  ],
+  "/invert-binary-tree": [
+    "gr",
+    "mid"
+  ],
+  "/is-mirror-tree": [
+    "gr",
+    "mid"
+  ],
+  "/max-path-sum": [
+
+  ],
+  "/max-tree-depth": [
+
+  ],
+  "/post-order-go": [
+
+  ],
+  "/tree-codec-py": [
+    "gr"
+  ],
+  "/unique-bst": [
+
+  ],
+  "/heap": [
+
+  ],
+  "/level-order": [
+    "gr",
+    "mid"
+  ],
+  "/quad-tree": [
+
+  ],
+  "/r-tree": [
+
+  ],
+  "/tree-balancing": [
+
+  ],
+  "/tree-traversals": [
+
+  ],
+  "/trie": [
+    "str"
+  ],
   "/api": [
     "programming"
   ],
@@ -1523,6 +1525,9 @@
   "/for-new-programmers": [
     "programming",
     "top"
+  ],
+  "/keyboard-shortcuts": [
+    "programming"
   ],
   "/design-patterns": [
     "oop"
@@ -1619,6 +1624,9 @@
   "/python-data-structures": [
     "python"
   ],
+  "/python-guidelines": [
+    "python"
+  ],
   "/python-packages": [
     "python"
   ],
@@ -1694,6 +1702,7 @@
     "projects"
   ],
   "/projects": [
+    "experiments",
     "programming"
   ],
   "/vga-driver": [
@@ -1707,6 +1716,9 @@
   ],
   "/unicode": [
     "programming"
+  ],
+  "/api-design": [
+    "software-engineering"
   ],
   "/code-review": [
     "software-engineering"
@@ -1724,6 +1736,9 @@
     "stem"
   ],
   "/software-quality": [
+    "software-engineering"
+  ],
+  "/swe-misery": [
     "software-engineering"
   ],
   "/choose-boring-tech": [
