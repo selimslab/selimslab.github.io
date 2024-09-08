@@ -11,3 +11,6 @@ Notes, links, articles, photos, artworks, drawings, poetry, lists, code snippets
 
 [Metadata](/meta)
 
+[github.com/selimslab](https://github.com/selimslab)
+
+

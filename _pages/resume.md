@@ -6,5 +6,3 @@
 [linkedin.com/in/time](https://linkedin.com/in/time)
 
 [github.com/selimslab](https://github.com/selimslab)
-
-[Projects](/projects/)
