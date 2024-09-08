@@ -6,12 +6,11 @@ layout: page
 ## Delta 
 Give your mind some space
 
-## All pages
+## All {{site.documents.size}} pages
 
 <div style="margin-top:0.5rem">
 {{ site.data.tree_htmls["root"] }}
 </div>
-
 
 
 <div class="columns is-vcentered">
