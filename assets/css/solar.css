@@ -13,7 +13,7 @@
 
 
 .moon{
-    animation: rotate-night 12s linear infinite;
+    animation: rotate-night 24s linear infinite;
     background-image: url(/assets/static/solar/2k_moon.jpg);
     background-size: 200%;
     height: 5rem;
@@ -23,7 +23,7 @@
 }
 
 .sun{
-    animation: rotate-night 12s linear infinite;
+    animation: rotate-night 24s linear infinite;
     background-image: url(/assets/static/solar/2k_sun_small.jpg);
     background-size: 200%;
     height: 5rem;
@@ -33,7 +33,7 @@
 }
 
 .night {
-    animation: rotate-night 12s linear infinite;
+    animation: rotate-night 24s linear infinite;
     background-image: url(/assets/static/solar/2k_earth_nightmap.jpg);
     background-size: 200%;
     height: 15rem;
@@ -43,7 +43,7 @@
 }
 
 .day {
-    animation: rotate-day 12s linear infinite;
+    animation: rotate-day 24s linear infinite;
     background-image: url(/assets/static/solar/2k_earth_daymap.jpg);
     background-size: 200%;
     border-left: solid 1px black;
