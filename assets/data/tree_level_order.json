@@ -229,6 +229,7 @@
     "/web-experiments"
   ],
   "/meta": [
+    "/about",
     "/graph-2d",
     "/meta"
   ],
@@ -501,6 +502,7 @@
     "/linked-list",
     "/parallel-programming",
     "/producer-consumer-problem",
+    "/sets",
     "/sort",
     "/array",
     "/by-level",
@@ -658,6 +660,7 @@
     "/threeSum"
   ],
   "/queue": [
+    "/jump-game-2",
     "/least-num-of-perfect-squares",
     "/queue"
   ],

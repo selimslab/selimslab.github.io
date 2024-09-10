@@ -393,8 +393,8 @@
       "name": "Metadata",
       "links": [
         "/lists",
-        "/graph-2d",
-        "/selim"
+        "/about",
+        "/graph-2d"
       ]
     },
     {
@@ -2019,6 +2019,14 @@
       ]
     },
     {
+      "id": "/about",
+      "group": 3,
+      "name": "Welcome, friend!",
+      "links": [
+        "/meta"
+      ]
+    },
+    {
       "id": "/graph-2d",
       "group": 3,
       "name": "2D Graph of All Pages",
@@ -2636,6 +2644,7 @@
         "/linked-list",
         "/parallel-programming",
         "/producer-consumer-problem",
+        "/sets",
         "/sort",
         "/array",
         "/by-level",
@@ -3781,6 +3790,14 @@
       ]
     },
     {
+      "id": "/sets",
+      "group": 4,
+      "name": "Sets",
+      "links": [
+        "/algorithms"
+      ]
+    },
+    {
       "id": "/sort",
       "group": 4,
       "name": "Sort",
@@ -3889,6 +3906,7 @@
       "name": "Queue",
       "links": [
         "/algorithms",
+        "/jump-game-2",
         "/least-num-of-perfect-squares"
       ]
     },
@@ -4903,6 +4921,14 @@
       "name": "Threesum",
       "links": [
         "/pointers"
+      ]
+    },
+    {
+      "id": "/jump-game-2",
+      "group": 5,
+      "name": "Jump Game 2",
+      "links": [
+        "/queue"
       ]
     },
     {
@@ -6097,6 +6123,10 @@
     },
     {
       "source": "/meta",
+      "target": "/about"
+    },
+    {
+      "source": "/meta",
       "target": "/graph-2d"
     },
     {
@@ -6877,6 +6907,10 @@
     },
     {
       "source": "/algorithms",
+      "target": "/sets"
+    },
+    {
+      "source": "/algorithms",
       "target": "/sort"
     },
     {
@@ -7346,6 +7380,10 @@
     {
       "source": "/pointers",
       "target": "/threeSum"
+    },
+    {
+      "source": "/queue",
+      "target": "/jump-game-2"
     },
     {
       "source": "/queue",
@@ -7842,10 +7880,6 @@
     {
       "source": "/lists",
       "target": "/since-big-bang"
-    },
-    {
-      "source": "/meta",
-      "target": "/selim"
     },
     {
       "source": "/essais",

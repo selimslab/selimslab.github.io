@@ -528,6 +528,9 @@
   "/lists": [
 
   ],
+  "/about": [
+    "meta"
+  ],
   "/graph-2d": [
     "meta"
   ],
@@ -1378,6 +1381,9 @@
     "algorithms",
     "concurrency"
   ],
+  "/jump-game-2": [
+    "queue"
+  ],
   "/least-num-of-perfect-squares": [
     "hard",
     "q",
@@ -1401,6 +1407,9 @@
   ],
   "/vector-search": [
 
+  ],
+  "/sets": [
+    "algorithms"
   ],
   "/sort": [
     "algorithms"
@@ -1803,9 +1812,6 @@
 
   ],
   "/resume": [
-
-  ],
-  "/selim": [
 
   ]
 }
