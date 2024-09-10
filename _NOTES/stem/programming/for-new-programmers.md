@@ -2,15 +2,15 @@
 tags: top
 ---
 
-[Crash Course Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo) and [Harvard CS50](https://www.youtube.com/playlist?list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW) are great introductions to fundamental concepts. 
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418">
+<img src="/assets/static/img/teapot.png">
+</a>
 
-I think the best algorithms book for new programmers is:
-Grokking Algorithms, An Illustrated Guide For Programmers and Other Curious People
+- [Crash Course Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo) 
 
-Have a central repository to keep a record of things you do, your writings, your code, diagrams, .. So you can refine your ideas as you go along 
+- [Harvard CS50](https://www.youtube.com/playlist?list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW) 
 
-
-## See also 
+- Grokking Algorithms, An Illustrated Guide For Programmers and Other Curious People
 
 - [[computers]]
 
@@ -45,6 +45,3 @@ Have a central repository to keep a record of things you do, your writings, your
 * [Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html)
 
 
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418">
-<img src="/assets/static/img/teapot.png">
-</a>
