@@ -6,7 +6,7 @@ layout: page
 ## Delta 
 Give your mind some space
 
-## All {{site.documents.size}} pages
+## {{site.documents.size}} pages
 
 <div style="margin-top:0.5rem">
 {{ site.data.tree_htmls["root"] }}

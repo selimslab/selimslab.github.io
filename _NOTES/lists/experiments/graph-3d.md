@@ -1,5 +1,5 @@
 ---
-title: 3D Graph of All Pages
+title: 3D graph of all pages
 layout: free
 ---
 
