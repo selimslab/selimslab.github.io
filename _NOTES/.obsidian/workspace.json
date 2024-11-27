@@ -4,15 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ff556fa77a09311a",
+        "id": "6f6bade581da74f4",
         "type": "tabs",
         "children": [
           {
-            "id": "ceaee60235fe90a0",
+            "id": "41c091d4920ddde6",
             "type": "leaf",
             "state": {
               "type": "empty",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -35,7 +37,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -50,7 +54,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -58,7 +64,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -81,6 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "stem/software-engineering/system-design/hacker-laws.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +97,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for hacker-laws"
             }
           },
           {
@@ -97,9 +108,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "stem/software-engineering/system-design/hacker-laws.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from hacker-laws"
             }
           },
           {
@@ -110,7 +124,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -118,7 +134,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "stem/software-engineering/system-design/hacker-laws.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of hacker-laws"
             }
           },
           {
@@ -130,7 +150,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           },
           {
@@ -138,7 +160,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "stem/software-engineering/system-design/hacker-laws.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for hacker-laws"
             }
           }
         ],
@@ -159,8 +185,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ceaee60235fe90a0",
+  "active": "41c091d4920ddde6",
   "lastOpenFiles": [
+    "Untitled.md",
+    "stem/software-engineering/system-design/hacker-laws.md",
+    "stem/data-science/customize-prompt.md",
     "tech/software-engineering/swe-phil.md",
     "tech/software-engineering/best-practices-are-not-always-best.md",
     "tech/software-engineering/books-swe.md",
@@ -184,9 +213,6 @@
     "tech/programming/oop/oop-designs/oop-designs.md",
     "tech/programming/oop/oop.md",
     "tech/programming/oop/oop-designs/design-units.md",
-    "tech/programming/oop/oop-designs/oop.md",
-    "tech/programming/oop/oop-designs/design-auth.md",
-    "tech/programming/oop/oop-designs/design-video-streaming-app.md",
     "tech/programming/oop/oop-designs",
     "tech/programming/oop/oop",
     "tech/programming/tools",

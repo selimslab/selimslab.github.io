@@ -1928,7 +1928,7 @@
     {
       "id": "/graph-3d",
       "group": 3,
-      "name": "3D Graph of all {{site.documents.size}} pages",
+      "name": "3D graph of all pages",
       "links": [
         "/experiments"
       ]
