@@ -18,22 +18,19 @@ class SiteGenerator < Jekyll::Generator
     return if @generated
 
     fix_frontmatter unless @fixed_frontmatter
-
     initialize_site_data(site)
+
     tree = generate_tree(site)
     site.data["tree"] = tree
     generate_tree_htmls(site, tree)
 
     log_debug_data(tree, site) if DEBUG
-
     process_documents(site)
 
     graph = generate_graph(site)
     site.data["link_count"] = calculate_link_count(site, graph)
 
-    update_ideas(site)
-    update_artworks(site)
-    update_tags(site)
+    update_site_data(site)
 
     @generated = true
   end
@@ -55,20 +52,30 @@ class SiteGenerator < Jekyll::Generator
     write_json("#{DATA_PATH}/tree_level_order.json", tree_level_order(tree))
   end
 
-  def update_ideas(site)
-    ideas = JSON.parse(File.read("#{DATA_PATH}/ideas.json"))
-    ideas.shuffle!(random: Random.new(ideas.length))
-    write_json("#{DATA_PATH}/ideas.json", ideas)
-    site.data["ideas"] = ideas
+  def update_site_data(site)
+    update_ideas(site)
+    update_artworks(site)
+    update_tags(site)
   end
 
-  def update_artworks(site)
-    artworks = get_artworks
-    write_json("#{DATA_PATH}/artworks.json", artworks)
+  def process_documents(site)
+    site.documents.each do |doc|
+      process_document(doc, site)
+    end
   end
 
-  def update_tags(site)
-    write_json("#{DATA_PATH}/tags.json", site.documents.map { |doc| [doc.id, doc.data["tags"]] }.to_h)
+  def process_document(doc, site)
+    doc.data['tags'].uniq!
+    wikilinks_to_backlinks(doc, site)
+    tags_to_backlinks(doc, site)
+    clean_backlinks(doc)
+    replace_links_in_content(doc, site)
+  end
+
+  def clean_backlinks(doc)
+    doc.data['backlinks'].reject! { |e| e.id == doc.id }
+    doc.data['backlinks'].sort_by! { |e| e.data["title"] }
+    doc.data['backlinks'].uniq!
   end
 
   def fix_frontmatter
@@ -86,16 +93,17 @@ class SiteGenerator < Jekyll::Generator
   end
 
   def fix_links(file, content)
-    fixed = content.scan(/\[.*?\]\(.*?\)/).count do |link|
-      next false unless link.include?("|")
-      new_link = link.gsub("|", "-")
-      content.gsub!(link, new_link)
-      true
+    content.gsub!(/\[.*?\]\(.*?\)/) do |link|
+      if link.include?("|")
+        link.gsub("|", "-")
+      else
+        link
+      end
     end
 
-    if fixed.positive?
+    if content != File.read(file).lstrip
       File.write(file, content)
-      puts "Fixed #{fixed} links in: #{file}"
+      puts "Fixed links in: #{file}"
     end
   end
 
@@ -153,19 +161,6 @@ class SiteGenerator < Jekyll::Generator
 
   def initialize_file_to_title(site)
     site.data["file_to_title"] = site.documents.map { |doc| [remove_leading_slash(doc.id), doc.data["title"]] }.to_h
-  end
-
-  def process_documents(site)
-    site.documents.each do |doc|
-      doc.data['tags'] = doc.data['tags'].uniq.sort
-      wikilinks_to_backlinks(doc, site)
-      tags_to_backlinks(doc, site)
-      doc.data['backlinks'].reject! { |e| e.id == doc.id }
-      doc.data['backlinks'].sort_by! { |e| e.data["title"] }
-      replace_links_in_content(doc, site)
-    end
-
-    site.documents.each { |doc| doc.data['backlinks'].uniq! }
   end
 
   def calculate_link_count(site, graph)

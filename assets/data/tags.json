@@ -37,8 +37,8 @@
     "literature"
   ],
   "/ince-memed": [
-    "literature",
-    "turkce"
+    "turkce",
+    "literature"
   ],
   "/literature": [
     "arts"
@@ -47,8 +47,8 @@
     "literature"
   ],
   "/turk-mirasi": [
-    "literature",
-    "turkce"
+    "turkce",
+    "literature"
   ],
   "/classical-music": [
     "music"
@@ -72,8 +72,8 @@
   ],
   "/sanatcilar": [
     "lists",
-    "music",
-    "turkce"
+    "turkce",
+    "music"
   ],
   "/paintings": [
     "arts"
@@ -110,9 +110,9 @@
     "philosophy"
   ],
   "/eudaimonia": [
-    "philosophy",
     "skills",
-    "top"
+    "top",
+    "philosophy"
   ],
   "/experiences-vs-materials": [
     "philosophy"
@@ -121,8 +121,8 @@
     "philosophy"
   ],
   "/freedom": [
-    "philosophy",
-    "soc"
+    "soc",
+    "philosophy"
   ],
   "/friends": [
     "philosophy"
@@ -137,21 +137,21 @@
     "philosophy"
   ],
   "/happiness": [
-    "philosophy",
+    "soc",
     "psy",
-    "soc"
+    "philosophy"
   ],
   "/hard-times": [
-    "philosophy",
-    "top"
+    "top",
+    "philosophy"
   ],
   "/ideal-insan": [
-    "philosophy",
-    "turkce"
+    "turkce",
+    "philosophy"
   ],
   "/in-praise-of-idleness": [
-    "essais",
     "phil",
+    "essais",
     "philosophy"
   ],
   "/know-where-to-stop": [
@@ -189,15 +189,15 @@
     "philosophy"
   ],
   "/stupidity": [
-    "philosophy",
-    "soc"
+    "soc",
+    "philosophy"
   ],
   "/success-and-failure": [
     "philosophy"
   ],
   "/take-a-walk": [
-    "philosophy",
-    "top"
+    "top",
+    "philosophy"
   ],
   "/the-less-the-better": [
     "philosophy"
@@ -240,8 +240,8 @@
     "work"
   ],
   "/photography": [
-    "arts",
-    "skills"
+    "skills",
+    "arts"
   ],
   "/brecht": [
     "poetry"
@@ -316,8 +316,8 @@
   ],
   "/tao-te-ching": [
     "phil",
-    "poetry",
-    "pols"
+    "pols",
+    "poetry"
   ],
   "/the-great-leader": [
     "tao-te-ching"
@@ -386,9 +386,9 @@
     "siir"
   ],
   "/siir": [
-    "arts",
+    "turkce",
     "poetry",
-    "turkce"
+    "arts"
   ],
   "/yunus-emre": [
     "siir"
@@ -445,13 +445,13 @@
     "experiments"
   ],
   "/time-scale": [
-    "experiments",
+    "time",
     "stem",
-    "time"
+    "experiments"
   ],
   "/typing-practice": [
-    "experiments",
-    "skills"
+    "skills",
+    "experiments"
   ],
   "/year-progress": [
     "experiments"
@@ -512,12 +512,12 @@
     "languages"
   ],
   "/metaphors": [
-    "languages",
-    "soc"
+    "soc",
+    "languages"
   ],
   "/modern-greek-alphabet": [
-    "languages",
-    "lists"
+    "lists",
+    "languages"
   ],
   "/nato-phonetic-alphabet": [
     "languages"
@@ -602,9 +602,9 @@
     "skills"
   ],
   "/critical-thinking": [
-    "decisions",
+    "skills",
     "phil",
-    "skills"
+    "decisions"
   ],
   "/decisions": [
     "skills",
@@ -614,8 +614,8 @@
     "decisions"
   ],
   "/do-the-right-thing": [
-    "decisions",
-    "phil"
+    "phil",
+    "decisions"
   ],
   "/do-without-doing": [
     "decisions"
@@ -645,8 +645,8 @@
     "skills"
   ],
   "/how-to-grow-old-russell": [
-    "essais",
     "phil",
+    "essais",
     "skills"
   ],
   "/humor": [
@@ -659,8 +659,8 @@
     "skills"
   ],
   "/learning": [
-    "skills",
-    "soc"
+    "soc",
+    "skills"
   ],
   "/making-videos": [
     "skills"
@@ -718,34 +718,34 @@
     "social-sciences"
   ],
   "/wage-theft": [
-    "economics",
-    "law"
+    "law",
+    "economics"
   ],
   "/wasted-talent": [
     "economics"
   ],
   "/121st-century": [
-    "history",
-    "time"
+    "time",
+    "history"
   ],
   "/farming-trap": [
     "essais",
     "history"
   ],
   "/history-of-technology": [
-    "history",
     "lists",
-    "stem"
+    "stem",
+    "history"
   ],
   "/history": [
-    "social-sciences",
-    "time"
+    "time",
+    "social-sciences"
   ],
   "/since-big-bang": [
-    "history",
-    "lists",
     "nat",
-    "time"
+    "lists",
+    "time",
+    "history"
   ],
   "/law": [
     "social-sciences"
@@ -757,10 +757,10 @@
     "politics"
   ],
   "/look-down-and-around": [
-    "essais",
+    "pols",
     "phil",
-    "politics",
-    "pols"
+    "essais",
+    "politics"
   ],
   "/orwell": [
     "politics"
@@ -772,9 +772,9 @@
     "politics"
   ],
   "/questioning-people-seen-as-a-threat-to-status-quo": [
-    "politics",
     "psy",
-    "soc"
+    "soc",
+    "politics"
   ],
   "/the-triumph-of-stupidity": [
     "essais",
@@ -791,9 +791,9 @@
     "cognitive-biases"
   ],
   "/cognitive-biases": [
-    "psychology",
     "soc",
-    "top"
+    "top",
+    "psychology"
   ],
   "/overvaluing-short-term": [
     "cognitive-biases"
@@ -862,9 +862,9 @@
     "psychology"
   ],
   "/solitude": [
+    "soc",
     "phil",
-    "psychology",
-    "soc"
+    "psychology"
   ],
   "/stages-of-grief": [
     "psychology"
@@ -893,8 +893,8 @@
     "work"
   ],
   "/social-media": [
-    "social-sciences",
-    "ux"
+    "ux",
+    "social-sciences"
   ],
   "/social-sciences": [
 
@@ -926,15 +926,15 @@
     "stem"
   ],
   "/containers": [
-    "computers",
-    "os"
+    "os",
+    "computers"
   ],
   "/acid": [
     "databases"
   ],
   "/b-trees": [
-    "databases",
-    "ds"
+    "ds",
+    "databases"
   ],
   "/databases": [
     "computers"
@@ -943,16 +943,16 @@
     "databases"
   ],
   "/db-data-structures": [
-    "databases",
-    "ds"
+    "ds",
+    "databases"
   ],
   "/leaderless-replication": [
     "databases"
   ],
   "/lsm-trees": [
+    "ds",
     "algo",
-    "databases",
-    "ds"
+    "databases"
   ],
   "/partitioning": [
     "databases"
@@ -985,8 +985,8 @@
     "distributed-systems"
   ],
   "/distributed-systems": [
-    "computers",
-    "sys"
+    "sys",
+    "computers"
   ],
   "/generate-a-unique-id": [
     "distributed-systems"
@@ -1067,8 +1067,8 @@
     "data-science"
   ],
   "/bayes": [
-    "algo",
-    "math"
+    "math",
+    "algo"
   ],
   "/counter-intuitive-math": [
     "math"
@@ -1098,8 +1098,8 @@
     "math"
   ],
   "/akins-laws-of-spacecraft": [
-    "natural-sciences",
-    "sys"
+    "sys",
+    "natural-sciences"
   ],
   "/astronomy": [
     "natural-sciences"
@@ -1133,15 +1133,15 @@
     "natural-sciences"
   ],
   "/going-blind": [
-    "health",
-    "phil"
+    "phil",
+    "health"
   ],
   "/health": [
     "natural-sciences"
   ],
   "/how-to-deal-with-pain": [
-    "health",
-    "phil"
+    "phil",
+    "health"
   ],
   "/sleep": [
     "health"
@@ -1156,8 +1156,8 @@
     "physics"
   ],
   "/inertia": [
-    "physics",
-    "psy"
+    "psy",
+    "physics"
   ],
   "/maxwell-equations": [
     "physics"
@@ -1180,26 +1180,26 @@
   ],
   "/array-rotate": [
     "arr",
-    "array",
-    "easy"
+    "easy",
+    "array"
   ],
   "/array": [
     "algorithms"
   ],
   "/count-primes": [
     "arr",
-    "array",
-    "mid"
+    "mid",
+    "array"
   ],
   "/generate-pascals-triangle": [
     "arr",
-    "array",
-    "easy"
+    "easy",
+    "array"
   ],
   "/group-anagrams": [
     "arr",
-    "array",
-    "easy"
+    "easy",
+    "array"
   ],
   "/longest-consecutive": [
     "arr",
@@ -1238,49 +1238,49 @@
   ],
   "/climb-stairs": [
     "dp",
-    "dynamic",
-    "easy"
+    "easy",
+    "dynamic"
   ],
   "/coin-change": [
     "dp",
-    "dynamic",
-    "mid"
+    "mid",
+    "dynamic"
   ],
   "/dynamic": [
-    "algorithms",
-    "dp"
+    "dp",
+    "algorithms"
   ],
   "/edit-distance": [
     "dp",
-    "dynamic",
-    "mid"
+    "mid",
+    "dynamic"
   ],
   "/house-robber": [
     "dp",
-    "dynamic",
-    "mid"
+    "mid",
+    "dynamic"
   ],
   "/lengthOfLIS": [
     "dp",
-    "dynamic",
-    "mid"
+    "mid",
+    "dynamic"
   ],
   "/longest-common-subsequence": [
     "dp",
-    "dynamic",
-    "mid"
+    "mid",
+    "dynamic"
   ],
   "/longest-diverse-str": [
-    "dp",
-    "dynamic",
     "heap",
+    "str",
+    "dp",
     "mid",
-    "str"
+    "dynamic"
   ],
   "/lowest-common-ancestor": [
     "dp",
-    "dynamic",
-    "gr"
+    "gr",
+    "dynamic"
   ],
   "/maximal-square": [
     "dp",
@@ -1288,8 +1288,8 @@
   ],
   "/min-edit-distance": [
     "dp",
-    "dynamic",
-    "mid"
+    "mid",
+    "dynamic"
   ],
   "/min-path-sum": [
     "dp",
@@ -1313,13 +1313,13 @@
   ],
   "/bfs-dfs-topo": [
     "gr",
-    "graph",
-    "mid"
+    "mid",
+    "graph"
   ],
   "/dijkstra": [
     "gr",
-    "graph",
-    "mid"
+    "mid",
+    "graph"
   ],
   "/graph": [
     "algorithms"
@@ -1346,47 +1346,47 @@
     "algorithms"
   ],
   "/max-water": [
-    "pointers",
-    "ptr"
+    "ptr",
+    "pointers"
   ],
   "/min-covering-window": [
-    "pointers",
-    "ptr"
+    "ptr",
+    "pointers"
   ],
   "/partition-labels": [
-    "pointers",
-    "ptr"
+    "ptr",
+    "pointers"
   ],
   "/pivot-index": [
-    "pointers",
-    "ptr"
+    "ptr",
+    "pointers"
   ],
   "/pointers": [
     "algorithms"
   ],
   "/reverse-letters-only": [
-    "pointers",
     "ptr",
-    "stack"
+    "stack",
+    "pointers"
   ],
   "/sliding-window-max": [
-    "pointers",
-    "ptr"
+    "ptr",
+    "pointers"
   ],
   "/threeSum": [
-    "pointers",
-    "ptr"
+    "ptr",
+    "pointers"
   ],
   "/producer-consumer-problem": [
-    "algorithms",
-    "concurrency"
+    "concurrency",
+    "algorithms"
   ],
   "/jump-game-2": [
     "queue"
   ],
   "/least-num-of-perfect-squares": [
-    "hard",
     "q",
+    "hard",
     "queue"
   ],
   "/queue": [
@@ -1396,8 +1396,8 @@
     "easy"
   ],
   "/bst": [
-    "easy",
-    "gr"
+    "gr",
+    "easy"
   ],
   "/local-maximum": [
     "math"
@@ -1415,41 +1415,41 @@
     "algorithms"
   ],
   "/check-brackets": [
-    "easy",
-    "stack"
+    "stack",
+    "easy"
   ],
   "/days-until-warmer-temperature": [
-    "easy",
-    "stack"
+    "stack",
+    "easy"
   ],
   "/dedup-game": [
-    "easy",
+    "str",
     "stack",
-    "str"
+    "easy"
   ],
   "/longest-valid-paranthesis": [
-    "mid",
     "ptr",
+    "str",
     "stack",
-    "str"
+    "mid"
   ],
   "/stack": [
     "algorithms"
   ],
   "/decode-string": [
-    "easy",
-    "stack",
     "str",
+    "stack",
+    "easy",
     "string"
   ],
   "/generate-n-grams": [
-    "mid",
     "str",
+    "mid",
     "string"
   ],
   "/longest-common-prefix": [
-    "easy",
     "str",
+    "easy",
     "string"
   ],
   "/rabin-karp": [
@@ -1532,8 +1532,8 @@
     "programming"
   ],
   "/for-new-programmers": [
-    "programming",
-    "top"
+    "top",
+    "programming"
   ],
   "/keyboard-shortcuts": [
     "programming"
@@ -1584,8 +1584,8 @@
     "oop"
   ],
   "/oop": [
-    "programming",
-    "sys"
+    "sys",
+    "programming"
   ],
   "/solid": [
     "oop"
@@ -1655,21 +1655,21 @@
     "programming-languages"
   ],
   "/programming": [
+    "swe",
     "skills",
-    "stem",
-    "swe"
+    "stem"
   ],
   "/async-crawler": [
-    "projects",
-    "python"
+    "python",
+    "projects"
   ],
   "/c-hashmap": [
     "c",
     "projects"
   ],
   "/compiler": [
-    "projects",
-    "python"
+    "python",
+    "projects"
   ],
   "/garbage-collector-in-c": [
     "c",
@@ -1683,20 +1683,20 @@
     "projects"
   ],
   "/mini-search-engine": [
-    "projects",
-    "python"
+    "python",
+    "projects"
   ],
   "/mini-web-server": [
-    "projects",
-    "python"
+    "python",
+    "projects"
   ],
   "/minik-robot": [
     "cpp",
     "projects"
   ],
   "/pascal-interpreter": [
-    "projects",
-    "python"
+    "python",
+    "projects"
   ],
   "/pca": [
     "ml",
@@ -1719,9 +1719,9 @@
     "projects"
   ],
   "/the-tao-of-programming": [
+    "top",
     "humor",
-    "programming",
-    "top"
+    "programming"
   ],
   "/unicode": [
     "programming"
@@ -1765,8 +1765,8 @@
     "system-design"
   ],
   "/system-design": [
-    "software-engineering",
-    "systems"
+    "systems",
+    "software-engineering"
   ],
   "/the-joel-test": [
     "software-engineering"
@@ -1804,9 +1804,9 @@
     "ux"
   ],
   "/ux": [
+    "web",
     "design",
-    "stem",
-    "web"
+    "stem"
   ],
   "/pub": [
 
