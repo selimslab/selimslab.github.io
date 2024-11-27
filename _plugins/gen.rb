@@ -1,58 +1,102 @@
 require 'json'
 require 'pp'
 
-NOTES_PATH = "./_NOTES"
-ASSETS_PATH = "./assets"
-STATIC_PATH = "./assets/static"
-DATA_PATH = "./assets/data"
+NOTES_PATH = "./_NOTES".freeze
+ASSETS_PATH = "./assets".freeze
+STATIC_PATH = "#{ASSETS_PATH}/static".freeze
+DATA_PATH = "#{ASSETS_PATH}/data".freeze
 DEBUG = true
 
 class SiteGenerator < Jekyll::Generator
-  @fixed_frontmatter = false
-  @generated = false
+  def initialize(config = {})
+    @fixed_frontmatter = false
+    @generated = false
+    @config = config
+  end
 
   def generate(site)
     return if @generated
-    unless @fixed_frontmatter
-      fix_frontmatter
-      @fixed_frontmatter = true
 
-    end
+    fix_frontmatter unless @fixed_frontmatter
 
-    site.data["tree"] = {}
-    site.data["tree_htmls"] = {}
-    site.data["tree_htmls_without_self"] = {}
-
-    initialize_backlinks(site)
-    initialize_file_to_tag(site)
-    initialize_file_to_title(site)
-    tree= generate_tree(site)
+    initialize_site_data(site)
+    tree = generate_tree(site)
     site.data["tree"] = tree
     generate_tree_htmls(site, tree)
-    level_order = tree_level_order(tree)
 
-    if DEBUG
-      write_json("#{DATA_PATH}/tree.json", tree)
-      write_json("#{DATA_PATH}/tree_htmls.json", site.data["tree_htmls"])
-      write_json("#{DATA_PATH}/tree_level_order.json", level_order)
-    end
+    log_debug_data(tree, site) if DEBUG
 
     process_documents(site)
 
     graph = generate_graph(site)
     site.data["link_count"] = calculate_link_count(site, graph)
 
-    ideas = JSON.parse(File.read("#{DATA_PATH}/ideas.json"))
-    ideas = ideas.shuffle(random: Random.new(ideas.length))
-    write_json("#{DATA_PATH}/ideas.json", ideas)
-    site.data["ideas"] = ideas
-
-    artworks = get_artworks
-    write_json("#{DATA_PATH}/artworks.json", artworks)
-
-    write_json("#{DATA_PATH}/tags.json", site.documents.map { |doc| [doc.id, doc.data["tags"]] }.to_h)
+    update_ideas(site)
+    update_artworks(site)
+    update_tags(site)
 
     @generated = true
+  end
+
+  private
+
+  def initialize_site_data(site)
+    site.data["tree"] = {}
+    site.data["tree_htmls"] = {}
+    site.data["tree_htmls_without_self"] = {}
+    initialize_backlinks(site)
+    initialize_file_to_tag(site)
+    initialize_file_to_title(site)
+  end
+
+  def log_debug_data(tree, site)
+    write_json("#{DATA_PATH}/tree.json", tree)
+    write_json("#{DATA_PATH}/tree_htmls.json", site.data["tree_htmls"])
+    write_json("#{DATA_PATH}/tree_level_order.json", tree_level_order(tree))
+  end
+
+  def update_ideas(site)
+    ideas = JSON.parse(File.read("#{DATA_PATH}/ideas.json"))
+    ideas.shuffle!(random: Random.new(ideas.length))
+    write_json("#{DATA_PATH}/ideas.json", ideas)
+    site.data["ideas"] = ideas
+  end
+
+  def update_artworks(site)
+    artworks = get_artworks
+    write_json("#{DATA_PATH}/artworks.json", artworks)
+  end
+
+  def update_tags(site)
+    write_json("#{DATA_PATH}/tags.json", site.documents.map { |doc| [doc.id, doc.data["tags"]] }.to_h)
+  end
+
+  def fix_frontmatter
+    Dir.glob("#{NOTES_PATH}/**/*.md").each do |file|
+      content = File.read(file).lstrip
+      add_frontmatter(file, content) unless content.start_with?("---")
+      fix_links(file, content)
+    end
+  end
+
+  def add_frontmatter(file, content)
+    content = "---\n---\n#{content}"
+    File.write(file, content)
+    puts "Added front matter to: #{file}"
+  end
+
+  def fix_links(file, content)
+    fixed = content.scan(/\[.*?\]\(.*?\)/).count do |link|
+      next false unless link.include?("|")
+      new_link = link.gsub("|", "-")
+      content.gsub!(link, new_link)
+      true
+    end
+
+    if fixed.positive?
+      File.write(file, content)
+      puts "Fixed #{fixed} links in: #{file}"
+    end
   end
 
   def get_artworks
@@ -195,31 +239,6 @@ class SiteGenerator < Jekyll::Generator
     write_json("#{DATA_PATH}/graph.json", graph_data)
   end
 
-  def fix_frontmatter
-    Dir.glob("#{NOTES_PATH}/**/*.md").each do |file|
-      content = File.read(file).lstrip
-
-      unless content.start_with?("---")
-        content = "---\n---\n#{content}"
-        File.write(file, content)
-        puts "Added front matter to: #{file}"
-      end
-
-      fixed = content.scan(/\[.*?\]\(.*?\)/).count do |link|
-        next false unless link.include?("|")
-        new_link = link.gsub("|", "-")
-        content.gsub!(link, new_link)
-        true
-      end
-
-      if fixed.positive?
-        File.write(file, content)
-        puts "Fixed #{fixed} links in: #{file}"
-      end
-    end
-
-  end
-
   def wikilinks_to_backlinks(doc, site)
     source_basename = remove_leading_slash(doc.id)
     linking_to_doc = site.documents.select do |e|
@@ -346,5 +365,7 @@ class SiteGenerator < Jekyll::Generator
 
   def write_json(path, data)
     File.open(path, "w") { |f| f.write(JSON.pretty_generate(data)) }
+  rescue StandardError => e
+    puts "Error writing JSON to #{path}: #{e.message}"
   end
 end
