@@ -4,7 +4,7 @@ tags: systems
 
 There are many kinds of tech with different tradeoffs but at the high level, many systems are built over the same fundamental ideas. 
 
-The starting point is why we are doing something in the first place, that is to create something useful. For that, most of the time a system needs a way to get some input, produce some output, store and retrieve data,  be reasonably fast and easy to use, respectful to the user and her time, to keep working even if some internal parts of it are broken, be reliable, not be wasteful or unnecessarily expensive, easy to monitor, easy to fix, easy to improve, thus easy to understand
+The starting point is why we are doing something in the first place, that is to create something useful. For that, most of the time a system needs a way to get some input, produce some output, store and retrieve data,  be reasonably fast and easy to use, respectful to the user and their time, to keep working even if some internal parts of it are broken, not to be wasteful, easy to monitor, fix, improve, and understand
 
 Not an exhaustive list but all the tools and tech we use are there to address a part of such concerns
 

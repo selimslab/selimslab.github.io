@@ -10,3 +10,4 @@ _notrack/*
 _*.md
 *.crx
 *.pem
+*.zip

@@ -1,4 +1,7 @@
 (function() {
+
+    // window.location.href = 'https://leetcode.com/studyplan/top-interview-150/';
+
     function modifyUrl() {
         let r = new URL(window.location.href);
         console.log(`modifying url: ${r.href}`);
