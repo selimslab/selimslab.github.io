@@ -3,7 +3,7 @@ title: Critical thinking
 tags: skills phil 
 ---
 
-- Dare to see with your own eyes
+- See with your own eyes
 - Look below the surface
 - "Delete the adjectives and you will have the facts."
 - All models are wrong, some are useful

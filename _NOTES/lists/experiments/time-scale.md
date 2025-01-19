@@ -20,6 +20,8 @@ and Big Bang happened 138 years ago.
 
 A decade is 3 seconds
 
+A human lifetime is about 20 seconds
+
 a century, 30 seconds
 
 200 years, a minute
@@ -27,8 +29,6 @@ a century, 30 seconds
 1000 years, 5 minutes 
 
 300 000 years, a day 
-
-A human lifetime is about 20 seconds
 
 **For the 45 years old Mother Earth,**
 

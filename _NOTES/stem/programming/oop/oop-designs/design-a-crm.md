@@ -2,7 +2,84 @@
 title: CRM design 
 ---
 
-```py
+```python
+# Core Domain Models
+class Entity:
+    id: UUID
+    created_at: datetime
+    updated_at: datetime
+
+class Contact(Entity):
+    email: str
+    name: str
+    channels: dict[ChannelType, Channel]
+    preferences: dict[PreferenceType, Preference]
+    segments: list[Segment]
+
+class Channel(Entity):
+    type: ChannelType
+    status: ChannelStatus
+    settings: dict
+
+# Channel Types
+class ChannelType(Enum):
+    EMAIL = "email"
+    SMS = "sms" 
+    PUSH = "push"
+    WEB = "web"
+
+# Events
+class Event(Entity):
+    contact_id: UUID
+    type: EventType
+    metadata: dict
+
+class EventType(Enum):
+    PAGE_VIEW = "page_view"
+    FORM_SUBMIT = "form_submit"
+    EMAIL_OPEN = "email_open"
+    EMAIL_CLICK = "email_click"
+
+# Journeys
+class Journey(Entity):
+    name: str
+    triggers: list[Trigger]
+    actions: list[Action]
+    conditions: list[Condition]
+
+class Trigger:
+    event_type: EventType
+    conditions: list[Condition]
+
+class Action:
+    channel: ChannelType
+    template: str
+    delay: timedelta
+
+# Services
+class ContactService:
+    def get_contact(id: UUID) -> Contact
+    def update_preferences(id: UUID, prefs: dict)
+    def add_to_segment(id: UUID, segment: Segment)
+
+class JourneyService:
+    def start_journey(contact: Contact, journey: Journey)
+    def process_event(event: Event)
+    def evaluate_conditions(contact: Contact, conditions: list[Condition])
+
+class MessageService:
+    def send_message(contact: Contact, channel: Channel, template: str)
+    def track_engagement(message_id: UUID, event_type: EventType)
+
+# APIs 
+class ContactAPI:
+    def __init__(self, contact_service: ContactService)
+
+class JourneyAPI:
+    def __init__(self, journey_service: JourneyService)
+
+class EventAPI:
+    def __init__(self, journey_service: JourneyService)
 
 class Base: 
     uid: UID
@@ -10,11 +87,6 @@ class Base:
 class UpdateRecord:
     updates: JSON 
 
-class Contact(Base):
-    email: Email 
-    subscriptions: list[Channel]
-    preferences: list[Preference]
-    
 class Channel(Base):
     ... 
 
@@ -40,9 +112,6 @@ class ChannelConsent(Preference):
     channel_id: UID 
 
 
-class Event(Base):
-    ...
-
 class Visit(Event):
     ...
 
@@ -61,35 +130,6 @@ class PubSubAPI:
 class EventAPI(PubSubAPI):
     ...
 
-class Trigger:
-    source: Event
-    target: Event 
-
-class Journey:
-    contact: Contact
-    triggers: list[Trigger]
-
-
-class CRUDAPI:
-    def create():
-        ...
-    def read():
-        ...
-    def update():
-        ...
-    def delete():
-        ...
-
-class ContactAPI(CRUDAPI):
-    ... 
-
-class ChannelAPI(CRUDAPI):
-    ... 
-
-class JourneyAPI(CRUDAPI):
-    ...
-
-
 class Orchestrator:
     journeys: list[Journeys]
     events_api: EventAPI
@@ -103,5 +143,4 @@ class App:
     def init():
         ... 
 
-    
 ```

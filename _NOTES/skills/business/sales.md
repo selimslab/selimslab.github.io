@@ -2,20 +2,16 @@
 
 ---
 
-Don't sell. Help. 
+- It starts with marketing. It's how people perceive your work. [Tag: marketing - Sketchplanations](https://sketchplanations.com/tags/marketing)
 
-Make a genuine connection, build trust
+- Don't sell. Help.
 
----
+- Make a genuine connection, build trust
 
-Be aware of how your product compares to others on the market, 
+- Be aware of how your product compares to others on the market, and be able to make a case for yours.
 
-and be able to make a case for yours.
+- People don't buy the thing, they buy the feeling they imagine.
 
----
-
-People don't buy the thing, they buy the feeling they imagine. 
-
-Sell results. Show how your product's characteristics relevant to customer's motivations
+- Sell results. Show how your product's characteristics relevant to customer's motivations
 
 [[communication]]

@@ -95,5 +95,3 @@ Coco (2017)
 Capernaum (2018)
 
 Soul (2020)
-
-

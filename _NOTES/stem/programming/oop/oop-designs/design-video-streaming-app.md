@@ -1,58 +1,66 @@
 ---
 ---
 
+```python
 
-```py
+class Metadata:
+    title: str
+    description: str
+    duration: int
+    tags: list[str]
 
-class UID:
-    ... 
+class Media:
+    uid: UUID
+    metadata: Metadata
 
-class UIDGenerator:
-    def generate()->UID:
-        ... 
+class Video(Media):
+    resolution: str
+    bitrate: int
 
-class File:
+class Audio(Media):
+    sample_rate: int
+    channels: int
+
+class MediaRepository:
+    def add(self, media: Media) -> None: ...
+    def get(self, uid: UUID) -> Optional[Media]: ...
+    def search(self, query: str) -> list[Media]: ...
+
+class StreamQuality:
+    resolution: str
+    bitrate: int
+
+class StreamingService:
+    def stream(self, media_id: UUID, quality: StreamQuality) -> bool: ...
+    def pause(self, stream_id: UUID) -> None: ...
+    def resume(self, stream_id: UUID) -> None: ...
+
+class User:
+    uid: UUID
+    username: str
+    email: str
+
+class AuthService:
+    def authenticate(self, credentials: dict) -> Optional[User]: ...
+    def register(self, user_data: dict) -> Optional[User]: ...
+
+@dataclass
+class Playlist:
+    uid: UUID
     name: str
-    uid: UID
-    path: Path 
+    owner: User
+    media_list: list[UUID]
 
-class MultiPart:
-    parts: list[File]
+class PlaylistService:
+    def create(self, user: User, name: str) -> Playlist: ...
+    def add_media(self, playlist_id: UUID, media_id: UUID) -> bool: ...
+    def get_playlists(self, user: User) -> list[Playlist]: ...
 
-class Audio(MultiPart):
-    ... 
+@dataclass
+class StreamingApp:
+    media_repo: MediaRepository
+    auth_service: AuthService
+    streaming_service: StreamingService
+    playlist_service: PlaylistService
 
-class Video(MultiPart):
-    ...
-
-class Collection:
-    def add(file:MultiPart):
-        ...
-
-    def get(uid:UID)->MultiPart:
-        ... 
-
-class Streamer:
-    def stream(uid:UID)->MultiPart?:
-        ... 
-
-class User: 
-    uid: UID
-    username: str 
-    auth_method: AuthMethod 
-    favorites: Collection
-
-class Auth:
-    def signin(username, password)-> User?:
-        ...
-
-    def signup(username, password)-> User?:
-        ...
-
-
-class VideoApp: 
-    auth: Auth 
-    library: Collection 
-    streamer: Streamer 
-
-```
+``` 

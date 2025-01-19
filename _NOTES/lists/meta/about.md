@@ -3,7 +3,7 @@ layout: page
 title: Welcome, friend!
 ---
 
-This is a place to bring together many things and have some fun
+This is a place to bring ideas together
 
 [Metadata](/meta)
 

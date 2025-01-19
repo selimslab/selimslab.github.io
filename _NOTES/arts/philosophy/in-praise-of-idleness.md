@@ -8,11 +8,11 @@ It is possible for every kind of life to have the basic necessities of a happy a
 
 Nature is balancing but humans are greedy
 
-Since the agriculture started, he majority works much harder then they should and a minority collects the surplus. First they did it by force but inventing stories about the nobility of labor made it easier to keep a large number of exploited workers under control and requires less men-power to coerce them so its much less expensive 
+Since the agriculture started, the majority works much harder then they should and a minority collects the surplus. First they did it by force but inventing stories about the nobility of labor made it easier to keep a large number of exploited workers under control and requires less men-power to coerce them so its much less expensive 
 
 A certain amount of manual labor is necessary to our existence but its not one of the ends of human life. If it were, we should have to consider every laborer superior to Shakespeare. 
 
-Modern methods of production have given us the possibility of ease and security for all; we have chosen instead to have overwork for some and starvation for others. 
+Modern methods of production have given us the possibility of ease and security for all. The powerful has chosen instead to have overwork for some and starvation for others. 
 
 In a world where no one is compelled to work more than four hours a day every person possessed of scientific curiosity will be able to indulge it, people will have time to learn their craft better and gain mastery 
 

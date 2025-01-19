@@ -8,7 +8,7 @@
     ],
     "applications": {
       "gecko": {
-        "id": "charlie"
+        "id": "charlie@example.com"
       }
     },
     "content_scripts": [
