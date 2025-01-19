@@ -1,65 +1,58 @@
+
+
+- [Δ Delta](#δ-delta)
+  - [How it works](#how-it-works)
+- [Setup](#setup)
+  - [Serve](#serve)
+  - [Deploy](#deploy)
+
 # Δ Delta  
 
 View at <https://selimslab.github.io>
 
 ![](assets/static/ss.jpg)
 
-## What is it?
-This is a place to bring together everything I like online.  
 
-Links, essays, photos, artworks, drawings, poetry, lists, code snippets, experiments, ..
-
-## Origin of the name 
 The name comes from the greek letter **delta**(Δ), 
 it's used as mathematical symbol of change,   
 often for incremental change. 
 
 It reflects the philosophy of doing one little thing at a time. 
+- Writing clarifies mind.   
+- Editing provides natural spaced repetition.  
+- Ideas spark each other and connect in creative ways. 
 
-## Motivation 
-Doing one little thing at a time compounds over time.   
-Writing clarifies mind.   
-Editing provides natural spaced repetition.  
-Ideas spark each other and connect in creative ways.  
-This leads to more iterations and virtuous cycles. 
+This is a place to bring together everything I like online.  
+
+Links, essays, photos, artworks, drawings, poetry, lists, code snippets, experiments, ..
 
 
 ## How it works 
 
-Plain markdown files 
+- Uses plain markdown files
+- Each page has a unique name
+- Pages can link to each other using:
+  - HTML links
+  - Markdown links 
+  - [[wikilink]] format
+- Pages show their incoming links
+- Files can tag each other by name
+- Tags appear above page titles
+- _plugins\gen.rb pre-processes pages to:
+  - Build document tree
+  - Convert wikilinks to HTML
+  - Add backlinks metadata
+  - Generate [3D Graph visualization](https://selimslab.github.io/graph-3d)
+- Published with Jekyll using [barryclark/jekyll-now](https://github.com/barryclark/jekyll-now)
+- Works offline via service worker
+  - Caches all pages (4-5mb) on first visit
 
-All pages have a unique name
-
-### Backlinks 
-Any file can link to any other using its name. With html, markdown, or [[wikilink]] format. 
-
-Pages list their incoming links 
-
-### Tags 
-Files can tag each other by their name.   
-Tags are listed above page title. 
-
-### Prepare 
-_plugins\gen.rb visits all pages before rendering. 
-
-Figures out document tree, replaces wikilinks with html links, and adds backlinks to page metadata. 
-
-### Publish 
-
-Published with jekyll, following [barryclark/jekyll-now](https://github.com/barryclark/jekyll-now)
-
-### Visualize
-[3D Graph of all pages](https://selimslab.github.io/graph-3d)
-
-### Works offline 
-A service worker caches all pages (4-5mb) on the first visit. 
-
-## Setup
+# Setup
 
 1. clone the repo
-3. install ruby <https://www.ruby-lang.org/en/downloads/>
-4. `gem install bundler jekyll`
-5. `bundle install`
+2. install ruby <https://www.ruby-lang.org/en/downloads/>
+3. `gem install bundler jekyll`
+4. `bundle install`
 
 ## Serve
 ```
