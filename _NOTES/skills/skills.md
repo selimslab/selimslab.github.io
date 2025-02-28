@@ -1,4 +1,6 @@
 ---
+tags: root
+
 ---
 
 [Tag: lifehack - Sketchplanations](https://sketchplanations.com/tags/lifehack)
