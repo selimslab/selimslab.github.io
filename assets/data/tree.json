@@ -54,76 +54,6 @@
       "/wind-and-rain": {
       }
     },
-    "/philosophy": {
-      "/all-is-one": {
-      },
-      "/balance": {
-      },
-      "/be-good-to-each-other-and-yourself": {
-      },
-      "/books-phil": {
-      },
-      "/character": {
-      },
-      "/choice": {
-      },
-      "/concepts-in-greek-thought": {
-      },
-      "/eudaimonia": {
-      },
-      "/freedom": {
-      },
-      "/getting-old": {
-      },
-      "/happiness": {
-      },
-      "/hard-times": {
-      },
-      "/ideal-insan": {
-      },
-      "/ideas": {
-      },
-      "/one-bit-better": {
-      },
-      "/philosophy": {
-      },
-      "/questions": {
-      },
-      "/success-and-failure": {
-      },
-      "/take-a-walk": {
-      },
-      "/the-less-the-better": {
-      },
-      "/travelling": {
-      },
-      "/truth": {
-      },
-      "/time": {
-        "/death": {
-        },
-        "/on-the-shortness-of-life": {
-        },
-        "/slow-down-time": {
-        },
-        "/the-past": {
-        },
-        "/time": {
-        }
-      },
-      "/work": {
-        "/career-advice": {
-        },
-        "/teamwork": {
-        },
-        "/what-to-work-on": {
-        },
-        "/work": {
-        },
-        "/you-are-not-nameless": {
-        }
-      }
-    },
     "/siir": {
       "/abbas": {
       },
@@ -159,29 +89,41 @@
       },
       "/classics": {
       },
+      "/ince-memed": {
+      },
       "/literature": {
       },
       "/the-art-of-war": {
-      }
-    },
-    "/edebiyat": {
-      "/edebiyat": {
-      },
-      "/ince-memed": {
       },
       "/turk-mirasi": {
       }
+    },
+    "/photography": {
     },
     "/paintings": {
     },
     "/cinema": {
     },
     "/arts": {
-    },
-    "/photography": {
     }
   },
   "/lists": {
+    "/blogs": {
+    },
+    "/datasets": {
+    },
+    "/essais": {
+    },
+    "/lists": {
+    },
+    "/quotes": {
+    },
+    "/web-experiments": {
+    },
+    "/authors": {
+    }
+  },
+  "/other": {
     "/experiments": {
       "/dots": {
       },
@@ -201,20 +143,76 @@
       },
       "/meta": {
       }
+    }
+  },
+  "/philosophy": {
+    "/work": {
+      "/career-advice": {
+      },
+      "/teamwork": {
+      },
+      "/what-to-work-on": {
+      },
+      "/work": {
+      },
+      "/you-are-not-nameless": {
+      }
     },
-    "/essais": {
+    "/time": {
+      "/death": {
+      },
+      "/on-the-shortness-of-life": {
+      },
+      "/slow-down-time": {
+      },
+      "/the-past": {
+      },
+      "/time": {
+      }
     },
-    "/lists": {
+    "/be-good-to-each-other-and-yourself": {
     },
-    "/quotes": {
+    "/books-phil": {
     },
-    "/web-experiments": {
+    "/character": {
     },
-    "/datasets": {
+    "/choice": {
     },
-    "/blogs": {
+    "/concepts-in-greek-thought": {
     },
-    "/authors": {
+    "/eudaimonia": {
+    },
+    "/freedom": {
+    },
+    "/getting-old": {
+    },
+    "/happiness": {
+    },
+    "/balance": {
+    },
+    "/ideal-insan": {
+    },
+    "/ideas": {
+    },
+    "/one-bit-better": {
+    },
+    "/philosophy": {
+    },
+    "/questions": {
+    },
+    "/success-and-failure": {
+    },
+    "/take-a-walk": {
+    },
+    "/the-less-the-better": {
+    },
+    "/travelling": {
+    },
+    "/truth": {
+    },
+    "/hard-times": {
+    },
+    "/all-is-one": {
     }
   },
   "/skills": {

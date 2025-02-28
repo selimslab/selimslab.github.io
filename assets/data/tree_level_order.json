@@ -2,31 +2,59 @@
   "/": [
     "/arts",
     "/lists",
+    "/other",
+    "/philosophy",
     "/skills",
     "/social-sciences",
     "/stem"
   ],
   "/arts": [
     "/poetry",
-    "/philosophy",
     "/siir",
     "/literature",
-    "/edebiyat",
+    "/photography",
     "/paintings",
     "/cinema",
-    "/arts",
-    "/photography"
+    "/arts"
   ],
   "/lists": [
-    "/experiments",
-    "/meta",
+    "/blogs",
+    "/datasets",
     "/essais",
     "/lists",
     "/quotes",
     "/web-experiments",
-    "/datasets",
-    "/blogs",
     "/authors"
+  ],
+  "/other": [
+    "/experiments",
+    "/meta"
+  ],
+  "/philosophy": [
+    "/work",
+    "/time",
+    "/be-good-to-each-other-and-yourself",
+    "/books-phil",
+    "/character",
+    "/choice",
+    "/concepts-in-greek-thought",
+    "/eudaimonia",
+    "/freedom",
+    "/getting-old",
+    "/happiness",
+    "/balance",
+    "/ideal-insan",
+    "/ideas",
+    "/one-bit-better",
+    "/philosophy",
+    "/questions",
+    "/success-and-failure",
+    "/take-a-walk",
+    "/the-less-the-better",
+    "/travelling",
+    "/truth",
+    "/hard-times",
+    "/all-is-one"
   ],
   "/skills": [
     "/decisions",
@@ -114,32 +142,6 @@
     "/wei-wu-wei",
     "/wind-and-rain"
   ],
-  "/philosophy": [
-    "/all-is-one",
-    "/balance",
-    "/be-good-to-each-other-and-yourself",
-    "/books-phil",
-    "/character",
-    "/choice",
-    "/concepts-in-greek-thought",
-    "/eudaimonia",
-    "/freedom",
-    "/getting-old",
-    "/happiness",
-    "/hard-times",
-    "/ideal-insan",
-    "/ideas",
-    "/one-bit-better",
-    "/philosophy",
-    "/questions",
-    "/success-and-failure",
-    "/take-a-walk",
-    "/the-less-the-better",
-    "/travelling",
-    "/truth",
-    "/time",
-    "/work"
-  ],
   "/siir": [
     "/abbas",
     "/asik-veysel",
@@ -159,12 +161,9 @@
   "/literature": [
     "/cien-anos-de-soledad",
     "/classics",
-    "/literature",
-    "/the-art-of-war"
-  ],
-  "/edebiyat": [
-    "/edebiyat",
     "/ince-memed",
+    "/literature",
+    "/the-art-of-war",
     "/turk-mirasi"
   ],
   "/experiments": [
@@ -178,6 +177,20 @@
     "/about",
     "/graph-2d",
     "/meta"
+  ],
+  "/work": [
+    "/career-advice",
+    "/teamwork",
+    "/what-to-work-on",
+    "/work",
+    "/you-are-not-nameless"
+  ],
+  "/time": [
+    "/death",
+    "/on-the-shortness-of-life",
+    "/slow-down-time",
+    "/the-past",
+    "/time"
   ],
   "/decisions": [
     "/critical-thinking",
@@ -287,20 +300,6 @@
     "/machine-learning",
     "/nlp",
     "/prompt-engineering"
-  ],
-  "/time": [
-    "/death",
-    "/on-the-shortness-of-life",
-    "/slow-down-time",
-    "/the-past",
-    "/time"
-  ],
-  "/work": [
-    "/career-advice",
-    "/teamwork",
-    "/what-to-work-on",
-    "/work",
-    "/you-are-not-nameless"
   ],
   "/astronomy": [
     "/astronomy",

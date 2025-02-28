@@ -5,20 +5,14 @@
   "/cinema": [
     "arts"
   ],
-  "/edebiyat": [
-    "arts"
-  ],
-  "/ince-memed": [
-    "edebiyat"
-  ],
-  "/turk-mirasi": [
-    "edebiyat"
-  ],
   "/cien-anos-de-soledad": [
     "literature"
   ],
   "/classics": [
     "lists",
+    "literature"
+  ],
+  "/ince-memed": [
     "literature"
   ],
   "/literature": [
@@ -27,113 +21,11 @@
   "/the-art-of-war": [
     "literature"
   ],
+  "/turk-mirasi": [
+    "literature"
+  ],
   "/paintings": [
     "arts"
-  ],
-  "/all-is-one": [
-    "philosophy"
-  ],
-  "/balance": [
-    "philosophy"
-  ],
-  "/be-good-to-each-other-and-yourself": [
-    "philosophy"
-  ],
-  "/books-phil": [
-    "philosophy"
-  ],
-  "/character": [
-    "philosophy"
-  ],
-  "/choice": [
-    "decisions",
-    "philosophy"
-  ],
-  "/concepts-in-greek-thought": [
-    "philosophy"
-  ],
-  "/eudaimonia": [
-    "philosophy",
-    "skills",
-    "top"
-  ],
-  "/freedom": [
-    "philosophy",
-    "soc"
-  ],
-  "/getting-old": [
-    "philosophy"
-  ],
-  "/happiness": [
-    "philosophy",
-    "psy",
-    "soc"
-  ],
-  "/hard-times": [
-    "philosophy",
-    "top"
-  ],
-  "/ideal-insan": [
-    "philosophy",
-    "turkce"
-  ],
-  "/ideas": [
-    "philosophy"
-  ],
-  "/one-bit-better": [
-    "philosophy"
-  ],
-  "/philosophy": [
-    "arts"
-  ],
-  "/questions": [
-    "philosophy"
-  ],
-  "/success-and-failure": [
-    "philosophy"
-  ],
-  "/take-a-walk": [
-    "philosophy",
-    "top"
-  ],
-  "/the-less-the-better": [
-    "philosophy"
-  ],
-  "/death": [
-    "time"
-  ],
-  "/on-the-shortness-of-life": [
-    "time"
-  ],
-  "/slow-down-time": [
-    "time"
-  ],
-  "/the-past": [
-    "time"
-  ],
-  "/time": [
-    "philosophy"
-  ],
-  "/travelling": [
-    "philosophy"
-  ],
-  "/truth": [
-    "philosophy"
-  ],
-  "/career-advice": [
-    "work"
-  ],
-  "/teamwork": [
-    "work"
-  ],
-  "/what-to-work-on": [
-    "work"
-  ],
-  "/work": [
-    "philosophy"
-  ],
-  "/you-are-not-nameless": [
-    "work"
   ],
   "/photography": [
     "arts",
@@ -275,6 +167,16 @@
   "/essais": [
     "lists"
   ],
+  "/lists": [
+    "root"
+  ],
+  "/quotes": [
+    "lists"
+  ],
+  "/web-experiments": [
+    "lists",
+    "ux"
+  ],
   "/dots": [
 
   ],
@@ -291,9 +193,6 @@
   "/year-progress": [
 
   ],
-  "/lists": [
-    "root"
-  ],
   "/about": [
     "meta"
   ],
@@ -301,14 +200,112 @@
     "meta"
   ],
   "/meta": [
-    "lists"
+
   ],
-  "/quotes": [
-    "lists"
+  "/all-is-one": [
+    "philosophy"
   ],
-  "/web-experiments": [
-    "lists",
-    "ux"
+  "/balance": [
+    "philosophy"
+  ],
+  "/be-good-to-each-other-and-yourself": [
+    "philosophy"
+  ],
+  "/books-phil": [
+    "philosophy"
+  ],
+  "/character": [
+    "philosophy"
+  ],
+  "/choice": [
+    "decisions",
+    "philosophy"
+  ],
+  "/concepts-in-greek-thought": [
+    "philosophy"
+  ],
+  "/eudaimonia": [
+    "philosophy",
+    "skills",
+    "top"
+  ],
+  "/freedom": [
+    "philosophy",
+    "soc"
+  ],
+  "/getting-old": [
+    "philosophy"
+  ],
+  "/happiness": [
+    "philosophy",
+    "psy",
+    "soc"
+  ],
+  "/hard-times": [
+    "philosophy",
+    "top"
+  ],
+  "/ideal-insan": [
+    "philosophy",
+    "turkce"
+  ],
+  "/ideas": [
+    "philosophy"
+  ],
+  "/one-bit-better": [
+    "philosophy"
+  ],
+  "/philosophy": [
+    "root"
+  ],
+  "/questions": [
+    "philosophy"
+  ],
+  "/success-and-failure": [
+    "philosophy"
+  ],
+  "/take-a-walk": [
+    "philosophy",
+    "top"
+  ],
+  "/the-less-the-better": [
+    "philosophy"
+  ],
+  "/death": [
+    "time"
+  ],
+  "/on-the-shortness-of-life": [
+    "time"
+  ],
+  "/slow-down-time": [
+    "time"
+  ],
+  "/the-past": [
+    "time"
+  ],
+  "/time": [
+    "philosophy"
+  ],
+  "/travelling": [
+    "philosophy"
+  ],
+  "/truth": [
+    "philosophy"
+  ],
+  "/career-advice": [
+    "work"
+  ],
+  "/teamwork": [
+    "work"
+  ],
+  "/what-to-work-on": [
+    "work"
+  ],
+  "/work": [
+    "philosophy"
+  ],
+  "/you-are-not-nameless": [
+    "work"
   ],
   "/business": [
     "skills"
