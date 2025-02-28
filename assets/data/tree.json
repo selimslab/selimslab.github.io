@@ -17,25 +17,11 @@
       },
       "/concepts-in-greek-thought": {
       },
-      "/enemies": {
-      },
-      "/epicurus": {
-      },
       "/eudaimonia": {
-      },
-      "/experiences-vs-materials": {
-      },
-      "/free-will": {
       },
       "/freedom": {
       },
-      "/friends": {
-      },
       "/getting-old": {
-      },
-      "/good-and-evil": {
-      },
-      "/gratitude": {
       },
       "/happiness": {
       },
@@ -43,37 +29,19 @@
       },
       "/ideal-insan": {
       },
-      "/in-praise-of-idleness": {
-      },
-      "/know-where-to-stop": {
-      },
-      "/koans": {
-      },
-      "/let-it-go": {
-      },
-      "/life-is-play": {
-      },
-      "/look-below-the-surface": {
-      },
-      "/moderation": {
-      },
       "/one-bit-better": {
       },
       "/philosophy": {
       },
-      "/phronesis": {
-      },
       "/questions": {
-      },
-      "/seeking": {
-      },
-      "/stupidity": {
       },
       "/success-and-failure": {
       },
       "/take-a-walk": {
       },
       "/the-less-the-better": {
+      },
+      "/travelling": {
       },
       "/truth": {
       },
@@ -83,8 +51,6 @@
         "/on-the-shortness-of-life": {
         },
         "/slow-down-time": {
-        },
-        "/the-morning": {
         },
         "/the-past": {
         },
@@ -224,22 +190,6 @@
       "/turk-mirasi": {
       }
     },
-    "/music": {
-      "/classical-music": {
-      },
-      "/electro-house": {
-      },
-      "/film-scores": {
-      },
-      "/music": {
-      },
-      "/rap": {
-      },
-      "/rock": {
-      },
-      "/sanatcilar": {
-      }
-    },
     "/design": {
       "/creativity": {
       },
@@ -264,62 +214,6 @@
     }
   },
   "/lists": {
-    "/languages": {
-      "/deutsch": {
-      },
-      "/english": {
-      },
-      "/languages": {
-      },
-      "/latin": {
-      },
-      "/metaphors": {
-      },
-      "/modern-greek-alphabet": {
-      },
-      "/nato-phonetic-alphabet": {
-      },
-      "/turkce": {
-      },
-      "/cestina": {
-        "/adjektiva": {
-        },
-        "/cas": {
-        },
-        "/cestina": {
-        },
-        "/cisla": {
-        },
-        "/domov": {
-        },
-        "/fraze": {
-        },
-        "/koníčky": {
-        },
-        "/podobna-slova": {
-        },
-        "/predlozky": {
-        },
-        "/slovesa": {
-        }
-      }
-    },
-    "/read": {
-      "/authors": {
-      },
-      "/blogs": {
-      },
-      "/books": {
-      },
-      "/comics": {
-      },
-      "/essais": {
-      },
-      "/ideas": {
-      },
-      "/news": {
-      }
-    },
     "/experiments": {
       "/dots": {
       },
@@ -330,48 +224,26 @@
       "/typing-practice": {
       },
       "/year-progress": {
-      },
-      "/drafts": {
-        "/digital-art": {
-        },
-        "/experiments": {
-        },
-        "/jobs": {
-        },
-        "/markdown-editor": {
-        },
-        "/mini-dots": {
-        },
-        "/music-player": {
-        },
-        "/photo-gallery": {
-        },
-        "/primes": {
-        },
-        "/rss-reader": {
-        },
-        "/savings-planner": {
-        },
-        "/search-index": {
-        },
-        "/shops": {
-        },
-        "/spreadsheet": {
-        },
-        "/video-call": {
-        },
-        "/video-player": {
-        }
       }
     },
-    "/interesting": {
-      "/datasets": {
+    "/read": {
+      "/authors": {
       },
-      "/games": {
+      "/blogs": {
       },
-      "/quotes": {
+      "/books": {
       },
-      "/web-experiments": {
+      "/ideas": {
+      },
+      "/news": {
+      }
+    },
+    "/languages": {
+      "/languages": {
+      },
+      "/latin": {
+      },
+      "/metaphors": {
       }
     },
     "/meta": {
@@ -380,6 +252,14 @@
       "/graph-2d": {
       },
       "/meta": {
+      }
+    },
+    "/interesting": {
+      "/datasets": {
+      },
+      "/quotes": {
+      },
+      "/web-experiments": {
       }
     },
     "/watch": {
@@ -392,20 +272,6 @@
     }
   },
   "/skills": {
-    "/business": {
-      "/business": {
-      },
-      "/company-culture": {
-      },
-      "/hiring": {
-      },
-      "/how-to-start-a-business": {
-      },
-      "/marketing": {
-      },
-      "/sales": {
-      }
-    },
     "/decisions": {
       "/critical-thinking": {
       },
@@ -413,15 +279,21 @@
       },
       "/do-one-thing-at-a-time-and-do-it-well": {
       },
-      "/do-the-right-thing": {
-      },
       "/do-without-doing": {
+      }
+    },
+    "/business": {
+      "/business": {
+      },
+      "/company-culture": {
+      },
+      "/hiring": {
+      },
+      "/sales": {
       }
     },
     "/communication": {
       "/communication": {
-      },
-      "/how-to-pitch": {
       },
       "/negotiations": {
       },
@@ -438,7 +310,7 @@
     },
     "/growing-plants": {
     },
-    "/home-life": {
+    "/habits": {
     },
     "/how-to-gain-wealth": {
     },
@@ -446,19 +318,11 @@
     },
     "/humor": {
     },
-    "/investing": {
-    },
-    "/leadership": {
+    "/driving": {
     },
     "/learning": {
     },
-    "/driving": {
-    },
     "/mastery": {
-    },
-    "/motocycles": {
-    },
-    "/mountaineering": {
     },
     "/outdoors": {
     },
@@ -470,116 +334,16 @@
     },
     "/teaching": {
     },
-    "/trading": {
-    },
-    "/travelling": {
-    },
     "/used-car-checklist": {
     },
     "/drawing": {
     },
-    "/making-videos": {
+    "/interviews": {
     },
     "/cooking": {
     }
   },
   "/social-sciences": {
-    "/psychology": {
-      "/gaslighting": {
-      },
-      "/habits": {
-      },
-      "/how-to-spot-a-liar": {
-      },
-      "/persuasion": {
-      },
-      "/procrastination": {
-      },
-      "/psychology": {
-      },
-      "/relationships": {
-      },
-      "/solitude": {
-      },
-      "/stages-of-grief": {
-      },
-      "/stress": {
-      },
-      "/cognitive-biases": {
-        "/bias-for-unhappiness": {
-        },
-        "/cognitive-biases": {
-        },
-        "/overvaluing-short-term": {
-        }
-      },
-      "/emotions": {
-        "/anger": {
-        },
-        "/anxiety": {
-        },
-        "/arrogance": {
-        },
-        "/courage": {
-        },
-        "/ego": {
-        },
-        "/emotions": {
-        },
-        "/empathy": {
-        },
-        "/hope": {
-        },
-        "/loneliness": {
-        },
-        "/love": {
-        },
-        "/respect": {
-        },
-        "/trust": {
-        },
-        "/unmet-needs": {
-        },
-        "/vulnerability": {
-        }
-      },
-      "/work": {
-        "/distractions": {
-        },
-        "/flow": {
-        },
-        "/how-to-start": {
-        },
-        "/overcoming-obstacles": {
-        },
-        "/praise-and-motivation": {
-        },
-        "/setting-rules": {
-        }
-      }
-    },
-    "/politics": {
-      "/asimov": {
-      },
-      "/brave-new-world": {
-      },
-      "/look-down-and-around": {
-      },
-      "/orwell": {
-      },
-      "/politics": {
-      },
-      "/prince": {
-      },
-      "/questioning-people-seen-as-a-threat-to-status-quo": {
-      },
-      "/the-triumph-of-stupidity": {
-      },
-      "/warfare-is-deception": {
-      },
-      "/who-goes-nazi": {
-      }
-    },
     "/history": {
       "/121st-century": {
       },
@@ -592,41 +356,37 @@
       "/since-big-bang": {
       }
     },
-    "/economics": {
-      "/economics": {
-      },
-      "/wage-theft": {
-      },
-      "/wasted-talent": {
-      }
-    },
-    "/sociology": {
-      "/social-change": {
-      },
-      "/social-class": {
-      },
-      "/social-groups": {
-      }
-    },
-    "/systems": {
-      "/chaos": {
-      },
-      "/systems": {
-      }
-    },
-    "/urban-planning": {
-    },
-    "/law": {
-    },
-    "/chomsky": {
+    "/being-poor": {
     },
     "/books-social": {
     },
-    "/being-poor": {
+    "/chomsky": {
+    },
+    "/cognitive-biases": {
+    },
+    "/economics": {
+    },
+    "/emotions": {
+    },
+    "/law": {
+    },
+    "/politics": {
+    },
+    "/psychology": {
+    },
+    "/social-media": {
     },
     "/social-sciences": {
     },
-    "/social-media": {
+    "/sociology": {
+    },
+    "/systems": {
+    },
+    "/the-triumph-of-stupidity": {
+    },
+    "/urban-planning": {
+    },
+    "/who-goes-nazi": {
     },
     "/architecture": {
     }
@@ -927,8 +687,6 @@
           },
           "/design-a-crm": {
           },
-          "/design-a-data-pipeline": {
-          },
           "/design-a-gov-cloud": {
           },
           "/design-a-personal-note-publishing-system": {
@@ -938,6 +696,8 @@
           "/design-a-web-crawler": {
           },
           "/design-auth": {
+          },
+          "/design-etl-pipeline": {
           },
           "/design-oauth": {
           },
@@ -950,35 +710,55 @@
         }
       },
       "/programming-languages": {
-        "/c": {
-        },
-        "/clojure": {
-        },
-        "/cpp": {
-        },
-        "/csharp": {
-        },
-        "/elixir": {
-        },
-        "/erlang": {
-        },
-        "/functional-programming": {
-        },
-        "/go": {
-        },
-        "/haskell": {
-        },
-        "/java": {
-        },
-        "/lisp": {
-        },
         "/programming-languages": {
         },
-        "/rust": {
-        },
-        "/scala": {
-        },
         "/typing": {
+        },
+        "/c#": {
+          "/csharp": {
+          }
+        },
+        "/data": {
+          "/sql": {
+          }
+        },
+        "/dist": {
+          "/elixir": {
+          },
+          "/erlang": {
+          }
+        },
+        "/func": {
+          "/functional-programming": {
+          },
+          "/haskell": {
+          },
+          "/lisp": {
+          }
+        },
+        "/go": {
+          "/go-data-races": {
+          },
+          "/go": {
+          }
+        },
+        "/jvm": {
+          "/clojure": {
+          },
+          "/java": {
+          },
+          "/kotlin": {
+          },
+          "/scala": {
+          }
+        },
+        "/low": {
+          "/c": {
+          },
+          "/cpp": {
+          },
+          "/rust": {
+          }
         },
         "/python": {
           "/c-and-python": {
@@ -992,6 +772,12 @@
           "/python": {
           },
           "/zen-of-python": {
+          }
+        },
+        "/web": {
+          "/ts": {
+          },
+          "/wasm": {
           }
         }
       },
@@ -1111,6 +897,8 @@
         "/leaderless-replication": {
         },
         "/lsm-trees": {
+        },
+        "/normalization": {
         },
         "/partitioning": {
         },

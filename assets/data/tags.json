@@ -50,31 +50,6 @@
     "literature",
     "turkce"
   ],
-  "/classical-music": [
-    "music"
-  ],
-  "/electro-house": [
-    "music"
-  ],
-  "/film-scores": [
-    "cinema",
-    "lists",
-    "music"
-  ],
-  "/music": [
-    "arts"
-  ],
-  "/rap": [
-    "music"
-  ],
-  "/rock": [
-    "music"
-  ],
-  "/sanatcilar": [
-    "lists",
-    "music",
-    "turkce"
-  ],
   "/paintings": [
     "arts"
   ],
@@ -103,37 +78,16 @@
   "/concepts-in-greek-thought": [
     "philosophy"
   ],
-  "/enemies": [
-    "philosophy"
-  ],
-  "/epicurus": [
-    "philosophy"
-  ],
   "/eudaimonia": [
     "philosophy",
     "skills",
     "top"
   ],
-  "/experiences-vs-materials": [
-    "philosophy"
-  ],
-  "/free-will": [
-    "philosophy"
-  ],
   "/freedom": [
     "philosophy",
     "soc"
   ],
-  "/friends": [
-    "philosophy"
-  ],
   "/getting-old": [
-    "philosophy"
-  ],
-  "/good-and-evil": [
-    "philosophy"
-  ],
-  "/gratitude": [
     "philosophy"
   ],
   "/happiness": [
@@ -149,48 +103,14 @@
     "philosophy",
     "turkce"
   ],
-  "/in-praise-of-idleness": [
-    "essais",
-    "phil",
-    "philosophy"
-  ],
-  "/know-where-to-stop": [
-    "philosophy"
-  ],
-  "/koans": [
-    "phil",
-    "philosophy"
-  ],
-  "/let-it-go": [
-    "philosophy"
-  ],
-  "/life-is-play": [
-    "philosophy"
-  ],
-  "/look-below-the-surface": [
-    "philosophy"
-  ],
-  "/moderation": [
-    "philosophy"
-  ],
   "/one-bit-better": [
     "philosophy"
   ],
   "/philosophy": [
     "arts"
   ],
-  "/phronesis": [
-    "philosophy"
-  ],
   "/questions": [
     "philosophy"
-  ],
-  "/seeking": [
-    "philosophy"
-  ],
-  "/stupidity": [
-    "philosophy",
-    "soc"
   ],
   "/success-and-failure": [
     "philosophy"
@@ -211,13 +131,13 @@
   "/slow-down-time": [
     "time"
   ],
-  "/the-morning": [
-    "time"
-  ],
   "/the-past": [
     "time"
   ],
   "/time": [
+    "philosophy"
+  ],
+  "/travelling": [
     "philosophy"
   ],
   "/truth": [
@@ -233,8 +153,7 @@
     "work"
   ],
   "/work": [
-    "philosophy",
-    "psychology"
+    "philosophy"
   ],
   "/you-are-not-nameless": [
     "work"
@@ -394,72 +313,22 @@
     "siir"
   ],
   "/dots": [
-    "experiments"
-  ],
-  "/digital-art": [
-
-  ],
-  "/experiments": [
-    "lists"
-  ],
-  "/jobs": [
-
-  ],
-  "/markdown-editor": [
-
-  ],
-  "/mini-dots": [
-
-  ],
-  "/music-player": [
-
-  ],
-  "/photo-gallery": [
-
-  ],
-  "/primes": [
-
-  ],
-  "/rss-reader": [
-
-  ],
-  "/savings-planner": [
-
-  ],
-  "/search-index": [
-
-  ],
-  "/shops": [
-
-  ],
-  "/spreadsheet": [
-
-  ],
-  "/video-call": [
-
-  ],
-  "/video-player": [
 
   ],
   "/graph-3d": [
-    "experiments"
+
   ],
   "/time-scale": [
-    "experiments",
     "stem",
     "time"
   ],
   "/typing-practice": [
-    "experiments",
     "skills"
   ],
   "/year-progress": [
-    "experiments"
-  ],
-  "/datasets": [
 
   ],
-  "/games": [
+  "/datasets": [
 
   ],
   "/quotes": [
@@ -467,42 +336,6 @@
   ],
   "/web-experiments": [
     "ux"
-  ],
-  "/adjektiva": [
-    "cestina"
-  ],
-  "/cas": [
-    "cestina"
-  ],
-  "/cestina": [
-    "languages"
-  ],
-  "/cisla": [
-    "cestina"
-  ],
-  "/domov": [
-    "cestina"
-  ],
-  "/fraze": [
-    "cestina"
-  ],
-  "/koníčky": [
-    "cestina"
-  ],
-  "/podobna-slova": [
-    "cestina"
-  ],
-  "/predlozky": [
-    "cestina"
-  ],
-  "/slovesa": [
-    "cestina"
-  ],
-  "/deutsch": [
-    "languages"
-  ],
-  "/english": [
-    "languages"
   ],
   "/languages": [
     "arts",
@@ -514,16 +347,6 @@
   "/metaphors": [
     "languages",
     "soc"
-  ],
-  "/modern-greek-alphabet": [
-    "languages",
-    "lists"
-  ],
-  "/nato-phonetic-alphabet": [
-    "languages"
-  ],
-  "/turkce": [
-    "languages"
   ],
   "/lists": [
 
@@ -547,12 +370,6 @@
   "/books": [
 
   ],
-  "/comics": [
-
-  ],
-  "/essais": [
-
-  ],
   "/ideas": [
 
   ],
@@ -574,20 +391,11 @@
   "/hiring": [
     "business"
   ],
-  "/how-to-start-a-business": [
-    "business"
-  ],
-  "/marketing": [
-    "business"
-  ],
   "/sales": [
     "business"
   ],
   "/communication": [
     "skills"
-  ],
-  "/how-to-pitch": [
-    "communication"
   ],
   "/negotiations": [
     "communication"
@@ -613,10 +421,6 @@
   "/do-one-thing-at-a-time-and-do-it-well": [
     "decisions"
   ],
-  "/do-the-right-thing": [
-    "decisions",
-    "phil"
-  ],
   "/do-without-doing": [
     "decisions"
   ],
@@ -638,7 +442,7 @@
   "/growing-plants": [
     "skills"
   ],
-  "/home-life": [
+  "/habits": [
     "skills"
   ],
   "/how-to-gain-wealth": [
@@ -652,27 +456,15 @@
   "/humor": [
     "skills"
   ],
-  "/investing": [
-    "skills"
-  ],
-  "/leadership": [
+  "/interviews": [
     "skills"
   ],
   "/learning": [
     "skills",
     "soc"
   ],
-  "/making-videos": [
-    "skills"
-  ],
   "/mastery": [
     "essais",
-    "skills"
-  ],
-  "/motocycles": [
-    "skills"
-  ],
-  "/mountaineering": [
     "skills"
   ],
   "/outdoors": [
@@ -693,12 +485,6 @@
   "/teaching": [
     "skills"
   ],
-  "/trading": [
-    "skills"
-  ],
-  "/travelling": [
-    "skills"
-  ],
   "/used-car-checklist": [
     "skills"
   ],
@@ -714,15 +500,16 @@
   "/chomsky": [
     "social-sciences"
   ],
+  "/cognitive-biases": [
+    "soc",
+    "social-sciences",
+    "top"
+  ],
   "/economics": [
     "social-sciences"
   ],
-  "/wage-theft": [
-    "economics",
-    "law"
-  ],
-  "/wasted-talent": [
-    "economics"
+  "/emotions": [
+    "social-sciences"
   ],
   "/121st-century": [
     "history",
@@ -750,147 +537,11 @@
   "/law": [
     "social-sciences"
   ],
-  "/asimov": [
-    "politics"
-  ],
-  "/brave-new-world": [
-    "politics"
-  ],
-  "/look-down-and-around": [
-    "essais",
-    "phil",
-    "politics",
-    "pols"
-  ],
-  "/orwell": [
-    "politics"
-  ],
   "/politics": [
     "social-sciences"
   ],
-  "/prince": [
-    "politics"
-  ],
-  "/questioning-people-seen-as-a-threat-to-status-quo": [
-    "politics",
-    "psy",
-    "soc"
-  ],
-  "/the-triumph-of-stupidity": [
-    "essais",
-    "politics"
-  ],
-  "/warfare-is-deception": [
-    "politics"
-  ],
-  "/who-goes-nazi": [
-    "essais",
-    "politics"
-  ],
-  "/bias-for-unhappiness": [
-    "cognitive-biases"
-  ],
-  "/cognitive-biases": [
-    "psychology",
-    "soc",
-    "top"
-  ],
-  "/overvaluing-short-term": [
-    "cognitive-biases"
-  ],
-  "/anger": [
-    "emotions"
-  ],
-  "/anxiety": [
-    "emotions"
-  ],
-  "/arrogance": [
-    "emotions"
-  ],
-  "/courage": [
-    "emotions"
-  ],
-  "/ego": [
-    "emotions"
-  ],
-  "/emotions": [
-    "psychology"
-  ],
-  "/empathy": [
-    "emotions"
-  ],
-  "/hope": [
-    "emotions"
-  ],
-  "/loneliness": [
-    "emotions"
-  ],
-  "/love": [
-    "emotions"
-  ],
-  "/respect": [
-    "emotions"
-  ],
-  "/trust": [
-    "emotions"
-  ],
-  "/unmet-needs": [
-    "emotions"
-  ],
-  "/vulnerability": [
-    "emotions"
-  ],
-  "/gaslighting": [
-    "psychology"
-  ],
-  "/habits": [
-    "psychology"
-  ],
-  "/how-to-spot-a-liar": [
-    "psychology"
-  ],
-  "/persuasion": [
-    "psychology"
-  ],
-  "/procrastination": [
-    "psychology"
-  ],
   "/psychology": [
     "social-sciences"
-  ],
-  "/relationships": [
-    "psychology"
-  ],
-  "/solitude": [
-    "phil",
-    "psychology",
-    "soc"
-  ],
-  "/stages-of-grief": [
-    "psychology"
-  ],
-  "/stress": [
-    "psychology"
-  ],
-  "/distractions": [
-    "work"
-  ],
-  "/flow": [
-    "work"
-  ],
-  "/how-to-start": [
-    "skills",
-    "soc",
-    "work"
-  ],
-  "/overcoming-obstacles": [
-    "work"
-  ],
-  "/praise-and-motivation": [
-    "work"
-  ],
-  "/setting-rules": [
-    "work"
   ],
   "/social-media": [
     "social-sciences",
@@ -899,24 +550,23 @@
   "/social-sciences": [
 
   ],
-  "/social-change": [
-
-  ],
-  "/social-class": [
-
-  ],
-  "/social-groups": [
-
-  ],
-  "/chaos": [
-    "systems"
+  "/sociology": [
+    "social-sciences"
   ],
   "/systems": [
     "nat",
     "social-sciences"
   ],
+  "/the-triumph-of-stupidity": [
+    "essais",
+    "social-sciences"
+  ],
   "/urban-planning": [
     "architecture",
+    "social-sciences"
+  ],
+  "/who-goes-nazi": [
+    "essais",
     "social-sciences"
   ],
   "/computers-from-scratch": [
@@ -953,6 +603,9 @@
     "algo",
     "databases",
     "ds"
+  ],
+  "/normalization": [
+    "databases"
   ],
   "/partitioning": [
     "databases"
@@ -1553,9 +1206,6 @@
   "/design-a-crm": [
     "oop-designs"
   ],
-  "/design-a-data-pipeline": [
-    "oop-designs"
-  ],
   "/design-a-gov-cloud": [
     "oop-designs"
   ],
@@ -1569,6 +1219,9 @@
     "oop-designs"
   ],
   "/design-auth": [
+    "oop-designs"
+  ],
+  "/design-etl-pipeline": [
     "oop-designs"
   ],
   "/design-oauth": [
@@ -1590,38 +1243,53 @@
   "/solid": [
     "oop"
   ],
-  "/c": [
-    "programming-languages"
-  ],
-  "/clojure": [
-    "programming-languages"
-  ],
-  "/cpp": [
-    "programming-languages"
-  ],
   "/csharp": [
-    "programming-languages"
+
+  ],
+  "/sql": [
+
   ],
   "/elixir": [
-    "programming-languages"
+
   ],
   "/erlang": [
-    "programming-languages"
+
   ],
   "/functional-programming": [
-    "programming-languages"
+
+  ],
+  "/haskell": [
+
+  ],
+  "/lisp": [
+
+  ],
+  "/go-data-races": [
+    "go"
   ],
   "/go": [
     "programming-languages"
   ],
-  "/haskell": [
-    "programming-languages"
+  "/clojure": [
+
   ],
   "/java": [
-    "programming-languages"
+
   ],
-  "/lisp": [
-    "programming-languages"
+  "/kotlin": [
+
+  ],
+  "/scala": [
+
+  ],
+  "/c": [
+
+  ],
+  "/cpp": [
+
+  ],
+  "/rust": [
+
   ],
   "/programming-languages": [
     "programming"
@@ -1645,14 +1313,14 @@
   "/zen-of-python": [
     "python"
   ],
-  "/rust": [
-    "programming-languages"
-  ],
-  "/scala": [
-    "programming-languages"
-  ],
   "/typing": [
     "programming-languages"
+  ],
+  "/ts": [
+
+  ],
+  "/wasm": [
+
   ],
   "/programming": [
     "skills",

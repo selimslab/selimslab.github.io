@@ -22,7 +22,6 @@
         "/poetry",
         "/siir",
         "/literature",
-        "/music",
         "/design",
         "/paintings",
         "/cinema",
@@ -36,16 +35,13 @@
       "name": "Lists",
       "links": [
         "/root",
-        "/languages",
-        "/read",
         "/experiments",
-        "/interesting",
+        "/read",
+        "/languages",
         "/meta",
+        "/interesting",
         "/watch",
         "/classics",
-        "/film-scores",
-        "/modern-greek-alphabet",
-        "/sanatcilar",
         "/authors",
         "/history-of-technology",
         "/since-big-bang"
@@ -57,39 +53,32 @@
       "name": "Skills",
       "links": [
         "/root",
-        "/business",
         "/decisions",
+        "/business",
         "/communication",
         "/drowning-does-not-look-dramatic",
         "/exercise",
         "/get-things-done",
         "/growing-plants",
-        "/home-life",
+        "/habits",
         "/how-to-gain-wealth",
         "/how-to-grow-old-russell",
         "/humor",
-        "/investing",
-        "/leadership",
-        "/learning",
         "/driving",
+        "/learning",
         "/mastery",
-        "/motocycles",
-        "/mountaineering",
         "/outdoors",
         "/parenting",
         "/problem-solving",
         "/teaching",
-        "/trading",
-        "/travelling",
         "/used-car-checklist",
         "/drawing",
-        "/making-videos",
+        "/interviews",
         "/cooking",
         "/critical-thinking",
         "/eudaimonia",
         "/photography",
         "/typing-practice",
-        "/how-to-start",
         "/programming"
       ]
     },
@@ -99,28 +88,27 @@
       "name": "Social Sciences",
       "links": [
         "/root",
-        "/psychology",
-        "/politics",
         "/history",
+        "/being-poor",
+        "/books-social",
+        "/chomsky",
+        "/cognitive-biases",
         "/economics",
+        "/emotions",
+        "/law",
+        "/politics",
+        "/psychology",
+        "/social-media",
         "/sociology",
         "/systems",
+        "/the-triumph-of-stupidity",
         "/urban-planning",
-        "/law",
-        "/chomsky",
-        "/books-social",
-        "/being-poor",
-        "/social-media",
+        "/who-goes-nazi",
         "/architecture",
-        "/cognitive-biases",
         "/freedom",
         "/happiness",
-        "/how-to-start",
         "/learning",
         "/metaphors",
-        "/questioning-people-seen-as-a-threat-to-status-quo",
-        "/solitude",
-        "/stupidity",
         "/hijacked-minds"
       ]
     },
@@ -155,44 +143,25 @@
         "/character",
         "/choice",
         "/concepts-in-greek-thought",
-        "/enemies",
-        "/epicurus",
         "/eudaimonia",
-        "/experiences-vs-materials",
-        "/free-will",
         "/freedom",
-        "/friends",
         "/getting-old",
-        "/good-and-evil",
-        "/gratitude",
         "/happiness",
         "/hard-times",
         "/ideal-insan",
-        "/in-praise-of-idleness",
-        "/know-where-to-stop",
-        "/koans",
-        "/let-it-go",
-        "/life-is-play",
-        "/look-below-the-surface",
-        "/moderation",
         "/one-bit-better",
-        "/phronesis",
         "/questions",
-        "/seeking",
-        "/stupidity",
         "/success-and-failure",
         "/take-a-walk",
         "/the-less-the-better",
+        "/travelling",
         "/truth",
         "/time",
         "/work",
         "/life-is-soft",
         "/tao-te-ching",
         "/critical-thinking",
-        "/do-the-right-thing",
         "/how-to-grow-old-russell",
-        "/look-down-and-around",
-        "/solitude",
         "/going-blind",
         "/how-to-deal-with-pain",
         "/philosophical-implications-of-quantum-mechanics"
@@ -248,8 +217,7 @@
         "/nazim",
         "/orhan-veli",
         "/yunus-emre",
-        "/poetry",
-        "/turkce"
+        "/poetry"
       ]
     },
     {
@@ -269,20 +237,6 @@
       ]
     },
     {
-      "id": "/music",
-      "group": 2,
-      "name": "Music",
-      "links": [
-        "/arts",
-        "/classical-music",
-        "/electro-house",
-        "/film-scores",
-        "/rap",
-        "/rock",
-        "/sanatcilar"
-      ]
-    },
-    {
       "id": "/design",
       "group": 2,
       "name": "Design",
@@ -293,7 +247,7 @@
         "/double-diamond",
         "/everyday-objects",
         "/ship-it",
-        "/how-to-start-a-business",
+        "/business",
         "/natural-ux",
         "/polished-pixels",
         "/ux"
@@ -313,7 +267,6 @@
       "name": "Cinema",
       "links": [
         "/arts",
-        "/film-scores",
         "/documentaries",
         "/movies"
       ]
@@ -328,20 +281,16 @@
       ]
     },
     {
-      "id": "/languages",
+      "id": "/experiments",
       "group": 2,
-      "name": "Languages",
+      "name": "Experiments",
       "links": [
         "/lists",
-        "/deutsch",
-        "/english",
-        "/latin",
-        "/metaphors",
-        "/modern-greek-alphabet",
-        "/nato-phonetic-alphabet",
-        "/turkce",
-        "/cestina",
-        "/arts"
+        "/dots",
+        "/graph-3d",
+        "/time-scale",
+        "/typing-practice",
+        "/year-progress"
       ]
     },
     {
@@ -353,38 +302,19 @@
         "/authors",
         "/blogs",
         "/books",
-        "/comics",
-        "/essais",
         "/ideas",
         "/news"
       ]
     },
     {
-      "id": "/experiments",
+      "id": "/languages",
       "group": 2,
-      "name": "Experiments",
+      "name": "Languages",
       "links": [
         "/lists",
-        "/dots",
-        "/graph-3d",
-        "/time-scale",
-        "/typing-practice",
-        "/year-progress",
-        "/drafts",
-        "/drafts",
-        "/projects"
-      ]
-    },
-    {
-      "id": "/interesting",
-      "group": 2,
-      "name": "Interesting",
-      "links": [
-        "/lists",
-        "/datasets",
-        "/games",
-        "/quotes",
-        "/web-experiments"
+        "/latin",
+        "/metaphors",
+        "/arts"
       ]
     },
     {
@@ -398,6 +328,17 @@
       ]
     },
     {
+      "id": "/interesting",
+      "group": 2,
+      "name": "Interesting",
+      "links": [
+        "/lists",
+        "/datasets",
+        "/quotes",
+        "/web-experiments"
+      ]
+    },
+    {
       "id": "/watch",
       "group": 2,
       "name": "Watch",
@@ -408,20 +349,6 @@
       ]
     },
     {
-      "id": "/business",
-      "group": 2,
-      "name": "Business",
-      "links": [
-        "/skills",
-        "/company-culture",
-        "/hiring",
-        "/how-to-start-a-business",
-        "/marketing",
-        "/sales",
-        "/wasted-talent"
-      ]
-    },
-    {
       "id": "/decisions",
       "group": 2,
       "name": "Decision Making",
@@ -429,12 +356,23 @@
         "/skills",
         "/critical-thinking",
         "/do-one-thing-at-a-time-and-do-it-well",
-        "/do-the-right-thing",
         "/do-without-doing",
-        "/do-not-lie-to-yourself",
-        "/character",
         "/choice",
         "/get-things-done"
+      ]
+    },
+    {
+      "id": "/business",
+      "group": 2,
+      "name": "Business",
+      "links": [
+        "/skills",
+        "/company-culture",
+        "/hiring",
+        "/sales",
+        "/design",
+        "/teamwork",
+        "/what-to-work-on"
       ]
     },
     {
@@ -443,7 +381,6 @@
       "name": "Communication",
       "links": [
         "/skills",
-        "/how-to-pitch",
         "/negotiations",
         "/public-speaking",
         "/write-better"
@@ -472,7 +409,6 @@
       "links": [
         "/skills",
         "/take-a-walk",
-        "/the-morning",
         "/what-to-work-on",
         "/decisions",
         "/do-one-thing-at-a-time-and-do-it-well"
@@ -487,9 +423,9 @@
       ]
     },
     {
-      "id": "/home-life",
+      "id": "/habits",
       "group": 2,
-      "name": "Home Life",
+      "name": "Habits",
       "links": [
         "/skills"
       ]
@@ -499,8 +435,7 @@
       "group": 2,
       "name": "How To Gain Wealth",
       "links": [
-        "/skills",
-        "/how-to-start-a-business"
+        "/skills"
       ]
     },
     {
@@ -509,8 +444,7 @@
       "name": "How to Grow Old, by Bertrand Russell",
       "links": [
         "/skills",
-        "/philosophy",
-        "/essais"
+        "/philosophy"
       ]
     },
     {
@@ -523,22 +457,12 @@
       ]
     },
     {
-      "id": "/investing",
+      "id": "/driving",
       "group": 2,
-      "name": "Investing",
-      "links": [
-        "/skills"
-      ]
-    },
-    {
-      "id": "/leadership",
-      "group": 2,
-      "name": "Leadership",
+      "name": "Driving",
       "links": [
         "/skills",
-        "/overvaluing-short-term",
-        "/praise-and-motivation",
-        "/setting-rules"
+        "/used-car-checklist"
       ]
     },
     {
@@ -551,35 +475,9 @@
       ]
     },
     {
-      "id": "/driving",
-      "group": 2,
-      "name": "Driving",
-      "links": [
-        "/skills",
-        "/used-car-checklist"
-      ]
-    },
-    {
       "id": "/mastery",
       "group": 2,
       "name": "Mastery",
-      "links": [
-        "/skills",
-        "/essais"
-      ]
-    },
-    {
-      "id": "/motocycles",
-      "group": 2,
-      "name": "Motocycles",
-      "links": [
-        "/skills"
-      ]
-    },
-    {
-      "id": "/mountaineering",
-      "group": 2,
-      "name": "Mountaineering",
       "links": [
         "/skills"
       ]
@@ -608,7 +506,6 @@
       "links": [
         "/skills",
         "/take-a-walk",
-        "/essais",
         "/critical-thinking"
       ]
     },
@@ -618,23 +515,6 @@
       "name": "Teaching",
       "links": [
         "/skills"
-      ]
-    },
-    {
-      "id": "/trading",
-      "group": 2,
-      "name": "Trading",
-      "links": [
-        "/skills"
-      ]
-    },
-    {
-      "id": "/travelling",
-      "group": 2,
-      "name": "Travelling",
-      "links": [
-        "/skills",
-        "/not-far-away"
       ]
     },
     {
@@ -655,9 +535,9 @@
       ]
     },
     {
-      "id": "/making-videos",
+      "id": "/interviews",
       "group": 2,
-      "name": "Making Videos",
+      "name": "Interviews",
       "links": [
         "/skills"
       ]
@@ -668,49 +548,6 @@
       "name": "Cooking",
       "links": [
         "/skills"
-      ]
-    },
-    {
-      "id": "/psychology",
-      "group": 2,
-      "name": "Psychology",
-      "links": [
-        "/social-sciences",
-        "/gaslighting",
-        "/habits",
-        "/how-to-spot-a-liar",
-        "/persuasion",
-        "/procrastination",
-        "/relationships",
-        "/solitude",
-        "/stages-of-grief",
-        "/stress",
-        "/cognitive-biases",
-        "/emotions",
-        "/work",
-        "/happiness",
-        "/parenting",
-        "/questioning-people-seen-as-a-threat-to-status-quo",
-        "/inertia"
-      ]
-    },
-    {
-      "id": "/politics",
-      "group": 2,
-      "name": "Politics",
-      "links": [
-        "/social-sciences",
-        "/asimov",
-        "/brave-new-world",
-        "/look-down-and-around",
-        "/orwell",
-        "/prince",
-        "/questioning-people-seen-as-a-threat-to-status-quo",
-        "/the-triumph-of-stupidity",
-        "/warfare-is-deception",
-        "/who-goes-nazi",
-        "/do-the-right-thing",
-        "/tao-te-ching"
       ]
     },
     {
@@ -727,59 +564,9 @@
       ]
     },
     {
-      "id": "/economics",
+      "id": "/being-poor",
       "group": 2,
-      "name": "Economics",
-      "links": [
-        "/social-sciences",
-        "/wage-theft",
-        "/wasted-talent"
-      ]
-    },
-    {
-      "id": "/sociology",
-      "group": 2,
-      "name": "Sociology",
-      "links": [
-        "/social-sciences",
-        "/social-change",
-        "/social-class",
-        "/social-groups"
-      ]
-    },
-    {
-      "id": "/systems",
-      "group": 2,
-      "name": "Systems Thinking",
-      "links": [
-        "/social-sciences",
-        "/chaos",
-        "/system-design",
-        "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/urban-planning",
-      "group": 2,
-      "name": "Urban Planning",
-      "links": [
-        "/social-sciences",
-        "/architecture"
-      ]
-    },
-    {
-      "id": "/law",
-      "group": 2,
-      "name": "Law",
-      "links": [
-        "/social-sciences",
-        "/wage-theft"
-      ]
-    },
-    {
-      "id": "/chomsky",
-      "group": 2,
-      "name": "Chomsky",
+      "name": "Being Poor",
       "links": [
         "/social-sciences"
       ]
@@ -793,11 +580,64 @@
       ]
     },
     {
-      "id": "/being-poor",
+      "id": "/chomsky",
       "group": 2,
-      "name": "Being Poor",
+      "name": "Chomsky",
       "links": [
         "/social-sciences"
+      ]
+    },
+    {
+      "id": "/cognitive-biases",
+      "group": 2,
+      "name": "Cognitive Biases",
+      "links": [
+        "/social-sciences"
+      ]
+    },
+    {
+      "id": "/economics",
+      "group": 2,
+      "name": "Economics",
+      "links": [
+        "/social-sciences"
+      ]
+    },
+    {
+      "id": "/emotions",
+      "group": 2,
+      "name": "Emotions",
+      "links": [
+        "/social-sciences"
+      ]
+    },
+    {
+      "id": "/law",
+      "group": 2,
+      "name": "Law",
+      "links": [
+        "/social-sciences"
+      ]
+    },
+    {
+      "id": "/politics",
+      "group": 2,
+      "name": "Politics",
+      "links": [
+        "/social-sciences",
+        "/tao-te-ching"
+      ]
+    },
+    {
+      "id": "/psychology",
+      "group": 2,
+      "name": "Psychology",
+      "links": [
+        "/social-sciences",
+        "/negotiations",
+        "/happiness",
+        "/parenting",
+        "/inertia"
       ]
     },
     {
@@ -807,6 +647,49 @@
       "links": [
         "/social-sciences",
         "/ux"
+      ]
+    },
+    {
+      "id": "/sociology",
+      "group": 2,
+      "name": "Sociology",
+      "links": [
+        "/social-sciences"
+      ]
+    },
+    {
+      "id": "/systems",
+      "group": 2,
+      "name": "Systems Thinking",
+      "links": [
+        "/social-sciences",
+        "/system-design",
+        "/natural-sciences"
+      ]
+    },
+    {
+      "id": "/the-triumph-of-stupidity",
+      "group": 2,
+      "name": "The Triumph of Stupidity, Bertrand Russell",
+      "links": [
+        "/social-sciences"
+      ]
+    },
+    {
+      "id": "/urban-planning",
+      "group": 2,
+      "name": "Urban Planning",
+      "links": [
+        "/social-sciences",
+        "/architecture"
+      ]
+    },
+    {
+      "id": "/who-goes-nazi",
+      "group": 2,
+      "name": "Who Goes Nazi",
+      "links": [
+        "/social-sciences"
       ]
     },
     {
@@ -997,7 +880,6 @@
       "links": [
         "/philosophy",
         "/do-not-lie-to-yourself",
-        "/decisions",
         "/eudaimonia",
         "/freedom"
       ]
@@ -1021,22 +903,6 @@
       ]
     },
     {
-      "id": "/enemies",
-      "group": 3,
-      "name": "Enemies",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/epicurus",
-      "group": 3,
-      "name": "Epicurus",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
       "id": "/eudaimonia",
       "group": 3,
       "name": "Eudaimonia 🌱",
@@ -1048,40 +914,14 @@
       ]
     },
     {
-      "id": "/experiences-vs-materials",
-      "group": 3,
-      "name": "Experiences Vs Materials",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/free-will",
-      "group": 3,
-      "name": "Free Will",
-      "links": [
-        "/philosophy",
-        "/freedom"
-      ]
-    },
-    {
       "id": "/freedom",
       "group": 3,
       "name": "Freedom",
       "links": [
         "/philosophy",
         "/character",
-        "/free-will",
         "/success-and-failure",
         "/social-sciences"
-      ]
-    },
-    {
-      "id": "/friends",
-      "group": 3,
-      "name": "Friends",
-      "links": [
-        "/philosophy"
       ]
     },
     {
@@ -1093,29 +933,11 @@
       ]
     },
     {
-      "id": "/good-and-evil",
-      "group": 3,
-      "name": "Good And Evil",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/gratitude",
-      "group": 3,
-      "name": "Gratitude",
-      "links": [
-        "/philosophy",
-        "/happiness"
-      ]
-    },
-    {
       "id": "/happiness",
       "group": 3,
       "name": "Happiness",
       "links": [
         "/philosophy",
-        "/gratitude",
         "/psychology",
         "/social-sciences"
       ]
@@ -1126,7 +948,6 @@
       "name": "Hard Times",
       "links": [
         "/philosophy",
-        "/bias-for-unhappiness",
         "/going-blind",
         "/how-to-deal-with-pain"
       ]
@@ -1135,65 +956,6 @@
       "id": "/ideal-insan",
       "group": 3,
       "name": "Ideal Insan",
-      "links": [
-        "/philosophy",
-        "/turkce"
-      ]
-    },
-    {
-      "id": "/in-praise-of-idleness",
-      "group": 3,
-      "name": "In Praise Of Idleness",
-      "links": [
-        "/philosophy",
-        "/essais"
-      ]
-    },
-    {
-      "id": "/know-where-to-stop",
-      "group": 3,
-      "name": "Know Where To Stop",
-      "links": [
-        "/philosophy",
-        "/do-one-thing-at-a-time-and-do-it-well"
-      ]
-    },
-    {
-      "id": "/koans",
-      "group": 3,
-      "name": "Koans",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/let-it-go",
-      "group": 3,
-      "name": "Let It Go",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/life-is-play",
-      "group": 3,
-      "name": "Life Is Play",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/look-below-the-surface",
-      "group": 3,
-      "name": "Look Below The Surface",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/moderation",
-      "group": 3,
-      "name": "Moderation",
       "links": [
         "/philosophy"
       ]
@@ -1207,37 +969,12 @@
       ]
     },
     {
-      "id": "/phronesis",
-      "group": 3,
-      "name": "Phronesis",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
       "id": "/questions",
       "group": 3,
       "name": "Questions",
       "links": [
         "/philosophy",
         "/critical-thinking"
-      ]
-    },
-    {
-      "id": "/seeking",
-      "group": 3,
-      "name": "Seeking",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/stupidity",
-      "group": 3,
-      "name": "Stupidity",
-      "links": [
-        "/philosophy",
-        "/social-sciences"
       ]
     },
     {
@@ -1268,6 +1005,14 @@
       ]
     },
     {
+      "id": "/travelling",
+      "group": 3,
+      "name": "Travelling",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
       "id": "/truth",
       "group": 3,
       "name": "Truth",
@@ -1285,7 +1030,6 @@
         "/death",
         "/on-the-shortness-of-life",
         "/slow-down-time",
-        "/the-morning",
         "/the-past",
         "/time-scale",
         "/121st-century",
@@ -1299,17 +1043,10 @@
       "name": "Work",
       "links": [
         "/philosophy",
-        "/psychology",
         "/career-advice",
         "/teamwork",
         "/what-to-work-on",
         "/you-are-not-nameless",
-        "/distractions",
-        "/flow",
-        "/how-to-start",
-        "/overcoming-obstacles",
-        "/praise-and-motivation",
-        "/setting-rules",
         "/be-good-to-each-other-and-yourself"
       ]
     },
@@ -1634,8 +1371,6 @@
       "name": "Do Not Lie To Yourself",
       "links": [
         "/literature",
-        "/decisions",
-        "/do-the-right-thing",
         "/character"
       ]
     },
@@ -1652,8 +1387,7 @@
       "group": 3,
       "name": "Ince Memed",
       "links": [
-        "/literature",
-        "/turkce"
+        "/literature"
       ]
     },
     {
@@ -1662,8 +1396,7 @@
       "name": "The Art of War",
       "links": [
         "/literature",
-        "/books-phil",
-        "/warfare-is-deception"
+        "/books-phil"
       ]
     },
     {
@@ -1671,60 +1404,7 @@
       "group": 3,
       "name": "Türk Mirası",
       "links": [
-        "/literature",
-        "/turkce"
-      ]
-    },
-    {
-      "id": "/classical-music",
-      "group": 3,
-      "name": "Classical Music",
-      "links": [
-        "/music"
-      ]
-    },
-    {
-      "id": "/electro-house",
-      "group": 3,
-      "name": "Electro House",
-      "links": [
-        "/music"
-      ]
-    },
-    {
-      "id": "/film-scores",
-      "group": 3,
-      "name": "Film Scores",
-      "links": [
-        "/music",
-        "/cinema",
-        "/lists"
-      ]
-    },
-    {
-      "id": "/rap",
-      "group": 3,
-      "name": "Rap",
-      "links": [
-        "/music"
-      ]
-    },
-    {
-      "id": "/rock",
-      "group": 3,
-      "name": "Rock",
-      "links": [
-        "/music"
-      ]
-    },
-    {
-      "id": "/sanatcilar",
-      "group": 3,
-      "name": "Sanatcilar",
-      "links": [
-        "/music",
-        "/turkce",
-        "/lists"
+        "/literature"
       ]
     },
     {
@@ -1732,9 +1412,7 @@
       "group": 3,
       "name": "Creativity",
       "links": [
-        "/design",
-        "/how-to-start-a-business",
-        "/teamwork"
+        "/design"
       ]
     },
     {
@@ -1768,153 +1446,6 @@
       "links": [
         "/design",
         "/on-software"
-      ]
-    },
-    {
-      "id": "/deutsch",
-      "group": 3,
-      "name": "Deutsch",
-      "links": [
-        "/languages"
-      ]
-    },
-    {
-      "id": "/english",
-      "group": 3,
-      "name": "English",
-      "links": [
-        "/languages"
-      ]
-    },
-    {
-      "id": "/latin",
-      "group": 3,
-      "name": "Latin",
-      "links": [
-        "/languages"
-      ]
-    },
-    {
-      "id": "/metaphors",
-      "group": 3,
-      "name": "Metaphors",
-      "links": [
-        "/languages",
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/modern-greek-alphabet",
-      "group": 3,
-      "name": "Modern Greek Alphabet",
-      "links": [
-        "/languages",
-        "/lists"
-      ]
-    },
-    {
-      "id": "/nato-phonetic-alphabet",
-      "group": 3,
-      "name": "NATO phonetic alphabet",
-      "links": [
-        "/languages"
-      ]
-    },
-    {
-      "id": "/turkce",
-      "group": 3,
-      "name": "Turkce",
-      "links": [
-        "/languages",
-        "/ideal-insan",
-        "/ince-memed",
-        "/sanatcilar",
-        "/turk-mirasi",
-        "/siir"
-      ]
-    },
-    {
-      "id": "/cestina",
-      "group": 3,
-      "name": "Cestina",
-      "links": [
-        "/languages",
-        "/adjektiva",
-        "/cas",
-        "/cisla",
-        "/domov",
-        "/fraze",
-        "/koníčky",
-        "/podobna-slova",
-        "/predlozky",
-        "/slovesa"
-      ]
-    },
-    {
-      "id": "/authors",
-      "group": 3,
-      "name": "Authors",
-      "links": [
-        "/read",
-        "/literature",
-        "/lists"
-      ]
-    },
-    {
-      "id": "/blogs",
-      "group": 3,
-      "name": "Blogs",
-      "links": [
-        "/read"
-      ]
-    },
-    {
-      "id": "/books",
-      "group": 3,
-      "name": "Books",
-      "links": [
-        "/read"
-      ]
-    },
-    {
-      "id": "/comics",
-      "group": 3,
-      "name": "Comics",
-      "links": [
-        "/read"
-      ]
-    },
-    {
-      "id": "/essais",
-      "group": 3,
-      "name": "Essais",
-      "links": [
-        "/read",
-        "/in-praise-of-idleness",
-        "/how-to-grow-old-russell",
-        "/mastery",
-        "/problem-solving",
-        "/farming-trap",
-        "/look-down-and-around",
-        "/the-triumph-of-stupidity",
-        "/who-goes-nazi",
-        "/feynmans-epilogue"
-      ]
-    },
-    {
-      "id": "/ideas",
-      "group": 3,
-      "name": "Ideas",
-      "links": [
-        "/read"
-      ]
-    },
-    {
-      "id": "/news",
-      "group": 3,
-      "name": "News",
-      "links": [
-        "/read"
       ]
     },
     {
@@ -1962,26 +1493,78 @@
       ]
     },
     {
-      "id": "/drafts",
+      "id": "/authors",
       "group": 3,
-      "name": "Drafts",
+      "name": "Authors",
       "links": [
-        "/experiments",
-        "/digital-art",
-        "/experiments",
-        "/jobs",
-        "/markdown-editor",
-        "/mini-dots",
-        "/music-player",
-        "/photo-gallery",
-        "/primes",
-        "/rss-reader",
-        "/savings-planner",
-        "/search-index",
-        "/shops",
-        "/spreadsheet",
-        "/video-call",
-        "/video-player"
+        "/read",
+        "/literature",
+        "/lists"
+      ]
+    },
+    {
+      "id": "/blogs",
+      "group": 3,
+      "name": "Blogs",
+      "links": [
+        "/read"
+      ]
+    },
+    {
+      "id": "/books",
+      "group": 3,
+      "name": "Books",
+      "links": [
+        "/read"
+      ]
+    },
+    {
+      "id": "/ideas",
+      "group": 3,
+      "name": "Ideas",
+      "links": [
+        "/read"
+      ]
+    },
+    {
+      "id": "/news",
+      "group": 3,
+      "name": "News",
+      "links": [
+        "/read"
+      ]
+    },
+    {
+      "id": "/latin",
+      "group": 3,
+      "name": "Latin",
+      "links": [
+        "/languages"
+      ]
+    },
+    {
+      "id": "/metaphors",
+      "group": 3,
+      "name": "Metaphors",
+      "links": [
+        "/languages",
+        "/social-sciences"
+      ]
+    },
+    {
+      "id": "/about",
+      "group": 3,
+      "name": "Welcome, friend!",
+      "links": [
+        "/meta"
+      ]
+    },
+    {
+      "id": "/graph-2d",
+      "group": 3,
+      "name": "2D Graph of All Pages",
+      "links": [
+        "/meta"
       ]
     },
     {
@@ -1991,14 +1574,6 @@
       "links": [
         "/interesting",
         "/probability-and-statistics"
-      ]
-    },
-    {
-      "id": "/games",
-      "group": 3,
-      "name": "Games",
-      "links": [
-        "/interesting"
       ]
     },
     {
@@ -2019,22 +1594,6 @@
       ]
     },
     {
-      "id": "/about",
-      "group": 3,
-      "name": "Welcome, friend!",
-      "links": [
-        "/meta"
-      ]
-    },
-    {
-      "id": "/graph-2d",
-      "group": 3,
-      "name": "2D Graph of All Pages",
-      "links": [
-        "/meta"
-      ]
-    },
-    {
       "id": "/documentaries",
       "group": 3,
       "name": "Documentaries",
@@ -2050,53 +1609,6 @@
       "links": [
         "/watch",
         "/cinema"
-      ]
-    },
-    {
-      "id": "/company-culture",
-      "group": 3,
-      "name": "Company Culture",
-      "links": [
-        "/business"
-      ]
-    },
-    {
-      "id": "/hiring",
-      "group": 3,
-      "name": "Hiring",
-      "links": [
-        "/business",
-        "/how-to-start-a-business"
-      ]
-    },
-    {
-      "id": "/how-to-start-a-business",
-      "group": 3,
-      "name": "How To Start A Business",
-      "links": [
-        "/business",
-        "/creativity",
-        "/design",
-        "/teamwork",
-        "/what-to-work-on",
-        "/hiring",
-        "/how-to-gain-wealth"
-      ]
-    },
-    {
-      "id": "/marketing",
-      "group": 3,
-      "name": "Marketing",
-      "links": [
-        "/business"
-      ]
-    },
-    {
-      "id": "/sales",
-      "group": 3,
-      "name": "Sales",
-      "links": [
-        "/business"
       ]
     },
     {
@@ -2119,20 +1631,8 @@
       "name": "Do One Thing At A Time And Do It Well",
       "links": [
         "/decisions",
-        "/know-where-to-stop",
         "/lightly-child",
         "/get-things-done"
-      ]
-    },
-    {
-      "id": "/do-the-right-thing",
-      "group": 3,
-      "name": "Do The Right Thing",
-      "links": [
-        "/decisions",
-        "/do-not-lie-to-yourself",
-        "/philosophy",
-        "/politics"
       ]
     },
     {
@@ -2144,11 +1644,27 @@
       ]
     },
     {
-      "id": "/how-to-pitch",
+      "id": "/company-culture",
       "group": 3,
-      "name": "How to pitch?",
+      "name": "Company Culture",
       "links": [
-        "/communication"
+        "/business"
+      ]
+    },
+    {
+      "id": "/hiring",
+      "group": 3,
+      "name": "Hiring",
+      "links": [
+        "/business"
+      ]
+    },
+    {
+      "id": "/sales",
+      "group": 3,
+      "name": "Sales",
+      "links": [
+        "/business"
       ]
     },
     {
@@ -2157,7 +1673,7 @@
       "name": "Negotiations",
       "links": [
         "/communication",
-        "/persuasion"
+        "/psychology"
       ]
     },
     {
@@ -2177,192 +1693,6 @@
       ]
     },
     {
-      "id": "/gaslighting",
-      "group": 3,
-      "name": "Gaslighting",
-      "links": [
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/habits",
-      "group": 3,
-      "name": "Habits",
-      "links": [
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/how-to-spot-a-liar",
-      "group": 3,
-      "name": "How To Spot A Liar",
-      "links": [
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/persuasion",
-      "group": 3,
-      "name": "Persuasion",
-      "links": [
-        "/psychology",
-        "/negotiations"
-      ]
-    },
-    {
-      "id": "/procrastination",
-      "group": 3,
-      "name": "Procrastination",
-      "links": [
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/relationships",
-      "group": 3,
-      "name": "Relationships",
-      "links": [
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/solitude",
-      "group": 3,
-      "name": "Solitude",
-      "links": [
-        "/psychology",
-        "/philosophy",
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/stages-of-grief",
-      "group": 3,
-      "name": "Stages Of Grief",
-      "links": [
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/stress",
-      "group": 3,
-      "name": "Stress",
-      "links": [
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/cognitive-biases",
-      "group": 3,
-      "name": "Cognitive Biases",
-      "links": [
-        "/psychology",
-        "/bias-for-unhappiness",
-        "/overvaluing-short-term",
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/emotions",
-      "group": 3,
-      "name": "Emotions",
-      "links": [
-        "/psychology",
-        "/anger",
-        "/anxiety",
-        "/arrogance",
-        "/courage",
-        "/ego",
-        "/empathy",
-        "/hope",
-        "/loneliness",
-        "/love",
-        "/respect",
-        "/trust",
-        "/unmet-needs",
-        "/vulnerability"
-      ]
-    },
-    {
-      "id": "/asimov",
-      "group": 3,
-      "name": "Asimov",
-      "links": [
-        "/politics"
-      ]
-    },
-    {
-      "id": "/brave-new-world",
-      "group": 3,
-      "name": "Brave New World",
-      "links": [
-        "/politics"
-      ]
-    },
-    {
-      "id": "/look-down-and-around",
-      "group": 3,
-      "name": "Look Down And Around",
-      "links": [
-        "/politics",
-        "/philosophy",
-        "/essais"
-      ]
-    },
-    {
-      "id": "/orwell",
-      "group": 3,
-      "name": "Orwell",
-      "links": [
-        "/politics"
-      ]
-    },
-    {
-      "id": "/prince",
-      "group": 3,
-      "name": "Prince",
-      "links": [
-        "/politics"
-      ]
-    },
-    {
-      "id": "/questioning-people-seen-as-a-threat-to-status-quo",
-      "group": 3,
-      "name": "Questioning People Seen As A Threat To Status Quo",
-      "links": [
-        "/politics",
-        "/psychology",
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/the-triumph-of-stupidity",
-      "group": 3,
-      "name": "The Triumph of Stupidity, Bertrand Russell",
-      "links": [
-        "/politics",
-        "/essais"
-      ]
-    },
-    {
-      "id": "/warfare-is-deception",
-      "group": 3,
-      "name": "Warfare Is Deception",
-      "links": [
-        "/politics",
-        "/the-art-of-war"
-      ]
-    },
-    {
-      "id": "/who-goes-nazi",
-      "group": 3,
-      "name": "Who Goes Nazi",
-      "links": [
-        "/politics",
-        "/essais"
-      ]
-    },
-    {
       "id": "/121st-century",
       "group": 3,
       "name": "121st century",
@@ -2376,8 +1706,7 @@
       "group": 3,
       "name": "Farming Trap",
       "links": [
-        "/history",
-        "/essais"
+        "/history"
       ]
     },
     {
@@ -2399,56 +1728,6 @@
         "/time",
         "/lists",
         "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/wage-theft",
-      "group": 3,
-      "name": "Wage Theft",
-      "links": [
-        "/economics",
-        "/law"
-      ]
-    },
-    {
-      "id": "/wasted-talent",
-      "group": 3,
-      "name": "Wasted Talent",
-      "links": [
-        "/economics",
-        "/business"
-      ]
-    },
-    {
-      "id": "/social-change",
-      "group": 3,
-      "name": "Social Change",
-      "links": [
-        "/sociology"
-      ]
-    },
-    {
-      "id": "/social-class",
-      "group": 3,
-      "name": "Social Class",
-      "links": [
-        "/sociology"
-      ]
-    },
-    {
-      "id": "/social-groups",
-      "group": 3,
-      "name": "Social Groups",
-      "links": [
-        "/sociology"
-      ]
-    },
-    {
-      "id": "/chaos",
-      "group": 3,
-      "name": "Chaos",
-      "links": [
-        "/systems"
       ]
     },
     {
@@ -2492,8 +1771,7 @@
       "group": 3,
       "name": "Feynmans Epilogue",
       "links": [
-        "/natural-sciences",
-        "/essais"
+        "/natural-sciences"
       ]
     },
     {
@@ -2679,21 +1957,16 @@
       "name": "Programming Languages",
       "links": [
         "/programming",
-        "/c",
-        "/clojure",
-        "/cpp",
-        "/csharp",
-        "/elixir",
-        "/erlang",
-        "/functional-programming",
-        "/go",
-        "/haskell",
-        "/java",
-        "/lisp",
-        "/rust",
-        "/scala",
         "/typing",
-        "/python"
+        "/c#",
+        "/data",
+        "/dist",
+        "/func",
+        "/go",
+        "/jvm",
+        "/low",
+        "/python",
+        "/web"
       ]
     },
     {
@@ -2715,8 +1988,7 @@
         "/pca",
         "/pneumonia-detection",
         "/predict-movie-genres",
-        "/vga-driver",
-        "/experiments"
+        "/vga-driver"
       ]
     },
     {
@@ -2939,6 +2211,7 @@
         "/db-data-structures",
         "/leaderless-replication",
         "/lsm-trees",
+        "/normalization",
         "/partitioning",
         "/replication",
         "/single-leader",
@@ -3121,15 +2394,6 @@
       ]
     },
     {
-      "id": "/the-morning",
-      "group": 4,
-      "name": "The Morning",
-      "links": [
-        "/time",
-        "/get-things-done"
-      ]
-    },
-    {
       "id": "/the-past",
       "group": 4,
       "name": "Learn and move on",
@@ -3151,8 +2415,7 @@
       "name": "Teamwork",
       "links": [
         "/work",
-        "/creativity",
-        "/how-to-start-a-business",
+        "/business",
         "/what-to-work-on"
       ]
     },
@@ -3163,8 +2426,8 @@
       "links": [
         "/work",
         "/teamwork",
-        "/get-things-done",
-        "/how-to-start-a-business"
+        "/business",
+        "/get-things-done"
       ]
     },
     {
@@ -3230,8 +2493,7 @@
       "group": 4,
       "name": "Not Far Away",
       "links": [
-        "/tao-te-ching",
-        "/travelling"
+        "/tao-te-ching"
       ]
     },
     {
@@ -3264,364 +2526,6 @@
       "name": "Wind And Rain",
       "links": [
         "/tao-te-ching"
-      ]
-    },
-    {
-      "id": "/adjektiva",
-      "group": 4,
-      "name": "Adjektiva",
-      "links": [
-        "/cestina"
-      ]
-    },
-    {
-      "id": "/cas",
-      "group": 4,
-      "name": "Cas",
-      "links": [
-        "/cestina"
-      ]
-    },
-    {
-      "id": "/cisla",
-      "group": 4,
-      "name": "Cisla",
-      "links": [
-        "/cestina"
-      ]
-    },
-    {
-      "id": "/domov",
-      "group": 4,
-      "name": "Domov",
-      "links": [
-        "/cestina"
-      ]
-    },
-    {
-      "id": "/fraze",
-      "group": 4,
-      "name": "Fraze",
-      "links": [
-        "/cestina"
-      ]
-    },
-    {
-      "id": "/koníčky",
-      "group": 4,
-      "name": "Koníčky",
-      "links": [
-        "/cestina"
-      ]
-    },
-    {
-      "id": "/podobna-slova",
-      "group": 4,
-      "name": "Podobna Slova",
-      "links": [
-        "/cestina"
-      ]
-    },
-    {
-      "id": "/predlozky",
-      "group": 4,
-      "name": "Predlozky",
-      "links": [
-        "/cestina"
-      ]
-    },
-    {
-      "id": "/slovesa",
-      "group": 4,
-      "name": "Slovesa",
-      "links": [
-        "/cestina"
-      ]
-    },
-    {
-      "id": "/digital-art",
-      "group": 4,
-      "name": "Digital Art",
-      "links": [
-        "/drafts"
-      ]
-    },
-    {
-      "id": "/jobs",
-      "group": 4,
-      "name": "Jobs",
-      "links": [
-        "/drafts"
-      ]
-    },
-    {
-      "id": "/markdown-editor",
-      "group": 4,
-      "name": "Markdown Editor",
-      "links": [
-        "/drafts"
-      ]
-    },
-    {
-      "id": "/mini-dots",
-      "group": 4,
-      "name": "Mini Dots",
-      "links": [
-        "/drafts"
-      ]
-    },
-    {
-      "id": "/music-player",
-      "group": 4,
-      "name": "Music Player",
-      "links": [
-        "/drafts"
-      ]
-    },
-    {
-      "id": "/photo-gallery",
-      "group": 4,
-      "name": "Photo Gallery",
-      "links": [
-        "/drafts"
-      ]
-    },
-    {
-      "id": "/primes",
-      "group": 4,
-      "name": "Primes",
-      "links": [
-        "/drafts"
-      ]
-    },
-    {
-      "id": "/rss-reader",
-      "group": 4,
-      "name": "RSS reader",
-      "links": [
-        "/drafts"
-      ]
-    },
-    {
-      "id": "/savings-planner",
-      "group": 4,
-      "name": "Savings Planner",
-      "links": [
-        "/drafts"
-      ]
-    },
-    {
-      "id": "/search-index",
-      "group": 4,
-      "name": "Search Index",
-      "links": [
-        "/drafts"
-      ]
-    },
-    {
-      "id": "/shops",
-      "group": 4,
-      "name": "Shops",
-      "links": [
-        "/drafts"
-      ]
-    },
-    {
-      "id": "/spreadsheet",
-      "group": 4,
-      "name": "Spreadsheet",
-      "links": [
-        "/drafts"
-      ]
-    },
-    {
-      "id": "/video-call",
-      "group": 4,
-      "name": "Video Call",
-      "links": [
-        "/drafts"
-      ]
-    },
-    {
-      "id": "/video-player",
-      "group": 4,
-      "name": "Video Player",
-      "links": [
-        "/drafts"
-      ]
-    },
-    {
-      "id": "/bias-for-unhappiness",
-      "group": 4,
-      "name": "Bias For Unhappiness",
-      "links": [
-        "/cognitive-biases",
-        "/hard-times"
-      ]
-    },
-    {
-      "id": "/overvaluing-short-term",
-      "group": 4,
-      "name": "Overvaluing Short Term",
-      "links": [
-        "/cognitive-biases",
-        "/leadership"
-      ]
-    },
-    {
-      "id": "/anger",
-      "group": 4,
-      "name": "Anger",
-      "links": [
-        "/emotions"
-      ]
-    },
-    {
-      "id": "/anxiety",
-      "group": 4,
-      "name": "Anxiety",
-      "links": [
-        "/emotions"
-      ]
-    },
-    {
-      "id": "/arrogance",
-      "group": 4,
-      "name": "Arrogance",
-      "links": [
-        "/emotions"
-      ]
-    },
-    {
-      "id": "/courage",
-      "group": 4,
-      "name": "Courage",
-      "links": [
-        "/emotions"
-      ]
-    },
-    {
-      "id": "/ego",
-      "group": 4,
-      "name": "Ego",
-      "links": [
-        "/emotions"
-      ]
-    },
-    {
-      "id": "/empathy",
-      "group": 4,
-      "name": "Empathy",
-      "links": [
-        "/emotions"
-      ]
-    },
-    {
-      "id": "/hope",
-      "group": 4,
-      "name": "Hope",
-      "links": [
-        "/emotions"
-      ]
-    },
-    {
-      "id": "/loneliness",
-      "group": 4,
-      "name": "Loneliness",
-      "links": [
-        "/emotions"
-      ]
-    },
-    {
-      "id": "/love",
-      "group": 4,
-      "name": "Love",
-      "links": [
-        "/emotions"
-      ]
-    },
-    {
-      "id": "/respect",
-      "group": 4,
-      "name": "Respect",
-      "links": [
-        "/emotions"
-      ]
-    },
-    {
-      "id": "/trust",
-      "group": 4,
-      "name": "Trust",
-      "links": [
-        "/emotions"
-      ]
-    },
-    {
-      "id": "/unmet-needs",
-      "group": 4,
-      "name": "Unmet Needs",
-      "links": [
-        "/emotions"
-      ]
-    },
-    {
-      "id": "/vulnerability",
-      "group": 4,
-      "name": "Vulnerability",
-      "links": [
-        "/emotions"
-      ]
-    },
-    {
-      "id": "/distractions",
-      "group": 4,
-      "name": "Distractions",
-      "links": [
-        "/work"
-      ]
-    },
-    {
-      "id": "/flow",
-      "group": 4,
-      "name": "Flow",
-      "links": [
-        "/work"
-      ]
-    },
-    {
-      "id": "/how-to-start",
-      "group": 4,
-      "name": "How to start?",
-      "links": [
-        "/work",
-        "/skills",
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/overcoming-obstacles",
-      "group": 4,
-      "name": "Overcoming Obstacles",
-      "links": [
-        "/work"
-      ]
-    },
-    {
-      "id": "/praise-and-motivation",
-      "group": 4,
-      "name": "Praise And Motivation",
-      "links": [
-        "/work",
-        "/leadership"
-      ]
-    },
-    {
-      "id": "/setting-rules",
-      "group": 4,
-      "name": "Setting Rules",
-      "links": [
-        "/work",
-        "/leadership"
       ]
     },
     {
@@ -3997,125 +2901,15 @@
         "/design-a-bicycle",
         "/design-a-book-app",
         "/design-a-crm",
-        "/design-a-data-pipeline",
         "/design-a-gov-cloud",
         "/design-a-personal-note-publishing-system",
         "/design-a-trader",
         "/design-a-web-crawler",
         "/design-auth",
+        "/design-etl-pipeline",
         "/design-oauth",
         "/design-units",
         "/design-video-streaming-app"
-      ]
-    },
-    {
-      "id": "/c",
-      "group": 4,
-      "name": "C",
-      "links": [
-        "/programming-languages",
-        "/c-and-python",
-        "/c-hashmap",
-        "/garbage-collector-in-c",
-        "/logos-os",
-        "/vga-driver"
-      ]
-    },
-    {
-      "id": "/clojure",
-      "group": 4,
-      "name": "Clojure",
-      "links": [
-        "/programming-languages"
-      ]
-    },
-    {
-      "id": "/cpp",
-      "group": 4,
-      "name": "Cpp",
-      "links": [
-        "/programming-languages",
-        "/minik-robot"
-      ]
-    },
-    {
-      "id": "/csharp",
-      "group": 4,
-      "name": "C#",
-      "links": [
-        "/programming-languages"
-      ]
-    },
-    {
-      "id": "/elixir",
-      "group": 4,
-      "name": "Elixir",
-      "links": [
-        "/programming-languages"
-      ]
-    },
-    {
-      "id": "/erlang",
-      "group": 4,
-      "name": "Erlang",
-      "links": [
-        "/programming-languages"
-      ]
-    },
-    {
-      "id": "/functional-programming",
-      "group": 4,
-      "name": "Functional Programming",
-      "links": [
-        "/programming-languages"
-      ]
-    },
-    {
-      "id": "/go",
-      "group": 4,
-      "name": "Go",
-      "links": [
-        "/programming-languages"
-      ]
-    },
-    {
-      "id": "/haskell",
-      "group": 4,
-      "name": "Haskell",
-      "links": [
-        "/programming-languages"
-      ]
-    },
-    {
-      "id": "/java",
-      "group": 4,
-      "name": "Java",
-      "links": [
-        "/programming-languages"
-      ]
-    },
-    {
-      "id": "/lisp",
-      "group": 4,
-      "name": "Lisp",
-      "links": [
-        "/programming-languages"
-      ]
-    },
-    {
-      "id": "/rust",
-      "group": 4,
-      "name": "Rust",
-      "links": [
-        "/programming-languages"
-      ]
-    },
-    {
-      "id": "/scala",
-      "group": 4,
-      "name": "Scala",
-      "links": [
-        "/programming-languages"
       ]
     },
     {
@@ -4124,6 +2918,77 @@
       "name": "Typing",
       "links": [
         "/programming-languages"
+      ]
+    },
+    {
+      "id": "/c#",
+      "group": 4,
+      "name": "C#",
+      "links": [
+        "/programming-languages",
+        "/csharp"
+      ]
+    },
+    {
+      "id": "/data",
+      "group": 4,
+      "name": "Data",
+      "links": [
+        "/programming-languages",
+        "/sql"
+      ]
+    },
+    {
+      "id": "/dist",
+      "group": 4,
+      "name": "Dist",
+      "links": [
+        "/programming-languages",
+        "/elixir",
+        "/erlang"
+      ]
+    },
+    {
+      "id": "/func",
+      "group": 4,
+      "name": "Func",
+      "links": [
+        "/programming-languages",
+        "/functional-programming",
+        "/haskell",
+        "/lisp"
+      ]
+    },
+    {
+      "id": "/go",
+      "group": 4,
+      "name": "Go",
+      "links": [
+        "/programming-languages",
+        "/go-data-races"
+      ]
+    },
+    {
+      "id": "/jvm",
+      "group": 4,
+      "name": "Jvm",
+      "links": [
+        "/programming-languages",
+        "/clojure",
+        "/java",
+        "/kotlin",
+        "/scala"
+      ]
+    },
+    {
+      "id": "/low",
+      "group": 4,
+      "name": "Low",
+      "links": [
+        "/programming-languages",
+        "/c",
+        "/cpp",
+        "/rust"
       ]
     },
     {
@@ -4142,6 +3007,16 @@
         "/mini-search-engine",
         "/mini-web-server",
         "/pascal-interpreter"
+      ]
+    },
+    {
+      "id": "/web",
+      "group": 4,
+      "name": "Web",
+      "links": [
+        "/programming-languages",
+        "/ts",
+        "/wasm"
       ]
     },
     {
@@ -4356,6 +3231,14 @@
         "/databases",
         "/algorithms",
         "/data-structures"
+      ]
+    },
+    {
+      "id": "/normalization",
+      "group": 4,
+      "name": "Normalization",
+      "links": [
+        "/databases"
       ]
     },
     {
@@ -5186,14 +4069,6 @@
       ]
     },
     {
-      "id": "/design-a-data-pipeline",
-      "group": 5,
-      "name": "Design A Data Pipeline",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
       "id": "/design-a-gov-cloud",
       "group": 5,
       "name": "Design A Gov Cloud",
@@ -5234,6 +4109,14 @@
       ]
     },
     {
+      "id": "/design-etl-pipeline",
+      "group": 5,
+      "name": "Design Etl Pipeline",
+      "links": [
+        "/oop-designs"
+      ]
+    },
+    {
       "id": "/design-oauth",
       "group": 5,
       "name": "Design an OAuth System",
@@ -5255,6 +4138,132 @@
       "name": "Design Video Streaming App",
       "links": [
         "/oop-designs"
+      ]
+    },
+    {
+      "id": "/csharp",
+      "group": 5,
+      "name": "C#",
+      "links": [
+        "/c#"
+      ]
+    },
+    {
+      "id": "/sql",
+      "group": 5,
+      "name": "Sql",
+      "links": [
+        "/data"
+      ]
+    },
+    {
+      "id": "/elixir",
+      "group": 5,
+      "name": "Elixir",
+      "links": [
+        "/dist"
+      ]
+    },
+    {
+      "id": "/erlang",
+      "group": 5,
+      "name": "Erlang",
+      "links": [
+        "/dist"
+      ]
+    },
+    {
+      "id": "/functional-programming",
+      "group": 5,
+      "name": "Functional Programming",
+      "links": [
+        "/func"
+      ]
+    },
+    {
+      "id": "/haskell",
+      "group": 5,
+      "name": "Haskell",
+      "links": [
+        "/func"
+      ]
+    },
+    {
+      "id": "/lisp",
+      "group": 5,
+      "name": "Lisp",
+      "links": [
+        "/func"
+      ]
+    },
+    {
+      "id": "/go-data-races",
+      "group": 5,
+      "name": "Go Data Race Patterns and Prevention",
+      "links": [
+        "/go"
+      ]
+    },
+    {
+      "id": "/clojure",
+      "group": 5,
+      "name": "Clojure",
+      "links": [
+        "/jvm"
+      ]
+    },
+    {
+      "id": "/java",
+      "group": 5,
+      "name": "Java",
+      "links": [
+        "/jvm"
+      ]
+    },
+    {
+      "id": "/kotlin",
+      "group": 5,
+      "name": "Kotlin",
+      "links": [
+        "/jvm"
+      ]
+    },
+    {
+      "id": "/scala",
+      "group": 5,
+      "name": "Scala",
+      "links": [
+        "/jvm"
+      ]
+    },
+    {
+      "id": "/c",
+      "group": 5,
+      "name": "C",
+      "links": [
+        "/low",
+        "/c-and-python",
+        "/c-hashmap",
+        "/garbage-collector-in-c",
+        "/logos-os",
+        "/vga-driver"
+      ]
+    },
+    {
+      "id": "/cpp",
+      "group": 5,
+      "name": "Cpp",
+      "links": [
+        "/low",
+        "/minik-robot"
+      ]
+    },
+    {
+      "id": "/rust",
+      "group": 5,
+      "name": "Rust",
+      "links": [
+        "/low"
       ]
     },
     {
@@ -5296,6 +4305,22 @@
       "name": "Zen Of Python",
       "links": [
         "/python"
+      ]
+    },
+    {
+      "id": "/ts",
+      "group": 5,
+      "name": "Ts",
+      "links": [
+        "/web"
+      ]
+    },
+    {
+      "id": "/wasm",
+      "group": 5,
+      "name": "Wasm",
+      "links": [
+        "/web"
       ]
     },
     {
@@ -5419,10 +4444,6 @@
     },
     {
       "source": "/arts",
-      "target": "/music"
-    },
-    {
-      "source": "/arts",
       "target": "/design"
     },
     {
@@ -5439,7 +4460,7 @@
     },
     {
       "source": "/lists",
-      "target": "/languages"
+      "target": "/experiments"
     },
     {
       "source": "/lists",
@@ -5447,11 +4468,7 @@
     },
     {
       "source": "/lists",
-      "target": "/experiments"
-    },
-    {
-      "source": "/lists",
-      "target": "/interesting"
+      "target": "/languages"
     },
     {
       "source": "/lists",
@@ -5459,15 +4476,19 @@
     },
     {
       "source": "/lists",
+      "target": "/interesting"
+    },
+    {
+      "source": "/lists",
       "target": "/watch"
     },
     {
       "source": "/skills",
-      "target": "/business"
+      "target": "/decisions"
     },
     {
       "source": "/skills",
-      "target": "/decisions"
+      "target": "/business"
     },
     {
       "source": "/skills",
@@ -5491,7 +4512,7 @@
     },
     {
       "source": "/skills",
-      "target": "/home-life"
+      "target": "/habits"
     },
     {
       "source": "/skills",
@@ -5507,11 +4528,7 @@
     },
     {
       "source": "/skills",
-      "target": "/investing"
-    },
-    {
-      "source": "/skills",
-      "target": "/leadership"
+      "target": "/driving"
     },
     {
       "source": "/skills",
@@ -5519,19 +4536,7 @@
     },
     {
       "source": "/skills",
-      "target": "/driving"
-    },
-    {
-      "source": "/skills",
       "target": "/mastery"
-    },
-    {
-      "source": "/skills",
-      "target": "/motocycles"
-    },
-    {
-      "source": "/skills",
-      "target": "/mountaineering"
     },
     {
       "source": "/skills",
@@ -5551,14 +4556,6 @@
     },
     {
       "source": "/skills",
-      "target": "/trading"
-    },
-    {
-      "source": "/skills",
-      "target": "/travelling"
-    },
-    {
-      "source": "/skills",
       "target": "/used-car-checklist"
     },
     {
@@ -5567,7 +4564,7 @@
     },
     {
       "source": "/skills",
-      "target": "/making-videos"
+      "target": "/interviews"
     },
     {
       "source": "/skills",
@@ -5575,7 +4572,35 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/psychology"
+      "target": "/history"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/being-poor"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/books-social"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/chomsky"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/cognitive-biases"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/economics"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/emotions"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/law"
     },
     {
       "source": "/social-sciences",
@@ -5583,11 +4608,11 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/history"
+      "target": "/psychology"
     },
     {
       "source": "/social-sciences",
-      "target": "/economics"
+      "target": "/social-media"
     },
     {
       "source": "/social-sciences",
@@ -5599,27 +4624,15 @@
     },
     {
       "source": "/social-sciences",
+      "target": "/the-triumph-of-stupidity"
+    },
+    {
+      "source": "/social-sciences",
       "target": "/urban-planning"
     },
     {
       "source": "/social-sciences",
-      "target": "/law"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/chomsky"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/books-social"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/being-poor"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/social-media"
+      "target": "/who-goes-nazi"
     },
     {
       "source": "/social-sciences",
@@ -5687,23 +4700,7 @@
     },
     {
       "source": "/philosophy",
-      "target": "/enemies"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/epicurus"
-    },
-    {
-      "source": "/philosophy",
       "target": "/eudaimonia"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/experiences-vs-materials"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/free-will"
     },
     {
       "source": "/philosophy",
@@ -5711,19 +4708,7 @@
     },
     {
       "source": "/philosophy",
-      "target": "/friends"
-    },
-    {
-      "source": "/philosophy",
       "target": "/getting-old"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/good-and-evil"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/gratitude"
     },
     {
       "source": "/philosophy",
@@ -5739,51 +4724,11 @@
     },
     {
       "source": "/philosophy",
-      "target": "/in-praise-of-idleness"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/know-where-to-stop"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/koans"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/let-it-go"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/life-is-play"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/look-below-the-surface"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/moderation"
-    },
-    {
-      "source": "/philosophy",
       "target": "/one-bit-better"
     },
     {
       "source": "/philosophy",
-      "target": "/phronesis"
-    },
-    {
-      "source": "/philosophy",
       "target": "/questions"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/seeking"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/stupidity"
     },
     {
       "source": "/philosophy",
@@ -5796,6 +4741,10 @@
     {
       "source": "/philosophy",
       "target": "/the-less-the-better"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/travelling"
     },
     {
       "source": "/philosophy",
@@ -5978,30 +4927,6 @@
       "target": "/turk-mirasi"
     },
     {
-      "source": "/music",
-      "target": "/classical-music"
-    },
-    {
-      "source": "/music",
-      "target": "/electro-house"
-    },
-    {
-      "source": "/music",
-      "target": "/film-scores"
-    },
-    {
-      "source": "/music",
-      "target": "/rap"
-    },
-    {
-      "source": "/music",
-      "target": "/rock"
-    },
-    {
-      "source": "/music",
-      "target": "/sanatcilar"
-    },
-    {
       "source": "/design",
       "target": "/creativity"
     },
@@ -6020,66 +4945,6 @@
     {
       "source": "/design",
       "target": "/ship-it"
-    },
-    {
-      "source": "/languages",
-      "target": "/deutsch"
-    },
-    {
-      "source": "/languages",
-      "target": "/english"
-    },
-    {
-      "source": "/languages",
-      "target": "/latin"
-    },
-    {
-      "source": "/languages",
-      "target": "/metaphors"
-    },
-    {
-      "source": "/languages",
-      "target": "/modern-greek-alphabet"
-    },
-    {
-      "source": "/languages",
-      "target": "/nato-phonetic-alphabet"
-    },
-    {
-      "source": "/languages",
-      "target": "/turkce"
-    },
-    {
-      "source": "/languages",
-      "target": "/cestina"
-    },
-    {
-      "source": "/read",
-      "target": "/authors"
-    },
-    {
-      "source": "/read",
-      "target": "/blogs"
-    },
-    {
-      "source": "/read",
-      "target": "/books"
-    },
-    {
-      "source": "/read",
-      "target": "/comics"
-    },
-    {
-      "source": "/read",
-      "target": "/essais"
-    },
-    {
-      "source": "/read",
-      "target": "/ideas"
-    },
-    {
-      "source": "/read",
-      "target": "/news"
     },
     {
       "source": "/experiments",
@@ -6102,24 +4967,32 @@
       "target": "/year-progress"
     },
     {
-      "source": "/experiments",
-      "target": "/drafts"
+      "source": "/read",
+      "target": "/authors"
     },
     {
-      "source": "/interesting",
-      "target": "/datasets"
+      "source": "/read",
+      "target": "/blogs"
     },
     {
-      "source": "/interesting",
-      "target": "/games"
+      "source": "/read",
+      "target": "/books"
     },
     {
-      "source": "/interesting",
-      "target": "/quotes"
+      "source": "/read",
+      "target": "/ideas"
     },
     {
-      "source": "/interesting",
-      "target": "/web-experiments"
+      "source": "/read",
+      "target": "/news"
+    },
+    {
+      "source": "/languages",
+      "target": "/latin"
+    },
+    {
+      "source": "/languages",
+      "target": "/metaphors"
     },
     {
       "source": "/meta",
@@ -6130,32 +5003,24 @@
       "target": "/graph-2d"
     },
     {
+      "source": "/interesting",
+      "target": "/datasets"
+    },
+    {
+      "source": "/interesting",
+      "target": "/quotes"
+    },
+    {
+      "source": "/interesting",
+      "target": "/web-experiments"
+    },
+    {
       "source": "/watch",
       "target": "/documentaries"
     },
     {
       "source": "/watch",
       "target": "/movies"
-    },
-    {
-      "source": "/business",
-      "target": "/company-culture"
-    },
-    {
-      "source": "/business",
-      "target": "/hiring"
-    },
-    {
-      "source": "/business",
-      "target": "/how-to-start-a-business"
-    },
-    {
-      "source": "/business",
-      "target": "/marketing"
-    },
-    {
-      "source": "/business",
-      "target": "/sales"
     },
     {
       "source": "/decisions",
@@ -6167,15 +5032,19 @@
     },
     {
       "source": "/decisions",
-      "target": "/do-the-right-thing"
-    },
-    {
-      "source": "/decisions",
       "target": "/do-without-doing"
     },
     {
-      "source": "/communication",
-      "target": "/how-to-pitch"
+      "source": "/business",
+      "target": "/company-culture"
+    },
+    {
+      "source": "/business",
+      "target": "/hiring"
+    },
+    {
+      "source": "/business",
+      "target": "/sales"
     },
     {
       "source": "/communication",
@@ -6188,90 +5057,6 @@
     {
       "source": "/communication",
       "target": "/write-better"
-    },
-    {
-      "source": "/psychology",
-      "target": "/gaslighting"
-    },
-    {
-      "source": "/psychology",
-      "target": "/habits"
-    },
-    {
-      "source": "/psychology",
-      "target": "/how-to-spot-a-liar"
-    },
-    {
-      "source": "/psychology",
-      "target": "/persuasion"
-    },
-    {
-      "source": "/psychology",
-      "target": "/procrastination"
-    },
-    {
-      "source": "/psychology",
-      "target": "/relationships"
-    },
-    {
-      "source": "/psychology",
-      "target": "/solitude"
-    },
-    {
-      "source": "/psychology",
-      "target": "/stages-of-grief"
-    },
-    {
-      "source": "/psychology",
-      "target": "/stress"
-    },
-    {
-      "source": "/psychology",
-      "target": "/cognitive-biases"
-    },
-    {
-      "source": "/psychology",
-      "target": "/emotions"
-    },
-    {
-      "source": "/psychology",
-      "target": "/work"
-    },
-    {
-      "source": "/politics",
-      "target": "/asimov"
-    },
-    {
-      "source": "/politics",
-      "target": "/brave-new-world"
-    },
-    {
-      "source": "/politics",
-      "target": "/look-down-and-around"
-    },
-    {
-      "source": "/politics",
-      "target": "/orwell"
-    },
-    {
-      "source": "/politics",
-      "target": "/prince"
-    },
-    {
-      "source": "/politics",
-      "target": "/questioning-people-seen-as-a-threat-to-status-quo"
-    },
-    {
-      "source": "/politics",
-      "target": "/the-triumph-of-stupidity"
-    },
-    {
-      "source": "/politics",
-      "target": "/warfare-is-deception"
-    },
-    {
-      "source": "/politics",
-      "target": "/who-goes-nazi"
     },
     {
       "source": "/history",
@@ -6288,30 +5073,6 @@
     {
       "source": "/history",
       "target": "/since-big-bang"
-    },
-    {
-      "source": "/economics",
-      "target": "/wage-theft"
-    },
-    {
-      "source": "/economics",
-      "target": "/wasted-talent"
-    },
-    {
-      "source": "/sociology",
-      "target": "/social-change"
-    },
-    {
-      "source": "/sociology",
-      "target": "/social-class"
-    },
-    {
-      "source": "/sociology",
-      "target": "/social-groups"
-    },
-    {
-      "source": "/systems",
-      "target": "/chaos"
     },
     {
       "source": "/natural-sciences",
@@ -6583,10 +5344,6 @@
     },
     {
       "source": "/time",
-      "target": "/the-morning"
-    },
-    {
-      "source": "/time",
       "target": "/the-past"
     },
     {
@@ -6648,186 +5405,6 @@
     {
       "source": "/tao-te-ching",
       "target": "/wind-and-rain"
-    },
-    {
-      "source": "/cestina",
-      "target": "/adjektiva"
-    },
-    {
-      "source": "/cestina",
-      "target": "/cas"
-    },
-    {
-      "source": "/cestina",
-      "target": "/cisla"
-    },
-    {
-      "source": "/cestina",
-      "target": "/domov"
-    },
-    {
-      "source": "/cestina",
-      "target": "/fraze"
-    },
-    {
-      "source": "/cestina",
-      "target": "/koníčky"
-    },
-    {
-      "source": "/cestina",
-      "target": "/podobna-slova"
-    },
-    {
-      "source": "/cestina",
-      "target": "/predlozky"
-    },
-    {
-      "source": "/cestina",
-      "target": "/slovesa"
-    },
-    {
-      "source": "/drafts",
-      "target": "/digital-art"
-    },
-    {
-      "source": "/drafts",
-      "target": "/experiments"
-    },
-    {
-      "source": "/drafts",
-      "target": "/jobs"
-    },
-    {
-      "source": "/drafts",
-      "target": "/markdown-editor"
-    },
-    {
-      "source": "/drafts",
-      "target": "/mini-dots"
-    },
-    {
-      "source": "/drafts",
-      "target": "/music-player"
-    },
-    {
-      "source": "/drafts",
-      "target": "/photo-gallery"
-    },
-    {
-      "source": "/drafts",
-      "target": "/primes"
-    },
-    {
-      "source": "/drafts",
-      "target": "/rss-reader"
-    },
-    {
-      "source": "/drafts",
-      "target": "/savings-planner"
-    },
-    {
-      "source": "/drafts",
-      "target": "/search-index"
-    },
-    {
-      "source": "/drafts",
-      "target": "/shops"
-    },
-    {
-      "source": "/drafts",
-      "target": "/spreadsheet"
-    },
-    {
-      "source": "/drafts",
-      "target": "/video-call"
-    },
-    {
-      "source": "/drafts",
-      "target": "/video-player"
-    },
-    {
-      "source": "/cognitive-biases",
-      "target": "/bias-for-unhappiness"
-    },
-    {
-      "source": "/cognitive-biases",
-      "target": "/overvaluing-short-term"
-    },
-    {
-      "source": "/emotions",
-      "target": "/anger"
-    },
-    {
-      "source": "/emotions",
-      "target": "/anxiety"
-    },
-    {
-      "source": "/emotions",
-      "target": "/arrogance"
-    },
-    {
-      "source": "/emotions",
-      "target": "/courage"
-    },
-    {
-      "source": "/emotions",
-      "target": "/ego"
-    },
-    {
-      "source": "/emotions",
-      "target": "/empathy"
-    },
-    {
-      "source": "/emotions",
-      "target": "/hope"
-    },
-    {
-      "source": "/emotions",
-      "target": "/loneliness"
-    },
-    {
-      "source": "/emotions",
-      "target": "/love"
-    },
-    {
-      "source": "/emotions",
-      "target": "/respect"
-    },
-    {
-      "source": "/emotions",
-      "target": "/trust"
-    },
-    {
-      "source": "/emotions",
-      "target": "/unmet-needs"
-    },
-    {
-      "source": "/emotions",
-      "target": "/vulnerability"
-    },
-    {
-      "source": "/work",
-      "target": "/distractions"
-    },
-    {
-      "source": "/work",
-      "target": "/flow"
-    },
-    {
-      "source": "/work",
-      "target": "/how-to-start"
-    },
-    {
-      "source": "/work",
-      "target": "/overcoming-obstacles"
-    },
-    {
-      "source": "/work",
-      "target": "/praise-and-motivation"
-    },
-    {
-      "source": "/work",
-      "target": "/setting-rules"
     },
     {
       "source": "/astronomy",
@@ -6971,31 +5548,23 @@
     },
     {
       "source": "/programming-languages",
-      "target": "/c"
+      "target": "/typing"
     },
     {
       "source": "/programming-languages",
-      "target": "/clojure"
+      "target": "/c#"
     },
     {
       "source": "/programming-languages",
-      "target": "/cpp"
+      "target": "/data"
     },
     {
       "source": "/programming-languages",
-      "target": "/csharp"
+      "target": "/dist"
     },
     {
       "source": "/programming-languages",
-      "target": "/elixir"
-    },
-    {
-      "source": "/programming-languages",
-      "target": "/erlang"
-    },
-    {
-      "source": "/programming-languages",
-      "target": "/functional-programming"
+      "target": "/func"
     },
     {
       "source": "/programming-languages",
@@ -7003,31 +5572,19 @@
     },
     {
       "source": "/programming-languages",
-      "target": "/haskell"
+      "target": "/jvm"
     },
     {
       "source": "/programming-languages",
-      "target": "/java"
-    },
-    {
-      "source": "/programming-languages",
-      "target": "/lisp"
-    },
-    {
-      "source": "/programming-languages",
-      "target": "/rust"
-    },
-    {
-      "source": "/programming-languages",
-      "target": "/scala"
-    },
-    {
-      "source": "/programming-languages",
-      "target": "/typing"
+      "target": "/low"
     },
     {
       "source": "/programming-languages",
       "target": "/python"
+    },
+    {
+      "source": "/programming-languages",
+      "target": "/web"
     },
     {
       "source": "/projects",
@@ -7124,6 +5681,10 @@
     {
       "source": "/databases",
       "target": "/lsm-trees"
+    },
+    {
+      "source": "/databases",
+      "target": "/normalization"
     },
     {
       "source": "/databases",
@@ -7499,10 +6060,6 @@
     },
     {
       "source": "/oop-designs",
-      "target": "/design-a-data-pipeline"
-    },
-    {
-      "source": "/oop-designs",
       "target": "/design-a-gov-cloud"
     },
     {
@@ -7523,6 +6080,10 @@
     },
     {
       "source": "/oop-designs",
+      "target": "/design-etl-pipeline"
+    },
+    {
+      "source": "/oop-designs",
       "target": "/design-oauth"
     },
     {
@@ -7532,6 +6093,66 @@
     {
       "source": "/oop-designs",
       "target": "/design-video-streaming-app"
+    },
+    {
+      "source": "/c#",
+      "target": "/csharp"
+    },
+    {
+      "source": "/data",
+      "target": "/sql"
+    },
+    {
+      "source": "/dist",
+      "target": "/elixir"
+    },
+    {
+      "source": "/dist",
+      "target": "/erlang"
+    },
+    {
+      "source": "/func",
+      "target": "/functional-programming"
+    },
+    {
+      "source": "/func",
+      "target": "/haskell"
+    },
+    {
+      "source": "/func",
+      "target": "/lisp"
+    },
+    {
+      "source": "/go",
+      "target": "/go-data-races"
+    },
+    {
+      "source": "/jvm",
+      "target": "/clojure"
+    },
+    {
+      "source": "/jvm",
+      "target": "/java"
+    },
+    {
+      "source": "/jvm",
+      "target": "/kotlin"
+    },
+    {
+      "source": "/jvm",
+      "target": "/scala"
+    },
+    {
+      "source": "/low",
+      "target": "/c"
+    },
+    {
+      "source": "/low",
+      "target": "/cpp"
+    },
+    {
+      "source": "/low",
+      "target": "/rust"
     },
     {
       "source": "/python",
@@ -7552,6 +6173,14 @@
     {
       "source": "/python",
       "target": "/zen-of-python"
+    },
+    {
+      "source": "/web",
+      "target": "/ts"
+    },
+    {
+      "source": "/web",
+      "target": "/wasm"
     },
     {
       "source": "/code",
@@ -7595,10 +6224,6 @@
     },
     {
       "source": "/cinema",
-      "target": "/film-scores"
-    },
-    {
-      "source": "/cinema",
       "target": "/documentaries"
     },
     {
@@ -7606,16 +6231,8 @@
       "target": "/movies"
     },
     {
-      "source": "/creativity",
-      "target": "/how-to-start-a-business"
-    },
-    {
-      "source": "/creativity",
-      "target": "/teamwork"
-    },
-    {
       "source": "/design",
-      "target": "/how-to-start-a-business"
+      "target": "/business"
     },
     {
       "source": "/design",
@@ -7639,14 +6256,6 @@
     },
     {
       "source": "/do-not-lie-to-yourself",
-      "target": "/decisions"
-    },
-    {
-      "source": "/do-not-lie-to-yourself",
-      "target": "/do-the-right-thing"
-    },
-    {
-      "source": "/do-not-lie-to-yourself",
       "target": "/character"
     },
     {
@@ -7658,16 +6267,8 @@
       "target": "/books-phil"
     },
     {
-      "source": "/the-art-of-war",
-      "target": "/warfare-is-deception"
-    },
-    {
       "source": "/be-good-to-each-other-and-yourself",
       "target": "/work"
-    },
-    {
-      "source": "/character",
-      "target": "/decisions"
     },
     {
       "source": "/character",
@@ -7682,20 +6283,8 @@
       "target": "/eudaimonia"
     },
     {
-      "source": "/free-will",
-      "target": "/freedom"
-    },
-    {
       "source": "/freedom",
       "target": "/success-and-failure"
-    },
-    {
-      "source": "/gratitude",
-      "target": "/happiness"
-    },
-    {
-      "source": "/hard-times",
-      "target": "/bias-for-unhappiness"
     },
     {
       "source": "/hard-times",
@@ -7704,10 +6293,6 @@
     {
       "source": "/hard-times",
       "target": "/how-to-deal-with-pain"
-    },
-    {
-      "source": "/know-where-to-stop",
-      "target": "/do-one-thing-at-a-time-and-do-it-well"
     },
     {
       "source": "/philosophy",
@@ -7723,19 +6308,7 @@
     },
     {
       "source": "/philosophy",
-      "target": "/do-the-right-thing"
-    },
-    {
-      "source": "/philosophy",
       "target": "/how-to-grow-old-russell"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/look-down-and-around"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/solitude"
     },
     {
       "source": "/philosophy",
@@ -7762,10 +6335,6 @@
       "target": "/problem-solving"
     },
     {
-      "source": "/the-morning",
-      "target": "/get-things-done"
-    },
-    {
       "source": "/time",
       "target": "/time-scale"
     },
@@ -7787,7 +6356,7 @@
     },
     {
       "source": "/teamwork",
-      "target": "/how-to-start-a-business"
+      "target": "/business"
     },
     {
       "source": "/teamwork",
@@ -7795,11 +6364,11 @@
     },
     {
       "source": "/what-to-work-on",
-      "target": "/get-things-done"
+      "target": "/business"
     },
     {
       "source": "/what-to-work-on",
-      "target": "/how-to-start-a-business"
+      "target": "/get-things-done"
     },
     {
       "source": "/if",
@@ -7818,14 +6387,6 @@
       "target": "/critical-thinking"
     },
     {
-      "source": "/not-far-away",
-      "target": "/travelling"
-    },
-    {
-      "source": "/experiments",
-      "target": "/projects"
-    },
-    {
       "source": "/time-scale",
       "target": "/climate-change"
     },
@@ -7834,40 +6395,8 @@
       "target": "/probability-and-statistics"
     },
     {
-      "source": "/turkce",
-      "target": "/ideal-insan"
-    },
-    {
-      "source": "/turkce",
-      "target": "/ince-memed"
-    },
-    {
-      "source": "/turkce",
-      "target": "/sanatcilar"
-    },
-    {
-      "source": "/turkce",
-      "target": "/turk-mirasi"
-    },
-    {
-      "source": "/turkce",
-      "target": "/siir"
-    },
-    {
       "source": "/lists",
       "target": "/classics"
-    },
-    {
-      "source": "/lists",
-      "target": "/film-scores"
-    },
-    {
-      "source": "/lists",
-      "target": "/modern-greek-alphabet"
-    },
-    {
-      "source": "/lists",
-      "target": "/sanatcilar"
     },
     {
       "source": "/lists",
@@ -7882,56 +6411,8 @@
       "target": "/since-big-bang"
     },
     {
-      "source": "/essais",
-      "target": "/in-praise-of-idleness"
-    },
-    {
-      "source": "/essais",
-      "target": "/how-to-grow-old-russell"
-    },
-    {
-      "source": "/essais",
-      "target": "/mastery"
-    },
-    {
-      "source": "/essais",
-      "target": "/problem-solving"
-    },
-    {
-      "source": "/essais",
-      "target": "/farming-trap"
-    },
-    {
-      "source": "/essais",
-      "target": "/look-down-and-around"
-    },
-    {
-      "source": "/essais",
-      "target": "/the-triumph-of-stupidity"
-    },
-    {
-      "source": "/essais",
-      "target": "/who-goes-nazi"
-    },
-    {
-      "source": "/essais",
-      "target": "/feynmans-epilogue"
-    },
-    {
-      "source": "/business",
-      "target": "/wasted-talent"
-    },
-    {
-      "source": "/hiring",
-      "target": "/how-to-start-a-business"
-    },
-    {
-      "source": "/how-to-start-a-business",
-      "target": "/how-to-gain-wealth"
-    },
-    {
       "source": "/negotiations",
-      "target": "/persuasion"
+      "target": "/psychology"
     },
     {
       "source": "/critical-thinking",
@@ -7950,28 +6431,12 @@
       "target": "/get-things-done"
     },
     {
-      "source": "/do-the-right-thing",
-      "target": "/politics"
-    },
-    {
       "source": "/driving",
       "target": "/used-car-checklist"
     },
     {
       "source": "/humor",
       "target": "/the-tao-of-programming"
-    },
-    {
-      "source": "/leadership",
-      "target": "/overvaluing-short-term"
-    },
-    {
-      "source": "/leadership",
-      "target": "/praise-and-motivation"
-    },
-    {
-      "source": "/leadership",
-      "target": "/setting-rules"
     },
     {
       "source": "/skills",
@@ -7991,19 +6456,11 @@
     },
     {
       "source": "/skills",
-      "target": "/how-to-start"
-    },
-    {
-      "source": "/skills",
       "target": "/programming"
     },
     {
       "source": "/architecture",
       "target": "/urban-planning"
-    },
-    {
-      "source": "/law",
-      "target": "/wage-theft"
     },
     {
       "source": "/politics",
@@ -8019,15 +6476,7 @@
     },
     {
       "source": "/psychology",
-      "target": "/questioning-people-seen-as-a-threat-to-status-quo"
-    },
-    {
-      "source": "/psychology",
       "target": "/inertia"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/cognitive-biases"
     },
     {
       "source": "/social-sciences",
@@ -8039,27 +6488,11 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/how-to-start"
-    },
-    {
-      "source": "/social-sciences",
       "target": "/learning"
     },
     {
       "source": "/social-sciences",
       "target": "/metaphors"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/questioning-people-seen-as-a-threat-to-status-quo"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/solitude"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/stupidity"
     },
     {
       "source": "/social-sciences",
