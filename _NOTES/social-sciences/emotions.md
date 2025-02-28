@@ -1,8 +1,6 @@
 ---
 ---
 
-
-
 We need to be seen, heard, loved, accepted, respected. 
 
 Emotions are like signals. Green lights, red lights. 

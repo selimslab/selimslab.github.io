@@ -102,6 +102,8 @@
     },
     "/cinema": {
     },
+    "/documentaries": {
+    },
     "/paintings": {
     },
     "/photography": {
@@ -206,6 +208,8 @@
   "/other": {
     "/experiments": {
       "/dots": {
+      },
+      "/experiments": {
       },
       "/graph-3d": {
       },
@@ -407,8 +411,6 @@
     "/politics": {
     },
     "/psychology": {
-    },
-    "/social-media": {
     },
     "/social-sciences": {
     },

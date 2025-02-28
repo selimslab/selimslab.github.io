@@ -26,6 +26,7 @@
         "/siir",
         "/literature",
         "/cinema",
+        "/documentaries",
         "/paintings",
         "/photography"
       ]
@@ -192,7 +193,6 @@
         "/law",
         "/politics",
         "/psychology",
-        "/social-media",
         "/sociology",
         "/systems",
         "/the-triumph-of-stupidity",
@@ -289,6 +289,14 @@
       "id": "/cinema",
       "group": 2,
       "name": "Cinema 🎬",
+      "links": [
+        "/arts"
+      ]
+    },
+    {
+      "id": "/documentaries",
+      "group": 2,
+      "name": "Documentaries",
       "links": [
         "/arts"
       ]
@@ -572,7 +580,8 @@
         "/graph-3d",
         "/time-scale",
         "/typing-practice",
-        "/year-progress"
+        "/year-progress",
+        "/projects"
       ]
     },
     {
@@ -1153,15 +1162,6 @@
       ]
     },
     {
-      "id": "/social-media",
-      "group": 2,
-      "name": "Social Media",
-      "links": [
-        "/social-sciences",
-        "/ux"
-      ]
-    },
-    {
       "id": "/sociology",
       "group": 2,
       "name": "Sociology",
@@ -1280,7 +1280,6 @@
         "/things-users-care",
         "/usability-testing",
         "/design",
-        "/social-media",
         "/web-experiments"
       ]
     },
@@ -2134,7 +2133,8 @@
         "/pca",
         "/pneumonia-detection",
         "/predict-movie-genres",
-        "/vga-driver"
+        "/vga-driver",
+        "/experiments"
       ]
     },
     {
@@ -4274,6 +4274,10 @@
     },
     {
       "source": "/arts",
+      "target": "/documentaries"
+    },
+    {
+      "source": "/arts",
       "target": "/paintings"
     },
     {
@@ -4643,10 +4647,6 @@
     {
       "source": "/social-sciences",
       "target": "/psychology"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/social-media"
     },
     {
       "source": "/social-sciences",
@@ -6061,6 +6061,10 @@
       "target": "/time"
     },
     {
+      "source": "/experiments",
+      "target": "/projects"
+    },
+    {
       "source": "/be-good-to-each-other-and-yourself",
       "target": "/work"
     },
@@ -6571,10 +6575,6 @@
     {
       "source": "/system-design",
       "target": "/accessibility"
-    },
-    {
-      "source": "/ux",
-      "target": "/social-media"
     },
     {
       "source": "/ux",

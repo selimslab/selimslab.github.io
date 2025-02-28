@@ -5,6 +5,9 @@
   "/cinema": [
     "arts"
   ],
+  "/documentaries": [
+    "arts"
+  ],
   "/cien-anos-de-soledad": [
     "literature"
   ],
@@ -288,20 +291,25 @@
     "natural-sciences"
   ],
   "/dots": [
+    "experiments"
+  ],
+  "/experiments": [
 
   ],
   "/graph-3d": [
-
+    "experiments"
   ],
   "/time-scale": [
+    "experiments",
     "stem",
     "time"
   ],
   "/typing-practice": [
+    "experiments",
     "skills"
   ],
   "/year-progress": [
-
+    "experiments"
   ],
   "/about": [
     "meta"
@@ -359,7 +367,8 @@
     "philosophy"
   ],
   "/ideas": [
-    "philosophy"
+    "philosophy",
+    "top"
   ],
   "/one-bit-better": [
     "philosophy"
@@ -538,7 +547,6 @@
     "social-sciences"
   ],
   "/cognitive-biases": [
-    "soc",
     "social-sciences",
     "top"
   ],
@@ -589,10 +597,6 @@
   ],
   "/psychology": [
     "social-sciences"
-  ],
-  "/social-media": [
-    "social-sciences",
-    "ux"
   ],
   "/social-sciences": [
     "root"
@@ -1411,8 +1415,7 @@
   ],
   "/ux": [
     "design",
-    "tech",
-    "web"
+    "tech"
   ],
   "/pub": [
 

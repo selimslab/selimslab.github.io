@@ -1,6 +1,6 @@
 ---
 title: UX
-tags:  web design
+tags: design
 ---
 
 [Visual design rules you can safely follow every time (anthonyhobday.com)](https://anthonyhobday.com/sideprojects/saferules/)

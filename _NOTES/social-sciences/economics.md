@@ -14,7 +14,6 @@ Insecurity and fear, cosmetics, arms
 
 discontent, envy, luxury 
 
-.. 
 
 ## Spending for happiness 
 

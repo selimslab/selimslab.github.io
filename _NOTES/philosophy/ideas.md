@@ -1,11 +1,38 @@
 ---
+tags: top
 ---
+
+- [Action](#action)
+- [Disctraction](#disctraction)
+- [Enemies](#enemies)
+- [Epicurus](#epicurus)
+- [Free will](#free-will)
+- [Friends](#friends)
+- [Good and Evil](#good-and-evil)
+- [Gratitude](#gratitude)
+- [Idleness](#idleness)
+- [Know where to stop](#know-where-to-stop)
+- [Let go](#let-go)
+- [Look below the surface](#look-below-the-surface)
+- [Moderation](#moderation)
+- [Obstacles](#obstacles)
+- [Play](#play)
+- [Prudence](#prudence)
+- [Seeking](#seeking)
+- [Solitude](#solitude)
+- [Stupidity](#stupidity)
 
 ## Action 
 
 "It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat.”
 ― Theodore Roosevelt
 
+
+## Disctraction
+
+A distracted mind can't successfully pursue any activity, since a distracted mind absorbs nothing deeply 
+
+-- Seneca
 
 ## Enemies 
 
@@ -55,6 +82,28 @@ After health, friends are a key part of a good life
 
 "When you stop expecting people to be perfect, you can like them for who they are.”
 
+
+## Good and Evil 
+
+"If only it were all so simple! If only there were evil people somewhere insidiously committing evil deeds, and it were necessary only to separate them from the rest of us and destroy them. But the line dividing good and evil cuts through the heart of every human being. And who is willing to destroy a piece of his own heart?"
+
+— Aleksandr Solzhenitsyn, The Gulag Archipelago 1918–1956.
+
+"For neither good nor evil can last for ever; and so it follows that as evil has lasted a long time, good must now be close at hand."
+
+— Miguel de Cervantes, Don Quixote
+
+This one is gambler's fallacy but hopeful  
+
+## Gratitude 
+
+I can find a million things to complain, 
+
+or I can find a million things to appreciate
+
+![](/assets/static/img/notice-when-you-are-happy.png)
+
+
 ## Idleness
 
 <https://harpers.org/archive/1932/10/in-praise-of-idleness/>
@@ -93,10 +142,14 @@ If you look below the surface, you win with ease
 
 [[the-less-the-better]]
 
+## Obstacles 
+
+"What man actually needs is not a tensionless state but rather the striving and struggling for some goal worthy of him" Viktor Frankl
+
 
 ## Play 
 
-Do not expect to "get” anything 
+Do not expect to "get" anything 
 
 Do not expect to be better 
 
@@ -112,8 +165,21 @@ The aim is the play itself
 
 ## Seeking 
 
-"Whatever it is you're seeking won't come in the form you're expecting.”
+"Whatever it is you're seeking won't come in the form you're expecting."
 ― Haruki Marukami
+
+
+## Solitude
+
+"All of humanity's problems stem from man's inability to sit quietly in a room alone" Blaise Pascal
+
+---
+
+"What would you like to tell young people?"
+
+"I don't know… I think I'd like to say only that they should learn to be alone and try to spend as much time as possible by themselves. I think one of the faults of young people today is that they try to come together around events that are noisy, almost aggressive at times. This desire to be together in order to not feel alone is an unfortunate symptom, in my opinion. Every person needs to learn from childhood how to spend time with oneself. That doesn't mean he should be lonely, but that he shouldn't grow bored with himself because people who grow bored in their own company seem to me in danger, from a self-esteem point of view."
+
+Andrei Tarkovsky
 
 ## Stupidity
 

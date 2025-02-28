@@ -16,6 +16,7 @@
     "/literature",
     "/arts",
     "/cinema",
+    "/documentaries",
     "/paintings",
     "/photography"
   ],
@@ -128,7 +129,6 @@
     "/law",
     "/politics",
     "/psychology",
-    "/social-media",
     "/social-sciences",
     "/sociology",
     "/systems",
@@ -218,6 +218,7 @@
   ],
   "/experiments": [
     "/dots",
+    "/experiments",
     "/graph-3d",
     "/time-scale",
     "/typing-practice",
