@@ -109,6 +109,20 @@
     "/photography": {
     }
   },
+  "/experiments": {
+    "/graph-3d": {
+    },
+    "/dots": {
+    },
+    "/experiments": {
+    },
+    "/time-scale": {
+    },
+    "/typing-practice": {
+    },
+    "/year-progress": {
+    }
+  },
   "/lists": {
     "/authors": {
     },
@@ -147,6 +161,12 @@
     "/normal-distribution": {
     },
     "/probability-and-statistics": {
+    }
+  },
+  "/misc": {
+    "/graph-2d": {
+    },
+    "/about": {
     }
   },
   "/natural-sciences": {
@@ -203,30 +223,6 @@
     "/sagan": {
     },
     "/sapolsky": {
-    }
-  },
-  "/other": {
-    "/experiments": {
-      "/dots": {
-      },
-      "/experiments": {
-      },
-      "/graph-3d": {
-      },
-      "/time-scale": {
-      },
-      "/typing-practice": {
-      },
-      "/year-progress": {
-      }
-    },
-    "/meta": {
-      "/about": {
-      },
-      "/graph-2d": {
-      },
-      "/meta": {
-      }
     }
   },
   "/philosophy": {

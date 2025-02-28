@@ -1,10 +1,11 @@
 {
   "/": [
     "/arts",
+    "/experiments",
     "/lists",
     "/math",
+    "/misc",
     "/natural-sciences",
-    "/other",
     "/philosophy",
     "/skills",
     "/social-sciences",
@@ -19,6 +20,14 @@
     "/documentaries",
     "/paintings",
     "/photography"
+  ],
+  "/experiments": [
+    "/graph-3d",
+    "/dots",
+    "/experiments",
+    "/time-scale",
+    "/typing-practice",
+    "/year-progress"
   ],
   "/lists": [
     "/authors",
@@ -42,6 +51,10 @@
     "/normal-distribution",
     "/probability-and-statistics"
   ],
+  "/misc": [
+    "/graph-2d",
+    "/about"
+  ],
   "/natural-sciences": [
     "/astronomy",
     "/physics",
@@ -56,10 +69,6 @@
     "/pale-blue-dot",
     "/sagan",
     "/sapolsky"
-  ],
-  "/other": [
-    "/experiments",
-    "/meta"
   ],
   "/philosophy": [
     "/time",
@@ -215,19 +224,6 @@
     "/health",
     "/how-to-deal-with-pain",
     "/sleep"
-  ],
-  "/experiments": [
-    "/dots",
-    "/experiments",
-    "/graph-3d",
-    "/time-scale",
-    "/typing-practice",
-    "/year-progress"
-  ],
-  "/meta": [
-    "/about",
-    "/graph-2d",
-    "/meta"
   ],
   "/time": [
     "/death",

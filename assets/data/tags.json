@@ -156,6 +156,27 @@
   "/yunus-emre": [
     "siir"
   ],
+  "/dots": [
+    "experiments"
+  ],
+  "/experiments": [
+
+  ],
+  "/graph-3d": [
+    "experiments"
+  ],
+  "/time-scale": [
+    "experiments",
+    "stem",
+    "time"
+  ],
+  "/typing-practice": [
+    "experiments",
+    "skills"
+  ],
+  "/year-progress": [
+    "experiments"
+  ],
   "/authors": [
     "lists"
   ],
@@ -211,6 +232,12 @@
   ],
   "/probability-and-statistics": [
     "math"
+  ],
+  "/about": [
+
+  ],
+  "/graph-2d": [
+
   ],
   "/akins-laws-of-spacecraft": [
     "natural-sciences",
@@ -289,36 +316,6 @@
   ],
   "/sapolsky": [
     "natural-sciences"
-  ],
-  "/dots": [
-    "experiments"
-  ],
-  "/experiments": [
-
-  ],
-  "/graph-3d": [
-    "experiments"
-  ],
-  "/time-scale": [
-    "experiments",
-    "stem",
-    "time"
-  ],
-  "/typing-practice": [
-    "experiments",
-    "skills"
-  ],
-  "/year-progress": [
-    "experiments"
-  ],
-  "/about": [
-    "meta"
-  ],
-  "/graph-2d": [
-    "meta"
-  ],
-  "/meta": [
-
   ],
   "/all-is-one": [
     "philosophy"

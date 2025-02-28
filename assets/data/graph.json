@@ -6,10 +6,11 @@
       "name": "Root",
       "links": [
         "/arts",
+        "/experiments",
         "/lists",
         "/math",
+        "/misc",
         "/natural-sciences",
-        "/other",
         "/philosophy",
         "/skills",
         "/social-sciences",
@@ -29,6 +30,20 @@
         "/documentaries",
         "/paintings",
         "/photography"
+      ]
+    },
+    {
+      "id": "/experiments",
+      "group": 1,
+      "name": "Experiments",
+      "links": [
+        "/root",
+        "/graph-3d",
+        "/dots",
+        "/time-scale",
+        "/typing-practice",
+        "/year-progress",
+        "/projects"
       ]
     },
     {
@@ -68,6 +83,16 @@
       ]
     },
     {
+      "id": "/misc",
+      "group": 1,
+      "name": "Misc",
+      "links": [
+        "/root",
+        "/graph-2d",
+        "/about"
+      ]
+    },
+    {
       "id": "/natural-sciences",
       "group": 1,
       "name": "Natural Sciences",
@@ -87,16 +112,6 @@
         "/sapolsky",
         "/since-big-bang",
         "/systems"
-      ]
-    },
-    {
-      "id": "/other",
-      "group": 1,
-      "name": "Other",
-      "links": [
-        "/root",
-        "/experiments",
-        "/meta"
       ]
     },
     {
@@ -319,6 +334,50 @@
       ]
     },
     {
+      "id": "/graph-3d",
+      "group": 2,
+      "name": "3D graph of all pages",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/dots",
+      "group": 2,
+      "name": "Dots",
+      "links": [
+        "/experiments",
+        "/time"
+      ]
+    },
+    {
+      "id": "/time-scale",
+      "group": 2,
+      "name": "If the Earth is 45 years old",
+      "links": [
+        "/experiments",
+        "/climate-change",
+        "/time"
+      ]
+    },
+    {
+      "id": "/typing-practice",
+      "group": 2,
+      "name": "Typing Practice",
+      "links": [
+        "/experiments",
+        "/skills"
+      ]
+    },
+    {
+      "id": "/year-progress",
+      "group": 2,
+      "name": "Year Progress",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
       "id": "/authors",
       "group": 2,
       "name": "Authors",
@@ -460,6 +519,22 @@
       ]
     },
     {
+      "id": "/graph-2d",
+      "group": 2,
+      "name": "2D Graph of All Pages",
+      "links": [
+        "/misc"
+      ]
+    },
+    {
+      "id": "/about",
+      "group": 2,
+      "name": "Welcome, friend!",
+      "links": [
+        "/misc"
+      ]
+    },
+    {
       "id": "/astronomy",
       "group": 2,
       "name": "Astronomy",
@@ -518,7 +593,8 @@
       "group": 2,
       "name": "Climate Change",
       "links": [
-        "/natural-sciences"
+        "/natural-sciences",
+        "/time-scale"
       ]
     },
     {
@@ -568,30 +644,6 @@
       "name": "Sapolsky",
       "links": [
         "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/experiments",
-      "group": 2,
-      "name": "Experiments",
-      "links": [
-        "/other",
-        "/dots",
-        "/graph-3d",
-        "/time-scale",
-        "/typing-practice",
-        "/year-progress",
-        "/projects"
-      ]
-    },
-    {
-      "id": "/meta",
-      "group": 2,
-      "name": "Metadata",
-      "links": [
-        "/other",
-        "/about",
-        "/graph-2d"
       ]
     },
     {
@@ -1744,65 +1796,6 @@
       "name": "How to sleep better?",
       "links": [
         "/health"
-      ]
-    },
-    {
-      "id": "/dots",
-      "group": 3,
-      "name": "Dots",
-      "links": [
-        "/experiments",
-        "/time"
-      ]
-    },
-    {
-      "id": "/graph-3d",
-      "group": 3,
-      "name": "3D graph of all pages",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/time-scale",
-      "group": 3,
-      "name": "If the Earth is 45 years old",
-      "links": [
-        "/experiments",
-        "/time"
-      ]
-    },
-    {
-      "id": "/typing-practice",
-      "group": 3,
-      "name": "Typing Practice",
-      "links": [
-        "/experiments",
-        "/skills"
-      ]
-    },
-    {
-      "id": "/year-progress",
-      "group": 3,
-      "name": "Year Progress",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/about",
-      "group": 3,
-      "name": "Welcome, friend!",
-      "links": [
-        "/meta"
-      ]
-    },
-    {
-      "id": "/graph-2d",
-      "group": 3,
-      "name": "2D Graph of All Pages",
-      "links": [
-        "/meta"
       ]
     },
     {
@@ -4226,6 +4219,10 @@
     },
     {
       "source": "/root",
+      "target": "/experiments"
+    },
+    {
+      "source": "/root",
       "target": "/lists"
     },
     {
@@ -4234,11 +4231,11 @@
     },
     {
       "source": "/root",
-      "target": "/natural-sciences"
+      "target": "/misc"
     },
     {
       "source": "/root",
-      "target": "/other"
+      "target": "/natural-sciences"
     },
     {
       "source": "/root",
@@ -4283,6 +4280,26 @@
     {
       "source": "/arts",
       "target": "/photography"
+    },
+    {
+      "source": "/experiments",
+      "target": "/graph-3d"
+    },
+    {
+      "source": "/experiments",
+      "target": "/dots"
+    },
+    {
+      "source": "/experiments",
+      "target": "/time-scale"
+    },
+    {
+      "source": "/experiments",
+      "target": "/typing-practice"
+    },
+    {
+      "source": "/experiments",
+      "target": "/year-progress"
     },
     {
       "source": "/lists",
@@ -4349,6 +4366,14 @@
       "target": "/probability-and-statistics"
     },
     {
+      "source": "/misc",
+      "target": "/graph-2d"
+    },
+    {
+      "source": "/misc",
+      "target": "/about"
+    },
+    {
       "source": "/natural-sciences",
       "target": "/astronomy"
     },
@@ -4395,14 +4420,6 @@
     {
       "source": "/natural-sciences",
       "target": "/sapolsky"
-    },
-    {
-      "source": "/other",
-      "target": "/experiments"
-    },
-    {
-      "source": "/other",
-      "target": "/meta"
     },
     {
       "source": "/philosophy",
@@ -4903,34 +4920,6 @@
     {
       "source": "/health",
       "target": "/sleep"
-    },
-    {
-      "source": "/experiments",
-      "target": "/dots"
-    },
-    {
-      "source": "/experiments",
-      "target": "/graph-3d"
-    },
-    {
-      "source": "/experiments",
-      "target": "/time-scale"
-    },
-    {
-      "source": "/experiments",
-      "target": "/typing-practice"
-    },
-    {
-      "source": "/experiments",
-      "target": "/year-progress"
-    },
-    {
-      "source": "/meta",
-      "target": "/about"
-    },
-    {
-      "source": "/meta",
-      "target": "/graph-2d"
     },
     {
       "source": "/time",
@@ -5985,6 +5974,18 @@
       "target": "/ideas"
     },
     {
+      "source": "/dots",
+      "target": "/time"
+    },
+    {
+      "source": "/experiments",
+      "target": "/projects"
+    },
+    {
+      "source": "/time-scale",
+      "target": "/climate-change"
+    },
+    {
       "source": "/datasets",
       "target": "/probability-and-statistics"
     },
@@ -6055,14 +6056,6 @@
     {
       "source": "/classical-physics",
       "target": "/maxwell-equations"
-    },
-    {
-      "source": "/dots",
-      "target": "/time"
-    },
-    {
-      "source": "/experiments",
-      "target": "/projects"
     },
     {
       "source": "/be-good-to-each-other-and-yourself",
