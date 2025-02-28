@@ -16,3 +16,5 @@ A more sophisticated version of this algorithm adds some randomness to your walk
 
 A better algorithm has you repeatedly drop yourself in random parts of the terrain, do simple hill climbing, and then after many such attempts step back and decide which of the hills were highest.
 
+
+

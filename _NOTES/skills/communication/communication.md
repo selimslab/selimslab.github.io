@@ -27,7 +27,7 @@ Don't say it if you don't believe it
 
 People can't read minds. Something being obvious to you doesn't mean it's obvious to them 
 
-Poeple often share a problem or vulnerability for emotional support, not for advice or solutions
+People often share a problem or vulnerability for emotional support, not for advice or solutions
 
 Frequent sharing organizes thoughts
 

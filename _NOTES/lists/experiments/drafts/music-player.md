@@ -1,6 +1,0 @@
----
----
-pip install yt-dlp
-
-
-

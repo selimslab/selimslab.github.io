@@ -11,7 +11,6 @@
 
 [[get-things-done]]
 
-
 [[how-to-pitch]]
 
 In writing or people say it didn't happen when it is convenient

@@ -1,4 +1,0 @@
----
----
-
-"That is why it is so important to let certain things go. To release them. To cut loose. People need to understand that no one is playing with marked cards; sometimes we win and sometimes we lose. Don't expect to get anything back, don't expect recognition for your efforts, don't expect your genius to be discovered or your love to be understood. Complete the circle. Not out of pride, inability or arrogance, but simply because whatever it is no longer fits in your life. Close the door, change the record, clean the house, get rid of the dust. Stop being who you were and become who you are.”
