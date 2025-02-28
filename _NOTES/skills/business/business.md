@@ -11,8 +11,6 @@
 
 [[get-things-done]]
 
-[[how-to-pitch]]
-
 In writing or people say it didn't happen when it is convenient
 
 Do business with people you like. It's great.

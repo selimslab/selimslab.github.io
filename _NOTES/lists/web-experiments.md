@@ -15,6 +15,3 @@ tags: ux
 <https://sketchplanations.com> 
 
 [wizard zines](https://wizardzines.com/)
-
-https://turbopuffer.com/blog/turbopuffer
-

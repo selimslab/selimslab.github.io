@@ -1,6 +1,12 @@
 ---
 ---
 
+
+[Tag: quote - Sketchplanations](https://sketchplanations.com/tags/quote)
+
+[Familiar and Unfamiliar Quotations (norvig.com)](https://www.norvig.com/quotations.html)
+
+
 There is always a philosophy for lack of courage. - Camus
 
 "What matters in life is not what happens to you but what you remember and how you remember it.”
@@ -180,7 +186,10 @@ Words are loaded pistols
 Circumstances reveal the man 
 
 
+## From the Idea Machine 
 
-
-
-
+<article>
+{% for idea in site.data.ideas %}
+<p style="white-space: pre-line;">{{idea}}</p>
+{% endfor %}
+</article>

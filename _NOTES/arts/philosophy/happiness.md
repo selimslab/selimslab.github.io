@@ -26,10 +26,6 @@ Happiness is not something ready made. It comes from your own actions
 
 ![](/assets/static/img/happier-dog.jpeg)
 
-## See also 
 
-[[flow]]
-
-[[gratitude]]
 
 
