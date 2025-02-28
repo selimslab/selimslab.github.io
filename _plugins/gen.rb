@@ -333,11 +333,8 @@ class SiteGenerator < Jekyll::Generator
       doc = site.documents.find { |e| e.id == file_id }
       title = doc.nil? ? file_id.sub(/^\//, '').capitalize : doc.data["title"]
       sorted_children = children.sort_by { |k, v| [-v.length, site.data["file_to_title"][k]] }.to_h
-      html += if sorted_children.empty?
-                "<li><a href='#{file_id}/'>#{title}</a></li>"
-              else
-                "<details><summary>#{title}</summary><li>#{tree_to_html(site, sorted_children, file_id)}</li></details>"
-              end
+      html += "<li><a href='#{file_id}/'>#{title}</a></li>" if sorted_children.empty?
+      # "<details><summary>#{title}</summary><li>#{tree_to_html(site, sorted_children, file_id)}</li></details>"
     end
     html += "</ul>"
     site.data["tree_htmls"][root_id] = html
