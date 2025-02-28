@@ -9,7 +9,7 @@ Give your mind some space
 ## Index
 
 <div style="margin-top:0.5rem">
-{{ site.data.tree_htmls["root"] }}
+{% include hub.html tag='root' %}
 </div>
 
 
