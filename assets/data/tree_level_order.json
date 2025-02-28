@@ -20,14 +20,19 @@
   "/lists": [
     "/experiments",
     "/meta",
-    "/web-experiments",
+    "/essais",
+    "/lists",
     "/quotes",
-    "/lists"
+    "/web-experiments",
+    "/datasets",
+    "/blogs",
+    "/authors"
   ],
   "/skills": [
     "/decisions",
-    "/business",
     "/communication",
+    "/creativity",
+    "/design",
     "/drawing",
     "/driving",
     "/drowning-does-not-look-dramatic",
@@ -36,8 +41,8 @@
     "/growing-plants",
     "/habits",
     "/how-to-gain-wealth",
-    "/how-to-grow-old-russell",
-    "/design",
+    "/cooking",
+    "/humor",
     "/interviews",
     "/learning",
     "/mastery",
@@ -47,9 +52,8 @@
     "/skills",
     "/teaching",
     "/used-car-checklist",
-    "/creativity",
-    "/humor",
-    "/cooking"
+    "/how-to-grow-old-russell",
+    "/business"
   ],
   "/social-sciences": [
     "/history",
@@ -180,12 +184,6 @@
     "/decisions",
     "/do-one-thing-at-a-time-and-do-it-well",
     "/do-without-doing"
-  ],
-  "/business": [
-    "/business",
-    "/company-culture",
-    "/hiring",
-    "/sales"
   ],
   "/communication": [
     "/communication",

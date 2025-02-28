@@ -25,8 +25,7 @@
         "/edebiyat",
         "/paintings",
         "/cinema",
-        "/photography",
-        "/languages"
+        "/photography"
       ]
     },
     {
@@ -37,8 +36,12 @@
         "/root",
         "/experiments",
         "/meta",
-        "/web-experiments",
+        "/essais",
         "/quotes",
+        "/web-experiments",
+        "/datasets",
+        "/blogs",
+        "/authors",
         "/classics",
         "/history-of-technology",
         "/since-big-bang"
@@ -51,8 +54,9 @@
       "links": [
         "/root",
         "/decisions",
-        "/business",
         "/communication",
+        "/creativity",
+        "/design",
         "/drawing",
         "/driving",
         "/drowning-does-not-look-dramatic",
@@ -61,8 +65,8 @@
         "/growing-plants",
         "/habits",
         "/how-to-gain-wealth",
-        "/how-to-grow-old-russell",
-        "/design",
+        "/cooking",
+        "/humor",
         "/interviews",
         "/learning",
         "/mastery",
@@ -71,9 +75,8 @@
         "/problem-solving",
         "/teaching",
         "/used-car-checklist",
-        "/creativity",
-        "/humor",
-        "/cooking",
+        "/how-to-grow-old-russell",
+        "/business",
         "/critical-thinking",
         "/eudaimonia",
         "/photography",
@@ -292,6 +295,29 @@
       ]
     },
     {
+      "id": "/essais",
+      "group": 2,
+      "name": "Essais",
+      "links": [
+        "/lists",
+        "/how-to-grow-old-russell",
+        "/mastery",
+        "/problem-solving",
+        "/farming-trap",
+        "/the-triumph-of-stupidity",
+        "/who-goes-nazi",
+        "/feynmans-epilogue"
+      ]
+    },
+    {
+      "id": "/quotes",
+      "group": 2,
+      "name": "Quotes",
+      "links": [
+        "/lists"
+      ]
+    },
+    {
       "id": "/web-experiments",
       "group": 2,
       "name": "Web Experiments",
@@ -301,9 +327,26 @@
       ]
     },
     {
-      "id": "/quotes",
+      "id": "/datasets",
       "group": 2,
-      "name": "Quotes",
+      "name": "Datasets",
+      "links": [
+        "/lists",
+        "/probability-and-statistics"
+      ]
+    },
+    {
+      "id": "/blogs",
+      "group": 2,
+      "name": "Blogs",
+      "links": [
+        "/lists"
+      ]
+    },
+    {
+      "id": "/authors",
+      "group": 2,
+      "name": "Authors",
       "links": [
         "/lists"
       ]
@@ -322,19 +365,6 @@
       ]
     },
     {
-      "id": "/business",
-      "group": 2,
-      "name": "Business",
-      "links": [
-        "/skills",
-        "/company-culture",
-        "/hiring",
-        "/sales",
-        "/teamwork",
-        "/what-to-work-on"
-      ]
-    },
-    {
       "id": "/communication",
       "group": 2,
       "name": "Communication",
@@ -343,6 +373,26 @@
         "/negotiations",
         "/public-speaking",
         "/write-better"
+      ]
+    },
+    {
+      "id": "/creativity",
+      "group": 2,
+      "name": "Creativity",
+      "links": [
+        "/skills"
+      ]
+    },
+    {
+      "id": "/design",
+      "group": 2,
+      "name": "Design",
+      "links": [
+        "/skills",
+        "/do-one-thing-at-a-time-and-do-it-well",
+        "/natural-ux",
+        "/polished-pixels",
+        "/ux"
       ]
     },
     {
@@ -415,24 +465,20 @@
       ]
     },
     {
-      "id": "/how-to-grow-old-russell",
+      "id": "/cooking",
       "group": 2,
-      "name": "How to Grow Old, by Bertrand Russell",
+      "name": "Cooking",
       "links": [
-        "/skills",
-        "/philosophy"
+        "/skills"
       ]
     },
     {
-      "id": "/design",
+      "id": "/humor",
       "group": 2,
-      "name": "Design",
+      "name": "Humor",
       "links": [
         "/skills",
-        "/do-one-thing-at-a-time-and-do-it-well",
-        "/natural-ux",
-        "/polished-pixels",
-        "/ux"
+        "/the-tao-of-programming"
       ]
     },
     {
@@ -457,7 +503,8 @@
       "group": 2,
       "name": "Mastery",
       "links": [
-        "/skills"
+        "/skills",
+        "/essais"
       ]
     },
     {
@@ -484,6 +531,7 @@
       "links": [
         "/skills",
         "/take-a-walk",
+        "/essais",
         "/critical-thinking"
       ]
     },
@@ -505,28 +553,23 @@
       ]
     },
     {
-      "id": "/creativity",
+      "id": "/how-to-grow-old-russell",
       "group": 2,
-      "name": "Creativity",
-      "links": [
-        "/skills"
-      ]
-    },
-    {
-      "id": "/humor",
-      "group": 2,
-      "name": "Humor",
+      "name": "How to Grow Old, by Bertrand Russell",
       "links": [
         "/skills",
-        "/the-tao-of-programming"
+        "/philosophy",
+        "/essais"
       ]
     },
     {
-      "id": "/cooking",
+      "id": "/business",
       "group": 2,
-      "name": "Cooking",
+      "name": "Business",
       "links": [
-        "/skills"
+        "/skills",
+        "/teamwork",
+        "/what-to-work-on"
       ]
     },
     {
@@ -549,8 +592,7 @@
       "links": [
         "/social-sciences",
         "/latin",
-        "/metaphors",
-        "/arts"
+        "/metaphors"
       ]
     },
     {
@@ -650,7 +692,8 @@
       "group": 2,
       "name": "The Triumph of Stupidity, Bertrand Russell",
       "links": [
-        "/social-sciences"
+        "/social-sciences",
+        "/essais"
       ]
     },
     {
@@ -667,7 +710,8 @@
       "group": 2,
       "name": "Who Goes Nazi",
       "links": [
-        "/social-sciences"
+        "/social-sciences",
+        "/essais"
       ]
     },
     {
@@ -1485,30 +1529,6 @@
       ]
     },
     {
-      "id": "/company-culture",
-      "group": 3,
-      "name": "Company Culture",
-      "links": [
-        "/business"
-      ]
-    },
-    {
-      "id": "/hiring",
-      "group": 3,
-      "name": "Hiring",
-      "links": [
-        "/business"
-      ]
-    },
-    {
-      "id": "/sales",
-      "group": 3,
-      "name": "Sales",
-      "links": [
-        "/business"
-      ]
-    },
-    {
       "id": "/negotiations",
       "group": 3,
       "name": "Negotiations",
@@ -1547,7 +1567,8 @@
       "group": 3,
       "name": "Farming Trap",
       "links": [
-        "/history"
+        "/history",
+        "/essais"
       ]
     },
     {
@@ -1629,7 +1650,8 @@
       "group": 3,
       "name": "Feynmans Epilogue",
       "links": [
-        "/natural-sciences"
+        "/natural-sciences",
+        "/essais"
       ]
     },
     {
@@ -1921,6 +1943,7 @@
       "name": "Probability And Statistics",
       "links": [
         "/math",
+        "/datasets",
         "/bayes"
       ]
     },
@@ -4234,11 +4257,27 @@
     },
     {
       "source": "/lists",
-      "target": "/web-experiments"
+      "target": "/essais"
     },
     {
       "source": "/lists",
       "target": "/quotes"
+    },
+    {
+      "source": "/lists",
+      "target": "/web-experiments"
+    },
+    {
+      "source": "/lists",
+      "target": "/datasets"
+    },
+    {
+      "source": "/lists",
+      "target": "/blogs"
+    },
+    {
+      "source": "/lists",
+      "target": "/authors"
     },
     {
       "source": "/skills",
@@ -4246,11 +4285,15 @@
     },
     {
       "source": "/skills",
-      "target": "/business"
+      "target": "/communication"
     },
     {
       "source": "/skills",
-      "target": "/communication"
+      "target": "/creativity"
+    },
+    {
+      "source": "/skills",
+      "target": "/design"
     },
     {
       "source": "/skills",
@@ -4286,11 +4329,11 @@
     },
     {
       "source": "/skills",
-      "target": "/how-to-grow-old-russell"
+      "target": "/cooking"
     },
     {
       "source": "/skills",
-      "target": "/design"
+      "target": "/humor"
     },
     {
       "source": "/skills",
@@ -4326,15 +4369,11 @@
     },
     {
       "source": "/skills",
-      "target": "/creativity"
+      "target": "/how-to-grow-old-russell"
     },
     {
       "source": "/skills",
-      "target": "/humor"
-    },
-    {
-      "source": "/skills",
-      "target": "/cooking"
+      "target": "/business"
     },
     {
       "source": "/social-sciences",
@@ -4739,18 +4778,6 @@
     {
       "source": "/decisions",
       "target": "/do-without-doing"
-    },
-    {
-      "source": "/business",
-      "target": "/company-culture"
-    },
-    {
-      "source": "/business",
-      "target": "/hiring"
-    },
-    {
-      "source": "/business",
-      "target": "/sales"
     },
     {
       "source": "/communication",
@@ -5889,10 +5916,6 @@
       "target": "/unique-bst"
     },
     {
-      "source": "/arts",
-      "target": "/languages"
-    },
-    {
       "source": "/cien-anos-de-soledad",
       "target": "/classics"
     },
@@ -6011,6 +6034,38 @@
     {
       "source": "/poetry",
       "target": "/siir"
+    },
+    {
+      "source": "/datasets",
+      "target": "/probability-and-statistics"
+    },
+    {
+      "source": "/essais",
+      "target": "/how-to-grow-old-russell"
+    },
+    {
+      "source": "/essais",
+      "target": "/mastery"
+    },
+    {
+      "source": "/essais",
+      "target": "/problem-solving"
+    },
+    {
+      "source": "/essais",
+      "target": "/farming-trap"
+    },
+    {
+      "source": "/essais",
+      "target": "/the-triumph-of-stupidity"
+    },
+    {
+      "source": "/essais",
+      "target": "/who-goes-nazi"
+    },
+    {
+      "source": "/essais",
+      "target": "/feynmans-epilogue"
     },
     {
       "source": "/time-scale",

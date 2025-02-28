@@ -1,6 +1,6 @@
 {
   "/arts": [
-
+    "root"
   ],
   "/cinema": [
     "arts"
@@ -263,6 +263,18 @@
   "/yunus-emre": [
     "siir"
   ],
+  "/authors": [
+    "lists"
+  ],
+  "/blogs": [
+    "lists"
+  ],
+  "/datasets": [
+    "lists"
+  ],
+  "/essais": [
+    "lists"
+  ],
   "/dots": [
 
   ],
@@ -280,7 +292,7 @@
 
   ],
   "/lists": [
-
+    "root"
   ],
   "/about": [
     "meta"
@@ -300,15 +312,6 @@
   ],
   "/business": [
     "skills"
-  ],
-  "/company-culture": [
-    "business"
-  ],
-  "/hiring": [
-    "business"
-  ],
-  "/sales": [
-    "business"
   ],
   "/communication": [
     "skills"
@@ -402,7 +405,7 @@
     "skills"
   ],
   "/skills": [
-
+    "root"
   ],
   "/teaching": [
     "skills"
@@ -457,7 +460,6 @@
     "time"
   ],
   "/languages": [
-    "arts",
     "social-sciences"
   ],
   "/latin": [
@@ -481,7 +483,7 @@
     "ux"
   ],
   "/social-sciences": [
-
+    "root"
   ],
   "/sociology": [
     "social-sciences"
@@ -1373,7 +1375,7 @@
     "software-engineering"
   ],
   "/stem": [
-
+    "root"
   ],
   "/a-free-web-again": [
     "ux"

@@ -202,11 +202,19 @@
       "/meta": {
       }
     },
-    "/web-experiments": {
+    "/essais": {
+    },
+    "/lists": {
     },
     "/quotes": {
     },
-    "/lists": {
+    "/web-experiments": {
+    },
+    "/datasets": {
+    },
+    "/blogs": {
+    },
+    "/authors": {
     }
   },
   "/skills": {
@@ -220,16 +228,6 @@
       "/do-without-doing": {
       }
     },
-    "/business": {
-      "/business": {
-      },
-      "/company-culture": {
-      },
-      "/hiring": {
-      },
-      "/sales": {
-      }
-    },
     "/communication": {
       "/communication": {
       },
@@ -239,6 +237,10 @@
       },
       "/write-better": {
       }
+    },
+    "/creativity": {
+    },
+    "/design": {
     },
     "/drawing": {
     },
@@ -256,9 +258,9 @@
     },
     "/how-to-gain-wealth": {
     },
-    "/how-to-grow-old-russell": {
+    "/cooking": {
     },
-    "/design": {
+    "/humor": {
     },
     "/interviews": {
     },
@@ -278,11 +280,9 @@
     },
     "/used-car-checklist": {
     },
-    "/creativity": {
+    "/how-to-grow-old-russell": {
     },
-    "/humor": {
-    },
-    "/cooking": {
+    "/business": {
     }
   },
   "/social-sciences": {
