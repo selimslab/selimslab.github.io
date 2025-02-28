@@ -8,9 +8,11 @@
     {% assign file = site.data.tag_to_file[tag] %} 
 {% endif %}
 
-{% assign title = "/" | append: file %} 
+{% assign fileid = "/" | append: file %} 
 
-{% if site.data.file_to_title contains file %} 
-    {% assign title = site.data.file_to_title[file] %} 
+{% assign title = fileid %} 
+
+{% if site.data.file_to_title contains fileid  %} 
+    {% assign title = site.data.file_to_title[fileid] %} 
 {% endif %}
 
