@@ -1,4 +1,5 @@
 ---
+title: Links
 ---
 
 [Tag: lifehack - Sketchplanations](https://sketchplanations.com/tags/lifehack)

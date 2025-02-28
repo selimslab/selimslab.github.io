@@ -1,5 +1,5 @@
 ---
-tags: top
+title: Ideas
 ---
 
 - [Action](#action)
