@@ -1,9 +1,6 @@
 ---
 ---
 
-
-
-
 Good ideas are in plain sight. They are about reordering existing + connecting + right timing.
 
 Don't look for ideas, work on things that you find genuinely interesting 

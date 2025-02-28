@@ -53,9 +53,6 @@
   "/paintings": [
     "arts"
   ],
-  "/act": [
-    "philosophy"
-  ],
   "/all-is-one": [
     "philosophy"
   ],
@@ -102,6 +99,9 @@
   "/ideal-insan": [
     "philosophy",
     "turkce"
+  ],
+  "/ideas": [
+    "philosophy"
   ],
   "/one-bit-better": [
     "philosophy"
@@ -210,45 +210,10 @@
   "/soft-rains": [
     "poetry"
   ],
-  "/hollow-power": [
-    "tao-te-ching"
-  ],
-  "/insight-and-strength": [
-    "tao-te-ching"
-  ],
-  "/life-is-soft": [
-    "phil",
-    "tao",
-    "tao-te-ching"
-  ],
-  "/misery-under-happiness": [
-    "tao-te-ching"
-  ],
-  "/monstrous-ingenuity": [
-    "tao-te-ching"
-  ],
-  "/not-being": [
-    "tao-te-ching"
-  ],
-  "/not-far-away": [
-    "tao-te-ching"
-  ],
   "/tao-te-ching": [
     "phil",
     "poetry",
     "pols"
-  ],
-  "/the-great-leader": [
-    "tao-te-ching"
-  ],
-  "/uncut-wood": [
-    "tao-te-ching"
-  ],
-  "/wei-wu-wei": [
-    "tao-te-ching"
-  ],
-  "/wind-and-rain": [
-    "tao-te-ching"
   ],
   "/the-red-wheelbarrow": [
     "poetry"
@@ -265,7 +230,16 @@
   "/to-be-or-not": [
     "poetry"
   ],
+  "/uncut-wood": [
+    "poetry"
+  ],
   "/we-wear-the-mask": [
+    "poetry"
+  ],
+  "/wei-wu-wei": [
+    "poetry"
+  ],
+  "/wind-and-rain": [
     "poetry"
   ],
   "/abbas": [
@@ -312,6 +286,9 @@
   "/yunus-emre": [
     "siir"
   ],
+  "/circle": [
+
+  ],
   "/dots": [
 
   ],
@@ -328,26 +305,6 @@
   "/year-progress": [
 
   ],
-  "/datasets": [
-
-  ],
-  "/quotes": [
-
-  ],
-  "/web-experiments": [
-    "ux"
-  ],
-  "/languages": [
-    "arts",
-    "lists"
-  ],
-  "/latin": [
-    "languages"
-  ],
-  "/metaphors": [
-    "languages",
-    "soc"
-  ],
   "/lists": [
 
   ],
@@ -360,27 +317,12 @@
   "/meta": [
     "lists"
   ],
-  "/authors": [
+  "/quotes": [
+    "lists"
+  ],
+  "/web-experiments": [
     "lists",
-    "literature"
-  ],
-  "/blogs": [
-
-  ],
-  "/books": [
-
-  ],
-  "/ideas": [
-
-  ],
-  "/news": [
-
-  ],
-  "/documentaries": [
-    "cinema"
-  ],
-  "/movies": [
-    "cinema"
+    "ux"
   ],
   "/business": [
     "skills"
@@ -533,6 +475,17 @@
     "lists",
     "nat",
     "time"
+  ],
+  "/languages": [
+    "arts",
+    "social-sciences"
+  ],
+  "/latin": [
+    "languages"
+  ],
+  "/metaphors": [
+    "languages",
+    "soc"
   ],
   "/law": [
     "social-sciences"

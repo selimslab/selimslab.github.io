@@ -1,6 +1,5 @@
 ---
 title: Türk Mirası
-tags: turkce
 ---
 
 ## Bilge Kagan 
@@ -24,8 +23,7 @@ Könlin yüce tutan erde devlet olmaz
 
 Ne yirde sızılar var ise çeken bilir
 
-## 
-
+---
 
 Alp Er Tunga öldi mü  
 İsiz ajun kaldı mu  

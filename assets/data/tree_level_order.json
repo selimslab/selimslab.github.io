@@ -7,8 +7,8 @@
     "/stem"
   ],
   "/arts": [
-    "/philosophy",
     "/poetry",
+    "/philosophy",
     "/siir",
     "/literature",
     "/design",
@@ -19,11 +19,9 @@
   ],
   "/lists": [
     "/experiments",
-    "/read",
-    "/languages",
     "/meta",
-    "/interesting",
-    "/watch",
+    "/web-experiments",
+    "/quotes",
     "/lists"
   ],
   "/skills": [
@@ -53,7 +51,7 @@
   ],
   "/social-sciences": [
     "/history",
-    "/being-poor",
+    "/languages",
     "/books-social",
     "/chomsky",
     "/cognitive-biases",
@@ -61,7 +59,7 @@
     "/emotions",
     "/law",
     "/politics",
-    "/psychology",
+    "/being-poor",
     "/social-media",
     "/social-sciences",
     "/sociology",
@@ -69,6 +67,7 @@
     "/the-triumph-of-stupidity",
     "/urban-planning",
     "/who-goes-nazi",
+    "/psychology",
     "/architecture"
   ],
   "/stem": [
@@ -80,32 +79,6 @@
     "/ux",
     "/data-science",
     "/stem"
-  ],
-  "/philosophy": [
-    "/act",
-    "/all-is-one",
-    "/balance",
-    "/be-good-to-each-other-and-yourself",
-    "/books-phil",
-    "/character",
-    "/choice",
-    "/concepts-in-greek-thought",
-    "/eudaimonia",
-    "/freedom",
-    "/getting-old",
-    "/happiness",
-    "/hard-times",
-    "/ideal-insan",
-    "/one-bit-better",
-    "/philosophy",
-    "/questions",
-    "/success-and-failure",
-    "/take-a-walk",
-    "/the-less-the-better",
-    "/travelling",
-    "/truth",
-    "/time",
-    "/work"
   ],
   "/poetry": [
     "/brecht",
@@ -124,13 +97,42 @@
     "/poetry",
     "/saturday",
     "/soft-rains",
+    "/tao-te-ching",
     "/the-red-wheelbarrow",
     "/the-road-not-taken",
     "/the-second-coming",
     "/this-be-the-verse",
     "/to-be-or-not",
+    "/uncut-wood",
     "/we-wear-the-mask",
-    "/tao-te-ching"
+    "/wei-wu-wei",
+    "/wind-and-rain"
+  ],
+  "/philosophy": [
+    "/all-is-one",
+    "/balance",
+    "/be-good-to-each-other-and-yourself",
+    "/books-phil",
+    "/character",
+    "/choice",
+    "/concepts-in-greek-thought",
+    "/eudaimonia",
+    "/freedom",
+    "/getting-old",
+    "/happiness",
+    "/hard-times",
+    "/ideal-insan",
+    "/ideas",
+    "/one-bit-better",
+    "/philosophy",
+    "/questions",
+    "/success-and-failure",
+    "/take-a-walk",
+    "/the-less-the-better",
+    "/travelling",
+    "/truth",
+    "/time",
+    "/work"
   ],
   "/siir": [
     "/abbas",
@@ -167,37 +169,17 @@
     "/ship-it"
   ],
   "/experiments": [
+    "/circle",
     "/dots",
     "/graph-3d",
     "/time-scale",
     "/typing-practice",
     "/year-progress"
   ],
-  "/read": [
-    "/authors",
-    "/blogs",
-    "/books",
-    "/ideas",
-    "/news"
-  ],
-  "/languages": [
-    "/languages",
-    "/latin",
-    "/metaphors"
-  ],
   "/meta": [
     "/about",
     "/graph-2d",
     "/meta"
-  ],
-  "/interesting": [
-    "/datasets",
-    "/quotes",
-    "/web-experiments"
-  ],
-  "/watch": [
-    "/documentaries",
-    "/movies"
   ],
   "/decisions": [
     "/critical-thinking",
@@ -223,6 +205,11 @@
     "/history-of-technology",
     "/history",
     "/since-big-bang"
+  ],
+  "/languages": [
+    "/languages",
+    "/latin",
+    "/metaphors"
   ],
   "/natural-sciences": [
     "/akins-laws-of-spacecraft",
@@ -322,20 +309,6 @@
     "/what-to-work-on",
     "/work",
     "/you-are-not-nameless"
-  ],
-  "/tao-te-ching": [
-    "/hollow-power",
-    "/insight-and-strength",
-    "/life-is-soft",
-    "/misery-under-happiness",
-    "/monstrous-ingenuity",
-    "/not-being",
-    "/not-far-away",
-    "/tao-te-ching",
-    "/the-great-leader",
-    "/uncut-wood",
-    "/wei-wu-wei",
-    "/wind-and-rain"
   ],
   "/astronomy": [
     "/astronomy",

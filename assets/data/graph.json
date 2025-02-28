@@ -18,8 +18,8 @@
       "name": "Arts",
       "links": [
         "/root",
-        "/philosophy",
         "/poetry",
+        "/philosophy",
         "/siir",
         "/literature",
         "/design",
@@ -36,13 +36,10 @@
       "links": [
         "/root",
         "/experiments",
-        "/read",
-        "/languages",
         "/meta",
-        "/interesting",
-        "/watch",
+        "/web-experiments",
+        "/quotes",
         "/classics",
-        "/authors",
         "/history-of-technology",
         "/since-big-bang"
       ]
@@ -89,7 +86,7 @@
       "links": [
         "/root",
         "/history",
-        "/being-poor",
+        "/languages",
         "/books-social",
         "/chomsky",
         "/cognitive-biases",
@@ -97,13 +94,14 @@
         "/emotions",
         "/law",
         "/politics",
-        "/psychology",
+        "/being-poor",
         "/social-media",
         "/sociology",
         "/systems",
         "/the-triumph-of-stupidity",
         "/urban-planning",
         "/who-goes-nazi",
+        "/psychology",
         "/architecture",
         "/freedom",
         "/happiness",
@@ -130,44 +128,6 @@
       ]
     },
     {
-      "id": "/philosophy",
-      "group": 2,
-      "name": "Philosophy",
-      "links": [
-        "/arts",
-        "/act",
-        "/all-is-one",
-        "/balance",
-        "/be-good-to-each-other-and-yourself",
-        "/books-phil",
-        "/character",
-        "/choice",
-        "/concepts-in-greek-thought",
-        "/eudaimonia",
-        "/freedom",
-        "/getting-old",
-        "/happiness",
-        "/hard-times",
-        "/ideal-insan",
-        "/one-bit-better",
-        "/questions",
-        "/success-and-failure",
-        "/take-a-walk",
-        "/the-less-the-better",
-        "/travelling",
-        "/truth",
-        "/time",
-        "/work",
-        "/life-is-soft",
-        "/tao-te-ching",
-        "/critical-thinking",
-        "/how-to-grow-old-russell",
-        "/going-blind",
-        "/how-to-deal-with-pain",
-        "/philosophical-implications-of-quantum-mechanics"
-      ]
-    },
-    {
       "id": "/poetry",
       "group": 2,
       "name": "Poetry",
@@ -188,14 +148,54 @@
         "/ozymandias",
         "/saturday",
         "/soft-rains",
+        "/tao-te-ching",
         "/the-red-wheelbarrow",
         "/the-road-not-taken",
         "/the-second-coming",
         "/this-be-the-verse",
         "/to-be-or-not",
+        "/uncut-wood",
         "/we-wear-the-mask",
-        "/tao-te-ching",
+        "/wei-wu-wei",
+        "/wind-and-rain",
         "/siir"
+      ]
+    },
+    {
+      "id": "/philosophy",
+      "group": 2,
+      "name": "Philosophy",
+      "links": [
+        "/arts",
+        "/all-is-one",
+        "/balance",
+        "/be-good-to-each-other-and-yourself",
+        "/books-phil",
+        "/character",
+        "/choice",
+        "/concepts-in-greek-thought",
+        "/eudaimonia",
+        "/freedom",
+        "/getting-old",
+        "/happiness",
+        "/hard-times",
+        "/ideal-insan",
+        "/ideas",
+        "/one-bit-better",
+        "/questions",
+        "/success-and-failure",
+        "/take-a-walk",
+        "/the-less-the-better",
+        "/travelling",
+        "/truth",
+        "/time",
+        "/work",
+        "/tao-te-ching",
+        "/critical-thinking",
+        "/how-to-grow-old-russell",
+        "/going-blind",
+        "/how-to-deal-with-pain",
+        "/philosophical-implications-of-quantum-mechanics"
       ]
     },
     {
@@ -232,8 +232,7 @@
         "/elaborate-vs-clear-speech",
         "/ince-memed",
         "/the-art-of-war",
-        "/turk-mirasi",
-        "/authors"
+        "/turk-mirasi"
       ]
     },
     {
@@ -264,11 +263,9 @@
     {
       "id": "/cinema",
       "group": 2,
-      "name": "Cinema",
+      "name": "Cinema 🎬",
       "links": [
-        "/arts",
-        "/documentaries",
-        "/movies"
+        "/arts"
       ]
     },
     {
@@ -286,35 +283,12 @@
       "name": "Experiments",
       "links": [
         "/lists",
+        "/circle",
         "/dots",
         "/graph-3d",
         "/time-scale",
         "/typing-practice",
         "/year-progress"
-      ]
-    },
-    {
-      "id": "/read",
-      "group": 2,
-      "name": "Read",
-      "links": [
-        "/lists",
-        "/authors",
-        "/blogs",
-        "/books",
-        "/ideas",
-        "/news"
-      ]
-    },
-    {
-      "id": "/languages",
-      "group": 2,
-      "name": "Languages",
-      "links": [
-        "/lists",
-        "/latin",
-        "/metaphors",
-        "/arts"
       ]
     },
     {
@@ -328,24 +302,20 @@
       ]
     },
     {
-      "id": "/interesting",
+      "id": "/web-experiments",
       "group": 2,
-      "name": "Interesting",
+      "name": "Web Experiments",
       "links": [
         "/lists",
-        "/datasets",
-        "/quotes",
-        "/web-experiments"
+        "/ux"
       ]
     },
     {
-      "id": "/watch",
+      "id": "/quotes",
       "group": 2,
-      "name": "Watch",
+      "name": "Quotes",
       "links": [
-        "/lists",
-        "/documentaries",
-        "/movies"
+        "/lists"
       ]
     },
     {
@@ -564,11 +534,14 @@
       ]
     },
     {
-      "id": "/being-poor",
+      "id": "/languages",
       "group": 2,
-      "name": "Being Poor",
+      "name": "Languages",
       "links": [
-        "/social-sciences"
+        "/social-sciences",
+        "/latin",
+        "/metaphors",
+        "/arts"
       ]
     },
     {
@@ -629,15 +602,11 @@
       ]
     },
     {
-      "id": "/psychology",
+      "id": "/being-poor",
       "group": 2,
-      "name": "Psychology",
+      "name": "Being Poor",
       "links": [
-        "/social-sciences",
-        "/negotiations",
-        "/happiness",
-        "/parenting",
-        "/inertia"
+        "/social-sciences"
       ]
     },
     {
@@ -690,6 +659,18 @@
       "name": "Who Goes Nazi",
       "links": [
         "/social-sciences"
+      ]
+    },
+    {
+      "id": "/psychology",
+      "group": 2,
+      "name": "Psychology",
+      "links": [
+        "/social-sciences",
+        "/negotiations",
+        "/happiness",
+        "/parenting",
+        "/inertia"
       ]
     },
     {
@@ -832,11 +813,207 @@
       ]
     },
     {
-      "id": "/act",
+      "id": "/brecht",
       "group": 3,
-      "name": "Act",
+      "name": "The Interrogation of the Good",
       "links": [
-        "/philosophy"
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/deep-roots",
+      "group": 3,
+      "name": "Deep Roots",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/do-not-go-gentle",
+      "group": 3,
+      "name": "Do not go gentle into that good night",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/find-time-to-just-be",
+      "group": 3,
+      "name": "Find Time To Just Be",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/fire-and-ice",
+      "group": 3,
+      "name": "Fire and Ice",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/haikus",
+      "group": 3,
+      "name": "Haikus",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/harlem",
+      "group": 3,
+      "name": "Harlem",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/if",
+      "group": 3,
+      "name": "If",
+      "links": [
+        "/poetry",
+        "/bulent-ecevit"
+      ]
+    },
+    {
+      "id": "/lightly-child",
+      "group": 3,
+      "name": "Lightly Child",
+      "links": [
+        "/poetry",
+        "/do-one-thing-at-a-time-and-do-it-well"
+      ]
+    },
+    {
+      "id": "/mother-to-son",
+      "group": 3,
+      "name": "Mother To Son",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/one-art",
+      "group": 3,
+      "name": "One Art",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/one-ring",
+      "group": 3,
+      "name": "One Ring",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/ozymandias",
+      "group": 3,
+      "name": "Ozymandias",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/saturday",
+      "group": 3,
+      "name": "Saturday",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/soft-rains",
+      "group": 3,
+      "name": "There Will Come Soft Rains",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/tao-te-ching",
+      "group": 3,
+      "name": "Tao Te Ching",
+      "links": [
+        "/poetry",
+        "/philosophy",
+        "/politics"
+      ]
+    },
+    {
+      "id": "/the-red-wheelbarrow",
+      "group": 3,
+      "name": "The Red Wheelbarrow",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/the-road-not-taken",
+      "group": 3,
+      "name": "The Road Not Taken",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/the-second-coming",
+      "group": 3,
+      "name": "The Second Coming",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/this-be-the-verse",
+      "group": 3,
+      "name": "This Be The Verse",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/to-be-or-not",
+      "group": 3,
+      "name": "To Be Or Not",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/uncut-wood",
+      "group": 3,
+      "name": "Uncut Wood",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/we-wear-the-mask",
+      "group": 3,
+      "name": "We Wear The Mask",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/wei-wu-wei",
+      "group": 3,
+      "name": "Wei Wu Wei",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/wind-and-rain",
+      "group": 3,
+      "name": "Wind And Rain",
+      "links": [
+        "/poetry"
       ]
     },
     {
@@ -961,6 +1138,14 @@
       ]
     },
     {
+      "id": "/ideas",
+      "group": 3,
+      "name": "Ideas",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
       "id": "/one-bit-better",
       "group": 3,
       "name": "One Bit Better",
@@ -1048,197 +1233,6 @@
         "/what-to-work-on",
         "/you-are-not-nameless",
         "/be-good-to-each-other-and-yourself"
-      ]
-    },
-    {
-      "id": "/brecht",
-      "group": 3,
-      "name": "The Interrogation of the Good",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/deep-roots",
-      "group": 3,
-      "name": "Deep Roots",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/do-not-go-gentle",
-      "group": 3,
-      "name": "Do not go gentle into that good night",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/find-time-to-just-be",
-      "group": 3,
-      "name": "Find Time To Just Be",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/fire-and-ice",
-      "group": 3,
-      "name": "Fire and Ice",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/haikus",
-      "group": 3,
-      "name": "Haikus",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/harlem",
-      "group": 3,
-      "name": "Harlem",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/if",
-      "group": 3,
-      "name": "If",
-      "links": [
-        "/poetry",
-        "/bulent-ecevit"
-      ]
-    },
-    {
-      "id": "/lightly-child",
-      "group": 3,
-      "name": "Lightly Child",
-      "links": [
-        "/poetry",
-        "/do-one-thing-at-a-time-and-do-it-well"
-      ]
-    },
-    {
-      "id": "/mother-to-son",
-      "group": 3,
-      "name": "Mother To Son",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/one-art",
-      "group": 3,
-      "name": "One Art",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/one-ring",
-      "group": 3,
-      "name": "One Ring",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/ozymandias",
-      "group": 3,
-      "name": "Ozymandias",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/saturday",
-      "group": 3,
-      "name": "Saturday",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/soft-rains",
-      "group": 3,
-      "name": "There Will Come Soft Rains",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/the-red-wheelbarrow",
-      "group": 3,
-      "name": "The Red Wheelbarrow",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/the-road-not-taken",
-      "group": 3,
-      "name": "The Road Not Taken",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/the-second-coming",
-      "group": 3,
-      "name": "The Second Coming",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/this-be-the-verse",
-      "group": 3,
-      "name": "This Be The Verse",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/to-be-or-not",
-      "group": 3,
-      "name": "To Be Or Not",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/we-wear-the-mask",
-      "group": 3,
-      "name": "We Wear The Mask",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/tao-te-ching",
-      "group": 3,
-      "name": "Tao Te Ching",
-      "links": [
-        "/poetry",
-        "/hollow-power",
-        "/insight-and-strength",
-        "/life-is-soft",
-        "/misery-under-happiness",
-        "/monstrous-ingenuity",
-        "/not-being",
-        "/not-far-away",
-        "/the-great-leader",
-        "/uncut-wood",
-        "/wei-wu-wei",
-        "/wind-and-rain",
-        "/philosophy",
-        "/politics"
       ]
     },
     {
@@ -1449,6 +1443,14 @@
       ]
     },
     {
+      "id": "/circle",
+      "group": 3,
+      "name": "Circle",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
       "id": "/dots",
       "group": 3,
       "name": "Dots",
@@ -1493,65 +1495,6 @@
       ]
     },
     {
-      "id": "/authors",
-      "group": 3,
-      "name": "Authors",
-      "links": [
-        "/read",
-        "/literature",
-        "/lists"
-      ]
-    },
-    {
-      "id": "/blogs",
-      "group": 3,
-      "name": "Blogs",
-      "links": [
-        "/read"
-      ]
-    },
-    {
-      "id": "/books",
-      "group": 3,
-      "name": "Books",
-      "links": [
-        "/read"
-      ]
-    },
-    {
-      "id": "/ideas",
-      "group": 3,
-      "name": "Ideas",
-      "links": [
-        "/read"
-      ]
-    },
-    {
-      "id": "/news",
-      "group": 3,
-      "name": "News",
-      "links": [
-        "/read"
-      ]
-    },
-    {
-      "id": "/latin",
-      "group": 3,
-      "name": "Latin",
-      "links": [
-        "/languages"
-      ]
-    },
-    {
-      "id": "/metaphors",
-      "group": 3,
-      "name": "Metaphors",
-      "links": [
-        "/languages",
-        "/social-sciences"
-      ]
-    },
-    {
       "id": "/about",
       "group": 3,
       "name": "Welcome, friend!",
@@ -1568,50 +1511,6 @@
       ]
     },
     {
-      "id": "/datasets",
-      "group": 3,
-      "name": "Datasets",
-      "links": [
-        "/interesting",
-        "/probability-and-statistics"
-      ]
-    },
-    {
-      "id": "/quotes",
-      "group": 3,
-      "name": "Quotes",
-      "links": [
-        "/interesting"
-      ]
-    },
-    {
-      "id": "/web-experiments",
-      "group": 3,
-      "name": "Web Experiments",
-      "links": [
-        "/interesting",
-        "/ux"
-      ]
-    },
-    {
-      "id": "/documentaries",
-      "group": 3,
-      "name": "Documentaries",
-      "links": [
-        "/watch",
-        "/cinema"
-      ]
-    },
-    {
-      "id": "/movies",
-      "group": 3,
-      "name": "Movies 🎬",
-      "links": [
-        "/watch",
-        "/cinema"
-      ]
-    },
-    {
       "id": "/critical-thinking",
       "group": 3,
       "name": "Critical thinking",
@@ -1620,7 +1519,6 @@
         "/philosophy",
         "/questions",
         "/truth",
-        "/insight-and-strength",
         "/problem-solving",
         "/skills"
       ]
@@ -1728,6 +1626,23 @@
         "/time",
         "/lists",
         "/natural-sciences"
+      ]
+    },
+    {
+      "id": "/latin",
+      "group": 3,
+      "name": "Latin",
+      "links": [
+        "/languages"
+      ]
+    },
+    {
+      "id": "/metaphors",
+      "group": 3,
+      "name": "Metaphors",
+      "links": [
+        "/languages",
+        "/social-sciences"
       ]
     },
     {
@@ -2063,7 +1978,6 @@
       "name": "Probability And Statistics",
       "links": [
         "/math",
-        "/datasets",
         "/bayes"
       ]
     },
@@ -2436,96 +2350,6 @@
       "name": "You Are Not Nameless",
       "links": [
         "/work"
-      ]
-    },
-    {
-      "id": "/hollow-power",
-      "group": 4,
-      "name": "Hollow Power",
-      "links": [
-        "/tao-te-ching"
-      ]
-    },
-    {
-      "id": "/insight-and-strength",
-      "group": 4,
-      "name": "Insight And Strength",
-      "links": [
-        "/tao-te-ching",
-        "/critical-thinking"
-      ]
-    },
-    {
-      "id": "/life-is-soft",
-      "group": 4,
-      "name": "Life Is Soft",
-      "links": [
-        "/tao-te-ching",
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/misery-under-happiness",
-      "group": 4,
-      "name": "Misery Under Happiness",
-      "links": [
-        "/tao-te-ching"
-      ]
-    },
-    {
-      "id": "/monstrous-ingenuity",
-      "group": 4,
-      "name": "Monstrous Ingenuity",
-      "links": [
-        "/tao-te-ching"
-      ]
-    },
-    {
-      "id": "/not-being",
-      "group": 4,
-      "name": "Not Being",
-      "links": [
-        "/tao-te-ching"
-      ]
-    },
-    {
-      "id": "/not-far-away",
-      "group": 4,
-      "name": "Not Far Away",
-      "links": [
-        "/tao-te-ching"
-      ]
-    },
-    {
-      "id": "/the-great-leader",
-      "group": 4,
-      "name": "The Great Leader",
-      "links": [
-        "/tao-te-ching"
-      ]
-    },
-    {
-      "id": "/uncut-wood",
-      "group": 4,
-      "name": "Uncut Wood",
-      "links": [
-        "/tao-te-ching"
-      ]
-    },
-    {
-      "id": "/wei-wu-wei",
-      "group": 4,
-      "name": "Wei Wu Wei",
-      "links": [
-        "/tao-te-ching"
-      ]
-    },
-    {
-      "id": "/wind-and-rain",
-      "group": 4,
-      "name": "Wind And Rain",
-      "links": [
-        "/tao-te-ching"
       ]
     },
     {
@@ -4428,11 +4252,11 @@
     },
     {
       "source": "/arts",
-      "target": "/philosophy"
+      "target": "/poetry"
     },
     {
       "source": "/arts",
-      "target": "/poetry"
+      "target": "/philosophy"
     },
     {
       "source": "/arts",
@@ -4464,23 +4288,15 @@
     },
     {
       "source": "/lists",
-      "target": "/read"
-    },
-    {
-      "source": "/lists",
-      "target": "/languages"
-    },
-    {
-      "source": "/lists",
       "target": "/meta"
     },
     {
       "source": "/lists",
-      "target": "/interesting"
+      "target": "/web-experiments"
     },
     {
       "source": "/lists",
-      "target": "/watch"
+      "target": "/quotes"
     },
     {
       "source": "/skills",
@@ -4576,7 +4392,7 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/being-poor"
+      "target": "/languages"
     },
     {
       "source": "/social-sciences",
@@ -4608,7 +4424,7 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/psychology"
+      "target": "/being-poor"
     },
     {
       "source": "/social-sciences",
@@ -4633,6 +4449,10 @@
     {
       "source": "/social-sciences",
       "target": "/who-goes-nazi"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/psychology"
     },
     {
       "source": "/social-sciences",
@@ -4665,98 +4485,6 @@
     {
       "source": "/stem",
       "target": "/data-science"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/act"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/all-is-one"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/balance"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/be-good-to-each-other-and-yourself"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/books-phil"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/character"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/choice"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/concepts-in-greek-thought"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/eudaimonia"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/freedom"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/getting-old"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/happiness"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/hard-times"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/ideal-insan"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/one-bit-better"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/questions"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/success-and-failure"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/take-a-walk"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/the-less-the-better"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/travelling"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/truth"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/time"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/work"
     },
     {
       "source": "/poetry",
@@ -4820,6 +4548,10 @@
     },
     {
       "source": "/poetry",
+      "target": "/tao-te-ching"
+    },
+    {
+      "source": "/poetry",
       "target": "/the-red-wheelbarrow"
     },
     {
@@ -4840,11 +4572,111 @@
     },
     {
       "source": "/poetry",
+      "target": "/uncut-wood"
+    },
+    {
+      "source": "/poetry",
       "target": "/we-wear-the-mask"
     },
     {
       "source": "/poetry",
-      "target": "/tao-te-ching"
+      "target": "/wei-wu-wei"
+    },
+    {
+      "source": "/poetry",
+      "target": "/wind-and-rain"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/all-is-one"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/balance"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/be-good-to-each-other-and-yourself"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/books-phil"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/character"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/choice"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/concepts-in-greek-thought"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/eudaimonia"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/freedom"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/getting-old"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/happiness"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/hard-times"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/ideal-insan"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/ideas"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/one-bit-better"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/questions"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/success-and-failure"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/take-a-walk"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/the-less-the-better"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/travelling"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/truth"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/time"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/work"
     },
     {
       "source": "/siir",
@@ -4948,6 +4780,10 @@
     },
     {
       "source": "/experiments",
+      "target": "/circle"
+    },
+    {
+      "source": "/experiments",
       "target": "/dots"
     },
     {
@@ -4967,60 +4803,12 @@
       "target": "/year-progress"
     },
     {
-      "source": "/read",
-      "target": "/authors"
-    },
-    {
-      "source": "/read",
-      "target": "/blogs"
-    },
-    {
-      "source": "/read",
-      "target": "/books"
-    },
-    {
-      "source": "/read",
-      "target": "/ideas"
-    },
-    {
-      "source": "/read",
-      "target": "/news"
-    },
-    {
-      "source": "/languages",
-      "target": "/latin"
-    },
-    {
-      "source": "/languages",
-      "target": "/metaphors"
-    },
-    {
       "source": "/meta",
       "target": "/about"
     },
     {
       "source": "/meta",
       "target": "/graph-2d"
-    },
-    {
-      "source": "/interesting",
-      "target": "/datasets"
-    },
-    {
-      "source": "/interesting",
-      "target": "/quotes"
-    },
-    {
-      "source": "/interesting",
-      "target": "/web-experiments"
-    },
-    {
-      "source": "/watch",
-      "target": "/documentaries"
-    },
-    {
-      "source": "/watch",
-      "target": "/movies"
     },
     {
       "source": "/decisions",
@@ -5073,6 +4861,14 @@
     {
       "source": "/history",
       "target": "/since-big-bang"
+    },
+    {
+      "source": "/languages",
+      "target": "/latin"
+    },
+    {
+      "source": "/languages",
+      "target": "/metaphors"
     },
     {
       "source": "/natural-sciences",
@@ -5361,50 +5157,6 @@
     {
       "source": "/work",
       "target": "/you-are-not-nameless"
-    },
-    {
-      "source": "/tao-te-ching",
-      "target": "/hollow-power"
-    },
-    {
-      "source": "/tao-te-ching",
-      "target": "/insight-and-strength"
-    },
-    {
-      "source": "/tao-te-ching",
-      "target": "/life-is-soft"
-    },
-    {
-      "source": "/tao-te-ching",
-      "target": "/misery-under-happiness"
-    },
-    {
-      "source": "/tao-te-ching",
-      "target": "/monstrous-ingenuity"
-    },
-    {
-      "source": "/tao-te-ching",
-      "target": "/not-being"
-    },
-    {
-      "source": "/tao-te-ching",
-      "target": "/not-far-away"
-    },
-    {
-      "source": "/tao-te-ching",
-      "target": "/the-great-leader"
-    },
-    {
-      "source": "/tao-te-ching",
-      "target": "/uncut-wood"
-    },
-    {
-      "source": "/tao-te-ching",
-      "target": "/wei-wu-wei"
-    },
-    {
-      "source": "/tao-te-ching",
-      "target": "/wind-and-rain"
     },
     {
       "source": "/astronomy",
@@ -6223,14 +5975,6 @@
       "target": "/languages"
     },
     {
-      "source": "/cinema",
-      "target": "/documentaries"
-    },
-    {
-      "source": "/cinema",
-      "target": "/movies"
-    },
-    {
       "source": "/design",
       "target": "/business"
     },
@@ -6257,10 +6001,6 @@
     {
       "source": "/do-not-lie-to-yourself",
       "target": "/character"
-    },
-    {
-      "source": "/literature",
-      "target": "/authors"
     },
     {
       "source": "/the-art-of-war",
@@ -6293,10 +6033,6 @@
     {
       "source": "/hard-times",
       "target": "/how-to-deal-with-pain"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/life-is-soft"
     },
     {
       "source": "/philosophy",
@@ -6383,24 +6119,12 @@
       "target": "/siir"
     },
     {
-      "source": "/insight-and-strength",
-      "target": "/critical-thinking"
-    },
-    {
       "source": "/time-scale",
       "target": "/climate-change"
     },
     {
-      "source": "/datasets",
-      "target": "/probability-and-statistics"
-    },
-    {
       "source": "/lists",
       "target": "/classics"
-    },
-    {
-      "source": "/lists",
-      "target": "/authors"
     },
     {
       "source": "/lists",
