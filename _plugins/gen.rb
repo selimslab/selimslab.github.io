@@ -22,8 +22,7 @@ class SiteGenerator < Jekyll::Generator
     initialize_site_data(site)
     tree = generate_tree(site)
     site.data["tree"] = tree
-    generate_tree_htmls(site, tree)
-
+    tree_to_html(site, tree)
     log_debug_data(tree, site) if DEBUG
 
     process_documents(site)
@@ -43,7 +42,6 @@ class SiteGenerator < Jekyll::Generator
   def initialize_site_data(site)
     site.data["tree"] = {}
     site.data["tree_htmls"] = {}
-    site.data["tree_htmls_without_self"] = {}
     initialize_backlinks(site)
     initialize_file_to_tag(site)
     initialize_file_to_title(site)
@@ -51,8 +49,9 @@ class SiteGenerator < Jekyll::Generator
 
   def log_debug_data(tree, site)
     write_json("#{DATA_PATH}/tree.json", tree)
-    write_json("#{DATA_PATH}/tree_htmls.json", site.data["tree_htmls"])
     write_json("#{DATA_PATH}/tree_level_order.json", tree_level_order(tree))
+    write_json("#{DATA_PATH}/tree_htmls.json", site.data["tree_htmls"])
+
   end
 
   def update_ideas(site)
@@ -141,6 +140,22 @@ class SiteGenerator < Jekyll::Generator
 
   end
 
+
+  def tree_to_html(site, tree)
+
+    level_order = tree_level_order(tree)
+    level_order.each do |parent_id, children|
+      html = "<ul>"
+      children.sort_by { |child_id| site.data["file_to_title"][child_id] }.each do |child_id|
+        if child_id != parent_id
+          html += "<li><a href='#{child_id}/'>#{site.data["file_to_title"][child_id]}</a></li>"
+        end
+      end
+      html += "</ul>"
+      site.data["tree_htmls"][parent_id] = html
+    end
+
+  end
 
 
   def initialize_backlinks(site)
@@ -284,13 +299,6 @@ class SiteGenerator < Jekyll::Generator
     tree
   end
 
-  def generate_tree_htmls(site, tree)
-    tree_to_html(site, tree, "root")
-
-    site.data["tree_htmls"].each do |k, v|
-      site.data["tree_htmls_without_self"][k] = v.gsub(/<a href='#{k}\/'>.*?<\/a>/, "")
-    end
-  end
 
   def bfs(site, path)
     tree = {}
@@ -325,22 +333,6 @@ class SiteGenerator < Jekyll::Generator
     tree[root]
   end
 
-  def tree_to_html(site, tree, root_id)
-    return "" if tree.empty?
-
-    html = "<ul>"
-    tree.each do |file_id, children|
-      doc = site.documents.find { |e| e.id == file_id }
-      title = doc.nil? ? file_id.sub(/^\//, '').capitalize : doc.data["title"]
-      sorted_children = children.sort_by { |k, v| [-v.length, site.data["file_to_title"][k]] }.to_h
-      html += "<li><a href='#{file_id}/'>#{title}</a></li>" if sorted_children.empty?
-      # "<details><summary>#{title}</summary><li>#{tree_to_html(site, sorted_children, file_id)}</li></details>"
-    end
-    html += "</ul>"
-    site.data["tree_htmls"][root_id] = html
-
-    html
-  end
 
   def link_to_parent(site, child_id, parent_id)
     child_doc = site.documents.find { |e| e.id == child_id }
