@@ -1,6 +1,5 @@
 ---
 title: Design Patterns
-tags: oop
 ---
 
 Some common use cases 
