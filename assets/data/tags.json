@@ -339,6 +339,12 @@
   "/concepts-in-greek-thought": [
     "philosophy"
   ],
+  "/do-one-thing-at-a-time-and-do-it-well": [
+    "philosophy"
+  ],
+  "/do-without-doing": [
+    "philosophy"
+  ],
   "/eudaimonia": [
     "philosophy",
     "skills",
@@ -422,20 +428,8 @@
   "/you-are-not-nameless": [
     "work"
   ],
-  "/business": [
-    "skills"
-  ],
   "/communication": [
     "skills"
-  ],
-  "/negotiations": [
-    "communication"
-  ],
-  "/public-speaking": [
-    "communication"
-  ],
-  "/write-better": [
-    "communication"
   ],
   "/cooking": [
     "skills"
@@ -444,19 +438,12 @@
     "skills"
   ],
   "/critical-thinking": [
-    "decisions",
     "phil",
     "skills"
   ],
-  "/decisions": [
+  "/decision-making": [
     "skills",
     "top"
-  ],
-  "/do-one-thing-at-a-time-and-do-it-well": [
-    "decisions"
-  ],
-  "/do-without-doing": [
-    "decisions"
   ],
   "/design": [
     "skills"
@@ -507,6 +494,9 @@
     "essais",
     "skills"
   ],
+  "/negotiations": [
+    "skills"
+  ],
   "/outdoors": [
     "skills",
     "sports"
@@ -519,6 +509,9 @@
     "essais",
     "skills"
   ],
+  "/public-speaking": [
+    "skills"
+  ],
   "/skill-links": [
     "skills"
   ],
@@ -529,6 +522,9 @@
     "skills"
   ],
   "/used-car-checklist": [
+    "skills"
+  ],
+  "/writing": [
     "skills"
   ],
   "/architecture": [

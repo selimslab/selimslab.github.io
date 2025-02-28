@@ -2,12 +2,8 @@
 title: On writing
 ---
 
-Writing is one of the most powerful inventions. It organizes thoughts, sparks ideas, reveals cracks, and connects us to the past and the future.
-
 > "How vain it is to sit down to write
 > when you have not stood up to live.”
-
-How to write better?
 
 1. Ask questions and set out to answer them
 2. Use simple words

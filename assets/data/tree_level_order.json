@@ -79,6 +79,8 @@
     "/books-phil",
     "/choice",
     "/concepts-in-greek-thought",
+    "/do-one-thing-at-a-time-and-do-it-well",
+    "/do-without-doing",
     "/eudaimonia",
     "/freedom",
     "/getting-old",
@@ -98,10 +100,10 @@
   ],
   "/skills": [
     "/communication",
-    "/decisions",
-    "/business",
     "/cooking",
     "/creativity",
+    "/critical-thinking",
+    "/decision-making",
     "/design",
     "/drawing",
     "/driving",
@@ -117,9 +119,12 @@
     "/interviews",
     "/learning",
     "/mastery",
+    "/negotiations",
+    "/writing",
     "/outdoors",
     "/parenting",
     "/problem-solving",
+    "/public-speaking",
     "/skill-links",
     "/skills",
     "/teaching",
@@ -238,18 +243,6 @@
     "/what-to-work-on",
     "/work",
     "/you-are-not-nameless"
-  ],
-  "/communication": [
-    "/communication",
-    "/negotiations",
-    "/public-speaking",
-    "/write-better"
-  ],
-  "/decisions": [
-    "/critical-thinking",
-    "/decisions",
-    "/do-one-thing-at-a-time-and-do-it-well",
-    "/do-without-doing"
   ],
   "/history": [
     "/121st-century",

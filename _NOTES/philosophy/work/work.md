@@ -19,4 +19,4 @@ Leave it better than you found.
 
 [[get-things-done]]
 
-[[decisions]]
+[[decision-making]]

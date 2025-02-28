@@ -16,7 +16,7 @@ Consider beginnings. Solve problems while they are still small.
 
 [[death]]
 
-[[decisions]]
+[[decision-making]]
 
 [[do-without-doing]] 
 

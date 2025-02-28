@@ -262,6 +262,10 @@
     },
     "/concepts-in-greek-thought": {
     },
+    "/do-one-thing-at-a-time-and-do-it-well": {
+    },
+    "/do-without-doing": {
+    },
     "/eudaimonia": {
     },
     "/freedom": {
@@ -297,30 +301,14 @@
   },
   "/skills": {
     "/communication": {
-      "/communication": {
-      },
-      "/negotiations": {
-      },
-      "/public-speaking": {
-      },
-      "/write-better": {
-      }
-    },
-    "/decisions": {
-      "/critical-thinking": {
-      },
-      "/decisions": {
-      },
-      "/do-one-thing-at-a-time-and-do-it-well": {
-      },
-      "/do-without-doing": {
-      }
-    },
-    "/business": {
     },
     "/cooking": {
     },
     "/creativity": {
+    },
+    "/critical-thinking": {
+    },
+    "/decision-making": {
     },
     "/design": {
     },
@@ -352,11 +340,17 @@
     },
     "/mastery": {
     },
+    "/negotiations": {
+    },
+    "/writing": {
+    },
     "/outdoors": {
     },
     "/parenting": {
     },
     "/problem-solving": {
+    },
+    "/public-speaking": {
     },
     "/skill-links": {
     },

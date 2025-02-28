@@ -1,6 +1,6 @@
 ---
 title: Critical thinking
-tags: skills phil 
+tags: phil 
 ---
 
 - See with your own eyes
@@ -30,3 +30,5 @@ tags: skills phil
 [Bertrand Russell's Nobel Prize Acceptance Speech](https://reasonandmeaning.com/2015/10/08/bertrand-russells-nobel-prize-acceptance-speech/)
 
 [Epoché](https://en.wikipedia.org/wiki/Epoché)
+
+[[decision-making]]
