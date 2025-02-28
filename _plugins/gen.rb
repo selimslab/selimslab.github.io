@@ -148,6 +148,9 @@ class SiteGenerator < Jekyll::Generator
       
       html = "<ul>"
       children.each do |child_id|
+        if child_id == parent_id 
+          next
+        end
         title = site.data["file_to_title"][child_id]
         html += "<li><a href='#{child_id}/'>#{title}</a></li>"
       end
@@ -286,7 +289,7 @@ class SiteGenerator < Jekyll::Generator
 
     doc.content.scan(/\[\[[a-z0-9-]*\]\]/).each do |link|
       target = link[2..-3]
-      target = tag_to_file[target] if tag_to_file.key?(target)
+      target = tag_to_file["/#{target}"] if tag_to_file.key?("/#{target}")
       title = file_to_title["/#{target}"]
       markdown_link = "[#{title}](/#{target}/)"
       doc.content.gsub!(link, markdown_link)
