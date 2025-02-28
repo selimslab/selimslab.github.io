@@ -7,11 +7,13 @@
       "links": [
         "/arts",
         "/lists",
+        "/math",
+        "/natural-sciences",
         "/other",
         "/philosophy",
         "/skills",
         "/social-sciences",
-        "/stem"
+        "/tech"
       ]
     },
     {
@@ -43,6 +45,47 @@
         "/classics",
         "/history-of-technology",
         "/since-big-bang"
+      ]
+    },
+    {
+      "id": "/math",
+      "group": 1,
+      "name": "Math",
+      "links": [
+        "/root",
+        "/bayes",
+        "/counter-intuitive-math",
+        "/discrete-vs-continuous",
+        "/equations-that-changed-the-world",
+        "/logic-proofs",
+        "/fourier-transform",
+        "/laplace-transform",
+        "/math-links",
+        "/normal-distribution",
+        "/probability-and-statistics",
+        "/local-maximum"
+      ]
+    },
+    {
+      "id": "/natural-sciences",
+      "group": 1,
+      "name": "Natural Sciences",
+      "links": [
+        "/root",
+        "/astronomy",
+        "/physics",
+        "/health",
+        "/akins-laws-of-spacecraft",
+        "/books-natural",
+        "/climate-change",
+        "/feynman-lectures",
+        "/feynmans-epilogue",
+        "/fluid-field-boundaries",
+        "/pale-blue-dot",
+        "/sagan",
+        "/sapolsky",
+        "/since-big-bang",
+        "/systems"
       ]
     },
     {
@@ -84,12 +127,12 @@
         "/the-less-the-better",
         "/travelling",
         "/truth",
-        "/tao-te-ching",
-        "/critical-thinking",
-        "/how-to-grow-old-russell",
         "/going-blind",
         "/how-to-deal-with-pain",
-        "/philosophical-implications-of-quantum-mechanics"
+        "/philosophical-implications-of-quantum-mechanics",
+        "/tao-te-ching",
+        "/critical-thinking",
+        "/how-to-grow-old-russell"
       ]
     },
     {
@@ -111,6 +154,7 @@
         "/get-things-done",
         "/growing-plants",
         "/habits",
+        "/homelife",
         "/how-to-gain-wealth",
         "/how-to-grow-old-russell",
         "/humor",
@@ -120,6 +164,7 @@
         "/outdoors",
         "/parenting",
         "/problem-solving",
+        "/skill-links",
         "/teaching",
         "/used-car-checklist",
         "/critical-thinking",
@@ -161,20 +206,16 @@
       ]
     },
     {
-      "id": "/stem",
+      "id": "/tech",
       "group": 1,
-      "name": "STEM",
+      "name": "Tech",
       "links": [
         "/root",
-        "/natural-sciences",
         "/programming",
         "/computers",
-        "/math",
         "/software-engineering",
         "/ux",
-        "/data-science",
-        "/history-of-technology",
-        "/time-scale"
+        "/data-science"
       ]
     },
     {
@@ -207,8 +248,7 @@
         "/uncut-wood",
         "/we-wear-the-mask",
         "/wei-wu-wei",
-        "/wind-and-rain",
-        "/siir"
+        "/wind-and-rain"
       ]
     },
     {
@@ -229,8 +269,7 @@
         "/melih-cevdet",
         "/nazim",
         "/orhan-veli",
-        "/yunus-emre",
-        "/poetry"
+        "/yunus-emre"
       ]
     },
     {
@@ -302,13 +341,13 @@
       "name": "Essais",
       "links": [
         "/lists",
+        "/feynmans-epilogue",
         "/how-to-grow-old-russell",
         "/mastery",
         "/problem-solving",
         "/farming-trap",
         "/the-triumph-of-stupidity",
-        "/who-goes-nazi",
-        "/feynmans-epilogue"
+        "/who-goes-nazi"
       ]
     },
     {
@@ -326,6 +365,201 @@
       "links": [
         "/lists",
         "/ux"
+      ]
+    },
+    {
+      "id": "/bayes",
+      "group": 2,
+      "name": "Bayes' theorem",
+      "links": [
+        "/math",
+        "/probability-and-statistics",
+        "/algorithms"
+      ]
+    },
+    {
+      "id": "/counter-intuitive-math",
+      "group": 2,
+      "name": "Counter Intuitive Math",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/discrete-vs-continuous",
+      "group": 2,
+      "name": "Digital vs Analog",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/equations-that-changed-the-world",
+      "group": 2,
+      "name": "Equations That Changed The World",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/logic-proofs",
+      "group": 2,
+      "name": "Five ways to prove P=>Q",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/fourier-transform",
+      "group": 2,
+      "name": "Fourier Transform",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/laplace-transform",
+      "group": 2,
+      "name": "Laplace Transform",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/math-links",
+      "group": 2,
+      "name": "Math Links",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/normal-distribution",
+      "group": 2,
+      "name": "Normal Distribution",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/probability-and-statistics",
+      "group": 2,
+      "name": "Probability And Statistics",
+      "links": [
+        "/math",
+        "/datasets",
+        "/bayes"
+      ]
+    },
+    {
+      "id": "/astronomy",
+      "group": 2,
+      "name": "Astronomy",
+      "links": [
+        "/natural-sciences",
+        "/earth",
+        "/size-of-the-universe",
+        "/solar-system",
+        "/the-overview-effect"
+      ]
+    },
+    {
+      "id": "/physics",
+      "group": 2,
+      "name": "Physics",
+      "links": [
+        "/natural-sciences",
+        "/classical-physics",
+        "/inertia",
+        "/maxwell-equations",
+        "/philosophical-implications-of-quantum-mechanics"
+      ]
+    },
+    {
+      "id": "/health",
+      "group": 2,
+      "name": "Health",
+      "links": [
+        "/natural-sciences",
+        "/going-blind",
+        "/how-to-deal-with-pain",
+        "/sleep"
+      ]
+    },
+    {
+      "id": "/akins-laws-of-spacecraft",
+      "group": 2,
+      "name": "Akins Laws Of Spacecraft",
+      "links": [
+        "/natural-sciences",
+        "/hacker-laws",
+        "/polished-pixels",
+        "/system-design"
+      ]
+    },
+    {
+      "id": "/books-natural",
+      "group": 2,
+      "name": "Books",
+      "links": [
+        "/natural-sciences"
+      ]
+    },
+    {
+      "id": "/climate-change",
+      "group": 2,
+      "name": "Climate Change",
+      "links": [
+        "/natural-sciences"
+      ]
+    },
+    {
+      "id": "/feynman-lectures",
+      "group": 2,
+      "name": "Feynman Lectures",
+      "links": [
+        "/natural-sciences"
+      ]
+    },
+    {
+      "id": "/feynmans-epilogue",
+      "group": 2,
+      "name": "Feynmans Epilogue",
+      "links": [
+        "/natural-sciences",
+        "/essais"
+      ]
+    },
+    {
+      "id": "/fluid-field-boundaries",
+      "group": 2,
+      "name": "Fluid Field Boundaries",
+      "links": [
+        "/natural-sciences"
+      ]
+    },
+    {
+      "id": "/pale-blue-dot",
+      "group": 2,
+      "name": "Pale Blue Dot",
+      "links": [
+        "/natural-sciences"
+      ]
+    },
+    {
+      "id": "/sagan",
+      "group": 2,
+      "name": "Sagan",
+      "links": [
+        "/natural-sciences"
+      ]
+    },
+    {
+      "id": "/sapolsky",
+      "group": 2,
+      "name": "Sapolsky",
+      "links": [
+        "/natural-sciences"
       ]
     },
     {
@@ -479,9 +713,7 @@
       "group": 2,
       "name": "Hard Times",
       "links": [
-        "/philosophy",
-        "/going-blind",
-        "/how-to-deal-with-pain"
+        "/philosophy"
       ]
     },
     {
@@ -698,6 +930,14 @@
       ]
     },
     {
+      "id": "/homelife",
+      "group": 2,
+      "name": "Homelife",
+      "links": [
+        "/skills"
+      ]
+    },
+    {
       "id": "/how-to-gain-wealth",
       "group": 2,
       "name": "How To Gain Wealth",
@@ -776,6 +1016,14 @@
         "/essais",
         "/take-a-walk",
         "/critical-thinking"
+      ]
+    },
+    {
+      "id": "/skill-links",
+      "group": 2,
+      "name": "Skill Links",
+      "links": [
+        "/skills"
       ]
     },
     {
@@ -900,8 +1148,8 @@
         "/social-sciences",
         "/negotiations",
         "/happiness",
-        "/parenting",
-        "/inertia"
+        "/inertia",
+        "/parenting"
       ]
     },
     {
@@ -927,8 +1175,8 @@
       "name": "Systems Thinking",
       "links": [
         "/social-sciences",
-        "/system-design",
-        "/natural-sciences"
+        "/natural-sciences",
+        "/system-design"
       ]
     },
     {
@@ -959,33 +1207,11 @@
       ]
     },
     {
-      "id": "/natural-sciences",
-      "group": 2,
-      "name": "Natural Sciences",
-      "links": [
-        "/stem",
-        "/akins-laws-of-spacecraft",
-        "/books-natural",
-        "/climate-change",
-        "/feynman-lectures",
-        "/feynmans-epilogue",
-        "/fluid-field-boundaries",
-        "/pale-blue-dot",
-        "/sagan",
-        "/sapolsky",
-        "/astronomy",
-        "/health",
-        "/physics",
-        "/since-big-bang",
-        "/systems"
-      ]
-    },
-    {
       "id": "/programming",
       "group": 2,
       "name": "Programming",
       "links": [
-        "/stem",
+        "/tech",
         "/api",
         "/com",
         "/concurrency",
@@ -1007,7 +1233,7 @@
       "group": 2,
       "name": "Computers",
       "links": [
-        "/stem",
+        "/tech",
         "/computers-from-scratch",
         "/containers",
         "/discussion-topics",
@@ -1021,29 +1247,11 @@
       ]
     },
     {
-      "id": "/math",
-      "group": 2,
-      "name": "Math",
-      "links": [
-        "/stem",
-        "/bayes",
-        "/counter-intuitive-math",
-        "/discrete-vs-continuous",
-        "/equations-that-changed-the-world",
-        "/fourier-transform",
-        "/laplace-transform",
-        "/logic-proofs",
-        "/normal-distribution",
-        "/probability-and-statistics",
-        "/local-maximum"
-      ]
-    },
-    {
       "id": "/software-engineering",
       "group": 2,
       "name": "Software Engineering",
       "links": [
-        "/stem",
+        "/tech",
         "/api-design",
         "/code-review",
         "/core-concepts",
@@ -1061,7 +1269,7 @@
       "group": 2,
       "name": "UX",
       "links": [
-        "/stem",
+        "/tech",
         "/a-free-web-again",
         "/accessibility",
         "/evolution-of-computer-interfaces",
@@ -1081,7 +1289,7 @@
       "group": 2,
       "name": "Data Science",
       "links": [
-        "/stem",
+        "/tech",
         "/customize-prompt",
         "/machine-learning",
         "/nlp",
@@ -1446,6 +1654,100 @@
       ]
     },
     {
+      "id": "/earth",
+      "group": 3,
+      "name": "Earth",
+      "links": [
+        "/astronomy"
+      ]
+    },
+    {
+      "id": "/size-of-the-universe",
+      "group": 3,
+      "name": "Size Of The Universe",
+      "links": [
+        "/astronomy"
+      ]
+    },
+    {
+      "id": "/solar-system",
+      "group": 3,
+      "name": "Solar System",
+      "links": [
+        "/astronomy"
+      ]
+    },
+    {
+      "id": "/the-overview-effect",
+      "group": 3,
+      "name": "The Overview Effect",
+      "links": [
+        "/astronomy"
+      ]
+    },
+    {
+      "id": "/classical-physics",
+      "group": 3,
+      "name": "Classical Physics",
+      "links": [
+        "/physics",
+        "/maxwell-equations"
+      ]
+    },
+    {
+      "id": "/inertia",
+      "group": 3,
+      "name": "Inertia",
+      "links": [
+        "/physics",
+        "/psychology"
+      ]
+    },
+    {
+      "id": "/maxwell-equations",
+      "group": 3,
+      "name": "Maxwell Equations",
+      "links": [
+        "/physics",
+        "/classical-physics"
+      ]
+    },
+    {
+      "id": "/philosophical-implications-of-quantum-mechanics",
+      "group": 3,
+      "name": "Philosophical Implications Of Quantum Mechanics",
+      "links": [
+        "/physics",
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/going-blind",
+      "group": 3,
+      "name": "Going Blind",
+      "links": [
+        "/health",
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/how-to-deal-with-pain",
+      "group": 3,
+      "name": "How to deal with Extreme Physical Pain",
+      "links": [
+        "/health",
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/sleep",
+      "group": 3,
+      "name": "How to sleep better?",
+      "links": [
+        "/health"
+      ]
+    },
+    {
       "id": "/dots",
       "group": 3,
       "name": "Dots",
@@ -1468,9 +1770,7 @@
       "name": "If the Earth is 45 years old",
       "links": [
         "/experiments",
-        "/climate-change",
-        "/time",
-        "/stem"
+        "/time"
       ]
     },
     {
@@ -1656,8 +1956,7 @@
       "name": "History Of Technology",
       "links": [
         "/history",
-        "/lists",
-        "/stem"
+        "/lists"
       ]
     },
     {
@@ -1667,8 +1966,8 @@
       "links": [
         "/history",
         "/lists",
-        "/time",
-        "/natural-sciences"
+        "/natural-sciences",
+        "/time"
       ]
     },
     {
@@ -1686,118 +1985,6 @@
       "links": [
         "/languages",
         "/social-sciences"
-      ]
-    },
-    {
-      "id": "/akins-laws-of-spacecraft",
-      "group": 3,
-      "name": "Akins Laws Of Spacecraft",
-      "links": [
-        "/natural-sciences",
-        "/hacker-laws",
-        "/polished-pixels",
-        "/system-design"
-      ]
-    },
-    {
-      "id": "/books-natural",
-      "group": 3,
-      "name": "Books",
-      "links": [
-        "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/climate-change",
-      "group": 3,
-      "name": "Climate Change",
-      "links": [
-        "/natural-sciences",
-        "/time-scale"
-      ]
-    },
-    {
-      "id": "/feynman-lectures",
-      "group": 3,
-      "name": "Feynman Lectures",
-      "links": [
-        "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/feynmans-epilogue",
-      "group": 3,
-      "name": "Feynmans Epilogue",
-      "links": [
-        "/natural-sciences",
-        "/essais"
-      ]
-    },
-    {
-      "id": "/fluid-field-boundaries",
-      "group": 3,
-      "name": "Fluid Field Boundaries",
-      "links": [
-        "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/pale-blue-dot",
-      "group": 3,
-      "name": "Pale Blue Dot",
-      "links": [
-        "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/sagan",
-      "group": 3,
-      "name": "Sagan",
-      "links": [
-        "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/sapolsky",
-      "group": 3,
-      "name": "Sapolsky",
-      "links": [
-        "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/astronomy",
-      "group": 3,
-      "name": "Astronomy",
-      "links": [
-        "/natural-sciences",
-        "/earth",
-        "/size-of-the-universe",
-        "/solar-system",
-        "/the-overview-effect"
-      ]
-    },
-    {
-      "id": "/health",
-      "group": 3,
-      "name": "Health",
-      "links": [
-        "/natural-sciences",
-        "/going-blind",
-        "/how-to-deal-with-pain",
-        "/sleep"
-      ]
-    },
-    {
-      "id": "/physics",
-      "group": 3,
-      "name": "Physics",
-      "links": [
-        "/natural-sciences",
-        "/classical-physics",
-        "/inertia",
-        "/maxwell-equations",
-        "/philosophical-implications-of-quantum-mechanics"
       ]
     },
     {
@@ -2059,82 +2246,6 @@
       ]
     },
     {
-      "id": "/bayes",
-      "group": 3,
-      "name": "Bayes' theorem",
-      "links": [
-        "/math",
-        "/probability-and-statistics",
-        "/algorithms"
-      ]
-    },
-    {
-      "id": "/counter-intuitive-math",
-      "group": 3,
-      "name": "Counter Intuitive Math",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/discrete-vs-continuous",
-      "group": 3,
-      "name": "Digital vs Analog",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/equations-that-changed-the-world",
-      "group": 3,
-      "name": "Equations That Changed The World",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/fourier-transform",
-      "group": 3,
-      "name": "Fourier Transform",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/laplace-transform",
-      "group": 3,
-      "name": "Laplace Transform",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/logic-proofs",
-      "group": 3,
-      "name": "Five ways to prove P=>Q",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/normal-distribution",
-      "group": 3,
-      "name": "Normal Distribution",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/probability-and-statistics",
-      "group": 3,
-      "name": "Probability And Statistics",
-      "links": [
-        "/math",
-        "/datasets",
-        "/bayes"
-      ]
-    },
-    {
       "id": "/api-design",
       "group": 3,
       "name": "Api Design",
@@ -2272,8 +2383,8 @@
       "name": "Polished Pixels",
       "links": [
         "/ux",
-        "/design",
-        "/akins-laws-of-spacecraft"
+        "/akins-laws-of-spacecraft",
+        "/design"
       ]
     },
     {
@@ -2325,102 +2436,6 @@
       "name": "Prompt Engineering",
       "links": [
         "/data-science"
-      ]
-    },
-    {
-      "id": "/earth",
-      "group": 4,
-      "name": "Earth",
-      "links": [
-        "/astronomy"
-      ]
-    },
-    {
-      "id": "/size-of-the-universe",
-      "group": 4,
-      "name": "Size Of The Universe",
-      "links": [
-        "/astronomy"
-      ]
-    },
-    {
-      "id": "/solar-system",
-      "group": 4,
-      "name": "Solar System",
-      "links": [
-        "/astronomy"
-      ]
-    },
-    {
-      "id": "/the-overview-effect",
-      "group": 4,
-      "name": "The Overview Effect",
-      "links": [
-        "/astronomy"
-      ]
-    },
-    {
-      "id": "/going-blind",
-      "group": 4,
-      "name": "Going Blind",
-      "links": [
-        "/health",
-        "/hard-times",
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/how-to-deal-with-pain",
-      "group": 4,
-      "name": "How to deal with Extreme Physical Pain",
-      "links": [
-        "/health",
-        "/hard-times",
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/sleep",
-      "group": 4,
-      "name": "How to sleep better?",
-      "links": [
-        "/health"
-      ]
-    },
-    {
-      "id": "/classical-physics",
-      "group": 4,
-      "name": "Classical Physics",
-      "links": [
-        "/physics",
-        "/maxwell-equations"
-      ]
-    },
-    {
-      "id": "/inertia",
-      "group": 4,
-      "name": "Inertia",
-      "links": [
-        "/physics",
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/maxwell-equations",
-      "group": 4,
-      "name": "Maxwell Equations",
-      "links": [
-        "/physics",
-        "/classical-physics"
-      ]
-    },
-    {
-      "id": "/philosophical-implications-of-quantum-mechanics",
-      "group": 4,
-      "name": "Philosophical Implications Of Quantum Mechanics",
-      "links": [
-        "/physics",
-        "/philosophy"
       ]
     },
     {
@@ -4215,6 +4230,14 @@
     },
     {
       "source": "/root",
+      "target": "/math"
+    },
+    {
+      "source": "/root",
+      "target": "/natural-sciences"
+    },
+    {
+      "source": "/root",
       "target": "/other"
     },
     {
@@ -4231,7 +4254,7 @@
     },
     {
       "source": "/root",
-      "target": "/stem"
+      "target": "/tech"
     },
     {
       "source": "/arts",
@@ -4280,6 +4303,94 @@
     {
       "source": "/lists",
       "target": "/web-experiments"
+    },
+    {
+      "source": "/math",
+      "target": "/bayes"
+    },
+    {
+      "source": "/math",
+      "target": "/counter-intuitive-math"
+    },
+    {
+      "source": "/math",
+      "target": "/discrete-vs-continuous"
+    },
+    {
+      "source": "/math",
+      "target": "/equations-that-changed-the-world"
+    },
+    {
+      "source": "/math",
+      "target": "/logic-proofs"
+    },
+    {
+      "source": "/math",
+      "target": "/fourier-transform"
+    },
+    {
+      "source": "/math",
+      "target": "/laplace-transform"
+    },
+    {
+      "source": "/math",
+      "target": "/math-links"
+    },
+    {
+      "source": "/math",
+      "target": "/normal-distribution"
+    },
+    {
+      "source": "/math",
+      "target": "/probability-and-statistics"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/astronomy"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/physics"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/health"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/akins-laws-of-spacecraft"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/books-natural"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/climate-change"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/feynman-lectures"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/feynmans-epilogue"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/fluid-field-boundaries"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/pale-blue-dot"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/sagan"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/sapolsky"
     },
     {
       "source": "/other",
@@ -4435,6 +4546,10 @@
     },
     {
       "source": "/skills",
+      "target": "/homelife"
+    },
+    {
+      "source": "/skills",
       "target": "/how-to-gain-wealth"
     },
     {
@@ -4468,6 +4583,10 @@
     {
       "source": "/skills",
       "target": "/problem-solving"
+    },
+    {
+      "source": "/skills",
+      "target": "/skill-links"
     },
     {
       "source": "/skills",
@@ -4550,31 +4669,23 @@
       "target": "/who-goes-nazi"
     },
     {
-      "source": "/stem",
-      "target": "/natural-sciences"
-    },
-    {
-      "source": "/stem",
+      "source": "/tech",
       "target": "/programming"
     },
     {
-      "source": "/stem",
+      "source": "/tech",
       "target": "/computers"
     },
     {
-      "source": "/stem",
-      "target": "/math"
-    },
-    {
-      "source": "/stem",
+      "source": "/tech",
       "target": "/software-engineering"
     },
     {
-      "source": "/stem",
+      "source": "/tech",
       "target": "/ux"
     },
     {
-      "source": "/stem",
+      "source": "/tech",
       "target": "/data-science"
     },
     {
@@ -4750,6 +4861,50 @@
       "target": "/turk-mirasi"
     },
     {
+      "source": "/astronomy",
+      "target": "/earth"
+    },
+    {
+      "source": "/astronomy",
+      "target": "/size-of-the-universe"
+    },
+    {
+      "source": "/astronomy",
+      "target": "/solar-system"
+    },
+    {
+      "source": "/astronomy",
+      "target": "/the-overview-effect"
+    },
+    {
+      "source": "/physics",
+      "target": "/classical-physics"
+    },
+    {
+      "source": "/physics",
+      "target": "/inertia"
+    },
+    {
+      "source": "/physics",
+      "target": "/maxwell-equations"
+    },
+    {
+      "source": "/physics",
+      "target": "/philosophical-implications-of-quantum-mechanics"
+    },
+    {
+      "source": "/health",
+      "target": "/going-blind"
+    },
+    {
+      "source": "/health",
+      "target": "/how-to-deal-with-pain"
+    },
+    {
+      "source": "/health",
+      "target": "/sleep"
+    },
+    {
       "source": "/experiments",
       "target": "/dots"
     },
@@ -4858,54 +5013,6 @@
       "target": "/metaphors"
     },
     {
-      "source": "/natural-sciences",
-      "target": "/akins-laws-of-spacecraft"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/books-natural"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/climate-change"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/feynman-lectures"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/feynmans-epilogue"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/fluid-field-boundaries"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/pale-blue-dot"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/sagan"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/sapolsky"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/astronomy"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/health"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/physics"
-    },
-    {
       "source": "/programming",
       "target": "/api"
     },
@@ -4988,42 +5095,6 @@
     {
       "source": "/computers",
       "target": "/security"
-    },
-    {
-      "source": "/math",
-      "target": "/bayes"
-    },
-    {
-      "source": "/math",
-      "target": "/counter-intuitive-math"
-    },
-    {
-      "source": "/math",
-      "target": "/discrete-vs-continuous"
-    },
-    {
-      "source": "/math",
-      "target": "/equations-that-changed-the-world"
-    },
-    {
-      "source": "/math",
-      "target": "/fourier-transform"
-    },
-    {
-      "source": "/math",
-      "target": "/laplace-transform"
-    },
-    {
-      "source": "/math",
-      "target": "/logic-proofs"
-    },
-    {
-      "source": "/math",
-      "target": "/normal-distribution"
-    },
-    {
-      "source": "/math",
-      "target": "/probability-and-statistics"
     },
     {
       "source": "/software-engineering",
@@ -5112,50 +5183,6 @@
     {
       "source": "/data-science",
       "target": "/prompt-engineering"
-    },
-    {
-      "source": "/astronomy",
-      "target": "/earth"
-    },
-    {
-      "source": "/astronomy",
-      "target": "/size-of-the-universe"
-    },
-    {
-      "source": "/astronomy",
-      "target": "/solar-system"
-    },
-    {
-      "source": "/astronomy",
-      "target": "/the-overview-effect"
-    },
-    {
-      "source": "/health",
-      "target": "/going-blind"
-    },
-    {
-      "source": "/health",
-      "target": "/how-to-deal-with-pain"
-    },
-    {
-      "source": "/health",
-      "target": "/sleep"
-    },
-    {
-      "source": "/physics",
-      "target": "/classical-physics"
-    },
-    {
-      "source": "/physics",
-      "target": "/inertia"
-    },
-    {
-      "source": "/physics",
-      "target": "/maxwell-equations"
-    },
-    {
-      "source": "/physics",
-      "target": "/philosophical-implications-of-quantum-mechanics"
     },
     {
       "source": "/algorithms",
@@ -5950,10 +5977,6 @@
       "target": "/one-bit-better"
     },
     {
-      "source": "/poetry",
-      "target": "/siir"
-    },
-    {
       "source": "/tao-te-ching",
       "target": "/books-phil"
     },
@@ -5964,6 +5987,10 @@
     {
       "source": "/datasets",
       "target": "/probability-and-statistics"
+    },
+    {
+      "source": "/essais",
+      "target": "/feynmans-epilogue"
     },
     {
       "source": "/essais",
@@ -5990,10 +6017,6 @@
       "target": "/who-goes-nazi"
     },
     {
-      "source": "/essais",
-      "target": "/feynmans-epilogue"
-    },
-    {
       "source": "/lists",
       "target": "/classics"
     },
@@ -6006,12 +6029,36 @@
       "target": "/since-big-bang"
     },
     {
-      "source": "/dots",
-      "target": "/time"
+      "source": "/bayes",
+      "target": "/probability-and-statistics"
     },
     {
-      "source": "/time-scale",
-      "target": "/climate-change"
+      "source": "/math",
+      "target": "/local-maximum"
+    },
+    {
+      "source": "/akins-laws-of-spacecraft",
+      "target": "/hacker-laws"
+    },
+    {
+      "source": "/akins-laws-of-spacecraft",
+      "target": "/polished-pixels"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/since-big-bang"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/systems"
+    },
+    {
+      "source": "/classical-physics",
+      "target": "/maxwell-equations"
+    },
+    {
+      "source": "/dots",
+      "target": "/time"
     },
     {
       "source": "/be-good-to-each-other-and-yourself",
@@ -6034,12 +6081,16 @@
       "target": "/success-and-failure"
     },
     {
-      "source": "/hard-times",
+      "source": "/philosophy",
       "target": "/going-blind"
     },
     {
-      "source": "/hard-times",
+      "source": "/philosophy",
       "target": "/how-to-deal-with-pain"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/philosophical-implications-of-quantum-mechanics"
     },
     {
       "source": "/philosophy",
@@ -6052,18 +6103,6 @@
     {
       "source": "/philosophy",
       "target": "/how-to-grow-old-russell"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/going-blind"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/how-to-deal-with-pain"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/philosophical-implications-of-quantum-mechanics"
     },
     {
       "source": "/questions",
@@ -6191,11 +6230,11 @@
     },
     {
       "source": "/psychology",
-      "target": "/parenting"
+      "target": "/inertia"
     },
     {
       "source": "/psychology",
-      "target": "/inertia"
+      "target": "/parenting"
     },
     {
       "source": "/social-sciences",
@@ -6256,34 +6295,6 @@
     {
       "source": "/machine-learning",
       "target": "/predict-movie-genres"
-    },
-    {
-      "source": "/bayes",
-      "target": "/probability-and-statistics"
-    },
-    {
-      "source": "/math",
-      "target": "/local-maximum"
-    },
-    {
-      "source": "/akins-laws-of-spacecraft",
-      "target": "/hacker-laws"
-    },
-    {
-      "source": "/akins-laws-of-spacecraft",
-      "target": "/polished-pixels"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/since-big-bang"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/systems"
-    },
-    {
-      "source": "/classical-physics",
-      "target": "/maxwell-equations"
     },
     {
       "source": "/algorithms",
@@ -6560,14 +6571,6 @@
     {
       "source": "/system-design",
       "target": "/accessibility"
-    },
-    {
-      "source": "/stem",
-      "target": "/history-of-technology"
-    },
-    {
-      "source": "/stem",
-      "target": "/time-scale"
     },
     {
       "source": "/ux",

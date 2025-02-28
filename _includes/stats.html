@@ -1,7 +1,11 @@
-{% assign total_words = 0 %} {% for doc in site.documents %} {% assign words =
-    doc.content | number_of_words | times: 1.0 %} {% assign total_words =
-    total_words | plus: words %} {% endfor %} {% assign total_words = total_words
-    | round %}
+{% assign total_words = 0 %} 
+{% for doc in site.documents %} 
+    {% if doc.content %}
+        {% assign words = doc.content | number_of_words | times: 1.0 %} 
+        {% assign total_words = total_words | plus: words %} 
+    {% endif %}
+{% endfor %} 
+{% assign total_words = total_words | round %}
   
     {% assign total_read_time = total_words | divided_by:180 | round %} 
     {% assign total_read_time_hours = total_read_time | divided_by:60 | plus: 1 | round %}

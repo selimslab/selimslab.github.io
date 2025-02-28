@@ -123,6 +123,86 @@
     "/web-experiments": {
     }
   },
+  "/math": {
+    "/bayes": {
+    },
+    "/counter-intuitive-math": {
+    },
+    "/discrete-vs-continuous": {
+    },
+    "/equations-that-changed-the-world": {
+    },
+    "/logic-proofs": {
+    },
+    "/fourier-transform": {
+    },
+    "/laplace-transform": {
+    },
+    "/math": {
+    },
+    "/math-links": {
+    },
+    "/normal-distribution": {
+    },
+    "/probability-and-statistics": {
+    }
+  },
+  "/natural-sciences": {
+    "/astronomy": {
+      "/astronomy": {
+      },
+      "/earth": {
+      },
+      "/size-of-the-universe": {
+      },
+      "/solar-system": {
+      },
+      "/the-overview-effect": {
+      }
+    },
+    "/physics": {
+      "/classical-physics": {
+      },
+      "/inertia": {
+      },
+      "/maxwell-equations": {
+      },
+      "/philosophical-implications-of-quantum-mechanics": {
+      },
+      "/physics": {
+      }
+    },
+    "/health": {
+      "/going-blind": {
+      },
+      "/health": {
+      },
+      "/how-to-deal-with-pain": {
+      },
+      "/sleep": {
+      }
+    },
+    "/akins-laws-of-spacecraft": {
+    },
+    "/books-natural": {
+    },
+    "/climate-change": {
+    },
+    "/feynman-lectures": {
+    },
+    "/feynmans-epilogue": {
+    },
+    "/fluid-field-boundaries": {
+    },
+    "/natural-sciences": {
+    },
+    "/pale-blue-dot": {
+    },
+    "/sagan": {
+    },
+    "/sapolsky": {
+    }
+  },
   "/other": {
     "/experiments": {
       "/dots": {
@@ -258,6 +338,8 @@
     },
     "/habits": {
     },
+    "/homelife": {
+    },
     "/how-to-gain-wealth": {
     },
     "/how-to-grow-old-russell": {
@@ -275,6 +357,8 @@
     "/parenting": {
     },
     "/problem-solving": {
+    },
+    "/skill-links": {
     },
     "/skills": {
     },
@@ -339,63 +423,7 @@
     "/who-goes-nazi": {
     }
   },
-  "/stem": {
-    "/natural-sciences": {
-      "/akins-laws-of-spacecraft": {
-      },
-      "/books-natural": {
-      },
-      "/climate-change": {
-      },
-      "/feynman-lectures": {
-      },
-      "/feynmans-epilogue": {
-      },
-      "/fluid-field-boundaries": {
-      },
-      "/natural-sciences": {
-      },
-      "/pale-blue-dot": {
-      },
-      "/sagan": {
-      },
-      "/sapolsky": {
-      },
-      "/astronomy": {
-        "/astronomy": {
-        },
-        "/earth": {
-        },
-        "/size-of-the-universe": {
-        },
-        "/solar-system": {
-        },
-        "/the-overview-effect": {
-        }
-      },
-      "/health": {
-        "/going-blind": {
-        },
-        "/health": {
-        },
-        "/how-to-deal-with-pain": {
-        },
-        "/sleep": {
-        }
-      },
-      "/physics": {
-        "/classical-physics": {
-        },
-        "/inertia": {
-        },
-        "/maxwell-equations": {
-        },
-        "/philosophical-implications-of-quantum-mechanics": {
-        },
-        "/physics": {
-        }
-      }
-    },
+  "/tech": {
     "/programming": {
       "/api": {
       },
@@ -856,28 +884,6 @@
         }
       }
     },
-    "/math": {
-      "/bayes": {
-      },
-      "/counter-intuitive-math": {
-      },
-      "/discrete-vs-continuous": {
-      },
-      "/equations-that-changed-the-world": {
-      },
-      "/fourier-transform": {
-      },
-      "/laplace-transform": {
-      },
-      "/logic-proofs": {
-      },
-      "/math": {
-      },
-      "/normal-distribution": {
-      },
-      "/probability-and-statistics": {
-      }
-    },
     "/software-engineering": {
       "/api-design": {
       },
@@ -944,7 +950,7 @@
       "/prompt-engineering": {
       }
     },
-    "/stem": {
+    "/tech": {
     }
   }
 }

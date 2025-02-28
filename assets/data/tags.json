@@ -148,9 +148,7 @@
     "siir"
   ],
   "/siir": [
-    "arts",
-    "poetry",
-    "turkce"
+    "arts"
   ],
   "/yunus-emre": [
     "siir"
@@ -176,6 +174,118 @@
   "/web-experiments": [
     "lists",
     "ux"
+  ],
+  "/bayes": [
+    "algo",
+    "math"
+  ],
+  "/counter-intuitive-math": [
+    "math"
+  ],
+  "/discrete-vs-continuous": [
+    "math"
+  ],
+  "/equations-that-changed-the-world": [
+    "math"
+  ],
+  "/fourier-transform": [
+    "math"
+  ],
+  "/laplace-transform": [
+    "math"
+  ],
+  "/logic-proofs": [
+    "math"
+  ],
+  "/math-links": [
+    "math"
+  ],
+  "/math": [
+
+  ],
+  "/normal-distribution": [
+    "math"
+  ],
+  "/probability-and-statistics": [
+    "math"
+  ],
+  "/akins-laws-of-spacecraft": [
+    "natural-sciences",
+    "sys"
+  ],
+  "/astronomy": [
+    "natural-sciences"
+  ],
+  "/earth": [
+    "astronomy"
+  ],
+  "/size-of-the-universe": [
+    "astronomy"
+  ],
+  "/solar-system": [
+    "astronomy"
+  ],
+  "/the-overview-effect": [
+    "astronomy"
+  ],
+  "/books-natural": [
+    "natural-sciences"
+  ],
+  "/climate-change": [
+    "natural-sciences"
+  ],
+  "/feynman-lectures": [
+    "natural-sciences"
+  ],
+  "/feynmans-epilogue": [
+    "essais",
+    "natural-sciences"
+  ],
+  "/fluid-field-boundaries": [
+    "natural-sciences"
+  ],
+  "/going-blind": [
+    "health",
+    "phil"
+  ],
+  "/health": [
+    "natural-sciences"
+  ],
+  "/how-to-deal-with-pain": [
+    "health",
+    "phil"
+  ],
+  "/sleep": [
+    "health"
+  ],
+  "/natural-sciences": [
+
+  ],
+  "/pale-blue-dot": [
+    "natural-sciences"
+  ],
+  "/classical-physics": [
+    "physics"
+  ],
+  "/inertia": [
+    "physics",
+    "psy"
+  ],
+  "/maxwell-equations": [
+    "physics"
+  ],
+  "/philosophical-implications-of-quantum-mechanics": [
+    "phil",
+    "physics"
+  ],
+  "/physics": [
+    "natural-sciences"
+  ],
+  "/sagan": [
+    "natural-sciences"
+  ],
+  "/sapolsky": [
+    "natural-sciences"
   ],
   "/dots": [
 
@@ -246,8 +356,7 @@
     "top"
   ],
   "/ideal-insan": [
-    "philosophy",
-    "turkce"
+    "philosophy"
   ],
   "/ideas": [
     "philosophy"
@@ -367,6 +476,9 @@
   "/habits": [
     "skills"
   ],
+  "/homelife": [
+    "skills"
+  ],
   "/how-to-gain-wealth": [
     "skills"
   ],
@@ -399,6 +511,9 @@
   ],
   "/problem-solving": [
     "essais",
+    "skills"
+  ],
+  "/skill-links": [
     "skills"
   ],
   "/skills": [
@@ -505,7 +620,7 @@
     "computers"
   ],
   "/computers": [
-    "stem"
+    "tech"
   ],
   "/containers": [
     "computers",
@@ -640,7 +755,7 @@
     "data-science"
   ],
   "/data-science": [
-    "stem"
+    "tech"
   ],
   "/machine-learning": [
     "data-science"
@@ -650,115 +765,6 @@
   ],
   "/prompt-engineering": [
     "data-science"
-  ],
-  "/bayes": [
-    "algo",
-    "math"
-  ],
-  "/counter-intuitive-math": [
-    "math"
-  ],
-  "/discrete-vs-continuous": [
-    "math"
-  ],
-  "/equations-that-changed-the-world": [
-    "math"
-  ],
-  "/fourier-transform": [
-    "math"
-  ],
-  "/laplace-transform": [
-    "math"
-  ],
-  "/logic-proofs": [
-    "math"
-  ],
-  "/math": [
-    "stem"
-  ],
-  "/normal-distribution": [
-    "math"
-  ],
-  "/probability-and-statistics": [
-    "math"
-  ],
-  "/akins-laws-of-spacecraft": [
-    "natural-sciences",
-    "sys"
-  ],
-  "/astronomy": [
-    "natural-sciences"
-  ],
-  "/earth": [
-    "astronomy"
-  ],
-  "/size-of-the-universe": [
-    "astronomy"
-  ],
-  "/solar-system": [
-    "astronomy"
-  ],
-  "/the-overview-effect": [
-    "astronomy"
-  ],
-  "/books-natural": [
-    "natural-sciences"
-  ],
-  "/climate-change": [
-    "natural-sciences"
-  ],
-  "/feynman-lectures": [
-    "natural-sciences"
-  ],
-  "/feynmans-epilogue": [
-    "essais",
-    "natural-sciences"
-  ],
-  "/fluid-field-boundaries": [
-    "natural-sciences"
-  ],
-  "/going-blind": [
-    "health",
-    "phil"
-  ],
-  "/health": [
-    "natural-sciences"
-  ],
-  "/how-to-deal-with-pain": [
-    "health",
-    "phil"
-  ],
-  "/sleep": [
-    "health"
-  ],
-  "/natural-sciences": [
-    "stem"
-  ],
-  "/pale-blue-dot": [
-    "natural-sciences"
-  ],
-  "/classical-physics": [
-    "physics"
-  ],
-  "/inertia": [
-    "physics",
-    "psy"
-  ],
-  "/maxwell-equations": [
-    "physics"
-  ],
-  "/philosophical-implications-of-quantum-mechanics": [
-    "phil",
-    "physics"
-  ],
-  "/physics": [
-    "natural-sciences"
-  ],
-  "/sagan": [
-    "natural-sciences"
-  ],
-  "/sapolsky": [
-    "natural-sciences"
   ],
   "/algorithms": [
     "programming"
@@ -1256,8 +1262,8 @@
   ],
   "/programming": [
     "skills",
-    "stem",
-    "swe"
+    "swe",
+    "tech"
   ],
   "/async-crawler": [
     "projects",
@@ -1342,7 +1348,7 @@
     "software-engineering"
   ],
   "/software-engineering": [
-    "stem"
+    "tech"
   ],
   "/software-quality": [
     "software-engineering"
@@ -1371,7 +1377,7 @@
   "/the-joel-test": [
     "software-engineering"
   ],
-  "/stem": [
+  "/tech": [
     "root"
   ],
   "/a-free-web-again": [
@@ -1405,7 +1411,7 @@
   ],
   "/ux": [
     "design",
-    "stem",
+    "tech",
     "web"
   ],
   "/pub": [

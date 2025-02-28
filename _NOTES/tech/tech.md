@@ -1,6 +1,4 @@
 ---
-title: STEM
 tags: root
-
 ---
 

@@ -22,6 +22,9 @@ class SiteGenerator < Jekyll::Generator
     initialize_site_data(site)
     tree = generate_tree(site)
     site.data["tree"] = tree
+    tree_level_order_data = tree_level_order(tree)
+    site.data["tree_level_order"] = tree_level_order_data
+    
     tree_to_html(site, tree)
     log_debug_data(tree, site) if DEBUG
 
@@ -42,6 +45,7 @@ class SiteGenerator < Jekyll::Generator
   def initialize_site_data(site)
     site.data["tree"] = {}
     site.data["tree_htmls"] = {}
+    site.data["tree_level_order"] = {}
     initialize_backlinks(site)
     initialize_file_to_tag(site)
     initialize_file_to_title(site)
@@ -49,7 +53,7 @@ class SiteGenerator < Jekyll::Generator
 
   def log_debug_data(tree, site)
     write_json("#{DATA_PATH}/tree.json", tree)
-    write_json("#{DATA_PATH}/tree_level_order.json", tree_level_order(tree))
+    write_json("#{DATA_PATH}/tree_level_order.json", site.data["tree_level_order"])
     write_json("#{DATA_PATH}/tree_htmls.json", site.data["tree_htmls"])
 
   end
@@ -67,7 +71,12 @@ class SiteGenerator < Jekyll::Generator
   end
 
   def update_tags(site)
-    write_json("#{DATA_PATH}/tags.json", site.documents.map { |doc| [doc.id, doc.data["tags"]] }.to_h)
+    tags_data = {}
+    site.documents.each do |doc|
+      next unless doc.respond_to?(:id) && doc.respond_to?(:data) && doc.data["tags"]
+      tags_data[doc.id] = doc.data["tags"]
+    end
+    write_json("#{DATA_PATH}/tags.json", tags_data)
   end
 
   def fix_frontmatter
@@ -143,7 +152,7 @@ class SiteGenerator < Jekyll::Generator
 
   def tree_to_html(site, tree)
 
-    level_order = tree_level_order(tree)
+    level_order = site.data["tree_level_order"]
     level_order.each do |parent_id, children|
       
       html = "<ul>"
@@ -163,7 +172,10 @@ class SiteGenerator < Jekyll::Generator
 
 
   def initialize_backlinks(site)
-    site.documents.each { |doc| doc.data['backlinks'] ||= [] }
+    site.documents.each do |doc|
+      next unless doc.respond_to?(:data)
+      doc.data['backlinks'] ||= []
+    end
   end
 
   def initialize_file_to_tag(site)
@@ -171,24 +183,40 @@ class SiteGenerator < Jekyll::Generator
   end
 
   def initialize_file_to_title(site)
-    site.data["file_to_title"] = site.documents.map { |doc| [doc.id, doc.data["title"]] }.to_h
+    site.data["file_to_title"] = {}
+    site.documents.each do |doc|
+      next unless doc.respond_to?(:id) && doc.respond_to?(:data) && doc.data["title"]
+      site.data["file_to_title"][doc.id] = doc.data["title"]
+    end
   end
 
   def process_documents(site)
     site.documents.each do |doc|
-      doc.data['tags'] = doc.data['tags'].uniq.sort
+      next unless doc.respond_to?(:data) && doc.respond_to?(:content)
+      
+      doc.data['tags'] = (doc.data['tags'] || []).uniq.sort
       wikilinks_to_backlinks(doc, site)
       tags_to_backlinks(doc, site)
-      doc.data['backlinks'].reject! { |e| e.id == doc.id }
-      doc.data['backlinks'].sort_by! { |e| e.data["title"] }
+      
+      if doc.data['backlinks']
+        doc.data['backlinks'].reject! { |e| e.respond_to?(:id) && e.id == doc.id }
+        doc.data['backlinks'].sort_by! { |e| e.respond_to?(:data) && e.data["title"] ? e.data["title"] : "" }
+      end
+      
       replace_links_in_content(doc, site)
     end
 
-    site.documents.each { |doc| doc.data['backlinks'].uniq! }
+    site.documents.each do |doc|
+      next unless doc.respond_to?(:data) && doc.data['backlinks']
+      doc.data['backlinks'].uniq!
+    end
   end
 
   def calculate_link_count(site, graph)
-    site.documents.sum { |doc| doc.content.scan(/<a/).length } + graph[:links].length
+    link_count = site.documents.sum do |doc| 
+      doc.respond_to?(:content) ? doc.content.scan(/<a/).length : 0
+    end
+    link_count + graph[:links].length
   end
 
 
@@ -227,8 +255,12 @@ class SiteGenerator < Jekyll::Generator
   end
 
   def process_backlink_tree(site, nodes, links, nodemap)
-    backlink_tree = site.documents.each_with_object({}) do |doc, hash|
-      hash[doc.id] = doc.data['backlinks'].map(&:id) if doc.data['backlinks'].any?
+    backlink_tree = {}
+    site.documents.each do |doc|
+      next unless doc.respond_to?(:id) && doc.respond_to?(:data) && doc.data['backlinks']&.any?
+      backlink_tree[doc.id] = doc.data['backlinks'].map do |backlink|
+        backlink.respond_to?(:id) ? backlink.id : nil
+      end.compact
     end
 
     backlink_tree.each do |parent, children|
@@ -258,25 +290,27 @@ class SiteGenerator < Jekyll::Generator
   end
 
   def wikilinks_to_backlinks(doc, site)
+    return unless doc.respond_to?(:id)
     source_basename = remove_leading_slash(doc.id)
     linking_to_doc = site.documents.select do |e|
-      e.content.include?("[[#{source_basename}]]") || e.content.include?("(/#{source_basename})")
+      e.respond_to?(:content) && (e.content.include?("[[#{source_basename}]]") || e.content.include?("(/#{source_basename})"))
     end
 
     linking_to_doc.each do |linking_doc|
-      next if doc.data['children']&.include?(linking_doc.id)
+      next if doc.data['children']&.include?(linking_doc.respond_to?(:id) ? linking_doc.id : nil)
       doc.data['backlinks'] << linking_doc
     end
   end
 
   def tags_to_backlinks(doc, site)
+    return unless doc.respond_to?(:data) && doc.data["tags"]
     tag_to_file = site.data["tag_to_file"]
 
     doc.data["tags"].each do |tag|
       tagfileid = tag_to_file.has_key?(tag) ? "/#{tag_to_file[tag]}" : "/#{tag}"
-      tagged_doc = site.documents.find { |e| e.id == tagfileid }
+      tagged_doc = site.documents.find { |e| e.respond_to?(:id) && e.id == tagfileid }
       next unless tagged_doc
-      next if tagged_doc.data['children']&.include?(doc.id)
+      next if tagged_doc.data['children']&.include?(doc.respond_to?(:id) ? doc.id : nil)
 
       tagged_doc.data['backlinks'] ||= []
       tagged_doc.data['backlinks'] << doc
@@ -284,6 +318,7 @@ class SiteGenerator < Jekyll::Generator
   end
 
   def replace_links_in_content(doc, site)
+    return unless doc.respond_to?(:content) && doc.respond_to?(:data)
     tag_to_file = site.data["tag_to_file"]
     file_to_title = site.data["file_to_title"]
 
@@ -338,10 +373,10 @@ class SiteGenerator < Jekyll::Generator
 
 
   def link_to_parent(site, child_id, parent_id)
-    child_doc = site.documents.find { |e| e.id == child_id }
+    child_doc = site.documents.find { |e| e.respond_to?(:id) && e.id == child_id }
     return unless child_doc
 
-    parent_doc = site.documents.find { |e| e.id == parent_id }
+    parent_doc = site.documents.find { |e| e.respond_to?(:id) && e.id == parent_id }
     return unless parent_doc
     return if child_doc == parent_doc
 
