@@ -159,31 +159,17 @@
       },
       "/classics": {
       },
-      "/do-not-lie-to-yourself": {
-      },
-      "/elaborate-vs-clear-speech": {
-      },
-      "/ince-memed": {
-      },
       "/literature": {
       },
       "/the-art-of-war": {
-      },
-      "/turk-mirasi": {
       }
     },
-    "/design": {
-      "/creativity": {
+    "/edebiyat": {
+      "/edebiyat": {
       },
-      "/design": {
+      "/ince-memed": {
       },
-      "/don-norman": {
-      },
-      "/double-diamond": {
-      },
-      "/everyday-objects": {
-      },
-      "/ship-it": {
+      "/turk-mirasi": {
       }
     },
     "/paintings": {
@@ -197,8 +183,6 @@
   },
   "/lists": {
     "/experiments": {
-      "/circle": {
-      },
       "/dots": {
       },
       "/graph-3d": {
@@ -256,6 +240,10 @@
       "/write-better": {
       }
     },
+    "/drawing": {
+    },
+    "/driving": {
+    },
     "/drowning-does-not-look-dramatic": {
     },
     "/exercise": {
@@ -270,9 +258,9 @@
     },
     "/how-to-grow-old-russell": {
     },
-    "/humor": {
+    "/design": {
     },
-    "/driving": {
+    "/interviews": {
     },
     "/learning": {
     },
@@ -290,9 +278,9 @@
     },
     "/used-car-checklist": {
     },
-    "/drawing": {
+    "/creativity": {
     },
-    "/interviews": {
+    "/humor": {
     },
     "/cooking": {
     }

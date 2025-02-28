@@ -5,23 +5,14 @@
   "/cinema": [
     "arts"
   ],
-  "/creativity": [
-    "design"
-  ],
-  "/design": [
+  "/edebiyat": [
     "arts"
   ],
-  "/don-norman": [
-    "design"
+  "/ince-memed": [
+    "edebiyat"
   ],
-  "/double-diamond": [
-    "design"
-  ],
-  "/everyday-objects": [
-    "design"
-  ],
-  "/ship-it": [
-    "design"
+  "/turk-mirasi": [
+    "edebiyat"
   ],
   "/cien-anos-de-soledad": [
     "literature"
@@ -30,25 +21,11 @@
     "lists",
     "literature"
   ],
-  "/do-not-lie-to-yourself": [
-    "literature"
-  ],
-  "/elaborate-vs-clear-speech": [
-    "literature"
-  ],
-  "/ince-memed": [
-    "literature",
-    "turkce"
-  ],
   "/literature": [
     "arts"
   ],
   "/the-art-of-war": [
     "literature"
-  ],
-  "/turk-mirasi": [
-    "literature",
-    "turkce"
   ],
   "/paintings": [
     "arts"
@@ -286,9 +263,6 @@
   "/yunus-emre": [
     "siir"
   ],
-  "/circle": [
-
-  ],
   "/dots": [
 
   ],
@@ -351,6 +325,9 @@
   "/cooking": [
     "skills"
   ],
+  "/creativity": [
+    "skills"
+  ],
   "/critical-thinking": [
     "decisions",
     "phil",
@@ -365,6 +342,9 @@
   ],
   "/do-without-doing": [
     "decisions"
+  ],
+  "/design": [
+    "skills"
   ],
   "/drawing": [
     "skills"

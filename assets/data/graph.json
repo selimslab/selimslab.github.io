@@ -22,7 +22,7 @@
         "/philosophy",
         "/siir",
         "/literature",
-        "/design",
+        "/edebiyat",
         "/paintings",
         "/cinema",
         "/photography",
@@ -53,6 +53,8 @@
         "/decisions",
         "/business",
         "/communication",
+        "/drawing",
+        "/driving",
         "/drowning-does-not-look-dramatic",
         "/exercise",
         "/get-things-done",
@@ -60,8 +62,8 @@
         "/habits",
         "/how-to-gain-wealth",
         "/how-to-grow-old-russell",
-        "/humor",
-        "/driving",
+        "/design",
+        "/interviews",
         "/learning",
         "/mastery",
         "/outdoors",
@@ -69,8 +71,8 @@
         "/problem-solving",
         "/teaching",
         "/used-car-checklist",
-        "/drawing",
-        "/interviews",
+        "/creativity",
+        "/humor",
         "/cooking",
         "/critical-thinking",
         "/eudaimonia",
@@ -228,28 +230,17 @@
         "/arts",
         "/cien-anos-de-soledad",
         "/classics",
-        "/do-not-lie-to-yourself",
-        "/elaborate-vs-clear-speech",
-        "/ince-memed",
-        "/the-art-of-war",
-        "/turk-mirasi"
+        "/the-art-of-war"
       ]
     },
     {
-      "id": "/design",
+      "id": "/edebiyat",
       "group": 2,
-      "name": "Design",
+      "name": "Turk Edebiyati",
       "links": [
         "/arts",
-        "/creativity",
-        "/don-norman",
-        "/double-diamond",
-        "/everyday-objects",
-        "/ship-it",
-        "/business",
-        "/natural-ux",
-        "/polished-pixels",
-        "/ux"
+        "/ince-memed",
+        "/turk-mirasi"
       ]
     },
     {
@@ -283,7 +274,6 @@
       "name": "Experiments",
       "links": [
         "/lists",
-        "/circle",
         "/dots",
         "/graph-3d",
         "/time-scale",
@@ -340,7 +330,6 @@
         "/company-culture",
         "/hiring",
         "/sales",
-        "/design",
         "/teamwork",
         "/what-to-work-on"
       ]
@@ -354,6 +343,23 @@
         "/negotiations",
         "/public-speaking",
         "/write-better"
+      ]
+    },
+    {
+      "id": "/drawing",
+      "group": 2,
+      "name": "Drawing",
+      "links": [
+        "/skills"
+      ]
+    },
+    {
+      "id": "/driving",
+      "group": 2,
+      "name": "Driving",
+      "links": [
+        "/skills",
+        "/used-car-checklist"
       ]
     },
     {
@@ -418,21 +424,23 @@
       ]
     },
     {
-      "id": "/humor",
+      "id": "/design",
       "group": 2,
-      "name": "Humor",
+      "name": "Design",
       "links": [
         "/skills",
-        "/the-tao-of-programming"
+        "/do-one-thing-at-a-time-and-do-it-well",
+        "/natural-ux",
+        "/polished-pixels",
+        "/ux"
       ]
     },
     {
-      "id": "/driving",
+      "id": "/interviews",
       "group": 2,
-      "name": "Driving",
+      "name": "Interviews",
       "links": [
-        "/skills",
-        "/used-car-checklist"
+        "/skills"
       ]
     },
     {
@@ -497,19 +505,20 @@
       ]
     },
     {
-      "id": "/drawing",
+      "id": "/creativity",
       "group": 2,
-      "name": "Drawing",
+      "name": "Creativity",
       "links": [
         "/skills"
       ]
     },
     {
-      "id": "/interviews",
+      "id": "/humor",
       "group": 2,
-      "name": "Interviews",
+      "name": "Humor",
       "links": [
-        "/skills"
+        "/skills",
+        "/the-tao-of-programming"
       ]
     },
     {
@@ -1056,7 +1065,6 @@
       "name": "On Character",
       "links": [
         "/philosophy",
-        "/do-not-lie-to-yourself",
         "/eudaimonia",
         "/freedom"
       ]
@@ -1360,31 +1368,6 @@
       ]
     },
     {
-      "id": "/do-not-lie-to-yourself",
-      "group": 3,
-      "name": "Do Not Lie To Yourself",
-      "links": [
-        "/literature",
-        "/character"
-      ]
-    },
-    {
-      "id": "/elaborate-vs-clear-speech",
-      "group": 3,
-      "name": "Tolstoy on clear speech",
-      "links": [
-        "/literature"
-      ]
-    },
-    {
-      "id": "/ince-memed",
-      "group": 3,
-      "name": "Ince Memed",
-      "links": [
-        "/literature"
-      ]
-    },
-    {
       "id": "/the-art-of-war",
       "group": 3,
       "name": "The Art of War",
@@ -1394,60 +1377,19 @@
       ]
     },
     {
+      "id": "/ince-memed",
+      "group": 3,
+      "name": "Ince Memed",
+      "links": [
+        "/edebiyat"
+      ]
+    },
+    {
       "id": "/turk-mirasi",
       "group": 3,
       "name": "Türk Mirası",
       "links": [
-        "/literature"
-      ]
-    },
-    {
-      "id": "/creativity",
-      "group": 3,
-      "name": "Creativity",
-      "links": [
-        "/design"
-      ]
-    },
-    {
-      "id": "/don-norman",
-      "group": 3,
-      "name": "Don Norman",
-      "links": [
-        "/design"
-      ]
-    },
-    {
-      "id": "/double-diamond",
-      "group": 3,
-      "name": "Double-diamond design process <><>",
-      "links": [
-        "/design"
-      ]
-    },
-    {
-      "id": "/everyday-objects",
-      "group": 3,
-      "name": "Everyday Objects",
-      "links": [
-        "/design"
-      ]
-    },
-    {
-      "id": "/ship-it",
-      "group": 3,
-      "name": "Ship It",
-      "links": [
-        "/design",
-        "/on-software"
-      ]
-    },
-    {
-      "id": "/circle",
-      "group": 3,
-      "name": "Circle",
-      "links": [
-        "/experiments"
+        "/edebiyat"
       ]
     },
     {
@@ -1530,6 +1472,7 @@
       "links": [
         "/decisions",
         "/lightly-child",
+        "/design",
         "/get-things-done"
       ]
     },
@@ -2010,8 +1953,7 @@
       "group": 3,
       "name": "On Software",
       "links": [
-        "/software-engineering",
-        "/ship-it"
+        "/software-engineering"
       ]
     },
     {
@@ -4268,7 +4210,7 @@
     },
     {
       "source": "/arts",
-      "target": "/design"
+      "target": "/edebiyat"
     },
     {
       "source": "/arts",
@@ -4312,6 +4254,14 @@
     },
     {
       "source": "/skills",
+      "target": "/drawing"
+    },
+    {
+      "source": "/skills",
+      "target": "/driving"
+    },
+    {
+      "source": "/skills",
       "target": "/drowning-does-not-look-dramatic"
     },
     {
@@ -4340,11 +4290,11 @@
     },
     {
       "source": "/skills",
-      "target": "/humor"
+      "target": "/design"
     },
     {
       "source": "/skills",
-      "target": "/driving"
+      "target": "/interviews"
     },
     {
       "source": "/skills",
@@ -4376,11 +4326,11 @@
     },
     {
       "source": "/skills",
-      "target": "/drawing"
+      "target": "/creativity"
     },
     {
       "source": "/skills",
-      "target": "/interviews"
+      "target": "/humor"
     },
     {
       "source": "/skills",
@@ -4740,47 +4690,15 @@
     },
     {
       "source": "/literature",
-      "target": "/do-not-lie-to-yourself"
-    },
-    {
-      "source": "/literature",
-      "target": "/elaborate-vs-clear-speech"
-    },
-    {
-      "source": "/literature",
-      "target": "/ince-memed"
-    },
-    {
-      "source": "/literature",
       "target": "/the-art-of-war"
     },
     {
-      "source": "/literature",
+      "source": "/edebiyat",
+      "target": "/ince-memed"
+    },
+    {
+      "source": "/edebiyat",
       "target": "/turk-mirasi"
-    },
-    {
-      "source": "/design",
-      "target": "/creativity"
-    },
-    {
-      "source": "/design",
-      "target": "/don-norman"
-    },
-    {
-      "source": "/design",
-      "target": "/double-diamond"
-    },
-    {
-      "source": "/design",
-      "target": "/everyday-objects"
-    },
-    {
-      "source": "/design",
-      "target": "/ship-it"
-    },
-    {
-      "source": "/experiments",
-      "target": "/circle"
     },
     {
       "source": "/experiments",
@@ -5975,32 +5893,8 @@
       "target": "/languages"
     },
     {
-      "source": "/design",
-      "target": "/business"
-    },
-    {
-      "source": "/design",
-      "target": "/natural-ux"
-    },
-    {
-      "source": "/design",
-      "target": "/polished-pixels"
-    },
-    {
-      "source": "/design",
-      "target": "/ux"
-    },
-    {
-      "source": "/ship-it",
-      "target": "/on-software"
-    },
-    {
       "source": "/cien-anos-de-soledad",
       "target": "/classics"
-    },
-    {
-      "source": "/do-not-lie-to-yourself",
-      "target": "/character"
     },
     {
       "source": "/the-art-of-war",
@@ -6152,7 +6046,23 @@
     },
     {
       "source": "/do-one-thing-at-a-time-and-do-it-well",
+      "target": "/design"
+    },
+    {
+      "source": "/do-one-thing-at-a-time-and-do-it-well",
       "target": "/get-things-done"
+    },
+    {
+      "source": "/design",
+      "target": "/natural-ux"
+    },
+    {
+      "source": "/design",
+      "target": "/polished-pixels"
+    },
+    {
+      "source": "/design",
+      "target": "/ux"
     },
     {
       "source": "/driving",

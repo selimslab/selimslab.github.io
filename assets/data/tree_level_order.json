@@ -11,7 +11,7 @@
     "/philosophy",
     "/siir",
     "/literature",
-    "/design",
+    "/edebiyat",
     "/paintings",
     "/cinema",
     "/arts",
@@ -28,6 +28,8 @@
     "/decisions",
     "/business",
     "/communication",
+    "/drawing",
+    "/driving",
     "/drowning-does-not-look-dramatic",
     "/exercise",
     "/get-things-done",
@@ -35,8 +37,8 @@
     "/habits",
     "/how-to-gain-wealth",
     "/how-to-grow-old-russell",
-    "/humor",
-    "/driving",
+    "/design",
+    "/interviews",
     "/learning",
     "/mastery",
     "/outdoors",
@@ -45,8 +47,8 @@
     "/skills",
     "/teaching",
     "/used-car-checklist",
-    "/drawing",
-    "/interviews",
+    "/creativity",
+    "/humor",
     "/cooking"
   ],
   "/social-sciences": [
@@ -153,23 +155,15 @@
   "/literature": [
     "/cien-anos-de-soledad",
     "/classics",
-    "/do-not-lie-to-yourself",
-    "/elaborate-vs-clear-speech",
-    "/ince-memed",
     "/literature",
-    "/the-art-of-war",
+    "/the-art-of-war"
+  ],
+  "/edebiyat": [
+    "/edebiyat",
+    "/ince-memed",
     "/turk-mirasi"
   ],
-  "/design": [
-    "/creativity",
-    "/design",
-    "/don-norman",
-    "/double-diamond",
-    "/everyday-objects",
-    "/ship-it"
-  ],
   "/experiments": [
-    "/circle",
     "/dots",
     "/graph-3d",
     "/time-scale",
