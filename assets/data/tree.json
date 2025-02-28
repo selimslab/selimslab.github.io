@@ -98,16 +98,18 @@
       "/turk-mirasi": {
       }
     },
-    "/photography": {
-    },
-    "/paintings": {
+    "/arts": {
     },
     "/cinema": {
     },
-    "/arts": {
+    "/paintings": {
+    },
+    "/photography": {
     }
   },
   "/lists": {
+    "/authors": {
+    },
     "/blogs": {
     },
     "/datasets": {
@@ -119,8 +121,6 @@
     "/quotes": {
     },
     "/web-experiments": {
-    },
-    "/authors": {
     }
   },
   "/other": {
@@ -146,18 +146,6 @@
     }
   },
   "/philosophy": {
-    "/work": {
-      "/career-advice": {
-      },
-      "/teamwork": {
-      },
-      "/what-to-work-on": {
-      },
-      "/work": {
-      },
-      "/you-are-not-nameless": {
-      }
-    },
     "/time": {
       "/death": {
       },
@@ -170,11 +158,25 @@
       "/time": {
       }
     },
+    "/work": {
+      "/career-advice": {
+      },
+      "/teamwork": {
+      },
+      "/what-to-work-on": {
+      },
+      "/work": {
+      },
+      "/you-are-not-nameless": {
+      }
+    },
+    "/all-is-one": {
+    },
+    "/balance": {
+    },
     "/be-good-to-each-other-and-yourself": {
     },
     "/books-phil": {
-    },
-    "/character": {
     },
     "/choice": {
     },
@@ -188,11 +190,13 @@
     },
     "/happiness": {
     },
-    "/balance": {
+    "/hard-times": {
     },
     "/ideal-insan": {
     },
     "/ideas": {
+    },
+    "/character": {
     },
     "/one-bit-better": {
     },
@@ -209,13 +213,19 @@
     "/travelling": {
     },
     "/truth": {
-    },
-    "/hard-times": {
-    },
-    "/all-is-one": {
     }
   },
   "/skills": {
+    "/communication": {
+      "/communication": {
+      },
+      "/negotiations": {
+      },
+      "/public-speaking": {
+      },
+      "/write-better": {
+      }
+    },
     "/decisions": {
       "/critical-thinking": {
       },
@@ -226,15 +236,9 @@
       "/do-without-doing": {
       }
     },
-    "/communication": {
-      "/communication": {
-      },
-      "/negotiations": {
-      },
-      "/public-speaking": {
-      },
-      "/write-better": {
-      }
+    "/business": {
+    },
+    "/cooking": {
     },
     "/creativity": {
     },
@@ -256,7 +260,7 @@
     },
     "/how-to-gain-wealth": {
     },
-    "/cooking": {
+    "/how-to-grow-old-russell": {
     },
     "/humor": {
     },
@@ -277,10 +281,6 @@
     "/teaching": {
     },
     "/used-car-checklist": {
-    },
-    "/how-to-grow-old-russell": {
-    },
-    "/business": {
     }
   },
   "/social-sciences": {
@@ -304,6 +304,10 @@
       "/metaphors": {
       }
     },
+    "/architecture": {
+    },
+    "/being-poor": {
+    },
     "/books-social": {
     },
     "/chomsky": {
@@ -318,7 +322,7 @@
     },
     "/politics": {
     },
-    "/being-poor": {
+    "/psychology": {
     },
     "/social-media": {
     },
@@ -333,10 +337,6 @@
     "/urban-planning": {
     },
     "/who-goes-nazi": {
-    },
-    "/psychology": {
-    },
-    "/architecture": {
     }
   },
   "/stem": {
@@ -762,60 +762,6 @@
         }
       }
     },
-    "/math": {
-      "/bayes": {
-      },
-      "/counter-intuitive-math": {
-      },
-      "/discrete-vs-continuous": {
-      },
-      "/equations-that-changed-the-world": {
-      },
-      "/fourier-transform": {
-      },
-      "/laplace-transform": {
-      },
-      "/logic-proofs": {
-      },
-      "/math": {
-      },
-      "/normal-distribution": {
-      },
-      "/probability-and-statistics": {
-      }
-    },
-    "/software-engineering": {
-      "/api-design": {
-      },
-      "/code-review": {
-      },
-      "/core-concepts": {
-      },
-      "/on-software": {
-      },
-      "/software-analogies": {
-      },
-      "/software-engineering": {
-      },
-      "/software-quality": {
-      },
-      "/swe-misery": {
-      },
-      "/the-joel-test": {
-      },
-      "/system-design": {
-        "/choose-boring-tech": {
-        },
-        "/domain-driven-design": {
-        },
-        "/hacker-laws": {
-        },
-        "/minimal-tech": {
-        },
-        "/system-design": {
-        }
-      }
-    },
     "/computers": {
       "/computers-from-scratch": {
       },
@@ -907,6 +853,60 @@
         "/transport-layer-security": {
         },
         "/xss": {
+        }
+      }
+    },
+    "/math": {
+      "/bayes": {
+      },
+      "/counter-intuitive-math": {
+      },
+      "/discrete-vs-continuous": {
+      },
+      "/equations-that-changed-the-world": {
+      },
+      "/fourier-transform": {
+      },
+      "/laplace-transform": {
+      },
+      "/logic-proofs": {
+      },
+      "/math": {
+      },
+      "/normal-distribution": {
+      },
+      "/probability-and-statistics": {
+      }
+    },
+    "/software-engineering": {
+      "/api-design": {
+      },
+      "/code-review": {
+      },
+      "/core-concepts": {
+      },
+      "/on-software": {
+      },
+      "/software-analogies": {
+      },
+      "/software-engineering": {
+      },
+      "/software-quality": {
+      },
+      "/swe-misery": {
+      },
+      "/the-joel-test": {
+      },
+      "/system-design": {
+        "/choose-boring-tech": {
+        },
+        "/domain-driven-design": {
+        },
+        "/hacker-laws": {
+        },
+        "/minimal-tech": {
+        },
+        "/system-design": {
         }
       }
     },

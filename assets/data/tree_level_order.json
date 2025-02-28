@@ -12,39 +12,41 @@
     "/poetry",
     "/siir",
     "/literature",
-    "/photography",
-    "/paintings",
+    "/arts",
     "/cinema",
-    "/arts"
+    "/paintings",
+    "/photography"
   ],
   "/lists": [
+    "/authors",
     "/blogs",
     "/datasets",
     "/essais",
     "/lists",
     "/quotes",
-    "/web-experiments",
-    "/authors"
+    "/web-experiments"
   ],
   "/other": [
     "/experiments",
     "/meta"
   ],
   "/philosophy": [
-    "/work",
     "/time",
+    "/work",
+    "/all-is-one",
+    "/balance",
     "/be-good-to-each-other-and-yourself",
     "/books-phil",
-    "/character",
     "/choice",
     "/concepts-in-greek-thought",
     "/eudaimonia",
     "/freedom",
     "/getting-old",
     "/happiness",
-    "/balance",
+    "/hard-times",
     "/ideal-insan",
     "/ideas",
+    "/character",
     "/one-bit-better",
     "/philosophy",
     "/questions",
@@ -52,13 +54,13 @@
     "/take-a-walk",
     "/the-less-the-better",
     "/travelling",
-    "/truth",
-    "/hard-times",
-    "/all-is-one"
+    "/truth"
   ],
   "/skills": [
-    "/decisions",
     "/communication",
+    "/decisions",
+    "/business",
+    "/cooking",
     "/creativity",
     "/design",
     "/drawing",
@@ -69,7 +71,7 @@
     "/growing-plants",
     "/habits",
     "/how-to-gain-wealth",
-    "/cooking",
+    "/how-to-grow-old-russell",
     "/humor",
     "/interviews",
     "/learning",
@@ -79,13 +81,13 @@
     "/problem-solving",
     "/skills",
     "/teaching",
-    "/used-car-checklist",
-    "/how-to-grow-old-russell",
-    "/business"
+    "/used-car-checklist"
   ],
   "/social-sciences": [
     "/history",
     "/languages",
+    "/architecture",
+    "/being-poor",
     "/books-social",
     "/chomsky",
     "/cognitive-biases",
@@ -93,23 +95,21 @@
     "/emotions",
     "/law",
     "/politics",
-    "/being-poor",
+    "/psychology",
     "/social-media",
     "/social-sciences",
     "/sociology",
     "/systems",
     "/the-triumph-of-stupidity",
     "/urban-planning",
-    "/who-goes-nazi",
-    "/psychology",
-    "/architecture"
+    "/who-goes-nazi"
   ],
   "/stem": [
     "/natural-sciences",
     "/programming",
+    "/computers",
     "/math",
     "/software-engineering",
-    "/computers",
     "/ux",
     "/data-science",
     "/stem"
@@ -178,13 +178,6 @@
     "/graph-2d",
     "/meta"
   ],
-  "/work": [
-    "/career-advice",
-    "/teamwork",
-    "/what-to-work-on",
-    "/work",
-    "/you-are-not-nameless"
-  ],
   "/time": [
     "/death",
     "/on-the-shortness-of-life",
@@ -192,17 +185,24 @@
     "/the-past",
     "/time"
   ],
-  "/decisions": [
-    "/critical-thinking",
-    "/decisions",
-    "/do-one-thing-at-a-time-and-do-it-well",
-    "/do-without-doing"
+  "/work": [
+    "/career-advice",
+    "/teamwork",
+    "/what-to-work-on",
+    "/work",
+    "/you-are-not-nameless"
   ],
   "/communication": [
     "/communication",
     "/negotiations",
     "/public-speaking",
     "/write-better"
+  ],
+  "/decisions": [
+    "/critical-thinking",
+    "/decisions",
+    "/do-one-thing-at-a-time-and-do-it-well",
+    "/do-without-doing"
   ],
   "/history": [
     "/121st-century",
@@ -246,6 +246,18 @@
     "/programming-languages",
     "/projects"
   ],
+  "/computers": [
+    "/computers-from-scratch",
+    "/computers",
+    "/containers",
+    "/discussion-topics",
+    "/easy-vs-hard-in-cs",
+    "/networks",
+    "/operating-systems",
+    "/databases",
+    "/distributed-systems",
+    "/security"
+  ],
   "/math": [
     "/bayes",
     "/counter-intuitive-math",
@@ -269,18 +281,6 @@
     "/swe-misery",
     "/the-joel-test",
     "/system-design"
-  ],
-  "/computers": [
-    "/computers-from-scratch",
-    "/computers",
-    "/containers",
-    "/discussion-topics",
-    "/easy-vs-hard-in-cs",
-    "/networks",
-    "/operating-systems",
-    "/databases",
-    "/distributed-systems",
-    "/security"
   ],
   "/ux": [
     "/a-free-web-again",
@@ -381,13 +381,6 @@
     "/projects",
     "/vga-driver"
   ],
-  "/system-design": [
-    "/choose-boring-tech",
-    "/domain-driven-design",
-    "/hacker-laws",
-    "/minimal-tech",
-    "/system-design"
-  ],
   "/databases": [
     "/acid",
     "/b-trees",
@@ -429,6 +422,13 @@
     "/store-passwords",
     "/transport-layer-security",
     "/xss"
+  ],
+  "/system-design": [
+    "/choose-boring-tech",
+    "/domain-driven-design",
+    "/hacker-laws",
+    "/minimal-tech",
+    "/system-design"
   ],
   "/array": [
     "/array-rotate",

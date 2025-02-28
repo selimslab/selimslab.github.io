@@ -23,9 +23,9 @@
         "/poetry",
         "/siir",
         "/literature",
-        "/photography",
+        "/cinema",
         "/paintings",
-        "/cinema"
+        "/photography"
       ]
     },
     {
@@ -34,12 +34,12 @@
       "name": "Lists",
       "links": [
         "/root",
+        "/authors",
         "/blogs",
         "/datasets",
         "/essais",
         "/quotes",
         "/web-experiments",
-        "/authors",
         "/classics",
         "/history-of-technology",
         "/since-big-bang"
@@ -61,20 +61,22 @@
       "name": "Philosophy",
       "links": [
         "/root",
-        "/work",
         "/time",
+        "/work",
+        "/all-is-one",
+        "/balance",
         "/be-good-to-each-other-and-yourself",
         "/books-phil",
-        "/character",
         "/choice",
         "/concepts-in-greek-thought",
         "/eudaimonia",
         "/freedom",
         "/getting-old",
         "/happiness",
-        "/balance",
+        "/hard-times",
         "/ideal-insan",
         "/ideas",
+        "/character",
         "/one-bit-better",
         "/questions",
         "/success-and-failure",
@@ -82,8 +84,6 @@
         "/the-less-the-better",
         "/travelling",
         "/truth",
-        "/hard-times",
-        "/all-is-one",
         "/tao-te-ching",
         "/critical-thinking",
         "/how-to-grow-old-russell",
@@ -98,8 +98,10 @@
       "name": "Skills",
       "links": [
         "/root",
-        "/decisions",
         "/communication",
+        "/decisions",
+        "/business",
+        "/cooking",
         "/creativity",
         "/design",
         "/drawing",
@@ -110,7 +112,7 @@
         "/growing-plants",
         "/habits",
         "/how-to-gain-wealth",
-        "/cooking",
+        "/how-to-grow-old-russell",
         "/humor",
         "/interviews",
         "/learning",
@@ -120,8 +122,6 @@
         "/problem-solving",
         "/teaching",
         "/used-car-checklist",
-        "/how-to-grow-old-russell",
-        "/business",
         "/critical-thinking",
         "/eudaimonia",
         "/photography",
@@ -137,6 +137,8 @@
         "/root",
         "/history",
         "/languages",
+        "/architecture",
+        "/being-poor",
         "/books-social",
         "/chomsky",
         "/cognitive-biases",
@@ -144,15 +146,13 @@
         "/emotions",
         "/law",
         "/politics",
-        "/being-poor",
+        "/psychology",
         "/social-media",
         "/sociology",
         "/systems",
         "/the-triumph-of-stupidity",
         "/urban-planning",
         "/who-goes-nazi",
-        "/psychology",
-        "/architecture",
         "/freedom",
         "/happiness",
         "/learning",
@@ -168,9 +168,9 @@
         "/root",
         "/natural-sciences",
         "/programming",
+        "/computers",
         "/math",
         "/software-engineering",
-        "/computers",
         "/ux",
         "/data-science",
         "/history-of-technology",
@@ -247,12 +247,11 @@
       ]
     },
     {
-      "id": "/photography",
+      "id": "/cinema",
       "group": 2,
-      "name": "Photography",
+      "name": "Cinema 🎬",
       "links": [
-        "/arts",
-        "/skills"
+        "/arts"
       ]
     },
     {
@@ -264,11 +263,20 @@
       ]
     },
     {
-      "id": "/cinema",
+      "id": "/photography",
       "group": 2,
-      "name": "Cinema 🎬",
+      "name": "Photography",
       "links": [
-        "/arts"
+        "/arts",
+        "/skills"
+      ]
+    },
+    {
+      "id": "/authors",
+      "group": 2,
+      "name": "Authors",
+      "links": [
+        "/lists"
       ]
     },
     {
@@ -321,14 +329,6 @@
       ]
     },
     {
-      "id": "/authors",
-      "group": 2,
-      "name": "Authors",
-      "links": [
-        "/lists"
-      ]
-    },
-    {
       "id": "/experiments",
       "group": 2,
       "name": "Experiments",
@@ -352,19 +352,6 @@
       ]
     },
     {
-      "id": "/work",
-      "group": 2,
-      "name": "Work",
-      "links": [
-        "/philosophy",
-        "/career-advice",
-        "/teamwork",
-        "/what-to-work-on",
-        "/you-are-not-nameless",
-        "/be-good-to-each-other-and-yourself"
-      ]
-    },
-    {
       "id": "/time",
       "group": 2,
       "name": "Time",
@@ -379,6 +366,35 @@
         "/121st-century",
         "/history",
         "/since-big-bang"
+      ]
+    },
+    {
+      "id": "/work",
+      "group": 2,
+      "name": "Work",
+      "links": [
+        "/philosophy",
+        "/career-advice",
+        "/teamwork",
+        "/what-to-work-on",
+        "/you-are-not-nameless",
+        "/be-good-to-each-other-and-yourself"
+      ]
+    },
+    {
+      "id": "/all-is-one",
+      "group": 2,
+      "name": "All is One",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/balance",
+      "group": 2,
+      "name": "Balance",
+      "links": [
+        "/philosophy"
       ]
     },
     {
@@ -398,16 +414,6 @@
         "/philosophy",
         "/the-art-of-war",
         "/tao-te-ching"
-      ]
-    },
-    {
-      "id": "/character",
-      "group": 2,
-      "name": "On Character",
-      "links": [
-        "/philosophy",
-        "/eudaimonia",
-        "/freedom"
       ]
     },
     {
@@ -469,11 +475,13 @@
       ]
     },
     {
-      "id": "/balance",
+      "id": "/hard-times",
       "group": 2,
-      "name": "Balance",
+      "name": "Hard Times",
       "links": [
-        "/philosophy"
+        "/philosophy",
+        "/going-blind",
+        "/how-to-deal-with-pain"
       ]
     },
     {
@@ -491,6 +499,16 @@
       "links": [
         "/philosophy",
         "/wind-and-rain"
+      ]
+    },
+    {
+      "id": "/character",
+      "group": 2,
+      "name": "On Character",
+      "links": [
+        "/philosophy",
+        "/eudaimonia",
+        "/freedom"
       ]
     },
     {
@@ -557,21 +575,14 @@
       ]
     },
     {
-      "id": "/hard-times",
+      "id": "/communication",
       "group": 2,
-      "name": "Hard Times",
+      "name": "Communication",
       "links": [
-        "/philosophy",
-        "/going-blind",
-        "/how-to-deal-with-pain"
-      ]
-    },
-    {
-      "id": "/all-is-one",
-      "group": 2,
-      "name": "All is One",
-      "links": [
-        "/philosophy"
+        "/skills",
+        "/negotiations",
+        "/public-speaking",
+        "/write-better"
       ]
     },
     {
@@ -588,14 +599,21 @@
       ]
     },
     {
-      "id": "/communication",
+      "id": "/business",
       "group": 2,
-      "name": "Communication",
+      "name": "Business",
       "links": [
         "/skills",
-        "/negotiations",
-        "/public-speaking",
-        "/write-better"
+        "/teamwork",
+        "/what-to-work-on"
+      ]
+    },
+    {
+      "id": "/cooking",
+      "group": 2,
+      "name": "Cooking",
+      "links": [
+        "/skills"
       ]
     },
     {
@@ -688,11 +706,13 @@
       ]
     },
     {
-      "id": "/cooking",
+      "id": "/how-to-grow-old-russell",
       "group": 2,
-      "name": "Cooking",
+      "name": "How to Grow Old, by Bertrand Russell",
       "links": [
-        "/skills"
+        "/skills",
+        "/essais",
+        "/philosophy"
       ]
     },
     {
@@ -776,26 +796,6 @@
       ]
     },
     {
-      "id": "/how-to-grow-old-russell",
-      "group": 2,
-      "name": "How to Grow Old, by Bertrand Russell",
-      "links": [
-        "/skills",
-        "/essais",
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/business",
-      "group": 2,
-      "name": "Business",
-      "links": [
-        "/skills",
-        "/teamwork",
-        "/what-to-work-on"
-      ]
-    },
-    {
       "id": "/history",
       "group": 2,
       "name": "History",
@@ -816,6 +816,23 @@
         "/social-sciences",
         "/latin",
         "/metaphors"
+      ]
+    },
+    {
+      "id": "/architecture",
+      "group": 2,
+      "name": "Architecture",
+      "links": [
+        "/social-sciences",
+        "/urban-planning"
+      ]
+    },
+    {
+      "id": "/being-poor",
+      "group": 2,
+      "name": "Being Poor",
+      "links": [
+        "/social-sciences"
       ]
     },
     {
@@ -876,11 +893,15 @@
       ]
     },
     {
-      "id": "/being-poor",
+      "id": "/psychology",
       "group": 2,
-      "name": "Being Poor",
+      "name": "Psychology",
       "links": [
-        "/social-sciences"
+        "/social-sciences",
+        "/negotiations",
+        "/happiness",
+        "/parenting",
+        "/inertia"
       ]
     },
     {
@@ -938,27 +959,6 @@
       ]
     },
     {
-      "id": "/psychology",
-      "group": 2,
-      "name": "Psychology",
-      "links": [
-        "/social-sciences",
-        "/negotiations",
-        "/happiness",
-        "/parenting",
-        "/inertia"
-      ]
-    },
-    {
-      "id": "/architecture",
-      "group": 2,
-      "name": "Architecture",
-      "links": [
-        "/social-sciences",
-        "/urban-planning"
-      ]
-    },
-    {
       "id": "/natural-sciences",
       "group": 2,
       "name": "Natural Sciences",
@@ -1003,6 +1003,24 @@
       ]
     },
     {
+      "id": "/computers",
+      "group": 2,
+      "name": "Computers",
+      "links": [
+        "/stem",
+        "/computers-from-scratch",
+        "/containers",
+        "/discussion-topics",
+        "/easy-vs-hard-in-cs",
+        "/networks",
+        "/operating-systems",
+        "/databases",
+        "/distributed-systems",
+        "/security",
+        "/for-new-programmers"
+      ]
+    },
+    {
       "id": "/math",
       "group": 2,
       "name": "Math",
@@ -1036,24 +1054,6 @@
         "/the-joel-test",
         "/system-design",
         "/programming"
-      ]
-    },
-    {
-      "id": "/computers",
-      "group": 2,
-      "name": "Computers",
-      "links": [
-        "/stem",
-        "/computers-from-scratch",
-        "/containers",
-        "/discussion-topics",
-        "/easy-vs-hard-in-cs",
-        "/networks",
-        "/operating-systems",
-        "/databases",
-        "/distributed-systems",
-        "/security",
-        "/for-new-programmers"
       ]
     },
     {
@@ -1507,6 +1507,38 @@
       ]
     },
     {
+      "id": "/death",
+      "group": 3,
+      "name": "Death",
+      "links": [
+        "/time"
+      ]
+    },
+    {
+      "id": "/on-the-shortness-of-life",
+      "group": 3,
+      "name": "Life is not short but we waste it",
+      "links": [
+        "/time"
+      ]
+    },
+    {
+      "id": "/slow-down-time",
+      "group": 3,
+      "name": "Deepen your days",
+      "links": [
+        "/time"
+      ]
+    },
+    {
+      "id": "/the-past",
+      "group": 3,
+      "name": "Learn and move on",
+      "links": [
+        "/time"
+      ]
+    },
+    {
       "id": "/career-advice",
       "group": 3,
       "name": "Career advice",
@@ -1544,35 +1576,28 @@
       ]
     },
     {
-      "id": "/death",
+      "id": "/negotiations",
       "group": 3,
-      "name": "Death",
+      "name": "Negotiations",
       "links": [
-        "/time"
+        "/communication",
+        "/psychology"
       ]
     },
     {
-      "id": "/on-the-shortness-of-life",
+      "id": "/public-speaking",
       "group": 3,
-      "name": "Life is not short but we waste it",
+      "name": "Public speaking",
       "links": [
-        "/time"
+        "/communication"
       ]
     },
     {
-      "id": "/slow-down-time",
+      "id": "/write-better",
       "group": 3,
-      "name": "Deepen your days",
+      "name": "On writing",
       "links": [
-        "/time"
-      ]
-    },
-    {
-      "id": "/the-past",
-      "group": 3,
-      "name": "Learn and move on",
-      "links": [
-        "/time"
+        "/communication"
       ]
     },
     {
@@ -1605,31 +1630,6 @@
       "name": "Do without doing - Wu Wei 無爲",
       "links": [
         "/decisions"
-      ]
-    },
-    {
-      "id": "/negotiations",
-      "group": 3,
-      "name": "Negotiations",
-      "links": [
-        "/communication",
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/public-speaking",
-      "group": 3,
-      "name": "Public speaking",
-      "links": [
-        "/communication"
-      ]
-    },
-    {
-      "id": "/write-better",
-      "group": 3,
-      "name": "On writing",
-      "links": [
-        "/communication"
       ]
     },
     {
@@ -1951,6 +1951,114 @@
       ]
     },
     {
+      "id": "/computers-from-scratch",
+      "group": 3,
+      "name": "Computers From Scratch",
+      "links": [
+        "/computers"
+      ]
+    },
+    {
+      "id": "/containers",
+      "group": 3,
+      "name": "Containers",
+      "links": [
+        "/computers",
+        "/operating-systems"
+      ]
+    },
+    {
+      "id": "/discussion-topics",
+      "group": 3,
+      "name": "Discussion Topics",
+      "links": [
+        "/computers"
+      ]
+    },
+    {
+      "id": "/easy-vs-hard-in-cs",
+      "group": 3,
+      "name": "The fine line between easy and very hard",
+      "links": [
+        "/computers"
+      ]
+    },
+    {
+      "id": "/networks",
+      "group": 3,
+      "name": "Networks",
+      "links": [
+        "/computers"
+      ]
+    },
+    {
+      "id": "/operating-systems",
+      "group": 3,
+      "name": "Operating Systems",
+      "links": [
+        "/computers",
+        "/containers"
+      ]
+    },
+    {
+      "id": "/databases",
+      "group": 3,
+      "name": "Databases",
+      "links": [
+        "/computers",
+        "/acid",
+        "/b-trees",
+        "/db-concepts",
+        "/db-data-structures",
+        "/leaderless-replication",
+        "/lsm-trees",
+        "/normalization",
+        "/partitioning",
+        "/replication",
+        "/single-leader",
+        "/sql-tips"
+      ]
+    },
+    {
+      "id": "/distributed-systems",
+      "group": 3,
+      "name": "Distributed Systems",
+      "links": [
+        "/computers",
+        "/armstrong-thesis",
+        "/azure-pillars",
+        "/consistent-hashing",
+        "/detect-a-node-failure",
+        "/distributed-design-patterns",
+        "/generate-a-unique-id",
+        "/google-sre-book",
+        "/kafka",
+        "/spark",
+        "/time-and-order",
+        "/system-design"
+      ]
+    },
+    {
+      "id": "/security",
+      "group": 3,
+      "name": "Security",
+      "links": [
+        "/computers",
+        "/authentication",
+        "/authorization",
+        "/certificates",
+        "/cookies",
+        "/cors",
+        "/csrf",
+        "/openssl-encrypt",
+        "/public-key-cryptography",
+        "/security-heuristics",
+        "/store-passwords",
+        "/transport-layer-security",
+        "/xss"
+      ]
+    },
+    {
       "id": "/bayes",
       "group": 3,
       "name": "Bayes' theorem",
@@ -2105,114 +2213,6 @@
         "/distributed-systems",
         "/oop",
         "/accessibility"
-      ]
-    },
-    {
-      "id": "/computers-from-scratch",
-      "group": 3,
-      "name": "Computers From Scratch",
-      "links": [
-        "/computers"
-      ]
-    },
-    {
-      "id": "/containers",
-      "group": 3,
-      "name": "Containers",
-      "links": [
-        "/computers",
-        "/operating-systems"
-      ]
-    },
-    {
-      "id": "/discussion-topics",
-      "group": 3,
-      "name": "Discussion Topics",
-      "links": [
-        "/computers"
-      ]
-    },
-    {
-      "id": "/easy-vs-hard-in-cs",
-      "group": 3,
-      "name": "The fine line between easy and very hard",
-      "links": [
-        "/computers"
-      ]
-    },
-    {
-      "id": "/networks",
-      "group": 3,
-      "name": "Networks",
-      "links": [
-        "/computers"
-      ]
-    },
-    {
-      "id": "/operating-systems",
-      "group": 3,
-      "name": "Operating Systems",
-      "links": [
-        "/computers",
-        "/containers"
-      ]
-    },
-    {
-      "id": "/databases",
-      "group": 3,
-      "name": "Databases",
-      "links": [
-        "/computers",
-        "/acid",
-        "/b-trees",
-        "/db-concepts",
-        "/db-data-structures",
-        "/leaderless-replication",
-        "/lsm-trees",
-        "/normalization",
-        "/partitioning",
-        "/replication",
-        "/single-leader",
-        "/sql-tips"
-      ]
-    },
-    {
-      "id": "/distributed-systems",
-      "group": 3,
-      "name": "Distributed Systems",
-      "links": [
-        "/computers",
-        "/armstrong-thesis",
-        "/azure-pillars",
-        "/consistent-hashing",
-        "/detect-a-node-failure",
-        "/distributed-design-patterns",
-        "/generate-a-unique-id",
-        "/google-sre-book",
-        "/kafka",
-        "/spark",
-        "/time-and-order",
-        "/system-design"
-      ]
-    },
-    {
-      "id": "/security",
-      "group": 3,
-      "name": "Security",
-      "links": [
-        "/computers",
-        "/authentication",
-        "/authorization",
-        "/certificates",
-        "/cookies",
-        "/cors",
-        "/csrf",
-        "/openssl-encrypt",
-        "/public-key-cryptography",
-        "/security-heuristics",
-        "/store-passwords",
-        "/transport-layer-security",
-        "/xss"
       ]
     },
     {
@@ -2944,39 +2944,6 @@
       ]
     },
     {
-      "id": "/choose-boring-tech",
-      "group": 4,
-      "name": "Choose Boring Tech",
-      "links": [
-        "/system-design"
-      ]
-    },
-    {
-      "id": "/domain-driven-design",
-      "group": 4,
-      "name": "Domain Driven Design",
-      "links": [
-        "/system-design"
-      ]
-    },
-    {
-      "id": "/hacker-laws",
-      "group": 4,
-      "name": "Hacker Laws",
-      "links": [
-        "/system-design",
-        "/akins-laws-of-spacecraft"
-      ]
-    },
-    {
-      "id": "/minimal-tech",
-      "group": 4,
-      "name": "Minimal Tech",
-      "links": [
-        "/system-design"
-      ]
-    },
-    {
       "id": "/acid",
       "group": 4,
       "name": "ACID",
@@ -3249,6 +3216,39 @@
       "name": "Cross-site scripting",
       "links": [
         "/security"
+      ]
+    },
+    {
+      "id": "/choose-boring-tech",
+      "group": 4,
+      "name": "Choose Boring Tech",
+      "links": [
+        "/system-design"
+      ]
+    },
+    {
+      "id": "/domain-driven-design",
+      "group": 4,
+      "name": "Domain Driven Design",
+      "links": [
+        "/system-design"
+      ]
+    },
+    {
+      "id": "/hacker-laws",
+      "group": 4,
+      "name": "Hacker Laws",
+      "links": [
+        "/system-design",
+        "/akins-laws-of-spacecraft"
+      ]
+    },
+    {
+      "id": "/minimal-tech",
+      "group": 4,
+      "name": "Minimal Tech",
+      "links": [
+        "/system-design"
       ]
     },
     {
@@ -4247,7 +4247,7 @@
     },
     {
       "source": "/arts",
-      "target": "/photography"
+      "target": "/cinema"
     },
     {
       "source": "/arts",
@@ -4255,7 +4255,11 @@
     },
     {
       "source": "/arts",
-      "target": "/cinema"
+      "target": "/photography"
+    },
+    {
+      "source": "/lists",
+      "target": "/authors"
     },
     {
       "source": "/lists",
@@ -4278,10 +4282,6 @@
       "target": "/web-experiments"
     },
     {
-      "source": "/lists",
-      "target": "/authors"
-    },
-    {
       "source": "/other",
       "target": "/experiments"
     },
@@ -4291,11 +4291,19 @@
     },
     {
       "source": "/philosophy",
+      "target": "/time"
+    },
+    {
+      "source": "/philosophy",
       "target": "/work"
     },
     {
       "source": "/philosophy",
-      "target": "/time"
+      "target": "/all-is-one"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/balance"
     },
     {
       "source": "/philosophy",
@@ -4304,10 +4312,6 @@
     {
       "source": "/philosophy",
       "target": "/books-phil"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/character"
     },
     {
       "source": "/philosophy",
@@ -4335,7 +4339,7 @@
     },
     {
       "source": "/philosophy",
-      "target": "/balance"
+      "target": "/hard-times"
     },
     {
       "source": "/philosophy",
@@ -4344,6 +4348,10 @@
     {
       "source": "/philosophy",
       "target": "/ideas"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/character"
     },
     {
       "source": "/philosophy",
@@ -4374,12 +4382,8 @@
       "target": "/truth"
     },
     {
-      "source": "/philosophy",
-      "target": "/hard-times"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/all-is-one"
+      "source": "/skills",
+      "target": "/communication"
     },
     {
       "source": "/skills",
@@ -4387,7 +4391,11 @@
     },
     {
       "source": "/skills",
-      "target": "/communication"
+      "target": "/business"
+    },
+    {
+      "source": "/skills",
+      "target": "/cooking"
     },
     {
       "source": "/skills",
@@ -4431,7 +4439,7 @@
     },
     {
       "source": "/skills",
-      "target": "/cooking"
+      "target": "/how-to-grow-old-russell"
     },
     {
       "source": "/skills",
@@ -4470,20 +4478,20 @@
       "target": "/used-car-checklist"
     },
     {
-      "source": "/skills",
-      "target": "/how-to-grow-old-russell"
-    },
-    {
-      "source": "/skills",
-      "target": "/business"
-    },
-    {
       "source": "/social-sciences",
       "target": "/history"
     },
     {
       "source": "/social-sciences",
       "target": "/languages"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/architecture"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/being-poor"
     },
     {
       "source": "/social-sciences",
@@ -4515,7 +4523,7 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/being-poor"
+      "target": "/psychology"
     },
     {
       "source": "/social-sciences",
@@ -4542,14 +4550,6 @@
       "target": "/who-goes-nazi"
     },
     {
-      "source": "/social-sciences",
-      "target": "/psychology"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/architecture"
-    },
-    {
       "source": "/stem",
       "target": "/natural-sciences"
     },
@@ -4559,15 +4559,15 @@
     },
     {
       "source": "/stem",
+      "target": "/computers"
+    },
+    {
+      "source": "/stem",
       "target": "/math"
     },
     {
       "source": "/stem",
       "target": "/software-engineering"
-    },
-    {
-      "source": "/stem",
-      "target": "/computers"
     },
     {
       "source": "/stem",
@@ -4778,22 +4778,6 @@
       "target": "/graph-2d"
     },
     {
-      "source": "/work",
-      "target": "/career-advice"
-    },
-    {
-      "source": "/work",
-      "target": "/teamwork"
-    },
-    {
-      "source": "/work",
-      "target": "/what-to-work-on"
-    },
-    {
-      "source": "/work",
-      "target": "/you-are-not-nameless"
-    },
-    {
       "source": "/time",
       "target": "/death"
     },
@@ -4810,16 +4794,20 @@
       "target": "/the-past"
     },
     {
-      "source": "/decisions",
-      "target": "/critical-thinking"
+      "source": "/work",
+      "target": "/career-advice"
     },
     {
-      "source": "/decisions",
-      "target": "/do-one-thing-at-a-time-and-do-it-well"
+      "source": "/work",
+      "target": "/teamwork"
     },
     {
-      "source": "/decisions",
-      "target": "/do-without-doing"
+      "source": "/work",
+      "target": "/what-to-work-on"
+    },
+    {
+      "source": "/work",
+      "target": "/you-are-not-nameless"
     },
     {
       "source": "/communication",
@@ -4832,6 +4820,18 @@
     {
       "source": "/communication",
       "target": "/write-better"
+    },
+    {
+      "source": "/decisions",
+      "target": "/critical-thinking"
+    },
+    {
+      "source": "/decisions",
+      "target": "/do-one-thing-at-a-time-and-do-it-well"
+    },
+    {
+      "source": "/decisions",
+      "target": "/do-without-doing"
     },
     {
       "source": "/history",
@@ -4954,6 +4954,42 @@
       "target": "/projects"
     },
     {
+      "source": "/computers",
+      "target": "/computers-from-scratch"
+    },
+    {
+      "source": "/computers",
+      "target": "/containers"
+    },
+    {
+      "source": "/computers",
+      "target": "/discussion-topics"
+    },
+    {
+      "source": "/computers",
+      "target": "/easy-vs-hard-in-cs"
+    },
+    {
+      "source": "/computers",
+      "target": "/networks"
+    },
+    {
+      "source": "/computers",
+      "target": "/operating-systems"
+    },
+    {
+      "source": "/computers",
+      "target": "/databases"
+    },
+    {
+      "source": "/computers",
+      "target": "/distributed-systems"
+    },
+    {
+      "source": "/computers",
+      "target": "/security"
+    },
+    {
       "source": "/math",
       "target": "/bayes"
     },
@@ -5024,42 +5060,6 @@
     {
       "source": "/software-engineering",
       "target": "/system-design"
-    },
-    {
-      "source": "/computers",
-      "target": "/computers-from-scratch"
-    },
-    {
-      "source": "/computers",
-      "target": "/containers"
-    },
-    {
-      "source": "/computers",
-      "target": "/discussion-topics"
-    },
-    {
-      "source": "/computers",
-      "target": "/easy-vs-hard-in-cs"
-    },
-    {
-      "source": "/computers",
-      "target": "/networks"
-    },
-    {
-      "source": "/computers",
-      "target": "/operating-systems"
-    },
-    {
-      "source": "/computers",
-      "target": "/databases"
-    },
-    {
-      "source": "/computers",
-      "target": "/distributed-systems"
-    },
-    {
-      "source": "/computers",
-      "target": "/security"
     },
     {
       "source": "/ux",
@@ -5350,22 +5350,6 @@
       "target": "/vga-driver"
     },
     {
-      "source": "/system-design",
-      "target": "/choose-boring-tech"
-    },
-    {
-      "source": "/system-design",
-      "target": "/domain-driven-design"
-    },
-    {
-      "source": "/system-design",
-      "target": "/hacker-laws"
-    },
-    {
-      "source": "/system-design",
-      "target": "/minimal-tech"
-    },
-    {
       "source": "/databases",
       "target": "/acid"
     },
@@ -5496,6 +5480,22 @@
     {
       "source": "/security",
       "target": "/xss"
+    },
+    {
+      "source": "/system-design",
+      "target": "/choose-boring-tech"
+    },
+    {
+      "source": "/system-design",
+      "target": "/domain-driven-design"
+    },
+    {
+      "source": "/system-design",
+      "target": "/hacker-laws"
+    },
+    {
+      "source": "/system-design",
+      "target": "/minimal-tech"
     },
     {
       "source": "/array",

@@ -145,13 +145,14 @@ class SiteGenerator < Jekyll::Generator
 
     level_order = tree_level_order(tree)
     level_order.each do |parent_id, children|
+      
       html = "<ul>"
-      children.sort_by { |child_id| site.data["file_to_title"][child_id] }.each do |child_id|
-        if child_id != parent_id
-          html += "<li><a href='#{child_id}/'>#{site.data["file_to_title"][child_id]}</a></li>"
-        end
+      children.each do |child_id|
+        title = site.data["file_to_title"][child_id]
+        html += "<li><a href='#{child_id}/'>#{title}</a></li>"
       end
       html += "</ul>"
+
       site.data["tree_htmls"][parent_id] = html
     end
 
@@ -167,7 +168,7 @@ class SiteGenerator < Jekyll::Generator
   end
 
   def initialize_file_to_title(site)
-    site.data["file_to_title"] = site.documents.map { |doc| [remove_leading_slash(doc.id), doc.data["title"]] }.to_h
+    site.data["file_to_title"] = site.documents.map { |doc| [doc.id, doc.data["title"]] }.to_h
   end
 
   def process_documents(site)
@@ -242,8 +243,7 @@ class SiteGenerator < Jekyll::Generator
 
   def enrich_nodes(nodes, links, site)
     nodes.each do |node|
-      file = remove_leading_slash(node[:id].to_s)
-      node[:name] = site.data["file_to_title"][file] || file.capitalize
+      node[:name] = site.data["file_to_title"][node[:id]] || remove_leading_slash(node[:id].to_s).capitalize
       node[:links] = links.select { |e| e[:source] == node[:id] || e[:target] == node[:id] }
                            .map { |e| e[:source] == node[:id] ? e[:target] : e[:source] }
       nodes.delete(node) if node[:links].empty?
@@ -287,7 +287,7 @@ class SiteGenerator < Jekyll::Generator
     doc.content.scan(/\[\[[a-z0-9-]*\]\]/).each do |link|
       target = link[2..-3]
       target = tag_to_file[target] if tag_to_file.key?(target)
-      title = file_to_title[target]
+      title = file_to_title["/#{target}"]
       markdown_link = "[#{title}](/#{target}/)"
       doc.content.gsub!(link, markdown_link)
     end
