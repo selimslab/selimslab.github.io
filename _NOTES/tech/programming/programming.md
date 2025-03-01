@@ -1,3 +1,3 @@
 ---
-tags: swe skills
+tags: skills
 ---

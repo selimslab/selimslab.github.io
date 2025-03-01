@@ -239,6 +239,9 @@
   "/graph-2d": [
 
   ],
+  "/llm-prompt": [
+
+  ],
   "/akins-laws-of-spacecraft": [
     "natural-sciences",
     "sys"
@@ -634,21 +637,6 @@
   "/operating-systems": [
     "computers"
   ],
-  "/customize-prompt": [
-    "data-science"
-  ],
-  "/data-science": [
-    "tech"
-  ],
-  "/machine-learning": [
-    "data-science"
-  ],
-  "/nlp": [
-    "data-science"
-  ],
-  "/prompt-engineering": [
-    "data-science"
-  ],
   "/acid": [
     "databases"
   ],
@@ -665,6 +653,9 @@
   "/db-data-structures": [
     "databases",
     "ds"
+  ],
+  "/db-mistakes": [
+    "databases"
   ],
   "/leaderless-replication": [
     "databases"
@@ -699,6 +690,9 @@
     "distributed-systems"
   ],
   "/detect-a-node-failure": [
+    "distributed-systems"
+  ],
+  "/dist-links": [
     "distributed-systems"
   ],
   "/distributed-design-patterns": [
@@ -1201,7 +1195,6 @@
   ],
   "/programming": [
     "skills",
-    "swe",
     "tech"
   ],
   "/async-crawler": [
@@ -1340,6 +1333,9 @@
   "/choose-boring-tech": [
     "system-design"
   ],
+  "/dependency-management": [
+    "system-design"
+  ],
   "/design-patterns": [
     "system-design"
   ],
@@ -1376,9 +1372,6 @@
   ],
   "/hijacked-minds": [
     "soc",
-    "ux"
-  ],
-  "/is-tech-fast-or-slow": [
     "ux"
   ],
   "/natural-ux": [

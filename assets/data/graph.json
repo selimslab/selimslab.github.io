@@ -89,6 +89,7 @@
       "links": [
         "/root",
         "/graph-2d",
+        "/llm-prompt",
         "/about"
       ]
     },
@@ -226,15 +227,14 @@
       "name": "Tech",
       "links": [
         "/root",
-        "/security",
         "/databases",
+        "/security",
         "/distributed-systems",
         "/programming",
+        "/system-design",
         "/ux",
         "/computers",
-        "/software-engineering",
-        "/system-design",
-        "/data-science"
+        "/software-engineering"
       ]
     },
     {
@@ -526,6 +526,14 @@
       "id": "/graph-2d",
       "group": 2,
       "name": "2D Graph of All Pages",
+      "links": [
+        "/misc"
+      ]
+    },
+    {
+      "id": "/llm-prompt",
+      "group": 2,
+      "name": "Llm Prompt",
       "links": [
         "/misc"
       ]
@@ -1277,6 +1285,26 @@
       ]
     },
     {
+      "id": "/databases",
+      "group": 2,
+      "name": "Databases",
+      "links": [
+        "/tech",
+        "/acid",
+        "/b-trees",
+        "/db-concepts",
+        "/db-data-structures",
+        "/db-mistakes",
+        "/leaderless-replication",
+        "/lsm-trees",
+        "/normalization",
+        "/partitioning",
+        "/replication",
+        "/single-leader",
+        "/sql-tips"
+      ]
+    },
+    {
       "id": "/security",
       "group": 2,
       "name": "Security",
@@ -1297,25 +1325,6 @@
       ]
     },
     {
-      "id": "/databases",
-      "group": 2,
-      "name": "Databases",
-      "links": [
-        "/tech",
-        "/acid",
-        "/b-trees",
-        "/db-concepts",
-        "/db-data-structures",
-        "/leaderless-replication",
-        "/lsm-trees",
-        "/normalization",
-        "/partitioning",
-        "/replication",
-        "/single-leader",
-        "/sql-tips"
-      ]
-    },
-    {
       "id": "/distributed-systems",
       "group": 2,
       "name": "Distributed Systems",
@@ -1325,6 +1334,7 @@
         "/azure-pillars",
         "/consistent-hashing",
         "/detect-a-node-failure",
+        "/dist-links",
         "/distributed-design-patterns",
         "/generate-a-unique-id",
         "/google-sre-book",
@@ -1349,8 +1359,28 @@
         "/oop",
         "/programming-languages",
         "/projects",
-        "/skills",
-        "/software-engineering"
+        "/skills"
+      ]
+    },
+    {
+      "id": "/system-design",
+      "group": 2,
+      "name": "System Design",
+      "links": [
+        "/tech",
+        "/api-design",
+        "/choose-boring-tech",
+        "/dependency-management",
+        "/design-patterns",
+        "/domain-driven-design",
+        "/hacker-laws",
+        "/minimal-tech",
+        "/solid",
+        "/systems",
+        "/akins-laws-of-spacecraft",
+        "/distributed-systems",
+        "/oop",
+        "/accessibility"
       ]
     },
     {
@@ -1363,7 +1393,6 @@
         "/accessibility",
         "/evolution-of-computer-interfaces",
         "/hijacked-minds",
-        "/is-tech-fast-or-slow",
         "/natural-ux",
         "/polished-pixels",
         "/things-users-care",
@@ -1400,40 +1429,7 @@
         "/software-analogies",
         "/software-quality",
         "/swe-misery",
-        "/the-joel-test",
-        "/programming"
-      ]
-    },
-    {
-      "id": "/system-design",
-      "group": 2,
-      "name": "System Design",
-      "links": [
-        "/tech",
-        "/api-design",
-        "/choose-boring-tech",
-        "/design-patterns",
-        "/domain-driven-design",
-        "/hacker-laws",
-        "/minimal-tech",
-        "/solid",
-        "/systems",
-        "/akins-laws-of-spacecraft",
-        "/distributed-systems",
-        "/oop",
-        "/accessibility"
-      ]
-    },
-    {
-      "id": "/data-science",
-      "group": 2,
-      "name": "Data Science",
-      "links": [
-        "/tech",
-        "/customize-prompt",
-        "/machine-learning",
-        "/nlp",
-        "/prompt-engineering"
+        "/the-joel-test"
       ]
     },
     {
@@ -2037,6 +2033,113 @@
       ]
     },
     {
+      "id": "/acid",
+      "group": 3,
+      "name": "ACID",
+      "links": [
+        "/databases"
+      ]
+    },
+    {
+      "id": "/b-trees",
+      "group": 3,
+      "name": "B Trees",
+      "links": [
+        "/databases",
+        "/db-data-structures",
+        "/tree-balancing",
+        "/data-structures"
+      ]
+    },
+    {
+      "id": "/db-concepts",
+      "group": 3,
+      "name": "Database Concepts",
+      "links": [
+        "/databases"
+      ]
+    },
+    {
+      "id": "/db-data-structures",
+      "group": 3,
+      "name": "Data Structures to Build a DB",
+      "links": [
+        "/databases",
+        "/b-trees",
+        "/data-structures"
+      ]
+    },
+    {
+      "id": "/db-mistakes",
+      "group": 3,
+      "name": "Db Mistakes",
+      "links": [
+        "/databases"
+      ]
+    },
+    {
+      "id": "/leaderless-replication",
+      "group": 3,
+      "name": "Leaderless Replication",
+      "links": [
+        "/databases",
+        "/replication"
+      ]
+    },
+    {
+      "id": "/lsm-trees",
+      "group": 3,
+      "name": "Log structured merge tree (LSM tree)",
+      "links": [
+        "/databases",
+        "/algorithms",
+        "/data-structures"
+      ]
+    },
+    {
+      "id": "/normalization",
+      "group": 3,
+      "name": "Normalization",
+      "links": [
+        "/databases"
+      ]
+    },
+    {
+      "id": "/partitioning",
+      "group": 3,
+      "name": "Partitioning",
+      "links": [
+        "/databases",
+        "/replication"
+      ]
+    },
+    {
+      "id": "/replication",
+      "group": 3,
+      "name": "Replication",
+      "links": [
+        "/databases",
+        "/leaderless-replication",
+        "/partitioning"
+      ]
+    },
+    {
+      "id": "/single-leader",
+      "group": 3,
+      "name": "Single Leader",
+      "links": [
+        "/databases"
+      ]
+    },
+    {
+      "id": "/sql-tips",
+      "group": 3,
+      "name": "SQL Tips",
+      "links": [
+        "/databases"
+      ]
+    },
+    {
       "id": "/authentication",
       "group": 3,
       "name": "Authentication",
@@ -2133,105 +2236,6 @@
       ]
     },
     {
-      "id": "/acid",
-      "group": 3,
-      "name": "ACID",
-      "links": [
-        "/databases"
-      ]
-    },
-    {
-      "id": "/b-trees",
-      "group": 3,
-      "name": "B Trees",
-      "links": [
-        "/databases",
-        "/db-data-structures",
-        "/tree-balancing",
-        "/data-structures"
-      ]
-    },
-    {
-      "id": "/db-concepts",
-      "group": 3,
-      "name": "Database Concepts",
-      "links": [
-        "/databases"
-      ]
-    },
-    {
-      "id": "/db-data-structures",
-      "group": 3,
-      "name": "Data Structures to Build a DB",
-      "links": [
-        "/databases",
-        "/b-trees",
-        "/data-structures"
-      ]
-    },
-    {
-      "id": "/leaderless-replication",
-      "group": 3,
-      "name": "Leaderless Replication",
-      "links": [
-        "/databases",
-        "/replication"
-      ]
-    },
-    {
-      "id": "/lsm-trees",
-      "group": 3,
-      "name": "Log structured merge tree (LSM tree)",
-      "links": [
-        "/databases",
-        "/algorithms",
-        "/data-structures"
-      ]
-    },
-    {
-      "id": "/normalization",
-      "group": 3,
-      "name": "Normalization",
-      "links": [
-        "/databases"
-      ]
-    },
-    {
-      "id": "/partitioning",
-      "group": 3,
-      "name": "Partitioning",
-      "links": [
-        "/databases",
-        "/replication"
-      ]
-    },
-    {
-      "id": "/replication",
-      "group": 3,
-      "name": "Replication",
-      "links": [
-        "/databases",
-        "/leaderless-replication",
-        "/partitioning"
-      ]
-    },
-    {
-      "id": "/single-leader",
-      "group": 3,
-      "name": "Single Leader",
-      "links": [
-        "/databases"
-      ]
-    },
-    {
-      "id": "/sql-tips",
-      "group": 3,
-      "name": "SQL Tips",
-      "links": [
-        "/databases"
-      ]
-    },
-    {
       "id": "/armstrong-thesis",
       "group": 3,
       "name": "Armstrong Thesis",
@@ -2259,6 +2263,14 @@
       "id": "/detect-a-node-failure",
       "group": 3,
       "name": "Detect A Node Failure",
+      "links": [
+        "/distributed-systems"
+      ]
+    },
+    {
+      "id": "/dist-links",
+      "group": 3,
+      "name": "Dist Links",
       "links": [
         "/distributed-systems"
       ]
@@ -2449,6 +2461,71 @@
       ]
     },
     {
+      "id": "/api-design",
+      "group": 3,
+      "name": "Api Design",
+      "links": [
+        "/system-design"
+      ]
+    },
+    {
+      "id": "/choose-boring-tech",
+      "group": 3,
+      "name": "Choose Boring Tech",
+      "links": [
+        "/system-design"
+      ]
+    },
+    {
+      "id": "/dependency-management",
+      "group": 3,
+      "name": "Dependency Management",
+      "links": [
+        "/system-design"
+      ]
+    },
+    {
+      "id": "/design-patterns",
+      "group": 3,
+      "name": "Design Patterns",
+      "links": [
+        "/system-design"
+      ]
+    },
+    {
+      "id": "/domain-driven-design",
+      "group": 3,
+      "name": "Domain Driven Design",
+      "links": [
+        "/system-design"
+      ]
+    },
+    {
+      "id": "/hacker-laws",
+      "group": 3,
+      "name": "Hacker Laws",
+      "links": [
+        "/system-design",
+        "/akins-laws-of-spacecraft"
+      ]
+    },
+    {
+      "id": "/minimal-tech",
+      "group": 3,
+      "name": "Minimal Tech",
+      "links": [
+        "/system-design"
+      ]
+    },
+    {
+      "id": "/solid",
+      "group": 3,
+      "name": "SOLID",
+      "links": [
+        "/system-design"
+      ]
+    },
+    {
       "id": "/a-free-web-again",
       "group": 3,
       "name": "A Free Web Again",
@@ -2480,14 +2557,6 @@
       "links": [
         "/ux",
         "/social-sciences"
-      ]
-    },
-    {
-      "id": "/is-tech-fast-or-slow",
-      "group": 3,
-      "name": "Is Tech Fast Or Slow",
-      "links": [
-        "/ux"
       ]
     },
     {
@@ -2637,98 +2706,6 @@
       "name": "The Joel Test",
       "links": [
         "/software-engineering"
-      ]
-    },
-    {
-      "id": "/api-design",
-      "group": 3,
-      "name": "Api Design",
-      "links": [
-        "/system-design"
-      ]
-    },
-    {
-      "id": "/choose-boring-tech",
-      "group": 3,
-      "name": "Choose Boring Tech",
-      "links": [
-        "/system-design"
-      ]
-    },
-    {
-      "id": "/design-patterns",
-      "group": 3,
-      "name": "Design Patterns",
-      "links": [
-        "/system-design"
-      ]
-    },
-    {
-      "id": "/domain-driven-design",
-      "group": 3,
-      "name": "Domain Driven Design",
-      "links": [
-        "/system-design"
-      ]
-    },
-    {
-      "id": "/hacker-laws",
-      "group": 3,
-      "name": "Hacker Laws",
-      "links": [
-        "/system-design",
-        "/akins-laws-of-spacecraft"
-      ]
-    },
-    {
-      "id": "/minimal-tech",
-      "group": 3,
-      "name": "Minimal Tech",
-      "links": [
-        "/system-design"
-      ]
-    },
-    {
-      "id": "/solid",
-      "group": 3,
-      "name": "SOLID",
-      "links": [
-        "/system-design"
-      ]
-    },
-    {
-      "id": "/customize-prompt",
-      "group": 3,
-      "name": "Customize Prompt",
-      "links": [
-        "/data-science"
-      ]
-    },
-    {
-      "id": "/machine-learning",
-      "group": 3,
-      "name": "Machine Learning",
-      "links": [
-        "/data-science",
-        "/pca",
-        "/pneumonia-detection",
-        "/predict-movie-genres"
-      ]
-    },
-    {
-      "id": "/nlp",
-      "group": 3,
-      "name": "NLP",
-      "links": [
-        "/data-science"
-      ]
-    },
-    {
-      "id": "/prompt-engineering",
-      "group": 3,
-      "name": "Prompt Engineering",
-      "links": [
-        "/data-science"
       ]
     },
     {
@@ -3287,8 +3264,7 @@
       "group": 4,
       "name": "Principal Component Analysis",
       "links": [
-        "/projects",
-        "/machine-learning"
+        "/projects"
       ]
     },
     {
@@ -3296,8 +3272,7 @@
       "group": 4,
       "name": "Pneumonia Detection",
       "links": [
-        "/projects",
-        "/machine-learning"
+        "/projects"
       ]
     },
     {
@@ -3305,8 +3280,7 @@
       "group": 4,
       "name": "Predict movie genres using ML classifiers",
       "links": [
-        "/projects",
-        "/machine-learning"
+        "/projects"
       ]
     },
     {
@@ -4326,6 +4300,10 @@
     },
     {
       "source": "/misc",
+      "target": "/llm-prompt"
+    },
+    {
+      "source": "/misc",
       "target": "/about"
     },
     {
@@ -4646,11 +4624,11 @@
     },
     {
       "source": "/tech",
-      "target": "/security"
+      "target": "/databases"
     },
     {
       "source": "/tech",
-      "target": "/databases"
+      "target": "/security"
     },
     {
       "source": "/tech",
@@ -4659,6 +4637,10 @@
     {
       "source": "/tech",
       "target": "/programming"
+    },
+    {
+      "source": "/tech",
+      "target": "/system-design"
     },
     {
       "source": "/tech",
@@ -4671,14 +4653,6 @@
     {
       "source": "/tech",
       "target": "/software-engineering"
-    },
-    {
-      "source": "/tech",
-      "target": "/system-design"
-    },
-    {
-      "source": "/tech",
-      "target": "/data-science"
     },
     {
       "source": "/poetry",
@@ -4965,6 +4939,54 @@
       "target": "/metaphors"
     },
     {
+      "source": "/databases",
+      "target": "/acid"
+    },
+    {
+      "source": "/databases",
+      "target": "/b-trees"
+    },
+    {
+      "source": "/databases",
+      "target": "/db-concepts"
+    },
+    {
+      "source": "/databases",
+      "target": "/db-data-structures"
+    },
+    {
+      "source": "/databases",
+      "target": "/db-mistakes"
+    },
+    {
+      "source": "/databases",
+      "target": "/leaderless-replication"
+    },
+    {
+      "source": "/databases",
+      "target": "/lsm-trees"
+    },
+    {
+      "source": "/databases",
+      "target": "/normalization"
+    },
+    {
+      "source": "/databases",
+      "target": "/partitioning"
+    },
+    {
+      "source": "/databases",
+      "target": "/replication"
+    },
+    {
+      "source": "/databases",
+      "target": "/single-leader"
+    },
+    {
+      "source": "/databases",
+      "target": "/sql-tips"
+    },
+    {
       "source": "/security",
       "target": "/authentication"
     },
@@ -5013,50 +5035,6 @@
       "target": "/xss"
     },
     {
-      "source": "/databases",
-      "target": "/acid"
-    },
-    {
-      "source": "/databases",
-      "target": "/b-trees"
-    },
-    {
-      "source": "/databases",
-      "target": "/db-concepts"
-    },
-    {
-      "source": "/databases",
-      "target": "/db-data-structures"
-    },
-    {
-      "source": "/databases",
-      "target": "/leaderless-replication"
-    },
-    {
-      "source": "/databases",
-      "target": "/lsm-trees"
-    },
-    {
-      "source": "/databases",
-      "target": "/normalization"
-    },
-    {
-      "source": "/databases",
-      "target": "/partitioning"
-    },
-    {
-      "source": "/databases",
-      "target": "/replication"
-    },
-    {
-      "source": "/databases",
-      "target": "/single-leader"
-    },
-    {
-      "source": "/databases",
-      "target": "/sql-tips"
-    },
-    {
       "source": "/distributed-systems",
       "target": "/armstrong-thesis"
     },
@@ -5071,6 +5049,10 @@
     {
       "source": "/distributed-systems",
       "target": "/detect-a-node-failure"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/dist-links"
     },
     {
       "source": "/distributed-systems",
@@ -5133,6 +5115,38 @@
       "target": "/projects"
     },
     {
+      "source": "/system-design",
+      "target": "/api-design"
+    },
+    {
+      "source": "/system-design",
+      "target": "/choose-boring-tech"
+    },
+    {
+      "source": "/system-design",
+      "target": "/dependency-management"
+    },
+    {
+      "source": "/system-design",
+      "target": "/design-patterns"
+    },
+    {
+      "source": "/system-design",
+      "target": "/domain-driven-design"
+    },
+    {
+      "source": "/system-design",
+      "target": "/hacker-laws"
+    },
+    {
+      "source": "/system-design",
+      "target": "/minimal-tech"
+    },
+    {
+      "source": "/system-design",
+      "target": "/solid"
+    },
+    {
       "source": "/ux",
       "target": "/a-free-web-again"
     },
@@ -5147,10 +5161,6 @@
     {
       "source": "/ux",
       "target": "/hijacked-minds"
-    },
-    {
-      "source": "/ux",
-      "target": "/is-tech-fast-or-slow"
     },
     {
       "source": "/ux",
@@ -5223,50 +5233,6 @@
     {
       "source": "/software-engineering",
       "target": "/the-joel-test"
-    },
-    {
-      "source": "/system-design",
-      "target": "/api-design"
-    },
-    {
-      "source": "/system-design",
-      "target": "/choose-boring-tech"
-    },
-    {
-      "source": "/system-design",
-      "target": "/design-patterns"
-    },
-    {
-      "source": "/system-design",
-      "target": "/domain-driven-design"
-    },
-    {
-      "source": "/system-design",
-      "target": "/hacker-laws"
-    },
-    {
-      "source": "/system-design",
-      "target": "/minimal-tech"
-    },
-    {
-      "source": "/system-design",
-      "target": "/solid"
-    },
-    {
-      "source": "/data-science",
-      "target": "/customize-prompt"
-    },
-    {
-      "source": "/data-science",
-      "target": "/machine-learning"
-    },
-    {
-      "source": "/data-science",
-      "target": "/nlp"
-    },
-    {
-      "source": "/data-science",
-      "target": "/prompt-engineering"
     },
     {
       "source": "/algorithms",
@@ -6201,18 +6167,6 @@
       "target": "/containers"
     },
     {
-      "source": "/machine-learning",
-      "target": "/pca"
-    },
-    {
-      "source": "/machine-learning",
-      "target": "/pneumonia-detection"
-    },
-    {
-      "source": "/machine-learning",
-      "target": "/predict-movie-genres"
-    },
-    {
       "source": "/b-trees",
       "target": "/db-data-structures"
     },
@@ -6483,10 +6437,6 @@
     {
       "source": "/python",
       "target": "/pascal-interpreter"
-    },
-    {
-      "source": "/software-engineering",
-      "target": "/programming"
     },
     {
       "source": "/system-design",

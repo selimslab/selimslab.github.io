@@ -416,6 +416,34 @@
     }
   },
   "/tech": {
+    "/databases": {
+      "/acid": {
+      },
+      "/b-trees": {
+      },
+      "/databases": {
+      },
+      "/db-concepts": {
+      },
+      "/db-data-structures": {
+      },
+      "/db-mistakes": {
+      },
+      "/leaderless-replication": {
+      },
+      "/lsm-trees": {
+      },
+      "/normalization": {
+      },
+      "/partitioning": {
+      },
+      "/replication": {
+      },
+      "/single-leader": {
+      },
+      "/sql-tips": {
+      }
+    },
     "/security": {
       "/authentication": {
       },
@@ -444,32 +472,6 @@
       "/xss": {
       }
     },
-    "/databases": {
-      "/acid": {
-      },
-      "/b-trees": {
-      },
-      "/databases": {
-      },
-      "/db-concepts": {
-      },
-      "/db-data-structures": {
-      },
-      "/leaderless-replication": {
-      },
-      "/lsm-trees": {
-      },
-      "/normalization": {
-      },
-      "/partitioning": {
-      },
-      "/replication": {
-      },
-      "/single-leader": {
-      },
-      "/sql-tips": {
-      }
-    },
     "/distributed-systems": {
       "/armstrong-thesis": {
       },
@@ -478,6 +480,8 @@
       "/consistent-hashing": {
       },
       "/detect-a-node-failure": {
+      },
+      "/dist-links": {
       },
       "/distributed-design-patterns": {
       },
@@ -846,6 +850,26 @@
         }
       }
     },
+    "/system-design": {
+      "/api-design": {
+      },
+      "/choose-boring-tech": {
+      },
+      "/dependency-management": {
+      },
+      "/design-patterns": {
+      },
+      "/domain-driven-design": {
+      },
+      "/hacker-laws": {
+      },
+      "/minimal-tech": {
+      },
+      "/solid": {
+      },
+      "/system-design": {
+      }
+    },
     "/ux": {
       "/a-free-web-again": {
       },
@@ -854,8 +878,6 @@
       "/evolution-of-computer-interfaces": {
       },
       "/hijacked-minds": {
-      },
-      "/is-tech-fast-or-slow": {
       },
       "/natural-ux": {
       },
@@ -902,24 +924,6 @@
       "/swe-misery": {
       },
       "/the-joel-test": {
-      }
-    },
-    "/system-design": {
-      "/api-design": {
-      },
-      "/choose-boring-tech": {
-      },
-      "/design-patterns": {
-      },
-      "/domain-driven-design": {
-      },
-      "/hacker-laws": {
-      },
-      "/minimal-tech": {
-      },
-      "/solid": {
-      },
-      "/system-design": {
       }
     },
     "/data-science": {
