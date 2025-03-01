@@ -1,5 +1,5 @@
 ---
-tags: soc skills
+tags: soc
 ---
 
 Genuine interest 

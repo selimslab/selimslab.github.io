@@ -39,5 +39,3 @@ The Plague
 The Stranger
 
 The Trial
-
-$$

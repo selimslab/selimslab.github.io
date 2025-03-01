@@ -1,6 +1,6 @@
 ---
 title: Eudaimonia 🌱
-tags: skills top
+tags: top
 ---
 
 > Very little is needed to make a happy life;  

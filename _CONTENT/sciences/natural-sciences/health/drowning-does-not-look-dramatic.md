@@ -1,5 +1,4 @@
 ---
-tags: skills
 ---
 
 <http://spotthedrowningchild.com>
