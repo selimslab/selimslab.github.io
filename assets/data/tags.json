@@ -281,6 +281,9 @@
   "/documentaries": [
     "lists"
   ],
+  "/essais": [
+    "lists"
+  ],
   "/lists": [
     "root"
   ],
@@ -397,13 +400,15 @@
     "phil"
   ],
   "/sleep": [
-    "health"
+    "health",
+    "skills"
   ],
   "/natural-sciences": [
     "sciences"
   ],
   "/pale-blue-dot": [
-    "natural-sciences"
+    "natural-sciences",
+    "phil"
   ],
   "/classical-physics": [
     "physics"
@@ -428,6 +433,13 @@
   "/sapolsky": [
     "natural-sciences"
   ],
+  "/chaos": [
+    "systems"
+  ],
+  "/systems": [
+    "natural-sciences",
+    "soc"
+  ],
   "/sciences": [
 
   ],
@@ -436,19 +448,6 @@
   ],
   "/economics": [
     "social-sciences"
-  ],
-  "/being-poor": [
-    "essais"
-  ],
-  "/essais": [
-    "lists",
-    "social-sciences"
-  ],
-  "/the-triumph-of-stupidity": [
-    "essais"
-  ],
-  "/who-goes-nazi": [
-    "essais"
   ],
   "/121st-century": [
     "history",
@@ -485,6 +484,14 @@
   "/social-change": [
     "politics"
   ],
+  "/the-triumph-of-stupidity": [
+    "essais",
+    "politics"
+  ],
+  "/who-goes-nazi": [
+    "essais",
+    "politics"
+  ],
   "/cognitive-biases": [
     "psychology"
   ],
@@ -497,18 +504,18 @@
   "/psychology": [
     "social-sciences"
   ],
-  "/social-groups": [
-    "psychology"
-  ],
-  "/social-media": [
-    "psychology"
-  ],
   "/social-sciences": [
     "root",
     "sciences"
   ],
-  "/systems": [
-    "sciences"
+  "/being-poor": [
+    "essais"
+  ],
+  "/social-groups": [
+
+  ],
+  "/social-media": [
+
   ],
   "/communication": [
     "skills"
