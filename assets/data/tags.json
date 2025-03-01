@@ -36,8 +36,7 @@
     "design"
   ],
   "/design": [
-    "arts",
-    "skills"
+    "arts"
   ],
   "/drawing": [
     "design"
@@ -71,125 +70,8 @@
   "/literature": [
     "arts"
   ],
-  "/the-art-of-war": [
-    "literature"
-  ],
   "/turk-mirasi": [
     "literature"
-  ],
-  "/all-is-one": [
-    "philosophy"
-  ],
-  "/balance": [
-    "philosophy"
-  ],
-  "/be-good-to-each-other-and-yourself": [
-    "philosophy"
-  ],
-  "/books-phil": [
-    "philosophy"
-  ],
-  "/character": [
-    "philosophy"
-  ],
-  "/choice": [
-    "decisions",
-    "philosophy"
-  ],
-  "/concepts-in-greek-thought": [
-    "philosophy"
-  ],
-  "/do-one-thing-at-a-time-and-do-it-well": [
-    "philosophy"
-  ],
-  "/do-without-doing": [
-    "philosophy"
-  ],
-  "/eudaimonia": [
-    "philosophy",
-    "skills",
-    "top"
-  ],
-  "/freedom": [
-    "philosophy",
-    "soc"
-  ],
-  "/getting-old": [
-    "philosophy"
-  ],
-  "/happiness": [
-    "philosophy",
-    "psy"
-  ],
-  "/hard-times": [
-    "philosophy",
-    "top"
-  ],
-  "/how-to-grow-old-russell": [
-    "essais",
-    "philosophy"
-  ],
-  "/ideal-insan": [
-    "philosophy"
-  ],
-  "/one-bit-better": [
-    "philosophy"
-  ],
-  "/phil-ideas": [
-    "philosophy"
-  ],
-  "/philosophy": [
-    "arts",
-    "root"
-  ],
-  "/questions": [
-    "philosophy"
-  ],
-  "/success-and-failure": [
-    "philosophy"
-  ],
-  "/take-a-walk": [
-    "philosophy",
-    "top"
-  ],
-  "/the-less-the-better": [
-    "philosophy"
-  ],
-  "/death": [
-    "time"
-  ],
-  "/on-the-shortness-of-life": [
-    "time"
-  ],
-  "/slow-down-time": [
-    "time"
-  ],
-  "/the-past": [
-    "time"
-  ],
-  "/time": [
-    "philosophy"
-  ],
-  "/travelling": [
-    "philosophy"
-  ],
-  "/truth": [
-    "philosophy"
-  ],
-  "/career-advice": [
-    "work"
-  ],
-  "/teamwork": [
-    "work"
-  ],
-  "/what-to-work-on": [
-    "work"
-  ],
-  "/work": [
-    "philosophy"
-  ],
-  "/you-are-not-nameless": [
-    "work"
   ],
   "/photography": [
     "arts"
@@ -274,33 +156,6 @@
   "/wind-and-rain": [
     "poetry"
   ],
-  "/critical-thinking": [
-    "phil",
-    "reasoning"
-  ],
-  "/decision-making": [
-    "reasoning",
-    "skills"
-  ],
-  "/get-things-done": [
-    "reasoning"
-  ],
-  "/learning": [
-    "reasoning",
-    "skills",
-    "soc"
-  ],
-  "/mastery": [
-    "reasoning"
-  ],
-  "/problem-solving": [
-    "essais",
-    "reasoning",
-    "skills"
-  ],
-  "/reasoning": [
-    "arts"
-  ],
   "/abbas": [
     "siir"
   ],
@@ -343,6 +198,170 @@
   "/yunus-emre": [
     "siir"
   ],
+  "/balance": [
+    "choice"
+  ],
+  "/choice": [
+    "decisions",
+    "ideas"
+  ],
+  "/do-without-doing": [
+    "choice"
+  ],
+  "/gratitude": [
+    "choice"
+  ],
+  "/know-where-to-stop": [
+    "choice"
+  ],
+  "/ideas": [
+
+  ],
+  "/character": [
+
+  ],
+  "/eudaimonia": [
+    "top"
+  ],
+  "/freedom": [
+    "soc"
+  ],
+  "/friends": [
+
+  ],
+  "/getting-old": [
+
+  ],
+  "/happiness": [
+    "psy"
+  ],
+  "/hard-times": [
+    "top"
+  ],
+  "/how-to-grow-old-russell": [
+    "essais"
+  ],
+  "/success-and-failure": [
+
+  ],
+  "/the-less-the-better": [
+
+  ],
+  "/travelling": [
+
+  ],
+  "/all-is-one": [
+    "philosophy"
+  ],
+  "/be-good-to-each-other-and-yourself": [
+    "essais",
+    "philosophy"
+  ],
+  "/books-phil": [
+    "philosophy"
+  ],
+  "/concepts-in-greek-thought": [
+    "philosophy"
+  ],
+  "/enemies": [
+    "philosophy"
+  ],
+  "/epicurus": [
+    "philosophy"
+  ],
+  "/free-will": [
+    "philosophy"
+  ],
+  "/good-and-evil": [
+    "philosophy"
+  ],
+  "/ideal-insan": [
+    "philosophy"
+  ],
+  "/philosophy": [
+    "ideas"
+  ],
+  "/questions": [
+    "philosophy"
+  ],
+  "/solitude": [
+    "philosophy"
+  ],
+  "/stupidity": [
+    "philosophy"
+  ],
+  "/critical-thinking": [
+    "phil",
+    "reasoning"
+  ],
+  "/decision-making": [
+    "reasoning"
+  ],
+  "/do-one-thing-at-a-time-and-do-it-well": [
+    "phil",
+    "reasoning"
+  ],
+  "/get-things-done": [
+    "reasoning"
+  ],
+  "/learning": [
+    "reasoning",
+    "soc"
+  ],
+  "/mastery": [
+    "reasoning"
+  ],
+  "/one-bit-better": [
+    "reasoning",
+    "top"
+  ],
+  "/problem-solving": [
+    "reasoning"
+  ],
+  "/reasoning": [
+    "ideas"
+  ],
+  "/systems-thinking": [
+    "reasoning",
+    "soc"
+  ],
+  "/take-a-walk": [
+    "reasoning",
+    "top"
+  ],
+  "/truth": [
+    "reasoning"
+  ],
+  "/death": [
+    "time"
+  ],
+  "/on-the-shortness-of-life": [
+    "time"
+  ],
+  "/slow-down-time": [
+    "time"
+  ],
+  "/the-past": [
+    "time"
+  ],
+  "/time": [
+    "ideas"
+  ],
+  "/career-advice": [
+    "work"
+  ],
+  "/teamwork": [
+    "work"
+  ],
+  "/what-to-work-on": [
+    "work"
+  ],
+  "/work": [
+    "ideas"
+  ],
+  "/you-are-not-nameless": [
+    "work"
+  ],
   "/blogs": [
     "lists"
   ],
@@ -353,8 +372,7 @@
     "checklists"
   ],
   "/outdoors": [
-    "checklists",
-    "skills"
+    "checklists"
   ],
   "/used-cars": [
     "checklists"
@@ -397,8 +415,7 @@
     "time"
   ],
   "/typing-practice": [
-    "experiments",
-    "skills"
+    "experiments"
   ],
   "/year-progress": [
     "experiments"
@@ -466,8 +483,7 @@
     "natural-sciences"
   ],
   "/drowning-does-not-look-dramatic": [
-    "health",
-    "skills"
+    "health"
   ],
   "/exercise": [
     "health"
@@ -480,8 +496,7 @@
     "phil"
   ],
   "/sleep": [
-    "health",
-    "skills"
+    "health"
   ],
   "/natural-sciences": [
     "sciences"
@@ -513,21 +528,11 @@
   "/sapolsky": [
     "natural-sciences"
   ],
-  "/chaos": [
-    "systems"
-  ],
-  "/systems": [
-    "natural-sciences",
-    "soc"
-  ],
   "/sciences": [
 
   ],
   "/books-social": [
     "social-sciences"
-  ],
-  "/econ-ideas": [
-    "economics"
   ],
   "/economics": [
     "social-sciences"
@@ -562,20 +567,25 @@
     "politics"
   ],
   "/negotiations": [
-    "politics",
-    "skills"
+    "politics"
+  ],
+  "/obedience": [
+    "politics"
   ],
   "/politics": [
     "social-sciences"
   ],
-  "/pols-ideas": [
+  "/social-change": [
     "politics"
   ],
-  "/social-change": [
+  "/the-art-of-war": [
     "politics"
   ],
   "/the-triumph-of-stupidity": [
     "essais",
+    "politics"
+  ],
+  "/ursula-guin-address": [
     "politics"
   ],
   "/who-goes-nazi": [
@@ -591,14 +601,23 @@
   "/habits": [
     "psychology"
   ],
+  "/manipulation": [
+    "psychology"
+  ],
   "/parenting": [
     "psychology"
   ],
-  "/psy-ideas": [
+  "/procrastination": [
     "psychology"
   ],
   "/psychology": [
     "social-sciences"
+  ],
+  "/spot-a-liar": [
+    "psychology"
+  ],
+  "/stress": [
+    "psychology"
   ],
   "/social-sciences": [
     "root",
@@ -1120,7 +1139,6 @@
     "sys"
   ],
   "/programming": [
-    "skills",
     "tech"
   ],
   "/async-crawler": [
@@ -1175,7 +1193,6 @@
     "projects"
   ],
   "/projects": [
-    "experiments",
     "programming"
   ],
   "/vga-driver": [

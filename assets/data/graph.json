@@ -6,6 +6,7 @@
       "name": "Root",
       "links": [
         "/arts",
+        "/ideas",
         "/lists",
         "/misc",
         "/sciences",
@@ -18,16 +19,28 @@
       "name": "Arts",
       "links": [
         "/root",
-        "/philosophy",
         "/poetry",
         "/siir",
-        "/literature",
-        "/reasoning",
         "/communication",
         "/design",
+        "/literature",
         "/languages",
         "/architecture",
         "/photography"
+      ]
+    },
+    {
+      "id": "/ideas",
+      "group": 1,
+      "name": "Ideas",
+      "links": [
+        "/root",
+        "/philosophy",
+        "/reasoning",
+        "/life",
+        "/choice",
+        "/time",
+        "/work"
       ]
     },
     {
@@ -93,45 +106,6 @@
       ]
     },
     {
-      "id": "/philosophy",
-      "group": 2,
-      "name": "Philosophy",
-      "links": [
-        "/arts",
-        "/all-is-one",
-        "/balance",
-        "/be-good-to-each-other-and-yourself",
-        "/books-phil",
-        "/character",
-        "/choice",
-        "/concepts-in-greek-thought",
-        "/do-one-thing-at-a-time-and-do-it-well",
-        "/do-without-doing",
-        "/eudaimonia",
-        "/freedom",
-        "/getting-old",
-        "/happiness",
-        "/hard-times",
-        "/how-to-grow-old-russell",
-        "/ideal-insan",
-        "/one-bit-better",
-        "/phil-ideas",
-        "/questions",
-        "/success-and-failure",
-        "/take-a-walk",
-        "/the-less-the-better",
-        "/travelling",
-        "/truth",
-        "/time",
-        "/work",
-        "/tao-te-ching",
-        "/critical-thinking",
-        "/how-to-deal-with-pain",
-        "/pale-blue-dot",
-        "/philosophical-implications-of-quantum-mechanics"
-      ]
-    },
-    {
       "id": "/poetry",
       "group": 2,
       "name": "Poetry",
@@ -186,34 +160,6 @@
       ]
     },
     {
-      "id": "/literature",
-      "group": 2,
-      "name": "Literature",
-      "links": [
-        "/arts",
-        "/authors",
-        "/cien-anos-de-soledad",
-        "/classics",
-        "/ince-memed",
-        "/the-art-of-war",
-        "/turk-mirasi"
-      ]
-    },
-    {
-      "id": "/reasoning",
-      "group": 2,
-      "name": "Reasoning",
-      "links": [
-        "/arts",
-        "/critical-thinking",
-        "/decision-making",
-        "/get-things-done",
-        "/learning",
-        "/mastery",
-        "/problem-solving"
-      ]
-    },
-    {
       "id": "/communication",
       "group": 2,
       "name": "Communication",
@@ -243,6 +189,19 @@
       ]
     },
     {
+      "id": "/literature",
+      "group": 2,
+      "name": "Literature",
+      "links": [
+        "/arts",
+        "/authors",
+        "/cien-anos-de-soledad",
+        "/classics",
+        "/ince-memed",
+        "/turk-mirasi"
+      ]
+    },
+    {
       "id": "/languages",
       "group": 2,
       "name": "Languages",
@@ -267,6 +226,116 @@
       "name": "Photography",
       "links": [
         "/arts"
+      ]
+    },
+    {
+      "id": "/philosophy",
+      "group": 2,
+      "name": "Philosophy",
+      "links": [
+        "/ideas",
+        "/all-is-one",
+        "/be-good-to-each-other-and-yourself",
+        "/books-phil",
+        "/concepts-in-greek-thought",
+        "/enemies",
+        "/epicurus",
+        "/free-will",
+        "/good-and-evil",
+        "/ideal-insan",
+        "/questions",
+        "/solitude",
+        "/stupidity",
+        "/tao-te-ching",
+        "/critical-thinking",
+        "/do-one-thing-at-a-time-and-do-it-well",
+        "/how-to-deal-with-pain",
+        "/pale-blue-dot",
+        "/philosophical-implications-of-quantum-mechanics"
+      ]
+    },
+    {
+      "id": "/reasoning",
+      "group": 2,
+      "name": "Reasoning",
+      "links": [
+        "/ideas",
+        "/critical-thinking",
+        "/decision-making",
+        "/do-one-thing-at-a-time-and-do-it-well",
+        "/get-things-done",
+        "/learning",
+        "/mastery",
+        "/one-bit-better",
+        "/problem-solving",
+        "/systems-thinking",
+        "/take-a-walk",
+        "/truth"
+      ]
+    },
+    {
+      "id": "/life",
+      "group": 2,
+      "name": "Life",
+      "links": [
+        "/ideas",
+        "/character",
+        "/eudaimonia",
+        "/freedom",
+        "/friends",
+        "/getting-old",
+        "/happiness",
+        "/hard-times",
+        "/how-to-grow-old-russell",
+        "/success-and-failure",
+        "/the-less-the-better",
+        "/travelling"
+      ]
+    },
+    {
+      "id": "/choice",
+      "group": 2,
+      "name": "Choice",
+      "links": [
+        "/ideas",
+        "/balance",
+        "/do-without-doing",
+        "/gratitude",
+        "/know-where-to-stop",
+        "/eudaimonia"
+      ]
+    },
+    {
+      "id": "/time",
+      "group": 2,
+      "name": "Time",
+      "links": [
+        "/ideas",
+        "/death",
+        "/on-the-shortness-of-life",
+        "/slow-down-time",
+        "/the-past",
+        "/time-scale",
+        "/121st-century",
+        "/history",
+        "/since-big-bang"
+      ]
+    },
+    {
+      "id": "/work",
+      "group": 2,
+      "name": "Work",
+      "links": [
+        "/ideas",
+        "/career-advice",
+        "/teamwork",
+        "/what-to-work-on",
+        "/you-are-not-nameless",
+        "/be-good-to-each-other-and-yourself",
+        "/decision-making",
+        "/do-one-thing-at-a-time-and-do-it-well",
+        "/get-things-done",
+        "/mastery"
       ]
     },
     {
@@ -311,8 +380,8 @@
       "name": "Essais",
       "links": [
         "/lists",
+        "/be-good-to-each-other-and-yourself",
         "/how-to-grow-old-russell",
-        "/problem-solving",
         "/farming-trap",
         "/the-triumph-of-stupidity",
         "/who-goes-nazi",
@@ -353,8 +422,7 @@
         "/graph-3d",
         "/time-scale",
         "/typing-practice",
-        "/year-progress",
-        "/projects"
+        "/year-progress"
       ]
     },
     {
@@ -458,7 +526,7 @@
         "/freedom",
         "/learning",
         "/metaphors",
-        "/systems",
+        "/systems-thinking",
         "/hijacked-minds"
       ]
     },
@@ -584,7 +652,6 @@
         "/hacker-laws",
         "/minimal-tech",
         "/solid",
-        "/systems",
         "/akins-laws-of-spacecraft",
         "/distributed-systems",
         "/oop",
@@ -634,253 +701,6 @@
         "/networks",
         "/operating-systems",
         "/for-new-programmers"
-      ]
-    },
-    {
-      "id": "/all-is-one",
-      "group": 3,
-      "name": "All is One",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/balance",
-      "group": 3,
-      "name": "Balance",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/be-good-to-each-other-and-yourself",
-      "group": 3,
-      "name": "Be Good To Each Other And Yourself",
-      "links": [
-        "/philosophy",
-        "/work"
-      ]
-    },
-    {
-      "id": "/books-phil",
-      "group": 3,
-      "name": "Books",
-      "links": [
-        "/philosophy",
-        "/the-art-of-war"
-      ]
-    },
-    {
-      "id": "/character",
-      "group": 3,
-      "name": "On Character",
-      "links": [
-        "/philosophy",
-        "/eudaimonia",
-        "/freedom"
-      ]
-    },
-    {
-      "id": "/choice",
-      "group": 3,
-      "name": "Choice",
-      "links": [
-        "/philosophy",
-        "/eudaimonia"
-      ]
-    },
-    {
-      "id": "/concepts-in-greek-thought",
-      "group": 3,
-      "name": "Concepts In Greek Thought",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/do-one-thing-at-a-time-and-do-it-well",
-      "group": 3,
-      "name": "Do One Thing At A Time And Do It Well",
-      "links": [
-        "/philosophy",
-        "/get-things-done",
-        "/teamwork",
-        "/work"
-      ]
-    },
-    {
-      "id": "/do-without-doing",
-      "group": 3,
-      "name": "Do without doing - Wu Wei 無爲",
-      "links": [
-        "/philosophy",
-        "/decision-making",
-        "/eudaimonia",
-        "/teamwork"
-      ]
-    },
-    {
-      "id": "/eudaimonia",
-      "group": 3,
-      "name": "Eudaimonia 🌱",
-      "links": [
-        "/philosophy",
-        "/character",
-        "/choice",
-        "/do-without-doing"
-      ]
-    },
-    {
-      "id": "/freedom",
-      "group": 3,
-      "name": "Freedom",
-      "links": [
-        "/philosophy",
-        "/character",
-        "/success-and-failure",
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/getting-old",
-      "group": 3,
-      "name": "Getting Old",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/happiness",
-      "group": 3,
-      "name": "Happiness",
-      "links": [
-        "/philosophy",
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/hard-times",
-      "group": 3,
-      "name": "Hard Times",
-      "links": [
-        "/philosophy",
-        "/how-to-deal-with-pain"
-      ]
-    },
-    {
-      "id": "/how-to-grow-old-russell",
-      "group": 3,
-      "name": "How to Grow Old, by Bertrand Russell",
-      "links": [
-        "/philosophy",
-        "/essais"
-      ]
-    },
-    {
-      "id": "/ideal-insan",
-      "group": 3,
-      "name": "Ideal Insan",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/one-bit-better",
-      "group": 3,
-      "name": "One Bit Better",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/phil-ideas",
-      "group": 3,
-      "name": "Ideas",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/questions",
-      "group": 3,
-      "name": "Questions",
-      "links": [
-        "/philosophy",
-        "/critical-thinking"
-      ]
-    },
-    {
-      "id": "/success-and-failure",
-      "group": 3,
-      "name": "Success And Failure",
-      "links": [
-        "/philosophy",
-        "/freedom"
-      ]
-    },
-    {
-      "id": "/take-a-walk",
-      "group": 3,
-      "name": "Take a walk",
-      "links": [
-        "/philosophy",
-        "/get-things-done",
-        "/problem-solving"
-      ]
-    },
-    {
-      "id": "/the-less-the-better",
-      "group": 3,
-      "name": "The Less The Better",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/travelling",
-      "group": 3,
-      "name": "Travelling",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/truth",
-      "group": 3,
-      "name": "Truth",
-      "links": [
-        "/philosophy",
-        "/critical-thinking"
-      ]
-    },
-    {
-      "id": "/time",
-      "group": 3,
-      "name": "Time",
-      "links": [
-        "/philosophy",
-        "/death",
-        "/on-the-shortness-of-life",
-        "/slow-down-time",
-        "/the-past",
-        "/time-scale",
-        "/121st-century",
-        "/history",
-        "/since-big-bang"
-      ]
-    },
-    {
-      "id": "/work",
-      "group": 3,
-      "name": "Work",
-      "links": [
-        "/philosophy",
-        "/career-advice",
-        "/teamwork",
-        "/what-to-work-on",
-        "/you-are-not-nameless",
-        "/be-good-to-each-other-and-yourself",
-        "/do-one-thing-at-a-time-and-do-it-well"
       ]
     },
     {
@@ -945,7 +765,8 @@
       "name": "If",
       "links": [
         "/poetry",
-        "/bulent-ecevit"
+        "/bulent-ecevit",
+        "/success-and-failure"
       ]
     },
     {
@@ -953,7 +774,9 @@
       "group": 3,
       "name": "Lightly Child",
       "links": [
-        "/poetry"
+        "/poetry",
+        "/do-one-thing-at-a-time-and-do-it-well",
+        "/one-bit-better"
       ]
     },
     {
@@ -1010,6 +833,7 @@
       "name": "Tao Te Ching",
       "links": [
         "/poetry",
+        "/books-phil",
         "/philosophy",
         "/politics"
       ]
@@ -1083,7 +907,8 @@
       "group": 3,
       "name": "Wind And Rain",
       "links": [
-        "/poetry"
+        "/poetry",
+        "/know-where-to-stop"
       ]
     },
     {
@@ -1192,120 +1017,6 @@
       ]
     },
     {
-      "id": "/authors",
-      "group": 3,
-      "name": "Authors",
-      "links": [
-        "/literature"
-      ]
-    },
-    {
-      "id": "/cien-anos-de-soledad",
-      "group": 3,
-      "name": "Cien Anos De Soledad",
-      "links": [
-        "/literature",
-        "/classics"
-      ]
-    },
-    {
-      "id": "/classics",
-      "group": 3,
-      "name": "Classics",
-      "links": [
-        "/literature",
-        "/cien-anos-de-soledad",
-        "/lists"
-      ]
-    },
-    {
-      "id": "/ince-memed",
-      "group": 3,
-      "name": "Ince Memed",
-      "links": [
-        "/literature"
-      ]
-    },
-    {
-      "id": "/the-art-of-war",
-      "group": 3,
-      "name": "The Art of War",
-      "links": [
-        "/literature",
-        "/books-phil"
-      ]
-    },
-    {
-      "id": "/turk-mirasi",
-      "group": 3,
-      "name": "Türk Mirası",
-      "links": [
-        "/literature"
-      ]
-    },
-    {
-      "id": "/critical-thinking",
-      "group": 3,
-      "name": "Critical thinking",
-      "links": [
-        "/reasoning",
-        "/philosophy",
-        "/questions",
-        "/truth",
-        "/problem-solving"
-      ]
-    },
-    {
-      "id": "/decision-making",
-      "group": 3,
-      "name": "Decision Making",
-      "links": [
-        "/reasoning",
-        "/do-without-doing",
-        "/get-things-done"
-      ]
-    },
-    {
-      "id": "/get-things-done",
-      "group": 3,
-      "name": "Get Things Done",
-      "links": [
-        "/reasoning",
-        "/do-one-thing-at-a-time-and-do-it-well",
-        "/take-a-walk",
-        "/what-to-work-on",
-        "/decision-making"
-      ]
-    },
-    {
-      "id": "/learning",
-      "group": 3,
-      "name": "Learning",
-      "links": [
-        "/reasoning",
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/mastery",
-      "group": 3,
-      "name": "Mastery",
-      "links": [
-        "/reasoning"
-      ]
-    },
-    {
-      "id": "/problem-solving",
-      "group": 3,
-      "name": "Problem Solving",
-      "links": [
-        "/reasoning",
-        "/take-a-walk",
-        "/critical-thinking",
-        "/essais"
-      ]
-    },
-    {
       "id": "/listening",
       "group": 3,
       "name": "Listening",
@@ -1340,7 +1051,7 @@
     {
       "id": "/writing",
       "group": 3,
-      "name": "On writing",
+      "name": "Writing",
       "links": [
         "/communication"
       ]
@@ -1387,6 +1098,49 @@
       ]
     },
     {
+      "id": "/authors",
+      "group": 3,
+      "name": "Authors",
+      "links": [
+        "/literature"
+      ]
+    },
+    {
+      "id": "/cien-anos-de-soledad",
+      "group": 3,
+      "name": "Cien Anos De Soledad",
+      "links": [
+        "/literature",
+        "/classics"
+      ]
+    },
+    {
+      "id": "/classics",
+      "group": 3,
+      "name": "Classics",
+      "links": [
+        "/literature",
+        "/cien-anos-de-soledad",
+        "/lists"
+      ]
+    },
+    {
+      "id": "/ince-memed",
+      "group": 3,
+      "name": "Ince Memed",
+      "links": [
+        "/literature"
+      ]
+    },
+    {
+      "id": "/turk-mirasi",
+      "group": 3,
+      "name": "Türk Mirası",
+      "links": [
+        "/literature"
+      ]
+    },
+    {
       "id": "/latin",
       "group": 3,
       "name": "Latin",
@@ -1409,6 +1163,422 @@
       "name": "Urban Planning",
       "links": [
         "/architecture"
+      ]
+    },
+    {
+      "id": "/all-is-one",
+      "group": 3,
+      "name": "All is One",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/be-good-to-each-other-and-yourself",
+      "group": 3,
+      "name": "Be Good To Each Other And Yourself",
+      "links": [
+        "/philosophy",
+        "/work",
+        "/essais"
+      ]
+    },
+    {
+      "id": "/books-phil",
+      "group": 3,
+      "name": "Books",
+      "links": [
+        "/philosophy",
+        "/tao-te-ching"
+      ]
+    },
+    {
+      "id": "/concepts-in-greek-thought",
+      "group": 3,
+      "name": "Concepts In Greek Thought",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/enemies",
+      "group": 3,
+      "name": "Enemies",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/epicurus",
+      "group": 3,
+      "name": "Epicurus",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/free-will",
+      "group": 3,
+      "name": "Free Will",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/good-and-evil",
+      "group": 3,
+      "name": "Good And Evil",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/ideal-insan",
+      "group": 3,
+      "name": "Ideal Insan",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/questions",
+      "group": 3,
+      "name": "Questions",
+      "links": [
+        "/philosophy",
+        "/critical-thinking"
+      ]
+    },
+    {
+      "id": "/solitude",
+      "group": 3,
+      "name": "Solitude",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/stupidity",
+      "group": 3,
+      "name": "Stupidity",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/critical-thinking",
+      "group": 3,
+      "name": "Critical thinking",
+      "links": [
+        "/reasoning",
+        "/philosophy",
+        "/questions",
+        "/problem-solving"
+      ]
+    },
+    {
+      "id": "/decision-making",
+      "group": 3,
+      "name": "Decision Making",
+      "links": [
+        "/reasoning",
+        "/do-without-doing",
+        "/get-things-done",
+        "/work"
+      ]
+    },
+    {
+      "id": "/do-one-thing-at-a-time-and-do-it-well",
+      "group": 3,
+      "name": "Do One Thing At A Time And Do It Well",
+      "links": [
+        "/reasoning",
+        "/lightly-child",
+        "/know-where-to-stop",
+        "/philosophy",
+        "/get-things-done",
+        "/teamwork",
+        "/work"
+      ]
+    },
+    {
+      "id": "/get-things-done",
+      "group": 3,
+      "name": "Get Things Done",
+      "links": [
+        "/reasoning",
+        "/decision-making",
+        "/do-one-thing-at-a-time-and-do-it-well",
+        "/work"
+      ]
+    },
+    {
+      "id": "/learning",
+      "group": 3,
+      "name": "Learning",
+      "links": [
+        "/reasoning",
+        "/social-sciences"
+      ]
+    },
+    {
+      "id": "/mastery",
+      "group": 3,
+      "name": "Mastery",
+      "links": [
+        "/reasoning",
+        "/teamwork",
+        "/work"
+      ]
+    },
+    {
+      "id": "/one-bit-better",
+      "group": 3,
+      "name": "One Bit Better",
+      "links": [
+        "/reasoning",
+        "/lightly-child"
+      ]
+    },
+    {
+      "id": "/problem-solving",
+      "group": 3,
+      "name": "Problem Solving",
+      "links": [
+        "/reasoning",
+        "/critical-thinking"
+      ]
+    },
+    {
+      "id": "/systems-thinking",
+      "group": 3,
+      "name": "Systems Thinking",
+      "links": [
+        "/reasoning",
+        "/social-sciences"
+      ]
+    },
+    {
+      "id": "/take-a-walk",
+      "group": 3,
+      "name": "Take a walk",
+      "links": [
+        "/reasoning"
+      ]
+    },
+    {
+      "id": "/truth",
+      "group": 3,
+      "name": "Truth",
+      "links": [
+        "/reasoning"
+      ]
+    },
+    {
+      "id": "/character",
+      "group": 3,
+      "name": "On Character",
+      "links": [
+        "/life",
+        "/eudaimonia",
+        "/freedom"
+      ]
+    },
+    {
+      "id": "/eudaimonia",
+      "group": 3,
+      "name": "Eudaimonia 🌱",
+      "links": [
+        "/life",
+        "/choice",
+        "/do-without-doing",
+        "/character"
+      ]
+    },
+    {
+      "id": "/freedom",
+      "group": 3,
+      "name": "Freedom",
+      "links": [
+        "/life",
+        "/character",
+        "/success-and-failure",
+        "/social-sciences"
+      ]
+    },
+    {
+      "id": "/friends",
+      "group": 3,
+      "name": "Friends",
+      "links": [
+        "/life"
+      ]
+    },
+    {
+      "id": "/getting-old",
+      "group": 3,
+      "name": "Getting Old",
+      "links": [
+        "/life"
+      ]
+    },
+    {
+      "id": "/happiness",
+      "group": 3,
+      "name": "Happiness",
+      "links": [
+        "/life",
+        "/psychology"
+      ]
+    },
+    {
+      "id": "/hard-times",
+      "group": 3,
+      "name": "Hard Times",
+      "links": [
+        "/life",
+        "/how-to-deal-with-pain"
+      ]
+    },
+    {
+      "id": "/how-to-grow-old-russell",
+      "group": 3,
+      "name": "How to Grow Old, by Bertrand Russell",
+      "links": [
+        "/life",
+        "/essais"
+      ]
+    },
+    {
+      "id": "/success-and-failure",
+      "group": 3,
+      "name": "Success And Failure",
+      "links": [
+        "/life",
+        "/if",
+        "/freedom"
+      ]
+    },
+    {
+      "id": "/the-less-the-better",
+      "group": 3,
+      "name": "The Less The Better",
+      "links": [
+        "/life"
+      ]
+    },
+    {
+      "id": "/travelling",
+      "group": 3,
+      "name": "Travelling",
+      "links": [
+        "/life"
+      ]
+    },
+    {
+      "id": "/balance",
+      "group": 3,
+      "name": "Balance",
+      "links": [
+        "/choice"
+      ]
+    },
+    {
+      "id": "/do-without-doing",
+      "group": 3,
+      "name": "Do without doing - Wu Wei 無爲",
+      "links": [
+        "/choice",
+        "/decision-making",
+        "/eudaimonia",
+        "/teamwork"
+      ]
+    },
+    {
+      "id": "/gratitude",
+      "group": 3,
+      "name": "Gratitude",
+      "links": [
+        "/choice"
+      ]
+    },
+    {
+      "id": "/know-where-to-stop",
+      "group": 3,
+      "name": "Know Where To Stop",
+      "links": [
+        "/choice",
+        "/wind-and-rain",
+        "/do-one-thing-at-a-time-and-do-it-well"
+      ]
+    },
+    {
+      "id": "/death",
+      "group": 3,
+      "name": "Death",
+      "links": [
+        "/time"
+      ]
+    },
+    {
+      "id": "/on-the-shortness-of-life",
+      "group": 3,
+      "name": "Life is not short but we waste it",
+      "links": [
+        "/time"
+      ]
+    },
+    {
+      "id": "/slow-down-time",
+      "group": 3,
+      "name": "Deepen your days",
+      "links": [
+        "/time"
+      ]
+    },
+    {
+      "id": "/the-past",
+      "group": 3,
+      "name": "Learn and move on",
+      "links": [
+        "/time"
+      ]
+    },
+    {
+      "id": "/career-advice",
+      "group": 3,
+      "name": "Career advice",
+      "links": [
+        "/work"
+      ]
+    },
+    {
+      "id": "/teamwork",
+      "group": 3,
+      "name": "Teamwork",
+      "links": [
+        "/work",
+        "/do-without-doing",
+        "/do-one-thing-at-a-time-and-do-it-well",
+        "/mastery",
+        "/what-to-work-on"
+      ]
+    },
+    {
+      "id": "/what-to-work-on",
+      "group": 3,
+      "name": "What to work on?",
+      "links": [
+        "/work",
+        "/teamwork"
+      ]
+    },
+    {
+      "id": "/you-are-not-nameless",
+      "group": 3,
+      "name": "You Are Not Nameless",
+      "links": [
+        "/work"
       ]
     },
     {
@@ -1644,12 +1814,9 @@
     {
       "id": "/systems",
       "group": 3,
-      "name": "Systems Thinking",
+      "name": "Systems",
       "links": [
-        "/natural-sciences",
-        "/chaos",
-        "/system-design",
-        "/social-sciences"
+        "/natural-sciences"
       ]
     },
     {
@@ -1666,7 +1833,6 @@
       "name": "Economics",
       "links": [
         "/social-sciences",
-        "/econ-ideas",
         "/how-to-gain-wealth"
       ]
     },
@@ -1691,9 +1857,11 @@
         "/social-sciences",
         "/chomsky",
         "/negotiations",
-        "/pols-ideas",
+        "/obedience",
         "/social-change",
+        "/the-art-of-war",
         "/the-triumph-of-stupidity",
+        "/ursula-guin-address",
         "/who-goes-nazi",
         "/tao-te-ching"
       ]
@@ -1707,8 +1875,11 @@
         "/cognitive-biases",
         "/emotions",
         "/habits",
+        "/manipulation",
         "/parenting",
-        "/psy-ideas",
+        "/procrastination",
+        "/spot-a-liar",
+        "/stress",
         "/happiness",
         "/inertia"
       ]
@@ -2364,8 +2535,7 @@
         "/pca",
         "/pneumonia-detection",
         "/predict-movie-genres",
-        "/vga-driver",
-        "/experiments"
+        "/vga-driver"
       ]
     },
     {
@@ -2594,75 +2764,6 @@
       ]
     },
     {
-      "id": "/death",
-      "group": 4,
-      "name": "Death",
-      "links": [
-        "/time"
-      ]
-    },
-    {
-      "id": "/on-the-shortness-of-life",
-      "group": 4,
-      "name": "Life is not short but we waste it",
-      "links": [
-        "/time"
-      ]
-    },
-    {
-      "id": "/slow-down-time",
-      "group": 4,
-      "name": "Deepen your days",
-      "links": [
-        "/time"
-      ]
-    },
-    {
-      "id": "/the-past",
-      "group": 4,
-      "name": "Learn and move on",
-      "links": [
-        "/time"
-      ]
-    },
-    {
-      "id": "/career-advice",
-      "group": 4,
-      "name": "Career advice",
-      "links": [
-        "/work"
-      ]
-    },
-    {
-      "id": "/teamwork",
-      "group": 4,
-      "name": "Teamwork",
-      "links": [
-        "/work",
-        "/do-one-thing-at-a-time-and-do-it-well",
-        "/do-without-doing",
-        "/what-to-work-on"
-      ]
-    },
-    {
-      "id": "/what-to-work-on",
-      "group": 4,
-      "name": "What to work on?",
-      "links": [
-        "/work",
-        "/teamwork",
-        "/get-things-done"
-      ]
-    },
-    {
-      "id": "/you-are-not-nameless",
-      "group": 4,
-      "name": "You Are Not Nameless",
-      "links": [
-        "/work"
-      ]
-    },
-    {
       "id": "/drowning-does-not-look-dramatic",
       "group": 4,
       "name": "Drowning Does Not Look Dramatic",
@@ -2743,22 +2844,6 @@
       ]
     },
     {
-      "id": "/chaos",
-      "group": 4,
-      "name": "Chaos",
-      "links": [
-        "/systems"
-      ]
-    },
-    {
-      "id": "/econ-ideas",
-      "group": 4,
-      "name": "Econ Ideas",
-      "links": [
-        "/economics"
-      ]
-    },
-    {
       "id": "/how-to-gain-wealth",
       "group": 4,
       "name": "How To Gain Wealth",
@@ -2818,14 +2903,13 @@
       "group": 4,
       "name": "Negotiations",
       "links": [
-        "/politics",
-        "/psy-ideas"
+        "/politics"
       ]
     },
     {
-      "id": "/pols-ideas",
+      "id": "/obedience",
       "group": 4,
-      "name": "Pols Ideas",
+      "name": "Obedience",
       "links": [
         "/politics"
       ]
@@ -2839,12 +2923,28 @@
       ]
     },
     {
+      "id": "/the-art-of-war",
+      "group": 4,
+      "name": "The Art of War",
+      "links": [
+        "/politics"
+      ]
+    },
+    {
       "id": "/the-triumph-of-stupidity",
       "group": 4,
       "name": "The Triumph of Stupidity, Bertrand Russell",
       "links": [
         "/politics",
         "/essais"
+      ]
+    },
+    {
+      "id": "/ursula-guin-address",
+      "group": 4,
+      "name": "A Left-Handed Commencement Address",
+      "links": [
+        "/politics"
       ]
     },
     {
@@ -2881,6 +2981,14 @@
       ]
     },
     {
+      "id": "/manipulation",
+      "group": 4,
+      "name": "Manipulation",
+      "links": [
+        "/psychology"
+      ]
+    },
+    {
       "id": "/parenting",
       "group": 4,
       "name": "Parenting",
@@ -2889,12 +2997,27 @@
       ]
     },
     {
-      "id": "/psy-ideas",
+      "id": "/procrastination",
       "group": 4,
-      "name": "Ideas",
+      "name": "Procrastination",
       "links": [
-        "/psychology",
-        "/negotiations"
+        "/psychology"
+      ]
+    },
+    {
+      "id": "/spot-a-liar",
+      "group": 4,
+      "name": "Spot A Liar",
+      "links": [
+        "/psychology"
+      ]
+    },
+    {
+      "id": "/stress",
+      "group": 4,
+      "name": "Stress",
+      "links": [
+        "/psychology"
       ]
     },
     {
@@ -3810,6 +3933,10 @@
     },
     {
       "source": "/root",
+      "target": "/ideas"
+    },
+    {
+      "source": "/root",
       "target": "/lists"
     },
     {
@@ -3826,10 +3953,6 @@
     },
     {
       "source": "/arts",
-      "target": "/philosophy"
-    },
-    {
-      "source": "/arts",
       "target": "/poetry"
     },
     {
@@ -3838,19 +3961,15 @@
     },
     {
       "source": "/arts",
-      "target": "/literature"
-    },
-    {
-      "source": "/arts",
-      "target": "/reasoning"
-    },
-    {
-      "source": "/arts",
       "target": "/communication"
     },
     {
       "source": "/arts",
       "target": "/design"
+    },
+    {
+      "source": "/arts",
+      "target": "/literature"
     },
     {
       "source": "/arts",
@@ -3863,6 +3982,30 @@
     {
       "source": "/arts",
       "target": "/photography"
+    },
+    {
+      "source": "/ideas",
+      "target": "/philosophy"
+    },
+    {
+      "source": "/ideas",
+      "target": "/reasoning"
+    },
+    {
+      "source": "/ideas",
+      "target": "/life"
+    },
+    {
+      "source": "/ideas",
+      "target": "/choice"
+    },
+    {
+      "source": "/ideas",
+      "target": "/time"
+    },
+    {
+      "source": "/ideas",
+      "target": "/work"
     },
     {
       "source": "/lists",
@@ -3971,110 +4114,6 @@
     {
       "source": "/tech",
       "target": "/computers"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/all-is-one"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/balance"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/be-good-to-each-other-and-yourself"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/books-phil"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/character"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/choice"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/concepts-in-greek-thought"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/do-one-thing-at-a-time-and-do-it-well"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/do-without-doing"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/eudaimonia"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/freedom"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/getting-old"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/happiness"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/hard-times"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/how-to-grow-old-russell"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/ideal-insan"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/one-bit-better"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/phil-ideas"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/questions"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/success-and-failure"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/take-a-walk"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/the-less-the-better"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/travelling"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/truth"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/time"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/work"
     },
     {
       "source": "/poetry",
@@ -4229,54 +4268,6 @@
       "target": "/yunus-emre"
     },
     {
-      "source": "/literature",
-      "target": "/authors"
-    },
-    {
-      "source": "/literature",
-      "target": "/cien-anos-de-soledad"
-    },
-    {
-      "source": "/literature",
-      "target": "/classics"
-    },
-    {
-      "source": "/literature",
-      "target": "/ince-memed"
-    },
-    {
-      "source": "/literature",
-      "target": "/the-art-of-war"
-    },
-    {
-      "source": "/literature",
-      "target": "/turk-mirasi"
-    },
-    {
-      "source": "/reasoning",
-      "target": "/critical-thinking"
-    },
-    {
-      "source": "/reasoning",
-      "target": "/decision-making"
-    },
-    {
-      "source": "/reasoning",
-      "target": "/get-things-done"
-    },
-    {
-      "source": "/reasoning",
-      "target": "/learning"
-    },
-    {
-      "source": "/reasoning",
-      "target": "/mastery"
-    },
-    {
-      "source": "/reasoning",
-      "target": "/problem-solving"
-    },
-    {
       "source": "/communication",
       "target": "/listening"
     },
@@ -4317,6 +4308,26 @@
       "target": "/ship-it"
     },
     {
+      "source": "/literature",
+      "target": "/authors"
+    },
+    {
+      "source": "/literature",
+      "target": "/cien-anos-de-soledad"
+    },
+    {
+      "source": "/literature",
+      "target": "/classics"
+    },
+    {
+      "source": "/literature",
+      "target": "/ince-memed"
+    },
+    {
+      "source": "/literature",
+      "target": "/turk-mirasi"
+    },
+    {
       "source": "/languages",
       "target": "/latin"
     },
@@ -4327,6 +4338,190 @@
     {
       "source": "/architecture",
       "target": "/urban-planning"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/all-is-one"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/be-good-to-each-other-and-yourself"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/books-phil"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/concepts-in-greek-thought"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/enemies"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/epicurus"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/free-will"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/good-and-evil"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/ideal-insan"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/questions"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/solitude"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/stupidity"
+    },
+    {
+      "source": "/reasoning",
+      "target": "/critical-thinking"
+    },
+    {
+      "source": "/reasoning",
+      "target": "/decision-making"
+    },
+    {
+      "source": "/reasoning",
+      "target": "/do-one-thing-at-a-time-and-do-it-well"
+    },
+    {
+      "source": "/reasoning",
+      "target": "/get-things-done"
+    },
+    {
+      "source": "/reasoning",
+      "target": "/learning"
+    },
+    {
+      "source": "/reasoning",
+      "target": "/mastery"
+    },
+    {
+      "source": "/reasoning",
+      "target": "/one-bit-better"
+    },
+    {
+      "source": "/reasoning",
+      "target": "/problem-solving"
+    },
+    {
+      "source": "/reasoning",
+      "target": "/systems-thinking"
+    },
+    {
+      "source": "/reasoning",
+      "target": "/take-a-walk"
+    },
+    {
+      "source": "/reasoning",
+      "target": "/truth"
+    },
+    {
+      "source": "/life",
+      "target": "/character"
+    },
+    {
+      "source": "/life",
+      "target": "/eudaimonia"
+    },
+    {
+      "source": "/life",
+      "target": "/freedom"
+    },
+    {
+      "source": "/life",
+      "target": "/friends"
+    },
+    {
+      "source": "/life",
+      "target": "/getting-old"
+    },
+    {
+      "source": "/life",
+      "target": "/happiness"
+    },
+    {
+      "source": "/life",
+      "target": "/hard-times"
+    },
+    {
+      "source": "/life",
+      "target": "/how-to-grow-old-russell"
+    },
+    {
+      "source": "/life",
+      "target": "/success-and-failure"
+    },
+    {
+      "source": "/life",
+      "target": "/the-less-the-better"
+    },
+    {
+      "source": "/life",
+      "target": "/travelling"
+    },
+    {
+      "source": "/choice",
+      "target": "/balance"
+    },
+    {
+      "source": "/choice",
+      "target": "/do-without-doing"
+    },
+    {
+      "source": "/choice",
+      "target": "/gratitude"
+    },
+    {
+      "source": "/choice",
+      "target": "/know-where-to-stop"
+    },
+    {
+      "source": "/time",
+      "target": "/death"
+    },
+    {
+      "source": "/time",
+      "target": "/on-the-shortness-of-life"
+    },
+    {
+      "source": "/time",
+      "target": "/slow-down-time"
+    },
+    {
+      "source": "/time",
+      "target": "/the-past"
+    },
+    {
+      "source": "/work",
+      "target": "/career-advice"
+    },
+    {
+      "source": "/work",
+      "target": "/teamwork"
+    },
+    {
+      "source": "/work",
+      "target": "/what-to-work-on"
+    },
+    {
+      "source": "/work",
+      "target": "/you-are-not-nameless"
     },
     {
       "source": "/checklists",
@@ -4829,38 +5024,6 @@
       "target": "/operating-systems"
     },
     {
-      "source": "/time",
-      "target": "/death"
-    },
-    {
-      "source": "/time",
-      "target": "/on-the-shortness-of-life"
-    },
-    {
-      "source": "/time",
-      "target": "/slow-down-time"
-    },
-    {
-      "source": "/time",
-      "target": "/the-past"
-    },
-    {
-      "source": "/work",
-      "target": "/career-advice"
-    },
-    {
-      "source": "/work",
-      "target": "/teamwork"
-    },
-    {
-      "source": "/work",
-      "target": "/what-to-work-on"
-    },
-    {
-      "source": "/work",
-      "target": "/you-are-not-nameless"
-    },
-    {
       "source": "/health",
       "target": "/drowning-does-not-look-dramatic"
     },
@@ -4897,14 +5060,6 @@
       "target": "/philosophical-implications-of-quantum-mechanics"
     },
     {
-      "source": "/systems",
-      "target": "/chaos"
-    },
-    {
-      "source": "/economics",
-      "target": "/econ-ideas"
-    },
-    {
       "source": "/economics",
       "target": "/how-to-gain-wealth"
     },
@@ -4934,7 +5089,7 @@
     },
     {
       "source": "/politics",
-      "target": "/pols-ideas"
+      "target": "/obedience"
     },
     {
       "source": "/politics",
@@ -4942,7 +5097,15 @@
     },
     {
       "source": "/politics",
+      "target": "/the-art-of-war"
+    },
+    {
+      "source": "/politics",
       "target": "/the-triumph-of-stupidity"
+    },
+    {
+      "source": "/politics",
+      "target": "/ursula-guin-address"
     },
     {
       "source": "/politics",
@@ -4962,11 +5125,23 @@
     },
     {
       "source": "/psychology",
+      "target": "/manipulation"
+    },
+    {
+      "source": "/psychology",
       "target": "/parenting"
     },
     {
       "source": "/psychology",
-      "target": "/psy-ideas"
+      "target": "/procrastination"
+    },
+    {
+      "source": "/psychology",
+      "target": "/spot-a-liar"
+    },
+    {
+      "source": "/psychology",
+      "target": "/stress"
     },
     {
       "source": "/sociology",
@@ -5397,36 +5572,32 @@
       "target": "/classics"
     },
     {
-      "source": "/the-art-of-war",
+      "source": "/if",
+      "target": "/bulent-ecevit"
+    },
+    {
+      "source": "/if",
+      "target": "/success-and-failure"
+    },
+    {
+      "source": "/lightly-child",
+      "target": "/do-one-thing-at-a-time-and-do-it-well"
+    },
+    {
+      "source": "/lightly-child",
+      "target": "/one-bit-better"
+    },
+    {
+      "source": "/tao-te-ching",
       "target": "/books-phil"
     },
     {
-      "source": "/be-good-to-each-other-and-yourself",
-      "target": "/work"
-    },
-    {
-      "source": "/character",
-      "target": "/eudaimonia"
-    },
-    {
-      "source": "/character",
-      "target": "/freedom"
+      "source": "/wind-and-rain",
+      "target": "/know-where-to-stop"
     },
     {
       "source": "/choice",
       "target": "/eudaimonia"
-    },
-    {
-      "source": "/do-one-thing-at-a-time-and-do-it-well",
-      "target": "/get-things-done"
-    },
-    {
-      "source": "/do-one-thing-at-a-time-and-do-it-well",
-      "target": "/teamwork"
-    },
-    {
-      "source": "/do-one-thing-at-a-time-and-do-it-well",
-      "target": "/work"
     },
     {
       "source": "/do-without-doing",
@@ -5441,6 +5612,18 @@
       "target": "/teamwork"
     },
     {
+      "source": "/know-where-to-stop",
+      "target": "/do-one-thing-at-a-time-and-do-it-well"
+    },
+    {
+      "source": "/character",
+      "target": "/eudaimonia"
+    },
+    {
+      "source": "/character",
+      "target": "/freedom"
+    },
+    {
       "source": "/freedom",
       "target": "/success-and-failure"
     },
@@ -5449,12 +5632,20 @@
       "target": "/how-to-deal-with-pain"
     },
     {
+      "source": "/be-good-to-each-other-and-yourself",
+      "target": "/work"
+    },
+    {
       "source": "/philosophy",
       "target": "/tao-te-ching"
     },
     {
       "source": "/philosophy",
       "target": "/critical-thinking"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/do-one-thing-at-a-time-and-do-it-well"
     },
     {
       "source": "/philosophy",
@@ -5473,12 +5664,40 @@
       "target": "/critical-thinking"
     },
     {
-      "source": "/take-a-walk",
+      "source": "/critical-thinking",
+      "target": "/problem-solving"
+    },
+    {
+      "source": "/decision-making",
       "target": "/get-things-done"
     },
     {
-      "source": "/take-a-walk",
-      "target": "/problem-solving"
+      "source": "/decision-making",
+      "target": "/work"
+    },
+    {
+      "source": "/do-one-thing-at-a-time-and-do-it-well",
+      "target": "/get-things-done"
+    },
+    {
+      "source": "/do-one-thing-at-a-time-and-do-it-well",
+      "target": "/teamwork"
+    },
+    {
+      "source": "/do-one-thing-at-a-time-and-do-it-well",
+      "target": "/work"
+    },
+    {
+      "source": "/get-things-done",
+      "target": "/work"
+    },
+    {
+      "source": "/mastery",
+      "target": "/teamwork"
+    },
+    {
+      "source": "/mastery",
+      "target": "/work"
     },
     {
       "source": "/time",
@@ -5497,28 +5716,8 @@
       "target": "/since-big-bang"
     },
     {
-      "source": "/truth",
-      "target": "/critical-thinking"
-    },
-    {
       "source": "/teamwork",
       "target": "/what-to-work-on"
-    },
-    {
-      "source": "/what-to-work-on",
-      "target": "/get-things-done"
-    },
-    {
-      "source": "/if",
-      "target": "/bulent-ecevit"
-    },
-    {
-      "source": "/critical-thinking",
-      "target": "/problem-solving"
-    },
-    {
-      "source": "/decision-making",
-      "target": "/get-things-done"
     },
     {
       "source": "/driving",
@@ -5530,11 +5729,11 @@
     },
     {
       "source": "/essais",
-      "target": "/how-to-grow-old-russell"
+      "target": "/be-good-to-each-other-and-yourself"
     },
     {
       "source": "/essais",
-      "target": "/problem-solving"
+      "target": "/how-to-grow-old-russell"
     },
     {
       "source": "/essais",
@@ -5563,10 +5762,6 @@
     {
       "source": "/lists",
       "target": "/since-big-bang"
-    },
-    {
-      "source": "/experiments",
-      "target": "/projects"
     },
     {
       "source": "/time-scale",
@@ -5605,14 +5800,6 @@
       "target": "/maxwell-equations"
     },
     {
-      "source": "/systems",
-      "target": "/system-design"
-    },
-    {
-      "source": "/negotiations",
-      "target": "/psy-ideas"
-    },
-    {
       "source": "/politics",
       "target": "/tao-te-ching"
     },
@@ -5638,7 +5825,7 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/systems"
+      "target": "/systems-thinking"
     },
     {
       "source": "/social-sciences",

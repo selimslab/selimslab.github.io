@@ -6,16 +6,15 @@ layout: page
 ## Delta 
 Give your mind some space
 
-## Index
+## Contents
 
 <div style="margin-top:0.5rem">
-
 
 <ul>
   <li><a href='/arts/'>Arts</a></li>
   <li><a href='/sciences/'>Sciences</a></li>
-  <li><a href='/tech/'>Tech</a></li>
   <li><a href='/lists/'>Lists</a></li>
+  <li><a href='/tech/'>Tech</a></li>
 </ul>
 
 

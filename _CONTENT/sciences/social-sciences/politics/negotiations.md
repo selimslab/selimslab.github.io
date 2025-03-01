@@ -12,7 +12,12 @@
 - Paraphrase
 - Ask open-ended questions, how and what
 - Reference another authority
+
+## Persuasion
+- Attention is fragile so keep it short and sweet, clear and fun
+- Emotions make decisions, reason justifies later.
 - Arguments dilute each other
+- Create a story, appeal to emotion.
 
 ## Emotions 
 - Read body language/voice
