@@ -79,8 +79,4 @@ Also see this 1944 CIA memo, on how to infiltrate an organization and make it dy
 
 [[do-without-doing]]
 
-![](/assets/static/img/excuses.jpeg)
-
 ![](/assets/static/img/accountability-ladder.jpeg)
-
-![](/assets/static/img/boss-vs-leader.png)
