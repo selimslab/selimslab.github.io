@@ -64,11 +64,8 @@ exclude:
   - CNAME
 
 collections:
-  NOTES:    
+  CONTENT:    
     output: true 
-    permalink:  /:title/
-  pages:
-    output: true
     permalink:  /:title/
 
 defaults:

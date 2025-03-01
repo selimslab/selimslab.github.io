@@ -358,6 +358,12 @@
   "/llm-prompt": [
 
   ],
+  "/pub": [
+
+  ],
+  "/resume": [
+
+  ],
   "/akins-laws-of-spacecraft": [
     "natural-sciences",
     "sys"
@@ -1270,11 +1276,5 @@
   "/ux": [
     "design",
     "tech"
-  ],
-  "/pub": [
-
-  ],
-  "/resume": [
-
   ]
 }

@@ -1,7 +1,7 @@
 require 'json'
 require 'pp'
 
-NOTES_PATH = "./_NOTES".freeze
+ROOT_PATH = "./_CONTENT".freeze
 ASSETS_PATH = "./assets".freeze
 STATIC_PATH = "#{ASSETS_PATH}/static".freeze
 DATA_PATH = "#{ASSETS_PATH}/data".freeze
@@ -80,7 +80,7 @@ class SiteGenerator < Jekyll::Generator
   end
 
   def fix_frontmatter
-    Dir.glob("#{NOTES_PATH}/**/*.md").each do |file|
+    Dir.glob("#{ROOT_PATH}/**/*.md").each do |file|
       content = File.read(file).lstrip
       add_frontmatter(file, content) unless content.start_with?("---")
       fix_links(file, content)
@@ -332,7 +332,7 @@ class SiteGenerator < Jekyll::Generator
   end
 
   def generate_tree(site)
-    tree = bfs(site, NOTES_PATH)
+    tree = bfs(site, ROOT_PATH)
     tree.transform_values! { |v| v.sort_by { |k, v| [-v.length, site.data["file_to_title"][k]] }.to_h }
     tree
   end

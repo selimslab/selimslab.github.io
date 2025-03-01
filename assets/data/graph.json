@@ -77,6 +77,8 @@
         "/graph-2d",
         "/interviews",
         "/llm-prompt",
+        "/pub",
+        "/resume",
         "/about"
       ]
     },
@@ -488,6 +490,22 @@
       "id": "/llm-prompt",
       "group": 2,
       "name": "Llm Prompt",
+      "links": [
+        "/misc"
+      ]
+    },
+    {
+      "id": "/pub",
+      "group": 2,
+      "name": "Pub",
+      "links": [
+        "/misc"
+      ]
+    },
+    {
+      "id": "/resume",
+      "group": 2,
+      "name": "Resume",
       "links": [
         "/misc"
       ]
@@ -1298,6 +1316,7 @@
         "/philosophy",
         "/death",
         "/on-the-shortness-of-life",
+        "/prudence",
         "/slow-down-time",
         "/the-past",
         "/time-scale",
@@ -2752,6 +2771,14 @@
       ]
     },
     {
+      "id": "/prudence",
+      "group": 4,
+      "name": "Prudence",
+      "links": [
+        "/time"
+      ]
+    },
+    {
       "id": "/slow-down-time",
       "group": 4,
       "name": "Deepen your days",
@@ -3832,6 +3859,14 @@
     },
     {
       "source": "/misc",
+      "target": "/pub"
+    },
+    {
+      "source": "/misc",
+      "target": "/resume"
+    },
+    {
+      "source": "/misc",
       "target": "/about"
     },
     {
@@ -4781,6 +4816,10 @@
     {
       "source": "/time",
       "target": "/on-the-shortness-of-life"
+    },
+    {
+      "source": "/time",
+      "target": "/prudence"
     },
     {
       "source": "/time",
