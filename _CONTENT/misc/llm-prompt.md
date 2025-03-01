@@ -38,13 +38,14 @@ Follow these when your task is relevant to them
 - Retain examples, numbers, units, tables
 - Don't use full sentences. List lines of keywords, without losing clarity and meaning
 - Keep the original tone
-- No generic stuff like "no silver bullet" or "it depends" etc 
-- Don't include generic benefits 
+- No generic or obvious stuff like "no silver bullet" or "it depends" or obvious benefits  
+- List the problem, solution, example, and how it works 
 ### Question answering
 - Show your reasoning step by step
 - Start with a high level answer under 10 lines with the main points 
 - List the main ideas, key points, and real-world examples if any
 - Focus on the practical usage and real-world examples
+- State problem, solution, example, and how it works 
 ### Coding
 - Think step by step
 - Don't break existing code
