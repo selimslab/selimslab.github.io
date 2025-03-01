@@ -22,7 +22,9 @@
         "/philosophy",
         "/poetry",
         "/siir",
-        "/literature"
+        "/literature",
+        "/languages",
+        "/architecture"
       ]
     },
     {
@@ -34,7 +36,6 @@
         "/blogs",
         "/datasets",
         "/documentaries",
-        "/essais",
         "/movies",
         "/paintings",
         "/photography",
@@ -42,6 +43,7 @@
         "/used-car-checklist",
         "/web-experiments",
         "/classics",
+        "/essais",
         "/history-of-technology",
         "/since-big-bang"
       ]
@@ -67,9 +69,10 @@
       "name": "Sciences",
       "links": [
         "/root",
-        "/social-sciences",
         "/math",
-        "/natural-sciences"
+        "/natural-sciences",
+        "/social-sciences",
+        "/systems"
       ]
     },
     {
@@ -230,6 +233,25 @@
       ]
     },
     {
+      "id": "/languages",
+      "group": 2,
+      "name": "Languages",
+      "links": [
+        "/arts",
+        "/latin",
+        "/metaphors"
+      ]
+    },
+    {
+      "id": "/architecture",
+      "group": 2,
+      "name": "Architecture",
+      "links": [
+        "/arts",
+        "/urban-planning"
+      ]
+    },
+    {
       "id": "/blogs",
       "group": 2,
       "name": "Blogs",
@@ -252,20 +274,6 @@
       "name": "Documentaries",
       "links": [
         "/lists"
-      ]
-    },
-    {
-      "id": "/essais",
-      "group": 2,
-      "name": "Essais",
-      "links": [
-        "/lists",
-        "/farming-trap",
-        "/the-triumph-of-stupidity",
-        "/who-goes-nazi",
-        "/how-to-grow-old-russell",
-        "/mastery",
-        "/problem-solving"
       ]
     },
     {
@@ -381,32 +389,6 @@
       ]
     },
     {
-      "id": "/social-sciences",
-      "group": 2,
-      "name": "Social Sciences",
-      "links": [
-        "/sciences",
-        "/being-poor",
-        "/books-social",
-        "/chomsky",
-        "/economics",
-        "/politics",
-        "/social-change",
-        "/sociology",
-        "/systems",
-        "/the-triumph-of-stupidity",
-        "/urban-planning",
-        "/who-goes-nazi",
-        "/history",
-        "/languages",
-        "/psychology",
-        "/freedom",
-        "/metaphors",
-        "/learning",
-        "/hijacked-minds"
-      ]
-    },
-    {
       "id": "/math",
       "group": 2,
       "name": "Math",
@@ -440,8 +422,34 @@
         "/health",
         "/physics",
         "/history-of-technology",
-        "/since-big-bang",
-        "/systems"
+        "/since-big-bang"
+      ]
+    },
+    {
+      "id": "/social-sciences",
+      "group": 2,
+      "name": "Social Sciences",
+      "links": [
+        "/sciences",
+        "/books-social",
+        "/economics",
+        "/essais",
+        "/history",
+        "/politics",
+        "/psychology",
+        "/freedom",
+        "/metaphors",
+        "/learning",
+        "/hijacked-minds"
+      ]
+    },
+    {
+      "id": "/systems",
+      "group": 2,
+      "name": "Systems Thinking",
+      "links": [
+        "/sciences",
+        "/system-design"
       ]
     },
     {
@@ -469,7 +477,6 @@
         "/philosophy",
         "/questions",
         "/truth",
-        "/systems",
         "/problem-solving"
       ]
     },
@@ -536,7 +543,6 @@
         "/do-one-thing-at-a-time-and-do-it-well",
         "/take-a-walk",
         "/what-to-work-on",
-        "/systems",
         "/decision-making"
       ]
     },
@@ -1422,6 +1428,31 @@
       ]
     },
     {
+      "id": "/latin",
+      "group": 3,
+      "name": "Latin",
+      "links": [
+        "/languages"
+      ]
+    },
+    {
+      "id": "/metaphors",
+      "group": 3,
+      "name": "Metaphors",
+      "links": [
+        "/languages",
+        "/social-sciences"
+      ]
+    },
+    {
+      "id": "/urban-planning",
+      "group": 3,
+      "name": "Urban Planning",
+      "links": [
+        "/architecture"
+      ]
+    },
+    {
       "id": "/dots",
       "group": 3,
       "name": "Dots",
@@ -1462,138 +1493,6 @@
       "name": "Year Progress",
       "links": [
         "/experiments"
-      ]
-    },
-    {
-      "id": "/being-poor",
-      "group": 3,
-      "name": "Being Poor",
-      "links": [
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/books-social",
-      "group": 3,
-      "name": "Books",
-      "links": [
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/chomsky",
-      "group": 3,
-      "name": "Chomsky",
-      "links": [
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/economics",
-      "group": 3,
-      "name": "Economics",
-      "links": [
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/politics",
-      "group": 3,
-      "name": "Politics",
-      "links": [
-        "/social-sciences",
-        "/tao-te-ching"
-      ]
-    },
-    {
-      "id": "/social-change",
-      "group": 3,
-      "name": "Social Change",
-      "links": [
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/sociology",
-      "group": 3,
-      "name": "Sociology",
-      "links": [
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/systems",
-      "group": 3,
-      "name": "Systems Thinking",
-      "links": [
-        "/social-sciences",
-        "/natural-sciences",
-        "/critical-thinking",
-        "/get-things-done",
-        "/system-design"
-      ]
-    },
-    {
-      "id": "/the-triumph-of-stupidity",
-      "group": 3,
-      "name": "The Triumph of Stupidity, Bertrand Russell",
-      "links": [
-        "/social-sciences",
-        "/essais"
-      ]
-    },
-    {
-      "id": "/urban-planning",
-      "group": 3,
-      "name": "Urban Planning",
-      "links": [
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/who-goes-nazi",
-      "group": 3,
-      "name": "Who Goes Nazi",
-      "links": [
-        "/social-sciences",
-        "/essais"
-      ]
-    },
-    {
-      "id": "/history",
-      "group": 3,
-      "name": "History",
-      "links": [
-        "/social-sciences",
-        "/121st-century",
-        "/farming-trap",
-        "/history-of-technology",
-        "/since-big-bang",
-        "/time"
-      ]
-    },
-    {
-      "id": "/languages",
-      "group": 3,
-      "name": "Languages",
-      "links": [
-        "/social-sciences",
-        "/latin",
-        "/metaphors"
-      ]
-    },
-    {
-      "id": "/psychology",
-      "group": 3,
-      "name": "Psychology",
-      "links": [
-        "/social-sciences",
-        "/cognitive-biases",
-        "/emotions",
-        "/psy-ideas",
-        "/happiness",
-        "/inertia",
-        "/parenting"
       ]
     },
     {
@@ -1753,6 +1652,79 @@
         "/inertia",
         "/maxwell-equations",
         "/philosophical-implications-of-quantum-mechanics"
+      ]
+    },
+    {
+      "id": "/books-social",
+      "group": 3,
+      "name": "Books",
+      "links": [
+        "/social-sciences"
+      ]
+    },
+    {
+      "id": "/economics",
+      "group": 3,
+      "name": "Economics",
+      "links": [
+        "/social-sciences"
+      ]
+    },
+    {
+      "id": "/essais",
+      "group": 3,
+      "name": "Essais",
+      "links": [
+        "/social-sciences",
+        "/being-poor",
+        "/the-triumph-of-stupidity",
+        "/who-goes-nazi",
+        "/lists",
+        "/farming-trap",
+        "/how-to-grow-old-russell",
+        "/mastery",
+        "/problem-solving"
+      ]
+    },
+    {
+      "id": "/history",
+      "group": 3,
+      "name": "History",
+      "links": [
+        "/social-sciences",
+        "/121st-century",
+        "/farming-trap",
+        "/history-of-technology",
+        "/since-big-bang",
+        "/time"
+      ]
+    },
+    {
+      "id": "/politics",
+      "group": 3,
+      "name": "Politics",
+      "links": [
+        "/social-sciences",
+        "/chomsky",
+        "/pols-ideas",
+        "/social-change",
+        "/tao-te-ching"
+      ]
+    },
+    {
+      "id": "/psychology",
+      "group": 3,
+      "name": "Psychology",
+      "links": [
+        "/social-sciences",
+        "/cognitive-biases",
+        "/emotions",
+        "/psy-ideas",
+        "/social-groups",
+        "/social-media",
+        "/happiness",
+        "/inertia",
+        "/parenting"
       ]
     },
     {
@@ -2693,87 +2665,6 @@
       ]
     },
     {
-      "id": "/121st-century",
-      "group": 4,
-      "name": "121st century",
-      "links": [
-        "/history",
-        "/time"
-      ]
-    },
-    {
-      "id": "/farming-trap",
-      "group": 4,
-      "name": "Farming Trap",
-      "links": [
-        "/history",
-        "/essais"
-      ]
-    },
-    {
-      "id": "/history-of-technology",
-      "group": 4,
-      "name": "History Of Technology",
-      "links": [
-        "/history",
-        "/lists",
-        "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/since-big-bang",
-      "group": 4,
-      "name": "Some events in the last 14 billion years",
-      "links": [
-        "/history",
-        "/time",
-        "/lists",
-        "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/latin",
-      "group": 4,
-      "name": "Latin",
-      "links": [
-        "/languages"
-      ]
-    },
-    {
-      "id": "/metaphors",
-      "group": 4,
-      "name": "Metaphors",
-      "links": [
-        "/languages",
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/cognitive-biases",
-      "group": 4,
-      "name": "Cognitive Biases",
-      "links": [
-        "/psychology",
-        "/negotiations"
-      ]
-    },
-    {
-      "id": "/emotions",
-      "group": 4,
-      "name": "Emotions",
-      "links": [
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/psy-ideas",
-      "group": 4,
-      "name": "Ideas",
-      "links": [
-        "/psychology"
-      ]
-    },
-    {
       "id": "/how-to-deal-with-pain",
       "group": 4,
       "name": "How to deal with Extreme Physical Pain",
@@ -2835,6 +2726,134 @@
       "links": [
         "/physics",
         "/philosophy"
+      ]
+    },
+    {
+      "id": "/being-poor",
+      "group": 4,
+      "name": "Being Poor",
+      "links": [
+        "/essais"
+      ]
+    },
+    {
+      "id": "/the-triumph-of-stupidity",
+      "group": 4,
+      "name": "The Triumph of Stupidity, Bertrand Russell",
+      "links": [
+        "/essais"
+      ]
+    },
+    {
+      "id": "/who-goes-nazi",
+      "group": 4,
+      "name": "Who Goes Nazi",
+      "links": [
+        "/essais"
+      ]
+    },
+    {
+      "id": "/121st-century",
+      "group": 4,
+      "name": "121st century",
+      "links": [
+        "/history",
+        "/time"
+      ]
+    },
+    {
+      "id": "/farming-trap",
+      "group": 4,
+      "name": "Farming Trap",
+      "links": [
+        "/history",
+        "/essais"
+      ]
+    },
+    {
+      "id": "/history-of-technology",
+      "group": 4,
+      "name": "History Of Technology",
+      "links": [
+        "/history",
+        "/lists",
+        "/natural-sciences"
+      ]
+    },
+    {
+      "id": "/since-big-bang",
+      "group": 4,
+      "name": "Some events in the last 14 billion years",
+      "links": [
+        "/history",
+        "/time",
+        "/lists",
+        "/natural-sciences"
+      ]
+    },
+    {
+      "id": "/chomsky",
+      "group": 4,
+      "name": "Chomsky",
+      "links": [
+        "/politics"
+      ]
+    },
+    {
+      "id": "/pols-ideas",
+      "group": 4,
+      "name": "Pols Ideas",
+      "links": [
+        "/politics"
+      ]
+    },
+    {
+      "id": "/social-change",
+      "group": 4,
+      "name": "Social Change",
+      "links": [
+        "/politics"
+      ]
+    },
+    {
+      "id": "/cognitive-biases",
+      "group": 4,
+      "name": "Cognitive Biases",
+      "links": [
+        "/psychology",
+        "/negotiations"
+      ]
+    },
+    {
+      "id": "/emotions",
+      "group": 4,
+      "name": "Emotions",
+      "links": [
+        "/psychology"
+      ]
+    },
+    {
+      "id": "/psy-ideas",
+      "group": 4,
+      "name": "Ideas",
+      "links": [
+        "/psychology"
+      ]
+    },
+    {
+      "id": "/social-groups",
+      "group": 4,
+      "name": "Social Groups",
+      "links": [
+        "/psychology"
+      ]
+    },
+    {
+      "id": "/social-media",
+      "group": 4,
+      "name": "Social Media",
+      "links": [
+        "/psychology"
       ]
     },
     {
@@ -3760,6 +3779,14 @@
       "target": "/literature"
     },
     {
+      "source": "/arts",
+      "target": "/languages"
+    },
+    {
+      "source": "/arts",
+      "target": "/architecture"
+    },
+    {
       "source": "/lists",
       "target": "/blogs"
     },
@@ -3770,10 +3797,6 @@
     {
       "source": "/lists",
       "target": "/documentaries"
-    },
-    {
-      "source": "/lists",
-      "target": "/essais"
     },
     {
       "source": "/lists",
@@ -3829,15 +3852,19 @@
     },
     {
       "source": "/sciences",
-      "target": "/social-sciences"
-    },
-    {
-      "source": "/sciences",
       "target": "/math"
     },
     {
       "source": "/sciences",
       "target": "/natural-sciences"
+    },
+    {
+      "source": "/sciences",
+      "target": "/social-sciences"
+    },
+    {
+      "source": "/sciences",
+      "target": "/systems"
     },
     {
       "source": "/skills",
@@ -4240,6 +4267,18 @@
       "target": "/turk-mirasi"
     },
     {
+      "source": "/languages",
+      "target": "/latin"
+    },
+    {
+      "source": "/languages",
+      "target": "/metaphors"
+    },
+    {
+      "source": "/architecture",
+      "target": "/urban-planning"
+    },
+    {
       "source": "/experiments",
       "target": "/dots"
     },
@@ -4258,62 +4297,6 @@
     {
       "source": "/experiments",
       "target": "/year-progress"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/being-poor"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/books-social"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/chomsky"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/economics"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/politics"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/social-change"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/sociology"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/systems"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/the-triumph-of-stupidity"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/urban-planning"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/who-goes-nazi"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/history"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/languages"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/psychology"
     },
     {
       "source": "/math",
@@ -4386,6 +4369,30 @@
     {
       "source": "/natural-sciences",
       "target": "/physics"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/books-social"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/economics"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/essais"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/history"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/politics"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/psychology"
     },
     {
       "source": "/algorithms",
@@ -4788,42 +4795,6 @@
       "target": "/you-are-not-nameless"
     },
     {
-      "source": "/history",
-      "target": "/121st-century"
-    },
-    {
-      "source": "/history",
-      "target": "/farming-trap"
-    },
-    {
-      "source": "/history",
-      "target": "/history-of-technology"
-    },
-    {
-      "source": "/history",
-      "target": "/since-big-bang"
-    },
-    {
-      "source": "/languages",
-      "target": "/latin"
-    },
-    {
-      "source": "/languages",
-      "target": "/metaphors"
-    },
-    {
-      "source": "/psychology",
-      "target": "/cognitive-biases"
-    },
-    {
-      "source": "/psychology",
-      "target": "/emotions"
-    },
-    {
-      "source": "/psychology",
-      "target": "/psy-ideas"
-    },
-    {
       "source": "/health",
       "target": "/how-to-deal-with-pain"
     },
@@ -4850,6 +4821,66 @@
     {
       "source": "/physics",
       "target": "/philosophical-implications-of-quantum-mechanics"
+    },
+    {
+      "source": "/essais",
+      "target": "/being-poor"
+    },
+    {
+      "source": "/essais",
+      "target": "/the-triumph-of-stupidity"
+    },
+    {
+      "source": "/essais",
+      "target": "/who-goes-nazi"
+    },
+    {
+      "source": "/history",
+      "target": "/121st-century"
+    },
+    {
+      "source": "/history",
+      "target": "/farming-trap"
+    },
+    {
+      "source": "/history",
+      "target": "/history-of-technology"
+    },
+    {
+      "source": "/history",
+      "target": "/since-big-bang"
+    },
+    {
+      "source": "/politics",
+      "target": "/chomsky"
+    },
+    {
+      "source": "/politics",
+      "target": "/pols-ideas"
+    },
+    {
+      "source": "/politics",
+      "target": "/social-change"
+    },
+    {
+      "source": "/psychology",
+      "target": "/cognitive-biases"
+    },
+    {
+      "source": "/psychology",
+      "target": "/emotions"
+    },
+    {
+      "source": "/psychology",
+      "target": "/psy-ideas"
+    },
+    {
+      "source": "/psychology",
+      "target": "/social-groups"
+    },
+    {
+      "source": "/psychology",
+      "target": "/social-media"
     },
     {
       "source": "/array",
@@ -5376,32 +5407,12 @@
       "target": "/probability-and-statistics"
     },
     {
-      "source": "/essais",
-      "target": "/farming-trap"
-    },
-    {
-      "source": "/essais",
-      "target": "/the-triumph-of-stupidity"
-    },
-    {
-      "source": "/essais",
-      "target": "/who-goes-nazi"
-    },
-    {
-      "source": "/essais",
-      "target": "/how-to-grow-old-russell"
-    },
-    {
-      "source": "/essais",
-      "target": "/mastery"
-    },
-    {
-      "source": "/essais",
-      "target": "/problem-solving"
+      "source": "/lists",
+      "target": "/classics"
     },
     {
       "source": "/lists",
-      "target": "/classics"
+      "target": "/essais"
     },
     {
       "source": "/lists",
@@ -5444,16 +5455,28 @@
       "target": "/since-big-bang"
     },
     {
-      "source": "/natural-sciences",
-      "target": "/systems"
-    },
-    {
       "source": "/classical-physics",
       "target": "/feynman-lectures"
     },
     {
       "source": "/classical-physics",
       "target": "/maxwell-equations"
+    },
+    {
+      "source": "/essais",
+      "target": "/farming-trap"
+    },
+    {
+      "source": "/essais",
+      "target": "/how-to-grow-old-russell"
+    },
+    {
+      "source": "/essais",
+      "target": "/mastery"
+    },
+    {
+      "source": "/essais",
+      "target": "/problem-solving"
     },
     {
       "source": "/politics",
@@ -5490,14 +5513,6 @@
     {
       "source": "/social-sciences",
       "target": "/hijacked-minds"
-    },
-    {
-      "source": "/systems",
-      "target": "/critical-thinking"
-    },
-    {
-      "source": "/systems",
-      "target": "/get-things-done"
     },
     {
       "source": "/systems",

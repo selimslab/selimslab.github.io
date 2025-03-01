@@ -1,6 +1,6 @@
 ---
 title: How to sleep better?
-
+tags: skills
 ---
 
 1. Wake up early 

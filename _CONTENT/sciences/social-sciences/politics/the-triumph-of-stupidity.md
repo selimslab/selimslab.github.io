@@ -1,5 +1,6 @@
 ---
 title: The Triumph of Stupidity, Bertrand Russell
+tags: essais
 ---
 
 What has been happening in Germany is a matter of the gravest portent for the whole civilised world. Throughout the last hundred and fifty years, individual Germans have done more to further civilisation than the individuals of any other country; during the latter half of this period, Germans, collectively, have been equally effective in degrading civilisation. 

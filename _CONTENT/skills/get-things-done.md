@@ -24,7 +24,7 @@
 
 [[habits]] 
 
-[[sciences/systems]]
+[[systems/systems]]
 
 [[do-one-thing-at-a-time-and-do-it-well]]
 

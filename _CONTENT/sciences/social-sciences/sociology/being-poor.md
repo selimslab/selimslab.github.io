@@ -1,4 +1,5 @@
 ---
+tags: essais
 ---
 
 from <https://whatever.scalzi.com/2005/09/03/being-poor/> by John Scalzi 

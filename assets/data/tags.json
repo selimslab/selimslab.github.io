@@ -1,6 +1,22 @@
 {
+  "/architecture": [
+    "arts"
+  ],
+  "/urban-planning": [
+    "architecture"
+  ],
   "/arts": [
     "root"
+  ],
+  "/languages": [
+    "arts"
+  ],
+  "/latin": [
+    "languages"
+  ],
+  "/metaphors": [
+    "languages",
+    "soc"
   ],
   "/authors": [
     "literature"
@@ -265,9 +281,6 @@
   "/documentaries": [
     "lists"
   ],
-  "/essais": [
-    "lists"
-  ],
   "/lists": [
     "root"
   ],
@@ -418,17 +431,24 @@
   "/sciences": [
 
   ],
-  "/being-poor": [
-    "social-sciences"
-  ],
   "/books-social": [
-    "social-sciences"
-  ],
-  "/chomsky": [
     "social-sciences"
   ],
   "/economics": [
     "social-sciences"
+  ],
+  "/being-poor": [
+    "essais"
+  ],
+  "/essais": [
+    "lists",
+    "social-sciences"
+  ],
+  "/the-triumph-of-stupidity": [
+    "essais"
+  ],
+  "/who-goes-nazi": [
+    "essais"
   ],
   "/121st-century": [
     "history",
@@ -453,18 +473,17 @@
     "nat",
     "time"
   ],
-  "/languages": [
-    "social-sciences"
-  ],
-  "/latin": [
-    "languages"
-  ],
-  "/metaphors": [
-    "languages",
-    "soc"
+  "/chomsky": [
+    "politics"
   ],
   "/politics": [
     "social-sciences"
+  ],
+  "/pols-ideas": [
+    "politics"
+  ],
+  "/social-change": [
+    "politics"
   ],
   "/cognitive-biases": [
     "psychology"
@@ -478,31 +497,18 @@
   "/psychology": [
     "social-sciences"
   ],
-  "/social-change": [
-    "social-sciences"
+  "/social-groups": [
+    "psychology"
+  ],
+  "/social-media": [
+    "psychology"
   ],
   "/social-sciences": [
     "root",
     "sciences"
   ],
-  "/sociology": [
-    "social-sciences"
-  ],
   "/systems": [
-    "nat",
-    "social-sciences"
-  ],
-  "/the-triumph-of-stupidity": [
-    "essais",
-    "social-sciences"
-  ],
-  "/urban-planning": [
-    "architecture",
-    "social-sciences"
-  ],
-  "/who-goes-nazi": [
-    "essais",
-    "social-sciences"
+    "sciences"
   ],
   "/communication": [
     "skills"
