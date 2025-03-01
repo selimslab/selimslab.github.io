@@ -1,5 +1,5 @@
 ---
-tags: soc psy
+tags: psy
 ---
 
 "Something to do, someone to love, something to hope for.”
