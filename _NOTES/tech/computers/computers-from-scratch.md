@@ -213,32 +213,3 @@ fork, exec, wait
 signals 
 
 
-## C
-
-include 
-
-struct 
-
-typedef
-
-union 
-
-enum
-
----
-
-pointer 
-
-*p &p
-
----
-
-atomic 
-
-volatile 
-
-const 
-
-static 
-
-register 
