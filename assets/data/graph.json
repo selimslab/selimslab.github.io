@@ -1000,15 +1000,15 @@
       "name": "Distributed Systems",
       "links": [
         "/tech",
-        "/armstrong-thesis",
-        "/azure-pillars",
+        "/bloom-filters-hash-graph-sync",
+        "/consistency-models",
         "/consistent-hashing",
         "/detect-a-node-failure",
-        "/dist-links",
         "/distributed-design-patterns",
         "/generate-a-unique-id",
         "/google-sre-book",
         "/kafka",
+        "/patterns-of-distributed-systems",
         "/spark",
         "/time-and-order",
         "/system-design"
@@ -2341,17 +2341,17 @@
       ]
     },
     {
-      "id": "/armstrong-thesis",
+      "id": "/bloom-filters-hash-graph-sync",
       "group": 3,
-      "name": "Armstrong Thesis",
+      "name": "Bloom Filters for Efficient Hash Graph Synchronization",
       "links": [
         "/distributed-systems"
       ]
     },
     {
-      "id": "/azure-pillars",
+      "id": "/consistency-models",
       "group": 3,
-      "name": "Azure Pillars",
+      "name": "Consistency Models in Distributed Systems",
       "links": [
         "/distributed-systems"
       ]
@@ -2368,14 +2368,6 @@
       "id": "/detect-a-node-failure",
       "group": 3,
       "name": "Detect A Node Failure",
-      "links": [
-        "/distributed-systems"
-      ]
-    },
-    {
-      "id": "/dist-links",
-      "group": 3,
-      "name": "Dist Links",
       "links": [
         "/distributed-systems"
       ]
@@ -2408,6 +2400,14 @@
       "id": "/kafka",
       "group": 3,
       "name": "Apache Kafka",
+      "links": [
+        "/distributed-systems"
+      ]
+    },
+    {
+      "id": "/patterns-of-distributed-systems",
+      "group": 3,
+      "name": "Patterns of Distributed Systems",
       "links": [
         "/distributed-systems"
       ]
@@ -4616,11 +4616,11 @@
     },
     {
       "source": "/distributed-systems",
-      "target": "/armstrong-thesis"
+      "target": "/bloom-filters-hash-graph-sync"
     },
     {
       "source": "/distributed-systems",
-      "target": "/azure-pillars"
+      "target": "/consistency-models"
     },
     {
       "source": "/distributed-systems",
@@ -4629,10 +4629,6 @@
     {
       "source": "/distributed-systems",
       "target": "/detect-a-node-failure"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/dist-links"
     },
     {
       "source": "/distributed-systems",
@@ -4649,6 +4645,10 @@
     {
       "source": "/distributed-systems",
       "target": "/kafka"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/patterns-of-distributed-systems"
     },
     {
       "source": "/distributed-systems",

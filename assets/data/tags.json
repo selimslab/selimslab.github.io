@@ -985,19 +985,16 @@
   "/sql-tips": [
     "databases"
   ],
-  "/armstrong-thesis": [
+  "/bloom-filters-hash-graph-sync": [
     "distributed-systems"
   ],
-  "/azure-pillars": [
+  "/consistency-models": [
     "distributed-systems"
   ],
   "/consistent-hashing": [
     "distributed-systems"
   ],
   "/detect-a-node-failure": [
-    "distributed-systems"
-  ],
-  "/dist-links": [
     "distributed-systems"
   ],
   "/distributed-design-patterns": [
@@ -1014,6 +1011,9 @@
     "distributed-systems"
   ],
   "/kafka": [
+    "distributed-systems"
+  ],
+  "/patterns-of-distributed-systems": [
     "distributed-systems"
   ],
   "/spark": [

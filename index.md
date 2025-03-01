@@ -14,11 +14,12 @@ Give your mind some space
   <li><a href='/arts/'>Arts</a></li>
   <li><a href='/lists/'>Lists</a></li>
   <li><a href='/math/'>Math</a></li>
-  <li><a href='/natural-sciences/'>Natural Sciences</a></li>
-    <li><a href='/social-sciences/'>Social Sciences</a></li>
   <li><a href='/philosophy/'>Philosophy</a></li>
-  <li><a href='/skills/'>Practical Skills</a></li>
+  <li><a href='/natural-sciences/'>Natural Sciences</a></li>
+  <li><a href='/social-sciences/'>Social Sciences</a></li>
   <li><a href='/tech/'>Tech</a></li>
+  <li><a href='/skills/'>Practical Skills</a></li>
+
 </ul>
 
 </div>
