@@ -37,7 +37,6 @@
         "/root",
         "/philosophy",
         "/reasoning",
-        "/life",
         "/choice",
         "/time",
         "/work"
@@ -234,6 +233,7 @@
       "name": "Philosophy",
       "links": [
         "/ideas",
+        "/a-good-life",
         "/all-is-one",
         "/be-good-to-each-other-and-yourself",
         "/books-phil",
@@ -241,11 +241,14 @@
         "/enemies",
         "/epicurus",
         "/free-will",
+        "/freedom",
+        "/friends",
         "/good-and-evil",
         "/ideal-insan",
         "/questions",
         "/solitude",
         "/stupidity",
+        "/travelling",
         "/tao-te-ching",
         "/critical-thinking",
         "/do-one-thing-at-a-time-and-do-it-well",
@@ -269,27 +272,7 @@
         "/one-bit-better",
         "/problem-solving",
         "/systems-thinking",
-        "/take-a-walk",
         "/truth"
-      ]
-    },
-    {
-      "id": "/life",
-      "group": 2,
-      "name": "Life",
-      "links": [
-        "/ideas",
-        "/character",
-        "/eudaimonia",
-        "/freedom",
-        "/friends",
-        "/getting-old",
-        "/happiness",
-        "/hard-times",
-        "/how-to-grow-old-russell",
-        "/success-and-failure",
-        "/the-less-the-better",
-        "/travelling"
       ]
     },
     {
@@ -299,10 +282,13 @@
       "links": [
         "/ideas",
         "/balance",
+        "/character",
         "/do-without-doing",
         "/gratitude",
         "/know-where-to-stop",
-        "/eudaimonia"
+        "/take-a-walk",
+        "/the-less-the-better",
+        "/a-good-life"
       ]
     },
     {
@@ -312,10 +298,13 @@
       "links": [
         "/ideas",
         "/death",
+        "/getting-old",
+        "/hard-times",
+        "/how-to-grow-old-russell",
         "/on-the-shortness-of-life",
         "/slow-down-time",
         "/the-past",
-        "/time-scale",
+        "/earth-time-scale",
         "/121st-century",
         "/history",
         "/since-big-bang"
@@ -328,6 +317,7 @@
       "links": [
         "/ideas",
         "/career-advice",
+        "/success-and-failure",
         "/teamwork",
         "/what-to-work-on",
         "/you-are-not-nameless",
@@ -419,8 +409,8 @@
       "links": [
         "/misc",
         "/dots",
+        "/earth-time-scale",
         "/graph-3d",
-        "/time-scale",
         "/typing-practice",
         "/year-progress"
       ]
@@ -1166,6 +1156,16 @@
       ]
     },
     {
+      "id": "/a-good-life",
+      "group": 3,
+      "name": "A good life 🌱",
+      "links": [
+        "/philosophy",
+        "/choice",
+        "/psychology"
+      ]
+    },
+    {
       "id": "/all-is-one",
       "group": 3,
       "name": "All is One",
@@ -1225,6 +1225,25 @@
       ]
     },
     {
+      "id": "/freedom",
+      "group": 3,
+      "name": "Freedom",
+      "links": [
+        "/philosophy",
+        "/character",
+        "/success-and-failure",
+        "/social-sciences"
+      ]
+    },
+    {
+      "id": "/friends",
+      "group": 3,
+      "name": "Friends",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
       "id": "/good-and-evil",
       "group": 3,
       "name": "Good And Evil",
@@ -1261,6 +1280,14 @@
       "id": "/stupidity",
       "group": 3,
       "name": "Stupidity",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/travelling",
+      "group": 3,
+      "name": "Travelling",
       "links": [
         "/philosophy"
       ]
@@ -1307,6 +1334,7 @@
       "name": "Get Things Done",
       "links": [
         "/reasoning",
+        "/take-a-walk",
         "/decision-making",
         "/do-one-thing-at-a-time-and-do-it-well",
         "/work"
@@ -1346,6 +1374,7 @@
       "name": "Problem Solving",
       "links": [
         "/reasoning",
+        "/take-a-walk",
         "/critical-thinking"
       ]
     },
@@ -1359,120 +1388,11 @@
       ]
     },
     {
-      "id": "/take-a-walk",
-      "group": 3,
-      "name": "Take a walk",
-      "links": [
-        "/reasoning"
-      ]
-    },
-    {
       "id": "/truth",
       "group": 3,
       "name": "Truth",
       "links": [
         "/reasoning"
-      ]
-    },
-    {
-      "id": "/character",
-      "group": 3,
-      "name": "On Character",
-      "links": [
-        "/life",
-        "/eudaimonia",
-        "/freedom"
-      ]
-    },
-    {
-      "id": "/eudaimonia",
-      "group": 3,
-      "name": "Eudaimonia 🌱",
-      "links": [
-        "/life",
-        "/choice",
-        "/do-without-doing",
-        "/character"
-      ]
-    },
-    {
-      "id": "/freedom",
-      "group": 3,
-      "name": "Freedom",
-      "links": [
-        "/life",
-        "/character",
-        "/success-and-failure",
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/friends",
-      "group": 3,
-      "name": "Friends",
-      "links": [
-        "/life"
-      ]
-    },
-    {
-      "id": "/getting-old",
-      "group": 3,
-      "name": "Getting Old",
-      "links": [
-        "/life"
-      ]
-    },
-    {
-      "id": "/happiness",
-      "group": 3,
-      "name": "Happiness",
-      "links": [
-        "/life",
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/hard-times",
-      "group": 3,
-      "name": "Hard Times",
-      "links": [
-        "/life",
-        "/how-to-deal-with-pain"
-      ]
-    },
-    {
-      "id": "/how-to-grow-old-russell",
-      "group": 3,
-      "name": "How to Grow Old, by Bertrand Russell",
-      "links": [
-        "/life",
-        "/essais"
-      ]
-    },
-    {
-      "id": "/success-and-failure",
-      "group": 3,
-      "name": "Success And Failure",
-      "links": [
-        "/life",
-        "/if",
-        "/freedom"
-      ]
-    },
-    {
-      "id": "/the-less-the-better",
-      "group": 3,
-      "name": "The Less The Better",
-      "links": [
-        "/life"
-      ]
-    },
-    {
-      "id": "/travelling",
-      "group": 3,
-      "name": "Travelling",
-      "links": [
-        "/life"
       ]
     },
     {
@@ -1484,13 +1404,21 @@
       ]
     },
     {
+      "id": "/character",
+      "group": 3,
+      "name": "Character",
+      "links": [
+        "/choice",
+        "/freedom"
+      ]
+    },
+    {
       "id": "/do-without-doing",
       "group": 3,
       "name": "Do without doing - Wu Wei 無爲",
       "links": [
         "/choice",
         "/decision-making",
-        "/eudaimonia",
         "/teamwork"
       ]
     },
@@ -1513,11 +1441,55 @@
       ]
     },
     {
+      "id": "/take-a-walk",
+      "group": 3,
+      "name": "Take a walk",
+      "links": [
+        "/choice",
+        "/get-things-done",
+        "/problem-solving"
+      ]
+    },
+    {
+      "id": "/the-less-the-better",
+      "group": 3,
+      "name": "The Less The Better",
+      "links": [
+        "/choice"
+      ]
+    },
+    {
       "id": "/death",
       "group": 3,
       "name": "Death",
       "links": [
         "/time"
+      ]
+    },
+    {
+      "id": "/getting-old",
+      "group": 3,
+      "name": "Getting Old",
+      "links": [
+        "/time"
+      ]
+    },
+    {
+      "id": "/hard-times",
+      "group": 3,
+      "name": "Hard Times",
+      "links": [
+        "/time",
+        "/how-to-deal-with-pain"
+      ]
+    },
+    {
+      "id": "/how-to-grow-old-russell",
+      "group": 3,
+      "name": "How to Grow Old, by Bertrand Russell",
+      "links": [
+        "/time",
+        "/essais"
       ]
     },
     {
@@ -1550,6 +1522,16 @@
       "name": "Career advice",
       "links": [
         "/work"
+      ]
+    },
+    {
+      "id": "/success-and-failure",
+      "group": 3,
+      "name": "Success And Failure",
+      "links": [
+        "/work",
+        "/if",
+        "/freedom"
       ]
     },
     {
@@ -1616,21 +1598,20 @@
       ]
     },
     {
+      "id": "/earth-time-scale",
+      "group": 3,
+      "name": "If the Earth is 45 years old",
+      "links": [
+        "/experiments",
+        "/time"
+      ]
+    },
+    {
       "id": "/graph-3d",
       "group": 3,
       "name": "3D graph of all pages",
       "links": [
         "/experiments"
-      ]
-    },
-    {
-      "id": "/time-scale",
-      "group": 3,
-      "name": "If the Earth is 45 years old",
-      "links": [
-        "/experiments",
-        "/time",
-        "/climate-change"
       ]
     },
     {
@@ -1765,8 +1746,7 @@
       "group": 3,
       "name": "Climate Change",
       "links": [
-        "/natural-sciences",
-        "/time-scale"
+        "/natural-sciences"
       ]
     },
     {
@@ -1880,7 +1860,7 @@
         "/procrastination",
         "/spot-a-liar",
         "/stress",
-        "/happiness",
+        "/a-good-life",
         "/inertia"
       ]
     },
@@ -2785,8 +2765,8 @@
       "name": "How to deal with Extreme Physical Pain",
       "links": [
         "/health",
-        "/hard-times",
-        "/philosophy"
+        "/philosophy",
+        "/hard-times"
       ]
     },
     {
@@ -3993,10 +3973,6 @@
     },
     {
       "source": "/ideas",
-      "target": "/life"
-    },
-    {
-      "source": "/ideas",
       "target": "/choice"
     },
     {
@@ -4341,6 +4317,10 @@
     },
     {
       "source": "/philosophy",
+      "target": "/a-good-life"
+    },
+    {
+      "source": "/philosophy",
       "target": "/all-is-one"
     },
     {
@@ -4369,6 +4349,14 @@
     },
     {
       "source": "/philosophy",
+      "target": "/freedom"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/friends"
+    },
+    {
+      "source": "/philosophy",
       "target": "/good-and-evil"
     },
     {
@@ -4386,6 +4374,10 @@
     {
       "source": "/philosophy",
       "target": "/stupidity"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/travelling"
     },
     {
       "source": "/reasoning",
@@ -4425,59 +4417,15 @@
     },
     {
       "source": "/reasoning",
-      "target": "/take-a-walk"
-    },
-    {
-      "source": "/reasoning",
       "target": "/truth"
-    },
-    {
-      "source": "/life",
-      "target": "/character"
-    },
-    {
-      "source": "/life",
-      "target": "/eudaimonia"
-    },
-    {
-      "source": "/life",
-      "target": "/freedom"
-    },
-    {
-      "source": "/life",
-      "target": "/friends"
-    },
-    {
-      "source": "/life",
-      "target": "/getting-old"
-    },
-    {
-      "source": "/life",
-      "target": "/happiness"
-    },
-    {
-      "source": "/life",
-      "target": "/hard-times"
-    },
-    {
-      "source": "/life",
-      "target": "/how-to-grow-old-russell"
-    },
-    {
-      "source": "/life",
-      "target": "/success-and-failure"
-    },
-    {
-      "source": "/life",
-      "target": "/the-less-the-better"
-    },
-    {
-      "source": "/life",
-      "target": "/travelling"
     },
     {
       "source": "/choice",
       "target": "/balance"
+    },
+    {
+      "source": "/choice",
+      "target": "/character"
     },
     {
       "source": "/choice",
@@ -4492,8 +4440,28 @@
       "target": "/know-where-to-stop"
     },
     {
+      "source": "/choice",
+      "target": "/take-a-walk"
+    },
+    {
+      "source": "/choice",
+      "target": "/the-less-the-better"
+    },
+    {
       "source": "/time",
       "target": "/death"
+    },
+    {
+      "source": "/time",
+      "target": "/getting-old"
+    },
+    {
+      "source": "/time",
+      "target": "/hard-times"
+    },
+    {
+      "source": "/time",
+      "target": "/how-to-grow-old-russell"
     },
     {
       "source": "/time",
@@ -4510,6 +4478,10 @@
     {
       "source": "/work",
       "target": "/career-advice"
+    },
+    {
+      "source": "/work",
+      "target": "/success-and-failure"
     },
     {
       "source": "/work",
@@ -4541,11 +4513,11 @@
     },
     {
       "source": "/experiments",
-      "target": "/graph-3d"
+      "target": "/earth-time-scale"
     },
     {
       "source": "/experiments",
-      "target": "/time-scale"
+      "target": "/graph-3d"
     },
     {
       "source": "/experiments",
@@ -5596,16 +5568,16 @@
       "target": "/know-where-to-stop"
     },
     {
+      "source": "/character",
+      "target": "/freedom"
+    },
+    {
       "source": "/choice",
-      "target": "/eudaimonia"
+      "target": "/a-good-life"
     },
     {
       "source": "/do-without-doing",
       "target": "/decision-making"
-    },
-    {
-      "source": "/do-without-doing",
-      "target": "/eudaimonia"
     },
     {
       "source": "/do-without-doing",
@@ -5616,24 +5588,20 @@
       "target": "/do-one-thing-at-a-time-and-do-it-well"
     },
     {
-      "source": "/character",
-      "target": "/eudaimonia"
+      "source": "/take-a-walk",
+      "target": "/get-things-done"
     },
     {
-      "source": "/character",
-      "target": "/freedom"
-    },
-    {
-      "source": "/freedom",
-      "target": "/success-and-failure"
-    },
-    {
-      "source": "/hard-times",
-      "target": "/how-to-deal-with-pain"
+      "source": "/take-a-walk",
+      "target": "/problem-solving"
     },
     {
       "source": "/be-good-to-each-other-and-yourself",
       "target": "/work"
+    },
+    {
+      "source": "/freedom",
+      "target": "/success-and-failure"
     },
     {
       "source": "/philosophy",
@@ -5700,8 +5668,12 @@
       "target": "/work"
     },
     {
+      "source": "/hard-times",
+      "target": "/how-to-deal-with-pain"
+    },
+    {
       "source": "/time",
-      "target": "/time-scale"
+      "target": "/earth-time-scale"
     },
     {
       "source": "/time",
@@ -5764,10 +5736,6 @@
       "target": "/since-big-bang"
     },
     {
-      "source": "/time-scale",
-      "target": "/climate-change"
-    },
-    {
       "source": "/bayes",
       "target": "/probability-and-statistics"
     },
@@ -5805,7 +5773,7 @@
     },
     {
       "source": "/psychology",
-      "target": "/happiness"
+      "target": "/a-good-life"
     },
     {
       "source": "/psychology",

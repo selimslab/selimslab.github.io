@@ -201,6 +201,9 @@
   "/balance": [
     "choice"
   ],
+  "/character": [
+    "choice"
+  ],
   "/choice": [
     "decisions",
     "ideas"
@@ -214,41 +217,19 @@
   "/know-where-to-stop": [
     "choice"
   ],
+  "/take-a-walk": [
+    "choice",
+    "top"
+  ],
+  "/the-less-the-better": [
+    "choice"
+  ],
   "/ideas": [
 
   ],
-  "/character": [
-
-  ],
-  "/eudaimonia": [
-    "top"
-  ],
-  "/freedom": [
-    "soc"
-  ],
-  "/friends": [
-
-  ],
-  "/getting-old": [
-
-  ],
-  "/happiness": [
+  "/a-good-life": [
+    "philosophy",
     "psy"
-  ],
-  "/hard-times": [
-    "top"
-  ],
-  "/how-to-grow-old-russell": [
-    "essais"
-  ],
-  "/success-and-failure": [
-
-  ],
-  "/the-less-the-better": [
-
-  ],
-  "/travelling": [
-
   ],
   "/all-is-one": [
     "philosophy"
@@ -272,6 +253,13 @@
   "/free-will": [
     "philosophy"
   ],
+  "/freedom": [
+    "philosophy",
+    "soc"
+  ],
+  "/friends": [
+    "philosophy"
+  ],
   "/good-and-evil": [
     "philosophy"
   ],
@@ -288,6 +276,9 @@
     "philosophy"
   ],
   "/stupidity": [
+    "philosophy"
+  ],
+  "/travelling": [
     "philosophy"
   ],
   "/critical-thinking": [
@@ -325,14 +316,21 @@
     "reasoning",
     "soc"
   ],
-  "/take-a-walk": [
-    "reasoning",
-    "top"
-  ],
   "/truth": [
     "reasoning"
   ],
   "/death": [
+    "time"
+  ],
+  "/getting-old": [
+    "time"
+  ],
+  "/hard-times": [
+    "time",
+    "top"
+  ],
+  "/how-to-grow-old-russell": [
+    "essais",
     "time"
   ],
   "/on-the-shortness-of-life": [
@@ -348,6 +346,9 @@
     "ideas"
   ],
   "/career-advice": [
+    "work"
+  ],
+  "/success-and-failure": [
     "work"
   ],
   "/teamwork": [
@@ -404,15 +405,16 @@
   "/dots": [
     "experiments"
   ],
+  "/earth-time-scale": [
+    "experiments",
+    "time",
+    "top"
+  ],
   "/experiments": [
 
   ],
   "/graph-3d": [
     "experiments"
-  ],
-  "/time-scale": [
-    "experiments",
-    "time"
   ],
   "/typing-practice": [
     "experiments"
