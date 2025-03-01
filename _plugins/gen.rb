@@ -60,7 +60,7 @@ class SiteGenerator < Jekyll::Generator
 
   def update_ideas(site)
     ideas = JSON.parse(File.read("#{DATA_PATH}/ideas.json"))
-    ideas.shuffle!(random: Random.new(ideas.length))
+    ideas.shuffle!(random: Random.new(ideas.length)) if DEBUG
     write_json("#{DATA_PATH}/ideas.json", ideas)
     site.data["ideas"] = ideas
   end

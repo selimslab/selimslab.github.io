@@ -1075,7 +1075,6 @@
         "/core-concepts",
         "/on-software",
         "/software-analogies",
-        "/software-quality",
         "/swe-misery",
         "/the-joel-test"
       ]
@@ -2502,14 +2501,6 @@
       "id": "/software-analogies",
       "group": 3,
       "name": "Software Analogies",
-      "links": [
-        "/software-engineering"
-      ]
-    },
-    {
-      "id": "/software-quality",
-      "group": 3,
-      "name": "Is High Quality Software Worth the Cost?",
       "links": [
         "/software-engineering"
       ]
@@ -4782,10 +4773,6 @@
     {
       "source": "/software-engineering",
       "target": "/software-analogies"
-    },
-    {
-      "source": "/software-engineering",
-      "target": "/software-quality"
     },
     {
       "source": "/software-engineering",
