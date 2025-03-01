@@ -1,7 +1,19 @@
 ---
-tags: essais
+
 ---
 
+<https://www.feynmanlectures.caltech.edu>
+
+[[classical-physics]]
+
+[[maxwell-equations]]
+
+[[philosophical-implications-of-quantum-mechanics]]
+
+[[feynmans-epilogue]]
+
+
+## Epilogue
 
 <https://www.feynmanlectures.caltech.edu/III_22.html>
 
