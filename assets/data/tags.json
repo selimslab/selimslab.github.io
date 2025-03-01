@@ -339,7 +339,6 @@
   ],
   "/time-scale": [
     "experiments",
-    "stem",
     "time"
   ],
   "/typing-practice": [
@@ -517,7 +516,7 @@
   "/history-of-technology": [
     "history",
     "lists",
-    "stem"
+    "nat"
   ],
   "/history": [
     "social-sciences",

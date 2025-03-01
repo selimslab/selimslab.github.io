@@ -96,6 +96,7 @@
         "/climate-change",
         "/pale-blue-dot",
         "/sapolsky",
+        "/history-of-technology",
         "/since-big-bang",
         "/systems"
       ]
@@ -1316,7 +1317,6 @@
         "/philosophy",
         "/death",
         "/on-the-shortness-of-life",
-        "/prudence",
         "/slow-down-time",
         "/the-past",
         "/time-scale",
@@ -1830,7 +1830,8 @@
       "name": "History Of Technology",
       "links": [
         "/history",
-        "/lists"
+        "/lists",
+        "/natural-sciences"
       ]
     },
     {
@@ -2766,14 +2767,6 @@
       "id": "/on-the-shortness-of-life",
       "group": 4,
       "name": "Life is not short but we waste it",
-      "links": [
-        "/time"
-      ]
-    },
-    {
-      "id": "/prudence",
-      "group": 4,
-      "name": "Prudence",
       "links": [
         "/time"
       ]
@@ -4819,10 +4812,6 @@
     },
     {
       "source": "/time",
-      "target": "/prudence"
-    },
-    {
-      "source": "/time",
       "target": "/slow-down-time"
     },
     {
@@ -5428,6 +5417,10 @@
     {
       "source": "/akins-laws-of-spacecraft",
       "target": "/polished-pixels"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/history-of-technology"
     },
     {
       "source": "/natural-sciences",

@@ -1,6 +1,6 @@
 ---
 title: If the Earth is 45 years old  
-tags: time stem
+tags: time
 ---
 
 The earth is about 4.5 billion years old. 
