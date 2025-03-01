@@ -7,11 +7,9 @@
       "links": [
         "/arts",
         "/lists",
-        "/math",
         "/misc",
-        "/natural-sciences",
+        "/sciences",
         "/skills",
-        "/social-sciences",
         "/tech"
       ]
     },
@@ -49,25 +47,6 @@
       ]
     },
     {
-      "id": "/math",
-      "group": 1,
-      "name": "Math",
-      "links": [
-        "/root",
-        "/bayes",
-        "/counter-intuitive-math",
-        "/discrete-vs-continuous",
-        "/equations-that-changed-the-world",
-        "/logic-proofs",
-        "/fourier-transform",
-        "/laplace-transform",
-        "/math-links",
-        "/normal-distribution",
-        "/probability-and-statistics",
-        "/local-maximum"
-      ]
-    },
-    {
       "id": "/misc",
       "group": 1,
       "name": "Misc",
@@ -83,22 +62,14 @@
       ]
     },
     {
-      "id": "/natural-sciences",
+      "id": "/sciences",
       "group": 1,
-      "name": "Natural Sciences",
+      "name": "Sciences",
       "links": [
         "/root",
-        "/physics",
-        "/health",
-        "/akins-laws-of-spacecraft",
-        "/astronomy",
-        "/books-natural",
-        "/climate-change",
-        "/pale-blue-dot",
-        "/sapolsky",
-        "/history-of-technology",
-        "/since-big-bang",
-        "/systems"
+        "/social-sciences",
+        "/math",
+        "/natural-sciences"
       ]
     },
     {
@@ -133,32 +104,6 @@
         "/photography",
         "/typing-practice",
         "/programming"
-      ]
-    },
-    {
-      "id": "/social-sciences",
-      "group": 1,
-      "name": "Social Sciences",
-      "links": [
-        "/root",
-        "/history",
-        "/psychology",
-        "/languages",
-        "/being-poor",
-        "/books-social",
-        "/chomsky",
-        "/economics",
-        "/politics",
-        "/social-change",
-        "/sociology",
-        "/systems",
-        "/the-triumph-of-stupidity",
-        "/urban-planning",
-        "/who-goes-nazi",
-        "/freedom",
-        "/learning",
-        "/metaphors",
-        "/hijacked-minds"
       ]
     },
     {
@@ -315,12 +260,12 @@
       "name": "Essais",
       "links": [
         "/lists",
-        "/how-to-grow-old-russell",
-        "/mastery",
-        "/problem-solving",
         "/farming-trap",
         "/the-triumph-of-stupidity",
-        "/who-goes-nazi"
+        "/who-goes-nazi",
+        "/how-to-grow-old-russell",
+        "/mastery",
+        "/problem-solving"
       ]
     },
     {
@@ -371,90 +316,6 @@
       "links": [
         "/lists",
         "/ux"
-      ]
-    },
-    {
-      "id": "/bayes",
-      "group": 2,
-      "name": "Bayes' theorem",
-      "links": [
-        "/math",
-        "/probability-and-statistics",
-        "/algorithms"
-      ]
-    },
-    {
-      "id": "/counter-intuitive-math",
-      "group": 2,
-      "name": "Counter Intuitive Math",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/discrete-vs-continuous",
-      "group": 2,
-      "name": "Digital vs Analog",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/equations-that-changed-the-world",
-      "group": 2,
-      "name": "Equations That Changed The World",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/logic-proofs",
-      "group": 2,
-      "name": "Five ways to prove P=>Q",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/fourier-transform",
-      "group": 2,
-      "name": "Fourier Transform",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/laplace-transform",
-      "group": 2,
-      "name": "Laplace Transform",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/math-links",
-      "group": 2,
-      "name": "Math Links",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/normal-distribution",
-      "group": 2,
-      "name": "Normal Distribution",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/probability-and-statistics",
-      "group": 2,
-      "name": "Probability And Statistics",
-      "links": [
-        "/math",
-        "/datasets",
-        "/bayes"
       ]
     },
     {
@@ -520,78 +381,67 @@
       ]
     },
     {
-      "id": "/physics",
+      "id": "/social-sciences",
       "group": 2,
-      "name": "Physics",
+      "name": "Social Sciences",
       "links": [
-        "/natural-sciences",
-        "/classical-physics",
-        "/feynman-lectures",
-        "/inertia",
-        "/maxwell-equations",
-        "/philosophical-implications-of-quantum-mechanics"
+        "/sciences",
+        "/being-poor",
+        "/books-social",
+        "/chomsky",
+        "/economics",
+        "/politics",
+        "/social-change",
+        "/sociology",
+        "/systems",
+        "/the-triumph-of-stupidity",
+        "/urban-planning",
+        "/who-goes-nazi",
+        "/history",
+        "/languages",
+        "/psychology",
+        "/freedom",
+        "/metaphors",
+        "/learning",
+        "/hijacked-minds"
       ]
     },
     {
-      "id": "/health",
+      "id": "/math",
       "group": 2,
-      "name": "Health",
+      "name": "Math",
       "links": [
-        "/natural-sciences",
-        "/how-to-deal-with-pain",
-        "/sleep"
+        "/sciences",
+        "/bayes",
+        "/counter-intuitive-math",
+        "/discrete-vs-continuous",
+        "/equations-that-changed-the-world",
+        "/fourier-transform",
+        "/laplace-transform",
+        "/logic-proofs",
+        "/math-links",
+        "/normal-distribution",
+        "/probability-and-statistics",
+        "/local-maximum"
       ]
     },
     {
-      "id": "/akins-laws-of-spacecraft",
+      "id": "/natural-sciences",
       "group": 2,
-      "name": "Akins Laws Of Spacecraft",
+      "name": "Natural Sciences",
       "links": [
-        "/natural-sciences",
-        "/hacker-laws",
-        "/polished-pixels",
-        "/system-design"
-      ]
-    },
-    {
-      "id": "/astronomy",
-      "group": 2,
-      "name": "Astronomy",
-      "links": [
-        "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/books-natural",
-      "group": 2,
-      "name": "Books",
-      "links": [
-        "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/climate-change",
-      "group": 2,
-      "name": "Climate Change",
-      "links": [
-        "/natural-sciences",
-        "/time-scale"
-      ]
-    },
-    {
-      "id": "/pale-blue-dot",
-      "group": 2,
-      "name": "Pale Blue Dot",
-      "links": [
-        "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/sapolsky",
-      "group": 2,
-      "name": "Sapolsky",
-      "links": [
-        "/natural-sciences"
+        "/sciences",
+        "/akins-laws-of-spacecraft",
+        "/astronomy",
+        "/books-natural",
+        "/climate-change",
+        "/pale-blue-dot",
+        "/sapolsky",
+        "/health",
+        "/physics",
+        "/history-of-technology",
+        "/since-big-bang",
+        "/systems"
       ]
     },
     {
@@ -619,6 +469,7 @@
         "/philosophy",
         "/questions",
         "/truth",
+        "/systems",
         "/problem-solving"
       ]
     },
@@ -685,6 +536,7 @@
         "/do-one-thing-at-a-time-and-do-it-well",
         "/take-a-walk",
         "/what-to-work-on",
+        "/systems",
         "/decision-making"
       ]
     },
@@ -738,7 +590,7 @@
       "name": "Negotiations",
       "links": [
         "/skills",
-        "/psy-ideas"
+        "/cognitive-biases"
       ]
     },
     {
@@ -791,136 +643,6 @@
       "name": "Teaching",
       "links": [
         "/skills"
-      ]
-    },
-    {
-      "id": "/history",
-      "group": 2,
-      "name": "History",
-      "links": [
-        "/social-sciences",
-        "/121st-century",
-        "/farming-trap",
-        "/history-of-technology",
-        "/since-big-bang",
-        "/time"
-      ]
-    },
-    {
-      "id": "/psychology",
-      "group": 2,
-      "name": "Psychology",
-      "links": [
-        "/social-sciences",
-        "/cognitive-biases",
-        "/emotions",
-        "/psy-ideas",
-        "/happiness",
-        "/inertia",
-        "/parenting"
-      ]
-    },
-    {
-      "id": "/languages",
-      "group": 2,
-      "name": "Languages",
-      "links": [
-        "/social-sciences",
-        "/latin",
-        "/metaphors"
-      ]
-    },
-    {
-      "id": "/being-poor",
-      "group": 2,
-      "name": "Being Poor",
-      "links": [
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/books-social",
-      "group": 2,
-      "name": "Books",
-      "links": [
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/chomsky",
-      "group": 2,
-      "name": "Chomsky",
-      "links": [
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/economics",
-      "group": 2,
-      "name": "Economics",
-      "links": [
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/politics",
-      "group": 2,
-      "name": "Politics",
-      "links": [
-        "/social-sciences",
-        "/tao-te-ching"
-      ]
-    },
-    {
-      "id": "/social-change",
-      "group": 2,
-      "name": "Social Change",
-      "links": [
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/sociology",
-      "group": 2,
-      "name": "Sociology",
-      "links": [
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/systems",
-      "group": 2,
-      "name": "Systems Thinking",
-      "links": [
-        "/social-sciences",
-        "/natural-sciences",
-        "/system-design"
-      ]
-    },
-    {
-      "id": "/the-triumph-of-stupidity",
-      "group": 2,
-      "name": "The Triumph of Stupidity, Bertrand Russell",
-      "links": [
-        "/social-sciences",
-        "/essais"
-      ]
-    },
-    {
-      "id": "/urban-planning",
-      "group": 2,
-      "name": "Urban Planning",
-      "links": [
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/who-goes-nazi",
-      "group": 2,
-      "name": "Who Goes Nazi",
-      "links": [
-        "/social-sciences",
-        "/essais"
       ]
     },
     {
@@ -1743,148 +1465,294 @@
       ]
     },
     {
-      "id": "/classical-physics",
+      "id": "/being-poor",
       "group": 3,
-      "name": "Classical Physics",
+      "name": "Being Poor",
       "links": [
-        "/physics",
-        "/feynman-lectures",
-        "/maxwell-equations"
+        "/social-sciences"
       ]
     },
     {
-      "id": "/feynman-lectures",
+      "id": "/books-social",
       "group": 3,
-      "name": "Feynman Lectures",
+      "name": "Books",
       "links": [
-        "/physics",
-        "/classical-physics"
+        "/social-sciences"
       ]
     },
     {
-      "id": "/inertia",
+      "id": "/chomsky",
       "group": 3,
-      "name": "Inertia",
+      "name": "Chomsky",
       "links": [
-        "/physics",
-        "/psychology"
+        "/social-sciences"
       ]
     },
     {
-      "id": "/maxwell-equations",
+      "id": "/economics",
       "group": 3,
-      "name": "Maxwell Equations",
+      "name": "Economics",
       "links": [
-        "/physics",
-        "/classical-physics"
+        "/social-sciences"
       ]
     },
     {
-      "id": "/philosophical-implications-of-quantum-mechanics",
+      "id": "/politics",
       "group": 3,
-      "name": "Philosophical Implications Of Quantum Mechanics",
+      "name": "Politics",
       "links": [
-        "/physics",
-        "/philosophy"
+        "/social-sciences",
+        "/tao-te-ching"
       ]
     },
     {
-      "id": "/how-to-deal-with-pain",
+      "id": "/social-change",
       "group": 3,
-      "name": "How to deal with Extreme Physical Pain",
+      "name": "Social Change",
       "links": [
-        "/health",
-        "/hard-times",
-        "/philosophy"
+        "/social-sciences"
       ]
     },
     {
-      "id": "/sleep",
+      "id": "/sociology",
       "group": 3,
-      "name": "How to sleep better?",
+      "name": "Sociology",
       "links": [
-        "/health"
+        "/social-sciences"
       ]
     },
     {
-      "id": "/121st-century",
+      "id": "/systems",
       "group": 3,
-      "name": "121st century",
+      "name": "Systems Thinking",
       "links": [
-        "/history",
-        "/time"
+        "/social-sciences",
+        "/natural-sciences",
+        "/critical-thinking",
+        "/get-things-done",
+        "/system-design"
       ]
     },
     {
-      "id": "/farming-trap",
+      "id": "/the-triumph-of-stupidity",
       "group": 3,
-      "name": "Farming Trap",
+      "name": "The Triumph of Stupidity, Bertrand Russell",
       "links": [
-        "/history",
+        "/social-sciences",
         "/essais"
       ]
     },
     {
-      "id": "/history-of-technology",
+      "id": "/urban-planning",
       "group": 3,
-      "name": "History Of Technology",
+      "name": "Urban Planning",
       "links": [
-        "/history",
-        "/lists",
-        "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/since-big-bang",
-      "group": 3,
-      "name": "Some events in the last 14 billion years",
-      "links": [
-        "/history",
-        "/time",
-        "/lists",
-        "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/cognitive-biases",
-      "group": 3,
-      "name": "Cognitive Biases",
-      "links": [
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/emotions",
-      "group": 3,
-      "name": "Emotions",
-      "links": [
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/psy-ideas",
-      "group": 3,
-      "name": "Ideas",
-      "links": [
-        "/psychology",
-        "/negotiations"
-      ]
-    },
-    {
-      "id": "/latin",
-      "group": 3,
-      "name": "Latin",
-      "links": [
-        "/languages"
-      ]
-    },
-    {
-      "id": "/metaphors",
-      "group": 3,
-      "name": "Metaphors",
-      "links": [
-        "/languages",
         "/social-sciences"
+      ]
+    },
+    {
+      "id": "/who-goes-nazi",
+      "group": 3,
+      "name": "Who Goes Nazi",
+      "links": [
+        "/social-sciences",
+        "/essais"
+      ]
+    },
+    {
+      "id": "/history",
+      "group": 3,
+      "name": "History",
+      "links": [
+        "/social-sciences",
+        "/121st-century",
+        "/farming-trap",
+        "/history-of-technology",
+        "/since-big-bang",
+        "/time"
+      ]
+    },
+    {
+      "id": "/languages",
+      "group": 3,
+      "name": "Languages",
+      "links": [
+        "/social-sciences",
+        "/latin",
+        "/metaphors"
+      ]
+    },
+    {
+      "id": "/psychology",
+      "group": 3,
+      "name": "Psychology",
+      "links": [
+        "/social-sciences",
+        "/cognitive-biases",
+        "/emotions",
+        "/psy-ideas",
+        "/happiness",
+        "/inertia",
+        "/parenting"
+      ]
+    },
+    {
+      "id": "/bayes",
+      "group": 3,
+      "name": "Bayes' theorem",
+      "links": [
+        "/math",
+        "/probability-and-statistics",
+        "/algorithms"
+      ]
+    },
+    {
+      "id": "/counter-intuitive-math",
+      "group": 3,
+      "name": "Counter Intuitive Math",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/discrete-vs-continuous",
+      "group": 3,
+      "name": "Digital vs Analog",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/equations-that-changed-the-world",
+      "group": 3,
+      "name": "Equations That Changed The World",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/fourier-transform",
+      "group": 3,
+      "name": "Fourier Transform",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/laplace-transform",
+      "group": 3,
+      "name": "Laplace Transform",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/logic-proofs",
+      "group": 3,
+      "name": "Five ways to prove P=>Q",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/math-links",
+      "group": 3,
+      "name": "Math Links",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/normal-distribution",
+      "group": 3,
+      "name": "Normal Distribution",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/probability-and-statistics",
+      "group": 3,
+      "name": "Probability And Statistics",
+      "links": [
+        "/math",
+        "/datasets",
+        "/bayes"
+      ]
+    },
+    {
+      "id": "/akins-laws-of-spacecraft",
+      "group": 3,
+      "name": "Akins Laws Of Spacecraft",
+      "links": [
+        "/natural-sciences",
+        "/hacker-laws",
+        "/polished-pixels",
+        "/system-design"
+      ]
+    },
+    {
+      "id": "/astronomy",
+      "group": 3,
+      "name": "Astronomy",
+      "links": [
+        "/natural-sciences"
+      ]
+    },
+    {
+      "id": "/books-natural",
+      "group": 3,
+      "name": "Books",
+      "links": [
+        "/natural-sciences"
+      ]
+    },
+    {
+      "id": "/climate-change",
+      "group": 3,
+      "name": "Climate Change",
+      "links": [
+        "/natural-sciences",
+        "/time-scale"
+      ]
+    },
+    {
+      "id": "/pale-blue-dot",
+      "group": 3,
+      "name": "Pale Blue Dot",
+      "links": [
+        "/natural-sciences"
+      ]
+    },
+    {
+      "id": "/sapolsky",
+      "group": 3,
+      "name": "Sapolsky",
+      "links": [
+        "/natural-sciences"
+      ]
+    },
+    {
+      "id": "/health",
+      "group": 3,
+      "name": "Health",
+      "links": [
+        "/natural-sciences",
+        "/how-to-deal-with-pain",
+        "/sleep"
+      ]
+    },
+    {
+      "id": "/physics",
+      "group": 3,
+      "name": "Physics",
+      "links": [
+        "/natural-sciences",
+        "/classical-physics",
+        "/feynman-lectures",
+        "/inertia",
+        "/maxwell-equations",
+        "/philosophical-implications-of-quantum-mechanics"
       ]
     },
     {
@@ -2825,6 +2693,151 @@
       ]
     },
     {
+      "id": "/121st-century",
+      "group": 4,
+      "name": "121st century",
+      "links": [
+        "/history",
+        "/time"
+      ]
+    },
+    {
+      "id": "/farming-trap",
+      "group": 4,
+      "name": "Farming Trap",
+      "links": [
+        "/history",
+        "/essais"
+      ]
+    },
+    {
+      "id": "/history-of-technology",
+      "group": 4,
+      "name": "History Of Technology",
+      "links": [
+        "/history",
+        "/lists",
+        "/natural-sciences"
+      ]
+    },
+    {
+      "id": "/since-big-bang",
+      "group": 4,
+      "name": "Some events in the last 14 billion years",
+      "links": [
+        "/history",
+        "/time",
+        "/lists",
+        "/natural-sciences"
+      ]
+    },
+    {
+      "id": "/latin",
+      "group": 4,
+      "name": "Latin",
+      "links": [
+        "/languages"
+      ]
+    },
+    {
+      "id": "/metaphors",
+      "group": 4,
+      "name": "Metaphors",
+      "links": [
+        "/languages",
+        "/social-sciences"
+      ]
+    },
+    {
+      "id": "/cognitive-biases",
+      "group": 4,
+      "name": "Cognitive Biases",
+      "links": [
+        "/psychology",
+        "/negotiations"
+      ]
+    },
+    {
+      "id": "/emotions",
+      "group": 4,
+      "name": "Emotions",
+      "links": [
+        "/psychology"
+      ]
+    },
+    {
+      "id": "/psy-ideas",
+      "group": 4,
+      "name": "Ideas",
+      "links": [
+        "/psychology"
+      ]
+    },
+    {
+      "id": "/how-to-deal-with-pain",
+      "group": 4,
+      "name": "How to deal with Extreme Physical Pain",
+      "links": [
+        "/health",
+        "/hard-times",
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/sleep",
+      "group": 4,
+      "name": "How to sleep better?",
+      "links": [
+        "/health"
+      ]
+    },
+    {
+      "id": "/classical-physics",
+      "group": 4,
+      "name": "Classical Physics",
+      "links": [
+        "/physics",
+        "/feynman-lectures",
+        "/maxwell-equations"
+      ]
+    },
+    {
+      "id": "/feynman-lectures",
+      "group": 4,
+      "name": "Feynman Lectures",
+      "links": [
+        "/physics",
+        "/classical-physics"
+      ]
+    },
+    {
+      "id": "/inertia",
+      "group": 4,
+      "name": "Inertia",
+      "links": [
+        "/physics",
+        "/psychology"
+      ]
+    },
+    {
+      "id": "/maxwell-equations",
+      "group": 4,
+      "name": "Maxwell Equations",
+      "links": [
+        "/physics",
+        "/classical-physics"
+      ]
+    },
+    {
+      "id": "/philosophical-implications-of-quantum-mechanics",
+      "group": 4,
+      "name": "Philosophical Implications Of Quantum Mechanics",
+      "links": [
+        "/physics",
+        "/philosophy"
+      ]
+    },
+    {
       "id": "/array-rotate",
       "group": 4,
       "name": "Array Rotate",
@@ -3716,23 +3729,15 @@
     },
     {
       "source": "/root",
-      "target": "/math"
-    },
-    {
-      "source": "/root",
       "target": "/misc"
     },
     {
       "source": "/root",
-      "target": "/natural-sciences"
+      "target": "/sciences"
     },
     {
       "source": "/root",
       "target": "/skills"
-    },
-    {
-      "source": "/root",
-      "target": "/social-sciences"
     },
     {
       "source": "/root",
@@ -3795,46 +3800,6 @@
       "target": "/web-experiments"
     },
     {
-      "source": "/math",
-      "target": "/bayes"
-    },
-    {
-      "source": "/math",
-      "target": "/counter-intuitive-math"
-    },
-    {
-      "source": "/math",
-      "target": "/discrete-vs-continuous"
-    },
-    {
-      "source": "/math",
-      "target": "/equations-that-changed-the-world"
-    },
-    {
-      "source": "/math",
-      "target": "/logic-proofs"
-    },
-    {
-      "source": "/math",
-      "target": "/fourier-transform"
-    },
-    {
-      "source": "/math",
-      "target": "/laplace-transform"
-    },
-    {
-      "source": "/math",
-      "target": "/math-links"
-    },
-    {
-      "source": "/math",
-      "target": "/normal-distribution"
-    },
-    {
-      "source": "/math",
-      "target": "/probability-and-statistics"
-    },
-    {
       "source": "/misc",
       "target": "/experiments"
     },
@@ -3863,36 +3828,16 @@
       "target": "/about"
     },
     {
-      "source": "/natural-sciences",
-      "target": "/physics"
+      "source": "/sciences",
+      "target": "/social-sciences"
     },
     {
-      "source": "/natural-sciences",
-      "target": "/health"
+      "source": "/sciences",
+      "target": "/math"
     },
     {
-      "source": "/natural-sciences",
-      "target": "/akins-laws-of-spacecraft"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/astronomy"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/books-natural"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/climate-change"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/pale-blue-dot"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/sapolsky"
+      "source": "/sciences",
+      "target": "/natural-sciences"
     },
     {
       "source": "/skills",
@@ -3981,62 +3926,6 @@
     {
       "source": "/skills",
       "target": "/teaching"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/history"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/psychology"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/languages"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/being-poor"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/books-social"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/chomsky"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/economics"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/politics"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/social-change"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/sociology"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/systems"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/the-triumph-of-stupidity"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/urban-planning"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/who-goes-nazi"
     },
     {
       "source": "/tech",
@@ -4371,68 +4260,132 @@
       "target": "/year-progress"
     },
     {
-      "source": "/physics",
-      "target": "/classical-physics"
+      "source": "/social-sciences",
+      "target": "/being-poor"
     },
     {
-      "source": "/physics",
-      "target": "/feynman-lectures"
+      "source": "/social-sciences",
+      "target": "/books-social"
     },
     {
-      "source": "/physics",
-      "target": "/inertia"
+      "source": "/social-sciences",
+      "target": "/chomsky"
     },
     {
-      "source": "/physics",
-      "target": "/maxwell-equations"
+      "source": "/social-sciences",
+      "target": "/economics"
     },
     {
-      "source": "/physics",
-      "target": "/philosophical-implications-of-quantum-mechanics"
+      "source": "/social-sciences",
+      "target": "/politics"
     },
     {
-      "source": "/health",
-      "target": "/how-to-deal-with-pain"
+      "source": "/social-sciences",
+      "target": "/social-change"
     },
     {
-      "source": "/health",
-      "target": "/sleep"
+      "source": "/social-sciences",
+      "target": "/sociology"
     },
     {
-      "source": "/history",
-      "target": "/121st-century"
+      "source": "/social-sciences",
+      "target": "/systems"
     },
     {
-      "source": "/history",
-      "target": "/farming-trap"
+      "source": "/social-sciences",
+      "target": "/the-triumph-of-stupidity"
     },
     {
-      "source": "/history",
-      "target": "/history-of-technology"
+      "source": "/social-sciences",
+      "target": "/urban-planning"
     },
     {
-      "source": "/history",
-      "target": "/since-big-bang"
+      "source": "/social-sciences",
+      "target": "/who-goes-nazi"
     },
     {
-      "source": "/psychology",
-      "target": "/cognitive-biases"
+      "source": "/social-sciences",
+      "target": "/history"
     },
     {
-      "source": "/psychology",
-      "target": "/emotions"
+      "source": "/social-sciences",
+      "target": "/languages"
     },
     {
-      "source": "/psychology",
-      "target": "/psy-ideas"
+      "source": "/social-sciences",
+      "target": "/psychology"
     },
     {
-      "source": "/languages",
-      "target": "/latin"
+      "source": "/math",
+      "target": "/bayes"
     },
     {
-      "source": "/languages",
-      "target": "/metaphors"
+      "source": "/math",
+      "target": "/counter-intuitive-math"
+    },
+    {
+      "source": "/math",
+      "target": "/discrete-vs-continuous"
+    },
+    {
+      "source": "/math",
+      "target": "/equations-that-changed-the-world"
+    },
+    {
+      "source": "/math",
+      "target": "/fourier-transform"
+    },
+    {
+      "source": "/math",
+      "target": "/laplace-transform"
+    },
+    {
+      "source": "/math",
+      "target": "/logic-proofs"
+    },
+    {
+      "source": "/math",
+      "target": "/math-links"
+    },
+    {
+      "source": "/math",
+      "target": "/normal-distribution"
+    },
+    {
+      "source": "/math",
+      "target": "/probability-and-statistics"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/akins-laws-of-spacecraft"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/astronomy"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/books-natural"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/climate-change"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/pale-blue-dot"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/sapolsky"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/health"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/physics"
     },
     {
       "source": "/algorithms",
@@ -4833,6 +4786,70 @@
     {
       "source": "/work",
       "target": "/you-are-not-nameless"
+    },
+    {
+      "source": "/history",
+      "target": "/121st-century"
+    },
+    {
+      "source": "/history",
+      "target": "/farming-trap"
+    },
+    {
+      "source": "/history",
+      "target": "/history-of-technology"
+    },
+    {
+      "source": "/history",
+      "target": "/since-big-bang"
+    },
+    {
+      "source": "/languages",
+      "target": "/latin"
+    },
+    {
+      "source": "/languages",
+      "target": "/metaphors"
+    },
+    {
+      "source": "/psychology",
+      "target": "/cognitive-biases"
+    },
+    {
+      "source": "/psychology",
+      "target": "/emotions"
+    },
+    {
+      "source": "/psychology",
+      "target": "/psy-ideas"
+    },
+    {
+      "source": "/health",
+      "target": "/how-to-deal-with-pain"
+    },
+    {
+      "source": "/health",
+      "target": "/sleep"
+    },
+    {
+      "source": "/physics",
+      "target": "/classical-physics"
+    },
+    {
+      "source": "/physics",
+      "target": "/feynman-lectures"
+    },
+    {
+      "source": "/physics",
+      "target": "/inertia"
+    },
+    {
+      "source": "/physics",
+      "target": "/maxwell-equations"
+    },
+    {
+      "source": "/physics",
+      "target": "/philosophical-implications-of-quantum-mechanics"
     },
     {
       "source": "/array",
@@ -5360,18 +5377,6 @@
     },
     {
       "source": "/essais",
-      "target": "/how-to-grow-old-russell"
-    },
-    {
-      "source": "/essais",
-      "target": "/mastery"
-    },
-    {
-      "source": "/essais",
-      "target": "/problem-solving"
-    },
-    {
-      "source": "/essais",
       "target": "/farming-trap"
     },
     {
@@ -5381,6 +5386,18 @@
     {
       "source": "/essais",
       "target": "/who-goes-nazi"
+    },
+    {
+      "source": "/essais",
+      "target": "/how-to-grow-old-russell"
+    },
+    {
+      "source": "/essais",
+      "target": "/mastery"
+    },
+    {
+      "source": "/essais",
+      "target": "/problem-solving"
     },
     {
       "source": "/lists",
@@ -5395,20 +5412,20 @@
       "target": "/since-big-bang"
     },
     {
-      "source": "/bayes",
-      "target": "/probability-and-statistics"
-    },
-    {
-      "source": "/math",
-      "target": "/local-maximum"
-    },
-    {
       "source": "/experiments",
       "target": "/projects"
     },
     {
       "source": "/time-scale",
       "target": "/climate-change"
+    },
+    {
+      "source": "/bayes",
+      "target": "/probability-and-statistics"
+    },
+    {
+      "source": "/math",
+      "target": "/local-maximum"
     },
     {
       "source": "/akins-laws-of-spacecraft",
@@ -5439,6 +5456,54 @@
       "target": "/maxwell-equations"
     },
     {
+      "source": "/politics",
+      "target": "/tao-te-ching"
+    },
+    {
+      "source": "/cognitive-biases",
+      "target": "/negotiations"
+    },
+    {
+      "source": "/psychology",
+      "target": "/happiness"
+    },
+    {
+      "source": "/psychology",
+      "target": "/inertia"
+    },
+    {
+      "source": "/psychology",
+      "target": "/parenting"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/freedom"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/metaphors"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/learning"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/hijacked-minds"
+    },
+    {
+      "source": "/systems",
+      "target": "/critical-thinking"
+    },
+    {
+      "source": "/systems",
+      "target": "/get-things-done"
+    },
+    {
+      "source": "/systems",
+      "target": "/system-design"
+    },
+    {
       "source": "/critical-thinking",
       "target": "/problem-solving"
     },
@@ -5459,10 +5524,6 @@
       "target": "/ux"
     },
     {
-      "source": "/negotiations",
-      "target": "/psy-ideas"
-    },
-    {
       "source": "/skills",
       "target": "/eudaimonia"
     },
@@ -5477,42 +5538,6 @@
     {
       "source": "/skills",
       "target": "/programming"
-    },
-    {
-      "source": "/politics",
-      "target": "/tao-te-ching"
-    },
-    {
-      "source": "/psychology",
-      "target": "/happiness"
-    },
-    {
-      "source": "/psychology",
-      "target": "/inertia"
-    },
-    {
-      "source": "/psychology",
-      "target": "/parenting"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/freedom"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/learning"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/metaphors"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/hijacked-minds"
-    },
-    {
-      "source": "/systems",
-      "target": "/system-design"
     },
     {
       "source": "/algorithms",

@@ -1,6 +1,6 @@
 ---
 title: Decision Making 
-tags: skills top
+tags: skills
 ---
 
 - Prevent a problem before it happens - [[do-without-doing]]

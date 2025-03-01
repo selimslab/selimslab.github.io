@@ -291,40 +291,6 @@
     "lists",
     "ux"
   ],
-  "/bayes": [
-    "algo",
-    "math"
-  ],
-  "/counter-intuitive-math": [
-    "math"
-  ],
-  "/discrete-vs-continuous": [
-    "math"
-  ],
-  "/equations-that-changed-the-world": [
-    "math"
-  ],
-  "/fourier-transform": [
-    "math"
-  ],
-  "/laplace-transform": [
-    "math"
-  ],
-  "/logic-proofs": [
-    "math"
-  ],
-  "/math-links": [
-    "math"
-  ],
-  "/math": [
-
-  ],
-  "/normal-distribution": [
-    "math"
-  ],
-  "/probability-and-statistics": [
-    "math"
-  ],
   "/about": [
 
   ],
@@ -363,6 +329,40 @@
   "/resume": [
 
   ],
+  "/bayes": [
+    "algo",
+    "math"
+  ],
+  "/counter-intuitive-math": [
+    "math"
+  ],
+  "/discrete-vs-continuous": [
+    "math"
+  ],
+  "/equations-that-changed-the-world": [
+    "math"
+  ],
+  "/fourier-transform": [
+    "math"
+  ],
+  "/laplace-transform": [
+    "math"
+  ],
+  "/logic-proofs": [
+    "math"
+  ],
+  "/math-links": [
+    "math"
+  ],
+  "/math": [
+    "sciences"
+  ],
+  "/normal-distribution": [
+    "math"
+  ],
+  "/probability-and-statistics": [
+    "math"
+  ],
   "/akins-laws-of-spacecraft": [
     "natural-sciences",
     "sys"
@@ -387,7 +387,7 @@
     "health"
   ],
   "/natural-sciences": [
-
+    "sciences"
   ],
   "/pale-blue-dot": [
     "natural-sciences"
@@ -415,6 +415,95 @@
   "/sapolsky": [
     "natural-sciences"
   ],
+  "/sciences": [
+
+  ],
+  "/being-poor": [
+    "social-sciences"
+  ],
+  "/books-social": [
+    "social-sciences"
+  ],
+  "/chomsky": [
+    "social-sciences"
+  ],
+  "/economics": [
+    "social-sciences"
+  ],
+  "/121st-century": [
+    "history",
+    "time"
+  ],
+  "/farming-trap": [
+    "essais",
+    "history"
+  ],
+  "/history-of-technology": [
+    "history",
+    "lists",
+    "nat"
+  ],
+  "/history": [
+    "social-sciences",
+    "time"
+  ],
+  "/since-big-bang": [
+    "history",
+    "lists",
+    "nat",
+    "time"
+  ],
+  "/languages": [
+    "social-sciences"
+  ],
+  "/latin": [
+    "languages"
+  ],
+  "/metaphors": [
+    "languages",
+    "soc"
+  ],
+  "/politics": [
+    "social-sciences"
+  ],
+  "/cognitive-biases": [
+    "psychology"
+  ],
+  "/emotions": [
+    "psychology"
+  ],
+  "/psy-ideas": [
+    "psychology"
+  ],
+  "/psychology": [
+    "social-sciences"
+  ],
+  "/social-change": [
+    "social-sciences"
+  ],
+  "/social-sciences": [
+    "root",
+    "sciences"
+  ],
+  "/sociology": [
+    "social-sciences"
+  ],
+  "/systems": [
+    "nat",
+    "social-sciences"
+  ],
+  "/the-triumph-of-stupidity": [
+    "essais",
+    "social-sciences"
+  ],
+  "/urban-planning": [
+    "architecture",
+    "social-sciences"
+  ],
+  "/who-goes-nazi": [
+    "essais",
+    "social-sciences"
+  ],
   "/communication": [
     "skills"
   ],
@@ -426,8 +515,7 @@
     "skills"
   ],
   "/decision-making": [
-    "skills",
-    "top"
+    "skills"
   ],
   "/design": [
     "skills"
@@ -492,92 +580,6 @@
   ],
   "/writing": [
     "skills"
-  ],
-  "/being-poor": [
-    "social-sciences"
-  ],
-  "/books-social": [
-    "social-sciences"
-  ],
-  "/chomsky": [
-    "social-sciences"
-  ],
-  "/economics": [
-    "social-sciences"
-  ],
-  "/121st-century": [
-    "history",
-    "time"
-  ],
-  "/farming-trap": [
-    "essais",
-    "history"
-  ],
-  "/history-of-technology": [
-    "history",
-    "lists",
-    "nat"
-  ],
-  "/history": [
-    "social-sciences",
-    "time"
-  ],
-  "/since-big-bang": [
-    "history",
-    "lists",
-    "nat",
-    "time"
-  ],
-  "/languages": [
-    "social-sciences"
-  ],
-  "/latin": [
-    "languages"
-  ],
-  "/metaphors": [
-    "languages",
-    "soc"
-  ],
-  "/politics": [
-    "social-sciences"
-  ],
-  "/cognitive-biases": [
-    "psychology",
-    "top"
-  ],
-  "/emotions": [
-    "psychology"
-  ],
-  "/psy-ideas": [
-    "psychology"
-  ],
-  "/psychology": [
-    "social-sciences"
-  ],
-  "/social-change": [
-    "social-sciences"
-  ],
-  "/social-sciences": [
-    "root"
-  ],
-  "/sociology": [
-    "social-sciences"
-  ],
-  "/systems": [
-    "nat",
-    "social-sciences"
-  ],
-  "/the-triumph-of-stupidity": [
-    "essais",
-    "social-sciences"
-  ],
-  "/urban-planning": [
-    "architecture",
-    "social-sciences"
-  ],
-  "/who-goes-nazi": [
-    "essais",
-    "social-sciences"
   ],
   "/algorithms": [
     "tech"
@@ -1033,8 +1035,7 @@
     "programming"
   ],
   "/for-new-programmers": [
-    "programming",
-    "top"
+    "programming"
   ],
   "/go-data-races": [
     "programming"
@@ -1146,9 +1147,7 @@
     "projects"
   ],
   "/the-tao-of-programming": [
-    "humor",
-    "programming",
-    "top"
+    "programming"
   ],
   "/unicode": [
     "programming"

@@ -1,6 +1,5 @@
 ---
 title: Cognitive Biases
-tags: top
 ---
 
 1. I know almost nothing yet think I know the best.
