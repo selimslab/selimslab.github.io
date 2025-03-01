@@ -66,8 +66,7 @@
   ],
   "/happiness": [
     "philosophy",
-    "psy",
-    "soc"
+    "psy"
   ],
   "/hard-times": [
     "philosophy",
@@ -366,37 +365,11 @@
   "/astronomy": [
     "natural-sciences"
   ],
-  "/earth": [
-    "astronomy"
-  ],
-  "/size-of-the-universe": [
-    "astronomy"
-  ],
-  "/solar-system": [
-    "astronomy"
-  ],
-  "/the-overview-effect": [
-    "astronomy"
-  ],
   "/books-natural": [
     "natural-sciences"
   ],
   "/climate-change": [
     "natural-sciences"
-  ],
-  "/feynman-lectures": [
-    "natural-sciences"
-  ],
-  "/feynmans-epilogue": [
-    "essais",
-    "natural-sciences"
-  ],
-  "/fluid-field-boundaries": [
-    "natural-sciences"
-  ],
-  "/going-blind": [
-    "health",
-    "phil"
   ],
   "/health": [
     "natural-sciences"
@@ -417,6 +390,9 @@
   "/classical-physics": [
     "physics"
   ],
+  "/feynman-lectures": [
+    "physics"
+  ],
   "/inertia": [
     "physics",
     "psy"
@@ -431,16 +407,10 @@
   "/physics": [
     "natural-sciences"
   ],
-  "/sagan": [
-    "natural-sciences"
-  ],
   "/sapolsky": [
     "natural-sciences"
   ],
   "/communication": [
-    "skills"
-  ],
-  "/cooking": [
     "skills"
   ],
   "/creativity": [
@@ -579,6 +549,9 @@
   "/psychology": [
     "social-sciences"
   ],
+  "/social-change": [
+    "social-sciences"
+  ],
   "/social-sciences": [
     "root"
   ],
@@ -601,107 +574,8 @@
     "essais",
     "social-sciences"
   ],
-  "/computers-from-scratch": [
-    "computers"
-  ],
-  "/computers": [
-    "tech"
-  ],
-  "/containers": [
-    "computers",
-    "os"
-  ],
-  "/keyboard-shortcuts": [
-    "computers"
-  ],
-  "/networks": [
-    "computers"
-  ],
-  "/operating-systems": [
-    "computers"
-  ],
-  "/acid": [
-    "databases"
-  ],
-  "/b-trees": [
-    "databases",
-    "ds"
-  ],
-  "/databases": [
-    "tech"
-  ],
-  "/db-concepts": [
-    "databases"
-  ],
-  "/db-data-structures": [
-    "databases",
-    "ds"
-  ],
-  "/db-mistakes": [
-    "databases"
-  ],
-  "/leaderless-replication": [
-    "databases"
-  ],
-  "/lsm-trees": [
-    "algo",
-    "databases",
-    "ds"
-  ],
-  "/normalization": [
-    "databases"
-  ],
-  "/partitioning": [
-    "databases"
-  ],
-  "/replication": [
-    "databases"
-  ],
-  "/single-leader": [
-    "databases"
-  ],
-  "/sql-tips": [
-    "databases"
-  ],
-  "/armstrong-thesis": [
-    "distributed-systems"
-  ],
-  "/azure-pillars": [
-    "distributed-systems"
-  ],
-  "/consistent-hashing": [
-    "distributed-systems"
-  ],
-  "/detect-a-node-failure": [
-    "distributed-systems"
-  ],
-  "/dist-links": [
-    "distributed-systems"
-  ],
-  "/distributed-design-patterns": [
-    "distributed-systems"
-  ],
-  "/distributed-systems": [
-    "sys",
-    "tech"
-  ],
-  "/generate-a-unique-id": [
-    "distributed-systems"
-  ],
-  "/google-sre-book": [
-    "distributed-systems"
-  ],
-  "/kafka": [
-    "distributed-systems"
-  ],
-  "/spark": [
-    "distributed-systems"
-  ],
-  "/time-and-order": [
-    "distributed-systems"
-  ],
   "/algorithms": [
-    "programming"
+    "tech"
   ],
   "/array-rotate": [
     "arr",
@@ -1043,6 +917,105 @@
   ],
   "/trie": [
     "str"
+  ],
+  "/computers-from-scratch": [
+    "computers"
+  ],
+  "/computers": [
+    "tech"
+  ],
+  "/containers": [
+    "computers",
+    "os"
+  ],
+  "/keyboard-shortcuts": [
+    "computers"
+  ],
+  "/networks": [
+    "computers"
+  ],
+  "/operating-systems": [
+    "computers"
+  ],
+  "/acid": [
+    "databases"
+  ],
+  "/b-trees": [
+    "databases",
+    "ds"
+  ],
+  "/databases": [
+    "tech"
+  ],
+  "/db-concepts": [
+    "databases"
+  ],
+  "/db-data-structures": [
+    "databases",
+    "ds"
+  ],
+  "/db-mistakes": [
+    "databases"
+  ],
+  "/leaderless-replication": [
+    "databases"
+  ],
+  "/lsm-trees": [
+    "algo",
+    "databases",
+    "ds"
+  ],
+  "/normalization": [
+    "databases"
+  ],
+  "/partitioning": [
+    "databases"
+  ],
+  "/replication": [
+    "databases"
+  ],
+  "/single-leader": [
+    "databases"
+  ],
+  "/sql-tips": [
+    "databases"
+  ],
+  "/armstrong-thesis": [
+    "distributed-systems"
+  ],
+  "/azure-pillars": [
+    "distributed-systems"
+  ],
+  "/consistent-hashing": [
+    "distributed-systems"
+  ],
+  "/detect-a-node-failure": [
+    "distributed-systems"
+  ],
+  "/dist-links": [
+    "distributed-systems"
+  ],
+  "/distributed-design-patterns": [
+    "distributed-systems"
+  ],
+  "/distributed-systems": [
+    "sys",
+    "tech"
+  ],
+  "/generate-a-unique-id": [
+    "distributed-systems"
+  ],
+  "/google-sre-book": [
+    "distributed-systems"
+  ],
+  "/kafka": [
+    "distributed-systems"
+  ],
+  "/spark": [
+    "distributed-systems"
+  ],
+  "/time-and-order": [
+    "distributed-systems"
   ],
   "/c-and-python": [
     "c",

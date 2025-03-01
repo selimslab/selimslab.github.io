@@ -2,9 +2,9 @@
 
 ---
 
-You become what you think and do, day by day. Do your best, here and now. 
-
 "Well being is attained little by little, and nevertheless is no little thing itself" 
+
+You become what you think and do, day by day. Do your best, here and now. 
 
 Nature does not hurry yet everything is accomplished. 
 

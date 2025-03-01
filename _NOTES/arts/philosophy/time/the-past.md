@@ -4,9 +4,11 @@ title: Learn and move on
 
 "Hell is truth seen too late"
 
-The past had to be this way given all the factors. Many inputs come together and create an outcome, it's not all your fault. 
+Many inputs come together and create an outcome, it's not all your fault. The past had to be this way given all the factors. 
 
-Good judgment comes from experience. Eexperience comes from making a lot of mistakes. How can you make good moves without mistakes? How can you have good ideas without trying many bad ones? [[prudence]]
+Good judgment comes from experience. Experience comes mistakes. 
+
+[[prudence]]
 
 We blame ourselves but most things are so random. Much of what we get, we don't deserve. 
 

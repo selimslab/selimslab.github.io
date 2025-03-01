@@ -5,8 +5,6 @@
 
 We can only lose what we have. And this exact moment is all we have so we can't lose the past or the future. How can you lose something that's not yours? 
 
-[[life-is-not-short]] 
-
 Living until you die is living long enough.
 
 ---

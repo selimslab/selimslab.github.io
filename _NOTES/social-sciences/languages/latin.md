@@ -9,19 +9,17 @@ In dubio, abstine
 Qui rogat, non errat.
 "(One) who asks, doesn't err.”
 
-Ignavum fortuna repugnat.
+Ignavum fortuna repugnat 
 
 Quod nocet, saepe docet "That which harms, often teaches.”
 
-Innumeras curas secum adferunt liberi. Children bring with them countless troubles.
+Innumeras curas secum adferunt liberi. - Children bring with them countless troubles.
 
 Memento mori 
 
 In nocte consilium, take counsel of one's pillow.
 
-Non quia difficilia sunt non audemus, sed quia non audemus, difficilia sunt.
-
-"It is not because things are difficult that we do not dare, but because we do not dare, things are difficult."
+Non quia difficilia sunt non audemus, sed quia non audemus, difficilia sunt. - "It is not because things are difficult that we do not dare, but because we do not dare, things are difficult."
 
 Non semper erit aestas, It will not always be summer
 
@@ -47,6 +45,6 @@ A healthy mind is worth a kingdom
 
 Si vis pacem, para bellum.
 
- Give neither salt nor counsel till you are asked for it.
+Give neither salt nor counsel till you are asked for it.
 
 Veritas odium paret  Truth creates hatred

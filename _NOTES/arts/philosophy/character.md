@@ -33,7 +33,7 @@ Listen more than you speak. Know your limits. Don't take yourself too seriously.
 Never miss a good chance to shut up.
 
 
-## See also 
+## Related
 
 [[do-not-lie-to-yourself]]
 

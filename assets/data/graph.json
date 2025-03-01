@@ -86,17 +86,13 @@
       "name": "Natural Sciences",
       "links": [
         "/root",
-        "/astronomy",
         "/physics",
         "/health",
         "/akins-laws-of-spacecraft",
+        "/astronomy",
         "/books-natural",
         "/climate-change",
-        "/feynman-lectures",
-        "/feynmans-epilogue",
-        "/fluid-field-boundaries",
         "/pale-blue-dot",
-        "/sagan",
         "/sapolsky",
         "/since-big-bang",
         "/systems"
@@ -109,7 +105,6 @@
       "links": [
         "/root",
         "/communication",
-        "/cooking",
         "/creativity",
         "/critical-thinking",
         "/decision-making",
@@ -151,13 +146,13 @@
         "/chomsky",
         "/economics",
         "/politics",
+        "/social-change",
         "/sociology",
         "/systems",
         "/the-triumph-of-stupidity",
         "/urban-planning",
         "/who-goes-nazi",
         "/freedom",
-        "/happiness",
         "/learning",
         "/metaphors",
         "/hijacked-minds"
@@ -169,6 +164,7 @@
       "name": "Tech",
       "links": [
         "/root",
+        "/algorithms",
         "/databases",
         "/security",
         "/distributed-systems",
@@ -211,7 +207,6 @@
         "/time",
         "/work",
         "/tao-te-ching",
-        "/going-blind",
         "/how-to-deal-with-pain",
         "/philosophical-implications-of-quantum-mechanics",
         "/critical-thinking",
@@ -317,7 +312,6 @@
       "name": "Essais",
       "links": [
         "/lists",
-        "/feynmans-epilogue",
         "/how-to-grow-old-russell",
         "/mastery",
         "/problem-solving",
@@ -507,24 +501,13 @@
       ]
     },
     {
-      "id": "/astronomy",
-      "group": 2,
-      "name": "Astronomy",
-      "links": [
-        "/natural-sciences",
-        "/earth",
-        "/size-of-the-universe",
-        "/solar-system",
-        "/the-overview-effect"
-      ]
-    },
-    {
       "id": "/physics",
       "group": 2,
       "name": "Physics",
       "links": [
         "/natural-sciences",
         "/classical-physics",
+        "/feynman-lectures",
         "/inertia",
         "/maxwell-equations",
         "/philosophical-implications-of-quantum-mechanics"
@@ -536,7 +519,6 @@
       "name": "Health",
       "links": [
         "/natural-sciences",
-        "/going-blind",
         "/how-to-deal-with-pain",
         "/sleep"
       ]
@@ -550,6 +532,14 @@
         "/hacker-laws",
         "/polished-pixels",
         "/system-design"
+      ]
+    },
+    {
+      "id": "/astronomy",
+      "group": 2,
+      "name": "Astronomy",
+      "links": [
+        "/natural-sciences"
       ]
     },
     {
@@ -570,42 +560,9 @@
       ]
     },
     {
-      "id": "/feynman-lectures",
-      "group": 2,
-      "name": "Feynman Lectures",
-      "links": [
-        "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/feynmans-epilogue",
-      "group": 2,
-      "name": "Feynmans Epilogue",
-      "links": [
-        "/natural-sciences",
-        "/essais"
-      ]
-    },
-    {
-      "id": "/fluid-field-boundaries",
-      "group": 2,
-      "name": "Fluid Field Boundaries",
-      "links": [
-        "/natural-sciences"
-      ]
-    },
-    {
       "id": "/pale-blue-dot",
       "group": 2,
       "name": "Pale Blue Dot",
-      "links": [
-        "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/sagan",
-      "group": 2,
-      "name": "Sagan",
       "links": [
         "/natural-sciences"
       ]
@@ -622,14 +579,6 @@
       "id": "/communication",
       "group": 2,
       "name": "Communication",
-      "links": [
-        "/skills"
-      ]
-    },
-    {
-      "id": "/cooking",
-      "group": 2,
-      "name": "Cooking",
       "links": [
         "/skills"
       ]
@@ -904,6 +853,14 @@
       ]
     },
     {
+      "id": "/social-change",
+      "group": 2,
+      "name": "Social Change",
+      "links": [
+        "/social-sciences"
+      ]
+    },
+    {
       "id": "/sociology",
       "group": 2,
       "name": "Sociology",
@@ -945,6 +902,37 @@
       "links": [
         "/social-sciences",
         "/essais"
+      ]
+    },
+    {
+      "id": "/algorithms",
+      "group": 2,
+      "name": "Data Structures & Algorithms",
+      "links": [
+        "/tech",
+        "/backtrack",
+        "/bit",
+        "/data-structures",
+        "/greedy",
+        "/hash-table",
+        "/linked-list",
+        "/parallel-programming",
+        "/producer-consumer-problem",
+        "/sets",
+        "/sort",
+        "/array",
+        "/by-level",
+        "/dynamic",
+        "/graph",
+        "/heuristic",
+        "/pointers",
+        "/queue",
+        "/search",
+        "/stack",
+        "/string",
+        "/tree",
+        "/bayes",
+        "/lsm-trees"
       ]
     },
     {
@@ -1020,7 +1008,6 @@
         "/go-data-races",
         "/the-tao-of-programming",
         "/unicode",
-        "/algorithms",
         "/oop",
         "/projects",
         "/skills"
@@ -1214,8 +1201,7 @@
       "name": "Happiness",
       "links": [
         "/philosophy",
-        "/psychology",
-        "/social-sciences"
+        "/psychology"
       ]
     },
     {
@@ -1224,7 +1210,6 @@
       "name": "Hard Times",
       "links": [
         "/philosophy",
-        "/going-blind",
         "/how-to-deal-with-pain"
       ]
     },
@@ -1739,44 +1724,22 @@
       ]
     },
     {
-      "id": "/earth",
-      "group": 3,
-      "name": "Earth",
-      "links": [
-        "/astronomy"
-      ]
-    },
-    {
-      "id": "/size-of-the-universe",
-      "group": 3,
-      "name": "Size Of The Universe",
-      "links": [
-        "/astronomy"
-      ]
-    },
-    {
-      "id": "/solar-system",
-      "group": 3,
-      "name": "Solar System",
-      "links": [
-        "/astronomy"
-      ]
-    },
-    {
-      "id": "/the-overview-effect",
-      "group": 3,
-      "name": "The Overview Effect",
-      "links": [
-        "/astronomy"
-      ]
-    },
-    {
       "id": "/classical-physics",
       "group": 3,
       "name": "Classical Physics",
       "links": [
         "/physics",
+        "/feynman-lectures",
         "/maxwell-equations"
+      ]
+    },
+    {
+      "id": "/feynman-lectures",
+      "group": 3,
+      "name": "Feynman Lectures",
+      "links": [
+        "/physics",
+        "/classical-physics"
       ]
     },
     {
@@ -1803,16 +1766,6 @@
       "name": "Philosophical Implications Of Quantum Mechanics",
       "links": [
         "/physics",
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/going-blind",
-      "group": 3,
-      "name": "Going Blind",
-      "links": [
-        "/health",
-        "/hard-times",
         "/philosophy"
       ]
     },
@@ -1915,6 +1868,257 @@
       ]
     },
     {
+      "id": "/backtrack",
+      "group": 3,
+      "name": "Backtrack",
+      "links": [
+        "/algorithms"
+      ]
+    },
+    {
+      "id": "/bit",
+      "group": 3,
+      "name": "Bit",
+      "links": [
+        "/algorithms"
+      ]
+    },
+    {
+      "id": "/data-structures",
+      "group": 3,
+      "name": "Data Structures",
+      "links": [
+        "/algorithms",
+        "/b-trees",
+        "/db-data-structures",
+        "/lsm-trees"
+      ]
+    },
+    {
+      "id": "/greedy",
+      "group": 3,
+      "name": "Greedy",
+      "links": [
+        "/algorithms",
+        "/approximation"
+      ]
+    },
+    {
+      "id": "/hash-table",
+      "group": 3,
+      "name": "Hash Table",
+      "links": [
+        "/algorithms"
+      ]
+    },
+    {
+      "id": "/linked-list",
+      "group": 3,
+      "name": "Linked List",
+      "links": [
+        "/algorithms"
+      ]
+    },
+    {
+      "id": "/parallel-programming",
+      "group": 3,
+      "name": "Parallel Programming",
+      "links": [
+        "/algorithms"
+      ]
+    },
+    {
+      "id": "/producer-consumer-problem",
+      "group": 3,
+      "name": "Producer Consumer Problem",
+      "links": [
+        "/algorithms",
+        "/concurrency"
+      ]
+    },
+    {
+      "id": "/sets",
+      "group": 3,
+      "name": "Sets",
+      "links": [
+        "/algorithms"
+      ]
+    },
+    {
+      "id": "/sort",
+      "group": 3,
+      "name": "Sort",
+      "links": [
+        "/algorithms"
+      ]
+    },
+    {
+      "id": "/array",
+      "group": 3,
+      "name": "Array",
+      "links": [
+        "/algorithms",
+        "/array-rotate",
+        "/count-primes",
+        "/generate-pascals-triangle",
+        "/group-anagrams",
+        "/longest-consecutive",
+        "/plus-one",
+        "/possible-morse",
+        "/three-sum-closest"
+      ]
+    },
+    {
+      "id": "/by-level",
+      "group": 3,
+      "name": "By-level",
+      "links": [
+        "/algorithms",
+        "/easy",
+        "/hard",
+        "/mid"
+      ]
+    },
+    {
+      "id": "/dynamic",
+      "group": 3,
+      "name": "Dynamic Programming",
+      "links": [
+        "/algorithms",
+        "/climb-stairs",
+        "/coin-change",
+        "/edit-distance",
+        "/house-robber",
+        "/lengthOfLIS",
+        "/longest-common-subsequence",
+        "/longest-diverse-str",
+        "/lowest-common-ancestor",
+        "/maximal-square",
+        "/min-edit-distance",
+        "/min-path-sum",
+        "/min-steps-notepad",
+        "/stocks-with-cooldown",
+        "/ways-to-target-sum",
+        "/word-break"
+      ]
+    },
+    {
+      "id": "/graph",
+      "group": 3,
+      "name": "Graph",
+      "links": [
+        "/algorithms",
+        "/bfs-dfs-topo",
+        "/dijkstra",
+        "/lowest-common-ancestor",
+        "/bst",
+        "/delete-tree-node",
+        "/diamater-of-binary-tree",
+        "/invert-binary-tree",
+        "/is-mirror-tree",
+        "/tree-codec-py",
+        "/level-order"
+      ]
+    },
+    {
+      "id": "/heuristic",
+      "group": 3,
+      "name": "Heuristic",
+      "links": [
+        "/algorithms",
+        "/approximation",
+        "/bloom-filters",
+        "/hyperloglog"
+      ]
+    },
+    {
+      "id": "/pointers",
+      "group": 3,
+      "name": "Pointers",
+      "links": [
+        "/algorithms",
+        "/max-water",
+        "/min-covering-window",
+        "/partition-labels",
+        "/pivot-index",
+        "/reverse-letters-only",
+        "/sliding-window-max",
+        "/threeSum",
+        "/longest-valid-paranthesis"
+      ]
+    },
+    {
+      "id": "/queue",
+      "group": 3,
+      "name": "Queue",
+      "links": [
+        "/algorithms",
+        "/jump-game-2",
+        "/least-num-of-perfect-squares"
+      ]
+    },
+    {
+      "id": "/search",
+      "group": 3,
+      "name": "Search",
+      "links": [
+        "/algorithms",
+        "/binary-search",
+        "/bst",
+        "/local-maximum",
+        "/skiplists",
+        "/vector-search"
+      ]
+    },
+    {
+      "id": "/stack",
+      "group": 3,
+      "name": "Stack",
+      "links": [
+        "/algorithms",
+        "/check-brackets",
+        "/days-until-warmer-temperature",
+        "/dedup-game",
+        "/longest-valid-paranthesis",
+        "/reverse-letters-only",
+        "/decode-string"
+      ]
+    },
+    {
+      "id": "/string",
+      "group": 3,
+      "name": "String",
+      "links": [
+        "/algorithms",
+        "/decode-string",
+        "/generate-n-grams",
+        "/longest-common-prefix",
+        "/rabin-karp",
+        "/repeatedStringMatch",
+        "/string-compression",
+        "/dedup-game",
+        "/longest-diverse-str",
+        "/longest-valid-paranthesis",
+        "/trie"
+      ]
+    },
+    {
+      "id": "/tree",
+      "group": 3,
+      "name": "Tree",
+      "links": [
+        "/algorithms",
+        "/heap",
+        "/level-order",
+        "/quad-tree",
+        "/r-tree",
+        "/tree-balancing",
+        "/tree-traversals",
+        "/trie",
+        "/code"
+      ]
+    },
+    {
       "id": "/acid",
       "group": 3,
       "name": "ACID",
@@ -1928,9 +2132,8 @@
       "name": "B Trees",
       "links": [
         "/databases",
-        "/db-data-structures",
-        "/tree-balancing",
-        "/data-structures"
+        "/data-structures",
+        "/db-data-structures"
       ]
     },
     {
@@ -1947,8 +2150,8 @@
       "name": "Data Structures to Build a DB",
       "links": [
         "/databases",
-        "/b-trees",
-        "/data-structures"
+        "/data-structures",
+        "/b-trees"
       ]
     },
     {
@@ -2261,37 +2464,6 @@
       "name": "Unicode",
       "links": [
         "/programming"
-      ]
-    },
-    {
-      "id": "/algorithms",
-      "group": 3,
-      "name": "Data Structures & Algorithms",
-      "links": [
-        "/programming",
-        "/backtrack",
-        "/bit",
-        "/data-structures",
-        "/greedy",
-        "/hash-table",
-        "/linked-list",
-        "/parallel-programming",
-        "/producer-consumer-problem",
-        "/sets",
-        "/sort",
-        "/array",
-        "/by-level",
-        "/dynamic",
-        "/graph",
-        "/heuristic",
-        "/pointers",
-        "/queue",
-        "/search",
-        "/stack",
-        "/string",
-        "/tree",
-        "/bayes",
-        "/lsm-trees"
       ]
     },
     {
@@ -2633,254 +2805,586 @@
       ]
     },
     {
-      "id": "/backtrack",
+      "id": "/array-rotate",
       "group": 4,
-      "name": "Backtrack",
+      "name": "Array Rotate",
       "links": [
-        "/algorithms"
+        "/array",
+        "/easy"
       ]
     },
     {
-      "id": "/bit",
+      "id": "/count-primes",
       "group": 4,
-      "name": "Bit",
+      "name": "Count Primes",
       "links": [
-        "/algorithms"
-      ]
-    },
-    {
-      "id": "/data-structures",
-      "group": 4,
-      "name": "Data Structures",
-      "links": [
-        "/algorithms",
-        "/b-trees",
-        "/db-data-structures",
-        "/lsm-trees"
-      ]
-    },
-    {
-      "id": "/greedy",
-      "group": 4,
-      "name": "Greedy",
-      "links": [
-        "/algorithms",
-        "/approximation"
-      ]
-    },
-    {
-      "id": "/hash-table",
-      "group": 4,
-      "name": "Hash Table",
-      "links": [
-        "/algorithms"
-      ]
-    },
-    {
-      "id": "/linked-list",
-      "group": 4,
-      "name": "Linked List",
-      "links": [
-        "/algorithms"
-      ]
-    },
-    {
-      "id": "/parallel-programming",
-      "group": 4,
-      "name": "Parallel Programming",
-      "links": [
-        "/algorithms"
-      ]
-    },
-    {
-      "id": "/producer-consumer-problem",
-      "group": 4,
-      "name": "Producer Consumer Problem",
-      "links": [
-        "/algorithms",
-        "/concurrency"
-      ]
-    },
-    {
-      "id": "/sets",
-      "group": 4,
-      "name": "Sets",
-      "links": [
-        "/algorithms"
-      ]
-    },
-    {
-      "id": "/sort",
-      "group": 4,
-      "name": "Sort",
-      "links": [
-        "/algorithms"
-      ]
-    },
-    {
-      "id": "/array",
-      "group": 4,
-      "name": "Array",
-      "links": [
-        "/algorithms",
-        "/array-rotate",
-        "/count-primes",
-        "/generate-pascals-triangle",
-        "/group-anagrams",
-        "/longest-consecutive",
-        "/plus-one",
-        "/possible-morse",
-        "/three-sum-closest"
-      ]
-    },
-    {
-      "id": "/by-level",
-      "group": 4,
-      "name": "By-level",
-      "links": [
-        "/algorithms",
-        "/easy",
-        "/hard",
+        "/array",
         "/mid"
       ]
     },
     {
-      "id": "/dynamic",
+      "id": "/generate-pascals-triangle",
       "group": 4,
-      "name": "Dynamic Programming",
+      "name": "Generate Pascals Triangle",
       "links": [
-        "/algorithms",
+        "/array",
+        "/easy"
+      ]
+    },
+    {
+      "id": "/group-anagrams",
+      "group": 4,
+      "name": "Group Anagrams",
+      "links": [
+        "/array",
+        "/easy"
+      ]
+    },
+    {
+      "id": "/longest-consecutive",
+      "group": 4,
+      "name": "Longest Consecutive",
+      "links": [
+        "/array"
+      ]
+    },
+    {
+      "id": "/plus-one",
+      "group": 4,
+      "name": "Plus One",
+      "links": [
+        "/array"
+      ]
+    },
+    {
+      "id": "/possible-morse",
+      "group": 4,
+      "name": "Possible Morse",
+      "links": [
+        "/array"
+      ]
+    },
+    {
+      "id": "/three-sum-closest",
+      "group": 4,
+      "name": "Three Sum Closest",
+      "links": [
+        "/array"
+      ]
+    },
+    {
+      "id": "/easy",
+      "group": 4,
+      "name": "Easy",
+      "links": [
+        "/by-level",
+        "/array-rotate",
+        "/generate-pascals-triangle",
+        "/group-anagrams",
         "/climb-stairs",
+        "/binary-search",
+        "/bst",
+        "/check-brackets",
+        "/days-until-warmer-temperature",
+        "/dedup-game",
+        "/decode-string",
+        "/longest-common-prefix"
+      ]
+    },
+    {
+      "id": "/hard",
+      "group": 4,
+      "name": "Hard",
+      "links": [
+        "/by-level",
+        "/least-num-of-perfect-squares"
+      ]
+    },
+    {
+      "id": "/mid",
+      "group": 4,
+      "name": "Medium",
+      "links": [
+        "/by-level",
+        "/count-primes",
         "/coin-change",
         "/edit-distance",
         "/house-robber",
         "/lengthOfLIS",
         "/longest-common-subsequence",
         "/longest-diverse-str",
-        "/lowest-common-ancestor",
-        "/maximal-square",
         "/min-edit-distance",
-        "/min-path-sum",
-        "/min-steps-notepad",
-        "/stocks-with-cooldown",
-        "/ways-to-target-sum",
-        "/word-break"
-      ]
-    },
-    {
-      "id": "/graph",
-      "group": 4,
-      "name": "Graph",
-      "links": [
-        "/algorithms",
         "/bfs-dfs-topo",
         "/dijkstra",
-        "/lowest-common-ancestor",
-        "/bst",
+        "/longest-valid-paranthesis",
+        "/generate-n-grams",
         "/delete-tree-node",
         "/diamater-of-binary-tree",
         "/invert-binary-tree",
         "/is-mirror-tree",
-        "/tree-codec-py",
         "/level-order"
       ]
     },
     {
-      "id": "/heuristic",
+      "id": "/climb-stairs",
       "group": 4,
-      "name": "Heuristic",
+      "name": "Climb Stairs",
       "links": [
-        "/algorithms",
-        "/approximation",
-        "/bloom-filters",
-        "/hyperloglog"
+        "/dynamic",
+        "/easy"
       ]
     },
     {
-      "id": "/pointers",
+      "id": "/coin-change",
       "group": 4,
-      "name": "Pointers",
+      "name": "Coin Change",
       "links": [
-        "/algorithms",
-        "/max-water",
-        "/min-covering-window",
-        "/partition-labels",
-        "/pivot-index",
-        "/reverse-letters-only",
-        "/sliding-window-max",
-        "/threeSum",
-        "/longest-valid-paranthesis"
+        "/dynamic",
+        "/mid"
       ]
     },
     {
-      "id": "/queue",
+      "id": "/edit-distance",
       "group": 4,
-      "name": "Queue",
+      "name": "Edit Distance",
       "links": [
-        "/algorithms",
-        "/jump-game-2",
-        "/least-num-of-perfect-squares"
+        "/dynamic",
+        "/mid"
       ]
     },
     {
-      "id": "/search",
+      "id": "/house-robber",
       "group": 4,
-      "name": "Search",
+      "name": "House Robber",
       "links": [
-        "/algorithms",
-        "/binary-search",
-        "/bst",
-        "/local-maximum",
-        "/skiplists",
-        "/vector-search"
+        "/dynamic",
+        "/mid"
       ]
     },
     {
-      "id": "/stack",
+      "id": "/lengthOfLIS",
       "group": 4,
-      "name": "Stack",
+      "name": "Longest increasing subsequence",
       "links": [
-        "/algorithms",
-        "/check-brackets",
-        "/days-until-warmer-temperature",
-        "/dedup-game",
-        "/longest-valid-paranthesis",
-        "/reverse-letters-only",
-        "/decode-string"
+        "/dynamic",
+        "/mid"
       ]
     },
     {
-      "id": "/string",
+      "id": "/longest-common-subsequence",
       "group": 4,
-      "name": "String",
+      "name": "Longest Common Subsequence",
       "links": [
-        "/algorithms",
-        "/decode-string",
-        "/generate-n-grams",
-        "/longest-common-prefix",
-        "/rabin-karp",
-        "/repeatedStringMatch",
-        "/string-compression",
-        "/dedup-game",
-        "/longest-diverse-str",
-        "/longest-valid-paranthesis",
-        "/trie"
+        "/dynamic",
+        "/mid",
+        "/min-edit-distance"
       ]
     },
     {
-      "id": "/tree",
+      "id": "/longest-diverse-str",
       "group": 4,
-      "name": "Tree",
+      "name": "Longest Diverse Str",
       "links": [
-        "/algorithms",
-        "/heap",
-        "/level-order",
-        "/quad-tree",
-        "/r-tree",
-        "/tree-balancing",
-        "/tree-traversals",
-        "/trie",
-        "/code"
+        "/dynamic",
+        "/mid",
+        "/string",
+        "/heap"
+      ]
+    },
+    {
+      "id": "/lowest-common-ancestor",
+      "group": 4,
+      "name": "Lowest Common Ancestor",
+      "links": [
+        "/dynamic",
+        "/graph"
+      ]
+    },
+    {
+      "id": "/maximal-square",
+      "group": 4,
+      "name": "Maximal Square",
+      "links": [
+        "/dynamic"
+      ]
+    },
+    {
+      "id": "/min-edit-distance",
+      "group": 4,
+      "name": "Min Edit Distance",
+      "links": [
+        "/dynamic",
+        "/mid",
+        "/longest-common-subsequence"
+      ]
+    },
+    {
+      "id": "/min-path-sum",
+      "group": 4,
+      "name": "Min Path Sum",
+      "links": [
+        "/dynamic"
+      ]
+    },
+    {
+      "id": "/min-steps-notepad",
+      "group": 4,
+      "name": "Min Steps Notepad",
+      "links": [
+        "/dynamic"
+      ]
+    },
+    {
+      "id": "/stocks-with-cooldown",
+      "group": 4,
+      "name": "Stocks With Cooldown",
+      "links": [
+        "/dynamic"
+      ]
+    },
+    {
+      "id": "/ways-to-target-sum",
+      "group": 4,
+      "name": "Ways To Target Sum",
+      "links": [
+        "/dynamic"
+      ]
+    },
+    {
+      "id": "/word-break",
+      "group": 4,
+      "name": "Word Break",
+      "links": [
+        "/dynamic"
+      ]
+    },
+    {
+      "id": "/bfs-dfs-topo",
+      "group": 4,
+      "name": "BFS DFS Toposort",
+      "links": [
+        "/graph",
+        "/mid"
+      ]
+    },
+    {
+      "id": "/dijkstra",
+      "group": 4,
+      "name": "Dijkstra",
+      "links": [
+        "/graph",
+        "/mid"
+      ]
+    },
+    {
+      "id": "/approximation",
+      "group": 4,
+      "name": "Approximation",
+      "links": [
+        "/heuristic",
+        "/greedy"
+      ]
+    },
+    {
+      "id": "/bloom-filters",
+      "group": 4,
+      "name": "Bloom Filters",
+      "links": [
+        "/heuristic"
+      ]
+    },
+    {
+      "id": "/hyperloglog",
+      "group": 4,
+      "name": "Hyperloglog",
+      "links": [
+        "/heuristic"
+      ]
+    },
+    {
+      "id": "/max-water",
+      "group": 4,
+      "name": "Max Water",
+      "links": [
+        "/pointers"
+      ]
+    },
+    {
+      "id": "/min-covering-window",
+      "group": 4,
+      "name": "Min Covering Window",
+      "links": [
+        "/pointers"
+      ]
+    },
+    {
+      "id": "/partition-labels",
+      "group": 4,
+      "name": "Partition Labels",
+      "links": [
+        "/pointers"
+      ]
+    },
+    {
+      "id": "/pivot-index",
+      "group": 4,
+      "name": "Pivot Index",
+      "links": [
+        "/pointers"
+      ]
+    },
+    {
+      "id": "/reverse-letters-only",
+      "group": 4,
+      "name": "Reverse Letters Only",
+      "links": [
+        "/pointers",
+        "/stack"
+      ]
+    },
+    {
+      "id": "/sliding-window-max",
+      "group": 4,
+      "name": "Sliding Window Max",
+      "links": [
+        "/pointers"
+      ]
+    },
+    {
+      "id": "/threeSum",
+      "group": 4,
+      "name": "Threesum",
+      "links": [
+        "/pointers"
+      ]
+    },
+    {
+      "id": "/jump-game-2",
+      "group": 4,
+      "name": "Jump Game 2",
+      "links": [
+        "/queue"
+      ]
+    },
+    {
+      "id": "/least-num-of-perfect-squares",
+      "group": 4,
+      "name": "Least Num Of Perfect Squares",
+      "links": [
+        "/queue",
+        "/hard"
+      ]
+    },
+    {
+      "id": "/binary-search",
+      "group": 4,
+      "name": "Binary Search",
+      "links": [
+        "/search",
+        "/easy"
+      ]
+    },
+    {
+      "id": "/bst",
+      "group": 4,
+      "name": "Binary Search Tree",
+      "links": [
+        "/search",
+        "/easy",
+        "/graph"
+      ]
+    },
+    {
+      "id": "/local-maximum",
+      "group": 4,
+      "name": "Local Maximum",
+      "links": [
+        "/search",
+        "/math"
+      ]
+    },
+    {
+      "id": "/skiplists",
+      "group": 4,
+      "name": "Skip Lists",
+      "links": [
+        "/search"
+      ]
+    },
+    {
+      "id": "/vector-search",
+      "group": 4,
+      "name": "Vector Search",
+      "links": [
+        "/search"
+      ]
+    },
+    {
+      "id": "/check-brackets",
+      "group": 4,
+      "name": "Check Brackets",
+      "links": [
+        "/stack",
+        "/easy"
+      ]
+    },
+    {
+      "id": "/days-until-warmer-temperature",
+      "group": 4,
+      "name": "Days Until Warmer Temperature",
+      "links": [
+        "/stack",
+        "/easy"
+      ]
+    },
+    {
+      "id": "/dedup-game",
+      "group": 4,
+      "name": "Dedup Game",
+      "links": [
+        "/stack",
+        "/easy",
+        "/string"
+      ]
+    },
+    {
+      "id": "/longest-valid-paranthesis",
+      "group": 4,
+      "name": "Longest Valid Paranthesis",
+      "links": [
+        "/stack",
+        "/mid",
+        "/pointers",
+        "/string"
+      ]
+    },
+    {
+      "id": "/decode-string",
+      "group": 4,
+      "name": "Decode String",
+      "links": [
+        "/string",
+        "/easy",
+        "/stack"
+      ]
+    },
+    {
+      "id": "/generate-n-grams",
+      "group": 4,
+      "name": "Generate N Grams",
+      "links": [
+        "/string",
+        "/mid"
+      ]
+    },
+    {
+      "id": "/longest-common-prefix",
+      "group": 4,
+      "name": "Longest Common Prefix",
+      "links": [
+        "/string",
+        "/easy"
+      ]
+    },
+    {
+      "id": "/rabin-karp",
+      "group": 4,
+      "name": "Rabin Karp",
+      "links": [
+        "/string"
+      ]
+    },
+    {
+      "id": "/repeatedStringMatch",
+      "group": 4,
+      "name": "Repeatedstringmatch",
+      "links": [
+        "/string"
+      ]
+    },
+    {
+      "id": "/string-compression",
+      "group": 4,
+      "name": "String Compression",
+      "links": [
+        "/string"
+      ]
+    },
+    {
+      "id": "/heap",
+      "group": 4,
+      "name": "Heap",
+      "links": [
+        "/tree",
+        "/longest-diverse-str"
+      ]
+    },
+    {
+      "id": "/level-order",
+      "group": 4,
+      "name": "Level Order",
+      "links": [
+        "/tree",
+        "/mid",
+        "/graph"
+      ]
+    },
+    {
+      "id": "/quad-tree",
+      "group": 4,
+      "name": "Quad Tree",
+      "links": [
+        "/tree"
+      ]
+    },
+    {
+      "id": "/r-tree",
+      "group": 4,
+      "name": "R Tree",
+      "links": [
+        "/tree"
+      ]
+    },
+    {
+      "id": "/tree-balancing",
+      "group": 4,
+      "name": "Tree Balancing",
+      "links": [
+        "/tree"
+      ]
+    },
+    {
+      "id": "/tree-traversals",
+      "group": 4,
+      "name": "Tree Traversals",
+      "links": [
+        "/tree"
+      ]
+    },
+    {
+      "id": "/trie",
+      "group": 4,
+      "name": "Trie",
+      "links": [
+        "/tree",
+        "/string"
+      ]
+    },
+    {
+      "id": "/code",
+      "group": 4,
+      "name": "Code",
+      "links": [
+        "/tree",
+        "/delete-tree-node",
+        "/diamater-of-binary-tree",
+        "/invert-binary-tree",
+        "/is-mirror-tree",
+        "/max-path-sum",
+        "/max-tree-depth",
+        "/post-order-go",
+        "/tree-codec-py",
+        "/unique-bst"
       ]
     },
     {
@@ -3100,592 +3604,8 @@
       ]
     },
     {
-      "id": "/array-rotate",
-      "group": 5,
-      "name": "Array Rotate",
-      "links": [
-        "/array",
-        "/easy"
-      ]
-    },
-    {
-      "id": "/count-primes",
-      "group": 5,
-      "name": "Count Primes",
-      "links": [
-        "/array",
-        "/mid"
-      ]
-    },
-    {
-      "id": "/generate-pascals-triangle",
-      "group": 5,
-      "name": "Generate Pascals Triangle",
-      "links": [
-        "/array",
-        "/easy"
-      ]
-    },
-    {
-      "id": "/group-anagrams",
-      "group": 5,
-      "name": "Group Anagrams",
-      "links": [
-        "/array",
-        "/easy"
-      ]
-    },
-    {
-      "id": "/longest-consecutive",
-      "group": 5,
-      "name": "Longest Consecutive",
-      "links": [
-        "/array"
-      ]
-    },
-    {
-      "id": "/plus-one",
-      "group": 5,
-      "name": "Plus One",
-      "links": [
-        "/array"
-      ]
-    },
-    {
-      "id": "/possible-morse",
-      "group": 5,
-      "name": "Possible Morse",
-      "links": [
-        "/array"
-      ]
-    },
-    {
-      "id": "/three-sum-closest",
-      "group": 5,
-      "name": "Three Sum Closest",
-      "links": [
-        "/array"
-      ]
-    },
-    {
-      "id": "/easy",
-      "group": 5,
-      "name": "Easy",
-      "links": [
-        "/by-level",
-        "/array-rotate",
-        "/generate-pascals-triangle",
-        "/group-anagrams",
-        "/climb-stairs",
-        "/binary-search",
-        "/bst",
-        "/check-brackets",
-        "/days-until-warmer-temperature",
-        "/dedup-game",
-        "/decode-string",
-        "/longest-common-prefix"
-      ]
-    },
-    {
-      "id": "/hard",
-      "group": 5,
-      "name": "Hard",
-      "links": [
-        "/by-level",
-        "/least-num-of-perfect-squares"
-      ]
-    },
-    {
-      "id": "/mid",
-      "group": 5,
-      "name": "Medium",
-      "links": [
-        "/by-level",
-        "/count-primes",
-        "/coin-change",
-        "/edit-distance",
-        "/house-robber",
-        "/lengthOfLIS",
-        "/longest-common-subsequence",
-        "/longest-diverse-str",
-        "/min-edit-distance",
-        "/bfs-dfs-topo",
-        "/dijkstra",
-        "/longest-valid-paranthesis",
-        "/generate-n-grams",
-        "/delete-tree-node",
-        "/diamater-of-binary-tree",
-        "/invert-binary-tree",
-        "/is-mirror-tree",
-        "/level-order"
-      ]
-    },
-    {
-      "id": "/climb-stairs",
-      "group": 5,
-      "name": "Climb Stairs",
-      "links": [
-        "/dynamic",
-        "/easy"
-      ]
-    },
-    {
-      "id": "/coin-change",
-      "group": 5,
-      "name": "Coin Change",
-      "links": [
-        "/dynamic",
-        "/mid"
-      ]
-    },
-    {
-      "id": "/edit-distance",
-      "group": 5,
-      "name": "Edit Distance",
-      "links": [
-        "/dynamic",
-        "/mid"
-      ]
-    },
-    {
-      "id": "/house-robber",
-      "group": 5,
-      "name": "House Robber",
-      "links": [
-        "/dynamic",
-        "/mid"
-      ]
-    },
-    {
-      "id": "/lengthOfLIS",
-      "group": 5,
-      "name": "Longest increasing subsequence",
-      "links": [
-        "/dynamic",
-        "/mid"
-      ]
-    },
-    {
-      "id": "/longest-common-subsequence",
-      "group": 5,
-      "name": "Longest Common Subsequence",
-      "links": [
-        "/dynamic",
-        "/mid",
-        "/min-edit-distance"
-      ]
-    },
-    {
-      "id": "/longest-diverse-str",
-      "group": 5,
-      "name": "Longest Diverse Str",
-      "links": [
-        "/dynamic",
-        "/mid",
-        "/string",
-        "/heap"
-      ]
-    },
-    {
-      "id": "/lowest-common-ancestor",
-      "group": 5,
-      "name": "Lowest Common Ancestor",
-      "links": [
-        "/dynamic",
-        "/graph"
-      ]
-    },
-    {
-      "id": "/maximal-square",
-      "group": 5,
-      "name": "Maximal Square",
-      "links": [
-        "/dynamic"
-      ]
-    },
-    {
-      "id": "/min-edit-distance",
-      "group": 5,
-      "name": "Min Edit Distance",
-      "links": [
-        "/dynamic",
-        "/mid",
-        "/longest-common-subsequence"
-      ]
-    },
-    {
-      "id": "/min-path-sum",
-      "group": 5,
-      "name": "Min Path Sum",
-      "links": [
-        "/dynamic"
-      ]
-    },
-    {
-      "id": "/min-steps-notepad",
-      "group": 5,
-      "name": "Min Steps Notepad",
-      "links": [
-        "/dynamic"
-      ]
-    },
-    {
-      "id": "/stocks-with-cooldown",
-      "group": 5,
-      "name": "Stocks With Cooldown",
-      "links": [
-        "/dynamic"
-      ]
-    },
-    {
-      "id": "/ways-to-target-sum",
-      "group": 5,
-      "name": "Ways To Target Sum",
-      "links": [
-        "/dynamic"
-      ]
-    },
-    {
-      "id": "/word-break",
-      "group": 5,
-      "name": "Word Break",
-      "links": [
-        "/dynamic"
-      ]
-    },
-    {
-      "id": "/bfs-dfs-topo",
-      "group": 5,
-      "name": "BFS DFS Toposort",
-      "links": [
-        "/graph",
-        "/mid"
-      ]
-    },
-    {
-      "id": "/dijkstra",
-      "group": 5,
-      "name": "Dijkstra",
-      "links": [
-        "/graph",
-        "/mid"
-      ]
-    },
-    {
-      "id": "/approximation",
-      "group": 5,
-      "name": "Approximation",
-      "links": [
-        "/heuristic",
-        "/greedy"
-      ]
-    },
-    {
-      "id": "/bloom-filters",
-      "group": 5,
-      "name": "Bloom Filters",
-      "links": [
-        "/heuristic"
-      ]
-    },
-    {
-      "id": "/hyperloglog",
-      "group": 5,
-      "name": "Hyperloglog",
-      "links": [
-        "/heuristic"
-      ]
-    },
-    {
-      "id": "/max-water",
-      "group": 5,
-      "name": "Max Water",
-      "links": [
-        "/pointers"
-      ]
-    },
-    {
-      "id": "/min-covering-window",
-      "group": 5,
-      "name": "Min Covering Window",
-      "links": [
-        "/pointers"
-      ]
-    },
-    {
-      "id": "/partition-labels",
-      "group": 5,
-      "name": "Partition Labels",
-      "links": [
-        "/pointers"
-      ]
-    },
-    {
-      "id": "/pivot-index",
-      "group": 5,
-      "name": "Pivot Index",
-      "links": [
-        "/pointers"
-      ]
-    },
-    {
-      "id": "/reverse-letters-only",
-      "group": 5,
-      "name": "Reverse Letters Only",
-      "links": [
-        "/pointers",
-        "/stack"
-      ]
-    },
-    {
-      "id": "/sliding-window-max",
-      "group": 5,
-      "name": "Sliding Window Max",
-      "links": [
-        "/pointers"
-      ]
-    },
-    {
-      "id": "/threeSum",
-      "group": 5,
-      "name": "Threesum",
-      "links": [
-        "/pointers"
-      ]
-    },
-    {
-      "id": "/jump-game-2",
-      "group": 5,
-      "name": "Jump Game 2",
-      "links": [
-        "/queue"
-      ]
-    },
-    {
-      "id": "/least-num-of-perfect-squares",
-      "group": 5,
-      "name": "Least Num Of Perfect Squares",
-      "links": [
-        "/queue",
-        "/hard"
-      ]
-    },
-    {
-      "id": "/binary-search",
-      "group": 5,
-      "name": "Binary Search",
-      "links": [
-        "/search",
-        "/easy"
-      ]
-    },
-    {
-      "id": "/bst",
-      "group": 5,
-      "name": "Binary Search Tree",
-      "links": [
-        "/search",
-        "/easy",
-        "/graph"
-      ]
-    },
-    {
-      "id": "/local-maximum",
-      "group": 5,
-      "name": "Local Maximum",
-      "links": [
-        "/search",
-        "/math"
-      ]
-    },
-    {
-      "id": "/skiplists",
-      "group": 5,
-      "name": "Skip Lists",
-      "links": [
-        "/search"
-      ]
-    },
-    {
-      "id": "/vector-search",
-      "group": 5,
-      "name": "Vector Search",
-      "links": [
-        "/search"
-      ]
-    },
-    {
-      "id": "/check-brackets",
-      "group": 5,
-      "name": "Check Brackets",
-      "links": [
-        "/stack",
-        "/easy"
-      ]
-    },
-    {
-      "id": "/days-until-warmer-temperature",
-      "group": 5,
-      "name": "Days Until Warmer Temperature",
-      "links": [
-        "/stack",
-        "/easy"
-      ]
-    },
-    {
-      "id": "/dedup-game",
-      "group": 5,
-      "name": "Dedup Game",
-      "links": [
-        "/stack",
-        "/easy",
-        "/string"
-      ]
-    },
-    {
-      "id": "/longest-valid-paranthesis",
-      "group": 5,
-      "name": "Longest Valid Paranthesis",
-      "links": [
-        "/stack",
-        "/mid",
-        "/pointers",
-        "/string"
-      ]
-    },
-    {
-      "id": "/decode-string",
-      "group": 5,
-      "name": "Decode String",
-      "links": [
-        "/string",
-        "/easy",
-        "/stack"
-      ]
-    },
-    {
-      "id": "/generate-n-grams",
-      "group": 5,
-      "name": "Generate N Grams",
-      "links": [
-        "/string",
-        "/mid"
-      ]
-    },
-    {
-      "id": "/longest-common-prefix",
-      "group": 5,
-      "name": "Longest Common Prefix",
-      "links": [
-        "/string",
-        "/easy"
-      ]
-    },
-    {
-      "id": "/rabin-karp",
-      "group": 5,
-      "name": "Rabin Karp",
-      "links": [
-        "/string"
-      ]
-    },
-    {
-      "id": "/repeatedStringMatch",
-      "group": 5,
-      "name": "Repeatedstringmatch",
-      "links": [
-        "/string"
-      ]
-    },
-    {
-      "id": "/string-compression",
-      "group": 5,
-      "name": "String Compression",
-      "links": [
-        "/string"
-      ]
-    },
-    {
-      "id": "/heap",
-      "group": 5,
-      "name": "Heap",
-      "links": [
-        "/tree",
-        "/longest-diverse-str"
-      ]
-    },
-    {
-      "id": "/level-order",
-      "group": 5,
-      "name": "Level Order",
-      "links": [
-        "/tree",
-        "/mid",
-        "/graph"
-      ]
-    },
-    {
-      "id": "/quad-tree",
-      "group": 5,
-      "name": "Quad Tree",
-      "links": [
-        "/tree"
-      ]
-    },
-    {
-      "id": "/r-tree",
-      "group": 5,
-      "name": "R Tree",
-      "links": [
-        "/tree"
-      ]
-    },
-    {
-      "id": "/tree-balancing",
-      "group": 5,
-      "name": "Tree Balancing",
-      "links": [
-        "/tree",
-        "/b-trees"
-      ]
-    },
-    {
-      "id": "/tree-traversals",
-      "group": 5,
-      "name": "Tree Traversals",
-      "links": [
-        "/tree"
-      ]
-    },
-    {
-      "id": "/trie",
-      "group": 5,
-      "name": "Trie",
-      "links": [
-        "/tree",
-        "/string"
-      ]
-    },
-    {
-      "id": "/code",
-      "group": 5,
-      "name": "Code",
-      "links": [
-        "/tree",
-        "/delete-tree-node",
-        "/diamater-of-binary-tree",
-        "/invert-binary-tree",
-        "/is-mirror-tree",
-        "/max-path-sum",
-        "/max-tree-depth",
-        "/post-order-go",
-        "/tree-codec-py",
-        "/unique-bst"
-      ]
-    },
-    {
       "id": "/delete-tree-node",
-      "group": 6,
+      "group": 5,
       "name": "Delete Tree Node",
       "links": [
         "/code",
@@ -3695,7 +3615,7 @@
     },
     {
       "id": "/diamater-of-binary-tree",
-      "group": 6,
+      "group": 5,
       "name": "Diamater Of Binary Tree",
       "links": [
         "/code",
@@ -3705,7 +3625,7 @@
     },
     {
       "id": "/invert-binary-tree",
-      "group": 6,
+      "group": 5,
       "name": "Invert Binary Tree",
       "links": [
         "/code",
@@ -3715,7 +3635,7 @@
     },
     {
       "id": "/is-mirror-tree",
-      "group": 6,
+      "group": 5,
       "name": "Is Mirror Tree",
       "links": [
         "/code",
@@ -3725,7 +3645,7 @@
     },
     {
       "id": "/max-path-sum",
-      "group": 6,
+      "group": 5,
       "name": "Max Path Sum",
       "links": [
         "/code"
@@ -3733,7 +3653,7 @@
     },
     {
       "id": "/max-tree-depth",
-      "group": 6,
+      "group": 5,
       "name": "Max Tree Depth",
       "links": [
         "/code"
@@ -3741,7 +3661,7 @@
     },
     {
       "id": "/post-order-go",
-      "group": 6,
+      "group": 5,
       "name": "Post Order Go",
       "links": [
         "/code"
@@ -3749,7 +3669,7 @@
     },
     {
       "id": "/tree-codec-py",
-      "group": 6,
+      "group": 5,
       "name": "Tree Codec Py",
       "links": [
         "/code",
@@ -3758,7 +3678,7 @@
     },
     {
       "id": "/unique-bst",
-      "group": 6,
+      "group": 5,
       "name": "Unique Bst",
       "links": [
         "/code"
@@ -3916,10 +3836,6 @@
     },
     {
       "source": "/natural-sciences",
-      "target": "/astronomy"
-    },
-    {
-      "source": "/natural-sciences",
       "target": "/physics"
     },
     {
@@ -3932,6 +3848,10 @@
     },
     {
       "source": "/natural-sciences",
+      "target": "/astronomy"
+    },
+    {
+      "source": "/natural-sciences",
       "target": "/books-natural"
     },
     {
@@ -3940,23 +3860,7 @@
     },
     {
       "source": "/natural-sciences",
-      "target": "/feynman-lectures"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/feynmans-epilogue"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/fluid-field-boundaries"
-    },
-    {
-      "source": "/natural-sciences",
       "target": "/pale-blue-dot"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/sagan"
     },
     {
       "source": "/natural-sciences",
@@ -3965,10 +3869,6 @@
     {
       "source": "/skills",
       "target": "/communication"
-    },
-    {
-      "source": "/skills",
-      "target": "/cooking"
     },
     {
       "source": "/skills",
@@ -4088,6 +3988,10 @@
     },
     {
       "source": "/social-sciences",
+      "target": "/social-change"
+    },
+    {
+      "source": "/social-sciences",
       "target": "/sociology"
     },
     {
@@ -4105,6 +4009,10 @@
     {
       "source": "/social-sciences",
       "target": "/who-goes-nazi"
+    },
+    {
+      "source": "/tech",
+      "target": "/algorithms"
     },
     {
       "source": "/tech",
@@ -4435,24 +4343,12 @@
       "target": "/year-progress"
     },
     {
-      "source": "/astronomy",
-      "target": "/earth"
-    },
-    {
-      "source": "/astronomy",
-      "target": "/size-of-the-universe"
-    },
-    {
-      "source": "/astronomy",
-      "target": "/solar-system"
-    },
-    {
-      "source": "/astronomy",
-      "target": "/the-overview-effect"
+      "source": "/physics",
+      "target": "/classical-physics"
     },
     {
       "source": "/physics",
-      "target": "/classical-physics"
+      "target": "/feynman-lectures"
     },
     {
       "source": "/physics",
@@ -4465,10 +4361,6 @@
     {
       "source": "/physics",
       "target": "/philosophical-implications-of-quantum-mechanics"
-    },
-    {
-      "source": "/health",
-      "target": "/going-blind"
     },
     {
       "source": "/health",
@@ -4513,6 +4405,90 @@
     {
       "source": "/languages",
       "target": "/metaphors"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/backtrack"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/bit"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/data-structures"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/greedy"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/hash-table"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/linked-list"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/parallel-programming"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/producer-consumer-problem"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/sets"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/sort"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/array"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/by-level"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/dynamic"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/graph"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/heuristic"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/pointers"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/queue"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/search"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/stack"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/string"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/tree"
     },
     {
       "source": "/databases",
@@ -4684,10 +4660,6 @@
     },
     {
       "source": "/programming",
-      "target": "/algorithms"
-    },
-    {
-      "source": "/programming",
       "target": "/oop"
     },
     {
@@ -4833,198 +4805,6 @@
     {
       "source": "/work",
       "target": "/you-are-not-nameless"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/backtrack"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/bit"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/data-structures"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/greedy"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/hash-table"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/linked-list"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/parallel-programming"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/producer-consumer-problem"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/sets"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/sort"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/array"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/by-level"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/dynamic"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/graph"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/heuristic"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/pointers"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/queue"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/search"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/stack"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/string"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/tree"
-    },
-    {
-      "source": "/oop",
-      "target": "/block"
-    },
-    {
-      "source": "/oop",
-      "target": "/design-a-bicycle"
-    },
-    {
-      "source": "/oop",
-      "target": "/design-a-book-app"
-    },
-    {
-      "source": "/oop",
-      "target": "/design-a-crm"
-    },
-    {
-      "source": "/oop",
-      "target": "/design-a-gov-cloud"
-    },
-    {
-      "source": "/oop",
-      "target": "/design-a-personal-note-publishing-system"
-    },
-    {
-      "source": "/oop",
-      "target": "/design-a-trader"
-    },
-    {
-      "source": "/oop",
-      "target": "/design-a-web-crawler"
-    },
-    {
-      "source": "/oop",
-      "target": "/design-auth"
-    },
-    {
-      "source": "/oop",
-      "target": "/design-etl-pipeline"
-    },
-    {
-      "source": "/oop",
-      "target": "/design-oauth"
-    },
-    {
-      "source": "/oop",
-      "target": "/design-units"
-    },
-    {
-      "source": "/oop",
-      "target": "/design-video-streaming-app"
-    },
-    {
-      "source": "/projects",
-      "target": "/async-crawler"
-    },
-    {
-      "source": "/projects",
-      "target": "/c-hashmap"
-    },
-    {
-      "source": "/projects",
-      "target": "/compiler"
-    },
-    {
-      "source": "/projects",
-      "target": "/garbage-collector-in-c"
-    },
-    {
-      "source": "/projects",
-      "target": "/links-for-makers"
-    },
-    {
-      "source": "/projects",
-      "target": "/logos-os"
-    },
-    {
-      "source": "/projects",
-      "target": "/mini-search-engine"
-    },
-    {
-      "source": "/projects",
-      "target": "/mini-web-server"
-    },
-    {
-      "source": "/projects",
-      "target": "/minik-robot"
-    },
-    {
-      "source": "/projects",
-      "target": "/pascal-interpreter"
-    },
-    {
-      "source": "/projects",
-      "target": "/pca"
-    },
-    {
-      "source": "/projects",
-      "target": "/pneumonia-detection"
-    },
-    {
-      "source": "/projects",
-      "target": "/predict-movie-genres"
-    },
-    {
-      "source": "/projects",
-      "target": "/vga-driver"
     },
     {
       "source": "/array",
@@ -5279,6 +5059,114 @@
       "target": "/code"
     },
     {
+      "source": "/oop",
+      "target": "/block"
+    },
+    {
+      "source": "/oop",
+      "target": "/design-a-bicycle"
+    },
+    {
+      "source": "/oop",
+      "target": "/design-a-book-app"
+    },
+    {
+      "source": "/oop",
+      "target": "/design-a-crm"
+    },
+    {
+      "source": "/oop",
+      "target": "/design-a-gov-cloud"
+    },
+    {
+      "source": "/oop",
+      "target": "/design-a-personal-note-publishing-system"
+    },
+    {
+      "source": "/oop",
+      "target": "/design-a-trader"
+    },
+    {
+      "source": "/oop",
+      "target": "/design-a-web-crawler"
+    },
+    {
+      "source": "/oop",
+      "target": "/design-auth"
+    },
+    {
+      "source": "/oop",
+      "target": "/design-etl-pipeline"
+    },
+    {
+      "source": "/oop",
+      "target": "/design-oauth"
+    },
+    {
+      "source": "/oop",
+      "target": "/design-units"
+    },
+    {
+      "source": "/oop",
+      "target": "/design-video-streaming-app"
+    },
+    {
+      "source": "/projects",
+      "target": "/async-crawler"
+    },
+    {
+      "source": "/projects",
+      "target": "/c-hashmap"
+    },
+    {
+      "source": "/projects",
+      "target": "/compiler"
+    },
+    {
+      "source": "/projects",
+      "target": "/garbage-collector-in-c"
+    },
+    {
+      "source": "/projects",
+      "target": "/links-for-makers"
+    },
+    {
+      "source": "/projects",
+      "target": "/logos-os"
+    },
+    {
+      "source": "/projects",
+      "target": "/mini-search-engine"
+    },
+    {
+      "source": "/projects",
+      "target": "/mini-web-server"
+    },
+    {
+      "source": "/projects",
+      "target": "/minik-robot"
+    },
+    {
+      "source": "/projects",
+      "target": "/pascal-interpreter"
+    },
+    {
+      "source": "/projects",
+      "target": "/pca"
+    },
+    {
+      "source": "/projects",
+      "target": "/pneumonia-detection"
+    },
+    {
+      "source": "/projects",
+      "target": "/predict-movie-genres"
+    },
+    {
+      "source": "/projects",
+      "target": "/vga-driver"
+    },
+    {
       "source": "/code",
       "target": "/delete-tree-node"
     },
@@ -5372,19 +5260,11 @@
     },
     {
       "source": "/hard-times",
-      "target": "/going-blind"
-    },
-    {
-      "source": "/hard-times",
       "target": "/how-to-deal-with-pain"
     },
     {
       "source": "/philosophy",
       "target": "/tao-te-ching"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/going-blind"
     },
     {
       "source": "/philosophy",
@@ -5449,10 +5329,6 @@
     {
       "source": "/datasets",
       "target": "/probability-and-statistics"
-    },
-    {
-      "source": "/essais",
-      "target": "/feynmans-epilogue"
     },
     {
       "source": "/essais",
@@ -5524,6 +5400,10 @@
     },
     {
       "source": "/classical-physics",
+      "target": "/feynman-lectures"
+    },
+    {
+      "source": "/classical-physics",
       "target": "/maxwell-equations"
     },
     {
@@ -5588,10 +5468,6 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/happiness"
-    },
-    {
-      "source": "/social-sciences",
       "target": "/learning"
     },
     {
@@ -5605,30 +5481,6 @@
     {
       "source": "/systems",
       "target": "/system-design"
-    },
-    {
-      "source": "/computers",
-      "target": "/for-new-programmers"
-    },
-    {
-      "source": "/operating-systems",
-      "target": "/containers"
-    },
-    {
-      "source": "/b-trees",
-      "target": "/db-data-structures"
-    },
-    {
-      "source": "/b-trees",
-      "target": "/tree-balancing"
-    },
-    {
-      "source": "/leaderless-replication",
-      "target": "/replication"
-    },
-    {
-      "source": "/partitioning",
-      "target": "/replication"
     },
     {
       "source": "/algorithms",
@@ -5837,6 +5689,26 @@
     {
       "source": "/heap",
       "target": "/longest-diverse-str"
+    },
+    {
+      "source": "/computers",
+      "target": "/for-new-programmers"
+    },
+    {
+      "source": "/operating-systems",
+      "target": "/containers"
+    },
+    {
+      "source": "/b-trees",
+      "target": "/db-data-structures"
+    },
+    {
+      "source": "/leaderless-replication",
+      "target": "/replication"
+    },
+    {
+      "source": "/partitioning",
+      "target": "/replication"
     },
     {
       "source": "/concurrency",
