@@ -12,6 +12,9 @@
     "lists",
     "literature"
   ],
+  "/ince-memed": [
+    "literature"
+  ],
   "/literature": [
     "arts"
   ],
@@ -177,6 +180,41 @@
   "/saturday": [
     "poetry"
   ],
+  "/soft-rains": [
+    "poetry"
+  ],
+  "/tao-te-ching": [
+    "phil",
+    "poetry",
+    "pols"
+  ],
+  "/the-red-wheelbarrow": [
+    "poetry"
+  ],
+  "/the-road-not-taken": [
+    "poetry"
+  ],
+  "/the-second-coming": [
+    "poetry"
+  ],
+  "/this-be-the-verse": [
+    "poetry"
+  ],
+  "/to-be-or-not": [
+    "poetry"
+  ],
+  "/uncut-wood": [
+    "poetry"
+  ],
+  "/we-wear-the-mask": [
+    "poetry"
+  ],
+  "/wei-wu-wei": [
+    "poetry"
+  ],
+  "/wind-and-rain": [
+    "poetry"
+  ],
   "/abbas": [
     "siir"
   ],
@@ -214,45 +252,45 @@
     "siir"
   ],
   "/siir": [
-    "poetry"
+    "arts"
   ],
   "/yunus-emre": [
     "siir"
   ],
-  "/soft-rains": [
-    "poetry"
+  "/blogs": [
+    "lists"
   ],
-  "/tao-te-ching": [
-    "phil",
-    "poetry",
-    "pols"
+  "/datasets": [
+    "lists"
   ],
-  "/the-red-wheelbarrow": [
-    "poetry"
+  "/documentaries": [
+    "lists"
   ],
-  "/the-road-not-taken": [
-    "poetry"
+  "/essais": [
+    "lists"
   ],
-  "/the-second-coming": [
-    "poetry"
+  "/lists": [
+    "root"
   ],
-  "/this-be-the-verse": [
-    "poetry"
+  "/movies": [
+    "lists"
   ],
-  "/to-be-or-not": [
-    "poetry"
+  "/paintings": [
+    "lists"
   ],
-  "/uncut-wood": [
-    "poetry"
+  "/photography": [
+    "lists",
+    "skills"
   ],
-  "/we-wear-the-mask": [
-    "poetry"
+  "/quotes": [
+    "lists"
   ],
-  "/wei-wu-wei": [
-    "poetry"
+  "/used-car-checklist": [
+    "lists"
   ],
-  "/wind-and-rain": [
-    "poetry"
+  "/web-experiments": [
+    "lists",
+    "ux"
   ],
   "/bayes": [
     "algo",
@@ -315,37 +353,8 @@
   "/graph-2d": [
 
   ],
-  "/blogs": [
-    "lists"
-  ],
-  "/datasets": [
-    "lists"
-  ],
-  "/documentaries": [
-    "lists"
-  ],
-  "/essais": [
-    "lists"
-  ],
-  "/lists": [
-    "root"
-  ],
-  "/movies": [
-    "lists"
-  ],
-  "/paintings": [
-    "lists"
-  ],
-  "/photography": [
-    "lists",
-    "skills"
-  ],
-  "/quotes": [
-    "lists"
-  ],
-  "/web-experiments": [
-    "lists",
-    "ux"
+  "/interviews": [
+
   ],
   "/llm-prompt": [
 
@@ -463,13 +472,7 @@
   "/get-things-done": [
     "skills"
   ],
-  "/growing-plants": [
-    "skills"
-  ],
   "/habits": [
-    "skills"
-  ],
-  "/homelife": [
     "skills"
   ],
   "/how-to-gain-wealth": [
@@ -478,12 +481,6 @@
   "/how-to-grow-old-russell": [
     "essais",
     "phil",
-    "skills"
-  ],
-  "/humor": [
-    "skills"
-  ],
-  "/interviews": [
     "skills"
   ],
   "/learning": [
@@ -512,16 +509,10 @@
   "/public-speaking": [
     "skills"
   ],
-  "/skill-links": [
-    "skills"
-  ],
   "/skills": [
     "root"
   ],
   "/teaching": [
-    "skills"
-  ],
-  "/used-car-checklist": [
     "skills"
   ],
   "/writing": [
@@ -619,12 +610,6 @@
   "/containers": [
     "computers",
     "os"
-  ],
-  "/discussion-topics": [
-    "computers"
-  ],
-  "/easy-vs-hard-in-cs": [
-    "computers"
   ],
   "/keyboard-shortcuts": [
     "computers"
@@ -1059,6 +1044,10 @@
   "/trie": [
     "str"
   ],
+  "/c-and-python": [
+    "c",
+    "programming"
+  ],
   "/concurrency": [
     "programming"
   ],
@@ -1068,6 +1057,9 @@
   "/for-new-programmers": [
     "programming",
     "top"
+  ],
+  "/go-data-races": [
+    "programming"
   ],
   "/block": [
     "oop"
@@ -1111,85 +1103,6 @@
   "/oop": [
     "programming",
     "sys"
-  ],
-  "/csharp": [
-
-  ],
-  "/sql": [
-
-  ],
-  "/elixir": [
-
-  ],
-  "/erlang": [
-
-  ],
-  "/functional-programming": [
-
-  ],
-  "/haskell": [
-
-  ],
-  "/lisp": [
-
-  ],
-  "/go-data-races": [
-    "go"
-  ],
-  "/go": [
-    "programming-languages"
-  ],
-  "/clojure": [
-
-  ],
-  "/java": [
-
-  ],
-  "/kotlin": [
-
-  ],
-  "/scala": [
-
-  ],
-  "/c": [
-
-  ],
-  "/cpp": [
-
-  ],
-  "/rust": [
-
-  ],
-  "/programming-languages": [
-    "programming"
-  ],
-  "/c-and-python": [
-    "c",
-    "python"
-  ],
-  "/python-data-structures": [
-    "python"
-  ],
-  "/python-guidelines": [
-    "python"
-  ],
-  "/python-packages": [
-    "python"
-  ],
-  "/python": [
-    "programming-languages"
-  ],
-  "/zen-of-python": [
-    "python"
-  ],
-  "/typing": [
-    "programming-languages"
-  ],
-  "/ts": [
-
-  ],
-  "/wasm": [
-
   ],
   "/programming": [
     "skills",

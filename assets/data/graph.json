@@ -6,6 +6,7 @@
       "name": "Root",
       "links": [
         "/arts",
+        "/lists",
         "/math",
         "/misc",
         "/natural-sciences",
@@ -20,9 +21,31 @@
       "name": "Arts",
       "links": [
         "/root",
-        "/poetry",
         "/philosophy",
+        "/poetry",
+        "/siir",
         "/literature"
+      ]
+    },
+    {
+      "id": "/lists",
+      "group": 1,
+      "name": "Lists",
+      "links": [
+        "/root",
+        "/blogs",
+        "/datasets",
+        "/documentaries",
+        "/essais",
+        "/movies",
+        "/paintings",
+        "/photography",
+        "/quotes",
+        "/used-car-checklist",
+        "/web-experiments",
+        "/classics",
+        "/history-of-technology",
+        "/since-big-bang"
       ]
     },
     {
@@ -50,9 +73,9 @@
       "name": "Misc",
       "links": [
         "/root",
-        "/lists",
         "/experiments",
         "/graph-2d",
+        "/interviews",
         "/llm-prompt",
         "/about"
       ]
@@ -82,7 +105,7 @@
     {
       "id": "/skills",
       "group": 1,
-      "name": "Skills",
+      "name": "Practical Skills",
       "links": [
         "/root",
         "/communication",
@@ -96,15 +119,10 @@
         "/drowning-does-not-look-dramatic",
         "/exercise",
         "/get-things-done",
-        "/growing-plants",
         "/habits",
-        "/homelife",
         "/how-to-gain-wealth",
         "/how-to-grow-old-russell",
-        "/humor",
-        "/interviews",
         "/learning",
-        "/skill-links",
         "/mastery",
         "/negotiations",
         "/writing",
@@ -113,7 +131,6 @@
         "/problem-solving",
         "/public-speaking",
         "/teaching",
-        "/used-car-checklist",
         "/eudaimonia",
         "/photography",
         "/typing-practice",
@@ -158,42 +175,8 @@
         "/programming",
         "/system-design",
         "/ux",
-        "/computers",
-        "/software-engineering"
-      ]
-    },
-    {
-      "id": "/poetry",
-      "group": 2,
-      "name": "Poetry",
-      "links": [
-        "/arts",
-        "/brecht",
-        "/deep-roots",
-        "/do-not-go-gentle",
-        "/find-time-to-just-be",
-        "/fire-and-ice",
-        "/haikus",
-        "/harlem",
-        "/if",
-        "/lightly-child",
-        "/mother-to-son",
-        "/one-art",
-        "/one-ring",
-        "/ozymandias",
-        "/saturday",
-        "/soft-rains",
-        "/tao-te-ching",
-        "/the-red-wheelbarrow",
-        "/the-road-not-taken",
-        "/the-second-coming",
-        "/this-be-the-verse",
-        "/to-be-or-not",
-        "/uncut-wood",
-        "/we-wear-the-mask",
-        "/wei-wu-wei",
-        "/wind-and-rain",
-        "/siir"
+        "/software-engineering",
+        "/computers"
       ]
     },
     {
@@ -236,6 +219,60 @@
       ]
     },
     {
+      "id": "/poetry",
+      "group": 2,
+      "name": "Poetry",
+      "links": [
+        "/arts",
+        "/brecht",
+        "/deep-roots",
+        "/do-not-go-gentle",
+        "/find-time-to-just-be",
+        "/fire-and-ice",
+        "/haikus",
+        "/harlem",
+        "/if",
+        "/lightly-child",
+        "/mother-to-son",
+        "/one-art",
+        "/one-ring",
+        "/ozymandias",
+        "/saturday",
+        "/soft-rains",
+        "/tao-te-ching",
+        "/the-red-wheelbarrow",
+        "/the-road-not-taken",
+        "/the-second-coming",
+        "/this-be-the-verse",
+        "/to-be-or-not",
+        "/uncut-wood",
+        "/we-wear-the-mask",
+        "/wei-wu-wei",
+        "/wind-and-rain"
+      ]
+    },
+    {
+      "id": "/siir",
+      "group": 2,
+      "name": "Şiirler",
+      "links": [
+        "/arts",
+        "/abbas",
+        "/asik-veysel",
+        "/boz-ayran",
+        "/bulent-ecevit",
+        "/bulgur-pilavi",
+        "/can-yucel",
+        "/edip-cansever",
+        "/fuzuli",
+        "/isyan",
+        "/melih-cevdet",
+        "/nazim",
+        "/orhan-veli",
+        "/yunus-emre"
+      ]
+    },
+    {
       "id": "/literature",
       "group": 2,
       "name": "Literature",
@@ -247,6 +284,96 @@
         "/ince-memed",
         "/the-art-of-war",
         "/turk-mirasi"
+      ]
+    },
+    {
+      "id": "/blogs",
+      "group": 2,
+      "name": "Blogs",
+      "links": [
+        "/lists"
+      ]
+    },
+    {
+      "id": "/datasets",
+      "group": 2,
+      "name": "Datasets",
+      "links": [
+        "/lists",
+        "/probability-and-statistics"
+      ]
+    },
+    {
+      "id": "/documentaries",
+      "group": 2,
+      "name": "Documentaries",
+      "links": [
+        "/lists"
+      ]
+    },
+    {
+      "id": "/essais",
+      "group": 2,
+      "name": "Essais",
+      "links": [
+        "/lists",
+        "/feynmans-epilogue",
+        "/how-to-grow-old-russell",
+        "/mastery",
+        "/problem-solving",
+        "/farming-trap",
+        "/the-triumph-of-stupidity",
+        "/who-goes-nazi"
+      ]
+    },
+    {
+      "id": "/movies",
+      "group": 2,
+      "name": "Movies 🎬",
+      "links": [
+        "/lists"
+      ]
+    },
+    {
+      "id": "/paintings",
+      "group": 2,
+      "name": "Paintings",
+      "links": [
+        "/lists"
+      ]
+    },
+    {
+      "id": "/photography",
+      "group": 2,
+      "name": "Photography",
+      "links": [
+        "/lists",
+        "/skills"
+      ]
+    },
+    {
+      "id": "/quotes",
+      "group": 2,
+      "name": "Quotes",
+      "links": [
+        "/lists"
+      ]
+    },
+    {
+      "id": "/used-car-checklist",
+      "group": 2,
+      "name": "Used Car Checklist",
+      "links": [
+        "/lists"
+      ]
+    },
+    {
+      "id": "/web-experiments",
+      "group": 2,
+      "name": "Web Experiments",
+      "links": [
+        "/lists",
+        "/ux"
       ]
     },
     {
@@ -329,27 +456,8 @@
       "name": "Probability And Statistics",
       "links": [
         "/math",
-        "/bayes"
-      ]
-    },
-    {
-      "id": "/lists",
-      "group": 2,
-      "name": "Lists",
-      "links": [
-        "/misc",
-        "/blogs",
         "/datasets",
-        "/documentaries",
-        "/essais",
-        "/movies",
-        "/paintings",
-        "/photography",
-        "/quotes",
-        "/web-experiments",
-        "/classics",
-        "/history-of-technology",
-        "/since-big-bang"
+        "/bayes"
       ]
     },
     {
@@ -370,6 +478,14 @@
       "id": "/graph-2d",
       "group": 2,
       "name": "2D Graph of All Pages",
+      "links": [
+        "/misc"
+      ]
+    },
+    {
+      "id": "/interviews",
+      "group": 2,
+      "name": "Interviews",
       "links": [
         "/misc"
       ]
@@ -573,8 +689,7 @@
       "group": 2,
       "name": "Driving",
       "links": [
-        "/skills",
-        "/used-car-checklist"
+        "/skills"
       ]
     },
     {
@@ -606,25 +721,9 @@
       ]
     },
     {
-      "id": "/growing-plants",
-      "group": 2,
-      "name": "Growing Plants",
-      "links": [
-        "/skills"
-      ]
-    },
-    {
       "id": "/habits",
       "group": 2,
       "name": "Habits",
-      "links": [
-        "/skills"
-      ]
-    },
-    {
-      "id": "/homelife",
-      "group": 2,
-      "name": "Homelife",
       "links": [
         "/skills"
       ]
@@ -648,37 +747,12 @@
       ]
     },
     {
-      "id": "/humor",
-      "group": 2,
-      "name": "Humor",
-      "links": [
-        "/skills",
-        "/the-tao-of-programming"
-      ]
-    },
-    {
-      "id": "/interviews",
-      "group": 2,
-      "name": "Interviews",
-      "links": [
-        "/skills"
-      ]
-    },
-    {
       "id": "/learning",
       "group": 2,
       "name": "Learning",
       "links": [
         "/skills",
         "/social-sciences"
-      ]
-    },
-    {
-      "id": "/skill-links",
-      "group": 2,
-      "name": "Links",
-      "links": [
-        "/skills"
       ]
     },
     {
@@ -749,15 +823,6 @@
       "name": "Teaching",
       "links": [
         "/skills"
-      ]
-    },
-    {
-      "id": "/used-car-checklist",
-      "group": 2,
-      "name": "Used Car Checklist",
-      "links": [
-        "/skills",
-        "/driving"
       ]
     },
     {
@@ -948,14 +1013,15 @@
       "name": "Programming",
       "links": [
         "/tech",
+        "/c-and-python",
         "/concurrency",
         "/encodings",
         "/for-new-programmers",
+        "/go-data-races",
         "/the-tao-of-programming",
         "/unicode",
         "/algorithms",
         "/oop",
-        "/programming-languages",
         "/projects",
         "/skills"
       ]
@@ -1000,22 +1066,6 @@
       ]
     },
     {
-      "id": "/computers",
-      "group": 2,
-      "name": "Computers",
-      "links": [
-        "/tech",
-        "/computers-from-scratch",
-        "/containers",
-        "/discussion-topics",
-        "/easy-vs-hard-in-cs",
-        "/keyboard-shortcuts",
-        "/networks",
-        "/operating-systems",
-        "/for-new-programmers"
-      ]
-    },
-    {
       "id": "/software-engineering",
       "group": 2,
       "name": "Software Engineering",
@@ -1031,227 +1081,17 @@
       ]
     },
     {
-      "id": "/brecht",
-      "group": 3,
-      "name": "The Interrogation of the Good",
+      "id": "/computers",
+      "group": 2,
+      "name": "Computers",
       "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/deep-roots",
-      "group": 3,
-      "name": "Deep Roots",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/do-not-go-gentle",
-      "group": 3,
-      "name": "Do not go gentle into that good night",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/find-time-to-just-be",
-      "group": 3,
-      "name": "Find Time To Just Be",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/fire-and-ice",
-      "group": 3,
-      "name": "Fire and Ice",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/haikus",
-      "group": 3,
-      "name": "Haikus",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/harlem",
-      "group": 3,
-      "name": "Harlem",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/if",
-      "group": 3,
-      "name": "If",
-      "links": [
-        "/poetry",
-        "/bulent-ecevit"
-      ]
-    },
-    {
-      "id": "/lightly-child",
-      "group": 3,
-      "name": "Lightly Child",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/mother-to-son",
-      "group": 3,
-      "name": "Mother To Son",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/one-art",
-      "group": 3,
-      "name": "One Art",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/one-ring",
-      "group": 3,
-      "name": "One Ring",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/ozymandias",
-      "group": 3,
-      "name": "Ozymandias",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/saturday",
-      "group": 3,
-      "name": "Saturday",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/soft-rains",
-      "group": 3,
-      "name": "There Will Come Soft Rains",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/tao-te-ching",
-      "group": 3,
-      "name": "Tao Te Ching",
-      "links": [
-        "/poetry",
-        "/philosophy",
-        "/politics"
-      ]
-    },
-    {
-      "id": "/the-red-wheelbarrow",
-      "group": 3,
-      "name": "The Red Wheelbarrow",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/the-road-not-taken",
-      "group": 3,
-      "name": "The Road Not Taken",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/the-second-coming",
-      "group": 3,
-      "name": "The Second Coming",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/this-be-the-verse",
-      "group": 3,
-      "name": "This Be The Verse",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/to-be-or-not",
-      "group": 3,
-      "name": "To Be Or Not",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/uncut-wood",
-      "group": 3,
-      "name": "Uncut Wood",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/we-wear-the-mask",
-      "group": 3,
-      "name": "We Wear The Mask",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/wei-wu-wei",
-      "group": 3,
-      "name": "Wei Wu Wei",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/wind-and-rain",
-      "group": 3,
-      "name": "Wind And Rain",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/siir",
-      "group": 3,
-      "name": "Şiirler",
-      "links": [
-        "/poetry",
-        "/abbas",
-        "/asik-veysel",
-        "/boz-ayran",
-        "/bulent-ecevit",
-        "/bulgur-pilavi",
-        "/can-yucel",
-        "/edip-cansever",
-        "/fuzuli",
-        "/isyan",
-        "/melih-cevdet",
-        "/nazim",
-        "/orhan-veli",
-        "/yunus-emre"
+        "/tech",
+        "/computers-from-scratch",
+        "/containers",
+        "/keyboard-shortcuts",
+        "/networks",
+        "/operating-systems",
+        "/for-new-programmers"
       ]
     },
     {
@@ -1497,6 +1337,314 @@
       ]
     },
     {
+      "id": "/brecht",
+      "group": 3,
+      "name": "The Interrogation of the Good",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/deep-roots",
+      "group": 3,
+      "name": "Deep Roots",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/do-not-go-gentle",
+      "group": 3,
+      "name": "Do not go gentle into that good night",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/find-time-to-just-be",
+      "group": 3,
+      "name": "Find Time To Just Be",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/fire-and-ice",
+      "group": 3,
+      "name": "Fire and Ice",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/haikus",
+      "group": 3,
+      "name": "Haikus",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/harlem",
+      "group": 3,
+      "name": "Harlem",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/if",
+      "group": 3,
+      "name": "If",
+      "links": [
+        "/poetry",
+        "/bulent-ecevit"
+      ]
+    },
+    {
+      "id": "/lightly-child",
+      "group": 3,
+      "name": "Lightly Child",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/mother-to-son",
+      "group": 3,
+      "name": "Mother To Son",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/one-art",
+      "group": 3,
+      "name": "One Art",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/one-ring",
+      "group": 3,
+      "name": "One Ring",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/ozymandias",
+      "group": 3,
+      "name": "Ozymandias",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/saturday",
+      "group": 3,
+      "name": "Saturday",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/soft-rains",
+      "group": 3,
+      "name": "There Will Come Soft Rains",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/tao-te-ching",
+      "group": 3,
+      "name": "Tao Te Ching",
+      "links": [
+        "/poetry",
+        "/philosophy",
+        "/politics"
+      ]
+    },
+    {
+      "id": "/the-red-wheelbarrow",
+      "group": 3,
+      "name": "The Red Wheelbarrow",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/the-road-not-taken",
+      "group": 3,
+      "name": "The Road Not Taken",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/the-second-coming",
+      "group": 3,
+      "name": "The Second Coming",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/this-be-the-verse",
+      "group": 3,
+      "name": "This Be The Verse",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/to-be-or-not",
+      "group": 3,
+      "name": "To Be Or Not",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/uncut-wood",
+      "group": 3,
+      "name": "Uncut Wood",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/we-wear-the-mask",
+      "group": 3,
+      "name": "We Wear The Mask",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/wei-wu-wei",
+      "group": 3,
+      "name": "Wei Wu Wei",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/wind-and-rain",
+      "group": 3,
+      "name": "Wind And Rain",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/abbas",
+      "group": 3,
+      "name": "Abbas",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/asik-veysel",
+      "group": 3,
+      "name": "Asik Veysel",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/boz-ayran",
+      "group": 3,
+      "name": "Boz Ayran",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/bulent-ecevit",
+      "group": 3,
+      "name": "Bulent Ecevit",
+      "links": [
+        "/siir",
+        "/if"
+      ]
+    },
+    {
+      "id": "/bulgur-pilavi",
+      "group": 3,
+      "name": "Bulgur Pilavi",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/can-yucel",
+      "group": 3,
+      "name": "Can Yücel",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/edip-cansever",
+      "group": 3,
+      "name": "Edip Cansever",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/fuzuli",
+      "group": 3,
+      "name": "Fuzuli",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/isyan",
+      "group": 3,
+      "name": "Isyan",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/melih-cevdet",
+      "group": 3,
+      "name": "Melih Cevdet",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/nazim",
+      "group": 3,
+      "name": "Nazim Hikmet",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/orhan-veli",
+      "group": 3,
+      "name": "Orhan Veli",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/yunus-emre",
+      "group": 3,
+      "name": "Yunus Emre",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
       "id": "/authors",
       "group": 3,
       "name": "Authors",
@@ -1526,7 +1674,7 @@
     {
       "id": "/ince-memed",
       "group": 3,
-      "name": "Ince-memed",
+      "name": "Ince Memed",
       "links": [
         "/literature"
       ]
@@ -1546,87 +1694,6 @@
       "name": "Türk Mirası",
       "links": [
         "/literature"
-      ]
-    },
-    {
-      "id": "/blogs",
-      "group": 3,
-      "name": "Blogs",
-      "links": [
-        "/lists"
-      ]
-    },
-    {
-      "id": "/datasets",
-      "group": 3,
-      "name": "Datasets",
-      "links": [
-        "/lists"
-      ]
-    },
-    {
-      "id": "/documentaries",
-      "group": 3,
-      "name": "Documentaries",
-      "links": [
-        "/lists"
-      ]
-    },
-    {
-      "id": "/essais",
-      "group": 3,
-      "name": "Essais",
-      "links": [
-        "/lists",
-        "/feynmans-epilogue",
-        "/how-to-grow-old-russell",
-        "/mastery",
-        "/problem-solving",
-        "/farming-trap",
-        "/the-triumph-of-stupidity",
-        "/who-goes-nazi"
-      ]
-    },
-    {
-      "id": "/movies",
-      "group": 3,
-      "name": "Movies 🎬",
-      "links": [
-        "/lists"
-      ]
-    },
-    {
-      "id": "/paintings",
-      "group": 3,
-      "name": "Paintings",
-      "links": [
-        "/lists"
-      ]
-    },
-    {
-      "id": "/photography",
-      "group": 3,
-      "name": "Photography",
-      "links": [
-        "/lists",
-        "/skills"
-      ]
-    },
-    {
-      "id": "/quotes",
-      "group": 3,
-      "name": "Quotes",
-      "links": [
-        "/lists"
-      ]
-    },
-    {
-      "id": "/web-experiments",
-      "group": 3,
-      "name": "Web Experiments",
-      "links": [
-        "/lists",
-        "/ux"
       ]
     },
     {
@@ -2140,6 +2207,14 @@
       ]
     },
     {
+      "id": "/c-and-python",
+      "group": 3,
+      "name": "Call C code from Python",
+      "links": [
+        "/programming"
+      ]
+    },
+    {
       "id": "/concurrency",
       "group": 3,
       "name": "Concurrency",
@@ -2166,12 +2241,19 @@
       ]
     },
     {
+      "id": "/go-data-races",
+      "group": 3,
+      "name": "Go Data Race Patterns and Prevention",
+      "links": [
+        "/programming"
+      ]
+    },
+    {
       "id": "/the-tao-of-programming",
       "group": 3,
       "name": "The Tao of Programming",
       "links": [
-        "/programming",
-        "/humor"
+        "/programming"
       ]
     },
     {
@@ -2233,24 +2315,6 @@
         "/design-units",
         "/design-video-streaming-app",
         "/system-design"
-      ]
-    },
-    {
-      "id": "/programming-languages",
-      "group": 3,
-      "name": "Programming Languages",
-      "links": [
-        "/programming",
-        "/typing",
-        "/c#",
-        "/data",
-        "/dist",
-        "/func",
-        "/go",
-        "/jvm",
-        "/low",
-        "/python",
-        "/web"
       ]
     },
     {
@@ -2411,64 +2475,6 @@
       ]
     },
     {
-      "id": "/computers-from-scratch",
-      "group": 3,
-      "name": "Computers From Scratch",
-      "links": [
-        "/computers"
-      ]
-    },
-    {
-      "id": "/containers",
-      "group": 3,
-      "name": "Containers",
-      "links": [
-        "/computers",
-        "/operating-systems"
-      ]
-    },
-    {
-      "id": "/discussion-topics",
-      "group": 3,
-      "name": "Discussion Topics",
-      "links": [
-        "/computers"
-      ]
-    },
-    {
-      "id": "/easy-vs-hard-in-cs",
-      "group": 3,
-      "name": "The fine line between easy and very hard",
-      "links": [
-        "/computers"
-      ]
-    },
-    {
-      "id": "/keyboard-shortcuts",
-      "group": 3,
-      "name": "Keyboard Shortcuts",
-      "links": [
-        "/computers"
-      ]
-    },
-    {
-      "id": "/networks",
-      "group": 3,
-      "name": "Networks",
-      "links": [
-        "/computers"
-      ]
-    },
-    {
-      "id": "/operating-systems",
-      "group": 3,
-      "name": "Operating Systems",
-      "links": [
-        "/computers",
-        "/containers"
-      ]
-    },
-    {
       "id": "/code-review",
       "group": 3,
       "name": "Code Review",
@@ -2525,108 +2531,45 @@
       ]
     },
     {
-      "id": "/abbas",
-      "group": 4,
-      "name": "Abbas",
+      "id": "/computers-from-scratch",
+      "group": 3,
+      "name": "Computers From Scratch",
       "links": [
-        "/siir"
+        "/computers"
       ]
     },
     {
-      "id": "/asik-veysel",
-      "group": 4,
-      "name": "Asik Veysel",
+      "id": "/containers",
+      "group": 3,
+      "name": "Containers",
       "links": [
-        "/siir"
+        "/computers",
+        "/operating-systems"
       ]
     },
     {
-      "id": "/boz-ayran",
-      "group": 4,
-      "name": "Boz Ayran",
+      "id": "/keyboard-shortcuts",
+      "group": 3,
+      "name": "Keyboard Shortcuts",
       "links": [
-        "/siir"
+        "/computers"
       ]
     },
     {
-      "id": "/bulent-ecevit",
-      "group": 4,
-      "name": "Bulent Ecevit",
+      "id": "/networks",
+      "group": 3,
+      "name": "Networks",
       "links": [
-        "/siir",
-        "/if"
+        "/computers"
       ]
     },
     {
-      "id": "/bulgur-pilavi",
-      "group": 4,
-      "name": "Bulgur Pilavi",
+      "id": "/operating-systems",
+      "group": 3,
+      "name": "Operating Systems",
       "links": [
-        "/siir"
-      ]
-    },
-    {
-      "id": "/can-yucel",
-      "group": 4,
-      "name": "Can Yücel",
-      "links": [
-        "/siir"
-      ]
-    },
-    {
-      "id": "/edip-cansever",
-      "group": 4,
-      "name": "Edip Cansever",
-      "links": [
-        "/siir"
-      ]
-    },
-    {
-      "id": "/fuzuli",
-      "group": 4,
-      "name": "Fuzuli",
-      "links": [
-        "/siir"
-      ]
-    },
-    {
-      "id": "/isyan",
-      "group": 4,
-      "name": "Isyan",
-      "links": [
-        "/siir"
-      ]
-    },
-    {
-      "id": "/melih-cevdet",
-      "group": 4,
-      "name": "Melih Cevdet",
-      "links": [
-        "/siir"
-      ]
-    },
-    {
-      "id": "/nazim",
-      "group": 4,
-      "name": "Nazim Hikmet",
-      "links": [
-        "/siir"
-      ]
-    },
-    {
-      "id": "/orhan-veli",
-      "group": 4,
-      "name": "Orhan Veli",
-      "links": [
-        "/siir"
-      ]
-    },
-    {
-      "id": "/yunus-emre",
-      "group": 4,
-      "name": "Yunus Emre",
-      "links": [
-        "/siir"
+        "/computers",
+        "/containers"
       ]
     },
     {
@@ -3054,119 +2997,11 @@
       ]
     },
     {
-      "id": "/typing",
-      "group": 4,
-      "name": "Typing",
-      "links": [
-        "/programming-languages"
-      ]
-    },
-    {
-      "id": "/c#",
-      "group": 4,
-      "name": "C#",
-      "links": [
-        "/programming-languages",
-        "/csharp"
-      ]
-    },
-    {
-      "id": "/data",
-      "group": 4,
-      "name": "Data",
-      "links": [
-        "/programming-languages",
-        "/sql"
-      ]
-    },
-    {
-      "id": "/dist",
-      "group": 4,
-      "name": "Dist",
-      "links": [
-        "/programming-languages",
-        "/elixir",
-        "/erlang"
-      ]
-    },
-    {
-      "id": "/func",
-      "group": 4,
-      "name": "Func",
-      "links": [
-        "/programming-languages",
-        "/functional-programming",
-        "/haskell",
-        "/lisp"
-      ]
-    },
-    {
-      "id": "/go",
-      "group": 4,
-      "name": "Go",
-      "links": [
-        "/programming-languages",
-        "/go-data-races"
-      ]
-    },
-    {
-      "id": "/jvm",
-      "group": 4,
-      "name": "Jvm",
-      "links": [
-        "/programming-languages",
-        "/clojure",
-        "/java",
-        "/kotlin",
-        "/scala"
-      ]
-    },
-    {
-      "id": "/low",
-      "group": 4,
-      "name": "Low",
-      "links": [
-        "/programming-languages",
-        "/c",
-        "/cpp",
-        "/rust"
-      ]
-    },
-    {
-      "id": "/python",
-      "group": 4,
-      "name": "Python",
-      "links": [
-        "/programming-languages",
-        "/c-and-python",
-        "/python-data-structures",
-        "/python-guidelines",
-        "/python-packages",
-        "/zen-of-python",
-        "/async-crawler",
-        "/compiler",
-        "/mini-search-engine",
-        "/mini-web-server",
-        "/pascal-interpreter"
-      ]
-    },
-    {
-      "id": "/web",
-      "group": 4,
-      "name": "Web",
-      "links": [
-        "/programming-languages",
-        "/ts",
-        "/wasm"
-      ]
-    },
-    {
       "id": "/async-crawler",
       "group": 4,
       "name": "An async web crawler from scratch",
       "links": [
-        "/projects",
-        "/python"
+        "/projects"
       ]
     },
     {
@@ -3174,8 +3009,7 @@
       "group": 4,
       "name": "A hash table in C from scratch",
       "links": [
-        "/projects",
-        "/c"
+        "/projects"
       ]
     },
     {
@@ -3183,8 +3017,7 @@
       "group": 4,
       "name": "Let's write a compiler",
       "links": [
-        "/projects",
-        "/python"
+        "/projects"
       ]
     },
     {
@@ -3192,8 +3025,7 @@
       "group": 4,
       "name": "A garbage collector in C from scratch",
       "links": [
-        "/projects",
-        "/c"
+        "/projects"
       ]
     },
     {
@@ -3209,8 +3041,7 @@
       "group": 4,
       "name": "Logos, an operating system kernel from scratch",
       "links": [
-        "/projects",
-        "/c"
+        "/projects"
       ]
     },
     {
@@ -3218,8 +3049,7 @@
       "group": 4,
       "name": "A search engine with page rank, in 200 lines",
       "links": [
-        "/projects",
-        "/python"
+        "/projects"
       ]
     },
     {
@@ -3227,8 +3057,7 @@
       "group": 4,
       "name": "A web server from scratch",
       "links": [
-        "/projects",
-        "/python"
+        "/projects"
       ]
     },
     {
@@ -3236,8 +3065,7 @@
       "group": 4,
       "name": "A* path-finding algorithm for a robot",
       "links": [
-        "/projects",
-        "/cpp"
+        "/projects"
       ]
     },
     {
@@ -3245,8 +3073,7 @@
       "group": 4,
       "name": "An interpreter in Python",
       "links": [
-        "/projects",
-        "/python"
+        "/projects"
       ]
     },
     {
@@ -3278,8 +3105,7 @@
       "group": 4,
       "name": "VGA Driver",
       "links": [
-        "/projects",
-        "/c"
+        "/projects"
       ]
     },
     {
@@ -3867,189 +3693,6 @@
       ]
     },
     {
-      "id": "/csharp",
-      "group": 5,
-      "name": "C#",
-      "links": [
-        "/c#"
-      ]
-    },
-    {
-      "id": "/sql",
-      "group": 5,
-      "name": "Sql",
-      "links": [
-        "/data"
-      ]
-    },
-    {
-      "id": "/elixir",
-      "group": 5,
-      "name": "Elixir",
-      "links": [
-        "/dist"
-      ]
-    },
-    {
-      "id": "/erlang",
-      "group": 5,
-      "name": "Erlang",
-      "links": [
-        "/dist"
-      ]
-    },
-    {
-      "id": "/functional-programming",
-      "group": 5,
-      "name": "Functional Programming",
-      "links": [
-        "/func"
-      ]
-    },
-    {
-      "id": "/haskell",
-      "group": 5,
-      "name": "Haskell",
-      "links": [
-        "/func"
-      ]
-    },
-    {
-      "id": "/lisp",
-      "group": 5,
-      "name": "Lisp",
-      "links": [
-        "/func"
-      ]
-    },
-    {
-      "id": "/go-data-races",
-      "group": 5,
-      "name": "Go Data Race Patterns and Prevention",
-      "links": [
-        "/go"
-      ]
-    },
-    {
-      "id": "/clojure",
-      "group": 5,
-      "name": "Clojure",
-      "links": [
-        "/jvm"
-      ]
-    },
-    {
-      "id": "/java",
-      "group": 5,
-      "name": "Java",
-      "links": [
-        "/jvm"
-      ]
-    },
-    {
-      "id": "/kotlin",
-      "group": 5,
-      "name": "Kotlin",
-      "links": [
-        "/jvm"
-      ]
-    },
-    {
-      "id": "/scala",
-      "group": 5,
-      "name": "Scala",
-      "links": [
-        "/jvm"
-      ]
-    },
-    {
-      "id": "/c",
-      "group": 5,
-      "name": "C",
-      "links": [
-        "/low",
-        "/c-and-python",
-        "/c-hashmap",
-        "/garbage-collector-in-c",
-        "/logos-os",
-        "/vga-driver"
-      ]
-    },
-    {
-      "id": "/cpp",
-      "group": 5,
-      "name": "Cpp",
-      "links": [
-        "/low",
-        "/minik-robot"
-      ]
-    },
-    {
-      "id": "/rust",
-      "group": 5,
-      "name": "Rust",
-      "links": [
-        "/low"
-      ]
-    },
-    {
-      "id": "/c-and-python",
-      "group": 5,
-      "name": "Call C code from Python",
-      "links": [
-        "/python",
-        "/c"
-      ]
-    },
-    {
-      "id": "/python-data-structures",
-      "group": 5,
-      "name": "Python Data Structures",
-      "links": [
-        "/python"
-      ]
-    },
-    {
-      "id": "/python-guidelines",
-      "group": 5,
-      "name": "Python Guidelines",
-      "links": [
-        "/python"
-      ]
-    },
-    {
-      "id": "/python-packages",
-      "group": 5,
-      "name": "Python Packages",
-      "links": [
-        "/python"
-      ]
-    },
-    {
-      "id": "/zen-of-python",
-      "group": 5,
-      "name": "Zen Of Python",
-      "links": [
-        "/python"
-      ]
-    },
-    {
-      "id": "/ts",
-      "group": 5,
-      "name": "Ts",
-      "links": [
-        "/web"
-      ]
-    },
-    {
-      "id": "/wasm",
-      "group": 5,
-      "name": "Wasm",
-      "links": [
-        "/web"
-      ]
-    },
-    {
       "id": "/delete-tree-node",
       "group": 6,
       "name": "Delete Tree Node",
@@ -4138,6 +3781,10 @@
     },
     {
       "source": "/root",
+      "target": "/lists"
+    },
+    {
+      "source": "/root",
       "target": "/math"
     },
     {
@@ -4162,15 +3809,59 @@
     },
     {
       "source": "/arts",
-      "target": "/poetry"
-    },
-    {
-      "source": "/arts",
       "target": "/philosophy"
     },
     {
       "source": "/arts",
+      "target": "/poetry"
+    },
+    {
+      "source": "/arts",
+      "target": "/siir"
+    },
+    {
+      "source": "/arts",
       "target": "/literature"
+    },
+    {
+      "source": "/lists",
+      "target": "/blogs"
+    },
+    {
+      "source": "/lists",
+      "target": "/datasets"
+    },
+    {
+      "source": "/lists",
+      "target": "/documentaries"
+    },
+    {
+      "source": "/lists",
+      "target": "/essais"
+    },
+    {
+      "source": "/lists",
+      "target": "/movies"
+    },
+    {
+      "source": "/lists",
+      "target": "/paintings"
+    },
+    {
+      "source": "/lists",
+      "target": "/photography"
+    },
+    {
+      "source": "/lists",
+      "target": "/quotes"
+    },
+    {
+      "source": "/lists",
+      "target": "/used-car-checklist"
+    },
+    {
+      "source": "/lists",
+      "target": "/web-experiments"
     },
     {
       "source": "/math",
@@ -4214,15 +3905,15 @@
     },
     {
       "source": "/misc",
-      "target": "/lists"
-    },
-    {
-      "source": "/misc",
       "target": "/experiments"
     },
     {
       "source": "/misc",
       "target": "/graph-2d"
+    },
+    {
+      "source": "/misc",
+      "target": "/interviews"
     },
     {
       "source": "/misc",
@@ -4326,15 +4017,7 @@
     },
     {
       "source": "/skills",
-      "target": "/growing-plants"
-    },
-    {
-      "source": "/skills",
       "target": "/habits"
-    },
-    {
-      "source": "/skills",
-      "target": "/homelife"
     },
     {
       "source": "/skills",
@@ -4346,19 +4029,7 @@
     },
     {
       "source": "/skills",
-      "target": "/humor"
-    },
-    {
-      "source": "/skills",
-      "target": "/interviews"
-    },
-    {
-      "source": "/skills",
       "target": "/learning"
-    },
-    {
-      "source": "/skills",
-      "target": "/skill-links"
     },
     {
       "source": "/skills",
@@ -4391,10 +4062,6 @@
     {
       "source": "/skills",
       "target": "/teaching"
-    },
-    {
-      "source": "/skills",
-      "target": "/used-car-checklist"
     },
     {
       "source": "/social-sciences",
@@ -4474,115 +4141,11 @@
     },
     {
       "source": "/tech",
-      "target": "/computers"
-    },
-    {
-      "source": "/tech",
       "target": "/software-engineering"
     },
     {
-      "source": "/poetry",
-      "target": "/brecht"
-    },
-    {
-      "source": "/poetry",
-      "target": "/deep-roots"
-    },
-    {
-      "source": "/poetry",
-      "target": "/do-not-go-gentle"
-    },
-    {
-      "source": "/poetry",
-      "target": "/find-time-to-just-be"
-    },
-    {
-      "source": "/poetry",
-      "target": "/fire-and-ice"
-    },
-    {
-      "source": "/poetry",
-      "target": "/haikus"
-    },
-    {
-      "source": "/poetry",
-      "target": "/harlem"
-    },
-    {
-      "source": "/poetry",
-      "target": "/if"
-    },
-    {
-      "source": "/poetry",
-      "target": "/lightly-child"
-    },
-    {
-      "source": "/poetry",
-      "target": "/mother-to-son"
-    },
-    {
-      "source": "/poetry",
-      "target": "/one-art"
-    },
-    {
-      "source": "/poetry",
-      "target": "/one-ring"
-    },
-    {
-      "source": "/poetry",
-      "target": "/ozymandias"
-    },
-    {
-      "source": "/poetry",
-      "target": "/saturday"
-    },
-    {
-      "source": "/poetry",
-      "target": "/soft-rains"
-    },
-    {
-      "source": "/poetry",
-      "target": "/tao-te-ching"
-    },
-    {
-      "source": "/poetry",
-      "target": "/the-red-wheelbarrow"
-    },
-    {
-      "source": "/poetry",
-      "target": "/the-road-not-taken"
-    },
-    {
-      "source": "/poetry",
-      "target": "/the-second-coming"
-    },
-    {
-      "source": "/poetry",
-      "target": "/this-be-the-verse"
-    },
-    {
-      "source": "/poetry",
-      "target": "/to-be-or-not"
-    },
-    {
-      "source": "/poetry",
-      "target": "/uncut-wood"
-    },
-    {
-      "source": "/poetry",
-      "target": "/we-wear-the-mask"
-    },
-    {
-      "source": "/poetry",
-      "target": "/wei-wu-wei"
-    },
-    {
-      "source": "/poetry",
-      "target": "/wind-and-rain"
-    },
-    {
-      "source": "/poetry",
-      "target": "/siir"
+      "source": "/tech",
+      "target": "/computers"
     },
     {
       "source": "/philosophy",
@@ -4685,6 +4248,158 @@
       "target": "/work"
     },
     {
+      "source": "/poetry",
+      "target": "/brecht"
+    },
+    {
+      "source": "/poetry",
+      "target": "/deep-roots"
+    },
+    {
+      "source": "/poetry",
+      "target": "/do-not-go-gentle"
+    },
+    {
+      "source": "/poetry",
+      "target": "/find-time-to-just-be"
+    },
+    {
+      "source": "/poetry",
+      "target": "/fire-and-ice"
+    },
+    {
+      "source": "/poetry",
+      "target": "/haikus"
+    },
+    {
+      "source": "/poetry",
+      "target": "/harlem"
+    },
+    {
+      "source": "/poetry",
+      "target": "/if"
+    },
+    {
+      "source": "/poetry",
+      "target": "/lightly-child"
+    },
+    {
+      "source": "/poetry",
+      "target": "/mother-to-son"
+    },
+    {
+      "source": "/poetry",
+      "target": "/one-art"
+    },
+    {
+      "source": "/poetry",
+      "target": "/one-ring"
+    },
+    {
+      "source": "/poetry",
+      "target": "/ozymandias"
+    },
+    {
+      "source": "/poetry",
+      "target": "/saturday"
+    },
+    {
+      "source": "/poetry",
+      "target": "/soft-rains"
+    },
+    {
+      "source": "/poetry",
+      "target": "/tao-te-ching"
+    },
+    {
+      "source": "/poetry",
+      "target": "/the-red-wheelbarrow"
+    },
+    {
+      "source": "/poetry",
+      "target": "/the-road-not-taken"
+    },
+    {
+      "source": "/poetry",
+      "target": "/the-second-coming"
+    },
+    {
+      "source": "/poetry",
+      "target": "/this-be-the-verse"
+    },
+    {
+      "source": "/poetry",
+      "target": "/to-be-or-not"
+    },
+    {
+      "source": "/poetry",
+      "target": "/uncut-wood"
+    },
+    {
+      "source": "/poetry",
+      "target": "/we-wear-the-mask"
+    },
+    {
+      "source": "/poetry",
+      "target": "/wei-wu-wei"
+    },
+    {
+      "source": "/poetry",
+      "target": "/wind-and-rain"
+    },
+    {
+      "source": "/siir",
+      "target": "/abbas"
+    },
+    {
+      "source": "/siir",
+      "target": "/asik-veysel"
+    },
+    {
+      "source": "/siir",
+      "target": "/boz-ayran"
+    },
+    {
+      "source": "/siir",
+      "target": "/bulent-ecevit"
+    },
+    {
+      "source": "/siir",
+      "target": "/bulgur-pilavi"
+    },
+    {
+      "source": "/siir",
+      "target": "/can-yucel"
+    },
+    {
+      "source": "/siir",
+      "target": "/edip-cansever"
+    },
+    {
+      "source": "/siir",
+      "target": "/fuzuli"
+    },
+    {
+      "source": "/siir",
+      "target": "/isyan"
+    },
+    {
+      "source": "/siir",
+      "target": "/melih-cevdet"
+    },
+    {
+      "source": "/siir",
+      "target": "/nazim"
+    },
+    {
+      "source": "/siir",
+      "target": "/orhan-veli"
+    },
+    {
+      "source": "/siir",
+      "target": "/yunus-emre"
+    },
+    {
       "source": "/literature",
       "target": "/authors"
     },
@@ -4707,42 +4422,6 @@
     {
       "source": "/literature",
       "target": "/turk-mirasi"
-    },
-    {
-      "source": "/lists",
-      "target": "/blogs"
-    },
-    {
-      "source": "/lists",
-      "target": "/datasets"
-    },
-    {
-      "source": "/lists",
-      "target": "/documentaries"
-    },
-    {
-      "source": "/lists",
-      "target": "/essais"
-    },
-    {
-      "source": "/lists",
-      "target": "/movies"
-    },
-    {
-      "source": "/lists",
-      "target": "/paintings"
-    },
-    {
-      "source": "/lists",
-      "target": "/photography"
-    },
-    {
-      "source": "/lists",
-      "target": "/quotes"
-    },
-    {
-      "source": "/lists",
-      "target": "/web-experiments"
     },
     {
       "source": "/experiments",
@@ -4986,6 +4665,10 @@
     },
     {
       "source": "/programming",
+      "target": "/c-and-python"
+    },
+    {
+      "source": "/programming",
       "target": "/concurrency"
     },
     {
@@ -4995,6 +4678,10 @@
     {
       "source": "/programming",
       "target": "/for-new-programmers"
+    },
+    {
+      "source": "/programming",
+      "target": "/go-data-races"
     },
     {
       "source": "/programming",
@@ -5011,10 +4698,6 @@
     {
       "source": "/programming",
       "target": "/oop"
-    },
-    {
-      "source": "/programming",
-      "target": "/programming-languages"
     },
     {
       "source": "/programming",
@@ -5085,34 +4768,6 @@
       "target": "/usability-testing"
     },
     {
-      "source": "/computers",
-      "target": "/computers-from-scratch"
-    },
-    {
-      "source": "/computers",
-      "target": "/containers"
-    },
-    {
-      "source": "/computers",
-      "target": "/discussion-topics"
-    },
-    {
-      "source": "/computers",
-      "target": "/easy-vs-hard-in-cs"
-    },
-    {
-      "source": "/computers",
-      "target": "/keyboard-shortcuts"
-    },
-    {
-      "source": "/computers",
-      "target": "/networks"
-    },
-    {
-      "source": "/computers",
-      "target": "/operating-systems"
-    },
-    {
       "source": "/software-engineering",
       "target": "/code-review"
     },
@@ -5141,56 +4796,24 @@
       "target": "/the-joel-test"
     },
     {
-      "source": "/siir",
-      "target": "/abbas"
+      "source": "/computers",
+      "target": "/computers-from-scratch"
     },
     {
-      "source": "/siir",
-      "target": "/asik-veysel"
+      "source": "/computers",
+      "target": "/containers"
     },
     {
-      "source": "/siir",
-      "target": "/boz-ayran"
+      "source": "/computers",
+      "target": "/keyboard-shortcuts"
     },
     {
-      "source": "/siir",
-      "target": "/bulent-ecevit"
+      "source": "/computers",
+      "target": "/networks"
     },
     {
-      "source": "/siir",
-      "target": "/bulgur-pilavi"
-    },
-    {
-      "source": "/siir",
-      "target": "/can-yucel"
-    },
-    {
-      "source": "/siir",
-      "target": "/edip-cansever"
-    },
-    {
-      "source": "/siir",
-      "target": "/fuzuli"
-    },
-    {
-      "source": "/siir",
-      "target": "/isyan"
-    },
-    {
-      "source": "/siir",
-      "target": "/melih-cevdet"
-    },
-    {
-      "source": "/siir",
-      "target": "/nazim"
-    },
-    {
-      "source": "/siir",
-      "target": "/orhan-veli"
-    },
-    {
-      "source": "/siir",
-      "target": "/yunus-emre"
+      "source": "/computers",
+      "target": "/operating-systems"
     },
     {
       "source": "/time",
@@ -5359,46 +4982,6 @@
     {
       "source": "/oop",
       "target": "/design-video-streaming-app"
-    },
-    {
-      "source": "/programming-languages",
-      "target": "/typing"
-    },
-    {
-      "source": "/programming-languages",
-      "target": "/c#"
-    },
-    {
-      "source": "/programming-languages",
-      "target": "/data"
-    },
-    {
-      "source": "/programming-languages",
-      "target": "/dist"
-    },
-    {
-      "source": "/programming-languages",
-      "target": "/func"
-    },
-    {
-      "source": "/programming-languages",
-      "target": "/go"
-    },
-    {
-      "source": "/programming-languages",
-      "target": "/jvm"
-    },
-    {
-      "source": "/programming-languages",
-      "target": "/low"
-    },
-    {
-      "source": "/programming-languages",
-      "target": "/python"
-    },
-    {
-      "source": "/programming-languages",
-      "target": "/web"
     },
     {
       "source": "/projects",
@@ -5709,94 +5292,6 @@
       "target": "/code"
     },
     {
-      "source": "/c#",
-      "target": "/csharp"
-    },
-    {
-      "source": "/data",
-      "target": "/sql"
-    },
-    {
-      "source": "/dist",
-      "target": "/elixir"
-    },
-    {
-      "source": "/dist",
-      "target": "/erlang"
-    },
-    {
-      "source": "/func",
-      "target": "/functional-programming"
-    },
-    {
-      "source": "/func",
-      "target": "/haskell"
-    },
-    {
-      "source": "/func",
-      "target": "/lisp"
-    },
-    {
-      "source": "/go",
-      "target": "/go-data-races"
-    },
-    {
-      "source": "/jvm",
-      "target": "/clojure"
-    },
-    {
-      "source": "/jvm",
-      "target": "/java"
-    },
-    {
-      "source": "/jvm",
-      "target": "/kotlin"
-    },
-    {
-      "source": "/jvm",
-      "target": "/scala"
-    },
-    {
-      "source": "/low",
-      "target": "/c"
-    },
-    {
-      "source": "/low",
-      "target": "/cpp"
-    },
-    {
-      "source": "/low",
-      "target": "/rust"
-    },
-    {
-      "source": "/python",
-      "target": "/c-and-python"
-    },
-    {
-      "source": "/python",
-      "target": "/python-data-structures"
-    },
-    {
-      "source": "/python",
-      "target": "/python-guidelines"
-    },
-    {
-      "source": "/python",
-      "target": "/python-packages"
-    },
-    {
-      "source": "/python",
-      "target": "/zen-of-python"
-    },
-    {
-      "source": "/web",
-      "target": "/ts"
-    },
-    {
-      "source": "/web",
-      "target": "/wasm"
-    },
-    {
       "source": "/code",
       "target": "/delete-tree-node"
     },
@@ -5965,20 +5460,8 @@
       "target": "/bulent-ecevit"
     },
     {
-      "source": "/bayes",
+      "source": "/datasets",
       "target": "/probability-and-statistics"
-    },
-    {
-      "source": "/math",
-      "target": "/local-maximum"
-    },
-    {
-      "source": "/experiments",
-      "target": "/projects"
-    },
-    {
-      "source": "/time-scale",
-      "target": "/climate-change"
     },
     {
       "source": "/essais",
@@ -6021,6 +5504,22 @@
       "target": "/since-big-bang"
     },
     {
+      "source": "/bayes",
+      "target": "/probability-and-statistics"
+    },
+    {
+      "source": "/math",
+      "target": "/local-maximum"
+    },
+    {
+      "source": "/experiments",
+      "target": "/projects"
+    },
+    {
+      "source": "/time-scale",
+      "target": "/climate-change"
+    },
+    {
       "source": "/akins-laws-of-spacecraft",
       "target": "/hacker-laws"
     },
@@ -6059,14 +5558,6 @@
     {
       "source": "/design",
       "target": "/ux"
-    },
-    {
-      "source": "/driving",
-      "target": "/used-car-checklist"
-    },
-    {
-      "source": "/humor",
-      "target": "/the-tao-of-programming"
     },
     {
       "source": "/negotiations",
@@ -6363,50 +5854,6 @@
     {
       "source": "/concurrency",
       "target": "/producer-consumer-problem"
-    },
-    {
-      "source": "/c",
-      "target": "/c-and-python"
-    },
-    {
-      "source": "/c",
-      "target": "/c-hashmap"
-    },
-    {
-      "source": "/c",
-      "target": "/garbage-collector-in-c"
-    },
-    {
-      "source": "/c",
-      "target": "/logos-os"
-    },
-    {
-      "source": "/c",
-      "target": "/vga-driver"
-    },
-    {
-      "source": "/cpp",
-      "target": "/minik-robot"
-    },
-    {
-      "source": "/python",
-      "target": "/async-crawler"
-    },
-    {
-      "source": "/python",
-      "target": "/compiler"
-    },
-    {
-      "source": "/python",
-      "target": "/mini-search-engine"
-    },
-    {
-      "source": "/python",
-      "target": "/mini-web-server"
-    },
-    {
-      "source": "/python",
-      "target": "/pascal-interpreter"
     },
     {
       "source": "/system-design",

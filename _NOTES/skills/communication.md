@@ -1,17 +1,16 @@
 ---
 ---
 
-![](/assets/static/img/listen-with-passion.png)
 
 Listen with a beginner's mind. Set aside your opinion. 
 
 Listen to understand, not to answer, not to offer solutions
 
-Suspend judgment, it's not personal, not about you. Argue less, listen more 
+Suspend judgment, it's not personal, not about you. 
+
+Argue less, listen more 
 
 Listen to what isn't being said, too 
-
-![](/assets/static/img/dont-fill-the-silence.png)
 
 Words are irreversible. Think twice before you speak. Be careful with promises
 
@@ -31,16 +30,16 @@ People often share a problem or vulnerability for emotional support, not for adv
 
 Frequent sharing organizes thoughts
 
+
+[How to Communicate When Trust Is Low (Without Digging Yourself Into A Deeper Hole) ](https://charity.wtf/2023/08/17/how-to-communicate-when-trust-is-low-without-digging-yourself-into-a-deeper-hole/)
+
+
 ![](/assets/static/img/compliments-are-gifts.jpeg)
 
 ![](/assets/static/img/not-say-told-you.jpeg)
 
 ![](/assets/static/img/plain-pooh.jpg)
 
-[How to Communicate When Trust Is Low (Without Digging Yourself Into A Deeper Hole) ](https://charity.wtf/2023/08/17/how-to-communicate-when-trust-is-low-without-digging-yourself-into-a-deeper-hole/)
+![](/assets/static/img/dont-fill-the-silence.png)
 
-[[leadership]]
-
-[Tag: advice - Sketchplanations](https://sketchplanations.com/tags/advice)
-
-[Tag: kindness - Sketchplanations](https://sketchplanations.com/tags/kindness)
+![](/assets/static/img/listen-with-passion.png)
