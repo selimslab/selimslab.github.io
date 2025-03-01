@@ -1,7 +1,10 @@
 ---
 ---
 
+
 When you add or remove a node, you only need to re-distribute a fraction of keys instead of all your keys 
+
+Used for partitioning in Dynamo and Cassandra
 
 Map servers and keys on a ring using a uniformly distributed hash function 
 
@@ -15,4 +18,3 @@ If you add a node,  go counter clockwise and map the keys to the new node
 
 If a node leaves, go counter clockwise and map the keys to the next node on the ring 
 
-Used for partitioning in Dynamo and Cassandra

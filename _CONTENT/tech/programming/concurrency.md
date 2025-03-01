@@ -10,6 +10,8 @@ An actor is an isolated process managed by the language runtime.
 
 Erlang and Elixir natively implements them as distributed actors are core to the language design 
 
+<http://erlang.org/download/armstrong_thesis_2003.pdf>
+
 Akka tries to bring actor support to JVM 
 
 

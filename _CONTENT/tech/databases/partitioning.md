@@ -57,7 +57,7 @@ Splits large tables/databases into smaller, manageable pieces while maintaining 
 - Potential hotspots if partition key poorly chosen
 - Join performance across partitions
 
-## Real Example
+## Example
 ```sql
 -- PostgreSQL range partitioning
 CREATE TABLE sales (

@@ -26,5 +26,3 @@ Kafka uses sendfile system call to directly copy from pagecache to network, foll
 
 ![](/assets/static/img/kafka-sendfile.png)
 
-
-
