@@ -251,11 +251,6 @@ class SiteGenerator < Jekyll::Generator
     document_links + graph[:links].length
   end
 
-
-  def remove_leading_slash(str)
-    str.delete_prefix('/')
-  end
-
   def generate_graph(site)
     nodes, links, nodemap, group = [], [], {}, 0
     file_tree = { "/root": site.data["tree"] }
@@ -326,7 +321,7 @@ class SiteGenerator < Jekyll::Generator
     nodes.each do |node|
       # Set node name from title or fallback to capitalized ID
       node[:name] = site.data["file_to_title"][node[:id]] || 
-                    remove_leading_slash(node[:id].to_s).capitalize
+                    node[:id].to_s.delete_prefix('/').capitalize
       
       # Find all links connected to this node
       connected_links = links.select { |link| link[:source] == node[:id] || link[:target] == node[:id] }
@@ -349,7 +344,7 @@ class SiteGenerator < Jekyll::Generator
     return unless doc.respond_to?(:id)
     
     # Get the basename without leading slash
-    source_basename = remove_leading_slash(doc.id)
+    source_basename = doc.id.delete_prefix('/')
     
     # Find documents that link to this document via wiki links or markdown links
     linking_docs = site.documents.select do |other_doc|
@@ -489,7 +484,7 @@ class SiteGenerator < Jekyll::Generator
     return if child_doc == parent_doc
 
     # Get parent basename without leading slash
-    parent_basename = remove_leading_slash(parent_id)
+    parent_basename = parent_id.delete_prefix('/')
     
     # Update child document with parent information
     child_doc.data['parent_basename'] = parent_basename
