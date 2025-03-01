@@ -1,31 +1,19 @@
 ---
 ---
 
-## When listening 
 
-Set aside your opinion. Listen with a **beginner's mind**
+## Links 
 
-**Listen to understand**, not to answer, not to offer solutions. People often share a problem or vulnerability for emotional support, not for advice or solutions. Give neither salt nor counsel till you are asked for it.
+[How to Communicate When Trust Is Low (Without Digging Yourself Into A Deeper Hole) ](https://charity.wtf/2023/08/17/how-to-communicate-when-trust-is-low-without-digging-yourself-into-a-deeper-hole/)
 
-Suspend judgment, it's not personal, it's not about you. 
+![](/assets/static/img/compliments-are-gifts.jpeg)
 
-Listen to **what isn't being said**, too 
+![](/assets/static/img/not-say-told-you.jpeg)
 
-## When speaking 
+![](/assets/static/img/plain-pooh.jpg)
 
-Words are irreversible. Think twice before you speak. Be careful with promises
+![](/assets/static/img/dont-fill-the-silence.png)
 
-Say something good or say nothing
+![](/assets/static/img/listen-with-passion.png)
 
-Don't say it if you don't believe it
-
-Emotions drive the conversation. Have a positive, constructive attitude. 
-
-Avoid negativity, judging, excuses, exaggeration, or gossip 
-
-Don't try to prove anything, people believe what they want to believe. 
-
-People can't read minds. Something being obvious to you doesn't mean it's obvious to them 
-
-Frequent sharing organizes thoughts
 

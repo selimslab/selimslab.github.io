@@ -8,13 +8,16 @@
   "/arts": [
     "root"
   ],
-  "/comm-links": [
-    "communication"
-  ],
   "/communication": [
     "arts"
   ],
+  "/listening": [
+    "communication"
+  ],
   "/public-speaking": [
+    "communication"
+  ],
+  "/speaking": [
     "communication"
   ],
   "/teaching": [

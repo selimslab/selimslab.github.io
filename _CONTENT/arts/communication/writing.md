@@ -1,5 +1,4 @@
 ---
-title: On writing
 ---
 
 > "How vain it is to sit down to write

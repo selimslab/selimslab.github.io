@@ -23,8 +23,8 @@
         "/siir",
         "/literature",
         "/reasoning",
-        "/design",
         "/communication",
+        "/design",
         "/languages",
         "/architecture",
         "/photography"
@@ -214,6 +214,19 @@
       ]
     },
     {
+      "id": "/communication",
+      "group": 2,
+      "name": "Communication",
+      "links": [
+        "/arts",
+        "/listening",
+        "/public-speaking",
+        "/speaking",
+        "/teaching",
+        "/writing"
+      ]
+    },
+    {
       "id": "/design",
       "group": 2,
       "name": "Design",
@@ -227,18 +240,6 @@
         "/natural-ux",
         "/polished-pixels",
         "/ux"
-      ]
-    },
-    {
-      "id": "/communication",
-      "group": 2,
-      "name": "Communication",
-      "links": [
-        "/arts",
-        "/comm-links",
-        "/public-speaking",
-        "/teaching",
-        "/writing"
       ]
     },
     {
@@ -1305,6 +1306,46 @@
       ]
     },
     {
+      "id": "/listening",
+      "group": 3,
+      "name": "Listening",
+      "links": [
+        "/communication"
+      ]
+    },
+    {
+      "id": "/public-speaking",
+      "group": 3,
+      "name": "Public Speaking",
+      "links": [
+        "/communication"
+      ]
+    },
+    {
+      "id": "/speaking",
+      "group": 3,
+      "name": "Speaking",
+      "links": [
+        "/communication"
+      ]
+    },
+    {
+      "id": "/teaching",
+      "group": 3,
+      "name": "Teaching",
+      "links": [
+        "/communication"
+      ]
+    },
+    {
+      "id": "/writing",
+      "group": 3,
+      "name": "On writing",
+      "links": [
+        "/communication"
+      ]
+    },
+    {
       "id": "/creativity",
       "group": 3,
       "name": "Creativity",
@@ -1343,38 +1384,6 @@
       "links": [
         "/design",
         "/on-software"
-      ]
-    },
-    {
-      "id": "/comm-links",
-      "group": 3,
-      "name": "Comm Links",
-      "links": [
-        "/communication"
-      ]
-    },
-    {
-      "id": "/public-speaking",
-      "group": 3,
-      "name": "Public Speaking",
-      "links": [
-        "/communication"
-      ]
-    },
-    {
-      "id": "/teaching",
-      "group": 3,
-      "name": "Teaching",
-      "links": [
-        "/communication"
-      ]
-    },
-    {
-      "id": "/writing",
-      "group": 3,
-      "name": "On writing",
-      "links": [
-        "/communication"
       ]
     },
     {
@@ -3837,11 +3846,11 @@
     },
     {
       "source": "/arts",
-      "target": "/design"
+      "target": "/communication"
     },
     {
       "source": "/arts",
-      "target": "/communication"
+      "target": "/design"
     },
     {
       "source": "/arts",
@@ -4268,6 +4277,26 @@
       "target": "/problem-solving"
     },
     {
+      "source": "/communication",
+      "target": "/listening"
+    },
+    {
+      "source": "/communication",
+      "target": "/public-speaking"
+    },
+    {
+      "source": "/communication",
+      "target": "/speaking"
+    },
+    {
+      "source": "/communication",
+      "target": "/teaching"
+    },
+    {
+      "source": "/communication",
+      "target": "/writing"
+    },
+    {
       "source": "/design",
       "target": "/creativity"
     },
@@ -4286,22 +4315,6 @@
     {
       "source": "/design",
       "target": "/ship-it"
-    },
-    {
-      "source": "/communication",
-      "target": "/comm-links"
-    },
-    {
-      "source": "/communication",
-      "target": "/public-speaking"
-    },
-    {
-      "source": "/communication",
-      "target": "/teaching"
-    },
-    {
-      "source": "/communication",
-      "target": "/writing"
     },
     {
       "source": "/languages",
