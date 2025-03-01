@@ -509,13 +509,17 @@
     "sciences"
   ],
   "/being-poor": [
-    "essais"
+    "essais",
+    "sociology"
   ],
   "/social-groups": [
-
+    "sociology"
   ],
   "/social-media": [
-
+    "sociology"
+  ],
+  "/sociology": [
+    "social-sciences"
   ],
   "/communication": [
     "skills"
