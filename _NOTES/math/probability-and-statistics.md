@@ -3,7 +3,6 @@
 ---
 
 
-[Tag: statistics - Sketchplanations](https://sketchplanations.com/tags/statistics)
 
 
 [[bayes]]
@@ -40,6 +39,7 @@ Frequentist vs Bayesian statistics
 
 [Monty Hall problem - Wikipedia](https://en.wikipedia.org/wiki/Monty_Hall_problem)
 
+[Tag: statistics - Sketchplanations](https://sketchplanations.com/tags/statistics)
 
 
 

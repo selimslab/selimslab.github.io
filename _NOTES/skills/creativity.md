@@ -21,8 +21,3 @@ Make the complex simple.
 Make the difficult easy.
 
 There are opportunities everywhere."
-
-
-[Tag: creativity - Sketchplanations](https://sketchplanations.com/tags/creativity)
-
-[Tag: ideas - Sketchplanations](https://sketchplanations.com/tags/ideas)
