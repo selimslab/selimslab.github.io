@@ -1,5 +1,4 @@
 ---
-title: Public speaking
 ---
 
 Focus on the audience

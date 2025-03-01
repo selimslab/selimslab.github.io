@@ -1,5 +1,4 @@
 ---
-tags: psy 
 ---
 
 Lead by example, actions matter more than words

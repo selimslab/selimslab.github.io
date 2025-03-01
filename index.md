@@ -15,7 +15,6 @@ Give your mind some space
   <li><a href='/arts/'>Arts</a></li>
   <li><a href='/sciences/'>Sciences</a></li>
   <li><a href='/tech/'>Tech</a></li>
-  <li><a href='/skills/'>Practical Skills</a></li>
   <li><a href='/lists/'>Lists</a></li>
 </ul>
 

@@ -8,6 +8,40 @@
   "/arts": [
     "root"
   ],
+  "/comm-links": [
+    "communication"
+  ],
+  "/communication": [
+    "arts"
+  ],
+  "/public-speaking": [
+    "communication"
+  ],
+  "/teaching": [
+    "communication"
+  ],
+  "/writing": [
+    "communication"
+  ],
+  "/creativity": [
+    "design"
+  ],
+  "/design-ideas": [
+    "design"
+  ],
+  "/design-principles": [
+    "design"
+  ],
+  "/design": [
+    "arts",
+    "skills"
+  ],
+  "/drawing": [
+    "design"
+  ],
+  "/ship-it": [
+    "design"
+  ],
   "/languages": [
     "arts"
   ],
@@ -88,6 +122,10 @@
     "philosophy",
     "top"
   ],
+  "/how-to-grow-old-russell": [
+    "essais",
+    "philosophy"
+  ],
   "/ideal-insan": [
     "philosophy"
   ],
@@ -149,6 +187,9 @@
   ],
   "/you-are-not-nameless": [
     "work"
+  ],
+  "/photography": [
+    "arts"
   ],
   "/brecht": [
     "poetry"
@@ -230,6 +271,33 @@
   "/wind-and-rain": [
     "poetry"
   ],
+  "/critical-thinking": [
+    "phil",
+    "reasoning"
+  ],
+  "/decision-making": [
+    "reasoning",
+    "skills"
+  ],
+  "/get-things-done": [
+    "reasoning"
+  ],
+  "/learning": [
+    "reasoning",
+    "skills",
+    "soc"
+  ],
+  "/mastery": [
+    "reasoning"
+  ],
+  "/problem-solving": [
+    "essais",
+    "reasoning",
+    "skills"
+  ],
+  "/reasoning": [
+    "arts"
+  ],
   "/abbas": [
     "siir"
   ],
@@ -275,6 +343,19 @@
   "/blogs": [
     "lists"
   ],
+  "/checklists": [
+    "lists"
+  ],
+  "/driving": [
+    "checklists"
+  ],
+  "/outdoors": [
+    "checklists",
+    "skills"
+  ],
+  "/used-cars": [
+    "checklists"
+  ],
   "/datasets": [
     "lists"
   ],
@@ -293,19 +374,8 @@
   "/paintings": [
     "lists"
   ],
-  "/photography": [
-    "lists",
-    "skills"
-  ],
   "/quotes": [
     "lists"
-  ],
-  "/used-car-checklist": [
-    "lists"
-  ],
-  "/web-experiments": [
-    "lists",
-    "ux"
   ],
   "/about": [
 
@@ -392,6 +462,13 @@
   "/climate-change": [
     "natural-sciences"
   ],
+  "/drowning-does-not-look-dramatic": [
+    "health",
+    "skills"
+  ],
+  "/exercise": [
+    "health"
+  ],
   "/health": [
     "natural-sciences"
   ],
@@ -446,8 +523,14 @@
   "/books-social": [
     "social-sciences"
   ],
+  "/econ-ideas": [
+    "economics"
+  ],
   "/economics": [
     "social-sciences"
+  ],
+  "/how-to-gain-wealth": [
+    "economics"
   ],
   "/121st-century": [
     "history",
@@ -475,6 +558,10 @@
   "/chomsky": [
     "politics"
   ],
+  "/negotiations": [
+    "politics",
+    "skills"
+  ],
   "/politics": [
     "social-sciences"
   ],
@@ -496,6 +583,12 @@
     "psychology"
   ],
   "/emotions": [
+    "psychology"
+  ],
+  "/habits": [
+    "psychology"
+  ],
+  "/parenting": [
     "psychology"
   ],
   "/psy-ideas": [
@@ -520,83 +613,6 @@
   ],
   "/sociology": [
     "social-sciences"
-  ],
-  "/communication": [
-    "skills"
-  ],
-  "/creativity": [
-    "skills"
-  ],
-  "/critical-thinking": [
-    "phil",
-    "skills"
-  ],
-  "/decision-making": [
-    "skills"
-  ],
-  "/design": [
-    "skills"
-  ],
-  "/drawing": [
-    "skills"
-  ],
-  "/driving": [
-    "skills"
-  ],
-  "/drowning-does-not-look-dramatic": [
-    "skills"
-  ],
-  "/exercise": [
-    "skills"
-  ],
-  "/get-things-done": [
-    "skills"
-  ],
-  "/habits": [
-    "skills"
-  ],
-  "/how-to-gain-wealth": [
-    "skills"
-  ],
-  "/how-to-grow-old-russell": [
-    "essais",
-    "phil",
-    "skills"
-  ],
-  "/learning": [
-    "skills",
-    "soc"
-  ],
-  "/mastery": [
-    "essais",
-    "skills"
-  ],
-  "/negotiations": [
-    "skills"
-  ],
-  "/outdoors": [
-    "skills",
-    "sports"
-  ],
-  "/parenting": [
-    "psy",
-    "skills"
-  ],
-  "/problem-solving": [
-    "essais",
-    "skills"
-  ],
-  "/public-speaking": [
-    "skills"
-  ],
-  "/skills": [
-    "root"
-  ],
-  "/teaching": [
-    "skills"
-  ],
-  "/writing": [
-    "skills"
   ],
   "/algorithms": [
     "tech"

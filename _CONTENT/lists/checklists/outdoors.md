@@ -1,11 +1,6 @@
 ---
-tags: skills sports
+tags: skills
 ---
-
-
-[Tag: nature - Sketchplanations](https://sketchplanations.com/tags/nature)
-
-![](/assets/static/img/3-day-effect.jpeg)
 
 
 ## elements 
@@ -82,3 +77,9 @@ gps
 satellite phone 
 emergency beacon 
 knot rope 
+
+
+[Tag: nature - Sketchplanations](https://sketchplanations.com/tags/nature)
+
+![](/assets/static/img/3-day-effect.jpeg)
+
