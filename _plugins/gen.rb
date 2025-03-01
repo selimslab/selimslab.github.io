@@ -154,7 +154,7 @@ class SiteGenerator < Jekyll::Generator
 
     level_order = site.data["tree_level_order"]
     level_order.each do |parent_id, children|
-      
+      children = children.sort_by { |child_id| site.data["file_to_title"][child_id] || child_id }
       html = "<ul>"
       children.each do |child_id|
         if child_id == parent_id 

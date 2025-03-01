@@ -87,7 +87,7 @@
     "/happiness",
     "/hard-times",
     "/ideal-insan",
-    "/ideas",
+    "/phil-ideas",
     "/character",
     "/one-bit-better",
     "/philosophy",
@@ -118,6 +118,7 @@
     "/humor",
     "/interviews",
     "/learning",
+    "/skill-links",
     "/mastery",
     "/negotiations",
     "/writing",
@@ -125,24 +126,19 @@
     "/parenting",
     "/problem-solving",
     "/public-speaking",
-    "/skill-links",
     "/skills",
     "/teaching",
     "/used-car-checklist"
   ],
   "/social-sciences": [
     "/history",
+    "/psychology",
     "/languages",
-    "/architecture",
     "/being-poor",
     "/books-social",
     "/chomsky",
-    "/cognitive-biases",
     "/economics",
-    "/emotions",
-    "/law",
     "/politics",
-    "/psychology",
     "/social-sciences",
     "/sociology",
     "/systems",
@@ -151,10 +147,14 @@
     "/who-goes-nazi"
   ],
   "/tech": [
+    "/security",
+    "/databases",
+    "/distributed-systems",
     "/programming",
+    "/ux",
     "/computers",
     "/software-engineering",
-    "/ux",
+    "/system-design",
     "/data-science",
     "/tech"
   ],
@@ -251,18 +251,63 @@
     "/history",
     "/since-big-bang"
   ],
+  "/psychology": [
+    "/cognitive-biases",
+    "/emotions",
+    "/psy-ideas",
+    "/psychology"
+  ],
   "/languages": [
     "/languages",
     "/latin",
     "/metaphors"
   ],
+  "/security": [
+    "/authentication",
+    "/authorization",
+    "/certificates",
+    "/cookies",
+    "/cors",
+    "/csrf",
+    "/openssl-encrypt",
+    "/public-key-cryptography",
+    "/security-heuristics",
+    "/security",
+    "/store-passwords",
+    "/transport-layer-security",
+    "/xss"
+  ],
+  "/databases": [
+    "/acid",
+    "/b-trees",
+    "/databases",
+    "/db-concepts",
+    "/db-data-structures",
+    "/leaderless-replication",
+    "/lsm-trees",
+    "/normalization",
+    "/partitioning",
+    "/replication",
+    "/single-leader",
+    "/sql-tips"
+  ],
+  "/distributed-systems": [
+    "/armstrong-thesis",
+    "/azure-pillars",
+    "/consistent-hashing",
+    "/detect-a-node-failure",
+    "/distributed-design-patterns",
+    "/distributed-systems",
+    "/generate-a-unique-id",
+    "/google-sre-book",
+    "/kafka",
+    "/spark",
+    "/time-and-order"
+  ],
   "/programming": [
-    "/api",
-    "/com",
     "/concurrency",
     "/encodings",
     "/for-new-programmers",
-    "/keyboard-shortcuts",
     "/programming",
     "/the-tao-of-programming",
     "/unicode",
@@ -270,30 +315,6 @@
     "/oop",
     "/programming-languages",
     "/projects"
-  ],
-  "/computers": [
-    "/computers-from-scratch",
-    "/computers",
-    "/containers",
-    "/discussion-topics",
-    "/easy-vs-hard-in-cs",
-    "/networks",
-    "/operating-systems",
-    "/databases",
-    "/distributed-systems",
-    "/security"
-  ],
-  "/software-engineering": [
-    "/api-design",
-    "/code-review",
-    "/core-concepts",
-    "/on-software",
-    "/software-analogies",
-    "/software-engineering",
-    "/software-quality",
-    "/swe-misery",
-    "/the-joel-test",
-    "/system-design"
   ],
   "/ux": [
     "/a-free-web-again",
@@ -306,6 +327,36 @@
     "/things-users-care",
     "/usability-testing",
     "/ux"
+  ],
+  "/computers": [
+    "/computers-from-scratch",
+    "/computers",
+    "/containers",
+    "/discussion-topics",
+    "/easy-vs-hard-in-cs",
+    "/keyboard-shortcuts",
+    "/networks",
+    "/operating-systems"
+  ],
+  "/software-engineering": [
+    "/code-review",
+    "/core-concepts",
+    "/on-software",
+    "/software-analogies",
+    "/software-engineering",
+    "/software-quality",
+    "/swe-misery",
+    "/the-joel-test"
+  ],
+  "/system-design": [
+    "/api-design",
+    "/choose-boring-tech",
+    "/design-patterns",
+    "/domain-driven-design",
+    "/hacker-laws",
+    "/minimal-tech",
+    "/solid",
+    "/system-design"
   ],
   "/data-science": [
     "/customize-prompt",
@@ -339,10 +390,20 @@
     "/tree"
   ],
   "/oop": [
-    "/design-patterns",
-    "/oop",
-    "/solid",
-    "/oop-designs"
+    "/block",
+    "/design-a-bicycle",
+    "/design-a-book-app",
+    "/design-a-crm",
+    "/design-a-gov-cloud",
+    "/design-a-personal-note-publishing-system",
+    "/design-a-trader",
+    "/design-a-web-crawler",
+    "/design-auth",
+    "/design-etl-pipeline",
+    "/design-oauth",
+    "/design-units",
+    "/design-video-streaming-app",
+    "/oop"
   ],
   "/programming-languages": [
     "/programming-languages",
@@ -373,55 +434,6 @@
     "/predict-movie-genres",
     "/projects",
     "/vga-driver"
-  ],
-  "/databases": [
-    "/acid",
-    "/b-trees",
-    "/databases",
-    "/db-concepts",
-    "/db-data-structures",
-    "/leaderless-replication",
-    "/lsm-trees",
-    "/normalization",
-    "/partitioning",
-    "/replication",
-    "/single-leader",
-    "/sql-tips"
-  ],
-  "/distributed-systems": [
-    "/armstrong-thesis",
-    "/azure-pillars",
-    "/consistent-hashing",
-    "/detect-a-node-failure",
-    "/distributed-design-patterns",
-    "/distributed-systems",
-    "/generate-a-unique-id",
-    "/google-sre-book",
-    "/kafka",
-    "/spark",
-    "/time-and-order"
-  ],
-  "/security": [
-    "/authentication",
-    "/authorization",
-    "/certificates",
-    "/cookies",
-    "/cors",
-    "/csrf",
-    "/openssl-encrypt",
-    "/public-key-cryptography",
-    "/security-heuristics",
-    "/security",
-    "/store-passwords",
-    "/transport-layer-security",
-    "/xss"
-  ],
-  "/system-design": [
-    "/choose-boring-tech",
-    "/domain-driven-design",
-    "/hacker-laws",
-    "/minimal-tech",
-    "/system-design"
   ],
   "/array": [
     "/array-rotate",
@@ -514,22 +526,6 @@
     "/tree-traversals",
     "/trie",
     "/code"
-  ],
-  "/oop-designs": [
-    "/block",
-    "/design-a-bicycle",
-    "/design-a-book-app",
-    "/design-a-crm",
-    "/design-a-gov-cloud",
-    "/design-a-personal-note-publishing-system",
-    "/design-a-trader",
-    "/design-a-web-crawler",
-    "/design-auth",
-    "/design-etl-pipeline",
-    "/design-oauth",
-    "/design-units",
-    "/design-video-streaming-app",
-    "/oop-designs"
   ],
   "/c#": [
     "/csharp"

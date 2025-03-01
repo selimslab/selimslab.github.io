@@ -369,11 +369,10 @@
   "/ideal-insan": [
     "philosophy"
   ],
-  "/ideas": [
-    "philosophy",
-    "top"
-  ],
   "/one-bit-better": [
+    "philosophy"
+  ],
+  "/phil-ideas": [
     "philosophy"
   ],
   "/philosophy": [
@@ -527,9 +526,6 @@
   "/writing": [
     "skills"
   ],
-  "/architecture": [
-    "social-sciences"
-  ],
   "/being-poor": [
     "social-sciences"
   ],
@@ -539,14 +535,7 @@
   "/chomsky": [
     "social-sciences"
   ],
-  "/cognitive-biases": [
-    "social-sciences",
-    "top"
-  ],
   "/economics": [
-    "social-sciences"
-  ],
-  "/emotions": [
     "social-sciences"
   ],
   "/121st-century": [
@@ -582,11 +571,18 @@
     "languages",
     "soc"
   ],
-  "/law": [
-    "social-sciences"
-  ],
   "/politics": [
     "social-sciences"
+  ],
+  "/cognitive-biases": [
+    "psychology",
+    "top"
+  ],
+  "/emotions": [
+    "psychology"
+  ],
+  "/psy-ideas": [
+    "psychology"
   ],
   "/psychology": [
     "social-sciences"
@@ -623,6 +619,36 @@
     "computers",
     "os"
   ],
+  "/discussion-topics": [
+    "computers"
+  ],
+  "/easy-vs-hard-in-cs": [
+    "computers"
+  ],
+  "/keyboard-shortcuts": [
+    "computers"
+  ],
+  "/networks": [
+    "computers"
+  ],
+  "/operating-systems": [
+    "computers"
+  ],
+  "/customize-prompt": [
+    "data-science"
+  ],
+  "/data-science": [
+    "tech"
+  ],
+  "/machine-learning": [
+    "data-science"
+  ],
+  "/nlp": [
+    "data-science"
+  ],
+  "/prompt-engineering": [
+    "data-science"
+  ],
   "/acid": [
     "databases"
   ],
@@ -631,7 +657,7 @@
     "ds"
   ],
   "/databases": [
-    "computers"
+    "tech"
   ],
   "/db-concepts": [
     "databases"
@@ -663,9 +689,6 @@
   "/sql-tips": [
     "databases"
   ],
-  "/discussion-topics": [
-    "computers"
-  ],
   "/armstrong-thesis": [
     "distributed-systems"
   ],
@@ -682,8 +705,8 @@
     "distributed-systems"
   ],
   "/distributed-systems": [
-    "computers",
-    "sys"
+    "sys",
+    "tech"
   ],
   "/generate-a-unique-id": [
     "distributed-systems"
@@ -699,69 +722,6 @@
   ],
   "/time-and-order": [
     "distributed-systems"
-  ],
-  "/easy-vs-hard-in-cs": [
-    "computers"
-  ],
-  "/networks": [
-    "computers"
-  ],
-  "/operating-systems": [
-    "computers"
-  ],
-  "/authentication": [
-    "security"
-  ],
-  "/authorization": [
-    "security"
-  ],
-  "/certificates": [
-    "security"
-  ],
-  "/cookies": [
-    "security"
-  ],
-  "/cors": [
-    "security"
-  ],
-  "/csrf": [
-    "security"
-  ],
-  "/openssl-encrypt": [
-    "security"
-  ],
-  "/public-key-cryptography": [
-    "security"
-  ],
-  "/security-heuristics": [
-    "security"
-  ],
-  "/security": [
-    "computers"
-  ],
-  "/store-passwords": [
-    "security"
-  ],
-  "/transport-layer-security": [
-    "security"
-  ],
-  "/xss": [
-    "security"
-  ],
-  "/customize-prompt": [
-    "data-science"
-  ],
-  "/data-science": [
-    "tech"
-  ],
-  "/machine-learning": [
-    "data-science"
-  ],
-  "/nlp": [
-    "data-science"
-  ],
-  "/prompt-engineering": [
-    "data-science"
   ],
   "/algorithms": [
     "programming"
@@ -1107,12 +1067,6 @@
   "/trie": [
     "str"
   ],
-  "/api": [
-    "programming"
-  ],
-  "/com": [
-    "programming"
-  ],
   "/concurrency": [
     "programming"
   ],
@@ -1123,60 +1077,48 @@
     "programming",
     "top"
   ],
-  "/keyboard-shortcuts": [
-    "programming"
-  ],
-  "/design-patterns": [
+  "/block": [
     "oop"
   ],
-  "/block": [
-    "oop-designs"
-  ],
   "/design-a-bicycle": [
-    "oop-designs"
+    "oop"
   ],
   "/design-a-book-app": [
-    "oop-designs"
+    "oop"
   ],
   "/design-a-crm": [
-    "oop-designs"
+    "oop"
   ],
   "/design-a-gov-cloud": [
-    "oop-designs"
+    "oop"
   ],
   "/design-a-personal-note-publishing-system": [
-    "oop-designs"
+    "oop"
   ],
   "/design-a-trader": [
-    "oop-designs"
+    "oop"
   ],
   "/design-a-web-crawler": [
-    "oop-designs"
+    "oop"
   ],
   "/design-auth": [
-    "oop-designs"
+    "oop"
   ],
   "/design-etl-pipeline": [
-    "oop-designs"
+    "oop"
   ],
   "/design-oauth": [
-    "oop-designs"
+    "oop"
   ],
   "/design-units": [
-    "oop-designs"
+    "oop"
   ],
   "/design-video-streaming-app": [
-    "oop-designs"
-  ],
-  "/oop-designs": [
     "oop"
   ],
   "/oop": [
     "programming",
     "sys"
-  ],
-  "/solid": [
-    "oop"
   ],
   "/csharp": [
 
@@ -1329,8 +1271,44 @@
   "/unicode": [
     "programming"
   ],
-  "/api-design": [
-    "software-engineering"
+  "/authentication": [
+    "security"
+  ],
+  "/authorization": [
+    "security"
+  ],
+  "/certificates": [
+    "security"
+  ],
+  "/cookies": [
+    "security"
+  ],
+  "/cors": [
+    "security"
+  ],
+  "/csrf": [
+    "security"
+  ],
+  "/openssl-encrypt": [
+    "security"
+  ],
+  "/public-key-cryptography": [
+    "security"
+  ],
+  "/security-heuristics": [
+    "security"
+  ],
+  "/security": [
+    "tech"
+  ],
+  "/store-passwords": [
+    "security"
+  ],
+  "/transport-layer-security": [
+    "security"
+  ],
+  "/xss": [
+    "security"
   ],
   "/code-review": [
     "software-engineering"
@@ -1353,7 +1331,16 @@
   "/swe-misery": [
     "software-engineering"
   ],
+  "/the-joel-test": [
+    "software-engineering"
+  ],
+  "/api-design": [
+    "system-design"
+  ],
   "/choose-boring-tech": [
+    "system-design"
+  ],
+  "/design-patterns": [
     "system-design"
   ],
   "/domain-driven-design": [
@@ -1367,12 +1354,12 @@
   "/minimal-tech": [
     "system-design"
   ],
-  "/system-design": [
-    "software-engineering",
-    "systems"
+  "/solid": [
+    "system-design"
   ],
-  "/the-joel-test": [
-    "software-engineering"
+  "/system-design": [
+    "systems",
+    "tech"
   ],
   "/tech": [
     "root"

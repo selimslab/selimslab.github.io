@@ -136,7 +136,7 @@
         "/happiness",
         "/hard-times",
         "/ideal-insan",
-        "/ideas",
+        "/phil-ideas",
         "/character",
         "/one-bit-better",
         "/questions",
@@ -178,6 +178,7 @@
         "/humor",
         "/interviews",
         "/learning",
+        "/skill-links",
         "/mastery",
         "/negotiations",
         "/writing",
@@ -185,7 +186,6 @@
         "/parenting",
         "/problem-solving",
         "/public-speaking",
-        "/skill-links",
         "/teaching",
         "/used-car-checklist",
         "/eudaimonia",
@@ -201,17 +201,13 @@
       "links": [
         "/root",
         "/history",
+        "/psychology",
         "/languages",
-        "/architecture",
         "/being-poor",
         "/books-social",
         "/chomsky",
-        "/cognitive-biases",
         "/economics",
-        "/emotions",
-        "/law",
         "/politics",
-        "/psychology",
         "/sociology",
         "/systems",
         "/the-triumph-of-stupidity",
@@ -230,10 +226,14 @@
       "name": "Tech",
       "links": [
         "/root",
+        "/security",
+        "/databases",
+        "/distributed-systems",
         "/programming",
+        "/ux",
         "/computers",
         "/software-engineering",
-        "/ux",
+        "/system-design",
         "/data-science"
       ]
     },
@@ -815,7 +815,7 @@
       ]
     },
     {
-      "id": "/ideas",
+      "id": "/phil-ideas",
       "group": 2,
       "name": "Ideas",
       "links": [
@@ -1068,6 +1068,14 @@
       ]
     },
     {
+      "id": "/skill-links",
+      "group": 2,
+      "name": "Links",
+      "links": [
+        "/skills"
+      ]
+    },
+    {
       "id": "/mastery",
       "group": 2,
       "name": "Mastery",
@@ -1082,7 +1090,7 @@
       "name": "Negotiations",
       "links": [
         "/skills",
-        "/psychology"
+        "/psy-ideas"
       ]
     },
     {
@@ -1130,14 +1138,6 @@
       ]
     },
     {
-      "id": "/skill-links",
-      "group": 2,
-      "name": "Skill Links",
-      "links": [
-        "/skills"
-      ]
-    },
-    {
       "id": "/teaching",
       "group": 2,
       "name": "Teaching",
@@ -1168,6 +1168,20 @@
       ]
     },
     {
+      "id": "/psychology",
+      "group": 2,
+      "name": "Psychology",
+      "links": [
+        "/social-sciences",
+        "/cognitive-biases",
+        "/emotions",
+        "/psy-ideas",
+        "/happiness",
+        "/inertia",
+        "/parenting"
+      ]
+    },
+    {
       "id": "/languages",
       "group": 2,
       "name": "Languages",
@@ -1175,15 +1189,6 @@
         "/social-sciences",
         "/latin",
         "/metaphors"
-      ]
-    },
-    {
-      "id": "/architecture",
-      "group": 2,
-      "name": "Architecture",
-      "links": [
-        "/social-sciences",
-        "/urban-planning"
       ]
     },
     {
@@ -1211,33 +1216,9 @@
       ]
     },
     {
-      "id": "/cognitive-biases",
-      "group": 2,
-      "name": "Cognitive Biases",
-      "links": [
-        "/social-sciences"
-      ]
-    },
-    {
       "id": "/economics",
       "group": 2,
       "name": "Economics",
-      "links": [
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/emotions",
-      "group": 2,
-      "name": "Emotions",
-      "links": [
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/law",
-      "group": 2,
-      "name": "Law",
       "links": [
         "/social-sciences"
       ]
@@ -1249,18 +1230,6 @@
       "links": [
         "/social-sciences",
         "/tao-te-ching"
-      ]
-    },
-    {
-      "id": "/psychology",
-      "group": 2,
-      "name": "Psychology",
-      "links": [
-        "/social-sciences",
-        "/negotiations",
-        "/happiness",
-        "/inertia",
-        "/parenting"
       ]
     },
     {
@@ -1295,8 +1264,7 @@
       "group": 2,
       "name": "Urban Planning",
       "links": [
-        "/social-sciences",
-        "/architecture"
+        "/social-sciences"
       ]
     },
     {
@@ -1309,17 +1277,72 @@
       ]
     },
     {
+      "id": "/security",
+      "group": 2,
+      "name": "Security",
+      "links": [
+        "/tech",
+        "/authentication",
+        "/authorization",
+        "/certificates",
+        "/cookies",
+        "/cors",
+        "/csrf",
+        "/openssl-encrypt",
+        "/public-key-cryptography",
+        "/security-heuristics",
+        "/store-passwords",
+        "/transport-layer-security",
+        "/xss"
+      ]
+    },
+    {
+      "id": "/databases",
+      "group": 2,
+      "name": "Databases",
+      "links": [
+        "/tech",
+        "/acid",
+        "/b-trees",
+        "/db-concepts",
+        "/db-data-structures",
+        "/leaderless-replication",
+        "/lsm-trees",
+        "/normalization",
+        "/partitioning",
+        "/replication",
+        "/single-leader",
+        "/sql-tips"
+      ]
+    },
+    {
+      "id": "/distributed-systems",
+      "group": 2,
+      "name": "Distributed Systems",
+      "links": [
+        "/tech",
+        "/armstrong-thesis",
+        "/azure-pillars",
+        "/consistent-hashing",
+        "/detect-a-node-failure",
+        "/distributed-design-patterns",
+        "/generate-a-unique-id",
+        "/google-sre-book",
+        "/kafka",
+        "/spark",
+        "/time-and-order",
+        "/system-design"
+      ]
+    },
+    {
       "id": "/programming",
       "group": 2,
       "name": "Programming",
       "links": [
         "/tech",
-        "/api",
-        "/com",
         "/concurrency",
         "/encodings",
         "/for-new-programmers",
-        "/keyboard-shortcuts",
         "/the-tao-of-programming",
         "/unicode",
         "/algorithms",
@@ -1328,42 +1351,6 @@
         "/projects",
         "/skills",
         "/software-engineering"
-      ]
-    },
-    {
-      "id": "/computers",
-      "group": 2,
-      "name": "Computers",
-      "links": [
-        "/tech",
-        "/computers-from-scratch",
-        "/containers",
-        "/discussion-topics",
-        "/easy-vs-hard-in-cs",
-        "/networks",
-        "/operating-systems",
-        "/databases",
-        "/distributed-systems",
-        "/security",
-        "/for-new-programmers"
-      ]
-    },
-    {
-      "id": "/software-engineering",
-      "group": 2,
-      "name": "Software Engineering",
-      "links": [
-        "/tech",
-        "/api-design",
-        "/code-review",
-        "/core-concepts",
-        "/on-software",
-        "/software-analogies",
-        "/software-quality",
-        "/swe-misery",
-        "/the-joel-test",
-        "/system-design",
-        "/programming"
       ]
     },
     {
@@ -1383,6 +1370,58 @@
         "/usability-testing",
         "/design",
         "/web-experiments"
+      ]
+    },
+    {
+      "id": "/computers",
+      "group": 2,
+      "name": "Computers",
+      "links": [
+        "/tech",
+        "/computers-from-scratch",
+        "/containers",
+        "/discussion-topics",
+        "/easy-vs-hard-in-cs",
+        "/keyboard-shortcuts",
+        "/networks",
+        "/operating-systems",
+        "/for-new-programmers"
+      ]
+    },
+    {
+      "id": "/software-engineering",
+      "group": 2,
+      "name": "Software Engineering",
+      "links": [
+        "/tech",
+        "/code-review",
+        "/core-concepts",
+        "/on-software",
+        "/software-analogies",
+        "/software-quality",
+        "/swe-misery",
+        "/the-joel-test",
+        "/programming"
+      ]
+    },
+    {
+      "id": "/system-design",
+      "group": 2,
+      "name": "System Design",
+      "links": [
+        "/tech",
+        "/api-design",
+        "/choose-boring-tech",
+        "/design-patterns",
+        "/domain-driven-design",
+        "/hacker-laws",
+        "/minimal-tech",
+        "/solid",
+        "/systems",
+        "/akins-laws-of-spacecraft",
+        "/distributed-systems",
+        "/oop",
+        "/accessibility"
       ]
     },
     {
@@ -1602,7 +1641,7 @@
       "name": "Wind And Rain",
       "links": [
         "/poetry",
-        "/ideas"
+        "/phil-ideas"
       ]
     },
     {
@@ -1956,6 +1995,31 @@
       ]
     },
     {
+      "id": "/cognitive-biases",
+      "group": 3,
+      "name": "Cognitive Biases",
+      "links": [
+        "/psychology"
+      ]
+    },
+    {
+      "id": "/emotions",
+      "group": 3,
+      "name": "Emotions",
+      "links": [
+        "/psychology"
+      ]
+    },
+    {
+      "id": "/psy-ideas",
+      "group": 3,
+      "name": "Ideas",
+      "links": [
+        "/psychology",
+        "/negotiations"
+      ]
+    },
+    {
       "id": "/latin",
       "group": 3,
       "name": "Latin",
@@ -1973,19 +2037,278 @@
       ]
     },
     {
-      "id": "/api",
+      "id": "/authentication",
       "group": 3,
-      "name": "APIs",
+      "name": "Authentication",
       "links": [
-        "/programming"
+        "/security"
       ]
     },
     {
-      "id": "/com",
+      "id": "/authorization",
       "group": 3,
-      "name": "COM - Component Object Model",
+      "name": "Authorization",
       "links": [
-        "/programming"
+        "/security"
+      ]
+    },
+    {
+      "id": "/certificates",
+      "group": 3,
+      "name": "Certificates",
+      "links": [
+        "/security"
+      ]
+    },
+    {
+      "id": "/cookies",
+      "group": 3,
+      "name": "Cookies",
+      "links": [
+        "/security"
+      ]
+    },
+    {
+      "id": "/cors",
+      "group": 3,
+      "name": "Cross-origin Resource Sharing (CORS)",
+      "links": [
+        "/security"
+      ]
+    },
+    {
+      "id": "/csrf",
+      "group": 3,
+      "name": "Cross-site request forgery",
+      "links": [
+        "/security"
+      ]
+    },
+    {
+      "id": "/openssl-encrypt",
+      "group": 3,
+      "name": "How to encrypt-decrypt a file with a password",
+      "links": [
+        "/security"
+      ]
+    },
+    {
+      "id": "/public-key-cryptography",
+      "group": 3,
+      "name": "Public Key Cryptography",
+      "links": [
+        "/security"
+      ]
+    },
+    {
+      "id": "/security-heuristics",
+      "group": 3,
+      "name": "Security Heuristics",
+      "links": [
+        "/security"
+      ]
+    },
+    {
+      "id": "/store-passwords",
+      "group": 3,
+      "name": "How to store passwords?",
+      "links": [
+        "/security"
+      ]
+    },
+    {
+      "id": "/transport-layer-security",
+      "group": 3,
+      "name": "Transport Layer Security",
+      "links": [
+        "/security"
+      ]
+    },
+    {
+      "id": "/xss",
+      "group": 3,
+      "name": "Cross-site scripting",
+      "links": [
+        "/security"
+      ]
+    },
+    {
+      "id": "/acid",
+      "group": 3,
+      "name": "ACID",
+      "links": [
+        "/databases"
+      ]
+    },
+    {
+      "id": "/b-trees",
+      "group": 3,
+      "name": "B Trees",
+      "links": [
+        "/databases",
+        "/db-data-structures",
+        "/tree-balancing",
+        "/data-structures"
+      ]
+    },
+    {
+      "id": "/db-concepts",
+      "group": 3,
+      "name": "Database Concepts",
+      "links": [
+        "/databases"
+      ]
+    },
+    {
+      "id": "/db-data-structures",
+      "group": 3,
+      "name": "Data Structures to Build a DB",
+      "links": [
+        "/databases",
+        "/b-trees",
+        "/data-structures"
+      ]
+    },
+    {
+      "id": "/leaderless-replication",
+      "group": 3,
+      "name": "Leaderless Replication",
+      "links": [
+        "/databases",
+        "/replication"
+      ]
+    },
+    {
+      "id": "/lsm-trees",
+      "group": 3,
+      "name": "Log structured merge tree (LSM tree)",
+      "links": [
+        "/databases",
+        "/algorithms",
+        "/data-structures"
+      ]
+    },
+    {
+      "id": "/normalization",
+      "group": 3,
+      "name": "Normalization",
+      "links": [
+        "/databases"
+      ]
+    },
+    {
+      "id": "/partitioning",
+      "group": 3,
+      "name": "Partitioning",
+      "links": [
+        "/databases",
+        "/replication"
+      ]
+    },
+    {
+      "id": "/replication",
+      "group": 3,
+      "name": "Replication",
+      "links": [
+        "/databases",
+        "/leaderless-replication",
+        "/partitioning"
+      ]
+    },
+    {
+      "id": "/single-leader",
+      "group": 3,
+      "name": "Single Leader",
+      "links": [
+        "/databases"
+      ]
+    },
+    {
+      "id": "/sql-tips",
+      "group": 3,
+      "name": "SQL Tips",
+      "links": [
+        "/databases"
+      ]
+    },
+    {
+      "id": "/armstrong-thesis",
+      "group": 3,
+      "name": "Armstrong Thesis",
+      "links": [
+        "/distributed-systems"
+      ]
+    },
+    {
+      "id": "/azure-pillars",
+      "group": 3,
+      "name": "Azure Pillars",
+      "links": [
+        "/distributed-systems"
+      ]
+    },
+    {
+      "id": "/consistent-hashing",
+      "group": 3,
+      "name": "Consistent Hashing",
+      "links": [
+        "/distributed-systems"
+      ]
+    },
+    {
+      "id": "/detect-a-node-failure",
+      "group": 3,
+      "name": "Detect A Node Failure",
+      "links": [
+        "/distributed-systems"
+      ]
+    },
+    {
+      "id": "/distributed-design-patterns",
+      "group": 3,
+      "name": "Distributed Design Patterns",
+      "links": [
+        "/distributed-systems"
+      ]
+    },
+    {
+      "id": "/generate-a-unique-id",
+      "group": 3,
+      "name": "Generate A Unique Id",
+      "links": [
+        "/distributed-systems"
+      ]
+    },
+    {
+      "id": "/google-sre-book",
+      "group": 3,
+      "name": "Google SRE book",
+      "links": [
+        "/distributed-systems"
+      ]
+    },
+    {
+      "id": "/kafka",
+      "group": 3,
+      "name": "Apache Kafka",
+      "links": [
+        "/distributed-systems"
+      ]
+    },
+    {
+      "id": "/spark",
+      "group": 3,
+      "name": "Apache Spark",
+      "links": [
+        "/distributed-systems"
+      ]
+    },
+    {
+      "id": "/time-and-order",
+      "group": 3,
+      "name": "Time And Order",
+      "links": [
+        "/distributed-systems"
       ]
     },
     {
@@ -2012,14 +2335,6 @@
       "links": [
         "/programming",
         "/computers"
-      ]
-    },
-    {
-      "id": "/keyboard-shortcuts",
-      "group": 3,
-      "name": "Keyboard Shortcuts",
-      "links": [
-        "/programming"
       ]
     },
     {
@@ -2076,9 +2391,19 @@
       "name": "OOP",
       "links": [
         "/programming",
-        "/design-patterns",
-        "/solid",
-        "/oop-designs",
+        "/block",
+        "/design-a-bicycle",
+        "/design-a-book-app",
+        "/design-a-crm",
+        "/design-a-gov-cloud",
+        "/design-a-personal-note-publishing-system",
+        "/design-a-trader",
+        "/design-a-web-crawler",
+        "/design-auth",
+        "/design-etl-pipeline",
+        "/design-oauth",
+        "/design-units",
+        "/design-video-streaming-app",
         "/system-design"
       ]
     },
@@ -2121,195 +2446,6 @@
         "/predict-movie-genres",
         "/vga-driver",
         "/experiments"
-      ]
-    },
-    {
-      "id": "/computers-from-scratch",
-      "group": 3,
-      "name": "Computers From Scratch",
-      "links": [
-        "/computers"
-      ]
-    },
-    {
-      "id": "/containers",
-      "group": 3,
-      "name": "Containers",
-      "links": [
-        "/computers",
-        "/operating-systems"
-      ]
-    },
-    {
-      "id": "/discussion-topics",
-      "group": 3,
-      "name": "Discussion Topics",
-      "links": [
-        "/computers"
-      ]
-    },
-    {
-      "id": "/easy-vs-hard-in-cs",
-      "group": 3,
-      "name": "The fine line between easy and very hard",
-      "links": [
-        "/computers"
-      ]
-    },
-    {
-      "id": "/networks",
-      "group": 3,
-      "name": "Networks",
-      "links": [
-        "/computers"
-      ]
-    },
-    {
-      "id": "/operating-systems",
-      "group": 3,
-      "name": "Operating Systems",
-      "links": [
-        "/computers",
-        "/containers"
-      ]
-    },
-    {
-      "id": "/databases",
-      "group": 3,
-      "name": "Databases",
-      "links": [
-        "/computers",
-        "/acid",
-        "/b-trees",
-        "/db-concepts",
-        "/db-data-structures",
-        "/leaderless-replication",
-        "/lsm-trees",
-        "/normalization",
-        "/partitioning",
-        "/replication",
-        "/single-leader",
-        "/sql-tips"
-      ]
-    },
-    {
-      "id": "/distributed-systems",
-      "group": 3,
-      "name": "Distributed Systems",
-      "links": [
-        "/computers",
-        "/armstrong-thesis",
-        "/azure-pillars",
-        "/consistent-hashing",
-        "/detect-a-node-failure",
-        "/distributed-design-patterns",
-        "/generate-a-unique-id",
-        "/google-sre-book",
-        "/kafka",
-        "/spark",
-        "/time-and-order",
-        "/system-design"
-      ]
-    },
-    {
-      "id": "/security",
-      "group": 3,
-      "name": "Security",
-      "links": [
-        "/computers",
-        "/authentication",
-        "/authorization",
-        "/certificates",
-        "/cookies",
-        "/cors",
-        "/csrf",
-        "/openssl-encrypt",
-        "/public-key-cryptography",
-        "/security-heuristics",
-        "/store-passwords",
-        "/transport-layer-security",
-        "/xss"
-      ]
-    },
-    {
-      "id": "/api-design",
-      "group": 3,
-      "name": "Api Design",
-      "links": [
-        "/software-engineering"
-      ]
-    },
-    {
-      "id": "/code-review",
-      "group": 3,
-      "name": "Code Review",
-      "links": [
-        "/software-engineering"
-      ]
-    },
-    {
-      "id": "/core-concepts",
-      "group": 3,
-      "name": "Core Concepts",
-      "links": [
-        "/software-engineering"
-      ]
-    },
-    {
-      "id": "/on-software",
-      "group": 3,
-      "name": "On Software",
-      "links": [
-        "/software-engineering"
-      ]
-    },
-    {
-      "id": "/software-analogies",
-      "group": 3,
-      "name": "Software Analogies",
-      "links": [
-        "/software-engineering"
-      ]
-    },
-    {
-      "id": "/software-quality",
-      "group": 3,
-      "name": "Is High Quality Software Worth the Cost?",
-      "links": [
-        "/software-engineering"
-      ]
-    },
-    {
-      "id": "/swe-misery",
-      "group": 3,
-      "name": "Swe Misery",
-      "links": [
-        "/software-engineering"
-      ]
-    },
-    {
-      "id": "/the-joel-test",
-      "group": 3,
-      "name": "The Joel Test",
-      "links": [
-        "/software-engineering"
-      ]
-    },
-    {
-      "id": "/system-design",
-      "group": 3,
-      "name": "System Design",
-      "links": [
-        "/software-engineering",
-        "/choose-boring-tech",
-        "/domain-driven-design",
-        "/hacker-laws",
-        "/minimal-tech",
-        "/systems",
-        "/akins-laws-of-spacecraft",
-        "/distributed-systems",
-        "/oop",
-        "/accessibility"
       ]
     },
     {
@@ -2387,6 +2523,177 @@
       "name": "Why You Only Need to Test with 5 Users",
       "links": [
         "/ux"
+      ]
+    },
+    {
+      "id": "/computers-from-scratch",
+      "group": 3,
+      "name": "Computers From Scratch",
+      "links": [
+        "/computers"
+      ]
+    },
+    {
+      "id": "/containers",
+      "group": 3,
+      "name": "Containers",
+      "links": [
+        "/computers",
+        "/operating-systems"
+      ]
+    },
+    {
+      "id": "/discussion-topics",
+      "group": 3,
+      "name": "Discussion Topics",
+      "links": [
+        "/computers"
+      ]
+    },
+    {
+      "id": "/easy-vs-hard-in-cs",
+      "group": 3,
+      "name": "The fine line between easy and very hard",
+      "links": [
+        "/computers"
+      ]
+    },
+    {
+      "id": "/keyboard-shortcuts",
+      "group": 3,
+      "name": "Keyboard Shortcuts",
+      "links": [
+        "/computers"
+      ]
+    },
+    {
+      "id": "/networks",
+      "group": 3,
+      "name": "Networks",
+      "links": [
+        "/computers"
+      ]
+    },
+    {
+      "id": "/operating-systems",
+      "group": 3,
+      "name": "Operating Systems",
+      "links": [
+        "/computers",
+        "/containers"
+      ]
+    },
+    {
+      "id": "/code-review",
+      "group": 3,
+      "name": "Code Review",
+      "links": [
+        "/software-engineering"
+      ]
+    },
+    {
+      "id": "/core-concepts",
+      "group": 3,
+      "name": "Core Concepts",
+      "links": [
+        "/software-engineering"
+      ]
+    },
+    {
+      "id": "/on-software",
+      "group": 3,
+      "name": "On Software",
+      "links": [
+        "/software-engineering"
+      ]
+    },
+    {
+      "id": "/software-analogies",
+      "group": 3,
+      "name": "Software Analogies",
+      "links": [
+        "/software-engineering"
+      ]
+    },
+    {
+      "id": "/software-quality",
+      "group": 3,
+      "name": "Is High Quality Software Worth the Cost?",
+      "links": [
+        "/software-engineering"
+      ]
+    },
+    {
+      "id": "/swe-misery",
+      "group": 3,
+      "name": "Swe Misery",
+      "links": [
+        "/software-engineering"
+      ]
+    },
+    {
+      "id": "/the-joel-test",
+      "group": 3,
+      "name": "The Joel Test",
+      "links": [
+        "/software-engineering"
+      ]
+    },
+    {
+      "id": "/api-design",
+      "group": 3,
+      "name": "Api Design",
+      "links": [
+        "/system-design"
+      ]
+    },
+    {
+      "id": "/choose-boring-tech",
+      "group": 3,
+      "name": "Choose Boring Tech",
+      "links": [
+        "/system-design"
+      ]
+    },
+    {
+      "id": "/design-patterns",
+      "group": 3,
+      "name": "Design Patterns",
+      "links": [
+        "/system-design"
+      ]
+    },
+    {
+      "id": "/domain-driven-design",
+      "group": 3,
+      "name": "Domain Driven Design",
+      "links": [
+        "/system-design"
+      ]
+    },
+    {
+      "id": "/hacker-laws",
+      "group": 3,
+      "name": "Hacker Laws",
+      "links": [
+        "/system-design",
+        "/akins-laws-of-spacecraft"
+      ]
+    },
+    {
+      "id": "/minimal-tech",
+      "group": 3,
+      "name": "Minimal Tech",
+      "links": [
+        "/system-design"
+      ]
+    },
+    {
+      "id": "/solid",
+      "group": 3,
+      "name": "SOLID",
+      "links": [
+        "/system-design"
       ]
     },
     {
@@ -2676,40 +2983,107 @@
       ]
     },
     {
-      "id": "/design-patterns",
+      "id": "/block",
       "group": 4,
-      "name": "Design Patterns",
+      "name": "Design a blockchain",
       "links": [
         "/oop"
       ]
     },
     {
-      "id": "/solid",
+      "id": "/design-a-bicycle",
       "group": 4,
-      "name": "SOLID",
+      "name": "Design A Bicycle",
       "links": [
         "/oop"
       ]
     },
     {
-      "id": "/oop-designs",
+      "id": "/design-a-book-app",
       "group": 4,
-      "name": "OOP designs",
+      "name": "Design A Book App",
       "links": [
-        "/oop",
-        "/block",
-        "/design-a-bicycle",
-        "/design-a-book-app",
-        "/design-a-crm",
-        "/design-a-gov-cloud",
-        "/design-a-personal-note-publishing-system",
-        "/design-a-trader",
-        "/design-a-web-crawler",
-        "/design-auth",
-        "/design-etl-pipeline",
-        "/design-oauth",
-        "/design-units",
-        "/design-video-streaming-app"
+        "/oop"
+      ]
+    },
+    {
+      "id": "/design-a-crm",
+      "group": 4,
+      "name": "CRM design",
+      "links": [
+        "/oop"
+      ]
+    },
+    {
+      "id": "/design-a-gov-cloud",
+      "group": 4,
+      "name": "Design A Gov Cloud",
+      "links": [
+        "/oop"
+      ]
+    },
+    {
+      "id": "/design-a-personal-note-publishing-system",
+      "group": 4,
+      "name": "Design A Personal Note Publishing System",
+      "links": [
+        "/oop"
+      ]
+    },
+    {
+      "id": "/design-a-trader",
+      "group": 4,
+      "name": "Design A Trader",
+      "links": [
+        "/oop"
+      ]
+    },
+    {
+      "id": "/design-a-web-crawler",
+      "group": 4,
+      "name": "Design A Web Crawler",
+      "links": [
+        "/oop"
+      ]
+    },
+    {
+      "id": "/design-auth",
+      "group": 4,
+      "name": "Design Auth",
+      "links": [
+        "/oop"
+      ]
+    },
+    {
+      "id": "/design-etl-pipeline",
+      "group": 4,
+      "name": "Design Etl Pipeline",
+      "links": [
+        "/oop"
+      ]
+    },
+    {
+      "id": "/design-oauth",
+      "group": 4,
+      "name": "Design an OAuth System",
+      "links": [
+        "/oop"
+      ]
+    },
+    {
+      "id": "/design-units",
+      "group": 4,
+      "name": "Design Units",
+      "links": [
+        "/oop"
+      ]
+    },
+    {
+      "id": "/design-video-streaming-app",
+      "group": 4,
+      "name": "Design Video Streaming App",
+      "links": [
+        "/oop"
       ]
     },
     {
@@ -2942,314 +3316,6 @@
       "links": [
         "/projects",
         "/c"
-      ]
-    },
-    {
-      "id": "/acid",
-      "group": 4,
-      "name": "ACID",
-      "links": [
-        "/databases"
-      ]
-    },
-    {
-      "id": "/b-trees",
-      "group": 4,
-      "name": "B Trees",
-      "links": [
-        "/databases",
-        "/db-data-structures",
-        "/tree-balancing",
-        "/data-structures"
-      ]
-    },
-    {
-      "id": "/db-concepts",
-      "group": 4,
-      "name": "Database Concepts",
-      "links": [
-        "/databases"
-      ]
-    },
-    {
-      "id": "/db-data-structures",
-      "group": 4,
-      "name": "Data Structures to Build a DB",
-      "links": [
-        "/databases",
-        "/b-trees",
-        "/data-structures"
-      ]
-    },
-    {
-      "id": "/leaderless-replication",
-      "group": 4,
-      "name": "Leaderless Replication",
-      "links": [
-        "/databases",
-        "/replication"
-      ]
-    },
-    {
-      "id": "/lsm-trees",
-      "group": 4,
-      "name": "Log structured merge tree (LSM tree)",
-      "links": [
-        "/databases",
-        "/algorithms",
-        "/data-structures"
-      ]
-    },
-    {
-      "id": "/normalization",
-      "group": 4,
-      "name": "Normalization",
-      "links": [
-        "/databases"
-      ]
-    },
-    {
-      "id": "/partitioning",
-      "group": 4,
-      "name": "Partitioning",
-      "links": [
-        "/databases",
-        "/replication"
-      ]
-    },
-    {
-      "id": "/replication",
-      "group": 4,
-      "name": "Replication",
-      "links": [
-        "/databases",
-        "/leaderless-replication",
-        "/partitioning"
-      ]
-    },
-    {
-      "id": "/single-leader",
-      "group": 4,
-      "name": "Single Leader",
-      "links": [
-        "/databases"
-      ]
-    },
-    {
-      "id": "/sql-tips",
-      "group": 4,
-      "name": "SQL Tips",
-      "links": [
-        "/databases"
-      ]
-    },
-    {
-      "id": "/armstrong-thesis",
-      "group": 4,
-      "name": "Armstrong Thesis",
-      "links": [
-        "/distributed-systems"
-      ]
-    },
-    {
-      "id": "/azure-pillars",
-      "group": 4,
-      "name": "Azure Pillars",
-      "links": [
-        "/distributed-systems"
-      ]
-    },
-    {
-      "id": "/consistent-hashing",
-      "group": 4,
-      "name": "Consistent Hashing",
-      "links": [
-        "/distributed-systems"
-      ]
-    },
-    {
-      "id": "/detect-a-node-failure",
-      "group": 4,
-      "name": "Detect A Node Failure",
-      "links": [
-        "/distributed-systems"
-      ]
-    },
-    {
-      "id": "/distributed-design-patterns",
-      "group": 4,
-      "name": "Distributed Design Patterns",
-      "links": [
-        "/distributed-systems"
-      ]
-    },
-    {
-      "id": "/generate-a-unique-id",
-      "group": 4,
-      "name": "Generate A Unique Id",
-      "links": [
-        "/distributed-systems"
-      ]
-    },
-    {
-      "id": "/google-sre-book",
-      "group": 4,
-      "name": "Google SRE book",
-      "links": [
-        "/distributed-systems"
-      ]
-    },
-    {
-      "id": "/kafka",
-      "group": 4,
-      "name": "Apache Kafka",
-      "links": [
-        "/distributed-systems"
-      ]
-    },
-    {
-      "id": "/spark",
-      "group": 4,
-      "name": "Apache Spark",
-      "links": [
-        "/distributed-systems"
-      ]
-    },
-    {
-      "id": "/time-and-order",
-      "group": 4,
-      "name": "Time And Order",
-      "links": [
-        "/distributed-systems"
-      ]
-    },
-    {
-      "id": "/authentication",
-      "group": 4,
-      "name": "Authentication",
-      "links": [
-        "/security"
-      ]
-    },
-    {
-      "id": "/authorization",
-      "group": 4,
-      "name": "Authorization",
-      "links": [
-        "/security"
-      ]
-    },
-    {
-      "id": "/certificates",
-      "group": 4,
-      "name": "Certificates",
-      "links": [
-        "/security"
-      ]
-    },
-    {
-      "id": "/cookies",
-      "group": 4,
-      "name": "Cookies",
-      "links": [
-        "/security"
-      ]
-    },
-    {
-      "id": "/cors",
-      "group": 4,
-      "name": "Cross-origin Resource Sharing (CORS)",
-      "links": [
-        "/security"
-      ]
-    },
-    {
-      "id": "/csrf",
-      "group": 4,
-      "name": "Cross-site request forgery",
-      "links": [
-        "/security"
-      ]
-    },
-    {
-      "id": "/openssl-encrypt",
-      "group": 4,
-      "name": "How to encrypt-decrypt a file with a password",
-      "links": [
-        "/security"
-      ]
-    },
-    {
-      "id": "/public-key-cryptography",
-      "group": 4,
-      "name": "Public Key Cryptography",
-      "links": [
-        "/security"
-      ]
-    },
-    {
-      "id": "/security-heuristics",
-      "group": 4,
-      "name": "Security Heuristics",
-      "links": [
-        "/security"
-      ]
-    },
-    {
-      "id": "/store-passwords",
-      "group": 4,
-      "name": "How to store passwords?",
-      "links": [
-        "/security"
-      ]
-    },
-    {
-      "id": "/transport-layer-security",
-      "group": 4,
-      "name": "Transport Layer Security",
-      "links": [
-        "/security"
-      ]
-    },
-    {
-      "id": "/xss",
-      "group": 4,
-      "name": "Cross-site scripting",
-      "links": [
-        "/security"
-      ]
-    },
-    {
-      "id": "/choose-boring-tech",
-      "group": 4,
-      "name": "Choose Boring Tech",
-      "links": [
-        "/system-design"
-      ]
-    },
-    {
-      "id": "/domain-driven-design",
-      "group": 4,
-      "name": "Domain Driven Design",
-      "links": [
-        "/system-design"
-      ]
-    },
-    {
-      "id": "/hacker-laws",
-      "group": 4,
-      "name": "Hacker Laws",
-      "links": [
-        "/system-design",
-        "/akins-laws-of-spacecraft"
-      ]
-    },
-    {
-      "id": "/minimal-tech",
-      "group": 4,
-      "name": "Minimal Tech",
-      "links": [
-        "/system-design"
       ]
     },
     {
@@ -3837,110 +3903,6 @@
       ]
     },
     {
-      "id": "/block",
-      "group": 5,
-      "name": "Design a blockchain",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-a-bicycle",
-      "group": 5,
-      "name": "Design A Bicycle",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-a-book-app",
-      "group": 5,
-      "name": "Design A Book App",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-a-crm",
-      "group": 5,
-      "name": "CRM design",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-a-gov-cloud",
-      "group": 5,
-      "name": "Design A Gov Cloud",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-a-personal-note-publishing-system",
-      "group": 5,
-      "name": "Design A Personal Note Publishing System",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-a-trader",
-      "group": 5,
-      "name": "Design A Trader",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-a-web-crawler",
-      "group": 5,
-      "name": "Design A Web Crawler",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-auth",
-      "group": 5,
-      "name": "Design Auth",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-etl-pipeline",
-      "group": 5,
-      "name": "Design Etl Pipeline",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-oauth",
-      "group": 5,
-      "name": "Design an OAuth System",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-units",
-      "group": 5,
-      "name": "Design Units",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
-      "id": "/design-video-streaming-app",
-      "group": 5,
-      "name": "Design Video Streaming App",
-      "links": [
-        "/oop-designs"
-      ]
-    },
-    {
       "id": "/csharp",
       "group": 5,
       "name": "C#",
@@ -4480,7 +4442,7 @@
     },
     {
       "source": "/philosophy",
-      "target": "/ideas"
+      "target": "/phil-ideas"
     },
     {
       "source": "/philosophy",
@@ -4592,6 +4554,10 @@
     },
     {
       "source": "/skills",
+      "target": "/skill-links"
+    },
+    {
+      "source": "/skills",
       "target": "/mastery"
     },
     {
@@ -4620,10 +4586,6 @@
     },
     {
       "source": "/skills",
-      "target": "/skill-links"
-    },
-    {
-      "source": "/skills",
       "target": "/teaching"
     },
     {
@@ -4636,11 +4598,11 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/languages"
+      "target": "/psychology"
     },
     {
       "source": "/social-sciences",
-      "target": "/architecture"
+      "target": "/languages"
     },
     {
       "source": "/social-sciences",
@@ -4656,27 +4618,11 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/cognitive-biases"
-    },
-    {
-      "source": "/social-sciences",
       "target": "/economics"
     },
     {
       "source": "/social-sciences",
-      "target": "/emotions"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/law"
-    },
-    {
-      "source": "/social-sciences",
       "target": "/politics"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/psychology"
     },
     {
       "source": "/social-sciences",
@@ -4700,7 +4646,23 @@
     },
     {
       "source": "/tech",
+      "target": "/security"
+    },
+    {
+      "source": "/tech",
+      "target": "/databases"
+    },
+    {
+      "source": "/tech",
+      "target": "/distributed-systems"
+    },
+    {
+      "source": "/tech",
       "target": "/programming"
+    },
+    {
+      "source": "/tech",
+      "target": "/ux"
     },
     {
       "source": "/tech",
@@ -4712,7 +4674,7 @@
     },
     {
       "source": "/tech",
-      "target": "/ux"
+      "target": "/system-design"
     },
     {
       "source": "/tech",
@@ -4983,6 +4945,18 @@
       "target": "/since-big-bang"
     },
     {
+      "source": "/psychology",
+      "target": "/cognitive-biases"
+    },
+    {
+      "source": "/psychology",
+      "target": "/emotions"
+    },
+    {
+      "source": "/psychology",
+      "target": "/psy-ideas"
+    },
+    {
       "source": "/languages",
       "target": "/latin"
     },
@@ -4991,12 +4965,136 @@
       "target": "/metaphors"
     },
     {
-      "source": "/programming",
-      "target": "/api"
+      "source": "/security",
+      "target": "/authentication"
     },
     {
-      "source": "/programming",
-      "target": "/com"
+      "source": "/security",
+      "target": "/authorization"
+    },
+    {
+      "source": "/security",
+      "target": "/certificates"
+    },
+    {
+      "source": "/security",
+      "target": "/cookies"
+    },
+    {
+      "source": "/security",
+      "target": "/cors"
+    },
+    {
+      "source": "/security",
+      "target": "/csrf"
+    },
+    {
+      "source": "/security",
+      "target": "/openssl-encrypt"
+    },
+    {
+      "source": "/security",
+      "target": "/public-key-cryptography"
+    },
+    {
+      "source": "/security",
+      "target": "/security-heuristics"
+    },
+    {
+      "source": "/security",
+      "target": "/store-passwords"
+    },
+    {
+      "source": "/security",
+      "target": "/transport-layer-security"
+    },
+    {
+      "source": "/security",
+      "target": "/xss"
+    },
+    {
+      "source": "/databases",
+      "target": "/acid"
+    },
+    {
+      "source": "/databases",
+      "target": "/b-trees"
+    },
+    {
+      "source": "/databases",
+      "target": "/db-concepts"
+    },
+    {
+      "source": "/databases",
+      "target": "/db-data-structures"
+    },
+    {
+      "source": "/databases",
+      "target": "/leaderless-replication"
+    },
+    {
+      "source": "/databases",
+      "target": "/lsm-trees"
+    },
+    {
+      "source": "/databases",
+      "target": "/normalization"
+    },
+    {
+      "source": "/databases",
+      "target": "/partitioning"
+    },
+    {
+      "source": "/databases",
+      "target": "/replication"
+    },
+    {
+      "source": "/databases",
+      "target": "/single-leader"
+    },
+    {
+      "source": "/databases",
+      "target": "/sql-tips"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/armstrong-thesis"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/azure-pillars"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/consistent-hashing"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/detect-a-node-failure"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/distributed-design-patterns"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/generate-a-unique-id"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/google-sre-book"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/kafka"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/spark"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/time-and-order"
     },
     {
       "source": "/programming",
@@ -5009,10 +5107,6 @@
     {
       "source": "/programming",
       "target": "/for-new-programmers"
-    },
-    {
-      "source": "/programming",
-      "target": "/keyboard-shortcuts"
     },
     {
       "source": "/programming",
@@ -5037,78 +5131,6 @@
     {
       "source": "/programming",
       "target": "/projects"
-    },
-    {
-      "source": "/computers",
-      "target": "/computers-from-scratch"
-    },
-    {
-      "source": "/computers",
-      "target": "/containers"
-    },
-    {
-      "source": "/computers",
-      "target": "/discussion-topics"
-    },
-    {
-      "source": "/computers",
-      "target": "/easy-vs-hard-in-cs"
-    },
-    {
-      "source": "/computers",
-      "target": "/networks"
-    },
-    {
-      "source": "/computers",
-      "target": "/operating-systems"
-    },
-    {
-      "source": "/computers",
-      "target": "/databases"
-    },
-    {
-      "source": "/computers",
-      "target": "/distributed-systems"
-    },
-    {
-      "source": "/computers",
-      "target": "/security"
-    },
-    {
-      "source": "/software-engineering",
-      "target": "/api-design"
-    },
-    {
-      "source": "/software-engineering",
-      "target": "/code-review"
-    },
-    {
-      "source": "/software-engineering",
-      "target": "/core-concepts"
-    },
-    {
-      "source": "/software-engineering",
-      "target": "/on-software"
-    },
-    {
-      "source": "/software-engineering",
-      "target": "/software-analogies"
-    },
-    {
-      "source": "/software-engineering",
-      "target": "/software-quality"
-    },
-    {
-      "source": "/software-engineering",
-      "target": "/swe-misery"
-    },
-    {
-      "source": "/software-engineering",
-      "target": "/the-joel-test"
-    },
-    {
-      "source": "/software-engineering",
-      "target": "/system-design"
     },
     {
       "source": "/ux",
@@ -5145,6 +5167,90 @@
     {
       "source": "/ux",
       "target": "/usability-testing"
+    },
+    {
+      "source": "/computers",
+      "target": "/computers-from-scratch"
+    },
+    {
+      "source": "/computers",
+      "target": "/containers"
+    },
+    {
+      "source": "/computers",
+      "target": "/discussion-topics"
+    },
+    {
+      "source": "/computers",
+      "target": "/easy-vs-hard-in-cs"
+    },
+    {
+      "source": "/computers",
+      "target": "/keyboard-shortcuts"
+    },
+    {
+      "source": "/computers",
+      "target": "/networks"
+    },
+    {
+      "source": "/computers",
+      "target": "/operating-systems"
+    },
+    {
+      "source": "/software-engineering",
+      "target": "/code-review"
+    },
+    {
+      "source": "/software-engineering",
+      "target": "/core-concepts"
+    },
+    {
+      "source": "/software-engineering",
+      "target": "/on-software"
+    },
+    {
+      "source": "/software-engineering",
+      "target": "/software-analogies"
+    },
+    {
+      "source": "/software-engineering",
+      "target": "/software-quality"
+    },
+    {
+      "source": "/software-engineering",
+      "target": "/swe-misery"
+    },
+    {
+      "source": "/software-engineering",
+      "target": "/the-joel-test"
+    },
+    {
+      "source": "/system-design",
+      "target": "/api-design"
+    },
+    {
+      "source": "/system-design",
+      "target": "/choose-boring-tech"
+    },
+    {
+      "source": "/system-design",
+      "target": "/design-patterns"
+    },
+    {
+      "source": "/system-design",
+      "target": "/domain-driven-design"
+    },
+    {
+      "source": "/system-design",
+      "target": "/hacker-laws"
+    },
+    {
+      "source": "/system-design",
+      "target": "/minimal-tech"
+    },
+    {
+      "source": "/system-design",
+      "target": "/solid"
     },
     {
       "source": "/data-science",
@@ -5248,15 +5354,55 @@
     },
     {
       "source": "/oop",
-      "target": "/design-patterns"
+      "target": "/block"
     },
     {
       "source": "/oop",
-      "target": "/solid"
+      "target": "/design-a-bicycle"
     },
     {
       "source": "/oop",
-      "target": "/oop-designs"
+      "target": "/design-a-book-app"
+    },
+    {
+      "source": "/oop",
+      "target": "/design-a-crm"
+    },
+    {
+      "source": "/oop",
+      "target": "/design-a-gov-cloud"
+    },
+    {
+      "source": "/oop",
+      "target": "/design-a-personal-note-publishing-system"
+    },
+    {
+      "source": "/oop",
+      "target": "/design-a-trader"
+    },
+    {
+      "source": "/oop",
+      "target": "/design-a-web-crawler"
+    },
+    {
+      "source": "/oop",
+      "target": "/design-auth"
+    },
+    {
+      "source": "/oop",
+      "target": "/design-etl-pipeline"
+    },
+    {
+      "source": "/oop",
+      "target": "/design-oauth"
+    },
+    {
+      "source": "/oop",
+      "target": "/design-units"
+    },
+    {
+      "source": "/oop",
+      "target": "/design-video-streaming-app"
     },
     {
       "source": "/programming-languages",
@@ -5353,154 +5499,6 @@
     {
       "source": "/projects",
       "target": "/vga-driver"
-    },
-    {
-      "source": "/databases",
-      "target": "/acid"
-    },
-    {
-      "source": "/databases",
-      "target": "/b-trees"
-    },
-    {
-      "source": "/databases",
-      "target": "/db-concepts"
-    },
-    {
-      "source": "/databases",
-      "target": "/db-data-structures"
-    },
-    {
-      "source": "/databases",
-      "target": "/leaderless-replication"
-    },
-    {
-      "source": "/databases",
-      "target": "/lsm-trees"
-    },
-    {
-      "source": "/databases",
-      "target": "/normalization"
-    },
-    {
-      "source": "/databases",
-      "target": "/partitioning"
-    },
-    {
-      "source": "/databases",
-      "target": "/replication"
-    },
-    {
-      "source": "/databases",
-      "target": "/single-leader"
-    },
-    {
-      "source": "/databases",
-      "target": "/sql-tips"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/armstrong-thesis"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/azure-pillars"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/consistent-hashing"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/detect-a-node-failure"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/distributed-design-patterns"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/generate-a-unique-id"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/google-sre-book"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/kafka"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/spark"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/time-and-order"
-    },
-    {
-      "source": "/security",
-      "target": "/authentication"
-    },
-    {
-      "source": "/security",
-      "target": "/authorization"
-    },
-    {
-      "source": "/security",
-      "target": "/certificates"
-    },
-    {
-      "source": "/security",
-      "target": "/cookies"
-    },
-    {
-      "source": "/security",
-      "target": "/cors"
-    },
-    {
-      "source": "/security",
-      "target": "/csrf"
-    },
-    {
-      "source": "/security",
-      "target": "/openssl-encrypt"
-    },
-    {
-      "source": "/security",
-      "target": "/public-key-cryptography"
-    },
-    {
-      "source": "/security",
-      "target": "/security-heuristics"
-    },
-    {
-      "source": "/security",
-      "target": "/store-passwords"
-    },
-    {
-      "source": "/security",
-      "target": "/transport-layer-security"
-    },
-    {
-      "source": "/security",
-      "target": "/xss"
-    },
-    {
-      "source": "/system-design",
-      "target": "/choose-boring-tech"
-    },
-    {
-      "source": "/system-design",
-      "target": "/domain-driven-design"
-    },
-    {
-      "source": "/system-design",
-      "target": "/hacker-laws"
-    },
-    {
-      "source": "/system-design",
-      "target": "/minimal-tech"
     },
     {
       "source": "/array",
@@ -5755,58 +5753,6 @@
       "target": "/code"
     },
     {
-      "source": "/oop-designs",
-      "target": "/block"
-    },
-    {
-      "source": "/oop-designs",
-      "target": "/design-a-bicycle"
-    },
-    {
-      "source": "/oop-designs",
-      "target": "/design-a-book-app"
-    },
-    {
-      "source": "/oop-designs",
-      "target": "/design-a-crm"
-    },
-    {
-      "source": "/oop-designs",
-      "target": "/design-a-gov-cloud"
-    },
-    {
-      "source": "/oop-designs",
-      "target": "/design-a-personal-note-publishing-system"
-    },
-    {
-      "source": "/oop-designs",
-      "target": "/design-a-trader"
-    },
-    {
-      "source": "/oop-designs",
-      "target": "/design-a-web-crawler"
-    },
-    {
-      "source": "/oop-designs",
-      "target": "/design-auth"
-    },
-    {
-      "source": "/oop-designs",
-      "target": "/design-etl-pipeline"
-    },
-    {
-      "source": "/oop-designs",
-      "target": "/design-oauth"
-    },
-    {
-      "source": "/oop-designs",
-      "target": "/design-units"
-    },
-    {
-      "source": "/oop-designs",
-      "target": "/design-video-streaming-app"
-    },
-    {
       "source": "/c#",
       "target": "/csharp"
     },
@@ -5960,7 +5906,7 @@
     },
     {
       "source": "/wind-and-rain",
-      "target": "/ideas"
+      "target": "/phil-ideas"
     },
     {
       "source": "/dots",
@@ -6188,7 +6134,7 @@
     },
     {
       "source": "/negotiations",
-      "target": "/psychology"
+      "target": "/psy-ideas"
     },
     {
       "source": "/skills",
@@ -6205,10 +6151,6 @@
     {
       "source": "/skills",
       "target": "/programming"
-    },
-    {
-      "source": "/architecture",
-      "target": "/urban-planning"
     },
     {
       "source": "/politics",
@@ -6255,22 +6197,6 @@
       "target": "/for-new-programmers"
     },
     {
-      "source": "/b-trees",
-      "target": "/db-data-structures"
-    },
-    {
-      "source": "/b-trees",
-      "target": "/tree-balancing"
-    },
-    {
-      "source": "/leaderless-replication",
-      "target": "/replication"
-    },
-    {
-      "source": "/partitioning",
-      "target": "/replication"
-    },
-    {
       "source": "/operating-systems",
       "target": "/containers"
     },
@@ -6285,6 +6211,22 @@
     {
       "source": "/machine-learning",
       "target": "/predict-movie-genres"
+    },
+    {
+      "source": "/b-trees",
+      "target": "/db-data-structures"
+    },
+    {
+      "source": "/b-trees",
+      "target": "/tree-balancing"
+    },
+    {
+      "source": "/leaderless-replication",
+      "target": "/replication"
+    },
+    {
+      "source": "/partitioning",
+      "target": "/replication"
     },
     {
       "source": "/algorithms",
