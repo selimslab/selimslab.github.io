@@ -19,7 +19,7 @@ tags: phil
 
 ## See also
 
-[[systems]]
+[[sciences/systems]]
 
 [Know thyself](https://en.wikipedia.org/wiki/Know_thyself)
 

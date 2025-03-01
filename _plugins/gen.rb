@@ -180,7 +180,7 @@ class SiteGenerator < Jekyll::Generator
       # Sort children by title
       sorted_children = children
         .reject { |child_id| child_id == parent_id }
-        .sort_by { |child_id| file_to_title[child_id] || child_id }
+        # .sort_by { |child_id| file_to_title[child_id] || child_id }
       
       # Generate HTML list
       html = "<ul>"

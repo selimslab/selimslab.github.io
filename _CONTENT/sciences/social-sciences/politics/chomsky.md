@@ -1,5 +1,8 @@
 ---
+
 ---
+
+
 "As long as the general population is passive, apathetic, diverted to consumerism or hatred of the vulnerable, then the powerful can do as they please, and those who survive will be left to contemplate the outcome.”
 
 

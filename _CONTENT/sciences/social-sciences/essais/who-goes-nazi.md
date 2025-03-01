@@ -1,7 +1,5 @@
 ---
 title: Who Goes Nazi
-tags: essais
-
 ---
 
 "Cruelty springs from weakness."

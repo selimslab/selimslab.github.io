@@ -1,7 +1,5 @@
 ---
-tags: architecture
 ---
-
 
 [College Campuses Are Designed at Human-Scale. Our Cities Can Be Too. (strongtowns.org)](https://www.strongtowns.org/journal/2021/1/6/college-campuses-as-a-model-for-urban-planning)
 
