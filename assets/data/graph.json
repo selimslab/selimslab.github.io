@@ -6,12 +6,9 @@
       "name": "Root",
       "links": [
         "/arts",
-        "/experiments",
-        "/lists",
         "/math",
         "/misc",
         "/natural-sciences",
-        "/philosophy",
         "/skills",
         "/social-sciences",
         "/tech"
@@ -24,43 +21,8 @@
       "links": [
         "/root",
         "/poetry",
-        "/siir",
-        "/literature",
-        "/cinema",
-        "/documentaries",
-        "/paintings",
-        "/photography"
-      ]
-    },
-    {
-      "id": "/experiments",
-      "group": 1,
-      "name": "Experiments",
-      "links": [
-        "/root",
-        "/graph-3d",
-        "/dots",
-        "/time-scale",
-        "/typing-practice",
-        "/year-progress",
-        "/projects"
-      ]
-    },
-    {
-      "id": "/lists",
-      "group": 1,
-      "name": "Lists",
-      "links": [
-        "/root",
-        "/authors",
-        "/blogs",
-        "/datasets",
-        "/essais",
-        "/quotes",
-        "/web-experiments",
-        "/classics",
-        "/history-of-technology",
-        "/since-big-bang"
+        "/philosophy",
+        "/literature"
       ]
     },
     {
@@ -88,6 +50,8 @@
       "name": "Misc",
       "links": [
         "/root",
+        "/lists",
+        "/experiments",
         "/graph-2d",
         "/llm-prompt",
         "/about"
@@ -113,45 +77,6 @@
         "/sapolsky",
         "/since-big-bang",
         "/systems"
-      ]
-    },
-    {
-      "id": "/philosophy",
-      "group": 1,
-      "name": "Philosophy",
-      "links": [
-        "/root",
-        "/time",
-        "/work",
-        "/all-is-one",
-        "/balance",
-        "/be-good-to-each-other-and-yourself",
-        "/books-phil",
-        "/choice",
-        "/concepts-in-greek-thought",
-        "/do-one-thing-at-a-time-and-do-it-well",
-        "/do-without-doing",
-        "/eudaimonia",
-        "/freedom",
-        "/getting-old",
-        "/happiness",
-        "/hard-times",
-        "/ideal-insan",
-        "/phil-ideas",
-        "/character",
-        "/one-bit-better",
-        "/questions",
-        "/success-and-failure",
-        "/take-a-walk",
-        "/the-less-the-better",
-        "/travelling",
-        "/truth",
-        "/going-blind",
-        "/how-to-deal-with-pain",
-        "/philosophical-implications-of-quantum-mechanics",
-        "/tao-te-ching",
-        "/critical-thinking",
-        "/how-to-grow-old-russell"
       ]
     },
     {
@@ -267,28 +192,47 @@
         "/uncut-wood",
         "/we-wear-the-mask",
         "/wei-wu-wei",
-        "/wind-and-rain"
+        "/wind-and-rain",
+        "/siir"
       ]
     },
     {
-      "id": "/siir",
+      "id": "/philosophy",
       "group": 2,
-      "name": "Şiirler",
+      "name": "Philosophy",
       "links": [
         "/arts",
-        "/abbas",
-        "/asik-veysel",
-        "/boz-ayran",
-        "/bulent-ecevit",
-        "/bulgur-pilavi",
-        "/can-yucel",
-        "/edip-cansever",
-        "/fuzuli",
-        "/isyan",
-        "/melih-cevdet",
-        "/nazim",
-        "/orhan-veli",
-        "/yunus-emre"
+        "/all-is-one",
+        "/balance",
+        "/be-good-to-each-other-and-yourself",
+        "/books-phil",
+        "/character",
+        "/choice",
+        "/concepts-in-greek-thought",
+        "/do-one-thing-at-a-time-and-do-it-well",
+        "/do-without-doing",
+        "/eudaimonia",
+        "/freedom",
+        "/getting-old",
+        "/happiness",
+        "/hard-times",
+        "/ideal-insan",
+        "/one-bit-better",
+        "/phil-ideas",
+        "/questions",
+        "/success-and-failure",
+        "/take-a-walk",
+        "/the-less-the-better",
+        "/travelling",
+        "/truth",
+        "/time",
+        "/work",
+        "/tao-te-ching",
+        "/going-blind",
+        "/how-to-deal-with-pain",
+        "/philosophical-implications-of-quantum-mechanics",
+        "/critical-thinking",
+        "/how-to-grow-old-russell"
       ]
     },
     {
@@ -297,145 +241,12 @@
       "name": "Literature",
       "links": [
         "/arts",
+        "/authors",
         "/cien-anos-de-soledad",
         "/classics",
         "/ince-memed",
         "/the-art-of-war",
         "/turk-mirasi"
-      ]
-    },
-    {
-      "id": "/cinema",
-      "group": 2,
-      "name": "Cinema 🎬",
-      "links": [
-        "/arts"
-      ]
-    },
-    {
-      "id": "/documentaries",
-      "group": 2,
-      "name": "Documentaries",
-      "links": [
-        "/arts"
-      ]
-    },
-    {
-      "id": "/paintings",
-      "group": 2,
-      "name": "Paintings",
-      "links": [
-        "/arts"
-      ]
-    },
-    {
-      "id": "/photography",
-      "group": 2,
-      "name": "Photography",
-      "links": [
-        "/arts",
-        "/skills"
-      ]
-    },
-    {
-      "id": "/graph-3d",
-      "group": 2,
-      "name": "3D graph of all pages",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/dots",
-      "group": 2,
-      "name": "Dots",
-      "links": [
-        "/experiments",
-        "/time"
-      ]
-    },
-    {
-      "id": "/time-scale",
-      "group": 2,
-      "name": "If the Earth is 45 years old",
-      "links": [
-        "/experiments",
-        "/climate-change",
-        "/time"
-      ]
-    },
-    {
-      "id": "/typing-practice",
-      "group": 2,
-      "name": "Typing Practice",
-      "links": [
-        "/experiments",
-        "/skills"
-      ]
-    },
-    {
-      "id": "/year-progress",
-      "group": 2,
-      "name": "Year Progress",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/authors",
-      "group": 2,
-      "name": "Authors",
-      "links": [
-        "/lists"
-      ]
-    },
-    {
-      "id": "/blogs",
-      "group": 2,
-      "name": "Blogs",
-      "links": [
-        "/lists"
-      ]
-    },
-    {
-      "id": "/datasets",
-      "group": 2,
-      "name": "Datasets",
-      "links": [
-        "/lists",
-        "/probability-and-statistics"
-      ]
-    },
-    {
-      "id": "/essais",
-      "group": 2,
-      "name": "Essais",
-      "links": [
-        "/lists",
-        "/feynmans-epilogue",
-        "/how-to-grow-old-russell",
-        "/mastery",
-        "/problem-solving",
-        "/farming-trap",
-        "/the-triumph-of-stupidity",
-        "/who-goes-nazi"
-      ]
-    },
-    {
-      "id": "/quotes",
-      "group": 2,
-      "name": "Quotes",
-      "links": [
-        "/lists"
-      ]
-    },
-    {
-      "id": "/web-experiments",
-      "group": 2,
-      "name": "Web Experiments",
-      "links": [
-        "/lists",
-        "/ux"
       ]
     },
     {
@@ -518,8 +329,41 @@
       "name": "Probability And Statistics",
       "links": [
         "/math",
-        "/datasets",
         "/bayes"
+      ]
+    },
+    {
+      "id": "/lists",
+      "group": 2,
+      "name": "Lists",
+      "links": [
+        "/misc",
+        "/blogs",
+        "/datasets",
+        "/documentaries",
+        "/essais",
+        "/movies",
+        "/paintings",
+        "/photography",
+        "/quotes",
+        "/web-experiments",
+        "/classics",
+        "/history-of-technology",
+        "/since-big-bang"
+      ]
+    },
+    {
+      "id": "/experiments",
+      "group": 2,
+      "name": "Experiments",
+      "links": [
+        "/misc",
+        "/dots",
+        "/graph-3d",
+        "/time-scale",
+        "/typing-practice",
+        "/year-progress",
+        "/projects"
       ]
     },
     {
@@ -656,252 +500,6 @@
       "name": "Sapolsky",
       "links": [
         "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/time",
-      "group": 2,
-      "name": "Time",
-      "links": [
-        "/philosophy",
-        "/death",
-        "/on-the-shortness-of-life",
-        "/slow-down-time",
-        "/the-past",
-        "/dots",
-        "/time-scale",
-        "/121st-century",
-        "/history",
-        "/since-big-bang"
-      ]
-    },
-    {
-      "id": "/work",
-      "group": 2,
-      "name": "Work",
-      "links": [
-        "/philosophy",
-        "/career-advice",
-        "/teamwork",
-        "/what-to-work-on",
-        "/you-are-not-nameless",
-        "/be-good-to-each-other-and-yourself",
-        "/do-one-thing-at-a-time-and-do-it-well"
-      ]
-    },
-    {
-      "id": "/all-is-one",
-      "group": 2,
-      "name": "All is One",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/balance",
-      "group": 2,
-      "name": "Balance",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/be-good-to-each-other-and-yourself",
-      "group": 2,
-      "name": "Be Good To Each Other And Yourself",
-      "links": [
-        "/philosophy",
-        "/work"
-      ]
-    },
-    {
-      "id": "/books-phil",
-      "group": 2,
-      "name": "Books",
-      "links": [
-        "/philosophy",
-        "/the-art-of-war",
-        "/tao-te-ching"
-      ]
-    },
-    {
-      "id": "/choice",
-      "group": 2,
-      "name": "Choice",
-      "links": [
-        "/philosophy",
-        "/eudaimonia"
-      ]
-    },
-    {
-      "id": "/concepts-in-greek-thought",
-      "group": 2,
-      "name": "Concepts In Greek Thought",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/do-one-thing-at-a-time-and-do-it-well",
-      "group": 2,
-      "name": "Do One Thing At A Time And Do It Well",
-      "links": [
-        "/philosophy",
-        "/lightly-child",
-        "/design",
-        "/get-things-done",
-        "/teamwork",
-        "/work"
-      ]
-    },
-    {
-      "id": "/do-without-doing",
-      "group": 2,
-      "name": "Do without doing - Wu Wei 無爲",
-      "links": [
-        "/philosophy",
-        "/decision-making",
-        "/eudaimonia",
-        "/teamwork"
-      ]
-    },
-    {
-      "id": "/eudaimonia",
-      "group": 2,
-      "name": "Eudaimonia 🌱",
-      "links": [
-        "/philosophy",
-        "/character",
-        "/choice",
-        "/do-without-doing",
-        "/skills"
-      ]
-    },
-    {
-      "id": "/freedom",
-      "group": 2,
-      "name": "Freedom",
-      "links": [
-        "/philosophy",
-        "/character",
-        "/success-and-failure",
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/getting-old",
-      "group": 2,
-      "name": "Getting Old",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/happiness",
-      "group": 2,
-      "name": "Happiness",
-      "links": [
-        "/philosophy",
-        "/psychology",
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/hard-times",
-      "group": 2,
-      "name": "Hard Times",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/ideal-insan",
-      "group": 2,
-      "name": "Ideal Insan",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/phil-ideas",
-      "group": 2,
-      "name": "Ideas",
-      "links": [
-        "/philosophy",
-        "/wind-and-rain"
-      ]
-    },
-    {
-      "id": "/character",
-      "group": 2,
-      "name": "On Character",
-      "links": [
-        "/philosophy",
-        "/eudaimonia",
-        "/freedom"
-      ]
-    },
-    {
-      "id": "/one-bit-better",
-      "group": 2,
-      "name": "One Bit Better",
-      "links": [
-        "/philosophy",
-        "/lightly-child"
-      ]
-    },
-    {
-      "id": "/questions",
-      "group": 2,
-      "name": "Questions",
-      "links": [
-        "/philosophy",
-        "/critical-thinking"
-      ]
-    },
-    {
-      "id": "/success-and-failure",
-      "group": 2,
-      "name": "Success And Failure",
-      "links": [
-        "/philosophy",
-        "/if",
-        "/freedom"
-      ]
-    },
-    {
-      "id": "/take-a-walk",
-      "group": 2,
-      "name": "Take a walk",
-      "links": [
-        "/philosophy",
-        "/get-things-done",
-        "/problem-solving"
-      ]
-    },
-    {
-      "id": "/the-less-the-better",
-      "group": 2,
-      "name": "The Less The Better",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/travelling",
-      "group": 2,
-      "name": "Travelling",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/truth",
-      "group": 2,
-      "name": "Truth",
-      "links": [
-        "/philosophy",
-        "/critical-thinking"
       ]
     },
     {
@@ -1045,8 +643,8 @@
       "name": "How to Grow Old, by Bertrand Russell",
       "links": [
         "/skills",
-        "/essais",
-        "/philosophy"
+        "/philosophy",
+        "/essais"
       ]
     },
     {
@@ -1132,8 +730,8 @@
       "name": "Problem Solving",
       "links": [
         "/skills",
-        "/essais",
         "/take-a-walk",
+        "/essais",
         "/critical-thinking"
       ]
     },
@@ -1494,8 +1092,7 @@
       "name": "If",
       "links": [
         "/poetry",
-        "/bulent-ecevit",
-        "/success-and-failure"
+        "/bulent-ecevit"
       ]
     },
     {
@@ -1503,9 +1100,7 @@
       "group": 3,
       "name": "Lightly Child",
       "links": [
-        "/poetry",
-        "/do-one-thing-at-a-time-and-do-it-well",
-        "/one-bit-better"
+        "/poetry"
       ]
     },
     {
@@ -1562,7 +1157,6 @@
       "name": "Tao Te Ching",
       "links": [
         "/poetry",
-        "/books-phil",
         "/philosophy",
         "/politics"
       ]
@@ -1636,113 +1230,278 @@
       "group": 3,
       "name": "Wind And Rain",
       "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/siir",
+      "group": 3,
+      "name": "Şiirler",
+      "links": [
         "/poetry",
-        "/phil-ideas"
+        "/abbas",
+        "/asik-veysel",
+        "/boz-ayran",
+        "/bulent-ecevit",
+        "/bulgur-pilavi",
+        "/can-yucel",
+        "/edip-cansever",
+        "/fuzuli",
+        "/isyan",
+        "/melih-cevdet",
+        "/nazim",
+        "/orhan-veli",
+        "/yunus-emre"
       ]
     },
     {
-      "id": "/abbas",
+      "id": "/all-is-one",
       "group": 3,
-      "name": "Abbas",
+      "name": "All is One",
       "links": [
-        "/siir"
+        "/philosophy"
       ]
     },
     {
-      "id": "/asik-veysel",
+      "id": "/balance",
       "group": 3,
-      "name": "Asik Veysel",
+      "name": "Balance",
       "links": [
-        "/siir"
+        "/philosophy"
       ]
     },
     {
-      "id": "/boz-ayran",
+      "id": "/be-good-to-each-other-and-yourself",
       "group": 3,
-      "name": "Boz Ayran",
+      "name": "Be Good To Each Other And Yourself",
       "links": [
-        "/siir"
+        "/philosophy",
+        "/work"
       ]
     },
     {
-      "id": "/bulent-ecevit",
+      "id": "/books-phil",
       "group": 3,
-      "name": "Bulent Ecevit",
+      "name": "Books",
       "links": [
-        "/siir",
-        "/if"
+        "/philosophy",
+        "/the-art-of-war"
       ]
     },
     {
-      "id": "/bulgur-pilavi",
+      "id": "/character",
       "group": 3,
-      "name": "Bulgur Pilavi",
+      "name": "On Character",
       "links": [
-        "/siir"
+        "/philosophy",
+        "/eudaimonia",
+        "/freedom"
       ]
     },
     {
-      "id": "/can-yucel",
+      "id": "/choice",
       "group": 3,
-      "name": "Can Yücel",
+      "name": "Choice",
       "links": [
-        "/siir"
+        "/philosophy",
+        "/eudaimonia"
       ]
     },
     {
-      "id": "/edip-cansever",
+      "id": "/concepts-in-greek-thought",
       "group": 3,
-      "name": "Edip Cansever",
+      "name": "Concepts In Greek Thought",
       "links": [
-        "/siir"
+        "/philosophy"
       ]
     },
     {
-      "id": "/fuzuli",
+      "id": "/do-one-thing-at-a-time-and-do-it-well",
       "group": 3,
-      "name": "Fuzuli",
+      "name": "Do One Thing At A Time And Do It Well",
       "links": [
-        "/siir"
+        "/philosophy",
+        "/design",
+        "/get-things-done",
+        "/teamwork",
+        "/work"
       ]
     },
     {
-      "id": "/isyan",
+      "id": "/do-without-doing",
       "group": 3,
-      "name": "Isyan",
+      "name": "Do without doing - Wu Wei 無爲",
       "links": [
-        "/siir"
+        "/philosophy",
+        "/decision-making",
+        "/eudaimonia",
+        "/teamwork"
       ]
     },
     {
-      "id": "/melih-cevdet",
+      "id": "/eudaimonia",
       "group": 3,
-      "name": "Melih Cevdet",
+      "name": "Eudaimonia 🌱",
       "links": [
-        "/siir"
+        "/philosophy",
+        "/character",
+        "/choice",
+        "/do-without-doing",
+        "/skills"
       ]
     },
     {
-      "id": "/nazim",
+      "id": "/freedom",
       "group": 3,
-      "name": "Nazim Hikmet",
+      "name": "Freedom",
       "links": [
-        "/siir"
+        "/philosophy",
+        "/character",
+        "/success-and-failure",
+        "/social-sciences"
       ]
     },
     {
-      "id": "/orhan-veli",
+      "id": "/getting-old",
       "group": 3,
-      "name": "Orhan Veli",
+      "name": "Getting Old",
       "links": [
-        "/siir"
+        "/philosophy"
       ]
     },
     {
-      "id": "/yunus-emre",
+      "id": "/happiness",
       "group": 3,
-      "name": "Yunus Emre",
+      "name": "Happiness",
       "links": [
-        "/siir"
+        "/philosophy",
+        "/psychology",
+        "/social-sciences"
+      ]
+    },
+    {
+      "id": "/hard-times",
+      "group": 3,
+      "name": "Hard Times",
+      "links": [
+        "/philosophy",
+        "/going-blind",
+        "/how-to-deal-with-pain"
+      ]
+    },
+    {
+      "id": "/ideal-insan",
+      "group": 3,
+      "name": "Ideal Insan",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/one-bit-better",
+      "group": 3,
+      "name": "One Bit Better",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/phil-ideas",
+      "group": 3,
+      "name": "Ideas",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/questions",
+      "group": 3,
+      "name": "Questions",
+      "links": [
+        "/philosophy",
+        "/critical-thinking"
+      ]
+    },
+    {
+      "id": "/success-and-failure",
+      "group": 3,
+      "name": "Success And Failure",
+      "links": [
+        "/philosophy",
+        "/freedom"
+      ]
+    },
+    {
+      "id": "/take-a-walk",
+      "group": 3,
+      "name": "Take a walk",
+      "links": [
+        "/philosophy",
+        "/get-things-done",
+        "/problem-solving"
+      ]
+    },
+    {
+      "id": "/the-less-the-better",
+      "group": 3,
+      "name": "The Less The Better",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/travelling",
+      "group": 3,
+      "name": "Travelling",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/truth",
+      "group": 3,
+      "name": "Truth",
+      "links": [
+        "/philosophy",
+        "/critical-thinking"
+      ]
+    },
+    {
+      "id": "/time",
+      "group": 3,
+      "name": "Time",
+      "links": [
+        "/philosophy",
+        "/death",
+        "/on-the-shortness-of-life",
+        "/slow-down-time",
+        "/the-past",
+        "/time-scale",
+        "/121st-century",
+        "/history",
+        "/since-big-bang"
+      ]
+    },
+    {
+      "id": "/work",
+      "group": 3,
+      "name": "Work",
+      "links": [
+        "/philosophy",
+        "/career-advice",
+        "/teamwork",
+        "/what-to-work-on",
+        "/you-are-not-nameless",
+        "/be-good-to-each-other-and-yourself",
+        "/do-one-thing-at-a-time-and-do-it-well"
+      ]
+    },
+    {
+      "id": "/authors",
+      "group": 3,
+      "name": "Authors",
+      "links": [
+        "/literature"
       ]
     },
     {
@@ -1767,7 +1526,7 @@
     {
       "id": "/ince-memed",
       "group": 3,
-      "name": "Ince Memed",
+      "name": "Ince-memed",
       "links": [
         "/literature"
       ]
@@ -1787,6 +1546,130 @@
       "name": "Türk Mirası",
       "links": [
         "/literature"
+      ]
+    },
+    {
+      "id": "/blogs",
+      "group": 3,
+      "name": "Blogs",
+      "links": [
+        "/lists"
+      ]
+    },
+    {
+      "id": "/datasets",
+      "group": 3,
+      "name": "Datasets",
+      "links": [
+        "/lists"
+      ]
+    },
+    {
+      "id": "/documentaries",
+      "group": 3,
+      "name": "Documentaries",
+      "links": [
+        "/lists"
+      ]
+    },
+    {
+      "id": "/essais",
+      "group": 3,
+      "name": "Essais",
+      "links": [
+        "/lists",
+        "/feynmans-epilogue",
+        "/how-to-grow-old-russell",
+        "/mastery",
+        "/problem-solving",
+        "/farming-trap",
+        "/the-triumph-of-stupidity",
+        "/who-goes-nazi"
+      ]
+    },
+    {
+      "id": "/movies",
+      "group": 3,
+      "name": "Movies 🎬",
+      "links": [
+        "/lists"
+      ]
+    },
+    {
+      "id": "/paintings",
+      "group": 3,
+      "name": "Paintings",
+      "links": [
+        "/lists"
+      ]
+    },
+    {
+      "id": "/photography",
+      "group": 3,
+      "name": "Photography",
+      "links": [
+        "/lists",
+        "/skills"
+      ]
+    },
+    {
+      "id": "/quotes",
+      "group": 3,
+      "name": "Quotes",
+      "links": [
+        "/lists"
+      ]
+    },
+    {
+      "id": "/web-experiments",
+      "group": 3,
+      "name": "Web Experiments",
+      "links": [
+        "/lists",
+        "/ux"
+      ]
+    },
+    {
+      "id": "/dots",
+      "group": 3,
+      "name": "Dots",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/graph-3d",
+      "group": 3,
+      "name": "3D graph of all pages",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/time-scale",
+      "group": 3,
+      "name": "If the Earth is 45 years old",
+      "links": [
+        "/experiments",
+        "/time",
+        "/climate-change"
+      ]
+    },
+    {
+      "id": "/typing-practice",
+      "group": 3,
+      "name": "Typing Practice",
+      "links": [
+        "/experiments",
+        "/skills"
+      ]
+    },
+    {
+      "id": "/year-progress",
+      "group": 3,
+      "name": "Year Progress",
+      "links": [
+        "/experiments"
       ]
     },
     {
@@ -1863,6 +1746,7 @@
       "name": "Going Blind",
       "links": [
         "/health",
+        "/hard-times",
         "/philosophy"
       ]
     },
@@ -1872,6 +1756,7 @@
       "name": "How to deal with Extreme Physical Pain",
       "links": [
         "/health",
+        "/hard-times",
         "/philosophy"
       ]
     },
@@ -1881,75 +1766,6 @@
       "name": "How to sleep better?",
       "links": [
         "/health"
-      ]
-    },
-    {
-      "id": "/death",
-      "group": 3,
-      "name": "Death",
-      "links": [
-        "/time"
-      ]
-    },
-    {
-      "id": "/on-the-shortness-of-life",
-      "group": 3,
-      "name": "Life is not short but we waste it",
-      "links": [
-        "/time"
-      ]
-    },
-    {
-      "id": "/slow-down-time",
-      "group": 3,
-      "name": "Deepen your days",
-      "links": [
-        "/time"
-      ]
-    },
-    {
-      "id": "/the-past",
-      "group": 3,
-      "name": "Learn and move on",
-      "links": [
-        "/time"
-      ]
-    },
-    {
-      "id": "/career-advice",
-      "group": 3,
-      "name": "Career advice",
-      "links": [
-        "/work"
-      ]
-    },
-    {
-      "id": "/teamwork",
-      "group": 3,
-      "name": "Teamwork",
-      "links": [
-        "/work",
-        "/do-one-thing-at-a-time-and-do-it-well",
-        "/do-without-doing",
-        "/what-to-work-on"
-      ]
-    },
-    {
-      "id": "/what-to-work-on",
-      "group": 3,
-      "name": "What to work on?",
-      "links": [
-        "/work",
-        "/teamwork",
-        "/get-things-done"
-      ]
-    },
-    {
-      "id": "/you-are-not-nameless",
-      "group": 3,
-      "name": "You Are Not Nameless",
-      "links": [
-        "/work"
       ]
     },
     {
@@ -1985,9 +1801,9 @@
       "name": "Some events in the last 14 billion years",
       "links": [
         "/history",
+        "/time",
         "/lists",
-        "/natural-sciences",
-        "/time"
+        "/natural-sciences"
       ]
     },
     {
@@ -2706,6 +2522,180 @@
       "name": "The Joel Test",
       "links": [
         "/software-engineering"
+      ]
+    },
+    {
+      "id": "/abbas",
+      "group": 4,
+      "name": "Abbas",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/asik-veysel",
+      "group": 4,
+      "name": "Asik Veysel",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/boz-ayran",
+      "group": 4,
+      "name": "Boz Ayran",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/bulent-ecevit",
+      "group": 4,
+      "name": "Bulent Ecevit",
+      "links": [
+        "/siir",
+        "/if"
+      ]
+    },
+    {
+      "id": "/bulgur-pilavi",
+      "group": 4,
+      "name": "Bulgur Pilavi",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/can-yucel",
+      "group": 4,
+      "name": "Can Yücel",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/edip-cansever",
+      "group": 4,
+      "name": "Edip Cansever",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/fuzuli",
+      "group": 4,
+      "name": "Fuzuli",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/isyan",
+      "group": 4,
+      "name": "Isyan",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/melih-cevdet",
+      "group": 4,
+      "name": "Melih Cevdet",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/nazim",
+      "group": 4,
+      "name": "Nazim Hikmet",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/orhan-veli",
+      "group": 4,
+      "name": "Orhan Veli",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/yunus-emre",
+      "group": 4,
+      "name": "Yunus Emre",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/death",
+      "group": 4,
+      "name": "Death",
+      "links": [
+        "/time"
+      ]
+    },
+    {
+      "id": "/on-the-shortness-of-life",
+      "group": 4,
+      "name": "Life is not short but we waste it",
+      "links": [
+        "/time"
+      ]
+    },
+    {
+      "id": "/slow-down-time",
+      "group": 4,
+      "name": "Deepen your days",
+      "links": [
+        "/time"
+      ]
+    },
+    {
+      "id": "/the-past",
+      "group": 4,
+      "name": "Learn and move on",
+      "links": [
+        "/time"
+      ]
+    },
+    {
+      "id": "/career-advice",
+      "group": 4,
+      "name": "Career advice",
+      "links": [
+        "/work"
+      ]
+    },
+    {
+      "id": "/teamwork",
+      "group": 4,
+      "name": "Teamwork",
+      "links": [
+        "/work",
+        "/do-one-thing-at-a-time-and-do-it-well",
+        "/do-without-doing",
+        "/what-to-work-on"
+      ]
+    },
+    {
+      "id": "/what-to-work-on",
+      "group": 4,
+      "name": "What to work on?",
+      "links": [
+        "/work",
+        "/teamwork",
+        "/get-things-done"
+      ]
+    },
+    {
+      "id": "/you-are-not-nameless",
+      "group": 4,
+      "name": "You Are Not Nameless",
+      "links": [
+        "/work"
       ]
     },
     {
@@ -4148,14 +4138,6 @@
     },
     {
       "source": "/root",
-      "target": "/experiments"
-    },
-    {
-      "source": "/root",
-      "target": "/lists"
-    },
-    {
-      "source": "/root",
       "target": "/math"
     },
     {
@@ -4165,10 +4147,6 @@
     {
       "source": "/root",
       "target": "/natural-sciences"
-    },
-    {
-      "source": "/root",
-      "target": "/philosophy"
     },
     {
       "source": "/root",
@@ -4188,71 +4166,11 @@
     },
     {
       "source": "/arts",
-      "target": "/siir"
+      "target": "/philosophy"
     },
     {
       "source": "/arts",
       "target": "/literature"
-    },
-    {
-      "source": "/arts",
-      "target": "/cinema"
-    },
-    {
-      "source": "/arts",
-      "target": "/documentaries"
-    },
-    {
-      "source": "/arts",
-      "target": "/paintings"
-    },
-    {
-      "source": "/arts",
-      "target": "/photography"
-    },
-    {
-      "source": "/experiments",
-      "target": "/graph-3d"
-    },
-    {
-      "source": "/experiments",
-      "target": "/dots"
-    },
-    {
-      "source": "/experiments",
-      "target": "/time-scale"
-    },
-    {
-      "source": "/experiments",
-      "target": "/typing-practice"
-    },
-    {
-      "source": "/experiments",
-      "target": "/year-progress"
-    },
-    {
-      "source": "/lists",
-      "target": "/authors"
-    },
-    {
-      "source": "/lists",
-      "target": "/blogs"
-    },
-    {
-      "source": "/lists",
-      "target": "/datasets"
-    },
-    {
-      "source": "/lists",
-      "target": "/essais"
-    },
-    {
-      "source": "/lists",
-      "target": "/quotes"
-    },
-    {
-      "source": "/lists",
-      "target": "/web-experiments"
     },
     {
       "source": "/math",
@@ -4293,6 +4211,14 @@
     {
       "source": "/math",
       "target": "/probability-and-statistics"
+    },
+    {
+      "source": "/misc",
+      "target": "/lists"
+    },
+    {
+      "source": "/misc",
+      "target": "/experiments"
     },
     {
       "source": "/misc",
@@ -4353,106 +4279,6 @@
     {
       "source": "/natural-sciences",
       "target": "/sapolsky"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/time"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/work"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/all-is-one"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/balance"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/be-good-to-each-other-and-yourself"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/books-phil"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/choice"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/concepts-in-greek-thought"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/do-one-thing-at-a-time-and-do-it-well"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/do-without-doing"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/eudaimonia"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/freedom"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/getting-old"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/happiness"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/hard-times"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/ideal-insan"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/phil-ideas"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/character"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/one-bit-better"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/questions"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/success-and-failure"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/take-a-walk"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/the-less-the-better"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/travelling"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/truth"
     },
     {
       "source": "/skills",
@@ -4755,56 +4581,112 @@
       "target": "/wind-and-rain"
     },
     {
-      "source": "/siir",
-      "target": "/abbas"
+      "source": "/poetry",
+      "target": "/siir"
     },
     {
-      "source": "/siir",
-      "target": "/asik-veysel"
+      "source": "/philosophy",
+      "target": "/all-is-one"
     },
     {
-      "source": "/siir",
-      "target": "/boz-ayran"
+      "source": "/philosophy",
+      "target": "/balance"
     },
     {
-      "source": "/siir",
-      "target": "/bulent-ecevit"
+      "source": "/philosophy",
+      "target": "/be-good-to-each-other-and-yourself"
     },
     {
-      "source": "/siir",
-      "target": "/bulgur-pilavi"
+      "source": "/philosophy",
+      "target": "/books-phil"
     },
     {
-      "source": "/siir",
-      "target": "/can-yucel"
+      "source": "/philosophy",
+      "target": "/character"
     },
     {
-      "source": "/siir",
-      "target": "/edip-cansever"
+      "source": "/philosophy",
+      "target": "/choice"
     },
     {
-      "source": "/siir",
-      "target": "/fuzuli"
+      "source": "/philosophy",
+      "target": "/concepts-in-greek-thought"
     },
     {
-      "source": "/siir",
-      "target": "/isyan"
+      "source": "/philosophy",
+      "target": "/do-one-thing-at-a-time-and-do-it-well"
     },
     {
-      "source": "/siir",
-      "target": "/melih-cevdet"
+      "source": "/philosophy",
+      "target": "/do-without-doing"
     },
     {
-      "source": "/siir",
-      "target": "/nazim"
+      "source": "/philosophy",
+      "target": "/eudaimonia"
     },
     {
-      "source": "/siir",
-      "target": "/orhan-veli"
+      "source": "/philosophy",
+      "target": "/freedom"
     },
     {
-      "source": "/siir",
-      "target": "/yunus-emre"
+      "source": "/philosophy",
+      "target": "/getting-old"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/happiness"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/hard-times"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/ideal-insan"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/one-bit-better"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/phil-ideas"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/questions"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/success-and-failure"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/take-a-walk"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/the-less-the-better"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/travelling"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/truth"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/time"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/work"
+    },
+    {
+      "source": "/literature",
+      "target": "/authors"
     },
     {
       "source": "/literature",
@@ -4825,6 +4707,62 @@
     {
       "source": "/literature",
       "target": "/turk-mirasi"
+    },
+    {
+      "source": "/lists",
+      "target": "/blogs"
+    },
+    {
+      "source": "/lists",
+      "target": "/datasets"
+    },
+    {
+      "source": "/lists",
+      "target": "/documentaries"
+    },
+    {
+      "source": "/lists",
+      "target": "/essais"
+    },
+    {
+      "source": "/lists",
+      "target": "/movies"
+    },
+    {
+      "source": "/lists",
+      "target": "/paintings"
+    },
+    {
+      "source": "/lists",
+      "target": "/photography"
+    },
+    {
+      "source": "/lists",
+      "target": "/quotes"
+    },
+    {
+      "source": "/lists",
+      "target": "/web-experiments"
+    },
+    {
+      "source": "/experiments",
+      "target": "/dots"
+    },
+    {
+      "source": "/experiments",
+      "target": "/graph-3d"
+    },
+    {
+      "source": "/experiments",
+      "target": "/time-scale"
+    },
+    {
+      "source": "/experiments",
+      "target": "/typing-practice"
+    },
+    {
+      "source": "/experiments",
+      "target": "/year-progress"
     },
     {
       "source": "/astronomy",
@@ -4869,38 +4807,6 @@
     {
       "source": "/health",
       "target": "/sleep"
-    },
-    {
-      "source": "/time",
-      "target": "/death"
-    },
-    {
-      "source": "/time",
-      "target": "/on-the-shortness-of-life"
-    },
-    {
-      "source": "/time",
-      "target": "/slow-down-time"
-    },
-    {
-      "source": "/time",
-      "target": "/the-past"
-    },
-    {
-      "source": "/work",
-      "target": "/career-advice"
-    },
-    {
-      "source": "/work",
-      "target": "/teamwork"
-    },
-    {
-      "source": "/work",
-      "target": "/what-to-work-on"
-    },
-    {
-      "source": "/work",
-      "target": "/you-are-not-nameless"
     },
     {
       "source": "/history",
@@ -5233,6 +5139,90 @@
     {
       "source": "/software-engineering",
       "target": "/the-joel-test"
+    },
+    {
+      "source": "/siir",
+      "target": "/abbas"
+    },
+    {
+      "source": "/siir",
+      "target": "/asik-veysel"
+    },
+    {
+      "source": "/siir",
+      "target": "/boz-ayran"
+    },
+    {
+      "source": "/siir",
+      "target": "/bulent-ecevit"
+    },
+    {
+      "source": "/siir",
+      "target": "/bulgur-pilavi"
+    },
+    {
+      "source": "/siir",
+      "target": "/can-yucel"
+    },
+    {
+      "source": "/siir",
+      "target": "/edip-cansever"
+    },
+    {
+      "source": "/siir",
+      "target": "/fuzuli"
+    },
+    {
+      "source": "/siir",
+      "target": "/isyan"
+    },
+    {
+      "source": "/siir",
+      "target": "/melih-cevdet"
+    },
+    {
+      "source": "/siir",
+      "target": "/nazim"
+    },
+    {
+      "source": "/siir",
+      "target": "/orhan-veli"
+    },
+    {
+      "source": "/siir",
+      "target": "/yunus-emre"
+    },
+    {
+      "source": "/time",
+      "target": "/death"
+    },
+    {
+      "source": "/time",
+      "target": "/on-the-shortness-of-life"
+    },
+    {
+      "source": "/time",
+      "target": "/slow-down-time"
+    },
+    {
+      "source": "/time",
+      "target": "/the-past"
+    },
+    {
+      "source": "/work",
+      "target": "/career-advice"
+    },
+    {
+      "source": "/work",
+      "target": "/teamwork"
+    },
+    {
+      "source": "/work",
+      "target": "/what-to-work-on"
+    },
+    {
+      "source": "/work",
+      "target": "/you-are-not-nameless"
     },
     {
       "source": "/algorithms",
@@ -5851,114 +5841,6 @@
       "target": "/books-phil"
     },
     {
-      "source": "/if",
-      "target": "/bulent-ecevit"
-    },
-    {
-      "source": "/if",
-      "target": "/success-and-failure"
-    },
-    {
-      "source": "/lightly-child",
-      "target": "/do-one-thing-at-a-time-and-do-it-well"
-    },
-    {
-      "source": "/lightly-child",
-      "target": "/one-bit-better"
-    },
-    {
-      "source": "/tao-te-ching",
-      "target": "/books-phil"
-    },
-    {
-      "source": "/wind-and-rain",
-      "target": "/phil-ideas"
-    },
-    {
-      "source": "/dots",
-      "target": "/time"
-    },
-    {
-      "source": "/experiments",
-      "target": "/projects"
-    },
-    {
-      "source": "/time-scale",
-      "target": "/climate-change"
-    },
-    {
-      "source": "/datasets",
-      "target": "/probability-and-statistics"
-    },
-    {
-      "source": "/essais",
-      "target": "/feynmans-epilogue"
-    },
-    {
-      "source": "/essais",
-      "target": "/how-to-grow-old-russell"
-    },
-    {
-      "source": "/essais",
-      "target": "/mastery"
-    },
-    {
-      "source": "/essais",
-      "target": "/problem-solving"
-    },
-    {
-      "source": "/essais",
-      "target": "/farming-trap"
-    },
-    {
-      "source": "/essais",
-      "target": "/the-triumph-of-stupidity"
-    },
-    {
-      "source": "/essais",
-      "target": "/who-goes-nazi"
-    },
-    {
-      "source": "/lists",
-      "target": "/classics"
-    },
-    {
-      "source": "/lists",
-      "target": "/history-of-technology"
-    },
-    {
-      "source": "/lists",
-      "target": "/since-big-bang"
-    },
-    {
-      "source": "/bayes",
-      "target": "/probability-and-statistics"
-    },
-    {
-      "source": "/math",
-      "target": "/local-maximum"
-    },
-    {
-      "source": "/akins-laws-of-spacecraft",
-      "target": "/hacker-laws"
-    },
-    {
-      "source": "/akins-laws-of-spacecraft",
-      "target": "/polished-pixels"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/since-big-bang"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/systems"
-    },
-    {
-      "source": "/classical-physics",
-      "target": "/maxwell-equations"
-    },
-    {
       "source": "/be-good-to-each-other-and-yourself",
       "target": "/work"
     },
@@ -6007,6 +5889,18 @@
       "target": "/success-and-failure"
     },
     {
+      "source": "/hard-times",
+      "target": "/going-blind"
+    },
+    {
+      "source": "/hard-times",
+      "target": "/how-to-deal-with-pain"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/tao-te-ching"
+    },
+    {
       "source": "/philosophy",
       "target": "/going-blind"
     },
@@ -6017,10 +5911,6 @@
     {
       "source": "/philosophy",
       "target": "/philosophical-implications-of-quantum-mechanics"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/tao-te-ching"
     },
     {
       "source": "/philosophy",
@@ -6069,6 +5959,86 @@
     {
       "source": "/what-to-work-on",
       "target": "/get-things-done"
+    },
+    {
+      "source": "/if",
+      "target": "/bulent-ecevit"
+    },
+    {
+      "source": "/bayes",
+      "target": "/probability-and-statistics"
+    },
+    {
+      "source": "/math",
+      "target": "/local-maximum"
+    },
+    {
+      "source": "/experiments",
+      "target": "/projects"
+    },
+    {
+      "source": "/time-scale",
+      "target": "/climate-change"
+    },
+    {
+      "source": "/essais",
+      "target": "/feynmans-epilogue"
+    },
+    {
+      "source": "/essais",
+      "target": "/how-to-grow-old-russell"
+    },
+    {
+      "source": "/essais",
+      "target": "/mastery"
+    },
+    {
+      "source": "/essais",
+      "target": "/problem-solving"
+    },
+    {
+      "source": "/essais",
+      "target": "/farming-trap"
+    },
+    {
+      "source": "/essais",
+      "target": "/the-triumph-of-stupidity"
+    },
+    {
+      "source": "/essais",
+      "target": "/who-goes-nazi"
+    },
+    {
+      "source": "/lists",
+      "target": "/classics"
+    },
+    {
+      "source": "/lists",
+      "target": "/history-of-technology"
+    },
+    {
+      "source": "/lists",
+      "target": "/since-big-bang"
+    },
+    {
+      "source": "/akins-laws-of-spacecraft",
+      "target": "/hacker-laws"
+    },
+    {
+      "source": "/akins-laws-of-spacecraft",
+      "target": "/polished-pixels"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/since-big-bang"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/systems"
+    },
+    {
+      "source": "/classical-physics",
+      "target": "/maxwell-equations"
     },
     {
       "source": "/critical-thinking",

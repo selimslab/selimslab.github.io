@@ -1,4 +1,6 @@
 ---
+---
+$$---
 title: Ince Memed 
 ---
 

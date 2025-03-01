@@ -1,11 +1,9 @@
 ---
-title: Cinema 🎬
+title: Movies 🎬
 ---
 
 <https://www.youtube.com/@everyframeapainting>
-
-## Movies 
-
+ 
 Casablanca (1942)
 
 It's a Wonderful Life (1946)

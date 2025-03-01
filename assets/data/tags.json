@@ -2,20 +2,14 @@
   "/arts": [
     "root"
   ],
-  "/cinema": [
-    "arts"
-  ],
-  "/documentaries": [
-    "arts"
+  "/authors": [
+    "literature"
   ],
   "/cien-anos-de-soledad": [
     "literature"
   ],
   "/classics": [
     "lists",
-    "literature"
-  ],
-  "/ince-memed": [
     "literature"
   ],
   "/literature": [
@@ -27,12 +21,116 @@
   "/turk-mirasi": [
     "literature"
   ],
-  "/paintings": [
-    "arts"
+  "/all-is-one": [
+    "philosophy"
   ],
-  "/photography": [
+  "/balance": [
+    "philosophy"
+  ],
+  "/be-good-to-each-other-and-yourself": [
+    "philosophy"
+  ],
+  "/books-phil": [
+    "philosophy"
+  ],
+  "/character": [
+    "philosophy"
+  ],
+  "/choice": [
+    "decisions",
+    "philosophy"
+  ],
+  "/concepts-in-greek-thought": [
+    "philosophy"
+  ],
+  "/do-one-thing-at-a-time-and-do-it-well": [
+    "philosophy"
+  ],
+  "/do-without-doing": [
+    "philosophy"
+  ],
+  "/eudaimonia": [
+    "philosophy",
+    "skills",
+    "top"
+  ],
+  "/freedom": [
+    "philosophy",
+    "soc"
+  ],
+  "/getting-old": [
+    "philosophy"
+  ],
+  "/happiness": [
+    "philosophy",
+    "psy",
+    "soc"
+  ],
+  "/hard-times": [
+    "philosophy",
+    "top"
+  ],
+  "/ideal-insan": [
+    "philosophy"
+  ],
+  "/one-bit-better": [
+    "philosophy"
+  ],
+  "/phil-ideas": [
+    "philosophy"
+  ],
+  "/philosophy": [
     "arts",
-    "skills"
+    "root"
+  ],
+  "/questions": [
+    "philosophy"
+  ],
+  "/success-and-failure": [
+    "philosophy"
+  ],
+  "/take-a-walk": [
+    "philosophy",
+    "top"
+  ],
+  "/the-less-the-better": [
+    "philosophy"
+  ],
+  "/death": [
+    "time"
+  ],
+  "/on-the-shortness-of-life": [
+    "time"
+  ],
+  "/slow-down-time": [
+    "time"
+  ],
+  "/the-past": [
+    "time"
+  ],
+  "/time": [
+    "philosophy"
+  ],
+  "/travelling": [
+    "philosophy"
+  ],
+  "/truth": [
+    "philosophy"
+  ],
+  "/career-advice": [
+    "work"
+  ],
+  "/teamwork": [
+    "work"
+  ],
+  "/what-to-work-on": [
+    "work"
+  ],
+  "/work": [
+    "philosophy"
+  ],
+  "/you-are-not-nameless": [
+    "work"
   ],
   "/brecht": [
     "poetry"
@@ -79,41 +177,6 @@
   "/saturday": [
     "poetry"
   ],
-  "/soft-rains": [
-    "poetry"
-  ],
-  "/tao-te-ching": [
-    "phil",
-    "poetry",
-    "pols"
-  ],
-  "/the-red-wheelbarrow": [
-    "poetry"
-  ],
-  "/the-road-not-taken": [
-    "poetry"
-  ],
-  "/the-second-coming": [
-    "poetry"
-  ],
-  "/this-be-the-verse": [
-    "poetry"
-  ],
-  "/to-be-or-not": [
-    "poetry"
-  ],
-  "/uncut-wood": [
-    "poetry"
-  ],
-  "/we-wear-the-mask": [
-    "poetry"
-  ],
-  "/wei-wu-wei": [
-    "poetry"
-  ],
-  "/wind-and-rain": [
-    "poetry"
-  ],
   "/abbas": [
     "siir"
   ],
@@ -151,53 +214,45 @@
     "siir"
   ],
   "/siir": [
-    "arts"
+    "poetry"
   ],
   "/yunus-emre": [
     "siir"
   ],
-  "/dots": [
-    "experiments"
+  "/soft-rains": [
+    "poetry"
   ],
-  "/experiments": [
-
+  "/tao-te-ching": [
+    "phil",
+    "poetry",
+    "pols"
   ],
-  "/graph-3d": [
-    "experiments"
+  "/the-red-wheelbarrow": [
+    "poetry"
   ],
-  "/time-scale": [
-    "experiments",
-    "stem",
-    "time"
+  "/the-road-not-taken": [
+    "poetry"
   ],
-  "/typing-practice": [
-    "experiments",
-    "skills"
+  "/the-second-coming": [
+    "poetry"
   ],
-  "/year-progress": [
-    "experiments"
+  "/this-be-the-verse": [
+    "poetry"
   ],
-  "/authors": [
-    "lists"
+  "/to-be-or-not": [
+    "poetry"
   ],
-  "/blogs": [
-    "lists"
+  "/uncut-wood": [
+    "poetry"
   ],
-  "/datasets": [
-    "lists"
+  "/we-wear-the-mask": [
+    "poetry"
   ],
-  "/essais": [
-    "lists"
+  "/wei-wu-wei": [
+    "poetry"
   ],
-  "/lists": [
-    "root"
-  ],
-  "/quotes": [
-    "lists"
-  ],
-  "/web-experiments": [
-    "lists",
-    "ux"
+  "/wind-and-rain": [
+    "poetry"
   ],
   "/bayes": [
     "algo",
@@ -236,8 +291,61 @@
   "/about": [
 
   ],
+  "/dots": [
+    "experiments"
+  ],
+  "/experiments": [
+
+  ],
+  "/graph-3d": [
+    "experiments"
+  ],
+  "/time-scale": [
+    "experiments",
+    "stem",
+    "time"
+  ],
+  "/typing-practice": [
+    "experiments",
+    "skills"
+  ],
+  "/year-progress": [
+    "experiments"
+  ],
   "/graph-2d": [
 
+  ],
+  "/blogs": [
+    "lists"
+  ],
+  "/datasets": [
+    "lists"
+  ],
+  "/documentaries": [
+    "lists"
+  ],
+  "/essais": [
+    "lists"
+  ],
+  "/lists": [
+    "root"
+  ],
+  "/movies": [
+    "lists"
+  ],
+  "/paintings": [
+    "lists"
+  ],
+  "/photography": [
+    "lists",
+    "skills"
+  ],
+  "/quotes": [
+    "lists"
+  ],
+  "/web-experiments": [
+    "lists",
+    "ux"
   ],
   "/llm-prompt": [
 
@@ -319,116 +427,6 @@
   ],
   "/sapolsky": [
     "natural-sciences"
-  ],
-  "/all-is-one": [
-    "philosophy"
-  ],
-  "/balance": [
-    "philosophy"
-  ],
-  "/be-good-to-each-other-and-yourself": [
-    "philosophy"
-  ],
-  "/books-phil": [
-    "philosophy"
-  ],
-  "/character": [
-    "philosophy"
-  ],
-  "/choice": [
-    "decisions",
-    "philosophy"
-  ],
-  "/concepts-in-greek-thought": [
-    "philosophy"
-  ],
-  "/do-one-thing-at-a-time-and-do-it-well": [
-    "philosophy"
-  ],
-  "/do-without-doing": [
-    "philosophy"
-  ],
-  "/eudaimonia": [
-    "philosophy",
-    "skills",
-    "top"
-  ],
-  "/freedom": [
-    "philosophy",
-    "soc"
-  ],
-  "/getting-old": [
-    "philosophy"
-  ],
-  "/happiness": [
-    "philosophy",
-    "psy",
-    "soc"
-  ],
-  "/hard-times": [
-    "philosophy",
-    "top"
-  ],
-  "/ideal-insan": [
-    "philosophy"
-  ],
-  "/one-bit-better": [
-    "philosophy"
-  ],
-  "/phil-ideas": [
-    "philosophy"
-  ],
-  "/philosophy": [
-    "root"
-  ],
-  "/questions": [
-    "philosophy"
-  ],
-  "/success-and-failure": [
-    "philosophy"
-  ],
-  "/take-a-walk": [
-    "philosophy",
-    "top"
-  ],
-  "/the-less-the-better": [
-    "philosophy"
-  ],
-  "/death": [
-    "time"
-  ],
-  "/on-the-shortness-of-life": [
-    "time"
-  ],
-  "/slow-down-time": [
-    "time"
-  ],
-  "/the-past": [
-    "time"
-  ],
-  "/time": [
-    "philosophy"
-  ],
-  "/travelling": [
-    "philosophy"
-  ],
-  "/truth": [
-    "philosophy"
-  ],
-  "/career-advice": [
-    "work"
-  ],
-  "/teamwork": [
-    "work"
-  ],
-  "/what-to-work-on": [
-    "work"
-  ],
-  "/work": [
-    "philosophy"
-  ],
-  "/you-are-not-nameless": [
-    "work"
   ],
   "/communication": [
     "skills"

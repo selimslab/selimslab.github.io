@@ -40,19 +40,4 @@ The Stranger
 
 The Trial
 
----
-
-Above all, don't lie to yourself.
-
-The man who lies to himself and listens to his own lie comes to a point
-
-that he cannot distinguish the truth within him, or around him,
-
-and so loses all respect for himself and for others
-
-― Fyodor Dostoevsky, The Brothers Karamazov
-
-
-Good speech is always clear, clever, and understood by all."
-
-—Leo Tolstoy
+$$

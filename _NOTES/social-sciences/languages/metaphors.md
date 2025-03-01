@@ -2,10 +2,6 @@
 tags: soc
 ---
 
-[Tag: metaphor - Sketchplanations](https://sketchplanations.com/tags/metaphor)
-
-<https://sketchplanations.com/primary-metaphor>
-
 ![](/assets/static/img/primary-metaphor.jpeg)
 
 ![](/assets/static/img/knowing-as-seeing.jpeg)
