@@ -397,7 +397,7 @@ class SiteGenerator < Jekyll::Generator
     # Find all wiki-style links [[link]] and replace them with markdown links
     doc.content.scan(/\[\[[a-z0-9-]*\]\]/).each do |link|
       # Extract the target from the wiki link (remove the brackets)
-      target = link[2...-1]
+      target = link[2...-2]  # Changed from [2...-1] to [2...-2] to remove both closing brackets
       
       # If the target is in tag_to_file, use that mapping
       target = tag_to_file["/#{target}"] if tag_to_file.key?("/#{target}")

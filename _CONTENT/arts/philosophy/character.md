@@ -35,8 +35,6 @@ Never miss a good chance to shut up.
 
 ## Related
 
-[[do-not-lie-to-yourself]]
-
-[[politics/who-goes-nazi]]
+[[who-goes-nazi]]
 
 ![](/assets/static/img/principles-all-the-time.jpeg)

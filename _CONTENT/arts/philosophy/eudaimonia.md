@@ -10,8 +10,6 @@ tags: skills top
 
 [[choice]]
 
-[[cognitive-biases]] 
-
 [[death]]
 
 [[decision-making]]
