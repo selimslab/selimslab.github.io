@@ -14,3 +14,4 @@ title: Decision Making
 - Don't get stuck
 - Once you decide, don't second guess, follow through 
 
+[[choice]]

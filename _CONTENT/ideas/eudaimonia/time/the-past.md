@@ -8,8 +8,6 @@ Many inputs come together and create an outcome, it's not all your fault. The pa
 
 Good judgment comes from experience. Experience comes mistakes. 
 
-[[prudence]]
-
 We blame ourselves but most things are so random. Much of what we get, we don't deserve. 
 
 Neither blame yourself nor others. Forgive yourself, forgive others. Leave the baggage. 

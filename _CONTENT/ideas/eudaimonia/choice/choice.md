@@ -1,5 +1,4 @@
 ---
-tags: decisions
 ---
 
 "making the best of your circumstances"
