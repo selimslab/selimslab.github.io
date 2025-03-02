@@ -3,5 +3,5 @@ layout: none
 ---
 
 [
-  {% for note in site.NOTES %}"{{ note.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}
+  {% for page in site.CONTENT %}"{{ page.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}
 ]
