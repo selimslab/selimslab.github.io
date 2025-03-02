@@ -2,6 +2,8 @@
 tags: decisions
 ---
 
+"making the best of your circumstances"
+
 
 Everything can be taken from a man but one thing, 
 

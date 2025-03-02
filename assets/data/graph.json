@@ -36,8 +36,8 @@
       "links": [
         "/root",
         "/philosophy",
-        "/reasoning",
         "/choice",
+        "/reasoning",
         "/time",
         "/work"
       ]
@@ -249,30 +249,12 @@
         "/solitude",
         "/stupidity",
         "/travelling",
+        "/do-one-thing-at-a-time-and-do-it-well",
         "/tao-te-ching",
         "/critical-thinking",
-        "/do-one-thing-at-a-time-and-do-it-well",
         "/how-to-deal-with-pain",
         "/pale-blue-dot",
         "/philosophical-implications-of-quantum-mechanics"
-      ]
-    },
-    {
-      "id": "/reasoning",
-      "group": 2,
-      "name": "Reasoning",
-      "links": [
-        "/ideas",
-        "/critical-thinking",
-        "/decision-making",
-        "/do-one-thing-at-a-time-and-do-it-well",
-        "/get-things-done",
-        "/learning",
-        "/mastery",
-        "/one-bit-better",
-        "/problem-solving",
-        "/systems-thinking",
-        "/truth"
       ]
     },
     {
@@ -283,12 +265,30 @@
         "/ideas",
         "/balance",
         "/character",
+        "/do-one-thing-at-a-time-and-do-it-well",
         "/do-without-doing",
         "/gratitude",
         "/know-where-to-stop",
+        "/one-bit-better",
         "/take-a-walk",
         "/the-less-the-better",
         "/a-good-life"
+      ]
+    },
+    {
+      "id": "/reasoning",
+      "group": 2,
+      "name": "Reasoning",
+      "links": [
+        "/ideas",
+        "/critical-thinking",
+        "/decision-making",
+        "/get-things-done",
+        "/learning",
+        "/mastery",
+        "/problem-solving",
+        "/systems-thinking",
+        "/truth"
       ]
     },
     {
@@ -321,9 +321,9 @@
         "/teamwork",
         "/what-to-work-on",
         "/you-are-not-nameless",
+        "/do-one-thing-at-a-time-and-do-it-well",
         "/be-good-to-each-other-and-yourself",
         "/decision-making",
-        "/do-one-thing-at-a-time-and-do-it-well",
         "/get-things-done",
         "/mastery"
       ]
@@ -1293,6 +1293,90 @@
       ]
     },
     {
+      "id": "/balance",
+      "group": 3,
+      "name": "Balance",
+      "links": [
+        "/choice"
+      ]
+    },
+    {
+      "id": "/character",
+      "group": 3,
+      "name": "Character",
+      "links": [
+        "/choice",
+        "/freedom"
+      ]
+    },
+    {
+      "id": "/do-one-thing-at-a-time-and-do-it-well",
+      "group": 3,
+      "name": "Do One Thing At A Time And Do It Well",
+      "links": [
+        "/choice",
+        "/lightly-child",
+        "/get-things-done",
+        "/teamwork",
+        "/work",
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/do-without-doing",
+      "group": 3,
+      "name": "Do without doing - Wu Wei 無爲",
+      "links": [
+        "/choice",
+        "/decision-making",
+        "/teamwork"
+      ]
+    },
+    {
+      "id": "/gratitude",
+      "group": 3,
+      "name": "Gratitude",
+      "links": [
+        "/choice"
+      ]
+    },
+    {
+      "id": "/know-where-to-stop",
+      "group": 3,
+      "name": "Know Where To Stop",
+      "links": [
+        "/choice",
+        "/wind-and-rain"
+      ]
+    },
+    {
+      "id": "/one-bit-better",
+      "group": 3,
+      "name": "One Bit Better",
+      "links": [
+        "/choice",
+        "/lightly-child"
+      ]
+    },
+    {
+      "id": "/take-a-walk",
+      "group": 3,
+      "name": "Take a walk",
+      "links": [
+        "/choice",
+        "/get-things-done",
+        "/problem-solving"
+      ]
+    },
+    {
+      "id": "/the-less-the-better",
+      "group": 3,
+      "name": "The Less The Better",
+      "links": [
+        "/choice"
+      ]
+    },
+    {
       "id": "/critical-thinking",
       "group": 3,
       "name": "Critical thinking",
@@ -1315,28 +1399,14 @@
       ]
     },
     {
-      "id": "/do-one-thing-at-a-time-and-do-it-well",
-      "group": 3,
-      "name": "Do One Thing At A Time And Do It Well",
-      "links": [
-        "/reasoning",
-        "/lightly-child",
-        "/know-where-to-stop",
-        "/philosophy",
-        "/get-things-done",
-        "/teamwork",
-        "/work"
-      ]
-    },
-    {
       "id": "/get-things-done",
       "group": 3,
       "name": "Get Things Done",
       "links": [
         "/reasoning",
+        "/do-one-thing-at-a-time-and-do-it-well",
         "/take-a-walk",
         "/decision-making",
-        "/do-one-thing-at-a-time-and-do-it-well",
         "/work"
       ]
     },
@@ -1357,15 +1427,6 @@
         "/reasoning",
         "/teamwork",
         "/work"
-      ]
-    },
-    {
-      "id": "/one-bit-better",
-      "group": 3,
-      "name": "One Bit Better",
-      "links": [
-        "/reasoning",
-        "/lightly-child"
       ]
     },
     {
@@ -1393,69 +1454,6 @@
       "name": "Truth",
       "links": [
         "/reasoning"
-      ]
-    },
-    {
-      "id": "/balance",
-      "group": 3,
-      "name": "Balance",
-      "links": [
-        "/choice"
-      ]
-    },
-    {
-      "id": "/character",
-      "group": 3,
-      "name": "Character",
-      "links": [
-        "/choice",
-        "/freedom"
-      ]
-    },
-    {
-      "id": "/do-without-doing",
-      "group": 3,
-      "name": "Do without doing - Wu Wei 無爲",
-      "links": [
-        "/choice",
-        "/decision-making",
-        "/teamwork"
-      ]
-    },
-    {
-      "id": "/gratitude",
-      "group": 3,
-      "name": "Gratitude",
-      "links": [
-        "/choice"
-      ]
-    },
-    {
-      "id": "/know-where-to-stop",
-      "group": 3,
-      "name": "Know Where To Stop",
-      "links": [
-        "/choice",
-        "/wind-and-rain",
-        "/do-one-thing-at-a-time-and-do-it-well"
-      ]
-    },
-    {
-      "id": "/take-a-walk",
-      "group": 3,
-      "name": "Take a walk",
-      "links": [
-        "/choice",
-        "/get-things-done",
-        "/problem-solving"
-      ]
-    },
-    {
-      "id": "/the-less-the-better",
-      "group": 3,
-      "name": "The Less The Better",
-      "links": [
-        "/choice"
       ]
     },
     {
@@ -1540,8 +1538,8 @@
       "name": "Teamwork",
       "links": [
         "/work",
-        "/do-without-doing",
         "/do-one-thing-at-a-time-and-do-it-well",
+        "/do-without-doing",
         "/mastery",
         "/what-to-work-on"
       ]
@@ -3969,11 +3967,11 @@
     },
     {
       "source": "/ideas",
-      "target": "/reasoning"
+      "target": "/choice"
     },
     {
       "source": "/ideas",
-      "target": "/choice"
+      "target": "/reasoning"
     },
     {
       "source": "/ideas",
@@ -4380,52 +4378,16 @@
       "target": "/travelling"
     },
     {
-      "source": "/reasoning",
-      "target": "/critical-thinking"
-    },
-    {
-      "source": "/reasoning",
-      "target": "/decision-making"
-    },
-    {
-      "source": "/reasoning",
-      "target": "/do-one-thing-at-a-time-and-do-it-well"
-    },
-    {
-      "source": "/reasoning",
-      "target": "/get-things-done"
-    },
-    {
-      "source": "/reasoning",
-      "target": "/learning"
-    },
-    {
-      "source": "/reasoning",
-      "target": "/mastery"
-    },
-    {
-      "source": "/reasoning",
-      "target": "/one-bit-better"
-    },
-    {
-      "source": "/reasoning",
-      "target": "/problem-solving"
-    },
-    {
-      "source": "/reasoning",
-      "target": "/systems-thinking"
-    },
-    {
-      "source": "/reasoning",
-      "target": "/truth"
-    },
-    {
       "source": "/choice",
       "target": "/balance"
     },
     {
       "source": "/choice",
       "target": "/character"
+    },
+    {
+      "source": "/choice",
+      "target": "/do-one-thing-at-a-time-and-do-it-well"
     },
     {
       "source": "/choice",
@@ -4441,11 +4403,47 @@
     },
     {
       "source": "/choice",
+      "target": "/one-bit-better"
+    },
+    {
+      "source": "/choice",
       "target": "/take-a-walk"
     },
     {
       "source": "/choice",
       "target": "/the-less-the-better"
+    },
+    {
+      "source": "/reasoning",
+      "target": "/critical-thinking"
+    },
+    {
+      "source": "/reasoning",
+      "target": "/decision-making"
+    },
+    {
+      "source": "/reasoning",
+      "target": "/get-things-done"
+    },
+    {
+      "source": "/reasoning",
+      "target": "/learning"
+    },
+    {
+      "source": "/reasoning",
+      "target": "/mastery"
+    },
+    {
+      "source": "/reasoning",
+      "target": "/problem-solving"
+    },
+    {
+      "source": "/reasoning",
+      "target": "/systems-thinking"
+    },
+    {
+      "source": "/reasoning",
+      "target": "/truth"
     },
     {
       "source": "/time",
@@ -5576,16 +5574,24 @@
       "target": "/a-good-life"
     },
     {
+      "source": "/do-one-thing-at-a-time-and-do-it-well",
+      "target": "/get-things-done"
+    },
+    {
+      "source": "/do-one-thing-at-a-time-and-do-it-well",
+      "target": "/teamwork"
+    },
+    {
+      "source": "/do-one-thing-at-a-time-and-do-it-well",
+      "target": "/work"
+    },
+    {
       "source": "/do-without-doing",
       "target": "/decision-making"
     },
     {
       "source": "/do-without-doing",
       "target": "/teamwork"
-    },
-    {
-      "source": "/know-where-to-stop",
-      "target": "/do-one-thing-at-a-time-and-do-it-well"
     },
     {
       "source": "/take-a-walk",
@@ -5605,15 +5611,15 @@
     },
     {
       "source": "/philosophy",
+      "target": "/do-one-thing-at-a-time-and-do-it-well"
+    },
+    {
+      "source": "/philosophy",
       "target": "/tao-te-ching"
     },
     {
       "source": "/philosophy",
       "target": "/critical-thinking"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/do-one-thing-at-a-time-and-do-it-well"
     },
     {
       "source": "/philosophy",
@@ -5641,18 +5647,6 @@
     },
     {
       "source": "/decision-making",
-      "target": "/work"
-    },
-    {
-      "source": "/do-one-thing-at-a-time-and-do-it-well",
-      "target": "/get-things-done"
-    },
-    {
-      "source": "/do-one-thing-at-a-time-and-do-it-well",
-      "target": "/teamwork"
-    },
-    {
-      "source": "/do-one-thing-at-a-time-and-do-it-well",
       "target": "/work"
     },
     {

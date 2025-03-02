@@ -208,6 +208,10 @@
     "decisions",
     "ideas"
   ],
+  "/do-one-thing-at-a-time-and-do-it-well": [
+    "choice",
+    "phil"
+  ],
   "/do-without-doing": [
     "choice"
   ],
@@ -216,6 +220,10 @@
   ],
   "/know-where-to-stop": [
     "choice"
+  ],
+  "/one-bit-better": [
+    "choice",
+    "top"
   ],
   "/take-a-walk": [
     "choice",
@@ -288,10 +296,6 @@
   "/decision-making": [
     "reasoning"
   ],
-  "/do-one-thing-at-a-time-and-do-it-well": [
-    "phil",
-    "reasoning"
-  ],
   "/get-things-done": [
     "reasoning"
   ],
@@ -301,10 +305,6 @@
   ],
   "/mastery": [
     "reasoning"
-  ],
-  "/one-bit-better": [
-    "reasoning",
-    "top"
   ],
   "/problem-solving": [
     "reasoning"
