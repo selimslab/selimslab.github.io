@@ -5,6 +5,7 @@ ROOT_PATH = "./_CONTENT".freeze
 ASSETS_PATH = "./assets".freeze
 STATIC_PATH = "#{ASSETS_PATH}/static".freeze
 DATA_PATH = "#{ASSETS_PATH}/data".freeze
+DEBUG_PATH = "./debug".freeze
 DEBUG = false
 
 class SiteGenerator < Jekyll::Generator
@@ -26,7 +27,6 @@ class SiteGenerator < Jekyll::Generator
     site.data["tree_level_order"] = tree_level_order_data
     
     tree_to_html(site, tree)
-    log_debug_data(tree, site) if DEBUG
 
     process_documents(site)
 
@@ -35,7 +35,8 @@ class SiteGenerator < Jekyll::Generator
 
     update_ideas(site)
     update_artworks(site)
-    update_tags(site)
+    
+    log_debug_data(tree, site) if DEBUG
 
     @generated = true
   end
@@ -52,10 +53,14 @@ class SiteGenerator < Jekyll::Generator
   end
 
   def log_debug_data(tree, site)
-    write_json("#{DATA_PATH}/tree.json", tree)
-    write_json("#{DATA_PATH}/tree_level_order.json", site.data["tree_level_order"])
-    write_json("#{DATA_PATH}/tree_htmls.json", site.data["tree_htmls"])
-
+    write_json("#{DEBUG_PATH}/tree.json", tree)
+    write_json("#{DEBUG_PATH}/tree_level_order.json", site.data["tree_level_order"])
+    write_json("#{DEBUG_PATH}/tree_htmls.json", site.data["tree_htmls"])
+    tags_data = site.documents
+      .select { |doc| doc.respond_to?(:id) && doc.respond_to?(:data) && doc.data["tags"] }
+      .to_h { |doc| [doc.id, doc.data["tags"]] }
+    
+    write_json("#{DEBUG_PATH}/tags.json", tags_data)
   end
 
   def update_ideas(site)
@@ -81,14 +86,6 @@ class SiteGenerator < Jekyll::Generator
     
     # Make artworks available in site data
     site.data["artworks"] = artworks
-  end
-
-  def update_tags(site)
-    tags_data = site.documents
-      .select { |doc| doc.respond_to?(:id) && doc.respond_to?(:data) && doc.data["tags"] }
-      .to_h { |doc| [doc.id, doc.data["tags"]] }
-    
-    write_json("#{DATA_PATH}/tags.json", tags_data)
   end
 
   def fix_frontmatter

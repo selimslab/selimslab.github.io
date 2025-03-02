@@ -625,7 +625,7 @@
         "/astronomy",
         "/books-sci",
         "/climate-change",
-        "/sapolsky",
+        "/neuroscience",
         "/physics",
         "/history-of-technology",
         "/since-big-bang"
@@ -637,7 +637,7 @@
       "name": "Social Sciences",
       "links": [
         "/sciences",
-        "/books-social",
+        "/books-soc",
         "/economics",
         "/history",
         "/politics",
@@ -2460,11 +2460,12 @@
       ]
     },
     {
-      "id": "/sapolsky",
+      "id": "/neuroscience",
       "group": 3,
-      "name": "Sapolsky",
+      "name": "Neuroscience",
       "links": [
-        "/natural-sciences"
+        "/natural-sciences",
+        "/sapolsky"
       ]
     },
     {
@@ -2481,7 +2482,7 @@
       ]
     },
     {
-      "id": "/books-social",
+      "id": "/books-soc",
       "group": 3,
       "name": "Books",
       "links": [
@@ -3585,6 +3586,14 @@
       "name": "Learn and move on",
       "links": [
         "/time"
+      ]
+    },
+    {
+      "id": "/sapolsky",
+      "group": 4,
+      "name": "Sapolsky",
+      "links": [
+        "/neuroscience"
       ]
     },
     {
@@ -4900,7 +4909,7 @@
     },
     {
       "source": "/natural-sciences",
-      "target": "/sapolsky"
+      "target": "/neuroscience"
     },
     {
       "source": "/natural-sciences",
@@ -4908,7 +4917,7 @@
     },
     {
       "source": "/social-sciences",
-      "target": "/books-social"
+      "target": "/books-soc"
     },
     {
       "source": "/social-sciences",
@@ -5397,6 +5406,10 @@
     {
       "source": "/time",
       "target": "/the-past"
+    },
+    {
+      "source": "/neuroscience",
+      "target": "/sapolsky"
     },
     {
       "source": "/physics",

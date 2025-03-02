@@ -11,3 +11,4 @@ _*.md
 *.crx
 *.pem
 *.zip
+debug/*
