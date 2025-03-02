@@ -39,7 +39,6 @@
         "/eudaimonia",
         "/philosophy",
         "/reasoning",
-        "/time",
         "/work"
       ]
     },
@@ -56,6 +55,7 @@
         "/paintings",
         "/quotes",
         "/checklists",
+        "/experiments",
         "/classics",
         "/essais",
         "/history-of-technology",
@@ -73,8 +73,7 @@
         "/interviews",
         "/llm-prompt",
         "/pub",
-        "/resume",
-        "/experiments"
+        "/resume"
       ]
     },
     {
@@ -234,8 +233,9 @@
       "name": "Essais",
       "links": [
         "/ideas",
-        "/be-good-to-each-other-and-yourself",
         "/how-to-grow-old-russell",
+        "/slow-down-time",
+        "/be-good-to-each-other-and-yourself",
         "/farming-trap",
         "/the-triumph-of-stupidity",
         "/who-goes-nazi",
@@ -251,13 +251,10 @@
         "/ideas",
         "/balance",
         "/character",
+        "/one-bit-better",
+        "/take-a-walk",
         "/choice",
-        "/do-one-thing-at-a-time-and-do-it-well",
-        "/do-without-doing",
-        "/gratitude",
-        "/know-where-to-stop",
-        "/less",
-        "/take-a-walk"
+        "/time"
       ]
     },
     {
@@ -301,29 +298,9 @@
         "/get-things-done",
         "/learning",
         "/mastery",
-        "/one-bit-better",
         "/problem-solving",
         "/systems-thinking",
         "/work"
-      ]
-    },
-    {
-      "id": "/time",
-      "group": 2,
-      "name": "Time",
-      "links": [
-        "/ideas",
-        "/death",
-        "/getting-old",
-        "/hard-times",
-        "/how-to-grow-old-russell",
-        "/on-the-shortness-of-life",
-        "/slow-down-time",
-        "/the-past",
-        "/earth-time-scale",
-        "/121st-century",
-        "/history",
-        "/since-big-bang"
       ]
     },
     {
@@ -404,6 +381,19 @@
       ]
     },
     {
+      "id": "/experiments",
+      "group": 2,
+      "name": "Experiments",
+      "links": [
+        "/lists",
+        "/dots",
+        "/earth-time-scale",
+        "/graph-3d",
+        "/typing-practice",
+        "/year-progress"
+      ]
+    },
+    {
       "id": "/about",
       "group": 2,
       "name": "Welcome, friend!",
@@ -449,19 +439,6 @@
       "name": "Resume",
       "links": [
         "/misc"
-      ]
-    },
-    {
-      "id": "/experiments",
-      "group": 2,
-      "name": "Experiments",
-      "links": [
-        "/misc",
-        "/dots",
-        "/earth-time-scale",
-        "/graph-3d",
-        "/typing-practice",
-        "/year-progress"
       ]
     },
     {
@@ -562,8 +539,7 @@
         "/containers",
         "/keyboard-shortcuts",
         "/networks",
-        "/operating-systems",
-        "/for-new-programmers"
+        "/operating-systems"
       ]
     },
     {
@@ -1175,59 +1151,12 @@
       ]
     },
     {
-      "id": "/choice",
+      "id": "/one-bit-better",
       "group": 3,
-      "name": "Choice",
-      "links": [
-        "/eudaimonia"
-      ]
-    },
-    {
-      "id": "/do-one-thing-at-a-time-and-do-it-well",
-      "group": 3,
-      "name": "Do One Thing At A Time And Do It Well",
+      "name": "One Bit Better",
       "links": [
         "/eudaimonia",
-        "/lightly-child",
-        "/get-things-done",
-        "/teamwork",
-        "/work",
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/do-without-doing",
-      "group": 3,
-      "name": "Do without doing - Wu Wei 無爲",
-      "links": [
-        "/eudaimonia",
-        "/decision-making",
-        "/teamwork"
-      ]
-    },
-    {
-      "id": "/gratitude",
-      "group": 3,
-      "name": "Gratitude",
-      "links": [
-        "/eudaimonia"
-      ]
-    },
-    {
-      "id": "/know-where-to-stop",
-      "group": 3,
-      "name": "Know Where To Stop",
-      "links": [
-        "/eudaimonia",
-        "/wind-and-rain"
-      ]
-    },
-    {
-      "id": "/less",
-      "group": 3,
-      "name": "Less",
-      "links": [
-        "/eudaimonia"
+        "/lightly-child"
       ]
     },
     {
@@ -1238,6 +1167,41 @@
         "/eudaimonia",
         "/get-things-done",
         "/problem-solving"
+      ]
+    },
+    {
+      "id": "/choice",
+      "group": 3,
+      "name": "Choice",
+      "links": [
+        "/eudaimonia",
+        "/criticism",
+        "/do-one-thing-at-a-time-and-do-it-well",
+        "/do-without-doing",
+        "/gratitude",
+        "/know-where-to-stop",
+        "/less",
+        "/possibility",
+        "/decision-making"
+      ]
+    },
+    {
+      "id": "/time",
+      "group": 3,
+      "name": "Time",
+      "links": [
+        "/eudaimonia",
+        "/death",
+        "/getting-old",
+        "/hard-times",
+        "/how-to-grow-old-russell",
+        "/on-the-shortness-of-life",
+        "/slow-down-time",
+        "/the-past",
+        "/earth-time-scale",
+        "/121st-century",
+        "/history",
+        "/since-big-bang"
       ]
     },
     {
@@ -1392,6 +1356,7 @@
       "name": "Decision Making",
       "links": [
         "/reasoning",
+        "/choice",
         "/do-without-doing",
         "/get-things-done"
       ]
@@ -1427,15 +1392,6 @@
       ]
     },
     {
-      "id": "/one-bit-better",
-      "group": 3,
-      "name": "One Bit Better",
-      "links": [
-        "/reasoning",
-        "/lightly-child"
-      ]
-    },
-    {
       "id": "/problem-solving",
       "group": 3,
       "name": "Problem Solving",
@@ -1452,64 +1408,6 @@
       "links": [
         "/reasoning",
         "/social-sciences"
-      ]
-    },
-    {
-      "id": "/death",
-      "group": 3,
-      "name": "Death",
-      "links": [
-        "/time"
-      ]
-    },
-    {
-      "id": "/getting-old",
-      "group": 3,
-      "name": "Getting Old",
-      "links": [
-        "/time"
-      ]
-    },
-    {
-      "id": "/hard-times",
-      "group": 3,
-      "name": "Hard Times",
-      "links": [
-        "/time",
-        "/how-to-deal-with-pain"
-      ]
-    },
-    {
-      "id": "/how-to-grow-old-russell",
-      "group": 3,
-      "name": "How to Grow Old, by Bertrand Russell",
-      "links": [
-        "/time",
-        "/essais"
-      ]
-    },
-    {
-      "id": "/on-the-shortness-of-life",
-      "group": 3,
-      "name": "Life is not short but we waste it",
-      "links": [
-        "/time"
-      ]
-    },
-    {
-      "id": "/slow-down-time",
-      "group": 3,
-      "name": "Deepen your days",
-      "links": [
-        "/time"
-      ]
-    },
-    {
-      "id": "/the-past",
-      "group": 3,
-      "name": "Learn and move on",
-      "links": [
-        "/time"
       ]
     },
     {
@@ -2388,8 +2286,7 @@
       "group": 3,
       "name": "For New Programmers",
       "links": [
-        "/programming",
-        "/computers"
+        "/programming"
       ]
     },
     {
@@ -2748,6 +2645,129 @@
       ]
     },
     {
+      "id": "/criticism",
+      "group": 4,
+      "name": "Criticism",
+      "links": [
+        "/choice"
+      ]
+    },
+    {
+      "id": "/do-one-thing-at-a-time-and-do-it-well",
+      "group": 4,
+      "name": "Do One Thing At A Time And Do It Well",
+      "links": [
+        "/choice",
+        "/lightly-child",
+        "/get-things-done",
+        "/teamwork",
+        "/work",
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/do-without-doing",
+      "group": 4,
+      "name": "Do without doing - Wu Wei 無爲",
+      "links": [
+        "/choice",
+        "/decision-making",
+        "/teamwork"
+      ]
+    },
+    {
+      "id": "/gratitude",
+      "group": 4,
+      "name": "Gratitude",
+      "links": [
+        "/choice"
+      ]
+    },
+    {
+      "id": "/know-where-to-stop",
+      "group": 4,
+      "name": "Know Where To Stop",
+      "links": [
+        "/choice",
+        "/wind-and-rain"
+      ]
+    },
+    {
+      "id": "/less",
+      "group": 4,
+      "name": "Less",
+      "links": [
+        "/choice"
+      ]
+    },
+    {
+      "id": "/possibility",
+      "group": 4,
+      "name": "Possibility",
+      "links": [
+        "/choice"
+      ]
+    },
+    {
+      "id": "/death",
+      "group": 4,
+      "name": "Death",
+      "links": [
+        "/time"
+      ]
+    },
+    {
+      "id": "/getting-old",
+      "group": 4,
+      "name": "Getting Old",
+      "links": [
+        "/time"
+      ]
+    },
+    {
+      "id": "/hard-times",
+      "group": 4,
+      "name": "Hard Times",
+      "links": [
+        "/time",
+        "/how-to-deal-with-pain"
+      ]
+    },
+    {
+      "id": "/how-to-grow-old-russell",
+      "group": 4,
+      "name": "How to Grow Old, by Bertrand Russell",
+      "links": [
+        "/time",
+        "/essais"
+      ]
+    },
+    {
+      "id": "/on-the-shortness-of-life",
+      "group": 4,
+      "name": "Life is not short but we waste it",
+      "links": [
+        "/time"
+      ]
+    },
+    {
+      "id": "/slow-down-time",
+      "group": 4,
+      "name": "Deepen your days",
+      "links": [
+        "/time",
+        "/essais"
+      ]
+    },
+    {
+      "id": "/the-past",
+      "group": 4,
+      "name": "Learn and move on",
+      "links": [
+        "/time"
+      ]
+    },
+    {
       "id": "/drowning-does-not-look-dramatic",
       "group": 4,
       "name": "Drowning Does Not Look Dramatic",
@@ -2769,8 +2789,8 @@
       "name": "How to deal with Extreme Physical Pain",
       "links": [
         "/health",
-        "/philosophy",
-        "/hard-times"
+        "/hard-times",
+        "/philosophy"
       ]
     },
     {
@@ -3993,10 +4013,6 @@
     },
     {
       "source": "/ideas",
-      "target": "/time"
-    },
-    {
-      "source": "/ideas",
       "target": "/work"
     },
     {
@@ -4028,6 +4044,10 @@
       "target": "/checklists"
     },
     {
+      "source": "/lists",
+      "target": "/experiments"
+    },
+    {
       "source": "/misc",
       "target": "/about"
     },
@@ -4050,10 +4070,6 @@
     {
       "source": "/misc",
       "target": "/resume"
-    },
-    {
-      "source": "/misc",
-      "target": "/experiments"
     },
     {
       "source": "/sciences",
@@ -4337,31 +4353,19 @@
     },
     {
       "source": "/eudaimonia",
-      "target": "/choice"
-    },
-    {
-      "source": "/eudaimonia",
-      "target": "/do-one-thing-at-a-time-and-do-it-well"
-    },
-    {
-      "source": "/eudaimonia",
-      "target": "/do-without-doing"
-    },
-    {
-      "source": "/eudaimonia",
-      "target": "/gratitude"
-    },
-    {
-      "source": "/eudaimonia",
-      "target": "/know-where-to-stop"
-    },
-    {
-      "source": "/eudaimonia",
-      "target": "/less"
+      "target": "/one-bit-better"
     },
     {
       "source": "/eudaimonia",
       "target": "/take-a-walk"
+    },
+    {
+      "source": "/eudaimonia",
+      "target": "/choice"
+    },
+    {
+      "source": "/eudaimonia",
+      "target": "/time"
     },
     {
       "source": "/philosophy",
@@ -4449,43 +4453,11 @@
     },
     {
       "source": "/reasoning",
-      "target": "/one-bit-better"
-    },
-    {
-      "source": "/reasoning",
       "target": "/problem-solving"
     },
     {
       "source": "/reasoning",
       "target": "/systems-thinking"
-    },
-    {
-      "source": "/time",
-      "target": "/death"
-    },
-    {
-      "source": "/time",
-      "target": "/getting-old"
-    },
-    {
-      "source": "/time",
-      "target": "/hard-times"
-    },
-    {
-      "source": "/time",
-      "target": "/how-to-grow-old-russell"
-    },
-    {
-      "source": "/time",
-      "target": "/on-the-shortness-of-life"
-    },
-    {
-      "source": "/time",
-      "target": "/slow-down-time"
-    },
-    {
-      "source": "/time",
-      "target": "/the-past"
     },
     {
       "source": "/work",
@@ -5010,6 +4982,62 @@
     {
       "source": "/ux",
       "target": "/usability-testing"
+    },
+    {
+      "source": "/choice",
+      "target": "/criticism"
+    },
+    {
+      "source": "/choice",
+      "target": "/do-one-thing-at-a-time-and-do-it-well"
+    },
+    {
+      "source": "/choice",
+      "target": "/do-without-doing"
+    },
+    {
+      "source": "/choice",
+      "target": "/gratitude"
+    },
+    {
+      "source": "/choice",
+      "target": "/know-where-to-stop"
+    },
+    {
+      "source": "/choice",
+      "target": "/less"
+    },
+    {
+      "source": "/choice",
+      "target": "/possibility"
+    },
+    {
+      "source": "/time",
+      "target": "/death"
+    },
+    {
+      "source": "/time",
+      "target": "/getting-old"
+    },
+    {
+      "source": "/time",
+      "target": "/hard-times"
+    },
+    {
+      "source": "/time",
+      "target": "/how-to-grow-old-russell"
+    },
+    {
+      "source": "/time",
+      "target": "/on-the-shortness-of-life"
+    },
+    {
+      "source": "/time",
+      "target": "/slow-down-time"
+    },
+    {
+      "source": "/time",
+      "target": "/the-past"
     },
     {
       "source": "/health",
@@ -5589,11 +5617,15 @@
     },
     {
       "source": "/essais",
-      "target": "/be-good-to-each-other-and-yourself"
+      "target": "/how-to-grow-old-russell"
     },
     {
       "source": "/essais",
-      "target": "/how-to-grow-old-russell"
+      "target": "/slow-down-time"
+    },
+    {
+      "source": "/essais",
+      "target": "/be-good-to-each-other-and-yourself"
     },
     {
       "source": "/essais",
@@ -5614,6 +5646,10 @@
     {
       "source": "/character",
       "target": "/freedom"
+    },
+    {
+      "source": "/choice",
+      "target": "/decision-making"
     },
     {
       "source": "/do-one-thing-at-a-time-and-do-it-well",
@@ -5642,6 +5678,26 @@
     {
       "source": "/take-a-walk",
       "target": "/problem-solving"
+    },
+    {
+      "source": "/hard-times",
+      "target": "/how-to-deal-with-pain"
+    },
+    {
+      "source": "/time",
+      "target": "/earth-time-scale"
+    },
+    {
+      "source": "/time",
+      "target": "/121st-century"
+    },
+    {
+      "source": "/time",
+      "target": "/history"
+    },
+    {
+      "source": "/time",
+      "target": "/since-big-bang"
     },
     {
       "source": "/be-good-to-each-other-and-yourself",
@@ -5698,26 +5754,6 @@
     {
       "source": "/reasoning",
       "target": "/work"
-    },
-    {
-      "source": "/hard-times",
-      "target": "/how-to-deal-with-pain"
-    },
-    {
-      "source": "/time",
-      "target": "/earth-time-scale"
-    },
-    {
-      "source": "/time",
-      "target": "/121st-century"
-    },
-    {
-      "source": "/time",
-      "target": "/history"
-    },
-    {
-      "source": "/time",
-      "target": "/since-big-bang"
     },
     {
       "source": "/teamwork",
@@ -6014,10 +6050,6 @@
     {
       "source": "/heap",
       "target": "/longest-diverse-str"
-    },
-    {
-      "source": "/computers",
-      "target": "/for-new-programmers"
     },
     {
       "source": "/operating-systems",

@@ -209,31 +209,67 @@
     "eudaimonia"
   ],
   "/choice": [
-    "decisions",
     "eudaimonia"
   ],
+  "/criticism": [
+    "choice"
+  ],
   "/do-one-thing-at-a-time-and-do-it-well": [
-    "eudaimonia",
+    "choice",
     "phil"
   ],
   "/do-without-doing": [
-    "eudaimonia"
-  ],
-  "/eudaimonia": [
-    "ideas"
+    "choice"
   ],
   "/gratitude": [
-    "eudaimonia"
+    "choice"
   ],
   "/know-where-to-stop": [
-    "eudaimonia"
+    "choice"
   ],
   "/less": [
+    "choice"
+  ],
+  "/possibility": [
+    "choice"
+  ],
+  "/eudaimonia": [
+    "ideas",
+    "top"
+  ],
+  "/one-bit-better": [
     "eudaimonia"
   ],
   "/take-a-walk": [
     "eudaimonia",
     "top"
+  ],
+  "/death": [
+    "time"
+  ],
+  "/getting-old": [
+    "time"
+  ],
+  "/hard-times": [
+    "time",
+    "top"
+  ],
+  "/how-to-grow-old-russell": [
+    "essais",
+    "time"
+  ],
+  "/on-the-shortness-of-life": [
+    "time"
+  ],
+  "/slow-down-time": [
+    "essais",
+    "time"
+  ],
+  "/the-past": [
+    "time"
+  ],
+  "/time": [
+    "eudaimonia"
   ],
   "/ideas": [
 
@@ -308,10 +344,6 @@
   "/mastery": [
     "reasoning"
   ],
-  "/one-bit-better": [
-    "reasoning",
-    "top"
-  ],
   "/problem-solving": [
     "reasoning"
   ],
@@ -322,32 +354,6 @@
     "reasoning",
     "soc",
     "systems"
-  ],
-  "/death": [
-    "time"
-  ],
-  "/getting-old": [
-    "time"
-  ],
-  "/hard-times": [
-    "time",
-    "top"
-  ],
-  "/how-to-grow-old-russell": [
-    "essais",
-    "time"
-  ],
-  "/on-the-shortness-of-life": [
-    "time"
-  ],
-  "/slow-down-time": [
-    "time"
-  ],
-  "/the-past": [
-    "time"
-  ],
-  "/time": [
-    "ideas"
   ],
   "/career-advice": [
     "work"
@@ -388,6 +394,26 @@
   "/documentaries": [
     "lists"
   ],
+  "/dots": [
+    "experiments"
+  ],
+  "/earth-time-scale": [
+    "experiments",
+    "time",
+    "top"
+  ],
+  "/experiments": [
+    "lists"
+  ],
+  "/graph-3d": [
+    "experiments"
+  ],
+  "/typing-practice": [
+    "experiments"
+  ],
+  "/year-progress": [
+    "experiments"
+  ],
   "/lists": [
     "root"
   ],
@@ -402,26 +428,6 @@
   ],
   "/about": [
 
-  ],
-  "/dots": [
-    "experiments"
-  ],
-  "/earth-time-scale": [
-    "experiments",
-    "time",
-    "top"
-  ],
-  "/experiments": [
-
-  ],
-  "/graph-3d": [
-    "experiments"
-  ],
-  "/typing-practice": [
-    "experiments"
-  ],
-  "/year-progress": [
-    "experiments"
   ],
   "/graph-2d": [
 
