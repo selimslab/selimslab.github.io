@@ -321,6 +321,7 @@
         "/encodings",
         "/for-new-programmers",
         "/go-data-races",
+        "/solid",
         "/the-tao-of-programming",
         "/unicode",
         "/oop",
@@ -375,11 +376,11 @@
         "/domain-driven-design",
         "/hacker-laws",
         "/minimal-tech",
-        "/solid",
         "/sys-design-core",
         "/accessibility",
         "/distributed-systems",
-        "/oop"
+        "/oop",
+        "/systems-thinking"
       ]
     },
     {
@@ -1657,6 +1658,14 @@
       ]
     },
     {
+      "id": "/solid",
+      "group": 3,
+      "name": "SOLID",
+      "links": [
+        "/programming"
+      ]
+    },
+    {
       "id": "/the-tao-of-programming",
       "group": 3,
       "name": "The Tao of Programming",
@@ -1928,17 +1937,9 @@
       ]
     },
     {
-      "id": "/solid",
-      "group": 3,
-      "name": "SOLID",
-      "links": [
-        "/system-design"
-      ]
-    },
-    {
       "id": "/sys-design-core",
       "group": 3,
-      "name": "System Design Fundamentals",
+      "name": "Fundamentals",
       "links": [
         "/system-design"
       ]
@@ -2230,6 +2231,7 @@
       "name": "Systems Thinking",
       "links": [
         "/reasoning",
+        "/system-design",
         "/social-sciences"
       ]
     },
@@ -4546,6 +4548,10 @@
     },
     {
       "source": "/programming",
+      "target": "/solid"
+    },
+    {
+      "source": "/programming",
       "target": "/the-tao-of-programming"
     },
     {
@@ -4663,10 +4669,6 @@
     {
       "source": "/system-design",
       "target": "/minimal-tech"
-    },
-    {
-      "source": "/system-design",
-      "target": "/solid"
     },
     {
       "source": "/system-design",
@@ -5839,6 +5841,10 @@
     {
       "source": "/system-design",
       "target": "/oop"
+    },
+    {
+      "source": "/system-design",
+      "target": "/systems-thinking"
     },
     {
       "source": "/essais",

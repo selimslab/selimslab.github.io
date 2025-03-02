@@ -426,8 +426,7 @@
     "ptr"
   ],
   "/threeSum": [
-    "pointers",
-    "ptr"
+    "pointers"
   ],
   "/producer-consumer-problem": [
     "algorithms",
@@ -793,6 +792,9 @@
     "c",
     "projects"
   ],
+  "/solid": [
+    "programming"
+  ],
   "/the-tao-of-programming": [
     "programming"
   ],
@@ -860,7 +862,6 @@
     "software-development"
   ],
   "/akins-laws-of-spacecraft": [
-    "sys",
     "system-design"
   ],
   "/api-design": [
@@ -880,21 +881,16 @@
     "system-design"
   ],
   "/hacker-laws": [
-    "sys",
     "system-design"
   ],
   "/minimal-tech": [
-    "system-design"
-  ],
-  "/solid": [
     "system-design"
   ],
   "/sys-design-core": [
     "system-design"
   ],
   "/system-design": [
-    "engineering",
-    "systems"
+    "engineering"
   ],
   "/essais": [
     "ideas",
@@ -1070,7 +1066,7 @@
   "/systems-thinking": [
     "reasoning",
     "soc",
-    "systems"
+    "sys"
   ],
   "/career-advice": [
     "work"
