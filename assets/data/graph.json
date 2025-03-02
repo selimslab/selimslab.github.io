@@ -6,11 +6,11 @@
       "name": "Root",
       "links": [
         "/arts",
+        "/engineering",
         "/ideas",
         "/lists",
         "/misc",
-        "/sciences",
-        "/tech"
+        "/sciences"
       ]
     },
     {
@@ -27,6 +27,22 @@
         "/literature",
         "/poetry",
         "/siir"
+      ]
+    },
+    {
+      "id": "/engineering",
+      "group": 1,
+      "name": "Engineering",
+      "links": [
+        "/root",
+        "/algorithms",
+        "/computers",
+        "/databases",
+        "/distributed-systems",
+        "/programming",
+        "/security",
+        "/software-development",
+        "/system-design"
       ]
     },
     {
@@ -88,23 +104,6 @@
       ]
     },
     {
-      "id": "/tech",
-      "group": 1,
-      "name": "Tech",
-      "links": [
-        "/root",
-        "/algorithms",
-        "/computers",
-        "/databases",
-        "/distributed-systems",
-        "/programming",
-        "/security",
-        "/software-engineering",
-        "/system-design",
-        "/ux"
-      ]
-    },
-    {
       "id": "/photography",
       "group": 2,
       "name": "Photography",
@@ -145,9 +144,9 @@
         "/design-principles",
         "/drawing",
         "/ship-it",
+        "/ux",
         "/natural-ux",
-        "/polished-pixels",
-        "/ux"
+        "/polished-pixels"
       ]
     },
     {
@@ -228,6 +227,162 @@
       ]
     },
     {
+      "id": "/algorithms",
+      "group": 2,
+      "name": "Data Structures & Algorithms",
+      "links": [
+        "/engineering",
+        "/backtrack",
+        "/bit",
+        "/data-structures",
+        "/greedy",
+        "/hash-table",
+        "/linked-list",
+        "/parallel-programming",
+        "/producer-consumer-problem",
+        "/sets",
+        "/sort",
+        "/array",
+        "/by-level",
+        "/dynamic",
+        "/graph",
+        "/heuristic",
+        "/pointers",
+        "/queue",
+        "/search",
+        "/stack",
+        "/string",
+        "/tree",
+        "/lsm-trees",
+        "/bayes"
+      ]
+    },
+    {
+      "id": "/computers",
+      "group": 2,
+      "name": "Computers",
+      "links": [
+        "/engineering",
+        "/computers-from-scratch",
+        "/containers",
+        "/keyboard-shortcuts",
+        "/networks",
+        "/operating-systems"
+      ]
+    },
+    {
+      "id": "/databases",
+      "group": 2,
+      "name": "Databases",
+      "links": [
+        "/engineering",
+        "/acid",
+        "/b-trees",
+        "/db-concepts",
+        "/db-data-structures",
+        "/db-mistakes",
+        "/leaderless-replication",
+        "/lsm-trees",
+        "/normalization",
+        "/partitioning",
+        "/replication",
+        "/single-leader",
+        "/sql-tips"
+      ]
+    },
+    {
+      "id": "/distributed-systems",
+      "group": 2,
+      "name": "Distributed Systems",
+      "links": [
+        "/engineering",
+        "/bloom-filters-hash-graph-sync",
+        "/consistency-models",
+        "/consistent-hashing",
+        "/detect-a-node-failure",
+        "/distributed-design-patterns",
+        "/generate-a-unique-id",
+        "/google-sre-book",
+        "/kafka",
+        "/patterns-of-distributed-systems",
+        "/spark",
+        "/time-and-order",
+        "/system-design"
+      ]
+    },
+    {
+      "id": "/programming",
+      "group": 2,
+      "name": "Programming",
+      "links": [
+        "/engineering",
+        "/c-and-python",
+        "/concurrency",
+        "/encodings",
+        "/for-new-programmers",
+        "/go-data-races",
+        "/the-tao-of-programming",
+        "/unicode",
+        "/oop",
+        "/projects"
+      ]
+    },
+    {
+      "id": "/security",
+      "group": 2,
+      "name": "Security",
+      "links": [
+        "/engineering",
+        "/authentication",
+        "/authorization",
+        "/certificates",
+        "/cookies",
+        "/cors",
+        "/csrf",
+        "/openssl-encrypt",
+        "/public-key-cryptography",
+        "/security-heuristics",
+        "/store-passwords",
+        "/transport-layer-security",
+        "/xss"
+      ]
+    },
+    {
+      "id": "/software-development",
+      "group": 2,
+      "name": "Software Development",
+      "links": [
+        "/engineering",
+        "/code-review",
+        "/core-concepts",
+        "/on-software",
+        "/software-analogies",
+        "/swe-misery",
+        "/the-joel-test"
+      ]
+    },
+    {
+      "id": "/system-design",
+      "group": 2,
+      "name": "System Design",
+      "links": [
+        "/engineering",
+        "/akins-laws-of-spacecraft",
+        "/api-design",
+        "/choose-boring-tech",
+        "/dependency-management",
+        "/design-patterns",
+        "/domain-driven-design",
+        "/hacker-laws",
+        "/minimal-tech",
+        "/solid",
+        "/sys-design-core",
+        "/accessibility",
+        "/distributed-systems",
+        "/oop"
+      ]
+    },
+    {
       "id": "/essais",
       "group": 2,
       "name": "Essais",
@@ -254,6 +409,7 @@
         "/one-bit-better",
         "/take-a-walk",
         "/choice",
+        "/health",
         "/time"
       ]
     },
@@ -280,10 +436,9 @@
         "/travelling",
         "/truth",
         "/do-one-thing-at-a-time-and-do-it-well",
+        "/how-to-deal-with-pain",
         "/tao-te-ching",
         "/critical-thinking",
-        "/how-to-deal-with-pain",
-        "/pale-blue-dot",
         "/philosophical-implications-of-quantum-mechanics"
       ]
     },
@@ -466,15 +621,11 @@
       "name": "Natural Sciences",
       "links": [
         "/sciences",
-        "/akins-laws-of-spacecraft",
         "/astronomy",
-        "/books-natural",
+        "/books-sci",
         "/climate-change",
-        "/pale-blue-dot",
         "/sapolsky",
-        "/health",
         "/physics",
-        "/systems",
         "/history-of-technology",
         "/since-big-bang"
       ]
@@ -492,183 +643,10 @@
         "/psychology",
         "/sociology",
         "/freedom",
+        "/hijacked-minds",
         "/learning",
         "/metaphors",
-        "/systems-thinking",
-        "/hijacked-minds"
-      ]
-    },
-    {
-      "id": "/algorithms",
-      "group": 2,
-      "name": "Data Structures & Algorithms",
-      "links": [
-        "/tech",
-        "/backtrack",
-        "/bit",
-        "/data-structures",
-        "/greedy",
-        "/hash-table",
-        "/linked-list",
-        "/parallel-programming",
-        "/producer-consumer-problem",
-        "/sets",
-        "/sort",
-        "/array",
-        "/by-level",
-        "/dynamic",
-        "/graph",
-        "/heuristic",
-        "/pointers",
-        "/queue",
-        "/search",
-        "/stack",
-        "/string",
-        "/tree",
-        "/bayes",
-        "/lsm-trees"
-      ]
-    },
-    {
-      "id": "/computers",
-      "group": 2,
-      "name": "Computers",
-      "links": [
-        "/tech",
-        "/computers-from-scratch",
-        "/containers",
-        "/keyboard-shortcuts",
-        "/networks",
-        "/operating-systems"
-      ]
-    },
-    {
-      "id": "/databases",
-      "group": 2,
-      "name": "Databases",
-      "links": [
-        "/tech",
-        "/acid",
-        "/b-trees",
-        "/db-concepts",
-        "/db-data-structures",
-        "/db-mistakes",
-        "/leaderless-replication",
-        "/lsm-trees",
-        "/normalization",
-        "/partitioning",
-        "/replication",
-        "/single-leader",
-        "/sql-tips"
-      ]
-    },
-    {
-      "id": "/distributed-systems",
-      "group": 2,
-      "name": "Distributed Systems",
-      "links": [
-        "/tech",
-        "/bloom-filters-hash-graph-sync",
-        "/consistency-models",
-        "/consistent-hashing",
-        "/detect-a-node-failure",
-        "/distributed-design-patterns",
-        "/generate-a-unique-id",
-        "/google-sre-book",
-        "/kafka",
-        "/patterns-of-distributed-systems",
-        "/spark",
-        "/time-and-order",
-        "/system-design"
-      ]
-    },
-    {
-      "id": "/programming",
-      "group": 2,
-      "name": "Programming",
-      "links": [
-        "/tech",
-        "/c-and-python",
-        "/concurrency",
-        "/encodings",
-        "/for-new-programmers",
-        "/go-data-races",
-        "/the-tao-of-programming",
-        "/unicode",
-        "/oop",
-        "/projects"
-      ]
-    },
-    {
-      "id": "/security",
-      "group": 2,
-      "name": "Security",
-      "links": [
-        "/tech",
-        "/authentication",
-        "/authorization",
-        "/certificates",
-        "/cookies",
-        "/cors",
-        "/csrf",
-        "/openssl-encrypt",
-        "/public-key-cryptography",
-        "/security-heuristics",
-        "/store-passwords",
-        "/transport-layer-security",
-        "/xss"
-      ]
-    },
-    {
-      "id": "/software-engineering",
-      "group": 2,
-      "name": "Software Engineering",
-      "links": [
-        "/tech",
-        "/code-review",
-        "/core-concepts",
-        "/on-software",
-        "/software-analogies",
-        "/swe-misery",
-        "/the-joel-test"
-      ]
-    },
-    {
-      "id": "/system-design",
-      "group": 2,
-      "name": "System Design",
-      "links": [
-        "/tech",
-        "/api-design",
-        "/choose-boring-tech",
-        "/dependency-management",
-        "/design-patterns",
-        "/domain-driven-design",
-        "/hacker-laws",
-        "/minimal-tech",
-        "/solid",
-        "/sys-design-core",
-        "/akins-laws-of-spacecraft",
-        "/distributed-systems",
-        "/oop",
-        "/accessibility"
-      ]
-    },
-    {
-      "id": "/ux",
-      "group": 2,
-      "name": "UX",
-      "links": [
-        "/tech",
-        "/a-free-web-again",
-        "/accessibility",
-        "/evolution-of-computer-interfaces",
-        "/hijacked-minds",
-        "/natural-ux",
-        "/polished-pixels",
-        "/things-users-care",
-        "/usability-testing",
-        "/design"
+        "/systems-thinking"
       ]
     },
     {
@@ -758,6 +736,22 @@
       "links": [
         "/design",
         "/on-software"
+      ]
+    },
+    {
+      "id": "/ux",
+      "group": 3,
+      "name": "UX",
+      "links": [
+        "/design",
+        "/a-free-web-again",
+        "/accessibility",
+        "/evolution-of-computer-interfaces",
+        "/hijacked-minds",
+        "/natural-ux",
+        "/polished-pixels",
+        "/things-users-care",
+        "/usability-testing"
       ]
     },
     {
@@ -1134,642 +1128,6 @@
       ]
     },
     {
-      "id": "/balance",
-      "group": 3,
-      "name": "Balance",
-      "links": [
-        "/eudaimonia"
-      ]
-    },
-    {
-      "id": "/character",
-      "group": 3,
-      "name": "Character",
-      "links": [
-        "/eudaimonia",
-        "/freedom"
-      ]
-    },
-    {
-      "id": "/one-bit-better",
-      "group": 3,
-      "name": "One Bit Better",
-      "links": [
-        "/eudaimonia",
-        "/lightly-child"
-      ]
-    },
-    {
-      "id": "/take-a-walk",
-      "group": 3,
-      "name": "Take a walk",
-      "links": [
-        "/eudaimonia",
-        "/get-things-done",
-        "/problem-solving"
-      ]
-    },
-    {
-      "id": "/choice",
-      "group": 3,
-      "name": "Choice",
-      "links": [
-        "/eudaimonia",
-        "/criticism",
-        "/do-one-thing-at-a-time-and-do-it-well",
-        "/do-without-doing",
-        "/gratitude",
-        "/know-where-to-stop",
-        "/less",
-        "/possibility",
-        "/decision-making"
-      ]
-    },
-    {
-      "id": "/time",
-      "group": 3,
-      "name": "Time",
-      "links": [
-        "/eudaimonia",
-        "/death",
-        "/getting-old",
-        "/hard-times",
-        "/how-to-grow-old-russell",
-        "/on-the-shortness-of-life",
-        "/slow-down-time",
-        "/the-past",
-        "/earth-time-scale",
-        "/121st-century",
-        "/history",
-        "/since-big-bang"
-      ]
-    },
-    {
-      "id": "/all-is-one",
-      "group": 3,
-      "name": "All is One",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/aristotle",
-      "group": 3,
-      "name": "Aristotle",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/be-good-to-each-other-and-yourself",
-      "group": 3,
-      "name": "Be Good To Each Other And Yourself",
-      "links": [
-        "/philosophy",
-        "/essais",
-        "/work"
-      ]
-    },
-    {
-      "id": "/books-phil",
-      "group": 3,
-      "name": "Books",
-      "links": [
-        "/philosophy",
-        "/tao-te-ching"
-      ]
-    },
-    {
-      "id": "/concepts-in-greek-thought",
-      "group": 3,
-      "name": "Concepts In Greek Thought",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/enemies",
-      "group": 3,
-      "name": "Enemies",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/epicurus",
-      "group": 3,
-      "name": "Epicurus",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/free-will",
-      "group": 3,
-      "name": "Free Will",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/freedom",
-      "group": 3,
-      "name": "Freedom",
-      "links": [
-        "/philosophy",
-        "/character",
-        "/success-and-failure",
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/friends",
-      "group": 3,
-      "name": "Friends",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/good-and-evil",
-      "group": 3,
-      "name": "Good And Evil",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/marcus-aurelius",
-      "group": 3,
-      "name": "Marcus Aurelius",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/questions",
-      "group": 3,
-      "name": "Questions",
-      "links": [
-        "/philosophy",
-        "/critical-thinking"
-      ]
-    },
-    {
-      "id": "/stupidity",
-      "group": 3,
-      "name": "Stupidity",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/travelling",
-      "group": 3,
-      "name": "Travelling",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/truth",
-      "group": 3,
-      "name": "Truth",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/critical-thinking",
-      "group": 3,
-      "name": "Critical thinking",
-      "links": [
-        "/reasoning",
-        "/philosophy",
-        "/questions",
-        "/problem-solving"
-      ]
-    },
-    {
-      "id": "/decision-making",
-      "group": 3,
-      "name": "Decision Making",
-      "links": [
-        "/reasoning",
-        "/choice",
-        "/do-without-doing",
-        "/get-things-done"
-      ]
-    },
-    {
-      "id": "/get-things-done",
-      "group": 3,
-      "name": "Get Things Done",
-      "links": [
-        "/reasoning",
-        "/do-one-thing-at-a-time-and-do-it-well",
-        "/take-a-walk",
-        "/decision-making"
-      ]
-    },
-    {
-      "id": "/learning",
-      "group": 3,
-      "name": "Learning",
-      "links": [
-        "/reasoning",
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/mastery",
-      "group": 3,
-      "name": "Mastery",
-      "links": [
-        "/reasoning",
-        "/teamwork",
-        "/work"
-      ]
-    },
-    {
-      "id": "/problem-solving",
-      "group": 3,
-      "name": "Problem Solving",
-      "links": [
-        "/reasoning",
-        "/take-a-walk",
-        "/critical-thinking"
-      ]
-    },
-    {
-      "id": "/systems-thinking",
-      "group": 3,
-      "name": "Systems Thinking",
-      "links": [
-        "/reasoning",
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/career-advice",
-      "group": 3,
-      "name": "Career advice",
-      "links": [
-        "/work"
-      ]
-    },
-    {
-      "id": "/success-and-failure",
-      "group": 3,
-      "name": "Success And Failure",
-      "links": [
-        "/work",
-        "/if",
-        "/freedom"
-      ]
-    },
-    {
-      "id": "/teamwork",
-      "group": 3,
-      "name": "Teamwork",
-      "links": [
-        "/work",
-        "/do-one-thing-at-a-time-and-do-it-well",
-        "/do-without-doing",
-        "/mastery",
-        "/what-to-work-on"
-      ]
-    },
-    {
-      "id": "/what-to-work-on",
-      "group": 3,
-      "name": "What to work on?",
-      "links": [
-        "/work",
-        "/teamwork"
-      ]
-    },
-    {
-      "id": "/you-are-not-nameless",
-      "group": 3,
-      "name": "You Are Not Nameless",
-      "links": [
-        "/work"
-      ]
-    },
-    {
-      "id": "/driving",
-      "group": 3,
-      "name": "Driving",
-      "links": [
-        "/checklists",
-        "/used-cars"
-      ]
-    },
-    {
-      "id": "/outdoors",
-      "group": 3,
-      "name": "Outdoors",
-      "links": [
-        "/checklists"
-      ]
-    },
-    {
-      "id": "/used-cars",
-      "group": 3,
-      "name": "Used Cars",
-      "links": [
-        "/checklists",
-        "/driving"
-      ]
-    },
-    {
-      "id": "/dots",
-      "group": 3,
-      "name": "Dots",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/earth-time-scale",
-      "group": 3,
-      "name": "If the Earth is 45 years old",
-      "links": [
-        "/experiments",
-        "/time"
-      ]
-    },
-    {
-      "id": "/graph-3d",
-      "group": 3,
-      "name": "3D graph of all pages",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/typing-practice",
-      "group": 3,
-      "name": "Typing Practice",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/year-progress",
-      "group": 3,
-      "name": "Year Progress",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/bayes",
-      "group": 3,
-      "name": "Bayes' theorem",
-      "links": [
-        "/math",
-        "/probability-and-statistics",
-        "/algorithms"
-      ]
-    },
-    {
-      "id": "/counter-intuitive-math",
-      "group": 3,
-      "name": "Counter Intuitive Math",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/discrete-vs-continuous",
-      "group": 3,
-      "name": "Digital vs Analog",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/equations-that-changed-the-world",
-      "group": 3,
-      "name": "Equations That Changed The World",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/fourier-transform",
-      "group": 3,
-      "name": "Fourier Transform",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/laplace-transform",
-      "group": 3,
-      "name": "Laplace Transform",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/logic-proofs",
-      "group": 3,
-      "name": "Five ways to prove P=>Q",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/math-links",
-      "group": 3,
-      "name": "Math Links",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/normal-distribution",
-      "group": 3,
-      "name": "Normal Distribution",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/probability-and-statistics",
-      "group": 3,
-      "name": "Probability And Statistics",
-      "links": [
-        "/math",
-        "/datasets",
-        "/bayes"
-      ]
-    },
-    {
-      "id": "/akins-laws-of-spacecraft",
-      "group": 3,
-      "name": "Akins Laws Of Spacecraft",
-      "links": [
-        "/natural-sciences",
-        "/hacker-laws",
-        "/polished-pixels",
-        "/system-design"
-      ]
-    },
-    {
-      "id": "/astronomy",
-      "group": 3,
-      "name": "Astronomy",
-      "links": [
-        "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/books-natural",
-      "group": 3,
-      "name": "Books",
-      "links": [
-        "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/climate-change",
-      "group": 3,
-      "name": "Climate Change",
-      "links": [
-        "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/pale-blue-dot",
-      "group": 3,
-      "name": "Pale Blue Dot",
-      "links": [
-        "/natural-sciences",
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/sapolsky",
-      "group": 3,
-      "name": "Sapolsky",
-      "links": [
-        "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/health",
-      "group": 3,
-      "name": "Health",
-      "links": [
-        "/natural-sciences",
-        "/drowning-does-not-look-dramatic",
-        "/exercise",
-        "/how-to-deal-with-pain",
-        "/sleep"
-      ]
-    },
-    {
-      "id": "/physics",
-      "group": 3,
-      "name": "Physics",
-      "links": [
-        "/natural-sciences",
-        "/classical-physics",
-        "/feynman-lectures",
-        "/inertia",
-        "/maxwell-equations",
-        "/philosophical-implications-of-quantum-mechanics"
-      ]
-    },
-    {
-      "id": "/systems",
-      "group": 3,
-      "name": "Systems",
-      "links": [
-        "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/books-social",
-      "group": 3,
-      "name": "Books",
-      "links": [
-        "/social-sciences"
-      ]
-    },
-    {
-      "id": "/economics",
-      "group": 3,
-      "name": "Economics",
-      "links": [
-        "/social-sciences",
-        "/how-to-gain-wealth"
-      ]
-    },
-    {
-      "id": "/history",
-      "group": 3,
-      "name": "History",
-      "links": [
-        "/social-sciences",
-        "/121st-century",
-        "/farming-trap",
-        "/history-of-technology",
-        "/since-big-bang",
-        "/time"
-      ]
-    },
-    {
-      "id": "/politics",
-      "group": 3,
-      "name": "Politics",
-      "links": [
-        "/social-sciences",
-        "/chomsky",
-        "/negotiations",
-        "/obedience",
-        "/social-change",
-        "/the-art-of-war",
-        "/the-triumph-of-stupidity",
-        "/ursula-guin-address",
-        "/who-goes-nazi",
-        "/tao-te-ching"
-      ]
-    },
-    {
-      "id": "/psychology",
-      "group": 3,
-      "name": "Psychology",
-      "links": [
-        "/social-sciences",
-        "/cognitive-biases",
-        "/emotions",
-        "/habits",
-        "/happiness",
-        "/manipulation",
-        "/parenting",
-        "/procrastination",
-        "/spot-a-liar",
-        "/stress",
-        "/inertia"
-      ]
-    },
-    {
-      "id": "/sociology",
-      "group": 3,
-      "name": "Sociology",
-      "links": [
-        "/social-sciences",
-        "/being-poor",
-        "/social-groups",
-        "/social-media"
-      ]
-    },
-    {
       "id": "/backtrack",
       "group": 3,
       "name": "Backtrack",
@@ -2042,7 +1400,8 @@
       "group": 3,
       "name": "Keyboard Shortcuts",
       "links": [
-        "/computers"
+        "/computers",
+        "/accessibility"
       ]
     },
     {
@@ -2458,7 +1817,7 @@
       "group": 3,
       "name": "Code Review",
       "links": [
-        "/software-engineering"
+        "/software-development"
       ]
     },
     {
@@ -2466,7 +1825,7 @@
       "group": 3,
       "name": "Core Concepts",
       "links": [
-        "/software-engineering"
+        "/software-development"
       ]
     },
     {
@@ -2474,7 +1833,7 @@
       "group": 3,
       "name": "On Software",
       "links": [
-        "/software-engineering",
+        "/software-development",
         "/ship-it"
       ]
     },
@@ -2483,15 +1842,15 @@
       "group": 3,
       "name": "Software Analogies",
       "links": [
-        "/software-engineering"
+        "/software-development"
       ]
     },
     {
       "id": "/swe-misery",
       "group": 3,
-      "name": "Swe Misery",
+      "name": "How to be miserable",
       "links": [
-        "/software-engineering"
+        "/software-development"
       ]
     },
     {
@@ -2499,7 +1858,16 @@
       "group": 3,
       "name": "The Joel Test",
       "links": [
-        "/software-engineering"
+        "/software-development"
+      ]
+    },
+    {
+      "id": "/akins-laws-of-spacecraft",
+      "group": 3,
+      "name": "Akins Laws Of Spacecraft",
+      "links": [
+        "/system-design",
+        "/hacker-laws"
       ]
     },
     {
@@ -2576,8 +1944,619 @@
       ]
     },
     {
-      "id": "/a-free-web-again",
+      "id": "/balance",
       "group": 3,
+      "name": "Balance",
+      "links": [
+        "/eudaimonia"
+      ]
+    },
+    {
+      "id": "/character",
+      "group": 3,
+      "name": "Character",
+      "links": [
+        "/eudaimonia",
+        "/freedom"
+      ]
+    },
+    {
+      "id": "/one-bit-better",
+      "group": 3,
+      "name": "One Bit Better",
+      "links": [
+        "/eudaimonia",
+        "/lightly-child"
+      ]
+    },
+    {
+      "id": "/take-a-walk",
+      "group": 3,
+      "name": "Take a walk",
+      "links": [
+        "/eudaimonia",
+        "/get-things-done",
+        "/problem-solving"
+      ]
+    },
+    {
+      "id": "/choice",
+      "group": 3,
+      "name": "Choice",
+      "links": [
+        "/eudaimonia",
+        "/criticism",
+        "/do-one-thing-at-a-time-and-do-it-well",
+        "/do-without-doing",
+        "/gratitude",
+        "/know-where-to-stop",
+        "/less",
+        "/possibility",
+        "/decision-making"
+      ]
+    },
+    {
+      "id": "/health",
+      "group": 3,
+      "name": "Health",
+      "links": [
+        "/eudaimonia",
+        "/drowning-does-not-look-dramatic",
+        "/exercise",
+        "/how-to-deal-with-pain",
+        "/sleep"
+      ]
+    },
+    {
+      "id": "/time",
+      "group": 3,
+      "name": "Time",
+      "links": [
+        "/eudaimonia",
+        "/death",
+        "/getting-old",
+        "/hard-times",
+        "/how-to-grow-old-russell",
+        "/on-the-shortness-of-life",
+        "/pale-blue-dot",
+        "/slow-down-time",
+        "/the-past",
+        "/earth-time-scale",
+        "/121st-century",
+        "/history",
+        "/since-big-bang"
+      ]
+    },
+    {
+      "id": "/all-is-one",
+      "group": 3,
+      "name": "All is One",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/aristotle",
+      "group": 3,
+      "name": "Aristotle",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/be-good-to-each-other-and-yourself",
+      "group": 3,
+      "name": "Be Good To Each Other And Yourself",
+      "links": [
+        "/philosophy",
+        "/essais",
+        "/work"
+      ]
+    },
+    {
+      "id": "/books-phil",
+      "group": 3,
+      "name": "Books",
+      "links": [
+        "/philosophy",
+        "/tao-te-ching"
+      ]
+    },
+    {
+      "id": "/concepts-in-greek-thought",
+      "group": 3,
+      "name": "Concepts In Greek Thought",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/enemies",
+      "group": 3,
+      "name": "Enemies",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/epicurus",
+      "group": 3,
+      "name": "Epicurus",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/free-will",
+      "group": 3,
+      "name": "Free Will",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/freedom",
+      "group": 3,
+      "name": "Freedom",
+      "links": [
+        "/philosophy",
+        "/character",
+        "/success-and-failure",
+        "/social-sciences"
+      ]
+    },
+    {
+      "id": "/friends",
+      "group": 3,
+      "name": "Friends",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/good-and-evil",
+      "group": 3,
+      "name": "Good And Evil",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/marcus-aurelius",
+      "group": 3,
+      "name": "Marcus Aurelius",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/questions",
+      "group": 3,
+      "name": "Questions",
+      "links": [
+        "/philosophy",
+        "/critical-thinking"
+      ]
+    },
+    {
+      "id": "/stupidity",
+      "group": 3,
+      "name": "Stupidity",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/travelling",
+      "group": 3,
+      "name": "Travelling",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/truth",
+      "group": 3,
+      "name": "Truth",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/critical-thinking",
+      "group": 3,
+      "name": "Critical thinking",
+      "links": [
+        "/reasoning",
+        "/philosophy",
+        "/questions",
+        "/problem-solving"
+      ]
+    },
+    {
+      "id": "/decision-making",
+      "group": 3,
+      "name": "Decision Making",
+      "links": [
+        "/reasoning",
+        "/choice",
+        "/do-without-doing",
+        "/get-things-done"
+      ]
+    },
+    {
+      "id": "/get-things-done",
+      "group": 3,
+      "name": "Get Things Done",
+      "links": [
+        "/reasoning",
+        "/do-one-thing-at-a-time-and-do-it-well",
+        "/take-a-walk",
+        "/decision-making"
+      ]
+    },
+    {
+      "id": "/learning",
+      "group": 3,
+      "name": "Learning",
+      "links": [
+        "/reasoning",
+        "/social-sciences"
+      ]
+    },
+    {
+      "id": "/mastery",
+      "group": 3,
+      "name": "Mastery",
+      "links": [
+        "/reasoning",
+        "/teamwork",
+        "/work"
+      ]
+    },
+    {
+      "id": "/problem-solving",
+      "group": 3,
+      "name": "Problem Solving",
+      "links": [
+        "/reasoning",
+        "/take-a-walk",
+        "/critical-thinking"
+      ]
+    },
+    {
+      "id": "/systems-thinking",
+      "group": 3,
+      "name": "Systems Thinking",
+      "links": [
+        "/reasoning",
+        "/social-sciences"
+      ]
+    },
+    {
+      "id": "/career-advice",
+      "group": 3,
+      "name": "Career advice",
+      "links": [
+        "/work"
+      ]
+    },
+    {
+      "id": "/success-and-failure",
+      "group": 3,
+      "name": "Success And Failure",
+      "links": [
+        "/work",
+        "/if",
+        "/freedom"
+      ]
+    },
+    {
+      "id": "/teamwork",
+      "group": 3,
+      "name": "Teamwork",
+      "links": [
+        "/work",
+        "/do-one-thing-at-a-time-and-do-it-well",
+        "/do-without-doing",
+        "/mastery",
+        "/what-to-work-on"
+      ]
+    },
+    {
+      "id": "/what-to-work-on",
+      "group": 3,
+      "name": "What to work on?",
+      "links": [
+        "/work",
+        "/teamwork"
+      ]
+    },
+    {
+      "id": "/you-are-not-nameless",
+      "group": 3,
+      "name": "You Are Not Nameless",
+      "links": [
+        "/work"
+      ]
+    },
+    {
+      "id": "/driving",
+      "group": 3,
+      "name": "Driving",
+      "links": [
+        "/checklists",
+        "/used-cars"
+      ]
+    },
+    {
+      "id": "/outdoors",
+      "group": 3,
+      "name": "Outdoors",
+      "links": [
+        "/checklists"
+      ]
+    },
+    {
+      "id": "/used-cars",
+      "group": 3,
+      "name": "Used Cars",
+      "links": [
+        "/checklists",
+        "/driving"
+      ]
+    },
+    {
+      "id": "/dots",
+      "group": 3,
+      "name": "Dots",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/earth-time-scale",
+      "group": 3,
+      "name": "If the Earth is 45 years old",
+      "links": [
+        "/experiments",
+        "/time",
+        "/climate-change"
+      ]
+    },
+    {
+      "id": "/graph-3d",
+      "group": 3,
+      "name": "3D graph of all pages",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/typing-practice",
+      "group": 3,
+      "name": "Typing Practice",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/year-progress",
+      "group": 3,
+      "name": "Year Progress",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/bayes",
+      "group": 3,
+      "name": "Bayes' theorem",
+      "links": [
+        "/math",
+        "/algorithms",
+        "/probability-and-statistics"
+      ]
+    },
+    {
+      "id": "/counter-intuitive-math",
+      "group": 3,
+      "name": "Counter Intuitive Math",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/discrete-vs-continuous",
+      "group": 3,
+      "name": "Digital vs Analog",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/equations-that-changed-the-world",
+      "group": 3,
+      "name": "Equations That Changed The World",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/fourier-transform",
+      "group": 3,
+      "name": "Fourier Transform",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/laplace-transform",
+      "group": 3,
+      "name": "Laplace Transform",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/logic-proofs",
+      "group": 3,
+      "name": "Five ways to prove P=>Q",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/math-links",
+      "group": 3,
+      "name": "Math Links",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/normal-distribution",
+      "group": 3,
+      "name": "Normal Distribution",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/probability-and-statistics",
+      "group": 3,
+      "name": "Probability And Statistics",
+      "links": [
+        "/math",
+        "/datasets",
+        "/bayes"
+      ]
+    },
+    {
+      "id": "/astronomy",
+      "group": 3,
+      "name": "Astronomy",
+      "links": [
+        "/natural-sciences"
+      ]
+    },
+    {
+      "id": "/books-sci",
+      "group": 3,
+      "name": "Books",
+      "links": [
+        "/natural-sciences"
+      ]
+    },
+    {
+      "id": "/climate-change",
+      "group": 3,
+      "name": "Climate Change",
+      "links": [
+        "/natural-sciences",
+        "/earth-time-scale"
+      ]
+    },
+    {
+      "id": "/sapolsky",
+      "group": 3,
+      "name": "Sapolsky",
+      "links": [
+        "/natural-sciences"
+      ]
+    },
+    {
+      "id": "/physics",
+      "group": 3,
+      "name": "Physics",
+      "links": [
+        "/natural-sciences",
+        "/classical-physics",
+        "/feynman-lectures",
+        "/inertia",
+        "/maxwell-equations",
+        "/philosophical-implications-of-quantum-mechanics"
+      ]
+    },
+    {
+      "id": "/books-social",
+      "group": 3,
+      "name": "Books",
+      "links": [
+        "/social-sciences"
+      ]
+    },
+    {
+      "id": "/economics",
+      "group": 3,
+      "name": "Economics",
+      "links": [
+        "/social-sciences",
+        "/how-to-gain-wealth"
+      ]
+    },
+    {
+      "id": "/history",
+      "group": 3,
+      "name": "History",
+      "links": [
+        "/social-sciences",
+        "/121st-century",
+        "/farming-trap",
+        "/history-of-technology",
+        "/since-big-bang",
+        "/time"
+      ]
+    },
+    {
+      "id": "/politics",
+      "group": 3,
+      "name": "Politics",
+      "links": [
+        "/social-sciences",
+        "/chomsky",
+        "/negotiations",
+        "/obedience",
+        "/social-change",
+        "/the-art-of-war",
+        "/the-triumph-of-stupidity",
+        "/ursula-guin-address",
+        "/who-goes-nazi",
+        "/tao-te-ching"
+      ]
+    },
+    {
+      "id": "/psychology",
+      "group": 3,
+      "name": "Psychology",
+      "links": [
+        "/social-sciences",
+        "/cognitive-biases",
+        "/emotions",
+        "/habits",
+        "/happiness",
+        "/manipulation",
+        "/parenting",
+        "/procrastination",
+        "/spot-a-liar",
+        "/stress",
+        "/inertia"
+      ]
+    },
+    {
+      "id": "/sociology",
+      "group": 3,
+      "name": "Sociology",
+      "links": [
+        "/social-sciences",
+        "/being-poor",
+        "/social-groups",
+        "/social-media"
+      ]
+    },
+    {
+      "id": "/a-free-web-again",
+      "group": 4,
       "name": "A Free Web Again",
       "links": [
         "/ux"
@@ -2585,16 +2564,17 @@
     },
     {
       "id": "/accessibility",
-      "group": 3,
+      "group": 4,
       "name": "Accessible Software",
       "links": [
         "/ux",
+        "/keyboard-shortcuts",
         "/system-design"
       ]
     },
     {
       "id": "/evolution-of-computer-interfaces",
-      "group": 3,
+      "group": 4,
       "name": "Evolution Of Computer Interfaces",
       "links": [
         "/ux"
@@ -2602,7 +2582,7 @@
     },
     {
       "id": "/hijacked-minds",
-      "group": 3,
+      "group": 4,
       "name": "How Technology is Hijacking Your Mind",
       "links": [
         "/ux",
@@ -2611,7 +2591,7 @@
     },
     {
       "id": "/natural-ux",
-      "group": 3,
+      "group": 4,
       "name": "Natural UX",
       "links": [
         "/ux",
@@ -2620,17 +2600,16 @@
     },
     {
       "id": "/polished-pixels",
-      "group": 3,
+      "group": 4,
       "name": "Polished Pixels",
       "links": [
         "/ux",
-        "/design",
-        "/akins-laws-of-spacecraft"
+        "/design"
       ]
     },
     {
       "id": "/things-users-care",
-      "group": 3,
+      "group": 4,
       "name": "Things end users care about but programmers don't",
       "links": [
         "/ux"
@@ -2638,423 +2617,10 @@
     },
     {
       "id": "/usability-testing",
-      "group": 3,
+      "group": 4,
       "name": "Why You Only Need to Test with 5 Users",
       "links": [
         "/ux"
-      ]
-    },
-    {
-      "id": "/criticism",
-      "group": 4,
-      "name": "Criticism",
-      "links": [
-        "/choice"
-      ]
-    },
-    {
-      "id": "/do-one-thing-at-a-time-and-do-it-well",
-      "group": 4,
-      "name": "Do One Thing At A Time And Do It Well",
-      "links": [
-        "/choice",
-        "/lightly-child",
-        "/get-things-done",
-        "/teamwork",
-        "/work",
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/do-without-doing",
-      "group": 4,
-      "name": "Do without doing - Wu Wei 無爲",
-      "links": [
-        "/choice",
-        "/decision-making",
-        "/teamwork"
-      ]
-    },
-    {
-      "id": "/gratitude",
-      "group": 4,
-      "name": "Gratitude",
-      "links": [
-        "/choice"
-      ]
-    },
-    {
-      "id": "/know-where-to-stop",
-      "group": 4,
-      "name": "Know Where To Stop",
-      "links": [
-        "/choice",
-        "/wind-and-rain"
-      ]
-    },
-    {
-      "id": "/less",
-      "group": 4,
-      "name": "Less",
-      "links": [
-        "/choice"
-      ]
-    },
-    {
-      "id": "/possibility",
-      "group": 4,
-      "name": "Possibility",
-      "links": [
-        "/choice"
-      ]
-    },
-    {
-      "id": "/death",
-      "group": 4,
-      "name": "Death",
-      "links": [
-        "/time"
-      ]
-    },
-    {
-      "id": "/getting-old",
-      "group": 4,
-      "name": "Getting Old",
-      "links": [
-        "/time"
-      ]
-    },
-    {
-      "id": "/hard-times",
-      "group": 4,
-      "name": "Hard Times",
-      "links": [
-        "/time",
-        "/how-to-deal-with-pain"
-      ]
-    },
-    {
-      "id": "/how-to-grow-old-russell",
-      "group": 4,
-      "name": "How to Grow Old, by Bertrand Russell",
-      "links": [
-        "/time",
-        "/essais"
-      ]
-    },
-    {
-      "id": "/on-the-shortness-of-life",
-      "group": 4,
-      "name": "Life is not short but we waste it",
-      "links": [
-        "/time"
-      ]
-    },
-    {
-      "id": "/slow-down-time",
-      "group": 4,
-      "name": "Deepen your days",
-      "links": [
-        "/time",
-        "/essais"
-      ]
-    },
-    {
-      "id": "/the-past",
-      "group": 4,
-      "name": "Learn and move on",
-      "links": [
-        "/time"
-      ]
-    },
-    {
-      "id": "/drowning-does-not-look-dramatic",
-      "group": 4,
-      "name": "Drowning Does Not Look Dramatic",
-      "links": [
-        "/health"
-      ]
-    },
-    {
-      "id": "/exercise",
-      "group": 4,
-      "name": "Exercise",
-      "links": [
-        "/health"
-      ]
-    },
-    {
-      "id": "/how-to-deal-with-pain",
-      "group": 4,
-      "name": "How to deal with Extreme Physical Pain",
-      "links": [
-        "/health",
-        "/hard-times",
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/sleep",
-      "group": 4,
-      "name": "How to sleep better?",
-      "links": [
-        "/health"
-      ]
-    },
-    {
-      "id": "/classical-physics",
-      "group": 4,
-      "name": "Classical Physics",
-      "links": [
-        "/physics",
-        "/feynman-lectures",
-        "/maxwell-equations"
-      ]
-    },
-    {
-      "id": "/feynman-lectures",
-      "group": 4,
-      "name": "Feynman Lectures",
-      "links": [
-        "/physics",
-        "/classical-physics"
-      ]
-    },
-    {
-      "id": "/inertia",
-      "group": 4,
-      "name": "Inertia",
-      "links": [
-        "/physics",
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/maxwell-equations",
-      "group": 4,
-      "name": "Maxwell Equations",
-      "links": [
-        "/physics",
-        "/classical-physics"
-      ]
-    },
-    {
-      "id": "/philosophical-implications-of-quantum-mechanics",
-      "group": 4,
-      "name": "Philosophical Implications Of Quantum Mechanics",
-      "links": [
-        "/physics",
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/how-to-gain-wealth",
-      "group": 4,
-      "name": "How To Gain Wealth",
-      "links": [
-        "/economics"
-      ]
-    },
-    {
-      "id": "/121st-century",
-      "group": 4,
-      "name": "121st century",
-      "links": [
-        "/history",
-        "/time"
-      ]
-    },
-    {
-      "id": "/farming-trap",
-      "group": 4,
-      "name": "Farming Trap",
-      "links": [
-        "/history",
-        "/essais"
-      ]
-    },
-    {
-      "id": "/history-of-technology",
-      "group": 4,
-      "name": "History Of Technology",
-      "links": [
-        "/history",
-        "/lists",
-        "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/since-big-bang",
-      "group": 4,
-      "name": "Some events in the last 14 billion years",
-      "links": [
-        "/history",
-        "/time",
-        "/lists",
-        "/natural-sciences"
-      ]
-    },
-    {
-      "id": "/chomsky",
-      "group": 4,
-      "name": "Chomsky",
-      "links": [
-        "/politics"
-      ]
-    },
-    {
-      "id": "/negotiations",
-      "group": 4,
-      "name": "Negotiations",
-      "links": [
-        "/politics"
-      ]
-    },
-    {
-      "id": "/obedience",
-      "group": 4,
-      "name": "Obedience",
-      "links": [
-        "/politics"
-      ]
-    },
-    {
-      "id": "/social-change",
-      "group": 4,
-      "name": "Social Change",
-      "links": [
-        "/politics"
-      ]
-    },
-    {
-      "id": "/the-art-of-war",
-      "group": 4,
-      "name": "The Art of War",
-      "links": [
-        "/politics"
-      ]
-    },
-    {
-      "id": "/the-triumph-of-stupidity",
-      "group": 4,
-      "name": "The Triumph of Stupidity, Bertrand Russell",
-      "links": [
-        "/politics",
-        "/essais"
-      ]
-    },
-    {
-      "id": "/ursula-guin-address",
-      "group": 4,
-      "name": "A Left-Handed Commencement Address",
-      "links": [
-        "/politics"
-      ]
-    },
-    {
-      "id": "/who-goes-nazi",
-      "group": 4,
-      "name": "Who Goes Nazi",
-      "links": [
-        "/politics",
-        "/essais"
-      ]
-    },
-    {
-      "id": "/cognitive-biases",
-      "group": 4,
-      "name": "Cognitive Biases",
-      "links": [
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/emotions",
-      "group": 4,
-      "name": "Emotions",
-      "links": [
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/habits",
-      "group": 4,
-      "name": "Habits",
-      "links": [
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/happiness",
-      "group": 4,
-      "name": "Happiness",
-      "links": [
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/manipulation",
-      "group": 4,
-      "name": "Manipulation",
-      "links": [
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/parenting",
-      "group": 4,
-      "name": "Parenting",
-      "links": [
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/procrastination",
-      "group": 4,
-      "name": "Procrastination",
-      "links": [
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/spot-a-liar",
-      "group": 4,
-      "name": "Spot A Liar",
-      "links": [
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/stress",
-      "group": 4,
-      "name": "Stress",
-      "links": [
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/being-poor",
-      "group": 4,
-      "name": "Being Poor",
-      "links": [
-        "/sociology",
-        "/essais"
-      ]
-    },
-    {
-      "id": "/social-groups",
-      "group": 4,
-      "name": "Social Groups",
-      "links": [
-        "/sociology"
-      ]
-    },
-    {
-      "id": "/social-media",
-      "group": 4,
-      "name": "Social Media",
-      "links": [
-        "/sociology"
       ]
     },
     {
@@ -3857,6 +3423,425 @@
       ]
     },
     {
+      "id": "/criticism",
+      "group": 4,
+      "name": "Criticism",
+      "links": [
+        "/choice"
+      ]
+    },
+    {
+      "id": "/do-one-thing-at-a-time-and-do-it-well",
+      "group": 4,
+      "name": "Do One Thing At A Time And Do It Well",
+      "links": [
+        "/choice",
+        "/lightly-child",
+        "/get-things-done",
+        "/teamwork",
+        "/work",
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/do-without-doing",
+      "group": 4,
+      "name": "Do without doing - Wu Wei 無爲",
+      "links": [
+        "/choice",
+        "/decision-making",
+        "/teamwork"
+      ]
+    },
+    {
+      "id": "/gratitude",
+      "group": 4,
+      "name": "Gratitude",
+      "links": [
+        "/choice"
+      ]
+    },
+    {
+      "id": "/know-where-to-stop",
+      "group": 4,
+      "name": "Know Where To Stop",
+      "links": [
+        "/choice",
+        "/wind-and-rain"
+      ]
+    },
+    {
+      "id": "/less",
+      "group": 4,
+      "name": "Less",
+      "links": [
+        "/choice"
+      ]
+    },
+    {
+      "id": "/possibility",
+      "group": 4,
+      "name": "Possibility",
+      "links": [
+        "/choice"
+      ]
+    },
+    {
+      "id": "/drowning-does-not-look-dramatic",
+      "group": 4,
+      "name": "Drowning Does Not Look Dramatic",
+      "links": [
+        "/health"
+      ]
+    },
+    {
+      "id": "/exercise",
+      "group": 4,
+      "name": "Exercise",
+      "links": [
+        "/health"
+      ]
+    },
+    {
+      "id": "/how-to-deal-with-pain",
+      "group": 4,
+      "name": "How to deal with Extreme Physical Pain",
+      "links": [
+        "/health",
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/sleep",
+      "group": 4,
+      "name": "How to sleep better?",
+      "links": [
+        "/health"
+      ]
+    },
+    {
+      "id": "/death",
+      "group": 4,
+      "name": "Death",
+      "links": [
+        "/time"
+      ]
+    },
+    {
+      "id": "/getting-old",
+      "group": 4,
+      "name": "Getting Old",
+      "links": [
+        "/time"
+      ]
+    },
+    {
+      "id": "/hard-times",
+      "group": 4,
+      "name": "Hard Times",
+      "links": [
+        "/time"
+      ]
+    },
+    {
+      "id": "/how-to-grow-old-russell",
+      "group": 4,
+      "name": "How to Grow Old, by Bertrand Russell",
+      "links": [
+        "/time",
+        "/essais"
+      ]
+    },
+    {
+      "id": "/on-the-shortness-of-life",
+      "group": 4,
+      "name": "Life is not short but we waste it",
+      "links": [
+        "/time"
+      ]
+    },
+    {
+      "id": "/pale-blue-dot",
+      "group": 4,
+      "name": "Pale Blue Dot",
+      "links": [
+        "/time"
+      ]
+    },
+    {
+      "id": "/slow-down-time",
+      "group": 4,
+      "name": "Deepen your days",
+      "links": [
+        "/time",
+        "/essais"
+      ]
+    },
+    {
+      "id": "/the-past",
+      "group": 4,
+      "name": "Learn and move on",
+      "links": [
+        "/time"
+      ]
+    },
+    {
+      "id": "/classical-physics",
+      "group": 4,
+      "name": "Classical Physics",
+      "links": [
+        "/physics",
+        "/feynman-lectures",
+        "/maxwell-equations"
+      ]
+    },
+    {
+      "id": "/feynman-lectures",
+      "group": 4,
+      "name": "Feynman Lectures",
+      "links": [
+        "/physics",
+        "/classical-physics"
+      ]
+    },
+    {
+      "id": "/inertia",
+      "group": 4,
+      "name": "Inertia",
+      "links": [
+        "/physics",
+        "/psychology"
+      ]
+    },
+    {
+      "id": "/maxwell-equations",
+      "group": 4,
+      "name": "Maxwell Equations",
+      "links": [
+        "/physics",
+        "/classical-physics"
+      ]
+    },
+    {
+      "id": "/philosophical-implications-of-quantum-mechanics",
+      "group": 4,
+      "name": "Philosophical Implications Of Quantum Mechanics",
+      "links": [
+        "/physics",
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/how-to-gain-wealth",
+      "group": 4,
+      "name": "How To Gain Wealth",
+      "links": [
+        "/economics"
+      ]
+    },
+    {
+      "id": "/121st-century",
+      "group": 4,
+      "name": "121st century",
+      "links": [
+        "/history",
+        "/time"
+      ]
+    },
+    {
+      "id": "/farming-trap",
+      "group": 4,
+      "name": "Farming Trap",
+      "links": [
+        "/history",
+        "/essais"
+      ]
+    },
+    {
+      "id": "/history-of-technology",
+      "group": 4,
+      "name": "History Of Technology",
+      "links": [
+        "/history",
+        "/lists",
+        "/natural-sciences"
+      ]
+    },
+    {
+      "id": "/since-big-bang",
+      "group": 4,
+      "name": "Some events in the last 14 billion years",
+      "links": [
+        "/history",
+        "/time",
+        "/lists",
+        "/natural-sciences"
+      ]
+    },
+    {
+      "id": "/chomsky",
+      "group": 4,
+      "name": "Chomsky",
+      "links": [
+        "/politics"
+      ]
+    },
+    {
+      "id": "/negotiations",
+      "group": 4,
+      "name": "Negotiations",
+      "links": [
+        "/politics"
+      ]
+    },
+    {
+      "id": "/obedience",
+      "group": 4,
+      "name": "Obedience",
+      "links": [
+        "/politics"
+      ]
+    },
+    {
+      "id": "/social-change",
+      "group": 4,
+      "name": "Social Change",
+      "links": [
+        "/politics"
+      ]
+    },
+    {
+      "id": "/the-art-of-war",
+      "group": 4,
+      "name": "The Art of War",
+      "links": [
+        "/politics"
+      ]
+    },
+    {
+      "id": "/the-triumph-of-stupidity",
+      "group": 4,
+      "name": "The Triumph of Stupidity, Bertrand Russell",
+      "links": [
+        "/politics",
+        "/essais"
+      ]
+    },
+    {
+      "id": "/ursula-guin-address",
+      "group": 4,
+      "name": "A Left-Handed Commencement Address",
+      "links": [
+        "/politics"
+      ]
+    },
+    {
+      "id": "/who-goes-nazi",
+      "group": 4,
+      "name": "Who Goes Nazi",
+      "links": [
+        "/politics",
+        "/essais"
+      ]
+    },
+    {
+      "id": "/cognitive-biases",
+      "group": 4,
+      "name": "Cognitive Biases",
+      "links": [
+        "/psychology"
+      ]
+    },
+    {
+      "id": "/emotions",
+      "group": 4,
+      "name": "Emotions",
+      "links": [
+        "/psychology"
+      ]
+    },
+    {
+      "id": "/habits",
+      "group": 4,
+      "name": "Habits",
+      "links": [
+        "/psychology"
+      ]
+    },
+    {
+      "id": "/happiness",
+      "group": 4,
+      "name": "Happiness",
+      "links": [
+        "/psychology"
+      ]
+    },
+    {
+      "id": "/manipulation",
+      "group": 4,
+      "name": "Manipulation",
+      "links": [
+        "/psychology"
+      ]
+    },
+    {
+      "id": "/parenting",
+      "group": 4,
+      "name": "Parenting",
+      "links": [
+        "/psychology"
+      ]
+    },
+    {
+      "id": "/procrastination",
+      "group": 4,
+      "name": "Procrastination",
+      "links": [
+        "/psychology"
+      ]
+    },
+    {
+      "id": "/spot-a-liar",
+      "group": 4,
+      "name": "Spot A Liar",
+      "links": [
+        "/psychology"
+      ]
+    },
+    {
+      "id": "/stress",
+      "group": 4,
+      "name": "Stress",
+      "links": [
+        "/psychology"
+      ]
+    },
+    {
+      "id": "/being-poor",
+      "group": 4,
+      "name": "Being Poor",
+      "links": [
+        "/sociology",
+        "/essais"
+      ]
+    },
+    {
+      "id": "/social-groups",
+      "group": 4,
+      "name": "Social Groups",
+      "links": [
+        "/sociology"
+      ]
+    },
+    {
+      "id": "/social-media",
+      "group": 4,
+      "name": "Social Media",
+      "links": [
+        "/sociology"
+      ]
+    },
+    {
       "id": "/delete-tree-node",
       "group": 5,
       "name": "Delete Tree Node",
@@ -3945,6 +3930,10 @@
     },
     {
       "source": "/root",
+      "target": "/engineering"
+    },
+    {
+      "source": "/root",
       "target": "/ideas"
     },
     {
@@ -3958,10 +3947,6 @@
     {
       "source": "/root",
       "target": "/sciences"
-    },
-    {
-      "source": "/root",
-      "target": "/tech"
     },
     {
       "source": "/arts",
@@ -3994,6 +3979,38 @@
     {
       "source": "/arts",
       "target": "/siir"
+    },
+    {
+      "source": "/engineering",
+      "target": "/algorithms"
+    },
+    {
+      "source": "/engineering",
+      "target": "/computers"
+    },
+    {
+      "source": "/engineering",
+      "target": "/databases"
+    },
+    {
+      "source": "/engineering",
+      "target": "/distributed-systems"
+    },
+    {
+      "source": "/engineering",
+      "target": "/programming"
+    },
+    {
+      "source": "/engineering",
+      "target": "/security"
+    },
+    {
+      "source": "/engineering",
+      "target": "/software-development"
+    },
+    {
+      "source": "/engineering",
+      "target": "/system-design"
     },
     {
       "source": "/ideas",
@@ -4084,42 +4101,6 @@
       "target": "/social-sciences"
     },
     {
-      "source": "/tech",
-      "target": "/algorithms"
-    },
-    {
-      "source": "/tech",
-      "target": "/computers"
-    },
-    {
-      "source": "/tech",
-      "target": "/databases"
-    },
-    {
-      "source": "/tech",
-      "target": "/distributed-systems"
-    },
-    {
-      "source": "/tech",
-      "target": "/programming"
-    },
-    {
-      "source": "/tech",
-      "target": "/security"
-    },
-    {
-      "source": "/tech",
-      "target": "/software-engineering"
-    },
-    {
-      "source": "/tech",
-      "target": "/system-design"
-    },
-    {
-      "source": "/tech",
-      "target": "/ux"
-    },
-    {
       "source": "/architecture",
       "target": "/urban-planning"
     },
@@ -4162,6 +4143,10 @@
     {
       "source": "/design",
       "target": "/ship-it"
+    },
+    {
+      "source": "/design",
+      "target": "/ux"
     },
     {
       "source": "/languages",
@@ -4342,274 +4327,6 @@
     {
       "source": "/siir",
       "target": "/yunus-emre"
-    },
-    {
-      "source": "/eudaimonia",
-      "target": "/balance"
-    },
-    {
-      "source": "/eudaimonia",
-      "target": "/character"
-    },
-    {
-      "source": "/eudaimonia",
-      "target": "/one-bit-better"
-    },
-    {
-      "source": "/eudaimonia",
-      "target": "/take-a-walk"
-    },
-    {
-      "source": "/eudaimonia",
-      "target": "/choice"
-    },
-    {
-      "source": "/eudaimonia",
-      "target": "/time"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/all-is-one"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/aristotle"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/be-good-to-each-other-and-yourself"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/books-phil"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/concepts-in-greek-thought"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/enemies"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/epicurus"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/free-will"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/freedom"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/friends"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/good-and-evil"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/marcus-aurelius"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/questions"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/stupidity"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/travelling"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/truth"
-    },
-    {
-      "source": "/reasoning",
-      "target": "/critical-thinking"
-    },
-    {
-      "source": "/reasoning",
-      "target": "/decision-making"
-    },
-    {
-      "source": "/reasoning",
-      "target": "/get-things-done"
-    },
-    {
-      "source": "/reasoning",
-      "target": "/learning"
-    },
-    {
-      "source": "/reasoning",
-      "target": "/mastery"
-    },
-    {
-      "source": "/reasoning",
-      "target": "/problem-solving"
-    },
-    {
-      "source": "/reasoning",
-      "target": "/systems-thinking"
-    },
-    {
-      "source": "/work",
-      "target": "/career-advice"
-    },
-    {
-      "source": "/work",
-      "target": "/success-and-failure"
-    },
-    {
-      "source": "/work",
-      "target": "/teamwork"
-    },
-    {
-      "source": "/work",
-      "target": "/what-to-work-on"
-    },
-    {
-      "source": "/work",
-      "target": "/you-are-not-nameless"
-    },
-    {
-      "source": "/checklists",
-      "target": "/driving"
-    },
-    {
-      "source": "/checklists",
-      "target": "/outdoors"
-    },
-    {
-      "source": "/checklists",
-      "target": "/used-cars"
-    },
-    {
-      "source": "/experiments",
-      "target": "/dots"
-    },
-    {
-      "source": "/experiments",
-      "target": "/earth-time-scale"
-    },
-    {
-      "source": "/experiments",
-      "target": "/graph-3d"
-    },
-    {
-      "source": "/experiments",
-      "target": "/typing-practice"
-    },
-    {
-      "source": "/experiments",
-      "target": "/year-progress"
-    },
-    {
-      "source": "/math",
-      "target": "/bayes"
-    },
-    {
-      "source": "/math",
-      "target": "/counter-intuitive-math"
-    },
-    {
-      "source": "/math",
-      "target": "/discrete-vs-continuous"
-    },
-    {
-      "source": "/math",
-      "target": "/equations-that-changed-the-world"
-    },
-    {
-      "source": "/math",
-      "target": "/fourier-transform"
-    },
-    {
-      "source": "/math",
-      "target": "/laplace-transform"
-    },
-    {
-      "source": "/math",
-      "target": "/logic-proofs"
-    },
-    {
-      "source": "/math",
-      "target": "/math-links"
-    },
-    {
-      "source": "/math",
-      "target": "/normal-distribution"
-    },
-    {
-      "source": "/math",
-      "target": "/probability-and-statistics"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/akins-laws-of-spacecraft"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/astronomy"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/books-natural"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/climate-change"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/pale-blue-dot"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/sapolsky"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/health"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/physics"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/systems"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/books-social"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/economics"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/history"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/politics"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/psychology"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/sociology"
     },
     {
       "source": "/algorithms",
@@ -4892,28 +4609,32 @@
       "target": "/xss"
     },
     {
-      "source": "/software-engineering",
+      "source": "/software-development",
       "target": "/code-review"
     },
     {
-      "source": "/software-engineering",
+      "source": "/software-development",
       "target": "/core-concepts"
     },
     {
-      "source": "/software-engineering",
+      "source": "/software-development",
       "target": "/on-software"
     },
     {
-      "source": "/software-engineering",
+      "source": "/software-development",
       "target": "/software-analogies"
     },
     {
-      "source": "/software-engineering",
+      "source": "/software-development",
       "target": "/swe-misery"
     },
     {
-      "source": "/software-engineering",
+      "source": "/software-development",
       "target": "/the-joel-test"
+    },
+    {
+      "source": "/system-design",
+      "target": "/akins-laws-of-spacecraft"
     },
     {
       "source": "/system-design",
@@ -4952,6 +4673,262 @@
       "target": "/sys-design-core"
     },
     {
+      "source": "/eudaimonia",
+      "target": "/balance"
+    },
+    {
+      "source": "/eudaimonia",
+      "target": "/character"
+    },
+    {
+      "source": "/eudaimonia",
+      "target": "/one-bit-better"
+    },
+    {
+      "source": "/eudaimonia",
+      "target": "/take-a-walk"
+    },
+    {
+      "source": "/eudaimonia",
+      "target": "/choice"
+    },
+    {
+      "source": "/eudaimonia",
+      "target": "/health"
+    },
+    {
+      "source": "/eudaimonia",
+      "target": "/time"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/all-is-one"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/aristotle"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/be-good-to-each-other-and-yourself"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/books-phil"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/concepts-in-greek-thought"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/enemies"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/epicurus"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/free-will"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/freedom"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/friends"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/good-and-evil"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/marcus-aurelius"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/questions"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/stupidity"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/travelling"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/truth"
+    },
+    {
+      "source": "/reasoning",
+      "target": "/critical-thinking"
+    },
+    {
+      "source": "/reasoning",
+      "target": "/decision-making"
+    },
+    {
+      "source": "/reasoning",
+      "target": "/get-things-done"
+    },
+    {
+      "source": "/reasoning",
+      "target": "/learning"
+    },
+    {
+      "source": "/reasoning",
+      "target": "/mastery"
+    },
+    {
+      "source": "/reasoning",
+      "target": "/problem-solving"
+    },
+    {
+      "source": "/reasoning",
+      "target": "/systems-thinking"
+    },
+    {
+      "source": "/work",
+      "target": "/career-advice"
+    },
+    {
+      "source": "/work",
+      "target": "/success-and-failure"
+    },
+    {
+      "source": "/work",
+      "target": "/teamwork"
+    },
+    {
+      "source": "/work",
+      "target": "/what-to-work-on"
+    },
+    {
+      "source": "/work",
+      "target": "/you-are-not-nameless"
+    },
+    {
+      "source": "/checklists",
+      "target": "/driving"
+    },
+    {
+      "source": "/checklists",
+      "target": "/outdoors"
+    },
+    {
+      "source": "/checklists",
+      "target": "/used-cars"
+    },
+    {
+      "source": "/experiments",
+      "target": "/dots"
+    },
+    {
+      "source": "/experiments",
+      "target": "/earth-time-scale"
+    },
+    {
+      "source": "/experiments",
+      "target": "/graph-3d"
+    },
+    {
+      "source": "/experiments",
+      "target": "/typing-practice"
+    },
+    {
+      "source": "/experiments",
+      "target": "/year-progress"
+    },
+    {
+      "source": "/math",
+      "target": "/bayes"
+    },
+    {
+      "source": "/math",
+      "target": "/counter-intuitive-math"
+    },
+    {
+      "source": "/math",
+      "target": "/discrete-vs-continuous"
+    },
+    {
+      "source": "/math",
+      "target": "/equations-that-changed-the-world"
+    },
+    {
+      "source": "/math",
+      "target": "/fourier-transform"
+    },
+    {
+      "source": "/math",
+      "target": "/laplace-transform"
+    },
+    {
+      "source": "/math",
+      "target": "/logic-proofs"
+    },
+    {
+      "source": "/math",
+      "target": "/math-links"
+    },
+    {
+      "source": "/math",
+      "target": "/normal-distribution"
+    },
+    {
+      "source": "/math",
+      "target": "/probability-and-statistics"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/astronomy"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/books-sci"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/climate-change"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/sapolsky"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/physics"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/books-social"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/economics"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/history"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/politics"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/psychology"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/sociology"
+    },
+    {
       "source": "/ux",
       "target": "/a-free-web-again"
     },
@@ -4982,198 +4959,6 @@
     {
       "source": "/ux",
       "target": "/usability-testing"
-    },
-    {
-      "source": "/choice",
-      "target": "/criticism"
-    },
-    {
-      "source": "/choice",
-      "target": "/do-one-thing-at-a-time-and-do-it-well"
-    },
-    {
-      "source": "/choice",
-      "target": "/do-without-doing"
-    },
-    {
-      "source": "/choice",
-      "target": "/gratitude"
-    },
-    {
-      "source": "/choice",
-      "target": "/know-where-to-stop"
-    },
-    {
-      "source": "/choice",
-      "target": "/less"
-    },
-    {
-      "source": "/choice",
-      "target": "/possibility"
-    },
-    {
-      "source": "/time",
-      "target": "/death"
-    },
-    {
-      "source": "/time",
-      "target": "/getting-old"
-    },
-    {
-      "source": "/time",
-      "target": "/hard-times"
-    },
-    {
-      "source": "/time",
-      "target": "/how-to-grow-old-russell"
-    },
-    {
-      "source": "/time",
-      "target": "/on-the-shortness-of-life"
-    },
-    {
-      "source": "/time",
-      "target": "/slow-down-time"
-    },
-    {
-      "source": "/time",
-      "target": "/the-past"
-    },
-    {
-      "source": "/health",
-      "target": "/drowning-does-not-look-dramatic"
-    },
-    {
-      "source": "/health",
-      "target": "/exercise"
-    },
-    {
-      "source": "/health",
-      "target": "/how-to-deal-with-pain"
-    },
-    {
-      "source": "/health",
-      "target": "/sleep"
-    },
-    {
-      "source": "/physics",
-      "target": "/classical-physics"
-    },
-    {
-      "source": "/physics",
-      "target": "/feynman-lectures"
-    },
-    {
-      "source": "/physics",
-      "target": "/inertia"
-    },
-    {
-      "source": "/physics",
-      "target": "/maxwell-equations"
-    },
-    {
-      "source": "/physics",
-      "target": "/philosophical-implications-of-quantum-mechanics"
-    },
-    {
-      "source": "/economics",
-      "target": "/how-to-gain-wealth"
-    },
-    {
-      "source": "/history",
-      "target": "/121st-century"
-    },
-    {
-      "source": "/history",
-      "target": "/farming-trap"
-    },
-    {
-      "source": "/history",
-      "target": "/history-of-technology"
-    },
-    {
-      "source": "/history",
-      "target": "/since-big-bang"
-    },
-    {
-      "source": "/politics",
-      "target": "/chomsky"
-    },
-    {
-      "source": "/politics",
-      "target": "/negotiations"
-    },
-    {
-      "source": "/politics",
-      "target": "/obedience"
-    },
-    {
-      "source": "/politics",
-      "target": "/social-change"
-    },
-    {
-      "source": "/politics",
-      "target": "/the-art-of-war"
-    },
-    {
-      "source": "/politics",
-      "target": "/the-triumph-of-stupidity"
-    },
-    {
-      "source": "/politics",
-      "target": "/ursula-guin-address"
-    },
-    {
-      "source": "/politics",
-      "target": "/who-goes-nazi"
-    },
-    {
-      "source": "/psychology",
-      "target": "/cognitive-biases"
-    },
-    {
-      "source": "/psychology",
-      "target": "/emotions"
-    },
-    {
-      "source": "/psychology",
-      "target": "/habits"
-    },
-    {
-      "source": "/psychology",
-      "target": "/happiness"
-    },
-    {
-      "source": "/psychology",
-      "target": "/manipulation"
-    },
-    {
-      "source": "/psychology",
-      "target": "/parenting"
-    },
-    {
-      "source": "/psychology",
-      "target": "/procrastination"
-    },
-    {
-      "source": "/psychology",
-      "target": "/spot-a-liar"
-    },
-    {
-      "source": "/psychology",
-      "target": "/stress"
-    },
-    {
-      "source": "/sociology",
-      "target": "/being-poor"
-    },
-    {
-      "source": "/sociology",
-      "target": "/social-groups"
-    },
-    {
-      "source": "/sociology",
-      "target": "/social-media"
     },
     {
       "source": "/array",
@@ -5536,6 +5321,202 @@
       "target": "/vga-driver"
     },
     {
+      "source": "/choice",
+      "target": "/criticism"
+    },
+    {
+      "source": "/choice",
+      "target": "/do-one-thing-at-a-time-and-do-it-well"
+    },
+    {
+      "source": "/choice",
+      "target": "/do-without-doing"
+    },
+    {
+      "source": "/choice",
+      "target": "/gratitude"
+    },
+    {
+      "source": "/choice",
+      "target": "/know-where-to-stop"
+    },
+    {
+      "source": "/choice",
+      "target": "/less"
+    },
+    {
+      "source": "/choice",
+      "target": "/possibility"
+    },
+    {
+      "source": "/health",
+      "target": "/drowning-does-not-look-dramatic"
+    },
+    {
+      "source": "/health",
+      "target": "/exercise"
+    },
+    {
+      "source": "/health",
+      "target": "/how-to-deal-with-pain"
+    },
+    {
+      "source": "/health",
+      "target": "/sleep"
+    },
+    {
+      "source": "/time",
+      "target": "/death"
+    },
+    {
+      "source": "/time",
+      "target": "/getting-old"
+    },
+    {
+      "source": "/time",
+      "target": "/hard-times"
+    },
+    {
+      "source": "/time",
+      "target": "/how-to-grow-old-russell"
+    },
+    {
+      "source": "/time",
+      "target": "/on-the-shortness-of-life"
+    },
+    {
+      "source": "/time",
+      "target": "/pale-blue-dot"
+    },
+    {
+      "source": "/time",
+      "target": "/slow-down-time"
+    },
+    {
+      "source": "/time",
+      "target": "/the-past"
+    },
+    {
+      "source": "/physics",
+      "target": "/classical-physics"
+    },
+    {
+      "source": "/physics",
+      "target": "/feynman-lectures"
+    },
+    {
+      "source": "/physics",
+      "target": "/inertia"
+    },
+    {
+      "source": "/physics",
+      "target": "/maxwell-equations"
+    },
+    {
+      "source": "/physics",
+      "target": "/philosophical-implications-of-quantum-mechanics"
+    },
+    {
+      "source": "/economics",
+      "target": "/how-to-gain-wealth"
+    },
+    {
+      "source": "/history",
+      "target": "/121st-century"
+    },
+    {
+      "source": "/history",
+      "target": "/farming-trap"
+    },
+    {
+      "source": "/history",
+      "target": "/history-of-technology"
+    },
+    {
+      "source": "/history",
+      "target": "/since-big-bang"
+    },
+    {
+      "source": "/politics",
+      "target": "/chomsky"
+    },
+    {
+      "source": "/politics",
+      "target": "/negotiations"
+    },
+    {
+      "source": "/politics",
+      "target": "/obedience"
+    },
+    {
+      "source": "/politics",
+      "target": "/social-change"
+    },
+    {
+      "source": "/politics",
+      "target": "/the-art-of-war"
+    },
+    {
+      "source": "/politics",
+      "target": "/the-triumph-of-stupidity"
+    },
+    {
+      "source": "/politics",
+      "target": "/ursula-guin-address"
+    },
+    {
+      "source": "/politics",
+      "target": "/who-goes-nazi"
+    },
+    {
+      "source": "/psychology",
+      "target": "/cognitive-biases"
+    },
+    {
+      "source": "/psychology",
+      "target": "/emotions"
+    },
+    {
+      "source": "/psychology",
+      "target": "/habits"
+    },
+    {
+      "source": "/psychology",
+      "target": "/happiness"
+    },
+    {
+      "source": "/psychology",
+      "target": "/manipulation"
+    },
+    {
+      "source": "/psychology",
+      "target": "/parenting"
+    },
+    {
+      "source": "/psychology",
+      "target": "/procrastination"
+    },
+    {
+      "source": "/psychology",
+      "target": "/spot-a-liar"
+    },
+    {
+      "source": "/psychology",
+      "target": "/stress"
+    },
+    {
+      "source": "/sociology",
+      "target": "/being-poor"
+    },
+    {
+      "source": "/sociology",
+      "target": "/social-groups"
+    },
+    {
+      "source": "/sociology",
+      "target": "/social-media"
+    },
+    {
       "source": "/code",
       "target": "/delete-tree-node"
     },
@@ -5580,12 +5561,12 @@
       "target": "/polished-pixels"
     },
     {
-      "source": "/design",
-      "target": "/ux"
-    },
-    {
       "source": "/ship-it",
       "target": "/on-software"
+    },
+    {
+      "source": "/accessibility",
+      "target": "/keyboard-shortcuts"
     },
     {
       "source": "/cien-anos-de-soledad",
@@ -5616,240 +5597,12 @@
       "target": "/know-where-to-stop"
     },
     {
-      "source": "/essais",
-      "target": "/how-to-grow-old-russell"
-    },
-    {
-      "source": "/essais",
-      "target": "/slow-down-time"
-    },
-    {
-      "source": "/essais",
-      "target": "/be-good-to-each-other-and-yourself"
-    },
-    {
-      "source": "/essais",
-      "target": "/farming-trap"
-    },
-    {
-      "source": "/essais",
-      "target": "/the-triumph-of-stupidity"
-    },
-    {
-      "source": "/essais",
-      "target": "/who-goes-nazi"
-    },
-    {
-      "source": "/essais",
-      "target": "/being-poor"
-    },
-    {
-      "source": "/character",
-      "target": "/freedom"
-    },
-    {
-      "source": "/choice",
-      "target": "/decision-making"
-    },
-    {
-      "source": "/do-one-thing-at-a-time-and-do-it-well",
-      "target": "/get-things-done"
-    },
-    {
-      "source": "/do-one-thing-at-a-time-and-do-it-well",
-      "target": "/teamwork"
-    },
-    {
-      "source": "/do-one-thing-at-a-time-and-do-it-well",
-      "target": "/work"
-    },
-    {
-      "source": "/do-without-doing",
-      "target": "/decision-making"
-    },
-    {
-      "source": "/do-without-doing",
-      "target": "/teamwork"
-    },
-    {
-      "source": "/take-a-walk",
-      "target": "/get-things-done"
-    },
-    {
-      "source": "/take-a-walk",
-      "target": "/problem-solving"
-    },
-    {
-      "source": "/hard-times",
-      "target": "/how-to-deal-with-pain"
-    },
-    {
-      "source": "/time",
-      "target": "/earth-time-scale"
-    },
-    {
-      "source": "/time",
-      "target": "/121st-century"
-    },
-    {
-      "source": "/time",
-      "target": "/history"
-    },
-    {
-      "source": "/time",
-      "target": "/since-big-bang"
-    },
-    {
-      "source": "/be-good-to-each-other-and-yourself",
-      "target": "/work"
-    },
-    {
-      "source": "/freedom",
-      "target": "/success-and-failure"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/do-one-thing-at-a-time-and-do-it-well"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/tao-te-ching"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/critical-thinking"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/how-to-deal-with-pain"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/pale-blue-dot"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/philosophical-implications-of-quantum-mechanics"
-    },
-    {
-      "source": "/questions",
-      "target": "/critical-thinking"
-    },
-    {
-      "source": "/critical-thinking",
-      "target": "/problem-solving"
-    },
-    {
-      "source": "/decision-making",
-      "target": "/get-things-done"
-    },
-    {
-      "source": "/mastery",
-      "target": "/teamwork"
-    },
-    {
-      "source": "/mastery",
-      "target": "/work"
-    },
-    {
-      "source": "/reasoning",
-      "target": "/work"
-    },
-    {
-      "source": "/teamwork",
-      "target": "/what-to-work-on"
-    },
-    {
-      "source": "/driving",
-      "target": "/used-cars"
-    },
-    {
-      "source": "/datasets",
-      "target": "/probability-and-statistics"
-    },
-    {
-      "source": "/lists",
-      "target": "/classics"
-    },
-    {
-      "source": "/lists",
-      "target": "/essais"
-    },
-    {
-      "source": "/lists",
-      "target": "/history-of-technology"
-    },
-    {
-      "source": "/lists",
-      "target": "/since-big-bang"
-    },
-    {
-      "source": "/bayes",
-      "target": "/probability-and-statistics"
-    },
-    {
-      "source": "/math",
-      "target": "/local-maximum"
-    },
-    {
-      "source": "/akins-laws-of-spacecraft",
-      "target": "/hacker-laws"
-    },
-    {
-      "source": "/akins-laws-of-spacecraft",
-      "target": "/polished-pixels"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/history-of-technology"
-    },
-    {
-      "source": "/natural-sciences",
-      "target": "/since-big-bang"
-    },
-    {
-      "source": "/classical-physics",
-      "target": "/feynman-lectures"
-    },
-    {
-      "source": "/classical-physics",
-      "target": "/maxwell-equations"
-    },
-    {
-      "source": "/politics",
-      "target": "/tao-te-ching"
-    },
-    {
-      "source": "/psychology",
-      "target": "/inertia"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/freedom"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/learning"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/metaphors"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/systems-thinking"
-    },
-    {
-      "source": "/social-sciences",
-      "target": "/hijacked-minds"
+      "source": "/algorithms",
+      "target": "/lsm-trees"
     },
     {
       "source": "/algorithms",
       "target": "/bayes"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/lsm-trees"
     },
     {
       "source": "/easy",
@@ -6072,8 +5825,12 @@
       "target": "/producer-consumer-problem"
     },
     {
+      "source": "/akins-laws-of-spacecraft",
+      "target": "/hacker-laws"
+    },
+    {
       "source": "/system-design",
-      "target": "/akins-laws-of-spacecraft"
+      "target": "/accessibility"
     },
     {
       "source": "/system-design",
@@ -6084,8 +5841,220 @@
       "target": "/oop"
     },
     {
-      "source": "/system-design",
-      "target": "/accessibility"
+      "source": "/essais",
+      "target": "/how-to-grow-old-russell"
+    },
+    {
+      "source": "/essais",
+      "target": "/slow-down-time"
+    },
+    {
+      "source": "/essais",
+      "target": "/be-good-to-each-other-and-yourself"
+    },
+    {
+      "source": "/essais",
+      "target": "/farming-trap"
+    },
+    {
+      "source": "/essais",
+      "target": "/the-triumph-of-stupidity"
+    },
+    {
+      "source": "/essais",
+      "target": "/who-goes-nazi"
+    },
+    {
+      "source": "/essais",
+      "target": "/being-poor"
+    },
+    {
+      "source": "/character",
+      "target": "/freedom"
+    },
+    {
+      "source": "/choice",
+      "target": "/decision-making"
+    },
+    {
+      "source": "/do-one-thing-at-a-time-and-do-it-well",
+      "target": "/get-things-done"
+    },
+    {
+      "source": "/do-one-thing-at-a-time-and-do-it-well",
+      "target": "/teamwork"
+    },
+    {
+      "source": "/do-one-thing-at-a-time-and-do-it-well",
+      "target": "/work"
+    },
+    {
+      "source": "/do-without-doing",
+      "target": "/decision-making"
+    },
+    {
+      "source": "/do-without-doing",
+      "target": "/teamwork"
+    },
+    {
+      "source": "/take-a-walk",
+      "target": "/get-things-done"
+    },
+    {
+      "source": "/take-a-walk",
+      "target": "/problem-solving"
+    },
+    {
+      "source": "/time",
+      "target": "/earth-time-scale"
+    },
+    {
+      "source": "/time",
+      "target": "/121st-century"
+    },
+    {
+      "source": "/time",
+      "target": "/history"
+    },
+    {
+      "source": "/time",
+      "target": "/since-big-bang"
+    },
+    {
+      "source": "/be-good-to-each-other-and-yourself",
+      "target": "/work"
+    },
+    {
+      "source": "/freedom",
+      "target": "/success-and-failure"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/do-one-thing-at-a-time-and-do-it-well"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/how-to-deal-with-pain"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/tao-te-ching"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/critical-thinking"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/philosophical-implications-of-quantum-mechanics"
+    },
+    {
+      "source": "/questions",
+      "target": "/critical-thinking"
+    },
+    {
+      "source": "/critical-thinking",
+      "target": "/problem-solving"
+    },
+    {
+      "source": "/decision-making",
+      "target": "/get-things-done"
+    },
+    {
+      "source": "/mastery",
+      "target": "/teamwork"
+    },
+    {
+      "source": "/mastery",
+      "target": "/work"
+    },
+    {
+      "source": "/reasoning",
+      "target": "/work"
+    },
+    {
+      "source": "/teamwork",
+      "target": "/what-to-work-on"
+    },
+    {
+      "source": "/driving",
+      "target": "/used-cars"
+    },
+    {
+      "source": "/datasets",
+      "target": "/probability-and-statistics"
+    },
+    {
+      "source": "/earth-time-scale",
+      "target": "/climate-change"
+    },
+    {
+      "source": "/lists",
+      "target": "/classics"
+    },
+    {
+      "source": "/lists",
+      "target": "/essais"
+    },
+    {
+      "source": "/lists",
+      "target": "/history-of-technology"
+    },
+    {
+      "source": "/lists",
+      "target": "/since-big-bang"
+    },
+    {
+      "source": "/bayes",
+      "target": "/probability-and-statistics"
+    },
+    {
+      "source": "/math",
+      "target": "/local-maximum"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/history-of-technology"
+    },
+    {
+      "source": "/natural-sciences",
+      "target": "/since-big-bang"
+    },
+    {
+      "source": "/classical-physics",
+      "target": "/feynman-lectures"
+    },
+    {
+      "source": "/classical-physics",
+      "target": "/maxwell-equations"
+    },
+    {
+      "source": "/politics",
+      "target": "/tao-te-ching"
+    },
+    {
+      "source": "/psychology",
+      "target": "/inertia"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/freedom"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/hijacked-minds"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/learning"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/metaphors"
+    },
+    {
+      "source": "/social-sciences",
+      "target": "/systems-thinking"
     }
   ]
 }

@@ -44,6 +44,35 @@
   "/ship-it": [
     "design"
   ],
+  "/a-free-web-again": [
+    "ux"
+  ],
+  "/accessibility": [
+    "sys",
+    "ux"
+  ],
+  "/evolution-of-computer-interfaces": [
+    "ux"
+  ],
+  "/hijacked-minds": [
+    "soc",
+    "ux"
+  ],
+  "/natural-ux": [
+    "ux"
+  ],
+  "/polished-pixels": [
+    "ux"
+  ],
+  "/things-users-care": [
+    "ux"
+  ],
+  "/usability-testing": [
+    "ux"
+  ],
+  "/ux": [
+    "design"
+  ],
   "/languages": [
     "arts"
   ],
@@ -198,458 +227,8 @@
   "/yunus-emre": [
     "siir"
   ],
-  "/essais": [
-    "ideas",
-    "lists"
-  ],
-  "/balance": [
-    "eudaimonia"
-  ],
-  "/character": [
-    "eudaimonia"
-  ],
-  "/choice": [
-    "eudaimonia"
-  ],
-  "/criticism": [
-    "choice"
-  ],
-  "/do-one-thing-at-a-time-and-do-it-well": [
-    "choice",
-    "phil"
-  ],
-  "/do-without-doing": [
-    "choice"
-  ],
-  "/gratitude": [
-    "choice"
-  ],
-  "/know-where-to-stop": [
-    "choice"
-  ],
-  "/less": [
-    "choice"
-  ],
-  "/possibility": [
-    "choice"
-  ],
-  "/eudaimonia": [
-    "ideas",
-    "top"
-  ],
-  "/one-bit-better": [
-    "eudaimonia"
-  ],
-  "/take-a-walk": [
-    "eudaimonia",
-    "top"
-  ],
-  "/death": [
-    "time"
-  ],
-  "/getting-old": [
-    "time"
-  ],
-  "/hard-times": [
-    "time",
-    "top"
-  ],
-  "/how-to-grow-old-russell": [
-    "essais",
-    "time"
-  ],
-  "/on-the-shortness-of-life": [
-    "time"
-  ],
-  "/slow-down-time": [
-    "essais",
-    "time"
-  ],
-  "/the-past": [
-    "time"
-  ],
-  "/time": [
-    "eudaimonia"
-  ],
-  "/ideas": [
-
-  ],
-  "/all-is-one": [
-    "philosophy"
-  ],
-  "/aristotle": [
-    "philosophy"
-  ],
-  "/be-good-to-each-other-and-yourself": [
-    "essais",
-    "philosophy"
-  ],
-  "/books-phil": [
-    "philosophy"
-  ],
-  "/concepts-in-greek-thought": [
-    "philosophy"
-  ],
-  "/enemies": [
-    "philosophy"
-  ],
-  "/epicurus": [
-    "philosophy"
-  ],
-  "/free-will": [
-    "philosophy"
-  ],
-  "/freedom": [
-    "philosophy",
-    "soc"
-  ],
-  "/friends": [
-    "philosophy"
-  ],
-  "/good-and-evil": [
-    "philosophy"
-  ],
-  "/marcus-aurelius": [
-    "philosophy"
-  ],
-  "/philosophy": [
-    "ideas"
-  ],
-  "/questions": [
-    "philosophy"
-  ],
-  "/stupidity": [
-    "philosophy"
-  ],
-  "/travelling": [
-    "philosophy"
-  ],
-  "/truth": [
-    "philosophy"
-  ],
-  "/critical-thinking": [
-    "phil",
-    "reasoning"
-  ],
-  "/decision-making": [
-    "reasoning"
-  ],
-  "/get-things-done": [
-    "reasoning"
-  ],
-  "/learning": [
-    "reasoning",
-    "soc"
-  ],
-  "/mastery": [
-    "reasoning"
-  ],
-  "/problem-solving": [
-    "reasoning"
-  ],
-  "/reasoning": [
-    "ideas"
-  ],
-  "/systems-thinking": [
-    "reasoning",
-    "soc",
-    "systems"
-  ],
-  "/career-advice": [
-    "work"
-  ],
-  "/success-and-failure": [
-    "work"
-  ],
-  "/teamwork": [
-    "work"
-  ],
-  "/what-to-work-on": [
-    "work"
-  ],
-  "/work": [
-    "ideas"
-  ],
-  "/you-are-not-nameless": [
-    "work"
-  ],
-  "/blogs": [
-    "lists"
-  ],
-  "/checklists": [
-    "lists"
-  ],
-  "/driving": [
-    "checklists"
-  ],
-  "/outdoors": [
-    "checklists"
-  ],
-  "/used-cars": [
-    "checklists"
-  ],
-  "/datasets": [
-    "lists"
-  ],
-  "/documentaries": [
-    "lists"
-  ],
-  "/dots": [
-    "experiments"
-  ],
-  "/earth-time-scale": [
-    "experiments",
-    "time",
-    "top"
-  ],
-  "/experiments": [
-    "lists"
-  ],
-  "/graph-3d": [
-    "experiments"
-  ],
-  "/typing-practice": [
-    "experiments"
-  ],
-  "/year-progress": [
-    "experiments"
-  ],
-  "/lists": [
-    "root"
-  ],
-  "/movies": [
-    "lists"
-  ],
-  "/paintings": [
-    "lists"
-  ],
-  "/quotes": [
-    "lists"
-  ],
-  "/about": [
-
-  ],
-  "/graph-2d": [
-
-  ],
-  "/interviews": [
-
-  ],
-  "/llm-prompt": [
-
-  ],
-  "/pub": [
-
-  ],
-  "/resume": [
-
-  ],
-  "/bayes": [
-    "algo",
-    "math"
-  ],
-  "/counter-intuitive-math": [
-    "math"
-  ],
-  "/discrete-vs-continuous": [
-    "math"
-  ],
-  "/equations-that-changed-the-world": [
-    "math"
-  ],
-  "/fourier-transform": [
-    "math"
-  ],
-  "/laplace-transform": [
-    "math"
-  ],
-  "/logic-proofs": [
-    "math"
-  ],
-  "/math-links": [
-    "math"
-  ],
-  "/math": [
-    "sciences"
-  ],
-  "/normal-distribution": [
-    "math"
-  ],
-  "/probability-and-statistics": [
-    "math"
-  ],
-  "/akins-laws-of-spacecraft": [
-    "natural-sciences",
-    "sys"
-  ],
-  "/astronomy": [
-    "natural-sciences"
-  ],
-  "/books-natural": [
-    "natural-sciences"
-  ],
-  "/climate-change": [
-    "natural-sciences"
-  ],
-  "/drowning-does-not-look-dramatic": [
-    "health"
-  ],
-  "/exercise": [
-    "health"
-  ],
-  "/health": [
-    "natural-sciences"
-  ],
-  "/how-to-deal-with-pain": [
-    "health",
-    "phil"
-  ],
-  "/sleep": [
-    "health"
-  ],
-  "/natural-sciences": [
-    "sciences"
-  ],
-  "/pale-blue-dot": [
-    "natural-sciences",
-    "phil"
-  ],
-  "/classical-physics": [
-    "physics"
-  ],
-  "/feynman-lectures": [
-    "physics"
-  ],
-  "/inertia": [
-    "physics",
-    "psy"
-  ],
-  "/maxwell-equations": [
-    "physics"
-  ],
-  "/philosophical-implications-of-quantum-mechanics": [
-    "phil",
-    "physics"
-  ],
-  "/physics": [
-    "natural-sciences"
-  ],
-  "/sapolsky": [
-    "natural-sciences"
-  ],
-  "/sciences": [
-
-  ],
-  "/books-social": [
-    "social-sciences"
-  ],
-  "/economics": [
-    "social-sciences"
-  ],
-  "/how-to-gain-wealth": [
-    "economics"
-  ],
-  "/121st-century": [
-    "history",
-    "time"
-  ],
-  "/farming-trap": [
-    "essais",
-    "history"
-  ],
-  "/history-of-technology": [
-    "history",
-    "lists",
-    "nat"
-  ],
-  "/history": [
-    "social-sciences",
-    "time"
-  ],
-  "/since-big-bang": [
-    "history",
-    "lists",
-    "nat",
-    "time"
-  ],
-  "/chomsky": [
-    "politics"
-  ],
-  "/negotiations": [
-    "politics"
-  ],
-  "/obedience": [
-    "politics"
-  ],
-  "/politics": [
-    "social-sciences"
-  ],
-  "/social-change": [
-    "politics"
-  ],
-  "/the-art-of-war": [
-    "politics"
-  ],
-  "/the-triumph-of-stupidity": [
-    "essais",
-    "politics"
-  ],
-  "/ursula-guin-address": [
-    "politics"
-  ],
-  "/who-goes-nazi": [
-    "essais",
-    "politics"
-  ],
-  "/cognitive-biases": [
-    "psychology"
-  ],
-  "/emotions": [
-    "psychology"
-  ],
-  "/habits": [
-    "psychology"
-  ],
-  "/happiness": [
-    "psychology"
-  ],
-  "/manipulation": [
-    "psychology"
-  ],
-  "/parenting": [
-    "psychology"
-  ],
-  "/procrastination": [
-    "psychology"
-  ],
-  "/psychology": [
-    "social-sciences"
-  ],
-  "/spot-a-liar": [
-    "psychology"
-  ],
-  "/stress": [
-    "psychology"
-  ],
-  "/social-sciences": [
-    "root",
-    "sciences"
-  ],
-  "/being-poor": [
-    "essais",
-    "sociology"
-  ],
-  "/social-groups": [
-    "sociology"
-  ],
-  "/social-media": [
-    "sociology"
-  ],
-  "/sociology": [
-    "social-sciences"
-  ],
   "/algorithms": [
-    "tech"
+    "engineering"
   ],
   "/array-rotate": [
     "arr",
@@ -996,7 +575,7 @@
     "computers"
   ],
   "/computers": [
-    "tech"
+    "engineering"
   ],
   "/containers": [
     "computers",
@@ -1019,7 +598,7 @@
     "ds"
   ],
   "/databases": [
-    "tech"
+    "engineering"
   ],
   "/db-concepts": [
     "databases"
@@ -1070,8 +649,8 @@
     "distributed-systems"
   ],
   "/distributed-systems": [
-    "sys",
-    "tech"
+    "engineering",
+    "sys"
   ],
   "/generate-a-unique-id": [
     "distributed-systems"
@@ -1090,6 +669,9 @@
   ],
   "/time-and-order": [
     "distributed-systems"
+  ],
+  "/engineering": [
+    "root"
   ],
   "/c-and-python": [
     "c",
@@ -1151,7 +733,7 @@
     "sys"
   ],
   "/programming": [
-    "tech"
+    "engineering"
   ],
   "/async-crawler": [
     "projects",
@@ -1245,7 +827,7 @@
     "security"
   ],
   "/security": [
-    "tech"
+    "engineering"
   ],
   "/store-passwords": [
     "security"
@@ -1257,25 +839,29 @@
     "security"
   ],
   "/code-review": [
-    "software-engineering"
+    "software-development"
   ],
   "/core-concepts": [
-    "software-engineering"
+    "software-development"
   ],
   "/on-software": [
-    "software-engineering"
+    "software-development"
   ],
   "/software-analogies": [
-    "software-engineering"
+    "software-development"
   ],
-  "/software-engineering": [
-    "tech"
+  "/software-development": [
+    "engineering"
   ],
   "/swe-misery": [
-    "software-engineering"
+    "software-development"
   ],
   "/the-joel-test": [
-    "software-engineering"
+    "software-development"
+  ],
+  "/akins-laws-of-spacecraft": [
+    "sys",
+    "system-design"
   ],
   "/api-design": [
     "system-design"
@@ -1307,40 +893,452 @@
     "system-design"
   ],
   "/system-design": [
-    "systems",
-    "tech"
+    "engineering",
+    "systems"
   ],
-  "/tech": [
+  "/essais": [
+    "ideas",
+    "lists"
+  ],
+  "/balance": [
+    "eudaimonia"
+  ],
+  "/character": [
+    "eudaimonia"
+  ],
+  "/choice": [
+    "eudaimonia"
+  ],
+  "/criticism": [
+    "choice"
+  ],
+  "/do-one-thing-at-a-time-and-do-it-well": [
+    "choice",
+    "phil"
+  ],
+  "/do-without-doing": [
+    "choice"
+  ],
+  "/gratitude": [
+    "choice"
+  ],
+  "/know-where-to-stop": [
+    "choice"
+  ],
+  "/less": [
+    "choice"
+  ],
+  "/possibility": [
+    "choice"
+  ],
+  "/eudaimonia": [
+    "ideas",
+    "top"
+  ],
+  "/drowning-does-not-look-dramatic": [
+    "health"
+  ],
+  "/exercise": [
+    "health"
+  ],
+  "/health": [
+    "eudaimonia"
+  ],
+  "/how-to-deal-with-pain": [
+    "health",
+    "phil"
+  ],
+  "/sleep": [
+    "health"
+  ],
+  "/one-bit-better": [
+    "eudaimonia"
+  ],
+  "/take-a-walk": [
+    "eudaimonia",
+    "top"
+  ],
+  "/death": [
+    "time"
+  ],
+  "/getting-old": [
+    "time"
+  ],
+  "/hard-times": [
+    "time",
+    "top"
+  ],
+  "/how-to-grow-old-russell": [
+    "essais",
+    "time"
+  ],
+  "/on-the-shortness-of-life": [
+    "time"
+  ],
+  "/pale-blue-dot": [
+    "time"
+  ],
+  "/slow-down-time": [
+    "essais",
+    "time"
+  ],
+  "/the-past": [
+    "time"
+  ],
+  "/time": [
+    "eudaimonia"
+  ],
+  "/ideas": [
+
+  ],
+  "/all-is-one": [
+    "philosophy"
+  ],
+  "/aristotle": [
+    "philosophy"
+  ],
+  "/be-good-to-each-other-and-yourself": [
+    "essais",
+    "philosophy"
+  ],
+  "/books-phil": [
+    "philosophy"
+  ],
+  "/concepts-in-greek-thought": [
+    "philosophy"
+  ],
+  "/enemies": [
+    "philosophy"
+  ],
+  "/epicurus": [
+    "philosophy"
+  ],
+  "/free-will": [
+    "philosophy"
+  ],
+  "/freedom": [
+    "philosophy",
+    "soc"
+  ],
+  "/friends": [
+    "philosophy"
+  ],
+  "/good-and-evil": [
+    "philosophy"
+  ],
+  "/marcus-aurelius": [
+    "philosophy"
+  ],
+  "/philosophy": [
+    "ideas"
+  ],
+  "/questions": [
+    "philosophy"
+  ],
+  "/stupidity": [
+    "philosophy"
+  ],
+  "/travelling": [
+    "philosophy"
+  ],
+  "/truth": [
+    "philosophy"
+  ],
+  "/critical-thinking": [
+    "phil",
+    "reasoning"
+  ],
+  "/decision-making": [
+    "reasoning"
+  ],
+  "/get-things-done": [
+    "reasoning"
+  ],
+  "/learning": [
+    "reasoning",
+    "soc"
+  ],
+  "/mastery": [
+    "reasoning"
+  ],
+  "/problem-solving": [
+    "reasoning"
+  ],
+  "/reasoning": [
+    "ideas"
+  ],
+  "/systems-thinking": [
+    "reasoning",
+    "soc",
+    "systems"
+  ],
+  "/career-advice": [
+    "work"
+  ],
+  "/success-and-failure": [
+    "work"
+  ],
+  "/teamwork": [
+    "work"
+  ],
+  "/what-to-work-on": [
+    "work"
+  ],
+  "/work": [
+    "ideas"
+  ],
+  "/you-are-not-nameless": [
+    "work"
+  ],
+  "/blogs": [
+    "lists"
+  ],
+  "/checklists": [
+    "lists"
+  ],
+  "/driving": [
+    "checklists"
+  ],
+  "/outdoors": [
+    "checklists"
+  ],
+  "/used-cars": [
+    "checklists"
+  ],
+  "/datasets": [
+    "lists"
+  ],
+  "/documentaries": [
+    "lists"
+  ],
+  "/dots": [
+    "experiments"
+  ],
+  "/earth-time-scale": [
+    "experiments",
+    "time",
+    "top"
+  ],
+  "/experiments": [
+    "lists"
+  ],
+  "/graph-3d": [
+    "experiments"
+  ],
+  "/typing-practice": [
+    "experiments"
+  ],
+  "/year-progress": [
+    "experiments"
+  ],
+  "/lists": [
     "root"
   ],
-  "/a-free-web-again": [
-    "ux"
+  "/movies": [
+    "lists"
   ],
-  "/accessibility": [
-    "sys",
-    "ux"
+  "/paintings": [
+    "lists"
   ],
-  "/evolution-of-computer-interfaces": [
-    "ux"
+  "/quotes": [
+    "lists"
   ],
-  "/hijacked-minds": [
-    "soc",
-    "ux"
+  "/about": [
+
   ],
-  "/natural-ux": [
-    "ux"
+  "/graph-2d": [
+
   ],
-  "/polished-pixels": [
-    "ux"
+  "/interviews": [
+
   ],
-  "/things-users-care": [
-    "ux"
+  "/llm-prompt": [
+
   ],
-  "/usability-testing": [
-    "ux"
+  "/pub": [
+
   ],
-  "/ux": [
-    "design",
-    "tech"
+  "/resume": [
+
+  ],
+  "/bayes": [
+    "algo",
+    "math"
+  ],
+  "/counter-intuitive-math": [
+    "math"
+  ],
+  "/discrete-vs-continuous": [
+    "math"
+  ],
+  "/equations-that-changed-the-world": [
+    "math"
+  ],
+  "/fourier-transform": [
+    "math"
+  ],
+  "/laplace-transform": [
+    "math"
+  ],
+  "/logic-proofs": [
+    "math"
+  ],
+  "/math-links": [
+    "math"
+  ],
+  "/math": [
+    "sciences"
+  ],
+  "/normal-distribution": [
+    "math"
+  ],
+  "/probability-and-statistics": [
+    "math"
+  ],
+  "/astronomy": [
+    "natural-sciences"
+  ],
+  "/books-sci": [
+    "natural-sciences"
+  ],
+  "/climate-change": [
+    "natural-sciences"
+  ],
+  "/natural-sciences": [
+    "sciences"
+  ],
+  "/classical-physics": [
+    "physics"
+  ],
+  "/feynman-lectures": [
+    "physics"
+  ],
+  "/inertia": [
+    "physics",
+    "psy"
+  ],
+  "/maxwell-equations": [
+    "physics"
+  ],
+  "/philosophical-implications-of-quantum-mechanics": [
+    "phil",
+    "physics"
+  ],
+  "/physics": [
+    "natural-sciences"
+  ],
+  "/sapolsky": [
+    "natural-sciences"
+  ],
+  "/sciences": [
+
+  ],
+  "/books-social": [
+    "social-sciences"
+  ],
+  "/economics": [
+    "social-sciences"
+  ],
+  "/how-to-gain-wealth": [
+    "economics"
+  ],
+  "/121st-century": [
+    "history",
+    "time"
+  ],
+  "/farming-trap": [
+    "essais",
+    "history"
+  ],
+  "/history-of-technology": [
+    "history",
+    "lists",
+    "nat"
+  ],
+  "/history": [
+    "social-sciences",
+    "time"
+  ],
+  "/since-big-bang": [
+    "history",
+    "lists",
+    "nat",
+    "time"
+  ],
+  "/chomsky": [
+    "politics"
+  ],
+  "/negotiations": [
+    "politics"
+  ],
+  "/obedience": [
+    "politics"
+  ],
+  "/politics": [
+    "social-sciences"
+  ],
+  "/social-change": [
+    "politics"
+  ],
+  "/the-art-of-war": [
+    "politics"
+  ],
+  "/the-triumph-of-stupidity": [
+    "essais",
+    "politics"
+  ],
+  "/ursula-guin-address": [
+    "politics"
+  ],
+  "/who-goes-nazi": [
+    "essais",
+    "politics"
+  ],
+  "/cognitive-biases": [
+    "psychology"
+  ],
+  "/emotions": [
+    "psychology"
+  ],
+  "/habits": [
+    "psychology"
+  ],
+  "/happiness": [
+    "psychology"
+  ],
+  "/manipulation": [
+    "psychology"
+  ],
+  "/parenting": [
+    "psychology"
+  ],
+  "/procrastination": [
+    "psychology"
+  ],
+  "/psychology": [
+    "social-sciences"
+  ],
+  "/spot-a-liar": [
+    "psychology"
+  ],
+  "/stress": [
+    "psychology"
+  ],
+  "/social-sciences": [
+    "root",
+    "sciences"
+  ],
+  "/being-poor": [
+    "essais",
+    "sociology"
+  ],
+  "/social-groups": [
+    "sociology"
+  ],
+  "/social-media": [
+    "sociology"
+  ],
+  "/sociology": [
+    "social-sciences"
   ]
 }

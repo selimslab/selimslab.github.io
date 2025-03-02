@@ -1,5 +1,7 @@
 ---
+title: How to be miserable
 ---
+
 Deploy to production directly 
 
 Deploy without testing
