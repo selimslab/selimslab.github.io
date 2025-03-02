@@ -228,6 +228,10 @@
   "/the-less-the-better": [
     "choice"
   ],
+  "/essais": [
+    "ideas",
+    "lists"
+  ],
   "/ideas": [
 
   ],
@@ -287,6 +291,9 @@
   ],
   "/truth": [
     "philosophy"
+  ],
+  "/quotes": [
+    "ideas"
   ],
   "/critical-thinking": [
     "phil",
@@ -384,9 +391,6 @@
   "/documentaries": [
     "lists"
   ],
-  "/essais": [
-    "lists"
-  ],
   "/lists": [
     "root"
   ],
@@ -394,9 +398,6 @@
     "lists"
   ],
   "/paintings": [
-    "lists"
-  ],
-  "/quotes": [
     "lists"
   ],
   "/about": [

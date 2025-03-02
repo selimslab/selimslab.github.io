@@ -39,7 +39,9 @@
         "/choice",
         "/reasoning",
         "/time",
-        "/work"
+        "/work",
+        "/essais",
+        "/quotes"
       ]
     },
     {
@@ -52,11 +54,10 @@
         "/blogs",
         "/datasets",
         "/documentaries",
-        "/essais",
         "/movies",
         "/paintings",
-        "/quotes",
         "/classics",
+        "/essais",
         "/history-of-technology",
         "/since-big-bang"
       ]
@@ -329,6 +330,29 @@
       ]
     },
     {
+      "id": "/essais",
+      "group": 2,
+      "name": "Essais",
+      "links": [
+        "/ideas",
+        "/be-good-to-each-other-and-yourself",
+        "/how-to-grow-old-russell",
+        "/farming-trap",
+        "/the-triumph-of-stupidity",
+        "/who-goes-nazi",
+        "/being-poor",
+        "/lists"
+      ]
+    },
+    {
+      "id": "/quotes",
+      "group": 2,
+      "name": "Quotes",
+      "links": [
+        "/ideas"
+      ]
+    },
+    {
       "id": "/checklists",
       "group": 2,
       "name": "Checklists",
@@ -365,20 +389,6 @@
       ]
     },
     {
-      "id": "/essais",
-      "group": 2,
-      "name": "Essais",
-      "links": [
-        "/lists",
-        "/be-good-to-each-other-and-yourself",
-        "/how-to-grow-old-russell",
-        "/farming-trap",
-        "/the-triumph-of-stupidity",
-        "/who-goes-nazi",
-        "/being-poor"
-      ]
-    },
-    {
       "id": "/movies",
       "group": 2,
       "name": "Movies 🎬",
@@ -390,14 +400,6 @@
       "id": "/paintings",
       "group": 2,
       "name": "Paintings",
-      "links": [
-        "/lists"
-      ]
-    },
-    {
-      "id": "/quotes",
-      "group": 2,
-      "name": "Quotes",
       "links": [
         "/lists"
       ]
@@ -1187,8 +1189,8 @@
       "name": "Be Good To Each Other And Yourself",
       "links": [
         "/philosophy",
-        "/work",
-        "/essais"
+        "/essais",
+        "/work"
       ]
     },
     {
@@ -3982,6 +3984,14 @@
       "target": "/work"
     },
     {
+      "source": "/ideas",
+      "target": "/essais"
+    },
+    {
+      "source": "/ideas",
+      "target": "/quotes"
+    },
+    {
       "source": "/lists",
       "target": "/checklists"
     },
@@ -3999,19 +4009,11 @@
     },
     {
       "source": "/lists",
-      "target": "/essais"
-    },
-    {
-      "source": "/lists",
       "target": "/movies"
     },
     {
       "source": "/lists",
       "target": "/paintings"
-    },
-    {
-      "source": "/lists",
-      "target": "/quotes"
     },
     {
       "source": "/misc",
@@ -5602,6 +5604,30 @@
       "target": "/problem-solving"
     },
     {
+      "source": "/essais",
+      "target": "/be-good-to-each-other-and-yourself"
+    },
+    {
+      "source": "/essais",
+      "target": "/how-to-grow-old-russell"
+    },
+    {
+      "source": "/essais",
+      "target": "/farming-trap"
+    },
+    {
+      "source": "/essais",
+      "target": "/the-triumph-of-stupidity"
+    },
+    {
+      "source": "/essais",
+      "target": "/who-goes-nazi"
+    },
+    {
+      "source": "/essais",
+      "target": "/being-poor"
+    },
+    {
       "source": "/be-good-to-each-other-and-yourself",
       "target": "/work"
     },
@@ -5694,32 +5720,12 @@
       "target": "/probability-and-statistics"
     },
     {
-      "source": "/essais",
-      "target": "/be-good-to-each-other-and-yourself"
-    },
-    {
-      "source": "/essais",
-      "target": "/how-to-grow-old-russell"
-    },
-    {
-      "source": "/essais",
-      "target": "/farming-trap"
-    },
-    {
-      "source": "/essais",
-      "target": "/the-triumph-of-stupidity"
-    },
-    {
-      "source": "/essais",
-      "target": "/who-goes-nazi"
-    },
-    {
-      "source": "/essais",
-      "target": "/being-poor"
+      "source": "/lists",
+      "target": "/classics"
     },
     {
       "source": "/lists",
-      "target": "/classics"
+      "target": "/essais"
     },
     {
       "source": "/lists",
