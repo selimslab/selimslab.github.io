@@ -9,6 +9,7 @@ How I feel is like weather, I may not change it but I can choose my own actions
 
 [Tag: emotions - Sketchplanations](https://sketchplanations.com/tags/emotions)
 
+"Its braver to overcome desire than to conquer enemy, for the hardest victory is over self" Aristotle 
 
 ## Anger 
 

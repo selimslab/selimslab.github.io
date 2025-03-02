@@ -198,46 +198,45 @@
   "/yunus-emre": [
     "siir"
   ],
-  "/balance": [
-    "choice"
-  ],
-  "/character": [
-    "choice"
-  ],
-  "/choice": [
-    "decisions",
-    "ideas"
-  ],
-  "/do-one-thing-at-a-time-and-do-it-well": [
-    "choice",
-    "phil"
-  ],
-  "/do-without-doing": [
-    "choice"
-  ],
-  "/gratitude": [
-    "choice"
-  ],
-  "/know-where-to-stop": [
-    "choice"
-  ],
-  "/take-a-walk": [
-    "choice",
-    "top"
-  ],
-  "/the-less-the-better": [
-    "choice"
-  ],
   "/essais": [
     "ideas",
     "lists"
   ],
+  "/balance": [
+    "eudaimonia"
+  ],
+  "/character": [
+    "eudaimonia"
+  ],
+  "/choice": [
+    "decisions",
+    "eudaimonia"
+  ],
+  "/do-one-thing-at-a-time-and-do-it-well": [
+    "eudaimonia",
+    "phil"
+  ],
+  "/do-without-doing": [
+    "eudaimonia"
+  ],
+  "/eudaimonia": [
+    "ideas"
+  ],
+  "/gratitude": [
+    "eudaimonia"
+  ],
+  "/know-where-to-stop": [
+    "eudaimonia"
+  ],
+  "/less": [
+    "eudaimonia"
+  ],
+  "/take-a-walk": [
+    "eudaimonia",
+    "top"
+  ],
   "/ideas": [
 
-  ],
-  "/a-good-life": [
-    "philosophy",
-    "psy"
   ],
   "/all-is-one": [
     "philosophy"
@@ -274,13 +273,13 @@
   "/good-and-evil": [
     "philosophy"
   ],
+  "/marcus-aurelius": [
+    "philosophy"
+  ],
   "/philosophy": [
     "ideas"
   ],
   "/questions": [
-    "philosophy"
-  ],
-  "/solitude": [
     "philosophy"
   ],
   "/stupidity": [
@@ -291,9 +290,6 @@
   ],
   "/truth": [
     "philosophy"
-  ],
-  "/quotes": [
-    "ideas"
   ],
   "/critical-thinking": [
     "phil",
@@ -324,7 +320,8 @@
   ],
   "/systems-thinking": [
     "reasoning",
-    "soc"
+    "soc",
+    "systems"
   ],
   "/death": [
     "time"
@@ -398,6 +395,9 @@
     "lists"
   ],
   "/paintings": [
+    "lists"
+  ],
+  "/quotes": [
     "lists"
   ],
   "/about": [
@@ -602,6 +602,9 @@
     "psychology"
   ],
   "/habits": [
+    "psychology"
+  ],
+  "/happiness": [
     "psychology"
   ],
   "/manipulation": [
@@ -1292,6 +1295,9 @@
     "system-design"
   ],
   "/solid": [
+    "system-design"
+  ],
+  "/sys-design-core": [
     "system-design"
   ],
   "/system-design": [

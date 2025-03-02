@@ -20,3 +20,11 @@ Leave it better than you found.
 [[get-things-done]]
 
 [[decision-making]]
+
+## Questions 
+
+* What would my best version do? 
+
+* Is this the most important thing I should be working on?
+
+* What seems like work to other people yet play to me?

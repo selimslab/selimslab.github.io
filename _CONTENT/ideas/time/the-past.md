@@ -16,6 +16,8 @@ Neither blame yourself nor others. Forgive yourself, forgive others. Leave the b
 
 Would you treat a beloved friend as you treat yourself? Be kind to yourself. If you won't, who will? 
 
+Don't waste your time in anger, regret, worry, and hate. Not worth it. 
+
 Learn from the past and move on. 
 
 "It's no use going back to yesterday, because I was a different person then"

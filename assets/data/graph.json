@@ -36,12 +36,11 @@
       "links": [
         "/root",
         "/philosophy",
-        "/choice",
+        "/eudaimonia",
         "/reasoning",
         "/time",
         "/work",
-        "/essais",
-        "/quotes"
+        "/essais"
       ]
     },
     {
@@ -56,6 +55,7 @@
         "/documentaries",
         "/movies",
         "/paintings",
+        "/quotes",
         "/classics",
         "/essais",
         "/history-of-technology",
@@ -234,7 +234,6 @@
       "name": "Philosophy",
       "links": [
         "/ideas",
-        "/a-good-life",
         "/all-is-one",
         "/aristotle",
         "/be-good-to-each-other-and-yourself",
@@ -246,8 +245,8 @@
         "/freedom",
         "/friends",
         "/good-and-evil",
+        "/marcus-aurelius",
         "/questions",
-        "/solitude",
         "/stupidity",
         "/travelling",
         "/truth",
@@ -260,20 +259,20 @@
       ]
     },
     {
-      "id": "/choice",
+      "id": "/eudaimonia",
       "group": 2,
-      "name": "Choice",
+      "name": "Eudaimonia 🌱",
       "links": [
         "/ideas",
         "/balance",
         "/character",
+        "/choice",
         "/do-one-thing-at-a-time-and-do-it-well",
         "/do-without-doing",
         "/gratitude",
         "/know-where-to-stop",
-        "/take-a-walk",
-        "/the-less-the-better",
-        "/a-good-life"
+        "/less",
+        "/take-a-walk"
       ]
     },
     {
@@ -345,14 +344,6 @@
       ]
     },
     {
-      "id": "/quotes",
-      "group": 2,
-      "name": "Quotes",
-      "links": [
-        "/ideas"
-      ]
-    },
-    {
       "id": "/checklists",
       "group": 2,
       "name": "Checklists",
@@ -400,6 +391,14 @@
       "id": "/paintings",
       "group": 2,
       "name": "Paintings",
+      "links": [
+        "/lists"
+      ]
+    },
+    {
+      "id": "/quotes",
+      "group": 2,
+      "name": "Quotes",
       "links": [
         "/lists"
       ]
@@ -644,6 +643,7 @@
         "/hacker-laws",
         "/minimal-tech",
         "/solid",
+        "/sys-design-core",
         "/akins-laws-of-spacecraft",
         "/distributed-systems",
         "/oop",
@@ -1158,16 +1158,6 @@
       ]
     },
     {
-      "id": "/a-good-life",
-      "group": 3,
-      "name": "A good life 🌱",
-      "links": [
-        "/philosophy",
-        "/choice",
-        "/psychology"
-      ]
-    },
-    {
       "id": "/all-is-one",
       "group": 3,
       "name": "All is One",
@@ -1262,20 +1252,20 @@
       ]
     },
     {
+      "id": "/marcus-aurelius",
+      "group": 3,
+      "name": "Marcus Aurelius",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
       "id": "/questions",
       "group": 3,
       "name": "Questions",
       "links": [
         "/philosophy",
         "/critical-thinking"
-      ]
-    },
-    {
-      "id": "/solitude",
-      "group": 3,
-      "name": "Solitude",
-      "links": [
-        "/philosophy"
       ]
     },
     {
@@ -1307,7 +1297,7 @@
       "group": 3,
       "name": "Balance",
       "links": [
-        "/choice"
+        "/eudaimonia"
       ]
     },
     {
@@ -1315,8 +1305,16 @@
       "group": 3,
       "name": "Character",
       "links": [
-        "/choice",
+        "/eudaimonia",
         "/freedom"
+      ]
+    },
+    {
+      "id": "/choice",
+      "group": 3,
+      "name": "Choice",
+      "links": [
+        "/eudaimonia"
       ]
     },
     {
@@ -1324,7 +1322,7 @@
       "group": 3,
       "name": "Do One Thing At A Time And Do It Well",
       "links": [
-        "/choice",
+        "/eudaimonia",
         "/lightly-child",
         "/get-things-done",
         "/teamwork",
@@ -1337,7 +1335,7 @@
       "group": 3,
       "name": "Do without doing - Wu Wei 無爲",
       "links": [
-        "/choice",
+        "/eudaimonia",
         "/decision-making",
         "/teamwork"
       ]
@@ -1347,7 +1345,7 @@
       "group": 3,
       "name": "Gratitude",
       "links": [
-        "/choice"
+        "/eudaimonia"
       ]
     },
     {
@@ -1355,8 +1353,16 @@
       "group": 3,
       "name": "Know Where To Stop",
       "links": [
-        "/choice",
+        "/eudaimonia",
         "/wind-and-rain"
+      ]
+    },
+    {
+      "id": "/less",
+      "group": 3,
+      "name": "Less",
+      "links": [
+        "/eudaimonia"
       ]
     },
     {
@@ -1364,17 +1370,9 @@
       "group": 3,
       "name": "Take a walk",
       "links": [
-        "/choice",
+        "/eudaimonia",
         "/get-things-done",
         "/problem-solving"
-      ]
-    },
-    {
-      "id": "/the-less-the-better",
-      "group": 3,
-      "name": "The Less The Better",
-      "links": [
-        "/choice"
       ]
     },
     {
@@ -1855,12 +1853,12 @@
         "/cognitive-biases",
         "/emotions",
         "/habits",
+        "/happiness",
         "/manipulation",
         "/parenting",
         "/procrastination",
         "/spot-a-liar",
         "/stress",
-        "/a-good-life",
         "/inertia"
       ]
     },
@@ -2521,7 +2519,7 @@
     {
       "id": "/api-design",
       "group": 3,
-      "name": "Api Design",
+      "name": "API Design",
       "links": [
         "/system-design"
       ]
@@ -2579,6 +2577,14 @@
       "id": "/solid",
       "group": 3,
       "name": "SOLID",
+      "links": [
+        "/system-design"
+      ]
+    },
+    {
+      "id": "/sys-design-core",
+      "group": 3,
+      "name": "System Design Fundamentals",
       "links": [
         "/system-design"
       ]
@@ -2956,6 +2962,14 @@
       "id": "/habits",
       "group": 4,
       "name": "Habits",
+      "links": [
+        "/psychology"
+      ]
+    },
+    {
+      "id": "/happiness",
+      "group": 4,
+      "name": "Happiness",
       "links": [
         "/psychology"
       ]
@@ -3969,7 +3983,7 @@
     },
     {
       "source": "/ideas",
-      "target": "/choice"
+      "target": "/eudaimonia"
     },
     {
       "source": "/ideas",
@@ -3986,10 +4000,6 @@
     {
       "source": "/ideas",
       "target": "/essais"
-    },
-    {
-      "source": "/ideas",
-      "target": "/quotes"
     },
     {
       "source": "/lists",
@@ -4014,6 +4024,10 @@
     {
       "source": "/lists",
       "target": "/paintings"
+    },
+    {
+      "source": "/lists",
+      "target": "/quotes"
     },
     {
       "source": "/misc",
@@ -4317,10 +4331,6 @@
     },
     {
       "source": "/philosophy",
-      "target": "/a-good-life"
-    },
-    {
-      "source": "/philosophy",
       "target": "/all-is-one"
     },
     {
@@ -4365,11 +4375,11 @@
     },
     {
       "source": "/philosophy",
-      "target": "/questions"
+      "target": "/marcus-aurelius"
     },
     {
       "source": "/philosophy",
-      "target": "/solitude"
+      "target": "/questions"
     },
     {
       "source": "/philosophy",
@@ -4384,36 +4394,40 @@
       "target": "/truth"
     },
     {
-      "source": "/choice",
+      "source": "/eudaimonia",
       "target": "/balance"
     },
     {
-      "source": "/choice",
+      "source": "/eudaimonia",
       "target": "/character"
     },
     {
-      "source": "/choice",
+      "source": "/eudaimonia",
+      "target": "/choice"
+    },
+    {
+      "source": "/eudaimonia",
       "target": "/do-one-thing-at-a-time-and-do-it-well"
     },
     {
-      "source": "/choice",
+      "source": "/eudaimonia",
       "target": "/do-without-doing"
     },
     {
-      "source": "/choice",
+      "source": "/eudaimonia",
       "target": "/gratitude"
     },
     {
-      "source": "/choice",
+      "source": "/eudaimonia",
       "target": "/know-where-to-stop"
     },
     {
-      "source": "/choice",
-      "target": "/take-a-walk"
+      "source": "/eudaimonia",
+      "target": "/less"
     },
     {
-      "source": "/choice",
-      "target": "/the-less-the-better"
+      "source": "/eudaimonia",
+      "target": "/take-a-walk"
     },
     {
       "source": "/reasoning",
@@ -4920,6 +4934,10 @@
       "target": "/solid"
     },
     {
+      "source": "/system-design",
+      "target": "/sys-design-core"
+    },
+    {
       "source": "/ux",
       "target": "/a-free-web-again"
     },
@@ -5094,6 +5112,10 @@
     {
       "source": "/psychology",
       "target": "/habits"
+    },
+    {
+      "source": "/psychology",
+      "target": "/happiness"
     },
     {
       "source": "/psychology",
@@ -5568,12 +5590,32 @@
       "target": "/know-where-to-stop"
     },
     {
-      "source": "/character",
-      "target": "/freedom"
+      "source": "/essais",
+      "target": "/be-good-to-each-other-and-yourself"
     },
     {
-      "source": "/choice",
-      "target": "/a-good-life"
+      "source": "/essais",
+      "target": "/how-to-grow-old-russell"
+    },
+    {
+      "source": "/essais",
+      "target": "/farming-trap"
+    },
+    {
+      "source": "/essais",
+      "target": "/the-triumph-of-stupidity"
+    },
+    {
+      "source": "/essais",
+      "target": "/who-goes-nazi"
+    },
+    {
+      "source": "/essais",
+      "target": "/being-poor"
+    },
+    {
+      "source": "/character",
+      "target": "/freedom"
     },
     {
       "source": "/do-one-thing-at-a-time-and-do-it-well",
@@ -5602,30 +5644,6 @@
     {
       "source": "/take-a-walk",
       "target": "/problem-solving"
-    },
-    {
-      "source": "/essais",
-      "target": "/be-good-to-each-other-and-yourself"
-    },
-    {
-      "source": "/essais",
-      "target": "/how-to-grow-old-russell"
-    },
-    {
-      "source": "/essais",
-      "target": "/farming-trap"
-    },
-    {
-      "source": "/essais",
-      "target": "/the-triumph-of-stupidity"
-    },
-    {
-      "source": "/essais",
-      "target": "/who-goes-nazi"
-    },
-    {
-      "source": "/essais",
-      "target": "/being-poor"
     },
     {
       "source": "/be-good-to-each-other-and-yourself",
@@ -5770,10 +5788,6 @@
     {
       "source": "/politics",
       "target": "/tao-te-ching"
-    },
-    {
-      "source": "/psychology",
-      "target": "/a-good-life"
     },
     {
       "source": "/psychology",

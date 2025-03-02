@@ -67,6 +67,3 @@ so that his place shall never be with those cold and timid souls
 who neither know victory nor defeat.”
  
 _Theodore Roosevelt_
-
-
-
