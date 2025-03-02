@@ -7,7 +7,7 @@
 
 "Well-being is attained little by little, and nevertheless is no little thing itself"
 
-Real wealth is building character. Applying your qualities. Healing your wounds. Understanding your dark side.
+Real wealth is building character. Applying your qualities. Healing your wounds. Facing your dark side.
 
 Nothing in excess. Simple things are the best. 
 
