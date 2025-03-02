@@ -1,6 +1,5 @@
 ---
 title: Hacker Laws
-tags: sys
 --- 
 
 > All models are wrong, but some are useful. 

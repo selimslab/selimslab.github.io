@@ -1,5 +1,5 @@
 ---
-title: System Design Fundamentals
+title: Fundamentals
 ---
 
 There are many kinds of tech with different tradeoffs but at the high level, many systems are built over the same fundamental ideas. 
