@@ -20,7 +20,7 @@ class SiteGenerator < Jekyll::Generator
     fix_frontmatter unless @fixed_frontmatter
 
     initialize_site_data(site)
-    tree = generate_tree(site)
+    tree = bfs(site, ROOT_PATH)
     site.data["tree"] = tree
     tree_level_order_data = tree_level_order(tree)
     site.data["tree_level_order"] = tree_level_order_data
@@ -180,7 +180,7 @@ class SiteGenerator < Jekyll::Generator
       # Sort children by title
       sorted_children = children
         .reject { |child_id| child_id == parent_id }
-        # .sort_by { |child_id| file_to_title[child_id] || child_id }
+        .sort_by { |child_id| file_to_title[child_id] || child_id }
       
       # Generate HTML list
       html = "<ul>"
@@ -411,19 +411,7 @@ class SiteGenerator < Jekyll::Generator
     end
   end
 
-  def generate_tree(site)
-    # Generate the basic tree structure using breadth-first search
-    tree = bfs(site, ROOT_PATH)
-    
-    # Sort each node's children by:
-    # 1. Descending order of their children count (more children first)
-    # 2. Alphabetically by title
-    tree.transform_values! do |children|
-      children.sort_by { |key, value| [-value.length, site.data["file_to_title"][key]] }.to_h
-    end
-    
-    tree
-  end
+
 
 
   def bfs(site, path)

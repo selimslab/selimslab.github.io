@@ -11,8 +11,6 @@
 
 - Grokking Algorithms, An Illustrated Guide For Programmers and Other Curious People
 
-- [[computers]]
-
 * [Teach Yourself Computer Science](https://teachyourselfcs.com/)
 
 * [History of the Internet - Wikipedia](https://en.wikipedia.org/wiki/History_of_the_Internet)
