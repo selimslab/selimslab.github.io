@@ -288,7 +288,8 @@
         "/mastery",
         "/one-bit-better",
         "/problem-solving",
-        "/systems-thinking"
+        "/systems-thinking",
+        "/work"
       ]
     },
     {
@@ -323,9 +324,8 @@
         "/you-are-not-nameless",
         "/do-one-thing-at-a-time-and-do-it-well",
         "/be-good-to-each-other-and-yourself",
-        "/decision-making",
-        "/get-things-done",
-        "/mastery"
+        "/mastery",
+        "/reasoning"
       ]
     },
     {
@@ -1393,8 +1393,7 @@
       "links": [
         "/reasoning",
         "/do-without-doing",
-        "/get-things-done",
-        "/work"
+        "/get-things-done"
       ]
     },
     {
@@ -1405,8 +1404,7 @@
         "/reasoning",
         "/do-one-thing-at-a-time-and-do-it-well",
         "/take-a-walk",
-        "/decision-making",
-        "/work"
+        "/decision-making"
       ]
     },
     {
@@ -5690,19 +5688,15 @@
       "target": "/get-things-done"
     },
     {
-      "source": "/decision-making",
-      "target": "/work"
-    },
-    {
-      "source": "/get-things-done",
-      "target": "/work"
-    },
-    {
       "source": "/mastery",
       "target": "/teamwork"
     },
     {
       "source": "/mastery",
+      "target": "/work"
+    },
+    {
+      "source": "/reasoning",
       "target": "/work"
     },
     {

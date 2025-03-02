@@ -2,16 +2,20 @@
 layout: default
 ---
 
+
   {% include taglist.html %}
 
   <h1>{{ page.title }}</h1>  
  
   {% include read-time.html %}
 
-  {% include children.html %}
-
   {{ content }}
 
+  {% if page.children.size > 0 %}
+  <br>
+  {{ site.data.tree_htmls[page.id] }}
+  {% endif %}
+  
   {% include backlinks.html %}
 
 
