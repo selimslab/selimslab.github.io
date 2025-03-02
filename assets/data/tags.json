@@ -221,10 +221,6 @@
   "/know-where-to-stop": [
     "choice"
   ],
-  "/one-bit-better": [
-    "choice",
-    "top"
-  ],
   "/take-a-walk": [
     "choice",
     "top"
@@ -240,6 +236,9 @@
     "psy"
   ],
   "/all-is-one": [
+    "philosophy"
+  ],
+  "/aristotle": [
     "philosophy"
   ],
   "/be-good-to-each-other-and-yourself": [
@@ -271,9 +270,6 @@
   "/good-and-evil": [
     "philosophy"
   ],
-  "/ideal-insan": [
-    "philosophy"
-  ],
   "/philosophy": [
     "ideas"
   ],
@@ -287,6 +283,9 @@
     "philosophy"
   ],
   "/travelling": [
+    "philosophy"
+  ],
+  "/truth": [
     "philosophy"
   ],
   "/critical-thinking": [
@@ -306,6 +305,10 @@
   "/mastery": [
     "reasoning"
   ],
+  "/one-bit-better": [
+    "reasoning",
+    "top"
+  ],
   "/problem-solving": [
     "reasoning"
   ],
@@ -315,9 +318,6 @@
   "/systems-thinking": [
     "reasoning",
     "soc"
-  ],
-  "/truth": [
-    "reasoning"
   ],
   "/death": [
     "time"

@@ -17,6 +17,6 @@ A decade is 3 seconds
 
 30 seconds is a century, 5 minutes a thousand years
 
-The last hour is the past 12 000 years [[121st-century]]
+The last hour is the past 12 000 years 
 
 A human life is 20-30 seconds at most, in a 138 years old universe

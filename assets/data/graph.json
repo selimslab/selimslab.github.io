@@ -235,6 +235,7 @@
         "/ideas",
         "/a-good-life",
         "/all-is-one",
+        "/aristotle",
         "/be-good-to-each-other-and-yourself",
         "/books-phil",
         "/concepts-in-greek-thought",
@@ -244,11 +245,11 @@
         "/freedom",
         "/friends",
         "/good-and-evil",
-        "/ideal-insan",
         "/questions",
         "/solitude",
         "/stupidity",
         "/travelling",
+        "/truth",
         "/do-one-thing-at-a-time-and-do-it-well",
         "/tao-te-ching",
         "/critical-thinking",
@@ -269,7 +270,6 @@
         "/do-without-doing",
         "/gratitude",
         "/know-where-to-stop",
-        "/one-bit-better",
         "/take-a-walk",
         "/the-less-the-better",
         "/a-good-life"
@@ -286,9 +286,9 @@
         "/get-things-done",
         "/learning",
         "/mastery",
+        "/one-bit-better",
         "/problem-solving",
-        "/systems-thinking",
-        "/truth"
+        "/systems-thinking"
       ]
     },
     {
@@ -1174,6 +1174,14 @@
       ]
     },
     {
+      "id": "/aristotle",
+      "group": 3,
+      "name": "Aristotle",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
       "id": "/be-good-to-each-other-and-yourself",
       "group": 3,
       "name": "Be Good To Each Other And Yourself",
@@ -1252,14 +1260,6 @@
       ]
     },
     {
-      "id": "/ideal-insan",
-      "group": 3,
-      "name": "Ideal Insan",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
       "id": "/questions",
       "group": 3,
       "name": "Questions",
@@ -1288,6 +1288,14 @@
       "id": "/travelling",
       "group": 3,
       "name": "Travelling",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/truth",
+      "group": 3,
+      "name": "Truth",
       "links": [
         "/philosophy"
       ]
@@ -1347,15 +1355,6 @@
       "links": [
         "/choice",
         "/wind-and-rain"
-      ]
-    },
-    {
-      "id": "/one-bit-better",
-      "group": 3,
-      "name": "One Bit Better",
-      "links": [
-        "/choice",
-        "/lightly-child"
       ]
     },
     {
@@ -1430,6 +1429,15 @@
       ]
     },
     {
+      "id": "/one-bit-better",
+      "group": 3,
+      "name": "One Bit Better",
+      "links": [
+        "/reasoning",
+        "/lightly-child"
+      ]
+    },
+    {
       "id": "/problem-solving",
       "group": 3,
       "name": "Problem Solving",
@@ -1446,14 +1454,6 @@
       "links": [
         "/reasoning",
         "/social-sciences"
-      ]
-    },
-    {
-      "id": "/truth",
-      "group": 3,
-      "name": "Truth",
-      "links": [
-        "/reasoning"
       ]
     },
     {
@@ -4323,6 +4323,10 @@
     },
     {
       "source": "/philosophy",
+      "target": "/aristotle"
+    },
+    {
+      "source": "/philosophy",
       "target": "/be-good-to-each-other-and-yourself"
     },
     {
@@ -4359,10 +4363,6 @@
     },
     {
       "source": "/philosophy",
-      "target": "/ideal-insan"
-    },
-    {
-      "source": "/philosophy",
       "target": "/questions"
     },
     {
@@ -4376,6 +4376,10 @@
     {
       "source": "/philosophy",
       "target": "/travelling"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/truth"
     },
     {
       "source": "/choice",
@@ -4400,10 +4404,6 @@
     {
       "source": "/choice",
       "target": "/know-where-to-stop"
-    },
-    {
-      "source": "/choice",
-      "target": "/one-bit-better"
     },
     {
       "source": "/choice",
@@ -4435,15 +4435,15 @@
     },
     {
       "source": "/reasoning",
+      "target": "/one-bit-better"
+    },
+    {
+      "source": "/reasoning",
       "target": "/problem-solving"
     },
     {
       "source": "/reasoning",
       "target": "/systems-thinking"
-    },
-    {
-      "source": "/reasoning",
-      "target": "/truth"
     },
     {
       "source": "/time",
