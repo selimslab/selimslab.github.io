@@ -24,7 +24,6 @@
         "/communication",
         "/design",
         "/edebiyat",
-        "/languages",
         "/literature",
         "/poetry"
       ]
@@ -53,7 +52,6 @@
         "/root",
         "/essais",
         "/choice",
-        "/eudaimonia",
         "/health",
         "/philosophy",
         "/reasoning",
@@ -73,8 +71,8 @@
         "/movies",
         "/paintings",
         "/quotes",
-        "/typing-practice",
         "/checklists",
+        "/experiments",
         "/classics",
         "/essais",
         "/history-of-technology",
@@ -188,16 +186,6 @@
       ]
     },
     {
-      "id": "/languages",
-      "group": 2,
-      "name": "Languages",
-      "links": [
-        "/arts",
-        "/latin",
-        "/metaphors"
-      ]
-    },
-    {
       "id": "/literature",
       "group": 2,
       "name": "Literature",
@@ -205,7 +193,9 @@
         "/arts",
         "/authors",
         "/cien-anos-de-soledad",
-        "/classics"
+        "/classics",
+        "/latin",
+        "/metaphors"
       ]
     },
     {
@@ -420,27 +410,16 @@
       "name": "Choice",
       "links": [
         "/ideas",
+        "/character",
         "/criticism",
         "/do-one-thing-at-a-time-and-do-it-well",
         "/do-without-doing",
         "/gratitude",
         "/know-where-to-stop",
         "/less",
+        "/one-bit-at-a-time",
         "/possibility",
         "/decision-making"
-      ]
-    },
-    {
-      "id": "/eudaimonia",
-      "group": 2,
-      "name": "Eudaimonia 🌱",
-      "links": [
-        "/ideas",
-        "/balance",
-        "/character",
-        "/friends",
-        "/one-bit-better",
-        "/take-a-walk"
       ]
     },
     {
@@ -463,13 +442,16 @@
         "/ideas",
         "/all-is-one",
         "/aristotle",
+        "/balance",
         "/be-good-to-each-other-and-yourself",
         "/books-phil",
         "/concepts-in-greek-thought",
         "/enemies",
         "/epicurus",
+        "/eudaimonia",
         "/free-will",
         "/freedom",
+        "/friends",
         "/good-and-evil",
         "/marcus-aurelius",
         "/questions",
@@ -496,6 +478,7 @@
         "/mastery",
         "/problem-solving",
         "/systems-thinking",
+        "/take-a-walk",
         "/work",
         "/sciences"
       ]
@@ -591,14 +574,6 @@
       ]
     },
     {
-      "id": "/typing-practice",
-      "group": 2,
-      "name": "Typing Practice",
-      "links": [
-        "/lists"
-      ]
-    },
-    {
       "id": "/checklists",
       "group": 2,
       "name": "Checklists",
@@ -607,6 +582,15 @@
         "/driving",
         "/outdoors",
         "/used-cars"
+      ]
+    },
+    {
+      "id": "/experiments",
+      "group": 2,
+      "name": "Experiments",
+      "links": [
+        "/lists",
+        "/typing-practice"
       ]
     },
     {
@@ -1037,22 +1021,6 @@
       ]
     },
     {
-      "id": "/latin",
-      "group": 3,
-      "name": "Latin",
-      "links": [
-        "/languages"
-      ]
-    },
-    {
-      "id": "/metaphors",
-      "group": 3,
-      "name": "Metaphors",
-      "links": [
-        "/languages"
-      ]
-    },
-    {
       "id": "/authors",
       "group": 3,
       "name": "Authors",
@@ -1077,6 +1045,22 @@
         "/literature",
         "/cien-anos-de-soledad",
         "/lists"
+      ]
+    },
+    {
+      "id": "/latin",
+      "group": 3,
+      "name": "Latin",
+      "links": [
+        "/literature"
+      ]
+    },
+    {
+      "id": "/metaphors",
+      "group": 3,
+      "name": "Metaphors",
+      "links": [
+        "/literature"
       ]
     },
     {
@@ -1151,7 +1135,7 @@
       "links": [
         "/poetry",
         "/do-one-thing-at-a-time-and-do-it-well",
-        "/one-bit-better"
+        "/one-bit-at-a-time"
       ]
     },
     {
@@ -2103,6 +2087,15 @@
       ]
     },
     {
+      "id": "/character",
+      "group": 3,
+      "name": "Character",
+      "links": [
+        "/choice",
+        "/freedom"
+      ]
+    },
+    {
       "id": "/criticism",
       "group": 3,
       "name": "Criticism",
@@ -2159,55 +2152,20 @@
       ]
     },
     {
+      "id": "/one-bit-at-a-time",
+      "group": 3,
+      "name": "One Bit At A Time",
+      "links": [
+        "/choice",
+        "/lightly-child"
+      ]
+    },
+    {
       "id": "/possibility",
       "group": 3,
       "name": "Possibility",
       "links": [
         "/choice"
-      ]
-    },
-    {
-      "id": "/balance",
-      "group": 3,
-      "name": "Balance",
-      "links": [
-        "/eudaimonia"
-      ]
-    },
-    {
-      "id": "/character",
-      "group": 3,
-      "name": "Character",
-      "links": [
-        "/eudaimonia",
-        "/freedom"
-      ]
-    },
-    {
-      "id": "/friends",
-      "group": 3,
-      "name": "Friends",
-      "links": [
-        "/eudaimonia"
-      ]
-    },
-    {
-      "id": "/one-bit-better",
-      "group": 3,
-      "name": "One Bit Better",
-      "links": [
-        "/eudaimonia",
-        "/lightly-child"
-      ]
-    },
-    {
-      "id": "/take-a-walk",
-      "group": 3,
-      "name": "Take a walk",
-      "links": [
-        "/eudaimonia",
-        "/get-things-done",
-        "/problem-solving"
       ]
     },
     {
@@ -2260,6 +2218,14 @@
       ]
     },
     {
+      "id": "/balance",
+      "group": 3,
+      "name": "Balance",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
       "id": "/be-good-to-each-other-and-yourself",
       "group": 3,
       "name": "Be Good To Each Other And Yourself",
@@ -2303,6 +2269,14 @@
       ]
     },
     {
+      "id": "/eudaimonia",
+      "group": 3,
+      "name": "Eudaimonia 🌱",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
       "id": "/free-will",
       "group": 3,
       "name": "Free Will",
@@ -2318,6 +2292,14 @@
         "/philosophy",
         "/character",
         "/success-and-failure"
+      ]
+    },
+    {
+      "id": "/friends",
+      "group": 3,
+      "name": "Friends",
+      "links": [
+        "/philosophy"
       ]
     },
     {
@@ -2398,7 +2380,6 @@
       "links": [
         "/reasoning",
         "/do-one-thing-at-a-time-and-do-it-well",
-        "/take-a-walk",
         "/decision-making"
       ]
     },
@@ -2427,7 +2408,6 @@
       "name": "Problem Solving",
       "links": [
         "/reasoning",
-        "/take-a-walk",
         "/critical-thinking"
       ]
     },
@@ -2438,6 +2418,14 @@
       "links": [
         "/reasoning",
         "/system-design"
+      ]
+    },
+    {
+      "id": "/take-a-walk",
+      "group": 3,
+      "name": "Take a walk",
+      "links": [
+        "/reasoning"
       ]
     },
     {
@@ -2594,6 +2582,14 @@
       "links": [
         "/checklists",
         "/driving"
+      ]
+    },
+    {
+      "id": "/typing-practice",
+      "group": 3,
+      "name": "Typing Practice",
+      "links": [
+        "/experiments"
       ]
     },
     {
@@ -3966,10 +3962,6 @@
     },
     {
       "source": "/arts",
-      "target": "/languages"
-    },
-    {
-      "source": "/arts",
       "target": "/literature"
     },
     {
@@ -4018,10 +4010,6 @@
     },
     {
       "source": "/ideas",
-      "target": "/eudaimonia"
-    },
-    {
-      "source": "/ideas",
       "target": "/health"
     },
     {
@@ -4066,11 +4054,11 @@
     },
     {
       "source": "/lists",
-      "target": "/typing-practice"
+      "target": "/checklists"
     },
     {
       "source": "/lists",
-      "target": "/checklists"
+      "target": "/experiments"
     },
     {
       "source": "/misc",
@@ -4257,14 +4245,6 @@
       "target": "/yunus-emre"
     },
     {
-      "source": "/languages",
-      "target": "/latin"
-    },
-    {
-      "source": "/languages",
-      "target": "/metaphors"
-    },
-    {
       "source": "/literature",
       "target": "/authors"
     },
@@ -4275,6 +4255,14 @@
     {
       "source": "/literature",
       "target": "/classics"
+    },
+    {
+      "source": "/literature",
+      "target": "/latin"
+    },
+    {
+      "source": "/literature",
+      "target": "/metaphors"
     },
     {
       "source": "/poetry",
@@ -4722,6 +4710,10 @@
     },
     {
       "source": "/choice",
+      "target": "/character"
+    },
+    {
+      "source": "/choice",
       "target": "/criticism"
     },
     {
@@ -4746,27 +4738,11 @@
     },
     {
       "source": "/choice",
+      "target": "/one-bit-at-a-time"
+    },
+    {
+      "source": "/choice",
       "target": "/possibility"
-    },
-    {
-      "source": "/eudaimonia",
-      "target": "/balance"
-    },
-    {
-      "source": "/eudaimonia",
-      "target": "/character"
-    },
-    {
-      "source": "/eudaimonia",
-      "target": "/friends"
-    },
-    {
-      "source": "/eudaimonia",
-      "target": "/one-bit-better"
-    },
-    {
-      "source": "/eudaimonia",
-      "target": "/take-a-walk"
     },
     {
       "source": "/health",
@@ -4794,6 +4770,10 @@
     },
     {
       "source": "/philosophy",
+      "target": "/balance"
+    },
+    {
+      "source": "/philosophy",
       "target": "/be-good-to-each-other-and-yourself"
     },
     {
@@ -4814,11 +4794,19 @@
     },
     {
       "source": "/philosophy",
+      "target": "/eudaimonia"
+    },
+    {
+      "source": "/philosophy",
       "target": "/free-will"
     },
     {
       "source": "/philosophy",
       "target": "/freedom"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/friends"
     },
     {
       "source": "/philosophy",
@@ -4871,6 +4859,10 @@
     {
       "source": "/reasoning",
       "target": "/systems-thinking"
+    },
+    {
+      "source": "/reasoning",
+      "target": "/take-a-walk"
     },
     {
       "source": "/time",
@@ -4943,6 +4935,10 @@
     {
       "source": "/checklists",
       "target": "/used-cars"
+    },
+    {
+      "source": "/experiments",
+      "target": "/typing-practice"
     },
     {
       "source": "/earth",
@@ -5578,7 +5574,7 @@
     },
     {
       "source": "/lightly-child",
-      "target": "/one-bit-better"
+      "target": "/one-bit-at-a-time"
     },
     {
       "source": "/tao-te-ching",
@@ -5837,6 +5833,10 @@
       "target": "/systems-thinking"
     },
     {
+      "source": "/character",
+      "target": "/freedom"
+    },
+    {
       "source": "/choice",
       "target": "/decision-making"
     },
@@ -5887,18 +5887,6 @@
     {
       "source": "/essais",
       "target": "/being-poor"
-    },
-    {
-      "source": "/character",
-      "target": "/freedom"
-    },
-    {
-      "source": "/take-a-walk",
-      "target": "/get-things-done"
-    },
-    {
-      "source": "/take-a-walk",
-      "target": "/problem-solving"
     },
     {
       "source": "/be-good-to-each-other-and-yourself",
