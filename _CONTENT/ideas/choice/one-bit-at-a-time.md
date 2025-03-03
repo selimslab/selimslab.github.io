@@ -1,4 +1,5 @@
 ---
+tags: top
 ---
 
 "Well being is attained little by little, and nevertheless is no little thing itself" 
@@ -14,7 +15,7 @@ Nature does not hurry yet everything is accomplished.
 > But slowly, slowly!
 >
 
-Start from your head, heart, and hands, and then work outward 
+Start from your head, heart, and hands. Then work outward 
 
 Walk slowly but walk 🐢
 

@@ -14,5 +14,6 @@ to choose one's own way.
 
 _Viktor E. Frankl_
 
+![](/assets/static/img/principles-all-the-time.jpeg)
 
 

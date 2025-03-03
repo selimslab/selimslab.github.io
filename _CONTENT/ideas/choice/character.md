@@ -38,4 +38,3 @@ Never miss a good chance to shut up.
 
 [[who-goes-nazi]]
 
-![](/assets/static/img/principles-all-the-time.jpeg)
