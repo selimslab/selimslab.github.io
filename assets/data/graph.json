@@ -101,7 +101,6 @@
       "links": [
         "/root",
         "/books-sci",
-        "/earth",
         "/economics",
         "/history",
         "/math",
@@ -490,7 +489,7 @@
       "links": [
         "/ideas",
         "/death",
-        "/dots",
+        "/earth-time-scale",
         "/getting-old",
         "/hard-times",
         "/how-to-grow-old-russell",
@@ -498,9 +497,8 @@
         "/pale-blue-dot",
         "/slow-down-time",
         "/the-past",
-        "/year-progress",
         "/dots",
-        "/earth-time-scale",
+        "/year-progress",
         "/121st-century",
         "/history-of-technology",
         "/history",
@@ -590,7 +588,9 @@
       "name": "Experiments",
       "links": [
         "/lists",
-        "/typing-practice"
+        "/dots",
+        "/typing-practice",
+        "/year-progress"
       ]
     },
     {
@@ -655,16 +655,6 @@
       "name": "Books",
       "links": [
         "/sciences"
-      ]
-    },
-    {
-      "id": "/earth",
-      "group": 2,
-      "name": "Earth",
-      "links": [
-        "/sciences",
-        "/climate",
-        "/earth-time-scale"
       ]
     },
     {
@@ -738,6 +728,7 @@
       "links": [
         "/sciences",
         "/chomsky",
+        "/climate-change",
         "/negotiations",
         "/obedience",
         "/social-change",
@@ -761,8 +752,10 @@
         "/manipulation",
         "/parenting",
         "/procrastination",
+        "/psychopathy",
         "/spot-a-liar",
         "/stress",
+        "/teens",
         "/hijacked-minds",
         "/inertia",
         "/learning"
@@ -775,6 +768,7 @@
       "links": [
         "/sciences",
         "/being-poor",
+        "/collectivism",
         "/social-groups",
         "/social-media"
       ]
@@ -2437,12 +2431,13 @@
       ]
     },
     {
-      "id": "/dots",
+      "id": "/earth-time-scale",
       "group": 3,
-      "name": "Dots",
+      "name": "If the Earth is 45 years old",
       "links": [
         "/time",
-        "/time"
+        "/climate-change",
+        "/pale-blue-dot"
       ]
     },
     {
@@ -2483,7 +2478,8 @@
       "group": 3,
       "name": "Pale Blue Dot",
       "links": [
-        "/time"
+        "/time",
+        "/earth-time-scale"
       ]
     },
     {
@@ -2499,14 +2495,6 @@
       "id": "/the-past",
       "group": 3,
       "name": "Learn and move on",
-      "links": [
-        "/time"
-      ]
-    },
-    {
-      "id": "/year-progress",
-      "group": 3,
-      "name": "Year Progress",
       "links": [
         "/time"
       ]
@@ -2585,6 +2573,15 @@
       ]
     },
     {
+      "id": "/dots",
+      "group": 3,
+      "name": "Dots",
+      "links": [
+        "/experiments",
+        "/time"
+      ]
+    },
+    {
       "id": "/typing-practice",
       "group": 3,
       "name": "Typing Practice",
@@ -2593,19 +2590,11 @@
       ]
     },
     {
-      "id": "/climate",
+      "id": "/year-progress",
       "group": 3,
-      "name": "Climate",
+      "name": "Year Progress",
       "links": [
-        "/earth"
-      ]
-    },
-    {
-      "id": "/earth-time-scale",
-      "group": 3,
-      "name": "If the Earth is 45 years old",
-      "links": [
-        "/earth",
+        "/experiments",
         "/time"
       ]
     },
@@ -2811,6 +2800,15 @@
       ]
     },
     {
+      "id": "/climate-change",
+      "group": 3,
+      "name": "Climate Change",
+      "links": [
+        "/politics",
+        "/earth-time-scale"
+      ]
+    },
+    {
       "id": "/negotiations",
       "group": 3,
       "name": "Negotiations",
@@ -2925,6 +2923,14 @@
       ]
     },
     {
+      "id": "/psychopathy",
+      "group": 3,
+      "name": "Psychopathy",
+      "links": [
+        "/psychology"
+      ]
+    },
+    {
       "id": "/spot-a-liar",
       "group": 3,
       "name": "Spot A Liar",
@@ -2941,12 +2947,28 @@
       ]
     },
     {
+      "id": "/teens",
+      "group": 3,
+      "name": "Teens",
+      "links": [
+        "/psychology"
+      ]
+    },
+    {
       "id": "/being-poor",
       "group": 3,
       "name": "Being Poor",
       "links": [
         "/sociology",
         "/essais"
+      ]
+    },
+    {
+      "id": "/collectivism",
+      "group": 3,
+      "name": "Collectivism",
+      "links": [
+        "/sociology"
       ]
     },
     {
@@ -4094,10 +4116,6 @@
     },
     {
       "source": "/sciences",
-      "target": "/earth"
-    },
-    {
-      "source": "/sciences",
       "target": "/economics"
     },
     {
@@ -4870,7 +4888,7 @@
     },
     {
       "source": "/time",
-      "target": "/dots"
+      "target": "/earth-time-scale"
     },
     {
       "source": "/time",
@@ -4899,10 +4917,6 @@
     {
       "source": "/time",
       "target": "/the-past"
-    },
-    {
-      "source": "/time",
-      "target": "/year-progress"
     },
     {
       "source": "/work",
@@ -4938,15 +4952,15 @@
     },
     {
       "source": "/experiments",
+      "target": "/dots"
+    },
+    {
+      "source": "/experiments",
       "target": "/typing-practice"
     },
     {
-      "source": "/earth",
-      "target": "/climate"
-    },
-    {
-      "source": "/earth",
-      "target": "/earth-time-scale"
+      "source": "/experiments",
+      "target": "/year-progress"
     },
     {
       "source": "/economics",
@@ -5042,6 +5056,10 @@
     },
     {
       "source": "/politics",
+      "target": "/climate-change"
+    },
+    {
+      "source": "/politics",
       "target": "/negotiations"
     },
     {
@@ -5098,6 +5116,10 @@
     },
     {
       "source": "/psychology",
+      "target": "/psychopathy"
+    },
+    {
+      "source": "/psychology",
       "target": "/spot-a-liar"
     },
     {
@@ -5105,8 +5127,16 @@
       "target": "/stress"
     },
     {
+      "source": "/psychology",
+      "target": "/teens"
+    },
+    {
       "source": "/sociology",
       "target": "/being-poor"
+    },
+    {
+      "source": "/sociology",
+      "target": "/collectivism"
     },
     {
       "source": "/sociology",
@@ -5941,12 +5971,20 @@
       "target": "/work"
     },
     {
-      "source": "/dots",
-      "target": "/time"
+      "source": "/earth-time-scale",
+      "target": "/climate-change"
+    },
+    {
+      "source": "/earth-time-scale",
+      "target": "/pale-blue-dot"
     },
     {
       "source": "/time",
-      "target": "/earth-time-scale"
+      "target": "/dots"
+    },
+    {
+      "source": "/time",
+      "target": "/year-progress"
     },
     {
       "source": "/time",
