@@ -11,12 +11,6 @@ Then the Milky Way would be 136 years old and the known universe is 138 years ol
 
 {% include earth.html %}
 
-**For the 45 years old Mother Earth,**
+**For the 45 years old Mother Earth,** 30 seconds is a century, 5 minutes is a thousand years, an hour is 12 000 years 
 
-A decade is 3 seconds
-
-30 seconds is a century, 5 minutes a thousand years
-
-The last hour is the past 12 000 years 
-
-A human life is 20-30 seconds at most, in a 138 years old universe
+A human life is a few seconds, in a 138 years old universe
