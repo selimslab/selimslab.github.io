@@ -1,0 +1,9 @@
+
+
+{ "key": "down", "command": "macros.downAndOpen", "when": "listFocus" },
+{ "key": "up", "command": "macros.upAndOpen", "when": "listFocus" },
+{
+    "key": "ctrl+n",
+    "command": "explorer.newFile",
+    "when": "explorerViewletFocus"
+},
