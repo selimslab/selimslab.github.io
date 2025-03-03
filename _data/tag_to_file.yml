@@ -11,9 +11,7 @@ os: operating-systems
 phil: philosophy
 psy: psychology
 pols: politics
-soc: social-sciences
-nat: natural-sciences
+sci: sciences
 swe: software-engineering
 sys: system-design
 ml: machine-learning
-

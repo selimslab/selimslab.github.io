@@ -1,5 +1,5 @@
 ---
-tags: soc
+
 ---
 
 The price of freedom is dear yet it's worth it

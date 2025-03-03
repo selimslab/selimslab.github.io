@@ -1,5 +1,5 @@
 ---
-tags: soc
+tags: psy
 ---
 
 Genuine interest 

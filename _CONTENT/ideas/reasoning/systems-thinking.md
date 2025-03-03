@@ -1,6 +1,6 @@
 ---
 title: Systems Thinking 
-tags: soc sys
+tags: sys
 ---
  
 
