@@ -732,6 +732,8 @@
         "/climate-change",
         "/negotiations",
         "/obedience",
+        "/orwell",
+        "/pols-ideas",
         "/social-change",
         "/the-art-of-war",
         "/the-triumph-of-stupidity",
@@ -2828,6 +2830,22 @@
       "id": "/obedience",
       "group": 3,
       "name": "Obedience",
+      "links": [
+        "/politics"
+      ]
+    },
+    {
+      "id": "/orwell",
+      "group": 3,
+      "name": "Orwell",
+      "links": [
+        "/politics"
+      ]
+    },
+    {
+      "id": "/pols-ideas",
+      "group": 3,
+      "name": "Ideas",
       "links": [
         "/politics"
       ]
@@ -5069,6 +5087,14 @@
     {
       "source": "/politics",
       "target": "/obedience"
+    },
+    {
+      "source": "/politics",
+      "target": "/orwell"
+    },
+    {
+      "source": "/politics",
+      "target": "/pols-ideas"
     },
     {
       "source": "/politics",
