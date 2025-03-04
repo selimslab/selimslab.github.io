@@ -12,4 +12,4 @@ title: What to work on?
 8. Circle of Competence, understand what you know and what you don't know 
 9. [[teamwork]]
 
-![](/assets/static/img/what-drives-us.jpeg)
+

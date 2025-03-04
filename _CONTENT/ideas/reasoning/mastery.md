@@ -13,7 +13,6 @@ You don't level up by switching games all the time, but by sticking with one lon
 
 Less ego, more mastery 
 
-![](/assets/static/img/goldilocks.jpeg)
+[[work]]
 
-![](/assets/static/img/flow.png)
-
+[[flow]]
