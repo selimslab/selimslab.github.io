@@ -1,5 +1,5 @@
 ---
-tags: soc
+tags: lin
 ---
 
 ![](/assets/static/img/primary-metaphor.jpeg)

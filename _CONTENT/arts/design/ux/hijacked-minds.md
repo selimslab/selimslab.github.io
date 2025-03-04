@@ -1,6 +1,6 @@
 ---
 title: How Technology is Hijacking Your Mind
-tags: soc ux 
+tags: psy ux 
 ---
 
 Inspired by <https://medium.com/thrive-global/how-technology-hijacks-peoples-minds-from-a-magician-and-google-s-design-ethicist-56d62ef5edf3>

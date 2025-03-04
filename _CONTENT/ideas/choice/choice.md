@@ -13,6 +13,3 @@ to choose one's attitude in any given set of circumstances,
 to choose one's own way.
 
 _Viktor E. Frankl_
-
-
-

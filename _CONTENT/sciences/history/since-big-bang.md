@@ -1,6 +1,6 @@
 ---
 title: Some events in the last 14 billion years  
-tags: nat lists time
+tags: sci lists time
 --- 
 
 - **Big Bang**: 13.8 billion years ago
