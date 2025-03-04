@@ -414,9 +414,10 @@
         "/do-one-thing-at-a-time-and-do-it-well",
         "/do-without-doing",
         "/gratitude",
+        "/habits",
         "/know-where-to-stop",
         "/less",
-        "/one-bit-at-a-time",
+        "/one-day-at-a-time",
         "/possibility",
         "/decision-making"
       ]
@@ -747,7 +748,6 @@
         "/sciences",
         "/cognitive-biases",
         "/emotions",
-        "/habits",
         "/happiness",
         "/manipulation",
         "/parenting",
@@ -1129,7 +1129,7 @@
       "links": [
         "/poetry",
         "/do-one-thing-at-a-time-and-do-it-well",
-        "/one-bit-at-a-time"
+        "/one-day-at-a-time"
       ]
     },
     {
@@ -2129,6 +2129,15 @@
       ]
     },
     {
+      "id": "/habits",
+      "group": 3,
+      "name": "Habits",
+      "links": [
+        "/choice",
+        "/get-things-done"
+      ]
+    },
+    {
       "id": "/know-where-to-stop",
       "group": 3,
       "name": "Know Where To Stop",
@@ -2146,9 +2155,9 @@
       ]
     },
     {
-      "id": "/one-bit-at-a-time",
+      "id": "/one-day-at-a-time",
       "group": 3,
-      "name": "One Bit At A Time",
+      "name": "One Day At A Time",
       "links": [
         "/choice",
         "/lightly-child"
@@ -2363,8 +2372,7 @@
       "links": [
         "/reasoning",
         "/choice",
-        "/do-without-doing",
-        "/get-things-done"
+        "/do-without-doing"
       ]
     },
     {
@@ -2374,7 +2382,7 @@
       "links": [
         "/reasoning",
         "/do-one-thing-at-a-time-and-do-it-well",
-        "/decision-making"
+        "/habits"
       ]
     },
     {
@@ -2878,14 +2886,6 @@
       "id": "/emotions",
       "group": 3,
       "name": "Emotions",
-      "links": [
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/habits",
-      "group": 3,
-      "name": "Habits",
       "links": [
         "/psychology"
       ]
@@ -4748,6 +4748,10 @@
     },
     {
       "source": "/choice",
+      "target": "/habits"
+    },
+    {
+      "source": "/choice",
       "target": "/know-where-to-stop"
     },
     {
@@ -4756,7 +4760,7 @@
     },
     {
       "source": "/choice",
-      "target": "/one-bit-at-a-time"
+      "target": "/one-day-at-a-time"
     },
     {
       "source": "/choice",
@@ -5093,10 +5097,6 @@
     {
       "source": "/psychology",
       "target": "/emotions"
-    },
-    {
-      "source": "/psychology",
-      "target": "/habits"
     },
     {
       "source": "/psychology",
@@ -5604,7 +5604,7 @@
     },
     {
       "source": "/lightly-child",
-      "target": "/one-bit-at-a-time"
+      "target": "/one-day-at-a-time"
     },
     {
       "source": "/tao-te-ching",
@@ -5891,6 +5891,10 @@
       "target": "/teamwork"
     },
     {
+      "source": "/habits",
+      "target": "/get-things-done"
+    },
+    {
       "source": "/essais",
       "target": "/be-good-to-each-other-and-yourself"
     },
@@ -5953,10 +5957,6 @@
     {
       "source": "/critical-thinking",
       "target": "/problem-solving"
-    },
-    {
-      "source": "/decision-making",
-      "target": "/get-things-done"
     },
     {
       "source": "/mastery",
