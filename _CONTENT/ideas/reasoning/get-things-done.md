@@ -20,11 +20,7 @@
 - save some easy tasks for low-motivation periods
 - early morning, fresh mind
 
-[[decision-making]]
-
 [[habits]] 
-
-[[systems]]
 
 [[do-one-thing-at-a-time-and-do-it-well]]
 
