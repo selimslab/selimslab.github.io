@@ -13,5 +13,8 @@ title: Decision Making
 - Don't make decisions under physical discomfort or heavy emotion
 - Don't get stuck
 - Once you decide, don't second guess, follow through 
+- Don't judge decisions by results, a good decision can have a bad outcome, it's luck 
 
 [[choice]]
+
+<https://sive.rs/book/ThinkingInBets>

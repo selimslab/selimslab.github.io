@@ -55,6 +55,7 @@
         "/health",
         "/philosophy",
         "/reasoning",
+        "/teamwork",
         "/time",
         "/work"
       ]
@@ -181,6 +182,7 @@
         "/melih-cevdet",
         "/nazim",
         "/orhan-veli",
+        "/puslu-kitalar-atlasi",
         "/yunus-emre"
       ]
     },
@@ -484,6 +486,20 @@
       ]
     },
     {
+      "id": "/teamwork",
+      "group": 2,
+      "name": "Teamwork",
+      "links": [
+        "/ideas",
+        "/accountability",
+        "/break-an-org",
+        "/build-a-team",
+        "/leadership-mistakes",
+        "/leadership",
+        "/what-to-work-on"
+      ]
+    },
+    {
       "id": "/time",
       "group": 2,
       "name": "Time",
@@ -513,8 +529,8 @@
       "links": [
         "/ideas",
         "/career-advice",
+        "/flow",
         "/success-and-failure",
-        "/teamwork",
         "/what-to-work-on",
         "/you-are-not-nameless",
         "/do-one-thing-at-a-time-and-do-it-well",
@@ -674,6 +690,7 @@
       "links": [
         "/sciences",
         "/121st-century",
+        "/archeology",
         "/farming-trap",
         "/history-of-technology",
         "/since-big-bang",
@@ -704,8 +721,7 @@
       "group": 2,
       "name": "Neuroscience",
       "links": [
-        "/sciences",
-        "/sapolsky"
+        "/sciences"
       ]
     },
     {
@@ -1004,6 +1020,14 @@
       "id": "/orhan-veli",
       "group": 3,
       "name": "Orhan Veli",
+      "links": [
+        "/edebiyat"
+      ]
+    },
+    {
+      "id": "/puslu-kitalar-atlasi",
+      "group": 3,
+      "name": "Puslu-kitalar-atlasi",
       "links": [
         "/edebiyat"
       ]
@@ -2107,7 +2131,7 @@
         "/choice",
         "/lightly-child",
         "/get-things-done",
-        "/teamwork",
+        "/leadership",
         "/work",
         "/philosophy"
       ]
@@ -2118,8 +2142,7 @@
       "name": "Do without doing - Wu Wei 無爲",
       "links": [
         "/choice",
-        "/decision-making",
-        "/teamwork"
+        "/decision-making"
       ]
     },
     {
@@ -2402,7 +2425,6 @@
       "name": "Mastery",
       "links": [
         "/reasoning",
-        "/teamwork",
         "/work"
       ]
     },
@@ -2430,6 +2452,47 @@
       "name": "Take a walk",
       "links": [
         "/reasoning"
+      ]
+    },
+    {
+      "id": "/accountability",
+      "group": 3,
+      "name": "Accountability",
+      "links": [
+        "/teamwork"
+      ]
+    },
+    {
+      "id": "/break-an-org",
+      "group": 3,
+      "name": "How to break an org",
+      "links": [
+        "/teamwork"
+      ]
+    },
+    {
+      "id": "/build-a-team",
+      "group": 3,
+      "name": "How to build a team",
+      "links": [
+        "/teamwork"
+      ]
+    },
+    {
+      "id": "/leadership-mistakes",
+      "group": 3,
+      "name": "Leadership Mistakes",
+      "links": [
+        "/teamwork"
+      ]
+    },
+    {
+      "id": "/leadership",
+      "group": 3,
+      "name": "Leadership",
+      "links": [
+        "/teamwork",
+        "/do-one-thing-at-a-time-and-do-it-well"
       ]
     },
     {
@@ -2518,6 +2581,14 @@
       ]
     },
     {
+      "id": "/flow",
+      "group": 3,
+      "name": "Flow",
+      "links": [
+        "/work"
+      ]
+    },
+    {
       "id": "/success-and-failure",
       "group": 3,
       "name": "Success And Failure",
@@ -2525,18 +2596,6 @@
         "/work",
         "/if",
         "/freedom"
-      ]
-    },
-    {
-      "id": "/teamwork",
-      "group": 3,
-      "name": "Teamwork",
-      "links": [
-        "/work",
-        "/do-one-thing-at-a-time-and-do-it-well",
-        "/do-without-doing",
-        "/mastery",
-        "/what-to-work-on"
       ]
     },
     {
@@ -2623,6 +2682,14 @@
       "links": [
         "/history",
         "/time"
+      ]
+    },
+    {
+      "id": "/archeology",
+      "group": 3,
+      "name": "Archeology",
+      "links": [
+        "/history"
       ]
     },
     {
@@ -2737,14 +2804,6 @@
         "/math",
         "/datasets",
         "/bayes"
-      ]
-    },
-    {
-      "id": "/sapolsky",
-      "group": 3,
-      "name": "Sapolsky",
-      "links": [
-        "/neuroscience"
       ]
     },
     {
@@ -4062,6 +4121,10 @@
     },
     {
       "source": "/ideas",
+      "target": "/teamwork"
+    },
+    {
+      "source": "/ideas",
       "target": "/time"
     },
     {
@@ -4275,6 +4338,10 @@
     {
       "source": "/edebiyat",
       "target": "/orhan-veli"
+    },
+    {
+      "source": "/edebiyat",
+      "target": "/puslu-kitalar-atlasi"
     },
     {
       "source": "/edebiyat",
@@ -4905,6 +4972,26 @@
       "target": "/take-a-walk"
     },
     {
+      "source": "/teamwork",
+      "target": "/accountability"
+    },
+    {
+      "source": "/teamwork",
+      "target": "/break-an-org"
+    },
+    {
+      "source": "/teamwork",
+      "target": "/build-a-team"
+    },
+    {
+      "source": "/teamwork",
+      "target": "/leadership-mistakes"
+    },
+    {
+      "source": "/teamwork",
+      "target": "/leadership"
+    },
+    {
       "source": "/time",
       "target": "/death"
     },
@@ -4946,11 +5033,11 @@
     },
     {
       "source": "/work",
-      "target": "/success-and-failure"
+      "target": "/flow"
     },
     {
       "source": "/work",
-      "target": "/teamwork"
+      "target": "/success-and-failure"
     },
     {
       "source": "/work",
@@ -4991,6 +5078,10 @@
     {
       "source": "/history",
       "target": "/121st-century"
+    },
+    {
+      "source": "/history",
+      "target": "/archeology"
     },
     {
       "source": "/history",
@@ -5043,10 +5134,6 @@
     {
       "source": "/math",
       "target": "/probability-and-statistics"
-    },
-    {
-      "source": "/neuroscience",
-      "target": "/sapolsky"
     },
     {
       "source": "/physics",
@@ -5902,7 +5989,7 @@
     },
     {
       "source": "/do-one-thing-at-a-time-and-do-it-well",
-      "target": "/teamwork"
+      "target": "/leadership"
     },
     {
       "source": "/do-one-thing-at-a-time-and-do-it-well",
@@ -5911,10 +5998,6 @@
     {
       "source": "/do-without-doing",
       "target": "/decision-making"
-    },
-    {
-      "source": "/do-without-doing",
-      "target": "/teamwork"
     },
     {
       "source": "/habits",
@@ -5986,15 +6069,15 @@
     },
     {
       "source": "/mastery",
-      "target": "/teamwork"
-    },
-    {
-      "source": "/mastery",
       "target": "/work"
     },
     {
       "source": "/reasoning",
       "target": "/work"
+    },
+    {
+      "source": "/teamwork",
+      "target": "/what-to-work-on"
     },
     {
       "source": "/earth-time-scale",
@@ -6027,10 +6110,6 @@
     {
       "source": "/time",
       "target": "/since-big-bang"
-    },
-    {
-      "source": "/teamwork",
-      "target": "/what-to-work-on"
     },
     {
       "source": "/driving",

@@ -4,6 +4,8 @@ title: Ideas
 
 "People will come to love their oppression, to adore the technologies that undo their capacities to think." - Aldous Huxley
 
+They redirect people's anger away from ruling classes, making them forget their economic exploitation
+
 The strong do what they can, and the weak suffer what they must. Because the weak don't come together and resist. The most common way people give up their power is by thinking they don't have any.
 
 "The most dangerous creation of any society is the man who has nothing to lose." - James Baldwin
