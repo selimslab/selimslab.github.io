@@ -1,4 +1,5 @@
 ---
+tags: psy
 ---
 Many factors shape us, culture, society, geography, zeitgeist, ...  
 

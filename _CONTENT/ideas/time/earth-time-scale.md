@@ -13,8 +13,13 @@ Then the Milky Way would be 136 years old
 
 a century is 30 seconds, 
 
-a thousand years is 5 minutes 
+a thousand years is 5 minutes, 
 
-A human life is a few seconds **to a 138 years old universe**
+humans evolved on the last few days,   
+
+12 000 years of human history happened in the last hour 
+
+our lives are a few seconds **in a 138 years old universe** 
+
 
 {% include earth.html %}

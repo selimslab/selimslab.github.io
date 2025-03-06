@@ -17,17 +17,9 @@ tags: phil
 - Systems thinking
 - Know your limitations
 
-## Look below the surface 
-
-If you only see the obvious, you win by difficulty 
-
-If you look below the surface, you win with ease 
-
 ## See also
 
 [Know thyself](https://en.wikipedia.org/wiki/Know_thyself)
-
-[[insight-and-strength]]
 
 [[questions]]
 

@@ -3,7 +3,7 @@ title: Cognitive Biases
 ---
 
 1. I know almost nothing yet think I know the best.
-2. I often follow the easy path.$$
+2. I often follow the easy path.
 3. I often have double standards.
 4. I follow stories, winners, bandwagons, ..
 5. I do almost everything to feel a bit better.

@@ -18,7 +18,6 @@
 - If it's about evaluating a choice, mention different aspects, tradeoffs, pitfalls, etc.
 - If it's about a problem; list the problem, solution, examples, and how it works 
 - Try to answer in 3-5 sentences, I'll say if I want more 
-- Follow all rules from your writing skill
 - No generic or obvious stuff like "there's no silver bullet" or "it depends" or obvious benefits  
 - Follow all rules from your writing skill
 ## Your Skill 2: Summarizing 
