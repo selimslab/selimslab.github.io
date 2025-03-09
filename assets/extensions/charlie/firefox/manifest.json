@@ -2,11 +2,11 @@
     "manifest_version": 2,
     "name": "Charlie",
     "version": "1.0",
+    "description": "Charlie browser extension",
     "permissions": [
-      "activeTab",
-      "scripting"
+      "activeTab"
     ],
-    "applications": {
+    "browser_specific_settings": {
       "gecko": {
         "id": "charlie@example.com"
       }
@@ -28,5 +28,5 @@
         "run_at": "document_end" 
       }
     ]
-  }
+}
   

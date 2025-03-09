@@ -383,6 +383,7 @@
         "/hacker-laws",
         "/minimal-tech",
         "/sys-design-core",
+        "/sys-topics",
         "/accessibility",
         "/distributed-systems",
         "/oop",
@@ -516,7 +517,6 @@
         "/the-past",
         "/dots",
         "/year-progress",
-        "/121st-century",
         "/history-of-technology",
         "/history",
         "/since-big-bang"
@@ -689,10 +689,9 @@
       "name": "History",
       "links": [
         "/sciences",
-        "/121st-century",
-        "/archeology",
         "/farming-trap",
         "/history-of-technology",
+        "/rome",
         "/since-big-bang",
         "/time"
       ]
@@ -774,6 +773,7 @@
         "/spot-a-liar",
         "/stress",
         "/teens",
+        "/free-will",
         "/hijacked-minds",
         "/inertia",
         "/learning"
@@ -1027,7 +1027,7 @@
     {
       "id": "/puslu-kitalar-atlasi",
       "group": 3,
-      "name": "Puslu-kitalar-atlasi",
+      "name": "Puslu Kitalar Atlasi",
       "links": [
         "/edebiyat"
       ]
@@ -1850,7 +1850,6 @@
       "links": [
         "/programming",
         "/block",
-        "/design-a-bicycle",
         "/design-a-book-app",
         "/design-a-crm",
         "/design-a-gov-cloud",
@@ -2107,6 +2106,14 @@
       ]
     },
     {
+      "id": "/sys-topics",
+      "group": 3,
+      "name": "System Design Topics",
+      "links": [
+        "/system-design"
+      ]
+    },
+    {
       "id": "/character",
       "group": 3,
       "name": "Character",
@@ -2309,7 +2316,8 @@
       "group": 3,
       "name": "Free Will",
       "links": [
-        "/philosophy"
+        "/philosophy",
+        "/psychology"
       ]
     },
     {
@@ -2676,23 +2684,6 @@
       ]
     },
     {
-      "id": "/121st-century",
-      "group": 3,
-      "name": "121st century",
-      "links": [
-        "/history",
-        "/time"
-      ]
-    },
-    {
-      "id": "/archeology",
-      "group": 3,
-      "name": "Archeology",
-      "links": [
-        "/history"
-      ]
-    },
-    {
       "id": "/farming-trap",
       "group": 3,
       "name": "Farming Trap",
@@ -2709,6 +2700,14 @@
         "/history",
         "/time",
         "/lists"
+      ]
+    },
+    {
+      "id": "/rome",
+      "group": 3,
+      "name": "Rome",
+      "links": [
+        "/history"
       ]
     },
     {
@@ -3720,14 +3719,6 @@
       "id": "/block",
       "group": 4,
       "name": "Design a blockchain",
-      "links": [
-        "/oop"
-      ]
-    },
-    {
-      "id": "/design-a-bicycle",
-      "group": 4,
-      "name": "Design A Bicycle",
       "links": [
         "/oop"
       ]
@@ -4812,6 +4803,10 @@
       "target": "/sys-design-core"
     },
     {
+      "source": "/system-design",
+      "target": "/sys-topics"
+    },
+    {
       "source": "/choice",
       "target": "/character"
     },
@@ -5077,19 +5072,15 @@
     },
     {
       "source": "/history",
-      "target": "/121st-century"
-    },
-    {
-      "source": "/history",
-      "target": "/archeology"
-    },
-    {
-      "source": "/history",
       "target": "/farming-trap"
     },
     {
       "source": "/history",
       "target": "/history-of-technology"
+    },
+    {
+      "source": "/history",
+      "target": "/rome"
     },
     {
       "source": "/history",
@@ -5546,10 +5537,6 @@
     {
       "source": "/oop",
       "target": "/block"
-    },
-    {
-      "source": "/oop",
-      "target": "/design-a-bicycle"
     },
     {
       "source": "/oop",
@@ -6097,10 +6084,6 @@
     },
     {
       "source": "/time",
-      "target": "/121st-century"
-    },
-    {
-      "source": "/time",
       "target": "/history-of-technology"
     },
     {
@@ -6154,6 +6137,10 @@
     {
       "source": "/politics",
       "target": "/tao-te-ching"
+    },
+    {
+      "source": "/psychology",
+      "target": "/free-will"
     },
     {
       "source": "/psychology",
