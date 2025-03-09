@@ -56,7 +56,7 @@
     z-index: 3;
 }
 .clouds {
-    animation: rotate-day 24s linear infinite, spin-clouds 48s ease infinite;
+    animation: rotate-day 48s linear infinite, spin-clouds 48s ease infinite;
     background-image: url(/assets/static/solar/2k_earth_clouds.jpg);
     background-size: 200%;
     border-radius: 50%;    
@@ -71,7 +71,7 @@
 .inner-shadow {
     background: transparent;
     border-radius: 50%;
-    box-shadow: -5px 0 10px 1px #152b57 inset, 5px 0 10px 1px #040615 inset;
+    box-shadow: -4px 0 8px 0 rgba(21, 43, 87, 0.8) inset, 4px 0 8px 0 rgba(4, 6, 21, 0.8) inset;
     height: 15rem;
     margin-left: 0;
     position: absolute;
