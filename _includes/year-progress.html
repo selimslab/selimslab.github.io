@@ -1,36 +1,17 @@
-<script src="/assets/js/datetime.js"></script>
 <script src="/assets/js/moment.min.js"></script>
-<script src="/assets/js/color.js"></script>
-
 
 <div class="columns is-vcentered">
-
   <div class="column is-4">
-
     <p id="date"></p>
-
     <p id="clock"></p>
-
     <p id="weekNumber"></p>
-
     <p id="year-ratio"></p>
-
     <p id="year-percent"></p>
-
   </div>
-
   <div class="column is-8">
-
     <ul class="days"></ul>
-
   </div>
-
 </div>
-
-
-
-
-
 
 <style>
   :root {
@@ -51,139 +32,128 @@
     width: max-content;
   }
 
-  .days li{
+  .days li {
     margin: 0;
     border-radius: 50%;
   }
 
-  .weekday {
-    background-color: #fff;
-
-  }
-
-  .filler {
-    background-color: inherit;
-  }
-
-  .past {
-    opacity: 0.5;
-  }
-
-  .weekend {
-    background-color: #ffcc00e2;
-  }
-
-  .now {
-    background-color: rgb(255, 55, 0);
-  }
+  .weekday { background-color: #fff; }
+  .filler { background-color: inherit; }
+  .past { opacity: 0.5; }
+  .weekend { background-color: #ffcc00e2; }
+  .now { background-color: rgb(255, 55, 0); }
 
   html[data-theme='light'] {
-    .weekday {
-    background-color: #b2afaf;
-    }
-    .now {
-    background-color: rgb(255, 55, 0);
+    .weekday { background-color: #b2afaf; }
+    .now { background-color: rgb(255, 55, 0); }
   }
-
-  }
-
-
 </style>
 
 <script>
-
-  const this_day = moment().dayOfYear();
-  const percent = Math.round((this_day / 365) * 100);
-  const weekNumber = moment().isoWeek();
-  const year = moment().year();
-  const date = moment().format('dddd, MMMM DD');
-
-  document.querySelector(
-    "#year-ratio"
-  ).innerHTML = `Day ${this_day}`;
-
-  document.querySelector("#weekNumber").innerHTML = `Week ${weekNumber}`;
-
-  document.querySelector("#date").innerHTML = `${date}`;
-
-
-  document.querySelector("#year-percent").innerHTML = `%${percent}`;
-
-
-  function updateClock() {
-    const now = new Date();
-    const hours = now.getHours().toString().padStart(2, '0');
-    const minutes = now.getMinutes().toString().padStart(2, '0');
-    const seconds = now.getSeconds().toString().padStart(2, '0');
-    const timeString = `${hours}:${minutes}:${seconds}`;
-
-    document.getElementById('clock').textContent = timeString;
-  }
-
-  setInterval(updateClock, 1000);
-  updateClock();
-
-  function add_days(this_day) {
-    // create an array by using moment.js to get number of days in each month of this year
-    const days_in_months = Array.from({ length: 12 }, (v, i) =>
-      moment().month(i).daysInMonth()
-
-    );
-    // indexes of weekend days in each month
-    const weekend_days = days_in_months.map((days, index) => {
-      let weekend = [];
-      for (let day = 1; day <= days; day++) {
-        let date = moment().month(index).date(day);
-        if (date.day() == 0 || date.day() == 6) {
-          weekend.push(day);
+  (function() {
+    const currentDay = moment().dayOfYear();
+    const yearPercent = Math.round((currentDay / 365) * 100);
+    const currentWeek = moment().isoWeek();
+    const formattedDate = moment().format('dddd, MMMM DD');
+    
+    function updateTextElements() {
+      document.querySelector("#date").innerHTML = formattedDate;
+      document.querySelector("#year-ratio").innerHTML = `Day ${currentDay}`;
+      document.querySelector("#weekNumber").innerHTML = `Week ${currentWeek}`;
+      document.querySelector("#year-percent").innerHTML = `%${yearPercent}`;
+    }
+    
+    function setupClock() {
+      function updateClock() {
+        const now = new Date();
+        const hours = now.getHours().toString().padStart(2, '0');
+        const minutes = now.getMinutes().toString().padStart(2, '0');
+        const seconds = now.getSeconds().toString().padStart(2, '0');
+        document.getElementById('clock').textContent = `${hours}:${minutes}:${seconds}`;
+      }
+      
+      setInterval(updateClock, 1000);
+      updateClock();
+    }
+    
+    function getMonthsData() {
+      return Array.from({ length: 12 }, (_, monthIndex) => {
+        const daysInMonth = moment().month(monthIndex).daysInMonth();
+        const weekendDays = getWeekendDaysForMonth(monthIndex, daysInMonth);
+        return { daysInMonth, weekendDays };
+      });
+    }
+    
+    function getWeekendDaysForMonth(monthIndex, daysInMonth) {
+      const weekendDays = [];
+      
+      for (let day = 1; day <= daysInMonth; day++) {
+        const date = moment().month(monthIndex).date(day);
+        if (date.day() === 0 || date.day() === 6) {
+          weekendDays.push(day);
         }
       }
-      return weekend;
-    });
-
-    dayNumber = 0;
-    const days = document.querySelector(".days");
-
-    days_in_months.forEach((number_of_days, month_index) => {
-      if (month_index % 3 == 0) {
-        for (let i = 1; i <= 31; i++) {
-        let empty = document.createElement("li");
-        empty.classList.add("filler");
-        days.insertAdjacentElement("beforeend", empty);
+      
+      return weekendDays;
+    }
+    
+    function createDayElement(day, weekendDays, dayCounter, currentDayOfYear) {
+      const dayElement = document.createElement("li");
+      
+      if (weekendDays.includes(day)) {
+        dayElement.classList.add("weekend");
+      } else {
+        dayElement.classList.add("weekday");
       }
+      
+      if (dayCounter === currentDayOfYear) {
+        dayElement.classList.add("now");
+      } else if (dayCounter < currentDayOfYear) {
+        dayElement.classList.add("past");
       }
-      for (let i = 1; i <= number_of_days; i++) {
-        dayNumber += 1;
-        let day = document.createElement("li");
-        if (weekend_days[month_index].includes(i)) {
-          day.classList.add("weekend");
-        } else {
-          day.classList.add("weekday");
+      
+      return dayElement;
+    }
+    
+    function createFillerElement() {
+      const fillerDay = document.createElement("li");
+      fillerDay.classList.add("filler");
+      return fillerDay;
+    }
+    
+    function addFillerDays(container, count) {
+      for (let i = 0; i < count; i++) {
+        container.appendChild(createFillerElement());
+      }
+    }
+    
+    function renderCalendar() {
+      const daysContainer = document.querySelector(".days");
+      let dayCounter = 0;
+      const monthsData = getMonthsData();
+      
+      monthsData.forEach(({ daysInMonth, weekendDays }, monthIndex) => {
+        if (monthIndex % 3 === 0) {
+          addFillerDays(daysContainer, 31);
         }
-        if (dayNumber == this_day) {
-          day.classList.add("now");
-        } else if (dayNumber < this_day) {
-          day.classList.add("past");
+        
+        for (let day = 1; day <= daysInMonth; day++) {
+          dayCounter++;
+          const dayElement = createDayElement(day, weekendDays, dayCounter, currentDay);
+          daysContainer.appendChild(dayElement);
         }
-        days.insertAdjacentElement("beforeend", day);
-      }
-
-      let dummy_days = 31 - number_of_days;
-
-
-      for (let i = 1; i <= dummy_days; i++) {
-        let empty = document.createElement("li");
-        empty.classList.add("filler");
-        days.insertAdjacentElement("beforeend", empty);
-      }
-
-
-    });
-
-
-  }
-
-  add_days(this_day);
-
-
+        
+        const fillerDaysNeeded = 31 - daysInMonth;
+        addFillerDays(daysContainer, fillerDaysNeeded);
+      });
+    }
+    
+    function init() {
+      updateTextElements();
+      setupClock();
+      renderCalendar();
+    }
+    
+    init();
+  })();
 </script>
