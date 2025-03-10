@@ -1,5 +1,7 @@
 
-# Δ Delta  
+# Δ   
+
+Delta is for change, one step at a time  
 
 View at <https://selimslab.github.io>
 
