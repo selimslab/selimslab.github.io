@@ -1,16 +1,30 @@
 
-
-- [Δ Delta](#δ-delta)
-  - [How it works](#how-it-works)
-- [Setup](#setup)
-  - [Serve](#serve)
-  - [Deploy](#deploy)
-
 # Δ Delta  
 
 View at <https://selimslab.github.io>
 
 ![](assets/static/ss.jpg)
+
+## Setup
+
+1. clone the repo
+2. install ruby <https://www.ruby-lang.org/en/downloads/>
+3. `gem install bundler jekyll`
+4. `bundle install`
+
+## Serve
+```
+bundle exec jekyll serve --trace --incremental --profile
+```
+
+## Deploy 
+
+Git push to main triggers a github action 
+
+[![CI/CD](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml/badge.svg)](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml)
+
+
+## Origin of the name 
 
 
 The name comes from the greek letter **delta**(Δ), 
@@ -47,20 +61,3 @@ Links, essays, photos, artworks, drawings, poetry, lists, code snippets, experim
 - Works offline via service worker
   - Caches all pages (4-5mb) on first visit
 
-# Setup
-
-1. clone the repo
-2. install ruby <https://www.ruby-lang.org/en/downloads/>
-3. `gem install bundler jekyll`
-4. `bundle install`
-
-## Serve
-```
-bundle exec jekyll serve --trace --incremental --profile
-```
-
-## Deploy 
-
-Git push to main triggers a github action 
-
-[![CI/CD](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml/badge.svg)](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml)

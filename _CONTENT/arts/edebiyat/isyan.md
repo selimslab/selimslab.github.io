@@ -23,3 +23,7 @@ Yedikleri yoksul eti
 Nerde varsa böyle zulüm
 
 Çaresi isyan olmuştur.
+
+---
+
+[[ince-memed]]
