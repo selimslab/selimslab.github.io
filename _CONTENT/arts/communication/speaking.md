@@ -15,3 +15,9 @@ Don't try to prove anything, people believe what they want to believe.
 People can't read minds. Something being obvious to you doesn't mean it's obvious to them 
 
 Frequent sharing organizes thoughts
+
+![](/assets/static/img/not-say-told-you.jpeg)
+
+![](/assets/static/img/compliments-are-gifts.jpeg)
+
+![](/assets/static/img/dont-fill-the-silence.png)

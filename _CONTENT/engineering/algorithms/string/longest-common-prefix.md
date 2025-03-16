@@ -5,7 +5,7 @@ tags: str easy
 
 
 ```python
-def longest_common_prefix(words) -> "str":
+def longest_common_prefix(words) -> str:
     if not words:
         return ""
 

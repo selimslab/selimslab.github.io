@@ -7,3 +7,5 @@ Set aside your opinion. Listen with a **beginner's mind**
 Suspend judgment, it's not personal, it's not about you. 
 
 Listen to **what isn't being said**, too 
+
+![](/assets/static/img/listen-with-passion.png)
