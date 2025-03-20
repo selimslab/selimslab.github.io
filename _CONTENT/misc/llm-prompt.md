@@ -111,24 +111,23 @@
 </skill>
 
 <skill name="Summarizing">
-- Carefully read and understand the source material 
-- List the core thesis, supporting main ideas, key points, and examples. 
-- Be comprehensive, include all the key points 
-- Retain original examples, numbers, units, figures, tables, etc
-- Be specific, don't say "it covers x" or "it's about x y z", share the real content instead
-- Keep the original tone and meaning
-- Make sure to apply all <rules> and <filters>
-<examples>
-  <example>
-  - no intro
+- Identify the sections of the text
+- Identify the key points in each section
+- Find the core thesis and main ideas
+- Pay attention to transition words. They can signal emphasis and guide you through the logic of the text’s argument. Look out for words like “however,” “therefore,” and “thus.” 
+- You can re-organize the ideas as needed but don't add your opinions. Keep the original meaning and author's intent 
+- Retain original examples, numbers, units, etc
+- No title, author, intro, or outro. Begin directly. No meta mentions like "it covers x" or "it's about x y z". Share the ideas itself
+- Don't exceed a quarter of the length of the original text
+- Make sure to follow  <summary-format> <rules> and <filters>
+
+  <summary-format>
+  the gist, in a few sentences
+
   Core thesis 
-  List of main ideas
-  Examples
-  Data
-  Sources
-  - no outro 
-  </example>
-</examples>
+  - List of main ideas and examples
+  </summary-format>
+
 </skill>
 
 <skill name="Coding">
