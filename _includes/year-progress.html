@@ -27,7 +27,7 @@
     grid-gap: var(--point-gap);
     row-gap: var(--row-gap);
     grid-auto-rows: var(--point-size);
-    grid-template-columns: repeat(31, var(--point-size));
+    grid-template-columns: repeat(37, var(--point-size));
     grid-area: days;
     width: max-content;
   }
@@ -85,23 +85,27 @@
     function getMonthsData() {
       return Array.from({ length: 12 }, (_, month) => {
         const daysInMonth = moment().month(month).daysInMonth();
-        const weekendDays = getWeekendDaysForMonth(month, daysInMonth);
-        return { daysInMonth, weekendDays };
+        const { weekendDays, sundayDays } = getWeekendDaysForMonth(month, daysInMonth);
+        return { daysInMonth, weekendDays, sundayDays };
       });
     }
     
     // Get weekend days for a specific month
     function getWeekendDaysForMonth(month, daysInMonth) {
       const weekendDays = [];
+      const sundayDays = [];
       
       for (let day = 1; day <= daysInMonth; day++) {
         const date = moment().month(month).date(day);
         if (date.day() === 0 || date.day() === 6) {
           weekendDays.push(day);
         }
+        if (date.day() === 0) {
+          sundayDays.push(day);
+        }
       }
       
-      return weekendDays;
+      return { weekendDays, sundayDays };
     }
     
     // Create a single day element with proper classes
@@ -142,10 +146,10 @@
       let dayCounter = 0;
       const monthsData = getMonthsData();
       
-      monthsData.forEach(({ daysInMonth, weekendDays }, monthIndex) => {
+      monthsData.forEach(({ daysInMonth, weekendDays, sundayDays }, monthIndex) => {
         // Add row separator every 3 months
         if (monthIndex % 3 === 0) {
-          addFillerDays(daysContainer, 31);
+          addFillerDays(daysContainer, 37);
         }
         
         // Add actual day elements for the month
@@ -153,10 +157,15 @@
           dayCounter++;
           const dayElement = createDayElement(day, weekendDays, dayCounter, currentDayOfYear);
           daysContainer.appendChild(dayElement);
+          
+          // Add filler after each Sunday
+          if (sundayDays.includes(day)) {
+            daysContainer.appendChild(createFillerElement());
+          }
         }
         
         // Fill remaining grid positions to maintain layout
-        const fillerDaysNeeded = 31 - daysInMonth;
+        const fillerDaysNeeded = 37 - daysInMonth - sundayDays.length;
         addFillerDays(daysContainer, fillerDaysNeeded);
       });
     }
