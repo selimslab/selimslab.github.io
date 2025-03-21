@@ -8,7 +8,7 @@
     <p id="year-ratio"></p>
     <p id="year-percent"></p>
   </div>
-  {% include calendar-days.html %}
+  {% include year-calendar.html %}
 </div>
 
 <script>
@@ -19,7 +19,7 @@
     const yearPercent = Math.round((currentDayOfYear / 365) * 100);
     const currentWeek = today.isoWeek();
     const formattedDate = today.format('dddd, MMMM DD');
-    const daysContainer = document.querySelector(".days");
+    const yearGrid = document.querySelector(".year-grid");
     
     // Update text displays (date, progress, etc)
     function updateTextElements() {
@@ -47,7 +47,7 @@
     function init() {
       updateTextElements();
       setupClock();
-      renderCalendar(daysContainer, currentDayOfYear);
+      renderCalendar(yearGrid, currentDayOfYear);
     }
     
     init();
