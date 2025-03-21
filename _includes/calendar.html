@@ -1,3 +1,7 @@
+<script src="/assets/js/moment.min.js"></script>
+
+{% include year-progress.html %}
+
 <div class="column is-8">
   <div class="year-grid"></div>
 </div>
@@ -22,8 +26,8 @@
   }
 
   .month-title {
-    font-size: 0.9rem;
-    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+    margin-bottom: 0.2rem;
   }
 
   .days {
@@ -49,7 +53,8 @@
   .now { background-color: rgb(255, 55, 0); }
 
   html[data-theme='light'] {
-    .weekday { background-color: #b2afaf; }
+    .weekday { background-color: #928f8f; }
+    .weekend { background-color: #2163d4e2; }
     .now { background-color: rgb(255, 55, 0); }
   }
 </style>
@@ -200,7 +205,7 @@
   function renderCalendar(container) {
     const today = moment();
     const currentYear = today.year();
-    const monthNames = moment.months();
+    const monthNames = moment.monthsShort();
     
     clearContainer(container);
     
@@ -219,4 +224,12 @@
     clearContainer(container);
     renderMonthCalendar(container, month, year);
   }
+
+  (function() {
+    const today = moment();
+    const currentDayOfYear = today.dayOfYear();
+    
+    renderCalendar(document.querySelector(".year-grid"), currentDayOfYear);
+  })();
 </script> 
+

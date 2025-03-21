@@ -524,8 +524,8 @@
         "/pale-blue-dot",
         "/slow-down-time",
         "/the-past",
+        "/calendar",
         "/dots",
-        "/year-progress",
         "/history-of-technology",
         "/history",
         "/since-big-bang"
@@ -614,9 +614,9 @@
       "name": "Experiments",
       "links": [
         "/lists",
+        "/calendar",
         "/dots",
-        "/typing-practice",
-        "/year-progress"
+        "/typing-practice"
       ]
     },
     {
@@ -2661,6 +2661,15 @@
       ]
     },
     {
+      "id": "/calendar",
+      "group": 3,
+      "name": "Calendar",
+      "links": [
+        "/experiments",
+        "/time"
+      ]
+    },
+    {
       "id": "/dots",
       "group": 3,
       "name": "Dots",
@@ -2675,15 +2684,6 @@
       "name": "Typing Practice",
       "links": [
         "/experiments"
-      ]
-    },
-    {
-      "id": "/year-progress",
-      "group": 3,
-      "name": "Year Progress",
-      "links": [
-        "/experiments",
-        "/time"
       ]
     },
     {
@@ -5071,15 +5071,15 @@
     },
     {
       "source": "/experiments",
+      "target": "/calendar"
+    },
+    {
+      "source": "/experiments",
       "target": "/dots"
     },
     {
       "source": "/experiments",
       "target": "/typing-practice"
-    },
-    {
-      "source": "/experiments",
-      "target": "/year-progress"
     },
     {
       "source": "/economics",
@@ -6095,11 +6095,11 @@
     },
     {
       "source": "/time",
-      "target": "/dots"
+      "target": "/calendar"
     },
     {
       "source": "/time",
-      "target": "/year-progress"
+      "target": "/dots"
     },
     {
       "source": "/time",

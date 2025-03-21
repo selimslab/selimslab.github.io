@@ -1,55 +1,35 @@
-<script src="/assets/js/moment.min.js"></script>
 
 <div class="columns is-vcentered">
   <div class="column is-4">
-    <p id="date"></p>
     <p id="clock"></p>
+    <p id="date"></p>
     <p id="weekNumber"></p>
     <p id="year-ratio"></p>
     <p id="year-percent"></p>
   </div>
-  {% include year-calendar.html %}
 </div>
+
 
 <script>
   (function() {
-    // Constants and state values
     const today = moment();
     const currentDayOfYear = today.dayOfYear();
-    const yearPercent = Math.round((currentDayOfYear / 365) * 100);
-    const currentWeek = today.isoWeek();
-    const formattedDate = today.format('dddd, MMMM DD');
-    const yearGrid = document.querySelector(".year-grid");
     
-    // Update text displays (date, progress, etc)
-    function updateTextElements() {
-      document.querySelector("#date").innerHTML = formattedDate;
-      document.querySelector("#year-ratio").innerHTML = `Day ${currentDayOfYear}`;
-      document.querySelector("#weekNumber").innerHTML = `Week ${currentWeek}`;
-      document.querySelector("#year-percent").innerHTML = `%${yearPercent}`;
+    // Update displays
+    document.querySelector("#date").innerHTML = today.format('dddd, MMMM DD');
+    document.querySelector("#year-ratio").innerHTML = `Day ${currentDayOfYear}`;
+    document.querySelector("#weekNumber").innerHTML = `Week ${today.isoWeek()}`;
+    document.querySelector("#year-percent").innerHTML = `%${Math.round((currentDayOfYear / 365) * 100)}`;
+    
+    // Clock update
+    function updateClock() {
+      const now = new Date();
+      document.getElementById('clock').textContent = 
+        `${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}:${now.getSeconds().toString().padStart(2, '0')}`;
     }
     
-    // Setup and update clock
-    function setupClock() {
-      function updateClock() {
-        const now = new Date();
-        const hours = now.getHours().toString().padStart(2, '0');
-        const minutes = now.getMinutes().toString().padStart(2, '0');
-        const seconds = now.getSeconds().toString().padStart(2, '0');
-        document.getElementById('clock').textContent = `${hours}:${minutes}:${seconds}`;
-      }
-      
-      setInterval(updateClock, 1000);
-      updateClock();
-    }
+    setInterval(updateClock, 1000);
+    updateClock();
     
-    // Initialize everything
-    function init() {
-      updateTextElements();
-      setupClock();
-      renderCalendar(yearGrid, currentDayOfYear);
-    }
-    
-    init();
   })();
 </script>
