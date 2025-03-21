@@ -73,11 +73,13 @@
   
   function isWeekend(date) {
     const dayOfWeek = date.day();
-    return dayOfWeek === 0 || dayOfWeek === 6;
+    return dayOfWeek === 0 || dayOfWeek === 6; // Sunday (0) or Saturday (6)
   }
   
   function getFirstDayOfMonth(year, month) {
-    return moment({year, month, day: 1}).day();
+    // Convert from 0-based (Sunday) to 1-based (Monday) week
+    const sunBasedDay = moment({year, month, day: 1}).day();
+    return (sunBasedDay + 6) % 7; // Transform Sunday=0 to Sunday=6
   }
   
   function isPastDay(year, month, day) {
