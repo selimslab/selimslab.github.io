@@ -51,18 +51,23 @@
 
 <script>
   (function() {
-    const currentDay = moment().dayOfYear();
-    const yearPercent = Math.round((currentDay / 365) * 100);
-    const currentWeek = moment().isoWeek();
-    const formattedDate = moment().format('dddd, MMMM DD');
+    // Constants and state values
+    const today = moment();
+    const currentDayOfYear = today.dayOfYear();
+    const yearPercent = Math.round((currentDayOfYear / 365) * 100);
+    const currentWeek = today.isoWeek();
+    const formattedDate = today.format('dddd, MMMM DD');
+    const daysContainer = document.querySelector(".days");
     
+    // Update text displays (date, progress, etc)
     function updateTextElements() {
       document.querySelector("#date").innerHTML = formattedDate;
-      document.querySelector("#year-ratio").innerHTML = `Day ${currentDay}`;
+      document.querySelector("#year-ratio").innerHTML = `Day ${currentDayOfYear}`;
       document.querySelector("#weekNumber").innerHTML = `Week ${currentWeek}`;
       document.querySelector("#year-percent").innerHTML = `%${yearPercent}`;
     }
     
+    // Setup and update clock
     function setupClock() {
       function updateClock() {
         const now = new Date();
@@ -76,19 +81,21 @@
       updateClock();
     }
     
+    // Get data for all months
     function getMonthsData() {
-      return Array.from({ length: 12 }, (_, monthIndex) => {
-        const daysInMonth = moment().month(monthIndex).daysInMonth();
-        const weekendDays = getWeekendDaysForMonth(monthIndex, daysInMonth);
+      return Array.from({ length: 12 }, (_, month) => {
+        const daysInMonth = moment().month(month).daysInMonth();
+        const weekendDays = getWeekendDaysForMonth(month, daysInMonth);
         return { daysInMonth, weekendDays };
       });
     }
     
-    function getWeekendDaysForMonth(monthIndex, daysInMonth) {
+    // Get weekend days for a specific month
+    function getWeekendDaysForMonth(month, daysInMonth) {
       const weekendDays = [];
       
       for (let day = 1; day <= daysInMonth; day++) {
-        const date = moment().month(monthIndex).date(day);
+        const date = moment().month(month).date(day);
         if (date.day() === 0 || date.day() === 6) {
           weekendDays.push(day);
         }
@@ -97,7 +104,8 @@
       return weekendDays;
     }
     
-    function createDayElement(day, weekendDays, dayCounter, currentDayOfYear) {
+    // Create a single day element with proper classes
+    function createDayElement(day, weekendDays, dayNumber, currentDayOfYear) {
       const dayElement = document.createElement("li");
       
       if (weekendDays.includes(day)) {
@@ -106,48 +114,54 @@
         dayElement.classList.add("weekday");
       }
       
-      if (dayCounter === currentDayOfYear) {
+      if (dayNumber === currentDayOfYear) {
         dayElement.classList.add("now");
-      } else if (dayCounter < currentDayOfYear) {
+      } else if (dayNumber < currentDayOfYear) {
         dayElement.classList.add("past");
       }
       
       return dayElement;
     }
     
+    // Create empty filler element
     function createFillerElement() {
-      const fillerDay = document.createElement("li");
-      fillerDay.classList.add("filler");
-      return fillerDay;
+      const filler = document.createElement("li");
+      filler.classList.add("filler");
+      return filler;
     }
     
+    // Add multiple filler elements
     function addFillerDays(container, count) {
       for (let i = 0; i < count; i++) {
         container.appendChild(createFillerElement());
       }
     }
     
+    // Render the entire calendar grid
     function renderCalendar() {
-      const daysContainer = document.querySelector(".days");
       let dayCounter = 0;
       const monthsData = getMonthsData();
       
       monthsData.forEach(({ daysInMonth, weekendDays }, monthIndex) => {
+        // Add row separator every 3 months
         if (monthIndex % 3 === 0) {
           addFillerDays(daysContainer, 31);
         }
         
+        // Add actual day elements for the month
         for (let day = 1; day <= daysInMonth; day++) {
           dayCounter++;
-          const dayElement = createDayElement(day, weekendDays, dayCounter, currentDay);
+          const dayElement = createDayElement(day, weekendDays, dayCounter, currentDayOfYear);
           daysContainer.appendChild(dayElement);
         }
         
+        // Fill remaining grid positions to maintain layout
         const fillerDaysNeeded = 31 - daysInMonth;
         addFillerDays(daysContainer, fillerDaysNeeded);
       });
     }
     
+    // Initialize everything
     function init() {
       updateTextElements();
       setupClock();
