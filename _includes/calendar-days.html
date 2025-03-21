@@ -1,0 +1,129 @@
+<div class="column is-8">
+  <ul class="days"></ul>
+</div>
+
+<style>
+  :root {
+    --point-size: 0.32rem;
+    --point-gap: 0.32rem;
+    --row-gap: 0.48rem;
+  }
+
+  .days {
+    list-style-type: none;
+    display: grid;
+    grid-auto-flow: row;
+    grid-gap: var(--point-gap);
+    row-gap: var(--row-gap);
+    grid-auto-rows: var(--point-size);
+    grid-template-columns: repeat(37, var(--point-size));
+    grid-area: days;
+    width: max-content;
+  }
+
+  .days li {
+    margin: 0;
+    border-radius: 50%;
+  }
+
+  .weekday { background-color: #fff; }
+  .filler { background-color: inherit; }
+  .past { opacity: 0.5; }
+  .weekend { background-color: #ffcc00e2; }
+  .now { background-color: rgb(255, 55, 0); }
+
+  html[data-theme='light'] {
+    .weekday { background-color: #b2afaf; }
+    .now { background-color: rgb(255, 55, 0); }
+  }
+</style>
+
+<script>
+  function renderCalendar(daysContainer, currentDayOfYear) {
+    let dayCounter = 0;
+    const monthsData = getMonthsData();
+    
+    monthsData.forEach(({ daysInMonth, weekendDays, sundayDays }, monthIndex) => {
+      // Add row separator every 3 months
+      if (monthIndex % 3 === 0) {
+        addFillerDays(daysContainer, 37);
+      }
+      
+      // Add actual day elements for the month
+      for (let day = 1; day <= daysInMonth; day++) {
+        dayCounter++;
+        const dayElement = createDayElement(day, weekendDays, dayCounter, currentDayOfYear);
+        daysContainer.appendChild(dayElement);
+        
+        // Add filler after each Sunday
+        if (sundayDays.includes(day)) {
+          daysContainer.appendChild(createFillerElement());
+        }
+      }
+      
+      // Fill remaining grid positions to maintain layout
+      const fillerDaysNeeded = 37 - daysInMonth - sundayDays.length;
+      addFillerDays(daysContainer, fillerDaysNeeded);
+    });
+  }
+  
+  // Get data for all months
+  function getMonthsData() {
+    return Array.from({ length: 12 }, (_, month) => {
+      const daysInMonth = moment().month(month).daysInMonth();
+      const { weekendDays, sundayDays } = getWeekendDaysForMonth(month, daysInMonth);
+      return { daysInMonth, weekendDays, sundayDays };
+    });
+  }
+  
+  // Get weekend days for a specific month
+  function getWeekendDaysForMonth(month, daysInMonth) {
+    const weekendDays = [];
+    const sundayDays = [];
+    
+    for (let day = 1; day <= daysInMonth; day++) {
+      const date = moment().month(month).date(day);
+      if (date.day() === 0 || date.day() === 6) {
+        weekendDays.push(day);
+      }
+      if (date.day() === 0) {
+        sundayDays.push(day);
+      }
+    }
+    
+    return { weekendDays, sundayDays };
+  }
+  
+  // Create a single day element with proper classes
+  function createDayElement(day, weekendDays, dayNumber, currentDayOfYear) {
+    const dayElement = document.createElement("li");
+    
+    if (weekendDays.includes(day)) {
+      dayElement.classList.add("weekend");
+    } else {
+      dayElement.classList.add("weekday");
+    }
+    
+    if (dayNumber === currentDayOfYear) {
+      dayElement.classList.add("now");
+    } else if (dayNumber < currentDayOfYear) {
+      dayElement.classList.add("past");
+    }
+    
+    return dayElement;
+  }
+  
+  // Create empty filler element
+  function createFillerElement() {
+    const filler = document.createElement("li");
+    filler.classList.add("filler");
+    return filler;
+  }
+  
+  // Add multiple filler elements
+  function addFillerDays(container, count) {
+    for (let i = 0; i < count; i++) {
+      container.appendChild(createFillerElement());
+    }
+  }
+</script> 

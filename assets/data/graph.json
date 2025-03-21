@@ -25,7 +25,8 @@
         "/design",
         "/edebiyat",
         "/literature",
-        "/poetry"
+        "/poetry",
+        "/siir"
       ]
     },
     {
@@ -92,7 +93,8 @@
         "/interviews",
         "/llm-prompt",
         "/pub",
-        "/resume"
+        "/resume",
+        "/short-prompt"
       ]
     },
     {
@@ -137,6 +139,7 @@
       "name": "Communication",
       "links": [
         "/arts",
+        "/difficult-comms",
         "/listening",
         "/public-speaking",
         "/speaking",
@@ -163,27 +166,13 @@
     {
       "id": "/edebiyat",
       "group": 2,
-      "name": "Şiirler",
+      "name": "Edebiyat",
       "links": [
         "/arts",
-        "/abbas",
-        "/alper-tunga",
-        "/asik-veysel",
         "/bilge-kagan",
-        "/boz-ayran",
-        "/bulent-ecevit",
-        "/bulgur-pilavi",
-        "/can-yucel",
         "/dede-korkut",
-        "/edip-cansever",
-        "/fuzuli",
         "/ince-memed",
-        "/isyan",
-        "/melih-cevdet",
-        "/nazim",
-        "/orhan-veli",
-        "/puslu-kitalar-atlasi",
-        "/yunus-emre"
+        "/puslu-kitalar-atlasi"
       ]
     },
     {
@@ -230,6 +219,25 @@
         "/we-wear-the-mask",
         "/wei-wu-wei",
         "/wind-and-rain"
+      ]
+    },
+    {
+      "id": "/siir",
+      "group": 2,
+      "name": "Siir",
+      "links": [
+        "/arts",
+        "/abbas",
+        "/alper-tunga",
+        "/asik-veysel",
+        "/bulent-ecevit",
+        "/can-yucel",
+        "/edip-cansever",
+        "/fuzuli",
+        "/melih-cevdet",
+        "/nazim",
+        "/orhan-veli",
+        "/yunus-emre"
       ]
     },
     {
@@ -311,6 +319,7 @@
         "/google-sre-book",
         "/kafka",
         "/patterns-of-distributed-systems",
+        "/percentile-vs-percentage",
         "/spark",
         "/time-and-order",
         "/system-design"
@@ -667,6 +676,14 @@
       ]
     },
     {
+      "id": "/short-prompt",
+      "group": 2,
+      "name": "Short Prompt",
+      "links": [
+        "/misc"
+      ]
+    },
+    {
       "id": "/books-sci",
       "group": 2,
       "name": "Books",
@@ -800,6 +817,14 @@
       ]
     },
     {
+      "id": "/difficult-comms",
+      "group": 3,
+      "name": "Difficult Comms",
+      "links": [
+        "/communication"
+      ]
+    },
+    {
       "id": "/listening",
       "group": 3,
       "name": "Listening",
@@ -897,65 +922,9 @@
       ]
     },
     {
-      "id": "/abbas",
-      "group": 3,
-      "name": "Abbas",
-      "links": [
-        "/edebiyat"
-      ]
-    },
-    {
-      "id": "/alper-tunga",
-      "group": 3,
-      "name": "Alper Tunga",
-      "links": [
-        "/edebiyat"
-      ]
-    },
-    {
-      "id": "/asik-veysel",
-      "group": 3,
-      "name": "Asik Veysel",
-      "links": [
-        "/edebiyat"
-      ]
-    },
-    {
       "id": "/bilge-kagan",
       "group": 3,
       "name": "Bilge Kagan",
-      "links": [
-        "/edebiyat"
-      ]
-    },
-    {
-      "id": "/boz-ayran",
-      "group": 3,
-      "name": "Boz Ayran",
-      "links": [
-        "/edebiyat"
-      ]
-    },
-    {
-      "id": "/bulent-ecevit",
-      "group": 3,
-      "name": "Bulent Ecevit",
-      "links": [
-        "/edebiyat"
-      ]
-    },
-    {
-      "id": "/bulgur-pilavi",
-      "group": 3,
-      "name": "Bulgur Pilavi",
-      "links": [
-        "/edebiyat"
-      ]
-    },
-    {
-      "id": "/can-yucel",
-      "group": 3,
-      "name": "Can Yücel",
       "links": [
         "/edebiyat"
       ]
@@ -969,22 +938,6 @@
       ]
     },
     {
-      "id": "/edip-cansever",
-      "group": 3,
-      "name": "Edip Cansever",
-      "links": [
-        "/edebiyat"
-      ]
-    },
-    {
-      "id": "/fuzuli",
-      "group": 3,
-      "name": "Fuzuli",
-      "links": [
-        "/edebiyat"
-      ]
-    },
-    {
       "id": "/ince-memed",
       "group": 3,
       "name": "Ince Memed",
@@ -993,49 +946,9 @@
       ]
     },
     {
-      "id": "/isyan",
-      "group": 3,
-      "name": "Isyan",
-      "links": [
-        "/edebiyat"
-      ]
-    },
-    {
-      "id": "/melih-cevdet",
-      "group": 3,
-      "name": "Melih Cevdet",
-      "links": [
-        "/edebiyat"
-      ]
-    },
-    {
-      "id": "/nazim",
-      "group": 3,
-      "name": "Nazim Hikmet",
-      "links": [
-        "/edebiyat"
-      ]
-    },
-    {
-      "id": "/orhan-veli",
-      "group": 3,
-      "name": "Orhan Veli",
-      "links": [
-        "/edebiyat"
-      ]
-    },
-    {
       "id": "/puslu-kitalar-atlasi",
       "group": 3,
       "name": "Puslu Kitalar Atlasi",
-      "links": [
-        "/edebiyat"
-      ]
-    },
-    {
-      "id": "/yunus-emre",
-      "group": 3,
-      "name": "Yunus Emre",
       "links": [
         "/edebiyat"
       ]
@@ -1145,6 +1058,7 @@
       "name": "If",
       "links": [
         "/poetry",
+        "/bulent-ecevit",
         "/success-and-failure"
       ]
     },
@@ -1288,6 +1202,95 @@
       "links": [
         "/poetry",
         "/know-where-to-stop"
+      ]
+    },
+    {
+      "id": "/abbas",
+      "group": 3,
+      "name": "Abbas",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/alper-tunga",
+      "group": 3,
+      "name": "Alper Tunga",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/asik-veysel",
+      "group": 3,
+      "name": "Asik Veysel",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/bulent-ecevit",
+      "group": 3,
+      "name": "Bulent Ecevit",
+      "links": [
+        "/siir",
+        "/if"
+      ]
+    },
+    {
+      "id": "/can-yucel",
+      "group": 3,
+      "name": "Can Yücel",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/edip-cansever",
+      "group": 3,
+      "name": "Edip Cansever",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/fuzuli",
+      "group": 3,
+      "name": "Fuzuli",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/melih-cevdet",
+      "group": 3,
+      "name": "Melih Cevdet",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/nazim",
+      "group": 3,
+      "name": "Nazim Hikmet",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/orhan-veli",
+      "group": 3,
+      "name": "Orhan Veli",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/yunus-emre",
+      "group": 3,
+      "name": "Yunus Emre",
+      "links": [
+        "/siir"
       ]
     },
     {
@@ -1758,6 +1761,14 @@
       "id": "/patterns-of-distributed-systems",
       "group": 3,
       "name": "Patterns of Distributed Systems",
+      "links": [
+        "/distributed-systems"
+      ]
+    },
+    {
+      "id": "/percentile-vs-percentage",
+      "group": 3,
+      "name": "Percentile Vs Percentage",
       "links": [
         "/distributed-systems"
       ]
@@ -4059,6 +4070,10 @@
       "target": "/poetry"
     },
     {
+      "source": "/arts",
+      "target": "/siir"
+    },
+    {
       "source": "/engineering",
       "target": "/algorithms"
     },
@@ -4183,6 +4198,10 @@
       "target": "/resume"
     },
     {
+      "source": "/misc",
+      "target": "/short-prompt"
+    },
+    {
       "source": "/sciences",
       "target": "/books-sci"
     },
@@ -4221,6 +4240,10 @@
     {
       "source": "/architecture",
       "target": "/urban-planning"
+    },
+    {
+      "source": "/communication",
+      "target": "/difficult-comms"
     },
     {
       "source": "/communication",
@@ -4268,35 +4291,7 @@
     },
     {
       "source": "/edebiyat",
-      "target": "/abbas"
-    },
-    {
-      "source": "/edebiyat",
-      "target": "/alper-tunga"
-    },
-    {
-      "source": "/edebiyat",
-      "target": "/asik-veysel"
-    },
-    {
-      "source": "/edebiyat",
       "target": "/bilge-kagan"
-    },
-    {
-      "source": "/edebiyat",
-      "target": "/boz-ayran"
-    },
-    {
-      "source": "/edebiyat",
-      "target": "/bulent-ecevit"
-    },
-    {
-      "source": "/edebiyat",
-      "target": "/bulgur-pilavi"
-    },
-    {
-      "source": "/edebiyat",
-      "target": "/can-yucel"
     },
     {
       "source": "/edebiyat",
@@ -4304,39 +4299,11 @@
     },
     {
       "source": "/edebiyat",
-      "target": "/edip-cansever"
-    },
-    {
-      "source": "/edebiyat",
-      "target": "/fuzuli"
-    },
-    {
-      "source": "/edebiyat",
       "target": "/ince-memed"
     },
     {
       "source": "/edebiyat",
-      "target": "/isyan"
-    },
-    {
-      "source": "/edebiyat",
-      "target": "/melih-cevdet"
-    },
-    {
-      "source": "/edebiyat",
-      "target": "/nazim"
-    },
-    {
-      "source": "/edebiyat",
-      "target": "/orhan-veli"
-    },
-    {
-      "source": "/edebiyat",
       "target": "/puslu-kitalar-atlasi"
-    },
-    {
-      "source": "/edebiyat",
-      "target": "/yunus-emre"
     },
     {
       "source": "/literature",
@@ -4457,6 +4424,50 @@
     {
       "source": "/poetry",
       "target": "/wind-and-rain"
+    },
+    {
+      "source": "/siir",
+      "target": "/abbas"
+    },
+    {
+      "source": "/siir",
+      "target": "/alper-tunga"
+    },
+    {
+      "source": "/siir",
+      "target": "/asik-veysel"
+    },
+    {
+      "source": "/siir",
+      "target": "/bulent-ecevit"
+    },
+    {
+      "source": "/siir",
+      "target": "/can-yucel"
+    },
+    {
+      "source": "/siir",
+      "target": "/edip-cansever"
+    },
+    {
+      "source": "/siir",
+      "target": "/fuzuli"
+    },
+    {
+      "source": "/siir",
+      "target": "/melih-cevdet"
+    },
+    {
+      "source": "/siir",
+      "target": "/nazim"
+    },
+    {
+      "source": "/siir",
+      "target": "/orhan-veli"
+    },
+    {
+      "source": "/siir",
+      "target": "/yunus-emre"
     },
     {
       "source": "/algorithms",
@@ -4645,6 +4656,10 @@
     {
       "source": "/distributed-systems",
       "target": "/patterns-of-distributed-systems"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/percentile-vs-percentage"
     },
     {
       "source": "/distributed-systems",
@@ -5693,6 +5708,10 @@
     {
       "source": "/cien-anos-de-soledad",
       "target": "/classics"
+    },
+    {
+      "source": "/if",
+      "target": "/bulent-ecevit"
     },
     {
       "source": "/if",
