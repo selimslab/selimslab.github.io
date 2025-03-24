@@ -1,0 +1,228 @@
+<script src="/assets/js/moment.min.js"></script>
+
+<div class="clock-container" style="width: 100%; max-width: 400px; margin: 0 auto;">
+  <div style="position: relative; padding-bottom: 100%;">
+    <canvas id="clockCanvas-{{ include.id | default: 'default' }}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></canvas>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const Clock = {
+      canvas: null,
+      ctx: null,
+      type: '{{ include.type | default: "year" }}',
+      id: '{{ include.id | default: "default" }}',
+      segmentNames: [],
+      config: {
+        radius: 0,
+        center: { x: 0, y: 0 },
+        dial: {
+          color: 'currentColor',
+          width: 2
+        },
+        segmentMarks: {
+          color: 'currentColor',
+          opacity: 0.9,
+          length: 15,
+          width: 2
+        },
+        hands: {
+          current: { width: 5, length: 0.95, color: 'currentColor', opacity: 0.9 }
+        },
+        highlight: 'red'
+      },
+
+      init() {
+        this.canvas = document.getElementById(`clockCanvas-${this.id}`);
+        this.ctx = this.canvas.getContext('2d');
+        this.setupClockType();
+        this.resizeCanvas();
+        window.addEventListener('resize', () => this.resizeCanvas());
+        this.updateThemeColors();
+        this.watchThemeChanges();
+        this.startClock();
+      },
+
+      setupClockType() {
+        this[`setup${this.type.charAt(0).toUpperCase() + this.type.slice(1)}Clock`]();
+      },
+      
+      setupYearClock() {
+        this.segmentNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+        this.segmentCount = 12;
+        this.segmentFractions = [0, 0.0849, 0.1644, 0.2493, 0.3288, 0.4137, 0.4986, 0.5836, 0.6685, 0.7534, 0.8384, 0.9233];
+        this.getCurrentPosition = () => {
+          const now = moment();
+          const dayOfYear = now.dayOfYear();
+          return (dayOfYear / 365) * 2 * Math.PI;
+        };
+      },
+      
+      setupHourClock() {
+        this.segmentNames = ['12', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11'];
+        this.segmentCount = 12;
+        this.segmentFractions = Array.from({length: 12}, (_, i) => i / 12);
+        this.getCurrentPosition = () => {
+          const now = moment();
+          const hour = now.hour() % 12;
+          const minute = now.minute();
+          const second = now.second();
+          return ((hour + minute/60 + second/3600) / 12) * 2 * Math.PI;
+        };
+      },
+
+      resizeCanvas() {
+        const container = this.canvas.parentElement;
+        const dpr = window.devicePixelRatio || 1;
+        const rect = container.getBoundingClientRect();
+        
+        this.canvas.width = rect.width * dpr;
+        this.canvas.height = rect.height * dpr;
+        this.ctx.scale(dpr, dpr);
+        
+        this.config.radius = Math.min(rect.width, rect.height) * 0.45;
+        this.config.center = { x: rect.width / 2, y: rect.height / 2 };
+      },
+
+      drawClockDial() {
+        this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+        
+        // Draw outer circle
+        this.ctx.beginPath();
+        this.ctx.arc(this.config.center.x, this.config.center.y, this.config.radius, 0, 2 * Math.PI);
+        this.ctx.strokeStyle = this.config.dial.color;
+        this.ctx.lineWidth = this.config.dial.width;
+        this.ctx.stroke();
+        
+        // Draw segment marks
+        for (let segment = 0; segment < this.segmentCount; segment++) {
+          this.drawSegmentMark(segment);
+        }
+        
+        this.ctx.globalAlpha = 1.0;
+      },
+
+      drawSegmentMark(segment) {
+        // Calculate angle for each segment
+        const segmentAngle = this.segmentFractions[segment] * 2 * Math.PI;
+        
+        // Calculate coordinates for segment mark
+        const innerRadius = this.config.radius - this.config.segmentMarks.length;
+        const startX = this.config.center.x + innerRadius * Math.sin(segmentAngle);
+        const startY = this.config.center.y - innerRadius * Math.cos(segmentAngle);
+        const endX = this.config.center.x + this.config.radius * Math.sin(segmentAngle);
+        const endY = this.config.center.y - this.config.radius * Math.cos(segmentAngle);
+        
+        // Draw segment mark
+        this.ctx.beginPath();
+        this.ctx.moveTo(startX, startY);
+        this.ctx.lineTo(endX, endY);
+        this.ctx.globalAlpha = this.config.segmentMarks.opacity;
+        this.ctx.strokeStyle = this.config.segmentMarks.color;
+        this.ctx.lineWidth = this.config.segmentMarks.width;
+        this.ctx.stroke();
+        
+        // Add segment label
+        this.drawSegmentLabel(segment, segmentAngle);
+      },
+
+      drawSegmentLabel(segment, angle) {
+        const labelRadius = this.config.radius - this.config.segmentMarks.length - 15;
+        const labelX = this.config.center.x + labelRadius * Math.sin(angle);
+        const labelY = this.config.center.y - labelRadius * Math.cos(angle);
+        
+        this.ctx.font = `${Math.max(10, this.config.radius / 15)}px sans-serif`;
+        this.ctx.fillStyle = this.config.segmentMarks.color;
+        this.ctx.textAlign = 'center';
+        this.ctx.textBaseline = 'middle';
+        this.ctx.globalAlpha = this.config.segmentMarks.opacity;
+        this.ctx.fillText(this.segmentNames[segment], labelX, labelY);
+      },
+
+      drawHand(type, angle) {
+        const hand = this.config.hands[type];
+        const handLength = this.config.radius * 0.98;
+        
+        this.ctx.beginPath();
+        this.ctx.moveTo(this.config.center.x, this.config.center.y);
+        this.ctx.lineTo(
+          this.config.center.x + handLength * Math.sin(angle),
+          this.config.center.y - handLength * Math.cos(angle)
+        );
+        this.ctx.strokeStyle = hand.color;
+        this.ctx.lineWidth = 2;
+        this.ctx.lineCap = 'round';
+        this.ctx.stroke();
+        
+        // Add indicator circle near tip
+        const circleRadius = this.config.radius * 0.02;
+        const circleDistance = handLength - (circleRadius * 3);
+        
+        this.ctx.beginPath();
+        this.ctx.arc(
+          this.config.center.x + circleDistance * Math.sin(angle),
+          this.config.center.y - circleDistance * Math.cos(angle),
+          circleRadius,
+          0, 2 * Math.PI
+        );
+        this.ctx.fillStyle = this.config.highlight;
+        this.ctx.fill();
+      },
+
+      drawCenterDot() {
+        const dotSize = Math.max(2, Math.min(4, this.config.radius / 75));
+        this.ctx.beginPath();
+        this.ctx.arc(this.config.center.x, this.config.center.y, dotSize, 0, 2 * Math.PI);
+        this.ctx.fillStyle = this.config.dial.color;
+        this.ctx.fill();
+      },
+
+      drawTime() {
+        const currentAngle = this.getCurrentPosition();
+        this.drawHand('current', currentAngle);
+        this.drawCenterDot();
+      },
+
+      updateThemeColors() {
+        const bodyColor = window.getComputedStyle(document.body).color;
+        
+        // Apply text color to all elements at once
+        this.config.dial.color = 
+        this.config.segmentMarks.color = 
+        this.config.hands.current.color = bodyColor;
+        
+        // Set highlight color based on theme
+        this.config.highlight = document.documentElement.getAttribute('data-theme') !== 'light' 
+          ? '#ffc800' 
+          : '#FF530D';
+      },
+
+      watchThemeChanges() {
+        // Check theme on each frame
+        this.checkTheme = () => {
+          this.updateThemeColors();
+        };
+      },
+
+      setDrawingDefaults(opacity = 1.0) {
+        this.ctx.globalAlpha = opacity;
+        this.ctx.lineCap = 'round';
+        return this;
+      },
+
+      updateClock() {
+        this.updateThemeColors();
+        this.drawClockDial();
+        this.drawTime();
+        requestAnimationFrame(() => this.updateClock());
+      },
+
+      startClock() {
+        this.updateClock();
+      }
+    };
+
+    Clock.init();
+  });
+</script>

@@ -88,6 +88,7 @@
       "links": [
         "/root",
         "/about",
+        "/clock",
         "/graph-2d",
         "/graph-3d",
         "/interviews",
@@ -169,6 +170,7 @@
       "name": "Edebiyat",
       "links": [
         "/arts",
+        "/atasozleri",
         "/bilge-kagan",
         "/dede-korkut",
         "/ince-memed",
@@ -628,6 +630,14 @@
       ]
     },
     {
+      "id": "/clock",
+      "group": 2,
+      "name": "Clock",
+      "links": [
+        "/misc"
+      ]
+    },
+    {
       "id": "/graph-2d",
       "group": 2,
       "name": "2D Graph of All Pages",
@@ -919,6 +929,14 @@
         "/polished-pixels",
         "/things-users-care",
         "/usability-testing"
+      ]
+    },
+    {
+      "id": "/atasozleri",
+      "group": 3,
+      "name": "Atasozleri",
+      "links": [
+        "/edebiyat"
       ]
     },
     {
@@ -4175,6 +4193,10 @@
     },
     {
       "source": "/misc",
+      "target": "/clock"
+    },
+    {
+      "source": "/misc",
       "target": "/graph-2d"
     },
     {
@@ -4288,6 +4310,10 @@
     {
       "source": "/design",
       "target": "/ux"
+    },
+    {
+      "source": "/edebiyat",
+      "target": "/atasozleri"
     },
     {
       "source": "/edebiyat",
