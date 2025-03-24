@@ -23,10 +23,13 @@ Söyleyenden dinleyen arif gerek
 
 Haberi verenden alan uz gerek
 
+Alismis kudurmustan beterdir 
 
+Azdan az gider, coktan cok
+
+Tahsil cehaleti alir, eseklik baki kalir 
 
 Üç göç, bir yangın yerini tutar
-
 
 Yerinden oynayan yetmiş kazaya uğrar
 
