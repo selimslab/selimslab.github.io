@@ -14,25 +14,40 @@
       type: '{{ include.type | default: "year" }}',
       id: '{{ include.id | default: "default" }}',
       segmentNames: [],
+      segmentCount: 0,
+      segmentFractions: [],
+      dialImageData: null,
+      
+      // Consolidated configuration
       config: {
         radius: 0,
         center: { x: 0, y: 0 },
-        dial: {
-          color: 'currentColor',
-          width: 2
+        colors: {
+          dial: 'currentColor',
+          marks: 'currentColor',
+          hands: 'currentColor',
+          highlight: 'red'
         },
-        segmentMarks: {
-          color: 'currentColor',
-          opacity: 0.9,
-          length: 15,
-          width: 2
+        opacities: {
+          marks: 0.9,
+          yearMarks: 0.4,
+          labels: 0.9
         },
-        hands: {
-          current: { width: 5, length: 0.95, color: 'currentColor', opacity: 0.9 }
-        },
-        highlight: 'red'
+        sizes: {
+          dialWidth: 1,
+          markWidth: 1,
+          markLength: 15,
+          yearMarkLength: 7.5, // Half of mark length
+          handWidth: 1,
+          handLength: 0.98,
+          centerDotSize: 3,
+          handCircleRadius: 0.02, // Percentage of radius
+          labelFontSize: ratio => Math.max(10, ratio / 15),
+          yearLabelFontSize: ratio => Math.max(12, ratio / 12),
+          labelRadius: 0.75, // Percentage of radius
+          labelPadding: 15
+        }
       },
-      dialImageData: null,
 
       init() {
         this.canvas = document.getElementById(`clockCanvas-${this.id}`);
@@ -46,7 +61,19 @@
       },
 
       setupClockType() {
-        this[`setup${this.type.charAt(0).toUpperCase() + this.type.slice(1)}Clock`]();
+        const typeMap = {
+          'year': this.setupYearClock,
+          'hour': this.setupHourClock,
+          'century': this.setupCenturyClock
+        };
+        
+        const setupMethod = typeMap[this.type];
+        if (setupMethod) {
+          setupMethod.call(this);
+        } else {
+          console.error(`Unknown clock type: ${this.type}`);
+          this.setupYearClock(); // Default fallback
+        }
       },
       
       setupYearClock() {
@@ -84,12 +111,9 @@
           const month = now.month();
           const day = now.date();
           
-          // Calculate years since 2000
           const yearsSince2000 = year - 2000;
-          // Add fraction of current year
           const fractionOfYear = (month * 30 + day) / 365;
           
-          // Full cycle is 60 years
           return ((yearsSince2000 + fractionOfYear) / 60) * 2 * Math.PI;
         };
       },
@@ -105,23 +129,72 @@
         
         this.config.radius = Math.min(rect.width, rect.height) * 0.45;
         this.config.center = { x: rect.width / 2, y: rect.height / 2 };
+        
+        // Reset cached image data when resizing
+        this.dialImageData = null;
+      },
+
+      // Draw methods
+      drawLine(startX, startY, endX, endY, color, width, opacity = 1.0) {
+        this.ctx.beginPath();
+        this.ctx.moveTo(startX, startY);
+        this.ctx.lineTo(endX, endY);
+        this.ctx.globalAlpha = opacity;
+        this.ctx.strokeStyle = color;
+        this.ctx.lineWidth = width;
+        this.ctx.stroke();
+        return this;
+      },
+
+      drawCircle(x, y, radius, color, fill = true, opacity = 1.0) {
+        this.ctx.beginPath();
+        this.ctx.arc(x, y, radius, 0, 2 * Math.PI);
+        this.ctx.globalAlpha = opacity;
+        
+        if (fill) {
+          this.ctx.fillStyle = color;
+          this.ctx.fill();
+        } else {
+          this.ctx.strokeStyle = color;
+          this.ctx.stroke();
+        }
+        return this;
+      },
+
+      drawText(text, x, y, color, fontSize, opacity = 1.0) {
+        this.ctx.font = `${fontSize}px sans-serif`;
+        this.ctx.fillStyle = color;
+        this.ctx.textAlign = 'center';
+        this.ctx.textBaseline = 'middle';
+        this.ctx.globalAlpha = opacity;
+        this.ctx.fillText(text, x, y);
+        return this;
+      },
+
+      getPointFromAngle(angle, distance) {
+        return {
+          x: this.config.center.x + distance * Math.sin(angle),
+          y: this.config.center.y - distance * Math.cos(angle)
+        };
       },
 
       drawClockDial() {
         this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
         
         // Draw outer circle
-        this.ctx.beginPath();
-        this.ctx.arc(this.config.center.x, this.config.center.y, this.config.radius, 0, 2 * Math.PI);
-        this.ctx.strokeStyle = this.config.dial.color;
-        this.ctx.lineWidth = this.config.dial.width;
-        this.ctx.stroke();
+        this.drawCircle(
+          this.config.center.x, 
+          this.config.center.y, 
+          this.config.radius, 
+          this.config.colors.dial, 
+          false, 
+          1.0
+        );
         
         // Store the current canvas state for reuse
         if (!this.dialImageData && this.type === this.id) {
           this.dialImageData = this.ctx.getImageData(0, 0, this.canvas.width, this.canvas.height);
         } else if (this.dialImageData && this.type === this.id) {
-          // Use stored dial image if available
           this.ctx.putImageData(this.dialImageData, 0, 0);
         }
         
@@ -134,12 +207,10 @@
         for (let segment = 0; segment < this.segmentCount; segment++) {
           this.drawSegmentMark(segment);
         }
-        
-        this.ctx.globalAlpha = 1.0;
       },
 
       drawYearMarks() {
-        const yearMarkLength = this.config.segmentMarks.length * 0.5;
+        const { sizes, colors, opacities } = this.config;
         const now = moment();
         const currentYear = now.year();
         const currentYearShort = currentYear % 100;
@@ -148,147 +219,132 @@
           const yearAngle = (year / 60) * 2 * Math.PI;
           
           // Calculate coordinates for year mark
-          const innerRadius = this.config.radius - yearMarkLength;
-          const startX = this.config.center.x + innerRadius * Math.sin(yearAngle);
-          const startY = this.config.center.y - innerRadius * Math.cos(yearAngle);
-          const endX = this.config.center.x + this.config.radius * Math.sin(yearAngle);
-          const endY = this.config.center.y - this.config.radius * Math.cos(yearAngle);
+          const innerPoint = this.getPointFromAngle(yearAngle, this.config.radius - sizes.yearMarkLength);
+          const outerPoint = this.getPointFromAngle(yearAngle, this.config.radius);
           
           // Draw year mark
-          this.ctx.beginPath();
-          this.ctx.moveTo(startX, startY);
-          this.ctx.lineTo(endX, endY);
-          this.ctx.globalAlpha = 0.4;
-          this.ctx.strokeStyle = this.config.segmentMarks.color;
-          this.ctx.lineWidth = 1;
-          this.ctx.stroke();
+          this.drawLine(
+            innerPoint.x, innerPoint.y,
+            outerPoint.x, outerPoint.y,
+            colors.marks, 1, opacities.yearMarks
+          );
           
           // Add current year label
           if (year === currentYearShort - 2000) {
-            const labelRadius = this.config.radius * 0.75;
-            const labelX = this.config.center.x + labelRadius * Math.sin(yearAngle);
-            const labelY = this.config.center.y - labelRadius * Math.cos(yearAngle);
+            const labelPoint = this.getPointFromAngle(yearAngle, this.config.radius * sizes.labelRadius);
             
-            this.ctx.font = `bold ${Math.max(12, this.config.radius / 12)}px sans-serif`;
-            this.ctx.fillStyle = this.config.highlight;
-            this.ctx.textAlign = 'center';
-            this.ctx.textBaseline = 'middle';
-            this.ctx.globalAlpha = 0.9;
-            this.ctx.fillText(currentYearShort, labelX, labelY);
+            this.drawText(
+              currentYearShort,
+              labelPoint.x, labelPoint.y,
+              colors.highlight,
+              sizes.yearLabelFontSize(this.config.radius),
+              opacities.labels
+            );
           }
         }
       },
 
       drawSegmentMark(segment) {
-        // Calculate angle for each segment
+        const { sizes, colors, opacities } = this.config;
         const segmentAngle = this.segmentFractions[segment] * 2 * Math.PI;
         
         // Calculate coordinates for segment mark
-        const innerRadius = this.config.radius - this.config.segmentMarks.length;
-        const startX = this.config.center.x + innerRadius * Math.sin(segmentAngle);
-        const startY = this.config.center.y - innerRadius * Math.cos(segmentAngle);
-        const endX = this.config.center.x + this.config.radius * Math.sin(segmentAngle);
-        const endY = this.config.center.y - this.config.radius * Math.cos(segmentAngle);
+        const innerPoint = this.getPointFromAngle(segmentAngle, this.config.radius - sizes.markLength);
+        const outerPoint = this.getPointFromAngle(segmentAngle, this.config.radius);
         
         // Draw segment mark
-        this.ctx.beginPath();
-        this.ctx.moveTo(startX, startY);
-        this.ctx.lineTo(endX, endY);
-        this.ctx.globalAlpha = this.config.segmentMarks.opacity;
-        this.ctx.strokeStyle = this.config.segmentMarks.color;
-        this.ctx.lineWidth = this.config.segmentMarks.width;
-        this.ctx.stroke();
+        this.drawLine(
+          innerPoint.x, innerPoint.y,
+          outerPoint.x, outerPoint.y,
+          colors.marks,
+          sizes.markWidth,
+          opacities.marks
+        );
         
         // Add segment label
-        this.drawSegmentLabel(segment, segmentAngle);
-      },
-
-      drawSegmentLabel(segment, angle) {
-        const labelRadius = this.config.radius - this.config.segmentMarks.length - 15;
-        const labelX = this.config.center.x + labelRadius * Math.sin(angle);
-        const labelY = this.config.center.y - labelRadius * Math.cos(angle);
-        
-        this.ctx.font = `${Math.max(10, this.config.radius / 15)}px sans-serif`;
-        this.ctx.fillStyle = this.config.segmentMarks.color;
-        this.ctx.textAlign = 'center';
-        this.ctx.textBaseline = 'middle';
-        this.ctx.globalAlpha = this.config.segmentMarks.opacity;
-        this.ctx.fillText(this.segmentNames[segment], labelX, labelY);
-      },
-
-      drawHand(type, angle) {
-        const hand = this.config.hands[type];
-        const handLength = this.config.radius * 0.98;
-        
-        this.ctx.beginPath();
-        this.ctx.moveTo(this.config.center.x, this.config.center.y);
-        this.ctx.lineTo(
-          this.config.center.x + handLength * Math.sin(angle),
-          this.config.center.y - handLength * Math.cos(angle)
+        const labelPoint = this.getPointFromAngle(
+          segmentAngle, 
+          this.config.radius - sizes.markLength - sizes.labelPadding
         );
-        this.ctx.strokeStyle = hand.color;
-        this.ctx.lineWidth = 2;
-        this.ctx.lineCap = 'round';
-        this.ctx.stroke();
+        
+        this.drawText(
+          this.segmentNames[segment],
+          labelPoint.x, labelPoint.y,
+          colors.marks,
+          sizes.labelFontSize(this.config.radius),
+          opacities.marks
+        );
+      },
+
+      drawHand(angle) {
+        const { sizes, colors } = this.config;
+        const handLength = this.config.radius * sizes.handLength;
+        
+        // Draw hand line
+        const handEnd = this.getPointFromAngle(angle, handLength);
+        
+        this.drawLine(
+          this.config.center.x, this.config.center.y,
+          handEnd.x, handEnd.y,
+          colors.hands,
+          sizes.handWidth,
+          1.0
+        );
         
         // Add indicator circle near tip
-        const circleRadius = this.config.radius * 0.02;
+        const circleRadius = this.config.radius * sizes.handCircleRadius;
         const circleDistance = handLength - (circleRadius * 3);
+        const circlePoint = this.getPointFromAngle(angle, circleDistance);
         
-        this.ctx.beginPath();
-        this.ctx.arc(
-          this.config.center.x + circleDistance * Math.sin(angle),
-          this.config.center.y - circleDistance * Math.cos(angle),
+        this.drawCircle(
+          circlePoint.x, circlePoint.y,
           circleRadius,
-          0, 2 * Math.PI
+          colors.highlight,
+          true,
+          1.0
         );
-        this.ctx.fillStyle = this.config.highlight;
-        this.ctx.fill();
       },
 
       drawCenterDot() {
         const dotSize = Math.max(2, Math.min(4, this.config.radius / 75));
-        this.ctx.beginPath();
-        this.ctx.arc(this.config.center.x, this.config.center.y, dotSize, 0, 2 * Math.PI);
-        this.ctx.fillStyle = this.config.dial.color;
-        this.ctx.fill();
+        
+        this.drawCircle(
+          this.config.center.x, this.config.center.y,
+          dotSize,
+          this.config.colors.dial,
+          true,
+          1.0
+        );
       },
 
       drawTime() {
+        this.ctx.lineCap = 'round';
         const currentAngle = this.getCurrentPosition();
-        this.drawHand('current', currentAngle);
+        this.drawHand(currentAngle);
         this.drawCenterDot();
       },
 
       updateThemeColors() {
         const bodyColor = window.getComputedStyle(document.body).color;
+        const isDarkTheme = document.documentElement.getAttribute('data-theme') !== 'light';
         
-        // Apply text color to all elements at once
-        this.config.dial.color = 
-        this.config.segmentMarks.color = 
-        this.config.hands.current.color = bodyColor;
-        
-        // Set highlight color based on theme
-        this.config.highlight = document.documentElement.getAttribute('data-theme') !== 'light' 
-          ? '#ffc800' 
-          : '#FF530D';
+        this.config.colors = {
+          dial: bodyColor,
+          marks: bodyColor,
+          hands: bodyColor,
+          highlight: isDarkTheme ? '#ffc800' : '#FF530D'
+        };
       },
 
       watchThemeChanges() {
-        // Check theme on each frame
+        // Simple theme check on each frame
         this.checkTheme = () => {
           this.updateThemeColors();
         };
       },
 
-      setDrawingDefaults(opacity = 1.0) {
-        this.ctx.globalAlpha = opacity;
-        this.ctx.lineCap = 'round';
-        return this;
-      },
-
       updateClock() {
-        this.updateThemeColors();
+        this.checkTheme();
         this.drawClockDial();
         this.drawTime();
         requestAnimationFrame(() => this.updateClock());
