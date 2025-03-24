@@ -17,6 +17,7 @@
       segmentCount: 0,
       segmentFractions: [],
       dialImageData: null,
+      minuteMarks: [],
       
       // Consolidated configuration
       config: {
@@ -91,6 +92,8 @@
         this.segmentNames = ['12', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11'];
         this.segmentCount = 12;
         this.segmentFractions = Array.from({length: 12}, (_, i) => i / 12);
+        this.minuteMarks = Array.from({length: 120}, (_, i) => i);
+        this.yearMarks = Array.from({length: 60}, (_, i) => i);
         this.getCurrentPosition = () => {
           const now = moment();
           const hour = now.hour() % 12;
@@ -198,6 +201,11 @@
           this.ctx.putImageData(this.dialImageData, 0, 0);
         }
         
+        // Draw minute marks for hour clock
+        if (this.type === 'hour' && this.minuteMarks) {
+          this.drawMinuteMarks();
+        }
+        
         // Draw year marks for century clock
         if (this.type === 'century' && this.yearMarks) {
           this.drawYearMarks();
@@ -206,6 +214,33 @@
         // Draw segment marks
         for (let segment = 0; segment < this.segmentCount; segment++) {
           this.drawSegmentMark(segment);
+        }
+      },
+
+      drawMinuteMarks() {
+        const { sizes, colors, opacities } = this.config;
+        
+        for (let minute = 0; minute < this.minuteMarks.length; minute++) {
+          // Skip positions where hour marks already exist
+          if (minute % 10 === 0) continue;
+          
+          const minuteAngle = (minute / 120) * 2 * Math.PI;
+          
+          // Calculate coordinates for minute mark (shorter than hour marks)
+          const innerPoint = this.getPointFromAngle(minuteAngle, this.config.radius - sizes.yearMarkLength);
+          const outerPoint = this.getPointFromAngle(minuteAngle, this.config.radius);
+          
+          // Check if this is a 5-minute mark (every 5th mark out of 120 total)
+          const is5MinMark = minute % 5 === 0;
+          
+          // Draw minute mark - make 5-min marks bolder and more opaque
+          this.drawLine(
+            innerPoint.x, innerPoint.y,
+            outerPoint.x, outerPoint.y,
+            colors.marks, 
+            is5MinMark ? 1.0 : 0.5,  // Width: thicker for 5-min marks
+            is5MinMark ? 0.8 : opacities.yearMarks  // Opacity: more visible for 5-min marks
+          );
         }
       },
 
