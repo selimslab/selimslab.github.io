@@ -72,6 +72,26 @@
         };
       },
 
+      setupCenturyClock() {
+        this.segmentNames = ['0', '2010', '2020', '2030', '2040', '2050', '0'];
+        this.segmentCount = 7;
+        this.segmentFractions = Array.from({length: 7}, (_, i) => i / 6);
+        this.getCurrentPosition = () => {
+          const now = moment();
+          const year = now.year();
+          const month = now.month();
+          const day = now.date();
+          
+          // Calculate years since 2000
+          const yearsSince2000 = year - 2000;
+          // Add fraction of current year
+          const fractionOfYear = (month * 30 + day) / 365;
+          
+          // Full cycle is 60 years
+          return ((yearsSince2000 + fractionOfYear) / 60) * 2 * Math.PI;
+        };
+      },
+
       resizeCanvas() {
         const container = this.canvas.parentElement;
         const dpr = window.devicePixelRatio || 1;
