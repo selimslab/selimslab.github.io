@@ -34,16 +34,15 @@ class CenturyClock extends BaseClock {
             
             const is5YearMark = year % 5 === 0;
 
-            const innerPoint = this.getPointFromAngle(yearAngle, this.config.radius - sizes.markLength/(is5YearMark ? 1.6 : 1.2) );
+            const innerPoint = this.getPointFromAngle(yearAngle, this.config.radius - sizes.markLength/(is5YearMark ? 2 : 1.2) );
             const outerPoint = this.getPointFromAngle(yearAngle, this.config.radius - sizes.markLength );
-            
             
             this.drawLine(
                 innerPoint.x, innerPoint.y,
                 outerPoint.x, outerPoint.y,
                 colors.marks, 
                 1,
-                is5YearMark ? 1 : opacities.yearMarks
+                is5YearMark ? 1 : opacities.marks
             );
             
             if (year === currentYearShort - 2000) {

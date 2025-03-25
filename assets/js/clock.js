@@ -21,7 +21,6 @@ class BaseClock {
             },
             opacities: {
                 marks: 1,
-                yearMarks: 0.8,
                 labels: 0.9
             },
             sizes: {
@@ -29,7 +28,7 @@ class BaseClock {
                 markWidth: 1,
                 markLength: 16,
                 handWidth: 1,
-                handLength: 0.8,
+                handLength: 0.92,
                 centerDotSize: 3,
                 handCircleRadius: 0.02,
                 labelFontSize: ratio => Math.max(10, ratio / 15),
@@ -141,7 +140,7 @@ class BaseClock {
         const segmentAngle = this.segmentFractions[segment] * 2 * Math.PI;
         
         const innerPoint = this.getPointFromAngle(segmentAngle, this.config.radius - sizes.markLength);
-        const outerPoint = this.getPointFromAngle(segmentAngle, this.config.radius - sizes.markLength/1.5);
+        const outerPoint = this.getPointFromAngle(segmentAngle, this.config.radius - sizes.markLength/1.8);
         
         this.drawLine(
             innerPoint.x, innerPoint.y,
@@ -180,7 +179,7 @@ class BaseClock {
         );
         
         const circleRadius = this.config.radius * sizes.handCircleRadius;
-        const circleDistance = handLength*0.8;
+        const circleDistance = handLength*0.92;
         const circlePoint = this.getPointFromAngle(angle, circleDistance);
         
         this.drawCircle(
