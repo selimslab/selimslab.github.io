@@ -1,5 +1,3 @@
-
-
 function draw_clock(options) {
     const Clock = {
         canvas: null,
@@ -85,14 +83,14 @@ function draw_clock(options) {
           this.segmentNames = ['12', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11'];
           this.segmentCount = 12;
           this.segmentFractions = Array.from({length: 12}, (_, i) => i / 12);
-          this.minuteMarks = Array.from({length: 120}, (_, i) => i);
+          this.minuteMarks = Array.from({length: 720}, (_, i) => i);
           this.yearMarks = Array.from({length: 60}, (_, i) => i);
           this.getCurrentPosition = () => {
             const now = moment();
             const hour = now.hour() % 12;
             const minute = now.minute();
             const second = now.second();
-            return ((hour + minute/60 + second/3600) / 12) * 2 * Math.PI;
+            return ((hour * 60 + minute + second/60) / 720) * 2 * Math.PI;
           };
         },
   
@@ -211,29 +209,44 @@ function draw_clock(options) {
         },
   
         drawMinuteMarks() {
-          const { sizes, colors, opacities } = this.config;
+          const { sizes, colors } = this.config;
           
           for (let minute = 0; minute < this.minuteMarks.length; minute++) {
             // Skip positions where hour marks already exist
-            if (minute % 10 === 0) continue;
+            if (minute % 60 === 0) continue;
             
-            const minuteAngle = (minute / 120) * 2 * Math.PI;
+            const minuteAngle = (minute / 720) * 2 * Math.PI;
             
-            // Calculate coordinates for minute mark (shorter than hour marks)
             const innerPoint = this.getPointFromAngle(minuteAngle, this.config.radius - sizes.yearMarkLength);
             const outerPoint = this.getPointFromAngle(minuteAngle, this.config.radius);
             
-            // Check if this is a 5-minute mark (every 5th mark out of 120 total)
-            const is5MinMark = minute % 5 === 0;
-            
-            // Draw minute mark - make 5-min marks bolder and more opaque
-            this.drawLine(
-              innerPoint.x, innerPoint.y,
-              outerPoint.x, outerPoint.y,
-              colors.marks, 
-              is5MinMark ? 1.0 : 0.5,  // Width: thicker for 5-min marks
-              is5MinMark ? 0.8 : opacities.yearMarks  // Opacity: more visible for 5-min marks
-            );
+            if (minute % 5 === 0) {
+              this.drawLine(
+                innerPoint.x, innerPoint.y,
+                outerPoint.x, outerPoint.y,
+                colors.marks,
+                1.0,
+                0.3
+              );
+            }
+            if (minute % 15 === 0) {
+              this.drawLine(
+                innerPoint.x, innerPoint.y,
+                outerPoint.x, outerPoint.y,
+                colors.marks,
+                1.0,
+                0.6
+              );
+            }
+            if (minute % 30 === 0) {
+              this.drawLine(
+                innerPoint.x, innerPoint.y,
+                outerPoint.x, outerPoint.y,
+                colors.marks,
+                1.0,
+                0.9
+              );
+            }
           }
         },
   
