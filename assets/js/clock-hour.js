@@ -27,7 +27,7 @@ class HourClock extends BaseClock {
             
             const minuteAngle = (minute / 720) * 2 * Math.PI;
             
-            const innerPoint = this.getPointFromAngle(minuteAngle, this.config.radius - sizes.markLength/2);
+            const innerPoint = this.getPointFromAngle(minuteAngle, this.config.radius - sizes.markLength/1.8);
             const outerPoint = this.getPointFromAngle(minuteAngle, this.config.radius);
             
             if (minute % 5 === 0) {

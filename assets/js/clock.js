@@ -20,8 +20,8 @@ class BaseClock {
                 highlight: 'red'
             },
             opacities: {
-                marks: 0.9,
-                yearMarks: 0.6,
+                marks: 1,
+                yearMarks: 0.7,
                 labels: 0.9
             },
             sizes: {
