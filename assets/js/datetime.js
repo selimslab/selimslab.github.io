@@ -30,29 +30,20 @@ function get_the_last_day_of_this_year() {
     return get_weekday(d);
 }
 
-function render_year_progress() {
+function show_date_and_time() {
 
     const today = moment();
-    const currentDayOfYear = today.dayOfYear();
 
-    // Update displays
-    document.querySelector("#date").innerHTML = today.format('dddd, MMMM DD');
-    document.querySelector("#current-year").innerHTML = `${today.year()}`;
+    document.querySelector("#current-date").innerHTML = today.format('dddd, MMMM DD');
 
-    // document.querySelector("#year-ratio").innerHTML = `Day ${currentDayOfYear}`;
-    // document.querySelector("#weekNumber").innerHTML = `Week ${today.isoWeek()}`;
-    // document.querySelector("#year-percent").innerHTML = `%${Math.round((currentDayOfYear / 365) * 100)}`;
-
-    // Clock update
     function updateClock() {
         const now = new Date();
-        document.getElementById('clock').textContent =
+        document.getElementById('current-time').textContent =
             `${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}:${now.getSeconds().toString().padStart(2, '0')}`;
     }
 
     setInterval(updateClock, 1000);
     updateClock();
-
 }
 
 function getDaysInMonth(year, month) {

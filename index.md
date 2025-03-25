@@ -6,8 +6,6 @@ layout: page
 ## Delta 
 Give your mind some space
 
-
-
 <div class="columns is-vcentered">
 
   <div class="column">
@@ -40,8 +38,5 @@ Give your mind some space
 
 {% include random-idea.html %}
 
-
 {% include offline.html  %}
-
-
 

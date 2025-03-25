@@ -4,13 +4,13 @@
 <div class="columns">
 
   <div class="column is-4 is-mobile-4 has-text-centered">
-    <p id="clock"></p>
+    <p id="current-time"></p>
     {% include clock.html type="hour" id="hourClock" %}
 
   </div>
 
   <div class="column is-4 is-mobile-4 has-text-centered">
-    <p id="date"></p>
+    <p id="current-date"></p>
     {% include clock.html type="year" id="yearClock" %}
   </div>
 
@@ -24,7 +24,7 @@
 
 
 <script>
-
-render_year_progress();
+document.querySelector("#current-year").innerHTML = moment().year();
+show_date_and_time();
 
 </script>

@@ -2,7 +2,11 @@
 <script src="/assets/js/datetime.js"></script>
 <script src="/assets/js/calendar.js"></script>
 
+<p id="current-date"></p>
+<br>
+
 <div class="columns">
+
   <div class="year-grid column is-6"></div>
   <div class="column is-6">
     {% include earth.html %}
@@ -88,7 +92,7 @@
 
     const today = moment();
     const currentDayOfYear = today.dayOfYear();
-
+    document.querySelector("#current-date").innerHTML = today.format('dddd, MMMM DD');
     (function() {
       renderCalendar(document.querySelector(".year-grid"), currentDayOfYear);
     })();
