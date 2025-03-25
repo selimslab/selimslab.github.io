@@ -88,7 +88,6 @@
       "links": [
         "/root",
         "/about",
-        "/clock",
         "/graph-2d",
         "/graph-3d",
         "/interviews",
@@ -625,14 +624,6 @@
       "id": "/about",
       "group": 2,
       "name": "Welcome, friend!",
-      "links": [
-        "/misc"
-      ]
-    },
-    {
-      "id": "/clock",
-      "group": 2,
-      "name": "Clock",
       "links": [
         "/misc"
       ]
@@ -4197,10 +4188,6 @@
     {
       "source": "/misc",
       "target": "/about"
-    },
-    {
-      "source": "/misc",
-      "target": "/clock"
     },
     {
       "source": "/misc",
