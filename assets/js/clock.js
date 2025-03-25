@@ -21,7 +21,7 @@ class BaseClock {
             },
             opacities: {
                 marks: 1,
-                yearMarks: 0.7,
+                yearMarks: 0.8,
                 labels: 0.9
             },
             sizes: {
@@ -141,7 +141,7 @@ class BaseClock {
         const segmentAngle = this.segmentFractions[segment] * 2 * Math.PI;
         
         const innerPoint = this.getPointFromAngle(segmentAngle, this.config.radius - sizes.markLength);
-        const outerPoint = this.getPointFromAngle(segmentAngle, this.config.radius);
+        const outerPoint = this.getPointFromAngle(segmentAngle, this.config.radius - sizes.markLength/2);
         
         this.drawLine(
             innerPoint.x, innerPoint.y,

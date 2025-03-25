@@ -25,38 +25,14 @@ class HourClock extends BaseClock {
         for (let minute = 0; minute < this.minuteMarks.length; minute++) {
             if (minute % 60 === 0) continue;
             
-            const minuteAngle = (minute / 720) * 2 * Math.PI;
+            const minuteAngle = (minute / 240) * 2 * Math.PI;
             
             const innerPoint = this.getPointFromAngle(minuteAngle, this.config.radius - sizes.markLength/1.8);
             const outerPoint = this.getPointFromAngle(minuteAngle, this.config.radius);
             
-            if (minute % 5 === 0) {
-                this.drawLine(
-                    innerPoint.x, innerPoint.y,
-                    outerPoint.x, outerPoint.y,
-                    colors.marks,
-                    1.0,
-                    0.3
-                );
-            }
-            if (minute % 15 === 0) {
-                this.drawLine(
-                    innerPoint.x, innerPoint.y,
-                    outerPoint.x, outerPoint.y,
-                    colors.marks,
-                    1.0,
-                    0.6
-                );
-            }
-            if (minute % 30 === 0) {
-                this.drawLine(
-                    innerPoint.x, innerPoint.y,
-                    outerPoint.x, outerPoint.y,
-                    colors.marks,
-                    1.0,
-                    0.9
-                );
-            }
+
+
+
         }
     }
 } 

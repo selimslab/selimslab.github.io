@@ -32,10 +32,11 @@ class CenturyClock extends BaseClock {
         for (let year = 0; year < this.yearMarks.length; year++) {
             const yearAngle = (year / 60) * 2 * Math.PI;
             
-            const innerPoint = this.getPointFromAngle(yearAngle, this.config.radius - sizes.markLength/1.6);
-            const outerPoint = this.getPointFromAngle(yearAngle, this.config.radius);
-            
             const is5YearMark = year % 5 === 0;
+
+            const innerPoint = this.getPointFromAngle(yearAngle, this.config.radius - sizes.markLength/(is5YearMark ? 1.6 : 1.2) );
+            const outerPoint = this.getPointFromAngle(yearAngle, this.config.radius - sizes.markLength );
+            
             
             this.drawLine(
                 innerPoint.x, innerPoint.y,
