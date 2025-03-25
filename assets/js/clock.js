@@ -58,18 +58,21 @@ class BaseClock {
         const rect = container.getBoundingClientRect();
         const dpr = window.devicePixelRatio || 1;
         
-        // Set physical canvas size with CSS
-        this.canvas.style.width = `${rect.width}px`;
-        this.canvas.style.height = `${rect.height}px`;
+        // Calculate the maximum square dimension that fits in the container
+        const size = Math.min(rect.width, rect.height);
+        
+        // Set physical canvas size with CSS to be a square
+        this.canvas.style.width = `${size}px`;
+        this.canvas.style.height = `${size}px`;
         
         // Set actual canvas dimensions for high DPR
-        this.canvas.width = rect.width * dpr;
-        this.canvas.height = rect.height * dpr;
+        this.canvas.width = size * dpr;
+        this.canvas.height = size * dpr;
         this.ctx.scale(dpr, dpr);
         
         // Calculate and cache dimensions
-        this.config.radius = Math.min(rect.width, rect.height) * 0.45;
-        this.config.center = { x: rect.width / 2, y: rect.height / 2 };
+        this.config.radius = size * 0.45;
+        this.config.center = { x: size / 2, y: size / 2 };
         
         // Reset cached image data
         this.dialImageData = null;

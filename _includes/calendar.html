@@ -92,7 +92,7 @@
 
     const today = moment();
     const currentDayOfYear = today.dayOfYear();
-    document.querySelector("#current-date").innerHTML = today.format('dddd, MMMM DD');
+    document.querySelector("#current-date").innerHTML = today.format('dddd, MMMM DD, YYYY');
     (function() {
       renderCalendar(document.querySelector(".year-grid"), currentDayOfYear);
     })();
