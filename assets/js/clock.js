@@ -32,7 +32,6 @@ class BaseClock {
                 centerDotSize: 3,
                 handCircleRadius: 0.02,
                 labelFontSize: ratio => Math.max(10, ratio / 15),
-                yearLabelFontSize: ratio => Math.max(12, ratio / 12),
                 labelRadius: 0.75,
                 labelPadding: 15
             }
@@ -56,16 +55,23 @@ class BaseClock {
 
     resizeCanvas() {
         const container = this.canvas.parentElement;
-        const dpr = window.devicePixelRatio || 1;
         const rect = container.getBoundingClientRect();
+        const dpr = window.devicePixelRatio || 1;
         
+        // Set physical canvas size with CSS
+        this.canvas.style.width = `${rect.width}px`;
+        this.canvas.style.height = `${rect.height}px`;
+        
+        // Set actual canvas dimensions for high DPR
         this.canvas.width = rect.width * dpr;
         this.canvas.height = rect.height * dpr;
         this.ctx.scale(dpr, dpr);
         
+        // Calculate and cache dimensions
         this.config.radius = Math.min(rect.width, rect.height) * 0.45;
         this.config.center = { x: rect.width / 2, y: rect.height / 2 };
         
+        // Reset cached image data
         this.dialImageData = null;
     }
 
@@ -179,7 +185,7 @@ class BaseClock {
         );
         
         const circleRadius = this.config.radius * sizes.handCircleRadius;
-        const circleDistance = handLength*0.92;
+        const circleDistance = handLength*0.9;
         const circlePoint = this.getPointFromAngle(angle, circleDistance);
         
         this.drawCircle(

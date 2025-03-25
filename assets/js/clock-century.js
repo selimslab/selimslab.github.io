@@ -52,7 +52,7 @@ class CenturyClock extends BaseClock {
                     currentYearShort,
                     labelPoint.x, labelPoint.y,
                     colors.highlight,
-                    sizes.yearLabelFontSize(this.config.radius),
+                    sizes.labelFontSize(this.config.radius),
                     opacities.labels
                 );
             }
