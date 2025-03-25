@@ -37,10 +37,11 @@ function render_year_progress() {
 
     // Update displays
     document.querySelector("#date").innerHTML = today.format('dddd, MMMM DD');
-    document.querySelector("#year-ratio").innerHTML = `Day ${currentDayOfYear}`;
-    document.querySelector("#weekNumber").innerHTML = `Week ${today.isoWeek()}`;
-    document.querySelector("#year-percent").innerHTML = `%${Math.round((currentDayOfYear / 365) * 100)}`;
     document.querySelector("#current-year").innerHTML = `${today.year()}`;
+
+    // document.querySelector("#year-ratio").innerHTML = `Day ${currentDayOfYear}`;
+    // document.querySelector("#weekNumber").innerHTML = `Week ${today.isoWeek()}`;
+    // document.querySelector("#year-percent").innerHTML = `%${Math.round((currentDayOfYear / 365) * 100)}`;
 
     // Clock update
     function updateClock() {
