@@ -528,8 +528,6 @@
         "/pale-blue-dot",
         "/slow-down-time",
         "/the-past",
-        "/calendar",
-        "/clocks",
         "/dots",
         "/history-of-technology",
         "/history",
@@ -2537,9 +2535,8 @@
     {
       "id": "/calendar",
       "group": 3,
-      "name": "Calendar",
+      "name": "Calendar 🌘",
       "links": [
-        "/time",
         "/time"
       ]
     },
@@ -2548,7 +2545,6 @@
       "group": 3,
       "name": "Clocks ⏱️",
       "links": [
-        "/time",
         "/time"
       ]
     },
@@ -6125,14 +6121,6 @@
     {
       "source": "/teamwork",
       "target": "/what-to-work-on"
-    },
-    {
-      "source": "/calendar",
-      "target": "/time"
-    },
-    {
-      "source": "/clocks",
-      "target": "/time"
     },
     {
       "source": "/earth-time-scale",
