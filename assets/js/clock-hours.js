@@ -3,7 +3,7 @@ class HourClock extends BaseClock {
         this.segmentNames = ['12', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11'];
         this.segmentCount = 12;
         this.segmentFractions = Array.from({length: 12}, (_, i) => i / 12);
-        this.minuteMarks = Array.from({length: 720}, (_, i) => i);
+        this.minuteMarks = Array.from({length: 60}, (_, i) => i);
     }
 
     getCurrentPosition() {
