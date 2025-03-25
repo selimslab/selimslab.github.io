@@ -21,16 +21,15 @@ class BaseClock {
             },
             opacities: {
                 marks: 0.9,
-                yearMarks: 0.4,
+                yearMarks: 0.6,
                 labels: 0.9
             },
             sizes: {
                 dialWidth: 2,
                 markWidth: 1,
-                markLength: 15,
-                yearMarkLength: 7.5,
+                markLength: 16,
                 handWidth: 1,
-                handLength: 0.98,
+                handLength: 0.92,
                 centerDotSize: 3,
                 handCircleRadius: 0.02,
                 labelFontSize: ratio => Math.max(10, ratio / 15),
