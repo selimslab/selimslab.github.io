@@ -3,24 +3,30 @@
 
 <div class="columns">
 
-  <div class="column is-4 is-mobile-4 has-text-centered">
+  <div class="column is-3 is-mobile-3 has-text-centered">
     <p id="current-time"></p>
     {% include clock.html type="hour" id="hourClock" %}
 
   </div>
 
-  <div class="column is-4 is-mobile-4 has-text-centered">
+  <div class="column is-3 is-mobile-3 has-text-centered">
     <p id="current-date"></p>
+    {% include clock.html type="month" id="monthClock" %}
+  </div>
+
+  <div class="column is-3 is-mobile-3 has-text-centered">
+    <p id="current-year"></p>
     {% include clock.html type="year" id="yearClock" %}
   </div>
 
-  <div class="column is-4 is-mobile-4 has-text-centered">
-    <p id="current-year"></p>
 
+  <div class="column is-3 is-mobile-3 has-text-centered">
+    <p id="current-century">21st century</p>
     {% include clock.html type="century" id="centuryClock" %}
   </div>
-
+  
 </div>
+
 
 
 <script>

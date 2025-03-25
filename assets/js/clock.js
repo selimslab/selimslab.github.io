@@ -9,7 +9,7 @@ class BaseClock {
         this.segmentFractions = [];
         this.dialImageData = null;
         this.minuteMarks = [];
-        
+
         this.config = {
             radius: 0,
             center: { x: 0, y: 0 },
@@ -57,23 +57,23 @@ class BaseClock {
         const container = this.canvas.parentElement;
         const rect = container.getBoundingClientRect();
         const dpr = window.devicePixelRatio || 1;
-        
+
         // Calculate the maximum square dimension that fits in the container
         const size = Math.min(rect.width, rect.height);
-        
+
         // Set physical canvas size with CSS to be a square
         this.canvas.style.width = `${size}px`;
         this.canvas.style.height = `${size}px`;
-        
+
         // Set actual canvas dimensions for high DPR
         this.canvas.width = size * dpr;
         this.canvas.height = size * dpr;
         this.ctx.scale(dpr, dpr);
-        
+
         // Calculate and cache dimensions
         this.config.radius = size * 0.45;
         this.config.center = { x: size / 2, y: size / 2 };
-        
+
         // Reset cached image data
         this.dialImageData = null;
     }
@@ -93,7 +93,7 @@ class BaseClock {
         this.ctx.beginPath();
         this.ctx.arc(x, y, radius, 0, 2 * Math.PI);
         this.ctx.globalAlpha = opacity;
-        
+
         if (fill) {
             this.ctx.fillStyle = color;
             this.ctx.fill();
@@ -123,22 +123,22 @@ class BaseClock {
 
     drawClockDial() {
         this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
-        
+
         this.drawCircle(
-            this.config.center.x, 
-            this.config.center.y, 
-            this.config.radius, 
-            this.config.colors.dial, 
-            false, 
+            this.config.center.x,
+            this.config.center.y,
+            this.config.radius,
+            this.config.colors.dial,
+            false,
             1.0
         );
-        
+
         if (!this.dialImageData && this.type === this.id) {
             this.dialImageData = this.ctx.getImageData(0, 0, this.canvas.width, this.canvas.height);
         } else if (this.dialImageData && this.type === this.id) {
             this.ctx.putImageData(this.dialImageData, 0, 0);
         }
-        
+
         for (let segment = 0; segment < this.segmentCount; segment++) {
             this.drawSegmentMark(segment);
         }
@@ -147,10 +147,10 @@ class BaseClock {
     drawSegmentMark(segment) {
         const { sizes, colors, opacities } = this.config;
         const segmentAngle = this.segmentFractions[segment] * 2 * Math.PI;
-        
+
         const innerPoint = this.getPointFromAngle(segmentAngle, this.config.radius - sizes.markLength);
-        const outerPoint = this.getPointFromAngle(segmentAngle, this.config.radius - sizes.markLength/1.8);
-        
+        const outerPoint = this.getPointFromAngle(segmentAngle, this.config.radius - sizes.markLength / 1.8);
+
         this.drawLine(
             innerPoint.x, innerPoint.y,
             outerPoint.x, outerPoint.y,
@@ -158,12 +158,12 @@ class BaseClock {
             sizes.markWidth,
             opacities.marks
         );
-        
+
         const labelPoint = this.getPointFromAngle(
-            segmentAngle, 
+            segmentAngle,
             this.config.radius - sizes.markLength - sizes.labelPadding
         );
-        
+
         this.drawText(
             this.segmentNames[segment],
             labelPoint.x, labelPoint.y,
@@ -176,9 +176,9 @@ class BaseClock {
     drawHand(angle) {
         const { sizes, colors } = this.config;
         const handLength = this.config.radius * sizes.handLength;
-        
+
         const handEnd = this.getPointFromAngle(angle, handLength);
-        
+
         this.drawLine(
             this.config.center.x, this.config.center.y,
             handEnd.x, handEnd.y,
@@ -186,11 +186,11 @@ class BaseClock {
             sizes.handWidth,
             1.0
         );
-        
+
         const circleRadius = this.config.radius * sizes.handCircleRadius;
-        const circleDistance = handLength*0.9;
+        const circleDistance = handLength * 0.96;
         const circlePoint = this.getPointFromAngle(angle, circleDistance);
-        
+
         this.drawCircle(
             circlePoint.x, circlePoint.y,
             circleRadius,
@@ -202,7 +202,7 @@ class BaseClock {
 
     drawCenterDot() {
         const dotSize = Math.max(2, Math.min(4, this.config.radius / 75));
-        
+
         this.drawCircle(
             this.config.center.x, this.config.center.y,
             dotSize,
@@ -222,7 +222,7 @@ class BaseClock {
     updateThemeColors() {
         const bodyColor = window.getComputedStyle(document.body).color;
         const isDarkTheme = document.documentElement.getAttribute('data-theme') !== 'light';
-        
+
         this.config.colors = {
             dial: bodyColor,
             marks: bodyColor,
@@ -250,10 +250,20 @@ class BaseClock {
 }
 
 function draw_clock(options) {
-    const Clock = options.type === 'year' ? YearClock :
-                 options.type === 'hour' ? HourClock :
-                 options.type === 'century' ? CenturyClock : YearClock;
-    
-    const clock = new Clock(options);
+    let clock;
+    switch (options.type) {
+        case 'hour':
+            clock = new HourClock(options);
+            break;
+        case 'month':
+            clock = new MonthClock(options);
+            break;
+        case 'year':
+            clock = new YearsClock(options);
+            break;
+        case 'century':
+            clock = new CenturyClock(options);
+            break;
+    }
     clock.init();
 }

@@ -1,4 +1,4 @@
-class CenturyClock extends BaseClock {
+class YearsClock extends BaseClock {
     setupClockType() {
         this.segmentNames = ['2000', '2010', '2020', '2030', '2040', '2050', ''];
         this.segmentCount = 7;
