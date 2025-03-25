@@ -92,6 +92,7 @@
         "/graph-3d",
         "/interviews",
         "/llm-prompt",
+        "/llm",
         "/pub",
         "/resume",
         "/short-prompt"
@@ -656,6 +657,14 @@
       "id": "/llm-prompt",
       "group": 2,
       "name": "Llm Prompt",
+      "links": [
+        "/misc"
+      ]
+    },
+    {
+      "id": "/llm",
+      "group": 2,
+      "name": "Llm",
       "links": [
         "/misc"
       ]
@@ -4204,6 +4213,10 @@
     {
       "source": "/misc",
       "target": "/llm-prompt"
+    },
+    {
+      "source": "/misc",
+      "target": "/llm"
     },
     {
       "source": "/misc",
