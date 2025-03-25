@@ -28,7 +28,7 @@ function draw_clock(options) {
             labels: 0.9
           },
           sizes: {
-            dialWidth: 1,
+            dialWidth: 2,
             markWidth: 1,
             markLength: 15,
             yearMarkLength: 7.5, // Half of mark length

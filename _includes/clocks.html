@@ -1,0 +1,33 @@
+<script src="/assets/js/moment.min.js"></script>
+<script src="/assets/js/datetime.js"></script>
+
+<div class="columns">
+
+  <div class="column is-4 has-text-centered">
+    <p id="clock"></p>
+    {% include clock-hour.html %}
+  </div>
+
+  <div class="column is-4 has-text-centered">
+    <p id="date"></p>
+
+    {% include clock-year.html %}
+    <p id="weekNumber"></p>
+    <p id="year-ratio"></p>
+    <p id="year-percent"></p>
+  </div>
+
+  <div class="column is-4 has-text-centered">
+    <p id="current-year"></p>
+
+    {% include clock-century.html %}
+  </div>
+
+</div>
+
+
+<script>
+
+render_year_progress();
+
+</script>

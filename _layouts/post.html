@@ -2,12 +2,15 @@
 layout: default
 ---
 
+{% assign words = content | number_of_words | times: 1.0  %}
 
   {% include taglist.html %}
 
   <h1>{{ page.title }}</h1>  
  
-  {% include read-time.html %}
+  {% if words > 240 %}
+    {% include read-time.html %}
+  {% endif %}
 
   {{ content }}
 
@@ -18,8 +21,7 @@ layout: default
   {% include backlinks.html %}
 
 
-{% assign words = content | number_of_words | times: 1.0  %}
-{% if words > 120 %}
+{% if words > 240 %} 
   <br>
   {% include random-art.html %}
   {% include random-idea.html %}
