@@ -3,7 +3,7 @@ class HourClock extends BaseClock {
         this.segmentNames = ['12', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11'];
         this.segmentCount = 12;
         this.segmentFractions = Array.from({length: 12}, (_, i) => i / 12);
-        this.minuteMarks = Array.from({length: 60}, (_, i) => i);
+        this.minuteMarks = Array.from({length: 48}, (_, i) => i);
     }
 
     getCurrentPosition() {
@@ -23,12 +23,11 @@ class HourClock extends BaseClock {
         const { sizes, colors } = this.config;
         
         for (let minute = 0; minute < this.minuteMarks.length; minute++) {
-            if (minute % 60 === 0) continue;
+            if (minute % 4 === 0) continue;
             
-            const minuteAngle = (minute / 60) * 2 * Math.PI;
+            const minuteAngle = (minute / 48) * 2 * Math.PI;
             
-            const is5MinuteMark = minute % 5 === 0;
-            const innerPoint = this.getPointFromAngle(minuteAngle, this.config.radius - sizes.markLength/(is5MinuteMark ? 2 : 1.2));
+            const innerPoint = this.getPointFromAngle(minuteAngle, this.config.radius - sizes.markLength/1.2);
             const outerPoint = this.getPointFromAngle(minuteAngle, this.config.radius - sizes.markLength);
             
             this.drawLine(
@@ -36,8 +35,9 @@ class HourClock extends BaseClock {
                 outerPoint.x, outerPoint.y,
                 colors.marks,
                 1.0,
-                0.6
+                0.8
             );
+            
         }
     }
 } 
