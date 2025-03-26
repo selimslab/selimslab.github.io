@@ -21,8 +21,11 @@ Give your mind some space
       </ul>
 
     <h2>Featured</h2>
-
     {% include hub.html tag='top' %}
+
+    <h2>Experiments</h2>
+    {% include hub.html tag='exp' %}
+
   </div>
 
 
