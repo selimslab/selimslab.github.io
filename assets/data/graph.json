@@ -36,6 +36,7 @@
       "links": [
         "/root",
         "/algorithms",
+        "/apis",
         "/computers",
         "/databases",
         "/distributed-systems",
@@ -277,6 +278,15 @@
       ]
     },
     {
+      "id": "/apis",
+      "group": 2,
+      "name": "Apis",
+      "links": [
+        "/engineering",
+        "/why-not-graphql"
+      ]
+    },
+    {
       "id": "/computers",
       "group": 2,
       "name": "Computers",
@@ -306,7 +316,9 @@
         "/partitioning",
         "/replication",
         "/single-leader",
-        "/sql-tips"
+        "/sql-tips",
+        "/sql-weaknesses",
+        "/sqlite"
       ]
     },
     {
@@ -1594,6 +1606,14 @@
       ]
     },
     {
+      "id": "/why-not-graphql",
+      "group": 3,
+      "name": "Why-not-graphql",
+      "links": [
+        "/apis"
+      ]
+    },
+    {
       "id": "/computers-from-scratch",
       "group": 3,
       "name": "Computers From Scratch",
@@ -1738,6 +1758,22 @@
       "id": "/sql-tips",
       "group": 3,
       "name": "SQL Tips",
+      "links": [
+        "/databases"
+      ]
+    },
+    {
+      "id": "/sql-weaknesses",
+      "group": 3,
+      "name": "Sql-weaknesses",
+      "links": [
+        "/databases"
+      ]
+    },
+    {
+      "id": "/sqlite",
+      "group": 3,
+      "name": "Sqlite",
       "links": [
         "/databases"
       ]
@@ -4139,6 +4175,10 @@
     },
     {
       "source": "/engineering",
+      "target": "/apis"
+    },
+    {
+      "source": "/engineering",
       "target": "/computers"
     },
     {
@@ -4634,6 +4674,10 @@
       "target": "/tree"
     },
     {
+      "source": "/apis",
+      "target": "/why-not-graphql"
+    },
+    {
       "source": "/computers",
       "target": "/computers-from-scratch"
     },
@@ -4700,6 +4744,14 @@
     {
       "source": "/databases",
       "target": "/sql-tips"
+    },
+    {
+      "source": "/databases",
+      "target": "/sql-weaknesses"
+    },
+    {
+      "source": "/databases",
+      "target": "/sqlite"
     },
     {
       "source": "/distributed-systems",

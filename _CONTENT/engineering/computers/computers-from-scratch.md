@@ -167,8 +167,6 @@ execute bytecodes
 
 can be a stack or register machine 
 
-examples 
-
 java compiler vs jvm
 
 c# compiler vs CLR
