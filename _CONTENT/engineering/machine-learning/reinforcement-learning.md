@@ -1,6 +1,11 @@
 ---
 ---
 
+<p>
+  When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+  \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
+</p>
+
 ## Core Concepts
 
 - **Reinforcement Learning (RL)**: Agent learns strategy through environment interaction to maximize rewards
@@ -9,17 +14,17 @@
 
 ## Key Components
 
-- **States** ($s \in \mathcal{S}$): Situations agent can be in
-- **Actions** ($a \in \mathcal{A}$): Choices agent can make
-- **Transitions** ($P$): How states change with actions
-- **Rewards** ($r \in \mathcal{R}$): Feedback from environment
-- **Policy** ($\pi$): Strategy mapping states to actions
+- **States** (\(s \in \mathcal{S}\)): Situations agent can be in
+- **Actions** (\(a \in \mathcal{A}\)): Choices agent can make
+- **Transitions** (\(P\)): How states change with actions
+- **Rewards** (\(r \in \mathcal{R}\)): Feedback from environment
+- **Policy** (\(\pi\)): Strategy mapping states to actions
 - **Value Functions**: Quantify state/action goodness
 
 ## Fundamental Equations
 
-- **State-Value Function**: $V_\pi(s) = \mathbb{E}_\pi[G_t | S_t = s]$
-- **Action-Value Function**: $Q_\pi(s,a) = \mathbb{E}_\pi[G_t | S_t = s, A_t = a]$
+- **State-Value Function**: \(V_\pi(s) = \mathbb{E}_\pi[G_t | S_t = s]\)
+- **Action-Value Function**: \(Q_\pi(s,a) = \mathbb{E}_\pi[G_t | S_t = s, A_t = a]\)
 - **Bellman Equations**: Recursive relationships between values of states
 
 ## Major Approaches
