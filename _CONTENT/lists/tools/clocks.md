@@ -1,6 +1,6 @@
 ---
 title: Clocks ⏱️
-tags: exp
+tags: time
 ---
 
 {% include clocks.html %}

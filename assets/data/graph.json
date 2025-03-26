@@ -76,6 +76,7 @@
         "/quotes",
         "/checklists",
         "/experiments",
+        "/tools",
         "/classics",
         "/essais",
         "/history-of-technology",
@@ -531,8 +532,6 @@
       "name": "Time",
       "links": [
         "/ideas",
-        "/calendar",
-        "/clocks",
         "/death",
         "/earth-time-scale",
         "/getting-old",
@@ -542,6 +541,8 @@
         "/pale-blue-dot",
         "/slow-down-time",
         "/the-past",
+        "/calendar",
+        "/clocks",
         "/history-of-technology",
         "/history",
         "/since-big-bang"
@@ -629,11 +630,18 @@
       "group": 2,
       "name": "Experiments",
       "links": [
+        "/lists"
+      ]
+    },
+    {
+      "id": "/tools",
+      "group": 2,
+      "name": "Tools",
+      "links": [
         "/lists",
-        "/typing-practice",
         "/calendar",
         "/clocks",
-        "/earth-time-scale"
+        "/typing-practice"
       ]
     },
     {
@@ -2564,24 +2572,6 @@
       ]
     },
     {
-      "id": "/calendar",
-      "group": 3,
-      "name": "Calendar",
-      "links": [
-        "/time",
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/clocks",
-      "group": 3,
-      "name": "Clocks ⏱️",
-      "links": [
-        "/time",
-        "/experiments"
-      ]
-    },
-    {
       "id": "/death",
       "group": 3,
       "name": "Death",
@@ -2596,8 +2586,7 @@
       "links": [
         "/time",
         "/climate-change",
-        "/pale-blue-dot",
-        "/experiments"
+        "/pale-blue-dot"
       ]
     },
     {
@@ -2729,11 +2718,29 @@
       ]
     },
     {
+      "id": "/calendar",
+      "group": 3,
+      "name": "Calendar",
+      "links": [
+        "/tools",
+        "/time"
+      ]
+    },
+    {
+      "id": "/clocks",
+      "group": 3,
+      "name": "Clocks ⏱️",
+      "links": [
+        "/tools",
+        "/time"
+      ]
+    },
+    {
       "id": "/typing-practice",
       "group": 3,
       "name": "Typing Practice",
       "links": [
-        "/experiments"
+        "/tools"
       ]
     },
     {
@@ -4227,6 +4234,10 @@
       "target": "/experiments"
     },
     {
+      "source": "/lists",
+      "target": "/tools"
+    },
+    {
       "source": "/misc",
       "target": "/about"
     },
@@ -5076,14 +5087,6 @@
     },
     {
       "source": "/time",
-      "target": "/calendar"
-    },
-    {
-      "source": "/time",
-      "target": "/clocks"
-    },
-    {
-      "source": "/time",
       "target": "/death"
     },
     {
@@ -5151,7 +5154,15 @@
       "target": "/used-cars"
     },
     {
-      "source": "/experiments",
+      "source": "/tools",
+      "target": "/calendar"
+    },
+    {
+      "source": "/tools",
+      "target": "/clocks"
+    },
+    {
+      "source": "/tools",
       "target": "/typing-practice"
     },
     {
@@ -6180,6 +6191,14 @@
     },
     {
       "source": "/time",
+      "target": "/calendar"
+    },
+    {
+      "source": "/time",
+      "target": "/clocks"
+    },
+    {
+      "source": "/time",
       "target": "/history-of-technology"
     },
     {
@@ -6197,18 +6216,6 @@
     {
       "source": "/datasets",
       "target": "/probability-and-statistics"
-    },
-    {
-      "source": "/experiments",
-      "target": "/calendar"
-    },
-    {
-      "source": "/experiments",
-      "target": "/clocks"
-    },
-    {
-      "source": "/experiments",
-      "target": "/earth-time-scale"
     },
     {
       "source": "/lists",

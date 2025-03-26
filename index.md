@@ -23,8 +23,8 @@ Give your mind some space
     <h2>Featured</h2>
     {% include hub.html tag='top' %}
 
-    <h2>Experiments</h2>
-    {% include hub.html tag='exp' %}
+    <h2>Tools</h2>
+    {% include hub.html tag='tools' %}
 
   </div>
 
@@ -34,6 +34,8 @@ Give your mind some space
   </div>
 
 </div>
+
+{% include random-art.html %}
 
 {% include offline.html  %}
 

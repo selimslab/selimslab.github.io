@@ -1,6 +1,6 @@
 ---
 title: If the Earth is 45 years old  
-tags: exp
+tags: top
 ---
 
 The earth is about 4.5 billion years old
@@ -15,11 +15,7 @@ a century is 30 seconds,
 
 a thousand years is 5 minutes, 
 
-humans evolved on the last few days,   
-
-12 000 years of human history happened in the last hour 
-
-our lives are a few seconds **in a 138 years old universe** 
+a human life is seconds for **a 138 years old universe** 
 
 
 {% include earth.html %}
