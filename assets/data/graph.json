@@ -335,7 +335,7 @@
       "name": "Machine Learning",
       "links": [
         "/engineering",
-        "/rl",
+        "/reinforcement-learning",
         "/pca",
         "/pneumonia-detection",
         "/predict-movie-genres"
@@ -542,7 +542,6 @@
         "/pale-blue-dot",
         "/slow-down-time",
         "/the-past",
-        "/dots",
         "/history-of-technology",
         "/history",
         "/since-big-bang"
@@ -631,8 +630,10 @@
       "name": "Experiments",
       "links": [
         "/lists",
-        "/dots",
-        "/typing-practice"
+        "/typing-practice",
+        "/calendar",
+        "/clocks",
+        "/earth-time-scale"
       ]
     },
     {
@@ -1830,9 +1831,9 @@
       ]
     },
     {
-      "id": "/rl",
+      "id": "/reinforcement-learning",
       "group": 3,
-      "name": "Rl",
+      "name": "Reinforcement Learning",
       "links": [
         "/machine-learning"
       ]
@@ -2565,9 +2566,10 @@
     {
       "id": "/calendar",
       "group": 3,
-      "name": "Calendar 🌘",
+      "name": "Calendar",
       "links": [
-        "/time"
+        "/time",
+        "/experiments"
       ]
     },
     {
@@ -2575,7 +2577,8 @@
       "group": 3,
       "name": "Clocks ⏱️",
       "links": [
-        "/time"
+        "/time",
+        "/experiments"
       ]
     },
     {
@@ -2593,7 +2596,8 @@
       "links": [
         "/time",
         "/climate-change",
-        "/pale-blue-dot"
+        "/pale-blue-dot",
+        "/experiments"
       ]
     },
     {
@@ -2722,15 +2726,6 @@
       "links": [
         "/checklists",
         "/driving"
-      ]
-    },
-    {
-      "id": "/dots",
-      "group": 3,
-      "name": "Dots",
-      "links": [
-        "/experiments",
-        "/time"
       ]
     },
     {
@@ -4745,7 +4740,7 @@
     },
     {
       "source": "/machine-learning",
-      "target": "/rl"
+      "target": "/reinforcement-learning"
     },
     {
       "source": "/programming",
@@ -5154,10 +5149,6 @@
     {
       "source": "/checklists",
       "target": "/used-cars"
-    },
-    {
-      "source": "/experiments",
-      "target": "/dots"
     },
     {
       "source": "/experiments",
@@ -6189,10 +6180,6 @@
     },
     {
       "source": "/time",
-      "target": "/dots"
-    },
-    {
-      "source": "/time",
       "target": "/history-of-technology"
     },
     {
@@ -6210,6 +6197,18 @@
     {
       "source": "/datasets",
       "target": "/probability-and-statistics"
+    },
+    {
+      "source": "/experiments",
+      "target": "/calendar"
+    },
+    {
+      "source": "/experiments",
+      "target": "/clocks"
+    },
+    {
+      "source": "/experiments",
+      "target": "/earth-time-scale"
     },
     {
       "source": "/lists",
