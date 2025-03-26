@@ -39,6 +39,7 @@
         "/computers",
         "/databases",
         "/distributed-systems",
+        "/machine-learning",
         "/programming",
         "/security",
         "/software-development",
@@ -254,6 +255,7 @@
         "/greedy",
         "/hash-table",
         "/linked-list",
+        "/orderbook",
         "/parallel-programming",
         "/producer-consumer-problem",
         "/sets",
@@ -325,6 +327,18 @@
         "/spark",
         "/time-and-order",
         "/system-design"
+      ]
+    },
+    {
+      "id": "/machine-learning",
+      "group": 2,
+      "name": "Machine Learning",
+      "links": [
+        "/engineering",
+        "/rl",
+        "/pca",
+        "/pneumonia-detection",
+        "/predict-movie-genres"
       ]
     },
     {
@@ -1364,6 +1378,14 @@
       ]
     },
     {
+      "id": "/orderbook",
+      "group": 3,
+      "name": "Orderbook",
+      "links": [
+        "/algorithms"
+      ]
+    },
+    {
       "id": "/parallel-programming",
       "group": 3,
       "name": "Parallel Programming",
@@ -1805,6 +1827,14 @@
       "name": "Time And Order",
       "links": [
         "/distributed-systems"
+      ]
+    },
+    {
+      "id": "/rl",
+      "group": 3,
+      "name": "Rl",
+      "links": [
+        "/machine-learning"
       ]
     },
     {
@@ -3932,7 +3962,8 @@
       "group": 4,
       "name": "Principal Component Analysis",
       "links": [
-        "/projects"
+        "/projects",
+        "/machine-learning"
       ]
     },
     {
@@ -3940,7 +3971,8 @@
       "group": 4,
       "name": "Pneumonia Detection",
       "links": [
-        "/projects"
+        "/projects",
+        "/machine-learning"
       ]
     },
     {
@@ -3948,7 +3980,8 @@
       "group": 4,
       "name": "Predict movie genres using ML classifiers",
       "links": [
-        "/projects"
+        "/projects",
+        "/machine-learning"
       ]
     },
     {
@@ -4113,6 +4146,10 @@
     {
       "source": "/engineering",
       "target": "/distributed-systems"
+    },
+    {
+      "source": "/engineering",
+      "target": "/machine-learning"
     },
     {
       "source": "/engineering",
@@ -4528,6 +4565,10 @@
     },
     {
       "source": "/algorithms",
+      "target": "/orderbook"
+    },
+    {
+      "source": "/algorithms",
       "target": "/parallel-programming"
     },
     {
@@ -4701,6 +4742,10 @@
     {
       "source": "/distributed-systems",
       "target": "/time-and-order"
+    },
+    {
+      "source": "/machine-learning",
+      "target": "/rl"
     },
     {
       "source": "/programming",
@@ -5993,6 +6038,18 @@
     {
       "source": "/partitioning",
       "target": "/replication"
+    },
+    {
+      "source": "/machine-learning",
+      "target": "/pca"
+    },
+    {
+      "source": "/machine-learning",
+      "target": "/pneumonia-detection"
+    },
+    {
+      "source": "/machine-learning",
+      "target": "/predict-movie-genres"
     },
     {
       "source": "/concurrency",
