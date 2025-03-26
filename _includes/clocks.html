@@ -33,7 +33,9 @@
 
 
 <script>
-document.querySelector("#current-year").innerHTML = moment().year();
-show_date_and_time();
+  (function() {
+    document.querySelector("#current-year").innerHTML = moment().year();
+    show_date_and_time();
+  })();
 
 </script>
