@@ -264,6 +264,9 @@ function draw_clock(options) {
         case 'century':
             clock = new CenturyClock(options);
             break;
+        case 'decimal':
+            clock = new DecimalClock(options);
+            break;
     }
     clock.init();
 }
