@@ -35,11 +35,8 @@ Give your mind some space
 
 </div>
 
-## Tap to shuffle   
-
 {% include random-art.html %}
 
-{% include random-idea.html %}
 
 {% include offline.html  %}
 
