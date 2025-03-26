@@ -1,6 +1,8 @@
 ---
 ---
 
+```c
+
 /*****************************************************************************
  *                QuantCup 1:   Price-Time Matching Engine
  *
@@ -63,7 +65,7 @@
  *  efficient cache access.
  *****************************************************************************/
 
-```c
+
 #include <stdio.h>
 #include <strings.h>
 #include <stdlib.h>
