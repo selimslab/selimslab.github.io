@@ -3,9 +3,6 @@ layout: page
 ---
 
 
-## Delta 
-Give your mind some space
-
 <div class="columns is-vcentered">
 
   <div class="column">
@@ -13,7 +10,7 @@ Give your mind some space
     <h2>Contents</h2>
 
       <ul>
-        <li><a href='/arts/'>Arts</a></li>
+      <li><a href='/arts/'>Arts</a></li>
         <li><a href='/sciences/'>Sciences</a></li>
         <li><a href='/engineering/'>Engineering</a></li>
         <li><a href='/lists/'>Lists</a></li>

@@ -6,7 +6,7 @@ title: Go Data Race Patterns and Prevention
 
 ## Core Patterns & Solutions
 
-1. **Read-Write Conflicts**
+**Read-Write Conflicts**  
 ```go
 // Bad
 func worker(counter *int) {
@@ -20,7 +20,7 @@ func worker(counter *atomic.Int64) {
 ```
 
 
-2. **Map Access**
+**Map Access**   
 ```go
 // Bad
 m := make(map[string]int)
@@ -37,7 +37,7 @@ go func() {
 }()
 ```
 
-3. **Slice Access**
+**Slice Access**  
 ```go
 // Bad
 s := make([]int, 0)
@@ -55,7 +55,7 @@ go func() {
 
 ## Key Prevention Strategies:
 
-1. Use sync/atomic for simple counters
+Use sync/atomic for simple counters
 2. sync.Mutex for complex data structures
 3. channels for communication
 4. sync.RWMutex when reads > writes
