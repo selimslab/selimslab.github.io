@@ -2,7 +2,6 @@
 layout: default
 ---
 
-{% assign words = content | number_of_words | times: 1.0  %}
 
   {% include taglist.html %}
 
@@ -16,7 +15,7 @@ layout: default
   
   {% include backlinks.html %}
 
-
+{% assign words = content | number_of_words | times: 1.0  %}
 {% if words > 360 %} 
   <br>
   {% include random-art.html %}
