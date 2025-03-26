@@ -28,7 +28,7 @@ class BaseClock {
                 markWidth: 1,
                 markLength: 16,
                 handWidth: 1,
-                handLength: 0.92,
+                handLength: 0.83,
                 centerDotSize: 3,
                 handCircleRadius: 0.02,
                 labelFontSize: ratio => Math.max(10, ratio / 15),
@@ -188,7 +188,7 @@ class BaseClock {
         );
 
         const circleRadius = this.config.radius * sizes.handCircleRadius;
-        const circleDistance = handLength * 0.96;
+        const circleDistance = handLength * 0.94;
         const circlePoint = this.getPointFromAngle(angle, circleDistance);
 
         this.drawCircle(
