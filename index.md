@@ -35,8 +35,5 @@ Give your mind some space
 
 </div>
 
-{% include random-art.html %}
-
-
 {% include offline.html  %}
 
