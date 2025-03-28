@@ -1608,7 +1608,7 @@
     {
       "id": "/why-not-graphql",
       "group": 3,
-      "name": "Why-not-graphql",
+      "name": "Why Not Graphql",
       "links": [
         "/apis"
       ]
@@ -1765,7 +1765,7 @@
     {
       "id": "/sql-weaknesses",
       "group": 3,
-      "name": "Sql-weaknesses",
+      "name": "Sql Weaknesses",
       "links": [
         "/databases"
       ]
