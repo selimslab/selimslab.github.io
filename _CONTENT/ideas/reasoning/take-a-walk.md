@@ -1,5 +1,4 @@
 ---
-tags: top 
 title: Take a walk
 ---
 

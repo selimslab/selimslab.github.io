@@ -1,5 +1,4 @@
 ---
-tags: top
 ---
 
 "Well being is attained little by little, and nevertheless is no little thing itself" 

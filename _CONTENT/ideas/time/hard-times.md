@@ -15,6 +15,8 @@ Every night has a morning, every winter has a spring
 
 "There will come soft rains"
 
+Take it [[one-day-at-a-time]]
+
 ## Be easy on yourself 
 
 > The pain is neither unbearable nor unending,  

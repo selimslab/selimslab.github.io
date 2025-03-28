@@ -81,7 +81,7 @@
         "/classics",
         "/essais",
         "/history-of-technology",
-        "/timeline"
+        "/timelines"
       ]
     },
     {
@@ -116,8 +116,7 @@
         "/politics",
         "/psychology",
         "/sociology",
-        "/reasoning",
-        "/timeline"
+        "/reasoning"
       ]
     },
     {
@@ -556,7 +555,7 @@
         "/calendar",
         "/clocks",
         "/history",
-        "/timeline"
+        "/timelines"
       ]
     },
     {
@@ -653,7 +652,7 @@
         "/calendar",
         "/clocks",
         "/typing-practice",
-        "/timeline"
+        "/timelines"
       ]
     },
     {
@@ -754,7 +753,7 @@
         "/farming-trap",
         "/history-of-technology",
         "/rome",
-        "/timeline",
+        "/timelines",
         "/time"
       ]
     },
@@ -2622,7 +2621,7 @@
         "/time",
         "/climate-change",
         "/pale-blue-dot",
-        "/timeline"
+        "/timelines"
       ]
     },
     {
@@ -2815,7 +2814,7 @@
       ]
     },
     {
-      "id": "/timeline",
+      "id": "/timelines",
       "group": 3,
       "name": "Timelines",
       "links": [
@@ -2823,8 +2822,7 @@
         "/earth-time-scale",
         "/time",
         "/lists",
-        "/tools",
-        "/sciences"
+        "/tools"
       ]
     },
     {
@@ -5237,7 +5235,7 @@
     },
     {
       "source": "/history",
-      "target": "/timeline"
+      "target": "/timelines"
     },
     {
       "source": "/math",
@@ -6245,7 +6243,7 @@
     },
     {
       "source": "/earth-time-scale",
-      "target": "/timeline"
+      "target": "/timelines"
     },
     {
       "source": "/time",
@@ -6261,7 +6259,7 @@
     },
     {
       "source": "/time",
-      "target": "/timeline"
+      "target": "/timelines"
     },
     {
       "source": "/driving",
@@ -6285,11 +6283,11 @@
     },
     {
       "source": "/lists",
-      "target": "/timeline"
+      "target": "/timelines"
     },
     {
       "source": "/tools",
-      "target": "/timeline"
+      "target": "/timelines"
     },
     {
       "source": "/bayes",
@@ -6330,10 +6328,6 @@
     {
       "source": "/sciences",
       "target": "/reasoning"
-    },
-    {
-      "source": "/sciences",
-      "target": "/timeline"
     }
   ]
 }
