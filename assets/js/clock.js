@@ -28,6 +28,49 @@ function createClockConfig() {
     };
 }
 
+function getCurrentPosition(type) {
+    const positionFunctions = {
+        'hour': getHourPosition,
+        'month': getMonthPosition,
+        'year': getYearPosition,
+        'decimal': getDecimalPosition,
+        'decade': getDecadePosition,
+        'century': getCenturyPosition
+    };
+    
+    const positionFunction = positionFunctions[type] || positionFunctions['year'];
+    return positionFunction();
+}
+
+function getClockSetup(type) {
+    const setupFunctions = {
+        'hour': getHourClockSetup,
+        'month': getMonthClockSetup,
+        'year': getYearClockSetup,
+        'decimal': getDecimalClockSetup,
+        'decade': getDecadeClockSetup,
+        'century': getCenturyClockSetup
+    };
+    
+    const setupFunction = setupFunctions[type] || setupFunctions['year'];
+    return setupFunction();
+}
+
+function drawAdditionalMarks(ctx, config, clockSetup, type) {
+    const markDrawingFunctions = {
+        'hour': () => drawMinuteMarks(ctx, config, clockSetup),
+        'year': () => drawYearMarks(ctx, config, clockSetup),
+        'decimal': () => drawMarks(ctx, config, clockSetup),
+        'decade': () => drawMarks(ctx, config, clockSetup),
+        'century': () => drawMarks(ctx, config, clockSetup)
+    };
+    
+    const drawFunction = markDrawingFunctions[type];
+    if (drawFunction) {
+        drawFunction();
+    }
+}
+
 // Drawing Utilities
 function drawLine(ctx, startX, startY, endX, endY, color, width, opacity = 1.0) {
     ctx.beginPath();
@@ -72,125 +115,136 @@ function getPointFromAngle(center, angle, distance) {
     };
 }
 
-// Clock Type Configurations
-function getClockSetup(type) {
-    switch (type) {
-        case 'hour':
-            return {
-                segmentNames: ['12', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11'],
-                segmentCount: 12,
-                segmentFractions: Array.from({length: 12}, (_, i) => i / 12),
-                marks: Array.from({length: 48}, (_, i) => i)
-            };
-        case 'month':
-            const monthSetup = {
-                segmentNames: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-                segmentCount: 12,
-                segmentFractions: [],
-                labelPositions: []
-            };
-            
-            // Calculate segment positions based on actual days in each month
-            const daysInYear = moment().isLeapYear() ? 366 : 365;
-            let dayCounter = 0;
-            
-            for (let month = 0; month < 12; month++) {
-                monthSetup.segmentFractions.push(dayCounter / daysInYear);
-                // Add days in current month
-                const daysInMonth = moment().month(month).daysInMonth();
-                dayCounter += daysInMonth;
-            }
-            
-            // Calculate midpoints between segments for label positioning
-            for (let i = 0; i < monthSetup.segmentCount; i++) {
-                const nextIndex = (i + 1) % monthSetup.segmentCount;
-                let midpoint;
-                
-                if (nextIndex === 0) {
-                    // For December to January, wrap around the circle
-                    midpoint = (monthSetup.segmentFractions[i] + 1 + monthSetup.segmentFractions[nextIndex]) / 2;
-                    if (midpoint > 1) midpoint -= 1;
-                } else {
-                    // For all other months, simple midpoint
-                    midpoint = (monthSetup.segmentFractions[i] + monthSetup.segmentFractions[nextIndex]) / 2;
-                }
-                
-                monthSetup.labelPositions.push(midpoint);
-            }
-            
-            return monthSetup;
-            
-        case 'year':
-            return {
-                segmentNames: ['2000', '2010', '2020', '2030', '2040', '2050', ''],
-                segmentCount: 7,
-                segmentFractions: Array.from({length: 7}, (_, i) => i / 6),
-                marks: Array.from({length: 60}, (_, i) => i)
-            };
-        case 'century':
-            return {
-                segmentNames: ['1200', '1300', '1400', '1500', '1600', '1700', '1800', '1900', '2000', '2100', '2200', '2300'],
-                segmentCount: 12,
-                segmentFractions: Array.from({length: 12}, (_, i) => i / 12),
-                marks: Array.from({length: 120}, (_, i) => i)
-            };
-        case 'decimal':
-            return {
-                segmentNames: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],
-                segmentCount: 10,
-                segmentFractions: Array.from({length: 10}, (_, i) => i / 10),
-                marks: Array.from({length: 100}, (_, i) => i)
-            };
-        default:
-            return getClockSetup('year');
-    }
+// Clock Type Setup Functions
+function getHourClockSetup() {
+    return {
+        segmentNames: ['12', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11'],
+        segmentCount: 12,
+        segmentFractions: Array.from({length: 12}, (_, i) => i / 12),
+        marks: Array.from({length: 48}, (_, i) => i)
+    };
 }
 
-// Get current position for different clock types
-function getCurrentPosition(type) {
-    const now = moment();
+function getMonthClockSetup() {
+    const monthSetup = {
+        segmentNames: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+        segmentCount: 12,
+        segmentFractions: [],
+        labelPositions: []
+    };
     
-    switch (type) {
-        case 'hour':
-            const hour = now.hour() % 12;
-            const minute = now.minute();
-            const second = now.second();
-            return ((hour * 60 + minute + second/60) / 720) * 2 * Math.PI;
-            
-        case 'month':
-            const dayOfYear = now.dayOfYear();
-            return (dayOfYear / 365) * 2 * Math.PI;
-            
-        case 'year':
-            const year = now.year();
-            const month = now.month();
-            const day = now.date();
-            
-            const yearsSince2000 = year - 2000;
-            const fractionOfYear = (month * 30 + day) / 365;
-            
-            return ((yearsSince2000 + fractionOfYear) / 60) * 2 * Math.PI;
-            
-        case 'century':
-            const centuryYear = now.year();
-            const centuryMonth = now.month();
-            const centuryDay = now.date();
-            
-            const century = Math.floor(centuryYear / 100);
-            const yearInCentury = centuryYear % 100;
-            const fractionOfCenturyYear = (centuryMonth * 30 + centuryDay) / 365;
-            
-            // Calculate position within the 1200-year span (12 centuries)
-            const centuriesSince1200 = century - 12;
-            const position = centuriesSince1200 + (yearInCentury + fractionOfCenturyYear) / 100;
-            
-            return (position / 12) * 2 * Math.PI;
-        case 'decimal':
-            return 0;
-        default:
-            return getCurrentPosition('year');
+    // Calculate segment positions based on actual days in each month
+    const daysInYear = moment().isLeapYear() ? 366 : 365;
+    let dayCounter = 0;
+    
+    for (let month = 0; month < 12; month++) {
+        monthSetup.segmentFractions.push(dayCounter / daysInYear);
+        // Add days in current month
+        const daysInMonth = moment().month(month).daysInMonth();
+        dayCounter += daysInMonth;
     }
+    
+    // Calculate midpoints between segments for label positioning
+    for (let i = 0; i < monthSetup.segmentCount; i++) {
+        const nextIndex = (i + 1) % monthSetup.segmentCount;
+        let midpoint;
+        
+        if (nextIndex === 0) {
+            // For December to January, wrap around the circle
+            midpoint = (monthSetup.segmentFractions[i] + 1 + monthSetup.segmentFractions[nextIndex]) / 2;
+            if (midpoint > 1) midpoint -= 1;
+        } else {
+            // For all other months, simple midpoint
+            midpoint = (monthSetup.segmentFractions[i] + monthSetup.segmentFractions[nextIndex]) / 2;
+        }
+        
+        monthSetup.labelPositions.push(midpoint);
+    }
+    
+    return monthSetup;
 }
+
+function getYearClockSetup() {
+    return {
+        segmentNames: ['2000', '2010', '2020', '2030', '2040', '2050', ''],
+        segmentCount: 7,
+        segmentFractions: Array.from({length: 7}, (_, i) => i / 6),
+        marks: Array.from({length: 60}, (_, i) => i)
+    };
+}
+
+
+function getDecimalClockSetup() {
+    return {
+        segmentNames: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],
+        segmentCount: 10,
+        segmentFractions: Array.from({length: 10}, (_, i) => i / 10),
+        marks: Array.from({length: 100}, (_, i) => i)
+    };
+}
+
+function getDecadeClockSetup() {
+    return {
+        segmentNames: ['0', '10', '20', '30', '40', '50', '60', '70', '80', '90', ''],
+        segmentCount: 10,
+        segmentFractions: Array.from({length: 10}, (_, i) => i / 10),
+        marks: Array.from({length: 100}, (_, i) => i)
+    };
+}
+
+function getCenturyClockSetup() {
+    return {
+        segmentNames: ['0', '100', '200', '300', '400', '500', '600', '700', '800', '900', ''],
+        segmentCount: 10,
+        segmentFractions: Array.from({length: 10}, (_, i) => i / 10),
+        marks: Array.from({length: 100}, (_, i) => i)
+    };
+}
+
+
+// Position Calculation Functions
+function getHourPosition() {
+    const now = moment();
+    const hour = now.hour() % 12;
+    const minute = now.minute();
+    const second = now.second();
+    return ((hour * 60 + minute + second/60) / 720) * 2 * Math.PI;
+}
+
+function getMonthPosition() {
+    const dayOfYear = moment().dayOfYear();
+    return (dayOfYear / 365) * 2 * Math.PI;
+}
+
+function getYearPosition() {
+    const now = moment();
+    const year = now.year();
+    const month = now.month();
+    const day = now.date();
+    
+    const yearsSince2000 = year - 2000;
+    const fractionOfYear = (month * 30 + day) / 365;
+    
+    return ((yearsSince2000 + fractionOfYear) / 60) * 2 * Math.PI;
+}
+
+
+function getDecimalPosition() {
+    const year = moment().year();
+    return year/100 * 2 * Math.PI;
+}
+
+function getDecadePosition() {
+    const year = moment().year();
+    return (year-2000)/100 * 2 * Math.PI;
+}
+
+function getCenturyPosition() {
+    const year = moment().year();
+    return (year-2000)/1000 * 2 * Math.PI;
+}
+
+
 
 // Draw the clock components
 function drawClockDial(ctx, config, clockSetup, type) {
@@ -206,6 +260,7 @@ function drawClockDial(ctx, config, clockSetup, type) {
         1.0
     );
 
+    // Draw main segments
     for (let segment = 0; segment < clockSetup.segmentCount; segment++) {
         if (type === 'month') {
             drawMonthSegmentMark(ctx, config, clockSetup, segment);
@@ -215,19 +270,10 @@ function drawClockDial(ctx, config, clockSetup, type) {
     }
     
     // Draw additional marks based on clock type
-    switch (type) {
-        case 'hour':
-            drawMinuteMarks(ctx, config, clockSetup);
-            break;
-        case 'year':
-            drawYearMarks(ctx, config, clockSetup);
-            break;
-        case 'century':
-        case 'decimal':
-            drawMarks(ctx, config, clockSetup);
-            break;
-    }
+    drawAdditionalMarks(ctx, config, clockSetup, type);
 }
+
+
 
 function drawSegmentMark(ctx, config, clockSetup, segment) {
     const { sizes, colors, opacities } = config;
