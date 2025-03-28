@@ -3,6 +3,7 @@
 <script src="/assets/js/calendar.js"></script>
 
 <p id="current-date"></p>
+
 <br>
 
 <div class="columns">
@@ -89,10 +90,9 @@
 </style>
 
 <script>
-
     const today = moment();
     const currentDayOfYear = today.dayOfYear();
-    document.querySelector("#current-date").innerHTML = today.format('dddd, MMMM DD, YYYY');
+    document.querySelector("#current-date").innerHTML = today.format('dddd MMMM DD');
     (function() {
       renderCalendar(document.querySelector(".year-grid"), currentDayOfYear);
     })();

@@ -30,12 +30,15 @@ function get_the_last_day_of_this_year() {
     return get_weekday(d);
 }
 
+function get_sunrise_and_sunset() {
+
+}
+
 function show_date_and_time() {
 
     const today = moment();
 
-    document.querySelector("#current-date").innerHTML = today.format('dddd, MMMM DD');
-    document.querySelector("#current-year").innerHTML = today.format('YYYY');
+    document.querySelector("#current-date").innerHTML = today.format('dddd MMMM DD');
     function updateClock() {
         const now = new Date();
         document.getElementById('current-time').textContent =
