@@ -93,3 +93,9 @@ People will never forget how you made them feel.
 ## Vulnerability
 
 "Conceal a flaw and the world will imagine the worst" 
+
+
+## Annoyance
+
+"Everything that irritates us about others can lead us to an understanding of ourselves.”
+― Carl Gustav Jung

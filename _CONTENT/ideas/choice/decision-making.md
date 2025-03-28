@@ -14,6 +14,7 @@ title: Decision Making
 - Don't get stuck
 - Once you decide, don't second guess, follow through 
 - Don't judge decisions by results, a good decision can have a bad outcome, it's luck 
+- If you don't choose, the world will choose it for you 
 
 [[reasoning]]
 

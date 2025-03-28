@@ -2,6 +2,8 @@
 tags: psy
 ---
 
+First step to learn is to admit that you don't know 
+
 Genuine interest 
 
 Surprise 

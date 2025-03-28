@@ -5,3 +5,4 @@
 
 "When you stop expecting people to be perfect, you can like them for who they are.”
 
+"If you have two friends in your lifetime, you're lucky. If you have one good friend, you're more than lucky.”

@@ -6,3 +6,7 @@ Look again at that dot. That's here. That's home. That's us. On it everyone you 
 ― Carl Sagan, Pale Blue Dot
 
 [[earth-time-scale]]
+
+
+"Every one of us is, in the cosmic perspective, precious. If a human disagrees with you, let him live. In a hundred billion galaxies, you will not find another.”
+― Carl Sagan, Cosmos

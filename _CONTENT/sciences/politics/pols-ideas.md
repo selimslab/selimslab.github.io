@@ -40,3 +40,5 @@ If they can make you ask the wrong questions, they don't have to worry about ans
 
 "Never interrupt your enemy when he is making a mistake.”
 ― Napoleon Bonaparte
+
+Socialism never took root in America because the poor see themselves not as an exploited proletariat but as temporarily embarrassed millionaires

@@ -65,6 +65,9 @@ When you come out of the storm, you won't be the same person who walked in
 > Who is the happier man, he who has braved the storm of life and lived  
 > or he who has stayed securely on shore and merely existed?  
 
+"The most beautiful people we have known are those who have known defeat, known suffering, known struggle, known loss, and have found their way out of the depths. These persons have an appreciation, a sensitivity, and an understanding of life that fills them with compassion, gentleness, and a deep loving concern. Beautiful people do not just happen.”
+― Elisabeth Kübler-Ross
+
 
 ## Before the storm 
 

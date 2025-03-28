@@ -7,7 +7,7 @@
 [Familiar and Unfamiliar Quotations (norvig.com)](https://www.norvig.com/quotations.html)
 
 
-There is always a philosophy for lack of courage. - Camus
+. - Camus
 
 "What matters in life is not what happens to you but what you remember and how you remember it.”
 ― Gabriel Garcia Marquez
@@ -105,91 +105,17 @@ Spring is the time of plans and projects
 "Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover.”
 
 
-"All grown-ups were once children... but only few of them remember it.”
-― Antoine de Saint-Exupéry, The Little Prince
-
-"The most beautiful people we have known are those who have known defeat, known suffering, known struggle, known loss, and have found their way out of the depths. These persons have an appreciation, a sensitivity, and an understanding of life that fills them with compassion, gentleness, and a deep loving concern. Beautiful people do not just happen.”
-― Elisabeth Kübler-Ross
-
 "It's not the load that breaks you down, it's the way you carry it.”
-
-"It's enough for me to be sure that you and I exist at this moment.”
-
-"If you have two friends in your lifetime, you're lucky. If you have one good friend, you're more than lucky.”
 
 "You never know what worse luck your bad luck has saved you from.”
 ― Cormac McCarthy, No Country for Old Men
 
-"Knowledge speaks, but wisdom listens”
-
-"But in the end one needs more courage to live than to kill himself.”
-
-"Do you think that I count the days? There is only one day left, always starting over: it is given to us at dawn and taken away from us at dusk.”
-― Jean-Paul Sartre
-
-"Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth.”
-― Marcus Aurelius , Meditations
-
-"Everything that irritates us about others can lead us to an understanding of ourselves.”
-― Carl Gustav Jung
-
-"Well, I never heard it before, but it sounds uncommon nonsense.”
-― Lewis Carroll, Alice in Wonderland
-
-"What do we live for, if it is not to make life less difficult for each other?”
-― George Eliot
-
-"A man who procrastinates in his choosing will inevitably have his choice made for him by circumstance.”
-
-"Every one of us is, in the cosmic perspective, precious. If a human disagrees with you, let him live. In a hundred billion galaxies, you will not find another.”
-― Carl Sagan, Cosmos
-
-"You don't have to choose between being scientific and being compassionate.”
-― Robert M. Sapolsky
-
-If there is a God, He will have to beg my forgiveness. 
-
-Socialism never took root in America because the poor see themselves not as an exploited proletariat but as temporarily embarrassed millionaires
-
-Beware of overconcern for money, or position, or glory. Someday you will meet a man who cares for none of these things. Then you will know how poor you are.
-
-Until you make the unconscious conscious, it will direct your life and you will call it fate.
-
-If I'm sincere today, does it matter if I regret it tomorrow?
-
-Some stranger somewhere still remembers you because you were kind to them when no one else was. 
-
-Anything that just costs money is cheap 
-
-The one chasing two rabbits, catches neither 
-
-The lonely one offers his hand too quickly to whomever he encounters
 
 I know a cure for everything, salt water.. sweat, tears, sea  
 
-.. blur the line between work and play 
-
-Conceal a flaw, and the world will imagine the worst
-
-First step to learn is to admit that you don't know 
-
-Pursue a path you can walk with love and reverence 
-
-How does it help.. to make troubles heavier by bemoaning them?
 
 We suffer more in imagination than in reality 
 
-Don't explain your philosophy, embody it 
-
-Words are loaded pistols 
-
 Circumstances reveal the man 
 
-
-## From the Idea Machine 
-
-<article>
-{% for idea in site.data.ideas %}
-<p style="white-space: pre-line;">{{idea}}</p>
-{% endfor %}
-</article>
+{% include random-idea.html %}

@@ -18,3 +18,5 @@ Many years later, as he faced the firing squad, Colonel Aureliano Buendía was t
 "What worries me is that out of so much hatred for the military, out of fighting them so much and thinking about them so much, you've ended up as bad as they are. And no ideal in life is worth that much baseness."
 
 "Perhaps, not only to attain her but also to conjure away her dangers, all that was needed was a feeling as primitive and as simple as that of love, but that was the only thing that did not occur to anyone."
+
+"It's enough for me to be sure that you and I exist at this moment.”
