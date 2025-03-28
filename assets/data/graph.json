@@ -81,7 +81,7 @@
         "/classics",
         "/essais",
         "/history-of-technology",
-        "/since-big-bang"
+        "/timeline"
       ]
     },
     {
@@ -117,7 +117,7 @@
         "/psychology",
         "/sociology",
         "/reasoning",
-        "/since-big-bang"
+        "/timeline"
       ]
     },
     {
@@ -557,7 +557,7 @@
         "/clocks",
         "/history-of-technology",
         "/history",
-        "/since-big-bang"
+        "/timeline"
       ]
     },
     {
@@ -754,7 +754,7 @@
         "/farming-trap",
         "/history-of-technology",
         "/rome",
-        "/since-big-bang",
+        "/timeline",
         "/time"
       ]
     },
@@ -2622,7 +2622,8 @@
       "links": [
         "/time",
         "/climate-change",
-        "/pale-blue-dot"
+        "/pale-blue-dot",
+        "/timeline"
       ]
     },
     {
@@ -2815,11 +2816,12 @@
       ]
     },
     {
-      "id": "/since-big-bang",
+      "id": "/timeline",
       "group": 3,
-      "name": "Some events in the last 14 billion years",
+      "name": "Timeline of major events in the last 14 billion years",
       "links": [
         "/history",
+        "/earth-time-scale",
         "/time",
         "/lists",
         "/sciences"
@@ -5235,7 +5237,7 @@
     },
     {
       "source": "/history",
-      "target": "/since-big-bang"
+      "target": "/timeline"
     },
     {
       "source": "/math",
@@ -6242,6 +6244,10 @@
       "target": "/pale-blue-dot"
     },
     {
+      "source": "/earth-time-scale",
+      "target": "/timeline"
+    },
+    {
       "source": "/time",
       "target": "/calendar"
     },
@@ -6259,7 +6265,7 @@
     },
     {
       "source": "/time",
-      "target": "/since-big-bang"
+      "target": "/timeline"
     },
     {
       "source": "/driving",
@@ -6283,7 +6289,7 @@
     },
     {
       "source": "/lists",
-      "target": "/since-big-bang"
+      "target": "/timeline"
     },
     {
       "source": "/bayes",
@@ -6327,7 +6333,7 @@
     },
     {
       "source": "/sciences",
-      "target": "/since-big-bang"
+      "target": "/timeline"
     }
   ]
 }

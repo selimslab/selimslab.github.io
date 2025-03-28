@@ -1,5 +1,4 @@
 ---
-title: Learn and move on 
 ---
 
 "Hell is truth seen too late"
