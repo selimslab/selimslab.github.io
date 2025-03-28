@@ -15,22 +15,23 @@ tags: lists time tools history
 ## The last billion years
 
 
-- **First Multicellular Life**: 600 million years ago
-- **Cambrian Explosion**: 541 million years ago
-- **First Land Plants**: 470 million years ago
-- **First Dinosaurs**: 230 million years ago
-- **First Mammals**: 200 million years ago
+- **First Multicellular Life**: 600 million years ago (mya)
+- **Cambrian Explosion**: 540 mya
+- **First Land Plants**: 470 mya
+- **First Trees**: 370 mya
+- **First Dinosaurs**: 230 mya
+- **First Mammals**: 200 mya
+- **End of Dinosaurs**: 66 mya
 
 {% include clock.html type="decimal" id="1b" title="The last billion years" %}
 
 
 ## The last 10 million years
 
-- **First Hominids**: 7 million years ago
-- **Last Common Ancestor of Humans and Chimps**: 6 million years ago
-- **First Humans (Genus Homo)**: 2.8 million years ago
-- **First Stone Tools**: 2.6 million years ago
-- **Controlled Use of Fire**: 1 million years ago
+- **Last Common Ancestor of Humans and Chimps**: 6 mya
+- **First Humans**: 2.8 mya
+- **First Stone Tools**: 2.6 mya
+- **Controlled Use of Fire**: 1 mya
 - **Homo Sapiens**: 300,000 years ago
 
 {% include clock.html type="decimal" id="10m" title="The last 10 million years" %}
@@ -45,10 +46,10 @@ tags: lists time tools history
 
 {% include clock.html type="millennia" id="millenniaClock" title="Millennia" %}
 
-
 - **Iron Age, Trojan War**: c. 1200 BC
 - **Greek Dark Ages, Collapse of Mediterranean Civilizations**: c. 1200 BC to 800 BC
 - **Classical Age, Ancient Greece, Rome** c. 800 BC to 476
+
 - **Middle Ages**: c. 476 - 1400
 - **Renaissance**: c. 1400 to 1700
 - **Industrial Revolution**: c. 1700 to 1914
