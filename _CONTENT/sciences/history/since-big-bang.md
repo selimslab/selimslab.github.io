@@ -12,6 +12,7 @@ tags: sci lists time
 - **Formation of Earth**: 4.5 billion years ago
 - **First Single-Celled Life**: 3.5 billion years ago
 
+Billion years
 {% include clock.html type="decimal" id="b" %}
 
 
@@ -25,6 +26,7 @@ tags: sci lists time
 - **First Dinosaurs**: 230 million years ago
 - **First Mammals**: 200 million years ago
 
+100 million years
 {% include clock.html type="decimal" id="100m" %}
 
 
@@ -38,30 +40,36 @@ tags: sci lists time
 - **Controlled Use of Fire**: 1 million years ago
 - **Homo Sapiens**: 300,000 years ago
 
+Million years
 {% include clock.html type="decimal"  id="1m" %}
 
 
 ---
-
-
 
 - **End of the Last Ice Age, Agriculture, First Temple (Göbekli Tepe)**: ~12,000 years ago (~10,000 BCE)
 - **First Cities**: 9,500 years ago (~7,500 BCE)
 - **Copper Age, Wheel**: 7,000 years ago (~5,000 BCE)
 - **Bronze Age, Pyramids, Sumerians, Writing**: ~5000 years ago (~3,000 BCE)
 - **Iron Age**: 3,200 years ago (~1,200 BCE)
+- **Classical Greece**: 2,500 to 2,400 years ago (~500 to ~400 BCE)
+- **Hellenistic Period**: 2,300 to 2,100 years ago (~300 to ~100 BCE)
+- **Roman Republic**: 2,500 to 2,100 years ago (~500 to ~100 BCE)
+- **Roman Empire**: 2,100 to 1,500 years ago (~100 BCE to ~500 CE)
 
 {% include clock.html type="millennia" id="millenniaClock" %}
 
 ---
 
-- **Classical Greece**: 2,500 to 2,400 years ago (~500 to ~400 BCE)
-- **Hellenistic Period**: 2,300 to 2,100 years ago (~300 to ~100 BCE)
-- **Roman Republic**: 2,500 to 2,100 years ago (~500 to ~100 BCE)
-- **Roman Empire**: 2,100 to 1,500 years ago (~100 BCE to ~500 CE)
+
 - **Renaissance**: 700 to 400 years ago (~1300 to ~1600 CE)
 - **Industrial Revolution**: 300 to 50 years ago (~1700 to ~1950 CE)
+- 
+{% include clock.html type="century" id="centuryClock" %}
+
+---
+
 - **World War I**: 1914 - 1918 CE
 - **World War II**: 1939 - 1945 CE
 
-{% include clock.html type="decimal"  id="100" %}
+{% include clock.html type="decade" id="decadeClock" %}
+
