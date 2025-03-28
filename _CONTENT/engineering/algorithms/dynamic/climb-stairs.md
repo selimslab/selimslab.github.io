@@ -1,5 +1,5 @@
 ---
-tags: dp easy
+tags: easy
 ---
 
 

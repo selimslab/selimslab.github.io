@@ -1,5 +1,5 @@
 ---
-tags: arr mid
+tags: mid
 ---
 
 

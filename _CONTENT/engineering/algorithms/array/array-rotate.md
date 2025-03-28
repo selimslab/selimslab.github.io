@@ -1,5 +1,5 @@
 ---
-tags: arr easy
+tags: easy
 ---
 
 

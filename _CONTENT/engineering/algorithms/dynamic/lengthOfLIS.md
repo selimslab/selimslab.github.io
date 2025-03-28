@@ -1,6 +1,6 @@
 ---
 title: Longest increasing subsequence
-tags: dp mid
+tags:  mid
 ---
 
 

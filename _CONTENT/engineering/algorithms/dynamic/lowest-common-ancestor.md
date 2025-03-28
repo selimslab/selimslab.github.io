@@ -1,5 +1,5 @@
 ---
-tags: dp gr
+tags: gr
 ---
 
 

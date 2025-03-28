@@ -1,6 +1,6 @@
 ---
 
-tags: dp mid
+tags: mid
 
 
 ---
