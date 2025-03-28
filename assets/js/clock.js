@@ -49,7 +49,8 @@ function getClockSetup(type) {
         'year': getYearClockSetup,
         'decimal': getDecimalClockSetup,
         'decade': getDecadeClockSetup,
-        'century': getCenturyClockSetup
+        'century': getCenturyClockSetup,
+        'sixty': getSixtyClockSetup
     };
     
     const setupFunction = setupFunctions[type] || setupFunctions['year'];
@@ -62,7 +63,8 @@ function drawAdditionalMarks(ctx, config, clockSetup, type) {
         'year': () => drawYearMarks(ctx, config, clockSetup),
         'decimal': () => drawMarks(ctx, config, clockSetup),
         'decade': () => drawMarks(ctx, config, clockSetup),
-        'century': () => drawMarks(ctx, config, clockSetup)
+        'century': () => drawMarks(ctx, config, clockSetup),
+        'sixty': () => drawMarks(ctx, config, clockSetup)
     };
     
     const drawFunction = markDrawingFunctions[type];
@@ -230,8 +232,7 @@ function getYearPosition() {
 
 
 function getDecimalPosition() {
-    const year = moment().year();
-    return year/100 * 2 * Math.PI;
+    return 0;
 }
 
 function getDecadePosition() {
