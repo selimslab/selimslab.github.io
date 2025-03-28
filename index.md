@@ -7,6 +7,9 @@ layout: page
 
   <div class="column">
 
+    <h2>Delta</h2>
+    <p>Give your mind some space</p>
+
     <h2>Contents</h2>
 
       <ul>
