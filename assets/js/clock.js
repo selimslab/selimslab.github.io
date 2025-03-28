@@ -33,9 +33,11 @@ function getCurrentPosition(type) {
         'hour': getHourPosition,
         'month': getMonthPosition,
         'year': getYearPosition,
+        'sixty': getSixtyPosition,
         'decimal': getDecimalPosition,
         'decade': getDecadePosition,
-        'century': getCenturyPosition
+        'century': getCenturyPosition,
+        'millennia': getMillenniaPosition
     };
     
     const positionFunction = positionFunctions[type] || positionFunctions['year'];
@@ -50,6 +52,7 @@ function getClockSetup(type) {
         'decimal': getDecimalClockSetup,
         'decade': getDecadeClockSetup,
         'century': getCenturyClockSetup,
+        'millennia': getMillenniaClockSetup,
         'sixty': getSixtyClockSetup
     };
     
@@ -64,7 +67,8 @@ function drawAdditionalMarks(ctx, config, clockSetup, type) {
         'decimal': () => drawMarks(ctx, config, clockSetup),
         'decade': () => drawMarks(ctx, config, clockSetup),
         'century': () => drawMarks(ctx, config, clockSetup),
-        'sixty': () => drawMarks(ctx, config, clockSetup)
+        'sixty': () => drawMarks(ctx, config, clockSetup),
+        'millennia': () => drawMarks(ctx, config, clockSetup)
     };
     
     const drawFunction = markDrawingFunctions[type];
@@ -203,6 +207,24 @@ function getCenturyClockSetup() {
     };
 }
 
+function getMillenniaClockSetup() {
+    return {
+        segmentNames: ['0', '1000', '2000', '3000', '4000', '5000', '6000', '7000', '8000', '9000', ''],
+        segmentCount: 10,
+        segmentFractions: Array.from({length: 10}, (_, i) => i / 10),
+        marks: Array.from({length: 100}, (_, i) => i)
+    };
+}
+
+
+function getSixtyClockSetup() {
+    return {
+        segmentNames: ['0', '5', '10', '15', '20', '25', '30', '35', '40', '45', '50', '55'],
+        segmentCount: 12,
+        segmentFractions: Array.from({length: 12}, (_, i) => i / 12),
+        marks: Array.from({length: 60}, (_, i) => i)
+    };
+}
 
 // Position Calculation Functions
 function getHourPosition() {
@@ -230,6 +252,13 @@ function getYearPosition() {
     return ((yearsSince2000 + fractionOfYear) / 60) * 2 * Math.PI;
 }
 
+function getSixtyPosition() {
+    const year = moment().year();
+    const birthYear = 1995;
+    const age = year - birthYear;
+    const sixty = age % 60;
+    return (sixty / 60) * 2 * Math.PI;
+}
 
 function getDecimalPosition() {
     return 0;
@@ -243,6 +272,11 @@ function getDecadePosition() {
 function getCenturyPosition() {
     const year = moment().year();
     return (year-2000)/1000 * 2 * Math.PI;
+}
+
+function getMillenniaPosition() {
+    const year = moment().year();
+    return (year)/10000 * 2 * Math.PI;
 }
 
 

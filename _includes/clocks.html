@@ -14,6 +14,12 @@
     {% include clock.html type="month" id="monthClock" %}
   </div>
 
+  <div class="column is-4 is-mobile-6 has-text-centered">
+    <p id="current-year"></p>
+    {% include clock.html type="year" id="yearClock" %}
+  </div>
+
+
 </div>
 
 
@@ -21,16 +27,15 @@
 <div class="columns">
 
   <div class="column is-4 is-mobile-6 has-text-centered">
-    {% include clock.html type="year" id="yearClock" %}
-  </div>
-
-
-  <div class="column is-4 is-mobile-6 has-text-centered">
     {% include clock.html type="decade" id="decadeClock" %}
   </div>
 
   <div class="column is-4 is-mobile-6 has-text-centered">
     {% include clock.html type="century" id="centuryClock" %}
+  </div>
+
+  <div class="column is-4 is-mobile-6 has-text-centered">
+    {% include clock.html type="millennia" id="millenniaClock" %}
   </div>
 
 </div>
@@ -42,6 +47,9 @@
     {% include clock.html type="decimal" id="decimalClock" %}
   </div>
 
+  <div class="column is-4 is-mobile-6 has-text-centered">
+    {% include clock.html type="sixty" id="sixtyClock" %}
+  </div>
 </div>
 
 
