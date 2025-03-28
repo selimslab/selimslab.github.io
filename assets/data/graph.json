@@ -2303,7 +2303,8 @@
       "name": "One Day At A Time",
       "links": [
         "/choice",
-        "/lightly-child"
+        "/lightly-child",
+        "/hard-times"
       ]
     },
     {
@@ -2638,6 +2639,7 @@
       "name": "Hard Times",
       "links": [
         "/time",
+        "/one-day-at-a-time",
         "/philosophy"
       ]
     },
@@ -6152,6 +6154,10 @@
     {
       "source": "/habits",
       "target": "/get-things-done"
+    },
+    {
+      "source": "/one-day-at-a-time",
+      "target": "/hard-times"
     },
     {
       "source": "/essais",

@@ -42,15 +42,14 @@ tags: lists time tools history
 - **First Cities**: c. 7000 BC
 - **Copper Age, Wheel**: c. 5000 BC
 - **Bronze Age, Pyramids, Sumerians, Writing**: c. 3000 BC
-- **Iron Age**: c. 1200 – c. 550 BC
 
 {% include clock.html type="millennia" id="millenniaClock" title="Millennia" %}
 
-- **Classical Antiquity** c. 800 BC to 500 
-- **Roman Republic**: c. 500 BC to 27 BC
-- **Roman Empire**: 27 BC to 476
-- **Middle Ages**: c. 476 - 1400
 
+- **Iron Age, Trojan War**: c. 1200 BC
+- **Greek Dark Ages, Collapse of Mediterranean Civilizations**: c. 1200 BC to 800 BC
+- **Classical Age, Ancient Greece, Rome** c. 800 BC to 476
+- **Middle Ages**: c. 476 - 1400
 - **Renaissance**: c. 1400 to 1700
 - **Industrial Revolution**: c. 1700 to 1914
 
