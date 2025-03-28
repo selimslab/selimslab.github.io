@@ -10,15 +10,13 @@
 4. Less is more, "If I had more time, I would have written a shorter letter."
 5. Write a lot and iterate. "The best writing is rewriting."
 
-![](/assets/static/img/plain-pooh.jpg)
 
 ![](/assets/static/img/remove-redundant-words.png)
 
-> "Il faut cultiver notre jardin"
+![](/assets/static/img/plain-pooh.jpg)
+
 
 ## See also 
-
-[[zen-of-python]]
 
 [Hemingway Editor (hemingwayapp.com)](https://hemingwayapp.com/)
 
