@@ -12,8 +12,8 @@ tags: sci lists time
 - **Formation of Earth**: 4.5 billion years ago
 - **First Single-Celled Life**: 3.5 billion years ago
 
-Billion years
-{% include clock.html type="decimal" id="b" %}
+{% include clock.html type="decimal" id="b" title="Billion years" %}
+
 
 
 ---
@@ -26,8 +26,8 @@ Billion years
 - **First Dinosaurs**: 230 million years ago
 - **First Mammals**: 200 million years ago
 
-100 million years
-{% include clock.html type="decimal" id="100m" %}
+{% include clock.html type="decimal" id="100m" title="100 million years" %}
+
 
 
 ---
@@ -40,8 +40,8 @@ Billion years
 - **Controlled Use of Fire**: 1 million years ago
 - **Homo Sapiens**: 300,000 years ago
 
-Million years
-{% include clock.html type="decimal"  id="1m" %}
+
+{% include clock.html type="decimal"  id="1m" title="Million years" %}
 
 
 ---
@@ -56,7 +56,7 @@ Million years
 - **Roman Republic**: 2,500 to 2,100 years ago (~500 to ~100 BCE)
 - **Roman Empire**: 2,100 to 1,500 years ago (~100 BCE to ~500 CE)
 
-{% include clock.html type="millennia" id="millenniaClock" %}
+{% include clock.html type="millennia" id="millenniaClock" title="Millennia" %}
 
 ---
 
@@ -64,12 +64,12 @@ Million years
 - **Renaissance**: 700 to 400 years ago (~1300 to ~1600 CE)
 - **Industrial Revolution**: 300 to 50 years ago (~1700 to ~1950 CE)
 - 
-{% include clock.html type="century" id="centuryClock" %}
+{% include clock.html type="century" id="centuryClock" title="Centuries" %}
 
 ---
 
 - **World War I**: 1914 - 1918 CE
 - **World War II**: 1939 - 1945 CE
 
-{% include clock.html type="decade" id="decadeClock" %}
+{% include clock.html type="decade" id="decadeClock" title="Decades" %}
 
