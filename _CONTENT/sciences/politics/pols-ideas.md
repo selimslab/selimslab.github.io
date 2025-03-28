@@ -42,3 +42,11 @@ If they can make you ask the wrong questions, they don't have to worry about ans
 ― Napoleon Bonaparte
 
 Socialism never took root in America because the poor see themselves not as an exploited proletariat but as temporarily embarrassed millionaires
+
+"All animals are equal, but some animals are more equal than others.”
+
+"War is peace.
+Freedom is slavery.
+Ignorance is strength.”
+
+"The creatures outside looked from pig to man, and from man to pig, and from pig to man again; but already it was impossible to say which was which.”

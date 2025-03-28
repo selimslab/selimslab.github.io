@@ -12,7 +12,6 @@ Behave: The Biology of Humans at Our Best and Worst
 
 "In other words, the default state is to trust, and what the amygdala does is learn vigilance and distrust.”
 
-
 "Most people who do a lot of exercise, particularly in the form of competitive athletics, have unneurotic, extraverted, optimistic personalities to begin with. (Marathon runners are exceptions to this.)”
 
 "Why is it that our automatic, intuitive moral judgments tend to be nonutilitarian? Because, as Greene states in his book, "Our moral brains evolved to help us spread our genes, not to maximize our collective happiness.”

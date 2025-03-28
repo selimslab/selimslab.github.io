@@ -47,7 +47,7 @@ def dfs(graph, node, seen=None, res=None):
 
 ## Toposort 
 
-1. modify dfs to neighbors-first(add a node dfs result after its neighbors)
+1. modify dfs to neighbors-first (add to stack after its neighbors)
 2. call dfs for all nodes
 3. reverse the result 
 
