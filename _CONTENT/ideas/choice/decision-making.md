@@ -15,6 +15,6 @@ title: Decision Making
 - Once you decide, don't second guess, follow through 
 - Don't judge decisions by results, a good decision can have a bad outcome, it's luck 
 
-[[choice]]
+[[reasoning]]
 
 <https://sive.rs/book/ThinkingInBets>

@@ -1,8 +1,9 @@
 ---
-title: Timeline of major events in the last 14 billion years  
-tags: sci lists time tools
+title: Timelines
+tags: lists time tools history
 --- 
 
+## The past 14 billion years
 
 - **Big Bang**: 13.8 billion years ago
 - **Formation of Milky Way Galaxy**: 13.6 billion years ago

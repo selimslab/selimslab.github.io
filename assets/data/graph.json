@@ -452,6 +452,7 @@
         "/ideas",
         "/character",
         "/criticism",
+        "/decision-making",
         "/do-one-thing-at-a-time-and-do-it-well",
         "/do-without-doing",
         "/gratitude",
@@ -459,8 +460,7 @@
         "/know-where-to-stop",
         "/less",
         "/one-day-at-a-time",
-        "/possibility",
-        "/decision-making"
+        "/possibility"
       ]
     },
     {
@@ -503,6 +503,7 @@
         "/how-to-deal-with-pain",
         "/tao-te-ching",
         "/critical-thinking",
+        "/hard-times",
         "/philosophical-implications-of-quantum-mechanics"
       ]
     },
@@ -513,7 +514,6 @@
       "links": [
         "/ideas",
         "/critical-thinking",
-        "/decision-making",
         "/get-things-done",
         "/learning",
         "/mastery",
@@ -652,7 +652,8 @@
         "/lists",
         "/calendar",
         "/clocks",
-        "/typing-practice"
+        "/typing-practice",
+        "/timeline"
       ]
     },
     {
@@ -2234,6 +2235,15 @@
       ]
     },
     {
+      "id": "/decision-making",
+      "group": 3,
+      "name": "Decision Making",
+      "links": [
+        "/choice",
+        "/critical-thinking"
+      ]
+    },
+    {
       "id": "/do-one-thing-at-a-time-and-do-it-well",
       "group": 3,
       "name": "Do One Thing At A Time And Do It Well",
@@ -2251,8 +2261,7 @@
       "group": 3,
       "name": "Do without doing - Wu Wei 無爲",
       "links": [
-        "/choice",
-        "/decision-making"
+        "/choice"
       ]
     },
     {
@@ -2409,7 +2418,7 @@
     {
       "id": "/eudaimonia",
       "group": 3,
-      "name": "Eudaimonia 🌱",
+      "name": "Eudaimonia",
       "links": [
         "/philosophy"
       ]
@@ -2496,19 +2505,10 @@
       "name": "Critical thinking",
       "links": [
         "/reasoning",
+        "/decision-making",
         "/philosophy",
         "/questions",
         "/problem-solving"
-      ]
-    },
-    {
-      "id": "/decision-making",
-      "group": 3,
-      "name": "Decision Making",
-      "links": [
-        "/reasoning",
-        "/choice",
-        "/do-without-doing"
       ]
     },
     {
@@ -2638,7 +2638,8 @@
       "group": 3,
       "name": "Hard Times",
       "links": [
-        "/time"
+        "/time",
+        "/philosophy"
       ]
     },
     {
@@ -2816,12 +2817,13 @@
     {
       "id": "/timeline",
       "group": 3,
-      "name": "Timeline of major events in the last 14 billion years",
+      "name": "Timelines",
       "links": [
         "/history",
         "/earth-time-scale",
         "/time",
         "/lists",
+        "/tools",
         "/sciences"
       ]
     },
@@ -4967,6 +4969,10 @@
     },
     {
       "source": "/choice",
+      "target": "/decision-making"
+    },
+    {
+      "source": "/choice",
       "target": "/do-one-thing-at-a-time-and-do-it-well"
     },
     {
@@ -5088,10 +5094,6 @@
     {
       "source": "/reasoning",
       "target": "/critical-thinking"
-    },
-    {
-      "source": "/reasoning",
-      "target": "/decision-making"
     },
     {
       "source": "/reasoning",
@@ -6134,8 +6136,8 @@
       "target": "/freedom"
     },
     {
-      "source": "/choice",
-      "target": "/decision-making"
+      "source": "/decision-making",
+      "target": "/critical-thinking"
     },
     {
       "source": "/do-one-thing-at-a-time-and-do-it-well",
@@ -6148,10 +6150,6 @@
     {
       "source": "/do-one-thing-at-a-time-and-do-it-well",
       "target": "/work"
-    },
-    {
-      "source": "/do-without-doing",
-      "target": "/decision-making"
     },
     {
       "source": "/habits",
@@ -6208,6 +6206,10 @@
     {
       "source": "/philosophy",
       "target": "/critical-thinking"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/hard-times"
     },
     {
       "source": "/philosophy",
@@ -6283,6 +6285,10 @@
     },
     {
       "source": "/lists",
+      "target": "/timeline"
+    },
+    {
+      "source": "/tools",
       "target": "/timeline"
     },
     {
