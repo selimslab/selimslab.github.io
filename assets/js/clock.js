@@ -200,7 +200,7 @@ function getDecadeClockSetup() {
 
 function getCenturyClockSetup() {
     return {
-        segmentNames: ['2000', '2100', '1200', '1300', '1400', '1500', '1600', '1700', '1800', '1900', ''],
+        segmentNames: ['2000', '2100', '...', '1300', '1400', '1500', '1600', '1700', '1800', '1900', ''],
         segmentCount: 10,
         segmentFractions: Array.from({length: 10}, (_, i) => i / 10),
         marks: Array.from({length: 100}, (_, i) => i)
@@ -209,7 +209,7 @@ function getCenturyClockSetup() {
 
 function getMillenniaClockSetup() {
     return {
-        segmentNames: ['0 CE', '1000', '2000', '7000 BCE', '6000', '5000', '4000', '3000', '2000', '1000 BCE', ''],
+        segmentNames: ['0 CE', '1000', '2000', '...', '6000 BC', '5000', '4000', '3000', '2000', '1000 BCE', ''],
         segmentCount: 10,
         segmentFractions: Array.from({length: 10}, (_, i) => i / 10),
         marks: Array.from({length: 100}, (_, i) => i)

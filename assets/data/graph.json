@@ -555,7 +555,6 @@
         "/the-past",
         "/calendar",
         "/clocks",
-        "/history-of-technology",
         "/history",
         "/timeline"
       ]
@@ -2680,7 +2679,7 @@
     {
       "id": "/the-past",
       "group": 3,
-      "name": "Learn and move on",
+      "name": "The Past",
       "links": [
         "/time"
       ]
@@ -2803,7 +2802,6 @@
       "name": "History Of Technology",
       "links": [
         "/history",
-        "/time",
         "/lists"
       ]
     },
@@ -6254,10 +6252,6 @@
     {
       "source": "/time",
       "target": "/clocks"
-    },
-    {
-      "source": "/time",
-      "target": "/history-of-technology"
     },
     {
       "source": "/time",
