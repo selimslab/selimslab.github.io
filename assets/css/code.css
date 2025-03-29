@@ -1,3 +1,10 @@
+code{
+  font-family: 'Courier New', Courier, monospace;
+  background-color: inherit;
+  color: inherit;
+  font-weight: 600;
+}
+
 .highlight table pre { margin: 0; }
 
 .highlight, .highlight .w {

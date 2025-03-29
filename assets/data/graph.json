@@ -296,7 +296,6 @@
         "/engineering",
         "/acid",
         "/b-trees",
-        "/db-concepts",
         "/db-data-structures",
         "/db-mistakes",
         "/leaderless-replication",
@@ -387,7 +386,6 @@
       "links": [
         "/engineering",
         "/code-review",
-        "/discussion-points",
         "/software-analogies",
         "/the-joel-test"
       ]
@@ -1662,14 +1660,6 @@
       ]
     },
     {
-      "id": "/db-concepts",
-      "group": 3,
-      "name": "Database Concepts",
-      "links": [
-        "/databases"
-      ]
-    },
-    {
       "id": "/db-data-structures",
       "group": 3,
       "name": "Data Structures to Build a DB",
@@ -1848,7 +1838,7 @@
     {
       "id": "/distributed-patterns",
       "group": 3,
-      "name": "Distributed-patterns",
+      "name": "Distributed Patterns",
       "links": [
         "/distributed-systems",
         "/node-communication",
@@ -1927,7 +1917,7 @@
     {
       "id": "/programming-languages",
       "group": 3,
-      "name": "Programming-languages",
+      "name": "Programming Languages",
       "links": [
         "/programming",
         "/c-and-python",
@@ -2064,14 +2054,6 @@
       "id": "/code-review",
       "group": 3,
       "name": "Code Review",
-      "links": [
-        "/software-development"
-      ]
-    },
-    {
-      "id": "/discussion-points",
-      "group": 3,
-      "name": "Discussion Points",
       "links": [
         "/software-development"
       ]
@@ -4595,10 +4577,6 @@
     },
     {
       "source": "/databases",
-      "target": "/db-concepts"
-    },
-    {
-      "source": "/databases",
       "target": "/db-data-structures"
     },
     {
@@ -4780,10 +4758,6 @@
     {
       "source": "/software-development",
       "target": "/code-review"
-    },
-    {
-      "source": "/software-development",
-      "target": "/discussion-points"
     },
     {
       "source": "/software-development",

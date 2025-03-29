@@ -1,15 +1,14 @@
 ---
 ---
 
-Is it well-designed? 
-- Is it easily understandable? documented?
-- no unnecessary complexity?
-- user friendly?
-- secure?
-- performant?
+- Is it easy to understand? 
+- Does it work as intended? Is it tested?
+- No unnecessary complexity? 
+- User friendly?
+- Secure?
+- Performant?
+- Easy to deploy, operate, maintain?
 
-Does it work as intended? 
-- has tests?
 
 Be kind and respectful. Give credit where its due 
 

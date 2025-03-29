@@ -27,34 +27,8 @@ baseurl: ""
 
 permalink: /:title/
 
-
-# The release of Jekyll Now that you're using
-version: v1.2.0
-
-markdown: kramdown
-highlighter: rouge
-
-# Jekyll 3 now only supports Kramdown for Markdown
-kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
-  input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
-    block:
-      line_numbers: true
-      
-# Set the Sass partials directory, as we're using @imports
 sass:
-  style: :compressed # You might prefer to minify using :compressed
-
-# # Use the following plug-ins
-# gems:
-#   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-#   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-
+  style: :compressed
 
 exclude:
   - Gemfile
@@ -74,7 +48,3 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: post
-
-
-plugins:
-  - jekyll-sitemap
