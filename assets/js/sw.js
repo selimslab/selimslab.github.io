@@ -1,3 +1,6 @@
+---
+layout: none
+---
 
 importScripts('/assets/js/workbox.js');
 
@@ -56,15 +59,19 @@ const clearOldCaches = async () => {
   );
 }
 
+const urls = [
+  {% for page in site.pages -%}
+  '{{ page.url }}',
+  {% endfor -%}
+  {% for doc in site.documents -%}
+  '{{ doc.url }}',
+  {% endfor -%}
+  '/'
+];
 
-(async () => {
-  const urls = await fetch('/assets/data/urls.json').then(res => res.json());
-  const strategy = new NetworkFirst();
-  warmStrategyCache({urls, strategy});
-  clearOldCaches();
-})();
-
-
+const strategy = new NetworkFirst();
+warmStrategyCache({urls, strategy});
+clearOldCaches();
 
 
 
