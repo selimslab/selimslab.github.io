@@ -48,20 +48,12 @@
     "path": "/assets/static/art/Vincent_van_Gogh_Head_of_a_skeleton_with_a_burning_cigarette.jpg"
   },
   {
-    "name": "Earthrise",
-    "path": "/assets/static/art/earthrise.jpeg"
-  },
-  {
     "name": "Peasant Family At The Table Israels",
     "path": "/assets/static/art/peasant-family-at-the-table-israels.jpeg"
   },
   {
     "name": "Milkmaid Vermeer",
     "path": "/assets/static/art/milkmaid-vermeer.jpg"
-  },
-  {
-    "name": "Venus And Adonis Canova",
-    "path": "/assets/static/art/venus-and-adonis-canova.jpg"
   },
   {
     "name": "Seascape Near Les Saintes Maries",
@@ -76,10 +68,6 @@
     "path": "/assets/static/art/villa-di-marlia-john-singer.jpg"
   },
   {
-    "name": "Edwin Aldrin",
-    "path": "/assets/static/art/edwin-aldrin.jpg"
-  },
-  {
     "name": "Playing Children Enghave Square",
     "path": "/assets/static/art/playing-children-enghave-square.jpeg"
   },
@@ -90,10 +78,6 @@
   {
     "name": "Baroque Colonnade",
     "path": "/assets/static/art/baroque-colonnade.jpeg"
-  },
-  {
-    "name": "Migrant Mother",
-    "path": "/assets/static/art/migrant-mother.jpg"
   },
   {
     "name": "The Little Street",
@@ -126,10 +110,6 @@
   {
     "name": "Regattas At Argenteuil",
     "path": "/assets/static/art/regattas-at-argenteuil.jpeg"
-  },
-  {
-    "name": "Saturn",
-    "path": "/assets/static/art/saturn.jpeg"
   },
   {
     "name": "Potato Eaters Van Gogh",
@@ -258,10 +238,6 @@
   {
     "name": "La Corniche Near Monaco",
     "path": "/assets/static/art/la-corniche-near-monaco.jpeg"
-  },
-  {
-    "name": "Myth Of Endymion",
-    "path": "/assets/static/art/myth-of-endymion.jpg"
   },
   {
     "name": "Opening Of The Great Exhibition",

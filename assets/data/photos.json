@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Saturn",
+        "path": "/assets/static/art/saturn.jpeg"
+    },
+    {
+        "name": "Venus And Adonis Canova",
+        "path": "/assets/static/art/venus-and-adonis-canova.jpg"
+    },
+    {
+        "name": "Myth Of Endymion",
+        "path": "/assets/static/art/myth-of-endymion.jpg"
+    },
+    {
+        "name": "Edwin Aldrin",
+        "path": "/assets/static/art/edwin-aldrin.jpg"
+    },
+    {
+        "name": "Earthrise",
+        "path": "/assets/static/art/earthrise.jpeg"
+    },
+    {
+        "name": "Migrant Mother",
+        "path": "/assets/static/art/migrant-mother.jpg"
+    }
+]

@@ -1,7 +1,3 @@
----
-layout: none
----
-
 importScripts('/assets/js/workbox.js');
 
 const { registerRoute } = workbox.routing;
@@ -9,9 +5,12 @@ const { CacheFirst, NetworkFirst, StaleWhileRevalidate } = workbox.strategies;
 const { CacheableResponse } = workbox.cacheableResponse;
 const {warmStrategyCache} =  workbox.recipes;
 
+const prefix = 'delta';
+const suffix = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
+
 workbox.core.setCacheNameDetails({
-  prefix: 'notes',
-  suffix: '{{ site.time | date: "%Y-%m" }}'
+  prefix,
+  suffix
 });
 
 registerRoute(
@@ -53,7 +52,7 @@ const clearOldCaches = async () => {
   const cacheNames = await caches.keys();
   await Promise.all(
     cacheNames.map((cacheName) => {
-      if (cacheName.startsWith('notes') && cacheName !== workbox.core.cacheNames.current) {
+      if (cacheName.startsWith(prefix) && cacheName !== workbox.core.cacheNames.current) {
         return caches.delete(cacheName);
       }
     })
@@ -66,7 +65,9 @@ const warmCache = async () => {
   await clearOldCaches();
 }
 
-warmCache();
+(async () => {
+  await warmCache();
+})();
 
 
 
