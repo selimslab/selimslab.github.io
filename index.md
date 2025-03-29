@@ -39,4 +39,7 @@ layout: page
 
 {% include random-art.html %}
 
+{% include random-idea.html %}
+
+
 
