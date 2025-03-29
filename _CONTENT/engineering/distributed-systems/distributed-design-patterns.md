@@ -1,6 +1,5 @@
 ---
 ---
-https://learn.microsoft.com/en-us/azure/architecture/patterns/category/data-management
 
 There are so many patterns but you don't need to memorize them all because they are based on a smaller list of key ideas. When you encounter a problem, you can arrive at the same pattern using the fundamentals.  
 
@@ -45,10 +44,8 @@ There are so many patterns but you don't need to memorize them all because they 
  
 - sync vs async 
 
-Again, the way is not to memorize and apply patterns but to reason about the problem at hand 
 
-
-
+https://learn.microsoft.com/en-us/azure/architecture/patterns/category/data-management
 
 
 

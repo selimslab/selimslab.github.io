@@ -4,14 +4,16 @@ title: Apache Spark
 
 Parallel processing engine 
 
-RDD 
+RDD
 
 dataframe 
 
 parquet 
 
-delta lake table format, extends parquet with a transaction log and metadata  
+## Delta lake table format
 
-enables relational db benefits on batch & stream 
+Extends parquet with a transaction log and metadata  
 
-structured streaming
+Enables relational DB benefits on batch & stream 
+
+Structured streaming

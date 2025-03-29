@@ -20,7 +20,6 @@
       "links": [
         "/root",
         "/photography",
-        "/architecture",
         "/communication",
         "/design",
         "/edebiyat",
@@ -98,7 +97,8 @@
         "/llm",
         "/pub",
         "/resume",
-        "/short-prompt"
+        "/short-prompt",
+        "/top"
       ]
     },
     {
@@ -107,7 +107,6 @@
       "name": "Sciences",
       "links": [
         "/root",
-        "/books-sci",
         "/economics",
         "/history",
         "/math",
@@ -128,21 +127,12 @@
       ]
     },
     {
-      "id": "/architecture",
-      "group": 2,
-      "name": "Architecture",
-      "links": [
-        "/arts",
-        "/urban-planning"
-      ]
-    },
-    {
       "id": "/communication",
       "group": 2,
       "name": "Communication",
       "links": [
         "/arts",
-        "/difficult-comms",
+        "/difficult-conversations",
         "/listening",
         "/public-speaking",
         "/speaking",
@@ -161,9 +151,8 @@
         "/design-principles",
         "/drawing",
         "/ship-it",
-        "/ux",
-        "/natural-ux",
-        "/polished-pixels"
+        "/urban-planning",
+        "/ux"
       ]
     },
     {
@@ -222,7 +211,8 @@
         "/uncut-wood",
         "/we-wear-the-mask",
         "/wei-wu-wei",
-        "/wind-and-rain"
+        "/wind-and-rain",
+        "/top"
       ]
     },
     {
@@ -279,7 +269,7 @@
     {
       "id": "/apis",
       "group": 2,
-      "name": "Apis",
+      "name": "APIs",
       "links": [
         "/engineering",
         "/why-not-graphql"
@@ -314,6 +304,7 @@
         "/normalization",
         "/partitioning",
         "/replication",
+        "/schema-design",
         "/single-leader",
         "/sql-tips",
         "/sql-weaknesses",
@@ -329,15 +320,14 @@
         "/bloom-filters-hash-graph-sync",
         "/consistency-models",
         "/consistent-hashing",
-        "/detect-a-node-failure",
         "/distributed-design-patterns",
         "/generate-a-unique-id",
-        "/google-sre-book",
         "/kafka",
-        "/patterns-of-distributed-systems",
-        "/percentile-vs-percentage",
         "/spark",
+        "/sre",
         "/time-and-order",
+        "/distributed-patterns",
+        "/observability",
         "/system-design"
       ]
     },
@@ -359,15 +349,13 @@
       "name": "Programming",
       "links": [
         "/engineering",
-        "/c-and-python",
         "/concurrency",
         "/encodings",
-        "/for-new-programmers",
-        "/go-data-races",
-        "/solid",
+        "/links-for-new-programmers",
+        "/oop",
         "/the-tao-of-programming",
         "/unicode",
-        "/oop",
+        "/programming-languages",
         "/projects"
       ]
     },
@@ -383,6 +371,7 @@
         "/cookies",
         "/cors",
         "/csrf",
+        "/oauth",
         "/openssl-encrypt",
         "/public-key-cryptography",
         "/security-heuristics",
@@ -398,10 +387,8 @@
       "links": [
         "/engineering",
         "/code-review",
-        "/core-concepts",
-        "/on-software",
+        "/discussion-points",
         "/software-analogies",
-        "/swe-misery",
         "/the-joel-test"
       ]
     },
@@ -423,7 +410,6 @@
         "/sys-topics",
         "/accessibility",
         "/distributed-systems",
-        "/oop",
         "/systems-thinking"
       ]
     },
@@ -437,7 +423,6 @@
         "/how-to-grow-old-russell",
         "/slow-down-time",
         "/farming-trap",
-        "/the-triumph-of-stupidity",
         "/who-goes-nazi",
         "/being-poor",
         "/lists"
@@ -459,7 +444,8 @@
         "/know-where-to-stop",
         "/less",
         "/one-day-at-a-time",
-        "/possibility"
+        "/possibility",
+        "/top"
       ]
     },
     {
@@ -502,8 +488,7 @@
         "/how-to-deal-with-pain",
         "/tao-te-ching",
         "/critical-thinking",
-        "/hard-times",
-        "/philosophical-implications-of-quantum-mechanics"
+        "/hard-times"
       ]
     },
     {
@@ -520,6 +505,7 @@
         "/systems-thinking",
         "/take-a-walk",
         "/work",
+        "/top",
         "/sciences"
       ]
     },
@@ -555,7 +541,8 @@
         "/calendar",
         "/clocks",
         "/history",
-        "/timelines"
+        "/timelines",
+        "/top"
       ]
     },
     {
@@ -728,11 +715,16 @@
       ]
     },
     {
-      "id": "/books-sci",
+      "id": "/top",
       "group": 2,
-      "name": "Books",
+      "name": "Top",
       "links": [
-        "/sciences"
+        "/misc",
+        "/choice",
+        "/hard-times",
+        "/poetry",
+        "/reasoning",
+        "/time"
       ]
     },
     {
@@ -781,7 +773,8 @@
       "group": 2,
       "name": "Neuroscience",
       "links": [
-        "/sciences"
+        "/sciences",
+        "/psychopathy"
       ]
     },
     {
@@ -794,7 +787,6 @@
         "/feynman-lectures",
         "/inertia",
         "/maxwell-equations",
-        "/philosophical-implications-of-quantum-mechanics",
         "/space"
       ]
     },
@@ -804,16 +796,14 @@
       "name": "Politics",
       "links": [
         "/sciences",
-        "/chomsky",
         "/climate-change",
+        "/down-and-around",
         "/negotiations",
+        "/noam-chomsky",
         "/obedience",
-        "/orwell",
         "/pols-ideas",
         "/social-change",
         "/the-art-of-war",
-        "/the-triumph-of-stupidity",
-        "/ursula-guin-address",
         "/who-goes-nazi",
         "/tao-te-ching"
       ]
@@ -826,18 +816,17 @@
         "/sciences",
         "/cognitive-biases",
         "/emotions",
-        "/happiness",
         "/manipulation",
         "/parenting",
         "/procrastination",
-        "/psychopathy",
         "/spot-a-liar",
         "/stress",
         "/teens",
         "/free-will",
         "/hijacked-minds",
         "/inertia",
-        "/learning"
+        "/learning",
+        "/psychopathy"
       ]
     },
     {
@@ -853,17 +842,9 @@
       ]
     },
     {
-      "id": "/urban-planning",
+      "id": "/difficult-conversations",
       "group": 3,
-      "name": "Urban Planning",
-      "links": [
-        "/architecture"
-      ]
-    },
-    {
-      "id": "/difficult-comms",
-      "group": 3,
-      "name": "Difficult Comms",
+      "name": "Difficult Conversations",
       "links": [
         "/communication"
       ]
@@ -945,8 +926,15 @@
       "group": 3,
       "name": "Ship It",
       "links": [
-        "/design",
-        "/on-software"
+        "/design"
+      ]
+    },
+    {
+      "id": "/urban-planning",
+      "group": 3,
+      "name": "Urban Planning",
+      "links": [
+        "/design"
       ]
     },
     {
@@ -1694,7 +1682,7 @@
     {
       "id": "/db-mistakes",
       "group": 3,
-      "name": "Db Mistakes",
+      "name": "DB Mistakes",
       "links": [
         "/databases"
       ]
@@ -1746,6 +1734,14 @@
       ]
     },
     {
+      "id": "/schema-design",
+      "group": 3,
+      "name": "Schema Design",
+      "links": [
+        "/databases"
+      ]
+    },
+    {
       "id": "/single-leader",
       "group": 3,
       "name": "Single Leader",
@@ -1772,7 +1768,7 @@
     {
       "id": "/sqlite",
       "group": 3,
-      "name": "Sqlite",
+      "name": "SQLite",
       "links": [
         "/databases"
       ]
@@ -1780,7 +1776,7 @@
     {
       "id": "/bloom-filters-hash-graph-sync",
       "group": 3,
-      "name": "Bloom Filters for Efficient Hash Graph Synchronization",
+      "name": "Bloom Filters for Efficient Synchronization",
       "links": [
         "/distributed-systems"
       ]
@@ -1802,14 +1798,6 @@
       ]
     },
     {
-      "id": "/detect-a-node-failure",
-      "group": 3,
-      "name": "Detect A Node Failure",
-      "links": [
-        "/distributed-systems"
-      ]
-    },
-    {
       "id": "/distributed-design-patterns",
       "group": 3,
       "name": "Distributed Design Patterns",
@@ -1826,33 +1814,9 @@
       ]
     },
     {
-      "id": "/google-sre-book",
-      "group": 3,
-      "name": "Google SRE book",
-      "links": [
-        "/distributed-systems"
-      ]
-    },
-    {
       "id": "/kafka",
       "group": 3,
       "name": "Apache Kafka",
-      "links": [
-        "/distributed-systems"
-      ]
-    },
-    {
-      "id": "/patterns-of-distributed-systems",
-      "group": 3,
-      "name": "Patterns of Distributed Systems",
-      "links": [
-        "/distributed-systems"
-      ]
-    },
-    {
-      "id": "/percentile-vs-percentage",
-      "group": 3,
-      "name": "Percentile Vs Percentage",
       "links": [
         "/distributed-systems"
       ]
@@ -1866,6 +1830,14 @@
       ]
     },
     {
+      "id": "/sre",
+      "group": 3,
+      "name": "Site Reliability Engineering",
+      "links": [
+        "/distributed-systems"
+      ]
+    },
+    {
       "id": "/time-and-order",
       "group": 3,
       "name": "Time And Order",
@@ -1874,19 +1846,33 @@
       ]
     },
     {
+      "id": "/distributed-patterns",
+      "group": 3,
+      "name": "Distributed-patterns",
+      "links": [
+        "/distributed-systems",
+        "/node-communication",
+        "/node-consistency",
+        "/node-coordination",
+        "/node-health",
+        "/node-recovery"
+      ]
+    },
+    {
+      "id": "/observability",
+      "group": 3,
+      "name": "Observability",
+      "links": [
+        "/distributed-systems",
+        "/percentile-vs-percentage"
+      ]
+    },
+    {
       "id": "/reinforcement-learning",
       "group": 3,
       "name": "Reinforcement Learning",
       "links": [
         "/machine-learning"
-      ]
-    },
-    {
-      "id": "/c-and-python",
-      "group": 3,
-      "name": "Call C code from Python",
-      "links": [
-        "/programming"
       ]
     },
     {
@@ -1907,25 +1893,17 @@
       ]
     },
     {
-      "id": "/for-new-programmers",
+      "id": "/links-for-new-programmers",
       "group": 3,
-      "name": "For New Programmers",
+      "name": "Links For New Programmers",
       "links": [
         "/programming"
       ]
     },
     {
-      "id": "/go-data-races",
+      "id": "/oop",
       "group": 3,
-      "name": "Go Data Race Patterns and Prevention",
-      "links": [
-        "/programming"
-      ]
-    },
-    {
-      "id": "/solid",
-      "group": 3,
-      "name": "SOLID",
+      "name": "OOP",
       "links": [
         "/programming"
       ]
@@ -1947,24 +1925,13 @@
       ]
     },
     {
-      "id": "/oop",
+      "id": "/programming-languages",
       "group": 3,
-      "name": "OOP",
+      "name": "Programming-languages",
       "links": [
         "/programming",
-        "/block",
-        "/design-a-book-app",
-        "/design-a-crm",
-        "/design-a-gov-cloud",
-        "/design-a-personal-note-publishing-system",
-        "/design-a-trader",
-        "/design-a-web-crawler",
-        "/design-auth",
-        "/design-etl-pipeline",
-        "/design-oauth",
-        "/design-units",
-        "/design-video-streaming-app",
-        "/system-design"
+        "/c-and-python",
+        "/go-data-races"
       ]
     },
     {
@@ -2038,6 +2005,14 @@
       ]
     },
     {
+      "id": "/oauth",
+      "group": 3,
+      "name": "Oauth",
+      "links": [
+        "/security"
+      ]
+    },
+    {
       "id": "/openssl-encrypt",
       "group": 3,
       "name": "How to encrypt-decrypt a file with a password",
@@ -2094,34 +2069,17 @@
       ]
     },
     {
-      "id": "/core-concepts",
+      "id": "/discussion-points",
       "group": 3,
-      "name": "Core Concepts",
+      "name": "Discussion Points",
       "links": [
         "/software-development"
-      ]
-    },
-    {
-      "id": "/on-software",
-      "group": 3,
-      "name": "On Software",
-      "links": [
-        "/software-development",
-        "/ship-it"
       ]
     },
     {
       "id": "/software-analogies",
       "group": 3,
       "name": "Software Analogies",
-      "links": [
-        "/software-development"
-      ]
-    },
-    {
-      "id": "/swe-misery",
-      "group": 3,
-      "name": "How to be miserable",
       "links": [
         "/software-development"
       ]
@@ -2640,7 +2598,8 @@
       "links": [
         "/time",
         "/one-day-at-a-time",
-        "/philosophy"
+        "/philosophy",
+        "/top"
       ]
     },
     {
@@ -2912,12 +2871,20 @@
       ]
     },
     {
+      "id": "/psychopathy",
+      "group": 3,
+      "name": "Psychopathy",
+      "links": [
+        "/neuroscience",
+        "/psychology"
+      ]
+    },
+    {
       "id": "/classical-physics",
       "group": 3,
       "name": "Classical Physics",
       "links": [
         "/physics",
-        "/feynman-lectures",
         "/maxwell-equations"
       ]
     },
@@ -2926,8 +2893,7 @@
       "group": 3,
       "name": "Feynman Lectures",
       "links": [
-        "/physics",
-        "/classical-physics"
+        "/physics"
       ]
     },
     {
@@ -2949,28 +2915,11 @@
       ]
     },
     {
-      "id": "/philosophical-implications-of-quantum-mechanics",
-      "group": 3,
-      "name": "Philosophical Implications Of Quantum Mechanics",
-      "links": [
-        "/physics",
-        "/philosophy"
-      ]
-    },
-    {
       "id": "/space",
       "group": 3,
       "name": "Space",
       "links": [
         "/physics"
-      ]
-    },
-    {
-      "id": "/chomsky",
-      "group": 3,
-      "name": "Chomsky",
-      "links": [
-        "/politics"
       ]
     },
     {
@@ -2983,6 +2932,14 @@
       ]
     },
     {
+      "id": "/down-and-around",
+      "group": 3,
+      "name": "A Left-Handed Commencement Address",
+      "links": [
+        "/politics"
+      ]
+    },
+    {
       "id": "/negotiations",
       "group": 3,
       "name": "Negotiations",
@@ -2991,17 +2948,17 @@
       ]
     },
     {
-      "id": "/obedience",
+      "id": "/noam-chomsky",
       "group": 3,
-      "name": "Obedience",
+      "name": "Noam Chomsky",
       "links": [
         "/politics"
       ]
     },
     {
-      "id": "/orwell",
+      "id": "/obedience",
       "group": 3,
-      "name": "Orwell",
+      "name": "Obedience",
       "links": [
         "/politics"
       ]
@@ -3026,23 +2983,6 @@
       "id": "/the-art-of-war",
       "group": 3,
       "name": "The Art of War",
-      "links": [
-        "/politics"
-      ]
-    },
-    {
-      "id": "/the-triumph-of-stupidity",
-      "group": 3,
-      "name": "The Triumph of Stupidity, Bertrand Russell",
-      "links": [
-        "/politics",
-        "/essais"
-      ]
-    },
-    {
-      "id": "/ursula-guin-address",
-      "group": 3,
-      "name": "A Left-Handed Commencement Address",
       "links": [
         "/politics"
       ]
@@ -3073,14 +3013,6 @@
       ]
     },
     {
-      "id": "/happiness",
-      "group": 3,
-      "name": "Happiness",
-      "links": [
-        "/psychology"
-      ]
-    },
-    {
       "id": "/manipulation",
       "group": 3,
       "name": "Manipulation",
@@ -3100,14 +3032,6 @@
       "id": "/procrastination",
       "group": 3,
       "name": "Procrastination",
-      "links": [
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/psychopathy",
-      "group": 3,
-      "name": "Psychopathy",
       "links": [
         "/psychology"
       ]
@@ -3209,8 +3133,7 @@
       "group": 4,
       "name": "Natural UX",
       "links": [
-        "/ux",
-        "/design"
+        "/ux"
       ]
     },
     {
@@ -3218,8 +3141,7 @@
       "group": 4,
       "name": "Polished Pixels",
       "links": [
-        "/ux",
-        "/design"
+        "/ux"
       ]
     },
     {
@@ -3822,99 +3744,67 @@
       ]
     },
     {
-      "id": "/block",
+      "id": "/node-communication",
       "group": 4,
-      "name": "Design a blockchain",
+      "name": "Node Communication",
       "links": [
-        "/oop"
+        "/distributed-patterns"
       ]
     },
     {
-      "id": "/design-a-book-app",
+      "id": "/node-consistency",
       "group": 4,
-      "name": "Design A Book App",
+      "name": "Node Consistency",
       "links": [
-        "/oop"
+        "/distributed-patterns"
       ]
     },
     {
-      "id": "/design-a-crm",
+      "id": "/node-coordination",
       "group": 4,
-      "name": "CRM design",
+      "name": "Node Coordination",
       "links": [
-        "/oop"
+        "/distributed-patterns"
       ]
     },
     {
-      "id": "/design-a-gov-cloud",
+      "id": "/node-health",
       "group": 4,
-      "name": "Design A Gov Cloud",
+      "name": "Node Health",
       "links": [
-        "/oop"
+        "/distributed-patterns"
       ]
     },
     {
-      "id": "/design-a-personal-note-publishing-system",
+      "id": "/node-recovery",
       "group": 4,
-      "name": "Design A Personal Note Publishing System",
+      "name": "Node Recovery",
       "links": [
-        "/oop"
+        "/distributed-patterns"
       ]
     },
     {
-      "id": "/design-a-trader",
+      "id": "/percentile-vs-percentage",
       "group": 4,
-      "name": "Design A Trader",
+      "name": "Percentile Vs Percentage",
       "links": [
-        "/oop"
+        "/observability"
       ]
     },
     {
-      "id": "/design-a-web-crawler",
+      "id": "/c-and-python",
       "group": 4,
-      "name": "Design A Web Crawler",
+      "name": "Call C code from Python",
       "links": [
-        "/oop"
+        "/programming-languages"
       ]
     },
     {
-      "id": "/design-auth",
+      "id": "/go-data-races",
       "group": 4,
-      "name": "Design Auth",
+      "name": "Go Data Race Patterns and Prevention",
       "links": [
-        "/oop"
-      ]
-    },
-    {
-      "id": "/design-etl-pipeline",
-      "group": 4,
-      "name": "Design Etl Pipeline",
-      "links": [
-        "/oop"
-      ]
-    },
-    {
-      "id": "/design-oauth",
-      "group": 4,
-      "name": "Design an OAuth System",
-      "links": [
-        "/oop"
-      ]
-    },
-    {
-      "id": "/design-units",
-      "group": 4,
-      "name": "Design Units",
-      "links": [
-        "/oop"
-      ]
-    },
-    {
-      "id": "/design-video-streaming-app",
-      "group": 4,
-      "name": "Design Video Streaming App",
-      "links": [
-        "/oop"
+        "/programming-languages"
       ]
     },
     {
@@ -4145,10 +4035,6 @@
     },
     {
       "source": "/arts",
-      "target": "/architecture"
-    },
-    {
-      "source": "/arts",
       "target": "/communication"
     },
     {
@@ -4316,8 +4202,8 @@
       "target": "/short-prompt"
     },
     {
-      "source": "/sciences",
-      "target": "/books-sci"
+      "source": "/misc",
+      "target": "/top"
     },
     {
       "source": "/sciences",
@@ -4352,12 +4238,8 @@
       "target": "/sociology"
     },
     {
-      "source": "/architecture",
-      "target": "/urban-planning"
-    },
-    {
       "source": "/communication",
-      "target": "/difficult-comms"
+      "target": "/difficult-conversations"
     },
     {
       "source": "/communication",
@@ -4398,6 +4280,10 @@
     {
       "source": "/design",
       "target": "/ship-it"
+    },
+    {
+      "source": "/design",
+      "target": "/urban-planning"
     },
     {
       "source": "/design",
@@ -4741,6 +4627,10 @@
     },
     {
       "source": "/databases",
+      "target": "/schema-design"
+    },
+    {
+      "source": "/databases",
       "target": "/single-leader"
     },
     {
@@ -4769,10 +4659,6 @@
     },
     {
       "source": "/distributed-systems",
-      "target": "/detect-a-node-failure"
-    },
-    {
-      "source": "/distributed-systems",
       "target": "/distributed-design-patterns"
     },
     {
@@ -4781,19 +4667,7 @@
     },
     {
       "source": "/distributed-systems",
-      "target": "/google-sre-book"
-    },
-    {
-      "source": "/distributed-systems",
       "target": "/kafka"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/patterns-of-distributed-systems"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/percentile-vs-percentage"
     },
     {
       "source": "/distributed-systems",
@@ -4801,15 +4675,23 @@
     },
     {
       "source": "/distributed-systems",
+      "target": "/sre"
+    },
+    {
+      "source": "/distributed-systems",
       "target": "/time-and-order"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/distributed-patterns"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/observability"
     },
     {
       "source": "/machine-learning",
       "target": "/reinforcement-learning"
-    },
-    {
-      "source": "/programming",
-      "target": "/c-and-python"
     },
     {
       "source": "/programming",
@@ -4821,15 +4703,11 @@
     },
     {
       "source": "/programming",
-      "target": "/for-new-programmers"
+      "target": "/links-for-new-programmers"
     },
     {
       "source": "/programming",
-      "target": "/go-data-races"
-    },
-    {
-      "source": "/programming",
-      "target": "/solid"
+      "target": "/oop"
     },
     {
       "source": "/programming",
@@ -4841,7 +4719,7 @@
     },
     {
       "source": "/programming",
-      "target": "/oop"
+      "target": "/programming-languages"
     },
     {
       "source": "/programming",
@@ -4873,6 +4751,10 @@
     },
     {
       "source": "/security",
+      "target": "/oauth"
+    },
+    {
+      "source": "/security",
       "target": "/openssl-encrypt"
     },
     {
@@ -4901,19 +4783,11 @@
     },
     {
       "source": "/software-development",
-      "target": "/core-concepts"
-    },
-    {
-      "source": "/software-development",
-      "target": "/on-software"
+      "target": "/discussion-points"
     },
     {
       "source": "/software-development",
       "target": "/software-analogies"
-    },
-    {
-      "source": "/software-development",
-      "target": "/swe-misery"
     },
     {
       "source": "/software-development",
@@ -5280,6 +5154,10 @@
       "target": "/probability-and-statistics"
     },
     {
+      "source": "/neuroscience",
+      "target": "/psychopathy"
+    },
+    {
       "source": "/physics",
       "target": "/classical-physics"
     },
@@ -5297,15 +5175,7 @@
     },
     {
       "source": "/physics",
-      "target": "/philosophical-implications-of-quantum-mechanics"
-    },
-    {
-      "source": "/physics",
       "target": "/space"
-    },
-    {
-      "source": "/politics",
-      "target": "/chomsky"
     },
     {
       "source": "/politics",
@@ -5313,15 +5183,19 @@
     },
     {
       "source": "/politics",
+      "target": "/down-and-around"
+    },
+    {
+      "source": "/politics",
       "target": "/negotiations"
     },
     {
       "source": "/politics",
-      "target": "/obedience"
+      "target": "/noam-chomsky"
     },
     {
       "source": "/politics",
-      "target": "/orwell"
+      "target": "/obedience"
     },
     {
       "source": "/politics",
@@ -5337,14 +5211,6 @@
     },
     {
       "source": "/politics",
-      "target": "/the-triumph-of-stupidity"
-    },
-    {
-      "source": "/politics",
-      "target": "/ursula-guin-address"
-    },
-    {
-      "source": "/politics",
       "target": "/who-goes-nazi"
     },
     {
@@ -5357,10 +5223,6 @@
     },
     {
       "source": "/psychology",
-      "target": "/happiness"
-    },
-    {
-      "source": "/psychology",
       "target": "/manipulation"
     },
     {
@@ -5370,10 +5232,6 @@
     {
       "source": "/psychology",
       "target": "/procrastination"
-    },
-    {
-      "source": "/psychology",
-      "target": "/psychopathy"
     },
     {
       "source": "/psychology",
@@ -5688,52 +5546,36 @@
       "target": "/code"
     },
     {
-      "source": "/oop",
-      "target": "/block"
+      "source": "/distributed-patterns",
+      "target": "/node-communication"
     },
     {
-      "source": "/oop",
-      "target": "/design-a-book-app"
+      "source": "/distributed-patterns",
+      "target": "/node-consistency"
     },
     {
-      "source": "/oop",
-      "target": "/design-a-crm"
+      "source": "/distributed-patterns",
+      "target": "/node-coordination"
     },
     {
-      "source": "/oop",
-      "target": "/design-a-gov-cloud"
+      "source": "/distributed-patterns",
+      "target": "/node-health"
     },
     {
-      "source": "/oop",
-      "target": "/design-a-personal-note-publishing-system"
+      "source": "/distributed-patterns",
+      "target": "/node-recovery"
     },
     {
-      "source": "/oop",
-      "target": "/design-a-trader"
+      "source": "/observability",
+      "target": "/percentile-vs-percentage"
     },
     {
-      "source": "/oop",
-      "target": "/design-a-web-crawler"
+      "source": "/programming-languages",
+      "target": "/c-and-python"
     },
     {
-      "source": "/oop",
-      "target": "/design-auth"
-    },
-    {
-      "source": "/oop",
-      "target": "/design-etl-pipeline"
-    },
-    {
-      "source": "/oop",
-      "target": "/design-oauth"
-    },
-    {
-      "source": "/oop",
-      "target": "/design-units"
-    },
-    {
-      "source": "/oop",
-      "target": "/design-video-streaming-app"
+      "source": "/programming-languages",
+      "target": "/go-data-races"
     },
     {
       "source": "/projects",
@@ -5826,18 +5668,6 @@
     {
       "source": "/code",
       "target": "/unique-bst"
-    },
-    {
-      "source": "/design",
-      "target": "/natural-ux"
-    },
-    {
-      "source": "/design",
-      "target": "/polished-pixels"
-    },
-    {
-      "source": "/ship-it",
-      "target": "/on-software"
     },
     {
       "source": "/accessibility",
@@ -6125,10 +5955,6 @@
     },
     {
       "source": "/system-design",
-      "target": "/oop"
-    },
-    {
-      "source": "/system-design",
       "target": "/systems-thinking"
     },
     {
@@ -6177,10 +6003,6 @@
     },
     {
       "source": "/essais",
-      "target": "/the-triumph-of-stupidity"
-    },
-    {
-      "source": "/essais",
       "target": "/who-goes-nazi"
     },
     {
@@ -6214,10 +6036,6 @@
     {
       "source": "/philosophy",
       "target": "/hard-times"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/philosophical-implications-of-quantum-mechanics"
     },
     {
       "source": "/questions",
@@ -6296,16 +6114,32 @@
       "target": "/timelines"
     },
     {
+      "source": "/top",
+      "target": "/choice"
+    },
+    {
+      "source": "/top",
+      "target": "/hard-times"
+    },
+    {
+      "source": "/top",
+      "target": "/poetry"
+    },
+    {
+      "source": "/top",
+      "target": "/reasoning"
+    },
+    {
+      "source": "/top",
+      "target": "/time"
+    },
+    {
       "source": "/bayes",
       "target": "/probability-and-statistics"
     },
     {
       "source": "/math",
       "target": "/local-maximum"
-    },
-    {
-      "source": "/classical-physics",
-      "target": "/feynman-lectures"
     },
     {
       "source": "/classical-physics",
@@ -6330,6 +6164,10 @@
     {
       "source": "/psychology",
       "target": "/learning"
+    },
+    {
+      "source": "/psychology",
+      "target": "/psychopathy"
     },
     {
       "source": "/sciences",

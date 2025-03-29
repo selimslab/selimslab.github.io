@@ -74,3 +74,16 @@ CREATE TABLE sales_2024
     FOR VALUES FROM ('2024-01-01') TO ('2025-01-01');
 ```
 
+## Patterns 
+
+- **Fixed Partitions**
+  - Maintain stable data placement when cluster size changes
+  - Keep fixed partition count regardless of cluster size
+    - Redistribute partitions among nodes without changing boundaries
+  - Kafka maintains fixed partition count per topic
+
+- **Key-Range Partitions**
+  - Support efficient range queries across partitioned data
+  - Partition by contiguous key ranges
+    - Store similar keys together to enable efficient scans
+  - HBase organizes by row key ranges

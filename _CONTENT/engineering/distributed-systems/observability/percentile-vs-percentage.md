@@ -1,7 +1,7 @@
 ---
 ---
 
-Percentiles are great for understanding real-time performance but can't be mathematically aggregated
+Percentiles can show real-time performance but can't be mathematically aggregated
 
 Yet business reports need aggregate latency metrics across services 
 

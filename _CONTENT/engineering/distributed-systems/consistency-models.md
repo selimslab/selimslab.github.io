@@ -39,3 +39,6 @@ title: Consistency Models in Distributed Systems
 - **Systems:** CouchDB, Figma, Google Docs
 
 The right consistency model depends on your application's requirements around correctness, availability, and performance. Stronger consistency typically means higher latency and reduced availability during network partitions. 
+
+
+

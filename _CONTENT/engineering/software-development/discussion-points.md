@@ -1,37 +1,6 @@
 ---
 ---
 
-
-## Software Lifecycle 
-
-Design/Spec
-
-Implementation 
-
-Tests
-
-Code review and CI  
-
-Security review 
-
-Accessibility review 
-
-PM review 
-
-Public and private docs
-
-Monitoring, Logging, Telemetry, automation -> scale, recover, restart 
-
-Deployment, stations 
-
-Troubleshooting, Postmortems 
-
-Versioning, Backward compatibility 
-
-Deprecation
-
-## Technical 
-
 Computer architecture/ cpu, gpu, ram, L1, L2 caches, assembly, fetch-decode-execute, stack, registers 
 
 Assembly, C, bootloader, kernel, shell, 
@@ -62,7 +31,7 @@ Networking, ethernet, TCP/IP, packet switching, UDP, HTTP
 
 HTTP vs HTTPS, public key cryptography
 
-websocket, webhooks 
+websocket 
 
 API design, HTTP codes, paging, versioning, security 
 

@@ -1,38 +1,15 @@
 ---
 ---
 
-easily understandable?
+Is it well-designed? 
+- Is it easily understandable? documented?
+- no unnecessary complexity?
+- user friendly?
+- secure?
+- performant?
 
-sensible?
+Does it work as intended? 
+- has tests?
 
-well-designed?
+Be kind and respectful. Give credit where its due 
 
-user friendly?
-
-functional?
-
-secure?
-
-performant?
-
-has tests?
-
-easy to maintain?
-
-documented?
-
-no unnecessary complexity?
-
-are commits clear, small, with good summaries and tags?
-
-conforms to style guides?
-
----
-
-Kind and respectful
-
-Give credit where its due
-
-Compliment people for the good parts
-
----

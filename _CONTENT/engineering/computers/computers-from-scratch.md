@@ -2,119 +2,74 @@
 ---
 
 
-numbers 
+writing numbers 
 
-writing 
-
-electricity 
+## electricity 
 
 electron movement = current 
 
 the cause of electron movement can be magnetism + moving parts or chemical 
 
-no current/current 
+no current/current - open/close - 0/1 
 
-open/close
+## logic 
 
-0/1 
+base 2, boolean logic, AND OR NOT IF, logic gates 
 
-base 2 
+mechanical switch -> vacuum tube -> transistor npn pnp 
 
-boolean logic, AND OR NOT IF 
+memory cell -> bit -> byte
 
-mechanical switch 
-
-vacuum tube 
-
-transistor npn pnp 
-
-logic gates 
-
-memory cells
-
-bit 
-
-byte
-
-## Data types 
+## data types
  
-Everything is bytes in memory. We define how should the computer interpret bytes. 
-For example, take the byte 0101001. If looked as text, it's the letter 'A'. The computer could interpret it as a color pixel if the same byte were in a movie file, or as part of a song. 
+int long short double 
 
-int 
+bool
 
-unsigned int 
+float decimal 
 
-long 
+char string 
 
-short 
+unicode utf8
 
-double 
+## program 
 
-float 
+A program is a set of instructions. It has code and data  
 
-decimal 
+An instruction has an opcode and operand 
 
-bool 
+    LOAD 0010
 
-char 
+    ADD 0001 0100 
 
-string 
+    PUSH 
 
-unicode 
+    POP
 
-utf8
+    JUMP 
 
-## Computer organization 
+CPU runs a fetch decode execute loop for instructions
 
-fetch-decode-execute 
+memory, disk, CPU (ALU + control unit + memory unit)
 
-CPU =  ALU + control unit + memory unit 
+Programming languages implement features like conditionals, variables, loops, etc. by using basic instructions
 
-memory 
+    conditionals -> jump & jump if not true 
 
-disk 
+    variables -> binding, SET&GET, symbol table in VM    
 
+    loops -> if & jump 
 
-## Instructions
+Expressions 
 
-opcode operand 
+Process is the OS abstraction for a running program
 
-LOAD 0010
+Thread is a process with a shared address space 
 
-ADD 0001 0100 
+Stack pointer SP
 
-PUSH 
+Instruction pointer(program counter) PC or IP 
 
-POP
-
-JUMP 
-
-conditionals -> jump & jump if not true 
-
-variables -> binding, SET&GET, symbol table in VM    
-
-loops -> if & jump 
-
-expressions 
-
-## Program 
-
-a set of instructions 
-
-code 
-
-data 
-
-## Process
-
-the OS abstraction for a running program, PID 
-
-thread is a process with a shared address space 
-
-stack pointer SP
-
-instruction pointer(program counter) PC or IP 
 
 ## address space 
 
@@ -153,6 +108,7 @@ create AST, a tree of nodes
 take a walk and eval 
 
 ## compiler 
+
 tokenize 
 
 parse tokens to nodes
