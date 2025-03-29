@@ -1,250 +1,310 @@
 [
   {
-    "name": "Americae Sive Novi Orbis 1587",
-    "path": "/assets/static/art/americae-sive-novi-orbis-1587.jpeg"
-  },
-  {
-    "name": "Dance At Le Moulin Renoir",
-    "path": "/assets/static/art/dance-at-le-moulin-renoir.jpg"
-  },
-  {
-    "name": "The Cliff Walk At Pourville",
-    "path": "/assets/static/art/the-cliff-walk-at-pourville.jpg"
-  },
-  {
-    "name": "Report Me All Well",
-    "path": "/assets/static/art/report-me-all-well.jpeg"
-  },
-  {
-    "name": "The Surgeon 1670",
-    "path": "/assets/static/art/the-surgeon-1670.jpg"
-  },
-  {
-    "name": "View From The Artists Window Rorbye",
-    "path": "/assets/static/art/view-from-the-artists-window-rorbye.jpeg"
-  },
-  {
-    "name": "Olive Trees",
-    "path": "/assets/static/art/olive-trees.jpg"
-  },
-  {
-    "name": "La Grenouillere",
-    "path": "/assets/static/art/la-grenouillere.jpeg"
-  },
-  {
-    "name": "La Corniche Near Monaco",
-    "path": "/assets/static/art/la-corniche-near-monaco.jpeg"
-  },
-  {
-    "name": "Albert Edelfelt",
-    "path": "/assets/static/art/albert-edelfelt.jpg"
-  },
-  {
-    "name": "Portrait Of Fyodor Dostoyevsky 1872",
-    "path": "/assets/static/art/portrait-of-fyodor-dostoyevsky-1872.jpeg"
-  },
-  {
-    "name": "The Course Of Empire Arcadian State",
-    "path": "/assets/static/art/the-course-of-empire-arcadian-state.jpg"
-  },
-  {
-    "name": "The Tortoise Trainer",
-    "path": "/assets/static/art/the-tortoise-trainer.jpg"
-  },
-  {
-    "name": "Girl With A Mandolin Picasso",
-    "path": "/assets/static/art/girl-with-a-mandolin-picasso.jpg"
-  },
-  {
-    "name": "Green Field",
-    "path": "/assets/static/art/green-field.jpeg"
-  },
-  {
-    "name": "Idle Hours 1894",
-    "path": "/assets/static/art/idle-hours-1894.jpeg"
-  },
-  {
-    "name": "Milkmaid Vermeer",
-    "path": "/assets/static/art/milkmaid-vermeer.jpg"
-  },
-  {
-    "name": "Almond Blossom",
-    "path": "/assets/static/art/almond-blossom.jpeg"
-  },
-  {
-    "name": "The Great Wave Off Kanagawa",
-    "path": "/assets/static/art/the-great-wave-off-kanagawa.jpeg"
-  },
-  {
-    "name": "Rainy Midight Hassam",
-    "path": "/assets/static/art/rainy-midight-hassam.jpeg"
-  },
-  {
-    "name": "Opening Of The Great Exhibition",
-    "path": "/assets/static/art/opening-of-the-great-exhibition.jpg"
-  },
-  {
-    "name": "Vincent Van Gogh Head Of A Skeleton With A Burning Cigarette",
-    "path": "/assets/static/art/Vincent_van_Gogh_Head_of_a_skeleton_with_a_burning_cigarette.jpg"
-  },
-  {
-    "name": "The Boulevard Montmartre On A Winter Morning",
-    "path": "/assets/static/art/the-boulevard-montmartre-on-a-winter-morning.jpeg"
-  },
-  {
-    "name": "Regattas At Argenteuil",
-    "path": "/assets/static/art/regattas-at-argenteuil.jpeg"
-  },
-  {
-    "name": "Starry Night",
-    "path": "/assets/static/art/starry-night.jpeg"
-  },
-  {
-    "name": "Dans Mon Pays",
-    "path": "/assets/static/art/dans-mon-pays.jpg"
-  },
-  {
-    "name": "Mont Sainte Victoire",
-    "path": "/assets/static/art/mont-sainte-victoire.jpeg"
-  },
-  {
-    "name": "Villa Di Marlia John Singer",
-    "path": "/assets/static/art/villa-di-marlia-john-singer.jpg"
-  },
-  {
-    "name": "A Field Of Blue Bonnets",
-    "path": "/assets/static/art/a-field-of-blue-bonnets.jpeg"
-  },
-  {
-    "name": "Fishing On A Dutch Canal",
-    "path": "/assets/static/art/fishing-on-a-dutch-canal.jpeg"
-  },
-  {
-    "name": "La Rue Saint Honore",
-    "path": "/assets/static/art/la-rue-saint-honore.jpeg"
-  },
-  {
-    "name": "Baroque Colonnade",
-    "path": "/assets/static/art/baroque-colonnade.jpeg"
-  },
-  {
-    "name": "Potato Eaters Van Gogh",
-    "path": "/assets/static/art/potato-eaters-van-gogh.jpg"
-  },
-  {
-    "name": "The Scream",
-    "path": "/assets/static/art/the-scream.jpeg"
-  },
-  {
     "name": "Chateau Noir",
     "path": "/assets/static/art/chateau-noir.jpeg"
-  },
-  {
-    "name": "The Vinegar Tasters",
-    "path": "/assets/static/art/the-vinegar-tasters.jpeg"
-  },
-  {
-    "name": "Coming From The Mill",
-    "path": "/assets/static/art/coming-from-the-mill.jpeg"
-  },
-  {
-    "name": "Seascape Near Les Saintes Maries",
-    "path": "/assets/static/art/seascape-near-les-saintes-maries.jpeg"
-  },
-  {
-    "name": "Composition With Grid 1 Mondrian",
-    "path": "/assets/static/art/composition-with-grid-1-mondrian.jpg"
-  },
-  {
-    "name": "Bathers At La Grenouillere",
-    "path": "/assets/static/art/bathers-at-la-grenouillere.jpeg"
-  },
-  {
-    "name": "Gezicht Te Koblenz 1835",
-    "path": "/assets/static/art/gezicht-te-koblenz-1835.jpg"
-  },
-  {
-    "name": "The Little Street",
-    "path": "/assets/static/art/the-little-street.jpeg"
-  },
-  {
-    "name": "Fishing Cutters In The Moonlit Night",
-    "path": "/assets/static/art/fishing-cutters-in-the-moonlit-night.jpeg"
-  },
-  {
-    "name": "Boulevard Des Capucines",
-    "path": "/assets/static/art/boulevard-des-capucines.jpeg"
-  },
-  {
-    "name": "The Blind Leading The Blind By Pieter Bruegel The Elder",
-    "path": "/assets/static/art/The_Blind_leading_the_Blind_by_Pieter_Bruegel_the_Elder.jpg"
-  },
-  {
-    "name": "Thomas Cole Dream Of Arcadia",
-    "path": "/assets/static/art/Thomas_Cole_Dream_of_Arcadia.jpg"
-  },
-  {
-    "name": "Rain At Kofukuji Temple",
-    "path": "/assets/static/art/rain-at-kofukuji-temple.jpeg"
-  },
-  {
-    "name": "The White Orchard",
-    "path": "/assets/static/art/the-white-orchard.jpeg"
-  },
-  {
-    "name": "Luncheon Of The Boating Party",
-    "path": "/assets/static/art/luncheon-of-the-boating-party.jpg"
-  },
-  {
-    "name": "Nicolas De Corsi Neapolitan Street",
-    "path": "/assets/static/art/nicolas-de-corsi-neapolitan-street.jpg"
-  },
-  {
-    "name": "Playing Children Enghave Square",
-    "path": "/assets/static/art/playing-children-enghave-square.jpeg"
-  },
-  {
-    "name": "Soir Au Bord Du Lac",
-    "path": "/assets/static/art/soir-au-bord-du-lac.jpeg"
-  },
-  {
-    "name": "Madame Monet With Her Son",
-    "path": "/assets/static/art/madame-monet-with-her-son.jpeg"
   },
   {
     "name": "Peasant Family At The Table Israels",
     "path": "/assets/static/art/peasant-family-at-the-table-israels.jpeg"
   },
   {
-    "name": "Tower Of Babel",
-    "path": "/assets/static/art/tower-of-babel.jpeg"
-  },
-  {
-    "name": "The Old Mill 1921",
-    "path": "/assets/static/art/the-old-mill-1921.jpeg"
-  },
-  {
-    "name": "Bridge At Villeneuve",
-    "path": "/assets/static/art/bridge-at-villeneuve.jpeg"
+    "name": "Girl In A Large Hat Everdingen",
+    "path": "/assets/static/art/girl-in-a-large-hat-everdingen.jpg"
   },
   {
     "name": "The Lady With The Veil",
     "path": "/assets/static/art/the-lady-with-the-veil.jpg"
   },
   {
-    "name": "Blue Jazz Bill Dallas",
-    "path": "/assets/static/art/blue-jazz-bill-dallas.jpg"
+    "name": "Around The World Dargelas",
+    "path": "/assets/static/art/around-the-world-dargelas.jpg"
   },
   {
-    "name": "Emerald Breeze",
-    "path": "/assets/static/art/emerald-breeze.jpeg"
+    "name": "Potato Eaters Van Gogh",
+    "path": "/assets/static/art/potato-eaters-van-gogh.jpg"
+  },
+  {
+    "name": "The Course Of Empire Arcadian State",
+    "path": "/assets/static/art/the-course-of-empire-arcadian-state.jpg"
+  },
+  {
+    "name": "Rainy Midight Hassam",
+    "path": "/assets/static/art/rainy-midight-hassam.jpeg"
+  },
+  {
+    "name": "Albert Edelfelt",
+    "path": "/assets/static/art/albert-edelfelt.jpg"
+  },
+  {
+    "name": "The Little Street",
+    "path": "/assets/static/art/the-little-street.jpeg"
+  },
+  {
+    "name": "Breakfast In Bed Cassatt",
+    "path": "/assets/static/art/breakfast-in-bed-cassatt.jpg"
+  },
+  {
+    "name": "The Vinegar Tasters",
+    "path": "/assets/static/art/the-vinegar-tasters.jpeg"
+  },
+  {
+    "name": "Report Me All Well",
+    "path": "/assets/static/art/report-me-all-well.jpeg"
   },
   {
     "name": "Homer",
     "path": "/assets/static/art/homer.jpg"
   },
   {
+    "name": "The Surgeon 1670",
+    "path": "/assets/static/art/the-surgeon-1670.jpg"
+  },
+  {
+    "name": "The Lovers Emily Friant",
+    "path": "/assets/static/art/the-lovers-emily-friant.jpg"
+  },
+  {
+    "name": "Fishing Cutters In The Moonlit Night",
+    "path": "/assets/static/art/fishing-cutters-in-the-moonlit-night.jpeg"
+  },
+  {
+    "name": "Seascape Near Les Saintes Maries",
+    "path": "/assets/static/art/seascape-near-les-saintes-maries.jpeg"
+  },
+  {
+    "name": "Venice Renoir",
+    "path": "/assets/static/art/venice-renoir.jpg"
+  },
+  {
+    "name": "Nicolas De Corsi Neapolitan Street",
+    "path": "/assets/static/art/nicolas-de-corsi-neapolitan-street.jpg"
+  },
+  {
+    "name": "The Tortoise Trainer",
+    "path": "/assets/static/art/the-tortoise-trainer.jpg"
+  },
+  {
+    "name": "The Great Wave Off Kanagawa",
+    "path": "/assets/static/art/the-great-wave-off-kanagawa.jpeg"
+  },
+  {
+    "name": "Opening Of The Great Exhibition",
+    "path": "/assets/static/art/opening-of-the-great-exhibition.jpg"
+  },
+  {
+    "name": "La Grenouillere",
+    "path": "/assets/static/art/la-grenouillere.jpeg"
+  },
+  {
+    "name": "Madame Monet With Her Son",
+    "path": "/assets/static/art/madame-monet-with-her-son.jpeg"
+  },
+  {
+    "name": "View From The Artists Window Rorbye",
+    "path": "/assets/static/art/view-from-the-artists-window-rorbye.jpeg"
+  },
+  {
+    "name": "Baroque Colonnade",
+    "path": "/assets/static/art/baroque-colonnade.jpeg"
+  },
+  {
+    "name": "The White Orchard",
+    "path": "/assets/static/art/the-white-orchard.jpeg"
+  },
+  {
+    "name": "Boulevard Des Capucines",
+    "path": "/assets/static/art/boulevard-des-capucines.jpeg"
+  },
+  {
+    "name": "Playing Children Enghave Square",
+    "path": "/assets/static/art/playing-children-enghave-square.jpeg"
+  },
+  {
+    "name": "Portrait Of Fyodor Dostoyevsky 1872",
+    "path": "/assets/static/art/portrait-of-fyodor-dostoyevsky-1872.jpeg"
+  },
+  {
+    "name": "Thomas Cole Dream Of Arcadia",
+    "path": "/assets/static/art/Thomas_Cole_Dream_of_Arcadia.jpg"
+  },
+  {
+    "name": "Tower Of Babel",
+    "path": "/assets/static/art/tower-of-babel.jpeg"
+  },
+  {
+    "name": "Gezicht Te Koblenz 1835",
+    "path": "/assets/static/art/gezicht-te-koblenz-1835.jpg"
+  },
+  {
+    "name": "Bridge At Villeneuve",
+    "path": "/assets/static/art/bridge-at-villeneuve.jpeg"
+  },
+  {
     "name": "Fireflies At Ochanomizu",
     "path": "/assets/static/art/fireflies-at-ochanomizu.jpeg"
+  },
+  {
+    "name": "Emerald Breeze",
+    "path": "/assets/static/art/emerald-breeze.jpeg"
+  },
+  {
+    "name": "The Old Mill 1921",
+    "path": "/assets/static/art/the-old-mill-1921.jpeg"
+  },
+  {
+    "name": "Composition With Grid 1 Mondrian",
+    "path": "/assets/static/art/composition-with-grid-1-mondrian.jpg"
+  },
+  {
+    "name": "Vincent Van Gogh Head Of A Skeleton With A Burning Cigarette",
+    "path": "/assets/static/art/Vincent_van_Gogh_Head_of_a_skeleton_with_a_burning_cigarette.jpg"
+  },
+  {
+    "name": "Starry Night",
+    "path": "/assets/static/art/starry-night.jpeg"
+  },
+  {
+    "name": "The Scream",
+    "path": "/assets/static/art/the-scream.jpeg"
+  },
+  {
+    "name": "Flower Beds Monet",
+    "path": "/assets/static/art/flower-beds-monet.jpg"
+  },
+  {
+    "name": "Rain At Kofukuji Temple",
+    "path": "/assets/static/art/rain-at-kofukuji-temple.jpeg"
+  },
+  {
+    "name": "Orestes Pursued By Furies",
+    "path": "/assets/static/art/orestes-pursued-by-furies.jpg"
+  },
+  {
+    "name": "Autumn In France Emily Carr",
+    "path": "/assets/static/art/Autumn-in-france-emily-carr.jpeg"
+  },
+  {
+    "name": "Girl With A Mandolin Picasso",
+    "path": "/assets/static/art/girl-with-a-mandolin-picasso.jpg"
+  },
+  {
+    "name": "Mountain Lake Caspar",
+    "path": "/assets/static/art/mountain-lake-caspar.jpg"
+  },
+  {
+    "name": "Green Field",
+    "path": "/assets/static/art/green-field.jpeg"
+  },
+  {
+    "name": "A Field Of Blue Bonnets",
+    "path": "/assets/static/art/a-field-of-blue-bonnets.jpeg"
+  },
+  {
+    "name": "Myth Of Endymion",
+    "path": "/assets/static/art/myth-of-endymion.jpg"
+  },
+  {
+    "name": "The Cliff Walk At Pourville",
+    "path": "/assets/static/art/the-cliff-walk-at-pourville.jpg"
+  },
+  {
+    "name": "Mont Sainte Victoire",
+    "path": "/assets/static/art/mont-sainte-victoire.jpeg"
+  },
+  {
+    "name": "La Corniche Near Monaco",
+    "path": "/assets/static/art/la-corniche-near-monaco.jpeg"
+  },
+  {
+    "name": "Villa Di Marlia John Singer",
+    "path": "/assets/static/art/villa-di-marlia-john-singer.jpg"
+  },
+  {
+    "name": "Dans Mon Pays",
+    "path": "/assets/static/art/dans-mon-pays.jpg"
+  },
+  {
+    "name": "Almond Blossom",
+    "path": "/assets/static/art/almond-blossom.jpeg"
+  },
+  {
+    "name": "Coming From The Mill",
+    "path": "/assets/static/art/coming-from-the-mill.jpeg"
+  },
+  {
+    "name": "Blue Jazz Bill Dallas",
+    "path": "/assets/static/art/blue-jazz-bill-dallas.jpg"
+  },
+  {
+    "name": "The Blind Leading The Blind By Pieter Bruegel The Elder",
+    "path": "/assets/static/art/The_Blind_leading_the_Blind_by_Pieter_Bruegel_the_Elder.jpg"
+  },
+  {
+    "name": "The South Ledges Childe Hassam",
+    "path": "/assets/static/art/the-south-ledges-childe-hassam.jpg"
+  },
+  {
+    "name": "La Liseuse Fragonard",
+    "path": "/assets/static/art/la-liseuse-fragonard.jpg"
+  },
+  {
+    "name": "Americae Sive Novi Orbis 1587",
+    "path": "/assets/static/art/americae-sive-novi-orbis-1587.jpeg"
+  },
+  {
+    "name": "Bathers At La Grenouillere",
+    "path": "/assets/static/art/bathers-at-la-grenouillere.jpeg"
+  },
+  {
+    "name": "Buffalo Newsboy",
+    "path": "/assets/static/art/buffalo-newsboy.jpg"
+  },
+  {
+    "name": "Pantheon Panini",
+    "path": "/assets/static/art/pantheon-panini.jpg"
+  },
+  {
+    "name": "La Rue Saint Honore",
+    "path": "/assets/static/art/la-rue-saint-honore.jpeg"
+  },
+  {
+    "name": "Regattas At Argenteuil",
+    "path": "/assets/static/art/regattas-at-argenteuil.jpeg"
+  },
+  {
+    "name": "The Boulevard Montmartre On A Winter Morning",
+    "path": "/assets/static/art/the-boulevard-montmartre-on-a-winter-morning.jpeg"
+  },
+  {
+    "name": "Interior Of The Palm House",
+    "path": "/assets/static/art/interior-of-the-palm-house.JPG"
+  },
+  {
+    "name": "Dance At Le Moulin Renoir",
+    "path": "/assets/static/art/dance-at-le-moulin-renoir.jpg"
+  },
+  {
+    "name": "Olive Trees",
+    "path": "/assets/static/art/olive-trees.jpg"
+  },
+  {
+    "name": "Milkmaid Vermeer",
+    "path": "/assets/static/art/milkmaid-vermeer.jpg"
+  },
+  {
+    "name": "Soir Au Bord Du Lac",
+    "path": "/assets/static/art/soir-au-bord-du-lac.jpeg"
+  },
+  {
+    "name": "Idle Hours 1894",
+    "path": "/assets/static/art/idle-hours-1894.jpeg"
+  },
+  {
+    "name": "Fishing On A Dutch Canal",
+    "path": "/assets/static/art/fishing-on-a-dutch-canal.jpeg"
+  },
+  {
+    "name": "Luncheon Of The Boating Party",
+    "path": "/assets/static/art/luncheon-of-the-boating-party.jpg"
   }
 ]

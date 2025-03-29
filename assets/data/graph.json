@@ -384,6 +384,7 @@
       "links": [
         "/engineering",
         "/code-review",
+        "/commit-tags",
         "/software-analogies",
         "/the-joel-test"
       ]
@@ -639,7 +640,7 @@
         "/lists",
         "/graph-2d",
         "/graph-3d",
-        "/stats",
+        "/site-stats",
         "/tools"
       ]
     },
@@ -653,7 +654,6 @@
         "/clocks",
         "/typing-practice",
         "/experiments",
-        "/stats",
         "/timelines"
       ]
     },
@@ -662,7 +662,8 @@
       "group": 2,
       "name": "Welcome!",
       "links": [
-        "/misc"
+        "/misc",
+        "/site-stats"
       ]
     },
     {
@@ -2047,6 +2048,14 @@
       ]
     },
     {
+      "id": "/commit-tags",
+      "group": 3,
+      "name": "Commit Tags",
+      "links": [
+        "/software-development"
+      ]
+    },
+    {
       "id": "/software-analogies",
       "group": 3,
       "name": "Software Analogies",
@@ -2698,17 +2707,17 @@
       "name": "3D graph of all pages",
       "links": [
         "/experiments",
-        "/stats"
+        "/site-stats"
       ]
     },
     {
-      "id": "/stats",
+      "id": "/site-stats",
       "group": 3,
-      "name": "Stats",
+      "name": "Site Stats",
       "links": [
         "/experiments",
         "/graph-3d",
-        "/tools"
+        "/about"
       ]
     },
     {
@@ -4768,6 +4777,10 @@
     },
     {
       "source": "/software-development",
+      "target": "/commit-tags"
+    },
+    {
+      "source": "/software-development",
       "target": "/software-analogies"
     },
     {
@@ -5072,7 +5085,7 @@
     },
     {
       "source": "/experiments",
-      "target": "/stats"
+      "target": "/site-stats"
     },
     {
       "source": "/tools",
@@ -6092,7 +6105,11 @@
     },
     {
       "source": "/graph-3d",
-      "target": "/stats"
+      "target": "/site-stats"
+    },
+    {
+      "source": "/site-stats",
+      "target": "/about"
     },
     {
       "source": "/lists",
@@ -6109,10 +6126,6 @@
     {
       "source": "/lists",
       "target": "/timelines"
-    },
-    {
-      "source": "/tools",
-      "target": "/stats"
     },
     {
       "source": "/tools",
