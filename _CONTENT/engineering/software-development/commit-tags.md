@@ -1,15 +1,17 @@
 ---
 ---
 
-
 feat  
-fix  
+fix   
+del : delete   
+deps: dependencies  
 docs  
-refactor  
+ref : refactor  
 test  
 perf  
 sec  
 db  
 api  
 ui  
-ops  
+ops : operations, builds, CI/CD
+
