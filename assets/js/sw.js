@@ -57,7 +57,7 @@ registerRoute(
 );
 
 
-const clearCaches = async () => {
+const clearOldCaches = async () => {
   const cacheNames = await caches.keys();
   await Promise.all(
     cacheNames.map((cacheName) => {
@@ -68,10 +68,10 @@ const clearCaches = async () => {
   );
 }
 
-const warmCache = () => {
-  clearCaches();
+const warmCache = async () => {
   const strategy = new NetworkFirst();
-  warmStrategyCache({urls, strategy});
+  await warmStrategyCache({urls, strategy});
+  await clearOldCaches();
 }
 
 warmCache();
