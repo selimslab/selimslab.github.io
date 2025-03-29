@@ -1,6 +1,3 @@
----
-layout: none
----
 
 importScripts('/assets/js/workbox.js');
 
