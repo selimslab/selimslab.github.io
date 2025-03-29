@@ -56,15 +56,15 @@ const clearOldCaches = async () => {
   );
 }
 
-let urls;
 
 (async () => {
-  urls = await fetch('/assets/data/urls.json').then(res => res.json());
+  const urls = await fetch('/assets/data/urls.json').then(res => res.json());
+  const strategy = new NetworkFirst();
+  warmStrategyCache({urls, strategy});
+  clearOldCaches();
 })();
 
-const strategy = new NetworkFirst();
-warmStrategyCache({urls, strategy});
-clearOldCaches();
+
 
 
 
