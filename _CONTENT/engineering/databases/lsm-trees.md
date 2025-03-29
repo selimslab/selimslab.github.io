@@ -3,33 +3,15 @@ title: Log structured merge tree (LSM tree)
 tags: ds algo 
 ---
 
-Now maybe we can do better with the file-append
+a balanced tree + SS(sorted string) tables + periodical merging + crash recovery log -> LSM tree 
 
-Only if there is a way to keep it sorted 
+0. Create an in-memory balanced tree like an AVL tree; or red-black tree
+1. Append write to the tree and crash recovery log 
+2. Periodically flush the tree to a file and discard crash-log. There will be multiple files, all sorted. 
+3. These sorted string tables are called SS Tables. Periodically merge them in the background
 
-you can sort after every entry but its highly inefficient 
 
----
-
-What if we have an in-memory balanced tree like an AVL tree; or red-black tree, 
-
-append write to the tree first, then periodically flush the tree to a file, 
-
-there will be multiple files, all sorted, and periodically merged in the background
-
-These sorted string tables are called SS Tables, and a sorted file can be compressed better, leading to smaller files 
-
-There is also a crash recovery log in case of a crash before the tree is flushed 
-
----
-
-a balanced tree + SS Tables + periodical merging -> LSM tree 
-
-1. add incoming data to the balanced tree and to the crash recovery log 
-2. after a certain size, flush the tree to an SS table and delete the discard the recovery log  
-3. periodically merge the SS Tables in the background 
-
-### Advantages 
+## Pro 
 
 Lower write amplification, better disk life 
 
@@ -40,7 +22,7 @@ Localized data, less unused disk space
 Better compression, smaller files 
 
 
-### Disadvantages 
+## Con
 
 Less stable response times in higher percentiles 
 

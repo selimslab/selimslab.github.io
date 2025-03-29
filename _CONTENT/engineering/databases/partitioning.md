@@ -45,11 +45,10 @@ Splits large tables/databases into smaller, manageable pieces while maintaining 
 - Hash of values
 
 ## Benefits
-- Better performance (parallel queries)
-- Improved availability
-- Easier maintenance
 - Reduced index size
 - Better data locality
+- Better performance (parallel queries)
+- Improved availability
 
 ## Tradeoffs
 - Complexity in queries spanning partitions
@@ -87,3 +86,6 @@ CREATE TABLE sales_2024
   - Partition by contiguous key ranges
     - Store similar keys together to enable efficient scans
   - HBase organizes by row key ranges
+
+
+[[consistent-hashing]]
