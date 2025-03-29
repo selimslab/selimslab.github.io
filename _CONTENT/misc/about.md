@@ -1,12 +1,8 @@
 ---
 layout: page
-title: Welcome, friend!
+title: Welcome!
 ---
 
-It's a place to give my mind some space 
+[github.com/selimslab](https://github.com/selimslab)
 
-{% include stats.html  %}
-
-[[graph-3d]]
-
-
+[linkedin.com/in/time](https://linkedin.com/in/time)

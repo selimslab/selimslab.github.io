@@ -74,6 +74,7 @@
         "/movies",
         "/paintings",
         "/quotes",
+        "/top",
         "/checklists",
         "/experiments",
         "/tools",
@@ -90,15 +91,12 @@
       "links": [
         "/root",
         "/about",
-        "/graph-2d",
-        "/graph-3d",
         "/interviews",
         "/llm-prompt",
         "/llm",
         "/pub",
         "/resume",
-        "/short-prompt",
-        "/top"
+        "/short-prompt"
       ]
     },
     {
@@ -610,6 +608,19 @@
       ]
     },
     {
+      "id": "/top",
+      "group": 2,
+      "name": "Top",
+      "links": [
+        "/lists",
+        "/choice",
+        "/hard-times",
+        "/poetry",
+        "/reasoning",
+        "/time"
+      ]
+    },
+    {
       "id": "/checklists",
       "group": 2,
       "name": "Checklists",
@@ -625,7 +636,10 @@
       "group": 2,
       "name": "Experiments",
       "links": [
-        "/lists"
+        "/lists",
+        "/graph-2d",
+        "/graph-3d",
+        "/stats"
       ]
     },
     {
@@ -637,29 +651,14 @@
         "/calendar",
         "/clocks",
         "/typing-practice",
+        "/stats",
         "/timelines"
       ]
     },
     {
       "id": "/about",
       "group": 2,
-      "name": "Welcome, friend!",
-      "links": [
-        "/misc"
-      ]
-    },
-    {
-      "id": "/graph-2d",
-      "group": 2,
-      "name": "2D Graph of All Pages",
-      "links": [
-        "/misc"
-      ]
-    },
-    {
-      "id": "/graph-3d",
-      "group": 2,
-      "name": "3D graph of all pages",
+      "name": "Welcome!",
       "links": [
         "/misc"
       ]
@@ -710,19 +709,6 @@
       "name": "Short Prompt",
       "links": [
         "/misc"
-      ]
-    },
-    {
-      "id": "/top",
-      "group": 2,
-      "name": "Top",
-      "links": [
-        "/misc",
-        "/choice",
-        "/hard-times",
-        "/poetry",
-        "/reasoning",
-        "/time"
       ]
     },
     {
@@ -2697,6 +2683,33 @@
       ]
     },
     {
+      "id": "/graph-2d",
+      "group": 3,
+      "name": "2D Graph of All Pages",
+      "links": [
+        "/experiments"
+      ]
+    },
+    {
+      "id": "/graph-3d",
+      "group": 3,
+      "name": "3D graph of all pages",
+      "links": [
+        "/experiments",
+        "/stats"
+      ]
+    },
+    {
+      "id": "/stats",
+      "group": 3,
+      "name": "Stats",
+      "links": [
+        "/experiments",
+        "/graph-3d",
+        "/tools"
+      ]
+    },
+    {
       "id": "/calendar",
       "group": 3,
       "name": "Calendar",
@@ -4137,6 +4150,10 @@
     },
     {
       "source": "/lists",
+      "target": "/top"
+    },
+    {
+      "source": "/lists",
       "target": "/checklists"
     },
     {
@@ -4150,14 +4167,6 @@
     {
       "source": "/misc",
       "target": "/about"
-    },
-    {
-      "source": "/misc",
-      "target": "/graph-2d"
-    },
-    {
-      "source": "/misc",
-      "target": "/graph-3d"
     },
     {
       "source": "/misc",
@@ -4182,10 +4191,6 @@
     {
       "source": "/misc",
       "target": "/short-prompt"
-    },
-    {
-      "source": "/misc",
-      "target": "/top"
     },
     {
       "source": "/sciences",
@@ -5054,6 +5059,18 @@
     {
       "source": "/checklists",
       "target": "/used-cars"
+    },
+    {
+      "source": "/experiments",
+      "target": "/graph-2d"
+    },
+    {
+      "source": "/experiments",
+      "target": "/graph-3d"
+    },
+    {
+      "source": "/experiments",
+      "target": "/stats"
     },
     {
       "source": "/tools",
@@ -6068,6 +6085,10 @@
       "target": "/probability-and-statistics"
     },
     {
+      "source": "/graph-3d",
+      "target": "/stats"
+    },
+    {
       "source": "/lists",
       "target": "/classics"
     },
@@ -6082,6 +6103,10 @@
     {
       "source": "/lists",
       "target": "/timelines"
+    },
+    {
+      "source": "/tools",
+      "target": "/stats"
     },
     {
       "source": "/tools",

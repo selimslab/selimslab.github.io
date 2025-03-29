@@ -30,15 +30,7 @@ registerRoute(
 );
 
 
-const urls = [
-  {% for page in site.pages -%}
-  '{{ page.url }}',
-  {% endfor -%}
-  {% for doc in site.documents -%}
-  '{{ doc.url }}',
-  {% endfor -%}
-  '/'
-];
+const urls = await fetch('/assets/data/urls.json').then(res => res.json());
 
 registerRoute(
   new RegExp('\/.+\/.+'),
