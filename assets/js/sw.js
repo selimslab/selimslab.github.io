@@ -29,7 +29,6 @@ registerRoute(
 );
 
 
-const urls = await fetch('/assets/data/urls.json').then(res => res.json());
 
 registerRoute(
   new RegExp('\/.+\/.+'),
@@ -61,6 +60,7 @@ const clearOldCaches = async () => {
 
 const warmCache = async () => {
   const strategy = new NetworkFirst();
+  const urls = await fetch('/assets/data/urls.json').then(res => res.json());
   await warmStrategyCache({urls, strategy});
   await clearOldCaches();
 }
