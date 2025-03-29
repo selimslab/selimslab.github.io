@@ -35,7 +35,8 @@ layout: page
 
 </div>
 
+{% include offline.html  %}
+
 {% include random-art.html %}
 
-{% include offline.html  %}
 
