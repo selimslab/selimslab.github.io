@@ -1,3 +1,7 @@
+---
+layout: none
+---
+
 importScripts('/assets/js/workbox.js');
 
 const { registerRoute } = workbox.routing;
@@ -22,13 +26,10 @@ registerRoute(
   })
 );
 
-
 registerRoute(
   '/',
   new NetworkFirst()
 );
-
-
 
 registerRoute(
   new RegExp('\/.+\/.+'),
@@ -58,16 +59,20 @@ const clearOldCaches = async () => {
   );
 }
 
-const warmCache = async () => {
-  const strategy = new NetworkFirst();
-  const urls = await fetch('/assets/data/urls.json').then(res => res.json());
-  warmStrategyCache({urls, strategy});
-  await clearOldCaches();
-}
+const urls = [
+  {% for page in site.pages -%}
+  '{{ page.url }}',
+  {% endfor -%}
+  {% for doc in site.documents -%}
+  '{{ doc.url }}',
+  {% endfor -%}
+  '/'
+];
 
-(async () => {
-  await warmCache();
-})();
+const strategy = new NetworkFirst();
+warmStrategyCache({urls, strategy});
+clearOldCaches();
+
 
 
 
