@@ -639,7 +639,8 @@
         "/lists",
         "/graph-2d",
         "/graph-3d",
-        "/stats"
+        "/stats",
+        "/tools"
       ]
     },
     {
@@ -651,6 +652,7 @@
         "/calendar",
         "/clocks",
         "/typing-practice",
+        "/experiments",
         "/stats",
         "/timelines"
       ]
@@ -6083,6 +6085,10 @@
     {
       "source": "/datasets",
       "target": "/probability-and-statistics"
+    },
+    {
+      "source": "/experiments",
+      "target": "/tools"
     },
     {
       "source": "/graph-3d",
