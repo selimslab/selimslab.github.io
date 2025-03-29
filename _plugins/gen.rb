@@ -37,6 +37,7 @@ class SiteGenerator < Jekyll::Generator
     update_artworks(site)
 
     urls = site.documents.map { |doc| doc.url }.reject { |url| url.start_with?('.') }
+    site.data["urls"] = urls
     write_json("#{DATA_PATH}/urls.json", urls)
     
     log_debug_data(tree, site) if DEBUG
