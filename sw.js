@@ -10,7 +10,7 @@ const { CacheableResponse } = workbox.cacheableResponse;
 const {warmStrategyCache} =  workbox.recipes;
 
 const prefix = 'delta';
-const suffix = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
+const suffix = "t"
 
 workbox.core.setCacheNameDetails({
   prefix,
@@ -71,7 +71,6 @@ const urls = [
 
 const strategy = new NetworkFirst();
 warmStrategyCache({urls, strategy});
-clearOldCaches();
 
 
 
