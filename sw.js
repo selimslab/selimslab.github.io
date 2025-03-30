@@ -17,12 +17,19 @@ workbox.core.setCacheNameDetails({
   suffix
 });
 
+const strategy = new StaleWhileRevalidate();
+
 const staticStrategy =   new CacheFirst({
   cacheName: 'delta-static-assets',
   plugins: [
     new CacheableResponse({statuses: [0, 200]})
   ],
 })
+
+registerRoute(
+  new RegExp('\/.+'),
+  strategy
+);
 
 registerRoute(
   ({request}) => 
@@ -38,7 +45,6 @@ const urls = [
   '/'
 ];
 
-const strategy = new StaleWhileRevalidate();
 workbox.precaching.precacheAndRoute(
   urls.map(url => ({ url, revision: null }))
 );
