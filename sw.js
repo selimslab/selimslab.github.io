@@ -39,7 +39,9 @@ const urls = [
 ];
 
 const strategy = new StaleWhileRevalidate();
-warmStrategyCache({urls, strategy});
+workbox.precaching.precacheAndRoute(
+  urls.map(url => ({ url, revision: null }))
+);
 
 
 
