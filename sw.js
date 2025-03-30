@@ -1,74 +1,57 @@
----
-layout: none
----
-
 importScripts('/assets/js/workbox.js');
 
 const { registerRoute } = workbox.routing;
-const { CacheFirst, NetworkFirst, StaleWhileRevalidate } = workbox.strategies;
+const { CacheFirst, StaleWhileRevalidate } = workbox.strategies;
 const { CacheableResponse } = workbox.cacheableResponse;
-const {warmStrategyCache, pageCache, imageCache, staticResourceCache, googleFontsCache, offlineFallback} =  workbox.recipes;
+const { warmStrategyCache } = workbox.recipes;
 
-const prefix = 'delta';
-const suffix = "t"
+const staticStrategy =   new CacheFirst({
+  cacheName: 'static-assets',
+  plugins: [
+    new CacheableResponse({statuses: [0, 200]})
+  ],
+})
 
-workbox.core.setCacheNameDetails({
-  prefix,
-  suffix
+const pageStrategy = new StaleWhileRevalidate({
+  cacheName: 'pages',
+  plugins: [
+    new CacheableResponse({statuses: [0, 200]})
+  ],
 });
 
-registerRoute(
-  ({request}) => request.destination === 'image' ,
-  new CacheFirst({
-    plugins: [
-      new CacheableResponse({statuses: [0, 200]})
-    ],
-  })
-);
 
 registerRoute(
-  new RegExp('\/assets\/static\/.+'),
-  new CacheFirst()
+  ({request}) => 
+    request.destination === 'image' || 
+    request.url.includes('/assets/static/'),
+    staticStrategy
 );
+
 
 registerRoute(
-  new RegExp('\/.+'),
-  new NetworkFirst()
+  ({request}) => request.mode === 'navigate',
+  pageStrategy
 );
-
 
 const clearOldCaches = async () => {
   const cacheNames = await caches.keys();
   await Promise.all(
     cacheNames.map((cacheName) => {
-      if (cacheName.startsWith(prefix) && cacheName !== workbox.core.cacheNames.current) {
+      if (cacheName.startsWith(prefix) && cacheName !== workbox.core.getCacheKeyForURL(prefix)) {
         return caches.delete(cacheName);
       }
     })
   );
 }
 
-const urls = [
-  {% for page in site.pages -%}
-  '{{ page.url }}',
-  {% endfor -%}
-  {% for doc in site.documents -%}
-  '{{ doc.url }}',
-  {% endfor -%}
-  '/'
-];
+const fetchUrls = async () => {
+  const urls = await fetch('/assets/data/urls.json').then(res => res.json());
+  return urls;
+}
 
-const strategy = new NetworkFirst();
-warmStrategyCache({urls, strategy});
-
-pageCache();
-
-googleFontsCache();
-
-staticResourceCache();
-
-imageCache();
-
-offlineFallback();
+self.addEventListener('activate', event => {
+  event.waitUntil(fetchUrls().then(urls => warmStrategyCache({urls, strategy: pageStrategy})));
+  event.waitUntil(clearOldCaches());
+});
 
 
