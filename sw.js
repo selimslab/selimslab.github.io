@@ -47,11 +47,11 @@ let urls = [
 
 urls = urls.filter(url => url !== '');
 
+warmStrategyCache({urls, strategy});
 
 workbox.precaching.precacheAndRoute(
   urls.map(url => ({ url, revision: null }))
 );
-
 
 
 
