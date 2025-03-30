@@ -27,17 +27,6 @@ registerRoute(
 );
 
 registerRoute(
-  '/',
-  new NetworkFirst()
-);
-
-registerRoute(
-  new RegExp('\/.+\/.+'),
-  new NetworkFirst()
-);
-
-
-registerRoute(
   new RegExp('\/assets\/static\/.+'),
   new CacheFirst()
 );
