@@ -35,15 +35,13 @@ registerRoute(
 
 // Add the install event listener at the initial evaluation
 self.addEventListener('install', event => {
-  const fetchUrls = async () => {
-    const urls = await fetch('/assets/data/urls.json').then(res => res.json());
-    return urls;
-  }
-  
   event.waitUntil(
-    fetchUrls().then(urls => {
-      return warmStrategyCache({urls, strategy: pageStrategy});
-    })
+    fetch('/assets/data/urls.json')
+      .then(res => res.json())
+      .then(urls => warmStrategyCache({
+        urls: urls,
+        strategy: pageStrategy
+      }))
   );
 });
 
