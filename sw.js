@@ -1,9 +1,21 @@
+---
+layout: none
+---
+
 importScripts('/assets/js/workbox.js');
 
 const { registerRoute } = workbox.routing;
-const { CacheFirst, StaleWhileRevalidate } = workbox.strategies;
+const { CacheFirst, NetworkFirst, StaleWhileRevalidate } = workbox.strategies;
 const { CacheableResponse } = workbox.cacheableResponse;
-const { warmStrategyCache } = workbox.recipes;
+const {warmStrategyCache} =  workbox.recipes;
+
+const prefix = 'delta';
+const suffix = "t"
+
+workbox.core.setCacheNameDetails({
+  prefix,
+  suffix
+});
 
 const staticStrategy =   new CacheFirst({
   cacheName: 'static-assets',
@@ -12,14 +24,6 @@ const staticStrategy =   new CacheFirst({
   ],
 })
 
-const pageStrategy = new StaleWhileRevalidate({
-  cacheName: 'pages',
-  plugins: [
-    new CacheableResponse({statuses: [0, 200]})
-  ],
-});
-
-
 registerRoute(
   ({request}) => 
     request.destination === 'image' || 
@@ -27,22 +31,29 @@ registerRoute(
     staticStrategy
 );
 
-
 registerRoute(
-  ({request}) => request.mode === 'navigate',
-  pageStrategy
+  new RegExp('\/assets\/static\/.+'),
+  new CacheFirst()
 );
 
-// Add the install event listener at the initial evaluation
-self.addEventListener('install', event => {
-  event.waitUntil(
-    fetch('/assets/data/urls.json')
-      .then(res => res.json())
-      .then(urls => warmStrategyCache({
-        urls: urls,
-        strategy: pageStrategy
-      }))
-  );
-});
+registerRoute(
+  new RegExp('\/assets\/fav\/.+'),
+  new NetworkFirst()
+);
+
+const urls = [
+  {% for page in site.pages -%}
+  '{{ page.url }}',
+  {% endfor -%}
+  {% for doc in site.documents -%}
+  '{{ doc.url }}',
+  {% endfor -%}
+  '/'
+];
+
+const strategy = new StaleWhileRevalidate();
+warmStrategyCache({urls, strategy});
+
+
 
 
