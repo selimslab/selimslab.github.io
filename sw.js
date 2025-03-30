@@ -38,8 +38,9 @@ const fetchUrls = async () => {
   return urls;
 }
 
-self.addEventListener('install', event => {
-  event.waitUntil(fetchUrls().then(urls => warmStrategyCache({urls, strategy: pageStrategy})));
-});
+(async () => {
+  const urls = await fetchUrls();
+  warmStrategyCache({urls, strategy: pageStrategy})
+})();
 
 
