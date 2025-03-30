@@ -38,12 +38,15 @@ registerRoute(
     staticStrategy
 );
 
-const urls = [
+let urls = [
   {% for doc in site.documents -%}
   '{{ doc.url }}',
   {% endfor -%}
   '/'
 ];
+
+urls = urls.filter(url => url !== '');
+
 
 workbox.precaching.precacheAndRoute(
   urls.map(url => ({ url, revision: null }))
