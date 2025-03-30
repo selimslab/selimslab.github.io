@@ -2,6 +2,15 @@
 layout: none
 ---
 
+let urls = [
+  {% for doc in site.documents -%}
+  '{{ doc.url }}',
+  {% endfor -%}
+  '/'
+];
+
+urls = urls.filter(url => url !== '');
+
 importScripts('/assets/js/workbox.js');
 
 const { registerRoute } = workbox.routing;
@@ -38,20 +47,6 @@ registerRoute(
     staticStrategy
 );
 
-let urls = [
-  {% for doc in site.documents -%}
-  '{{ doc.url }}',
-  {% endfor -%}
-  '/'
-];
-
-urls = urls.filter(url => url !== '');
-
 warmStrategyCache({urls, strategy});
-
-workbox.precaching.precacheAndRoute(
-  urls.map(url => ({ url, revision: null }))
-);
-
 
 
