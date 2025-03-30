@@ -7,7 +7,7 @@ importScripts('/assets/js/workbox.js');
 const { registerRoute } = workbox.routing;
 const { CacheFirst, NetworkFirst, StaleWhileRevalidate } = workbox.strategies;
 const { CacheableResponse } = workbox.cacheableResponse;
-const {warmStrategyCache} =  workbox.recipes;
+const {warmStrategyCache, pageCache, imageCache, staticResourceCache, googleFontsCache, offlineFallback} =  workbox.recipes;
 
 const prefix = 'delta';
 const suffix = "t"
@@ -32,7 +32,7 @@ registerRoute(
 );
 
 registerRoute(
-  new RegExp('\/assets\/fav\/.+'),
+  new RegExp('\/.+'),
   new NetworkFirst()
 );
 
@@ -61,6 +61,14 @@ const urls = [
 const strategy = new NetworkFirst();
 warmStrategyCache({urls, strategy});
 
+pageCache();
 
+googleFontsCache();
+
+staticResourceCache();
+
+imageCache();
+
+offlineFallback();
 
 
