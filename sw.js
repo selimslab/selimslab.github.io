@@ -33,25 +33,13 @@ registerRoute(
   pageStrategy
 );
 
-const clearOldCaches = async () => {
-  const cacheNames = await caches.keys();
-  await Promise.all(
-    cacheNames.map((cacheName) => {
-      if (cacheName.startsWith(prefix) && cacheName !== workbox.core.getCacheKeyForURL(prefix)) {
-        return caches.delete(cacheName);
-      }
-    })
-  );
-}
-
 const fetchUrls = async () => {
   const urls = await fetch('/assets/data/urls.json').then(res => res.json());
   return urls;
 }
 
-self.addEventListener('activate', event => {
+self.addEventListener('install', event => {
   event.waitUntil(fetchUrls().then(urls => warmStrategyCache({urls, strategy: pageStrategy})));
-  event.waitUntil(clearOldCaches());
 });
 
 
