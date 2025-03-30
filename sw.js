@@ -18,7 +18,7 @@ workbox.core.setCacheNameDetails({
 });
 
 const staticStrategy =   new CacheFirst({
-  cacheName: 'static-assets',
+  cacheName: 'delta-static-assets',
   plugins: [
     new CacheableResponse({statuses: [0, 200]})
   ],
@@ -29,16 +29,6 @@ registerRoute(
     request.destination === 'image' || 
     request.url.includes('/assets/static/'),
     staticStrategy
-);
-
-registerRoute(
-  new RegExp('\/assets\/static\/.+'),
-  new CacheFirst()
-);
-
-registerRoute(
-  new RegExp('\/assets\/fav\/.+'),
-  new NetworkFirst()
 );
 
 const urls = [
