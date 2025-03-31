@@ -42,6 +42,7 @@
         "/distributed-systems",
         "/machine-learning",
         "/programming",
+        "/projects",
         "/security",
         "/software-development",
         "/system-design"
@@ -242,18 +243,17 @@
         "/backtrack",
         "/bit",
         "/greedy",
-        "/hash-table",
         "/linked-list",
         "/orderbook",
         "/parallel-programming",
         "/producer-consumer-problem",
-        "/sets",
         "/sort",
-        "/by-level",
+        "/subset-with-dups",
         "/dynamic",
         "/heuristic",
         "/pointers",
         "/search",
+        "/tree",
         "/lsm-trees",
         "/bayes"
       ]
@@ -286,12 +286,18 @@
       "name": "Data Structures",
       "links": [
         "/engineering",
+        "/hash-table",
+        "/linked-lists",
+        "/sets",
         "/array",
         "/graph",
         "/queue",
         "/stack",
         "/string",
         "/tree",
+        "/bloom-filters",
+        "/hyperloglog",
+        "/skiplists",
         "/b-trees",
         "/db-data-structures",
         "/lsm-trees"
@@ -365,6 +371,29 @@
         "/unicode",
         "/programming-languages",
         "/projects"
+      ]
+    },
+    {
+      "id": "/projects",
+      "group": 2,
+      "name": "Projects",
+      "links": [
+        "/engineering",
+        "/async-crawler",
+        "/c-hashmap",
+        "/compiler",
+        "/garbage-collector-in-c",
+        "/links-for-makers",
+        "/logos-os",
+        "/mini-search-engine",
+        "/mini-web-server",
+        "/minik-robot",
+        "/pascal-interpreter",
+        "/pca",
+        "/pneumonia-detection",
+        "/predict-movie-genres",
+        "/vga-driver",
+        "/programming"
       ]
     },
     {
@@ -1357,14 +1386,6 @@
       ]
     },
     {
-      "id": "/hash-table",
-      "group": 3,
-      "name": "Hash Table",
-      "links": [
-        "/algorithms"
-      ]
-    },
-    {
       "id": "/linked-list",
       "group": 3,
       "name": "Linked List",
@@ -1398,14 +1419,6 @@
       ]
     },
     {
-      "id": "/sets",
-      "group": 3,
-      "name": "Sets",
-      "links": [
-        "/algorithms"
-      ]
-    },
-    {
       "id": "/sort",
       "group": 3,
       "name": "Sort",
@@ -1414,14 +1427,11 @@
       ]
     },
     {
-      "id": "/by-level",
+      "id": "/subset-with-dups",
       "group": 3,
-      "name": "By-level",
+      "name": "Subset With Dups",
       "links": [
-        "/algorithms",
-        "/easy",
-        "/hard",
-        "/mid"
+        "/algorithms"
       ]
     },
     {
@@ -1481,10 +1491,35 @@
       "links": [
         "/algorithms",
         "/binary-search",
-        "/bst",
         "/local-maximum",
         "/skiplists",
         "/vector-search"
+      ]
+    },
+    {
+      "id": "/tree",
+      "group": 3,
+      "name": "Tree",
+      "links": [
+        "/algorithms",
+        "/data-structures",
+        "/delete-tree-node",
+        "/diamater-of-binary-tree",
+        "/invert-binary-tree",
+        "/is-mirror-tree",
+        "/max-path-sum",
+        "/max-tree-depth",
+        "/post-order-go",
+        "/tree-codec-py",
+        "/unique-bst",
+        "/bst",
+        "/heap",
+        "/level-order",
+        "/quad-tree",
+        "/r-tree",
+        "/tree-balancing",
+        "/tree-traversals",
+        "/trie"
       ]
     },
     {
@@ -1539,6 +1574,30 @@
       ]
     },
     {
+      "id": "/hash-table",
+      "group": 3,
+      "name": "Hash Table",
+      "links": [
+        "/data-structures"
+      ]
+    },
+    {
+      "id": "/linked-lists",
+      "group": 3,
+      "name": "Linked Lists",
+      "links": [
+        "/data-structures"
+      ]
+    },
+    {
+      "id": "/sets",
+      "group": 3,
+      "name": "Sets",
+      "links": [
+        "/data-structures"
+      ]
+    },
+    {
       "id": "/array",
       "group": 3,
       "name": "Array",
@@ -1561,14 +1620,8 @@
         "/data-structures",
         "/bfs-dfs-topo",
         "/dijkstra",
-        "/bst",
         "/lowest-common-ancestor",
-        "/delete-tree-node",
-        "/diamater-of-binary-tree",
-        "/invert-binary-tree",
-        "/is-mirror-tree",
-        "/tree-codec-py",
-        "/level-order"
+        "/tree-codec-py"
       ]
     },
     {
@@ -1611,22 +1664,6 @@
         "/longest-diverse-str",
         "/longest-valid-paranthesis",
         "/trie"
-      ]
-    },
-    {
-      "id": "/tree",
-      "group": 3,
-      "name": "Tree",
-      "links": [
-        "/data-structures",
-        "/heap",
-        "/level-order",
-        "/quad-tree",
-        "/r-tree",
-        "/tree-balancing",
-        "/tree-traversals",
-        "/trie",
-        "/code"
       ]
     },
     {
@@ -1826,7 +1863,7 @@
     {
       "id": "/distributed-patterns",
       "group": 3,
-      "name": "Distributed Patterns",
+      "name": "Patterns",
       "links": [
         "/distributed-systems",
         "/node-communication",
@@ -1913,25 +1950,118 @@
       ]
     },
     {
-      "id": "/projects",
+      "id": "/async-crawler",
       "group": 3,
-      "name": "Programming Projects",
+      "name": "An async web crawler from scratch",
       "links": [
-        "/programming",
-        "/async-crawler",
-        "/c-hashmap",
-        "/compiler",
-        "/garbage-collector-in-c",
-        "/links-for-makers",
-        "/logos-os",
-        "/mini-search-engine",
-        "/mini-web-server",
-        "/minik-robot",
-        "/pascal-interpreter",
-        "/pca",
-        "/pneumonia-detection",
-        "/predict-movie-genres",
-        "/vga-driver"
+        "/projects"
+      ]
+    },
+    {
+      "id": "/c-hashmap",
+      "group": 3,
+      "name": "A hash table in C from scratch",
+      "links": [
+        "/projects"
+      ]
+    },
+    {
+      "id": "/compiler",
+      "group": 3,
+      "name": "Let's write a compiler",
+      "links": [
+        "/projects"
+      ]
+    },
+    {
+      "id": "/garbage-collector-in-c",
+      "group": 3,
+      "name": "A garbage collector in C from scratch",
+      "links": [
+        "/projects"
+      ]
+    },
+    {
+      "id": "/links-for-makers",
+      "group": 3,
+      "name": "Links For Makers",
+      "links": [
+        "/projects"
+      ]
+    },
+    {
+      "id": "/logos-os",
+      "group": 3,
+      "name": "Logos, an operating system kernel from scratch",
+      "links": [
+        "/projects"
+      ]
+    },
+    {
+      "id": "/mini-search-engine",
+      "group": 3,
+      "name": "A search engine with page rank, in 200 lines",
+      "links": [
+        "/projects"
+      ]
+    },
+    {
+      "id": "/mini-web-server",
+      "group": 3,
+      "name": "A web server from scratch",
+      "links": [
+        "/projects"
+      ]
+    },
+    {
+      "id": "/minik-robot",
+      "group": 3,
+      "name": "A* path-finding algorithm for a robot",
+      "links": [
+        "/projects"
+      ]
+    },
+    {
+      "id": "/pascal-interpreter",
+      "group": 3,
+      "name": "An interpreter in Python",
+      "links": [
+        "/projects"
+      ]
+    },
+    {
+      "id": "/pca",
+      "group": 3,
+      "name": "Principal Component Analysis",
+      "links": [
+        "/projects",
+        "/machine-learning"
+      ]
+    },
+    {
+      "id": "/pneumonia-detection",
+      "group": 3,
+      "name": "Pneumonia Detection",
+      "links": [
+        "/projects",
+        "/machine-learning"
+      ]
+    },
+    {
+      "id": "/predict-movie-genres",
+      "group": 3,
+      "name": "Predict movie genres using ML classifiers",
+      "links": [
+        "/projects",
+        "/machine-learning"
+      ]
+    },
+    {
+      "id": "/vga-driver",
+      "group": 3,
+      "name": "VGA Driver",
+      "links": [
+        "/projects"
       ]
     },
     {
@@ -3166,66 +3296,11 @@
       ]
     },
     {
-      "id": "/easy",
-      "group": 4,
-      "name": "Easy",
-      "links": [
-        "/by-level",
-        "/climb-stairs",
-        "/binary-search",
-        "/bst",
-        "/array-rotate",
-        "/generate-pascals-triangle",
-        "/group-anagrams",
-        "/plus-one",
-        "/check-brackets",
-        "/days-until-warmer-temperature",
-        "/dedup-game",
-        "/longest-common-prefix"
-      ]
-    },
-    {
-      "id": "/hard",
-      "group": 4,
-      "name": "Hard",
-      "links": [
-        "/by-level",
-        "/least-num-of-perfect-squares"
-      ]
-    },
-    {
-      "id": "/mid",
-      "group": 4,
-      "name": "Medium",
-      "links": [
-        "/by-level",
-        "/coin-change",
-        "/edit-distance",
-        "/house-robber",
-        "/lengthOfLIS",
-        "/longest-common-subsequence",
-        "/longest-diverse-str",
-        "/min-edit-distance",
-        "/count-primes",
-        "/bfs-dfs-topo",
-        "/dijkstra",
-        "/longest-valid-paranthesis",
-        "/decode-string",
-        "/generate-n-grams",
-        "/delete-tree-node",
-        "/diamater-of-binary-tree",
-        "/invert-binary-tree",
-        "/is-mirror-tree",
-        "/level-order"
-      ]
-    },
-    {
       "id": "/climb-stairs",
       "group": 4,
       "name": "Climb Stairs",
       "links": [
-        "/dynamic",
-        "/easy"
+        "/dynamic"
       ]
     },
     {
@@ -3233,8 +3308,7 @@
       "group": 4,
       "name": "Coin Change",
       "links": [
-        "/dynamic",
-        "/mid"
+        "/dynamic"
       ]
     },
     {
@@ -3242,8 +3316,7 @@
       "group": 4,
       "name": "Edit Distance",
       "links": [
-        "/dynamic",
-        "/mid"
+        "/dynamic"
       ]
     },
     {
@@ -3251,8 +3324,7 @@
       "group": 4,
       "name": "House Robber",
       "links": [
-        "/dynamic",
-        "/mid"
+        "/dynamic"
       ]
     },
     {
@@ -3260,8 +3332,7 @@
       "group": 4,
       "name": "Longest increasing subsequence",
       "links": [
-        "/dynamic",
-        "/mid"
+        "/dynamic"
       ]
     },
     {
@@ -3270,7 +3341,6 @@
       "name": "Longest Common Subsequence",
       "links": [
         "/dynamic",
-        "/mid",
         "/min-edit-distance"
       ]
     },
@@ -3280,7 +3350,6 @@
       "name": "Longest Diverse Str",
       "links": [
         "/dynamic",
-        "/mid",
         "/string",
         "/heap"
       ]
@@ -3308,7 +3377,6 @@
       "name": "Min Edit Distance",
       "links": [
         "/dynamic",
-        "/mid",
         "/longest-common-subsequence"
       ]
     },
@@ -3366,7 +3434,8 @@
       "group": 4,
       "name": "Bloom Filters",
       "links": [
-        "/heuristic"
+        "/heuristic",
+        "/data-structures"
       ]
     },
     {
@@ -3374,7 +3443,8 @@
       "group": 4,
       "name": "Hyperloglog",
       "links": [
-        "/heuristic"
+        "/heuristic",
+        "/data-structures"
       ]
     },
     {
@@ -3439,18 +3509,7 @@
       "group": 4,
       "name": "Binary Search",
       "links": [
-        "/search",
-        "/easy"
-      ]
-    },
-    {
-      "id": "/bst",
-      "group": 4,
-      "name": "Binary Search Tree",
-      "links": [
-        "/search",
-        "/easy",
-        "/graph"
+        "/search"
       ]
     },
     {
@@ -3467,7 +3526,8 @@
       "group": 4,
       "name": "Skip Lists",
       "links": [
-        "/search"
+        "/search",
+        "/data-structures"
       ]
     },
     {
@@ -3479,12 +3539,84 @@
       ]
     },
     {
+      "id": "/delete-tree-node",
+      "group": 4,
+      "name": "Delete Tree Node",
+      "links": [
+        "/tree"
+      ]
+    },
+    {
+      "id": "/diamater-of-binary-tree",
+      "group": 4,
+      "name": "Diamater Of Binary Tree",
+      "links": [
+        "/tree"
+      ]
+    },
+    {
+      "id": "/invert-binary-tree",
+      "group": 4,
+      "name": "Invert Binary Tree",
+      "links": [
+        "/tree"
+      ]
+    },
+    {
+      "id": "/is-mirror-tree",
+      "group": 4,
+      "name": "Is Mirror Tree",
+      "links": [
+        "/tree"
+      ]
+    },
+    {
+      "id": "/max-path-sum",
+      "group": 4,
+      "name": "Max Path Sum",
+      "links": [
+        "/tree"
+      ]
+    },
+    {
+      "id": "/max-tree-depth",
+      "group": 4,
+      "name": "Max Tree Depth",
+      "links": [
+        "/tree"
+      ]
+    },
+    {
+      "id": "/post-order-go",
+      "group": 4,
+      "name": "Post Order Go",
+      "links": [
+        "/tree"
+      ]
+    },
+    {
+      "id": "/tree-codec-py",
+      "group": 4,
+      "name": "Tree Codec Py",
+      "links": [
+        "/tree",
+        "/graph"
+      ]
+    },
+    {
+      "id": "/unique-bst",
+      "group": 4,
+      "name": "Unique Bst",
+      "links": [
+        "/tree"
+      ]
+    },
+    {
       "id": "/array-rotate",
       "group": 4,
       "name": "Array Rotate",
       "links": [
-        "/array",
-        "/easy"
+        "/array"
       ]
     },
     {
@@ -3492,8 +3624,7 @@
       "group": 4,
       "name": "Count Primes",
       "links": [
-        "/array",
-        "/mid"
+        "/array"
       ]
     },
     {
@@ -3501,8 +3632,7 @@
       "group": 4,
       "name": "Generate Pascals Triangle",
       "links": [
-        "/array",
-        "/easy"
+        "/array"
       ]
     },
     {
@@ -3510,8 +3640,7 @@
       "group": 4,
       "name": "Group Anagrams",
       "links": [
-        "/array",
-        "/easy"
+        "/array"
       ]
     },
     {
@@ -3527,8 +3656,7 @@
       "group": 4,
       "name": "Plus One",
       "links": [
-        "/array",
-        "/easy"
+        "/array"
       ]
     },
     {
@@ -3544,8 +3672,7 @@
       "group": 4,
       "name": "BFS DFS Toposort",
       "links": [
-        "/graph",
-        "/mid"
+        "/graph"
       ]
     },
     {
@@ -3553,8 +3680,7 @@
       "group": 4,
       "name": "Dijkstra",
       "links": [
-        "/graph",
-        "/mid"
+        "/graph"
       ]
     },
     {
@@ -3570,8 +3696,7 @@
       "group": 4,
       "name": "Least Num Of Perfect Squares",
       "links": [
-        "/queue",
-        "/hard"
+        "/queue"
       ]
     },
     {
@@ -3579,8 +3704,7 @@
       "group": 4,
       "name": "Check Brackets",
       "links": [
-        "/stack",
-        "/easy"
+        "/stack"
       ]
     },
     {
@@ -3588,8 +3712,7 @@
       "group": 4,
       "name": "Days Until Warmer Temperature",
       "links": [
-        "/stack",
-        "/easy"
+        "/stack"
       ]
     },
     {
@@ -3598,7 +3721,6 @@
       "name": "Dedup Game",
       "links": [
         "/stack",
-        "/easy",
         "/string"
       ]
     },
@@ -3608,7 +3730,6 @@
       "name": "Longest Valid Paranthesis",
       "links": [
         "/stack",
-        "/mid",
         "/pointers",
         "/string"
       ]
@@ -3619,7 +3740,6 @@
       "name": "Decode String",
       "links": [
         "/string",
-        "/mid",
         "/stack"
       ]
     },
@@ -3628,8 +3748,7 @@
       "group": 4,
       "name": "Generate N Grams",
       "links": [
-        "/string",
-        "/mid"
+        "/string"
       ]
     },
     {
@@ -3637,8 +3756,7 @@
       "group": 4,
       "name": "Longest Common Prefix",
       "links": [
-        "/string",
-        "/easy"
+        "/string"
       ]
     },
     {
@@ -3666,6 +3784,14 @@
       ]
     },
     {
+      "id": "/bst",
+      "group": 4,
+      "name": "Binary Search Tree",
+      "links": [
+        "/tree"
+      ]
+    },
+    {
       "id": "/heap",
       "group": 4,
       "name": "Heap",
@@ -3679,9 +3805,7 @@
       "group": 4,
       "name": "Level Order",
       "links": [
-        "/tree",
-        "/mid",
-        "/graph"
+        "/tree"
       ]
     },
     {
@@ -3723,23 +3847,6 @@
       "links": [
         "/tree",
         "/string"
-      ]
-    },
-    {
-      "id": "/code",
-      "group": 4,
-      "name": "Code",
-      "links": [
-        "/tree",
-        "/delete-tree-node",
-        "/diamater-of-binary-tree",
-        "/invert-binary-tree",
-        "/is-mirror-tree",
-        "/max-path-sum",
-        "/max-tree-depth",
-        "/post-order-go",
-        "/tree-codec-py",
-        "/unique-bst"
       ]
     },
     {
@@ -3804,202 +3911,6 @@
       "name": "Go Data Race Patterns and Prevention",
       "links": [
         "/programming-languages"
-      ]
-    },
-    {
-      "id": "/async-crawler",
-      "group": 4,
-      "name": "An async web crawler from scratch",
-      "links": [
-        "/projects"
-      ]
-    },
-    {
-      "id": "/c-hashmap",
-      "group": 4,
-      "name": "A hash table in C from scratch",
-      "links": [
-        "/projects"
-      ]
-    },
-    {
-      "id": "/compiler",
-      "group": 4,
-      "name": "Let's write a compiler",
-      "links": [
-        "/projects"
-      ]
-    },
-    {
-      "id": "/garbage-collector-in-c",
-      "group": 4,
-      "name": "A garbage collector in C from scratch",
-      "links": [
-        "/projects"
-      ]
-    },
-    {
-      "id": "/links-for-makers",
-      "group": 4,
-      "name": "Links For Makers",
-      "links": [
-        "/projects"
-      ]
-    },
-    {
-      "id": "/logos-os",
-      "group": 4,
-      "name": "Logos, an operating system kernel from scratch",
-      "links": [
-        "/projects"
-      ]
-    },
-    {
-      "id": "/mini-search-engine",
-      "group": 4,
-      "name": "A search engine with page rank, in 200 lines",
-      "links": [
-        "/projects"
-      ]
-    },
-    {
-      "id": "/mini-web-server",
-      "group": 4,
-      "name": "A web server from scratch",
-      "links": [
-        "/projects"
-      ]
-    },
-    {
-      "id": "/minik-robot",
-      "group": 4,
-      "name": "A* path-finding algorithm for a robot",
-      "links": [
-        "/projects"
-      ]
-    },
-    {
-      "id": "/pascal-interpreter",
-      "group": 4,
-      "name": "An interpreter in Python",
-      "links": [
-        "/projects"
-      ]
-    },
-    {
-      "id": "/pca",
-      "group": 4,
-      "name": "Principal Component Analysis",
-      "links": [
-        "/projects",
-        "/machine-learning"
-      ]
-    },
-    {
-      "id": "/pneumonia-detection",
-      "group": 4,
-      "name": "Pneumonia Detection",
-      "links": [
-        "/projects",
-        "/machine-learning"
-      ]
-    },
-    {
-      "id": "/predict-movie-genres",
-      "group": 4,
-      "name": "Predict movie genres using ML classifiers",
-      "links": [
-        "/projects",
-        "/machine-learning"
-      ]
-    },
-    {
-      "id": "/vga-driver",
-      "group": 4,
-      "name": "VGA Driver",
-      "links": [
-        "/projects"
-      ]
-    },
-    {
-      "id": "/delete-tree-node",
-      "group": 5,
-      "name": "Delete Tree Node",
-      "links": [
-        "/code",
-        "/mid",
-        "/graph"
-      ]
-    },
-    {
-      "id": "/diamater-of-binary-tree",
-      "group": 5,
-      "name": "Diamater Of Binary Tree",
-      "links": [
-        "/code",
-        "/mid",
-        "/graph"
-      ]
-    },
-    {
-      "id": "/invert-binary-tree",
-      "group": 5,
-      "name": "Invert Binary Tree",
-      "links": [
-        "/code",
-        "/mid",
-        "/graph"
-      ]
-    },
-    {
-      "id": "/is-mirror-tree",
-      "group": 5,
-      "name": "Is Mirror Tree",
-      "links": [
-        "/code",
-        "/mid",
-        "/graph"
-      ]
-    },
-    {
-      "id": "/max-path-sum",
-      "group": 5,
-      "name": "Max Path Sum",
-      "links": [
-        "/code"
-      ]
-    },
-    {
-      "id": "/max-tree-depth",
-      "group": 5,
-      "name": "Max Tree Depth",
-      "links": [
-        "/code"
-      ]
-    },
-    {
-      "id": "/post-order-go",
-      "group": 5,
-      "name": "Post Order Go",
-      "links": [
-        "/code"
-      ]
-    },
-    {
-      "id": "/tree-codec-py",
-      "group": 5,
-      "name": "Tree Codec Py",
-      "links": [
-        "/code",
-        "/graph"
-      ]
-    },
-    {
-      "id": "/unique-bst",
-      "group": 5,
-      "name": "Unique Bst",
-      "links": [
-        "/code"
       ]
     }
   ],
@@ -4087,6 +3998,10 @@
     {
       "source": "/engineering",
       "target": "/programming"
+    },
+    {
+      "source": "/engineering",
+      "target": "/projects"
     },
     {
       "source": "/engineering",
@@ -4482,10 +4397,6 @@
     },
     {
       "source": "/algorithms",
-      "target": "/hash-table"
-    },
-    {
-      "source": "/algorithms",
       "target": "/linked-list"
     },
     {
@@ -4502,15 +4413,11 @@
     },
     {
       "source": "/algorithms",
-      "target": "/sets"
-    },
-    {
-      "source": "/algorithms",
       "target": "/sort"
     },
     {
       "source": "/algorithms",
-      "target": "/by-level"
+      "target": "/subset-with-dups"
     },
     {
       "source": "/algorithms",
@@ -4527,6 +4434,10 @@
     {
       "source": "/algorithms",
       "target": "/search"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/tree"
     },
     {
       "source": "/apis",
@@ -4551,6 +4462,18 @@
     {
       "source": "/computers",
       "target": "/operating-systems"
+    },
+    {
+      "source": "/data-structures",
+      "target": "/hash-table"
+    },
+    {
+      "source": "/data-structures",
+      "target": "/linked-lists"
+    },
+    {
+      "source": "/data-structures",
+      "target": "/sets"
     },
     {
       "source": "/data-structures",
@@ -4709,8 +4632,60 @@
       "target": "/programming-languages"
     },
     {
-      "source": "/programming",
-      "target": "/projects"
+      "source": "/projects",
+      "target": "/async-crawler"
+    },
+    {
+      "source": "/projects",
+      "target": "/c-hashmap"
+    },
+    {
+      "source": "/projects",
+      "target": "/compiler"
+    },
+    {
+      "source": "/projects",
+      "target": "/garbage-collector-in-c"
+    },
+    {
+      "source": "/projects",
+      "target": "/links-for-makers"
+    },
+    {
+      "source": "/projects",
+      "target": "/logos-os"
+    },
+    {
+      "source": "/projects",
+      "target": "/mini-search-engine"
+    },
+    {
+      "source": "/projects",
+      "target": "/mini-web-server"
+    },
+    {
+      "source": "/projects",
+      "target": "/minik-robot"
+    },
+    {
+      "source": "/projects",
+      "target": "/pascal-interpreter"
+    },
+    {
+      "source": "/projects",
+      "target": "/pca"
+    },
+    {
+      "source": "/projects",
+      "target": "/pneumonia-detection"
+    },
+    {
+      "source": "/projects",
+      "target": "/predict-movie-genres"
+    },
+    {
+      "source": "/projects",
+      "target": "/vga-driver"
     },
     {
       "source": "/security",
@@ -5293,18 +5268,6 @@
       "target": "/usability-testing"
     },
     {
-      "source": "/by-level",
-      "target": "/easy"
-    },
-    {
-      "source": "/by-level",
-      "target": "/hard"
-    },
-    {
-      "source": "/by-level",
-      "target": "/mid"
-    },
-    {
       "source": "/dynamic",
       "target": "/climb-stairs"
     },
@@ -5410,10 +5373,6 @@
     },
     {
       "source": "/search",
-      "target": "/bst"
-    },
-    {
-      "source": "/search",
       "target": "/local-maximum"
     },
     {
@@ -5423,6 +5382,42 @@
     {
       "source": "/search",
       "target": "/vector-search"
+    },
+    {
+      "source": "/tree",
+      "target": "/delete-tree-node"
+    },
+    {
+      "source": "/tree",
+      "target": "/diamater-of-binary-tree"
+    },
+    {
+      "source": "/tree",
+      "target": "/invert-binary-tree"
+    },
+    {
+      "source": "/tree",
+      "target": "/is-mirror-tree"
+    },
+    {
+      "source": "/tree",
+      "target": "/max-path-sum"
+    },
+    {
+      "source": "/tree",
+      "target": "/max-tree-depth"
+    },
+    {
+      "source": "/tree",
+      "target": "/post-order-go"
+    },
+    {
+      "source": "/tree",
+      "target": "/tree-codec-py"
+    },
+    {
+      "source": "/tree",
+      "target": "/unique-bst"
     },
     {
       "source": "/array",
@@ -5510,6 +5505,10 @@
     },
     {
       "source": "/tree",
+      "target": "/bst"
+    },
+    {
+      "source": "/tree",
       "target": "/heap"
     },
     {
@@ -5535,10 +5534,6 @@
     {
       "source": "/tree",
       "target": "/trie"
-    },
-    {
-      "source": "/tree",
-      "target": "/code"
     },
     {
       "source": "/distributed-patterns",
@@ -5571,98 +5566,6 @@
     {
       "source": "/programming-languages",
       "target": "/go-data-races"
-    },
-    {
-      "source": "/projects",
-      "target": "/async-crawler"
-    },
-    {
-      "source": "/projects",
-      "target": "/c-hashmap"
-    },
-    {
-      "source": "/projects",
-      "target": "/compiler"
-    },
-    {
-      "source": "/projects",
-      "target": "/garbage-collector-in-c"
-    },
-    {
-      "source": "/projects",
-      "target": "/links-for-makers"
-    },
-    {
-      "source": "/projects",
-      "target": "/logos-os"
-    },
-    {
-      "source": "/projects",
-      "target": "/mini-search-engine"
-    },
-    {
-      "source": "/projects",
-      "target": "/mini-web-server"
-    },
-    {
-      "source": "/projects",
-      "target": "/minik-robot"
-    },
-    {
-      "source": "/projects",
-      "target": "/pascal-interpreter"
-    },
-    {
-      "source": "/projects",
-      "target": "/pca"
-    },
-    {
-      "source": "/projects",
-      "target": "/pneumonia-detection"
-    },
-    {
-      "source": "/projects",
-      "target": "/predict-movie-genres"
-    },
-    {
-      "source": "/projects",
-      "target": "/vga-driver"
-    },
-    {
-      "source": "/code",
-      "target": "/delete-tree-node"
-    },
-    {
-      "source": "/code",
-      "target": "/diamater-of-binary-tree"
-    },
-    {
-      "source": "/code",
-      "target": "/invert-binary-tree"
-    },
-    {
-      "source": "/code",
-      "target": "/is-mirror-tree"
-    },
-    {
-      "source": "/code",
-      "target": "/max-path-sum"
-    },
-    {
-      "source": "/code",
-      "target": "/max-tree-depth"
-    },
-    {
-      "source": "/code",
-      "target": "/post-order-go"
-    },
-    {
-      "source": "/code",
-      "target": "/tree-codec-py"
-    },
-    {
-      "source": "/code",
-      "target": "/unique-bst"
     },
     {
       "source": "/accessibility",
@@ -5705,126 +5608,6 @@
       "target": "/bayes"
     },
     {
-      "source": "/easy",
-      "target": "/climb-stairs"
-    },
-    {
-      "source": "/easy",
-      "target": "/binary-search"
-    },
-    {
-      "source": "/easy",
-      "target": "/bst"
-    },
-    {
-      "source": "/easy",
-      "target": "/array-rotate"
-    },
-    {
-      "source": "/easy",
-      "target": "/generate-pascals-triangle"
-    },
-    {
-      "source": "/easy",
-      "target": "/group-anagrams"
-    },
-    {
-      "source": "/easy",
-      "target": "/plus-one"
-    },
-    {
-      "source": "/easy",
-      "target": "/check-brackets"
-    },
-    {
-      "source": "/easy",
-      "target": "/days-until-warmer-temperature"
-    },
-    {
-      "source": "/easy",
-      "target": "/dedup-game"
-    },
-    {
-      "source": "/easy",
-      "target": "/longest-common-prefix"
-    },
-    {
-      "source": "/hard",
-      "target": "/least-num-of-perfect-squares"
-    },
-    {
-      "source": "/mid",
-      "target": "/coin-change"
-    },
-    {
-      "source": "/mid",
-      "target": "/edit-distance"
-    },
-    {
-      "source": "/mid",
-      "target": "/house-robber"
-    },
-    {
-      "source": "/mid",
-      "target": "/lengthOfLIS"
-    },
-    {
-      "source": "/mid",
-      "target": "/longest-common-subsequence"
-    },
-    {
-      "source": "/mid",
-      "target": "/longest-diverse-str"
-    },
-    {
-      "source": "/mid",
-      "target": "/min-edit-distance"
-    },
-    {
-      "source": "/mid",
-      "target": "/count-primes"
-    },
-    {
-      "source": "/mid",
-      "target": "/bfs-dfs-topo"
-    },
-    {
-      "source": "/mid",
-      "target": "/dijkstra"
-    },
-    {
-      "source": "/mid",
-      "target": "/longest-valid-paranthesis"
-    },
-    {
-      "source": "/mid",
-      "target": "/decode-string"
-    },
-    {
-      "source": "/mid",
-      "target": "/generate-n-grams"
-    },
-    {
-      "source": "/mid",
-      "target": "/delete-tree-node"
-    },
-    {
-      "source": "/mid",
-      "target": "/diamater-of-binary-tree"
-    },
-    {
-      "source": "/mid",
-      "target": "/invert-binary-tree"
-    },
-    {
-      "source": "/mid",
-      "target": "/is-mirror-tree"
-    },
-    {
-      "source": "/mid",
-      "target": "/level-order"
-    },
-    {
       "source": "/longest-common-subsequence",
       "target": "/min-edit-distance"
     },
@@ -5842,6 +5625,18 @@
     },
     {
       "source": "/data-structures",
+      "target": "/bloom-filters"
+    },
+    {
+      "source": "/data-structures",
+      "target": "/hyperloglog"
+    },
+    {
+      "source": "/data-structures",
+      "target": "/skiplists"
+    },
+    {
+      "source": "/data-structures",
       "target": "/b-trees"
     },
     {
@@ -5854,35 +5649,11 @@
     },
     {
       "source": "/graph",
-      "target": "/bst"
-    },
-    {
-      "source": "/graph",
       "target": "/lowest-common-ancestor"
     },
     {
       "source": "/graph",
-      "target": "/delete-tree-node"
-    },
-    {
-      "source": "/graph",
-      "target": "/diamater-of-binary-tree"
-    },
-    {
-      "source": "/graph",
-      "target": "/invert-binary-tree"
-    },
-    {
-      "source": "/graph",
-      "target": "/is-mirror-tree"
-    },
-    {
-      "source": "/graph",
       "target": "/tree-codec-py"
-    },
-    {
-      "source": "/graph",
-      "target": "/level-order"
     },
     {
       "source": "/stack",
@@ -5939,6 +5710,10 @@
     {
       "source": "/concurrency",
       "target": "/producer-consumer-problem"
+    },
+    {
+      "source": "/programming",
+      "target": "/projects"
     },
     {
       "source": "/akins-laws-of-spacecraft",
