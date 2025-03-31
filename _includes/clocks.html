@@ -1,20 +1,24 @@
 <script src="/assets/js/moment.min.js"></script>
 <script src="/assets/js/datetime.js"></script>
 
-<p id="current-time"></p>
-<p id="current-date"></p>
 
 <div class="columns">
 
   <div class="column is-4 is-mobile-6 has-text-centered">
+    <p id="current-time"></p>
+
     {% include clock.html type="hour" id="hourClock" %}
   </div>
 
   <div class="column is-4 is-mobile-6 has-text-centered">
+    <p id="current-date"></p>
+
     {% include clock.html type="month" id="monthClock" %}
   </div>
 
   <div class="column is-4 is-mobile-6 has-text-centered">
+    <p id="current-year"></p>
+
     {% include clock.html type="year" id="yearClock" %}
   </div>
 
@@ -23,5 +27,5 @@
 
 <script>
   show_date_and_time();
-
+  document.getElementById('current-year').innerHTML = new Date().getFullYear();
 </script>
