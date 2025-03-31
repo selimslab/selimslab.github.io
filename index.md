@@ -21,13 +21,12 @@ layout: page
       </ul>
 
 
-    <h2>Featured</h2>
-    {% include hub.html tag='top' %}
 
   </div>
 
   <div class="column is-4"> 
-    {% include earth.html %}
+    <h2>Featured</h2>
+    {% include hub.html tag='top' %}
   </div>
 
 </div>
@@ -35,7 +34,7 @@ layout: page
 
 <div class="columns">
 
-  <div class="column is-6">
+  <div class="column is-8">
     <h2>Tools</h2>
     {% include hub.html tag='tools' %}
     
