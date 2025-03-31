@@ -1,5 +1,4 @@
 ---
-tags:  mid 
 ---
 
 [[longest-common-subsequence]]

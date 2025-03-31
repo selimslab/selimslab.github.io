@@ -37,6 +37,7 @@
         "/algorithms",
         "/apis",
         "/computers",
+        "/data-structures",
         "/databases",
         "/distributed-systems",
         "/machine-learning",
@@ -235,12 +236,11 @@
     {
       "id": "/algorithms",
       "group": 2,
-      "name": "Data Structures & Algorithms",
+      "name": "Algorithms",
       "links": [
         "/engineering",
         "/backtrack",
         "/bit",
-        "/data-structures",
         "/greedy",
         "/hash-table",
         "/linked-list",
@@ -249,17 +249,11 @@
         "/producer-consumer-problem",
         "/sets",
         "/sort",
-        "/array",
         "/by-level",
         "/dynamic",
-        "/graph",
         "/heuristic",
         "/pointers",
-        "/queue",
         "/search",
-        "/stack",
-        "/string",
-        "/tree",
         "/lsm-trees",
         "/bayes"
       ]
@@ -284,6 +278,23 @@
         "/keyboard-shortcuts",
         "/networks",
         "/operating-systems"
+      ]
+    },
+    {
+      "id": "/data-structures",
+      "group": 2,
+      "name": "Data Structures",
+      "links": [
+        "/engineering",
+        "/array",
+        "/graph",
+        "/queue",
+        "/stack",
+        "/string",
+        "/tree",
+        "/b-trees",
+        "/db-data-structures",
+        "/lsm-trees"
       ]
     },
     {
@@ -1337,17 +1348,6 @@
       ]
     },
     {
-      "id": "/data-structures",
-      "group": 3,
-      "name": "Data Structures",
-      "links": [
-        "/algorithms",
-        "/b-trees",
-        "/db-data-structures",
-        "/lsm-trees"
-      ]
-    },
-    {
       "id": "/greedy",
       "group": 3,
       "name": "Greedy",
@@ -1414,22 +1414,6 @@
       ]
     },
     {
-      "id": "/array",
-      "group": 3,
-      "name": "Array",
-      "links": [
-        "/algorithms",
-        "/array-rotate",
-        "/count-primes",
-        "/generate-pascals-triangle",
-        "/group-anagrams",
-        "/longest-consecutive",
-        "/plus-one",
-        "/possible-morse",
-        "/three-sum-closest"
-      ]
-    },
-    {
       "id": "/by-level",
       "group": 3,
       "name": "By-level",
@@ -1464,24 +1448,6 @@
       ]
     },
     {
-      "id": "/graph",
-      "group": 3,
-      "name": "Graph",
-      "links": [
-        "/algorithms",
-        "/bfs-dfs-topo",
-        "/dijkstra",
-        "/lowest-common-ancestor",
-        "/bst",
-        "/delete-tree-node",
-        "/diamater-of-binary-tree",
-        "/invert-binary-tree",
-        "/is-mirror-tree",
-        "/tree-codec-py",
-        "/level-order"
-      ]
-    },
-    {
       "id": "/heuristic",
       "group": 3,
       "name": "Heuristic",
@@ -1509,16 +1475,6 @@
       ]
     },
     {
-      "id": "/queue",
-      "group": 3,
-      "name": "Queue",
-      "links": [
-        "/algorithms",
-        "/jump-game-2",
-        "/least-num-of-perfect-squares"
-      ]
-    },
-    {
       "id": "/search",
       "group": 3,
       "name": "Search",
@@ -1529,54 +1485,6 @@
         "/local-maximum",
         "/skiplists",
         "/vector-search"
-      ]
-    },
-    {
-      "id": "/stack",
-      "group": 3,
-      "name": "Stack",
-      "links": [
-        "/algorithms",
-        "/check-brackets",
-        "/days-until-warmer-temperature",
-        "/dedup-game",
-        "/longest-valid-paranthesis",
-        "/reverse-letters-only",
-        "/decode-string"
-      ]
-    },
-    {
-      "id": "/string",
-      "group": 3,
-      "name": "String",
-      "links": [
-        "/algorithms",
-        "/decode-string",
-        "/generate-n-grams",
-        "/longest-common-prefix",
-        "/rabin-karp",
-        "/repeatedStringMatch",
-        "/string-compression",
-        "/dedup-game",
-        "/longest-diverse-str",
-        "/longest-valid-paranthesis",
-        "/trie"
-      ]
-    },
-    {
-      "id": "/tree",
-      "group": 3,
-      "name": "Tree",
-      "links": [
-        "/algorithms",
-        "/heap",
-        "/level-order",
-        "/quad-tree",
-        "/r-tree",
-        "/tree-balancing",
-        "/tree-traversals",
-        "/trie",
-        "/code"
       ]
     },
     {
@@ -1628,6 +1536,97 @@
       "links": [
         "/computers",
         "/containers"
+      ]
+    },
+    {
+      "id": "/array",
+      "group": 3,
+      "name": "Array",
+      "links": [
+        "/data-structures",
+        "/array-rotate",
+        "/count-primes",
+        "/generate-pascals-triangle",
+        "/group-anagrams",
+        "/longest-consecutive",
+        "/plus-one",
+        "/three-sum-closest"
+      ]
+    },
+    {
+      "id": "/graph",
+      "group": 3,
+      "name": "Graph",
+      "links": [
+        "/data-structures",
+        "/bfs-dfs-topo",
+        "/dijkstra",
+        "/bst",
+        "/lowest-common-ancestor",
+        "/delete-tree-node",
+        "/diamater-of-binary-tree",
+        "/invert-binary-tree",
+        "/is-mirror-tree",
+        "/tree-codec-py",
+        "/level-order"
+      ]
+    },
+    {
+      "id": "/queue",
+      "group": 3,
+      "name": "Queue",
+      "links": [
+        "/data-structures",
+        "/jump-game-2",
+        "/least-num-of-perfect-squares"
+      ]
+    },
+    {
+      "id": "/stack",
+      "group": 3,
+      "name": "Stack",
+      "links": [
+        "/data-structures",
+        "/check-brackets",
+        "/days-until-warmer-temperature",
+        "/dedup-game",
+        "/longest-valid-paranthesis",
+        "/reverse-letters-only",
+        "/decode-string"
+      ]
+    },
+    {
+      "id": "/string",
+      "group": 3,
+      "name": "String",
+      "links": [
+        "/data-structures",
+        "/decode-string",
+        "/generate-n-grams",
+        "/longest-common-prefix",
+        "/rabin-karp",
+        "/repeatedStringMatch",
+        "/string-compression",
+        "/dedup-game",
+        "/longest-diverse-str",
+        "/longest-valid-paranthesis",
+        "/trie"
+      ]
+    },
+    {
+      "id": "/tree",
+      "group": 3,
+      "name": "Tree",
+      "links": [
+        "/data-structures",
+        "/heap",
+        "/level-order",
+        "/quad-tree",
+        "/r-tree",
+        "/tree-balancing",
+        "/tree-traversals",
+        "/trie",
+        "/code"
       ]
     },
     {
@@ -3167,89 +3166,21 @@
       ]
     },
     {
-      "id": "/array-rotate",
-      "group": 4,
-      "name": "Array Rotate",
-      "links": [
-        "/array",
-        "/easy"
-      ]
-    },
-    {
-      "id": "/count-primes",
-      "group": 4,
-      "name": "Count Primes",
-      "links": [
-        "/array",
-        "/mid"
-      ]
-    },
-    {
-      "id": "/generate-pascals-triangle",
-      "group": 4,
-      "name": "Generate Pascals Triangle",
-      "links": [
-        "/array",
-        "/easy"
-      ]
-    },
-    {
-      "id": "/group-anagrams",
-      "group": 4,
-      "name": "Group Anagrams",
-      "links": [
-        "/array",
-        "/easy"
-      ]
-    },
-    {
-      "id": "/longest-consecutive",
-      "group": 4,
-      "name": "Longest Consecutive",
-      "links": [
-        "/array"
-      ]
-    },
-    {
-      "id": "/plus-one",
-      "group": 4,
-      "name": "Plus One",
-      "links": [
-        "/array"
-      ]
-    },
-    {
-      "id": "/possible-morse",
-      "group": 4,
-      "name": "Possible Morse",
-      "links": [
-        "/array"
-      ]
-    },
-    {
-      "id": "/three-sum-closest",
-      "group": 4,
-      "name": "Three Sum Closest",
-      "links": [
-        "/array"
-      ]
-    },
-    {
       "id": "/easy",
       "group": 4,
       "name": "Easy",
       "links": [
         "/by-level",
-        "/array-rotate",
-        "/generate-pascals-triangle",
-        "/group-anagrams",
         "/climb-stairs",
         "/binary-search",
         "/bst",
+        "/array-rotate",
+        "/generate-pascals-triangle",
+        "/group-anagrams",
+        "/plus-one",
         "/check-brackets",
         "/days-until-warmer-temperature",
         "/dedup-game",
-        "/decode-string",
         "/longest-common-prefix"
       ]
     },
@@ -3268,7 +3199,6 @@
       "name": "Medium",
       "links": [
         "/by-level",
-        "/count-primes",
         "/coin-change",
         "/edit-distance",
         "/house-robber",
@@ -3276,9 +3206,11 @@
         "/longest-common-subsequence",
         "/longest-diverse-str",
         "/min-edit-distance",
+        "/count-primes",
         "/bfs-dfs-topo",
         "/dijkstra",
         "/longest-valid-paranthesis",
+        "/decode-string",
         "/generate-n-grams",
         "/delete-tree-node",
         "/diamater-of-binary-tree",
@@ -3421,24 +3353,6 @@
       ]
     },
     {
-      "id": "/bfs-dfs-topo",
-      "group": 4,
-      "name": "BFS DFS Toposort",
-      "links": [
-        "/graph",
-        "/mid"
-      ]
-    },
-    {
-      "id": "/dijkstra",
-      "group": 4,
-      "name": "Dijkstra",
-      "links": [
-        "/graph",
-        "/mid"
-      ]
-    },
-    {
       "id": "/approximation",
       "group": 4,
       "name": "Approximation",
@@ -3521,23 +3435,6 @@
       ]
     },
     {
-      "id": "/jump-game-2",
-      "group": 4,
-      "name": "Jump Game 2",
-      "links": [
-        "/queue"
-      ]
-    },
-    {
-      "id": "/least-num-of-perfect-squares",
-      "group": 4,
-      "name": "Least Num Of Perfect Squares",
-      "links": [
-        "/queue",
-        "/hard"
-      ]
-    },
-    {
       "id": "/binary-search",
       "group": 4,
       "name": "Binary Search",
@@ -3579,6 +3476,102 @@
       "name": "Vector Search",
       "links": [
         "/search"
+      ]
+    },
+    {
+      "id": "/array-rotate",
+      "group": 4,
+      "name": "Array Rotate",
+      "links": [
+        "/array",
+        "/easy"
+      ]
+    },
+    {
+      "id": "/count-primes",
+      "group": 4,
+      "name": "Count Primes",
+      "links": [
+        "/array",
+        "/mid"
+      ]
+    },
+    {
+      "id": "/generate-pascals-triangle",
+      "group": 4,
+      "name": "Generate Pascals Triangle",
+      "links": [
+        "/array",
+        "/easy"
+      ]
+    },
+    {
+      "id": "/group-anagrams",
+      "group": 4,
+      "name": "Group Anagrams",
+      "links": [
+        "/array",
+        "/easy"
+      ]
+    },
+    {
+      "id": "/longest-consecutive",
+      "group": 4,
+      "name": "Longest Consecutive",
+      "links": [
+        "/array"
+      ]
+    },
+    {
+      "id": "/plus-one",
+      "group": 4,
+      "name": "Plus One",
+      "links": [
+        "/array",
+        "/easy"
+      ]
+    },
+    {
+      "id": "/three-sum-closest",
+      "group": 4,
+      "name": "Three Sum Closest",
+      "links": [
+        "/array"
+      ]
+    },
+    {
+      "id": "/bfs-dfs-topo",
+      "group": 4,
+      "name": "BFS DFS Toposort",
+      "links": [
+        "/graph",
+        "/mid"
+      ]
+    },
+    {
+      "id": "/dijkstra",
+      "group": 4,
+      "name": "Dijkstra",
+      "links": [
+        "/graph",
+        "/mid"
+      ]
+    },
+    {
+      "id": "/jump-game-2",
+      "group": 4,
+      "name": "Jump Game 2",
+      "links": [
+        "/queue"
+      ]
+    },
+    {
+      "id": "/least-num-of-perfect-squares",
+      "group": 4,
+      "name": "Least Num Of Perfect Squares",
+      "links": [
+        "/queue",
+        "/hard"
       ]
     },
     {
@@ -3626,7 +3619,7 @@
       "name": "Decode String",
       "links": [
         "/string",
-        "/easy",
+        "/mid",
         "/stack"
       ]
     },
@@ -4077,6 +4070,10 @@
     },
     {
       "source": "/engineering",
+      "target": "/data-structures"
+    },
+    {
+      "source": "/engineering",
       "target": "/databases"
     },
     {
@@ -4481,10 +4478,6 @@
     },
     {
       "source": "/algorithms",
-      "target": "/data-structures"
-    },
-    {
-      "source": "/algorithms",
       "target": "/greedy"
     },
     {
@@ -4517,19 +4510,11 @@
     },
     {
       "source": "/algorithms",
-      "target": "/array"
-    },
-    {
-      "source": "/algorithms",
       "target": "/by-level"
     },
     {
       "source": "/algorithms",
       "target": "/dynamic"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/graph"
     },
     {
       "source": "/algorithms",
@@ -4541,23 +4526,7 @@
     },
     {
       "source": "/algorithms",
-      "target": "/queue"
-    },
-    {
-      "source": "/algorithms",
       "target": "/search"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/stack"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/string"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/tree"
     },
     {
       "source": "/apis",
@@ -4582,6 +4551,30 @@
     {
       "source": "/computers",
       "target": "/operating-systems"
+    },
+    {
+      "source": "/data-structures",
+      "target": "/array"
+    },
+    {
+      "source": "/data-structures",
+      "target": "/graph"
+    },
+    {
+      "source": "/data-structures",
+      "target": "/queue"
+    },
+    {
+      "source": "/data-structures",
+      "target": "/stack"
+    },
+    {
+      "source": "/data-structures",
+      "target": "/string"
+    },
+    {
+      "source": "/data-structures",
+      "target": "/tree"
     },
     {
       "source": "/databases",
@@ -5300,38 +5293,6 @@
       "target": "/usability-testing"
     },
     {
-      "source": "/array",
-      "target": "/array-rotate"
-    },
-    {
-      "source": "/array",
-      "target": "/count-primes"
-    },
-    {
-      "source": "/array",
-      "target": "/generate-pascals-triangle"
-    },
-    {
-      "source": "/array",
-      "target": "/group-anagrams"
-    },
-    {
-      "source": "/array",
-      "target": "/longest-consecutive"
-    },
-    {
-      "source": "/array",
-      "target": "/plus-one"
-    },
-    {
-      "source": "/array",
-      "target": "/possible-morse"
-    },
-    {
-      "source": "/array",
-      "target": "/three-sum-closest"
-    },
-    {
       "source": "/by-level",
       "target": "/easy"
     },
@@ -5404,14 +5365,6 @@
       "target": "/word-break"
     },
     {
-      "source": "/graph",
-      "target": "/bfs-dfs-topo"
-    },
-    {
-      "source": "/graph",
-      "target": "/dijkstra"
-    },
-    {
       "source": "/heuristic",
       "target": "/approximation"
     },
@@ -5452,14 +5405,6 @@
       "target": "/threeSum"
     },
     {
-      "source": "/queue",
-      "target": "/jump-game-2"
-    },
-    {
-      "source": "/queue",
-      "target": "/least-num-of-perfect-squares"
-    },
-    {
       "source": "/search",
       "target": "/binary-search"
     },
@@ -5478,6 +5423,50 @@
     {
       "source": "/search",
       "target": "/vector-search"
+    },
+    {
+      "source": "/array",
+      "target": "/array-rotate"
+    },
+    {
+      "source": "/array",
+      "target": "/count-primes"
+    },
+    {
+      "source": "/array",
+      "target": "/generate-pascals-triangle"
+    },
+    {
+      "source": "/array",
+      "target": "/group-anagrams"
+    },
+    {
+      "source": "/array",
+      "target": "/longest-consecutive"
+    },
+    {
+      "source": "/array",
+      "target": "/plus-one"
+    },
+    {
+      "source": "/array",
+      "target": "/three-sum-closest"
+    },
+    {
+      "source": "/graph",
+      "target": "/bfs-dfs-topo"
+    },
+    {
+      "source": "/graph",
+      "target": "/dijkstra"
+    },
+    {
+      "source": "/queue",
+      "target": "/jump-game-2"
+    },
+    {
+      "source": "/queue",
+      "target": "/least-num-of-perfect-squares"
     },
     {
       "source": "/stack",
@@ -5717,6 +5706,18 @@
     },
     {
       "source": "/easy",
+      "target": "/climb-stairs"
+    },
+    {
+      "source": "/easy",
+      "target": "/binary-search"
+    },
+    {
+      "source": "/easy",
+      "target": "/bst"
+    },
+    {
+      "source": "/easy",
       "target": "/array-rotate"
     },
     {
@@ -5729,15 +5730,7 @@
     },
     {
       "source": "/easy",
-      "target": "/climb-stairs"
-    },
-    {
-      "source": "/easy",
-      "target": "/binary-search"
-    },
-    {
-      "source": "/easy",
-      "target": "/bst"
+      "target": "/plus-one"
     },
     {
       "source": "/easy",
@@ -5753,19 +5746,11 @@
     },
     {
       "source": "/easy",
-      "target": "/decode-string"
-    },
-    {
-      "source": "/easy",
       "target": "/longest-common-prefix"
     },
     {
       "source": "/hard",
       "target": "/least-num-of-perfect-squares"
-    },
-    {
-      "source": "/mid",
-      "target": "/count-primes"
     },
     {
       "source": "/mid",
@@ -5797,6 +5782,10 @@
     },
     {
       "source": "/mid",
+      "target": "/count-primes"
+    },
+    {
+      "source": "/mid",
       "target": "/bfs-dfs-topo"
     },
     {
@@ -5806,6 +5795,10 @@
     {
       "source": "/mid",
       "target": "/longest-valid-paranthesis"
+    },
+    {
+      "source": "/mid",
+      "target": "/decode-string"
     },
     {
       "source": "/mid",
@@ -5832,6 +5825,22 @@
       "target": "/level-order"
     },
     {
+      "source": "/longest-common-subsequence",
+      "target": "/min-edit-distance"
+    },
+    {
+      "source": "/greedy",
+      "target": "/approximation"
+    },
+    {
+      "source": "/pointers",
+      "target": "/longest-valid-paranthesis"
+    },
+    {
+      "source": "/operating-systems",
+      "target": "/containers"
+    },
+    {
       "source": "/data-structures",
       "target": "/b-trees"
     },
@@ -5844,16 +5853,12 @@
       "target": "/lsm-trees"
     },
     {
-      "source": "/longest-common-subsequence",
-      "target": "/min-edit-distance"
+      "source": "/graph",
+      "target": "/bst"
     },
     {
       "source": "/graph",
       "target": "/lowest-common-ancestor"
-    },
-    {
-      "source": "/graph",
-      "target": "/bst"
     },
     {
       "source": "/graph",
@@ -5878,14 +5883,6 @@
     {
       "source": "/graph",
       "target": "/level-order"
-    },
-    {
-      "source": "/greedy",
-      "target": "/approximation"
-    },
-    {
-      "source": "/pointers",
-      "target": "/longest-valid-paranthesis"
     },
     {
       "source": "/stack",
@@ -5914,10 +5911,6 @@
     {
       "source": "/heap",
       "target": "/longest-diverse-str"
-    },
-    {
-      "source": "/operating-systems",
-      "target": "/containers"
     },
     {
       "source": "/b-trees",

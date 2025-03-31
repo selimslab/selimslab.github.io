@@ -1,5 +1,6 @@
 ---
 title: Skip Lists 
+tags: ds
 ---
 
 Searching sorted data is a common use case 

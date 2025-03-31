@@ -26,7 +26,7 @@ n=3
 We can start an opening bracket if we still have one (of n) left to place. 
 And we can start a closing bracket if it would not exceed the number of opening brackets.
 """
-def generateParenthesis(self, N):
+def generate_parenthesis(self, N):
     ans = []
     def backtrack(S = '', left = 0, right = 0):
         if len(S) == 2 * N:
@@ -40,7 +40,7 @@ def generateParenthesis(self, N):
     backtrack()
     return ans
 
-assert generateParenthesis(3) == ["((()))", "(()())", "(())()", "()(())", "()()()"]
+assert generate_parenthesis(3) == ["((()))", "(()())", "(())()", "()(())", "()()()"]
 ```
 
 ```py
@@ -61,7 +61,7 @@ A solution set is:
 ]
 """
 
-def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
+def combinationSum(self, candidates: list[int], target: int) -> list[list[int]]:
 
     def backtrack(target, comb, idx):
         if target == 0: # found a valid combination
@@ -85,11 +85,9 @@ subsets(nums):
   start with empty set 
 
   for num in nums:
-    newseen = []
-    for set in seen:
-      add (set + num) to newseen
+    news = [set + num for set in seen]
 
-    merge newseen with seen
+    merge news with seen
 ```
 
 

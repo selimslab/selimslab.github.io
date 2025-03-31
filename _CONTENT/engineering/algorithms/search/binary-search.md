@@ -1,5 +1,5 @@
 ---
-tags: easy
+
 ---
 
 ```python

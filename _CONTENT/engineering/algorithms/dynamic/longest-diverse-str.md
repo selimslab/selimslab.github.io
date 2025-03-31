@@ -1,5 +1,5 @@
 ---
-tags:  heap str dp mid
+tags:  heap str dp
 
 ---
 
