@@ -677,7 +677,8 @@
         "/hard-times",
         "/poetry",
         "/reasoning",
-        "/time"
+        "/time",
+        "/typewriter"
       ]
     },
     {
@@ -2949,7 +2950,8 @@
       "group": 3,
       "name": "Typewriter",
       "links": [
-        "/tools"
+        "/tools",
+        "/top"
       ]
     },
     {
@@ -5924,6 +5926,10 @@
     {
       "source": "/top",
       "target": "/time"
+    },
+    {
+      "source": "/top",
+      "target": "/typewriter"
     },
     {
       "source": "/bayes",

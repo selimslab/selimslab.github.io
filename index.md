@@ -6,14 +6,17 @@ layout: page
 
 <p><a href="/about">delta</a> - give your mind some space</p>
 
+
+
+<div class="columns">
+
+
+  <div class="column is-4">
+
 <ul>
   <li><a href='/clocks/' id="current-time"></a></li>
   <li><a href='/calendar/' id="current-date"></a></li>
 </ul>
-
-<div class="columns">
-
-  <div class="column is-4">
 
     <h2>Contents</h2>
 
