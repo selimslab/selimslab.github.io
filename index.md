@@ -3,8 +3,13 @@ layout: page
 ---
 
 
+
 <p><a href="/about">delta</a> - give your mind some space</p>
 
+<ul>
+  <li><a href='/clocks/' id="current-time"></a></li>
+  <li><a href='/calendar/' id="current-date"></a></li>
+</ul>
 
 <div class="columns">
 
@@ -23,14 +28,6 @@ layout: page
     <h2>Featured</h2>
     {% include hub.html tag='top' %}
 
-
-  </div>
-
-  <div class="column is-4"> 
-
-    <h2>Tools</h2>
-    {% include hub.html tag='tools' %}
-    
   </div>
 
 </div>
@@ -41,6 +38,12 @@ layout: page
 
 {% include random-art.html %}
 
+<script src="/assets/js/moment.min.js"></script>
+<script src="/assets/js/datetime.js"></script>
 
 
+<script>
+  show_date_and_time();
+
+</script>
 
