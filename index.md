@@ -5,7 +5,7 @@ layout: page
 
 <div class="columns is-vcentered">
 
-  <div class="column">
+  <div class="column is-6">
 
     <h2>Delta</h2>
     <p>Give your mind some space</p>
@@ -29,7 +29,7 @@ layout: page
   </div>
 
 
-  <div class="column">
+  <div class="column is-6"> 
     {% include earth.html %}
   </div>
 

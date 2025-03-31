@@ -3,7 +3,9 @@ layout: page
 title: Welcome!
 ---
 
-This is Selim, yet another being on Planet Earth, writing for fun
+This is Selim, yet another being on Planet Earth 
+
+"Il faut cultiver notre jardin"
 
 ## Links 
 
