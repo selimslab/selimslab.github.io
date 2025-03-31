@@ -711,7 +711,7 @@
         "/lists",
         "/calendar",
         "/clocks",
-        "/typing-practice",
+        "/typewriter",
         "/experiments",
         "/timelines"
       ]
@@ -2945,9 +2945,9 @@
       ]
     },
     {
-      "id": "/typing-practice",
+      "id": "/typewriter",
       "group": 3,
-      "name": "Typing Practice",
+      "name": "Typewriter",
       "links": [
         "/tools"
       ]
@@ -5103,7 +5103,7 @@
     },
     {
       "source": "/tools",
-      "target": "/typing-practice"
+      "target": "/typewriter"
     },
     {
       "source": "/economics",
