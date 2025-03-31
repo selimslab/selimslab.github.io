@@ -35,7 +35,7 @@ layout: page
 
 <div class="columns">
 
-  <div class="column is-4">
+  <div class="column is-6">
     <h2>Tools</h2>
     {% include hub.html tag='tools' %}
     
