@@ -23,14 +23,6 @@ layout: page
 
   </div>
 
-  <div class="column is-4"> 
-    {% include earth.html %}
-  </div>
-
-</div>
-
-<div class="columns">
-
   <div class="column is-4">
 
     <h2>Featured</h2>
@@ -39,13 +31,22 @@ layout: page
   </div>
 
 
-  <div class="column is-6">
+</div>
+
+<div class="columns">
+
+
+  <div class="column is-4">
     <h2>Tools</h2>
     {% include hub.html tag='tools' %}
     
     {% include random-idea.html %}
 
-</div>
+  </div>
+
+  <div class="column is-4"> 
+    {% include earth.html %}
+  </div>
 
 
 </div>
