@@ -7,8 +7,7 @@ layout: page
 
   <div class="column is-6">
 
-    <h2>Delta</h2>
-    <p>Give your mind some space</p>
+    <p><a href="/about">delta</a> - give your mind some space</p>
 
     <h2>Contents</h2>
 
@@ -26,6 +25,8 @@ layout: page
     <h2>Tools</h2>
     {% include hub.html tag='tools' %}
     
+    {% include random-idea.html %}
+
   </div>
 
 
@@ -39,7 +40,6 @@ layout: page
 
 {% include random-art.html %}
 
-{% include random-idea.html %}
 
 
 

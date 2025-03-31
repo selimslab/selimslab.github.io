@@ -25,7 +25,8 @@
         "/edebiyat",
         "/literature",
         "/poetry",
-        "/siir"
+        "/siir",
+        "/ux"
       ]
     },
     {
@@ -235,6 +236,23 @@
       ]
     },
     {
+      "id": "/ux",
+      "group": 2,
+      "name": "UX",
+      "links": [
+        "/arts",
+        "/a-free-web-again",
+        "/accessibility",
+        "/evolution-of-computer-interfaces",
+        "/hijacked-minds",
+        "/natural-ux",
+        "/polished-pixels",
+        "/things-users-care",
+        "/usability-testing",
+        "/design"
+      ]
+    },
+    {
       "id": "/algorithms",
       "group": 2,
       "name": "Algorithms",
@@ -337,11 +355,12 @@
         "/distributed-design-patterns",
         "/generate-a-unique-id",
         "/kafka",
+        "/observability",
+        "/percentile-vs-percentage",
         "/spark",
         "/sre",
         "/time-and-order",
         "/distributed-patterns",
-        "/observability",
         "/system-design"
       ]
     },
@@ -965,22 +984,6 @@
       ]
     },
     {
-      "id": "/ux",
-      "group": 3,
-      "name": "UX",
-      "links": [
-        "/design",
-        "/a-free-web-again",
-        "/accessibility",
-        "/evolution-of-computer-interfaces",
-        "/hijacked-minds",
-        "/natural-ux",
-        "/polished-pixels",
-        "/things-users-care",
-        "/usability-testing"
-      ]
-    },
-    {
       "id": "/atasozleri",
       "group": 3,
       "name": "Atasozleri",
@@ -1358,6 +1361,73 @@
       "name": "Yunus Emre",
       "links": [
         "/siir"
+      ]
+    },
+    {
+      "id": "/a-free-web-again",
+      "group": 3,
+      "name": "A Free Web Again",
+      "links": [
+        "/ux"
+      ]
+    },
+    {
+      "id": "/accessibility",
+      "group": 3,
+      "name": "Accessible Software",
+      "links": [
+        "/ux",
+        "/keyboard-shortcuts",
+        "/system-design"
+      ]
+    },
+    {
+      "id": "/evolution-of-computer-interfaces",
+      "group": 3,
+      "name": "Evolution Of Computer Interfaces",
+      "links": [
+        "/ux"
+      ]
+    },
+    {
+      "id": "/hijacked-minds",
+      "group": 3,
+      "name": "How Technology is Hijacking Your Mind",
+      "links": [
+        "/ux",
+        "/psychology"
+      ]
+    },
+    {
+      "id": "/natural-ux",
+      "group": 3,
+      "name": "Natural UX",
+      "links": [
+        "/ux"
+      ]
+    },
+    {
+      "id": "/polished-pixels",
+      "group": 3,
+      "name": "Polished Pixels",
+      "links": [
+        "/ux"
+      ]
+    },
+    {
+      "id": "/things-users-care",
+      "group": 3,
+      "name": "Things end users care about but programmers don't",
+      "links": [
+        "/ux"
+      ]
+    },
+    {
+      "id": "/usability-testing",
+      "group": 3,
+      "name": "Why You Only Need to Test with 5 Users",
+      "links": [
+        "/ux"
       ]
     },
     {
@@ -1837,6 +1907,22 @@
       ]
     },
     {
+      "id": "/observability",
+      "group": 3,
+      "name": "Observability",
+      "links": [
+        "/distributed-systems"
+      ]
+    },
+    {
+      "id": "/percentile-vs-percentage",
+      "group": 3,
+      "name": "Percentile Vs Percentage",
+      "links": [
+        "/distributed-systems"
+      ]
+    },
+    {
       "id": "/spark",
       "group": 3,
       "name": "Apache Spark",
@@ -1871,15 +1957,6 @@
         "/node-coordination",
         "/node-health",
         "/node-recovery"
-      ]
-    },
-    {
-      "id": "/observability",
-      "group": 3,
-      "name": "Observability",
-      "links": [
-        "/distributed-systems",
-        "/percentile-vs-percentage"
       ]
     },
     {
@@ -3229,73 +3306,6 @@
       ]
     },
     {
-      "id": "/a-free-web-again",
-      "group": 4,
-      "name": "A Free Web Again",
-      "links": [
-        "/ux"
-      ]
-    },
-    {
-      "id": "/accessibility",
-      "group": 4,
-      "name": "Accessible Software",
-      "links": [
-        "/ux",
-        "/keyboard-shortcuts",
-        "/system-design"
-      ]
-    },
-    {
-      "id": "/evolution-of-computer-interfaces",
-      "group": 4,
-      "name": "Evolution Of Computer Interfaces",
-      "links": [
-        "/ux"
-      ]
-    },
-    {
-      "id": "/hijacked-minds",
-      "group": 4,
-      "name": "How Technology is Hijacking Your Mind",
-      "links": [
-        "/ux",
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/natural-ux",
-      "group": 4,
-      "name": "Natural UX",
-      "links": [
-        "/ux"
-      ]
-    },
-    {
-      "id": "/polished-pixels",
-      "group": 4,
-      "name": "Polished Pixels",
-      "links": [
-        "/ux"
-      ]
-    },
-    {
-      "id": "/things-users-care",
-      "group": 4,
-      "name": "Things end users care about but programmers don't",
-      "links": [
-        "/ux"
-      ]
-    },
-    {
-      "id": "/usability-testing",
-      "group": 4,
-      "name": "Why You Only Need to Test with 5 Users",
-      "links": [
-        "/ux"
-      ]
-    },
-    {
       "id": "/climb-stairs",
       "group": 4,
       "name": "Climb Stairs",
@@ -3890,14 +3900,6 @@
       ]
     },
     {
-      "id": "/percentile-vs-percentage",
-      "group": 4,
-      "name": "Percentile Vs Percentage",
-      "links": [
-        "/observability"
-      ]
-    },
-    {
       "id": "/c-and-python",
       "group": 4,
       "name": "Call C code from Python",
@@ -3966,6 +3968,10 @@
     {
       "source": "/arts",
       "target": "/siir"
+    },
+    {
+      "source": "/arts",
+      "target": "/ux"
     },
     {
       "source": "/engineering",
@@ -4196,10 +4202,6 @@
       "target": "/urban-planning"
     },
     {
-      "source": "/design",
-      "target": "/ux"
-    },
-    {
       "source": "/edebiyat",
       "target": "/atasozleri"
     },
@@ -4382,6 +4384,38 @@
     {
       "source": "/siir",
       "target": "/yunus-emre"
+    },
+    {
+      "source": "/ux",
+      "target": "/a-free-web-again"
+    },
+    {
+      "source": "/ux",
+      "target": "/accessibility"
+    },
+    {
+      "source": "/ux",
+      "target": "/evolution-of-computer-interfaces"
+    },
+    {
+      "source": "/ux",
+      "target": "/hijacked-minds"
+    },
+    {
+      "source": "/ux",
+      "target": "/natural-ux"
+    },
+    {
+      "source": "/ux",
+      "target": "/polished-pixels"
+    },
+    {
+      "source": "/ux",
+      "target": "/things-users-care"
+    },
+    {
+      "source": "/ux",
+      "target": "/usability-testing"
     },
     {
       "source": "/algorithms",
@@ -4581,6 +4615,14 @@
     },
     {
       "source": "/distributed-systems",
+      "target": "/observability"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/percentile-vs-percentage"
+    },
+    {
+      "source": "/distributed-systems",
       "target": "/spark"
     },
     {
@@ -4594,10 +4636,6 @@
     {
       "source": "/distributed-systems",
       "target": "/distributed-patterns"
-    },
-    {
-      "source": "/distributed-systems",
-      "target": "/observability"
     },
     {
       "source": "/machine-learning",
@@ -5236,38 +5274,6 @@
       "target": "/social-media"
     },
     {
-      "source": "/ux",
-      "target": "/a-free-web-again"
-    },
-    {
-      "source": "/ux",
-      "target": "/accessibility"
-    },
-    {
-      "source": "/ux",
-      "target": "/evolution-of-computer-interfaces"
-    },
-    {
-      "source": "/ux",
-      "target": "/hijacked-minds"
-    },
-    {
-      "source": "/ux",
-      "target": "/natural-ux"
-    },
-    {
-      "source": "/ux",
-      "target": "/polished-pixels"
-    },
-    {
-      "source": "/ux",
-      "target": "/things-users-care"
-    },
-    {
-      "source": "/ux",
-      "target": "/usability-testing"
-    },
-    {
       "source": "/dynamic",
       "target": "/climb-stairs"
     },
@@ -5556,10 +5562,6 @@
       "target": "/node-recovery"
     },
     {
-      "source": "/observability",
-      "target": "/percentile-vs-percentage"
-    },
-    {
       "source": "/programming-languages",
       "target": "/c-and-python"
     },
@@ -5568,8 +5570,8 @@
       "target": "/go-data-races"
     },
     {
-      "source": "/accessibility",
-      "target": "/keyboard-shortcuts"
+      "source": "/design",
+      "target": "/ux"
     },
     {
       "source": "/cien-anos-de-soledad",
@@ -5598,6 +5600,10 @@
     {
       "source": "/wind-and-rain",
       "target": "/know-where-to-stop"
+    },
+    {
+      "source": "/accessibility",
+      "target": "/keyboard-shortcuts"
     },
     {
       "source": "/algorithms",
