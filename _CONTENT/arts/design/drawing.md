@@ -1,6 +1,8 @@
 ---
 ---
 
+<https://www.tylermileslockett.com/>
+
 [wizard zines](https://wizardzines.com/)
 
 [It's Nicky Case! (ncase.me)](https://ncase.me/)
