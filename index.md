@@ -6,7 +6,7 @@ layout: page
 <p><a href="/about">delta</a> - give your mind some space</p>
 
 
-<div class="columns">
+<div class="columns is-vcentered">
 
   <div class="column is-4">
 
@@ -20,19 +20,20 @@ layout: page
         <li><a href='/ideas/'>Ideas</a></li>
       </ul>
 
-  </div>
-
-  <div class="column is-4">
 
     <h2>Featured</h2>
     {% include hub.html tag='top' %}
 
   </div>
 
+  <div class="column is-4"> 
+    {% include earth.html %}
+  </div>
 
 </div>
 
-<div class="columns is-vcentered">
+
+<div class="columns">
 
   <div class="column is-4">
     <h2>Tools</h2>
@@ -42,12 +43,8 @@ layout: page
 
   </div>
 
-  <br>
-  <div class="column is-4"> 
-    {% include earth.html %}
-  </div>
-
 </div>
+
 
 <br>
 
