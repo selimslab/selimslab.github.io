@@ -12,8 +12,8 @@ def longest_common_prefix(words) -> str:
     shortest_word = min(words, key=len)
 
     for i, letter in enumerate(shortest_word):
-        for s in words:
-            if s[i] != letter:
+        for w in words:
+            if w[i] != letter:
                 return shortest_word[:i]
 
     return shortest_word

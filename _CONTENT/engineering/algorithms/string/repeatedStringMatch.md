@@ -18,7 +18,7 @@ def repeatedStringMatch(A: str, B: str) -> int:
     while len(rep) < 10000:
         rep += A      
         count += 1
-        if B in rep:
+        if B in rep: # replace with rabin-karp
             return count 
     
     return -1 

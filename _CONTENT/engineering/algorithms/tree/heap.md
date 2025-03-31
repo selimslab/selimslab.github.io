@@ -12,11 +12,9 @@ class KthLargest:
     """
 
     def __init__(self, k: int, nums: List[int]):
-        self.pool = nums
+        self.pool = sorted(nums)[-k:]
         self.k = k
         heapq.heapify(self.pool)
-        while len(self.pool) > k:
-            heapq.heappop(self.pool)
 
     def add(self, val: int) -> int:
         if len(self.pool) < self.k:

@@ -3,7 +3,7 @@ tags: gr mid
 
 ---
 
-```python
+```py
 def levelOrder(self, root: "TreeNode") -> "List[List[int]]":
     levelorder = list()
 

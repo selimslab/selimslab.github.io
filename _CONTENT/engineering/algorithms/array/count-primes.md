@@ -5,7 +5,7 @@ tags: mid
 
 
 ```py
-def countPrimes(self, n: int) -> int:
+def count_primes(self, n: int) -> int:
     """
     Mark non-primes, 
     2s, 3s, 5s
