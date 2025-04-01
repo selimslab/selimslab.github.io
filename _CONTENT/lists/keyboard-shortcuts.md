@@ -3,9 +3,9 @@
 
 
 ## Tab navigation 
-- `Tab` and `Shift+Tab` move focus
-- `Shift+Enter` open in a new window
-- `Ctrl+Enter` open in a new tab
+    - `Tab` and `Shift+Tab` move focus
+    - `Shift+Enter` open in a new window
+    - `Ctrl+Enter` open in a new tab
 
 ## Mac terminal
 
@@ -32,9 +32,9 @@
 
 ## VS 
 
-CTRL + M + O collapse all.
+    CTRL + M + O collapse all.
 
-CTRL + M + L expand all
+    CTRL + M + L expand all
 
 
 [[accessibility]]
