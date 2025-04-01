@@ -55,8 +55,8 @@
       "name": "Ideas",
       "links": [
         "/root",
-        "/essais",
         "/choice",
+        "/essais",
         "/health",
         "/philosophy",
         "/reasoning",
@@ -470,21 +470,6 @@
       ]
     },
     {
-      "id": "/essais",
-      "group": 2,
-      "name": "Essais",
-      "links": [
-        "/ideas",
-        "/be-good-to-each-other-and-yourself",
-        "/how-to-grow-old-russell",
-        "/slow-down-time",
-        "/farming-trap",
-        "/who-goes-nazi",
-        "/being-poor",
-        "/lists"
-      ]
-    },
-    {
       "id": "/choice",
       "group": 2,
       "name": "Choice",
@@ -502,6 +487,21 @@
         "/one-day-at-a-time",
         "/possibility",
         "/top"
+      ]
+    },
+    {
+      "id": "/essais",
+      "group": 2,
+      "name": "Essais",
+      "links": [
+        "/ideas",
+        "/be-good-to-each-other-and-yourself",
+        "/how-to-grow-old-russell",
+        "/slow-down-time",
+        "/farming-trap",
+        "/who-goes-nazi",
+        "/being-poor",
+        "/lists"
       ]
     },
     {
@@ -525,9 +525,8 @@
         "/all-is-one",
         "/aristotle",
         "/balance",
-        "/be-good-to-each-other-and-yourself",
-        "/books-phil",
         "/concepts-in-greek-thought",
+        "/desire",
         "/enemies",
         "/epicurus",
         "/eudaimonia",
@@ -535,7 +534,6 @@
         "/freedom",
         "/friends",
         "/good-and-evil",
-        "/marcus-aurelius",
         "/questions",
         "/stupidity",
         "/travelling",
@@ -544,7 +542,9 @@
         "/how-to-deal-with-pain",
         "/tao-te-ching",
         "/critical-thinking",
-        "/hard-times"
+        "/hard-times",
+        "/pale-blue-dot",
+        "/the-art-of-war"
       ]
     },
     {
@@ -589,7 +589,6 @@
         "/earth-time-scale",
         "/getting-old",
         "/hard-times",
-        "/how-to-grow-old-russell",
         "/on-the-shortness-of-life",
         "/pale-blue-dot",
         "/slow-down-time",
@@ -700,7 +699,6 @@
         "/lists",
         "/graph-2d",
         "/graph-3d",
-        "/site-stats",
         "/tools"
       ]
     },
@@ -723,7 +721,7 @@
       "name": "Welcome!",
       "links": [
         "/misc",
-        "/site-stats"
+        "/graph-3d"
       ]
     },
     {
@@ -1197,7 +1195,6 @@
       "name": "Tao Te Ching",
       "links": [
         "/poetry",
-        "/books-phil",
         "/philosophy",
         "/politics"
       ]
@@ -2460,6 +2457,23 @@
       ]
     },
     {
+      "id": "/be-good-to-each-other-and-yourself",
+      "group": 3,
+      "name": "Be Good To Each Other And Yourself",
+      "links": [
+        "/essais",
+        "/work"
+      ]
+    },
+    {
+      "id": "/how-to-grow-old-russell",
+      "group": 3,
+      "name": "How to Grow Old, by Bertrand Russell",
+      "links": [
+        "/essais"
+      ]
+    },
+    {
       "id": "/drowning-does-not-look-dramatic",
       "group": 3,
       "name": "Drowning Does Not Look Dramatic",
@@ -2517,28 +2531,17 @@
       ]
     },
     {
-      "id": "/be-good-to-each-other-and-yourself",
-      "group": 3,
-      "name": "Be Good To Each Other And Yourself",
-      "links": [
-        "/philosophy",
-        "/essais",
-        "/work"
-      ]
-    },
-    {
-      "id": "/books-phil",
-      "group": 3,
-      "name": "Books",
-      "links": [
-        "/philosophy",
-        "/tao-te-ching"
-      ]
-    },
-    {
       "id": "/concepts-in-greek-thought",
       "group": 3,
       "name": "Concepts In Greek Thought",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/desire",
+      "group": 3,
+      "name": "Desire",
       "links": [
         "/philosophy"
       ]
@@ -2598,14 +2601,6 @@
       "id": "/good-and-evil",
       "group": 3,
       "name": "Good And Evil",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/marcus-aurelius",
-      "group": 3,
-      "name": "Marcus Aurelius",
       "links": [
         "/philosophy"
       ]
@@ -2789,18 +2784,9 @@
       ]
     },
     {
-      "id": "/how-to-grow-old-russell",
-      "group": 3,
-      "name": "How to Grow Old, by Bertrand Russell",
-      "links": [
-        "/time",
-        "/essais"
-      ]
-    },
-    {
       "id": "/on-the-shortness-of-life",
       "group": 3,
-      "name": "Life is not short but we waste it",
+      "name": "On the Shortness of Life",
       "links": [
         "/time"
       ]
@@ -2811,6 +2797,7 @@
       "name": "Pale Blue Dot",
       "links": [
         "/time",
+        "/philosophy",
         "/earth-time-scale"
       ]
     },
@@ -2914,16 +2901,6 @@
       "name": "3D graph of all pages",
       "links": [
         "/experiments",
-        "/site-stats"
-      ]
-    },
-    {
-      "id": "/site-stats",
-      "group": 3,
-      "name": "Site Stats",
-      "links": [
-        "/experiments",
-        "/graph-3d",
         "/about"
       ]
     },
@@ -3198,7 +3175,8 @@
       "group": 3,
       "name": "The Art of War",
       "links": [
-        "/politics"
+        "/politics",
+        "/philosophy"
       ]
     },
     {
@@ -4025,11 +4003,11 @@
     },
     {
       "source": "/ideas",
-      "target": "/essais"
+      "target": "/choice"
     },
     {
       "source": "/ideas",
-      "target": "/choice"
+      "target": "/essais"
     },
     {
       "source": "/ideas",
@@ -4880,6 +4858,14 @@
       "target": "/possibility"
     },
     {
+      "source": "/essais",
+      "target": "/be-good-to-each-other-and-yourself"
+    },
+    {
+      "source": "/essais",
+      "target": "/how-to-grow-old-russell"
+    },
+    {
       "source": "/health",
       "target": "/drowning-does-not-look-dramatic"
     },
@@ -4909,15 +4895,11 @@
     },
     {
       "source": "/philosophy",
-      "target": "/be-good-to-each-other-and-yourself"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/books-phil"
-    },
-    {
-      "source": "/philosophy",
       "target": "/concepts-in-greek-thought"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/desire"
     },
     {
       "source": "/philosophy",
@@ -4946,10 +4928,6 @@
     {
       "source": "/philosophy",
       "target": "/good-and-evil"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/marcus-aurelius"
     },
     {
       "source": "/philosophy",
@@ -5033,10 +5011,6 @@
     },
     {
       "source": "/time",
-      "target": "/how-to-grow-old-russell"
-    },
-    {
-      "source": "/time",
       "target": "/on-the-shortness-of-life"
     },
     {
@@ -5090,10 +5064,6 @@
     {
       "source": "/experiments",
       "target": "/graph-3d"
-    },
-    {
-      "source": "/experiments",
-      "target": "/site-stats"
     },
     {
       "source": "/tools",
@@ -5596,10 +5566,6 @@
       "target": "/one-day-at-a-time"
     },
     {
-      "source": "/tao-te-ching",
-      "target": "/books-phil"
-    },
-    {
       "source": "/wind-and-rain",
       "target": "/know-where-to-stop"
     },
@@ -5768,12 +5734,8 @@
       "target": "/hard-times"
     },
     {
-      "source": "/essais",
-      "target": "/be-good-to-each-other-and-yourself"
-    },
-    {
-      "source": "/essais",
-      "target": "/how-to-grow-old-russell"
+      "source": "/be-good-to-each-other-and-yourself",
+      "target": "/work"
     },
     {
       "source": "/essais",
@@ -5790,10 +5752,6 @@
     {
       "source": "/essais",
       "target": "/being-poor"
-    },
-    {
-      "source": "/be-good-to-each-other-and-yourself",
-      "target": "/work"
     },
     {
       "source": "/freedom",
@@ -5818,6 +5776,14 @@
     {
       "source": "/philosophy",
       "target": "/hard-times"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/pale-blue-dot"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/the-art-of-war"
     },
     {
       "source": "/questions",
@@ -5881,10 +5847,6 @@
     },
     {
       "source": "/graph-3d",
-      "target": "/site-stats"
-    },
-    {
-      "source": "/site-stats",
       "target": "/about"
     },
     {
