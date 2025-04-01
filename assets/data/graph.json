@@ -37,11 +37,12 @@
         "/root",
         "/algorithms",
         "/apis",
-        "/computers",
+        "/computer-networks",
         "/data-structures",
         "/databases",
         "/distributed-systems",
         "/machine-learning",
+        "/operating-systems",
         "/programming",
         "/projects",
         "/security",
@@ -74,6 +75,7 @@
         "/blogs",
         "/datasets",
         "/documentaries",
+        "/keyboard-shortcuts",
         "/movies",
         "/paintings",
         "/quotes",
@@ -94,7 +96,6 @@
       "links": [
         "/root",
         "/about",
-        "/interviews",
         "/llm-prompt",
         "/llm",
         "/pub",
@@ -286,16 +287,12 @@
       ]
     },
     {
-      "id": "/computers",
+      "id": "/computer-networks",
       "group": 2,
-      "name": "Computers",
+      "name": "Computer Networks",
       "links": [
         "/engineering",
-        "/computers-from-scratch",
-        "/containers",
-        "/keyboard-shortcuts",
-        "/networks",
-        "/operating-systems"
+        "/tcp-ip"
       ]
     },
     {
@@ -377,15 +374,24 @@
       ]
     },
     {
+      "id": "/operating-systems",
+      "group": 2,
+      "name": "Operating Systems",
+      "links": [
+        "/engineering",
+        "/containers"
+      ]
+    },
+    {
       "id": "/programming",
       "group": 2,
       "name": "Programming",
       "links": [
         "/engineering",
+        "/computers-from-scratch",
         "/concurrency",
         "/encodings",
         "/links-for-new-programmers",
-        "/oop",
         "/the-tao-of-programming",
         "/unicode",
         "/programming-languages",
@@ -643,6 +649,15 @@
       ]
     },
     {
+      "id": "/keyboard-shortcuts",
+      "group": 2,
+      "name": "Keyboard Shortcuts",
+      "links": [
+        "/lists",
+        "/accessibility"
+      ]
+    },
+    {
       "id": "/movies",
       "group": 2,
       "name": "Movies 🎬",
@@ -722,14 +737,6 @@
       "links": [
         "/misc",
         "/graph-3d"
-      ]
-    },
-    {
-      "id": "/interviews",
-      "group": 2,
-      "name": "Interviews",
-      "links": [
-        "/misc"
       ]
     },
     {
@@ -1599,46 +1606,11 @@
       ]
     },
     {
-      "id": "/computers-from-scratch",
+      "id": "/tcp-ip",
       "group": 3,
-      "name": "Computers From Scratch",
+      "name": "Tcp Ip",
       "links": [
-        "/computers"
-      ]
-    },
-    {
-      "id": "/containers",
-      "group": 3,
-      "name": "Containers",
-      "links": [
-        "/computers",
-        "/operating-systems"
-      ]
-    },
-    {
-      "id": "/keyboard-shortcuts",
-      "group": 3,
-      "name": "Keyboard Shortcuts",
-      "links": [
-        "/computers",
-        "/accessibility"
-      ]
-    },
-    {
-      "id": "/networks",
-      "group": 3,
-      "name": "Networks",
-      "links": [
-        "/computers"
-      ]
-    },
-    {
-      "id": "/operating-systems",
-      "group": 3,
-      "name": "Operating Systems",
-      "links": [
-        "/computers",
-        "/containers"
+        "/computer-networks"
       ]
     },
     {
@@ -1966,6 +1938,22 @@
       ]
     },
     {
+      "id": "/containers",
+      "group": 3,
+      "name": "Containers",
+      "links": [
+        "/operating-systems"
+      ]
+    },
+    {
+      "id": "/computers-from-scratch",
+      "group": 3,
+      "name": "Computers From Scratch",
+      "links": [
+        "/programming"
+      ]
+    },
+    {
       "id": "/concurrency",
       "group": 3,
       "name": "Concurrency",
@@ -1986,14 +1974,6 @@
       "id": "/links-for-new-programmers",
       "group": 3,
       "name": "Links For New Programmers",
-      "links": [
-        "/programming"
-      ]
-    },
-    {
-      "id": "/oop",
-      "group": 3,
-      "name": "OOP",
       "links": [
         "/programming"
       ]
@@ -3963,7 +3943,7 @@
     },
     {
       "source": "/engineering",
-      "target": "/computers"
+      "target": "/computer-networks"
     },
     {
       "source": "/engineering",
@@ -3980,6 +3960,10 @@
     {
       "source": "/engineering",
       "target": "/machine-learning"
+    },
+    {
+      "source": "/engineering",
+      "target": "/operating-systems"
     },
     {
       "source": "/engineering",
@@ -4047,6 +4031,10 @@
     },
     {
       "source": "/lists",
+      "target": "/keyboard-shortcuts"
+    },
+    {
+      "source": "/lists",
       "target": "/movies"
     },
     {
@@ -4076,10 +4064,6 @@
     {
       "source": "/misc",
       "target": "/about"
-    },
-    {
-      "source": "/misc",
-      "target": "/interviews"
     },
     {
       "source": "/misc",
@@ -4458,24 +4442,8 @@
       "target": "/why-not-graphql"
     },
     {
-      "source": "/computers",
-      "target": "/computers-from-scratch"
-    },
-    {
-      "source": "/computers",
-      "target": "/containers"
-    },
-    {
-      "source": "/computers",
-      "target": "/keyboard-shortcuts"
-    },
-    {
-      "source": "/computers",
-      "target": "/networks"
-    },
-    {
-      "source": "/computers",
-      "target": "/operating-systems"
+      "source": "/computer-networks",
+      "target": "/tcp-ip"
     },
     {
       "source": "/data-structures",
@@ -4622,6 +4590,14 @@
       "target": "/reinforcement-learning"
     },
     {
+      "source": "/operating-systems",
+      "target": "/containers"
+    },
+    {
+      "source": "/programming",
+      "target": "/computers-from-scratch"
+    },
+    {
       "source": "/programming",
       "target": "/concurrency"
     },
@@ -4632,10 +4608,6 @@
     {
       "source": "/programming",
       "target": "/links-for-new-programmers"
-    },
-    {
-      "source": "/programming",
-      "target": "/oop"
     },
     {
       "source": "/programming",
@@ -5592,10 +5564,6 @@
     {
       "source": "/pointers",
       "target": "/longest-valid-paranthesis"
-    },
-    {
-      "source": "/operating-systems",
-      "target": "/containers"
     },
     {
       "source": "/data-structures",
