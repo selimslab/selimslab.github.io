@@ -7,7 +7,7 @@ layout: page
 
 <div class="column is-6">
 
-    <h2 class="mono">delta</h2>
+    <h1 class="mono">delta</h1>
 
     <ul>
       <li><a href='/clocks/' id="current-time" class="mono"></a></li>
