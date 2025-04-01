@@ -18,7 +18,7 @@ layout: default
 {% assign words = content | number_of_words | times: 1.0  %}
 {% if words > 360 %} 
   <br>
-  {% include random-art.html %}
   {% include random-idea.html %}
+  {% include random-art.html %}
 {% endif %}
 

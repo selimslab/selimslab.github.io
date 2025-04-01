@@ -5,7 +5,9 @@ title: Welcome!
 
 This is Selim, writing here because "Il faut cultiver notre jardin"
 
-[[site-stats]]
+{% include stats.html  %}
+
+[[graph-3d]]
 
 [github.com/selimslab](https://github.com/selimslab)
 
