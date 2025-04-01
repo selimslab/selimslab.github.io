@@ -1,6 +1,10 @@
 
 .highlight table pre { margin: 0; }
 
+.highlight {
+  font-family: 'Inconsolata', monospace;
+}
+
 .highlight, .highlight .w {
   color: inherit;
 }
