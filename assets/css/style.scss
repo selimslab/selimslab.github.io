@@ -28,7 +28,7 @@ $darkText: $darkGray;
 // Font stacks
 $sansSerif: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $serif: Georgia, serif;
-
+$mono: 'Inconsolata', monospace;
 
 html {
   font-size: larger;
@@ -124,7 +124,7 @@ img{
 }
 
 .img-alt {
-  font-family: $serif;
+  font-family: $mono;
   text-align: center !important;
 }
 
@@ -160,7 +160,7 @@ pre {
 }
 
 h1 {
-  font-family: $serif;
+  font-family: $mono;
   font-size: 1.5rem;
   margin-bottom: 1rem;
   font-weight: bold;
