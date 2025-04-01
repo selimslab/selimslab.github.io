@@ -3,20 +3,16 @@ layout: page
 ---
 
 
-
-<p class="mono"><a href="/about">delta</a> - give your mind some space</p>
-
-
-
 <div class="columns">
 
+<div class="column is-6">
 
-  <div class="column is-4">
+    <h2 class="mono">delta</h2>
 
-<ul>
-  <li><a href='/clocks/' id="current-time" class="mono"></a></li>
-  <li><a href='/calendar/' id="current-date" class="mono"></a></li>
-</ul>
+    <ul>
+      <li><a href='/clocks/' id="current-time" class="mono"></a></li>
+      <li><a href='/calendar/' id="current-date" class="mono"></a></li>
+    </ul>
 
     <h2>Contents</h2>
 
@@ -47,6 +43,5 @@ layout: page
 
 <script>
   show_date_and_time();
-
 </script>
 

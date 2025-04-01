@@ -1,11 +1,7 @@
 
-# Δ   
-
-Delta is for change, one step at a time  
+# Δ - Delta 
 
 View at <https://selimslab.github.io>
-
-![](assets/static/ss.jpg)
 
 ## Setup
 
@@ -17,15 +13,7 @@ View at <https://selimslab.github.io>
 [![CI/CD](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml/badge.svg)](https://github.com/selimslab/selimslab.github.io/actions/workflows/pages.yml)
 
 
-## How it works 
-
-- Writing clarifies mind 
-- Editing provides natural spaced repetition
-- Ideas spark and connect in creative ways
-
----
-
-- Plain markdown files with unique names, linked in [[wikilink]] format, and tagged 
+- Plain markdown files with unique names and [[wikilinks]] 
 - Published with Jekyll using [barryclark/jekyll-now](https://github.com/barryclark/jekyll-now)
 - Works offline via service worker. Caches all pages (4-5mb) on first visit
 

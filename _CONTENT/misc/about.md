@@ -3,7 +3,9 @@ layout: page
 title: Welcome!
 ---
 
-This is Selim, writing here because "Il faut cultiver notre jardin"
+This is Selim
+
+"Il faut cultiver notre jardin"
 
 ## Site Stats 
 
