@@ -36,6 +36,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.mono {
+  font-family: $mono;
+}
+
 a.site-name {
   font-family: $serif;
 }
@@ -167,6 +171,7 @@ h1 {
 }
 
 h2 {
+  font-family: $mono;
   font-size: 1.2rem;
   font-weight: bold;
   margin-top: 1.5rem;
@@ -198,6 +203,7 @@ ol {
 }
 
 .toplink {
+  font-family: $mono;
   margin-right: 0.5rem;
 }
 

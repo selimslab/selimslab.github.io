@@ -4,7 +4,7 @@ layout: page
 
 
 
-<p><a href="/about">delta</a> - give your mind some space</p>
+<p class="mono"><a href="/about">delta</a> - give your mind some space</p>
 
 
 
@@ -14,8 +14,8 @@ layout: page
   <div class="column is-4">
 
 <ul>
-  <li><a href='/clocks/' id="current-time"></a></li>
-  <li><a href='/calendar/' id="current-date"></a></li>
+  <li><a href='/clocks/' id="current-time" class="mono"></a></li>
+  <li><a href='/calendar/' id="current-date" class="mono"></a></li>
 </ul>
 
     <h2>Contents</h2>
