@@ -1,5 +1,6 @@
 ---
 title: Decision Making 
+tags: reasoning
 ---
 
 - Prevent a problem before it happens - [[do-without-doing]]
@@ -15,7 +16,5 @@ title: Decision Making
 - Once you decide, don't second guess, follow through 
 - Don't judge decisions by results, a good decision can have a bad outcome, it's luck 
 - If you don't choose, the world will choose it for you 
-
-[[reasoning]]
 
 <https://sive.rs/book/ThinkingInBets>

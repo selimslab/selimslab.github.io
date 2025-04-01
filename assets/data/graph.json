@@ -566,6 +566,7 @@
         "/problem-solving",
         "/systems-thinking",
         "/take-a-walk",
+        "/decision-making",
         "/work",
         "/top",
         "/sciences"
@@ -2360,7 +2361,8 @@
       "name": "Decision Making",
       "links": [
         "/choice",
-        "/critical-thinking"
+        "/critical-thinking",
+        "/reasoning"
       ]
     },
     {
@@ -3308,10 +3310,9 @@
     {
       "id": "/longest-common-subsequence",
       "group": 4,
-      "name": "Longest Common Subsequence",
+      "name": "Longest-common-subsequence",
       "links": [
-        "/dynamic",
-        "/min-edit-distance"
+        "/dynamic"
       ]
     },
     {
@@ -3346,8 +3347,7 @@
       "group": 4,
       "name": "Min Edit Distance",
       "links": [
-        "/dynamic",
-        "/longest-common-subsequence"
+        "/dynamic"
       ]
     },
     {
@@ -5554,10 +5554,6 @@
       "target": "/bayes"
     },
     {
-      "source": "/longest-common-subsequence",
-      "target": "/min-edit-distance"
-    },
-    {
       "source": "/greedy",
       "target": "/approximation"
     },
@@ -5764,6 +5760,10 @@
     {
       "source": "/mastery",
       "target": "/work"
+    },
+    {
+      "source": "/reasoning",
+      "target": "/decision-making"
     },
     {
       "source": "/reasoning",

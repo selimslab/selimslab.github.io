@@ -3,7 +3,7 @@ layout: page
 ---
 
 
-<div class="columns">
+<div class="columns is-vcentered">
 
 <div class="column is-6">
 
@@ -28,6 +28,10 @@ layout: page
     {% include hub.html tag='top' %}
 
   </div>
+
+<div class="column is-4">
+</div>
+
 
 </div>
 

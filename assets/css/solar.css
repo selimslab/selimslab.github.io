@@ -2,7 +2,6 @@
 .moon,
 .planet-container {
     border-radius: 50%;
-    box-shadow: 5px -3px 10px 3px #5e90f1;
     height: 15rem;
     overflow: hidden;
     position: relative;
@@ -11,13 +10,16 @@
     margin: 0 auto;
 }
 
+.planet-container {
+    box-shadow: 5px -3px 15px 3px #2259a7;
+}
 
 .moon{
     animation: rotate-night 24s linear infinite;
     background-image: url(/assets/static/solar/2k_moon.jpg);
     background-size: 200%;
     height: 5rem;
-    box-shadow: 0 0 15px 5px #5e90f1;
+    box-shadow: 0 0 15px 5px #4367ad;
     width: 5rem;
     z-index: 2;
 }
@@ -27,7 +29,7 @@
     background-image: url(/assets/static/solar/2k_sun_small.jpg);
     background-size: 200%;
     height: 5rem;
-    box-shadow: 0 0 10px 5px #f1855e;
+    box-shadow: 0 0 15px 5px #f1855e;
     width: 5rem;
     z-index: 2;
 }
@@ -40,20 +42,22 @@
     position: absolute;
     width: 15rem;
     z-index: 2;
+    transform: rotate(-10deg);
+    border-radius: 50%;
 }
 
 .day {
     animation: rotate-day 24s linear infinite;
     background-image: url(/assets/static/solar/2k_earth_daymap.jpg);
     background-size: 200%;
-    border-left: solid 1px #040615;
     border-radius: 50%;
-    box-shadow: 12px 0 24px 0 #040615 inset; 
+    box-shadow: 4px 0 16px 0 #040615 inset; 
     height: 15rem;
-    margin-left: 110px;
+    margin-left: 90px;
     position: absolute;
     width: 15rem;
     z-index: 3;
+    transform: rotate(-10deg)
 }
 .clouds {
     animation: rotate-day 48s linear infinite, spin-clouds 48s ease infinite;
@@ -62,7 +66,7 @@
     border-radius: 50%;    
     box-shadow: 5px 0 20px 10px #040615 inset, -9px 0px 20px 10px #040615 inset;
     height: 15rem;
-    margin-left: 110px;
+    margin-left: 90px;
     opacity: 0.45;
     position: absolute;
     width: 15rem;
@@ -84,8 +88,8 @@
     100% { background-position: -80% 0; }
 }
 @keyframes rotate-night {
-    0% { background-position: calc(120% + 120px) 0; }
-    100% { background-position: calc(-80% + 120px) 0; }
+    0% { background-position: calc(120% + 90px) 0; }
+    100% { background-position: calc(-80% + 90px) 0; }
 }
 @keyframes spin-clouds {
     0% { transform: rotate(0deg); }
