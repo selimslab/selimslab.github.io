@@ -1,15 +1,6 @@
 ---
-layout: article
+layout: delta
 ---
-
-<style>
-  #themeToggle {
-      display: flex;
-  }
-  .search{
-      display: flex;
-  }
-</style>
 
 
 <div class="columns is-vcentered">
@@ -51,3 +42,11 @@ layout: article
 </script>
 
 
+<style>
+  #themeToggle {
+      display: flex;
+  }
+  .search{
+      display: flex;
+  }
+</style>
