@@ -7,14 +7,12 @@ layout: page
 
 <div class="column is-6">
 
-    <h1 class="mono">delta</h1>
-
     <ul>
-      <li><a href='/clocks/' id="current-time" class="mono"></a></li>
-      <li><a href='/calendar/' id="current-date" class="mono"></a></li>
+      <li><a href='/clocks/' id="current-time"></a></li>
+      <li><a href='/calendar/' id="current-date"></a></li>
     </ul>
 
-    <h2>Contents</h2>
+    <h2 class="mono">delta</h2>
 
       <ul>
       <li><a href='/arts/'>Arts</a></li>
@@ -24,13 +22,9 @@ layout: page
         <li><a href='/ideas/'>Ideas</a></li>
       </ul>
 
-    <h2>Featured</h2>
-    {% include hub.html tag='top' %}
 
   </div>
 
-<div class="column is-4">
-</div>
 
 
 </div>

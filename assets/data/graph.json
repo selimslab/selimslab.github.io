@@ -7,6 +7,7 @@
       "links": [
         "/arts",
         "/engineering",
+        "/exp",
         "/ideas",
         "/lists",
         "/misc",
@@ -51,6 +52,17 @@
       ]
     },
     {
+      "id": "/exp",
+      "group": 1,
+      "name": "Experiments",
+      "links": [
+        "/root",
+        "/earth-time-scale",
+        "/timelines",
+        "/typewriter"
+      ]
+    },
+    {
       "id": "/ideas",
       "group": 1,
       "name": "Ideas",
@@ -77,16 +89,13 @@
         "/documentaries",
         "/keyboard-shortcuts",
         "/movies",
-        "/paintings",
         "/quotes",
-        "/top",
         "/checklists",
-        "/experiments",
         "/tools",
         "/classics",
         "/essais",
-        "/history-of-technology",
-        "/timelines"
+        "/timelines",
+        "/history-of-technology"
       ]
     },
     {
@@ -95,12 +104,14 @@
       "name": "Misc",
       "links": [
         "/root",
-        "/about",
+        "/graph-2d",
+        "/graph-3d",
         "/llm-prompt",
         "/llm",
         "/pub",
         "/resume",
-        "/short-prompt"
+        "/short-prompt",
+        "/site-stats"
       ]
     },
     {
@@ -213,8 +224,7 @@
         "/uncut-wood",
         "/we-wear-the-mask",
         "/wei-wu-wei",
-        "/wind-and-rain",
-        "/top"
+        "/wind-and-rain"
       ]
     },
     {
@@ -369,7 +379,6 @@
         "/engineering",
         "/reinforcement-learning",
         "/pca",
-        "/pneumonia-detection",
         "/predict-movie-genres"
       ]
     },
@@ -415,7 +424,6 @@
         "/minik-robot",
         "/pascal-interpreter",
         "/pca",
-        "/pneumonia-detection",
         "/predict-movie-genres",
         "/vga-driver",
         "/programming"
@@ -476,6 +484,38 @@
       ]
     },
     {
+      "id": "/earth-time-scale",
+      "group": 2,
+      "name": "If the Earth is 45 years old",
+      "links": [
+        "/exp",
+        "/climate-change",
+        "/pale-blue-dot",
+        "/timelines",
+        "/history"
+      ]
+    },
+    {
+      "id": "/timelines",
+      "group": 2,
+      "name": "Timelines",
+      "links": [
+        "/exp",
+        "/earth-time-scale",
+        "/time",
+        "/lists",
+        "/history"
+      ]
+    },
+    {
+      "id": "/typewriter",
+      "group": 2,
+      "name": "Typewriter",
+      "links": [
+        "/exp"
+      ]
+    },
+    {
       "id": "/choice",
       "group": 2,
       "name": "Choice",
@@ -491,8 +531,7 @@
         "/know-where-to-stop",
         "/less",
         "/one-day-at-a-time",
-        "/possibility",
-        "/top"
+        "/possibility"
       ]
     },
     {
@@ -568,7 +607,6 @@
         "/take-a-walk",
         "/decision-making",
         "/work",
-        "/top",
         "/sciences"
       ]
     },
@@ -593,18 +631,17 @@
       "links": [
         "/ideas",
         "/death",
-        "/earth-time-scale",
         "/getting-old",
         "/hard-times",
         "/on-the-shortness-of-life",
         "/pale-blue-dot",
         "/slow-down-time",
         "/the-past",
+        "/timelines",
         "/calendar",
         "/clocks",
         "/history",
-        "/timelines",
-        "/top"
+        "/space"
       ]
     },
     {
@@ -667,33 +704,11 @@
       ]
     },
     {
-      "id": "/paintings",
-      "group": 2,
-      "name": "Paintings",
-      "links": [
-        "/lists"
-      ]
-    },
-    {
       "id": "/quotes",
       "group": 2,
       "name": "Quotes",
       "links": [
         "/lists"
-      ]
-    },
-    {
-      "id": "/top",
-      "group": 2,
-      "name": "Top",
-      "links": [
-        "/lists",
-        "/choice",
-        "/hard-times",
-        "/poetry",
-        "/reasoning",
-        "/time",
-        "/typewriter"
       ]
     },
     {
@@ -708,36 +723,30 @@
       ]
     },
     {
-      "id": "/experiments",
-      "group": 2,
-      "name": "Experiments",
-      "links": [
-        "/lists",
-        "/graph-2d",
-        "/graph-3d",
-        "/tools"
-      ]
-    },
-    {
       "id": "/tools",
       "group": 2,
       "name": "Tools",
       "links": [
         "/lists",
         "/calendar",
-        "/clocks",
-        "/typewriter",
-        "/experiments",
-        "/timelines"
+        "/clocks"
       ]
     },
     {
-      "id": "/about",
+      "id": "/graph-2d",
       "group": 2,
-      "name": "Welcome!",
+      "name": "2D Graph of All Pages",
+      "links": [
+        "/misc"
+      ]
+    },
+    {
+      "id": "/graph-3d",
+      "group": 2,
+      "name": "3D graph of all pages",
       "links": [
         "/misc",
-        "/graph-3d"
+        "/site-stats"
       ]
     },
     {
@@ -781,6 +790,15 @@
       ]
     },
     {
+      "id": "/site-stats",
+      "group": 2,
+      "name": "Site Stats",
+      "links": [
+        "/misc",
+        "/graph-3d"
+      ]
+    },
+    {
       "id": "/economics",
       "group": 2,
       "name": "Economics",
@@ -798,8 +816,9 @@
         "/farming-trap",
         "/history-of-technology",
         "/rome",
-        "/timelines",
-        "/time"
+        "/time",
+        "/earth-time-scale",
+        "/timelines"
       ]
     },
     {
@@ -1609,7 +1628,7 @@
     {
       "id": "/tcp-ip",
       "group": 3,
-      "name": "Tcp Ip",
+      "name": "TCP/IP Model",
       "links": [
         "/computer-networks"
       ]
@@ -2072,7 +2091,7 @@
     {
       "id": "/minik-robot",
       "group": 3,
-      "name": "A* path-finding algorithm for a robot",
+      "name": "A* path-finding algorithm",
       "links": [
         "/projects"
       ]
@@ -2095,18 +2114,9 @@
       ]
     },
     {
-      "id": "/pneumonia-detection",
-      "group": 3,
-      "name": "Pneumonia Detection",
-      "links": [
-        "/projects",
-        "/machine-learning"
-      ]
-    },
-    {
       "id": "/predict-movie-genres",
       "group": 3,
-      "name": "Predict movie genres using ML classifiers",
+      "name": "Predict Movie Genres",
       "links": [
         "/projects",
         "/machine-learning"
@@ -2736,17 +2746,6 @@
       ]
     },
     {
-      "id": "/earth-time-scale",
-      "group": 3,
-      "name": "If the Earth is 45 years old",
-      "links": [
-        "/time",
-        "/climate-change",
-        "/pale-blue-dot",
-        "/timelines"
-      ]
-    },
-    {
       "id": "/getting-old",
       "group": 3,
       "name": "Getting Old",
@@ -2761,8 +2760,7 @@
       "links": [
         "/time",
         "/one-day-at-a-time",
-        "/philosophy",
-        "/top"
+        "/philosophy"
       ]
     },
     {
@@ -2779,8 +2777,8 @@
       "name": "Pale Blue Dot",
       "links": [
         "/time",
-        "/philosophy",
-        "/earth-time-scale"
+        "/earth-time-scale",
+        "/philosophy"
       ]
     },
     {
@@ -2870,23 +2868,6 @@
       ]
     },
     {
-      "id": "/graph-2d",
-      "group": 3,
-      "name": "2D Graph of All Pages",
-      "links": [
-        "/experiments"
-      ]
-    },
-    {
-      "id": "/graph-3d",
-      "group": 3,
-      "name": "3D graph of all pages",
-      "links": [
-        "/experiments",
-        "/about"
-      ]
-    },
-    {
       "id": "/calendar",
       "group": 3,
       "name": "Calendar",
@@ -2902,15 +2883,6 @@
       "links": [
         "/tools",
         "/time"
-      ]
-    },
-    {
-      "id": "/typewriter",
-      "group": 3,
-      "name": "Typewriter",
-      "links": [
-        "/tools",
-        "/top"
       ]
     },
     {
@@ -2945,18 +2917,6 @@
       "name": "Rome",
       "links": [
         "/history"
-      ]
-    },
-    {
-      "id": "/timelines",
-      "group": 3,
-      "name": "Timelines",
-      "links": [
-        "/history",
-        "/earth-time-scale",
-        "/time",
-        "/lists",
-        "/tools"
       ]
     },
     {
@@ -3092,7 +3052,8 @@
       "group": 3,
       "name": "Space",
       "links": [
-        "/physics"
+        "/physics",
+        "/time"
       ]
     },
     {
@@ -3310,9 +3271,10 @@
     {
       "id": "/longest-common-subsequence",
       "group": 4,
-      "name": "Longest-common-subsequence",
+      "name": "Longest Common Subsequence",
       "links": [
-        "/dynamic"
+        "/dynamic",
+        "/min-edit-distance"
       ]
     },
     {
@@ -3347,7 +3309,8 @@
       "group": 4,
       "name": "Min Edit Distance",
       "links": [
-        "/dynamic"
+        "/dynamic",
+        "/longest-common-subsequence"
       ]
     },
     {
@@ -3887,6 +3850,10 @@
     },
     {
       "source": "/root",
+      "target": "/exp"
+    },
+    {
+      "source": "/root",
       "target": "/ideas"
     },
     {
@@ -3986,6 +3953,18 @@
       "target": "/system-design"
     },
     {
+      "source": "/exp",
+      "target": "/earth-time-scale"
+    },
+    {
+      "source": "/exp",
+      "target": "/timelines"
+    },
+    {
+      "source": "/exp",
+      "target": "/typewriter"
+    },
+    {
       "source": "/ideas",
       "target": "/choice"
     },
@@ -4039,15 +4018,7 @@
     },
     {
       "source": "/lists",
-      "target": "/paintings"
-    },
-    {
-      "source": "/lists",
       "target": "/quotes"
-    },
-    {
-      "source": "/lists",
-      "target": "/top"
     },
     {
       "source": "/lists",
@@ -4055,15 +4026,15 @@
     },
     {
       "source": "/lists",
-      "target": "/experiments"
-    },
-    {
-      "source": "/lists",
       "target": "/tools"
     },
     {
       "source": "/misc",
-      "target": "/about"
+      "target": "/graph-2d"
+    },
+    {
+      "source": "/misc",
+      "target": "/graph-3d"
     },
     {
       "source": "/misc",
@@ -4084,6 +4055,10 @@
     {
       "source": "/misc",
       "target": "/short-prompt"
+    },
+    {
+      "source": "/misc",
+      "target": "/site-stats"
     },
     {
       "source": "/sciences",
@@ -4667,10 +4642,6 @@
     },
     {
       "source": "/projects",
-      "target": "/pneumonia-detection"
-    },
-    {
-      "source": "/projects",
       "target": "/predict-movie-genres"
     },
     {
@@ -4971,10 +4942,6 @@
     },
     {
       "source": "/time",
-      "target": "/earth-time-scale"
-    },
-    {
-      "source": "/time",
       "target": "/getting-old"
     },
     {
@@ -5030,24 +4997,12 @@
       "target": "/used-cars"
     },
     {
-      "source": "/experiments",
-      "target": "/graph-2d"
-    },
-    {
-      "source": "/experiments",
-      "target": "/graph-3d"
-    },
-    {
       "source": "/tools",
       "target": "/calendar"
     },
     {
       "source": "/tools",
       "target": "/clocks"
-    },
-    {
-      "source": "/tools",
-      "target": "/typewriter"
     },
     {
       "source": "/economics",
@@ -5064,10 +5019,6 @@
     {
       "source": "/history",
       "target": "/rome"
-    },
-    {
-      "source": "/history",
-      "target": "/timelines"
     },
     {
       "source": "/math",
@@ -5554,6 +5505,10 @@
       "target": "/bayes"
     },
     {
+      "source": "/longest-common-subsequence",
+      "target": "/min-edit-distance"
+    },
+    {
       "source": "/greedy",
       "target": "/approximation"
     },
@@ -5639,10 +5594,6 @@
     },
     {
       "source": "/machine-learning",
-      "target": "/pneumonia-detection"
-    },
-    {
-      "source": "/machine-learning",
       "target": "/predict-movie-genres"
     },
     {
@@ -5668,6 +5619,18 @@
     {
       "source": "/system-design",
       "target": "/systems-thinking"
+    },
+    {
+      "source": "/earth-time-scale",
+      "target": "/climate-change"
+    },
+    {
+      "source": "/earth-time-scale",
+      "target": "/pale-blue-dot"
+    },
+    {
+      "source": "/earth-time-scale",
+      "target": "/timelines"
     },
     {
       "source": "/character",
@@ -5774,15 +5737,7 @@
       "target": "/what-to-work-on"
     },
     {
-      "source": "/earth-time-scale",
-      "target": "/climate-change"
-    },
-    {
-      "source": "/earth-time-scale",
-      "target": "/pale-blue-dot"
-    },
-    {
-      "source": "/earth-time-scale",
+      "source": "/time",
       "target": "/timelines"
     },
     {
@@ -5799,7 +5754,7 @@
     },
     {
       "source": "/time",
-      "target": "/timelines"
+      "target": "/space"
     },
     {
       "source": "/driving",
@@ -5808,14 +5763,6 @@
     {
       "source": "/datasets",
       "target": "/probability-and-statistics"
-    },
-    {
-      "source": "/experiments",
-      "target": "/tools"
-    },
-    {
-      "source": "/graph-3d",
-      "target": "/about"
     },
     {
       "source": "/lists",
@@ -5827,39 +5774,23 @@
     },
     {
       "source": "/lists",
-      "target": "/history-of-technology"
+      "target": "/timelines"
     },
     {
       "source": "/lists",
+      "target": "/history-of-technology"
+    },
+    {
+      "source": "/graph-3d",
+      "target": "/site-stats"
+    },
+    {
+      "source": "/history",
+      "target": "/earth-time-scale"
+    },
+    {
+      "source": "/history",
       "target": "/timelines"
-    },
-    {
-      "source": "/tools",
-      "target": "/timelines"
-    },
-    {
-      "source": "/top",
-      "target": "/choice"
-    },
-    {
-      "source": "/top",
-      "target": "/hard-times"
-    },
-    {
-      "source": "/top",
-      "target": "/poetry"
-    },
-    {
-      "source": "/top",
-      "target": "/reasoning"
-    },
-    {
-      "source": "/top",
-      "target": "/time"
-    },
-    {
-      "source": "/top",
-      "target": "/typewriter"
     },
     {
       "source": "/bayes",

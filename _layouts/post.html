@@ -16,9 +16,8 @@ layout: default
   {% include backlinks.html %}
 
 {% assign words = content | number_of_words | times: 1.0  %}
-{% if words > 360 %} 
+{% if words > 180 %} 
   <br>
-  {% include random-idea.html %}
   {% include random-art.html %}
 {% endif %}
 

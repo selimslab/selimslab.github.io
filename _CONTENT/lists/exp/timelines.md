@@ -1,6 +1,6 @@
 ---
 title: Timelines
-tags: lists time tools history
+tags: lists time history
 --- 
 
 ## The past 14 billion years

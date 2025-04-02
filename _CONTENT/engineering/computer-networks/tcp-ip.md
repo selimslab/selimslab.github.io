@@ -1,7 +1,6 @@
 ---
+title: TCP/IP Model
 --- 
-
-## TCP/IP Model
 
 application layer - protocols, data 
 

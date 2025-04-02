@@ -1,5 +1,5 @@
 ---
-title: A* path-finding algorithm for a robot 
+title: A* path-finding algorithm
 tags: cpp
 
 ---
