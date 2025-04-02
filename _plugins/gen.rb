@@ -16,8 +16,6 @@ class SiteGenerator < Jekyll::Generator
   end
 
   def generate(site)
-    return if @generated
-
     fix_frontmatter unless @fixed_frontmatter
 
     initialize_site_data(site)
