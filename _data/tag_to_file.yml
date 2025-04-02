@@ -1,5 +1,15 @@
-ds: data-structures
+sci: sciences
+phil: philosophy
+psy: psychology
+pols: politics
+
+sys: system-design
+ml: machine-learning
+os: operating-systems
+
 algo: algorithms
+ds: data-structures
+
 str: string
 arr: array
 dp: dynamic
@@ -7,12 +17,3 @@ gr: graph
 ll: linked-list
 ptr: pointers
 q: queue
-os: operating-systems
-phil: philosophy
-psy: psychology
-pols: politics
-sci: sciences
-swe: software-engineering
-sys: system-design
-ml: machine-learning
-exp: experiments

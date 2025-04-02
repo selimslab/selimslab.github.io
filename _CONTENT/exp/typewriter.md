@@ -1,5 +1,5 @@
 ---
-tags: top
+layout: basic
 ---
 
 {% include typing.html %}

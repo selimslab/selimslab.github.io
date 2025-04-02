@@ -1,7 +1,7 @@
 ---
 title: Clocks ⏱️
 tags: time
-layout: tool
+layout: basic
 ---
 
 {% include clocks.html %}

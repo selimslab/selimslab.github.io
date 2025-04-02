@@ -6,4 +6,3 @@ tags: time
 
 {% include earth.html %}
 
-![](/assets/static/img/solar-system-scale.png)
