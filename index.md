@@ -44,9 +44,9 @@ layout: delta
 
 <style>
   #themeToggle {
-      display: flex;
+      display: block;
   }
   .search{
-      display: flex;
+      display: block;
   }
 </style>
