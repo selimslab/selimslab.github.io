@@ -14,13 +14,16 @@ function setTheme() {
     const theme = localStorage.getItem(THEME) || getSystemTheme();
     if (theme === THEME_LIGHT) {
         document.documentElement.setAttribute(DATA_THEME, THEME_LIGHT);
-        themeToggle.classList.remove(CLASS_MOON);
-        themeToggle.classList.add(CLASS_SUN);
-        // themeToggle.textContent = "🌘";
+        if (themeToggle) {
+            themeToggle.classList.remove(CLASS_MOON);
+            themeToggle.classList.add(CLASS_SUN);
+        }
     } else {
         document.documentElement.setAttribute(DATA_THEME, THEME_DARK);
-        themeToggle.classList.remove(CLASS_SUN);
-        themeToggle.classList.add(CLASS_MOON);
+        if (themeToggle) {
+            themeToggle.classList.remove(CLASS_SUN);
+            themeToggle.classList.add(CLASS_MOON);
+        }
         // themeToggle.textContent = "🌔";
     }
 }
