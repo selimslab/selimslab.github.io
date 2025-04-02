@@ -1,5 +1,5 @@
 ---
-layout: free
+layout: pad
 ---
 
 {% include earth.html %}

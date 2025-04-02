@@ -68,13 +68,11 @@
         "/root",
         "/calendar",
         "/clocks",
-        "/earth-interactive",
-        "/earth",
         "/idea-machine",
         "/paintings",
-        "/space",
         "/timelines",
-        "/typewriter"
+        "/typewriter",
+        "/space"
       ]
     },
     {
@@ -516,22 +514,6 @@
       ]
     },
     {
-      "id": "/earth-interactive",
-      "group": 2,
-      "name": "Earth Interactive",
-      "links": [
-        "/exp"
-      ]
-    },
-    {
-      "id": "/earth",
-      "group": 2,
-      "name": "Earth",
-      "links": [
-        "/exp"
-      ]
-    },
-    {
       "id": "/idea-machine",
       "group": 2,
       "name": "Idea Machine",
@@ -545,16 +527,6 @@
       "name": "Paintings",
       "links": [
         "/exp"
-      ]
-    },
-    {
-      "id": "/space",
-      "group": 2,
-      "name": "Space",
-      "links": [
-        "/exp",
-        "/solar-system",
-        "/time"
       ]
     },
     {
@@ -574,6 +546,18 @@
       "name": "Typewriter",
       "links": [
         "/exp"
+      ]
+    },
+    {
+      "id": "/space",
+      "group": 2,
+      "name": "Space",
+      "links": [
+        "/exp",
+        "/earth-interactive",
+        "/earth",
+        "/solar-system",
+        "/time"
       ]
     },
     {
@@ -915,8 +899,7 @@
         "/classical-physics",
         "/feynman-lectures",
         "/inertia",
-        "/maxwell-equations",
-        "/solar-system"
+        "/maxwell-equations"
       ]
     },
     {
@@ -2422,6 +2405,30 @@
       ]
     },
     {
+      "id": "/earth-interactive",
+      "group": 3,
+      "name": "Earth Interactive",
+      "links": [
+        "/space"
+      ]
+    },
+    {
+      "id": "/earth",
+      "group": 3,
+      "name": "Earth",
+      "links": [
+        "/space"
+      ]
+    },
+    {
+      "id": "/solar-system",
+      "group": 3,
+      "name": "Solar System",
+      "links": [
+        "/space"
+      ]
+    },
+    {
       "id": "/character",
       "group": 3,
       "name": "Character",
@@ -3101,15 +3108,6 @@
       "links": [
         "/physics",
         "/classical-physics"
-      ]
-    },
-    {
-      "id": "/solar-system",
-      "group": 3,
-      "name": "Solar System",
-      "links": [
-        "/physics",
-        "/space"
       ]
     },
     {
@@ -4066,14 +4064,6 @@
     },
     {
       "source": "/exp",
-      "target": "/earth-interactive"
-    },
-    {
-      "source": "/exp",
-      "target": "/earth"
-    },
-    {
-      "source": "/exp",
       "target": "/idea-machine"
     },
     {
@@ -4082,15 +4072,15 @@
     },
     {
       "source": "/exp",
-      "target": "/space"
-    },
-    {
-      "source": "/exp",
       "target": "/timelines"
     },
     {
       "source": "/exp",
       "target": "/typewriter"
+    },
+    {
+      "source": "/exp",
+      "target": "/space"
     },
     {
       "source": "/ideas",
@@ -4885,6 +4875,18 @@
       "target": "/sys-topics"
     },
     {
+      "source": "/space",
+      "target": "/earth-interactive"
+    },
+    {
+      "source": "/space",
+      "target": "/earth"
+    },
+    {
+      "source": "/space",
+      "target": "/solar-system"
+    },
+    {
       "source": "/choice",
       "target": "/character"
     },
@@ -5199,10 +5201,6 @@
     {
       "source": "/physics",
       "target": "/maxwell-equations"
-    },
-    {
-      "source": "/physics",
-      "target": "/solar-system"
     },
     {
       "source": "/politics",
@@ -5791,10 +5789,6 @@
     {
       "source": "/system-design",
       "target": "/systems-thinking"
-    },
-    {
-      "source": "/space",
-      "target": "/solar-system"
     },
     {
       "source": "/character",
