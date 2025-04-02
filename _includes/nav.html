@@ -1,55 +1,9 @@
 <nav class="navbar">
   <div class="navbar-brand">
     <a href="{{ site.baseurl }}/" title="Home" class="site-name">Δ</a>
-
-    {% include search.html %}
-
     <a title="Toggle theme" id="themeToggle" tabindex="0" onclick="switchTheme()" class="navbutton"></a>
-    <a title="Roll the dice! Shift+P" id="dice"  tabindex="0" onclick="getRandomPage()" class="navbutton">🎲</a>
+    {% include search.html %}
   </div>
 </nav>
 
-
-
-<style>
-
-a.site-name {
-    color: inherit;
-    font-size: 2rem;
-    margin-right: 1rem;
-
-  }
-
-
-
-
-
-  .navbutton {
-    font-size: 1.2rem;
-    margin-top:0.5rem;
-    margin-left:1.2rem;
-  }
-
-  .navbar {
-    background: inherit;
-    color: inherit;
-    width: fit-content;
-    margin-bottom: 1rem;
-  }
-
-  .top {
-    height: 4px;
-    background: #373B44;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2259a7, #373B44);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2259a7, #373B44);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  }
-
-
-
-
-
-</style>
-
+<script src="/assets/js/theme.js"></script>

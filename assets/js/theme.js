@@ -2,8 +2,8 @@ const THEME = 'theme';
 const DATA_THEME = 'data-theme';
 const THEME_LIGHT = 'light';
 const THEME_DARK = 'dark';
-const CLASS_SUN = 'sun2';
-const CLASS_MOON = 'moon2';
+const CLASS_SUN = 'sun';
+const CLASS_MOON = 'moon';
 const themeToggle = document.getElementById("themeToggle");
 
 function getSystemTheme() {
@@ -16,12 +16,12 @@ function setTheme() {
         document.documentElement.setAttribute(DATA_THEME, THEME_LIGHT);
         themeToggle.classList.remove(CLASS_MOON);
         themeToggle.classList.add(CLASS_SUN);
-        themeToggle.textContent = "🌘";
+        // themeToggle.textContent = "🌘";
     } else {
         document.documentElement.setAttribute(DATA_THEME, THEME_DARK);
         themeToggle.classList.remove(CLASS_SUN);
         themeToggle.classList.add(CLASS_MOON);
-        themeToggle.textContent = "🌔";
+        // themeToggle.textContent = "🌔";
     }
 }
 

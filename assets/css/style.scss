@@ -1,8 +1,4 @@
----
----
-
-
-// Grays
+--- --- // Grays
 $dummy: #f0f1f2;
 $lightGray : #eaecf0;
 $darkGray: #202122;
@@ -111,11 +107,11 @@ article {
   max-width: 72ch;
 }
 
-.centered{
+.centered {
   margin: 0 auto;
 }
 
-img{
+img {
   border-radius: .25rem;
   box-shadow: 0 .5em 1em -.125em rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .02);
 }
@@ -232,7 +228,7 @@ html[data-theme='light'] {
     color: $darkText;
   }
 
-  .planet-container{
+  .planet-container {
     display: none;
   }
 
@@ -313,4 +309,35 @@ html[data-theme='light'] {
 
 .shakey {
   animation: shakey 0.2s;
+}
+
+
+a.site-name {
+  color: inherit;
+  font-size: 2rem;
+  margin-right: 1rem;
+
+}
+
+.navbutton {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  margin-left: 1.2rem;
+}
+
+.navbar {
+  background: inherit;
+  color: inherit;
+  width: fit-content;
+  margin-bottom: 1rem;
+}
+
+.top {
+  height: 4px;
+  background: #373B44;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2259a7, #373B44);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2259a7, #373B44);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
