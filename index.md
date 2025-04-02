@@ -20,8 +20,8 @@ layout: page
       <li><a href='/engineering/'>Engineering</a></li>
 
       <li><a href='/lists/'>Lists</a></li>
-      <li><a href='/ideas/'>Ideas</a></li>
       <li><a href='/exp/'>Experiments</a></li>
+      <li><a href='/ideas/'>Ideas</a></li>
 
     </ul>
 
