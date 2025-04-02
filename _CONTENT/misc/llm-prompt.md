@@ -168,6 +168,7 @@ Go step by step
 - What is the optimal time and space complexity?
 - Are there specific steps necessary to make it secure and performant?
 3. Code 
+- Firsly, explain your algorithm in plain english
 - Start simple and robust, I'll guide you
 - Don't change existing names 
 - No hardcoded variables

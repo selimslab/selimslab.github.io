@@ -9,7 +9,7 @@ For static data, you could simply use binary search over an array
 
 For dynamic data, one way is to balance a tree as you insert new elements. 
 
-A simpler alternative is a skip list. It has multiple linked lists and it balances probabilistically. 
+A simpler alternative is a skip list. A skip list has multiple sorted linked lists with shortcuts. 
 
 A skip list uses log-linear memory while a tree uses linear. Both have logarithmic search and insert time. But the former is simpler to implement, better for concurrent operations due to this simplicity, better for caching due to its linear structure
 
@@ -41,7 +41,11 @@ Level 3: None
 Level 2: None 
 Level 1: [10] 
 Level 0: [10]
+
+[10] is a single node with two next pointers for level 0 and 1
 ```
+
+
 
 
 #### Inserting 20:
