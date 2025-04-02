@@ -1,85 +1,83 @@
+/* Common base styles for spherical objects */
 .sun,
 .moon,
 .planet-container {
     border-radius: 50%;
     height: 12rem;
-    overflow: hidden;
-    position: relative;
     width: 12rem;
-    z-index: 1;
+    position: relative;
+    overflow: hidden;
     margin: 0 auto;
+    z-index: 1;
 }
 
+/* Specific overrides */
 .planet-container {
     box-shadow: 5px -3px 15px 3px #2259a7;
 }
 
-.moon{
+/* Common styles for sun and moon */
+.sun,
+.moon {
     animation: rotate-night 24s linear infinite;
-    background-image: url(/assets/static/solar/2k_moon.jpg);
     background-size: 200%;
     height: 3rem;
-    box-shadow: 0 0 15px 5px #4367ad;
     width: 3rem;
     z-index: 2;
 }
 
-.sun{
-    animation: rotate-night 24s linear infinite;
+.moon {
+    background-image: url(/assets/static/solar/2k_moon.jpg);
+    box-shadow: 0 0 15px 5px #4367ad;
+}
+
+.sun {
     background-image: url(/assets/static/solar/2k_sun_small.jpg);
-    background-size: 200%;
-    height: 3rem;
     box-shadow: 0 0 15px 5px #f1855e;
-    width: 3rem;
-    z-index: 2;
+}
+
+/* Common styles for earth layers */
+.night,
+.day,
+.clouds {
+    height: 12rem;
+    width: 12rem;
+    position: absolute;
+    background-size: 200%;
+    border-radius: 50%;
 }
 
 .night {
     animation: rotate-night 24s linear infinite;
     background-image: url(/assets/static/solar/2k_earth_nightmap.jpg);
-    background-size: 200%;
-    height: 12rem;
-    position: absolute;
-    width: 12rem;
     z-index: 2;
-    transform: rotate(-10deg);
-    border-radius: 50%;
 }
 
 .day {
     animation: rotate-day 24s linear infinite;
     background-image: url(/assets/static/solar/2k_earth_daymap.jpg);
-    background-size: 200%;
-    border-radius: 50%;
-    box-shadow: 4px 0 16px 0 #040615 inset; 
-    height: 12rem;
-    margin-left: 90px;
-    position: absolute;
-    width: 12rem;
+    box-shadow: 4px 0 16px 0 #040615 inset;
+    margin-left: 4rem;
     z-index: 3;
-    transform: rotate(-10deg)
 }
+
 .clouds {
     animation: rotate-day 48s linear infinite, spin-clouds 48s ease infinite;
     background-image: url(/assets/static/solar/2k_earth_clouds.jpg);
-    background-size: 200%;
-    border-radius: 50%;    
     box-shadow: 5px 0 20px 10px #040615 inset, -9px 0px 20px 10px #040615 inset;
-    height: 12rem;
-    margin-left: 90px;
+    margin-left: 4rem;
     opacity: 0.45;
-    position: absolute;
-    width: 12rem;
     z-index: 4;
 }
+
 .inner-shadow {
     background: transparent;
     border-radius: 50%;
     box-shadow: -4px 0 8px 0 rgba(21, 43, 87, 0.8) inset, 4px 0 8px 0 rgba(4, 6, 21, 0.8) inset;
     height: 12rem;
+    width: 12rem;
     margin-left: 0;
     position: absolute;
-    width: 12rem;
     z-index: 5;
 }
 
@@ -88,8 +86,8 @@
     100% { background-position: -80% 0; }
 }
 @keyframes rotate-night {
-    0% { background-position: calc(120% + 90px) 0; }
-    100% { background-position: calc(-80% + 90px) 0; }
+    0% { background-position: calc(120% + 4rem) 0; }
+    100% { background-position: calc(-80% + 4rem) 0; }
 }
 @keyframes spin-clouds {
     0% { transform: rotate(0deg); }

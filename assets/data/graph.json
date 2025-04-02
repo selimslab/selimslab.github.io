@@ -8,6 +8,7 @@
         "/art",
         "/blog",
         "/engineering",
+        "/exp",
         "/ideas",
         "/lists",
         "/misc",
@@ -60,6 +61,23 @@
       ]
     },
     {
+      "id": "/exp",
+      "group": 1,
+      "name": "Experiments",
+      "links": [
+        "/root",
+        "/calendar",
+        "/clocks",
+        "/earth-interactive",
+        "/earth",
+        "/idea-machine",
+        "/paintings",
+        "/space",
+        "/timelines",
+        "/typewriter"
+      ]
+    },
+    {
       "id": "/ideas",
       "group": 1,
       "name": "Ideas",
@@ -88,7 +106,6 @@
         "/movies",
         "/quotes",
         "/checklists",
-        "/exp",
         "/tools",
         "/classics",
         "/essais",
@@ -481,6 +498,85 @@
       ]
     },
     {
+      "id": "/calendar",
+      "group": 2,
+      "name": "Calendar",
+      "links": [
+        "/exp",
+        "/time"
+      ]
+    },
+    {
+      "id": "/clocks",
+      "group": 2,
+      "name": "Clocks ⏱️",
+      "links": [
+        "/exp",
+        "/time"
+      ]
+    },
+    {
+      "id": "/earth-interactive",
+      "group": 2,
+      "name": "Earth Interactive",
+      "links": [
+        "/exp"
+      ]
+    },
+    {
+      "id": "/earth",
+      "group": 2,
+      "name": "Earth",
+      "links": [
+        "/exp"
+      ]
+    },
+    {
+      "id": "/idea-machine",
+      "group": 2,
+      "name": "Idea Machine",
+      "links": [
+        "/exp"
+      ]
+    },
+    {
+      "id": "/paintings",
+      "group": 2,
+      "name": "Paintings",
+      "links": [
+        "/exp"
+      ]
+    },
+    {
+      "id": "/space",
+      "group": 2,
+      "name": "Space",
+      "links": [
+        "/exp",
+        "/solar-system",
+        "/time"
+      ]
+    },
+    {
+      "id": "/timelines",
+      "group": 2,
+      "name": "Timelines",
+      "links": [
+        "/exp",
+        "/time",
+        "/lists",
+        "/history"
+      ]
+    },
+    {
+      "id": "/typewriter",
+      "group": 2,
+      "name": "Typewriter",
+      "links": [
+        "/exp"
+      ]
+    },
+    {
       "id": "/choice",
       "group": 2,
       "name": "Choice",
@@ -601,10 +697,10 @@
         "/pale-blue-dot",
         "/slow-down-time",
         "/the-past",
-        "/timelines",
         "/calendar",
         "/clocks",
         "/space",
+        "/timelines",
         "/history"
       ]
     },
@@ -687,25 +783,11 @@
       ]
     },
     {
-      "id": "/exp",
-      "group": 2,
-      "name": "Experiments",
-      "links": [
-        "/lists",
-        "/earth-time-scale",
-        "/timelines",
-        "/typewriter"
-      ]
-    },
-    {
       "id": "/tools",
       "group": 2,
       "name": "Tools",
       "links": [
-        "/lists",
-        "/calendar",
-        "/clocks",
-        "/space"
+        "/lists"
       ]
     },
     {
@@ -793,7 +875,6 @@
         "/history-of-technology",
         "/rome",
         "/time",
-        "/earth-time-scale",
         "/timelines"
       ]
     },
@@ -834,7 +915,8 @@
         "/classical-physics",
         "/feynman-lectures",
         "/inertia",
-        "/maxwell-equations"
+        "/maxwell-equations",
+        "/solar-system"
       ]
     },
     {
@@ -2860,64 +2942,6 @@
       ]
     },
     {
-      "id": "/earth-time-scale",
-      "group": 3,
-      "name": "If the Earth is 45 years old",
-      "links": [
-        "/exp",
-        "/climate-change",
-        "/timelines",
-        "/history"
-      ]
-    },
-    {
-      "id": "/timelines",
-      "group": 3,
-      "name": "Timelines",
-      "links": [
-        "/exp",
-        "/time",
-        "/earth-time-scale",
-        "/lists",
-        "/history"
-      ]
-    },
-    {
-      "id": "/typewriter",
-      "group": 3,
-      "name": "Typewriter",
-      "links": [
-        "/exp"
-      ]
-    },
-    {
-      "id": "/calendar",
-      "group": 3,
-      "name": "Calendar",
-      "links": [
-        "/tools",
-        "/time"
-      ]
-    },
-    {
-      "id": "/clocks",
-      "group": 3,
-      "name": "Clocks ⏱️",
-      "links": [
-        "/tools",
-        "/time"
-      ]
-    },
-    {
-      "id": "/space",
-      "group": 3,
-      "name": "Space",
-      "links": [
-        "/tools",
-        "/time"
-      ]
-    },
-    {
       "id": "/how-to-gain-wealth",
       "group": 3,
       "name": "How To Gain Wealth",
@@ -3080,12 +3104,20 @@
       ]
     },
     {
+      "id": "/solar-system",
+      "group": 3,
+      "name": "Solar System",
+      "links": [
+        "/physics",
+        "/space"
+      ]
+    },
+    {
       "id": "/climate-change",
       "group": 3,
       "name": "Climate Change",
       "links": [
-        "/politics",
-        "/earth-time-scale"
+        "/politics"
       ]
     },
     {
@@ -3922,6 +3954,10 @@
     },
     {
       "source": "/root",
+      "target": "/exp"
+    },
+    {
+      "source": "/root",
       "target": "/ideas"
     },
     {
@@ -4021,6 +4057,42 @@
       "target": "/system-design"
     },
     {
+      "source": "/exp",
+      "target": "/calendar"
+    },
+    {
+      "source": "/exp",
+      "target": "/clocks"
+    },
+    {
+      "source": "/exp",
+      "target": "/earth-interactive"
+    },
+    {
+      "source": "/exp",
+      "target": "/earth"
+    },
+    {
+      "source": "/exp",
+      "target": "/idea-machine"
+    },
+    {
+      "source": "/exp",
+      "target": "/paintings"
+    },
+    {
+      "source": "/exp",
+      "target": "/space"
+    },
+    {
+      "source": "/exp",
+      "target": "/timelines"
+    },
+    {
+      "source": "/exp",
+      "target": "/typewriter"
+    },
+    {
       "source": "/ideas",
       "target": "/choice"
     },
@@ -4079,10 +4151,6 @@
     {
       "source": "/lists",
       "target": "/checklists"
-    },
-    {
-      "source": "/lists",
-      "target": "/exp"
     },
     {
       "source": "/lists",
@@ -5057,30 +5125,6 @@
       "target": "/used-cars"
     },
     {
-      "source": "/exp",
-      "target": "/earth-time-scale"
-    },
-    {
-      "source": "/exp",
-      "target": "/timelines"
-    },
-    {
-      "source": "/exp",
-      "target": "/typewriter"
-    },
-    {
-      "source": "/tools",
-      "target": "/calendar"
-    },
-    {
-      "source": "/tools",
-      "target": "/clocks"
-    },
-    {
-      "source": "/tools",
-      "target": "/space"
-    },
-    {
       "source": "/economics",
       "target": "/how-to-gain-wealth"
     },
@@ -5155,6 +5199,10 @@
     {
       "source": "/physics",
       "target": "/maxwell-equations"
+    },
+    {
+      "source": "/physics",
+      "target": "/solar-system"
     },
     {
       "source": "/politics",
@@ -5745,6 +5793,10 @@
       "target": "/systems-thinking"
     },
     {
+      "source": "/space",
+      "target": "/solar-system"
+    },
+    {
       "source": "/character",
       "target": "/freedom"
     },
@@ -5854,10 +5906,6 @@
     },
     {
       "source": "/time",
-      "target": "/timelines"
-    },
-    {
-      "source": "/time",
       "target": "/calendar"
     },
     {
@@ -5870,6 +5918,10 @@
     },
     {
       "source": "/time",
+      "target": "/timelines"
+    },
+    {
+      "source": "/time",
       "target": "/history"
     },
     {
@@ -5879,14 +5931,6 @@
     {
       "source": "/datasets",
       "target": "/probability-and-statistics"
-    },
-    {
-      "source": "/earth-time-scale",
-      "target": "/climate-change"
-    },
-    {
-      "source": "/earth-time-scale",
-      "target": "/timelines"
     },
     {
       "source": "/lists",
@@ -5907,10 +5951,6 @@
     {
       "source": "/graph-3d",
       "target": "/site-stats"
-    },
-    {
-      "source": "/history",
-      "target": "/earth-time-scale"
     },
     {
       "source": "/history",
