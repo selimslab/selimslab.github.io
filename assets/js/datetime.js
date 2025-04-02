@@ -1,4 +1,3 @@
-const day_names = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 
 function get_formatted_date(date = new Date(), options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }) {
     return date.toLocaleDateString(undefined, options);
