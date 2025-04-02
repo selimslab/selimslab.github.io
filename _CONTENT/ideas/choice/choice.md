@@ -1,5 +1,5 @@
 ---
-tags: top
+
 ---
 
 "making the best of your circumstances"
