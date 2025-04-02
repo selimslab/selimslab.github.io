@@ -394,15 +394,11 @@
       "name": "Programming",
       "links": [
         "/engineering",
-        "/c#",
         "/computers-from-scratch",
         "/concurrency",
         "/encodings",
-        "/go",
         "/links-for-new-programmers",
-        "/python",
         "/the-tao-of-programming",
-        "/ts",
         "/unicode",
         "/programming-languages",
         "/projects"
@@ -1951,14 +1947,6 @@
       ]
     },
     {
-      "id": "/c#",
-      "group": 3,
-      "name": "C#",
-      "links": [
-        "/programming"
-      ]
-    },
-    {
       "id": "/computers-from-scratch",
       "group": 3,
       "name": "Computers From Scratch",
@@ -1984,14 +1972,6 @@
       ]
     },
     {
-      "id": "/go",
-      "group": 3,
-      "name": "Go",
-      "links": [
-        "/programming"
-      ]
-    },
-    {
       "id": "/links-for-new-programmers",
       "group": 3,
       "name": "Links For New Programmers",
@@ -2000,25 +1980,9 @@
       ]
     },
     {
-      "id": "/python",
-      "group": 3,
-      "name": "Python",
-      "links": [
-        "/programming"
-      ]
-    },
-    {
       "id": "/the-tao-of-programming",
       "group": 3,
       "name": "The Tao of Programming",
-      "links": [
-        "/programming"
-      ]
-    },
-    {
-      "id": "/ts",
-      "group": 3,
-      "name": "Ts",
       "links": [
         "/programming"
       ]
@@ -2037,8 +2001,13 @@
       "name": "Programming Languages",
       "links": [
         "/programming",
+        "/c#",
         "/c-and-python",
-        "/go-data-races"
+        "/go-data-races",
+        "/go",
+        "/python",
+        "/sql",
+        "/ts"
       ]
     },
     {
@@ -2046,7 +2015,8 @@
       "group": 3,
       "name": "An async web crawler from scratch",
       "links": [
-        "/projects"
+        "/projects",
+        "/python"
       ]
     },
     {
@@ -2062,7 +2032,8 @@
       "group": 3,
       "name": "Let's write a compiler",
       "links": [
-        "/projects"
+        "/projects",
+        "/python"
       ]
     },
     {
@@ -2094,7 +2065,8 @@
       "group": 3,
       "name": "A search engine with page rank, in 200 lines",
       "links": [
-        "/projects"
+        "/projects",
+        "/python"
       ]
     },
     {
@@ -2102,7 +2074,8 @@
       "group": 3,
       "name": "A web server from scratch",
       "links": [
-        "/projects"
+        "/projects",
+        "/python"
       ]
     },
     {
@@ -2118,7 +2091,8 @@
       "group": 3,
       "name": "An interpreter in Python",
       "links": [
-        "/projects"
+        "/projects",
+        "/python"
       ]
     },
     {
@@ -3872,6 +3846,14 @@
       ]
     },
     {
+      "id": "/c#",
+      "group": 4,
+      "name": "C#",
+      "links": [
+        "/programming-languages"
+      ]
+    },
+    {
       "id": "/c-and-python",
       "group": 4,
       "name": "Call C code from Python",
@@ -3883,6 +3865,43 @@
       "id": "/go-data-races",
       "group": 4,
       "name": "Go Data Race Patterns and Prevention",
+      "links": [
+        "/programming-languages"
+      ]
+    },
+    {
+      "id": "/go",
+      "group": 4,
+      "name": "Go",
+      "links": [
+        "/programming-languages"
+      ]
+    },
+    {
+      "id": "/python",
+      "group": 4,
+      "name": "Python",
+      "links": [
+        "/programming-languages",
+        "/async-crawler",
+        "/compiler",
+        "/mini-search-engine",
+        "/mini-web-server",
+        "/pascal-interpreter"
+      ]
+    },
+    {
+      "id": "/sql",
+      "group": 4,
+      "name": "Sql",
+      "links": [
+        "/programming-languages"
+      ]
+    },
+    {
+      "id": "/ts",
+      "group": 4,
+      "name": "Ts",
       "links": [
         "/programming-languages"
       ]
@@ -4611,10 +4630,6 @@
     },
     {
       "source": "/programming",
-      "target": "/c#"
-    },
-    {
-      "source": "/programming",
       "target": "/computers-from-scratch"
     },
     {
@@ -4627,23 +4642,11 @@
     },
     {
       "source": "/programming",
-      "target": "/go"
-    },
-    {
-      "source": "/programming",
       "target": "/links-for-new-programmers"
     },
     {
       "source": "/programming",
-      "target": "/python"
-    },
-    {
-      "source": "/programming",
       "target": "/the-tao-of-programming"
-    },
-    {
-      "source": "/programming",
-      "target": "/ts"
     },
     {
       "source": "/programming",
@@ -5527,11 +5530,31 @@
     },
     {
       "source": "/programming-languages",
+      "target": "/c#"
+    },
+    {
+      "source": "/programming-languages",
       "target": "/c-and-python"
     },
     {
       "source": "/programming-languages",
       "target": "/go-data-races"
+    },
+    {
+      "source": "/programming-languages",
+      "target": "/go"
+    },
+    {
+      "source": "/programming-languages",
+      "target": "/python"
+    },
+    {
+      "source": "/programming-languages",
+      "target": "/sql"
+    },
+    {
+      "source": "/programming-languages",
+      "target": "/ts"
     },
     {
       "source": "/design",
@@ -5680,6 +5703,26 @@
     {
       "source": "/concurrency",
       "target": "/producer-consumer-problem"
+    },
+    {
+      "source": "/python",
+      "target": "/async-crawler"
+    },
+    {
+      "source": "/python",
+      "target": "/compiler"
+    },
+    {
+      "source": "/python",
+      "target": "/mini-search-engine"
+    },
+    {
+      "source": "/python",
+      "target": "/mini-web-server"
+    },
+    {
+      "source": "/python",
+      "target": "/pascal-interpreter"
     },
     {
       "source": "/programming",
