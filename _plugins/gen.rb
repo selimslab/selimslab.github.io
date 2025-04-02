@@ -18,6 +18,9 @@ class SiteGenerator < Jekyll::Generator
   end
 
   def generate(site)
+    # Skip regeneration if only data files changed
+    return if only_data_files_changed?(site)
+
     fix_frontmatter unless @fixed_frontmatter
 
     initialize_site_data(site)
@@ -491,5 +494,16 @@ class SiteGenerator < Jekyll::Generator
     File.write(path, JSON.pretty_generate(data))
   rescue StandardError => e
     puts "Error writing JSON to #{path}: #{e.message}"
+  end
+
+  def only_data_files_changed?(site)
+    return false unless site.config['incremental']
+    return false unless @generated
+
+    changed_files = site.instance_variable_get(:@reader)
+                       .instance_variable_get(:@modified_times)
+                       .keys
+    
+    changed_files.all? { |file| file.start_with?('assets/data/') }
   end
 end
