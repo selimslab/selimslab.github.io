@@ -4,7 +4,7 @@ layout: page
 
 <div class="columns is-vcentered">
 
-<div class="column is-6">
+  <div class="column is-6">
 
     <ul>
       <li><a href='/clocks/' id="current-time"></a></li>
@@ -12,15 +12,14 @@ layout: page
     </ul>
 
     <h2 class="mono">delta</h2>
-      <ul>
-        <li><a href='/arts/'>Arts</a></li>
-        <li><a href='/sciences/'>Sciences</a></li>
-        <li><a href='/engineering/'>Engineering</a></li>
-        <li><a href='/lists/'>Lists</a></li>
-        <li><a href='/ideas/'>Ideas</a></li>
-        <li><a href='/math/'>Math</a></li>
-      </ul>
+    <ul>
+      <li><a href='/art/'>Art</a></li>
+      <li><a href='/science/'>Science</a></li>
+      <li><a href='/engineering/'>Engineering</a></li>
 
+      <li><a href='/lists/'>Lists</a></li>
+      <li><a href='/ideas/'>Ideas</a></li>
+    </ul>
 
   </div>
 
