@@ -9,5 +9,3 @@ Using mental models not matching the reality
 Poor judgment
 
 Hanlon's Razor, think stupidity before malice
-
-[[the-triumph-of-stupidity]]

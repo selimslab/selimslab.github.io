@@ -4,7 +4,6 @@ tags: top
 
 "making the best of your circumstances"
 
-
 Everything can be taken from a man but one thing, 
 
 the last of the human freedoms, 

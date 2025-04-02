@@ -1,9 +1,11 @@
 ---
 ---
 
-Mastery comes from focus and deliberate practice, from saying no to many good ideas to pursue important ones 
+Ego and distractions prevent gaining mastery
 
-"A distracted mind can't successfully pursue any activity, since a distracted mind absorbs nothing deeply"
+Mastery comes from focus and deliberate practice,
+
+from saying no to many good ideas to pursue important ones 
 
 A wide variety of experiences might lead to well-roundedness, but not to greatness, nor even goodness.
 
@@ -11,7 +13,7 @@ For example, musicians get better by tackling harder and harder pieces, not by s
 
 You don't level up by switching games all the time, but by sticking with one long enough to gain advanced skills.
 
-Less ego, more mastery 
+"A distracted mind can't successfully pursue any activity, since a distracted mind absorbs nothing deeply"
 
 [[work]]
 

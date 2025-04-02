@@ -1,33 +1,23 @@
 ---
 ---
 
-## Define 
-What is the top goal? What is important? Say no to all else 
-
-## Break it down
-- What are the steps?
-- Can I eliminate some steps?
-- Can I delegate?
-- Can I batch them?
-- What are their deadlines?
-
 **What is the next action?**
 
+Define the top goal, the most important thing. Say no to all else 
+
+Break it down to steps. Eliminate, delegate, batch, define deadlines 
+
 ## Tactics 
-- do it if it's less than 2 mins 
 - checklists
 - checkpoints
 - write  
 - draw  
-- set deadlines
-- batch work 
 - end it with a cliffhanger 
-- do mini tasks right away 
+- do mini tasks right away
 - save some easy tasks for low-motivation periods
 - early morning, fresh mind
 - Ignore sunk costs
 - Work short, focused intervals and rest
-
 
 [[habits]] 
 
