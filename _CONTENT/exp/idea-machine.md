@@ -1,5 +1,5 @@
 ---
-layout: free
+layout: basic
 ---
 
 {% include random-idea.html %}
