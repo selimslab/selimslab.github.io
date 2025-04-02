@@ -2,6 +2,6 @@
 layout: basic
 ---
 
-<div class="column">
+<div class="column is-8">
 {% include random-idea.html %}
 </div>

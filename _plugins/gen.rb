@@ -7,8 +7,7 @@ STATIC_PATH = "#{ASSETS_PATH}/static".freeze
 DATA_PATH = "#{ASSETS_PATH}/data".freeze
 DEBUG_PATH = "./debug".freeze
 DEBUG = false
-GRAPH = false
-SHUFFLE = false
+WRITE_DATA = false
 
 class SiteGenerator < Jekyll::Generator
   def initialize(config = {})
@@ -18,8 +17,6 @@ class SiteGenerator < Jekyll::Generator
   end
 
   def generate(site)
-    # Skip regeneration if only data files changed
-    return if only_data_files_changed?(site)
 
     fix_frontmatter unless @fixed_frontmatter
 
@@ -75,7 +72,7 @@ class SiteGenerator < Jekyll::Generator
     ideas = JSON.parse(File.read("#{DATA_PATH}/ideas.json"))
     
     # Shuffle ideas in debug mode for testing
-    ideas.shuffle!(random: Random.new(ideas.length)) if SHUFFLE
+    ideas.shuffle!(random: Random.new(ideas.length)) if DEBUG
     
     # Write updated ideas back to JSON file
     write_json("#{DATA_PATH}/ideas.json", ideas)
@@ -266,7 +263,7 @@ class SiteGenerator < Jekyll::Generator
     enrich_nodes(nodes, links, site)
 
     graph_data = { "nodes": nodes, "links": links }
-    write_graph_data(graph_data) if GRAPH
+    write_graph_data(graph_data)
 
     graph_data
   end
@@ -490,20 +487,10 @@ class SiteGenerator < Jekyll::Generator
   private
 
   def write_json(path, data)
+    return unless WRITE_DATA
     # Write data as pretty-formatted JSON
     File.write(path, JSON.pretty_generate(data))
   rescue StandardError => e
     puts "Error writing JSON to #{path}: #{e.message}"
-  end
-
-  def only_data_files_changed?(site)
-    return false unless site.config['incremental']
-    return false unless @generated
-
-    changed_files = site.instance_variable_get(:@reader)
-                       .instance_variable_get(:@modified_times)
-                       .keys
-    
-    changed_files.all? { |file| file.start_with?('assets/data/') }
   end
 end
