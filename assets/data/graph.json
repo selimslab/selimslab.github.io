@@ -9,6 +9,7 @@
         "/engineering",
         "/ideas",
         "/lists",
+        "/math",
         "/misc",
         "/sciences"
       ]
@@ -88,6 +89,25 @@
       ]
     },
     {
+      "id": "/math",
+      "group": 1,
+      "name": "Math",
+      "links": [
+        "/root",
+        "/bayes",
+        "/counter-intuitive-math",
+        "/discrete-vs-continuous",
+        "/equations-that-changed-the-world",
+        "/fourier-transform",
+        "/laplace-transform",
+        "/logic-proofs",
+        "/math-links",
+        "/normal-distribution",
+        "/probability-and-statistics",
+        "/local-maximum"
+      ]
+    },
+    {
       "id": "/misc",
       "group": 1,
       "name": "Misc",
@@ -111,7 +131,6 @@
         "/root",
         "/economics",
         "/history",
-        "/math",
         "/neuroscience",
         "/physics",
         "/politics",
@@ -701,6 +720,90 @@
       ]
     },
     {
+      "id": "/bayes",
+      "group": 2,
+      "name": "Bayes' theorem",
+      "links": [
+        "/math",
+        "/algorithms",
+        "/probability-and-statistics"
+      ]
+    },
+    {
+      "id": "/counter-intuitive-math",
+      "group": 2,
+      "name": "Counter Intuitive Math",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/discrete-vs-continuous",
+      "group": 2,
+      "name": "Digital vs Analog",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/equations-that-changed-the-world",
+      "group": 2,
+      "name": "Equations That Changed The World",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/fourier-transform",
+      "group": 2,
+      "name": "Fourier Transform",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/laplace-transform",
+      "group": 2,
+      "name": "Laplace Transform",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/logic-proofs",
+      "group": 2,
+      "name": "Five ways to prove P=>Q",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/math-links",
+      "group": 2,
+      "name": "Math Links",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/normal-distribution",
+      "group": 2,
+      "name": "Normal Distribution",
+      "links": [
+        "/math"
+      ]
+    },
+    {
+      "id": "/probability-and-statistics",
+      "group": 2,
+      "name": "Probability And Statistics",
+      "links": [
+        "/math",
+        "/datasets",
+        "/bayes"
+      ]
+    },
+    {
       "id": "/graph-2d",
       "group": 2,
       "name": "2D Graph of All Pages",
@@ -787,25 +890,6 @@
         "/time",
         "/earth-time-scale",
         "/timelines"
-      ]
-    },
-    {
-      "id": "/math",
-      "group": 2,
-      "name": "Math",
-      "links": [
-        "/sciences",
-        "/bayes",
-        "/counter-intuitive-math",
-        "/discrete-vs-continuous",
-        "/equations-that-changed-the-world",
-        "/fourier-transform",
-        "/laplace-transform",
-        "/logic-proofs",
-        "/math-links",
-        "/normal-distribution",
-        "/probability-and-statistics",
-        "/local-maximum"
       ]
     },
     {
@@ -2924,90 +3008,6 @@
       ]
     },
     {
-      "id": "/bayes",
-      "group": 3,
-      "name": "Bayes' theorem",
-      "links": [
-        "/math",
-        "/algorithms",
-        "/probability-and-statistics"
-      ]
-    },
-    {
-      "id": "/counter-intuitive-math",
-      "group": 3,
-      "name": "Counter Intuitive Math",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/discrete-vs-continuous",
-      "group": 3,
-      "name": "Digital vs Analog",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/equations-that-changed-the-world",
-      "group": 3,
-      "name": "Equations That Changed The World",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/fourier-transform",
-      "group": 3,
-      "name": "Fourier Transform",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/laplace-transform",
-      "group": 3,
-      "name": "Laplace Transform",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/logic-proofs",
-      "group": 3,
-      "name": "Five ways to prove P=>Q",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/math-links",
-      "group": 3,
-      "name": "Math Links",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/normal-distribution",
-      "group": 3,
-      "name": "Normal Distribution",
-      "links": [
-        "/math"
-      ]
-    },
-    {
-      "id": "/probability-and-statistics",
-      "group": 3,
-      "name": "Probability And Statistics",
-      "links": [
-        "/math",
-        "/datasets",
-        "/bayes"
-      ]
-    },
-    {
       "id": "/psychopathy",
       "group": 3,
       "name": "Psychopathy",
@@ -3862,6 +3862,10 @@
     },
     {
       "source": "/root",
+      "target": "/math"
+    },
+    {
+      "source": "/root",
       "target": "/misc"
     },
     {
@@ -4021,6 +4025,46 @@
       "target": "/tools"
     },
     {
+      "source": "/math",
+      "target": "/bayes"
+    },
+    {
+      "source": "/math",
+      "target": "/counter-intuitive-math"
+    },
+    {
+      "source": "/math",
+      "target": "/discrete-vs-continuous"
+    },
+    {
+      "source": "/math",
+      "target": "/equations-that-changed-the-world"
+    },
+    {
+      "source": "/math",
+      "target": "/fourier-transform"
+    },
+    {
+      "source": "/math",
+      "target": "/laplace-transform"
+    },
+    {
+      "source": "/math",
+      "target": "/logic-proofs"
+    },
+    {
+      "source": "/math",
+      "target": "/math-links"
+    },
+    {
+      "source": "/math",
+      "target": "/normal-distribution"
+    },
+    {
+      "source": "/math",
+      "target": "/probability-and-statistics"
+    },
+    {
       "source": "/misc",
       "target": "/graph-2d"
     },
@@ -4059,10 +4103,6 @@
     {
       "source": "/sciences",
       "target": "/history"
-    },
-    {
-      "source": "/sciences",
-      "target": "/math"
     },
     {
       "source": "/sciences",
@@ -5025,46 +5065,6 @@
       "target": "/rome"
     },
     {
-      "source": "/math",
-      "target": "/bayes"
-    },
-    {
-      "source": "/math",
-      "target": "/counter-intuitive-math"
-    },
-    {
-      "source": "/math",
-      "target": "/discrete-vs-continuous"
-    },
-    {
-      "source": "/math",
-      "target": "/equations-that-changed-the-world"
-    },
-    {
-      "source": "/math",
-      "target": "/fourier-transform"
-    },
-    {
-      "source": "/math",
-      "target": "/laplace-transform"
-    },
-    {
-      "source": "/math",
-      "target": "/logic-proofs"
-    },
-    {
-      "source": "/math",
-      "target": "/math-links"
-    },
-    {
-      "source": "/math",
-      "target": "/normal-distribution"
-    },
-    {
-      "source": "/math",
-      "target": "/probability-and-statistics"
-    },
-    {
       "source": "/neuroscience",
       "target": "/psychopathy"
     },
@@ -5793,6 +5793,14 @@
       "target": "/history-of-technology"
     },
     {
+      "source": "/bayes",
+      "target": "/probability-and-statistics"
+    },
+    {
+      "source": "/math",
+      "target": "/local-maximum"
+    },
+    {
       "source": "/graph-3d",
       "target": "/site-stats"
     },
@@ -5803,14 +5811,6 @@
     {
       "source": "/history",
       "target": "/timelines"
-    },
-    {
-      "source": "/bayes",
-      "target": "/probability-and-statistics"
-    },
-    {
-      "source": "/math",
-      "target": "/local-maximum"
     },
     {
       "source": "/classical-physics",
