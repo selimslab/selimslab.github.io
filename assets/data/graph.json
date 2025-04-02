@@ -6,6 +6,7 @@
       "name": "Root",
       "links": [
         "/art",
+        "/blog",
         "/engineering",
         "/ideas",
         "/lists",
@@ -27,6 +28,14 @@
         "/poetry",
         "/siir",
         "/ux"
+      ]
+    },
+    {
+      "id": "/blog",
+      "group": 1,
+      "name": "Blog",
+      "links": [
+        "/root"
       ]
     },
     {
@@ -385,11 +394,15 @@
       "name": "Programming",
       "links": [
         "/engineering",
+        "/c#",
         "/computers-from-scratch",
         "/concurrency",
         "/encodings",
+        "/go",
         "/links-for-new-programmers",
+        "/python",
         "/the-tao-of-programming",
+        "/ts",
         "/unicode",
         "/programming-languages",
         "/projects"
@@ -1938,6 +1951,14 @@
       ]
     },
     {
+      "id": "/c#",
+      "group": 3,
+      "name": "C#",
+      "links": [
+        "/programming"
+      ]
+    },
+    {
       "id": "/computers-from-scratch",
       "group": 3,
       "name": "Computers From Scratch",
@@ -1963,6 +1984,14 @@
       ]
     },
     {
+      "id": "/go",
+      "group": 3,
+      "name": "Go",
+      "links": [
+        "/programming"
+      ]
+    },
+    {
       "id": "/links-for-new-programmers",
       "group": 3,
       "name": "Links For New Programmers",
@@ -1971,9 +2000,25 @@
       ]
     },
     {
+      "id": "/python",
+      "group": 3,
+      "name": "Python",
+      "links": [
+        "/programming"
+      ]
+    },
+    {
       "id": "/the-tao-of-programming",
       "group": 3,
       "name": "The Tao of Programming",
+      "links": [
+        "/programming"
+      ]
+    },
+    {
+      "id": "/ts",
+      "group": 3,
+      "name": "Ts",
       "links": [
         "/programming"
       ]
@@ -2399,7 +2444,8 @@
       "group": 3,
       "name": "Less",
       "links": [
-        "/choice"
+        "/choice",
+        "/desire"
       ]
     },
     {
@@ -2507,7 +2553,8 @@
       "group": 3,
       "name": "Desire",
       "links": [
-        "/philosophy"
+        "/philosophy",
+        "/less"
       ]
     },
     {
@@ -3848,6 +3895,10 @@
     },
     {
       "source": "/root",
+      "target": "/blog"
+    },
+    {
+      "source": "/root",
       "target": "/engineering"
     },
     {
@@ -4560,6 +4611,10 @@
     },
     {
       "source": "/programming",
+      "target": "/c#"
+    },
+    {
+      "source": "/programming",
       "target": "/computers-from-scratch"
     },
     {
@@ -4572,11 +4627,23 @@
     },
     {
       "source": "/programming",
+      "target": "/go"
+    },
+    {
+      "source": "/programming",
       "target": "/links-for-new-programmers"
     },
     {
       "source": "/programming",
+      "target": "/python"
+    },
+    {
+      "source": "/programming",
       "target": "/the-tao-of-programming"
+    },
+    {
+      "source": "/programming",
+      "target": "/ts"
     },
     {
       "source": "/programming",
@@ -5657,6 +5724,10 @@
     {
       "source": "/habits",
       "target": "/get-things-done"
+    },
+    {
+      "source": "/less",
+      "target": "/desire"
     },
     {
       "source": "/one-day-at-a-time",

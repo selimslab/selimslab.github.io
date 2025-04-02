@@ -1,9 +1,6 @@
 ---
 ---
 
-Good ideas are in plain sight. They are about reordering existing + connecting + right timing.
-
-Don't look for ideas, work on things that you find genuinely interesting 
 
 > Creativity is just connecting things. 
 > 
@@ -12,12 +9,9 @@ Don't look for ideas, work on things that you find genuinely interesting
 > Steve Jobs
 
 
-"Make the expensive cheap.
+Good ideas are in plain sight
 
-Make the inaccessible accessible.
+They are about reordering existing + connecting + right timing
 
-Make the complex simple.
+Don't look for ideas, work on things that you find genuinely interesting 
 
-Make the difficult easy.
-
-There are opportunities everywhere."
