@@ -7,9 +7,15 @@ The earth is about 4.5 billion years old
 
 Let's take it to human-scale and scale it down by 100 million 
 
-Then we can say the Earth is 45 years old. Milkway is 136 years old. The known universe is 138 years old. 
+Then we can say the Earth is 45 years old. Milky Way is 136 years old. The known universe is 138 years old. 
 
 So one year for the 45 years old Mother Earth is 100 million years to us. 
+
+Her 30 seconds is a century
+
+Her 3 seconds is a decade
+
+{% include earth.html %}
 
 Her week is about 2 million years 
 
@@ -19,11 +25,7 @@ Her hour is 12 000 years
 
 Her 5 minutes is a thousand years
 
-Her 30 seconds is a century
-
-Her 3 seconds is a decade
-
-{% include earth.html %}
+---
 
 - **Big Bang**: 13.8 billion years ago (bya) ~ 138 years ago (ya)
 - **Formation of Milky Way Galaxy**: 13.6 bya ~ 136 ya
