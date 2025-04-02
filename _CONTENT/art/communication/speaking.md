@@ -1,23 +1,20 @@
 ---
 ---
-Words are irreversible. Think twice before you speak. Be careful with promises
 
-Say something good or say nothing
+Words are irreversible. Think twice before you speak. Think ten times before you promise
 
 Don't say it if you don't believe it
 
-Emotions drive the conversation. Have a positive, constructive attitude. 
+Emotions drive the conversation. Have a constructive attitude. Say something good or say nothing
 
 Avoid negativity, judging, excuses, exaggeration, or gossip 
 
-Don't try to prove anything, people believe what they want to believe. 
+No need to prove anything 
 
 People can't read minds. Something being obvious to you doesn't mean it's obvious to them 
 
-Frequent sharing organizes thoughts
+Don't say "I told you, so" It achieves bitterness only
 
-![](/assets/static/img/not-say-told-you.jpeg)
+A compliment is like a small gift 
 
-![](/assets/static/img/compliments-are-gifts.jpeg)
-
-![](/assets/static/img/dont-fill-the-silence.png)
+Don't fill the silence 

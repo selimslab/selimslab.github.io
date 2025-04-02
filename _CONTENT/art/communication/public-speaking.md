@@ -1,9 +1,11 @@
 ---
 ---
 
-Focus on the audience
+Focus on the message and audience
 
-Speak clearly, with enthusiasm
+Speak clearly
+
+Speak with enthusiasm
 
 Repeat the bottom line
 
