@@ -1,5 +1,5 @@
 ---
-layout: tool
+layout: free
 ---
 
 {% include random-idea.html %}
