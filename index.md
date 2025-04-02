@@ -2,15 +2,25 @@
 layout: full
 ---
 
+
 <div class="columns is-vcentered">
 
-  <div class="column is-4">
-
+  <div class="column is-2">
     <ul>
       <li><a href='/clocks/' id="current-time"></a></li>
       <li><a href='/calendar/' id="current-date"></a></li>
     </ul>
+  </div>
 
+  {% include theme.html %}
+
+</div>
+
+
+<div class="columns" style="margin-top:-3rem">
+
+<div class="column is-4">
+  
     <h2 class="mono">delta</h2>
     
     <ul>
@@ -25,7 +35,11 @@ layout: full
 
     </ul>
 
-  </div>
+{% include search.html %}
+
+</div>
+
+
 
 </div>
 
