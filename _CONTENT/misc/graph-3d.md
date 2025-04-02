@@ -1,6 +1,6 @@
 ---
 title: 3D graph of all pages
-layout: basic
+layout: base
 ---
 
 {% include graph-3d.html %}

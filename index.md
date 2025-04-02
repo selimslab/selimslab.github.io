@@ -1,6 +1,16 @@
 ---
-layout: content
+layout: article
 ---
+
+<style>
+  #themeToggle {
+      display: flex;
+  }
+  .search{
+      display: flex;
+  }
+</style>
+
 
 <div class="columns is-vcentered">
 
@@ -40,12 +50,4 @@ layout: content
   show_date_and_time();
 </script>
 
-<style>
-  #themeToggle {
-      display: flex;
-  }
-  .search{
-      display: flex;
-  }
-</style>
 

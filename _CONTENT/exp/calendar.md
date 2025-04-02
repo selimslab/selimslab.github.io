@@ -1,7 +1,7 @@
 ---
 title: Calendar
 tags: time
-layout: exp
+layout: article
 ---
 
 
