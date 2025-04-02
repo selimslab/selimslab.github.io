@@ -3,52 +3,65 @@ title: Timelines
 tags: lists time history
 --- 
 
-## The past 14 billion years
+The earth is about 4.5 billion years old
 
-- **Big Bang**: 13.8 billion years ago
-- **Formation of Milky Way Galaxy**: 13.6 billion years ago
-- **Formation of Solar System**: 4.6 billion years ago
-- **Formation of Earth**: 4.5 billion years ago -> [[earth-time-scale]]
-- **First Single-Celled Life**: 3.5 billion years ago
+Let's take it to human-scale and scale it down by 100 million 
 
+Then we can say the Earth is 45 years old. Milkway is 136 years old. The known universe is 138 years old. 
 
-## The last billion years
+So one year for the 45 years old Mother Earth is 100 million years to us. 
 
+Her week is about 2 million years 
 
-- **First Multicellular Life**: 600 million years ago (mya)
-- **Cambrian Explosion**: 540 mya
-- **First Land Plants**: 470 mya
-- **First Trees**: 370 mya
+Her day is 288 000 years
+
+Her hour is 12 000 years
+
+Her 5 minutes is a thousand years
+
+Her 30 seconds is a century
+
+Her 3 seconds is a decade
+
+{% include earth.html %}
+
+- **Big Bang**: 13.8 billion years ago (bya) ~ 138 years ago (ya)
+- **Formation of Milky Way Galaxy**: 13.6 bya ~ 136 ya
+- **Formation of Solar System**: 4.6 bya ~ 46 ya
+- **Formation of Earth**: 4.5 bya ~ 45 ya
+
+---
+
+- **First Single-Celled Life**: 3.5 bya ~ 35 ya
+- **First Multicellular Life**: 600 million years ago (mya) ~ 6 years ago
+- **Cambrian Explosion**: 540 mya 
+- **First Land Plants**: 470 mya 
+- **First Trees**: 370 mya 
 - **First Dinosaurs**: 230 mya
-- **First Mammals**: 200 mya
-- **End of Dinosaurs**: 66 mya
+- **First Mammals**: 200 mya ~ 2 ya
+- **End of Dinosaurs**: 66 mya ~ 9 months ago
 
 {% include clock.html type="decimal" id="1b" title="The last billion years" %}
 
-
-## The last 10 million years
-
-- **Last Common Ancestor of Humans and Chimps**: 6 mya
-- **First Humans**: 2.8 mya
-- **First Stone Tools**: 2.6 mya
-- **Controlled Use of Fire**: 1 mya
-- **Homo Sapiens**: 300,000 years ago
+- **Last Common Ancestor of Humans and Chimps**: 6 mya ~ 3 weeks ago
+- **First Humans, first stone tools**: 2.8 mya ~ 10 days ago
+- **Controlled Use of Fire**: 1 mya ~ 3 days ago
+- **Homo Sapiens**: 300,000 years ago ~ 25 hours ago
 
 {% include clock.html type="decimal" id="10m" title="The last 10 million years" %}
 
+## The last hour: 12 000 years
 
-## The last 12 000 years
-
-- **End of the Last Ice Age, Agriculture**: c. 10,000 BC
-- **First Cities**: c. 7000 BC
-- **Copper Age, Wheel**: c. 5000 BC
-- **Bronze Age, Pyramids, Sumerians, Writing**: c. 3000 BC
+- **End of the Last Ice Age, Agriculture**: c. 10,000 BC ~ 12 000 ya  ~ 1 hour ago
+- **First Cities**: c. 7000 BC ~ 9000 ya ~ 45 mins ago
+- **Copper Age, Wheel**: c. 5000 BC ~ 7000 ya ~ 35 mins ago
+- **Bronze Age, Pyramids, Sumerians, Writing**: c. 3000 BC ~ 5000 ya ~ 25 mins ago 
 
 {% include clock.html type="millennia" id="millenniaClock" title="Millennia" %}
 
-- **Iron Age, Trojan War**: c. 1200 BC
-- **Greek Dark Ages, Collapse of Mediterranean Civilizations**: c. 1200 BC to 800 BC
-- **Classical Age, Ancient Greece, Rome** c. 800 BC to 476
+- **Iron Age, Trojan War**: c. 1200 BC ~ 3200 years ago ~ 16 mins ago 
+- **Greek Dark Ages, Collapse of Mediterranean Civilizations**: c. 1200 BC to 800 BC 
+- **Classical Age, Ancient Greece, Rome** c. 800 BC to 476 
 
 - **Middle Ages**: c. 476 - 1400
 - **Renaissance**: c. 1400 to 1700
@@ -57,7 +70,7 @@ tags: lists time history
 {% include clock.html type="century" id="centuryClock" title="Centuries" %}
 
 - **World War I**: 1914 - 1918
-- **World War II**: 1939 - 1945
+- **World War II**: 1939 - 1945 ~ Ended 80 years ago ~ 24 seconds ago
 
 {% include clock.html type="decade" id="decadeClock" title="Decades" %}
 
