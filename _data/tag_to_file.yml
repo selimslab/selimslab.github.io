@@ -6,7 +6,6 @@ pols: politics
 sys: system-design
 ml: machine-learning
 os: operating-systems
-exp: experiments
 
 algo: algorithms
 ds: data-structures
