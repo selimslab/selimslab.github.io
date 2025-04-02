@@ -4,7 +4,7 @@ layout: page
 
 <div class="columns is-vcentered">
 
-  <div class="column is-6">
+  <div class="column is-4">
 
     <ul>
       <li><a href='/clocks/' id="current-time"></a></li>

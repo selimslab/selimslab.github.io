@@ -2,10 +2,10 @@
 .moon,
 .planet-container {
     border-radius: 50%;
-    height: 15rem;
+    height: 12rem;
     overflow: hidden;
     position: relative;
-    width: 15rem;
+    width: 12rem;
     z-index: 1;
     margin: 0 auto;
 }
@@ -18,9 +18,9 @@
     animation: rotate-night 24s linear infinite;
     background-image: url(/assets/static/solar/2k_moon.jpg);
     background-size: 200%;
-    height: 5rem;
+    height: 3rem;
     box-shadow: 0 0 15px 5px #4367ad;
-    width: 5rem;
+    width: 3rem;
     z-index: 2;
 }
 
@@ -28,9 +28,9 @@
     animation: rotate-night 24s linear infinite;
     background-image: url(/assets/static/solar/2k_sun_small.jpg);
     background-size: 200%;
-    height: 5rem;
+    height: 3rem;
     box-shadow: 0 0 15px 5px #f1855e;
-    width: 5rem;
+    width: 3rem;
     z-index: 2;
 }
 
@@ -38,9 +38,9 @@
     animation: rotate-night 24s linear infinite;
     background-image: url(/assets/static/solar/2k_earth_nightmap.jpg);
     background-size: 200%;
-    height: 15rem;
+    height: 12rem;
     position: absolute;
-    width: 15rem;
+    width: 12rem;
     z-index: 2;
     transform: rotate(-10deg);
     border-radius: 50%;
@@ -52,10 +52,10 @@
     background-size: 200%;
     border-radius: 50%;
     box-shadow: 4px 0 16px 0 #040615 inset; 
-    height: 15rem;
+    height: 12rem;
     margin-left: 90px;
     position: absolute;
-    width: 15rem;
+    width: 12rem;
     z-index: 3;
     transform: rotate(-10deg)
 }
@@ -65,21 +65,21 @@
     background-size: 200%;
     border-radius: 50%;    
     box-shadow: 5px 0 20px 10px #040615 inset, -9px 0px 20px 10px #040615 inset;
-    height: 15rem;
+    height: 12rem;
     margin-left: 90px;
     opacity: 0.45;
     position: absolute;
-    width: 15rem;
+    width: 12rem;
     z-index: 4;
 }
 .inner-shadow {
     background: transparent;
     border-radius: 50%;
     box-shadow: -4px 0 8px 0 rgba(21, 43, 87, 0.8) inset, 4px 0 8px 0 rgba(4, 6, 21, 0.8) inset;
-    height: 15rem;
+    height: 12rem;
     margin-left: 0;
     position: absolute;
-    width: 15rem;
+    width: 12rem;
     z-index: 5;
 }
 
