@@ -1,6 +1,6 @@
 ---
 title: 2D Graph of All Pages
-layout: free
+layout: basic
 ---
 
 {% include graph-2d.html %}

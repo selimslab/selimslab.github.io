@@ -1,7 +1,7 @@
 ---
 title: Clocks ⏱️
 tags: time
-layout: basic
+layout: exp
 ---
 
 {% include clocks.html %}
