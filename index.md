@@ -2,25 +2,18 @@
 layout: full
 ---
 
-
 <div class="columns is-vcentered">
-
-  <div class="column is-2">
-    <ul>
-      <li><a href='/clocks/' id="current-time"></a></li>
-      <li><a href='/calendar/' id="current-date"></a></li>
-    </ul>
-  </div>
-
-  {% include theme.html %}
-
-</div>
-
-
-<div class="columns" style="margin-top:-3rem">
 
 <div class="column is-4">
   
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+      <ul style="margin: 0;">
+        <li><a href='/clocks/' id="current-time"></a></li>
+        <li><a href='/calendar/' id="current-date"></a></li>
+      </ul>
+      {% include theme.html %}
+    </div>
+
     <h2 class="mono">delta</h2>
     
     <ul>
@@ -38,8 +31,6 @@ layout: full
 {% include search.html %}
 
 </div>
-
-
 
 </div>
 
