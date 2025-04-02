@@ -5,19 +5,19 @@
       "group": 0,
       "name": "Root",
       "links": [
-        "/arts",
+        "/art",
         "/engineering",
         "/ideas",
         "/lists",
         "/math",
         "/misc",
-        "/sciences"
+        "/science"
       ]
     },
     {
-      "id": "/arts",
+      "id": "/art",
       "group": 1,
-      "name": "Arts",
+      "name": "Art",
       "links": [
         "/root",
         "/photography",
@@ -124,9 +124,9 @@
       ]
     },
     {
-      "id": "/sciences",
+      "id": "/science",
       "group": 1,
-      "name": "Sciences",
+      "name": "Science",
       "links": [
         "/root",
         "/economics",
@@ -135,8 +135,7 @@
         "/physics",
         "/politics",
         "/psychology",
-        "/sociology",
-        "/reasoning"
+        "/sociology"
       ]
     },
     {
@@ -144,7 +143,7 @@
       "group": 2,
       "name": "Photography",
       "links": [
-        "/arts"
+        "/art"
       ]
     },
     {
@@ -152,7 +151,7 @@
       "group": 2,
       "name": "Communication",
       "links": [
-        "/arts",
+        "/art",
         "/difficult-conversations",
         "/listening",
         "/public-speaking",
@@ -166,7 +165,7 @@
       "group": 2,
       "name": "Design",
       "links": [
-        "/arts",
+        "/art",
         "/creativity",
         "/design-ideas",
         "/design-principles",
@@ -181,7 +180,7 @@
       "group": 2,
       "name": "Edebiyat",
       "links": [
-        "/arts",
+        "/art",
         "/atasozleri",
         "/bilge-kagan",
         "/dede-korkut",
@@ -194,7 +193,7 @@
       "group": 2,
       "name": "Literature",
       "links": [
-        "/arts",
+        "/art",
         "/authors",
         "/cien-anos-de-soledad",
         "/classics",
@@ -207,7 +206,7 @@
       "group": 2,
       "name": "Poetry",
       "links": [
-        "/arts",
+        "/art",
         "/brecht",
         "/deep-roots",
         "/do-not-go-gentle",
@@ -240,7 +239,7 @@
       "group": 2,
       "name": "Siir",
       "links": [
-        "/arts",
+        "/art",
         "/abbas",
         "/alper-tunga",
         "/asik-veysel",
@@ -259,7 +258,7 @@
       "group": 2,
       "name": "UX",
       "links": [
-        "/arts",
+        "/art",
         "/a-free-web-again",
         "/accessibility",
         "/evolution-of-computer-interfaces",
@@ -582,8 +581,7 @@
         "/systems-thinking",
         "/take-a-walk",
         "/decision-making",
-        "/work",
-        "/sciences"
+        "/work"
       ]
     },
     {
@@ -874,7 +872,7 @@
       "group": 2,
       "name": "Economics",
       "links": [
-        "/sciences",
+        "/science",
         "/how-to-gain-wealth"
       ]
     },
@@ -883,7 +881,7 @@
       "group": 2,
       "name": "History",
       "links": [
-        "/sciences",
+        "/science",
         "/farming-trap",
         "/history-of-technology",
         "/rome",
@@ -897,7 +895,7 @@
       "group": 2,
       "name": "Neuroscience",
       "links": [
-        "/sciences",
+        "/science",
         "/psychopathy"
       ]
     },
@@ -906,7 +904,7 @@
       "group": 2,
       "name": "Physics",
       "links": [
-        "/sciences",
+        "/science",
         "/classical-physics",
         "/feynman-lectures",
         "/inertia",
@@ -919,7 +917,7 @@
       "group": 2,
       "name": "Politics",
       "links": [
-        "/sciences",
+        "/science",
         "/climate-change",
         "/down-and-around",
         "/negotiations",
@@ -937,7 +935,7 @@
       "group": 2,
       "name": "Psychology",
       "links": [
-        "/sciences",
+        "/science",
         "/cognitive-biases",
         "/emotions",
         "/manipulation",
@@ -958,7 +956,7 @@
       "group": 2,
       "name": "Sociology",
       "links": [
-        "/sciences",
+        "/science",
         "/being-poor",
         "/collectivism",
         "/social-groups",
@@ -3846,7 +3844,7 @@
   "links": [
     {
       "source": "/root",
-      "target": "/arts"
+      "target": "/art"
     },
     {
       "source": "/root",
@@ -3870,38 +3868,38 @@
     },
     {
       "source": "/root",
-      "target": "/sciences"
+      "target": "/science"
     },
     {
-      "source": "/arts",
+      "source": "/art",
       "target": "/photography"
     },
     {
-      "source": "/arts",
+      "source": "/art",
       "target": "/communication"
     },
     {
-      "source": "/arts",
+      "source": "/art",
       "target": "/design"
     },
     {
-      "source": "/arts",
+      "source": "/art",
       "target": "/edebiyat"
     },
     {
-      "source": "/arts",
+      "source": "/art",
       "target": "/literature"
     },
     {
-      "source": "/arts",
+      "source": "/art",
       "target": "/poetry"
     },
     {
-      "source": "/arts",
+      "source": "/art",
       "target": "/siir"
     },
     {
-      "source": "/arts",
+      "source": "/art",
       "target": "/ux"
     },
     {
@@ -4097,31 +4095,31 @@
       "target": "/site-stats"
     },
     {
-      "source": "/sciences",
+      "source": "/science",
       "target": "/economics"
     },
     {
-      "source": "/sciences",
+      "source": "/science",
       "target": "/history"
     },
     {
-      "source": "/sciences",
+      "source": "/science",
       "target": "/neuroscience"
     },
     {
-      "source": "/sciences",
+      "source": "/science",
       "target": "/physics"
     },
     {
-      "source": "/sciences",
+      "source": "/science",
       "target": "/politics"
     },
     {
-      "source": "/sciences",
+      "source": "/science",
       "target": "/psychology"
     },
     {
-      "source": "/sciences",
+      "source": "/science",
       "target": "/sociology"
     },
     {
@@ -5839,10 +5837,6 @@
     {
       "source": "/psychology",
       "target": "/psychopathy"
-    },
-    {
-      "source": "/sciences",
-      "target": "/reasoning"
     }
   ]
 }
