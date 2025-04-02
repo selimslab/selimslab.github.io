@@ -11,19 +11,9 @@ Then we can say the Earth is 45 years old. Milky Way is 136 years old. The known
 
 So one year for the 45 years old Mother Earth is 100 million years to us. 
 
-Her 30 seconds is a century
+Her 30 seconds is a century, 3 seconds is a decade
 
-Her 3 seconds is a decade
-
-{% include earth.html %}
-
-Her week is about 2 million years 
-
-Her day is 288 000 years
-
-Her hour is 12 000 years
-
-Her 5 minutes is a thousand years
+Thousand years to us is 5 mins to her
 
 ---
 
@@ -43,14 +33,10 @@ Her 5 minutes is a thousand years
 - **First Mammals**: 200 mya ~ 2 ya
 - **End of Dinosaurs**: 66 mya ~ 9 months ago
 
-{% include clock.html type="decimal" id="1b" title="The last billion years" %}
-
 - **Last Common Ancestor of Humans and Chimps**: 6 mya ~ 3 weeks ago
 - **First Humans, first stone tools**: 2.8 mya ~ 10 days ago
 - **Controlled Use of Fire**: 1 mya ~ 3 days ago
 - **Homo Sapiens**: 300,000 years ago ~ 25 hours ago
-
-{% include clock.html type="decimal" id="10m" title="The last 10 million years" %}
 
 ## The last hour: 12 000 years
 
@@ -58,15 +44,15 @@ Her 5 minutes is a thousand years
 - **First Cities**: c. 7000 BC ~ 9000 ya ~ 45 mins ago
 - **Copper Age, Wheel**: c. 5000 BC ~ 7000 ya ~ 35 mins ago
 - **Bronze Age, Pyramids, Sumerians, Writing**: c. 3000 BC ~ 5000 ya ~ 25 mins ago 
-
+- **Iron Age, Trojan War**: c. 1200 BC ~ 3200 years ago ~ 16 mins ago 
+- 
 {% include clock.html type="millennia" id="millenniaClock" title="Millennia" %}
 
-- **Iron Age, Trojan War**: c. 1200 BC ~ 3200 years ago ~ 16 mins ago 
-- **Greek Dark Ages, Collapse of Mediterranean Civilizations**: c. 1200 BC to 800 BC 
-- **Classical Age, Ancient Greece, Rome** c. 800 BC to 476 
+- **Greek Dark Ages, Collapse of Mediterranean Civilizations**: c. 1200 BC to 800 BC  ~ 16 to 14 mins ago
+- **Classical Age, Ancient Greece, Rome** c. 800 BC to 476  ~ 14 to 8 mins ago
 
-- **Middle Ages**: c. 476 - 1400
-- **Renaissance**: c. 1400 to 1700
+- **Middle Ages**: c. 476 - 1400 
+- **Renaissance**: c. 1400 to 1700 
 - **Industrial Revolution**: c. 1700 to 1914
 
 {% include clock.html type="century" id="centuryClock" title="Centuries" %}

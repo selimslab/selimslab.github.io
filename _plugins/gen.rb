@@ -7,6 +7,8 @@ STATIC_PATH = "#{ASSETS_PATH}/static".freeze
 DATA_PATH = "#{ASSETS_PATH}/data".freeze
 DEBUG_PATH = "./debug".freeze
 DEBUG = false
+GRAPH = false
+SHUFFLE = false
 
 class SiteGenerator < Jekyll::Generator
   def initialize(config = {})
@@ -70,7 +72,7 @@ class SiteGenerator < Jekyll::Generator
     ideas = JSON.parse(File.read("#{DATA_PATH}/ideas.json"))
     
     # Shuffle ideas in debug mode for testing
-    ideas.shuffle!(random: Random.new(ideas.length)) if DEBUG
+    ideas.shuffle!(random: Random.new(ideas.length)) if SHUFFLE
     
     # Write updated ideas back to JSON file
     write_json("#{DATA_PATH}/ideas.json", ideas)
@@ -261,7 +263,7 @@ class SiteGenerator < Jekyll::Generator
     enrich_nodes(nodes, links, site)
 
     graph_data = { "nodes": nodes, "links": links }
-    write_graph_data(graph_data)
+    write_graph_data(graph_data) if GRAPH
 
     graph_data
   end
