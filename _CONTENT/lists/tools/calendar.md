@@ -1,7 +1,6 @@
 ---
 title: Calendar
 tags: time
-layout: page
 ---
 
 

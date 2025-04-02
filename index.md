@@ -2,7 +2,6 @@
 layout: page
 ---
 
-
 <div class="columns is-vcentered">
 
 <div class="column is-6">
@@ -13,9 +12,8 @@ layout: page
     </ul>
 
     <h2 class="mono">delta</h2>
-
       <ul>
-      <li><a href='/arts/'>Arts</a></li>
+        <li><a href='/arts/'>Arts</a></li>
         <li><a href='/sciences/'>Sciences</a></li>
         <li><a href='/engineering/'>Engineering</a></li>
         <li><a href='/lists/'>Lists</a></li>
@@ -25,11 +23,7 @@ layout: page
 
   </div>
 
-
-
 </div>
-
-
 
 {% include offline.html  %}
 
@@ -37,7 +31,6 @@ layout: page
 
 <script src="/assets/js/moment.min.js"></script>
 <script src="/assets/js/datetime.js"></script>
-
 
 <script>
   show_date_and_time();

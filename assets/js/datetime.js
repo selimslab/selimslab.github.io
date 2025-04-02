@@ -38,7 +38,7 @@ function show_date_and_time() {
 
     const today = moment();
 
-    document.querySelector("#current-date").innerHTML = today.format('dddd MMMM DD');
+    document.querySelector("#current-date").innerHTML = today.format('ddd MMM DD');
     function updateClock() {
         const now = new Date();
         document.getElementById('current-time').textContent =

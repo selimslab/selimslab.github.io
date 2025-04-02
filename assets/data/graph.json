@@ -7,7 +7,6 @@
       "links": [
         "/arts",
         "/engineering",
-        "/exp",
         "/ideas",
         "/lists",
         "/misc",
@@ -52,17 +51,6 @@
       ]
     },
     {
-      "id": "/exp",
-      "group": 1,
-      "name": "Experiments",
-      "links": [
-        "/root",
-        "/earth-time-scale",
-        "/timelines",
-        "/typewriter"
-      ]
-    },
-    {
       "id": "/ideas",
       "group": 1,
       "name": "Ideas",
@@ -91,6 +79,7 @@
         "/movies",
         "/quotes",
         "/checklists",
+        "/exp",
         "/tools",
         "/classics",
         "/essais",
@@ -215,7 +204,7 @@
         "/ozymandias",
         "/saturday",
         "/soft-rains",
-        "/tao-te-ching",
+        "/tao",
         "/the-red-wheelbarrow",
         "/the-road-not-taken",
         "/the-second-coming",
@@ -484,38 +473,6 @@
       ]
     },
     {
-      "id": "/earth-time-scale",
-      "group": 2,
-      "name": "If the Earth is 45 years old",
-      "links": [
-        "/exp",
-        "/climate-change",
-        "/pale-blue-dot",
-        "/timelines",
-        "/history"
-      ]
-    },
-    {
-      "id": "/timelines",
-      "group": 2,
-      "name": "Timelines",
-      "links": [
-        "/exp",
-        "/earth-time-scale",
-        "/time",
-        "/lists",
-        "/history"
-      ]
-    },
-    {
-      "id": "/typewriter",
-      "group": 2,
-      "name": "Typewriter",
-      "links": [
-        "/exp"
-      ]
-    },
-    {
       "id": "/choice",
       "group": 2,
       "name": "Choice",
@@ -585,7 +542,7 @@
         "/truth",
         "/do-one-thing-at-a-time-and-do-it-well",
         "/how-to-deal-with-pain",
-        "/tao-te-ching",
+        "/tao",
         "/critical-thinking",
         "/hard-times",
         "/pale-blue-dot",
@@ -720,6 +677,17 @@
         "/driving",
         "/outdoors",
         "/used-cars"
+      ]
+    },
+    {
+      "id": "/exp",
+      "group": 2,
+      "name": "Experiments",
+      "links": [
+        "/lists",
+        "/earth-time-scale",
+        "/timelines",
+        "/typewriter"
       ]
     },
     {
@@ -877,7 +845,7 @@
         "/social-change",
         "/the-art-of-war",
         "/who-goes-nazi",
-        "/tao-te-ching"
+        "/tao"
       ]
     },
     {
@@ -1217,11 +1185,14 @@
       ]
     },
     {
-      "id": "/tao-te-ching",
+      "id": "/tao",
       "group": 3,
       "name": "Tao Te Ching",
       "links": [
         "/poetry",
+        "/uncut-wood",
+        "/wei-wu-wei",
+        "/wind-and-rain",
         "/philosophy",
         "/politics"
       ]
@@ -1271,7 +1242,8 @@
       "group": 3,
       "name": "Uncut Wood",
       "links": [
-        "/poetry"
+        "/poetry",
+        "/tao"
       ]
     },
     {
@@ -1287,7 +1259,8 @@
       "group": 3,
       "name": "Wei Wu Wei",
       "links": [
-        "/poetry"
+        "/poetry",
+        "/tao"
       ]
     },
     {
@@ -1296,6 +1269,7 @@
       "name": "Wind And Rain",
       "links": [
         "/poetry",
+        "/tao",
         "/know-where-to-stop"
       ]
     },
@@ -2777,7 +2751,6 @@
       "name": "Pale Blue Dot",
       "links": [
         "/time",
-        "/earth-time-scale",
         "/philosophy"
       ]
     },
@@ -2865,6 +2838,37 @@
       "links": [
         "/checklists",
         "/driving"
+      ]
+    },
+    {
+      "id": "/earth-time-scale",
+      "group": 3,
+      "name": "If the Earth is 45 years old",
+      "links": [
+        "/exp",
+        "/climate-change",
+        "/timelines",
+        "/history"
+      ]
+    },
+    {
+      "id": "/timelines",
+      "group": 3,
+      "name": "Timelines",
+      "links": [
+        "/exp",
+        "/time",
+        "/earth-time-scale",
+        "/lists",
+        "/history"
+      ]
+    },
+    {
+      "id": "/typewriter",
+      "group": 3,
+      "name": "Typewriter",
+      "links": [
+        "/exp"
       ]
     },
     {
@@ -3850,10 +3854,6 @@
     },
     {
       "source": "/root",
-      "target": "/exp"
-    },
-    {
-      "source": "/root",
       "target": "/ideas"
     },
     {
@@ -3953,18 +3953,6 @@
       "target": "/system-design"
     },
     {
-      "source": "/exp",
-      "target": "/earth-time-scale"
-    },
-    {
-      "source": "/exp",
-      "target": "/timelines"
-    },
-    {
-      "source": "/exp",
-      "target": "/typewriter"
-    },
-    {
       "source": "/ideas",
       "target": "/choice"
     },
@@ -4023,6 +4011,10 @@
     {
       "source": "/lists",
       "target": "/checklists"
+    },
+    {
+      "source": "/lists",
+      "target": "/exp"
     },
     {
       "source": "/lists",
@@ -4242,7 +4234,7 @@
     },
     {
       "source": "/poetry",
-      "target": "/tao-te-ching"
+      "target": "/tao"
     },
     {
       "source": "/poetry",
@@ -4997,6 +4989,18 @@
       "target": "/used-cars"
     },
     {
+      "source": "/exp",
+      "target": "/earth-time-scale"
+    },
+    {
+      "source": "/exp",
+      "target": "/timelines"
+    },
+    {
+      "source": "/exp",
+      "target": "/typewriter"
+    },
+    {
       "source": "/tools",
       "target": "/calendar"
     },
@@ -5489,6 +5493,18 @@
       "target": "/one-day-at-a-time"
     },
     {
+      "source": "/tao",
+      "target": "/uncut-wood"
+    },
+    {
+      "source": "/tao",
+      "target": "/wei-wu-wei"
+    },
+    {
+      "source": "/tao",
+      "target": "/wind-and-rain"
+    },
+    {
       "source": "/wind-and-rain",
       "target": "/know-where-to-stop"
     },
@@ -5621,18 +5637,6 @@
       "target": "/systems-thinking"
     },
     {
-      "source": "/earth-time-scale",
-      "target": "/climate-change"
-    },
-    {
-      "source": "/earth-time-scale",
-      "target": "/pale-blue-dot"
-    },
-    {
-      "source": "/earth-time-scale",
-      "target": "/timelines"
-    },
-    {
       "source": "/character",
       "target": "/freedom"
     },
@@ -5694,7 +5698,7 @@
     },
     {
       "source": "/philosophy",
-      "target": "/tao-te-ching"
+      "target": "/tao"
     },
     {
       "source": "/philosophy",
@@ -5765,6 +5769,14 @@
       "target": "/probability-and-statistics"
     },
     {
+      "source": "/earth-time-scale",
+      "target": "/climate-change"
+    },
+    {
+      "source": "/earth-time-scale",
+      "target": "/timelines"
+    },
+    {
       "source": "/lists",
       "target": "/classics"
     },
@@ -5806,7 +5818,7 @@
     },
     {
       "source": "/politics",
-      "target": "/tao-te-ching"
+      "target": "/tao"
     },
     {
       "source": "/psychology",
