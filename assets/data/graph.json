@@ -595,8 +595,8 @@
         "/timelines",
         "/calendar",
         "/clocks",
-        "/history",
-        "/space"
+        "/space",
+        "/history"
       ]
     },
     {
@@ -695,7 +695,8 @@
       "links": [
         "/lists",
         "/calendar",
-        "/clocks"
+        "/clocks",
+        "/space"
       ]
     },
     {
@@ -824,8 +825,7 @@
         "/classical-physics",
         "/feynman-lectures",
         "/inertia",
-        "/maxwell-equations",
-        "/space"
+        "/maxwell-equations"
       ]
     },
     {
@@ -2888,6 +2888,15 @@
       ]
     },
     {
+      "id": "/space",
+      "group": 3,
+      "name": "Space",
+      "links": [
+        "/tools",
+        "/time"
+      ]
+    },
+    {
       "id": "/how-to-gain-wealth",
       "group": 3,
       "name": "How To Gain Wealth",
@@ -3047,15 +3056,6 @@
       "links": [
         "/physics",
         "/classical-physics"
-      ]
-    },
-    {
-      "id": "/space",
-      "group": 3,
-      "name": "Space",
-      "links": [
-        "/physics",
-        "/time"
       ]
     },
     {
@@ -5007,6 +5007,10 @@
       "target": "/clocks"
     },
     {
+      "source": "/tools",
+      "target": "/space"
+    },
+    {
       "source": "/economics",
       "target": "/how-to-gain-wealth"
     },
@@ -5081,10 +5085,6 @@
     {
       "source": "/physics",
       "target": "/maxwell-equations"
-    },
-    {
-      "source": "/physics",
-      "target": "/space"
     },
     {
       "source": "/politics",
@@ -5752,11 +5752,11 @@
     },
     {
       "source": "/time",
-      "target": "/history"
+      "target": "/space"
     },
     {
       "source": "/time",
-      "target": "/space"
+      "target": "/history"
     },
     {
       "source": "/driving",
