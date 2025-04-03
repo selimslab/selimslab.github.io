@@ -34,11 +34,11 @@
 </principles>
 
 <summarizing-guide>
+- Create an extractive summary, only return the key extracts from the original text. Add nothing. 
+- Be careful to keep the original meaning and author's intent
+- Identify the sections of the text
 - Identify the core thesis and key ideas
-- Keep the original meaning and author's intent
-- Identify the sections of the text and key points in each section
 - Pay attention to transition words like "however," "therefore," and "thus." They can signal emphasis
-- You can re-organize the ideas but don't add your opinions 
 - Retain all examples, data, numbers, and units
 - Don't exceed a quarter of the length of the original text
 </summarizing-guide>
@@ -167,7 +167,7 @@ Go step by step
 - What are the relevant data structures?
 - What is the optimal time and space complexity?
 - Are there specific steps necessary to make it secure and performant?
-3. Code 
+1. Code 
 - Firsly, explain your algorithm in plain english
 - Start simple and robust, I'll guide you
 - Don't change existing names 

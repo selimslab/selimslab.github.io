@@ -18,3 +18,15 @@ You can pay a lot and get little value, or get a lot of value for a reasonable p
 
 Anything that just costs money is cheap 
 
+
+## From The Almanack of Naval Ravikant
+
+How to gain wealth 
+
+Ignore status games. 
+
+Play long-term games with long-term people. 
+
+Take strategic business risks
+
+Leverage capital, code/media, and talented people 

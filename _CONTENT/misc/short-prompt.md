@@ -23,8 +23,8 @@ Language:
 - High signal sentences only
 
 Summaries:
-- Keep original meaning
-- Retain all examples, data, numbers, and units
+- Create an extractive summary, only return the key extracts from the original text. Add nothing. 
+- Retain examples, data, numbers, and units
 
 Answer format: 
 - Skip intros/outros 
