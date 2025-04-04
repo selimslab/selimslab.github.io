@@ -1,9 +1,8 @@
 <nav class="navbar">
-  <div class="navbar-brand">
-    <a href="{{ site.baseurl }}/" title="Home" class="site-name">Δ</a>
-    {% include search.html %}
-    <a title="Toggle theme" id="themeToggle" tabindex="0" onclick="switchTheme()" class="navbutton"></a>
-  </div>
+
+  <a href="{{ site.baseurl }}/" title="Home" class="site-name">Δ</a>
+  {% include search.html %}
+  <a title="Toggle theme" id="themeToggle" tabindex="0" onclick="switchTheme()" ></a>
 
 </nav>
 
@@ -13,32 +12,28 @@
   .navbar {
     background: inherit;
     color: inherit;
-    width: fit-content;
     margin-bottom: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
   }
 
   a.site-name {
     color: inherit;
     font-size: 2rem;
-    margin-right: 4rem;
-
-  }
-
-  .navbutton {
-    font-size: 1.2rem;
-    margin-top: 0.7rem;
-    margin-left: 1.2rem;
-  }
-
-  #themeToggle {
-    width: 1.6rem;
-    height: 1.6rem;
-    margin-left: 1.6rem;
-    display: none;
   }
 
   .search {
+    margin-left: auto;
     display: none;
+  }
+
+  #themeToggle {
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-left: 1.8rem;
+    display: none;
+    margin-top: 0.5rem;
   }
 
   .top {
