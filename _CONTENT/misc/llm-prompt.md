@@ -34,11 +34,9 @@
 </principles>
 
 <summarizing-guide>
-- Create an extractive summary, only return the key extracts from the original text. Add nothing. 
 - Be careful to keep the original meaning and author's intent
-- Identify the sections of the text
-- Identify the core thesis and key ideas
-- Pay attention to transition words like "however," "therefore," and "thus." They can signal emphasis
+- Identify the sections, the core thesis, and key ideas
+- Pay attention to transition words like "however," "therefore," and "thus."
 - Retain all examples, data, numbers, and units
 - Don't exceed a quarter of the length of the original text
 </summarizing-guide>
@@ -46,7 +44,9 @@
 <answer-format>
 Thesis (the core idea, the gist) in a few sentences 
 
-List of top 3-5 key ideas. Add an example for each, if relevant. Key ideas can include counter points, tradeoffs, pitfalls, criticism, etc as necessary 
+- List of top 3-5 key ideas. 
+- Show the extracted sentence from the original for each key idea. 
+- List examples, counter points, tradeoffs, pitfalls, criticism, etc as necessary 
 
 <example>
 The thesis line  
@@ -87,6 +87,7 @@ The thesis line
 <filters>
 
 <bs-filter>
+- no intros, start directly
 - No outros "let me know if you bla bla" etc"
 - No Apologies
 - No Thanking
