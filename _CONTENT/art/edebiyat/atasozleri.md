@@ -1,95 +1,90 @@
 ---
 ---
 
-Göle su gelinceye kadar kurbağanın gözü patlar
-
-Kırk hırsız bir çıplağı soyamamış   
-
-Köre şimdi gece demişler; ne zaman gündüzdü demiş
-
-Karga dermiş ki: Çocuklarım olalı burnumu göme göme bok yiyemedim
-
-Sağlık varlıktan yeğdir
-
-Sahipsiz eve it buyruk
-
-Osurukla boya boyanmaz
-
-Sorma kişinin aslını, sohbetinden bellidir
-
-Yaşı at pazarında sorarlar
-
-Söyleyenden dinleyen arif gerek
-
-Haberi verenden alan uz gerek
-
-Alismis kudurmustan beterdir 
-
-Azdan az gider, coktan cok
-
-Tahsil cehaleti alir, eseklik baki kalir 
-
-Üç göç, bir yangın yerini tutar
-
-Yerinden oynayan yetmiş kazaya uğrar
 
 Abdal ata binince bey oldum sanır
 
+Alismis kudurmustan beterdir
+
+Ayaga degmedik tas olmaz, basa gelmedik is olmaz
+
 Aza sormuşlar nereye, çoğun yanına demiş
 
-Eşeğe rakı içirmişler; çulunu bahşiş vermiş
-
-Beş kuruşun üstünde oturmaya beş batman göt gerek
+Azdan az gider, coktan cok
 
 Baş ağır gerek, kulak sağır
+
+Beş kuruşun üstünde oturmaya beş batman göt ister
 
 Bin tasa bir borç ödemez
 
 Binin yarısı beş yüz o da ben de yok
 
-Cömert derler maldan ederler, yiğit derler candan ederler
-
-İtle çuvala girilmez
-
-Çarşı iti ev beklemez
-
-Boşboğazı ateşe atmışlar, odun yaş diye bağırmış
-
-Bir tepe yıkılır, bir dere dolar
+Bir günlük beylik, beyliktir
 
 Bir mıh bir nal kurtarır, bir nal bir at kurtarır
 
-Bir günlük beylik, beyliktir
+Bir tepe yıkılır, bir dere dolar
 
-Dertsiz bir kabak varmış, onun da başını kesip içini oymuşlar
+Biz diyoruz babamız açlıktan ölüyor, o diyor niye ona bir pilav yapmadınız
 
-İt derisinden post olmaz
+Boşboğazı ateşe atmışlar, odun yaş diye bağırmış
 
-Eski düşman dost olmaz
-
-Dost ağlatır, düşman güldürür
-
-Dost yüzünden, düşman gözünden bellidir
-
-Ayaga degmedik tas olmaz, basa gelmedik is olmaz 
+Çarşı iti ev beklemez
 
 Çok konuşan çok yanılır
 
-Evden bir ölü çıkacak demişler, herkes hizmetçinin yüzüne bakmış
+Cömert derler maldan ederler, yiğit derler candan ederler
 
-El için ağlayan gözden olur
+Dertsiz bir kabak varmış, onun da başını kesip içini oymuşlar
 
-Eceli gelen fare kedi taşağı kaşır
+Dost ağlatır, düşman güldürür
 
-Düzlükte kurt ulusa, evde itin bağrı sızlar
+Dost ile ye, iç, alışveriş etme
 
-Düşenin dostu olmaz
+Dost yüzünden, düşman gözünden bellidir
 
 Dünyayı sel bassa ördeğe vız gelir
 
+Düşenin dostu olmaz
+
 Düşman düşmana gazel okumaz
 
+Düzlükte kurt ulusa, evde itin bağrı sızlar
+
+Eceli gelen fare kedi taşağı kaşır
+
+El için ağlayan gözden olur
+
+Eski düşman dost olmaz
+
+Eşeğe rakı içirmişler; çulunu bahşiş vermiş
+
+Evden bir ölü çıkacak demişler, herkes hizmetçinin yüzüne bakmış
+
+Fırsat sakal altından geçer
+
+Göçtük yurdun kadri konduk yurtta bilinir
+
+Göle su gelinceye kadar kurbağanın gözü patlar
+
+Gönlün yazı var, kışı var
+
+Gürültü istemeyen kazancı dükkanına girmez
+
+Haberi verenden alan uz gerek
+
+Hafif akıl ağır yüktür
+
+Hem kara ayıp, hem de ağır utanç
+
+Her deliğe elini sokma, ya yılan çıkar ya çıyan
+
 İstemem diyenden kork
+
+İt ağzını kemik tutar
+
+İt derisinden post olmaz
 
 İt ite buyurur, it de kuyruğuna
 
@@ -99,68 +94,67 @@ Düşman düşmana gazel okumaz
 
 İtin akılsızı kurban bayramında sılaya gider
 
-
-Kedinin kanadı olsaydı serçenin adı kalmazdı
-
-Kırk hırsız bir çıplağı soyamamış
-
-Kar erir, bok ayaza çıkar
+İtle çuvala girilmez
 
 İyilik iki baştan olur
 
-Göçtük yurdun kadri konduk yurtta bilinir
+Kar erir, bok ayaza çıkar
 
-Gönlün yazı var, kışı var
+Karga dermiş ki: Çocuklarım olalı burnumu göme göme bok yiyemedim
 
-Kuş kanadına kira istemez
+Katıra 'baban kim?' demişler, dayım attır! demiş
 
-İt ağzını kemik tutar
-
-
----
-
-Her deliğe elini sokma, ya yılan çıkar ya çıyan
-
-Senden devletli ile ortak olma
-
-Dost ile ye, iç, alışveriş etme
-
-Sermayen bir yumurta ise taşa çal
-
-Kırk serçeden bir kaz iyi
-
-Kuru gayret, çarık eskitir
-
-Fırsat sakal altından geçer
-
-Kurda neden boynun kalın? demişler, işimi kendim görürüm de ondan demiş
-
-Gürültü istemeyen kazancı dükkanına girmez
-
-Sen rezil olacagina paran rezil olsun 
-
-Paranın gittiğine bakma, işinin bittiğine bak
-
----
+Kedinin kanadı olsaydı serçenin adı kalmazdı
 
 Kendimi taniyana kadar ömrümü tükettim
 
-Yedi sene sefere gitti geldi gene eski eşek
+Kırk hırsız bir çıplağı soyamamış
 
-Tilkiden kurnaz yoktur, derisinden de çok yoktur.
-
-Katıra 'baban kim?' demişler, dayım attır! demiş.
-
-Hem kara ayıp, hem de ağır utanç
-
-Tuttunsa birakma, bıraktınsa ardına düşme.
-
-Köpek korktuğu yana havlar.
-
-Sap ile şeker Diyarbakir'a gittiler, şeker sustu oturdu, sap kalktı kendini övdü.
+Kırk serçeden bir kaz iyi
 
 Kızarak ve bağırarak laf söylemek kadının silahıdır
 
-Hafif akıl ağır yüktür.				
+Köpek korktuğu yana havlar
 
-Biz diyoruz babamız açlıktan ölüyor, o diyor niye ona bir pilav yapmadınız.
+Köre şimdi gece demişler; ne zaman gündüzdü demiş
+
+Kurda neden boynun kalın? demişler, işimi kendim görürüm de ondan demiş
+
+Kuru gayret, çarık eskitir
+
+Kuş kanadına kira istemez
+
+Osurukla boya boyanmaz
+
+Paranın gittiğine bakma, işinin bittiğine bak
+
+Sağlık varlıktan yeğdir
+
+Sahipsiz eve it buyruk
+
+Sap ile şeker Diyarbakir'a gittiler, şeker sustu oturdu, sap kalktı kendini 
+övdü
+
+Sen rezil olacagina paran rezil olsun
+
+Senden devletli ile ortak olma
+
+Sermayen bir yumurta ise taşa çal
+
+Sorma kişinin aslını, sohbetinden bellidir
+
+Söyleyenden dinleyen arif gerek
+
+Tahsil cehaleti alir, eseklik baki kalir
+
+Tilkiden kurnaz yoktur, derisinden de çok yoktur
+
+Tuttunsa birakma, bıraktınsa ardına düşme
+
+Üç göç, bir yangın yerini tutar
+
+Yaşı at pazarında sorarlar
+
+Yedi sene sefere gitti geldi gene eski eşek
+
+Yerinden oynayan yetmiş kazaya uğrar
