@@ -7,6 +7,8 @@ Define the top goal, the most important thing. Say no to all else
 
 Break it down to steps. Eliminate, delegate, batch, define deadlines 
 
+Starting is the hardest thing - until you start. Then it is the easiest thing
+
 ## Tactics 
 - checklists
 - checkpoints

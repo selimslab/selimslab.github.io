@@ -19,15 +19,13 @@ const lightRed = "#FFB6B9";
 
 function getColor(index) {
   const colors = [
-    lightViolet,
-    gold,
-    lightGreen,
-    lightRed,
-    lightBlue,
-    lightBg,
-    blueViolet,
     lavender,
-    highlight
+    lightBg,
+    highlight,
+    gold,
+    lightViolet,
+    blueViolet,
+    lightBlue,
   ];
   return colors[index % colors.length];
 }

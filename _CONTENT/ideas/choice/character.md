@@ -33,6 +33,7 @@ Listen more than you speak. Know your limits. Don't take yourself too seriously.
 
 Never miss a good chance to shut up.
 
+"how he treats people who can't do him any good, and how he treats people who can't fight back.”
 
 ## Related
 

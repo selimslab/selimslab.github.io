@@ -1,5 +1,8 @@
 ---
 ---
+
+"Whenever you feel like criticizing any one," he told me, "just remember that all the people in this world haven't had the advantages that you've had.”
+
 "It is not the critic who counts; 
 
 not the man who points out how the strong man stumbles, 

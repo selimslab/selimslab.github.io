@@ -23,3 +23,6 @@
 > 'Manage the top line, and the bottom line will follow.' What's the top line? It's things like, why are we doing this in the first place? What's our strategy? What are customers saying? How responsive are we? Do we have the best products and the best people? Those are the kind of questions you have to focus on.
 >
 > Steve Jobs
+>
+
+"If you treat an individual as he is, he will remain how he is. But if you treat him as if he were what he ought to be and could be, he will become what he ought to be and could be.”
