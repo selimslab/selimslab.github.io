@@ -12,7 +12,7 @@ layout: delta
       <li><a href='/calendar/' id="current-date"></a></li>
     </ul>
 
-    <h2 class="mono">home</h2>
+    <h2>delta</h2>
     
     <ul>
 
