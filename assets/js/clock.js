@@ -33,7 +33,6 @@ function getCurrentPosition(type) {
         'hour': getHourPosition,
         'month': getMonthPosition,
         'year': getYearPosition,
-        'sixty': getSixtyPosition,
         'decimal': getDecimalPosition,
         'decade': getDecadePosition,
         'century': getCenturyPosition,
@@ -53,7 +52,6 @@ function getClockSetup(type) {
         'decade': getDecadeClockSetup,
         'century': getCenturyClockSetup,
         'millennia': getMillenniaClockSetup,
-        'sixty': getSixtyClockSetup
     };
     
     const setupFunction = setupFunctions[type] || setupFunctions['year'];
@@ -200,10 +198,10 @@ function getDecadeClockSetup() {
 
 function getCenturyClockSetup() {
     return {
-        segmentNames: ['2000', '2100', '...', '1300', '1400', '1500', '1600', '1700', '1800', '1900', ''],
-        segmentCount: 10,
-        segmentFractions: Array.from({length: 10}, (_, i) => i / 10),
-        marks: Array.from({length: 100}, (_, i) => i)
+        segmentNames: ['1200', '1300', '1400', '1500', '1600', '1700', '1800', '1900', '2000', '2100', '2200', '2300', ''],
+        segmentCount: 12,
+        segmentFractions: Array.from({length: 12}, (_, i) => i / 12),
+        marks: Array.from({length: 120}, (_, i) => i)
     };
 }
 
@@ -216,15 +214,6 @@ function getMillenniaClockSetup() {
     };
 }
 
-
-function getSixtyClockSetup() {
-    return {
-        segmentNames: ['0', '5', '10', '15', '20', '25', '30', '35', '40', '45', '50', '55'],
-        segmentCount: 12,
-        segmentFractions: Array.from({length: 12}, (_, i) => i / 12),
-        marks: Array.from({length: 60}, (_, i) => i)
-    };
-}
 
 // Position Calculation Functions
 function getHourPosition() {
@@ -252,14 +241,6 @@ function getYearPosition() {
     return ((yearsSince2000 + fractionOfYear) / 60) * 2 * Math.PI;
 }
 
-function getSixtyPosition() {
-    const year = moment().year();
-    const birthYear = 1995;
-    const age = year - birthYear;
-    const sixty = age % 60;
-    return (sixty / 60) * 2 * Math.PI;
-}
-
 function getDecimalPosition() {
     return 0;
 }
@@ -271,12 +252,12 @@ function getDecadePosition() {
 
 function getCenturyPosition() {
     const year = moment().year();
-    return (year-2000)/1000 * 2 * Math.PI;
+    return (year-1200)/1200 * 2 * Math.PI;
 }
 
 function getMillenniaPosition() {
     const year = moment().year();
-    return (year)/10000 * 2 * Math.PI;
+    return (year)/12000 * 2 * Math.PI;
 }
 
 

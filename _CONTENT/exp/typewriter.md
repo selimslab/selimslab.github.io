@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: article
 ---
 
 {% include typing.html %}

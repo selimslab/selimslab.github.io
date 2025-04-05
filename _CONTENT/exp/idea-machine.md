@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: article
 ---
 
 <div class="column is-8">

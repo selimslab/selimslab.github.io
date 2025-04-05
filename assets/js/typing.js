@@ -16,6 +16,7 @@ async function getNextSentence() {
     return content;
 }
 
+
 document.addEventListener('DOMContentLoaded', async () => {
     let sentence = '';
     let typedText = '';
