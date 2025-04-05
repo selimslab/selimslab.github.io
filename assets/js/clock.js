@@ -207,7 +207,7 @@ function getCenturyClockSetup() {
 
 function getMillenniaClockSetup() {
     return {
-        segmentNames: ['0 CE', '1000', '2000', '...', '6000 BC', '5000', '4000', '3000', '2000', '1000 BC', ''],
+        segmentNames: ['0 CE', '1000', '2000', '7000 BC', '6000', '5000', '4000', '3000', '2000', '1000 BC', ''],
         segmentCount: 10,
         segmentFractions: Array.from({length: 10}, (_, i) => i / 10),
         marks: Array.from({length: 100}, (_, i) => i)
@@ -257,7 +257,7 @@ function getCenturyPosition() {
 
 function getMillenniaPosition() {
     const year = moment().year();
-    return (year)/12000 * 2 * Math.PI;
+    return (year)/10000 * 2 * Math.PI;
 }
 
 
