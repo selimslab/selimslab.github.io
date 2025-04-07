@@ -294,9 +294,10 @@ function drawHand(ctx, config, angle) {
     const { sizes, colors } = config;
     const handLength = config.radius * sizes.handLength;
 
-    const handEnd = getPointFromAngle(config.center, angle, handLength);
     const handStart = getPointFromAngle(config.center, angle, handLength * -0.1);
-    
+    const handPoint = getPointFromAngle(config.center, angle, handLength * 0.8);
+    const handEnd = getPointFromAngle(config.center, angle, handLength);
+
     drawLine(
         ctx,
         config.center.x, config.center.y,
@@ -315,16 +316,12 @@ function drawHand(ctx, config, angle) {
         1.0
     );
 
-    const circleRadius = config.radius * sizes.handCircleRadius;
-    const circleDistance = handLength * 0.94;
-    const circlePoint = getPointFromAngle(config.center, angle, circleDistance);
-
-    drawCircle(
+    drawLine(
         ctx,
-        circlePoint.x, circlePoint.y,
-        circleRadius,
+        handPoint.x, handPoint.y,
+        handEnd.x, handEnd.y,
         colors.highlight,
-        true,
+        sizes.handWidth * 0.8,
         1.0
     );
 }
