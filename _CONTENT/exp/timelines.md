@@ -48,17 +48,17 @@ Thousand years to us is 5 mins to her
 - 
 {% include clock.html type="millennia" id="millenniaClock" title="Millennia" %}
 
-- **Greek Dark Ages, Collapse of Mediterranean Civilizations**: c. 1200 BC to 800 BC  ~ 16 to 14 mins ago
-- **Classical Age, Ancient Greece, Rome** c. 800 BC to 476  ~ 14 to 8 mins ago
+- **Greek Dark Ages, Collapse of Mediterranean Civilizations**: c. 1200 BC to 800 BC  
+- **Classical Age, Ancient Greece, Rome** c. 800 BC to 476  
 
 - **Middle Ages**: c. 476 - 1400 
 - **Renaissance**: c. 1400 to 1700 
-- **Industrial Revolution**: c. 1700 to 1914
+- **Industrial Revolution**: c. 1700 to 1914 
 
 {% include clock.html type="century" id="centuryClock" title="Centuries" %}
 
-- **World War I**: 1914 - 1918
-- **World War II**: 1939 - 1945 ~ Ended 80 years ago ~ 24 seconds ago
+- **World War I**: 1914 - 1918 
+- **World War II**: 1939 - 1945
 
 {% include clock.html type="decade" id="decadeClock" title="Decades" %}
 
