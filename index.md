@@ -41,12 +41,3 @@ layout: delta
   show_date_and_time();
 </script>
 
-
-<style>
-  #themeToggle {
-      display: block;
-  }
-  .search{
-      display: block;
-  }
-</style>
