@@ -18,7 +18,7 @@ function createClockConfig() {
             markWidth: 1,
             markLength: 16,
             handWidth: 1,
-            handLength: 0.83,
+            handLength: 0.82,
             centerDotSize: 3,
             handCircleRadius: 0.02,
             labelFontSize: ratio => Math.max(10, ratio / 15),
@@ -54,24 +54,10 @@ function getClockSetup(type) {
         'millennia': getMillenniaClockSetup,
     };
     
-    const setupFunction = setupFunctions[type] || setupFunctions['year'];
+    const setupFunction = setupFunctions[type]
     return setupFunction();
 }
 
-function drawAdditionalMarks(ctx, config, clockSetup, type) {
-    switch (type) {
-        case 'hour':
-            drawMinuteMarks(ctx, config, clockSetup);
-            break;
-        case 'year':
-            drawYearMarks(ctx, config, clockSetup);
-            break;
-        default:
-            drawMarks(ctx, config, clockSetup);
-    }
-}
-
-// Drawing Utilities
 function drawLine(ctx, startX, startY, endX, endY, color, width, opacity = 1.0) {
     ctx.beginPath();
     ctx.moveTo(startX, startY);
@@ -247,8 +233,7 @@ function drawClockDial(ctx, config, clockSetup, type) {
         drawSegmentMark(ctx, config, clockSetup, segment);
     }
     
-    // Draw additional marks based on clock type
-    drawAdditionalMarks(ctx, config, clockSetup, type);
+    drawMarks(ctx, config, clockSetup);
 }
 
 
@@ -285,66 +270,6 @@ function drawSegmentMark(ctx, config, clockSetup, segment) {
     );
 }
 
-function drawMinuteMarks(ctx, config, clockSetup) {
-    const { sizes, colors } = config;
-    
-    for (let minute = 0; minute < clockSetup.marks.length; minute++) {
-        if (minute % 4 === 0) continue;
-        
-        const minuteAngle = (minute / 48) * 2 * Math.PI;
-        
-        const innerPoint = getPointFromAngle(config.center, minuteAngle, config.radius - sizes.markLength/1.2);
-        const outerPoint = getPointFromAngle(config.center, minuteAngle, config.radius - sizes.markLength);
-        
-        drawLine(
-            ctx,
-            innerPoint.x, innerPoint.y,
-            outerPoint.x, outerPoint.y,
-            colors.marks,
-            1.0,
-            0.8
-        );
-    }
-}
-
-function drawYearMarks(ctx, config, clockSetup) {
-    const { sizes, colors, opacities } = config;
-    const now = moment();
-    const currentYear = now.year();
-    const currentYearShort = currentYear % 100;
-    
-    for (let year = 0; year < clockSetup.marks.length; year++) {
-        const yearAngle = (year / 60) * 2 * Math.PI;
-        
-        const is5YearMark = year % 5 === 0;
-
-        const innerPoint = getPointFromAngle(config.center, yearAngle, config.radius - sizes.markLength/(is5YearMark ? 2 : 1.2));
-        const outerPoint = getPointFromAngle(config.center, yearAngle, config.radius - sizes.markLength);
-        
-        drawLine(
-            ctx,
-            innerPoint.x, innerPoint.y,
-            outerPoint.x, outerPoint.y,
-            colors.marks, 
-            1,
-            is5YearMark ? 1 : opacities.marks * 0.5
-        );
-        
-        if (year === currentYearShort - 2000) {
-            const labelPoint = getPointFromAngle(config.center, yearAngle, config.radius * sizes.labelRadius);
-            
-            drawText(
-                ctx,
-                currentYearShort,
-                labelPoint.x, labelPoint.y,
-                colors.highlight,
-                sizes.labelFontSize(config.radius),
-                opacities.labels
-            );
-        }
-    }
-}
-
 function drawMarks(ctx, config, clockSetup) {
     const { sizes, colors, opacities } = config;
     
@@ -370,6 +295,16 @@ function drawHand(ctx, config, angle) {
     const handLength = config.radius * sizes.handLength;
 
     const handEnd = getPointFromAngle(config.center, angle, handLength);
+    const handStart = getPointFromAngle(config.center, angle, handLength * -0.1);
+    
+    drawLine(
+        ctx,
+        config.center.x, config.center.y,
+        handStart.x, handStart.y,
+        colors.hands,
+        sizes.handWidth,
+        1.0
+    );
 
     drawLine(
         ctx,
