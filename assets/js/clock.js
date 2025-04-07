@@ -295,7 +295,7 @@ function drawHand(ctx, config, angle) {
     const handLength = config.radius * sizes.handLength;
 
     const handStart = getPointFromAngle(config.center, angle, handLength * -0.1);
-    const handPoint = getPointFromAngle(config.center, angle, handLength * 0.8);
+    const handPoint = getPointFromAngle(config.center, angle, handLength * 0.88);
     const handEnd = getPointFromAngle(config.center, angle, handLength);
 
     drawLine(
