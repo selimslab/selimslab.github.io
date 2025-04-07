@@ -310,7 +310,7 @@ function drawHand(ctx, config, angle) {
     drawLine(
         ctx,
         config.center.x, config.center.y,
-        handEnd.x, handEnd.y,
+        handPoint.x, handPoint.y,
         colors.hands,
         sizes.handWidth,
         1.0
@@ -321,7 +321,7 @@ function drawHand(ctx, config, angle) {
         handPoint.x, handPoint.y,
         handEnd.x, handEnd.y,
         colors.highlight,
-        sizes.handWidth * 0.8,
+        sizes.handWidth * 0.9,
         1.0
     );
 }
