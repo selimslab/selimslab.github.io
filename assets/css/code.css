@@ -3,6 +3,7 @@
 
 .highlight {
   font-family: "Atkinson Hyperlegible Mono", "Inconsolata", monospace;
+  font-size: medium;
 }
 
 .highlight, .highlight .w {
