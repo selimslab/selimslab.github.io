@@ -16,13 +16,13 @@ function createClockConfig() {
         sizes: {
             dialWidth: 2,
             markWidth: 1,
-            markLength: 16,
+            markLength: 20,
             handWidth: 1,
-            handLength: 0.82,
+            handLength: 0.8,
             centerDotSize: 3,
             handCircleRadius: 0.02,
-            labelFontSize: ratio => Math.max(10, ratio / 15),
-            labelRadius: 0.75,
+            labelFontSize: ratio => Math.max(10, ratio / 16),
+            labelRadius: 0.8,
             labelPadding: 20
         }
     };
@@ -294,7 +294,7 @@ function drawHand(ctx, config, angle) {
     const { sizes, colors } = config;
     const handLength = config.radius * sizes.handLength;
 
-    const handStart = getPointFromAngle(config.center, angle, handLength * -0.1);
+    const handStart = getPointFromAngle(config.center, angle, handLength * -0.12);
     const handPoint = getPointFromAngle(config.center, angle, handLength * 0.88);
     const handEnd = getPointFromAngle(config.center, angle, handLength);
 
