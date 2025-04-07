@@ -122,9 +122,9 @@ function getMonthClockSetup() {
 
 function getYearClockSetup() {
     return {
-        segmentNames: ['2000', '2010', '2020', '2030', '2040', '2050', ''],
-        segmentCount: 7,
-        segmentFractions: Array.from({length: 7}, (_, i) => i / 6),
+        segmentNames: ['2000', '', '2010','','2020', '','2030','', '2040','', '2050', '',],
+        segmentCount: 12,
+        segmentFractions: Array.from({length: 12}, (_, i) => i / 12),
         marks: Array.from({length: 60}, (_, i) => i)
     };
 }
@@ -153,7 +153,7 @@ function getCenturyClockSetup() {
         segmentNames: ['1200', '1300', '1400', '1500', '1600', '1700', '1800', '1900', '2000', '2100', '2200', '2300', ''],
         segmentCount: 12,
         segmentFractions: Array.from({length: 12}, (_, i) => i / 12),
-        marks: Array.from({length: 120}, (_, i) => i)
+        marks: Array.from({length: 60}, (_, i) => i)
     };
 }
 
@@ -162,7 +162,7 @@ function getMillenniaClockSetup() {
         segmentNames: ['0 CE', '', '', '3000', '', '', '6000 BC', '', '', '3000 BC', '', '', ''],
         segmentCount: 12,
         segmentFractions: Array.from({length: 12}, (_, i) => i / 12),
-        marks: Array.from({length: 120}, (_, i) => i)
+        marks: Array.from({length: 60}, (_, i) => i)
     };
 }
 
