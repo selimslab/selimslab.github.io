@@ -59,19 +59,15 @@ function getClockSetup(type) {
 }
 
 function drawAdditionalMarks(ctx, config, clockSetup, type) {
-    const markDrawingFunctions = {
-        'hour': () => drawMinuteMarks(ctx, config, clockSetup),
-        'year': () => drawYearMarks(ctx, config, clockSetup),
-        'decimal': () => drawMarks(ctx, config, clockSetup),
-        'decade': () => drawMarks(ctx, config, clockSetup),
-        'century': () => drawMarks(ctx, config, clockSetup),
-        'sixty': () => drawMarks(ctx, config, clockSetup),
-        'millennia': () => drawMarks(ctx, config, clockSetup)
-    };
-    
-    const drawFunction = markDrawingFunctions[type];
-    if (drawFunction) {
-        drawFunction();
+    switch (type) {
+        case 'hour':
+            drawMinuteMarks(ctx, config, clockSetup);
+            break;
+        case 'year':
+            drawYearMarks(ctx, config, clockSetup);
+            break;
+        default:
+            drawMarks(ctx, config, clockSetup);
     }
 }
 
@@ -130,42 +126,12 @@ function getHourClockSetup() {
 }
 
 function getMonthClockSetup() {
-    const monthSetup = {
+    return {
         segmentNames: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
         segmentCount: 12,
-        segmentFractions: [],
-        labelPositions: []
+        segmentFractions: Array.from({length: 12}, (_, i) => i / 12),
+        marks: Array.from({length: 48}, (_, i) => i)
     };
-    
-    // Calculate segment positions based on actual days in each month
-    const daysInYear = moment().isLeapYear() ? 366 : 365;
-    let dayCounter = 0;
-    
-    for (let month = 0; month < 12; month++) {
-        monthSetup.segmentFractions.push(dayCounter / daysInYear);
-        // Add days in current month
-        const daysInMonth = moment().month(month).daysInMonth();
-        dayCounter += daysInMonth;
-    }
-    
-    // Calculate midpoints between segments for label positioning
-    for (let i = 0; i < monthSetup.segmentCount; i++) {
-        const nextIndex = (i + 1) % monthSetup.segmentCount;
-        let midpoint;
-        
-        if (nextIndex === 0) {
-            // For December to January, wrap around the circle
-            midpoint = (monthSetup.segmentFractions[i] + 1 + monthSetup.segmentFractions[nextIndex]) / 2;
-            if (midpoint > 1) midpoint -= 1;
-        } else {
-            // For all other months, simple midpoint
-            midpoint = (monthSetup.segmentFractions[i] + monthSetup.segmentFractions[nextIndex]) / 2;
-        }
-        
-        monthSetup.labelPositions.push(midpoint);
-    }
-    
-    return monthSetup;
 }
 
 function getYearClockSetup() {
@@ -278,11 +244,7 @@ function drawClockDial(ctx, config, clockSetup, type) {
 
     // Draw main segments
     for (let segment = 0; segment < clockSetup.segmentCount; segment++) {
-        if (type === 'month') {
-            drawMonthSegmentMark(ctx, config, clockSetup, segment);
-        } else {
-            drawSegmentMark(ctx, config, clockSetup, segment);
-        }
+        drawSegmentMark(ctx, config, clockSetup, segment);
     }
     
     // Draw additional marks based on clock type
@@ -313,41 +275,6 @@ function drawSegmentMark(ctx, config, clockSetup, segment) {
         config.radius - sizes.markLength - sizes.labelPadding
     );
 
-    drawText(
-        ctx,
-        clockSetup.segmentNames[segment],
-        labelPoint.x, labelPoint.y,
-        colors.marks,
-        sizes.labelFontSize(config.radius),
-        opacities.marks
-    );
-}
-
-function drawMonthSegmentMark(ctx, config, clockSetup, segment) {
-    const { sizes, colors, opacities } = config;
-    const segmentAngle = clockSetup.segmentFractions[segment] * 2 * Math.PI;
-    
-    // Draw the segment mark (line)
-    const innerPoint = getPointFromAngle(config.center, segmentAngle, config.radius - sizes.markLength);
-    const outerPoint = getPointFromAngle(config.center, segmentAngle, config.radius - sizes.markLength/1.8);
-    
-    drawLine(
-        ctx,
-        innerPoint.x, innerPoint.y,
-        outerPoint.x, outerPoint.y,
-        colors.marks,
-        sizes.markWidth,
-        opacities.marks
-    );
-    
-    // Draw the label at the midpoint
-    const labelAngle = clockSetup.labelPositions[segment] * 2 * Math.PI;
-    const labelPoint = getPointFromAngle(
-        config.center,
-        labelAngle, 
-        config.radius - sizes.markLength - sizes.labelPadding
-    );
-    
     drawText(
         ctx,
         clockSetup.segmentNames[segment],
@@ -400,7 +327,7 @@ function drawYearMarks(ctx, config, clockSetup) {
             outerPoint.x, outerPoint.y,
             colors.marks, 
             1,
-            is5YearMark ? 1 : opacities.marks
+            is5YearMark ? 1 : opacities.marks * 0.5
         );
         
         if (year === currentYearShort - 2000) {
@@ -422,8 +349,8 @@ function drawMarks(ctx, config, clockSetup) {
     const { sizes, colors, opacities } = config;
     
     for (let i = 0; i < clockSetup.marks.length; i++) {
-        const angle = (i / clockSetup.marks.length) * 2 * Math.PI;
-
+        let angle = (i / clockSetup.marks.length) * 2 * Math.PI;
+        
         const innerPoint = getPointFromAngle(config.center, angle, config.radius - sizes.markLength/1.2);
         const outerPoint = getPointFromAngle(config.center, angle, config.radius - sizes.markLength);
         
@@ -433,7 +360,7 @@ function drawMarks(ctx, config, clockSetup) {
             outerPoint.x, outerPoint.y,
             colors.marks, 
             1,
-            i % 5 === 0 ? opacities.marks : opacities.marks * 0.5
+            opacities.marks * 0.5
         );
     }
 }
