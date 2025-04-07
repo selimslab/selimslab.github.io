@@ -12,8 +12,12 @@ Do what you can, now and here
 
 [Don't End The Week With Nothing (kalzumeus.com)](https://training.kalzumeus.com/newsletters/archive/do-not-end-the-week-with-nothing)
 
-[Salary Negotiation: Make More Money, Be More Valued - Kalzumeus Software](https://www.kalzumeus.com/2012/01/23/salary-negotiation/)
-
 [Growing One's Consulting Business (kalzumeus.com)](https://training.kalzumeus.com/newsletters/archive/consulting_1)
 
+--- 
 
+<https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/>
+
+<https://haseebq.com/how-not-to-bomb-your-offer-negotiation/>
+
+[Salary Negotiation: Make More Money, Be More Valued - Kalzumeus Software](https://www.kalzumeus.com/2012/01/23/salary-negotiation/)
