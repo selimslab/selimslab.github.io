@@ -20,9 +20,9 @@ function createClockConfig() {
             handLength: 0.8,
             centerDotSize: 3,
             handCircleRadius: 0.016,
-            labelFontSize: ratio => Math.max(10, ratio / 16),
+            labelFontSize: '0.6rem',
             labelRadius: 0.8,
-            labelPadding: 24
+            labelPadding: 20
         }
     };
 }
@@ -84,7 +84,17 @@ function drawCircle(ctx, x, y, radius, color, fill = true, opacity = 1.0) {
 }
 
 function drawText(ctx, text, x, y, color, fontSize, opacity = 1.0) {
-    ctx.font = `${fontSize}px sans-serif`;
+    // Convert rem to pixels
+    let pixelSize;
+    if (typeof fontSize === 'string' && fontSize.endsWith('rem')) {
+        const remValue = parseFloat(fontSize);
+        // 1rem = 16px (browser default)
+        pixelSize = remValue * 16;
+    } else {
+        pixelSize = fontSize;
+    }
+    
+    ctx.font = `${pixelSize}px sans-serif`;
     ctx.fillStyle = color;
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
@@ -273,7 +283,7 @@ function drawSegmentMark(ctx, config, clockSetup, segment) {
         clockSetup.segmentNames[segment],
         labelPoint.x, labelPoint.y,
         colors.marks,
-        sizes.labelFontSize(config.radius),
+        sizes.labelFontSize,
         opacities.marks
     );
 }
@@ -378,24 +388,19 @@ function updateThemeColors(config) {
 // Main function to resize the canvas
 function resizeCanvas(canvas, config) {
     const container = canvas.parentElement;
-    const rect = container.getBoundingClientRect();
+    const size = Math.min(container.clientWidth, container.clientHeight);
     const dpr = window.devicePixelRatio || 1;
-
-    // Calculate the maximum square dimension that fits in the container
-    const size = Math.min(rect.width, rect.height);
-
-    // Set physical canvas size with CSS to be a square
-    canvas.style.width = `${size}px`;
-    canvas.style.height = `${size}px`;
-
-    // Set actual canvas dimensions for high DPR
-    canvas.width = size * dpr;
-    canvas.height = size * dpr;
     
-    const ctx = canvas.getContext('2d');
-    ctx.scale(dpr, dpr);
-
-    // Calculate and cache dimensions
+    // Set display size (CSS pixels)
+    canvas.style.width = canvas.style.height = `${size}px`;
+    
+    // Set actual size (scaled for high DPI)
+    canvas.width = canvas.height = size * dpr;
+    
+    // Scale rendering for high DPI
+    canvas.getContext('2d').scale(dpr, dpr);
+    
+    // Update config with new dimensions
     config.radius = size * 0.45;
     config.center = { x: size / 2, y: size / 2 };
     
