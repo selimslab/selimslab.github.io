@@ -14,16 +14,15 @@ function createClockConfig() {
             labels: 0.9
         },
         sizes: {
-            dialWidth: 2,
             markWidth: 1,
             markLength: 20,
             handWidth: 1,
             handLength: 0.8,
             centerDotSize: 3,
-            handCircleRadius: 0.02,
+            handCircleRadius: 0.016,
             labelFontSize: ratio => Math.max(10, ratio / 16),
             labelRadius: 0.8,
-            labelPadding: 20
+            labelPadding: 24
         }
     };
 }
@@ -177,8 +176,17 @@ function getHourPosition() {
 }
 
 function getMonthPosition() {
-    const dayOfYear = moment().dayOfYear();
-    return (dayOfYear / 365) * 2 * Math.PI;
+    const now = moment();
+    const month = now.month(); // 0-11
+    const day = now.date(); // 1-31
+    
+    // Get the number of days in the current month
+    const daysInMonth = now.daysInMonth();
+    
+    // Calculate what fraction of the current month has passed
+    const fractionOfMonth = (day - 1) / daysInMonth;
+    
+    return (month + fractionOfMonth) / 12 * 2 * Math.PI;
 }
 
 function getYearPosition() {
@@ -225,7 +233,7 @@ function drawClockDial(ctx, config, clockSetup, type) {
         config.radius,
         config.colors.dial,
         false,
-        1.0
+        0.5
     );
 
     // Draw main segments
