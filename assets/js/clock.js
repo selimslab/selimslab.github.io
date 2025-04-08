@@ -15,7 +15,7 @@ function createClockConfig() {
         },
         sizes: {
             markWidth: 1,
-            markLength: 20,
+            markLength: 18,
             handWidth: 1,
             handLength: 0.8,
             centerDotSize: 3,

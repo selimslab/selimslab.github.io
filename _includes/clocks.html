@@ -2,22 +2,22 @@
 <script src="/assets/js/datetime.js"></script>
 
 
-<div class="columns mono">
+<div class="columns mono is-size-7">
 
   <div class="column is-4 is-mobile-6 has-text-centered">
-    <p id="current-time" class="is-size-7"></p>
+    <p id="current-time"></p>
 
     {% include clock.html type="hour" id="hourClock" %}
   </div>
 
   <div class="column is-4 is-mobile-6 has-text-centered">
-    <p id="current-date" class="is-size-7"></p>
+    <p id="current-date"></p>
 
     {% include clock.html type="month" id="monthClock" %}
   </div>
 
   <div class="column is-4 is-mobile-6 has-text-centered">
-    <p id="current-year" class="is-size-7"></p>
+    <p id="current-year"></p>
 
     {% include clock.html type="year" id="yearClock" %}
   </div>
