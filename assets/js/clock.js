@@ -190,13 +190,7 @@ function getMonthPosition() {
     const month = now.month(); // 0-11
     const day = now.date(); // 1-31
     
-    // Get the number of days in the current month
-    const daysInMonth = now.daysInMonth();
-    
-    // Calculate what fraction of the current month has passed
-    const fractionOfMonth = (day - 1) / daysInMonth;
-    
-    return (month + fractionOfMonth) / 12 * 2 * Math.PI;
+    return (month + day / now.daysInMonth()) / 12 * 2 * Math.PI;
 }
 
 function getYearPosition() {
