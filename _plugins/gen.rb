@@ -7,7 +7,7 @@ STATIC_PATH = "#{ASSETS_PATH}/static".freeze
 DATA_PATH = "#{ASSETS_PATH}/data".freeze
 DEBUG_PATH = "./debug".freeze
 DEBUG = false
-WRITE_DATA = false
+WRITE_DATA = true
 
 class SiteGenerator < Jekyll::Generator
   def initialize(config = {})

@@ -68,11 +68,14 @@
         "/root",
         "/calendar",
         "/clocks",
+        "/earth",
+        "/graph-3d",
         "/idea-machine",
         "/paintings",
+        "/site-stats",
         "/timelines",
         "/typewriter",
-        "/space"
+        "/tools"
       ]
     },
     {
@@ -99,6 +102,7 @@
         "/root",
         "/blogs",
         "/datasets",
+        "/delta-100",
         "/documentaries",
         "/keyboard-shortcuts",
         "/movies",
@@ -107,8 +111,7 @@
         "/tools",
         "/classics",
         "/essais",
-        "/timelines",
-        "/history-of-technology"
+        "/timelines"
       ]
     },
     {
@@ -118,13 +121,11 @@
       "links": [
         "/root",
         "/graph-2d",
-        "/graph-3d",
         "/llm-prompt",
         "/llm",
         "/pub",
         "/resume",
-        "/short-prompt",
-        "/site-stats"
+        "/short-prompt"
       ]
     },
     {
@@ -157,7 +158,6 @@
       "name": "Communication",
       "links": [
         "/art",
-        "/difficult-conversations",
         "/listening",
         "/public-speaking",
         "/speaking",
@@ -190,6 +190,7 @@
         "/bilge-kagan",
         "/dede-korkut",
         "/ince-memed",
+        "/mutlu-olma-sanati",
         "/puslu-kitalar-atlasi"
       ]
     },
@@ -284,14 +285,12 @@
         "/backtrack",
         "/bit",
         "/greedy",
-        "/linked-list",
         "/orderbook",
         "/parallel-programming",
         "/producer-consumer-problem",
         "/sort",
-        "/subset-with-dups",
+        "/subsets",
         "/dynamic",
-        "/heuristic",
         "/pointers",
         "/search",
         "/tree",
@@ -323,18 +322,19 @@
       "name": "Data Structures",
       "links": [
         "/engineering",
+        "/bloom-filters",
         "/hash-table",
-        "/linked-lists",
+        "/hyperloglog",
+        "/linked-list",
+        "/probabilistic",
         "/sets",
+        "/skiplists",
         "/array",
         "/graph",
         "/queue",
         "/stack",
         "/string",
         "/tree",
-        "/bloom-filters",
-        "/hyperloglog",
-        "/skiplists",
         "/b-trees",
         "/db-data-structures",
         "/lsm-trees"
@@ -369,6 +369,7 @@
       "links": [
         "/engineering",
         "/bloom-filters-hash-graph-sync",
+        "/cloud-design-patterns",
         "/consistency-models",
         "/consistent-hashing",
         "/distributed-design-patterns",
@@ -429,6 +430,8 @@
         "/c-hashmap",
         "/compiler",
         "/garbage-collector-in-c",
+        "/garbage-collector-in-go",
+        "/go-hashmap",
         "/links-for-makers",
         "/logos-os",
         "/mini-search-engine",
@@ -489,7 +492,7 @@
         "/hacker-laws",
         "/minimal-tech",
         "/sys-design-core",
-        "/sys-topics",
+        "/sys-readings",
         "/accessibility",
         "/distributed-systems",
         "/systems-thinking"
@@ -514,6 +517,23 @@
       ]
     },
     {
+      "id": "/earth",
+      "group": 2,
+      "name": "Earth",
+      "links": [
+        "/exp"
+      ]
+    },
+    {
+      "id": "/graph-3d",
+      "group": 2,
+      "name": "3D graph of all pages",
+      "links": [
+        "/exp",
+        "/site-stats"
+      ]
+    },
+    {
       "id": "/idea-machine",
       "group": 2,
       "name": "Idea Machine",
@@ -527,6 +547,15 @@
       "name": "Paintings",
       "links": [
         "/exp"
+      ]
+    },
+    {
+      "id": "/site-stats",
+      "group": 2,
+      "name": "Site Stats",
+      "links": [
+        "/exp",
+        "/graph-3d"
       ]
     },
     {
@@ -546,18 +575,6 @@
       "name": "Typewriter",
       "links": [
         "/exp"
-      ]
-    },
-    {
-      "id": "/space",
-      "group": 2,
-      "name": "Space",
-      "links": [
-        "/exp",
-        "/earth-interactive",
-        "/earth",
-        "/solar-system",
-        "/time"
       ]
     },
     {
@@ -588,7 +605,6 @@
         "/be-good-to-each-other-and-yourself",
         "/how-to-grow-old-russell",
         "/slow-down-time",
-        "/farming-trap",
         "/who-goes-nazi",
         "/being-poor",
         "/lists"
@@ -620,10 +636,13 @@
         "/enemies",
         "/epicurus",
         "/eudaimonia",
+        "/forgiving",
         "/free-will",
         "/freedom",
         "/friends",
         "/good-and-evil",
+        "/memory",
+        "/optimism",
         "/questions",
         "/stupidity",
         "/travelling",
@@ -647,6 +666,7 @@
         "/get-things-done",
         "/learning",
         "/mastery",
+        "/mental-models",
         "/problem-solving",
         "/systems-thinking",
         "/take-a-walk",
@@ -683,7 +703,6 @@
         "/the-past",
         "/calendar",
         "/clocks",
-        "/space",
         "/timelines",
         "/history"
       ]
@@ -720,6 +739,14 @@
       "links": [
         "/lists",
         "/probability-and-statistics"
+      ]
+    },
+    {
+      "id": "/delta-100",
+      "group": 2,
+      "name": "Delta 100",
+      "links": [
+        "/lists"
       ]
     },
     {
@@ -771,7 +798,8 @@
       "group": 2,
       "name": "Tools",
       "links": [
-        "/lists"
+        "/lists",
+        "/exp"
       ]
     },
     {
@@ -780,15 +808,6 @@
       "name": "2D Graph of All Pages",
       "links": [
         "/misc"
-      ]
-    },
-    {
-      "id": "/graph-3d",
-      "group": 2,
-      "name": "3D graph of all pages",
-      "links": [
-        "/misc",
-        "/site-stats"
       ]
     },
     {
@@ -832,21 +851,11 @@
       ]
     },
     {
-      "id": "/site-stats",
-      "group": 2,
-      "name": "Site Stats",
-      "links": [
-        "/misc",
-        "/graph-3d"
-      ]
-    },
-    {
       "id": "/economics",
       "group": 2,
       "name": "Economics",
       "links": [
-        "/science",
-        "/how-to-gain-wealth"
+        "/science"
       ]
     },
     {
@@ -855,9 +864,6 @@
       "name": "History",
       "links": [
         "/science",
-        "/farming-trap",
-        "/history-of-technology",
-        "/rome",
         "/time",
         "/timelines"
       ]
@@ -899,7 +905,8 @@
         "/classical-physics",
         "/feynman-lectures",
         "/inertia",
-        "/maxwell-equations"
+        "/maxwell-equations",
+        "/solar-system"
       ]
     },
     {
@@ -951,14 +958,6 @@
         "/collectivism",
         "/social-groups",
         "/social-media"
-      ]
-    },
-    {
-      "id": "/difficult-conversations",
-      "group": 3,
-      "name": "Difficult Conversations",
-      "links": [
-        "/communication"
       ]
     },
     {
@@ -1076,7 +1075,15 @@
     {
       "id": "/ince-memed",
       "group": 3,
-      "name": "Ince Memed",
+      "name": "İnce Memed",
+      "links": [
+        "/edebiyat"
+      ]
+    },
+    {
+      "id": "/mutlu-olma-sanati",
+      "group": 3,
+      "name": "Mutlu Olma Sanati",
       "links": [
         "/edebiyat"
       ]
@@ -1522,15 +1529,6 @@
       "group": 3,
       "name": "Greedy",
       "links": [
-        "/algorithms",
-        "/approximation"
-      ]
-    },
-    {
-      "id": "/linked-list",
-      "group": 3,
-      "name": "Linked List",
-      "links": [
         "/algorithms"
       ]
     },
@@ -1568,9 +1566,9 @@
       ]
     },
     {
-      "id": "/subset-with-dups",
+      "id": "/subsets",
       "group": 3,
-      "name": "Subset With Dups",
+      "name": "Subsets",
       "links": [
         "/algorithms"
       ]
@@ -1599,17 +1597,6 @@
       ]
     },
     {
-      "id": "/heuristic",
-      "group": 3,
-      "name": "Heuristic",
-      "links": [
-        "/algorithms",
-        "/approximation",
-        "/bloom-filters",
-        "/hyperloglog"
-      ]
-    },
-    {
       "id": "/pointers",
       "group": 3,
       "name": "Pointers",
@@ -1633,8 +1620,8 @@
         "/algorithms",
         "/binary-search",
         "/local-maximum",
-        "/skiplists",
-        "/vector-search"
+        "/vector-search",
+        "/skiplists"
       ]
     },
     {
@@ -1680,6 +1667,14 @@
       ]
     },
     {
+      "id": "/bloom-filters",
+      "group": 3,
+      "name": "Bloom Filters",
+      "links": [
+        "/data-structures"
+      ]
+    },
+    {
       "id": "/hash-table",
       "group": 3,
       "name": "Hash Table",
@@ -1688,9 +1683,25 @@
       ]
     },
     {
-      "id": "/linked-lists",
+      "id": "/hyperloglog",
       "group": 3,
-      "name": "Linked Lists",
+      "name": "Hyperloglog",
+      "links": [
+        "/data-structures"
+      ]
+    },
+    {
+      "id": "/linked-list",
+      "group": 3,
+      "name": "Linked List",
+      "links": [
+        "/data-structures"
+      ]
+    },
+    {
+      "id": "/probabilistic",
+      "group": 3,
+      "name": "Probabilistic",
       "links": [
         "/data-structures"
       ]
@@ -1701,6 +1712,15 @@
       "name": "Sets",
       "links": [
         "/data-structures"
+      ]
+    },
+    {
+      "id": "/skiplists",
+      "group": 3,
+      "name": "Skip Lists",
+      "links": [
+        "/data-structures",
+        "/search"
       ]
     },
     {
@@ -1898,6 +1918,14 @@
       "id": "/bloom-filters-hash-graph-sync",
       "group": 3,
       "name": "Bloom Filters for Efficient Synchronization",
+      "links": [
+        "/distributed-systems"
+      ]
+    },
+    {
+      "id": "/cloud-design-patterns",
+      "group": 3,
+      "name": "Cloud Design Patterns",
       "links": [
         "/distributed-systems"
       ]
@@ -2107,6 +2135,24 @@
       "name": "A garbage collector in C from scratch",
       "links": [
         "/projects"
+      ]
+    },
+    {
+      "id": "/garbage-collector-in-go",
+      "group": 3,
+      "name": "A garbage collector in Go from scratch",
+      "links": [
+        "/projects",
+        "/go"
+      ]
+    },
+    {
+      "id": "/go-hashmap",
+      "group": 3,
+      "name": "A hash table in Go from scratch",
+      "links": [
+        "/projects",
+        "/go"
       ]
     },
     {
@@ -2397,35 +2443,11 @@
       ]
     },
     {
-      "id": "/sys-topics",
+      "id": "/sys-readings",
       "group": 3,
-      "name": "System Design Topics",
+      "name": "Readings",
       "links": [
         "/system-design"
-      ]
-    },
-    {
-      "id": "/earth-interactive",
-      "group": 3,
-      "name": "Earth Interactive",
-      "links": [
-        "/space"
-      ]
-    },
-    {
-      "id": "/earth",
-      "group": 3,
-      "name": "Earth",
-      "links": [
-        "/space"
-      ]
-    },
-    {
-      "id": "/solar-system",
-      "group": 3,
-      "name": "Solar System",
-      "links": [
-        "/space"
       ]
     },
     {
@@ -2645,6 +2667,14 @@
       ]
     },
     {
+      "id": "/forgiving",
+      "group": 3,
+      "name": "Forgiving",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
       "id": "/free-will",
       "group": 3,
       "name": "Free Will",
@@ -2675,6 +2705,22 @@
       "id": "/good-and-evil",
       "group": 3,
       "name": "Good And Evil",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/memory",
+      "group": 3,
+      "name": "Memory",
+      "links": [
+        "/philosophy"
+      ]
+    },
+    {
+      "id": "/optimism",
+      "group": 3,
+      "name": "Optimism",
       "links": [
         "/philosophy"
       ]
@@ -2750,6 +2796,14 @@
       "links": [
         "/reasoning",
         "/work"
+      ]
+    },
+    {
+      "id": "/mental-models",
+      "group": 3,
+      "name": "Mental Models",
+      "links": [
+        "/reasoning"
       ]
     },
     {
@@ -2949,40 +3003,6 @@
       ]
     },
     {
-      "id": "/how-to-gain-wealth",
-      "group": 3,
-      "name": "How To Gain Wealth",
-      "links": [
-        "/economics"
-      ]
-    },
-    {
-      "id": "/farming-trap",
-      "group": 3,
-      "name": "Farming Trap",
-      "links": [
-        "/history",
-        "/essais"
-      ]
-    },
-    {
-      "id": "/history-of-technology",
-      "group": 3,
-      "name": "History Of Technology",
-      "links": [
-        "/history",
-        "/lists"
-      ]
-    },
-    {
-      "id": "/rome",
-      "group": 3,
-      "name": "Rome",
-      "links": [
-        "/history"
-      ]
-    },
-    {
       "id": "/bayes",
       "group": 3,
       "name": "Bayes' theorem",
@@ -3108,6 +3128,14 @@
       "links": [
         "/physics",
         "/classical-physics"
+      ]
+    },
+    {
+      "id": "/solar-system",
+      "group": 3,
+      "name": "Solar System",
+      "links": [
+        "/physics"
       ]
     },
     {
@@ -3407,33 +3435,6 @@
       ]
     },
     {
-      "id": "/approximation",
-      "group": 4,
-      "name": "Approximation",
-      "links": [
-        "/heuristic",
-        "/greedy"
-      ]
-    },
-    {
-      "id": "/bloom-filters",
-      "group": 4,
-      "name": "Bloom Filters",
-      "links": [
-        "/heuristic",
-        "/data-structures"
-      ]
-    },
-    {
-      "id": "/hyperloglog",
-      "group": 4,
-      "name": "Hyperloglog",
-      "links": [
-        "/heuristic",
-        "/data-structures"
-      ]
-    },
-    {
       "id": "/max-water",
       "group": 4,
       "name": "Max Water",
@@ -3505,15 +3506,6 @@
       "links": [
         "/search",
         "/math"
-      ]
-    },
-    {
-      "id": "/skiplists",
-      "group": 4,
-      "name": "Skip Lists",
-      "links": [
-        "/search",
-        "/data-structures"
       ]
     },
     {
@@ -3904,7 +3896,9 @@
       "group": 4,
       "name": "Go",
       "links": [
-        "/programming-languages"
+        "/programming-languages",
+        "/garbage-collector-in-go",
+        "/go-hashmap"
       ]
     },
     {
@@ -4064,6 +4058,14 @@
     },
     {
       "source": "/exp",
+      "target": "/earth"
+    },
+    {
+      "source": "/exp",
+      "target": "/graph-3d"
+    },
+    {
+      "source": "/exp",
       "target": "/idea-machine"
     },
     {
@@ -4072,15 +4074,15 @@
     },
     {
       "source": "/exp",
+      "target": "/site-stats"
+    },
+    {
+      "source": "/exp",
       "target": "/timelines"
     },
     {
       "source": "/exp",
       "target": "/typewriter"
-    },
-    {
-      "source": "/exp",
-      "target": "/space"
     },
     {
       "source": "/ideas",
@@ -4124,6 +4126,10 @@
     },
     {
       "source": "/lists",
+      "target": "/delta-100"
+    },
+    {
+      "source": "/lists",
       "target": "/documentaries"
     },
     {
@@ -4152,10 +4158,6 @@
     },
     {
       "source": "/misc",
-      "target": "/graph-3d"
-    },
-    {
-      "source": "/misc",
       "target": "/llm-prompt"
     },
     {
@@ -4173,10 +4175,6 @@
     {
       "source": "/misc",
       "target": "/short-prompt"
-    },
-    {
-      "source": "/misc",
-      "target": "/site-stats"
     },
     {
       "source": "/science",
@@ -4209,10 +4207,6 @@
     {
       "source": "/science",
       "target": "/sociology"
-    },
-    {
-      "source": "/communication",
-      "target": "/difficult-conversations"
     },
     {
       "source": "/communication",
@@ -4273,6 +4267,10 @@
     {
       "source": "/edebiyat",
       "target": "/ince-memed"
+    },
+    {
+      "source": "/edebiyat",
+      "target": "/mutlu-olma-sanati"
     },
     {
       "source": "/edebiyat",
@@ -4488,10 +4486,6 @@
     },
     {
       "source": "/algorithms",
-      "target": "/linked-list"
-    },
-    {
-      "source": "/algorithms",
       "target": "/orderbook"
     },
     {
@@ -4508,15 +4502,11 @@
     },
     {
       "source": "/algorithms",
-      "target": "/subset-with-dups"
+      "target": "/subsets"
     },
     {
       "source": "/algorithms",
       "target": "/dynamic"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/heuristic"
     },
     {
       "source": "/algorithms",
@@ -4540,15 +4530,31 @@
     },
     {
       "source": "/data-structures",
+      "target": "/bloom-filters"
+    },
+    {
+      "source": "/data-structures",
       "target": "/hash-table"
     },
     {
       "source": "/data-structures",
-      "target": "/linked-lists"
+      "target": "/hyperloglog"
+    },
+    {
+      "source": "/data-structures",
+      "target": "/linked-list"
+    },
+    {
+      "source": "/data-structures",
+      "target": "/probabilistic"
     },
     {
       "source": "/data-structures",
       "target": "/sets"
+    },
+    {
+      "source": "/data-structures",
+      "target": "/skiplists"
     },
     {
       "source": "/data-structures",
@@ -4633,6 +4639,10 @@
     {
       "source": "/distributed-systems",
       "target": "/bloom-filters-hash-graph-sync"
+    },
+    {
+      "source": "/distributed-systems",
+      "target": "/cloud-design-patterns"
     },
     {
       "source": "/distributed-systems",
@@ -4729,6 +4739,14 @@
     {
       "source": "/projects",
       "target": "/garbage-collector-in-c"
+    },
+    {
+      "source": "/projects",
+      "target": "/garbage-collector-in-go"
+    },
+    {
+      "source": "/projects",
+      "target": "/go-hashmap"
     },
     {
       "source": "/projects",
@@ -4872,19 +4890,7 @@
     },
     {
       "source": "/system-design",
-      "target": "/sys-topics"
-    },
-    {
-      "source": "/space",
-      "target": "/earth-interactive"
-    },
-    {
-      "source": "/space",
-      "target": "/earth"
-    },
-    {
-      "source": "/space",
-      "target": "/solar-system"
+      "target": "/sys-readings"
     },
     {
       "source": "/choice",
@@ -4988,6 +4994,10 @@
     },
     {
       "source": "/philosophy",
+      "target": "/forgiving"
+    },
+    {
+      "source": "/philosophy",
       "target": "/free-will"
     },
     {
@@ -5001,6 +5011,14 @@
     {
       "source": "/philosophy",
       "target": "/good-and-evil"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/memory"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/optimism"
     },
     {
       "source": "/philosophy",
@@ -5033,6 +5051,10 @@
     {
       "source": "/reasoning",
       "target": "/mastery"
+    },
+    {
+      "source": "/reasoning",
+      "target": "/mental-models"
     },
     {
       "source": "/reasoning",
@@ -5127,22 +5149,6 @@
       "target": "/used-cars"
     },
     {
-      "source": "/economics",
-      "target": "/how-to-gain-wealth"
-    },
-    {
-      "source": "/history",
-      "target": "/farming-trap"
-    },
-    {
-      "source": "/history",
-      "target": "/history-of-technology"
-    },
-    {
-      "source": "/history",
-      "target": "/rome"
-    },
-    {
       "source": "/math",
       "target": "/bayes"
     },
@@ -5201,6 +5207,10 @@
     {
       "source": "/physics",
       "target": "/maxwell-equations"
+    },
+    {
+      "source": "/physics",
+      "target": "/solar-system"
     },
     {
       "source": "/politics",
@@ -5347,18 +5357,6 @@
       "target": "/word-break"
     },
     {
-      "source": "/heuristic",
-      "target": "/approximation"
-    },
-    {
-      "source": "/heuristic",
-      "target": "/bloom-filters"
-    },
-    {
-      "source": "/heuristic",
-      "target": "/hyperloglog"
-    },
-    {
       "source": "/pointers",
       "target": "/max-water"
     },
@@ -5393,10 +5391,6 @@
     {
       "source": "/search",
       "target": "/local-maximum"
-    },
-    {
-      "source": "/search",
-      "target": "/skiplists"
     },
     {
       "source": "/search",
@@ -5659,23 +5653,11 @@
       "target": "/min-edit-distance"
     },
     {
-      "source": "/greedy",
-      "target": "/approximation"
-    },
-    {
       "source": "/pointers",
       "target": "/longest-valid-paranthesis"
     },
     {
-      "source": "/data-structures",
-      "target": "/bloom-filters"
-    },
-    {
-      "source": "/data-structures",
-      "target": "/hyperloglog"
-    },
-    {
-      "source": "/data-structures",
+      "source": "/search",
       "target": "/skiplists"
     },
     {
@@ -5751,6 +5733,14 @@
       "target": "/producer-consumer-problem"
     },
     {
+      "source": "/go",
+      "target": "/garbage-collector-in-go"
+    },
+    {
+      "source": "/go",
+      "target": "/go-hashmap"
+    },
+    {
       "source": "/python",
       "target": "/async-crawler"
     },
@@ -5791,6 +5781,10 @@
       "target": "/systems-thinking"
     },
     {
+      "source": "/graph-3d",
+      "target": "/site-stats"
+    },
+    {
       "source": "/character",
       "target": "/freedom"
     },
@@ -5829,10 +5823,6 @@
     {
       "source": "/essais",
       "target": "/slow-down-time"
-    },
-    {
-      "source": "/essais",
-      "target": "/farming-trap"
     },
     {
       "source": "/essais",
@@ -5908,10 +5898,6 @@
     },
     {
       "source": "/time",
-      "target": "/space"
-    },
-    {
-      "source": "/time",
       "target": "/timelines"
     },
     {
@@ -5939,12 +5925,8 @@
       "target": "/timelines"
     },
     {
-      "source": "/lists",
-      "target": "/history-of-technology"
-    },
-    {
-      "source": "/graph-3d",
-      "target": "/site-stats"
+      "source": "/tools",
+      "target": "/exp"
     },
     {
       "source": "/history",
