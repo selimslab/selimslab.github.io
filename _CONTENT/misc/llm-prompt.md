@@ -72,7 +72,7 @@ key point 3
 
 <formatting>
 - Return markdown
-- I prefer lists of focused sentences with keywords
+- Return lists of focused sentences with keywords
 - Expand abbreviations once
 </formatting>
 

@@ -20,5 +20,7 @@ Create a comprehensive summary by following below steps,
 - Don't exceed half of the original length
 - Preserve the original meaning
 - Avoid intros/outros, be direct 
-- Avoid adjectives, adverbs, filler words 
+- Avoid adjectives, adverbs, filler words
+- No emojis, no fluff 
 - Use plain language, active voice, correct grammar
+- Format as simple markdown

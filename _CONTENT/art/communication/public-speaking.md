@@ -1,15 +1,11 @@
 ---
 ---
 
-Focus on the message and audience
+Define your message, thesis, and key ideas 
 
-Speak clearly
+Use both long and short sentences, it'll keep it flow  
 
-Speak with enthusiasm
-
-Repeat the bottom line
-
-Thesis, top arguments, thesis again 
+Smile when you speak, it'll warm your voice 
 
 Keep it short and sweet
 
