@@ -16,7 +16,7 @@ function createClockConfig() {
         // Opacities
         opacities: {
             marks: 1,
-            labels: 0.9
+            labels: 0.8
         },
         
         // Sizes
@@ -27,8 +27,8 @@ function createClockConfig() {
             handLength: 0.82,
             centerDotSize: 3,
             handCircleRadius: 0.016,
-            labelFontSize: '0.64rem',
-            labelPadding: 24
+            labelFontSize: 10,
+            labelPadding: 20
         },
         
         // Clock type configurations
@@ -125,18 +125,8 @@ function drawCircle(ctx, x, y, radius, color, fill = true, opacity = 1.0) {
     return ctx;
 }
 
-function drawText(ctx, text, x, y, color, fontSize, opacity = 1.0) {
-    // Convert rem to pixels
-    let pixelSize;
-    if (typeof fontSize === 'string' && fontSize.endsWith('rem')) {
-        const remValue = parseFloat(fontSize);
-        // 1rem = 16px (browser default)
-        pixelSize = remValue * 16;
-    } else {
-        pixelSize = fontSize;
-    }
-    
-    ctx.font = `${pixelSize}px sans-serif`;
+function drawText(ctx, text, x, y, color, fontSize, opacity = 1.0) {    
+    ctx.font = `${fontSize}px sans-serif`;
     ctx.fillStyle = color;
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
