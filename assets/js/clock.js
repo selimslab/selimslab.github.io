@@ -15,13 +15,13 @@ function createClockConfig() {
         },
         sizes: {
             markWidth: 1,
-            markLength: 18,
+            markLength: 24,
             handWidth: 1,
             handLength: 0.8,
             centerDotSize: 3,
             handCircleRadius: 0.016,
-            labelFontSize: '0.6rem',
-            labelRadius: 0.8,
+            labelFontSize: '0.7rem',
+            labelRadius: 0.6,
             labelPadding: 20
         }
     };
@@ -381,8 +381,7 @@ function updateThemeColors(config) {
 
 // Main function to resize the canvas
 function resizeCanvas(canvas, config) {
-    const container = canvas.parentElement;
-    const size = Math.min(container.clientWidth, container.clientHeight);
+    const size = 240; // Fixed size for 120px radius
     const dpr = window.devicePixelRatio || 1;
     
     // Set display size (CSS pixels)
@@ -395,7 +394,7 @@ function resizeCanvas(canvas, config) {
     canvas.getContext('2d').scale(dpr, dpr);
     
     // Update config with new dimensions
-    config.radius = size * 0.45;
+    config.radius = 120; // Fixed radius
     config.center = { x: size / 2, y: size / 2 };
     
     return config;
@@ -428,13 +427,8 @@ function initClock(options) {
     // Set up clock type
     const clockSetup = getClockSetup(type);
     
-    // Resize and start
+    // Set fixed size
     config = resizeCanvas(canvas, config);
-    
-    // Add resize event listener
-    window.addEventListener('resize', () => {
-        config = resizeCanvas(canvas, config);
-    });
     
     // Start the clock
     updateClock(ctx, config, clockSetup, type);
