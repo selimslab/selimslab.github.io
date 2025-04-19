@@ -379,27 +379,6 @@ function updateThemeColors(config) {
     return config;
 }
 
-// Main function to resize the canvas
-function resizeCanvas(canvas, config) {
-    const size = 240; // Fixed size for 120px radius
-    const dpr = window.devicePixelRatio || 1;
-    
-    // Set display size (CSS pixels)
-    canvas.style.width = canvas.style.height = `${size}px`;
-    
-    // Set actual size (scaled for high DPI)
-    canvas.width = canvas.height = size * dpr;
-    
-    // Scale rendering for high DPI
-    canvas.getContext('2d').scale(dpr, dpr);
-    
-    // Update config with new dimensions
-    config.radius = 120; // Fixed radius
-    config.center = { x: size / 2, y: size / 2 };
-    
-    return config;
-}
-
 // Main function to update the clock
 function updateClock(ctx, config, clockSetup, type) {
     config = updateThemeColors(config);
@@ -428,7 +407,14 @@ function initClock(options) {
     const clockSetup = getClockSetup(type);
     
     // Set fixed size
-    config = resizeCanvas(canvas, config);
+    const size = 256;
+    const dpr = window.devicePixelRatio || 1;
+    canvas.width = canvas.height = size * dpr;
+    ctx.scale(dpr, dpr);
+    
+    // Set fixed radius and center
+    config.radius = 120;
+    config.center = { x: size / 2, y: size / 2 };
     
     // Start the clock
     updateClock(ctx, config, clockSetup, type);
