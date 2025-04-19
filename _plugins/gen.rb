@@ -1,13 +1,13 @@
 require 'json'
 require 'pp'
 
+DEBUG = false
 ROOT_PATH = "./_CONTENT".freeze
 ASSETS_PATH = "./assets".freeze
 STATIC_PATH = "#{ASSETS_PATH}/static".freeze
 DATA_PATH = "#{ASSETS_PATH}/data".freeze
 DEBUG_PATH = "./debug".freeze
-DEBUG = false
-WRITE_DATA = true
+
 
 class SiteGenerator < Jekyll::Generator
   def initialize(config = {})
@@ -487,7 +487,7 @@ class SiteGenerator < Jekyll::Generator
   private
 
   def write_json(path, data)
-    return unless WRITE_DATA
+    return unless DEBUG
     # Write data as pretty-formatted JSON
     File.write(path, JSON.pretty_generate(data))
   rescue StandardError => e
