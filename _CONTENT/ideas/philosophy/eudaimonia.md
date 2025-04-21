@@ -2,7 +2,20 @@
 title: Eudaimonia
 ---
 
-A good life is not necessarily a happy life. It involves bearing the accidents of life with dignity and grace, making the best of your circumstances, getting to know yourself, making tough choices, facing pain and darkness, learning to become a friend to yourself and others, cherishing the moment despite everything, here and now
+Life is a set of events, one after another. Often with little rhyme or reason. 
+
+I don't have to be "happy" to have a good life. 
+
+How can bear the accidents of life with dignity and grace?
+
+How can I make the best out of my circumstances?
+
+How can I know myself better
+
+How can I make tough choices? How to face pain and darkness?
+
+How to become a friend to myself and others?
+
 
 ![](/assets/static/img/boy-and-cat.jpeg)
 

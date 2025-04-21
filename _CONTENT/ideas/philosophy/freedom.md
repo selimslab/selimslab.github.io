@@ -1,22 +1,13 @@
 ---
-
 ---
 
-The price of freedom is dear yet it's worth it
+Being free from pains of body and mind
 
-It's not the absence of negatives but not being controlled by them; the reign of a rational mind and a loving heart
+It's not having no responsibility or problems. Overcoming obstacles is a pleasure in itself, and I am still free to choose my attitude in the face of adversity.  
 
-Having time for yourself and your loved ones, to be your master, to conquer your dark side, your anger, greed, pride, ..
+Being free from pain, regret, anxiety, anger, greed, fear, egoism, and other troubles of mind
 
-Freedom from pain, fear, regret, worry, greed, anger, hate, and egoism, ...
-
-"He who does not move, does not notice his chains"
-
-"In this age, the mere example of non-conformity is a service" John Stuart Mill
-
-"What destroys a man more quickly than to work, think, and feel without inner necessity, without any deep personal desire, without pleasure — as a mere automaton of duty?” – Friedrich Nietzsche, The Antichrist
+I don't mean avoiding emotions, I should feel and accept but I can choose to not be controlled by them. I can interpret them as signals and make my own decisions
 
 [[character]]
-
-[[you-can-always-choose-your-way]]
 
