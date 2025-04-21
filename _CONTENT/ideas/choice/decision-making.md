@@ -3,24 +3,21 @@ title: Decision Making
 tags: reasoning
 ---
 
-- Prevent problems before they happen - [[do-without-doing]]
+- Can I prevent a problem before it happens?
+- How do I look at it? Can I try a new perspective? What do I see? 
+- Should I say it? in this tone? with these words? 
+- Am I promising anything? Can I make it more clear to prevent misunderstandings?
+- What is the due diligence for this decision? How much is enough, how much is too little or too much?
+- What are the criticial factors? What to focus on here?
+- How do the probabilities look here?
+- Am I chasing pleasure? Am I avoiding necessary pain? 
+- Am I exaggerating in my head? 
+- Do I feel comfortable? Am I hungry, tired, thirsty, sleepy, or in a bad mood? 
+- Can I cut the rope?
+- How to win without fighting?
+- Nature does not hurry, yet everything is accomplished
+- How realistic is to expect perfect decisions? As long as I follow a reasonable process, do I have anything to worry about?
+- Will I be glad for this decision in a day? in a week, month, year? 
 
-- Look at it, see it for what it is
-- Think twice before you speak. Think ten times before you promise
-- Due diligence
-- Take risks based on analysis  
-- Probabilistic thinking 
-
-- Do nothing that doesn't feel right
-- Neither chase pleasure nor avoid necessary pain.
-- Don't make decisions under physical discomfort or heavy emotion
-- Don't get stuck. If you don't choose, the world will choose it for you 
-
-- Once you decide, don't second guess, follow through 
-- Don't judge decisions by results, a good decision can have a bad outcome, it's luck 
 
 [[cognitive-biases]]
-
-Not all decision are the same. 
-
-- Will I be glad for this decision in a day? in a week, month, year? 
