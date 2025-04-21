@@ -2,7 +2,7 @@
 tags: psy
 ---
 
-First step is to admit that you don't know 
+First step is to admit that I don't know 
 
 Genuine interest 
 
