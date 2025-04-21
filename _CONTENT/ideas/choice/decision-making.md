@@ -20,3 +20,7 @@ tags: reasoning
 - Don't judge decisions by results, a good decision can have a bad outcome, it's luck 
 
 [[cognitive-biases]]
+
+Not all decision are the same. 
+
+- Will I be glad for this decision in a day? in a week, month, year? 

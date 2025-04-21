@@ -16,7 +16,7 @@ function createClockConfig() {
         // Opacities
         opacities: {
             marks: 1,
-            labels: 0.8
+            labels: 0.9
         },
         
         // Sizes
@@ -244,7 +244,7 @@ function drawSegmentMark(ctx, config, clockSetup, segment) {
         labelPoint.x, labelPoint.y,
         colors.marks,
         sizes.labelFontSize,
-        opacities.marks
+        opacities.labels
     );
 }
 

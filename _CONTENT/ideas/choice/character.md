@@ -1,7 +1,7 @@
 ---
 ---
 
-"The content of your character is your choice. Day by day, what you choose, what you think, and what you do is who you become."  
+"The content of your character is your choice. Day by day, what you choose, what you think, and what you do is who you become"
 
 "Your ideas determine the quality of your life, your soul takes on the color of your thoughts"  
 
@@ -25,6 +25,10 @@ Channel your pain to build strength. This too shall pass.
 
 "Circumstances don't make the man but reveal him"  
 
+"how he treats people who can't do him any good, and how he treats people who can't fight back.”
+
+Treat people with kindness for everyone is fighting an unknown battle 
+
 Live as if you play a game, as if you listen to music, or you play music. Do not expect to "get" anything. The aim is the play itself 
 
 Truth has many faces. Even all the knowledge of humanity is next to nothing. Judge less, accept more. 
@@ -32,8 +36,6 @@ Truth has many faces. Even all the knowledge of humanity is next to nothing. Jud
 Listen more than you speak. Know your limits. Don't take yourself too seriously. 
 
 Never miss a good chance to shut up.
-
-"how he treats people who can't do him any good, and how he treats people who can't fight back.”
 
 ## Related
 
