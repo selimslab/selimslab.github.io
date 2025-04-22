@@ -2,18 +2,23 @@
 ---
 
 
-- Design is the core, expressing itself in successive layers.
-- Good design resembles a likable person: respectful, generous, helpful.
-- Know thy user; you are not your user.
-- Don't design for everyone; it makes everyone unhappy.
-- Design for how people behave, not how you wish them to behave.
-- Ask about specific past problems and their solutions.
-- Test early and often; three test-and-fix cycles with five users.
-- Design is like a mom; nobody notices her presence, but everyone misses her absence.
-- It's simple enough if the user can easily and intuitively grasp how it works.
-- Take hints from the past.
-- Be mindful of emotions; soothe fears, use nostalgia, give hope.
-- Design can be evil [[hijacked-minds]]
+Good design is respectful to your time and energy 
+- It is easy to figure out even in an emergency. If you can, use what people are already familiar with
+- It is generous, if you make a mistake, it has a sensible response 
+
+Choose a specific audience and design for them 
+- You can't make everyone happy. If you try, it'll make everyone unhappy. 
+
+Test early and often
+- Find five people down the hall and test in a real setting. 
+- Do it three times and you'll find most of the problems with your design. 
+
+Be mindful of emotions
+
+Take hints from the past
+- Ask your users about specific problems in the past and their approach
+
+Design can be evil [[hijacked-minds]]
 
 
 ## Double diamond 
