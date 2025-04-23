@@ -12,6 +12,3 @@ tags: time
 
 <http://www.ditext.com/diamond/mistake.html>
 
-Jared Diamond argues that agriculture was catastrophe, not progress
-
-Hunter-gatherers had diverse diets, ample leisure time, fit bodies, deep connection with nature, and superb survival skills - like free wild animals compared to farm animals.

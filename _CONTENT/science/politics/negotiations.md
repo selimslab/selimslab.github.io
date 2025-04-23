@@ -2,35 +2,25 @@
 ---
 
 ## Prep
-- Approach it as a discovery, not battle. 
-- The point is winning without fighting
 - Define your goals and limits
 
-## Communication
-- The listener is in charge
-- Pause after you talk
-- Paraphrase
-- Ask open-ended questions, how and what
-- Reference another authority
-
-## Persuasion
-- Attention is fragile so keep it short and sweet, clear and fun
+## Mindset 
+- Approach it as a discovery, not battle
 - Emotions make decisions, reason justifies later.
+- A good story - soothes fears, excites hope, gets across the key arguments
 - Arguments dilute each other
-- Create a story, appeal to emotion.
 
-## Emotions 
-- Read body language/voice
-- Stay calm, the guy is not the problem
-- Build rapport, stay constructive  
-- Label fears, list worst, get no
-- Its not about you, they should accept it as their own idea
-- Watch for [[cognitive-biases]], Anchors, Deadlines, Loss aversion
+## Listen
+- Read the room, voices, body languages, nonverbal cues 
+- The listener is in charge
+- How can I stay calm and constructive? Can I look at it from their perspective? What's the next action? 
+- Do I notice any [[cognitive-biases]] or dark patterns? anchors, loss aversion, false-urgency, etc?
+- How can make them arrive at the conclusion themselves? If I say it outright, there'll be resistance but if they arrive themselves, they embrace it their own idea
 
-## Exit
-- Use a summary to trigger "that's right"
-- 65 85 95 100% +20-10-5
-- Specific numbers
-- Confirm execution with how questions, summaries and labels
+## Speak 
+- Paraphrase, summarize, mirror
+- Label fears, list the worst cases, spread it open on the table 
+- Ask open-ended questions, how and what
+- Pause after you talk
+- Confirm with summaries and how questions 
 
-![](/assets/static/img/arguments-dilute.png)
