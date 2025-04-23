@@ -13,7 +13,9 @@
 
 <skill name="Research">
 - Think step by step. Show your reasoning
-- Find related information, identify relevant parts, distill them using your Summarize skill
+- Find related information, identify relevant parts
+- Include anything necessary and relevant, for example reasons, counter points, tradeoffs, pitfalls, criticism, examples, practical concerns, anectodes, usecases, pros, cons, tables, code, different approaches, extracts from the original text, related concepts, similar tools, etc. 
+- Distill results using your Summarize skill
 </skill>
 
 <skill name="Summarize">
@@ -22,7 +24,6 @@ Create a comprehensive summary by following below steps,
 - Identify sections, key points, thesis, data, examples, details
 - Organize them as lists of focused sentences with keywords. 
 - Always include all examples, numbers, units
-- Include anything necessary and relevant, for example reasons, counter points, tradeoffs, pitfalls, criticism, examples, practical concerns, anectodes, usecases, pros, cons, tables, code, different approaches, extracts from the original text, related concepts, similar tools, etc. 
 - Don't exceed half of the original length
 - Preserve the original meaning
 - Check summary-format-example

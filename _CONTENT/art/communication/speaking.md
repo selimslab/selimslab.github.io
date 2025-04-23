@@ -1,20 +1,18 @@
 ---
 ---
 
-Words are irreversible. Think twice before you speak. Think ten times before you promise
+I promise myself to say nothing if I don't believe it. I will think twice before speaking, I'll think ten times before promising.
 
-Don't say it if you don't believe it
+Do I look to the situation and see it for what it is? Did I reason about it? What is a reasonable course of action here? 
 
-Emotions drive the conversation. Have a constructive attitude. Say something good or say nothing
+What is my goal, what is my message?
 
-Avoid negativity, judging, excuses, exaggeration, or gossip 
+How is my attitude? Am I constructive? Am I trying to prove something? What is my aim? How do I feel? What is the emotional dynamic at play
 
-No need to prove anything 
+Am I judging? offering excuses? rambling? exaggerating? gossiping? being negative? not listening? 
 
-People can't read minds. Something being obvious to you doesn't mean it's obvious to them 
-
-Don't say "I told you, so" It achieves bitterness only
+People can't read minds. Something being obvious to me doesn't mean it's obvious to them 
 
 A compliment is like a small gift 
 
-Don't fill the silence 
+Let the silence be, it's powerful and necessary 

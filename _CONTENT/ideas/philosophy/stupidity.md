@@ -1,5 +1,6 @@
 ---
 ---
+
 It is not ignorance, smart or educated people can also be very stupid
 
 It's false confidence and closed-mindedness

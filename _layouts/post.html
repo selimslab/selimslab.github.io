@@ -13,8 +13,3 @@ layout: delta
 {% endif %}
 
 {% include backlinks.html %}
-
-{% assign words = content | number_of_words | times: 1.0  %}
-{% if words > 180 %} 
-  {% include random-art.html %}
-{% endif %}

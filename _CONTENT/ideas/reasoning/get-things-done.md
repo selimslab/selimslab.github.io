@@ -3,11 +3,14 @@
 
 **What is the next action?**
 
-Define the top goal, the most important thing. Say no to all else 
+What is my top goal today?
 
-Break it down to steps. Eliminate, delegate, batch, define deadlines 
+How to break it down?
 
-Starting is the hardest thing - until you start. Then it is the easiest thing
+What's one little thing to get me started?
+
+Can I eliminate? delegate? batch? timebox? 
+
 
 ## Tactics 
 - checklists
@@ -22,6 +25,8 @@ Starting is the hardest thing - until you start. Then it is the easiest thing
 - Work short, focused intervals and rest
 
 [[habits]] 
+
+[[practice]]
 
 [[do-one-thing-at-a-time-and-do-it-well]]
 

@@ -1,3 +1,3 @@
 ---
-tags: sci top
+tags: sci
 ---

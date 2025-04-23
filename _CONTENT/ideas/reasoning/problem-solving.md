@@ -2,11 +2,15 @@
 title: Problem Solving
 ---
 
-Define it well. A problem well stated is a problem half-solved
+How can I define it well? 
 
-List assumptions, inputs, outputs, constraints, examples, etc. 
+What are my assumptions? What are the constraints? 
 
-Ask a lot of questions 
+How can model the problem? What are inputs, outputs, and system dynamics? 
+
+What are the examples? Can I derive new examples? 
+
+What questions can help? 
 
 [[critical-thinking]]
 

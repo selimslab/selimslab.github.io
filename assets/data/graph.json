@@ -141,7 +141,8 @@
         "/physics",
         "/politics",
         "/psychology",
-        "/sociology"
+        "/sociology",
+        "/reasoning"
       ]
     },
     {
@@ -671,7 +672,8 @@
         "/systems-thinking",
         "/take-a-walk",
         "/decision-making",
-        "/work"
+        "/work",
+        "/science"
       ]
     },
     {
@@ -5967,6 +5969,10 @@
     {
       "source": "/psychology",
       "target": "/psychopathy"
+    },
+    {
+      "source": "/science",
+      "target": "/reasoning"
     }
   ]
 }
