@@ -1,10 +1,7 @@
 ---
 ---
 
-An amplifier for noise, not the signal.
+An amplifier for noise, not the signal. 
 
-"The rise of social led people to overvalue opinions as a measure of character. 
+It emphasizes what people say over what they do, and unlike action, words are cheap 
 
-We are now defined more by what we say than what we actually do, 
-
-and words, unlike deeds, are cheap and easy to counterfeit."
