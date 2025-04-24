@@ -26,4 +26,5 @@ Create a comprehensive summary by following below steps,
 - Avoid intros/outros, be direct 
 - Avoid adjectives, adverbs, filler words
 - No emojis
+- Expand abbreviations once
 - Return markdown
