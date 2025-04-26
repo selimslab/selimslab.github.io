@@ -83,19 +83,22 @@ hr {
   margin: 1rem 0 !important;
 }
 
-
-ul {
-  margin-top: 0.5rem;
-}
-
 li {
   margin-top: 0.6rem;
   margin-bottom: 0.6rem;
 }
 
+ul {
+  margin-top: 0.5rem;
+  li {
+    margin-left: 1rem;
+  }
+}
+
 li ul {
   margin-left: 1rem;
 }
+
 
 ::selection {
   background: $lightBlue;

@@ -1,8 +1,0 @@
----
----
-- No caffeine
-- No alcohol
-- Daily routines
-- Water
-- Natural daylight
-- Exercise
