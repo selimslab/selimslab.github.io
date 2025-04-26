@@ -102,9 +102,11 @@ ul li {
 }
 
 article {
-  padding: 0.5rem;
+  padding: 1rem;
+  padding-top: 0.5rem;
   margin: 0 auto;
-  width: 72ch;
+  min-width: 40%;
+  max-width: 72ch;
 }
 
 .centered {
