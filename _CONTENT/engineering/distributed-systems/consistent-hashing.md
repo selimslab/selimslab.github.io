@@ -7,8 +7,3 @@ I have db nodes and keys to distribute
 - Map keys to the next node on the circle
 
 So if I add or remove a node, I only need to move a small subset of key
-
-I can use a bloom filter before searching a key 
-
-used by Dynamo and Cassandra
-
