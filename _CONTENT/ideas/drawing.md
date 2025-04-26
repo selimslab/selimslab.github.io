@@ -1,9 +1,7 @@
 ---
 ---
 
-<https://www.tylermileslockett.com/>
 
-[wizard zines](https://wizardzines.com/)
 
 [It's Nicky Case! (ncase.me)](https://ncase.me/)
 
@@ -12,3 +10,7 @@
 [Archives - Bartosz Ciechanowski](https://ciechanow.ski/archives/)
 
 [Tag: drawing - Sketchplanations](https://sketchplanations.com/tags/drawing)
+
+[wizard zines](https://wizardzines.com/)
+
+<https://www.tylermileslockett.com/>

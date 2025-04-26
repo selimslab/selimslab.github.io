@@ -1,5 +1,4 @@
 ---
-tags: psy
 ---
 
 Do I admit that I don't know?

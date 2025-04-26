@@ -92,6 +92,9 @@ Trust is the most delicate thing. Be impeccable with your word.
 
 People will never forget how you made them feel.
 
+"In other words, the default state is to trust, and what the amygdala does is learn vigilance and distrust.”
+
+
 ## Vulnerability
 
 "Conceal a flaw and the world will imagine the worst" 
