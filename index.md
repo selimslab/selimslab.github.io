@@ -26,8 +26,6 @@ layout: delta
 
 {% include offline.html  %}
 
-{% include random-art.html %}
-
 <script src="/assets/js/moment.min.js"></script>
 <script src="/assets/js/datetime.js"></script>
 

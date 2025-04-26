@@ -2,28 +2,21 @@
 title: ACID 
 ---
 
-## Consistency 
+Consistency 
+- Not really a property of db but data itself. An app can leverage db properties for consistency, eg. atomicity, isolation, foreign keys, constraints, .. 
 
-Consistent data makes sense logically. It's not a property of a db. 
-An app can leverage db features to achieve consistency. Like atomicity, isolation, foreign keys, referential integrity, validation, etc. 
-
-So a database can't make your data magically consistent but it can help you to achieve consistency.   
-
-## Atomicity
-All or nothing. It reduces a long list of possible problems when running a transaction to an abort-and-retry 
+Atomicity
+- All or nothing
+- Abort-and-retry 
 
 ## Isolation 
-
-When there are more than one active transaction, there is a risk that they will affect each other. Databases try to prevent this. Yet, isolation has multiple levels and there is a long list of possible concurrency bugs. Some of the key ideas are, 
-
-- Making a change visible to other transactions only when it's fully committed 
-- Using multiple versions of db objects. This enables a transaction to operate on an unchanging, consistent dataset. Called MVCC, multi-version concurrency control 
-
+Transactions can affect each other. Some ideas to prevent this:
+- Make a change visible to other transactions only after it's fully committed
+- Have multiple versions of db objects so a transaction can operate on a stable dataset. Called MVCC, multi-version concurrency control 
 
 ## Durability
+There is no perfect durability. Disks fail, disks get full, processes crash, fsync might fail. Some ideas: 
+- Write-ahead log: Log the change before the write so you can recover later
+- Periodic backups 
+- Write to multiple disks, maybe in multiple datacenters and zones  
 
-Maybe it's so obvious but it's the topmost expectation from a db. A db shouldn't lose the data. In practice, there is no perfect durability. Disks can fail or get full, processes crash, fsync might fail, etc. Some key ideas to tackle this are, 
-
-- Write-ahead log: a db can log the intended change before acknowledging the write, so it can recover in case of a power loss or restart 
-- Periodic backups: enables going back to a snapshot but the remaining data will still be lost 
-- Replication: A db can write the data to multiple disks(possibly in multiple datacenters or availability zones)

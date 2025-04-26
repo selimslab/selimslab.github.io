@@ -88,14 +88,11 @@ li {
   margin-bottom: 0.6rem;
 }
 
-ul {
-  margin-top: 0.5rem;
-  li {
-    margin-left: 1rem;
-  }
+ol li {
+  margin-left: 1rem;
 }
 
-li ul {
+ul li {
   margin-left: 1rem;
 }
 

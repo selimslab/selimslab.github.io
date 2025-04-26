@@ -1,8 +1,7 @@
 ---
 ---
 
-"All models are wrong but some are useful"
-
+All models are wrong but some are useful
 - Building, "architecture", "development"
 - Manufacturing 
 - Art

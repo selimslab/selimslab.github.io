@@ -1,12 +1,14 @@
 ---
 ---
 
-Represent a server with many virtual nodes on a circle. Map nodes and keys to the circle, using a uniformly distributed hash function  
+I have db nodes and keys to distribute
+- Reprent each physical node with multiple virtual nodes 
+- Place virtual nodes and keys on a circle using a uniform distrubuted hash function 
+- Map keys to the next node on the circle
 
-When you add or remove a node, you only need to re-distribute a fraction of keys instead of all your keys 
+So if I add or remove a node, I only need to move a small subset of key
 
-Use a bloom filter before searching a key
+I can use a bloom filter before searching a key 
 
-If you add or remove a node, go counter clockwise and remap the keys 
+used by Dynamo and Cassandra
 
-Used for partitioning in Dynamo and Cassandra
