@@ -4,7 +4,6 @@
 ---
 
 
-
 ```py
 """
 Three sum 
@@ -21,7 +20,7 @@ Explanation: The sum that is closest to the target is 2
 
 def threeSumClosest(self, nums: list[int], target: int) -> int:
     """
-    sort the list 
+    two pointers on sorted list 
 
     for each num:
         start left and right pointers at 0 and n-1 
@@ -42,8 +41,6 @@ def threeSumClosest(self, nums: list[int], target: int) -> int:
     
 
     for i,num in enumerate(nums):
-
-        
         # skip dups 
         if i>0 and num==nums[i-1]: 
             continue
@@ -52,20 +49,16 @@ def threeSumClosest(self, nums: list[int], target: int) -> int:
         r = n-1
         
         while l<r:
-
-            total = num + nums[l] + nums[r] 
-
-            if total == target:
+            tsum = num + nums[l] + nums[r] 
+            if tsum == target:
                 return target 
-            
-            # update diff 
-            diff = abs(total-target)
+
+            diff = abs(tsum-target)
             if diff < resdif:
-                res = total
+                res = tsum
                 resdif = diff 
                 
-            
-            if total < target:
+            if tsum < target:
                 l += 1
             else:
                 r -= 1

@@ -3,11 +3,11 @@
 ---
 
 ```py
-def longestConsecutive(nums: List[int]) -> int:
+def longestConsecutive(nums: list[int]) -> int:
     """
     for each num:
         if num-1 in set, continue
-        check the streak 
+        start a streak 
     """
     numset = set(nums)
     ans = 0

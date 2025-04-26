@@ -2,6 +2,11 @@
 ---
 
 
+1 2 3 4 5, d=3
+
+3 2 1 5 4 -> reverse 0 to d-1 and d to end
+
+4 5 1 2 3 -> then reverse all
 
 ```go
 /*
@@ -46,7 +51,7 @@ func leftRotateDirect(arr []int, d int) []int {
 
 	for i := 0; i < n; i++ {
 		// Calculate the new index after left rotation 
-		and store the element in the result slice
+		// and store the element in the result slice
 		result[(i+n-d)%n] = arr[i]
 	}
 

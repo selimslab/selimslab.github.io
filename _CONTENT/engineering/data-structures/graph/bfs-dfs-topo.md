@@ -10,18 +10,21 @@ title: BFS DFS Toposort
 from collections import deque
 
 def bfs(graph, node):
-    q = deque([node])
-    res = []
+    q = deque()
+    q.append([node])
+    
     seen = set()
 
     while q:
-        n = q.popleft()
-        if n not in seen:
-            seen.add(n)
-            res.append(n)
-            q += graph.get(n, [])
+        n = q.pop()
 
-    return result
+        if n in seen:
+            continue 
+        seen.add(n)
+
+        neis = graph.get(q,[])
+        for nei in neis:
+            q.append(nei)
 ```
 
 ## DFS
@@ -30,52 +33,48 @@ recursive or stack
 
 
 ```py
-def dfs(graph, node, seen=None, res=None):
+def dfs(graph, node, seen=None):
     if not seen:
         seen = set()
-    if not res: 
-        stack = []
 
-    if node not in seen:
-        seen.add(node)
-        stack.append(node)
-        for n in graph.get(node, []):
-            dfs(graph, n, seen, stack)
+    if node in seen:
+        return 
+    seen.add(node)
+    # add to a collection or compare to a target here 
+    consume(node)
 
-    return stack
+    for nei in graph.get(node, []):
+        dfs(graph, nei, seen)
 ```
 
 ## Toposort 
 
-1. modify dfs to neighbors-first (add to stack after its neighbors)
+1. modify dfs, consume node after neighbors
 2. call dfs for all nodes
 3. reverse the result 
 
 
 ```py
+
+def dfs_topo(graph, node, seen, stack):
+    if node in seen:
+        return 
+    seen.add(node)
+
+    for nei in graph.get(node, []):
+        dfs_topo(graph, nei, seen)
+
+    stack.append(node) # after neis 
+
 def topological_sort(graph):
-    def dfs(graph, node, seen=None, res=None):
-        if not seen:
-            seen = set()
-        if not res: 
-            stack = []
-
-        if node not in seen:
-            seen.add(node)
-            for n in graph.get(node, []):
-                dfs(graph, n, seen, res)
-            stack.append(node) # after neighbors
-
-        return res
-
     seen = set()
     stack = []
 
+    # dfs for all
     for node in graph:
-        dfs(node)
+        dfs_topo(node)
 
-    # The topological sort is the reverse of the stack
-    return stack[::-1]
+    return stack[::-1] # reverse 
 
 
 def test():

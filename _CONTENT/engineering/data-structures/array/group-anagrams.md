@@ -2,6 +2,8 @@
 
 ---
 
+turn every word into a list of numbers, in a fixed size 26 list, for each letter. then compare lists 
+
 ```py
 """
 Input: ["eat", "tea", "tan", "ate", "nat", "bat"],

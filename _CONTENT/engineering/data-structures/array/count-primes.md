@@ -2,6 +2,7 @@
 
 ---
 
+From 2 to sqrt(n), if any number divides n, n can't be a prime 
 
 
 ```py
