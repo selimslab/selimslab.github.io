@@ -1,6 +1,6 @@
 ---
 title: Let's write a compiler
-tags: python
+tags: py
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: An interpreter in Python 
-tags: python
+tags: py
 ---
 
 for a subset of PASCAL
