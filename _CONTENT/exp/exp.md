@@ -1,6 +1,5 @@
 ---
 title: Experiments
-tags: tools
 ---
 
 - [Paintings](/paintings)
