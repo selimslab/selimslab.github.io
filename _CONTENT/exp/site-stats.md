@@ -3,4 +3,4 @@
 
 {% include stats.html  %}
 
-[[graph-3d]]
+- [[graph-3d]]
