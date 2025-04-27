@@ -3,12 +3,10 @@ phil: philosophy
 psy: psychology
 pols: politics
 
-sys: system-design
-ml: machine-learning
-os: operating-systems
 
 algo: algorithms
 ds: data-structures
+sys: system-design
 
 str: string
 arr: array
