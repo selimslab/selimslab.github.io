@@ -1,9 +1,6 @@
 ---
 ---
 
-## Word Break 
-
-
 ```py
 """
 Given a non-empty string s and a dictionary wordDict 

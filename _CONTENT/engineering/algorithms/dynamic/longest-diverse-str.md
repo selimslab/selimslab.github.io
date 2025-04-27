@@ -1,5 +1,6 @@
 ---
-tags:  heap str dp
+title: Longest Diverse String
+tags:  heap str 
 
 ---
 

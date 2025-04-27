@@ -1,12 +1,10 @@
 ---
-tags: ptr
 
 ---
 
 
 ```
-max water among sticks:
-    move the shorter line
+move the shorter line   
 ```
 
 

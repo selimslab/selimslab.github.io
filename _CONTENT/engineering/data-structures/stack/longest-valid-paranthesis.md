@@ -1,5 +1,5 @@
 ---
-tags: ptr str
+
 ---
 
 ```py

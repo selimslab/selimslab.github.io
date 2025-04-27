@@ -1,7 +1,7 @@
 ---
 ---
 
-[[longest-common-subsequence]]
+[[lcs]]
 
 ```go
 /*

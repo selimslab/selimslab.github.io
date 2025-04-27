@@ -1,6 +1,5 @@
 ---
-title: Longest increasing subsequence
-
+title: Longest Increasing Subsequence
 ---
 
 

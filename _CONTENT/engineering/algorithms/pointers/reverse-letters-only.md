@@ -1,5 +1,5 @@
 ---
-tags: ptr stack
+tags: stack
 
 
 ---

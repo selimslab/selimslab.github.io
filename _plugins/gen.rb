@@ -477,7 +477,7 @@ class SiteGenerator < Jekyll::Generator
     
     # Update child document with parent information
     child_doc.data['parent_basename'] = parent_basename
-    child_doc.data['tags'] << parent_basename
+    child_doc.data['tags'] << parent_basename 
 
     # Update parent document with child information
     parent_doc.data['children'] ||= []

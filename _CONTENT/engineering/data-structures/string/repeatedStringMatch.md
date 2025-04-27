@@ -1,7 +1,4 @@
 ---
-tags: str
-
-
 ---
 
 ```python

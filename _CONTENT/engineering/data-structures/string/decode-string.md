@@ -1,5 +1,5 @@
 ---
-tags: str stack
+tags: stack
 --- 
 
 
@@ -29,32 +29,4 @@ def decodeString(self, s):
             current_str += c
 
     return current_str
-```
-
-```c#
-public class Solution {
-    public string DecodeString(string s) {
-        Stack<(string, int)> stack = new Stack<(string, int)>();
-        int coeff = 0;
-        string currentStr = "";
-
-        foreach (char c in s) {
-            if (char.IsDigit(c)) {
-                coeff = coeff * 10 + (c - '0');
-            } else if (c == '[') {
-                stack.Push((currentStr, coeff));
-                currentStr = "";
-                coeff = 0;
-            } else if (c == ']') {
-                var (prevStr, num) = stack.Pop();
-                var repeated = Enumerable.Repeat(currentStr, num)
-                currentStr = prevStr + string.Concat(repeated);
-            } else {
-                currentStr += c;
-            }
-        }
-
-        return currentStr;
-    }
-}
 ```
