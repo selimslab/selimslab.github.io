@@ -1,14 +1,11 @@
 ---
-title: Containers
 ---
 
-Although OS provides process isolation, containers provide more isolation and ease on top of that  
-See [The What, Why and How of Containers – Annwan](https://www.annwan.me/computers/what-why-how-containers/)
+Containers provide more process isolation, ease, and control on top of what OS provides  
 
-[Containers From Scratch • Liz Rice • GOTO 2018](https://www.youtube.com/watch?v=8fi7uSYlOdc) is a great look under the hood for what really is a container 
+[The What, Why and How of Containers – Annwan](https://www.annwan.me/computers/what-why-how-containers/)
 
-her code below
-
+An inside look from [Containers From Scratch • Liz Rice • GOTO 2018](https://www.youtube.com/watch?v=8fi7uSYlOdc)
 
 ```go
 package main

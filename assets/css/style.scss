@@ -64,6 +64,11 @@ footer.about {
 }
 
 
+hr{
+  background-color: $lightText;
+  max-width: 36ch;
+}
+
 body {
   font-family: $sansSerif;
   background-color: $darkBg;
@@ -79,9 +84,6 @@ strong {
   color: $lightText;
 }
 
-hr {
-  margin: 1rem 0 !important;
-}
 
 li {
   margin-top: 0.6rem;
@@ -189,6 +191,7 @@ blockquote {
 }
 
 pre {
+  font-family: $mono;
   background: inherit;
   color: inherit;
   font-size: 1em !important;
@@ -255,6 +258,10 @@ html[data-theme='light'] {
 
   a.site-name {
     color: inherit
+  }
+
+  hr {
+    background-color: $darkText;
   }
 }
 
