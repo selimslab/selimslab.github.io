@@ -1,16 +1,17 @@
 ---
-tags: str stack
+tags: str
 ---
 
 ```py
-from typing import NamedTuple
+from dataclasses import dataclass
 
-class CharCount(NamedTuple):
+@dataclass
+class CharCount:
     char: str
     count: int
 
 def dedup_k(s: str, k: int) -> str:
-    # Repeatedly dedup adjacent K letters until no longer can.
+    # Repeatedly dedup adjacent K letters 
 
     stack: list[CharCount] = []  
     for c in s:

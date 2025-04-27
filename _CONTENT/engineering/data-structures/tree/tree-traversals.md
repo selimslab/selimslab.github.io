@@ -1,11 +1,8 @@
 ---
-
 ---
 
-
-
 ```py
-inorder(root):
+def inorder(root):
 
     walk(node):
         if node:
@@ -16,53 +13,54 @@ inorder(root):
     walk(root)
 
 
-inorder(root):
+def inorder(root):
     # return left, root, right
 
     stack = []
+    node = root
 
-    while stack or root:
-        if root:
-             add root to stack 
-             go left
-
+    while stack or node:
+        if node:
+            stack.append(node)
+            node = node.left 
         else:
-            get node from stack 
-            visit node 
-            go right 
+            node = stack.pop()
+            visit(node)
+            node = node.right
 
-
-preorder(root):
+def preorder(root):
     # return root, left, right
 
+    visited = []
     stack = []
+    node = root
 
-    while stack or root:
-        if root:
-            add root to stack 
-            visit node 
-            go left 
-
+    while stack or node:
+        if node:
+            stack.append(node)
+            visited.append(node)
+            node = node.left 
         else:
-            get node from stack 
-            go right
+            node = stack.pop()
+            node = node.right
 
-postorder(root):
+
+def postorder(root):
     # return left, right, root 
-    # visit in reverse 
-
+    
+    visited = []
     stack = []
+    node = root 
 
-    while stack or root:
-        if root:
-            add root to stack 
-             visit node 
-             go right 
-
+    while stack or node:
+        if node:
+            stack.append(node)
+            visited.append(node)
+            node = node.right
         else:
-            get node from stack 
-            go left
+            node = stack.pop()
+            node = node.left
 
-    return reverse visited
+    return reversed(visited)
 
 ```

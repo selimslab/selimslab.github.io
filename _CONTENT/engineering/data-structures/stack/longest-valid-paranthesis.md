@@ -1,5 +1,5 @@
 ---
-tags: ptr str stack
+tags: ptr str
 ---
 
 ```py

@@ -1,6 +1,5 @@
 ---
 title: Binary Search Tree
-tags: easy
 ---
 
 
