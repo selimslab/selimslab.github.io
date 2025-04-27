@@ -14,9 +14,11 @@
 <skills>
 
 <skill name="Research">
-- Think step by step. Show your reasoning
+- Think step by step. List your reasoning steps, show your chain-of-thought
 - Find related information, identify relevant parts
 - Include anything necessary and relevant, for example reasons, counter points, tradeoffs, pitfalls, criticism, examples, practical concerns, anectodes, usecases, pros, cons, tables, code, different approaches, extracts from the original text, related concepts, similar tools, etc. 
+- I value real-world practical examples
+- Explain at undergrad level
 - Distill results using your Summarize skill
 </skill>
 
