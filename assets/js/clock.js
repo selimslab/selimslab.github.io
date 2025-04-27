@@ -16,14 +16,16 @@ function createClockConfig() {
         // Opacities
         opacities: {
             marks: 1,
-            labels: 0.9
+            miniMarks: 0.5,
+            labels: 0.8,
+            dial: 0.1
         },
         
         // Sizes
         sizes: {
-            markWidth: 1,
+            markWidth: 1.2,
             markLength: 24,
-            handWidth: 1,
+            handWidth: 1.2,
             handLength: 0.82,
             centerDotSize: 3,
             handCircleRadius: 0.016,
@@ -203,20 +205,20 @@ function drawClockDial(ctx, config, clockSetup, type) {
         config.radius,
         config.colors.dial,
         false,
-        0.2
+        config.opacities.dial
     );
 
     // Draw main segments
     for (let segment = 0; segment < clockSetup.segmentCount; segment++) {
-        drawSegmentMark(ctx, config, clockSetup, segment);
+        drawMarks(ctx, config, clockSetup, segment);
     }
     
-    drawMarks(ctx, config, clockSetup);
+    drawMiniMarks(ctx, config, clockSetup);
 }
 
 
 
-function drawSegmentMark(ctx, config, clockSetup, segment) {
+function drawMarks(ctx, config, clockSetup, segment) {
     const { sizes, colors, opacities } = config;
     const segmentAngle = clockSetup.segmentFractions[segment] * 2 * Math.PI;
 
@@ -248,7 +250,7 @@ function drawSegmentMark(ctx, config, clockSetup, segment) {
     );
 }
 
-function drawMarks(ctx, config, clockSetup) {
+function drawMiniMarks(ctx, config, clockSetup) {
     const { sizes, colors, opacities } = config;
     
     for (let i = 0; i < clockSetup.marks.length; i++) {
@@ -262,8 +264,8 @@ function drawMarks(ctx, config, clockSetup) {
             innerPoint.x, innerPoint.y,
             outerPoint.x, outerPoint.y,
             colors.marks, 
-            1,
-            opacities.marks * 0.5
+            sizes.markWidth,
+            opacities.miniMarks
         );
     }
 }

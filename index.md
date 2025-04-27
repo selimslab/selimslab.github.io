@@ -3,26 +3,25 @@ layout: delta
 ---
 
 
-<div class="columns is-vcentered">
-
-  <div class="column is-4">
-
-    <p><a href='/clocks/' id="current-time"></a></p>
-    <p><a href='/calendar/' id="current-date"></a></p>
-
-    <h2>home</h2>
-    
-    <p><a href='/art/'>Art</a></p>
-    <p><a href='/science/'>Science</a></p>
-    <p><a href='/engineering/'>Engineering</a></p>
-    <p><a href='/lists/'>Lists</a></p>
-    <p><a href='/exp/'>Experiments</a></p>
-    <p><a href='/ideas/'>Ideas</a></p>
 
 
-  </div>
 
-</div>
+  <p><a href='/clocks/' id="current-time"></a></p>
+  <p><a href='/calendar/' id="current-date"></a></p>
+
+
+  <h2>home</h2>
+  
+  <ul>
+    <li><a href='/art/'>Art</a></li>
+    <li><a href='/science/'>Science</a></li>
+    <li><a href='/engineering/'>Engineering</a></li>
+    <li><a href='/lists/'>Lists</a></li>
+    <li><a href='/exp/'>Experiments</a></li>
+    <li><a href='/ideas/'>Ideas</a></li>
+  </ul>
+
+
 
 {% include offline.html  %}
 
