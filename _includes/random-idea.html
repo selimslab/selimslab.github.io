@@ -1,6 +1,7 @@
 
 
-<a style="font-size:1.5rem;" id="ideaMachine" title="Idea Machine" tabindex="0" onclick="setNextIdea();">🎰
+<br>
+<a class="machine" id="ideaMachine" title="Idea Machine" tabindex="0" onclick="setNextIdea();">🎰
 </a>
 
 <p id="random_idea" class="idea" onclick="setNextIdea();"></p>
@@ -9,9 +10,14 @@
 <style>
   .idea {
     margin-top: 0;
+    margin-left: 1rem;
     white-space: pre-line;
     min-height: 8rem;
     font-family: "Atkinson Hyperlegible Mono", "Inconsolata", monospace;
+  }
+  .machine {
+    font-size: 1.4rem;
+    margin-left: 1rem;
   }
 </style>
 
@@ -28,7 +34,7 @@
 
   document.addEventListener('DOMContentLoaded', async () => {
     let machine = document.getElementById("ideaMachine");
-
+    
     machine.addEventListener('keydown', function (e) {
       if (e.key === 'Enter') {
         setNextIdea();
