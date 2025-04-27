@@ -3,97 +3,20 @@ title: Skip Lists
 tags: search
 ---
 
-Searching sorted data is a common use case 
+You can search static data with a binary search. Dynamic data requires a balanced tree. An alternative is skip lists.
+- Multiple levels of linked lists. 
+- Simpler to implement 
+- Better for concurrent ops 
+- Better for caching due to linear structure
+- nlogn memory vs n for trees 
+- logn search and insert time 
 
-For static data, you could simply use binary search over an array 
+Level 0 has all elements in sorted order. Higher levels has less and less items. 
 
-For dynamic data, one way is to balance a tree as you insert new elements. 
-
-A simpler alternative is a skip list. A skip list has multiple sorted linked lists with shortcuts. 
-
-A skip list uses log-linear memory while a tree uses linear. Both have logarithmic search and insert time. But the former is simpler to implement, better for concurrent operations due to this simplicity, better for caching due to its linear structure
-
-
-### Example
-
-#### Data:
-
-Consider inserting the elements 10, 20, 30, 40, and 50 into a skip list.
-
-#### Initial Skip List (empty):
-
+For insert, choose a random level and insert at all levels below, too 
 
 ```
-Level 3: None 
-Level 2: None 
-Level 1: None 
-Level 0: None
-```
-
-
-#### Inserting 10:
-
-- Randomly determine the level, e.g., level 1.
-
-
-```
-Level 3: None 
-Level 2: None 
-Level 1: [10] 
-Level 0: [10]
-
-[10] is a single node with two next pointers for level 0 and 1
-```
-
-
-
-
-#### Inserting 20:
-
-- Randomly determine the level, e.g., level 0.
-
-
-```
-Level 3: None 
-Level 2: None 
-Level 1: [10] 
-Level 0: [10] -> [20]
-```
-
-#### Inserting 30:
-
-- Randomly determine the level, e.g., level 2.
-
-
-```
-Level 3: None 
-Level 2: [30] 
-Level 1: [10] -> [30] 
-Level 0: [10] -> [20] -> [30]
-```
-
-
-#### Inserting 40:
-
-- Randomly determine the level, e.g., level 0.
-
-
-```
-Level 3: None 
-Level 2: [30] 
-Level 1: [10] -> [30] 
-Level 0: [10] -> [20] -> [30] -> [40]
-```
-
-
-#### Inserting 50:
-
-- Randomly determine the 
-level, e.g., 
-level 1.
-
-
-```
+After inserting 10, 20, 30, 40, and 50 with random levels:
 
 Level 3: None 
 Level 2: [30] 
@@ -102,24 +25,4 @@ Level 0: [10] -> [20] -> [30] -> [40] -> [50]
 ```
 
 
-### Visual Representation
-
-#### Skip List After All Insertions:
-
-
-```
-
-Level 3: None 
-Level 2: [30] 
-Level 1: [10] -> [30] -> [50] 
-Level 0: [10] -> [20] -> [30] -> [40] -> [50]
-```
-
-
-### Search Example
-
-- **Search for 40**:
-    1. Start at the top level: Move to 30.
-    2. Move to Level 1: 30 -> 50 (stop, greater than 40).
-    3. Move to Level 0: 30 -> 40 (found).
-
+For search, start at top, and move right, drop down if you overshoot. Repeat until level 0. 
