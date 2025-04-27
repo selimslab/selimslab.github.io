@@ -64,11 +64,6 @@ footer.about {
 }
 
 
-hr{
-  background-color: $lightText;
-  max-width: 36ch;
-}
-
 body {
   font-family: $sansSerif;
   background-color: $darkBg;
@@ -84,6 +79,11 @@ strong {
   color: $lightText;
 }
 
+hr{
+  margin-top: 2.2rem;
+  margin-bottom: 2.2rem;
+  background-color: transparent;
+}
 
 li {
   margin-top: 0.6rem;
