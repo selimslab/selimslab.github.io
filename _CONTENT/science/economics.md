@@ -8,12 +8,6 @@ A high price doesn't always mean high value
 
 I find myself paying a lot for little value or getting great value for a reasonable price 
 
-# How to gain wealth
-
-- Ignore status games 
-- Play long-term games with long-term people
-- Take strategic business risks
-- Leverage capital, code/media, and talent 
 
 
 ## Links 

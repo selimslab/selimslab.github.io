@@ -1,7 +1,7 @@
 ---
 ---
 
-Practice - I need deliberate, effortful practice. Practice that challenges me and pushes my limits 
+I need deliberate, effortful practice that challenges me and pushes my limits 
 
 My ego prevents me from getting better. It says "you are already good enough, why bother?" 
 

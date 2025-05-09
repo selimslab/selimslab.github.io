@@ -34,7 +34,7 @@ Manage the top line and the bottom line will follow
 What if I believe in people, what if I treat people as what they could be 
 
 
-## Teamwork Mistakes 
+## Some Mistakes 
 
 - Trying to prove your worth
 - Insecurity

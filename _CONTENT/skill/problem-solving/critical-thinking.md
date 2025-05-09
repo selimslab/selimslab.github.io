@@ -1,5 +1,4 @@
 ---
-tags: sci
 ---
 
 
@@ -9,7 +8,9 @@ What is below the surface?
 
 Open-ended questions 
 
-Probabilities, suspending judgment 
+Probabilities
 
-Read, write, discuss
+Suspend judgment 
+
+Read, write, discuss, question
 

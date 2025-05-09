@@ -1,6 +1,5 @@
 ---
 title: Classics
-tags: lists
 ---
 
 
