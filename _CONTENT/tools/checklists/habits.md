@@ -7,11 +7,6 @@
 3. Set a clear time and place  
 
 
-Specific  
-Measurable  
-Actionable  
-Responsible  
-Time bounded  
 
 
 

@@ -4,7 +4,7 @@ function createClockConfig() {
         // Core dimensions
         radius: 144,
         center: { x: 0, y: 0 },
-        
+
         // Colors
         colors: {
             dial: 'currentColor',
@@ -12,7 +12,7 @@ function createClockConfig() {
             hands: 'currentColor',
             highlight: 'red'
         },
-        
+
         // Opacities
         opacities: {
             marks: 1,
@@ -20,7 +20,7 @@ function createClockConfig() {
             labels: 0.8,
             dial: 0
         },
-        
+
         // Sizes
         sizes: {
             markWidth: 1.6,
@@ -32,50 +32,50 @@ function createClockConfig() {
             labelFontSize: 12,
             labelPadding: 20
         },
-        
+
         // Clock type configurations
         clockTypes: {
             hour: {
                 segmentNames: ['12', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11'],
                 segmentCount: 12,
-                segmentFractions: Array.from({length: 12}, (_, i) => i / 12),
-                marks: Array.from({length: 48}, (_, i) => i)
+                segmentFractions: Array.from({ length: 12 }, (_, i) => i / 12),
+                marks: Array.from({ length: 48 }, (_, i) => i)
             },
             month: {
                 segmentNames: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
                 segmentCount: 12,
-                segmentFractions: Array.from({length: 12}, (_, i) => i / 12),
-                marks: Array.from({length: 48}, (_, i) => i)
+                segmentFractions: Array.from({ length: 12 }, (_, i) => i / 12),
+                marks: Array.from({ length: 48 }, (_, i) => i)
             },
             year: {
-                segmentNames: ['2000', '', '2010','','2020', '','2030','', '2040','', '2050', '',],
+                segmentNames: ['2000', '', '2010', '', '2020', '', '2030', '', '2040', '', '2050', '',],
                 segmentCount: 12,
-                segmentFractions: Array.from({length: 12}, (_, i) => i / 12),
-                marks: Array.from({length: 60}, (_, i) => i)
+                segmentFractions: Array.from({ length: 12 }, (_, i) => i / 12),
+                marks: Array.from({ length: 60 }, (_, i) => i)
             },
             decimal: {
                 segmentNames: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],
                 segmentCount: 10,
-                segmentFractions: Array.from({length: 10}, (_, i) => i / 10),
-                marks: Array.from({length: 100}, (_, i) => i)
+                segmentFractions: Array.from({ length: 10 }, (_, i) => i / 10),
+                marks: Array.from({ length: 100 }, (_, i) => i)
             },
             decade: {
                 segmentNames: ['0', '10', '20', '30', '40', '50', '60', '70', '80', '90', ''],
                 segmentCount: 10,
-                segmentFractions: Array.from({length: 10}, (_, i) => i / 10),
-                marks: Array.from({length: 20}, (_, i) => i)
+                segmentFractions: Array.from({ length: 10 }, (_, i) => i / 10),
+                marks: Array.from({ length: 20 }, (_, i) => i)
             },
             century: {
                 segmentNames: ['1200', '', '', '1500', '', '', '1800', '', '', '2100', '', '', ''],
                 segmentCount: 12,
-                segmentFractions: Array.from({length: 12}, (_, i) => i / 12),
-                marks: Array.from({length: 48}, (_, i) => i)
+                segmentFractions: Array.from({ length: 12 }, (_, i) => i / 12),
+                marks: Array.from({ length: 48 }, (_, i) => i)
             },
             millennia: {
                 segmentNames: ['0 CE', '', '', '3000', '', '', '6000 BC', '', '', '3000 BC', '', '', ''],
                 segmentCount: 12,
-                segmentFractions: Array.from({length: 12}, (_, i) => i / 12),
-                marks: Array.from({length: 60}, (_, i) => i)
+                segmentFractions: Array.from({ length: 12 }, (_, i) => i / 12),
+                marks: Array.from({ length: 60 }, (_, i) => i)
             }
         }
     };
@@ -91,7 +91,7 @@ function getCurrentPosition(type) {
         'century': getCenturyPosition,
         'millennia': getMillenniaPosition
     };
-    
+
     const positionFunction = positionFunctions[type] || positionFunctions['year'];
     return positionFunction();
 }
@@ -127,7 +127,7 @@ function drawCircle(ctx, x, y, radius, color, fill = true, opacity = 1.0) {
     return ctx;
 }
 
-function drawText(ctx, text, x, y, color, fontSize, opacity = 1.0) {    
+function drawText(ctx, text, x, y, color, fontSize, opacity = 1.0) {
     ctx.font = `${fontSize}px sans-serif`;
     ctx.fillStyle = color;
     ctx.textAlign = 'center';
@@ -150,14 +150,14 @@ function getHourPosition() {
     const hour = now.hour() % 12;
     const minute = now.minute();
     const second = now.second();
-    return ((hour * 60 + minute + second/60) / 720) * 2 * Math.PI;
+    return ((hour * 60 + minute + second / 60) / 720) * 2 * Math.PI;
 }
 
 function getMonthPosition() {
     const now = moment();
     const month = now.month(); // 0-11
     const day = now.date(); // 1-31
-    
+
     return (month + day / now.daysInMonth()) / 12 * 2 * Math.PI;
 }
 
@@ -166,10 +166,10 @@ function getYearPosition() {
     const year = now.year();
     const month = now.month();
     const day = now.date();
-    
+
     const yearsSince2000 = year - 2000;
     const fractionOfYear = (month * 30 + day) / 365;
-    
+
     return ((yearsSince2000 + fractionOfYear) / 60) * 2 * Math.PI;
 }
 
@@ -179,17 +179,17 @@ function getDecimalPosition() {
 
 function getDecadePosition() {
     const year = moment().year();
-    return (year-2000)/100 * 2 * Math.PI;
+    return (year - 2000) / 100 * 2 * Math.PI;
 }
 
 function getCenturyPosition() {
     const year = moment().year();
-    return (year-1200)/1200 * 2 * Math.PI;
+    return (year - 1200) / 1200 * 2 * Math.PI;
 }
 
 function getMillenniaPosition() {
     const year = moment().year();
-    return (year)/12000 * 2 * Math.PI;
+    return (year) / 12000 * 2 * Math.PI;
 }
 
 
@@ -212,7 +212,7 @@ function drawClockDial(ctx, config, clockSetup, type) {
     for (let segment = 0; segment < clockSetup.segmentCount; segment++) {
         drawMarks(ctx, config, clockSetup, segment);
     }
-    
+
     drawMiniMarks(ctx, config, clockSetup);
 }
 
@@ -225,7 +225,7 @@ function drawMarks(ctx, config, clockSetup, segment) {
     const innerPoint = getPointFromAngle(config.center, segmentAngle, config.radius - sizes.markLength);
     const outerPoint = getPointFromAngle(config.center, segmentAngle, config.radius - sizes.markLength * 0.5);
 
-    
+
     drawLine(
         ctx,
         innerPoint.x, innerPoint.y,
@@ -238,7 +238,7 @@ function drawMarks(ctx, config, clockSetup, segment) {
     const labelPoint = getPointFromAngle(
         config.center,
         segmentAngle,
-        config.radius - sizes.markLength - sizes.labelPadding 
+        config.radius - sizes.markLength - sizes.labelPadding
     );
 
     drawText(
@@ -253,18 +253,18 @@ function drawMarks(ctx, config, clockSetup, segment) {
 
 function drawMiniMarks(ctx, config, clockSetup) {
     const { sizes, colors, opacities } = config;
-    
+
     for (let i = 0; i < clockSetup.marks.length; i++) {
         let angle = (i / clockSetup.marks.length) * 2 * Math.PI;
-        
+
         const innerPoint = getPointFromAngle(config.center, angle, config.radius - sizes.markLength);
-        const outerPoint = getPointFromAngle(config.center, angle, config.radius - sizes.markLength *0.5) ;
-        
+        const outerPoint = getPointFromAngle(config.center, angle, config.radius - sizes.markLength * 0.5);
+
         drawLine(
             ctx,
             innerPoint.x, innerPoint.y,
             outerPoint.x, outerPoint.y,
-            colors.marks, 
+            colors.marks,
             sizes.markWidth,
             opacities.miniMarks
         );
@@ -344,7 +344,7 @@ function updateThemeColors(config) {
         hands: bodyColor,
         highlight: isDarkTheme ? '#ffc800' : '#FF530D'
     };
-    
+
     return config;
 }
 
@@ -352,12 +352,12 @@ function updateThemeColors(config) {
 function updateClock(ctx, config, clockSetup, type) {
     config = updateThemeColors(config);
     drawClockDial(ctx, config, clockSetup, type);
-    
+
     ctx.lineCap = 'round';
     const currentAngle = getCurrentPosition(type);
     drawHand(ctx, config, currentAngle);
     drawCenterDot(ctx, config);
-    
+
     requestAnimationFrame(() => updateClock(ctx, config, clockSetup, type));
 }
 
@@ -365,24 +365,24 @@ function updateClock(ctx, config, clockSetup, type) {
 function initClock(options) {
     const id = options.id || 'default';
     const type = options.type || 'year';
-    
+
     const canvas = document.getElementById(`clockCanvas-${id}`);
     const ctx = canvas.getContext('2d');
-    
+
     // Initialize config
     let config = createClockConfig();
-    
+
     // Set up clock type
     const clockSetup = getClockSetup(type);
-    
+
     // Set canvas size
     const dpr = window.devicePixelRatio || 1;
     canvas.width = canvas.height = config.radius * 2 * dpr;
     ctx.scale(dpr, dpr);
-    
+
     // Set center point
     config.center = { x: config.radius, y: config.radius };
-    
+
     // Start the clock
     updateClock(ctx, config, clockSetup, type);
 }

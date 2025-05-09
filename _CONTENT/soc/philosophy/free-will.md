@@ -1,6 +1,7 @@
 ---
 tags: psy
 ---
+
 Many factors shape us, culture, society, geography, zeitgeist, ...  
 
 "What we call human nature is mostly culture"  _Margaret Mead_ 
