@@ -16,20 +16,20 @@ function createClockConfig() {
         // Opacities
         opacities: {
             marks: 1,
-            miniMarks: 0.5,
+            miniMarks: 0.4,
             labels: 0.8,
-            dial: 0.1
+            dial: 0
         },
         
         // Sizes
         sizes: {
-            markWidth: 1.2,
-            markLength: 24,
-            handWidth: 1.2,
+            markWidth: 1.6,
+            markLength: 12,
+            handWidth: 1.6,
             handLength: 0.82,
             centerDotSize: 3,
             handCircleRadius: 0.016,
-            labelFontSize: 10,
+            labelFontSize: 12,
             labelPadding: 20
         },
         
@@ -225,6 +225,7 @@ function drawMarks(ctx, config, clockSetup, segment) {
     const innerPoint = getPointFromAngle(config.center, segmentAngle, config.radius - sizes.markLength);
     const outerPoint = getPointFromAngle(config.center, segmentAngle, config.radius - sizes.markLength * 0.5);
 
+    
     drawLine(
         ctx,
         innerPoint.x, innerPoint.y,
@@ -256,8 +257,8 @@ function drawMiniMarks(ctx, config, clockSetup) {
     for (let i = 0; i < clockSetup.marks.length; i++) {
         let angle = (i / clockSetup.marks.length) * 2 * Math.PI;
         
-        const innerPoint = getPointFromAngle(config.center, angle, config.radius - sizes.markLength * 0.75);
-        const outerPoint = getPointFromAngle(config.center, angle, config.radius - sizes.markLength);
+        const innerPoint = getPointFromAngle(config.center, angle, config.radius - sizes.markLength);
+        const outerPoint = getPointFromAngle(config.center, angle, config.radius - sizes.markLength *0.5) ;
         
         drawLine(
             ctx,
@@ -302,7 +303,7 @@ function drawHand(ctx, config, angle) {
         handPoint.x, handPoint.y,
         handEnd.x, handEnd.y,
         colors.highlight,
-        sizes.handWidth * 0.8,
+        sizes.handWidth * 0.9,
         1.0
     );
 
