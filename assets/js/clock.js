@@ -26,7 +26,7 @@ function createClockConfig() {
             markWidth: 1.6,
             markLength: 12,
             handWidth: 1.6,
-            handLength: 0.82,
+            handLength: 0.9,
             centerDotSize: 3,
             handCircleRadius: 0.016,
             labelFontSize: 12,
