@@ -17,3 +17,15 @@
 
 <https://sive.rs/book>
 
+
+---
+
+[It's Nicky Case! (ncase.me)](https://ncase.me/)
+
+[Explorable Explanations](https://explorabl.es/)
+
+[Archives - Bartosz Ciechanowski](https://ciechanow.ski/archives/)
+
+[wizard zines](https://wizardzines.com/)
+
+<https://www.tylermileslockett.com/>
