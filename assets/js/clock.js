@@ -26,7 +26,7 @@ function createClockConfig() {
             markWidth: 1.6,
             markLength: 12,
             handWidth: 1.6,
-            handLength: 0.9,
+            handLength: 0.96,
             centerDotSize: 3,
             handCircleRadius: 0.016,
             labelFontSize: 12,
@@ -72,7 +72,7 @@ function createClockConfig() {
                 marks: Array.from({ length: 48 }, (_, i) => i)
             },
             millennia: {
-                segmentNames: ['0 CE', '', '', '3000', '', '', '6000 BC', '', '', '3000 BC', '', '', ''],
+                segmentNames: ['', '', '', '', '', '', '', '', '', '', '', '', ''],
                 segmentCount: 12,
                 segmentFractions: Array.from({ length: 12 }, (_, i) => i / 12),
                 marks: Array.from({ length: 60 }, (_, i) => i)
@@ -178,13 +178,18 @@ function getDecimalPosition() {
 }
 
 function getDecadePosition() {
-    const year = moment().year();
-    return (year - 2000) / 100 * 2 * Math.PI;
+    const now = moment();
+    const year = now.year();
+    const month = now.month();
+
+    return (year + month/12 - 2000) / 100 * 2 * Math.PI;
 }
 
 function getCenturyPosition() {
-    const year = moment().year();
-    return (year - 1200) / 1200 * 2 * Math.PI;
+    const now = moment();
+    const year = now.year();
+    const month = now.month();
+    return (year + month/12 - 1200) / 1200 * 2 * Math.PI;
 }
 
 function getMillenniaPosition() {
@@ -303,7 +308,7 @@ function drawHand(ctx, config, angle) {
         handPoint.x, handPoint.y,
         handEnd.x, handEnd.y,
         colors.highlight,
-        sizes.handWidth * 0.9,
+        sizes.handWidth * 0.6,
         1.0
     );
 
