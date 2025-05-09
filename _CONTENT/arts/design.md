@@ -1,6 +1,7 @@
 ---
 ---
 
+
 Design is really an act of communication, which means having a deep understanding of the person with whom the designer is communicating.
 
 Leverage the constraints 
@@ -47,4 +48,5 @@ Design can be evil [[hijacked-minds]]
 [Archives - Bartosz Ciechanowski](https://ciechanow.ski/archives/)
 
 [Tag: design - Sketchplanations](https://sketchplanations.com/tags/design)
+
 

@@ -3,14 +3,17 @@
 
 Be predictable
 
-**Lookout scan:** move your head, focus on 3 different points: close, mid, far
-
 Always look where you are going
 
-No phone
+No phone, no distractions
 
-no distractions
+Lookout scan:
+- move your head
+- focus on 3 different points: close, mid, far
+
+---
 
 top quality tyres
 
 dash cam 
+

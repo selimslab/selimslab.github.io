@@ -2,22 +2,29 @@
 ---
 
 
-- rain
+- water
+- toilet
+- food
+- sleep
+
+<br>
+
+- rain 
 - sun
-- cold
+
+<br>
+
+- cold 
 - hot
 
-- hunger
-- thirst
-  
-- bathroom
-- toilet 
+<br>
 
 - navigation
 - communication 
-
 - darkness
-- sickness
 
+<br>
+
+- sickness
 - accidents
 

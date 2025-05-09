@@ -12,3 +12,5 @@ We live in a world built mostly for cars
 ![](/assets/static/img/pollution-localized.jpeg)
 
 ![](/assets/static/img/cities-in-an-hours-time.jpeg)
+
+[[design]]

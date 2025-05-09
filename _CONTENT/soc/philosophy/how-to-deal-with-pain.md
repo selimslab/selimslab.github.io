@@ -1,6 +1,5 @@
 ---
 title: How to deal with Extreme Physical Pain
-tags: essais
 ---
 
 from <https://www.hanselman.com/blog/how-to-deal-with-extreme-physical-pain>
