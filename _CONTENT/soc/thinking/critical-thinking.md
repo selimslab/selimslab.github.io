@@ -13,4 +13,3 @@ Probabilities
 Suspend judgment 
 
 Read, write, discuss, question
-

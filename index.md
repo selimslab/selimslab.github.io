@@ -10,11 +10,10 @@ layout: delta
 <h2>home</h2>
 
 
-- [Art](/art/)
+- [Arts](/arts/)
 - [Engineering](/engineering/)
 - [Humanities & Social Sciences](/soc/)
-- [Practical Skills](/skill/)
-- [Science](/science/)
+- [Math & Science](/science/)
 - [Tools](/tools/)
 
 
