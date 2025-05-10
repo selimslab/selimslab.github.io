@@ -16,19 +16,19 @@ function createClockConfig() {
         // Opacities
         opacities: {
             marks: 1,
-            miniMarks: 0.4,
-            labels: 0.8,
+            miniMarks: 0.48,
+            labels: 1,
             dial: 0
         },
 
         // Sizes
         sizes: {
-            markWidth: 1.6,
-            markLength: 12,
-            handWidth: 1.6,
-            handLength: 0.96,
+            markWidth: 1.44,
+            markLength: 14.4,
+            handWidth: 1.44,
+            handLength: 0.95,
             centerDotSize: 3,
-            handCircleRadius: 0.016,
+            handCircleRadius: 0.0144,
             labelFontSize: 12,
             labelPadding: 20
         },
@@ -280,7 +280,7 @@ function drawHand(ctx, config, angle) {
     const { sizes, colors } = config;
     const handLength = config.radius * sizes.handLength;
 
-    const tip = 0.92;
+    const tip = 0.9;
     const handStart = getPointFromAngle(config.center, angle, handLength * -0.1);
     const handPoint = getPointFromAngle(config.center, angle, handLength * tip);
     const handEnd = getPointFromAngle(config.center, angle, handLength);
@@ -308,7 +308,7 @@ function drawHand(ctx, config, angle) {
         handPoint.x, handPoint.y,
         handEnd.x, handEnd.y,
         colors.highlight,
-        sizes.handWidth * 0.6,
+        sizes.handWidth * 0.5,
         1.0
     );
 
