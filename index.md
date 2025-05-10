@@ -12,8 +12,9 @@ layout: delta
 
 - [Arts](/arts/)
 - [Engineering](/engineering/)
-- [Humanities & Social Sciences](/soc/)
-- [Math & Science](/science/)
+- [Social Sciences](/soc/)
+- [Math](/math)
+- [Science](/science/)
 - [Tools](/tools/)
 
 

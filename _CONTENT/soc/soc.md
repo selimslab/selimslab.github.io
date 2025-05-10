@@ -1,3 +1,3 @@
 ---
-title: Humanities & Social Sciences
+title: Social Sciences
 ---
