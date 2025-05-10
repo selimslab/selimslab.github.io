@@ -12,12 +12,9 @@ layout: delta
 
 - [Arts](/arts/)
 - [Engineering](/engineering/)
-- [Social Sciences](/soc/)
 - [Math](/math)
-- [Science](/science/)
+- [Sciences](/sciences/)
 - [Tools](/tools/)
-
-
 
 
 {% include offline.html  %}

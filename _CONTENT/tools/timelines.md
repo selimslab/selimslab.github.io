@@ -22,7 +22,7 @@ Homo sapiens appeared in the last 24 hours
 Industrial revolution and world wars happened in the last 1 minute
 
 
-<div class="columns mono is-size-7">
+<div class="columns mono">
 
 <div class="column is-5 is-mobile-6 has-text-centered">
 
