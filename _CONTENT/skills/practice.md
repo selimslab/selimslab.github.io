@@ -1,6 +1,8 @@
 ---
 ---
 
+Arete, excellence, the realization of potential, through Praxis 
+
 I need deliberate, effortful practice that challenges me and pushes my limits 
 
 My ego prevents me from getting better. It says "you are already good enough, why bother?" 

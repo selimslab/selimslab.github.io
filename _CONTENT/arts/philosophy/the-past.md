@@ -1,4 +1,5 @@
 ---
+tags: time
 ---
 
 Many inputs come together and create an outcome, it's not all my fault. The past had to be this way given all the factors. 

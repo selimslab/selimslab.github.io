@@ -43,3 +43,6 @@ I hate this process but I'm going to learn from it. I'm learning and listening t
 The pain is important to acknowledge because this pain is gonna make me better and stronger. But it still hurts. Here we go.
 
 I hope that you, Dear Reader, are not in pain. But if you are, I hope it passes and that you come out better on the other side. I'm going to use this Bad Input for Good.
+
+
+[[hard-times]]

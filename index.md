@@ -14,6 +14,7 @@ layout: delta
 - [Engineering](/engineering/)
 - [Math](/math)
 - [Sciences](/sciences/)
+- [Skills](/skills)
 - [Tools](/tools/)
 
 

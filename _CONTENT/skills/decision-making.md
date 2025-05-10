@@ -3,7 +3,6 @@ title: Decision Making
 tags: choice
 ---
 
-Read, write, discuss, question
 - Can I prevent a problem before it happens?
 - How do I look at it? Can I try a new perspective? What do I see? 
 - Should I say it? in this tone? with these words? 
@@ -19,6 +18,7 @@ Read, write, discuss, question
 - Nature does not hurry, yet everything is accomplished
 - How realistic is to expect perfect decisions? As long as I follow a reasonable process, do I have anything to worry about?
 - How would I feel about this decision in a day? in a week, month, year? 
+- Read, write, discuss, question
 
 
 [[cognitive-biases]]

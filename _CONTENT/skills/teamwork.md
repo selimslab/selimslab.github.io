@@ -1,5 +1,4 @@
 ---
-title: Teamwork
 ---
 
 The way to do anything great

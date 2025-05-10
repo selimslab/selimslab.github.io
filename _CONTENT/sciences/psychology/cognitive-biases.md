@@ -1,5 +1,6 @@
 ---
 title: Cognitive Biases
+tags: choice
 ---
 
 

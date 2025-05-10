@@ -10,17 +10,12 @@ The strong do what they can, and the weak suffer what they must. Because the wea
 
 "The most dangerous creation of any society is the man who has nothing to lose." - James Baldwin
 
-"People whose power is real fulfill their obligations;
-people whose power is hollow insist on their claims.”
-
 "Insight sees the insignificant.
 Strength knows how to yield."
 
 "Strike the shepherd and the sheep will scatter”
 
 "Despise The Free Lunch”
-
-"Our lives begin to end the day we become silent about things that matter.”
 
 "Violence is the last refuge of the incompetent.”
 

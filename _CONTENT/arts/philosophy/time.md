@@ -1,7 +1,6 @@
 ---
 ---
 
-
 "Do you think that I count the days? There is only one day left, always starting over: it is given to us at dawn and taken away from us at dusk.”
 ― Jean-Paul Sartre
 
@@ -21,3 +20,4 @@ Is death really in the future? Whatever time has passed is already gone
 I only have today. How can I lose something that's not mine?
 
 Non fui, fui, non sum, non curo ("I was not; I have been; I am not; I do not mind.")
+
