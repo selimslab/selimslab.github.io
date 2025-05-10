@@ -28,12 +28,12 @@
 
 .moon {
     background-image: url(/assets/static/solar/2k_moon.jpg);
-    box-shadow: 0 0 15px 5px #4367ad;
+    box-shadow: 0 0 12px 4px #9b9ea3;
 }
 
 .sun {
     background-image: url(/assets/static/solar/2k_sun_small.jpg);
-    box-shadow: 0 0 15px 5px #f7a956;
+    box-shadow: 0 0 12px 4px #f4cba0;
 }
 
 /* Common styles for earth layers */
