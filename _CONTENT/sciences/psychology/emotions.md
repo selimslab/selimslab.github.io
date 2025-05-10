@@ -14,11 +14,11 @@ How I feel is like weather, I may not change it but I can choose my own actions
 
 ## Anger 
 
-What's surprising?
-It clouds judgment. Anger is the mind-killer. 
-Use it to power actions, not to stress yourself 
-The calm one is in control 
+There's often some surprise under the anger. What's surprising here? 
 
+Can I use my energy for something better? Is it worth stressing myself?
+
+It can't disturb me unless I assign it importance 
 
 "Everything that irritates us about others can lead us to an understanding of ourselves.”
 ― Carl Gustav Jung
@@ -48,9 +48,6 @@ Doing what is right even if you are afraid
 Most things are not personal, not about you  
 
 I make mistakes and that's ok 
-
-Treat people who know less than you with respect and patience
-
 
 ## Empathy 
 
