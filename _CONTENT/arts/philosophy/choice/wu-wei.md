@@ -1,5 +1,5 @@
 ---
-title: Do without doing - Wu Wei 無爲
+title: Wu Wei 無爲
 ---
 
 Actionless action 

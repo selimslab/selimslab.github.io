@@ -1,6 +1,7 @@
 ---
 ---
 
+
 "Do you think that I count the days? There is only one day left, always starting over: it is given to us at dawn and taken away from us at dusk.”
 ― Jean-Paul Sartre
 
@@ -17,5 +18,6 @@ The early years seem so long because they are full of firsts.  I can slow down t
 
 Is death really in the future? Whatever time has passed is already gone
 
-I can't lose what I don't have. I only have today. How can I lose something that's not mine?
+I only have today. How can I lose something that's not mine?
 
+Non fui, fui, non sum, non curo ("I was not; I have been; I am not; I do not mind.")

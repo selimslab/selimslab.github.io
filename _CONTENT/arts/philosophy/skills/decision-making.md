@@ -1,8 +1,9 @@
 ---
 title: Decision Making 
+tags: choice
 ---
 
-
+Read, write, discuss, question
 - Can I prevent a problem before it happens?
 - How do I look at it? Can I try a new perspective? What do I see? 
 - Should I say it? in this tone? with these words? 
