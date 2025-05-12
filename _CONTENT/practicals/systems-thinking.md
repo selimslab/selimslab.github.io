@@ -20,7 +20,7 @@ Before a complexity threshold, there is convergence. For example,
 After the threshold, a system enters into the land of chaos. A minor change can create enormous differences. There is no balance point to arrive  
 
 
-## Key Concepts 
+## Concepts 
 
 Feedback loops 
 
