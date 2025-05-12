@@ -9,7 +9,6 @@ layout: delta
 
 <h2>home</h2>
 
-
 - [Arts](/arts/)
 - [Engineering](/engineering/)
 - [Fields](/fields/)
