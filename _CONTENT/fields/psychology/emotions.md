@@ -1,5 +1,4 @@
 ---
-tags: skills
 ---
 
 Feelings come from thoughts, not external sources
