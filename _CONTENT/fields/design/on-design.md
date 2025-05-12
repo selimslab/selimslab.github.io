@@ -1,7 +1,5 @@
 ---
-tags: skills
 ---
-
 
 Design is really an act of communication, which means having a deep understanding of the person with whom the designer is communicating.
 
