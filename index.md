@@ -12,9 +12,8 @@ layout: delta
 
 - [Arts](/arts/)
 - [Engineering](/engineering/)
-- [Math](/math)
-- [Sciences](/sciences/)
-- [Skills](/skills)
+- [Fields](/fields/)
+- [Practicals](/practicals)
 - [Tools](/tools/)
 
 
