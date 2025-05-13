@@ -7,8 +7,7 @@ layout: delta
 <p><a href='/calendar/' id="current-date"></a></p>
 </div>
 
-<h2>home</h2>
-
+**home**
 - [Arts](/arts/)
 - [Engineering](/engineering/)
 - [Fields](/fields/)
