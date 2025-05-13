@@ -1,6 +1,6 @@
 ---
-title: Timelines
-tags: time 
+title: If the Earth is a 45 years old
+tags: phil
 --- 
 
 The earth is about 4.5 billion years old. Let's take it to human-scale. 
