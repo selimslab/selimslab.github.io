@@ -127,7 +127,7 @@ function drawCircle(ctx, x, y, radius, color, fill = true, opacity = 1.0) {
 }
 
 function drawText(ctx, text, x, y, color, fontSize, opacity = 1.0) {
-    ctx.font = `${fontSize}px "Inconsolata", monospace, sans-serif`;
+    ctx.font = `${fontSize}px sans-serif`;
     ctx.fillStyle = color;
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
