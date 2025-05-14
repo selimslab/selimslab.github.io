@@ -1,7 +1,7 @@
 require 'json'
 require 'pp'
 
-DEBUG = true
+DEBUG = false
 ROOT_PATH = "./_CONTENT".freeze
 ASSETS_PATH = "./assets".freeze
 STATIC_PATH = "#{ASSETS_PATH}/static".freeze
@@ -33,7 +33,6 @@ class SiteGenerator < Jekyll::Generator
     graph = generate_graph(site)
     site.data["link_count"] = calculate_link_count(site, graph)
 
-    update_ideas(site)
     update_artworks(site)
 
     urls = site.documents.map { |doc| doc.url }.reject { |url| url.start_with?('.') }
@@ -67,19 +66,6 @@ class SiteGenerator < Jekyll::Generator
     write_json("#{DEBUG_PATH}/tags.json", tags_data)
   end
 
-  def update_ideas(site)
-    # Load ideas from JSON file
-    ideas = JSON.parse(File.read("#{DATA_PATH}/ideas.json"))
-    
-    # Shuffle ideas in debug mode for testing
-    ideas.shuffle!(random: Random.new(ideas.length)) if DEBUG
-    
-    # Write updated ideas back to JSON file
-    write_json("#{DATA_PATH}/ideas.json", ideas)
-    
-    # Make ideas available in site data
-    site.data["ideas"] = ideas
-  end
 
   def update_artworks(site)
     # Get artwork data from image files

@@ -7,12 +7,17 @@ layout: delta
 <p><a href='/calendar/' id="current-date"></a></p>
 </div>
 
-## home
-- [Arts](/arts/)
-- [Engineering](/engineering/)
-- [Fields](/fields/)
-- [Practicals](/practicals)
-- [Tools](/tools/)
+<br>
+
+[Arts](/arts/)
+
+[Engineering](/engineering/)
+
+[Fields](/fields/)
+
+[Practicals](/practicals)
+
+[Tools](/tools/)
 
 
 {% include offline.html  %}
