@@ -1,8 +1,8 @@
 
 
 <br>
-<a class="machine" id="ideaMachine" title="Idea Machine" tabindex="0" onclick="setNextIdea();">🎰
-</a>
+<!-- <a class="machine" id="ideaMachine" title="Idea Machine" tabindex="0" onclick="setNextIdea();">🎰
+</a> -->
 
 <p id="random_idea" class="idea" onclick="setNextIdea();"></p>
 
@@ -26,15 +26,13 @@
 <script>
 
   const setNextIdea = async () => {
-    let machine = document.getElementById("ideaMachine");
-    animate(machine, "shakey");
     document.getElementById("random_idea").innerHTML = await getNextIdea();
   }
 
   document.addEventListener('DOMContentLoaded', async () => {
-    let machine = document.getElementById("ideaMachine");
+    let idea = document.getElementById("random_idea");
     
-    machine.addEventListener('keydown', function (e) {
+    idea.addEventListener('keydown', function (e) {
       if (e.key === 'Enter') {
         setNextIdea();
       }
