@@ -11,7 +11,8 @@ function getSystemTheme() {
 }
 
 function setTheme() {
-    const theme = localStorage.getItem(THEME) || getSystemTheme();
+    // const theme = localStorage.getItem(THEME) || getSystemTheme();
+    const theme = THEME_DARK;
     if (theme === THEME_LIGHT) {
         document.documentElement.setAttribute(DATA_THEME, THEME_LIGHT);
         if (themeToggle) {
