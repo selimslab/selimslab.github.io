@@ -15,9 +15,10 @@ layout: delta
 
 [Fields](/fields/)
 
-[Practicals](/practicals)
+[Skills](/skills/)
 
 [Tools](/tools/)
+
 
 
 {% include offline.html  %}

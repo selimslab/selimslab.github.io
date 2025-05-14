@@ -1,5 +1,4 @@
 ---
-tags: practicals
 layout: article
 ---
 
