@@ -1,4 +1,4 @@
 ---
 ---
 
-<https://araguler.net/istanbulphotos.html>
+[World](https://araguler.net/aragulerworldphotos.html)

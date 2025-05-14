@@ -2,4 +2,4 @@
 layout: dir
 ---
 
-- {% include random-idea.html %}
+{% include random-idea.html %}
