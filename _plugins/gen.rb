@@ -1,7 +1,7 @@
 require 'json'
 require 'pp'
 
-DEBUG = false
+DEBUG = true
 ROOT_PATH = "./_CONTENT".freeze
 ASSETS_PATH = "./assets".freeze
 STATIC_PATH = "#{ASSETS_PATH}/static".freeze

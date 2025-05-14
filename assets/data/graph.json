@@ -5,37 +5,25 @@
       "group": 0,
       "name": "Root",
       "links": [
-        "/art",
-        "/blog",
+        "/arts",
         "/engineering",
-        "/exp",
-        "/ideas",
-        "/lists",
+        "/fields",
         "/misc",
-        "/science"
+        "/practicals",
+        "/tools"
       ]
     },
     {
-      "id": "/art",
+      "id": "/arts",
       "group": 1,
-      "name": "Art",
+      "name": "Arts",
       "links": [
         "/root",
         "/paintings",
         "/photography",
-        "/design",
-        "/edebiyat",
-        "/literature",
-        "/poetry",
-        "/siir"
-      ]
-    },
-    {
-      "id": "/blog",
-      "group": 1,
-      "name": "Blog",
-      "links": [
-        "/root"
+        "/cinema",
+        "/language",
+        "/philosophy"
       ]
     },
     {
@@ -45,76 +33,36 @@
       "links": [
         "/root",
         "/algorithms",
-        "/computer-networks",
         "/data-structures",
         "/databases",
         "/distributed-systems",
-        "/machine-learning",
-        "/operating-systems",
+        "/ml",
+        "/net",
+        "/os",
         "/programming",
         "/security",
         "/software-development",
-        "/system-design"
+        "/system-design",
+        "/practicals"
       ]
     },
     {
-      "id": "/exp",
+      "id": "/fields",
       "group": 1,
-      "name": "Experiments",
+      "name": "Fields",
       "links": [
         "/root",
-        "/calendar",
-        "/clocks",
-        "/earth",
-        "/graph-3d",
-        "/site-stats",
-        "/timelines",
-        "/typewriter",
-        "/paintings",
-        "/tools"
-      ]
-    },
-    {
-      "id": "/ideas",
-      "group": 1,
-      "name": "Ideas",
-      "links": [
-        "/root",
-        "/communication",
-        "/drawing",
-        "/essais",
-        "/get-things-done",
-        "/mental-models",
-        "/practice",
-        "/problem-solving",
-        "/reasoning",
-        "/systems-thinking",
-        "/take-a-walk",
-        "/teamwork",
-        "/the-past",
-        "/time",
-        "/work",
-        "/choice",
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/lists",
-      "group": 1,
-      "name": "Lists",
-      "links": [
-        "/root",
-        "/blogs",
-        "/datasets",
-        "/documentaries",
-        "/keyboard-shortcuts",
-        "/movies",
-        "/quotes",
-        "/tools",
-        "/checklists",
-        "/classics",
-        "/essais",
-        "/timelines"
+        "/design",
+        "/economics",
+        "/history",
+        "/math",
+        "/neuroscience",
+        "/philosophy",
+        "/physics",
+        "/politics",
+        "/psychology",
+        "/sociology",
+        "/space"
       ]
     },
     {
@@ -123,29 +71,47 @@
       "name": "Misc",
       "links": [
         "/root",
-        "/graph-2d",
-        "/llm-prompt",
-        "/llm",
+        "/exp",
         "/pub",
         "/resume",
-        "/short-prompt"
+        "/graphs"
       ]
     },
     {
-      "id": "/science",
+      "id": "/practicals",
       "group": 1,
-      "name": "Science",
+      "name": "Practicals",
       "links": [
         "/root",
-        "/economics",
-        "/history",
-        "/math",
-        "/neuroscience",
-        "/physics",
-        "/politics",
-        "/psychology",
-        "/sociology",
-        "/reasoning"
+        "/critical-thinking",
+        "/decision-making",
+        "/get-things-done",
+        "/learning",
+        "/parenting",
+        "/practice",
+        "/problem-solving",
+        "/systems-thinking",
+        "/take-a-walk",
+        "/teamwork",
+        "/communication",
+        "/design",
+        "/engineering",
+        "/programming",
+        "/typewriter"
+      ]
+    },
+    {
+      "id": "/tools",
+      "group": 1,
+      "name": "Tools",
+      "links": [
+        "/root",
+        "/keyboard-shortcuts",
+        "/links",
+        "/site-stats",
+        "/typewriter",
+        "/checklists",
+        "/prompts"
       ]
     },
     {
@@ -153,8 +119,7 @@
       "group": 2,
       "name": "Paintings",
       "links": [
-        "/art",
-        "/exp"
+        "/arts"
       ]
     },
     {
@@ -162,98 +127,49 @@
       "group": 2,
       "name": "Photography",
       "links": [
-        "/art"
+        "/arts"
       ]
     },
     {
-      "id": "/design",
+      "id": "/cinema",
       "group": 2,
-      "name": "Design",
+      "name": "Cinema",
       "links": [
-        "/art",
-        "/design-ideas",
-        "/urban-planning",
-        "/ux"
+        "/arts",
+        "/documentaries",
+        "/films"
       ]
     },
     {
-      "id": "/edebiyat",
+      "id": "/language",
       "group": 2,
-      "name": "Edebiyat",
+      "name": "Language",
       "links": [
-        "/art",
-        "/atasozleri",
-        "/bilge-kagan",
-        "/dede-korkut",
-        "/ince-memed",
-        "/mutlu-olma-sanati",
-        "/puslu-kitalar-atlasi"
-      ]
-    },
-    {
-      "id": "/literature",
-      "group": 2,
-      "name": "Literature",
-      "links": [
-        "/art",
-        "/authors",
-        "/cien-anos-de-soledad",
-        "/classics",
+        "/arts",
         "/latin",
-        "/metaphors"
+        "/literature",
+        "/poetry",
+        "/siir",
+        "/turkce"
       ]
     },
     {
-      "id": "/poetry",
+      "id": "/philosophy",
       "group": 2,
-      "name": "Poetry",
+      "name": "Philosophy",
       "links": [
-        "/art",
-        "/brecht",
-        "/deep-roots",
-        "/do-not-go-gentle",
-        "/find-time-to-just-be",
-        "/fire-and-ice",
-        "/haikus",
-        "/harlem",
-        "/if",
-        "/lightly-child",
-        "/little-boy-old-man",
-        "/mother-to-son",
-        "/one-art",
-        "/one-ring",
-        "/ozymandias",
-        "/saturday",
-        "/soft-rains",
+        "/arts",
+        "/fields",
+        "/life",
+        "/the-past",
+        "/time",
+        "/career",
+        "/choice",
+        "/people",
+        "/timelines",
         "/tao",
-        "/the-red-wheelbarrow",
-        "/the-road-not-taken",
-        "/the-second-coming",
-        "/this-be-the-verse",
-        "/to-be-or-not",
-        "/uncut-wood",
-        "/we-wear-the-mask",
-        "/wei-wu-wei",
-        "/wind-and-rain"
-      ]
-    },
-    {
-      "id": "/siir",
-      "group": 2,
-      "name": "Siir",
-      "links": [
-        "/art",
-        "/abbas",
-        "/alper-tunga",
-        "/asik-veysel",
-        "/bulent-ecevit",
-        "/can-yucel",
-        "/edip-cansever",
-        "/fuzuli",
-        "/melih-cevdet",
-        "/nazim",
-        "/orhan-veli",
-        "/yunus-emre"
+        "/politics",
+        "/the-art-of-war"
       ]
     },
     {
@@ -262,29 +178,20 @@
       "name": "Algorithms",
       "links": [
         "/engineering",
+        "/100q",
         "/backtrack",
         "/bit",
-        "/greedy",
         "/orderbook",
         "/parallel-programming",
         "/producer-consumer-problem",
-        "/q100",
         "/sort",
         "/subsets",
         "/dynamic",
+        "/greedy",
         "/pointers",
         "/search",
         "/tree",
         "/bayes"
-      ]
-    },
-    {
-      "id": "/computer-networks",
-      "group": 2,
-      "name": "Computer Networks",
-      "links": [
-        "/engineering",
-        "/tcp-ip"
       ]
     },
     {
@@ -293,15 +200,12 @@
       "name": "Data Structures",
       "links": [
         "/engineering",
-        "/bloom-filters",
         "/hash-table",
-        "/hyperloglog",
         "/linked-list",
-        "/probabilistic",
         "/sets",
-        "/skiplists",
         "/array",
         "/graph",
+        "/probabilistic",
         "/queue",
         "/stack",
         "/string",
@@ -348,16 +252,28 @@
       ]
     },
     {
-      "id": "/machine-learning",
+      "id": "/ml",
       "group": 2,
       "name": "Machine Learning",
       "links": [
         "/engineering",
+        "/attention",
+        "/deep-learning",
+        "/diffusion",
         "/reinforcement-learning"
       ]
     },
     {
-      "id": "/operating-systems",
+      "id": "/net",
+      "group": 2,
+      "name": "Networks",
+      "links": [
+        "/engineering",
+        "/tcp-ip"
+      ]
+    },
+    {
+      "id": "/os",
       "group": 2,
       "name": "Operating Systems",
       "links": [
@@ -380,7 +296,8 @@
         "/the-tao-of-programming",
         "/unicode",
         "/programming-languages",
-        "/projects"
+        "/projects",
+        "/practicals"
       ]
     },
     {
@@ -428,339 +345,159 @@
         "/hacker-laws",
         "/minimal-tech",
         "/system-design-basics",
-        "/accessibility",
         "/distributed-systems",
-        "/systems-thinking"
+        "/accessibility",
+        "/systems-thinking",
+        "/design"
       ]
     },
     {
-      "id": "/calendar",
+      "id": "/design",
       "group": 2,
-      "name": "Calendar",
+      "name": "Design",
       "links": [
-        "/exp",
-        "/time"
+        "/fields",
+        "/on-design",
+        "/urban-planning",
+        "/ux",
+        "/system-design",
+        "/practicals"
       ]
     },
     {
-      "id": "/clocks",
+      "id": "/economics",
       "group": 2,
-      "name": "Clocks ⏱️",
+      "name": "Economics",
       "links": [
-        "/exp",
-        "/time"
+        "/fields",
+        "/price-vs-value"
       ]
     },
     {
-      "id": "/earth",
+      "id": "/history",
       "group": 2,
-      "name": "Earth",
+      "name": "History",
       "links": [
-        "/exp"
-      ]
-    },
-    {
-      "id": "/graph-3d",
-      "group": 2,
-      "name": "3D graph of all pages",
-      "links": [
-        "/exp",
-        "/site-stats"
-      ]
-    },
-    {
-      "id": "/site-stats",
-      "group": 2,
-      "name": "Site Stats",
-      "links": [
-        "/exp",
-        "/graph-3d"
-      ]
-    },
-    {
-      "id": "/timelines",
-      "group": 2,
-      "name": "Timelines",
-      "links": [
-        "/exp",
-        "/climate-change",
-        "/time",
-        "/lists",
-        "/history"
-      ]
-    },
-    {
-      "id": "/typewriter",
-      "group": 2,
-      "name": "Typewriter",
-      "links": [
-        "/exp"
-      ]
-    },
-    {
-      "id": "/communication",
-      "group": 2,
-      "name": "Communication",
-      "links": [
-        "/ideas"
-      ]
-    },
-    {
-      "id": "/drawing",
-      "group": 2,
-      "name": "Drawing",
-      "links": [
-        "/ideas"
-      ]
-    },
-    {
-      "id": "/essais",
-      "group": 2,
-      "name": "Essais",
-      "links": [
-        "/ideas",
-        "/be-good-to-each-other-and-yourself",
-        "/how-to-deal-with-pain",
-        "/who-goes-nazi",
-        "/being-poor",
-        "/lists"
-      ]
-    },
-    {
-      "id": "/get-things-done",
-      "group": 2,
-      "name": "Get Things Done",
-      "links": [
-        "/ideas"
-      ]
-    },
-    {
-      "id": "/mental-models",
-      "group": 2,
-      "name": "Mental Models",
-      "links": [
-        "/ideas"
-      ]
-    },
-    {
-      "id": "/practice",
-      "group": 2,
-      "name": "Practice",
-      "links": [
-        "/ideas"
-      ]
-    },
-    {
-      "id": "/problem-solving",
-      "group": 2,
-      "name": "Problem Solving",
-      "links": [
-        "/ideas"
-      ]
-    },
-    {
-      "id": "/reasoning",
-      "group": 2,
-      "name": "Reasoning",
-      "links": [
-        "/ideas",
-        "/decision-making",
-        "/science"
-      ]
-    },
-    {
-      "id": "/systems-thinking",
-      "group": 2,
-      "name": "Systems Thinking",
-      "links": [
-        "/ideas",
-        "/system-design"
-      ]
-    },
-    {
-      "id": "/take-a-walk",
-      "group": 2,
-      "name": "Take a walk",
-      "links": [
-        "/ideas"
-      ]
-    },
-    {
-      "id": "/teamwork",
-      "group": 2,
-      "name": "Teamwork",
-      "links": [
-        "/ideas"
-      ]
-    },
-    {
-      "id": "/the-past",
-      "group": 2,
-      "name": "The Past",
-      "links": [
-        "/ideas"
-      ]
-    },
-    {
-      "id": "/time",
-      "group": 2,
-      "name": "Time",
-      "links": [
-        "/ideas",
-        "/calendar",
-        "/clocks",
-        "/hard-times",
+        "/fields",
+        "/agriculture",
+        "/rome",
         "/timelines",
-        "/history"
+        "/time"
       ]
     },
     {
-      "id": "/work",
+      "id": "/math",
       "group": 2,
-      "name": "Work",
+      "name": "Math",
       "links": [
-        "/ideas"
+        "/fields",
+        "/bayes",
+        "/counter-intuitive-math",
+        "/discrete-vs-continuous",
+        "/equations-that-changed-the-world",
+        "/fourier-transform",
+        "/laplace-transform",
+        "/logic-proofs",
+        "/math-links",
+        "/normal-distribution",
+        "/probability-and-statistics",
+        "/local-maximum"
       ]
     },
     {
-      "id": "/choice",
+      "id": "/neuroscience",
       "group": 2,
-      "name": "Choice",
+      "name": "Neuroscience",
       "links": [
-        "/ideas",
-        "/be-good-to-each-other-and-yourself",
-        "/decision-making",
-        "/do-without-doing",
-        "/exercise",
-        "/forgiving",
+        "/fields",
+        "/cortex",
+        "/depression",
+        "/psychopathy"
+      ]
+    },
+    {
+      "id": "/physics",
+      "group": 2,
+      "name": "Physics",
+      "links": [
+        "/fields",
+        "/classical-physics",
+        "/feynman-lectures",
+        "/inertia",
+        "/maxwell-equations"
+      ]
+    },
+    {
+      "id": "/politics",
+      "group": 2,
+      "name": "Politics",
+      "links": [
+        "/fields",
+        "/climate-change",
+        "/down-and-around",
+        "/noam-chomsky",
+        "/obedience",
+        "/on-politics",
+        "/social-change",
+        "/the-art-of-war",
+        "/who-goes-nazi",
+        "/philosophy",
+        "/tao"
+      ]
+    },
+    {
+      "id": "/psychology",
+      "group": 2,
+      "name": "Psychology",
+      "links": [
+        "/fields",
+        "/cognitive-biases",
+        "/emotions",
+        "/manipulation",
+        "/procrastination",
+        "/spot-a-liar",
+        "/stress",
+        "/teens",
         "/free-will",
-        "/friends",
-        "/gratitude",
-        "/habits",
-        "/health",
-        "/how-to-deal-with-pain",
-        "/know-where-to-stop",
-        "/less",
-        "/one-at-a-time",
-        "/optimism"
+        "/hijacked-minds",
+        "/inertia",
+        "/psychopathy",
+        "/vengeance",
+        "/conflict-resolution",
+        "/persuasion",
+        "/learning",
+        "/parenting"
       ]
     },
     {
-      "id": "/philosophy",
+      "id": "/sociology",
       "group": 2,
-      "name": "Philosophy",
+      "name": "Sociology",
       "links": [
-        "/ideas",
-        "/all-is-one",
-        "/balance",
-        "/concepts-in-greek-thought",
-        "/desire",
-        "/enemies",
-        "/epicurus",
-        "/eudaimonia",
-        "/freedom",
-        "/good-and-evil",
-        "/hard-times",
-        "/revenge",
-        "/stupidity",
-        "/travelling",
-        "/truth",
-        "/one-at-a-time",
-        "/tao",
-        "/the-art-of-war"
+        "/fields",
+        "/being-poor",
+        "/collectivism",
+        "/social-groups",
+        "/social-media"
       ]
     },
     {
-      "id": "/blogs",
+      "id": "/space",
       "group": 2,
-      "name": "Blogs",
+      "name": "Space",
       "links": [
-        "/lists"
+        "/fields",
+        "/earth",
+        "/solar-system"
       ]
     },
     {
-      "id": "/datasets",
+      "id": "/exp",
       "group": 2,
-      "name": "Datasets",
+      "name": "Experiments",
       "links": [
-        "/lists",
-        "/probability-and-statistics"
-      ]
-    },
-    {
-      "id": "/documentaries",
-      "group": 2,
-      "name": "Documentaries",
-      "links": [
-        "/lists"
-      ]
-    },
-    {
-      "id": "/keyboard-shortcuts",
-      "group": 2,
-      "name": "Keyboard Shortcuts",
-      "links": [
-        "/lists",
-        "/accessibility"
-      ]
-    },
-    {
-      "id": "/movies",
-      "group": 2,
-      "name": "Movies 🎬",
-      "links": [
-        "/lists"
-      ]
-    },
-    {
-      "id": "/quotes",
-      "group": 2,
-      "name": "Quotes",
-      "links": [
-        "/lists"
-      ]
-    },
-    {
-      "id": "/tools",
-      "group": 2,
-      "name": "Tools",
-      "links": [
-        "/lists",
-        "/exp"
-      ]
-    },
-    {
-      "id": "/checklists",
-      "group": 2,
-      "name": "Checklists",
-      "links": [
-        "/lists",
-        "/driving",
-        "/outdoors"
-      ]
-    },
-    {
-      "id": "/graph-2d",
-      "group": 2,
-      "name": "2D Graph of All Pages",
-      "links": [
-        "/misc"
-      ]
-    },
-    {
-      "id": "/llm-prompt",
-      "group": 2,
-      "name": "Llm Prompt",
-      "links": [
-        "/misc"
-      ]
-    },
-    {
-      "id": "/llm",
-      "group": 2,
-      "name": "Llm",
-      "links": [
-        "/misc"
+        "/misc",
+        "/projects"
       ]
     },
     {
@@ -780,230 +517,191 @@
       ]
     },
     {
-      "id": "/short-prompt",
+      "id": "/graphs",
       "group": 2,
-      "name": "Short Prompt",
+      "name": "Graphs",
       "links": [
-        "/misc"
+        "/misc",
+        "/calendar",
+        "/clocks",
+        "/graph-2d",
+        "/graph-3d"
       ]
     },
     {
-      "id": "/economics",
+      "id": "/critical-thinking",
       "group": 2,
-      "name": "Economics",
+      "name": "Critical Thinking",
       "links": [
-        "/science"
+        "/practicals"
       ]
     },
     {
-      "id": "/history",
+      "id": "/decision-making",
       "group": 2,
-      "name": "History",
+      "name": "Decision Making",
       "links": [
-        "/science",
-        "/time",
-        "/timelines"
+        "/practicals",
+        "/choice",
+        "/cognitive-biases"
       ]
     },
     {
-      "id": "/math",
+      "id": "/get-things-done",
       "group": 2,
-      "name": "Math",
+      "name": "Get Things Done",
       "links": [
-        "/science",
-        "/bayes",
-        "/counter-intuitive-math",
-        "/discrete-vs-continuous",
-        "/equations-that-changed-the-world",
-        "/fourier-transform",
-        "/laplace-transform",
-        "/logic-proofs",
-        "/math-links",
-        "/normal-distribution",
-        "/probability-and-statistics",
-        "/local-maximum"
+        "/practicals"
       ]
     },
     {
-      "id": "/neuroscience",
+      "id": "/learning",
       "group": 2,
-      "name": "Neuroscience",
+      "name": "Learning",
       "links": [
-        "/science",
-        "/cortex",
-        "/depression",
-        "/psychopathy"
+        "/practicals",
+        "/psychology"
       ]
     },
     {
-      "id": "/physics",
+      "id": "/parenting",
       "group": 2,
-      "name": "Physics",
+      "name": "Parenting",
       "links": [
-        "/science",
-        "/classical-physics",
-        "/feynman-lectures",
-        "/inertia",
-        "/maxwell-equations",
-        "/solar-system"
+        "/practicals",
+        "/psychology"
       ]
     },
     {
-      "id": "/politics",
+      "id": "/practice",
       "group": 2,
-      "name": "Politics",
+      "name": "Practice",
       "links": [
-        "/science",
-        "/climate-change",
-        "/down-and-around",
+        "/practicals"
+      ]
+    },
+    {
+      "id": "/problem-solving",
+      "group": 2,
+      "name": "Problem Solving",
+      "links": [
+        "/practicals",
+        "/wu-wei"
+      ]
+    },
+    {
+      "id": "/systems-thinking",
+      "group": 2,
+      "name": "Systems Thinking",
+      "links": [
+        "/practicals",
+        "/system-design"
+      ]
+    },
+    {
+      "id": "/take-a-walk",
+      "group": 2,
+      "name": "Take a walk",
+      "links": [
+        "/practicals"
+      ]
+    },
+    {
+      "id": "/teamwork",
+      "group": 2,
+      "name": "Teamwork",
+      "links": [
+        "/practicals"
+      ]
+    },
+    {
+      "id": "/communication",
+      "group": 2,
+      "name": "Communication",
+      "links": [
+        "/practicals",
+        "/conflict-resolution",
+        "/listening",
         "/negotiations",
-        "/noam-chomsky",
-        "/obedience",
-        "/pols-ideas",
-        "/social-change",
-        "/the-art-of-war",
-        "/who-goes-nazi",
-        "/tao"
+        "/persuasion",
+        "/speaking"
       ]
     },
     {
-      "id": "/psychology",
+      "id": "/keyboard-shortcuts",
       "group": 2,
-      "name": "Psychology",
+      "name": "Keyboard Shortcuts",
       "links": [
-        "/science",
-        "/cognitive-biases",
-        "/emotions",
-        "/learning",
-        "/manipulation",
-        "/parenting",
-        "/procrastination",
-        "/spot-a-liar",
-        "/stress",
-        "/teens",
-        "/free-will",
-        "/hijacked-minds",
-        "/inertia",
-        "/psychopathy"
+        "/tools",
+        "/accessibility"
       ]
     },
     {
-      "id": "/sociology",
+      "id": "/links",
       "group": 2,
-      "name": "Sociology",
+      "name": "Links",
       "links": [
-        "/science",
-        "/being-poor",
-        "/collectivism",
-        "/social-groups",
-        "/social-media"
+        "/tools"
       ]
     },
     {
-      "id": "/design-ideas",
-      "group": 3,
-      "name": "Design Ideas",
+      "id": "/site-stats",
+      "group": 2,
+      "name": "Site Stats",
       "links": [
-        "/design"
+        "/tools",
+        "/graph-2d",
+        "/graph-3d"
       ]
     },
     {
-      "id": "/urban-planning",
-      "group": 3,
-      "name": "Urban Planning",
+      "id": "/typewriter",
+      "group": 2,
+      "name": "Typewriter",
       "links": [
-        "/design"
+        "/tools",
+        "/practicals"
       ]
     },
     {
-      "id": "/ux",
-      "group": 3,
-      "name": "UX",
+      "id": "/checklists",
+      "group": 2,
+      "name": "Checklists",
       "links": [
-        "/design",
-        "/a-free-web-again",
-        "/accessibility",
-        "/evolution-of-computer-interfaces",
-        "/hijacked-minds",
-        "/natural-ux",
-        "/polished-pixels",
-        "/things-users-care",
-        "/usability-testing"
+        "/tools",
+        "/driving",
+        "/exercise",
+        "/guitar",
+        "/habits",
+        "/health",
+        "/outdoors",
+        "/used-cars"
       ]
     },
     {
-      "id": "/atasozleri",
-      "group": 3,
-      "name": "Atasozleri",
+      "id": "/prompts",
+      "group": 2,
+      "name": "Prompts",
       "links": [
-        "/edebiyat"
+        "/tools",
+        "/long-prompt",
+        "/short-prompt"
       ]
     },
     {
-      "id": "/bilge-kagan",
+      "id": "/documentaries",
       "group": 3,
-      "name": "Bilge Kagan",
+      "name": "Documentaries",
       "links": [
-        "/edebiyat"
+        "/cinema"
       ]
     },
     {
-      "id": "/dede-korkut",
+      "id": "/films",
       "group": 3,
-      "name": "Dede Korkut",
+      "name": "Films 🎬",
       "links": [
-        "/edebiyat"
-      ]
-    },
-    {
-      "id": "/ince-memed",
-      "group": 3,
-      "name": "İnce Memed",
-      "links": [
-        "/edebiyat"
-      ]
-    },
-    {
-      "id": "/mutlu-olma-sanati",
-      "group": 3,
-      "name": "Mutlu Olma Sanati",
-      "links": [
-        "/edebiyat"
-      ]
-    },
-    {
-      "id": "/puslu-kitalar-atlasi",
-      "group": 3,
-      "name": "Puslu Kitalar Atlasi",
-      "links": [
-        "/edebiyat"
-      ]
-    },
-    {
-      "id": "/authors",
-      "group": 3,
-      "name": "Authors",
-      "links": [
-        "/literature"
-      ]
-    },
-    {
-      "id": "/cien-anos-de-soledad",
-      "group": 3,
-      "name": "Cien Anos De Soledad",
-      "links": [
-        "/literature",
-        "/classics"
-      ]
-    },
-    {
-      "id": "/classics",
-      "group": 3,
-      "name": "Classics",
-      "links": [
-        "/literature",
-        "/cien-anos-de-soledad",
-        "/lists"
+        "/cinema"
       ]
     },
     {
@@ -1011,323 +709,108 @@
       "group": 3,
       "name": "Latin",
       "links": [
-        "/literature"
+        "/language"
       ]
     },
     {
-      "id": "/metaphors",
+      "id": "/literature",
       "group": 3,
-      "name": "Metaphors",
+      "name": "Literature",
       "links": [
-        "/literature"
+        "/language",
+        "/authors",
+        "/cien-anos-de-soledad",
+        "/classics"
       ]
     },
     {
-      "id": "/brecht",
+      "id": "/poetry",
       "group": 3,
-      "name": "The Interrogation of the Good",
+      "name": "Poetry",
       "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/deep-roots",
-      "group": 3,
-      "name": "Deep Roots",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/do-not-go-gentle",
-      "group": 3,
-      "name": "Do not go gentle into that good night",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/find-time-to-just-be",
-      "group": 3,
-      "name": "Find Time To Just Be",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/fire-and-ice",
-      "group": 3,
-      "name": "Fire and Ice",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/haikus",
-      "group": 3,
-      "name": "Haikus",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/harlem",
-      "group": 3,
-      "name": "Harlem",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/if",
-      "group": 3,
-      "name": "If",
-      "links": [
-        "/poetry",
-        "/bulent-ecevit"
-      ]
-    },
-    {
-      "id": "/lightly-child",
-      "group": 3,
-      "name": "Lightly Child",
-      "links": [
-        "/poetry",
-        "/do-without-doing"
-      ]
-    },
-    {
-      "id": "/little-boy-old-man",
-      "group": 3,
-      "name": "Little Boy Old Man",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/mother-to-son",
-      "group": 3,
-      "name": "Mother To Son",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/one-art",
-      "group": 3,
-      "name": "One Art",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/one-ring",
-      "group": 3,
-      "name": "One Ring",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/ozymandias",
-      "group": 3,
-      "name": "Ozymandias",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/saturday",
-      "group": 3,
-      "name": "Saturday",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/soft-rains",
-      "group": 3,
-      "name": "There Will Come Soft Rains",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/tao",
-      "group": 3,
-      "name": "Tao Te Ching",
-      "links": [
-        "/poetry",
-        "/uncut-wood",
-        "/wei-wu-wei",
-        "/wind-and-rain",
-        "/philosophy",
-        "/politics"
-      ]
-    },
-    {
-      "id": "/the-red-wheelbarrow",
-      "group": 3,
-      "name": "The Red Wheelbarrow",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/the-road-not-taken",
-      "group": 3,
-      "name": "The Road Not Taken",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/the-second-coming",
-      "group": 3,
-      "name": "The Second Coming",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/this-be-the-verse",
-      "group": 3,
-      "name": "This Be The Verse",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/to-be-or-not",
-      "group": 3,
-      "name": "To Be Or Not",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/uncut-wood",
-      "group": 3,
-      "name": "Uncut Wood",
-      "links": [
-        "/poetry",
-        "/tao"
-      ]
-    },
-    {
-      "id": "/we-wear-the-mask",
-      "group": 3,
-      "name": "We Wear The Mask",
-      "links": [
-        "/poetry"
-      ]
-    },
-    {
-      "id": "/wei-wu-wei",
-      "group": 3,
-      "name": "Wei Wu Wei",
-      "links": [
-        "/poetry",
-        "/tao"
-      ]
-    },
-    {
-      "id": "/wind-and-rain",
-      "group": 3,
-      "name": "Wind And Rain",
-      "links": [
-        "/poetry",
+        "/language",
+        "/deep-roots",
+        "/do-not-go-gentle",
+        "/find-time-to-just-be",
+        "/fire-and-ice",
+        "/haikus",
+        "/harlem",
+        "/if",
+        "/interrogation",
+        "/lightly-child",
+        "/little-boy-old-man",
+        "/mother-to-son",
+        "/one-art",
+        "/one-ring",
+        "/ozymandias",
+        "/saturday",
+        "/soft-rains",
         "/tao",
-        "/know-where-to-stop"
+        "/the-red-wheelbarrow",
+        "/the-road-not-taken",
+        "/the-second-coming",
+        "/this-be-the-verse",
+        "/to-be-or-not",
+        "/we-wear-the-mask",
+        "/wei-wu-wei",
+        "/wind-and-rain"
       ]
     },
     {
-      "id": "/abbas",
+      "id": "/siir",
       "group": 3,
-      "name": "Abbas",
+      "name": "Siir",
       "links": [
-        "/siir"
+        "/language",
+        "/abbas",
+        "/alper-tunga",
+        "/asik-veysel",
+        "/bulent-ecevit",
+        "/can-yucel",
+        "/edip-cansever",
+        "/fuzuli",
+        "/melih-cevdet",
+        "/nazim",
+        "/orhan-veli",
+        "/yunus-emre"
       ]
     },
     {
-      "id": "/alper-tunga",
+      "id": "/turkce",
       "group": 3,
-      "name": "Alper Tunga",
+      "name": "Turkce",
       "links": [
-        "/siir"
+        "/language",
+        "/atasozleri",
+        "/bilge-kagan",
+        "/dede-korkut",
+        "/ince-memed",
+        "/mutlu-olma-sanati",
+        "/puslu-kitalar-atlasi"
       ]
     },
     {
-      "id": "/asik-veysel",
+      "id": "/life",
       "group": 3,
-      "name": "Asik Veysel",
+      "name": "Life",
       "links": [
-        "/siir"
+        "/philosophy",
+        "/the-wild-cat-way",
+        "/ataraxia",
+        "/eudaimonia",
+        "/freedom",
+        "/hard-times",
+        "/how-to-deal-with-pain",
+        "/travelling",
+        "/wabi-sabi"
       ]
     },
     {
-      "id": "/bulent-ecevit",
+      "id": "/100q",
       "group": 3,
-      "name": "Bulent Ecevit",
+      "name": "100q",
       "links": [
-        "/siir",
-        "/if"
-      ]
-    },
-    {
-      "id": "/can-yucel",
-      "group": 3,
-      "name": "Can Yücel",
-      "links": [
-        "/siir"
-      ]
-    },
-    {
-      "id": "/edip-cansever",
-      "group": 3,
-      "name": "Edip Cansever",
-      "links": [
-        "/siir"
-      ]
-    },
-    {
-      "id": "/fuzuli",
-      "group": 3,
-      "name": "Fuzuli",
-      "links": [
-        "/siir"
-      ]
-    },
-    {
-      "id": "/melih-cevdet",
-      "group": 3,
-      "name": "Melih Cevdet",
-      "links": [
-        "/siir"
-      ]
-    },
-    {
-      "id": "/nazim",
-      "group": 3,
-      "name": "Nazim Hikmet",
-      "links": [
-        "/siir"
-      ]
-    },
-    {
-      "id": "/orhan-veli",
-      "group": 3,
-      "name": "Orhan Veli",
-      "links": [
-        "/siir"
-      ]
-    },
-    {
-      "id": "/yunus-emre",
-      "group": 3,
-      "name": "Yunus Emre",
-      "links": [
-        "/siir"
+        "/algorithms"
       ]
     },
     {
@@ -1342,14 +825,6 @@
       "id": "/bit",
       "group": 3,
       "name": "Bit",
-      "links": [
-        "/algorithms"
-      ]
-    },
-    {
-      "id": "/greedy",
-      "group": 3,
-      "name": "Greedy",
       "links": [
         "/algorithms"
       ]
@@ -1380,14 +855,6 @@
       ]
     },
     {
-      "id": "/q100",
-      "group": 3,
-      "name": "Q100",
-      "links": [
-        "/algorithms"
-      ]
-    },
-    {
       "id": "/sort",
       "group": 3,
       "name": "Sort",
@@ -1413,8 +880,8 @@
         "/coin-change",
         "/edit-distance",
         "/house-robber",
+        "/lcs",
         "/lengthOfLIS",
-        "/longest-common-subsequence",
         "/longest-diverse-str",
         "/lowest-common-ancestor",
         "/maximal-square",
@@ -1424,6 +891,16 @@
         "/stocks-with-cooldown",
         "/ways-to-target-sum",
         "/word-break"
+      ]
+    },
+    {
+      "id": "/greedy",
+      "group": 3,
+      "name": "Greedy",
+      "links": [
+        "/algorithms",
+        "/least-interval",
+        "/merge-intervals"
       ]
     },
     {
@@ -1438,8 +915,7 @@
         "/pivot-index",
         "/reverse-letters-only",
         "/sliding-window-max",
-        "/threeSum",
-        "/longest-valid-paranthesis"
+        "/threeSum"
       ]
     },
     {
@@ -1483,33 +959,9 @@
       ]
     },
     {
-      "id": "/tcp-ip",
-      "group": 3,
-      "name": "TCP/IP Model",
-      "links": [
-        "/computer-networks"
-      ]
-    },
-    {
-      "id": "/bloom-filters",
-      "group": 3,
-      "name": "Bloom Filters",
-      "links": [
-        "/data-structures"
-      ]
-    },
-    {
       "id": "/hash-table",
       "group": 3,
       "name": "Hash Table",
-      "links": [
-        "/data-structures"
-      ]
-    },
-    {
-      "id": "/hyperloglog",
-      "group": 3,
-      "name": "Hyperloglog",
       "links": [
         "/data-structures"
       ]
@@ -1523,28 +975,11 @@
       ]
     },
     {
-      "id": "/probabilistic",
-      "group": 3,
-      "name": "Probabilistic",
-      "links": [
-        "/data-structures"
-      ]
-    },
-    {
       "id": "/sets",
       "group": 3,
       "name": "Sets",
       "links": [
         "/data-structures"
-      ]
-    },
-    {
-      "id": "/skiplists",
-      "group": 3,
-      "name": "Skip Lists",
-      "links": [
-        "/data-structures",
-        "/search"
       ]
     },
     {
@@ -1575,12 +1010,25 @@
       ]
     },
     {
+      "id": "/probabilistic",
+      "group": 3,
+      "name": "Probabilistic",
+      "links": [
+        "/data-structures",
+        "/bloom-filters",
+        "/count-min-sketch",
+        "/hyperloglog",
+        "/minhash",
+        "/reservoir-sampling",
+        "/skiplists"
+      ]
+    },
+    {
       "id": "/queue",
       "group": 3,
       "name": "Queue",
       "links": [
         "/data-structures",
-        "/jump-game-2",
         "/least-num-of-perfect-squares"
       ]
     },
@@ -1612,7 +1060,6 @@
         "/string-compression",
         "/dedup-game",
         "/longest-diverse-str",
-        "/longest-valid-paranthesis",
         "/trie"
       ]
     },
@@ -1796,11 +1243,43 @@
       ]
     },
     {
+      "id": "/attention",
+      "group": 3,
+      "name": "Attention",
+      "links": [
+        "/ml"
+      ]
+    },
+    {
+      "id": "/deep-learning",
+      "group": 3,
+      "name": "Deep Learning",
+      "links": [
+        "/ml"
+      ]
+    },
+    {
+      "id": "/diffusion",
+      "group": 3,
+      "name": "Diffusion",
+      "links": [
+        "/ml"
+      ]
+    },
+    {
       "id": "/reinforcement-learning",
       "group": 3,
       "name": "Reinforcement Learning",
       "links": [
-        "/machine-learning"
+        "/ml"
+      ]
+    },
+    {
+      "id": "/tcp-ip",
+      "group": 3,
+      "name": "TCP/IP Model",
+      "links": [
+        "/net"
       ]
     },
     {
@@ -1808,7 +1287,7 @@
       "group": 3,
       "name": "Containers",
       "links": [
-        "/operating-systems"
+        "/os"
       ]
     },
     {
@@ -1899,7 +1378,8 @@
         "/minik-robot",
         "/pascal-interpreter",
         "/pca",
-        "/predict-movie-genres"
+        "/predict-movie-genres",
+        "/exp"
       ]
     },
     {
@@ -2028,7 +1508,8 @@
       "name": "Akins Laws Of Spacecraft",
       "links": [
         "/system-design",
-        "/hacker-laws"
+        "/hacker-laws",
+        "/polished-pixels"
       ]
     },
     {
@@ -2089,263 +1570,69 @@
       ]
     },
     {
-      "id": "/be-good-to-each-other-and-yourself",
+      "id": "/on-design",
       "group": 3,
-      "name": "Be Good To Each Other And Yourself",
+      "name": "On Design",
       "links": [
-        "/choice",
-        "/essais"
+        "/design"
       ]
     },
     {
-      "id": "/decision-making",
+      "id": "/urban-planning",
       "group": 3,
-      "name": "Decision Making",
+      "name": "Urban Planning",
       "links": [
-        "/choice",
-        "/reasoning"
+        "/design"
       ]
     },
     {
-      "id": "/do-without-doing",
+      "id": "/ux",
       "group": 3,
-      "name": "Do without doing - Wu Wei 無爲",
+      "name": "UX",
       "links": [
-        "/choice",
-        "/lightly-child",
-        "/one-at-a-time"
+        "/design",
+        "/a-free-web-again",
+        "/accessibility",
+        "/evolution-of-computer-interfaces",
+        "/hijacked-minds",
+        "/natural-ux",
+        "/polished-pixels",
+        "/things-users-care",
+        "/usability-testing"
       ]
     },
     {
-      "id": "/exercise",
+      "id": "/price-vs-value",
       "group": 3,
-      "name": "Exercise",
+      "name": "Price Vs Value",
       "links": [
-        "/choice"
+        "/economics"
       ]
     },
     {
-      "id": "/forgiving",
+      "id": "/agriculture",
       "group": 3,
-      "name": "Forgiving",
+      "name": "Agriculture",
       "links": [
-        "/choice"
+        "/history"
       ]
     },
     {
-      "id": "/free-will",
+      "id": "/rome",
       "group": 3,
-      "name": "Free Will",
+      "name": "Rome",
       "links": [
-        "/choice",
-        "/psychology"
+        "/history"
       ]
     },
     {
-      "id": "/friends",
+      "id": "/timelines",
       "group": 3,
-      "name": "Friends",
+      "name": "If the Earth is a 45 years old",
       "links": [
-        "/choice"
-      ]
-    },
-    {
-      "id": "/gratitude",
-      "group": 3,
-      "name": "Gratitude",
-      "links": [
-        "/choice"
-      ]
-    },
-    {
-      "id": "/habits",
-      "group": 3,
-      "name": "Habits",
-      "links": [
-        "/choice"
-      ]
-    },
-    {
-      "id": "/health",
-      "group": 3,
-      "name": "Health",
-      "links": [
-        "/choice"
-      ]
-    },
-    {
-      "id": "/how-to-deal-with-pain",
-      "group": 3,
-      "name": "How to deal with Extreme Physical Pain",
-      "links": [
-        "/choice",
-        "/essais"
-      ]
-    },
-    {
-      "id": "/know-where-to-stop",
-      "group": 3,
-      "name": "Know Where To Stop",
-      "links": [
-        "/choice",
-        "/wind-and-rain"
-      ]
-    },
-    {
-      "id": "/less",
-      "group": 3,
-      "name": "Less",
-      "links": [
-        "/choice",
-        "/desire"
-      ]
-    },
-    {
-      "id": "/one-at-a-time",
-      "group": 3,
-      "name": "One At A Time",
-      "links": [
-        "/choice",
-        "/do-without-doing",
+        "/history",
+        "/climate-change",
         "/philosophy"
-      ]
-    },
-    {
-      "id": "/optimism",
-      "group": 3,
-      "name": "Optimism",
-      "links": [
-        "/choice"
-      ]
-    },
-    {
-      "id": "/all-is-one",
-      "group": 3,
-      "name": "One",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/balance",
-      "group": 3,
-      "name": "Balance",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/concepts-in-greek-thought",
-      "group": 3,
-      "name": "Concepts In Greek Thought",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/desire",
-      "group": 3,
-      "name": "Desire",
-      "links": [
-        "/philosophy",
-        "/less"
-      ]
-    },
-    {
-      "id": "/enemies",
-      "group": 3,
-      "name": "Enemies",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/epicurus",
-      "group": 3,
-      "name": "Epicurus",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/eudaimonia",
-      "group": 3,
-      "name": "Eudaimonia",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/freedom",
-      "group": 3,
-      "name": "Freedom",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/good-and-evil",
-      "group": 3,
-      "name": "Good And Evil",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/hard-times",
-      "group": 3,
-      "name": "Hard Times",
-      "links": [
-        "/philosophy",
-        "/time"
-      ]
-    },
-    {
-      "id": "/revenge",
-      "group": 3,
-      "name": "Revenge",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/stupidity",
-      "group": 3,
-      "name": "Stupidity",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/travelling",
-      "group": 3,
-      "name": "Travelling",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/truth",
-      "group": 3,
-      "name": "Truth",
-      "links": [
-        "/philosophy"
-      ]
-    },
-    {
-      "id": "/driving",
-      "group": 3,
-      "name": "Driving",
-      "links": [
-        "/checklists"
-      ]
-    },
-    {
-      "id": "/outdoors",
-      "group": 3,
-      "name": "Outdoors",
-      "links": [
-        "/checklists"
       ]
     },
     {
@@ -2428,7 +1715,6 @@
       "name": "Probability And Statistics",
       "links": [
         "/math",
-        "/datasets",
         "/bayes"
       ]
     },
@@ -2455,6 +1741,75 @@
       "links": [
         "/neuroscience",
         "/psychology"
+      ]
+    },
+    {
+      "id": "/the-past",
+      "group": 3,
+      "name": "The Past",
+      "links": [
+        "/philosophy",
+        "/time"
+      ]
+    },
+    {
+      "id": "/time",
+      "group": 3,
+      "name": "Time",
+      "links": [
+        "/philosophy",
+        "/hard-times",
+        "/history",
+        "/the-past",
+        "/calendar",
+        "/clocks"
+      ]
+    },
+    {
+      "id": "/career",
+      "group": 3,
+      "name": "Career",
+      "links": [
+        "/philosophy",
+        "/nameless",
+        "/wealth",
+        "/what-to-work-on"
+      ]
+    },
+    {
+      "id": "/choice",
+      "group": 3,
+      "name": "Choice",
+      "links": [
+        "/philosophy",
+        "/attitude",
+        "/balance",
+        "/be-good-to-each-other-and-yourself",
+        "/character",
+        "/desire",
+        "/free-will",
+        "/gratitude",
+        "/know-where-to-stop",
+        "/less",
+        "/one-at-a-time",
+        "/optimism",
+        "/wu-wei",
+        "/cognitive-biases",
+        "/decision-making"
+      ]
+    },
+    {
+      "id": "/people",
+      "group": 3,
+      "name": "People",
+      "links": [
+        "/philosophy",
+        "/all-is-one",
+        "/enemies",
+        "/friends",
+        "/good-and-evil",
+        "/stupidity",
+        "/vengeance"
       ]
     },
     {
@@ -2493,14 +1848,6 @@
       ]
     },
     {
-      "id": "/solar-system",
-      "group": 3,
-      "name": "Solar System",
-      "links": [
-        "/physics"
-      ]
-    },
-    {
       "id": "/climate-change",
       "group": 3,
       "name": "Climate Change",
@@ -2513,14 +1860,6 @@
       "id": "/down-and-around",
       "group": 3,
       "name": "A Left-Handed Commencement Address",
-      "links": [
-        "/politics"
-      ]
-    },
-    {
-      "id": "/negotiations",
-      "group": 3,
-      "name": "Negotiations",
       "links": [
         "/politics"
       ]
@@ -2542,9 +1881,9 @@
       ]
     },
     {
-      "id": "/pols-ideas",
+      "id": "/on-politics",
       "group": 3,
-      "name": "Ideas",
+      "name": "On Politics",
       "links": [
         "/politics"
       ]
@@ -2571,8 +1910,7 @@
       "group": 3,
       "name": "Who Goes Nazi",
       "links": [
-        "/politics",
-        "/essais"
+        "/politics"
       ]
     },
     {
@@ -2580,7 +1918,10 @@
       "group": 3,
       "name": "Cognitive Biases",
       "links": [
-        "/psychology"
+        "/psychology",
+        "/choice",
+        "/decision-making",
+        "/negotiations"
       ]
     },
     {
@@ -2592,25 +1933,9 @@
       ]
     },
     {
-      "id": "/learning",
-      "group": 3,
-      "name": "Learning",
-      "links": [
-        "/psychology"
-      ]
-    },
-    {
       "id": "/manipulation",
       "group": 3,
       "name": "Manipulation",
-      "links": [
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/parenting",
-      "group": 3,
-      "name": "Parenting",
       "links": [
         "/psychology"
       ]
@@ -2652,8 +1977,7 @@
       "group": 3,
       "name": "Being Poor",
       "links": [
-        "/sociology",
-        "/essais"
+        "/sociology"
       ]
     },
     {
@@ -2681,70 +2005,550 @@
       ]
     },
     {
-      "id": "/a-free-web-again",
-      "group": 4,
-      "name": "A Free Web Again",
+      "id": "/earth",
+      "group": 3,
+      "name": "Earth",
       "links": [
-        "/ux"
+        "/space"
       ]
     },
     {
-      "id": "/accessibility",
-      "group": 4,
-      "name": "Accessible Software",
+      "id": "/solar-system",
+      "group": 3,
+      "name": "Solar System",
       "links": [
-        "/ux",
-        "/keyboard-shortcuts",
-        "/system-design"
+        "/space"
       ]
     },
     {
-      "id": "/evolution-of-computer-interfaces",
-      "group": 4,
-      "name": "Evolution Of Computer Interfaces",
+      "id": "/calendar",
+      "group": 3,
+      "name": "Calendar",
       "links": [
-        "/ux"
+        "/graphs",
+        "/time"
       ]
     },
     {
-      "id": "/hijacked-minds",
-      "group": 4,
-      "name": "How Technology is Hijacking Your Mind",
+      "id": "/clocks",
+      "group": 3,
+      "name": "Clocks ⏱️",
       "links": [
-        "/ux",
+        "/graphs",
+        "/time"
+      ]
+    },
+    {
+      "id": "/graph-2d",
+      "group": 3,
+      "name": "2D Graph of All Pages",
+      "links": [
+        "/graphs",
+        "/site-stats"
+      ]
+    },
+    {
+      "id": "/graph-3d",
+      "group": 3,
+      "name": "3D graph of all pages",
+      "links": [
+        "/graphs",
+        "/site-stats"
+      ]
+    },
+    {
+      "id": "/conflict-resolution",
+      "group": 3,
+      "name": "Conflict Resolution",
+      "links": [
+        "/communication",
         "/psychology"
       ]
     },
     {
-      "id": "/natural-ux",
-      "group": 4,
-      "name": "Natural UX",
+      "id": "/listening",
+      "group": 3,
+      "name": "Listening",
       "links": [
-        "/ux"
+        "/communication"
       ]
     },
     {
-      "id": "/polished-pixels",
-      "group": 4,
-      "name": "Polished Pixels",
+      "id": "/negotiations",
+      "group": 3,
+      "name": "Negotiations",
       "links": [
-        "/ux"
+        "/communication",
+        "/cognitive-biases"
       ]
     },
     {
-      "id": "/things-users-care",
-      "group": 4,
-      "name": "Things end users care about but programmers don't",
+      "id": "/persuasion",
+      "group": 3,
+      "name": "Persuasion",
       "links": [
-        "/ux"
+        "/communication",
+        "/psychology"
       ]
     },
     {
-      "id": "/usability-testing",
-      "group": 4,
-      "name": "Why You Only Need to Test with 5 Users",
+      "id": "/speaking",
+      "group": 3,
+      "name": "Speaking",
       "links": [
-        "/ux"
+        "/communication"
+      ]
+    },
+    {
+      "id": "/driving",
+      "group": 3,
+      "name": "Driving",
+      "links": [
+        "/checklists"
+      ]
+    },
+    {
+      "id": "/exercise",
+      "group": 3,
+      "name": "Exercise",
+      "links": [
+        "/checklists"
+      ]
+    },
+    {
+      "id": "/guitar",
+      "group": 3,
+      "name": "Guitar",
+      "links": [
+        "/checklists"
+      ]
+    },
+    {
+      "id": "/habits",
+      "group": 3,
+      "name": "Habits",
+      "links": [
+        "/checklists"
+      ]
+    },
+    {
+      "id": "/health",
+      "group": 3,
+      "name": "Health",
+      "links": [
+        "/checklists"
+      ]
+    },
+    {
+      "id": "/outdoors",
+      "group": 3,
+      "name": "Outdoors",
+      "links": [
+        "/checklists"
+      ]
+    },
+    {
+      "id": "/used-cars",
+      "group": 3,
+      "name": "Used Cars",
+      "links": [
+        "/checklists"
+      ]
+    },
+    {
+      "id": "/long-prompt",
+      "group": 3,
+      "name": "Long Prompt",
+      "links": [
+        "/prompts"
+      ]
+    },
+    {
+      "id": "/short-prompt",
+      "group": 3,
+      "name": "Short Prompt",
+      "links": [
+        "/prompts"
+      ]
+    },
+    {
+      "id": "/authors",
+      "group": 4,
+      "name": "Authors",
+      "links": [
+        "/literature"
+      ]
+    },
+    {
+      "id": "/cien-anos-de-soledad",
+      "group": 4,
+      "name": "Cien Anos De Soledad",
+      "links": [
+        "/literature",
+        "/classics"
+      ]
+    },
+    {
+      "id": "/classics",
+      "group": 4,
+      "name": "Classics",
+      "links": [
+        "/literature",
+        "/cien-anos-de-soledad"
+      ]
+    },
+    {
+      "id": "/deep-roots",
+      "group": 4,
+      "name": "Deep Roots",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/do-not-go-gentle",
+      "group": 4,
+      "name": "Do not go gentle into that good night",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/find-time-to-just-be",
+      "group": 4,
+      "name": "Find Time To Just Be",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/fire-and-ice",
+      "group": 4,
+      "name": "Fire and Ice",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/haikus",
+      "group": 4,
+      "name": "Haikus",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/harlem",
+      "group": 4,
+      "name": "Harlem",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/if",
+      "group": 4,
+      "name": "If",
+      "links": [
+        "/poetry",
+        "/bulent-ecevit"
+      ]
+    },
+    {
+      "id": "/interrogation",
+      "group": 4,
+      "name": "The Interrogation of the Good",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/lightly-child",
+      "group": 4,
+      "name": "Lightly Child",
+      "links": [
+        "/poetry",
+        "/wu-wei"
+      ]
+    },
+    {
+      "id": "/little-boy-old-man",
+      "group": 4,
+      "name": "Little Boy Old Man",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/mother-to-son",
+      "group": 4,
+      "name": "Mother To Son",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/one-art",
+      "group": 4,
+      "name": "One Art",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/one-ring",
+      "group": 4,
+      "name": "One Ring",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/ozymandias",
+      "group": 4,
+      "name": "Ozymandias",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/saturday",
+      "group": 4,
+      "name": "Saturday",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/soft-rains",
+      "group": 4,
+      "name": "There Will Come Soft Rains",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/tao",
+      "group": 4,
+      "name": "Tao Te Ching",
+      "links": [
+        "/poetry",
+        "/wei-wu-wei",
+        "/wind-and-rain",
+        "/philosophy",
+        "/politics"
+      ]
+    },
+    {
+      "id": "/the-red-wheelbarrow",
+      "group": 4,
+      "name": "The Red Wheelbarrow",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/the-road-not-taken",
+      "group": 4,
+      "name": "The Road Not Taken",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/the-second-coming",
+      "group": 4,
+      "name": "The Second Coming",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/this-be-the-verse",
+      "group": 4,
+      "name": "This Be The Verse",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/to-be-or-not",
+      "group": 4,
+      "name": "To Be Or Not",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/we-wear-the-mask",
+      "group": 4,
+      "name": "We Wear The Mask",
+      "links": [
+        "/poetry"
+      ]
+    },
+    {
+      "id": "/wei-wu-wei",
+      "group": 4,
+      "name": "Wei Wu Wei",
+      "links": [
+        "/poetry",
+        "/tao"
+      ]
+    },
+    {
+      "id": "/wind-and-rain",
+      "group": 4,
+      "name": "Wind And Rain",
+      "links": [
+        "/poetry",
+        "/tao",
+        "/know-where-to-stop"
+      ]
+    },
+    {
+      "id": "/abbas",
+      "group": 4,
+      "name": "Abbas",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/alper-tunga",
+      "group": 4,
+      "name": "Alper Tunga",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/asik-veysel",
+      "group": 4,
+      "name": "Asik Veysel",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/bulent-ecevit",
+      "group": 4,
+      "name": "Bulent Ecevit",
+      "links": [
+        "/siir",
+        "/if"
+      ]
+    },
+    {
+      "id": "/can-yucel",
+      "group": 4,
+      "name": "Can Yücel",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/edip-cansever",
+      "group": 4,
+      "name": "Edip Cansever",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/fuzuli",
+      "group": 4,
+      "name": "Fuzuli",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/melih-cevdet",
+      "group": 4,
+      "name": "Melih Cevdet",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/nazim",
+      "group": 4,
+      "name": "Nazim Hikmet",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/orhan-veli",
+      "group": 4,
+      "name": "Orhan Veli",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/yunus-emre",
+      "group": 4,
+      "name": "Yunus Emre",
+      "links": [
+        "/siir"
+      ]
+    },
+    {
+      "id": "/atasozleri",
+      "group": 4,
+      "name": "Atasozleri",
+      "links": [
+        "/turkce"
+      ]
+    },
+    {
+      "id": "/bilge-kagan",
+      "group": 4,
+      "name": "Bilge Kagan",
+      "links": [
+        "/turkce"
+      ]
+    },
+    {
+      "id": "/dede-korkut",
+      "group": 4,
+      "name": "Dede Korkut",
+      "links": [
+        "/turkce"
+      ]
+    },
+    {
+      "id": "/ince-memed",
+      "group": 4,
+      "name": "İnce Memed",
+      "links": [
+        "/turkce"
+      ]
+    },
+    {
+      "id": "/mutlu-olma-sanati",
+      "group": 4,
+      "name": "Mutlu Olma Sanati",
+      "links": [
+        "/turkce"
+      ]
+    },
+    {
+      "id": "/puslu-kitalar-atlasi",
+      "group": 4,
+      "name": "Puslu Kitalar Atlasi",
+      "links": [
+        "/turkce"
+      ]
+    },
+    {
+      "id": "/the-wild-cat-way",
+      "group": 4,
+      "name": "The Wild Cat Way",
+      "links": [
+        "/life"
       ]
     },
     {
@@ -2780,15 +2584,7 @@
       ]
     },
     {
-      "id": "/lengthOfLIS",
-      "group": 4,
-      "name": "Longest increasing subsequence",
-      "links": [
-        "/dynamic"
-      ]
-    },
-    {
-      "id": "/longest-common-subsequence",
+      "id": "/lcs",
       "group": 4,
       "name": "Longest Common Subsequence",
       "links": [
@@ -2797,9 +2593,17 @@
       ]
     },
     {
+      "id": "/lengthOfLIS",
+      "group": 4,
+      "name": "Longest Increasing Subsequence",
+      "links": [
+        "/dynamic"
+      ]
+    },
+    {
       "id": "/longest-diverse-str",
       "group": 4,
-      "name": "Longest Diverse Str",
+      "name": "Longest Diverse String",
       "links": [
         "/dynamic",
         "/string",
@@ -2829,7 +2633,7 @@
       "name": "Min Edit Distance",
       "links": [
         "/dynamic",
-        "/longest-common-subsequence"
+        "/lcs"
       ]
     },
     {
@@ -2870,6 +2674,22 @@
       "name": "Word Break",
       "links": [
         "/dynamic"
+      ]
+    },
+    {
+      "id": "/least-interval",
+      "group": 4,
+      "name": "Least Interval",
+      "links": [
+        "/greedy"
+      ]
+    },
+    {
+      "id": "/merge-intervals",
+      "group": 4,
+      "name": "Merge Intervals",
+      "links": [
+        "/greedy"
       ]
     },
     {
@@ -3100,11 +2920,52 @@
       ]
     },
     {
-      "id": "/jump-game-2",
+      "id": "/bloom-filters",
       "group": 4,
-      "name": "Jump Game 2",
+      "name": "Bloom Filters",
       "links": [
-        "/queue"
+        "/probabilistic"
+      ]
+    },
+    {
+      "id": "/count-min-sketch",
+      "group": 4,
+      "name": "Count Min Sketch",
+      "links": [
+        "/probabilistic"
+      ]
+    },
+    {
+      "id": "/hyperloglog",
+      "group": 4,
+      "name": "Hyperloglog",
+      "links": [
+        "/probabilistic"
+      ]
+    },
+    {
+      "id": "/minhash",
+      "group": 4,
+      "name": "Minhash",
+      "links": [
+        "/probabilistic"
+      ]
+    },
+    {
+      "id": "/reservoir-sampling",
+      "group": 4,
+      "name": "Reservoir Sampling",
+      "links": [
+        "/probabilistic"
+      ]
+    },
+    {
+      "id": "/skiplists",
+      "group": 4,
+      "name": "Skip Lists",
+      "links": [
+        "/probabilistic",
+        "/search"
       ]
     },
     {
@@ -3145,9 +3006,7 @@
       "group": 4,
       "name": "Longest Valid Paranthesis",
       "links": [
-        "/stack",
-        "/pointers",
-        "/string"
+        "/stack"
       ]
     },
     {
@@ -3419,7 +3278,7 @@
       "name": "Logos, an operating system kernel from scratch",
       "links": [
         "/projects",
-        "/operating-systems"
+        "/os"
       ]
     },
     {
@@ -3473,16 +3332,314 @@
       "links": [
         "/projects"
       ]
+    },
+    {
+      "id": "/a-free-web-again",
+      "group": 4,
+      "name": "A Free Web Again",
+      "links": [
+        "/ux"
+      ]
+    },
+    {
+      "id": "/accessibility",
+      "group": 4,
+      "name": "Accessible Software",
+      "links": [
+        "/ux",
+        "/system-design",
+        "/keyboard-shortcuts"
+      ]
+    },
+    {
+      "id": "/evolution-of-computer-interfaces",
+      "group": 4,
+      "name": "Evolution Of Computer Interfaces",
+      "links": [
+        "/ux"
+      ]
+    },
+    {
+      "id": "/hijacked-minds",
+      "group": 4,
+      "name": "How Technology is Hijacking Your Mind",
+      "links": [
+        "/ux",
+        "/psychology"
+      ]
+    },
+    {
+      "id": "/natural-ux",
+      "group": 4,
+      "name": "Natural UX",
+      "links": [
+        "/ux"
+      ]
+    },
+    {
+      "id": "/polished-pixels",
+      "group": 4,
+      "name": "Polished Pixels",
+      "links": [
+        "/ux",
+        "/akins-laws-of-spacecraft"
+      ]
+    },
+    {
+      "id": "/things-users-care",
+      "group": 4,
+      "name": "Things end users care about but programmers don't",
+      "links": [
+        "/ux"
+      ]
+    },
+    {
+      "id": "/usability-testing",
+      "group": 4,
+      "name": "Why You Only Need to Test with 5 Users",
+      "links": [
+        "/ux"
+      ]
+    },
+    {
+      "id": "/nameless",
+      "group": 4,
+      "name": "Nameless",
+      "links": [
+        "/career"
+      ]
+    },
+    {
+      "id": "/wealth",
+      "group": 4,
+      "name": "Wealth",
+      "links": [
+        "/career"
+      ]
+    },
+    {
+      "id": "/what-to-work-on",
+      "group": 4,
+      "name": "What To Work On",
+      "links": [
+        "/career"
+      ]
+    },
+    {
+      "id": "/attitude",
+      "group": 4,
+      "name": "Attitude",
+      "links": [
+        "/choice"
+      ]
+    },
+    {
+      "id": "/balance",
+      "group": 4,
+      "name": "Balance",
+      "links": [
+        "/choice"
+      ]
+    },
+    {
+      "id": "/be-good-to-each-other-and-yourself",
+      "group": 4,
+      "name": "Be Good To Each Other And Yourself",
+      "links": [
+        "/choice"
+      ]
+    },
+    {
+      "id": "/character",
+      "group": 4,
+      "name": "Character",
+      "links": [
+        "/choice",
+        "/freedom"
+      ]
+    },
+    {
+      "id": "/desire",
+      "group": 4,
+      "name": "Desire",
+      "links": [
+        "/choice"
+      ]
+    },
+    {
+      "id": "/free-will",
+      "group": 4,
+      "name": "Free Will",
+      "links": [
+        "/choice",
+        "/psychology"
+      ]
+    },
+    {
+      "id": "/gratitude",
+      "group": 4,
+      "name": "Gratitude",
+      "links": [
+        "/choice"
+      ]
+    },
+    {
+      "id": "/know-where-to-stop",
+      "group": 4,
+      "name": "Know Where To Stop",
+      "links": [
+        "/choice",
+        "/wind-and-rain"
+      ]
+    },
+    {
+      "id": "/less",
+      "group": 4,
+      "name": "Less",
+      "links": [
+        "/choice"
+      ]
+    },
+    {
+      "id": "/one-at-a-time",
+      "group": 4,
+      "name": "One At A Time",
+      "links": [
+        "/choice"
+      ]
+    },
+    {
+      "id": "/optimism",
+      "group": 4,
+      "name": "Optimism",
+      "links": [
+        "/choice"
+      ]
+    },
+    {
+      "id": "/wu-wei",
+      "group": 4,
+      "name": "Wu Wei 無爲",
+      "links": [
+        "/choice",
+        "/lightly-child",
+        "/problem-solving"
+      ]
+    },
+    {
+      "id": "/ataraxia",
+      "group": 4,
+      "name": "Ataraxia",
+      "links": [
+        "/life"
+      ]
+    },
+    {
+      "id": "/eudaimonia",
+      "group": 4,
+      "name": "Eudaimonia",
+      "links": [
+        "/life"
+      ]
+    },
+    {
+      "id": "/freedom",
+      "group": 4,
+      "name": "Freedom",
+      "links": [
+        "/life",
+        "/character"
+      ]
+    },
+    {
+      "id": "/hard-times",
+      "group": 4,
+      "name": "Hard Times",
+      "links": [
+        "/life",
+        "/how-to-deal-with-pain",
+        "/time"
+      ]
+    },
+    {
+      "id": "/how-to-deal-with-pain",
+      "group": 4,
+      "name": "How to deal with Extreme Physical Pain",
+      "links": [
+        "/life",
+        "/hard-times"
+      ]
+    },
+    {
+      "id": "/travelling",
+      "group": 4,
+      "name": "Travelling",
+      "links": [
+        "/life"
+      ]
+    },
+    {
+      "id": "/wabi-sabi",
+      "group": 4,
+      "name": "Wabi Sabi",
+      "links": [
+        "/life"
+      ]
+    },
+    {
+      "id": "/all-is-one",
+      "group": 4,
+      "name": "One",
+      "links": [
+        "/people"
+      ]
+    },
+    {
+      "id": "/enemies",
+      "group": 4,
+      "name": "Enemies",
+      "links": [
+        "/people"
+      ]
+    },
+    {
+      "id": "/friends",
+      "group": 4,
+      "name": "Friends",
+      "links": [
+        "/people"
+      ]
+    },
+    {
+      "id": "/good-and-evil",
+      "group": 4,
+      "name": "Good And Evil",
+      "links": [
+        "/people"
+      ]
+    },
+    {
+      "id": "/stupidity",
+      "group": 4,
+      "name": "Stupidity",
+      "links": [
+        "/people"
+      ]
+    },
+    {
+      "id": "/vengeance",
+      "group": 4,
+      "name": "Vengeance",
+      "links": [
+        "/people",
+        "/psychology"
+      ]
     }
   ],
   "links": [
     {
       "source": "/root",
-      "target": "/art"
-    },
-    {
-      "source": "/root",
-      "target": "/blog"
+      "target": "/arts"
     },
     {
       "source": "/root",
@@ -3490,15 +3647,7 @@
     },
     {
       "source": "/root",
-      "target": "/exp"
-    },
-    {
-      "source": "/root",
-      "target": "/ideas"
-    },
-    {
-      "source": "/root",
-      "target": "/lists"
+      "target": "/fields"
     },
     {
       "source": "/root",
@@ -3506,43 +3655,35 @@
     },
     {
       "source": "/root",
-      "target": "/science"
+      "target": "/practicals"
     },
     {
-      "source": "/art",
+      "source": "/root",
+      "target": "/tools"
+    },
+    {
+      "source": "/arts",
       "target": "/paintings"
     },
     {
-      "source": "/art",
+      "source": "/arts",
       "target": "/photography"
     },
     {
-      "source": "/art",
-      "target": "/design"
+      "source": "/arts",
+      "target": "/cinema"
     },
     {
-      "source": "/art",
-      "target": "/edebiyat"
+      "source": "/arts",
+      "target": "/language"
     },
     {
-      "source": "/art",
-      "target": "/literature"
-    },
-    {
-      "source": "/art",
-      "target": "/poetry"
-    },
-    {
-      "source": "/art",
-      "target": "/siir"
+      "source": "/arts",
+      "target": "/philosophy"
     },
     {
       "source": "/engineering",
       "target": "/algorithms"
-    },
-    {
-      "source": "/engineering",
-      "target": "/computer-networks"
     },
     {
       "source": "/engineering",
@@ -3558,11 +3699,15 @@
     },
     {
       "source": "/engineering",
-      "target": "/machine-learning"
+      "target": "/ml"
     },
     {
       "source": "/engineering",
-      "target": "/operating-systems"
+      "target": "/net"
+    },
+    {
+      "source": "/engineering",
+      "target": "/os"
     },
     {
       "source": "/engineering",
@@ -3581,140 +3726,52 @@
       "target": "/system-design"
     },
     {
-      "source": "/exp",
-      "target": "/calendar"
+      "source": "/fields",
+      "target": "/design"
     },
     {
-      "source": "/exp",
-      "target": "/clocks"
+      "source": "/fields",
+      "target": "/economics"
     },
     {
-      "source": "/exp",
-      "target": "/earth"
+      "source": "/fields",
+      "target": "/history"
     },
     {
-      "source": "/exp",
-      "target": "/graph-3d"
+      "source": "/fields",
+      "target": "/math"
     },
     {
-      "source": "/exp",
-      "target": "/site-stats"
+      "source": "/fields",
+      "target": "/neuroscience"
     },
     {
-      "source": "/exp",
-      "target": "/timelines"
-    },
-    {
-      "source": "/exp",
-      "target": "/typewriter"
-    },
-    {
-      "source": "/ideas",
-      "target": "/communication"
-    },
-    {
-      "source": "/ideas",
-      "target": "/drawing"
-    },
-    {
-      "source": "/ideas",
-      "target": "/essais"
-    },
-    {
-      "source": "/ideas",
-      "target": "/get-things-done"
-    },
-    {
-      "source": "/ideas",
-      "target": "/mental-models"
-    },
-    {
-      "source": "/ideas",
-      "target": "/practice"
-    },
-    {
-      "source": "/ideas",
-      "target": "/problem-solving"
-    },
-    {
-      "source": "/ideas",
-      "target": "/reasoning"
-    },
-    {
-      "source": "/ideas",
-      "target": "/systems-thinking"
-    },
-    {
-      "source": "/ideas",
-      "target": "/take-a-walk"
-    },
-    {
-      "source": "/ideas",
-      "target": "/teamwork"
-    },
-    {
-      "source": "/ideas",
-      "target": "/the-past"
-    },
-    {
-      "source": "/ideas",
-      "target": "/time"
-    },
-    {
-      "source": "/ideas",
-      "target": "/work"
-    },
-    {
-      "source": "/ideas",
-      "target": "/choice"
-    },
-    {
-      "source": "/ideas",
+      "source": "/fields",
       "target": "/philosophy"
     },
     {
-      "source": "/lists",
-      "target": "/blogs"
+      "source": "/fields",
+      "target": "/physics"
     },
     {
-      "source": "/lists",
-      "target": "/datasets"
+      "source": "/fields",
+      "target": "/politics"
     },
     {
-      "source": "/lists",
-      "target": "/documentaries"
+      "source": "/fields",
+      "target": "/psychology"
     },
     {
-      "source": "/lists",
-      "target": "/keyboard-shortcuts"
+      "source": "/fields",
+      "target": "/sociology"
     },
     {
-      "source": "/lists",
-      "target": "/movies"
-    },
-    {
-      "source": "/lists",
-      "target": "/quotes"
-    },
-    {
-      "source": "/lists",
-      "target": "/tools"
-    },
-    {
-      "source": "/lists",
-      "target": "/checklists"
+      "source": "/fields",
+      "target": "/space"
     },
     {
       "source": "/misc",
-      "target": "/graph-2d"
-    },
-    {
-      "source": "/misc",
-      "target": "/llm-prompt"
-    },
-    {
-      "source": "/misc",
-      "target": "/llm"
+      "target": "/exp"
     },
     {
       "source": "/misc",
@@ -3726,243 +3783,111 @@
     },
     {
       "source": "/misc",
-      "target": "/short-prompt"
+      "target": "/graphs"
     },
     {
-      "source": "/science",
-      "target": "/economics"
+      "source": "/practicals",
+      "target": "/critical-thinking"
     },
     {
-      "source": "/science",
-      "target": "/history"
+      "source": "/practicals",
+      "target": "/decision-making"
     },
     {
-      "source": "/science",
-      "target": "/math"
+      "source": "/practicals",
+      "target": "/get-things-done"
     },
     {
-      "source": "/science",
-      "target": "/neuroscience"
+      "source": "/practicals",
+      "target": "/learning"
     },
     {
-      "source": "/science",
-      "target": "/physics"
+      "source": "/practicals",
+      "target": "/parenting"
     },
     {
-      "source": "/science",
-      "target": "/politics"
+      "source": "/practicals",
+      "target": "/practice"
     },
     {
-      "source": "/science",
-      "target": "/psychology"
+      "source": "/practicals",
+      "target": "/problem-solving"
     },
     {
-      "source": "/science",
-      "target": "/sociology"
+      "source": "/practicals",
+      "target": "/systems-thinking"
     },
     {
-      "source": "/design",
-      "target": "/design-ideas"
+      "source": "/practicals",
+      "target": "/take-a-walk"
     },
     {
-      "source": "/design",
-      "target": "/urban-planning"
+      "source": "/practicals",
+      "target": "/teamwork"
     },
     {
-      "source": "/design",
-      "target": "/ux"
+      "source": "/practicals",
+      "target": "/communication"
     },
     {
-      "source": "/edebiyat",
-      "target": "/atasozleri"
+      "source": "/tools",
+      "target": "/keyboard-shortcuts"
     },
     {
-      "source": "/edebiyat",
-      "target": "/bilge-kagan"
+      "source": "/tools",
+      "target": "/links"
     },
     {
-      "source": "/edebiyat",
-      "target": "/dede-korkut"
+      "source": "/tools",
+      "target": "/site-stats"
     },
     {
-      "source": "/edebiyat",
-      "target": "/ince-memed"
+      "source": "/tools",
+      "target": "/typewriter"
     },
     {
-      "source": "/edebiyat",
-      "target": "/mutlu-olma-sanati"
+      "source": "/tools",
+      "target": "/checklists"
     },
     {
-      "source": "/edebiyat",
-      "target": "/puslu-kitalar-atlasi"
+      "source": "/tools",
+      "target": "/prompts"
     },
     {
-      "source": "/literature",
-      "target": "/authors"
+      "source": "/cinema",
+      "target": "/documentaries"
     },
     {
-      "source": "/literature",
-      "target": "/cien-anos-de-soledad"
+      "source": "/cinema",
+      "target": "/films"
     },
     {
-      "source": "/literature",
-      "target": "/classics"
-    },
-    {
-      "source": "/literature",
+      "source": "/language",
       "target": "/latin"
     },
     {
-      "source": "/literature",
-      "target": "/metaphors"
+      "source": "/language",
+      "target": "/literature"
     },
     {
-      "source": "/poetry",
-      "target": "/brecht"
+      "source": "/language",
+      "target": "/poetry"
     },
     {
-      "source": "/poetry",
-      "target": "/deep-roots"
+      "source": "/language",
+      "target": "/siir"
     },
     {
-      "source": "/poetry",
-      "target": "/do-not-go-gentle"
+      "source": "/language",
+      "target": "/turkce"
     },
     {
-      "source": "/poetry",
-      "target": "/find-time-to-just-be"
+      "source": "/philosophy",
+      "target": "/life"
     },
     {
-      "source": "/poetry",
-      "target": "/fire-and-ice"
-    },
-    {
-      "source": "/poetry",
-      "target": "/haikus"
-    },
-    {
-      "source": "/poetry",
-      "target": "/harlem"
-    },
-    {
-      "source": "/poetry",
-      "target": "/if"
-    },
-    {
-      "source": "/poetry",
-      "target": "/lightly-child"
-    },
-    {
-      "source": "/poetry",
-      "target": "/little-boy-old-man"
-    },
-    {
-      "source": "/poetry",
-      "target": "/mother-to-son"
-    },
-    {
-      "source": "/poetry",
-      "target": "/one-art"
-    },
-    {
-      "source": "/poetry",
-      "target": "/one-ring"
-    },
-    {
-      "source": "/poetry",
-      "target": "/ozymandias"
-    },
-    {
-      "source": "/poetry",
-      "target": "/saturday"
-    },
-    {
-      "source": "/poetry",
-      "target": "/soft-rains"
-    },
-    {
-      "source": "/poetry",
-      "target": "/tao"
-    },
-    {
-      "source": "/poetry",
-      "target": "/the-red-wheelbarrow"
-    },
-    {
-      "source": "/poetry",
-      "target": "/the-road-not-taken"
-    },
-    {
-      "source": "/poetry",
-      "target": "/the-second-coming"
-    },
-    {
-      "source": "/poetry",
-      "target": "/this-be-the-verse"
-    },
-    {
-      "source": "/poetry",
-      "target": "/to-be-or-not"
-    },
-    {
-      "source": "/poetry",
-      "target": "/uncut-wood"
-    },
-    {
-      "source": "/poetry",
-      "target": "/we-wear-the-mask"
-    },
-    {
-      "source": "/poetry",
-      "target": "/wei-wu-wei"
-    },
-    {
-      "source": "/poetry",
-      "target": "/wind-and-rain"
-    },
-    {
-      "source": "/siir",
-      "target": "/abbas"
-    },
-    {
-      "source": "/siir",
-      "target": "/alper-tunga"
-    },
-    {
-      "source": "/siir",
-      "target": "/asik-veysel"
-    },
-    {
-      "source": "/siir",
-      "target": "/bulent-ecevit"
-    },
-    {
-      "source": "/siir",
-      "target": "/can-yucel"
-    },
-    {
-      "source": "/siir",
-      "target": "/edip-cansever"
-    },
-    {
-      "source": "/siir",
-      "target": "/fuzuli"
-    },
-    {
-      "source": "/siir",
-      "target": "/melih-cevdet"
-    },
-    {
-      "source": "/siir",
-      "target": "/nazim"
-    },
-    {
-      "source": "/siir",
-      "target": "/orhan-veli"
-    },
-    {
-      "source": "/siir",
-      "target": "/yunus-emre"
+      "source": "/algorithms",
+      "target": "/100q"
     },
     {
       "source": "/algorithms",
@@ -3971,10 +3896,6 @@
     {
       "source": "/algorithms",
       "target": "/bit"
-    },
-    {
-      "source": "/algorithms",
-      "target": "/greedy"
     },
     {
       "source": "/algorithms",
@@ -3990,10 +3911,6 @@
     },
     {
       "source": "/algorithms",
-      "target": "/q100"
-    },
-    {
-      "source": "/algorithms",
       "target": "/sort"
     },
     {
@@ -4003,6 +3920,10 @@
     {
       "source": "/algorithms",
       "target": "/dynamic"
+    },
+    {
+      "source": "/algorithms",
+      "target": "/greedy"
     },
     {
       "source": "/algorithms",
@@ -4017,20 +3938,8 @@
       "target": "/tree"
     },
     {
-      "source": "/computer-networks",
-      "target": "/tcp-ip"
-    },
-    {
-      "source": "/data-structures",
-      "target": "/bloom-filters"
-    },
-    {
       "source": "/data-structures",
       "target": "/hash-table"
-    },
-    {
-      "source": "/data-structures",
-      "target": "/hyperloglog"
     },
     {
       "source": "/data-structures",
@@ -4038,15 +3947,7 @@
     },
     {
       "source": "/data-structures",
-      "target": "/probabilistic"
-    },
-    {
-      "source": "/data-structures",
       "target": "/sets"
-    },
-    {
-      "source": "/data-structures",
-      "target": "/skiplists"
     },
     {
       "source": "/data-structures",
@@ -4055,6 +3956,10 @@
     {
       "source": "/data-structures",
       "target": "/graph"
+    },
+    {
+      "source": "/data-structures",
+      "target": "/probabilistic"
     },
     {
       "source": "/data-structures",
@@ -4157,11 +4062,27 @@
       "target": "/distributed-patterns"
     },
     {
-      "source": "/machine-learning",
+      "source": "/ml",
+      "target": "/attention"
+    },
+    {
+      "source": "/ml",
+      "target": "/deep-learning"
+    },
+    {
+      "source": "/ml",
+      "target": "/diffusion"
+    },
+    {
+      "source": "/ml",
       "target": "/reinforcement-learning"
     },
     {
-      "source": "/operating-systems",
+      "source": "/net",
+      "target": "/tcp-ip"
+    },
+    {
+      "source": "/os",
       "target": "/containers"
     },
     {
@@ -4293,128 +4214,32 @@
       "target": "/system-design-basics"
     },
     {
-      "source": "/choice",
-      "target": "/be-good-to-each-other-and-yourself"
+      "source": "/design",
+      "target": "/on-design"
     },
     {
-      "source": "/choice",
-      "target": "/decision-making"
+      "source": "/design",
+      "target": "/urban-planning"
     },
     {
-      "source": "/choice",
-      "target": "/do-without-doing"
+      "source": "/design",
+      "target": "/ux"
     },
     {
-      "source": "/choice",
-      "target": "/exercise"
+      "source": "/economics",
+      "target": "/price-vs-value"
     },
     {
-      "source": "/choice",
-      "target": "/forgiving"
+      "source": "/history",
+      "target": "/agriculture"
     },
     {
-      "source": "/choice",
-      "target": "/free-will"
+      "source": "/history",
+      "target": "/rome"
     },
     {
-      "source": "/choice",
-      "target": "/friends"
-    },
-    {
-      "source": "/choice",
-      "target": "/gratitude"
-    },
-    {
-      "source": "/choice",
-      "target": "/habits"
-    },
-    {
-      "source": "/choice",
-      "target": "/health"
-    },
-    {
-      "source": "/choice",
-      "target": "/how-to-deal-with-pain"
-    },
-    {
-      "source": "/choice",
-      "target": "/know-where-to-stop"
-    },
-    {
-      "source": "/choice",
-      "target": "/less"
-    },
-    {
-      "source": "/choice",
-      "target": "/one-at-a-time"
-    },
-    {
-      "source": "/choice",
-      "target": "/optimism"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/all-is-one"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/balance"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/concepts-in-greek-thought"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/desire"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/enemies"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/epicurus"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/eudaimonia"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/freedom"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/good-and-evil"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/hard-times"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/revenge"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/stupidity"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/travelling"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/truth"
-    },
-    {
-      "source": "/checklists",
-      "target": "/driving"
-    },
-    {
-      "source": "/checklists",
-      "target": "/outdoors"
+      "source": "/history",
+      "target": "/timelines"
     },
     {
       "source": "/math",
@@ -4469,6 +4294,26 @@
       "target": "/psychopathy"
     },
     {
+      "source": "/philosophy",
+      "target": "/the-past"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/time"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/career"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/choice"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/people"
+    },
+    {
       "source": "/physics",
       "target": "/classical-physics"
     },
@@ -4485,20 +4330,12 @@
       "target": "/maxwell-equations"
     },
     {
-      "source": "/physics",
-      "target": "/solar-system"
-    },
-    {
       "source": "/politics",
       "target": "/climate-change"
     },
     {
       "source": "/politics",
       "target": "/down-and-around"
-    },
-    {
-      "source": "/politics",
-      "target": "/negotiations"
     },
     {
       "source": "/politics",
@@ -4510,7 +4347,7 @@
     },
     {
       "source": "/politics",
-      "target": "/pols-ideas"
+      "target": "/on-politics"
     },
     {
       "source": "/politics",
@@ -4534,15 +4371,7 @@
     },
     {
       "source": "/psychology",
-      "target": "/learning"
-    },
-    {
-      "source": "/psychology",
       "target": "/manipulation"
-    },
-    {
-      "source": "/psychology",
-      "target": "/parenting"
     },
     {
       "source": "/psychology",
@@ -4577,36 +4406,268 @@
       "target": "/social-media"
     },
     {
-      "source": "/ux",
-      "target": "/a-free-web-again"
+      "source": "/space",
+      "target": "/earth"
     },
     {
-      "source": "/ux",
-      "target": "/accessibility"
+      "source": "/space",
+      "target": "/solar-system"
     },
     {
-      "source": "/ux",
-      "target": "/evolution-of-computer-interfaces"
+      "source": "/graphs",
+      "target": "/calendar"
     },
     {
-      "source": "/ux",
-      "target": "/hijacked-minds"
+      "source": "/graphs",
+      "target": "/clocks"
     },
     {
-      "source": "/ux",
-      "target": "/natural-ux"
+      "source": "/graphs",
+      "target": "/graph-2d"
     },
     {
-      "source": "/ux",
-      "target": "/polished-pixels"
+      "source": "/graphs",
+      "target": "/graph-3d"
     },
     {
-      "source": "/ux",
-      "target": "/things-users-care"
+      "source": "/communication",
+      "target": "/conflict-resolution"
     },
     {
-      "source": "/ux",
-      "target": "/usability-testing"
+      "source": "/communication",
+      "target": "/listening"
+    },
+    {
+      "source": "/communication",
+      "target": "/negotiations"
+    },
+    {
+      "source": "/communication",
+      "target": "/persuasion"
+    },
+    {
+      "source": "/communication",
+      "target": "/speaking"
+    },
+    {
+      "source": "/checklists",
+      "target": "/driving"
+    },
+    {
+      "source": "/checklists",
+      "target": "/exercise"
+    },
+    {
+      "source": "/checklists",
+      "target": "/guitar"
+    },
+    {
+      "source": "/checklists",
+      "target": "/habits"
+    },
+    {
+      "source": "/checklists",
+      "target": "/health"
+    },
+    {
+      "source": "/checklists",
+      "target": "/outdoors"
+    },
+    {
+      "source": "/checklists",
+      "target": "/used-cars"
+    },
+    {
+      "source": "/prompts",
+      "target": "/long-prompt"
+    },
+    {
+      "source": "/prompts",
+      "target": "/short-prompt"
+    },
+    {
+      "source": "/literature",
+      "target": "/authors"
+    },
+    {
+      "source": "/literature",
+      "target": "/cien-anos-de-soledad"
+    },
+    {
+      "source": "/literature",
+      "target": "/classics"
+    },
+    {
+      "source": "/poetry",
+      "target": "/deep-roots"
+    },
+    {
+      "source": "/poetry",
+      "target": "/do-not-go-gentle"
+    },
+    {
+      "source": "/poetry",
+      "target": "/find-time-to-just-be"
+    },
+    {
+      "source": "/poetry",
+      "target": "/fire-and-ice"
+    },
+    {
+      "source": "/poetry",
+      "target": "/haikus"
+    },
+    {
+      "source": "/poetry",
+      "target": "/harlem"
+    },
+    {
+      "source": "/poetry",
+      "target": "/if"
+    },
+    {
+      "source": "/poetry",
+      "target": "/interrogation"
+    },
+    {
+      "source": "/poetry",
+      "target": "/lightly-child"
+    },
+    {
+      "source": "/poetry",
+      "target": "/little-boy-old-man"
+    },
+    {
+      "source": "/poetry",
+      "target": "/mother-to-son"
+    },
+    {
+      "source": "/poetry",
+      "target": "/one-art"
+    },
+    {
+      "source": "/poetry",
+      "target": "/one-ring"
+    },
+    {
+      "source": "/poetry",
+      "target": "/ozymandias"
+    },
+    {
+      "source": "/poetry",
+      "target": "/saturday"
+    },
+    {
+      "source": "/poetry",
+      "target": "/soft-rains"
+    },
+    {
+      "source": "/poetry",
+      "target": "/tao"
+    },
+    {
+      "source": "/poetry",
+      "target": "/the-red-wheelbarrow"
+    },
+    {
+      "source": "/poetry",
+      "target": "/the-road-not-taken"
+    },
+    {
+      "source": "/poetry",
+      "target": "/the-second-coming"
+    },
+    {
+      "source": "/poetry",
+      "target": "/this-be-the-verse"
+    },
+    {
+      "source": "/poetry",
+      "target": "/to-be-or-not"
+    },
+    {
+      "source": "/poetry",
+      "target": "/we-wear-the-mask"
+    },
+    {
+      "source": "/poetry",
+      "target": "/wei-wu-wei"
+    },
+    {
+      "source": "/poetry",
+      "target": "/wind-and-rain"
+    },
+    {
+      "source": "/siir",
+      "target": "/abbas"
+    },
+    {
+      "source": "/siir",
+      "target": "/alper-tunga"
+    },
+    {
+      "source": "/siir",
+      "target": "/asik-veysel"
+    },
+    {
+      "source": "/siir",
+      "target": "/bulent-ecevit"
+    },
+    {
+      "source": "/siir",
+      "target": "/can-yucel"
+    },
+    {
+      "source": "/siir",
+      "target": "/edip-cansever"
+    },
+    {
+      "source": "/siir",
+      "target": "/fuzuli"
+    },
+    {
+      "source": "/siir",
+      "target": "/melih-cevdet"
+    },
+    {
+      "source": "/siir",
+      "target": "/nazim"
+    },
+    {
+      "source": "/siir",
+      "target": "/orhan-veli"
+    },
+    {
+      "source": "/siir",
+      "target": "/yunus-emre"
+    },
+    {
+      "source": "/turkce",
+      "target": "/atasozleri"
+    },
+    {
+      "source": "/turkce",
+      "target": "/bilge-kagan"
+    },
+    {
+      "source": "/turkce",
+      "target": "/dede-korkut"
+    },
+    {
+      "source": "/turkce",
+      "target": "/ince-memed"
+    },
+    {
+      "source": "/turkce",
+      "target": "/mutlu-olma-sanati"
+    },
+    {
+      "source": "/turkce",
+      "target": "/puslu-kitalar-atlasi"
+    },
+    {
+      "source": "/life",
+      "target": "/the-wild-cat-way"
     },
     {
       "source": "/dynamic",
@@ -4626,11 +4687,11 @@
     },
     {
       "source": "/dynamic",
-      "target": "/lengthOfLIS"
+      "target": "/lcs"
     },
     {
       "source": "/dynamic",
-      "target": "/longest-common-subsequence"
+      "target": "/lengthOfLIS"
     },
     {
       "source": "/dynamic",
@@ -4667,6 +4728,14 @@
     {
       "source": "/dynamic",
       "target": "/word-break"
+    },
+    {
+      "source": "/greedy",
+      "target": "/least-interval"
+    },
+    {
+      "source": "/greedy",
+      "target": "/merge-intervals"
     },
     {
       "source": "/pointers",
@@ -4781,8 +4850,28 @@
       "target": "/dijkstra"
     },
     {
-      "source": "/queue",
-      "target": "/jump-game-2"
+      "source": "/probabilistic",
+      "target": "/bloom-filters"
+    },
+    {
+      "source": "/probabilistic",
+      "target": "/count-min-sketch"
+    },
+    {
+      "source": "/probabilistic",
+      "target": "/hyperloglog"
+    },
+    {
+      "source": "/probabilistic",
+      "target": "/minhash"
+    },
+    {
+      "source": "/probabilistic",
+      "target": "/reservoir-sampling"
+    },
+    {
+      "source": "/probabilistic",
+      "target": "/skiplists"
     },
     {
       "source": "/queue",
@@ -4957,8 +5046,148 @@
       "target": "/predict-movie-genres"
     },
     {
-      "source": "/accessibility",
-      "target": "/keyboard-shortcuts"
+      "source": "/ux",
+      "target": "/a-free-web-again"
+    },
+    {
+      "source": "/ux",
+      "target": "/accessibility"
+    },
+    {
+      "source": "/ux",
+      "target": "/evolution-of-computer-interfaces"
+    },
+    {
+      "source": "/ux",
+      "target": "/hijacked-minds"
+    },
+    {
+      "source": "/ux",
+      "target": "/natural-ux"
+    },
+    {
+      "source": "/ux",
+      "target": "/polished-pixels"
+    },
+    {
+      "source": "/ux",
+      "target": "/things-users-care"
+    },
+    {
+      "source": "/ux",
+      "target": "/usability-testing"
+    },
+    {
+      "source": "/career",
+      "target": "/nameless"
+    },
+    {
+      "source": "/career",
+      "target": "/wealth"
+    },
+    {
+      "source": "/career",
+      "target": "/what-to-work-on"
+    },
+    {
+      "source": "/choice",
+      "target": "/attitude"
+    },
+    {
+      "source": "/choice",
+      "target": "/balance"
+    },
+    {
+      "source": "/choice",
+      "target": "/be-good-to-each-other-and-yourself"
+    },
+    {
+      "source": "/choice",
+      "target": "/character"
+    },
+    {
+      "source": "/choice",
+      "target": "/desire"
+    },
+    {
+      "source": "/choice",
+      "target": "/free-will"
+    },
+    {
+      "source": "/choice",
+      "target": "/gratitude"
+    },
+    {
+      "source": "/choice",
+      "target": "/know-where-to-stop"
+    },
+    {
+      "source": "/choice",
+      "target": "/less"
+    },
+    {
+      "source": "/choice",
+      "target": "/one-at-a-time"
+    },
+    {
+      "source": "/choice",
+      "target": "/optimism"
+    },
+    {
+      "source": "/choice",
+      "target": "/wu-wei"
+    },
+    {
+      "source": "/life",
+      "target": "/ataraxia"
+    },
+    {
+      "source": "/life",
+      "target": "/eudaimonia"
+    },
+    {
+      "source": "/life",
+      "target": "/freedom"
+    },
+    {
+      "source": "/life",
+      "target": "/hard-times"
+    },
+    {
+      "source": "/life",
+      "target": "/how-to-deal-with-pain"
+    },
+    {
+      "source": "/life",
+      "target": "/travelling"
+    },
+    {
+      "source": "/life",
+      "target": "/wabi-sabi"
+    },
+    {
+      "source": "/people",
+      "target": "/all-is-one"
+    },
+    {
+      "source": "/people",
+      "target": "/enemies"
+    },
+    {
+      "source": "/people",
+      "target": "/friends"
+    },
+    {
+      "source": "/people",
+      "target": "/good-and-evil"
+    },
+    {
+      "source": "/people",
+      "target": "/stupidity"
+    },
+    {
+      "source": "/people",
+      "target": "/vengeance"
     },
     {
       "source": "/cien-anos-de-soledad",
@@ -4970,11 +5199,7 @@
     },
     {
       "source": "/lightly-child",
-      "target": "/do-without-doing"
-    },
-    {
-      "source": "/tao",
-      "target": "/uncut-wood"
+      "target": "/wu-wei"
     },
     {
       "source": "/tao",
@@ -4993,12 +5218,8 @@
       "target": "/bayes"
     },
     {
-      "source": "/longest-common-subsequence",
+      "source": "/lcs",
       "target": "/min-edit-distance"
-    },
-    {
-      "source": "/pointers",
-      "target": "/longest-valid-paranthesis"
     },
     {
       "source": "/search",
@@ -5042,10 +5263,6 @@
     },
     {
       "source": "/string",
-      "target": "/longest-valid-paranthesis"
-    },
-    {
-      "source": "/string",
       "target": "/trie"
     },
     {
@@ -5061,7 +5278,7 @@
       "target": "/replication"
     },
     {
-      "source": "/operating-systems",
+      "source": "/os",
       "target": "/logos-os"
     },
     {
@@ -5101,8 +5318,8 @@
       "target": "/hacker-laws"
     },
     {
-      "source": "/system-design",
-      "target": "/accessibility"
+      "source": "/akins-laws-of-spacecraft",
+      "target": "/polished-pixels"
     },
     {
       "source": "/system-design",
@@ -5110,103 +5327,23 @@
     },
     {
       "source": "/system-design",
+      "target": "/accessibility"
+    },
+    {
+      "source": "/system-design",
       "target": "/systems-thinking"
     },
     {
-      "source": "/exp",
-      "target": "/paintings"
+      "source": "/design",
+      "target": "/system-design"
     },
     {
-      "source": "/graph-3d",
-      "target": "/site-stats"
+      "source": "/accessibility",
+      "target": "/keyboard-shortcuts"
     },
     {
       "source": "/timelines",
       "target": "/climate-change"
-    },
-    {
-      "source": "/do-without-doing",
-      "target": "/one-at-a-time"
-    },
-    {
-      "source": "/less",
-      "target": "/desire"
-    },
-    {
-      "source": "/essais",
-      "target": "/be-good-to-each-other-and-yourself"
-    },
-    {
-      "source": "/essais",
-      "target": "/how-to-deal-with-pain"
-    },
-    {
-      "source": "/essais",
-      "target": "/who-goes-nazi"
-    },
-    {
-      "source": "/essais",
-      "target": "/being-poor"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/one-at-a-time"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/tao"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/the-art-of-war"
-    },
-    {
-      "source": "/reasoning",
-      "target": "/decision-making"
-    },
-    {
-      "source": "/time",
-      "target": "/calendar"
-    },
-    {
-      "source": "/time",
-      "target": "/clocks"
-    },
-    {
-      "source": "/time",
-      "target": "/hard-times"
-    },
-    {
-      "source": "/time",
-      "target": "/timelines"
-    },
-    {
-      "source": "/time",
-      "target": "/history"
-    },
-    {
-      "source": "/datasets",
-      "target": "/probability-and-statistics"
-    },
-    {
-      "source": "/lists",
-      "target": "/classics"
-    },
-    {
-      "source": "/lists",
-      "target": "/essais"
-    },
-    {
-      "source": "/lists",
-      "target": "/timelines"
-    },
-    {
-      "source": "/tools",
-      "target": "/exp"
-    },
-    {
-      "source": "/history",
-      "target": "/timelines"
     },
     {
       "source": "/bayes",
@@ -5217,12 +5354,76 @@
       "target": "/local-maximum"
     },
     {
+      "source": "/character",
+      "target": "/freedom"
+    },
+    {
+      "source": "/choice",
+      "target": "/cognitive-biases"
+    },
+    {
+      "source": "/choice",
+      "target": "/decision-making"
+    },
+    {
+      "source": "/wu-wei",
+      "target": "/problem-solving"
+    },
+    {
+      "source": "/hard-times",
+      "target": "/how-to-deal-with-pain"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/timelines"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/tao"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/politics"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/the-art-of-war"
+    },
+    {
+      "source": "/time",
+      "target": "/hard-times"
+    },
+    {
+      "source": "/time",
+      "target": "/history"
+    },
+    {
+      "source": "/time",
+      "target": "/the-past"
+    },
+    {
+      "source": "/time",
+      "target": "/calendar"
+    },
+    {
+      "source": "/time",
+      "target": "/clocks"
+    },
+    {
       "source": "/classical-physics",
       "target": "/maxwell-equations"
     },
     {
       "source": "/politics",
       "target": "/tao"
+    },
+    {
+      "source": "/cognitive-biases",
+      "target": "/decision-making"
+    },
+    {
+      "source": "/cognitive-biases",
+      "target": "/negotiations"
     },
     {
       "source": "/psychology",
@@ -5241,8 +5442,52 @@
       "target": "/psychopathy"
     },
     {
-      "source": "/science",
-      "target": "/reasoning"
+      "source": "/psychology",
+      "target": "/vengeance"
+    },
+    {
+      "source": "/psychology",
+      "target": "/conflict-resolution"
+    },
+    {
+      "source": "/psychology",
+      "target": "/persuasion"
+    },
+    {
+      "source": "/psychology",
+      "target": "/learning"
+    },
+    {
+      "source": "/psychology",
+      "target": "/parenting"
+    },
+    {
+      "source": "/exp",
+      "target": "/projects"
+    },
+    {
+      "source": "/graph-2d",
+      "target": "/site-stats"
+    },
+    {
+      "source": "/graph-3d",
+      "target": "/site-stats"
+    },
+    {
+      "source": "/practicals",
+      "target": "/design"
+    },
+    {
+      "source": "/practicals",
+      "target": "/engineering"
+    },
+    {
+      "source": "/practicals",
+      "target": "/programming"
+    },
+    {
+      "source": "/practicals",
+      "target": "/typewriter"
     }
   ]
 }
