@@ -1,7 +1,7 @@
 
 
 {% if page.backlinks.size > 0 %}
-<h2>Links to this page</h2>
+<h2>Links</h2>
 <ul>
     {% assign sorted = page.backlinks | sort: 'title' %}
     {% for doc in sorted %}
