@@ -15,7 +15,7 @@ layout: delta
 
 [Fields](/fields/)
 
-[Skills](/skills/)
+[Systems](/systems/)
 
 [Tools](/tools/)
 
