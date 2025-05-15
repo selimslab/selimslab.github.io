@@ -41,11 +41,13 @@ function switchTheme() {
     setTheme();
 }
 
-themeToggle.addEventListener('keydown', function(event) {
-    if (event.key === 'Enter') {
-      switchTheme();
-    }
-});
+if (themeToggle) {
+    themeToggle.addEventListener('keydown', function(event) {
+        if (event.key === 'Enter') {
+            switchTheme();
+        }
+    });
+}
 
 window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
     if (!localStorage.getItem(THEME)) {
