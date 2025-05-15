@@ -46,12 +46,13 @@ a {
   color: $lighterBlue
 }
 
-a:visited {
-  color: $lightViolet;
-}
+// a:visited {
+//   color: $lightViolet;
+// }
 
 a:hover {
-  color: $accent;
+  color: $highlight;
+  text-decoration: underline;
 }
 
 summary:hover {
@@ -265,52 +266,3 @@ html[data-theme='light'] {
   }
 }
 
-
-
-@keyframes shakex {
-
-  0%,
-  100% {
-    transform: translateX(0);
-  }
-
-  25% {
-    transform: translateX(-3px);
-  }
-
-  50% {
-    transform: translateX(3px);
-  }
-
-  75% {
-    transform: translateX(-3px);
-  }
-}
-
-@keyframes shakey {
-
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-
-  25% {
-    transform: translateY(-2px);
-  }
-
-  50% {
-    transform: translateY(2px);
-  }
-
-  75% {
-    transform: translateY(-2px);
-  }
-}
-
-.shakex {
-  animation: shakex 0.2s;
-}
-
-.shakey {
-  animation: shakey 0.2s;
-}
