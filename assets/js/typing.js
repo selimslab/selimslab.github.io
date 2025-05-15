@@ -80,6 +80,12 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 
     document.addEventListener('keydown', async (event) => {
+        console.log({
+            ctrlKey: event.ctrlKey,
+            altKey: event.altKey,
+            metaKey: event.metaKey,
+            key: event.key
+        });        
         event.preventDefault();
 
         if (isHandlingKeydown) return;
@@ -90,7 +96,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         } else if (event.key === 'Space') {
             typedText += ' ';
         }
-        else if (event.ctrlKey && event.key === 'Backspace' && typedText.length > 0) {
+        else if ((event.ctrlKey || event.altKey || event.metaKey) && event.key === 'Backspace' && typedText.length > 0) {
             let i = typedText.length - 1;
             while (i >= 0 && typedText[i] !== ' ') {
                 i--;
