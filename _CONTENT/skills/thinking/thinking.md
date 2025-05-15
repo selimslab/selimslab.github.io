@@ -5,6 +5,6 @@ layout: dir
 
 ## Links 
 
-[[neuroscience]]
+- [[neuroscience]]
 
-[[psychology]]
+- [[psychology]]
