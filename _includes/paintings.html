@@ -1,14 +1,28 @@
-
 <div class="art-container">
-    <img id="artwork" class="img-full"  tabindex="0" onclick="shuffleArt();"/>
-    <p id="description" class="img-alt"></p>
+    <img id="artwork" tabindex="0" onclick="shuffleArt();" />
+    <p id="description"></p>
 </div>
 
 <style>
     .art-container {
         height: 100vh;
         padding: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #artwork {
+        display: block;
+        max-height: 92vh;
+    }
+
+    #description {
+        font-family: "Atkinson Hyperlegible Mono", "Inconsolata", monospace;
+        text-align: center !important;
+        font-size: 0.85rem;
+        font-weight: 300;
     }
 </style>
 <script src="/assets/js/art.js"></script>
-
