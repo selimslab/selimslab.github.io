@@ -2,7 +2,7 @@ require 'json'
 require 'pp'
 
 DEBUG = false
-WRITE = true
+WRITE = false
 ROOT_PATH = "./_CONTENT".freeze
 ASSETS_PATH = "./assets".freeze
 STATIC_PATH = "#{ASSETS_PATH}/static".freeze
@@ -58,6 +58,7 @@ class SiteGenerator < Jekyll::Generator
   end
 
   def log_debug_data(tree, site)
+    return unless DEBUG
     write_json("#{DEBUG_PATH}/tree.json", tree)
     write_json("#{DEBUG_PATH}/tree_level_order.json", site.data["tree_level_order"])
     write_json("#{DEBUG_PATH}/tree_htmls.json", site.data["tree_htmls"])
