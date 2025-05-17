@@ -1,5 +1,5 @@
 ---
-title: If the Earth is a 45 years old
+title: If the Earth is 45 years old
 tags: time
 --- 
 
