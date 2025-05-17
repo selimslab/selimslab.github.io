@@ -1,7 +1,7 @@
 <!-- Simple Audio Player -->
 <div class="audio-player">
+  <div id="now-playing"></div>
     <audio id="audio-player" controls></audio>
-    <div id="now-playing"></div>
 </div>
 
 <div id="playlist"></div>
@@ -133,9 +133,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <style>
   .audio-player {
-    position: relative;
+    position: sticky;
+    top: 0;
     font-family: "Atkinson Hyperlegible Mono", "Inconsolata", monospace;
     font-size: 0.9rem;
+    background-color: #1b1c1d;
   }
   
   #audio-player {
@@ -144,6 +146,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   #now-playing {
     margin-left: 1rem;
+    padding-top: 1rem;
   }
   
   .track:hover {
