@@ -1,8 +1,6 @@
 require 'json'
 require 'pp'
 
-DEBUG = false
-WRITE = true
 ROOT_PATH = "./_CONTENT".freeze
 ASSETS_PATH = "./assets".freeze
 STATIC_PATH = "#{ASSETS_PATH}/static".freeze
@@ -41,7 +39,7 @@ class SiteGenerator < Jekyll::Generator
     site.data["urls"] = urls
     write_json("#{DATA_PATH}/urls.json", urls)
     
-    log_debug_data(tree, site) if DEBUG
+    log_debug_data(tree, site)
 
     @generated = true
   end
@@ -58,7 +56,6 @@ class SiteGenerator < Jekyll::Generator
   end
 
   def log_debug_data(tree, site)
-    return unless DEBUG
     write_json("#{DEBUG_PATH}/tree.json", tree)
     write_json("#{DEBUG_PATH}/tree_level_order.json", site.data["tree_level_order"])
     write_json("#{DEBUG_PATH}/tree_htmls.json", site.data["tree_htmls"])
@@ -498,7 +495,7 @@ class SiteGenerator < Jekyll::Generator
   private
 
   def write_json(path, data)
-    return unless WRITE
+    return if @generated
     # Write data as pretty-formatted JSON
     File.write(path, JSON.pretty_generate(data))
   rescue StandardError => e

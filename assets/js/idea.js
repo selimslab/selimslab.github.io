@@ -1,15 +1,17 @@
 let cachedIdeas = null;
+let currentFilename = null;
 
 const readIdeas = async (filename) => {
-  if (!cachedIdeas) {
+  if (!cachedIdeas || currentFilename !== filename) {
     try {
-      const response = await fetch(`/assets/data/${filename}.json`, {
+      const response = await fetch(`/assets/data/ideas/${filename}.json`, {
         headers: {
           'Content-Type': 'application/json',
           'cache': "force-cache"
         }
       });
       cachedIdeas = await response.json();
+      currentFilename = filename;
     } catch (error) {
       console.error("Error fetching ideas:", error);
       return;
@@ -17,22 +19,23 @@ const readIdeas = async (filename) => {
   }
 }
 
-const getIdeaIdx = () => {
-  const idx = localStorage.getItem('ideaIdx');
-  return idx ? parseInt(idx) : Math.floor(Math.random() * cachedIdeas.length);;
+const getIdeaIdx = (filename) => {
+  const idx = localStorage.getItem(`ideaIdx_${filename}`);
+  return idx ? parseInt(idx) : Math.floor(Math.random() * cachedIdeas.length);
 }
 
-const setIdeaIdx = (idx) => {
-  localStorage.setItem('ideaIdx', idx.toString());
+const setIdeaIdx = (filename, idx) => {
+  localStorage.setItem(`ideaIdx_${filename}`, idx.toString());
 }
 
 const getNextIdea = async (filename) => {
-  console.log("getNextIdea", filename);
+  if (!filename) {
+    const ideaFiles = ['lyrics', 'phil', 'humor', 'psy', 'work', 'pols', 'lit', 'films'];
+    filename = ideaFiles[Math.floor(Math.random() * ideaFiles.length)];
+  }
   await readIdeas(filename);
-  let idx = getIdeaIdx();
+  let idx = getIdeaIdx(filename);
   let nextIdx = (idx + 1) % cachedIdeas.length;
-  setIdeaIdx(nextIdx);
+  setIdeaIdx(filename, nextIdx);
   return cachedIdeas[idx];
 }
-
-
