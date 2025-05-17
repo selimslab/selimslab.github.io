@@ -497,6 +497,7 @@ class SiteGenerator < Jekyll::Generator
     return if @generated
     # Write data as pretty-formatted JSON
     File.write(path, JSON.pretty_generate(data))
+    puts "Wrote #{path}"
   rescue StandardError => e
     puts "Error writing JSON to #{path}: #{e.message}"
   end

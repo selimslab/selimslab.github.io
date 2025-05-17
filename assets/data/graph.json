@@ -8,6 +8,7 @@
         "/arts",
         "/draft",
         "/engineering",
+        "/exp",
         "/fields",
         "/systems",
         "/tools"
@@ -59,6 +60,19 @@
       ]
     },
     {
+      "id": "/exp",
+      "group": 1,
+      "name": "Experiments",
+      "links": [
+        "/root",
+        "/site-stats",
+        "/paintings",
+        "/projects",
+        "/player",
+        "/typewriter"
+      ]
+    },
+    {
       "id": "/fields",
       "group": 1,
       "name": "Fields",
@@ -102,7 +116,6 @@
         "/player",
         "/typewriter",
         "/checklists",
-        "/exp",
         "/interviews",
         "/viz"
       ]
@@ -384,6 +397,14 @@
       ]
     },
     {
+      "id": "/site-stats",
+      "group": 2,
+      "name": "Site Stats",
+      "links": [
+        "/exp"
+      ]
+    },
+    {
       "id": "/design",
       "group": 2,
       "name": "Design",
@@ -537,8 +558,7 @@
       "links": [
         "/fields",
         "/earth-interactive",
-        "/earth",
-        "/exp"
+        "/earth"
       ]
     },
     {
@@ -646,7 +666,8 @@
       "group": 2,
       "name": "Typewriter",
       "links": [
-        "/tools"
+        "/tools",
+        "/exp"
       ]
     },
     {
@@ -658,20 +679,6 @@
         "/driving",
         "/outdoors",
         "/used-cars"
-      ]
-    },
-    {
-      "id": "/exp",
-      "group": 2,
-      "name": "Experiments",
-      "links": [
-        "/tools",
-        "/site-stats",
-        "/paintings",
-        "/timelines",
-        "/space",
-        "/projects",
-        "/player"
       ]
     },
     {
@@ -1677,7 +1684,6 @@
       "links": [
         "/history",
         "/climate-change",
-        "/exp",
         "/time"
       ]
     },
@@ -2269,14 +2275,6 @@
       "name": "Used Cars",
       "links": [
         "/checklists"
-      ]
-    },
-    {
-      "id": "/site-stats",
-      "group": 3,
-      "name": "Site Stats",
-      "links": [
-        "/exp"
       ]
     },
     {
@@ -3820,6 +3818,10 @@
     },
     {
       "source": "/root",
+      "target": "/exp"
+    },
+    {
+      "source": "/root",
       "target": "/fields"
     },
     {
@@ -3915,6 +3917,10 @@
       "target": "/system-design"
     },
     {
+      "source": "/exp",
+      "target": "/site-stats"
+    },
+    {
       "source": "/fields",
       "target": "/design"
     },
@@ -4001,10 +4007,6 @@
     {
       "source": "/tools",
       "target": "/checklists"
-    },
-    {
-      "source": "/tools",
-      "target": "/exp"
     },
     {
       "source": "/tools",
@@ -4693,10 +4695,6 @@
     {
       "source": "/checklists",
       "target": "/used-cars"
-    },
-    {
-      "source": "/exp",
-      "target": "/site-stats"
     },
     {
       "source": "/interviews",
@@ -5591,6 +5589,18 @@
       "target": "/systems-thinking"
     },
     {
+      "source": "/exp",
+      "target": "/projects"
+    },
+    {
+      "source": "/exp",
+      "target": "/player"
+    },
+    {
+      "source": "/exp",
+      "target": "/typewriter"
+    },
+    {
       "source": "/design",
       "target": "/system-design"
     },
@@ -5601,10 +5611,6 @@
     {
       "source": "/timelines",
       "target": "/climate-change"
-    },
-    {
-      "source": "/timelines",
-      "target": "/exp"
     },
     {
       "source": "/bayes",
@@ -5715,20 +5721,8 @@
       "target": "/learning"
     },
     {
-      "source": "/space",
-      "target": "/exp"
-    },
-    {
       "source": "/cognitive-biases",
       "target": "/decision-making"
-    },
-    {
-      "source": "/exp",
-      "target": "/projects"
-    },
-    {
-      "source": "/exp",
-      "target": "/player"
     }
   ]
 }

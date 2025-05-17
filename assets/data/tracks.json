@@ -1,24 +1,34 @@
 {
   "classics": [
     "Black Sabbath - Paranoid",
+    "Bob Dylan - Mr. Tambourine Man",
     "California Dreamin'",
     "Carry On",
     "Dream On",
     "Dust in the Wind",
     "Fear of the Dark",
+    "Kansas - Carry On Wayward Son",
+    "Paint It, Black",
+    "Soldier Of Fortune - Deep Purple",
+    "Sting - Shape of My Heart",
+    "The Temple Of The King",
+    "White Room"
+  ],
+  "dance": [
+    "Alabina",
     "Freed from desire",
     "Laura Branigan - Self Control",
-    "Paint It, Black",
-    "Sting - Shape of My Heart",
-    "The Ketchup Song",
-    "The Temple Of The King"
+    "Michael Jackson - Billie Jean",
+    "Shakira - Hips Don't Lie",
+    "The Ketchup Song"
   ],
   "electronic": [
     "Agar Agar - You're High",
     "Avoure - Aura",
-    "Ben Böhmer feat Malou - Lost In Mind",
+    "David August - Epikur",
+    "Lost In Mind",
     "Solomun - Home",
-    "İpek İpekçioğlu - The Way I Do"
+    "Stavroz - The Finishing"
   ],
   "soundtrack": [
     "A Song of Ice and Fire",
@@ -37,23 +47,38 @@
     "Up Is Down"
   ],
   "turkce": [
+    "Barış Manço - Gamzedeyim",
+    "Barış Manço - Gül Pembe",
+    "Cem Karaca - Kara Bahtım",
     "Dedublüman - Sen Bilmezsin",
+    "Duman - Helal Olsun",
     "Duman - Yürekten",
-    "Müslüm Gürses & Duman - Olmadı Yar ｜ Harbiye Açıkhava",
-    "Pinhâni - Dünyadan Uzak"
+    "Dönence",
+    "Hey! Douglas - Ayva Çiçek Açmış ft. Gaye Su Akyol",
+    "Hey! Douglas ft. Göksel - Duruyor Dünya",
+    "Manuş Baba - Haberin Var Mı？",
+    "Müslüm Gürses & Duman - Olmadı Yar",
+    "Pinhâni - Dünyadan Uzak",
+    "mor ve ötesi - Sultan-ı Yegâh"
   ],
   "turku": [
+    "Al Fadimem ⧸ Cura",
     "Drama Köprüsü",
     "Eşkiya Dünyaya Hükümdar Olmaz",
     "Harmandali",
     "Hüdayda",
     "Kerimoğlu",
     "Mecaz - Tekeler Köyü Zeybeği",
+    "Neşet Ertaş - Ayaş Yolları I Bozkırın Tezenesi © 2020 Kalan Müzik",
     "Sivas Ellerinde Sazim Calinir"
   ],
   "world": [
+    "Candy Dulfer & David A. Stewart - Lily Was Here",
+    "Coffee Cold",
     "Four Winds - Adam Hurst",
     "Françoise Hardy - Le Temps de l'Amour",
-    "Nasimi"
+    "Masâr",
+    "Nasimi",
+    "İpek İpekçioğlu - The Way I Do"
   ]
 }
