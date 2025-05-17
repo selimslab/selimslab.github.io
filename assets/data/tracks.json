@@ -1,11 +1,4 @@
 {
-  "EDM": [
-    "Agar Agar - You're High",
-    "Avoure - Aura",
-    "Ben Böhmer feat Malou - Lost In Mind",
-    "Solomun - Home",
-    "İpek İpekçioğlu - The Way I Do"
-  ],
   "classics": [
     "Black Sabbath - Paranoid",
     "California Dreamin'",
@@ -19,6 +12,13 @@
     "Sting - Shape of My Heart",
     "The Ketchup Song",
     "The Temple Of The King"
+  ],
+  "electronic": [
+    "Agar Agar - You're High",
+    "Avoure - Aura",
+    "Ben Böhmer feat Malou - Lost In Mind",
+    "Solomun - Home",
+    "İpek İpekçioğlu - The Way I Do"
   ],
   "soundtrack": [
     "A Song of Ice and Fire",
