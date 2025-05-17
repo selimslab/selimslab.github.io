@@ -2,4 +2,4 @@
 layout: dir
 ---
 
-{% include ideas.html %}
+{% include ideas.html filename="lit" %}

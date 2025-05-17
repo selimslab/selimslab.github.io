@@ -7,3 +7,6 @@ layout: dir
 
 - [Tag: behavioral-psychology - Sketchplanations](https://sketchplanations.com/tags/behavioral-psychology)
 
+
+{% include ideas.html filename="psy" %}
+

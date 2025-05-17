@@ -1,9 +1,9 @@
 let cachedIdeas = null;
 
-const readIdeas = async () => {
+const readIdeas = async (filename) => {
   if (!cachedIdeas) {
     try {
-      const response = await fetch("/assets/data/ideas.json", {
+      const response = await fetch(`/assets/data/${filename}.json`, {
         headers: {
           'Content-Type': 'application/json',
           'cache': "force-cache"
@@ -26,8 +26,9 @@ const setIdeaIdx = (idx) => {
   localStorage.setItem('ideaIdx', idx.toString());
 }
 
-const getNextIdea = async () => {
-  await readIdeas();
+const getNextIdea = async (filename) => {
+  console.log("getNextIdea", filename);
+  await readIdeas(filename);
   let idx = getIdeaIdx();
   let nextIdx = (idx + 1) % cachedIdeas.length;
   setIdeaIdx(nextIdx);

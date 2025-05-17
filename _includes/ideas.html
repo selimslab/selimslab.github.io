@@ -1,11 +1,7 @@
 
 
 <br>
-<!-- <a class="machine" id="ideaMachine" title="Idea Machine" tabindex="0" onclick="setNextIdea();">🎰
-</a> -->
-
 <p id="random_idea" class="idea" tabindex="0" onclick="setNextIdea();"></p>
-
 
 <style>
   .idea {
@@ -24,9 +20,10 @@
 <script src="/assets/js/idea.js"></script>
 
 <script>
-
-  const setNextIdea = async () => {
-    document.getElementById("random_idea").innerHTML = await getNextIdea();
+  const filename = "{{ include.filename }}";
+  
+  const setNextIdea = async (filename) => {
+    document.getElementById("random_idea").innerHTML = await getNextIdea(filename);
   }
 
   document.addEventListener('DOMContentLoaded', async () => {
@@ -34,11 +31,11 @@
     
     idea.addEventListener('keydown', function (e) {
       if (e.key === 'Enter') {
-        setNextIdea();
+        setNextIdea(filename);
       }
     });
 
-    setNextIdea()
+    setNextIdea(filename);
   });
 
 </script>
