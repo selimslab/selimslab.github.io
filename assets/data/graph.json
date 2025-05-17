@@ -176,7 +176,6 @@
       "name": "Music",
       "links": [
         "/arts",
-        "/playlists",
         "/player"
       ]
     },
@@ -820,14 +819,6 @@
         "/ince-memed",
         "/mutlu-olma-sanati",
         "/puslu-kitalar-atlasi"
-      ]
-    },
-    {
-      "id": "/playlists",
-      "group": 3,
-      "name": "Playlists",
-      "links": [
-        "/music"
       ]
     },
     {
@@ -4051,10 +4042,6 @@
     {
       "source": "/literature",
       "target": "/turkce"
-    },
-    {
-      "source": "/music",
-      "target": "/playlists"
     },
     {
       "source": "/to-delta",
