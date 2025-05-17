@@ -1,10 +1,12 @@
 {
-  "Alternative": [
-    "Dedublüman - Sen Bilmezsin",
-    "Duman - Yürekten",
+  "EDM": [
+    "Agar Agar - You're High",
+    "Avoure - Aura",
+    "Ben Böhmer feat Malou - Lost In Mind",
+    "Solomun - Home",
     "İpek İpekçioğlu - The Way I Do"
   ],
-  "Classics": [
+  "classics": [
     "Black Sabbath - Paranoid",
     "California Dreamin'",
     "Carry On",
@@ -18,12 +20,7 @@
     "The Ketchup Song",
     "The Temple Of The King"
   ],
-  "House": [
-    "Agar Agar - You're High",
-    "Avoure - Aura",
-    "Solomun - Home"
-  ],
-  "Soundtrack": [
+  "soundtrack": [
     "A Song of Ice and Fire",
     "Enya - Only Time",
     "Hans Zimmer - No Time For Caution",
@@ -36,7 +33,13 @@
     "The Ride of the Rohirrim",
     "Up Is Down"
   ],
-  "Turku": [
+  "turkce": [
+    "Dedublüman - Sen Bilmezsin",
+    "Duman - Yürekten",
+    "Müslüm Gürses & Duman - Olmadı Yar ｜ Harbiye Açıkhava",
+    "Pinhâni - Dünyadan Uzak"
+  ],
+  "turku": [
     "Drama Köprüsü",
     "Eşkiya Dünyaya Hükümdar Olmaz",
     "Harmandali",
@@ -44,5 +47,10 @@
     "Kerimoğlu",
     "Mecaz - Tekeler Köyü Zeybeği",
     "Sivas Ellerinde Sazim Calinir"
+  ],
+  "world": [
+    "Four Winds - Adam Hurst",
+    "Françoise Hardy - Le Temps de l'Amour",
+    "Nasimi"
   ]
 }

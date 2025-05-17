@@ -7,7 +7,6 @@ STATIC_PATH = "#{ASSETS_PATH}/static".freeze
 DATA_PATH = "#{ASSETS_PATH}/data".freeze
 DEBUG_PATH = "./debug".freeze
 
-
 class SiteGenerator < Jekyll::Generator
   def initialize(config = {})
     @fixed_frontmatter = false
@@ -479,7 +478,7 @@ class SiteGenerator < Jekyll::Generator
     
     paths.each do |path|
       # Get genre from parent directory name
-      genre = File.basename(File.dirname(path)).capitalize
+      genre = File.basename(File.dirname(path))
       music_by_genre[genre] ||= []
       
       # Just use the filename without extension
