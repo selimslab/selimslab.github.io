@@ -1,5 +1,4 @@
 ---
-tags: phil
 layout: dir
 ---
 
