@@ -2,6 +2,7 @@ require 'json'
 require 'pp'
 
 DEBUG = false
+WRITE = true
 ROOT_PATH = "./_CONTENT".freeze
 ASSETS_PATH = "./assets".freeze
 STATIC_PATH = "#{ASSETS_PATH}/static".freeze
@@ -34,7 +35,7 @@ class SiteGenerator < Jekyll::Generator
     site.data["link_count"] = calculate_link_count(site, graph)
 
     update_artworks(site)
-    update_music(site)
+    write_json("#{DATA_PATH}/tracks.json", read_tracks)
 
     urls = site.documents.map { |doc| doc.url }.reject { |url| url.start_with?('.') }
     site.data["urls"] = urls
@@ -471,19 +472,7 @@ class SiteGenerator < Jekyll::Generator
     parent_doc.data['children'] << child_id
   end
 
-  def update_music(site)
-    # Get music data from music files
-    music = get_music
-    
-    # Write music data to JSON file
-    write_json(DATA_PATH, music)
-        
-    # Make music available in site data
-    site.data["music"] = music
-  end
-
-  def get_music
-    # Find all music files
+  def read_tracks
     paths = Dir.glob("#{STATIC_PATH}/music/**/*.{mp3,wav,ogg,flac}")
     paths.sort 
 
@@ -508,7 +497,7 @@ class SiteGenerator < Jekyll::Generator
   private
 
   def write_json(path, data)
-    return unless DEBUG
+    return unless WRITE
     # Write data as pretty-formatted JSON
     File.write(path, JSON.pretty_generate(data))
   rescue StandardError => e

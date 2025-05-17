@@ -8,8 +8,7 @@
         "/arts",
         "/engineering",
         "/fields",
-        "/misc",
-        "/practicals",
+        "/systems",
         "/tools"
       ]
     },
@@ -19,11 +18,12 @@
       "name": "Arts",
       "links": [
         "/root",
+        "/humor",
         "/paintings",
         "/photography",
         "/cinema",
-        "/language",
-        "/philosophy"
+        "/literature",
+        "/music"
       ]
     },
     {
@@ -38,12 +38,12 @@
         "/distributed-systems",
         "/ml",
         "/net",
+        "/nlp",
         "/os",
         "/programming",
         "/security",
         "/software-development",
-        "/system-design",
-        "/practicals"
+        "/system-design"
       ]
     },
     {
@@ -66,38 +66,17 @@
       ]
     },
     {
-      "id": "/misc",
+      "id": "/systems",
       "group": 1,
-      "name": "Misc",
+      "name": "Systems",
       "links": [
         "/root",
-        "/exp",
-        "/pub",
-        "/resume",
-        "/graphs"
-      ]
-    },
-    {
-      "id": "/practicals",
-      "group": 1,
-      "name": "Practicals",
-      "links": [
-        "/root",
-        "/critical-thinking",
-        "/decision-making",
-        "/get-things-done",
-        "/learning",
-        "/parenting",
-        "/practice",
-        "/problem-solving",
-        "/systems-thinking",
-        "/take-a-walk",
-        "/teamwork",
+        "/habits",
         "/communication",
-        "/design",
-        "/engineering",
-        "/programming",
-        "/typewriter"
+        "/health",
+        "/teamwork",
+        "/thinking",
+        "/work"
       ]
     },
     {
@@ -108,10 +87,20 @@
         "/root",
         "/keyboard-shortcuts",
         "/links",
-        "/site-stats",
+        "/player",
         "/typewriter",
         "/checklists",
-        "/prompts"
+        "/exp",
+        "/interviews",
+        "/viz"
+      ]
+    },
+    {
+      "id": "/humor",
+      "group": 2,
+      "name": "Humor",
+      "links": [
+        "/arts"
       ]
     },
     {
@@ -119,7 +108,8 @@
       "group": 2,
       "name": "Paintings",
       "links": [
-        "/arts"
+        "/arts",
+        "/exp"
       ]
     },
     {
@@ -141,35 +131,28 @@
       ]
     },
     {
-      "id": "/language",
+      "id": "/literature",
       "group": 2,
-      "name": "Language",
+      "name": "Literature",
       "links": [
         "/arts",
+        "/authors",
+        "/cien-anos-de-soledad",
+        "/classics",
         "/latin",
-        "/literature",
         "/poetry",
         "/siir",
         "/turkce"
       ]
     },
     {
-      "id": "/philosophy",
+      "id": "/music",
       "group": 2,
-      "name": "Philosophy",
+      "name": "Music",
       "links": [
         "/arts",
-        "/fields",
-        "/life",
-        "/the-past",
-        "/time",
-        "/career",
-        "/choice",
-        "/people",
-        "/timelines",
-        "/tao",
-        "/politics",
-        "/the-art-of-war"
+        "/playlists",
+        "/player"
       ]
     },
     {
@@ -273,6 +256,15 @@
       ]
     },
     {
+      "id": "/nlp",
+      "group": 2,
+      "name": "NLP",
+      "links": [
+        "/engineering",
+        "/prompts"
+      ]
+    },
+    {
       "id": "/os",
       "group": 2,
       "name": "Operating Systems",
@@ -296,8 +288,7 @@
         "/the-tao-of-programming",
         "/unicode",
         "/programming-languages",
-        "/projects",
-        "/practicals"
+        "/projects"
       ]
     },
     {
@@ -347,6 +338,7 @@
         "/system-design-basics",
         "/distributed-systems",
         "/accessibility",
+        "/ux",
         "/systems-thinking",
         "/design"
       ]
@@ -360,8 +352,7 @@
         "/on-design",
         "/urban-planning",
         "/ux",
-        "/system-design",
-        "/practicals"
+        "/system-design"
       ]
     },
     {
@@ -412,7 +403,22 @@
         "/fields",
         "/cortex",
         "/depression",
-        "/psychopathy"
+        "/psychopathy",
+        "/thinking"
+      ]
+    },
+    {
+      "id": "/philosophy",
+      "group": 2,
+      "name": "Philosophy",
+      "links": [
+        "/fields",
+        "/choice",
+        "/concepts",
+        "/people",
+        "/time",
+        "/tao",
+        "/the-art-of-war"
       ]
     },
     {
@@ -435,13 +441,13 @@
         "/fields",
         "/climate-change",
         "/down-and-around",
+        "/manipulation",
         "/noam-chomsky",
         "/obedience",
         "/on-politics",
         "/social-change",
         "/the-art-of-war",
         "/who-goes-nazi",
-        "/philosophy",
         "/tao"
       ]
     },
@@ -451,22 +457,25 @@
       "name": "Psychology",
       "links": [
         "/fields",
-        "/cognitive-biases",
         "/emotions",
-        "/manipulation",
+        "/parenting",
         "/procrastination",
         "/spot-a-liar",
         "/stress",
         "/teens",
+        "/ataraxia",
         "/free-will",
         "/hijacked-minds",
         "/inertia",
+        "/manipulation",
         "/psychopathy",
+        "/thinking",
         "/vengeance",
         "/conflict-resolution",
         "/persuasion",
-        "/learning",
-        "/parenting"
+        "/habits",
+        "/cognitive-biases",
+        "/learning"
       ]
     },
     {
@@ -487,131 +496,18 @@
       "name": "Space",
       "links": [
         "/fields",
+        "/earth-interactive",
         "/earth",
-        "/solar-system"
+        "/exp"
       ]
     },
     {
-      "id": "/exp",
+      "id": "/habits",
       "group": 2,
-      "name": "Experiments",
+      "name": "Habits",
       "links": [
-        "/misc",
-        "/projects"
-      ]
-    },
-    {
-      "id": "/pub",
-      "group": 2,
-      "name": "Pub",
-      "links": [
-        "/misc"
-      ]
-    },
-    {
-      "id": "/resume",
-      "group": 2,
-      "name": "Resume",
-      "links": [
-        "/misc"
-      ]
-    },
-    {
-      "id": "/graphs",
-      "group": 2,
-      "name": "Graphs",
-      "links": [
-        "/misc",
-        "/calendar",
-        "/clocks",
-        "/graph-2d",
-        "/graph-3d"
-      ]
-    },
-    {
-      "id": "/critical-thinking",
-      "group": 2,
-      "name": "Critical Thinking",
-      "links": [
-        "/practicals"
-      ]
-    },
-    {
-      "id": "/decision-making",
-      "group": 2,
-      "name": "Decision Making",
-      "links": [
-        "/practicals",
-        "/choice",
-        "/cognitive-biases"
-      ]
-    },
-    {
-      "id": "/get-things-done",
-      "group": 2,
-      "name": "Get Things Done",
-      "links": [
-        "/practicals"
-      ]
-    },
-    {
-      "id": "/learning",
-      "group": 2,
-      "name": "Learning",
-      "links": [
-        "/practicals",
+        "/systems",
         "/psychology"
-      ]
-    },
-    {
-      "id": "/parenting",
-      "group": 2,
-      "name": "Parenting",
-      "links": [
-        "/practicals",
-        "/psychology"
-      ]
-    },
-    {
-      "id": "/practice",
-      "group": 2,
-      "name": "Practice",
-      "links": [
-        "/practicals"
-      ]
-    },
-    {
-      "id": "/problem-solving",
-      "group": 2,
-      "name": "Problem Solving",
-      "links": [
-        "/practicals",
-        "/wu-wei"
-      ]
-    },
-    {
-      "id": "/systems-thinking",
-      "group": 2,
-      "name": "Systems Thinking",
-      "links": [
-        "/practicals",
-        "/system-design"
-      ]
-    },
-    {
-      "id": "/take-a-walk",
-      "group": 2,
-      "name": "Take a walk",
-      "links": [
-        "/practicals"
-      ]
-    },
-    {
-      "id": "/teamwork",
-      "group": 2,
-      "name": "Teamwork",
-      "links": [
-        "/practicals"
       ]
     },
     {
@@ -619,12 +515,63 @@
       "group": 2,
       "name": "Communication",
       "links": [
-        "/practicals",
+        "/systems",
         "/conflict-resolution",
         "/listening",
         "/negotiations",
         "/persuasion",
         "/speaking"
+      ]
+    },
+    {
+      "id": "/health",
+      "group": 2,
+      "name": "Health",
+      "links": [
+        "/systems",
+        "/exercise",
+        "/sleep",
+        "/take-a-walk"
+      ]
+    },
+    {
+      "id": "/teamwork",
+      "group": 2,
+      "name": "Teamwork",
+      "links": [
+        "/systems",
+        "/break-an-org",
+        "/get-things-done",
+        "/leadership",
+        "/on-teamwork",
+        "/some-mistakes"
+      ]
+    },
+    {
+      "id": "/thinking",
+      "group": 2,
+      "name": "Thinking",
+      "links": [
+        "/systems",
+        "/cognitive-biases",
+        "/critical-thinking",
+        "/decision-making",
+        "/learning",
+        "/problem-solving",
+        "/systems-thinking",
+        "/neuroscience",
+        "/psychology"
+      ]
+    },
+    {
+      "id": "/work",
+      "group": 2,
+      "name": "Work",
+      "links": [
+        "/systems",
+        "/nameless",
+        "/wealth",
+        "/what-to-work-on"
       ]
     },
     {
@@ -645,13 +592,13 @@
       ]
     },
     {
-      "id": "/site-stats",
+      "id": "/player",
       "group": 2,
-      "name": "Site Stats",
+      "name": "Player",
       "links": [
         "/tools",
-        "/graph-2d",
-        "/graph-3d"
+        "/music",
+        "/exp"
       ]
     },
     {
@@ -659,8 +606,7 @@
       "group": 2,
       "name": "Typewriter",
       "links": [
-        "/tools",
-        "/practicals"
+        "/tools"
       ]
     },
     {
@@ -670,22 +616,47 @@
       "links": [
         "/tools",
         "/driving",
-        "/exercise",
-        "/guitar",
-        "/habits",
-        "/health",
         "/outdoors",
         "/used-cars"
       ]
     },
     {
-      "id": "/prompts",
+      "id": "/exp",
       "group": 2,
-      "name": "Prompts",
+      "name": "Experiments",
       "links": [
         "/tools",
-        "/long-prompt",
-        "/short-prompt"
+        "/site-stats",
+        "/paintings",
+        "/timelines",
+        "/space",
+        "/projects",
+        "/player"
+      ]
+    },
+    {
+      "id": "/interviews",
+      "group": 2,
+      "name": "Interviews",
+      "links": [
+        "/tools",
+        "/behavioral",
+        "/pub",
+        "/questions",
+        "/resume",
+        "/stories"
+      ]
+    },
+    {
+      "id": "/viz",
+      "group": 2,
+      "name": "Viz",
+      "links": [
+        "/tools",
+        "/calendar",
+        "/clocks",
+        "/graph-2d",
+        "/graph-3d"
       ]
     },
     {
@@ -705,22 +676,37 @@
       ]
     },
     {
+      "id": "/authors",
+      "group": 3,
+      "name": "Authors",
+      "links": [
+        "/literature"
+      ]
+    },
+    {
+      "id": "/cien-anos-de-soledad",
+      "group": 3,
+      "name": "Cien Anos De Soledad",
+      "links": [
+        "/literature",
+        "/classics"
+      ]
+    },
+    {
+      "id": "/classics",
+      "group": 3,
+      "name": "Classics",
+      "links": [
+        "/literature",
+        "/cien-anos-de-soledad"
+      ]
+    },
+    {
       "id": "/latin",
       "group": 3,
       "name": "Latin",
       "links": [
-        "/language"
-      ]
-    },
-    {
-      "id": "/literature",
-      "group": 3,
-      "name": "Literature",
-      "links": [
-        "/language",
-        "/authors",
-        "/cien-anos-de-soledad",
-        "/classics"
+        "/literature"
       ]
     },
     {
@@ -728,7 +714,7 @@
       "group": 3,
       "name": "Poetry",
       "links": [
-        "/language",
+        "/literature",
         "/deep-roots",
         "/do-not-go-gentle",
         "/find-time-to-just-be",
@@ -761,7 +747,7 @@
       "group": 3,
       "name": "Siir",
       "links": [
-        "/language",
+        "/literature",
         "/abbas",
         "/alper-tunga",
         "/asik-veysel",
@@ -780,7 +766,7 @@
       "group": 3,
       "name": "Turkce",
       "links": [
-        "/language",
+        "/literature",
         "/atasozleri",
         "/bilge-kagan",
         "/dede-korkut",
@@ -790,19 +776,11 @@
       ]
     },
     {
-      "id": "/life",
+      "id": "/playlists",
       "group": 3,
-      "name": "Life",
+      "name": "Playlists",
       "links": [
-        "/philosophy",
-        "/the-wild-cat-way",
-        "/ataraxia",
-        "/eudaimonia",
-        "/freedom",
-        "/hard-times",
-        "/how-to-deal-with-pain",
-        "/travelling",
-        "/wabi-sabi"
+        "/music"
       ]
     },
     {
@@ -1283,6 +1261,16 @@
       ]
     },
     {
+      "id": "/prompts",
+      "group": 3,
+      "name": "Prompts",
+      "links": [
+        "/nlp",
+        "/long-prompt",
+        "/short-prompt"
+      ]
+    },
+    {
       "id": "/containers",
       "group": 3,
       "name": "Containers",
@@ -1588,7 +1576,7 @@
     {
       "id": "/ux",
       "group": 3,
-      "name": "UX",
+      "name": "UI/UX Design",
       "links": [
         "/design",
         "/a-free-web-again",
@@ -1598,7 +1586,8 @@
         "/natural-ux",
         "/polished-pixels",
         "/things-users-care",
-        "/usability-testing"
+        "/usability-testing",
+        "/system-design"
       ]
     },
     {
@@ -1628,11 +1617,12 @@
     {
       "id": "/timelines",
       "group": 3,
-      "name": "If the Earth is a 45 years old",
+      "name": "If the Earth is 45 years old",
       "links": [
         "/history",
         "/climate-change",
-        "/philosophy"
+        "/exp",
+        "/time"
       ]
     },
     {
@@ -1744,39 +1734,6 @@
       ]
     },
     {
-      "id": "/the-past",
-      "group": 3,
-      "name": "The Past",
-      "links": [
-        "/philosophy",
-        "/time"
-      ]
-    },
-    {
-      "id": "/time",
-      "group": 3,
-      "name": "Time",
-      "links": [
-        "/philosophy",
-        "/hard-times",
-        "/history",
-        "/the-past",
-        "/calendar",
-        "/clocks"
-      ]
-    },
-    {
-      "id": "/career",
-      "group": 3,
-      "name": "Career",
-      "links": [
-        "/philosophy",
-        "/nameless",
-        "/wealth",
-        "/what-to-work-on"
-      ]
-    },
-    {
       "id": "/choice",
       "group": 3,
       "name": "Choice",
@@ -1789,13 +1746,29 @@
         "/desire",
         "/free-will",
         "/gratitude",
+        "/how-to-deal-with-pain",
         "/know-where-to-stop",
         "/less",
         "/one-at-a-time",
         "/optimism",
+        "/practice",
+        "/the-wild-cat-way",
         "/wu-wei",
         "/cognitive-biases",
         "/decision-making"
+      ]
+    },
+    {
+      "id": "/concepts",
+      "group": 3,
+      "name": "Concepts",
+      "links": [
+        "/philosophy",
+        "/ataraxia",
+        "/eudaimonia",
+        "/freedom",
+        "/travelling",
+        "/wabi-sabi"
       ]
     },
     {
@@ -1810,6 +1783,19 @@
         "/good-and-evil",
         "/stupidity",
         "/vengeance"
+      ]
+    },
+    {
+      "id": "/time",
+      "group": 3,
+      "name": "Time",
+      "links": [
+        "/philosophy",
+        "/hard-times",
+        "/on-time",
+        "/the-past",
+        "/history",
+        "/timelines"
       ]
     },
     {
@@ -1865,6 +1851,15 @@
       ]
     },
     {
+      "id": "/manipulation",
+      "group": 3,
+      "name": "Manipulation",
+      "links": [
+        "/politics",
+        "/psychology"
+      ]
+    },
+    {
       "id": "/noam-chomsky",
       "group": 3,
       "name": "Noam Chomsky",
@@ -1914,17 +1909,6 @@
       ]
     },
     {
-      "id": "/cognitive-biases",
-      "group": 3,
-      "name": "Cognitive Biases",
-      "links": [
-        "/psychology",
-        "/choice",
-        "/decision-making",
-        "/negotiations"
-      ]
-    },
-    {
       "id": "/emotions",
       "group": 3,
       "name": "Emotions",
@@ -1933,9 +1917,9 @@
       ]
     },
     {
-      "id": "/manipulation",
+      "id": "/parenting",
       "group": 3,
-      "name": "Manipulation",
+      "name": "Parenting",
       "links": [
         "/psychology"
       ]
@@ -2005,55 +1989,19 @@
       ]
     },
     {
+      "id": "/earth-interactive",
+      "group": 3,
+      "name": "Earth Interactive",
+      "links": [
+        "/space"
+      ]
+    },
+    {
       "id": "/earth",
       "group": 3,
       "name": "Earth",
       "links": [
         "/space"
-      ]
-    },
-    {
-      "id": "/solar-system",
-      "group": 3,
-      "name": "Solar System",
-      "links": [
-        "/space"
-      ]
-    },
-    {
-      "id": "/calendar",
-      "group": 3,
-      "name": "Calendar",
-      "links": [
-        "/graphs",
-        "/time"
-      ]
-    },
-    {
-      "id": "/clocks",
-      "group": 3,
-      "name": "Clocks ⏱️",
-      "links": [
-        "/graphs",
-        "/time"
-      ]
-    },
-    {
-      "id": "/graph-2d",
-      "group": 3,
-      "name": "2D Graph of All Pages",
-      "links": [
-        "/graphs",
-        "/site-stats"
-      ]
-    },
-    {
-      "id": "/graph-3d",
-      "group": 3,
-      "name": "3D graph of all pages",
-      "links": [
-        "/graphs",
-        "/site-stats"
       ]
     },
     {
@@ -2078,8 +2026,7 @@
       "group": 3,
       "name": "Negotiations",
       "links": [
-        "/communication",
-        "/cognitive-biases"
+        "/communication"
       ]
     },
     {
@@ -2100,41 +2047,154 @@
       ]
     },
     {
-      "id": "/driving",
-      "group": 3,
-      "name": "Driving",
-      "links": [
-        "/checklists"
-      ]
-    },
-    {
       "id": "/exercise",
       "group": 3,
       "name": "Exercise",
       "links": [
-        "/checklists"
+        "/health"
       ]
     },
     {
-      "id": "/guitar",
+      "id": "/sleep",
       "group": 3,
-      "name": "Guitar",
+      "name": "Sleep",
       "links": [
-        "/checklists"
+        "/health"
       ]
     },
     {
-      "id": "/habits",
+      "id": "/take-a-walk",
       "group": 3,
-      "name": "Habits",
+      "name": "Take a walk",
       "links": [
-        "/checklists"
+        "/health"
       ]
     },
     {
-      "id": "/health",
+      "id": "/break-an-org",
       "group": 3,
-      "name": "Health",
+      "name": "Break An Org",
+      "links": [
+        "/teamwork"
+      ]
+    },
+    {
+      "id": "/get-things-done",
+      "group": 3,
+      "name": "Get Things Done",
+      "links": [
+        "/teamwork"
+      ]
+    },
+    {
+      "id": "/leadership",
+      "group": 3,
+      "name": "Leadership",
+      "links": [
+        "/teamwork"
+      ]
+    },
+    {
+      "id": "/on-teamwork",
+      "group": 3,
+      "name": "On Teamwork",
+      "links": [
+        "/teamwork"
+      ]
+    },
+    {
+      "id": "/some-mistakes",
+      "group": 3,
+      "name": "Some Mistakes",
+      "links": [
+        "/teamwork"
+      ]
+    },
+    {
+      "id": "/cognitive-biases",
+      "group": 3,
+      "name": "Cognitive Biases",
+      "links": [
+        "/thinking",
+        "/choice",
+        "/psychology",
+        "/decision-making"
+      ]
+    },
+    {
+      "id": "/critical-thinking",
+      "group": 3,
+      "name": "Critical Thinking",
+      "links": [
+        "/thinking"
+      ]
+    },
+    {
+      "id": "/decision-making",
+      "group": 3,
+      "name": "Decision Making",
+      "links": [
+        "/thinking",
+        "/choice",
+        "/cognitive-biases"
+      ]
+    },
+    {
+      "id": "/learning",
+      "group": 3,
+      "name": "Learning",
+      "links": [
+        "/thinking",
+        "/psychology"
+      ]
+    },
+    {
+      "id": "/problem-solving",
+      "group": 3,
+      "name": "Problem Solving",
+      "links": [
+        "/thinking",
+        "/wu-wei"
+      ]
+    },
+    {
+      "id": "/systems-thinking",
+      "group": 3,
+      "name": "Systems Thinking",
+      "links": [
+        "/thinking",
+        "/system-design"
+      ]
+    },
+    {
+      "id": "/nameless",
+      "group": 3,
+      "name": "Nameless",
+      "links": [
+        "/work"
+      ]
+    },
+    {
+      "id": "/wealth",
+      "group": 3,
+      "name": "Wealth",
+      "links": [
+        "/work",
+        "/be-good-to-each-other-and-yourself"
+      ]
+    },
+    {
+      "id": "/what-to-work-on",
+      "group": 3,
+      "name": "What To Work On",
+      "links": [
+        "/work"
+      ]
+    },
+    {
+      "id": "/driving",
+      "group": 3,
+      "name": "Driving",
       "links": [
         "/checklists"
       ]
@@ -2156,45 +2216,83 @@
       ]
     },
     {
-      "id": "/long-prompt",
+      "id": "/site-stats",
       "group": 3,
-      "name": "Long Prompt",
+      "name": "Site Stats",
       "links": [
-        "/prompts"
+        "/exp"
       ]
     },
     {
-      "id": "/short-prompt",
+      "id": "/behavioral",
       "group": 3,
-      "name": "Short Prompt",
+      "name": "Behavioral",
       "links": [
-        "/prompts"
+        "/interviews"
       ]
     },
     {
-      "id": "/authors",
-      "group": 4,
-      "name": "Authors",
+      "id": "/pub",
+      "group": 3,
+      "name": "Pub",
       "links": [
-        "/literature"
+        "/interviews"
       ]
     },
     {
-      "id": "/cien-anos-de-soledad",
-      "group": 4,
-      "name": "Cien Anos De Soledad",
+      "id": "/questions",
+      "group": 3,
+      "name": "Questions",
       "links": [
-        "/literature",
-        "/classics"
+        "/interviews"
       ]
     },
     {
-      "id": "/classics",
-      "group": 4,
-      "name": "Classics",
+      "id": "/resume",
+      "group": 3,
+      "name": "Resume",
       "links": [
-        "/literature",
-        "/cien-anos-de-soledad"
+        "/interviews"
+      ]
+    },
+    {
+      "id": "/stories",
+      "group": 3,
+      "name": "Stories",
+      "links": [
+        "/interviews"
+      ]
+    },
+    {
+      "id": "/calendar",
+      "group": 3,
+      "name": "Calendar",
+      "links": [
+        "/viz"
+      ]
+    },
+    {
+      "id": "/clocks",
+      "group": 3,
+      "name": "Clocks ⏱️",
+      "links": [
+        "/viz"
+      ]
+    },
+    {
+      "id": "/graph-2d",
+      "group": 3,
+      "name": "2D Graph of All Pages",
+      "links": [
+        "/viz"
+      ]
+    },
+    {
+      "id": "/graph-3d",
+      "group": 3,
+      "name": "3D graph of all pages",
+      "links": [
+        "/viz"
       ]
     },
     {
@@ -2541,14 +2639,6 @@
       "name": "Puslu Kitalar Atlasi",
       "links": [
         "/turkce"
-      ]
-    },
-    {
-      "id": "/the-wild-cat-way",
-      "group": 4,
-      "name": "The Wild Cat Way",
-      "links": [
-        "/life"
       ]
     },
     {
@@ -3173,6 +3263,22 @@
       ]
     },
     {
+      "id": "/long-prompt",
+      "group": 4,
+      "name": "Long Prompt",
+      "links": [
+        "/prompts"
+      ]
+    },
+    {
+      "id": "/short-prompt",
+      "group": 4,
+      "name": "Short Prompt",
+      "links": [
+        "/prompts"
+      ]
+    },
+    {
       "id": "/c#",
       "group": 4,
       "name": "C#",
@@ -3402,30 +3508,6 @@
       ]
     },
     {
-      "id": "/nameless",
-      "group": 4,
-      "name": "Nameless",
-      "links": [
-        "/career"
-      ]
-    },
-    {
-      "id": "/wealth",
-      "group": 4,
-      "name": "Wealth",
-      "links": [
-        "/career"
-      ]
-    },
-    {
-      "id": "/what-to-work-on",
-      "group": 4,
-      "name": "What To Work On",
-      "links": [
-        "/career"
-      ]
-    },
-    {
       "id": "/attitude",
       "group": 4,
       "name": "Attitude",
@@ -3446,7 +3528,8 @@
       "group": 4,
       "name": "Be Good To Each Other And Yourself",
       "links": [
-        "/choice"
+        "/choice",
+        "/wealth"
       ]
     },
     {
@@ -3479,6 +3562,14 @@
       "id": "/gratitude",
       "group": 4,
       "name": "Gratitude",
+      "links": [
+        "/choice"
+      ]
+    },
+    {
+      "id": "/how-to-deal-with-pain",
+      "group": 4,
+      "name": "How to deal with Extreme Physical Pain",
       "links": [
         "/choice"
       ]
@@ -3517,6 +3608,22 @@
       ]
     },
     {
+      "id": "/practice",
+      "group": 4,
+      "name": "Practice",
+      "links": [
+        "/choice"
+      ]
+    },
+    {
+      "id": "/the-wild-cat-way",
+      "group": 4,
+      "name": "The Wild Cat Way",
+      "links": [
+        "/choice"
+      ]
+    },
+    {
       "id": "/wu-wei",
       "group": 4,
       "name": "Wu Wei 無爲",
@@ -3531,7 +3638,8 @@
       "group": 4,
       "name": "Ataraxia",
       "links": [
-        "/life"
+        "/concepts",
+        "/psychology"
       ]
     },
     {
@@ -3539,7 +3647,7 @@
       "group": 4,
       "name": "Eudaimonia",
       "links": [
-        "/life"
+        "/concepts"
       ]
     },
     {
@@ -3547,27 +3655,8 @@
       "group": 4,
       "name": "Freedom",
       "links": [
-        "/life",
+        "/concepts",
         "/character"
-      ]
-    },
-    {
-      "id": "/hard-times",
-      "group": 4,
-      "name": "Hard Times",
-      "links": [
-        "/life",
-        "/how-to-deal-with-pain",
-        "/time"
-      ]
-    },
-    {
-      "id": "/how-to-deal-with-pain",
-      "group": 4,
-      "name": "How to deal with Extreme Physical Pain",
-      "links": [
-        "/life",
-        "/hard-times"
       ]
     },
     {
@@ -3575,7 +3664,7 @@
       "group": 4,
       "name": "Travelling",
       "links": [
-        "/life"
+        "/concepts"
       ]
     },
     {
@@ -3583,7 +3672,7 @@
       "group": 4,
       "name": "Wabi Sabi",
       "links": [
-        "/life"
+        "/concepts"
       ]
     },
     {
@@ -3634,6 +3723,30 @@
         "/people",
         "/psychology"
       ]
+    },
+    {
+      "id": "/hard-times",
+      "group": 4,
+      "name": "Hard Times",
+      "links": [
+        "/time"
+      ]
+    },
+    {
+      "id": "/on-time",
+      "group": 4,
+      "name": "On Time",
+      "links": [
+        "/time"
+      ]
+    },
+    {
+      "id": "/the-past",
+      "group": 4,
+      "name": "The Past",
+      "links": [
+        "/time"
+      ]
     }
   ],
   "links": [
@@ -3651,15 +3764,15 @@
     },
     {
       "source": "/root",
-      "target": "/misc"
-    },
-    {
-      "source": "/root",
-      "target": "/practicals"
+      "target": "/systems"
     },
     {
       "source": "/root",
       "target": "/tools"
+    },
+    {
+      "source": "/arts",
+      "target": "/humor"
     },
     {
       "source": "/arts",
@@ -3675,11 +3788,11 @@
     },
     {
       "source": "/arts",
-      "target": "/language"
+      "target": "/literature"
     },
     {
       "source": "/arts",
-      "target": "/philosophy"
+      "target": "/music"
     },
     {
       "source": "/engineering",
@@ -3704,6 +3817,10 @@
     {
       "source": "/engineering",
       "target": "/net"
+    },
+    {
+      "source": "/engineering",
+      "target": "/nlp"
     },
     {
       "source": "/engineering",
@@ -3770,64 +3887,28 @@
       "target": "/space"
     },
     {
-      "source": "/misc",
-      "target": "/exp"
+      "source": "/systems",
+      "target": "/habits"
     },
     {
-      "source": "/misc",
-      "target": "/pub"
+      "source": "/systems",
+      "target": "/communication"
     },
     {
-      "source": "/misc",
-      "target": "/resume"
+      "source": "/systems",
+      "target": "/health"
     },
     {
-      "source": "/misc",
-      "target": "/graphs"
-    },
-    {
-      "source": "/practicals",
-      "target": "/critical-thinking"
-    },
-    {
-      "source": "/practicals",
-      "target": "/decision-making"
-    },
-    {
-      "source": "/practicals",
-      "target": "/get-things-done"
-    },
-    {
-      "source": "/practicals",
-      "target": "/learning"
-    },
-    {
-      "source": "/practicals",
-      "target": "/parenting"
-    },
-    {
-      "source": "/practicals",
-      "target": "/practice"
-    },
-    {
-      "source": "/practicals",
-      "target": "/problem-solving"
-    },
-    {
-      "source": "/practicals",
-      "target": "/systems-thinking"
-    },
-    {
-      "source": "/practicals",
-      "target": "/take-a-walk"
-    },
-    {
-      "source": "/practicals",
+      "source": "/systems",
       "target": "/teamwork"
     },
     {
-      "source": "/practicals",
-      "target": "/communication"
+      "source": "/systems",
+      "target": "/thinking"
+    },
+    {
+      "source": "/systems",
+      "target": "/work"
     },
     {
       "source": "/tools",
@@ -3839,7 +3920,7 @@
     },
     {
       "source": "/tools",
-      "target": "/site-stats"
+      "target": "/player"
     },
     {
       "source": "/tools",
@@ -3851,7 +3932,15 @@
     },
     {
       "source": "/tools",
-      "target": "/prompts"
+      "target": "/exp"
+    },
+    {
+      "source": "/tools",
+      "target": "/interviews"
+    },
+    {
+      "source": "/tools",
+      "target": "/viz"
     },
     {
       "source": "/cinema",
@@ -3862,28 +3951,36 @@
       "target": "/films"
     },
     {
-      "source": "/language",
+      "source": "/literature",
+      "target": "/authors"
+    },
+    {
+      "source": "/literature",
+      "target": "/cien-anos-de-soledad"
+    },
+    {
+      "source": "/literature",
+      "target": "/classics"
+    },
+    {
+      "source": "/literature",
       "target": "/latin"
     },
     {
-      "source": "/language",
-      "target": "/literature"
-    },
-    {
-      "source": "/language",
+      "source": "/literature",
       "target": "/poetry"
     },
     {
-      "source": "/language",
+      "source": "/literature",
       "target": "/siir"
     },
     {
-      "source": "/language",
+      "source": "/literature",
       "target": "/turkce"
     },
     {
-      "source": "/philosophy",
-      "target": "/life"
+      "source": "/music",
+      "target": "/playlists"
     },
     {
       "source": "/algorithms",
@@ -4080,6 +4177,10 @@
     {
       "source": "/net",
       "target": "/tcp-ip"
+    },
+    {
+      "source": "/nlp",
+      "target": "/prompts"
     },
     {
       "source": "/os",
@@ -4295,23 +4396,19 @@
     },
     {
       "source": "/philosophy",
-      "target": "/the-past"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/time"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/career"
-    },
-    {
-      "source": "/philosophy",
       "target": "/choice"
     },
     {
       "source": "/philosophy",
+      "target": "/concepts"
+    },
+    {
+      "source": "/philosophy",
       "target": "/people"
+    },
+    {
+      "source": "/philosophy",
+      "target": "/time"
     },
     {
       "source": "/physics",
@@ -4339,6 +4436,10 @@
     },
     {
       "source": "/politics",
+      "target": "/manipulation"
+    },
+    {
+      "source": "/politics",
       "target": "/noam-chomsky"
     },
     {
@@ -4363,15 +4464,11 @@
     },
     {
       "source": "/psychology",
-      "target": "/cognitive-biases"
-    },
-    {
-      "source": "/psychology",
       "target": "/emotions"
     },
     {
       "source": "/psychology",
-      "target": "/manipulation"
+      "target": "/parenting"
     },
     {
       "source": "/psychology",
@@ -4407,27 +4504,11 @@
     },
     {
       "source": "/space",
-      "target": "/earth"
+      "target": "/earth-interactive"
     },
     {
       "source": "/space",
-      "target": "/solar-system"
-    },
-    {
-      "source": "/graphs",
-      "target": "/calendar"
-    },
-    {
-      "source": "/graphs",
-      "target": "/clocks"
-    },
-    {
-      "source": "/graphs",
-      "target": "/graph-2d"
-    },
-    {
-      "source": "/graphs",
-      "target": "/graph-3d"
+      "target": "/earth"
     },
     {
       "source": "/communication",
@@ -4450,24 +4531,76 @@
       "target": "/speaking"
     },
     {
-      "source": "/checklists",
-      "target": "/driving"
-    },
-    {
-      "source": "/checklists",
+      "source": "/health",
       "target": "/exercise"
     },
     {
-      "source": "/checklists",
-      "target": "/guitar"
+      "source": "/health",
+      "target": "/sleep"
+    },
+    {
+      "source": "/health",
+      "target": "/take-a-walk"
+    },
+    {
+      "source": "/teamwork",
+      "target": "/break-an-org"
+    },
+    {
+      "source": "/teamwork",
+      "target": "/get-things-done"
+    },
+    {
+      "source": "/teamwork",
+      "target": "/leadership"
+    },
+    {
+      "source": "/teamwork",
+      "target": "/on-teamwork"
+    },
+    {
+      "source": "/teamwork",
+      "target": "/some-mistakes"
+    },
+    {
+      "source": "/thinking",
+      "target": "/cognitive-biases"
+    },
+    {
+      "source": "/thinking",
+      "target": "/critical-thinking"
+    },
+    {
+      "source": "/thinking",
+      "target": "/decision-making"
+    },
+    {
+      "source": "/thinking",
+      "target": "/learning"
+    },
+    {
+      "source": "/thinking",
+      "target": "/problem-solving"
+    },
+    {
+      "source": "/thinking",
+      "target": "/systems-thinking"
+    },
+    {
+      "source": "/work",
+      "target": "/nameless"
+    },
+    {
+      "source": "/work",
+      "target": "/wealth"
+    },
+    {
+      "source": "/work",
+      "target": "/what-to-work-on"
     },
     {
       "source": "/checklists",
-      "target": "/habits"
-    },
-    {
-      "source": "/checklists",
-      "target": "/health"
+      "target": "/driving"
     },
     {
       "source": "/checklists",
@@ -4478,24 +4611,44 @@
       "target": "/used-cars"
     },
     {
-      "source": "/prompts",
-      "target": "/long-prompt"
+      "source": "/exp",
+      "target": "/site-stats"
     },
     {
-      "source": "/prompts",
-      "target": "/short-prompt"
+      "source": "/interviews",
+      "target": "/behavioral"
     },
     {
-      "source": "/literature",
-      "target": "/authors"
+      "source": "/interviews",
+      "target": "/pub"
     },
     {
-      "source": "/literature",
-      "target": "/cien-anos-de-soledad"
+      "source": "/interviews",
+      "target": "/questions"
     },
     {
-      "source": "/literature",
-      "target": "/classics"
+      "source": "/interviews",
+      "target": "/resume"
+    },
+    {
+      "source": "/interviews",
+      "target": "/stories"
+    },
+    {
+      "source": "/viz",
+      "target": "/calendar"
+    },
+    {
+      "source": "/viz",
+      "target": "/clocks"
+    },
+    {
+      "source": "/viz",
+      "target": "/graph-2d"
+    },
+    {
+      "source": "/viz",
+      "target": "/graph-3d"
     },
     {
       "source": "/poetry",
@@ -4664,10 +4817,6 @@
     {
       "source": "/turkce",
       "target": "/puslu-kitalar-atlasi"
-    },
-    {
-      "source": "/life",
-      "target": "/the-wild-cat-way"
     },
     {
       "source": "/dynamic",
@@ -4974,6 +5123,14 @@
       "target": "/node-recovery"
     },
     {
+      "source": "/prompts",
+      "target": "/long-prompt"
+    },
+    {
+      "source": "/prompts",
+      "target": "/short-prompt"
+    },
+    {
       "source": "/programming-languages",
       "target": "/c#"
     },
@@ -5078,18 +5235,6 @@
       "target": "/usability-testing"
     },
     {
-      "source": "/career",
-      "target": "/nameless"
-    },
-    {
-      "source": "/career",
-      "target": "/wealth"
-    },
-    {
-      "source": "/career",
-      "target": "/what-to-work-on"
-    },
-    {
       "source": "/choice",
       "target": "/attitude"
     },
@@ -5119,6 +5264,10 @@
     },
     {
       "source": "/choice",
+      "target": "/how-to-deal-with-pain"
+    },
+    {
+      "source": "/choice",
       "target": "/know-where-to-stop"
     },
     {
@@ -5135,34 +5284,34 @@
     },
     {
       "source": "/choice",
+      "target": "/practice"
+    },
+    {
+      "source": "/choice",
+      "target": "/the-wild-cat-way"
+    },
+    {
+      "source": "/choice",
       "target": "/wu-wei"
     },
     {
-      "source": "/life",
+      "source": "/concepts",
       "target": "/ataraxia"
     },
     {
-      "source": "/life",
+      "source": "/concepts",
       "target": "/eudaimonia"
     },
     {
-      "source": "/life",
+      "source": "/concepts",
       "target": "/freedom"
     },
     {
-      "source": "/life",
-      "target": "/hard-times"
-    },
-    {
-      "source": "/life",
-      "target": "/how-to-deal-with-pain"
-    },
-    {
-      "source": "/life",
+      "source": "/concepts",
       "target": "/travelling"
     },
     {
-      "source": "/life",
+      "source": "/concepts",
       "target": "/wabi-sabi"
     },
     {
@@ -5190,6 +5339,18 @@
       "target": "/vengeance"
     },
     {
+      "source": "/time",
+      "target": "/hard-times"
+    },
+    {
+      "source": "/time",
+      "target": "/on-time"
+    },
+    {
+      "source": "/time",
+      "target": "/the-past"
+    },
+    {
       "source": "/cien-anos-de-soledad",
       "target": "/classics"
     },
@@ -5212,6 +5373,14 @@
     {
       "source": "/wind-and-rain",
       "target": "/know-where-to-stop"
+    },
+    {
+      "source": "/music",
+      "target": "/player"
+    },
+    {
+      "source": "/paintings",
+      "target": "/exp"
     },
     {
       "source": "/algorithms",
@@ -5331,6 +5500,10 @@
     },
     {
       "source": "/system-design",
+      "target": "/ux"
+    },
+    {
+      "source": "/system-design",
       "target": "/systems-thinking"
     },
     {
@@ -5346,12 +5519,24 @@
       "target": "/climate-change"
     },
     {
+      "source": "/timelines",
+      "target": "/exp"
+    },
+    {
       "source": "/bayes",
       "target": "/probability-and-statistics"
     },
     {
       "source": "/math",
       "target": "/local-maximum"
+    },
+    {
+      "source": "/neuroscience",
+      "target": "/thinking"
+    },
+    {
+      "source": "/be-good-to-each-other-and-yourself",
+      "target": "/wealth"
     },
     {
       "source": "/character",
@@ -5370,20 +5555,8 @@
       "target": "/problem-solving"
     },
     {
-      "source": "/hard-times",
-      "target": "/how-to-deal-with-pain"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/timelines"
-    },
-    {
       "source": "/philosophy",
       "target": "/tao"
-    },
-    {
-      "source": "/philosophy",
-      "target": "/politics"
     },
     {
       "source": "/philosophy",
@@ -5391,23 +5564,11 @@
     },
     {
       "source": "/time",
-      "target": "/hard-times"
-    },
-    {
-      "source": "/time",
       "target": "/history"
     },
     {
       "source": "/time",
-      "target": "/the-past"
-    },
-    {
-      "source": "/time",
-      "target": "/calendar"
-    },
-    {
-      "source": "/time",
-      "target": "/clocks"
+      "target": "/timelines"
     },
     {
       "source": "/classical-physics",
@@ -5418,12 +5579,8 @@
       "target": "/tao"
     },
     {
-      "source": "/cognitive-biases",
-      "target": "/decision-making"
-    },
-    {
-      "source": "/cognitive-biases",
-      "target": "/negotiations"
+      "source": "/psychology",
+      "target": "/ataraxia"
     },
     {
       "source": "/psychology",
@@ -5439,7 +5596,15 @@
     },
     {
       "source": "/psychology",
+      "target": "/manipulation"
+    },
+    {
+      "source": "/psychology",
       "target": "/psychopathy"
+    },
+    {
+      "source": "/psychology",
+      "target": "/thinking"
     },
     {
       "source": "/psychology",
@@ -5455,39 +5620,31 @@
     },
     {
       "source": "/psychology",
-      "target": "/learning"
+      "target": "/habits"
     },
     {
       "source": "/psychology",
-      "target": "/parenting"
+      "target": "/cognitive-biases"
+    },
+    {
+      "source": "/psychology",
+      "target": "/learning"
+    },
+    {
+      "source": "/space",
+      "target": "/exp"
+    },
+    {
+      "source": "/cognitive-biases",
+      "target": "/decision-making"
     },
     {
       "source": "/exp",
       "target": "/projects"
     },
     {
-      "source": "/graph-2d",
-      "target": "/site-stats"
-    },
-    {
-      "source": "/graph-3d",
-      "target": "/site-stats"
-    },
-    {
-      "source": "/practicals",
-      "target": "/design"
-    },
-    {
-      "source": "/practicals",
-      "target": "/engineering"
-    },
-    {
-      "source": "/practicals",
-      "target": "/programming"
-    },
-    {
-      "source": "/practicals",
-      "target": "/typewriter"
+      "source": "/exp",
+      "target": "/player"
     }
   ]
 }

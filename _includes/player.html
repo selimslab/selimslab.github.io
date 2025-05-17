@@ -2,6 +2,7 @@
 <div class="audio-player">
   <audio id="audio-player" controls></audio>
   <div id="now-playing"></div>
+  <br>
   <div id="playlist"></div>
 </div>
 
@@ -28,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
     },
     
     loadMusicData: function() {
-      fetch('/assets/data/music.json')
+      fetch('/assets/data/tracks.json')
         .then(response => response.json())
         .then(data => this.buildPlaylist(data))
         .catch(error => {
@@ -138,6 +139,14 @@ document.addEventListener('DOMContentLoaded', function() {
     font-size: 0.9rem;
   }
   
+  #sticky-player {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: inherit;
+    z-index: 100;
+    padding-top: 1rem;
+  }
 
   #audio-player {
     width: 100%;
