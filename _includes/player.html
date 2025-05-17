@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
           songItem.addEventListener('click', function() {
             try {
               // Set the audio source
-              audioPlayer.src = '/assets/music/' + fileName;
+              audioPlayer.src = `/assets/static/music/${genre.toLowerCase()}/${fileName}`;
               
               // Update now playing text
               nowPlaying.textContent = song;
@@ -70,4 +70,9 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
+<style>
+  #audio-player{
+    min-width: 500px;
+  }
+</style>
 

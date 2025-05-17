@@ -476,8 +476,8 @@ class SiteGenerator < Jekyll::Generator
     music = get_music
     
     # Write music data to JSON file
-    File.write("#{DATA_PATH}/music.json", JSON.pretty_generate(music))
-    
+    write_json(DATA_PATH, music)
+        
     # Make music available in site data
     site.data["music"] = music
   end
@@ -486,7 +486,7 @@ class SiteGenerator < Jekyll::Generator
     # Find all music files
     paths = Dir.glob("#{STATIC_PATH}/music/**/*.{mp3,wav,ogg,flac}")
     paths.sort 
-    
+
     # Group by genre (directory name)
     music_by_genre = {}
     
