@@ -13,6 +13,8 @@ layout: delta
 
 [Engineering](/engineering/)
 
+[Experiments](/exp/)
+
 [Fields](/fields/)
 
 [Systems](/systems/)

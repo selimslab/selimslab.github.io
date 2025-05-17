@@ -115,6 +115,11 @@ document.addEventListener('DOMContentLoaded', function() {
     
     playNextTrack: function() {
       if (this.currentTrackIndex >= 0 && this.flatPlaylist.length > 0) {
+        // Remove active class from current track
+        document.querySelectorAll('#playlist li.active').forEach(item => {
+          item.classList.remove('active');
+        });
+        
         const nextIndex = (this.currentTrackIndex + 1) % this.flatPlaylist.length;
         const nextTrack = this.flatPlaylist[nextIndex];
         
