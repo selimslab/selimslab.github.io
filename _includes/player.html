@@ -2,77 +2,115 @@
 <div class="minimal-player">
   <audio id="audio-player" controls></audio>
   <div id="now-playing"></div>
-  <br><br>
   <div id="playlist"></div>
 </div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const audioPlayer = document.getElementById('audio-player');
-  const nowPlaying = document.getElementById('now-playing');
-  const playlist = document.getElementById('playlist');
-  
-  fetch('/assets/data/music.json')
-    .then(response => response.json())
-    .then(data => {
-      // Process each genre
-      Object.keys(data).forEach(genre => {
-        // Create genre header
-        const genreTitle = document.createElement('h3');
-        genreTitle.textContent = genre;
-        playlist.appendChild(genreTitle);
-        
-        // Create songs list
-        const songsList = document.createElement('ul');
-        
-        data[genre].forEach(song => {
-          const songItem = document.createElement('li');
-          songItem.textContent = song;
-          
-          // Properly encode the filename for the URL
-          const fileName = encodeURIComponent(song + '.mp3');
-          
-          songItem.addEventListener('click', function() {
-            try {
-              // Set the audio source
-              audioPlayer.src = `/assets/static/music/${genre.toLowerCase()}/${fileName}`;
-              
-              // Update now playing text
-              nowPlaying.textContent = song;
-              
-              // Highlight current song
-              document.querySelectorAll('#playlist li').forEach(item => {
-                item.classList.remove('active');
-              });
-              songItem.classList.add('active');
-              
-              // Play the song
-              audioPlayer.play().catch(e => {
-                console.error('Error playing audio:', e);
-                nowPlaying.textContent = 'Error playing: ' + song;
-              });
-            } catch (error) {
-              console.error('Error setting up audio:', error);
-              nowPlaying.textContent = 'Error with: ' + song;
-            }
-          });
-          
-          songsList.appendChild(songItem);
+  const audioPlayerApp = {
+    elements: {
+      player: document.getElementById('audio-player'),
+      nowPlaying: document.getElementById('now-playing'),
+      playlist: document.getElementById('playlist')
+    },
+    
+    init: function() {
+      this.loadMusicData();
+    },
+    
+    loadMusicData: function() {
+      fetch('/assets/data/music.json')
+        .then(response => response.json())
+        .then(data => this.buildPlaylist(data))
+        .catch(error => {
+          console.error('Error loading music data:', error);
+          this.elements.playlist.innerHTML = '<p>Failed to load music.</p>';
         });
-        
-        playlist.appendChild(songsList);
+    },
+    
+    buildPlaylist: function(data) {
+      Object.keys(data).forEach(genre => {
+        this.createGenreSection(genre, data[genre]);
       });
-    })
-    .catch(error => {
-      console.error('Error loading music data:', error);
-      playlist.innerHTML = '<p>Failed to load music.</p>';
-    });
+    },
+    
+    createGenreSection: function(genre, tracks) {
+      // Create genre header
+      const genreTitle = document.createElement('h2');
+      genreTitle.textContent = genre;
+      this.elements.playlist.appendChild(genreTitle);
+      
+      const tracksList = document.createElement('ul');
+      tracksList.className = 'track-list';
+      
+      tracks.forEach(track => {
+        const trackItem = this.createtrackItem(genre, track);
+        tracksList.appendChild(trackItem);
+      });
+      
+      this.elements.playlist.appendChild(tracksList);
+    },
+    
+    createtrackItem: function(genre, track) {
+      const trackItem = document.createElement('li');
+      trackItem.textContent = track;
+      trackItem.className = 'track';
+      
+      trackItem.addEventListener('click', () => this.playtrack(genre, track, trackItem));
+      
+      return trackItem;
+    },
+    
+    playtrack: function(genre, track, trackItem) {
+      try {
+        const fileName = encodeURIComponent(track + '.mp3');
+        this.elements.player.src = `/assets/static/music/${genre.toLowerCase()}/${fileName}`;
+        this.elements.nowPlaying.textContent = track;
+        
+        // Highlight current track
+        document.querySelectorAll('#playlist li').forEach(item => {
+          item.classList.remove('active');
+        });
+        trackItem.classList.add('active');
+        
+        // Play the track
+        this.elements.player.play().catch(e => {
+          console.error('Error playing audio:', e);
+          this.elements.nowPlaying.textContent = 'Error playing: ' + track;
+        });
+      } catch (error) {
+        console.error('Error setting up audio:', error);
+        this.elements.nowPlaying.textContent = 'Error with: ' + track;
+      }
+    }
+  };
+  
+  audioPlayerApp.init();
 });
 </script>
 
 <style>
-  #audio-player{
-    min-width: 500px;
+  .minimal-player {
+    position: relative;
+    padding-bottom: 5rem;
+    font-family: "Atkinson Hyperlegible Mono", "Inconsolata", monospace;
+    font-size: 0.9rem;
+  }
+  
+
+  #audio-player {
+    width: 100%;
+  }
+  
+  #now-playing {
+    margin-left: 1rem;
+  }
+  
+  .track:hover {
+    color: #ffc800
+  }
+  
+  .track.active {
+    color: #FF530D
   }
 </style>
-
