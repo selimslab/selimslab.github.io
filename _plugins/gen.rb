@@ -34,6 +34,7 @@ class SiteGenerator < Jekyll::Generator
     site.data["link_count"] = calculate_link_count(site, graph)
 
     update_artworks(site)
+    update_music(site)
 
     urls = site.documents.map { |doc| doc.url }.reject { |url| url.start_with?('.') }
     site.data["urls"] = urls
@@ -468,6 +469,40 @@ class SiteGenerator < Jekyll::Generator
     # Update parent document with child information
     parent_doc.data['children'] ||= []
     parent_doc.data['children'] << child_id
+  end
+
+  def update_music(site)
+    # Get music data from music files
+    music = get_music
+    
+    # Write music data to JSON file
+    File.write("#{DATA_PATH}/music.json", JSON.pretty_generate(music))
+    
+    # Make music available in site data
+    site.data["music"] = music
+  end
+
+  def get_music
+    # Find all music files
+    paths = Dir.glob("#{STATIC_PATH}/music/**/*.{mp3,wav,ogg,flac}")
+    paths.sort 
+    
+    # Group by genre (directory name)
+    music_by_genre = {}
+    
+    paths.each do |path|
+      # Get genre from parent directory name
+      genre = File.basename(File.dirname(path)).capitalize
+      music_by_genre[genre] ||= []
+      
+      # Just use the filename without extension
+      filename = File.basename(path, ".*")
+      
+      # Add the track name to the genre's array
+      music_by_genre[genre] << filename
+    end
+    
+    music_by_genre
   end
 
   private

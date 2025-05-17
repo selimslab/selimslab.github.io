@@ -1,0 +1,73 @@
+<!-- Simple Audio Player -->
+<div class="minimal-player">
+  <audio id="audio-player" controls></audio>
+  <div id="now-playing"></div>
+  <br><br>
+  <div id="playlist"></div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const audioPlayer = document.getElementById('audio-player');
+  const nowPlaying = document.getElementById('now-playing');
+  const playlist = document.getElementById('playlist');
+  
+  fetch('/assets/data/music.json')
+    .then(response => response.json())
+    .then(data => {
+      // Process each genre
+      Object.keys(data).forEach(genre => {
+        // Create genre header
+        const genreTitle = document.createElement('h3');
+        genreTitle.textContent = genre;
+        playlist.appendChild(genreTitle);
+        
+        // Create songs list
+        const songsList = document.createElement('ul');
+        
+        data[genre].forEach(song => {
+          const songItem = document.createElement('li');
+          songItem.textContent = song;
+          
+          // Properly encode the filename for the URL
+          const fileName = encodeURIComponent(song + '.mp3');
+          
+          songItem.addEventListener('click', function() {
+            try {
+              // Set the audio source
+              audioPlayer.src = '/assets/music/' + fileName;
+              
+              // Update now playing text
+              nowPlaying.textContent = song;
+              
+              // Highlight current song
+              document.querySelectorAll('#playlist li').forEach(item => {
+                item.classList.remove('active');
+              });
+              songItem.classList.add('active');
+              
+              // Play the song
+              audioPlayer.play().catch(e => {
+                console.error('Error playing audio:', e);
+                nowPlaying.textContent = 'Error playing: ' + song;
+              });
+            } catch (error) {
+              console.error('Error setting up audio:', error);
+              nowPlaying.textContent = 'Error with: ' + song;
+            }
+          });
+          
+          songsList.appendChild(songItem);
+        });
+        
+        playlist.appendChild(songsList);
+      });
+    })
+    .catch(error => {
+      console.error('Error loading music data:', error);
+      playlist.innerHTML = '<p>Failed to load music.</p>';
+    });
+});
+</script>
+
+
