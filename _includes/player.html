@@ -46,10 +46,18 @@ document.addEventListener('DOMContentLoaded', function() {
     },
     
     createGenreSection: function(genre, tracks) {
-      // Create genre header
-      const genreTitle = document.createElement('h2');
-      genreTitle.textContent = genre;
-      this.elements.playlist.appendChild(genreTitle);
+      // Create details element
+      const details = document.createElement('details');
+      details.className = 'genre-section';
+      // Open first genre by default
+      if (this.elements.playlist.childElementCount === 0) {
+        details.open = true;
+      }
+      
+      // Create summary with genre title
+      const summary = document.createElement('summary');
+      summary.textContent = genre;
+      details.appendChild(summary);
       
       const tracksList = document.createElement('ul');
       tracksList.className = 'track-list';
@@ -62,7 +70,8 @@ document.addEventListener('DOMContentLoaded', function() {
         tracksList.appendChild(trackItem);
       });
       
-      this.elements.playlist.appendChild(tracksList);
+      details.appendChild(tracksList);
+      this.elements.playlist.appendChild(details);
     },
     
     createtrackItem: function(genre, track) {
