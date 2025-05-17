@@ -1,5 +1,4 @@
 ---
-title: Eudaimonia
 ---
 
 'good spirit', 'happiness' 'welfare', 'flourishing'

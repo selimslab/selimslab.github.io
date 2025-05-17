@@ -1,4 +1,5 @@
 ---
+tags: psy
 ---
 
 * Apatheia, freedom from pain and fear

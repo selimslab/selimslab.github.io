@@ -1,6 +1,5 @@
 ---
 title: Calendar
-tags: time
 layout: article
 ---
 
