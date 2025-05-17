@@ -6,6 +6,7 @@
       "name": "Root",
       "links": [
         "/arts",
+        "/draft",
         "/engineering",
         "/fields",
         "/systems",
@@ -24,6 +25,17 @@
         "/cinema",
         "/literature",
         "/music"
+      ]
+    },
+    {
+      "id": "/draft",
+      "group": 1,
+      "name": "Draft",
+      "links": [
+        "/root",
+        "/mywords",
+        "/rk",
+        "/to-delta"
       ]
     },
     {
@@ -153,6 +165,34 @@
         "/arts",
         "/playlists",
         "/player"
+      ]
+    },
+    {
+      "id": "/mywords",
+      "group": 2,
+      "name": "Mywords",
+      "links": [
+        "/draft",
+        "/to-delta"
+      ]
+    },
+    {
+      "id": "/rk",
+      "group": 2,
+      "name": "Rk",
+      "links": [
+        "/draft"
+      ]
+    },
+    {
+      "id": "/to-delta",
+      "group": 2,
+      "name": "To-delta",
+      "links": [
+        "/draft",
+        "/dp",
+        "/micro",
+        "/mywords"
       ]
     },
     {
@@ -781,6 +821,22 @@
       "name": "Playlists",
       "links": [
         "/music"
+      ]
+    },
+    {
+      "id": "/dp",
+      "group": 3,
+      "name": "Dp",
+      "links": [
+        "/to-delta"
+      ]
+    },
+    {
+      "id": "/micro",
+      "group": 3,
+      "name": "Micro",
+      "links": [
+        "/to-delta"
       ]
     },
     {
@@ -3756,6 +3812,10 @@
     },
     {
       "source": "/root",
+      "target": "/draft"
+    },
+    {
+      "source": "/root",
       "target": "/engineering"
     },
     {
@@ -3793,6 +3853,18 @@
     {
       "source": "/arts",
       "target": "/music"
+    },
+    {
+      "source": "/draft",
+      "target": "/mywords"
+    },
+    {
+      "source": "/draft",
+      "target": "/rk"
+    },
+    {
+      "source": "/draft",
+      "target": "/to-delta"
     },
     {
       "source": "/engineering",
@@ -3981,6 +4053,18 @@
     {
       "source": "/music",
       "target": "/playlists"
+    },
+    {
+      "source": "/to-delta",
+      "target": "/dp"
+    },
+    {
+      "source": "/to-delta",
+      "target": "/micro"
+    },
+    {
+      "source": "/to-delta",
+      "target": "/mywords"
     },
     {
       "source": "/algorithms",
