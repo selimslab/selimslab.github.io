@@ -103,6 +103,13 @@ document.addEventListener('DOMContentLoaded', function() {
         });
         trackItem.classList.add('active');
         
+        // Set MediaSession metadata for lock screen display
+        if ('mediaSession' in navigator) {
+          navigator.mediaSession.metadata = new MediaMetadata({
+            title: track
+          });
+        }
+        
         // Play the track
         this.elements.player.play().catch(e => {
           console.error('Error playing audio:', e);
