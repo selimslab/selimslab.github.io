@@ -12,6 +12,7 @@ class SiteGenerator < Jekyll::Generator
     @fixed_frontmatter = false
     @generated = false
     @config = config
+    @debug = false
   end
 
   def generate(site)
@@ -28,19 +29,22 @@ class SiteGenerator < Jekyll::Generator
 
     process_documents(site)
 
-    graph = generate_graph(site)
-    site.data["link_count"] = calculate_link_count(site, graph)
-
     update_artworks(site)
     write_json("#{DATA_PATH}/tracks.json", read_tracks)
 
-    urls = site.documents.map { |doc| doc.url }.reject { |url| url.start_with?('.') }
-    site.data["urls"] = urls
-    write_json("#{DATA_PATH}/urls.json", urls)
-    
-    log_debug_data(tree, site)
+
+    graph = generate_graph(site) if @debug
+    site.data["link_count"] = calculate_link_count(site, graph) if @debug
+
+    log_debug_data(tree, site) if @debug
 
     @generated = true
+  end
+
+  def write_urls(site)
+    urls = site.documents.map { |doc| doc.url }.reject { |url| url.start_with?('.') }
+    site.data["urls"] = urls
+    write_json("#{DATA_PATH}/urls.json", urls) 
   end
 
   private
@@ -248,7 +252,7 @@ class SiteGenerator < Jekyll::Generator
     enrich_nodes(nodes, links, site)
 
     graph_data = { "nodes": nodes, "links": links }
-    write_graph_data(graph_data)
+    write_graph_data(graph_data) if @debug
 
     graph_data
   end

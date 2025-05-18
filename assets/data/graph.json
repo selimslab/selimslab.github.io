@@ -66,6 +66,9 @@
       "links": [
         "/root",
         "/site-stats",
+        "/space",
+        "/time-exp",
+        "/viz",
         "/paintings",
         "/projects",
         "/player",
@@ -87,8 +90,7 @@
         "/physics",
         "/politics",
         "/psychology",
-        "/sociology",
-        "/space"
+        "/sociology"
       ]
     },
     {
@@ -116,8 +118,7 @@
         "/player",
         "/typewriter",
         "/checklists",
-        "/interviews",
-        "/viz"
+        "/interviews"
       ]
     },
     {
@@ -404,6 +405,36 @@
       ]
     },
     {
+      "id": "/space",
+      "group": 2,
+      "name": "Space",
+      "links": [
+        "/exp",
+        "/earth-interactive",
+        "/earth"
+      ]
+    },
+    {
+      "id": "/time-exp",
+      "group": 2,
+      "name": "Time",
+      "links": [
+        "/exp",
+        "/calendar",
+        "/clocks"
+      ]
+    },
+    {
+      "id": "/viz",
+      "group": 2,
+      "name": "Viz",
+      "links": [
+        "/exp",
+        "/graph-2d",
+        "/graph-3d"
+      ]
+    },
+    {
       "id": "/design",
       "group": 2,
       "name": "Design",
@@ -551,16 +582,6 @@
       ]
     },
     {
-      "id": "/space",
-      "group": 2,
-      "name": "Space",
-      "links": [
-        "/fields",
-        "/earth-interactive",
-        "/earth"
-      ]
-    },
-    {
       "id": "/habits",
       "group": 2,
       "name": "Habits",
@@ -691,18 +712,6 @@
         "/questions",
         "/resume",
         "/stories"
-      ]
-    },
-    {
-      "id": "/viz",
-      "group": 2,
-      "name": "Viz",
-      "links": [
-        "/tools",
-        "/calendar",
-        "/clocks",
-        "/graph-2d",
-        "/graph-3d"
       ]
     },
     {
@@ -1612,6 +1621,54 @@
       ]
     },
     {
+      "id": "/earth-interactive",
+      "group": 3,
+      "name": "Earth Interactive",
+      "links": [
+        "/space"
+      ]
+    },
+    {
+      "id": "/earth",
+      "group": 3,
+      "name": "Earth",
+      "links": [
+        "/space"
+      ]
+    },
+    {
+      "id": "/calendar",
+      "group": 3,
+      "name": "Calendar",
+      "links": [
+        "/time-exp"
+      ]
+    },
+    {
+      "id": "/clocks",
+      "group": 3,
+      "name": "Clocks ⏱️",
+      "links": [
+        "/time-exp"
+      ]
+    },
+    {
+      "id": "/graph-2d",
+      "group": 3,
+      "name": "2D Graph of All Pages",
+      "links": [
+        "/viz"
+      ]
+    },
+    {
+      "id": "/graph-3d",
+      "group": 3,
+      "name": "3D graph of all pages",
+      "links": [
+        "/viz"
+      ]
+    },
+    {
       "id": "/on-design",
       "group": 3,
       "name": "On Design",
@@ -2042,22 +2099,6 @@
       ]
     },
     {
-      "id": "/earth-interactive",
-      "group": 3,
-      "name": "Earth Interactive",
-      "links": [
-        "/space"
-      ]
-    },
-    {
-      "id": "/earth",
-      "group": 3,
-      "name": "Earth",
-      "links": [
-        "/space"
-      ]
-    },
-    {
       "id": "/conflict-resolution",
       "group": 3,
       "name": "Conflict Resolution",
@@ -2306,38 +2347,6 @@
       "name": "Stories",
       "links": [
         "/interviews"
-      ]
-    },
-    {
-      "id": "/calendar",
-      "group": 3,
-      "name": "Calendar",
-      "links": [
-        "/viz"
-      ]
-    },
-    {
-      "id": "/clocks",
-      "group": 3,
-      "name": "Clocks ⏱️",
-      "links": [
-        "/viz"
-      ]
-    },
-    {
-      "id": "/graph-2d",
-      "group": 3,
-      "name": "2D Graph of All Pages",
-      "links": [
-        "/viz"
-      ]
-    },
-    {
-      "id": "/graph-3d",
-      "group": 3,
-      "name": "3D graph of all pages",
-      "links": [
-        "/viz"
       ]
     },
     {
@@ -3912,6 +3921,18 @@
       "target": "/site-stats"
     },
     {
+      "source": "/exp",
+      "target": "/space"
+    },
+    {
+      "source": "/exp",
+      "target": "/time-exp"
+    },
+    {
+      "source": "/exp",
+      "target": "/viz"
+    },
+    {
       "source": "/fields",
       "target": "/design"
     },
@@ -3950,10 +3971,6 @@
     {
       "source": "/fields",
       "target": "/sociology"
-    },
-    {
-      "source": "/fields",
-      "target": "/space"
     },
     {
       "source": "/systems",
@@ -4002,10 +4019,6 @@
     {
       "source": "/tools",
       "target": "/interviews"
-    },
-    {
-      "source": "/tools",
-      "target": "/viz"
     },
     {
       "source": "/cinema",
@@ -4388,6 +4401,30 @@
       "target": "/system-design-basics"
     },
     {
+      "source": "/space",
+      "target": "/earth-interactive"
+    },
+    {
+      "source": "/space",
+      "target": "/earth"
+    },
+    {
+      "source": "/time-exp",
+      "target": "/calendar"
+    },
+    {
+      "source": "/time-exp",
+      "target": "/clocks"
+    },
+    {
+      "source": "/viz",
+      "target": "/graph-2d"
+    },
+    {
+      "source": "/viz",
+      "target": "/graph-3d"
+    },
+    {
       "source": "/design",
       "target": "/on-design"
     },
@@ -4576,14 +4613,6 @@
       "target": "/social-media"
     },
     {
-      "source": "/space",
-      "target": "/earth-interactive"
-    },
-    {
-      "source": "/space",
-      "target": "/earth"
-    },
-    {
       "source": "/communication",
       "target": "/conflict-resolution"
     },
@@ -4702,22 +4731,6 @@
     {
       "source": "/interviews",
       "target": "/stories"
-    },
-    {
-      "source": "/viz",
-      "target": "/calendar"
-    },
-    {
-      "source": "/viz",
-      "target": "/clocks"
-    },
-    {
-      "source": "/viz",
-      "target": "/graph-2d"
-    },
-    {
-      "source": "/viz",
-      "target": "/graph-3d"
     },
     {
       "source": "/poetry",

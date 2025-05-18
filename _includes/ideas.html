@@ -1,7 +1,7 @@
 
 
 <br>
-<p id="random_idea" class="idea" tabindex="0" onclick="setNextIdea();"></p>
+<p id="idea" class="idea" tabindex="0" onclick="setNextIdea('{{ include.filename }}');"></p>
 
 <style>
   .idea {
@@ -18,11 +18,11 @@
   const filename = "{{ include.filename }}";
   
   const setNextIdea = async (filename) => {
-    document.getElementById("random_idea").innerHTML = await getNextIdea(filename);
+    document.getElementById("idea").innerHTML = await getNextIdea(filename);
   }
 
   document.addEventListener('DOMContentLoaded', async () => {
-    let idea = document.getElementById("random_idea");
+    let idea = document.getElementById("idea");
     
     idea.addEventListener('keydown', function (e) {
       if (e.key === 'Enter') {
