@@ -54,7 +54,7 @@ key point 1
 -  list of relevant parts, branches, details, so on
 - ...
 
-key point 2
+key idea 2
 - ...
 
 ...
@@ -73,6 +73,7 @@ Code
 - Keep it simple, robust, and modular  
 - Be careful about existing code. Keep names and comments  
 - No hardcoding  
+- Minimal styling/css
 - Choose readable names   
 - Double-check your code. Make sure it's correct   
 </skill>  
