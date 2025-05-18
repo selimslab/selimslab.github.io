@@ -9,7 +9,6 @@
 - If I ask a question, use Research and Summary skills  
 - If I give you links or text or I just say "go", use Summary skill
 - If I ask you to code, use coding skill. Search codebase only when I ask    
-- After a research or summary, open tools/gist.md and append a break with --- and the gist of your answer. 
 
 </instructions>  
   
@@ -47,7 +46,7 @@ Create a comprehensive summary by following below steps,
   
 <writing-format>  
 
-## title: deliver the gist if possible  
+no need for title 
 
 main idea/top point/core thesis/gist 
 

@@ -24,7 +24,7 @@ def process_video(video_id, attempts=0):
 
 def cli():
     while True:
-        user_input = input("\nyoutube url or video id: ").strip()
+        user_input = input("\tyt transcript - url or id: ").strip()
         video_id = (
             user_input.split("v=")[-1].split("&")[0]
             if "youtube.com" in user_input
