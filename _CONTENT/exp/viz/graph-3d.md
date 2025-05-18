@@ -1,5 +1,5 @@
 ---
-title: 3D graph of all pages
+title: 3D graph of pages
 layout: base
 ---
 

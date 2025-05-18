@@ -17,19 +17,14 @@ class SiteGenerator < Jekyll::Generator
 
   def generate(site)
 
-    fix_frontmatter unless @fixed_frontmatter
-
     initialize_site_data(site)
-    tree = bfs(site, ROOT_PATH)
-    site.data["tree"] = tree
-    tree_level_order_data = tree_level_order(tree)
-    site.data["tree_level_order"] = tree_level_order_data
-    
-    tree_to_html(site, tree)
+
+    generate_tree(site)
 
     process_documents(site)
 
-    update_artworks(site)
+    write_json("#{DATA_PATH}/artworks.json", get_artworks)
+
     write_json("#{DATA_PATH}/tracks.json", read_tracks)
 
     log_debug_data(tree, site) if @debug
@@ -39,7 +34,18 @@ class SiteGenerator < Jekyll::Generator
 
   private
 
+  def generate_tree(site)
+    tree = bfs(site, ROOT_PATH)
+    site.data["tree"] = tree
+    
+    tree_level_order_data = tree_level_order(tree)
+    site.data["tree_level_order"] = tree_level_order_data
+    
+    tree_to_html(site, tree)
+  end
+
   def initialize_site_data(site)
+    fix_frontmatter unless @fixed_frontmatter
     site.data["tree"] = {}
     site.data["tree_htmls"] = {}
     site.data["tree_level_order"] = {}
@@ -75,17 +81,6 @@ class SiteGenerator < Jekyll::Generator
     write_json("#{DEBUG_PATH}/tags.json", tags_data)
   end
 
-
-  def update_artworks(site)
-    # Get artwork data from image files
-    artworks = get_artworks
-    
-    # Write artwork data to JSON file
-    write_json("#{DATA_PATH}/artworks.json", artworks)
-    
-    # Make artworks available in site data
-    site.data["artworks"] = artworks
-  end
 
   def fix_frontmatter
     # Process all markdown files in the content directory
@@ -381,7 +376,7 @@ class SiteGenerator < Jekyll::Generator
       # Add the track name to the genre's array
       music_by_genre[genre] << filename
     end
-    
+
     music_by_genre
   end
 

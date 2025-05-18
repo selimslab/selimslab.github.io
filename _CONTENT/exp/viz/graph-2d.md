@@ -1,5 +1,5 @@
 ---
-title: 2D Graph of All Pages
+title: 2D graph of pages
 layout: base
 ---
 

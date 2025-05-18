@@ -46,19 +46,10 @@ a {
   color: $lighterBlue
 }
 
-// a:visited {
-//   color: $lightViolet;
-// }
-
 a:hover {
   color: $highlight;
   text-decoration: underline;
 }
-
-summary:hover {
-  color: $accent;
-}
-
 
 footer.about {
   font-family: $serif;
@@ -121,6 +112,8 @@ img {
   box-shadow: 0 .5em 1em -.125em rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .02);
 }
 
+
+
 @media only screen and (max-width: 600px) {
   body {
     width: 100%;
@@ -134,7 +127,6 @@ img {
     height: auto;
   }
 }
-
 
 
 p {
@@ -196,9 +188,6 @@ details {
   margin-bottom: 0.7rem;
   margin-top: 0.7rem;
 }
-
-
-
 
 html[data-theme='light'] {
 

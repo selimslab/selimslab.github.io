@@ -1,14 +1,23 @@
 
 
 <br>
-<p id="idea" class="idea" tabindex="0" onclick="setNextIdea('{{ include.filename }}');"></p>
+<div class="idea-container">
+  <p id="idea" class="idea" tabindex="0" onclick="setNextIdea('{{ include.filename }}');"></p>
+</div>
 
 <style>
-  .idea {
-    white-space: pre-line;
+  .idea-container {
     font-family: "Atkinson Hyperlegible Mono", "Inconsolata", monospace;
     min-height: 7rem;
+    white-space: pre-line;
+
   }
+  .idea:hover{
+    color: #ffc800;
+  }
+
+
+
 </style>
 
 
