@@ -1,11 +1,9 @@
 <span class="taglist">
   {% for tag in page.tags %} 
-    {% if tag != "top" and tag != "root" %} 
-      {% include tag-to-title.html tag=tag %}
-        {% if title != page.title %} 
-          <a class="toplink" href="/{{file}}/">{{title}}</a>
-        {% endif %}
-    {% endif %}
+    {% include tag-to-title.html tag=tag %}
+      {% if title != page.title %} 
+        <a class="toplink" href="/{{file}}/">{{title}}</a>
+      {% endif %}
   {% endfor %}
 
   {{page.parentlink}}
