@@ -32,19 +32,9 @@ class SiteGenerator < Jekyll::Generator
     update_artworks(site)
     write_json("#{DATA_PATH}/tracks.json", read_tracks)
 
-
-    graph = generate_graph(site) if @debug
-    site.data["link_count"] = calculate_link_count(site, graph) if @debug
-
     log_debug_data(tree, site) if @debug
 
     @generated = true
-  end
-
-  def write_urls(site)
-    urls = site.documents.map { |doc| doc.url }.reject { |url| url.start_with?('.') }
-    site.data["urls"] = urls
-    write_json("#{DATA_PATH}/urls.json", urls) 
   end
 
   private
@@ -56,6 +46,22 @@ class SiteGenerator < Jekyll::Generator
     initialize_backlinks(site)
     initialize_file_to_tag(site)
     initialize_file_to_title(site)
+  end
+
+  def initialize_backlinks(site)
+    site.documents
+      .select { |doc| doc.respond_to?(:data) }
+      .each { |doc| doc.data['backlinks'] ||= [] }
+  end
+
+  def initialize_file_to_tag(site)
+    site.data["file_to_tag"] = site.data["tag_to_file"].invert
+  end
+
+  def initialize_file_to_title(site)
+    site.data["file_to_title"] = site.documents
+      .select { |doc| doc.respond_to?(:id) && doc.respond_to?(:data) && doc.data["title"] }
+      .to_h { |doc| [doc.id, doc.data["title"]] }
   end
 
   def log_debug_data(tree, site)
@@ -184,23 +190,6 @@ class SiteGenerator < Jekyll::Generator
     end
   end
 
-
-  def initialize_backlinks(site)
-    site.documents
-      .select { |doc| doc.respond_to?(:data) }
-      .each { |doc| doc.data['backlinks'] ||= [] }
-  end
-
-  def initialize_file_to_tag(site)
-    site.data["file_to_tag"] = site.data["tag_to_file"].invert
-  end
-
-  def initialize_file_to_title(site)
-    site.data["file_to_title"] = site.documents
-      .select { |doc| doc.respond_to?(:id) && doc.respond_to?(:data) && doc.data["title"] }
-      .to_h { |doc| [doc.id, doc.data["title"]] }
-  end
-
   def process_documents(site)
     # First pass: process each document's tags and links
     site.documents
@@ -232,102 +221,6 @@ class SiteGenerator < Jekyll::Generator
     site.documents
       .select { |doc| doc.respond_to?(:data) && doc.data['backlinks'] }
       .each { |doc| doc.data['backlinks'].uniq! }
-  end
-
-  def calculate_link_count(site, graph)
-    document_links = site.documents.sum do |doc| 
-      doc.respond_to?(:content) ? doc.content.scan(/<a/).length : 0
-    end
-    document_links + graph[:links].length
-  end
-
-  def generate_graph(site)
-    nodes, links, nodemap, group = [], [], {}, 0
-    file_tree = { "/root": site.data["tree"] }
-
-    process_file_tree(file_tree, nodes, links, nodemap, group)
-    process_backlink_tree(site, nodes, links, nodemap)
-
-    clean_up_links(links)
-    enrich_nodes(nodes, links, site)
-
-    graph_data = { "nodes": nodes, "links": links }
-    write_graph_data(graph_data) if @debug
-
-    graph_data
-  end
-
-  def process_file_tree(file_tree, nodes, links, nodemap, group)
-    queue = [[file_tree, nil, group]]
-
-    until queue.empty?
-      current_data, parent, group_number = queue.shift
-      current_data.each do |key, value|
-        nodemap[key] ||= { id: key, group: group_number }
-        nodes << nodemap[key] unless nodes.include?(nodemap[key])
-        links << { source: parent, target: key } if parent
-        queue << [value, key, group_number + 1]
-      end
-    end
-  end
-
-  def process_backlink_tree(site, nodes, links, nodemap)
-    # Build a tree of backlinks
-    backlink_tree = site.documents
-      .select { |doc| doc.respond_to?(:id) && doc.respond_to?(:data) && doc.data['backlinks']&.any? }
-      .to_h do |doc|
-        # Map each document to its ID and the IDs of its backlinks
-        backlink_ids = doc.data['backlinks']
-          .map { |backlink| backlink.respond_to?(:id) ? backlink.id : nil }
-          .compact
-          
-        [doc.id, backlink_ids]
-      end
-
-    # Process the backlink tree to update nodes and links
-    backlink_tree.each do |parent, children|
-      # Ensure the parent node exists in the nodemap
-      nodemap[parent] ||= { id: parent, group: 0 }
-      
-      # Add the parent node to the nodes list if not already present
-      nodes << nodemap[parent] unless nodes.include?(nodemap[parent])
-      
-      # Add links from parent to each child
-      children.each { |child| links << { source: parent, target: child } }
-    end
-  end
-
-  def clean_up_links(links)
-    # Remove duplicates
-    links.uniq!
-    # Remove self-referential links
-    links.reject! { |link| link[:source] == link[:target] }
-    # Remove links with the same source and target
-    links.uniq! { |link| [link[:source], link[:target]] }
-  end
-
-  def enrich_nodes(nodes, links, site)
-    # Process each node to add name and links
-    nodes.each do |node|
-      # Set node name from title or fallback to capitalized ID
-      node[:name] = site.data["file_to_title"][node[:id]] || 
-                    node[:id].to_s.delete_prefix('/').capitalize
-      
-      # Find all links connected to this node
-      connected_links = links.select { |link| link[:source] == node[:id] || link[:target] == node[:id] }
-      
-      # Map links to the IDs of connected nodes
-      node[:links] = connected_links.map do |link| 
-        link[:source] == node[:id] ? link[:target] : link[:source]
-      end
-    end
-    
-    # Remove nodes that don't have any links
-    nodes.reject! { |node| node[:links].empty? }
-  end
-
-  def write_graph_data(graph_data)
-    write_json("#{DATA_PATH}/graph.json", graph_data)
   end
 
   def wikilinks_to_backlinks(doc, site)
@@ -400,9 +293,6 @@ class SiteGenerator < Jekyll::Generator
       doc.content.gsub!(link, markdown_link)
     end
   end
-
-
-
 
   def bfs(site, path)
     tree = {}
