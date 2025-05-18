@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const { player, prevButton, nextButton } = this.elements;
       
       player.addEventListener('ended', () => this.playTrack('next'));
+      player.addEventListener('loadedmetadata', () => this.updatePositionState());
       prevButton.addEventListener('click', () => this.playTrack('prev'));
       nextButton.addEventListener('click', () => this.playTrack('next'));
     },
@@ -182,14 +183,20 @@ document.addEventListener('DOMContentLoaded', function() {
         // Update UI
         this.updateActiveTrack(trackElement);
         
-        // Set MediaSession metadata with random artwork
-        this.updateMediaSession(track);
+        // Play the track and ensure media session is updated
+        const playPromise = this.elements.player.play();
         
-        // Play the track
-        this.elements.player.play().catch(e => {
-          console.error('Error playing audio:', e);
-          this.elements.nowPlaying.textContent = 'Error playing: ' + track;
-        });
+        if (playPromise !== undefined) {
+          playPromise
+            .then(() => {
+              // Playback started successfully - update media session after metadata is loaded
+              this.updateMediaSession(track);
+            })
+            .catch(e => {
+              console.error('Error playing audio:', e);
+              this.elements.nowPlaying.textContent = 'Error playing: ' + track;
+            });
+        }
       } catch (error) {
         console.error('Error setting up audio:', error);
         this.elements.nowPlaying.textContent = 'Error with track';
@@ -224,6 +231,26 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
           }
           this.elements.player.currentTime = details.seekTime;
+        });
+        
+        // Update playback state for lock screen
+        navigator.mediaSession.setActionHandler('play', () => this.elements.player.play());
+        navigator.mediaSession.setActionHandler('pause', () => this.elements.player.pause());
+
+        // Regularly update position state
+        this.updatePositionState();
+        this.elements.player.addEventListener('timeupdate', () => this.updatePositionState());
+      }
+    },
+    
+    updatePositionState: function() {
+      if ('mediaSession' in navigator && 'setPositionState' in navigator.mediaSession) {
+        const player = this.elements.player;
+        
+        navigator.mediaSession.setPositionState({
+          duration: player.duration || 0,
+          playbackRate: player.playbackRate || 1,
+          position: player.currentTime || 0
         });
       }
     }
@@ -260,10 +287,10 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   .player-controls button {
-    padding: 0.5rem;
+    padding-right: 0.5rem;
     font-size: 1.2rem;
-    background: transparent;
-    border: none;
+    background-color: none;
+    border: none; 
   }
 
 
