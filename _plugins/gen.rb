@@ -374,7 +374,7 @@ class SiteGenerator < Jekyll::Generator
       filename = File.basename(path, ".*")
       
       # Generate a consistent 4-digit ID based on the filename
-      id = filename.hash.abs.to_s.rjust(8, '0')[-4..-1]
+      id = filename.hash.abs.to_s.rjust(8, '0')[-5..-1]
       
       # Add the track with ID to the genre's array
       music_by_genre[genre] << {
