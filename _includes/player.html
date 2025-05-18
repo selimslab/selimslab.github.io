@@ -2,6 +2,10 @@
 <div class="audio-player">
   <div id="now-playing"></div>
   <audio id="audio-player" controls></audio>
+  <div class="player-controls">
+    <button id="prev-button" aria-label="Previous track">⏮</button>
+    <button id="next-button" aria-label="Next track">⏭</button>
+  </div>
   <br>
 </div>
 
@@ -10,25 +14,37 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const audioPlayerApp = {
+    // DOM Elements
     elements: {
       player: document.getElementById('audio-player'),
       nowPlaying: document.getElementById('now-playing'),
-      playlist: document.getElementById('playlist')
+      playlist: document.getElementById('playlist'),
+      prevButton: document.getElementById('prev-button'),
+      nextButton: document.getElementById('next-button')
     },
     
-    currentTrackIndex: -1,
-    currentGenre: '',
-    flatPlaylist: [],
+    // State
+    state: {
+      currentTrackIndex: -1,
+      tracks: []
+    },
     
+    // Initialization
     init: function() {
       this.loadMusicData();
       this.setupEventListeners();
     },
     
+    // Event Listeners
     setupEventListeners: function() {
-      this.elements.player.addEventListener('ended', () => this.playNextTrack());
+      const { player, prevButton, nextButton } = this.elements;
+      
+      player.addEventListener('ended', () => this.playTrack('next'));
+      prevButton.addEventListener('click', () => this.playTrack('prev'));
+      nextButton.addEventListener('click', () => this.playTrack('next'));
     },
     
+    // Data Loading
     loadMusicData: function() {
       fetch('/assets/data/tracks.json')
         .then(response => response.json())
@@ -39,23 +55,27 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     },
     
+    // UI Building
     buildPlaylist: function(data) {
-      this.flatPlaylist = [];
+      this.state.tracks = [];
+      const playlist = this.elements.playlist;
+      playlist.innerHTML = '';
+      
       Object.keys(data).forEach(genre => {
-        this.createGenreSection(genre, data[genre]);
+        const genreElement = this.createGenreSection(genre, data[genre]);
+        playlist.appendChild(genreElement);
       });
     },
     
     createGenreSection: function(genre, tracks) {
-      // Create details element
       const details = document.createElement('details');
       details.className = 'genre-section';
+      
       // Open first genre by default
       if (this.elements.playlist.childElementCount === 0) {
         details.open = true;
       }
       
-      // Create summary with genre title
       const summary = document.createElement('summary');
       summary.textContent = genre;
       details.appendChild(summary);
@@ -65,50 +85,83 @@ document.addEventListener('DOMContentLoaded', function() {
       
       tracks.forEach(track => {
         // Add to flat playlist for sequential playback
-        this.flatPlaylist.push({ genre, track });
+        this.state.tracks.push({ genre, track });
         
-        const trackItem = this.createtrackItem(genre, track);
+        const trackItem = this.createTrackItem(genre, track);
         tracksList.appendChild(trackItem);
       });
       
       details.appendChild(tracksList);
-      this.elements.playlist.appendChild(details);
+      return details;
     },
     
-    createtrackItem: function(genre, track) {
+    createTrackItem: function(genre, track) {
       const trackItem = document.createElement('li');
       trackItem.textContent = track;
       trackItem.className = 'track';
+      trackItem.dataset.genre = genre;
+      trackItem.dataset.track = track;
       
-      trackItem.addEventListener('click', () => this.playtrack(genre, track, trackItem));
+      trackItem.addEventListener('click', () => {
+        const index = this.findTrackIndex(genre, track);
+        if (index !== -1) {
+          this.state.currentTrackIndex = index;
+          this.loadAndPlayTrack(trackItem);
+        }
+      });
       
       return trackItem;
     },
     
-    playtrack: function(genre, track, trackItem) {
+    // Track Navigation
+    playTrack: function(direction) {
+      if (this.state.tracks.length === 0) return;
+      
+      let newIndex;
+      const { currentTrackIndex } = this.state;
+      const tracksLength = this.state.tracks.length;
+      
+      if (direction === 'next') {
+        newIndex = (currentTrackIndex + 1) % tracksLength;
+      } else {
+        newIndex = (currentTrackIndex - 1 + tracksLength) % tracksLength;
+      }
+      
+      this.state.currentTrackIndex = newIndex;
+      
+      // Find the track element
+      const trackData = this.state.tracks[newIndex];
+      const selector = `.track[data-genre="${trackData.genre}"][data-track="${trackData.track}"]`;
+      const trackElement = document.querySelector(selector);
+      
+      if (trackElement) {
+        this.loadAndPlayTrack(trackElement);
+      }
+    },
+    
+    findTrackIndex: function(genre, track) {
+      return this.state.tracks.findIndex(item => 
+        item.genre === genre && item.track === track
+      );
+    },
+    
+    // Playback
+    loadAndPlayTrack: function(trackElement) {
       try {
+        const genre = trackElement.dataset.genre;
+        const track = trackElement.dataset.track;
         const fileName = encodeURIComponent(track + '.mp3');
-        this.elements.player.src = `/assets/static/music/${genre.toLowerCase()}/${fileName}`;
+        const audioPath = `/assets/static/music/${genre.toLowerCase()}/${fileName}`;
+        
+        // Update audio source
+        this.elements.player.src = audioPath;
         this.elements.nowPlaying.textContent = track;
         
-        // Update current track information
-        this.currentGenre = genre;
-        this.currentTrackIndex = this.flatPlaylist.findIndex(item => 
-          item.genre === genre && item.track === track
-        );
+        // Update UI
+        this.updateActiveTrack(trackElement);
         
-        // Highlight current track
-        document.querySelectorAll('#playlist li').forEach(item => {
-          item.classList.remove('active');
-        });
-        trackItem.classList.add('active');
-        
-        // Set MediaSession metadata for lock screen display
-        if ('mediaSession' in navigator) {
-          navigator.mediaSession.metadata = new MediaMetadata({
-            title: track
-          });
-        }
+        // Set MediaSession metadata
+        this.updateMediaSession(track);
         
         // Play the track
         this.elements.player.play().catch(e => {
@@ -117,34 +170,22 @@ document.addEventListener('DOMContentLoaded', function() {
         });
       } catch (error) {
         console.error('Error setting up audio:', error);
-        this.elements.nowPlaying.textContent = 'Error with: ' + track;
+        this.elements.nowPlaying.textContent = 'Error with track';
       }
     },
     
-    playNextTrack: function() {
-      if (this.currentTrackIndex >= 0 && this.flatPlaylist.length > 0) {
-        // Remove active class from current track
-        document.querySelectorAll('#playlist li.active').forEach(item => {
-          item.classList.remove('active');
+    updateActiveTrack: function(activeElement) {
+      document.querySelectorAll('.track.active').forEach(item => {
+        item.classList.remove('active');
+      });
+      activeElement.classList.add('active');
+    },
+    
+    updateMediaSession: function(trackTitle) {
+      if ('mediaSession' in navigator) {
+        navigator.mediaSession.metadata = new MediaMetadata({
+          title: trackTitle
         });
-        
-        const nextIndex = (this.currentTrackIndex + 1) % this.flatPlaylist.length;
-        const nextTrack = this.flatPlaylist[nextIndex];
-        
-        // Find the DOM element for this track
-        const trackElements = document.querySelectorAll('#playlist li.track');
-        let trackElement = null;
-        
-        for (let i = 0; i < trackElements.length; i++) {
-          if (trackElements[i].textContent === nextTrack.track) {
-            trackElement = trackElements[i];
-            break;
-          }
-        }
-        
-        if (trackElement) {
-          this.playtrack(nextTrack.genre, nextTrack.track, trackElement);
-        }
       }
     }
   };
@@ -168,17 +209,40 @@ document.addEventListener('DOMContentLoaded', function() {
     font-family: "Atkinson Hyperlegible Mono", "Inconsolata", monospace;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    margin-left:1rem;
+    margin-left: 1rem;
     background-color: #1b1c1d;
   }
 
+  .player-controls {
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    margin-top: 5px;
+  }
+
+  .player-controls button {
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+
+  .player-controls button:hover {
+    background-color: #555;
+  }
+
+  .track {
+    cursor: pointer;
+  }
+
   .track:hover {
-    color: #ffc800
+    color: #ffc800;
   }
   
   .track.active {
-    color: #FF530D
+    color: #FF530D;
   }
-
-
 </style>
