@@ -26,12 +26,14 @@ document.addEventListener('DOMContentLoaded', function() {
     // State
     state: {
       currentTrackIndex: -1,
-      tracks: []
+      tracks: [],
+      artworks: null
     },
     
     // Initialization
     init: function() {
       this.loadMusicData();
+      this.loadArtworkData();
       this.setupEventListeners();
     },
     
@@ -52,6 +54,17 @@ document.addEventListener('DOMContentLoaded', function() {
         .catch(error => {
           console.error('Error loading music data:', error);
           this.elements.playlist.innerHTML = '<p>Failed to load music.</p>';
+        });
+    },
+    
+    loadArtworkData: function() {
+      fetch('/assets/data/artworks.json')
+        .then(response => response.json())
+        .then(data => {
+          this.state.artworks = data;
+        })
+        .catch(error => {
+          console.error('Error loading artwork data:', error);
         });
     },
     
@@ -145,6 +158,15 @@ document.addEventListener('DOMContentLoaded', function() {
       );
     },
     
+    // Get random artwork
+    getRandomArtwork: function() {
+      if (!this.state.artworks || this.state.artworks.length === 0) {
+        return null;
+      }
+      const randomIndex = Math.floor(Math.random() * this.state.artworks.length);
+      return this.state.artworks[randomIndex];
+    },
+    
     // Playback
     loadAndPlayTrack: function(trackElement) {
       try {
@@ -160,7 +182,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Update UI
         this.updateActiveTrack(trackElement);
         
-        // Set MediaSession metadata
+        // Set MediaSession metadata with random artwork
         this.updateMediaSession(track);
         
         // Play the track
@@ -183,8 +205,14 @@ document.addEventListener('DOMContentLoaded', function() {
     
     updateMediaSession: function(trackTitle) {
       if ('mediaSession' in navigator) {
+        const artwork = this.getRandomArtwork();
+        const artworkUrl = artwork ? artwork.path : null;
+        
         navigator.mediaSession.metadata = new MediaMetadata({
-          title: trackTitle
+          title: trackTitle,
+          artwork: artworkUrl ? [
+            { src: window.location.origin + artworkUrl, sizes: '512x512', type: 'image/jpeg' }
+          ] : []
         });
         
         // Add media session action handlers for lock screen controls
