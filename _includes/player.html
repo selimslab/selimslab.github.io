@@ -30,6 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
     state: {
       currentTrackIndex: -1,
       tracks: [],
+      tracksById: {},
       artworks: null
     },
     
@@ -54,11 +55,32 @@ document.addEventListener('DOMContentLoaded', function() {
     loadMusicData: function() {
       fetch('/assets/data/tracks.json')
         .then(response => response.json())
-        .then(data => this.buildPlaylist(data))
+        .then(data => {
+          this.processTrackData(data);
+          this.buildPlaylist(data);
+        })
         .catch(error => {
           console.error('Error loading music data:', error);
           this.elements.playlist.innerHTML = '<p>Failed to load music.</p>';
         });
+    },
+    
+    processTrackData: function(data) {
+      // Flatten all tracks into a single array with genre info
+      this.state.tracks = [];
+      this.state.tracksById = {};
+      
+      Object.keys(data).forEach(genre => {
+        data[genre].forEach(track => {
+          const trackWithGenre = { 
+            genre, 
+            id: track.id, 
+            title: track.title 
+          };
+          this.state.tracks.push(trackWithGenre);
+          this.state.tracksById[track.id] = trackWithGenre;
+        });
+      });
     },
     
     loadArtworkData: function() {
@@ -74,7 +96,6 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // UI Building
     buildPlaylist: function(data) {
-      this.state.tracks = [];
       const playlist = this.elements.playlist;
       playlist.innerHTML = '';
       
@@ -101,9 +122,6 @@ document.addEventListener('DOMContentLoaded', function() {
       tracksList.className = 'track-list';
       
       tracks.forEach(track => {
-        // Add to flat playlist for sequential playback
-        this.state.tracks.push({ genre, track });
-        
         const trackItem = this.createTrackItem(genre, track);
         tracksList.appendChild(trackItem);
       });
@@ -114,16 +132,18 @@ document.addEventListener('DOMContentLoaded', function() {
     
     createTrackItem: function(genre, track) {
       const trackItem = document.createElement('li');
-      trackItem.textContent = track;
+      trackItem.textContent = track.title;
       trackItem.className = 'track';
       trackItem.dataset.genre = genre;
-      trackItem.dataset.track = track;
+      trackItem.dataset.id = track.id;
       
       trackItem.addEventListener('click', () => {
-        const index = this.findTrackIndex(genre, track);
+        // Find index in the flat array of tracks
+        const index = this.state.tracks.findIndex(t => t.id === track.id);
         if (index !== -1) {
           this.state.currentTrackIndex = index;
-          this.loadAndPlayTrack(trackItem);
+          this.loadAndPlayCurrentTrack();
+          this.updateActiveTrackInDOM(track.id);
         }
       });
       
@@ -145,21 +165,64 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       
       this.state.currentTrackIndex = newIndex;
+      this.loadAndPlayCurrentTrack();
       
-      // Find the track element
-      const trackData = this.state.tracks[newIndex];
-      const selector = `.track[data-genre="${trackData.genre}"][data-track="${trackData.track}"]`;
-      const trackElement = document.querySelector(selector);
+      // Update active class in DOM
+      const currentTrack = this.state.tracks[newIndex];
+      this.updateActiveTrackInDOM(currentTrack.id);
+    },
+    
+    loadAndPlayCurrentTrack: function() {
+      const currentIndex = this.state.currentTrackIndex;
+      if (currentIndex < 0 || currentIndex >= this.state.tracks.length) return;
       
-      if (trackElement) {
-        this.loadAndPlayTrack(trackElement);
+      const track = this.state.tracks[currentIndex];
+      this.playTrackById(track.id);
+    },
+    
+    playTrackById: function(trackId) {
+      try {
+        const trackData = this.state.tracksById[trackId];
+        if (!trackData) return;
+        
+        const genre = trackData.genre;
+        const title = trackData.title;
+        const fileName = encodeURIComponent(title + '.mp3');
+        const audioPath = `/assets/static/music/${genre.toLowerCase()}/${fileName}`;
+        
+        // Update audio source
+        this.elements.player.src = audioPath;
+        this.elements.nowPlaying.textContent = title;
+        
+        // Play the track and ensure media session is updated
+        const playPromise = this.elements.player.play();
+        
+        if (playPromise !== undefined) {
+          playPromise
+            .then(() => {
+              // Playback started successfully - update media session after metadata is loaded
+              this.updateMediaSession(title);
+            })
+            .catch(e => {
+              console.error('Error playing audio:', e);
+              this.elements.nowPlaying.textContent = 'Error playing: ' + title;
+            });
+        }
+      } catch (error) {
+        console.error('Error setting up audio:', error);
+        this.elements.nowPlaying.textContent = 'Error with track';
       }
     },
     
-    findTrackIndex: function(genre, track) {
-      return this.state.tracks.findIndex(item => 
-        item.genre === genre && item.track === track
-      );
+    updateActiveTrackInDOM: function(trackId) {
+      document.querySelectorAll('.track.active').forEach(item => {
+        item.classList.remove('active');
+      });
+      
+      const trackElement = document.querySelector(`.track[data-id="${trackId}"]`);
+      if (trackElement) {
+        trackElement.classList.add('active');
+      }
     },
     
     // Get random artwork
@@ -169,48 +232,6 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       const randomIndex = Math.floor(Math.random() * this.state.artworks.length);
       return this.state.artworks[randomIndex];
-    },
-    
-    // Playback
-    loadAndPlayTrack: function(trackElement) {
-      try {
-        const genre = trackElement.dataset.genre;
-        const track = trackElement.dataset.track;
-        const fileName = encodeURIComponent(track + '.mp3');
-        const audioPath = `/assets/static/music/${genre.toLowerCase()}/${fileName}`;
-        
-        // Update audio source
-        this.elements.player.src = audioPath;
-        this.elements.nowPlaying.textContent = track;
-        
-        // Update UI
-        this.updateActiveTrack(trackElement);
-        
-        // Play the track and ensure media session is updated
-        const playPromise = this.elements.player.play();
-        
-        if (playPromise !== undefined) {
-          playPromise
-            .then(() => {
-              // Playback started successfully - update media session after metadata is loaded
-              this.updateMediaSession(track);
-            })
-            .catch(e => {
-              console.error('Error playing audio:', e);
-              this.elements.nowPlaying.textContent = 'Error playing: ' + track;
-            });
-        }
-      } catch (error) {
-        console.error('Error setting up audio:', error);
-        this.elements.nowPlaying.textContent = 'Error with track';
-      }
-    },
-    
-    updateActiveTrack: function(activeElement) {
-      document.querySelectorAll('.track.active').forEach(item => {
-        item.classList.remove('active');
-      });
-      activeElement.classList.add('active');
     },
     
     updateMediaSession: function(trackTitle) {

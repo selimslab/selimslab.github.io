@@ -1,86 +1,296 @@
 {
   "classics": [
-    "Black Sabbath - Paranoid",
-    "Bob Dylan - Mr. Tambourine Man",
-    "California Dreamin'",
-    "Carry On",
-    "Dream On",
-    "Dust in the Wind",
-    "Fear of the Dark",
-    "Kansas - Carry On Wayward Son",
-    "Paint It, Black",
-    "Soldier Of Fortune - Deep Purple",
-    "Sting - Shape of My Heart",
-    "The Temple Of The King",
-    "White Room"
+    {
+      "id": "3473",
+      "title": "Black Sabbath - Paranoid"
+    },
+    {
+      "id": "9837",
+      "title": "Bob Dylan - Mr. Tambourine Man"
+    },
+    {
+      "id": "2256",
+      "title": "California Dreamin'"
+    },
+    {
+      "id": "4652",
+      "title": "Carry On"
+    },
+    {
+      "id": "8018",
+      "title": "Dream On"
+    },
+    {
+      "id": "3375",
+      "title": "Dust in the Wind"
+    },
+    {
+      "id": "8265",
+      "title": "Fear of the Dark"
+    },
+    {
+      "id": "4098",
+      "title": "Kansas - Carry On Wayward Son"
+    },
+    {
+      "id": "9676",
+      "title": "Paint It, Black"
+    },
+    {
+      "id": "1657",
+      "title": "Soldier Of Fortune - Deep Purple"
+    },
+    {
+      "id": "4237",
+      "title": "Sting - Shape of My Heart"
+    },
+    {
+      "id": "1413",
+      "title": "The Temple Of The King"
+    },
+    {
+      "id": "2929",
+      "title": "White Room"
+    }
   ],
   "dance": [
-    "Alabina",
-    "Freed from desire",
-    "Laura Branigan - Self Control",
-    "Michael Jackson - Billie Jean",
-    "Shakira - Hips Don't Lie",
-    "The Ketchup Song"
+    {
+      "id": "2806",
+      "title": "Alabina"
+    },
+    {
+      "id": "1101",
+      "title": "Freed from desire"
+    },
+    {
+      "id": "5493",
+      "title": "Laura Branigan - Self Control"
+    },
+    {
+      "id": "1937",
+      "title": "Michael Jackson - Billie Jean"
+    },
+    {
+      "id": "5669",
+      "title": "Shakira - Hips Don't Lie"
+    },
+    {
+      "id": "6305",
+      "title": "The Ketchup Song"
+    }
   ],
   "electronic": [
-    "Avoure - Aura",
-    "David August - Epikur",
-    "Lost In Mind",
-    "Solomun - Home",
-    "Stavroz - The Finishing",
-    "You're High"
+    {
+      "id": "2393",
+      "title": "Avoure - Aura"
+    },
+    {
+      "id": "5135",
+      "title": "David August - Epikur"
+    },
+    {
+      "id": "0109",
+      "title": "Lost In Mind"
+    },
+    {
+      "id": "3889",
+      "title": "Solomun - Home"
+    },
+    {
+      "id": "9586",
+      "title": "Stavroz - The Finishing"
+    },
+    {
+      "id": "3548",
+      "title": "You're High"
+    }
   ],
   "soundtrack": [
-    "A Song of Ice and Fire",
-    "Enya - Only Time",
-    "Gökhan Kırdar：kv generic",
-    "Gökhan Kırdar：kv",
-    "Gökhan Kırdar：pusu",
-    "Hans Zimmer - No Time For Caution",
-    "Hans Zimmer ~ Cornfield Chase",
-    "Heart of Courage",
-    "Ludovico Einaudi - Fly",
-    "Misty Mountains",
-    "O Fortuna",
-    "The Last of the Mohicans - Main Title",
-    "The Ride of the Rohirrim",
-    "Up Is Down"
+    {
+      "id": "1600",
+      "title": "A Song of Ice and Fire"
+    },
+    {
+      "id": "0183",
+      "title": "Enya - Only Time"
+    },
+    {
+      "id": "1898",
+      "title": "Gökhan Kırdar：kv generic"
+    },
+    {
+      "id": "9815",
+      "title": "Gökhan Kırdar：kv"
+    },
+    {
+      "id": "7815",
+      "title": "Gökhan Kırdar：pusu"
+    },
+    {
+      "id": "8289",
+      "title": "Hans Zimmer - No Time For Caution"
+    },
+    {
+      "id": "4582",
+      "title": "Hans Zimmer ~ Cornfield Chase"
+    },
+    {
+      "id": "7513",
+      "title": "Heart of Courage"
+    },
+    {
+      "id": "7257",
+      "title": "Ludovico Einaudi - Fly"
+    },
+    {
+      "id": "0228",
+      "title": "Misty Mountains"
+    },
+    {
+      "id": "8838",
+      "title": "O Fortuna"
+    },
+    {
+      "id": "7205",
+      "title": "The Last of the Mohicans - Main Title"
+    },
+    {
+      "id": "7060",
+      "title": "The Ride of the Rohirrim"
+    },
+    {
+      "id": "5019",
+      "title": "Up Is Down"
+    }
   ],
   "turkce": [
-    "Adamlar - Öyle Bir Geçer",
-    "Barış Manço - Gamzedeyim",
-    "Barış Manço - Gül Pembe",
-    "Cem Karaca - Kara Bahtım",
-    "Dedublüman - Sen Bilmezsin",
-    "Duman - Helal Olsun",
-    "Duman - Yürekten",
-    "Dönence",
-    "Hey! Douglas - Ayva Çiçek Açmış ft. Gaye Su Akyol",
-    "Hey! Douglas ft. Göksel - Duruyor Dünya",
-    "Manuş Baba - Haberin Var Mı？",
-    "Müslüm Gürses & Duman - Olmadı Yar",
-    "Pinhâni - Dünyadan Uzak",
-    "mor ve ötesi - Bir Derdim Var",
-    "mor ve ötesi - Sultan-ı Yegâh"
+    {
+      "id": "2726",
+      "title": "Adamlar - Öyle Bir Geçer"
+    },
+    {
+      "id": "4251",
+      "title": "Barış Manço - Gamzedeyim"
+    },
+    {
+      "id": "8508",
+      "title": "Barış Manço - Gül Pembe"
+    },
+    {
+      "id": "0728",
+      "title": "Cem Karaca - Kara Bahtım"
+    },
+    {
+      "id": "0997",
+      "title": "Dedublüman - Sen Bilmezsin"
+    },
+    {
+      "id": "7438",
+      "title": "Duman - Helal Olsun"
+    },
+    {
+      "id": "3440",
+      "title": "Duman - Yürekten"
+    },
+    {
+      "id": "9941",
+      "title": "Dönence"
+    },
+    {
+      "id": "1623",
+      "title": "Hey! Douglas - Ayva Çiçek Açmış ft. Gaye Su Akyol"
+    },
+    {
+      "id": "8041",
+      "title": "Hey! Douglas ft. Göksel - Duruyor Dünya"
+    },
+    {
+      "id": "3643",
+      "title": "Manuş Baba - Haberin Var Mı？"
+    },
+    {
+      "id": "2225",
+      "title": "Müslüm Gürses & Duman - Olmadı Yar"
+    },
+    {
+      "id": "6823",
+      "title": "Pinhâni - Dünyadan Uzak"
+    },
+    {
+      "id": "0902",
+      "title": "mor ve ötesi - Bir Derdim Var"
+    },
+    {
+      "id": "3329",
+      "title": "mor ve ötesi - Sultan-ı Yegâh"
+    }
   ],
   "turku": [
-    "Al Fadimem ⧸ Cura",
-    "Drama Köprüsü",
-    "Eşkiya Dünyaya Hükümdar Olmaz",
-    "Harmandali",
-    "Hüdayda",
-    "Kerimoğlu",
-    "Mecaz - Tekeler Köyü Zeybeği",
-    "Neşet Ertaş - Ayaş Yolları",
-    "Sivas Ellerinde Sazim Calinir"
+    {
+      "id": "2928",
+      "title": "Al Fadimem ⧸ Cura"
+    },
+    {
+      "id": "2898",
+      "title": "Drama Köprüsü"
+    },
+    {
+      "id": "1318",
+      "title": "Eşkiya Dünyaya Hükümdar Olmaz"
+    },
+    {
+      "id": "5789",
+      "title": "Harmandali"
+    },
+    {
+      "id": "9350",
+      "title": "Hüdayda"
+    },
+    {
+      "id": "1945",
+      "title": "Kerimoğlu"
+    },
+    {
+      "id": "0051",
+      "title": "Mecaz - Tekeler Köyü Zeybeği"
+    },
+    {
+      "id": "7897",
+      "title": "Neşet Ertaş - Ayaş Yolları"
+    },
+    {
+      "id": "8492",
+      "title": "Sivas Ellerinde Sazim Calinir"
+    }
   ],
   "world": [
-    "Candy Dulfer & David A. Stewart - Lily Was Here",
-    "Coffee Cold",
-    "Four Winds - Adam Hurst",
-    "Françoise Hardy - Le Temps de l'Amour",
-    "Masâr",
-    "Nasimi",
-    "İpek İpekçioğlu - The Way I Do"
+    {
+      "id": "8123",
+      "title": "Candy Dulfer & David A. Stewart - Lily Was Here"
+    },
+    {
+      "id": "0621",
+      "title": "Coffee Cold"
+    },
+    {
+      "id": "3182",
+      "title": "Four Winds - Adam Hurst"
+    },
+    {
+      "id": "9496",
+      "title": "Françoise Hardy - Le Temps de l'Amour"
+    },
+    {
+      "id": "0403",
+      "title": "Masâr"
+    },
+    {
+      "id": "9941",
+      "title": "Nasimi"
+    },
+    {
+      "id": "4903",
+      "title": "İpek İpekçioğlu - The Way I Do"
+    }
   ]
 }
