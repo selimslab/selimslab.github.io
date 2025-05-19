@@ -150,14 +150,13 @@ document.addEventListener('DOMContentLoaded', () => {
     updateMediaSession(trackTitle) {
       if (!('mediaSession' in navigator)) return;
       
-      const artwork = '/assets/static/mw.jpeg'
-      const artworkUrl = artwork ? artwork.path : null;
+      const artworkPath = window.location.origin + '/assets/static/mw.jpeg'
       
       navigator.mediaSession.metadata = new MediaMetadata({
         title: trackTitle,
-        artwork: artworkUrl ? [
-          { src: window.location.origin + artworkUrl, sizes: '512x512', type: 'image/jpeg' }
-        ] : []
+        artwork: [
+          { src: artworkPath, sizes: '512x512', type: 'image/jpeg' }
+        ] 
       });
       
       // Set up media session actions
