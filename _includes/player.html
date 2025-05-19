@@ -16,374 +16,344 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-  const player = {
-    // DOM Elements
-    audio: document.getElementById('audio-player'),
-    nowPlaying: document.getElementById('now-playing'),
-    playlist: document.getElementById('playlist'),
-    shuffleBtn: document.getElementById('shuffle-button'),
-    prevBtn: document.getElementById('prev-button'),
-    nextBtn: document.getElementById('next-button'),
-    
-    // State
-    tracks: [],
-    tracksById: {},
-    currentIndex: -1,
-    shuffleMode: false,
-    playHistory: [],     // Array to store play history
-    historyIndex: -1,    // Current position in history
-    
-    async init() {
-      try {
-        const data = await fetch('/assets/data/tracks.json').then(r => r.json());
-        this.processData(data);
-        this.setupUI(data);
-        this.setupEvents();
-      } catch (error) {
-        console.error('Player error:', error);
-        this.playlist.innerHTML = '<p>Failed to load music.</p>';
-      }
-    },
-    
-    processData(data) {
-      this.tracks = [];
-      this.tracksById = {};
-      
-      Object.entries(data).forEach(([genre, tracks]) => {
-        tracks.forEach(track => {
-          if (!track || !track.id || !track.title) return;
-          
-          const trackWithGenre = { genre, id: track.id, title: track.title };
-          this.tracks.push(trackWithGenre);
-          this.tracksById[track.id] = trackWithGenre;
-        });
-      });
-    },
-    
-    setupUI(data) {
-      this.playlist.innerHTML = '';
-      this.trackElements = [];
-      
-      Object.entries(data).forEach(([genre, tracks], index) => {
-        const details = document.createElement('details');
-        details.className = 'genre-section';
-        details.open = false;
-        
-        const summary = document.createElement('summary');
-        summary.textContent = genre;
-        details.appendChild(summary);
-        
-        const tracksList = document.createElement('ul');
-        tracksList.className = 'track-list';
-        
-        tracks.forEach(track => {
-          if (!track || !track.id || !track.title) return;
-          
-          const li = document.createElement('li');
-          li.textContent = track.title;
-          li.className = 'track';
-          li.dataset.id = track.id;
-          li.dataset.genre = genre;
-          
-          const handleTrackClick = () => this.playById(track.id);
-          li.addEventListener('click', handleTrackClick);
-          
-          // Store reference to element and handler for cleanup
-          this.trackElements.push({ 
-            element: li, 
-            handler: handleTrackClick,
-            id: track.id
-          });
-          
-          tracksList.appendChild(li);
-        });
-        
-        details.appendChild(tracksList);
-        this.playlist.appendChild(details);
-      });
-    },
-    
-    setupEvents() {
-      // Player events
-      this.handleTrackEnd = () => this.playNext();
-      this.handleError = () => {
-        this.nowPlaying.textContent = 'Error playing track';
-        setTimeout(() => this.playNext(), 500);
-      };
-      this.handleShuffleClick = () => this.toggleShuffle();
-      this.handlePrevClick = () => this.playPrev();
-      this.handleNextClick = () => this.playNext();
-    
-      this.handlePause = () => {
-        this.updatePositionState();
-      };
-      this.handlePlay = () => {
-        this.updatePositionState();
-        // Ensure media session is updated on play
-        if (this.tracks[this.currentIndex]) {
-          // Force refresh media session on iOS
-          setTimeout(() => {
-            this.updateMediaSession(this.tracks[this.currentIndex].title);
-          }, 100);
-        }
-      };
-      this.handleTimeUpdate = () => {
-        // Update position state more frequently (reduce throttle time for iOS)
-        if (this.lastPositionUpdate && Date.now() - this.lastPositionUpdate < 1000) return;
-        this.lastPositionUpdate = Date.now();
-        this.updatePositionState();
-      };
-      this.handleDurationChange = () => {
-        this.updatePositionState();
-      };
-      
-      // Define audio event mappings
-      this.audioEvents = {
-        'ended': this.handleTrackEnd,
-        'error': this.handleError,
-        'pause': this.handlePause,
-        'play': this.handlePlay,
-        'timeupdate': this.handleTimeUpdate,
-        'durationchange': this.handleDurationChange
-      };
-      
-      // Button event mappings
-      this.buttonEvents = [
-        { element: this.shuffleBtn, event: 'click', handler: this.handleShuffleClick },
-        { element: this.prevBtn, event: 'click', handler: this.handlePrevClick },
-        { element: this.nextBtn, event: 'click', handler: this.handleNextClick }
-      ];
-      
-      // Add all audio events
-      Object.entries(this.audioEvents).forEach(([event, handler]) => {
-        this.audio.addEventListener(event, handler);
-      });
-      
-      // Add all button events
-      this.buttonEvents.forEach(({ element, event, handler }) => {
-        element.addEventListener(event, handler);
-      });
-    },
-    
-    playById(id) {
-      const index = this.tracks.findIndex(t => t.id === id);
-      if (index !== -1) {
-        this.currentIndex = index;
-        
-        // When directly selecting a track, clear future history
-        if (this.historyIndex < this.playHistory.length - 1) {
-          this.playHistory = this.playHistory.slice(0, this.historyIndex + 1);
-        }
-        
-        // Add to history and update index
-        this.playHistory.push(index);
-        this.historyIndex = this.playHistory.length - 1;
-        
-        this.loadTrack();
-      }
-    },
-    
-    loadTrack() {
-      const track = this.tracks[this.currentIndex];
-      if (!track) return;
-      
-      // Update active track in UI
-      document.querySelectorAll('.track.active').forEach(t => t.classList.remove('active'));
-      const trackEl = document.querySelector(`.track[data-id="${track.id}"]`);
-      if (trackEl) {
-        trackEl.classList.add('active');
-        const parentDetails = trackEl.closest('details');
-        if (parentDetails) parentDetails.open = true;
-      }
-      
-      // Load and play the track
-      const fileName = encodeURIComponent(track.title + '.mp3');
-      const path = `/assets/static/music/${track.genre.toLowerCase()}/${fileName}`;
-      
-      // Update the now playing text before attempting to play
-      // This helps with iOS showing correct info even if play is delayed
-      this.nowPlaying.textContent = track.title;
-      
-      this.audio.src = path;    
-      this.audio.play().then(() => {
-        this.updateMediaSession(track.title);
-      }).catch(error => {
-        console.error('Error playing track:', error);
-        this.handleError();
-      });
-    },
-    
-    updateMediaSession(trackTitle) {
-      if (!('mediaSession' in navigator)) return;
-      
-      const artworkPath = window.location.origin + '/assets/static/mw.jpeg'
-      
-      navigator.mediaSession.metadata = new MediaMetadata({
-        title: trackTitle,
-        artist: '', 
-        album: '', 
-        artwork: [
-          { src: artworkPath, sizes: '512x512', type: 'image/jpeg' }
-        ] 
-      });
-      
-      // Create bound functions to ensure proper 'this' context in iOS
-      const boundPlayPrev = () => this.playPrev();
-      const boundPlayNext = () => this.playNext();
-      const boundPlay = () => this.audio.play();
-      const boundPause = () => this.audio.pause();
-      
-      // Set up media session actions with bound functions
-      try {
-        navigator.mediaSession.setActionHandler('previoustrack', boundPlayPrev);
-        navigator.mediaSession.setActionHandler('nexttrack', boundPlayNext);
-        navigator.mediaSession.setActionHandler('play', boundPlay);
-        navigator.mediaSession.setActionHandler('pause', boundPause);
-        
-        // Add seek handler for compatible browsers
-        if ('setActionHandler' in navigator.mediaSession && 'seekto' in MediaSessionAction) {
-          navigator.mediaSession.setActionHandler('seekto', (details) => {
-            if (details.fastSeek && 'fastSeek' in this.audio) {
-              this.audio.fastSeek(details.seekTime);
-              return;
-            }
-            this.audio.currentTime = details.seekTime;
-            this.updatePositionState(); // Update immediately after seeking
-          });
-        }
-      } catch (e) {
-        console.error('Error setting media session handlers:', e);
-      }
-      
-      this.updatePositionState();
-    },
-
-    // Update position state for lock screen
-    updatePositionState() {
-      if (!('mediaSession' in navigator)) return;
-      
-      // Additional check for iOS - it might not support setPositionState
-      if (!('setPositionState' in navigator.mediaSession)) return;
-      
-      if (isNaN(this.audio.duration) || this.audio.duration <= 0) return;
-      
-      try {
-        navigator.mediaSession.setPositionState({
-          duration: this.audio.duration || 0,
-          playbackRate: this.audio.playbackRate || 1,
-          position: this.audio.currentTime || 0
-        });
-      } catch (e) {
-        console.error('Error updating position state:', e);
-      }
-    },
-    
-    playNext() {
-      if (!this.tracks.length) return;
-      
-      // Check if we're already navigating through history
-      if (this.historyIndex < this.playHistory.length - 1) {
-        // Move forward in history
-        this.historyIndex++;
-        this.currentIndex = this.playHistory[this.historyIndex];
-        this.loadTrack();
-        return;
-      }
-      
-      // Otherwise play the next track normally
-      let nextIndex;
-      if (this.shuffleMode) {
-        // Random track in shuffle mode
-        nextIndex = Math.floor(Math.random() * this.tracks.length);
-        // Avoid playing the same track twice
-        if (nextIndex === this.currentIndex && this.tracks.length > 1) {
-          nextIndex = (nextIndex + 1) % this.tracks.length;
-        }
-      } else {
-        // Next track in sequence
-        nextIndex = (this.currentIndex + 1) % this.tracks.length;
-      }
-      
-      // Update current index and add to history
-      this.currentIndex = nextIndex;
-      this.playHistory.push(nextIndex);
-      this.historyIndex = this.playHistory.length - 1;
-      
-      this.loadTrack();
-    },
-    
-    playPrev() {
-      if (!this.tracks.length) return;
-      
-      // If we have history and not at the beginning
-      if (this.historyIndex > 0) {
-        this.historyIndex--;
-        this.currentIndex = this.playHistory[this.historyIndex];
-        this.loadTrack();
-        return;
-      }
-      
-      // If at the start of history or no history, use the default behavior
-      this.currentIndex = (this.currentIndex - 1 + this.tracks.length) % this.tracks.length;
-      
-      // Add to history since we're going to a new track not in history
-      this.playHistory.push(this.currentIndex);
-      this.historyIndex = this.playHistory.length - 1;
-      
-      this.loadTrack();
-    },
-    
-    toggleShuffle() {
-      this.shuffleMode = !this.shuffleMode;
-      this.shuffleBtn.classList.toggle('active', this.shuffleMode);
-      this.shuffleBtn.setAttribute('aria-pressed', this.shuffleMode);
-      
-      // Auto-start playback if paused and shuffle enabled
-      if (this.shuffleMode && this.audio.paused && this.tracks.length > 0) {
-        this.playNext();
-      }
-    },
-    
-    cleanup() {
-      // Clean up media session handlers
-      if ('mediaSession' in navigator) {
-        navigator.mediaSession.setActionHandler('previoustrack', null);
-        navigator.mediaSession.setActionHandler('nexttrack', null);
-        navigator.mediaSession.setActionHandler('play', null);
-        navigator.mediaSession.setActionHandler('pause', null);
-        navigator.mediaSession.setActionHandler('seekto', null);
-      }
-      
-      // Remove all audio event listeners
-      Object.entries(this.audioEvents).forEach(([event, handler]) => {
-        this.audio.removeEventListener(event, handler);
-      });
-      
-      // Remove all button event listeners
-      this.buttonEvents.forEach(({ element, event, handler }) => {
-        element.removeEventListener(event, handler);
-      });
-      
-      // Remove event listeners from track elements
-      if (this.trackElements) {
-        this.trackElements.forEach(item => {
-          item.element.removeEventListener('click', item.handler);
-        });
-      }
-      
-      // Remove window event listener
-      window.removeEventListener('beforeunload', this.handleUnload);
-    }
-  };
+  // DOM Elements
+  const audioElement = document.getElementById('audio-player');
+  const nowPlayingElement = document.getElementById('now-playing');
+  const playlistElement = document.getElementById('playlist');
+  const shuffleBtn = document.getElementById('shuffle-button');
+  const prevBtn = document.getElementById('prev-button');
+  const nextBtn = document.getElementById('next-button');
+  
+  // State
+  let tracks = [];
+  let tracksById = {};
+  let currentIndex = -1;
+  let shuffleMode = false;
+  let playHistory = [];     // Array to store play history
+  let historyIndex = -1;    // Current position in history
+  let trackElements = [];
+  let lastPositionUpdate = 0;
   
   // Initialize the player
-  player.init();
+  init();
   
-  // Create a named handler for window unload event
-  player.handleUnload = () => player.cleanup();
+  async function init() {
+    try {
+      const data = await fetch('/assets/data/tracks.json').then(r => r.json());
+      processData(data);
+      setupUI(data);
+      setupEvents();
+    } catch (error) {
+      console.error('Player error:', error);
+      playlistElement.innerHTML = '<p>Failed to load music.</p>';
+    }
+  }
   
-  // Cleanup when page is unloaded
-  window.addEventListener('beforeunload', player.handleUnload);
+  function processData(data) {
+    tracks = [];
+    tracksById = {};
+    
+    Object.entries(data).forEach(([genre, genreTracks]) => {
+      genreTracks.forEach(track => {
+        if (!track || !track.id || !track.title) return;
+        
+        const trackWithGenre = { genre, id: track.id, title: track.title };
+        tracks.push(trackWithGenre);
+        tracksById[track.id] = trackWithGenre;
+      });
+    });
+  }
+  
+  function setupUI(data) {
+    playlistElement.innerHTML = '';
+    trackElements = [];
+    
+    Object.entries(data).forEach(([genre, genreTracks]) => {
+      const details = document.createElement('details');
+      details.className = 'genre-section';
+      details.open = false;
+      
+      const summary = document.createElement('summary');
+      summary.textContent = genre;
+      details.appendChild(summary);
+      
+      const tracksList = document.createElement('ul');
+      tracksList.className = 'track-list';
+      
+      genreTracks.forEach(track => {
+        if (!track || !track.id || !track.title) return;
+        
+        const li = document.createElement('li');
+        li.textContent = track.title;
+        li.className = 'track';
+        li.dataset.id = track.id;
+        li.dataset.genre = genre;
+        
+        const handleTrackClick = () => playById(track.id);
+        li.addEventListener('click', handleTrackClick);
+        
+        // Store reference to element and handler for cleanup
+        trackElements.push({ 
+          element: li, 
+          handler: handleTrackClick,
+          id: track.id
+        });
+        
+        tracksList.appendChild(li);
+      });
+      
+      details.appendChild(tracksList);
+      playlistElement.appendChild(details);
+    });
+  }
+  
+  function setupEvents() {
+    // Audio event listeners
+    audioElement.addEventListener('ended', handleTrackEnd);
+    audioElement.addEventListener('error', handleError);
+    audioElement.addEventListener('pause', handlePause);
+    audioElement.addEventListener('play', handlePlay);
+    audioElement.addEventListener('timeupdate', handleTimeUpdate);
+    audioElement.addEventListener('durationchange', handleDurationChange);
+    
+    // Button event listeners
+    shuffleBtn.addEventListener('click', toggleShuffle);
+    prevBtn.addEventListener('click', playPrev);
+    nextBtn.addEventListener('click', playNext);
+    
+    // Window event listener for cleanup
+    window.addEventListener('beforeunload', cleanup);
+  }
+  
+  function playById(id) {
+    const index = tracks.findIndex(t => t.id === id);
+    if (index !== -1) {
+      currentIndex = index;
+      
+      // When directly selecting a track, clear future history
+      if (historyIndex < playHistory.length - 1) {
+        playHistory = playHistory.slice(0, historyIndex + 1);
+      }
+      
+      // Add to history and update index
+      playHistory.push(index);
+      historyIndex = playHistory.length - 1;
+      
+      loadTrack();
+    }
+  }
+  
+  function loadTrack() {
+    const track = tracks[currentIndex];
+    if (!track) return;
+    
+    // Update active track in UI
+    document.querySelectorAll('.track.active').forEach(t => t.classList.remove('active'));
+    const trackEl = document.querySelector(`.track[data-id="${track.id}"]`);
+    if (trackEl) {
+      trackEl.classList.add('active');
+      const parentDetails = trackEl.closest('details');
+      if (parentDetails) parentDetails.open = true;
+    }
+    
+    // Load and play the track
+    const fileName = encodeURIComponent(track.title + '.mp3');
+    const path = `/assets/static/music/${track.genre.toLowerCase()}/${fileName}`;
+    
+    nowPlayingElement.textContent = track.title;
+    audioElement.src = path;    
+    audioElement.play().then(() => {
+    }).catch(error => {
+      console.error('Error playing track:', error);
+      handleError();
+    });
+  }
+  
+  function updateMediaSession(trackTitle) {
+    if (!('mediaSession' in navigator)) return;
+    
+    const artworkPath = window.location.origin + '/assets/static/mw.jpeg';
+    
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: trackTitle,
+      artist: '', 
+      album: '', 
+      artwork: [
+        { src: artworkPath, sizes: '512x512', type: 'image/jpeg' }
+      ] 
+    });
+    
+    // Set up media session actions with direct function references
+    try {
+      navigator.mediaSession.setActionHandler('previoustrack', playPrev);
+      navigator.mediaSession.setActionHandler('nexttrack', playNext);
+      navigator.mediaSession.setActionHandler('play', () => audioElement.play());
+      navigator.mediaSession.setActionHandler('pause', () => audioElement.pause());
+      
+      // Add seek handler for compatible browsers
+      if ('setActionHandler' in navigator.mediaSession && 'seekto' in MediaSessionAction) {
+        navigator.mediaSession.setActionHandler('seekto', (details) => {
+          if (details.fastSeek && 'fastSeek' in audioElement) {
+            audioElement.fastSeek(details.seekTime);
+            return;
+          }
+          audioElement.currentTime = details.seekTime;
+          updatePositionState(); // Update immediately after seeking
+        });
+      }
+    } catch (e) {
+      console.error('Error setting media session handlers:', e);
+    }
+    
+    updatePositionState();
+  }
+
+  // Update position state for lock screen
+  function updatePositionState() {
+    if (!('mediaSession' in navigator)) return;
+    
+    // Additional check for iOS - it might not support setPositionState
+    if (!('setPositionState' in navigator.mediaSession)) return;
+    
+    if (isNaN(audioElement.duration) || audioElement.duration <= 0) return;
+    
+    try {
+      navigator.mediaSession.setPositionState({
+        duration: audioElement.duration || 0,
+        playbackRate: audioElement.playbackRate || 1,
+        position: audioElement.currentTime || 0
+      });
+    } catch (e) {
+      console.error('Error updating position state:', e);
+    }
+  }
+  
+  // Event handlers
+  function handleTrackEnd() {
+    playNext();
+  }
+  
+  function handleError() {
+    nowPlayingElement.textContent = 'Error playing track';
+    setTimeout(() => playNext(), 500);
+  }
+  
+  function handlePause() {
+    updateMediaSession(tracks[currentIndex].title);
+  }
+  
+  function handlePlay() {
+    updateMediaSession(tracks[currentIndex].title);
+  }
+  
+  function handleTimeUpdate() {
+    // Update position state more frequently (reduce throttle time for iOS)
+    if (lastPositionUpdate && Date.now() - lastPositionUpdate < 1000) return;
+    lastPositionUpdate = Date.now();
+    updatePositionState();
+  }
+  
+  function handleDurationChange() {
+    updatePositionState();
+  }
+  
+  function playNext() {
+    if (!tracks.length) return;
+    
+    // Check if we're already navigating through history
+    if (historyIndex < playHistory.length - 1) {
+      // Move forward in history
+      historyIndex++;
+      currentIndex = playHistory[historyIndex];
+      loadTrack();
+      return;
+    }
+    
+    // Otherwise play the next track normally
+    let nextIndex;
+    if (shuffleMode) {
+      // Random track in shuffle mode
+      nextIndex = Math.floor(Math.random() * tracks.length);
+      // Avoid playing the same track twice
+      if (nextIndex === currentIndex && tracks.length > 1) {
+        nextIndex = (nextIndex + 1) % tracks.length;
+      }
+    } else {
+      // Next track in sequence
+      nextIndex = (currentIndex + 1) % tracks.length;
+    }
+    
+    // Update current index and add to history
+    currentIndex = nextIndex;
+    playHistory.push(nextIndex);
+    historyIndex = playHistory.length - 1;
+    
+    loadTrack();
+  }
+  
+  function playPrev() {
+    if (!tracks.length) return;
+    
+    // If we have history and not at the beginning
+    if (historyIndex > 0) {
+      historyIndex--;
+      currentIndex = playHistory[historyIndex];
+      loadTrack();
+      return;
+    }
+    
+    // If at the start of history or no history, use the default behavior
+    currentIndex = (currentIndex - 1 + tracks.length) % tracks.length;
+    
+    // Add to history since we're going to a new track not in history
+    playHistory.push(currentIndex);
+    historyIndex = playHistory.length - 1;
+    
+    loadTrack();
+  }
+  
+  function toggleShuffle() {
+    shuffleMode = !shuffleMode;
+    shuffleBtn.classList.toggle('active', shuffleMode);
+    shuffleBtn.setAttribute('aria-pressed', shuffleMode);
+    
+    // Auto-start playback if paused and shuffle enabled
+    if (shuffleMode && audioElement.paused && tracks.length > 0) {
+      playNext();
+    }
+  }
+  
+  function cleanup() {
+    // Clean up media session handlers
+    if ('mediaSession' in navigator) {
+      navigator.mediaSession.setActionHandler('previoustrack', null);
+      navigator.mediaSession.setActionHandler('nexttrack', null);
+      navigator.mediaSession.setActionHandler('play', null);
+      navigator.mediaSession.setActionHandler('pause', null);
+      navigator.mediaSession.setActionHandler('seekto', null);
+    }
+    
+    // Remove all audio event listeners
+    audioElement.removeEventListener('ended', handleTrackEnd);
+    audioElement.removeEventListener('error', handleError);
+    audioElement.removeEventListener('pause', handlePause);
+    audioElement.removeEventListener('play', handlePlay);
+    audioElement.removeEventListener('timeupdate', handleTimeUpdate);
+    audioElement.removeEventListener('durationchange', handleDurationChange);
+    
+    // Remove all button event listeners
+    shuffleBtn.removeEventListener('click', toggleShuffle);
+    prevBtn.removeEventListener('click', playPrev);
+    nextBtn.removeEventListener('click', playNext);
+    
+    // Remove event listeners from track elements
+    trackElements.forEach(item => {
+      item.element.removeEventListener('click', item.handler);
+    });
+    
+    // Remove window event listener
+    window.removeEventListener('beforeunload', cleanup);
+  }
 });
 </script>
 
