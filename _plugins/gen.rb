@@ -360,12 +360,12 @@ class SiteGenerator < Jekyll::Generator
 
   def read_tracks
     paths = Dir.glob("#{STATIC_PATH}/music/**/*.{mp3,wav,ogg,flac}")
-    paths.sort 
+    paths.sort!
 
     # Group by genre (directory name)
     music_by_genre = {}
     
-    paths.each do |path|
+    paths.each_with_index do |path, index|
       # Get genre from parent directory name
       genre = File.basename(File.dirname(path))
       music_by_genre[genre] ||= []
@@ -373,8 +373,8 @@ class SiteGenerator < Jekyll::Generator
       # Just use the filename without extension
       filename = File.basename(path, ".*")
       
-      # Generate a consistent 4-digit ID based on the filename
-      id = filename.hash.abs.to_s.rjust(8, '0')[-5..-1]
+      # Use a sequential ID starting from 0
+      id = index.to_s
       
       # Add the track with ID to the genre's array
       music_by_genre[genre] << {

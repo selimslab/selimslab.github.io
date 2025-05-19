@@ -7,6 +7,7 @@ layout: delta
 <p><a href='/calendar/' id="current-date"></a></p>
 </div>
 
+
 <br>
 
 [Player](/player/)
@@ -43,3 +44,8 @@ layout: delta
   show_date_and_time();
 </script>
 
+<style>
+  p{
+    font-family: "Atkinson Hyperlegible Mono", "Inconsolata", monospace;  
+  }
+</style>
