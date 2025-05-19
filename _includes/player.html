@@ -3,9 +3,9 @@
   <div id="now-playing"></div>
   <audio id="audio-player" controls></audio>
   <div class="player-controls">
-    <button id="prev-button" class="button is-small">⏮</button>
-    <button id="shuffle-button" class="button is-small">shuffle</button>
-    <button id="next-button" class="button is-small">⏭</button>
+    <button id="prev-button" class="button">⏮</button>
+    <button id="shuffle-button" class="button">shuffle</button>
+    <button id="next-button" class="button">⏭</button>
   </div>
 </div>
 
@@ -30,6 +30,8 @@ document.addEventListener('DOMContentLoaded', () => {
     tracksById: {},
     currentIndex: -1,
     shuffleMode: false,
+    playHistory: [],     // Array to store play history
+    historyIndex: -1,    // Current position in history
     
     async init() {
       try {
@@ -111,6 +113,16 @@ document.addEventListener('DOMContentLoaded', () => {
       const index = this.tracks.findIndex(t => t.id === id);
       if (index !== -1) {
         this.currentIndex = index;
+        
+        // When directly selecting a track, clear future history
+        if (this.historyIndex < this.playHistory.length - 1) {
+          this.playHistory = this.playHistory.slice(0, this.historyIndex + 1);
+        }
+        
+        // Add to history and update index
+        this.playHistory.push(index);
+        this.historyIndex = this.playHistory.length - 1;
+        
         this.loadTrack();
       }
     },
@@ -193,25 +205,55 @@ document.addEventListener('DOMContentLoaded', () => {
     playNext() {
       if (!this.tracks.length) return;
       
+      // Check if we're already navigating through history
+      if (this.historyIndex < this.playHistory.length - 1) {
+        // Move forward in history
+        this.historyIndex++;
+        this.currentIndex = this.playHistory[this.historyIndex];
+        this.loadTrack();
+        return;
+      }
+      
+      // Otherwise play the next track normally
+      let nextIndex;
       if (this.shuffleMode) {
         // Random track in shuffle mode
-        let newIndex = Math.floor(Math.random() * this.tracks.length);
+        nextIndex = Math.floor(Math.random() * this.tracks.length);
         // Avoid playing the same track twice
-        if (newIndex === this.currentIndex && this.tracks.length > 1) {
-          newIndex = (newIndex + 1) % this.tracks.length;
+        if (nextIndex === this.currentIndex && this.tracks.length > 1) {
+          nextIndex = (nextIndex + 1) % this.tracks.length;
         }
-        this.currentIndex = newIndex;
       } else {
         // Next track in sequence
-        this.currentIndex = (this.currentIndex + 1) % this.tracks.length;
+        nextIndex = (this.currentIndex + 1) % this.tracks.length;
       }
+      
+      // Update current index and add to history
+      this.currentIndex = nextIndex;
+      this.playHistory.push(nextIndex);
+      this.historyIndex = this.playHistory.length - 1;
       
       this.loadTrack();
     },
     
     playPrev() {
       if (!this.tracks.length) return;
+      
+      // If we have history and not at the beginning
+      if (this.historyIndex > 0) {
+        this.historyIndex--;
+        this.currentIndex = this.playHistory[this.historyIndex];
+        this.loadTrack();
+        return;
+      }
+      
+      // If at the start of history or no history, use the default behavior
       this.currentIndex = (this.currentIndex - 1 + this.tracks.length) % this.tracks.length;
+      
+      // Add to history since we're going to a new track not in history
+      this.playHistory.push(this.currentIndex);
+      this.historyIndex = this.playHistory.length - 1;
+      
       this.loadTrack();
     },
     
