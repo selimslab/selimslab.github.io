@@ -254,11 +254,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // Update position state more frequently (reduce throttle time for iOS)
     if (lastPositionUpdate && Date.now() - lastPositionUpdate < 1000) return;
     lastPositionUpdate = Date.now();
-    updatePositionState();
+    updateMediaSession(tracks[currentIndex].title);
   }
   
   function handleDurationChange() {
-    updatePositionState();
+    updateMediaSession(tracks[currentIndex].title);
   }
   
   function playNext() {
