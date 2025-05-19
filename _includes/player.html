@@ -161,6 +161,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const path = `/assets/static/music/${track.genre.toLowerCase()}/${fileName}`;
     
     nowPlayingElement.textContent = track.title;
+    
+    // Update media session metadata before setting audio source
+    updateMediaSession(track.title);
+    
     audioElement.src = path;    
     audioElement.play().then(() => {
     }).catch(error => {
