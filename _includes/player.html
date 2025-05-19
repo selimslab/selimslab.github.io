@@ -3,7 +3,9 @@
   <div id="now-playing"></div>
   <audio id="audio-player" controls></audio>
   <div class="player-controls">
+    <button id="prev-button" class="button is-small">⏮</button>
     <button id="shuffle-button" class="button is-small">shuffle</button>
+    <button id="next-button" class="button is-small">⏭</button>
   </div>
 </div>
 
@@ -20,7 +22,9 @@ document.addEventListener('DOMContentLoaded', () => {
       player: document.getElementById('audio-player'),
       nowPlaying: document.getElementById('now-playing'),
       playlist: document.getElementById('playlist'),
-      shuffleButton: document.getElementById('shuffle-button')
+      shuffleButton: document.getElementById('shuffle-button'),
+      prevButton: document.getElementById('prev-button'),
+      nextButton: document.getElementById('next-button')
     },
     
     // State
@@ -78,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Set up event handlers
     setupEventListeners() {
-      const { player, shuffleButton } = this.elements;
+      const { player, shuffleButton, prevButton, nextButton } = this.elements;
       
       // Clean up any existing event listeners first
       this.removeEventListeners();
@@ -89,7 +93,9 @@ document.addEventListener('DOMContentLoaded', () => {
         loadedmetadata: () => this.updatePositionState(),
         timeupdate: () => this.updatePositionState(),
         error: (e) => this.handlePlayerError(e),
-        shuffleClick: () => this.toggleShuffle()
+        shuffleClick: () => this.toggleShuffle(),
+        prevClick: () => this.playTrack('prev'),
+        nextClick: () => this.playTrack('next')
       };
       
       player.addEventListener('ended', this.eventHandlers.ended);
@@ -97,13 +103,15 @@ document.addEventListener('DOMContentLoaded', () => {
       player.addEventListener('timeupdate', this.eventHandlers.timeupdate);
       player.addEventListener('error', this.eventHandlers.error);
       shuffleButton.addEventListener('click', this.eventHandlers.shuffleClick);
+      prevButton.addEventListener('click', this.eventHandlers.prevClick);
+      nextButton.addEventListener('click', this.eventHandlers.nextClick);
     },
     
     // Clean up event listeners to prevent memory leaks
     removeEventListeners() {
       if (!this.eventHandlers) return;
       
-      const { player, shuffleButton } = this.elements;
+      const { player, shuffleButton, prevButton, nextButton } = this.elements;
       
       if (player) {
         player.removeEventListener('ended', this.eventHandlers.ended);
@@ -114,6 +122,14 @@ document.addEventListener('DOMContentLoaded', () => {
       
       if (shuffleButton) {
         shuffleButton.removeEventListener('click', this.eventHandlers.shuffleClick);
+      }
+      
+      if (prevButton) {
+        prevButton.removeEventListener('click', this.eventHandlers.prevClick);
+      }
+      
+      if (nextButton) {
+        nextButton.removeEventListener('click', this.eventHandlers.nextClick);
       }
     },
     
@@ -277,6 +293,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Add a loading indicator instead of immediately changing the title
         this.elements.nowPlaying.textContent = 'Loading...';
+        this.updateMediaSession('Loading...');
         
         // Add a loadeddata event to update the title after the track is loaded
         const handleLoaded = () => {
@@ -456,9 +473,12 @@ document.addEventListener('DOMContentLoaded', () => {
     background-color: #1b1c1d;
   }
 
-  #shuffle-button {
+  .player-controls{
+    display: flex;
+    justify-content: right;
+  }
+  .player-controls button{
     background-color: #1b1c1d;
-    float: right;
     font-family: "Atkinson Hyperlegible Mono", "Inconsolata", monospace;  
     cursor: pointer;
   }
