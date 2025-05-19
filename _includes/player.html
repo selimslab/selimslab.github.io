@@ -99,18 +99,6 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => this.playNext(), 500);
       });
       
-      // MediaSession playback state updates
-      this.audio.addEventListener('play', () => {
-        if ('mediaSession' in navigator) {
-          navigator.mediaSession.playbackState = 'playing';
-        }
-      });
-      
-      this.audio.addEventListener('pause', () => {
-        if ('mediaSession' in navigator) {
-          navigator.mediaSession.playbackState = 'paused';
-        }
-      });
       
       // Button events
       this.shuffleBtn.addEventListener('click', () => this.toggleShuffle());
@@ -173,18 +161,18 @@ document.addEventListener('DOMContentLoaded', () => {
       });
       
       // Set up media session actions
-      navigator.mediaSession.setActionHandler('previoustrack', () => this.playTrack('prev'));
-      navigator.mediaSession.setActionHandler('nexttrack', () => this.playTrack('next'));
-      navigator.mediaSession.setActionHandler('play', () => this.elements.player.play());
-      navigator.mediaSession.setActionHandler('pause', () => this.elements.player.pause());
+      navigator.mediaSession.setActionHandler('previoustrack', () => this.playPrev());
+      navigator.mediaSession.setActionHandler('nexttrack', () => this.playNext());
+      navigator.mediaSession.setActionHandler('play', () => this.audio.play());
+      navigator.mediaSession.setActionHandler('pause', () => this.audio.pause());
       
       // Add seek handler for compatible browsers
       navigator.mediaSession.setActionHandler('seekto', (details) => {
-        if (details.fastSeek && 'fastSeek' in this.elements.player) {
-          this.elements.player.fastSeek(details.seekTime);
+        if (details.fastSeek && 'fastSeek' in this.audio) {
+          this.audio.fastSeek(details.seekTime);
           return;
         }
-        this.elements.player.currentTime = details.seekTime;
+        this.audio.currentTime = details.seekTime;
       });
       
       this.updatePositionState();
@@ -194,13 +182,12 @@ document.addEventListener('DOMContentLoaded', () => {
     updatePositionState() {
       if (!('mediaSession' in navigator) || !('setPositionState' in navigator.mediaSession)) return;
       
-      const player = this.elements.player;
-      if (isNaN(player.duration)) return;
+      if (isNaN(this.audio.duration)) return;
       
       navigator.mediaSession.setPositionState({
-        duration: player.duration || 0,
-        playbackRate: player.playbackRate || 1,
-        position: player.currentTime || 0
+        duration: this.audio.duration || 0,
+        playbackRate: this.audio.playbackRate || 1,
+        position: this.audio.currentTime || 0
       });
     },
     
