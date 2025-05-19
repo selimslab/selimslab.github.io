@@ -1,5 +1,5 @@
 ---
-tags: exp music
+tags: music
 ---
 
 {% include player.html %}
