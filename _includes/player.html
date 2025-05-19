@@ -189,9 +189,9 @@ document.addEventListener('DOMContentLoaded', () => {
       const fileName = encodeURIComponent(track.title + '.mp3');
       const path = `/assets/static/music/${track.genre.toLowerCase()}/${fileName}`;
       
-      this.nowPlaying.textContent = track.title;
       this.audio.src = path;    
       this.audio.play().then(() => {
+        this.nowPlaying.textContent = track.title;
         this.updateMediaSession(track.title);
       }).catch(error => {
         console.error('Error playing track:', error);
