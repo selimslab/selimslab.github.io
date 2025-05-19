@@ -278,12 +278,11 @@ document.addEventListener('DOMContentLoaded', () => {
         // Add a loading indicator instead of immediately changing the title
         this.elements.nowPlaying.textContent = 'Loading...';
         
-        // Update MediaSession metadata immediately, not just after play
-        this.updateMediaSession(title);
-        
         // Add a loadeddata event to update the title after the track is loaded
         const handleLoaded = () => {
           this.elements.nowPlaying.textContent = title;
+          // Update MediaSession metadata after track is loaded for smoother transitions
+          this.updateMediaSession(title);
           this.elements.player.removeEventListener('loadeddata', handleLoaded);
         };
         this.elements.player.addEventListener('loadeddata', handleLoaded);
@@ -355,11 +354,9 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Set up media session actions
         navigator.mediaSession.setActionHandler('previoustrack', () => {
-          this.elements.nowPlaying.textContent = 'Loading...';
           this.playTrack('prev');
         });
         navigator.mediaSession.setActionHandler('nexttrack', () => {
-          this.elements.nowPlaying.textContent = 'Loading...';
           this.playTrack('next');
         });
         navigator.mediaSession.setActionHandler('play', () => this.elements.player.play());
