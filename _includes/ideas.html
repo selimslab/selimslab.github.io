@@ -1,16 +1,15 @@
 
 
-<br>
 <div class="idea-container">
   <p id="idea" class="idea" tabindex="0" onclick="setNextIdea('{{ include.filename }}');"></p>
 </div>
 
 <style>
   .idea-container {
+    margin-top: 1rem;
     font-family: "Atkinson Hyperlegible Mono", "Inconsolata", monospace;
-    min-height: 8rem;
+    min-height: 9rem;
     white-space: pre-line;
-
   }
 
 </style>
@@ -25,10 +24,9 @@
     document.getElementById("idea").innerHTML = await getNextIdea(filename);
   }
 
-  // change idea every 5 seconds
   setInterval(() => {
     setNextIdea(filename);
-  }, 3000);
+  }, 5000);
 
   document.addEventListener('DOMContentLoaded', async () => {
     let idea = document.getElementById("idea");
