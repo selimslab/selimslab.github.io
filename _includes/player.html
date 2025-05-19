@@ -2,6 +2,9 @@
 <div class="audio-player">
   <div id="now-playing"></div>
   <audio id="audio-player" controls></audio>
+  <div class="player-controls">
+    <button id="shuffle-button" class="button is-black is-small">shuffle</button>
+  </div>
 </div>
 
 <div id="playlist"></div>
@@ -16,7 +19,8 @@ document.addEventListener('DOMContentLoaded', () => {
     elements: {
       player: document.getElementById('audio-player'),
       nowPlaying: document.getElementById('now-playing'),
-      playlist: document.getElementById('playlist')
+      playlist: document.getElementById('playlist'),
+      shuffleButton: document.getElementById('shuffle-button')
     },
     
     // State
@@ -24,7 +28,8 @@ document.addEventListener('DOMContentLoaded', () => {
       currentIndex: -1,
       tracks: [],
       tracksById: {},
-      artworks: null
+      artworks: null,
+      shuffleMode: false
     },
     
     // Initialize the player
@@ -32,6 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
       try {
         await this.loadData();
         this.setupEventListeners();
+        this.updateShuffleButton();
       } catch (error) {
         console.error('Player initialization error:', error);
         this.elements.playlist.innerHTML = '<p>Failed to load music.</p>';
@@ -62,11 +68,14 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Set up event handlers
     setupEventListeners() {
-      const { player, prevButton, nextButton } = this.elements;
+      const { player, shuffleButton } = this.elements;
       
       player.addEventListener('ended', () => this.playTrack('next'));
       player.addEventListener('loadedmetadata', () => this.updatePositionState());
       player.addEventListener('timeupdate', () => this.updatePositionState());
+      
+      // Add shuffle button event listener
+      shuffleButton.addEventListener('click', () => this.toggleShuffle());
     },
     
     // Process track data into flat array with genre info
@@ -144,13 +153,24 @@ document.addEventListener('DOMContentLoaded', () => {
     playTrack(direction) {
       if (!this.state.tracks.length) return;
       
-      const { currentIndex } = this.state;
+      const { currentIndex, shuffleMode } = this.state;
       const count = this.state.tracks.length;
       
-      // Calculate new index with wrap-around
-      const newIndex = direction === 'next'
-        ? (currentIndex + 1) % count
-        : (currentIndex - 1 + count) % count;
+      let newIndex;
+      
+      if (shuffleMode && direction === 'next') {
+        // Get random track when in shuffle mode and going forward
+        newIndex = Math.floor(Math.random() * count);
+        // Avoid playing the same track twice in a row
+        if (newIndex === currentIndex && count > 1) {
+          newIndex = (newIndex + 1) % count;
+        }
+      } else {
+        // Normal sequential navigation
+        newIndex = direction === 'next'
+          ? (currentIndex + 1) % count
+          : (currentIndex - 1 + count) % count;
+      }
       
       this.state.currentIndex = newIndex;
       this.loadAndPlayCurrentTrack();
@@ -263,6 +283,25 @@ document.addEventListener('DOMContentLoaded', () => {
         playbackRate: player.playbackRate || 1,
         position: player.currentTime || 0
       });
+    },
+    
+    // Toggle shuffle mode
+    toggleShuffle() {
+      this.state.shuffleMode = !this.state.shuffleMode;
+      this.updateShuffleButton()
+      if (this.state.shuffleMode && this.elements.player.paused) {
+        this.playTrack('next');
+      }
+    },
+    
+    // Update shuffle button appearance
+    updateShuffleButton() {
+      const { shuffleButton } = this.elements;
+      if (this.state.shuffleMode) {
+        shuffleButton.classList.add('active');
+      } else {
+        shuffleButton.classList.remove('active');
+      }
     }
   };
   
@@ -276,6 +315,9 @@ document.addEventListener('DOMContentLoaded', () => {
     position: sticky;
     top: 0;
     font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
   }
 
   #audio-player {
@@ -288,6 +330,15 @@ document.addEventListener('DOMContentLoaded', () => {
     padding-bottom: 0.5rem;
     margin-left: 1rem;
     background-color: #1b1c1d;
+  }
+
+  #shuffle-button {
+    float: right;
+    font-family: "Atkinson Hyperlegible Mono", "Inconsolata", monospace;  
+  }
+  
+  #shuffle-button.active {
+    color: #FF530D;
   }
 
   .track:hover {
