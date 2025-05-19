@@ -319,7 +319,6 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Add a loading indicator instead of immediately changing the title
         this.elements.nowPlaying.textContent = 'Loading...';
-        this.updateMediaSession(title);
 
         // Update audio player
         this.elements.player.src = audioPath;
@@ -327,6 +326,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Add a loadeddata event to update the title after the track is loaded
         const handleLoaded = () => {
           this.elements.nowPlaying.textContent = title;
+          this.updateMediaSession(title);
           this.elements.player.removeEventListener('loadeddata', handleLoaded);
         };
         this.elements.player.addEventListener('loadeddata', handleLoaded);
