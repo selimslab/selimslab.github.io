@@ -68,9 +68,10 @@ Define and analyse the problem. Think step by step.
 - can we break it down to sub-problems  
 - what are the possible approaches, how do they compare  
 - relevant data structures and algorithms, with their time and space complexity  
-- any other concerns as necessary, like security, performance, etc.   
+- consider security and performance, etc.   
 Code   
 - Keep it simple, robust, and modular  
+- Write less code 
 - Be careful about existing code. Keep names and comments  
 - No hardcoding  
 - Minimal styling/css
