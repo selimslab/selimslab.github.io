@@ -62,6 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     setupUI(data) {
       this.playlist.innerHTML = '';
+      this.trackElements = [];
       
       Object.entries(data).forEach(([genre, tracks], index) => {
         const details = document.createElement('details');
@@ -83,7 +84,16 @@ document.addEventListener('DOMContentLoaded', () => {
           li.className = 'track';
           li.dataset.id = track.id;
           li.dataset.genre = genre;
-          li.addEventListener('click', () => this.playById(track.id));
+          
+          const handleTrackClick = () => this.playById(track.id);
+          li.addEventListener('click', handleTrackClick);
+          
+          // Store reference to element and handler for cleanup
+          this.trackElements.push({ 
+            element: li, 
+            handler: handleTrackClick,
+            id: track.id
+          });
           
           tracksList.appendChild(li);
         });
@@ -95,18 +105,23 @@ document.addEventListener('DOMContentLoaded', () => {
     
     setupEvents() {
       // Player events
-      this.audio.addEventListener('ended', () => this.playNext());
-      this.audio.addEventListener('error', () => {
+      this.handleTrackEnd = () => this.playNext();
+      this.handleError = () => {
         this.nowPlaying.textContent = 'Error playing track';
         setTimeout(() => this.playNext(), 500);
-      });
+      };
+      this.handleShuffleClick = () => this.toggleShuffle();
+      this.handlePrevClick = () => this.playPrev();
+      this.handleNextClick = () => this.playNext();
       
+      // Player events
+      this.audio.addEventListener('ended', this.handleTrackEnd);
+      this.audio.addEventListener('error', this.handleError);
       
       // Button events
-      this.shuffleBtn.addEventListener('click', () => this.toggleShuffle());
-      this.prevBtn.addEventListener('click', () => this.playPrev());
-      this.nextBtn.addEventListener('click', () => this.playNext());
-      
+      this.shuffleBtn.addEventListener('click', this.handleShuffleClick);
+      this.prevBtn.addEventListener('click', this.handlePrevClick);
+      this.nextBtn.addEventListener('click', this.handleNextClick);
     },
     
     playById(id) {
@@ -147,11 +162,9 @@ document.addEventListener('DOMContentLoaded', () => {
       this.nowPlaying.textContent = 'Loading...';
       this.audio.src = path;
       
-      this.audio.onloadeddata = () => {
-        this.nowPlaying.textContent = track.title;
-        this.updateMediaSession(track.title);
-      };
-      
+      this.nowPlaying.textContent = track.title;
+      this.updateMediaSession(track.title);
+    
       this.audio.play().catch(error => {
         console.error('Play error:', error);
         this.nowPlaying.textContent = `Error: ${track.title}`;
@@ -266,11 +279,46 @@ document.addEventListener('DOMContentLoaded', () => {
       if (this.shuffleMode && this.audio.paused && this.tracks.length > 0) {
         this.playNext();
       }
+    },
+    
+    cleanup() {
+      // Clean up media session handlers
+      if ('mediaSession' in navigator) {
+        navigator.mediaSession.setActionHandler('previoustrack', null);
+        navigator.mediaSession.setActionHandler('nexttrack', null);
+        navigator.mediaSession.setActionHandler('play', null);
+        navigator.mediaSession.setActionHandler('pause', null);
+        navigator.mediaSession.setActionHandler('seekto', null);
+      }
+      
+      // Remove event listeners from player elements
+      this.audio.removeEventListener('ended', this.handleTrackEnd);
+      this.audio.removeEventListener('error', this.handleError);
+      
+      this.shuffleBtn.removeEventListener('click', this.handleShuffleClick);
+      this.prevBtn.removeEventListener('click', this.handlePrevClick);
+      this.nextBtn.removeEventListener('click', this.handleNextClick);
+      
+      // Remove event listeners from track elements
+      if (this.trackElements) {
+        this.trackElements.forEach(item => {
+          item.element.removeEventListener('click', item.handler);
+        });
+      }
+      
+      // Remove window event listener
+      window.removeEventListener('beforeunload', this.handleUnload);
     }
   };
   
   // Initialize the player
   player.init();
+  
+  // Create a named handler for window unload event
+  player.handleUnload = () => player.cleanup();
+  
+  // Cleanup when page is unloaded
+  window.addEventListener('beforeunload', player.handleUnload);
 });
 </script>
 
@@ -307,6 +355,7 @@ document.addEventListener('DOMContentLoaded', () => {
     font-family: "Atkinson Hyperlegible Mono", "Inconsolata", monospace;  
     cursor: pointer;
     border: none;
+    font-size: 0.9rem;
   }
   
   #shuffle-button.active {
