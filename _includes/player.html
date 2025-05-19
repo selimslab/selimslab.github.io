@@ -354,8 +354,14 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         
         // Set up media session actions
-        navigator.mediaSession.setActionHandler('previoustrack', () => this.playTrack('prev'));
-        navigator.mediaSession.setActionHandler('nexttrack', () => this.playTrack('next'));
+        navigator.mediaSession.setActionHandler('previoustrack', () => {
+          this.elements.nowPlaying.textContent = 'Loading...';
+          this.playTrack('prev');
+        });
+        navigator.mediaSession.setActionHandler('nexttrack', () => {
+          this.elements.nowPlaying.textContent = 'Loading...';
+          this.playTrack('next');
+        });
         navigator.mediaSession.setActionHandler('play', () => this.elements.player.play());
         navigator.mediaSession.setActionHandler('pause', () => this.elements.player.pause());
         
