@@ -388,11 +388,16 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!('mediaSession' in navigator)) return;
       
       try {
-        // Set track info with the primes.png artwork for all tracks
+        // Alternate between primes.png and mw.jpeg based on track index
+        const artworkImage = this.state.currentIndex % 2 === 0 
+          ? '/assets/static/primes.png' 
+          : '/assets/static/mw.jpeg';
+        
+        // Set track info with alternating artwork
         navigator.mediaSession.metadata = new MediaMetadata({
           title: trackTitle,
           artwork: [
-            { src: window.location.origin + '/assets/static/primes.png', sizes: '512x512', type: 'image/png' }
+            { src: window.location.origin + artworkImage, sizes: '512x512', type: 'image/png' }
           ]
         });
         
