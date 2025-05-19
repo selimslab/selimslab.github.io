@@ -11,6 +11,8 @@ layout: delta
 
 [Player](/player/)
 
+[Paintings](/paintings/)
+
 
 <br>
 

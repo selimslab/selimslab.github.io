@@ -1,5 +1,4 @@
 ---
-tags: tools
 ---
 
 {% include stats.html  %}
