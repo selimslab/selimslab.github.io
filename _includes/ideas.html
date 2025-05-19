@@ -25,6 +25,11 @@
     document.getElementById("idea").innerHTML = await getNextIdea(filename);
   }
 
+  // change idea every 5 seconds
+  setInterval(() => {
+    setNextIdea(filename);
+  }, 3000);
+
   document.addEventListener('DOMContentLoaded', async () => {
     let idea = document.getElementById("idea");
     
