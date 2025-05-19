@@ -114,9 +114,31 @@ document.addEventListener('DOMContentLoaded', () => {
       this.handlePrevClick = () => this.playPrev();
       this.handleNextClick = () => this.playNext();
       
+      // Media session update handlers
+      this.handlePlay = () => {
+        const track = this.tracks[this.currentIndex];
+        if (track) this.updateMediaSession(track.title);
+      };
+      this.handlePause = () => {
+        this.updatePositionState();
+      };
+      this.handleTimeUpdate = () => {
+        // Update position state periodically (throttled to reduce overhead)
+        if (this.lastPositionUpdate && Date.now() - this.lastPositionUpdate < 3000) return;
+        this.lastPositionUpdate = Date.now();
+        this.updatePositionState();
+      };
+      this.handleDurationChange = () => {
+        this.updatePositionState();
+      };
+      
       // Player events
       this.audio.addEventListener('ended', this.handleTrackEnd);
       this.audio.addEventListener('error', this.handleError);
+      this.audio.addEventListener('play', this.handlePlay);
+      this.audio.addEventListener('pause', this.handlePause);
+      this.audio.addEventListener('timeupdate', this.handleTimeUpdate);
+      this.audio.addEventListener('durationchange', this.handleDurationChange);
       
       // Button events
       this.shuffleBtn.addEventListener('click', this.handleShuffleClick);
@@ -159,12 +181,11 @@ document.addEventListener('DOMContentLoaded', () => {
       const fileName = encodeURIComponent(track.title + '.mp3');
       const path = `/assets/static/music/${track.genre.toLowerCase()}/${fileName}`;
       
-      this.nowPlaying.textContent = 'Loading...';
-      this.audio.src = path;
-    
+      this.nowPlaying.textContent = track.title;
+      this.audio.src = path;    
+
       this.audio.play()
       .then(() => {
-        this.nowPlaying.textContent = track.title;
         this.updateMediaSession(track.title);
       })
       .catch(error => {
@@ -296,6 +317,10 @@ document.addEventListener('DOMContentLoaded', () => {
       // Remove event listeners from player elements
       this.audio.removeEventListener('ended', this.handleTrackEnd);
       this.audio.removeEventListener('error', this.handleError);
+      this.audio.removeEventListener('play', this.handlePlay);
+      this.audio.removeEventListener('pause', this.handlePause);
+      this.audio.removeEventListener('timeupdate', this.handleTimeUpdate);
+      this.audio.removeEventListener('durationchange', this.handleDurationChange);
       
       this.shuffleBtn.removeEventListener('click', this.handleShuffleClick);
       this.prevBtn.removeEventListener('click', this.handlePrevClick);
