@@ -114,10 +114,21 @@ document.addEventListener('DOMContentLoaded', () => {
         // Listen for play/pause state changes to update MediaSession
         this.audio.addEventListener('play', () => {
           navigator.mediaSession.playbackState = 'playing';
+          // Update metadata when playback actually starts
+          if (this.currentIndex >= 0 && this.tracks[this.currentIndex]) {
+            this.updateMediaSession(this.tracks[this.currentIndex]);
+          }
         });
         
         this.audio.addEventListener('pause', () => {
           navigator.mediaSession.playbackState = 'paused';
+        });
+        
+        // Additional event to ensure metadata is correct
+        this.audio.addEventListener('canplay', () => {
+          if (this.currentIndex >= 0 && this.tracks[this.currentIndex]) {
+            this.updateMediaSession(this.tracks[this.currentIndex]);
+          }
         });
       }
     },
@@ -150,8 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
       this.nowPlaying.textContent = 'Loading...';
       this.audio.src = path;
       
-      // Update media session metadata immediately
-      this.updateMediaSession(track);
+      // Moved media session update to play and canplay events
       
       this.audio.onloadeddata = () => {
         this.nowPlaying.textContent = track.title;
@@ -168,8 +178,6 @@ document.addEventListener('DOMContentLoaded', () => {
       if ('mediaSession' in navigator) {
         navigator.mediaSession.metadata = new MediaMetadata({
           title: track.title,
-          artist: track.genre,
-          album: track.genre,
           artwork: [{ src: '/assets/static/mw.jpeg', sizes: '512x512', type: 'image/jpeg' }]
         });
       }

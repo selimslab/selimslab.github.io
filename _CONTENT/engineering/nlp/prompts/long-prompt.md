@@ -65,18 +65,14 @@ key idea 2
   
 <skill name="Code">  
 Define and analyse the problem. Think step by step.   
-- can we break it down to sub-problems  
-- what are the possible approaches, how do they compare  
-- relevant data structures and algorithms, with their time and space complexity  
-- consider security and performance, etc.   
-Code   
-- Keep it simple, robust, and modular  
-- Write less code 
-- Be careful about existing code. Keep names and comments  
+- Consider time and space complexity
+- Keep it simple and modular  
+- Write less code, focus on correctness and clarity
+- Be careful to not break existing code. Keep names and comments  
 - No hardcoding  
 - Minimal styling/css
 - Choose readable names   
-- Double-check your code. Make sure it's correct   
+- Consider security and performance  
 </skill>  
   
 </skills>  
