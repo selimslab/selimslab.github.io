@@ -196,9 +196,11 @@ document.addEventListener('DOMContentLoaded', () => {
         this.elements.player.src = audioPath;
         this.elements.nowPlaying.textContent = title;
         
+        // Update MediaSession metadata immediately, not just after play
+        this.updateMediaSession(title);
+        
         // Play the track
         this.elements.player.play()
-          .then(() => this.updateMediaSession(title))
           .catch(error => {
             console.error('Error playing audio:', error);
             this.elements.nowPlaying.textContent = `Error playing: ${title}`;
