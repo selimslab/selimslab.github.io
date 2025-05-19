@@ -409,10 +409,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // Set up media session handlers (new function)
     setupMediaControls() {
       if ('mediaSession' in navigator) {
-        navigator.mediaSession.setActionHandler('play', () => this.elements.player.play());
-        navigator.mediaSession.setActionHandler('pause', () => this.elements.player.pause());
-        navigator.mediaSession.setActionHandler('previoustrack', () => this.playTrack('prev'));
-        navigator.mediaSession.setActionHandler('nexttrack', () => this.playTrack('next'));
+        // Initial setup of media session
+        this.updateMediaSession();
         
         // Add position state if supported
         if ('setPositionState' in navigator.mediaSession) {
@@ -428,12 +426,19 @@ document.addEventListener('DOMContentLoaded', () => {
       const track = this.getCurrentTrack();
       if (!track) return;
       
+      // Set metadata
       navigator.mediaSession.metadata = new MediaMetadata({
         title: track.title,
         artwork: [
           { src: '/assets/static/mw.jpeg', sizes: '512x512', type: 'image/jpeg' }
         ]
       });
+      
+      // Set or reset action handlers
+      navigator.mediaSession.setActionHandler('play', () => this.elements.player.play());
+      navigator.mediaSession.setActionHandler('pause', () => this.elements.player.pause());
+      navigator.mediaSession.setActionHandler('previoustrack', () => this.playTrack('prev'));
+      navigator.mediaSession.setActionHandler('nexttrack', () => this.playTrack('next'));
     },
     
     // Update position state for lock screen
