@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
       Object.entries(data).forEach(([genre, tracks], index) => {
         const details = document.createElement('details');
         details.className = 'genre-section';
-        details.open = index === 0; // Open first genre by default
+        details.open = false;
         
         const summary = document.createElement('summary');
         summary.textContent = genre;
