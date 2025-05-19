@@ -31,12 +31,6 @@ layout: delta
 
 [Tools](/tools/)
 
-
-
-
-
-{% include offline.html  %}
-
 <script src="/assets/js/moment.min.js"></script>
 <script src="/assets/js/datetime.js"></script>
 
@@ -49,3 +43,7 @@ layout: delta
     font-family: "Atkinson Hyperlegible Mono", "Inconsolata", monospace;  
   }
 </style>
+
+
+{% include offline.html  %}
+
