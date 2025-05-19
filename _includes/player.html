@@ -28,7 +28,6 @@ document.addEventListener('DOMContentLoaded', () => {
       currentIndex: -1,
       tracks: [],
       tracksById: {},
-      artworks: null,
       shuffleMode: false
     },
     
@@ -46,14 +45,9 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Load all data needed for the player
     async loadData() {
-      // Load tracks and artwork in parallel
-      const [tracksData, artworksData] = await Promise.all([
-        this.fetchJSON('/assets/data/tracks.json'),
-        this.fetchJSON('/assets/data/artworks.json')
-      ]);
-      
+      // Load tracks
+      const tracksData = await this.fetchJSON('/assets/data/tracks.json');
       this.processTrackData(tracksData);
-      this.state.artworks = artworksData;
       this.buildPlaylist(tracksData);
     },
     
@@ -229,28 +223,16 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     },
     
-    // Get random artwork for media session
-    getRandomArtwork() {
-      const { artworks } = this.state;
-      if (!artworks || !artworks.length) return null;
-      
-      const randomIndex = Math.floor(Math.random() * artworks.length);
-      return artworks[randomIndex];
-    },
-    
     // Set up media session for lock screen controls
     updateMediaSession(trackTitle) {
       if (!('mediaSession' in navigator)) return;
       
-      // Set track info and artwork
-      const artwork = this.getRandomArtwork();
-      const artworkUrl = artwork ? artwork.path : null;
-      
+      // Set track info with the primes.png artwork for all tracks
       navigator.mediaSession.metadata = new MediaMetadata({
         title: trackTitle,
-        artwork: artworkUrl ? [
-          { src: window.location.origin + artworkUrl, sizes: '512x512', type: 'image/jpeg' }
-        ] : []
+        artwork: [
+          { src: window.location.origin + '/assets/static/primes.png', sizes: '512x512', type: 'image/png' }
+        ]
       });
       
       // Set up media session actions
