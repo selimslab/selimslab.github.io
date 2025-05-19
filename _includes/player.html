@@ -33,7 +33,9 @@ document.addEventListener('DOMContentLoaded', () => {
       tracks: [],
       tracksById: {},
       shuffleMode: false,
-      isInitialized: false
+      isInitialized: false,
+      playbackHistory: [],
+      historyIndex: -1
     },
     
     // Initialize the player
@@ -228,6 +230,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const index = this.state.tracks.findIndex(t => t.id === trackId);
       if (index !== -1) {
         this.state.currentIndex = index;
+        this.addToHistory(index);
         this.loadAndPlayCurrentTrack();
         this.updateActiveTrack(trackId);
       }
@@ -237,27 +240,53 @@ document.addEventListener('DOMContentLoaded', () => {
     playTrack(direction) {
       if (!this.state.tracks.length) return;
       
-      const { currentIndex, shuffleMode } = this.state;
+      const { currentIndex, shuffleMode, playbackHistory, historyIndex } = this.state;
       const count = this.state.tracks.length;
       
       let newIndex;
       
-      if (shuffleMode && direction === 'next') {
+      if (direction === 'prev' && playbackHistory.length > 0 && historyIndex > 0) {
+        // Go back in history
+        this.state.historyIndex--;
+        newIndex = playbackHistory[this.state.historyIndex];
+      } else if (shuffleMode && direction === 'next') {
         // Get random track when in shuffle mode and going forward
         newIndex = Math.floor(Math.random() * count);
         // Avoid playing the same track twice in a row
         if (newIndex === currentIndex && count > 1) {
           newIndex = (newIndex + 1) % count;
         }
+        
+        // Add to history when moving forward
+        this.addToHistory(newIndex);
       } else {
         // Normal sequential navigation
         newIndex = direction === 'next'
           ? (currentIndex + 1) % count
           : (currentIndex - 1 + count) % count;
+        
+        // Add to history when moving forward
+        if (direction === 'next') {
+          this.addToHistory(newIndex);
+        }
       }
       
       this.state.currentIndex = newIndex;
       this.loadAndPlayCurrentTrack();
+    },
+    
+    // Add current track to history
+    addToHistory(index) {
+      const { playbackHistory, historyIndex } = this.state;
+      
+      // If we're not at the end of the history, trim the future history
+      if (historyIndex < playbackHistory.length - 1) {
+        this.state.playbackHistory = playbackHistory.slice(0, historyIndex + 1);
+      }
+      
+      // Add the new index to history
+      this.state.playbackHistory.push(index);
+      this.state.historyIndex = this.state.playbackHistory.length - 1;
     },
     
     // Get current track object
