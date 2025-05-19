@@ -2,10 +2,6 @@
 <div class="audio-player">
   <div id="now-playing"></div>
   <audio id="audio-player" controls></audio>
-  <div class="player-controls">
-    <button id="prev-button" aria-label="Previous track">⏮</button>
-    <button id="next-button" aria-label="Next track">⏭</button>
-  </div>
 </div>
 
 <div id="playlist"></div>
@@ -20,9 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     elements: {
       player: document.getElementById('audio-player'),
       nowPlaying: document.getElementById('now-playing'),
-      playlist: document.getElementById('playlist'),
-      prevButton: document.getElementById('prev-button'),
-      nextButton: document.getElementById('next-button')
+      playlist: document.getElementById('playlist')
     },
     
     // State
@@ -73,8 +67,6 @@ document.addEventListener('DOMContentLoaded', () => {
       player.addEventListener('ended', () => this.playTrack('next'));
       player.addEventListener('loadedmetadata', () => this.updatePositionState());
       player.addEventListener('timeupdate', () => this.updatePositionState());
-      prevButton.addEventListener('click', () => this.playTrack('prev'));
-      nextButton.addEventListener('click', () => this.playTrack('next'));
     },
     
     // Process track data into flat array with genre info
@@ -296,25 +288,6 @@ document.addEventListener('DOMContentLoaded', () => {
     padding-bottom: 0.5rem;
     margin-left: 1rem;
     background-color: #1b1c1d;
-  }
-
-  .player-controls {
-    display: flex;
-    justify-content: right;
-    gap: 10px;
-    margin-top: 5px;
-  }
-
-  .player-controls button {
-    padding-right: 0.5rem;
-    font-size: 1.2rem;
-    background-color: none;
-    border: none; 
-  }
-
-
-  .track {
-    cursor: pointer;
   }
 
   .track:hover {
