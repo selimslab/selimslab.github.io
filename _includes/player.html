@@ -96,7 +96,20 @@ document.addEventListener('DOMContentLoaded', () => {
       this.audio.addEventListener('ended', () => this.playNext());
       this.audio.addEventListener('error', () => {
         this.nowPlaying.textContent = 'Error playing track';
-        setTimeout(() => this.playNext(), 2000);
+        setTimeout(() => this.playNext(), 500);
+      });
+      
+      // MediaSession playback state updates
+      this.audio.addEventListener('play', () => {
+        if ('mediaSession' in navigator) {
+          navigator.mediaSession.playbackState = 'playing';
+        }
+      });
+      
+      this.audio.addEventListener('pause', () => {
+        if ('mediaSession' in navigator) {
+          navigator.mediaSession.playbackState = 'paused';
+        }
       });
       
       // Button events
@@ -104,33 +117,6 @@ document.addEventListener('DOMContentLoaded', () => {
       this.prevBtn.addEventListener('click', () => this.playPrev());
       this.nextBtn.addEventListener('click', () => this.playNext());
       
-      // Media session
-      if ('mediaSession' in navigator) {
-        navigator.mediaSession.setActionHandler('play', () => this.audio.play());
-        navigator.mediaSession.setActionHandler('pause', () => this.audio.pause());
-        navigator.mediaSession.setActionHandler('previoustrack', () => this.playPrev());
-        navigator.mediaSession.setActionHandler('nexttrack', () => this.playNext());
-        
-        // Listen for play/pause state changes to update MediaSession
-        this.audio.addEventListener('play', () => {
-          navigator.mediaSession.playbackState = 'playing';
-          // Update metadata when playback actually starts
-          if (this.currentIndex >= 0 && this.tracks[this.currentIndex]) {
-            this.updateMediaSession(this.tracks[this.currentIndex]);
-          }
-        });
-        
-        this.audio.addEventListener('pause', () => {
-          navigator.mediaSession.playbackState = 'paused';
-        });
-        
-        // Additional event to ensure metadata is correct
-        this.audio.addEventListener('canplay', () => {
-          if (this.currentIndex >= 0 && this.tracks[this.currentIndex]) {
-            this.updateMediaSession(this.tracks[this.currentIndex]);
-          }
-        });
-      }
     },
     
     playById(id) {
@@ -161,10 +147,9 @@ document.addEventListener('DOMContentLoaded', () => {
       this.nowPlaying.textContent = 'Loading...';
       this.audio.src = path;
       
-      // Moved media session update to play and canplay events
-      
       this.audio.onloadeddata = () => {
         this.nowPlaying.textContent = track.title;
+        this.updateMediaSession(track.title);
       };
       
       this.audio.play().catch(error => {
@@ -174,13 +159,49 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     },
     
-    updateMediaSession(track) {
-      if ('mediaSession' in navigator) {
-        navigator.mediaSession.metadata = new MediaMetadata({
-          title: track.title,
-          artwork: [{ src: '/assets/static/mw.jpeg', sizes: '512x512', type: 'image/jpeg' }]
-        });
-      }
+    updateMediaSession(trackTitle) {
+      if (!('mediaSession' in navigator)) return;
+      
+      const artwork = '/assets/static/mw.jpeg'
+      const artworkUrl = artwork ? artwork.path : null;
+      
+      navigator.mediaSession.metadata = new MediaMetadata({
+        title: trackTitle,
+        artwork: artworkUrl ? [
+          { src: window.location.origin + artworkUrl, sizes: '512x512', type: 'image/jpeg' }
+        ] : []
+      });
+      
+      // Set up media session actions
+      navigator.mediaSession.setActionHandler('previoustrack', () => this.playTrack('prev'));
+      navigator.mediaSession.setActionHandler('nexttrack', () => this.playTrack('next'));
+      navigator.mediaSession.setActionHandler('play', () => this.elements.player.play());
+      navigator.mediaSession.setActionHandler('pause', () => this.elements.player.pause());
+      
+      // Add seek handler for compatible browsers
+      navigator.mediaSession.setActionHandler('seekto', (details) => {
+        if (details.fastSeek && 'fastSeek' in this.elements.player) {
+          this.elements.player.fastSeek(details.seekTime);
+          return;
+        }
+        this.elements.player.currentTime = details.seekTime;
+      });
+      
+      this.updatePositionState();
+    },
+
+    // Update position state for lock screen
+    updatePositionState() {
+      if (!('mediaSession' in navigator) || !('setPositionState' in navigator.mediaSession)) return;
+      
+      const player = this.elements.player;
+      if (isNaN(player.duration)) return;
+      
+      navigator.mediaSession.setPositionState({
+        duration: player.duration || 0,
+        playbackRate: player.playbackRate || 1,
+        position: player.currentTime || 0
+      });
     },
     
     playNext() {
