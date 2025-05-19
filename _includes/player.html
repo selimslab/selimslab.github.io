@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
         await this.loadData();
         this.setupEventListeners();
         this.updateShuffleButton();
-        this.setupMediaSessionHandlers();
+        this.setupMediaControls();
         this.state.isInitialized = true;
       } catch (error) {
         console.error('Player initialization error:', error);
@@ -93,8 +93,25 @@ document.addEventListener('DOMContentLoaded', () => {
       // Main player controls
       this.eventHandlers = {
         ended: () => this.playTrack('next'),
-        loadedmetadata: () => this.updatePositionState(),
-        timeupdate: () => this.updatePositionState(),
+        loadedmetadata: () => {
+          // Update position state when metadata is loaded
+          if ('mediaSession' in navigator && 'setPositionState' in navigator.mediaSession) {
+            this.updatePositionState();
+          }
+        },
+        timeupdate: () => {
+          // Don't need to do anything here as we're handling it in setupMediaControls
+        },
+        play: () => {
+          if ('mediaSession' in navigator) {
+            navigator.mediaSession.playbackState = 'playing';
+          }
+        },
+        pause: () => {
+          if ('mediaSession' in navigator) {
+            navigator.mediaSession.playbackState = 'paused';
+          }
+        },
         error: (e) => this.handlePlayerError(e),
         shuffleClick: () => this.toggleShuffle(),
         prevClick: () => this.playTrack('prev'),
@@ -105,6 +122,8 @@ document.addEventListener('DOMContentLoaded', () => {
       player.addEventListener('loadedmetadata', this.eventHandlers.loadedmetadata);
       player.addEventListener('timeupdate', this.eventHandlers.timeupdate);
       player.addEventListener('error', this.eventHandlers.error);
+      player.addEventListener('play', this.eventHandlers.play);
+      player.addEventListener('pause', this.eventHandlers.pause);
       shuffleButton.addEventListener('click', this.eventHandlers.shuffleClick);
       prevButton.addEventListener('click', this.eventHandlers.prevClick);
       nextButton.addEventListener('click', this.eventHandlers.nextClick);
@@ -121,6 +140,8 @@ document.addEventListener('DOMContentLoaded', () => {
         player.removeEventListener('loadedmetadata', this.eventHandlers.loadedmetadata);
         player.removeEventListener('timeupdate', this.eventHandlers.timeupdate);
         player.removeEventListener('error', this.eventHandlers.error);
+        player.removeEventListener('play', this.eventHandlers.play);
+        player.removeEventListener('pause', this.eventHandlers.pause);
       }
       
       if (shuffleButton) {
@@ -327,7 +348,8 @@ document.addEventListener('DOMContentLoaded', () => {
         // Add a loadeddata event to update the title after the track is loaded
         const handleLoaded = () => {
           this.elements.nowPlaying.textContent = title;
-          this.updateMediaSession(title);
+          // Update player title and media session
+          this.updateMediaSession();
           this.elements.player.removeEventListener('loadeddata', handleLoaded);
         };
         this.elements.player.addEventListener('loadeddata', handleLoaded);
@@ -385,71 +407,43 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     
     // Set up media session handlers (new function)
-    setupMediaSessionHandlers() {
-      if (!('mediaSession' in navigator)) return;
-      
-      try {
-        // Set up media session actions - do this during initialization
-        navigator.mediaSession.setActionHandler('previoustrack', () => {
-          this.playTrack('prev');
-        });
-        navigator.mediaSession.setActionHandler('nexttrack', () => {
-          this.playTrack('next');
-        });
+    setupMediaControls() {
+      if ('mediaSession' in navigator) {
         navigator.mediaSession.setActionHandler('play', () => this.elements.player.play());
         navigator.mediaSession.setActionHandler('pause', () => this.elements.player.pause());
+        navigator.mediaSession.setActionHandler('previoustrack', () => this.playTrack('prev'));
+        navigator.mediaSession.setActionHandler('nexttrack', () => this.playTrack('next'));
         
-        // Add seek handler for compatible browsers
-        if ('seekto' in navigator.mediaSession) {
-          navigator.mediaSession.setActionHandler('seekto', (details) => {
-            if (details.fastSeek && 'fastSeek' in this.elements.player) {
-              this.elements.player.fastSeek(details.seekTime);
-              return;
-            }
-            this.elements.player.currentTime = details.seekTime;
-          });
+        // Add position state if supported
+        if ('setPositionState' in navigator.mediaSession) {
+          this.elements.player.addEventListener('timeupdate', () => this.updatePositionState());
         }
-      } catch (error) {
-        console.error('Error setting up media session handlers:', error);
-        // Non-critical error, continue playing
       }
     },
     
-    // Set up media session for lock screen controls
-    updateMediaSession(trackTitle) {
+    // Update media session for lock screen controls
+    updateMediaSession() {
       if (!('mediaSession' in navigator)) return;
       
-      try {
-        // Alternate between primes.png and mw.jpeg based on track index
-        const artworkImage = this.state.currentIndex % 2 === 0 
-          ? '/assets/static/primes.png' 
-          : '/assets/static/mw.jpeg';
-        
-        // Set track info with alternating artwork
-        navigator.mediaSession.metadata = new MediaMetadata({
-          title: trackTitle,
-          artwork: [
-            { src: window.location.origin + artworkImage, sizes: '512x512', type: 'image/png' }
-          ]
-        });
-        
-        // We don't need to set up the handlers here anymore since we do it on initialization
-        // Just update the position state
-        this.updatePositionState();
-      } catch (error) {
-        console.error('Error updating media session:', error);
-        // Non-critical error, continue playing
-      }
+      const track = this.getCurrentTrack();
+      if (!track) return;
+      
+      navigator.mediaSession.metadata = new MediaMetadata({
+        title: track.title,
+        artwork: [
+          { src: '/assets/static/mw.jpeg', sizes: '512x512', type: 'image/jpeg' }
+        ]
+      });
     },
     
     // Update position state for lock screen
     updatePositionState() {
       if (!('mediaSession' in navigator) || !('setPositionState' in navigator.mediaSession)) return;
       
+      const player = this.elements.player;
+      if (player.readyState === 0) return;
+      
       try {
-        const player = this.elements.player;
-        if (isNaN(player.duration)) return;
-        
         navigator.mediaSession.setPositionState({
           duration: player.duration || 0,
           playbackRate: player.playbackRate || 1,
@@ -457,7 +451,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
       } catch (error) {
         console.error('Error updating position state:', error);
-        // Non-critical error, continue playing
       }
     },
     
