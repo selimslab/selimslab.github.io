@@ -117,9 +117,16 @@ document.addEventListener('DOMContentLoaded', () => {
       this.handlePause = () => {
         this.updatePositionState();
       };
+      this.handlePlay = () => {
+        this.updatePositionState();
+        // Ensure media session is updated on play
+        if (this.tracks[this.currentIndex]) {
+          this.updateMediaSession(this.tracks[this.currentIndex].title);
+        }
+      };
       this.handleTimeUpdate = () => {
-        // Update position state periodically (throttled to reduce overhead)
-        if (this.lastPositionUpdate && Date.now() - this.lastPositionUpdate < 3000) return;
+        // Update position state more frequently (reduce throttle time for iOS)
+        if (this.lastPositionUpdate && Date.now() - this.lastPositionUpdate < 1000) return;
         this.lastPositionUpdate = Date.now();
         this.updatePositionState();
       };
@@ -132,6 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'ended': this.handleTrackEnd,
         'error': this.handleError,
         'pause': this.handlePause,
+        'play': this.handlePlay,
         'timeupdate': this.handleTimeUpdate,
         'durationchange': this.handleDurationChange
       };
@@ -189,9 +197,12 @@ document.addEventListener('DOMContentLoaded', () => {
       const fileName = encodeURIComponent(track.title + '.mp3');
       const path = `/assets/static/music/${track.genre.toLowerCase()}/${fileName}`;
       
+      // Update the now playing text before attempting to play
+      // This helps with iOS showing correct info even if play is delayed
+      this.nowPlaying.textContent = track.title;
+      
       this.audio.src = path;    
       this.audio.play().then(() => {
-        this.nowPlaying.textContent = track.title;
         this.updateMediaSession(track.title);
       }).catch(error => {
         console.error('Error playing track:', error);
@@ -206,16 +217,24 @@ document.addEventListener('DOMContentLoaded', () => {
       
       navigator.mediaSession.metadata = new MediaMetadata({
         title: trackTitle,
+        artist: '', 
+        album: '', 
         artwork: [
           { src: artworkPath, sizes: '512x512', type: 'image/jpeg' }
         ] 
       });
       
-      // Set up media session actions
-      navigator.mediaSession.setActionHandler('previoustrack', () => this.playPrev());
-      navigator.mediaSession.setActionHandler('nexttrack', () => this.playNext());
-      navigator.mediaSession.setActionHandler('play', () => this.audio.play());
-      navigator.mediaSession.setActionHandler('pause', () => this.audio.pause());
+      // Create bound functions to ensure proper 'this' context in iOS
+      const boundPlayPrev = () => this.playPrev();
+      const boundPlayNext = () => this.playNext();
+      const boundPlay = () => this.audio.play();
+      const boundPause = () => this.audio.pause();
+      
+      // Set up media session actions with bound functions
+      navigator.mediaSession.setActionHandler('previoustrack', boundPlayPrev);
+      navigator.mediaSession.setActionHandler('nexttrack', boundPlayNext);
+      navigator.mediaSession.setActionHandler('play', boundPlay);
+      navigator.mediaSession.setActionHandler('pause', boundPause);
       
       // Add seek handler for compatible browsers
       navigator.mediaSession.setActionHandler('seekto', (details) => {
@@ -224,6 +243,7 @@ document.addEventListener('DOMContentLoaded', () => {
           return;
         }
         this.audio.currentTime = details.seekTime;
+        this.updatePositionState(); // Update immediately after seeking
       });
       
       this.updatePositionState();
@@ -235,11 +255,15 @@ document.addEventListener('DOMContentLoaded', () => {
       
       if (isNaN(this.audio.duration)) return;
       
-      navigator.mediaSession.setPositionState({
-        duration: this.audio.duration || 0,
-        playbackRate: this.audio.playbackRate || 1,
-        position: this.audio.currentTime || 0
-      });
+      try {
+        navigator.mediaSession.setPositionState({
+          duration: this.audio.duration || 0,
+          playbackRate: this.audio.playbackRate || 1,
+          position: this.audio.currentTime || 0
+        });
+      } catch (e) {
+        console.error('Error updating position state:', e);
+      }
     },
     
     playNext() {
