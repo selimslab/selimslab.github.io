@@ -9,6 +9,11 @@ layout: delta
 
 <br>
 
+[Player](/player/)
+
+
+<br>
+
 [Arts](/arts/)
 
 [Engineering](/engineering/)
@@ -17,7 +22,6 @@ layout: delta
 
 [Systems](/systems/)
 
-
 <br>
 
 [Experiments](/exp/)
@@ -25,9 +29,6 @@ layout: delta
 [Tools](/tools/)
 
 
-<br>
-
-[Player](/player/)
 
 
 
