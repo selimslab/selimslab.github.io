@@ -114,11 +114,6 @@ document.addEventListener('DOMContentLoaded', () => {
       this.handlePrevClick = () => this.playPrev();
       this.handleNextClick = () => this.playNext();
       
-      // Media session update handlers
-      this.handlePlay = () => {
-        const track = this.tracks[this.currentIndex];
-        if (track) this.updateMediaSession(track.title);
-      };
       this.handlePause = () => {
         this.updatePositionState();
       };
@@ -132,18 +127,31 @@ document.addEventListener('DOMContentLoaded', () => {
         this.updatePositionState();
       };
       
-      // Player events
-      this.audio.addEventListener('ended', this.handleTrackEnd);
-      this.audio.addEventListener('error', this.handleError);
-      this.audio.addEventListener('play', this.handlePlay);
-      this.audio.addEventListener('pause', this.handlePause);
-      this.audio.addEventListener('timeupdate', this.handleTimeUpdate);
-      this.audio.addEventListener('durationchange', this.handleDurationChange);
+      // Define audio event mappings
+      this.audioEvents = {
+        'ended': this.handleTrackEnd,
+        'error': this.handleError,
+        'pause': this.handlePause,
+        'timeupdate': this.handleTimeUpdate,
+        'durationchange': this.handleDurationChange
+      };
       
-      // Button events
-      this.shuffleBtn.addEventListener('click', this.handleShuffleClick);
-      this.prevBtn.addEventListener('click', this.handlePrevClick);
-      this.nextBtn.addEventListener('click', this.handleNextClick);
+      // Button event mappings
+      this.buttonEvents = [
+        { element: this.shuffleBtn, event: 'click', handler: this.handleShuffleClick },
+        { element: this.prevBtn, event: 'click', handler: this.handlePrevClick },
+        { element: this.nextBtn, event: 'click', handler: this.handleNextClick }
+      ];
+      
+      // Add all audio events
+      Object.entries(this.audioEvents).forEach(([event, handler]) => {
+        this.audio.addEventListener(event, handler);
+      });
+      
+      // Add all button events
+      this.buttonEvents.forEach(({ element, event, handler }) => {
+        element.addEventListener(event, handler);
+      });
     },
     
     playById(id) {
@@ -314,17 +322,15 @@ document.addEventListener('DOMContentLoaded', () => {
         navigator.mediaSession.setActionHandler('seekto', null);
       }
       
-      // Remove event listeners from player elements
-      this.audio.removeEventListener('ended', this.handleTrackEnd);
-      this.audio.removeEventListener('error', this.handleError);
-      this.audio.removeEventListener('play', this.handlePlay);
-      this.audio.removeEventListener('pause', this.handlePause);
-      this.audio.removeEventListener('timeupdate', this.handleTimeUpdate);
-      this.audio.removeEventListener('durationchange', this.handleDurationChange);
+      // Remove all audio event listeners
+      Object.entries(this.audioEvents).forEach(([event, handler]) => {
+        this.audio.removeEventListener(event, handler);
+      });
       
-      this.shuffleBtn.removeEventListener('click', this.handleShuffleClick);
-      this.prevBtn.removeEventListener('click', this.handlePrevClick);
-      this.nextBtn.removeEventListener('click', this.handleNextClick);
+      // Remove all button event listeners
+      this.buttonEvents.forEach(({ element, event, handler }) => {
+        element.removeEventListener(event, handler);
+      });
       
       // Remove event listeners from track elements
       if (this.trackElements) {
