@@ -110,6 +110,11 @@ document.addEventListener('DOMContentLoaded', function() {
   function setupMediaSession() {
     navigator.mediaSession.setActionHandler('previoustrack', playPreviousTrack);
     navigator.mediaSession.setActionHandler('nexttrack', playNextTrack);
+    navigator.mediaSession.setActionHandler('seekto', function(details) {
+      if (details.seekTime !== undefined) {
+        audioPlayer.currentTime = details.seekTime;
+      }
+    });
     
     // Handle track ending
     audioPlayer.addEventListener('ended', playNextTrack);
@@ -121,9 +126,12 @@ document.addEventListener('DOMContentLoaded', function() {
       title: track.title,
       artist: track.artist || '',
       album: track.genre || '',
+      artwork: [{
+        src: window.location.origin + `/assets/static/primes.png`,
+        sizes: '512x512',
+        type: 'image/png'
+      }]
     });
-    setupMediaSession();
-
   }
 });
 </script>
