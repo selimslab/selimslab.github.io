@@ -2,6 +2,9 @@
 <div class="audio-player">
   <div id="now-playing"></div>
   <audio id="audio-player" controls></audio>
+  <div class="player-controls">
+    <button id="shuffle-button">Shuffle</button>
+  </div>
 </div>
 
 <div id="playlist"></div>
@@ -119,6 +122,8 @@ document.addEventListener('DOMContentLoaded', function() {
       artist: track.artist || '',
       album: track.genre || '',
     });
+    setupMediaSession();
+
   }
 });
 </script>
