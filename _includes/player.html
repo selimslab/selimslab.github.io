@@ -25,11 +25,6 @@
     let shuffleMode = false;
     let playHistory = [];
     let historyPosition = -1;
-    let lastUpdatedSecondForPosition = -1; // To track position updates
-    let mediaSessionInitialized = false; // Flag to track MediaSession initialization
-
-    // Initialize MediaSession as early as possible
-    initializeMediaSession();
 
     // Load tracks and setup player
     fetch('/assets/data/tracks.json')
@@ -58,25 +53,6 @@
       
       // Setup event listeners
       audioElement.addEventListener('ended', () => playTrack('next'));
-      
-      // Ensure MediaSession state directly tracks audio element state
-      audioElement.addEventListener('play', () => {
-        updateMediaSessionPlaybackState('playing');
-        // Force position update on play
-        lastUpdatedSecondForPosition = -1;
-        updateMediaSessionPositionState();
-      });
-      
-      audioElement.addEventListener('pause', () => {
-        updateMediaSessionPlaybackState('paused');
-        // Force position update on pause
-        updateMediaSessionPositionState();
-      });
-      
-      // Ensure MediaSession is properly initialized
-      if (!mediaSessionInitialized) {
-        initializeMediaSession();
-      }
       
       shuffleBtn.addEventListener('click', () => {
         shuffleMode = !shuffleMode;
@@ -127,11 +103,6 @@
 
     function playTrack(command, trackId = null) {
       if (!tracks.length) return;
-      
-      // Ensure MediaSession is initialized before playing
-      if (!mediaSessionInitialized) {
-        initializeMediaSession();
-      }
       
       let newIndex = currentIndex;
       let addToHistory = true;
@@ -207,24 +178,15 @@
       audioElement.src = path;
       audioElement.load();
       
-      // Update media session first
-      updateMediaSession(track);
-      
-      // Then try to play
+      // Try to play
       audioElement.play().catch(error => {
         console.warn('Play prevented:', error);
-        // Ensure MediaSession state reflects the actual state
-        updateMediaSessionPlaybackState('paused');
         
         // For browsers requiring user interaction
         const userInteractionHandler = () => {
           audioElement.play()
-            .then(() => {
-              updateMediaSessionPlaybackState('playing');
-            })
             .catch(e => {
               console.error('Play attempt failed after user interaction:', e);
-              updateMediaSessionPlaybackState('paused');
             });
           document.removeEventListener('click', userInteractionHandler);
           document.removeEventListener('touchend', userInteractionHandler);
@@ -233,291 +195,73 @@
         document.addEventListener('touchend', userInteractionHandler, { once: true });
       });
     }
-    
-    function updateMediaSession(track) {
-      if (!ensureMediaSessionSupport()) return;
+
+    function setMediaSession() {
+      if (!navigator.mediaSession) return;
       
-      try {
-        if (!track || !track.title) {
-          console.warn('MediaSession: Cannot update with invalid track data');
-          return;
-        }
-        
-        navigator.mediaSession.metadata = new MediaMetadata({
-          title: track.title,
-          artist: '',
-          album: '',
-          artwork: [
-            { src: window.location.origin + '/assets/static/mw.jpeg', sizes: '512x512', type: 'image/jpeg' }
-          ]
-        });
-        
-        // Force sync of playback state when metadata changes
-        updateMediaSessionPlaybackState(audioElement.paused ? 'paused' : 'playing');
-      } catch (error) {
-        console.warn('MediaSession metadata update error:', error);
-        // Attempt recovery
-        recoverMediaSessionState();
-      }
-    }
-    
-    // New function to ensure MediaSession support and initialization
-    function ensureMediaSessionSupport() {
-      if (!('mediaSession' in navigator) || !('MediaMetadata' in window)) {
-        console.info('MediaSession API not supported in this browser');
-        return false;
-      }
+      // Get current track
+      if (currentIndex < 0 || !tracks[currentIndex]) return;
+      const track = tracks[currentIndex];
       
-      if (!mediaSessionInitialized) {
-        initializeMediaSession();
-      }
+      // Set metadata
+      navigator.mediaSession.metadata = new MediaMetadata({
+        title: track.title,
+        artist: '',
+        album: '',
+        artwork: [
+          { src: '/assets/static/primes.png', sizes: '512x512', type: 'image/png' }
+        ]
+      });
       
-      return true;
-    }
-    
-    // Renamed from setupMediaSession to be more explicit
-    function initializeMediaSession() {
-      if (!('mediaSession' in navigator) || !('MediaMetadata' in window)) {
-        console.info('MediaSession API not supported in this browser');
-        return;
-      }
+      // Set handlers for media controls
+      navigator.mediaSession.setActionHandler('play', () => {
+        audioElement.play();
+      });
       
-      try {
-        // Initial empty metadata
-        navigator.mediaSession.metadata = new MediaMetadata({
-          title: '',
-          artist: '',
-          album: '',
-          artwork: [
-            { src: window.location.origin + '/assets/static/mw.jpeg', sizes: '512x512', type: 'image/jpeg' }
-          ]
-        });
-        
-        // Initial setup of action handlers
-        setupMediaSessionActions();
-        
-        // Mark as initialized
-        mediaSessionInitialized = true;
-        
-        // Set up periodic state sync (every 30 seconds)
-        setInterval(syncMediaSessionState, 30000);
-        
-        console.info('MediaSession successfully initialized');
-      } catch (error) {
-        console.warn('MediaSession initialization error:', error);
-        mediaSessionInitialized = false;
-      }
-    }
-    
-    function setupMediaSessionActions() {
-      if (!('mediaSession' in navigator)) return;
+      navigator.mediaSession.setActionHandler('pause', () => {
+        audioElement.pause();
+      });
       
-      // Define all possible media actions
-      try {
-        navigator.mediaSession.setActionHandler('play', () => {
-          audioElement.play().catch(e => console.warn('MediaSession: Play action failed:', e));
-        });
-        
-        navigator.mediaSession.setActionHandler('pause', () => {
-          audioElement.pause();
-        });
-        
-        navigator.mediaSession.setActionHandler('previoustrack', () => {
-          playTrack('prev');
-        });
-        
-        navigator.mediaSession.setActionHandler('nexttrack', () => {
-          playTrack('next');
-        });
-        
-        // Optional: add support for seeking
-        if ('seekbackward' in navigator.mediaSession) {
-          navigator.mediaSession.setActionHandler('seekbackward', (details) => {
-            const skipTime = details.seekOffset || 10;
-            audioElement.currentTime = Math.max(audioElement.currentTime - skipTime, 0);
-          });
-        }
-        
-        if ('seekforward' in navigator.mediaSession) {
-          navigator.mediaSession.setActionHandler('seekforward', (details) => {
-            const skipTime = details.seekOffset || 10;
-            audioElement.currentTime = Math.min(
-              audioElement.currentTime + skipTime, 
-              audioElement.duration || Infinity
-            );
-          });
-        }
-      } catch (error) {
-        console.warn('MediaSession: Failed to set action handlers:', error);
-      }
-    }
-    
-    function updateMediaSessionPlaybackState(state) {
-      if (!ensureMediaSessionSupport()) return;
-
-      // Validate state value
-      if (state !== 'playing' && state !== 'paused' && state !== 'none') {
-        console.warn('MediaSession: Invalid playback state:', state);
-        state = audioElement.paused ? 'paused' : 'playing';
-      }
-
-      try {
-        navigator.mediaSession.playbackState = state;
-        
-        // Always update position state when playback state changes
-        if (state === 'playing' || state === 'paused') {
-          updateMediaSessionPositionState();
-        }
-      } catch (error) {
-        console.warn('MediaSession: Error updating playback state:', error);
-        // No need to retry here as this would create an infinite loop
-      }
-    }
-
-    // New function to synchronize MediaSession state
-    function syncMediaSessionState() {
-      if (!mediaSessionInitialized || !ensureMediaSessionSupport()) {
-        // Try to reinitialize if needed
-        initializeMediaSession();
-        return;
-      }
+      navigator.mediaSession.setActionHandler('stop', () => {
+        audioElement.pause();
+        audioElement.currentTime = 0;
+      });
       
-      try {
-        // Force sync with current audio state
-        if (currentIndex >= 0 && currentIndex < tracks.length) {
-          updateMediaSession(tracks[currentIndex]);
-        }
-        
-        updateMediaSessionPlaybackState(audioElement.paused ? 'paused' : 'playing');
-        
-        if (!audioElement.paused && audioElement.duration) {
-          updateMediaSessionPositionState();
-        }
-      } catch (error) {
-        console.warn('MediaSession sync error:', error);
-        // Try to recover
-        recoverMediaSessionState();
-      }
+      navigator.mediaSession.setActionHandler('previoustrack', () => {
+        playTrack('prev');
+      });
+      
+      navigator.mediaSession.setActionHandler('nexttrack', () => {
+        playTrack('next');
+      });
+      
+      // Update playback state
+      navigator.mediaSession.playbackState = audioElement.paused ? "paused" : "playing";
     }
     
-    // New function to recover MediaSession state after errors
-    function recoverMediaSessionState() {
-      try {
-        // Reinitialize MediaSession if something went wrong
-        mediaSessionInitialized = false;
-        initializeMediaSession();
-        
-        // If a track is loaded, update metadata
-        if (currentIndex >= 0 && currentIndex < tracks.length) {
-          updateMediaSession(tracks[currentIndex]);
-        }
-        
-        // Update playback state
-        updateMediaSessionPlaybackState(audioElement.paused ? 'paused' : 'playing');
-      } catch (error) {
-        console.error('Failed to recover MediaSession state:', error);
+    // Update position state regularly
+    setInterval(() => {
+      if (!audioElement || audioElement.paused) return;
+      if (!navigator.mediaSession) return;
+      if (!isFinite(audioElement.duration) || audioElement.duration <= 0) return;
+      
+      navigator.mediaSession.setPositionState({
+        duration: audioElement.duration,
+        playbackRate: audioElement.playbackRate,
+        position: audioElement.currentTime
+      });
+    }, 300);
+    
+    // Update media session when play state changes
+    audioElement.addEventListener('play', setMediaSession);
+    audioElement.addEventListener('pause', () => {
+      if (navigator.mediaSession) {
+        navigator.mediaSession.playbackState = "paused";
       }
-    }
-
-    // New function to specifically update position state
-    function updateMediaSessionPositionState() {
-      if (!('mediaSession' in navigator) || typeof navigator.mediaSession.setPositionState !== 'function') return;
-      if (!audioElement || !audioElement.duration || !isFinite(audioElement.duration)) return; // Avoid issues with NaN or Infinity
-
-      try {
-        const position = audioElement.currentTime || 0;
-        const duration = audioElement.duration || 0;
-        const playbackRate = audioElement.playbackRate || 1;
-        
-        // Only update if we have valid values
-        if (isFinite(position) && isFinite(duration) && isFinite(playbackRate) && duration > 0) {
-          navigator.mediaSession.setPositionState({
-            duration: duration,
-            playbackRate: playbackRate,
-            position: position
-          });
-        }
-      } catch (error) {
-        console.warn('MediaSession: Error updating position state:', error);
-      }
-    }
-
-    // Refined timeupdate listener for MediaSession position state
-    audioElement.addEventListener('timeupdate', () => {
-      if (!('mediaSession' in navigator) || audioElement.paused) return;
-
-      const currentSecond = Math.floor(audioElement.currentTime);
-      // Update position state if the current second is a multiple of 5,
-      // and we haven't updated for this specific second yet.
-      // Also update when the distance from the last update exceeds 5 seconds
-      if ((currentSecond % 5 === 0 && currentSecond !== lastUpdatedSecondForPosition) || 
-          (Math.abs(currentSecond - lastUpdatedSecondForPosition) > 5)) {
-        updateMediaSessionPositionState(); // Directly update position
-        lastUpdatedSecondForPosition = currentSecond;
-      }
-    });
-
-    // Update MediaSession on duration change
-    audioElement.addEventListener('durationchange', () => {
-      // When duration changes (e.g., new track loaded), update position state
-      if (!audioElement.paused) {
-        updateMediaSessionPositionState();
-      }
-    });
-
-    // Update MediaSession when metadata is loaded
-    audioElement.addEventListener('loadedmetadata', () => {
-      // When metadata (including duration) is loaded, update position state
-      // This is important for the initial load of a track
-      // updateMediaSessionPositionState(); // Handled by updateMediaSessionPlaybackState
-      // Also ensure playback state is correct if it was supposed to be playing
-      // if (!audioElement.paused) {
-      //  updateMediaSessionPlaybackState('playing');
-      // }
-      updateMediaSessionPlaybackState(audioElement.paused ? 'paused' : 'playing');
-    });
-
-    // Update MediaSession after seeking
-    audioElement.addEventListener('seeked', () => {
-      // After a seek operation, update the position state immediately
-      if ('mediaSession' in navigator) {
-        // Force immediate position update
-        lastUpdatedSecondForPosition = -1; // Reset to force an update
-        updateMediaSessionPositionState();
-        // Also ensure playback state reflects current status
-        updateMediaSessionPlaybackState(audioElement.paused ? 'paused' : 'playing');
-      }
-    });
-
-    // Update MediaSession on playback rate change
-    audioElement.addEventListener('ratechange', () => {
-      if (!audioElement.paused) {
-        updateMediaSessionPositionState(); // Update position state on rate change
-      }
-    });
-
-    // Handle state sync for MediaSession on errors and track loads
-    audioElement.addEventListener('error', (e) => {
-      console.error('Audio element error:', e.target.error);
-      updateMediaSessionPlaybackState('paused');
-    });
-
-    // Ensure state is synchronized when audio is loaded
-    audioElement.addEventListener('loadeddata', () => {
-      updateMediaSessionPlaybackState(audioElement.paused ? 'paused' : 'playing');
-    });
-
-    // Ensure state is synchronized on network state changes
-    audioElement.addEventListener('stalled', () => {
-      updateMediaSessionPlaybackState(audioElement.paused ? 'paused' : 'playing');
     });
     
-    audioElement.addEventListener('waiting', () => {
-      // If waiting for data but still "playing", we should reflect this in MediaSession
-      if (!audioElement.paused) {
-        updateMediaSessionPlaybackState('playing');
-      }
-    });
+    // Also update MediaSession when a new track is loaded
+    audioElement.addEventListener('loadedmetadata', setMediaSession);
   });
 </script>
 
