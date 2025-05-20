@@ -73,7 +73,6 @@ document.addEventListener('DOMContentLoaded', function() {
     
     const trackPath = `/assets/static/music/${track.genre}/${track.title}.mp3`;
     audioPlayer.src = trackPath;
-    nowPlaying.textContent = track.title;
     audioPlayer.play();
     
     // Update media session metadata
@@ -127,9 +126,9 @@ document.addEventListener('DOMContentLoaded', function() {
       artist: track.artist || '',
       album: track.genre || '',
       artwork: [{
-        src: window.location.origin + `/assets/static/primes.png`,
+        src: window.location.origin + `/assets/static/mw.jpeg`,
         sizes: '512x512',
-        type: 'image/png'
+        type: 'image/jpeg'
       }]
     });
   }
