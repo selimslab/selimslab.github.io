@@ -182,39 +182,185 @@
       
       audioElement.pause();
       audioElement.src = path;
-      audioElement.play();
+      
+      // Play after a short delay to ensure iOS has time to process media session updates
+      setTimeout(() => {
+        const playPromise = audioElement.play();
+        if (playPromise !== undefined) {
+          playPromise.catch(error => {
+            console.warn('Play prevented:', error);
+            // Retry once with user interaction (for iOS)
+            const userInteractionHandler = () => {
+              audioElement.play().catch(e => console.error('Final play attempt failed:', e));
+              document.removeEventListener('touchend', userInteractionHandler);
+            };
+            document.addEventListener('touchend', userInteractionHandler, { once: true });
+          });
+        }
+      }, 50);
       
       // Update media session
       updateMediaSession(track);
     }
     
+    // Debounce variables
+    let mediaSessionUpdateTimeout = null;
+    
     function updateMediaSession(track) {
-      if ('mediaSession' in navigator) {
-        navigator.mediaSession.metadata = new MediaMetadata({
-          title: track.title,
-          artist: "",
-          album: "",
-          artwork: [
-            { src: window.location.origin + "/assets/static/mw.jpeg", sizes: '512x512', type: 'image/jpeg' }
-          ]
-        });
+      // Clear any pending updates
+      if (mediaSessionUpdateTimeout) {
+        clearTimeout(mediaSessionUpdateTimeout);
       }
+      
+      // Debounce MediaSession updates to prevent iOS issues
+      mediaSessionUpdateTimeout = setTimeout(() => {
+        if (!('mediaSession' in navigator) || !('MediaMetadata' in window)) return;
+        
+        try {
+          const artworkPath = `/assets/static/mw.jpeg`;
+          const artworkUrl = window.location.origin + artworkPath;
+          
+          // Pre-load artwork to ensure it's available
+          const img = new Image();
+          img.src = artworkUrl;
+          
+          navigator.mediaSession.metadata = new MediaMetadata({
+            title: track?.title || 'Unknown Track',
+            artist: track?.artist || '',
+            album: track?.album || '',
+            artwork: [
+              { src: artworkUrl, sizes: '512x512', type: 'image/jpeg' }
+            ]
+          });
+        } catch (error) {
+          console.warn('MediaSession metadata update error:', error);
+        }
+      }, 100);
     }
     
     function setupMediaSession() {
-      if ('mediaSession' in navigator) {
-        navigator.mediaSession.setActionHandler('play', () => audioElement.play());
-        navigator.mediaSession.setActionHandler('pause', () => audioElement.pause());
-        navigator.mediaSession.setActionHandler('previoustrack', () => playTrack('prev'));
-        navigator.mediaSession.setActionHandler('nexttrack', () => playTrack('next'));
+      if (!('mediaSession' in navigator)) {
+        console.info('MediaSession API not supported in this browser');
+        return;
+      }
+      
+      // Define all possible media actions
+      const actionHandlers = {
+        play: () => {
+          try {
+            const playPromise = audioElement.play();
+            if (playPromise !== undefined) {
+              playPromise.catch(error => console.warn('MediaSession play action error:', error));
+            }
+          } catch (error) {
+            console.warn('MediaSession play action error:', error);
+          }
+        },
+        
+        pause: () => {
+          try {
+            audioElement.pause();
+          } catch (error) {
+            console.warn('MediaSession pause action error:', error);
+          }
+        },
+        
+        previoustrack: () => safeMediaAction('prev'),
+        nexttrack: () => safeMediaAction('next'),
+        
+        // Optional: add support for seeking
+        seekbackward: (details) => {
+          const skipTime = details.seekOffset || 10;
+          try {
+            audioElement.currentTime = Math.max(audioElement.currentTime - skipTime, 0);
+          } catch (error) {
+            console.warn('MediaSession seekbackward error:', error);
+          }
+        },
+        
+        seekforward: (details) => {
+          const skipTime = details.seekOffset || 10;
+          try {
+            audioElement.currentTime = Math.min(
+              audioElement.currentTime + skipTime, 
+              audioElement.duration || Infinity
+            );
+          } catch (error) {
+            console.warn('MediaSession seekforward error:', error);
+          }
+        }
+      };
+      
+      // Register all available handlers
+      Object.entries(actionHandlers).forEach(([action, handler]) => {
+        try {
+          navigator.mediaSession.setActionHandler(action, handler);
+        } catch (error) {
+          console.info(`MediaSession ${action} action not supported`, error);
+        }
+      });
+    }
+    
+    // Safely handle media session actions with debouncing and error handling
+    function safeMediaAction(command) {
+      // Debounce for all browsers, not just iOS
+      const now = Date.now();
+      if (window.lastMediaAction && now - window.lastMediaAction < 300) {
+        return;
+      }
+      window.lastMediaAction = now;
+      
+      try {
+        playTrack(command);
+      } catch (error) {
+        console.warn(`MediaSession ${command} action error:`, error);
       }
     }
     
     function updateMediaSessionPlaybackState(state) {
-      if ('mediaSession' in navigator) {
+      if (!('mediaSession' in navigator)) return;
+      
+      try {
         navigator.mediaSession.playbackState = state;
+      } catch (error) {
+        console.warn('MediaSession playback state update error:', error);
+      }
+      
+      // Update position state if supported
+      updatePositionState();
+    }
+    
+    function updatePositionState() {
+      if (!('mediaSession' in navigator) || 
+          !navigator.mediaSession.setPositionState || 
+          !audioElement.duration) {
+        return;
+      }
+      
+      try {
+        navigator.mediaSession.setPositionState({
+          duration: audioElement.duration || 0,
+          playbackRate: audioElement.playbackRate || 1,
+          position: audioElement.currentTime || 0
+        });
+      } catch (error) {
+        console.info('MediaSession position state not supported', error);
       }
     }
+    
+    // Add periodic updates for position state and to handle
+    // cases where media session might have been reset
+    setInterval(() => {
+      if (audioElement.paused) return;
+      
+      // Periodically update position state
+      updatePositionState();
+      
+      // Ensure metadata is set if track is playing
+      if (currentIndex >= 0 && tracks[currentIndex]) {
+        updateMediaSession(tracks[currentIndex]);
+      }
+    }, 5000);
   });
 </script>
 
