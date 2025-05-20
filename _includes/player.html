@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function() {
         updateMediaSessionMetadata(track);
       }
     });
-  
+    
   }
   
   // Function to play next track
@@ -194,8 +194,8 @@ document.addEventListener('DOMContentLoaded', function() {
   function updateMediaSessionMetadata(track) {
     navigator.mediaSession.metadata = new MediaMetadata({
       title: track.title,
-      artist: track.artist || '',
-      album: track.genre || '',
+      artist: '',
+      album: '',
       artwork: [{
         src: window.location.origin + `/assets/static/mw.jpeg`,
         sizes: '512x512',
