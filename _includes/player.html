@@ -74,8 +74,9 @@ document.addEventListener('DOMContentLoaded', function() {
     audioPlayer.src = trackPath;
     nowPlaying.textContent = track.title;
     audioPlayer.load();
-    updateMediaSessionMetadata(track);
-    audioPlayer.play();
+    audioPlayer.play().then(() => {
+      updateMediaSessionMetadata(track);
+    });
   }
   
   // Function to play next track
