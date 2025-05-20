@@ -12,6 +12,9 @@ document.addEventListener('DOMContentLoaded', function() {
   const nowPlaying = document.getElementById('now-playing');
   const playlist = document.getElementById('playlist');
   
+  let allTracks = [];
+  let currentTrackIndex = -1;
+  
   // Load tracks from JSON file
   fetch('/assets/data/tracks.json')
     .then(response => response.json())
@@ -27,19 +30,19 @@ document.addEventListener('DOMContentLoaded', function() {
         const trackList = document.createElement('ul');
         
         tracks.forEach(track => {
+          // Add track to the flat list with genre info
+          allTracks.push({
+            ...track,
+            genre: genre
+          });
+          
           const trackElement = document.createElement('li');
           trackElement.classList.add('track');
           trackElement.textContent = track.title;
           trackElement.dataset.id = track.id;
           
           trackElement.addEventListener('click', function() {
-            document.querySelectorAll('.track').forEach(t => t.classList.remove('active'));
-            this.classList.add('active');
-            
-            const trackPath = `/assets/static/music/${genre}/${track.title}.mp3`;
-            audioPlayer.src = trackPath;
-            nowPlaying.textContent = track.title;
-            audioPlayer.play();
+            playTrackById(track.id);
           });
           
           trackList.appendChild(trackElement);
@@ -48,8 +51,75 @@ document.addEventListener('DOMContentLoaded', function() {
         details.appendChild(trackList);
         playlist.appendChild(details);
       });
+      
+      // Setup Media Session API if supported
+      if ('mediaSession' in navigator) {
+        setupMediaSession();
+      }
     })
     .catch(error => console.error('Error loading track list:', error));
+    
+  // Function to play a track by ID
+  function playTrackById(id) {
+    currentTrackIndex = allTracks.findIndex(track => track.id === id);
+    if (currentTrackIndex === -1) return;
+    
+    const track = allTracks[currentTrackIndex];
+    document.querySelectorAll('.track').forEach(t => t.classList.remove('active'));
+    document.querySelector(`.track[data-id="${id}"]`).classList.add('active');
+    
+    const trackPath = `/assets/static/music/${track.genre}/${track.title}.mp3`;
+    audioPlayer.src = trackPath;
+    nowPlaying.textContent = track.title;
+    audioPlayer.play();
+    
+    // Update media session metadata
+    if ('mediaSession' in navigator) {
+      updateMediaSessionMetadata(track);
+    }
+  }
+  
+  // Function to play next track
+  function playNextTrack() {
+    if (allTracks.length === 0) return;
+    
+    let nextIndex = currentTrackIndex + 1;
+    if (nextIndex >= allTracks.length) {
+      nextIndex = 0; // Loop back to the first track
+    }
+    
+    playTrackById(allTracks[nextIndex].id);
+  }
+  
+  // Function to play previous track
+  function playPreviousTrack() {
+    if (allTracks.length === 0) return;
+    
+    let prevIndex = currentTrackIndex - 1;
+    if (prevIndex < 0) {
+      prevIndex = allTracks.length - 1; // Loop to the last track
+    }
+    
+    playTrackById(allTracks[prevIndex].id);
+  }
+  
+  // Setup Media Session API
+  function setupMediaSession() {
+    navigator.mediaSession.setActionHandler('previoustrack', playPreviousTrack);
+    navigator.mediaSession.setActionHandler('nexttrack', playNextTrack);
+    
+    // Handle track ending
+    audioPlayer.addEventListener('ended', playNextTrack);
+  }
+  
+  // Update media session metadata
+  function updateMediaSessionMetadata(track) {
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: track.title,
+      artist: track.artist || '',
+      album: track.genre || '',
+    });
+  }
 });
 </script>
 
