@@ -73,12 +73,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const trackPath = `/assets/static/music/${track.genre}/${track.title}.mp3`;
     audioPlayer.src = trackPath;
     nowPlaying.textContent = track.title;
+    audioPlayer.load();
+    updateMediaSessionMetadata(track);
     audioPlayer.play();
-    
-    // Update media session metadata
-    if ('mediaSession' in navigator) {
-      updateMediaSessionMetadata(track);
-    }
   }
   
   // Function to play next track
@@ -121,6 +118,8 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Update media session metadata
   function updateMediaSessionMetadata(track) {
+    if (!('mediaSession' in navigator)) return;
+
     navigator.mediaSession.metadata = new MediaMetadata({
       title: track.title,
       artist: '',
