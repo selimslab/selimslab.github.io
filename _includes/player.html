@@ -118,10 +118,13 @@ document.addEventListener('DOMContentLoaded', () => {
     prevBtn.addEventListener('click', playPrev);
     nextBtn.addEventListener('click', playNext);
     
-    // Window event listener for cleanup
-    window.addEventListener('beforeunload', cleanup);
+    // call setMediaSessionActionHandlers every second
+    setInterval(setMediaSessionActionHandlers, 1000);
   }
   
+  const play = () => audioElement.play();
+  const pause = () => audioElement.pause();
+
   function playById(id) {
     const index = tracks.findIndex(t => t.id === id);
     if (index !== -1) {
@@ -146,6 +149,8 @@ document.addEventListener('DOMContentLoaded', () => {
     
     nowPlayingElement.textContent = track.title;
   }
+
+
   
   function loadTrack() {
     const track = tracks[currentIndex];
@@ -176,17 +181,16 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!('mediaSession' in navigator)) return;
     
     try {
-      clearMediaSessionActionHandlers();
 
       const artworkPath = window.location.origin + '/assets/static/mw.jpeg';
       
-      // Set metadata - works in most browsers
       navigator.mediaSession.metadata = new MediaMetadata({
         title: trackTitle,
         artist: '', 
         album: '', 
         artwork: [
-          { src: artworkPath, sizes: '512x512', type: 'image/jpeg' }
+          { src: artworkPath, sizes: '512x512', type: 'image/jpeg' },
+          { src: artworkPath, sizes: '96x96', type: 'image/jpeg' }
         ] 
       });
             
@@ -198,17 +202,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  function clearMediaSessionActionHandlers() {
-    if (!('mediaSession' in navigator)) return;
-    const actionsToClear = ['previoustrack', 'nexttrack', 'play', 'pause', 'seekto'];
-    actionsToClear.forEach(action => {
-      try {
-        navigator.mediaSession.setActionHandler(action, null);
-      } catch (e) {
-        console.warn(`Error clearing media session handler for ${action}:`, e);
-      }
-    });
-  }
 
   function setMediaSessionActionHandlers() {
     if (!('mediaSession' in navigator)) return;
@@ -216,8 +209,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const mediaActionHandlers = [
       { action: 'previoustrack', handler: playPrev },
       { action: 'nexttrack', handler: playNext },
-      { action: 'play', handler: () => audioElement.play() },
-      { action: 'pause', handler: () => audioElement.pause() }
+      { action: 'play', handler: play },
+      { action: 'pause', handler: pause }
     ];
 
     // Conditionally add seekto handler if setPositionState is supported
@@ -284,15 +277,10 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   
   function handleTimeUpdate() {
-    // Throttle position updates to reduce overhead
     const now = Date.now();
-    if (lastPositionUpdate && now - lastPositionUpdate < 250) return;
+    if (lastPositionUpdate && now - lastPositionUpdate < 500) return;
     lastPositionUpdate = now;
-    
-    // Only attempt mediaSession updates if we're not in iOS home screen mode
-    if (!window.navigator.standalone) {
-      updatePositionState();
-    }
+    updatePositionState();
   }
   
   function handleDurationChange() {
@@ -363,46 +351,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
   
-  function cleanup() {
-    cleanupMediaSession();
-    removeAudioEventListeners();
-    removeButtonEventListeners();
-    removeTrackElementEventListeners();
-    
-    // Remove window event listener
-    window.removeEventListener('beforeunload', cleanup);
-  }
-
-  function cleanupMediaSession() {
-    if (!('mediaSession' in navigator)) return;
-    try {
-      navigator.mediaSession.metadata = null;
-      clearMediaSessionActionHandlers(); // Reuse the existing helper
-    } catch (e) {
-      console.warn('Error cleaning up media session handlers:', e);
-    }
-  }
-
-  function removeAudioEventListeners() {
-    audioElement.removeEventListener('ended', handleTrackEnd);
-    audioElement.removeEventListener('error', handleError);
-    audioElement.removeEventListener('pause', handlePause);
-    audioElement.removeEventListener('play', handlePlay);
-    audioElement.removeEventListener('timeupdate', handleTimeUpdate);
-    audioElement.removeEventListener('durationchange', handleDurationChange);
-  }
-
-  function removeButtonEventListeners() {
-    shuffleBtn.removeEventListener('click', toggleShuffle);
-    prevBtn.removeEventListener('click', playPrev);
-    nextBtn.removeEventListener('click', playNext);
-  }
-
-  function removeTrackElementEventListeners() {
-    trackElements.forEach(item => {
-      item.element.removeEventListener('click', item.handler);
-    });
-  }
 });
 </script>
 
