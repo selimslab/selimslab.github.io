@@ -53,6 +53,12 @@
       
       // Setup event listeners
       audioElement.addEventListener('ended', () => playTrack('next'));
+      audioElement.addEventListener('play', () => updateMediaSessionPlaybackState('playing'));
+      audioElement.addEventListener('pause', () => updateMediaSessionPlaybackState('paused'));
+      
+      // Initialize MediaSession
+      setupMediaSession();
+      
       shuffleBtn.addEventListener('click', () => {
         shuffleMode = !shuffleMode;
         shuffleBtn.classList.toggle('active', shuffleMode);
@@ -192,11 +198,21 @@
             { src: window.location.origin + "/assets/static/mw.jpeg", sizes: '512x512', type: 'image/jpeg' }
           ]
         });
-
+      }
+    }
+    
+    function setupMediaSession() {
+      if ('mediaSession' in navigator) {
         navigator.mediaSession.setActionHandler('play', () => audioElement.play());
         navigator.mediaSession.setActionHandler('pause', () => audioElement.pause());
         navigator.mediaSession.setActionHandler('previoustrack', () => playTrack('prev'));
         navigator.mediaSession.setActionHandler('nexttrack', () => playTrack('next'));
+      }
+    }
+    
+    function updateMediaSessionPlaybackState(state) {
+      if ('mediaSession' in navigator) {
+        navigator.mediaSession.playbackState = state;
       }
     }
   });
