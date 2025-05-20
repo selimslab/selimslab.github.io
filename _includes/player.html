@@ -14,9 +14,12 @@ document.addEventListener('DOMContentLoaded', function() {
   const audioPlayer = document.getElementById('audio-player');
   const nowPlaying = document.getElementById('now-playing');
   const playlist = document.getElementById('playlist');
+  const shuffleButton = document.getElementById('shuffle-button');
   
   let allTracks = [];
+  let shuffledTracks = [];
   let currentTrackIndex = -1;
+  let shuffleMode = false;
   
   // Load tracks from JSON file
   fetch('/assets/data/tracks.json')
@@ -59,9 +62,49 @@ document.addEventListener('DOMContentLoaded', function() {
       if ('mediaSession' in navigator) {
         setupMediaSession();
       }
+      
+      // Initialize shuffled tracks array
+      shuffledTracks = [...allTracks];
     })
     .catch(error => console.error('Error loading track list:', error));
     
+  // Shuffle button event listener
+  shuffleButton.addEventListener('click', toggleShuffle);
+  
+  // Toggle shuffle mode
+  function toggleShuffle() {
+    shuffleMode = !shuffleMode;
+    shuffleButton.classList.toggle('active', shuffleMode);
+    
+    if (shuffleMode) {
+      shufflePlaylist();
+      
+      // If not playing, start a random track
+      if (audioPlayer.paused && allTracks.length > 0) {
+        playRandomTrack();
+      }
+    } else {
+      // Reset to original order
+      shuffledTracks = [...allTracks];
+    }
+  }
+  
+  // Shuffle the playlist
+  function shufflePlaylist() {
+    shuffledTracks = [...allTracks];
+    for (let i = shuffledTracks.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffledTracks[i], shuffledTracks[j]] = [shuffledTracks[j], shuffledTracks[i]];
+    }
+  }
+  
+  // Play a random track
+  function playRandomTrack() {
+    if (allTracks.length === 0) return;
+    const randomIndex = Math.floor(Math.random() * allTracks.length);
+    playTrackById(allTracks[randomIndex].id);
+  }
+  
   // Function to play a track by ID
   function playTrackById(id) {
     currentTrackIndex = allTracks.findIndex(track => track.id === id);
@@ -73,36 +116,64 @@ document.addEventListener('DOMContentLoaded', function() {
     
     const trackPath = `/assets/static/music/${track.genre}/${track.title}.mp3`;
     audioPlayer.src = trackPath;
-    audioPlayer.play();
-    
-    // Update media session metadata
-    if ('mediaSession' in navigator) {
-      updateMediaSessionMetadata(track);
-    }
+    nowPlaying.textContent = track.title;
+
+    audioPlayer.play().then(() => {
+      if ('mediaSession' in navigator) {
+        updateMediaSessionMetadata(track);
+      }
+    });
+  }
   }
   
   // Function to play next track
   function playNextTrack() {
     if (allTracks.length === 0) return;
     
-    let nextIndex = currentTrackIndex + 1;
-    if (nextIndex >= allTracks.length) {
-      nextIndex = 0; // Loop back to the first track
+    if (shuffleMode) {
+      // Find current track in shuffled array
+      const currentTrack = allTracks[currentTrackIndex];
+      const shuffledIndex = shuffledTracks.findIndex(track => track.id === currentTrack.id);
+      
+      let nextIndex = shuffledIndex + 1;
+      if (nextIndex >= shuffledTracks.length) {
+        nextIndex = 0; // Loop back to the first track
+      }
+      
+      playTrackById(shuffledTracks[nextIndex].id);
+    } else {
+      let nextIndex = currentTrackIndex + 1;
+      if (nextIndex >= allTracks.length) {
+        nextIndex = 0; // Loop back to the first track
+      }
+      
+      playTrackById(allTracks[nextIndex].id);
     }
-    
-    playTrackById(allTracks[nextIndex].id);
   }
   
   // Function to play previous track
   function playPreviousTrack() {
     if (allTracks.length === 0) return;
     
-    let prevIndex = currentTrackIndex - 1;
-    if (prevIndex < 0) {
-      prevIndex = allTracks.length - 1; // Loop to the last track
+    if (shuffleMode) {
+      // Find current track in shuffled array
+      const currentTrack = allTracks[currentTrackIndex];
+      const shuffledIndex = shuffledTracks.findIndex(track => track.id === currentTrack.id);
+      
+      let prevIndex = shuffledIndex - 1;
+      if (prevIndex < 0) {
+        prevIndex = shuffledTracks.length - 1; // Loop to the last track
+      }
+      
+      playTrackById(shuffledTracks[prevIndex].id);
+    } else {
+      let prevIndex = currentTrackIndex - 1;
+      if (prevIndex < 0) {
+        prevIndex = allTracks.length - 1; // Loop to the last track
+      }
+      
+      playTrackById(allTracks[prevIndex].id);
     }
-    
-    playTrackById(allTracks[prevIndex].id);
   }
   
   // Setup Media Session API
