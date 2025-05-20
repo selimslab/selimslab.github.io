@@ -188,59 +188,92 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   
   function updateMediaSession(trackTitle) {
+    // First check if mediaSession is supported
     if (!('mediaSession' in navigator)) return;
     
-    const artworkPath = window.location.origin + '/assets/static/mw.jpeg';
+    const isIOSHomeScreen = window.navigator.standalone === true;
     
-    navigator.mediaSession.metadata = new MediaMetadata({
-      title: trackTitle,
-      artist: '', 
-      album: '', 
-      artwork: [
-        { src: artworkPath, sizes: '512x512', type: 'image/jpeg' }
-      ] 
-    });
-    
-    // Set up media session actions with direct function references
     try {
-      // Use functions that don't close over variables to avoid iOS issues
-      const prevHandler = () => playPrev();
-      const nextHandler = () => playNext();
-      const playHandler = () => audioElement.play();
-      const pauseHandler = () => audioElement.pause();
+      const artworkPath = window.location.origin + '/assets/static/mw.jpeg';
       
-      navigator.mediaSession.setActionHandler('previoustrack', prevHandler);
-      navigator.mediaSession.setActionHandler('nexttrack', nextHandler);
-      navigator.mediaSession.setActionHandler('play', playHandler);
-      navigator.mediaSession.setActionHandler('pause', pauseHandler);
-      
-      // Add seek handler for compatible browsers
-      navigator.mediaSession.setActionHandler('seekto', (details) => {
-        if (details.fastSeek && 'fastSeek' in audioElement) {
-          audioElement.fastSeek(details.seekTime);
-          return;
-        }
-        audioElement.currentTime = details.seekTime;
+      // Set metadata - works in most browsers
+      navigator.mediaSession.metadata = new MediaMetadata({
+        title: trackTitle,
+        artist: '', 
+        album: '', 
+        artwork: [
+          { src: artworkPath, sizes: '512x512', type: 'image/jpeg' }
+        ] 
       });
+      
+      // Clear any existing handlers first
+      const actionsToClear = ['previoustrack', 'nexttrack', 'play', 'pause', 'seekto'];
+      actionsToClear.forEach(action => {
+        try {
+          navigator.mediaSession.setActionHandler(action, null);
+        } catch (e) {
+          console.warn(`Error clearing media session handler for ${action}:`, e);
+        }
+      });
+      
+      // Setup new handlers
+      // Avoid setting handlers in iOS home screen mode as they're unreliable
+      if (!isIOSHomeScreen) { 
+        const mediaActionHandlers = [
+          { action: 'previoustrack', handler: playPrev },
+          { action: 'nexttrack', handler: playNext },
+          { action: 'play', handler: () => audioElement.play() },
+          { action: 'pause', handler: () => audioElement.pause() }
+        ];
+
+        // Conditionally add seekto handler if setPositionState is supported
+        if ('setPositionState' in navigator.mediaSession) {
+          mediaActionHandlers.push({
+            action: 'seekto',
+            handler: (details) => {
+              if (details.fastSeek && 'fastSeek' in audioElement) {
+                audioElement.fastSeek(details.seekTime);
+                return;
+              }
+              audioElement.currentTime = details.seekTime;
+            }
+          });
+        }
+
+        mediaActionHandlers.forEach(item => {
+          try {
+            navigator.mediaSession.setActionHandler(item.action, item.handler);
+          } catch (e) {
+            console.warn(`Error setting media session handler for ${item.action}:`, e);
+          }
+        });
+      }
       
       updatePositionState();
     } catch (e) {
-      console.error('Error setting media session handlers:', e);
+      console.warn('Error setting up media session:', e);
     }
   }
   
   function updatePositionState() {
-    // Update position state to enable proper seeking UI
-    if ('mediaSession' in navigator && 'setPositionState' in navigator.mediaSession) {
-      try {
-        navigator.mediaSession.setPositionState({
-          duration: audioElement.duration || 0,
-          playbackRate: audioElement.playbackRate,
-          position: audioElement.currentTime
-        });
-      } catch (e) {
-        console.error('Error updating position state:', e);
-      }
+    // Check if feature is supported before using
+    if (!('mediaSession' in navigator) || !('setPositionState' in navigator.mediaSession)) {
+      return;
+    }
+    
+    // Only update if audio element has a valid duration
+    if (!audioElement || !isFinite(audioElement.duration) || audioElement.duration <= 0) {
+      return;
+    }
+    
+    try {
+      navigator.mediaSession.setPositionState({
+        duration: audioElement.duration || 0,
+        playbackRate: audioElement.playbackRate || 1,
+        position: audioElement.currentTime || 0
+      });
+    } catch (e) {
+      console.warn('Error updating position state:', e);
     }
   }
   
@@ -263,11 +296,15 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   
   function handleTimeUpdate() {
-    // Update position state more frequently for iOS (every 250ms)
-    if (lastPositionUpdate && Date.now() - lastPositionUpdate < 250) return;
-    lastPositionUpdate = Date.now();
+    // Throttle position updates to reduce overhead
+    const now = Date.now();
+    if (lastPositionUpdate && now - lastPositionUpdate < 250) return;
+    lastPositionUpdate = now;
     
-    updatePositionState();
+    // Only attempt mediaSession updates if we're not in iOS home screen mode
+    if (!window.navigator.standalone) {
+      updatePositionState();
+    }
   }
   
   function handleDurationChange() {
@@ -342,13 +379,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // Clean up media session handlers
     if ('mediaSession' in navigator) {
       try {
+        navigator.mediaSession.metadata = null;
         navigator.mediaSession.setActionHandler('previoustrack', null);
         navigator.mediaSession.setActionHandler('nexttrack', null);
         navigator.mediaSession.setActionHandler('play', null);
         navigator.mediaSession.setActionHandler('pause', null);
         navigator.mediaSession.setActionHandler('seekto', null);
       } catch (e) {
-        console.error('Error cleaning up media session handlers:', e);
+        console.warn('Error cleaning up media session handlers:', e);
       }
     }
     
