@@ -11,9 +11,6 @@
 
 <div id="playlist"></div>
 
-<div id="queue"></div>
-
-
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   // DOM Elements
@@ -160,19 +157,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const fileName = encodeURIComponent(track.title + '.mp3');
     const path = `/assets/static/music/${track.genre.toLowerCase()}/${fileName}`;
     
-    // Reset existing handlers before setting new metadata
-    if ('mediaSession' in navigator) {
-      try {
-        navigator.mediaSession.setActionHandler('previoustrack', null);
-        navigator.mediaSession.setActionHandler('nexttrack', null);
-        navigator.mediaSession.setActionHandler('play', null);
-        navigator.mediaSession.setActionHandler('pause', null);
-        navigator.mediaSession.setActionHandler('seekto', null);
-      } catch (e) {
-        console.error('Error resetting media session handlers:', e);
-      }
-    }
-    
     // Update media session metadata before setting audio source
     updateMediaSession(track.title);
     
@@ -191,9 +175,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // First check if mediaSession is supported
     if (!('mediaSession' in navigator)) return;
     
-    const isIOSHomeScreen = window.navigator.standalone === true;
-    
     try {
+      clearMediaSessionActionHandlers();
+
       const artworkPath = window.location.origin + '/assets/static/mw.jpeg';
       
       // Set metadata - works in most browsers
@@ -205,54 +189,58 @@ document.addEventListener('DOMContentLoaded', () => {
           { src: artworkPath, sizes: '512x512', type: 'image/jpeg' }
         ] 
       });
-      
-      // Clear any existing handlers first
-      const actionsToClear = ['previoustrack', 'nexttrack', 'play', 'pause', 'seekto'];
-      actionsToClear.forEach(action => {
-        try {
-          navigator.mediaSession.setActionHandler(action, null);
-        } catch (e) {
-          console.warn(`Error clearing media session handler for ${action}:`, e);
-        }
-      });
-      
-      // Setup new handlers
-      // Avoid setting handlers in iOS home screen mode as they're unreliable
-      if (!isIOSHomeScreen) { 
-        const mediaActionHandlers = [
-          { action: 'previoustrack', handler: playPrev },
-          { action: 'nexttrack', handler: playNext },
-          { action: 'play', handler: () => audioElement.play() },
-          { action: 'pause', handler: () => audioElement.pause() }
-        ];
+            
+      setMediaSessionActionHandlers();
 
-        // Conditionally add seekto handler if setPositionState is supported
-        if ('setPositionState' in navigator.mediaSession) {
-          mediaActionHandlers.push({
-            action: 'seekto',
-            handler: (details) => {
-              if (details.fastSeek && 'fastSeek' in audioElement) {
-                audioElement.fastSeek(details.seekTime);
-                return;
-              }
-              audioElement.currentTime = details.seekTime;
-            }
-          });
-        }
-
-        mediaActionHandlers.forEach(item => {
-          try {
-            navigator.mediaSession.setActionHandler(item.action, item.handler);
-          } catch (e) {
-            console.warn(`Error setting media session handler for ${item.action}:`, e);
-          }
-        });
-      }
-      
       updatePositionState();
     } catch (e) {
       console.warn('Error setting up media session:', e);
     }
+  }
+
+  function clearMediaSessionActionHandlers() {
+    if (!('mediaSession' in navigator)) return;
+    const actionsToClear = ['previoustrack', 'nexttrack', 'play', 'pause', 'seekto'];
+    actionsToClear.forEach(action => {
+      try {
+        navigator.mediaSession.setActionHandler(action, null);
+      } catch (e) {
+        console.warn(`Error clearing media session handler for ${action}:`, e);
+      }
+    });
+  }
+
+  function setMediaSessionActionHandlers() {
+    if (!('mediaSession' in navigator)) return;
+
+    const mediaActionHandlers = [
+      { action: 'previoustrack', handler: playPrev },
+      { action: 'nexttrack', handler: playNext },
+      { action: 'play', handler: () => audioElement.play() },
+      { action: 'pause', handler: () => audioElement.pause() }
+    ];
+
+    // Conditionally add seekto handler if setPositionState is supported
+    if ('setPositionState' in navigator.mediaSession) {
+      mediaActionHandlers.push({
+        action: 'seekto',
+        handler: (details) => {
+          if (details.fastSeek && 'fastSeek' in audioElement) {
+            audioElement.fastSeek(details.seekTime);
+            return;
+          }
+          audioElement.currentTime = details.seekTime;
+        }
+      });
+    }
+
+    mediaActionHandlers.forEach(item => {
+      try {
+        navigator.mediaSession.setActionHandler(item.action, item.handler);
+      } catch (e) {
+        console.warn(`Error setting media session handler for ${item.action}:`, e);
+      }
+    });
   }
   
   function updatePositionState() {
@@ -376,40 +364,44 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   
   function cleanup() {
-    // Clean up media session handlers
-    if ('mediaSession' in navigator) {
-      try {
-        navigator.mediaSession.metadata = null;
-        navigator.mediaSession.setActionHandler('previoustrack', null);
-        navigator.mediaSession.setActionHandler('nexttrack', null);
-        navigator.mediaSession.setActionHandler('play', null);
-        navigator.mediaSession.setActionHandler('pause', null);
-        navigator.mediaSession.setActionHandler('seekto', null);
-      } catch (e) {
-        console.warn('Error cleaning up media session handlers:', e);
-      }
-    }
+    cleanupMediaSession();
+    removeAudioEventListeners();
+    removeButtonEventListeners();
+    removeTrackElementEventListeners();
     
-    // Remove all audio event listeners
+    // Remove window event listener
+    window.removeEventListener('beforeunload', cleanup);
+  }
+
+  function cleanupMediaSession() {
+    if (!('mediaSession' in navigator)) return;
+    try {
+      navigator.mediaSession.metadata = null;
+      clearMediaSessionActionHandlers(); // Reuse the existing helper
+    } catch (e) {
+      console.warn('Error cleaning up media session handlers:', e);
+    }
+  }
+
+  function removeAudioEventListeners() {
     audioElement.removeEventListener('ended', handleTrackEnd);
     audioElement.removeEventListener('error', handleError);
     audioElement.removeEventListener('pause', handlePause);
     audioElement.removeEventListener('play', handlePlay);
     audioElement.removeEventListener('timeupdate', handleTimeUpdate);
     audioElement.removeEventListener('durationchange', handleDurationChange);
-    
-    // Remove all button event listeners
+  }
+
+  function removeButtonEventListeners() {
     shuffleBtn.removeEventListener('click', toggleShuffle);
     prevBtn.removeEventListener('click', playPrev);
     nextBtn.removeEventListener('click', playNext);
-    
-    // Remove event listeners from track elements
+  }
+
+  function removeTrackElementEventListeners() {
     trackElements.forEach(item => {
       item.element.removeEventListener('click', item.handler);
     });
-    
-    // Remove window event listener
-    window.removeEventListener('beforeunload', cleanup);
   }
 });
 </script>
