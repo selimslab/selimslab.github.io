@@ -21,111 +21,145 @@
     const nextBtn = document.getElementById('next-button');
 
     let tracks = [];
-    let tracksById = {};
     let currentIndex = -1;
     let shuffleMode = false;
     let playHistory = [];
-    let historyIndex = -1;
-    let trackElements = [];
-    let isIOS = false;
-    init();
+    let historyPosition = -1;
 
-    async function init() {
-      try {
-        const data = await fetch('/assets/data/tracks.json').then(r => r.json());
-        processData(data);
-        setupUI(data);
-        setupEvents();
-      } catch (error) {
+    // Load tracks and setup player
+    fetch('/assets/data/tracks.json')
+      .then(response => response.json())
+      .then(data => {
+        setupPlayer(data);
+      })
+      .catch(error => {
         console.error('Player error:', error);
         playlistElement.innerHTML = '<p>Failed to load music.</p>';
-      }
-    }
+      });
 
-    function processData(data) {
+    function setupPlayer(data) {
+      // Process tracks
       tracks = [];
-      tracksById = {};
-
       Object.entries(data).forEach(([genre, genreTracks]) => {
         genreTracks.forEach(track => {
-          if (!track || !track.id || !track.title) return;
-
-          const trackWithGenre = { genre, id: track.id, title: track.title };
-          tracks.push(trackWithGenre);
-          tracksById[track.id] = trackWithGenre;
+          if (track?.id && track?.title) {
+            tracks.push({ genre, id: track.id, title: track.title });
+          }
         });
       });
+
+      // Build UI
+      buildPlaylist(data);
+      
+      // Setup event listeners
+      audioElement.addEventListener('ended', () => playTrack('next'));
+      shuffleBtn.addEventListener('click', () => {
+        shuffleMode = !shuffleMode;
+        shuffleBtn.classList.toggle('active', shuffleMode);
+        
+        // Auto-start playback if paused and shuffle enabled
+        if (shuffleMode && audioElement.paused && tracks.length > 0) {
+          playTrack('next');
+        }
+      });
+      
+      prevBtn.addEventListener('click', () => playTrack('prev'));
+      nextBtn.addEventListener('click', () => playTrack('next'));
     }
 
-    function setupUI(data) {
+    function buildPlaylist(data) {
       playlistElement.innerHTML = '';
-      trackElements = [];
-
+      
       Object.entries(data).forEach(([genre, genreTracks]) => {
+        if (!genreTracks.length) return;
+        
         const details = document.createElement('details');
-        details.className = 'genre-section';
-        details.open = false;
-
         const summary = document.createElement('summary');
-        summary.textContent = genre;
-        details.appendChild(summary);
-
         const tracksList = document.createElement('ul');
+        
+        details.className = 'genre-section';
+        summary.textContent = genre;
         tracksList.className = 'track-list';
-
+        
         genreTracks.forEach(track => {
-          if (!track || !track.id || !track.title) return;
-
+          if (!track?.id || !track?.title) return;
+          
           const li = document.createElement('li');
           li.textContent = track.title;
           li.className = 'track';
           li.dataset.id = track.id;
           li.dataset.genre = genre;
-
-          const handleTrackClick = () => playById(track.id);
-          li.addEventListener('click', handleTrackClick);
-
-          // Store reference to element and handler for cleanup
-          trackElements.push({
-            element: li,
-            handler: handleTrackClick,
-            id: track.id
-          });
-
+          li.addEventListener('click', () => playTrack('id', track.id));
+          
           tracksList.appendChild(li);
         });
-
+        
+        details.appendChild(summary);
         details.appendChild(tracksList);
         playlistElement.appendChild(details);
       });
     }
 
-    function setupEvents() {
-      audioElement.addEventListener('ended', () => playNext());
-      audioElement.addEventListener('error', (e) => {
-        console.warn('Audio error:', e);
-        playNext();
-      });
-
-      shuffleBtn.addEventListener('click', toggleShuffle);
-      prevBtn.addEventListener('click', playPrev);
-      nextBtn.addEventListener('click', playNext);
-    }
-
-    function playById(id) {
-      const index = tracks.findIndex(t => t.id === id);
-      if (index !== -1) {
-        // When directly selecting a track, clear future history
-        if (historyIndex < playHistory.length - 1) {
-          playHistory = playHistory.slice(0, historyIndex + 1);
-        }
-
-        playTrack(index);
+    function playTrack(command, trackId = null) {
+      if (!tracks.length) return;
+      
+      let newIndex = currentIndex;
+      let addToHistory = true;
+      
+      // Determine which track to play based on command
+      switch(command) {
+        case 'id':
+          // Find track by ID
+          newIndex = tracks.findIndex(t => t.id === trackId);
+          break;
+          
+        case 'next':
+          // Navigate forward in history or play new track
+          if (historyPosition < playHistory.length - 1) {
+            historyPosition++;
+            newIndex = playHistory[historyPosition];
+            addToHistory = false;
+          } else if (shuffleMode) {
+            // Random track in shuffle mode
+            newIndex = Math.floor(Math.random() * tracks.length);
+            // Avoid playing the same track twice
+            if (newIndex === currentIndex && tracks.length > 1) {
+              newIndex = (newIndex + 1) % tracks.length;
+            }
+          } else {
+            // Next track in sequence
+            newIndex = (currentIndex + 1) % tracks.length;
+          }
+          break;
+          
+        case 'prev':
+          // Navigate back in history or play previous track
+          if (historyPosition > 0) {
+            historyPosition--;
+            newIndex = playHistory[historyPosition];
+            addToHistory = false;
+          } else {
+            newIndex = (currentIndex - 1 + tracks.length) % tracks.length;
+          }
+          break;
       }
-    }
-
-    function updateTrackUI(track) {
-      // Update active track in UI
+      
+      if (newIndex === -1 || newIndex >= tracks.length) return;
+      
+      // Update history if needed
+      if (addToHistory) {
+        if (historyPosition < playHistory.length - 1) {
+          playHistory = playHistory.slice(0, historyPosition + 1);
+        }
+        playHistory.push(newIndex);
+        historyPosition = playHistory.length - 1;
+      }
+      
+      // Update current track and play
+      currentIndex = newIndex;
+      const track = tracks[currentIndex];
+      
+      // Update UI
       document.querySelectorAll('.track.active').forEach(t => t.classList.remove('active'));
       const trackEl = document.querySelector(`.track[data-id="${track.id}"]`);
       if (trackEl) {
@@ -133,96 +167,38 @@
         const parentDetails = trackEl.closest('details');
         if (parentDetails) parentDetails.open = true;
       }
-
+      
       nowPlayingElement.textContent = track.title;
-    }
-    
-    function playTrack(index, updateHistory = true) {
-      if (updateHistory) {
-        // Update history
-        currentIndex = index;
-        playHistory.push(index);
-        historyIndex = playHistory.length - 1;
-      } else {
-        // Just update current index without changing history
-        currentIndex = index;
-      }
       
-      const track = tracks[currentIndex];
-      if (!track) return;
-      
-      updateTrackUI(track);
-      
+      // Load and play audio
       const fileName = encodeURIComponent(track.title + '.mp3');
       const path = `/assets/static/music/${track.genre.toLowerCase()}/${fileName}`;
       
       audioElement.pause();
       audioElement.src = path;
       audioElement.play();
+      
+      // Update media session
+      updateMediaSession(track);
     }
+    
+    function updateMediaSession(track) {
+      if ('mediaSession' in navigator) {
+        navigator.mediaSession.metadata = new MediaMetadata({
+          title: track.title,
+          artist: "",
+          album: "",
+          artwork: [
+            { src: window.location.origin + "/assets/static/mw.jpeg", sizes: '512x512', type: 'image/jpeg' }
+          ]
+        });
 
-    function playNext() {
-      if (!tracks.length) return;
-
-      // Check if we're already navigating through history
-      if (historyIndex < playHistory.length - 1) {
-        // Move forward in history
-        historyIndex++;
-        currentIndex = playHistory[historyIndex];
-        
-        // Just update UI and play without changing history
-        playTrack(currentIndex, false);
-        return;
-      }
-
-      // Otherwise play the next track normally
-      let nextIndex;
-      if (shuffleMode) {
-        // Random track in shuffle mode
-        nextIndex = Math.floor(Math.random() * tracks.length);
-        // Avoid playing the same track twice
-        if (nextIndex === currentIndex && tracks.length > 1) {
-          nextIndex = (nextIndex + 1) % tracks.length;
-        }
-      } else {
-        // Next track in sequence
-        nextIndex = (currentIndex + 1) % tracks.length;
-      }
-
-      playTrack(nextIndex);
-    }
-
-    function playPrev() {
-      if (!tracks.length) return;
-
-      // If we have history and not at the beginning
-      if (historyIndex > 0) {
-        historyIndex--;
-        currentIndex = playHistory[historyIndex];
-        
-        // Just update UI and play without changing history
-        playTrack(currentIndex, false);
-        return;
-      }
-
-      // If at the start of history or no history, use the default behavior
-      const prevIndex = (currentIndex - 1 + tracks.length) % tracks.length;
-
-      playTrack(prevIndex);
-    }
-
-    function toggleShuffle() {
-      shuffleMode = !shuffleMode;
-      shuffleBtn.classList.toggle('active', shuffleMode);
-      shuffleBtn.setAttribute('aria-pressed', shuffleMode);
-
-      // Auto-start playback if paused and shuffle enabled
-      if (shuffleMode && audioElement.paused && tracks.length > 0) {
-        playNext();
+        navigator.mediaSession.setActionHandler('play', () => audioElement.play());
+        navigator.mediaSession.setActionHandler('pause', () => audioElement.pause());
+        navigator.mediaSession.setActionHandler('previoustrack', () => playTrack('prev'));
+        navigator.mediaSession.setActionHandler('nexttrack', () => playTrack('next'));
       }
     }
-
-
   });
 </script>
 
