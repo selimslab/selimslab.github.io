@@ -107,9 +107,9 @@
       audioElement.addEventListener('error', () => playNext());
       audioElement.addEventListener('pause', () => updateSession());
       audioElement.addEventListener('play', () => updateSession());
-      audioElement.addEventListener('timeupdate', () => updateSession());
-      audioElement.addEventListener('durationchange', () => updateSession());
-
+      audioElement.addEventListener('loadedmetadata', () => updatePositionState());
+      audioElement.addEventListener('timeupdate', () => updatePositionState());
+      
       // Button event listeners
       shuffleBtn.addEventListener('click', toggleShuffle);
       prevBtn.addEventListener('click', playPrev);
@@ -152,13 +152,8 @@
       const fileName = encodeURIComponent(track.title + '.mp3');
       const path = `/assets/static/music/${track.genre.toLowerCase()}/${fileName}`;
 
-      // Update media session metadata before setting audio source
-      updateMediaSession(track.title);
-
       audioElement.src = path;
-      audioElement.load(); // Explicitly load before playing
       audioElement.play().then(() => {
-        // Ensure metadata is updated after successful play
         updateMediaSession(track.title);
       }).catch(error => {
         console.error('Error playing track:', error);
@@ -166,24 +161,49 @@
       });
     }
 
+
+
+
     function updateMediaSession(trackTitle) {
       if (!('mediaSession' in navigator)) return;
 
       try {
-
         const artworkPath = window.location.origin + '/assets/static/mw.jpeg';
-
         navigator.mediaSession.metadata = new MediaMetadata({
           title: trackTitle,
-          artist: '',
-          album: '',
           artwork: [
-            { src: artworkPath, sizes: '512x512', type: 'image/jpeg' },
-            { src: artworkPath, sizes: '96x96', type: 'image/jpeg' }
+            { src: artworkPath, sizes: '512x512', type: 'image/jpeg' }
           ]
         });
 
-        setMediaSessionActionHandlers();
+        const play = () => audioElement.play();
+        const pause = () => audioElement.pause();
+        const seekto = (details) => {
+          if (details.fastSeek && 'fastSeek' in audioElement) {
+            audioElement.fastSeek(details.seekTime);
+            return;
+          }
+          audioElement.currentTime = details.seekTime;
+        }
+
+        const mediaActionHandlers = [
+          { action: 'previoustrack', handler: playPrev },
+          { action: 'nexttrack', handler: playNext },
+          { action: 'play', handler: play },
+          { action: 'pause', handler: pause }
+        ];
+
+        if ('setPositionState' in navigator.mediaSession) {
+          mediaActionHandlers.push({ action: 'seekto', handler: seekto });
+        }
+
+        mediaActionHandlers.forEach(item => {
+          try {
+            navigator.mediaSession.setActionHandler(item.action, item.handler);
+          } catch (e) {
+            console.warn(`Error setting media session handler for ${item.action}:`, e);
+          }
+        });
 
         updatePositionState();
       } catch (e) {
@@ -191,59 +211,16 @@
       }
     }
 
-    const play = () => audioElement.play();
-    const pause = () => audioElement.pause();
-    const seekto = (details) => {
-      if (details.fastSeek && 'fastSeek' in audioElement) {
-        audioElement.fastSeek(details.seekTime);
-        return;
-      }
-      audioElement.currentTime = details.seekTime;
-    }
-
-    function setMediaSessionActionHandlers() {
-      if (!('mediaSession' in navigator)) return;
-
-      const mediaActionHandlers = [
-        { action: 'previoustrack', handler: playPrev },
-        { action: 'nexttrack', handler: playNext },
-        { action: 'play', handler: play },
-        { action: 'pause', handler: pause }
-      ];
-
-      if ('setPositionState' in navigator.mediaSession) {
-        mediaActionHandlers.push({ action: 'seekto', handler: seekto });
-      }
-
-      mediaActionHandlers.forEach(item => {
-        try {
-          navigator.mediaSession.setActionHandler(item.action, item.handler);
-        } catch (e) {
-          console.warn(`Error setting media session handler for ${item.action}:`, e);
-        }
-      });
-    }
-
     function updatePositionState() {
-      // Check if feature is supported before using
-      if (!('mediaSession' in navigator) || !('setPositionState' in navigator.mediaSession)) {
-        return;
-      }
+      if (!('mediaSession' in navigator) || !('setPositionState' in navigator.mediaSession)) return;
 
-      // Only update if audio element has a valid duration
-      if (!audioElement || !isFinite(audioElement.duration) || audioElement.duration <= 0) {
-        return;
-      }
+      if (isNaN(audioElement.duration)) return;
 
-      try {
-        navigator.mediaSession.setPositionState({
-          duration: audioElement.duration || 0,
-          playbackRate: audioElement.playbackRate || 1,
-          position: audioElement.currentTime || 0
-        });
-      } catch (e) {
-        console.warn('Error updating position state:', e);
-      }
+      navigator.mediaSession.setPositionState({
+        duration: audioElement.duration || 0,
+        playbackRate: audioElement.playbackRate || 1,
+        position: audioElement.currentTime || 0
+      });
     }
 
     function updateHistoryAndPlay(index) {
