@@ -25,6 +25,7 @@
     let shuffleMode = false;
     let playHistory = [];
     let historyPosition = -1;
+    let lastUpdatedSecondForPosition = -1; // To track position updates
 
     // Load tracks and setup player
     fetch('/assets/data/tracks.json')
@@ -180,62 +181,44 @@
       const fileName = encodeURIComponent(track.title + '.mp3');
       const path = `/assets/static/music/${track.genre.toLowerCase()}/${fileName}`;
       
-      audioElement.pause();
       audioElement.src = path;
+      audioElement.load();
       
-      // Play after a short delay to ensure iOS has time to process media session updates
-      setTimeout(() => {
-        const playPromise = audioElement.play();
-        if (playPromise !== undefined) {
-          playPromise.catch(error => {
-            console.warn('Play prevented:', error);
-            // Retry once with user interaction (for iOS)
-            const userInteractionHandler = () => {
-              audioElement.play().catch(e => console.error('Final play attempt failed:', e));
-              document.removeEventListener('touchend', userInteractionHandler);
-            };
-            document.addEventListener('touchend', userInteractionHandler, { once: true });
-          });
-        }
-      }, 50);
-      
-      // Update media session
+      // Update media session first
       updateMediaSession(track);
+      
+      // Then try to play
+      audioElement.play().catch(error => {
+        console.warn('Play prevented:', error);
+        // For browsers requiring user interaction
+        const userInteractionHandler = () => {
+          audioElement.play().catch(e => console.error('Play attempt failed after user interaction:', e));
+          document.removeEventListener('click', userInteractionHandler);
+          document.removeEventListener('touchend', userInteractionHandler);
+        };
+        document.addEventListener('click', userInteractionHandler, { once: true });
+        document.addEventListener('touchend', userInteractionHandler, { once: true });
+      });
     }
     
-    // Debounce variables
-    let mediaSessionUpdateTimeout = null;
-    
     function updateMediaSession(track) {
-      // Clear any pending updates
-      if (mediaSessionUpdateTimeout) {
-        clearTimeout(mediaSessionUpdateTimeout);
-      }
+      if (!('mediaSession' in navigator)) return;
       
-      // Debounce MediaSession updates to prevent iOS issues
-      mediaSessionUpdateTimeout = setTimeout(() => {
-        if (!('mediaSession' in navigator) || !('MediaMetadata' in window)) return;
+      try {
+        navigator.mediaSession.metadata = new MediaMetadata({
+          title: track?.title,
+          artist: '',
+          album: '',
+          artwork: [
+            { src: window.location.origin + '/assets/static/mw.jpeg', sizes: '512x512', type: 'image/jpeg' }
+          ]
+        });
         
-        try {
-          const artworkPath = `/assets/static/mw.jpeg`;
-          const artworkUrl = window.location.origin + artworkPath;
-          
-          // Pre-load artwork to ensure it's available
-          const img = new Image();
-          img.src = artworkUrl;
-          
-          navigator.mediaSession.metadata = new MediaMetadata({
-            title: track?.title || 'Unknown Track',
-            artist: track?.artist || '',
-            album: track?.album || '',
-            artwork: [
-              { src: artworkUrl, sizes: '512x512', type: 'image/jpeg' }
-            ]
-          });
-        } catch (error) {
-          console.warn('MediaSession metadata update error:', error);
-        }
-      }, 100);
+        // Ensure action handlers are registered
+        setupMediaSessionActions();
+      } catch (error) {
+        console.warn('MediaSession metadata update error:', error);
+      }
     }
     
     function setupMediaSession() {
@@ -244,123 +227,130 @@
         return;
       }
       
+      // Initial setup of action handlers
+      setupMediaSessionActions();
+    }
+    
+    function setupMediaSessionActions() {
+      if (!('mediaSession' in navigator)) return;
+      
       // Define all possible media actions
-      const actionHandlers = {
-        play: () => {
-          try {
-            const playPromise = audioElement.play();
-            if (playPromise !== undefined) {
-              playPromise.catch(error => console.warn('MediaSession play action error:', error));
-            }
-          } catch (error) {
-            console.warn('MediaSession play action error:', error);
-          }
-        },
+      try {
+        navigator.mediaSession.setActionHandler('play', () => {
+          audioElement.play().catch(e => console.warn('MediaSession: Play action failed:', e));
+        });
         
-        pause: () => {
-          try {
-            audioElement.pause();
-          } catch (error) {
-            console.warn('MediaSession pause action error:', error);
-          }
-        },
+        navigator.mediaSession.setActionHandler('pause', () => {
+          audioElement.pause();
+        });
         
-        previoustrack: () => safeMediaAction('prev'),
-        nexttrack: () => safeMediaAction('next'),
+        navigator.mediaSession.setActionHandler('previoustrack', () => {
+          playTrack('prev');
+        });
+        
+        navigator.mediaSession.setActionHandler('nexttrack', () => {
+          playTrack('next');
+        });
         
         // Optional: add support for seeking
-        seekbackward: (details) => {
-          const skipTime = details.seekOffset || 10;
-          try {
+        if ('seekbackward' in navigator.mediaSession) {
+          navigator.mediaSession.setActionHandler('seekbackward', (details) => {
+            const skipTime = details.seekOffset || 10;
             audioElement.currentTime = Math.max(audioElement.currentTime - skipTime, 0);
-          } catch (error) {
-            console.warn('MediaSession seekbackward error:', error);
-          }
-        },
+          });
+        }
         
-        seekforward: (details) => {
-          const skipTime = details.seekOffset || 10;
-          try {
+        if ('seekforward' in navigator.mediaSession) {
+          navigator.mediaSession.setActionHandler('seekforward', (details) => {
+            const skipTime = details.seekOffset || 10;
             audioElement.currentTime = Math.min(
               audioElement.currentTime + skipTime, 
               audioElement.duration || Infinity
             );
-          } catch (error) {
-            console.warn('MediaSession seekforward error:', error);
-          }
+          });
         }
-      };
-      
-      // Register all available handlers
-      Object.entries(actionHandlers).forEach(([action, handler]) => {
-        try {
-          navigator.mediaSession.setActionHandler(action, handler);
-        } catch (error) {
-          console.info(`MediaSession ${action} action not supported`, error);
-        }
-      });
-    }
-    
-    // Safely handle media session actions with debouncing and error handling
-    function safeMediaAction(command) {
-      // Debounce for all browsers, not just iOS
-      const now = Date.now();
-      if (window.lastMediaAction && now - window.lastMediaAction < 300) {
-        return;
-      }
-      window.lastMediaAction = now;
-      
-      try {
-        playTrack(command);
       } catch (error) {
-        console.warn(`MediaSession ${command} action error:`, error);
+        console.warn('MediaSession: Failed to set action handlers:', error);
       }
     }
     
     function updateMediaSessionPlaybackState(state) {
       if (!('mediaSession' in navigator)) return;
-      
+
       try {
         navigator.mediaSession.playbackState = state;
+
+        // Update position state if supported and playing
+        if (state === 'playing') {
+          updateMediaSessionPositionState(); // Call the new dedicated function
+        }
       } catch (error) {
-        console.warn('MediaSession playback state update error:', error);
+        console.warn('MediaSession: Error updating playback state:', error);
       }
-      
-      // Update position state if supported
-      updatePositionState();
     }
-    
-    function updatePositionState() {
-      if (!('mediaSession' in navigator) || 
-          !navigator.mediaSession.setPositionState || 
-          !audioElement.duration) {
-        return;
-      }
-      
+
+    // New function to specifically update position state
+    function updateMediaSessionPositionState() {
+      if (!('mediaSession' in navigator) || !navigator.mediaSession.setPositionState) return;
+      if (!audioElement.duration || !isFinite(audioElement.duration)) return; // Avoid issues with NaN or Infinity
+
       try {
         navigator.mediaSession.setPositionState({
-          duration: audioElement.duration || 0,
-          playbackRate: audioElement.playbackRate || 1,
-          position: audioElement.currentTime || 0
+          duration: audioElement.duration,
+          playbackRate: audioElement.playbackRate,
+          position: audioElement.currentTime
         });
       } catch (error) {
-        console.info('MediaSession position state not supported', error);
+        console.warn('MediaSession: Error updating position state:', error);
       }
     }
-    
-    // Add periodic updates for position state and to handle
-    // cases where media session might have been reset
-    setInterval(() => {
+
+    // Refined timeupdate listener for MediaSession position state
+    audioElement.addEventListener('timeupdate', () => {
       if (audioElement.paused) return;
-      
-      // Periodically update position state
-      updatePositionState();
-      
-      // Ensure metadata is set if track is playing
-      if (currentIndex >= 0 && tracks[currentIndex]) {
-        updateMediaSession(tracks[currentIndex]);
+
+      const currentSecond = Math.floor(audioElement.currentTime);
+      // Update position state if the current second is a multiple of 5,
+      // and we haven't updated for this specific second yet.
+      if (currentSecond % 5 === 0 && currentSecond !== lastUpdatedSecondForPosition) {
+        updateMediaSessionPositionState(); // Directly update position
+        lastUpdatedSecondForPosition = currentSecond;
       }
-    }, 5000);
+    });
+
+    // Update MediaSession on duration change
+    audioElement.addEventListener('durationchange', () => {
+      // When duration changes (e.g., new track loaded), update position state
+      if (!audioElement.paused) {
+        updateMediaSessionPositionState();
+      }
+    });
+
+    // Update MediaSession when metadata is loaded
+    audioElement.addEventListener('loadedmetadata', () => {
+      // When metadata (including duration) is loaded, update position state
+      // This is important for the initial load of a track
+      updateMediaSessionPositionState();
+      // Also ensure playback state is correct if it was supposed to be playing
+      if (!audioElement.paused) {
+        updateMediaSessionPlaybackState('playing');
+      }
+    });
+
+    // Update MediaSession after seeking
+    audioElement.addEventListener('seeked', () => {
+      // After a seek operation, update the position state
+      updateMediaSessionPositionState();
+      // Also ensure playback state reflects current status
+      updateMediaSessionPlaybackState(audioElement.paused ? 'paused' : 'playing');
+    });
+
+    // Update MediaSession on playback rate change
+    audioElement.addEventListener('ratechange', () => {
+      if (!audioElement.paused) {
+        updateMediaSessionPositionState(); // Update position state on rate change
+      }
+    });
   });
 </script>
 
