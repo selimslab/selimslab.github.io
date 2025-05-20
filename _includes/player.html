@@ -10,200 +10,198 @@
 <div id="playlist"></div>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  const audioPlayer = document.getElementById('audio-player');
-  const nowPlaying = document.getElementById('now-playing');
-  const playlist = document.getElementById('playlist');
-  const shuffleButton = document.getElementById('shuffle-button');
-  
-  let allTracks = [];
-  let shuffledTracks = [];
-  let currentTrackIndex = -1;
-  let shuffleMode = false;
-  
-  // Load tracks from JSON file
-  fetch('/assets/data/tracks.json')
-    .then(response => response.json())
-    .then(data => {
-      // Create summary/detail elements for each genre
-      Object.entries(data).forEach(([genre, tracks]) => {
-        const details = document.createElement('details');
-        const summary = document.createElement('summary');
-        summary.textContent = genre;
-        details.appendChild(summary);
-        
-        // Create track list
-        const trackList = document.createElement('ul');
-        
-        tracks.forEach(track => {
-          // Add track to the flat list with genre info
-          allTracks.push({
-            ...track,
-            genre: genre
-          });
-          
-          const trackElement = document.createElement('li');
-          trackElement.classList.add('track');
-          trackElement.textContent = track.title;
-          trackElement.dataset.id = track.id;
-          
-          trackElement.addEventListener('click', function() {
-            playTrackById(track.id);
-          });
-          
-          trackList.appendChild(trackElement);
-        });
-        
-        details.appendChild(trackList);
-        playlist.appendChild(details);
-      });
-      
-      // Setup Media Session API if supported
-      if ('mediaSession' in navigator) {
-        setupMediaSession();
-      }
-      
-      // Initialize shuffled tracks array
-      shuffledTracks = [...allTracks];
-    })
-    .catch(error => console.error('Error loading track list:', error));
-    
-  // Shuffle button event listener
-  shuffleButton.addEventListener('click', toggleShuffle);
-  
-  // Toggle shuffle mode
-  function toggleShuffle() {
-    shuffleMode = !shuffleMode;
-    shuffleButton.classList.toggle('active', shuffleMode);
-    
-    if (shuffleMode) {
-      shufflePlaylist();
-      
-      // If not playing, start a random track
-      if (audioPlayer.paused && allTracks.length > 0) {
-        playRandomTrack();
-      }
-    } else {
-      // Reset to original order
-      shuffledTracks = [...allTracks];
-    }
-  }
-  
-  // Shuffle the playlist
-  function shufflePlaylist() {
-    shuffledTracks = [...allTracks];
-    for (let i = shuffledTracks.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [shuffledTracks[i], shuffledTracks[j]] = [shuffledTracks[j], shuffledTracks[i]];
-    }
-  }
-  
-  // Play a random track
-  function playRandomTrack() {
-    if (allTracks.length === 0) return;
-    const randomIndex = Math.floor(Math.random() * allTracks.length);
-    playTrackById(allTracks[randomIndex].id);
-  }
-  
-  // Function to play a track by ID
-  function playTrackById(id) {
-    currentTrackIndex = allTracks.findIndex(track => track.id === id);
-    if (currentTrackIndex === -1) return;
-    
-    const track = allTracks[currentTrackIndex];
-    document.querySelectorAll('.track').forEach(t => t.classList.remove('active'));
-    document.querySelector(`.track[data-id="${id}"]`).classList.add('active');
-    
-    const trackPath = `/assets/static/music/${track.genre}/${track.title}.mp3`;
-    audioPlayer.src = trackPath;
-    nowPlaying.textContent = track.title;
+  document.addEventListener('DOMContentLoaded', function () {
+    const audioPlayer = document.getElementById('audio-player');
+    const nowPlaying = document.getElementById('now-playing');
+    const playlist = document.getElementById('playlist');
+    const shuffleButton = document.getElementById('shuffle-button');
 
-    audioPlayer.play().then(() => {
+    let allTracks = [];
+    let shuffledTracks = [];
+    let currentTrackIndex = -1;
+    let shuffleMode = false;
+
+    // Load tracks from JSON file
+    fetch('/assets/data/tracks.json')
+      .then(response => response.json())
+      .then(data => {
+        // Create summary/detail elements for each genre
+        Object.entries(data).forEach(([genre, tracks]) => {
+          const details = document.createElement('details');
+          const summary = document.createElement('summary');
+          summary.textContent = genre;
+          details.appendChild(summary);
+
+          // Create track list
+          const trackList = document.createElement('ul');
+
+          tracks.forEach(track => {
+            // Add track to the flat list with genre info
+            allTracks.push({
+              ...track,
+              genre: genre
+            });
+
+            const trackElement = document.createElement('li');
+            trackElement.classList.add('track');
+            trackElement.textContent = track.title;
+            trackElement.dataset.id = track.id;
+
+            trackElement.addEventListener('click', function () {
+              playTrackById(track.id);
+            });
+
+            trackList.appendChild(trackElement);
+          });
+
+          details.appendChild(trackList);
+          playlist.appendChild(details);
+        });
+
+        // Setup Media Session API if supported
+        if ('mediaSession' in navigator) {
+          setupMediaSession();
+        }
+
+        // Initialize shuffled tracks array
+        shuffledTracks = [...allTracks];
+      })
+      .catch(error => console.error('Error loading track list:', error));
+
+    // Shuffle button event listener
+    shuffleButton.addEventListener('click', toggleShuffle);
+
+    // Toggle shuffle mode
+    function toggleShuffle() {
+      shuffleMode = !shuffleMode;
+      shuffleButton.classList.toggle('active', shuffleMode);
+
+      if (shuffleMode) {
+        shufflePlaylist();
+
+        // If not playing, start a random track
+        if (audioPlayer.paused && allTracks.length > 0) {
+          playRandomTrack();
+        }
+      } else {
+        // Reset to original order
+        shuffledTracks = [...allTracks];
+      }
+    }
+
+    // Shuffle the playlist
+    function shufflePlaylist() {
+      shuffledTracks = [...allTracks];
+      for (let i = shuffledTracks.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffledTracks[i], shuffledTracks[j]] = [shuffledTracks[j], shuffledTracks[i]];
+      }
+    }
+
+    // Play a random track
+    function playRandomTrack() {
+      if (allTracks.length === 0) return;
+      const randomIndex = Math.floor(Math.random() * allTracks.length);
+      playTrackById(allTracks[randomIndex].id);
+    }
+
+    // Function to play a track by ID
+    function playTrackById(id) {
+      currentTrackIndex = allTracks.findIndex(track => track.id === id);
+      if (currentTrackIndex === -1) return;
+
+      const track = allTracks[currentTrackIndex];
+      document.querySelectorAll('.track').forEach(t => t.classList.remove('active'));
+      document.querySelector(`.track[data-id="${id}"]`).classList.add('active');
+
+      const trackPath = `/assets/static/music/${track.genre}/${track.title}.mp3`;
+      audioPlayer.src = trackPath;
+      nowPlaying.textContent = track.title;
+
+      audioPlayer.play()
+
       if ('mediaSession' in navigator) {
         updateMediaSessionMetadata(track);
       }
-    });
-    
-  }
-  
-  // Function to play next track
-  function playNextTrack() {
-    if (allTracks.length === 0) return;
-    
-    if (shuffleMode) {
-      // Find current track in shuffled array
-      const currentTrack = allTracks[currentTrackIndex];
-      const shuffledIndex = shuffledTracks.findIndex(track => track.id === currentTrack.id);
-      
-      let nextIndex = shuffledIndex + 1;
-      if (nextIndex >= shuffledTracks.length) {
-        nextIndex = 0; // Loop back to the first track
-      }
-      
-      playTrackById(shuffledTracks[nextIndex].id);
-    } else {
-      let nextIndex = currentTrackIndex + 1;
-      if (nextIndex >= allTracks.length) {
-        nextIndex = 0; // Loop back to the first track
-      }
-      
-      playTrackById(allTracks[nextIndex].id);
+
     }
-  }
-  
-  // Function to play previous track
-  function playPreviousTrack() {
-    if (allTracks.length === 0) return;
-    
-    if (shuffleMode) {
-      // Find current track in shuffled array
-      const currentTrack = allTracks[currentTrackIndex];
-      const shuffledIndex = shuffledTracks.findIndex(track => track.id === currentTrack.id);
-      
-      let prevIndex = shuffledIndex - 1;
-      if (prevIndex < 0) {
-        prevIndex = shuffledTracks.length - 1; // Loop to the last track
+
+    // Function to play next track
+    function playNextTrack() {
+      if (allTracks.length === 0) return;
+
+      if (shuffleMode) {
+        // Find current track in shuffled array
+        const currentTrack = allTracks[currentTrackIndex];
+        const shuffledIndex = shuffledTracks.findIndex(track => track.id === currentTrack.id);
+
+        let nextIndex = shuffledIndex + 1;
+        if (nextIndex >= shuffledTracks.length) {
+          nextIndex = 0; // Loop back to the first track
+        }
+
+        playTrackById(shuffledTracks[nextIndex].id);
+      } else {
+        let nextIndex = currentTrackIndex + 1;
+        if (nextIndex >= allTracks.length) {
+          nextIndex = 0; // Loop back to the first track
+        }
+
+        playTrackById(allTracks[nextIndex].id);
       }
-      
-      playTrackById(shuffledTracks[prevIndex].id);
-    } else {
-      let prevIndex = currentTrackIndex - 1;
-      if (prevIndex < 0) {
-        prevIndex = allTracks.length - 1; // Loop to the last track
-      }
-      
-      playTrackById(allTracks[prevIndex].id);
     }
-  }
-  
-  // Setup Media Session API
-  function setupMediaSession() {
-    navigator.mediaSession.setActionHandler('previoustrack', playPreviousTrack);
-    navigator.mediaSession.setActionHandler('nexttrack', playNextTrack);
-    navigator.mediaSession.setActionHandler('seekto', function(details) {
-      if (details.seekTime !== undefined) {
-        audioPlayer.currentTime = details.seekTime;
+
+    // Function to play previous track
+    function playPreviousTrack() {
+      if (allTracks.length === 0) return;
+
+      if (shuffleMode) {
+        // Find current track in shuffled array
+        const currentTrack = allTracks[currentTrackIndex];
+        const shuffledIndex = shuffledTracks.findIndex(track => track.id === currentTrack.id);
+
+        let prevIndex = shuffledIndex - 1;
+        if (prevIndex < 0) {
+          prevIndex = shuffledTracks.length - 1; // Loop to the last track
+        }
+
+        playTrackById(shuffledTracks[prevIndex].id);
+      } else {
+        let prevIndex = currentTrackIndex - 1;
+        if (prevIndex < 0) {
+          prevIndex = allTracks.length - 1; // Loop to the last track
+        }
+
+        playTrackById(allTracks[prevIndex].id);
       }
-    });
-    
-    // Handle track ending
-    audioPlayer.addEventListener('ended', playNextTrack);
-  }
-  
-  // Update media session metadata
-  function updateMediaSessionMetadata(track) {
-    navigator.mediaSession.metadata = new MediaMetadata({
-      title: track.title,
-      artist: '',
-      album: '',
-      artwork: [{
-        src: window.location.origin + `/assets/static/mw.jpeg`,
-        sizes: '512x512',
-        type: 'image/jpeg'
-      }]
-    });
-  }
-});
+    }
+
+    // Setup Media Session API
+    function setupMediaSession() {
+      navigator.mediaSession.setActionHandler('previoustrack', playPreviousTrack);
+      navigator.mediaSession.setActionHandler('nexttrack', playNextTrack);
+      navigator.mediaSession.setActionHandler('seekto', function (details) {
+        if (details.seekTime !== undefined) {
+          audioPlayer.currentTime = details.seekTime;
+        }
+      });
+
+      // Handle track ending
+      audioPlayer.addEventListener('ended', playNextTrack);
+    }
+
+    // Update media session metadata
+    function updateMediaSessionMetadata(track) {
+      navigator.mediaSession.metadata = new MediaMetadata({
+        title: track.title,
+        artist: '',
+        album: '',
+        artwork: [{
+          src: window.location.origin + `/assets/static/mw.jpeg`
+        }]
+      });
+    }
+  });
 </script>
 
 <style>
