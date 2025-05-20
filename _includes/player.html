@@ -2,267 +2,55 @@
 <div class="audio-player">
   <div id="now-playing"></div>
   <audio id="audio-player" controls></audio>
-  <div class="player-controls">
-    <button id="prev-button" class="button">⏮</button>
-    <button id="shuffle-button" class="button">shuffle</button>
-    <button id="next-button" class="button">⏭</button>
-  </div>
 </div>
 
 <div id="playlist"></div>
 
 <script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const audioElement = document.getElementById('audio-player');
-    const nowPlayingElement = document.getElementById('now-playing');
-    const playlistElement = document.getElementById('playlist');
-    const shuffleBtn = document.getElementById('shuffle-button');
-    const prevBtn = document.getElementById('prev-button');
-    const nextBtn = document.getElementById('next-button');
-
-    let tracks = [];
-    let currentIndex = -1
-    let shuffleMode = false;
-    let playHistory = [];
-    let historyPosition = -1;
-
-    // Load tracks and setup player
-    fetch('/assets/data/tracks.json')
-      .then(response => response.json())
-      .then(data => {
-        setupPlayer(data);
-      })
-      .catch(error => {
-        console.error('Player error:', error);
-        playlistElement.innerHTML = '<p>Failed to load music.</p>';
-      });
-
-    function setupPlayer(data) {
-      // Process tracks
-      tracks = [];
-      Object.entries(data).forEach(([genre, genreTracks]) => {
-        genreTracks.forEach(track => {
-          if (track?.id && track?.title) {
-            tracks.push({ genre, id: track.id, title: track.title });
-          }
-        });
-      });
-
-      // Build UI
-      buildPlaylist(data);
-      
-      // Setup event listeners
-      audioElement.addEventListener('ended', () => playTrack('next'));
-      
-      shuffleBtn.addEventListener('click', () => {
-        shuffleMode = !shuffleMode;
-        shuffleBtn.classList.toggle('active', shuffleMode);
-        
-        // Auto-start playback if paused and shuffle enabled
-        if (shuffleMode && audioElement.paused && tracks.length > 0) {
-          playTrack('next');
-        }
-      });
-      
-      prevBtn.addEventListener('click', () => playTrack('prev'));
-      nextBtn.addEventListener('click', () => playTrack('next'));
-    }
-
-    function buildPlaylist(data) {
-      playlistElement.innerHTML = '';
-      
-      Object.entries(data).forEach(([genre, genreTracks]) => {
-        if (!genreTracks.length) return;
-        
+document.addEventListener('DOMContentLoaded', function() {
+  const audioPlayer = document.getElementById('audio-player');
+  const nowPlaying = document.getElementById('now-playing');
+  const playlist = document.getElementById('playlist');
+  
+  // Load tracks from JSON file
+  fetch('/assets/data/tracks.json')
+    .then(response => response.json())
+    .then(data => {
+      // Create summary/detail elements for each genre
+      Object.entries(data).forEach(([genre, tracks]) => {
         const details = document.createElement('details');
         const summary = document.createElement('summary');
-        const tracksList = document.createElement('ul');
-        
-        details.className = 'genre-section';
         summary.textContent = genre;
-        tracksList.className = 'track-list';
+        details.appendChild(summary);
         
-        genreTracks.forEach(track => {
-          if (!track?.id || !track?.title) return;
+        // Create track list
+        const trackList = document.createElement('ul');
+        
+        tracks.forEach(track => {
+          const trackElement = document.createElement('li');
+          trackElement.classList.add('track');
+          trackElement.textContent = track.title;
+          trackElement.dataset.id = track.id;
           
-          const li = document.createElement('li');
-          li.textContent = track.title;
-          li.className = 'track';
-          li.dataset.id = track.id;
-          li.dataset.genre = genre;
-          li.addEventListener('click', () => playTrack('id', track.id));
+          trackElement.addEventListener('click', function() {
+            document.querySelectorAll('.track').forEach(t => t.classList.remove('active'));
+            this.classList.add('active');
+            
+            const trackPath = `/assets/static/music/${genre}/${track.title}.mp3`;
+            audioPlayer.src = trackPath;
+            nowPlaying.textContent = track.title;
+            audioPlayer.play();
+          });
           
-          tracksList.appendChild(li);
+          trackList.appendChild(trackElement);
         });
         
-        details.appendChild(summary);
-        details.appendChild(tracksList);
-        playlistElement.appendChild(details);
+        details.appendChild(trackList);
+        playlist.appendChild(details);
       });
-    }
-
-    function playTrack(command, trackId = null) {
-      if (!tracks.length) return;
-      
-      let newIndex = currentIndex;
-      let addToHistory = true;
-      
-      // Determine which track to play based on command
-      switch(command) {
-        case 'id':
-          // Find track by ID
-          newIndex = tracks.findIndex(t => t.id === trackId);
-          break;
-          
-        case 'next':
-          // Navigate forward in history or play new track
-          if (historyPosition < playHistory.length - 1) {
-            historyPosition++;
-            newIndex = playHistory[historyPosition];
-            addToHistory = false;
-          } else if (shuffleMode) {
-            // Random track in shuffle mode
-            newIndex = Math.floor(Math.random() * tracks.length);
-            // Avoid playing the same track twice
-            if (newIndex === currentIndex && tracks.length > 1) {
-              newIndex = (newIndex + 1) % tracks.length;
-            }
-          } else {
-            // Next track in sequence
-            newIndex = (currentIndex + 1) % tracks.length;
-          }
-          break;
-          
-        case 'prev':
-          // Navigate back in history or play previous track
-          if (historyPosition > 0) {
-            historyPosition--;
-            newIndex = playHistory[historyPosition];
-            addToHistory = false;
-          } else {
-            newIndex = (currentIndex - 1 + tracks.length) % tracks.length;
-          }
-          break;
-      }
-      
-      if (newIndex === -1 || newIndex >= tracks.length) return;
-      
-      // Update history if needed
-      if (addToHistory) {
-        if (historyPosition < playHistory.length - 1) {
-          playHistory = playHistory.slice(0, historyPosition + 1);
-        }
-        playHistory.push(newIndex);
-        historyPosition = playHistory.length - 1;
-      }
-      
-      // Update current track and play
-      currentIndex = newIndex;
-      const track = tracks[currentIndex];
-      
-      // Update UI
-      document.querySelectorAll('.track.active').forEach(t => t.classList.remove('active'));
-      const trackEl = document.querySelector(`.track[data-id="${track.id}"]`);
-      if (trackEl) {
-        trackEl.classList.add('active');
-        const parentDetails = trackEl.closest('details');
-        if (parentDetails) parentDetails.open = true;
-      }
-      
-      nowPlayingElement.textContent = track.title;
-      
-      // Load and play audio
-      const fileName = encodeURIComponent(track.title + '.mp3');
-      const path = `/assets/static/music/${track.genre.toLowerCase()}/${fileName}`;
-      
-      audioElement.src = path;
-      audioElement.load();
-      
-      // Try to play
-      audioElement.play().catch(error => {
-        console.warn('Play prevented:', error);
-        
-        // For browsers requiring user interaction
-        const userInteractionHandler = () => {
-          audioElement.play()
-            .catch(e => {
-              console.error('Play attempt failed after user interaction:', e);
-            });
-          document.removeEventListener('click', userInteractionHandler);
-          document.removeEventListener('touchend', userInteractionHandler);
-        };
-        document.addEventListener('click', userInteractionHandler, { once: true });
-        document.addEventListener('touchend', userInteractionHandler, { once: true });
-      });
-    }
-
-    function setMediaSession() {
-      if (!navigator.mediaSession) return;
-      
-      // Get current track
-      if (currentIndex < 0 || !tracks[currentIndex]) return;
-      const track = tracks[currentIndex];
-      
-      // Set metadata
-      navigator.mediaSession.metadata = new MediaMetadata({
-        title: track.title,
-        artist: '',
-        album: '',
-        artwork: [
-          { src: '/assets/static/primes.png', sizes: '512x512', type: 'image/png' }
-        ]
-      });
-      
-      // Set handlers for media controls
-      navigator.mediaSession.setActionHandler('play', () => {
-        audioElement.play();
-      });
-      
-      navigator.mediaSession.setActionHandler('pause', () => {
-        audioElement.pause();
-      });
-      
-      navigator.mediaSession.setActionHandler('stop', () => {
-        audioElement.pause();
-        audioElement.currentTime = 0;
-      });
-      
-      navigator.mediaSession.setActionHandler('previoustrack', () => {
-        playTrack('prev');
-      });
-      
-      navigator.mediaSession.setActionHandler('nexttrack', () => {
-        playTrack('next');
-      });
-      
-      // Update playback state
-      navigator.mediaSession.playbackState = audioElement.paused ? "paused" : "playing";
-    }
-    
-    // Update position state regularly
-    setInterval(() => {
-      if (!audioElement || audioElement.paused) return;
-      if (!navigator.mediaSession) return;
-      if (!isFinite(audioElement.duration) || audioElement.duration <= 0) return;
-      
-      navigator.mediaSession.setPositionState({
-        duration: audioElement.duration,
-        playbackRate: audioElement.playbackRate,
-        position: audioElement.currentTime
-      });
-    }, 300);
-    
-    // Update media session when play state changes
-    audioElement.addEventListener('play', setMediaSession);
-    audioElement.addEventListener('pause', () => {
-      if (navigator.mediaSession) {
-        navigator.mediaSession.playbackState = "paused";
-      }
-    });
-    
-    // Also update MediaSession when a new track is loaded
-    audioElement.addEventListener('loadedmetadata', setMediaSession);
-  });
+    })
+    .catch(error => console.error('Error loading track list:', error));
+});
 </script>
 
 <style>
