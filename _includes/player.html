@@ -106,24 +106,23 @@ document.addEventListener('DOMContentLoaded', () => {
   
   function setupEvents() {
     // Audio event listeners
-    audioElement.addEventListener('ended', handleTrackEnd);
-    audioElement.addEventListener('error', handleError);
-    audioElement.addEventListener('pause', handlePause);
-    audioElement.addEventListener('play', handlePlay);
-    audioElement.addEventListener('timeupdate', handleTimeUpdate);
-    audioElement.addEventListener('durationchange', handleDurationChange);
+    const updateSession = () => updateMediaSession(tracks[currentIndex]?.title)
+
+    audioElement.addEventListener('ended', () => playNext());
+    audioElement.addEventListener('error', () => playNext());
+    audioElement.addEventListener('pause', () => updateSession());
+    audioElement.addEventListener('play', () => updateSession());
+    audioElement.addEventListener('timeupdate', () => updateSession());
+    audioElement.addEventListener('durationchange', () => updateSession());
     
     // Button event listeners
     shuffleBtn.addEventListener('click', toggleShuffle);
     prevBtn.addEventListener('click', playPrev);
     nextBtn.addEventListener('click', playNext);
     
-    // call setMediaSessionActionHandlers every second
-    setInterval(setMediaSessionActionHandlers, 1000);
   }
   
-  const play = () => audioElement.play();
-  const pause = () => audioElement.pause();
+
 
   function playById(id) {
     const index = tracks.findIndex(t => t.id === id);
@@ -150,8 +149,6 @@ document.addEventListener('DOMContentLoaded', () => {
     nowPlayingElement.textContent = track.title;
   }
 
-
-  
   function loadTrack() {
     const track = tracks[currentIndex];
     if (!track) return;
@@ -202,6 +199,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
+  const play = () => audioElement.play();
+  const pause = () => audioElement.pause();
 
   function setMediaSessionActionHandlers() {
     if (!('mediaSession' in navigator)) return;
@@ -256,35 +255,6 @@ document.addEventListener('DOMContentLoaded', () => {
     } catch (e) {
       console.warn('Error updating position state:', e);
     }
-  }
-  
-  // Event handlers
-  function handleTrackEnd() {
-    playNext();
-  }
-  
-  function handleError() {
-    console.error('Audio error:', audioElement.error);
-    playNext();
-  }
-  
-  function handlePause() {
-    updateMediaSession(tracks[currentIndex]?.title);
-  }
-  
-  function handlePlay() {
-    updateMediaSession(tracks[currentIndex]?.title);
-  }
-  
-  function handleTimeUpdate() {
-    const now = Date.now();
-    if (lastPositionUpdate && now - lastPositionUpdate < 500) return;
-    lastPositionUpdate = now;
-    updatePositionState();
-  }
-  
-  function handleDurationChange() {
-    updatePositionState();
   }
   
   function updateHistoryAndPlay(index) {
