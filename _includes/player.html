@@ -86,9 +86,9 @@
       const trackPath = `/assets/static/music/${track.genre}/${track.title}.mp3`;
       audioPlayer.src = trackPath;
       audioPlayer.load();
-      audioPlayer.addEventListener('canplaythrough', () => {
-        nowPlaying.textContent = track.title;
-        updateMediaSessionMetadata(track);
+      nowPlaying.textContent = track.title;
+      updateMediaSessionMetadata(track);
+      audioPlayer.addEventListener('canplay', () => {
         audioPlayer.play();
       }, { once: true });
     }
