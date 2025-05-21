@@ -74,9 +74,8 @@ document.addEventListener('DOMContentLoaded', function() {
     audioPlayer.src = trackPath;
     nowPlaying.textContent = track.title;
     audioPlayer.load();
-    audioPlayer.play().then(() => {
-      updateMediaSessionMetadata(track);
-    });
+    updateMediaSessionMetadata(track);
+    audioPlayer.play()
   }
   
   // Function to play next track
@@ -121,6 +120,8 @@ document.addEventListener('DOMContentLoaded', function() {
   function updateMediaSessionMetadata(track) {
     if (!('mediaSession' in navigator)) return;
 
+    setupMediaSession();
+
     navigator.mediaSession.metadata = new MediaMetadata({
       title: track?.title,
       artist: '',
@@ -132,7 +133,6 @@ document.addEventListener('DOMContentLoaded', function() {
       }]
     });
 
-    setupMediaSession();
   }
 });
 </script>
