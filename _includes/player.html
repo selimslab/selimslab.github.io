@@ -3,6 +3,7 @@
   <div id="now-playing"></div>
   <audio id="audio-player" controls></audio>
   <div class="player-controls">
+    <button id="shuffle-button" class="button">Shuffle</button>
   </div>
 </div>
 
@@ -16,6 +17,7 @@
 
     let allTracks = [];
     let currentTrackIndex = -1;
+    let shuffleMode = false;
 
     fetch('/assets/data/tracks.json')
       .then(response => response.json())
@@ -87,9 +89,10 @@
       nowPlaying.textContent = track.title;
       updateMediaSessionMetadata(track);
       audioPlayer.src = trackPath;
-      audioPlayer.load();
+      // audioPlayer.load();
+      audioPlayer.play();
       audioPlayer.addEventListener('canplay', () => {
-        audioPlayer.play();
+        
       }, { once: true });
     }
 
@@ -97,9 +100,18 @@
     function playNextTrack() {
       if (allTracks.length === 0) return;
 
-      let nextIndex = currentTrackIndex + 1;
-      if (nextIndex >= allTracks.length) {
-        nextIndex = 0; // Loop back to the first track
+      let nextIndex;
+      if (shuffleMode) {
+        // Pick a random track different from the current one
+        do {
+          nextIndex = Math.floor(Math.random() * allTracks.length);
+        } while (nextIndex === currentTrackIndex && allTracks.length > 1);
+      } else {
+        // Sequential mode
+        nextIndex = currentTrackIndex + 1;
+        if (nextIndex >= allTracks.length) {
+          nextIndex = 0; // Loop back to the first track
+        }
       }
 
       playTrackById(allTracks[nextIndex].id);
@@ -127,6 +139,16 @@
         }
       });
     }
+
+    // Setup shuffle button
+    const shuffleButton = document.getElementById('shuffle-button');
+    shuffleButton.addEventListener('click', function() {
+      shuffleMode = !shuffleMode;
+      this.classList.toggle('active', shuffleMode);
+      if (shuffleMode && !audioPlayer.src ) {
+        playNextTrack();
+      }
+    });
 
     function updateMediaSessionMetadata(track) {
       if (!('mediaSession' in navigator)) return;
