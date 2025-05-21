@@ -89,11 +89,7 @@
       nowPlaying.textContent = track.title;
       updateMediaSessionMetadata(track);
       audioPlayer.src = trackPath;
-      // audioPlayer.load();
       audioPlayer.play();
-      audioPlayer.addEventListener('canplay', () => {
-        
-      }, { once: true });
     }
 
 
