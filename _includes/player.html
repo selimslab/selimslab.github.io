@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
   function buildMusicLibrary(musicData) {
     organizeTracksByGenre(musicData);
     setupMediaSession();
+    audioPlayer.addEventListener('ended', playNextTrack);
   }
   
   function organizeTracksByGenre(musicData) {
@@ -85,23 +86,19 @@ document.addEventListener('DOMContentLoaded', function() {
     if (currentTrackIndex === -1) return;
     
     const track = allTracks[currentTrackIndex];
-    updateActiveTrackIndicator(id);
-    loadTrackAudio(track);
-    nowPlaying.textContent = title;
+    document.querySelectorAll('.track').forEach(t => t.classList.remove('active'));
+    document.querySelector(`.track[data-id="${id}"]`).classList.add('active');
+    const trackPath = `/assets/static/music/${track.genre}/${track.title}.mp3`;
+    audioPlayer.src = trackPath;
+    audioPlayer.load();
+    nowPlaying.textContent = track.title;
     updateMediaSessionMetadata(track);
     audioPlayer.play();
   }
   
-  function updateActiveTrackIndicator(id) {
-    document.querySelectorAll('.track').forEach(t => t.classList.remove('active'));
-    document.querySelector(`.track[data-id="${id}"]`).classList.add('active');
-  }
+
   
-  function loadTrackAudio(track) {
-    const trackPath = `/assets/static/music/${track.genre}/${track.title}.mp3`;
-    audioPlayer.src = trackPath;
-    audioPlayer.load();
-  }
+
   
   function playNextTrack() {
     if (allTracks.length === 0) return;
@@ -134,10 +131,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (details.seekTime !== undefined) {
         audioPlayer.currentTime = details.seekTime;
       }
-    });
-    
-    // Handle track ending
-    audioPlayer.addEventListener('ended', playNextTrack);
+    });    
   }
   
   function updateMediaSessionMetadata(track) {
