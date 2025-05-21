@@ -130,17 +130,23 @@
     function updateMediaSessionMetadata(track) {
       if (!('mediaSession' in navigator)) return;
 
-      navigator.mediaSession.metadata = new MediaMetadata({
-        title: track?.title,
-        artist: '',
-        album: '',
-        artwork: [{
+      if (!navigator.mediaSession.metadata) {
+        navigator.mediaSession.metadata = new MediaMetadata({
+          title: track?.title,
+          artist: '',
+          album: '',
+          artwork: [{
           src: window.location.origin + `/assets/static/primes.png`,
           sizes: '512x512',
           type: 'image/png'
         }]
       });
+      } else {
+        navigator.mediaSession.metadata.title = track?.title;
+      }
+      setupMediaSession();
     }
+
   });
 </script>
 
