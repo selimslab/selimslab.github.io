@@ -18,8 +18,7 @@
     let allTracks = [];
     let currentTrackIndex = shuffleIndex = -1;
     let shuffleMode = false;
-    let shuffledDeck = [];
-    let isMediaSetup = false;
+    let shuffledIds = [];
 
     fetch('/assets/data/tracks.json')
       .then(response => response.json())
@@ -28,9 +27,9 @@
 
     function buildMusicLibrary(musicData) {
       organizeTracksByGenre(musicData);
-      shuffledDeck = [...allTracks];
-      fisherYatesShuffle(shuffledDeck);
-      setupMediaSession();
+      shuffledIds = allTracks.map(track => track.id);
+      fisherYatesShuffle(shuffledIds);
+      clearMediaSession();
       updateMediaSessionMetadata(null);
       audioPlayer.addEventListener('ended', playNextTrack);
       const shuffleButton = document.getElementById('shuffle-button');
@@ -39,6 +38,9 @@
         this.classList.toggle('active', shuffleMode);
         if (shuffleMode && !audioPlayer.src) {
           playNextTrack();
+        }
+        if (!shuffleMode){
+          currentTrackIndex = allTracks.findIndex(t => t.id === shuffledIds[shuffleIndex])
         }
       });
 
@@ -85,14 +87,15 @@
       trackElement.dataset.id = track.id;
 
       trackElement.addEventListener('click', function () {
-        play(track);
+        currentTrackIndex = allTracks.findIndex(t => t.id === track.id)
+        play(track.id);
       });
 
       return trackElement;
     }
 
-    function play(track) {
-
+    function play(trackId) {
+      track = allTracks.find(t => t.id === trackId)
       nowPlaying.textContent = track.title;
       updateMediaSessionMetadata(track);
 
@@ -103,9 +106,7 @@
       audioPlayer.pause();
       audioPlayer.src = trackPath;
       audioPlayer.play();
-      if (navigator.mediaSession.metadata.title != track.title) {
-        updateMediaSessionMetadata(track);
-      }
+      updateMediaSessionMetadata(track);
     }
 
     const fisherYatesShuffle = (array) => {
@@ -120,12 +121,11 @@
 
       if (shuffleMode) {
         shuffleIndex = (shuffleIndex + 1) % allTracks.length;
-        play(shuffledDeck[shuffleIndex]);
+        play(shuffledIds[shuffleIndex]);
       } else {
         currentTrackIndex = (currentTrackIndex + 1) % allTracks.length;
-        play(allTracks[currentTrackIndex]);
+        play(allTracks[currentTrackIndex].id);
       }
-
     }
 
     function playPreviousTrack() {
@@ -133,20 +133,23 @@
 
       if (shuffleMode) {
         shuffleIndex = (shuffleIndex - 1 + allTracks.length) % allTracks.length
-        play(shuffledDeck[shuffleIndex]);
+        play(shuffledIds[shuffleIndex]);
       } else {
         currentTrackIndex = (currentTrackIndex - 1 + allTracks.length) % allTracks.length
-        play(allTracks[currentTrackIndex]);
+        play(allTracks[currentTrackIndex].id);
       }
 
     }
 
-    function setupMediaSession() {
+    function clearMediaSession() {
       if (!('mediaSession' in navigator)) return;
       navigator.mediaSession.setActionHandler('previoustrack', null);
       navigator.mediaSession.setActionHandler('nexttrack', null);
       navigator.mediaSession.setActionHandler('seekto', null);
-
+    } 
+    
+    function setupMediaSession() {
+      if (!('mediaSession' in navigator)) return;
       navigator.mediaSession.setActionHandler('previoustrack', playPreviousTrack);
       navigator.mediaSession.setActionHandler('nexttrack', playNextTrack);
       navigator.mediaSession.setActionHandler('seekto', function (details) {
@@ -154,8 +157,6 @@
           audioPlayer.currentTime = details.seekTime;
         }
       });
-
-      isMediaSetup = true;
     }
 
     function updateMediaSessionMetadata(track) {
@@ -172,16 +173,9 @@
         }]
       }
 
-      if (!navigator.mediaSession.metadata) {
-        navigator.mediaSession.metadata = new MediaMetadata(metadata);
-      } else {
-        navigator.mediaSession.metadata.title = track?.title;
-      }
+      navigator.mediaSession.metadata = new MediaMetadata(metadata);
 
-      if (!isMediaSetup) {
-        setupMediaSession()
-      }
-
+      setupMediaSession()      
     }
 
   });
