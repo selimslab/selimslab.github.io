@@ -19,7 +19,6 @@
     let currentTrackIndex = shuffleIndex = -1;
     let shuffleMode = false;
     let shuffledDeck = [];
-    let isMediaSetup = false;
 
     fetch('/assets/data/tracks.json')
       .then(response => response.json())
@@ -30,9 +29,18 @@
       organizeTracksByGenre(musicData);
       shuffledDeck = [...allTracks]
       fisherYatesShuffle(shuffledDeck)
-      setupMediaSession();
-      updateMediaSessionMetadata();
+      updateMediaSessionMetadata(null);
+
       audioPlayer.addEventListener('ended', playNextTrack);
+      const shuffleButton = document.getElementById('shuffle-button');
+      shuffleButton.addEventListener('click', function () {
+        shuffleMode = !shuffleMode
+        this.classList.toggle('active', shuffleMode);
+        if (shuffleMode && !audioPlayer.src) {
+          playNextTrack();
+        }
+      });
+
     }
 
     function organizeTracksByGenre(musicData) {
@@ -91,6 +99,7 @@
       document.querySelector(`.track[data-id="${track.id}"]`).classList.add('active');
 
       const trackPath = `/assets/static/music/${track.genre}/${track.title}.mp3`;
+      audioPlayer.pause();
       audioPlayer.src = trackPath;
       audioPlayer.play();
       updateMediaSessionMetadata(track);
@@ -107,10 +116,10 @@
       if (allTracks.length === 0) return;
 
       if (shuffleMode) {
-        shuffleIndex = (shuffleIndex + 1) % allTracks.length
+        shuffleIndex = (shuffleIndex + 1) % allTracks.length;
         play(shuffledDeck[shuffleIndex]);
       } else {
-        currentTrackIndex = (currentTrackIndex + 1) % allTracks.length
+        currentTrackIndex = (currentTrackIndex + 1) % allTracks.length;
         play(allTracks[currentTrackIndex]);
       }
 
@@ -131,6 +140,10 @@
 
     function setupMediaSession() {
       if (!('mediaSession' in navigator)) return;
+      navigator.mediaSession.setActionHandler('previoustrack', null);
+      navigator.mediaSession.setActionHandler('nexttrack', null);
+      navigator.mediaSession.setActionHandler('seekto', null);
+
       navigator.mediaSession.setActionHandler('previoustrack', playPreviousTrack);
       navigator.mediaSession.setActionHandler('nexttrack', playNextTrack);
       navigator.mediaSession.setActionHandler('seekto', function (details) {
@@ -138,41 +151,25 @@
           audioPlayer.currentTime = details.seekTime;
         }
       });
-      isMediaSetup = true;
     }
-
-    const shuffleButton = document.getElementById('shuffle-button');
-    shuffleButton.addEventListener('click', function () {
-      shuffleMode = !shuffleMode
-      this.classList.toggle('active', shuffleMode);
-      if (shuffleMode && !audioPlayer.src) {
-        playNextTrack();
-      }
-    });
-
 
     function updateMediaSessionMetadata(track) {
       if (!('mediaSession' in navigator)) return;
-      if (!isMediaSetup){
-        setupMediaSession()
-      }
-      if (!navigator.mediaSession.metadata) {
-        const metadata = {
-          title: track?.title || '',
-          artist: '',
-          album: '',
-          artwork: [{
-            src: window.location.origin + `/assets/static/primes.png`,
-            sizes: '512x512',
-            type: 'image/png'
-          }]
-        }
 
-        navigator.mediaSession.metadata = new MediaMetadata(metadata);
+      const metadata = {
+        title: track?.title || '',
+        artist: '',
+        album: '',
+        artwork: [{
+          src: window.location.origin + `/assets/static/primes.png`,
+          sizes: '512x512',
+          type: 'image/png'
+        }]
       }
 
-      navigator.mediaSession.metadata.title = track?.title;
-      
+      navigator.mediaSession.metadata = new MediaMetadata(metadata);
+      setupMediaSession()
+
     }
 
   });

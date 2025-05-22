@@ -1,218 +1,216 @@
 {
-  "music": [
-    {
-      "id": "0",
-      "title": "Giderim"
-    }
-  ],
   "classics": [
     {
-      "id": "1",
+      "id": "0",
       "title": "Black Sabbath - Paranoid"
     },
     {
-      "id": "2",
+      "id": "1",
       "title": "Bob Dylan - Mr. Tambourine Man"
     },
     {
-      "id": "3",
+      "id": "2",
       "title": "California Dreamin'"
     },
     {
-      "id": "4",
+      "id": "3",
       "title": "Carry On"
     },
     {
-      "id": "5",
+      "id": "4",
       "title": "Dream On"
     },
     {
-      "id": "6",
+      "id": "5",
       "title": "Dust in the Wind"
     },
     {
-      "id": "7",
+      "id": "6",
       "title": "Fear of the Dark"
     },
     {
-      "id": "8",
+      "id": "7",
       "title": "Kansas - Carry On Wayward Son"
     },
     {
-      "id": "9",
+      "id": "8",
       "title": "Paint It, Black"
     },
     {
-      "id": "10",
+      "id": "9",
       "title": "Soldier Of Fortune - Deep Purple"
     },
     {
-      "id": "11",
+      "id": "10",
       "title": "Sting - Shape of My Heart"
     },
     {
-      "id": "12",
+      "id": "11",
       "title": "The Temple Of The King"
     },
     {
-      "id": "13",
+      "id": "12",
       "title": "White Room"
     }
   ],
   "dance": [
     {
-      "id": "14",
+      "id": "13",
       "title": "Freed from desire"
     },
     {
-      "id": "15",
+      "id": "14",
       "title": "Laura Branigan - Self Control"
     },
     {
-      "id": "16",
+      "id": "15",
       "title": "Michael Jackson - Billie Jean"
     },
     {
-      "id": "17",
+      "id": "16",
       "title": "Shakira - Hips Don't Lie"
     },
     {
-      "id": "18",
+      "id": "17",
       "title": "The Ketchup Song"
     }
   ],
   "electronic": [
     {
-      "id": "19",
+      "id": "18",
       "title": "Avoure - Aura"
     },
     {
-      "id": "20",
+      "id": "19",
       "title": "David August - Epikur"
     },
     {
-      "id": "21",
+      "id": "20",
       "title": "Lost In Mind"
     },
     {
-      "id": "22",
+      "id": "21",
       "title": "Solomun - Home"
     },
     {
-      "id": "23",
+      "id": "22",
       "title": "Stavroz - The Finishing"
     },
     {
-      "id": "24",
+      "id": "23",
       "title": "You're High"
     }
   ],
   "soundtrack": [
     {
-      "id": "25",
+      "id": "24",
       "title": "A Song of Ice and Fire"
     },
     {
-      "id": "26",
+      "id": "25",
       "title": "Ben de Özledim - Dağılma - Elektro Bağlama"
     },
     {
-      "id": "27",
+      "id": "26",
       "title": "Enya - Only Time"
     },
     {
-      "id": "28",
+      "id": "27",
       "title": "Gökhan Kırdar：kv generic"
     },
     {
-      "id": "29",
+      "id": "28",
       "title": "Gökhan Kırdar：kv"
     },
     {
-      "id": "30",
+      "id": "29",
       "title": "Gökhan Kırdar：pusu"
     },
     {
-      "id": "31",
+      "id": "30",
       "title": "Hans Zimmer - No Time For Caution"
     },
     {
-      "id": "32",
+      "id": "31",
       "title": "Hans Zimmer ~ Cornfield Chase"
     },
     {
-      "id": "33",
+      "id": "32",
       "title": "Heart of Courage"
     },
     {
-      "id": "34",
+      "id": "33",
       "title": "Leyla İle Mecnun： Geri Dönme"
     },
     {
-      "id": "35",
+      "id": "34",
       "title": "Ludovico Einaudi - Fly"
     },
     {
-      "id": "36",
+      "id": "35",
       "title": "Mark Eliyahu - Journey"
     },
     {
-      "id": "37",
+      "id": "36",
       "title": "Misty Mountains"
     },
     {
-      "id": "38",
+      "id": "37",
       "title": "O Fortuna"
     },
     {
-      "id": "39",
+      "id": "38",
       "title": "The Last of the Mohicans - Main Title"
     },
     {
-      "id": "40",
+      "id": "39",
       "title": "The Ride of the Rohirrim"
     },
     {
-      "id": "41",
+      "id": "40",
       "title": "Up Is Down"
     }
   ],
   "turkce": [
     {
-      "id": "42",
+      "id": "41",
       "title": "Adamlar - Döndürüyor"
     },
     {
-      "id": "43",
+      "id": "42",
       "title": "Adamlar - Öyle Bir Geçer"
     },
     {
-      "id": "44",
+      "id": "43",
       "title": "Barış Manço - Gamzedeyim"
     },
     {
-      "id": "45",
+      "id": "44",
       "title": "Barış Manço - Gül Pembe"
     },
     {
-      "id": "46",
+      "id": "45",
       "title": "Cem Karaca - Kara Bahtım"
     },
     {
-      "id": "47",
+      "id": "46",
       "title": "Dedublüman - Sen Bilmezsin"
     },
     {
-      "id": "48",
+      "id": "47",
       "title": "Duman - Helal Olsun"
     },
     {
-      "id": "49",
+      "id": "48",
       "title": "Duman - Yürekten"
     },
     {
-      "id": "50",
+      "id": "49",
       "title": "Dönence"
+    },
+    {
+      "id": "50",
+      "title": "Giderim"
     },
     {
       "id": "51",

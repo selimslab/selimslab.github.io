@@ -28,13 +28,6 @@ workbox.core.setCacheNameDetails({
 
 const strategy = new StaleWhileRevalidate();
 
-const staticStrategy =   new CacheFirst({
-  cacheName: 'delta-static-assets',
-  plugins: [
-    new CacheableResponse({statuses: [0, 200]})
-  ],
-})
-
 registerRoute(
   new RegExp('\/.+'),
   strategy
@@ -44,6 +37,13 @@ registerRoute(
   '/player',
   new NetworkFirst()
 );
+
+const staticStrategy =   new CacheFirst({
+  cacheName: 'delta-static-assets',
+  plugins: [
+    new CacheableResponse({statuses: [0, 200]})
+  ],
+})
 
 registerRoute(
   ({request}) => 
