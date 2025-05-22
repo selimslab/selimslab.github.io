@@ -27,8 +27,8 @@
 
     function buildMusicLibrary(musicData) {
       organizeTracksByGenre(musicData);
-      shuffledDeck = [...allTracks]
-      fisherYatesShuffle(shuffledDeck)
+      shuffledDeck = [...allTracks];
+      fisherYatesShuffle(shuffledDeck);
       updateMediaSessionMetadata(null);
 
       audioPlayer.addEventListener('ended', playNextTrack);
@@ -65,9 +65,9 @@
       const trackList = document.createElement('ul');
 
       tracks.forEach(track => {
+        track.genre = genre
         allTracks.push({
-          ...track,
-          genre: genre
+          ...track
         });
         const trackElement = createTrackListItem(track);
         trackList.appendChild(trackElement);

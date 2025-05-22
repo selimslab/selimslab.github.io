@@ -38,7 +38,7 @@ registerRoute(
   new NetworkFirst()
 );
 
-const staticStrategy =   new CacheFirst({
+const staticStrategy =  new CacheFirst({
   cacheName: 'delta-static-assets',
   plugins: [
     new CacheableResponse({statuses: [0, 200]})
