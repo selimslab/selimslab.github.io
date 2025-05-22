@@ -109,7 +109,6 @@
 
       const trackPath = `/assets/static/music/${track.genre}/${track.title}.mp3`;
       audioPlayer.src = trackPath;
-      audio.load()
       audioPlayer.play();
       updateMediaSessionMetadata(track);
     }
