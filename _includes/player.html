@@ -34,9 +34,7 @@
       shuffledIds = allTracks.map(track => track.id);
       fisherYatesShuffle(shuffledIds);
       clearMediaSession();
-      setupMediaSession();
       updateMediaSessionMetadata(null);
-
       audioPlayer.addEventListener('ended', playNextTrack);
       
       const shuffleButton = document.getElementById('shuffle-button');
@@ -110,8 +108,8 @@
       document.querySelector(`.track[data-id="${track.id}"]`).classList.add('active');
 
       const trackPath = `/assets/static/music/${track.genre}/${track.title}.mp3`;
-      audioPlayer.src = null;
       audioPlayer.src = trackPath;
+      audio.load()
       audioPlayer.play();
       updateMediaSessionMetadata(track);
     }
