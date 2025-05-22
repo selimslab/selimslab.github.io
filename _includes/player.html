@@ -103,7 +103,7 @@
       audioPlayer.pause();
       audioPlayer.src = trackPath;
       audioPlayer.play();
-      if (navigator.mediaSession.metadata.title != track.title){
+      if (navigator.mediaSession.metadata.title != track.title) {
         updateMediaSessionMetadata(track);
       }
     }
@@ -160,20 +160,25 @@
 
     function updateMediaSessionMetadata(track) {
       if (!('mediaSession' in navigator)) return;
-
+      const artworkUrl = window.location.origin + `/assets/static/primes.png`;
       const metadata = {
         title: track?.title || '',
         artist: '',
         album: '',
         artwork: [{
-          src: window.location.origin + `/assets/static/primes.png`,
+          src: artworkUrl,
           sizes: '512x512',
           type: 'image/png'
         }]
       }
 
-      navigator.mediaSession.metadata = new MediaMetadata(metadata);
-      if (!isMediaSetup){
+      if (!navigator.mediaSession.metadata) {
+        navigator.mediaSession.metadata = new MediaMetadata(metadata);
+      } else {
+        navigator.mediaSession.metadata.title = track?.title;
+      }
+
+      if (!isMediaSetup) {
         setupMediaSession()
       }
 
