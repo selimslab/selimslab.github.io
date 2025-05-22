@@ -41,6 +41,11 @@ registerRoute(
 );
 
 registerRoute(
+  '/player',
+  new NetworkFirst()
+);
+
+registerRoute(
   ({request}) => 
     request.destination === 'image' || 
     request.url.includes('/assets/static/'),

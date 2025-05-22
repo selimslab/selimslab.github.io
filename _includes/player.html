@@ -16,8 +16,10 @@
     const playlist = document.getElementById('playlist');
 
     let allTracks = [];
-    let currentTrackIndex = -1;
+    let currentTrackIndex = shuffleIndex = -1;
     let shuffleMode = false;
+    let shuffledDeck = [];
+    let isMediaSetup = false;
 
     fetch('/assets/data/tracks.json')
       .then(response => response.json())
@@ -26,8 +28,10 @@
 
     function buildMusicLibrary(musicData) {
       organizeTracksByGenre(musicData);
-      updateMediaSessionMetadata(null);
+      shuffledDeck = [...allTracks]
+      fisherYatesShuffle(shuffledDeck)
       setupMediaSession();
+      updateMediaSessionMetadata();
       audioPlayer.addEventListener('ended', playNextTrack);
     }
 
@@ -78,51 +82,51 @@
       return trackElement;
     }
 
-    // Playback control functions
-    function playTrackById(id) {
-      currentTrackIndex = allTracks.findIndex(track => track.id === id);
-      if (currentTrackIndex === -1) return;
+    function play(track) {
 
-      const track = allTracks[currentTrackIndex];
-      document.querySelectorAll('.track').forEach(t => t.classList.remove('active'));
-      document.querySelector(`.track[data-id="${id}"]`).classList.add('active');
-      const trackPath = `/assets/static/music/${track.genre}/${track.title}.mp3`;
       nowPlaying.textContent = track.title;
       updateMediaSessionMetadata(track);
+
+      document.querySelectorAll('.track').forEach(t => t.classList.remove('active'));
+      document.querySelector(`.track[data-id="${track.id}"]`).classList.add('active');
+
+      const trackPath = `/assets/static/music/${track.genre}/${track.title}.mp3`;
       audioPlayer.src = trackPath;
       audioPlayer.play();
+      updateMediaSessionMetadata(track);
     }
 
+    const fisherYatesShuffle = (array) => {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+    }
 
     function playNextTrack() {
       if (allTracks.length === 0) return;
 
-      let nextIndex;
       if (shuffleMode) {
-        // Pick a random track different from the current one
-        do {
-          nextIndex = Math.floor(Math.random() * allTracks.length);
-        } while (nextIndex === currentTrackIndex && allTracks.length > 1);
+        shuffleIndex = (shuffleIndex + 1) % allTracks.length
+        play(shuffledDeck[shuffleIndex]);
       } else {
-        // Sequential mode
-        nextIndex = currentTrackIndex + 1;
-        if (nextIndex >= allTracks.length) {
-          nextIndex = 0; // Loop back to the first track
-        }
+        currentTrackIndex = (currentTrackIndex + 1) % allTracks.length
+        play(allTracks[currentTrackIndex]);
       }
 
-      playTrackById(allTracks[nextIndex].id);
     }
 
     function playPreviousTrack() {
       if (allTracks.length === 0) return;
 
-      let prevIndex = currentTrackIndex - 1;
-      if (prevIndex < 0) {
-        prevIndex = allTracks.length - 1; // Loop to the last track
+      if (shuffleMode) {
+        shuffleIndex = (shuffleIndex - 1 + allTracks.length) % allTracks.length
+        play(shuffledDeck[shuffleIndex]);
+      } else {
+        currentTrackIndex = (currentTrackIndex - 1 + allTracks.length) % allTracks.length
+        play(allTracks[currentTrackIndex]);
       }
 
-      playTrackById(allTracks[prevIndex].id);
     }
 
     function setupMediaSession() {
@@ -134,12 +138,12 @@
           audioPlayer.currentTime = details.seekTime;
         }
       });
+      isMediaSetup = true;
     }
 
-    // Setup shuffle button
     const shuffleButton = document.getElementById('shuffle-button');
     shuffleButton.addEventListener('click', function () {
-      shuffleMode = !shuffleMode;
+      shuffleMode = !shuffleMode
       this.classList.toggle('active', shuffleMode);
       if (shuffleMode && !audioPlayer.src) {
         playNextTrack();
@@ -149,7 +153,9 @@
 
     function updateMediaSessionMetadata(track) {
       if (!('mediaSession' in navigator)) return;
-
+      if (!isMediaSetup){
+        setupMediaSession()
+      }
       if (!navigator.mediaSession.metadata) {
         const metadata = {
           title: track?.title || '',
@@ -164,10 +170,9 @@
 
         navigator.mediaSession.metadata = new MediaMetadata(metadata);
       }
-      else {
-        navigator.mediaSession.metadata.title = track?.title;
-      }
-      setupMediaSession();
+
+      navigator.mediaSession.metadata.title = track?.title;
+      
     }
 
   });
