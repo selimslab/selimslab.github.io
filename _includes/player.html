@@ -103,7 +103,9 @@
       audioPlayer.pause();
       audioPlayer.src = trackPath;
       audioPlayer.play();
-      updateMediaSessionMetadata(track);
+      if (navigator.mediaSession.metadata.title != track.title){
+        updateMediaSessionMetadata(track);
+      }
     }
 
     const fisherYatesShuffle = (array) => {
