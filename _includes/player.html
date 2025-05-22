@@ -19,6 +19,7 @@
     let currentTrackIndex = shuffleIndex = -1;
     let shuffleMode = false;
     let shuffledDeck = [];
+    let isMediaSetup = false;
 
     fetch('/assets/data/tracks.json')
       .then(response => response.json())
@@ -151,6 +152,8 @@
           audioPlayer.currentTime = details.seekTime;
         }
       });
+
+      isMediaSetup = true;
     }
 
     function updateMediaSessionMetadata(track) {
@@ -168,7 +171,9 @@
       }
 
       navigator.mediaSession.metadata = new MediaMetadata(metadata);
-      setupMediaSession()
+      if (!isMediaSetup){
+        setupMediaSession()
+      }
 
     }
 
