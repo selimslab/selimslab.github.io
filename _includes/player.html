@@ -26,6 +26,7 @@
 
     function buildMusicLibrary(musicData) {
       organizeTracksByGenre(musicData);
+      updateMediaSessionMetadata(null);
       setupMediaSession();
       audioPlayer.addEventListener('ended', playNextTrack);
     }
@@ -124,7 +125,6 @@
       playTrackById(allTracks[prevIndex].id);
     }
 
-
     function setupMediaSession() {
       if (!('mediaSession' in navigator)) return;
       navigator.mediaSession.setActionHandler('previoustrack', playPreviousTrack);
@@ -138,29 +138,33 @@
 
     // Setup shuffle button
     const shuffleButton = document.getElementById('shuffle-button');
-    shuffleButton.addEventListener('click', function() {
+    shuffleButton.addEventListener('click', function () {
       shuffleMode = !shuffleMode;
       this.classList.toggle('active', shuffleMode);
-      if (shuffleMode && !audioPlayer.src ) {
+      if (shuffleMode && !audioPlayer.src) {
         playNextTrack();
       }
     });
+
 
     function updateMediaSessionMetadata(track) {
       if (!('mediaSession' in navigator)) return;
 
       if (!navigator.mediaSession.metadata) {
-        navigator.mediaSession.metadata = new MediaMetadata({
-          title: track?.title,
+        const metadata = {
+          title: track?.title || '',
           artist: '',
           album: '',
           artwork: [{
-          src: window.location.origin + `/assets/static/primes.png`,
-          sizes: '512x512',
-          type: 'image/png'
-        }]
-      });
-      } else {
+            src: window.location.origin + `/assets/static/primes.png`,
+            sizes: '512x512',
+            type: 'image/png'
+          }]
+        }
+
+        navigator.mediaSession.metadata = new MediaMetadata(metadata);
+      }
+      else {
         navigator.mediaSession.metadata.title = track?.title;
       }
       setupMediaSession();
