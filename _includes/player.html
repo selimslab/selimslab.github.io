@@ -9,12 +9,16 @@
 
 <div id="playlist"></div>
 
+<!-- <div class="player-controls">
+  <button id="download-button" class="button">Download all</button>
+</div> -->
+
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     const audioPlayer = document.getElementById('audio-player');
     const nowPlaying = document.getElementById('now-playing');
     const playlist = document.getElementById('playlist');
-
+    
     let allTracks = [];
     let currentTrackIndex = shuffleIndex = -1;
     let shuffleMode = false;
@@ -104,6 +108,7 @@
       document.querySelector(`.track[data-id="${track.id}"]`).classList.add('active');
 
       const trackPath = `/assets/static/music/${track.genre}/${track.title}.mp3`;
+      audioPlayer.src = null;
       audioPlayer.src = trackPath;
       audioPlayer.play();
       updateMediaSessionMetadata(track);
