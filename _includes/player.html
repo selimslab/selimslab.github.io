@@ -36,7 +36,9 @@
       clearMediaSession();
       setupMediaSession();
       updateMediaSessionMetadata(null);
+
       audioPlayer.addEventListener('ended', playNextTrack);
+      
       const shuffleButton = document.getElementById('shuffle-button');
       shuffleButton.addEventListener('click', function () {
         shuffleMode = !shuffleMode
@@ -180,9 +182,9 @@
       }
       if (!navigator.mediaSession.metadata || navigator.mediaSession.metadata != track?.title){
         navigator.mediaSession.metadata = new MediaMetadata(metadata);
+        setupMediaSession()      
       }
 
-      // setupMediaSession()      
     }
 
   });
