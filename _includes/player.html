@@ -4,7 +4,7 @@
   <audio id="audio-player" controls></audio>
   <div class="player-controls">
     <button id="shuffle-button" class="button">Shuffle</button>
-  </div>a
+  </div>
 </div>
 
 <div id="playlist"></div>
@@ -102,13 +102,14 @@
     function play(trackId) {
       track = allTracks.find(t => t.id === trackId)
       nowPlaying.textContent = track.title;
+      updateMediaSessionMetadata(track);
 
       document.querySelectorAll('.track').forEach(t => t.classList.remove('active'));
       document.querySelector(`.track[data-id="${track.id}"]`).classList.add('active');
 
       const trackPath = `/assets/static/music/${track.genre}/${track.title}.mp3`;
+      // audioPlayer.pause();
       audioPlayer.src = trackPath;
-      audioPlayer.load();
       audioPlayer.play();
       updateMediaSessionMetadata(track);
     }
