@@ -18,7 +18,7 @@
     const audioPlayer = document.getElementById('audio-player');
     const nowPlaying = document.getElementById('now-playing');
     const playlist = document.getElementById('playlist');
-    
+
     let allTracks = [];
     let currentTrackIndex = shuffleIndex = -1;
     let shuffleMode = false;
@@ -36,7 +36,7 @@
       clearMediaSession();
       updateMediaSessionMetadata(null);
       audioPlayer.addEventListener('ended', playNextTrack);
-      
+
       const shuffleButton = document.getElementById('shuffle-button');
       shuffleButton.addEventListener('click', function () {
         shuffleMode = !shuffleMode
@@ -44,7 +44,7 @@
         if (shuffleMode && !audioPlayer.src) {
           playNextTrack();
         }
-        if (!shuffleMode){
+        if (!shuffleMode) {
           // continue from where it's left
           currentTrackIndex = allTracks.findIndex(t => t.id === shuffledIds[shuffleIndex])
         }
@@ -109,10 +109,11 @@
 
       const trackPath = `/assets/static/music/${track.genre}/${track.title}.mp3`;
       audioPlayer.src = trackPath;
-      audioPlayer.load();
-      audioPlayer.play();
-      updateMediaSessionMetadata(track);
+      audioPlayer.play()
+        .then(_ => updateMediaSessionMetadata(track))
+        .catch(err => console.error(err));
     }
+
 
     const fisherYatesShuffle = (array) => {
       for (let i = array.length - 1; i > 0; i--) {
@@ -151,9 +152,9 @@
       navigator.mediaSession.setActionHandler('previoustrack', null);
       navigator.mediaSession.setActionHandler('nexttrack', null);
       navigator.mediaSession.setActionHandler('seekto', null);
-    navigator.mediaSession.metadata = null;
-    } 
-    
+      navigator.mediaSession.metadata = null;
+    }
+
     function setupMediaSession() {
       if (!('mediaSession' in navigator)) return;
       navigator.mediaSession.setActionHandler('previoustrack', playPreviousTrack);
@@ -179,7 +180,7 @@
           type: 'image/png'
         }]
       }
-      if (!navigator.mediaSession.metadata || navigator.mediaSession.metadata != track?.title){
+      if (!navigator.mediaSession.metadata || navigator.mediaSession.metadata != track?.title) {
         navigator.mediaSession.metadata = new MediaMetadata(metadata);
       }
       setupMediaSession();
