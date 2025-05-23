@@ -14,6 +14,7 @@ layout: delta
 
 [Paintings](/paintings/)
 
+[Typewriter](/typewriter/)
 
 <br>
 
