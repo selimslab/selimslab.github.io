@@ -109,10 +109,8 @@
       const trackPath = `/assets/static/music/${track.genre}/${track.title}.mp3`;
       // audioPlayer.pause();
       audioPlayer.src = trackPath;
-      audioPlayer.play()
-      .then(_ => updateMediaSessionMetadata(track))
-      .catch(err => console.log(err))
-      
+      updateMediaSessionMetadata(track);
+      audioPlayer.play();
     }
 
     const fisherYatesShuffle = (array) => {
