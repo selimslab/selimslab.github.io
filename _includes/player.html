@@ -112,6 +112,7 @@
       audioPlayer.src = trackPath;
       audioPlayer.load();
       audioPlayer.play();
+      updateMediaSessionMetadata(track);
     }
 
     const fisherYatesShuffle = (array) => {
@@ -181,8 +182,8 @@
       }
       if (!navigator.mediaSession.metadata || navigator.mediaSession.metadata != track?.title){
         navigator.mediaSession.metadata = new MediaMetadata(metadata);
-        setupMediaSession()      
       }
+      setupMediaSession();
 
     }
 
