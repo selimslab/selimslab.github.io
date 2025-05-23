@@ -102,7 +102,6 @@
     function play(trackId) {
       track = allTracks.find(t => t.id === trackId)
       nowPlaying.textContent = track.title;
-      updateMediaSessionMetadata(track);
 
       document.querySelectorAll('.track').forEach(t => t.classList.remove('active'));
       document.querySelector(`.track[data-id="${track.id}"]`).classList.add('active');
@@ -110,8 +109,10 @@
       const trackPath = `/assets/static/music/${track.genre}/${track.title}.mp3`;
       // audioPlayer.pause();
       audioPlayer.src = trackPath;
-      audioPlayer.play();
-      updateMediaSessionMetadata(track);
+      audioPlayer.play()
+      .then(_ => updateMediaSessionMetadata(track))
+      .catch(err => console.log(err))
+      
     }
 
     const fisherYatesShuffle = (array) => {
