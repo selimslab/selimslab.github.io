@@ -19,14 +19,24 @@
 
 <script>
   const filename = "{{ include.filename }}";
+  let ideaInterval; // Store interval ID for control
   
   const setNextIdea = async (filename) => {
     document.getElementById("idea").innerHTML = await getNextIdea(filename);
   }
 
-  setInterval(() => {
-    setNextIdea(filename);
-  }, 5000);
+  const startInterval = () => {
+    ideaInterval = setInterval(() => {
+      setNextIdea(filename);
+    }, 5000);
+  }
+
+  const stopInterval = () => {
+    if (ideaInterval) {
+      clearInterval(ideaInterval);
+      ideaInterval = null;
+    }
+  }
 
   document.addEventListener('DOMContentLoaded', async () => {
     let idea = document.getElementById("idea");
@@ -37,7 +47,11 @@
       }
     });
 
+    idea.addEventListener('focus', stopInterval);
+    idea.addEventListener('blur', startInterval);
+
     setNextIdea(filename);
+    startInterval();
   });
 
 </script>
