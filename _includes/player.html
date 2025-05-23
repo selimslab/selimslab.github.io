@@ -108,11 +108,10 @@
       document.querySelector(`.track[data-id="${track.id}"]`).classList.add('active');
 
       const trackPath = `/assets/static/music/${track.genre}/${track.title}.mp3`;
-      updateMediaSessionMetadata(track);
       audioPlayer.src = trackPath;
       audioPlayer.load();
       audioPlayer.play();
-      setupMediaSession();
+      updateMediaSessionMetadata(track);
     }
 
     const fisherYatesShuffle = (array) => {
