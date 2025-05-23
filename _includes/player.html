@@ -45,6 +45,7 @@
           playNextTrack();
         }
         if (!shuffleMode){
+          // continue from where it's left
           currentTrackIndex = allTracks.findIndex(t => t.id === shuffledIds[shuffleIndex])
         }
       });
@@ -107,9 +108,9 @@
       document.querySelector(`.track[data-id="${track.id}"]`).classList.add('active');
 
       const trackPath = `/assets/static/music/${track.genre}/${track.title}.mp3`;
-      // audioPlayer.pause();
-      audioPlayer.src = trackPath;
       updateMediaSessionMetadata(track);
+      audioPlayer.pause();
+      audioPlayer.src = trackPath;
       audioPlayer.play();
     }
 
