@@ -103,7 +103,8 @@
     function play(trackId) {
       track = allTracks.find(t => t.id === trackId)
       nowPlaying.textContent = track.title;
-
+      navigator.mediaSession.metadata.title = track.title;
+      
       document.querySelectorAll('.track').forEach(t => t.classList.remove('active'));
       document.querySelector(`.track[data-id="${track.id}"]`).classList.add('active');
 
