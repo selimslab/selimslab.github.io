@@ -118,6 +118,9 @@ function handleSpaceKey() {
 
 function handleControlBackspace() {
     let i = typedText.length - 1;
+    while (i >= 0 && typedText[i] == ' ') {
+        i--;
+    }
     while (i >= 0 && typedText[i] !== ' ') {
         i--;
     }

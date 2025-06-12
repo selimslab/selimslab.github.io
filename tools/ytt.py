@@ -8,10 +8,12 @@ import logging
 
 OUT_FILE = ".tmp.txt"
 
+ytt_api = YouTubeTranscriptApi()
+
 def process_video(video_id, attempts=0):
     try:
-        raw_transcript = YouTubeTranscriptApi.get_transcript(
-            video_id, languages=["en", "tr"]
+        raw_transcript = ytt_api.fetch(
+            video_id, languages=["en", "en-us", "tr"]
         )
         transcript = "\n".join(t["text"] for t in raw_transcript)
         with open(OUT_FILE, "w", encoding="utf-8") as f:
