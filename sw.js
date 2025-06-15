@@ -16,7 +16,6 @@ importScripts('/assets/js/workbox.js');
 const { registerRoute } = workbox.routing;
 const { CacheFirst, NetworkFirst, StaleWhileRevalidate } = workbox.strategies;
 const { CacheableResponse } = workbox.cacheableResponse;
-const {warmStrategyCache} =  workbox.recipes;
 
 const prefix = 'delta';
 const suffix = "t"
@@ -33,11 +32,6 @@ registerRoute(
   strategy
 );
 
-registerRoute(
-  '/player',
-  new NetworkFirst()
-);
-
 const staticStrategy =  new CacheFirst({
   cacheName: 'delta-static-assets',
   plugins: [
@@ -52,4 +46,16 @@ registerRoute(
     staticStrategy
 );
 
-warmStrategyCache({urls, strategy});
+workbox.precaching.precacheAndRoute(
+  urls.map(url => ({url, revision: null}))
+);
+
+self.addEventListener('install', (event) => {
+  console.log('Service worker installing...');
+  self.skipWaiting();
+});
+
+self.addEventListener('activate', (event) => {
+  console.log('Service worker activating...');
+  self.clients.claim();
+});
