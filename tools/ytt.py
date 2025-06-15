@@ -1,8 +1,3 @@
-#!/usr/bin/env -S uv run --script
-# /// script
-# dependencies = ["youtube_transcript_api", "requests"]
-# ///
-
 from youtube_transcript_api import YouTubeTranscriptApi
 import logging
 
@@ -12,8 +7,8 @@ ytt_api = YouTubeTranscriptApi()
 
 def process_video(video_id, attempts=0):
     try:
-        raw_transcript = ytt_api.fetch(
-            video_id, languages=["en", "en-us", "tr"]
+        raw_transcript = ytt_api.get_transcript(
+            video_id, languages=["en", "en-US", "en-us", "tr"]
         )
         transcript = "\n".join(t["text"] for t in raw_transcript)
         with open(OUT_FILE, "w", encoding="utf-8") as f:
@@ -26,7 +21,7 @@ def process_video(video_id, attempts=0):
 
 def cli():
     while True:
-        user_input = input("\tyt transcript - url or id: ").strip()
+        user_input = input("yt transcript - url or id: ").strip()
         video_id = (
             user_input.split("v=")[-1].split("&")[0]
             if "youtube.com" in user_input

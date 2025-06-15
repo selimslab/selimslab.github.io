@@ -52,6 +52,32 @@ wheels = [
 ]
 
 [[package]]
+name = "pymupdf"
+version = "1.26.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/bd/62/d29612ca33b7844e77d2c789fec359f4c44fd84bdd08ce673f6279d257e9/pymupdf-1.26.1.tar.gz", hash = "sha256:372c77c831f82090ce7a6e4de284ca7c5a78220f63038bb28c5d9b279cd7f4d9", size = 75912371 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/32/5a/3399a2caf51c91db650de57464465b830c2d4ea15b23d24a98182202b704/pymupdf-1.26.1-cp39-abi3-macosx_10_9_x86_64.whl", hash = "sha256:32296f12a7c7f36febd59cee77823a54490313bcaba9879b17def6518186f94e", size = 23054640 },
+    { url = "https://files.pythonhosted.org/packages/64/e0/cc3ec6a4d5ada8992b8610f134565ceb517243f12736b50d795cb3459315/pymupdf-1.26.1-cp39-abi3-macosx_11_0_arm64.whl", hash = "sha256:aad7949eca62aca40854510cdb125cf873b181726dc9497a90834200f31faa63", size = 22402766 },
+    { url = "https://files.pythonhosted.org/packages/82/9f/e7101bd24a0f5cbfa0310c8e5c3a8ec0dd9a86986812ff86ac2fbd273c92/pymupdf-1.26.1-cp39-abi3-manylinux_2_28_x86_64.whl", hash = "sha256:a65c411eb1cbb79e40c307e10fbad23658f19e9d7334ac4de21d24b58009a7b9", size = 24056183 },
+    { url = "https://files.pythonhosted.org/packages/99/39/23ac15cf0edc2877ef366dc7ae041ac199d212433c2c3113661d1a1d5ad0/pymupdf-1.26.1-cp39-abi3-musllinux_1_2_x86_64.whl", hash = "sha256:26cebdcc1b2b7a7445423599ce2e0000f2be0333cce0fa0e6846e5a7da46f965", size = 24258802 },
+    { url = "https://files.pythonhosted.org/packages/e1/8c/56bd5951128d5c5c0b64d2942090c2cd7bc44302bac991b941ac736e3d63/pymupdf-1.26.1-cp39-abi3-win32.whl", hash = "sha256:82ed9e106cf564fc959c0691c374ba68443086ba1a1c9f26128eebbc3e6df9e5", size = 16927933 },
+    { url = "https://files.pythonhosted.org/packages/a7/1b/0613759a059c8c952c18811c7c7dd0ba5d7945ed13a535719489f533d700/pymupdf-1.26.1-cp39-abi3-win_amd64.whl", hash = "sha256:8deae5168fce37d707f68d1981da6c0bb71f1f176d9835d5914ad46f779a036f", size = 18519587 },
+]
+
+[[package]]
+name = "pymupdf4llm"
+version = "0.0.24"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pymupdf" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/6b/9f/9290cd8fe75aa0983562f7dd66ae017ecfd43ca968c6bc83f33a327ed07b/pymupdf4llm-0.0.24.tar.gz", hash = "sha256:56a9100f920ea5e02d2eee34f9aa2b6f7c8ed7dc9fa535fc9236a47e386632ab", size = 28315 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/43/40/c016dc5a44dc5c0482c01676ea931f797e5d605b24487c6be2083bc53858/pymupdf4llm-0.0.24-py3-none-any.whl", hash = "sha256:98cb424e28acfd1a371d6c9880c774510f1eb5bae5bd48dbea4e7ecb4eec04f3", size = 28998 },
+]
+
+[[package]]
 name = "requests"
 version = "2.32.4"
 source = { registry = "https://pypi.org/simple" }
@@ -96,6 +122,8 @@ name = "tools"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "pymupdf" },
+    { name = "pymupdf4llm" },
     { name = "ruff" },
     { name = "youtube-transcript-api" },
     { name = "yt-dlp" },
@@ -103,6 +131,8 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "pymupdf", specifier = ">=1.26.1" },
+    { name = "pymupdf4llm", specifier = ">=0.0.24" },
     { name = "ruff", specifier = ">=0.11.10" },
     { name = "youtube-transcript-api", specifier = ">=1.1.0" },
     { name = "yt-dlp", specifier = ">=2025.4.30" },

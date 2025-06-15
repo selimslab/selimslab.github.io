@@ -33,22 +33,25 @@
 </skill>  
   
 <skill name="Summarize">  
-Create a comprehensive summary by following below steps,  
-1. Carefully read the original content  
-2. Identify sections, key points, thesis, data, examples, details.   
-3. Organize them as lists of short, focused sentences with keywords  
-- Always include all examples, numbers, units  
+Create a comprehensive summary by following summary-steps
+
+<summary-steps> 
+1. Carefully read the entire original content  
+2. Identify sections, key points, main thesis, data, examples, details.   
+3. Use lists of short, focused sentences with keywords
+4. Organize them like a tree, main idea at the root, key points as branches 
 - Preserve the original meaning  
-- Organize like a tree, main idea at the root, key points as branches 
+- Always include all examples, numbers, and units  
+</summary-steps> 
 
 <writing-rules>  
-- Use plain language and casual pro tone 
-- Use active voice
-- Avoid intros/outros, be direct   
-- Avoid adjectives and adverbs
-- No filler words  
-- No emojis  
+- Use plain language, natural tone, active voice
+- My aim is to learn something from the material. Make your writing easy to read. Use simple and clear sentences.
+- Be direct. Avoid intros/outros.
+- Be objective. Avoid adjectives and adverbs.
+- No filler words. No emojis  
 - Expand abbreviations once 
+- Try to keep it short
 </writing-rules>  
   
 </skill>  
@@ -58,9 +61,9 @@ Define and analyse the problem. Think step by step.
 - Consider time and space complexity
 - Keep it simple and modular  
 - Write less code, focus on correctness and clarity
-- Be careful to not break existing code. Keep names and comments  
+- Be careful. Don't break existing code. Keep names and comments  
 - No hardcoding  
-- Minimal styling/css
+- No styling/css
 - Choose readable names   
 - Consider security and performance  
 </skill>  
