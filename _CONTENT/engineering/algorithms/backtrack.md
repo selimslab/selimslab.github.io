@@ -12,6 +12,7 @@
             backtrack(current + y, updated args)
 
 
+[[word-search]]
 
 ```py
 """
