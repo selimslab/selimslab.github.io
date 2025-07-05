@@ -26,7 +26,6 @@ def get_content_between_pages(doc, start_page, end_page):
 def extract_chapters(epub_path):
     """Extract chapters from EPUB and save them as markdown files."""
     try:
-        epub_path = WORKSPACE_ROOT / epub_path
         book_name = epub_path.stem
         output_dir = OUTPUT_DIR / book_name
         output_dir.mkdir(parents=True, exist_ok=True)
@@ -82,26 +81,23 @@ def extract_chapters(epub_path):
             return True
             
     except Exception as e:
-        print(f"Error processing {epub_path}: {str(e)}")
+        print(f"Error: {epub_path}: {str(e)}")
         return False
 
 
 def cli():
     while True:
-        user_input = input("chunker > path to file: ").strip()
+        epub_path = input("chunker > path to file: ").strip()
+
+        epub_path = Path(epub_path)
         
-        if not user_input:
-            print("try again")
-            continue
-            
-        epub_path = WORKSPACE_ROOT / user_input
         if not epub_path.exists():
-            print(f"Error: File not found: {user_input}")
+            print(f"Error: File not found: {epub_path}")
             continue
             
-        success = extract_chapters(user_input)
+        success = extract_chapters(epub_path)
         if success:
-            print("ok")
+            print(f"ok: {epub_path}")
 
 
 if __name__ == "__main__":
