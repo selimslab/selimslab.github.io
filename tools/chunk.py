@@ -42,12 +42,14 @@ def extract_chapters(epub_path):
             
             print(f"Found {len(toc)} entries in {book_name}")
             
+            # Track current chapter
+            current_chapter_content = ""
+            current_chapter_filename = None
+            chapter_count = 0
+            
             # Process each TOC entry
             for i, (level, title, page_num) in enumerate(toc):
-                # Skip entries deeper than level 2
-                if level > 2:
-                    continue
-                    
+                
                 # Find the end page for this entry
                 end_page = doc.page_count
                 if i + 1 < len(toc):
@@ -56,28 +58,41 @@ def extract_chapters(epub_path):
                 # Extract content
                 content = get_content_between_pages(doc, page_num, end_page)
                 
-                # Create markdown content with appropriate heading level
+                # Create heading with appropriate level
                 heading = "#" * level
-                markdown_content = f"{heading} {title}\n\n{content}"
+                section_content = f"{heading} {title}\n\n{content}\n\n"
                 
-                # Create filename
-                clean_title = clean_filename(title)
-                if not clean_title:
-                    clean_title = f"section_{i + 1}"
+                if level == 1:
+                    # Save previous chapter if exists
+                    if current_chapter_content and current_chapter_filename:
+                        output_file = output_dir / current_chapter_filename
+                        with open(output_file, "w", encoding="utf-8") as f:
+                            f.write(current_chapter_content.strip())
+                    
+                    # Start new chapter
+                    chapter_count += 1
+                    clean_title = clean_filename(title)
+                    if not clean_title:
+                        clean_title = f"chapter_{chapter_count}"
+                    
+                    if clean_title[0].isdigit() or clean_title.lower().startswith("chapter"):
+                        current_chapter_filename = f"{clean_title}.md"
+                    else:
+                        current_chapter_filename = f"x_{chapter_count:02d}_{clean_title}.md"
+                    
+                    current_chapter_content = section_content
                 
-                if clean_title[0].isdigit() or clean_title.lower().startswith("chapter"):
-                    filename = f"{clean_title}.md"
                 else:
-                    filename = f"{i + 1:02d}_{clean_title}.md"
-                output_file = output_dir / filename
-                
-                # Save file
-                with open(output_file, "w", encoding="utf-8") as f:
-                    f.write(markdown_content)
-                
-                print(f"Saved: {filename}")
+                    # Add to current chapter
+                    current_chapter_content += section_content
             
-            print(f"\nAll sections saved to: {output_dir}")
+            # Save the last chapter
+            if current_chapter_content and current_chapter_filename:
+                output_file = output_dir / current_chapter_filename
+                with open(output_file, "w", encoding="utf-8") as f:
+                    f.write(current_chapter_content.strip())
+                            
+            print(f"ok: {epub_path}")
             return True
             
     except Exception as e:
@@ -95,9 +110,7 @@ def cli():
             print(f"Error: File not found: {epub_path}")
             continue
             
-        success = extract_chapters(epub_path)
-        if success:
-            print(f"ok: {epub_path}")
+        extract_chapters(epub_path)
 
 
 if __name__ == "__main__":
