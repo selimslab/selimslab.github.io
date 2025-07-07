@@ -15,11 +15,17 @@ def clean_filename(filename):
 
 
 def get_content_between_pages(doc, start_page, end_page):
-    """Extract text content between two pages."""
+    """Extract text content between two pages, preserving paragraphs."""
     content = ""
     for page_num in range(start_page, min(end_page, doc.page_count)):
         page = doc[page_num]
-        content += page.get_text("text")
+        blocks = page.get_text("blocks")
+        
+        for block in blocks:
+            text = block[4]  # block[4] contains the text
+            if text.strip():  # Skip empty blocks
+                content += text.strip() + "\n\n"
+    
     return content
 
 
