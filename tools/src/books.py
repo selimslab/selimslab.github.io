@@ -1,6 +1,7 @@
 import fitz  # PyMuPDF
 from pathlib import Path
-from src.util.fs import clean_filename, write_file
+from util.fs import clean_filename, write_file
+from rich import print
 
 WORKSPACE_ROOT = Path(__file__).parent.parent
 OUTPUT_DIR = WORKSPACE_ROOT / ".books"

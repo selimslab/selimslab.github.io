@@ -1,9 +1,10 @@
 from youtube_transcript_api import YouTubeTranscriptApi
 import yt_dlp
-import logging
-from src.util.decorators import retry
-from src.util.fs import write_file
+from util.decor import retry
+from util.fs import write_file
+from util.logs import logger
 from pathlib import Path
+from rich import print
 
 WORKSPACE_ROOT = Path(__file__).parent.parent
 OUT_FILE = WORKSPACE_ROOT / ".tmp" / "ytt.md"
@@ -18,12 +19,12 @@ def get_video_title(video_url):
             info = ydl.extract_info(video_url, download=False)
             return info.get("title", "Unknown Title")
     except Exception as e:
-        logging.error(f"Could not get title: {e}")
+        logger.error(f"Could not get title: {e}")
         return "Unknown Title"
 
 
 @retry(attempts=3)
-def process_video(video_id):
+def get_transcript(video_id):
     raw_transcript = ytt_api.get_transcript(
         video_id, languages=["en", "en-US", "en-us", "tr"]
     )
@@ -31,8 +32,7 @@ def process_video(video_id):
     video_title = get_video_title(video_url)
     frontmatter = f"---\ntitle: {video_title}\nurl: {video_url}\n---"
     transcript = f"{frontmatter}\n\n{'\n'.join(t['text'] for t in raw_transcript)}"
-    write_file(OUT_FILE, transcript)
-    print(f"ok: {video_title}")
+    return video_title, transcript
 
 
 def cli():
@@ -44,7 +44,9 @@ def cli():
             else user_input
         )
 
-        process_video(video_id)
+        video_title, transcript = get_transcript(video_id)
+        write_file(OUT_FILE, transcript)
+        print(f"ok: {video_title}")
 
 
 if __name__ == "__main__":

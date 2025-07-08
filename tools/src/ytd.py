@@ -5,6 +5,8 @@ import os
 import glob
 import re
 from pathlib import Path
+from rich import print
+from util.logs import logger
 
 REPO_ROOT = Path(__file__).parent.parent.parent
 OUTPUT_DIR = REPO_ROOT / "assets" / "static" / "music"
@@ -37,10 +39,10 @@ def download_audio(url):
         clean_name()
         print("done")
     except subprocess.CalledProcessError as e:
-        print(f"Error {url}: {e}")
+        logger.error(f"Error {url}: {e}")
     except FileNotFoundError:
-        print("Error: yt-dlp is not installed. Please install it first.")
-        print("Installation: pip install yt-dlp")
+        logger.error("Error: yt-dlp is not installed. Please install it first.")
+        logger.error("Installation: pip install yt-dlp")
         sys.exit(1)
 
 

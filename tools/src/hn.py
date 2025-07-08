@@ -6,10 +6,12 @@ given a url,
 """
 
 from bs4 import BeautifulSoup
-from src.util.fs import write_file
-from src.util.web import get_html
-from src.util.decorators import retry
+from util.fs import write_file
+from util.web import get_html
+from util.decor import retry
+from util.logs import logger
 from pathlib import Path
+from rich import print
 
 WORKSPACE_ROOT = Path(__file__).parent.parent
 OUT_FILE = WORKSPACE_ROOT / ".tmp" / "comms.txt"
@@ -26,7 +28,7 @@ def get_comments(url):
     comment_elements = soup.find_all(class_="comment")
 
     if not comment_elements:
-        print("No comments found with class='comment'")
+        logger.error("No comments found with class='comment'")
         return
 
     comments = []
@@ -42,11 +44,6 @@ def cli():
     while True:
         user_input = input("hn comments - url: ").strip()
 
-        if not user_input:
-            print("try again")
-            continue
-
-        # Basic URL validation
         if not (user_input.startswith("http://") or user_input.startswith("https://")):
             user_input = "https://" + user_input
 
