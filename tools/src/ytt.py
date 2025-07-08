@@ -1,10 +1,11 @@
 from youtube_transcript_api import YouTubeTranscriptApi
 import yt_dlp
-from util.decor import retry
+from util.decors import retry
 from util.fs import write_file
 from util.logs import logger
 from pathlib import Path
 from rich import print
+import re
 
 WORKSPACE_ROOT = Path(__file__).parent.parent
 OUT_FILE = WORKSPACE_ROOT / ".tmp" / "ytt.md"
@@ -23,6 +24,14 @@ def get_video_title(video_url):
         return "Unknown Title"
 
 
+def format_transcript_sentences(raw_transcript):
+    joined = ' '.join(t['text'] for t in raw_transcript)
+    normalized = re.sub(r'\s+', ' ', joined)
+    splitted = re.split(r'[.!?]', normalized)
+    dotted = [sentence.strip() + '.' for sentence in splitted if sentence.strip()]
+    return '\n'.join(dotted)
+    
+
 @retry(attempts=3)
 def get_transcript(video_id):
     raw_transcript = ytt_api.get_transcript(
@@ -31,7 +40,9 @@ def get_transcript(video_id):
     video_url = f"https://www.youtube.com/watch?v={video_id}"
     video_title = get_video_title(video_url)
     frontmatter = f"---\ntitle: {video_title}\nurl: {video_url}\n---"
-    transcript = f"{frontmatter}\n\n{'\n'.join(t['text'] for t in raw_transcript)}"
+    
+    formatted_sentences = format_transcript_sentences(raw_transcript)
+    transcript = f"{frontmatter}\n\n{formatted_sentences}"
     return video_title, transcript
 
 

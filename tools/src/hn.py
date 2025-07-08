@@ -8,7 +8,7 @@ given a url,
 from bs4 import BeautifulSoup
 from util.fs import write_file
 from util.web import get_html
-from util.decor import retry
+from util.decors import retry
 from util.logs import logger
 from pathlib import Path
 from rich import print
