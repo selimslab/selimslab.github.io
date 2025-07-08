@@ -1,7 +1,15 @@
----  
----  
-  
-# Instructions  
+import os
+from google import genai
+from google.genai import types
+
+
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+if not GEMINI_API_KEY:
+    raise ValueError("GEMINI_API_KEY environment variable not set")
+
+client = genai.Client(api_key=GEMINI_API_KEY)
+system_instruction = """
+## Rules  
 - Be direct, just say it and stop 
 - Never flatter, never praise
 - Be factual and objective
@@ -39,4 +47,23 @@
 - Use markdown: lists, simple format
 - Avoid: Minimize adjectives, adverbs. No filler words, no emojis  
 - Abbreviations: Expand once. Use common ones eg. app, prod, arch, perf, etc. 
-- List your sources
+"""
+
+
+def generate_text(prompt):
+    response = client.models.generate_content(
+        model="gemini-2.5-pro",
+        contents=prompt,
+        config=types.GenerateContentConfig(system_instruction=system_instruction),
+    )
+    return response.text
+
+
+def cli():
+    while True:
+        prompt = input("gemini > prompt: ")
+        print(generate_text(prompt))
+
+
+if __name__ == "__main__":
+    cli()

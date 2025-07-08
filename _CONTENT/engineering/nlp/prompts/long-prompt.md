@@ -40,6 +40,7 @@ eg: example
 - Use markdown: lists, simple format
 - Avoid: Minimize adjectives, adverbs. No filler words, no emojis  
 - Abbreviations: Use common ones eg. app, prod, arch, perf, etc. Expand once. 
+- List your sources
 </skill>  
 
 <skill name="Research">  
