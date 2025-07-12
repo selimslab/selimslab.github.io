@@ -8,7 +8,7 @@ OUTPUT_DIR = Path(__file__).parent.parent / "books"
 
 def get_content_between_pages(doc, start_page, end_page):
     """Extract text content between two pages, preserving paragraphs."""
-    content = ""
+    content = []
     for page_num in range(start_page, min(end_page, doc.page_count)):
         page = doc[page_num]
         blocks = page.get_text("blocks")
@@ -16,9 +16,9 @@ def get_content_between_pages(doc, start_page, end_page):
         for block in blocks:
             text = block[4]  # block[4] contains the text
             if text.strip():  # Skip empty blocks
-                content += text.strip() + "\n\n"
+                content.append(text.strip())
 
-    return content
+    return "\n\n".join(content)
 
 
 def setup_output_directory(book_name):
@@ -34,15 +34,15 @@ def setup_output_directory(book_name):
     return output_dir
 
 
-def get_toc_entries(doc, epub_path):
+def get_toc_entries(doc, file_path):
     """Extract and validate table of contents from document."""
     toc = doc.get_toc()
 
     if not toc:
-        print(f"Warning: No table of contents found in {epub_path}")
+        print(f"Warning: No table of contents found in {file_path}")
         return None
 
-    print(f"Found {len(toc)} entries in {epub_path.stem}")
+    print(f"Found {len(toc)} entries in {file_path.stem}")
     return toc
 
 
@@ -103,33 +103,33 @@ def process_toc_entries(doc, toc, output_dir):
     save_chapter(output_dir, current_chapter_filename, current_chapter_content)
 
 
-def extract_chapters(epub_path):
+def extract_chapters(file_path):
     """Extract chapters from EPUB and save them as markdown files."""
     try:
-        book_name = epub_path.stem
+        book_name = file_path.stem
         output_dir = setup_output_directory(book_name)
 
-        with fitz.open(epub_path) as doc:
-            toc = get_toc_entries(doc, epub_path)
+        with fitz.open(file_path) as doc:
+            toc = get_toc_entries(doc, file_path)
             if toc:
                 process_toc_entries(doc, toc, output_dir)
-                print(f"ok: {epub_path}")
+                print(f"ok: {file_path}")
 
     except Exception as e:
-        print(f"Error: {epub_path}: {str(e)}")
+        print(f"Error: {file_path}: {str(e)}")
 
 
 def cli():
     while True:
-        epub_path = input("book path: ").strip()
+        user_input = input("book path: ").strip()
 
-        epub_path = Path(epub_path)
+        file_path = Path(user_input)
 
-        if not epub_path.exists():
-            print(f"Error: File not found: {epub_path}")
+        if not file_path.exists():
+            print(f"Error: File not found: {file_path}")
             continue
 
-        extract_chapters(epub_path)
+        extract_chapters(file_path)
 
 
 if __name__ == "__main__":
