@@ -7,11 +7,9 @@ from pathlib import Path
 from rich import print
 import re
 
-WORKSPACE_ROOT = Path(__file__).parent.parent
-OUT_FILE = WORKSPACE_ROOT / ".tmp" / "ytt.md"
+OUT_FILE = Path(__file__).parent.parent / ".tmp" / "ytt.md"
 
 ytt_api = YouTubeTranscriptApi()
-
 
 def get_video_title(video_url):
     try:

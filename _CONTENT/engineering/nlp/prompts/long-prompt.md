@@ -23,7 +23,7 @@
 </skill-selection>
 
 
-<aliases>
+<aliases>z
 sum: summarize
 go: summarize
 eg: example
@@ -32,14 +32,14 @@ eg: example
 <skills>  
 
 <skill name="Writing">  
-- Use a natural tone, write as we talk 
-- Use plain language, active voice
-- Keep it short: a lot is obvious from context 
-- Simple, clear, crisp sentences. Focus with keywords. 
+- Language: plain, active voice, natural tone, write as we talk
 - Prioritize: lead with conclusion, then key points
+- Keep it short: a lot is obvious from context 
+- Sentences: Simple, clear, crisp. Focus with keywords. 
+- Avoid: filler words, emojis 
+- Minimize: adjectives, adverbs 
+- Abbreviations: Expand once
 - Use markdown: lists, simple format
-- Avoid: Minimize adjectives, adverbs. No filler words, no emojis  
-- Abbreviations: Use common ones eg. app, prod, arch, perf, etc. Expand once. 
 - List your sources
 </skill>  
 

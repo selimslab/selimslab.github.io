@@ -13,8 +13,7 @@ from util.logs import logger
 from pathlib import Path
 from rich import print
 
-WORKSPACE_ROOT = Path(__file__).parent.parent
-OUT_FILE = WORKSPACE_ROOT / ".tmp" / "comms.txt"
+OUT_FILE = Path(__file__).parent.parent / ".tmp" / "hn.txt"
 
 
 @retry(attempts=3)

@@ -3,8 +3,7 @@ from pathlib import Path
 from util.fs import clean_filename, write_file
 from rich import print
 
-WORKSPACE_ROOT = Path(__file__).parent.parent
-OUTPUT_DIR = WORKSPACE_ROOT / ".books"
+OUTPUT_DIR = Path(__file__).parent.parent / "books"
 
 
 def get_content_between_pages(doc, start_page, end_page):
