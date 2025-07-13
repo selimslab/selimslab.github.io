@@ -10,24 +10,34 @@ INPUT_DIR = Path('/Users/selimozturk/Desktop/books')
 OUTPUT_DIR = Path(__file__).parent.parent / "books"
 
 
-def get_chapters(file_path: Path)->list[Chapter]:
-    """Convert EPUB to markdown. Follow TOC. 
-    
-    Create directories only for numbered chapters (1:, 2:, 3:, etc.).
-    Use actual chapter numbers from TOC.
-    Create markdown files for sections using their section numbers.
-    
-    Example output: 
-        books/
-            book_title/
-                1_Introduction/
-                    1.1_How to use this book.md
-                2_The Nature of Complexity/
-                    2.1_Complexity defined.md
-                    2.2_Symptoms of complexity.md
-                    2.3_Causes of complexity.md
+def get_chapters(book: Book)->list[Chapter]:
     """
-    book = epub.read_epub(file_path)
+    
+    Example toc: 
+        1
+            1.1
+            1.2
+                1.2.1
+                1.2.2
+        2
+            2.1
+            2.2
+
+    example output:
+    [
+        Chapter(
+            title="1 name of the chapter",
+            sections=[
+                Section(
+                    title="1.2 name of the section",
+                    content="contents of 1.2 and its children"
+                )
+            ]
+        ),
+    ]
+            
+    """
+    epub_book = epub.read_epub(book.file_path)
         
     h = html2text.HTML2Text()
     h.ignore_links = True
@@ -63,9 +73,9 @@ def cli():
             title=book_title,
             file_path=file_path,
             toc=get_toc(file_path),
-            chapters=get_chapters(file_path),
             output_dir=OUTPUT_DIR / book_title
         )
+        book.chapters = get_chapters(book)
         save_book(book)
 
 

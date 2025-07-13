@@ -1,9 +1,5 @@
-from ebooklib import epub
 from pathlib import Path
-import html2text
-from util.txt import alphanumeric_only
-from dataclasses import dataclass
-from toc import get_toc
+from dataclasses import dataclass, field
 
 @dataclass
 class Section:
@@ -20,5 +16,5 @@ class Book:
     title: str
     file_path: Path
     toc: str
-    chapters: list[Chapter]
+    chapters: list[Chapter] = field(default_factory=list)
     output_dir: Path
