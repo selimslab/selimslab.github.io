@@ -2,7 +2,7 @@ import re
 
 
 def alphanumeric_only(text):
-    return re.sub(r'[^a-zA-Z0-9 ]', '', text)
+    return re.sub(r'[^a-zA-Z0-9 \-\_\.]', '', text)
 
 
 def split_into_sentences(text):

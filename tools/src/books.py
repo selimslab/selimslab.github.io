@@ -25,18 +25,6 @@ def extract_text_from_page_range(doc, start_page, end_page):
     return sentences
 
 
-def extract_document_toc(doc, file_path):
-    """Extract and validate table of contents from document."""
-    toc = doc.get_toc()
-
-    if not toc:
-        print(f"Warning: No table of contents found in {file_path}")
-        return None
-
-    print(f"Found {len(toc)} entries in {file_path.stem}")
-    return toc
-
-
 def analyze_toc_hierarchy(toc):
     """Analyze TOC structure to determine optimal hierarchy levels."""
     if not toc:
@@ -264,8 +252,7 @@ def extract_chapters(file_path):
         output_dir = setup_book_output_directory(book_name)
 
         with fitz.open(file_path) as doc:
-            toc = extract_document_toc(doc, file_path)
-            
+            toc = doc.get_toc()            
             if process_document_chapters(doc, toc, output_dir):
                 print(f"ok: {file_path}")
             else:
