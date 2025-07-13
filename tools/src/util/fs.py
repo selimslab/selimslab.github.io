@@ -12,18 +12,14 @@ def read_file(filename):
         return f.read()
 
 
-def ensure_clean_directory(directory_path):
-    """Create directory and clean all existing files/subdirectories."""
-    directory = Path(directory_path)
-    directory.mkdir(parents=True, exist_ok=True)
+def clean_directory(dir_path: Path):
 
-    # Clean existing files
-    if directory.exists():
-        for item in directory.glob("*"):
-            if item.is_file():
-                item.unlink()
-            elif item.is_dir():
-                shutil.rmtree(item)
-
-    return directory
+    if not dir_path.exists():
+        return
+    
+    for item in dir_path.glob("*"):
+        if item.is_file():
+            item.unlink()
+        elif item.is_dir():
+            shutil.rmtree(item)
 
