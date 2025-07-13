@@ -265,7 +265,7 @@ def extract_chapters(file_path):
 def cli():
     """Command-line interface for the book chapter extractor."""
     while True:
-        user_input = input("book path: ").strip()
+        user_input = input("pdf path: ").strip()
         
         # Skip empty input
         if not user_input:
