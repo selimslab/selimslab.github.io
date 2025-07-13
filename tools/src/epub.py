@@ -5,6 +5,7 @@ from util.txt import alphanumeric_only
 from util.fs import clean_directory
 from book import Book, Chapter, Section
 from toc import get_toc
+import json
 
 INPUT_DIR = Path('/Users/selimozturk/Desktop/books')
 OUTPUT_DIR = Path(__file__).parent.parent / "books"
@@ -50,7 +51,7 @@ def save_book(book: Book):
 
     toc_file = book.output_dir / "_toc.md"
     with open(toc_file, "w") as f:
-        f.write(book.toc)
+        json.dump(book.toc, f, indent=4)
 
     for chapter in book.chapters:
         chapter_dir = book.output_dir / f"{chapter.title}"
