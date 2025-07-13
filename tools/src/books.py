@@ -1,8 +1,7 @@
 import fitz  # PyMuPDF
 from pathlib import Path
-from util.fs import clean_filename, write_file, ensure_clean_directory
-from rich import print
-from util.txt import split_into_sentences
+from util.fs import write_file, ensure_clean_directory
+from util.txt import split_into_sentences, alphanumeric_only
 
 OUTPUT_DIR = Path(__file__).parent.parent / "books"
 
@@ -89,7 +88,7 @@ def setup_book_output_directory(book_name):
 
 def create_safe_filename(title, counter):
     """Generate a safe filename from title and counter."""
-    clean_title = clean_filename(title)
+    clean_title = alphanumeric_only(title)
     if not clean_title:
         clean_title = f"item_{counter}"
     return f"{counter:02d}_{clean_title}"
@@ -175,7 +174,6 @@ def process_document_chapters(doc, toc, output_dir):
     # Process all TOC entries
     for i, (level, title, page_num) in enumerate(toc):
         # Find the end page for this entry
-        title = clean_filename(title)
         end_page = doc.page_count
         if i + 1 < len(toc):
             end_page = toc[i + 1][2]
@@ -286,7 +284,7 @@ def cli():
         if not user_input:
             continue
 
-        file_path = Path(user_input)
+        file_path = Path('/Users/selimozturk/Desktop/books', user_input)
         extract_chapters(file_path)
 
 
