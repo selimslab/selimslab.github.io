@@ -23,14 +23,6 @@ def get_title(item):
         title = item.label
     elif hasattr(item, 'get_name'):
         title = item.get_name()
-    else:
-        # Only convert to string as last resort and check if it looks like a Python object
-        str_item = str(item)
-        if not (' object at 0x' in str_item):
-            title = str_item
-        else:
-            # This is likely a Python object representation, skip it
-            return ""
     
     if not title or title.lower() == "preface":
         return ""

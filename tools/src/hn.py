@@ -10,8 +10,8 @@ from util.fs import write_file
 from util.web import get_html
 from util.decors import retry
 from util.logs import logger
+from util.cli import cli
 from pathlib import Path
-from rich import print
 
 OUT_FILE = Path(__file__).parent.parent / ".tmp" / "hn.txt"
 
@@ -39,19 +39,16 @@ def get_comments(url):
     return comments
 
 
-def cli():
-    while True:
-        user_input = input("hn comments - url: ").strip()
+def loop(user_input:str):
+    if not (user_input.startswith("http://") or user_input.startswith("https://")):
+        user_input = "https://" + user_input
 
-        if not (user_input.startswith("http://") or user_input.startswith("https://")):
-            user_input = "https://" + user_input
+    comments = get_comments(user_input)
 
-        comments = get_comments(user_input)
+    write_file(OUT_FILE, "\n".join(comments))
 
-        write_file(OUT_FILE, "\n".join(comments))
-
-        print(f"ok: {len(comments)} comments")
+    print(f"ok: {len(comments)} comments")
 
 
 if __name__ == "__main__":
-    cli()
+    cli(loop, "url: ")
