@@ -13,10 +13,8 @@ def read_file(filename):
 
 
 def clean_directory(dir_path: Path):
-
     if not dir_path.exists():
         return
-    
     for item in dir_path.glob("*"):
         if item.is_file():
             item.unlink()

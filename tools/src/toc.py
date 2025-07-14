@@ -1,57 +1,82 @@
 from pathlib import Path
 from ebooklib import epub
+from collections import defaultdict
+from util.cli import cli
+import json
+from util.txt import alphanumeric_only
 
-def get_toc(file_path: Path) -> dict:
-    book = epub.read_epub(file_path)
-    
-    def collect_toc_item(item):
-        """Recursively collect TOC items as nested JSON structure."""
+def visit_toc(toc, func):
+    for item in toc:
         if isinstance(item, tuple):
-            # This is a section with title and sub-items
-            if len(item) == 2:
-                section_title, sub_items = item
-                
-                # Get the title
-                if hasattr(section_title, 'title'):
-                    title = section_title.title
-                elif isinstance(section_title, str):
-                    title = section_title
-                else:
-                    title = str(section_title)
-                
-                # Collect sub-items recursively
-                children = []
-                for sub_item in sub_items:
-                    children.append(collect_toc_item(sub_item))
-                
-                return {
-                    "title": title,
-                    "children": children
-                }
+            title, children = item
+            func(title, children)
         else:
-            # This is a single item (Link or Chapter)
-            if hasattr(item, 'title'):
-                title = item.title
-            elif hasattr(item, 'get_name'):
-                title = item.get_name()
-            else:
-                title = str(item)
-            
-            return {
-                "title": title
-            }
-    
-    # Build the table of contents structure
-    if hasattr(book, 'toc') and book.toc:
-        toc_items = []
-        for item in book.toc:
-            toc_items.append(collect_toc_item(item))
-        
-        return {
-            "table_of_contents": toc_items
-        }
+            func(item)
+
+def get_title(item):
+    title = ""
+    # Handle different types of TOC items more robustly
+    if hasattr(item, 'title'):
+        title = item.title
+    elif hasattr(item, 'label'):
+        # Some items might use 'label' instead of 'title'
+        title = item.label
+    elif hasattr(item, 'get_name'):
+        title = item.get_name()
     else:
-        return {
-            "table_of_contents": [],
-            "message": "No table of contents found in this EPUB file."
-        }
+        # Only convert to string as last resort and check if it looks like a Python object
+        str_item = str(item)
+        if not (' object at 0x' in str_item):
+            title = str_item
+        else:
+            # This is likely a Python object representation, skip it
+            return ""
+    
+    if not title or title.lower() == "preface":
+        return ""
+    return alphanumeric_only(title.strip())
+
+def build_toc_dict(toc):
+    toc_dict = defaultdict(dict)
+    
+    def process_item(*args):
+        if len(args) == 2:
+            # This is a section with subitems: (title, children)
+            title, children = args
+            section_title = get_title(title)
+            toc_dict[section_title] = build_toc_dict(children)
+        else:
+            # This is a simple item
+            item = args[0]
+            title = get_title(item)
+            toc_dict[title] = {}
+    
+    visit_toc(toc, process_item)
+    return { k:v for k,v in toc_dict.items() if k }
+
+
+def get_toc_dict(file_path: Path) -> dict:
+    """
+    Get the table of contents from an EPUB file.
+    just return a nested dict, all keys and vals are titles.
+
+    """
+    book = epub.read_epub(file_path)
+    if not book:
+        raise ValueError("Failed to read EPUB file")
+    return build_toc_dict(book.toc)
+
+
+def get_all_tocs_in_dir(user_input:str):
+
+    dir_path = Path(user_input)
+    tocs = {}
+    for file_path in dir_path.rglob("*.epub"):
+        tocs[file_path.stem] = get_toc_dict(file_path)
+    
+    with open("tocs.json", "w") as f:
+        json.dump(tocs, f, indent=4)
+
+
+if __name__ == "__main__":
+    cli(get_all_tocs_in_dir, "dir path: ")

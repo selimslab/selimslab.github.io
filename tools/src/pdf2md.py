@@ -1,10 +1,13 @@
+#!/usr/bin/env -S uv run --script
+# /// script
+# dependencies = ["PyMuPDF", "rich"]
+# ///
 import fitz  # PyMuPDF
 from pathlib import Path
-from util.fs import write_file, ensure_clean_directory
+from util.fs import write_file, clean_directory
 from util.txt import split_into_sentences, alphanumeric_only
-
-OUTPUT_DIR = Path(__file__).parent.parent / "books"
-
+from util.cli import cli
+import sys
 
 def extract_text_from_page_range(doc, start_page, end_page):
     """Extract and clean text content from a range of pages."""
@@ -68,10 +71,6 @@ def print_toc_structure_info(structure):
         print(f"  Subsection levels: {[l for l in structure['unique_levels'] if l > structure['section_level']]}")
 
 
-def setup_book_output_directory(book_name):
-    """Set up and clean the output directory for a book."""
-    output_dir = OUTPUT_DIR / book_name
-    return ensure_clean_directory(output_dir)
 
 
 def create_safe_filename(title, counter):
@@ -225,7 +224,7 @@ def process_document_chapters(doc, toc, output_dir):
     return True
 
 
-def extract_chapters(file_path):
+def extract_chapters(file_path:Path):
     """Extract chapters from document and save them as markdown files."""
     try:
         # Validate input path
@@ -249,7 +248,9 @@ def extract_chapters(file_path):
             print(f"Error: Unsupported file type: {file_path.suffix}")
             return
 
-        output_dir = setup_book_output_directory(book_name)
+        output_dir = file_path.parent / book_name
+        clean_directory(output_dir)
+        output_dir.mkdir(parents=True, exist_ok=True)
 
         with fitz.open(file_path) as doc:
             toc = doc.get_toc()            
@@ -262,18 +263,20 @@ def extract_chapters(file_path):
         print(f"Error: {file_path}: {str(e)}")
 
 
-def cli():
-    """Command-line interface for the book chapter extractor."""
-    while True:
-        user_input = input("pdf path: ").strip()
-        
-        # Skip empty input
-        if not user_input:
-            continue
+def loop(user_input:str):
+    file_path = Path(user_input)
+    extract_chapters(file_path)
 
-        file_path = Path('/Users/selimozturk/Desktop/books', user_input)
+
+def main():
+    """Main entry point for command line usage."""
+    if len(sys.argv) > 1:
+        # Use command line argument
+        file_path = Path(sys.argv[1])
         extract_chapters(file_path)
-
+    else:
+        # Fall back to interactive mode
+        cli(loop, "pdf path: ")
 
 if __name__ == "__main__":
-    cli()
+    main()
