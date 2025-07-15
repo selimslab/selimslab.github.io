@@ -8,6 +8,7 @@ from util.fs import write_file, clean_directory
 from util.txt import split_into_sentences, alphanumeric_only
 from util.cli import cli
 import sys
+import re
 
 def extract_text_from_page_range(doc, start_page, end_page):
     """Extract and clean text content from a range of pages."""
@@ -61,24 +62,42 @@ def analyze_toc_hierarchy(toc):
     }
 
 
-def print_toc_structure_info(structure):
-    """Print information about the detected TOC structure."""
-    if structure:
-        print(f"Detected structure:")
-        print(f"  Levels found: {structure['unique_levels']}")
-        print(f"  Folder levels: {structure['folder_levels']}")
-        print(f"  Section level: {structure['section_level']}")
-        print(f"  Subsection levels: {[l for l in structure['unique_levels'] if l > structure['section_level']]}")
-
-
-
-
 def create_safe_filename(title, counter):
     """Generate a safe filename from title and counter."""
     clean_title = alphanumeric_only(title)
     if not clean_title:
         clean_title = f"item_{counter}"
-    return f"{counter:02d}_{clean_title}"
+    
+    # Check if title is naturally sortable (contains numbers that make it sortable)
+    if is_naturally_sortable(clean_title):
+        return clean_title
+    else:
+        return f"{counter:02d}_{clean_title}"
+
+
+def is_naturally_sortable(title):
+    """Check if a title contains numbers that make it naturally sortable."""
+    
+    # Look for patterns that suggest natural ordering:
+    # - Chapter/Section/Part followed by number
+    # - Number at the beginning
+    # - Number followed by period or space
+    patterns = [
+        r'^\d+',  # Starts with number
+        r'chapter\s*\d+',  # Chapter followed by number
+        r'section\s*\d+',  # Section followed by number
+        r'part\s*\d+',  # Part followed by number
+        r'\d+\.\d+',  # Decimal numbering (1.1, 2.3, etc.)
+        r'\d+\s',  # Number followed by space
+        r'\d+\.'   # Number followed by period
+    ]
+    
+    title_lower = title.lower()
+    for pattern in patterns:
+        if re.search(pattern, title_lower):
+            return True
+    
+    return False
 
 
 def save_section_content(directory, filename, content_list):
@@ -139,7 +158,6 @@ def process_document_chapters(doc, toc, output_dir):
     
     # Analyze and show structure
     structure = analyze_toc_hierarchy(toc)
-    print_toc_structure_info(structure)
     
     # Save TOC as index
     save_toc_index(output_dir, toc)
@@ -174,7 +192,7 @@ def process_document_chapters(doc, toc, output_dir):
             
             # Clear path for this level and below
             for l in list(current_path.keys()):
-                if l >= level:
+                if l > level:  # Changed from l >= level
                     del current_path[l]
                     counters[l] = 0
             
@@ -193,7 +211,7 @@ def process_document_chapters(doc, toc, output_dir):
             
             # Clear section-level path
             for l in list(current_path.keys()):
-                if l >= level:
+                if l > level:  # Changed from l >= level
                     del current_path[l]
                     counters[l] = 0
             
