@@ -63,7 +63,7 @@ Think step by step. I want an expert-level depth.
 2. Analyze the findings and present the result as a Summary
 
 ### Edit 
-Rewrite each section and paragraph using writing rules. Preserve original meaning and content. Keep document structure and image links. 
+Rewrite each section using writing rules. Preserve original meaning and content. Keep document structure and image links. Process long files part by part.  
 
 ### Summarize
 Create a comprehensive summary
@@ -80,8 +80,7 @@ major branch 1
 ```
 
 ### Analyze 
-Apply critical thinking. Question ideas and how they connect. 
-Return a list of points and your answers to them, eg. assumptions, weak points, errors, missing parts, questions. 
+Return a simple list important questions about key concerns and your answers to them. eg. assumptions, weak points, errors, missing parts, criticism, etc.  
 
 ### Code
 1. Think step by step. Show your reasoning 
