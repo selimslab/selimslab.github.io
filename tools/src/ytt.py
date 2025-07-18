@@ -79,7 +79,7 @@ def process_single_video(video_id):
 
 def cli():
     while True:
-        user_input = input("yt transcript - video/playlist url or id: ").strip()
+        user_input = input("video/playlist url or id: ").strip()
         
         # Check if it's a playlist URL
         if "playlist?list=" in user_input:
