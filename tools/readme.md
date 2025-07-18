@@ -6,8 +6,7 @@ emd epub_path
 pmd pdf_path
 
 
-## add new 
+ 
+vim ~/.zshrc
 
-    nano ~/.zshrc
-
-    source ~/.zshrc
+source ~/.zshrc
