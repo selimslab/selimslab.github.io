@@ -2,15 +2,11 @@
 
 from pathlib import Path
 import sys
-from util.txt import alphanumeric_only
 
-def rename(file:Path):
+def summarize(file:Path):
     with open(file, 'r') as f:
-        first_line = f.readline()
-        title = alphanumeric_only(first_line).split('.')[-1].strip()
-        new_path = file.parent / f"{file.stem}-{title}{file.suffix}"
-    file.rename(new_path)
-
+        text = f.read()
+    print(text)
 
 def visit(dir:Path):
     for file in dir.iterdir():
