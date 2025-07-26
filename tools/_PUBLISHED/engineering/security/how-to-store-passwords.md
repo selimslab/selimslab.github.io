@@ -1,5 +1,4 @@
 ---
-title: How to store passwords?
 ---
 
 A password should be secure even if the database is compromised. So we store a derived value instead. The result of a one-way function. And we call this a hash function. 

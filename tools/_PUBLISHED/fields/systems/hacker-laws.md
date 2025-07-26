@@ -1,8 +1,5 @@
 ---
-title: Hacker Laws
 --- 
-
-## tldr 
 
 All models are wrong, but some are useful
 
@@ -14,8 +11,4 @@ Anything that can go wrong will go wrong
 
 80-20 
 
-## See also 
-
 <https://github.com/dwmkerr/hacker-laws>
-
-[[akins-laws-of-spacecraft]]

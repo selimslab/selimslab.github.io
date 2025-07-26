@@ -3,15 +3,15 @@
 
 feat  
 fix   
-del : delete   
+del: delete   
 deps: dependencies  
 docs  
-ref : refactor  
+ref: refactor  
 test  
 perf  
 sec  
 db  
 api  
 ui  
-ops : operations, builds, CI/CD
+ops: builds, CI/CD
 

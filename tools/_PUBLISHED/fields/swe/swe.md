@@ -1,5 +1,8 @@
 ---
+layout: dir
 ---
+
+## analogies 
 
 All models are wrong but some are useful
 - Building, "architecture", "development"
