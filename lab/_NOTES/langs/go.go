@@ -1,14 +1,14 @@
 
 
-## Go data races 
+// Data races 
 
-<https://www.uber.com/en-CZ/blog/data-race-patterns-in-go/>
+// <https://www.uber.com/en-CZ/blog/data-race-patterns-in-go/>
 
-Atomic ops   
-sync.Mutex
+import(
+    "sync"
+    "sync/atomic"
+)
 
-
-```go
 func worker(counter *atomic.Int64) {
     counter.Add(1) 
 }
@@ -22,13 +22,11 @@ go func() {
     s = append(s, 1) 
     mu.Unlock()
 }()
-```
 
-## Basics
 
-- [Go by Example](https://gobyexample.com/)
+// basics
+// [Go by Example](https://gobyexample.com/)
 
-```go
 
 var x []string{"a", "b"}
 
@@ -54,9 +52,9 @@ for i := 0; i<len(twoD); i++ {
     twoD[i] = make([]int, innerLen)
     ... 
 }
-```
 
-```go
+
+
 
 import(
     "fmt"
@@ -89,10 +87,7 @@ if maps.Equal(m, m2) {
 
 clear(m)
 
-```
 
-
-```go
 
 func sum(a int, b int){
     return a + b
@@ -130,9 +125,9 @@ c() // 2
 c() // 3
 
 
-```
 
-```go
+
+
 
 i, j := 3, 5 
 
@@ -172,4 +167,3 @@ const (
     Failed
 )
 
-```

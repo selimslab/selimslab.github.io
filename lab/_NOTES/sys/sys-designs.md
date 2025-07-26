@@ -1,4 +1,21 @@
 
+
+## maps 
+
+r-tree 
+
+s2 
+
+
+## music 
+
+## video
+
+## payments 
+
+
+
+
 ## docs 
 
 metadata in rds 
@@ -38,19 +55,6 @@ new key per day
 it's not real time and uses more memory than streaming
 
 streaming can make sense if you need sub-minute latency or complex event processing. eg. flink, kafka-streams 
-
-## maps 
-
-r-tree 
-
-s2 
-
-
-## music 
-
-## video
-
-## payments 
 
 
 

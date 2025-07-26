@@ -1,6 +1,22 @@
 ---
-title: Take a walk
 ---
+
+
+exercise
+- better sleep 
+- more energy 
+- strength 
+- better posture
+- clear mind
+
+
+sleep
+- no alcohol or caffeine
+- sunlight
+- exercise
+- daily routines 
+
+## Take a walk 
 
 Get some sleep 
 
@@ -13,6 +29,3 @@ Grinding your wheels won't solve your problem
 Give your mind some space 
 
 ![Solvitur ambulando, its solved by walking](/assets/static/img/take-a-walk.png)
-
-
-
