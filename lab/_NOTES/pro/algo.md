@@ -49,3 +49,15 @@ Where A is the alphabet size and n is the string length
 `H("ur") = 128^1 * code(u) + 128^0 * code(r)`
 
 For ASCII, A=128 possible chars
+
+## LPS
+longest prefix suffix 
+ABAB lcs=2 since AB - AB
+
+## KMP 
+search patterrn in txt, 
+two ptrs: txt ptr and pattern ptr 
+txt ptr always move ahead
+if mismatch happens at x, move pattern ptr to lcs[x-1]
+
+
