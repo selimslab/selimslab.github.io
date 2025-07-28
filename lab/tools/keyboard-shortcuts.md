@@ -3,38 +3,44 @@
 
 
 ## Tab navigation 
-    `Tab` and `Shift+Tab` move focus
-    `Shift+Enter` open in a new window
-    `Ctrl+Enter` open in a new tab
+
+move focus: `tab` and `shift+tab` 
+
+open in a new window: `shift+enter` 
+
+open in a new tab: `ctrl+enter` 
 
 ## Mac terminal
 
-    Clear line: cmd U 
+Clear line: `cmd u` 
 
 ## VSCode 
 
-    Multiple cursors: option + shift + click
+Multiple cursors: option + shift + click
 
-    Go top: cmd ⬆️
-    Go bottom: cmd ⬇️
+Go top: cmd ⬆️
+Go bottom: cmd ⬇️
 
-    Zoom in: cmd shift 0 
-    Zoom out: cmd - 
+Zoom in: cmd shift 0 
 
-    Select next occurrence: cmd D
-    Select all occurrences: cmd + shift + L
+Zoom out: cmd - 
 
-    Fold all: Ctrl + K + 0
-    Unfold all: Ctrl + K + J
+Select next occurrence: cmd d
 
-    Swith to explorer: cmd 0 
+Select all occurrences: cmd + shift + L
+
+Fold all: ctrl + K + 0
+
+Unfold all: ctrl + K + J
+
+Swith to explorer: cmd 0 
 
 
 ## VS 
 
-    CTRL + M + O collapse all.
+ctrl + M + O collapse all.
 
-    CTRL + M + L expand all
+ctrl + M + L expand all
 
 
 [[accessibility]]

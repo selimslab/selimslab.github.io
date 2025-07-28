@@ -17,6 +17,10 @@ For harder reasoning questions: Think step by step:
 4. Apply all relevant skills 
 5. Synthesize
 
+
+## commands 
+/as: analyze and synthesize
+
 ## Skills 
 
 ### Analysis

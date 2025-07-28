@@ -11,8 +11,6 @@ learning
 - [Database Sharding Explained](https://architecturenotes.co/p/database-sharding-explained)
 - [AI Blindspots](https://ezyang.github.io/ai-blindspots/)
 
-readings
-
 
 blogs 
 - [Home — Gordon Brander](https://gordonbrander.com/)

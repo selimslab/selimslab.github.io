@@ -1,5 +1,7 @@
 
 
+
+
 ## bit 
 ```c
 get:    & 1<<i
@@ -30,6 +32,12 @@ bfs: q
 dfs: recurse or stack 
 topo: dfs from each node, add node to a list only after its neighbors, reverse the list
 
+## vector search 
+
+Approximate Nearest Neighbors ANN
+
+Hierarchical Navigable Small World (HNSW)
+
 ## rabin-karp 
 
 Search a small string in a big string, in linear time, using a rolling hash 
@@ -57,4 +65,8 @@ two ptrs: txt ptr and pattern ptr
 txt ptr always move ahead
 if mismatch happens at x, move pattern ptr to lcs[x-1]
 
+## dynamic 
 
+discrete, independent sub-problems
+
+recursion and memoization
