@@ -24,3 +24,11 @@ For high stake cases:
 - multiple checks and balances 
 
 
+## docs 
+
+<https://diataxis.fr/>
+
+ref
+exp 
+howto
+tutorial

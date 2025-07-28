@@ -1,1 +1,1 @@
-Analyze and synthesize into a comprehensive summary
+Analyze material and identify key ideas, synthesize to a list 

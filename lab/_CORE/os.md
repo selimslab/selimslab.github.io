@@ -55,9 +55,22 @@ send() recv()
 
 array of bytes 
 
-inodes 
+file descriptor: integer handle for open files  
 
-access levels 
+inodes: persistent struct with file metadata   
+
+mount point: dir where file sys is attached to tree 
+
+permission bits: rwx - read, write, execute 
+
+rwx rwx rwx : owner group other
+
+access control lists for more control 
+
+fsync()
+
+rename() for atomic file updates 
+
 
 
 ## containers 

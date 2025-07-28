@@ -36,6 +36,8 @@ By default, XMLHttpRequest or fetch APIs allows same-origin only
 
 You can verify resource `integrity` or disallow iframes 
 
+Access-Control-Allow-(origin-methods-headers)
+
 ## CSRF
 
 Cross-site request forgery  

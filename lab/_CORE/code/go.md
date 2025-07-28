@@ -1,6 +1,43 @@
 
 
-// Data races 
+
+## Types 
+
+```go
+// basic types
+int/uint 8 16 32 64 
+floaat 32 64
+complex 64 128 
+bool
+string 
+byte: alias for uint8
+rune: alias for int32 (4-byte utf8 unicode code point)
+
+// composite types 
+[5]int
+
+[]int
+
+map[string]int
+
+type Person struct {
+    Name string
+}
+
+*ptr 
+
+func(a int) string 
+
+interface {}
+
+chan int 
+```
+
+
+
+## Data races 
+
+```go
 
 // <https://www.uber.com/en-CZ/blog/data-race-patterns-in-go/>
 
@@ -22,22 +59,19 @@ go func() {
     s = append(s, 1) 
     mu.Unlock()
 }()
+```
 
+## Array, slice 
 
-// basics
-// [Go by Example](https://gobyexample.com/)
-
+```go
 
 var x []string{"a", "b"}
 
 s := make([]int, 5)
 
-s[0] = 1
-
 s = append(s, 2, 3)
 
 for i, num := range s {
-    fmt.Println(i, num)
 }
 
 c := make([]int, len(s))
@@ -46,16 +80,20 @@ c = copy(c,s)
 
 twoD := make([][]int, 5)
 
-
 for i := 0; i<len(twoD); i++ {
     innerLen := i+1
     twoD[i] = make([]int, innerLen)
     ... 
 }
 
+```
 
 
+## Maps 
 
+```go
+
+// Maps 
 import(
     "fmt"
     "maps"
@@ -63,47 +101,36 @@ import(
 
 m := make(map[string]int)
 
-m["k1"] = 6
-
-m["k2"] = 7
 
 for k, v := range m {
-    fmt.Println(k,v)
 }
 
 for k := range m {
-    ...
 }
 
-delete(m, "k1")
+delete(m, k)
 
-m2 := make(map[string][int])
-
-m2["k2"] = 7
-
-if maps.Equal(m, m2) {
-    fmt.Println("m == m2")
+if maps.Equal(m1, m2) {
 }
 
 clear(m)
 
+```
 
 
-func sum(a int, b int){
-    return a + b
-}
 
-func sum(a,b,c int){
-    return a + b + c
-}
 
-func sum(nums ...int){
-    total := 0 
-    for _, num := range nums {
-        total += num
-    }
-    return total
-}
+## Funcs, methods, interfaces
+
+
+```go
+
+// funcs
+func sum(a int, b int)
+
+func sum(a,b,c int)
+
+func sum(nums ...int)
 
 func point() (int, int) {
     return 3,5
@@ -125,10 +152,7 @@ c() // 2
 c() // 3
 
 
-
-
-
-
+// Pointers
 i, j := 3, 5 
 
 p := &i // point to i 
@@ -139,7 +163,6 @@ type Point struct{
     x int
     y int
 }
-
 
 p := Point{1,2}
 pp := &p
@@ -167,3 +190,35 @@ const (
     Failed
 )
 
+```
+
+
+## Concurrency 
+```go 
+
+var mu sync.RWMutex
+mu.Lock()
+sharedData = newValue
+mu.Unlock()
+
+
+var wg sync.WaitGroup
+wg.Add(1)
+go func() {
+    defer wg.Done()
+    // work
+}()
+wg.Wait()
+
+```
+
+
+## Files 
+
+```go
+file, err := os.Open("file.txt")
+if err != nil {
+    return err
+}
+defer file.Close()
+```

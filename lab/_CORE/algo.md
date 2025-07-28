@@ -32,23 +32,20 @@ topo: dfs from each node, add node to a list only after its neighbors, reverse t
 
 ## rabin-karp 
 
-Search a small string in a big string
+Search a small string in a big string, in linear time, using a rolling hash 
 
-In linear time, using a rolling hash 
+big = "nature does not hurry" small = "ur"
 
-big = "nature does not hurry"
-
-small = "ur"
-
-O(big.small) becomes O(big+small)
+O(b.s) becomes O(b+s)
 
 Rabin fingerprint `H(str) = A^(n-1) + ... + A^0`
 
-Where A is the alphabet size and n is the string length 
+Where A is the alphabet size, for ascii, A=128 possible chars
+
+n is the string length 
 
 `H("ur") = 128^1 * code(u) + 128^0 * code(r)`
 
-For ASCII, A=128 possible chars
 
 ## LPS
 longest prefix suffix 
