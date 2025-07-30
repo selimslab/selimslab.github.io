@@ -7,7 +7,6 @@ def alphanumeric_only(text: str) -> str:
     
     return re.sub(r'[^a-zA-Z0-9\-\_\.]', ' ', text)
 
-
 def split_into_sentences(text):
     """Split text into sentences, one per line, adding dots where missing."""
     if not text.strip():

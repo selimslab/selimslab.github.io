@@ -1,5 +1,17 @@
 
 
+
+
+## TLS: Transport layer security
+
+process 1 -- encrypted socket -- process 2
+
+1. handshake 
+2. key exchange: first asym. then sym. shared key 
+3. auth: server sends cert, client verifies 
+4. encrypt all data using shared sym. key and AES, etc. 
+5. verify integrity with crpt. hashes. tls 1.2 used HMAC. Add a signature/seal to each msg. sign = MAC(secret_key, msg)
+
 ## Certificates 
 
 How do we know a public key really belongs to Alice? Anyone can claim they are Alice

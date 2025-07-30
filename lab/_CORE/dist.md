@@ -96,3 +96,30 @@ Partition tolerance: Gossip, Emergent Leader
 Ordering: Lamport Clock, Vector Clock, Hybrid Clock
 Performance: Pipelining, Batching, Follower Reads
 Coordination: Leader/Followers, Consensus, Consistent Core
+
+## detect failures 
+
+heartbeats, pings  
+- phi accrual: adapt to network conditions. prob. dist. of heartbeat arrivals in a sliding window
+
+lease: timeout 
+
+gossip 
+
+
+## replication 
+
+
+consistency models
+- causal: vector clocks 
+- sequential: operation appear consistent with process execution order
+- linearizable: needs consensus 
+
+session models
+- read own writes 
+- monotonic reads
+- monotonic writes 
+- write-after-read
+
+
+

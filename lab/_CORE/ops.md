@@ -1,11 +1,11 @@
 
 
 ## Obs. 
+
 OpenTelemetry → Prometheus (metrics) + Loki (logs) + Jaeger (traces) → Grafana (visualization)
 
 loki compresses logs, indexes tags only. grep only. no full text search 
 
----
 
 Percentiles can't be aggregated 
 
