@@ -16,6 +16,8 @@ layout: delta
 
 [Typewriter](/typewriter/)
 
+[Arts](/arts/)
+
 
 <script src="/assets/js/moment.min.js"></script>
 <script src="/assets/js/datetime.js"></script>
