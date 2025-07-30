@@ -1,1 +1,0 @@
-Analyze material, synthesize into a list of key practical concepts/ideas

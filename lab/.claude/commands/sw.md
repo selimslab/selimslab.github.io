@@ -1,1 +1,0 @@
-Analyze material and identify key concepts. List how these concepts are applied in real practical work, with examples
