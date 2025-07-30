@@ -31,7 +31,9 @@ const setIdeaIdx = (filename, idx) => {
 const getNextIdea = async (filename) => {
   if (!filename) {
     const ideaFiles = ['lyrics', 'phil', 'humor', 'psy', 'work', 'pols', 'lit', 'films'];
-    filename = ideaFiles[Math.floor(Math.random() * ideaFiles.length)];
+    const typingFiles = ['lyrics', 'lit', 'films'];
+
+    filename = typingFiles[Math.floor(Math.random() * typingFiles.length)];
   }
   await readIdeas(filename);
   let idx = getIdeaIdx(filename);

@@ -16,21 +16,6 @@ layout: delta
 
 [Typewriter](/typewriter/)
 
-<br>
-
-[Arts](/arts/)
-
-[Engineering](/engineering/)
-
-[Fields](/fields/)
-
-[Systems](/systems/)
-
-<br>
-
-[Experiments](/exp/)
-
-[Tools](/tools/)
 
 <script src="/assets/js/moment.min.js"></script>
 <script src="/assets/js/datetime.js"></script>
