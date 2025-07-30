@@ -303,59 +303,29 @@
       "title": "Tekeler Köyü Zeybeği"
     }
   ],
-  "vadi": [
-    {
-      "id": "73",
-      "title": "Generic"
-    },
-    {
-      "id": "74",
-      "title": "Gladiator 2009"
-    },
-    {
-      "id": "75",
-      "title": "Gokhan Kirdar: 2004"
-    },
-    {
-      "id": "76",
-      "title": "Gurbet 2003 V2"
-    },
-    {
-      "id": "77",
-      "title": "Gökhan Kırdar： Hırs 2013"
-    },
-    {
-      "id": "78",
-      "title": "Pusu 2003"
-    },
-    {
-      "id": "79",
-      "title": "Öldüm De Uyandım 2007 - V1"
-    }
-  ],
   "world": [
     {
-      "id": "80",
+      "id": "73",
       "title": "Four Winds - Adam Hurst"
     },
     {
-      "id": "81",
+      "id": "74",
       "title": "Françoise Hardy - Le Temps de l'Amour"
     },
     {
-      "id": "82",
+      "id": "75",
       "title": "Kazim Koyuncu - Didou Nana"
     },
     {
-      "id": "83",
+      "id": "76",
       "title": "Lily Was Here"
     },
     {
-      "id": "84",
+      "id": "77",
       "title": "Masâr"
     },
     {
-      "id": "85",
+      "id": "78",
       "title": "Nasimi"
     }
   ]

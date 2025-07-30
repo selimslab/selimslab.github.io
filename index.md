@@ -10,13 +10,15 @@ layout: delta
 
 <br>
 
-[Player](/player/)
 
 [Paintings](/paintings/)
 
+[Player](/player/)
+
+[Poetry](/poetry/)
+
 [Typewriter](/typewriter/)
 
-[Arts](/arts/)
 
 
 <script src="/assets/js/moment.min.js"></script>
