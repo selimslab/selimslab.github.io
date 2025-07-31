@@ -8,16 +8,26 @@ layout: delta
 </div>
 
 
+
 <br>
 
 
-[Paintings](/paintings/)
+[paintings](/paintings/)
 
-[Player](/player/)
+[player](/player/)
 
-[Poetry](/poetry/)
+[poems](/poems/)
 
-[Typewriter](/typewriter/)
+[typewriter](/typewriter/)
+
+<br>
+
+[eng](/eng/)
+
+[misc](/misc/)
+
+
+
 
 
 

@@ -67,7 +67,7 @@ class SiteGenerator < Jekyll::Generator
   def initialize_file_to_title(site)
     site.data["file_to_title"] = site.documents
       .select { |doc| doc.respond_to?(:id) && doc.respond_to?(:data) && doc.data["title"] }
-      .to_h { |doc| [doc.id, doc.data["title"]] }
+      .to_h { |doc| [doc.id, doc.data["title"].downcase] }
   end
 
   def log_debug_data(tree, site)

@@ -40,7 +40,7 @@ exclude:
 collections:
   CONTENT:    
     output: true 
-    permalink:  /:title/
+    permalink: /:slug/
 
 defaults:
   -

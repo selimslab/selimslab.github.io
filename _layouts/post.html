@@ -4,7 +4,7 @@ layout: delta
 
 {% include taglist.html %}
 
-<h1>{{ page.title }}</h1>  
+<h1>{{ page.title | downcase }}</h1>  
 
 {% assign words = content | number_of_words | times: 1.0  %}
 
@@ -16,6 +16,7 @@ layout: delta
 
 {{ content }}
 
+<h2>links</h2>
 {% if page.children.size > 0 %}
 {{ site.data.tree_htmls[page.id] }}
 {% endif %}

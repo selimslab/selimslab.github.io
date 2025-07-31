@@ -10,22 +10,24 @@ function getSystemTheme() {
     return window.matchMedia('(prefers-color-scheme: dark)').matches ? THEME_DARK : THEME_LIGHT;
 }
 
+themeToggle.textContent = "🌓";
+
 function setTheme() {
-    // const theme = localStorage.getItem(THEME) || getSystemTheme();
-    const theme = THEME_DARK;
+    const theme = localStorage.getItem(THEME) || THEME_DARK;
+    // const theme = THEME_DARK;
+
     if (theme === THEME_LIGHT) {
         document.documentElement.setAttribute(DATA_THEME, THEME_LIGHT);
-        if (themeToggle) {
-            themeToggle.classList.remove(CLASS_MOON);
-            themeToggle.classList.add(CLASS_SUN);
-        }
+        // if (themeToggle) {
+        //     themeToggle.classList.remove(CLASS_MOON);
+        //     themeToggle.classList.add(CLASS_SUN);
+        // }
     } else {
         document.documentElement.setAttribute(DATA_THEME, THEME_DARK);
-        if (themeToggle) {
-            themeToggle.classList.remove(CLASS_SUN);
-            themeToggle.classList.add(CLASS_MOON);
-        }
-        // themeToggle.textContent = "🌔";
+        // if (themeToggle) {
+        //     themeToggle.classList.remove(CLASS_SUN);
+        //     themeToggle.classList.add(CLASS_MOON);
+        // }
     }
 }
 
