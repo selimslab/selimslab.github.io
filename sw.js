@@ -25,11 +25,9 @@ workbox.core.setCacheNameDetails({
   suffix
 });
 
-const strategy = new NetworkFirst();
-
 registerRoute(
   new RegExp('\/.+'),
-  strategy
+  new StaleWhileRevalidate()
 );
 
 const staticStrategy =  new CacheFirst({
@@ -47,8 +45,9 @@ registerRoute(
 );
 
 workbox.precaching.precacheAndRoute(
-  urls.map(url => ({url}))
+  urls.map(url => ({url, revision: '{{ site.time | date: "%s" }}'}))
 );
+
 
 self.addEventListener('install', (event) => {
   console.log('Service worker installing...');
