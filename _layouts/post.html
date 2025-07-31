@@ -1,5 +1,5 @@
 ---
-layout: delta
+layout: nav
 ---
 
 {% include taglist.html %}
@@ -16,8 +16,10 @@ layout: delta
 
 {{ content }}
 
-<h2>links</h2>
 {% if page.children.size > 0 %}
+{% if content.length %}
+<h2>links</h2>
+{% endif %}
 {{ site.data.tree_htmls[page.id] }}
 {% endif %}
 

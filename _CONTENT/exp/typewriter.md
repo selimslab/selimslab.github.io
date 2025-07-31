@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: navless
 ---
 
 {% include typing.html %}

@@ -1,6 +1,5 @@
 ---
-title: Calendar
-layout: article
+layout: navless
 ---
 
 <br>

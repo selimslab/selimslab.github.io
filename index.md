@@ -1,5 +1,5 @@
 ---
-layout: delta
+layout: nav
 ---
 
 <div class="mono">

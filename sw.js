@@ -25,7 +25,7 @@ workbox.core.setCacheNameDetails({
   suffix
 });
 
-const strategy = new StaleWhileRevalidate();
+const strategy = new NetworkFirst();
 
 registerRoute(
   new RegExp('\/.+'),

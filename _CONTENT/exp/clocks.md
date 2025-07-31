@@ -1,6 +1,5 @@
 ---
-title: Clocks ⏱️
-layout: article
+layout: navless
 ---
 
 {% include clocks.html %}
