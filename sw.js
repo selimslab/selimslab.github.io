@@ -47,7 +47,7 @@ registerRoute(
 );
 
 workbox.precaching.precacheAndRoute(
-  urls.map(url => ({url, revision: null}))
+  urls.map(url => ({url}))
 );
 
 self.addEventListener('install', (event) => {
