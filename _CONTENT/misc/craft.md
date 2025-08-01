@@ -1,6 +1,17 @@
 ---
 ---
 
+tldr: engineering is
+- numbers
+- facts over opinions
+- iteration
+- risk management
+- analytical critical thinking
+- practical realism 
+- comm.
+
+---
+
 1. Engineering is done with numbers. Analysis without numbers is only an opinion.
 
 2. To design a spacecraft right takes an infinite amount of effort. This is why it's a good idea to design them to operate when some things are wrong .

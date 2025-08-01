@@ -1,17 +1,14 @@
 ---
 ---
-## bit 
-```c
-get:    & 1<<i
-set:    | 1<<i
-clear:  & ~(1<<i)
-
-masks
-
--1 << (i+1) // 1111 << 2 = 1100 
-
-(1<<i)-1 // 0100 - 0001 = 0011 
-```
+## backtrack
+    backtrack(current, args):
+        if done:
+            add to results
+            return 
+        if go this way:
+            backtrack(update partial result, updated args)
+        elif go that way:
+            backtrack.. 
 
 ## vector search 
 

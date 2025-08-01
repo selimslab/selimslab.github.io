@@ -1,6 +1,8 @@
 ---
 ---
-## TLS: Transport layer security
+## TLS
+
+Transport layer security
 
 process 1 -- encrypted socket -- process 2
 
@@ -10,23 +12,13 @@ process 1 -- encrypted socket -- process 2
 4. encrypt all data using shared sym. key and AES, etc. 
 5. verify integrity with crpt. hashes. tls 1.2 used HMAC. Add a signature/seal to each msg. sign = MAC(secret_key, msg)
 
-## Certificates 
+## Cert. 
 
-How do we know a public key really belongs to Alice? Anyone can claim they are Alice
+browser and OS have some root CAs pre-config. 
 
-For example, imagine you visit a website claiming to be your bank, how can you trust it?
+CA certifies that a website owns the private key for their public key 
 
-In current world, you trust some entity, and it trusts others. 
-
-Your browser or operating system comes with pre-configured certificate authorities (CA), they are your root certificates
-1. a website shares its public key with a CA 
-2. CA verifies they are the bank indeed, and signs their public key 
-3. the website hands you the certificate 
-
-Yet how do you trust this is signed by the CA indeed? Someone else signed the CAs public key, too. You keep checking the certificates until you reach a trusted root certificate at the bottom 
-
-Its turtles all the way down 
-
+CAs form a tree 
 
 ## Cookies 
 

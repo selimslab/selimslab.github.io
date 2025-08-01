@@ -1,15 +1,5 @@
 ---
 ---
-## from scratch 
-- Electric current: open/close, 0/1
-- Base 2, boolean logic, AND, OR, NOT, IF, logic gates
-- Mechanical switch → vacuum tube → transistor (npn, pnp)
-- Memory cell → bit → byte
-- Program: set of instructions
-- Instruction: opcode and operand (e.g., LOAD 0010, PUSH, POP, JUMP)
-- CPU: ALU, control unit, memory unit
-- Memory, disk
-
 ## boot 
 
 1. bios 
@@ -20,16 +10,16 @@
 6. init PID 1, user space starts
 7. user login 
 
-user space startup, systemd
-1. init PID 1
-2. low level services, daemons, syslogd
+
+## user space startup 
+1. init PID 1 systemd 
+2. low level: daemons, syslogd
 3. network config 
-4. mid level services like cron 
-5. high level, login prompt, gui, apps
+4. mid level: like cron 
+5. high level: login prompt, gui, apps
 
-systemd init system, the first process
 
-it manages units like .service .socket .mount
+systemd is the first process. manages units like .service .socket .mount 
 
 config in /etc/systemd/system/
 
@@ -37,7 +27,7 @@ systemctl: status, start, stop, restart, enable, disable, ..
 
 journalctl 
 
-## Process
+## proc/PID
 
 address space 
 - stack <- SP, stack pointer 
@@ -138,35 +128,4 @@ join
 mutex lock unlock   
 cond wait signal 
 
-
-## networking 
-
-app - transport - internet - phys 
-
-ipv4 32 bits 
-
-ipv6 128 bits, stateless, no dhcp needed
-
-cidr 10.23.2.0/24 = network/mask = freeze first 24 bits
-
-private nets 10.0.0.0/8, 192.168.0.0/16, 172.16.0.0/12
-
-cmds 
-
-ping
-ip: config
-netstat: connections 
-host, sysctl 
-
-
-DHCP auto ip assignment, lease based 
-
-dns resolution: app → library → nsswitch.conf → /etc/hosts → DNS
-
-/etc/services maps port numbers to service names
-
-
-firewall, iptables
-
-NAT: share single public ip for internal network 
 

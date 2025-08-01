@@ -37,30 +37,22 @@ diffie-hellman
 4. exchange pubs 
 5. each arrives at the same secret 
 
-## encryption 
-
-AES (advanced encryption standard)
-- sym 
-- fast, hardware optimized
-- good for bulk encryp. 
-
-RSA (public-key) 
-- asym 
-- public private, key pairs 
-- based on factoring large primes, it's easy to verify factors, but hard to generate
-- slower but more secure for dist. sys. 
-
-
-RSA established conn. exchanges AES key, AES handles the rest 
-
 
 ## Public key cryptography 
 
-asymmetric (uses a pair of keys, one public, one private)
+asymmetric, uses a pair of keys, one public, one private
 
-1. Alice and Bob shares their public keys in the open
+1. Alice and Bob shares public keys in the open
 2. Bob signs his message with his private key, encrypts using Alice's public key 
 3. Only Alice can decrypt the message, then verifies Bob's signature with his public key 
+
+## encryption 
+
+AES (advanced encryption standard): sym. fast, hardware optimized
+
+RSA: public-key, based on factoring large primes, it's easy to verify factors, but hard to generate
+
+RSA establishes conn. exchanges AES key, AES handles the rest 
 
 
 ## Some ideas
@@ -76,9 +68,6 @@ asymmetric (uses a pair of keys, one public, one private)
 - validate, sanitaze, isolate
 
 
-
-
-
 ## TLS: Transport layer security
 
 process 1 -- encrypted socket -- process 2
@@ -87,11 +76,11 @@ process 1 -- encrypted socket -- process 2
 2. key exchange: first asym. then sym. shared key 
 3. auth: server sends cert, client verifies 
 4. encrypt all data using shared sym. key and AES, etc. 
-5. verify integrity with crpt. hashes. tls 1.2 used HMAC. Add a signature/seal to each msg. sign = MAC(secret_key, msg)
+5. verify integrity with crpt. hashes. TLS 1.2 used HMAC. Add a signature/seal to each msg. sign = MAC(secret_key, msg)
 
 ## SSH (secure shell)
 
 1. client connects to ssh server on port 22
-2. negotiate enc. algos and exchange keys
+2. negotiate encr. algos and exchange keys
 3. auth via passwd, public key, etc. 
-4. enc. all data 
+4. encr. all data 

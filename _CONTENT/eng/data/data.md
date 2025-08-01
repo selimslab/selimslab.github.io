@@ -1,7 +1,5 @@
 ---
 ---
-
-
 ## encoding 
 language-specific: eg. python pickle   
 text: eg. json, csv  
@@ -37,3 +35,14 @@ no central coordinator. nodes know each other, and directly communicate
 2. via APIs, eg. REST, RPC  
 3. via message passing, eg. brokers, actors
 
+## Kafka 
+
+- custom wire protocol, no byte copying 
+- batch + pagecache + fsync frequently 
+- sendfile syscall to copy directly from pagecache to network 
+
+## spark 
+
+df 
+
+Delta lake table format: parquet + transaction log and metadata  

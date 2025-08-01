@@ -1,5 +1,17 @@
 ---
 ---
+## auth methods 
+
+basic: base64(user:pass) over https, in every req.
+
+bearer: token (jwt, oauth), stateless
+
+api key: a static identifier, sent via custom header like x-api-key or query param ?apikey
+
+oauth 2.0: access token + refresh token
+
+session-based: cookie with session id, server side session storage 
+
 ## jwt 
 
 base64(header, payload, signature)

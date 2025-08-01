@@ -1,34 +1,25 @@
 ---
-title: OOP
 ---
 
+pillars: 
+- encap. 
+- inher.
+- poly. 
+- abs. 
 
-## Pillars 
-
-Encap: protect data 
-Inh: create a hierarchy 
-Poly: Treat objects in a uniform way
-- Compile time: generics or method overloading 
+poly: treat objects in a uniform way. 
+- Compile time: generics or method overloading (one class, same method name, diff. signs)
 - Runtime: override parent 
-Abstraction: simple interface of a complex sys
 
-## SOLID
-Do one thing 
-Open to extension, closed to modification 
-Children must not break parent contracts
-Separate interfaces
-Inject deps 
+solid:
+- extend vs modify 
+- children must not break parent contracts
 
-## Composition vs inheritance 
+compose by default, inherit when there's a true is-a hierarchy or template pattern
 
-Composition is generally more robust and flexible 
+# Patterns
 
-Inheritance can be better when there is a true is-a hierarchy or for template pattern
-
-
-## Design Patterns
-
-### Create 
+## Create 
 Singleton: app config, logger, connection pools, hardware interface 
 
 Factory and abstract factory: Create one object vs families of related ones. 
@@ -37,7 +28,7 @@ Builder: build step by step, eg. http requests, db queries
 
 Prototype: copy complex objects
 
-### Organize
+## Organize
 
 Adapter: adapt different interfaces 
 
@@ -54,7 +45,7 @@ Flyweight: Share objects. eg. fonts, game assets, map tiles
 Proxy: Controls access to an object. Has the same interface.  eg. permissons, caching, lazy-loading
 
 
-### Behave 
+## Behave 
 
 Observer: observe/notify state changes. Loose coupling. 
 

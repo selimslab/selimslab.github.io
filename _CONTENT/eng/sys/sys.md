@@ -26,7 +26,7 @@ kafka: massive throughput
 
 aws sqs, gcp pub/sub: managed service
 
-### DDD
+## DDD
 
 Shared language 
 
