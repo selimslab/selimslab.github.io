@@ -27,7 +27,7 @@ workbox.core.setCacheNameDetails({
 
 registerRoute(
   new RegExp('\/.+'),
-  new StaleWhileRevalidate()
+  new NetworkFirst()
 );
 
 const staticStrategy =  new CacheFirst({
