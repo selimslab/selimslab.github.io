@@ -14,9 +14,6 @@ layout: nav
 {% endif %}
 
 {% if page.children.size > 0 %}
-{% if content.length %}
-<h2>links</h2>
-{% endif %}
 {{ site.data.tree_htmls[page.id] }}
 <br>
 {% endif %}
