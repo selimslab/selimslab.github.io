@@ -12,7 +12,6 @@ class DataInitializer < Jekyll::Generator
     site.data["tree_htmls"] = {}
     site.data["tree_level_order"] = {}
     initialize_backlinks(site)
-    initialize_file_to_tag(site)
     initialize_file_to_title(site)
   end
 
@@ -20,10 +19,6 @@ class DataInitializer < Jekyll::Generator
     site.documents
       .select { |doc| doc.respond_to?(:data) }
       .each { |doc| doc.data['backlinks'] ||= [] }
-  end
-
-  def initialize_file_to_tag(site)
-    site.data["file_to_tag"] = site.data["tag_to_file"].invert
   end
 
   def initialize_file_to_title(site)

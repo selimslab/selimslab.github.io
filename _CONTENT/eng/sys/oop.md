@@ -17,6 +17,16 @@ solid:
 
 compose by default, inherit when there's a true is-a hierarchy or template pattern
 
+
+## DDD
+shared language 
+
+bounded context, boundaries of the area where terms are relevant 
+
+domain models and core logic, independent of technology
+
+alternatives: relational, ux, math 
+
 # Patterns
 
 ## Create 

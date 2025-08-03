@@ -22,6 +22,8 @@ layout: nav
 
 <br>
 
+[art](/art/)
+
 [eng](/eng/)
 
 [misc](/misc/)

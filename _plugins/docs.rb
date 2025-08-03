@@ -67,13 +67,12 @@ class DocumentProcessor < Jekyll::Generator
   def tags_to_backlinks(doc, site)
     return unless doc.respond_to?(:data) && doc.data["tags"]
     
-    tag_to_file = site.data["tag_to_file"]
     doc_id = doc.respond_to?(:id) ? doc.id : nil
 
     # Process each tag in the document
     doc.data["tags"].each do |tag|
       # Get the file ID for this tag
-      tag_file_id = tag_to_file.key?(tag) ? "/#{tag_to_file[tag]}" : "/#{tag}"
+      tag_file_id = "/#{tag}"
       
       # Find the document corresponding to this tag
       tagged_doc = site.documents.find { |d| d.respond_to?(:id) && d.id == tag_file_id }
@@ -91,16 +90,12 @@ class DocumentProcessor < Jekyll::Generator
   def replace_links_in_content(doc, site)
     return unless doc.respond_to?(:content) && doc.respond_to?(:data)
     
-    tag_to_file = site.data["tag_to_file"]
     file_to_title = site.data["file_to_title"]
     
     # Find all wiki-style links [[link]] and replace them with markdown links
     doc.content.scan(/\[\[[a-z0-9-]*\]\]/).each do |link|
       # Extract the target from the wiki link (remove the brackets)
       target = link[2...-2]  # Changed from [2...-1] to [2...-2] to remove both closing brackets
-      
-      # If the target is in tag_to_file, use that mapping
-      target = tag_to_file["/#{target}"] if tag_to_file.key?("/#{target}")
       
       # Get the title for the target
       title = file_to_title["/#{target}"]

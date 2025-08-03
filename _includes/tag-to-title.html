@@ -4,10 +4,6 @@
 
 {% assign file = tag %} 
 
-{% if site.data.tag_to_file contains tag %} 
-    {% assign file = site.data.tag_to_file[tag] %} 
-{% endif %}
-
 {% assign fileid = "/" | append: file %} 
 
 {% assign title = fileid %} 

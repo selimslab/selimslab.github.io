@@ -17,3 +17,6 @@ special hardware
 rtos:  
 no virtual memory   
 priority based scheduling with guaranteed time slices 
+
+heapsort for in place nlogn sorting 
+
