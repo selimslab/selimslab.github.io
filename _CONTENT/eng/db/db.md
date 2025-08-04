@@ -68,27 +68,10 @@ lsm: 10x w, 0.5x r
 rdmbs limits: 100 tb vertical, 10-50 reps. 
 
 
-## Nosql 
-
-### wide-column stores 
-
-column families 
-
-Cassandra, HBase, BigTable, DynamoDB
-
-
 
 ## Cost 
 
 cloud vs on-prem for dbs: cloud is 2-3x costlier yet starts to make sense after 50-100TB
-
-
-## key concepts 
-PK
-FK
-indexes 
-idempotence 
-normalization 
 
 
 

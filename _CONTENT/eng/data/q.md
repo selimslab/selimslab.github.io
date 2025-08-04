@@ -21,15 +21,14 @@ at most once: fire and forget
 
 at least once: retry 
 
-exactly once: idemp. , tx, 2pc 
+exactly once: idemp + atomic commits 
 
 ## work qs
 
-...
+celery
+
+retry logic, dead-letter q, job status 
 
 
-## Kafka 
 
-- custom wire protocol, no byte copying 
-- batch + pagecache + fsync frequently 
-- sendfile syscall to copy directly from pagecache to network 
+

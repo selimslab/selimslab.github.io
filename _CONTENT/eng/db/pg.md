@@ -4,6 +4,130 @@ update skip locked
 
 select for update 
 
+
+
+  ⏺ PostgreSQL Index Examples
+
+  B-tree (Default)
+  CREATE INDEX idx_users_email ON users (email);
+  CREATE INDEX idx_orders_date ON orders (created_at DESC);
+
+  Composite
+  CREATE INDEX idx_orders_user_date ON orders (user_id,
+  created_at);
+
+  Partial
+  CREATE INDEX idx_active_users ON users (email) WHERE active =
+  true;
+
+  Expression
+  CREATE INDEX idx_users_lower_email ON users (lower(email));
+  CREATE INDEX idx_orders_total ON orders ((price * quantity));
+
+  Unique
+  CREATE UNIQUE INDEX idx_users_email_unique ON users (email);
+
+  GIN (JSON/Arrays)
+  CREATE INDEX idx_products_tags ON products USING gin (tags);
+  CREATE INDEX idx_users_metadata ON users USING gin (metadata);
+
+  GiST (Full-text)
+  CREATE INDEX idx_articles_search ON articles USING gist
+  (to_tsvector('english', content));
+
+  Hash
+  CREATE INDEX idx_users_id_hash ON users USING hash (user_id);
+
+  BRIN (Large Tables)
+  CREATE INDEX idx_logs_timestamp ON logs USING brin (created_at);
+
+  Covering Index
+  CREATE INDEX idx_orders_cover ON orders (user_id) INCLUDE
+  (total, status);
+
+---
+
+  Standard Indexes
+
+  - B-tree - Default index for equality/range queries, supports
+  ordering
+  - Hash - Fast equality lookups only, no range queries
+  - GiST (Generalized Search Tree) - Extensible for geometric
+  data, full-text search
+  - GIN (Generalized Inverted Index) - Best for array/JSONB
+  searches, full-text
+  - SP-GiST (Space-Partitioned GiST) - Non-balanced trees for
+  clustered data
+  - BRIN (Block Range Index) - Minimal storage for naturally
+  ordered large tables
+
+  Specialized Types
+
+  - Partial - Index with WHERE clause to reduce size
+  - Expression - Index on computed expressions/functions
+  - Unique - Enforces uniqueness constraint
+  - Composite - Multi-column indexes
+  - Covering - INCLUDE non-key columns for index-only scans
+
+  Practical Usage
+
+  - B-tree: 95% of use cases (numbers, text, dates)
+  - GIN: JSON/array searches, full-text search
+  - GiST: Geometric queries, text similarity
+  - BRIN: Time-series data, append-only tables
+  - Hash: Simple equality when no sorting needed
+
+
+---
+
+
+⏺ BRIN (Block Range Index)
+
+  What it is:
+  - Stores min/max values for groups of table pages (blocks)
+  - Tiny storage footprint vs regular indexes
+  - Works best with naturally ordered/correlated data
+
+  How it works:
+  -- Table with time-series data
+  CREATE TABLE logs (
+    id SERIAL,
+    timestamp TIMESTAMPTZ,
+    message TEXT
+  );
+
+  -- BRIN tracks min/max timestamp per block range
+  CREATE INDEX idx_logs_time_brin ON logs USING brin (timestamp);
+
+  Storage:
+  - Regular B-tree: ~15% of table size
+  - BRIN: ~0.1% of table size (150x smaller)
+
+  Best for:
+  - Time-series data (timestamps naturally ordered)
+  - Auto-incrementing IDs
+  - Append-only tables
+  - Large tables with natural correlation
+
+  Performance:
+  - Good: Range queries on correlated data
+  - Bad: Random lookups, equality searches
+  - Terrible: Frequently updated data
+
+  Example use cases:
+  -- Time-series logs
+  SELECT * FROM logs WHERE timestamp > '2024-01-01';
+
+  -- Sequential IDs
+  SELECT * FROM orders WHERE order_id BETWEEN 1000000 AND 2000000;
+
+  -- Geographic data (if spatially clustered)
+  CREATE INDEX idx_locations_brin ON locations USING brin
+  (latitude, longitude);
+
+  Key insight: BRIN trades query speed for storage efficiency on
+  naturally ordered data.
+
 ---
 
 
