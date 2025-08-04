@@ -30,6 +30,12 @@ permalink: /:slug/
 sass:
   style: :compressed
 
+# Markdown settings
+markdown: kramdown
+kramdown:
+  hard_wrap: true
+  input: GFM
+
 exclude:
   - Gemfile
   - Gemfile.lock
