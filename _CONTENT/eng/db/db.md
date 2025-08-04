@@ -90,10 +90,6 @@ indexes
 idempotence 
 normalization 
 
-## Indexes 
-
-...
-
 
 
 ## links 

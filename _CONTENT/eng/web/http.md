@@ -12,10 +12,10 @@ http 1.0: 1996, no cache, one req. per conn. get post head 200 404 500
 
 ## http1.1 - 1997 
 
-persistent conns: keep-alive by default
-pipelining: send multiple reqs. w/o waiting 
-range reqs. for partial content 
-chunked transfer encoding 
+persistent conns: keep-alive by default  
+pipelining: send multiple reqs. w/o waiting  
+range reqs. for partial content     
+chunked transfer encoding   
 
 - can't reuse a single connection (no multiplexing)
 - blocking requests 

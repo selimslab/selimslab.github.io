@@ -2,6 +2,20 @@
 ---
 ## API design
 
+auth
+
+versions
+
+paging 
+
+filtering 
+
+idempotency 
+
+evolution 
+
+
+## types 
 rest: standard HTTP features, stateless requests, resources
 
 rpc: good for high perf internal comm.

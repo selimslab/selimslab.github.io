@@ -17,13 +17,12 @@
 - Most portable: Pipes, sockets
 - Most scalable: Message queues, brokers
 - Simplest: Files, signals
-- 
+  
 ## MPI: Message passing interface 
 no central coordinator  
 nodes know each other, and directly communicate
 
-
-## proc 
+## proc
 
 spark 
 - df 
