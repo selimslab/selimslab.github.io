@@ -12,20 +12,18 @@ From [The Tao of Programming (mit.edu)](https://www.mit.edu/~xela/tao.html)
 
 "When you have learned to snatch the error code from the trap frame, it will be time for you to leave."
 
----
 
 #### 1.1
 
 Something mysterious is formed, born in the silent void. waiting alone and unmoving, it is at once still and yet in constant motion. It is the source of all programs. I do not know its name, so I will call it the Tao of Programming.
 
-> If the Tao is great, then the operating system is great.  
-> If the operating system is great, then the compiler is great.  
-> If the compiler is great, then the application is great.  
+> If the Tao is great, then the operating system is great.
+> If the operating system is great, then the compiler is great.
+> If the compiler is great, then the application is great.
 > The user is pleased, and there is harmony in the world.
 
 The Tao of Programming flows far away and returns on the wind of morning.
 
----
 
 #### 1.2
 
@@ -37,7 +35,6 @@ Each language has its purpose, however humble. Each language expresses the Yin a
 
 But do not program in COBOL if you can avoid it.
 
----
 
 #### 1.3
 
@@ -49,7 +46,6 @@ Programmers that do not comprehend the Tao are always running out of time and sp
 
 How could it be otherwise?
 
----
 
 #### 1.4
 
@@ -59,7 +55,6 @@ If it were not for laughter, there would be no Tao.
 
 The highest sounds are hardest to hear. Going forward is a way to retreat. Great talent shows itself late in life. Even a perfect program still has bugs.
 
----
 
 ### BOOK 2
 
@@ -69,23 +64,21 @@ The highest sounds are hardest to hear. Going forward is a way to retreat. Great
 
 "After three days without programming, life becomes meaningless."
 
----
 
 #### 2.1
 
 The programmers of old were mysterious and profound. We cannot fathom their thoughts, so all we do is describe their appearance.
 
-> Aware, like a fox crossing the water.  
-> Alert, like a general on the battlefield.  
-> Kind, like a hostess greeting her guests.  
-> Simple, like uncarved blocks of wood.  
+> Aware, like a fox crossing the water.
+> Alert, like a general on the battlefield.
+> Kind, like a hostess greeting her guests.
+> Simple, like uncarved blocks of wood.
 > Opaque, like black pools in darkened caves.
 
 Who can tell the secrets of their hearts and minds?
 
 The answer exists only in Tao.
 
----
 
 #### 2.2
 
@@ -93,7 +86,6 @@ The Grand Master Turing once dreamed that he was a machine. When he awoke, he ex
 
 "I don't know whether I am Turing dreaming that I am a machine, or a machine dreaming that I am Turing!"
 
----
 
 #### 2.3
 
@@ -103,7 +95,6 @@ The manager said: "I should have never sent you to the conference. Those program
 
 They are alive within the Tao."
 
----
 
 #### 2.4
 
@@ -111,7 +102,6 @@ A novice asked the Master: "Here is a programmer that never designs, documents o
 
 The Master replied: "That programmer has mastered the Tao. He has gone beyond the need for design; he does not become angry when the system crashes, but accepts the universe without concern. He has gone beyond the need for documentation; he no longer cares if anyone else sees his code. He has gone beyond the need for testing; each of his programs are perfect within themselves, serene and elegant, their purpose self-evident. Truly, he has entered the mystery of Tao."
 
----
 
 ### BOOK 3
 
@@ -121,7 +111,6 @@ The Master replied: "That programmer has mastered the Tao. He has gone beyond th
 
 "When a program is being tested, it is too late to make design changes."
 
----
 
 #### 3.1
 
@@ -139,13 +128,11 @@ On the final day of the trade show, the guard could restrain his curiosity no lo
 
 The man smiled. "I am stealing ideas," he said.
 
----
 
 #### 3.2
 
 There once was a Master Programmer who wrote unstructured programs. A novice programmer, seeking to imitate him, also began to write unstructured programs. When the novice asked the Master to evaluate his progress, the Master criticized him for writing unstructured programs, saying, "What is appropriate for the Master is not appropriate for the novice. You must understand Tao before transcending structure."
 
----
 
 #### 3.3
 
@@ -161,7 +148,6 @@ The warlord of Wu nodded and smiled. "That is all good and well, but which is ea
 
 The programmer made no reply.
 
----
 
 #### 3.4
 
@@ -177,7 +163,6 @@ The Master Programmer frowned. "In that case, it will take two years."
 
 The Master Programmer shrugged. "Then the design will never be completed," he said.
 
----
 
 ### BOOK 4
 
@@ -187,7 +172,6 @@ The Master Programmer shrugged. "Then the design will never be completed," he sa
 
 "A well-written program is its own Heaven; a poorly-written program is its own Hell."
 
----
 
 #### 4.1
 
@@ -199,7 +183,6 @@ A program, no matter how complex, should act as a single unit. The program shoul
 
 If the program fails in these requirements, it will be in a state of disorder and confusion. The only way to correct this is to rewrite the program.
 
----
 
 #### 4.2
 
@@ -213,7 +196,6 @@ The rules of programming are transitory; only Tao is eternal. Therefore, you mus
 
 "Your program will run correctly," replied the Master.
 
----
 
 #### 4.3
 
@@ -233,7 +215,6 @@ The Master was explaining the nature of Tao to one of his novices.
 
 The Master coughed and shifted his position slightly. "The lesson is over for today," he said.
 
----
 
 #### 4.4
 
@@ -245,7 +226,6 @@ Prince Wang's programmer was coding software. His fingers danced upon the keyboa
 
 Prince Wang said, "Would that all of my programmers were as wise!"
 
----
 
 ### BOOK 5
 
@@ -255,18 +235,16 @@ Prince Wang said, "Would that all of my programmers were as wise!"
 
 "Though a program be but three lines long, someday it will have to be maintained."
 
----
 
 #### 5.1
 
-> A well-used door needs no oil on its hinges.  
-> A swift-flowing stream does not grow stagnant.  
-> A deer blends perfectly into the forest colors.  
+> A well-used door needs no oil on its hinges.
+> A swift-flowing stream does not grow stagnant.
+> A deer blends perfectly into the forest colors.
 > Software rots if not used.
 
 These are great mysteries.
 
----
 
 #### 5.2
 
@@ -282,7 +260,6 @@ The programmer agreed to this.
 
 Several years later, the manager retired. On the way to his retirement luncheon, he discovered the programmer asleep at his terminal. He had been programming all night.
 
----
 
 #### 5.3
 
@@ -292,16 +269,14 @@ The novice worked furiously for many days, but when his Master reviewed his prog
 
 When the Master asked about this, the novice became indignant. "Don't be so impatient," he said, "I'll put in the financial stuff eventually."
 
----
 
 #### 5.4
 
-> Does a good farmer neglect a crop he has planted?  
-> Does a good teacher overlook even the most humble student?  
-> Does a good father allow a single child to starve?  
+> Does a good farmer neglect a crop he has planted?
+> Does a good teacher overlook even the most humble student?
+> Does a good father allow a single child to starve?
 > Does a good programmer refuse to maintain his code?
 
----
 
 ### BOOK 6
 
@@ -311,32 +286,29 @@ When the Master asked about this, the novice became indignant. "Don't be so impa
 
 "Let the programmers be many and the managers few -- then all will be productive."
 
----
 
 #### 6.1
 
-> When managers hold endless meetings, the programmers write games.  
-> When accountants speak of quarterly profits, the development budget is about to be cut.  
+> When managers hold endless meetings, the programmers write games.
+> When accountants speak of quarterly profits, the development budget is about to be cut.
 > When senior scientists talk blue sky, the clouds are about to roll in.
 
 Truly, this is not the Tao of Programming.
 
-> When managers make commitments, game programs are ignored.  
-> When accountants make long-range plans, harmony and order are about to be restored.  
+> When managers make commitments, game programs are ignored.
+> When accountants make long-range plans, harmony and order are about to be restored.
 > When senior scientists address the problems at hand, the problems will soon be solved.
 
 Truly, this is the Tao of Programming.
 
----
 
 #### 6.2
 
-> Why are programmers non-productive? Because their time is wasted in meetings.  
-> Why are programmers rebellious? Because the management interferes too much.  
-> Why are the programmers resigning one by one? Because they are burnt out.  
+> Why are programmers non-productive? Because their time is wasted in meetings.
+> Why are programmers rebellious? Because the management interferes too much.
+> Why are the programmers resigning one by one? Because they are burnt out.
 > Having worked for poor management, they no longer value their jobs.
 
----
 
 #### 6.3
 
@@ -348,7 +320,6 @@ The manager upon hearing this remarked, "This programmer, though he holds a posi
 
 But when told this, the programmer once more refused, saying, "I exist so that I can program. If I were promoted, I would do nothing but waste everyone's time. Can I go now? I have a program that I am working on."
 
----
 
 #### 6.4
 
@@ -356,7 +327,6 @@ A manager went to his programmers and told them: "As regards to your work hours:
 
 So the manager said: "All right, in that case you may set your own working hours, as long as you finish your projects on schedule." The programmers, now satisfied, began to come in at noon and work to the wee hours of the morning.
 
----
 
 ### BOOK 7
 
@@ -366,7 +336,6 @@ So the manager said: "All right, in that case you may set your own working hours
 
 "You can demonstrate a program for a corporate executive, but you can't make him computer literate."
 
----
 
 #### 7.1
 
@@ -374,7 +343,6 @@ A novice asked the Master: "In the East, there is a great tree-structure that me
 
 The Master replied: "You perceive this immense structure and are disturbed that it has no rational purpose. Can you not take amusement from its endless gyrations? Do you not enjoy the untroubled ease of programming beneath its sheltering branches? Why are you bothered by its uselessness?"
 
----
 
 #### 7.2
 
@@ -382,7 +350,6 @@ In the East there is a shark which is larger than all other fish. It changes int
 
 The novice programmer stares in wonder at the bird, for he understands it not. The average programmer dreads the coming of the bird, for he fears its message. The Master Programmer continues to work at his terminal, unaware that the bird has come and gone.
 
----
 
 #### 7.3
 
@@ -400,13 +367,11 @@ Several days later, a novice wandered into the office of the Master Programmer a
 
 "Yes," replied the Master, "the listings are stacked on the platform in the Data Center."
 
----
 
 #### 7.4
 
 The Master Programmer moves from program to program without fear. No change in management can harm him. He will not be fired, even if the project is cancelled. Why is this? He is filled with Tao.
 
----
 
 ### BOOK 8
 
@@ -416,7 +381,6 @@ The Master Programmer moves from program to program without fear. No change in m
 
 "Without the wind, the grass does not move. Without software hardware is useless."
 
----
 
 #### 8.1
 
@@ -424,7 +388,6 @@ A novice asked the Master: "I perceive that one computer company is much larger 
 
 The Master replied, "Why do you ask such foolish questions? That company is large because it is large. If it only made hardware, nobody would buy it. If it only made software, nobody would use it. If it only maintained systems, people would treat it like a servant. But because it combines all of these things, people think it one of the gods! By not seeking to strive, it conquers without effort."
 
----
 
 #### 8.2
 
@@ -440,7 +403,6 @@ The novice bolted to attention and handed the device to the Master. "I see that 
 
 The Master dropped the device to the ground and crushed it with his heel. Suddenly the novice was enlightened.
 
----
 
 #### 8.3
 
@@ -450,7 +412,6 @@ The mainframe programmer then began to describe his system to his friend, saying
 
 The personal computer programmer, upon hearing this, fell silent. But the two programmers remained friends until the end of their days.
 
----
 
 #### 8.4
 
@@ -460,7 +421,6 @@ Presently, they met Firmware, who was dressed in tattered rags and hobbled along
 
 Software and Hardware, ashamed, returned to their homes.
 
----
 
 ### BOOK 9
 
@@ -469,5 +429,3 @@ Software and Hardware, ashamed, returned to their homes.
 ##### Thus spake the Master Programmer:
 
 "Time for you to leave."
-
----

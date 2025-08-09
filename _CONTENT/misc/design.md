@@ -1,71 +1,39 @@
 ---
 ---
 
-Design = communication
+design = communication
+specific audience
+constraints
+specific problems in the past
 
-Choose a specific audience
+respectful to time and energy: visible, familiar, reasonable
 
-Leverage the constraints 
+test early, in a real setting, 5 people, 3 times
 
-Ask users about specific problems in the past and their response
+ship it: usage = oxygen
 
-Respectful to time and energy 
-- Easy to figure out
-- Familiar 
-- Visible 
-- Mindful of emotions
-- Sensible responses to mistakes 
+it's in plain sight: connect, reorder, timing
 
-Test early and often: five people in a real setting, three times, 
+simple = good mental model of how it works
 
-Usage is like oxygen: ship it 
-
-Good ideas are in plain sight. Connect, reorder, timing 
-
-> "What makes something simple or complex? It's not the number of dials or controls or how many features it has: It is whether the person using the device has a good conceptual model of how it operates."  
-> — Don Norman
+double diamond: <><> explore specify
 
 
-## Double diamond 
+## dark patterns
 
-< Diverge-Converge > < Diverge-Converge >
+what's not on the menu?
 
-< Explore the problem space - Define the problem > < Explore possible solutions - Find the solution to focus  > 
+slot machine: irregular rewards, fomo, near-miss
 
-
-## Dark Patterns 
-
-Design can be evil 
-
-If you control the menu, you control the choices. What's not on the menu?
-
-Slot machine in your pocket
-- irregular, intermittent reward schedule
-- the feeling of a 'near-miss'
-- fear of missing out
-
-Social approval
-
-Reciprocity
-
-Infinite feeds
-
-Autoplay
-
-Easy to get in, hard to get out 
-
+social approval, reciprocity, autoplay, autoload, hard-to-cancel
 
 <https://medium.com/thrive-global/how-technology-hijacks-peoples-minds-from-a-magician-and-google-s-design-ethicist-56d62ef5edf3>
 
 
-## Accessibility
-
-Color, contrast, fonts
-
-standard features 
-
+## accessibility
+color, contrast, fonts
+standard features
 big, bold, clean
-
 clear navigation
 
 ## links
