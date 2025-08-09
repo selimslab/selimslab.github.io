@@ -1,17 +1,24 @@
 ---
 ---
-### wide-column stores 
+docs: self-contained, tree-like data, flexible schema, easier to evolve
 
-column families 
+k-v
 
-Cassandra, HBase, BigTable, DynamoDB
+time-series
+
+wide-column
+
+col-oriented
+
+graph: highly connected, variable path queries. cypher, rdf, sparql
 
 
-## idx 
+
+## idx
 
 ⏺ Top NoSQL Index Types
 
-  Essential (Use These First)
+  Essential
   - Single Field - Basic field indexing
   - Compound - Multi-field queries (most common)
   - Hash - Fast key lookups
