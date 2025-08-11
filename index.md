@@ -12,13 +12,11 @@ layout: nav
 <br>
 
 [paintings](/paintings/)
-
 [poems](/poems/)
 
 <br>
 
 [player](/player/)
-
 [typewriter](/typewriter/)
 
 <br>
