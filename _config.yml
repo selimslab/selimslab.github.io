@@ -35,6 +35,9 @@ markdown: kramdown
 kramdown:
   hard_wrap: true
   input: GFM
+  auto_ids: false
+  parse_block_html: true
+  blank_lines: true
 
 exclude:
   - Gemfile
