@@ -11,22 +11,20 @@ layout: nav
 
 <br>
 
-
 [paintings](/paintings/)
 
-[player](/player/)
-
 [poems](/poems/)
+
+<br>
+
+[player](/player/)
 
 [typewriter](/typewriter/)
 
 <br>
 
-[art](/art/)
-
 [eng](/eng/)
 
-[misc](/misc/)
 
 
 
