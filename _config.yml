@@ -33,11 +33,12 @@ sass:
 # Markdown settings
 markdown: kramdown
 kramdown:
-  hard_wrap: true
   input: GFM
-  auto_ids: false
+  hard_wrap: true
+  gfm_quirks: paragraph_end
   parse_block_html: true
-  blank_lines: true
+  parse_span_html: true
+  transliterated_header_ids: true
 
 exclude:
   - Gemfile

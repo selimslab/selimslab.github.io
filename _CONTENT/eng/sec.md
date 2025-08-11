@@ -13,6 +13,7 @@
 
 - exp. delays
 
+
 zones: public, private, secret
 scan repos for secrets
 rotate secrets
