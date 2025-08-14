@@ -7,10 +7,9 @@ Balanced perf.
 
 ## B+ trees
 all data in leaves.
+leaves are linked for range queries
 
 one node = one disk page (4kb)
-
-leaves are linked for range queries
 
 b for file sys
 b+ for dbs

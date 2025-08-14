@@ -2,18 +2,29 @@
 ---
 ## Kafka
 
-- custom wire protocol, no byte copying
-- batch + pagecache + fsync frequently
-- sendfile syscall to copy directly from pagecache to network
+custom wire protocol, no byte copying
+batch + pagecache + fsync frequently
+sendfile: pagecache to network
 
+
+## exactly-once
+
+uniq producer id
+each msg gets a partition sequence number
+broker dedups by PID + msg seq
+
+two phase commit 2pc across all involved partitions
+
+consumer isolation.level=read_committed
+
+
+---
 
 data as stream
 
 dist. storage, topic parts.
 
 durable event storage enables replay and multi-consumers
-
-exactly-once via idemp. + atomic tx
 
 
 ---

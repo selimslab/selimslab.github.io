@@ -16,8 +16,7 @@ signals
 heap: new(), malloc()
 fork, exec, wait
 
-## threads
-shared address space
+threads share address space
 
 stack
 - return address

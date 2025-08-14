@@ -1,18 +1,17 @@
 ---
 ---
-- zero-trust (always verify)
-- validate, sanitaze, isolate
+zero-trust (always verify)
+validate, sanitaze, isolate
 
-- threat model
-- depth and breadth, layered
+threat model
+depth and breadth, layered
 
-- allow-lists
-- two-factor
-- auth levels
-- least privilege
+allow-lists
+two-factor
+auth levels
+least privilege
 
-- exp. delays
-
+exp. delays
 
 zones: public, private, secret
 scan repos for secrets
@@ -45,13 +44,13 @@ avalanche
 non-crypt vs crypt
 
 eg.
-- md5: 128-bit, weak
-- sha-256: Secure Hash Algorithm
-- bcrypt: password hashing
-- blake2
+md5: 128-bit, weak
+sha-256: Secure Hash Algorithm
+bcrypt: password hashing
+blake2
 
 HMAC (hash-message based auth code)
-- verifies message integrity
-- hash func (like SHA-256) + secret key  HMAC(message, secret)
+verifies message integrity
+hash func (like SHA-256) + secret key  HMAC(message, secret)
 
 hash(password + salt)
