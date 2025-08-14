@@ -2,31 +2,18 @@
 layout: nav
 ---
 
-<div class="mono">
-<p><a href='/clocks/' id="current-time"></a></p>
-<p><a href='/calendar/' id="current-date"></a></p>
-</div>
 
+<a href='/clocks/' id="current-time"></a>
+<a href='/calendar/' id="current-date"></a>
 
-
-<br>
 
 [paintings](/paintings/)
 [poems](/poems/)
 
-<br>
-
 [player](/player/)
 [typewriter](/typewriter/)
 
-<br>
-
 [eng](/eng/)
-
-
-
-
-
 
 
 <script src="/assets/js/moment.min.js"></script>
