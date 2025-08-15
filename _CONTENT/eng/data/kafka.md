@@ -1,19 +1,16 @@
 ---
 ---
-## Kafka
-
 custom wire protocol, no byte copying
 batch + pagecache + fsync frequently
 sendfile: pagecache to network
 
 
 ## exactly-once
-
 uniq producer id
 each msg gets a partition sequence number
 broker dedups by PID + msg seq
 
-two phase commit 2pc across all involved partitions
+2pc across partitions
 
 consumer isolation.level=read_committed
 
