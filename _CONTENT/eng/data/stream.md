@@ -1,34 +1,30 @@
 ---
 ---
-consumer offset
-cdc
-immut. events
+immutable events
+side effects
 
 checkpoint
 log compaction
 
-joins
 stream + stream : window
 stream + table : enrichment
 table + table : mat. view
 
 windows
-fixed tumbling
-overlapping hopping
+fixed
+overlapping
 sliding
 session
 
 event time
+delivery time
 grace period
 watermark
 
-exactly once via idempotent ops + atomic commits
+exactly once via idempotence + atomic commits
 
-avoid side effects
+probabilistic dsa like bloomfilter, hyperloglog
 
-probabilistic algos
-
-monitor
 consumer lag
 e2e latency
 

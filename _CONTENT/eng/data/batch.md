@@ -5,13 +5,14 @@ atomic ops
 partition
 compose
 
-perf
-columnar storage
-vectorized proc
-avoid intermediate disk pers. in-mem proc with checkpoints
-declerative apis for optz.
+columnar
+vectorize
+checkpoints
 pre-compute expensive ops
-minimize i/o: bring code and data closer. co-locate related data
+data locality
+sequential i/o
+
+declerative apis = better optimization
 
 spark
 df

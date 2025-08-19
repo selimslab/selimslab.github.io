@@ -1,6 +1,6 @@
 ---
 ---
-## Unicode
+## unicode
 a standard to encode text.
 a unique code point per char
 5: U+0035
@@ -12,21 +12,15 @@ UTF-8: uses 8-bit blocks. one byte for ascii, up to 4 bytes for the rest.
 ## formats
 language-specific: eg. python pickle
 text: eg. json, csv
-binary: compact. eg. protobuf, thrift, avro
-
-avoid lang specific formats
-generate schemas from codebase
-
-binary formats for internal
-json/xml for external
+binary: eg. protobuf, thrift, avro
 
 ## compatibility
-bw: new code, old data
-fw: old code, new data
+backward: old data, new code
 
-easy to add, hard to remove
-preserve unknown fields to prevent data loss when old code reads new data
-use field tags instead of names. more compact encoding and enables renaming fields
-plan for rolling upgrades, old and new running together
+breaking:
+deleting required fields
+changing field types
 
-default values enable adding new optional fields w/o breaking old readers
+unknown fields: don't drop them
+field tags: instead of names. more compact encoding. you can rename fields
+plan for rolling upgrades. old and new running together

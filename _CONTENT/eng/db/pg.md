@@ -8,17 +8,13 @@ select for update
 
 
 ## indexes
+- B-tree: General purpose, equality/range queries
+- GIN: Containment queries on composite values
+- GiST: Spatial/geometric queries and extensible predicates
+- BRIN: Range queries on naturally ordered large datasets
 
-  CREATE INDEX ON
-  USING hash/brin/gist/gin
-
-B-tree: default
-Hash: no range queries
-GiST (Generalized Search Tree) balanced tree, good for range types like dates, IPs, geometry, text,..
-GIN (Generalized Inverted Index): array/JSONB, full-text
-BRIN (Block Range Index): sorted data like timestamps
+  CREATE INDEX idx_brin ON table USING brin (column)
 
 unique
 partial: WHERE
-composite
-covering
+multi-column composite
