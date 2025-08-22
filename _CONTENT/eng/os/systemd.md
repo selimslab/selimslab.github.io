@@ -1,21 +1,23 @@
 ---
 ---
-**systemctl** status start stop restart enable disable
+
+
+
+```
+systemctl status start stop restart enable disable
 
 journalctl
 
-```
 systemd
+    crond
 
-crond
+    networkd
+    dhcpd
+    firewalld
+    sshd
 
-dhcpd
-networkd
-sshd
-firewalld
+    udevd
 
-udevd
-
-syslogd
-journald
+    syslogd
+    journald
 ```
