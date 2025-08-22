@@ -1,5 +1,7 @@
 ---
 ---
+```md
+
 Control Plane
   kube-apiserver
   etcd
@@ -14,74 +16,77 @@ Node
   coredns
   taints/labels/annotations
 
-# apiversion index
-v1
-  Namespace
-
-  ServiceAccount
-
-  ConfigMap
-  Secret
-
-  Pod
-
-  Service
-  Endpoints
-
-  Volume
-  PV
-  PVC
-
-apps/v1
-  Deployment
-  ReplicaSet
-
-  StatefulSet
-
-  DaemonSet
-
-batch/v1
-  Job
-  CronJob
-
-autoscaling
-  VPA
-  HPA
-
-policy
-  PDB
-
-*.k8.io
-  storage
-    StorageClass
-
-  networking
-    IngressClass
-    Ingress
-    NetworkPolicy
-
-  rbac
-    Role
-
-    RoleBinding
-      Role
-      ServiceAccount
-
-    ClusterRole
-    ClusterRoleBinding
-
-  scheduling
-    PriorityClass
-
-  metrics
-    NodeMetrics
-    PodMetrics
-
-  apiextensions
-    CRD
 
 ## v1
+Pod
 
+Namespace
+ServiceAccount
+
+ConfigMap
+Secret
+
+Volume
+  emptyDir | hostPath | ConfigMap | Secret | PersistentVolumeClaim
+
+
+Service   
+  type: ClusterIP | NodePort | LoadBalancer
+
+EndpointSlices
+
+PV
+PVC
+
+## apps/v1
+Deployment
+ReplicaSet
+
+StatefulSet
+
+DaemonSet
+
+## batch/v1
+Job
+CronJob
+
+## autoscaling
+VPA
+HPA
+
+## policy
+PodDisruptionBudget
+
+## *.k8.io
+storage
+  StorageClass
+
+networking
+  IngressClass
+  Ingress
+  NetworkPolicy
+
+rbac
+  Role
+
+  RoleBinding
+    Role
+    ServiceAccount
+
+  ClusterRole
+  ClusterRoleBinding
+
+scheduling
+  PriorityClass
+
+metrics
+  NodeMetrics
+  PodMetrics
+
+apiextensions
+  CRD
+
+## v1
 Namespace
   ResourceQuota
   LimitRange
@@ -128,7 +133,6 @@ PersistentVolumeClaim
   storage requests
 
 ## apps/v1
-
 Deployment
   replicas
   template: Pod
@@ -148,7 +152,6 @@ DaemonSet
   template: Pod
 
 ## batch/v1
-
 Job
   template: Pod
   completions/parallelism
@@ -158,22 +161,22 @@ CronJob
 
 ## autoscaling
 
-VerticalPodAutoscaler (VPA)
+  VerticalPodAutoscaler (VPA)
 
-HorizontalPodAutoscaler (HPA)
-  target: Deployment | StatefulSet
-  metrics
+  HorizontalPodAutoscaler (HPA)
+    target: Deployment | StatefulSet
+    metrics
 
 ## policy
-PodDisruptionBudget (PDB)
-  selector
-  minAvailable | maxUnavailable
+  PodDisruptionBudget (PDB)
+    selector
+    minAvailable | maxUnavailable
 
 ## storage.k8s.io
-StorageClass
-  provisioner
-  reclaimPolicy
-  volumeBindingMode
+  StorageClass
+    provisioner
+    reclaimPolicy
+    volumeBindingMode
 
 ## networking.k8s.io
 IngressClass
@@ -213,3 +216,5 @@ PodSecurityStandards
 ## admissionregistration.k8s.io
 ValidatingAdmissionWebhook
 MutatingAdmissionWebhook
+
+```

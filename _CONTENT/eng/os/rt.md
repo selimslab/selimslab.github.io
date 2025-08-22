@@ -2,8 +2,6 @@
 ---
 ## real-time sys 
 
-redundant hardware, eg. cpus, sensors  
-
 no heap
 no gc
 stack bound checks  
@@ -20,10 +18,12 @@ no recursion
 certifications  
 formal methods  
 
+redundant hardware, eg. cpus, sensors  
 special hardware  
 
-rtos:  
+## rtos 
 no virtual memory   
+
 priority based scheduling with guaranteed time slices 
 
 heapsort for in place nlogn sorting 

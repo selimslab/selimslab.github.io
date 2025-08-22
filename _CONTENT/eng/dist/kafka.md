@@ -1,40 +1,43 @@
 ---
 ---
-topic 
-partition 
-log segment 
-
-cg controller
-consumer group
-consumer 
-
-broker 
-
-producer 
-epoch 
-seqmap
-
 cluster 
-node 
+    node 
 
+    broker 
 
-zero-copy, custom wire protocol
-batch + pagecache + fsync
-sendfile: pagecache to netbuffer
-compress
+    topic 
+    partition 
+        leader
+        replica
+        ISR
+    log segment 
+
+    producer 
+
+    consumer group
+    consumer 
+
+    epoch
+    acknowledgment level (0, 1, all replicas)
+
+## optimized
+zero-copy
+custom wire protocol
+
 sequential i/o
+batch
+compress
+pagecache
+fsync
 
-ISR
-acknowledgment level (0, 1, all replicas)
+sendfile: pagecache to netbuffer
 
 ## idempotence
-producers get uniq id from broker
 each msg has (ProducerID, PartitionID, SequenceNumber)
-
-broker tracks last seq. per (pid, partid) pair.
-rejects dups, detects gaps, ensures order
+broker dedups 
 
 ## exactly-once
-atomic multi-topic writes by 2PC
 idempotence
 read committed consumers
+
+if multi-topic: atomic writes by 2PC

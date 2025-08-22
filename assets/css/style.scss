@@ -34,6 +34,30 @@ html {
   scroll-behavior: smooth;
 }
 
+p {
+  line-height: 1.8rem;
+  margin-top: 1rem;
+}
+
+pre {
+  padding: 0.5rem;
+}
+
+h1 {
+  font-family: $mono;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: $mono;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
 .mono {
   font-family: $mono;
 }
@@ -50,11 +74,6 @@ a:hover {
   color: $highlight;
   text-decoration: underline;
 }
-
-footer.about {
-  font-family: $serif;
-}
-
 
 body {
   font-family: $sansSerif;
@@ -111,8 +130,6 @@ img {
   box-shadow: 0 .5em 1em -.125em rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .02);
 }
 
-
-
 @media only screen and (max-width: 600px) {
   body {
     width: 100%;
@@ -127,30 +144,6 @@ img {
   }
 }
 
-
-p {
-  line-height: 1.8rem;
-  margin-top: 1rem;
-}
-
-pre {
-  padding: 0.5rem;
-}
-
-h1 {
-  font-family: $mono;
-  font-size: 1.4rem;
-  margin-bottom: 0.5rem;
-  font-weight: bold;
-}
-
-h2 {
-  font-family: $mono;
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-top: 2rem;
-  margin-bottom: -0.5rem;
-}
 
 strong {
   font-weight: bold;

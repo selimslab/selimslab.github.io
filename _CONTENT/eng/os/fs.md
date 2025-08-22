@@ -3,8 +3,13 @@
 file: array of bytes
 inode: persistent struct with file metadata
 fd: integer handle for open files
+
 block levels: direct, indirect, double indirect for large files
 mount point: dir where file sys is attached to tree
+
+file permission bits: rwx - read, write, execute
+rwx rwx rwx : owner group other
+access control lists for more control: fs listacl
 
 ## fs api
 open()

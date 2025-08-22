@@ -5,6 +5,7 @@ side effects
 
 event time
 delivery time
+
 grace period
 watermark
 
@@ -17,7 +18,8 @@ e2e latency
 backpressure
 circuit breaker
 
-exactly once via idempotence + atomic commits
+exactly once
+idempotence + atomic commits
 
 probabilistic dsa like bloomfilter, hyperloglog
 

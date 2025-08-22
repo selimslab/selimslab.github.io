@@ -15,8 +15,12 @@ PC program counter or IP instruction pointer
 time sharing
 save/load registers to switch ctx
 
+scheduler
 policy vs mechanism
+
 signals
+SIGINT
+SIGTERM
 
 heap: new(), malloc()
 
@@ -28,4 +32,5 @@ create
 join
 mutex lock unlock
 cond wait signal
+
 

@@ -65,7 +65,9 @@ threading
 multiprocessing
 
 queue.Queue
-concurrent.futures: ThreadPool, ProcPool
+
+concurrent.futures
+ThreadPool, ProcPool
 
 ## c
 pthread

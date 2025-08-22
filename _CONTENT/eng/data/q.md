@@ -1,9 +1,11 @@
 ---
 ---
 decouple
+discover
+
 buffer
 auto-retry
-discover
+
 fan-in/out
 broadcast
 

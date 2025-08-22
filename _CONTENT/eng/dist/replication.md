@@ -1,7 +1,7 @@
 ---
 ---
 wal: low-level, version dependent
-logical: version indep. CDC possible
+logical: version free. CDC
 statement: compact but non-det.
 
 single leader
@@ -15,8 +15,9 @@ docs
 leaderless
 
 ## conflicts
-route to same leader to avoid conf.
-or crdts
+avoid 
+route to same leader 
+crdts
 
 or resolve by
 - read repair: compare replica responses
@@ -29,5 +30,3 @@ monitor replication lag
 
 auto failover can cause cascades. 
 manual for critical sys.
-
-tune quorum params
