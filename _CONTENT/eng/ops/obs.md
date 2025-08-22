@@ -4,20 +4,16 @@ logs + correlation ids
 events: logs, metrics, traces
 
 semantic monitoring, think in terms of user
-test in prod, test txs, chaos
 
-OTel
-Prometheus: metrics 
 Loki: compressed logs, only tags indexed. grep only. no full text search
-Jaeger
-Grafana 
 
-Observe
-Simulate
-Measure in terms of user
+observe
+simulate
 
-Postmortems
-Progressive rollouts
+postmortems
+
+progressive rollouts
+test in prod, test txs, chaos
 
 slow and steady
 human oversight

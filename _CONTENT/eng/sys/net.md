@@ -5,6 +5,7 @@ L4 transport - TCP, UDP, segment
 L3 internet IP, packet
 L1, L2 network access layer, frame, bits
 
+
 ## ip 
 DHCP auto ip assignment, lease based
 DNS resolution: app → library → nsswitch.conf → /etc/hosts → DNS
@@ -50,3 +51,17 @@ recv() a packet
 3. kernel checks protocol headers
 4. firewall, iptables
 5. find app and copy into app buffer
+
+
+## TLS
+Transport layer security
+
+process 1 -- encrypted socket -- process 2
+
+1. handshake
+2. key exchange: first asym. then sym. key
+3. validate cert.
+4. encrypt and sign all traffic with the shared secret key. AES n HMAC
+
+## ssh (secure shell)
+port 22

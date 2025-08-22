@@ -20,5 +20,5 @@ interrupt handlers
 devices/drivers
 root fs mount
 
-init PID 1 systemd: user space starts
+init PID 1 systemd, user space starts
 scheduler begins, user login

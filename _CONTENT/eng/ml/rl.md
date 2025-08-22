@@ -1,7 +1,5 @@
 ---
 ---
-## RL
-
 trial and error
 
 An **agent** takes **actions** in an **environment** to maximize **reward**

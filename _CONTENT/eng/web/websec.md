@@ -1,18 +1,5 @@
 ---
 ---
-## TLS
-Transport layer security
-
-process 1 -- encrypted socket -- process 2
-
-1. handshake
-2. key exchange: first asym. then sym. key
-3. validate cert.
-4. encrypt and sign all traffic with the shared secret key. AES n HMAC
-
-## SSH (secure shell)
-port 22
-
 ## Cert.
 CA signs that a website owns the private key for their public key
 CAs form a tree. Browser and OS have some root CAs pre-config.

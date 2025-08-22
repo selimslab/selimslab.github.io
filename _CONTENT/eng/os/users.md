@@ -10,31 +10,3 @@ guest: minimal perms.
 
 CAP_NET_ADMIN
 CAP_SYS_ADMIN
-
----
-
-systemctl: 
-status
-start
-stop
-restart
-enable
-disable
-..
-
-journalctl
-
-## daemons
-systemd
-
-crond
-
-dhcpd
-networkd
-sshd
-firewalld
-
-udevd
-
-syslogd
-journald

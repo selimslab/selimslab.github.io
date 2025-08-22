@@ -1,11 +1,7 @@
 ---
 ---
-group ops. to atomic units, no partial failure
-- consistency
-- fk integrity
-- data sync
-
 ## distributed tx
+
 10x perf. penalty
 coordinator spof
 often avoided

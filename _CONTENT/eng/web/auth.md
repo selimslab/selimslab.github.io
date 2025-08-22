@@ -9,12 +9,14 @@ session-based: cookie with session id, server side session storage
 
 ## jwt
 base64(header, payload, signature)
+
 header: algorithm(HMAC, RSA like HS256, RS256) and token type
 payload: claims like user id, expiration, issuer
 
-1. user logs in, server creates jwt
-2. client stores jwt
-3. server verifies signature and expiration
+server creates
+client stores
+server verifies signature and expiration
+
 
 ## oauth framework
 grant 3rd parties limited access to a user account w/o sharing passwords

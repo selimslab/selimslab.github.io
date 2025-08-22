@@ -1,22 +1,27 @@
 ---
 ---
 zero-trust (always verify)
-validate, sanitaze, isolate
+
+validate
+sanitaze
+isolate
 
 threat model
-depth and breadth, layered
+depth and breadth
+layered
 
-allow-lists
-two-factor
 auth levels
 least privilege
+allow-lists
+multi-factor
+log audit events 
 
-exp. delays
+exponential delays
 
 zones: public, private, secret
+
 scan repos for secrets
 rotate secrets
-
 
 ## encrp.
 input + key -> func -> cyphertext
@@ -39,8 +44,10 @@ input -> hash func -> fixed size output
 
 same input, same output
 one-way
+
 coll. resist.
 avalanche
+
 non-crypt vs crypt
 
 eg.

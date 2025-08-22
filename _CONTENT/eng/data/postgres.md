@@ -3,6 +3,14 @@
 update skip locked
 select for update
 
+## tx 
+```
+SET TRANSACTION ISOLATION LEVEL
+READ COMMITTED
+REPEATABLE READ
+SERIALIZABLE
+```
+
 ## indexes
 B-tree: General purpose, equality/range queries
 GIN: Containment queries on composite values
