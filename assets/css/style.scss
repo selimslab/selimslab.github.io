@@ -36,7 +36,7 @@ html {
 
 p {
   line-height: 1.8rem;
-  margin-bottom: 1.2rem;
+  margin-top: 1.2rem;
 }
 
 pre {
@@ -45,16 +45,15 @@ pre {
 
 h1 {
   font-family: $mono;
-  font-size: 1.4rem;
   font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 h2 {
   font-family: $mono;
-  font-size: 1.2rem;
   font-weight: bold;
   margin-top: 2rem;
-  margin-bottom: 0;
+  margin-bottom: -1rem;
 }
 
 .mono {
@@ -90,13 +89,14 @@ strong {
 }
 
 hr{
-  margin-top: 2.2rem;
-  margin-bottom: 2.2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   background-color: transparent;
 }
 
 li{
   line-height: 1.8rem;
+  margin-bottom: 0.4rem;
 }
 
 ol li {

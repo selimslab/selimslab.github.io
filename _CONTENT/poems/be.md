@@ -1,15 +1,12 @@
 ---
-
 ---
-
-
 Beautiful is the moment,
 When the heart indifferent
 To joy or sorrow, just trusts
 Whatever this life brings
 But finds time to just be.
 
----
+
 
 It's dark because you are trying too hard.
 Lightly child, lightly. Learn to do everything lightly.

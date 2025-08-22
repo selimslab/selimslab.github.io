@@ -18,9 +18,9 @@ impl. by MVCC
 prevent all races
 
 ways
-1. serial, single thread
-2. 2PL: bad perf
-3. MVCC + SSI, ~20% perf cost
+single thread
+2PL: bad perf
+MVCC + SSI, ~20% perf cost
 
 ## MVCC
 multi-version conc. control

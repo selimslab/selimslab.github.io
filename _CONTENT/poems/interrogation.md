@@ -1,8 +1,5 @@
 ---
-title: The Interrogation of the Good
 ---
-
-
 Step forward: we hear  
 That you are a good man.  
 You cannot be bought, but the lightning  

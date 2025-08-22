@@ -1,8 +1,5 @@
 ---
 ---
-
-
-
 ```
 systemctl status start stop restart enable disable
 

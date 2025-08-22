@@ -12,9 +12,9 @@ causal: vector clocks + causal dep. tracking
 eventual
 
 session models
-- read after write: route writes to same leader
-- monotonic reads
-- consistent prefix reads: causal
+read after write: route writes to same leader
+monotonic reads
+consistent prefix reads: causal
 
 ## consensus
 = total-order broadcast
@@ -22,8 +22,8 @@ session models
 linearz
 
 raft
-- majority ack
-- one leader per term
+majority ack
+one leader per term
 
 split brain: lease + fencing token
 
