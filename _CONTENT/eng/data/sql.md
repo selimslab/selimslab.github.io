@@ -1,6 +1,8 @@
 ---
 ---
-right data types, eg. varchar vs text
+varchar
+text
+
 pk
 fk
 

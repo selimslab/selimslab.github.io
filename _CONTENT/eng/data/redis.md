@@ -16,3 +16,10 @@ tags go to the same shard
 
 ## redlock
 multi-master cluster, majority lock with ttl
+
+
+## scaling 
+Single 
+HA: read replicas
+Sentinel: auto failover
+Cluster: horizontal

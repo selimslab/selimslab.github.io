@@ -6,7 +6,6 @@ layout: nav
 <a href='/clocks/' id="current-time"></a>
 <a href='/calendar/' id="current-date"></a>
 
-
 [paintings](/paintings/)
 [poems](/poems/)
 
