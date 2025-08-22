@@ -9,7 +9,7 @@ streams
 freq with count-min-sketch
 select k random items with reservoir samp.
 
-balanced trees
+sorting
 skiplist
 
 ## bloom filters

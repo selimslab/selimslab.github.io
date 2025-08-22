@@ -1,20 +1,21 @@
 ---
 ---
-## layers
-app - transport - internet - phys
-L7 App
-L4 Transport TCP, UDP, segment
-L3 Internet IP, packet
+L7 app
+L4 transport - TCP, UDP, segment
+L3 internet IP, packet
 L1, L2 network access layer, frame, bits
 
-## IP
 ipv4 32 bits
 ipv6 128 bits, stateless, no dhcp needed
+
 cidr 10.23.2.0/24 = network/mask = freeze first 24 bits
-private nets 10.0.0.0/8, 192.168.0.0/16, 172.16.0.0/12
+
+private nets
+10.0.0.0/8
+192.168.0.0/16
+172.16.0.0/12
 
 /etc/services maps port numbers to service names
-
 
 DHCP auto ip assignment, lease based
 
@@ -28,23 +29,25 @@ ping
 ip
 netstat
 
-## sockets
-unix, ipv4, ipv6 sockets
-stream vs datagram sockets like tcp vs udp
+sockets: unix, ipv4, ipv6
+stream
+datagram
+
 socket() -> bind() -> listen() -> accept()
-read() write()
 
-## send()
-send a packet
-1. app calls send()
-2. add headers, tcp, ip, ethernet
-3. firewalls, iptables
-4. q for sending
-5. driver sends, network card transmits
+read()
+write()
 
-## recv()
-receive a packet
-1. network card get data, creates interrupt
+send() a packet
+1. add headers for tcp, ip, ethernet
+2. firewall check, iptables rules
+3. queue
+4. driver sends
+5. network card transmits
+
+
+recv() a packet
+1. network card gets data, creates interrupt
 2. driver puts data in mem
 3. kernel checks protocol headers
 4. firewall, iptables

@@ -23,21 +23,34 @@ tutorial
 feat
 fix
 del
-deps
-docs
+
+doc
 ref
+dep
+
 test
+
 perf
 sec
+
 db
 api
 ui
+
 ops
 
 
-## the joel test
-git, 1-step daily builds
-bug db, bugs before feats
-spec, schedule
-best dev tools, quiet env, hire well
-testers, hallway usability testing
+## joel test
+git
+1-step builds
+
+bug db
+bugs before feats
+
+spec
+schedule
+
+best tools
+quiet 
+
+hallway usability testing

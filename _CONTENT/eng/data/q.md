@@ -3,29 +3,23 @@
 decouple
 buffer
 auto-retry
-discovery
-fan-out
+discover
+fan-in/out
 broadcast
 
-## message qs
-producer - q - consumer
-
-redis
-rabbitmq
-kafka
-aws sqs
-gcp pub/sub
+idempotency
+ordering
+partitioning
 
 ## delivery
 at most once: fire and forget
 at least once: retry
-exactly once: idemp. + atomic commits
+exactly once: idempotence + atomic commits
 
 ## work qs
 retry
 dead-letter
+
 timeout
-idempotency
 backpressure
-ordering
-partitioning
+

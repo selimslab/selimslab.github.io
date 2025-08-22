@@ -2,18 +2,20 @@
 ---
 immutable inputs
 atomic ops
+
 partition
 compose
 
-columnar
-vectorize
-checkpoints
-pre-compute expensive ops
 data locality
 sequential i/o
+vectorize
+columnar
+
+pre-compute expensive ops
+checkpoints
 
 declerative apis = better optimization
 
 spark
 df
-Delta lake table format: parquet + transaction log + metadata
+Delta lake: parquet + transaction log + metadata

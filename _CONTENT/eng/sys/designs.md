@@ -1,28 +1,26 @@
 ---
 ---
-## payments
+## file system
+metadata vs data 
+levels
 
-## search engine
+inode
+block
 
-## imessage
-
-## find my
-
-## news
-
-## crawler
-
-## trader
-
+tree 
 
 ## maps
-s2
-spatial indexes, r-tree
+s2 
 geohash
-vectors
+tiles
+
+point vs vector
+static vs dynamic 
 
 ## docs
-metadata in rds, content in object storage
+metadata in rds
+content in object storage
+
 cdn + cache
 last write wins or CRDTs
 rest api
@@ -52,3 +50,22 @@ mq
 workers
 templates
 SSE, webhooks
+
+
+## payments
+
+## search engine
+
+## imessage
+
+## find my
+
+## news
+
+## crawler
+
+## trader
+
+## kafka 
+
+

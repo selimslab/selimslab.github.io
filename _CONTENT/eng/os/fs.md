@@ -7,15 +7,22 @@ block levels: direct, indirect, double indirect for large files
 mount point: dir where file sys is attached to tree
 
 ## fs api
-open() read() lseek() close()
+open()
+read()
+lseek()
+close()
 
-fsync() and rename() for atomic file updates
+atomic file updates
+fsync()
+rename()
 
-mkdir, opendir, readdir, closedir
+mkdir
+opendir
+readdir
+closedir
 
-stat()
-
-link() unlink()
+link()
+unlink()
 
 strace() syscall trace
 

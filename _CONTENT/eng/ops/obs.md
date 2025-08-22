@@ -5,7 +5,6 @@
 3. semantic monitoring, think in terms of user
 4. test in prod, test txs, chaos
 
---
 
 OpenTelemetry
 Prometheus (metrics)
@@ -16,16 +15,14 @@ Grafana (viz)
 loki compresses logs, indexes tags only.
 grep only. no full text search
 
-Percentiles can't be aggregated
-
 ## sre
-- Observe
-- Simulate
-- Measure in terms of user
-- Postmortems
-- Progressive rollouts
+Observe
+Simulate
+Measure in terms of user
+Postmortems
+Progressive rollouts
 
 For high stake cases:
-- slow and steady
-- human oversight
-- checks and balances
+slow and steady
+human oversight
+checks and balances

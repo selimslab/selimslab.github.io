@@ -1,8 +1,22 @@
 ---
 ---
 syscalls
-daemons: systemd, crond, sshd, dhcpd, networkd, udevd, syslogs, journald, firewalld
+
+
 MMU
 kernel module
 
-vm, qemu, kvm, pod, containerd, runc
+## daemons
+systemd
+
+crond
+
+dhcpd
+networkd
+sshd
+firewalld
+
+udevd
+
+syslogs
+journald

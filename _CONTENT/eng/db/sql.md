@@ -10,8 +10,12 @@ uniq
 
 3NF
 
-index fks, query columns, sort fields
+index
+FKs
+query columns
+sort fields
 composite idx for multi column qs
+
 materialized views
 
 partition by logical boundaries like date, region, ..

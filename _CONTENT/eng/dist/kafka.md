@@ -1,5 +1,23 @@
 ---
 ---
+topic 
+partition 
+log segment 
+
+cg controller
+consumer group
+consumer 
+
+broker 
+
+producer 
+epoch 
+seqmap
+
+cluster 
+node 
+
+
 zero-copy, custom wire protocol
 batch + pagecache + fsync
 sendfile: pagecache to netbuffer

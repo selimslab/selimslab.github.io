@@ -1,14 +1,15 @@
 ---
 ---
-user levels:
-- root/admin: full access
-- system users/service accounts: limited to specific services
-- regular users: only access only files and permitted resources
-- guest: minimal perms.
+root/admin: full access
 
-caps: CAP_NET_ADMIN, CAP_SYS_ADMIN, ..
+system users/service accounts: limited to specific services
 
----
+regular users: only access only files and permitted resources
+
+guest: minimal perms.
+
+CAP_NET_ADMIN
+CAP_SYS_ADMIN
 
 file permission bits: rwx - read, write, execute
 rwx rwx rwx : owner group other

@@ -1,5 +1,8 @@
 ---
 ---
+k8 map
+
+
 process: stateless, fast, graceful
 deps explicit
 config injected

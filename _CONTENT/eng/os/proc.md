@@ -3,29 +3,29 @@
 Load code, alloc mem, init stack
 
 address space
-- stack <- SP, stack pointer, in register
-- heap
-- code <- PC, program counter or IP, instruction pointer, in register
-- data
+stack < SP [return address, open files, params, local vars]
+heap
+code < PC
+data
 
-save/load registers to switch ctx
+in registers
+SP stack pointer 
+PC program counter or IP instruction pointer
+
 time sharing
+save/load registers to switch ctx
+
 policy vs mechanism
 signals
 
 heap: new(), malloc()
+
 fork, exec, wait
 
 threads share address space
-
-stack
-- return address
-- params
-- open files
-- local variables
-
 pthread
 create
 join
 mutex lock unlock
 cond wait signal
+

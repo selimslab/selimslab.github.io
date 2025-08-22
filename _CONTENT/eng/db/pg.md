@@ -1,10 +1,8 @@
 ---
 ---
 update skip locked
-
 select for update
 
-- [Common DB schema change mistakes - Postgres.AI](https://postgres.ai/blog/20220525-common-db-schema-change-mistakes)
 
 
 ## indexes
@@ -13,8 +11,15 @@ select for update
 - GiST: Spatial/geometric queries and extensible predicates
 - BRIN: Range queries on naturally ordered large datasets
 
-  CREATE INDEX idx_brin ON table USING brin (column)
+  CREATE INDEX idx_name ON table USING brin (column)
 
 unique
 partial: WHERE
 multi-column composite
+
+
+## links 
+
+[Common DB schema change mistakes - Postgres.AI](https://postgres.ai/blog/20220525-common-db-schema-change-mistakes)
+
+[SQLforDevs.com - Database Tips & Tricks](https://sqlfordevs.com/tips)
