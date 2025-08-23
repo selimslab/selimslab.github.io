@@ -11,30 +11,27 @@ function getSystemTheme() {
     return window.matchMedia('(prefers-color-scheme: dark)').matches ? THEME_DARK : THEME_LIGHT;
 }
 
-
-function setTheme(){
-    const theme = getSystemTheme()
+function setTheme(theme){
     document.documentElement.setAttribute(DATA_THEME, theme);
     window.localStorage.setItem(THEME, theme);
 }
 
-
-function switchTheme() {
+function toggleTheme() {
     let currentMode = document.documentElement.getAttribute(DATA_THEME);
     if (currentMode === THEME_DARK) {
-        setLightTheme()
+        setTheme(THEME_DARK)
     } else {
-        setDarkTheme()
+        setTheme(THEME_LIGHT)
     }
-    setTheme();
 }
 
 if (themeToggle) {
     themeToggle.addEventListener('keydown', function(event) {
         if (event.key === 'Enter') {
-            switchTheme();
+            toggleTheme();
         }
     });
 }
 
-setTheme()
+const theme = getSystemTheme()
+setTheme(theme)
