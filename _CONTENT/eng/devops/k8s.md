@@ -1,6 +1,5 @@
 ---
 ---
-## core 
 ```
 control plane
   kube-apiserver
@@ -12,28 +11,27 @@ control plane
 
 node
   kubelet
-  containerd runc 
+  containerd runc
 
   kube-proxy
   coredns
 
 kubectl
   get pods | services | deployments | nodes | namespaces | events
-  describe 
+  describe
   logs
-  explain 
-  label 
+  explain
+  label
   exec
 ```
 
-### key names 
 ```
 Namespace
 
-Deployment 
+Deployment
   ReplicaSet
-    Pods 
-      containers 
+    Pods
+      containers
   StatefulSet
   DaemonSet
 
@@ -45,7 +43,7 @@ Endpoints
 NetworkPolicy
 Ingress
 
-Volume 
+Volume
 PV
 PVC
 StorageClass
@@ -62,9 +60,9 @@ HPA
 Job
 Cron
 
-priority 
+priority
 
-webhook 
+webhook
 
 metrics
 
@@ -72,7 +70,7 @@ custom crd
 
 ```
 
-## tools 
+## tools
 ```
 kubeadm: cluster bootstrap
 kustomize: config management
@@ -85,19 +83,19 @@ Kustomize
 
 ArgoCD
 
-NGINX Ingress Controller 
+NGINX Ingress Controller
 Traefik
 
 OPA Gatekeeper
 cert-manager
 Vault
 
-Prometheus 
+Prometheus
 Loki
 Grafana
 Jaeger
 
-Istio 
+Istio
 Linkerd
 ```
 
@@ -122,7 +120,7 @@ v1
   ConfigMap
   Secret
 
-  Service   
+  Service
     type: ClusterIP | NodePort | LoadBalancer
 
   EndpointSlices

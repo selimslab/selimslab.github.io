@@ -1,71 +1,67 @@
 ---
 ---
 ## file system
-metadata vs data 
+metadata vs data
 levels
 
 inode
 block
 
-tree 
+tree
 
 ## maps
-s2 
+s2
 geohash
 tiles
 
 point vs vector
-static vs dynamic 
+static vs dynamic
 
 ## docs
 metadata in rds
 content in object storage
 
-cdn + cache
-last write wins or CRDTs
-rest api
-/documents/{id}
-get post put delete
-ws for real-time colab
+cdn
+cache
+
+ws
+CRDTs
+edit q
 delta-based version snapshots
-message queue for edits
-db replication to scale reads
-partition to scale writes
 
 ## topk
-redis sorted set `ZSET` `ZREVRANGE`
-batch updates
-shard by id in a redis cluster
-new key per day
-it's not real time and uses more memory than streaming
-streaming can make sense for sub-minute latency or complex event processing. eg. flink, kafka-streams
+redis sorted set, sharded in cluster
+`ZSET` `ZREVRANGE`
 
-## streaming
-music
-video
-movie
+batch updates
 
 ## notif.
 mq
 workers
 templates
-SSE, webhooks
 
+SSE
+webhooks
+
+---
+
+streaming
+music
+video
+movie
+kafka
 
 payments
 
+crawler
 search engine
 
+chat
 imessage
 
+yelp
 find my
 
 news
 
-crawler
-
 trader
-
-kafka 
-
-

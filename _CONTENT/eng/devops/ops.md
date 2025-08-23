@@ -1,19 +1,22 @@
 ---
 ---
-## deploy
 code
-config
-deps
-
 services
 
-stateless
-fast
-graceful
+config
+deps.
 
 ci/cd
 
-## observe 
+stateless
+
+fast start
+graceful exit
+
+observe
+scale
+
+## observe
 logs + correlation ids
 events: logs, metrics, traces
 

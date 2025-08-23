@@ -1,6 +1,6 @@
 ---
 ---
-## problems 
+## problems
 lost updates
 
 read skew
@@ -16,6 +16,7 @@ read same data to decide different writes
 may violate invariants, eg. no doctors remaining
 needs serial isolation
 
+# solutions
 
 ## read committed
 only see committed rows

@@ -1,15 +1,29 @@
 ---
 ---
-imperative [[c]]
-declarative [[sql]]
+imperative
+[[c]]
+[[go]]
+
+declarative
+[[sql]]
+
 [[oop]]
-actor 
 
-## functional 
-state 
+actor
+elixir
+akka
 
-immutable
-side effect
+functional
 stateless
+immutable
+no side effect
+composed
 
+reactive
+react
+js
 
+multi
+[[py]]
+[[csharp]]
+[[ts]]

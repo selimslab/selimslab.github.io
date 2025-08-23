@@ -15,18 +15,16 @@ docs
 leaderless
 
 ## conflicts
-avoid 
-route to same leader 
+avoid
+route to same leader
 crdts
 
 or resolve by
-- read repair: compare replica responses
-- background anti-entropy: detect using hashes of data parts and vector clocks
-- last-write-wins
-- app-logic
+read repair: compare replica responses
+background anti-entropy: detect using hashes of data parts and vector clocks
+last-write-wins
+app-logic
 
-## ops
-monitor replication lag
-
-auto failover can cause cascades. 
-manual for critical sys.
+## concerns
+replication lag
+auto failover cascades

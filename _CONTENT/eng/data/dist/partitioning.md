@@ -17,10 +17,8 @@ hybrid: fixed num of parts. per node. split existing large parts as new nodes ar
 no modulo
 pre-split: start with initial parts. on empty dbs
 
-auto failover can cause cascades. manual for critical sys.
-
 ## secondary indexes
-local: each partition has its own index. 
+local: each partition has its own index.
 global: single partitioned index
 
 keep related data together to prevent scatter/gather
@@ -31,5 +29,5 @@ routing tier: load balancer
 random node: any node can recv and forward
 coordinator: like zk or gossip to track partition mapping
 
-
-
+## concerns
+auto failover can cause cascades. manual for critical sys.

@@ -1,5 +1,13 @@
 ---
 ---
+## log segments
+kafka
+
+## columnar
+parquet
+clickhouse
+influx
+
 ## B+ trees
 all data in leaves
 leaves are linked for range queries
@@ -17,13 +25,13 @@ break even after 50-100TB
 
 ## Log structured merge tree
 balanced in-mem tree
-crash log 
+crash log
 SS(sorted string) tables
 
 write -> wal -> mem-table(skip-list) -> flush to sstable
 
 SSTable
-data blocks 
+data blocks
 sparse index: only first key of each block
 index for each block
 bloom filter for entire sstable
@@ -34,11 +42,3 @@ better compression and disk life
 
 10x write throughput vs b-tree, 0.5x read/s
 less stable response times in higher percentiles
-
-## log segments 
-kafka 
-
-## columnar 
-parquet 
-clickhouse
-influx 

@@ -1,24 +1,26 @@
 ---
 ---
-cluster 
-    node 
+```
+cluster
+node
 
-    broker 
+broker
 
-    topic 
-    partition 
-        leader
-        replica
-        ISR
-    log segment 
+topic
+partition
+    leader
+    replica
+    ISR
+log segment
 
-    producer 
+producer
 
-    consumer group
-    consumer 
+consumer group
+consumer
 
-    epoch
-    acknowledgment level (0, 1, all replicas)
+epoch
+acknowledgment level (0, 1, all replicas)
+```
 
 ## optimized
 zero-copy
@@ -34,7 +36,7 @@ sendfile: pagecache to netbuffer
 
 ## idempotence
 each msg has (ProducerID, PartitionID, SequenceNumber)
-broker dedups 
+broker dedups
 
 ## exactly-once
 idempotence

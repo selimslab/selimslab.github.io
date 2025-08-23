@@ -1,8 +1,7 @@
 ---
 ---
-```
-ws 
-webtransport quic 
+ws
+webtransport quic
 
 sse
 webhook
@@ -14,24 +13,24 @@ webaudio
 webworkers
 service workers
 
-indexeddb 
-webstorage 
-cache api 
-filesys api 
+indexeddb
+webstorage
+cache api
+filesys api
 
 webgl
 webgpu
 
-wasm 
+wasm
 
 geolocation
-sensors 
+sensors
 
-payments 
-```
+payments
+
 
 ## SSE
-server to client 
+server to client
 
 ```js
 const source = new EventSource('/live-feed')
@@ -39,9 +38,9 @@ const source = new EventSource('/live-feed')
 source.onmessage = (event) => process(event)
 ```
 
-## webhook 
+## webhook
 server to server
-register n call 
+register n call
 
 ```js
 POST https://yoursite.com/webhook
@@ -51,8 +50,8 @@ app.post('/webhook', process(req.event))
 ```
 
 ## websockets 2011
-single TCP conn. 
-full-duplex comm.  
+single TCP conn.
+full-duplex comm.
 
 header
 upgrade: websocket
@@ -78,11 +77,8 @@ const conn = new RTCPeerConnection();
 
 const chan = conn.createDataChannel('chat');
 
-// create offer 
+// create offer
 // send offer to remote peer via signaling server
 
-// connect and talk 
+// connect and talk
 ```
-
-
-

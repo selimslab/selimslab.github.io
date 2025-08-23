@@ -3,7 +3,7 @@
 update skip locked
 select for update
 
-## tx 
+## tx
 ```
 SET TRANSACTION ISOLATION LEVEL
 READ COMMITTED
@@ -23,6 +23,7 @@ unique
 partial: WHERE
 multi-column composite
 
-## links 
+## links
 [Common DB schema change mistakes - Postgres.AI](https://postgres.ai/blog/20220525-common-db-schema-change-mistakes)
+
 [SQLforDevs.com - Database Tips & Tricks](https://sqlfordevs.com/tips)
