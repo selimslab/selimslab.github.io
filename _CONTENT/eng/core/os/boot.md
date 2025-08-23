@@ -22,3 +22,38 @@ root fs mount
 
 init PID 1 systemd, user space starts
 scheduler begins, user login
+
+---
+
+root/admin: full access
+system users/service accounts: limited to specific services
+regular users: only access own files and permitted resources
+guest
+
+CAP_NET_ADMIN
+CAP_SYS_ADMIN
+
+
+---
+
+```
+systemctl status start stop restart enable disable
+
+journalctl
+
+systemd
+    crond
+
+    networkd
+    dhcpd
+    firewalld
+    sshd
+
+    udevd
+
+    syslogd
+    journald
+```
+
+
+

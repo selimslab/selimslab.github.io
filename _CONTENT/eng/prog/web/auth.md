@@ -1,34 +1,37 @@
 ---
 ---
 ## methods
-basic: base64(user, pass) over https, in every req.
-bearer: token (jwt, oauth), stateless
-api key: a static id
-oauth 2.0: access token + refresh token
-session-based: cookie with session id, server side session storage
+basic: base64(user, pass) over https
 
-## jwt
+session-cookie
+
+api key
+
+bearer token: stateless eg. jwt, oauth
+
+## oauth framework
+grant 3rd parties limited access to a user account 
+w/o sharing passwords
+
+redirect to auth server
+user logs in
+user grants perms.
+auth server redirects back with auth code
+post auth code to get access and refresh tokens
+
+oauth 2.0: access token + refresh token
+OpenID Connect: built on Oauth 2.0, uses jwt
+
+## JWT
 base64(header, payload, signature)
 
-header: algorithm(HMAC, RSA like HS256, RS256) and token type
-payload: claims like user id, expiration, issuer
+header: encrypt. algo + token type
+payload: claims eg. issuer, user id, expiration
 
 server creates
 client stores
 server verifies signature and expiration
 
-
-## oauth framework
-grant 3rd parties limited access to a user account w/o sharing passwords
-
-1. redirect to auth server (google, github, spotify etc.)
-2. user logs in and grants perms.
-3. auth server redirects back with auth code
-4. post auth code to get access and refresh tokens
-
-## OpenID Connect
-built on Oauth 2.0, uses jwt
-
 ## SSO
 single sign on
-get a token from an id provider, use it for many services
+single token for many services

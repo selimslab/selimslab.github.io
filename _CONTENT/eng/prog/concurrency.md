@@ -1,5 +1,25 @@
 ---
 ---
+## races 
+outcome depends on timing/order
+
+shared access w/o sync
+at least one write
+
+read-modify-write
+check-then-act
+ABA
+cache coherence 
+
+init 
+destruct 
+interrupt
+
+deadlock 
+livelock 
+
+## solutionns
+
 atomic 
 compare-and-swap
 test-and-set

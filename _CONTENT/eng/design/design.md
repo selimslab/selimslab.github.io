@@ -1,6 +1,6 @@
 ---
 ---
-# root 
+## core 
 user 
 goals 
 non-goals 
@@ -14,14 +14,10 @@ unknowns
 ## data 
 character
 r/w 
-lat. 
-thrp.
+latency  
+throughput
 
 acid needs 
-atomic tx 
-cons. 
-conc. isolation 
-dur. 
 
 store
 retrieve
@@ -29,11 +25,13 @@ retrieve
 flow 
 proc
 
-dist. 
+## dist 
 reps. 
 part. 
+
 consistency 
 consensus 
+
 avail.
 
 ## arch 
@@ -55,8 +53,6 @@ parad.
 
 perf 
 sec
-
-# devsecops 
 
 ## dev 
 test

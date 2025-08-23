@@ -12,6 +12,7 @@ rwx rwx rwx : owner group other
 access control lists for more control: fs listacl
 
 ## fs api
+```
 open()
 read()
 lseek()
@@ -30,6 +31,7 @@ link()
 unlink()
 
 strace() syscall trace
+```
 
 ## devices
 block

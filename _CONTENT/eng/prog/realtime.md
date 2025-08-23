@@ -1,7 +1,5 @@
 ---
 ---
-## real-time sys 
-
 no heap
 no gc
 stack bound checks  

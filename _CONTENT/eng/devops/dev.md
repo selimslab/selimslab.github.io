@@ -1,5 +1,19 @@
 ---
 ---
+git
+1-step builds
+
+bug db
+bugs before feats
+
+spec
+schedule
+
+best tools
+quiet 
+
+hallway usability testing
+
 ## docs
 <https://diataxis.fr/>
 ref
@@ -39,17 +53,3 @@ ui
 ops
 
 
-## dev
-git
-1-step builds
-
-bug db
-bugs before feats
-
-spec
-schedule
-
-best tools
-quiet 
-
-hallway usability testing

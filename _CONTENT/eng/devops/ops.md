@@ -1,5 +1,19 @@
 ---
 ---
+## deploy
+code
+config
+deps
+
+services
+
+stateless
+fast
+graceful
+
+ci/cd
+
+## observe 
 logs + correlation ids
 events: logs, metrics, traces
 

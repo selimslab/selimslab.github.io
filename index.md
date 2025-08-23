@@ -14,7 +14,6 @@ layout: nav
 
 [eng](/eng/)
 
-
 <script src="/assets/js/moment.min.js"></script>
 <script src="/assets/js/datetime.js"></script>
 

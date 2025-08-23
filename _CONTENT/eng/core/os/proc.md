@@ -2,27 +2,22 @@
 ---
 Load code
 alloc mem
-init stack
+init address space
 
-address space
-stack < SP
+```
+stack <- SP
+    return address
+    open files
+    params
+    local vars
 heap
-code < PC
+    new()
+    malloc()
+code <- PC or IP, program counter or instruction pointer
 data
 
-stack 
-return address
-open files
-params
-local vars
-
-heap
-new()
-malloc()
-
-registers
-SP stack pointer 
-PC program counter or IP instruction pointer
+```
+threads share code, data, heap 
 
 time sharing
 save/load registers to switch ctx
@@ -34,13 +29,13 @@ signals
 SIGINT
 SIGTERM
 
+```
 fork()
 exec()
-wait() 
 
+wait() 
 zombie children 
 
-```
 pthread
     create
     join
@@ -52,8 +47,6 @@ pthread
         signal
 ```
 
-threads share code, data, heap 
-
 
 ## IPC
 shared memory
@@ -63,6 +56,8 @@ files
 
 pipes
 sockets
+
 qs
 
 signals
+

@@ -17,10 +17,3 @@ id-server: spof
 
 snowflake id: timestamp + data center id + machine id + sequence number
 
-## availability
-heartbeat pings with timeout
-lease with ttl
-gossip
-
-phi accrual: adapt heartbeat to network conditions.
-prob. dist. of arrivals in a sliding window
