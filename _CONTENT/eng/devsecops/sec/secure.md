@@ -1,27 +1,24 @@
 ---
 ---
-zero-trust (always verify)
+zero-trust 
+always verify
 
-validate
-sanitaze
 isolate
+layer 
 
 threat model
 depth and breadth
-layered
+
+zones: public, private, secret
 
 auth levels
 least privilege
 allow-lists
 multi-factor
+
 log audit events 
 
 exponential delays
 
-zones: public, private, secret
-
 scan repos for secrets
 rotate secrets
-
-
-

@@ -4,20 +4,21 @@ input -> hash func -> fixed size output
 
 same input, same output
 one-way
-
-coll. resist.
+collision resistant
 avalanche
 
-non-crypt vs crypt
-
 eg.
-md5: 128-bit, weak
-sha-256: Secure Hash Algorithm
-bcrypt: password hashing
-blake2
+md5
+bcrypt
+sha-256
 
-HMAC (hash-message based auth code)
-verifies message integrity
-hash func (like SHA-256) + secret key  HMAC(message, secret)
+passwords
+bcrypt(password + salt)
 
-hash(password + salt)$$
+sha
+Secure Hash Algorithm
+
+verify message integrity
+HMAC
+hash-message based auth code
+sha256(message, secret)

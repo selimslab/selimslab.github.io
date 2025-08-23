@@ -1,28 +1,27 @@
 ---
 ---
+server
 mono
 soa
 micro
-
-event-driven
-q
-pipeline
-pubsub
-
 client-server
-layered n-tier
+n-tier
 
 serverless
 p2p
 
-dep. inversion 
+q
+pipeline
+pubsub
+event-driven
+reactive
+
+tactics
 ddd
+dep. inversion 
 hexagonal: ports and adapters 
-
-blackboard 
-reactive 
-
-## event driven 
+ 
+event driven 
 notification: emit events and listen
 state transfer: include all necessary data so listeners don't need to query source
 event sourcing: events as source of truth
