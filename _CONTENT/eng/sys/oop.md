@@ -10,19 +10,16 @@ compile time: generic or overloading
 runtime: override parent
 
 solid
-extend 
+extend
 honor parent contracts
 
 compose by default
 inherit when real is-a hierarchy or template pattern
 
-
-## DDD
+DDD
 shared domain language
 bounded context: area of terms
-
 domain models and core logic, independent of technology
-
 alternatives: relational, ux, math
 
 # Patterns
