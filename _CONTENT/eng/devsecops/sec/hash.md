@@ -20,4 +20,4 @@ HMAC (hash-message based auth code)
 verifies message integrity
 hash func (like SHA-256) + secret key  HMAC(message, secret)
 
-hash(password + salt)
+hash(password + salt)$$

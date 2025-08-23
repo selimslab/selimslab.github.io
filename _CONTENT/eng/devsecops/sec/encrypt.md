@@ -10,7 +10,7 @@ Private key: single shared secret
 RSA: public. based on factoring large primes: easy to verify factors, but hard to generate
 AES (advanced encryption standard): sym, fast, hardware optimized
 
-start with RSA, exchange AES key
+start with RSA, exchange 
 
 ## key exchange
 diffie-hellman
