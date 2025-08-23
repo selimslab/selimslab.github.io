@@ -5,38 +5,28 @@ get post head
 200 404 500
 
 one req. per conn.
-no cache
+no cache 
 
 ## http1.1 1997
 default keep-alive
-
-pipeline
-can't reuse a single connection (no multiplexing)
-blocking 
+cache-control header
 
 range
 chunked transfer encoding
 
 conditional headers
-cache-control header
 
-put delete options trace connect
+put delete
 
-## websockets 2011
-full-duplex comm. over single TCP conn. 
-`upgrade: websocket`
+pipeline
+blocking
+can't reuse a single connection (no multiplexing) 
 
 ## http2 2015
-multiplex streams on a single conn: each has an id
+multiplex streams on a single conn: each with a streamId
 packet loss still blocks all streams on tcp level
 
 binary protocol
-http/2 frame:
-length
-type
-flags
-stream id
-payload
 
 server-send
 

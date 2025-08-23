@@ -1,14 +1,11 @@
 ---
 ---
-## 12 factor 
-process: stateless, fast, graceful
-deps explicit
-config injected
-services attached
-
-build, release, run
-dev/prod parity
-
+## docs
+<https://diataxis.fr/>
+ref
+exp
+howto
+tutorial
 
 ## code review
 kind
@@ -20,14 +17,6 @@ correct
 tests
 sec
 perf
-
-
-## docs
-<https://diataxis.fr/>
-ref
-exp
-howto
-tutorial
 
 ## commit tags
 feat
@@ -50,7 +39,7 @@ ui
 ops
 
 
-## joel test
+## dev
 git
 1-step builds
 
