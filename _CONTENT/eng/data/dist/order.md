@@ -8,7 +8,7 @@ GPS: satellite latency, normally lower than network
 vector clock: a list of counters for each node [c1 .. cn]
 
 ## idempotence 
-uniq id + dedup + atomic
+uniq id + dedup + atomic commit + fencing 
 
 ## id gen
 uuid: not-sortable

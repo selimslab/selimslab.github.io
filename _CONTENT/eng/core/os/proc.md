@@ -1,9 +1,6 @@
 ---
 ---
-Load code
-alloc mem
-init address space
-
+## address space
 ```
 stack <- SP
     return address
@@ -19,22 +16,25 @@ data
 ```
 threads share code, data, heap 
 
+## conc. 
 time sharing
 save/load registers to switch ctx
 
 scheduler
 policy vs mechanism
 
-signals
-SIGINT
-SIGTERM
 
+## process api
 ```
 fork()
 exec()
 
 wait() 
 zombie children 
+
+signals
+    SIGINT
+    SIGTERM
 
 pthread
     create
@@ -45,6 +45,7 @@ pthread
     cond 
         wait 
         signal
+
 ```
 
 

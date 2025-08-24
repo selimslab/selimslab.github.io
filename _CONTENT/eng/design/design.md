@@ -1,15 +1,15 @@
 ---
 ---
-## core 
-user 
+human 
+
 goals 
 non-goals 
 
-asmp.
-const.  
-
 knowns
+const. 
+
 unknowns 
+asmp.
 
 ## data 
 character
@@ -51,14 +51,23 @@ DSA
 lang.
 parad. 
 
-perf 
-sec
+## perf 
+simd
+locality 
 
-## dev 
-test
-docs 
-review
-ci/cd 
+batch 
+
+lazy
+prune 
+
+prep 
+index 
+
+share 
+pool
+
+heuristic
+
 
 ## sec
 isolation
@@ -70,6 +79,14 @@ containers
 secrets 
 certs. 
 rbac 
+
+
+## dev 
+test
+docs 
+review
+ci/cd 
+
 
 ## ops  
 deployment

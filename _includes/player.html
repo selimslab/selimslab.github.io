@@ -3,7 +3,7 @@
   <div id="now-playing"></div>
   <audio id="audio-player" controls></audio>
   <div class="player-controls">
-    <button id="shuffle-button" class="button">Shuffle</button>
+    <button id="shuffle-button" class="">Shuffle</button>
   </div>
 </div>
 
@@ -208,7 +208,6 @@
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     margin-left: 1rem;
-    background-color: #1b1c1d;
   }
 
   .player-controls {
@@ -216,12 +215,11 @@
     justify-content: right;
   }
 
-  .player-controls button {
-    background-color: #1b1c1d;
+  .player-controls {
     font-family: "Atkinson Hyperlegible Mono", "Inconsolata", monospace;
     cursor: pointer;
     border: none;
-    font-size: 0.9rem;
+    margin-top: 0.5rem;
   }
 
   #shuffle-button.active {

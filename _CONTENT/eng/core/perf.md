@@ -2,49 +2,62 @@
 ---
 what else?
 
-binary encoding
+## data 
+data locality
+binary packing
 seq. io
 
-stack vs heap
+## db
+indexing
+conn. pooling
 
-prep
-sort
-index
+query optimization
+denorm.
 
-lazy eval
-early exit
-prune
-heuristics
-approximation
-probabilistic
+replicas
+sharding
 
+## dataproc 
 batch
 stream
 q
+
+## os 
+stack
+heap
 
 concurrent
 parallel
 SIMD
 
-pipelining
-branch prediction
-loop unrolling
-
-pooling
-sharing
-
 mmap
 copy-on-write
 zero-copy
 
+## compiler
+pipelining
+branch prediction
+loop unrolling
+
+## dsa 
+prep
+sort
+index
+
+pooling
+sharing
+
+lazy eval
+early exit
+prune
+
+heuristics
+approximation
+probabilistic
+
+## concurrency
 lock-free
 proc vs thread
 asyncio
 
-db
-replicas
-sharding
-query optimization
-indexing
-conn. pooling
-denorm.
+

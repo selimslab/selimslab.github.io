@@ -1,31 +1,27 @@
-const THEME = 'theme';
 const DATA_THEME = 'data-theme';
-const THEME_LIGHT = 'light';
-const THEME_DARK = 'dark';
-const CLASS_SUN = 'sun';
-const CLASS_MOON = 'moon';
-const themeToggle = document.getElementById("themeToggle");
-themeToggle.textContent = "🌓";
 
 function getSystemTheme() {
-    return window.matchMedia('(prefers-color-scheme: dark)').matches ? THEME_DARK : THEME_LIGHT;
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 }
 
 function setTheme(theme){
     document.documentElement.setAttribute(DATA_THEME, theme);
-    window.localStorage.setItem(THEME, theme);
+    window.localStorage.setItem('theme', theme);
+    console.log("setTheme: ", theme)
 }
 
 function toggleTheme() {
     let currentMode = document.documentElement.getAttribute(DATA_THEME);
-    if (currentMode === THEME_DARK) {
-        setTheme(THEME_DARK)
+    if (currentMode === 'dark') {
+        setTheme('light')
     } else {
-        setTheme(THEME_LIGHT)
+        setTheme('dark')
     }
 }
 
+const themeToggle = document.getElementById("themeToggle");
 if (themeToggle) {
+    themeToggle.textContent = "🌓";
     themeToggle.addEventListener('keydown', function(event) {
         if (event.key === 'Enter') {
             toggleTheme();

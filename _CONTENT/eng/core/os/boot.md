@@ -1,43 +1,64 @@
 ---
 ---
-power-on: 
+**power-on:** 
 cpu starts at fixed fw address
 
-bios: 
+**systemctl** 
 init ram, cpu
 discover bootable devices
 loads boot sector to memory
 
-boot loader: 
+**boot loader**
 locates kernel on disk
 loads into ram
 jumps to kernel entry
 
-kernel init: 
+**kernel init** 
 switch cpu from legacy mode to protected/long mode
+
 virtual mem
 interrupt handlers
-devices/drivers
+
+devices
+drivers
 root fs mount
 
-init PID 1 systemd, user space starts
-scheduler begins, user login
+systemd
+user space starts
 
----
+scheduler begins
+user login
 
-root/admin: full access
-system users/service accounts: limited to specific services
-regular users: only access own files and permitted resources
+## user types
+root/admin
+full access
+
+system users
+service accounts
+limited to specific services
+
+regular users
+only access own files and permitted resources
+
 guest
 
+## caps 
 CAP_NET_ADMIN
 CAP_SYS_ADMIN
 
 
----
+## systemctl
 
 ```
-systemctl status start stop restart enable disable
+systemctl
+    status
+
+    start
+    stop
+    restart
+
+    enable
+    disable
 
 journalctl
 

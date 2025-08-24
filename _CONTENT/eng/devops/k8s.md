@@ -25,6 +25,7 @@ kubectl
   exec
 ```
 
+## names
 ```
 Namespace
 

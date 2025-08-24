@@ -8,10 +8,6 @@ etcd
 mongo
 dynamo
 
-## time-series
-influx
-timescale
-
 ## wide-col-family
 cassandra
 bigtable
@@ -21,6 +17,10 @@ hbase
 clickhouse
 influx
 bigquery
+
+## time-series
+influx
+timescale
 
 ## graph
 variable path queries
