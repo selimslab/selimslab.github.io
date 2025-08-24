@@ -1,108 +1,108 @@
 {
-  "classics": [
-    {
-      "id": "0",
-      "title": "Black Sabbath - Paranoid"
-    },
-    {
-      "id": "1",
-      "title": "Bob Dylan - Mr. Tambourine Man"
-    },
-    {
-      "id": "2",
-      "title": "California Dreamin'"
-    },
-    {
-      "id": "3",
-      "title": "Carry On"
-    },
-    {
-      "id": "4",
-      "title": "Dream On"
-    },
-    {
-      "id": "5",
-      "title": "Dust in the Wind"
-    },
-    {
-      "id": "6",
-      "title": "Fear of the Dark"
-    },
-    {
-      "id": "7",
-      "title": "Kansas - Carry On Wayward Son"
-    },
-    {
-      "id": "8",
-      "title": "Paint It, Black"
-    },
-    {
-      "id": "9",
-      "title": "Soldier Of Fortune - Deep Purple"
-    },
-    {
-      "id": "10",
-      "title": "Sting - Shape of My Heart"
-    },
-    {
-      "id": "11",
-      "title": "The Temple Of The King"
-    },
-    {
-      "id": "12",
-      "title": "White Room"
-    }
-  ],
   "dance": [
     {
-      "id": "13",
+      "id": "0",
       "title": "Freed from desire"
     },
     {
-      "id": "14",
+      "id": "1",
       "title": "Laura Branigan - Self Control"
     },
     {
-      "id": "15",
+      "id": "2",
       "title": "Michael Jackson - Billie Jean"
     },
     {
-      "id": "16",
+      "id": "3",
       "title": "Shakira - Hips Don't Lie"
     },
     {
-      "id": "17",
+      "id": "4",
       "title": "The Ketchup Song"
     }
   ],
   "electronic": [
     {
-      "id": "18",
+      "id": "5",
       "title": "Avoure - Aura"
     },
     {
-      "id": "19",
+      "id": "6",
       "title": "David August - Epikur"
     },
     {
-      "id": "20",
+      "id": "7",
       "title": "Lost In Mind"
     },
     {
-      "id": "21",
+      "id": "8",
       "title": "Solomun - Home"
     },
     {
-      "id": "22",
+      "id": "9",
       "title": "Stavroz - The Finishing"
     },
     {
-      "id": "23",
+      "id": "10",
       "title": "You're High"
     },
     {
-      "id": "24",
+      "id": "11",
       "title": "İpek İpekçioğlu - The Way I Do"
+    }
+  ],
+  "rock": [
+    {
+      "id": "12",
+      "title": "Black Sabbath - Paranoid"
+    },
+    {
+      "id": "13",
+      "title": "Bob Dylan - Mr. Tambourine Man"
+    },
+    {
+      "id": "14",
+      "title": "California Dreamin'"
+    },
+    {
+      "id": "15",
+      "title": "Carry On"
+    },
+    {
+      "id": "16",
+      "title": "Dream On"
+    },
+    {
+      "id": "17",
+      "title": "Dust in the Wind"
+    },
+    {
+      "id": "18",
+      "title": "Fear of the Dark"
+    },
+    {
+      "id": "19",
+      "title": "Kansas - Carry On Wayward Son"
+    },
+    {
+      "id": "20",
+      "title": "Paint It, Black"
+    },
+    {
+      "id": "21",
+      "title": "Soldier Of Fortune - Deep Purple"
+    },
+    {
+      "id": "22",
+      "title": "Sting - Shape of My Heart"
+    },
+    {
+      "id": "23",
+      "title": "The Temple Of The King"
+    },
+    {
+      "id": "24",
+      "title": "White Room"
     }
   ],
   "soundtrack": [
@@ -112,220 +112,192 @@
     },
     {
       "id": "26",
-      "title": "Ben de Özledim - Dağılma"
-    },
-    {
-      "id": "27",
       "title": "Enya - Only Time"
     },
     {
-      "id": "28",
+      "id": "27",
       "title": "Hans Zimmer - No Time For Caution"
     },
     {
-      "id": "29",
+      "id": "28",
       "title": "Hans Zimmer ~ Cornfield Chase"
     },
     {
-      "id": "30",
+      "id": "29",
       "title": "Heart of Courage"
     },
     {
-      "id": "31",
-      "title": "Leyla İle Mecnun： Geri Dönme"
-    },
-    {
-      "id": "32",
+      "id": "30",
       "title": "Ludovico Einaudi - Fly"
     },
     {
-      "id": "33",
+      "id": "31",
       "title": "Mark Eliyahu - Journey"
     },
     {
-      "id": "34",
+      "id": "32",
       "title": "Misty Mountains"
     },
     {
-      "id": "35",
+      "id": "33",
       "title": "O Fortuna"
     },
     {
-      "id": "36",
+      "id": "34",
       "title": "The Last of the Mohicans - Main Title"
     },
     {
-      "id": "37",
+      "id": "35",
       "title": "The Ride of the Rohirrim"
     },
     {
-      "id": "38",
+      "id": "36",
       "title": "Up Is Down"
     }
   ],
   "turkce": [
     {
-      "id": "39",
-      "title": "Adamlar - Döndürüyor"
-    },
-    {
-      "id": "40",
+      "id": "37",
       "title": "Adamlar - Öyle Bir Geçer"
     },
     {
-      "id": "41",
+      "id": "38",
       "title": "Barış Manço - Gamzedeyim"
     },
     {
-      "id": "42",
+      "id": "39",
       "title": "Barış Manço - Gül Pembe"
     },
     {
-      "id": "43",
+      "id": "40",
       "title": "Cem Karaca - Kara Bahtım"
     },
     {
-      "id": "44",
+      "id": "41",
       "title": "Dedublüman - Sen Bilmezsin"
     },
     {
-      "id": "45",
-      "title": "Dedublüman x Göksel - Karar Verdim"
-    },
-    {
-      "id": "46",
+      "id": "42",
       "title": "Duman - Helal Olsun"
     },
     {
-      "id": "47",
+      "id": "43",
       "title": "Duman - Yürekten"
     },
     {
-      "id": "48",
+      "id": "44",
       "title": "Dönence"
     },
     {
-      "id": "49",
-      "title": "Giderim"
-    },
-    {
-      "id": "50",
+      "id": "45",
       "title": "Gökhan Kırdar： Dayan Kalbim"
     },
     {
-      "id": "51",
+      "id": "46",
       "title": "Hey! Douglas - Ayva Çiçek Açmış ft. Gaye Su Akyol"
     },
     {
-      "id": "52",
+      "id": "47",
       "title": "Hey! Douglas ft. Göksel - Duruyor Dünya"
     },
     {
-      "id": "53",
-      "title": "Manuş Baba - Haberin Var Mı？"
-    },
-    {
-      "id": "54",
-      "title": "Mark Eliyahu & Cem Adrian - Derinlerde"
-    },
-    {
-      "id": "55",
+      "id": "48",
       "title": "Müslüm Gürses & Duman - Olmadı Yar"
     },
     {
-      "id": "56",
+      "id": "49",
       "title": "Pinhâni - Dünyadan Uzak"
     },
     {
-      "id": "57",
+      "id": "50",
       "title": "mor ve ötesi - Bir Derdim Var"
     },
     {
-      "id": "58",
+      "id": "51",
       "title": "mor ve ötesi - Sultan-ı Yegâh"
     }
   ],
   "turku": [
     {
-      "id": "59",
+      "id": "52",
       "title": "Al Fadimem ⧸ Cura"
     },
     {
-      "id": "60",
+      "id": "53",
       "title": "Asiye"
     },
     {
-      "id": "61",
+      "id": "54",
       "title": "Bir Fırtına"
     },
     {
-      "id": "62",
+      "id": "55",
       "title": "Bülbülüm Altın Kafeste"
     },
     {
-      "id": "63",
+      "id": "56",
       "title": "Drama Köprüsü"
     },
     {
-      "id": "64",
+      "id": "57",
       "title": "Elif Dedim"
     },
     {
-      "id": "65",
+      "id": "58",
       "title": "Eşkiya Dünyaya Hükümdar Olmaz"
     },
     {
-      "id": "66",
+      "id": "59",
       "title": "Harmandali"
     },
     {
-      "id": "67",
+      "id": "60",
       "title": "Hüdayda"
     },
     {
-      "id": "68",
+      "id": "61",
       "title": "Kerimoğlu"
     },
     {
-      "id": "69",
+      "id": "62",
       "title": "Mahzuni Şerif - bilmem aglasam mi"
     },
     {
-      "id": "70",
+      "id": "63",
       "title": "Neşet Ertaş - Ayaş Yolları"
     },
     {
-      "id": "71",
+      "id": "64",
       "title": "Sivas Ellerinde Sazim Calinir"
     },
     {
-      "id": "72",
+      "id": "65",
       "title": "Tekeler Köyü Zeybeği"
     }
   ],
   "world": [
     {
-      "id": "73",
+      "id": "66",
       "title": "Four Winds - Adam Hurst"
     },
     {
-      "id": "74",
+      "id": "67",
       "title": "Françoise Hardy - Le Temps de l'Amour"
     },
     {
-      "id": "75",
+      "id": "68",
       "title": "Kazim Koyuncu - Didou Nana"
     },
     {
-      "id": "76",
+      "id": "69",
       "title": "Lily Was Here"
     },
     {
-      "id": "77",
+      "id": "70",
       "title": "Masâr"
     },
     {
-      "id": "78",
+      "id": "71",
       "title": "Nasimi"
     }
   ]
