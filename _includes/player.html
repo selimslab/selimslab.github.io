@@ -13,6 +13,7 @@
 <script>
 
   document.addEventListener('DOMContentLoaded', function () {
+
     const audioPlayer = document.getElementById('audio-player');
     const nowPlaying = document.getElementById('now-playing');
     const playlist = document.getElementById('playlist');
@@ -207,14 +208,14 @@
     font-family: "Atkinson Hyperlegible Mono", "Inconsolata", monospace;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    backdrop-filter: blur(2px);
   }
+
+
 
   .player-controls {
     display: flex;
     justify-content: right;
-  }
-
-  .player-controls {
     font-family: "Atkinson Hyperlegible Mono", "Inconsolata", monospace;
     cursor: pointer;
     border: none;
@@ -240,4 +241,5 @@
   .track-list {
     margin-bottom: 1rem;
   }
+
 </style>
