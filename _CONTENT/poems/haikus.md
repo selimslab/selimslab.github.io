@@ -21,7 +21,7 @@ O snail
 Climb Mount Fuji,
 But slowly, slowly!
 
-
+---
 
 so much depends  
 upon
@@ -34,3 +34,5 @@ water
 
 beside the white  
 chickens
+
+---
