@@ -3,17 +3,17 @@
 immutable events
 side effects
 
+log compaction
+
 event time
 delivery time
+e2e latency
+
+consumer lag
+checkpoint
 
 grace period
 watermark
-
-checkpoint
-log compaction
-
-consumer lag
-e2e latency
 
 backpressure
 circuit breaker
@@ -30,5 +30,5 @@ sliding
 session
 
 stream + stream : window
-stream + table : enrichment
-table + table : materialized view
+stream + table : enrich
+table + table : materialized view of join

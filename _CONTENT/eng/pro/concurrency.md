@@ -18,7 +18,15 @@ interrupt
 deadlock 
 livelock 
 
-## solutionns
+## solutions
+atomic hw 
+lock/sem/cond 
+monitor 
+lock-free, crdt 
+q 
+actor 
+event loop
+thread pool 
 
 atomic 
 compare-and-swap
@@ -28,23 +36,31 @@ memory barrier/fence
 
 mutex
 rwlock
+
 cond
 sem
+
 barrier
 monitor
 
-msg qs
-channels
-actors with supervisor trees
-ring buffers
+q
+msg q
+ring buffer
 
-lock-free
-concurrent map
 blocking q
+channel
+
+actors with supervisor trees
+
+concurrent map/set/list
+
+lock-free ds
 CRDT (Conflict-free Replicated Data Types)
 
 future/promise
 async/await
 event loop, coroutines
+
 task schedulers with thread pools, eg. C# Task
+
 STM
