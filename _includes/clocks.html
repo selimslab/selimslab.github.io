@@ -5,13 +5,13 @@
 <div class="mono has-text-centered">
 
 
-    <p id="current-time"></p>
+    <p class="time" id="current-time"></p>
     {% include clock.html type="hour" id="hourClock" %}
 
-    <p id="current-date"></p>
+    <p class="time" id="current-date"></p>
     {% include clock.html type="month" id="monthClock" %}
 
-    <p id="current-year"></p>
+    <p class="time" id="current-year"></p>
     {% include clock.html type="year" id="yearClock" %}
 
     {% include clock.html type="decade" id="decadeClock" title="Decades" %}
@@ -28,3 +28,9 @@
   show_date_and_time();
   document.getElementById('current-year').innerHTML = new Date().getFullYear();
 </script>
+
+<style>
+  .time{
+    margin: 0;
+  }
+</style>
