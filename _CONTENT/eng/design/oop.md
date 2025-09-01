@@ -1,5 +1,17 @@
 ---
 ---
+objects for type-specific logic 
+
+system boundaries for cross-cutting concerns 
+auth 
+cache 
+db 
+network resilience 
+telemetry
+
+---
+
+
 encap.
 inher.
 abs.
