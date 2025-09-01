@@ -1,7 +1,7 @@
 ---
 ---
 atomicity
-[[cons]]
+[[consistency]]
 [[isolation]]
 durability
 
