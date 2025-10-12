@@ -29,26 +29,6 @@ sensors
 payments
 
 
-## SSE
-server to client
-
-```js
-const source = new EventSource('/live-feed')
-
-source.onmessage = (event) => process(event)
-```
-
-## webhook
-server to server
-register n call
-
-```js
-POST https://yoursite.com/webhook
-
-app.post('/webhook', process(req.event))
-
-```
-
 ## websockets 2011
 single TCP conn.
 full-duplex comm.
@@ -64,6 +44,28 @@ ws.send('hi')
 ws.onmessage = (event) => process(event)
 
 ```
+
+
+## webhook
+server to server
+register n call
+
+```js
+POST https://yoursite.com/webhook
+
+app.post('/webhook', process(req.event))
+
+```
+
+## SSE
+server to client
+
+```js
+const source = new EventSource('/live-feed')
+
+source.onmessage = (event) => process(event)
+```
+
 
 ## webrtc
 web real time comm.

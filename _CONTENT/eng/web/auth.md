@@ -2,15 +2,12 @@
 ---
 ## methods
 basic: base64(user, pass) over https
-
 session-cookie
-
 api key
-
 bearer token: stateless eg. jwt, oauth
 
 ## oauth framework
-grant 3rd parties limited access to a user account 
+grant 3rd parties limited access to a user account
 w/o sharing passwords
 
 redirect to auth server

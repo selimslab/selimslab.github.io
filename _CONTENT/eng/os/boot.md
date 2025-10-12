@@ -1,20 +1,20 @@
 ---
 ---
-**power-on:** 
+**power-on:**
 cpu starts at fixed fw address
 
-**systemctl** 
+**systemctl**
 init ram, cpu
 discover bootable devices
-loads boot sector to memory
+load boot loader to memory
 
 **boot loader**
 locates kernel on disk
 loads into ram
 jumps to kernel entry
 
-**kernel init** 
-switch cpu from legacy mode to protected/long mode
+**kernel init**
+switch cpu from legacy mode to /long mode
 
 virtual mem
 interrupt handlers
@@ -42,10 +42,9 @@ only access own files and permitted resources
 
 guest
 
-## caps 
+## caps
 CAP_NET_ADMIN
 CAP_SYS_ADMIN
-
 
 ## systemctl
 
@@ -75,6 +74,3 @@ systemd
     syslogd
     journald
 ```
-
-
-

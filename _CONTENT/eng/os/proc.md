@@ -14,9 +14,9 @@ code <- PC or IP, program counter or instruction pointer
 data
 
 ```
-threads share code, data, heap 
+threads share code, data, heap
 
-## conc. 
+## conc.
 time sharing
 save/load registers to switch ctx
 
@@ -29,8 +29,8 @@ policy vs mechanism
 fork()
 exec()
 
-wait() 
-zombie children 
+wait()
+zombie children
 
 signals
     SIGINT
@@ -39,11 +39,11 @@ signals
 pthread
     create
     join
-    mutex 
-        lock 
+    mutex
+        lock
         unlock
-    cond 
-        wait 
+    cond
+        wait
         signal
 
 ```
@@ -62,3 +62,44 @@ qs
 
 signals
 
+
+## virt
+
+L1, L2 per core 64kb, 1mb
+L3 shared 32mb
+
+x86/x64 rings
+ring 0: kernel mode
+ring 3: user mode
+
+disk
+hdd
+ssd: sata | nvme
+
+
+```
+thread
+process
+
+containers
+pod
+
+kubelet
+kube-proxy
+coredns
+
+containerd
+runc
+
+guest os
+vm
+
+qemu
+kvm
+
+host os
+
+CPU MMU disk
+
+node
+```

@@ -71,36 +71,6 @@ custom crd
 
 ```
 
-## tools
-```
-kubeadm: cluster bootstrap
-kustomize: config management
-k9s: cli
-
-Terraform
-Ansible
-Helm
-Kustomize
-
-ArgoCD
-
-NGINX Ingress Controller
-Traefik
-
-OPA Gatekeeper
-cert-manager
-Vault
-
-Prometheus
-Loki
-Grafana
-Jaeger
-
-Istio
-Linkerd
-```
-
-
 ## apiversion
 ```
 v1

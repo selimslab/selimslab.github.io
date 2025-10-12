@@ -23,11 +23,8 @@ Forging of a valid request.
 Having an unpredictable request parameter (CSRF token) prevents this.
 Token is a large random value, unique per user and session.
 
-## XSS
-Cross-site scripting is injecting malicious code into a website so user's browser executes it
-
-Validate and encode inputs
+## XSS: Cross-site scripting
+code injection
 Disable inline js so all js must be loaded from script tags.
-Allow-list scripts and assets in `Content Security Policy` header
-
-For example `<script>` would be encoded as `&lt;script&gt;`
+Allow-list scripts and assets in `Content Security Policy` header.
+Validate and encode inputs. For example `<script>` would be encoded as `&lt;script&gt;`
