@@ -1,5 +1,42 @@
 ---
 ---
+control plane 
+    api-server
+    etcd 
+    scheduler 
+    controller-manager 
+
+  node
+    kubelet 
+    kube-proxy
+    coredns 
+    
+  namespace 
+
+    deployment 
+      daemonset
+      statefulset 
+      replicaset 
+        pod 
+          container 
+
+    resource quota
+
+    pvc
+    
+    network policy 
+    service 
+    endpoint 
+    ingress 
+
+    service account 
+    rbac role 
+    configmap 
+    secret 
+    
+    hpa/vpa pod auto scaler
+
+
 ```
 control plane
   kube-apiserver

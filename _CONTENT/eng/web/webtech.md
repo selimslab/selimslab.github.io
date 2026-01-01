@@ -1,5 +1,11 @@
 ---
 ---
+websocket: 2 way 1-tcp con.
+  sse: server to client, event on message 
+  webhook: server to server, register n call 
+  webrtc: real time comm. direct p2p 
+   
+
 ws
 webtransport quic
 

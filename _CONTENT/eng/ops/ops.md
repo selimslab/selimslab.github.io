@@ -1,5 +1,17 @@
 ---
 ---
+## o11y
+  net 
+    latency percentilese 
+    throughput 
+    bandwidth 
+  cpu 
+  disk 
+  metrics 
+    error rates 
+    http status codes 
+    .. 
+
 ## observe
 logs + correlation ids
 events: logs, metrics, traces

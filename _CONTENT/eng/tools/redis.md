@@ -23,3 +23,6 @@ Single
 HA: read replicas
 Sentinel: auto failover
 Cluster: horizontal
+
+
+  

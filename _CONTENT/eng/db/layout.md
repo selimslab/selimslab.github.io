@@ -43,6 +43,17 @@ better compression and disk life
 10x write throughput vs b-tree, 0.5x read/s
 less stable response times in higher percentiles
 
+## lsm 
+  wal
+  memtable 
+  sstable
+    bloom
+    sparse index
+    block index 
+  compaction 
+    L0, L1, ..
+  delete by tombstones 
+  
 
 ## columnar vs wide column
 both lsm

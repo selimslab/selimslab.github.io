@@ -1,5 +1,18 @@
 ---
 ---
+Key troubleshooting pattern
+ 1. Physical layer working? (ip link, interface UP?)
+ 2. IP configured? (ip address show)
+ 3. Can reach gateway? (ping gateway)
+ 4. Routing correct? (ip route show)
+ 5. DNS working? (host google.com)
+ 
+ Diagnostic Tools:
+ - lsof -i - shows processes using network ports
+ - tcpdump - captures raw packets (protocol analysis)
+ - netcat - flexible TCP/UDP client/server for testing
+ - nmap - scans ports to discover services
+
 ## tools
 ping
 ip

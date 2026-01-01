@@ -1,5 +1,11 @@
 ---
 ---
+apikey: static, s2s 
+  session token: db lookup 
+  jwt: access + refresh, secure cookie, base64(header, payload,sign)
+  oauth2.0: delegate, redirect, auth code, jwt 
+  
+
 ## methods
 basic: base64(user, pass) over https
 session-cookie
