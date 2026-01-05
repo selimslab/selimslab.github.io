@@ -1,5 +1,10 @@
 ---
 ---
+atomicity
+consistency
+isolation
+durability: WAL, replicas, fsync, power hardware
+
 ## problems
 lost updates
 

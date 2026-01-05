@@ -23,18 +23,14 @@ sharding
 ## dsa
 prep
 sort
-index
 
-pooling
-sharing
+share pool
 
-lazy eval
-early exit
-prune
+prune, early exit
 
-heuristics
-approximation
-probabilistic
+lazy 
+
+approximate
 
 ## concurrency
 lock-free
@@ -55,7 +51,6 @@ zero-copy
 pipelining
 branch prediction
 loop unrolling
-
 
 ## profiling
 

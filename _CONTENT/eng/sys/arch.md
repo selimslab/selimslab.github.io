@@ -1,13 +1,10 @@
 ---
 ---
-server
 mono
 soa
 micro
 client-server
 n-tier
-
-serverless
 p2p
 
 q

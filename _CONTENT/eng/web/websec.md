@@ -19,9 +19,7 @@ You can verify resource `integrity` or disallow iframes
 
 ## CSRF
 Cross-site request forgery
-Forging of a valid request.
-Having an unpredictable request parameter (CSRF token) prevents this.
-Token is a large random value, unique per user and session.
+token 
 
 ## XSS: Cross-site scripting
 code injection
