@@ -1,5 +1,14 @@
 ---
 ---
+## uniq ids
+uuid: not-sortable
+id-server: spof
+snowflake id: timestamp + data center id + machine id + sequence number
+
+## idempotence
+uniq id + dedup table/cache + at-least once delivery
+
+
 ## rate limiter 
   token bucket 
   leaky bucket 

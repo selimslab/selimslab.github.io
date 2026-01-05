@@ -1,15 +1,5 @@
 ---
 ---
-## encoding
-backward comp: old data, new code
-
-breaking:
-deleting required fields
-changing field types
-
-keep unknown fields
-tags vs names: compact + rename later
-
 ## log segments
 kafka
 
@@ -18,9 +8,15 @@ parquet
 clickhouse
 influx
 
+compression
+skip ranges
+only needed cols
+
 ## B+ trees
 all data in leaves
+100-500 children per node (fanout)
 leaves are linked for range queries
+write amplification from splitting/rebalancing
 
 one node = one disk page (4kb)
 
@@ -61,6 +57,9 @@ periodic merge
 local data, seq. io, flat files
 better compression and disk life
 
-10x write throughput vs b-tree, 0.5x read/s
 less stable response times in higher percentiles
 
+vs B-tree
+slower point queries  
+better sequential write throughput
+multiple versions of same key until compaction

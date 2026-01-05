@@ -65,17 +65,10 @@ signals
 
 ## virt
 
-L1, L2 per core 64kb, 1mb
-L3 shared 32mb
+L1 L2 per core, L3 shared
 
-x86/x64 rings
-ring 0: kernel mode
-ring 3: user mode
-
-disk
-hdd
+disk: hdd | ssd
 ssd: sata | nvme
-
 
 ```
 thread

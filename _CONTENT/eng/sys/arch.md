@@ -18,6 +18,9 @@ state transfer: include all necessary data so listeners don't need to query sour
 event sourcing: events as source of truth
 CQRS: separate read write models
 
+event sourcing: store events and replay 
+local + outbox table: transactional outbox for publishing events
+
 tactics
 ddd
 dep. inversion

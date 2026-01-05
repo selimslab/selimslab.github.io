@@ -1,13 +1,14 @@
 ---
 ---
 ```
+arr
+list 
+map
+
 str
 rk
 lps + kmp
 trie
-
-list 
-map
 
 stack
 q
@@ -33,7 +34,6 @@ graph
   cc: dfs
   scc: kosa, 3 step, order, reverse, collect 
 
-
 paths
   dijkstra_priority = new_cost
   greedy_priority = heuristic(goal,next)
@@ -55,4 +55,11 @@ bit
 math
   gcd 
   lcm 
+  combis perms subsets
+
+greedy 
+
+backtrack 
+
+dp 
 ```

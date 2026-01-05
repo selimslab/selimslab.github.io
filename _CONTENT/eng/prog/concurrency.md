@@ -19,48 +19,39 @@ deadlock
 livelock
 
 ## solutions
-atomic hw
-lock/sem/cond
-monitor
-lock-free, crdt
+
 q
 actor
 event loop
 thread pool
 
-atomic
+atomics
 compare-and-swap
 test-and-set
 fetch-and-add
 memory barrier/fence
 
+lock-free
+CRDT (Conflict-free Replicated Data Types)
+
 mutex
 rwlock
 
-cond
-sem
+condition var
+sema
 
 barrier
 monitor
+concurrent collections
 
 q
 msg q
 ring buffer
-
-blocking q
-channel
-
-actors with supervisor trees
-
-concurrent map/set/list
-
-lock-free ds
-CRDT (Conflict-free Replicated Data Types)
 
 future/promise
 async/await
 event loop, coroutines
 
 task schedulers with thread pools, eg. C# Task
-
+actors with supervisor trees
 STM
