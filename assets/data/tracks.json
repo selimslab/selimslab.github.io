@@ -170,135 +170,67 @@
     },
     {
       "id": "40",
-      "title": "Dedublüman - Sen Bilmezsin"
-    },
-    {
-      "id": "41",
-      "title": "Duman - Helal Olsun"
-    },
-    {
-      "id": "42",
-      "title": "Duman - Yürekten"
-    },
-    {
-      "id": "43",
       "title": "Dönence"
     },
     {
-      "id": "44",
+      "id": "41",
       "title": "Gökhan Kırdar： Dayan Kalbim"
     },
     {
-      "id": "45",
+      "id": "42",
       "title": "Hey! Douglas - Ayva Çiçek Açmış ft. Gaye Su Akyol"
     },
     {
-      "id": "46",
+      "id": "43",
       "title": "Hey! Douglas ft. Göksel - Duruyor Dünya"
     },
     {
-      "id": "47",
-      "title": "Müslüm Gürses & Duman - Olmadı Yar"
-    },
-    {
-      "id": "48",
-      "title": "Pinhâni - Dünyadan Uzak"
-    },
-    {
-      "id": "49",
+      "id": "44",
       "title": "mor ve ötesi - Bir Derdim Var"
     },
     {
-      "id": "50",
+      "id": "45",
       "title": "mor ve ötesi - Sultan-ı Yegâh"
     }
   ],
   "turku": [
     {
-      "id": "51",
-      "title": "Al Fadimem ⧸ Cura"
-    },
-    {
-      "id": "52",
-      "title": "Asiye"
-    },
-    {
-      "id": "53",
-      "title": "Bir Fırtına"
-    },
-    {
-      "id": "54",
-      "title": "Bülbülüm Altın Kafeste"
-    },
-    {
-      "id": "55",
-      "title": "Drama Köprüsü"
-    },
-    {
-      "id": "56",
-      "title": "Elif Dedim"
-    },
-    {
-      "id": "57",
+      "id": "46",
       "title": "Eşkiya Dünyaya Hükümdar Olmaz"
     },
     {
-      "id": "58",
+      "id": "47",
       "title": "Harmandali"
     },
     {
-      "id": "59",
-      "title": "Hüdayda"
-    },
-    {
-      "id": "60",
-      "title": "Kerimoğlu"
-    },
-    {
-      "id": "61",
-      "title": "Mahzuni Şerif - bilmem aglasam mi"
-    },
-    {
-      "id": "62",
-      "title": "Neşet Ertaş - Ayaş Yolları"
-    },
-    {
-      "id": "63",
+      "id": "48",
       "title": "Sivas Ellerinde Sazim Calinir"
     },
     {
-      "id": "64",
+      "id": "49",
       "title": "Tekeler Köyü Zeybeği"
     }
   ],
   "world": [
     {
-      "id": "65",
+      "id": "50",
       "title": "Four Winds - Adam Hurst"
     },
     {
-      "id": "66",
+      "id": "51",
       "title": "Françoise Hardy - Le Temps de l'Amour"
     },
     {
-      "id": "67",
-      "title": "Kazim Koyuncu - Didou Nana"
-    },
-    {
-      "id": "68",
+      "id": "52",
       "title": "Lily Was Here"
     },
     {
-      "id": "69",
+      "id": "53",
       "title": "Mark Eliyahu - Journey"
     },
     {
-      "id": "70",
+      "id": "54",
       "title": "Masâr"
-    },
-    {
-      "id": "71",
-      "title": "Nasimi"
     }
   ]
 }
