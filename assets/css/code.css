@@ -3,7 +3,12 @@
 
 .highlight {
   font-family: "Atkinson Hyperlegible Mono", "Inconsolata", monospace;
+}
+
+pre code {
+  font-family: "Atkinson Hyperlegible Mono", "Inconsolata", monospace;
   font-size: medium;
+  line-height: inherit;
 }
 
 .highlight, .highlight .w {

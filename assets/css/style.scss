@@ -29,7 +29,6 @@ $serif: Georgia, serif;
 $mono: "Atkinson Hyperlegible Mono", "Inconsolata", monospace;
 
 html {
-  font-size: large;
   line-height: 1.8;
   scroll-behavior: smooth;
 }
@@ -41,18 +40,15 @@ p {
 
 pre {
   padding: 0.5rem;
-  font-family: $mono;
 }
 
 h1 {
-  font-family: $mono;
   font-weight: bold;
   font-size: x-large;
   margin-bottom: 0.5rem;
 }
 
 h2 {
-  font-family: $mono;
   font-weight: bold;
   margin-top: 1.2rem;
 }
@@ -75,7 +71,7 @@ a:hover {
 }
 
 body {
-  font-family: $sansSerif;
+  font-family: $mono;
   background-color: $darkBg;
   background-image: url('/assets/static/solar/2k_stars_milky_way3.jpg');
   background-attachment: fixed;
@@ -149,25 +145,13 @@ blockquote {
 }
 
 pre {
-  font-family: $mono;
   background: inherit;
   color: inherit;
   font-size: large !important;
 }
 
-.taglist {
-  font-size: 0.8rem;
-}
-
 .toplink {
-  font-family: $mono;
   margin-right: 0.5rem;
-}
-
-
-details {
-  margin-bottom: 0.7rem;
-  margin-top: 0.7rem;
 }
 
 html[data-theme='light'] {
@@ -177,10 +161,6 @@ html[data-theme='light'] {
     background-attachment: unset;
     background-position: unset;
     color: $darkText;
-  }
-
-  .planet-container {
-    display: none;
   }
 
   ::selection {
