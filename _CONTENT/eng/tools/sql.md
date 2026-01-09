@@ -1,31 +1,36 @@
 ---
 ---
-varchar
-text
+```
+types 
+    varchar
+    text
+    ...
 
-pk
-fk
+constraints 
+    pk
+    fk
 
-not null
-check: for data ranges and formats
-uniq
+    not null
+    check: for data ranges and formats
+    uniq
 
 3NF
 
 index
-FKs
-query columns
-sort fields
-composite idx for multi column qs
+    FKs
+    composite index for multi column queries
 
-materialized views
+    materialized views
 
 partition by logical boundaries like date, region, ..
 
-new columns nullable
-version field
+evolve 
+    new columns 
+        nullable
+        version field
 
-soft delete
+    soft delete
+
 audit trail
 
 CASE: WHEN/THEN/ELSE
@@ -37,3 +42,4 @@ moving avg
 lag/lead
 running sum
 pivot
+```

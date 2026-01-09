@@ -1,5 +1,7 @@
 ---
 ---
+https://thecopenhagenbook.com/sessions
+
 ```
 api/v1/people/123/ideas
 
@@ -12,15 +14,19 @@ page: offset/limit or cursor
 idempotency
 
 http
-  1.1: range, chunked stream. can pipeline multiple requests but responses must arrive in order
-  http2: interleave streams on single TCP, packet loss blocks all streams
+  1.1: 
+    range
+    chunked stream
+    can pipeline multiple requests but responses must arrive in order
+  http2: 
+    interleave streams on single TCP
+    packet loss blocks all streams
   https: 3 RTT: TCP + TLS + HTTP
   http3: 
     quic on UDP
     rebuild tcp feats in L7, solves stream blocking
     TLS built-in, single RTT
     conn. survives IP changes
-  
 rest 
   http 
   webtech 
@@ -56,7 +62,9 @@ webtech
   websocket: 2 way, single-tcp, upgrade: websocket
   sse: server to client, EventSource onmessage 
   webhook: server to server, register n call 
-  webrtc: real-time comm, p2p, secure, direct. peers connect using signaling servers, then talk directly
+  webrtc: 
+    real-time comm, p2p, secure, direct.
+    peers connect using signaling servers, then talk directly
 
   webaudio
   quic webtransport 
@@ -102,8 +110,14 @@ sec
   auth
   CORS: allowed origins 
   CSRF token 
-  cookies: you can restrict them to a domain, expire, require https, block js access, etc.
-  XSS: Allow-list scripts and assets in `Content Security Policy` header. validate and encode inputs 
+  cookies: 
+    you can restrict them to a domain
+    expire
+    require https
+    block js access, etc.
+  XSS: 
+    Allow-list scripts and assets in `Content Security Policy` header
+    validate and encode inputs 
   certs: a CA signs that the site owns the private key for their public key 
   rate limit 
     l4 firewall

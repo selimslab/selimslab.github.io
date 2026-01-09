@@ -17,12 +17,10 @@ sha-256
 passwords
 bcrypt(password + salt)
 
-sha
-Secure Hash Algorithm
+sha: Secure Hash Algorithm
 
 verify message integrity
-HMAC
-hash-message based auth code
+HMAC: hash-message based auth code
 sha256(message, secret)
 
 # encrypt
@@ -63,9 +61,9 @@ depth and breadth
 zones: public, private, secret
 
 auth levels
-least privilege
-allow-lists
-multi-factor
+    least privilege
+    allow-lists
+    multi-factor
 
 log audit events
 

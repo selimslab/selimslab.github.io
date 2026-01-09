@@ -1,48 +1,49 @@
 ---
 ---
-## kv
-redis
-etcd
+```
+kv
+    redis
+    etcd
 
-## doc
-mongo
-dynamo
+blob
+    s3
+    minio
+    azure blob
 
-## wide-col-family
-cassandra
-bigtable
-hbase
+cdn
 
-## columnar
-clickhouse
-influx
-bigquery
+doc
+    mongo
+    dynamo
 
-## time-series
-influx
-timescale
+wide-col-family
+    cassandra
+    bigtable
+    hbase
 
-## graph
-variable path queries
+columnar
+    clickhouse
+    influx
+    bigquery
 
-neo4j
-arango
+    time-series
+        influx
+        timescale
 
-cypher
-sparql
+graph
+    variable path queries
 
-## search
-solr
-elastic
+    neo4j
+    arango
 
-## multi modal
-dynamo
-cosmosdb: atom-record-sequence
+    cypher
+    sparql
 
-## blob
-s3
-minio
-azure blob
+search
+    solr
+    elastic
 
-## cdn
-..
+multi modal
+    dynamo
+    cosmosdb: atom-record-sequence
+```

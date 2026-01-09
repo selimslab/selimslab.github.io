@@ -1,5 +1,7 @@
 ---
 ---
+https://muratbuffalo.blogspot.com/2023/10/hints-for-distributed-systems-design.html
+
 ## consistency
 linearizable
 single copy illusion 
@@ -10,7 +12,7 @@ sync replication or quorum
 causal
 vector clocks + dependency tracking
 
-eventual
+eventual$$
 async replication
 conflict resolution (LWW, CRDTs, version vectors)
 
