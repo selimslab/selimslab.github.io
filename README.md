@@ -1,5 +1,5 @@
 
-# Δ - delta 
+# Δ delta 
 
 View at <https://selimslab.github.io>
 
