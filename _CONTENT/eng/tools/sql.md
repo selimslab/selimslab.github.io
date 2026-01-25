@@ -4,7 +4,6 @@
 types 
     varchar
     text
-    ...
 
 constraints 
     pk

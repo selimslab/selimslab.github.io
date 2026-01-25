@@ -1,65 +1,128 @@
 ---
 ---
-## log segments
-kafka
+## B-tree
 
-## columnar
-parquet
-clickhouse
-influx
+```
+    blocks or pages 
+    one node = one disk page (4kb)
 
-compression
-skip ranges
-only needed cols
+    branch factor, 100-500 children per node
 
-## B+ trees
-all data in leaves
-100-500 children per node (fanout)
-leaves are linked for range queries
-write amplification from splitting/rebalancing
+    WAL
+    each key in exactly one place 
+    page frag
+    index-only query possible 
 
-one node = one disk page (4kb)
+    tables: a bag of tuples 
 
-limits
-50k write/s, 100k read/s
-100 tb vertical
-10-50 replicas
+    concat. index 2d 3d 
+        gist r-tree 
+        gin search 
 
-cloud is 2-3x costlier
-break even after 50-100TB
-
+    all data in leaves
+    leaves are linked for range queries
+    write amplification from splitting/rebalancing
+```
 
 ## Log structured merge tree
+```
+    lsm 
+        wal
+        memtable 
+        sorted string table
+            data blocks 
 
-  wal
-  memtable 
-  sstable
-    bloom
-    sparse index
-    block index 
-  compaction 
-    L0, L1, ..
-  delete by tombstones 
+            bloom filter
+            sparse index: only first key of each block
+            block index 
 
-balanced in-mem tree
-crash log
-SS(sorted string) tables
+    write -> wal -> mem-table(skip-list) -> flush to sstable
 
-write -> wal -> mem-table(skip-list) -> flush to sstable
+    immutable
+    single writer 
 
-SSTable
-data blocks
-sparse index: only first key of each block
-index for each block
-bloom filter for entire sstable
+    periodic merge
+    compaction by levels 
+    delete by tombstones 
 
-periodic merge
-local data, seq. io, flat files
-better compression and disk life
+    disk snapshots
+    checksums
 
-less stable response times in higher percentiles
+    local data, seq. io, flat files
+    better compression and disk life
 
-vs B-tree
-slower point queries  
-better sequential write throughput
-multiple versions of same key until compaction
+    less stable response times in higher percentiles
+```
+
+## log segments 
+```
+cluster 
+    brokers 
+
+node
+    broker
+        topics 
+
+topic
+    partition
+        log segments 
+
+        leader 
+        in-sync replicas 
+
+consumer group
+    consumers
+    offsets 
+
+write
+    binary procotol
+    sendfile
+
+    batch
+    compress
+```
+
+## analytics 
+```
+star vs snowflake 
+    fact table 
+        dimension tables 
+            sub-dims.
+    data cubes for materialized aggregates
+    slice n dice 
+
+columnar
+    compression
+    sorted 
+    SIMD
+
+    parquet
+    clickhouse
+    influx
+
+```
+
+## encoding 
+```
+    text 
+    binary 
+
+    schema evolution
+        avro 
+        protobuf 
+
+        keep unknown fields
+        tags vs names: compact + rename later
+
+        breaking
+            deleting required fields
+            changing field types
+
+        old code -> new data 
+        old data <- new code 
+```
+
+
+
+
+

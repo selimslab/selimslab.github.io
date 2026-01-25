@@ -2,97 +2,63 @@
 ---
 ## address space
 ```
+code <- PC program counter or IP instruction pointer
+
+data
+
 stack <- SP
     return address
     open files
     params
     local vars
+
 heap
     new()
     malloc()
-code <- PC or IP, program counter or instruction pointer
-data
-
 ```
-threads share code, data, heap
 
-## conc.
-time sharing
-save/load registers to switch ctx
+time sharing, save/load registers to switch ctx
+scheduler: policy vs mechanism
 
-scheduler
-policy vs mechanism
-
-
-## process api
 ```
 fork()
 exec()
-
 wait()
-zombie children
-
-signals
-    SIGINT
-    SIGTERM
 
 pthread
     create
     join
+
     mutex
         lock
         unlock
+
     cond
         wait
         signal
-
 ```
 
+```
+IPC
+    shared memory
+        threads
+        mmap
+        files
+    
+    msg passing 
+        sockets 
+        pipes
 
-## IPC
-shared memory
-
-mmap
-files
-
-pipes
-sockets
-
-qs
-
-signals
-
+signals 
+    SIGINT
+    SIGTERM
+    SIGHUP
+```
 
 ## virt
-
-L1 L2 per core, L3 shared
-
-disk: hdd | ssd
-ssd: sata | nvme
-
 ```
-thread
-process
-
-containers
-pod
-
-kubelet
-kube-proxy
-coredns
-
-containerd
-runc
-
-guest os
-vm
-
-qemu
-kvm
-
-host os
-
-CPU MMU disk
-
-node
+host os, qemu, kvm
+vm, guest os, containerd, runc
+kubelet, kube-proxy, coredns
+pod, container
 ```

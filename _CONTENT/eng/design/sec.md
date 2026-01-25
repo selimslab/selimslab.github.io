@@ -1,73 +1,51 @@
 ---
 ---
 ## hash
+```
+hash = func(input)
 
-input -> hash func -> fixed size output
-
-same input, same output
+fixed size
 one-way
+
 collision resistant
 avalanche
 
-eg.
-md5
-bcrypt
-sha-256
-
-passwords
-bcrypt(password + salt)
-
-sha: Secure Hash Algorithm
-
-verify message integrity
-HMAC: hash-message based auth code
-sha256(message, secret)
+password hash = bcrypt(password + salt)
+checksum = sha256(message, secret)
+```
 
 # encrypt
+```
+cyphertext = encrypt(input, key)
 
-input + key -> func -> cyphertext
+sym: single private shared secret
+asym: public-private
 
-sym
-single private shared secret
+RSA: public, prime-factoring
+AES: advanced encryption standard, single secret, fast, hardware optimized
 
-asym
-public encrypts
-private decrypts
-
-RSA
-asym.
-based on factoring large primes
-hard to generate factors, easy to verify
-
-AES
-advanced encryption standard
-sym
-fast, hardware optimized
-
-key exchange
-diffie-hellman
-
+diffie-hellman key exchange
+```
 
 ## heuristics
 
 zero-trust: always verify
 
-isolate
-layer
-
 threat model
 depth and breadth
 
+layer
+isolate
 zones: public, private, secret
 
-auth levels
+auth
+    levels
     least privilege
     allow-lists
     multi-factor
 
 log audit events
-
 exponential delays
 
-scan repos for secrets
 rotate secrets
+scan repos for secrets

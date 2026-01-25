@@ -7,9 +7,6 @@ layout: nav
 <a href='/calendar/' id="current-date"></a>
 
 [paintings](/paintings/)
-[poems](/poems/)
-
-[player](/player/)
 [typewriter](/typewriter/)
 
 [eng](/eng/)

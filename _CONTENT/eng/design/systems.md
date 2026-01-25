@@ -1,5 +1,12 @@
 ---
 ---
+## docs
+<https://diataxis.fr/>
+ref
+example
+howto
+tutorial
+
 ## uniq ids
 uuid: not-sortable
 id-server: spof

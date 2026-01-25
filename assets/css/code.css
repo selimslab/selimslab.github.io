@@ -8,6 +8,7 @@
 pre code {
   font-family: "Atkinson Hyperlegible Mono", "Inconsolata", monospace;
   font-size: medium;
+  font-weight: 300;
   line-height: inherit;
 }
 

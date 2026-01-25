@@ -1,89 +1,53 @@
 ---
 ---
-## encoding
-backward comp: old data, new code
+## comm. 
+```
+ipc
+    db
+    services, api, rpc, http 
+    msg passing, q
 
-breaking:
-deleting required fields
-changing field types
+    push: pubsub, ws, sse, webhook
+    pull: query, poll
+    q: decouple, buffer 
 
-keep unknown fields
-tags vs names: compact + rename later
+MPI, message passing interface
+    no central coordinator
+    nodes communicate directly
 
-schema evolution
-avro 
-protobuf 
+delivery semantics 
+    exactly once
+        producer retry + consumer dedup 
+        producer outbox + consumer ack in tx 
+```
 
-## ipc
-db
-api
-msg passing
+## dataproc
+```
+batch
+    atomic ops on seq. data 
+    delta lake: parquet + transaction log + metadata
 
-push: pubsub, ws, sse, webhook
-pull: query, poll
-q: decouple, buffer 
+stream
+    immutable events
 
-MPI
-message passing interface
-no central coordinator
-nodes communicate directly
+    time 
+        event 
+        delivery 
+        processing  
 
-## delivery guarantees
-at-most-once 
-at-least-once: retries + idempotent receiver
-exactly-once: at-least once + dedup 
+    flow control
+        backpressure
+        circuit breaker
 
-producer: add uniq msg ids, retry, track sent msgs on outbox table 
-consumer: store seen ids, dedup, process+ack in tx 
+    consumer lag
+        checkpoint
+        watermark
+        grace period
+        publish correction
 
-producer retry + consumer dedup 
+    windows: fixed, overlapping, sliding, session
 
-## batch 
-immutable inputs
-atomic ops
-
-batch 
-partition
-compose
-
-data locality
-sequential i/o
-vectorize
-columnar
-
-pre-compute expensive ops
-checkpoints
-
-declerative apis = better optimization
-
-spark df
-Delta lake: parquet + transaction log + metadata
-
-## stream 
-immutable events
-side effects
-
-log compaction
-
-event time
-delivery time
-e2e latency
-
-consumer lag
-checkpoint
-
-grace period
-watermark
-
-backpressure
-circuit breaker
-
-exactly once: idempotence + tx commits
-
-probabilistic dsa like bloomfilter, hyperloglog
-
-windows: fixed, overlapping, sliding, session
-
-stream + stream : window
-stream + table : enrich
-table + table : materialized view of join
+    log compaction
+    joins 
+    probabilistic dsa
+```

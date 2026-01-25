@@ -1,65 +1,90 @@
 ---
 ---
-## data
-seq. io
-data locality
-binary packing
+## observe
+```
+logs + correlation ids
+events: logs, metrics, traces
+think in terms of user
 
-batch
-stream
-q
+simulate
+progressive rollouts
+test in prod
+postmortem
+```
 
-## db
-indexing
-conn. pooling
+## measure$$
+```
+load metrics 
+SLOs
 
-query optimization
-denorm.
+distribution
+percentiles
 
-replicas
-sharding
+tail latency 
+add histograms
+
+net 
+    latency percentiles
+    throughput 
+    bandwidth 
+cpu 
+disk 
+metrics 
+    error rates 
+    http status codes 
 
 
-## dsa
-prep
-sort
+profiling
+    traditional: total time
+    modern: conc/parall
 
-share pool
+    causal: if x speeds up by 10%, how much the whole system speeds up?
 
-prune, early exit
+    randomization
+    latency/throughput
+    statistical significance
+```
 
-lazy 
+## optimize 
+```
+data 
+    locality, seq. io 
+    binary 
+    parallel, SIMD
 
-approximate
+i/o
+    mmap
+    copy-on-write
+    zero-copy
 
-## concurrency
-lock-free
-proc vs thread
+conc.
+    lock-free 
 
-## os
-stack vs heap
+db 
+    index
+    conn. pool
 
-concurrent
-parallel
-SIMD
+    query optimization
+    denorm.
 
-mmap
-copy-on-write
-zero-copy
+    replicas
+    sharding
 
-## compiler
-pipelining
-branch prediction
-loop unrolling
+dsa
+    prep
+    sort
 
-## profiling
+    share
+    prune
 
-traditional: total runtime
+    lazy 
+    approximate
 
-modern: conc/parall
+compiler
+    pipelining
+    branch prediction
+    loop unrolling
+```
 
-causal profiling: if x speeds up by 10%, how much the whole system speeds up?
 
-randomization
-latency/throughput
-statistical significance
+
