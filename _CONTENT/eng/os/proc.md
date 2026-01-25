@@ -1,26 +1,18 @@
 ---
 ---
-## address space
 ```
-code <- PC program counter or IP instruction pointer
+address space
+    code <- IP or PC
+        instruction pointer or program counter
+    data
+    heap
+        malloc
+    stack <- SP
+        params
+        return address
+        local vars
+        open files
 
-data
-
-stack <- SP
-    return address
-    open files
-    params
-    local vars
-
-heap
-    new()
-    malloc()
-```
-
-time sharing, save/load registers to switch ctx
-scheduler: policy vs mechanism
-
-```
 fork()
 exec()
 wait()
@@ -36,9 +28,7 @@ pthread
     cond
         wait
         signal
-```
 
-```
 IPC
     shared memory
         threads
@@ -53,12 +43,10 @@ signals
     SIGINT
     SIGTERM
     SIGHUP
-```
 
-## virt
-```
-host os, qemu, kvm
-vm, guest os, containerd, runc
-kubelet, kube-proxy, coredns
-pod, container
+virt
+    host os, qemu, kvm
+    vm, guest os, containerd, runc
+    kubelet, kube-proxy, coredns
+    pod, container, process
 ```

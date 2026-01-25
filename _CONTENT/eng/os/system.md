@@ -27,10 +27,7 @@ systemd
     syslogd
     journald
 
-```
 
-## users
-```
 user types
     root
     service accounts

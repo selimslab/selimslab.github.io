@@ -49,28 +49,34 @@ rebalancing is expensive
     service discovery, request routing 
 ```
 
-
 ## consistency
 linearizable: single copy illusion, single leader + election consensus + sync replication
+
 causal: vector clocks + dependency tracking
+
 eventual: async replication + conflict resolution
 
 ## consensus
 raft: majority ack, term number fencing 
 
-paxos
-pbft: o(n2)
-
 ## atomic commit
 2PC: ask all, commit if they all ack, like marriage, coordinator spof 
 practical: 2pc + raft for coordinator failover 
-k
+
 ## time and order 
 NTP, GPS 
 
 lamport clock: single counter per process, can only tell if A happens-before B
+
 vector clocks: list of counters per process, can detect concurrency, detects conflicts 
+
 version vector: each replica tracks versions of replicated data objects 
+
+```
+lamport int 
+vector []int 
+versions map[object]version
+```
 
 ## availability
 heartbeat pings with timeout, adapt to network conditions
