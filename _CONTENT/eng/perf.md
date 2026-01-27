@@ -5,29 +5,22 @@
 think in terms of user
 
 logs + correlation ids
-
 events: logs, metrics, traces
 
-simulate
-progressive rollouts
-test in prod
-postmortem
-
-load metrics, SLOs
-
-latency, throughput, bandwidth, cpu, disk, error rates, status codes
+define load metrics, SLOs
+latency, throughput, bandwidth
+cpu, disk, ram, network
+error rates, status codes
 
 distribution, percentiles, tail latency, histograms
+randomization
+statistical significance
 
 profiling
     total time
-    conc/parall
-    causal: if x speeds up by 10%, how much the whole system speeds up?
-
-randomization
-statistical significance
+    conc, parall
+    causal: part vs whole 
 ```
-
 
 ## optimize
 ```

@@ -9,6 +9,13 @@ types, parse
 auth, rate-limit, cache
 ```
 
+## docs
+<https://diataxis.fr/>
+ref
+example
+howto
+tutorial
+
 ## http
 ```
 1.1: 
@@ -87,27 +94,20 @@ oauth
 SSO: single sign on
 ```
 
-## docs
-<https://diataxis.fr/>
-ref
-example
-howto
-tutorial
-
 
 ## webtech
 ```
-websocket: 2 way, single-tcp, upgrade: websocket
+websocket: 2 way, single-tcp, upgrade
+quic webtransport 
 
 sse: server to client, EventSource onmessage 
 
 webhook: server to server, register n call 
 
-webrtc: 
-  real-time comm, p2p, secure, direct
-  peers connect using signaling servers, then talk directly
+webrtc: real-time, p2p, direct
+  peers connect using signaling servers
 
-webaudio, quic webtransport 
+webaudio
 
 webgl, webgpu
 wasm
