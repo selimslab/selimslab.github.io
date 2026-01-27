@@ -3,55 +3,55 @@
 ## B-tree
 
 ```
-    blocks or pages 
-    one node = one disk page (4kb)
+blocks or pages 
+one node = one disk page (4kb)
 
-    branch factor, 100-500 children per node
+branch factor, 100-500 children per node
 
-    WAL
-    each key in exactly one place 
-    page frag
-    index-only query possible 
+WAL
+each key in exactly one place 
+page frag
+index-only query possible 
 
-    tables: a bag of tuples 
+tables: a bag of tuples 
 
-    concat. index 2d 3d 
-        gist r-tree 
-        gin search 
+concat. index 2d 3d 
+    gist r-tree 
+    gin search 
 
-    all data in leaves
-    leaves are linked for range queries
-    write amplification from splitting/rebalancing
+all data in leaves
+leaves are linked for range queries
+write amplification from splitting/rebalancing
 ```
 
 ## Log structured merge tree
 ```
-    lsm 
-        wal
-        memtable 
-        sorted string table
-            data blocks 
+lsm 
+    wal
+    memtable 
+    sorted string table
+        data blocks 
 
-            bloom filter
-            sparse index: only first key of each block
-            block index 
+        bloom filter
+        sparse index: only first key of each block
+        block index 
 
-    write -> wal -> mem-table(skip-list) -> flush to sstable
+write -> wal -> mem-table(skip-list) -> flush to sstable
 
-    immutable
-    single writer 
+immutable
+single writer 
 
-    periodic merge
-    compaction by levels 
-    delete by tombstones 
+periodic merge
+compaction by levels 
+delete by tombstones 
 
-    disk snapshots
-    checksums
+disk snapshots
+checksums
 
-    local data, seq. io, flat files
-    better compression and disk life
+local data, seq. io, flat files
+better compression and disk life
 
-    less stable response times in higher percentiles
+less stable response times in higher percentiles
 ```
 
 ## log segments 
@@ -101,28 +101,3 @@ columnar
     influx
 
 ```
-
-## encoding 
-```
-    text 
-    binary 
-
-    schema evolution
-        avro 
-        protobuf 
-
-        keep unknown fields
-        tags vs names: compact + rename later
-
-        breaking
-            deleting required fields
-            changing field types
-
-        old code -> new data 
-        old data <- new code 
-```
-
-
-
-
-

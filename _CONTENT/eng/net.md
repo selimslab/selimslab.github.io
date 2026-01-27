@@ -32,12 +32,8 @@ ip
     address show
     link
 
-
 tcpdump
-
 netcat 
 netstat
-
 lsof -i
 ```
-

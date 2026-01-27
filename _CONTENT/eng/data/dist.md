@@ -49,37 +49,47 @@ rebalancing is expensive
     service discovery, request routing 
 ```
 
+
+## time and order 
+```
+lamport clock
+    single counter per process
+    can only tell if A happens-before B
+
+vector clocks
+    list of counters per process
+    can detect concurrency, detects conflicts 
+
+versions
+    each replica tracks versions of replicated data objects 
+
+availability
+    heartbeat pings with timeout
+    adapt to network conditions
+    lease with ttl
+    gossip
+```
+
+
 ## consistency
-linearizable: single copy illusion, single leader + election consensus + sync replication
+```
+linearizable
+    single copy illusion
+    single leader + election consensus + (sync replication or raft quorum)
 
 causal: vector clocks + dependency tracking
 
 eventual: async replication + conflict resolution
+```
 
 ## consensus
+```
 raft: majority ack, term number fencing 
 
-## atomic commit
-2PC: ask all, commit if they all ack, like marriage, coordinator spof 
-practical: 2pc + raft for coordinator failover 
+atomic commit
+    2PC
+        ask all, commit if they all ack
+        like marriage, coordinator spof 
 
-## time and order 
-NTP, GPS 
-
-lamport clock: single counter per process, can only tell if A happens-before B
-
-vector clocks: list of counters per process, can detect concurrency, detects conflicts 
-
-version vector: each replica tracks versions of replicated data objects 
-
+    practical: 2pc + raft for coordinator failover 
 ```
-lamport int 
-vector []int 
-versions map[object]version
-```
-
-## availability
-heartbeat pings with timeout, adapt to network conditions
-lease with ttl
-gossip
-

@@ -2,6 +2,15 @@
 ---
 ```
 race: outcome depends on timing/order
+    deadlock, livelock
+
+    read-modify-write
+    check-then-act
+    ABA
+
+    cache coherence
+    interrupt
+    init destruct
 
 cause: shared access + write + no sync 
 
@@ -28,18 +37,4 @@ sync
             compare-and-swap
             test-and-set 
         CRDT
-
-
-race eg. 
-    deadlock, livelock
-
-    read-modify-write
-    check-then-act
-    ABA
-
-    cache coherence
-
-    init
-    destruct
-    interrupt
 ```

@@ -7,25 +7,24 @@ example
 howto
 tutorial
 
+
+
 ## uniq ids
 uuid: not-sortable
 id-server: spof
 snowflake id: timestamp + data center id + machine id + sequence number
 
-## idempotence
-uniq id + dedup table/cache + at-least once delivery
-
-
 ## rate limiter 
-  token bucket 
-  leaky bucket 
-  sliding window with weight 
-  
-  redis
-    incr 
-  k8s 
-    nginx, traefik, ingress controller 
+```
+token bucket 
+leaky bucket 
+sliding window with weight 
 
+redis
+  incr 
+k8s 
+  nginx, traefik, ingress controller 
+```
 
 ## file system
 metadata vs data

@@ -1,23 +1,12 @@
 ---
 ---
 ```
-filter
-page
-  offset/limit
-  cursor 
-
-sort 
-search
-
+filter page 
+sort search 
 version 
-cache 
 
-perf
-type safety 
-
-auth 
-secure 
-rate-limit 
+types, parse 
+auth, rate-limit, cache
 ```
 
 ## http
@@ -25,15 +14,14 @@ rate-limit
 1.1: 
   range
   chunked stream
-  can pipeline multiple requests but responses must arrive in order
+  can pipeline requests but responses must arrive in order
 http2: 
   interleave streams on single TCP
   packet loss blocks all streams
 http3: 
-  quic on UDP
-  rebuild tcp feats in L7, solves stream blocking
+  quic on UDP, solves stream blocking
   TLS built-in, single RTT
-  conn. survives IP changes
+  mobile: survives IP changes
 
 https: 3 RTT, TCP + TLS + HTTP
 ```
@@ -47,14 +35,10 @@ rest
 
   crud, public apis 
 
-  api/v1/people/123/ideas
-
-
 rpc 
   binary 
   type safety 
   proto versioning 
-  perf
 
   custom caching 
   custom metrics 
@@ -65,17 +49,10 @@ gql
   arbitrary data
   dynamic nesting 
 
-  harder to:
-    secure
-    rate limit
-    cache
-    predict query complexity 
-
-  query caching 
-  n+1 -> data loader batch 
-  subscriptions
-
-  mobile apps 
+  harder to secure, cache, rate-limit
+  hard to predict query complexity 
+    
+  data loader batch to prevent n+1 
 ```
 
 
@@ -110,58 +87,26 @@ oauth
 SSO: single sign on
 ```
 
-## websec
-```
-  parse
-  auth
-
-  cookies
-    restrict to a domain
-    https only 
-    block js access
-    expire
-
-  CORS: cross-origin resource sharing, set allowed origins 
-
-  XSS
-    Allow-list scripts and assets in `Content Security Policy` header
-    validate and encode inputs 
-
-  CSRF token, request forgery
-
-  certs
-    CA signs that the site owns the private key for their public key 
-
-  rate limit 
-    l4 firewall
-    l7 app 
-```
-
-
 ## webtech
 ```
 websocket: 2 way, single-tcp, upgrade: websocket
+
 sse: server to client, EventSource onmessage 
+
 webhook: server to server, register n call 
+
 webrtc: 
-  real-time comm, p2p, secure, direct.
+  real-time comm, p2p, secure, direct
   peers connect using signaling servers, then talk directly
 
-webaudio
-quic webtransport 
+webaudio, quic webtransport 
 
-indexeddb
-webstorage
-cache api
-filesys api
-
-webgl
-webgpu
+webgl, webgpu
 wasm
 
-geolocation
-sensors
-payments
+indexeddb, webstorage, cache, filesys
+
+geolocation, sensors, payments
 
 service workers
 ```

@@ -2,50 +2,34 @@
 ---
 ## observe
 ```
-logs + correlation ids
-events: logs, metrics, traces
 think in terms of user
+
+logs + correlation ids
+
+events: logs, metrics, traces
 
 simulate
 progressive rollouts
 test in prod
 postmortem
-```
 
-## measure$$
-```
-load metrics 
-SLOs
+load metrics, SLOs
 
-distribution
-percentiles
+latency, throughput, bandwidth, cpu, disk, error rates, status codes
 
-tail latency 
-add histograms
-
-net 
-    latency percentiles
-    throughput 
-    bandwidth 
-cpu 
-disk 
-metrics 
-    error rates 
-    http status codes 
-
+distribution, percentiles, tail latency, histograms
 
 profiling
-    traditional: total time
-    modern: conc/parall
-
+    total time
+    conc/parall
     causal: if x speeds up by 10%, how much the whole system speeds up?
 
-    randomization
-    latency/throughput
-    statistical significance
+randomization
+statistical significance
 ```
 
-## optimize 
+
+## optimize
 ```
 data 
     locality, seq. io 
