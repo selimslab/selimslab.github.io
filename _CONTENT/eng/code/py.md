@@ -1,8 +1,6 @@
 ---
 ---
-<https://docs.python.org/3/index.html>
-
-<https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html>
+<https://docs.python.org/3/library/index.html>
 
 
 ## types 
@@ -26,7 +24,10 @@ bisect
 sortedcontainers 
 ```
 
-## proc 
+<https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html>
+
+
+## flow 
 ```py
 def *args **keywords lambda 
 for in 
@@ -100,32 +101,36 @@ functools
 
 from contextlib import contextmanager
 @contextmanager
-def resource(*args, **kwds):
+def resource():
+    r = acquire()
     try:
-        yield acquire_resource(*args, **kwds)
+        yield r
     finally:
         release 
 
-@asynccontextmanager
-async def get_connection():
-    conn = await acquire_db_connection()
-    try:
-        yield conn
-    finally:
-        await release_db_connection(conn)
-
-
-subprocess.run("exit 1", shell=True, check=True)
 
 threading 
+    Lock
+    RLock
+    Condition wait() notify()
+    Semaphore
+    Event() set() clear() wait()
+    b = Barrier(3) # block until all 3 made their b.wait() calls 
+    t = Timer(5.0, f) t.start() # calls f in 5 sec
 
-from concurrent.futures import ThreadPoolExecutor
+queue
+    Queue
+    PriorityQueue
+
+from multiprocessing import Pool
+with Pool(5) as p:
+    p.map(f, [1, 2, 3])
+
+from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
 executor = ThreadPoolExecutor(max_workers=8)
+executor.submit(f, data)
 
-multiprocessing
-
-queue.Queue
-
+subprocess.run("exit 1", shell=True, check=True)
 ```
 
 ## i/o
@@ -187,4 +192,28 @@ with httpx.Client(timeout=10) as c:
     resp.raise_for_status()
 
 asyncio
+    Lock
+    Event
+    Condition
+    Semaphore
+    BoundedSemaphore
+    Barrier
+
+    Queue
+    PriorityQueue
+    LifoQueue
+
+    create_subprocess_exec()
+    create_subprocess_shell()
+
+    run()
+    sleep()
+    wait()
+    gather()
+    shield()
+
+asyncio.run(main())
+
+async with asyncio.TaskGroup() as tg:
+    tg.create_task(..)
 ```

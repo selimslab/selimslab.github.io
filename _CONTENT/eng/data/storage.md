@@ -26,15 +26,13 @@ write amplification from splitting/rebalancing
 
 ## Log structured merge tree
 ```
-lsm 
-    wal
-    memtable 
-    sorted string table
-        data blocks 
-
-        bloom filter
-        sparse index: only first key of each block
-        block index 
+wal
+memtable 
+sorted string table
+    bloom filter
+    sparse index: only first key of each block
+    block index 
+    data blocks 
 
 write -> wal -> mem-table(skip-list) -> flush to sstable
 
@@ -54,7 +52,7 @@ better compression and disk life
 less stable response times in higher percentiles
 ```
 
-## log segments 
+## kafka 
 ```
 cluster 
     brokers 
@@ -66,21 +64,33 @@ node
 topic
     partition
         log segments 
+            messages
 
-        leader 
-        in-sync replicas 
+msg 
+    producer id 
+    partition id 
+    seq # 
+
+partition
+    leader 
+    replicas 
+    in-sync replicas, ISR
 
 consumer group
     consumers
     offsets 
 
 write
-    binary procotol
-    sendfile
+    binary procotol, zero-copy
+    seq. io, batch, compress
+    pagecache, fsync, sendfile
 
-    batch
-    compress
+exactly-once
+    idempotence, retry, dedup 
+    read-committed consumers
+    if multi-topic: atomic writes by 2PC
 ```
+
 
 ## analytics 
 ```
@@ -88,16 +98,12 @@ star vs snowflake
     fact table 
         dimension tables 
             sub-dims.
-    data cubes for materialized aggregates
-    slice n dice 
+
+data cubes for materialized aggregates
+slice n dice 
 
 columnar
-    compression
-    sorted 
-    SIMD
-
+    compression, sort, SIMD
     parquet
-    clickhouse
-    influx
 
 ```

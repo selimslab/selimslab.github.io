@@ -87,6 +87,14 @@ oauth
 SSO: single sign on
 ```
 
+## docs
+<https://diataxis.fr/>
+ref
+example
+howto
+tutorial
+
+
 ## webtech
 ```
 websocket: 2 way, single-tcp, upgrade: websocket

@@ -1,11 +1,15 @@
 ---
 ---
+<https://pkg.go.dev/std>
+
+<https://gobyexample.com/>
+
 ## types 
 ```go 
 bool
 
 string
-
+z   
 int  int8  int16  int32  int64
 uint uint8 uint16 uint32 uint64 uintptr
 byte // alias for uint8
@@ -33,15 +37,13 @@ const(
 ```
 
 
-## proc 
+## flow 
 ```go
 func name(params ...type) (type, error){ return }
 
 if else 
 switch case default 
-
-for 
-range 
+for range 
 
 
 s = append(s, 2)
@@ -65,6 +67,9 @@ slices.Compact(nums) // [0 1 2 3 5 8]
 
 slices.Concat(s1, s2)
 slices.Compare(a, b) // -1, 0, 1 
+
+slices.Sort(s) 
+ok := slices.IsSorted(s)
 
 
 
@@ -93,22 +98,81 @@ s.Index("test", "e")
 s.Join([]string{"a", "b"}, "-") // "-".join(['a', 'b'])
 s.Split("a-b-c-d-e", "-")
 s.ToLower
+
+
+
+
+// parsing 
+val, err := strconv.Atoi("135")
+ParseInt()
+ParseFloat()
+
+
+
+
+func TestFunc(t *testing.T) {
+    var tests = []struct {
+        a, b int
+        want int
+    }{
+        {0, 1, 0},
+    }
+}
+
+func BenchmarkFunc(b *testing.B) {
+    for b.Loop() {
+        f()
+    }
+}
+
+
 ```
 
 
 ## i/o
 ```go
-// http
+import (
+    "path/filepath"
+    "os"
+    "bufio"
+)
+path := filepath.Join(os.TempDir(), "data")
+data, err := os.ReadFile(path)
 
 
-// files 
+f, err := os.Create(path)
+bytes := []byte{115, 111, 109, 101, 10}
+n, err := f.Write(bytes)
+n2, err := f.WriteString("a\n")
+
+r := bufio.NewReader(f)
+buf, err := r4.Peek(5)
+w := bufio.NewWriter(f)
+n4, err := w.WriteString("buffered\n")
 
 
 
-// json
+
+import (
+    "encoding/json"
+)
+
+type Resp struct {
+    Page   int      `json:"page"`
+    Fruits []string `json:"fruits"`
+}
+str := `{"page": 1, "fruits": ["apple", "peach"]}`
+res := Resp{}
+json.Unmarshal([]byte(str), &res)
+
+bytes := []byte{}
+var obj map[string]interface{}
+json.Unmarshal(bytes, &obj)
 
 
-// time 
+
+import "time"
+
 start := time.Now()
 elapsed := time.Since(start)
 time.Sleep(100 * time.Millisecond)
@@ -116,6 +180,39 @@ time.Sleep(100 * time.Millisecond)
 case <-time.After(10 * time.Second): 
 
 
+
+
+import "net/url"
+u, err := url.Parse(s)
+
+// http
+import "net/http"
+
+resp, err := http.Get("https://gobyexample.com")
+defer resp.Body.Close()
+
+scanner := bufio.NewScanner(resp.Body)
+
+
+func hello(w http.ResponseWriter, req *http.Request) {}
+http.HandleFunc("/hello", hello)
+http.ListenAndServe(":8090", nil)
+
+
+os.Setenv("FOO", "1")
+os.Getenv("FOO")
+
+
+	
+import (
+    "log"
+    "log/slog"
+)
+log.Println("standard logger")
+
+jsonHandler := slog.NewJSONHandler(os.Stderr, nil)
+logger := slog.New(jsonHandler)
+logger.Info("hi", "key", "val") // msg, kv pairs ..
 
 // conc. 
 go
@@ -135,14 +232,7 @@ once.Do(func)
 
 sync/atomic
 
-ctx 
-    <-ctx.Done()
+
+<-ctx.Done()
 
 ```
-
-
-<https://nghiant3223.github.io/2025/06/03/memory_allocation_in_go.html>
-
-<https://itnext.io/how-to-implement-the-outbox-pattern-in-go-and-postgres-e9bc2699cbe2>
-
-<https://grafana.com/blog/how-i-write-http-services-in-go-after-13-years/>

@@ -3,13 +3,10 @@
 ## schema
 ```
 encoding
-    text 
-    binary 
+    text: json, csv 
+    binary: avro, protobuf 
 
 schema evolution
-    avro 
-    protobuf 
-
     keep unknown fields
     tags vs names: compact + rename later
 
@@ -17,8 +14,9 @@ schema evolution
         deleting required fields
         changing field types
 
-    old code -> new data 
-    old data <- new code 
+old code -> new data 
+old data <- new code 
+
 ```
 
 ## integrity

@@ -30,15 +30,16 @@ multi modal: dynamo, cosmos
 ## redis 
 ```
 sorted set: skip list + map
-    zadd zrem
-    zrank zrevrank: skip list pointers have spans (count of nodes it skips)
+    zadd zrem zrank
 
 tags
     user:{123}:profile
     {123} is a tag
     tags go to the same shard
 
-redlock: multi-master cluster, majority lock with ttl
+redlock
+  multi-master cluster
+  majority lock with ttl
 
 scaling 
     Single 
@@ -51,50 +52,6 @@ sharding
     CRC16(key) % 16384
 ```
 
-## kafka 
-```
-cluster
-node
-
-broker
-
-topic
-partition
-    leader
-    replica
-    ISR
-log segment
-
-producer
-
-consumer group
-consumer
-
-epoch
-acknowledgment level (0, 1, all replicas)
-
-optimized
-    zero-copy
-    custom wire protocol
-
-    sequential i/o
-    batch
-    compress
-    pagecache
-    fsync
-
-    sendfile: pagecache to netbuffer
-
-idempotence
-    each msg has (ProducerID, PartitionID, SequenceNumber)
-    broker dedups
-
-exactly-once
-    idempotence, retry, dedup 
-    read committed consumers
-
-    if multi-topic: atomic writes by 2PC
-```
 
 ## k8s 
 ```
@@ -165,5 +122,4 @@ manage certs
 
 health-check
 failover
-
 ```

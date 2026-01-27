@@ -1,14 +1,5 @@
 ---
 ---
-## docs
-<https://diataxis.fr/>
-ref
-example
-howto
-tutorial
-
-
-
 ## uniq ids
 uuid: not-sortable
 id-server: spof
@@ -20,10 +11,8 @@ token bucket
 leaky bucket 
 sliding window with weight 
 
-redis
-  incr 
-k8s 
-  nginx, traefik, ingress controller 
+redis incr 
+k8s ingress controller 
 ```
 
 ## file system
@@ -71,24 +60,12 @@ webhooks
 
 
 ## next 
-
+```
 streaming
-music
-video
-movie
-kafka
-
 payments
-
-crawler
 search engine
-
 chat
-imessage
-
-yelp
-find my
-
+maps 
 news
-
 trader
+```

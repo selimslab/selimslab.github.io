@@ -12,8 +12,9 @@ poly: treat in a uniform way
 ## patterns 
 ```
 create
-    singleton: app config, logger, connection pools, hardware interface
-    factory 
+    singleton: app config, logger
+
+    factory, abs. fac: dep. inj. 
 
     builder: http requests, db queries
     proto: copy 

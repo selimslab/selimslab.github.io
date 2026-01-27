@@ -7,8 +7,8 @@ replicate WAL or rows
 
 leader 
     single 
-    multi leader cause write conflicts
-    none, dynamo, cassandra, quorums are still eventual 
+    multi leader: cause write conflicts
+    none: dynamo, cassandra, quorum, eventual 
 
     failover: detect, elect, fence 
 
@@ -18,14 +18,8 @@ lag
     consistent prefix reads 
 
     conflicts 
-        avoid: CRDT, OT, same-writer
+        avoid: same-writer, CRDT, OT 
         resolve: read-repair, anti-entropy, app logic 
-
-other 
-    order events by version vectors 
-    different sort order per replica
-    topology 
-
 ```
 
 ## partitioning
@@ -54,13 +48,14 @@ rebalancing is expensive
 ```
 lamport clock
     single counter per process
+    can't detect concurrent
     can only tell if A happens-before B
 
 vector clocks
     list of counters per process
-    can detect concurrency, detects conflicts 
+    can detect concurrency conflicts 
 
-versions
+version vectors
     each replica tracks versions of replicated data objects 
 
 availability
@@ -73,9 +68,10 @@ availability
 
 ## consistency
 ```
-linearizable
-    single copy illusion
-    single leader + election consensus + (sync replication or raft quorum)
+linearizable: single copy illusion
+    single leader
+    election consensus
+    sync replication or raft quorum
 
 causal: vector clocks + dependency tracking
 
