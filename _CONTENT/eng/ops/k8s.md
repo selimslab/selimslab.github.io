@@ -1,14 +1,8 @@
 ---
 ---
 ```
-simulate
-progressive rollouts
-blue/green, canary 
-test in prod
-```
+kubectl: get, describe, explain
 
-## k8s 
-```
 control plane 
   api-server
   etcd 
@@ -23,8 +17,10 @@ node
 namespace 
   deployment
   pvc
+  
   service 
   secret 
+  
   hpa 
 
   job
@@ -34,20 +30,24 @@ deployment
   daemonset
   statefulset 
   replicaset 
-    pod 
-      container 
+
+replicaset 
+  pod 
+    container 
 
 resource quota
 
-volume: emptyDir | hostPath | ConfigMap | Secret | PersistentVolumeClaim
+volume: PVC | ConfigMap | Secret 
 
 service: ClusterIP | NodePort | LoadBalancer
 endpoint 
+
 ingress 
 network policy 
 
 service account 
 rbac role 
+
 configmap 
 secret 
 
@@ -57,23 +57,4 @@ hpa/vpa pod auto scaler
 CustomResourceDefinition
 webhooks
 
-kubectl: get, describe, explain
-```
-
-## nginx 
-```
-load-balance
-rate-limit 
-
-filter 
-log 
-
-gzip
-buffer
-
-tls-terminate 
-manage certs
-
-health-check
-failover
 ```

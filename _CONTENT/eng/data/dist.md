@@ -1,48 +1,25 @@
 ---
 ---
-## replication
+## consistency
 ```
-(part x, rep y)
-replicate WAL or rows 
+linearizable: single copy illusion
+    single leader
+    election consensus
+    sync replication or raft quorum
 
-leader 
-    single 
-    multi leader: cause write conflicts
-    none: dynamo, cassandra, quorum, eventual 
+causal: vector clocks + dependency tracking
 
-    failover: detect, elect, fence 
-
-lag
-    read your writes 
-    monotonic reads 
-    consistent prefix reads 
-
-    conflicts 
-        avoid: same-writer, CRDT, OT 
-        resolve: read-repair, anti-entropy, app logic 
+eventual: async replication + conflict resolution
 ```
 
-## partitioning
+## consensus
 ```
-types
-    key range
-    hash of key 
-    (hashkey, sortkey)
+raft: majority ack, term number fencing 
 
-hot spots: random prefix suffix
+atomic commit: 2PC + raft for coordinator failover  
 
-indexes
-    local vs global 
-    scatter-gatter: tail-latency amp. 
-
-rebalancing is expensive 
-    fixed # of parts
-    dynamic, split large, merge small. good for key-range
-    hybrid 
-
-    service discovery, request routing 
+2PC: ask all, commit if they all ack, coordinator spof 
 ```
-
 
 ## time and order 
 ```
@@ -63,29 +40,4 @@ availability
     adapt to network conditions
     lease with ttl
     gossip
-```
-
-
-## consistency
-```
-linearizable: single copy illusion
-    single leader
-    election consensus
-    sync replication or raft quorum
-
-causal: vector clocks + dependency tracking
-
-eventual: async replication + conflict resolution
-```
-
-## consensus
-```
-raft: majority ack, term number fencing 
-
-atomic commit
-    2PC
-        ask all, commit if they all ack
-        like marriage, coordinator spof 
-
-    practical: 2pc + raft for coordinator failover 
 ```
