@@ -14,7 +14,7 @@ class AssetGenerator < Jekyll::Generator
 
   def generate(site)
     write_json("#{DATA_PATH}/artworks.json", get_artworks)
-    write_json("#{DATA_PATH}/tracks.json", read_tracks)
+    # write_json("#{DATA_PATH}/tracks.json", read_tracks)
     @generated = true
   end
 
