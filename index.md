@@ -14,7 +14,7 @@ layout: nav
 <script src="/assets/js/datetime.js"></script>
 
 <script>
-  show_date_and_time();
+  show_time();
 </script>
 
 <style>

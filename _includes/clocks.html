@@ -6,33 +6,34 @@
 <div class="mono has-text-centered">
 
 
-    <p class="time" id="current-time"></p>
-    {% include clock.html type="hour" id="hourClock" %}
+  <p class="time" id="current-time"></p>
+  {% include clock.html type="hour" id="hourClock" %}
 
-    <p class="time" id="current-date"></p>
-    {% include clock.html type="month" id="monthClock" %}
+  <p class="time" id="current-date"></p>
+  {% include clock.html type="month" id="monthClock" %}
 
-    <p class="time" id="current-year"></p>
-    {% include clock.html type="year" id="yearClock" %}
+  <p class="time" id="current-year"></p>
+  {% include clock.html type="year" id="yearClock" %}
 
-    {% include clock.html type="decade" id="decadeClock" title="Decades" %}
+  {% include clock.html type="decade" id="decadeClock" title="Decades" %}
 
-    {% include clock.html type="century" id="centuryClock" title="Centuries" %}
+  {% include clock.html type="century" id="centuryClock" title="Centuries" %}
 
-    {% include clock.html type="millennia" id="millenniaClock" title="Millennia" %}
+  {% include clock.html type="millennia" id="millenniaClock" title="Millennia" %}
 
 
 </div>
 
 
 <script>
-  show_date_and_time();
+  show_date();
+  show_time();
   document.getElementById('current-year').innerHTML = new Date().getFullYear();
 
 </script>
 
 <style>
-  .time{
+  .time {
     margin: 0;
   }
 </style>

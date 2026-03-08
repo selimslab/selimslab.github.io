@@ -36,10 +36,14 @@ function get_sunrise_and_sunset(): void {
 
 }
 
-function show_date_and_time(): void {
+function show_date(): void {
 
     const today = moment();
     document.getElementById('current-date')!.innerHTML = today.format('ddd MMM DD');
+
+}
+
+function show_time(): void{
     function updateClock(): void {
         const now = new Date();
         document.getElementById('current-time')!.textContent =

@@ -24,9 +24,11 @@ function get_the_last_day_of_this_year() {
 }
 function get_sunrise_and_sunset() {
 }
-function show_date_and_time() {
+function show_date() {
     const today = moment();
     document.getElementById('current-date').innerHTML = today.format('ddd MMM DD');
+}
+function show_time() {
     function updateClock() {
         const now = new Date();
         document.getElementById('current-time').textContent =
