@@ -24,8 +24,6 @@ interface ClockConfig {
 
 interface ClockSetup {
     segmentNames: string[];
-    segmentCount: number;
-    segmentFractions: number[];
     markCount: number;
 }
 
@@ -38,6 +36,8 @@ interface Point {
     x: number;
     y: number;
 }
+
+const TAU = 2 * Math.PI;
 
 const CLOCK_CONFIG: ClockConfig = {
     radius: 144,
@@ -70,69 +70,54 @@ const CLOCK_CONFIG: ClockConfig = {
     clockTypes: {
         hour: {
             segmentNames: ['12', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11'],
-            segmentCount: 12,
-            segmentFractions: Array.from({ length: 12 }, (_, i) => i / 12),
             markCount: 48
         },
         month: {
             segmentNames: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-            segmentCount: 12,
-            segmentFractions: Array.from({ length: 12 }, (_, i) => i / 12),
             markCount: 48
         },
         year: {
             segmentNames: ['2000', '', '2010', '', '2020', '', '2030', '', '2040', '', '2050', ''],
-            segmentCount: 12,
-            segmentFractions: Array.from({ length: 12 }, (_, i) => i / 12),
             markCount: 60
         },
         decimal: {
             segmentNames: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],
-            segmentCount: 10,
-            segmentFractions: Array.from({ length: 10 }, (_, i) => i / 10),
             markCount: 100
         },
         decade: {
             segmentNames: ['0', '10', '20', '30', '40', '50', '60', '70', '80', '90', ''],
-            segmentCount: 10,
-            segmentFractions: Array.from({ length: 10 }, (_, i) => i / 10),
             markCount: 20
         },
         century: {
             segmentNames: ['1200', '', '', '1500', '', '', '1800', '', '', '2100', '', '', ''],
-            segmentCount: 12,
-            segmentFractions: Array.from({ length: 12 }, (_, i) => i / 12),
             markCount: 48
         },
         millennia: {
             segmentNames: ['', '', '', '', '', '', '', '', '', '', '', '', ''],
-            segmentCount: 12,
-            segmentFractions: Array.from({ length: 12 }, (_, i) => i / 12),
             markCount: 60
         }
     }
 };
 
-function getCurrentPosition(type: string): number {
-    const positionFunctions: Record<string, () => number> = {
-        'hour': getHourPosition,
-        'month': getMonthPosition,
-        'year': getYearPosition,
-        'decimal': getDecimalPosition,
-        'decade': getDecadePosition,
-        'century': getCenturyPosition,
-        'millennia': getMillenniaPosition
-    };
+const POSITION_FUNCTIONS: Record<string, () => number> = {
+    'hour': getHourPosition,
+    'month': getMonthPosition,
+    'year': getYearPosition,
+    'decimal': getDecimalPosition,
+    'decade': getDecadePosition,
+    'century': getCenturyPosition,
+    'millennia': getMillenniaPosition
+};
 
-    const positionFunction = positionFunctions[type] || positionFunctions['year'];
-    return positionFunction();
+function getCurrentPosition(type: string): number {
+    return (POSITION_FUNCTIONS[type] || POSITION_FUNCTIONS['year'])();
 }
 
 function getClockSetup(type: string): ClockSetup {
     return CLOCK_CONFIG.clockTypes[type] || CLOCK_CONFIG.clockTypes.year;
 }
 
-function drawLine(ctx: CanvasRenderingContext2D, startX: number, startY: number, endX: number, endY: number, color: string, width: number, opacity = 1.0): CanvasRenderingContext2D {
+function drawLine(ctx: CanvasRenderingContext2D, startX: number, startY: number, endX: number, endY: number, color: string, width: number, opacity = 1.0): void {
     ctx.beginPath();
     ctx.moveTo(startX, startY);
     ctx.lineTo(endX, endY);
@@ -140,12 +125,11 @@ function drawLine(ctx: CanvasRenderingContext2D, startX: number, startY: number,
     ctx.strokeStyle = color;
     ctx.lineWidth = width;
     ctx.stroke();
-    return ctx;
 }
 
-function drawCircle(ctx: CanvasRenderingContext2D, x: number, y: number, radius: number, color: string, fill = true, opacity = 1.0): CanvasRenderingContext2D {
+function drawCircle(ctx: CanvasRenderingContext2D, x: number, y: number, radius: number, color: string, fill = true, opacity = 1.0): void {
     ctx.beginPath();
-    ctx.arc(x, y, radius, 0, 2 * Math.PI);
+    ctx.arc(x, y, radius, 0, TAU);
     ctx.globalAlpha = opacity;
 
     if (fill) {
@@ -155,17 +139,15 @@ function drawCircle(ctx: CanvasRenderingContext2D, x: number, y: number, radius:
         ctx.strokeStyle = color;
         ctx.stroke();
     }
-    return ctx;
 }
 
-function drawText(ctx: CanvasRenderingContext2D, text: string, x: number, y: number, color: string, fontSize: number, opacity = 1.0): CanvasRenderingContext2D {
+function drawText(ctx: CanvasRenderingContext2D, text: string, x: number, y: number, color: string, fontSize: number, opacity = 1.0): void {
     ctx.font = `${fontSize}px sans-serif`;
     ctx.fillStyle = color;
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
     ctx.globalAlpha = opacity;
     ctx.fillText(text, x, y);
-    return ctx;
 }
 
 function getPointFromAngle(center: Point, angle: number, distance: number): Point {
@@ -180,14 +162,14 @@ function getHourPosition(): number {
     const hour = now.hour() % 12;
     const minute = now.minute();
     const second = now.second();
-    return ((hour * 60 + minute + second / 60) / 720) * 2 * Math.PI;
+    return ((hour * 60 + minute + second / 60) / 720) * TAU;
 }
 
 function getMonthPosition(): number {
     const now = moment();
     const month = now.month();
     const day = now.date();
-    return (month + day / now.daysInMonth()) / 12 * 2 * Math.PI;
+    return (month + day / now.daysInMonth()) / 12 * TAU;
 }
 
 function getYearPosition(): number {
@@ -197,7 +179,7 @@ function getYearPosition(): number {
     const day = now.date();
     const yearsSince2000 = year - 2000;
     const fractionOfYear = (month * 30 + day) / 365;
-    return ((yearsSince2000 + fractionOfYear) / 60) * 2 * Math.PI;
+    return ((yearsSince2000 + fractionOfYear) / 60) * TAU;
 }
 
 function getDecimalPosition(): number {
@@ -208,19 +190,18 @@ function getDecadePosition(): number {
     const now = moment();
     const year = now.year();
     const month = now.month();
-    return (year + month / 12 - 2000) / 100 * 2 * Math.PI;
+    return (year + month / 12 - 2000) / 100 * TAU;
 }
 
 function getCenturyPosition(): number {
     const now = moment();
     const year = now.year();
     const month = now.month();
-    return (year + month / 12 - 1200) / 1200 * 2 * Math.PI;
+    return (year + month / 12 - 1200) / 1200 * TAU;
 }
 
 function getMillenniaPosition(): number {
-    const year = moment().year();
-    return (year) / 12000 * 2 * Math.PI;
+    return moment().year() / 12000 * TAU;
 }
 
 function drawClockDial(ctx: CanvasRenderingContext2D, config: ClockConfig, clockSetup: ClockSetup): void {
@@ -228,16 +209,17 @@ function drawClockDial(ctx: CanvasRenderingContext2D, config: ClockConfig, clock
 
     drawCircle(ctx, config.center.x, config.center.y, config.radius, config.colors.dial, false, config.opacities.dial);
 
-    for (let segment = 0; segment < clockSetup.segmentCount; segment++) {
-        drawMarks(ctx, config, clockSetup, segment);
+    const segmentCount = clockSetup.segmentNames.length;
+    for (let segment = 0; segment < segmentCount; segment++) {
+        drawMarks(ctx, config, clockSetup, segment / segmentCount);
     }
 
     drawMiniMarks(ctx, config, clockSetup);
 }
 
-function drawMarks(ctx: CanvasRenderingContext2D, config: ClockConfig, clockSetup: ClockSetup, segment: number): void {
+function drawMarks(ctx: CanvasRenderingContext2D, config: ClockConfig, clockSetup: ClockSetup, fraction: number): void {
     const { sizes, colors, opacities } = config;
-    const segmentAngle = clockSetup.segmentFractions[segment] * 2 * Math.PI;
+    const segmentAngle = fraction * TAU;
 
     const innerPoint = getPointFromAngle(config.center, segmentAngle, config.radius - sizes.markLength);
     const outerPoint = getPointFromAngle(config.center, segmentAngle, config.radius - sizes.markLength / 2);
@@ -245,15 +227,15 @@ function drawMarks(ctx: CanvasRenderingContext2D, config: ClockConfig, clockSetu
     drawLine(ctx, innerPoint.x, innerPoint.y, outerPoint.x, outerPoint.y, colors.marks, sizes.markWidth, opacities.marks);
 
     const labelPoint = getPointFromAngle(config.center, segmentAngle, config.radius - sizes.markLength - sizes.labelPadding);
-
-    drawText(ctx, clockSetup.segmentNames[segment], labelPoint.x, labelPoint.y, colors.marks, sizes.labelFontSize, opacities.labels);
+    const segmentIndex = Math.round(fraction * clockSetup.segmentNames.length) % clockSetup.segmentNames.length;
+    drawText(ctx, clockSetup.segmentNames[segmentIndex], labelPoint.x, labelPoint.y, colors.marks, sizes.labelFontSize, opacities.labels);
 }
 
 function drawMiniMarks(ctx: CanvasRenderingContext2D, config: ClockConfig, clockSetup: ClockSetup): void {
     const { sizes, colors, opacities } = config;
 
     for (let i = 0; i < clockSetup.markCount; i++) {
-        const angle = (i / clockSetup.markCount) * 2 * Math.PI;
+        const angle = (i / clockSetup.markCount) * TAU;
         const innerPoint = getPointFromAngle(config.center, angle, config.radius - sizes.markLength);
         const outerPoint = getPointFromAngle(config.center, angle, config.radius - sizes.markLength * 0.5);
         drawLine(ctx, innerPoint.x, innerPoint.y, outerPoint.x, outerPoint.y, colors.marks, sizes.markWidth, opacities.miniMarks);
@@ -274,8 +256,7 @@ function drawHand(ctx: CanvasRenderingContext2D, config: ClockConfig, angle: num
     drawLine(ctx, handPoint.x, handPoint.y, handEnd.x, handEnd.y, colors.highlight, sizes.handWidth * 0.5, 1.0);
 
     const circleRadius = config.radius * sizes.handCircleRadius;
-    const circleDistance = handLength * tip;
-    const circlePoint = getPointFromAngle(config.center, angle, circleDistance);
+    const circlePoint = getPointFromAngle(config.center, angle, handLength * tip);
     drawCircle(ctx, circlePoint.x, circlePoint.y, circleRadius, colors.highlight, true, 1.0);
 }
 
@@ -306,7 +287,9 @@ function updateClock(ctx: CanvasRenderingContext2D, config: ClockConfig, clockSe
     requestAnimationFrame(() => updateClock(ctx, config, clockSetup, type));
 }
 
-function initClock(options: ClockOptions): void {
+let themeObserver: MutationObserver | null = null;
+
+function draw_clock(options: ClockOptions): void {
     const id = options.id || 'default';
     const type = options.type || 'year';
 
@@ -322,12 +305,10 @@ function initClock(options: ClockOptions): void {
     ctx.scale(dpr, dpr);
 
     syncThemeColors(config);
-    const observer = new MutationObserver(() => syncThemeColors(config));
-    observer.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+
+    themeObserver?.disconnect();
+    themeObserver = new MutationObserver(() => syncThemeColors(config));
+    themeObserver.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
 
     updateClock(ctx, config, clockSetup, type);
-}
-
-function draw_clock(options: ClockOptions): void {
-    initClock(options);
 }

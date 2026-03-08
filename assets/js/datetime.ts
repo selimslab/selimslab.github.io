@@ -39,8 +39,7 @@ function get_sunrise_and_sunset(): void {
 function show_date_and_time(): void {
 
     const today = moment();
-
-    // document.querySelector("#current-date").innerHTML = today.format('ddd MMM DD');
+    document.getElementById('current-date')!.innerHTML = today.format('ddd MMM DD');
     function updateClock(): void {
         const now = new Date();
         document.getElementById('current-time')!.textContent =

@@ -1,4 +1,5 @@
 "use strict";
+const TAU = 2 * Math.PI;
 const CLOCK_CONFIG = {
     radius: 144,
     center: { x: 0, y: 0 },
@@ -26,60 +27,45 @@ const CLOCK_CONFIG = {
     clockTypes: {
         hour: {
             segmentNames: ['12', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11'],
-            segmentCount: 12,
-            segmentFractions: Array.from({ length: 12 }, (_, i) => i / 12),
             markCount: 48
         },
         month: {
             segmentNames: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-            segmentCount: 12,
-            segmentFractions: Array.from({ length: 12 }, (_, i) => i / 12),
             markCount: 48
         },
         year: {
             segmentNames: ['2000', '', '2010', '', '2020', '', '2030', '', '2040', '', '2050', ''],
-            segmentCount: 12,
-            segmentFractions: Array.from({ length: 12 }, (_, i) => i / 12),
             markCount: 60
         },
         decimal: {
             segmentNames: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],
-            segmentCount: 10,
-            segmentFractions: Array.from({ length: 10 }, (_, i) => i / 10),
             markCount: 100
         },
         decade: {
             segmentNames: ['0', '10', '20', '30', '40', '50', '60', '70', '80', '90', ''],
-            segmentCount: 10,
-            segmentFractions: Array.from({ length: 10 }, (_, i) => i / 10),
             markCount: 20
         },
         century: {
             segmentNames: ['1200', '', '', '1500', '', '', '1800', '', '', '2100', '', '', ''],
-            segmentCount: 12,
-            segmentFractions: Array.from({ length: 12 }, (_, i) => i / 12),
             markCount: 48
         },
         millennia: {
             segmentNames: ['', '', '', '', '', '', '', '', '', '', '', '', ''],
-            segmentCount: 12,
-            segmentFractions: Array.from({ length: 12 }, (_, i) => i / 12),
             markCount: 60
         }
     }
 };
+const POSITION_FUNCTIONS = {
+    'hour': getHourPosition,
+    'month': getMonthPosition,
+    'year': getYearPosition,
+    'decimal': getDecimalPosition,
+    'decade': getDecadePosition,
+    'century': getCenturyPosition,
+    'millennia': getMillenniaPosition
+};
 function getCurrentPosition(type) {
-    const positionFunctions = {
-        'hour': getHourPosition,
-        'month': getMonthPosition,
-        'year': getYearPosition,
-        'decimal': getDecimalPosition,
-        'decade': getDecadePosition,
-        'century': getCenturyPosition,
-        'millennia': getMillenniaPosition
-    };
-    const positionFunction = positionFunctions[type] || positionFunctions['year'];
-    return positionFunction();
+    return (POSITION_FUNCTIONS[type] || POSITION_FUNCTIONS['year'])();
 }
 function getClockSetup(type) {
     return CLOCK_CONFIG.clockTypes[type] || CLOCK_CONFIG.clockTypes.year;
@@ -92,11 +78,10 @@ function drawLine(ctx, startX, startY, endX, endY, color, width, opacity = 1.0) 
     ctx.strokeStyle = color;
     ctx.lineWidth = width;
     ctx.stroke();
-    return ctx;
 }
 function drawCircle(ctx, x, y, radius, color, fill = true, opacity = 1.0) {
     ctx.beginPath();
-    ctx.arc(x, y, radius, 0, 2 * Math.PI);
+    ctx.arc(x, y, radius, 0, TAU);
     ctx.globalAlpha = opacity;
     if (fill) {
         ctx.fillStyle = color;
@@ -106,7 +91,6 @@ function drawCircle(ctx, x, y, radius, color, fill = true, opacity = 1.0) {
         ctx.strokeStyle = color;
         ctx.stroke();
     }
-    return ctx;
 }
 function drawText(ctx, text, x, y, color, fontSize, opacity = 1.0) {
     ctx.font = `${fontSize}px sans-serif`;
@@ -115,7 +99,6 @@ function drawText(ctx, text, x, y, color, fontSize, opacity = 1.0) {
     ctx.textBaseline = 'middle';
     ctx.globalAlpha = opacity;
     ctx.fillText(text, x, y);
-    return ctx;
 }
 function getPointFromAngle(center, angle, distance) {
     return {
@@ -128,13 +111,13 @@ function getHourPosition() {
     const hour = now.hour() % 12;
     const minute = now.minute();
     const second = now.second();
-    return ((hour * 60 + minute + second / 60) / 720) * 2 * Math.PI;
+    return ((hour * 60 + minute + second / 60) / 720) * TAU;
 }
 function getMonthPosition() {
     const now = moment();
     const month = now.month();
     const day = now.date();
-    return (month + day / now.daysInMonth()) / 12 * 2 * Math.PI;
+    return (month + day / now.daysInMonth()) / 12 * TAU;
 }
 function getYearPosition() {
     const now = moment();
@@ -143,7 +126,7 @@ function getYearPosition() {
     const day = now.date();
     const yearsSince2000 = year - 2000;
     const fractionOfYear = (month * 30 + day) / 365;
-    return ((yearsSince2000 + fractionOfYear) / 60) * 2 * Math.PI;
+    return ((yearsSince2000 + fractionOfYear) / 60) * TAU;
 }
 function getDecimalPosition() {
     return 0;
@@ -152,39 +135,40 @@ function getDecadePosition() {
     const now = moment();
     const year = now.year();
     const month = now.month();
-    return (year + month / 12 - 2000) / 100 * 2 * Math.PI;
+    return (year + month / 12 - 2000) / 100 * TAU;
 }
 function getCenturyPosition() {
     const now = moment();
     const year = now.year();
     const month = now.month();
-    return (year + month / 12 - 1200) / 1200 * 2 * Math.PI;
+    return (year + month / 12 - 1200) / 1200 * TAU;
 }
 function getMillenniaPosition() {
-    const year = moment().year();
-    return (year) / 12000 * 2 * Math.PI;
+    return moment().year() / 12000 * TAU;
 }
 function drawClockDial(ctx, config, clockSetup) {
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
     drawCircle(ctx, config.center.x, config.center.y, config.radius, config.colors.dial, false, config.opacities.dial);
-    for (let segment = 0; segment < clockSetup.segmentCount; segment++) {
-        drawMarks(ctx, config, clockSetup, segment);
+    const segmentCount = clockSetup.segmentNames.length;
+    for (let segment = 0; segment < segmentCount; segment++) {
+        drawMarks(ctx, config, clockSetup, segment / segmentCount);
     }
     drawMiniMarks(ctx, config, clockSetup);
 }
-function drawMarks(ctx, config, clockSetup, segment) {
+function drawMarks(ctx, config, clockSetup, fraction) {
     const { sizes, colors, opacities } = config;
-    const segmentAngle = clockSetup.segmentFractions[segment] * 2 * Math.PI;
+    const segmentAngle = fraction * TAU;
     const innerPoint = getPointFromAngle(config.center, segmentAngle, config.radius - sizes.markLength);
     const outerPoint = getPointFromAngle(config.center, segmentAngle, config.radius - sizes.markLength / 2);
     drawLine(ctx, innerPoint.x, innerPoint.y, outerPoint.x, outerPoint.y, colors.marks, sizes.markWidth, opacities.marks);
     const labelPoint = getPointFromAngle(config.center, segmentAngle, config.radius - sizes.markLength - sizes.labelPadding);
-    drawText(ctx, clockSetup.segmentNames[segment], labelPoint.x, labelPoint.y, colors.marks, sizes.labelFontSize, opacities.labels);
+    const segmentIndex = Math.round(fraction * clockSetup.segmentNames.length) % clockSetup.segmentNames.length;
+    drawText(ctx, clockSetup.segmentNames[segmentIndex], labelPoint.x, labelPoint.y, colors.marks, sizes.labelFontSize, opacities.labels);
 }
 function drawMiniMarks(ctx, config, clockSetup) {
     const { sizes, colors, opacities } = config;
     for (let i = 0; i < clockSetup.markCount; i++) {
-        const angle = (i / clockSetup.markCount) * 2 * Math.PI;
+        const angle = (i / clockSetup.markCount) * TAU;
         const innerPoint = getPointFromAngle(config.center, angle, config.radius - sizes.markLength);
         const outerPoint = getPointFromAngle(config.center, angle, config.radius - sizes.markLength * 0.5);
         drawLine(ctx, innerPoint.x, innerPoint.y, outerPoint.x, outerPoint.y, colors.marks, sizes.markWidth, opacities.miniMarks);
@@ -201,8 +185,7 @@ function drawHand(ctx, config, angle) {
     drawLine(ctx, config.center.x, config.center.y, handPoint.x, handPoint.y, colors.hands, sizes.handWidth, 1.0);
     drawLine(ctx, handPoint.x, handPoint.y, handEnd.x, handEnd.y, colors.highlight, sizes.handWidth * 0.5, 1.0);
     const circleRadius = config.radius * sizes.handCircleRadius;
-    const circleDistance = handLength * tip;
-    const circlePoint = getPointFromAngle(config.center, angle, circleDistance);
+    const circlePoint = getPointFromAngle(config.center, angle, handLength * tip);
     drawCircle(ctx, circlePoint.x, circlePoint.y, circleRadius, colors.highlight, true, 1.0);
 }
 function drawCenterDot(ctx, config) {
@@ -226,7 +209,8 @@ function updateClock(ctx, config, clockSetup, type) {
     drawCenterDot(ctx, config);
     requestAnimationFrame(() => updateClock(ctx, config, clockSetup, type));
 }
-function initClock(options) {
+let themeObserver = null;
+function draw_clock(options) {
     const id = options.id || 'default';
     const type = options.type || 'year';
     const canvas = document.getElementById(`clockCanvas-${id}`);
@@ -238,10 +222,8 @@ function initClock(options) {
     canvas.width = canvas.height = config.radius * 2 * dpr;
     ctx.scale(dpr, dpr);
     syncThemeColors(config);
-    const observer = new MutationObserver(() => syncThemeColors(config));
-    observer.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+    themeObserver === null || themeObserver === void 0 ? void 0 : themeObserver.disconnect();
+    themeObserver = new MutationObserver(() => syncThemeColors(config));
+    themeObserver.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
     updateClock(ctx, config, clockSetup, type);
-}
-function draw_clock(options) {
-    initClock(options);
 }
