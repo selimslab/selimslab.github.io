@@ -103,7 +103,7 @@
       track = allTracks.find(t => t.id === trackId)
       nowPlaying.textContent = track.title;
       navigator.mediaSession.metadata.title = track.title;
-      
+
       document.querySelectorAll('.track').forEach(t => t.classList.remove('active'));
       document.querySelector(`.track[data-id="${track.id}"]`).classList.add('active');
 
@@ -169,7 +169,7 @@
     function updateMediaSessionMetadata(track) {
       if (!('mediaSession' in navigator)) return
 
-      const artworkUrl = window.location.origin + `/assets/static/primes.png`;
+      const artworkUrl = window.location.origin + `/assets/static/site/primes.png`;
       const metadata = {
         title: track?.title || '',
         artist: '',
@@ -241,5 +241,4 @@
   .track-list {
     margin-bottom: 1rem;
   }
-
 </style>
