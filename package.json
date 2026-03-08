@@ -1,0 +1,24 @@
+{
+  "name": "selimslab.github.io",
+  "version": "1.0.0",
+  "description": "View at <https://selimslab.github.io>",
+  "main": "sw.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selimslab/selimslab.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/selimslab/selimslab.github.io/issues"
+  },
+  "homepage": "https://github.com/selimslab/selimslab.github.io#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

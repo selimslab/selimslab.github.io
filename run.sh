@@ -1,1 +1,1 @@
-bundle exec jekyll serve  
+npm run build && bundle exec jekyll serve

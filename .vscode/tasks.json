@@ -14,5 +14,19 @@
           "runOn": "folderOpen"
         }
       }
+      ,{
+        "label": "Build TS",
+        "type": "shell",
+        "command": "npm run build",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "presentation": {
+          "reveal": "silent",
+          "panel": "shared"
+        },
+        "problemMatcher": "$tsc"
+      }
     ]
 }
