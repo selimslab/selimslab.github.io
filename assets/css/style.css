@@ -1,0 +1,117 @@
+/* minimal reset (replaces bulma) */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  font: inherit;
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* site styles */
+html {
+  line-height: 1.8;
+  scroll-behavior: smooth;
+  font-size: large;
+}
+
+body {
+  font-family: "Atkinson Hyperlegible Mono", "Inconsolata", monospace;
+  background-color: #22272e;
+  background-image: url('/assets/static/solar/2k_stars_milky_way3.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  color: #eaecf0;
+  min-height: 100vh;
+  word-break: break-word;
+}
+
+p {
+  line-height: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+li {
+  line-height: 1.8rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+a {
+  color: #8ec5ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffc800;
+  text-decoration: underline;
+}
+
+a.site-name {
+  font-family: Georgia, serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: .25rem;
+  box-shadow: 0 .5em 1em -.125em rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .02);
+}
+
+::selection {
+  background: #3298dc;
+}
+
+article {
+  padding: 1rem;
+  padding-top: 0.5rem;
+  margin: 0 auto;
+  min-width: 40%;
+  max-width: 72ch;
+}
+
+details {
+  margin-bottom: 0.7rem;
+  margin-top: 0.7rem;
+}
+
+/* light theme */
+html[data-theme='light'] body {
+  background-image: url('/assets/static/site/paper.jpg');
+  background-attachment: unset;
+  background-position: unset;
+  color: #202122;
+}
+
+html[data-theme='light'] ::selection {
+  background: #ffc800;
+}
+
+html[data-theme='light'] a {
+  color: #2259a7;
+}
+
+html[data-theme='light'] a:visited {
+  color: #6b4ba1;
+}
+
+html[data-theme='light'] a:hover {
+  color: #FF530D;
+}
+
+html[data-theme='light'] a.site-name {
+  color: inherit;
+}

@@ -1,0 +1,9 @@
+.*
+!.github
+!.vscode
+node_modules/
+dist/
+src/*.js
+assets/js/*.js
+assets/data/artworks.json
+assets/data/tracks.json

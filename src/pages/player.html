@@ -1,0 +1,55 @@
+<div class="audio-player">
+  <div id="now-playing"></div>
+  <audio id="audio-player" controls></audio>
+  <div class="player-controls">
+    <button id="shuffle-button">Shuffle</button>
+  </div>
+</div>
+
+<div id="playlist"></div>
+
+<script src="/assets/js/player.js"></script>
+
+<style>
+  .audio-player {
+    position: sticky;
+    top: 0;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    z-index: 10;
+  }
+
+  #audio-player {
+    width: 100%;
+  }
+
+  #now-playing {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    backdrop-filter: blur(2px);
+  }
+
+  .player-controls {
+    display: flex;
+    justify-content: right;
+    margin-top: 0.5rem;
+  }
+
+  #shuffle-button.active {
+    color: #FF530D;
+  }
+
+  .track {
+    cursor: pointer;
+  }
+
+  .track:hover {
+    text-decoration: underline;
+  }
+
+  .track.active {
+    color: #FF530D;
+  }
+</style>

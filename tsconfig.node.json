@@ -1,0 +1,12 @@
+{
+  // node scripts: build and dev server
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022"],
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "types": ["node"],
+    "strict": true
+  },
+  "include": ["src/build.ts", "src/serve.ts"]
+}
