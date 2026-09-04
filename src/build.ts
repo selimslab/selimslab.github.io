@@ -16,7 +16,6 @@ interface Page {
 const pages: Page[] = [
     { src: "index.html", out: "index.html", title: "delta | one bit at a time" },
     { src: "words.html", out: "words/index.html", title: "words" },
-    { src: "clock.html", out: "clock/index.html", title: "clock" },
     { src: "pub.html", out: "pub/index.html", title: "pub" },
     { src: "404.html", out: "404.html", title: "404 - page not found" },
 ];
