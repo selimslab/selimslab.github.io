@@ -1,0 +1,10 @@
+{
+  // browser scripts: plain global scripts, no module system
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["ES2017", "DOM"],
+    "types": [],
+    "strict": true
+  },
+  "include": ["assets/js/*.ts"]
+}
