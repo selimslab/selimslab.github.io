@@ -3,31 +3,26 @@ import * as path from "node:path";
 
 const read = (p: string) => fs.readFileSync(p, "utf8");
 const head = read("src/partials/head.html");
-const nav = read("src/partials/nav.html");
 
 const expand = (html: string) =>
     html.replace(/\{\{include:([\w.-]+)\}\}/g, (_, name) => read(`src/partials/${name}`));
-
-// nav = article + navbar, article = article only
-type Wrap = "nav" | "article";
 
 interface Page {
     src: string;
     out: string;
     title: string;
-    wrap: Wrap;
 }
 
 const pages: Page[] = [
-    { src: "index.html", out: "index.html", title: "delta | one bit at a time", wrap: "nav" },
-    { src: "words.html", out: "words/index.html", title: "words", wrap: "article" },
-    { src: "clock.html", out: "clock/index.html", title: "clock", wrap: "article" },
-    { src: "pub.html", out: "pub/index.html", title: "pub", wrap: "nav" },
-    { src: "404.html", out: "404.html", title: "404 - page not found", wrap: "nav" },
+    { src: "index.html", out: "index.html", title: "delta | one bit at a time" },
+    { src: "words.html", out: "words/index.html", title: "words" },
+    { src: "clock.html", out: "clock/index.html", title: "clock" },
+    { src: "pub.html", out: "pub/index.html", title: "pub" },
+    { src: "404.html", out: "404.html", title: "404 - page not found" },
 ];
 
 function shell(page: Page, body: string): string {
-    const inner = `<article>\n${page.wrap === "nav" ? nav : ""}\n${body}\n</article>`;
+    const inner = `<article>\n${body}\n</article>`;
     return `<!DOCTYPE html>
 <html lang="en">
 ${head.replace(/\{\{title\}\}/g, page.title)}
